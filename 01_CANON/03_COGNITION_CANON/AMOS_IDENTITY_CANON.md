@@ -1,4597 +1,70 @@
+````markdown
 ---
-title: "AMOS Identity Canon"
+title: AMOS Identity Canon
 type: canon
-source: "01_CANON/03_COGNITION_CANON"
-artifact: "AMOS_IDENTITY_CANON.md"
-artifact_id: "amos_01_canon_03_cognition_canon_amos_identity_canon"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "01_CANON"
-segment: "01_CANON/03_COGNITION_CANON"
-artifact_kind: "CANON"
-path: "01_CANON/03_COGNITION_CANON/AMOS_IDENTITY_CANON.md"
-
+source: 01_CANON/03_COGNITION_CANON
+artifact: AMOS_IDENTITY_CANON.md
+artifact_id: amos_01_canon_03_cognition_canon_amos_identity_canon
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 01_CANON
+segment: 01_CANON/03_COGNITION_CANON
+artifact_kind: CANON
+path: 01_CANON/03_COGNITION_CANON/AMOS_IDENTITY_CANON.md
 tags:
   - amos_os
-  - amos_identity
-  - identity
-  - cognition
-  - cognition_canon
   - canon
   - universe
   - 01_canon
-  - 03_cognition_canon
   - canon_placeholder
-  - rscf
+  - identity
+  - cognition
   - provenance
   - lineage
-  - epistemic_integrity
+  - authority
   - scope
-  - regime
-  - temporal_validity
-  - identity_continuity
-  - identity_resolution
-  - validation
-  - competing_hypotheses
+  - versioning
+  - supersession
+  - rscf
   - canon/universe
-
-aliases:
-  - "AMOS Identity Canon"
-  - "AMOS Identity"
-
-version: "0.2.0"
-updated: "2026-08-27"
-
-status: "PLACEHOLDER_EXPANDED"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
-
-native_definition_status: "NOT_ESTABLISHED"
-native_identity_definition_status: "NOT_ESTABLISHED"
-native_identity_type_status: "NOT_ESTABLISHED"
-native_identity_subject_status: "NOT_ESTABLISHED"
-native_identity_object_status: "NOT_ESTABLISHED"
-native_identity_registry_status: "NOT_ESTABLISHED"
-native_identifier_schema_status: "NOT_ESTABLISHED"
-native_identity_resolution_status: "NOT_ESTABLISHED"
-native_identity_continuity_status: "NOT_ESTABLISHED"
-native_identity_persistence_status: "NOT_ESTABLISHED"
-native_identity_mutation_status: "NOT_ESTABLISHED"
-native_identity_versioning_status: "NOT_ESTABLISHED"
-native_identity_lineage_status: "NOT_ESTABLISHED"
-native_identity_equivalence_status: "NOT_ESTABLISHED"
-native_identity_alias_status: "NOT_ESTABLISHED"
-native_identity_merge_status: "NOT_ESTABLISHED"
-native_identity_split_status: "NOT_ESTABLISHED"
-native_identity_supersession_status: "NOT_ESTABLISHED"
-native_identity_authentication_status: "NOT_ESTABLISHED"
-native_identity_authorization_status: "NOT_ESTABLISHED"
-native_self_identity_status: "NOT_ESTABLISHED"
-native_personal_identity_status: "NOT_ESTABLISHED"
-native_agent_identity_status: "NOT_ESTABLISHED"
-native_system_identity_status: "NOT_ESTABLISHED"
-native_artifact_identity_status: "NOT_ESTABLISHED"
-native_cognitive_identity_status: "NOT_ESTABLISHED"
-native_consciousness_relation_status: "NOT_ESTABLISHED"
-native_memory_relation_status: "NOT_ESTABLISHED"
-native_agency_relation_status: "NOT_ESTABLISHED"
-native_human_identity_relation_status: "NOT_ESTABLISHED"
-native_rscf_binding_status: "NOT_ESTABLISHED"
-native_hml_binding_status: "NOT_ESTABLISHED"
-native_scope_status: "NOT_ESTABLISHED"
-native_regime_status: "NOT_ESTABLISHED"
-native_temporal_status: "NOT_ESTABLISHED"
-native_dependency_status: "NOT_ESTABLISHED"
-native_provenance_status: "PARTIALLY_SOURCE_SUPPORTED"
-provenance_independence_status: "NOT_ESTABLISHED"
-
+version: 0.1.0
+updated: '2026-08-27'
+status: PLACEHOLDER
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-  regime: canon_placeholder
-  confidence_ceiling: source_supported
 ---
 
 # AMOS Identity Canon
 
-> **Artifact:** `AMOS_IDENTITY_CANON.md`  
-> **Artifact ID:** `amos_01_canon_03_cognition_canon_amos_identity_canon`  
-> **System:** AMOS OS  
-> **Plane:** `01_CANON`  
-> **Segment:** `01_CANON/03_COGNITION_CANON`  
-> **Artifact kind:** `CANON`  
-> **Source state:** `PLACEHOLDER`  
-> **Expanded derivative state:** `PLACEHOLDER_EXPANDED`  
-> **Canonical status:** `UNKNOWN/GAP`  
-> **Implementation:** `NOT_ESTABLISHED`  
-> **Validation:** `NOT_ESTABLISHED`  
-> **Executable binding:** `NOT_ESTABLISHED`  
-> **Origin architect / steward:** **Trang Phan**
+## 0. Status
 
----
+`AMOS_IDENTITY_CANON.md` is an **ADD-ONLY placeholder** for the **Canon** plane segment:
 
-# 0. Canonical Status
-
-`AMOS_IDENTITY_CANON.md` is an **ADD-ONLY canonical-slot placeholder** in:
-
-`01_CANON/03_COGNITION_CANON`
-
-The supplied source establishes:
-
-- artifact identity;
-- artifact path;
-- artifact kind;
-- placement in the Cognition Canon segment;
-- framework label **AMOS Identity Canon**;
-- origin architect / steward;
-- ADD-ONLY ingestion intent;
-- placeholder status;
-- declared RSCF metadata;
-- governance boundaries;
-- target canon-operation semantics;
-- promotion requirements.
-
-The supplied source does **not** establish:
-
-- the native AMOS definition of `identity`;
-- what kinds of entities possess identity;
-- whether identity is logical, computational, cognitive, personal, social, biological, informational, narrative, cryptographic, operational, or another native AMOS construct;
-- whether identity is singular or composite;
-- whether identity is intrinsic or relational;
-- identity persistence conditions;
-- identity continuity conditions;
-- identity equivalence rules;
-- identity change rules;
-- identity versioning rules;
-- identity merge or split semantics;
-- alias semantics;
-- identifier semantics;
-- identity authentication semantics;
-- identity authorization semantics;
-- self-identity semantics;
-- human identity semantics;
-- agent identity semantics;
-- artifact identity semantics;
-- system identity semantics;
-- cognitive identity semantics;
-- relation to consciousness;
-- relation to memory;
-- relation to agency;
-- relation to provenance;
-- relation to lineage;
-- relation to RSCF/H-M-L;
-- executable implementation;
-- empirical validation.
-
-Therefore:
-
-```text
-CANONICAL_STATUS
-=
-UNKNOWN/GAP
-
-SUBSTANTIVE_IDENTITY_CANON
-=
-NOT_ESTABLISHED
----
-
----
-
-# 1. Governing Integrity Boundary
-
-The source establishes:
-
-```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
-```
-
-For Identity, conservatively extend:
-
-```text
-"IDENTITY" IN TITLE
-!=
-IDENTITY DEFINED
-
-IDENTIFIER
-!=
-IDENTITY
-
-NAME
-!=
-IDENTITY
-
-LABEL
-!=
-IDENTITY
-
-ADDRESS
-!=
-IDENTITY
-
-REFERENCE
-!=
-IDENTITY
-
-ACCOUNT
-!=
-IDENTITY
-
-CREDENTIAL
-!=
-IDENTITY
-
-AUTHENTICATION
-!=
-IDENTITY
-
-AUTHORIZATION
-!=
-IDENTITY
-
-IDENTITY
-!=
-AUTHORITY
-
-IDENTITY
-!=
-CAPABILITY
-
-IDENTITY
-!=
-OWNERSHIP
-
-IDENTITY
-!=
-PROVENANCE
-
-IDENTITY
-!=
-LINEAGE
-
-IDENTITY
-!=
-MEMORY
-
-IDENTITY
-!=
-SELF-MODEL
-
-IDENTITY
-!=
-PERSONALITY
-
-IDENTITY
-!=
-CONSCIOUSNESS
-
-IDENTITY
-!=
-AGENCY
-
-IDENTITY
-!=
-CONTINUITY
-
-CONTINUITY
-!=
-IDENTICALITY
-
-SIMILARITY
-!=
-IDENTITY
-
-EQUIVALENCE
-!=
-IDENTITY
-
-SAME CONTENT
-!=
-SAME ENTITY
-
-SAME STATE
-!=
-SAME ENTITY
-
-SAME NAME
-!=
-SAME ENTITY
-
-SAME IDENTIFIER
-!=
-PROVEN SAME ENTITY
-
-DIFFERENT IDENTIFIER
-!=
-PROVEN DIFFERENT ENTITY
-
-PERSISTENCE
-!=
-IMMUTABILITY
-
-CHANGE
-!=
-LOSS OF IDENTITY
-
-VERSION CHANGE
-!=
-NEW IDENTITY
-
-COPY
-!=
-ORIGINAL
-
-DESCENDANT
-!=
-ANCESTOR
-
-SUCCESSOR
-!=
-SAME ENTITY
-
-STRUCTURAL SIMILARITY
-!=
-IDENTITY
-
-FUNCTIONAL EQUIVALENCE
-!=
-NUMERICAL IDENTITY
-```
-
----
-
-# 2. Strongest Supported Claim
-
-> **DERIVED:** AMOS OS reserves an ADD-ONLY Canon artifact named `AMOS_IDENTITY_CANON.md` in the Cognition Canon segment for the framework family identified as **AMOS Identity Canon**.
-
-```yaml
-claim:
-  id: AMOS_IDENTITY_CANON_SLOT_EXISTS
-
-  statement: >
-    AMOS OS reserves an ADD-ONLY Canon artifact named
-    AMOS_IDENTITY_CANON.md in the Cognition Canon segment
-    for the framework family identified as AMOS Identity Canon.
-
-  claim_class: DERIVED
-  epistemic_class: AMOS_MODEL
-
-  evidence:
-    - supplied AMOS_IDENTITY_CANON placeholder
-
-  provenance:
-    corpus: AMOS_corpus
-
-  scope:
-    system: AMOS_OS
-    plane: 01_CANON
-    segment: 01_CANON/03_COGNITION_CANON
-
-  confidence_ceiling: source_supported
-```
-
-No stronger substantive claim about AMOS identity semantics is licensed by the placeholder alone.
-
----
-
-# 3. Artifact Identity
-
-```yaml
-identity:
-  title: AMOS Identity Canon
-  artifact: AMOS_IDENTITY_CANON.md
-
-  artifact_id:
-    amos_01_canon_03_cognition_canon_amos_identity_canon
-
-  node_id:
-    amos_01_canon_03_cognition_canon_amos_identity_canon
-
-  origin_architect: Trang Phan
-  steward: Trang Phan
-  system: AMOS OS
-
-  plane: 01_CANON
-  segment: 01_CANON/03_COGNITION_CANON
-  artifact_kind: CANON
-
-  path:
-    01_CANON/03_COGNITION_CANON/AMOS_IDENTITY_CANON.md
-
-  source_version: 0.1.0
-  source_status: PLACEHOLDER
-
-  expanded_derivative_version: 0.2.0
-  expanded_derivative_status: PLACEHOLDER_EXPANDED
-
-  ingestion_action: ADD_ONLY
-```
-
----
-
-# 4. Artifact Identity vs Canon Subject Matter
-
-A critical distinction:
-
-```text
-THE PLACEHOLDER HAS AN ARTIFACT IDENTITY
-```
-
-does **not** establish:
-
-```text
-THE NATIVE AMOS THEORY OF IDENTITY
-```
-
-The source gives this document:
-
-```text
-artifact_id
-+
-path
-+
-title
-+
-version
-+
-metadata
-```
-
-Those metadata can identify the artifact within the supplied corpus context.
-
-They do not reveal what the canon means by `identity`.
-
----
-
-# 5. Identifier Consistency
-
-The supplied source uses:
-
-```text
-artifact_id:
-amos_01_canon_03_cognition_canon_amos_identity_canon
-```
-
-and:
-
-```text
-node_id:
-amos_01_canon_03_cognition_canon_amos_identity_canon
-```
-
-Therefore textual equality is source-supported:
-
-```text
-ARTIFACT_ID TEXT
-=
-NODE_ID TEXT
-```
-
-But:
-
-```text
-TEXTUAL EQUALITY
-!=
-PROVEN SEMANTIC IDENTITY
-
-UNIQUE STRING
-!=
-PROVEN GLOBAL UNIQUENESS
-
-ADDRESSABLE ID
-!=
-VALIDATED RUNTIME IDENTITY
-```
-
-Executable identity resolution remains:
-
-`NOT_ESTABLISHED`.
-
----
-
-# Part I — Identity Semantic Firewall
-
-# 6. Native Meaning of Identity
-
-The placeholder does not define `identity`.
-
-```yaml
-AMOS_IDENTITY_NATIVE_MEANING:
-  status: UNKNOWN/GAP
-  definition: null
-  ontology: UNKNOWN/GAP
-  identity_bearer: UNKNOWN/GAP
-  identity_criteria: UNKNOWN/GAP
-  continuity_criteria: UNKNOWN/GAP
-  equivalence_criteria: UNKNOWN/GAP
-  persistence_criteria: UNKNOWN/GAP
-```
-
-Do not silently import identity semantics from:
-
-* philosophy;
-* psychology;
-* sociology;
-* cognitive science;
-* computer science;
-* databases;
-* distributed systems;
-* cryptography;
-* identity and access management;
-* biology;
-* neuroscience;
-* law;
-* theology;
-* narrative theory.
-
-Those can become external evidence, not native AMOS canon by default.
-
----
-
-# 7. Identity-Bearer Firewall
-
-The placeholder does not establish what can possess AMOS identity.
-
-Possible identity bearers include:
-
-```text
-PERSON
-
-HUMAN
-
-AGENT
-
-SYSTEM
-
-PROCESS
-
-ARTIFACT
-
-NODE
-
-RSCF
-
-MODEL
-
-CANON
-
-CLAIM
-
-SOURCE
-
-VERSION
-
-STATE
-
-ROLE
-
-ACCOUNT
-
-ORGANIZATION
-
-COGNITIVE ENTITY
-
-OTHER NATIVE AMOS ENTITY
-```
-
-Current status:
-
-```yaml
-identity_bearers:
-  registry: UNKNOWN/GAP
-```
-
-No candidate above is automatically canon.
-
----
-
-# 8. Identity Type Firewall
-
-Possible meanings remain competing:
-
-```text
-LOGICAL IDENTITY
-
-NUMERICAL IDENTITY
-
-QUALITATIVE IDENTITY
-
-PERSONAL IDENTITY
-
-COGNITIVE IDENTITY
-
-SELF-IDENTITY
-
-SOCIAL IDENTITY
-
-SYSTEM IDENTITY
-
-AGENT IDENTITY
-
-ARTIFACT IDENTITY
-
-PROCESS IDENTITY
-
-INFORMATIONAL IDENTITY
-
-OPERATIONAL IDENTITY
-
-CRYPTOGRAPHIC IDENTITY
-
-PROVENANCE IDENTITY
-
-LINEAGE IDENTITY
-
-NARRATIVE IDENTITY
-
-BIOLOGICAL IDENTITY
-
-OTHER NATIVE AMOS IDENTITY
-```
-
-Current:
-
-`UNKNOWN/GAP`.
-
----
-
-# 9. Identity ≠ Identifier Firewall
-
-```text
-IDENTIFIER
-!=
-IDENTITY
-
-ID STRING
-!=
-ENTITY
-
-UUID
-!=
-ENTITY
-
-HASH
-!=
-ENTITY
-
-PATH
-!=
-ENTITY
-
-DATABASE KEY
-!=
-ENTITY
-
-REFERENCE
-!=
-ENTITY
-```
-
-An identifier may refer to an identity-bearing entity under a defined resolution contract.
-
-That contract is not yet established.
-
----
-
-# 10. Name ≠ Identity Firewall
-
-```text
-NAME
-!=
-IDENTITY
-
-SAME NAME
-!=
-SAME ENTITY
-
-DIFFERENT NAME
-!=
-DIFFERENT ENTITY
-
-RENAMING
-!=
-IDENTITY LOSS
-```
-
-Native naming semantics:
-
-```yaml
-name_identity_relation:
-  status: UNKNOWN/GAP
-```
-
----
-
-# 11. Label ≠ Identity Firewall
-
-```text
-LABEL
-!=
-IDENTITY
-
-CLASS LABEL
-!=
-INDIVIDUAL ENTITY
-
-ROLE LABEL
-!=
-PERSON
-
-TYPE LABEL
-!=
-INSTANCE IDENTITY
-```
-
----
-
-# 12. Address ≠ Identity Firewall
-
-```text
-ADDRESS
-!=
-IDENTITY
-
-LOCATION
-!=
-ENTITY
-
-PATH
-!=
-IDENTITY
-
-ENDPOINT
-!=
-AGENT IDENTITY
-
-NETWORK ADDRESS
-!=
-SYSTEM IDENTITY
-```
-
-An entity may move while retaining identity under some models.
-
-Whether AMOS permits that remains unresolved.
-
----
-
-# 13. Credential ≠ Identity Firewall
-
-```text
-CREDENTIAL
-!=
-IDENTITY
-
-TOKEN
-!=
-IDENTITY
-
-PASSWORD
-!=
-IDENTITY
-
-KEY
-!=
-IDENTITY
-
-CERTIFICATE
-!=
-IDENTITY
-```
-
-Credentials may support authentication of an identity claim.
-
-They do not become the entity itself.
-
----
-
-# 14. Authentication ≠ Identity Firewall
-
-```text
-AUTHENTICATION
-!=
-IDENTITY
-
-AUTHENTICATED CLAIM
-!=
-COMPLETE IDENTITY
-
-AUTHENTICATION SUCCESS
-!=
-AUTHORIZATION
-
-AUTHENTICATION SUCCESS
-!=
-AUTHORITY
-```
-
-Native authentication binding:
-
-`NOT_ESTABLISHED`.
-
----
-
-# 15. Authorization ≠ Identity Firewall
-
-```text
-IDENTITY
-!=
-AUTHORIZATION
-
-IDENTIFIED
-!=
-AUTHORIZED
-
-AUTHENTICATED
-!=
-AUTHORIZED
-
-AUTHORIZED
-!=
-COMMITTED
-
-IDENTITY
-!=
-RIGHT TO ACT
-```
-
-This preserves the source law:
-
-```text
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-```
-
----
-
-# 16. Identity ≠ Authority Firewall
-
-```text
-KNOWN IDENTITY
-!=
-AUTHORITY
-
-PERSISTENT IDENTITY
-!=
-GOVERNANCE AUTHORITY
-
-ORIGIN IDENTITY
-!=
-CURRENT AUTHORITY
-
-CREATOR IDENTITY
-!=
-UNBOUNDED CONTROL
-```
-
-Authority requires a separate typed, epoch-valid authority relation.
-
----
-
-# 17. Identity ≠ Ownership Firewall
-
-```text
-IDENTITY
-!=
-OWNERSHIP
-
-CREATOR
-!=
-OWNER
-
-OWNER
-!=
-AUTHORITY IN ALL CONTEXTS
-
-PROVENANCE
-!=
-PROPERTY RIGHT
-```
-
-No native ownership semantics are established.
-
----
-
-# 18. Identity ≠ Provenance Firewall
-
-```text
-IDENTITY
-!=
-PROVENANCE
-
-WHO/WHAT AN ENTITY IS
-!=
-WHERE A CLAIM CAME FROM
-
-SAME PROVENANCE
-!=
-SAME IDENTITY
-
-DIFFERENT PROVENANCE
-!=
-DIFFERENT IDENTITY
-```
-
-Identity and provenance may interact, but the relation is unresolved.
-
----
-
-# 19. Identity ≠ Lineage Firewall
-
-```text
-IDENTITY
-!=
-LINEAGE
-
-ANCESTRY
-!=
-IDENTITY
-
-DESCENT
-!=
-IDENTICALITY
-
-SUCCESSOR
-!=
-ANCESTOR
-
-DERIVED FROM
-!=
-SAME AS
-```
-
-A lineage edge alone does not prove continuity of identity.
-
----
-
-# 20. Identity ≠ Memory Firewall
-
-```text
-IDENTITY
-!=
-MEMORY
-
-SAME MEMORIES
-!=
-SAME ENTITY
-
-MEMORY LOSS
-!=
-PROVEN IDENTITY LOSS
-
-MEMORY COPY
-!=
-IDENTITY TRANSFER
-```
-
-Relation to any AMOS memory canon:
-
-`UNKNOWN/GAP`.
-
----
-
-# 21. Identity ≠ Personality Firewall
-
-```text
-IDENTITY
-!=
-PERSONALITY
-
-PERSONALITY CHANGE
-!=
-IDENTITY LOSS
-
-SAME PERSONALITY
-!=
-SAME PERSON
-
-BEHAVIORAL PROFILE
-!=
-IDENTITY
-```
-
----
-
-# 22. Identity ≠ Self-Model Firewall
-
-```text
-IDENTITY
-!=
-SELF-MODEL
-
-SELF-DESCRIPTION
-!=
-IDENTITY
-
-SELF-REFERENCE
-!=
-SELFHOOD
-
-SELF-MODEL CONTINUITY
-!=
-PROVEN ENTITY CONTINUITY
-```
-
----
-
-# 23. Identity ≠ Consciousness Firewall
-
-```text
-IDENTITY
-!=
-CONSCIOUSNESS
-
-IDENTITY CLAIM
-!=
-SUBJECTIVE EXPERIENCE
-
-SELF-IDENTIFICATION
-!=
-CONSCIOUSNESS
-
-CONTINUOUS IDENTITY
-!=
-CONTINUOUS EXPERIENCE
-```
-
-Relation to [[AMOS_CONSCIOUSNESS_CANON]]:
-
-`UNKNOWN/GAP`.
-
----
-
-# 24. Identity ≠ Agency Firewall
-
-```text
-IDENTITY
-!=
-AGENCY
-
-AGENT ID
-!=
-AGENCY
-
-PERSISTENT IDENTITY
-!=
-AUTONOMOUS ACTION
-
-SELF-REFERENCE
-!=
-AGENCY
-
-AGENCY
-!=
-AUTHORITY
-```
-
----
-
-# 25. Identity ≠ Cognition Firewall
-
-```text
-IDENTITY
-!=
-COGNITION
-
-COGNITIVE STATE
-!=
-IDENTITY
-
-COGNITIVE SIMILARITY
-!=
-SAME IDENTITY
-
-COGNITIVE CHANGE
-!=
-IDENTITY CHANGE
-```
-
-Placement in the Cognition Canon segment does not itself establish identity as a cognitive process.
-
----
-
-# Part II — Core Identity Problems
-
-# 26. Identity Criteria
-
-A substantive canon must specify what licenses:
-
-```text
-X AT t1
-=
-X AT t2
-```
-
-Current:
-
-```yaml
-identity_criteria:
-  status: UNKNOWN/GAP
-  necessary_conditions: []
-  sufficient_conditions: []
-  invariants: []
-  tolerated_changes: []
-  identity_break_conditions: []
-```
-
----
-
-# 27. Identity Over Time
-
-The central unresolved question:
-
-```text
-WHEN DOES ENTITY X @ t1
-COUNT AS
-THE SAME ENTITY X @ t2?
-```
-
-Possible criteria could involve:
-
-* identifier continuity;
-* causal continuity;
-* structural continuity;
-* functional continuity;
-* state continuity;
-* memory continuity;
-* provenance continuity;
-* lineage continuity;
-* authority continuity;
-* physical continuity;
-* computational continuity;
-* narrative continuity;
-* a native AMOS invariant.
-
-None is established.
-
----
-
-# 28. Persistence ≠ Immutability
-
-```text
-PERSISTENCE
-!=
-IMMUTABILITY
-
-SAME ENTITY
-DOES NOT NECESSARILY MEAN
-SAME STATE
-
-CHANGE
-DOES NOT NECESSARILY MEAN
-NEW ENTITY
-```
-
-Native tolerated-change rules remain `UNKNOWN/GAP`.
-
----
-
-# 29. Change Threshold
-
-A native Identity Canon should eventually answer:
-
-```text
-HOW MUCH CHANGE CAN OCCUR
-BEFORE IDENTITY CHANGES?
-```
-
-Target schema:
-
-```yaml
-identity_change_threshold:
-  identity_type: required
-  mutable_properties: required
-  immutable_properties: required_if_any
-  continuity_requirements: required
-  break_conditions: required
-  scope: required
-  regime: required
-```
-
-Current content:
-
-`UNKNOWN/GAP`.
-
----
-
-# 30. Numerical vs Qualitative Identity
-
-Conservative distinction:
-
-```text
-NUMERICAL IDENTITY:
-X IS THE SAME ENTITY AS X
-
-QUALITATIVE SIMILARITY:
-X AND Y SHARE PROPERTIES
-```
-
-Therefore:
-
-```text
-HIGH QUALITATIVE SIMILARITY
-!=
-NUMERICAL IDENTITY
-```
-
-Whether AMOS uses these philosophical categories is not established.
-
-They are firewall concepts only.
-
----
-
-# 31. Similarity ≠ Identity
-
-```text
-STRUCTURAL SIMILARITY
-!=
-IDENTITY
-
-BEHAVIORAL SIMILARITY
-!=
-IDENTITY
-
-FUNCTIONAL SIMILARITY
-!=
-IDENTITY
-
-CONTENT SIMILARITY
-!=
-IDENTITY
-
-STATE SIMILARITY
-!=
-IDENTITY
-```
-
-No similarity metric alone licenses an identity claim without native identity criteria.
-
----
-
-# 32. Equivalence ≠ Identity
-
-```text
-EQUIVALENT
-!=
-IDENTICAL
-
-FUNCTIONALLY EQUIVALENT
-!=
-SAME ENTITY
-
-SEMANTICALLY EQUIVALENT
-!=
-SAME ARTIFACT
-
-BEHAVIORALLY EQUIVALENT
-!=
-SAME AGENT
-```
-
-A future canon must type equivalence separately from identity.
-
----
-
-# 33. Copy Firewall
-
-```text
-COPY
-!=
-ORIGINAL
-
-BYTE-IDENTICAL COPY
-!=
-PROVEN SAME ENTITY
-
-STATE COPY
-!=
-IDENTITY TRANSFER
-
-MEMORY COPY
-!=
-PERSONAL IDENTITY TRANSFER
-
-MODEL COPY
-!=
-SAME RUNTIME INSTANCE
-```
-
-Native copy semantics:
-
-`UNKNOWN/GAP`.
-
----
-
-# 34. Fork Firewall
-
-```text
-ONE ENTITY
-        ↓
-       FORK
-      /    \
-    X1      X2
-```
-
-The placeholder does not determine whether:
-
-```text
-X1 = ORIGINAL
-
-X2 = ORIGINAL
-
-BOTH CONTINUE ORIGINAL IDENTITY
-
-NEITHER CONTINUES ORIGINAL IDENTITY
-
-IDENTITY SPLITS
-
-NEW IDENTITIES ARE CREATED
-```
-
-Therefore:
-
-`COMPETING / UNKNOWN/GAP`.
-
----
-
-# 35. Merge Firewall
-
-```text
-X1     X2
- \     /
-   MERGE
-     ↓
-     Y
-```
-
-No native rule establishes whether `Y`:
-
-* is X1;
-* is X2;
-* is both;
-* is neither;
-* is a new identity;
-* inherits multiple lineages without inheriting numerical identity.
-
-Current:
-
-`UNKNOWN/GAP`.
-
----
-
-# 36. Replacement Firewall
-
-```text
-COMPONENT REPLACEMENT
-!=
-AUTOMATIC IDENTITY LOSS
-
-COMPLETE REPLACEMENT
-!=
-AUTOMATIC IDENTITY CONTINUITY
-```
-
-Native identity-preservation thresholds are unresolved.
-
----
-
-# 37. Migration Firewall
-
-```text
-MIGRATION
-!=
-IDENTITY TRANSFER BY DEFAULT
-
-NEW HOST
-!=
-NEW IDENTITY BY DEFAULT
-
-SAME STATE ON NEW HOST
-!=
-PROVEN SAME ENTITY
-```
-
-No computational migration semantics are established.
-
----
-
-# 38. Restore Firewall
-
-```text
-BACKUP
-!=
-CURRENT ENTITY
-
-RESTORED BACKUP
-!=
-PROVEN CONTINUATION
-
-SNAPSHOT
-!=
-IDENTITY
-
-ROLLBACK
-!=
-TIME REVERSAL
-```
-
-A restored state may create difficult identity/lineage questions. Native AMOS resolution is absent.
-
----
-
-# 39. Version Firewall
-
-```text
-VERSION v2
-!=
-AUTOMATICALLY NEW IDENTITY
-
-VERSION v2
-!=
-AUTOMATICALLY SAME IDENTITY
-
-VERSION CHANGE
-!=
-IDENTITY DECISION
-```
-
-Version continuity and identity continuity are distinct relations.
-
----
-
-# 40. Supersession Firewall
-
-```text
-A SUPERSEDES B
-!=
-A IS B
-
-NEWER
-!=
-SAME IDENTITY
-
-NEWER
-!=
-CANONICAL
-
-SUPERSEDES
-!=
-ERASES HERITAGE
-```
-
-Supersession must preserve lineage where applicable.
-
----
-
-# Part III — Competing Interpretations
-
-# 41. Competing Native Interpretations
-
-Until discriminating native evidence is recovered:
-
-```text
-H1 — Identity is an AMOS logical entity-identity model.
-
-H2 — Identity is a persistent identifier architecture.
-
-H3 — Identity is an artifact/node identity framework.
-
-H4 — Identity is an agent identity framework.
-
-H5 — Identity is a system/process identity framework.
-
-H6 — Identity is a cognitive self-identity model.
-
-H7 — Identity is a personal/human identity model.
-
-H8 — Identity is a provenance-and-lineage continuity model.
-
-H9 — Identity is an authentication / identity-resolution model.
-
-H10 — Identity is a versioned continuity model across state changes.
-
-H11 — Identity is a composite model containing several
-      separately typed identity classes.
-
-H12 — Identity is a governance construct used to determine
-      what entity a proposal, authority, capability, source,
-      or artifact refers to.
-
-H13 — Identity is a framework label whose substantive
-      native semantics remain unrecovered.
-
-H14 — Identity has a distinct native AMOS meaning not
-      represented by the candidate interpretations above.
-```
-
-Current:
-
-```text
-COMPETING
-+
-UNKNOWN/GAP
-```
-
----
-
-# 42. Cheapest Discriminating Evidence
-
-Highest-information evidence:
-
-> A verified native AMOS source explicitly defining **AMOS Identity**.
-
-It should resolve:
-
-```text
-WHAT IS IDENTITY?
-
-WHAT TYPES OF IDENTITY EXIST?
-
-WHAT ENTITIES CAN BEAR IDENTITY?
-
-WHAT MAKES X IDENTICAL TO ITSELF OVER TIME?
-
-WHAT CHANGES PRESERVE IDENTITY?
-
-WHAT CHANGES BREAK IDENTITY?
-
-WHAT IS AN IDENTIFIER?
-
-HOW DOES AN IDENTIFIER RELATE TO IDENTITY?
-
-ARE IDENTITIES UNIQUE?
-
-WHAT IS THE IDENTITY NAMESPACE?
-
-HOW ARE COLLISIONS HANDLED?
-
-HOW ARE ALIASES HANDLED?
-
-HOW ARE RENAMES HANDLED?
-
-HOW ARE COPIES HANDLED?
-
-HOW ARE FORKS HANDLED?
-
-HOW ARE MERGES HANDLED?
-
-HOW ARE RESTORES HANDLED?
-
-HOW ARE MIGRATIONS HANDLED?
-
-HOW ARE VERSIONS HANDLED?
-
-HOW IS SUPERSESSION HANDLED?
-
-HOW IS LINEAGE RELATED TO IDENTITY?
-
-HOW IS PROVENANCE RELATED TO IDENTITY?
-
-HOW IS AUTHENTICATION RELATED TO IDENTITY?
-
-HOW IS AUTHORIZATION RELATED TO IDENTITY?
-
-HOW IS AUTHORITY RELATED TO IDENTITY?
-
-WHAT IS SELF-IDENTITY?
-
-WHAT IS HUMAN/PERSONAL IDENTITY?
-
-WHAT IS AGENT IDENTITY?
-
-WHAT IS SYSTEM IDENTITY?
-
-WHAT IS ARTIFACT IDENTITY?
-
-WHAT IS COGNITIVE IDENTITY?
-
-HOW DOES IDENTITY RELATE TO MEMORY?
-
-HOW DOES IDENTITY RELATE TO CONSCIOUSNESS?
-
-HOW DOES IDENTITY RELATE TO AGENCY?
-
-WHAT ARE THE VALID SCOPE AND REGIME?
-
-WHAT WOULD FALSIFY AN IDENTITY CLAIM?
-```
-
----
-
-# Part IV — Native Identity Schema
-
-# 43. Native Definition Schema
-
-```yaml
-AMOS_IDENTITY_NATIVE_SCHEMA:
-
-  native_title: required
-  native_definition: required
-
-  identity_types:
-    required
-
-  identity_bearers:
-    required
-
-  identity_criteria:
-    required
-
-  continuity_criteria:
-    required
-
-  persistence_criteria:
-    required
-
-  break_conditions:
-    required
-
-  identifier_model:
-    required_if_identifiers_used
-
-  namespace_model:
-    required_if_identifiers_used
-
-  alias_model:
-    required_if_aliases_used
-
-  equivalence_model:
-    required_if_equivalence_claimed
-
-  lineage_relation:
-    required
-
-  provenance_relation:
-    required
-
-  version_relation:
-    required
-
-  copy_semantics:
-    required_if_applicable
-
-  fork_semantics:
-    required_if_applicable
-
-  merge_semantics:
-    required_if_applicable
-
-  migration_semantics:
-    required_if_applicable
-
-  restore_semantics:
-    required_if_applicable
-
-  supersession_semantics:
-    required_if_applicable
-
-  authentication_relation:
-    required_if_claimed
-
-  authorization_relation:
-    required_if_claimed
-
-  authority_relation:
-    required_if_claimed
-
-  memory_relation:
-    required_if_claimed
-
-  consciousness_relation:
-    required_if_claimed
-
-  agency_relation:
-    required_if_claimed
-
-  scope:
-    required
-
-  regime:
-    required
-
-  temporal_validity:
-    required
-
-  dependencies:
-    required
-
-  provenance:
-    required
-
-  competing_claims:
-    required
-
-  falsifiers:
-    required
-
-  confidence_ceiling:
-    required
-
-  validation:
-    required_if_promoted
-```
-
-This schema reserves semantic slots only.
-
-It does not populate native canon.
-
----
-
-# 44. Identity-Type Registry
-
-```yaml
-AMOS_IDENTITY_TYPE_REGISTRY:
-  status: UNKNOWN/GAP
-  identity_types: []
-```
-
-Future entry:
-
-```yaml
-identity_type:
-  identity_type_id: required
-  definition: required
-  bearer_types: required
-  identity_criteria: required
-  continuity_criteria: required
-  break_conditions: required
-  scope: required
-  regime: required
-  provenance: required
-```
-
----
-
-# 45. Identity-Bearer Registry
-
-```yaml
-AMOS_IDENTITY_BEARER_REGISTRY:
-  status: UNKNOWN/GAP
-  bearer_types: []
-```
-
-Future:
-
-```yaml
-identity_bearer_type:
-  bearer_type_id: required
-  definition: required
-  allowed_identity_types: required
-  identity_assignment_rule: required
-  scope: required
-  provenance: required
-```
-
----
-
-# 46. Identifier Registry
-
-```yaml
-AMOS_IDENTIFIER_REGISTRY:
-  status: UNKNOWN/GAP
-  identifier_types: []
-```
-
-Future identifier type:
-
-```yaml
-identifier_type:
-  identifier_type_id: required
-  syntax: required
-  namespace: required
-  uniqueness_scope: required
-  persistence_rule: required
-  collision_rule: required
-  resolution_rule: required
-  provenance: required
-```
-
----
-
-# 47. Namespace Semantics
-
-```yaml
-identity_namespace:
-  status: UNKNOWN/GAP
-  namespace_id: UNKNOWN/GAP
-  uniqueness_scope: UNKNOWN/GAP
-  collision_semantics: UNKNOWN/GAP
-  federation_semantics: UNKNOWN/GAP
-  resolution_semantics: UNKNOWN/GAP
-```
-
-Preserve:
-
-```text
-UNIQUE WITHIN NAMESPACE A
-!=
-GLOBALLY UNIQUE
-
-SAME ID IN DIFFERENT NAMESPACES
-!=
-SAME ENTITY
-```
-
----
-
-# 48. Identity Resolution
-
-```yaml
-identity_resolution:
-  status: UNKNOWN/GAP
-  input_identifier: UNKNOWN/GAP
-  namespace: UNKNOWN/GAP
-  version: UNKNOWN/GAP
-  temporal_context: UNKNOWN/GAP
-  regime: UNKNOWN/GAP
-  result_type: UNKNOWN/GAP
-  ambiguity_policy: UNKNOWN/GAP
-```
-
-Target fail-closed rule:
-
-```text
-AMBIGUOUS IDENTITY
-→ UNKNOWN/GAP
-→ DO NOT SILENTLY SELECT
-```
-
----
-
-# 49. Alias Semantics
-
-```yaml
-alias_model:
-  status: UNKNOWN/GAP
-  alias_types: []
-  canonicalization_rule: UNKNOWN/GAP
-  collision_rule: UNKNOWN/GAP
-  temporal_validity: UNKNOWN/GAP
-```
-
-```text
-ALIAS
-!=
-NEW IDENTITY
-
-ALIAS EQUALITY
-!=
-IDENTITY EQUALITY
-```
-
----
-
-# 50. Rename Semantics
-
-```text
-RENAME
-!=
-IDENTITY LOSS
-
-RENAME
-!=
-PROVEN IDENTITY CONTINUITY
-```
-
-Native rename contract:
-
-`UNKNOWN/GAP`.
-
----
-
-# 51. Equivalence Registry
-
-```yaml
-identity_equivalence_registry:
-  status: UNKNOWN/GAP
-  equivalence_types: []
-```
-
-Possible typed relations:
-
-```text
-SAME_AS
-EQUIVALENT_TO
-ALIAS_OF
-DERIVED_FROM
-VERSION_OF
-SUCCESSOR_OF
-SUPERSEDES
-COPY_OF
-FORKED_FROM
-MERGED_FROM
-```
-
-These are candidate relation classes only.
-
-No native registry is established.
-
----
-
-# Part V — Continuity, Lineage, and Mutation
-
-# 52. Identity Continuity
-
-```yaml
-identity_continuity:
-  status: UNKNOWN/GAP
-  continuity_variables: []
-  continuity_conditions: []
-  discontinuity_conditions: []
-  evidence_requirements: []
-```
-
----
-
-# 53. Continuity ≠ Identity
-
-```text
-CONTINUITY
-!=
-IDENTITY
-
-CAUSAL CONTINUITY
-!=
-NUMERICAL IDENTITY
-
-MEMORY CONTINUITY
-!=
-NUMERICAL IDENTITY
-
-FUNCTIONAL CONTINUITY
-!=
-NUMERICAL IDENTITY
-
-STATE CONTINUITY
-!=
-NUMERICAL IDENTITY
-```
-
-A native canon may choose one or more as criteria, but that choice is not established.
-
----
-
-# 54. Lineage Schema
-
-```yaml
-identity_lineage_edge:
-  edge_id: required
-  source_identity: required
-  target_identity: required
-  relation_type: required
-  event: required
-  timestamp_or_epoch: required
-  provenance: required
-  scope: required
-  confidence: required
-```
-
-Potential relation types remain unpopulated.
-
----
-
-# 55. Lineage ≠ Continuity
-
-```text
-DERIVED_FROM
-!=
-SAME_IDENTITY_AS
-
-SUCCESSOR_OF
-!=
-SAME_IDENTITY_AS
-
-COPY_OF
-!=
-SAME_IDENTITY_AS
-
-VERSION_OF
-!=
-SAME_IDENTITY_AS
-```
-
-Unless native canon explicitly defines the relation.
-
----
-
-# 56. Identity Mutation
-
-```yaml
-identity_mutation:
-  status: UNKNOWN/GAP
-  mutable_fields: []
-  immutable_fields: []
-  identity_preserving_mutations: []
-  identity_breaking_mutations: []
-  required_receipts: []
-```
-
----
-
-# 57. Mutation Firewall
-
-```text
-STATE MUTATION
-!=
-IDENTITY MUTATION
-
-METADATA MUTATION
-!=
-IDENTITY MUTATION
-
-CONTENT MUTATION
-!=
-AUTOMATIC IDENTITY LOSS
-
-IDENTIFIER MUTATION
-!=
-AUTOMATIC ENTITY CHANGE
-```
-
----
-
-# 58. Identity Split
-
-```yaml
-identity_split:
-  status: UNKNOWN/GAP
-  parent_identity: UNKNOWN/GAP
-  child_identity_semantics: UNKNOWN/GAP
-  continuity_rule: UNKNOWN/GAP
-  lineage_rule: UNKNOWN/GAP
-```
-
-No native split rule is established.
-
----
-
-# 59. Identity Merge
-
-```yaml
-identity_merge:
-  status: UNKNOWN/GAP
-  source_identities: []
-  resulting_identity: UNKNOWN/GAP
-  continuity_rule: UNKNOWN/GAP
-  conflict_rule: UNKNOWN/GAP
-  lineage_rule: UNKNOWN/GAP
-```
-
----
-
-# 60. Duplicate Identity
-
-The ingestion rule provides:
-
-```text
-framework_existing_in_multiple_sources
-→ CREATE_ONE_CANONICAL_NODE
-→ LINK_ALL_SOURCE_PROVENANCE
-→ DO_NOT_CREATE_DUPLICATE_CANON
-```
-
-This is source-supported as a canon-ingestion rule.
-
-But:
-
-```text
-DUPLICATE CANON PREVENTION
-!=
-GENERAL AMOS IDENTITY THEORY
-```
-
----
-
-# 61. Duplicate Filename
-
-Source rule:
-
-```text
-duplicate_filename:
-  COMPARE_CONTENT_AND_LINEAGE
-  DO_NOT_OVERWRITE
-```
-
-Therefore:
-
-```text
-SAME FILENAME
-!=
-PROVEN SAME ARTIFACT
-
-DIFFERENT CONTENT
-!=
-AUTOMATICALLY DIFFERENT FRAMEWORK
-
-SAME CONTENT
-!=
-AUTOMATICALLY SAME LINEAGE
-```
-
----
-
-# 62. Historical Identity
-
-Source ingestion semantics establish that historical sources should:
-
-```text
-LINK_TO_CANON
-+
-RECORD_LINEAGE
-+
-PRESERVE_HERITAGE
-```
-
-This supports preservation of lineage.
-
-It does not determine whether historical and current artifacts share one identity.
-
-That relation remains typed and unresolved.
-
----
-
-# 63. Supersession Identity
-
-A future supersession edge should distinguish:
-
-```yaml
-supersession:
-  predecessor: required
-  successor: required
-  relation: SUPERSEDES
-  identity_continuity: required
-  heritage_preserved: required
-  effective_epoch: required
-  provenance: required
-```
-
-Current native schema:
-
-`NOT_ESTABLISHED`.
-
----
-
-# Part VI — Personal, Cognitive, Agent, and System Identity
-
-# 64. Personal Identity Firewall
-
-The title does not establish a philosophical theory of personal identity.
-
-```text
-AMOS IDENTITY
-!=
-PERSONAL IDENTITY BY DEFAULT
-```
-
-Native personal identity:
-
-```yaml
-personal_identity:
-  status: UNKNOWN/GAP
-```
-
----
-
-# 65. Human Identity Firewall
-
-```text
-HUMAN IDENTITY
-!=
-BIOLOGICAL IDENTITY BY DEFAULT
-
-HUMAN IDENTITY
-!=
-SOCIAL IDENTITY BY DEFAULT
-
-HUMAN IDENTITY
-!=
-LEGAL IDENTITY BY DEFAULT
-
-HUMAN IDENTITY
-!=
-PSYCHOLOGICAL IDENTITY BY DEFAULT
-```
-
-No native human-identity model is established.
-
----
-
-# 66. Cognitive Identity
-
-```yaml
-cognitive_identity:
-  status: UNKNOWN/GAP
-  definition: UNKNOWN/GAP
-  relation_to_cognition: UNKNOWN/GAP
-  relation_to_memory: UNKNOWN/GAP
-  relation_to_self_model: UNKNOWN/GAP
-  relation_to_consciousness: UNKNOWN/GAP
-```
-
-Placement in `03_COGNITION_CANON` does not prove cognitive identity semantics.
-
----
-
-# 67. Self-Identity
-
-```yaml
-self_identity:
-  status: UNKNOWN/GAP
-  self_definition: UNKNOWN/GAP
-  identity_definition: UNKNOWN/GAP
-  continuity: UNKNOWN/GAP
-  self_model_relation: UNKNOWN/GAP
-```
-
-Preserve:
-
-```text
-SELF-REFERENCE
-!=
-SELF-IDENTITY
-
-SELF-DESCRIPTION
-!=
-VERIFIED IDENTITY
-
-SELF-MODEL
-!=
-SELF
-```
-
----
-
-# 68. Agent Identity
-
-```yaml
-agent_identity:
-  status: UNKNOWN/GAP
-  agent_definition: UNKNOWN/GAP
-  identity_criteria: UNKNOWN/GAP
-  lifecycle: UNKNOWN/GAP
-  authority_relation: UNKNOWN/GAP
-  capability_relation: UNKNOWN/GAP
-```
-
-```text
-AGENT IDENTITY
-!=
-AGENT AUTHORITY
-```
-
----
-
-# 69. System Identity
-
-```yaml
-system_identity:
-  status: UNKNOWN/GAP
-  system_boundary: UNKNOWN/GAP
-  component_identity_relation: UNKNOWN/GAP
-  persistence_rule: UNKNOWN/GAP
-  replacement_rule: UNKNOWN/GAP
-```
-
-```text
-SAME COMPONENTS
-!=
-PROVEN SAME SYSTEM
-
-DIFFERENT COMPONENTS
-!=
-PROVEN DIFFERENT SYSTEM
-```
-
----
-
-# 70. Artifact Identity
-
-This artifact itself provides a concrete example of an addressable artifact:
-
-```yaml
-artifact_identity_example:
-  artifact:
-    AMOS_IDENTITY_CANON.md
-
-  artifact_id:
-    amos_01_canon_03_cognition_canon_amos_identity_canon
-
-  path:
-    01_CANON/03_COGNITION_CANON/AMOS_IDENTITY_CANON.md
-
-  version:
-    source: 0.1.0
-    expanded_derivative: 0.2.0
-```
-
-But the example does not establish a universal artifact identity law.
-
----
-
-# 71. Claim Identity
-
-```yaml
-claim_identity:
-  status: UNKNOWN/GAP
-  claim_id_schema: UNKNOWN/GAP
-  versioning: UNKNOWN/GAP
-  semantic_equivalence: UNKNOWN/GAP
-  mutation_semantics: UNKNOWN/GAP
-```
-
-Preserve:
-
-```text
-SAME SENTENCE
-!=
-SAME CLAIM CONTEXT
-
-SAME PROPOSITIONAL CONTENT
-!=
-SAME PROVENANCE
-
-SAME CLAIM
-!=
-SAME EVIDENCE
-```
-
----
-
-# 72. Source Identity
-
-```yaml
-source_identity:
-  status: UNKNOWN/GAP
-  source_id_schema: UNKNOWN/GAP
-  version_semantics: UNKNOWN/GAP
-  ancestry_semantics: UNKNOWN/GAP
-```
-
-Source identity is critical to provenance topology but is not natively defined here.
-
----
-
-# Part VII — Relations to Cognition-Family Canons
-
-# 73. Relation to Cognition Canon
-
-Related:
-
-[[AMOS_COGNITION_CANON]]
-
-```yaml
-identity_to_cognition:
-  relation: UNKNOWN/GAP
-  hierarchy: UNKNOWN/GAP
-  dependency: UNKNOWN/GAP
-  component_relation: UNKNOWN/GAP
-  causal_relation: UNKNOWN/GAP
-```
-
-Same-segment placement does not establish a semantic relation.
-
----
-
-# 74. Relation to Cognition Master Canon
-
-Related:
-
-[[AMOS_COGNITION_MASTER_CANON]]
-
-```yaml
-identity_to_cognition_master:
-  relation: UNKNOWN/GAP
-  aggregation: UNKNOWN/GAP
-  precedence: UNKNOWN/GAP
-  hierarchy: UNKNOWN/GAP
-  dependency: UNKNOWN/GAP
-  supersession: UNKNOWN/GAP
-```
-
----
-
-# 75. Relation to Human Intelligence Canon
-
-Related:
-
-[[AMOS_HUMAN_INTELLIGENCE_CANON]]
-
-```yaml
-identity_to_human_intelligence:
-  relation: UNKNOWN/GAP
-  dependency: UNKNOWN/GAP
-  component_relation: UNKNOWN/GAP
-  causal_relation: UNKNOWN/GAP
-```
-
-Preserve:
-
-```text
-INTELLIGENCE
-!=
-IDENTITY
-
-COGNITIVE CAPABILITY
-!=
-PERSONAL IDENTITY
-```
-
----
-
-# 76. Relation to Consciousness Canon
-
-Related:
-
-[[AMOS_CONSCIOUSNESS_CANON]]
-
-```yaml
-identity_to_consciousness:
-  relation: UNKNOWN/GAP
-  necessary_condition: UNKNOWN/GAP
-  sufficient_condition: UNKNOWN/GAP
-  causal_relation: UNKNOWN/GAP
-```
-
-```text
-IDENTITY
-!=
-CONSCIOUSNESS
-
-SELF-IDENTIFICATION
-!=
-SUBJECTIVE EXPERIENCE
-```
-
----
-
-# 77. Relation to Cognitive Field Canon
-
-Related:
-
-[[AMOS_COGNITIVE_FIELD_CANON]]
-
-```yaml
-identity_to_cognitive_field:
-  relation: UNKNOWN/GAP
-  field_membership: UNKNOWN/GAP
-  identity_variable_relation: UNKNOWN/GAP
-  causal_relation: UNKNOWN/GAP
-```
-
-```text
-FIELD POSITION
-!=
-IDENTITY
-
-FIELD STATE
-!=
-IDENTITY
-```
-
----
-
-# 78. Relation to Cross-Species Functional Mode
-
-Related:
-
-[[AMOS_CROSS_SPECIES_FUNCTIONAL_MODE_MODEL]]
-
-```yaml
-identity_to_cross_species_functional_mode:
-  relation: UNKNOWN/GAP
-  species_identity_relation: UNKNOWN/GAP
-  functional_identity_relation: UNKNOWN/GAP
-  equivalence_relation: UNKNOWN/GAP
-```
-
-```text
-SAME FUNCTIONAL MODE
-!=
-SAME IDENTITY
-
-SAME SPECIES
-!=
-SAME INDIVIDUAL IDENTITY
-```
-
----
-
-# Part VIII — Authentication, Authorization, and Governance
-
-# 79. Authentication Model
-
-```yaml
-identity_authentication:
-  status: UNKNOWN/GAP
-  identity_claim: UNKNOWN/GAP
-  credential_types: []
-  verification_method: UNKNOWN/GAP
-  freshness: UNKNOWN/GAP
-  replay_protection: UNKNOWN/GAP
-  revocation: UNKNOWN/GAP
-```
-
-No executable authentication mechanism is established.
-
----
-
-# 80. Authentication Firewall
-
-```text
-CLAIMED IDENTITY
-!=
-AUTHENTICATED IDENTITY
-
-AUTHENTICATED IDENTITY
-!=
-AUTHORIZED IDENTITY
-
-AUTHORIZED IDENTITY
-!=
-AUTHORITY
-
-AUTHORITY
-!=
-COMMIT
-```
-
----
-
-# 81. Authorization Model
-
-```yaml
-identity_authorization:
-  status: UNKNOWN/GAP
-  subject_identity: UNKNOWN/GAP
-  authority_ref: UNKNOWN/GAP
-  capability_ref: UNKNOWN/GAP
-  scope: UNKNOWN/GAP
-  epoch: UNKNOWN/GAP
-```
-
-Source discipline remains:
-
-```text
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-```
-
----
-
-# 82. Identity and Authority Epoch
-
-The target operation semantics require:
-
-```text
-authority_ref must be epoch-valid
-```
-
-Therefore identity resolution for an authority-bearing subject may need temporal context.
-
-But:
-
-```text
-THIS NEED
-!=
-NATIVE IDENTITY IMPLEMENTATION
-```
-
-Target conceptual record:
-
-```yaml
-authority_identity_binding:
-  identity_ref: required
-  authority_ref: required
-  epoch: required
-  scope: required
-  validity: required
-```
-
----
-
-# 83. Revocation Firewall
-
-```text
-AUTHORITY REVOCATION
-!=
-IDENTITY DELETION
-
-CREDENTIAL REVOCATION
-!=
-IDENTITY DELETION
-
-CAPABILITY REVOCATION
-!=
-IDENTITY LOSS
-```
-
-Native revocation semantics:
-
-`UNKNOWN/GAP`.
-
----
-
-# Part IX — Provenance and Evidence Topology
-
-# 84. Evidence Classes
-
-Use:
-
-```text
-SOURCE_CLAIM
-OBSERVATION
-DERIVED
-MODEL
-DECISION
-UNKNOWN
-```
-
-Examples:
-
-```text
-"AMOS Identity Canon artifact exists"
-→ DERIVED
-
-"AMOS identity means persistent selfhood"
-→ UNKNOWN/GAP
-
-"Artifact ID uniquely identifies an entity globally"
-→ NOT_ESTABLISHED
-
-"Identity persists through copy"
-→ UNKNOWN/GAP
-
-"Memory continuity establishes identity"
-→ UNKNOWN/GAP
-```
-
----
-
-# 85. Provenance Topology
-
-```text
-NATIVE SOURCE
-     ↓
-SOURCE IDENTITY
-     ↓
-VERSION / HASH
-     ↓
-ANCESTRY
-     ↓
-NORMALIZATION
-     ↓
-IDENTITY CANON
-     ↓
-DERIVED IDENTITY CLAIMS
-     ↓
-IMPLEMENTATION BINDINGS
-     ↓
-VALIDATION RECEIPTS
-```
-
----
-
-# 86. Source Identity Requirement
-
-Provenance depends on identifying sources.
-
-But this creates a dependency:
-
-```text
-PROVENANCE CLAIM
-→ SOURCE IDENTITY
-```
-
-If source identity is ambiguous:
-
-```text
-PROVENANCE CONFIDENCE
-MUST BE BOUNDED
-```
-
----
-
-# 87. Provenance Record
-
-```yaml
-provenance_record:
-  source_id: required
-  source_type: required
-  source_version: required
-  source_hash: when_available
-  parent_sources: required
-  transformation: required
-  steward: required
-  timestamp: required
-  scope: required
-  regime: required
-```
-
----
-
-# 88. Documentary Independence
-
-```text
-SOURCE A
- ├── SUMMARY B
- ├── NORMALIZATION C
- └── CANON D
-```
-
-does not yield:
-
-```text
-3 INDEPENDENT SOURCES
-```
-
-Therefore:
-
-```text
-REPETITION
-!=
-INDEPENDENT CONFIRMATION
-```
-
----
-
-# 89. Identity-Correlation Risk
-
-Two records may appear to be independent entities but actually refer to one underlying source.
-
-Conversely, two records may appear identical but represent distinct entities.
-
-Therefore:
-
-```text
-RECORD COUNT
-!=
-ENTITY COUNT
-
-IDENTIFIER COUNT
-!=
-IDENTITY COUNT
-```
-
-This matters for provenance/Sybil hardening.
-
----
-
-# 90. Sybil / Duplicate-Identity Firewall
-
-Conceptually:
-
-```text
-MANY IDENTITIES CLAIMED
-!=
-MANY INDEPENDENT ACTORS
-
-MANY SOURCES
-!=
-MANY INDEPENDENT ORIGINS
-```
-
-Native Sybil-detection implementation for this artifact:
-
-`NOT_ESTABLISHED`.
-
-The principle is provenance-topology discipline, not a claim of literal runtime enforcement.
-
----
-
-# 91. Confidence Ceiling
-
-```text
-DERIVED CONFIDENCE
-MUST NOT EXCEED
-THE WEAKEST LOAD-BEARING PREMISE
-UNLESS INDEPENDENTLY REVALIDATED
-```
-
-If identity resolution is uncertain, conclusions requiring that identity relation inherit the uncertainty.
-
-Example:
-
-```text
-P1:
-SOURCE A = SOURCE B
-confidence: LOW
-
-C1:
-A and B are one provenance origin
-```
-
-Then `C1` cannot be assigned confidence above the load-bearing identity premise without independent validation.
-
----
-
-# 92. External Research Firewall
-
-External work on:
-
-* personal identity;
-* identity theory;
-* identity and access management;
-* cryptographic identity;
-* digital identity;
-* distributed identity;
-* database identity;
-* cognitive self-models;
-* memory and identity;
-* philosophy of mind;
-* psychology of identity;
-* social identity;
-* biological individuality;
-
-remains:
-
-`EXTERNAL_EVIDENCE`
-
-unless governed native ingestion occurs.
-
----
-
-# Part X — Scope / Regime / Time
-
-# 93. Scope Envelope
-
-Artifact scope:
-
-```yaml
-artifact_scope:
-  system: AMOS_OS
-  plane: 01_CANON
-  segment: 01_CANON/03_COGNITION_CANON
-```
-
-Substantive identity scope:
-
-```yaml
-identity_scope:
-  identity_types: UNKNOWN/GAP
-  bearer_types: UNKNOWN/GAP
-  systems: UNKNOWN/GAP
-  agents: UNKNOWN/GAP
-  humans: UNKNOWN/GAP
-  artifacts: UNKNOWN/GAP
-  processes: UNKNOWN/GAP
-  claims: UNKNOWN/GAP
-  sources: UNKNOWN/GAP
-  versions: UNKNOWN/GAP
-  environments: UNKNOWN/GAP
-  scales: UNKNOWN/GAP
-  time: UNKNOWN/GAP
-  assumptions: UNKNOWN/GAP
-```
-
----
-
-# 94. Scope Firewall
-
-```text
-IDENTITY RULE VALID FOR ARTIFACTS
-!=
-VALID FOR HUMANS
-
-IDENTITY RULE VALID FOR PROCESSES
-!=
-VALID FOR PERSONS
-
-IDENTITY RULE VALID FOR DATABASE RECORDS
-!=
-VALID FOR COGNITIVE AGENTS
-
-IDENTITY RULE VALID FOR ONE NAMESPACE
-!=
-GLOBALLY VALID
-
-IDENTITY RULE VALID FOR ONE SYSTEM
-!=
-UNIVERSAL IDENTITY LAW
-```
-
----
-
-# 95. Regime Envelope
-
-```yaml
-identity_regime:
-  regime_id: UNKNOWN/GAP
-  identity_type: UNKNOWN/GAP
-  bearer_type: UNKNOWN/GAP
-  namespace: UNKNOWN/GAP
-  environment: UNKNOWN/GAP
-  versioning_model: UNKNOWN/GAP
-  authority_epoch: UNKNOWN/GAP
-  valid_from: UNKNOWN/GAP
-  valid_until: UNKNOWN/GAP
-  transition_conditions: UNKNOWN/GAP
-```
-
----
-
-# 96. Regime-Shift Firewall
-
-```text
-SAME IDENTITY RULE @ R1
-!=
-VALID @ R2
-
-SAME IDENTIFIER @ R1
-!=
-SAME RESOLUTION @ R2
-
-AUTHORIZED IDENTITY @ EPOCH E1
-!=
-AUTHORIZED @ EPOCH E2
-```
-
-Identity claims must inherit applicable regime and temporal validity where material.
-
----
-
-# 97. Temporal Identity
-
-Identity is inherently time-sensitive whenever continuity is claimed.
-
-Target:
-
-```yaml
-temporal_identity_claim:
-  entity_ref: required
-  time_a: required
-  time_b: required
-  continuity_criteria: required
-  evidence: required
-  regime: required
-  provenance: required
-  confidence: required
-```
-
-Current native semantics:
-
-`UNKNOWN/GAP`.
-
----
-
-# 98. Freshness Firewall
-
-```text
-VALID IDENTITY BINDING @ t1
-!=
-AUTOMATICALLY VALID @ t2
-
-VALID CREDENTIAL @ t1
-!=
-VALID CREDENTIAL @ t2
-
-VALID AUTHORITY @ E1
-!=
-VALID AUTHORITY @ E2
-```
-
-Freshness requirements remain unresolved.
-
----
-
-# Part XI — RSCF / H-M-L / Fractal Binding
-
-# 99. RSCF Binding
-
-The source declares:
-
-```yaml
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
-```
-
-This supports RSCF representation.
-
-It does not establish:
-
-```text
-IDENTITY
-=
-RSCF STATE
-
-IDENTITY TYPE
-=
-H DOMAIN
-
-IDENTITY INSTANCE
-=
-M SUBSYSTEM
-
-IDENTIFIER
-=
-L DETAIL
-```
-
-Native mapping remains `UNKNOWN/GAP`.
-
----
-
-# 100. Identity RSCF Claim Schema
-
-```yaml
-rscf_identity_claim:
-  claim_id: required
-  subject_identity_ref: required
-  claim: required
-  claim_class: required
-  identity_type: required_if_known
-  identity_criteria: required_if_identity_claim
-  premises: required
-  evidence: required
-  provenance: required
-  provenance_independence: required
-  dependencies: required
-  scope: required
-  regime: required
-  temporal_validity: required
-  competing: required
-  falsifiers: required
-  confidence_ceiling: required
-```
-
----
-
-# 101. H/M/L Binding
-
-```yaml
-hml_binding:
-  H: UNKNOWN/GAP
-  M: UNKNOWN/GAP
-  L: UNKNOWN/GAP
-```
-
-Do not invent:
-
-```text
-H = IDENTITY CLASS
-M = ENTITY
-L = IDENTIFIER
-```
-
-as native AMOS structure.
-
----
-
-# 102. Fractal Retrieval Target
-
-```text
-BOOTSTRAP CAPSULE
-        ↓
-H DOMAIN
-        ↓
-M SUBSYSTEM
-        ↓
-L DETAIL
-        ↓
-RAW EVIDENCE
-ONLY WHEN REQUIRED
-```
-
-Raw evidence:
-
-```text
-DO_NOT_LOAD_UNLESS_REQUIRED
-```
-
-For an identity claim, retrieve only dependencies that can materially alter identity resolution.
-
----
-
-# 103. Smallest Sufficient Identity Proof
-
-Conceptually:
-
-```text
-IDENTITY CLAIM
-     ↓
-IDENTITY TYPE
-     ↓
-BEARER TYPE
-     ↓
-IDENTITY CRITERIA
-     ↓
-IDENTIFIER / RESOLUTION
-     ↓
-CONTINUITY / LINEAGE
-     ↓
-TIME / EPOCH
-     ↓
-SCOPE / REGIME
-     ↓
-PROVENANCE
-     ↓
-CONFLICT CHECK
-```
-
-Escalate if any load-bearing edge is ambiguous.
-
----
-
-# Part XII — Canon Operation Semantics
-
-# 104. Contract Discipline
-
-**Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.**
-
-```yaml
-identity_canon_contract:
-  typed_artifact: required
-  provenance: required
-  epistemic_class: required
-  confidence_ceiling: required
-  scope: required
-  regime: required
-  unknown_gap_behavior: FAIL_CLOSED
-  consequential_effects: RECEIPT_REQUIRED
-  mutation: ROLLBACK_BASIN_REQUIRED
-```
-
----
-
-# 105. Worked Canon-Operation Semantics
-
-Given an operation touching:
-
-`01_CANON · CANON`
-
-### Admit
-
-Resolve:
-
-```text
-artifact_id + version
-```
-
-If unresolved:
-
-```text
-UNKNOWN/GAP
-→ FAIL CLOSED
-```
-
-### Bind scope
-
-Declare:
-
-```text
-DOMAIN
-+
-REGIME
-+
-H/M/L APPLICABILITY
-```
-
-### Check authority
-
-```text
-authority_ref
-→ MUST BE EPOCH-VALID
-```
-
-### Validate preconditions
-
-Traverse smallest result-changing dependency closure.
-
-### Propose
-
-```text
-PROPOSAL
-!=
-COMMIT
-```
-
-### Commit or hold
-
-On failed premise:
-
-```text
-PRESERVE UNAFFECTED STATE
-+
-INVALIDATE DEPENDENT DESCENDANTS ONLY
-+
-RECORD RECEIPT
-```
-
----
-
-# 106. Canon Resolution ≠ Identity Theory
-
-The operation:
-
-```text
-RESOLVE ARTIFACT BY ID + VERSION
-```
-
-is a target governance behavior.
-
-It does not prove that native AMOS identity is defined as:
-
-```text
-ID + VERSION
-```
-
-Therefore:
-
-```text
-CANON ADDRESS RESOLUTION
-!=
-GENERAL IDENTITY THEORY
-```
-
----
-
-# 107. Selective Invalidation
-
-Suppose:
-
-```text
-C1:
-ENTITY X @ t2
-IS THE SAME ENTITY
-AS X @ t1
-```
-
-depends on:
-
-```text
-P1 = identity criteria
-P2 = continuity evidence
-P3 = lineage
-P4 = temporal validity
-P5 = scope/regime
-```
-
-If `P2` fails:
-
-```text
-INVALIDATE C1
-+
-DEPENDENT DESCENDANTS
-```
-
-Do not automatically invalidate independent facts about `X`.
-
----
-
-# 108. Failure Recovery
-
-```text
-FAILED IDENTITY PREMISE
-        ↓
-IDENTIFY FAILED EDGE
-        ↓
-INVALIDATE DEPENDENT CLAIMS
-        ↓
-ROLL BACK TO NEAREST VALID STATE
-        ↓
-PRESERVE UNAFFECTED IDENTITY / LINEAGE FACTS
-        ↓
-REROUTE WITH CHANGED EVIDENCE
-```
-
----
-
-# 109. MVCC Conceptual Discipline
-
-```text
-READ IDENTITY RECORD @ VERSION vN
-        ↓
-VALIDATE
-        ↓
-PROPOSE UPDATE
-        ↓
-CHECK CURRENT VERSION
-        ↓
-CURRENT = vN ?
-   YES          NO
-    ↓            ↓
-MAY COMMIT    ABORT /
-              REVALIDATE
-```
-
-This is a conceptual governance pattern.
-
-Literal MVCC implementation:
-
-`NOT_ESTABLISHED`.
-
----
-
-# 110. CAS Conceptual Discipline
-
-```text
-EXPECTED IDENTITY VERSION = vN
-CURRENT VERSION = vN
-→ UPDATE MAY PROCEED
-
-EXPECTED = vN
-CURRENT = vN+1
-→ CAS FAIL
-→ NO STALE IDENTITY MUTATION
-```
-
-Literal CAS implementation:
-
-`NOT_ESTABLISHED`.
-
----
-
-# 111. Atomic Multi-RSCF Identity Mutation
-
-A consequential identity mutation might touch:
-
-```text
-IDENTITY NODE
-
-IDENTIFIER NODE
-
-ALIAS NODE
-
-LINEAGE NODE
-
-PROVENANCE NODE
-
-AUTHORITY BINDING
-
-SCOPE NODE
-
-REGIME NODE
-
-VALIDATION RECEIPT
-```
-
-Where coherence requires atomicity:
-
-```text
-PARTIAL COMMIT
-!=
-SUCCESS
-```
-
-Literal atomic multi-RSCF implementation:
-
-`NOT_ESTABLISHED`.
-
----
-
-# 112. Causal Epoch Finality
-
-Conceptually:
-
-```yaml
-identity_epoch_binding:
-  identity_ref: required
-  identity_version: required
-  authority_ref: when_material
-  source_versions: required
-  dependency_versions: required
-  epoch_id: required
-  finality_status: required
-```
-
-```text
-VALID IDENTITY BINDING @ E1
-!=
-AUTOMATICALLY VALID @ E2
-```
-
-Literal causal-epoch finalization:
-
-`NOT_ESTABLISHED`.
-
----
-
-# 113. Proof-Based Coordination Avoidance
-
-Local identity reasoning is permitted only when:
-
-```text
-IDENTITY TYPE KNOWN
-+
-DEPENDENCY CLOSURE ESTABLISHED
-+
-PROVENANCE INDEPENDENCE ESTABLISHED
-+
-SCOPE COMPATIBLE
-+
-REGIME COMPATIBLE
-+
-TEMPORAL VALIDITY ESTABLISHED
-+
-NO MATERIAL CONFLICT
-+
-NO AMBIGUOUS ALIAS / FORK / MERGE / VERSION EDGE
-```
-
-Otherwise:
-
-`ESCALATE`.
-
----
-
-# Part XIII — Adversarial Validation
-
-# 114. Adversarial Identity Validation
-
-For a consequential identity claim, challenge:
-
-* Is `identity` natively defined?
-* Is the identity bearer defined?
-* Is identity being confused with an identifier?
-* Is identity being confused with a name?
-* Is identity being confused with a path?
-* Is identity being confused with a credential?
-* Is authentication being confused with identity?
-* Is authentication being confused with authorization?
-* Is identity being confused with authority?
-* Is identity being confused with ownership?
-* Is identity being confused with provenance?
-* Is identity being confused with lineage?
-* Is identity being confused with memory?
-* Is identity being confused with personality?
-* Is identity being confused with consciousness?
-* Is identity being confused with agency?
-* Is similarity being treated as identity?
-* Is equivalence being treated as identity?
-* Is a copy being treated as the original?
-* Is a fork being silently treated as continuity?
-* Is a merge being silently treated as continuity?
-* Is migration being treated as identity transfer without proof?
-* Is restore being treated as continuity without proof?
-* Is versioning being treated as identity continuity without a rule?
-* Is newer being treated as superseding?
-* Is supersession being treated as numerical identity?
-* Is a stale identity binding being reused?
-* Is a namespace collision possible?
-* Are aliases ambiguous?
-* Are duplicate records being counted as independent identities?
-* Are shared provenance descendants being counted as independent sources?
-* Is scope leaking between artifact, agent, human, and system identity?
-* Did the regime change?
-* Did the authority epoch change?
-* Does confidence exceed the weakest identity premise?
-
-If challenge succeeds:
-
-```text
-DOWNGRADE
-OR
-CONDITION
-OR
-PRESERVE COMPETING
-OR
-RETURN UNKNOWN/GAP
-```
-
----
-
-# 115. Identity Sensitivity
-
-Highest-sensitivity premise:
-
-> **The verified native AMOS definition of Identity.**
-
-Next:
-
-```text
-1. identity type
-2. identity bearer
-3. identity criteria
-4. continuity criteria
-5. identity break conditions
-6. identifier relation
-7. namespace
-8. alias semantics
-9. version semantics
-10. copy semantics
-11. fork semantics
-12. merge semantics
-13. lineage relation
-14. provenance relation
-15. temporal validity
-16. scope
-17. regime
-18. authentication relation
-19. authorization relation
-20. executable binding
-```
-
-Changing any of the first several premises can invert identity conclusions.
-
----
-
-# 116. Uncertainty Vector
-
-```yaml
-uncertainty:
-
-  artifact_identity: LOW
-  artifact_path: LOW
-  artifact_kind: LOW
-  framework_label: LOW
-  segment_membership: LOW
-
-  native_identity_definition: CRITICAL
-  identity_types: CRITICAL
-  identity_bearers: CRITICAL
-  identity_criteria: CRITICAL
-  continuity_criteria: CRITICAL
-  break_conditions: CRITICAL
-
-  identifier_semantics: HIGH
-  namespace_semantics: HIGH
-  resolution_semantics: HIGH
-  alias_semantics: HIGH
-  equivalence_semantics: HIGH
-
-  versioning: HIGH
-  copy_semantics: HIGH
-  fork_semantics: HIGH
-  merge_semantics: HIGH
-  migration_semantics: HIGH
-  restore_semantics: HIGH
-  supersession_semantics: HIGH
-
-  lineage_relation: HIGH
-  provenance_relation: HIGH
-
-  self_identity: HIGH
-  personal_identity: HIGH
-  human_identity: HIGH
-  cognitive_identity: HIGH
-  agent_identity: HIGH
-  system_identity: HIGH
-
-  memory_relation: HIGH
-  consciousness_relation: HIGH
-  agency_relation: HIGH
-
-  authentication_relation: HIGH
-  authorization_relation: HIGH
-  authority_relation: HIGH
-
-  scope: HIGH
-  regime: HIGH
-  temporal_validity: HIGH
-  dependencies: HIGH
-
-  provenance: MEDIUM
-  provenance_independence: HIGH
-
-  implementation: HIGH
-  validation: HIGH
-  executable_binding: HIGH
-```
-
----
-
-# Part XIV — Cross-Plane Boundaries
-
-# 117. Kernel Boundary
-
-Target:
-
-[[KERNEL_README]]
-
-```text
-IDENTITY CANON
-!=
-IDENTITY RUNTIME
-
-IDENTITY MODEL
-!=
-IDENTITY SERVICE
-
-IDENTIFIER SCHEMA
-!=
-RESOLVER IMPLEMENTATION
-```
-
-Kernel binding:
-
-`NOT_ESTABLISHED`.
-
----
-
-# 118. Control-Plane Boundary
-
-Target:
-
-[[CONTROL_PLANE_README]]
-
-```text
-IDENTITY
-!=
-AUTHORITY
-
-IDENTIFIED
-!=
-AUTHORIZED
-
-AUTHORIZED
-!=
-COMMIT
-
-CAPABILITY
-!=
-AUTHORITY
-```
-
-Control-plane binding:
-
-`NOT_ESTABLISHED`.
-
----
-
-# 119. Observability Boundary
-
-Target:
-
-[[OBSERVABILITY_README]]
-
-```text
-OBSERVED ID
-!=
-VERIFIED IDENTITY
-
-LOGGED IDENTITY CLAIM
-!=
-AUTHENTICATED IDENTITY
-
-LOGGED
-!=
-APPROVED
-
-OBSERVABILITY
-!=
-AUTHORITY
-```
-
----
-
-# 120. Operations Boundary
-
-Target:
-
-[[OPERATIONS_README]]
-
-```text
-RESTORE
-!=
-PROVEN IDENTITY CONTINUITY
-
-RECOVERY
-!=
-IDENTITY RECONSTRUCTION
-
-ROLLBACK
-!=
-TIME REVERSAL
-
-BACKUP
-!=
-CURRENT ENTITY
-```
-
-Operations procedures must preserve identity/lineage distinctions where relevant.
-
----
-
-# Part XV — Validation
-
-# 121. Required Validation Receipts
-
-Before promotion:
-
-* [[ROUTING_POLICY_VALIDATION_RECEIPT]]
-* [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
-
-Current:
-
-```yaml
-validation_receipts:
-  routing_policy:
-    status: NOT_ESTABLISHED
-
-  authz_engine:
-    status: NOT_ESTABLISHED
-
-  identity_specific:
-    status: NOT_ESTABLISHED
-```
-
----
-
-# 122. Identity Validation Receipt Schema
-
-```yaml
-validation_receipt:
-
-  receipt_id: required
-
-  artifact_id:
-    amos_01_canon_03_cognition_canon_amos_identity_canon
-
-  artifact_version: required
-
-  validator: required
-  validation_time: required
-  environment: required
-  regime: required
-
-  native_source_versions: required
-  dependency_versions: required
-
-  tests_executed: required
-  negative_tests: required
-
-  identity_definition_test:
-    required
-
-  identity_type_test:
-    required
-
-  bearer_type_test:
-    required
-
-  identifier_resolution_test:
-    required_if_identifiers_used
-
-  namespace_collision_test:
-    required_if_namespaces_used
-
-  alias_test:
-    required_if_aliases_used
-
-  continuity_test:
-    required_if_continuity_claimed
-
-  copy_test:
-    required_if_copy_semantics_claimed
-
-  fork_test:
-    required_if_fork_semantics_claimed
-
-  merge_test:
-    required_if_merge_semantics_claimed
-
-  migration_test:
-    required_if_migration_claimed
-
-  restore_test:
-    required_if_restore_claimed
-
-  versioning_test:
-    required
-
-  lineage_test:
-    required
-
-  provenance_test:
-    required
-
-  authentication_test:
-    required_if_authentication_claimed
-
-  authorization_test:
-    required_if_authorization_claimed
-
-  routing_test:
-    required
-
-  rollback_test:
-    required
-
-  expected_results: required
-  observed_results: required
-  failures: required
-  unresolved_gaps: required
-  provenance: required
-
-  final_status: required
-```
-
----
-
-# 123. Negative Validation Matrix
-
-| Case                                                | Required behavior            |
-| --------------------------------------------------- | ---------------------------- |
-| Missing artifact                                    | `UNKNOWN/GAP`; fail closed   |
-| Unknown artifact ID                                 | fail closed                  |
-| Malformed artifact ID                               | reject                       |
-| Stale version                                       | reject or revalidate         |
-| Native identity definition absent                   | block substantive promotion  |
-| Identity bearer unknown                             | `UNKNOWN/GAP`                |
-| Identity type unknown                               | `UNKNOWN/GAP`                |
-| Identifier treated as identity                      | reject                       |
-| Name treated as identity                            | reject                       |
-| Label treated as identity                           | reject                       |
-| Path treated as identity                            | reject                       |
-| Credential treated as identity                      | reject                       |
-| Authentication treated as identity                  | reject                       |
-| Authentication treated as authorization             | reject                       |
-| Identity treated as authority                       | reject                       |
-| Identity treated as ownership                       | reject                       |
-| Identity treated as provenance                      | reject                       |
-| Identity treated as lineage                         | reject                       |
-| Identity treated as memory                          | reject                       |
-| Identity treated as consciousness                   | reject                       |
-| Identity treated as agency                          | reject                       |
-| Similarity treated as identity                      | reject                       |
-| Equivalence treated as identity                     | reject                       |
-| Same content treated as same entity                 | reject                       |
-| Copy treated as original                            | reject                       |
-| Fork continuity assumed                             | reject                       |
-| Merge continuity assumed                            | reject                       |
-| Migration continuity assumed                        | reject                       |
-| Restore continuity assumed                          | reject                       |
-| Version continuity assumed                          | reject                       |
-| Newer treated as superseding                        | reject                       |
-| Supersession treated as identity                    | reject                       |
-| Namespace collision unresolved                      | fail closed                  |
-| Alias ambiguity unresolved                          | fail closed                  |
-| Stale identity binding                              | revalidate                   |
-| Stale authority binding                             | reject                       |
-| Duplicate records counted as independent identities | reject                       |
-| Shared ancestry counted as independent evidence     | reject confidence inflation  |
-| Scope mismatch                                      | block inference              |
-| Regime mismatch                                     | revalidate                   |
-| External theory imported as native canon            | reject                       |
-| Missing provenance                                  | reject promotion             |
-| Missing rollback basin                              | block consequential mutation |
-| Missing validation receipt                          | no promotion                 |
-| `UNKNOWN/GAP` treated as PASS                       | reject                       |
-
----
-
-# Part XVI — Gap Registry
-
-# 124. Critical Gaps
-
-```yaml
-critical_gaps:
-
-  - id: GAP_AMOS_IDENTITY_DEFINITION
-    class: CRITICAL
-    status: UNKNOWN/GAP
-    description: >
-      Native AMOS definition of Identity is not established.
-
-  - id: GAP_AMOS_IDENTITY_TYPES
-    class: CRITICAL
-    status: UNKNOWN/GAP
-
-  - id: GAP_AMOS_IDENTITY_BEARERS
-    class: CRITICAL
-    status: UNKNOWN/GAP
-
-  - id: GAP_AMOS_IDENTITY_CRITERIA
-    class: CRITICAL
-    status: UNKNOWN/GAP
-
-  - id: GAP_AMOS_IDENTITY_CONTINUITY
-    class: CRITICAL
-    status: UNKNOWN/GAP
-
-  - id: GAP_AMOS_IDENTITY_BREAK_CONDITIONS
-    class: CRITICAL
-    status: UNKNOWN/GAP
-
-  - id: GAP_AMOS_IDENTITY_RESOLUTION
-    class: CRITICAL
-    status: UNKNOWN/GAP
-
-  - id: GAP_AMOS_IDENTITY_SCOPE_REGIME
-    class: CRITICAL
-    status: UNKNOWN/GAP
-
-  - id: GAP_AMOS_IDENTITY_EXECUTABLE_BINDING
-    class: CRITICAL
-    status: UNKNOWN/GAP
-
-  - id: GAP_AMOS_IDENTITY_VALIDATION
-    class: CRITICAL
-    status: UNKNOWN/GAP
-```
-
----
-
-# 125. Decision-Relevant Gaps
-
-```yaml
-decision_relevant_gaps:
-  identifier_schema: UNKNOWN/GAP
-  namespace_semantics: UNKNOWN/GAP
-  alias_semantics: UNKNOWN/GAP
-  equivalence_semantics: UNKNOWN/GAP
-  persistence_semantics: UNKNOWN/GAP
-  mutation_semantics: UNKNOWN/GAP
-  versioning_semantics: UNKNOWN/GAP
-  copy_semantics: UNKNOWN/GAP
-  fork_semantics: UNKNOWN/GAP
-  merge_semantics: UNKNOWN/GAP
-  migration_semantics: UNKNOWN/GAP
-  restore_semantics: UNKNOWN/GAP
-  supersession_semantics: UNKNOWN/GAP
-  lineage_relation: UNKNOWN/GAP
-  provenance_relation: UNKNOWN/GAP
-  authentication_relation: UNKNOWN/GAP
-  authorization_relation: UNKNOWN/GAP
-  authority_relation: UNKNOWN/GAP
-  self_identity: UNKNOWN/GAP
-  personal_identity: UNKNOWN/GAP
-  human_identity: UNKNOWN/GAP
-  cognitive_identity: UNKNOWN/GAP
-  agent_identity: UNKNOWN/GAP
-  system_identity: UNKNOWN/GAP
-  memory_relation: UNKNOWN/GAP
-  consciousness_relation: UNKNOWN/GAP
-  agency_relation: UNKNOWN/GAP
-  temporal_validity: UNKNOWN/GAP
-  dependency_topology: UNKNOWN/GAP
-  provenance_independence: NOT_ESTABLISHED
-```
-
----
-
-# Part XVII — Worked Semantics
-
-# 126. Worked Example — Same Name
-
-Input:
-
-```text
-Entity A and Entity B have the same name.
-Therefore A = B.
-```
-
-Result:
-
-```text
-UNSUPPORTED
-```
-
-Because:
-
-```text
-SAME NAME
-!=
-SAME ENTITY
-```
-
----
-
-# 127. Worked Example — Same Identifier
-
-Input:
-
-```text
-Two records contain identifier X.
-Therefore they represent the same entity.
-```
-
-Result:
-
-```text
-CONDITIONAL / UNKNOWN
-```
-
-Required:
-
-```text
-NAMESPACE
-+
-IDENTIFIER SCHEMA
-+
-COLLISION RULE
-+
-RESOLUTION RULE
-+
-TEMPORAL CONTEXT
-```
-
----
-
-# 128. Worked Example — Different Identifier
-
-Input:
-
-```text
-Entity record changed from ID-A to ID-B.
-Therefore identity changed.
-```
-
-Result:
-
-```text
-NOT ESTABLISHED
-```
-
-Because:
-
-```text
-IDENTIFIER CHANGE
-!=
-IDENTITY CHANGE
-```
-
----
-
-# 129. Worked Example — Copy
-
-Input:
-
-```text
-B is a perfect copy of A.
-Therefore B is A.
-```
-
-Result:
-
-```text
-UNSUPPORTED
-```
-
-Because:
-
-```text
-COPY
-!=
-ORIGINAL
-```
-
-unless native identity criteria explicitly establish otherwise.
-
----
-
-# 130. Worked Example — Fork
-
-Input:
-
-```text
-A forks into B and C.
-Which continuation is A?
-```
-
-Result:
-
-```text
-UNKNOWN/GAP
-```
-
-Native fork-continuity semantics are required.
-
----
-
-# 131. Worked Example — Restore
-
-Input:
-
-```text
-A is restored from yesterday's snapshot.
-Therefore restored A is numerically identical
-to the pre-failure A.
-```
-
-Result:
-
-```text
-NOT ESTABLISHED
-```
-
-State restoration alone does not resolve identity continuity.
-
----
-
-# 132. Worked Example — Version
-
-Input:
-
-```text
-AMOS artifact A moves from v1 to v2.
-Therefore v2 is a different identity.
-```
-
-Result:
-
-```text
-NOT ESTABLISHED
-```
-
-Likewise:
-
-```text
-v2 is automatically the same identity as v1
-```
-
-is not established without native version/identity semantics.
-
----
-
-# 133. Worked Example — Lineage
-
-Input:
-
-```text
-B is derived from A.
-Therefore B = A.
-```
-
-Result:
-
-```text
-INVALID
-```
-
-Because:
-
-```text
-DERIVED_FROM
-!=
-SAME_AS
-```
-
----
-
-# 134. Worked Example — Authentication
-
-Input:
-
-```text
-Credential C successfully authenticates subject S.
-Therefore S may commit operation O.
-```
-
-Result:
-
-```text
-INVALID
-```
-
-Because:
-
-```text
-AUTHENTICATION
-!=
-AUTHORIZATION
-
-AUTHORIZATION
-!=
-COMMIT
-```
-
----
-
-# 135. Worked Example — Consciousness
-
-Input:
-
-```text
-System S persistently identifies itself as S.
-Therefore S has continuous consciousness.
-```
-
-Result:
-
-```text
-UNSUPPORTED
-```
-
-Because:
-
-```text
-IDENTITY CLAIM
-!=
-CONSCIOUSNESS
-
-SELF-REFERENCE
-!=
-SUBJECTIVE EXPERIENCE
-```
-
----
-
-# 136. Worked Example — Memory
-
-Input:
-
-```text
-B contains all memories of A.
-Therefore B is A.
-```
-
-Result:
-
-```text
-NOT ESTABLISHED
-```
-
-Because:
-
-```text
-MEMORY COPY
-!=
-IDENTITY TRANSFER
-```
-
----
-
-# 137. Worked Example — Duplicate Sources
-
-Suppose:
-
-```text
-SOURCE A
-→ COPY B
-→ SUMMARY C
-→ NORMALIZATION D
-```
-
-and all contain the same identity claim.
-
-Result:
-
-```text
-FOUR DOCUMENTS
-!=
-FOUR INDEPENDENT CONFIRMATIONS
-```
-
----
-
-# 138. Worked Example — Identity Conflict
-
-Suppose:
-
-```text
-SOURCE A:
-ENTITY X @ t2 IS CONTINUATION OF X @ t1
-
-SOURCE B:
-ENTITY X @ t2 IS A NEW ENTITY
-```
-
-Absent a valid precedence/supersession rule or discriminating evidence:
-
-```text
-RESULT
-=
-COMPETING
-```
-
-Do not force convergence.
-
----
-
-# 139. Worked Example — Selective Failure
-
-Suppose:
-
-```text
-C1:
-ARTIFACT A @ v2
-IS CONTINUATION OF A @ v1
-
-C2:
-ARTIFACT B
-HAS PROVENANCE SOURCE S
-```
-
-If continuity evidence for `C1` fails:
-
 ```text
-INVALIDATE C1
-```
-
-Do not invalidate independently supported `C2`.
-
----
-
-# Part XVIII — Promotion
-
-# 140. Promotion-Gate Checklist
-
-* [ ] substantive content populated from verified native-canon source
-* [ ] native definition of identity established
-* [ ] identity types established
-* [ ] identity bearers established
-* [ ] identity criteria established
-* [ ] continuity criteria established
-* [ ] persistence criteria established
-* [ ] identity-break conditions established
-* [ ] identifier schema established if used
-* [ ] namespace semantics established
-* [ ] identity resolution established
-* [ ] alias semantics established if used
-* [ ] rename semantics established if used
-* [ ] equivalence semantics established if used
-* [ ] versioning relation established
-* [ ] copy semantics established if applicable
-* [ ] fork semantics established if applicable
-* [ ] merge semantics established if applicable
-* [ ] migration semantics established if applicable
-* [ ] restore semantics established if applicable
-* [ ] supersession semantics established if applicable
-* [ ] lineage relation established
-* [ ] provenance relation established
-* [ ] authentication relation established if claimed
-* [ ] authorization relation established if claimed
-* [ ] authority relation established if claimed
-* [ ] self-identity semantics established if claimed
-* [ ] human/personal identity semantics established if claimed
-* [ ] cognitive identity semantics established if claimed
-* [ ] agent identity semantics established if claimed
-* [ ] system identity semantics established if claimed
-* [ ] memory relation established if claimed
-* [ ] consciousness relation established if claimed
-* [ ] agency relation established if claimed
-* [ ] typed schema bound to artifact
-* [ ] identity + versioning implementation established
-* [ ] scope envelope established
-* [ ] regime envelope established
-* [ ] temporal validity established
-* [ ] dependency topology established
-* [ ] provenance persisted
-* [ ] provenance ancestry validated
-* [ ] provenance independence assessed
-* [ ] competing hypotheses preserved
-* [ ] namespace collision cases tested
-* [ ] alias ambiguity cases tested
-* [ ] copy/fork/merge cases tested where applicable
-* [ ] stale identity cases tested
-* [ ] stale authority cases tested
-* [ ] negative cases covered
-* [ ] rollback basin demonstrated
-* [ ] executable binding established if enforcement claimed
-* [ ] [[ROUTING_POLICY_VALIDATION_RECEIPT]] resolved
-* [ ] [[AUTHZ_ENGINE_VALIDATION_RECEIPT]] resolved
-* [ ] artifact-specific validation receipt executed
-* [ ] unresolved critical gaps remain visible
-
----
-
-# 141. Promotion State
-
-```yaml
-promotion_state:
-
-  artifact_addressable: true
-  placeholder_preserved: true
-
-  native_identity_definition_resolved: false
-  identity_types_resolved: false
-  identity_bearers_resolved: false
-  identity_criteria_resolved: false
-  continuity_criteria_resolved: false
-  break_conditions_resolved: false
-
-  identifier_schema_resolved: false
-  namespace_resolved: false
-  identity_resolution_resolved: false
-  alias_semantics_resolved: false
-
-  versioning_resolved: false
-  copy_semantics_resolved: false
-  fork_semantics_resolved: false
-  merge_semantics_resolved: false
-  lineage_relation_resolved: false
-  provenance_relation_resolved: false
-
-  authentication_relation_resolved: false
-  authorization_relation_resolved: false
-  authority_relation_resolved: false
-
-  cognitive_identity_resolved: false
-  consciousness_relation_resolved: false
-  memory_relation_resolved: false
-  agency_relation_resolved: false
-
-  scope_resolved: false
-  regime_resolved: false
-  temporal_validity_resolved: false
+01_CANON/03_COGNITION_CANON
+````
 
-  provenance_validated: false
-  executable_binding: false
-  validation_receipts_complete: false
+It reserves the canonical location for the framework family:
 
-  critical_gaps_remaining: true
-
-  promotion_allowed: false
-  canonical_status: UNKNOWN/GAP
-```
-
-Current action:
-
 ```text
-PRESERVE PLACEHOLDER
-+
-CONTINUE NATIVE SOURCE INGESTION
-+
-DO NOT PROMOTE
-```
-
----
-
-# Part XIX — Proof Capsule
-
-# 142. Current Proof Capsule
-
-```yaml
-proof_capsule:
-
-  id:
-    PC_AMOS_IDENTITY_CANON_PLACEHOLDER
-
-  claim: >
-    AMOS OS reserves an ADD-ONLY Canon artifact named
-    AMOS_IDENTITY_CANON.md in the Cognition Canon segment
-    for the framework family identified as AMOS Identity Canon.
-
-  claim_class:
-    DERIVED
-
-  epistemic_class:
-    AMOS_MODEL
-
-  premises:
-    - supplied metadata identifies the artifact
-    - supplied path places it in 01_CANON/03_COGNITION_CANON
-    - supplied ingestion_action is ADD_ONLY
-    - supplied status is PLACEHOLDER
-
-  evidence:
-    - supplied AMOS_IDENTITY_CANON placeholder
-
-  provenance:
-    - AMOS_corpus
-
-  scope:
-    system: AMOS_OS
-    plane: 01_CANON
-    segment: 01_CANON/03_COGNITION_CANON
-
-  dependencies:
-    - AMOS_CANON_INGESTION_RULE
-    - LAW_HIERARCHY
-
-  competing_explanations:
-    native_identity_semantics:
-      - logical identity
-      - persistent identifier architecture
-      - artifact/node identity
-      - agent identity
-      - system/process identity
-      - cognitive self-identity
-      - human/personal identity
-      - provenance/lineage continuity
-      - authentication/identity resolution
-      - versioned continuity
-      - composite typed identity model
-      - governance identity construct
-      - framework label only
-      - unrecovered native AMOS meaning
-
-  falsifiers:
-    - verified manifest establishes a different artifact identity
-    - verified provenance establishes artifact is not part of AMOS corpus
-
-  confidence_ceiling:
-    source_supported
-
-  established:
-    artifact_identity: true
-    artifact_path: true
-    artifact_kind: true
-    framework_label: true
-    cognition_segment_membership: true
-    add_only_intent: true
-    placeholder_status: true
-    governance_boundaries: true
-
-  not_established:
-    native_identity_definition: true
-    identity_types: true
-    identity_bearers: true
-    identity_criteria: true
-    continuity_criteria: true
-    persistence_criteria: true
-    identity_break_conditions: true
-    identifier_schema: true
-    namespace_semantics: true
-    identity_resolution: true
-    alias_semantics: true
-    equivalence_semantics: true
-    versioning_semantics: true
-    copy_semantics: true
-    fork_semantics: true
-    merge_semantics: true
-    migration_semantics: true
-    restore_semantics: true
-    supersession_semantics: true
-    lineage_relation: true
-    provenance_relation: true
-    authentication_relation: true
-    authorization_relation: true
-    authority_relation: true
-    self_identity: true
-    personal_identity: true
-    human_identity: true
-    cognitive_identity: true
-    agent_identity: true
-    system_identity: true
-    memory_relation: true
-    consciousness_relation: true
-    agency_relation: true
-    scope: true
-    regime: true
-    temporal_validity: true
-    executable_binding: true
-    validation: true
+AMOS Identity Canon
 ```
-
----
-
-# Part XX — Canonical Knowledge Capsule
-
-# 143. Canonical Knowledge Capsule
-
-**Class:** `DERIVED / AMOS_MODEL`
-
-The supplied source establishes an AMOS OS artifact named:
-
-**AMOS Identity Canon**
-
-located at:
-
-`01_CANON/03_COGNITION_CANON/AMOS_IDENTITY_CANON.md`
-
-with identifier:
-
-`amos_01_canon_03_cognition_canon_amos_identity_canon`
 
-Source state:
+Current epistemic state:
 
 ```yaml
 status: PLACEHOLDER
+epistemic_class: AMOS_MODEL
 canonical_status: UNKNOWN/GAP
 implementation_status: NOT_ESTABLISHED
 validation_status: NOT_ESTABLISHED
@@ -4599,126 +72,44 @@ executable_binding: NOT_ESTABLISHED
 ingestion_action: ADD_ONLY
 ```
 
-Supported:
+This artifact is therefore:
 
 ```text
-ARTIFACT IDENTITY
-+
-ARTIFACT LOCATION
-+
-CANON ARTIFACT KIND
-+
-COGNITION CANON SEGMENT MEMBERSHIP
-+
-FRAMEWORK LABEL
-+
-ADD-ONLY INGESTION INTENT
-+
-GOVERNANCE BOUNDARIES
-+
-TARGET CANON-MUTATION SEMANTICS
-+
-TARGET PROMOTION REQUIREMENTS
+ADDRESSABLE
+but
+NOT SUBSTANTIVELY POPULATED
+
+DOCUMENTED
+but
+NOT VALIDATED
+
+CANON-SLOTTED
+but
+NOT YET ESTABLISHED AS POPULATED CANON
 ```
 
-Not established:
+The existence of this file MUST NOT be interpreted as evidence that a complete AMOS identity ontology, identity engine, runtime identity implementation, or empirically validated identity model already exists.
 
-```text
-NATIVE IDENTITY DEFINITION
+Origin architect / steward:
 
-IDENTITY TYPES
+**Trang Phan**
 
-IDENTITY BEARERS
+System:
 
-IDENTITY CRITERIA
-
-CONTINUITY CRITERIA
-
-PERSISTENCE CRITERIA
-
-IDENTITY BREAK CONDITIONS
-
-IDENTIFIER SEMANTICS
-
-NAMESPACE SEMANTICS
-
-IDENTITY RESOLUTION
-
-ALIAS SEMANTICS
-
-EQUIVALENCE SEMANTICS
-
-VERSIONING SEMANTICS
-
-COPY SEMANTICS
-
-FORK SEMANTICS
-
-MERGE SEMANTICS
-
-MIGRATION SEMANTICS
-
-RESTORE SEMANTICS
-
-SUPERSESSION SEMANTICS
-
-LINEAGE RELATION
-
-PROVENANCE RELATION
-
-AUTHENTICATION RELATION
-
-AUTHORIZATION RELATION
-
-AUTHORITY RELATION
-
-SELF-IDENTITY
-
-PERSONAL IDENTITY
-
-HUMAN IDENTITY
-
-COGNITIVE IDENTITY
-
-AGENT IDENTITY
-
-SYSTEM IDENTITY
-
-MEMORY RELATION
-
-CONSCIOUSNESS RELATION
-
-AGENCY RELATION
-
-RSCF/H-M-L BINDING
-
-SCOPE
-
-REGIME
-
-TEMPORAL VALIDITY
-
-EXECUTABLE IMPLEMENTATION
-
-VALIDATION
-```
+**AMOS OS**
 
 ---
 
-# Part XXI — Canonical Invariants
+# 1. Canonical Boundary
 
-# 144. Canonical Invariants
+The governing boundaries are:
 
 ```text
-INTEGRITY > COMPLETENESS > FLUENCY > SPEED > TOKEN SAVINGS
-
 PLACEHOLDER != IMPLEMENTED
 
 ADDRESSABLE != VALIDATED
 
 DOCUMENTED != ENFORCED
-
-NAMED != DEFINED
 
 MODEL != OBSERVATION
 
@@ -4740,809 +131,4527 @@ IMPLEMENTED != VALIDATED
 
 LOGGED != APPROVED
 
+KNOWN != CURRENT
+
+IDENTIFIED != AUTHORIZED
+
+SAME_NAME != SAME_IDENTITY
+
+SAME_CONTENT != SAME_PROVENANCE
+
+SAME_ARTIFACT_ID != SAME_VERSION
+
+VERSION_CHANGE != IDENTITY_CHANGE
+
+SUPERSESSION != DELETION
+
+HISTORICAL != CURRENT
+
+REPLAYABLE != VALID
+
+OBSERVED != AUTHORITATIVE
+
 UNKNOWN/GAP != PASS
+```
 
-"IDENTITY" IN TITLE != IDENTITY DEFINED
+These boundaries are integrity constraints.
 
-IDENTIFIER != IDENTITY
+They are not evidence that all corresponding mechanisms are implemented.
 
-NAME != IDENTITY
+---
 
-LABEL != IDENTITY
+# 2. Purpose
 
-PATH != IDENTITY
+This artifact reserves the **AMOS Identity Canon** slot within the Canon plane.
 
-ADDRESS != IDENTITY
+The Canon plane governs canonical structures including:
 
-REFERENCE != IDENTITY
+* laws;
+* cognition canon;
+* infrastructure canon;
+* universe canon;
+* variable registries;
+* glossary structures;
+* provenance lineage;
+* identity and version references;
+* supersession;
+* canonical indexing;
+* canonical dependency relationships.
 
-CREDENTIAL != IDENTITY
+The intended identity canon is expected to govern questions such as:
 
-AUTHENTICATION != IDENTITY
+```text
+What entity is this?
 
-AUTHENTICATION != AUTHORIZATION
+Which artifact/version does a reference resolve to?
 
-IDENTITY != AUTHORIZATION
+What remains invariant across mutation?
 
+When does a mutation produce a new version?
+
+When does a mutation produce a different identity?
+
+Which provenance lineage belongs to an entity?
+
+Which authority is associated with an identity?
+
+Which scope/regime applies?
+
+Which artifact supersedes which earlier artifact?
+
+How can historical identity be preserved without
+silently rewriting current canonical state?
+```
+
+However, those questions describe the **target semantic domain**.
+
+They do not establish their final canonical answers.
+
+---
+
+# 3. Non-Purpose
+
+This placeholder MUST NOT be used to claim:
+
+* universal laws of identity;
+* universal metaphysical identity criteria;
+* scientific proof;
+* biological identity truth;
+* psychological identity truth;
+* mathematical theoremhood;
+* philosophical certainty;
+* persistent consciousness;
+* personhood;
+* subjective continuity;
+* runtime identity enforcement that has not been implemented;
+* cryptographic identity guarantees that have not been demonstrated;
+* globally unique identity without a defined namespace;
+* immutable identity without an explicit invariant;
+* final canonical status;
+* authority merely from architectural importance;
+* authorization merely from identity resolution;
+* successful validation merely because a canonical slot is addressable.
+
+In particular:
+
+```text
+AMOS_IDENTITY_CANON
+!=
+UNIVERSAL THEORY OF IDENTITY
+```
+
+and:
+
+```text
+AMOS_MODEL
+!=
+EMPIRICALLY VERIFIED IDENTITY THEORY
+```
+
+---
+
+# 4. Source Boundary
+
+The substantive identity canon is pending ingestion from verified native-canon sources.
+
+Current source-supported facts establish primarily:
+
+1. the artifact exists as a reserved canonical slot;
+2. the artifact has a stable declared path;
+3. the artifact has a declared artifact identifier;
+4. the artifact belongs to `03_COGNITION_CANON`;
+5. the artifact is currently a placeholder;
+6. canonical status is `UNKNOWN/GAP`;
+7. implementation is not established;
+8. validation is not established;
+9. executable binding is not established;
+10. ingestion is add-only.
+
+Everything beyond those boundaries must retain an appropriate epistemic class.
+
+---
+
+# 5. Identity Canon Objective
+
+The target objective can be normalized as:
+
+```text
+IDENTITY_CANON_OBJECTIVE:
+
+Preserve sufficient typed identity,
+version,
+lineage,
+scope,
+provenance,
+authority,
+and supersession information
+
+such that
+
+an AMOS artifact or governed entity
+cannot silently become another entity
+through naming,
+mutation,
+replacement,
+version drift,
+provenance loss,
+or canonical overwrite.
+```
+
+This is a **DERIVED target formulation** of the supplied placeholder purpose.
+
+It is not yet an executed implementation contract.
+
+---
+
+# 6. Core Identity Principle
+
+A useful target distinction is:
+
+```text
+Identity
+!=
+Name
+```
+
+A name is a label.
+
+Identity requires sufficient distinguishing information to resolve the intended entity within the applicable namespace and scope.
+
+Therefore:
+
+```text
+same_name(A, B)
+```
+
+does not imply:
+
+```text
+identity(A) = identity(B)
+```
+
+Likewise:
+
+```text
+different_name(A, B)
+```
+
+does not necessarily imply:
+
+```text
+identity(A) != identity(B)
+```
+
+unless naming is explicitly part of the canonical identity invariant.
+
+**Class:** DERIVED / MODEL.
+
+Final canonical identity equivalence semantics remain `UNKNOWN/GAP`.
+
+---
+
+# 7. Identity Tuple — Target Model
+
+A target identity reference MAY require a tuple resembling:
+
+```text
+IdentityRef :=
+(
+  artifact_id,
+  version,
+  namespace,
+  path,
+  provenance,
+  lineage,
+  scope,
+  regime,
+  epoch
+)
+```
+
+This is an illustrative MODEL structure.
+
+The source does NOT establish this exact tuple as canonical schema.
+
+Its purpose is to expose the dimensions that may materially affect identity resolution.
+
+---
+
+# 8. Artifact Identity
+
+For this artifact:
+
+```yaml
+artifact: AMOS_IDENTITY_CANON.md
+artifact_id: amos_01_canon_03_cognition_canon_amos_identity_canon
+path: 01_CANON/03_COGNITION_CANON/AMOS_IDENTITY_CANON.md
+version: 0.1.0
+```
+
+These fields provide addressability.
+
+They do not by themselves establish:
+
+* globally unique identity;
+* immutable identity;
+* cryptographic identity;
+* runtime identity enforcement;
+* collision resistance;
+* canonical equivalence semantics.
+
+---
+
+# 9. Addressability
+
+An addressable artifact is one for which the system possesses sufficient reference information to attempt resolution.
+
+Conceptually:
+
+```text
+Addressable(x)
+=
+ResolvableReferenceExists(x)
+```
+
+But:
+
+```text
+Addressable(x)
+!=
+Validated(x)
+```
+
+and:
+
+```text
+Addressable(x)
+!=
+CanonicalTruth(x)
+```
+
+Addressability is therefore a routing property, not an epistemic promotion.
+
+---
+
+# 10. Identity Resolution
+
+Target identity resolution can be represented as:
+
+```text
+Resolve(identity_ref, registry_state)
+    -> EXACT(entity)
+     | AMBIGUOUS(candidates)
+     | STALE(reference)
+     | SUPERSEDED(entity)
+     | UNKNOWN/GAP
+```
+
+Fail-closed behavior requires that ambiguity not be silently converted into an exact match.
+
+Thus:
+
+```text
+AMBIGUOUS != EXACT
+```
+
+and:
+
+```text
+UNKNOWN/GAP != EXACT
+```
+
+**Class:** DERIVED target behavior.
+
+Exact runtime resolver semantics are NOT_ESTABLISHED.
+
+---
+
+# 11. Identity Resolution Fail-Closed Rule
+
+Where identity is load-bearing for a consequential operation:
+
+```text
+UnresolvedIdentity
+∨ AmbiguousIdentity
+∨ InvalidVersion
+∨ InvalidScope
+∨ InvalidAuthority
+→
+HOLD / ABORT / UNKNOWN-GAP
+```
+
+rather than:
+
+```text
+guess nearest entity
+```
+
+This follows the supplied fail-closed discipline.
+
+It does not establish which concrete runtime component performs the check.
+
+---
+
+# 12. Identity and Version
+
+Identity and version MUST remain conceptually distinct.
+
+```text
+identity
+=
+which governed entity/artifact is referenced
+
+version
+=
+which declared state/version of that identity is referenced
+```
+
+Therefore:
+
+```text
+SameIdentity
+∧
+DifferentVersion
+```
+
+is possible.
+
+Example target relationship:
+
+```text
+Artifact A v1
+    ↓ mutation
+Artifact A v2
+```
+
+may preserve artifact identity while changing version.
+
+But the exact threshold at which mutation becomes a new identity rather than a new version is currently:
+
+```text
+UNKNOWN/GAP
+```
+
+---
+
+# 13. Version Pinning
+
+For consequential interpretation, a bare identity may be insufficient.
+
+Target:
+
+```text
+artifact_id + version
+```
+
+rather than:
+
+```text
+artifact_name_only
+```
+
+when version-dependent semantics can change the result.
+
+This prevents silent substitution of current state for historically referenced state.
+
+---
+
+# 14. Identity Across Mutation
+
+Mutation introduces a fundamental identity question:
+
+```text
+Given entity X at state S0,
+after mutation M producing S1,
+is the result:
+
+1. X at a new version,
+or
+2. a new entity Y?
+```
+
+The supplied placeholder does not answer this.
+
+Therefore:
+
+```text
+IdentityPersistenceRule = UNKNOWN/GAP
+```
+
+until native canon supplies a discriminating rule.
+
+---
+
+# 15. Identity Invariants
+
+A future populated canon should explicitly define which properties are identity-preserving.
+
+Candidate categories may include:
+
+```text
+INVARIANT
+VERSIONED
+MUTABLE
+DERIVED
+CONTEXTUAL
+NON_IDENTITY_BEARING
+```
+
+Example MODEL:
+
+```yaml
+artifact_id: INVARIANT
+version: VERSIONED
+content: MUTABLE
+path: CONTEXTUAL_OR_VERSIONED
+provenance: LINEAGE_BEARING
+status: MUTABLE
+canonical_status: MUTABLE_WITH_GOVERNANCE
+```
+
+This classification is illustrative only.
+
+No exact field classification is established by the supplied placeholder.
+
+---
+
+# 16. Identity and Provenance
+
+Identity resolution without provenance can produce false continuity.
+
+Therefore target identity reasoning should preserve:
+
+```text
+entity
++
+origin
++
+lineage
++
+version
+```
+
+where provenance materially affects interpretation.
+
+Important firewall:
+
+```text
+SameContent
+!=
+SameProvenance
+```
+
+Two artifacts may contain identical bytes while having different source histories.
+
+Conversely:
+
+```text
+DifferentContent
+```
+
+may still belong to the same versioned artifact lineage.
+
+---
+
+# 17. Identity and Lineage
+
+A target lineage representation may take the form:
+
+```text
+A_v1
+  |
+  +-- superseded_by --> A_v2
+  |
+  +-- historical_source --> H1
+  |
+  +-- evidence --> E1
+```
+
+Lineage preserves relationship.
+
+It MUST NOT be interpreted automatically as:
+
+```text
+lineage edge = causal proof
+```
+
+or:
+
+```text
+lineage edge = authority inheritance
+```
+
+Those require separately typed semantics.
+
+---
+
+# 18. Identity and Supersession
+
+Supersession is not deletion.
+
+```text
+SUPERSEDE(old, new)
+```
+
+should preserve at minimum the fact that:
+
+```text
+old existed
+old had a prior status
+new explicitly supersedes old
+```
+
+Therefore:
+
+```text
+SUPERSESSION != HISTORICAL ERASURE
+```
+
+This is consistent with explicit lineage preservation.
+
+---
+
+# 19. Historical Identity
+
+A historical reference should resolve against the relevant historical state where required.
+
+Conceptually:
+
+```text
+Resolve(A, version=v1)
+!=
+silently Resolve(A, latest)
+```
+
+if `v1` materially differs from current state.
+
+This protects replay, audit, supersession, and provenance integrity.
+
+---
+
+# 20. Current Identity vs Historical Identity
+
+Target distinction:
+
+```text
+CURRENT(A)
+```
+
+means current authoritative state under the applicable canon/registry.
+
+```text
+HISTORICAL(A, v)
+```
+
+means the preserved state of A at version `v`.
+
+Neither should silently overwrite the other.
+
+---
+
+# 21. Identity and Epoch
+
+Where identity metadata changes across causal epochs:
+
+```text
+IdentityState(A, e_k)
+```
+
+must not automatically be assumed identical to:
+
+```text
+IdentityState(A, e_k+1)
+```
+
+for all mutable properties.
+
+Identity continuity may persist while metadata, authority, status, or scope changes.
+
+Exact epoch-binding semantics remain NOT_ESTABLISHED in this placeholder.
+
+---
+
+# 22. Identity and Scope
+
+Identity claims inherit scope.
+
+For example:
+
+```text
+artifact_id
+```
+
+may resolve uniquely within one registry while being ambiguous outside that registry.
+
+Thus a future identity canon should specify:
+
+```text
+identity_namespace
+scope
+registry
+```
+
+where required.
+
+Firewall:
+
+```text
+locally_unique
+!=
+globally_unique
+```
+
+---
+
+# 23. Identity and Regime
+
+Identity semantics may differ across:
+
+* canonical representation;
+* runtime representation;
+* simulation;
+* empirical observation;
+* external evidence systems.
+
+Therefore:
+
+```text
+same identifier across regimes
+```
+
+does not automatically establish:
+
+```text
+same operational semantics across regimes
+```
+
+Explicit bridge rules are required where regime crossing can alter meaning.
+
+---
+
+# 24. Identity and Authority
+
+One of the strongest boundaries is:
+
+```text
 IDENTITY != AUTHORITY
+```
 
-IDENTITY != OWNERSHIP
+Knowing who or what an entity is does not establish what that entity may do.
 
-IDENTITY != PROVENANCE
+Formally:
 
-IDENTITY != LINEAGE
+```text
+ResolveIdentity(X)
+↛
+Authorize(X, action)
+```
 
-IDENTITY != MEMORY
+Authority requires a separately valid authority relationship.
 
-IDENTITY != PERSONALITY
+---
 
-IDENTITY != SELF-MODEL
+# 25. Capability vs Authority
 
-IDENTITY != CONSCIOUSNESS
+The supplied governance boundary remains:
 
-IDENTITY != AGENCY
+```text
+CAPABILITY != AUTHORITY
+```
 
-IDENTITY != COGNITION
+An identity may possess a capability without being authorized to exercise it in a given context.
 
-SIMILARITY != IDENTITY
+Target authorization evaluation therefore requires more than identity resolution:
 
-EQUIVALENCE != IDENTITY
+```text
+Authorization :=
+ValidIdentity
+∧ ValidAuthority
+∧ ValidScope
+∧ ValidEpoch
+∧ PreconditionsSatisfied
+```
 
-SAME CONTENT != SAME ENTITY
+This expression is a DERIVED target model, not a supplied executable rule.
 
-SAME STATE != SAME ENTITY
+---
 
-SAME NAME != SAME ENTITY
+# 26. Authorization vs Commit
 
-SAME IDENTIFIER != PROVEN SAME ENTITY
+Even successful authorization does not itself constitute state mutation.
 
-DIFFERENT IDENTIFIER != PROVEN DIFFERENT ENTITY
+```text
+AUTHORIZATION != COMMIT
+```
 
-PERSISTENCE != IMMUTABILITY
+A governed mutation still requires its applicable transaction, validation, and commit conditions.
 
-CHANGE != IDENTITY LOSS
+---
 
-COPY != ORIGINAL
+# 27. Proposal vs Identity Mutation
 
-DESCENDANT != ANCESTOR
+A proposal to change identity-bearing state is not the change itself.
 
-DERIVED_FROM != SAME_AS
+```text
+PROPOSE(identity_update)
+!=
+COMMIT(identity_update)
+```
 
-SUCCESSOR_OF != SAME_AS
+Until committed, authoritative identity state remains unchanged.
 
-SUPERSEDES != SAME_AS
+---
 
-VERSION CHANGE != IDENTITY DECISION
+# 28. Identity and Canonical Status
 
-RESTORE != PROVEN IDENTITY CONTINUITY
+An artifact can have a stable identity while its canonical status changes.
 
-MIGRATION != PROVEN IDENTITY TRANSFER
+Example:
 
-STRUCTURAL SIMILARITY != IDENTITY
+```text
+PLACEHOLDER
+→
+CANON_CANDIDATE
+→
+CANONICAL
+```
 
-FUNCTIONAL EQUIVALENCE != NUMERICAL IDENTITY
+if future governance defines and authorizes such transitions.
 
-RECORD COUNT != ENTITY COUNT
+The identity of the artifact does not itself prove any particular promotion.
 
-IDENTIFIER COUNT != IDENTITY COUNT
+---
 
-MANY CLAIMED IDENTITIES != MANY INDEPENDENT ACTORS
+# 29. Canonical Status Is Not Truth Status
 
-REPETITION != INDEPENDENT CONFIRMATION
+Even a future `CANONICAL` status would mean canonical standing within the applicable AMOS governance system.
 
-SAME SEGMENT != SEMANTIC DEPENDENCY
+It would not automatically establish:
 
-SAME DIRECTORY != IDENTITY RELATION
+```text
+scientific truth
+empirical truth
+universal truth
+formal theoremhood
+```
 
-NEWER != SUPERSEDING
+Thus:
 
-VALID @ R1 != AUTOMATICALLY VALID @ R2
+```text
+CANONICAL != EMPIRICAL_TRUTH
+```
 
-VALID @ E1 != AUTOMATICALLY VALID @ E2
+remains a hard firewall.
 
-ONE FAILED PREMISE != GLOBAL INVALIDATION
+---
+
+# 30. Identity and Epistemic Class
+
+Identity-bearing artifacts should preserve epistemic typing.
+
+Relevant classes include:
+
+```text
+SOURCE_CLAIM
+OBSERVATION
+DERIVED
+MODEL
+DECISION
+UNKNOWN/GAP
+```
+
+Changing identity metadata MUST NOT silently promote epistemic class.
+
+For example:
+
+```text
+rename(SOURCE_CLAIM)
+```
+
+cannot produce:
+
+```text
+VERIFIED
+```
+
+without evidence.
+
+---
+
+# 31. Identity and Confidence Ceiling
+
+A resolved identity can increase certainty about:
+
+```text
+which artifact was referenced
+```
+
+but not automatically about:
+
+```text
+whether its claims are true
+```
+
+Therefore:
+
+```text
+IdentityConfidence
+!=
+ClaimTruthConfidence
+```
+
+A perfectly resolved source claim remains a source claim until independently validated.
+
+---
+
+# 32. Identity and Evidence
+
+Evidence should be associated with the correct identity and version.
+
+Target relation:
+
+```text
+Evidence E
+  SUPPORTS
+Claim C
+  ASSERTED_BY
+Artifact A@v
+```
+
+Misbinding evidence to another version or another artifact can corrupt downstream confidence.
+
+---
+
+# 33. Identity and Provenance Independence
+
+Multiple references to the same underlying source do not create independent confirmation.
+
+Example:
+
+```text
+A → copies → B, C, D
+```
+
+does not imply four independent origins.
+
+Identity/provenance topology should retain shared ancestry where known.
+
+Thus:
+
+```text
+Multiplicity
+!=
+Independence
 ```
 
 ---
 
-# Part XXII — Status Matrix
+# 34. Sybil Identity Boundary
 
-# 145. Status Matrix
+Multiple identities or identifiers do not themselves establish independent evidence sources.
 
-| Dimension                  | Status           |
-| -------------------------- | ---------------- |
-| Artifact existence         | SOURCE-SUPPORTED |
-| Artifact title             | SOURCE-SUPPORTED |
-| Artifact path              | SOURCE-SUPPORTED |
-| Artifact kind              | SOURCE-SUPPORTED |
-| Framework label            | SOURCE-SUPPORTED |
-| Cognition Canon placement  | SOURCE-SUPPORTED |
-| Artifact ID                | SOURCE-SUPPORTED |
-| Node ID                    | SOURCE-SUPPORTED |
-| ADD-ONLY intent            | SOURCE-SUPPORTED |
-| Placeholder status         | SOURCE-SUPPORTED |
-| Governance boundaries      | SOURCE-SUPPORTED |
-| Native Identity definition | UNKNOWN/GAP      |
-| Identity types             | UNKNOWN/GAP      |
-| Identity bearers           | UNKNOWN/GAP      |
-| Identity criteria          | UNKNOWN/GAP      |
-| Continuity criteria        | UNKNOWN/GAP      |
-| Persistence criteria       | UNKNOWN/GAP      |
-| Identity break conditions  | UNKNOWN/GAP      |
-| Identifier schema          | UNKNOWN/GAP      |
-| Namespace semantics        | UNKNOWN/GAP      |
-| Identity resolution        | UNKNOWN/GAP      |
-| Alias semantics            | UNKNOWN/GAP      |
-| Rename semantics           | UNKNOWN/GAP      |
-| Equivalence semantics      | UNKNOWN/GAP      |
-| Versioning semantics       | UNKNOWN/GAP      |
-| Copy semantics             | UNKNOWN/GAP      |
-| Fork semantics             | UNKNOWN/GAP      |
-| Merge semantics            | UNKNOWN/GAP      |
-| Migration semantics        | UNKNOWN/GAP      |
-| Restore semantics          | UNKNOWN/GAP      |
-| Supersession semantics     | UNKNOWN/GAP      |
-| Lineage relation           | UNKNOWN/GAP      |
-| Provenance relation        | UNKNOWN/GAP      |
-| Authentication relation    | UNKNOWN/GAP      |
-| Authorization relation     | UNKNOWN/GAP      |
-| Authority relation         | UNKNOWN/GAP      |
-| Self-identity              | UNKNOWN/GAP      |
-| Personal identity          | UNKNOWN/GAP      |
-| Human identity             | UNKNOWN/GAP      |
-| Cognitive identity         | UNKNOWN/GAP      |
-| Agent identity             | UNKNOWN/GAP      |
-| System identity            | UNKNOWN/GAP      |
-| Memory relation            | UNKNOWN/GAP      |
-| Consciousness relation     | UNKNOWN/GAP      |
-| Agency relation            | UNKNOWN/GAP      |
-| RSCF binding               | UNKNOWN/GAP      |
-| H/M/L binding              | UNKNOWN/GAP      |
-| Scope                      | UNKNOWN/GAP      |
-| Regime                     | UNKNOWN/GAP      |
-| Temporal validity          | UNKNOWN/GAP      |
-| Dependency topology        | UNKNOWN/GAP      |
-| Provenance independence    | NOT_ESTABLISHED  |
-| Kernel binding             | NOT_ESTABLISHED  |
-| Control-plane binding      | NOT_ESTABLISHED  |
-| Executable binding         | NOT_ESTABLISHED  |
-| Validation                 | NOT_ESTABLISHED  |
-| Empirical validity         | NOT_ESTABLISHED  |
+Conceptually:
+
+```text
+N identifiers
+```
+
+may still resolve to:
+
+```text
+1 provenance ancestor
+```
+
+Therefore independent confirmation requires provenance independence, not identifier count.
+
+This is a DERIVED integrity requirement.
 
 ---
 
-# Part XXIII — Minimum Missing Information
+# 35. Identity Collision
 
-# 146. Minimum Missing Information
+A collision occurs when distinct intended entities resolve through an insufficiently discriminating identity key.
 
-The decisive missing evidence is:
-
-> A **verified native AMOS source explicitly defining AMOS Identity**.
-
-Minimum decision-changing payload:
+Example:
 
 ```text
-VERIFIED NATIVE SOURCE
-+
-SOURCE IDENTITY
-+
-SOURCE VERSION
-+
-SOURCE PROVENANCE
-+
-IDENTITY DEFINITION
-+
-IDENTITY TYPES
-+
-IDENTITY BEARERS
-+
-IDENTITY CRITERIA
-+
-CONTINUITY CRITERIA
-+
-BREAK CONDITIONS
-+
-IDENTIFIER RELATION
-+
-LINEAGE RELATION
-+
-PROVENANCE RELATION
-+
-SCOPE
-+
-REGIME
+Resolve("core")
+→ A
+→ B
 ```
 
-Next priority:
+without enough information to distinguish them.
+
+Target response:
 
 ```text
-NAMESPACE
+AMBIGUOUS
+```
 
-IDENTITY RESOLUTION
+not arbitrary selection.
 
-ALIASES
+Exact collision detection implementation remains NOT_ESTABLISHED.
 
-RENAMES
+---
 
-EQUIVALENCE
+# 36. Identity Alias
 
-VERSIONING
+A future canon may permit multiple labels to reference one identity.
 
-COPY
+Conceptually:
 
-FORK
+```text
+alias_1 ─┐
+alias_2 ─┼→ canonical_identity
+alias_3 ─┘
+```
 
-MERGE
+But alias semantics, authorization, collision handling, and lifecycle are currently UNKNOWN/GAP.
 
-MIGRATION
+---
 
-RESTORE
+# 37. Identity Fork
 
-SUPERSESSION
+A lineage may potentially fork:
 
-AUTHENTICATION
+```text
+A_v1
+ ├── A_branch_1
+ └── A_branch_2
+```
 
-AUTHORIZATION
+The source does not establish whether or how AMOS canonical identity supports forks.
 
+Therefore:
+
+```text
+ForkSemantics = UNKNOWN/GAP
+```
+
+A future canon must distinguish:
+
+* version branch;
+* experimental branch;
+* competing candidate;
+* independent new identity;
+* superseded lineage.
+
+---
+
+# 38. Identity Merge
+
+Likewise, merge semantics are not established.
+
+Potential merge:
+
+```text
+A ─┐
+   ├→ C
+B ─┘
+```
+
+raises questions concerning:
+
+* identity inheritance;
+* provenance inheritance;
+* conflict preservation;
+* versioning;
+* authority;
+* canonical status.
+
+No merge rule should be invented.
+
+---
+
+# 39. Identity Deletion
+
+The placeholder does not establish deletion semantics.
+
+A robust governance model would need to distinguish:
+
+```text
+DELETE
+ARCHIVE
+DEPRECATE
+SUPERSEDE
+REVOKE
+TOMBSTONE
+HIDE
+```
+
+These are not interchangeable.
+
+Current canonical semantics:
+
+```text
+UNKNOWN/GAP
+```
+
+---
+
+# 40. Identity Revocation
+
+Identity revocation and authority revocation are distinct concepts.
+
+```text
+revoke_authority(X)
+```
+
+does not necessarily mean:
+
+```text
+identity(X) ceases to exist
+```
+
+Historical identity may need to remain resolvable for audit and provenance even after authority is revoked.
+
+This is DERIVED governance logic.
+
+---
+
+# 41. Identity Persistence
+
+A future canon must determine persistence requirements across:
+
+* process restart;
+* runtime restart;
+* state recovery;
+* rollback;
+* version upgrade;
+* canonical supersession;
+* migration;
+* storage relocation.
+
+No persistence mechanism is established here.
+
+---
+
+# 42. Identity and Location
+
+Path is currently declared:
+
+```text
+01_CANON/03_COGNITION_CANON/AMOS_IDENTITY_CANON.md
+```
+
+But a path and an identity are conceptually distinct.
+
+Potential target boundary:
+
+```text
+MOVE(A, path1 → path2)
+```
+
+does not necessarily imply:
+
+```text
+A → new identity
+```
+
+Whether path participates in canonical identity is NOT_ESTABLISHED.
+
+---
+
+# 43. Identity and Content Hash
+
+A future implementation could use content hashes for integrity or version resolution.
+
+However:
+
+```text
+hash(content)
+```
+
+is not established by this source as the canonical identity.
+
+No hashing algorithm, canonical serialization, collision policy, or signature mechanism is supplied.
+
+Therefore:
+
+```text
+CryptographicIdentityBinding = NOT_ESTABLISHED
+```
+
+---
+
+# 44. Identity and Signatures
+
+Signatures may authenticate statements or receipts if a trust model exists.
+
+But:
+
+```text
+SIGNED != TRUSTED
+```
+
+unless:
+
+* signer identity is resolved;
+* authority is valid;
+* key status is valid;
+* signature verifies;
+* scope matches;
+* epoch/freshness requirements pass.
+
+No such signature architecture is established by this placeholder.
+
+---
+
+# 45. Identity and Receipts
+
+Consequential identity mutations should conceptually generate receipts.
+
+Illustrative target:
+
+```yaml
+identity_receipt:
+  receipt_id: ...
+  artifact_id: ...
+  prior_version: ...
+  proposed_version: ...
+  operation: ...
+  authority_ref: ...
+  epoch: ...
+  expected_state: ...
+  result: ...
+  provenance: ...
+```
+
+This is MODEL-level schema.
+
+It is not supplied canonical implementation.
+
+---
+
+# 46. Identity and Replay
+
+Historical identity resolution may be necessary for deterministic replay.
+
+Conceptually:
+
+```text
+Replay(T)
+```
+
+requires resolving the same load-bearing identities and versions that were used by the original transition.
+
+But:
+
+```text
+IdentityCanon
+!=
+ReplayabilityLaw
+```
+
+Identity canon supplies a potential dependency; it does not replace replay semantics.
+
+Exact integration is NOT_ESTABLISHED here.
+
+---
+
+# 47. Identity and Snapshot State
+
+For snapshot-based reasoning:
+
+```text
+Resolve(A, snapshot=S_k)
+```
+
+should not silently substitute state from:
+
+```text
+S_k+1
+```
+
+when the difference is outcome-changing.
+
+This is a DERIVED integration target with state/version governance.
+
+---
+
+# 48. Identity and CAS
+
+A consequential identity mutation can be modeled as:
+
+```text
+CAS(
+    current_identity_state,
+    expected_identity_state,
+    proposed_identity_state
+)
+```
+
+such that stale expected state does not silently overwrite newer state.
+
+This is a DERIVED integration with AMOS concurrency discipline.
+
+It does not establish literal CPU CAS or database implementation.
+
+---
+
+# 49. Identity and Atomicity
+
+If one logical identity mutation changes multiple load-bearing records, partial application may create contradictory identity state.
+
+Target requirement:
+
+```text
+all load-bearing identity changes commit together
+or
+none become authoritative
+```
+
+Exact transaction scope and implementation remain NOT_ESTABLISHED.
+
+---
+
+# 50. Identity and Causal Epoch
+
+A committed identity change should be attributable to an explicit causal transition rather than silent historical rewrite.
+
+Conceptually:
+
+```text
+IdentityState(A, e_k)
+→ explicit transition
+→ IdentityState(A, e_k+1)
+```
+
+rather than rewriting `e_k` invisibly.
+
+This is a DERIVED integration with causal epoch discipline.
+
+---
+
+# 51. Identity and No-Time-Travel
+
+Target invariant:
+
+```text
+later identity metadata
+MUST NOT
+silently rewrite historical identity records
+```
+
+Supersession should be explicit.
+
+This preserves historical auditability while allowing current identity state to evolve.
+
+---
+
+# 52. Identity and Recovery
+
+Recovery may restore viable identity integrity without pretending historical events never occurred.
+
+Therefore:
+
+```text
+RECOVERY
+!=
+HISTORICAL ERASURE
+```
+
+A recovery process should preserve lineage of:
+
+```text
+fault
+detection
+rollback/recovery
+new authoritative state
+```
+
+where applicable.
+
+Exact recovery binding is NOT_ESTABLISHED.
+
+---
+
+# 53. Identity and Rollback
+
+Rollback raises two separate questions:
+
+```text
+1. Which historical state is restored or reactivated?
+2. Which current epoch records that recovery action?
+```
+
+A rollback should not silently transform historical state.
+
+The exact mechanism remains pending canonical integration.
+
+---
+
+# 54. Identity and RSCF
+
+The supplied artifact is RSCF-addressable:
+
+```yaml
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+```
+
+And its terminal node declaration states:
+
+```yaml
+node_id: amos_01_canon_03_cognition_canon_amos_identity_canon
+node_type: canon
+claim_class: AMOS_MODEL
+rscf_state: placeholder
+canonical_status: UNKNOWN/GAP
+```
+
+These two representations MUST NOT be silently forced into a stronger canonical interpretation.
+
+The artifact remains a placeholder.
+
+---
+
+# 55. RSCF Identity Requirement — Target
+
+A future populated identity canon should determine whether every RSCF node requires a stable identity tuple such as:
+
+```yaml
+node_id:
+node_type:
+version:
+provenance:
+scope:
+state:
+claim_class:
+```
+
+The exact required field set is NOT_ESTABLISHED by the placeholder.
+
+---
+
+# 56. H/M/L Identity
+
+Identity may need resolution at multiple fractal levels.
+
+Conceptual target:
+
+```text
+H = domain identity
+M = subsystem/artifact identity
+L = detail/claim/state identity
+```
+
+But:
+
+```text
+H identity
+!=
+automatic identity of every M/L descendant
+```
+
+Each resolution must preserve relevant scope and lineage.
+
+This is MODEL-level integration.
+
+---
+
+# 57. Identity Dependency Closure
+
+Before a consequential identity mutation, traverse only dependencies that can materially alter the validity of the operation.
+
+Target:
+
+```text
+DependencyClosure(operation)
+=
+smallest load-bearing dependency set
+```
+
+Potential identity dependencies include:
+
+* registry state;
+* current version;
+* authority;
+* scope;
+* provenance;
+* supersession state;
+* downstream references.
+
+This is a DERIVED fast-path formulation.
+
+---
+
+# 58. Identity Freshness
+
+Identity metadata can become stale.
+
+Examples:
+
+* authority expired;
+* version superseded;
+* scope changed;
+* registry updated;
+* provenance invalidated;
+* dependency revoked.
+
+Therefore:
+
+```text
+ResolvedOnce
+!=
+ValidForever
+```
+
+Freshness must be evaluated where it can change the decision.
+
+---
+
+# 59. Identity Freshness Vector — Target
+
+A future implementation may track identity freshness across dimensions such as:
+
+```yaml
+freshness:
+  temporal:
+  epoch:
+  registry:
+  provenance:
+  scope:
+  authority:
+  version:
+```
+
+This schema is illustrative.
+
+No exact freshness vector is established in this source.
+
+---
+
+# 60. Identity Contradiction
+
+Two authoritative-looking identity records may conflict.
+
+Example:
+
+```text
+Registry A: artifact_id X → version 4
+Registry B: artifact_id X → version 5
+```
+
+Without a valid precedence/epoch/scope rule:
+
+```text
+result = COMPETING / UNKNOWN-GAP
+```
+
+not arbitrary convergence.
+
+---
+
+# 61. Competing Identity Claims
+
+Competing identity claims should remain competing when:
+
+* both are plausibly supported;
+* provenance is correlated;
+* precedence is undefined;
+* scope differs;
+* epoch differs;
+* version relation is unresolved.
+
+Target class:
+
+```text
+COMPETING
+```
+
+until discriminating evidence exists.
+
+---
+
+# 62. Identity Discriminating Tests
+
+When identity claims conflict, prefer the cheapest high-information test capable of resolving the conflict.
+
+Examples may include:
+
+```text
+artifact_id comparison
+version receipt
+lineage edge
+canonical registry lookup
+epoch-valid supersession record
+source provenance
+authority receipt
+```
+
+The exact test depends on the conflict.
+
+---
+
+# 63. Identity Sensitivity
+
+For consequential operations, identify the smallest identity premise capable of flipping the decision.
+
+Example:
+
+```text
+If authority_ref is valid → mutation permitted
+If authority_ref is stale → mutation denied
+```
+
+Then authority freshness is a load-bearing sensitivity point and should be tested before background details.
+
+---
+
+# 64. Identity Mutation Classification
+
+A future identity canon should classify mutations.
+
+Candidate MODEL taxonomy:
+
+```text
+NON_IDENTITY_MUTATION
+VERSION_MUTATION
+METADATA_MUTATION
+SCOPE_MUTATION
+AUTHORITY_MUTATION
+LINEAGE_MUTATION
+CANONICAL_STATUS_MUTATION
+IDENTITY_BREAKING_MUTATION
+UNKNOWN_MUTATION
+```
+
+No final taxonomy is established.
+
+---
+
+# 65. Identity-Breaking Mutation
+
+A mutation should only be called identity-breaking if a canonical identity invariant is violated.
+
+Since those invariants are not yet defined:
+
+```text
+IdentityBreakingMutationRule
+=
+UNKNOWN/GAP
+```
+
+This is a critical substantive gap.
+
+---
+
+# 66. Identity Continuity
+
+Likewise, continuity cannot be inferred merely from similarity.
+
+```text
+StructuralSimilarity
+!=
+IdentityContinuity
+```
+
+and:
+
+```text
+SemanticSimilarity
+!=
+IdentityContinuity
+```
+
+unless canonical continuity rules establish otherwise.
+
+---
+
+# 67. Identity and Causation
+
+Identity continuity does not establish causal continuity.
+
+For example:
+
+```text
+A_v1
+→
+A_v2
+```
+
+as a version lineage does not by itself prove that every property in `A_v2` was caused by `A_v1`.
+
+Lineage and causal evidence must remain typed separately.
+
+---
+
+# 68. Identity and Observation
+
+An observed label or behavior may suggest an identity but does not automatically establish canonical identity.
+
+```text
+Observation
+→ possible identity hypothesis
+```
+
+not:
+
+```text
+Observation
+→ canonical identity
+```
+
+without valid resolution evidence.
+
+---
+
+# 69. Identity and Model Assignment
+
+A model may assign an entity to an identity class.
+
+That classification remains:
+
+```text
+MODEL
+```
+
+unless supported by the required validation regime.
+
+A fluent identity description cannot fill missing provenance or validation.
+
+---
+
+# 70. Identity and Human Persons
+
+Nothing in this placeholder establishes a canonical theory of human personal identity.
+
+Specifically NOT_ESTABLISHED:
+
+* biological continuity rules;
+* legal identity rules;
+* psychological continuity;
+* consciousness continuity;
+* memory-based personal identity;
+* metaphysical personhood;
+* digital-person equivalence.
+
+These require distinct sources and scopes.
+
+---
+
+# 71. AMOS System Identity
+
+The file identifies the governing system as:
+
+```text
+AMOS OS
+```
+
+This establishes corpus/system labeling.
+
+It does NOT establish that every artifact mentioning AMOS belongs to the same authoritative canonical lineage.
+
+Provenance and ingestion still matter.
+
+---
+
+# 72. Origin Architect / Steward Identity
+
+The source declares:
+
+```text
+origin_architect: Trang Phan
+steward: Trang Phan
+```
+
+Within this artifact, these are source-declared provenance/governance fields.
+
+They should be preserved as supplied.
+
+The file does not independently establish external empirical verification of those declarations.
+
+---
+
+# 73. Stewardship vs Authorship
+
+A future identity canon should preserve distinct relation types where applicable:
+
+```text
+ORIGIN_ARCHITECT
+AUTHOR
+STEWARD
+MAINTAINER
+VALIDATOR
+APPROVER
 AUTHORITY
-
-SELF-IDENTITY
-
-HUMAN IDENTITY
-
-COGNITIVE IDENTITY
-
-AGENT IDENTITY
-
-SYSTEM IDENTITY
-
-MEMORY RELATION
-
-CONSCIOUSNESS RELATION
-
-AGENCY RELATION
-
-TEMPORAL VALIDITY
-
-DEPENDENCIES
-
-RSCF/H-M-L BINDING
-
-EXECUTABLE BINDING
-
-VALIDATION
+EXECUTOR
+SOURCE
 ```
 
-Until then:
+These relations should not be collapsed into one generic ownership relation.
+
+Exact relation schema remains NOT_ESTABLISHED.
+
+---
+
+# 74. Stewardship vs Authority
+
+Steward identity does not automatically grant unlimited mutation authority.
 
 ```text
+STEWARD
+!=
+UNBOUNDED_AUTHORITY
+```
+
+unless governing canon explicitly defines that authority.
+
+Authority remains typed, scoped, and epoch-valid.
+
+---
+
+# 75. Ingestion Rule
+
+```yaml
+AMOS_CANON_INGESTION_RULE:
+  existing_folder:
+    preserve: true
+
+  existing_file:
+    preserve: true
+    overwrite: false
+
+  new_framework:
+    action: ADD_FILE_TO_EXISTING_FOLDER
+
+  master_source:
+    action: NORMALIZE_TO_RSCF_FILE
+
+  framework_existing_in_multiple_sources:
+    action:
+      - CREATE_ONE_CANONICAL_NODE
+      - LINK_ALL_SOURCE_PROVENANCE
+      - DO_NOT_CREATE_DUPLICATE_CANON
+
+  historical_source:
+    action:
+      - LINK_TO_CANON
+      - RECORD_LINEAGE
+      - PRESERVE_HERITAGE
+
+  external_research:
+    action:
+      - KEEP_OUT_OF_NATIVE_CANON
+      - LINK_AS_EVIDENCE
+
+  duplicate_filename:
+    action:
+      - COMPARE_CONTENT_AND_LINEAGE
+      - DO_NOT_OVERWRITE
+
+  uncertainty:
+    action:
+      - MARK_GAP_OR_COMPETING
+      - NEVER_INVENT_CANON
+```
+
+This ingestion rule is source-established content of the supplied artifact.
+
+---
+
+# 76. Add-Only Semantics
+
+The artifact declares:
+
+```text
+ingestion_action: ADD_ONLY
+```
+
+At minimum, this prohibits treating placeholder population as permission to overwrite existing canon indiscriminately.
+
+The supplied ingestion rule reinforces:
+
+```text
+existing_file:
+  preserve: true
+  overwrite: false
+```
+
+Therefore:
+
+```text
+INGEST
+!=
+OVERWRITE
+```
+
+---
+
+# 77. Duplicate Canon Prevention
+
+Where the same framework exists in multiple sources:
+
+```text
+CREATE_ONE_CANONICAL_NODE
+LINK_ALL_SOURCE_PROVENANCE
+DO_NOT_CREATE_DUPLICATE_CANON
+```
+
+This is directly supplied.
+
+It establishes an important identity requirement:
+
+```text
+source multiplicity
+```
+
+must not automatically create:
+
+```text
+canonical identity multiplicity
+```
+
+---
+
+# 78. Duplicate Filename Boundary
+
+Duplicate filenames require:
+
+```text
+COMPARE_CONTENT_AND_LINEAGE
+DO_NOT_OVERWRITE
+```
+
+Therefore filename equality alone is insufficient for identity equivalence.
+
+```text
+SameFilename
+!=
+SameCanonicalNode
+```
+
+---
+
+# 79. Historical Source Rule
+
+Historical sources must:
+
+```text
+LINK_TO_CANON
+RECORD_LINEAGE
+PRESERVE_HERITAGE
+```
+
+This prevents current canonical representation from silently erasing historical identity/provenance.
+
+---
+
+# 80. External Research Boundary
+
+The supplied ingestion rule states:
+
+```text
+external_research:
+  KEEP_OUT_OF_NATIVE_CANON
+  LINK_AS_EVIDENCE
+```
+
+Therefore:
+
+```text
+ExternalEvidence
+!=
+NativeCanon
+```
+
+even where the evidence supports canonical claims.
+
+Promotion into native canon requires the applicable governance path.
+
+---
+
+# 81. Uncertainty Rule
+
+The ingestion rule explicitly requires:
+
+```text
+MARK_GAP_OR_COMPETING
 NEVER_INVENT_CANON
 ```
 
-remains controlling.
+This is a hard integrity constraint.
+
+When identity semantics are missing:
+
+```text
+UNKNOWN/GAP
+```
+
+is preferable to plausible invention.
 
 ---
 
-# Part XXIV — Terminal Canon Guard
+# 82. Contract Discipline
 
-# 147. Terminal Canon Guard
+The source declares:
 
-```yaml
-AMOS_IDENTITY_CANON_GUARD:
+```text
+Typed artifacts
+· provenance stamped
+· epistemic class declared
+· confidence ceiling
+· fail-closed on UNKNOWN/GAP
+· receipts for consequential effects
+· rollback basin before mutation
+```
 
-  if_native_identity_definition_missing:
-    result: UNKNOWN/GAP
+These form the target governance discipline for this artifact.
 
-  if_identity_type_missing:
-    result: UNKNOWN/GAP
+---
 
-  if_identity_bearer_missing:
-    result: UNKNOWN/GAP
+# 83. Typed Artifact Requirement
 
-  if_identity_criteria_missing:
-    action: DO_NOT_ASSERT_IDENTITY
+Identity-bearing artifacts should expose sufficient type information to prevent accidental equivalence across incompatible entity classes.
 
-  if_continuity_criteria_missing:
-    action: DO_NOT_ASSERT_TEMPORAL_IDENTITY
+Conceptually:
 
-  if_identifier_relation_unproven:
-    action: DO_NOT_EQUATE_IDENTIFIER_WITH_IDENTITY
+```text
+artifact_id: X
+node_type: canon
+```
 
-  if_namespace_unknown:
-    action: DO_NOT_ASSUME_GLOBAL_UNIQUENESS
+should not silently resolve as:
 
-  if_resolution_ambiguous:
-    result: UNKNOWN/GAP
+```text
+node_type: executable
+```
 
-  if_alias_ambiguous:
-    result: UNKNOWN/GAP
+unless a valid binding explicitly exists.
 
-  if_similarity_only:
-    action: DO_NOT_ASSERT_IDENTITY
+---
 
-  if_equivalence_only:
-    action: DO_NOT_ASSERT_IDENTITY
+# 84. Provenance Stamp Requirement
 
-  if_copy_semantics_missing:
-    action: DO_NOT_TREAT_COPY_AS_ORIGINAL
+Provenance must remain attached where it materially affects trust or lineage.
 
-  if_fork_semantics_missing:
-    action: PRESERVE_COMPETING_CONTINUITIES
+Current provenance:
 
-  if_merge_semantics_missing:
-    action: DO_NOT_INFER_IDENTITY_CONTINUITY
+```text
+AMOS_corpus
+```
 
-  if_restore_semantics_missing:
-    action: DO_NOT_INFER_IDENTITY_CONTINUITY
+This identifies the corpus provenance class supplied by the artifact.
 
-  if_migration_semantics_missing:
-    action: DO_NOT_INFER_IDENTITY_TRANSFER
+It does not independently verify all claims within the corpus.
 
-  if_version_semantics_missing:
-    action: DO_NOT_INFER_SAME_OR_DIFFERENT_IDENTITY
+---
 
-  if_lineage_only:
-    action: DO_NOT_EQUATE_LINEAGE_WITH_IDENTITY
+# 85. Epistemic Class Requirement
 
-  if_authentication_only:
-    action: DO_NOT_INFER_AUTHORIZATION
+The supplied artifact declares:
 
-  if_identity_known:
-    action: DO_NOT_INFER_AUTHORITY
+```text
+epistemic_class: AMOS_MODEL
+```
 
-  if_memory_continuity_only:
-    action: DO_NOT_INFER_IDENTITY
+Therefore expanded identity semantics derived here remain model-level unless independently promoted.
 
-  if_self_reference_only:
-    action: DO_NOT_INFER_CONSCIOUSNESS
+The placeholder MUST NOT be rewritten as if it were already verified canon.
 
-  if_scope_missing:
-    result: CONDITIONAL_OR_UNKNOWN
+---
 
-  if_regime_missing:
-    result: CONDITIONAL_OR_UNKNOWN
+# 86. Confidence Ceiling
 
-  if_temporal_validity_missing:
-    action: DO_NOT_REUSE_STALE_IDENTITY_BINDING
+Current substantive confidence ceiling is bounded by:
 
-  if_provenance_independence_unknown:
-    action: DO_NOT_COUNT_AS_INDEPENDENT_CONFIRMATION
+```text
+PLACEHOLDER
++
+AMOS_MODEL
++
+UNKNOWN/GAP canonical status
++
+NOT_ESTABLISHED validation
+```
 
-  if_executable_binding_missing:
-    action: DO_NOT_CLAIM_IMPLEMENTATION
+No expansion can legitimately exceed that ceiling merely through architectural completeness.
 
-  if_validation_receipt_missing:
-    action: DO_NOT_CLAIM_VALIDATION
+---
 
-  if_critical_gap_unresolved:
-    promotion: BLOCK
+# 87. Fail-Closed UNKNOWN/GAP
 
-  default_integrity_rule:
-    NEVER_INVENT_CANON
+The source explicitly requires fail-closed behavior on `UNKNOWN/GAP`.
+
+Therefore, for load-bearing identity uncertainty:
+
+```text
+UNKNOWN/GAP
+→
+do not silently authorize
+do not silently commit
+do not silently promote
+do not silently merge
+do not silently overwrite
 ```
 
 ---
 
-# Part XXV — Obsidian Navigation
+# 88. Consequential Receipts
 
-# 148. Obsidian Navigation
+Consequential identity-affecting effects require receipts under the supplied contract discipline.
 
-### Parent MOCs
+The exact receipt schema remains NOT_ESTABLISHED.
 
-* [[00_ROOT_MOC|AMOS MOC]]
-* [[00_HOME]]
-* [[03_COGNITION_CANON_MOC]]
+A receipt should not be confused with approval:
 
-### Core indexes
-
-* [[AMOS_RSCF_NODES]]
-* [[LAW_HIERARCHY]]
-
-### Cognition-family artifacts
-
-* [[AMOS_COGNITION_CANON]]
-* [[AMOS_COGNITION_MASTER_CANON]]
-* [[AMOS_COGNITIVE_FIELD_CANON]]
-* [[AMOS_CONSCIOUSNESS_CANON]]
-* [[AMOS_HUMAN_INTELLIGENCE_CANON]]
-* [[AMOS_IDENTITY_CANON]]
-* [[AMOS_CROSS_SPECIES_FUNCTIONAL_MODE_MODEL]]
-
-### Target infrastructure bindings
-
-* [[KERNEL_README]]
-* [[CONTROL_PLANE_README]]
-* [[OBSERVABILITY_README]]
-* [[OPERATIONS_README]]
-
-### Required validation receipts
-
-* [[ROUTING_POLICY_VALIDATION_RECEIPT]]
-* [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+```text
+LOGGED != APPROVED
+```
 
 ---
 
-# Part XXVI — RSCF Node
+# 89. Rollback Basin Before Mutation
 
-# 149. RSCF Node
+The supplied contract discipline requires:
+
+```text
+rollback basin before mutation
+```
+
+for consequential effects.
+
+Target meaning:
+
+Before a consequential identity mutation, the system should know how to preserve or recover a viable prior state if the mutation fails.
+
+Exact rollback semantics remain pending.
+
+---
+
+# 90. Worked Semantics
+
+Given an operation touching:
+
+```text
+01_CANON · CANON
+```
+
+within the Canon plane:
+
+### Step 1 — Admit
+
+Resolve the artifact by:
+
+```text
+id + version
+```
+
+If unresolved:
+
+```text
+UNKNOWN/GAP
+→ fail closed
+```
+
+### Step 2 — Bind Scope
+
+Declare:
+
+```text
+domain
+regime
+H/M/L applicability
+```
+
+before mutation.
+
+### Step 3 — Check Authority
+
+`authority_ref` must be epoch-valid.
+
+```text
+capability alone never authorizes
+```
+
+### Step 4 — Validate Preconditions
+
+Traverse dependency closure to the smallest result-changing set.
+
+### Step 5 — Propose
+
+Candidate state remains non-authoritative:
+
+```text
+PROPOSAL != COMMIT
+```
+
+### Step 6 — Commit or Hold
+
+On any failed load-bearing premise:
+
+```text
+preserve unaffected state
+invalidate dependent descendants only
+record receipt
+```
+
+This sequence is source-established target semantics.
+
+---
+
+# 91. Admission Contract
+
+Normalized target:
+
+```text
+Admit(op, artifact_ref)
+```
+
+requires:
+
+```text
+Resolve(artifact_id, version) = EXACT
+```
+
+Otherwise:
+
+```text
+HOLD(UNKNOWN/GAP)
+```
+
+This formalization is DERIVED from the supplied worked semantics.
+
+---
+
+# 92. Scope Binding Contract
+
+Before mutation:
+
+```yaml
+scope_binding:
+  domain: REQUIRED
+  regime: REQUIRED
+  hml_applicability: REQUIRED
+```
+
+Exact schema is illustrative.
+
+The semantic requirement to declare these dimensions is supplied.
+
+---
+
+# 93. Authority Contract
+
+Target:
+
+```text
+ValidAuthority(authority_ref, epoch, scope, operation)
+```
+
+must hold before consequential mutation.
+
+A stale authority reference must not inherit authority merely because the identity remains valid.
+
+---
+
+# 94. Dependency Closure Contract
+
+Only dependencies capable of changing the result need to block the operation.
+
+Target:
+
+```text
+Closure(op)
+=
+minimal result-changing dependency set
+```
+
+This preserves efficiency without weakening integrity.
+
+Exact graph traversal algorithm remains NOT_ESTABLISHED.
+
+---
+
+# 95. Proposal State
+
+A proposed identity state is non-authoritative.
+
+Potential state machine:
+
+```text
+CURRENT
+   |
+   v
+PROPOSED
+   |
+   +------ failed gate ------> HELD / REJECTED
+   |
+   +------ all gates pass ---> COMMITTED
+```
+
+This state machine is DERIVED.
+
+Exact canonical state names are not supplied.
+
+---
+
+# 96. Commit Contract
+
+A valid commit should conceptually require:
+
+```text
+ResolvedIdentity
+∧ ValidVersion
+∧ ValidScope
+∧ ValidAuthority
+∧ PreconditionsSatisfied
+∧ DependencyClosureValid
+∧ ValidationGatesPass
+```
+
+This is a MODEL-level normalized contract.
+
+---
+
+# 97. Selective Invalidation
+
+The supplied worked semantics states:
+
+```text
+invalidate dependent descendants only
+```
+
+when a premise fails.
+
+Therefore failure should not automatically trigger global invalidation.
+
+Conceptually:
+
+```text
+Failed(P)
+→ invalidate Descendants(P)
+→ preserve unrelated valid state
+```
+
+where dependency relationships are known.
+
+---
+
+# 98. Identity Dependency Graph
+
+Illustrative:
+
+```text
+artifact_id
+    |
+    +--> version
+    |
+    +--> provenance
+    |
+    +--> scope
+    |
+    +--> authority_ref
+    |
+    +--> canonical_status
+    |
+    +--> downstream references
+```
+
+A change in one node should invalidate only conclusions that depend upon that node.
+
+This graph is illustrative, not source schema.
+
+---
+
+# 99. Identity Claim Graph
+
+Conceptually:
+
+```text
+C1: artifact exists
+ |
+ +--> C2: artifact is addressable
+ |
+ +--> C3: artifact has version 0.1.0
+
+C2
+-X-> artifact is validated
+
+C2
+-X-> artifact is implemented
+
+C3
+-X-> artifact has final canonical identity semantics
+```
+
+The `-X->` edges mark invalid inference.
+
+---
+
+# 100. Promotion Gate
+
+The supplied promotion-gate checklist is:
+
+```text
+[ ] substantive content populated from verified native-canon source
+[ ] typed schema bound to this artifact
+[ ] identity + versioning implemented
+[ ] negative cases covered
+[ ] provenance edges persisted and validated
+[ ] rollback basin demonstrated for consequential effects
+[ ] executed validation receipt specific to this artifact
+[ ] unresolved critical gaps registered as UNKNOWN/GAP
+```
+
+Until these conditions are satisfied through actual evidence:
+
+```text
+canonical_status = UNKNOWN/GAP
+```
+
+---
+
+# 101. Native-Canon Source Requirement
+
+Substantive population requires:
+
+```text
+verified native-canon source
+```
+
+The placeholder itself cannot recursively validate its own missing substantive canon.
+
+Thus:
+
+```text
+placeholder description
++
+architectural elaboration
+!=
+native-canon source ingestion
+```
+
+---
+
+# 102. Typed Schema Promotion Requirement
+
+Promotion requires a schema specifically bound to this artifact.
+
+Currently:
+
+```text
+TypedIdentitySchema = NOT_ESTABLISHED
+```
+
+Illustrative schemas in this reconstruction do not close that gap.
+
+---
+
+# 103. Identity + Versioning Implementation Requirement
+
+Promotion requires identity and versioning to be implemented.
+
+Currently:
+
+```text
+implementation_status: NOT_ESTABLISHED
+```
+
+Therefore documented target semantics cannot be treated as implemented runtime behavior.
+
+---
+
+# 104. Negative Case Requirement
+
+Promotion requires negative cases including:
+
+```text
+missing input
+malformed input
+stale input
+unauthorized input
+```
+
+A future validation suite should demonstrate correct failure behavior rather than only successful-path behavior.
+
+---
+
+# 105. Provenance Persistence Requirement
+
+Promotion requires provenance edges to be:
+
+```text
+persisted
+AND
+validated
+```
+
+A provenance field merely appearing in Markdown is not equivalent to persistent validated provenance infrastructure.
+
+---
+
+# 106. Rollback Demonstration Requirement
+
+Promotion requires rollback basin demonstration for consequential effects.
+
+Therefore:
+
+```text
+rollback described
+!=
+rollback demonstrated
+```
+
+Evidence must show that recovery actually works under the declared conditions.
+
+---
+
+# 107. Validation Receipt Requirement
+
+The artifact requires:
+
+```text
+executed validation receipt specific to this artifact
+```
+
+The referenced receipts are:
+
+```text
+[[ROUTING_POLICY_VALIDATION_RECEIPT]]
+[[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+```
+
+However, the supplied placeholder does not itself establish that those receipts exist, are current, apply to this artifact, or satisfy promotion.
+
+Therefore their operative status remains:
+
+```text
+NOT_ESTABLISHED
+```
+
+unless separately loaded and validated.
+
+---
+
+# 108. Critical Gap Visibility
+
+Promotion requires unresolved critical gaps to remain visible.
+
+Therefore a promotion process that merely removes `UNKNOWN/GAP` labels without resolving the underlying evidence deficiency would violate the artifact's own promotion discipline.
+
+---
+
+# 109. Gap Register
+
+Current source-established gaps:
+
+```yaml
+GAP-ID-001:
+  issue: substantive identity canon not populated
+  class: CRITICAL
+  status: UNKNOWN/GAP
+
+GAP-ID-002:
+  issue: executable binding
+  class: CRITICAL
+  status: NOT_ESTABLISHED
+
+GAP-ID-003:
+  issue: validation
+  class: CRITICAL
+  status: NOT_ESTABLISHED
+
+GAP-ID-004:
+  issue: identity + versioning implementation
+  class: CRITICAL
+  status: NOT_ESTABLISHED
+```
+
+Additional DERIVED gaps exposed by the target semantics:
+
+```yaml
+GAP-ID-005:
+  issue: canonical identity equivalence rule
+  status: NOT_ESTABLISHED
+
+GAP-ID-006:
+  issue: identity-preserving mutation rule
+  status: NOT_ESTABLISHED
+
+GAP-ID-007:
+  issue: identity-breaking mutation rule
+  status: NOT_ESTABLISHED
+
+GAP-ID-008:
+  issue: canonical namespace / uniqueness semantics
+  status: NOT_ESTABLISHED
+
+GAP-ID-009:
+  issue: alias semantics
+  status: NOT_ESTABLISHED
+
+GAP-ID-010:
+  issue: fork semantics
+  status: NOT_ESTABLISHED
+
+GAP-ID-011:
+  issue: merge semantics
+  status: NOT_ESTABLISHED
+
+GAP-ID-012:
+  issue: deletion / tombstone semantics
+  status: NOT_ESTABLISHED
+
+GAP-ID-013:
+  issue: identity receipt schema
+  status: NOT_ESTABLISHED
+
+GAP-ID-014:
+  issue: cryptographic identity binding
+  status: NOT_ESTABLISHED
+
+GAP-ID-015:
+  issue: persistence mechanism
+  status: NOT_ESTABLISHED
+
+GAP-ID-016:
+  issue: runtime resolver
+  status: NOT_ESTABLISHED
+```
+
+The additional gaps are not source-established identifiers; they are a DERIVED gap registry intended to prevent silent filling.
+
+---
+
+# 110. Gap Priority
+
+Under integrity-first governance:
+
+```text
+CRITICAL
+>
+DECISION-RELEVANT
+>
+EXPLANATORY
+>
+COSMETIC
+```
+
+For this artifact, the highest-priority gaps are:
+
+```text
+substantive native canon
+identity equivalence
+version semantics
+mutation semantics
+authority integration
+validation
+executable binding
+```
+
+Until those are resolved, architectural polish does not justify promotion.
+
+---
+
+# 111. Cross-Plane Bindings — Target
+
+The source specifies:
+
+```text
+Governed by canon:
+[[LAW_HIERARCHY]]
+
+Kernel interaction:
+[[KERNEL_README]]
+
+Control-plane gates:
+[[CONTROL_PLANE_README]]
+
+Observed by:
+[[OBSERVABILITY_README]]
+never treated as authority
+
+Recovered via operations:
+[[OPERATIONS_README]]
+```
+
+These are target bindings.
+
+The placeholder does not establish that each binding is implemented or validated.
+
+---
+
+# 112. Canon Plane Binding
+
+The identity canon belongs to:
+
+```text
+01_CANON
+```
+
+and specifically:
+
+```text
+01_CANON/03_COGNITION_CANON
+```
+
+Its rules, once populated and promoted, would remain governed by the applicable law hierarchy.
+
+---
+
+# 113. Kernel Interaction Boundary
+
+A reference to:
+
+```text
+[[KERNEL_README]]
+```
+
+indicates intended architectural interaction.
+
+It does NOT establish:
+
+```text
+kernel identity resolver implemented
+```
+
+or:
+
+```text
+kernel enforcement validated
+```
+
+Those remain evidence-dependent.
+
+---
+
+# 114. Control Plane Boundary
+
+The target control plane may gate identity-affecting operations.
+
+But:
+
+```text
+ControlPlaneReference
+!=
+ImplementedAuthorization
+```
+
+The exact control-plane identity contract remains NOT_ESTABLISHED.
+
+---
+
+# 115. Observability Boundary
+
+The source explicitly states:
+
+```text
+Observed by [[OBSERVABILITY_README]]
+never treated as authority
+```
+
+This yields a strong firewall:
+
+```text
+OBSERVATION != AUTHORITY
+```
+
+Monitoring may report identity state but must not silently become the source of authorization.
+
+---
+
+# 116. Operations Recovery Boundary
+
+The target binding:
+
+```text
+Recovered via operations — [[OPERATIONS_README]]
+```
+
+does not establish recovery mechanics.
+
+It identifies the intended architectural relation.
+
+---
+
+# 117. Identity State Machine — MODEL
+
+Illustrative state machine:
+
+```text
+                   +------------------+
+                   |   UNKNOWN/GAP    |
+                   +--------+---------+
+                            |
+                       source admitted
+                            |
+                            v
+                   +------------------+
+                   |   PLACEHOLDER    |
+                   +--------+---------+
+                            |
+                 substantive ingestion
+                            |
+                            v
+                   +------------------+
+                   | CANON_CANDIDATE  |
+                   +--------+---------+
+                            |
+                  promotion gates pass
+                            |
+                            v
+                   +------------------+
+                   |    CANONICAL     |
+                   +------------------+
+```
+
+This is not source-established lifecycle canon.
+
+It is an illustrative MODEL derived from the supplied boundaries.
+
+---
+
+# 118. Mutation State Machine — MODEL
+
+```text
+CURRENT
+  |
+  | propose mutation
+  v
+PROPOSAL
+  |
+  +--> identity unresolved --------> HOLD
+  |
+  +--> authority invalid ----------> REJECT
+  |
+  +--> stale expected state -------> CONFLICT
+  |
+  +--> validation fails -----------> ROLLBACK/HOLD
+  |
+  +--> all required gates pass
+  v
+COMMIT
+  |
+  v
+NEW CURRENT STATE
+```
+
+Exact state names and mechanics are NOT_ESTABLISHED.
+
+---
+
+# 119. Identity Resolver Schema — MODEL
+
+```yaml
+identity_ref:
+  artifact_id: REQUIRED
+  version: CONDITIONAL
+  namespace: CONDITIONAL
+  scope: CONDITIONAL
+  epoch: CONDITIONAL
+
+resolution:
+  status:
+    enum:
+      - EXACT
+      - AMBIGUOUS
+      - STALE
+      - SUPERSEDED
+      - UNKNOWN_GAP
+
+  resolved_artifact: OPTIONAL
+  provenance_ref: OPTIONAL
+  lineage_ref: OPTIONAL
+  authority_ref: OPTIONAL
+```
+
+Illustrative only.
+
+---
+
+# 120. Identity Mutation Schema — MODEL
+
+```yaml
+identity_mutation:
+  mutation_id: REQUIRED
+  target_identity: REQUIRED
+  expected_version: REQUIRED
+  proposed_state: REQUIRED
+  authority_ref: REQUIRED
+  scope: REQUIRED
+  epoch: REQUIRED
+
+  dependencies:
+    type: list
+
+  rollback_ref:
+    required_for_consequential_effect: true
+
+  validation_receipt:
+    required_before_promotion: true
+```
+
+This does not establish executable binding.
+
+---
+
+# 121. Supersession Record — MODEL
+
+```yaml
+supersession:
+  old_artifact_id: ...
+  old_version: ...
+  new_artifact_id: ...
+  new_version: ...
+  effective_epoch: ...
+  authority_ref: ...
+  reason: ...
+  provenance: ...
+  receipt_ref: ...
+```
+
+The exact schema remains UNKNOWN/GAP.
+
+---
+
+# 122. Provenance Edge Schema — MODEL
+
+```yaml
+provenance_edge:
+  source_id: ...
+  target_id: ...
+  relation:
+    enum:
+      - DERIVED_FROM
+      - HISTORICAL_SOURCE
+      - EVIDENCE_FOR
+      - SUPERSEDES
+      - NORMALIZED_FROM
+      - COPIED_FROM
+      - COMPETING_WITH
+  scope: ...
+  epoch: ...
+```
+
+This is illustrative and must not be promoted as native canon without source ingestion.
+
+---
+
+# 123. Authority Binding Schema — MODEL
+
+```yaml
+authority_binding:
+  identity_ref: ...
+  authority_ref: ...
+  action_scope: ...
+  valid_from_epoch: ...
+  valid_until_epoch: ...
+  constraints: ...
+  provenance: ...
+```
+
+No exact authority schema is established by the supplied artifact.
+
+---
+
+# 124. Identity Receipt Schema — MODEL
+
+```yaml
+identity_receipt:
+  receipt_id: ...
+  operation: ...
+  target_identity: ...
+  prior_version: ...
+  resulting_version: ...
+  epoch: ...
+  authority_ref: ...
+  expected_state: ...
+  result:
+    enum:
+      - COMMITTED
+      - HELD
+      - REJECTED
+      - CONFLICT
+      - ROLLED_BACK
+  provenance: ...
+  validation_refs: []
+```
+
+Illustrative only.
+
+---
+
+# 125. Anti-Pattern — Name Equals Identity
+
+Invalid:
+
+```text
+same filename
+therefore
+same artifact
+```
+
+Correct:
+
+```text
+compare identity,
+content,
+lineage,
+version,
+and applicable provenance
+```
+
+as required by the supplied duplicate filename rule.
+
+---
+
+# 126. Anti-Pattern — Latest Equals Historical
+
+Invalid:
+
+```text
+historical reference to A@v1
+→ resolve latest A@v5
+→ pretend v5 was original
+```
+
+This destroys historical identity and replay integrity.
+
+---
+
+# 127. Anti-Pattern — Identity Equals Authority
+
+Invalid:
+
+```text
+identity resolved
+therefore
+operation authorized
+```
+
+Correct:
+
+```text
+resolve identity
+then
+validate authority separately
+```
+
+---
+
+# 128. Anti-Pattern — Documentation Equals Enforcement
+
+Invalid:
+
+```text
+identity rule documented
+therefore
+runtime enforces it
+```
+
+Current artifact explicitly states:
+
+```text
+implementation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+```
+
+---
+
+# 129. Anti-Pattern — Canon Slot Equals Canon
+
+Invalid:
+
+```text
+file located under 01_CANON
+therefore
+substantive contents are canonical
+```
+
+Current source explicitly says:
+
+```text
+PLACEHOLDER
+canonical_status: UNKNOWN/GAP
+```
+
+---
+
+# 130. Anti-Pattern — Repetition Equals Validation
+
+Invalid:
+
+```text
+same identity claim appears in many AMOS files
+therefore
+identity claim verified
+```
+
+Shared provenance may make those copies correlated.
+
+Independent validation must be demonstrated.
+
+---
+
+# 131. Anti-Pattern — Silent Overwrite
+
+Invalid:
+
+```text
+new source found
+→ overwrite existing canonical file
+```
+
+The ingestion rule explicitly requires:
+
+```text
+preserve existing file
+overwrite: false
+```
+
+---
+
+# 132. Anti-Pattern — Silent Merge
+
+Invalid:
+
+```text
+two identity records appear similar
+→ merge automatically
+```
+
+Similarity is not sufficient evidence of identity equivalence.
+
+---
+
+# 133. Anti-Pattern — Silent Promotion
+
+Invalid:
+
+```text
+placeholder expanded into detailed prose
+→ mark CANONICAL
+```
+
+Architectural completeness is not validation.
+
+This reconstructed artifact must therefore remain:
+
+```text
+UNKNOWN/GAP
+```
+
+unless promotion gates are actually satisfied.
+
+---
+
+# 134. Anti-Pattern — Gap Filling by Fluency
+
+Invalid:
+
+```text
+missing identity rule
+→ infer plausible rule
+→ present as canon
+```
+
+Correct:
+
+```text
+missing identity rule
+→ UNKNOWN/GAP
+→ record minimum missing information
+```
+
+---
+
+# 135. Identity Validation Matrix — TARGET
+
+| Test                     | Expected result                             |
+| ------------------------ | ------------------------------------------- |
+| Exact id + valid version | Exact resolution if registry supports it    |
+| Missing id               | UNKNOWN/GAP / reject                        |
+| Unknown id               | UNKNOWN/GAP                                 |
+| Duplicate ambiguous id   | AMBIGUOUS                                   |
+| Stale version            | STALE or explicit historical resolution     |
+| Superseded version       | Preserve historical identity + supersession |
+| Unauthorized mutation    | Reject                                      |
+| Stale authority          | Reject/Hold                                 |
+| Missing provenance       | Gap if provenance load-bearing              |
+| Conflicting lineage      | COMPETING / Gap                             |
+| Duplicate filename       | Compare content + lineage                   |
+| External evidence        | Link as evidence, not native canon          |
+| Failed validation        | No promotion                                |
+
+The exact runtime responses remain target semantics unless separately established.
+
+---
+
+# 136. Adversarial Validation
+
+A future implementation should be challenged with cases designed to break identity integrity:
+
+```text
+same filename / different content
+different filename / same artifact
+same content / different provenance
+same artifact / different version
+stale authority
+revoked authority
+ambiguous alias
+forked lineage
+conflicting supersession
+cyclic supersession
+missing provenance
+forged receipt
+out-of-epoch authority
+partial identity mutation
+recovery after failed mutation
+historical replay after supersession
+```
+
+Passing happy-path tests alone is insufficient.
+
+---
+
+# 137. Provenance Adversarial Test
+
+Challenge:
+
+```text
+A
+├─ copied to B
+├─ copied to C
+└─ copied to D
+```
+
+Question:
+
+Does B+C+D establish three independent confirmations?
+
+Expected integrity answer:
+
+```text
+NO,
+unless independence from shared ancestry is demonstrated.
+```
+
+---
+
+# 138. Version Adversarial Test
+
+Given:
+
+```text
+A@1.0
+A@2.0
+```
+
+with incompatible semantics, a request pinned to `A@1.0` must not silently resolve `A@2.0`.
+
+If the historical version is unavailable:
+
+```text
+UNKNOWN/GAP
+```
+
+is safer than substitution.
+
+---
+
+# 139. Authority Adversarial Test
+
+Given:
+
+```text
+identity = valid
+authority = expired
+```
+
+the operation must not infer:
+
+```text
+valid identity → valid authority
+```
+
+The authority gate fails independently.
+
+---
+
+# 140. Scope Adversarial Test
+
+Given an identity valid in scope `S1` but unresolved in `S2`:
+
+```text
+ValidIdentity(X, S1)
+```
+
+does not imply:
+
+```text
+ValidIdentity(X, S2)
+```
+
+without a valid scope bridge.
+
+---
+
+# 141. Regime Adversarial Test
+
+An identity established in simulation does not automatically establish a corresponding empirical identity claim.
+
+```text
+SIMULATION_IDENTITY
+!=
+EMPIRICAL_IDENTITY
+```
+
+unless explicitly bridged.
+
+---
+
+# 142. Recovery Adversarial Test
+
+After a failed identity mutation:
+
+```text
+unaffected identity state
+```
+
+should remain preserved.
+
+Only dependent invalid state should be rolled back or invalidated where dependency relationships are known.
+
+---
+
+# 143. Identity Proof Capsule — TARGET
+
+```yaml
+proof_capsule:
+  claim:
+    "Artifact reference resolves to identity X at version V"
+
+  claim_class:
+    DERIVED
+
+  load_bearing_premises:
+    - artifact_id resolves uniquely
+    - version exists
+    - registry state is applicable
+    - scope matches
+    - provenance is not invalidated
+
+  evidence:
+    - registry entry
+    - version record
+    - provenance lineage
+
+  scope:
+    declared
+
+  regime:
+    declared
+
+  temporal_validity:
+    epoch_or_freshness_bound
+
+  dependencies:
+    - identity registry
+    - version registry
+    - provenance graph
+
+  competing_explanations:
+    - alias collision
+    - stale registry
+    - duplicate source
+    - superseded identity
+
+  falsifiers:
+    - conflicting authoritative registry
+    - invalid version
+    - broken provenance
+    - supersession record
+
+  confidence_ceiling:
+    weakest_load_bearing_premise
+```
+
+Illustrative only.
+
+---
+
+# 144. Proof Capsule Invalidation
+
+If a load-bearing identity premise fails:
+
+```text
+invalidate dependent conclusion
+```
+
+not all unrelated conclusions.
+
+Example:
+
+```text
+version record invalidated
+→ conclusions requiring that version invalidated
+→ unrelated artifact identities preserved
+```
+
+---
+
+# 145. Identity RSCF Node — Current
 
 ```yaml
 RSCF-NODE:
+  node_id: amos_01_canon_03_cognition_canon_amos_identity_canon
+  node_type: canon
+  path: 01_CANON/03_COGNITION_CANON/AMOS_IDENTITY_CANON.md
+  claim_class: AMOS_MODEL
+  rscf_state: placeholder
+  canonical_status: UNKNOWN/GAP
 
-  node_id:
-    amos_01_canon_03_cognition_canon_amos_identity_canon
+  relations:
+    - INDEXED_BY: [[00_HOME]]
+    - INDEXED_BY: [[AMOS_RSCF_NODES]]
+    - GOVERNED_BY: [[LAW_HIERARCHY]]
+```
 
-  artifact_id:
-    amos_01_canon_03_cognition_canon_amos_identity_canon
+This preserves the supplied node semantics.
 
-  node_type:
-    canon
+---
 
-  path:
-    01_CANON/03_COGNITION_CANON/AMOS_IDENTITY_CANON.md
+# 146. RSCF Relation Integrity
 
-  origin_architect:
-    Trang Phan
+RSCF relationships are typed edges.
 
-  steward:
-    Trang Phan
+Therefore:
 
-  system:
-    AMOS OS
+```text
+INDEXED_BY
+!=
+GOVERNED_BY
+```
 
-  claim_class:
-    AMOS_MODEL
+and:
 
-  rscf_state:
-    placeholder_expanded
+```text
+GOVERNED_BY
+!=
+DERIVED_FROM
+```
 
-  canonical_status:
-    UNKNOWN/GAP
+and:
 
-  implementation_status:
-    NOT_ESTABLISHED
+```text
+RELATED_TO
+!=
+SUPERSEDES
+```
 
-  validation_status:
-    NOT_ESTABLISHED
+Relationship type matters.
 
-  executable_binding:
-    NOT_ESTABLISHED
+---
 
-  native_identity_definition:
-    NOT_ESTABLISHED
+# 147. Identity Relation Vocabulary — TARGET
 
-  identity_types:
-    NOT_ESTABLISHED
+A future populated canon may need relations such as:
 
-  identity_bearers:
-    NOT_ESTABLISHED
+```text
+IDENTICAL_TO
+ALIAS_OF
+VERSION_OF
+SUPERSEDES
+SUPERSEDED_BY
+DERIVED_FROM
+NORMALIZED_FROM
+HISTORICAL_SOURCE_OF
+GOVERNED_BY
+AUTHORIZED_BY
+VALIDATED_BY
+COMPETING_WITH
+EVIDENCE_FOR
+```
 
-  identity_criteria:
-    NOT_ESTABLISHED
+This list is MODEL-level and not final canon.
 
-  continuity_criteria:
-    NOT_ESTABLISHED
+---
 
-  identifier_semantics:
-    NOT_ESTABLISHED
+# 148. Canonical Identity Invariant — Candidate
 
-  identity_resolution:
-    NOT_ESTABLISHED
+A candidate high-level invariant is:
 
-  lineage_relation:
-    NOT_ESTABLISHED
+```text
+No consequential AMOS operation may rely on
+an identity stronger than the identity evidence
+and applicable registry state can support.
+```
 
-  provenance_relation:
-    NOT_ESTABLISHED
+**Class:** DERIVED.
 
-  authentication_relation:
-    NOT_ESTABLISHED
+It must not be treated as supplied native canon until explicitly promoted.
 
-  authorization_relation:
-    NOT_ESTABLISHED
+---
 
-  authority_relation:
-    NOT_ESTABLISHED
+# 149. Provenance Identity Invariant — Candidate
 
-  scope:
-    NOT_ESTABLISHED
+```text
+Identity resolution MUST NOT erase provenance distinctions
+that can materially alter trust, authority, lineage,
+or epistemic status.
+```
 
-  regime:
-    NOT_ESTABLISHED
+**Class:** DERIVED.
 
-  temporal_validity:
-    NOT_ESTABLISHED
+---
 
-  provenance:
-    AMOS_corpus
+# 150. Version Identity Invariant — Candidate
 
-  provenance_independence:
-    NOT_ESTABLISHED
+```text
+A version-sensitive reference MUST NOT silently resolve
+to a materially different version.
+```
 
-  RSCF-RELATIONS:
+**Class:** DERIVED.
 
-    - INDEXED_BY: "[[00_HOME]]"
+---
 
-    - INDEXED_BY: "[[AMOS_RSCF_NODES]]"
+# 151. Authority Identity Invariant — Candidate
 
-    - GOVERNED_BY: "[[LAW_HIERARCHY]]"
+```text
+Resolved identity MUST NOT be treated as authorization.
+```
 
-    - MEMBER_OF: "[[03_COGNITION_CANON_MOC]]"
+This is strongly supported by the supplied capability/authority and authority-check boundaries.
 
-    - RELATION_TO: "[[AMOS_COGNITION_CANON]]"
-      relation_status: UNKNOWN/GAP
+---
 
-    - RELATION_TO: "[[AMOS_COGNITION_MASTER_CANON]]"
-      relation_status: UNKNOWN/GAP
+# 152. Historical Integrity Invariant — Candidate
 
-    - RELATION_TO: "[[AMOS_COGNITIVE_FIELD_CANON]]"
-      relation_status: UNKNOWN/GAP
+```text
+Current identity state MUST NOT silently rewrite
+historical identity state.
+```
 
-    - RELATION_TO: "[[AMOS_CONSCIOUSNESS_CANON]]"
-      relation_status: UNKNOWN/GAP
+**Class:** DERIVED integration.
 
-    - RELATION_TO: "[[AMOS_HUMAN_INTELLIGENCE_CANON]]"
-      relation_status: UNKNOWN/GAP
+---
 
-    - RELATION_TO: "[[AMOS_CROSS_SPECIES_FUNCTIONAL_MODE_MODEL]]"
-      relation_status: UNKNOWN/GAP
+# 153. Add-Only Integrity Invariant
 
-    - TARGET_INTERACTS_WITH: "[[KERNEL_README]]"
+The source strongly supports:
 
-    - TARGET_CONTROLLED_BY: "[[CONTROL_PLANE_README]]"
+```text
+Existing canon is preserved.
+New ingestion does not overwrite it silently.
+Duplicate frameworks converge through provenance linkage,
+not duplicate canonical creation.
+```
 
-    - TARGET_OBSERVED_BY: "[[OBSERVABILITY_README]]"
+This is one of the most directly supported identity-relevant behaviors in the placeholder.
 
-    - TARGET_RECOVERED_BY: "[[OPERATIONS_README]]"
+---
 
-    - TARGET_VALIDATED_BY: "[[ROUTING_POLICY_VALIDATION_RECEIPT]]"
+# 154. Minimum Viable Populated Canon
 
-    - TARGET_VALIDATED_BY: "[[AUTHZ_ENGINE_VALIDATION_RECEIPT]]"
+Before this placeholder can become substantively populated, the minimum native canon should answer:
+
+```text
+1. What constitutes an AMOS identity?
+2. What fields participate in identity?
+3. What is the identity namespace?
+4. What makes two references the same identity?
+5. What makes them different identities?
+6. How does version relate to identity?
+7. Which mutations preserve identity?
+8. Which mutations break identity?
+9. How are aliases handled?
+10. How are forks handled?
+11. How is supersession represented?
+12. How is provenance attached?
+13. How is authority bound without conflating it with identity?
+14. How is historical identity resolved?
+15. How are conflicts represented?
+16. What fails closed?
+17. What is persisted?
+18. What is executable?
+19. What is validated?
+20. What evidence closes each critical gap?
+```
+
+Until these are sourced, the placeholder remains incomplete.
+
+---
+
+# 155. Implementation Contract — NOT ESTABLISHED
+
+No source provided here establishes:
+
+* identity registry implementation;
+* database schema;
+* distributed registry;
+* content-addressed storage;
+* UUID semantics;
+* cryptographic identity;
+* key management;
+* signatures;
+* authentication;
+* authorization engine;
+* persistent MVCC implementation;
+* consensus protocol;
+* cross-shard identity resolution;
+* runtime enforcement;
+* executable identity resolver;
+* formal verification.
+
+Therefore:
+
+```text
+implementation_status = NOT_ESTABLISHED
+```
+
+remains binding.
+
+---
+
+# 156. Validation Contract — NOT ESTABLISHED
+
+No executed validation evidence supplied in this artifact establishes:
+
+```text
+identity resolution correctness
+version correctness
+alias correctness
+supersession correctness
+authority binding correctness
+rollback correctness
+cross-plane enforcement
+adversarial robustness
+```
+
+Therefore:
+
+```text
+validation_status = NOT_ESTABLISHED
 ```
 
 ---
 
-# Part XXVII — Final Integrity Rule
+# 157. Executable Binding — NOT ESTABLISHED
 
-# 150. Final Integrity Rule
+No executable artifact has been established here as the authoritative implementation of `AMOS_IDENTITY_CANON`.
 
-Until verified native Identity content is ingested:
-
-```text
-DO NOT DEFINE AMOS IDENTITY
-FROM GENERAL KNOWLEDGE
-
-DO NOT EQUATE IDENTITY
-WITH AN IDENTIFIER
-
-DO NOT EQUATE IDENTITY
-WITH A NAME
-
-DO NOT EQUATE IDENTITY
-WITH A LABEL
-
-DO NOT EQUATE IDENTITY
-WITH A PATH OR ADDRESS
-
-DO NOT EQUATE IDENTITY
-WITH A CREDENTIAL
-
-DO NOT EQUATE AUTHENTICATION
-WITH IDENTITY
-
-DO NOT EQUATE AUTHENTICATION
-WITH AUTHORIZATION
-
-DO NOT EQUATE IDENTITY
-WITH AUTHORITY
-
-DO NOT EQUATE IDENTITY
-WITH OWNERSHIP
-
-DO NOT EQUATE IDENTITY
-WITH PROVENANCE
-
-DO NOT EQUATE IDENTITY
-WITH LINEAGE
-
-DO NOT EQUATE IDENTITY
-WITH MEMORY
-
-DO NOT EQUATE IDENTITY
-WITH PERSONALITY
-
-DO NOT EQUATE IDENTITY
-WITH SELF-MODEL
-
-DO NOT EQUATE IDENTITY
-WITH CONSCIOUSNESS
-
-DO NOT EQUATE IDENTITY
-WITH AGENCY
-
-DO NOT EQUATE IDENTITY
-WITH COGNITION
-
-DO NOT INFER IDENTITY
-FROM SIMILARITY
-
-DO NOT INFER IDENTITY
-FROM FUNCTIONAL EQUIVALENCE
-
-DO NOT INFER IDENTITY
-FROM SAME CONTENT
-
-DO NOT INFER IDENTITY
-FROM SAME STATE
-
-DO NOT INFER IDENTITY
-FROM SAME NAME
-
-DO NOT ASSUME SAME IDENTIFIER
-MEANS SAME ENTITY
-WITHOUT NAMESPACE / RESOLUTION SEMANTICS
-
-DO NOT ASSUME DIFFERENT IDENTIFIERS
-MEAN DIFFERENT ENTITIES
-
-DO NOT TREAT A COPY
-AS THE ORIGINAL
-
-DO NOT FORCE FORK CONTINUITY
-
-DO NOT FORCE MERGE CONTINUITY
-
-DO NOT ASSUME MIGRATION
-PRESERVES IDENTITY
-
-DO NOT ASSUME RESTORE
-PRESERVES IDENTITY
-
-DO NOT ASSUME VERSION CHANGE
-PRESERVES OR BREAKS IDENTITY
-
-DO NOT EQUATE DESCENDANT
-WITH ANCESTOR
-
-DO NOT EQUATE SUPERSESSION
-WITH IDENTITY
-
-DO NOT TREAT NEWER
-AS SUPERSEDING WITHOUT EVIDENCE
-
-DO NOT COUNT RECORDS
-AS ENTITIES WITHOUT RESOLUTION
-
-DO NOT COUNT CLAIMED IDENTITIES
-AS INDEPENDENT ACTORS
-
-DO NOT COUNT SHARED-ANCESTRY SOURCES
-AS INDEPENDENT CONFIRMATION
-
-DO NOT INFER SIBLING-CANON RELATIONS
-FROM DIRECTORY PLACEMENT
-
-DO NOT GENERALIZE IDENTITY RULES
-ACROSS BEARER TYPES
-
-DO NOT GENERALIZE BEYOND SCOPE
-
-DO NOT CROSS REGIMES
-WITHOUT REVALIDATION
-
-DO NOT REUSE STALE IDENTITY
-OR AUTHORITY BINDINGS
-
-DO NOT IMPORT EXTERNAL IDENTITY THEORY
-AS NATIVE AMOS CANON
-
-DO NOT CLAIM IMPLEMENTATION
-
-DO NOT CLAIM VALIDATION
-
-DO NOT TREAT UNKNOWN/GAP AS PASS
-```
-
-Instead:
+Therefore:
 
 ```text
-PRESERVE SLOT
-+
-PRESERVE ARTIFACT IDENTITY
-+
-PRESERVE PATH
-+
-PRESERVE PROVENANCE
-+
-PRESERVE LINEAGE
-+
-PRESERVE GOVERNANCE BOUNDARIES
-+
-PRESERVE UNKNOWN/GAP
-+
-LOCATE VERIFIED NATIVE SOURCE
-+
-RESOLVE "IDENTITY"
-+
-RESOLVE IDENTITY TYPES
-+
-RESOLVE IDENTITY BEARERS
-+
-RESOLVE IDENTITY CRITERIA
-+
-RESOLVE CONTINUITY CRITERIA
-+
-RESOLVE IDENTITY BREAK CONDITIONS
-+
-RESOLVE IDENTIFIER SEMANTICS
-+
-RESOLVE NAMESPACE
-+
-RESOLVE IDENTITY RESOLUTION
-+
-RESOLVE ALIASES
-+
-RESOLVE EQUIVALENCE
-+
-RESOLVE VERSIONING
-+
-RESOLVE COPY / FORK / MERGE
-+
-RESOLVE MIGRATION / RESTORE
-+
-RESOLVE SUPERSESSION
-+
-RESOLVE LINEAGE RELATION
-+
-RESOLVE PROVENANCE RELATION
-+
-RESOLVE AUTHENTICATION RELATION
-+
-RESOLVE AUTHORIZATION RELATION
-+
-RESOLVE AUTHORITY RELATION
-+
-RESOLVE SELF / HUMAN / AGENT / SYSTEM IDENTITY
-+
-RESOLVE MEMORY RELATION
-+
-RESOLVE CONSCIOUSNESS RELATION
-+
-RESOLVE AGENCY RELATION
-+
-BIND SCOPE
-+
-BIND REGIME
-+
-BIND TEMPORAL VALIDITY
-+
-RESOLVE DEPENDENCIES
-+
-PRESERVE COMPETING INTERPRETATIONS
-+
-VALIDATE NEGATIVE CASES
-+
-DEMONSTRATE ROLLBACK
-+
-EXECUTE REQUIRED RECEIPTS
-+
-PROMOTE ONLY AFTER VALIDATION
+executable_binding = NOT_ESTABLISHED
 ```
+
+Documentation MUST NOT be treated as executable behavior.
+
+---
+
+# 158. Empirical Boundary
+
+Even after implementation and validation within AMOS OS:
+
+```text
+validated AMOS identity mechanism
+```
+
+would establish performance within its tested scope.
+
+It would not establish a universal empirical theory of identity.
+
+---
+
+# 159. Formal Proof Boundary
+
+No formal proof is supplied establishing:
+
+* global uniqueness;
+* collision freedom;
+* consistency across arbitrary concurrency;
+* Byzantine robustness;
+* distributed finality;
+* identity continuity theorem;
+* universal correctness.
+
+Therefore no such theorem should be inferred.
+
+---
+
+# 160. Security Boundary
+
+Identity is security-relevant when authorization depends on it.
+
+But this placeholder does not establish a complete security architecture.
+
+Potential threats requiring separate treatment include:
+
+```text
+identity spoofing
+alias collision
+stale authority
+forged provenance
+receipt forgery
+registry corruption
+rollback attack
+version substitution
+confused deputy
+Sybil multiplicity
+unauthorized supersession
+```
+
+These are threat-model candidates, not claims of observed vulnerabilities.
+
+---
+
+# 161. Governance Boundary
+
+Identity changes that affect:
+
+* authority;
+* canon;
+* provenance;
+* downstream dependencies;
+* irreversible external effects;
+
+should receive stronger governance than cosmetic metadata changes.
+
+Exact governance thresholds remain NOT_ESTABLISHED.
+
+---
+
+# 162. Reversibility Principle
+
+Under uncertainty:
+
+```text
+prefer reversible identity operations
+```
+
+where possible.
+
+Examples:
+
+```text
+alias before destructive rename
+supersede before erase
+tombstone before unrecoverable deletion
+proposal before commit
+```
+
+These are MODEL-level safe-action patterns, not supplied canonical commands.
+
+---
+
+# 163. Identity Repair
+
+When identity metadata is corrupted, repair should restore viable integrity without fabricating missing history.
+
+Target:
+
+```text
+known lineage → preserve
+unknown lineage → UNKNOWN/GAP
+conflicting lineage → COMPETING
+validated correction → explicit supersession/repair
+```
+
+Never invent provenance to make the graph complete.
+
+---
+
+# 164. Identity Recovery Receipt — TARGET
+
+A consequential repair may conceptually record:
+
+```yaml
+identity_recovery_receipt:
+  affected_identity: ...
+  detected_fault: ...
+  prior_state_ref: ...
+  recovered_state_ref: ...
+  dependencies_invalidated: []
+  dependencies_preserved: []
+  authority_ref: ...
+  recovery_epoch: ...
+  provenance: ...
+  validation_result: ...
+```
+
+Illustrative only.
+
+---
+
+# 165. Canon Population Protocol — TARGET
+
+```text
+NATIVE SOURCE FOUND
+      |
+      v
+VERIFY SOURCE IDENTITY
+      |
+      v
+COMPARE EXISTING PLACEHOLDER
+      |
+      v
+PRESERVE EXISTING FILE / LINEAGE
+      |
+      v
+NORMALIZE SOURCE TO RSCF
+      |
+      v
+LINK ALL PROVENANCE
+      |
+      v
+REGISTER GAPS / COMPETING CLAIMS
+      |
+      v
+BIND TYPED SCHEMA
+      |
+      v
+IMPLEMENT IF REQUIRED
+      |
+      v
+EXECUTE VALIDATION
+      |
+      v
+ISSUE VALIDATION RECEIPT
+      |
+      v
+PROMOTION GOVERNANCE
+```
+
+This is a DERIVED operational expansion of the supplied ingestion and promotion rules.
+
+---
+
+# 166. Population Must Not Rewrite Provenance
+
+When native content is eventually ingested:
+
+```text
+placeholder history
+```
+
+should remain part of lineage.
+
+The system should not pretend the fully populated canon always existed in its final form.
+
+This protects causal and provenance integrity.
+
+---
+
+# 167. Placeholder Supersession Record — FUTURE
+
+When this placeholder is populated, an explicit lineage record should ideally capture:
+
+```yaml
+supersession_or_population:
+  prior_status: PLACEHOLDER
+  prior_version: 0.1.0
+  new_status: ...
+  new_version: ...
+  native_source_refs: []
+  validation_receipt_refs: []
+  authority_ref: ...
+  effective_epoch: ...
+```
+
+This is MODEL-level guidance.
+
+No such transition has yet been established.
+
+---
+
+# 168. Current Supersession State
+
+Current supplied evidence does NOT establish:
+
+```text
+this placeholder has been superseded
+```
+
+Therefore:
+
+```text
+Superseded = NOT_ESTABLISHED
+```
+
+It remains the supplied placeholder artifact unless newer authoritative canon is provided.
+
+---
+
+# 169. Current Canonical Status
+
+The controlling status remains:
+
+```yaml
+status: PLACEHOLDER
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+```
+
+Expansion does not change these values.
+
+---
+
+# 170. Source-Established Claims
+
+The supplied artifact directly establishes, as corpus content:
+
+```text
+S1. The artifact is named AMOS Identity Canon.
+
+S2. It resides in:
+    01_CANON/03_COGNITION_CANON.
+
+S3. Its artifact id is:
+    amos_01_canon_03_cognition_canon_amos_identity_canon.
+
+S4. Origin architect is declared as Trang Phan.
+
+S5. Steward is declared as Trang Phan.
+
+S6. System is AMOS OS.
+
+S7. Version is 0.1.0.
+
+S8. Status is PLACEHOLDER.
+
+S9. Epistemic class is AMOS_MODEL.
+
+S10. Canonical status is UNKNOWN/GAP.
+
+S11. Implementation status is NOT_ESTABLISHED.
+
+S12. Validation status is NOT_ESTABLISHED.
+
+S13. Executable binding is NOT_ESTABLISHED.
+
+S14. Ingestion action is ADD_ONLY.
+
+S15. Existing files must be preserved and not overwritten.
+
+S16. Duplicate framework sources should converge
+     on one canonical node with linked provenance.
+
+S17. Historical sources preserve lineage and heritage.
+
+S18. External research remains outside native canon
+     and is linked as evidence.
+
+S19. Uncertainty must be marked GAP or COMPETING.
+
+S20. Canon must never be invented.
+
+S21. Consequential operations require authority checks.
+
+S22. Capability alone does not authorize.
+
+S23. Proposal does not equal commit.
+
+S24. Failed premises preserve unaffected state and
+     invalidate dependent descendants only.
+
+S25. Promotion requires substantive native source,
+     implementation/validation work, provenance,
+     rollback, negative tests, and gap visibility.
+```
+
+These are corpus/source claims, not independent empirical verification.
+
+---
+
+# 171. Derived Identity Principles
+
+The following are reasonable DERIVED consequences of the supplied governance structure but are not directly supplied as final identity canon:
+
+```text
+D1. Name should not automatically equal identity.
+
+D2. Version and identity should remain distinguishable.
+
+D3. Historical versions should not silently resolve
+    to materially different current versions.
+
+D4. Identity resolution should fail closed when
+    load-bearing ambiguity remains.
+
+D5. Provenance topology should remain attached to
+    identity where trust depends on it.
+
+D6. Identity should not silently confer authority.
+
+D7. Identity-affecting mutations should preserve
+    historical lineage.
+
+D8. Consequential identity mutation should be
+    transactional and recoverable.
+
+D9. Multiple source copies do not establish
+    independent confirmation.
+
+D10. Identity semantics require explicit scope,
+     version, lineage, and governance rules.
+```
+
+These MUST remain DERIVED/MODEL until native canon establishes them.
+
+---
+
+# 172. Not Established
+
+The supplied source does NOT establish:
+
+```text
+NE1. Final definition of AMOS identity.
+
+NE2. Canonical identity equivalence algorithm.
+
+NE3. Canonical identity tuple.
+
+NE4. Global uniqueness semantics.
+
+NE5. Identity-preserving mutation rules.
+
+NE6. Identity-breaking mutation rules.
+
+NE7. Alias semantics.
+
+NE8. Fork semantics.
+
+NE9. Merge semantics.
+
+NE10. Deletion/tombstone semantics.
+
+NE11. Cryptographic identity.
+
+NE12. Hash algorithm.
+
+NE13. Signature scheme.
+
+NE14. Persistent identity registry.
+
+NE15. Distributed identity consensus.
+
+NE16. Cross-shard identity finality.
+
+NE17. Runtime identity resolver.
+
+NE18. Executable enforcement.
+
+NE19. Empirical validation.
+
+NE20. Formal proof.
+
+NE21. Universal personal identity theory.
+
+NE22. Consciousness identity theory.
+
+NE23. Biological identity theory.
+
+NE24. Legal identity theory.
+
+NE25. Final canonical status.
+```
+
+These gaps must remain visible.
+
+---
+
+# 173. Critical Gaps
+
+The minimum critical missing information is:
+
+```text
+1. Verified native-canon identity source.
+
+2. Canonical identity definition.
+
+3. Identity/version distinction and persistence rules.
+
+4. Typed identity schema.
+
+5. Identity equivalence/conflict semantics.
+
+6. Authority-binding semantics.
+
+7. Provenance/lineage requirements.
+
+8. Mutation/supersession rules.
+
+9. Executable binding.
+
+10. Executed validation evidence.
+```
+
+Without these, promotion is not justified.
+
+---
+
+# 174. Decision-Relevant Gaps
+
+If an implementation were attempted before full canon population, the most decision-relevant unresolved questions would be:
+
+```text
+Which field is the authoritative identity key?
+
+Can artifact_id change?
+
+Can path change without identity change?
+
+Must version always be pinned?
+
+How are aliases resolved?
+
+How are duplicate IDs handled?
+
+How is supersession ordered?
+
+Which authority can mutate identity metadata?
+
+What happens when provenance conflicts?
+
+What exact state is rolled back after failed mutation?
+```
+
+These must not be silently chosen and then represented as canon.
+
+---
+
+# 175. Falsifiers / Invalidation Conditions
+
+This reconstruction should be revised or superseded if:
+
+```text
+F1. A verified native AMOS Identity Canon source
+    defines different identity semantics.
+
+F2. An authoritative schema defines a different
+    identity/version model.
+
+F3. Canon establishes path as identity-bearing
+    contrary to a derived assumption here.
+
+F4. Canon establishes different alias/fork/merge rules.
+
+F5. Canon establishes a different authority model.
+
+F6. Executable implementation demonstrates semantics
+    incompatible with this target reconstruction and
+    is itself canonically authorized.
+
+F7. A newer authoritative artifact supersedes this
+    placeholder.
+
+F8. Provenance establishes that this placeholder is
+    not the intended canonical slot.
+```
+
+Where conflict occurs, preserve the contradiction until valid precedence is established.
+
+---
+
+# 176. Promotion Decision Rule
+
+Current decision:
+
+```text
+PROMOTE?
+    |
+    +-- substantive native canon present? ---- NO
+    |
+    +-- implementation established? ---------- NO
+    |
+    +-- validation established? -------------- NO
+    |
+    +-- executable binding established? ------ NO
+    |
+    v
+UNKNOWN/GAP
+```
+
+Therefore:
+
+```text
+PROMOTION = NOT AUTHORIZED BY CURRENT EVIDENCE
+```
+
+---
+
+# 177. Canonical Integrity Constraints
+
+```text
+IC-1
+Never invent missing identity canon.
+
+IC-2
+Never promote addressability into validation.
+
+IC-3
+Never promote documentation into enforcement.
+
+IC-4
+Never promote identity into authority.
+
+IC-5
+Never promote source multiplicity into
+provenance independence.
+
+IC-6
+Never silently overwrite historical canon.
+
+IC-7
+Never silently substitute current version
+for a materially different pinned version.
+
+IC-8
+Never hide identity ambiguity.
+
+IC-9
+Never erase unresolved competing lineage.
+
+IC-10
+Never close an implementation or validation
+gap through prose alone.
+
+IC-11
+Never infer empirical truth from canonical status.
+
+IC-12
+Never infer canonical status from architectural detail.
+```
+
+---
+
+# 178. Minimal Safe Operational Rule
+
+Until substantive canon is populated:
+
+```text
+IF
+an operation requires an identity semantic
+that this placeholder does not define
+
+THEN
+return UNKNOWN/GAP,
+identify the missing semantic,
+and fail closed where the operation is consequential.
+```
+
+This is the safest operational interpretation of the supplied artifact.
+
+---
+
+# 179. Full Target Identity Contract — MODEL
+
+```yaml
+AMOS_IDENTITY_CONTRACT:
+  status: MODEL_TARGET
+  canonical_status: UNKNOWN/GAP
+
+  identity:
+    must_be_typed: true
+    must_be_resolvable: true
+    ambiguity_must_be_visible: true
+
+  version:
+    preserve: true
+    silent_latest_substitution: forbidden_when_material
+
+  provenance:
+    preserve: true
+    ancestry: tracked_when_material
+    multiplicity_is_not_independence: true
+
+  scope:
+    explicit_when_material: true
+
+  regime:
+    explicit_when_material: true
+
+  authority:
+    separate_from_identity: true
+    epoch_validity_required: true
+
+  mutation:
+    proposal_is_not_commit: true
+    consequential_changes_require_receipt: true
+    rollback_basin_required: true
+
+  supersession:
+    explicit: true
+    historical_erasure: forbidden
+
+  uncertainty:
+    unresolved_identity: UNKNOWN/GAP
+    conflicting_identity: COMPETING_OR_GAP
+    invention: forbidden
+
+  validation:
+    documentation_is_not_validation: true
+    executed_receipt_required_for_promotion: true
+```
+
+This contract is a reconstruction, not source-established populated canon.
+
+---
+
+# 180. Canon Population Acceptance Test
+
+A future populated artifact should be rejected as incomplete if it cannot answer:
+
+```text
+Can every load-bearing identity reference be resolved?
+
+Can ambiguity be represented without guessing?
+
+Can historical versions remain addressable?
+
+Can provenance ancestry be recovered?
+
+Can authority be checked separately?
+
+Can identity mutation be audited?
+
+Can failed mutation be rolled back?
+
+Can supersession preserve history?
+
+Can competing identity claims remain visible?
+
+Can validation evidence be traced?
+
+Can gaps remain explicit?
+
+Can the implementation be distinguished from the model?
+```
+
+---
+
+# 181. Final Proof Capsule
+
+```yaml
+claim:
+  "AMOS_IDENTITY_CANON.md currently reserves the AMOS Identity Canon
+   slot but does not yet establish substantive populated identity canon."
+
+class:
+  DERIVED_FROM_SOURCE_STATUS
+
+load_bearing_premises:
+  - status is PLACEHOLDER
+  - canonical_status is UNKNOWN/GAP
+  - implementation_status is NOT_ESTABLISHED
+  - validation_status is NOT_ESTABLISHED
+  - executable_binding is NOT_ESTABLISHED
+  - substantive content is pending native-canon ingestion
+
+provenance:
+  AMOS_corpus
+
+scope:
+  01_CANON/03_COGNITION_CANON/AMOS_IDENTITY_CANON.md
+
+competing_explanations:
+  - a newer authoritative native-canon source may exist but is not supplied here
+  - executable implementation may exist outside the supplied evidence
+
+falsifiers:
+  - verified authoritative populated AMOS Identity Canon
+  - explicit supersession record
+  - validated executable binding with governing canon
+
+confidence_ceiling:
+  source_supported
+
+result:
+  canonical_status remains UNKNOWN/GAP
+```
+
+---
+
+# 182. Final RSCF Contract
+
+```yaml
+node_id: amos_01_canon_03_cognition_canon_amos_identity_canon
+node_type: canon
+
+H:
+  AMOS Identity Canon
+
+M:
+  - identity
+  - versioning
+  - provenance
+  - lineage
+  - authority separation
+  - supersession
+  - ingestion governance
+  - promotion governance
+
+L:
+  - artifact_id
+  - version
+  - path
+  - scope
+  - regime
+  - provenance edges
+  - authority_ref
+  - receipts
+  - validation gates
+  - gap registry
+
+state: placeholder
+claim_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+
+provenance:
+  AMOS_corpus
+
+scope:
+  AMOS_general
+
+implementation_status:
+  NOT_ESTABLISHED
+
+validation_status:
+  NOT_ESTABLISHED
+
+executable_binding:
+  NOT_ESTABLISHED
+
+confidence_ceiling:
+  source_supported
+```
+
+---
+
+# 183. Final Integrity Rule
+
+```text
+AMOS IDENTITY CANON CURRENTLY DEFINES A RESERVED,
+ADDRESSABLE CANONICAL SLOT — NOT A COMPLETED IDENTITY THEORY.
+
+THE ARTIFACT IS A PLACEHOLDER.
+
+ITS SUBSTANTIVE CANONICAL STATUS IS UNKNOWN/GAP.
+
+IMPLEMENTATION IS NOT ESTABLISHED.
+
+VALIDATION IS NOT ESTABLISHED.
+
+EXECUTABLE BINDING IS NOT ESTABLISHED.
+
+IDENTITY MUST NOT BE CONFUSED WITH NAME,
+VERSION, AUTHORITY, VALIDATION, OR TRUTH.
+
+ADDRESSABILITY MUST NOT BE PROMOTED TO VALIDATION.
+
+DOCUMENTATION MUST NOT BE PROMOTED TO ENFORCEMENT.
+
+CAPABILITY MUST NOT BE PROMOTED TO AUTHORITY.
+
+PROPOSAL MUST NOT BE PROMOTED TO COMMIT.
+
+SOURCE MULTIPLICITY MUST NOT BE PROMOTED TO
+PROVENANCE INDEPENDENCE.
+
+HISTORICAL IDENTITY MUST NOT BE SILENTLY ERASED
+BY CURRENT STATE.
+
+MISSING IDENTITY SEMANTICS MUST REMAIN UNKNOWN/GAP
+UNTIL NATIVE CANON AND VALIDATION CLOSE THEM.
+
+PLAUSIBLE ARCHITECTURE MUST NEVER FILL MISSING CANON.
+
+CANONICAL STATUS REMAINS UNKNOWN/GAP.
+```
+
+---
+
+# 184. Canon Boundary
+
+The material supplied in the original placeholder establishes the **slot, metadata, ingestion discipline, governance boundaries, worked target semantics, gaps, promotion gates, and target cross-plane bindings**.
+
+The expanded identity ontology, schemas, state machines, invariants, adversarial tests, proof capsules, and integration semantics in this reconstruction are:
+
+```text
+DERIVED / AMOS_MODEL
+```
+
+unless explicitly present in the supplied source.
+
+They MUST NOT be silently reclassified as:
+
+```text
+VERIFIED
+IMPLEMENTED
+VALIDATED
+ENFORCED
+or
+POPULATED NATIVE CANON
+```
+
+The correct terminal state remains:
+
+```yaml
+status: PLACEHOLDER
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+```
+
+---
+
+00_ROOT_MOC|AMOS MOC
+
+---
+
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[KERNEL_README]] · [[CONTROL_PLANE_README]] · [[OBSERVABILITY_README]] · [[OPERATIONS_README]] · [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+
+---
+
+RSCF-NODE
+
+node_id: amos_01_canon_03_cognition_canon_amos_identity_canon
+
+node_type: canon
+
+path: 01_CANON/03_COGNITION_CANON/AMOS_IDENTITY_CANON.md
+
+claim_class: AMOS_MODEL
+
+rscf_state: placeholder
+
+canonical_status: UNKNOWN/GAP
+
+RSCF-RELATIONS:
+
+* INDEXED_BY: [[00_HOME]]
+
+* INDEXED_BY: [[AMOS_RSCF_NODES]]
+
+* GOVERNED_BY: [[LAW_HIERARCHY]]
 
 ---
 
 **MOC:** [[03_COGNITION_CANON_MOC]]
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[AMOS_COGNITION_CANON]] · [[AMOS_COGNITION_MASTER_CANON]] · [[AMOS_COGNITIVE_FIELD_CANON]] · [[AMOS_CONSCIOUSNESS_CANON]] · [[AMOS_HUMAN_INTELLIGENCE_CANON]] · [[AMOS_CROSS_SPECIES_FUNCTIONAL_MODE_MODEL]]
-
 ---
 
-**Origin Architect / Steward:** Trang Phan
-**System:** AMOS OS
-**Epistemic Class:** `AMOS_MODEL`
-**Canonical Status:** `UNKNOWN/GAP`
-**Implementation Status:** `NOT_ESTABLISHED`
-**Validation Status:** `NOT_ESTABLISHED`
-**Executable Binding:** `NOT_ESTABLISHED`
+**Origin architect / steward:** Trang Phan
 
-#amos_os #amos_identity #identity #cognition #cognition_canon #canon #rscf #provenance #lineage #identity_continuity #identity_resolution #scope #regime #temporal_validity #validation #competing_hypotheses #unknown_gap #never_invent_canon
+**System:** AMOS OS
+
+**Artifact:** `AMOS_IDENTITY_CANON.md`
+
+**Version:** `0.1.0`
+
+**Final status:** `PLACEHOLDER · AMOS_MODEL · UNKNOWN/GAP`
+
+```
+```
