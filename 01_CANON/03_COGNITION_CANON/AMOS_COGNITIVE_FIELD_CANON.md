@@ -1,84 +1,78 @@
 ---
-title: "AMOS Cognitive Field Canon"
-type: canon
-source: "01_CANON/03_COGNITION_CANON"
-artifact: "AMOS_COGNITIVE_FIELD_CANON.md"
-artifact_id: "amos_01_canon_03_cognition_canon_amos_cognitive_field_canon"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "01_CANON"
-segment: "01_CANON/03_COGNITION_CANON"
-artifact_kind: "CANON"
-path: "01_CANON/03_COGNITION_CANON/AMOS_COGNITIVE_FIELD_CANON.md"
-
-canon_group: amos_cognition
+artifact: AMOS_COGNITIVE_FIELD_CANON.md
+artifact_id: amos_01_canon_03_cognition_canon_amos_cognitive_field_canon
+artifact_kind: CANON
 canon_family: AMOS_COGNITIVE_FIELD_CANON
+canon_group: amos_cognition
 canon_role: COGNITIVE_FIELD_CANON
+canonical_status: UNKNOWN/GAP
+epistemic_class: AMOS_MODEL
+executable_binding: NOT_ESTABLISHED
+implementation_status: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
+native_cognition_binding_status: NOT_ESTABLISHED
+native_cognition_master_binding_status: NOT_ESTABLISHED
+native_definition_status: NOT_ESTABLISHED
+native_dependencies_status: NOT_ESTABLISHED
+native_field_boundary_status: NOT_ESTABLISHED
+native_field_causal_status: NOT_ESTABLISHED
+native_field_definition_status: NOT_ESTABLISHED
+native_field_dynamics_status: NOT_ESTABLISHED
+native_field_empirical_status: NOT_ESTABLISHED
+native_field_equation_status: NOT_ESTABLISHED
+native_field_interaction_status: NOT_ESTABLISHED
+native_field_measurement_status: NOT_ESTABLISHED
+native_field_ontology_status: NOT_ESTABLISHED
+native_field_state_status: NOT_ESTABLISHED
+native_field_variable_status: NOT_ESTABLISHED
+native_hml_binding_status: NOT_ESTABLISHED
+native_provenance_status: PARTIALLY_SOURCE_SUPPORTED
+native_regime_status: NOT_ESTABLISHED
+native_rscf_binding_status: NOT_ESTABLISHED
+native_scope_status: NOT_ESTABLISHED
+native_temporal_status: NOT_ESTABLISHED
+origin_architect: Trang Phan
+path: 01_CANON/03_COGNITION_CANON/AMOS_COGNITIVE_FIELD_CANON.md
+plane: 01_CANON
+provenance_independence_status: NOT_ESTABLISHED
+rscf:
+  claim_class: DERIVED
+  confidence_ceiling: source_supported
+  provenance: AMOS_corpus
+  provenance_independence: NOT_ESTABLISHED
+  regime: canon_placeholder
+  scope: AMOS_general
+  state: DERIVED
 schema_family: RSCF
 schema_role: COGNITIVE_FIELD_CANON_RSCF
-schema_version: "AMOS_CORE_v4.4-compatible-conceptual"
-
+schema_version: AMOS_CORE_v4.4-compatible-conceptual
+segment: 01_CANON/03_COGNITION_CANON
+source: 01_CANON/03_COGNITION_CANON
+status: PLACEHOLDER_EXPANDED
+steward: Trang Phan
+system: AMOS OS
 tags:
-  - amos_os
-  - canon
-  - cognition
-  - cognitive_field
-  - 01_canon
-  - 03_cognition_canon
-  - canon_placeholder
-  - placeholder_expanded
-  - rscf
-  - provenance
-  - scope
-  - regime
-  - validation
-  - canon/universe
-
-version: "0.2.0"
-updated: "2026-08-27"
-
-status: "PLACEHOLDER_EXPANDED"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
-
-native_definition_status: "NOT_ESTABLISHED"
-native_field_definition_status: "NOT_ESTABLISHED"
-native_field_ontology_status: "NOT_ESTABLISHED"
-native_field_boundary_status: "NOT_ESTABLISHED"
-native_field_state_status: "NOT_ESTABLISHED"
-native_field_dynamics_status: "NOT_ESTABLISHED"
-native_field_interaction_status: "NOT_ESTABLISHED"
-native_field_equation_status: "NOT_ESTABLISHED"
-native_field_variable_status: "NOT_ESTABLISHED"
-native_field_measurement_status: "NOT_ESTABLISHED"
-native_field_causal_status: "NOT_ESTABLISHED"
-native_field_empirical_status: "NOT_ESTABLISHED"
-
-native_cognition_binding_status: "NOT_ESTABLISHED"
-native_cognition_master_binding_status: "NOT_ESTABLISHED"
-native_rscf_binding_status: "NOT_ESTABLISHED"
-native_hml_binding_status: "NOT_ESTABLISHED"
-
-native_scope_status: "NOT_ESTABLISHED"
-native_regime_status: "NOT_ESTABLISHED"
-native_temporal_status: "NOT_ESTABLISHED"
-native_dependencies_status: "NOT_ESTABLISHED"
-native_provenance_status: "PARTIALLY_SOURCE_SUPPORTED"
-provenance_independence_status: "NOT_ESTABLISHED"
-
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
-  regime: canon_placeholder
-  confidence_ceiling: source_supported
-  provenance_independence: NOT_ESTABLISHED
+- amos_os
+- canon
+- cognition
+- cognitive_field
+- 01_canon
+- 03_cognition_canon
+- canon_placeholder
+- rscf
+- rscf/C-constraint
+- rscf/D-distinction
+- rscf/S-state
+- rscf/type-model
+- provenance
+- scope
+- regime
+- validation
+title: AMOS Cognitive Field Canon
+type: canon
+updated: 2026-08-27
+validation_status: NOT_ESTABLISHED
+version: 0.2.0
 ---
 
 # AMOS Cognitive Field Canon
