@@ -69,3 +69,37 @@ The strongest near-term integration path is:
 
 ---
 **MOC:** [[LLM_WIKI_MOC]]
+
+## 2026-08-29 update
+
+Follow-up scan expanded the candidate pool with five additional high-value repositories.
+
+### Best skill marketplaces and runtimes
+
+| Repo | Strength | AMOS fit |
+|------|----------|----------|
+| `wuyifeishu/nexus-agentos` | Universal agent runtime + 64 built-in skills + MCP + TUI | Harden AMOS runtime and `.devin/skills` discovery/install |
+| `zjunlp/SkillNet` | 500K+ skills, 5-dimension scoring, orchestration, MCP | Import skill-evaluation and relationship-graph tooling |
+| `songfang/AgentSkillOS` | 90K+ skills, DAG orchestration, skill tree, GUI | Cross-check skill-retrieval and DAG-composition models |
+
+### Best markdown/native orchestration and registry formats
+
+| Repo | Strength | AMOS fit |
+|------|----------|----------|
+| `nuryslyrt/ORPHEUS` | Natural-language → multi-skill pipeline; typed contracts; filesystem only | Validate AMOS workflow and contract design patterns |
+| `gfernandf/agent-skill-registry` | Declarative capabilities/skills, machine-readable catalogs | Standardize AMOS capability vocabulary and registry export |
+| `kai98k/agent-skills-registry` | Skill bundles with `SKILL.md`, semver, push/pull CLI | Align skill-bundle packaging with `amos-skill-builder` |
+| `yepengfan/agent-registry` | Claude Code native agent/skill/orchestrator registry | Compare install/routing conventions for agents |
+| `Rainnystone/skill-orchestration-system` | Local skill packs, vault isolation, workspace routing | Reduce prompt-pollution for large `.devin/skills` trees |
+| `tavianm/aidd-framework` | 31 skills, 3 agents, Claude/Cursor/Copilot builds | Reference multi-format skill distribution |
+
+### Updated near-term integration priorities
+
+1. **SkillNet** for the largest evaluatable skill corpus and community scoring.
+2. **AgentOS** if AMOS needs a runtime marketplace with MCP integration.
+3. **ORPHEUS** to benchmark AMOS workflow contracts and markdown-first orchestration.
+4. **agent-skill-registry** / **agent-skills-registry** for vocabulary and bundle standards.
+
+Raw capture: [[SOTA_AGENT_SKILL_WORKFLOW_REPOS_2026_08_29]]
+
+**Confidence ceiling:** 0.80 (derived from README claims; not independently benchmarked).

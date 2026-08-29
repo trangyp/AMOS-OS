@@ -29,6 +29,11 @@ tags:
 - amos_os
 steward: Trang Phan
 language: en
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # mdformat-obsidian Vault Formatting

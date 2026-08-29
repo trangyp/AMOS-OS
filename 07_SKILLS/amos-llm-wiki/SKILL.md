@@ -37,6 +37,11 @@ tags:
 - references-moc
 - 00-home
 steward: Trang Phan
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # AMOS LLM Wiki

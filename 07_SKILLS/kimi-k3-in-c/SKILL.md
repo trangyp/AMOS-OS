@@ -21,6 +21,11 @@ tags:
 - readme
 - references-moc
 - 00-home
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # Kimi K3 in C

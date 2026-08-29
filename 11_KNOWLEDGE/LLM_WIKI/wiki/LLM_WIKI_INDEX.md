@@ -75,3 +75,9 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[LLM_WIKI_MOC]]
+
+## 2026-08-29 updates
+
+- New raw source: [[SOTA_AGENT_SKILL_WORKFLOW_REPOS_2026_08_29]]
+- Updated synthesis: [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]]
+- Activity logged: [[LLM_WIKI_LOG]]
