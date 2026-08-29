@@ -134,6 +134,18 @@ claim_class: AMOS_MODEL
   4. `skillflow-mcp` typed MCP tools → export AMOS `amos-workflow-runner` as MCP
 - Install blocked by Python 3.12 requirement; host has 3.9.6.
 
+## [2026-08-29] repo evaluation | SkillOS pure-markdown OS
+
+- Cloned `EvolvingAgentsLabs/skillos` to `/tmp/skillos` and inspected `README.md`, `Boot.md`, `skillos.py`, `system/skills/` layout.
+- Pure markdown OS: every agent, tool, memory, and orchestration component is a markdown file.
+- `Boot.md` is the runtime manifest; `SkillIndex.md` is the hierarchical skill router.
+- Runtime requires Python 3.11+; host has 3.9.6, so boot not executed.
+- AMOS importables identified:
+  1. `Boot.md` + `SkillIndex.md` manifest/router pattern → add `AMOS_BOOT.md` / `SKILL_INDEX.md` to `.devin/` root.
+  2. Hierarchical `system/skills/{domain}/{base,index,...}.md` tree → mirror in `07_SKILLS` domain taxonomies.
+  3. `memory/short_term/` and `memory/long_term/` → extend `11_KNOWLEDGE/LLM_WIKI/` log and synthesis split.
+  4. `projects/[ProjectName]/{components,input,output,memory,state}` workspace template → `amos-integrated-agent` project scaffold.
+
 ## [2026-08-29] research | SkillOpt README captured and evaluated
 
 - Fetched `microsoft/SkillOpt` README and captured raw source to [[SKILLOPT_README_2026_08_29]].
