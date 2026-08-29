@@ -417,3 +417,10 @@ claim_class: AMOS_MODEL
 
 - Fetched `vercel-labs/skills` README and captured raw source to [[VERCEL_LABS_SKILLS_README_2026_08_30]].
 - Added deep-dive to [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] mapping `npx skills add/use/find/init`, source formats, installation scope, symlink vs copy, and 73+ supported agents to AMOS skills.
+
+## [2026-08-30] research | Captured canonical Agent Skills spec and Anthropic skills template
+
+- Fetched `agentskills.io/specification` and captured to [[AGENTSKILLS_IO_SPECIFICATION_2026_08_30]].
+- Fetched `anthropics/skills` README, template `SKILL.md`, and `spec/agent-skills-spec.md` to `ANTHROPICS_SKILLS_*` raw captures.
+- Added deep-dive to [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] comparing `name`/`description`/`compatibility`/`allowed-tools`/`metadata`/`references` progressive disclosure to AMOS `CONTRACT_TEMPLATE.yaml` and `sota_skill_validator.py`.
+- Recommended next step: add `allowed-tools` scoping examples to `CONTRACT_TEMPLATE.yaml` and evaluate enforcing `name` (64) and `description` (1024) length limits.

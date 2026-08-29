@@ -986,3 +986,47 @@ Fetched the `vercel-labs/skills` CLI README — the canonical `npx skills` packa
 - Project vs global scope → `AMOS_BOOT.md` working-directory checks and `.claude/skills` discovery.
 
 Raw source: [[VERCEL_LABS_SKILLS_README_2026_08_30]]
+
+## 2026-08-30 | research | Captured canonical `agentskills.io` Agent Skills specification and Anthropic skill template
+
+Fetched the canonical `agentskills.io/specification` and `anthropics/skills` README, template, and spec pointer.
+
+### Canonical `agentskills.io` specification
+
+Raw source: [[AGENTSKILLS_IO_SPECIFICATION_2026_08_30]]
+
+Key constraints to compare with AMOS `CONTRACT_TEMPLATE.yaml`:
+- `name`: 1-64 chars, lowercase alphanum + hyphens, no leading/trailing/consecutive hyphens, must match parent directory.
+- `description`: 1-1024 chars, non-empty, should describe what and when, include task keywords.
+- `compatibility`: optional, max 500 chars.
+- `allowed-tools`: optional, space-separated string (experimental). Example: `Bash(git:*) Bash(jq:*) Read`.
+- `metadata`: arbitrary string→string map.
+- `SKILL.md` < 500 lines recommended; move detailed reference to `references/`.
+- Progressive disclosure: metadata (~100 tokens), instructions (< 5000 tokens), resources on demand.
+- Optional dirs: `scripts/`, `references/`, `assets/`.
+- Validation: `skills-ref validate ./my-skill`.
+
+### Anthropic `skills` repo
+
+Raw sources:
+- [[ANTHROPICS_SKILLS_README_2026_08_30]]
+- [[ANTHROPICS_SKILLS_TEMPLATE_SKILL_2026_08_30]]
+- [[ANTHROPICS_SKILLS_AGENT_SKILLS_SPEC_2026_08_30]]
+
+Notes:
+- Minimal template only requires `name` and `description`.
+- Document skills (`docx`, `pdf`, `pptx`, `xlsx`) are source-available, not open source.
+- Supports Claude Code `/plugin marketplace add anthropics/skills`.
+
+### Comparison to AMOS `CONTRACT_TEMPLATE.yaml`
+
+- `name` constraints are stricter than AMOS currently enforces; AMOS skill names include arxiv-derived names >64 chars.
+- `description` length cap (1024) is not enforced by `sota_skill_validator.py`.
+- `compatibility` and `allowed-tools` formats already match string representation in AMOS.
+- `metadata` is used by SkillNet `skillnet` as a nested object, not a flat string→string map.
+- Progressive disclosure (< 500 lines, `references/`) already covered by AMOS G6.
+- `scripts/`, `references/`, `assets/` directories already modeled in AMOS `MANIFEST.yaml`.
+
+### Recommended next step
+
+Add `allowed-tools` scoping examples (e.g. `Bash(git:*)`, `Bash(jq:*)`) to `amos-skill-builder/references/CONTRACT_TEMPLATE.yaml` and evaluate whether `sota_skill_validator.py` should enforce `name` length (64) and `description` length (1024) against the Agent Skills spec.
