@@ -65,4 +65,3 @@ class Investment_Kernel(Kernel):
 
 ---
 **MOC:** [[KERNEL_MOC]]
-

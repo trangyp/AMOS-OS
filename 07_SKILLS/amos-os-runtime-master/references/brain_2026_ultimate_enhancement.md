@@ -117,11 +117,11 @@ class Agent:
     mechanistic_interpretability: float = 0.6
 
 ---
-**MOC:** 
+**MOC:**
 
 ## Related
 
-- 
+-
 ```
 
 ---

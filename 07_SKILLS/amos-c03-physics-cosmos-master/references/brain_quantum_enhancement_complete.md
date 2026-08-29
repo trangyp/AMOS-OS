@@ -102,11 +102,11 @@ Risk_Tensor[i,j] = quantum_capability_i * quantum_capability_j * enforcement_exp
 Exploitation_Score = (ambiguity * 0.2 + low_penalty * 0.15 + network_asymmetry * 0.25 +
 
 ---
-**MOC:** 
+**MOC:**
 
 ## Related
 
-- 
+-
 ```
 
 ---

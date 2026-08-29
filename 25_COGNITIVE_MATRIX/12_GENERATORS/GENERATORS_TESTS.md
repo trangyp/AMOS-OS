@@ -251,7 +251,7 @@ tags:
     - RSCF
     - GMEF
     - HML
-    - 
+    -
     - COMPETING_HYPOTHESES
     - UNCERTAINTY_VECTOR
     - FRACTAL_KNOWLEDGE_NETWORK
@@ -3714,7 +3714,7 @@ This makes `TESTS.md` the executable-assurance specification beside `GENERATOR_C
 00_ROOT_MOC|AMOS MOC
 
 ---
-**Related:**  ·  ·  · 
+**Related:**  ·  ·  ·
 
 ---
 RSCF-NODE
@@ -3722,12 +3722,12 @@ node_id: generators_tests
 node_type: note
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_TESTS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: 
+  - INDEXED_BY:
   - INDEXED_BY: AMOS_RSCF_NODES
 claim_class: AMOS_MODEL
 
 ---
-**MOC:** 
+**MOC:**
 ```
 
 ---

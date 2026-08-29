@@ -114,11 +114,11 @@ A_i = (resources, incentives, constraints, network, information, enforcementExpo
 K = {Gov
 
 ---
-**MOC:** 
+**MOC:**
 
 ## Related
 
-- 
+-
 ```
 
 ---

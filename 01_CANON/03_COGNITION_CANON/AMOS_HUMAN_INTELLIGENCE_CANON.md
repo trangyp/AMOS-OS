@@ -114,18 +114,18 @@ rscf:
 
 # AMOS Human Intelligence Canon
 
-> **Artifact:** `AMOS_HUMAN_INTELLIGENCE_CANON.md`  
-> **Artifact ID:** `amos_01_canon_03_cognition_canon_amos_human_intelligence_canon`  
-> **System:** AMOS OS  
-> **Plane:** `01_CANON`  
-> **Segment:** `01_CANON/03_COGNITION_CANON`  
-> **Artifact kind:** `CANON`  
-> **Source state:** `PLACEHOLDER`  
-> **Expanded derivative state:** `PLACEHOLDER_EXPANDED`  
-> **Canonical status:** `UNKNOWN/GAP`  
-> **Implementation:** `NOT_ESTABLISHED`  
-> **Validation:** `NOT_ESTABLISHED`  
-> **Executable binding:** `NOT_ESTABLISHED`  
+> **Artifact:** `AMOS_HUMAN_INTELLIGENCE_CANON.md`
+> **Artifact ID:** `amos_01_canon_03_cognition_canon_amos_human_intelligence_canon`
+> **System:** AMOS OS
+> **Plane:** `01_CANON`
+> **Segment:** `01_CANON/03_COGNITION_CANON`
+> **Artifact kind:** `CANON`
+> **Source state:** `PLACEHOLDER`
+> **Expanded derivative state:** `PLACEHOLDER_EXPANDED`
+> **Canonical status:** `UNKNOWN/GAP`
+> **Implementation:** `NOT_ESTABLISHED`
+> **Validation:** `NOT_ESTABLISHED`
+> **Executable binding:** `NOT_ESTABLISHED`
 > **Origin architect / steward:** **Trang Phan**
 
 ---
@@ -3624,8 +3624,8 @@ COGNITIVE PROCESS
 
 Before promotion:
 
-* 
-* 
+*
+*
 
 Current:
 
@@ -4968,38 +4968,38 @@ AMOS_HUMAN_INTELLIGENCE_CANON_GUARD:
 
 ### Parent MOCs
 
-* 
-* 
-* 
+*
+*
+*
 
 ### Core indexes
 
-* 
-* 
+*
+*
 
 ### Cognition-family artifacts
 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
+*
+*
+*
+*
+*
+*
+*
+*
+*
 
 ### Target infrastructure bindings
 
-* 
-* 
-* 
-* 
+*
+*
+*
+*
 
 ### Required validation receipts
 
-* 
-* 
+*
+*
 
 ---
 

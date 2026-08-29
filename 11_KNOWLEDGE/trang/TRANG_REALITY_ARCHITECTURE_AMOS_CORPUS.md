@@ -10329,7 +10329,7 @@ Keep separate until validated:
 # v4 Core Spine
 ```
     Reality is not a collection of objects.
-    
+
     Reality =
     Potential structured by distinction,
     distinction stabilized by relation,

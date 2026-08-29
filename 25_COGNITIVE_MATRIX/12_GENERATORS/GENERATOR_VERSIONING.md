@@ -3989,6 +3989,6 @@ not merely:
 That prevents silent Generator drift from invalidating provenance, tests, validation, routing, and rollback while continuing to masquerade as the “same version.”
 
 ---
-**MOC:** 
+**MOC:**
 
 ```

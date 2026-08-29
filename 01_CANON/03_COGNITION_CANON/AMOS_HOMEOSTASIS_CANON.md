@@ -120,18 +120,18 @@ rscf:
 #amos_os #amos_homeostasis #amos_homeostasis_canon #homeostasis #cognition #cognition_canon #regulation #stability #adaptive_regulation #canon #rscf #provenance #scope #regime #causal_firewall
 
 > [!abstract] Canon identity
-> **Artifact:** `AMOS_HOMEOSTASIS_CANON.md`  
-> **Artifact ID:** `amos_01_canon_03_cognition_canon_amos_homeostasis_canon`  
-> **System:** AMOS OS  
-> **Plane:** 01_CANON  
-> **Segment:** [[03_COGNITION_CANON_MOC|03 Cognition Canon]]  
-> **Artifact kind:** `CANON`  
-> **Source state:** `PLACEHOLDER`  
-> **Expanded derivative state:** `PLACEHOLDER_EXPANDED`  
-> **Canonical status:** `UNKNOWN/GAP`  
-> **Implementation:** `NOT_ESTABLISHED`  
-> **Validation:** `NOT_ESTABLISHED`  
-> **Executable binding:** `NOT_ESTABLISHED`  
+> **Artifact:** `AMOS_HOMEOSTASIS_CANON.md`
+> **Artifact ID:** `amos_01_canon_03_cognition_canon_amos_homeostasis_canon`
+> **System:** AMOS OS
+> **Plane:** 01_CANON
+> **Segment:** [[03_COGNITION_CANON_MOC|03 Cognition Canon]]
+> **Artifact kind:** `CANON`
+> **Source state:** `PLACEHOLDER`
+> **Expanded derivative state:** `PLACEHOLDER_EXPANDED`
+> **Canonical status:** `UNKNOWN/GAP`
+> **Implementation:** `NOT_ESTABLISHED`
+> **Validation:** `NOT_ESTABLISHED`
+> **Executable binding:** `NOT_ESTABLISHED`
 > **Origin architect / steward:** **Trang Phan**
 
 ---

@@ -34,7 +34,7 @@ tags: [engine]
 # iOS Reverse Engineering
 * iOS/Android app is a binary
 * Few more steps in comparison to web testing
-* Jailbreak iOS / root android first
+* jail-break iOS / root Android first
    	* most apps have detection for this
    	* you need to bypass that before you test
    	* checkrain, bootrain, uncover applications for jail breaking
@@ -53,7 +53,7 @@ tags: [engine]
    	* Ida (paid/expensive tool for reverse enginerring)
    	* Ghidra (open source equivalent by RSA)
 * Reversing application binary
-   	* Jailbreak/ root device
+   	* jail-break / root device
    	* decompile (easy in android, way harder for iOS)
    	*
 

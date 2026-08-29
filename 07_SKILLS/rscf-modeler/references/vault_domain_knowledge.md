@@ -486,11 +486,11 @@ structural abstraction
 rscf/P-
 
 ---
-**MOC:** 
+**MOC:**
 
 ## Related
 
-- 
+-
 ```
 
 ---

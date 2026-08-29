@@ -291,11 +291,11 @@ with community consent for resource allocation
       "Sep
 
 ---
-**MOC:** 
+**MOC:**
 
 ## Related
 
-- 
+-
 ```
 
 ---

@@ -3737,7 +3737,7 @@ independent domain-specific evidence.
 
 **Related:**  ·  ·  ·
  ·  ·  ·
- · 
+ ·
 
 ---
 
@@ -3757,27 +3757,27 @@ canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: 
+* INDEXED_BY:
 
-* INDEXED_BY: 
+* INDEXED_BY:
 
-* GOVERNED_BY: 
+* GOVERNED_BY:
 
-* RELATED_TO: 
+* RELATED_TO:
 
-* RELATED_TO: 
+* RELATED_TO:
 
-* RELATED_TO: 
+* RELATED_TO:
 
-* RELATED_TO: 
+* RELATED_TO:
 
-* RELATED_TO: 
+* RELATED_TO:
 
-* INDEXED_BY: 
+* INDEXED_BY:
 
 ---
 
-**MOC:** 
+**MOC:**
 
 ```
 

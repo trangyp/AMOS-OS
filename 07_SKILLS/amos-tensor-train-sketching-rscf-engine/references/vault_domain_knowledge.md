@@ -150,7 +150,7 @@ impossible to reverse engineer
 cannot be extracted
 cannot be inferred
 kills all reverse engineering
-immune to jailbreaking
+immune to jail-breaking
 ```
 
 with a stronger and testable architecture:
@@ -225,7 +225,7 @@ The system should also:
 ## AMOS Governed Edition v2.0.0 · CORE target v4.4
 
 > **Canonical status:** governed derivative of the source architecture.
-> **Security status:** `CONDITIONAL`; no absolute non-copyability or jailbreak-immunity claim is promoted without executed evidence.
+> **Security status:** `CONDITIONAL`; no absolute non-copyability or jail-break-immunity claim is promoted without executed evidence.
 
 # 0. VERSION / LINEAGE CONTROL
 
@@ -316,11 +316,11 @@ SourceLineagePreserved
 ∧ StewardA
 
 ---
-**MOC:** 
+**MOC:**
 
 ## Related
 
-- 
+-
 ```
 
 ---

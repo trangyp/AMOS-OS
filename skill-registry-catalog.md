@@ -3590,7 +3590,7 @@ Total size: 11,989,174 bytes (11.4 MB)
 ### kimi-k3-in-c
 - **Description**: Build, test, and run the FareedKhan-dev/kimi-k3-in-c C99 Kimi K3 inference...
 - **Version**: 1.1.0
-- **Domain**: 
+- **Domain**:
 - **Parent**: none
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 8

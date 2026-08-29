@@ -36,9 +36,9 @@ aliases:
 ## ĐẶC TẢ HÌNH THỨC HẠT NHÂN TOÀN VẸN SINH HỌC TUYỆT ĐỐI & BẢO VỆ SỰ SỐNG
 ### Khung Bất Biến Bảo Vệ Sự Sống Tuyệt Đối, Cấm Mọi Hành Vi Gây Hại Sinh Học và Giao Thức Ngắt Khẩn Cấp
 
-> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS  
-> **Plane:** `02_KERNEL/06_RISK_REPAIR/K_ABSOLUTE_BIOLOGICAL_INTEGRITY.md`  
-> **Trạng thái:** `CANONICAL` (Giới Hạn Đạo Đức Sinh Học Bất Khả Xâm Phạm)  
+> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS
+> **Plane:** `02_KERNEL/06_RISK_REPAIR/K_ABSOLUTE_BIOLOGICAL_INTEGRITY.md`
+> **Trạng thái:** `CANONICAL` (Giới Hạn Đạo Đức Sinh Học Bất Khả Xâm Phạm)
 
 ---
 
@@ -2216,4 +2216,4 @@ Phân vùng #144 giám sát nồng độ độc tố sinh học và bức xạ �
 - **MOCs Điều hướng:** [[00_HOME]] · [[00_ROOT_MOC]] · [[02_KERNEL_MOC]] · [[06_RISK_REPAIR_MOC]]
 
 ---
-**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS  
+**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS

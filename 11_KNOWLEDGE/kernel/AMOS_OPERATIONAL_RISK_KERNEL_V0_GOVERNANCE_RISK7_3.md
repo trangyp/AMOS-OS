@@ -3740,18 +3740,18 @@ integrity_boundaries:
 > Audit structure is not audit evidence.
 
 ## Kernel Spaces
-- 
-- 
-- 
-- 
-- 
+-
+-
+-
+-
+-
 
 ## Dependencies
-- 
-- 
+-
+-
 
 ## MOC
-- 
+-
 ```
 
 Only `` is source-explicit.
@@ -3862,9 +3862,9 @@ SORT file.name ASC
 
 ## Navigation
 
-**MOC:** 
+**MOC:**
 
-**Kernel:** 
+**Kernel:**
 
 **Spaces:**
  ·

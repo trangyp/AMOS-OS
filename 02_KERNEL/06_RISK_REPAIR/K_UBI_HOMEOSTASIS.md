@@ -36,9 +36,9 @@ aliases:
 ## ĐẶC TẢ HÌNH THỨC HẠT NHÂN CÂN BẰNG NỘI MÔI SINH HỌC UBI
 ### Khung Duy Trì Cân Bằng Động Lực Học Sinh Học, Tự Phục Hồi Nhận Thức và Bảo Toàn Năng Lượng
 
-> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS  
-> **Plane:** `02_KERNEL/06_RISK_REPAIR/K_UBI_HOMEOSTASIS.md`  
-> **Trạng thái:** `CANONICAL` (Trụ Cột Cân Bằng Nội Môi Toàn Phần)  
+> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS
+> **Plane:** `02_KERNEL/06_RISK_REPAIR/K_UBI_HOMEOSTASIS.md`
+> **Trạng thái:** `CANONICAL` (Trụ Cột Cân Bằng Nội Môi Toàn Phần)
 
 ---
 
@@ -2216,4 +2216,4 @@ Vòng phản hồi #144 liên kết trạng thái thể chất SI với nhịp x
 - **MOCs Điều hướng:** [[00_HOME]] · [[00_ROOT_MOC]] · [[02_KERNEL_MOC]] · [[06_RISK_REPAIR_MOC]]
 
 ---
-**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS  
+**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS

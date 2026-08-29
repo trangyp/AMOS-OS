@@ -3442,7 +3442,7 @@ WORKER
 That makes provenance a durable infrastructure dimension rather than a decorative metadata field, while keeping the critical AMOS boundary intact: **traceability can support trust, but it does not manufacture truth, independence, authority, or canon.**
 
 ---
-**Related:**  ·  ·  · 
+**Related:**  ·  ·  ·
 
 ---
 RSCF-NODE
@@ -3450,11 +3450,11 @@ node_id: generators_provenance
 node_type: note
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_PROVENANCE.md
 RSCF-RELATIONS:
-  - INDEXED_BY: 
-  - INDEXED_BY: 
+  - INDEXED_BY:
+  - INDEXED_BY:
 claim_class: AMOS_MODEL
 
 ---
-**MOC:** 
+**MOC:**
 
 ```

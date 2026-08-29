@@ -113,4 +113,3 @@ The vOmni master kernel is the **dynamic routing layer** that selects and weight
 
 ---
 **MOC:** [[KERNEL_MOC]]
-

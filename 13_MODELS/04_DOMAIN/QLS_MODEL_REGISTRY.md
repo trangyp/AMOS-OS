@@ -1,5 +1,5 @@
 ---
-title: "QLS Model Registry"
+title: QLS Model Registry
 aliases:
   - "AMOS QLS Model Registry"
   - "QLS Registry"
@@ -154,7 +154,6 @@ tags:
   - no_overwrite
   - external_evidence
   - native_source_required
-
 rscf:
   state: "DERIVED"
   claim_class: "DERIVED"
@@ -6811,16 +6810,16 @@ EXECUTED
 
 Target architectural bindings:
 
-* Governed by canon — 
-* Root navigation — 
-* RSCF navigation — 
-* Local domain MOC — 
-* Kernel interaction — 
-* Control-plane gates — 
-* Observed by — 
-* Recovered via operations — 
-* Routing validation reference — 
-* Authorization validation reference — 
+* Governed by canon —
+* Root navigation —
+* RSCF navigation —
+* Local domain MOC —
+* Kernel interaction —
+* Control-plane gates —
+* Observed by —
+* Recovered via operations —
+* Routing validation reference —
+* Authorization validation reference —
 
 These are architectural/document relations.
 
@@ -7285,7 +7284,7 @@ TOKEN SAVINGS.
 
 ---
 
-**Related:**  ·  ·  ·  ·  ·  · 
+**Related:**  ·  ·  ·  ·  ·  ·
 
 ---
 
@@ -7314,18 +7313,15 @@ executable_binding: NOT_ESTABLISHED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: 
-* INDEXED_BY: 
-* INDEXED_BY: 
-* GOVERNED_BY: 
-* INTERACTS_WITH: 
-* GATED_BY: 
-* OBSERVED_BY: 
-* RECOVERED_VIA: 
+* INDEXED_BY:
+* INDEXED_BY:
+* INDEXED_BY:
+* GOVERNED_BY:
+* INTERACTS_WITH:
+* GATED_BY:
+* OBSERVED_BY:
+* RECOVERED_VIA:
 
 ---
 
-**MOC:** 
-
-```
-```
+**MOC:**

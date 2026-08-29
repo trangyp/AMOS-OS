@@ -2505,21 +2505,21 @@ NOT_ESTABLISHED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: 
+* INDEXED_BY:
 
-* INDEXED_BY: 
+* INDEXED_BY:
 
-* INDEXED_BY: 
+* INDEXED_BY:
 
-* CHILD_OF: 
+* CHILD_OF:
 
-* RECEIVES_FROM: 
+* RECEIVES_FROM:
 
-* INHERITS_REALITY_BOUNDARY_FROM: 
+* INHERITS_REALITY_BOUNDARY_FROM:
 
-* RELATED_HIERARCHY: 
+* RELATED_HIERARCHY:
 
-* RELATED_FRAMEWORK: 
+* RELATED_FRAMEWORK:
 
 * GOVERNS:
   TYPED_PERSISTENCE
@@ -2548,15 +2548,15 @@ RSCF-RELATIONS:
 
 ---
 
-**Related:**  ·  ·  ·  ·  ·  · 
+**Related:**  ·  ·  ·  ·  ·  ·
 
 ---
 
-**MOC:** 
+**MOC:**
 
 ---
 
-**Trang Framework:** 
+**Trang Framework:**
 
 ---
 

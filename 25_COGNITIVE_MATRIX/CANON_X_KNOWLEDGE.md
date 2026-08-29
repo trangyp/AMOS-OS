@@ -568,6 +568,6 @@ One additional correction is important: the diagram's **“Verifies all knowledg
 I could not independently traverse the referenced AMOS corpus files in this turn, so the assessment above is grounded in the artifact you supplied; the exact contents and authority of `01_CANON_MOC`, `KNOWLEDGE_MOC`, `02_CLAIMS_MOC`, and `03_RSCF_MOC` remain unresolved rather than assumed.
 ```
 
-**MOC:** 
+**MOC:**
 
 ```

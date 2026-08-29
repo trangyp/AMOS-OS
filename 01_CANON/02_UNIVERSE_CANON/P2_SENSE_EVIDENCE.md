@@ -2582,21 +2582,21 @@ NOT_ESTABLISHED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: 
+* INDEXED_BY:
 
-* INDEXED_BY: 
+* INDEXED_BY:
 
-* INDEXED_BY: 
+* INDEXED_BY:
 
-* CHILD_OF: 
+* CHILD_OF:
 
-* INHERITS_FROM: 
+* INHERITS_FROM:
 
-* RELATED_HIERARCHY: 
+* RELATED_HIERARCHY:
 
-* RELATED_FRAMEWORK: 
+* RELATED_FRAMEWORK:
 
-* RELATED_FRAMEWORK: 
+* RELATED_FRAMEWORK:
 
 * GOVERNS:
   EVIDENCE_ADMISSION
@@ -2613,15 +2613,15 @@ RSCF-RELATIONS:
 
 ---
 
-**Related:**  ·  ·  ·  ·  ·  · 
+**Related:**  ·  ·  ·  ·  ·  ·
 
 ---
 
-**MOC:** 
+**MOC:**
 
 ---
 
-**Trang Framework:** 
+**Trang Framework:**
 
 ---
 

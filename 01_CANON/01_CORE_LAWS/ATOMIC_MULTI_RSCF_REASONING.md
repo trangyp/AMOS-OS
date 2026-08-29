@@ -1317,7 +1317,7 @@ PROOF_CAPSULE:
     - MULTI_RSCF_REASONING
 
   dependencies:
-    - 
+    -
 
   unresolved_dependency:
     full_K_ATOMIC_MULTI_RSCF_content
@@ -1386,7 +1386,7 @@ RSCF:
 
   L:
     canonical_kernel:
-      
+
 
     kernel_content_loaded:
       false
@@ -1399,7 +1399,7 @@ RSCF:
     - supplied_source_artifact
 
   dependencies:
-    - 
+    -
 
   confidence_ceiling:
     source_model: SOURCE_BOUND

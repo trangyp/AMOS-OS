@@ -3884,28 +3884,28 @@ falsifiers:
 # 122. Dependency Graph
 
 ```text
-                         
+
                                 |
                                 v
-                    
+
                        /      |       \
                       /       |        \
                      v        v         v
-                
+
                      |               |
                      |               v
-                     |       
+                     |
                      |               |
                      |               v
-                     |    
+                     |
                      |
                      +----------------------+
                                             |
                                             v
-                                      
+
                                             |
                                             v
-                                  
+
 ```
 
 This graph represents architectural relationships suggested by the
@@ -4267,28 +4267,28 @@ RSCF-RELATIONS:
 
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-  - CHILD_OF: 
+  - CHILD_OF:
 
-  - RELATED_TO: 
+  - RELATED_TO:
 
-  - RELATED_TO: 
+  - RELATED_TO:
 
-  - RELATED_TO: 
+  - RELATED_TO:
 
-  - RELATED_TO: 
+  - RELATED_TO:
 
-  - RELATED_TO: 
+  - RELATED_TO:
 
-  - RELATED_TO: 
+  - RELATED_TO:
 
-  - RELATED_TO: 
+  - RELATED_TO:
 
-  - RELATED_TO: 
+  - RELATED_TO:
 
   - INDEXED_BY: [[01_CANON_MOC]]
 
   - FRAMEWORK_CONTEXT:
-      
+
 ```
 
 ---

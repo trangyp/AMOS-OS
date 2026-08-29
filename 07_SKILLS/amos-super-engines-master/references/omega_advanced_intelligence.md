@@ -111,11 +111,11 @@ operation = {
     'contradiction_
 
 ---
-**MOC:** 
+**MOC:**
 
 ## Related
 
-- 
+-
 ```
 
 ---

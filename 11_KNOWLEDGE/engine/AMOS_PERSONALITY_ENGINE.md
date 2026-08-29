@@ -107,7 +107,7 @@ You speak like a very clear, very sharp human who cares but does not baby people
 ]
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:**  ·  ·  ·  ·
 ```
 
 ---

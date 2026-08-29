@@ -46,4 +46,3 @@ Entailment claims require premises + inference rule + applicable logic fragment.
 
 ---
 **MOC:** [[KERNEL_MOC]]
-

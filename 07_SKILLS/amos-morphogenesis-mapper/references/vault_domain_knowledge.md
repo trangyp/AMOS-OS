@@ -341,11 +341,11 @@ Hardware must remain replaceable without destroying the higher-order Omnis archi
 │ RSCF / AMOS GOVERNANCE
 
 ---
-**MOC:** 
+**MOC:**
 
 ## Related
 
-- 
+-
 ```
 
 ---

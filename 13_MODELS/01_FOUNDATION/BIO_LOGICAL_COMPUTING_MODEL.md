@@ -4221,8 +4221,8 @@ The existence of cognition-engine source structures is not sufficient proof that
 
 Existing references:
 
-* 
-* 
+*
+*
 
 remain architectural validation patterns.
 
@@ -4568,15 +4568,15 @@ without additional independent evidence.
 
 # 261. Cross-Plane Bindings
 
-* Governed by canon —  · 
-* Models navigation — 
-* Foundation models — 
-* Kernel interaction — 
-* Control-plane gates — 
+* Governed by canon —  ·
+* Models navigation —
+* Foundation models —
+* Kernel interaction —
+* Control-plane gates —
 * Observed by —  · observation never grants authority
-* Recovered via operations — 
-* RSCF graph — 
-* Root navigation — 
+* Recovered via operations —
+* RSCF graph —
+* Root navigation —
 
 ---
 

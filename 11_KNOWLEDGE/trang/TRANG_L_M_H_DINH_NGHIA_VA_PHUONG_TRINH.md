@@ -1,6 +1,6 @@
 ````markdown
 ---
-title: "TRANG FRAMEWORK — ỨNG DỤNG VÀO AI TỰ SỬA VÀ TỰ TIẾN HÓA"
+title: TRANG FRAMEWORK — ỨNG DỤNG VÀO AI TỰ SỬA VÀ TỰ TIẾN HÓA
 aliases:
   - "Trang ASEA"
   - "Adaptive Self-Evolution AI"
@@ -63,7 +63,6 @@ tags:
   - system-scan-agent
   - automation-profiles
   - amos-simulation-kernel-v0-math-foundations
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -4375,6 +4374,3 @@ claim_class: AMOS_MODEL
 ---
 
 **MOC:** [[trang_MOC]]
-
-```
-```

@@ -136,10 +136,10 @@ class AMOSContinuationEngine:
             logger.error(f"Error fixing syntax in {file_path}: {e}")
 
 ---
-**MOC:** 
+**MOC:**
 
 ---
-**MOC:** 
+**MOC:**
 ```
 
 ---

@@ -6225,7 +6225,7 @@ UNKNOWN/GAP.
 
 ---
 
-**Related:**  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  · 
+**Related:**  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·
 
 ---
 
@@ -6245,19 +6245,19 @@ canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: 
+* INDEXED_BY:
 
-* INDEXED_BY: 
+* INDEXED_BY:
 
-* PART_OF: 
+* PART_OF:
 
-* MATRIX: 
+* MATRIX:
 
-* GOVERNANCE_CYCLES: 
+* GOVERNANCE_CYCLES:
 
-* UPSTREAM_ONTOLOGY: 
+* UPSTREAM_ONTOLOGY:
 
-* LOGIC_INVARIANTS: 
+* LOGIC_INVARIANTS:
 
 * DEFINES: NULL_STATE_GROUND
 
@@ -6271,31 +6271,31 @@ RSCF-RELATIONS:
 
 * DEFINES: GOVERNED_COMMIT_OR_ETHICAL_REFUSAL
 
-* RELATED_TO: 
+* RELATED_TO:
 
-* RELATED_TO: 
+* RELATED_TO:
 
-* RELATED_TO: 
+* RELATED_TO:
 
-* RELATED_TO: 
+* RELATED_TO:
 
-* RELATED_TO: 
+* RELATED_TO:
 
-* RELATED_TO: 
+* RELATED_TO:
 
-* RELATED_TO: 
+* RELATED_TO:
 
-* RELATED_TO: 
+* RELATED_TO:
 
-* RELATED_TO: 
+* RELATED_TO:
 
-* RELATED_TO: 
+* RELATED_TO:
 
-* LINEAGE_TARGET: 
+* LINEAGE_TARGET:
 
 ---
 
-**MOC:** 
+**MOC:**
 
 ---
 

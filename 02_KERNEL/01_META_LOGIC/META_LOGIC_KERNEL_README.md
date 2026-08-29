@@ -3922,38 +3922,38 @@ RECEIPT_DEPENDENT
 
 RSCF-RELATIONS:
 
-  - INDEXED_BY: 
+  - INDEXED_BY:
 
-  - INDEXED_BY: 
+  - INDEXED_BY:
 
-  - PARENT_PACKAGE: 
+  - PARENT_PACKAGE:
 
-  - DECLARES_SIBLING: 
+  - DECLARES_SIBLING:
 
-  - DECLARES_SIBLING: 
+  - DECLARES_SIBLING:
 
-  - DECLARES_SIBLING: 
+  - DECLARES_SIBLING:
 
-  - DECLARES_SIBLING: 
+  - DECLARES_SIBLING:
 
-  - DECLARES_SIBLING: 
+  - DECLARES_SIBLING:
 
-  - GOVERNED_BY: 
+  - GOVERNED_BY:
 
-  - GATED_BY: 
+  - GATED_BY:
 
-  - OBSERVED_BY: 
+  - OBSERVED_BY:
 
-  - RECOVERED_BY: 
+  - RECOVERED_BY:
 
-  - VALIDATED_BY: 
+  - VALIDATED_BY:
 
-  - VALIDATED_BY: 
+  - VALIDATED_BY:
 
   - FRAMEWORK_LINK:
-    
 
-  - INDEXED_BY: 
+
+  - INDEXED_BY:
 ```
 
 ---
@@ -3969,11 +3969,11 @@ RSCF-RELATIONS:
     ↓
 
     │
-    ├── 
-    ├── 
-    ├── 
-    ├── 
-    └── 
+    ├──
+    ├──
+    ├──
+    ├──
+    └──
 ```
 
 Cross-plane navigation:

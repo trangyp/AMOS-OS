@@ -47,9 +47,9 @@ rscf:
 
 # L27 Gap Law
 
-STATUS: PROPOSED_SPECIFICATION  
-epistemic_class: AMOS_MODEL  
-canonical_status: CONDITIONAL  
+STATUS: PROPOSED_SPECIFICATION
+epistemic_class: AMOS_MODEL
+canonical_status: CONDITIONAL
 updated: 2026-08-26
 
 > [!abstract]
@@ -58,9 +58,9 @@ updated: 2026-08-26
 >
 > Its governing source spine contains four laws:
 >
-> **GAP-1 Expose Don't Fill**  
-> **GAP-2 Gap Is Status Not Shame**  
-> **GAP-3 Bounded Gap Registry**  
+> **GAP-1 Expose Don't Fill**
+> **GAP-2 Gap Is Status Not Shame**
+> **GAP-3 Bounded Gap Registry**
 > **GAP-4 Gap Closure Requires Evidence**
 >
 > L27 prevents missing implementation, authority, validation, or

@@ -38,10 +38,10 @@ aliases:
 ## ĐẶC TẢ HÌNH THỨC HẠT NHÂN CHỐNG TỰ ĐẦU ĐỘC & PHÒNG THỦ SỤP ĐỔ MÔ HÌNH
 ### Khung Bơm Negentropy Tích Cực, Xác Thực Neo Thực Tại và Bức Tường Lửa Kháng Nhiễm Khuẩn Dữ Liệu
 
-> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS  
-> **Plane:** `02_KERNEL/K_ANTI_AUTOPOISONING.md`  
-> **Trạng thái:** `CANONICAL` (Tường Lửa Sinh Tồn Nhận Thức)  
-> **Nguyên tắc:** Grounded Reality $\ge$ Synthesized Data $\to$ Negentropy Injection $\to$ Fail-Closed  
+> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS
+> **Plane:** `02_KERNEL/K_ANTI_AUTOPOISONING.md`
+> **Trạng thái:** `CANONICAL` (Tường Lửa Sinh Tồn Nhận Thức)
+> **Nguyên tắc:** Grounded Reality $\ge$ Synthesized Data $\to$ Negentropy Injection $\to$ Fail-Closed
 
 ---
 
@@ -2293,4 +2293,4 @@ Phân lớp #79 quy định trần tin cậy và quyền hạn truy cập của 
 - **MOCs Điều hướng:** [[00_HOME]] · [[00_ROOT_MOC]] · [[02_KERNEL_MOC]] · [[06_RISK_REPAIR_MOC]]
 
 ---
-**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS  
+**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS

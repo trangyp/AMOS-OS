@@ -3881,15 +3881,15 @@ These relation types are PROPOSED interpretations of the supplied `Related`/`MOC
 # 249. Obsidian Navigation
 
 ```markdown
-**Parent MOC:** 
+**Parent MOC:**
 
-**Knowledge Index:** 
+**Knowledge Index:**
 
 **Related:**
-- 
-- 
-- 
-- 
+-
+-
+-
+-
 ```
 
 ---
@@ -4793,10 +4793,10 @@ This is the preferred fractal retrieval path.
 
 ## Related
 
-  
-  
-  
-  
+
+
+
+
 
 
 ---

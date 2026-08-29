@@ -309,11 +309,11 @@ Results:
 `human_interaction` is the last human-facing control plane before privacy, compliance, and lifecycle governance. Without it, the AMOS OS Kernel cannot prove a human was in the loop, trace instructions, or honor consent. Closin
 
 ---
-**MOC:** 
+**MOC:**
 
 ## Related
 
-- 
+-
 ```
 
 ---

@@ -38,10 +38,10 @@ aliases:
 ## ĐẶC TẢ HÌNH THỨC HẠT NHÂN ĐÓNG KÍN AN TOÀN KHI CÓ SỰ CỐ (FAIL-CLOSED)
 ### Khung Xử Lý Vùng Mù UNKNOWN/GAP, Ngăn Chặn Đột Biến Không Kiểm Soát và Cơ Chế Tự Động Hồi Quy
 
-> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS  
-> **Plane:** `02_KERNEL/K_FAIL_CLOSED.md`  
-> **Trạng thái:** `CANONICAL` (Bức Tường Lửa Phòng Vệ Tối Hậu)  
-> **Nguyên tắc:** Khi Bất Định $\to$ Giữ Nguyên Trạng Thái $\to$ Chặn Mọi Đột Biến $\to$ Rollback An Toàn  
+> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS
+> **Plane:** `02_KERNEL/K_FAIL_CLOSED.md`
+> **Trạng thái:** `CANONICAL` (Bức Tường Lửa Phòng Vệ Tối Hậu)
+> **Nguyên tắc:** Khi Bất Định $\to$ Giữ Nguyên Trạng Thái $\to$ Chặn Mọi Đột Biến $\to$ Rollback An Toàn
 
 ---
 
@@ -2474,4 +2474,4 @@ Phân tích rủi ro #109 thiết lập rào cản ngăn chặn rò rỉ dữ li
 - **MOCs Điều hướng:** [[00_HOME]] · [[00_ROOT_MOC]] · [[02_KERNEL_MOC]] · [[06_RISK_REPAIR_MOC]]
 
 ---
-**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS  
+**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS

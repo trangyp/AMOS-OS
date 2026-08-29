@@ -6086,13 +6086,13 @@ source_state: SOURCE_CLAIM
 # Agile Delivery Kernel
 
 ## Functions
-- 
-- 
-- 
-- 
+-
+-
+-
+-
 
 ## MOC
-- 
+-
 ```
 
 **PROPOSED vault structure.**
@@ -6235,9 +6235,9 @@ WHERE contains(file.path, "11_KNOWLEDGE/kernel")
 ```markdown
 ## Navigation
 
-**MOC:** 
+**MOC:**
 
-**Domain:** 
+**Domain:**
 
 **Functions:**
  ·

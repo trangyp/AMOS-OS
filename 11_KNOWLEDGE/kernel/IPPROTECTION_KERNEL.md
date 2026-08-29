@@ -65,4 +65,3 @@ class IPProtection_Kernel(Kernel):
 
 ---
 **MOC:** [[KERNEL_MOC]]
-

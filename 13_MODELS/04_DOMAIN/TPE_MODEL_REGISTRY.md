@@ -1,5 +1,5 @@
 ---
-title: "TPE Model Registry"
+title: TPE Model Registry
 aliases:
   - "AMOS TPE Model Registry"
   - "TPE Registry"
@@ -167,7 +167,6 @@ tags:
   - no_overwrite
   - external_evidence
   - native_source_required
-
 rscf:
   state: "DERIVED"
   claim_class: "DERIVED"
@@ -7744,7 +7743,3 @@ RSCF-RELATIONS:
 ---
 
 **MOC:** [[04_DOMAIN_MOC]]
-
-```
-```
-

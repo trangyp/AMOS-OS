@@ -65,4 +65,3 @@ class Health_Kernel(Kernel):
 
 ---
 **MOC:** [[KERNEL_MOC]]
-

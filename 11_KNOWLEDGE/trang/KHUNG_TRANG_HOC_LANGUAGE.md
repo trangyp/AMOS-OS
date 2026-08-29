@@ -259,7 +259,7 @@ Nó là một **hệ điều hành học tập dựa trên bản sắc, mô ph�
   * Creator marketplace: người dùng tự tạo và bán các gói vai chơi (kiểu "ứng dụng trong ứng dụng")
 
 
-**Lợi thế của chúng ta:**  
+**Lợi thế của chúng ta:**
 Không phải AI. Mà là **kiến trúc ngữ nghĩa - hệ quả - bản sắc** mà không đội ngũ nào khác hiện có – bởi vì nó đòi hỏi cùng lúc: am hiểu ngôn ngữ học, tâm lý học nhận thức, metacognition, systems thinking, và AI engineering.
 **Nếu thực thi tốt, đây không phải là một app. Đây là một thể loại mới của giáo dục tương tác.**
 * * *
@@ -347,7 +347,7 @@ Thay vào đó, hệ thống tập trung vào:
   5. Từ “app học ngôn ngữ” → **Công cụ chuyển đổi bản sắc** (người học cảm thấy mình đang trở nên mạnh mẽ, tự tin và chuyên nghiệp hơn).
 
 
-**So sánh với các AI Chatbot hiện nay:**  
+**So sánh với các AI Chatbot hiện nay:**
 Hầu hết AI chatbot chỉ là “nói chuyện với một tính cách”. Chúng thiếu:
   * Cây hậu quả dài hạn
 
@@ -361,12 +361,12 @@ Hầu hết AI chatbot chỉ là “nói chuyện với một tính cách”. Ch
   * Lớp ngữ nghĩa phân tầng
 
 
-**Moat (hào cạnh tranh) của Lumina:**  
+**Moat (hào cạnh tranh) của Lumina:**
 Không phải AI, mà là **kiến trúc hệ quả ngữ nghĩa + cây ngữ cảnh + hệ thống bản sắc + thích ứng thần kinh**. Đây là tổ hợp đòi hỏi sự am hiểu sâu về ngôn ngữ học, tâm lý học nhận thức và systems thinking – rất khó sao chép.
 * * *
 ### **Phần 3: Kiến trúc khả thi và lộ trình MVP**
 **MVP rất dễ build. Full version mới khó.**
-**MVP đề xuất (3–5 tháng):**  
+**MVP đề xuất (3–5 tháng):**
 Hệ thống nhập vai song ngữ (Việt-Anh) dạng trắc nghiệm hậu quả với **20–30 kịch bản** được viết tay chất lượng cao.
 **Yếu tố chính của MVP:**
   * 20–30 tình huống thực tế (đi trễ, phỏng vấn, từ chối khéo, đàm phán lương, dating awkward, cãi nhau với roommate…)
@@ -532,7 +532,7 @@ Hệ thống phân loại 5 trạng thái chính và có phản ứng thích ứ
   * **Variable Reward Schedule** : Không reward đều, mà xen kẽ surprise wins và hidden paths.
 
 
-**4.3. Identity-Safety Integration**  
+**4.3. Identity-Safety Integration**
 Hệ thống luôn đảm bảo:
 “Lỗi là bình thường và có thể sửa được” → giảm fear of judgment, tăng psychological safety.
 * * *
@@ -568,15 +568,15 @@ Kết quả: User vẫn học được kỹ năng đàm phán, nhưng không b�
 
 * * *
 ### **7\. Thách thức & Giải pháp**
-  * **Thách thức** : Khó detect chính xác trạng thái thần kinh chỉ qua hành vi.  
+  * **Thách thức** : Khó detect chính xác trạng thái thần kinh chỉ qua hành vi.
 **Giải pháp** : Bắt đầu với rule-based đơn giản ở MVP, sau nâng cấp dùng ML trên dữ liệu user.
 
 
-  * **Thách thức** : Quá cá nhân hóa có thể làm user cảm thấy bị “theo dõi”.  
+  * **Thách thức** : Quá cá nhân hóa có thể làm user cảm thấy bị “theo dõi”.
 **Giải pháp** : Minh bạch (“Hệ thống đang giảm độ khó vì phát hiện bạn đang căng thẳng”) + cho phép tắt tính năng.
 
 
-  * **Thách thức** : Cân bằng giữa adaptation và progress.  
+  * **Thách thức** : Cân bằng giữa adaptation và progress.
 **Giải pháp** : Có “Training Mode” (thích ứng mạnh) và “Real Mode” (gần với đời thực, ít thích ứng).
 
 

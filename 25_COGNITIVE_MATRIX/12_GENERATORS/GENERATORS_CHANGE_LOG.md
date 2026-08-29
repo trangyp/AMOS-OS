@@ -2901,6 +2901,6 @@ GENERATORS_CHANGE_LOG.md
 That keeps the Change Log operational and auditable instead of allowing it to become a second History file or a narrative list of unsupported “updates.”
 
 ---
-**MOC:** 
+**MOC:**
 
 ```

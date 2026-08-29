@@ -6318,7 +6318,7 @@ until discriminating evidence exists.
 
 ---
 
-**MOC:** 
+**MOC:**
 
 ---
 

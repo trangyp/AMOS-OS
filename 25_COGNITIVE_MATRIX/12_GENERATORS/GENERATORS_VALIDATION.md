@@ -3161,7 +3161,7 @@ That gives `12_GENERATORS` its own validation surface without duplicating the ge
 00_ROOT_MOC|AMOS MOC
 
 ---
-**Related:**  ·  ·  · 
+**Related:**  ·  ·  ·
 
 ---
 RSCF-NODE
@@ -3169,11 +3169,11 @@ node_id: generators_validation
 node_type: note
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_VALIDATION.md
 RSCF-RELATIONS:
-  - INDEXED_BY: 
-  - INDEXED_BY: 
+  - INDEXED_BY:
+  - INDEXED_BY:
 claim_class: AMOS_MODEL
 
 ---
-**MOC:** 
+**MOC:**
 
 ```

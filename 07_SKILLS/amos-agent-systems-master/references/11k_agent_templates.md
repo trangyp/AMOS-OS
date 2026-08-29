@@ -276,11 +276,11 @@ ScopeCompatible
 ∧ Reg
 
 ---
-**MOC:** 
+**MOC:**
 
 ## Related
 
-- 
+-
 ```
 
 ---

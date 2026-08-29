@@ -65,4 +65,3 @@ class Compliance_Kernel(Kernel):
 
 ---
 **MOC:** [[KERNEL_MOC]]
-

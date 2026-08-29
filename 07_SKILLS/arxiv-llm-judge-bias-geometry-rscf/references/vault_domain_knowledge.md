@@ -389,7 +389,7 @@ structural abstraction
 rscf/P-
 
 ---
-**MOC:** 
+**MOC:**
 ```
 ---
 

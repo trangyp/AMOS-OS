@@ -435,7 +435,7 @@ Equations are preserved with their source/framework status. AMOS MODEL equations
 - **F24**: `\mathcal{D}(X)=Y; \mathrm{Valid}_dual(X)\Longleftrightarrow\math
 
 ---
-**MOC:** 
+**MOC:**
 ```
 ---
 

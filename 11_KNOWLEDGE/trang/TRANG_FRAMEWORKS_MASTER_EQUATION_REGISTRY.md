@@ -4630,8 +4630,8 @@ See:
 ```markdown
 # ASEA L/M/H
 
-L = persistent foundation  
-M = adaptive coordination  
+L = persistent foundation
+M = adaptive coordination
 H = generative exploration
 
 Invariant:

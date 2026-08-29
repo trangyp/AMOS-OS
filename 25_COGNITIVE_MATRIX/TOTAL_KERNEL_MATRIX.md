@@ -243,7 +243,7 @@ The supplied architecture contains three principal regions:
                  │                                 │
           ULK ALUs 0–5                         K_MVCC
           MURK 19×19                           K_CAS
-          QLS multi-state              
+          QLS multi-state
                  │                                 │
                  └────────────────┬────────────────┘
                                   │
@@ -2111,7 +2111,7 @@ SINGLE TRANSITION SCOPE
       │
       ▼
 MULTI-CAPSULE SCOPE
-   
+
       │
       ▼
 RECOVERY SCOPE
@@ -3806,7 +3806,7 @@ RSCF_RELATIONS:
       K_CAS
 
   - ROUTES:
-      
+
 
   - ROUTES:
       K_FAILURE_RECOVERY

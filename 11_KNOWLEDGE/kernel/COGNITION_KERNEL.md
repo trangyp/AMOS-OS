@@ -42,4 +42,3 @@ Use it only as a structural metaphor for unresolved multi-possibility states unl
 
 ---
 **MOC:** [[KERNEL_MOC]]
-

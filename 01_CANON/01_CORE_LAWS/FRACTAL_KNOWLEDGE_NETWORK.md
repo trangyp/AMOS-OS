@@ -5068,16 +5068,16 @@ proof_capsule:
 # 199. Dependency Graph
 
 ```text
-                         
+
                               |
                               v
-                    
+
                               |
                               v
-                       
+
                               |
                               v
-              
+
                      /        |         \
                     /         |          \
                    v          v           v
@@ -5373,12 +5373,12 @@ RSCF-RELATIONS:
 
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-  - CHILD_OF: 
+  - CHILD_OF:
 
   - INDEXED_BY: [[01_CANON_MOC]]
 
   - FRAMEWORK_CONTEXT:
-      
+
 ```
 
 ---

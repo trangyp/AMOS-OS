@@ -3911,7 +3911,7 @@ DECISION-RELEVANT
 
 EXPLANATORY
 ├── formal-proof status of individual invariants not established
-└── exact hierarchy position depends on 
+└── exact hierarchy position depends on
 ```
 
 These gaps MUST remain visible until resolved.

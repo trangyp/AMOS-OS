@@ -3110,13 +3110,13 @@ GOVERNANCE
 
 Conceptual references:
 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
+*
+*
+*
+*
+*
+*
+*
 
 ---
 
@@ -3332,7 +3332,7 @@ The governing invariant remains:
 
 ---
 
-**Related:**  · 
+**Related:**  ·
 
 ---
 
@@ -3340,11 +3340,11 @@ The governing invariant remains:
 
 ---
 
-**MOC:** 
+**MOC:**
 
 ---
 
-**Trang Framework:** 
+**Trang Framework:**
 
 ---
 

@@ -65,4 +65,3 @@ class Mood_Kernel(Kernel):
 
 ---
 **MOC:** [[KERNEL_MOC]]
-

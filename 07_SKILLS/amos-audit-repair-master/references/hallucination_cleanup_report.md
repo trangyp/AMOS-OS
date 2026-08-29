@@ -145,11 +145,11 @@ User correctly identified nonsensical hallucination directories:
 [TIMESTAMP] 2025-03-0
 
 ---
-**MOC:** 
+**MOC:**
 
 ## Related
 
-- 
+-
 ```
 
 ---

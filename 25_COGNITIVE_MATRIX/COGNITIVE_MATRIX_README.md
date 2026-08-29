@@ -6420,7 +6420,7 @@ OR UNIVERSAL EMPIRICAL VALIDITY
 
 ---
 
-**Related:**  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  · 
+**Related:**  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·
 
 ---
 
@@ -6440,63 +6440,63 @@ canonical_status: CANDIDATE_CANON
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: 
+* INDEXED_BY:
 
-* INDEXED_BY: 
+* INDEXED_BY:
 
-* PART_OF: 
+* PART_OF:
 
-* USES: 
+* USES:
 
-* USES: 
+* USES:
 
-* USES: 
+* USES:
 
-* USES: 
+* USES:
 
-* USES: 
+* USES:
 
-* USES: 
+* USES:
 
-* USES: 
+* USES:
 
-* USES: 
+* USES:
 
-* USES: 
+* USES:
 
-* USES: 
+* USES:
 
-* USES: 
+* USES:
 
-* USES: 
+* USES:
 
-* USES: 
+* USES:
 
-* USES: 
+* USES:
 
-* USES: 
+* USES:
 
-* RELATED_TO: 
+* RELATED_TO:
 
-* RELATED_TO: 
+* RELATED_TO:
 
-* RELATED_TO: 
+* RELATED_TO:
 
-* RELATED_TO: 
+* RELATED_TO:
 
-* RELATED_TO: 
+* RELATED_TO:
 
-* RELATED_TO: 
+* RELATED_TO:
 
-* RELATED_TO: 
+* RELATED_TO:
 
-* RELATED_TO: 
+* RELATED_TO:
 
-* LINEAGE_TARGET: 
+* LINEAGE_TARGET:
 
 ---
 
-**MOC:** 
+**MOC:**
 
 ---
 

@@ -36,9 +36,9 @@ aliases:
 ## ĐẶC TẢ HÌNH THỨC HẠT NHÂN HỆ THỐNG BẤT KHẢ QUY NGUYÊN & TOÀN VẸN LOGIC TỐI THIỂU
 ### Khung Độ Phức Tạp Kolmogorov Tối Thiểu, Loại Bỏ Dư Thừa và Bảo Toàn Cốt Lõi Hệ Thống
 
-> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS  
-> **Plane:** `02_KERNEL/01_META_LOGIC/K_IRREDUCIBLE_SYSTEMS.md`  
-> **Trạng thái:** `CANONICAL` (Nguyên Lý Tối Giản Kolmogorov)  
+> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS
+> **Plane:** `02_KERNEL/01_META_LOGIC/K_IRREDUCIBLE_SYSTEMS.md`
+> **Trạng thái:** `CANONICAL` (Nguyên Lý Tối Giản Kolmogorov)
 
 ---
 
@@ -2216,4 +2216,4 @@ Cụm nguyên tử #144 cấu thành nên các tiên đề hình thức không t
 - **MOCs Điều hướng:** [[00_HOME]] · [[00_ROOT_MOC]] · [[02_KERNEL_MOC]] · [[01_META_LOGIC_MOC]]
 
 ---
-**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS  
+**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS

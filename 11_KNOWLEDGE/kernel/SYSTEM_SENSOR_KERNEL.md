@@ -65,4 +65,3 @@ class SystemSensor_Kernel(Kernel):
 
 ---
 **MOC:** [[KERNEL_MOC]]
-

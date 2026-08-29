@@ -1,15 +1,16 @@
 Round 23 Audit Report
 ======================================================================
-Skills: 642 | Agents: 677 | Workflows: 647
+Skills: 642 | Agents: 669 | Workflows: 676
 
 
---- SKILLS (28 issues) ---
+--- SKILLS (30 issues) ---
   STUB_MARKER: amos-arxiv-multistage-order-causal-discovery-rscf — contains TODO/PLACEHOLDER
   STUB_MARKER: amos-c01-meta-logic-master — contains TODO/PLACEHOLDER
   STUB_MARKER: amos-c06-society-culture-master — contains TODO/PLACEHOLDER
   STUB_MARKER: amos-capability-resolver — contains TODO/PLACEHOLDER
   STUB_MARKER: amos-cas-canon — contains TODO/PLACEHOLDER
   STUB_MARKER: amos-distributed-causal-evolution-rscf-engine — contains TODO/PLACEHOLDER
+  STUB_MARKER: amos-fractal-systems-master — contains TODO/PLACEHOLDER
   STUB_MARKER: amos-homeostasis-canon — contains TODO/PLACEHOLDER
   STUB_MARKER: amos-identity-canon — contains TODO/PLACEHOLDER
   STUB_MARKER: amos-l0-integrity — contains TODO/PLACEHOLDER
@@ -28,6 +29,7 @@ Skills: 642 | Agents: 677 | Workflows: 647
   STUB_MARKER: amos-mode-admission-queue — contains TODO/PLACEHOLDER
   STUB_MARKER: amos-mode-placeholder-audit-2026-08-25 — contains TODO/PLACEHOLDER
   STUB_MARKER: amos-omega-quantum-stack-canon — contains TODO/PLACEHOLDER
+  STUB_MARKER: amos-rscf-epistemic-master — contains TODO/PLACEHOLDER
   STUB_MARKER: amos-skill-builder — contains TODO/PLACEHOLDER
   STUB_MARKER: amos-workflow-builder — contains TODO/PLACEHOLDER
   STUB_MARKER: arxiv-cdfm-causal-discovery-foundation-rscf — contains TODO/PLACEHOLDER
@@ -37,7 +39,79 @@ Skills: 642 | Agents: 677 | Workflows: 647
 
 --- WORKFLOWS (0 issues) ---
 
---- CROSS_REFS (0 issues) ---
+--- CROSS_REFS (72 issues) ---
+  MISSING_AGENT_FOR_SKILL: a2a-protocol — no agent 'a2a-protocol-agent'
+  MISSING_AGENT_FOR_SKILL: agent-network-protocol — no agent 'agent-network-protocol-agent'
+  MISSING_AGENT_FOR_SKILL: agent-registry — no agent 'agent-registry-agent'
+  MISSING_AGENT_FOR_SKILL: agents-json — no agent 'agents-json-agent'
+  MISSING_AGENT_FOR_SKILL: arxiv-activation-checkpointing-rscf — no agent 'arxiv-activation-checkpointing-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: arxiv-anytime-pac-bayes-density-ratio-rscf — no agent 'arxiv-anytime-pac-bayes-density-ratio-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: arxiv-autosota-research-automation-rscf — no agent 'arxiv-autosota-research-automation-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: arxiv-cdfm-causal-discovery-foundation-rscf — no agent 'arxiv-cdfm-causal-discovery-foundation-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: arxiv-constrained-structured-decoding-rscf — no agent 'arxiv-constrained-structured-decoding-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: arxiv-data-mixture-optimization-rscf — no agent 'arxiv-data-mixture-optimization-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: arxiv-flash-attention-io-rscf — no agent 'arxiv-flash-attention-io-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: arxiv-flow-matching-generative-rscf — no agent 'arxiv-flow-matching-generative-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: arxiv-future-confidence-distillation-rscf — no agent 'arxiv-future-confidence-distillation-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: arxiv-geometric-causal-models-rscf — no agent 'arxiv-geometric-causal-models-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: arxiv-grapheval-reasoning-coherence-rscf — no agent 'arxiv-grapheval-reasoning-coherence-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: arxiv-grouped-query-attention-rscf — no agent 'arxiv-grouped-query-attention-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: arxiv-grpo-reasoning-policy-rscf — no agent 'arxiv-grpo-reasoning-policy-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: arxiv-kv-cache-quantization-rscf — no agent 'arxiv-kv-cache-quantization-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: arxiv-llm-judge-bias-geometry-rscf — no agent 'arxiv-llm-judge-bias-geometry-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: arxiv-long-context-rope-scaling-rscf — no agent 'arxiv-long-context-rope-scaling-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: arxiv-manifold-constrained-conformal-spatial-rscf — no agent 'arxiv-manifold-constrained-conformal-spatial-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: arxiv-mixture-of-depths-rscf — no agent 'arxiv-mixture-of-depths-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: arxiv-pac-bayes-piml-generalization-rscf — no agent 'arxiv-pac-bayes-piml-generalization-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: arxiv-rag-evaluation-rscf — no agent 'arxiv-rag-evaluation-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: arxiv-rscf-compiler — no agent 'arxiv-rscf-compiler-agent'
+  MISSING_AGENT_FOR_SKILL: arxiv-selective-state-space-rscf — no agent 'arxiv-selective-state-space-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: arxiv-sparse-attention-scaling-rscf — no agent 'arxiv-sparse-attention-scaling-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: arxiv-streaming-attention-sinks-rscf — no agent 'arxiv-streaming-attention-sinks-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: arxiv-structured-gp-omics-uq-rscf — no agent 'arxiv-structured-gp-omics-uq-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: arxiv-test-time-compute-scaling-rscf — no agent 'arxiv-test-time-compute-scaling-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: arxiv-test-time-training-rscf — no agent 'arxiv-test-time-training-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: bluebook-strategy-system — no agent 'bluebook-strategy-system-agent'
+  MISSING_AGENT_FOR_SKILL: cosmo-human-problem-architecture — no agent 'cosmo-human-problem-architecture-agent'
+  MISSING_AGENT_FOR_SKILL: docx — no agent 'docx-agent'
+  MISSING_AGENT_FOR_SKILL: executive-deck-decision-system — no agent 'executive-deck-decision-system-agent'
+  MISSING_AGENT_FOR_SKILL: frontend-engineering-qa — no agent 'frontend-engineering-qa-agent'
+  MISSING_AGENT_FOR_SKILL: gmef-governance — no agent 'gmef-governance-agent'
+  MISSING_AGENT_FOR_SKILL: kimi-k3-in-c — no agent 'kimi-k3-in-c-agent'
+  MISSING_AGENT_FOR_SKILL: linenum — no agent 'linenum-agent'
+  MISSING_AGENT_FOR_SKILL: mckinsey-architecture-reference-transfer-rscf — no agent 'mckinsey-architecture-reference-transfer-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: mckinsey-banking-crm-assessment-rscf — no agent 'mckinsey-banking-crm-assessment-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: mckinsey-commercial-due-diligence-rscf — no agent 'mckinsey-commercial-due-diligence-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: mckinsey-credit-lending-rscf — no agent 'mckinsey-credit-lending-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: mckinsey-customer-journey-planning-rscf — no agent 'mckinsey-customer-journey-planning-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: mckinsey-designops-agile-transformation-rscf — no agent 'mckinsey-designops-agile-transformation-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: mckinsey-digital-bank-value-proposition-rscf — no agent 'mckinsey-digital-bank-value-proposition-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: mckinsey-digital-strategy-rscf — no agent 'mckinsey-digital-strategy-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: mckinsey-enterprise-data-transformation-rscf — no agent 'mckinsey-enterprise-data-transformation-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: mckinsey-framework-navigator — no agent 'mckinsey-framework-navigator-agent'
+  MISSING_AGENT_FOR_SKILL: mckinsey-healthcare-strategy-rscf — no agent 'mckinsey-healthcare-strategy-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: mckinsey-human-centered-design-rscf — no agent 'mckinsey-human-centered-design-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: mckinsey-partnership-ecosystem-strategy-rscf — no agent 'mckinsey-partnership-ecosystem-strategy-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: mckinsey-public-sector-transformation-rscf — no agent 'mckinsey-public-sector-transformation-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: mckinsey-purpose-impact-rscf — no agent 'mckinsey-purpose-impact-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: mckinsey-recruiting-workforce-acquisition-rscf — no agent 'mckinsey-recruiting-workforce-acquisition-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: mckinsey-strategy-portfolio-engine — no agent 'mckinsey-strategy-portfolio-engine-agent'
+  MISSING_AGENT_FOR_SKILL: mckinsey-technology-company-strategy-rscf — no agent 'mckinsey-technology-company-strategy-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: mckinsey-technology-product-governance-rscf — no agent 'mckinsey-technology-product-governance-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: mckinsey-technology-sales-excellence-rscf — no agent 'mckinsey-technology-sales-excellence-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: mckinsey-transaction-banking-diagnostic-rscf — no agent 'mckinsey-transaction-banking-diagnostic-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: mckinsey-transformation-org-structure-rscf — no agent 'mckinsey-transformation-org-structure-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: mckinsey-value-delivery-rscf — no agent 'mckinsey-value-delivery-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: mckinsey-wealth-management-rscf — no agent 'mckinsey-wealth-management-rscf-agent'
+  MISSING_AGENT_FOR_SKILL: obsidian-plugin-auto-tag — no agent 'obsidian-plugin-auto-tag-agent'
+  MISSING_AGENT_FOR_SKILL: pdfs — no agent 'pdfs-agent'
+  MISSING_AGENT_FOR_SKILL: peass-ng — no agent 'peass-ng-agent'
+  MISSING_AGENT_FOR_SKILL: rscf-modeler — no agent 'rscf-modeler-agent'
+  MISSING_AGENT_FOR_SKILL: skill-check — no agent 'skill-check-agent'
+  MISSING_AGENT_FOR_SKILL: skill-creator — no agent 'skill-creator-agent'
+  MISSING_AGENT_FOR_SKILL: slides — no agent 'slides-agent'
+  MISSING_AGENT_FOR_SKILL: software-engineering-qa — no agent 'software-engineering-qa-agent'
+  MISSING_AGENT_FOR_SKILL: spreadsheets — no agent 'spreadsheets-agent'
 
 ======================================================================
-TOTAL ISSUES: 28
+TOTAL ISSUES: 102

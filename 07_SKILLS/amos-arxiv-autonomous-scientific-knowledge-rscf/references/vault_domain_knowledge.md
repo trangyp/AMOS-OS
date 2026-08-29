@@ -232,11 +232,11 @@ BAD: 80-90% of vagal fibers travel Body → Brain
 GOOD: Approximately 80% of the ~100,000 vag
 
 ---
-**MOC:** 
+**MOC:**
 
 ## Related
 
-- 
+-
 ```
 
 ---

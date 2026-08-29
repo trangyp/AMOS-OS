@@ -80,8 +80,8 @@ AI sinh ra câu trả lời có vẻ hợp lý nhưng thực tế sai, bịa ra 
 ### 2.1. Điều kiện nền tảng
 **Điều kiện 1 (Tương đương logic -- > Tương đương đầu ra):**
 Ký hiệu dạng văn bản:
-Với mọi Input1 và Input2:  
-Nếu LogicalEquiv(Input1, Input2) bằng TRUE  
+Với mọi Input1 và Input2:
+Nếu LogicalEquiv(Input1, Input2) bằng TRUE
 Thì Output1 == Output2
 Trong đó LogicalEquiv có nghĩa là "tương đương về mặt logic" – hai biểu diễn khác nhau của cùng một mệnh đề.
 **Ví dụ:**
@@ -149,11 +149,11 @@ Nghĩa là: cùng nội dung logic --> cùng kết luận. Không có ngoại l�
 Một kết luận c được coi là "đủ tin cậy" (Tát 2 đạt) nếu và chỉ nếu:
 có ít nhất hai đường dẫn suy luận độc lập từ tập tiền đề P đến c.
 Ký hiệu dạng văn bản:
-T2(c) = TRUE  
-nếu và chỉ nếu  
-tồn tại Path1, Path2 sao cho  
-Path1 khác Path2  
-và P |-_Path1 c  
+T2(c) = TRUE
+nếu và chỉ nếu
+tồn tại Path1, Path2 sao cho
+Path1 khác Path2
+và P |-_Path1 c
 và P |-_Path2 c
 **Quy tắc xuất:**
   * Nếu T2(c) = TRUE -> Có thể xuất ra với mức độ tin cậy "cao"
@@ -193,38 +193,38 @@ và P |-_Path2 c
 * * *
 ## 4\. KIẾN TRÚC CỤ THỂ
 ### 4.1. Sơ đồ tổng thể (dạng văn bản)
-[Đầu vào] (ngôn ngữ tự nhiên hoặc ký hiệu)  
-|  
-v  
-[1. Lexer & Parser]  
-|  
-v  
-[Cây cú pháp trừu tượng - AST]  
-|  
-v  
-[2. Logical Normalizer]  
-|  
-v  
-[Biểu diễn trung gian (dạng chuẩn)]  
-|  
-v  
-[3. Premise Manager] <\--> [4. Inference Engine]  
-| |  
-v v  
-[Tập tiền đề] [Tập kết luận + chứng minh]  
-| |  
-+----------+------------+  
-|  
-v  
-[5. T2 Validator]  
-|  
-v  
-[Kết luận đã được xác nhận]  
-|  
-v  
-[6. Output Formatter]  
-|  
-v  
+[Đầu vào] (ngôn ngữ tự nhiên hoặc ký hiệu)
+|
+v
+[1. Lexer & Parser]
+|
+v
+[Cây cú pháp trừu tượng - AST]
+|
+v
+[2. Logical Normalizer]
+|
+v
+[Biểu diễn trung gian (dạng chuẩn)]
+|
+v
+[3. Premise Manager] <\--> [4. Inference Engine]
+| |
+v v
+[Tập tiền đề] [Tập kết luận + chứng minh]
+| |
++----------+------------+
+|
+v
+[5. T2 Validator]
+|
+v
+[Kết luận đã được xác nhận]
+|
+v
+[6. Output Formatter]
+|
+v
 [Đầu ra] (ngôn ngữ tự nhiên hoặc ký hiệu)
 ### 4.2. Thành phần 1: Lexer & Parser
 **Chức năng:** Đọc đầu vào, nhận diện token, xây dựng cây cú pháp trừu tượng.
@@ -307,7 +307,7 @@ v
 ### 4.6. Thành phần 5: T2 Validator
 **Chức năng:** Kiểm tra kết luận có ít nhất hai đường dẫn suy luận độc lập không.
 **Thuật toán cơ bản:**
-Đầu vào: kết luận c, tập các chứng minh  
+Đầu vào: kết luận c, tập các chứng minh
 Đầu ra: TRUE/FALSE
 Các bước:
   1. paths = danh sách tất cả các đường dẫn dẫn đến c
@@ -316,8 +316,8 @@ Các bước:
   2. Nếu số paths < 2: trả về FALSE
 
 
-  3. Với mỗi cặp (path_i, path_j) với i khác j:  
-Nếu path_i và path_j độc lập (không chung mệnh đề trung gian):  
+  3. Với mỗi cặp (path_i, path_j) với i khác j:
+Nếu path_i và path_j độc lập (không chung mệnh đề trung gian):
 trả về TRUE
 
 
@@ -337,19 +337,19 @@ trả về TRUE
 * * *
 ## 5\. VÍ DỤ CỤ THỂ
 ### 5.1. Ví dụ 1: Suy luận bắc cầu đơn giản
-**Đầu vào (tiếng Việt):**  
+**Đầu vào (tiếng Việt):**
 "A lớn hơn B. B lớn hơn C. Hỏi A có lớn hơn C không?"
 **Các bước xử lý:**
-Bước 1: Lexer & Parser  
+Bước 1: Lexer & Parser
 \--> AST: lớn_hơn(A,B) và lớn_hơn(B,C) -> hỏi lớn_hơn(A,C)
-Bước 2: Logical Normalizer  
+Bước 2: Logical Normalizer
 \--> Dạng chuẩn: { lớn_hơn(A,B), lớn_hơn(B,C) } |- lớn_hơn(A,C)
-Bước 3+4: Premise Manager + Inference Engine  
-\--> Áp dụng bắc cầu: có kết luận lớn_hơn(A,C)  
+Bước 3+4: Premise Manager + Inference Engine
+\--> Áp dụng bắc cầu: có kết luận lớn_hơn(A,C)
 \--> Chứng minh: [lớn_hơn(A,B) và lớn_hơn(B,C)] -> lớn_hơn(A,C) [via bắc cầu]
-Bước 5: T2 Validator  
+Bước 5: T2 Validator
 \--> Chỉ có một đường dẫn (bắc cầu) -> không đạt Tát 2
-Bước 6: Output Formatter  
+Bước 6: Output Formatter
 \--> "Có, A lớn hơn C (lưu ý: kết luận này chỉ có một đường dẫn suy luận, cần kiểm tra thêm nếu yêu cầu độ chắc chắn cao)"
 ### 5.2. Ví dụ 2: Cùng nội dung logic, khác ngôn ngữ
 **Bốn đầu vào khác nhau:**
@@ -357,8 +357,8 @@ Bước 6: Output Formatter
 (2) "The road is slippery if it rains. It is raining. Is the road slippery?"
 (3) "(Rain -> Slippery), Rain |- Slippery ?"
 (4) "neu troi mua thi duong tron troi dang mua vay duong tron" (thiếu dấu)
-**Sau Logical Normalizer:**  
-Cả bốn đều cho cùng biểu diễn trung gian:  
+**Sau Logical Normalizer:**
+Cả bốn đều cho cùng biểu diễn trung gian:
 { (Rain -> Slippery), Rain } |- Slippery
 **Kết luận của LDAI:** giống hệt nhau cho cả bốn đầu vào (có thể khác ngôn ngữ xuất, nhưng nội dung logic giống)
 ### 5.3. Ví dụ 3: Phát hiện mâu thuẫn
@@ -371,15 +371,15 @@ Kết quả: Q và không Q cùng được suy ra -> mâu thuẫn
 * * *
 ## 6\. TÍNH CHẤT ĐẢM BẢO
 ### 6.1. Tính xác định
-**Định lý 1 (Xác định luận lý):**  
+**Định lý 1 (Xác định luận lý):**
 Với cùng một biểu diễn trung gian sau L, bộ suy luận I sinh ra cùng một tập kết luận.
 **Chứng minh:** I là một hàm số (không có thành phần xác suất). Các quy tắc trong R là xác định. Do đó, đầu ra chỉ phụ thuộc vào đầu vào là biểu diễn trung gian.
 ### 6.2. Không hallucination
-**Định lý 2 (Không hallucination):**  
+**Định lý 2 (Không hallucination):**
 Nếu một kết luận c được xuất ra bởi I, thì P |-_R c (có chứng minh hợp lệ từ tiền đề).
 **Chứng minh:** I chỉ sinh ra kết luận bằng cách áp dụng các quy tắc trong R. Mọi quy tắc trong R đều bảo toàn tính hợp lệ. Do đó, nếu tiền đề P đúng, thì kết luận cũng đúng. Nếu tiền đề không đủ, I không thể sinh ra kết luận.
 ### 6.3. Phát hiện mâu thuẫn
-**Định lý 3 (Phát hiện mâu thuẫn):**  
+**Định lý 3 (Phát hiện mâu thuẫn):**
 Nếu tồn tại p sao cho P |- p và P |- (không p), thì Premise Manager phát hiện và báo lỗi "hệ tiền đề không nhất quán".
 **Chứng minh:** Inference Engine sinh ra cả p và không p. Premise Manager kiểm tra và thấy mâu thuẫn.
 ### 6.4. Tát 2 và độ tin cậy

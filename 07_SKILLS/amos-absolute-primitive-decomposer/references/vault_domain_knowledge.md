@@ -243,11 +243,11 @@ This model is invoked by the `amos-canon-integration-layer` and the `amos-reason
 ---
 
 ---
-**MOC:** 
+**MOC:**
 
 ## Related
 
-- 
+-
 ```
 
 ---

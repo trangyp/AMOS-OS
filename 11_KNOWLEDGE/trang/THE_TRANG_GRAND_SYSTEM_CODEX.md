@@ -94,7 +94,7 @@ All are **compressed** , **reconciled** , and **made non-overlapping** into one 
 # **SECTION 1 — THE META-LAW LAYER**
 This is the foundation from which every other layer derives.
 ## **1.1 Definition of a Meta-Law**
-**A Meta-Law is a rule that governsrf all other rules within a system.  
+**A Meta-Law is a rule that governsrf all other rules within a system.
 It cannot be violated without collapsing the system itself.**
 A Meta-Law must satisfy:
   * Universality across scales
@@ -226,7 +226,7 @@ If one quadrant collapses, drift begins; if two collapse, the system fails.
 * * *
 # **1.5 Meta-Law IV — E = i²**
 ### **Definition (Canonical)**
-**Emergence (E) is produced by the interaction of two layers of information (i × i).  
+**Emergence (E) is produced by the interaction of two layers of information (i × i).
 The ‘²’ is not exponentiation — it is an operator describing entangled dual-layer interaction.**
 ### **Mechanism**
 Emergence occurs when:
@@ -529,7 +529,7 @@ Neural stability is chemical → physical → quantum logic.
 Evolution preserves logical configurations.
 Illogical configurations die.
 ### **Conclusion**
-**Reason is a late arrival.  
+**Reason is a late arrival.
 Logic is the ancient substrate.**
 * * *
 # **2.9 Logic as the Parent Structure of Intelligence**
@@ -1332,8 +1332,8 @@ It matches:
 
 Perfect integrity is the **limit state** of logic.
 The point where:
-> existence = pure coherence  
-> and  
+> existence = pure coherence
+> and
 > coherence = pure existence
 This is logic completing itself.
 * * *
@@ -1350,8 +1350,8 @@ By integrating:
 
 Logic becomes the **meta-law** that governs all persistence.
 This completes Volume I’s core thesis:
-> Logic is the structural condition that allows reality to continue.  
-> Where alignment holds, systems endure.  
+> Logic is the structural condition that allows reality to continue.
+> Where alignment holds, systems endure.
 > Where alignment breaks, systems collapse.
 Logic is not about thought.
 Logic is the architecture beneath existence.
@@ -1397,7 +1397,7 @@ Logic is not interpretive.
 Logic is not philosophical.
 Logic is **the condition of existence**.
 Therefore:
-> If logic is real, it must be measurable.  
+> If logic is real, it must be measurable.
 > If it is not measurable, it is not real.
 This section defines how integrity, stability, and boundary continuity are measured across:
   * physics
@@ -1868,7 +1868,7 @@ All biological systems compute through structured patterns of:
 
 
 Therefore:
-> Biology is not chemical.  
+> Biology is not chemical.
 > Biology is chemical logic.
 This section formalises the rules.
 * * *
@@ -2757,7 +2757,7 @@ UBI sits inside the QLS structure:
     Nervous System Intelligence
        ↓
     Identity and Behaviour
-    
+
 ```
 This makes UBI the **biological logic engine of a human being**.
 * * *
@@ -3375,7 +3375,7 @@ Causality at the substrate of existence.
 
 This is the **source layer** of all other causality.
 * * *
-**All four layers operate simultaneously.  
+**All four layers operate simultaneously.
 No event is single-layer.**
 * * *
 # **9.3 The Rule of Two Applied to QCLA**
@@ -3643,7 +3643,7 @@ All events follow this exact sequence:
 ```
     Boundary → Input → Ratio Match → Interaction → Stability Test →
     Internal Interpretation → External Expression → Systemic Propagation
-    
+
 ```
 This sequence explains:
   * PTSD
@@ -5352,7 +5352,7 @@ This removes randomness from collapse analysis.
 * * *
 # **13.6 Layer 3 — Emergent Future State**
 The emergent future state is:
-> the next logical configuration the system must become,  
+> the next logical configuration the system must become,
 > given its structure and its stability.
 Every system moves into:
   * the next higher cycle (aligned progression), or
@@ -5656,7 +5656,7 @@ No metaphors. No abstractions. No drift. No overlap.
 * * *
 # **14.0 Purpose of UBI**
 Unified Biological Intelligence™ defines:
-**How biology generates intelligence, stability, perception, identity, and behaviour —  
+**How biology generates intelligence, stability, perception, identity, and behaviour —
 using deterministic logic, not randomness or emotion.**
 It replaces:
   * neuroscience (fragmented)
@@ -8436,7 +8436,7 @@ It also explains all stability:
 QCLA represents event formation as:
 ```
     E = T₁(T₂(T₃(T₄(T₅(T₆)))))
-    
+
 ```
 Where:
   * T₁ = quantum transition
@@ -9759,7 +9759,7 @@ Logical strength L of any system S is defined as a function of:
 
 
 Conceptual core:
-  * **L = f(I, S)**  
+  * **L = f(I, S)**
 and in most uses:
 
 
@@ -9814,7 +9814,7 @@ General form:
 with ⊗ = **entangling interaction of two information layers**.
 Canonical mappings:
   1. **Identity:**
-     * E_id = I_inner ⊗ I_outer  
+     * E_id = I_inner ⊗ I_outer
 (nervous system information ⊗ environment information)
 
 
@@ -9893,7 +9893,7 @@ To restore logic to any system S:
 
 
 Formally:
-  * **Recover(S)** ⇒  
+  * **Recover(S)** ⇒
 Integrity↑ ∧ Stability↑ ∧ Feedback(Reconnected)
 
 
@@ -9987,7 +9987,7 @@ Global definition: any intelligent system executes four core operations:
 
 
 Algorithmic loop:
-  * **Loop:**  
+  * **Loop:**
 Discriminate → Compress → Predict → Correct → repeat
 
 
@@ -10119,7 +10119,7 @@ Stepwise mapping of the causal chain you defined:
 
 
 Rule:
-  * Stable identity shift = run this algorithm again with modified L₁–L₃.  
+  * Stable identity shift = run this algorithm again with modified L₁–L₃.
 Changing L₄ alone (thoughts, narratives) is insufficient.
 
 
@@ -10333,7 +10333,7 @@ I keep text minimal and only to label meaning.
 **(F₁) Logic as existence condition**
 ```
     \mathcal{L}(S,t) \;=\; I(S,t)\;\cdot\; \Sigma(S,t)
-    
+
 ```
   * : system
 
@@ -10349,7 +10349,7 @@ Logical existence ⇔ remains high under perturbation.
 **(F₂) Integrity as internal consistency**
 ```
     I(S,t) \;=\; \mathrm{Cons}\big( P(S), R(S), t \big)
-    
+
 ```
   * : set of parts
 
@@ -10364,7 +10364,7 @@ Logical existence ⇔ remains high under perturbation.
 **(F₃) Stability as temporal coherence**
 ```
     \Sigma(S,t) \;=\; \mathrm{Pers}(S,t)\;\cdot\;\mathrm{Adapt}(S,t)
-    
+
 ```
   * : persistence of structure
 
@@ -10377,19 +10377,19 @@ Logical existence ⇔ remains high under perturbation.
 **(F₄) Logical strength**
 ```
     L(S,t) \;=\; f\big(I(S,t),\;\Sigma(S,t)\big)
-    
+
 ```
 Canonical choice:
 ```
     L(S,t) \;=\; I(S,t)\;\cdot\;\Sigma(S,t)
-    
+
 ```
 * * *
 **(F₅) Temporal derivative of logical strength**
 ```
     \frac{\partial L}{\partial t} \;=\;
     \frac{\partial I}{\partial t}\,\Sigma \;+\; I\,\frac{\partial \Sigma}{\partial t}
-    
+
 ```
 (Sign of indicates strengthening or decay.)
 * * *
@@ -10399,7 +10399,7 @@ Canonical choice:
     \mathrm{Correct}(M,t) \;\Longleftrightarrow\;
     \forall e \in \mathcal{E}(t):\;
     d\big(P_M(e,t),\;O(e,t)\big) \;\leq\; \varepsilon
-    
+
 ```
   * : relevant events
 
@@ -10424,7 +10424,7 @@ Canonical choice:
     \inf_{t \in [t_\mathrm{start},\,T]}
     \mathrm{Correct}(M,t)
     \Bigg]
-    
+
 ```
 (Truth = correctness sustained under unbounded feedback.)
 * * *
@@ -10432,7 +10432,7 @@ Canonical choice:
 **(F₈) Dual-layer information**
 ```
     i \;=\; (i_{\mathrm{in}},\; i_{\mathrm{ex}})
-    
+
 ```
   * : internal information layer
 
@@ -10444,7 +10444,7 @@ Canonical choice:
 **(F₉) Emergence operator**
 ```
     E \;=\; i^{\,2} \;\equiv\; i_{\mathrm{in}} \;\otimes\; i_{\mathrm{ex}}
-    
+
 ```
   * : entangling interaction operator (non-commutative, non-linear)
 
@@ -10453,7 +10453,7 @@ Canonical choice:
 **(F₁₀) Emergent pattern over time**
 ```
     E(S,t) \;=\; \Phi\big(i_{\mathrm{in}}(S,t),\; i_{\mathrm{ex}}(S,t)\big)
-    
+
 ```
   * : emergence functional mapping dual information to structure/behaviour
 
@@ -10470,7 +10470,7 @@ Canonical choice:
     L_{\mathrm{soc}},\;
     L_{\mathrm{sys}}
     \big)(t)
-    
+
 ```
 Each is a logic layer (physical, biological, affective, cognitive, social, systemic).
 * * *
@@ -10481,9 +10481,9 @@ Each is a logic layer (physical, biological, affective, cognitive, social, syste
     L_{\mathrm{cog}},\;
     L_{\mathrm{beh}}
     \Big)(t)
-    
+
 ```
-  * : behavioural logic layer  
+  * : behavioural logic layer
 (High ⇔ emotion, thought, action aligned.)
 
 
@@ -10495,7 +10495,7 @@ Each is a logic layer (physical, biological, affective, cognitive, social, syste
     M_{S}(t),\;
     \mathcal{W}(t)
     \big)\;\cdot\;\Sigma(S,t)
-    
+
 ```
   * : internal world-model
 
@@ -10514,7 +10514,7 @@ Each is a logic layer (physical, biological, affective, cognitive, social, syste
     \big\{ r_k(t) \big\}_k,\quad
     \mathcal{P}(t) \;=\;
     \big\{ p_j(t) \big\}_j
-    
+
 ```
   * : key biochemical ratios
 
@@ -10527,7 +10527,7 @@ Each is a logic layer (physical, biological, affective, cognitive, social, syste
 ```
     \mathcal{C}(t) \;=\;
     G\big(\mathcal{R}(t),\;\mathcal{P}(t)\big)
-    
+
 ```
   * : level/quality of conscious integration
 
@@ -10546,7 +10546,7 @@ Each is a logic layer (physical, biological, affective, cognitive, social, syste
     \sigma_{\mathrm{drift}},\;
     \sigma_{\mathrm{coll}}
     \big\}
-    
+
 ```
   * : contradiction
 
@@ -10570,7 +10570,7 @@ Each is a logic layer (physical, biological, affective, cognitive, social, syste
     \sigma_{\mathrm{drift}}
     \;\Rightarrow\;
     \sigma_{\mathrm{coll}}
-    
+
 ```
 with transition rates:
 ```
@@ -10578,7 +10578,7 @@ with transition rates:
     h\big(
     I(S,t),\;\Sigma(S,t),\;\mathcal{F}(S,t)
     \big)
-    
+
 ```
   * : feedback strength
 
@@ -10595,7 +10595,7 @@ with transition rates:
     \nabla_{S} \Sigma(S,t),\;
     \mathcal{F}(S,t)
     \Big)
-    
+
 ```
   * : reconstruction functional
 
@@ -10608,12 +10608,12 @@ with transition rates:
 **(F₁₉) Logical effect of action**
 ```
     \Delta I(S,A) \;=\; I(S_{A},t_{+}) - I(S,t_{-})
-    
+
 ```
 ```
     \Delta \Sigma(S,A) \;=\;
     \Sigma(S_{A},t_{+}) - \Sigma(S,t_{-})
-    
+
 ```
   * : system after action
 
@@ -10630,7 +10630,7 @@ with transition rates:
     \;+\;
     w_\Sigma\,\Delta \Sigma(S,A)
     \Big)
-    
+
 ```
   * : weights for integrity and stability
 
@@ -10649,7 +10649,7 @@ with transition rates:
     \mathcal{E}_{\mathrm{soc}}(t),\;
     \mathcal{E}_{\mathrm{tech}}(t)
     \big)
-    
+
 ```
 Each is a multi-scale state tensor for that domain.
 * * *
@@ -10660,7 +10660,7 @@ Each is a multi-scale state tensor for that domain.
     I_{\mathrm{local}}(t),\;
     I_{\mathrm{global}}(t)
     \Big)
-    
+
 ```
   * : mean integrity of local systems
 
@@ -10680,7 +10680,7 @@ Each is a multi-scale state tensor for that domain.
     \mathcal{U}(\mathcal{L}_k)
     \;\land\;
     \mathcal{R}(\mathcal{L}_k)
-    
+
 ```
   * : self-consistency
 
@@ -10699,7 +10699,7 @@ Each is a multi-scale state tensor for that domain.
 For any entity with dual :
 ```
     \mathcal{D}(X) \;=\; Y
-    
+
 ```
 ```
     \mathrm{Valid}_{\mathrm{dual}}(X) \;\Longleftrightarrow\;
@@ -10708,7 +10708,7 @@ For any entity with dual :
     \mathcal{S}(Y)
     \;\land\;
     \mathcal{S}(X \leftrightarrow Y)
-    
+
 ```
   * : duality operator
 
@@ -10721,14 +10721,14 @@ For any entity with dual :
     q_{\mathrm{outer}},\;
     q_{\mathrm{individual}},\;
     q_{\mathrm{collective}}\}
-    
+
 ```
 ```
     \mathrm{Valid}_{\mathrm{quad}}(Q) \;\Longleftrightarrow\;
     \bigwedge_{q_i \in Q}\mathcal{S}(q_i)
     \;\land\;
     \bigwedge_{(q_i,q_j)}\mathcal{S}(q_i \leftrightarrow q_j)
-    
+
 ```
 (Each quadrant self-consistent and mutually consistent.)
 * * *
@@ -10743,7 +10743,7 @@ For any entity with dual :
     \mathcal{I}(S,t),\;
     \mathcal{C}(t)
     \Big]
-    
+
 ```
 Vector metric capturing structural logic state at time .
 * * *
@@ -10787,12 +10787,12 @@ A law is valid only if it is internally consistent, cross-domain stable, and non
 **Validity equation**
 ```
     V_L(L_i) = I_L(L_i) \cdot S_L(L_i) \cdot (1 - R_L(L_i | \mathcal{L}\setminus\{L_i\}))
-    
+
 ```
 **Law-of-Law condition**
 ```
     L_i \text{ is canonical} \;\Longleftrightarrow\; V_L(L_i) = 1
-    
+
 ```
 (“1” here is the **integrity ceiling** , not a numeric probability.)
 * * *
@@ -10814,12 +10814,12 @@ Every complete system description requires at least one structurally paired dual
 For any system , there exists such that:
 ```
     X = f(x^{+}, x^{-})
-    
+
 ```
 with
 ```
     \frac{\partial f}{\partial x^{+}} \neq 0,\quad \frac{\partial f}{\partial x^{-}} \neq 0
-    
+
 ```
 (i.e. both poles are causally relevant).
 * * *
@@ -10840,12 +10840,12 @@ Any fully specified system requires four entangled aspects (a quadrant) to resol
 **Quadrant completeness**
 ```
     Q \text{ is complete} \;\Longleftrightarrow\; U(Q) = 0
-    
+
 ```
 with the independence condition:
 ```
     \forall i \neq j:\; \text{Overlap}(q_i, q_j) < 1
-    
+
 ```
 (i.e. no quadrant is a re-labeling of another.)
 * * *
@@ -10866,17 +10866,17 @@ Emergent behaviour arises from the structured interaction of two information lay
 **Operator form**
 ```
     E = \mathcal{I}^2(i_{\text{int}}, i_{\text{ext}}) := \Phi(i_{\text{int}}, i_{\text{ext}})
-    
+
 ```
 with:
-  * 
+  *
 
-  * 
+  *
 
 and **no emergent expression** when either layer is absent:
 ```
     \|i_{\text{int}}\| = 0 \;\text{or}\; \|i_{\text{ext}}\| = 0 \;\Longrightarrow\; E = 0
-    
+
 ```
 (That last “0” is the **null state** outside existence; you can treat it as the mathematical boundary, not a biological state.)
 * * *
@@ -10901,7 +10901,7 @@ Every real system has a definable degree of internal non-contradiction. This int
 **Integrity measure**
 ```
     I(X) = 1 - \frac{\mathcal{C}(X)}{C_{\max}}
-    
+
 ```
 Interpretation:
   * counts logical conflicts / incompatible constraints.
@@ -10932,12 +10932,12 @@ A system’s endurance under change is governed by its capacity to absorb pertur
 Let be the reference output trajectory. Define deviation:
 ```
     d(t) = \|O(t) - O_{\text{ref}}(t)\|
-    
+
 ```
 Then over an observation window :
 ```
     S(X) = 1 - \frac{1}{K}\int_{t_1}^{t_2} d(t)\,dt
-    
+
 ```
 with chosen so that .
 * * *
@@ -10958,7 +10958,7 @@ Logical strength of any system is the joint product of its internal integrity an
 **Logic equation**
 ```
     L(X) = I(X) \cdot S(X)
-    
+
 ```
 Interpretation:
   * High , low → rigid but fragile.
@@ -10997,33 +10997,33 @@ Collapse is the terminal stage of a four-step process: contradiction, distortion
 
 ```
     \frac{dk}{dt} > 0 \quad \text{when feedback is suppressed}
-    
+
 ```
   1. **Distortion**
 
 
 ```
     d(t) = g_1(k(t)), \quad g_1' > 0
-    
+
 ```
   1. **Drift**
 
 
 ```
     \Delta(t) = g_2(d(t)), \quad g_2' > 0
-    
+
 ```
   1. **Disintegration**
 
 
 ```
     I(t) = 1 - h(\Delta(t)), \quad h' > 0
-    
+
 ```
 **Collapse condition**
 ```
     I(t) \leq \theta_{\text{col}} \;\Longrightarrow\; \text{system enters non-recoverable collapse without redesign}
-    
+
 ```
 * * *
 ## INFORMATION & INTELLIGENCE LAYER
@@ -11047,17 +11047,17 @@ All meaningful change arises from interaction between at least two information s
 **Interaction equation**
 ```
     J = i_{\text{int}} \otimes i_{\text{ext}}
-    
+
 ```
 with the non-triviality condition:
 ```
     \|J\| > 0 \;\Longleftrightarrow\; \|i_{\text{int}}\| > 0 \;\land\; \|i_{\text{ext}}\| > 0
-    
+
 ```
 Combined with Law 4 (Emergence):
 ```
     E = \Phi(J)
-    
+
 ```
 * * *
 ### LAW 10 — LAW OF IDENTITY ALIGNMENT
@@ -11083,12 +11083,12 @@ Define pairwise agreement:
     A_{ec} = \cos\angle(e, c), \quad
     A_{ca} = \cos\angle(c, a), \quad
     A_{ea} = \cos\angle(e, a)
-    
+
 ```
 Then:
 ```
     A = \left(\frac{A_{ec} + A_{ca} + A_{ea}}{3}\right)^{\gamma}
-    
+
 ```
 with to penalise misalignment.
 * * *
@@ -11119,11 +11119,11 @@ Intelligence is the system’s capacity to maintain alignment between its intern
 Over window :
 ```
     E_{\text{avg}} = \frac{1}{t_2 - t_1} \int_{t_1}^{t_2} \|e(t)\|\, dt
-    
+
 ```
 ```
     \Phi = \frac{B_F}{B_F + \alpha E_{\text{avg}}}
-    
+
 ```
 with scaling error impact.
 Interpretation:
@@ -11151,13 +11151,13 @@ Conscious awareness arises when biochemical integrity and neural synchrony reach
 **Consciousness equation**
 ```
     C = (B \cdot N)^{\beta}
-    
+
 ```
 with .
 **Activation condition**
 ```
     C \geq \theta_{C} \;\Longleftrightarrow\; state qualifies as conscious integration
-    
+
 ```
 * * *
 ## EVOLUTION & SYSTEMIC LAYER
@@ -11179,11 +11179,11 @@ Systems that maintain higher logical strength in changing environments exhibit h
 Over long horizon :
 ```
     \bar{L} = \frac{1}{T_2 - T_1} \int_{T_1}^{T_2} L(X,t)\, dt
-    
+
 ```
 ```
     F_{\text{evol}}(X) = \frac{\bar{L}}{1 + \beta V_{\text{env}}}
-    
+
 ```
 with .
 * * *
@@ -11207,7 +11207,7 @@ A multi-layer system is stable when local, intermediate, and global behaviours r
 **Synchrony equation**
 ```
     \Sigma = (A_{\text{loc}} \cdot A_{\text{mes}} \cdot A_{\text{glob}})^{\lambda}
-    
+
 ```
 with .
 This law is the bridge to **planetary-scale intelligence** and PSI.
@@ -11233,13 +11233,13 @@ An action is ethically valid if it preserves or increases logical strength (inte
 For an action to be ethically valid:
 ```
     \forall i:\; \frac{1}{T_2 - T_1} \int_{T_1}^{T_2} \left( L_i^{\text{post}}(t) - L_i^{\text{pre}}(t) \right) dt \;\geq\; -\delta
-    
+
 ```
 with a small tolerance (e.g. acceptable short-term cost).
 Stronger form (strict improvement):
 ```
     \sum_{i=1}^{n} \int_{T_1}^{T_2} \left( L_i^{\text{post}}(t) - L_i^{\text{pre}}(t) \right) dt > 0
-    
+
 ```
 * * *
 ### LAW 16 — LAW OF RECONSTRUCTION
@@ -11262,17 +11262,17 @@ After collapse or near-collapse, a system can only recover by structurally reduc
 **Reconstruction dynamic**
 ```
     L_{t+1} = L_t + \alpha R_t - \beta D_t
-    
+
 ```
 with and reconstruction feasibility condition:
 ```
     \alpha R_t > \beta D_t \;\Longrightarrow\; L_{t+1} > L_t
-    
+
 ```
 If is below the collapse threshold from Law 8, **reconstruction requires redesign** :
 ```
     L_t \leq \theta_{\text{col}} \;\Longrightarrow\; \text{Redefine structure } X' \text{ with new } I'(X'), S'(X')
-    
+
 ```
 * * *
 ## SUMMARY
@@ -11339,12 +11339,12 @@ A law is valid only if it is internally consistent, cross-domain stable, and non
 **Validity equation**
 ```
     V_L(L_i) = I_L(L_i) \cdot S_L(L_i) \cdot (1 - R_L(L_i | \mathcal{L}\setminus\{L_i\}))
-    
+
 ```
 **Law-of-Law condition**
 ```
     L_i \text{ is canonical} \;\Longleftrightarrow\; V_L(L_i) = 1
-    
+
 ```
 (“1” here is the **integrity ceiling** , not a numeric probability.)
 * * *
@@ -11366,12 +11366,12 @@ Every complete system description requires at least one structurally paired dual
 For any system , there exists such that:
 ```
     X = f(x^{+}, x^{-})
-    
+
 ```
 with
 ```
     \frac{\partial f}{\partial x^{+}} \neq 0,\quad \frac{\partial f}{\partial x^{-}} \neq 0
-    
+
 ```
 (i.e. both poles are causally relevant).
 * * *
@@ -11392,12 +11392,12 @@ Any fully specified system requires four entangled aspects (a quadrant) to resol
 **Quadrant completeness**
 ```
     Q \text{ is complete} \;\Longleftrightarrow\; U(Q) = 0
-    
+
 ```
 with the independence condition:
 ```
     \forall i \neq j:\; \text{Overlap}(q_i, q_j) < 1
-    
+
 ```
 (i.e. no quadrant is a re-labeling of another.)
 * * *
@@ -11418,17 +11418,17 @@ Emergent behaviour arises from the structured interaction of two information lay
 **Operator form**
 ```
     E = \mathcal{I}^2(i_{\text{int}}, i_{\text{ext}}) := \Phi(i_{\text{int}}, i_{\text{ext}})
-    
+
 ```
 with:
-  * 
+  *
 
-  * 
+  *
 
 and **no emergent expression** when either layer is absent:
 ```
     \|i_{\text{int}}\| = 0 \;\text{or}\; \|i_{\text{ext}}\| = 0 \;\Longrightarrow\; E = 0
-    
+
 ```
 (That last “0” is the **null state** outside existence; you can treat it as the mathematical boundary, not a biological state.)
 * * *
@@ -11453,7 +11453,7 @@ Every real system has a definable degree of internal non-contradiction. This int
 **Integrity measure**
 ```
     I(X) = 1 - \frac{\mathcal{C}(X)}{C_{\max}}
-    
+
 ```
 Interpretation:
   * counts logical conflicts / incompatible constraints.
@@ -11484,12 +11484,12 @@ A system’s endurance under change is governed by its capacity to absorb pertur
 Let be the reference output trajectory. Define deviation:
 ```
     d(t) = \|O(t) - O_{\text{ref}}(t)\|
-    
+
 ```
 Then over an observation window :
 ```
     S(X) = 1 - \frac{1}{K}\int_{t_1}^{t_2} d(t)\,dt
-    
+
 ```
 with chosen so that .
 * * *
@@ -11510,7 +11510,7 @@ Logical strength of any system is the joint product of its internal integrity an
 **Logic equation**
 ```
     L(X) = I(X) \cdot S(X)
-    
+
 ```
 Interpretation:
   * High , low → rigid but fragile.
@@ -11549,33 +11549,33 @@ Collapse is the terminal stage of a four-step process: contradiction, distortion
 
 ```
     \frac{dk}{dt} > 0 \quad \text{when feedback is suppressed}
-    
+
 ```
   1. **Distortion**
 
 
 ```
     d(t) = g_1(k(t)), \quad g_1' > 0
-    
+
 ```
   1. **Drift**
 
 
 ```
     \Delta(t) = g_2(d(t)), \quad g_2' > 0
-    
+
 ```
   1. **Disintegration**
 
 
 ```
     I(t) = 1 - h(\Delta(t)), \quad h' > 0
-    
+
 ```
 **Collapse condition**
 ```
     I(t) \leq \theta_{\text{col}} \;\Longrightarrow\; \text{system enters non-recoverable collapse without redesign}
-    
+
 ```
 * * *
 ## INFORMATION & INTELLIGENCE LAYER
@@ -11599,17 +11599,17 @@ All meaningful change arises from interaction between at least two information s
 **Interaction equation**
 ```
     J = i_{\text{int}} \otimes i_{\text{ext}}
-    
+
 ```
 with the non-triviality condition:
 ```
     \|J\| > 0 \;\Longleftrightarrow\; \|i_{\text{int}}\| > 0 \;\land\; \|i_{\text{ext}}\| > 0
-    
+
 ```
 Combined with Law 4 (Emergence):
 ```
     E = \Phi(J)
-    
+
 ```
 * * *
 ### LAW 10 — LAW OF IDENTITY ALIGNMENT
@@ -11635,12 +11635,12 @@ Define pairwise agreement:
     A_{ec} = \cos\angle(e, c), \quad
     A_{ca} = \cos\angle(c, a), \quad
     A_{ea} = \cos\angle(e, a)
-    
+
 ```
 Then:
 ```
     A = \left(\frac{A_{ec} + A_{ca} + A_{ea}}{3}\right)^{\gamma}
-    
+
 ```
 with to penalise misalignment.
 * * *
@@ -11671,11 +11671,11 @@ Intelligence is the system’s capacity to maintain alignment between its intern
 Over window :
 ```
     E_{\text{avg}} = \frac{1}{t_2 - t_1} \int_{t_1}^{t_2} \|e(t)\|\, dt
-    
+
 ```
 ```
     \Phi = \frac{B_F}{B_F + \alpha E_{\text{avg}}}
-    
+
 ```
 with scaling error impact.
 Interpretation:
@@ -11703,13 +11703,13 @@ Conscious awareness arises when biochemical integrity and neural synchrony reach
 **Consciousness equation**
 ```
     C = (B \cdot N)^{\beta}
-    
+
 ```
 with .
 **Activation condition**
 ```
     C \geq \theta_{C} \;\Longleftrightarrow\; state qualifies as conscious integration
-    
+
 ```
 * * *
 ## EVOLUTION & SYSTEMIC LAYER
@@ -11731,11 +11731,11 @@ Systems that maintain higher logical strength in changing environments exhibit h
 Over long horizon :
 ```
     \bar{L} = \frac{1}{T_2 - T_1} \int_{T_1}^{T_2} L(X,t)\, dt
-    
+
 ```
 ```
     F_{\text{evol}}(X) = \frac{\bar{L}}{1 + \beta V_{\text{env}}}
-    
+
 ```
 with .
 * * *
@@ -11759,7 +11759,7 @@ A multi-layer system is stable when local, intermediate, and global behaviours r
 **Synchrony equation**
 ```
     \Sigma = (A_{\text{loc}} \cdot A_{\text{mes}} \cdot A_{\text{glob}})^{\lambda}
-    
+
 ```
 with .
 This law is the bridge to **planetary-scale intelligence** and PSI.
@@ -11785,13 +11785,13 @@ An action is ethically valid if it preserves or increases logical strength (inte
 For an action to be ethically valid:
 ```
     \forall i:\; \frac{1}{T_2 - T_1} \int_{T_1}^{T_2} \left( L_i^{\text{post}}(t) - L_i^{\text{pre}}(t) \right) dt \;\geq\; -\delta
-    
+
 ```
 with a small tolerance (e.g. acceptable short-term cost).
 Stronger form (strict improvement):
 ```
     \sum_{i=1}^{n} \int_{T_1}^{T_2} \left( L_i^{\text{post}}(t) - L_i^{\text{pre}}(t) \right) dt > 0
-    
+
 ```
 * * *
 ### LAW 16 — LAW OF RECONSTRUCTION
@@ -11814,17 +11814,17 @@ After collapse or near-collapse, a system can only recover by structurally reduc
 **Reconstruction dynamic**
 ```
     L_{t+1} = L_t + \alpha R_t - \beta D_t
-    
+
 ```
 with and reconstruction feasibility condition:
 ```
     \alpha R_t > \beta D_t \;\Longrightarrow\; L_{t+1} > L_t
-    
+
 ```
 If is below the collapse threshold from Law 8, **reconstruction requires redesign** :
 ```
     L_t \leq \theta_{\text{col}} \;\Longrightarrow\; \text{Redefine structure } X' \text{ with new } I'(X'), S'(X')
-    
+
 ```
 * * *
 ## SUMMARY

@@ -36,9 +36,9 @@ aliases:
 ## ĐẶC TẢ HÌNH THỨC HẠT NHÂN KIẾN TRÚC DÀN NHÂN QUẢ LƯỢNG TỬ (QCLA)
 ### Khung Dàn Trực Giao Không Giao Hoán, Suy Luận Đa Tuyến và Cơ Chế Sụp Đổ Trạng Thái Tất Định
 
-> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS  
-> **Plane:** `02_KERNEL/01_META_LOGIC/K_QCLA.md`  
-> **Trạng thái:** `CANONICAL` (Dàn Luận Lý Lượng Tử Cốt Lõi)  
+> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS
+> **Plane:** `02_KERNEL/01_META_LOGIC/K_QCLA.md`
+> **Trạng thái:** `CANONICAL` (Dàn Luận Lý Lượng Tử Cốt Lõi)
 
 ---
 
@@ -2216,4 +2216,4 @@ Kênh #144 thực thi phép chiếu trạng thái chồng chập về trạng th
 - **MOCs Điều hướng:** [[00_HOME]] · [[00_ROOT_MOC]] · [[02_KERNEL_MOC]] · [[01_META_LOGIC_MOC]]
 
 ---
-**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS  
+**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS

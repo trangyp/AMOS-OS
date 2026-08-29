@@ -64,4 +64,3 @@ The **Unified EV Kernel** models electric vehicle infrastructure spanning strate
 
 ---
 **MOC:** [[KERNEL_MOC]]
-

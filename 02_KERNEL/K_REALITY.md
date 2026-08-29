@@ -36,9 +36,9 @@ aliases:
 ## ĐẶC TẢ HÌNH THỨC HẠT NHÂN NEO THỰC TẠI & TOÀN VẸN BẢN THỂ LUẬN
 ### Cổng Kiểm Chuẩn Thực Nghiệm, Kháng Ảo Giác Tuyệt Đối và Cầu Nối Vật Lý Thực Thể
 
-> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS  
-> **Plane:** `02_KERNEL/K_REALITY.md`  
-> **Trạng thái:** `CANONICAL` (Điểm Tựa Vật Lý Tối Thượng)  
+> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS
+> **Plane:** `02_KERNEL/K_REALITY.md`
+> **Trạng thái:** `CANONICAL` (Điểm Tựa Vật Lý Tối Thượng)
 
 ---
 
@@ -2214,4 +2214,4 @@ Lớp thực thể #144 định nghĩa ranh giới giữa thực thể vật lý
 - **MOCs Điều hướng:** [[00_HOME]] · [[00_ROOT_MOC]] · [[02_KERNEL_MOC]]
 
 ---
-**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS  
+**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS

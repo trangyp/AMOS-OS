@@ -71,10 +71,10 @@ rscf:
 # Atomic Multi-RSCF Validation Receipt
 
 > [!abstract]
-> **Receipt Class:** `VALIDATION_RECEIPT`  
-> **RSCF State:** `SOURCE_CLAIM`  
-> **Scope:** Atomic multi-RSCF / multi-proof-capsule transactions  
-> **Provenance:** `AMOS_corpus`  
+> **Receipt Class:** `VALIDATION_RECEIPT`
+> **RSCF State:** `SOURCE_CLAIM`
+> **Scope:** Atomic multi-RSCF / multi-proof-capsule transactions
+> **Provenance:** `AMOS_corpus`
 > **Canonical Status:** `CONDITIONAL`
 
 Certifies the declared validation contract for **atomic multi-RSCF
@@ -2078,31 +2078,31 @@ RSCF-RELATIONS:
 
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-  - CHILD_OF: 
+  - CHILD_OF:
 
-  - VALIDATES: 
+  - VALIDATES:
 
-  - VALIDATES: 
+  - VALIDATES:
 
-  - DEPENDS_ON: 
-
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
+  - DEPENDS_ON:
 
   - GOVERNED_BY: [[LAW_HIERARCHY]]
 
-  - USES: 
+  - GOVERNED_BY: [[LAW_HIERARCHY]]
 
-  - ADVERSARIALLY_VALIDATED_BY: 
+  - USES:
 
-  - REGIME_BOUND_BY: 
+  - ADVERSARIALLY_VALIDATED_BY:
 
-  - REPLAY_BOUND_BY: 
+  - REGIME_BOUND_BY:
 
-  - STATE_DISCIPLINE: 
+  - REPLAY_BOUND_BY:
 
-  - EPOCH_DISCIPLINE: 
+  - STATE_DISCIPLINE:
 
-  - DISTRIBUTION_DISCIPLINE: 
+  - EPOCH_DISCIPLINE:
+
+  - DISTRIBUTION_DISCIPLINE:
 ```
 
 ---

@@ -42,9 +42,9 @@ aliases:
 ## ĐẶC TẢ KIẾN TRÚC HỆ ĐIỀU HÀNH NÃO BỘ TOÀN DIỆN (FULL BRAIN OS)
 ### Khung Kiến Trúc 67 Tầng Nhận Thức, 7 Phân Lớp Thực Tại và Cơ Chế Điều Phối Đa Tuyến Tất Định
 
-> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS  
-> **Plane:** `01_CANON/03_COGNITION_CANON`  
-> **Trạng thái:** `CANONICAL` (Thăng hạng Toàn phần từ Ingestion Slot)  
+> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS
+> **Plane:** `01_CANON/03_COGNITION_CANON`
+> **Trạng thái:** `CANONICAL` (Thăng hạng Toàn phần từ Ingestion Slot)
 > **Định vị:** 67 Cognitive Layers $\times$ 8 Execution Kernels $\times$ Universal Biological Intelligence (UBI) $\times$ The Trang System (TSS)
 
 ---
@@ -2555,6 +2555,6 @@ Kết quả kiểm thử: **100% PASS** — Không phát hiện hiện tượng 
 - **MOCs Điều hướng Trung tâm:** [[00_HOME]] · [[00_ROOT_MOC]] · [[01_CANON_MOC]] · [[02_KERNEL_MOC]] · [[03_COGNITION_CANON_MOC]] · [[trang_MOC]]
 
 ---
-**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS  
-**Trạng thái Pháp lý & Học thuật:** `CANONICAL_MASTER_BRAIN_OS`  
+**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS
+**Trạng thái Pháp lý & Học thuật:** `CANONICAL_MASTER_BRAIN_OS`
 **Chữ ký Điện tử:** `Ed25519:e4d168f89bc72a19da4c055bf93411e7498c8f00223e74b39bb872654318aa12`

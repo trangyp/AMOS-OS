@@ -121,11 +121,11 @@ OP_STABILITY     = "S(A)"                  # temporal consistency score
 OP_LOGIC_STRENGTH= "L(A) = I(A) * S(A)"    # 0
 
 ---
-**MOC:** 
+**MOC:**
 
 ## Related
 
-- 
+-
 ```
 
 ---

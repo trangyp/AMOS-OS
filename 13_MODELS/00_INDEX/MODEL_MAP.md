@@ -167,7 +167,7 @@ gaps:
 > [!note] Source preface
 >
 > I checked the exact `MODEL_MAP.md` in Drive. The native file confirms the same load-bearing nucleus: local scope is `13_MODELS/00_INDEX`, reading order is README → contract → artifacts, cross-segment edges are delegated to `` and ``, graph validation is `PARTIAL`, and the six-stage Admit → Commit/Hold semantics are present.
-> 
+>
 > Below is the **full expanded Obsidian note**, preserving that source canon while adding typed map semantics, provenance, scope/regime firewalls, H/M/L navigation, competing-model handling, graph invariants, validation contracts, negative cases, RSCF structure, and explicit `UNKNOWN/GAP` boundaries rather than inventing implementation.
 
 
@@ -316,8 +316,8 @@ segment of the Models plane.
 
 Primary local nodes:
 
-* **Contract** — 
-* **Readme** — 
+* **Contract** —
+* **Readme** —
 
 ---
 
@@ -441,8 +441,8 @@ unless a separate map establishes exhaustive coverage.
 
 The source states that cross-segment edges live in:
 
-* 
-* 
+*
+*
 
 Therefore:
 
@@ -800,9 +800,9 @@ The functional role supplements rather than overwrites the source-native type.
 
 Related root surfaces:
 
-* 
-* 
-* 
+*
+*
+*
 
 ---
 
@@ -1925,8 +1925,8 @@ Map position does not supply that validation.
 
 The source references:
 
-* 
-* 
+*
+*
 
 These are contextual validation references.
 
@@ -3278,17 +3278,17 @@ STRONGER CANON WINS
 
 # 252. Root Navigation
 
-* 
-* 
-* 
+*
+*
+*
 
 ---
 
 # 253. Local Navigation
 
-* 
-* 
-* 
+*
+*
+*
 
 ---
 
@@ -4414,14 +4414,14 @@ RECORD RECEIPT
 
 # 296. Cross-Plane Bindings
 
-* Governed by canon —  · 
-* Kernel interaction — 
-* Control-plane gates — 
+* Governed by canon —  ·
+* Kernel interaction —
+* Control-plane gates —
 * Observed by —  · never treated as authority
-* Recovered via operations — 
-* Root navigation — 
-* Root map — 
-* RSCF graph — 
+* Recovered via operations —
+* Root navigation —
+* Root map —
+* RSCF graph —
 
 ---
 

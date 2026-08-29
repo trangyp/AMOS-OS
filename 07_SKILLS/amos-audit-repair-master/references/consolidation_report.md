@@ -134,11 +134,11 @@ conflicts_detected: 0 (clean consolidation)
 brain_ssot_hash: 6d3c7196fc9e7bb1489943
 
 ---
-**MOC:** 
+**MOC:**
 
 ## Related
 
-- 
+-
 ```
 
 ---

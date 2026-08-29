@@ -148,4 +148,3 @@ All kernels: `density_profile: "kernel_x100k_virtual"`, version `v2.0.0+lens_int
 
 ---
 **MOC:** [[KERNEL_MOC]]
-

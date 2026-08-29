@@ -248,11 +248,11 @@ Activate: K_META_LOGIC, K_MATH_COMPUTE, K_BIO_NEURO
 | VN operations, drivers
 
 ---
-**MOC:** 
+**MOC:**
 
 ## Related
 
-- 
+-
 ```
 
 ---

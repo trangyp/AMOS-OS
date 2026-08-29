@@ -3374,7 +3374,7 @@ Procedure:
 ```text
 DETECT CROSS-PLANE
 ↓
-USE 
+USE
 AND/OR
 
 ↓
@@ -3533,8 +3533,8 @@ Operational validity requires regime review.
 Request:
 
 ```text
-REPLACE 
-WITH 
+REPLACE
+WITH
 ```
 
 Capability:
@@ -3916,8 +3916,8 @@ RSCF-RELATIONS:
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
   - INDEXED_BY: [[13_MODELS_MOC]]
 
-  - REFERENCES: 
-  - REFERENCES: 
+  - REFERENCES:
+  - REFERENCES:
 
   - GOVERNED_BY: [[LAW_HIERARCHY]]
 

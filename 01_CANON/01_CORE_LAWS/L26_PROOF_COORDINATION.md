@@ -48,9 +48,9 @@ rscf:
 
 # L26 Proof Coordination Laws
 
-STATUS: PROPOSED_SPECIFICATION  
-epistemic_class: AMOS_MODEL  
-canonical_status: CONDITIONAL  
+STATUS: PROPOSED_SPECIFICATION
+epistemic_class: AMOS_MODEL
+canonical_status: CONDITIONAL
 updated: 2026-08-26
 
 > [!abstract]
@@ -62,9 +62,9 @@ updated: 2026-08-26
 >
 > The governing source spine consists of four laws:
 >
-> **PXC-1 One Home Per Proof**  
-> **PXC-2 Compositional Checking**  
-> **PXC-3 Independence Accounting**  
+> **PXC-1 One Home Per Proof**
+> **PXC-2 Compositional Checking**
+> **PXC-3 Independence Accounting**
 > **PXC-4 Verification Over Assertion**
 >
 > Everything beyond those supplied clauses is an expanded

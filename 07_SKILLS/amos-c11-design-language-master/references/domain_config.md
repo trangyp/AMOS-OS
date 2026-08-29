@@ -97,11 +97,11 @@ created: 2026-08-22
         "State colors are reserved for stat
 
 ---
-**MOC:** 
+**MOC:**
 
 ## Related
 
-- 
+-
 ```
 
 ---

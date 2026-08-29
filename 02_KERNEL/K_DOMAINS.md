@@ -37,9 +37,9 @@ aliases:
 ## ĐẶC TẢ HÌNH THỨC HẠT NHÂN CHUYÊN BIỆT ĐA MIỀN & NHÚNG TRI THỨC
 ### Khung Ánh Xạ Không Gian Tri Thức 12 Miền Cốt Lõi, Cầu Nối Nhân Quả Liên Miền và Mô Hình Biểu Diễn Đồ Thị
 
-> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS  
-> **Plane:** `02_KERNEL/K_DOMAINS.md`  
-> **Trạng thái:** `CANONICAL` (Hạt Nhân Nhận Thức Chuyên Sâu Đa Ngành)  
+> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS
+> **Plane:** `02_KERNEL/K_DOMAINS.md`
+> **Trạng thái:** `CANONICAL` (Hạt Nhân Nhận Thức Chuyên Sâu Đa Ngành)
 
 ---
 
@@ -2121,4 +2121,4 @@ Thiết lập tương quan cấu trúc giữa các định luật vật lý và 
 - **MOCs Điều hướng:** [[00_HOME]] · [[00_ROOT_MOC]] · [[02_KERNEL_MOC]] · [[11_KNOWLEDGE_MOC]]
 
 ---
-**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS  
+**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS

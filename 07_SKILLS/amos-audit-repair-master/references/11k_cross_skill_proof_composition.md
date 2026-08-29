@@ -203,11 +203,11 @@ REQUIRED_PROOF_CLOSURE[
     capabil
 
 ---
-**MOC:** 
+**MOC:**
 
 ## Related
 
-- 
+-
 ```
 
 ---

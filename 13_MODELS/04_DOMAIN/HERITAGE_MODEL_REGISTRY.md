@@ -36,7 +36,7 @@ Below is the full expanded Obsidian-ready registry. I’m keeping the supplied a
 
 ````markdown
 ---
-title: "Heritage Model Registry"
+title: Heritage Model Registry
 aliases:
   - "AMOS Heritage Model Registry"
   - "Heritage Models Registry"
@@ -173,7 +173,6 @@ tags:
   - validation_receipt
   - governance
   - registry_integrity
-
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -6811,16 +6810,16 @@ HERITAGE_MODEL_INGESTION:
 
 # 468. Cross-Plane Bindings
 
-* Governed by canon — 
-* Indexed from root — 
-* Indexed through RSCF — 
-* Local Models MOC — 
-* Kernel interaction — 
-* Control-plane gates — 
-* Observed by — 
-* Recovered via operations — 
-* Validation infrastructure reference — 
-* Authorization validation reference — 
+* Governed by canon —
+* Indexed from root —
+* Indexed through RSCF —
+* Local Models MOC —
+* Kernel interaction —
+* Control-plane gates —
+* Observed by —
+* Recovered via operations —
+* Validation infrastructure reference —
+* Authorization validation reference —
 
 ---
 
@@ -7064,7 +7063,7 @@ COMPLETENESS.
 
 ---
 
-**Related:**  ·  ·  ·  ·  ·  · 
+**Related:**  ·  ·  ·  ·  ·  ·
 
 ---
 
@@ -7088,18 +7087,15 @@ executable_binding: NOT_ESTABLISHED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: 
-* INDEXED_BY: 
-* INDEXED_BY: 
-* GOVERNED_BY: 
-* INTERACTS_WITH: 
-* GATED_BY: 
-* OBSERVED_BY: 
-* RECOVERED_VIA: 
+* INDEXED_BY:
+* INDEXED_BY:
+* INDEXED_BY:
+* GOVERNED_BY:
+* INTERACTS_WITH:
+* GATED_BY:
+* OBSERVED_BY:
+* RECOVERED_VIA:
 
 ---
 
-**MOC:** 
-
-```
-```
+**MOC:**

@@ -913,7 +913,7 @@ Example:
 
 ```text
 
-* 
+*
 
 These are contextual validation references.
 
@@ -2314,7 +2314,7 @@ rather than globally erasing unrelated index state.
 
 The index may be observed by:
 
-* 
+*
 
 But:
 
@@ -2334,7 +2334,7 @@ Telemetry does not itself authorize repair.
 
 Kernel interaction:
 
-* 
+*
 
 Kernel capabilities may support resolution or execution.
 
@@ -2346,7 +2346,7 @@ They do not automatically define the canonical Models-plane indexing rule.
 
 Control-plane gates:
 
-* 
+*
 
 Consequential mutations should pass applicable governance gates.
 
@@ -2356,7 +2356,7 @@ Consequential mutations should pass applicable governance gates.
 
 Recovery via:
 
-* 
+*
 
 Operational recovery may include:
 
@@ -2376,7 +2376,7 @@ under applicable authority.
 
 Governed by:
 
-* 
+*
 
 A stronger canonical law overrides incompatible normalized semantics in this page.
 
@@ -3588,7 +3588,7 @@ INDEX v10
 Proposal:
 
 ```text
-ADD 
+ADD
 → candidate INDEX v11
 ```
 
@@ -4057,8 +4057,8 @@ RSCF-RELATIONS:
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
   - INDEXED_BY: [[13_MODELS_MOC]]
 
-  - REFERENCES: 
-  - REFERENCES: 
+  - REFERENCES:
+  - REFERENCES:
 
   - GOVERNED_BY: [[LAW_HIERARCHY]]
 

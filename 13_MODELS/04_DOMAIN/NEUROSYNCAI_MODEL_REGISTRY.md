@@ -37,7 +37,7 @@ Below is the **full expanded Obsidian-ready `NEUROSYNCAI_MODEL_REGISTRY.md`**. T
 
 ````markdown
 ---
-title: "NeuroSyncAI Model Registry"
+title: NeuroSyncAI Model Registry
 aliases:
   - "AMOS NeuroSyncAI Model Registry"
   - "NeuroSyncAI Registry"
@@ -181,7 +181,6 @@ tags:
   - canon/domain
   - native_canon
   - external_evidence
-
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -6251,16 +6250,16 @@ before claiming runtime validation.
 
 Target bindings:
 
-* Governed by canon — 
-* Root navigation — 
-* RSCF navigation — 
-* Local Models MOC — 
-* Kernel interaction — 
-* Control-plane gates — 
-* Observability — 
-* Operational recovery — 
-* Routing validation infrastructure — 
-* Authorization validation infrastructure — 
+* Governed by canon —
+* Root navigation —
+* RSCF navigation —
+* Local Models MOC —
+* Kernel interaction —
+* Control-plane gates —
+* Observability —
+* Operational recovery —
+* Routing validation infrastructure —
+* Authorization validation infrastructure —
 
 These links represent architectural relations or targets.
 
@@ -6595,7 +6594,7 @@ SPEED.
 
 ---
 
-**Related:**  ·  ·  ·  ·  ·  · 
+**Related:**  ·  ·  ·  ·  ·  ·
 
 ---
 
@@ -6619,18 +6618,15 @@ executable_binding: NOT_ESTABLISHED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: 
-* INDEXED_BY: 
-* INDEXED_BY: 
-* GOVERNED_BY: 
-* INTERACTS_WITH: 
-* GATED_BY: 
-* OBSERVED_BY: 
-* RECOVERED_VIA: 
+* INDEXED_BY:
+* INDEXED_BY:
+* INDEXED_BY:
+* GOVERNED_BY:
+* INTERACTS_WITH:
+* GATED_BY:
+* OBSERVED_BY:
+* RECOVERED_VIA:
 
 ---
 
-**MOC:** 
-
-```
-```
+**MOC:**

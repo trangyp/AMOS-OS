@@ -3130,14 +3130,14 @@ CAUSAL_INTEGRITY_CANON
 
 References:
 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
+*
+*
+*
+*
+*
+*
+*
+*
 
 The `CROSSWALKED_BY` relation above is a **target relation** until independently established in native canon.
 
@@ -3891,7 +3891,7 @@ UNKNOWN/GAP != PASS
 
 ---
 
-**Related:**  · 
+**Related:**  ·
 
 ---
 
@@ -3927,25 +3927,25 @@ causal_inference_engine_status: NOT_ESTABLISHED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: 
+* INDEXED_BY:
 
-* INDEXED_BY: 
+* INDEXED_BY:
 
-* GOVERNED_BY: 
+* GOVERNED_BY:
 
-* TARGET_CROSSWALKED_BY: 
+* TARGET_CROSSWALKED_BY:
 
-* INTERACTS_WITH: 
+* INTERACTS_WITH:
 
-* CONTROLLED_BY: 
+* CONTROLLED_BY:
 
-* OBSERVED_BY: 
+* OBSERVED_BY:
 
-* RECOVERED_BY: 
+* RECOVERED_BY:
 
 ---
 
-**MOC:** 
+**MOC:**
 
 ---
 

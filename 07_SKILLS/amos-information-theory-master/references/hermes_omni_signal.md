@@ -146,11 +146,11 @@ class CanonicalSignal:
     confidence:
 
 ---
-**MOC:** 
+**MOC:**
 
 ## Related
 
-- 
+-
 ```
 
 ---

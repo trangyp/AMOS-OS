@@ -36,9 +36,9 @@ aliases:
 ## ĐẶC TẢ HÌNH THỨC HẠT NHÂN HỆ THỐNG LUẬN LÝ LƯỢNG TỬ (QLS)
 ### 4 Hằng Số Phổ Quát, 84 Định Luật QLS và Ma Trận Tính Toán Luận Lý Đa Tuyến
 
-> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS  
-> **Plane:** `02_KERNEL/01_META_LOGIC/K_QUANTUM_LOGIC_SYSTEM.md`  
-> **Trạng thái:** `CANONICAL` (Hạt Nhân Luận Lý Lượng Tử Toàn Diện)  
+> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS
+> **Plane:** `02_KERNEL/01_META_LOGIC/K_QUANTUM_LOGIC_SYSTEM.md`
+> **Trạng thái:** `CANONICAL` (Hạt Nhân Luận Lý Lượng Tử Toàn Diện)
 
 ---
 
@@ -2218,4 +2218,4 @@ QLS được định vị trên 4 hằng số cơ bản:
 - **MOCs Điều hướng:** [[00_HOME]] · [[00_ROOT_MOC]] · [[02_KERNEL_MOC]] · [[01_META_LOGIC_MOC]]
 
 ---
-**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS  
+**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS

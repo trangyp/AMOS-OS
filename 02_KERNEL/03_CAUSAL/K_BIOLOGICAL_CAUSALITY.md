@@ -35,9 +35,9 @@ aliases:
 ## ĐẶC TẢ HÌNH THỨC HẠT NHÂN BIOLOGICAL CAUSALITY & HOMEOSTATIC CLOSURE KERNEL
 ### Khung Nhân Quả Đa Thước Đo, Đồ Thị Causal DAG và Cơ Chế Khóa Thời Gian
 
-> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS  
-> **Plane:** `02_KERNEL/03_CAUSAL/K_BIOLOGICAL_CAUSALITY.md`  
-> **Trạng thái:** `CANONICAL`  
+> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS
+> **Plane:** `02_KERNEL/03_CAUSAL/K_BIOLOGICAL_CAUSALITY.md`
+> **Trạng thái:** `CANONICAL`
 
 ---
 
@@ -2214,4 +2214,4 @@ Phân vùng #144 bảo đảm thứ tự thời gian tuyến tính không thể 
 - **MOCs Điều hướng:** [[00_HOME]] · [[00_ROOT_MOC]] · [[02_KERNEL_MOC]] · [[03_CAUSAL_MOC]]
 
 ---
-**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS  
+**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS

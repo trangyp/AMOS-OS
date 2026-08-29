@@ -152,8 +152,8 @@ or decisions that require evidence-grounded conclusions.
 ---
 
 ---
-- 
-**MOC:** 
+-
+**MOC:**
 ```
 
 ---

@@ -2592,13 +2592,13 @@ AMOS Heritage
 
 Related canonical targets:
 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
+*
+*
+*
+*
+*
+*
+*
 
 ---
 
@@ -2870,7 +2870,7 @@ That boundary is part of the architecture itself.
 
 00_ROOT_MOC|AMOS MOC
 
-**Related:**  ·  · 
+**Related:**  ·  ·
 
 ```
 
@@ -2882,5 +2882,5 @@ The next level beyond this would be a true **MAX-detail ingestion** of the hundr
 ```
 
 ---
-**MOC:** 
+**MOC:**
 ```

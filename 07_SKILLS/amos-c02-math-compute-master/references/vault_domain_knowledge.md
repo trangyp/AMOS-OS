@@ -673,11 +673,11 @@ C
 - **Epistemic overreach**: If a claim exceeds the established evidence or epistemic class, retract and relabel.
 
 ---
-**MOC:** 
+**MOC:**
 
 ## Related
 
-- 
+-
 ```
 
 ---

@@ -117,11 +117,11 @@ created: 2026-08-22
       "AMOS_FULL_BRAIN_OS",
 
 ---
-**MOC:** 
+**MOC:**
 
 ## Related
 
-- 
+-
 ```
 
 ---

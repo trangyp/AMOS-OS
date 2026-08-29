@@ -3907,7 +3907,7 @@ That keeps the Generator subsystem integrated with AMOS infrastructure without t
 00_ROOT_MOC|AMOS MOC
 
 ---
-**Related:**  · 
+**Related:**  ·
 
 ---
 RSCF-NODE
@@ -3915,11 +3915,11 @@ node_id: generators_integration
 node_type: note
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_INTEGRATION.md
 RSCF-RELATIONS:
-  - INDEXED_BY: 
-  - INDEXED_BY: 
+  - INDEXED_BY:
+  - INDEXED_BY:
 claim_class: AMOS_MODEL
 
 ---
-**MOC:** 
+**MOC:**
 
 ```

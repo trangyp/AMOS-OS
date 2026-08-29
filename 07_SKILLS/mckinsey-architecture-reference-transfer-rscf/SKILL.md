@@ -138,11 +138,11 @@ python goal_driven_ai_architecture_generator_v2.py generate \
 python goal_driven_ai_architecture_ge
 
 ---
-**Links:** 
+**Links:**
 
 ## Related
 
-- 
+-
 ```
 
 ## Examples

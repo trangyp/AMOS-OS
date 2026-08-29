@@ -351,11 +351,11 @@ The Governance_Risk kernel integrates multiple sub-kernels, each addressing a di
       "human_
 
 ---
-**MOC:** 
+**MOC:**
 
 ## Related
 
-- 
+-
 ```
 
 ---

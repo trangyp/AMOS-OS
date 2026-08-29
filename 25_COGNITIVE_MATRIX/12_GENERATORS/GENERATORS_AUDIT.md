@@ -3764,6 +3764,6 @@ HISTORY.md
 The load-bearing addition here is that **Audit checks the integrity of the relationships between all of those artifacts and the runtime**, instead of simply becoming another test or validation document.
 
 ---
-**MOC:** 
+**MOC:**
 
 ```

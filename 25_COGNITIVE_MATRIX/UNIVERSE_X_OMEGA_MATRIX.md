@@ -3882,16 +3882,16 @@ It does not independently establish their empirical validity, physical implement
 
 ## Source-Defined
 
-* **Specification:** 
-* **Universe Canon MOC:** 
-* **Cognitive Matrix Plane:** 
+* **Specification:**
+* **Universe Canon MOC:**
+* **Cognitive Matrix Plane:**
 
 ## Derived Navigation Candidates
 
-* **Provenance:** 
+* **Provenance:**
 * **Scope Firewall:** K_SCOPE_FIREWALL
 * **Causal Firewall:** K_CAUSAL_FIREWALL
-* **Fail-Closed Governance:** 
+* **Fail-Closed Governance:**
 
 > [!warning]
 > Only the first three connections are explicitly supplied by this artifact. Derived navigation candidates must not be treated as canonical dependency edges without confirmation.
@@ -4192,11 +4192,11 @@ $$
 
 ---
 
-**Specification:** 
+**Specification:**
 
-**Universe Canon:** 
+**Universe Canon:**
 
-**Cognitive Matrix:** 
+**Cognitive Matrix:**
 
 ---
 

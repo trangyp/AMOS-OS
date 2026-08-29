@@ -66,4 +66,3 @@ Failure invalidates only dependent descendants. Rollback preserves history.
 
 ---
 **MOC:** [[KERNEL_MOC]]
-

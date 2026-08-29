@@ -66,4 +66,3 @@ class MarketSignals_Kernel(Kernel):
 
 ---
 **MOC:** [[KERNEL_MOC]]
-

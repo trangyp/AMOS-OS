@@ -127,11 +127,11 @@ Integration Test Categories:
 │   ├── Performance Hardener
 
 ---
-**MOC:** 
+**MOC:**
 
 ## Related
 
-- 
+-
 ```
 
 ---

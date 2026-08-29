@@ -4000,15 +4000,15 @@ No downstream system should silently convert these gaps to `PASS`.
 
 # 165. MOC
 
-**MOC:** 
+**MOC:**
 
-**Root:** 
+**Root:**
 
-**RSCF Index:** 
+**RSCF Index:**
 
-**Law Hierarchy:** 
+**Law Hierarchy:**
 
-**Integrity Canon:** 
+**Integrity Canon:**
 
 ---
 
@@ -4099,7 +4099,7 @@ RSCF_NODE:
 
 ---
 
-**Related:**  ·  ·  ·  · 
+**Related:**  ·  ·  ·  ·
 
 ---
 

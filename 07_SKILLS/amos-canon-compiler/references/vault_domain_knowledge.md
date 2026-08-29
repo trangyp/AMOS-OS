@@ -483,11 +483,11 @@ QUESTION_OWNER: Final = {
 class PatchR
 
 ---
-**MOC:** 
+**MOC:**
 
 ## Related
 
-- 
+-
 ```
 
 ---

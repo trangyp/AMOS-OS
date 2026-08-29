@@ -237,11 +237,11 @@ Authorization code grant type
 ---
 
 ---
-**MOC:** 
+**MOC:**
 
 ## Related
 
-- 
+-
 ```
 
 ---

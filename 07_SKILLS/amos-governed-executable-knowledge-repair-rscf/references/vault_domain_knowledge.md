@@ -215,7 +215,7 @@ GOOD: Approximately 80% of the ~100,000 vag
 # Executable Brain Model — v1.0 Seed & v22 Lineage
 
 > Canonical anchor for the brain's executable core. The v1.0 spec the user supplied is the **foundational seed**; the vault's `cosmo-brain/executable_brain_model.py` is its direct, faithful descendant.
-> See also:  · 
+> See also:  ·
 
 ## Core equation
 `S_{t+1} = C(F(S_t, U_t))`
@@ -253,11 +253,11 @@ All 8 v1.0 layers exist verbatim in `cosmo-brain/executable_brain_model.py` (70 
 - Integration layers: v1→v22 (law stack, reasoning loop, UBI, RSCF, etc. — see ).
 
 ## Links
-- 
-- 
+-
+-
 
 ---
-**MOC:** 
+**MOC:**
 ```
 
 ---

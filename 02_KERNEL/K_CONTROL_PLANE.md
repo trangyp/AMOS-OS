@@ -37,9 +37,9 @@ aliases:
 ## ĐẶC TẢ HÌNH THỨC HẠT NHÂN ĐIỀU KHIỂN & ĐIỀU PHỐI TRẠNG THÁI HỆ THỐNG
 ### Khung Điều Phối Đa Tuyến, Quản Trị Kênh Tín Hiệu và Cơ Chế Định Tuyến Trạng Thái Thời Gian Thực
 
-> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS  
-> **Plane:** `02_KERNEL/K_CONTROL_PLANE.md`  
-> **Trạng thái:** `CANONICAL` (Trục Điều Phối Toàn Hệ Thống)  
+> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS
+> **Plane:** `02_KERNEL/K_CONTROL_PLANE.md`
+> **Trạng thái:** `CANONICAL` (Trục Điều Phối Toàn Hệ Thống)
 
 ---
 
@@ -2254,4 +2254,4 @@ Ghi nhận thông lượng giao dịch đạt 250,000 ops/sec với 0% mất má
 - **MOCs Điều hướng:** [[00_HOME]] · [[00_ROOT_MOC]] · [[02_KERNEL_MOC]] · [[03_CONTROL_PLANE_MOC]]
 
 ---
-**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS  
+**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS

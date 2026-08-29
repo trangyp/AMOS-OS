@@ -2868,13 +2868,13 @@ BIO_LOGICAL_LAWS_CANON
 
 Target references:
 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
+*
+*
+*
+*
+*
+*
+*
 
 Observability remains non-authoritative.
 
@@ -3039,7 +3039,7 @@ This is the governing behavior of the current artifact.
 
 ---
 
-**Related:**  · 
+**Related:**  ·
 
 ---
 
@@ -3073,23 +3073,23 @@ executable_binding: NOT_ESTABLISHED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: 
+* INDEXED_BY:
 
-* INDEXED_BY: 
+* INDEXED_BY:
 
-* GOVERNED_BY: 
+* GOVERNED_BY:
 
-* INTERACTS_WITH: 
+* INTERACTS_WITH:
 
-* CONTROLLED_BY: 
+* CONTROLLED_BY:
 
-* OBSERVED_BY: 
+* OBSERVED_BY:
 
-* RECOVERED_BY: 
+* RECOVERED_BY:
 
 ---
 
-**MOC:** 
+**MOC:**
 
 ---
 

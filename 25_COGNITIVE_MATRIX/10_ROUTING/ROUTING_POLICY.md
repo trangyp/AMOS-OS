@@ -236,7 +236,7 @@ tags:
     - GMEF
     - HML
     - FRACTAL_KNOWLEDGE_NETWORK
-    - 
+    -
     - ADAPTIVE_COMPLEXITY
     - COMPETING_HYPOTHESES
     - UNCERTAINTY_VECTOR
@@ -3141,7 +3141,7 @@ This version makes `ROUTING_POLICY.md` the **policy layer above route selection 
 00_ROOT_MOC|AMOS MOC
 
 ---
-**Related:**  ·  · 
+**Related:**  ·  ·
 
 ---
 RSCF-NODE
@@ -3149,12 +3149,12 @@ node_id: routing_policy
 node_type: note
 path: 25_COGNITIVE_MATRIX/10_ROUTING/ROUTING_POLICY.md
 RSCF-RELATIONS:
-  - INDEXED_BY: 
+  - INDEXED_BY:
   - INDEXED_BY: AMOS_RSCF_NODES
 claim_class: AMOS_MODEL
 
 ---
-**MOC:** 
+**MOC:**
 ```
 
 ---

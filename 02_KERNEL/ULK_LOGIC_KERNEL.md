@@ -39,9 +39,9 @@ aliases:
 ## ĐẶC TẢ HÌNH THỨC HẠT NHÂN LUẬN LÝ VŨ TRỤ (ULK)
 ### Kiến Trúc 8 Khối Xử Lý Luận Lý (8 ALUs), Máy Trạng Thái UML và Trình Biên Dịch Proof Capsule
 
-> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS  
-> **Plane:** `02_KERNEL/ULK_LOGIC_KERNEL.md`  
-> **Trạng thái:** `CANONICAL` (Lõi Thực thi Luận lý Trung tâm)  
+> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS
+> **Plane:** `02_KERNEL/ULK_LOGIC_KERNEL.md`
+> **Trạng thái:** `CANONICAL` (Lõi Thực thi Luận lý Trung tâm)
 > **Khả năng:** 8 ALUs $\times$ AST Normalization $\times$ SMT Refutation $\times$ Deterministic Deduction
 
 ---
@@ -2262,5 +2262,5 @@ Kiểm thử 50,000 mệnh đề phức hợp trong miền ứng dụng #70:
 - **MOCs Điều hướng:** [[00_HOME]] · [[00_ROOT_MOC]] · [[02_KERNEL_MOC]] · [[01_META_LOGIC_MOC]]
 
 ---
-**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS  
-**Trạng thái:** `CANONICAL_ULK_MASTER`  
+**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS
+**Trạng thái:** `CANONICAL_ULK_MASTER`

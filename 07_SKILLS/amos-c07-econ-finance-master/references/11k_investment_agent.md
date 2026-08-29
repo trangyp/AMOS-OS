@@ -221,11 +221,11 @@ class Investment_Agent(Agent):
         trace = context.setdefau
 
 ---
-**MOC:** 
+**MOC:**
 
 ## Related
 
-- 
+-
 ```
 
 ---

@@ -105,11 +105,11 @@ PREDICTION_ERROR != OBJECTIVE_ERROR
 BELIEF_UPDA
 
 ---
-**Links:** 
+**Links:**
 
 ## Related
 
-- 
+-
 ```
 
 ## Examples

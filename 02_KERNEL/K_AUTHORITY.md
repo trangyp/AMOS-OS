@@ -38,10 +38,10 @@ aliases:
 ## ĐẶC TẢ HÌNH THỨC HẠT NHÂN PHÂN TÁCH NĂNG LỰC & THẨM QUYỀN (CAPABILITY != AUTHORITY)
 ### Khung Ủy Quyền Có Chứng Thực, Giao Thức DelegationWitness và Cơ Chế Khóa Thời Gian Causal Epoch
 
-> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS  
-> **Plane:** `02_KERNEL/K_AUTHORITY.md`  
-> **Trạng thái:** `CANONICAL` (Trụ Cột Quản Trị Thẩm Quyền Tối Thượng)  
-> **Bất biến Tối thượng:** $\mathbf{CAPABILITY} \ne \mathbf{AUTHORITY} \quad \land \quad \mathbf{AUTHORIZATION} \ne \mathbf{COMMIT}$  
+> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS
+> **Plane:** `02_KERNEL/K_AUTHORITY.md`
+> **Trạng thái:** `CANONICAL` (Trụ Cột Quản Trị Thẩm Quyền Tối Thượng)
+> **Bất biến Tối thượng:** $\mathbf{CAPABILITY} \ne \mathbf{AUTHORITY} \quad \land \quad \mathbf{AUTHORIZATION} \ne \mathbf{COMMIT}$
 
 ---
 
@@ -2805,4 +2805,4 @@ Ghi nhận nhật ký toàn bộ các cuộc gọi yêu cầu quyền hạn tron
 - **MOCs Điều hướng:** [[00_HOME]] · [[00_ROOT_MOC]] · [[02_KERNEL_MOC]] · [[07_AUTHORITY_MOC]]
 
 ---
-**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS  
+**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS

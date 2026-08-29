@@ -250,7 +250,7 @@ node_type: spec
 domain: AMOS_SPEC
 path: AMOS_COGNITIVE_ARCHITECTURE_MATRIX.md
 RSCF-RELATIONS:
-  - INDEXED_BY: 
+  - INDEXED_BY:
   - RELATED_TO: AMOS_quantum_library_v0.1.0
   - RELATED_TO: PRIVACY_POLICY
 claim_class: AMOS_MODEL

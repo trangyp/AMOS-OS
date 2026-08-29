@@ -3066,11 +3066,11 @@ node_id: generators_history
 node_type: note
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_HISTORY.md
 RSCF-RELATIONS:
-  - INDEXED_BY: 
-  - INDEXED_BY: 
+  - INDEXED_BY:
+  - INDEXED_BY:
 claim_class: AMOS_MODEL
 
 ---
-**MOC:** 
+**MOC:**
 
 ```

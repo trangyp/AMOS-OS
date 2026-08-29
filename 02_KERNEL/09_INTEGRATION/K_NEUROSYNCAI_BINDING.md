@@ -35,9 +35,9 @@ aliases:
 ## ĐẶC TẢ HÌNH THỨC HẠT NHÂN NEUROSYNCAI PLATFORM BINDING KERNEL
 ### Khung Tích Hợp Đa Tầng, Ràng Buộc Trạng Thái và Cầu Nối Giao Thức Toàn Hệ Thống
 
-> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS  
-> **Plane:** `02_KERNEL/09_INTEGRATION/K_NEUROSYNCAI_BINDING.md`  
-> **Trạng thái:** `CANONICAL`  
+> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS
+> **Plane:** `02_KERNEL/09_INTEGRATION/K_NEUROSYNCAI_BINDING.md`
+> **Trạng thái:** `CANONICAL`
 
 ---
 
@@ -2214,4 +2214,4 @@ Kênh #144 duy trì sự liên kết phi khóa giữa các phân hệ.
 - **MOCs Điều hướng:** [[00_HOME]] · [[00_ROOT_MOC]] · [[02_KERNEL_MOC]] · [[09_INTEGRATION_MOC]]
 
 ---
-**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS  
+**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS

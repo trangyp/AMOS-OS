@@ -36,9 +36,9 @@ aliases:
 ## ĐẶC TẢ HÌNH THỨC HẠT NHÂN PHÂN TẦNG VŨ TRỤ & BẢN THỂ HỌC ĐA LỚP
 ### Khung 7 Tầng Vũ Trụ Toàn Năng, Động Lực Học Không Gian Pha và Cân Bằng Năng Lượng Đa Thước Đo
 
-> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS  
-> **Plane:** `02_KERNEL/K_UNIVERSE_STRATA.md`  
-> **Trạng thái:** `CANONICAL` (Mô Hình Phân Tầng Vũ Trụ Toàn Diện)  
+> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS
+> **Plane:** `02_KERNEL/K_UNIVERSE_STRATA.md`
+> **Trạng thái:** `CANONICAL` (Mô Hình Phân Tầng Vũ Trụ Toàn Diện)
 
 ---
 
@@ -2221,4 +2221,4 @@ Giao diện chuyển pha giữa Tầng N và Tầng N+1 tại phân vùng #144.
 - **MOCs Điều hướng:** [[00_HOME]] · [[00_ROOT_MOC]] · [[02_KERNEL_MOC]]
 
 ---
-**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS  
+**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS

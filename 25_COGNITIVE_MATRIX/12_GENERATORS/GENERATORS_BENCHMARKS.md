@@ -3243,6 +3243,6 @@ HISTORY.md
 That separation is important because **tests answer whether a property held in a test, while benchmarks answer how a system performed under a measurement envelope; neither alone proves global correctness or readiness.**
 
 ---
-**MOC:** 
+**MOC:**
 
 ```

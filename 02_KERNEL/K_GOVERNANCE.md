@@ -37,9 +37,9 @@ aliases:
 ## ĐẶC TẢ HÌNH THỨC HẠT NHÂN QUẢN TRỊ HIẾN PHÁP & THỰC THI CHÍNH SÁCH
 ### 102 Cổng Quyết Định Bất Biến, Cơ Chế Giám Sát Độc Lập và Hiến Pháp Tự Động Bất Khả Xâm Phạm
 
-> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS  
-> **Plane:** `02_KERNEL/K_GOVERNANCE.md`  
-> **Trạng thái:** `CANONICAL` (Trụ Cột Hiến Pháp Hệ Thống)  
+> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS
+> **Plane:** `02_KERNEL/K_GOVERNANCE.md`
+> **Trạng thái:** `CANONICAL` (Trụ Cột Hiến Pháp Hệ Thống)
 
 ---
 
@@ -2359,4 +2359,4 @@ Phiên đồng thuận #144 yêu cầu sự phê chuẩn của ít nhất 5 nút
 - **MOCs Điều hướng:** [[00_HOME]] · [[00_ROOT_MOC]] · [[02_KERNEL_MOC]] · 05_GOVERNANCE_MOC
 
 ---
-**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS  
+**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS

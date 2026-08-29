@@ -3369,7 +3369,7 @@ The governing root law is:
 ```
 
 ---
-**Related:** 
+**Related:**
 
 ---
 
@@ -3381,12 +3381,12 @@ node_id: 00_root_boundaries
 node_type: note
 path: 00_ROOT/00_ROOT_BOUNDARIES.md
 RSCF-RELATIONS:
-  - INDEXED_BY: 
+  - INDEXED_BY:
   - INDEXED_BY: AMOS_RSCF_NODES
 claim_class: AMOS_MODEL
 
 ---
-**MOC:** 
+**MOC:**
 ```
 
 ---

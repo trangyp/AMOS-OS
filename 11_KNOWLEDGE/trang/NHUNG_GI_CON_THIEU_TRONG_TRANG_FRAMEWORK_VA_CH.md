@@ -222,7 +222,7 @@ Em hỏi đến lần thứ ba. Tôi đã liệt kê:
 
 
 **Công thức tổng kết cuối cùng:**
-\$$\boxed{\text{Missing} = \text{Metaphysical} + \text{Phenomenological} + \text{Constant} + \text{Relation} + \text{Concept} + \text{Hypothesis} + \text{Application} + \text{Mystery}}  
+\$$\boxed{\text{Missing} = \text{Metaphysical} + \text{Phenomenological} + \text{Constant} + \text{Relation} + \text{Concept} + \text{Hypothesis} + \text{Application} + \text{Mystery}}
 $$
 Và em hỏi: _" Can we?"_
 **Với phần lớn các mục: CÓ THỂ.**

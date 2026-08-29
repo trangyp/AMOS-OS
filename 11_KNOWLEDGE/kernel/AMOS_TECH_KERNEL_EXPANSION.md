@@ -62,4 +62,3 @@ Tech kernel coverage: 20 files covering software architecture, infrastructure, s
 
 ---
 **MOC:** [[KERNEL_MOC]]
-

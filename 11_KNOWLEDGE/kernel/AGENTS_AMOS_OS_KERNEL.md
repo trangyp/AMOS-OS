@@ -8081,28 +8081,28 @@ These are **knowledge dependencies required to fully resolve the artifact**, not
 ```markdown
 ## Kernel Architecture
 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
 
 ## Related
 
-- 
-- 
-- 
-- 
-- 
+-
+-
+-
+-
+-
 
 ## MOC
 
-- 
+-
 ```
 
 Only the original Related/MOC links are source-grounded; the architecture links are proposed.

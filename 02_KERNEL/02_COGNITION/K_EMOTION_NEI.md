@@ -35,9 +35,9 @@ aliases:
 ## ĐẶC TẢ HÌNH THỨC HẠT NHÂN NEUROEMOTIONAL NEI COGNITION KERNEL
 ### Khung Nhận Thức Đa Tầng, Điều Hòa Sinh Học và Cơ Chế Tác Vụ Tất Định
 
-> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS  
-> **Plane:** `02_KERNEL/02_COGNITION/K_EMOTION_NEI.md`  
-> **Trạng thái:** `CANONICAL`  
+> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS
+> **Plane:** `02_KERNEL/02_COGNITION/K_EMOTION_NEI.md`
+> **Trạng thái:** `CANONICAL`
 
 ---
 
@@ -2214,4 +2214,4 @@ Kênh #144 duy trì sự đồng bộ giữa nhận thức logic và cân bằng
 - **MOCs Điều hướng:** [[00_HOME]] · [[00_ROOT_MOC]] · [[02_KERNEL_MOC]] · [[02_COGNITION_MOC]]
 
 ---
-**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS  
+**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS

@@ -75,7 +75,7 @@ suggest consulting a qualified lawyer.\"\n    },\n    \"refusal_protocol\": {\n 
 ]
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:**  ·  ·  ·  ·
 ```
 
 ---

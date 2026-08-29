@@ -3599,8 +3599,8 @@ before promotion or structural mutation.
 
 Referenced contextual receipts:
 
-* 
-* 
+*
+*
 
 These do not automatically constitute an artifact-specific validation receipt for the Absolute Omniverse Model.
 
@@ -4769,15 +4769,15 @@ ABSOLUTE_OMNIVERSE_PROMOTION_STATE:
 
 # 259. Cross-Plane Bindings
 
-* Governed by canon —  · 
-* Models-plane navigation — 
-* Models foundation — 
-* Kernel interaction — 
-* Control-plane gates — 
+* Governed by canon —  ·
+* Models-plane navigation —
+* Models foundation —
+* Kernel interaction —
+* Control-plane gates —
 * Observed by —  · never treated as authority
-* Recovered via operations — 
-* RSCF graph — 
-* Root navigation — 
+* Recovered via operations —
+* RSCF graph —
+* Root navigation —
 
 ---
 

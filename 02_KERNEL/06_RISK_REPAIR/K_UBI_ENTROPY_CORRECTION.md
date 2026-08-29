@@ -38,9 +38,9 @@ aliases:
 ## ĐẶC TẢ HÌNH THỨC HẠT NHÂN HIỆU CHỈNH ENTROPY SINH HỌC & CÂN BẰNG NHIỆT ĐỘNG UBI
 ### Khung Bơm Negentropy Tự Động, Cân Bằng 4 Miền NBI/NEI/SI/BEI và Cơ Chế Tản Nhiệt Nhận Thức
 
-> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS  
-> **Plane:** `02_KERNEL/06_RISK_REPAIR/K_UBI_ENTROPY_CORRECTION.md`  
-> **Trạng thái:** `CANONICAL` (Trụ Cột Cân Bằng Nội Môi Sinh Học)  
+> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS
+> **Plane:** `02_KERNEL/06_RISK_REPAIR/K_UBI_ENTROPY_CORRECTION.md`
+> **Trạng thái:** `CANONICAL` (Trụ Cột Cân Bằng Nội Môi Sinh Học)
 
 ---
 
@@ -2522,4 +2522,4 @@ Kênh điều hòa #144 duy trì tính ổn định giữa NBI và NEI:
 - **MOCs Điều hướng:** [[00_HOME]] · [[00_ROOT_MOC]] · [[02_KERNEL_MOC]] · [[06_RISK_REPAIR_MOC]]
 
 ---
-**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS  
+**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS

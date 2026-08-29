@@ -73,12 +73,12 @@ epistemic_boundary:
 ```text
   Incoming Cognitive Task / Query
      │
-  ├── Reality / Ground State ──────>  & 
-  ├── Biological Alignment ────────>  & 
-  ├── Structural Foresight ────────>  & 
-  ├── Deterministic Logic ─────────>  & 
-  ├── Fractal Multi-Scale Search ──>  & 
-  └── Heritage Decision Intel ─────>  & 
+  ├── Reality / Ground State ──────>  &
+  ├── Biological Alignment ────────>  &
+  ├── Structural Foresight ────────>  &
+  ├── Deterministic Logic ─────────>  &
+  ├── Fractal Multi-Scale Search ──>  &
+  └── Heritage Decision Intel ─────>  &
 ```
 
 ---

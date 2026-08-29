@@ -166,8 +166,8 @@ Total knowledge tests: 33 (was 29, +4 new)
 
 ## Links (2)
 
-- 
-- 
+-
+-
 
 ---
 
@@ -225,12 +225,12 @@ npm test
 
 ## Links
 
-- 
-- 
+-
+-
 - 2026-08-22 AMOS Structural Gap Promotion 340-347
 
 ---
-**MOC:** 
+**MOC:**
 ```
 
 ---

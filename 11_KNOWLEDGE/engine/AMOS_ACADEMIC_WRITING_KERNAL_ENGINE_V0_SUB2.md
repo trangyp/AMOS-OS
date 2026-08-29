@@ -76,7 +76,7 @@ and supplementary materials are academically rigorous and aligned with the text.
 ]
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:**  ·  ·  ·  ·
 ```
 
 ---

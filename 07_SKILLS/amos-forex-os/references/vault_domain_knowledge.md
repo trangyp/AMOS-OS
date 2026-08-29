@@ -263,11 +263,11 @@ def test_ukr_pipeline():
     state = UKRState(instrument="EUR_USD"
 
 ---
-**MOC:** 
+**MOC:**
 
 ## Related
 
-- 
+-
 ```
 
 ---

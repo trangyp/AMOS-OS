@@ -40,20 +40,20 @@ SORT file.name ASC
 > [!note] Source preface
 >
 > # AMOS OBSIDIAN — LINKING PLUGIN STACK
-> 
+>
 > ## Full Canonical Content + Extended Tags + Obsidian/RSCF Integration
-> 
+>
 > > **Conclusion class:** `DECISION / AMOS_MODEL`
 > > **Artifact epistemic state:** `SOURCE_CLAIM`
 > > **Confidence label:** `DERIVED`
 > > **Origin architect / steward:** Trang Phan
 > > **Scope:** AMOS persistent-knowledge tooling and Obsidian linking architecture
 > > **Source boundary:** Plugin names, rankings, configuration statements, and recommendations below are preserved as corpus claims unless independently verified against the current Obsidian/community-plugin registry.
-> 
+>
 > ---
-> 
+>
 > # 0. Normalized Source Frontmatter — SOURCE
-> 
+>
 > ```yaml
 > ---
 > artifact_id: AMOS-OBSIDIAN-LINKING-PLUGINS
@@ -65,7 +65,7 @@ SORT file.name ASC
 > provenance: USER_REQUEST / COMMUNITY_PLUGIN_REGISTRY
 > status: active
 > steward: Trang Phan
-> 
+>
 > tags:
 >   - obsidian
 >   - knowledge
@@ -82,11 +82,11 @@ SORT file.name ASC
 >   - rscf/provenance
 >   - rscf/state/derived
 >   - topic/obsidian-linking
-> 
+>
 > title: AMOS Obsidian — Linking Plugin Stack
 > type: reference
 > source: 11_KNOWLEDGE
-> 
+>
 > rscf:
 >   state: SOURCE_CLAIM
 >   claim_class: SOURCE_CLAIM
@@ -94,14 +94,14 @@ SORT file.name ASC
 >   scope: AMOS_knowledge
 > ---
 > ```
-> 
+>
 > > [!important] Source metadata boundary
 > > The frontmatter above preserves the supplied fields and values. The expanded tags, aliases, RSCF topology, plugin classes, governance fields, Dataview properties, and ingestion controls below are **DERIVED / PROPOSED** unless explicitly present in the source.
-> 
+>
 > ---
-> 
+>
 > # 1. Extended Obsidian Frontmatter — DERIVED / PROPOSED
-> 
+>
 > ```yaml
 > aliases:
 >   - AMOS Obsidian Linking Plugins
@@ -110,7 +110,7 @@ SORT file.name ASC
 >   - AMOS Linking Stack
 >   - AMOS Vault Linking Stack
 >   - AMOS Obsidian Knowledge Graph Tooling
-> 
+>
 > derived_tags:
 >   # AMOS
 >   - amos
@@ -120,14 +120,14 @@ SORT file.name ASC
 >   - amos-tooling
 >   - amos-vault
 >   - amos-obsidian
-> 
+>
 >   # layer
 >   - 11-knowledge
 >   - knowledge-layer
 >   - persistent-knowledge
 >   - persistent-brain
 >   - knowledge-infrastructure
-> 
+>
 >   # Obsidian
 >   - obsidian
 >   - obsidian-vault
@@ -138,7 +138,7 @@ SORT file.name ASC
 >   - obsidian-automation
 >   - obsidian-graph
 >   - obsidian-moc
-> 
+>
 >   # linking
 >   - linking
 >   - wikilinks
@@ -152,7 +152,7 @@ SORT file.name ASC
 >   - related-notes
 >   - orphan-detection
 >   - broken-links
-> 
+>
 >   # plugins
 >   - smart-connections
 >   - autolink
@@ -163,13 +163,13 @@ SORT file.name ASC
 >   - dataview
 >   - copilot
 >   - knowledge-graph-analysis
-> 
+>
 >   # Obsidian core
 >   - backlink
 >   - outgoing-link
 >   - graph
 >   - page-preview
-> 
+>
 >   # automation
 >   - templater
 >   - quickadd
@@ -178,7 +178,7 @@ SORT file.name ASC
 >   - automated-note-creation
 >   - structured-capture
 >   - frontmatter-automation
-> 
+>
 >   # graph / MOC
 >   - moc
 >   - map-of-content
@@ -188,7 +188,7 @@ SORT file.name ASC
 >   - graph-topology
 >   - graph-hygiene
 >   - orphan-notes
-> 
+>
 >   # AMOS epistemics
 >   - rscf
 >   - rscf-node
@@ -201,7 +201,7 @@ SORT file.name ASC
 >   - confidence
 >   - source-claim
 >   - amos-model
-> 
+>
 >   # governance
 >   - tooling-governance
 >   - plugin-governance
@@ -213,13 +213,13 @@ SORT file.name ASC
 >   - anti-regression
 >   - scope-firewall
 >   - provenance-firewall
-> 
+>
 >   # canon
 >   - canon-tech-ai
 >   - canon-tooling
 >   - canon-knowledge
 >   - canon-obsidian
-> 
+>
 >   # topic
 >   - topic-obsidian-linking
 >   - topic-vault-automation
@@ -227,7 +227,7 @@ SORT file.name ASC
 >   - topic-moc
 >   - topic-templating
 >   - topic-plugin-stack
-> 
+>
 > proposed_rscf:
 >   node_id: amos_obsidian_linking_plugins
 >   node_type: note
@@ -241,17 +241,17 @@ SORT file.name ASC
 >     - AMOS_corpus
 >   scope: AMOS_knowledge
 >   confidence_label: DERIVED
-> 
+>
 > raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 > ingestion_action: INDEX_AS_REFERENCE
 > ```
-> 
+>
 > ---
-> 
+>
 > # 2. Artifact Identity
-> 
+>
 > # AMOS Obsidian — Linking Plugin Stack
-> 
+>
 > > [!abstract] RSCF-NODE
 > > **Node:** `amos_obsidian_linking_plugins`
 > > **Node type:** `note`
@@ -265,19 +265,19 @@ SORT file.name ASC
 > > **Source epistemic state:** `SOURCE_CLAIM`
 > > **Conclusion class:** `DECISION / AMOS_MODEL`
 > > **Confidence label:** `DERIVED`
-> 
+>
 > ---
-> 
+>
 > # 3. Purpose
-> 
+>
 > The source defines the purpose as:
-> 
+>
 > > Use Obsidian as the persistent brain surface for AMOS.
-> 
+>
 > The artifact configures a linking-oriented plugin stack and supplies a starter Templater pattern so newly created notes can enter the vault with pre-existing relationships to the AMOS MOC network.
-> 
+>
 > At the model level:
-> 
+>
 > ```text
 > NEW INFORMATION
 >       ↓
@@ -293,19 +293,19 @@ SORT file.name ASC
 >       ↓
 > PERSISTENT AMOS KNOWLEDGE GRAPH
 > ```
-> 
+>
 > The first sentence is source-defined purpose. The pipeline representation is **DERIVED**.
-> 
+>
 > ---
-> 
+>
 > # 4. Primary Design Objective
-> 
+>
 > The artifact is not merely a list of plugins.
-> 
+>
 > Its deeper source-defined objective is to prevent newly created AMOS knowledge from beginning as disconnected notes.
-> 
+>
 > The intended transition is:
-> 
+>
 > ```text
 > UNCONNECTED NOTE
 >        ↓
@@ -317,17 +317,17 @@ SORT file.name ASC
 >        ↓
 > GRAPH INTEGRATION
 > ```
-> 
+>
 > This is a structural interpretation of the supplied template and plugin recommendations.
-> 
+>
 > ---
-> 
+>
 > # 5. Epistemic Boundary
-> 
+>
 > Several kinds of claims coexist in this note.
-> 
+>
 > They must remain separated.
-> 
+>
 > | Content                             | Safe Class                              |
 > | ----------------------------------- | --------------------------------------- |
 > | User-supplied artifact content      | `SOURCE_CLAIM`                          |
@@ -338,45 +338,45 @@ SORT file.name ASC
 > | Dataview example                    | source-supplied configuration           |
 > | Runtime behavior in user's vault    | `UNKNOWN` unless tested                 |
 > | Current plugin availability/version | `UNKNOWN` unless registry-verified      |
-> 
+>
 > Therefore:
-> 
+>
 > ```text
 > PLUGIN LISTED
 > !=
 > PLUGIN CURRENTLY AVAILABLE
-> 
+>
 > PLUGIN ENABLED IN DOCUMENT
 > !=
 > PLUGIN VERIFIED ENABLED IN VAULT
-> 
+>
 > PLUGIN DESCRIPTION
 > !=
 > INDEPENDENTLY VERIFIED CURRENT CAPABILITY
-> 
+>
 > RECOMMENDED STACK
 > !=
 > MANDATORY CANON
-> 
+>
 > AI LINK SUGGESTION
 > !=
 > CANONICAL RELATION
-> 
+>
 > SEMANTIC SIMILARITY
 > !=
 > CAUSATION
-> 
+>
 > SEMANTIC SIMILARITY
 > !=
 > IDENTITY
 > ```
-> 
+>
 > ---
-> 
+>
 > # 6. Source-Defined Community Plugin Stack
-> 
+>
 > The supplied artifact ranks nine community plugins.
-> 
+>
 > | Rank | Plugin ID                  | Display Name             | Source-Defined Purpose                  | Best For                     |
 > | ---: | -------------------------- | ------------------------ | --------------------------------------- | ---------------------------- |
 > |    1 | `smart-connections`        | Smart Connections        | Semantic / AI related-note discovery    | Intelligent suggestions      |
@@ -388,34 +388,34 @@ SORT file.name ASC
 > |    7 | `dataview`                 | Dataview                 | Dynamic link lists / auto-MOCs          | Auto-updating indexes        |
 > |    8 | `copilot`                  | Copilot                  | AI writing assistant + link suggestions | Link insertion while writing |
 > |    9 | `knowledge-graph-analysis` | Knowledge Graph Analysis | Graph metrics and link insights         | Link topology                |
-> 
+>
 > ---
-> 
+>
 > # 7. Source Spelling Preservation
-> 
+>
 > One plugin ID is supplied as:
-> 
+>
 > ```text
 > obisidian-note-linker
 > ```
-> 
+>
 > The apparent `obisidian` spelling may be intentional, registry-specific, or a typo.
-> 
+>
 > Without registry verification, preserve:
-> 
+>
 > ```yaml
 > source_plugin_id: obisidian-note-linker
 > canonical_registry_id: UNKNOWN
 > ```
-> 
+>
 > Do **not** silently change it to `obsidian-note-linker`.
-> 
+>
 > ---
-> 
+>
 > # 8. Recommended Combination — SOURCE
-> 
+>
 > The source explicitly recommends:
-> 
+>
 > ```yaml
 > recommended_combination:
 >   smartest_linking: smart-connections
@@ -425,58 +425,58 @@ SORT file.name ASC
 >     - quickadd
 >   fast_manual_linking: various-complements
 > ```
-> 
+>
 > This is a source-defined decision architecture.
-> 
+>
 > It should not be promoted into a universal statement that these are objectively the best plugins for all Obsidian users.
-> 
+>
 > ---
-> 
+>
 > # 9. Functional Decomposition
-> 
+>
 > The nine-plugin stack can be divided into functional roles.
-> 
+>
 > This decomposition is **DERIVED**.
-> 
+>
 > ```text
 > DISCOVERY
 > ├── Smart Connections
 > ├── Note Linker
 > └── Copilot
-> 
+>
 > LINK CREATION / REPAIR
 > ├── Autolink
 > └── Various Complements
-> 
+>
 > NOTE GENERATION
 > ├── Templater
 > └── QuickAdd
-> 
+>
 > INDEXING / QUERY
 > └── Dataview
-> 
+>
 > GRAPH ANALYSIS
 > └── Knowledge Graph Analysis
 > ```
-> 
+>
 > ---
-> 
+>
 > # 10. Layer A — Semantic Discovery
-> 
+>
 > Primary source plugin:
-> 
+>
 > ```text
 > smart-connections
 > ```
-> 
+>
 > Source purpose:
-> 
+>
 > ```text
 > Semantic / AI related-note discovery
 > ```
-> 
+>
 > Conceptually:
-> 
+>
 > ```text
 > CURRENT NOTE
 >      ↓
@@ -488,17 +488,17 @@ SORT file.name ASC
 >      ↓
 > OPTIONAL LINK
 > ```
-> 
+>
 > The final review step is a derived governance recommendation.
-> 
+>
 > ---
-> 
+>
 > # 11. Semantic-Link Firewall
-> 
+>
 > A semantic system may identify two notes as similar.
-> 
+>
 > That does not establish:
-> 
+>
 > ```text
 > A CAUSES B
 > A IS B
@@ -506,31 +506,31 @@ SORT file.name ASC
 > A CONTRADICTS B
 > A IS PARENT OF B
 > ```
-> 
+>
 > Therefore:
-> 
+>
 > $$
 > SemanticSimilarity(A,B)
 > \not\Rightarrow
 > CanonicalRelation(A,B)
 > $$
-> 
+>
 > A proposed link remains a candidate until its relation semantics are known.
-> 
+>
 > ---
-> 
+>
 > # 12. Link Existence ≠ Relation Meaning
-> 
+>
 > A raw Obsidian wikilink:
-> 
+>
 > ```markdown
 > NOTE_B
 > ```
-> 
+>
 > establishes navigational connectivity.
-> 
+>
 > It does not encode whether B is:
-> 
+>
 > ```text
 > evidence
 > parent
@@ -544,78 +544,78 @@ SORT file.name ASC
 > MOC
 > related concept
 > ```
-> 
+>
 > AMOS RSCF relations can carry the missing semantic type where needed.
-> 
+>
 > ---
-> 
+>
 > # 13. Layer B — Bulk Linking
-> 
+>
 > Source:
-> 
+>
 > ```text
 > autolink
 > ```
-> 
+>
 > Purpose:
-> 
+>
 > > Auto-convert matching text to links.
-> 
+>
 > This is useful for existing corpus cleanup but introduces a high-value governance boundary:
-> 
+>
 > ```text
 > TEXT MATCH
 > !=
 > ENTITY IDENTITY
 > ```
-> 
+>
 > A matching phrase can refer to different concepts.
-> 
+>
 > ---
-> 
+>
 > # 14. Autolink Risk
-> 
+>
 > Suppose the vault contains:
-> 
+>
 > ```text
 > Reality
 > ```
-> 
+>
 > and a note:
-> 
+>
 > ```markdown
 > Reality
 > ```
-> 
+>
 > An automatic conversion of every occurrence of the word `Reality` into that note may be incorrect if some occurrences use a different meaning.
-> 
+>
 > Therefore bulk linking should be treated as:
-> 
+>
 > ```text
 > candidate transformation
 > → sample validation
 > → controlled expansion
 > ```
-> 
+>
 > rather than:
-> 
+>
 > ```text
 > global rewrite
 > → assume correctness
 > ```
-> 
+>
 > This aligns with the source checklist's recommendation to test a sample folder before bulk linking.
-> 
+>
 > ---
-> 
+>
 > # 15. Source-Supplied Safety Pattern
-> 
+>
 > The first-run checklist explicitly recommends:
-> 
+>
 > > Run Autolink (or Note Linker) across a sample folder first to audit behavior before bulk-linking.
-> 
+>
 > This is a strong source-defined reversible-action pattern:
-> 
+>
 > ```text
 > SAMPLE
 >   ↓
@@ -623,27 +623,27 @@ SORT file.name ASC
 >   ↓
 > EXPAND
 > ```
-> 
+>
 > rather than immediate irreversible vault-wide mutation.
-> 
+>
 > ---
-> 
+>
 > # 16. Layer C — Templater
-> 
+>
 > Source plugin:
-> 
+>
 > ```text
 > templater-obsidian
 > ```
-> 
+>
 > Source role:
-> 
+>
 > ```text
 > JS-driven note creation with links
 > ```
-> 
+>
 > The supplied artifact uses Templater to standardize:
-> 
+>
 > * creation date;
 > * origin architect;
 > * note type;
@@ -653,23 +653,23 @@ SORT file.name ASC
 > * confidence;
 > * related notes;
 > * note title.
-> 
+>
 > ---
-> 
+>
 > # 17. Layer D — QuickAdd
-> 
+>
 > Source:
-> 
+>
 > ```text
 > quickadd
 > ```
-> 
+>
 > Purpose:
-> 
+>
 > > One-shortcut capture + templater.
-> 
+>
 > The intended composition is:
-> 
+>
 > ```text
 > QUICKADD
 >    ↓
@@ -677,296 +677,296 @@ SORT file.name ASC
 >    ↓
 > STANDARDIZED NOTE
 > ```
-> 
+>
 > This composition is explicitly recommended in the source checklist.
-> 
+>
 > ---
-> 
+>
 > # 18. Layer E — Various Complements
-> 
+>
 > Source:
-> 
+>
 > ```text
 > various-complements
 > ```
-> 
+>
 > Purpose:
-> 
+>
 > > Faster autocomplete.
-> 
+>
 > Its role differs from Smart Connections.
-> 
+>
 > Conceptually:
-> 
+>
 > ```text
 > Smart Connections
 > → semantic candidate discovery
-> 
+>
 > Various Complements
 > → faster manual completion
 > ```
-> 
+>
 > Do not collapse semantic recommendation and autocomplete into one mechanism.
-> 
+>
 > ---
-> 
+>
 > # 19. Layer F — Note Linker
-> 
+>
 > Source plugin ID:
-> 
+>
 > ```text
 > obisidian-note-linker
 > ```
-> 
+>
 > Display name:
-> 
+>
 > ```text
 > Note Linker
 > ```
-> 
+>
 > Source role:
-> 
+>
 > > Suggest missed note-to-note links.
-> 
+>
 > This is structurally complementary to Autolink:
-> 
+>
 > ```text
 > AUTOLINK
 > → convert detected textual matches
-> 
+>
 > NOTE LINKER
 > → suggest missing note relationships
 > ```
-> 
+>
 > Exact current implementation semantics require plugin-specific evidence.
-> 
+>
 > ---
-> 
+>
 > # 20. Layer G — Dataview
-> 
+>
 > Source:
-> 
+>
 > ```text
 > dataview
 > ```
-> 
+>
 > Purpose:
-> 
+>
 > > Dynamic link lists / auto-MOCs.
-> 
+>
 > Dataview introduces a different type of connectivity:
-> 
+>
 > ```text
 > EXPLICIT LINK
 > vs
 > QUERY-DERIVED MEMBERSHIP
 > ```
-> 
+>
 > A note can appear in an MOC query without containing a direct wikilink to that MOC.
-> 
+>
 > ---
-> 
+>
 > # 21. Dataview as Dynamic Index
-> 
+>
 > The source example is:
-> 
+>
 > ```dataview
 > TABLE file.mtime AS Updated, tags
 > FROM #moc OR #canon-group/tech-ai
 > SORT file.name ASC
 > ```
-> 
+>
 > This creates a dynamic view over notes satisfying tag conditions.
-> 
+>
 > It should be understood as:
-> 
+>
 > ```text
 > QUERY RESULT
 > ```
-> 
+>
 > not necessarily:
-> 
+>
 > ```text
 > STATIC CANONICAL MEMBERSHIP
 > ```
-> 
+>
 > unless the tags themselves are governed canonically.
-> 
+>
 > ---
-> 
+>
 > # 22. Layer H — Copilot
-> 
+>
 > Source:
-> 
+>
 > ```text
 > copilot
 > ```
-> 
+>
 > Purpose:
-> 
+>
 > > AI writing assistant + link suggestions.
-> 
+>
 > Its output should remain suggestion-level unless reviewed.
-> 
+>
 > ```text
 > AI SUGGESTION
 > !=
 > CANONICAL LINK
 > ```
-> 
+>
 > and:
-> 
+>
 > ```text
 > FLUENT EXPLANATION
 > !=
 > SOURCE EVIDENCE
 > ```
-> 
+>
 > ---
-> 
+>
 > # 23. Layer I — Knowledge Graph Analysis
-> 
+>
 > Source:
-> 
+>
 > ```text
 > knowledge-graph-analysis
 > ```
-> 
+>
 > Purpose:
-> 
+>
 > > Graph metrics and link insights.
-> 
+>
 > This supports topology analysis.
-> 
+>
 > Possible derived graph concerns include:
-> 
+>
 > * orphan nodes;
 > * high-degree hubs;
 > * disconnected clusters;
 > * weakly connected domains;
 > * over-centralization;
 > * bridge nodes.
-> 
+>
 > These specific metrics are not enumerated in the source.
-> 
+>
 > ---
-> 
+>
 > # 24. Graph Metric Firewall
-> 
+>
 > Graph topology must not be overinterpreted.
-> 
+>
 > ```text
 > HIGH DEGREE
 > !=
 > HIGH TRUTH
-> 
+>
 > CENTRAL NODE
 > !=
 > AUTHORITATIVE NODE
-> 
+>
 > MANY BACKLINKS
 > !=
 > INDEPENDENT CONFIRMATION
-> 
+>
 > ISOLATED NOTE
 > !=
 > FALSE NOTE
-> 
+>
 > DENSE CLUSTER
 > !=
 > VALID THEORY
 > ```
-> 
+>
 > Graph metrics describe topology, not epistemic validity.
-> 
+>
 > ---
-> 
+>
 > # 25. Core Obsidian Linking Plugins — SOURCE
-> 
+>
 > The source identifies four core Obsidian capabilities:
-> 
+>
 > | Core Plugin   | Source Setting        | Purpose                            |
 > | ------------- | --------------------- | ---------------------------------- |
 > | Backlink      | `backlink: true`      | Shows who links to current note    |
 > | Outgoing link | `outgoing-link: true` | Surfaces unlinked mentions / notes |
 > | Graph         | `graph: true`         | Global/local link topology         |
 > | Page preview  | `page-preview: true`  | Hover previews                     |
-> 
+>
 > ---
-> 
+>
 > # 26. Backlinks
-> 
+>
 > Backlinks provide reverse traversal:
-> 
+>
 > ```text
 > A → B
 > ```
-> 
+>
 > while viewing B:
-> 
+>
 > ```text
 > B ← A
 > ```
-> 
+>
 > This supports provenance discovery and contextual navigation.
-> 
+>
 > However:
-> 
+>
 > ```text
 > BACKLINK
 > !=
 > ENDORSEMENT
 > ```
-> 
+>
 > ---
-> 
+>
 > # 27. Outgoing Links
-> 
+>
 > Outgoing-link functionality supports detection of:
-> 
+>
 > ```text
 > mentions
 > existing links
 > potential unlinked references
 > ```
-> 
+>
 > depending on Obsidian behavior/configuration.
-> 
+>
 > The source specifically frames it as a mechanism for surfacing unlinked mentions and notes to connect.
-> 
+>
 > ---
-> 
+>
 > # 28. Graph
-> 
+>
 > Graph views provide a topology surface.
-> 
+>
 > Conceptually:
-> 
+>
 > $$
 > G=(V,E)
 > $$
-> 
+>
 > where:
-> 
+>
 > * \(V\) = notes;
 > * \(E\) = links.
-> 
+>
 > This graph abstraction is derived.
-> 
+>
 > ---
-> 
+>
 > # 29. Page Preview
-> 
+>
 > Page Preview reduces navigation cost by exposing linked-note content without requiring full navigation.
-> 
+>
 > Its role is primarily interaction/navigation, not canonical relation generation.
-> 
+>
 > ---
-> 
+>
 > # 30. Combined Linking Architecture
-> 
+>
 > The full source stack can be normalized as:
-> 
+>
 > ```text
 >                     ┌─────────────────┐
 >                     │ NEW KNOWLEDGE   │
@@ -1005,15 +1005,15 @@ SORT file.name ASC
 >                     │ GRAPH           │
 >                     └─────────────────┘
 > ```
-> 
+>
 > This is a **DERIVED architecture** from the source-defined plugin roles.
-> 
+>
 > ---
-> 
+>
 > # 31. Templater Starter Script — SOURCE
-> 
+>
 > The supplied template is:
-> 
+>
 > ```markdown
 > ---
 > created: "<% tp.date.now("YYYY-MM-DD") %>"
@@ -1027,157 +1027,157 @@ SORT file.name ASC
 >   - "00 Cosmo Brain MOC"
 >   - "AMOS Home"
 > ---
-> 
+>
 > # <% tp.file.title %>
-> 
+>
 > > Epistemic class: MODEL
-> 
+>
 > > Confidence: DERIVED
-> 
+>
 > ## Purpose
-> 
+>
 > ## Links
-> 
+>
 > - 00 Cosmo Brain MOC
 > - AMOS Home
-> 
+>
 > ## Notes
 > ```
-> 
+>
 > ---
-> 
+>
 > # 32. Template Purpose
-> 
+>
 > The source states three effects:
-> 
+>
 > 1. standard AMOS provenance frontmatter;
 > 2. pre-linking to root MOC and Cosmo Brain MOC;
 > 3. title normalization from new-note name.
-> 
+>
 > A source-level ambiguity exists, however.
-> 
+>
 > The supplied `related:` values are:
-> 
+>
 > ```yaml
 > related:
 >   - "00 Cosmo Brain MOC"
 >   - "AMOS Home"
 > ```
-> 
+>
 > and the Links section uses:
-> 
+>
 > ```markdown
 > - 00 Cosmo Brain MOC
 > - AMOS Home
 > ```
-> 
+>
 > These are plain strings/text, not explicit Obsidian wikilinks.
-> 
+>
 > Therefore the claim that the template **pre-links** those notes is not fully established by the literal snippet.
-> 
+>
 > ---
-> 
+>
 > # 33. Template Linking Gap
-> 
+>
 > Literal source:
-> 
+>
 > ```markdown
 > - 00 Cosmo Brain MOC
 > - AMOS Home
 > ```
-> 
+>
 > Explicit Obsidian links would normally have the structural form:
-> 
+>
 > ```markdown
 > - 00 Cosmo Brain MOC
 > - AMOS Home
 > ```
-> 
+>
 > But the latter is a **PROPOSED correction**, not a silent normalization of the supplied template.
-> 
+>
 > Therefore:
-> 
+>
 > ```yaml
 > template_linking:
 >   intended_behavior:
 >     source_claim: pre_links_root_and_cosmo_MOCs
-> 
+>
 >   literal_template:
 >     explicit_wikilinks_present: false
-> 
+>
 >   status: DECISION_RELEVANT_GAP
 > ```
-> 
+>
 > This is one of the most important internal consistency findings in the artifact.
-> 
+>
 > ---
-> 
+>
 > # 34. Proposed AMOS-Safe Linked Template
-> 
+>
 > The following is an augmentation, not replacement source:
-> 
+>
 > ```markdown
 > ---
 > created: "<% tp.date.now("YYYY-MM-DD") %>"
 > origin_architect: Trang Phan
 > type: note
 > status: draft
-> 
+>
 > tags:
 >   - note
 >   - linkme
 >   - rscf/state/model
-> 
+>
 > provenance: MODEL
 > confidence: DERIVED
-> 
+>
 > related:
 >   - "00 Cosmo Brain MOC"
 >   - "[[00_HOME]]"
 > ---
-> 
+>
 > # <% tp.file.title %>
-> 
+>
 > > [!info] Epistemic State
 > > **Class:** MODEL
 > > **Confidence:** DERIVED
-> 
+>
 > ## Purpose
-> 
+>
 > ## Links
-> 
+>
 > - 00 Cosmo Brain MOC
 > - [[00_HOME]]
-> 
+>
 > ## Notes
 > ```
-> 
+>
 > Again, this is **PROPOSED**.
-> 
+>
 > ---
-> 
+>
 > # 35. Source File Location
-> 
+>
 > The source recommends:
-> 
+>
 > ```text
 > Templates/linked-note.md
 > ```
-> 
+>
 > and states:
-> 
+>
 > > save this as a Templater template and bind it to QuickAdd or a hotkey.
-> 
+>
 > ---
-> 
+>
 > # 36. Preconfiguration Claim
-> 
+>
 > The artifact states:
-> 
+>
 > > Templater is already set to use the `Templates` folder (`.obsidian/plugins/templater-obsidian/data.json`).
-> 
+>
 > Classification:
-> 
+>
 > ```yaml
 > templater_configuration:
 >   claim: "Templates folder already configured"
@@ -1185,28 +1185,28 @@ SORT file.name ASC
 >   supplied_path: ".obsidian/plugins/templater-obsidian/data.json"
 >   independently_verified: false
 > ```
-> 
+>
 > Do not promote this to current vault fact without inspecting the actual configuration.
-> 
+>
 > ---
-> 
+>
 > # 37. First-Run Checklist — SOURCE
-> 
+>
 > The source recommends:
-> 
+>
 > 1. Install and enable the listed community plugins.
 > 2. Run Smart Connections and allow its local embedding index to build.
 > 3. Run Autolink or Note Linker on a sample folder before bulk use.
 > 4. Configure QuickAdd to invoke the linked-note Templater template.
 > 5. Add a Dataview auto-MOC.
 > 6. Periodically find orphaned files and broken links.
-> 
+>
 > ---
-> 
+>
 > # 38. First-Run Pipeline
-> 
+>
 > Derived normalization:
-> 
+>
 > ```text
 > INSTALL
 >   ↓
@@ -1224,15 +1224,15 @@ SORT file.name ASC
 >   ↓
 > MAINTAIN GRAPH
 > ```
-> 
+>
 > This ordering is strongly supported by the source checklist.
-> 
+>
 > ---
-> 
+>
 > # 39. Reversibility Principle
-> 
+>
 > The sample-folder recommendation embodies a robust governance principle:
-> 
+>
 > $$
 > SmallTest
 > \rightarrow
@@ -1240,23 +1240,23 @@ SORT file.name ASC
 > \rightarrow
 > Scale
 > $$
-> 
+>
 > rather than:
-> 
+>
 > $$
 > UntestedAutomation
 > \rightarrow
 > WholeVaultMutation
 > $$
-> 
+>
 > This is a **DERIVED governance principle** grounded in the source recommendation.
-> 
+>
 > ---
-> 
+>
 > # 40. MOC Architecture
-> 
+>
 > The artifact connects to:
-> 
+>
 > ```text
 > 00 Cosmo Brain MOC
 > [[00_ROOT_MOC]]
@@ -1265,244 +1265,244 @@ SORT file.name ASC
 > [[KNOWLEDGE_MOC]]
 > [[AMOS_TEMPLATES]]
 > ```
-> 
+>
 > This establishes a source-defined navigation neighborhood.
-> 
+>
 > ---
-> 
+>
 > # 41. Knowledge MOC Role
-> 
+>
 > Source:
-> 
+>
 > ```markdown
 > [[KNOWLEDGE_MOC|11_KNOWLEDGE MOC — the knowledge layer index]]
 > ```
-> 
+>
 > This explicitly identifies `KNOWLEDGE_MOC` as the knowledge-layer index.
-> 
+>
 > Therefore the artifact is naturally indexed inside the `11_KNOWLEDGE` navigation plane.
-> 
+>
 > ---
-> 
+>
 > # 42. AMOS Layer Maps
-> 
+>
 > Source:
-> 
+>
 > ```markdown
 > [[AMOS_LAYER_MAPS]]
 > ```
-> 
+>
 > with description:
-> 
+>
 > > top-level AMOS layer map index.
-> 
+>
 > This establishes a higher-level navigational relationship.
-> 
+>
 > ---
-> 
+>
 > # 43. AMOS Templates
-> 
+>
 > Source:
-> 
+>
 > ```markdown
 > [[AMOS_TEMPLATES]]
 > ```
-> 
+>
 > with description:
-> 
+>
 > > AMOS template index.
-> 
+>
 > This is directly relevant to the `linked-note` template.
-> 
+>
 > ---
-> 
+>
 > # 44. Root MOC
-> 
+>
 > Source explicitly references:
-> 
+>
 > ```markdown
 > [[00_ROOT_MOC]]
 > ```
-> 
+>
 > This is distinct from the plain-text:
-> 
+>
 > ```text
 > 00 Cosmo Brain MOC
 > ```
-> 
+>
 > and:
-> 
+>
 > ```markdown
 > [[00_HOME]]
 > ```
-> 
+>
 > Do not silently assume all three refer to the same note.
-> 
+>
 > ---
-> 
+>
 > # 45. MOC ≠ Canonical Parent
-> 
+>
 > A note being indexed by an MOC does not necessarily mean:
-> 
+>
 > ```text
 > MOC PARENT_OF NOTE
 > ```
-> 
+>
 > in a semantic or ontological sense.
-> 
+>
 > Indexing and hierarchy should remain distinct.
-> 
+>
 > ```text
 > INDEXED_BY
 > !=
 > CHILD_OF
 > ```
-> 
+>
 > unless canon explicitly equates them.
-> 
+>
 > ---
-> 
+>
 > # 46. RSCF Node — SOURCE
-> 
+>
 > The supplied artifact declares:
-> 
+>
 > ```text
 > RSCF-NODE
-> 
+>
 > node_id: amos_obsidian_linking_plugins
 > node_type: note
 > path: 11_KNOWLEDGE/AMOS_Obsidian_Linking_Plugins.md
 > ```
-> 
+>
 > and:
-> 
+>
 > ```text
 > RSCF-RELATIONS:
 >   - INDEXED_BY: [[00_HOME]]
 >   - INDEXED_BY: [[AMOS_RSCF_NODES]]
-> 
+>
 > claim_class: AMOS_MODEL
 > ```
-> 
+>
 > ---
-> 
+>
 > # 47. RSCF Epistemic Duality
-> 
+>
 > Frontmatter says:
-> 
+>
 > ```yaml
 > rscf:
 >   state: SOURCE_CLAIM
 >   claim_class: SOURCE_CLAIM
 > ```
-> 
+>
 > Later RSCF block says:
-> 
+>
 > ```text
 > claim_class: AMOS_MODEL
 > ```
-> 
+>
 > These need not be treated as a contradiction if they refer to different levels:
-> 
+>
 > ```text
 > ARTIFACT PROVENANCE CLAIM
 > =
 > SOURCE_CLAIM
-> 
+>
 > ARCHITECTURAL / DECISION CONTENT
 > =
 > AMOS_MODEL
 > ```
-> 
+>
 > This interpretation is **DERIVED**.
-> 
+>
 > The source itself does not explicitly explain the distinction.
-> 
+>
 > ---
-> 
+>
 > # 48. Epistemic Normalization
-> 
+>
 > A safe normalized representation is:
-> 
+>
 > ```yaml
 > epistemic:
 >   artifact_state:
 >     class: SOURCE_CLAIM
 >     source: frontmatter
-> 
+>
 >   artifact_rscf_claim:
 >     class: SOURCE_CLAIM
 >     source: frontmatter.rscf
-> 
+>
 >   architecture_claim:
 >     class: AMOS_MODEL
 >     source: terminal_RSCF_block
-> 
+>
 >   conclusion:
 >     class: DECISION / AMOS_MODEL
 >     source: frontmatter
-> 
+>
 >   confidence:
 >     label: DERIVED
 > ```
-> 
+>
 > This preserves all supplied values without forcing them into one field.
-> 
+>
 > ---
-> 
+>
 > # 49. Provenance Duality
-> 
+>
 > Frontmatter top-level:
-> 
+>
 > ```yaml
 > provenance: USER_REQUEST / COMMUNITY_PLUGIN_REGISTRY
 > ```
-> 
+>
 > Nested RSCF:
-> 
+>
 > ```yaml
 > provenance: AMOS_corpus
 > ```
-> 
+>
 > Again, these can represent different provenance layers:
-> 
+>
 > ```text
 > artifact construction provenance
 > vs
 > RSCF corpus provenance
 > ```
-> 
+>
 > But this distinction is **DERIVED**.
-> 
+>
 > Do not erase either source value.
-> 
+>
 > ---
-> 
+>
 > # 50. Provenance Topology
-> 
+>
 > ```mermaid
 > flowchart TD
 >     U["USER_REQUEST"]
 >     CPR["COMMUNITY_PLUGIN_REGISTRY"]
 >     AC["AMOS_corpus"]
-> 
+>
 >     A["AMOS Obsidian Linking Plugin Stack"]
-> 
+>
 >     U --> A
 >     CPR --> A
 >     AC --> A
 > ```
-> 
+>
 > This graph represents declared provenance labels, not proof that the current community registry has been independently queried.
-> 
+>
 > ---
-> 
+>
 > # 51. Plugin Registry Freshness
-> 
+>
 > Community plugins are mutable dependencies.
-> 
+>
 > Their:
-> 
+>
 > ```text
 > availability
 > ID
@@ -1512,25 +1512,25 @@ SORT file.name ASC
 > compatibility
 > security posture
 > ```
-> 
+>
 > can change.
-> 
+>
 > Therefore plugin claims are freshness-bounded.
-> 
+>
 > A source created on:
-> 
+>
 > ```text
 > 2026-08-27
 > ```
-> 
+>
 > does not guarantee perpetual plugin-state validity.
-> 
+>
 > ---
-> 
+>
 > # 52. Freshness Contract
-> 
+>
 > Derived:
-> 
+>
 > ```yaml
 > plugin_dependency:
 >   identity: plugin_id
@@ -1540,48 +1540,48 @@ SORT file.name ASC
 >   security_status: UNKNOWN_UNLESS_AUDITED
 >   freshness_required: true
 > ```
-> 
+>
 > ---
-> 
+>
 > # 53. Community Plugin Security Boundary
-> 
+>
 > Community plugins introduce executable code into the vault environment.
-> 
+>
 > Therefore:
-> 
+>
 > ```text
 > USEFUL PLUGIN
 > !=
 > TRUSTED PLUGIN
-> 
+>
 > POPULAR PLUGIN
 > !=
 > SECURE PLUGIN
-> 
+>
 > OPEN SOURCE
 > !=
 > VULNERABILITY FREE
-> 
+>
 > AI FEATURE
 > !=
 > PRIVATE BY DEFAULT
 > ```
-> 
+>
 > Exact security/privacy properties require plugin-specific evidence.
-> 
+>
 > ---
-> 
+>
 > # 54. Privacy Boundary
-> 
+>
 > The artifact describes AI-related tooling:
-> 
+>
 > ```text
 > Smart Connections
 > Copilot
 > ```
-> 
+>
 > but does not specify:
-> 
+>
 > ```text
 > model provider
 > network access
@@ -1592,36 +1592,36 @@ SORT file.name ASC
 > privacy policy
 > API configuration
 > ```
-> 
+>
 > Therefore those remain **UNKNOWN/GAP**.
-> 
+>
 > ---
-> 
+>
 > # 55. “Local Embedding Index” Claim
-> 
+>
 > The checklist says Smart Connections should:
-> 
+>
 > > build the local embedding index.
-> 
+>
 > This is a source claim.
-> 
+>
 > Do not infer from that phrase alone that:
-> 
+>
 > ```text
 > all inference is local
 > no data leaves device
 > no remote API exists
 > embeddings are encrypted
 > ```
-> 
+>
 > Those are separate questions.
-> 
+>
 > ---
-> 
+>
 > # 56. Link Governance Layers
-> 
+>
 > A useful derived AMOS classification is:
-> 
+>
 > ```text
 > L0 — RAW MENTION
 > L1 — CANDIDATE LINK
@@ -1630,72 +1630,72 @@ SORT file.name ASC
 > L4 — PROVENANCE-BACKED RELATION
 > L5 — CANONICAL RELATION
 > ```
-> 
+>
 > This is **PROPOSED**, not source canon.
-> 
+>
 > ---
-> 
+>
 > # 57. L0 — Raw Mention
-> 
+>
 > Example:
-> 
+>
 > ```text
 > AMOS Home
 > ```
-> 
+>
 > No explicit link.
-> 
+>
 > ---
-> 
+>
 > # 58. L1 — Candidate Link
-> 
+>
 > Suggested by:
-> 
+>
 > ```text
 > Smart Connections
 > Note Linker
 > Copilot
 > Autolink
 > ```
-> 
+>
 > depending on plugin behavior.
-> 
+>
 > Still not canonical.
-> 
+>
 > ---
-> 
+>
 > # 59. L2 — Explicit Wikilink
-> 
+>
 > Example:
-> 
+>
 > ```markdown
 > [[00_HOME]]
 > ```
-> 
+>
 > Navigational relationship exists.
-> 
+>
 > Semantic relation may still be unknown.
-> 
+>
 > ---
-> 
+>
 > # 60. L3 — Typed Relation
-> 
+>
 > Example:
-> 
+>
 > ```yaml
 > relation:
 >   type: INDEXED_BY
 >   target: "[[00_HOME]]"
 > ```
-> 
+>
 > Now link semantics are explicit.
-> 
+>
 > ---
-> 
+>
 > # 61. L4 — Provenance-Backed Relation
-> 
+>
 > Example:
-> 
+>
 > ```yaml
 > relation:
 >   type: INDEXED_BY
@@ -1703,29 +1703,29 @@ SORT file.name ASC
 >   provenance: supplied_artifact
 >   class: SOURCE_CLAIM
 > ```
-> 
+>
 > ---
-> 
+>
 > # 62. L5 — Canonical Relation
-> 
+>
 > Requires appropriate canonical validation/governance.
-> 
+>
 > A plugin-generated suggestion alone should not automatically reach this state.
-> 
+>
 > ---
-> 
+>
 > # 63. Link Promotion Invariant
-> 
+>
 > Derived:
-> 
+>
 > $$
 > CandidateLink
 > \not\Rightarrow
 > CanonicalLink
 > $$
-> 
+>
 > Instead:
-> 
+>
 > $$
 > Candidate
 > \rightarrow
@@ -1737,15 +1737,15 @@ SORT file.name ASC
 > \rightarrow
 > Promote
 > $$
-> 
+>
 > when the relation is important enough to require governance.
-> 
+>
 > ---
-> 
+>
 > # 64. Automatic-Link Risk Classes
-> 
+>
 > Derived risk classes:
-> 
+>
 > ```text
 > R0 — formatting-only
 > R1 — obvious unique title match
@@ -1754,149 +1754,149 @@ SORT file.name ASC
 > R4 — provenance-bearing relationship
 > R5 — causal/canonical relationship
 > ```
-> 
+>
 > Automation tolerance should decrease as semantic stakes increase.
-> 
+>
 > ---
-> 
+>
 > # 65. Canonical-Link Firewall
-> 
+>
 > For high-value canon:
-> 
+>
 > ```text
 > AUTOLINK
 > should not independently decide
 > PARENT_OF
-> 
+>
 > CAUSES
-> 
+>
 > PROVES
-> 
+>
 > IMPLEMENTS
-> 
+>
 > SUPERSEDES
-> 
+>
 > INVALIDATES
 > ```
-> 
+>
 > without explicit evidence.
-> 
+>
 > ---
-> 
+>
 > # 66. Smart Connections Role
-> 
+>
 > A safe role is:
-> 
+>
 > ```text
 > DISCOVERY
 > ```
-> 
+>
 > not:
-> 
+>
 > ```text
 > CANON GOVERNANCE AUTHORITY
 > ```
-> 
+>
 > ---
-> 
+>
 > # 67. Dataview Role
-> 
+>
 > A safe role is:
-> 
+>
 > ```text
 > DYNAMIC RETRIEVAL / INDEXING
 > ```
-> 
+>
 > not:
-> 
+>
 > ```text
 > TRUTH ENGINE
 > ```
-> 
+>
 > ---
-> 
+>
 > # 68. Graph Analysis Role
-> 
+>
 > A safe role is:
-> 
+>
 > ```text
 > TOPOLOGY ANALYSIS
 > ```
-> 
+>
 > not:
-> 
+>
 > ```text
 > EPISTEMIC VALIDATION
 > ```
-> 
+>
 > ---
-> 
+>
 > # 69. Templater Role
-> 
+>
 > A safe role is:
-> 
+>
 > ```text
 > STRUCTURE GENERATION
 > ```
-> 
+>
 > not:
-> 
+>
 > ```text
 > CONTENT VERIFICATION
 > ```
-> 
+>
 > ---
-> 
+>
 > # 70. QuickAdd Role
-> 
+>
 > A safe role is:
-> 
+>
 > ```text
 > CAPTURE ORCHESTRATION
 > ```
-> 
+>
 > not:
-> 
+>
 > ```text
 > CANONICAL APPROVAL
 > ```
-> 
+>
 > ---
-> 
+>
 > # 71. Copilot Role
-> 
+>
 > A safe role is:
-> 
+>
 > ```text
 > WRITING / LINK ASSISTANCE
 > ```
-> 
+>
 > not:
-> 
+>
 > ```text
 > PROVENANCE AUTHORITY
 > ```
-> 
+>
 > ---
-> 
+>
 > # 72. Three Distinct Knowledge Operations
-> 
+>
 > The stack supports three fundamentally different operations:
-> 
+>
 > ```text
 > CREATE
 > CONNECT
 > QUERY
 > ```
-> 
+>
 > ### Create
-> 
+>
 > ```text
 > QuickAdd + Templater
 > ```
-> 
+>
 > ### Connect
-> 
+>
 > ```text
 > Smart Connections
 > Autolink
@@ -1904,9 +1904,9 @@ SORT file.name ASC
 > Note Linker
 > Copilot
 > ```
-> 
+>
 > ### Query
-> 
+>
 > ```text
 > Dataview
 > Graph
@@ -1914,21 +1914,21 @@ SORT file.name ASC
 > Backlinks
 > Outgoing Links
 > ```
-> 
+>
 > This decomposition is derived.
-> 
+>
 > ---
-> 
+>
 > # 73. Fourth Operation — Govern
-> 
+>
 > AMOS adds a fourth operation:
-> 
+>
 > ```text
 > GOVERN
 > ```
-> 
+>
 > which concerns:
-> 
+>
 > ```text
 > provenance
 > epistemic class
@@ -1938,13 +1938,13 @@ SORT file.name ASC
 > freshness
 > canonical state
 > ```
-> 
+>
 > No plugin in the source should automatically be assumed to implement the entire governance layer.
-> 
+>
 > ---
-> 
+>
 > # 74. Full AMOS Vault Loop
-> 
+>
 > ```text
 > CAPTURE
 >    ↓
@@ -1966,23 +1966,23 @@ SORT file.name ASC
 >    ↓
 > MAINTAIN
 > ```
-> 
+>
 > This is a **DERIVED AMOS_MODEL**.
-> 
+>
 > ---
-> 
+>
 > # 75. Persistent Brain Interpretation
-> 
+>
 > The source calls Obsidian the:
-> 
+>
 > ```text
 > persistent brain surface for AMOS
 > ```
-> 
+>
 > This should be interpreted as architectural terminology.
-> 
+>
 > It does not imply:
-> 
+>
 > ```text
 > Obsidian is literally conscious
 > Obsidian is the whole AMOS runtime
@@ -1990,29 +1990,29 @@ SORT file.name ASC
 > links reproduce cognition
 > graph topology proves reasoning
 > ```
-> 
+>
 > ---
-> 
+>
 > # 76. Persistent Knowledge vs Runtime Reasoning
-> 
+>
 > ```text
 > OBSIDIAN
 > =
 > persistent knowledge surface
-> 
+>
 > not necessarily
-> 
+>
 > RUNTIME REASONING ENGINE
 > ```
-> 
+>
 > The artifact concerns tooling and persistence, not proof of full runtime implementation.
-> 
+>
 > ---
-> 
+>
 > # 77. Vault as Persistent Evidence Layer
-> 
+>
 > A derived AMOS interpretation:
-> 
+>
 > ```text
 > Ephemeral work
 >      ↓
@@ -2024,15 +2024,15 @@ SORT file.name ASC
 >      ↓
 > Reusable knowledge
 > ```
-> 
+>
 > This aligns with AMOS knowledge-harvest governance.
-> 
+>
 > ---
-> 
+>
 > # 78. Ephemeral Code → Persistent Evidence → Validated Knowledge
-> 
+>
 > For plugin-assisted capture:
-> 
+>
 > ```text
 > PLUGIN OUTPUT
 >      ↓
@@ -2044,35 +2044,35 @@ SORT file.name ASC
 >      ↓
 > CANONICAL / NONCANONICAL CLASSIFICATION
 > ```
-> 
+>
 > The plugin output itself is not automatically validated knowledge.
-> 
+>
 > ---
-> 
+>
 > # 79. Orphan Detection
-> 
+>
 > The checklist recommends periodically finding orphaned files.
-> 
+>
 > An orphan note is structurally disconnected or insufficiently connected depending on the vault's definition.
-> 
+>
 > But:
-> 
+>
 > ```text
 > ORPHAN
 > !=
 > INVALID
 > ```
-> 
+>
 > An orphan may contain important evidence awaiting classification.
-> 
+>
 > ---
-> 
+>
 > # 80. Broken Link Detection
-> 
+>
 > Broken links indicate a graph integrity issue.
-> 
+>
 > Possible causes include:
-> 
+>
 > ```text
 > renamed note
 > deleted note
@@ -2081,15 +2081,15 @@ SORT file.name ASC
 > stale reference
 > intentional unresolved dependency
 > ```
-> 
+>
 > Do not automatically assume deletion/error without context.
-> 
+>
 > ---
-> 
+>
 > # 81. Broken Link State
-> 
+>
 > Derived:
-> 
+>
 > ```yaml
 > link_state:
 >   target_resolves: false
@@ -2099,15 +2099,15 @@ SORT file.name ASC
 >     - verify_identity
 >     - repair_if_supported
 > ```
-> 
+>
 > Avoid blindly redirecting a broken link to a similarly named note.
-> 
+>
 > ---
-> 
+>
 > # 82. Orphan Repair
-> 
+>
 > Safe sequence:
-> 
+>
 > ```text
 > ORPHAN DETECTED
 >       ↓
@@ -2121,23 +2121,23 @@ SORT file.name ASC
 >       ↓
 > LINK
 > ```
-> 
+>
 > Not:
-> 
+>
 > ```text
 > ORPHAN
 > → link to nearest semantic neighbor
 > → declare solved
 > ```
-> 
+>
 > ---
-> 
+>
 > # 83. MOC Generation
-> 
+>
 > Dataview can produce dynamic MOCs.
-> 
+>
 > Conceptually:
-> 
+>
 > ```text
 > TAGGED NOTES
 >      ↓
@@ -2145,15 +2145,15 @@ SORT file.name ASC
 >      ↓
 > DYNAMIC INDEX
 > ```
-> 
+>
 > This allows MOCs to remain current as matching notes are added.
-> 
+>
 > ---
-> 
+>
 > # 84. Dynamic MOC Boundary
-> 
+>
 > Dynamic query membership can change when:
-> 
+>
 > ```text
 > tags change
 > paths change
@@ -2161,29 +2161,29 @@ SORT file.name ASC
 > plugin behavior changes
 > note metadata changes
 > ```
-> 
+>
 > Therefore a Dataview MOC is a computed view, not an immutable artifact.
-> 
+>
 > ---
-> 
+>
 > # 85. Static vs Dynamic MOC
-> 
+>
 > ```text
 > STATIC MOC
 > =
 > explicit curated links
-> 
+>
 > DYNAMIC MOC
 > =
 > query-generated membership
 > ```
-> 
+>
 > AMOS can use both.
-> 
+>
 > They should not be silently conflated.
-> 
+>
 > ---
-> 
+>
 > # 86. Hybrid MOC — PROPOSED
 
 
@@ -2965,9 +2965,9 @@ rscf:
 
 ## Links
 
-- 
-- 
-- 
+-
+-
+-
 
 ## Competing Explanations
 
@@ -2977,11 +2977,11 @@ rscf:
 
 ## RSCF-RELATIONS
 
-- INDEXED_BY: 
+- INDEXED_BY:
 
 ---
 
-**MOC:** 
+**MOC:**
 ```
 
 This is a **PROPOSED AMOS augmentation**, not the supplied source template.

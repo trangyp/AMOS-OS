@@ -365,11 +365,11 @@ Stateframes are constructed by intersecting:
 ---
 
 ---
-**MOC:** 
+**MOC:**
 
 ## Related
 
-- 
+-
 ```
 
 ---

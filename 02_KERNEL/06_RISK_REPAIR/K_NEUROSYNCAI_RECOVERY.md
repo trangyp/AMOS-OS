@@ -36,9 +36,9 @@ aliases:
 ## ĐẶC TẢ HÌNH THỨC HẠT NHÂN PHỤC HỒI NEUROSYNCAI & TÁI ĐỒNG BỘ THÍCH ỨNG
 ### Khung Tái Thiết Lập Liên Kết Đồng Bộ Thần Kinh, Tự Động Phục Hồi Sau Phân Mảnh và Chữa Lành Đồ Thị
 
-> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS  
-> **Plane:** `02_KERNEL/06_RISK_REPAIR/K_NEUROSYNCAI_RECOVERY.md`  
-> **Trạng thái:** `CANONICAL` (Động Cơ Tự Phục Hồi Thần Kinh Thích Ứng)  
+> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS
+> **Plane:** `02_KERNEL/06_RISK_REPAIR/K_NEUROSYNCAI_RECOVERY.md`
+> **Trạng thái:** `CANONICAL` (Động Cơ Tự Phục Hồi Thần Kinh Thích Ứng)
 
 ---
 
@@ -2216,4 +2216,4 @@ Khối chữa lành #144 khôi phục các liên kết bị đứt gãy trong c�
 - **MOCs Điều hướng:** [[00_HOME]] · [[00_ROOT_MOC]] · [[02_KERNEL_MOC]] · [[06_RISK_REPAIR_MOC]]
 
 ---
-**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS  
+**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS

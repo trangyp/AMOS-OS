@@ -4444,18 +4444,18 @@ It does not independently establish the cryptographic implementation, signature 
 
 ## Source-Defined Connections
 
-* **Matrix Table:** 
-* **Universal Logic Kernel:** 
-* **Reality × ULK:** 
-* **Cognitive Matrix Plane:** 
+* **Matrix Table:**
+* **Universal Logic Kernel:**
+* **Reality × ULK:**
+* **Cognitive Matrix Plane:**
 
 ## Derived Navigation Surfaces
 
-* **RSCF:** 
-* **Proof Capsules:** 
+* **RSCF:**
+* **Proof Capsules:**
 * **Scope Firewall:** K_SCOPE_FIREWALL
-* **Fail-Closed Governance:** 
-* **Provenance:** 
+* **Fail-Closed Governance:**
+* **Provenance:**
 * **Causal Firewall:** K_CAUSAL_FIREWALL
 
 > [!warning]
@@ -4467,17 +4467,17 @@ It does not independently establish the cryptographic implementation, signature 
 
 # 124. Obsidian Navigation Footer
 
-**Home:** 
+**Home:**
 
-**RSCF Index:** 
+**RSCF Index:**
 
-**Cognitive Matrix:** 
+**Cognitive Matrix:**
 
-**Matrix Counterpart:** 
+**Matrix Counterpart:**
 
-**Universal Logic Kernel:** 
+**Universal Logic Kernel:**
 
-**Reality × ULK:** 
+**Reality × ULK:**
 
 ---
 
@@ -4765,13 +4765,13 @@ $$
 
 ---
 
-**MOC:** 
+**MOC:**
 
-**Matrix:** 
+**Matrix:**
 
-**Universal Logic Kernel:** 
+**Universal Logic Kernel:**
 
-**Reality × ULK:** 
+**Reality × ULK:**
 
 ---
 

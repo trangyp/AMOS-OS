@@ -36,9 +36,9 @@ aliases:
 ## ĐẶC TẢ HÌNH THỨC HẠT NHÂN TIẾN HÓA CÓ KIỂM SOÁT & AN TOÀN ĐỘT BIẾN
 ### Khung Phân Lớp Đột Biến M0-M5, Quản Trị Nợ Tiến Hóa GMEF và Cơ Chế Sandbox Cách Ly
 
-> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS  
-> **Plane:** `02_KERNEL/K_GOVERNED_EVOLUTION.md`  
-> **Trạng thái:** `CANONICAL` (Động Cơ Tiến Hóa Hệ Thống Có Kiểm Soát)  
+> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS
+> **Plane:** `02_KERNEL/K_GOVERNED_EVOLUTION.md`
+> **Trạng thái:** `CANONICAL` (Động Cơ Tiến Hóa Hệ Thống Có Kiểm Soát)
 
 ---
 
@@ -2220,4 +2220,4 @@ Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #144
 - **MOCs Điều hướng:** [[00_HOME]] · [[00_ROOT_MOC]] · [[02_KERNEL_MOC]]
 
 ---
-**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS  
+**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS

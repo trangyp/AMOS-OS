@@ -3350,13 +3350,13 @@ epistemic_dual_receipt:
 
 The source explicitly lists:
 
-* 
+*
 * `06-Knowledge-Base-MOC`
 * `AMOS_Simulation_Kernel_v0_Math_Foundations`
 * `system_scan_agent`
 * `automation_profiles`
-* 
-* 
+*
+*
 
 These are source-defined graph connections.
 
@@ -4938,13 +4938,13 @@ It does **not** establish that these contracts are conventional numerical tensor
 
 # Related
 
-* 
+*
 * 06-Knowledge-Base-MOC
 * AMOS_Simulation_Kernel_v0_Math_Foundations
 * system_scan_agent
 * automation_profiles
-* 
-* 
+*
+*
 
 ---
 

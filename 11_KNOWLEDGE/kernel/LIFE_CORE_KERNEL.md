@@ -65,4 +65,3 @@ class Life_Core_Kernel(Kernel):
 
 ---
 **MOC:** [[KERNEL_MOC]]
-

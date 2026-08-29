@@ -1,5 +1,5 @@
 ---
-title: "QCLA Model Registry"
+title: QCLA Model Registry
 aliases:
   - "AMOS QCLA Model Registry"
   - "QCLA Registry"
@@ -134,7 +134,6 @@ tags:
   - no_overwrite
   - external_evidence
   - canon_placeholder_recovery
-
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -6169,16 +6168,16 @@ EXECUTED
 
 Target architectural bindings:
 
-* Governed by canon — 
-* Root navigation — 
-* RSCF navigation — 
-* Local Models MOC — 
-* Kernel interaction — 
-* Control-plane gates — 
-* Observed by — 
-* Operational recovery — 
-* Routing validation reference — 
-* Authorization validation reference — 
+* Governed by canon —
+* Root navigation —
+* RSCF navigation —
+* Local Models MOC —
+* Kernel interaction —
+* Control-plane gates —
+* Observed by —
+* Operational recovery —
+* Routing validation reference —
+* Authorization validation reference —
 
 These links establish intended architectural relations only.
 
@@ -6587,7 +6586,7 @@ TOKEN SAVINGS.
 
 ---
 
-**Related:**  ·  ·  ·  ·  ·  · 
+**Related:**  ·  ·  ·  ·  ·  ·
 
 ---
 
@@ -6613,18 +6612,15 @@ executable_binding: NOT_ESTABLISHED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: 
-* INDEXED_BY: 
-* INDEXED_BY: 
-* GOVERNED_BY: 
-* INTERACTS_WITH: 
-* GATED_BY: 
-* OBSERVED_BY: 
-* RECOVERED_VIA: 
+* INDEXED_BY:
+* INDEXED_BY:
+* INDEXED_BY:
+* GOVERNED_BY:
+* INTERACTS_WITH:
+* GATED_BY:
+* OBSERVED_BY:
+* RECOVERED_VIA:
 
 ---
 
-**MOC:** 
-
-```
-```
+**MOC:**

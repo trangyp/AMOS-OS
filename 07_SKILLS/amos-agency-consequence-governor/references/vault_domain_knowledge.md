@@ -327,11 +327,11 @@ knowledge integration
 orchest
 
 ---
-**MOC:** 
+**MOC:**
 
 ## Related
 
-- 
+-
 ```
 
 ---

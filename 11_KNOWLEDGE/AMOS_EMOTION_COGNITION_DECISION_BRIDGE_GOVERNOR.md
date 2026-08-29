@@ -3298,11 +3298,11 @@ path:
 11_KNOWLEDGE/AMOS_EMOTION_COGNITION_DECISION_BRIDGE_GOVERNOR.md
 
 RSCF-RELATIONS:
-  - INDEXED_BY: 
-  - DEPENDS_ON: 
-  - DEPENDS_ON: 
-  - DEPENDS_ON: 
-  - COMPOSES_WITH: 
+  - INDEXED_BY:
+  - DEPENDS_ON:
+  - DEPENDS_ON:
+  - DEPENDS_ON:
+  - COMPOSES_WITH:
 
 claim_class:
 SOURCE_CLAIM
@@ -3626,19 +3626,19 @@ gaps:
 The smallest source path likely to resolve the highest-value gaps is:
 
 ```text
-1. 
+1.
    → exact emotion state schema
 
 2. C05 Emotion Law v0
    → routing derivation and influence rules
 
-3. 
+3.
    → cognitive mode semantics / arbitration
 
-4. 
+4.
    → technical risk gate semantics
 
-5. 
+5.
    → cross-domain composition
 
 6. TENSOR_CONTRACTS.md
@@ -4834,19 +4834,19 @@ path:
 RSCF-RELATIONS:
 
   - INDEXED_BY:
-    
+
 
   - DEPENDS_ON:
-    
+
 
   - DEPENDS_ON:
-    
+
 
   - DEPENDS_ON:
-    
+
 
   - COMPOSES_WITH:
-    
+
 
 claim_class:
 SOURCE_CLAIM

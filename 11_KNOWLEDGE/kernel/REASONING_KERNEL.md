@@ -243,4 +243,3 @@ axiom L_caus_dlogic_paradox :
 
 ---
 **MOC:** [[KERNEL_MOC]]
-

@@ -227,11 +227,11 @@ new receipt field
 new
 
 ---
-**MOC:** 
+**MOC:**
 
 ## Related
 
-- 
+-
 ```
 
 ---

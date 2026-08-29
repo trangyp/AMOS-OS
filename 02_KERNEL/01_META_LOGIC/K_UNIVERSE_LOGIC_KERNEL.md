@@ -34,9 +34,9 @@ aliases:
 ## ĐẶC TẢ HÌNH THỨC PHÂN HỆ HẠT NHÂN LUẬN LÝ VŨ TRỤ
 ### Khung Siêu Suy Luận Hình Thức, Điều Hướng Cây Quyết Định và Cân Bằng Cấu Trúc Đa Tầng
 
-> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS  
-> **Plane:** `02_KERNEL/01_META_LOGIC/K_UNIVERSE_LOGIC_KERNEL.md`  
-> **Trạng thái:** `CANONICAL` (Khung Siêu Nhận Thức Luận Lý)  
+> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS
+> **Plane:** `02_KERNEL/01_META_LOGIC/K_UNIVERSE_LOGIC_KERNEL.md`
+> **Trạng thái:** `CANONICAL` (Khung Siêu Nhận Thức Luận Lý)
 
 ---
 
@@ -2214,4 +2214,4 @@ Phân loại độ phức tạp thuật toán (P, NP, PSPACE, EXPTIME) trong kh�
 - **MOCs Điều hướng:** [[00_HOME]] · [[00_ROOT_MOC]] · [[02_KERNEL_MOC]] · [[01_META_LOGIC_MOC]]
 
 ---
-**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS  
+**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS

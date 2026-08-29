@@ -3549,8 +3549,8 @@ RSCF:
 # 137. RSCF Relations — SOURCE
 
 ```text
-INDEXED_BY: 
-INDEXED_BY: 
+INDEXED_BY:
+INDEXED_BY:
 ```
 
 Source terminal block:
@@ -4130,11 +4130,11 @@ canonical_class: CONDITIONAL
 
 RSCF-RELATIONS:
 
-  - INDEXED_BY: 
+  - INDEXED_BY:
 
-  - INDEXED_BY: 
+  - INDEXED_BY:
 
-  - INDEXED_BY: 
+  - INDEXED_BY:
 
   - SUPERSEDES_MODEL: Kernel→Engine→Agent→Control Plane universal hierarchy
 

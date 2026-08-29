@@ -1,5 +1,5 @@
 ---
-title: "Trang MOC"
+title: Trang MOC
 type: moc
 source: 11_KNOWLEDGE/trang
 tags:

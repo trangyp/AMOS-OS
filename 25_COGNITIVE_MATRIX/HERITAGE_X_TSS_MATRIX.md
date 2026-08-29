@@ -5615,7 +5615,7 @@ UNKNOWN/GAP.
 
 ---
 
-**Related:**  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  · 
+**Related:**  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·
 
 ---
 
@@ -5635,21 +5635,21 @@ canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: 
+* INDEXED_BY:
 
-* INDEXED_BY: 
+* INDEXED_BY:
 
-* PART_OF: 
+* PART_OF:
 
-* OPERATIONALIZES: 
+* OPERATIONALIZES:
 
-* RELATED_TO: 
+* RELATED_TO:
 
-* RELATED_TO: 
+* RELATED_TO:
 
-* RELATED_TO: 
+* RELATED_TO:
 
-* RELATED_TO: 
+* RELATED_TO:
 
 * DEFINES: TSS_CYCLE_X_HERITAGE_DECISION_MATRIX
 
@@ -5665,31 +5665,31 @@ RSCF-RELATIONS:
 
 * DEFINES: CRITICAL_GAP_FAIL_CLOSED_RULE
 
-* RELATED_TO: 
+* RELATED_TO:
 
-* RELATED_TO: 
+* RELATED_TO:
 
-* RELATED_TO: 
+* RELATED_TO:
 
-* RELATED_TO: 
+* RELATED_TO:
 
-* RELATED_TO: 
+* RELATED_TO:
 
-* RELATED_TO: 
+* RELATED_TO:
 
-* RELATED_TO: 
+* RELATED_TO:
 
-* RELATED_TO: 
+* RELATED_TO:
 
-* RELATED_TO: 
+* RELATED_TO:
 
-* RELATED_TO: 
+* RELATED_TO:
 
-* LINEAGE_TARGET: 
+* LINEAGE_TARGET:
 
 ---
 
-**MOC:** 
+**MOC:**
 
 ---
 

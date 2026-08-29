@@ -164,7 +164,7 @@ The engine will infer the mode and respond with a structured, high-quality draft
 ]
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:**  ·  ·  ·  ·
 ```
 
 ---

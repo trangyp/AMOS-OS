@@ -4379,18 +4379,18 @@ critical_firewall:
 > Analogy illustrates; analogy does not prove.
 
 ## Core Operations
-- 
-- 
-- 
-- 
+-
+-
+-
+-
 
 ## Dependencies
-- 
-- 
-- 
+-
+-
+-
 
 ## MOC
-- 
+-
 ```
 
 Only `` is an explicit source wikilink; the others are proposed vault links.
@@ -4492,9 +4492,9 @@ WHERE contains(file.path, "11_KNOWLEDGE/kernel")
 
 ## Navigation
 
-**MOC:** 
+**MOC:**
 
-**Kernel:** 
+**Kernel:**
 
 **Core:**
  ·

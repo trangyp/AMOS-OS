@@ -5775,15 +5775,15 @@ that runtime enforcement currently exists
 
 # 367. Cross-Plane Bindings
 
-* Governed by canon —  · 
-* Model navigation — 
-* Foundation models — 
-* Kernel interaction — 
-* Control-plane gates — 
+* Governed by canon —  ·
+* Model navigation —
+* Foundation models —
+* Kernel interaction —
+* Control-plane gates —
 * Observed by —  · never treated as authority
-* Recovered via operations — 
-* RSCF graph — 
-* Root navigation — 
+* Recovered via operations —
+* RSCF graph —
+* Root navigation —
 
 ---
 

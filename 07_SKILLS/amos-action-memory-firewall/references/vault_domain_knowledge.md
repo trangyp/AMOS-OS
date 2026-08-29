@@ -264,7 +264,7 @@ python3 test_kafka_brain_buffer_generator.py --pattern all --output jsonl
 python3
 
 ---
-**MOC:** 
+**MOC:**
 ```
 ---
 

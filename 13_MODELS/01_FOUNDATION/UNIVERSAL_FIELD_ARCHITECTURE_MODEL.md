@@ -6276,13 +6276,13 @@ RSCF-RELATIONS:
       amos_universal_field_architecture_v2_complete
 
   - RELATED_TO:
-      
+
 
   - VALIDATION_PATTERN_REFERENCE: [[ROUTING_POLICY_VALIDATION_RECEIPT]]
-      
+
 
   - VALIDATION_PATTERN_REFERENCE: [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
-      
+
 ```
 
 ---

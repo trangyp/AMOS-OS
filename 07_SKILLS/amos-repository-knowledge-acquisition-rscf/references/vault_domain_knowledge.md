@@ -63,7 +63,7 @@ impossible to reverse engineer
 cannot be extracted
 cannot be inferred
 kills all reverse engineering
-immune to jailbreaking
+immune to jail-breaking
 ```
 
 with a stronger and testable architecture:
@@ -268,11 +268,11 @@ Total knowledge tests: 33 (was 29, +4 new)
 
 ## Links
 
-- 
-- 
+-
+-
 
 ---
-**MOC:** 
+**MOC:**
 ```
 
 ---

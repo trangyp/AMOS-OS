@@ -3864,7 +3864,7 @@ CRITICAL
 └── artifact-specific executed validation receipt absent
 
 DECISION-RELEVANT
-├── exact law hierarchy position requires 
+├── exact law hierarchy position requires
 ├── exact MVCC/CAS runtime binding not established
 ├── atomic multi-RSCF runtime binding not established
 ├── causal epoch implementation not established

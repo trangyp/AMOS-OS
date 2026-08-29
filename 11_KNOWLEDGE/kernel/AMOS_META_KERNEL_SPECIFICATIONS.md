@@ -259,4 +259,3 @@ All meta-cognition kernels depend on Meta_Logic_Kernel (Law of Law is the founda
 
 ---
 **MOC:** [[KERNEL_MOC]]
-

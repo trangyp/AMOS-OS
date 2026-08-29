@@ -37,9 +37,9 @@ aliases:
 ## ĐẶC TẢ HÌNH THỨC HẠT NHÂN BẤT BIẾN CANON & HỘI TỤ CHÂN LÝ
 ### Khung Quản Trị Tri Thức Chuẩn Đích Thực, Cây Merkle Bất Biến và Chu Trình Thăng Hạng Chân Lý
 
-> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS  
-> **Plane:** `02_KERNEL/K_CANON.md`  
-> **Trạng thái:** `CANONICAL` (Kho Lưu Trữ Chân Lý Bất Biến)  
+> **Kiến trúc sư trưởng:** Trang Phan & Hệ thống AMOS OS
+> **Plane:** `02_KERNEL/K_CANON.md`
+> **Trạng thái:** `CANONICAL` (Kho Lưu Trữ Chân Lý Bất Biến)
 
 ---
 
@@ -2255,4 +2255,4 @@ Phân vùng #104 tự động phát hiện mọi tuyên bố mâu thuẫn với 
 - **MOCs Điều hướng:** [[00_HOME]] · [[00_ROOT_MOC]] · [[02_KERNEL_MOC]] · [[01_CANON_MOC]]
 
 ---
-**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS  
+**Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS
