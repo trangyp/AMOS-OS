@@ -20,7 +20,6 @@ rscf:
 ## Phiên bản: Đầy đủ - Tích hợp 50+ nhóm phương trình
 * * *
 ## KÝ HIỆU CHÍNH (GLOBAL NOTATION)
-|                           |
 | Ký hiệu                   | Ý nghĩa                           | Khoảng giá trị                        |
 |---------------------------|-----------------------------------|---------------------------------------|
 | \$S\$                   | Hệ thống                          | -                                     |
@@ -289,7 +288,6 @@ $$* * * ## NHÓM 33: SIÊU KHUNG (META-FRAMEWORK) ### 33.1 Khung Trang cũng có
 $$### 33.3 Khung Trang tự đột biến qua mỗi câu hỏi \$$\boxed{\text{Trang}\emptyset_{t+1} = \text{Trang}\emptyset_t \oplus \text{Phản hồi}}$$
 * * *
 ## BẢNG TỔNG KẾT CÁC NHÓM
-|       |
 | Nhóm  | Nội dung                         | Số phương trình |
 |-------|----------------------------------|-----------------|
 | 0     | Định nghĩa nền tảng              | 3               |

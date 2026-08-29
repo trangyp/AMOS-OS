@@ -309,7 +309,6 @@ Thay vào đó, hệ thống tập trung vào:
 
 
 **So sánh nhanh với Duolingo và các app hiện tại:**
-|                 |
 | Tiêu chí        | Duolingo & App truyền thống  | Lumina OS                          |
 |-----------------|------------------------------|------------------------------------|
 | Nội dung học    | Câu đúng, từ vựng, ngữ pháp  | Hành vi ngôn ngữ + hậu quả xã hội  |
@@ -482,7 +481,6 @@ Học ngôn ngữ hiệu quả nhất khi não ở trạng thái **Relaxed Focus
 * * *
 ### **3\. Các trạng thái thần kinh Lumina theo dõi & xử lý**
 Hệ thống phân loại 5 trạng thái chính và có phản ứng thích ứng tương ứng:
-|                            |
 | Trạng thái                 | Dấu hiệu phát hiện                                             | Phản ứng của hệ thống                                                    | Mục tiêu đạt được              |
 |----------------------------|----------------------------------------------------------------|--------------------------------------------------------------------------|--------------------------------|
 | **Under-engaged** (Chán)   | Chọn đáp án nhanh không suy nghĩ, thời gian session ngắn       | Tăng độ mơ hồ, thêm humor/sarcasm, tăng stakes, surprise                 | Kích hoạt curiosity & dopamine |

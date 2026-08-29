@@ -46,7 +46,6 @@ Control Plane Kernel chịu trách nhiệm phân luồng, điều phối và ph�
 ```
 +-------------------------------------------------------------------------------+
 |               12 PHÂN LỚP ĐIỀU KHIỂN (12 CONTROL PLANE TIERS)                 |
-|                                                                               |
 |  [ CP-01: Intake & Gate ]            [ CP-02: Structural Normalize ]          |
 |  [ CP-03: Causal Trace ]             [ CP-04: Multi-Hypothesis ]              |
 |  [ CP-05: Logical Verification ]     [ CP-06: UBI Biological Sync ]           |

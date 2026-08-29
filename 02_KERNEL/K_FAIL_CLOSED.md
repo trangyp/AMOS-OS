@@ -48,7 +48,6 @@ Trong mọi tình huống xuất hiện bất định (`UNKNOWN/GAP`), dữ li�
 ```
 +-------------------------------------------------------------------------------+
 |                     CƠ CHẾ FAIL-CLOSED TỰ ĐỘNG                                |
-|                                                                               |
 |  [ Phát Hiện Sự Cố / Mâu Thuẫn / Tiền Đề Thiếu (UNKNOWN/GAP) ]                |
 |                                   |                                           |
 |                                   v                                           |

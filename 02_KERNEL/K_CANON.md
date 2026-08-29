@@ -46,7 +46,6 @@ Trong hệ thống AMOS OS, một tri thức chỉ được thăng hạng lên t
 ```
 +-------------------------------------------------------------------------------+
 |                   CHU TRÌNH THĂNG HẠNG CANONICAL 4 BƯỚC                       |
-|                                                                               |
 |  [ Đề Xuất Giả Thuyết PROPOSED ] ---> ( Kiểm Định Tát 2 Độc Lập )             |
 |                                                |                              |
 |                                                v                              |

@@ -29,7 +29,6 @@ These questions apply equally to governments, global alliances, corporations, ma
 ## **2\. TPE’s Input Structure (Expanded)**
 TPE receives six core inputs from TSS: Ω, H, F, S, C, and O. These represent the entirety of a system’s structural condition. However, TPE interprets these inputs across seven analytical layers, ensuring depth, nuance, and cross-domain compatibility.
 ### **Core Inputs (from TSS)**
-|                      |
 | **Core Input**       | **Meaning**        | **What It Captures**                                          |
 |----------------------|--------------------|---------------------------------------------------------------|
 | Ω Overload           | Demand vs capacity | Stress from complexity, obligations, and resource constraints |
@@ -42,7 +41,6 @@ TPE receives six core inputs from TSS: Ω, H, F, S, C, and O. These represent th
 
 ### **Seven Analytical Layers Used by TPE**
 To deepen these inputs, TPE analyzes them through the following layers:
-|                        |
 | **Analytical Layer**   | **Role in TPE**                    | **Example Indicators**                        |
 |------------------------|------------------------------------|-----------------------------------------------|
 | Load Architecture      | Measures the type of overload      | Fiscal strain, infrastructure bottlenecks     |
@@ -78,7 +76,6 @@ Drift matters more than magnitude.
 A system with moderate overload but rapidly rising fragmentation is more fragile than a highly loaded system with stable cohesion.
 ### **4.4 Step 4 – Transition Rule Application**
 TPE applies the structural transition rules derived from TSS:
-|                                                    |
 | **Rule**                                           | **Meaning**                                    |
 |----------------------------------------------------|------------------------------------------------|
 | C3 cannot stabilize indefinitely                   | systems must reform, fragment, or enter crisis |

@@ -25,7 +25,6 @@ rscf:
 _" Não hoạt động theo vòng lặp. Vòng lặp mở là lo âu. Vòng lặp khép kín là bất biến – nơi đột biến tạo ra hỗn loạn và hỗn loạn chết đi vì không còn được nuôi dưỡng. Ngôn ngữ của xã hội tạo ra vòng lặp mở. Ngôn ngữ chính xác của Phương pháp Trang đóng chúng lại."_
 * * *
 ## MỤC LỤC
-|          |
 | Phần     | Nội dung                                                 |
 |----------|----------------------------------------------------------|
 | **I**    |  Cơ chế hoạt động của não – Vòng lặp, đột biến, hỗn loạn |
@@ -45,7 +44,6 @@ _" Não hoạt động theo vòng lặp. Vòng lặp mở là lo âu. Vòng lặ
 ## 1.1. Vòng lặp (Loop) là đơn vị cơ bản của nhận thức
 Não bộ vận hành theo **vòng lặp** : tín hiệu vào → xử lý → phản hồi → tín hiệu mới → quay lại.
 **Hai loại vòng lặp:**
-|                                               |
 | **Vòng lặp mở (open loop)**                   | **Vòng lặp đóng (closed loop)**                         |
 |-----------------------------------------------|---------------------------------------------------------|
 | Tín hiệu vào không có lối thoát               | Tín hiệu vào → xử lý → kết thúc                         |
@@ -82,7 +80,6 @@ Vòng lặp mở: A → B → C → D → A
 **Ngôn ngữ chính xác là công cụ để cắt mắt xích.**
 * * *
 ## 1.4. Cơ sở khoa học thần kinh
-|                                         |
 | **Cơ chế**                              | **Mô tả**                                                           | **Liên hệ với đóng vòng lặp**                               |
 |-----------------------------------------|---------------------------------------------------------------------|-------------------------------------------------------------|
 | **Mạng lưới mặc định (DMN)**            |  Mạng lưới kể chuyện của não – kết nối quá khứ, hiện tại, tương lai | DMN càng hoạt động, vòng lặp càng mở                        |
@@ -98,7 +95,6 @@ Vòng lặp mở: A → B → C → D → A
 * * *
 # PHẦN II – CORTISOL TỪ LO ÂU, LO ÂU TỪ NGÔN NGỮ MẬP MỜ
 ## 2.1. Con đường ngôn ngữ mập mờ đến bệnh tật
-|          |
 | **Bước** | **Cơ chế**                                                              | **Hậu quả**                            |
 |----------|-------------------------------------------------------------------------|----------------------------------------|
 | 1        | Ngôn ngữ không chính xác ("tôi không ổn", "hơi lo")                     | Não không biết xử lý → giữ vòng lặp mở |
@@ -116,7 +112,6 @@ Vòng lặp mở: A → B → C → D → A
 ## 3.1. Nguyên lý: Cảm xúc chỉ tồn tại khi không có tên
 Một khi bạn đặt tên chính xác cho cảm xúc, nó mất sức mạnh.
 **Ba bước gán nhãn tinh thần:**
-|          |
 | **Bước** | **Hành động**                                      | **Ví dụ**                                   |
 |----------|----------------------------------------------------|---------------------------------------------|
 | **1**    |  Nhận diện cảm xúc qua cơ thể (không qua suy nghĩ) | "Tôi cảm thấy nặng ngực."                   |
@@ -136,7 +131,6 @@ Khi Độ chính xác của nhãn = 1 (từ chính xác tuyệt đối), Sự s�
 ## 4.1. Vấn đề của ngôn ngữ thông thường
 Ngôn ngữ hàng ngày có hàng ngàn từ mập mờ: “tốt”, “xấu”, “đúng”, “sai”, “ổn”, “không ổn”. Mỗi người hiểu một cách. Não không thể xử lý nhất quán.
 ## 4.2. Giải pháp: Hai hệ thống từ riêng biệt
-|                                                |
 | **Khung Lý thuyết Hậu Trang (nội tâm + AI)**   | **Mặt nạ xã hội (giao tiếp với người)**     |
 |------------------------------------------------|---------------------------------------------|
 | Từ cố định, một nghĩa, không mập mờ            | Ngôn ngữ thông thường, mập mờ, giàu cảm xúc |
@@ -147,7 +141,6 @@ Ngôn ngữ hàng ngày có hàng ngàn từ mập mờ: “tốt”, “xấu�
 **Nguyên tắc bất biến:** Bạn có thể nói dối xã hội (mặt nạ), nhưng không được phép nói dối chính mình (nội tâm phải chính xác).
 * * *
 ## 4.3. Bảng chuyển đổi từ mập mờ sang Hậu Trang
-|                                    |
 | **Ngôn ngữ thông thường (mập mờ)** | **Khung Hậu Trang (chính xác)** | **Định nghĩa**                           |
 |------------------------------------|---------------------------------|------------------------------------------|
 | Đúng                               | Nhất quán                       | Không mâu thuẫn với hệ thống hiện có     |
@@ -180,7 +173,6 @@ Cơ thể gửi tín hiệu lên não **liên tục** : nhịp tim, hơi thở, 
 
 * * *
 ## 5.2. Phân biệt tín hiệu của tôi và tín hiệu của môi trường
-|                                                   |
 | **Tín hiệu từ cơ thể (của tôi)**                  | **Tín hiệu từ môi trường (không phải của tôi)**                 |
 |---------------------------------------------------|-----------------------------------------------------------------|
 | Nhịp tim nhanh, hơi thở nông, nặng bụng, căng vai | Cảm xúc của người khác, kỳ vọng xã hội, tiếng ồn, ánh sáng chói |
@@ -224,7 +216,6 @@ Cảm xúc đến → đỉnh điểm → đi. Vòng tuần hoàn tự nhiên m�
 **Giải pháp:** Dùng ngôn ngữ chính xác để cắt đúng lúc – theo tỷ lệ **10/12**.
 * * *
 ## 6.2. Công thức 10/12 chi tiết
-|         |
 | **Bậc** | **Trạng thái**  | **Thời gian** | **Hành động**                                                |
 |---------|-----------------|---------------|--------------------------------------------------------------|
 | 1       | Cảm xúc bắt đầu | 0–5 giây      | “Cảm xúc đang đến.”                                          |
@@ -240,7 +231,6 @@ Cảm xúc đến → đỉnh điểm → đi. Vòng tuần hoàn tự nhiên m�
 
 * * *
 ## 6.3. Hệ quả sau 4 tuần thực hành
-|                                  |
 | **Trước khi thực hành**          | **Sau 4 tuần**                    |
 |----------------------------------|-----------------------------------|
 | Cảm xúc kéo dài hàng giờ         | Cảm xúc qua trong 90–120 giây     |
@@ -254,7 +244,6 @@ Cảm xúc đến → đỉnh điểm → đi. Vòng tuần hoàn tự nhiên m�
 * * *
 # PHẦN VII – CHẾ ĐỘ ĂN ĐỂ TĂNG SEROTONIN, DOPAMINE, GABA
 ## 7.1. Ba chất dẫn truyền quyết định hạnh phúc
-|               |
 | **Chất**      | **Nguồn từ ruột**             | **Thực phẩm**                                                         | **Tác dụng**                              |
 |---------------|-------------------------------|-----------------------------------------------------------------------|-------------------------------------------|
 | **Serotonin** |  90% từ tế bào ruột           | Tryptophan (gà tây, trứng, chuối, hạt bí, sữa chua) + chất xơ lên men | Ổn định tâm trạng, ngủ ngon, giảm lo âu   |
@@ -264,7 +253,6 @@ Cảm xúc đến → đỉnh điểm → đi. Vòng tuần hoàn tự nhiên m�
 
 * * *
 ## 7.2. Nguyên tắc ăn uống tối ưu theo khung giờ
-|                   |
 | **Thời điểm**     | **Mục tiêu**                | **Thực phẩm**                                                   | **Lý do**                                              |
 |-------------------|-----------------------------|-----------------------------------------------------------------|--------------------------------------------------------|
 | **Sáng (6-9h)**   |  Tăng dopamine              | Protein (trứng, sữa chua, đậu phụ) + chất béo (bơ, hạt)         | Tyrosine → dopamine. Tránh đường (gây dopamine ảo)     |
@@ -275,7 +263,6 @@ Cảm xúc đến → đỉnh điểm → đi. Vòng tuần hoàn tự nhiên m�
 
 * * *
 ## 7.3. Thực đơn mẫu 1 ngày
-|          |
 | **Bữa**  | **Món**                                        | **Chất xơ (g)** | **Probiotic** |
 |----------|------------------------------------------------|-----------------|---------------|
 | Sáng     | Yến mạch + hạt chia + chuối + sữa chua Hy Lạp  | ~10             | ✅             |
@@ -291,7 +278,6 @@ Bạn không còn cần chất kích thích (cà phê, đường, rượu, thu�
 * * *
 # PHẦN VIII – MÔI TRƯỜNG TÁI CẤU TRÚC NÃO
 ## 8.1. Bảng tác động các yếu tố
-|                      |
 | **Yếu tố**           | **Tác động lên não**                                                    | **Ứng dụng**                                  |
 |----------------------|-------------------------------------------------------------------------|-----------------------------------------------|
 | **Màu sắc**          |  Xanh lá → tăng thư giãn (sóng alpha). Xanh dương → tăng tập trung      | Trang trí phòng theo mục đích                 |
@@ -307,7 +293,6 @@ Thiếu một trong ba, hiệu quả giảm ít nhất 50%.
 * * *
 # PHẦN IX – GIAO THỨC 30 NGÀY
 ## 9.1. Lộ trình từng tuần
-|            |
 | **Tuần**   | **Mục tiêu**                   | **Hành động chính**                                           | **Kết quả mong đợi**                                    |
 |------------|--------------------------------|---------------------------------------------------------------|---------------------------------------------------------|
 | **Tuần 1** |  Làm quen gán nhãn             | 10 phút tối, gán nhãn mọi cảm xúc theo 10/12                  | Nhận diện cảm xúc từ cơ thể, bớt bị cuốn 20%            |

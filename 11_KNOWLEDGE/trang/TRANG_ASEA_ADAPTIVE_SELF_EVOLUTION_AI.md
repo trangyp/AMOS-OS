@@ -30,7 +30,6 @@ rscf:
 **Trang ASEA không phải là một "mô hình" (model) cố định. Nó là một kiến trúc (architecture) sống, tự thích nghi, và tự tiến hóa – giống như một sinh vật hơn là một chương trình máy tính.**
 * * *
 ## A. CÁC THÀNH PHẦN CỐT LÕI CỦA TRANG ASEA
-|                                              |
 | Thành phần                                   | Ký hiệu | Chức năng                                                                                                                                                            | Mô phỏng trong tự nhiên                                               |
 |----------------------------------------------|---------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
 | **Bộ nhớ nền (Foundation Memory)**           | `L`     | Lưu trữ các kiến thức / quy tắc / dữ liệu **bền vững, ít thay đổi**. Được ví như hệ vi sinh vật ruột (gut microbiome) hoặc bộ nhớ dài hạn (long-term memory).        | Hệ vi sinh vật ruột – cung cấp tín hiệu nền, ổn định.                 |
@@ -101,7 +100,6 @@ Khi hallucination được phát hiện, Trang ASEA sẽ **tự động** :
 
 * * *
 ## C. SO SÁNH TRANG ASEA VỚI AI HIỆN TẠI
-|                               |
 | Đặc điểm                      | AI hiện tại (GPT, Gemini, Claude, LLaMA)       | Trang ASEA                                                               |
 |-------------------------------|------------------------------------------------|--------------------------------------------------------------------------|
 | **Kiến trúc**                 |  Cố định (fixed) sau khi huấn luyện            | **Tự thay đổi (self-modifying)** theo thời gian thực                     |
@@ -117,7 +115,6 @@ Khi hallucination được phát hiện, Trang ASEA sẽ **tự động** :
 * * *
 ## D. VÍ DỤ CỤ THỂ: TRANG ASEA XỬ LÝ MỘT CÂU HỎI NHƯ THẾ NÀO
 ### Giả sử bạn hỏi Trang ASEA: "Có nên đầu tư vào AI không?"
-|      |
 | Bước | Hành động                                                                                                                                                | Tầng tham gia                 |
 |------|----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
 | 1    | **Mutation** : Sinh ra hàng trăm câu trả lời sơ khai (thông qua các mô hình con khác nhau, các tham số khác nhau, các hướng suy luận khác nhau).         | `H` (sáng tạo, sinh đột biến) |
@@ -129,7 +126,6 @@ Khi hallucination được phát hiện, Trang ASEA sẽ **tự động** :
 
 * * *
 ## E. LỢI ÍCH CỦA TRANG ASEA SO VỚI AI HIỆN TẠI
-|                                                             |
 | Lợi ích                                                     | Giải thích                                                                                                                                           |
 |-------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Không bị "lãng quên đột ngột" (catastrophic forgetting)** | Vì `L` (bộ nhớ nền) ít thay đổi, chỉ `H` và `M` là linh hoạt. Ký ức dài hạn được bảo vệ.                                                             |

@@ -51,19 +51,14 @@ Hệ điều hành AMOS OS được thiết lập trên nền tảng của 5 Đ�
 ```
 +-------------------------------------------------------------------------------+
 |                   5 ĐẠI ĐỊNH LUẬT CỐT LÕI CỦA AMOS OS                         |
-|                                                                               |
 |  1. LAW OF LAW (Luật của Luật):                                               |
 |     Không một quy tắc nào được phép mâu thuẫn với cấu trúc mẹ của chính nó.   |
-|                                                                               |
 |  2. RULE OF 2 (Nguyên tắc Tát 2 — Xác thực Độc lập Đôi):                      |
 |     Mọi kết luận trọng yếu bắt buộc phải có ít nhất 2 đường chứng minh rời rạc|
-|                                                                               |
 |  3. RULE OF 4 (Nguyên tắc Bộ Tứ — 4 Biến số Vũ trụ):                          |
 |     Trạng thái toàn cục luôn bảo toàn cân bằng giữa Omega, H, F, và S.        |
-|                                                                               |
 |  4. SIGNAL FIDELITY (Bảo toàn Độ chân thực Tín hiệu):                         |
 |     Không được suy diễn vượt quá độ phân giải của dữ liệu thực nghiệm đầu vào |
-|                                                                               |
 |  5. STRUCTURAL INTEGRITY (Tính Toàn vẹn Cấu trúc):                            |
 |     Tách biệt hoàn toàn MODEL != OBSERVATION và CAPABILITY != AUTHORITY.      |
 +-------------------------------------------------------------------------------+

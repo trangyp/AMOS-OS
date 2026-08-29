@@ -51,7 +51,6 @@ Trong khoa học và kỹ thuật hiện nay, first principle reasoning (suy lu�
 
 * * *
 ### II. Điểm mạnh và điểm yếu của first principle hiện tại
-|                                       |
 | Khía cạnh                             | Đánh giá                                  |
 |---------------------------------------|-------------------------------------------|
 | Độ chính xác                          | Rất cao nếu đúng nguyên lý gốc            |
@@ -67,7 +66,6 @@ Trong khoa học và kỹ thuật hiện nay, first principle reasoning (suy lu�
 **Định nghĩa lại:**
 > _" First principle không phải là một tập hợp các chân lý bất biến. Mà là một cấu trúc suy luận có khả năng tự phân rã một vấn đề thành các tầng, trong đó mỗi tầng có nguyên lý vận hành riêng, và các nguyên lý đó có thể khác nhau tùy quy mô. First principle thực sự là khả năng tìm ra được các 'tầng gốc' ở bất kỳ quy mô nào, chứ không phải một bảng công thức duy nhất."_
 **Các điểm khác biệt cốt lõi:**
-|                                     |
 | Khía cạnh                           | First principle hiện tại     | First principle theo Trang ∅                              |
 |-------------------------------------|------------------------------|-----------------------------------------------------------|
 | **Bản chất**                        |  Tập hợp các chân lý cố định | Cấu trúc suy luận phân tầng                               |
@@ -81,7 +79,6 @@ Trong khoa học và kỹ thuật hiện nay, first principle reasoning (suy lu�
 * * *
 ### IV. Ví dụ so sánh trực tiếp
 **Bài toán: Dự báo giá nhà**
-|                                                           |
 | Cách tiếp cận                                             | First principle hiện tại                                 | First principle theo Trang ∅                                                    |
 |-----------------------------------------------------------|----------------------------------------------------------|---------------------------------------------------------------------------------|
 | **Đi từ gì?**                                             |  Giá đất + vật liệu + công + lợi nhuận biên              | Phân rã thành ba tầng: thị trường nền, hành vi người mua, yếu tố tâm lý kỳ vọng |
@@ -91,7 +88,6 @@ Trong khoa học và kỹ thuật hiện nay, first principle reasoning (suy lu�
 
 
 **Bài toán: Thiết kế chiến lược kinh doanh**
-|                                               |
 | Cách tiếp cận                                 | First principle hiện tại                          | First principle theo Trang ∅                                                      |
 |-----------------------------------------------|---------------------------------------------------|-----------------------------------------------------------------------------------|
 | **Đi từ gì?**                                 |  Nhu cầu cơ bản của con người                     | Phân rã thị trường thành các tầng vận hành khác nhau, mỗi tầng có nguyên lý riêng |

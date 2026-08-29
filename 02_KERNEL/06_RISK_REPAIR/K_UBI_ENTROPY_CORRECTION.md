@@ -53,7 +53,6 @@ $$\mathcal{J}_{\text{negentropy}} = -\kappa \nabla \mathcal{H}_{\text{drift}} + 
 ```
 +-------------------------------------------------------------------------------+
 |               CHU TRÌNH ĐIỀU HÒA ENTROPY SINH HỌC 4 MIỀN                      |
-|                                                                               |
 |  [ NBI: Thần Kinh Sinh Học ] <---> [ NEI: Cảm Xúc Thần Kinh ]                 |
 |                 ^                                    ^                        |
 |                 |   ( VAN BƠM NEGENTROPY TRUNG TÂM ) |                        |

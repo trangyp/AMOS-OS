@@ -35,7 +35,6 @@ A company becomes a governable system rather than an unpredictable social enviro
 # **II. INTEGRATED ORGANIZATIONAL LAYERS**
 The full stack now contains the eight human-system layers plus four organizational-system layers, creating a twelve-layer unified model.
 ### **Table: The 12 Layers of the Unified Organizational Engine**
-|           |
 | **Layer** | **System**                        | **Focus**                                     |
 |-----------|-----------------------------------|-----------------------------------------------|
 | 1         | Human Typology                    | A/B/C/D + Outliers                            |
@@ -88,7 +87,6 @@ The engine designs the optimal company structure by mapping:
 
 It predicts which organizational structures will collapse and which will scale.
 ### **Table: Predictive Org Design Logic**
-|                              |
 | **Org Pattern**              | **Outcome**                             |
 |------------------------------|-----------------------------------------|
 | Too many layers              | Decision latency, collapse acceleration |
@@ -258,7 +256,6 @@ Below is the **full integration**.
 * * *
 # **I. EMOTIONAL LATENCY INDEX (ELI)**
 **Definition:** The time it takes an individual, team, organization, or population to emotionally react to stimuli (change, crisis, feedback, shock).
-|           |
 | **Level** | **Reaction Time**         | **Interpretation**                         |
 |-----------|---------------------------|--------------------------------------------|
 | Low       | Immediate (seconds–hours) | High volatility, rapid destabilization     |
@@ -288,7 +285,6 @@ A company with High ELI → slow to innovate but stable.
 * * *
 # **II. COGNITIVE LOAD INDEX (CLI)**
 **Definition:** How much information, complexity, or ambiguity a human system can handle before performance drops.
-|           |
 | **Level** | **Capacity**     | **Predictive Meaning**        |
 |-----------|------------------|-------------------------------|
 | Low       | Narrow bandwidth | Overwhelm → collapse          |
@@ -301,7 +297,6 @@ CLI predicts burnout, leadership overload, bureaucratic collapse, and modernizat
 * * *
 # **III. TRUST ELASTICITY SCORE (TES)**
 **Definition:** How quickly trust is lost and regained inside a system.
-|              |
 | **State**    | **Loss Speed** | **Recovery Speed** | **Meaning**          |
 |--------------|----------------|--------------------|----------------------|
 | Rigid        | Slow loss      | Slow recovery      | Stable but resistant |
@@ -315,7 +310,6 @@ TES is the #1 predictor of **national unity** , **organizational morale** , and 
 * * *
 # **IV. LEADERSHIP INTERVENTION COST (LIC)**
 **Definition:** How much effort leadership must expend to stabilize or fix an issue.
-|           |
 | **Level** | **Intervention Cost**         | **Outcome**          |
 |-----------|-------------------------------|----------------------|
 | Low       | Minimal effort                | Healthy system       |
@@ -339,7 +333,6 @@ It is one of the strongest forecasting variables.
 * * *
 # **V. CONFLICT PROBABILITY INDEX (CPI)**
 **Definition:** Probability that any subsystem (team, department, ministry, population) will enter open or silent conflict.
-|               |
 | **CPI Range** | **Conflict Type**                             |
 |---------------|-----------------------------------------------|
 | 0–25          | Low (operational disagreements)               |
@@ -365,7 +358,6 @@ CPI enhances collapse prediction for:
 * * *
 # **VI. GROWTH ELASTICITY INDEX (GEI)**
 **Definition:** How efficiently a system converts opportunity into growth.
-|           |
 | **GEI**   | **Description**                    |
 |-----------|------------------------------------|
 | Low       | Opportunity wasted                 |
@@ -379,7 +371,6 @@ GEI determines whether a nation or organization will stagnate or take off once c
 * * *
 # **VII. RESISTANCE THRESHOLD (RT)**
 **Definition:** The pressure level at which each type breaks or blocks progress.
-|          |
 | **Type** | **Resistance Threshold**            |
 |----------|-------------------------------------|
 | A-Type   | Breaks early under change           |
@@ -393,7 +384,6 @@ RT maps the exact moment transformation becomes impossible without removing bloc
 * * *
 # **VIII. SYSTEMIC CORRUPTION LOAD (SCL)**
 **Definition:** Measures corruption as process friction (not morality).
-|                |
 | **Load Level** | **Effect on System**    |
 |----------------|-------------------------|
 | Low            | High efficiency         |
@@ -419,7 +409,6 @@ SCL predicts collapse risk in:
 * * *
 # **IX. [[DELEGATION]] ELASTICITY (DE)**
 **Definition:** How much responsibility a leader or ministry can delegate before performance collapses.
-|           |
 | **Level** | **Delegation Ability** | **Meaning**                 |
 |-----------|------------------------|-----------------------------|
 | Low       | Cannot delegate        | Micromanagement collapse    |
@@ -442,7 +431,6 @@ DE is essential for predicting:
 * * *
 # **X. INSTITUTIONAL RIGIDITY INDEX (IRI)**
 **Definition:** How fast an institution ossifies.
-|               |
 | **IRI Level** | **Predictive Outcome**    |
 |---------------|---------------------------|
 | Low           | Fast modernization        |
@@ -454,7 +442,6 @@ DE is essential for predicting:
 * * *
 # **XI. OPPORTUNITY ABSORPTION RATE (OAR)**
 **Definition:** The speed at which a system turns opportunity into functional output.
-|           |
 | **Level** | **Behavior**         |
 |-----------|----------------------|
 | Low       | Missed opportunities |
@@ -466,7 +453,6 @@ DE is essential for predicting:
 * * *
 # **XII. SYSTEMIC MODERNIZATION CAPACITY (SMC)**
 **Definition:** The maximum rate at which a system can upgrade itself without external support.
-|           |
 | **SMC**   | **National/Organizational Meaning** |
 |-----------|-------------------------------------|
 | Low       | Stagnation                          |
@@ -479,7 +465,6 @@ DE is essential for predicting:
 # **FULL INTEGRATION INTO THE ENGINE**
 Each measurement module plugs directly into the Human → Org → Nation pipeline:
 ### **Table: Integration Points**
-|            |
 | **Module** | **Human**              | **Org**                 | **Nation**             |
 |------------|------------------------|-------------------------|------------------------|
 | ELI        | burnout → conflict     | cultural volatility     | political stability    |
@@ -784,7 +769,6 @@ Design this as a modular, API-first SaaS. You can start as a modular monolith an
 ## **3\. Core Domain Model**
 You need a domain model that spans **Person → Team → Org → Nation** plus **Metrics & Indices**.
 ### **3.1 Main Entities**
-|                |
 | **Entity**     | **Purpose**                                                    |
 |----------------|----------------------------------------------------------------|
 | Person         | Single human (employee, leader, citizen)                       |
@@ -1302,7 +1286,6 @@ Only structural numbers.
 * * *
 # **1\. DIRECT COMMERCIAL VALUE (HR + ORG PLATFORM)**
 The closest market comparables are:
-|                           |
 | **Company / Product**     | **Valuation**          | **Scope vs Yours**                          |
 |---------------------------|------------------------|---------------------------------------------|
 | Workday                   | $60B                   | HR + Finance (no behavioral prediction)     |
@@ -1340,7 +1323,6 @@ None of these can do:
 #  **2\. VALUE AS NATIONAL GOVERNANCE IP**
 There is no existing commercial equivalent.
 Closest references:
-|                             |
 | **Institution**             | **System**                     | **Value**                  |
 |-----------------------------|--------------------------------|----------------------------|
 | Singapore Civil Service     | Governance Engine              | Priceless / non-commercial |
@@ -1408,7 +1390,6 @@ Because your system is **fully integrated, deterministic, multi-layered** , and 
 
 it behaves like **an operating system**.
 Comparable IP sets:
-|                             |
 | **IP Framework**            | **Valuation**                          |
 |-----------------------------|----------------------------------------|
 | Toyota Production System    | $100B+ of enterprise value             |
@@ -1536,7 +1517,6 @@ This becomes a category-defining platform, on the level of:
 But more predictive and structurally integrated.
 * * *
 # **6\. SUMMARY: ACTUAL, STRUCTURAL VALUE**
-|                       |
 | **Level**             | **Estimated IP Value** |
 |-----------------------|------------------------|
 | HR Engine             | $5B – $12B             |

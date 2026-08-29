@@ -680,7 +680,6 @@ Preferred invalidation:
 P2
  |
  +--> D1
- |     |
  |     +--> D3
  |
  +--> D2
@@ -1252,7 +1251,6 @@ SOURCE
 SOURCE_CLAIM
   |
   +--> DERIVED CLAIM
-  |        |
   |        v
   |      MODEL
   |
@@ -3887,10 +3885,8 @@ falsifiers:
                       /       |        \
                      v        v         v
 
-                     |               |
                      |               v
                      |
-                     |               |
                      |               v
                      |
                      |
@@ -3923,13 +3919,9 @@ CLAIM DECOMPOSITION
    |
    v
 +---------------------------------------------+
-|                                             |
 | SOURCE REPORT? ---------> SOURCE_CLAIM      |
-|                                             |
 | DIRECT MEASUREMENT? ----> OBSERVATION       |
-|                                             |
 | INFERENCE? -------------> DERIVED           |
-|                                             |
 | REPRESENTATION? --------> MODEL             |
 |                                             |
 +---------------------------------------------+

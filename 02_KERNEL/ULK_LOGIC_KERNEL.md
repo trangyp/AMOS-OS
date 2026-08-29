@@ -49,7 +49,6 @@ Universe Logic Kernel (**ULK**) là động cơ luận lý hình thức tối ca
 ```
 +-------------------------------------------------------------------------------+
 |                  UNIVERSE LOGIC KERNEL (ULK) — 8 ALUs MATRIX                  |
-|                                                                               |
 |  [ ALU-01: Mệnh đề Cổ điển ]      [ ALU-02: Vị từ Bậc một & Unification ]     |
 |  [ ALU-03: Logic Thời gian LTL ]  [ ALU-04: Logic Khung Nhận thức Epistemic ] |
 |  [ ALU-05: Ràng buộc Hiến pháp ]  [ ALU-06: Dàn Đại số Lượng tử Không Giao Hoán]|

@@ -52,7 +52,6 @@ Hạt nhân `K_ANTI_AUTOPOISONING` thiết lập cơ chế giám sát và bơm N
 ```
 +-------------------------------------------------------------------------------+
 |               CƠ CHẾ PHÒNG THỦ CHỐNG TỰ ĐẦU ĐỘC DỮ LIỆU                      |
-|                                                                               |
 |  [ Luồng Dữ Liệu Đầu Vào ] ---> ( Bộ Lọc Nguồn Gốc Provenance Filter )         |
 |                                              |                                |
 |                                              v                                |

@@ -190,7 +190,6 @@ A single module is optimized to deliver:
 
 * * *
 ## **1) Performance spec (what the module must deliver)**
-|                        |
 | **Category**           | **Rated (Cruise)**         | **Boost (Peak)**                          | **Hard limit / refusal**        |
 |------------------------|----------------------------|-------------------------------------------|---------------------------------|
 | Electrical input power | 1,000 W continuous         | 1,500–2,000 W burst                       | Refuse above limit              |
@@ -550,7 +549,6 @@ No hype. Only dimensions that actually decide outcomes.
 * * *
 ## **IKONOMY – Module-Level Benchmark**
 ### **1) Core Physics & Output**
-|                                 |
 | **Dimension**                   | **Original IKONOMY** | **AMOS-IKONOMY**            | **Typical Commercial** |
 |---------------------------------|----------------------|-----------------------------|------------------------|
 | Electrical ceiling              | Near thermoneutral   | Same (physics unchanged)    | Same                   |
@@ -562,7 +560,6 @@ No hype. Only dimensions that actually decide outcomes.
 **Winner:** AMOS-IKONOMY (lifetime-integrated output)
 * * *
 ### **2) Control & Stability**
-|                       |
 | **Dimension**         | **Original IKONOMY**  | **AMOS-IKONOMY**                   | **Typical Commercial** |
 |-----------------------|-----------------------|------------------------------------|------------------------|
 | Control philosophy    | Event-driven          | **Entropy-aware, refusal-capable** |  Static PID            |
@@ -574,7 +571,6 @@ No hype. Only dimensions that actually decide outcomes.
 **Winner:** AMOS-IKONOMY (prevents falling off the edge)
 * * *
 ### **3) Thermal & Gas Handling**
-|                           |
 | **Dimension**             | **Original IKONOMY** | **AMOS-IKONOMY**                   | **Typical Commercial** |
 |---------------------------|----------------------|------------------------------------|------------------------|
 | Thermal headroom modeling | Minimal              | **Explicit governor**              |  Conservative          |
@@ -586,7 +582,6 @@ No hype. Only dimensions that actually decide outcomes.
 **Winner:** A MOS-IKONOMY (can push power safely)
 * * *
 ### **4) Human & Operational Load**
-|                             |
 | **Dimension**               | **Original IKONOMY** | **AMOS-IKONOMY**    | **Typical Commercial** |
 |-----------------------------|----------------------|---------------------|------------------------|
 | Operator vigilance required | Medium               | **Low**             |  High                  |
@@ -598,7 +593,6 @@ No hype. Only dimensions that actually decide outcomes.
 **Winner:** AMOS-IKONOMY (human-stable)
 * * *
 ### **5) Cost & Lifetime Economics**
-|                           |
 | **Dimension**             | **Original IKONOMY** | **AMOS-IKONOMY** | **Typical Commercial** |
 |---------------------------|----------------------|------------------|------------------------|
 | Cost per kg (short term)  | Competitive          | Slightly higher  | Variable               |
@@ -643,7 +637,6 @@ I will be conservative where physics constrains us and explicit where the redesi
 # **Original IKONOMY vs Redesigned (AMOS-IKONOMY) — Quantified**
 ## **1) Power and Output (per module)**
 ### **Electrical Power**
-|                        |
 | **Metric**             | **Original IKONOMY** | **AMOS-IKONOMY**            |
 |------------------------|----------------------|-----------------------------|
 | Rated continuous power | **1.0 kW**           | **1.0 kW** (unchanged)      |
@@ -656,7 +649,6 @@ I will be conservative where physics constrains us and explicit where the redesi
 Peak power increased **+50–100%** , but only inside a bounded envelope that does **not** consume lifetime.
 * * *
 ### **Hydrogen Output**
-|                                 |
 | **Metric**                      | **Original IKONOMY**   | **AMOS-IKONOMY**        |
 |---------------------------------|------------------------|-------------------------|
 | Rated output                    | **≈300 L/h @ 1 kW**    | **≈300 L/h @ 1 kW**     |
@@ -671,7 +663,6 @@ It allows **temporary output gain** without pushing the system into irreversible
 * * *
 ## **2) Time & Lifetime (this is where the real gain is)**
 ### **Operating Life**
-|                                        |
 | **Metric**                             | **Original IKONOMY** | **AMOS-IKONOMY**      |
 |----------------------------------------|----------------------|-----------------------|
 | Degradation mode                       | Reactive             | **Preventive**        |
@@ -684,7 +675,6 @@ It allows **temporary output gain** without pushing the system into irreversible
 A **50–100% increase in stack life** is more valuable than a 5–10% efficiency gain.
 * * *
 ## **3) Uptime and Availability**
-|                      |
 | **Metric**           | **Original** | **AMOS-IKONOMY** |
 |----------------------|--------------|------------------|
 | Typical uptime       | 90–94%       | **≥98%**         |
@@ -698,7 +688,6 @@ Higher _effective hydrogen per year_ , even if nameplate power is the same.
 * * *
 ## **4) Cost — Short Term vs Lifetime**
 ### **CapEx (per module)**
-|                        |
 | **Metric**             | **Original** | **AMOS-IKONOMY** |
 |------------------------|--------------|------------------|
 | Electronics BOM        | Lower        | **+5–10%**       |
@@ -711,7 +700,6 @@ Yes, upfront cost rises slightly.
 Now look at operating cost.
 * * *
 ### **OpEx and Lifetime Cost**
-|                           |
 | **Metric**                | **Original** | **AMOS-IKONOMY** |
 |---------------------------|--------------|------------------|
 | Maintenance frequency     | High         | **Low**          |
@@ -787,7 +775,6 @@ Now the details.
 ## **1) Labor + Intervention Economics (biggest lever)**
 AMOS-IKONOMY already reduces intervention frequency.
 Vietnam multiplies that advantage.
-|                                |
 | **Metric**                     | **OECD baseline** | **Vietnam**    |
 |--------------------------------|-------------------|----------------|
 | Skilled technician hourly cost | 1.0×              | **0.25–0.4×**  |
@@ -873,7 +860,6 @@ AMOS-IKONOMY responds by:
 
 
 **Cost effect:**
-|                            |
 | **Item**                   | **Typical system** | **AMOS-IKONOMY** |
 |----------------------------|--------------------|------------------|
 | Water treatment CapEx      | Medium–High        | **Low**          |
@@ -942,7 +928,6 @@ That alone often equals **10–20% NPV gain**.
 * * *
 # **Total Cost Impact (Realistic Aggregate)**
 Starting from AMOS-IKONOMY baseline:
-|                                            |
 | **Cost category**                          | **Reduction** |
 |--------------------------------------------|---------------|
 | Additional CapEx reduction (localization)  | **8–15%**     |

@@ -136,13 +136,13 @@ I have successfully implemented the **AMOS Unified Equation Framework (UEF)** fo
 - **Nonlinear**: `N_σ(x) = σ(x)`
 - **State Update**: `T(x) = x+1`
 
-### **Framework Detection Results** | Equation | Type | Canonical Form | Computational Form |
+### **Framework Detection Results**
+
+| Equation | Type | Canonical Form | Computational Form |
 |----------|------|----------------|-------------------|
-| `x^2 + 3x - 4 = 0` | ALGEBRAIC | `A(x) = x^2 + 3x
-- 4` | `algebraic(x, y) = x + y` |
+| `x^2 + 3x - 4 = 0` | ALGEBRAIC | `A(x) = x^2 + 3x - 4` | `algebraic(x, y) = x + y` |
 | `dy/dx = -2*y` | ODE | `D_y(y) = -2*y` | `time_derivative(y, 1e-6)` |
-| `u_t - k*u_xx = 0` | PDE | `D_t(u)
-- k*D_xx(u) = 0` | `derivative(u,'t) - k*laplacian(u)` |
+| `u_t - k*u_xx = 0` | PDE | `D_t(u) - k*D_xx(u) = 0` | `derivative(u,'t) - k*laplacian(u)` |
 | `∇f(x) = 0` | OPTIMIZATION | `gradient(f) = 0` | `gradient(f)` |
 | `y = σ(Wx + b)` | NEURAL | `N_σ(M(W,x) + b)` | `activation(W)` |
 | `x_{t+1} = x_t + 1` | ALGORITHM | `T(x) = x + 1` | `state_update(x)` |

@@ -45,7 +45,6 @@ Shocks are disruptive events that force rapid adaptation or reveal hidden weakne
 All surface-level events ultimately translate into changes in Ω, H, F, or S. Political shifts change cohesion and fragmentation. Economic pressure increases overload. Cultural conflict increases fragmentation. Environmental stress and geopolitical competition increase shocks. TSS deliberately abstracts away surface categories to focus on their structural effects.
 ## **4\. The Seven Cycles of System Evolution**
 Systems evolve according to seven universal cycles. The duration of each may vary, but the order is consistent across history and scale.
-|                     |
 | **Cycle**           | **Description**                                     | **Structural Pattern**             |
 |---------------------|-----------------------------------------------------|------------------------------------|
 | C1 Emergence        | System forms with a unified core                    | Ω low, H high, F low, S low        |
@@ -73,7 +72,6 @@ The previous operating model loses authority and functionality. Institutions fai
 The system builds a new model, often with new leadership, rules, and identity. Overload decreases, cohesion strengthens, and fragmentation declines. This cycle leads back into C1 and C2.
 ## **5\. The Four Long-Term Outcomes**
 Systems end in one of four structural outcomes. These outcomes are mutually exclusive and collectively exhaustive across all historical cases.
-|                 |
 | **Outcome**     | **Meaning**          | **Description**                               |
 |-----------------|----------------------|-----------------------------------------------|
 | Renewal (R)     | System rebuilds      | A new model emerges with continuity           |

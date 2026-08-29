@@ -58,7 +58,6 @@ Các mô hình ngôn ngữ lớn (LLM) hiện tại như GPT, Claude, Gemini, LL
 **Vấn đề 1 – Nhạy cảm với cú pháp**
 Hai câu hỏi có cùng nội dung logic nhưng khác cách diễn đạt có thể nhận được hai câu trả lời khác nhau.
 Ví dụ:
-|                                             |
 | Đầu vào                                     | Phản hồi của AI hiện tại (có thể) |
 |---------------------------------------------|-----------------------------------|
 | "Nếu A thì B. A đúng. Vậy B có đúng không?" | "B đúng."                         |
@@ -122,7 +121,6 @@ Bước 2 – Trích xuất cấu trúc logic: Xác định mệnh đề, phép 
 Bước 3 – Chuẩn hóa: Đưa về dạng chuẩn hội (CNF) hoặc chuẩn tuyển (DNF)
 Bước 4 – Xuất biểu diễn trung gian: Cấu trúc dữ liệu logic, không phải xâu ký tự
 **Bảng chuẩn hóa các phép nối (dạng văn bản):**
-|                  |
 | Biểu thức logic  | Dạng chuẩn hội (CNF)                 |
 |------------------|--------------------------------------|
 | P và Q           | P và Q                               |
@@ -168,7 +166,6 @@ và P |-_Path2 c
 * * *
 ## 3\. SO SÁNH VỚI AI HIỆN TẠI
 ### 3.1. Bảng tổng quan
-|                       |
 | Đặc điểm              | AI hiện tại (GPT, Gemini, Claude)                               | Trang LDAI                                           |
 |-----------------------|-----------------------------------------------------------------|------------------------------------------------------|
 | Cú pháp               | Nhạy cảm – thay đổi vài từ có thể thay đổi câu trả lời          | Bất chấp cú pháp – chỉ nội dung logic quyết định     |
@@ -181,7 +178,6 @@ và P |-_Path2 c
 
 
 ### 3.2. So sánh về hallucination
-|                                  |
 | Tình huống                       | AI hiện tại                                | Trang LDAI                                             |
 |----------------------------------|--------------------------------------------|--------------------------------------------------------|
 | Câu hỏi vượt quá kiến thức       | Sinh ra câu trả lời có vẻ hợp lý nhưng sai | "Không đủ thông tin để kết luận"                       |
@@ -279,7 +275,6 @@ v
 ### 4.5. Thành phần 4: Inference Engine
 **Chức năng:** Áp dụng các quy tắc suy luận R vào P để sinh ra kết luận mới.
 **Bộ quy tắc tối thiểu (10 quy tắc):**
-|     |
 | STT | Tên quy tắc   | Dạng ký hiệu (văn bản) | Ví dụ             |
 |-----|---------------|------------------------|-------------------|
 | 1   | Modus Ponens  | P -> Q, P              | \- Q              |
@@ -327,7 +322,6 @@ trả về TRUE
 ### 4.7. Thành phần 6: Output Formatter
 **Chức năng:** Chuyển kết luận dạng logic thành ngôn ngữ tự nhiên.
 **Ví dụ chuyển đổi:**
-|                   |
 | Dạng logic        | Xuất tiếng Việt | Xuất tiếng Anh                                |
 |-------------------|-----------------|-----------------------------------------------|
 | Rain              | \- Wet          | "Trời mưa kéo theo đất ướt"                   |
@@ -394,7 +388,6 @@ Lưu ý: Trong logic hình thức, một đường dẫn duy nhất cũng đủ 
 * * *
 ## 7\. GIỚI HẠN VÀ HƯỚNG PHÁT TRIỂN
 ### 7.1. Giới hạn
-|                                   |
 | Giới hạn                          | Giải thích                                                 | Khắc phục                                                                |
 |-----------------------------------|------------------------------------------------------------|--------------------------------------------------------------------------|
 | Không xử lý được ngôn ngữ mơ hồ   | Nghĩa bóng, mỉa mai, ẩn dụ không có cấu trúc logic rõ ràng | Yêu cầu người dùng làm rõ, hoặc liệt kê tất cả cách hiểu                 |

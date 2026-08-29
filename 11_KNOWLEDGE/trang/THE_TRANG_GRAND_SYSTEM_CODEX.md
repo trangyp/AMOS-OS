@@ -442,7 +442,6 @@ Life is a system that uses **chemical logic** to preserve its own boundary condi
 ### **2.4.2 Mechanism**
 Biological logic = homeostasis + feedback + error correction.
 Mapping:
-|                              |
 | Biological Function          | Logical Behaviour                     |
 |------------------------------|---------------------------------------|
 | Homeostasis                  | Stability                             |
@@ -535,7 +534,6 @@ Logic is the ancient substrate.**
 # **2.9 Logic as the Parent Structure of Intelligence**
 ### **Intelligence = the c onscious use of logic to maintain alignment under expanding complexity.**
 Mapping:
-|            |
 | Layer      | Behaviour                      |
 |------------|--------------------------------|
 | Quantum    | coherence                      |
@@ -837,7 +835,6 @@ This interaction determines whether a system persists or collapses.
 # **3.4 The Four-Quadrant Behaviour of Logic**
  _(Rule of 4 — the canonical quadrant map.)_
 Logic expresses as four predictable behaviours:
-|          |
 | Quadrant | Behaviour       | Description                            |
 |----------|-----------------|----------------------------------------|
 | Q1       | **Structure**   |  Internal integrity rules              |
@@ -3398,7 +3395,6 @@ QCLA enforces duality to prevent false reduction.
 * * *
 # **9.4 The Rule of Four Applied to QCLA**
 Every causal event must be mapped across four quadrants:
-|          |
 | Quadrant | Layer               | Meaning                     |
 |----------|---------------------|-----------------------------|
 | Q1       | Internal → Internal | self-derived causality      |
@@ -3981,7 +3977,6 @@ PSI always interacts in dual layers.
 * * *
 # **10.5 PSI and the Rule of 4**
 Every PSI event can be mapped:
-|          |
 | Quadrant | PSI Expression        | Meaning                              |
 |----------|-----------------------|--------------------------------------|
 | Q1       | Environment → Biology | climate affecting physiology         |
@@ -4061,7 +4056,6 @@ UBI = **biology governed by PSI.**
 * * *
 # **10.8 PSI → TSS Integration**
 Every TSS cycle corresponds to a PSI layer.
-|                 |
 | TSS Cycle       | PSI Influence                   |
 |-----------------|---------------------------------|
 | C1 Identity     | geography, environment          |
@@ -4363,7 +4357,6 @@ ULF exists to prevent both.
 * * *
 # **11.4 The Rule of 4**
 ULF maps governance across four quadrants:
-|          |
 | Quadrant | Function                                 | Explanation                                         |
 |----------|------------------------------------------|-----------------------------------------------------|
 | Q1       | Internal Structure → Internal Behaviour  | system architecture shapes organisational behaviour |
@@ -4798,7 +4791,6 @@ It is not a psychology model.
 It is **a full-stack developmental architecture**.
 * * *
 # **12.1 The Seven Cycles (MECE, no overlap)**
-|        |
 | Cycle  | Name                  | System Layer          | Core Function                 |
 |--------|-----------------------|-----------------------|-------------------------------|
 | **C1** |  Identity Cycle       | Root Structure        | Defines self-logic            |
@@ -4862,7 +4854,6 @@ QLS is TSS **without time**.
 # **12.4 How TSS Integrates With UBI**
 UBI provides the biological substrate.
 TSS defines the behavioural pathway built on it.
-|       |
 | Cycle | Biological Domain (UBI)                 |
 |-------|-----------------------------------------|
 | C1    | Neurobiological Intelligence™           |
@@ -6241,7 +6232,6 @@ Every causal chain emerges from four interacting quadrants:
 
 
 These map precisely across all layers:
-|            |
 | Layer      | Base Information    | Interaction Pressure | Boundary Conditions   | Stability Feedback |
 |------------|---------------------|----------------------|-----------------------|--------------------|
 | Quantum    | wavefunction        | measurement          | energy states         | decoherence        |
@@ -12429,7 +12419,6 @@ This is when the system becomes entropy-dominant:
 This is the **only viable period** for recovery.
 Every intervention outside this window fails structurally.
 The 12 Recovery Steps correspond to months:
-|                             |
 | **Step**                    | **Time Window** |
 |-----------------------------|-----------------|
 | R1 Leadership Reset         | Months 0–3      |

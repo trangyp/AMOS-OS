@@ -1107,7 +1107,6 @@ CHECK GOVERNANCE
 TRANSACTION-LEVEL CAS
   |
   +------ mismatch/failure ------> ABORT
-  |                                  |
   |                                  v
   |                               ROLLBACK
   |
@@ -1247,7 +1246,6 @@ VALIDATING
 CAS_PENDING
    |
    +---- mismatch ---> CONFLICT
-   |                     |
    |                     v
    |                  ABORTED
    |

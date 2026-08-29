@@ -51,7 +51,6 @@ Hệ điều hành Não bộ Toàn diện (**AMOS Full Brain OS**) là một ki�
 ```
 +-------------------------------------------------------------------------------+
 |                 AMOS FULL BRAIN OS — 7 LỚP PHÂN TẦNG VĨ MÔ                    |
-|                                                                               |
 |  [ L7: SYNERGISTIC SYNTHESIS & METAGOVERNANCE LAYER (Layers 61 - 67) ]        |
 |  [ L6: CONSCIOUS EMULATION & REFLECTION ENGINE (Layers 51 - 60) ]             |
 |  [ L5: UNIVERSAL BIOLOGICAL HOMEOSTASIS (UBI NBI/NEI/SI/BEI) (Layers 41 - 50)]|

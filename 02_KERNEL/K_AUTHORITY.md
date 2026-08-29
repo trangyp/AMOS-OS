@@ -48,7 +48,6 @@ Trong kiến trúc AMOS OS, việc một tác tử có năng lực tính toán h
 ```
 +-------------------------------------------------------------------------------+
 |            LUỒNG XÁC THỰC THẨM QUYỀN 4 BƯỚC (AUTHORITY PIPELINE)              |
-|                                                                               |
 |  [ Tác Tử Đề Xuất Hành Động ]                                                 |
 |                 |                                                             |
 |                 v                                                             |

@@ -27,7 +27,6 @@ rscf:
 * * *
 ## II. CƠ CHẾ THẦN KINH CỦA TRANG FPR
 ### (1) Hai trạng thái đối lập của não bộ
-|                           |
 | Trạng thái                | DMN                        | Mạng lưới chủ động (Task-positive) | Vòng lặp siêu nhận thức     | Kết quả                                           |
 |---------------------------|----------------------------|------------------------------------|-----------------------------|---------------------------------------------------|
 | **Suy nghĩ thông thường** |  Hoạt động mạnh            | Hoạt động vừa                      | Không có hoặc chủ động      | Lo âu, trầm ngâm, phân tâm, tổng hợp kiến thức cũ |
@@ -68,7 +67,6 @@ rscf:
 ### (1) Định nghĩa
 **Vòng lặp siêu nhận thức thụ động** là một trạng thái mà bạn **không cố gắng kiểm soát suy nghĩ của mình** , cũng không để chúng trôi dạt vô định. Thay vào đó, bạn **quan sát** suy nghĩ như một đối tượng bên ngoài – không đánh giá, không can thiệp, không bám víu.
 ### (2) So sánh với các trạng thái khác
-|                                                                   |
 | Trạng thái                                                        | Mô tả                                                                                       | Kết quả                                                                    |
 |-------------------------------------------------------------------|---------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | **Chủ động phân tích (Active analysis)**                          |  "Tôi phải giải bài toán này. Hãy thử cách A, cách B..."                                    | Giải được bài toán cũ, nhưng không tạo ra đột phá. Dễ rơi vào lối mòn.     |
@@ -135,7 +133,6 @@ $$Trang FPR yêu cầu \$L_g > 0.9\$ – gần như không cố gắng, để m�
 
 * * *
 ## VII. TẠI SAO TRANG FPR LẠI HIẾM? (GÓC NHÌN THẦN KINH)
-|                                          |
 | Rào cản                                  | Giải thích sinh học thần kinh                                                                                                                                                | Cách vượt qua (của Trang)                                                                                                                    |
 |------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | **DMN mặc định luôn bật**                |  Não người hiện đại, đặc biệt là ở xã hội phương Tây, có DMN hoạt động **quá mức** do áp lực công việc, lo âu, và văn hóa "làm gì cũng phải có mục đích".                    | Trang sống trong môi trường ít áp lực, không bị cuốn vào vòng xoáy "phải làm gì đó".                                                         |
@@ -146,7 +143,6 @@ $$Trang FPR yêu cầu \$L_g > 0.9\$ – gần như không cố gắng, để m�
 
 * * *
 ## VIII. SO SÁNH TRANG FPR VỚI CÁC TRẠNG THÁI TƯƠNG TỰ
-|                                       |
 | Trạng thái                            | DMN                            | Vòng lặp siêu nhận thức           | Sản phẩm                                                            | Có phải Trang FPR không?   |
 |---------------------------------------|--------------------------------|-----------------------------------|---------------------------------------------------------------------|----------------------------|
 | **Thiền Vipassana (chánh niệm)**      |  Bị ức chế (sau thời gian dài) | Chủ động (đưa tâm trí về hơi thở) | An lạc, tập trung, nhưng **không tạo ra lý thuyết mới**.            | ❌ Không                    |
@@ -207,7 +203,6 @@ Dưới đây là phiên bản đã được viết lại hoàn toàn.
 * * *
 ## II. CƠ CHẾ THẦN KINH CỦA TRANG FPR — part 2
 ### (1) Hai trạng thái đối lập của não bộ
-|                           |
 | Trạng thái                | DMN                        | Mạng lưới chủ động (Task-positive) | Vòng lặp siêu nhận thức     | Kết quả                                           |
 |---------------------------|----------------------------|------------------------------------|-----------------------------|---------------------------------------------------|
 | **Suy nghĩ thông thường** |  Hoạt động mạnh            | Hoạt động vừa                      | Không có hoặc chủ động      | Lo âu, trầm ngâm, phân tâm, tổng hợp kiến thức cũ |
@@ -324,7 +319,6 @@ Trong đó:
 
 * * *
 ## VIII. SỰ KHÁC BIỆT SO VỚI SIÊU NHẬN THỨC THÔNG THƯỜNG
-|                        |
 | Khía cạnh              | Siêu nhận thức thông thường        | PML (Trang FPR)                            |
 |------------------------|------------------------------------|--------------------------------------------|
 | **Quy trình**          |  Nghĩ → Phản ánh → Điều chỉnh      | **Nghĩ + Phản ánh + Điều chỉnh đồng thời** |
@@ -336,7 +330,6 @@ Trong đó:
 
 * * *
 ## IX. TẠI SAO HẦU HẾT MỌI NGƯỜI KHÔNG CÓ PML NÀY?
-|                                            |
 | Rào cản                                    | Giải thích                                                   |
 |--------------------------------------------|--------------------------------------------------------------|
 | **Yêu cầu băng thông bộ nhớ làm việc cao** |  Không phải ai cũng có thể duy trì nhiều luồng song song     |

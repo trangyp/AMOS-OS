@@ -556,7 +556,6 @@ W07_GENERATE_PERCEPT_CANDIDATES
 W08_COMPARE_COMPETING_PERCEPTS
         |
         +--------------------+
-        |                    |
         | discriminated      | unresolved
         v                    v
 W09_CONTEXT_CHECK       W08C_PRESERVE_COMPETING
