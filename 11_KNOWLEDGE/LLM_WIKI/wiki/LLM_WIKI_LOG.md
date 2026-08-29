@@ -455,3 +455,8 @@ claim_class: AMOS_MODEL
 
 - Fetched `microsoft/SkillOpt` `main` README and captured to [[MICROSOFT_SKILLOPT_README_2026_08_30]].
 - Added deep-dive to [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] covering v0.2.0, `SkillOpt-Sleep`, supported backends, integration shells for Claude Code/Codex/Copilot/Devin, and AMOS integration points.
+
+## [2026-08-30] research | Captured ORPHEUS latest README
+
+- Fetched `nuryslyrt/ORPHEUS` main README and captured to [[ORPHEUS_README_2026_08_30]].
+- Added deep-dive to [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] covering the `.orpheus/` tree, Builder/Doctor/Auditor/Surgeon meta-roles, decision logs, error chain preservation, and AMOS integration points.

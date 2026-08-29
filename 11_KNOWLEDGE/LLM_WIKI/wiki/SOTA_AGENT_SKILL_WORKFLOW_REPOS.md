@@ -1124,3 +1124,40 @@ Re-fetched `microsoft/SkillOpt` README to get the latest `v0.2.0` changes, inclu
 Either install `skillopt` in a Python 3.10+ sandbox and run a built-in benchmark on one AMOS skill (e.g., `amos-llm-wiki`) to compare `best_skill.md` to the current `SKILL.md`, or capture the next SOTA repo such as `nuryslyrt/ORPHEUS`/`linxuhao/SkillFlow`/`zzatpku/AgentFactory`/`gfernandf/agent-skill-registry`/`xskill`/`OpenSkills`/`MMSkills`/`ai-os`/`addyosmani/agent-skills`.
 
 Raw source: [[MICROSOFT_SKILLOPT_README_2026_08_30]]
+
+## 2026-08-30 | research | Re-captured `nuryslyrt/ORPHEUS` README from main branch
+
+Re-fetched `nuryslyrt/ORPHEUS` README to verify the markdown-first multi-skill orchestration pattern.
+
+### Verified shape
+
+- Repo: `https://github.com/nuryslyrt/ORPHEUS`
+- Full name: **O**rchestrated **R**untime **P**rotocol for **H**ierarchical **E**xecution **U**nified **S**kills.
+- Pitch: build multi-skill AI systems in seconds, no code, no infrastructure, just natural language.
+- Runtime: 1 coding agent (Claude Code), no pip/npm/docker; skills live in `~/.claude/skills/orpheus/`.
+- Lifecycle: Describe → Generate → Run → Evolve.
+- Meta-system: Builder, Doctor, Auditor, Surgeon.
+- Generated `.orpheus/` tree:
+  - `system.yaml` — config
+  - `registry.yaml` — skill inventory
+  - `orchestrator/SKILL.md` — orchestration logic
+  - `experts/{name}/SKILL.md` + `contract.yaml` — domain specialists
+  - `workers/{name}/SKILL.md` + `contract.yaml` — atomic task executors
+  - `scripts/` — self-contained runtime
+  - `logs/` — decision trails + execution history
+- Decision logs include `question`, `options_considered`, `chosen`, `reasoning`, `confidence`.
+- Error chain preservation: full root-cause-to-symptom YAML trail.
+
+### AMOS integration points
+
+- `.orpheus/` skill tree → AMOS `.devin/skills/` / `.devin/agents/` / `.devin/workflows/`.
+- `orchestrator/SKILL.md` → `amos-agent-orchestrator` and `amos-os-runtime-master` dispatch rules.
+- `experts/{name}/contract.yaml` and `workers/{name}/contract.yaml` → `amos-skill-builder/references/CONTRACT_TEMPLATE.yaml`.
+- Decision logs → `amos-decision-logger` and `amos-audit-trail`.
+- Builder/Doctor/Auditor/Surgeon meta-roles → `amos-audit-repair-master` and `amos-reality-meta-law-auditor`.
+
+### Recommended next step
+
+Clone `nuryslyrt/ORPHEUS` and compare its `skill/` directory (orchestrator, experts, workers, contracts, scripts) to the AMOS `.devin/skills/`, `.devin/agents/`, and `.devin/workflows/` layout to import the hierarchical skill contract pattern as `amos-orpheus`, or continue to the next SOTA repo.
+
+Raw source: [[ORPHEUS_README_2026_08_30]]
