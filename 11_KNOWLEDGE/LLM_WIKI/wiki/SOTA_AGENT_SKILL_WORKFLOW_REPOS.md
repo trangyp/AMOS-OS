@@ -325,3 +325,49 @@ Read the `master` branch README of `zzatpku/AgentFactory` and mapped it to AMOS 
 Clone `zzatpku/AgentFactory` and inspect `prompt4cc.txt` and a saved `SKILL.md` to compare the AgentFactory bundle format with the AMOS `amos-skill-builder` bundle spec.
 
 Raw source: [[AGENTFACTORY_README_2026_08_29]]
+
+## 2026-08-29 | Agent Skill Registry deep-dive
+
+Read the `main` branch README of `gfernandf/agent-skill-registry` and mapped it to AMOS skill registry and vocabulary governance.
+
+### Verified shape
+
+- Apache 2.0, open registry of capabilities and skills.
+- 159 capabilities, 37 skills; validation, catalog generation, stats, governance guardrails.
+- Controlled vocabulary: `domain.noun.verb` for capability identifiers.
+- Declarative skills as dataflow: `inputs → steps → outputs` with capability/skill references.
+- Machine-readable catalogs: `capabilities.json`, `skills.json`, `graph.json`, `stats.json`.
+- Governance artifacts: `catalog/governance_guardrails.json`, `capability_governance_guardrails.json`.
+- Tools: `validate_registry.py`, `generate_catalog.py`, `registry_stats.py`, `governance_guardrails.py`.
+
+### Integration points for AMOS
+
+1. **Vocabulary control → `amos-skill-builder` and `amos-skill-registry-gateway`**
+   - The `domain.noun.verb` capability pattern can tighten AMOS skill `name` and `capabilities` naming.
+   - AMOS can add a `vocabulary.json` to `.devin/skills/` and validate names with `skill-check`.
+
+2. **Declarative skill dataflow → `amos-workflow-builder` and `amos-workflow-runner`**
+   - Skill workflows as dataflow `steps` referencing capabilities/skills by ID maps to AMOS workflow `steps` and `inputs/outputs`.
+   - Could extend `amos-workflow-builder` to emit `agent-skill-registry`-compatible YAML/JSON.
+
+3. **Machine-readable catalog → `amos-skill-catalog-generator` and `agent-registry`**
+   - The generated `catalog/` files mirror AMOS `.devin/agents/` index and `skill_catalog_generator.py` outputs.
+   - Export AMOS `.devin/skills/` to `catalog/skills.json` for interop.
+
+4. **Governance guardrails → `skill_guardrail_checker` and `amos-promotion-gates`**
+   - `governance_guardrails.py` and `capability_governance_guardrails.py` are references for `skill_guardrail_checker` and `amos-promotion-gates`.
+
+5. **Stats and sunset → `skill_version_manager` and `token_budget_analyzer`**
+   - `registry_stats.py` and `enforce_capability_sunset.py` map to AMOS skill deprecation, version lifecycle, and usage analytics.
+
+### Open questions / gaps
+
+- 159 capabilities is small compared to AMOS 642 skills; mapping effort would be large.
+- The README claims are not benchmarked; no runtime execution data shown.
+- Apache 2.0 is compatible, but per-skill license governance still needed for AMOS ingestion.
+
+### Recommended next step
+
+Generate a machine-readable catalog from `gfernandf/agent-skill-registry` and compare its `capabilities.json` schema to the AMOS `SKILL.md` frontmatter to identify missing fields or naming mismatches.
+
+Raw source: [[AGENT_SKILL_REGISTRY_README_2026_08_29]]

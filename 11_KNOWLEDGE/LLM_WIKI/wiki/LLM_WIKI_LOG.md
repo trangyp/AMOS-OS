@@ -210,3 +210,9 @@ claim_class: AMOS_MODEL
 - Fetched `zzatpku/AgentFactory` README and captured raw source to [[AGENTFACTORY_README_2026_08_29]].
 - Mapped AgentFactory meta-agent, subagent skill library, and self-evolution loop to `amos-agent-orchestrator`, `amos-skill-builder`, `amos-evolution-loop`, and `amos-brain-model-integration`.
 - Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: inspect `prompt4cc.txt` for bundle format comparison.
+
+## [2026-08-29] research | Agent Skill Registry README captured and evaluated
+
+- Fetched `gfernandf/agent-skill-registry` README and captured raw source to [[AGENT_SKILL_REGISTRY_README_2026_08_29]].
+- Mapped controlled vocabulary, declarative skill dataflow, machine-readable catalog, and governance guardrails to `amos-skill-builder`, `amos-workflow-builder`, `amos-skill-catalog-generator`, `skill_guardrail_checker`, and `skill_version_manager`.
+- Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: generate and compare registry catalog to AMOS `SKILL.md` frontmatter.
