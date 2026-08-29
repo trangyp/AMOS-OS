@@ -1243,3 +1243,25 @@ Implemented the vault's next SOTA recommendation by capturing the AgentSkillOS 2
 ### Recommended next step
 
 Continue scanning for the next high-value repo, or implement a concrete runtime enhancement such as adding a YAML DAG linter to `amos-workflow-runner` using the SkillFlow/AgentSkillOS orchestration schemas as references.
+
+## 2026-08-30 | implement | Added AMOS workflow validator and `make workflows` target
+
+Implemented a new runtime validation gate for the 683 AMOS workflow files, extending the SOTA quality framework from skills to the workflow layer.
+
+### Results
+
+- Created `.devin/scripts/workflow_validator.py`:
+  - Derives skill names from workflow filenames using `sota_skill_validator.py` conventions.
+  - Supports legacy `depends_on_workflows` and newer `skill_binding` agent schemas.
+  - Validates 1:1:1 binding of skill → agent → workflow.
+  - Reports missing top-level `#` titles and `Steps/Workflow` sections as warnings.
+- Added `make workflows` target to `Makefile`.
+- Validation:
+  - `make validate`: 649/649 skills at 100% SOTA across 19 gates.
+  - `make workflows`: 683/683 workflows pass binding checks; 676 title/section warnings remain for legacy files.
+  - `agent_sync_validator.py`: 676/676 agents valid.
+- Committed `75c278c7a` in `stitch_project_cosmo`.
+
+### Recommended next step
+
+To fully close the 676 workflow warnings, run an automated pass that adds `# <name> Workflow` titles and a `## Steps` section to all legacy `.devin/workflows/*.md` files, then re-run `make workflows` to zero warnings.

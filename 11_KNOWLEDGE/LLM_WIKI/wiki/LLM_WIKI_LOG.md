@@ -517,3 +517,10 @@ Continue scanning for the next SOTA repo to capture, or implement the next vault
 - Updated `SkillIndex.md` to 647 skills.
 - `make validate`: 647/647 skills at 100% SOTA; `agent_sync_validator.py`: 674/674 agents valid.
 - Logged implementation and next steps in `SOTA_AGENT_SKILL_WORKFLOW_REPOS`.
+
+## [2026-08-30] implement | Added AMOS workflow validator and `make workflows` target
+
+- Created `.devin/scripts/workflow_validator.py` to validate 683 AMOS workflow files for binding and structure.
+- Added `make workflows` target to `Makefile`.
+- `make validate`: 649/649 skills at 100% SOTA; `make workflows`: 683/683 workflows pass; `agent_sync_validator.py`: 676/676 agents valid.
+- Logged next step (auto-add titles/sections to close 676 warnings) in `SOTA_AGENT_SKILL_WORKFLOW_REPOS`.
