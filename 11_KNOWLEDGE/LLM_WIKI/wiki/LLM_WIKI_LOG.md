@@ -424,3 +424,11 @@ claim_class: AMOS_MODEL
 - Fetched `anthropics/skills` README, template `SKILL.md`, and `spec/agent-skills-spec.md` to `ANTHROPICS_SKILLS_*` raw captures.
 - Added deep-dive to [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] comparing `name`/`description`/`compatibility`/`allowed-tools`/`metadata`/`references` progressive disclosure to AMOS `CONTRACT_TEMPLATE.yaml` and `sota_skill_validator.py`.
 - Recommended next step: add `allowed-tools` scoping examples to `CONTRACT_TEMPLATE.yaml` and evaluate enforcing `name` (64) and `description` (1024) length limits.
+
+## [2026-08-30] implement | Added Agent Skills spec G13/G14 gates to `sota_skill_validator.py`
+
+- Added `G13` — name format per `agentskills.io` spec (<=64 chars, lowercase alnum/hyphen, no leading/trailing/consecutive hyphens).
+- Added `G14` — description length <=1024 chars per `agentskills.io` spec.
+- Updated gate list, gate names table, and fix-actions in the validator.
+- Ran `make validate`: 643/643 skills at 100% SOTA, 0 critical, 0 warnings.
+- Out of 643 skills, 0 have name or description length/format drift against the spec.

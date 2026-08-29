@@ -1030,3 +1030,23 @@ Notes:
 ### Recommended next step
 
 Add `allowed-tools` scoping examples (e.g. `Bash(git:*)`, `Bash(jq:*)`) to `amos-skill-builder/references/CONTRACT_TEMPLATE.yaml` and evaluate whether `sota_skill_validator.py` should enforce `name` length (64) and `description` length (1024) against the Agent Skills spec.
+
+## 2026-08-30 | implement | Enforced `agentskills.io` name and description constraints in `sota_skill_validator.py`
+
+Implemented the previous recommendation: evaluate `name` (64 chars) and `description` (1024 chars) limits from the Agent Skills spec.
+
+### Results
+
+- Added `G13` to `sota_skill_validator.py`: `name` <=64 chars, `^[a-z0-9-]+$`, no leading/trailing/consecutive hyphens.
+- Added `G14` to `sota_skill_validator.py`: `description` <=1024 chars.
+- Ran `make validate`: 643/643 skills, 100% SOTA, 0 name or description spec drifts.
+- AMOS skill corpus already conforms to the canonical `agentskills.io` name and description length/format constraints.
+
+### AMOS integration points
+
+- `sota_skill_validator.py` now covers all 14 gates: original 12 + Agent Skills name format + Agent Skills description length.
+- `amos-skill-builder` can safely claim Agent Skills spec compatibility for generated `SKILL.md` bundles.
+
+### Recommended next step
+
+Evaluate `compatibility` (<=500 chars) and `allowed-tools` scoping (e.g. `Bash(git:*)`) gates, and compare AMOS `compatibility` strings against the `agentskills.io` `compatibility` examples.
