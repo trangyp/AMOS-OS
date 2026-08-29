@@ -37,6 +37,14 @@ tags:
 4. **Validation**: Check that raw sources were not modified, wiki pages have proper frontmatter, and all cross-references resolve.
 5. **Finalization**: Update `LLM_WIKI_INDEX` and `LLM_WIKI_LOG`, produce an operation report.
 
+## Operations
+
+1. **Intake**: Identify the requested wiki operation (ingest, query, lint, clip) and confirm scope. - Classify the operation - Verify the target is within `11_KNOWLEDGE/LLM_WIKI/`
+2. **Load Schema**: Read `00_ROOT/AMOS_LLM_WIKI.md` and the relevant `LLM_WIKI_INDEX` / `LLM_WIKI_LOG`.
+3. **Execute Operation**: - **Ingest**: read the raw source, write a source-summary, update concept/entity pages, update `LLM_WIKI_INDEX`, append `LLM_WIKI_LOG` - **Query**: read `LLM_WIKI_INDEX`, collect relevant pages, synthesize an answe...
+4. **Validation**: Check that raw sources were not modified, wiki pages have proper frontmatter, and all cross-references resolve.
+5. **Finalization**: Update `LLM_WIKI_INDEX` and `LLM_WIKI_LOG`, produce an operation report.
+
 ## Validation Gates
 
 ### Gate 1: Intake Validation

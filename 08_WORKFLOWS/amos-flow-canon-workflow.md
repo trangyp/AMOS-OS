@@ -30,6 +30,17 @@ tags:
 7. **Scale transition check** — Verify flow persistence across H/M/L scale transitions.
 8. **Finalize** — Emit flow audit with throughput, bottleneck, leakage, and queue findings.
 
+## Operations
+
+1. **Detect flow assertion** — Identify where a flow claim is made (throughput, transmission, conversion, power movement).
+2. **Characterize throughput** — Determine the constrained throughput rate, conversion efficiency, and capacity limits.
+3. **Detect bottleneck** — Identify the rate-limiting step or component that constrains overall throughput.
+4. **Detect leakage** — Identify dissipation points where flow is lost without productive conversion.
+5. **Analyze queue** — Characterize queue dynamics: depth, wait time, backpressure, and overflow risk.
+6. **Map to 7-Part** — Connect flow findings to Part I (Constraint: capacity limits), Part III (Structure: flow topology), Part IV (Enforcement: flow invariants).
+7. **Scale transition check** — Verify flow persistence across H/M/L scale transitions.
+8. **Finalize** — Emit flow audit with throughput, bottleneck, leakage, and queue findings.
+
 ## Validation Gates
 
 - [ ] Throughput structurally characterized (rate, capacity, conversion efficiency)

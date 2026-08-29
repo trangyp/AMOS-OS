@@ -91,6 +91,16 @@ Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic clas
    - Include confidence ceiling
    - Record source path for every derived claim
 
+## Operations
+
+1. **Intake**: Identify the problem domain and confirm it matches the AMOS Memory Systems Master scope. - Classify the query against the domain's sub-capabilities - Route to the appropriate section of the parent skill
+2. **Skill Invocation**: Load the `amos-memory-systems-master` skill and its vault-sourced content. - Read the canonical vault source: `10_MEMORY/MEMORY_README.md` - Identify which sub-domain is most relevant
+3. **Decomposition**: Break the problem into components using the domain's framework. - Apply MECE decomposition within the domain - Identify which sub-skills are relevant
+4. **Application**: Apply the domain's equations, algorithms, or frameworks. - Use the appropriate knowledge family within the domain - Tag every equation with its epistemic status (SOURCE_CANON / AMOS_MODEL)
+5. **Validation**: Check results against the domain's validation gates. - Law of Law: no unresolved contradictions - Rule of 2: binary contrast present - Rule of 4: complete decomposition - Epistemic class labels present
+6. **Synthesis**: Combine component results into a MECE-compliant output. - Cross-reference with vault source for provenance - Declare any cross-domain bridges
+7. **Output**: Present results with full provenance and epistemic labeling. - Include confidence ceiling - Record source path for every derived claim
+
 ## Validation Gates
 
 - **G1 (Intake)**: Problem domain confirmed within AMOS Memory Systems Master scope.

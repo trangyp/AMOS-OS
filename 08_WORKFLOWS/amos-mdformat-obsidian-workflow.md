@@ -44,6 +44,14 @@ tags:
    - Tag output with epistemic class and provenance
    - Ensure git reversibility is maintained
 
+## Operations
+
+1. **Intake**: Identify the formatting task and confirm it matches the mdformat-obsidian scope. - Classify the query: single file, directory, or full vault - Identify specific formatting issues: frontmatter, callouts, wikilinks, tags, math...
+2. **Skill Invocation**: Load the `amos-mdformat-obsidian` skill. - Read the skill content and validation gates - Identify which formatting capabilities are most relevant
+3. **Application**: Apply the mdformat-obsidian capability. - Tag every output with its epistemic status (SOURCE / DERIVED / AMOS_MODEL) - Record provenance for every formatting change - Preserve all content — only restructure whitespace an...
+4. **Validation**: Check results against validation gates. - Verify all formatted files parse as valid Markdown - Confirm all wikilinks still resolve - Confirm all frontmatter fields are preserved - Diff against original to confirm only for...
+5. **Finalization**: Produce formatting report and commit. - Generate summary of changes (files formatted, tags migrated, frontmatter fixed) - Tag output with epistemic class and provenance - Ensure git reversibility is maintained
+
 ## Validation Gates
 
 - [ ] Epistemic class labeled (SOURCE/DERIVED/AMOS_MODEL/EMPIRICAL)

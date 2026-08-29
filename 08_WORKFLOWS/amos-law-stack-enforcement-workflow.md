@@ -30,6 +30,17 @@ tags:
 7. **Detect short-circuit** — Identify if the draft law bypasses canonical order (e.g., L-level check used for H-level decision).
 8. **Finalize** — Emit law stack validation report with LoL->R2->R4 ordering confirmation.
 
+## Operations
+
+1. **Load law hierarchy** — Load the Law of Law (LoL), Rule of 2 (R2), and Rule of 4 (R4) canonical definitions.
+2. **Validate LoL** — Check that the draft law satisfies the Law of Law meta-hierarchy (no law can supersede its own meta-law).
+3. **Validate R2** — Run the Rule of 2 dual-frame rejection test: can the law be rejected from two independent frames?
+4. **Validate R4** — Check Rule of 4 quadrant completeness: UBI, TSS, PSI, QLS.
+5. **Scale transition check** — Verify invariant enforcement across H (constitutional), M (domain), L (mechanical) scale transitions.
+6. **UBI integrity audit** — Audit UBI Score and ledger integrity against structural output.
+7. **Detect short-circuit** — Identify if the draft law bypasses canonical order (e.g., L-level check used for H-level decision).
+8. **Finalize** — Emit law stack validation report with LoL->R2->R4 ordering confirmation.
+
 ## Validation Gates
 
 - [ ] LoL meta-hierarchy satisfied (law does not supersede its own meta-law)

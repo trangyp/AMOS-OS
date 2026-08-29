@@ -82,6 +82,14 @@ Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic clas
    - Record source path for every derived claim
 
 
+## Operations
+
+1. **Intake**: Identify the problem and confirm it matches the Arxiv: anytime Pac Bayes Density Ratio Rscf scope. - Classify the query against the arxiv domain - Route to the appropriate capability
+2. **Skill Invocation**: Load the `arxiv-anytime-pac-bayes-density-ratio-rscf` skill. - Read the skill content and validation gates - Identify which capability is most relevant
+3. **Application**: Apply the Arxiv: anytime Pac Bayes Density Ratio Rscf capability. - Tag every output with its epistemic status (SOURCE / DERIVED / AMOS_MODEL) - Record provenance for every derived claim
+4. **Validation**: Check results against validation gates. - Law of Law: no unresolved contradictions - Epistemic class labels present - Provenance recorded
+5. **Output**: Present results with full provenance and epistemic labeling. - Include confidence ceiling - Record source path for every derived claim
+
 ## Output
 
 The workflow produces a structured result containing:

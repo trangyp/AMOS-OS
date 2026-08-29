@@ -117,6 +117,19 @@ OBSERVE -> INFER -> COMPARE -> GENERATE -> GOVERN
     - Check stop conditions: goal achieved, authority expired, safety threshold, max iterations
     - Gate: `loop_decision` — STOP or CONTINUE decision recorded
 
+## Operations
+
+1. **OBSERVE**: Collect observations from the environment. - Record observations with epistemic class labels - Gate: `observations_collected` — at least one observation recorded
+2. **INFER**: Update beliefs based on observations. - Update belief state with competing hypotheses - Preserve at least one competing hypothesis under uncertainty - Gate: `beliefs_updated` — beliefs recorded with epistemic class
+3. **COMPARE**: Compute prediction error against expected state. - Calculate prediction error (not objective error) - Gate: `prediction_error_computed` — prediction error recorded
+4. **GENERATE**: Generate candidate actions. - Include NO_ACTION as a valid candidate - Gate: `candidates_generated` — at least one candidate action generated
+5. **GOVERN**: Evaluate governance gates. - Check 7 gates: ConstraintPass, AuthorityPass, SafetyPass, PolicyPass, ScopePass, EvidencePass, ReversibilityPass - Reject actions that fail any gate regardless of predicted benefit - Gate: `govern...
+6. **SELECT**: Select smallest sufficient admissible action. - Prefer reversible information-gathering actions under uncertainty - NO_ACTION is a valid governed outcome - Gate: `action_selected` — action selected with rationale
+7. **ACT_OR_OBSERVE**: Execute action or continue observing. - If selected action is NO_ACTION, continue observing - Gate: `decision_made` — ACT or OBSERVE decision recorded
+8. **MEASURE**: Measure outcome and prediction error. - Record actual outcome vs predicted outcome - Gate: `outcome_measured` — outcome recorded
+9. **UPDATE**: Update beliefs and model based on outcome. - Update belief confidences based on evidence - Invalidate dependent descendants if premises change - Gate: `model_updated` — beliefs updated with provenance
+10. **STOP_OR_CONTINUE**: Decide whether to stop or continue the loop. - Check stop conditions: goal achieved, authority expired, safety threshold, max iterations - Gate: `loop_decision` — STOP or CONTINUE decision recorded
+
 ## Validation Gates
 
 - **G1 (Observations)**: At least one observation collected with epistemic class.
