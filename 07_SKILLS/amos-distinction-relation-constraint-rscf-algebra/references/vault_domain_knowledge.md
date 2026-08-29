@@ -194,7 +194,7 @@ All derivative works, adaptations, and improvements thereof
 | 824 | Numeric attribute variance bound | $Var_a(C_k) \le \sigma^2_{\max}$ |
 | 825 | Forbidden attribute mixtures | $\exists v,w \in C_k:\ (a(v),a(w)) \in ForbiddenPairs \Rightarrow \bot$ |
 | 826 | Role uniqueness constraint | $\forall k:\ \|\{v \in C_k: role(v)=r\}\| \le 1$ |
-| 827 | Required role presence | $\forall k:\ \|\{v \in C_k: role(v)=r
+| 827 | Required role presence | $\forall k:\ \|\{v \in C_k: role(v)=r\}\| \ge 1$ |
 
 ---
 
