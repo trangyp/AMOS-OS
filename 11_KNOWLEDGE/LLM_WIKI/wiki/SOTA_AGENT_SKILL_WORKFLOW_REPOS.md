@@ -939,3 +939,27 @@ Implemented the SkillOS pure-markdown `SkillIndex.md` pattern inside `.devin/ski
 
 - Copied `SkillOS` `CLAUDE.md` to `[[SKILLOS_CLAUDE_MD_2026_08_30]]`.
 
+
+## 2026-08-30 | implement | Imported `zjunlp/SkillNet` as AMOS skill `amos-skillnet`
+
+Cloned `zjunlp/SkillNet` and imported its `skills/skillnet` package as `.devin/skills/amos-skillnet/`, then AMOS-linted and wired it.
+
+### Steps taken
+
+- Cloned `https://github.com/zjunlp/SkillNet.git` into `/tmp/skillnet`.
+- Copied `skills/skillnet/` (287-line `SKILL.md`, `references/`, `scripts/`) to `.devin/skills/amos-skillnet/`.
+- Rewrote `SKILL.md` frontmatter with AMOS fields (`name`, `description`, `compatibility`, `allowed-tools`, `triggers`, `references`, `rscf`) and appended AMOS governance sections: regression prevention (osmosis, grounding-displacement, verification-displacement), grounding support, verification support, data trustworthiness.
+- Created `.devin/agents/amos-skillnet-agent.json` and `.devin/workflows/amos-skillnet-workflow.md` to satisfy G11 1:1:1 binding.
+- Updated `.devin/skills/SkillIndex.md` to 643 skills and added `[[amos-skillnet]]` as a cross-cutting route.
+
+### Validation
+
+- `make validate`: 643 / 643 skills, 100% SOTA.
+- `agent_sync_validator.py`: 670 / 670 agents, 0 invalid.
+
+### AMOS integration points
+
+- SkillNet search/supply chain → `amos-knowledge-research-master` and `amos-skill-builder`.
+- `skillnet validate` 5-dimension scorecard → `amos-formal-agent-skill-verification-rscf` and `skill-check`.
+- `skillnet create` from repos/docs/logs → `amos-skill-builder` and `amos-github-rscf-ingestion`.
+

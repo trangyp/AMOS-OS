@@ -396,3 +396,12 @@ claim_class: AMOS_MODEL
 - Copied `SkillOS` `CLAUDE.md` to `11_KNOWLEDGE/LLM_WIKI/raw/SKILLOS_CLAUDE_MD_2026_08_30.md`.
 - Created `.devin/skills/SkillIndex.md` (~51 lines) as the SkillOS-style top-level skill routing index, listing the 24 root/master domains from `.devin/SKILL_TREE.json` and cross-cutting skills.
 - Updated `.devin/AMOS_BOOT.md` to load `.devin/skills/SkillIndex.md` first, then `.devin/SKILL_TREE.json`.
+
+## [2026-08-30] implement | Cloned zjunlp/SkillNet and imported `amos-skillnet` into AMOS
+
+- Cloned `zjunlp/SkillNet` and copied `skills/skillnet/` into `.devin/skills/amos-skillnet/`.
+- AMOS-linted `SKILL.md` frontmatter and appended governance sections (regression prevention, grounding, verification, data trustworthiness).
+- Created `.devin/agents/amos-skillnet-agent.json` and `.devin/workflows/amos-skillnet-workflow.md`.
+- Updated `.devin/skills/SkillIndex.md` to 643 skills and added `amos-skillnet` cross-cutting route.
+- `make validate`: 643/643 skills at 100% SOTA.
+- `agent_sync_validator.py`: 670/670 agents valid, 0 invalid.
