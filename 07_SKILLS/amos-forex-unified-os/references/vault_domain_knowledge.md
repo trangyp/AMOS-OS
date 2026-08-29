@@ -155,26 +155,23 @@ I have successfully implemented the **AMOS Unified Equation Framework (UEF)** fo
 - **Field**: `u(x,t)`, `v(x,y,z)`
 - **Tensor**: `T_11`, `T_22`
 
-### **Advanced Features** \`\`\`
+### **Advanced Features**
 
-Equation: u_t + u\*u_x = 0
+```
+Equation: u_t + u*u_x = 0
 Tree:
 Add
 ├─ Dt(u)
 └─ Multiply
-├─ u
-└─ Dx(u)
-
+   ├─ u
+   └─ Dx(u)
 ```
 
-```
-
-symbol type dependencies meaning operator_form computational_form
-u variable [] variable u - algebraic
-u_t operator [] ∂^1u/∂t D_t(u) derivative(u,'t')
-u_x operator [] ∂^1u/∂x D_x(u) derivative(u,'x')
-
-````
+| symbol | type     | dependencies | meaning      | operator_form | computational_form |
+| ------ | -------- | ------------ | ------------ | ------------- | ------------------ |
+| u      | variable | []           | variable u   | -             | algebraic          |
+| u_t    | operator | []           | ∂^1u/∂t      | D_t(u)        | derivative(u,'t')  |
+| u_x    | operator | []           | ∂^1u/∂x      | D_x(u)        | derivative(u,'x')  |
 
 ```python
 D_x → gradient
@@ -182,43 +179,38 @@ D_{xx} → laplacian
 M(W,x) → W @ x
 N_σ → activation
 T(x) → state_update
-````
+```
 
-### **Unified System Representation** \`\`\`
+### **Unified System Representation**
 
-S\_{t+1} = F(S_t)
-
+```
+S_{t+1} = F(S_t)
 ```
 
 ```
-
 Total Variables: 6
 Total Operators: 8
 Total Dependencies: 4
 Equation Types: ['algebra', 'ode', 'pde', 'vector']
 Total Dimensionality: 2
-
 ```
-
-```
-
-S\_{t+1} = F(S_t)
 
 Where:
-S = [x, y, z]
-F = transformation operator
-t = time index
+
+- `S = [x, y, z]`
+- `F = transformation operator`
+- `t = time index`
 
 ### **All 22 Unified Laws Implemented**
 
 1. **Universal Equation Form**: `E(X) = 0`
-1. **Universal Variable Set**: Support for all variable types
-1. **Operator Set**: Complete operator classification
-1. **Algebraic Operator**: `A(x,y) = x + y`
-1. **Differential Operator**: `D_x(u) = ∂u/∂x`
-1. **Integral Operator**: `I(f,x) = ∫f(x)dx`
-1. **Matrix Operator**: `M(W,x) = W·x`
-1. **Nonlinear Operator**: \`N\_
+2. **Universal Variable Set**: Support for all variable types
+3. **Operator Set**: Complete operator classification
+4. **Algebraic Operator**: `A(x,y) = x + y`
+5. **Differential Operator**: `D_x(u) = ∂u/∂x`
+6. **Integral Operator**: `I(f,x) = ∫f(x)dx`
+7. **Matrix Operator**: `M(W,x) = W·x`
+8. **Nonlinear Operator**: `N_σ(x) = σ(x)`
 
 ______________________________________________________________________
 
