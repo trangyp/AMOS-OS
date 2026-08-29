@@ -2337,3 +2337,28 @@ Added a money layer for AI agents — wallets, payments, and autonomous commerce
 - **Categories covered**: agent wallet, agentic economy, payments, x402, MCP, USDC, EVM, Solana
 - **Total new repos**: 1 (Agenti)
 - **Cumulative SOTA catalog**: 95 repos
+
+## Round 47: Agent long-term memory and graph RAG (2026-09-15)
+
+Added a graph-native memory system for long-horizon agent context and reasoning.
+
+### 96. Agent Memory — `neo4j-labs/agent-memory` (~489 stars)
+
+- **Key feature**: Graph-native memory system for AI agents. Stores conversations, builds knowledge graphs with the POLE+O model, and enables agents to learn from their own reasoning. Supports short-term, long-term, and reasoning memory with multi-stage entity/relationship extraction, background enrichment, geospatial queries, and an MCP server with 16 tools. Integrates with LangChain, Pydantic AI, Google ADK, Strands, and CrewAI.
+- **AMOS integration**: Use Agent Memory as the long-term memory substrate for AMOS agents; map the POLE+O graph model to `amos-memory-systems-master` and `amos-knowledge-research-master`; expose the MCP server as a skill toolset via `amos-mcp-server`; link reasoning traces and `:TOUCHED` audit edges to `amos-execution-provenance-replay-rscf` and `amos-rscf-epistemic-master`.
+
+## Round 47 Integration Priority
+
+1. **AMOS memory graph**: Adopt the POLE+O model (person, object, location, event, plus organizations/relationships) as the canonical long-term memory structure in AMOS (maps to `amos-memory-systems-master`, `amos-knowledge-research-master`)
+2. **MCP memory tools**: Expose entity/relationship extraction, query, and consolidation operations via `amos-mcp-server` so any skill can read and write agent memory (maps to `amos-mcp-server`, `amos-os-runtime-master`)
+3. **Provenance and decay**: Bind `:TOUCHED` reasoning edges and entity consolidation to `amos-execution-provenance-replay-rscf` and `amos-context-budget-governor-rscf` for traceable, budgeted memory (maps to `amos-rscf-epistemic-master`, `amos-context-budget-governor-rscf`)
+
+## Round 47 Provenance
+
+- **Research date**: 2026-09-15
+- **Researcher**: Devin (Obsidian vault SOTA brain + live GitHub web search)
+- **Epistemic class**: EMPIRICAL (star counts from GitHub, may change)
+- **RSCF state**: SOURCE_CLAIM (repo features from README/docs) → DERIVED (AMOS integration recommendations)
+- **Categories covered**: agent memory, long-term memory, graph RAG, knowledge graph, MCP, Neo4j
+- **Total new repos**: 1 (Agent Memory)
+- **Cumulative SOTA catalog**: 96 repos
