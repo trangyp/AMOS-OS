@@ -2287,3 +2287,28 @@ Added a multi-protocol AI gateway for production agent traffic.
 - **Categories covered**: agent gateway, LLM proxy, MCP gateway, A2A gateway, inference routing, deployment
 - **Total new repos**: 1 (Agentgateway)
 - **Cumulative SOTA catalog**: 93 repos
+
+## Round 45: Agent chat UI and consumer-facing interaction layer (2026-09-15)
+
+Added a production chat interface for interacting with LangGraph agents.
+
+### 94. Agent Chat UI — `langchain-ai/agent-chat-ui` (~3,080 stars)
+
+- **Key feature**: Next.js web app for chatting with any LangGraph agent (Python & TypeScript) through a `messages`-key interface. Supports local and deployed LangGraph servers, real-time streaming, and quick productionization via an API-passthrough pattern.
+- **AMOS integration**: Use Agent Chat UI as the default C11 design/chat interface for AMOS agents; bind it to `amos-workflow-runner` and `amos-agent-orchestrator` LangGraph endpoints; map conversation history to `amos-memory-systems-master` and `amos-c05-mind-behavior-master` for emotion/cognitive state rendering.
+
+## Round 45 Integration Priority
+
+1. **AMOS chat frontend**: Deploy Agent Chat UI against AMOS LangGraph workflow endpoints for human-in-the-loop interaction (maps to `amos-c11-design-language-master`, `amos-workflow-runner`)
+2. **Memory continuity**: Persist chat runs and thread history into AMOS memory systems (maps to `amos-memory-systems-master`)
+3. **Multi-agent selector**: Extend the UI to choose among AMOS skills/agents as different LangGraph assistants (maps to `amos-agent-orchestrator`, `amos-a2a-protocol`)
+
+## Round 45 Provenance
+
+- **Research date**: 2026-09-15
+- **Researcher**: Devin (Obsidian vault SOTA brain + live GitHub web search)
+- **Epistemic class**: EMPIRICAL (star counts from GitHub, may change)
+- **RSCF state**: SOURCE_CLAIM (repo features from README/docs) → DERIVED (AMOS integration recommendations)
+- **Categories covered**: agent chat UI, consumer-facing agent interface, LangGraph, Next.js, streaming
+- **Total new repos**: 1 (Agent Chat UI)
+- **Cumulative SOTA catalog**: 94 repos
