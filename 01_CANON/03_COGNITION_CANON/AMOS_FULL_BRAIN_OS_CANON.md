@@ -6,15 +6,10 @@ tags:
 - full-brain-os
 - cognition
 - cognition-canon
-- 03-cognition-canon-moc
 - amos-cognition-canon
 - amos-cognition-master-canon
 - amos-emotion-canon
 - amos-consciousness-canon
-- 00-home
-- 00-root-moc
-- 01-canon-moc
-- 02-kernel-moc
 type: canon
 source: 01_CANON/03_COGNITION_CANON
 artifact_id: AMOS-CANON-COGNITION-FULL-BRAIN-OS

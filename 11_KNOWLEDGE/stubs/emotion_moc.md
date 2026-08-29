@@ -1,11 +1,9 @@
 ---
 title: emotion moc
 tags:
+moc: true
 - stub
 - emotion
-- emotion-moc
-- kernel-moc
-- 00-home
 ---
 
 # emotion moc

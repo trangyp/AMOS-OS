@@ -30,11 +30,6 @@ tags:
 - control-plane-readme
 - observability-readme
 - agent-template
-- amos-memory-systems-master-moc
-- 00-home
-- amos-rscf-nodes
-- 07-skills-moc
-- references-moc
 - trang-framework-recursive-ontology-dynamics
 - skill
 rscf:

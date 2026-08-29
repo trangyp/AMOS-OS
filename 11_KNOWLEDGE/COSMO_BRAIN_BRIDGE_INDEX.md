@@ -30,7 +30,6 @@ tags:
 - fractal-runtime
 - governance-tensor
 - implementation-manifest
-- index-main
 - kernel-protocol
 - khung-trang-full-max-detail-architecture-equations
 - load-map
@@ -71,11 +70,6 @@ tags:
 - agent-template
 - rscf-node-index
 - amos-cognitive-architecture-matrix
-- 11-knowledge-moc
-- cosmo-brain-moc
-- knowledge-moc
-- kernel-moc
-- 00-home
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

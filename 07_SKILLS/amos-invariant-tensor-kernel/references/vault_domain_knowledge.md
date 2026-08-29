@@ -7,11 +7,7 @@ tags:
 - amos-invariant-tensor-kernel
 - type/skill
 - 2026-08-22-trang-phi-framework
-- references-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

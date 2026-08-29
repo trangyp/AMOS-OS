@@ -7,7 +7,6 @@ tags:
 - amos-c02-math-compute-master
 - type/skill
 - skill
-- amos-c02-math-compute-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

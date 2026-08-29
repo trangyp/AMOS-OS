@@ -6,10 +6,6 @@ tags:
 - note
 - o00-distinction
 - domain/cognitive-matrix
-- cognitive-matrix-moc
-- 00-root-moc
-- amos-moc
-- o00-distinction-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

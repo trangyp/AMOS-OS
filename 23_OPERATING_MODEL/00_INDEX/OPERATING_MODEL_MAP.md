@@ -6,22 +6,14 @@ tags:
 - amos-os
 - 23_operating_model
 - canon/operating-model
-- index-operating-model-readme
 - operating-model
-- 00-root-map
-- amos-rscf-nodes
 - routing-policy-validation-receipt
-- index-operating-model-operating-model-contract
 - authz-engine-validation-receipt
 - law-hierarchy
 - kernel-readme
 - control-plane-readme
 - observability-readme
 - operations-readme
-- 00-root-moc
-- amos-moc
-- 00-home
-- 00-index-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

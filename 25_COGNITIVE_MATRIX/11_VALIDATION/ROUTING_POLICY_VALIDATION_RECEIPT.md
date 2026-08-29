@@ -14,16 +14,10 @@ tags:
 - 11-validation
 - validation-evidence
 - routing-policy
-- 00-home
-- 00-root-moc
-- amos-rscf-nodes
-- cognitive-matrix-moc
 - routing-map
-- index-routing-cognitive-matrix-readme
 - routing-cognitive-matrix-routing-contract
 - authz-engine-validation-receipt
 - validation
-- 11-validation-moc
 canon-group: canon/cognitive-matrix
 ---
 

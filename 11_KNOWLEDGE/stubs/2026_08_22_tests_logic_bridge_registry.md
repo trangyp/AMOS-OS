@@ -7,8 +7,6 @@ tags:
 - bridge
 - registry
 - 2026-08-22-tests-logic-bridge-registry
-- kernel-moc
-- 00-home
 ---
 
 # 2026 08 22 tests logic bridge registry

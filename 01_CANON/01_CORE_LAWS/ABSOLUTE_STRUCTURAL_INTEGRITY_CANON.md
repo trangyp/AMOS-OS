@@ -31,9 +31,6 @@ tags:
 - absolute-integrity-canon
 - absolute-logic-canon
 - law-hierarchy
-- 01-core-laws-moc
-- 00-home
-- amos-rscf-nodes
 version: 1.0.0
 updated: '2026-08-27'
 status: CANON_CANDIDATE

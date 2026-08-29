@@ -30,7 +30,6 @@ tags:
 - ubi-x-emotion-matrix
 - ubi-emotion-binding
 - unified-biological-intelligence
-- 25-cognitive-matrix-moc
 version: 2.0.0
 updated: '2026-08-28'
 status: ACTIVE_REFERENCE

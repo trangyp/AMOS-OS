@@ -8,8 +8,6 @@ tags:
 - engine
 - org
 - policy
-- kernel-moc
-- 00-home
 - amos-risk-compliance-engine-v0-org-risk-policy7-2
 ---
 

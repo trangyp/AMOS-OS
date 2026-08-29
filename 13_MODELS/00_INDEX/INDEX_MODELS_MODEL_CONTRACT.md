@@ -45,10 +45,8 @@ tags:
 - model-contract
 - models-index
 - index
-- index-contract
 - model-index
 - navigation
-- index-navigation
 - model-navigation
 - model-discovery
 - model-resolution
@@ -93,9 +91,6 @@ tags:
 - canon/model
 - conditional-canon
 - amos-model
-- 00-home
-- amos-rscf-nodes
-- index-models-readme
 - readme
 - model-x
 - nonexistent-model
@@ -106,18 +101,14 @@ tags:
 - operations-readme
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
-- 00-root-moc
-- 13-models-moc
 - model-indexing
 - local-basename-resolution
 - cross-plane-model-resolution
 - model-identity
 - model-version-resolution
 - model-provenance-preservation
-- index-link-integrity
 - model-index-mutation
 - selective-index-invalidation
-- 00-index-moc
 - references
 rscf:
   state: DERIVED

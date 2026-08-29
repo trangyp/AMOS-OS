@@ -6,8 +6,6 @@ tags:
 - logic
 - kernel
 - meta-logic-kernel
-- kernel-moc
-- 00-home
 ---
 
 # meta logic kernel

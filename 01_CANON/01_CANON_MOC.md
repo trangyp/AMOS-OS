@@ -7,17 +7,9 @@ tags:
 - canon/universe
 - canon-canon-contract
 - canon-readme
-- 00-index-moc
-- 01-core-laws-moc
-- 02-universe-canon-moc
-- 03-cognition-canon-moc
-- 04-infrastructure-canon-moc
-- 05-variable-registry-moc
-- 06-glossary-moc
-- 07-provenance-moc
-- 08-supersession-moc
 - amos-home
 - trang-framework-recursive-ontology-dynamics
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

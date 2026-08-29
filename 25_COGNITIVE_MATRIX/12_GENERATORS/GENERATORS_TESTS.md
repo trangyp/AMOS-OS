@@ -41,7 +41,6 @@ tags:
 - mode-registry
 - authority-registry
 - authoritative-state
-- 25-cognitive-matrix-moc
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED

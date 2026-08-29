@@ -26,12 +26,6 @@ tags:
 - control-plane-readme
 - observability-readme
 - operations-readme
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- index-canon-readme
-- 00-index-moc
 version: 0.1.0
 updated: '2026-08-27'
 status: PLACEHOLDER

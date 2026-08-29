@@ -1,12 +1,10 @@
 ---
 title: biology-ubi moc
 tags:
+moc: true
 - stub
 - biology
 - ubi
-- biology-ubi-moc
-- kernel-moc
-- 00-home
 ---
 
 # biology-ubi moc

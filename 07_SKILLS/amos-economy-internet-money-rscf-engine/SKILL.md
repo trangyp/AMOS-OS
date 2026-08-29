@@ -19,12 +19,7 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos-os
-- 07-skills-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- references-moc
-- amos-economy-internet-money-rscf-engine-moc
 - trang-framework-recursive-ontology-dynamics
 - skill
 rscf:

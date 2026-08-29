@@ -8,8 +8,6 @@ tags:
 - canon/domain
 - readme
 - health-policy-map
-- 00-home
-- amos-rscf-nodes
 - routing-policy-validation-receipt
 - health-policy-domains-health-policy-contract
 - authz-engine-validation-receipt
@@ -18,9 +16,6 @@ tags:
 - control-plane-readme
 - observability-readme
 - operations-readme
-- 00-root-moc
-- amos-moc
-- 00-index-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

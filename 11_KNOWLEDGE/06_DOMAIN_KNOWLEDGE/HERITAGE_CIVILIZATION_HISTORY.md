@@ -26,9 +26,6 @@ tags:
 - canon/knowledge
 - heritage-intelligence-master
 - tss-the-trang-system
-- 00-home
-- knowledge-moc
-- 06-domain-knowledge-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

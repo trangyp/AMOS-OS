@@ -5,10 +5,6 @@ tags:
 - processing
 - runtime
 - canon/knowledge
-- engine-moc
-- knowledge-moc
-- kernel-moc
-- 00-home
 - trang-framework-recursive-ontology-dynamics
 type: document
 source: 11_KNOWLEDGE/engine

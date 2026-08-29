@@ -22,10 +22,6 @@ tags:
 - state-dispatch
 - rscf/claim
 - rscf/state/canonical
-- 00-home
-- 00-root-moc
-- 02-kernel-moc
-- 03-control-plane-moc
 aliases:
 - Control Plane Kernel
 - K_CONTROL_PLANE

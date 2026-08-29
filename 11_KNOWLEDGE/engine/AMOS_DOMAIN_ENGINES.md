@@ -21,10 +21,6 @@ tags:
 - vietnamese-writing
 - engine
 - canon/knowledge
-- engine-moc
-- knowledge-moc
-- kernel-moc
-- 00-home
 - canon
 status: active
 provenance: VERIFIED

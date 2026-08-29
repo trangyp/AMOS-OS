@@ -8,8 +8,7 @@ tags:
 - domains-policy-design-contract
 - policy-design-domains-domain-spec
 - policy-design-domains-readme
-- 00-index-moc
-- 21-domains-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

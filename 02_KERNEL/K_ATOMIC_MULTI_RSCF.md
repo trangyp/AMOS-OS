@@ -11,8 +11,6 @@ tags:
 - k-mvcc
 - k-cas
 - rscf-x-gmef
-- 03-causal-moc
-- 00-home
 rscf:
   state: CANON_SPEC
   claim_class: AMOS_SYSTEM_CORE
@@ -24,7 +22,7 @@ rscf:
  coordinates cross-plane multi-proof transactions ensuring that updates across knowledge, governance, and runtime matrices commit all-or-nothing.
 
 ## Invariant
-- $	ext{Commit}(\{R_1, R_2, \dots, R_k\}) = 1 \iff orall i, 	ext{Validate}(R_i) = 1$.
+- $\text{Commit}(\{R_1, R_2, \dots, R_k\}) = 1 \iff \forall i, \text{Validate}(R_i) = 1$.
 - Any single proof failure aborts the entire transaction set.
 
 ## Related

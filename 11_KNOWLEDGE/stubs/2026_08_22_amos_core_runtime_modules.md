@@ -7,8 +7,6 @@ tags:
 - runtime
 - modules
 - 2026-08-22-amos-core-runtime-modules
-- kernel-moc
-- 00-home
 ---
 
 # 2026 08 22 amos core runtime modules

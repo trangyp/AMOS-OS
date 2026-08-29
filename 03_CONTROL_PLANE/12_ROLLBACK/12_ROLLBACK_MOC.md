@@ -9,8 +9,7 @@ tags:
 - control-plane-rollback-contract
 - framework-lineage-rollback
 - rollback-control-plane-readme
-- 00-index-moc
-- 03-control-plane-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

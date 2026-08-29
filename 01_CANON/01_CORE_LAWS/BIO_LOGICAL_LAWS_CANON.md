@@ -43,8 +43,6 @@ tags:
 - l19-proof-capsule
 - architecture
 - law-hierarchy
-- 00-home
-- amos-rscf-nodes
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 version: 0.2.0

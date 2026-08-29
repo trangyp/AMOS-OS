@@ -7,12 +7,7 @@ tags:
 - amos-tensor-train-sketching-rscf-engine
 - type/skill
 - architecture
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- references-moc
-- amos-tensor-train-sketching-rscf-engine-moc
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

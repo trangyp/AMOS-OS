@@ -40,8 +40,6 @@ tags:
 - memory
 - law-hierarchy
 - agents
-- 00-home
-- amos-rscf-nodes
 - kernel-readme
 - control-plane-readme
 - observability-readme

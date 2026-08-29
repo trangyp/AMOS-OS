@@ -10,9 +10,7 @@ tags:
 - canon-provenance-map
 - provenance-canon-map
 - provenance-canon-provenance-contract
-- 00-home
 - canon
-- amos-rscf-nodes
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
@@ -20,9 +18,6 @@ tags:
 - control-plane-readme
 - observability-readme
 - operations-readme
-- 00-root-moc
-- amos-moc
-- 00-index-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

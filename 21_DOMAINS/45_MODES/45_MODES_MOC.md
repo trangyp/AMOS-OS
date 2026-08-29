@@ -7,8 +7,7 @@ tags:
 - canon/domain
 - domains-modes-contract
 - modes-domains-readme
-- 00-index-moc
-- 21-domains-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

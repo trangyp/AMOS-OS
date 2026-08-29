@@ -20,12 +20,7 @@ tags:
 - hml/h
 - epistemic/source_claim
 - amos-os
-- 07-skills-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- references-moc
-- amos-proof-loss-diagnostic-reconstruction-rscf-moc
 - trang-framework-recursive-ontology-dynamics
 - skill
 rscf:

@@ -51,9 +51,6 @@ tags:
 - amos-x-tss-tpe-matrix
 - amos-x-tpe
 - heritage-x-trang-zero
-- 00-home
-- amos-rscf-nodes
-- 25-cognitive-matrix-moc
 - k-rscf
 - k-hml
 - k-gmef

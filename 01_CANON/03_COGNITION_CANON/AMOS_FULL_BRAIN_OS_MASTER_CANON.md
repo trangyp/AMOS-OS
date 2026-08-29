@@ -6,7 +6,6 @@ tags:
 - master
 - amos-os
 - 01-canon
-- 03-cognition-canon-moc
 - amos-full-brain-os-canon
 - amos-full-brain-os-master-canon
 - canon
@@ -18,9 +17,6 @@ tags:
 - operations-readme
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
-- 00-root-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 ---
 

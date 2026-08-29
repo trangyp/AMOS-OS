@@ -5,7 +5,7 @@ source: 03_CONTROL_PLANE/09_COMMIT/92_COMPARISON_BENCHMARK_MODES
 tags:
 - 92-comparison-benchmark-modes
 - canon/control-plane
-- 09-commit-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL

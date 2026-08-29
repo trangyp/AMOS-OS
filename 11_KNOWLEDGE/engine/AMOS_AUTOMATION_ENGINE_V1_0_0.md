@@ -14,11 +14,8 @@ tags:
 - rscf/state/observation
 - topic/amos-automation-engine-v1-0-0
 - engine
-- 00-home
-- knowledge-moc
 - system-scan-agent
 - automation-profiles
-- engine-moc
 - amos-simulation-kernel-v0-math-foundations
 created: 2026-08-22
 rscf:

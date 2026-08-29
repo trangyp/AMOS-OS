@@ -6,8 +6,6 @@ tags:
 - l17-decision
 - domain/cognitive-matrix
 - cognitive-matrix-l17-decision-contract
-- 00-index-moc
-- 01-primitives-moc
 - l17-decision-primitives-cognitive-matrix-agents
 - l17-decision-primitives-cognitive-matrix-equations
 - l17-decision-primitives-cognitive-matrix-hml
@@ -23,6 +21,7 @@ tags:
 - l17-decision-primitives-cognitive-matrix-tests
 - l17-decision-primitives-cognitive-matrix-variables
 - l17-decision-primitives-cognitive-matrix-workflows
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

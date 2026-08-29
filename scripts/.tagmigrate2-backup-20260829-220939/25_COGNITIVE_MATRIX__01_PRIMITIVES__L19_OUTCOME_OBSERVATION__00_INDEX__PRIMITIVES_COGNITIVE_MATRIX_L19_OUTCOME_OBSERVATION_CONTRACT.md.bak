@@ -1,0 +1,61 @@
+---
+title: PRIMITIVES COGNITIVE MATRIX L19 OUTCOME OBSERVATION CONTRACT
+type: cognitive
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L19_OUTCOME_OBSERVATION/00_INDEX
+tags:
+- cognitive-matrix
+- l19_outcome_observation
+- domain/cognitive-matrix
+- validation-evidence
+- 00-root-moc
+- amos-moc
+- cognitive-matrix-moc
+- 00-home
+- cognitive-matrix-l19-outcome-observation-contract
+- 00-index-moc
+- trang-framework-recursive-ontology-dynamics
+rscf:
+  state: DERIVED
+  claim_class: CONDITIONAL
+  provenance: AMOS_corpus
+  scope: index_navigation
+---
+
+# PRIMITIVES COGNITIVE MATRIX L19 OUTCOME OBSERVATION CONTRACT
+
+STATUS: PROPOSED_SPECIFICATION
+epistemic_class: AMOS_MODEL
+canonical_status: CONDITIONAL
+updated: 2026-08-26
+
+## Purpose
+Index mirror of `COGNITIVE_MATRIX_L19_OUTCOME_OBSERVATION_CONTRACT.md` (canonical contract in parent directory). This copy exists for 00_INDEX navigation only; canonical content lives in the parent. See [[COGNITIVE_MATRIX_L19_OUTCOME_OBSERVATION_CONTRACT]].
+
+## Invariants
+Scope containment · regime isolation · freshness · UNKNOWN/GAP ≠ PASS.
+
+## Gaps
+Executable binding PARTIAL — see [[VALIDATION_EVIDENCE]] receipts.
+
+---
+
+[[00_ROOT_MOC]]|[[AMOS MOC]]
+
+---
+**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]
+
+---
+RSCF-NODE
+node_id: cm__00_index_primitives_cognitive_matrix_l19_outcome_observation_contract
+node_type: note
+path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L19_OUTCOME_OBSERVATION/00_INDEX/PRIMITIVES_COGNITIVE_MATRIX_L19_OUTCOME_OBSERVATION_CONTRACT.md
+claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_L19_OUTCOME_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]]
+
+---
+**MOC:** [[00_INDEX_MOC]]
+
+---
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

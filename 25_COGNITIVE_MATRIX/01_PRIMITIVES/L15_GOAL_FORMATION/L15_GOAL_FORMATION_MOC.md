@@ -5,10 +5,9 @@ source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L15_GOAL_FORMATION
 tags:
 - l15-goal-formation
 - domain/cognitive-matrix
-- 00-index-moc
-- 01-primitives-moc
 - cognitive-matrix-l15-goal-formation-contract
 - l15-goal-formation-primitives-cognitive-matrix-hml
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

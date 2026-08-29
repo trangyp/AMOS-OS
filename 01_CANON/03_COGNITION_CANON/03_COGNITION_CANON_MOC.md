@@ -38,8 +38,8 @@ tags:
 - cognitive-organism-canon
 - cross-species-functional-mode-canon
 - full-brain-os-canon
-- 01-canon-moc
 - trang-framework-recursive-ontology-dynamics
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -9,11 +9,6 @@ tags:
 - canon/control-plane
 - policy-registry
 - capability-manifest
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 03-policy-moc
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

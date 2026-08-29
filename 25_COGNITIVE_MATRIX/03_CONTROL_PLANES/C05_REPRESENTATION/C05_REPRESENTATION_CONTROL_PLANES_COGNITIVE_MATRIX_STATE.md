@@ -6,10 +6,6 @@ tags:
 - note
 - c05-representation
 - domain/cognitive-matrix
-- cognitive-matrix-moc
-- 00-root-moc
-- amos-moc
-- c05-representation-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

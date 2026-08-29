@@ -7,8 +7,6 @@ tags:
 - substrate
 - bug
 - fixes
-- kernel-moc
-- 00-home
 - 2026-08-23-amos-cognitive-substrate-bug-fixes
 ---
 

@@ -5,8 +5,8 @@ source: 03_CONTROL_PLANE/09_COMMIT/83_ROLLBACK_REPLAY_MODES
 tags:
 - 83-rollback-replay-modes
 - canon/control-plane
-- 09-commit-moc
 - rollback-replay-modes-commit-control-plane-readme
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

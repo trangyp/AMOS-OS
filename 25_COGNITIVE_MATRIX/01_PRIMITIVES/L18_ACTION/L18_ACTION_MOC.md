@@ -6,8 +6,6 @@ tags:
 - l18-action
 - domain/cognitive-matrix
 - cognitive-matrix-l18-action-contract
-- 00-index-moc
-- 01-primitives-moc
 - l18-action-primitives-cognitive-matrix-agents
 - l18-action-primitives-cognitive-matrix-definition
 - l18-action-primitives-cognitive-matrix-equations
@@ -27,6 +25,7 @@ tags:
 - l18-action-primitives-cognitive-matrix-tests
 - l18-action-primitives-cognitive-matrix-variables
 - l18-action-primitives-cognitive-matrix-workflows
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

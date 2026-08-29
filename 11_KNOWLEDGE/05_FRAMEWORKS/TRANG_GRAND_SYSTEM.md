@@ -30,9 +30,6 @@ tags:
 - tss-the-trang-system
 - tpe-trang-prediction-engine
 - unified-biological-intelligence
-- 00-home
-- knowledge-moc
-- 05-frameworks-moc
 - heritage-intelligence-master
 version: 1.0.0
 updated: '2026-08-27'

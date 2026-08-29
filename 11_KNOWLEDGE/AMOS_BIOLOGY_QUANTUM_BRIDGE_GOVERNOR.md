@@ -113,9 +113,6 @@ tags:
 - topic/anti-overclaim-firewall
 - canon/knowledge
 - readme
-- 00-home
-- amos-rscf-nodes
-- knowledge-moc
 - amos-cross-domain-tensor-composition-governor
 rscf:
   state: SOURCE_CLAIM

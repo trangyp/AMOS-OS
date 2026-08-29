@@ -39,8 +39,6 @@ tags:
 - topic/event-routing
 - topic/causal-lineage
 - readme
-- 00-root-moc
-- amos-moc
 - architecture
 - dependency-map
 - authoritative-state
@@ -67,9 +65,6 @@ tags:
 - runtime-map
 - agent-map
 - workflow-map
-- 00-home
-- amos-rscf-nodes
-- 04-state-moc
 aliases:
 - AMOS Event Bus Kernel - Event Bus Kernel - K Event Bus - K_EVENT_BUS
 ---

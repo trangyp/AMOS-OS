@@ -1,11 +1,9 @@
 ---
 title: rscf moc
 tags:
+moc: true
 - stub
 - rscf
-- rscf-moc
-- kernel-moc
-- 00-home
 ---
 
 # rscf moc

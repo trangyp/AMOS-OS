@@ -14,7 +14,6 @@ tags:
 - rscf/state/observation
 - topic/amos-uni-ai-intelligence-engine-v0
 - engine
-- engine-moc
 - trang-framework-recursive-ontology-dynamics
 created: 2026-08-22
 rscf:

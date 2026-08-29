@@ -56,9 +56,6 @@ tags:
 - validation
 - canon
 - tss-the-trang-system-official-manual
-- 00-home
-- amos-rscf-nodes
-- 25-cognitive-matrix-moc
 - k-rscf
 - k-hml
 - k-gmef

@@ -7,8 +7,6 @@ tags:
 - max
 - standard
 - vn-legal-engine-max-standard
-- kernel-moc
-- 00-home
 ---
 
 # vn legal engine max standard

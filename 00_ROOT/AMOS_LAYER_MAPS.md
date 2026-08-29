@@ -16,7 +16,6 @@ tags:
 - canon-group/tech-ai
 - canon/navigation
 - topic/layer-maps
-- 00-root-map
 - canon-map
 - kernel-map
 - control-plane-map
@@ -38,10 +37,6 @@ tags:
 - operations-map
 - domain-alias-map
 - research-research-map
-- 00-root-moc
-- knowledge-moc
-- 00-home
-- cosmo-brain-moc
 - amos-templates
 - core-laws-map
 - universe-canon-map

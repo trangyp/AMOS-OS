@@ -7,12 +7,7 @@ tags:
 - l06_working_state
 - domain/cognitive-matrix
 - validation-evidence
-- 00-root-moc
-- amos-moc
-- cognitive-matrix-moc
-- 00-home
 - cognitive-matrix-l06-working-state-contract
-- 00-index-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

@@ -51,8 +51,6 @@ tags:
 - k-multi-hypothesis
 - k-metacognition
 - readme
-- 00-root-moc
-- amos-moc
 - architecture
 - dependency-map
 - canon-map
@@ -70,9 +68,6 @@ tags:
 - control-plane-map
 - runtime-map
 - authoritative-state
-- 00-home
-- amos-rscf-nodes
-- 03-causal-moc
 aliases:
 - AMOS Causal Closure Kernel - Causal Closure Kernel - K Causal Closure - K_CAUSAL_CLOSURE
 ---

@@ -3,19 +3,16 @@ title: Index MOC — Cognitive Matrix / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/00_INDEX
 tags:
-- 00-index
 - domain/cognitive-matrix
 - cognitive-matrix-architecture
 - cognitive-matrix-map
 - cognitive-matrix-naming-standard
 - control-plane-registry
-- index-cognitive-matrix-readme
-- index-cognitive-matrix-cognitive-matrix-contract
 - lifecycle-operation-registry
 - primitive-registry
 - scale-registry
 - status-legend
-- 25-cognitive-matrix-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

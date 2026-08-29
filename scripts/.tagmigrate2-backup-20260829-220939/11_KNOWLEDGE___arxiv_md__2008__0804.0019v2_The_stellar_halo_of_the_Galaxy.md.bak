@@ -1,0 +1,2421 @@
+---
+title: 0804.0019v2_The_stellar_halo_of_the_Galaxy
+tags:
+- 2008
+- canon/knowledge
+- moc-2008
+- knowledge-moc
+type: document
+source: 11_KNOWLEDGE/2008
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+---
+
+# 0804.0019v2_The_stellar_halo_of_the_Galaxy
+
+> Source: 0804.0019v2_The_stellar_halo_of_the_Galaxy.pdf
+
+> Pages: 46
+
+---
+
+
+## Page 1
+
+
+arXiv:0804.0019v2  [astro-ph]  28 Aug 2008
+Astronomy and Astrophysics Review manuscript No.
+(will be inserted by the editor)
+Amina Helmi
+The stellar halo of the Galaxy
+Received: date
+Abstract Stellar halos may hold some of the best preserved fossils of the
+formation history of galaxies. They are a natural product of the merging pro-
+cesses that probably take place during the assembly of a galaxy, and hence
+may well be the most ubiquitous component of galaxies, independently of
+their Hubble type. This review focuses on our current understanding of the
+spatial structure, the kinematics and chemistry of halo stars in the Milky
+Way. In recent years, we have experienced a change in paradigm thanks to
+the discovery of large amounts of substructure, especially in the outer halo.
+I discuss the implications of the currently available observational constraints
+and fold them into several possible formation scenarios. Unraveling the for-
+mation of the Galactic halo will be possible in the near future through a
+combination of large wide ﬁeld photometric and spectroscopic surveys, and
+especially in the era of Gaia.
+Keywords Galaxy: halo · Galaxy: formation · Galaxy: evolution · Galaxy:
+kinematics and dynamics
+1 Introduction
+A word of caution is necessary before we start our journey through the stellar
+halo of the Galaxy. While working on this article, I could not help but wonder
+whether this was a good time to write a review on the stellar halo (see, for
+example, previous excellent reviews by Gilmore et al. 1989; Majewski 1993;
+Bland-Hawthorn & Freeman 2000; Freeman & Bland-Hawthorn 2002). The
+A. Helmi
+Kapteyn Astronomical Institute,
+University of Groningen
+P.O. Box 800, 9700 AV Groningen
+The Netherlands
+E-mail: ahelmi@astro.rug.nl
+
+
+## Page 2
+
+
+2
+Amina Helmi
+advances in the recent past have been enormous thanks to many (ongoing)
+large wide ﬁeld photometric and spectroscopic surveys. In the past two years,
+almost every month a new satellite galaxy or a new stream was discovered.
+This in itself may be a justiﬁcation for writing a review, but it also may lead
+to an article that is rapidly out of date.
+On the other hand, this of course, is only a sign of the ﬁeld’s health and
+its great promise for the young generations of scientists hoping to unravel the
+formation of the Galaxy. The reader is hereby warned that our understanding
+of the Galactic halo is still evolving signiﬁcantly. In an attempt to avoid
+the (almost unavoidable) risk of becoming quickly outdated, the author has
+decided to review those properties of the stellar halo that (hopefully) provide
+the most direct clues to its evolutionary path.
+The stellar halo is arguably the component that contains the most useful
+information about the evolutionary history of the Galaxy. This is because the
+most metal-poor stars in the Galaxy and possibly some of the oldest ones are
+found here. It therefore provides us with a picture of the Milky Way in its
+early stages of evolution. Low-mass stars live for much longer than the present
+age of the Universe, and so retain in their atmospheres a record of the chemi-
+cal elements of the environment in which they were born. The very metal-poor
+halo stars are thus fossils, whose chemical abundance and motions contain
+information of their sites of origin. As Eggen, Lynden-Bell & Sandage (1962)
+nicely put it: “... a study of these subsystems allows us partially to recon-
+struct the Galactic past because the time required for stars in the Galactic
+system to exchange their energies and momenta is very long compared with
+the age of the Galaxy. Hence knowledge of the present energy and momenta of
+individual objects tells us something of the initial dynamic conditions under
+which they were formed”.
+Despite its crucial importance, our knowledge of the stellar halo is frag-
+mentary. This is at least partly driven by the paucity of halo stars (near the
+Sun roughly only one star in a thousand belongs to the halo, as discussed
+in Section 2.2). This implies that generally a set of suitable (and preferably
+unbiased) selection criteria are used to ﬁnd these precious fossils, as we shall
+see later in this review.
+The study of the formation of the Galaxy is particularly relevant at this
+point in time. There is a cosmological framework in place, the Λ cold dark
+matter (CDM) paradigm, which broadly describes from ﬁrst principles how
+structures in the Universe have evolved (e.g. Springel et al. 2006, and ref-
+erences therein). In this model, galaxies form hierarchically, through the
+amalgamation of smaller proto-systems. Despite the many successes of this
+theory, particularly on large scales, we do not yet understand in detail how
+galaxies form. Many of the shortcomings of this model have become evident
+through comparisons to the properties of our Galaxy and its nearest neigh-
+bors (e.g. the “missing satellites” problem, Klypin et al. 1999; Moore et al.
+1999). Therefore, it becomes clear that studies of the Galaxy and its compo-
+nents are crucial for a proper and complete understanding of galaxy evolution
+in the Universe.
+This review describes the various characteristics of the stellar halo in the
+hope that these will aid us in our understanding of the formation of the
+
+
+## Page 3
+
+
+The stellar halo of the Galaxy
+3
+Galaxy. We start by discussing the spatial structure and global kinematics
+in Section 2. This approach is rather classical, since we shall discuss sepa-
+rately the presence of substructure in Section 3. In principle, substructure can
+strongly aﬀect the determination of the density proﬁle or of the shape of the
+stellar halo, e.g. by introducing overdensities which may not always be easy
+to identify as such (e.g. Newberg & Yanny 2006; Xu et al. 2007; Bell et al.
+2008). Given our current understanding of the Galactic halo, such substruc-
+tures may well dominate at large radii, but at small distances (i.e. the stellar
+halo near and interior to the Solar circle), the mixing timescales are suﬃ-
+ciently short that even if all of the stellar halo had been formed through a
+sequence of dissipationless mergers it would be completely smooth spatially
+(see Helmi & White 1999).
+In Section 4 we describe our current knowledge of the metallicity distri-
+bution of halo stars, and particularly focus on what it reveals about star
+formation in the early Universe. We also discuss what chemical abundance
+patterns tell us about the process of formation of the Galaxy. Not only halo
+ﬁeld stars are interesting, but also globular clusters and satellite galaxies give
+us insight into the characteristics and evolution of the Milky Way halo. These
+are discussed in Section 5.
+In Section 6 we discuss formation scenarios for the stellar halo taking
+into account most (if not all) observational constraints presented in earlier
+sections. Recent technological advances have allowed us to begin to probe
+halos in other galaxies. Their characteristics and a comparison to our own
+stellar halo are brieﬂy mentioned in Section 7. Finally, we provide a brief
+summary and outlook in Section 8.
+2 Spatial structure and global kinematics
+2.1 Star counts: density proﬁle and shape
+Star counts have been used in astronomy for over a century to derive the
+structure of our Galaxy (and even of the Universe, e.g. Kapteyn & van Rhijn
+1920; Shapley 1918). They have led to the conclusion that our Galaxy has
+several physically distinct components, namely the thin and thick disk, the
+stellar halo and the bulge/bar (e.g. Bahcall & Soneira 1980; Gilmore & Reid
+1983).
+The structure of the stellar halo is intimately linked to how the Galaxy
+formed (Freeman & Bland-Hawthorn 2002). Diﬀerent scenarios predict dif-
+ferent shapes and correlations with properties such as age, metallicity, etc.,
+as we shall discuss later. In the simplest case, the structure of the stellar
+halo could also give us insight into the structure of the dark matter halo. For
+example, if a signiﬁcant fraction of the dark matter had been baryonic (com-
+posed by MACHOs, Paczynski 1986), then the stellar and dark halos would
+presumably be indistinguishable. However, this scenario appears unlikely, as
+the microlensing surveys are unable to assign more than 8% of the matter
+to compact dark objects (Tisserand et al. 2007, although see Alcock et al.
+(2000) for a diﬀerent while earlier result).
+
+
+## Page 4
+
+
+4
+Amina Helmi
+In modern cosmological models (namely, cold dark matter dominated), it
+is now clear that the structure of the stellar and dark halo do not necessar-
+ily follow one another. The dark halo is much more extended, and probably
+follows an NFW proﬁle (Navarro, Frenk & White 1996). Its half-mass ra-
+dius lies around 150 kpc (Klypin et al. 2002; Battaglia et al. 2005, 2006),
+and therefore its structure is probably related to the present-day nearby
+large scale tidal ﬁeld (Navarro et al. 2004). On the other hand, the stel-
+lar halo is highly concentrated (e.g. the eﬀective radius as traced by the
+halo globular clusters is well within the Solar circle, Frenk & White (1982)),
+a property that likely reﬂects a very early formation epoch1 (Moore 2001;
+Helmi, White & Springel 2002).
+In the early years, star counts were based on photographic images, and
+were usually restricted to just a few ﬁelds. This was also the basis for the pi-
+oneering Bahcall & Soneira (1980) model of the Galaxy. These authors took
+the approach that our Galaxy is “just” like any other galaxy, and so it should
+be possible to reproduce the star counts using models that ﬁt the light distri-
+bution of external galaxies. For example, they proposed the halo followed a
+“de Vaucouleurs” spherical proﬁle, which is characteristic for elliptical galax-
+ies (although it is now known that not all elliptical galaxies are well-ﬁt by
+this function; furthermore Morrison (1993) showed that a power-law ρ ∝rn
+with n ∼−3.5 as proposed by Harris (1976) on the basis of halo globular
+clusters, provides a better ﬁt for the stellar halo than an R1/4 law).
+Already in early studies (Kinman et al. 1966) there was evidence that
+the stellar halo’s shape varied with distance from the Galactic center. These
+studies favored a halo that was rounder in the outskirts (minor-to-major axis
+ratio q ∼1) and more ﬂattened in the inner parts (q ∼0.5; Schmidt 1956;
+Hartwick 1987; Preston et al. 1991). Typically RR Lyrae and blue horizontal
+branch stars (BHB) were used as tracers. Even today these stars are com-
+monly used to isolate samples of true halo stars. Such stars are only found in
+old populations, and they are relatively bright so they can be observed with
+modest telescopes at distances as large as 100 kpc from the Galactic center
+(e.g. Clewley et al. 2005).
+The density proﬁle of the stellar halo is often parametrized in a principal
+axis cartesian coordinate system as
+ρ(x, y, z) = ρ0
+
+x2 + y2
+p2 + z2
+q2 + a2
+n/2
+rn
+0
+(1)
+where n is the power-law exponent (and because of the ﬁnite extent of the
+Galaxy, it is negative), and q and p are the minor- and intermediate-to-
+major axis ratios (in the axisymmetric case, p = 1). The scale radius a is
+often neglected because of the rather concentrated nature of the stellar halo
+(although see for example Phleps et al. 2005; Bica et al. 2006). Finally, ρ0 is
+the stellar halo density at a given radius r0, which is generally taken to be the
+solar radius for obvious reasons (and referred to as the local normalization).
+1 This refers to the inner stellar halo; as we shall show in Section 3 it is clear
+that the outer stellar halo is still forming.
+
+
+## Page 5
+
+
+The stellar halo of the Galaxy
+5
+As we shall see below, this parametrization is likely to be an oversimpliﬁcation
+because the shape as well as the exponent seem to vary with distance from
+the Galactic center.
+2.1.1 Modern pencil beam surveys
+Robin et al. (2000) have used a large combined set of deep star counts at
+high and intermediate galactic latitudes, and found a power-law index n =
+−2.44 and ﬂattening q = 0.76. Siegel et al. (2002) observed seven Kapteyn
+selected areas (14.9 deg2) (hence ensuring uniform photometry) and preferred
+n = −2.75 and q = 0.6. There are many delicate points in these analyses.
+For example, the counts also include stars from the thin and thick disks,
+which implies that the ﬁts should also allow for the (self-consistent) modeling
+of these components (see top panels in Figure 1). Furthermore there is a
+degeneracy in the modeling of the stellar halo in the sense that a less ﬂattened
+halo requires a steeper density proﬁle (bottom panel of Figure 1). However, it
+is worth bearing in mind that in both studies the ﬁts obtained are not perfect,
+and systematic diﬀerences between models and data are apparent, especially
+at the faint end (see also Figure 6 in Robin et al. (2007)). In particular, there
+are more stars towards the anticenter than predicted, and there are less stars
+observed towards the center. This is similar to what Morrison et al. (2000)
+ﬁnd using turn-oﬀhalo stars (i.e. those with (B −V ) ∼0.38), who prefer n =
+−3 and q = 0.6. These authors note that a two-component halo is unlikely
+to solve these problems, because it is incapable of enhancing the number
+counts towards the anticenter (a rounder halo would in fact tend to lower the
+counts). Some proposed solutions are that the thick disk scale height varies
+with radius, or that the outer halo is lumpy. Either may well be possible.
+For example, ﬁelds at Galactic latitudes |b| < 25 deg are now known to
+contain signiﬁcant substructure towards the anticenter (Newberg et al. 2002;
+Ibata et al. 2003; Grillmair 2006a). More recently CADIS (Calar Alto Deep
+Imaging Survey; Phleps et al. (2005)) mapped 1/30 deg2 in the magnitude
+range 15.5 ≤R ≤23, and found n = −2.5 if q = 0.6.
+2.1.2 Panoramic surveys
+The advent of large galaxy surveys has been extraordinarily beneﬁcial for
+Galactic astronomy. Although initially conceived to be a by product, multi-
+color deep wide ﬁeld surveys have yielded completely new views of the Galac-
+tic halo. Some of the most spectacular results come from the Sloan Digital
+Sky Survey (SDSS2). The ﬁrst studies on the Early Data Release (EDR; 100
+deg2 down to r ∼20) were carried out by Ivezi´c et al. (2000) using RR Lyrae;
+Yanny et al. (2000) using A-stars (BHBs and blue stragglers) and Chen et al.
+(2001) with stars of halo turn-oﬀcolor. In agreement with previous work us-
+ing the same technique (see previous section), Chen et al. (2001) measured
+n = −2.3/2.5 and q = 0.6/0.5 depending on the local normalization of the
+halo. However, Yanny et al. (2000) estimated n = −3.2 ± 0.3 and q = 0.65
+2 http://www.sdss.org
+
+
+## Page 6
+
+
+6
+Amina Helmi
+Fig. 1 Top panels: Color distributions of two ﬁelds used by Robin et al. (2000) to
+constrain the shape of the stellar halo. The dots correspond to the true number
+of observed stars in each color bin, while the heavy solid lines are the number of
+stars predicted by the model assuming a power law index of −2.44, a ﬂattening
+of 0.76 and a local density of 0.75×ρ0 for the stellar halo. Thin lines show the
+contribution of the halo alone. The red peak corresponds to nearby M dwarfs,
+while the blue peak indicates the location of the halo and thick disk turn-oﬀpoints.
+Bottom panel: Iso-likelihood contours at 1, 2 and 3 sigmas in the plane (power law
+index, ﬂattening) of the spheroid population, coded by the local density, going from
+1 (solid), 0.75 (dotted); 0.50 (dashed) and 1.25 (dash-dotted)×ρ0. This diagram
+evidences the strong covariance between the shape and power-law index of the
+stellar halo. [From Robin et al. (2000). Courtesy of Annie Robin. Reproduced with
+permission of A&A.]
+(after masking out the overdensities due to the Sagittarius streams), in accor-
+dance with Ivezi´c et al. (2000) who found n ∼−3. Note that the latter two
+works employ tracers that probe considerably larger distances (particularly
+in comparison to the halo turn-oﬀstars, which are intrinsically much fainter:
+MVTO ∼4 versus MVHB ∼0.6; Binney & Merriﬁeld 1998).
+Using RR Lyrae stars, the QUEST survey (Vivas et al. 2004) ﬁnd n =
+−3.1 ± 0.1 (and that steeper proﬁles produce worse ﬁts), and q varying with
+radius as proposed by Preston et al. (1991).
+
+
+## Page 7
+
+
+The stellar halo of the Galaxy
+7
+The SDSS has now imaged 8000 deg2 of the sky yielding a truly panoramic
+view of the Galaxy (Adelman-McCarthy et al. 2007). However, instead of
+simplifying the picture and providing deﬁnitive answers, it has shown that the
+halo is far more complex than envisioned some ten years ago. For example,
+Newberg & Yanny (2006) ﬁnd that there are signiﬁcant asymmetries with
+respect to the line connecting the galactic center to the anticenter in the
+number counts of halo turnoﬀstars. They postulate this could be due to a
+triaxial halo. In concert with this, Xu et al. (2006) ﬁnd an excess of stars
+towards [l, b] = (270o, 60o) compared to [l, b] = (90o, 60o).
+Juric et al. (2008) have derived photometric parallaxes3 for 48 million
+stars in the SDSS catalog and attempted full modeling of the various Galactic
+components. These authors ﬁnd that it is possible to measure the properties
+of the thin and thick disk relatively robustly (provided large portions of
+the celestial sphere have been observed). However they acknowledge that
+determining the properties of the halo is more diﬃcult, partly because of
+the presence of signiﬁcant clumps and overdensities, as shown in Figure 2.
+The halo power law index n is poorly constrained by the data, but an oblate
+halo with q = 0.5 seems to be favored, although no good ﬁts are obtained at
+the faint end. Amongst various structures, Juric et al. (2008) have detected
+a huge overdensity towards the constellation of Virgo at l = 270o and b =
+60o (the same region that cannot be reproduced by smooth axisymmetric
+models).
+The SDSS is focused on the northern galactic cap. This implies that the
+nature of the overdensities (global versus local) may be diﬃcult to establish
+without good coverage of the southern hemisphere. In particular, if the halo
+were triaxial, one would still expect (in the most reasonable case) symmetry
+with respect to the z = 0 plane. Xu et al. (2007) carried out this exercise and
+compared star counts towards the North Galactic Pole (NGP) from SDSS and
+towards the South Galactic Pole (SGP) using SuperCOSMOS4 photographic
+data (Hambly et al. 2001). They found that there is an asymmetry between
+the north and southern cap of approximately 17% in the B-band. Therefore,
+they concluded that the Virgo overdensity is likely a foreign component of
+the stellar halo (see also Section 3). Their modeling, after subtracting the
+overdensities, favors an axisymmetric halo with parameters n = −2.8 and
+q = 0.7.
+This last example shows particularly well the need for large sky cover-
+age and deep photometry to establish the structure of the stellar halo of the
+Galaxy. This is the only way to break the known degeneracies aﬀecting the
+modeling of number counts from restricted pencil beam surveys. Neverthe-
+less, given the problems in reproducing star counts at the faint end and the
+discovery of large overdensities on the sky, it is essential that the presence of
+substructure is taken into account in the models.
+At this point in time, it transpires that the inner halo may well be axisym-
+metric and ﬂattened (q ∼0.6), while the outer halo (traced by e.g. RR Lyrae
+stars and very deep counts as in Robin et al. (2007)) may be more spheri-
+3 assuming a “mean” photometric parallax relation, as function of color index,
+for all metallicities.
+4 http://www-wfau.roe.ac.uk/sss/
+
+
+## Page 8
+
+
+8
+Amina Helmi
+Fig. 2 Left panels: Stellar number density as a function of (R, z) for diﬀerent
+r −i bins using SDSS photometric parallaxes (the distance scale greatly varies
+from panel to panel). Each white dotted rectangle denotes the bounding box of
+the region containing the data on the following panel. Note the large overdensities
+particularly in the top panels. Right panels: The stellar number density for the
+same color bin as in the top left panel (0.10 < r −i < 0.15, hence preferentially
+selecting stars near the halo turn-oﬀpoint), shown here for cross-sections parallel
+to the Galactic plane, as a function of the distance from the plane (from 16 kpc
+at the top left to 6 kpc in the bottom right). The origin marks the Sun’s position,
+while the circles aid in visualizing departures from axial symmetry of the Galaxy.
+Note the strong asymmetry with respect to the y = 0 line, which is due to the
+Virgo overdensity. [From Juric et al. (2008). Courtesy of Mario Juric. Reproduced
+with permission of the AAS.]
+cal (and steeper). It would be interesting to explore whether this is due to
+diﬀerent formation paths for the inner and outer halo (e.g. dissipative ver-
+sus non-dissipative formation, see Section 6.1). The gravitational pull of the
+stellar disk (and the adiabatic contraction of the halo) may also be (partly)
+responsible for this dichotomy, see e.g. Binney & May (1986); Chiba & Beers
+(2001). In principle, it is also possible that the dual shape of the stellar halo
+reﬂects a change in the number of progenitors and their orbital characteristics
+with distance from the Galactic center.
+2.2 Normalization
+The local normalization (density of the stellar halo at the position of the Sun)
+has been determined both locally as well as from deep pencil beam surveys.
+
+
+## Page 9
+
+
+The stellar halo of the Galaxy
+9
+Morrison (1993) isolated local halo giants from an objective-prism survey of
+metal weak stars, and derived a halo number density expressed in terms of
+halo-to-disk ratio of 1:1200 for K giants (MV ≤0.5), and 1:850 for dwarf
+stars with magnitudes 5 ≤MV ≤8. The latter is comparable to the estimate
+obtained by Fuchs & Jahreiß (1998) using nearby M dwarfs (within 25 pc),
+who measured ρ0 = 1.5 × 10−4 M⊙/pc3 (see also Digby et al. 2003). On the
+other hand, Flynn et al. (1996) used very deep HST counts of M dwarfs
+and obtained a factor four smaller number of red dwarfs, in agreement with
+Gould et al. (1998) who ﬁnd ρ0 ∼6.4 × 10−5 M⊙/pc3 using subdwarfs in 53
+ﬁelds observed with the Wide Field Planetary Camera on the Hubble Space
+Telescope (HST). Attempts to measure the normalization using BHB stars
+are more tricky because of the variation of the properties of the horizontal
+branch with age and metallicity. This implies that the transformation from
+number of BHBs to M⊙is non-trivial. Note that the measurement of ρ0
+relies on an accurate determination of the luminosity function (and hence
+on the slope of the initial mass function), but possibly the largest source of
+discrepancy is the varying shape of the halo with radius. For example, the
+deep counts using HST explore larger distances, and hence presumably also
+the rounder part of the stellar halo, and therefore necessarily favor a rather
+low local normalization (Fuchs & Jahreiß 1998).
+2.3 Kinematics
+Obtaining space velocities for halo stars is no doubt more laborious than map-
+ping their sky distribution. Although radial velocities are relatively straight-
+forward to obtain for a small number of objects even for rather faint stars
+(e.g. V ∼19 take less than one hour-long integrations with 4m-8m class
+telescopes), measuring their tangential velocities is only possible if both the
+proper motion and distance are known. While estimates of the latter may be
+obtained through photometric or spectroscopic parallaxes, proper motions
+from the ground require a large time baseline (of the order of 100 years) to
+produce milliarcsecond accuracy (see, e.g. Beers et al. 2000, and references
+therein). Therefore, and for many other reasons (Lindegren 2004), astromet-
+ric space missions with wide ﬁeld angle capabilities are an absolute necessity.
+Presently the catalogs of halo stars with relatively accurate 3D kine-
+matics are somewhat small, and typically sample a few kpc around the
+Sun. They have been constructed using proper motions mainly from Hip-
+parcos, and radial velocities from other surveys. Velocity errors are in the
+range 20 – 30 km s−1 . Currently the largest such catalog available is that
+by Beers et al. (2000), with approximately one thousand nearby stars with
+[Fe/H] < −0.6 dex.
+2.3.1 Local halo
+Local samples of halo stars show a small amount of prograde rotation Vφ ∼
+30–50 km s−1 (Carney et al. 1996; Layden et al. 1996; Chiba & Beers 2000;
+Morrison et al. 2008a). The velocity ellipsoid is roughly aligned with a cylin-
+drical coordinate system, having dispersions of (σR, σφ, σz) = (141±11, 106±
+
+
+## Page 10
+
+
+10
+Amina Helmi
+9, 94 ± 8) km s−1 (Chiba & Beers 2000). The stellar halo is therefore sup-
+ported by random motions, and its ﬂattened shape is consistent with the de-
+gree of velocity anisotropy observed (see Section 2.3.3, also Sommer-Larsen & Christensen
+1989).
+The velocity distribution of halo stars near the Sun appears to be fairly
+smooth, with only a small degree of substructure (see Section 3 for more de-
+tails). There is no strong correlation of the rotational velocity Vφ with metal-
+licity. However, at large distances above the Galactic plane (∼3 −5 kpc),
+the halo becomes slightly retrograde (Majewski et al. (1996); Carney et al.
+(1996), see also Kinman et al. (2007)), and its mean metallicity is lower
+(Carollo et al. 2007; Morrison et al. 2008a).
+2.3.2 Global properties
+Figure 3 shows the line of sight velocities of a sample of 240 objects in the
+Galactic halo (Battaglia et al. 2005, 2006) as function of distance from the
+Galactic center. This sample includes K giant stars from the Spaghetti sur-
+vey, ﬁeld horizontal branch stars, globular clusters and dwarf galaxies. On the
+right-hand side panel, the radial velocity dispersion is plotted. This quantity
+shows an almost constant value of 120 km s−1 out to 30 kpc and then continu-
+ously declines down to 50 km s−1 at about 120 kpc (see Sommer-Larsen et al.
+(1997) for an earlier similar conclusion from a smaller and less distant sam-
+ple). This fall-oﬀputs important constraints on the density proﬁle and total
+mass of the dark matter halo of the Milky Way. In particular, under the
+assumption of a power-law density for the stellar halo and a constant veloc-
+ity anisotropy, an isothermal proﬁle can be ruled out, while both a dark
+halo following a truncated ﬂat model (Wilkinson & Evans 1999) of mass
+5+2.5
+−1.7 × 1011 M⊙and an NFW proﬁle of mass 9.4+1.4
+−0.9 × 1011 M⊙and con-
+centration c = 18 are consistent with the data (see also Moore et al. 2006;
+Abadi et al. 2006).
+The stellar halo is not completely smooth kinematically (see Section 3).
+Evidence of halo moving groups was presented by Ratnatunga & Freeman
+(1985) towards the South Galactic Pole using radial velocities for K giants,
+by Majewski et al. (1996) towards the North Galactic Pole based on proper
+motions, and more recently by e.g. Clewley & Kinman (2006), Sirko et al.
+(2004) and Vivas et al. (2004) using horizontal branch stars’ radial velocities.
+We discuss these substructures in more detail in Section 3.
+2.3.3 A small digression on the relation between the shape of the stellar halo
+and its velocity ellipsoid in the Solar neighborhood
+As described above, the stellar halo does not show signiﬁcant rotation. This
+implies that its ﬂattened shape has to be attributed to anisotropy in the
+velocity ellipsoid.5
+5 A similar argument is used to explain the shape of elliptical galaxies, see
+Binney & Tremaine (1987).
+
+
+## Page 11
+
+
+The stellar halo of the Galaxy
+11
+Fig. 3 Radial velocities in the Galactic Standard of Rest VGSR as function of dis-
+tance from the Galactic center (left); and Galactocentric radial velocity dispersion
+of the Milky Way stellar halo (right). The curves show the best-ﬁt models obtained
+assuming a truncated ﬂat dark matter halo of mass 5+2.5
+−1.7 × 1011 M⊙(solid curve)
+and an NFW proﬁle of mass 9.4+1.4
+−0.9 × 1011 M⊙and c= 18 (dotted curve), with
+constant anisotropy. The strong decline suggests that for an NFW proﬁle to pro-
+vide a better ﬁt either the anisotropy must change with radius, or the stellar halo
+must have an edge. [From Battaglia et al. (2005, 2006). Courtesy of Giuseppina
+Battaglia. Reproduced with permission of Wiley-Blackwell Publishing.]
+We will now derive the expected relation between the ﬂattening of the
+stellar halo and the degree of anisotropy using the virial theorem. In steady
+state, the virial theorem in tensor form may be expressed as
+2Tjk + Πjk + Wjk = 0
+(2)
+where
+Tjk = 1
+2
+Z
+d3x ρ ¯vj¯vk
+Πjk =
+Z
+d3x ρ σ2
+jk
+Wjk =
+Z
+d3x ρ xk
+∂Φ
+∂xj
+with ρ(x) the density proﬁle of the system, ¯vi the mean velocity along the
+i-axis, σ2
+jk its velocity tensor, and Φ(x) the gravitational potential of the
+dominant mass component. Note that in the case of the stellar halo, the
+density and the gravitational potential are not related through Poisson’s
+equation; the stellar halo is a tracer population embedded in an underlying
+potential whose main contributor is the dark matter halo.
+If we assume that the dark halo is spherically symmetric and that the
+stellar halo is axisymmetric, then Wxx = Wyy and Wjk = 0 for j ̸= k.
+Similar arguments can be used to show that all equations are automatically
+satisﬁed for j ̸= k, while the only two independent equations that remain are
+2Txx + Πxx + Wxx = 0
+2Tzz + Πzz + Wzz = 0.
+
+
+## Page 12
+
+
+12
+Amina Helmi
+Because the streaming (mean) motion of the stellar halo is negligible
+compared to the random motions, we may set Txx = Tzz = 0. In this case,
+Πxx
+Πzz
+= Wxx
+Wzz
+(3)
+which states that shape of the mass-weighted velocity dispersion tensor de-
+pends on the shape of the (moments of the) mass-weighted gravitational
+potential. Equation (3) is equivalent to
+R
+d3x ρ(R, z) σ2
+x
+R
+d3x ρ(R, z) σ2z
+=
+R d3x ρ(R, z) x2
+r
+dΦ
+d r
+R d3x ρ(R, z) z2
+r
+dΦ
+d r
+.
+(4)
+Note that σx ̸= σz if the density distribution of the tracer is axisymmetric.
+For simplicity we will assume
+1. The shape of the velocity ellipsoid does not depend on location
+σ2
+x/σ2
+z = constant.
+(5)
+2. A logarithmic potential for the dark halo
+Φ(r) = v2
+c ln(r2 + d2).
+(6)
+3. The density proﬁle of the stellar halo follows a power-law, is axisymmetric
+and has ﬂattening q. Using Eq. 1 we obtain
+ρ(R, z) = ρ0(m/m0)n,
+m2 = R2 + z2/q2.
+(7)
+Under these conditions, the left-handside of Eq. (4) reduces to a constant.
+The goal now is to evaluate the right-handside expression and compare it to
+the numerical value derived observationally for this constant.
+Let us consider the case in which n = −4. This value is somewhat steeper
+than that discussed in Section 2.1, but it has the advantage of allowing the
+integrals to be solved analytically, and hence leads to a simpler expression.
+In this case Eq. (4) becomes
+σ2
+x
+σ2z
+=
+1
+4q2(1 −q2)arctg
+r1 −q
+1 + q
+
+
+q
+p
+1 −q2 + 2(1 −2q2)arctg
+r1 −q
+1 + q
+
+(8)
+The observed ﬂattening of q ∼0.6 therefore translates into a predicted
+σ2
+x/σ2
+z = 1/2(σ2
+x + σ2
+y)/σ2
+z = 1/2(σ2
+R + σ2
+φ)/σ2
+z = 1.73. The measured value of
+1/2(σ2
+R + σ2
+φ)/σ2
+z = 1.76 ± 0.37 (Chiba & Beers 2000) is interestingly close.
+This presumably also means that the eﬀective Galactic potential near the
+Sun is quite close to that of an isothermal sphere (see also White 1985;
+Sommer-Larsen & Christensen 1989).
+
+
+## Page 13
+
+
+The stellar halo of the Galaxy
+13
+Fig. 4 A “simulated” stellar halo built up from accreted satellites. The color scale
+indicates surface brightness. [Sanjib Sharma, Kathryn Johnston and James Bullock
+are acknowledged for this ﬁgure.]
+3 Substructure
+One of the most fundamental ingredients of the ΛCDM cosmological model
+is that galaxies grow via mergers. Therefore, perhaps the most direct way of
+testing this paradigm is by quantifying the amount of mergers that galaxies
+have experienced over their lifetime. This implies ﬁnding the traces of those
+merger events.
+Mergers are expected to have left large amounts of debris in the present-
+day components of galaxies. In particular, a stellar halo is easily built up via
+the superposition of disrupted satellites (Johnston et al. 1996; Helmi & White
+1999; Bullock et al. 2001; Harding et al. 2001). This is clearly exempliﬁed
+in Figure 4 adapted from the simulations and semi-analytic modeling by
+Bullock & Johnston (2005).
+The prediction that debris in the halo should be ubiquitous in hierarchi-
+cal cosmologies, together with the discoveries of a disrupting dwarf galaxy in
+the halo by Ibata et al. (1994) as well as of nearby remains from an ancient
+accretion event by Helmi et al. (1999), have boosted the search for substruc-
+ture in this component of our Galaxy in recent years. Such searches have
+beneﬁted enormously from the advent of large photometric surveys, and the
+SDSS in particular, as we shall see below, have all led to a shift in paradigm
+in the ﬁeld over the past 10 years.
+
+
+## Page 14
+
+
+14
+Amina Helmi
+Fig. 5 Simulation of the disruption of a satellite galaxy orbiting in the inner
+regions of the halo of the Milky Way. The top panels show the xz projection of the
+particles’ positions, which evidence signiﬁcant evolution over short timescales. The
+velocities of the particles located in a spherical volume of ∼2 kpc around the Sun
+at t∼8 Gyr are strongly clustered, as shown in the bottom panels. Based on the
+simulation from Helmi et al. (1999).
+From a theoretical point of view, one expects substructures in the spatial
+domain, as well as in velocity space (or in phase-space). One can distinguish
+essentially two regimes in which substructures will be most easily found in
+either of these domains:
+– t ∼torb Short after infall, or for satellites orbiting the outer halo (dy-
+namical timescales are comparable to the time since infall). In this case,
+streams are very coherent in space. Hence, a simple way to reveal these
+accretion events is to map of the positions of halo stars on the sky
+(Johnston et al. 1996).
+– t >> torb Long after infall, or in the inner halo (r < 15 −20 kpc). The
+debris is spatially well-mixed, as shown in Figure 5. Because of the conser-
+vation of phase-space density, the stars in a stream will have very similar
+velocities (see bottom panels in Figure 5). In fact, streams get colder as
+time goes by. Therefore the characteristic signature of an accreted galaxy,
+even many Gyr after infall, is the presence of very cold structures in ve-
+locity space (Helmi & White 1999).
+
+
+## Page 15
+
+
+The stellar halo of the Galaxy
+15
+3.1 In the spatial domain
+Because of the relative ease with which young substructures may be uncov-
+ered in the spatial domain, the largest fraction of known streams are those
+that are spatially coherent.
+These discoveries did not really happen systematically until the advent
+of deep photometric wide-ﬁeld surveys. The Sagittarius (Sgr) dwarf galaxy
+was a true beacon, because it was clearly tidally disturbed (Ibata et al. 1994;
+G´omez-Flechoso et al. 1999). Shortly after its discovery, a southern extension
+was found by Mateo et al. (1998). Somewhat later, Majewski et al. (1999)
+reported debris at 40o further south from the main body, which could be
+tentatively ﬁt by models of a disrupting dwarf (Johnston et al. 1999). A
+very large excess of RR Lyrae and BHB stars at high Galactic latitudes was
+subsequently discovered in the SDSS survey (Ivezi´c et al. 2000; Yanny et al.
+2000). This overdensity was roughly along the north-south elongation of the
+Sgr dSph, but now at 60o away from it, and at a signiﬁcantly larger distance
+(50 kpc instead of 15 kpc from the Galactic center). The association of the
+overdensity to the Sgr dwarf galaxy northern/leading stream was nearly ob-
+vious (see e.g. G´omez-Flechoso et al. 1999), as the models of Helmi & White
+(2001) showed6.
+After this, the Spaghetti Survey also found an overdensity at the same lo-
+cation using red giant branch stars with measured radial velocities (Dohm-Palmer et al.
+2001). Mart´ınez-Delgado et al. (2001) using deep color-magnitude diagrams
+detected the presence of a main sequence and turn-oﬀat similar locations,
+and Ibata et al. (2001) using carbon stars were able to trace the stream over
+an extended portion of the sky.
+A spectacular view of the Sgr streams was given by the Two Micron
+All Sky Survey (2MASS7). Majewski et al. (2003) using M giants (selected
+from the 2MASS database on the basis of their colors) were able to map the
+streams 360o around the sky as shown in Figure 6. The vast extent of the Sgr
+dwarf streams has been used to constrain the shape of the Galactic gravita-
+tional potential, albeit with conﬂicting results (Helmi 2004b; Johnston et al.
+2005; Fellhauer et al. 2006).
+In the years to follow, many of the structures discovered in the halo
+would be linked to the Sgr debris (Newberg et al. 2002; Vivas et al. 2001;
+Mart´ınez-Delgado et al. 2004). An exception to this is the Monoceros ring
+(Yanny et al. 2003; Ibata et al. 2003), a low-latitude stream towards the an-
+ticenter of the Galaxy, that spans about 100o in longitude at a nearly constant
+distance. It is somewhat of a semantic distinction to state that this structure
+is part of the stellar halo, or of the Galactic thin or thick disks. As yet, the
+nature of the feature and of the Canis Major overdensity in a similar location
+at low Galactic latitude (Martin et al. 2004), are highly debated. Possible in-
+terpretations are that it is debris from an accreted satellite (e.g. Helmi et al.
+2003b; Martin et al. 2004; Pe˜narrubia et al. 2005; Mart´ınez-Delgado et al.
+2005), an overdensity associated to the Galactic warp (Momany et al. 2004,
+6 This was posted as a preprint on astro-ph in March 2000; just as the SDSS
+discoveries were being made.
+7 http://pegasus.phast.umass.edu/
+
+
+## Page 16
+
+
+16
+Amina Helmi
+Fig. 6 2MASS revealing the streams from Sgr. Smoothed maps of the sky for point
+sources selected according to 11 ≤Ks ≤12 and 1.00 < J −Ks < 1.05 (top), and
+12 ≤Ks ≤13 and 1.05 < J −Ks < 1.15 (bottom). Two cycles around the sky
+are shown to demonstrate the continuity of features. [From Majewski et al. (2003).
+Courtesy of Steve Majewski. Reproduced with permission of the AAS.]
+Fig. 7 The ﬁeld of streams from SDSS featuring Sgr, several new satellites and
+the low-latitude Monoceros ring. [From Belokurov et al. (2006b). Courtesy of Vasily
+Belokurov. Reproduced with permission of Wiley-Blackwell Publishing.]
+2006), or even a projection eﬀect caused by looking along the nearby Norma-
+Cygnus spiral arm (Moitinho et al. 2006). Recently, Grillmair (2006a) has
+mapped the structure of the Monoceros overdensity using SDSS, and showed
+that it consists, at least in part, of a set of very narrow low-latitude sub-
+structures (see Figure 7), which can easily be explained by the models of
+Pe˜narrubia et al. (2005). It is worthwhile mentioning here that such a satel-
+lite may well perturb the Galactic disk, and induce departures from axial
+symmetry or overdensities such as e.g. Canis Major. Furthermore, the Sgr
+dwarf leading tail also appears to be crossing the Galactic plane at roughly
+the same location and distance as the ring (Newberg et al. 2007), and may
+well be responsible for some of the substructures observed.
+
+
+## Page 17
+
+
+The stellar halo of the Galaxy
+17
+At the time of writing of this review, other substantial substructures
+have been uncovered, such as the Virgo overdensity (Juric et al. 2008), pos-
+sibly linked to the Virgo Stellar Structure (Vivas et al. (2001); conﬁrmed
+by Duﬀau et al. (2006) using radial velocities), the Triangulum-Andromeda
+(Rocha-Pinto et al. 2004) and the Hercules-Aquila clouds (Belokurov et al.
+2007b). The nature of these substructures is unclear, particularly because of
+the large area on the sky that they cover. It is evident that detailed kine-
+matic studies of large samples of stars with good distances, as well as chemical
+abundances, and full coverage of the structures, are necessary to understand
+whether these are truly related to tidal debris. In this case, one would expect
+to see coherent motions, as indeed appears to be the case for the Hercules-
+Aquila cloud.
+Narrow streams have been detected around globular clusters (Grillmair et al.
+1995), the most spectacular examples being Pal 5 (Odenkirchen et al. 2001)
+and NGC5466 (Grillmair & Johnson 2006; Belokurov et al. 2006a). This shows
+that globular clusters probably also have contributed to the halo ﬁeld popu-
+lation (Baumgardt et al. 2008). Another example of a narrow tidal tail is the
+Orphan-Stream (Grillmair 2006b; Belokurov et al. 2007c), whose progenitor
+may well have been a dwarf spheroidal-like object accreted by the Galaxy
+several Gyr ago (Sales et al. 2008).
+It is very important to understand what kind of biases aﬀect our ability
+to detect substructure, particularly if our goal is to determine the mass func-
+tion of the objects accreted and the timing of these events. For example, it
+is obviously easier to detect high surface brightness features like those orig-
+inating in massive recently accreted satellites. For instance, the Sagittarius
+stream reaches a surface brightness of ΣV ∼28 mag/arcsec2 at l ∼350o and
+b ∼50o (Mart´ınez-Delgado et al. 2001), where it was ﬁrst detected, while
+the other overdensities discovered so far typically have surface brightnesses
+ΣV ∼32 −33 mag/arcsec2 (see Figure 8 in Belokurov et al. 2007a, and
+private communication).
+The large majority of the above-mentioned substructures are located in
+the outer halo, at distances >∼15 kpc from the Galactic center. The inner halo,
+on the other hand, appears to be relatively smooth (Lemon et al. 2004).
+3.2 In the velocity domain
+As brieﬂy discussed in Sec. 2.3, kinematic information is more expensive to
+obtain, and hence the velocity domain has been less explored despite its
+signiﬁcantly larger suitability for searches of substructure.
+Two new major spectroscopic surveys are likely to change this in the
+nearby future. The Sloan Extension for Galactic Understanding and Explo-
+ration (SEGUE8, Beers et al. 2006) and the RAdial Velocity Experiment
+(RAVE9, Steinmetz et al. 2006) are both currently collecting spectra for
+very considerable samples of stars. The ﬁnal catalogs will be highly com-
+plementary. SEGUE will observe ∼240, 000 stars in the range 15 < V < 21,
+8 http://www.sdss.org/segue/aboutsegue.html
+9 http://www.rave-survey.aip.de/rave/
+
+
+## Page 18
+
+
+18
+Amina Helmi
+while RAVE aims at 106 stars with 9 < I < 12. The average velocity er-
+rors that these surveys can achieve are of the order of 10 km s−1 and 1
+km s−1 respectively. The advent of such large spectroscopic surveys is clearly
+a very interesting development since the kinematics of halo stars can be used
+to ﬁnd and constrain the nature of the overdensities, as well as to measure
+the mass distribution in our Galaxy (e.g. Smith et al. 2007).
+The catalogs of halo stars with 3D kinematics used so far in searches
+of substructure are signiﬁcantly smaller and less accurate (see for example,
+the work of Chiba & Yoshii 1998; Helmi et al. 1999; Chiba & Beers 2000;
+Kepley et al. 2007). Thanks to the developments mentioned above, however,
+we may expect soon a ten-fold increase in the number of nearby halo stars
+with full kinematics. For example it will be possible to combine the RAVE
+radial velocities with the relatively accurate proper motions from the Tycho-
+2 catalog. (Carollo et al. (2007) have already demonstrated the potential of
+combining the SDSS data (with radial velocities and stellar parameters) with
+proper motions from the USNO-B catalog, to understand the global structure
+of the halo, see Section 4.2.1. Note that this dataset is not optimal to search
+for substructure in the Solar neighborhood because of the relatively large
+velocity errors, which are typically in the range 30–50 km s−1 ).
+So far, there have only been a few detections of substructure near the Sun.
+This is not really surprising. Because of the short dynamical timescales in
+the inner Galaxy (a typical halo star near the Sun will have made between 50
+and 100 revolutions in a Hubble time), each accreted satellite will generally
+give rise to multiple streams (or wraps of debris) that will cross the Solar
+neighborhood, as shown in Figure 5. In a stellar halo completely built from
+disrupted galaxies, the predicted total number of nearby streams is
+Nstreams ∼{300 −500}(t/10 Gyr)3
+(9)
+i.e., a few hundred streams are expected to cross the solar neighborhood
+after a Hubble time (Helmi & White 1999). This quantity is only weakly
+dependent on the number and mass spectrum of the accreted satellites. Fur-
+thermore, in the context of the ΛCDM model, it is worthwhile stressing
+that these streams are expected to originate in only a handful of objects
+(Helmi, White & Springel 2003).
+To detect these streams, samples with approximately 5000 halo stars are
+needed (that is, Nsample ∼10 × Nstreams). Given the size of the samples
+currently available, we could clearly be in the limit in which essentially each
+stream is populated by just one star.
+Nevertheless, Helmi et al. (1999) successfully detected two streams com-
+ing from a common satellite accreted 6 −9 Gyr ago (Kepley et al. 2007).
+A simulation to reproduce its properties is shown in Figure 5. The reason
+that these authors were able to detect the streams is three-fold. Firstly, they
+studied the distribution of stars in an “integrals of motion” space (deﬁned
+by two components of the angular momentum), where stars from a common
+progenitor are very strongly clustered (Helmi & de Zeeuw 2000). Thus they
+could map the two streams, one with 4 stars and one with 8 stars, to one
+overdensity with 12 stars. The second reason for the successful detection is
+that the stream stars are going through their pericenters, and at the orbital
+
+
+## Page 19
+
+
+The stellar halo of the Galaxy
+19
+turning points one expects an enhancement in the density of a stream. (This
+phenomenon is in essence the same as the shells observed around elliptical
+galaxies, Quinn 1984). This explains why the streams detected by Helmi et al.
+(1999) were not really that cold. The third reason is that the values of the
+integrals of motion of the accreted stars are quite diﬀerent from those typical
+of solar neighborhood halo stars –lying in the tails of the distribution, exactly
+where one expects the most recently accreted objects to be.
+Seabroke et al. (2008) have recently put constraints on the presence of
+nearby massive halo streams using the radial velocities of stars towards the
+Galactic poles. They ﬁnd no vertical ﬂows with densities greater than 1.4
+stars/kpc3. This rules out the possibility that streams from the Sagittar-
+ius dwarf are crossing the Solar neighborhood, which in turn implies that
+models in which the dark matter halo is prolate are favored (Helmi 2004b;
+Law, Johnston & Majewski 2005).
+Seabroke’s results are in excellent agreement with the arguments of Gould
+(2003), who constrained the degree of granularity using the revised New
+Luyten Two-Tenths (rNLTT) catalog of proper motions of 4500 nearby halo
+stars. He ﬁnds, using statistical arguments, that no streams crossing the Sun
+contain more than 5% of the nearby halo stars. This is also in unison with
+the results of Helmi et al. (1999).
+As mentioned above, further detections of substructure will require signif-
+icantly larger samples with full and accurate 3D kinematics. The ﬁrst steps
+towards this will come with RAVE and SEGUE, but the clear breakthrough
+will be made by the European Space Agency’s mission Gaia (Perryman et al.
+2001). Gaia is scheduled for launch in 2011 and will provide high accuracy
+astrometry (at the 10 microarcsecond level for V ≤12 stars, and 200 mi-
+croarcseconds for V ∼20) and multi-color photometry for over 1 billion stars
+throughout the Milky Way. Radial velocities at 10 km s−1 accuracy will be
+acquired for stars down to V ∼16 −17. Therefore, the Gaia dataset will
+allow us to quantify the amount of substructure in the halo of our Galaxy,
+and consequently its evolutionary path.
+3.3 Implications
+Much of the work in the ﬁeld of “substructure” has so far been rather qual-
+itative in nature. The discoveries of the substructures are clearly the ﬁrst
+step, but what do they actually tell us about how our Galaxy formed? This
+requires a more quantitative approach.
+Bell et al. (2008) have used SDSS data to compute the rms ﬂuctua-
+tions in the number of objects compared to a smooth halo model. They
+ﬁnd typical values of ∼40%. They interpret this using the simulations of
+Bullock & Johnston (2005), where this statistic can vary from 20% to 80%
+depending on the detailed halo formation history. This could imply that the
+(outer) Galactic halo is fairly average in its history and could have been
+built completely by accreted satellites. However, a careful comparison of the
+overall structure of the ﬂuctuations shows that there may still be room for
+a smooth halo component, as illustrated in Figure 8. For example, there are
+
+
+## Page 20
+
+
+20
+Amina Helmi
+Fig. 8 Residuals (SDSS or simulations minus the smooth model) smoothed using a
+σ = 42′ Gaussian from the best oblate model ﬁts for the SDSS data (top left panel)
+and for the 11 simulations from Bullock & Johnston (2005). Only the 20 ≤r < 20.5
+slice, corresponding to heliocentric distances ∼14 kpc are shown. [From Bell et al.
+(2008). Courtesy of Eric Bell].
+signiﬁcant under-densities in the Bullock & Johnston (2005) maps, which are
+not apparent to the same extent in the SDSS data.
+Starkenburg et al. (2008) use a diﬀerent approach and data from the
+Spaghetti Survey to quantify the amount of substructure. Their sample con-
+tains approximately 100 red giant stars with radial velocity and distance
+information. They develop a statistic called the 4-distance, which is essen-
+
+
+## Page 21
+
+
+The stellar halo of the Galaxy
+21
+tially a correlation function in a 4D space:
+4dij =
+q
+aω(ωij)2 + ad(di −dj)2 + av(vrad,i −vrad,j)2
+(10)
+where ωij denotes the angular separation on the sky of star i with respect
+to star j, di its distance and vrad,i its radial (line-of-sight) velocity. The
+coeﬃcients ax denote weights to normalize the various observables and to
+account for the observational errors. Substructure would manifest itself in
+an excess of nearby pairs in this 4 dimensional space. Using this method,
+Starkenburg et al. (2008) ﬁnd that ∼20% of the stars are in substructures,
+the most prominent of which corresponds to the Sgr stream northern over-
+density (Dohm-Palmer et al. 2001). When comparing to the simulations of
+halos built up completely from accreted satellites of 107 M⊙by Harding et al.
+(2001), Starkenburg et al. (2008) ﬁnd that these typically show a signiﬁcantly
+larger amount of substructure. Only in about 10% of the cases, the character-
+istics of such halos are similar to what is measured by the Spaghetti survey.
+They interpret this as meaning that if the whole halo was built from accreted
+satellites, these must have left behind relatively broad streams, implying that
+either they were relatively large or have orbited the Galaxy long enough to
+be signiﬁcantly broadened. The other possible interpretation is that there is
+an underlying smooth component in the halo. Starkenburg et al. (2008) were
+clearly limited by the small sample size, which provided signiﬁcant Pois-
+son noise to their statistical estimations. This situation is likely to change
+in the very near future with SEGUE, which will provide orders of magni-
+tude larger samples of red giant stars with accurate distances and velocities
+(Morrison et al. 2008b).
+4 Ages and chemical abundances of halo stars
+4.1 Age distribution
+The determination of the age of individual stars is one of the most diﬃcult
+measurements in astrophysics. Some possible techniques include isochrone ﬁt-
+ting of individual stars (their absolute magnitude, eﬀective temperature and
+metallicity needs to be accurately known) or star clusters; asteroseismology
+and nucleochronology.
+Direct age measurements can be inferred by comparing the observed
+abundance ratios of the radioactive elements of e.g. 232Th (half-life of 14
+Gyr) and 238U (4.5 Gyr) with theoretical predictions of their initial produc-
+tion. The ﬁrst measurements of very metal-poor nearby stars have yielded
+ages of 15.2 ± 3.7 Gyr (Sneden et al. 1996), 14 ± 3 Gyr (Cayrel et al. 2001;
+Hill et al. 2002), and 13.2 Gyr (Frebel et al. 2007).
+The white dwarf luminosity function, and especially its cut-oﬀ, also pro-
+vides strong constraints on the age of the population to which they belong
+(see, e.g. Chaboyer 1998). This method, based on the white dwarf cooling
+sequence, has been used in the past to derive the age of the oldest stars in
+the Galactic disk (see e.g. Hansen & Liebert 2003). However, the scarcity of
+
+
+## Page 22
+
+
+22
+Amina Helmi
+known halo white dwarfs and the lack of good kinematical data to distin-
+guish these from the far more common disk stars have so far, prevented such
+a measurement for the halo (Torres et al. 1998).
+The horizontal branch morphology of a stellar population at a given abun-
+dance tends to be bluer for older populations, and redder for younger ones
+(Layden 1998b). In the halo, there is some indication that the horizontal
+branch morphology of ﬁeld stars becomes redder with Galactocentric dis-
+tance. If this is interpreted as due to age, it means that the outer halo would
+be younger by a few Gyr, compared to the inner halo (see e.g. Searle & Zinn
+1978; Suntzeﬀet al. 1991). It should be noted, however, that the existence of
+an age spread or a gradient in the population of halo globular clusters is still
+under debate (e.g. Sarajedini et al. 1997; Stetson et al. 1996; De Angeli et al.
+2005).
+4.2 Chemical abundances
+4.2.1 Metallicity distribution
+The local halo metallicity distribution peaks at a value [Fe/H] ∼−1.6 dex,
+and extends well below [Fe/H] ∼−3 dex (e.g. Ryan & Norris 1996).
+Recently Carollo et al. (2007) based on SDSS data revived the idea that
+the halo may be described by two broadly overlapping components. The inner
+halo peaks at [Fe/H] ∼−1.6 dex, is ﬂattened and slightly prograde, while
+the outer halo would peak around [Fe/H] ∼−2.2 dex, would be rounder and
+in net retrograde rotation. Although a dichotomy in the Galactic halo had
+been suggested before (see also Section 2.1), this has now been conﬁrmed
+with a much larger sample of stars covering a large area on the sky and is
+now clearly reﬂected also in the metallicity distribution as shown in Figure 9.
+Because of the importance of metal-poor stars in constraining the for-
+mation history of the Galaxy, as well as the physics of the high-redshift
+Universe (e.g. reionization, initial mass function, etc) signiﬁcant eﬀorts have
+been made to better characterize the metallicity distribution at the very
+metal-poor end. More recently, the HK and the Hamburg/ESO (HES) sur-
+veys have yielded a dramatic increase in the number of nearby metal-poor
+stars known (Beers & Christlieb 2005). In these surveys, metal-poor can-
+didates are selected from objective-prism spectra for which the Ca H and
+K lines are weaker than expected at a given (B −V ) color. These stars
+are then followed up with medium-resolution spectroscopy (see, for example,
+Frebel et al. 2006).
+These surveys have demonstrated two important points. First, three ex-
+tremely metal-poor stars with [Fe/H] < −4.75 dex have been discovered, all
+of which are carbon rich. Secondly, no metal-free stars (Population III) have
+been found thus far.
+These results could in principle, put strong constraints on the initial
+mass function (IMF). For example, Salvadori et al. (2007) ﬁnd, using semi-
+analytic models of galaxy formation, that the lack of metal-free stars con-
+strains the critical metallicity for low-mass star formation to be Zcr > 0, (see
+Schneider et al. 2002), or the masses of the ﬁrst stars to be MPopIII > 0.9 M⊙.
+
+
+## Page 23
+
+
+The stellar halo of the Galaxy
+23
+Brook et al. (2007) reach a similar conclusion using cosmological hydrody-
+namical simulations.
+From a theoretical point of view, the initial mass function of Population
+III stars is expected to be top-heavy, with masses in the range 100−1000 M⊙,
+e.g. Bromm et al. (1999); Abel et al. (2000). Such stars are predicted to leave
+very characteristic imprints in the abundance patterns of the next generation
+of stars (a very strong odd-even eﬀect, e.g. Heger & Woosley (2002)). How-
+ever, such patterns are not consistent with those observed for example by
+Cayrel et al. (2004) for nearby very metal-poor stars. Furthermore, the ob-
+served trends can be explained by normal supernovae with masses < 100 M⊙
+(Umeda & Nomoto 2005; Silk & Langer 2006).
+The solution to this conundrum is still to be found. Given the small num-
+ber statistics, the IMF appears to be consistent with Salpeter as well as with
+a top-heavy functional form (Salvadori et al. 2007). On the other hand, the
+high incidence of carbon-enhanced, unevolved stars among extremely metal-
+poor stars has been used to propose that the IMF in the early Galaxy was
+shifted toward higher masses (Lucatello et al. 2005). Based on the idea that
+the two most metal-poor stars known could be both in binary systems (and
+that their high [C/Fe] could be due to the winds from an AGB companion
+star), Tumlinson (2007) discusses that an IMF with a characteristic mass
+∼3 M⊙would reproduce the properties and distribution of the halo stars at
+the metal-poor end.
+In the coming years, our knowledge of the halo metallicity distribution
+function is likely to improve signiﬁcantly with surveys such as Skymapper10,
+SEGUE and LAMOST11, which will extend by large factors the currently
+known handful of extremely metal-poor stars (Christlieb 2006). These new
+datasets will give us to access to the very high-redshift Universe through the
+fossil record left by the ﬁrst generations of stars ever formed.
+4.2.2 Elemental abundances
+Much more information about the chemical history of the Galactic halo may
+be obtained from detailed studies of the elemental abundances patterns. This
+is because the various chemical elements are synthesized by diﬀerent pro-
+cesses in stars of diﬀerent masses and on diﬀerent timescales (McWilliam
+1997). For example, α-elements (O, Mg, Si, Ca, S, and Ti) are produced
+during the explosion of a massive star as a Supernova Type II, which occurs
+only a few million years after its formation. Iron-peak elements, on the other
+hand, are produced both by Type Ia and Type II supernovae. Type Ia su-
+pernovae are the result of a thermonuclear explosion induced by the transfer
+of mass onto the surface of a white dwarf by a binary companion star. This
+implies that these explosions take place typically on a longer timescale, of the
+order of 0.1 to a few Gyr (e.g. Matteucci & Recchi 2001). Heavier elements
+beyond the iron-peak are created by neutron capture, through slow (s) and
+rapid (r) processes. The s-process can take place when the neutron ﬂux is
+relatively low, i.e. the timescale between neutron captures is large compared
+10 http://www.mso.anu.edu.au/skymapper/
+11 http://www.lamost.org
+
+
+## Page 24
+
+
+24
+Amina Helmi
+Fig. 9 Metallicity distribution function based on medium-resolution spectroscopy
+for 2 × 104 nearby stars obtained with SDSS. The histograms show that the inner
+halo (V ∼−200
+km s−1 ) exhibits a peak metallicity [Fe/H] = −1.6, and that the
+outer halo (right panels) peak at a value [Fe/H] = −2.2, and have a net retrograde
+rotation. [From Carollo et al. (2007). Courtesy of Daniela Carollo. Reproduced with
+permission of Nature.]
+to that of the beta decay. These conditions are found in the envelopes of
+Asymptotic Giant Branch (AGB) stars, and are most eﬃcient in stars with
+masses 3 −5 M⊙, implying a timescale of 100 Myr after the stars were born
+(see Goriely & Siess 2005, and references therein). On the other hand, the
+r-process occurs when the neutron ﬂux is suﬃciently high to allow for rapid
+neutron captures. This is believed to occur in environments like those pro-
+duced by supernovae Type II. It should be stressed, however, that the exact
+sites and conditions under which the various neutron-capture elements are
+produced, particularly at very low metallicities, are still somewhat uncertain
+(Travaglio et al. 2004; Arnould et al. 2007).
+Figure 10 shows how the chemical enrichment depicted by the [α/Fe]
+versus [Fe/H] may proceed in a given object depending on its initial mass
+function (which sets the initial level of [α/Fe]) and its star formation rate
+(which sets at what metallicity the “knee” is observed).
+
+
+## Page 25
+
+
+The stellar halo of the Galaxy
+25
++1.0
++0.5
+0
+[O/Fe]
+Solar vicinity
+Bulges + Ellipticals
+Magellanic Clouds
+−3
+−2
+−1
+0
++1
+[Fe/H]
+Fig. 10 Sketch of the predicted [O/Fe] versus [Fe/H] relation in diﬀerent systems
+as a consequence of their diﬀerent enrichment timescales. The α enhancement seen
+in the Galactic bulge can be explained by an intense star formation burst in which
+mainly supernovae Type II polluted the interstellar medium. On the other hand, the
+Magellanic Clouds had a lower star formation rate, and so most of their stars have a
+relatively enhanced iron-content. Thin-disk stars near the Sun are an intermediate
+case. [Based on Matteucci (2001).]
+Interestingly, the majority of the local halo stars are α-enhanced (Wheeler et al.
+1989; Nissen et al. 1994; Carretta et al. 2000), where typically [α/Fe] ∼0.3
+dex. This implies that the formation timescale for these stars was very short,
+less than 1 Gyr. This argument is based on the fact that the α-enhancement
+may also be seen as an iron deﬁciency. Such a conﬁguration may be obtained
+when the interstellar medium (ISM) has been enriched by supernovae Type
+II, but not signiﬁcantly by Type Ia (Gilmore & Wyse 1998).
+More detailed insights have been provided by Cayrel et al. (2004) and
+Fran¸cois et al. (2007). They have obtained high-resolution spectra (R ∼
+45000) for 30 very metal-poor giants (−4.1 < [Fe/H] < −2.7 dex). Cayrel et al.
+(2004) ﬁnd that the scatter in several [α/Fe] and [Fe-peak/Fe] ratios is con-
+sistent with being only due to observational errors, as shown in Figure 11
+(see also Cohen et al. 2004). This would suggest that these stars formed
+in an extremely well-mixed medium, i.e. the cosmic scatter expected from
+the pollution by supernovae of diﬀerent masses is not observed. In contrast,
+the neutron-capture elements behave very diﬀerently, showing a large spread
+at low metallicity (Barklem et al. 2005; Fran¸cois et al. 2007, and references
+therein). It is currently unclear how to reconcile these results. In a scenario
+in which the halo was formed via the accretion of several independent ob-
+jects, one would naively expect that each of these objects followed their own
+chemical evolution path, hence a superposition of their debris should give rise
+to a large scatter in the various chemical abundance patterns. Perhaps the
+observed large scatter in [neutron-capture/Fe] would be consistent with such
+a scenario (see Cescutti et al. 2006), but why is there not a spread in other
+elements? Uncertainties in how nucleosynthesis proceeds at very low metal-
+
+
+## Page 26
+
+
+26
+Amina Helmi
+Fig. 11 Elements ratios as function of [Fe/H] for the sample of very metal-poor
+stars from Cayrel et al. (2004). Ca is an α element, while Cr is from the iron-
+peak, yet in both cases the scatter is extremely small. In contrast, neutron-capture
+element ratios such as [Y/Fe] and [Ba/Fe] show very large scatter in the same
+stars (Fran¸cois et al. 2007).[From Cayrel et al. (2004). Courtesy of Rogier Cayrel.
+Reproduced with permission of A&A.]
+licities, as well as in modeling the chemical evolution in the proto-galaxy in
+a cosmological context, are likely to be both elements of this puzzle.
+The chemistry of stars can also be used to trace the merging history of the
+Galactic halo (Freeman & Bland-Hawthorn 2002). For example, Nissen & Schuster
+(1997) found a correlation for local halo stars such that those with large apoc-
+entric distances have relatively low [α/Fe]. This may be an indication that
+these anomalous halo stars have been accreted from dwarf galaxies with a dif-
+ferent chemical evolution history (see also Fulbright 2002; Ivans et al. 2003).
+This is consistent with the fact that stars in dwarf spheroidal galaxies, tend
+to have lower [α/Fe] at a given metallicity compared to the halo. This in turn
+has been used to show that dwarf galaxies could not have been signiﬁcant
+contributors of the stellar halo if accreted after they formed a signiﬁcant
+fraction of their stars (Shetrone et al. 2001; Tolstoy et al. 2003; Venn et al.
+2004).
+More recent abundance studies of large samples of stars in several dwarf
+spheroidals have demonstrated that these objects have similar initial levels of
+[α/Fe] at very low [Fe/H], as shown in Figure 12 (Tolstoy et al. 2006; Letarte
+2007; Hill et al. 2008). It is likely that their relatively low star-formation
+rates have led to slow chemical enrichment, implying low values of [α/Fe]
+compared to the halo for all but the oldest (or most metal-poor) stars in the
+dwarf spheroidals (Tolstoy et al. 2003).
+5 The satellites: dwarf galaxies and globular clusters
+Approximately 150 globular clusters and about 20 satellite galaxies are found
+in the Galactic halo. It is interesting to study their distribution as well as
+their internal properties to elucidate the evolutionary path of the Galaxy. In
+particular, it is worthwhile comparing these objects’ stellar populations to
+the halo ﬁeld stars, since in the most naive interpretation of the hierarchical
+paradigm, the stars have their origin in small galaxies, presumably akin to a
+certain (to be deﬁned) extent the dwarf satellites we see around us today.
+
+
+## Page 27
+
+
+The stellar halo of the Galaxy
+27
+-4
+-3
+-2
+-1
+0
+-0.5
+0
+0.5
+1
+[Fe/H]
+Disk
+Halo
+Scl
+Fig. 12 α-abundance (average of Ca, Mg and Ti) as function of [Fe/H] for 92
+member stars in a central ﬁeld of Sculptor (crosses, from Hill et al. 2008) compared
+to those in our Galaxy (dots; from the compilation of Venn et al. 2004). The open
+squares are previous measurements of individual stars (Shetrone et al. 2003). The
+most metal-poor stars in the dwarf spheroidals are as α enhanced as ﬁeld stars in
+the Galactic halo. It is only at higher [Fe/H] that the [α/Fe] is signiﬁcantly lower in
+the dwarf spheroidals (Tolstoy et al. 2006). [Courtesy of Eline Tolstoy and Vanessa
+Hill.]
+The number of known dwarf galaxies in the Local Group has doubled
+in the past few years, particularly at the faint luminosity end, thanks to
+the discovery of a large number of very low surface brightness satellites (e.g.
+Belokurov et al. 2007a; Martin et al. 2007). Despite this recent large increase
+in the abundance of Galactic satellites, this is still well-below the number
+of bound substructures orbiting galaxy-size halos in pure cold dark matter
+simulations (Koposov et al. 2007). This discrepancy has been termed the
+“missing satellites problem” (Klypin et al. 1999; Moore et al. 1999). Several
+solutions have been put forward including, for example, a modiﬁcation of the
+nature of dark matter (Spergel & Steinhardt 2000). On the other hand, the
+modeling of the baryonic physics at the low-mass end of the galaxy scale is far
+from complete, and this is where environmental eﬀects and processes such as
+reionization, feedback from massive stars, etc. are likely to have a signiﬁcant
+impact on the probability of a substructure to hold onto its gas and form stars
+(e.g. Mac Low & Ferrara 1999; Bullock et al. 2000; Kravtsov et al. 2004).
+The newly discovered satellites have luminosities in between (although
+sometimes comparable to) globular clusters and the classic dwarf spheroidals,
+but they are signiﬁcantly more extended than the former. They have ex-
+tremely large mass-to-light ratios (Simon & Geha 2007), computed under
+the assumption of virial equilibrium (which may very well turn out to be a
+very poor approximation since these objects could well be tidal debris).
+There are two very interesting properties of the spatial distribution of the
+satellites. Firstly, their distribution is rather centrally concentrated, in the
+sense that the median distance is less than 30% - 40% of the virial radius (as
+computed by Battaglia et al. 2005, 2006). For comparison, satellite substruc-
+tures around halos in dark matter cosmological simulations tend to be much
+
+
+## Page 28
+
+
+28
+Amina Helmi
+more evenly distributed (Gao et al. 2004; Kang et al. 2005). This apparent
+discrepancy can be solved by assuming, for example, that the luminous satel-
+lites are embedded in those substructures that were most massive at the time
+they crossed the virial radius of the Galaxy. Also the radial distribution of
+the halo globular clusters follows very closely that of the ﬁeld stars. This
+can be explained if these objects formed in a highly biased set of gas-rich
+proto-galaxies at high-redshift (Kravtsov & Gnedin 2005).
+The second interesting property is that the satellites are quite anisotropi-
+cally distributed (Hartwick 2000; Kroupa, Theis & Boily 2005; Metz, Kroupa & Jerjen
+2007). This can be reconciled with cold dark matter models if these galaxies
+have fallen in from a few directions, perhaps in groups (Li & Helmi 2008), or
+along ﬁlaments (Libeskind et al. 2005; Zentner et al. 2005; Kang et al. 2005).
+It is unclear whether this peculiarity will remain once the sky coverage is
+more complete, and once a thorough survey of the faintest objects is avail-
+able. Furthermore, establishing the reality of the dynamical families proposed
+by Lynden-Bell & Lynden-Bell (1995), is only possible with knowledge of the
+satellite’s orbits. For this, precise tangential velocities (i.e. proper motions)
+are required. Unfortunately only a few satellite galaxies have proper mo-
+tion measurements, mostly obtained using the Hubble Space Telescope (see
+e.g. Piatek et al. 2007, and references therein) and these are still aﬀected by
+large uncertainties. However, in the coming decade, the situation is going to
+improve signiﬁcantly thanks to Gaia.
+In contrast, the dynamics of the (inner) halo globular cluster popula-
+tion is much better known. For example, Dinescu et al. (1999) has compiled
+a sample with ≥40 clusters with well-measured tangential velocities. The
+measurements are relatively modern (i.e. made with high-precision measur-
+ing machines, such as used in the Southern Proper Motion survey), and are
+tied to an absolute reference frame using, e.g. galaxies and QSOs, or stars
+with known absolute proper motion from, e.g. the Lick Northern Proper Mo-
+tion Program or Hipparcos (for more details, see e.g. Dinescu et al. 1999, and
+references therein).
+The reliable measurements of the dynamics of globular clusters in com-
+bination with dedicated programs to characterize their properties, such as
+chemical abundance patterns, ages, horizontal-branch morphology, and struc-
+tural parameters has prompted the search for correlations in the hope to
+trace Galactic history (e.g. Ashman & Zepf 1998; Mackey & Gilmore 2004,
+and references therein). This is much in the same spirit of the original work
+of Searle & Zinn (1978) and Zinn (1993).
+A recent highlight is the discovery of multiple stellar populations in the
+most massive globular clusters (Lee et al. 1999). One proposed explanation
+(but not the only one, c.f. Baumgardt et al. 2008, and references therein)
+is that these might be remaining cores of disrupted nucleated dwarf galax-
+ies, as is the case for M54 which is located in the Sagittarius dwarf itself
+(Layden & Sarajedini 2000). These peculiar globular clusters also show an
+extended horizontal branch (EHB), and the presence of double or broadened
+main sequences (Piotto et al. 2007). In fact, about 25% of the globular clus-
+ters in our Galaxy exhibit unusual EHBs, which has prompted the idea that
+they might have a unique origin. Furthermore, these globular clusters are
+
+
+## Page 29
+
+
+The stellar halo of the Galaxy
+29
+in age and metallicity
+Spatial variations
+No HI detection
+Some evidence for
+No HI detection
+HI cloud unassociated?
+No HI detection
+single metallicity
+HI in surroundings?
+Spatial variations
+radial variations
+Basically single age,
+possible radial gradient
+in age and metallicity;
+Spatial variations
+HI in surroundings?
+HI in surroundings?
+Radial gradient
+No deep photometry
+Abundance spread
+No HI detection
+-1
+-2
+-1
+-1
+-2
+-1
+0
+0
+0
+-2
+-1
+-1
+-1
+0
+0
+0
+0
+0
+0
+-2
+-1
+-1
+-2
+0
+Sextans
+Sculptor
+15 10 5
+0
+15 10 5
+0
+15
+15
+10
+10
+10
+5
+Ursa Minor
+Draco
+0
+0
+15
+88 kpc
+69 kpc
+79 kpc
+86 kpc
+Sagittarius
+4 GCs
+C
+MS
+RR
+spread
+MS
+RR
+anCep
+spread
+RR
+HB
+anCep
+MS
+AGB
+?
+?
+spread
+5
+RGB
+HB
+[Gyr]
+C,BS
+AGB,C
+anCep
+MS
+dwCep
+MS
+?
+MS
+RR
+HB
+PN
+MS
+AGB
+AGB,C
+anCep
+Fornax
+Leo II
+138 kpc
+205 kpc
+Leo I
+270 kpc
+0
+0
+0
+0
+5
+5
+5
+5
+15
+15
+15
+15 10
+10
+10
+10
+5
+Carina
+0
+25 kpc
+94 kpc
+RC
+MS
+MS
+gradient
+RR
+HB
+RC
+const?
+spread
+AGB,C
+MS
+AGB,C
+HB
+MS
+uncertain
+MS
+MS
+5 GCs
+HB
+MS
+AGB,C
+RC
+Age
+[Fe/H]
+HB
+SFR
+Mv = -8.6 mag
+Mv = -8.9 mag
+Mv = -9.5 mag
+Mv = -9.8 mag
+Mv = -9.4 mag
+Mv = -13.1 mag
+Mv = -10.1 mag
+Mv = -11.9 mag
+Fig. 13 Star formation histories of Milky Way dwarf spheroidal satellites. Each
+population box gives a schematic representation of star formation rate (SFR) as a
+function of age and metallicity. [From Grebel (2000). Courtesy of Eva Grebel, and
+Fabio Favata (editor).]
+on average more massive and share the random kinematics characteristic of
+normal globular clusters in the outer halo (Lee et al. 2007).
+These results, as well as the evidence of dynamical relation between the
+Sagittarius dwarf and six Galactic globular clusters (Bellazzini, Ferraro & Ibata
+2003), suggest an accretion origin for the outer halo clusters. This is also sup-
+ported by the work of Mackey & Gilmore (2004), who conclude that all young
+halo clusters (with [Fe/H] < −0.8 dex and red HB morphology, more com-
+mon in the outer halo) and ∼15% of the old halo clusters ([Fe/H] < −0.8
+dex and blue HB morphology) are of external origin.
+Dwarf galaxies show, of course, much more complex stellar populations.
+Furthermore, these galaxies depict a large variety in star formation and
+chemical evolution histories (Grebel 2000; Dolphin et al. 2005), as shown
+in Figure 13. Some dwarf galaxies appear to have stopped forming stars very
+early on, although it is clearly diﬃcult to disentangle whether this happened
+at z ∼10, i.e. before reionization, or at z ∼3 −5, i.e. after reionization
+(Gnedin & Kravtsov 2006). On the other hand, some dwarf galaxies have
+managed to form stars until very recently, such as Fornax (Stetson et al.
+1998) or Sagittarius (Siegel et al. 2007).
+There is, however, a remarkable uniformity in that all dwarf spheroidals
+studied so far show an absence of stars with metallicities below a value of
+[Fe/H] ∼−3 dex (Helmi et al. 2006). This could suggest a uniform pre-
+enrichment across the Local Group at high redshift, before the ﬁrst genera-
+tions of stars in these objects formed.
+
+
+## Page 30
+
+
+30
+Amina Helmi
+We are also interested in understanding the link between the ﬁeld stars in
+the halo and those still bound to the satellites of the Milky Way (Sales et al.
+2007). For example, the contribution of present-day dwarf galaxies to the
+halo near the Sun can be ruled out on the basis of the colors and chemical
+properties of the stellar populations (Unavane et al. 1996; Venn et al. 2004).
+These dwarfs have had a Hubble time to evolve in relative isolation, and it is
+reasonable that their stellar populations would not resemble those of objects
+disrupted a long time ago. However, one may wonder what the relation is
+between the progenitors of the dwarf galaxies and the halo building blocks.
+Under the assumption that the very metal poor stars represent the ﬁrst
+generations of stars formed, the apparent lack of such objects in the dwarf
+spheroidals compared to the halo, implies that their progenitors were funda-
+mentally diﬀerent. One possible scenario is that the halo building blocks were
+associated to high-density peaks that collapsed at higher redshifts, while the
+dwarf galaxies presumably descend from more average density ﬂuctuations
+in the early Universe (Helmi et al. 2006; Salvadori et al. 2008).
+Nevertheless we know at least of one example of a signiﬁcant contributor
+to the outer halo: the Sagittarius dwarf galaxy. Although it is currently un-
+clear how massive this object was initially, current models postulate an initial
+stellar mass of ∼2 −5 × 108 M⊙(Helmi 2004a; Law, Johnston & Majewski
+2005), which is slightly smaller but comparable to the total mass of the stellar
+halo obtained by extrapolating the local density and assuming a power-law
+distribution as described in Section 2. Therefore, given that we are just be-
+ginning to map the outer stellar halo in suﬃcient detail, it is very likely
+that much of this region of the Galaxy is the result of the accretion of dwarf
+galaxies like those we observe today.
+6 Formation scenarios
+There has been a tendency in the literature to classify formation scenar-
+ios according to two traditional models introduced in the 1960s and 1970s
+respectively, to describe the evolution of the Galaxy.
+The ﬁrst model was proposed by Eggen, Lynden-Bell & Sandage (1962),
+where “the oldest stars were formed out of gas falling toward the galactic
+center in the radial direction and collapsing from the halo onto the plane.
+The collapse was very rapid and only a few times 108 years were required for
+the gas to attain circular orbits in equilibrium”. The inﬂuence of this work
+has been phenomenal, not just on models of the stellar halo, but also in the
+ﬁeld of galaxy evolution in general. The second model, which is often used as
+a counter scenario, is that by Searle & Zinn (1978). On the basis of the lack
+of an abundance gradient for the outer halo globular clusters, these authors
+proposed that “these clusters formed in a number of small protogalaxies that
+subsequently merged to form the present Galactic halo”. For many authors,
+this latter model is more reminiscent of the currently popular hierarchical
+paradigm. However, as we shall see below, ingredients of both models are
+likely to be present in the assembly of a Galactic system in a hierarchical
+cosmology.
+
+
+## Page 31
+
+
+The stellar halo of the Galaxy
+31
+It is therefore perhaps more instructive to distinguish models according
+to the degree of dissipation involved in the formation of a given component.
+In this context, the Eggen, Lynden-Bell & Sandage (1962) model would ﬁt
+in a category where the large majority of the nearby halo stars were formed
+during a dissipative process (namely the collapse of a gaseous cloud). On the
+other hand, in the Searle & Zinn (1978) model, the assembly of the outer
+halo would have proceeded without any dissipation.
+6.1 Global properties
+Several authors have attempted to model the formation and characteristics of
+the Galactic stellar halo. Diﬀerent techniques have been applied, such as nu-
+merical simulations with and without gas physics and star formation, which
+are sometimes (fully) embedded in a cosmological context. Other attempts
+include the use of phenomenological descriptions of the evolution of baryons
+inside halos, usually in combination with an N-body simulation that pro-
+vides the dynamical history of the system in the context of the hierarchical
+paradigm.
+The global properties of the Galactic stellar halo, such as its shape, cor-
+relations with kinematics and metallicity distribution, have been reproduced
+in many of these works.
+For example, Samland & Gerhard (2003) have modeled the formation of
+a disk galaxy in a slowly growing dark matter halo. In essence, this model is
+quite similar to the Eggen, Lynden-Bell & Sandage (1962) scenario, but takes
+into consideration the fact that galaxies have grown in mass from the Big
+Bang until the present time. They follow the cooling of gas, star formation
+and feedback processes in great detail, and are able to obtain a realistic disk
+galaxy at the present time. In this simulation, the stellar halo deﬁned by
+the stars with [Fe/H]< −1.9 dex is not rotating, while the more metal-rich
+stars with −1.9 < [Fe/H] < −0.85 are rotating at ∼70
+km s−1 . The ﬁrst
+component is slightly ﬂattened in the same sense as the disk, while the second
+component is signiﬁcantly ﬂatter and largely supported by rotation. In this
+sense, one may argue that it resembles more closely a thick disk than the
+inner halo of the Milky Way.
+More realistic attempts to simulate the formation of a disk galaxy like the
+Milky Way in a cosmological framework include those of Steinmetz & M¨uller
+(1995); Bekki & Chiba (2001) and Brook et al. (2003). These authors have
+modeled the collapse of an isolated, rigidly rotating sphere of ∼1012 M⊙
+onto which small-scale ﬂuctuations according to a cold dark matter spec-
+trum have been imposed. In these works the evolution of the dark matter
+and of the gas, star formation, etc. are followed self-consistently. In this
+sense they are, in principle, able to determine the relative importance of dis-
+sipative processes versus dissipationless mergers in the build-up of the halo.
+However, the numerical resolution in these studies is low (the spatial resolu-
+tion, as measured by the softening, is typically ∼2.5 kpc), and the number
+of particles is small. For example, in Brook et al. (2003) the dominant disk
+component and the spheroid at the ﬁnal time are represented by ∼4 × 104
+star particles. This implies that the resolution is not suﬃcient to determine
+
+
+## Page 32
+
+
+32
+Amina Helmi
+the detailed properties of the simulated galaxies robustly (e.g. small scale
+substructure such as dwarf galaxies and streams are not well resolved). Nev-
+ertheless, global (average) properties are likely to be reliable. For example,
+Steinmetz & M¨uller (1995) ﬁnd in their simulations that the stellar halo (de-
+ﬁned as the more metal-poor component) is triaxial in shape (c/a = 0.65 and
+b/a = 0.85, with the minor axis roughly aligned with the angular momen-
+tum of the disk), and that the density proﬁle is well-ﬁt by a de Vaucouleurs
+law. In the simulation of Bekki & Chiba (2001) the outer halo is completely
+built up through accretion, while the inner halo results from merging be-
+tween gas rich clumps. The inner halo is also adiabatically contracted by
+the formation of the disk (Binney & May 1986; Chiba & Beers 2001), which
+explains its more-ﬂattened shape. In agreement with Steinmetz & M¨uller
+(1995), Bekki & Chiba (2001) ﬁnd that the density proﬁle varies from r−3
+at r < 10 kpc to r−4 at larger distances.
+This is also in agreement with the simulations of Abadi et al. (2003).
+These authors have run fully cosmological hydrodynamical simulations of the
+formation of a disk galaxy. Although their ﬁnal galaxies are of too early Hub-
+ble type (most of them have bulges that are too dominant compared to the
+disk component), they ﬁnd some common (and hence presumably general)
+characteristics. The surface brightness proﬁle of the outer halo components
+of these galaxies (r ≥20 kpc) can be ﬁt with a Sersic law, with ⟨n⟩= 6.3
+and ⟨Reﬀ⟩= 7.7 kpc, i.e. R−2.3 at ∼20 kpc and R−3.5 around the virial
+radius. The shape of the outer halos is very mildly triaxial ⟨b/a⟩= 0.91 and
+⟨c/a⟩= 0.84. These outer regions (r ≥20 kpc) contain mostly accreted stars
+(with fractions greater than 90%), which originate in the most massive merg-
+ers that the central galaxy has experienced over its lifetime (the contribution
+of small accretion events may be underestimated because of resolution, but
+this is nevertheless unlikely to be the major channel by which galaxies grow).
+The inner halos are formed in-situ and are much more ﬂattened c/a ∼0.62
+(Abadi et al. 2006).
+Diemand et al. (2005) provide an alternative view from dark matter only
+cosmological simulations. Following Moore (2001), they identify the most
+bound particles in halos that have collapsed at very high redshift (i.e. 2.5σ
+peaks at z = 12) and ﬁnd that these end up in the inner regions of the
+most massive object at the present time. These particles (which are meant
+to represent stars) are distributed according to a very steep density proﬁle rn
+with index n ∼−3 in analogy to the stars in the stellar halo of our Galaxy.
+A complementary approach has been developed by Bullock & Johnston
+(2005) who follow the formation of the stellar halo purely built via accre-
+tion of satellites. The evolution of the baryonic components of the satellites
+(fraction of cold and hot gas, star formation and chemical enrichment his-
+tories) are followed through a phenomenological semi-analytic approach (as
+in White & Frenk 1991; Kauﬀmann et al. 1993; Somerville & Primack 1999).
+The satellites are placed on orbits (consistent with those found in cosmolog-
+ical simulations, e.g. Benson (2005)), around a slowly growing gravitational
+potential that models the Galaxy (resembling the approach of Samland & Gerhard
+(2003)). In this sense, they are limited to times after which the central po-
+tential has settled (i.e after major mergers), and so, essentially they are
+
+
+## Page 33
+
+
+The stellar halo of the Galaxy
+33
+well-placed to tackle the formation of the outer halo, i.e. r > 15 −20 kpc.
+Through this modeling they ﬁnd that the density proﬁle of their stellar halos
+vary from ρ ∝r−2 at 20 kpc to r−4 beyond 50 kpc.
+The higher resolution and more detailed modeling of Bullock & Johnston
+(2005) also allows them to make predictions about the distribution of chem-
+ical abundances of the Milky Way outer halo stars. Font et al. (2006) ﬁnd
+that the mean metallicity of the halo depends on the accretion history, and
+that gradients in metallicity of ∼0.5 dex are not necessarily uncommon in
+their accreted halos. They predict that the stars in the outer halo should have
+lower [α/Fe] than stars in the inner Galaxy. In their models, the most metal-
+poor stars are located in the inner 10 kpc, which at face value is opposite to
+the trend suggested by Carollo et al. (2007).
+The hybrid cosmological approach of De Lucia & Helmi (2008) combines
+elements of the work of Diemand et al. (2005) and Bullock & Johnston (2005).
+These authors use a high-resolution cosmological simulation of the formation
+of a Milky Way-sized dark matter halo coupled to a semi-analytic galaxy for-
+mation code, to obtain insights into the global evolution of the Galaxy. By
+identifying the most bound particles of substructures in the simulation with
+the luminous cores of satellite galaxies, they are able to follow the structure
+but also the metallicity and age distribution of the “simulated” stellar halo.
+As shown in Figure 14, also De Lucia & Helmi (2008) ﬁnd that the stellar
+halo is much more centrally concentrated than the dark matter halo. Further-
+more, their inner halo is dominated by higher metallicity “stars”, vis-a-vis
+the outer halo, with the transition occurring at ∼10−15 kpc from the center,
+reminiscent of the ﬁndings of Carollo et al. (2007).
+6.2 Current status
+The discussion above shows that it is possible to reproduce the density proﬁle
+and shape of the inner stellar halo in a model in which all stars were formed in
+situ as in Samland & Gerhard (2003), as well as in a model in which all stars
+were accreted as in Diemand et al. (2005), Bullock & Johnston (2005) and
+De Lucia & Helmi (2008). Furthermore, in all the models discussed here the
+oldest stars are located in the spheroid (halo+bulge), which implies that their
+age distribution and the broad chemical properties (low mean metallicity and
+α-enhancement) are also likely to be reproduced. Nevertheless, much more
+work is required to understand the expected trends as well as predictions
+for the detailed chemical abundance patterns that have now been observed
+in such exquisite detail for nearby halo stars. The work of Chiappini et al.
+(1997) is an excellent example of how this can be done, but it needs to be
+embedded in a more cosmological framework.
+The discussion in the previous paragraphs also shows that we do not re-
+ally possess a clear view of what are the exact predictions of the hierarchical
+paradigm on the scales of the Milky Way and its satellites. The relatively
+simplistic and coarse fully cosmological simulations are limited in their pre-
+dictive power at the level of detail that is required for the Milky Way galaxy.
+The semi-analytic approach of combining high-resolution dark matter simu-
+lations with phenomenological descriptions of the evolution of the baryonic
+
+
+## Page 34
+
+
+34
+Amina Helmi
+Fig. 14 Evolution of the dark matter distribution in a high-resolution cosmolog-
+ical simulation of the formation of a Milky Way-like halo by Stoehr et al. (2002).
+By identifying the cores of dark matter substructures with luminous satellites,
+De Lucia & Helmi (2008) can follow the formation and evolution of a spheroidal
+component, which would correspond to the stellar halo. For example, by analyzing
+where these objects deposit their debris, they can study the link between the chem-
+istry and the structure of the stellar halo. This is shown in the bottom right panel,
+where the green and orange curves denote the surface density proﬁle of metal-poor
+and metal-rich “stars”, respectively. In comparison, the dashed black curve cor-
+responds to the dark matter halo, which shows a signiﬁcantly more shallow and
+extended distribution.[From De Lucia & Helmi (2008). Courtesy of Gabriella de
+Lucia.]
+
+
+## Page 35
+
+
+The stellar halo of the Galaxy
+35
+Fig. 15 Distribution of angular momentum for a sample of nearby halo stars. The
+color-coding indicates diﬀerent metallicity ranges. Stars with orbits conﬁned to the
+plane (Lperp =
+p
+L2x + L2y < 350 kpc km s−1 ) tend to have a net prograde motion
+(corresponding to Vφ ∼50 km s−1 ), and their distribution is very smooth in this
+space. Stars with highly-inclined orbits (Lperp > 350 kpc km s−1 ) have no net
+rotation and their distribution is quite lumpy, indicative of the presence of merger
+debris. It is also interesting to note that this “higher halo” is more metal-poor on
+average. [From Morrison et al. (2008a). Courtesy of Heather Morrison.]
+components, is a powerful and promising technique, that will be developed
+much further in the near future (see e.g. De Lucia & Helmi 2008). The ﬁrst
+attempts by Bullock & Johnston (2005) at modeling the outer halo have
+yielded extremely interesting results, despite the fact that the growth of the
+Galaxy is followed under rather ideal conditions.
+From the observational point of view, there seems to be clear consensus
+that the outer halo is very lumpy. This would imply that there is little room
+for a component predominantly formed via a dissipative collapse.
+In the case of the inner stellar halo, the situation is much less clear. Re-
+cently, Morrison et al. (2008a) analyzed the distribution of angular momen-
+tum for a sample of nearby metal-poor halo stars with accurate velocities.
+These authors found a break in the properties of these stars depending on
+their angular momentum as shown in Figure 15. The distribution of angu-
+lar momentum is clearly not smooth, in particular for the higher halo (stars
+on highly inclined orbits), which suggests some amount of accretion in the
+build-up of this component.
+Perhaps the most direct way of testing the amount of “dry” (i.e. dis-
+sipationless) accretion or mergers that have contributed to the stellar halo
+
+
+## Page 36
+
+
+36
+Amina Helmi
+near the Sun, is to ﬁnd the debris streams that are expected to be present.
+The granularity in the velocity distribution of stars should be measurable,
+if present, in large catalogs of halo stars (> 5000) with very accurate kine-
+matics (errors ≤10 km s−1 ). The only processes by which these streams
+are expected to diﬀuse away are through collisions, or if the gravitational
+potential is (or has been) extremely chaotic. Galaxies are essentially col-
+lisionless systems (Binney & Tremaine 1987), and the eﬀect of dark mat-
+ter substructure on the coherence of tidal streams has been shown to be
+very small (Johnston et al. 2002). Therefore one may only need to worry
+about the chaotic nature of the potential. First studies performed on fully
+cosmological dark matter simulations show evidence that the number of
+stellar streams expected near the Sun is the same as in steady-state mod-
+els of the accretion of satellite galaxies onto a ﬁxed gravitational potential
+(Helmi, White & Springel 2003). The Galactic bar may also be a source of or-
+bital diﬀusion. This triaxial potential is known to induce resonances amongst
+stars on low inclination orbits (Dehnen 2001; Famaey et al. 2005), and may
+well cause streams to become more diﬀuse in time, and hence harder to re-
+cover.
+Another promising approach is that of chemical tagging, i.e. stars born
+within the same molecular cloud should have very similar chemical abun-
+dances as shown by De Silva et al. (2007). We have yet to understand how
+much scatter there can be in a galaxy that was accreted very early on, and in
+particular, if similar degrees of coherence in the abundances are expected for
+such (much larger) systems. For example, dwarf galaxies today show metal-
+licity spreads of the order of 0.5 dex (Mateo 1998). Although one expects
+stars in a stream to come from a small region of phase-space, it is unclear
+how diﬀerent their chemical abundances may be. For example, a satellite
+that has been disrupted only relatively recently will give rise to streams that
+are less chemically homogeneous than one whose streams are dynamically
+older. In the ﬁrst case, the metallicity spread will likely reﬂect that of the
+whole galaxy, while in the second case it may reﬂect only that of a small por-
+tion of the system. In the limit of an inﬁnite amount of time, the stars in a
+given location on a stream should have all been born within the same molec-
+ular cloud, and hence have the same exact abundances, provided diﬀusion
+processes are unimportant.
+An accurate measurement of the ages of stars in the halo would yield
+unique insights. This would give a very robust test of the degree of dissipation
+involved in the formation of the stellar halo. For example, if the stars were
+formed predominantly during gas-rich mergers, the star formation history
+of the halo would have been largely bursty. In this case, each burst would
+be associated to each one of those gas-rich merger events. If on the other
+hand, the halo formed only via the accretion of a few objects containing
+some stars, each of these objects will have had a diﬀerent star formation
+history, and hence a larger spread in ages might be expected. Note that in
+the limit in which gas-rich mergers have taken place successively on a very
+short timescale, such a model will be essentially indistinguishable from the
+original Eggen, Lynden-Bell & Sandage (1962) proposal for the formation of
+the inner halo, even if the ΛCDM model is correct.
+
+
+## Page 37
+
+
+The stellar halo of the Galaxy
+37
+7 Halos in other galaxies
+Stellar halos are generally such low surface brightness components of galaxies
+that detecting these beyond the Milky Way is a major challenge. For example,
+Morrison (1993) estimate the surface brightness of the Galactic halo at the
+solar radius to be ΣV ∼27.7 mag/arcsec2.
+Direct testimony of the diﬃculty of such an enterprise is given by M31.
+Its spheroid was long believed to be a simple extension of its bulge, since
+“metal-rich” stars were found even out to a radius of 30 kpc following a de
+Vaucouleurs proﬁle (e.g. Mould & Kristian 1986; Brown et al. 2003). How-
+ever, Kalirai et al. (2006) and Chapman et al. (2006) recently discovered a
+metal-poor halo out to 160 kpc that is similar to that of the Galaxy, both in
+terms of its metallicity, radial proﬁle, as well as the amount of substructure.
+Our external point of view has allowed the study of this halo in a much more
+global fashion (Ibata et al. 2007), and has provided spectacular images as
+shown in Figure 16. Just as for the Milky Way, in the halo of M31 we ﬁnd a
+giant stream as well as a wealth of fainter substructures at surface brightness
+levels of ∼30 mag/arcsec2.
+M33 seems to have a halo much like that of the Milky Way and M31,
+with a similar metallicity [Fe/H] ∼−1.6 dex, despite its smaller total mass
+(McConnachie et al. 2006). There is also some evidence that the Large Mag-
+ellanic Cloud may have a stellar halo (Minniti et al. 2003). However, the
+origin of this halo is less clear because the LMC appears to have been tidally
+perturbed by the Milky Way (its disk is asymmetric and fairly thick as shown
+by van der Marel 2001; van der Marel et al. 2002). Such strong tides could
+give rise to a halo-like component (Mayer et al. 2001).
+Beyond the Local Group, there have been a few studies of halos using
+surface brightness photometry. This work is very challenging because it re-
+quires characterizing a component several magnitudes below the sky level.
+A few halos have been detected in this way (e.g. NGC5907, NGC3115, see
+Morrison et al. (1994); Sackett et al. (1994)) as well as various tidal features
+(Zheng et al. 1999; Pohlen et al. 2004). An interesting detection was obtained
+by Zibetti et al. (2004) who, stacking images of 1047 edge-on disk galaxies,
+were able to measure a diﬀuse moderately ﬂattened stellar halo, well de-
+scribed by a power law r−3 density proﬁle.
+An alternative, possibly more powerful approach is to study the resolved
+stellar populations in the outskirts of (disk) galaxies, as frequently done in
+the Local Group. Using the Advanced Camera for Surveys (ACS) on HST
+Mouhcine et al. (2005b) and de Jong et al. (2007) have been able to resolve
+stars a few magnitudes below the tip of the red giant branch for a sample
+of nearby disk galaxies (located at distances between 4 and 14 Mpc). For
+example, Mouhcine et al. (2005b) ﬁnd that the stellar halos are generally
+old, and typically more metal-poor than the main galaxy. These authors also
+ﬁnd large variety in their properties. An example is NGC891, often referred
+to as the twin of the Milky Way, whose halo contains a much larger spread in
+stellar populations than is apparent for the Milky Way at a similar distance
+(Mouhcine et al. 2007). On the other hand, Mouhcine et al. (2005a) have
+suggested that there is a correlation between the stellar halo metallicity and
+
+
+## Page 38
+
+
+38
+Amina Helmi
+Fig. 16 View of the halo of M31. Red, green and blue show, respectively, stars
+with −0.7 < [Fe/H] < 0, −1.7 < [Fe/H] < −0.7 and −3.0 < [Fe/H] < −1.7. The
+diﬀerences in stellar populations between the Giant Stream and the several minor
+axis streams can be seen as striking diﬀerences in color. At the center there is a
+scaled image of the central of M31. [From Ibata et al. (2007). Courtesy of Rodrigo
+Ibata. Reproduced with permission of the AAS.]
+the parent galaxy luminosity. Our Galaxy falls oﬀthis metallicity-luminosity
+relation by more than 1 dex, i.e. the Galactic stellar halo would be unusual,
+or too metal-poor (see also Hammer et al. 2007, for a similar statement).
+Some caution is necessary when interpreting these observations, espe-
+cially for the following two reasons. First, in the absence of spectroscopic
+measurements, the chemical properties of the stars cannot be determined re-
+liably because of the well-known age-metallicity degeneracy (a clear example
+of which is the dwarf galaxy Carina, Koch et al. (2006)). Secondly, stellar
+halos can be very lumpy, particularly at very low surface brightness levels,
+as shown in Figures 4 and 16. ACS/HST has a small ﬁeld of view, implying
+that the results are quite sensitive to small-scale substructure. It is not un-
+likely, given what we know about the halos of the Milky Way and M31, that
+such a ﬁeld would be dominated by just one stream such as for example the
+Sagittarius or the Giant stream around Andromeda. It may be misleading
+to correlate the properties of a dynamically young component such as the
+
+
+## Page 39
+
+
+The stellar halo of the Galaxy
+39
+(outer) stellar halo, with the global properties of the parent galaxy, until a
+more global view of these halos is available (Ferguson 2007).
+The avenue of mapping and resolving the stellar halos of nearby disk
+galaxies is clearly a very worthwhile goal, and one that should be pursued in
+the near future. The advent of Extremely Large Telescopes (ELTs) should
+allow wide-ﬁeld surveys of the halos of nearby galaxies (also of earlier type),
+perhaps out to the Virgo cluster. A signiﬁcant addendum would be spec-
+troscopy, both to determine metallicities as well as the dynamics in the out-
+skirts of these objects. In the hierarchical paradigm all galaxies should have
+experienced mergers, and most frequently minor mergers because most of
+the galaxies in the Universe are dwarfs. This implies that their debris should
+end up in a stellar halo, and so this component is expected to be ubiquitous.
+Therefore, unique insights into the assembly histories of galaxies as well as
+on their dynamics can be retrieved by studying their stellar halos.
+8 Epilogue
+The assembly process of a galaxy leaves imprints in the spatial, kinematical,
+age and chemical distribution of its stars. We have argued here that the
+Galactic halo should hold some of the best preserved fossils of the formation
+history of our Galaxy.
+A stellar halo may well be the most common galaxy component and a
+natural outcome of the hierarchical build-up of galactic systems. For example,
+mergers are expected to deposit debris in a spheroidal like conﬁguration. In
+the case of our Galaxy, both the halo ﬁeld population, as well as the globular
+clusters (Cˆot´e et al. 2000) may have such an origin, as evidenced by e.g. the
+Sgr dwarf (Bellazzini, Ferraro & Ibata 2003; Geisler et al. 2007). Just like for
+stars, it is also possible that some fraction of the globular clusters formed in
+situ, perhaps during early gas-rich mergers that were presumably extremely
+common in the past (Kravtsov & Gnedin 2005). By studying the dynamical
+properties of the globular cluster population, and linking these to those of the
+ﬁeld stars, such formation scenarios can be tested (e.g. Casetti-Dinescu et al.
+2007).
+At present it is unclear what fraction of the Galaxy’s stellar halo has been
+built via dissipationless merging, and which by the gravitational collapse of
+one or more gas clouds (i.e. via a monolithic-like collapse or during gas rich
+mergers). There is signiﬁcant evidence of substructure in the form of streams
+in the outer halo, but this is still at a rather qualitative level (although see
+Bell et al. 2008). It is also very likely that there is currently a bias towards
+detecting the highest surface brightness features, which presumably corre-
+spond to the most recent accretion events of relatively massive satellites.
+Deep wide-ﬁeld photometric surveys should allow us to quantify the amount
+of substructure in the outer halo in an unbiased manner, especially if ac-
+companied by spectroscopic surveys. Accurate photometry to enable quick
+and easy identiﬁcation of suitable halo tracers are a must. Planned surveys
+such as VISTA12, the OmegaCam on the VLT Survey Telescope, SkyMap-
+12 http://www.vista.ac.uk
+
+
+## Page 40
+
+
+40
+Amina Helmi
+per, PanStarrs13 and the Large Synoptic Survey Telescope (LSST14) will
+signiﬁcantly contribute to this enterprise. Wide-ﬁeld imaging of nearby disk
+galaxies as ongoing with HST (de Jong et al. 2007), and as discussed for the
+ELTs, will allow us to establish the commonality of such merger events.
+The dynamical timescales are much shorter in the inner regions of galax-
+ies, which implies that halo substructures are no longer apparent in physical
+space, but become very prominent in velocity space. For example, a galaxy
+of the size of the Small Magellanic Cloud should have contributed ∼50−100
+streams/cold moving groups near the Sun if accreted roughly 10 Gyr ago
+(Helmi & White 1999). This implies that full phase-space information is ab-
+solutely vital to recover the ∼500 streams predicted to be present in the
+inner stellar halo if this had been built up only via “dry” mergers. Current
+datasets are too small, or only have a limited amount of suﬃciently accurate
+phase-space information to allow testing such a scenario. Of course this im-
+plies that it is still possible that the halo formed largely during a gas rich
+(merger) phase.
+The deﬁnitive understanding of the structure and history of the Galac-
+tic stellar halo is likely to be established only via a “multi-dimensional” ap-
+proach. Knowledge of the stars kinematics complemented with their chemical
+abundances and ages should allow us to address questions such as:
+1. What fraction of the halo has been built via accretion? How does the
+importance of this process change with distance from the Galactic center?
+2. When was the halo in place?
+3. How many accreted objects have contributed to build up our Galaxy?
+Were these objects major contributors of cold gas, that later produced
+the disk? Is there an evolutionary link between the disk and halo?
+4. What is the relation between the bulge and the stellar halo? The bulge is
+as old as the halo but more metal-rich, and pressumably built partly by
+a dynamical instability which led to the bar. Yet, a fraction of its stars
+may have the same origin as some halo stars.
+5. What were the properties of the accreted objects? What were their masses,
+their star formation and chemical histories? How do they compare to the
+small galaxies we see around us today?
+6. What is the dynamical history of our Galaxy? How did its mass and
+gravitational potential evolve in time?
+The answers to these and many other questions will all be within reach
+in the coming decade, when large datasets with full phase-space and astro-
+physical information become available, i.e. in the era of Gaia.
+Acknowledgements This review is dedicated to Manuel and Mariano. Without
+their support and their patience it would have never come to an end! I am grateful
+to Michael Perryman for suggesting this review, and for giving me a deadline (to
+try) to meet. NOVA, and NWO through the VIDI program are acknowledged for
+ﬁnancial support. Many friends and colleagues have contributed to this review with
+thoughts, inspiration, ﬁgures and feedback. All the ﬁgures are examples of this. I
+would like to thank them and especially mention here Giuseppina Battaglia, Paul
+13 http://pan-starrs.ifa.hawaii.edu/public/
+14 http://www.lsst.org/
+
+
+## Page 41
+
+
+The stellar halo of the Galaxy
+41
+Harding, Vanessa Hill, Mariano M´endez, Heather Morrison, Michael Perryman, An-
+nie Robin, Laura Sales, Else Starkenburg and Eline Tolstoy. Dimitry Rotstein and
+Norbert Christlieb are gratefully acknowledged for bringing up some inaccuracies
+in the printed version of this review.
+References
+Abadi, M. G., Navarro, J. F., Steinmetz, M. & Eke, V. R. 2003, ApJ, 591, 499
+Abadi, M. G., Navarro, J. F. & Steinmetz, M. 2006, MNRAS, 365, 747
+Abel, T., Bryan, G. L. & Norman, M. L. 2000, ApJ, 540, 39
+Adelman-McCarthy, J. K., et al. 2007, ApJS, 172, 634
+Alcock, C., et al. (MACHO coll.) 2000b, ApJ, 542, 281
+Arnould, M., Goriely, S. & Takahashi, K. 2007, Phys. Rep., 450, 97
+Ashman, K. M. & Zepf S. E. 1998, Globular Cluster Systems, (Cambridge: Cam-
+bridge University Press)
+Bahcall J. N. & Soneira R. M. 1980, ApJS, 44, 73
+Battaglia, G., et al. 2005, MNRAS, 364, 433
+Battaglia, G., et al. 2006, MNRAS, 370, 1055
+Barklem, P. S., et al. 2005, A&A, 439, 129
+Baumgardt, H., Kroupa, P., & Parmentier, G. 2008, MNRAS, 101
+Beers, T. C., et al. 2000, AJ, 119, 2866
+Beers, T. C. & Christlieb, N. 2005, ARA&A, 43, 531
+Beers, T. C., et al. 2006, Exploiting Large Surveys for Galactic Astronomy, 26th
+meeting of the IAU, Joint Discussion 13, 22-23 August 2006, Prague, Czech
+Republic, JD13, #26, 13
+Bekki, K. & Chiba, M. 2001, ApJ, 558, 666
+Bell, E. F., et al. 2008, ApJ, 680, 295
+Bellazzini, M., Ferraro, F. R. & Ibata, R. 2003, AJ, 125, 188
+Belokurov, V., Evans, N. W., Irwin, M. J., Hewett, P. C. & Wilkinson, M. I. 2006a,
+ApJ, 637, L29
+Belokurov, V., et al. 2006b, ApJ, 642, L137
+Belokurov, V., et al. 2007a, ApJ, 654, 897
+Belokurov, V., et al. 2007b, ApJ, 657, L89
+Belokurov, V., et al. 2007c, ApJ, 658, 337
+Benson, A. J. 2005, MNRAS, 358, 551
+Bica, E., Bonatto, C., Barbuy, B. & Ortolani, S. 2006, A&A, 450, 105
+Binney, J. & May, A. 1986, MNRAS, 218, 743
+Binney, J. & Merriﬁeld, M. (1998) “Galactic Astronomy”. Princeton University
+Press, Princeton, Ch. 3 – 5
+Binney, J., & Tremaine, S. (1987) “Galactic Dynamics”. Princeton University Press,
+Princeton, Ch. 4
+Bland-Hawthorn, J., & Freeman, K. 2000, Science, 287, 79
+Bromm, V., Coppi, P. S. & Larson, R. B. 1999, ApJ, 527, L5
+Brook, C. B., Kawata, D., Gibson, B. K. & Flynn, C. 2003, ApJ, 585, L125
+Brook, C. B., Kawata, D., Scannapieco, E., Martel, H. & Gibson, B. K. 2007, ApJ,
+661, 10
+Brown, T. M., et al. 2003, ApJ, 592, L17
+Bullock, J. S., Kravtsov, A. V. & Weinberg, D. H. 2000, ApJ, 539, 517
+Bullock, J. S., Kravtsov, A. V. & Weinberg, D. H. 2001, ApJ, 548, 33
+Bullock, J. S. & Johnston, K. V. 2005, ApJ, 635, 931
+Carretta, E., Gratton, R. G. & Sneden, C. 2000, A&A, 356, 238
+Carney, B. W., Laird, J. B., Latham, D. W. & Aguilar, L. A. 1996, AJ, 112, 668
+Carollo, D., et al. 2007, Nature, 450, 1020
+Casetti-Dinescu, D. I., Girard, T. M., Herrera, D., van Altena, W. F., L´opez, C. E.,
+& Castillo, D. J. 2007, AJ, 134, 195
+Cayrel, R., et al. 2001, Nature, 409, 691
+Cayrel, R., et al. 2004, A&A, 416, 1117
+
+
+## Page 42
+
+
+42
+Amina Helmi
+Cescutti, G., Fran¸cois, P., Matteucci, F., Cayrel, R. & Spite, M. 2006, A&A, 448,
+557
+Chaboyer, B. 1998, Phys. Rep., 307, 23
+Chapman, S. C., et al. 2006, ApJ, 653, 255
+Chen, B., et al. 2001, ApJ, 553, 184
+Chiappini, C., Matteucci, F. & Gratton, R. 1997, ApJ, 477, 765
+Chiba, M. & Yoshii, Y. 1998, AJ, 115, 168
+Chiba, M. & Beers, T. C. 2000, AJ, 119, 2843
+Chiba, M. & Beers, T. C. 2001, ApJ, 549, 325
+Christlieb, N. 2006, In: Stellar Evolution at Low Metallicity: Mass Loss, Explosions,
+Cosmology, ASP Conference Series, 353, 271
+Clewley, L., et al. 2005, MNRAS, 362, 349
+Clewley, L. & Kinman, T. D. 2006, MNRAS, 371, L11
+Cohen, J. G., et al. 2004, ApJ, 612, 1107
+Cˆot´e, P., Marzke, R. O., West, M. J. & Minniti, D. 2000, ApJ, 533, 869
+De Angeli, F., et al. 2005, AJ, 130, 116
+Dehnen, W. 2000, AJ, 119, 800
+De Lucia, G. & Helmi, A. 2008, ArXiv e-prints, 804, arXiv:0804.2465 (MNRAS, in
+press)
+De Silva, G. M., et al. 2007, AJ, 133, 1161
+de Jong, R. S., Radburn-Smith, D. J. & Sick, J. N. 2007, ArXiv e-prints, 710,
+arXiv:0710.5511
+Diemand, J., Madau, P., & Moore, B. 2005, MNRAS, 364, 367
+Digby, A. P., Hambly, N. C., Cooke, J. A., Reid, I. N. & Cannon, R. D. 2003,
+MNRAS, 344, 583
+Dinescu, D. I., Girard, T. M., & van Altena, W. F. 1999, AJ, 117, 1792
+Dohm-Palmer, R. C., et al. 2001, ApJ, 555, L37
+Dolphin, A. E., Weisz, D. R., Skillman, E. D. & Holtzman, J. A. 2005, ArXiv
+Astrophysics e-prints, arXiv:astro-ph/0506430
+Duﬀau, S., et al. 2006, ApJ, 636, L97
+Eggen O.J., Lynden-Bell D., Sandage A.R., 1962, ApJ, 136, 748
+Famaey, B., et al. 2005, A&A, 430, 165
+Fellhauer, M., et al. 2006, ApJ, 651, 167
+Ferguson, A. 2007, In: From Stars to Galaxies: Building the Pieces to Build Up the
+Universe. ASP Conference Series, 374, 239
+Flynn, C., Gould, A. & Bahcall, J. N. 1996, ApJ, 466, L55
+Font, A. S., Johnston, K. V., Bullock, J. S. & Robertson, B. E. 2006, ApJ, 646, 886
+Fran¸cois, P. et al. 2007, A&A, 476, 935
+Frebel, A., et al. 2006, ApJ, 652, 1585
+Frebel, A., et al. 2007, ApJ, 660, L117
+Freeman, K. C. 1996, In: Formation of the Galactic Halo...Inside and Out, ASP
+Conference Series, 92, 3
+Freeman K. C. & Bland-Hawthorn J., 2002, ARA&A, 40, 487
+Frenk, C. S., & White, S. D. M. 1982, MNRAS, 198, 173
+Fuchs, B. & Jahreiß, H. 1998, A&A, 329, 81
+Fulbright, J. P. 2002, AJ, 123, 404
+Gao L. et al. 2004, MNRAS, 355, 819
+Geisler, D., Wallerstein, G., Smith, V. V. & Casetti-Dinescu, D. I. 2007, PASP,
+119, 939
+Gilmore, G. & Reid, N. 1983, MNRAS, 202, 1025
+Gilmore, G., Wyse, R. F. G., & Kuijken, K. 1989, ARA&A, 27, 555
+Gilmore, G. & Wyse, R. F. G. 1998, AJ, 116, 748
+Gnedin, N. Y. & Kravtsov, A. V. 2006, ApJ, 645, 1054
+G´omez-Flechoso, M. A., Fux, R. & Martinet, L. 1999, A&A, 347, 77
+Goriely, S. & Siess, L. 2005, From Lithium to Uranium: Elemental Tracers of Early
+Cosmic Evolution, 228, 451
+Gould, A., Flynn, C. & Bahcall, J. N. 1998, ApJ, 503, 798
+Gould, A. 2003, ApJ, 592, L63
+
+
+## Page 43
+
+
+The stellar halo of the Galaxy
+43
+Grebel, E. K. 2000, In: Star Formation from the Small to the Large Scale, ESA SP
+445, 87
+Grillmair, C. J., Freeman, K. C., Irwin, M. & Quinn, P. J. 1995, AJ, 109, 2553
+Grillmair, C. J. 2006a, ApJ, 651, L29
+Grillmair, C. J. 2006b, ApJ, 645, L37
+Grillmair, C. J., & Johnson, R. 2006, ApJ, 639, L17
+Hambly, N. C., et al. 2001, MNRAS, 326, 1279
+Hammer, F., Puech, M., Chemin, L., Flores, H. & Lehnert, M. D. 2007, ApJ, 662,
+322
+Hansen, B. M. S. & Liebert, J. 2003, ARA&A, 41, 465
+Harding, P., et al. 2001, AJ, 122, 1397
+Harris, W. E. 1976, AJ, 81, 1095
+Hartwick, F. D. A. 1987, NATO ASIC Proc. 207: The Galaxy, 281
+Hartwick, F. D. A. 2000, AJ, 119, 2248
+Heger, A. & Woosley, S. E. 2002, ApJ, 567, 532
+Helmi, A. & White, S. D. M. 1999, MNRAS, 307, 495
+Helmi, A., White, S. D. M., de Zeeuw, P. T. & Zhao, H. 1999, Nature, 402, 53
+Helmi, A. & de Zeeuw, P. T. 2000, MNRAS, 319, 657
+Helmi, A. & White, S. D. M. 2001, MNRAS, 323, 529
+Helmi, A., White, S. D. M. & Springel, V. 2002, Phys. Rev. D, 66, 063502
+Helmi, A., White, S. D. M. & Springel, V. 2003, MNRAS, 339, 834
+Helmi, A., Navarro, J. F., Meza, A., Steinmetz, M. & Eke, V. R. 2003, ApJ, 592,
+L25
+Helmi, A. 2004a, MNRAS, 351, 643
+Helmi, A. 2004b, ApJ, 610, L97
+Helmi, A., et al. 2006, ApJ, 651, L121
+Hill, V., et al. 2002, A&A, 387, 560
+Hill, V., et al. 2008, in preparation
+Ibata, R., Gilmore, G. & Irwin, M. J. 1994, Nature, 370, 194
+Ibata, R., Irwin, M., Lewis, G. F. & Stolte, A. 2001, ApJ, 547, L133
+Ibata, R., Irwin, M. J., Lewis, G. F., Ferguson, A. M. N. & Tanvir, N. 2003,
+MNRAS, 340, L21
+Ibata, R., et al. 2007, ApJ, 671, 1591
+Ivans, I. I., et al. 2003, ApJ, 592, 906
+Ivezi´c, ˇZ., et al. 2000, AJ, 120, 963
+Johnston, K. V., Hernquist, L. & Bolte, M. 1996, ApJ, 465, 278
+Johnston, K. V., Majewski, S. R., Siegel, M. H., Reid, I. N. & Kunkel, W. E. 1999,
+AJ, 118, 1719
+Johnston, K. V., Spergel, D. N. & Haydn, C. 2002, ApJ, 570, 656
+Johnston, K. V., Law, D. R. & Majewski, S. R. 2005, ApJ, 619, 800
+Juric, M., et al. 2008, ApJ, 673, 864
+Kalirai, J. S., et al. 2006, ApJ, 648, 389
+Kang X., Mao S., Ga o L. & Y.P. Jing 2005, A&A, 437, 383
+Kapteyn, J. C. & van Rhijn P. J. 1920, ApJ, 52, 23
+Kauﬀmann, G., White, S. D. M. & Guiderdoni, B. 1993, MNRAS, 264, 201
+Kepley, A. A., et al. 2007, AJ, 134, 1579
+Kinman, T. D., Wirtanen, C. A. & Janes, K. A. 1966, ApJS, 13, 379
+Kinman, T. D., Cacciari, C., Bragaglia, A., Buzzoni, A. & Spagna, A. 2007, MN-
+RAS, 375, 1381
+Klypin, A., Kravtsov, A. V., Valenzuela, O. & Prada, F. 1999, ApJ, 522, 82
+Klypin, A., Zhao, H. & Somerville, R. S. 2002, ApJ, 573, 597
+Koch, A., et al. 2006, AJ, 131, 895
+Koposov, S., et al. 2007, ArXiv e-prints, 706, arXiv:0706.2687
+Kravtsov, A. V., Gnedin, O. Y., & Klypin, A. A. 2004, ApJ, 609, 482
+Kravtsov, A. V. & Gnedin, O. Y. 2005, ApJ, 623, 650
+Kroupa P., Theis C. & Boily M. 2005, A&A, 431, 517
+Layden, A. C., Hanson, R. B., Hawley, S. L., Klemola, A. R. & Hanley, C. J. 1996,
+AJ, 112, 2110
+Layden, A. C. 1998, In: Galactic Halos, ASP Conference Series, 136, 14
+
+
+## Page 44
+
+
+44
+Amina Helmi
+Layden, A. C., & Sarajedini, A. 2000, AJ, 119, 1760
+Law, D. R., Johnston, K. V. & Majewski, S. R. 2005, ApJ, 619, 807
+Lee, Y.-W. et al. 1999, Nature, 402, 55
+Lee, Y.-W., Gim, H. B., & Casetti-Dinescu, D. I. 2007, ApJ, 661, L49
+Lemon, D. J., Wyse, R. F. G., Liske, J., Driver, S. P. & Horne, K. 2004, MNRAS,
+347, 1043
+Letarte, B., et al. 2006, A&A, 453, 547
+Letarte, B., 2007, PhD thesis. University of Groningen, The Netherlands.
+Li Y.S. & Helmi A., 2008, MNRAS 385, 1365
+Libeskind N. et al. 2005, MNRAS, 363, 146
+Lindegren, L. 2005, In: The Three-Dimensional Universe with Gaia, ESA SP 576,
+29
+Lucatello, S., Gratton, R. G., Beers, T. C. & Carretta, E. 2005, ApJ, 625, 833
+Lynden-Bell, D., & Lynden-Bell, R. M. 1995, MNRAS, 275, 429
+Mackey, A. D. & Gilmore, G. F. 2004, MNRAS, 355, 504
+Mac Low, M.-M. & Ferrara, A. 1999, ApJ, 513, 142
+Majewski, S. R. 1993, ARA&A, 31, 575
+Majewski, S. R., Munn, J. A. & Hawley, S. L. 1996, ApJ, 459, L73
+Majewski, S. R., et al. 1999, AJ, 118, 1709
+Majewski, S. R., Skrutskie, M. F., Weinberg, M. D. & Ostheimer, J. C. 2003, ApJ,
+599, 1082
+Martin, N. F., et al. 2004, MNRAS, 348, 12
+Martin, N. F., Ibata, R. A., Chapman, S. C., Irwin, M. & Lewis, G. F. 2007,
+MNRAS, 380, 281
+Mart´ınez-Delgado, D., Aparicio, A., G´omez-Flechoso, M. ´A., & Carrera, R. 2001,
+ApJ, 549, L199
+Mart´ınez-Delgado, D., G´omez-Flechoso, M. ´A., Aparicio, A., & Carrera, R. 2004,
+ApJ, 601, 242
+Mart´ınez-Delgado, D., et al. 2005, ApJ, 633, 205
+Mateo, M. L. 1998, ARA&A, 36, 435
+Mateo, M., Olszewski, E. W. & Morrison, H. L. 1998, ApJ, 508, L55
+Matteucci, F. 2001, Astrophysics and Space Science Library, 253,
+Matteucci, F. & Recchi, S. 2001, ApJ, 558, 351
+Mayer, L., et al. 2001, ApJ, 559, 754
+McConnachie, A. W., et al. 2006, ApJ, 647, L25
+McWilliam, A. 1997, ARA&A, 35, 503
+Metz M, Kroupa P. & Jerjen H. 2007, MNRAS, 374, 1125
+Minniti, D., et al. 2003, Science, 301, 1508
+Moitinho, A., V´azquez, R. A., Carraro, G., Baume, G., Giorgi, E. E., & Lyra, W.
+2006, MNRAS, 368, L77
+Momany, Y., et al. 2004, A&A, 421, L29
+Momany, Y., et al. 2006, A&A, 451, 515
+Moore, B., et al. 1999, ApJ, 524, L19
+Moore, B. 2001, In: 20th Texas Symposium on relativistic astrophysics, AIP con-
+ference proceedings, 586, 73
+Moore, B., Diemand, J., Madau, P., Zemp, M. & Stadel, J. 2006, MNRAS, 368,
+563
+Morrison, H. L. 1993, AJ, 106, 578
+Morrison, H. L., Boroson, T. A. & Harding, P. 1994, AJ, 108, 1191
+Morrison, H. L., et al. 2000, AJ, 119, 2254
+Morrison, H. L., et al. 2008a, ArXiv e-prints, 804, arXiv:0804.2448
+Morrison H. et al. (SDSS), 2008b, in preparation
+Mouhcine, M., Ferguson, H. C., Rich, R. M., Brown, T. M. & Smith, T. E. 2005a,
+ApJ, 633, 821
+Mouhcine, M., Rich, R. M., Ferguson, H. C., Brown, T. M. & Smith, T. E. 2005b,
+ApJ, 633, 828
+Mouhcine, M., Rejkuba, M. & Ibata, R. 2007, MNRAS, 381, 873
+Mould, J. & Kristian, J. 1986, ApJ, 305, 591
+Navarro, J.F., Abadi M. & Steinmetz, M. 2004, ApJ, 613, L41
+
+
+## Page 45
+
+
+The stellar halo of the Galaxy
+45
+Navarro, J.F., Frenk, C.S. & White, S.D.M., 1996, ApJ, 462, 563
+Newberg, H. J., et al. 2002, ApJ, 569, 245
+Newberg, H. J. & Yanny, B. 2006, Journal of Physics Conference Series, 47, 195
+Newberg, H. J., et al. 2007, ApJ, 668, 221
+Nissen, P. E., Gustafsson, B., Edvardsson, B. & Gilmore, G. 1994, A&A, 285, 440
+Nissen, P. E. & Schuster, W. J. 1997, A&A, 326, 751
+Odenkirchen, M., et al. 2001, ApJ, 548, L165
+Paczynski B. 1986, ApJ, 304, 1
+Pe˜narrubia, J., et al. 2005, ApJ, 626, 128
+Perryman, M. A. C., et al. 2001, A&A, 369, 339
+Phleps, S., Drepper, S., Meisenheimer, K. & Fuchs, B. 2005, A&A, 443, 929
+Piatek, S., et al. 2007, AJ, 133, 818
+Piotto, G. et al. 2007, ApJ, 661, L53
+Pohlen, M., et al. 2004, In: Satellites and Tidal Streams, ASP Conference Series,
+327, 288
+Preston, G. W., Shectman, S. A. & Beers, T. C. 1991, ApJ, 375, 121
+Quinn, P. J. 1984, ApJ, 279, 596
+Ratnatunga, K. U. & Freeman, K. C. 1985, ApJ, 291, 260
+Robin, A. C., Reyl´e, C. & Cr´ez´e, M. 2000, A&A, 359, 103
+Robin, A. C., et al. 2007, ApJS, 172, 545
+Rocha-Pinto, H. J., Majewski, S. R., Skrutskie, M. F., Crane, J. D. & Patterson,
+R. J. 2004, ApJ, 615, 732
+Ryan, S. G. & Norris, J. E. 1991, AJ, 101, 1865
+Sackett, P. D., Morrison, H. L., Harding, P. & Boroson, T. A. 1994, Nature, 370,
+441
+Sales, L. V., Navarro, J. F., Abadi, M. G. & Steinmetz, M. 2007, MNRAS, 379,
+1464
+Sales, L. V. et al. 2008, ArXiv e-prints, 805, arXiv:0805.0508 (MNRAS, in press)
+Salvadori, S., Schneider, R. & Ferrara, A. 2007, MNRAS, 381, 647
+Salvadori,
+S.,
+Ferrara,
+A.,
+&
+Schneider,
+R.
+2008,
+ArXiv
+e-prints,
+802,
+arXiv:0802.0462
+Samland, M. & Gerhard, O. E. 2003, A&A, 399, 961
+Sarajedini, A., Chaboyer, B. & Demarque, P. 1997, PASP, 109, 1321
+Schmidt, M. 1956, Bull. Astron. Inst. Netherlands, 13, 15
+Schneider, R., Ferrara, A., Natarajan, P. & Omukai, K. 2002, ApJ, 571, 30
+Seabroke, G. M., et al. 2008, MNRAS, 384, 11
+Searle, L. & Zinn, R. 1978, ApJ, 225, 357
+Shapley, H. 1918, PASP, 30, 42
+Shetrone, M. et al., 2001, ApJ, 548, 592
+Shetrone, M. et al., 2003, AJ, 125, 707
+Siegel, M. H., Majewski, S. R., Reid, I. N. & Thompson, I. B. 2002, ApJ, 578, 151
+Siegel, M. H., et al. 2007, ApJ, 667, L57
+Silk, J. & Langer, M. 2006, MNRAS, 371, 444
+Simon, J. D. & Geha, M. 2007, ApJ, 670, 313
+Sirko, E., et al. 2004, AJ, 127, 914
+Smith, M. C., et al. 2007, MNRAS, 379, 755
+Sneden, C., et al. 1996, ApJ, 467, 819
+Sommer-Larsen, J. & Christensen, P. R. 1989, MNRAS, 239, 441
+Sommer-Larsen, J., Beers, T. C., Flynn, C., Wilhelm, R. & Christensen, P. R. 1997,
+ApJ, 481, 775
+Somerville, R. S. & Primack, J. R. 1999, MNRAS, 310, 1087
+Spergel, D. N. & Steinhardt, P. J. 2000, Physical Review Letters, 84, 3760
+Springel, V., Frenk, C. S. & White, S. D. M. 2006, Nature, 440, 1137
+Starkenburg, E., et al. 2008, in preparation
+Steinmetz, M., et al. 2006, AJ, 132, 1645
+Steinmetz, M. & Muller, E. 1995, MNRAS, 276, 549
+Stetson, P. B., Vandenberg, D. A. & Bolte, M. 1996, PASP, 108, 560
+Stetson, P. B., Hesser, J. E. & Smecker-Hane, T. A. 1998, PASP, 110, 533
+Stoehr, F., White, S. D. M., Tormen, G. & Springel, V. 2002, MNRAS, 335, L84
+
+
+## Page 46
+
+
+46
+Amina Helmi
+Suntzeﬀ, N. B., Kinman, T. D. & Kraft, R. P. 1991, ApJ, 367, 528
+Tisserand et al. (EROS coll), 2007, A&A, 469, 387
+Tolstoy, E., et al. 2003, AJ, 125, 707
+Tolstoy, E., et al. 2006, The Messenger, 123, 33
+Torres, S., Garc´ıa-Berro, E. & Isern, J. 1998, ApJ, 508, L71
+Travaglio, C., et al. 2004, ApJ, 601, 864
+Tumlinson, J. 2007, ApJ, 665, 1361
+Umeda, H. & Nomoto, K. 2005, ApJ, 619, 427
+Unavane, M., Wyse, R. F. G. & Gilmore, G. 1996, MNRAS, 278, 727
+van der Marel, R. P. 2001, AJ, 122, 1827
+van der Marel, R. P., Alves, D. R., Hardy, E. & Suntzeﬀ, N. B. 2002, AJ, 124, 2639
+Venn, K. A., et al. 2004, AJ, 128, 1177
+Vivas, A. K., et al. 2001, ApJ, 554, L33
+Vivas, A. K., et al. 2004, AJ, 127, 1158
+Wheeler, J. C., Sneden, C. & Truran, J. W., Jr. 1989, ARA&A, 27, 279
+White, S. D. M. 1985, ApJ, 294, L99
+White, S. D. M. & Frenk, C. S. 1991, ApJ, 379, 52
+Wilkinson, M. I., & Evans, N. W. 1999, MNRAS, 310, 645
+Yanny, B., et al. 2000, ApJ, 540, 825
+Yanny, B., et al. 2003, ApJ, 588, 824
+Xu, Y., Deng, L. C. & Hu, J. Y. 2006, MNRAS, 368, 1811
+Xu, Y., Deng, L. C. & Hu, J. Y. 2007, MNRAS, 379, 1373
+Zentner A. R., et al. 2005, ApJ, 629, 219
+Zheng, Z., et al. 1999, AJ, 117, 2757
+Zibetti, S., White, S. D. M. & Brinkmann, J. 2004, MNRAS, 347, 556
+Zinn, R. 1993, In: The Globular Cluster-Galaxy Connection, ASP Conference Se-
+ries, 48, 38
+
+---
+**MOC:** [[MOC_2008]]
+
+## Related
+
+- [[KNOWLEDGE_MOC]]
+- [[MOC_2008]]

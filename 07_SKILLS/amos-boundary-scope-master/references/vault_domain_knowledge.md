@@ -8,16 +8,12 @@ tags:
 - type/skill
 - skill
 - validation
-- amos-moc
-- 00-home
-- amos-rscf-nodes
 - law/L0-integrity
 - law/L1-epistemic
 - law/L2-provenance
 - law/L3-dependency
 - l4-causal
 - l5-scope-regime
-- references-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -7,13 +7,9 @@ tags:
 - amos-ethics-os-governor
 - type/skill
 - 2026-08-22-amos-accessibility-i18n
-- references-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 - 2026-08-22-amos-privacy-compliance-licensing
 - 2026-08-22-amos-fairness-ethics-externalities
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

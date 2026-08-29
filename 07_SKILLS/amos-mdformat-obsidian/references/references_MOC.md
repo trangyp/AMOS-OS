@@ -7,13 +7,10 @@ tags:
 - amos-mdformat-obsidian
 - type/skill
 - sota
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- 07-skills-moc
 - skill
-- references-moc
 - trang-framework-recursive-ontology-dynamics
+moc: true
 rscf:
   state: DERIVED
   claim_class: AMOS_MODEL

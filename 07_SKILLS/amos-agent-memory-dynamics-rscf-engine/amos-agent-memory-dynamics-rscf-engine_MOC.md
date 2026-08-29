@@ -6,8 +6,7 @@ tags:
 - amos-agent-memory-dynamics-rscf-engine
 - type/skill
 - skill
-- references-moc
-- 07-skills-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

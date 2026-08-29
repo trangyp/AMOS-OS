@@ -78,11 +78,6 @@ tags:
 - test-map
 - operations-map
 - operating-model
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 04-infrastructure-canon-moc
 aliases:
 - AMOS Infrastructure Canon - Infrastructure Canon - AMOS Infrastructure Foundation
   - AMOS Ope

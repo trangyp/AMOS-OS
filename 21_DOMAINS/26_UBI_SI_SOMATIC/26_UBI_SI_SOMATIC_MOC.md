@@ -8,8 +8,7 @@ tags:
 - domains-ubi-si-somatic-contract
 - ubi-si-somatic-domains-domain-spec
 - ubi-si-somatic-domains-readme
-- 00-index-moc
-- 21-domains-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

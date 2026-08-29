@@ -22,10 +22,6 @@ tags:
 - causal-graph
 - rscf/claim
 - rscf/state/canonical
-- 00-home
-- 00-root-moc
-- 02-kernel-moc
-- 03-causal-moc
 aliases:
 - Biological Causality Kernel
 - K_BIOLOGICAL_CAUSALITY

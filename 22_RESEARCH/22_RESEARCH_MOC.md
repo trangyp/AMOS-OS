@@ -7,13 +7,8 @@ tags:
 - canon/research
 - research-readme
 - research-research-contract
-- 00-index-moc
-- 01-papers-moc
-- 02-experiments-moc
-- 03-competing-models-moc
-- 04-validation-moc
-- 05-benchmarks-moc
 - amos-home
+moc: true
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL

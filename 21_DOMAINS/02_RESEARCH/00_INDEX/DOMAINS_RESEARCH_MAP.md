@@ -6,10 +6,7 @@ tags:
 - amos-os
 - 21_domains
 - canon/domain
-- index-research-domains-readme
 - research-domains-research-contract
-- 00-root-map
-- amos-rscf-nodes
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
@@ -17,10 +14,6 @@ tags:
 - control-plane-readme
 - observability-readme
 - operations-readme
-- 00-root-moc
-- amos-moc
-- 00-home
-- 00-index-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

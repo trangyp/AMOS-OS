@@ -5,8 +5,6 @@ tags:
 - abstraction
 - extraction
 - abstraction-extraction
-- kernel-moc
-- 00-home
 ---
 
 # abstraction extraction

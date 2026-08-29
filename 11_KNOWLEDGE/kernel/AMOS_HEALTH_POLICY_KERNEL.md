@@ -14,8 +14,6 @@ tags:
 - rscf/state/source-claim
 - topic/amos-health-policy-kernel-v0
 - kernel
-- 00-cosmo-brain-moc
-- kernel-moc
 created: 2026-08-22
 rscf:
   state: SOURCE_CLAIM

@@ -6,11 +6,6 @@ tags:
 - 00_root
 - map
 - canon/root
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 00-cosmo-brain-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: EMPIRICAL

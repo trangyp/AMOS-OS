@@ -8,8 +8,6 @@ tags:
 - canon/operating-model
 - readme
 - escalation-map
-- 00-home
-- amos-rscf-nodes
 - routing-policy-validation-receipt
 - escalation-operating-model-escalation-contract
 - authz-engine-validation-receipt
@@ -18,9 +16,6 @@ tags:
 - control-plane-readme
 - observability-readme
 - operations-readme
-- 00-root-moc
-- amos-moc
-- 00-index-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

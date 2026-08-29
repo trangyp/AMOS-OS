@@ -6,8 +6,6 @@ tags:
 - kernel
 - model
 - vomni-kernel-model
-- kernel-moc
-- 00-home
 ---
 
 # vomni kernel model

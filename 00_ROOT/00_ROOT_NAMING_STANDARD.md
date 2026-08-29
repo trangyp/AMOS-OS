@@ -68,7 +68,6 @@ tags:
 - topic/naming-standard
 - topic/namespace-governance
 - topic/version-governance
-- 00-home
 - architecture
 - full-tree
 - system-map
@@ -77,10 +76,6 @@ tags:
 - placement-rules
 - roadmap
 - rscf-node-index
-- 00-root-moc
-- amos-moc
-- amos-rscf-nodes
-- 00-cosmo-brain-moc
 ---
 
 # AMOS OS Naming Standard

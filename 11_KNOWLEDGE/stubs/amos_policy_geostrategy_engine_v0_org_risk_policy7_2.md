@@ -8,8 +8,6 @@ tags:
 - engine
 - org
 - risk
-- kernel-moc
-- 00-home
 ---
 
 # amos policy geostrategy engine v0 org risk policy7 2

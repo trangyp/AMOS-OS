@@ -21,11 +21,6 @@ tags:
 - memory
 - skill
 - validation
-- 00-home
-- 00-root-moc
-- amos-moc
-- amos-rscf-nodes
-- knowledge-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

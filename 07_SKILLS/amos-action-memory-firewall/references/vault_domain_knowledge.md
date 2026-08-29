@@ -7,15 +7,10 @@ tags:
 - amos-action-memory-firewall
 - type/skill
 - 2026-08-22-amos-obsidian-memory-bridge
-- cosmo-brain-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 - 2026-08-22-cognitive-substrate-reality-gate
 - 2026-08-22-cognitive-substrate-reasoning-graph
 - 2026-08-22-amos-go-board-19x19-formal-system
-- references-moc
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

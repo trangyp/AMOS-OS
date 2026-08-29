@@ -6,8 +6,6 @@ tags:
 - code
 - internals
 - 2026-08-22-executable-code-internals
-- kernel-moc
-- 00-home
 ---
 
 # 2026 08 22 executable code internals

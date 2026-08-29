@@ -3,30 +3,7 @@ title: 00 Root MOC
 type: moc
 source: 00_ROOT
 tags:
-  - 00-root
   - canon/root
-  - 00-home
-  - 00-root-architecture
-  - 00-root-audit
-  - 00-root-authorization
-  - 00-root-boundaries
-  - 00-root-change-log
-  - 00-root-contract
-  - 00-root-coverage
-  - 00-root-dependencies
-  - 00-root-glossary
-  - 00-root-history
-  - 00-root-identity
-  - 00-root-integration-checklist
-  - 00-root-lifecycle
-  - 00-root-map
-  - 00-root-naming-standard
-  - 00-root-provenance
-  - 00-root-readme
-  - 00-root-registry
-  - 00-root-release-notes
-  - 00-root-status
-  - 00-root-versioning
   - amos-all-frameworks-index
   - amos-canon-completeness-status
   - amos-canon-domain-binding-map
@@ -44,7 +21,6 @@ tags:
   - amos-origin-heritage-master
   - amos-orphan-framework-registry
   - amos-os-add-only-canon-file-manifest
-  - amos-rscf-nodes
   - amos-templates
   - amos-total-architecture
   - amos-total-canon-index
@@ -72,7 +48,6 @@ tags:
   - cosmo-brain-to-amos-os-binding
   - dependency-map
   - full-tree
-  - index-repair-gap-report-2026-08-26
   - neural-network
   - placement-rules
   - readme
@@ -81,8 +56,8 @@ tags:
   - system-map
   - system-map-v1
   - total-corpus-coverage
-  - attachments-moc
   - amos-home
+moc: true
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

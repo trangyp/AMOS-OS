@@ -8,8 +8,6 @@ tags:
 - engine
 - domains
 - amos-audit-quality-engine-v0-domains7
-- kernel-moc
-- 00-home
 ---
 
 # amos audit quality engine v0 domains7

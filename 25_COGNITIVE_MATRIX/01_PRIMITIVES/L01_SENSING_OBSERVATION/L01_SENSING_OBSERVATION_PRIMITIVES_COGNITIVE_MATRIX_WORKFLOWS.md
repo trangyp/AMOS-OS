@@ -12,12 +12,6 @@ tags:
 - hml
 - control-plane
 - domain/cognitive-matrix
-- 00-root-moc
-- amos-moc
-- 00-home
-- cognitive-matrix-moc
-- amos-rscf-nodes
-- l01-sensing-observation-moc
 title: L01_SENSING_OBSERVATION — Workflows
 origin_architect: Trang Phan
 status: MODEL_SPECIFICATION / UNVALIDATED

@@ -28,13 +28,9 @@ tags:
 - canon/universe
 - khung-trang
 - l19-proof-capsule
-- 01-canon-moc
 - khung-trang-master
 - amos-x-trang-reality
 - khung-trang-equations-canon
-- 00-home
-- 02-universe-canon-moc
-- 00-index-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

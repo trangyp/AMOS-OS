@@ -1,11 +1,9 @@
 ---
 title: tests moc
 tags:
+moc: true
 - stub
 - tests
-- tests-moc
-- kernel-moc
-- 00-home
 ---
 
 # tests moc

@@ -8,11 +8,7 @@ tags:
 - plugin
 - tagging
 - knowledge
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- 07-skills-moc
-- references-moc
 - skill
 - trang-framework-recursive-ontology-dynamics
 rscf:

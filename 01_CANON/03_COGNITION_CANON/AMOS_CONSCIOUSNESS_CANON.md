@@ -69,10 +69,6 @@ tags:
 - scope
 - regime
 - validation
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 - amos-cognition-canon
 - amos-cognitive-field-canon
@@ -83,7 +79,6 @@ tags:
 - operations-readme
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
-- 03-cognition-canon-moc
 - trang-framework-recursive-ontology-dynamics
 title: AMOS Consciousness Canon
 type: canon

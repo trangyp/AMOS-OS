@@ -7,12 +7,11 @@ tags:
 - domain/cognitive-matrix
 - control-planes-cognitive-matrix-policies
 - control-planes-cognitive-matrix-scope
-- 00-index-moc
-- 03-control-planes-moc
 - cognitive-matrix-c02-metacognitive-contract
 - control-planes-cognitive-matrix-authority
 - control-planes-cognitive-matrix-decision-rules
 - control-planes-cognitive-matrix-observability
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

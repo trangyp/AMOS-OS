@@ -5,7 +5,6 @@ tags:
 - core
 - runtime
 - canon/knowledge
-- kernel-moc
 - rscf/claim
 - rscf/provenance
 - rscf/state/observation

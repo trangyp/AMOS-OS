@@ -7,11 +7,6 @@ tags:
 - l04_object_entity_formation
 - domain/cognitive-matrix
 - validation-evidence
-- 00-root-moc
-- amos-moc
-- cognitive-matrix-moc
-- 00-home
-- 00-index-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

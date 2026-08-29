@@ -4,8 +4,6 @@ tags:
 - stub
 - base
 - my-basebase
-- kernel-moc
-- 00-home
 ---
 
 # my base.base

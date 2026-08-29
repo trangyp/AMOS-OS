@@ -6,13 +6,8 @@ tags:
 - reference
 - amos-cognitive-process-orchestrator
 - type/skill
-- cosmo-brain-moc
 - ratpak
-- references-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

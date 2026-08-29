@@ -5,8 +5,6 @@ tags:
 - causal
 - firewall
 - causal-firewall
-- kernel-moc
-- 00-home
 ---
 
 # causal firewall

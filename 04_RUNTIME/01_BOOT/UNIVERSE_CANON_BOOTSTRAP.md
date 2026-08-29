@@ -22,10 +22,7 @@ tags:
 - rscf
 - canon_candidate
 - canon/runtime
-- 01-boot-moc
 - amos-x-universe-canon
-- 00-home
-- 04-runtime-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

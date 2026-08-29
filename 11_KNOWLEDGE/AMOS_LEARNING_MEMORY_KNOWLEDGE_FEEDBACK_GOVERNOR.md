@@ -5,8 +5,6 @@ tags:
 - memory
 - feedback
 - governor
-- 00-home
-- knowledge-moc
 - amos-cross-domain-tensor-composition-governor
 - amos-emotion-cognition-decision-bridge-governor
 ---

@@ -9,7 +9,6 @@ tags:
 - topic/amos-tech-architecture-kernel-v0
 - kernel
 - architecture
-- kernel-moc
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:

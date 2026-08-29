@@ -5,8 +5,8 @@ source: 03_CONTROL_PLANE/09_COMMIT/88_DEPENDENCY_TRACE_MODES
 tags:
 - 88-dependency-trace-modes
 - canon/control-plane
-- 09-commit-moc
 - dependency-trace-modes-commit-control-plane-readme
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

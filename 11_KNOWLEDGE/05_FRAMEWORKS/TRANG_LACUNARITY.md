@@ -28,9 +28,6 @@ tags:
 - frai-fractal-reasoning-ai
 - heritage-fractal-mathematics
 - trang-lmh-architecture
-- 05-frameworks-moc
-- 00-home
-- knowledge-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

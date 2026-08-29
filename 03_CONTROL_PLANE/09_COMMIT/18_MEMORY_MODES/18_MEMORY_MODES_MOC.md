@@ -6,8 +6,8 @@ tags:
 - 18-memory-modes
 - canon/control-plane
 - memory-modes-commit-control-plane-readme
-- 09-commit-moc
 - memory-modes-commit-control-plane-mode-family-spec
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

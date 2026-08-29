@@ -5,8 +5,6 @@ tags:
 - nonexistent
 - model
 - nonexistent-model
-- kernel-moc
-- 00-home
 ---
 
 # nonexistent model

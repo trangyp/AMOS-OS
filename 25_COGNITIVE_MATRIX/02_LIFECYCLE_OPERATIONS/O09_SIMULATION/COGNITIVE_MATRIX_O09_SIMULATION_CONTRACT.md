@@ -8,11 +8,6 @@ tags:
 - o09_simulation
 - contract
 - domain/cognitive-matrix
-- 00-root-moc
-- amos-moc
-- cognitive-matrix-moc
-- 00-home
-- o09-simulation-moc
 - cognitive-matrix-lifecycle-operations-contract
 - trang-framework-recursive-ontology-dynamics
 rscf:

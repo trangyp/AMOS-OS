@@ -37,8 +37,6 @@ tags:
 - topic/recovery
 - topic/finality
 - readme
-- 00-root-moc
-- amos-moc
 - architecture
 - authoritative-state
 - dependency-map
@@ -61,9 +59,6 @@ tags:
 - k-causal-hierarchy
 - control-plane-map
 - runtime-map
-- 00-home
-- amos-rscf-nodes
-- 04-state-moc
 aliases:
 - AMOS System State Kernel - System State Kernel - K System State - K_SYSTEM_STATE
 ---

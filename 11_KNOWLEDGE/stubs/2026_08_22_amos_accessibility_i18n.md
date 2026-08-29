@@ -6,8 +6,6 @@ tags:
 - accessibility
 - i18n
 - 2026-08-22-amos-accessibility-i18n
-- kernel-moc
-- 00-home
 ---
 
 # 2026 08 22 amos accessibility i18n

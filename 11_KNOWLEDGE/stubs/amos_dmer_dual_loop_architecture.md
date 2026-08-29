@@ -8,8 +8,6 @@ tags:
 - loop
 - architecture
 - amos-dmer-dual-loop-architecture
-- kernel-moc
-- 00-home
 ---
 
 # amos dmer dual loop architecture

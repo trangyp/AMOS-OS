@@ -14,7 +14,6 @@ tags:
 - rscf/state/source-claim
 - topic/amos-tech-emotion-kernel-v1
 - kernel
-- kernel-moc
 created: 2026-08-22
 rscf:
   state: SOURCE_CLAIM

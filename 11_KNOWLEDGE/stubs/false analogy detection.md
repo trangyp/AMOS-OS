@@ -6,8 +6,6 @@ tags:
 - analogy
 - detection
 - false-analogy-detection
-- kernel-moc
-- 00-home
 ---
 
 # false analogy detection

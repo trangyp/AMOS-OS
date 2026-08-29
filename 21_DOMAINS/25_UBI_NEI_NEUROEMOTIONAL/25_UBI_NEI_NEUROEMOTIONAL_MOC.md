@@ -7,9 +7,8 @@ tags:
 - canon/domain
 - domains-ubi-nei-neuroemotional-contract
 - ubi-nei-neuroemotional-domains-readme
-- 00-index-moc
-- 21-domains-moc
 - ubi-nei-neuroemotional-domains-domain-spec
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

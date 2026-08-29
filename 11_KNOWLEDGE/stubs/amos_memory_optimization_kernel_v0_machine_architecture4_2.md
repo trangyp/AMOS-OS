@@ -8,8 +8,6 @@ tags:
 - kernel
 - machine
 - architecture
-- kernel-moc
-- 00-home
 ---
 
 # amos memory optimization kernel v0 machine architecture4 2

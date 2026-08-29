@@ -1,11 +1,9 @@
 ---
 title: canon moc
 tags:
+moc: true
 - stub
 - canon
-- canon-moc
-- kernel-moc
-- 00-home
 ---
 
 # canon moc

@@ -8,8 +8,6 @@ tags:
 - kernel
 - meta
 - cognition
-- kernel-moc
-- 00-home
 ---
 
 # amos counterfactual reasoning kernel v0 meta cognition4 2

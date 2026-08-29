@@ -6,8 +6,8 @@ tags:
 - 15-custom-modes
 - canon/control-plane
 - custom-modes-commit-control-plane-readme
-- 09-commit-moc
 - custom-modes-commit-control-plane-mode-family-spec
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

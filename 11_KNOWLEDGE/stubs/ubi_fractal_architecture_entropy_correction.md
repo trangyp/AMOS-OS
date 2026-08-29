@@ -7,8 +7,6 @@ tags:
 - architecture
 - entropy
 - correction
-- kernel-moc
-- 00-home
 - ubi-fractal-architecture-entropy-correction
 ---
 

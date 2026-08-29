@@ -14,8 +14,6 @@ tags:
 - imagepng
 - documentpdf
 - other-note
-- 00-root-moc
-- 00-home
 ---
 
 # Obsidian Markdown

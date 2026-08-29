@@ -14,7 +14,7 @@ tags:
 - tss-tpe-rscf-index
 - ubi-rscf-index
 - universe-rscf-index
-- knowledge-moc
+moc: true
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

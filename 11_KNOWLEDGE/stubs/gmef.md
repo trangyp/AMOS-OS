@@ -3,8 +3,6 @@ title: gmef
 tags:
 - stub
 - gmef
-- kernel-moc
-- 00-home
 ---
 
 # gmef

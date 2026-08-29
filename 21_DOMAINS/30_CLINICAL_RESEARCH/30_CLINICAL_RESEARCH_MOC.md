@@ -8,8 +8,7 @@ tags:
 - clinical-research-domains-domain-spec
 - clinical-research-domains-readme
 - domains-clinical-research-contract
-- 00-index-moc
-- 21-domains-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -5,7 +5,7 @@ source: 03_CONTROL_PLANE/09_COMMIT/69_PERSPECTIVE_OBSERVER_MODES
 tags:
 - 69-perspective-observer-modes
 - canon/control-plane
-- 09-commit-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -6,8 +6,7 @@ tags:
 - c07-perception
 - domain/cognitive-matrix
 - cognitive-matrix-c07-perception-contract
-- 00-index-moc
-- 03-control-planes-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

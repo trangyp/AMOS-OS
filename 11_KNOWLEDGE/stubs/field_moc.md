@@ -1,11 +1,9 @@
 ---
 title: field moc
 tags:
+moc: true
 - stub
 - field
-- field-moc
-- kernel-moc
-- 00-home
 ---
 
 # field moc

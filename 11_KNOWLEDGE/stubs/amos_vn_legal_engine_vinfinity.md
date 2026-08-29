@@ -7,8 +7,6 @@ tags:
 - engine
 - vinfinity
 - amos-vn-legal-engine-vinfinity
-- kernel-moc
-- 00-home
 ---
 
 # amos vn legal engine vinfinity

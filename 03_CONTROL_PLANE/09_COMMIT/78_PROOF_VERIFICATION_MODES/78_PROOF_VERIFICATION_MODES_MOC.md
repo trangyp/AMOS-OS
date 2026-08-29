@@ -5,7 +5,7 @@ source: 03_CONTROL_PLANE/09_COMMIT/78_PROOF_VERIFICATION_MODES
 tags:
 - 78-proof-verification-modes
 - canon/control-plane
-- 09-commit-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

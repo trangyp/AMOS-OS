@@ -18,11 +18,7 @@ tags:
 - canon/tooling
 - topic/templates
 - amos-obsidian-linking-plugins
-- 00-home
-- 00-root-moc
-- 00-cosmo-brain-moc
 - amos-layer-maps
-- amos-rscf-nodes
 title: AMOS Templates
 type: index
 source: 00_ROOT

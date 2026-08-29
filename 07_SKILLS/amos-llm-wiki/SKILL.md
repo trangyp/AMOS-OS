@@ -34,8 +34,6 @@ tags:
 - amos-os
 - amos-llm-wiki-workflow
 - amos-llm-wiki-agent
-- references-moc
-- 00-home
 steward: Trang Phan
 rscf:
   state: DERIVED

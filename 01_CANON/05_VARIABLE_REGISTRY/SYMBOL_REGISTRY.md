@@ -50,7 +50,6 @@ tags:
 - topic/symbol-registry
 - readme
 - architecture
-- 00-root-naming-standard
 - placement-rules
 - canon-map
 - amos-core-laws
@@ -67,11 +66,6 @@ tags:
 - schema-map
 - observability-observability-map
 - operating-model
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 05-variable-registry-moc
 aliases:
 - AMOS Symbol Registry - Symbol Registry - AMOS Notation Registry - AMOS Semantic
   Symbol Table

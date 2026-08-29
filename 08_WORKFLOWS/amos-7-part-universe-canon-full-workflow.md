@@ -18,7 +18,6 @@ tags:
 - epistemic/source_claim
 - amos-os
 - validation
-- 08-workflows-moc
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL

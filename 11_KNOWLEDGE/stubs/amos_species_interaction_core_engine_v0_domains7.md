@@ -8,8 +8,6 @@ tags:
 - core
 - engine
 - domains
-- kernel-moc
-- 00-home
 - amos-species-interaction-core-engine-v0-domains7
 ---
 

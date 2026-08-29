@@ -1,0 +1,32 @@
+---
+title: Amos-Strict-Fractal-Equation-Rscf-Registry MOC
+type: moc
+source: 07_SKILLS/amos-strict-fractal-equation-rscf-registry
+tags:
+- amos-strict-fractal-equation-rscf-regist
+- type/skill
+- skill
+- references-moc
+- 07-skills-moc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+---
+
+# Amos-Strict-Fractal-Equation-Rscf-Registry — Map of Content
+
+**Path:** `07_SKILLS/amos-strict-fractal-equation-rscf-registry`
+**Files:** 1 | **Subdirectories:** 1
+
+## Files
+
+- SKILL
+
+## Subdirectories
+
+- references_MOC — references
+
+---
+**Parent:** [[07_SKILLS_MOC]]

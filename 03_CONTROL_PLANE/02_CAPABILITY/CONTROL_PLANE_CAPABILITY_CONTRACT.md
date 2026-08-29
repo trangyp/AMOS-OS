@@ -7,11 +7,6 @@ tags:
 - capability
 - contract
 - canon/control-plane
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 02-capability-moc
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

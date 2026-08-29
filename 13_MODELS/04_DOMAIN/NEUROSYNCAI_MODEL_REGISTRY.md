@@ -14,9 +14,6 @@ tags:
 - canon
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
-- 00-home
-- amos-rscf-nodes
-- 04-domain-moc
 - law-hierarchy
 - kernel-readme
 - control-plane-readme

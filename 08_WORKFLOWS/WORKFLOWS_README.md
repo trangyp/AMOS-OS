@@ -16,11 +16,6 @@ tags:
 - control-plane-readme
 - observability-readme
 - operations-readme
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 08-workflows-moc
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

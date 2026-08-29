@@ -20,7 +20,6 @@ tags:
 - engine-final-complete
 - engine-models
 - engine-practical-complete
-- index-unipower
 - meta-engines-index
 - omega-advanced-intelligence
 - omega-maximum-enhancement
@@ -36,13 +35,9 @@ tags:
 - unipower-engines-layer
 - unipower-tech-design-metabrain
 - vault-domain-knowledge
-- amos-super-engines-master-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- references-moc
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
+moc: true
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

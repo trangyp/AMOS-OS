@@ -8,8 +8,7 @@ tags:
 - control-systems-domains-domain-spec
 - control-systems-domains-readme
 - domains-control-systems-contract
-- 00-index-moc
-- 21-domains-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

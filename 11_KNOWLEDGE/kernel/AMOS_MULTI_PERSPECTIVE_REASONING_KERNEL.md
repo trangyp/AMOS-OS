@@ -8,7 +8,6 @@ tags:
 - rscf/state/source-claim
 - topic/amos-multi-perspective-reasoning-kernel-
 - kernel
-- kernel-moc
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:

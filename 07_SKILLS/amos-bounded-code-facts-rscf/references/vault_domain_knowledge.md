@@ -6,12 +6,7 @@ tags:
 - reference
 - amos-bounded-code-facts-rscf
 - type/skill
-- amos-bounded-code-facts-rscf-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- references-moc
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

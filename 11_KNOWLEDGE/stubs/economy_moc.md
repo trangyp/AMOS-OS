@@ -1,11 +1,9 @@
 ---
 title: economy moc
 tags:
+moc: true
 - stub
 - economy
-- economy-moc
-- kernel-moc
-- 00-home
 ---
 
 # economy moc

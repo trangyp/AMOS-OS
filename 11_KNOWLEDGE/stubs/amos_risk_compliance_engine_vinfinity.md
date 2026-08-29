@@ -8,8 +8,6 @@ tags:
 - engine
 - vinfinity
 - amos-risk-compliance-engine-vinfinity
-- kernel-moc
-- 00-home
 ---
 
 # amos risk compliance engine vinfinity

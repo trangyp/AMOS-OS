@@ -7,8 +7,6 @@ tags:
 - kernel
 - science
 - health
-- kernel-moc
-- 00-home
 - amos-scientific-kernel-v0-science-health7-2
 ---
 

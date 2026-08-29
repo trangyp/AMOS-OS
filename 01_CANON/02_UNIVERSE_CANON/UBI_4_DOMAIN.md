@@ -7,9 +7,6 @@ tags:
 - redirect
 - bio
 - unified-biological-intelligence
-- 05-cognitive-organism-moc
-- 00-index-moc
-- 00-home
 ---
 
 # UBI 4-Domain Architecture

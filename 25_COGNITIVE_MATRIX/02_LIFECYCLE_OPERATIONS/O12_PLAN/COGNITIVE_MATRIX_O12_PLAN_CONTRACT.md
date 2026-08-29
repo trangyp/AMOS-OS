@@ -8,11 +8,6 @@ tags:
 - o12_plan
 - contract
 - domain/cognitive-matrix
-- 00-root-moc
-- amos-moc
-- cognitive-matrix-moc
-- 00-home
-- o12-plan-moc
 - cognitive-matrix-lifecycle-operations-contract
 - trang-framework-recursive-ontology-dynamics
 rscf:

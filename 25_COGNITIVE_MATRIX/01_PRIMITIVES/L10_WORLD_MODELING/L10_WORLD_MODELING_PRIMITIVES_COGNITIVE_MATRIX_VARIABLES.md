@@ -6,10 +6,6 @@ tags:
 - note
 - l10-world-modeling
 - domain/cognitive-matrix
-- cognitive-matrix-moc
-- 00-root-moc
-- amos-moc
-- l10-world-modeling-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

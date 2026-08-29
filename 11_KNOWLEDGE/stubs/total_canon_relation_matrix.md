@@ -7,8 +7,6 @@ tags:
 - relation
 - matrix
 - total-canon-relation-matrix
-- kernel-moc
-- 00-home
 ---
 
 # total canon relation matrix

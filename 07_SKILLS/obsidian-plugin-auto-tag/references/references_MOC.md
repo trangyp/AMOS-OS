@@ -7,13 +7,10 @@ tags:
 - obsidian-plugin-auto-tag
 - type/skill
 - vault-domain-knowledge
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- 07-skills-moc
 - skill
-- references-moc
 - trang-framework-recursive-ontology-dynamics
+moc: true
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL

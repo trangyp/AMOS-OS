@@ -14,7 +14,6 @@ tags:
 - rscf/state/observation
 - topic/deterministic-logic-and-law-engine
 - engine
-- engine-moc
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL

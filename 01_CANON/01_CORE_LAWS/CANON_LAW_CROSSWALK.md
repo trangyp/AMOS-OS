@@ -39,8 +39,6 @@ tags:
 - absolute-structural-integrity-canon
 - bio-logical-laws-canon
 - law-hierarchy
-- 00-home
-- amos-rscf-nodes
 - references
 - l19-proof-capsule
 - routing-policy-validation-receipt

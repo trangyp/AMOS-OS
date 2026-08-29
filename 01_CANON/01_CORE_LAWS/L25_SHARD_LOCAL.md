@@ -26,12 +26,7 @@ tags:
 - coordination_avoidance
 - provenance
 - canon/universe
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- 01-core-laws-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

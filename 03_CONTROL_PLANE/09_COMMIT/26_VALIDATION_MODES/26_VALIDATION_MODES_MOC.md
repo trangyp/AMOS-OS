@@ -5,8 +5,8 @@ source: 03_CONTROL_PLANE/09_COMMIT/26_VALIDATION_MODES
 tags:
 - 26-validation-modes
 - canon/control-plane
-- 09-commit-moc
 - validation-modes-commit-control-plane-readme
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

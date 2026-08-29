@@ -7,8 +7,8 @@ tags:
 - canon/protocol
 - protocols-protocol-contract
 - protocols-readme
-- 00-index-moc
 - amos-home
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

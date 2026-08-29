@@ -6,8 +6,6 @@ tags:
 - abstraction
 - kernel
 - analogy-abstraction-kernel
-- kernel-moc
-- 00-home
 ---
 
 # analogy abstraction kernel

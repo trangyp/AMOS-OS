@@ -20,12 +20,7 @@ tags:
 - epistemic/source_canon
 - amos-os
 - agent-template
-- amos-boundary-scope-master-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- 07-skills-moc
-- references-moc
 - trang-framework-recursive-ontology-dynamics
 - skill
 rscf:

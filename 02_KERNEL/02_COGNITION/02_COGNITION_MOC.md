@@ -20,8 +20,7 @@ tags:
 - k-personality
 - k-somatic-si
 - k-structural-reasoning
-- 00-index-moc
-- 02-kernel-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

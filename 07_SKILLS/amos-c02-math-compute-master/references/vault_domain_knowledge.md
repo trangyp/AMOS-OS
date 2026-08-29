@@ -7,12 +7,7 @@ tags:
 - amos-c02-math-compute-master
 - type/skill
 - skill
-- amos-c02-math-compute-master-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- references-moc
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

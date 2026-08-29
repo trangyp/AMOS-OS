@@ -14,8 +14,6 @@ tags:
 - validation
 - memory
 - canon
-- 00-cosmo-brain-moc
-- engine-moc
 type: document
 source: 11_KNOWLEDGE/engine
 rscf:

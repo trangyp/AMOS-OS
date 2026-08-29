@@ -33,11 +33,6 @@ tags:
 - memory
 - integration
 - workflow
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- knowledge-moc
 governing_law: integrity > completeness > fluency > speed > token savings
 rscf:
   state: SOURCE_CLAIM

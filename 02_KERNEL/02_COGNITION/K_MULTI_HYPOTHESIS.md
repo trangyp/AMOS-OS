@@ -69,11 +69,6 @@ tags:
 - control-plane-map
 - runtime-map
 - authoritative-state
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 02-cognition-moc
 aliases:
 - AMOS Multi Hypothesis Kernel - Multi Hypothesis Kernel - K Multi Hypothesis - K_MULTI_HYPOTH
 ---

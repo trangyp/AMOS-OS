@@ -1,11 +1,9 @@
 ---
 title: math moc
 tags:
+moc: true
 - stub
 - math
-- math-moc
-- kernel-moc
-- 00-home
 ---
 
 # math moc

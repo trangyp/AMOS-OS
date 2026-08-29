@@ -6,8 +6,6 @@ tags:
 - ontology
 - kernel
 - meta-ontology-kernel
-- kernel-moc
-- 00-home
 ---
 
 # meta ontology kernel

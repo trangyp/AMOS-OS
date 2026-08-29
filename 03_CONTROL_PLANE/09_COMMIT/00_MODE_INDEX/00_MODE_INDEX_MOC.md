@@ -3,7 +3,6 @@ title: 00 Mode Index MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX
 tags:
-- 00-mode-index
 - canon/control-plane
 - mode-admission-queue
 - mode-composition-registry
@@ -20,7 +19,7 @@ tags:
 - mode-registry
 - mode-revalidation-schedule
 - mode-transition-matrix
-- 09-commit-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

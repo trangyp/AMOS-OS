@@ -26,12 +26,9 @@ tags:
 - cognition-kernel
 - final-gate
 - speed-governor
-- references-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
+moc: true
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

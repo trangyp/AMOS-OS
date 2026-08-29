@@ -27,9 +27,6 @@ tags:
 - unified-biological-intelligence
 - ubi-score-framework
 - ubi-wearable-framework
-- 00-home
-- knowledge-moc
-- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

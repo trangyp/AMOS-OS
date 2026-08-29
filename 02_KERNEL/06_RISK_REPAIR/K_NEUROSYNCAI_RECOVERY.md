@@ -22,10 +22,6 @@ tags:
 - state-resynchronization
 - rscf/claim
 - rscf/state/canonical
-- 00-home
-- 00-root-moc
-- 02-kernel-moc
-- 06-risk-repair-moc
 aliases:
 - NeuroSyncAI Recovery Kernel
 - K_NEUROSYNCAI_RECOVERY

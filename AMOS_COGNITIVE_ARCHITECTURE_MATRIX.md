@@ -6,7 +6,6 @@ tags:
 - note
 - vault
 - epistemic/amos_model
-- 00-home
 - amos-home
 rscf:
   state: DERIVED

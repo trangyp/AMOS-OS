@@ -7,7 +7,6 @@ tags:
 - amos-c05-mind-behavior-master
 - type/skill
 - skill
-- amos-c05-mind-behavior-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

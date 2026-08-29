@@ -7,8 +7,6 @@ tags:
 - banking
 - cognition
 - kernel
-- kernel-moc
-- 00-home
 ---
 
 # amos national banking os cognition kernel v1 national banking os4

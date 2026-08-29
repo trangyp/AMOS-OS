@@ -6,8 +6,6 @@ tags:
 - master
 - references
 - detailed
-- references-moc
-- 00-home
 ---
 
 ## Provenance

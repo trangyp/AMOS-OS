@@ -10,11 +10,6 @@ tags:
 - roadmap
 - architecture
 - canon
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- knowledge-moc
 type: document
 source: 11_KNOWLEDGE/root
 rscf:

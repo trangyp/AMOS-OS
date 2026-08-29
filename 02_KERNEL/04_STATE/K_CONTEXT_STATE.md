@@ -45,8 +45,6 @@ tags:
 - k-multi-hypothesis
 - k-metacognition
 - readme
-- 00-root-moc
-- amos-moc
 - architecture
 - dependency-map
 - authoritative-state
@@ -63,9 +61,6 @@ tags:
 - k-meta-logic
 - control-plane-map
 - runtime-map
-- 00-home
-- amos-rscf-nodes
-- 04-state-moc
 aliases:
 - AMOS Context State Kernel - Context State Kernel - K Context State - K_CONTEXT_STATE
 ---

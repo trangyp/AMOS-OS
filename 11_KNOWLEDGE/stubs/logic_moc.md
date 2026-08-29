@@ -1,11 +1,9 @@
 ---
 title: logic moc
 tags:
+moc: true
 - stub
 - logic
-- logic-moc
-- kernel-moc
-- 00-home
 ---
 
 # logic moc

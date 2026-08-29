@@ -18,13 +18,9 @@ tags:
 - rscf
 - provenance
 - universe-x-omega-matrix
-- 02-universe-canon-moc
 - khung-trang-master
-- 25-cognitive-matrix-moc
 - universe-x-omega
 - canon
-- cognitive-matrix-moc
-- 00-home
 version: 1.0.0
 updated: '2026-08-28'
 status: CANON_CANDIDATE

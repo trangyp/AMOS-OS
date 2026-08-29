@@ -17,8 +17,6 @@ tags:
 - canon/matrix
 - rscf
 - provenance
-- cognitive-matrix-moc
-- 00-home
 version: 1.0.0
 updated: '2026-08-28'
 status: CANON_CANDIDATE

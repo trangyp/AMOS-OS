@@ -5,14 +5,10 @@ source: 07_SKILLS/amos-structured-execution-graph-rscf/references
 tags:
 - references
 - type/skill
-- amos-structured-execution-graph-rscf-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- references-moc
 - amos-structured-execution-graph-rscf-code
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
+moc: true
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

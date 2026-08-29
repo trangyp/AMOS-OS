@@ -8,8 +8,6 @@ tags:
 - kernel
 - meta
 - cognition
-- kernel-moc
-- 00-home
 ---
 
 # amos analogy abstraction kernel v0 meta cognition4 2

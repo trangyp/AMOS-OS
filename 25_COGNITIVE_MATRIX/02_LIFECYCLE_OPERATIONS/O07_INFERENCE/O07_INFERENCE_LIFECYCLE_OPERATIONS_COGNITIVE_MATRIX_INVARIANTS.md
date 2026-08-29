@@ -6,10 +6,6 @@ tags:
 - note
 - o07-inference
 - domain/cognitive-matrix
-- cognitive-matrix-moc
-- 00-root-moc
-- amos-moc
-- o07-inference-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

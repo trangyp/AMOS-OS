@@ -5,12 +5,6 @@ source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
 tags:
 - amos
 - domain/cognitive-matrix
-- 00-home
-- 00-root-moc
-- amos-moc
-- cognitive-matrix-moc
-- amos-rscf-nodes
-- l00-reality-environment-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

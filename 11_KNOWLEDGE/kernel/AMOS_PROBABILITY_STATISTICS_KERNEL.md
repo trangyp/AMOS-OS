@@ -12,9 +12,6 @@ tags:
 - rscf/state/observation
 - topic/amos-probability-statistics-kernel
 - kernel
-- kernel-moc
-- knowledge-moc
-- 00-home
 status: index
 provenance: SOURCE_CLAIM
 confidence: VERIFIED

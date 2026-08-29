@@ -6,13 +6,9 @@ tags:
 - references
 - type/skill
 - amos-distinct-working-memory-rscf-code
-- amos-distinct-working-memory-rscf-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- references-moc
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
+moc: true
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

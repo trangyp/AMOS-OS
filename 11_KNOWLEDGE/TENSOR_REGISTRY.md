@@ -111,17 +111,12 @@ tags:
 - vault
 - amos
 - amos-os
-- 00-home
-- amos-rscf-nodes
-- knowledge-moc
 - tensor-contracts
 - relation-tensor
 - amos-cross-domain-tensor-composition-governor
 - amos-simulation-kernel-v0-math-foundations
 - system-scan-agent
 - automation-profiles
-- 00-root-moc
-- amos-moc
 type: document
 source: 11_KNOWLEDGE/root
 path: 11_KNOWLEDGE/TENSOR_REGISTRY.md

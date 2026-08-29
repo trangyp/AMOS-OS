@@ -8,8 +8,6 @@ tags:
 - engine
 - vinfinity
 - amos-governance-economy-engine-vinfinity
-- kernel-moc
-- 00-home
 ---
 
 # amos governance economy engine vinfinity

@@ -6,13 +6,9 @@ tags:
 - amos-os
 - 06_agents
 - canon/agent
-- index-agents-agent-contract
-- index-agents-readme
 - agents-agent-contract
 - agents-readme
 - agent-fix-reasoning-brain
-- 00-root-map
-- amos-rscf-nodes
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
@@ -20,10 +16,6 @@ tags:
 - control-plane-readme
 - observability-readme
 - operations-readme
-- 00-root-moc
-- amos-moc
-- 00-home
-- 00-index-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

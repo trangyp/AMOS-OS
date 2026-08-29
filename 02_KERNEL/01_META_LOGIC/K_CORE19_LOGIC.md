@@ -54,10 +54,6 @@ tags:
 - rscf/state/model
 - topic/core19
 - topic/deterministic-logic
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
 - kernel-map
 - canon
 - amos-core-laws
@@ -74,7 +70,6 @@ tags:
 - control-plane-map
 - runtime-map
 - authoritative-state
-- 01-meta-logic-moc
 aliases:
 - CORE19 Logic
 - K CORE19 LOGIC

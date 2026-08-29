@@ -5,7 +5,7 @@ source: 03_CONTROL_PLANE/09_COMMIT/79_COORDINATION_INDEPENDENCE_MODES
 tags:
 - 79-coordination-independence-modes
 - canon/control-plane
-- 09-commit-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

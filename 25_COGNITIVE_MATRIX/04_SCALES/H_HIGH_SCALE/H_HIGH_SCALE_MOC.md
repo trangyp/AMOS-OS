@@ -6,8 +6,6 @@ tags:
 - h-high-scale
 - domain/cognitive-matrix
 - cognitive-matrix-h-high-scale-contract
-- 00-index-moc
-- 04-scales-moc
 - h-high-scale-scales-cognitive-matrix-boundaries
 - h-high-scale-scales-cognitive-matrix-definition
 - h-high-scale-scales-cognitive-matrix-dependencies
@@ -17,6 +15,7 @@ tags:
 - h-high-scale-scales-cognitive-matrix-rscf
 - h-high-scale-scales-cognitive-matrix-semantics
 - h-high-scale-scales-cognitive-matrix-tests
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

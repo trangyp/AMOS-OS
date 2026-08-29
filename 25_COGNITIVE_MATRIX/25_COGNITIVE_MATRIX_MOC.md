@@ -55,20 +55,8 @@ tags:
 - ubi-x-neurosyncai-matrix
 - ulk-x-rscf
 - universe-x-omega-matrix
-- 00-index-moc
-- 01-primitives-moc
-- 02-lifecycle-operations-moc
-- 03-control-planes-moc
-- 04-scales-moc
-- 05-cell-registry-moc
-- 06-cell-contracts-moc
-- 07-coverage-moc
-- 08-structural-gaps-moc
-- 09-dependency-graph-moc
-- 10-routing-moc
-- 11-validation-moc
-- 12-generators-moc
 - amos-home
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

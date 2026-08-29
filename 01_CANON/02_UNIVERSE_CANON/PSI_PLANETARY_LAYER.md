@@ -7,10 +7,6 @@ tags:
 - planetary
 - intelligence
 - canon
-- 08-planetary-moc
-- 02-universe-canon-moc
-- 00-index-moc
-- 00-home
 ---
 
 # PSI Planetary System Intelligence Layer

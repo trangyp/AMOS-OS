@@ -6,10 +6,6 @@ tags:
 - note
 - c02-metacognitive
 - domain/cognitive-matrix
-- cognitive-matrix-moc
-- 00-root-moc
-- amos-moc
-- c02-metacognitive-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

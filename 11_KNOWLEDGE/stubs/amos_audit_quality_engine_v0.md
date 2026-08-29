@@ -7,8 +7,6 @@ tags:
 - quality
 - engine
 - amos-audit-quality-engine-v0
-- kernel-moc
-- 00-home
 ---
 
 # amos audit quality engine v0

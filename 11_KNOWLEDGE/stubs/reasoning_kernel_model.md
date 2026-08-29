@@ -6,8 +6,6 @@ tags:
 - kernel
 - model
 - reasoning-kernel-model
-- kernel-moc
-- 00-home
 ---
 
 # reasoning kernel model

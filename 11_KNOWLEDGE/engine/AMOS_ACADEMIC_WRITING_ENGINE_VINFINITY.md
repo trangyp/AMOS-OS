@@ -20,11 +20,8 @@ tags:
 - composition
 - cross-domain
 - canon/knowledge
-- 00-home
-- knowledge-moc
 - system-scan-agent
 - automation-profiles
-- engine-moc
 - amos-simulation-kernel-v0-math-foundations
 rscf:
   state: AMOS_MODEL

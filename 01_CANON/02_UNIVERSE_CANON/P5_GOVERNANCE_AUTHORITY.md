@@ -24,15 +24,10 @@ tags:
 - p5_plane
 - rscf
 - canon/universe
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
 - p1-reality-environment
 - p2-sense-evidence
 - p3-knowledge-memory
 - p4-cognition-models
-- 02-universe-canon-moc
 title: P5 GOVERNANCE AUTHORITY
 type: note
 version: 0.2.0

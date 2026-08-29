@@ -1,11 +1,9 @@
 ---
 title: dated moc
 tags:
+moc: true
 - stub
 - dated
-- dated-moc
-- kernel-moc
-- 00-home
 ---
 
 # dated moc

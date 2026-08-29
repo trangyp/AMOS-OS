@@ -22,10 +22,6 @@ tags:
 - 84-laws
 - rscf/claim
 - rscf/state/canonical
-- 00-home
-- 00-root-moc
-- 02-kernel-moc
-- 01-meta-logic-moc
 aliases:
 - QLS Kernel
 - K_QUANTUM_LOGIC_SYSTEM

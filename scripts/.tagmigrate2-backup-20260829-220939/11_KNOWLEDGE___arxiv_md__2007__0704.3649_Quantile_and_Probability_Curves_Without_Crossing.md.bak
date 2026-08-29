@@ -1,0 +1,45 @@
+---
+title: Quantile and Probability Curves Without Crossing
+type: knowledge
+source: 11_KNOWLEDGE/_arxiv_md/2007
+tags:
+- knowledge
+- arxiv
+- statistics
+- arxiv-md
+- quantile-regression
+- canon/knowledge
+- moc-2007
+- knowledge-moc
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+---
+
+# Quantile and Probability Curves Without Crossing
+
+**arXiv ID:** 0704.3649
+**Year:** 2007
+**Domain:** Statistics / Quantile Regression
+
+## Summary
+
+This paper addresses the crossing problem in quantile regression — where estimated quantile curves cross each other, violating the monotonicity property. The authors propose methods to ensure non-crossing quantile and probability curves.
+
+## Key Concepts
+
+- Quantile Regression
+- Non-crossing Constraints
+- Probability Curves
+- Monotonicity
+- Statistical Estimation
+
+## Related
+
+- [[MOC_2007]] — 2007 arXiv papers
+- [[KNOWLEDGE_MOC]] — Knowledge base index
+
+---
+**MOC:** [[MOC_2007]]

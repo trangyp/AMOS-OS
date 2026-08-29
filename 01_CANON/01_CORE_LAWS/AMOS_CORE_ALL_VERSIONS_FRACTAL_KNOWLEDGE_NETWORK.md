@@ -38,16 +38,11 @@ tags:
 - recursive_retrieval
 - canon/core
 - readme
-- 00-home
-- amos-rscf-nodes
-- 01-core-laws-moc
 - amos-core
 - runtime-lineage
 - fractal-knowledge-network
 - selective-invalidation
 - trang-framework-recursive-ontology-dynamics
-- 00-root-moc
-- amos-moc
 version: 1.0.0
 updated: '2026-08-28'
 status: ACTIVE_REFERENCE

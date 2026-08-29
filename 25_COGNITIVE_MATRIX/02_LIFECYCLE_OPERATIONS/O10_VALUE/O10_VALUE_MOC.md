@@ -6,8 +6,7 @@ tags:
 - o10-value
 - domain/cognitive-matrix
 - cognitive-matrix-o10-value-contract
-- 00-index-moc
-- 02-lifecycle-operations-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

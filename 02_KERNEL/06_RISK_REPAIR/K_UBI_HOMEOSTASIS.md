@@ -22,10 +22,6 @@ tags:
 - equilibrium
 - rscf/claim
 - rscf/state/canonical
-- 00-home
-- 00-root-moc
-- 02-kernel-moc
-- 06-risk-repair-moc
 aliases:
 - UBI Homeostasis Kernel
 - K_UBI_HOMEOSTASIS

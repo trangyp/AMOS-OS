@@ -7,7 +7,6 @@ tags:
 - amos-information-theory-master
 - type/skill
 - skill
-- amos-information-theory-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -27,10 +27,6 @@ tags:
 - omnistructure
 - engine
 - canon/knowledge
-- engine-moc
-- knowledge-moc
-- kernel-moc
-- 00-home
 status: active
 provenance: VERIFIED
 confidence: VERIFIED

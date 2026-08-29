@@ -8,7 +8,6 @@ tags:
 - llm-wiki
 - karpathy-llm-wiki-summary
 - llm-wiki-raw-readme
-- llm-wiki-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

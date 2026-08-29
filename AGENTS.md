@@ -8,7 +8,6 @@ tags:
 - epistemic/amos_model
 - ratpak
 - memory
-- 00-home
 - amos-home
 rscf:
   state: DERIVED

@@ -8,12 +8,7 @@ tags:
 - l_low_scale
 - contract
 - domain/cognitive-matrix
-- 00-root-moc
-- amos-moc
 - hml-canon
-- cognitive-matrix-moc
-- 00-home
-- l-low-scale-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

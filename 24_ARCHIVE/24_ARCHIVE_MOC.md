@@ -7,12 +7,8 @@ tags:
 - canon/archive
 - archive-archive-contract
 - archive-readme
-- 00-index-moc
-- 00-legacy-moc
-- 01-deprecated-moc
-- 02-superseded-moc
-- 03-experimental-moc
 - amos-home
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

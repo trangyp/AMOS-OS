@@ -6,8 +6,6 @@ tags:
 - quality
 - evaluation
 - analogy-quality-evaluation
-- kernel-moc
-- 00-home
 ---
 
 # analogy quality evaluation

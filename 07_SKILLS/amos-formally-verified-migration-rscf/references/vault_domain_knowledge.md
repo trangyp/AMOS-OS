@@ -10,12 +10,8 @@ tags:
 - equation-firewall
 - 2026-08-22-trang-phi-framework
 - 2026-08-22-devin-memory-update
-- 00-home
 - 2026-08-22-executable-brain-model-lineage
-- amos-rscf-nodes
 - law-hierarchy
-- references-moc
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

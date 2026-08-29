@@ -6,8 +6,6 @@ tags:
 - l16-planning
 - domain/cognitive-matrix
 - cognitive-matrix-l16-planning-contract
-- 00-index-moc
-- 01-primitives-moc
 - l16-planning-primitives-cognitive-matrix-agents
 - l16-planning-primitives-cognitive-matrix-equations
 - l16-planning-primitives-cognitive-matrix-hml
@@ -23,6 +21,7 @@ tags:
 - l16-planning-primitives-cognitive-matrix-tests
 - l16-planning-primitives-cognitive-matrix-variables
 - l16-planning-primitives-cognitive-matrix-workflows
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

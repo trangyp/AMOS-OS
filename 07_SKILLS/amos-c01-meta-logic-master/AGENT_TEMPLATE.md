@@ -7,7 +7,6 @@ tags:
 - amos-c01-meta-logic-master
 - type/skill
 - skill
-- amos-c01-meta-logic-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

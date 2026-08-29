@@ -6,8 +6,6 @@ tags:
 - l14-valuation
 - domain/cognitive-matrix
 - cognitive-matrix-l14-valuation-contract
-- 00-index-moc
-- 01-primitives-moc
 - l14-valuation-primitives-cognitive-matrix-agents
 - l14-valuation-primitives-cognitive-matrix-hml
 - l14-valuation-primitives-cognitive-matrix-memory
@@ -18,6 +16,7 @@ tags:
 - l14-valuation-primitives-cognitive-matrix-skills
 - l14-valuation-primitives-cognitive-matrix-state
 - l14-valuation-primitives-cognitive-matrix-tests
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

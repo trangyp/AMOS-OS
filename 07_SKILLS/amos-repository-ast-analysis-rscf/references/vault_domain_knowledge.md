@@ -6,12 +6,7 @@ tags:
 - reference
 - amos-repository-ast-analysis-rscf
 - type/skill
-- amos-repository-ast-analysis-rscf-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- references-moc
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: CONDITIONAL
@@ -100,7 +95,8 @@ Financial Infrastructure Ecosystem: 11 actor types
 
 Governance and Standards Ecosystem: 11 actor types
 
-Biological and Environmental Ecosystem: 10 actor types
+
+Biological and Environmental Ecosystem: 10 actor types
 
 Original Human-Digital Ecosystem: 14 actor types
 

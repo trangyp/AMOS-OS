@@ -6,8 +6,8 @@ tags:
 - 05-policies
 - canon/operations
 - amos-home
-- 05-policies-moc
 - trang-framework-recursive-ontology-dynamics
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

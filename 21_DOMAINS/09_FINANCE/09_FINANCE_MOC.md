@@ -13,8 +13,7 @@ tags:
 - macro-economy-kernel
 - omega-fx-structural-os
 - trang-zero-forex
-- 00-index-moc
-- 21-domains-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

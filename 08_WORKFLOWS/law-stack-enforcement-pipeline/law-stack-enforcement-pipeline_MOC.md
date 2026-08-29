@@ -6,7 +6,7 @@ tags:
 - law-stack-enforcement-pipeline
 - type/workflow
 - workflow
-- 08-workflows-moc
+moc: true
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

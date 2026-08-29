@@ -32,9 +32,6 @@ tags:
 - k-mvcc
 - k-cas
 - mvcc-cas
-- 01-core-laws-moc
-- 00-index-moc
-- 00-home
 rscf:
   state: CANON_LAW
   claim_class: CANONICAL_INVARIANT

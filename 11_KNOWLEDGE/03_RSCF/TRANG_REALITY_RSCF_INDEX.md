@@ -23,12 +23,9 @@ tags:
 - rscf
 - canon_candidate
 - canon/knowledge
-- 03-rscf-moc
 - trang-reality-architecture
 - trang-zero-framework
 - amos-x-trang-reality
-- 00-home
-- knowledge-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

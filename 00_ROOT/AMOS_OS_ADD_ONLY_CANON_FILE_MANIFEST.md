@@ -22,10 +22,7 @@ tags:
 - shard-local-finalization-canon
 - architecture
 - integration
-- 00-home
-- amos-rscf-nodes
 - canon
-- 00-cosmo-brain-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

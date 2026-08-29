@@ -11,7 +11,6 @@ rscf:
   falsifiers: []
 tags:
 - note
-- 00-index
 - generator-registry
 - generator-admission
 - generator-seed
@@ -40,13 +39,6 @@ tags:
 - generators-change-log
 - generators-history
 - generators-roadmap
-- 00-root-moc
-- amos-moc
-- 00-home
-- cognitive-matrix-moc
-- amos-rscf-nodes
-- index-generators-cognitive-matrix-readme
-- 00-index-moc
 canon-group: canon/cognitive-matrix
 ---
 

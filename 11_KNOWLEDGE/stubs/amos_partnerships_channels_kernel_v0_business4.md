@@ -7,8 +7,6 @@ tags:
 - channels
 - kernel
 - business
-- kernel-moc
-- 00-home
 - amos-partnerships-channels-kernel-v0-business4
 ---
 

@@ -7,8 +7,7 @@ tags:
 - type/skill
 - agent-template
 - skill
-- references-moc
-- 07-skills-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -8,12 +8,7 @@ tags:
 - c07_perception
 - contract
 - domain/cognitive-matrix
-- 00-root-moc
-- amos-moc
-- cognitive-matrix-moc
-- 00-home
 - cognitive-matrix-control-planes-contract
-- c07-perception-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

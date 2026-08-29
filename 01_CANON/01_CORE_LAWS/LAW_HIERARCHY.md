@@ -43,12 +43,10 @@ tags:
 - rscf/state/derived
 - topic/law-hierarchy
 - readme
-- 00-root-moc
 - architecture
 - system-map
 - authoritative-state
 - placement-rules
-- 00-root-naming-standard
 - canon-map
 - amos-core-laws
 - invariant-registry
@@ -63,10 +61,6 @@ tags:
 - security-map
 - test-map
 - operations-map
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 01-core-laws-moc
 aliases:
 - AMOS Law Hierarchy - AMOS Canon Law Hierarchy - AMOS Authority Hierarchy - AMOS
   Precedence M

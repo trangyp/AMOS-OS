@@ -11,10 +11,6 @@ tags:
 - control-plane
 - rscf
 - canon/universe
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 - law/L0-integrity
 - law/L1-epistemic
@@ -27,7 +23,6 @@ tags:
 - routing-policy
 - authority-resolver
 - authority-witness
-- 01-core-laws-moc
 title: L8 Execution Laws
 origin_architect: Trang Phan
 updated: '2026-08-26'

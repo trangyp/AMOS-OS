@@ -23,11 +23,8 @@ tags:
 - rscf
 - canon_candidate
 - canon/runtime
-- 06-execution-moc
 - ubi-x-cognition-matrix
 - amos-mind-os-framework
-- 00-home
-- 04-runtime-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

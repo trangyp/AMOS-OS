@@ -6,8 +6,6 @@ tags:
 - substrate
 - reality
 - gate
-- kernel-moc
-- 00-home
 - 2026-08-22-cognitive-substrate-reality-gate
 ---
 

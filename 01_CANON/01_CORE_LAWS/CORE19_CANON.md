@@ -37,8 +37,6 @@ tags:
 - law-hierarchy
 - core-law-crosswalk
 - references
-- 00-home
-- amos-rscf-nodes
 - kernel-readme
 - control-plane-readme
 - observability-readme

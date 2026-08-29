@@ -7,8 +7,6 @@ tags:
 - stack
 - core
 - amos-quantum-stack-v0-core
-- kernel-moc
-- 00-home
 ---
 
 # amos quantum stack v0 core

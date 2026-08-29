@@ -5,8 +5,6 @@ tags:
 - provenance
 - topology
 - provenance-topology
-- kernel-moc
-- 00-home
 ---
 
 # provenance topology

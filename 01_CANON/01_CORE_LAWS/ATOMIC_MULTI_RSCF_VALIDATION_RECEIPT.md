@@ -28,8 +28,6 @@ tags:
 - canon/universe
 - rscf/type-evidence
 - rscf/P-repair
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 - atomic-multi-rscf
 - atomic-multi-rscf-reasoning
@@ -43,10 +41,7 @@ tags:
 - l23-mvcc-cas
 - l24-causal-epoch
 - l25-shard-local
-- 01-core-laws-moc
 - trang-framework-recursive-ontology-dynamics
-- 00-root-moc
-- amos-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: VALIDATION_RECEIPT

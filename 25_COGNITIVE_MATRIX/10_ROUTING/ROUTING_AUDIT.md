@@ -34,11 +34,7 @@ tags:
 - rscf
 - identity: -None
 - placeholder_expanded
-- 10-routing-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- 25-cognitive-matrix-moc
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED

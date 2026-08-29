@@ -1,11 +1,9 @@
 ---
 title: learning moc
 tags:
+moc: true
 - stub
 - learning
-- learning-moc
-- kernel-moc
-- 00-home
 ---
 
 # learning moc

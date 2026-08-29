@@ -19,7 +19,6 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos-os
-- 08-workflows-moc
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

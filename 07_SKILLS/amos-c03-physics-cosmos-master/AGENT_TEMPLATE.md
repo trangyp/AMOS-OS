@@ -7,7 +7,6 @@ tags:
 - amos-c03-physics-cosmos-master
 - type/skill
 - skill
-- amos-c03-physics-cosmos-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -8,8 +8,6 @@ tags:
 - kernel
 - biz
 - market
-- kernel-moc
-- 00-home
 - amos-revenue-architecture-kernel-v0-biz-market3
 ---
 

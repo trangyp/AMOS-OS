@@ -14,7 +14,6 @@ tags:
 - rscf/state/observation
 - topic/tech-engine
 - engine
-- engine-moc
 - trang-framework-recursive-ontology-dynamics
 created: 2026-08-22
 rscf:

@@ -22,10 +22,6 @@ tags:
 - cross-domain-reasoning
 - rscf/claim
 - rscf/state/canonical
-- 00-home
-- 00-root-moc
-- 02-kernel-moc
-- 11-knowledge-moc
 aliases:
 - Domains Kernel
 - K_DOMAINS

@@ -23,12 +23,7 @@ tags:
 - validation
 - memory
 - integration
-- 07-skills-moc
-- amos-7-part-universe-canon-full-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- references-moc
 - trang-framework-recursive-ontology-dynamics
 - skill
 rscf:

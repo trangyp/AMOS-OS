@@ -52,13 +52,9 @@ tags:
 - vn-nab-legal-audit-report
 - vn-shareholder-board-report
 - vn-technical-legal-terms
-- amos-c09-org-law-policy-master-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- references-moc
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
+moc: true
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

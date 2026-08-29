@@ -14,7 +14,6 @@ tags:
 - rscf/state/observation
 - topic/amos-super-fabrication
 - kernel
-- kernel-moc
 created: 2026-08-22
 rscf:
   state: CONDITIONAL

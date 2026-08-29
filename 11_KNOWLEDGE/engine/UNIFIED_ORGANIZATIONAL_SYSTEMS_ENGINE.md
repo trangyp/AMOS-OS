@@ -8,13 +8,10 @@ tags:
 - integration
 - architecture
 - delegation
-- 00-home
-- knowledge-moc
 - canon
 - amos-simulation-kernel-v0-math-foundations
 - system-scan-agent
 - automation-profiles
-- engine-moc
 - trang-framework-recursive-ontology-dynamics
 type: document
 source: 11_KNOWLEDGE/engine

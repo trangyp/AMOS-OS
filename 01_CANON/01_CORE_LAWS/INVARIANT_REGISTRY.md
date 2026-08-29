@@ -37,7 +37,6 @@ tags:
 - skill
 - workflow
 - readme
-- 00-root-moc
 - architecture
 - system-map
 - authoritative-state
@@ -55,10 +54,6 @@ tags:
 - security-map
 - test-map
 - operations-map
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 01-core-laws-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

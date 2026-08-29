@@ -3,8 +3,6 @@ title: velocity
 tags:
 - stub
 - velocity
-- kernel-moc
-- 00-home
 ---
 
 # velocity

@@ -60,11 +60,6 @@ tags:
 - control-plane-map
 - runtime-map
 - authoritative-state
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 01-meta-logic-moc
 aliases:
 - AMOS Law Hierarchy Kernel - Law Hierarchy Kernel - K Law Hierarchy - K_LAW_HIERARCHY
 ---

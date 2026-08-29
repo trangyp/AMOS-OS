@@ -10,9 +10,6 @@ tags:
 - atomic
 - k-mvcc
 - k-cas
-- 02-kernel-moc
-- 03-causal-moc
-- 00-home
 rscf:
   state: CANON_SPEC
   claim_class: AMOS_SYSTEM_CORE

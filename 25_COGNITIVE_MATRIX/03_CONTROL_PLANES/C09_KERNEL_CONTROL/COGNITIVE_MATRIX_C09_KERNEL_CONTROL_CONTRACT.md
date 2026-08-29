@@ -8,12 +8,7 @@ tags:
 - c09_kernel_control
 - contract
 - domain/cognitive-matrix
-- 00-root-moc
-- amos-moc
-- cognitive-matrix-moc
-- 00-home
 - cognitive-matrix-control-planes-contract
-- c09-kernel-control-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

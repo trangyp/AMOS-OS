@@ -14,8 +14,7 @@ tags:
 - strategy-domains-readme
 - tpe-domain-model
 - tss-domain-model
-- 00-index-moc
-- 21-domains-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

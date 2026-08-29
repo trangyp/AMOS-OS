@@ -6,10 +6,6 @@ tags:
 - reference
 - amos-scientific-assumption-semantic-differencing-rscf
 - type/skill
-- references-moc
-- 07-skills-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 - trang-framework-recursive-ontology-dynamics
 rscf:
@@ -202,7 +198,8 @@ approaches that begin with high-value, lower-complexity pilot projects before ex
 
 wide deployment:
 
-Pilot Selection Criteria: Pilot projects should be selected based on high impact potential, manageable
+
+Pilot Selection Criteria: Pilot projects should be selected based on high impact potential, manageable
 
 complexity, stakeholder support, and clear success metrics. Successful pilots provide proof-of-
 

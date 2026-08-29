@@ -9,9 +9,7 @@ tags:
 - supersession-canon-supersession-contract
 - supersession-map
 - law-hierarchy
-- amos-rscf-nodes
 - canon
-- 00-home
 - hml-canon
 - persistence-canon
 - kernel-readme
@@ -20,9 +18,6 @@ tags:
 - operations-readme
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
-- 00-root-moc
-- amos-moc
-- 00-index-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

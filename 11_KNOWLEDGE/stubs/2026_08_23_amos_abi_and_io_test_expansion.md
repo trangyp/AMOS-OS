@@ -6,8 +6,6 @@ tags:
 - abi
 - test
 - expansion
-- kernel-moc
-- 00-home
 - 2026-08-23-amos-abi-and-io-test-expansion
 ---
 

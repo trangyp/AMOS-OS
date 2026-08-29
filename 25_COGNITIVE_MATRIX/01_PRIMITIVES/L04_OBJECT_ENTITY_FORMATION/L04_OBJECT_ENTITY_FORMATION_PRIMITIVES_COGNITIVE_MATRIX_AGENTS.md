@@ -11,12 +11,6 @@ tags:
 - provenance
 - governance
 - domain/cognitive-matrix
-- 00-root-moc
-- amos-moc
-- 00-home
-- cognitive-matrix-moc
-- amos-rscf-nodes
-- l04-object-entity-formation-moc
 title: L04_OBJECT_ENTITY_FORMATION — Agents
 origin_architect: Trang Phan
 status: MODEL_AGENT_CONTRACT / UNIMPLEMENTED / UNVALIDATED

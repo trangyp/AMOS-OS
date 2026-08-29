@@ -7,10 +7,6 @@ tags:
 - amos-c10-tech-engineering-master
 - type/skill
 - skill
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- references-moc
 - amos-c10-tech-engineering-master-knowledge
 rscf:
   state: SOURCE_CLAIM

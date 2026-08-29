@@ -6,12 +6,9 @@ tags:
 - runtime
 - canon/knowledge
 - dignity
-- 00-home
-- knowledge-moc
 - system-scan-agent
 - automation-profiles
 - amos-simulation-kernel-v0-math-foundations
-- engine-moc
 type: document
 source: 11_KNOWLEDGE/engine
 rscf:

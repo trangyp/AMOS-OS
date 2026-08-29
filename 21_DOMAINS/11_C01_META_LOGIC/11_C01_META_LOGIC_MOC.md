@@ -8,8 +8,7 @@ tags:
 - c01-meta-logic-domains-domain-spec
 - c01-meta-logic-domains-readme
 - domains-c01-meta-logic-contract
-- 00-index-moc
-- 21-domains-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

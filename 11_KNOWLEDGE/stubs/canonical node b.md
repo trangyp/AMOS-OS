@@ -5,8 +5,6 @@ tags:
 - canon
 - node
 - canonical-node-b
-- kernel-moc
-- 00-home
 ---
 
 # canonical node b

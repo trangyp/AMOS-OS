@@ -7,8 +7,6 @@ tags:
 - supplychain
 - kernel
 - amos-operations-supplychain-kernel-v0
-- kernel-moc
-- 00-home
 ---
 
 # amos operations supplychain kernel v0

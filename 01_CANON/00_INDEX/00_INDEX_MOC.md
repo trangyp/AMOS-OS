@@ -3,7 +3,6 @@ title: Index MOC — Canon / Index
 type: moc
 source: 01_CANON/00_INDEX
 tags:
-- 00-index
 - canon/universe
 - amos-all-frameworks-canon-hierarchy
 - canon-active-legacy-matrix
@@ -31,10 +30,8 @@ tags:
 - canon-supersession-registry
 - canon-tradename-registry
 - canon-version-registry
-- index-canon-canon-contract
-- index-canon-readme
-- 01-canon-moc
 - trang-framework-recursive-ontology-dynamics
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

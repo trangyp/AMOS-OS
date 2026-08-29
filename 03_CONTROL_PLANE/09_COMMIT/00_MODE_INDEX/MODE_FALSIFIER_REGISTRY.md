@@ -26,11 +26,6 @@ tags:
 - registry
 - rscf
 - placeholder_expanded
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 00-mode-index-moc
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED

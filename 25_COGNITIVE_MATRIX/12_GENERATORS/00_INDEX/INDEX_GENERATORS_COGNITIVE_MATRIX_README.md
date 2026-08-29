@@ -11,13 +11,7 @@ rscf:
   falsifiers: []
 tags:
 - note
-- 00-index
 - readme
-- 00-root-moc
-- amos-moc
-- 00-home
-- cognitive-matrix-moc
-- amos-rscf-nodes
 - task-contract
 - task-resolver
 - capability-resolver
@@ -26,7 +20,6 @@ tags:
 - mode-conflict-registry
 - mode-coverage-matrix
 - mode-dependency-graph
-- index-routing-cognitive-matrix-readme
 - k-constraint-propagation
 - k-binding
 - k-rscf
@@ -39,7 +32,6 @@ tags:
 - k-counterfactual
 - k-translation
 - generators-cognitive-matrix-generators-contract
-- 00-index-moc
 canon-group: canon/cognitive-matrix
 ---
 

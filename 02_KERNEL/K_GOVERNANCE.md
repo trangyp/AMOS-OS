@@ -22,10 +22,6 @@ tags:
 - enforcement-gates
 - rscf/claim
 - rscf/state/canonical
-- 00-home
-- 00-root-moc
-- 02-kernel-moc
-- 05-governance-moc
 aliases:
 - Governance Kernel
 - K_GOVERNANCE

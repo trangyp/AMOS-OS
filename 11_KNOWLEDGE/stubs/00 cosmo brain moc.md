@@ -4,9 +4,6 @@ tags:
 - stub
 - cosmo
 - brain
-- 00-cosmo-brain-moc
-- kernel-moc
-- 00-home
 ---
 
 # 00 cosmo brain moc

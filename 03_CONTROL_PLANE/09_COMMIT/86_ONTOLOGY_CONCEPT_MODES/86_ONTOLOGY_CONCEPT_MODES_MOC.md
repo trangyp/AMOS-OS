@@ -5,8 +5,8 @@ source: 03_CONTROL_PLANE/09_COMMIT/86_ONTOLOGY_CONCEPT_MODES
 tags:
 - 86-ontology-concept-modes
 - canon/control-plane
-- 09-commit-moc
 - ontology-concept-modes-commit-control-plane-readme
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

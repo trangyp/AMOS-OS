@@ -38,12 +38,8 @@ tags:
 - rscf
 - canon_candidate
 - domain/cognitive-matrix
-- 00-root-moc
-- 00-home
-- amos-rscf-nodes
 - amos-x-qls
 - amos-x-qls-qcla-matrix
-- 25-cognitive-matrix-moc
 - law-hierarchy
 version: 1.0.0
 updated: '2026-08-27'

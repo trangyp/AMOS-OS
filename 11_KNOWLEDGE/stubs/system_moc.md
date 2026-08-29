@@ -1,11 +1,9 @@
 ---
 title: system moc
 tags:
+moc: true
 - stub
 - system
-- system-moc
-- kernel-moc
-- 00-home
 ---
 
 # system moc

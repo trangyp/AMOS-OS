@@ -7,8 +7,6 @@ tags:
 - kernel
 - domains
 - amos-vomni-kernel-v0-domains7
-- kernel-moc
-- 00-home
 ---
 
 # amos vomni kernel v0 domains7

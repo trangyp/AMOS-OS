@@ -22,10 +22,6 @@ tags:
 - cross-layer-binding
 - rscf/claim
 - rscf/state/canonical
-- 00-home
-- 00-root-moc
-- 02-kernel-moc
-- 09-integration-moc
 aliases:
 - Universe AMOS Binding Kernel
 - K_UNIVERSE_AMOS_BINDING

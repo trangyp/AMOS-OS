@@ -14,7 +14,6 @@ tags:
 - rscf/state/observation
 - topic/amos-uni-system-operations-engine-v0
 - engine
-- engine-moc
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL

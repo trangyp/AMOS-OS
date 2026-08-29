@@ -1,11 +1,9 @@
 ---
 title: qfm moc
 tags:
+moc: true
 - stub
 - qfm
-- qfm-moc
-- kernel-moc
-- 00-home
 ---
 
 # qfm moc

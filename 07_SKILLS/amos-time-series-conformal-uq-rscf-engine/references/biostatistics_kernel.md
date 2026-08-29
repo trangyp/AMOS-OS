@@ -6,12 +6,7 @@ tags:
 - reference
 - amos-time-series-conformal-uq-rscf-engine
 - type/skill
-- cosmo-brain-moc
-- references-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

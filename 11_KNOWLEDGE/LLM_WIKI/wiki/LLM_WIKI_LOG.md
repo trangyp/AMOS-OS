@@ -7,7 +7,6 @@ tags:
 - llm-wiki
 - canon/knowledge
 - karpathy-llm-wiki-summary
-- llm-wiki-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -8,12 +8,7 @@ tags:
 - type/skill
 - architecture
 - integration
-- amos-super-engines-master-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- references-moc
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

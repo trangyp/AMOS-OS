@@ -8,11 +8,7 @@ tags:
 - resilience
 - fail_closed
 - rscf
-- 04-runtime-moc
-- 02-kernel-moc
 - heritage-x-trang-zero-matrix
-- 03-causal-moc
-- 00-home
 rscf:
   state: CANON_SPEC
   claim_class: AMOS_SYSTEM_CORE
@@ -21,10 +17,10 @@ rscf:
 
 # K_FAILURE_RECOVERY — Failure Recovery Kernel
 
- provides deterministic fail-closed recovery protocols, state rollback mechanisms, and null-state reset basins ($) across AMOS OS runtime layers.
+ provides deterministic fail-closed recovery protocols, state rollback mechanisms, and null-state reset basins ($S_0$) across AMOS OS runtime layers.
 
 ## Core Invariants
-- $	ext{Failure}(x) \implies 	ext{Rollback}(x) \lor 	ext{Reset}(S_0)$
+- $\text{Failure}(x) \implies \text{Rollback}(x) \lor \text{Reset}(S_0)$
 - No speculative continuation on unhandled exceptions.
 - Emits cryptographic error capsules and post-incident verification receipts.
 

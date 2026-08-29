@@ -24,11 +24,8 @@ tags:
 - canon_candidate
 - canon/domain
 - tpe-trang-prediction-engine
-- 04-strategy-moc
 - amos-x-tpe
 - tss-seven-cycles
-- 00-home
-- 21-domains-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

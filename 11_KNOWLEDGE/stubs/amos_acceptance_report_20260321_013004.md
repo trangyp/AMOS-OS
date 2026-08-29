@@ -6,8 +6,6 @@ tags:
 - acceptance
 - report
 - amos-acceptance-report-20260321-013004
-- kernel-moc
-- 00-home
 ---
 
 # amos acceptance report 20260321 013004

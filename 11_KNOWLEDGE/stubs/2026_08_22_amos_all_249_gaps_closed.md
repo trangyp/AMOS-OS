@@ -7,8 +7,6 @@ tags:
 - gaps
 - closed
 - 2026-08-22-amos-all-249-gaps-closed
-- kernel-moc
-- 00-home
 ---
 
 # 2026 08 22 amos all 249 gaps closed

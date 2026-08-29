@@ -7,9 +7,8 @@ tags:
 - canon/operating-model
 - governance-forums
 - governance-forums-operating-model-readme
-- 00-index-moc
-- 23-operating-model-moc
 - operating-model-governance-forums-contract
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

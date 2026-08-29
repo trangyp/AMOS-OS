@@ -40,11 +40,7 @@ tags:
 - rscf
 - canon_candidate
 - domain/cognitive-matrix
-- 00-root-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- 25-cognitive-matrix-moc
 - trang-reality-architecture
 - ubi
 version: 1.0.0

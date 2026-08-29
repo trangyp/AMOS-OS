@@ -5,9 +5,9 @@ source: 03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/05_MEASURE
 tags:
 - 05-measure
 - canon/control-plane
-- 06-reasoning-modes-moc
 - reasoning-modes-commit-control-plane-mode-spec
 - reasoning-modes-commit-control-plane-provenance
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

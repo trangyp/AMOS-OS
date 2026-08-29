@@ -26,9 +26,6 @@ tags:
 - bio-logical-architecture
 - unified-biological-intelligence
 - amos-organism-os-framework
-- 00-home
-- 21-domains-moc
-- 05-design-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

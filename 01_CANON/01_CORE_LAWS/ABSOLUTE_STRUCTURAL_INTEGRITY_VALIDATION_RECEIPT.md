@@ -24,14 +24,9 @@ tags:
 - rscf
 - validation_receipt
 - canon/core
-- 00-home
-- amos-rscf-nodes
-- 01-core-laws-moc
 - amos-core
 - law-hierarchy
 - amos-core-all-versions-fractal-knowledge-network
-- 00-root-moc
-- amos-moc
 version: 0.2.0
 updated: '2026-08-28'
 status: RECEIPT_SLOT_DEFINED

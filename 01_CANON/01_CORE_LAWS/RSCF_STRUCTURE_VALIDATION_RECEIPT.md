@@ -7,11 +7,8 @@ tags:
 - validation
 - rscf
 - pass
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 - l17-rscf
-- 01-core-laws-moc
 - trang-framework-recursive-ontology-dynamics
 ---
 

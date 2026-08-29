@@ -8,11 +8,6 @@ tags:
 - canon/archive
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 01-deprecated-moc
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

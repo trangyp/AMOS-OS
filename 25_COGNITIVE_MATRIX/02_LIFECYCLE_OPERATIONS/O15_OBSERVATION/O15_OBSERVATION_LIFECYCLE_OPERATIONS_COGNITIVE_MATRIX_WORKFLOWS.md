@@ -6,10 +6,6 @@ tags:
 - note
 - o15-observation
 - domain/cognitive-matrix
-- cognitive-matrix-moc
-- 00-root-moc
-- amos-moc
-- o15-observation-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

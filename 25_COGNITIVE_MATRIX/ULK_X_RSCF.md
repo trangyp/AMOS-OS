@@ -22,9 +22,6 @@ tags:
 - ulk-x-rscf
 - l19-proof-capsule
 - ulk-x-rscf-matrix
-- 25-cognitive-matrix-moc
-- 00-home
-- amos-rscf-nodes
 - k-provenance
 - k-fail-closed
 - amos-core-v4-4

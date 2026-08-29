@@ -9,7 +9,7 @@ tags:
 - bioelectromagnetic-intelligence-bei
 - somatic-intelligence-si
 - ubi-homeostasis
-- 05-cognitive-organism-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

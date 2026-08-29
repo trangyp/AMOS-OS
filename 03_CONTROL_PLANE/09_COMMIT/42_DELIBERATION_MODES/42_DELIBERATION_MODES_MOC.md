@@ -5,8 +5,8 @@ source: 03_CONTROL_PLANE/09_COMMIT/42_DELIBERATION_MODES
 tags:
 - 42-deliberation-modes
 - canon/control-plane
-- 09-commit-moc
 - deliberation-modes-commit-control-plane-readme
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

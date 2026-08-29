@@ -75,10 +75,6 @@ tags:
 - scope
 - regime
 - validation
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 - kernel-readme
 - control-plane-readme
@@ -86,7 +82,6 @@ tags:
 - operations-readme
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
-- 03-cognition-canon-moc
 title: AMOS Cognition Canon
 type: canon
 updated: 2026-08-27

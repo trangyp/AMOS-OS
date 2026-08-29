@@ -6,7 +6,6 @@ tags:
 - note
 - 07-skills
 - type/skill
-- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -27,9 +27,6 @@ tags:
 - canon/knowledge
 - unified-biological-intelligence
 - amos-x-ubi
-- 00-home
-- knowledge-moc
-- 05-frameworks-moc
 - ubi-cognition-binding
 version: 1.0.0
 updated: '2026-08-27'

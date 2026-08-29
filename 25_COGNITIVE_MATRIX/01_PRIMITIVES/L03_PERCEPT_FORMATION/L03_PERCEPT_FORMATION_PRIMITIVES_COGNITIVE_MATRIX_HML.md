@@ -12,12 +12,6 @@ tags:
 - provenance
 - governance
 - domain/cognitive-matrix
-- 00-root-moc
-- amos-moc
-- 00-home
-- cognitive-matrix-moc
-- amos-rscf-nodes
-- l03-percept-formation-moc
 title: L03_PERCEPT_FORMATION — HML
 origin_architect: Trang Phan
 status: MODEL_HML_CONTRACT / UNIMPLEMENTED / UNVALIDATED

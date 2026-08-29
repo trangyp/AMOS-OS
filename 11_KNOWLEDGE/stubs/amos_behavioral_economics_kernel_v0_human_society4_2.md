@@ -8,8 +8,6 @@ tags:
 - kernel
 - human
 - society
-- kernel-moc
-- 00-home
 ---
 
 # amos behavioral economics kernel v0 human society4 2

@@ -12,11 +12,6 @@ tags:
 - control-plane-readme
 - observability-readme
 - operations-readme
-- 00-root-moc
-- amos-moc
-- cognitive-matrix-moc
-- 00-home
-- 03-control-planes-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

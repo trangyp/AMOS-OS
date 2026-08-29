@@ -11,9 +11,6 @@ tags:
 - domain/tech-engineering
 - amos-os
 - skill
-- 08-workflows-moc
-- law-stack-enforcement-pipeline-moc
-- 00-home
 ---
 
 # Workflow: Kimi K3 in C

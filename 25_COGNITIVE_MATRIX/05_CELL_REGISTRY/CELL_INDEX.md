@@ -6,10 +6,6 @@ tags:
 - note
 - 05-cell-registry
 - domain/cognitive-matrix
-- cognitive-matrix-moc
-- 00-root-moc
-- amos-moc
-- 05-cell-registry-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

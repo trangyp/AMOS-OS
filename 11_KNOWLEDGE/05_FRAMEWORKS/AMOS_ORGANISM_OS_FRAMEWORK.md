@@ -27,9 +27,6 @@ tags:
 - unified-biological-intelligence
 - amos-mind-os-framework
 - asea-adaptive-self-evolution-ai
-- 00-home
-- knowledge-moc
-- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

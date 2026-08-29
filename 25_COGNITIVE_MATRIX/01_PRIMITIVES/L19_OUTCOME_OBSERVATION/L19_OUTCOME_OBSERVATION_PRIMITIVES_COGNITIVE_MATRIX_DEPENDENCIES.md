@@ -6,10 +6,6 @@ tags:
 - note
 - l19-outcome-observation
 - domain/cognitive-matrix
-- cognitive-matrix-moc
-- 00-root-moc
-- amos-moc
-- l19-outcome-observation-moc
 - l18-action-primitives-cognitive-matrix-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:

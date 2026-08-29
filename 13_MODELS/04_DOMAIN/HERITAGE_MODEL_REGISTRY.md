@@ -16,9 +16,6 @@ tags:
 - control-plane-readme
 - observability-readme
 - operations-readme
-- 00-home
-- amos-rscf-nodes
-- 04-domain-moc
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - rscf/claim

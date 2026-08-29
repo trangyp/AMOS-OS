@@ -12,8 +12,7 @@ tags:
 - llm-wiki-raw-readme
 - amos-llm-wiki-tool
 - karpathy-llm-wiki-summary
-- knowledge-moc
-- 00-root-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

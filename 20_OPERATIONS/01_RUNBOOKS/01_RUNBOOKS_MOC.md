@@ -6,8 +6,8 @@ tags:
 - 01-runbooks
 - canon/operations
 - amos-home
-- 01-runbooks-moc
 - trang-framework-recursive-ontology-dynamics
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

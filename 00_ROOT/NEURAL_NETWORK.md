@@ -74,13 +74,11 @@ tags:
 - topic/knowledge-graph
 - topic/vault-navigation
 - readme
-- 00-root-moc
 - architecture
 - full-tree
 - system-map
 - dependency-map
 - authoritative-state
-- 00-root-naming-standard
 - placement-rules
 - roadmap
 - canon-map
@@ -104,14 +102,9 @@ tags:
 - test-map
 - operations-map
 - domain-alias-map
-- index-research-readme
 - legacy-archive-readme
 - cognitive-matrix-architecture
 - rscf-node-index
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 00-cosmo-brain-moc
 aliases:
 - AMOS Neural Network - AMOS Vault Neural Network - AMOS Knowledge Graph Hub - AMOS
   OS Graph H

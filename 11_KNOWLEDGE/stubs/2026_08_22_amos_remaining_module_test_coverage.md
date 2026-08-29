@@ -7,8 +7,6 @@ tags:
 - module
 - test
 - coverage
-- kernel-moc
-- 00-home
 - 2026-08-22-amos-remaining-module-test-coverage
 ---
 

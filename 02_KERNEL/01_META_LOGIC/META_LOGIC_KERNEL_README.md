@@ -40,10 +40,6 @@ tags:
 - recovery
 - trang_framework
 - readme
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
 - kernel-readme
 - kernel-meta-logic-contract
 - k-core19-logic
@@ -56,7 +52,6 @@ tags:
 - operations-readme
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
-- 01-meta-logic-moc
 - trang-framework-recursive-ontology-dynamics
 version: 0.2.0
 updated: '2026-08-27'

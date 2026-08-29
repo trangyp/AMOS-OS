@@ -43,8 +43,6 @@ tags:
 - control-plane-readme
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
-- 00-home
-- amos-rscf-nodes
 - kernel-readme
 - observability-readme
 - operations-readme

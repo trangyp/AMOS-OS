@@ -54,13 +54,9 @@ tags:
 - v43-shard-local-finalization
 - v44-coordination-avoidance-detailed
 - vault-domain-knowledge
-- amos-os-runtime-master-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- references-moc
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
+moc: true
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

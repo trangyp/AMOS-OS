@@ -38,12 +38,7 @@ tags:
 - amos-content-agent-matrix-system
 - environment-scan-agent
 - agent-template
-- amos-knowledge-research-master-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- 07-skills-moc
-- references-moc
 - trang-framework-recursive-ontology-dynamics
 - skill
 rscf:

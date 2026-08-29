@@ -12,10 +12,6 @@ tags:
 - rscf/state/observation
 - topic/amos-consciousness-engine-layer
 - engine
-- engine-moc
-- knowledge-moc
-- kernel-moc
-- 00-home
 status: index
 provenance: SOURCE_CLAIM
 confidence: VERIFIED

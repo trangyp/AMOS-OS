@@ -35,9 +35,6 @@ tags:
 - operations-readme
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
-- 00-home
-- amos-rscf-nodes
-- 02-universe-canon-moc
 version: 0.1.0
 updated: '2026-08-27'
 status: PLACEHOLDER

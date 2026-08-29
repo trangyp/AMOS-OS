@@ -7,8 +7,6 @@ tags:
 - gmef
 - gate
 - integration
-- kernel-moc
-- 00-home
 ---
 
 # 2026 08 23 amos authority and gmef gate integration

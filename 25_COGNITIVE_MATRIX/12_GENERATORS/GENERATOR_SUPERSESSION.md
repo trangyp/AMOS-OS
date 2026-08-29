@@ -13,12 +13,7 @@ tags:
 - note
 - 12-generators
 - readme
-- 00-root-moc
-- amos-moc
-- 00-home
 - generators-map
-- cognitive-matrix-moc
-- amos-rscf-nodes
 - generator-registry
 - generator-seed
 - generator-output
@@ -35,7 +30,6 @@ tags:
 - k-binding
 - k-constraint-propagation
 - k-rscf
-- 12-generators-moc
 canon-group: canon/cognitive-matrix
 ---
 

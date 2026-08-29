@@ -15,12 +15,9 @@ tags:
 - topic/ev-kernel-model
 - kernel
 - validation
-- 00-home
-- knowledge-moc
 - system-scan-agent
 - automation-profiles
 - amos-simulation-kernel-v0-math-foundations
-- kernel-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

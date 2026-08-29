@@ -5,8 +5,6 @@ tags:
 - automation
 - profiles
 - automation-profiles
-- kernel-moc
-- 00-home
 ---
 
 # automation profiles

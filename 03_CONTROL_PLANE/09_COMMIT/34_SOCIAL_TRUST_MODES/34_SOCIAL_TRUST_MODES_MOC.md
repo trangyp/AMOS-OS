@@ -5,8 +5,8 @@ source: 03_CONTROL_PLANE/09_COMMIT/34_SOCIAL_TRUST_MODES
 tags:
 - 34-social-trust-modes
 - canon/control-plane
-- 09-commit-moc
 - social-trust-modes-commit-control-plane-readme
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

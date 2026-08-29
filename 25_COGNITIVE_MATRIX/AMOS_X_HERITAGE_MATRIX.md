@@ -16,14 +16,9 @@ tags:
 - provenance
 - rscf
 - domain/cognitive-matrix
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
 - amos-cognitive-architecture-matrix
 - amos-full-brain-os-architecture
 - law-hierarchy
-- 25-cognitive-matrix-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

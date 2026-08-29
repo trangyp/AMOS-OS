@@ -18,9 +18,6 @@ tags:
 - topic/security-control-access
 - topic/pipeline-governance
 - canon/knowledge
-- 00-home
-- knowledge-moc
-- 11-knowledge-moc
 - access-control
 - bounded-intelligence-security
 - amos-cross-domain-tensor-composition-governor

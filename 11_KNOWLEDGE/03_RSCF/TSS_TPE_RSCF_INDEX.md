@@ -24,12 +24,9 @@ tags:
 - rscf
 - canon_candidate
 - canon/knowledge
-- 03-rscf-moc
 - tss-the-trang-system
 - tpe-trang-prediction-engine
 - amos-x-tss-tpe-matrix
-- 00-home
-- knowledge-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

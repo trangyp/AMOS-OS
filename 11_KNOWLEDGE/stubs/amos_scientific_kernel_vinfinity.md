@@ -7,8 +7,6 @@ tags:
 - kernel
 - vinfinity
 - amos-scientific-kernel-vinfinity
-- kernel-moc
-- 00-home
 ---
 
 # amos scientific kernel vinfinity

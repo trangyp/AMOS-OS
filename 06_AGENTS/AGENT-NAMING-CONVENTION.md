@@ -6,8 +6,6 @@ tags:
 - note
 - vault
 - canon/agent
-- 00-home
-- 06-agents-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

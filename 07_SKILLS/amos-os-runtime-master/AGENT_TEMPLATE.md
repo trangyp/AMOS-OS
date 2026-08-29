@@ -7,7 +7,6 @@ tags:
 - amos-os-runtime-master
 - type/skill
 - skill
-- amos-os-runtime-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

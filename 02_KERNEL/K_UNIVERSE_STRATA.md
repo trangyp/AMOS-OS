@@ -22,9 +22,6 @@ tags:
 - multi-scale-physics
 - rscf/claim
 - rscf/state/canonical
-- 00-home
-- 00-root-moc
-- 02-kernel-moc
 aliases:
 - Universe Strata Kernel
 - K_UNIVERSE_STRATA

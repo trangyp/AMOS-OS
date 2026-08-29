@@ -5,8 +5,8 @@ source: 03_CONTROL_PLANE/09_COMMIT/44_ANALOGY_TRANSFER_MODES
 tags:
 - 44-analogy-transfer-modes
 - canon/control-plane
-- 09-commit-moc
 - analogy-transfer-modes-commit-control-plane-readme
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

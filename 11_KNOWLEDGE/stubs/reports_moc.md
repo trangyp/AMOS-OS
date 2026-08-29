@@ -1,11 +1,9 @@
 ---
 title: reports moc
 tags:
+moc: true
 - stub
 - reports
-- reports-moc
-- kernel-moc
-- 00-home
 ---
 
 # reports moc

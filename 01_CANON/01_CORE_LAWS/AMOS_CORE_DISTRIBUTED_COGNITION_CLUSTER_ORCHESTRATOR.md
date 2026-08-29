@@ -42,8 +42,6 @@ tags:
 - memory
 - l19-proof-capsule
 - canon
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 - kernel-readme
 - control-plane-readme

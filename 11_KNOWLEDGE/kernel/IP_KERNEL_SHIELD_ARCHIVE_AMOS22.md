@@ -14,8 +14,6 @@ tags:
 - rscf/state/source-claim
 - topic/ip-kernel-shield
 - kernel
-- 00-cosmo-brain-moc
-- kernel-moc
 created: 2026-08-22
 rscf:
   state: SOURCE_CLAIM

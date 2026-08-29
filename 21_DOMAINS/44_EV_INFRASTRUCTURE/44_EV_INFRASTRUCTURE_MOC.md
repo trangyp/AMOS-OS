@@ -7,8 +7,7 @@ tags:
 - canon/domain
 - domains-ev-infrastructure-contract
 - ev-infrastructure-domains-readme
-- 00-index-moc
-- 21-domains-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -5,10 +5,9 @@ source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L08_REPRESENTATION
 tags:
 - l08-representation
 - domain/cognitive-matrix
-- 00-index-moc
-- 01-primitives-moc
 - cognitive-matrix-l08-representation-contract
 - l08-representation-primitives-cognitive-matrix-hml
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

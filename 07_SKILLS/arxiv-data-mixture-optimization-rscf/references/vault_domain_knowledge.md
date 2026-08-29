@@ -6,13 +6,8 @@ tags:
 - reference
 - arxiv-data-mixture-optimization-rscf
 - type/skill
-- cosmo-brain-moc
 - 2026-08-22-amos-all-249-gaps-closed
-- references-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

@@ -32,8 +32,6 @@ tags:
 - reality-x-ulk
 - architecture
 - trang-reality-architecture
-- cognitive-matrix-moc
-- 00-home
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

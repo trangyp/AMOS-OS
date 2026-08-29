@@ -10,9 +10,6 @@ tags:
 - rscf
 - k-cas
 - k-atomic-multi-rscf
-- 02-kernel-moc
-- 03-causal-moc
-- 00-home
 rscf:
   state: CANON_SPEC
   claim_class: AMOS_SYSTEM_CORE
@@ -25,8 +22,8 @@ rscf:
 
 ## Core Invariants
 - Snapshot isolation prevents dirty reads across reasoning loops.
-- Every state version $ is immutable and cryptographically signed.
-- Transitions must satisfy $	ext{CommitTimestamp} > 	ext{ReadTimestamp}$.
+- Every state version $v$ is immutable and cryptographically signed.
+- Transitions must satisfy $\text{CommitTimestamp} > \text{ReadTimestamp}$.
 
 ## Related
 - [[K_CAS]] · [[K_ATOMIC_MULTI_RSCF]] · [[02_KERNEL_MOC]]

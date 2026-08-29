@@ -5,8 +5,6 @@ tags:
 - lead
 - time
 - lead-time
-- kernel-moc
-- 00-home
 ---
 
 # lead time

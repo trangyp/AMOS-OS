@@ -3,8 +3,6 @@ title: rscf
 tags:
 - stub
 - rscf
-- kernel-moc
-- 00-home
 ---
 
 # rscf

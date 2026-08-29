@@ -45,8 +45,6 @@ tags:
 - k-core19-logic
 - k-meta-logic
 - readme
-- 00-root-moc
-- amos-moc
 - architecture
 - dependency-map
 - authoritative-state
@@ -66,9 +64,6 @@ tags:
 - k-multi-hypothesis
 - control-plane-map
 - runtime-map
-- 00-home
-- amos-rscf-nodes
-- 03-causal-moc
 aliases:
 - AMOS Causal Hierarchy Kernel - Causal Hierarchy Kernel - K Causal Hierarchy - K_CAUSAL_HIERA
 ---

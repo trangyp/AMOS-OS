@@ -9,9 +9,6 @@ tags:
 - canon
 - khung-trang-equations
 - khung-trang-canon
-- 02-universe-canon-moc
-- 00-home
-- amos-rscf-nodes
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: CANON_SPEC

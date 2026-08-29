@@ -9,7 +9,7 @@ tags:
 - framework-claim-registry
 - heritage-claim-registry
 - ubi-claim-registry
-- knowledge-moc
+moc: true
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

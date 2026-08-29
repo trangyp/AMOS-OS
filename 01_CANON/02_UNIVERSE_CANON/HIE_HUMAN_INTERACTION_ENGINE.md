@@ -29,10 +29,7 @@ tags:
 - epistemic_regime
 - universe_canon
 - rscf
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- 02-universe-canon-moc
 - khung-trang-master
 - cil-culture-interface-layer
 - universe-canon-contract
@@ -46,7 +43,6 @@ tags:
 - l23-mvcc-cas
 - l24-causal-epoch
 - trang-framework-recursive-ontology-dynamics
-- 00-root-moc
 ---
 
 # HIE Human Interaction Engine> [!abstract] Canon Function> **HIE — Human Interaction Engine** governs the **7-layer human-agent interaction envelopes** with **strict safety tone governance**.>> HIE is the Universe Canon interface responsible for controlling how agent reasoning, knowledge, uncertainty, recommendations, decisions, and actions are exposed to a human participant.>> Its governing objective is not merely to produce fluent conversation.>> Its objective is to preserve:>> **human agency + semantic fidelity + epistemic integrity + interaction safety + proportional tone + scope integrity + reversible action under uncertainty.**---

@@ -38,8 +38,6 @@ tags:
 - placeholder_expanded
 - memory
 - law-hierarchy
-- 00-home
-- amos-rscf-nodes
 - kernel-readme
 - control-plane-readme
 - observability-readme

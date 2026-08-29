@@ -12,12 +12,6 @@ tags:
 - rscf
 - hml
 - domain/cognitive-matrix
-- 00-root-moc
-- amos-moc
-- 00-home
-- cognitive-matrix-moc
-- amos-rscf-nodes
-- l03-percept-formation-moc
 title: L03_PERCEPT_FORMATION — Definition
 origin_architect: Trang Phan
 status: MODEL_DEFINITION_CONTRACT / UNIMPLEMENTED / UNVALIDATED

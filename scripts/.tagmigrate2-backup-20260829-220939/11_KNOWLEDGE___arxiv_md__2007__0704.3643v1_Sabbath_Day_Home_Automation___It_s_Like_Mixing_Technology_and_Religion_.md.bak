@@ -1,0 +1,1893 @@
+---
+title: 0704.3643v1 Sabbath Day Home Automation   It s Like Mixing Technology and Religion
+type: research-paper
+source: 11_KNOWLEDGE/_arxiv_md/2007
+tags:
+- 2007
+- canon/knowledge
+- architecture
+- moc-2007
+- knowledge-moc
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+---
+
+# 0704.3643v1 Sabbath Day Home Automation   It s Like Mixing Technology and Religion
+
+---
+AMOS_KNOWLEDGE_OBJECT:
+  schema_family: RSCF
+  schema_role: KNOWLEDGE_RSCF
+  schema_version: "AMOS_CORE_v4.4-compatible-conceptual"
+  object_status: ACTIVE_REFERENCE
+  ingestion_state: NORMALIZED_FROM_PRIMARY_SOURCE
+  mutation_policy: APPEND_OR_VERSION_NEVER_SILENT_OVERWRITE
+
+  # ============================================================
+  # 0. IDENTITY / ADDRESS
+  # ============================================================
+
+  identity:
+    node_id:
+      "RSCF.KNOWLEDGE.HCI.DOMESTIC_TECHNOLOGY.RELIGIOUS_AUTOMATION.0704_3643"
+
+    canonical_slug:
+      "0704_3643v1_sabbath_day_home_automation_technology_religion"
+
+    canonical_title: >
+      Sabbath Day Home Automation:
+      "It's Like Mixing Technology and Religion"
+
+    preferred_path:
+      H: "11_KNOWLEDGE/hci"
+      M: "domestic_technology/religion_and_automation"
+      L: "arxiv/2007/0704_3643v1"
+
+    legacy_path:
+      "11_KNOWLEDGE/_arxiv_md/2007/0704_3643V1_SABBATH_DAY_HOME_AUTOMATION_IT_S_LIKE_MIXING_TECHNOLOGY_AND_RELIGION.md"
+
+    parent_rscf:
+      - "RSCF.KNOWLEDGE.HCI"
+      - "RSCF.KNOWLEDGE.HCI.DOMESTIC_TECHNOLOGY"
+      - "RSCF.KNOWLEDGE.HCI.SMART_HOME"
+      - "RSCF.KNOWLEDGE.HCI.RELIGION_AND_TECHNOLOGY"
+      - "RSCF.KNOWLEDGE.SOCIOTECHNICAL_SYSTEMS"
+
+    node_type: KNOWLEDGE
+
+    knowledge_type:
+      - PRIMARY_SOURCE
+      - QUALITATIVE_STUDY
+      - ETHNOGRAPHIC_HCI
+      - DOMESTIC_TECHNOLOGY
+      - RELIGIOUS_TECHNOLOGY
+      - SOCIOTECHNICAL_SYSTEM
+      - DESIGN_IMPLICATION_REFERENCE
+      - LONG_TERM_TECHNOLOGY_USE
+
+    source_epoch: "2007"
+
+  # ============================================================
+  # 1. EPISTEMIC CONTRACT
+  # ============================================================
+
+  epistemic_contract:
+
+    participant_report_state: SOURCE_CLAIM
+    author_interpretation_state: SOURCE_CLAIM
+    AMOS_structural_synthesis: DERIVED
+
+    design_generalization_state: CONDITIONAL
+    population_generalization_state: UNKNOWN
+    theological_validity_state: OUT_OF_SCOPE
+    halachic_validity_state: OUT_OF_SCOPE
+    current_technology_state: HISTORICAL_SOURCE
+
+    conclusion_class: DERIVED
+
+    source_boundary:
+      text: >
+        This node represents observations, participant accounts, themes,
+        interpretations, and design implications reported in a qualitative
+        study of 20 American households using home automation in connection
+        with Sabbath observance. It does not establish universal properties
+        of Orthodox Judaism, Jewish law, religious practice, family life,
+        smart-home users, spirituality, or the psychological effects of
+        surrendering control.
+
+    prohibitions:
+      - >
+        Do not generalize findings from the study sample to all Orthodox Jews.
+      - >
+        Do not classify the observed practices as halachically correct,
+        incorrect, circumvention, or religiously authoritative.
+      - >
+        Do not infer theological truth from participant accounts.
+      - >
+        Do not interpret participant metaphors about automation as literal
+        belief that automation systems are persons, gods, or conscious agents.
+      - >
+        Do not convert "participants reported benefit" into a universal
+        psychological effect.
+      - >
+        Do not conclude that surrender of control is generally preferable
+        to user control.
+      - >
+        Do not claim community-level respite is universally more effective
+        than individual respite.
+      - >
+        Do not treat technology categories in this sample as representative
+        market-share estimates.
+      - >
+        Do not equate automation with reduced technology use in a literal
+        systems sense; the source discusses perceived experiential reduction.
+      - >
+        Preserve the study's outsider-researcher limitation.
+
+    confidence_ceiling:
+      sample_specific_observation: SOURCE_BOUND
+      author_theme: SOURCE_BOUND
+      broader_HCI_design_claim: CONDITIONAL
+      universal_human_claim: UNKNOWN
+
+    provenance_independence:
+      primary_source_count: 1
+      interviews_within_same_study:
+        independent_people_but_shared_research_pipeline: true
+      author_interpretations_count_as_independent_validation: false
+
+  # ============================================================
+  # 2. SOURCE / PROVENANCE
+  # ============================================================
+
+  provenance:
+
+    source_id: "SRC.ARXIV.0704.3643v1"
+
+    arxiv_id: "0704.3643"
+    arxiv_version: "v1"
+
+    conference:
+      "CHI 2007"
+
+    authors:
+      - Allison_Woodruff
+      - Sally_Augustin
+      - Brooke_Foucault
+
+    pages: 10
+
+    source_type:
+      - QUALITATIVE_HCI_STUDY
+      - INTERVIEW_STUDY
+      - HOME_VISIT_STUDY
+      - DESIGN_RESEARCH
+
+    empirical_basis:
+      households_visited: 20
+      interviewed_participants: 29
+
+      gender_distribution_reported:
+        men: 16
+        women: 13
+
+      regions:
+        New_York_metro: 13_homes
+        San_Francisco_metro: 7_homes
+
+      religious_affiliation:
+        predominant:
+          - Modern_Orthodox
+        also_included:
+          - Ultra_Orthodox
+          - some_Conservative_households_with_strict_practices
+
+      data_collection:
+        - semi_structured_interviews
+        - home_tours
+        - technology_demonstrations
+        - photo_elicitation
+        - audio_recording
+        - video_recording
+        - informal_interactions
+        - community_conversations
+        - overnight_Sabbath_visit
+
+      fieldwork_dates:
+        - "2005-12"
+        - "2006-05"
+
+      transcription_corpus:
+        pages: "~1300"
+        words: "~340000"
+
+      analysis_method:
+        affinity_clustering
+
+    explicit_methodological_limitation:
+      >
+        None of the researchers identified as Orthodox Jewish, so the authors
+        explicitly note advantages and disadvantages of an outsider perspective.
+
+    raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
+
+    raw_source_load_triggers:
+      - exact_participant_quote
+      - exact_sample_demographics
+      - exact_design_implication_wording
+      - exact_method_details
+      - theological_or_halakhic_boundary_question
+      - distinction_between_participant_view_and_author_interpretation
+
+  # ============================================================
+  # 3. BOOTSTRAP CAPSULE
+  # ============================================================
+
+  bootstrap_capsule:
+
+    class: DERIVED
+
+    text: >
+      The paper studies long-term use of home automation by 20 American
+      Jewish households, predominantly Orthodox, where timers, X10 systems,
+      and a specialized calendar-aware system were used to configure domestic
+      environments in advance of the Sabbath. Participants often described
+      automation as reducing the need to attend to mundane household controls,
+      supporting Sabbath atmosphere and family life, and enabling intentional
+      surrender of in-the-moment control. The authors argue that automation
+      also functions as an organizing system that encodes and reinforces
+      household routines and social expectations. From this case they derive
+      broader HCI design hypotheses concerning surrender of control,
+      technologies that support chosen lifestyles and long-term values,
+      and technology respite structured at community scale.
+
+    use_when:
+      - smart_home_design
+      - values_in_design
+      - religious_technology
+      - digital_wellbeing
+      - automation_and_autonomy
+      - domestic_routines
+      - long_term_home_automation
+      - community_level_technology_boundaries
+
+    do_not_use_when:
+      - making_halakhic_rulings
+      - generalizing_to_all_Jewish_households
+      - inferring_religious_belief_of_individuals_not_in_study
+      - proving_psychological_benefit_of_low_control
+      - describing_current_smart_home_market
+
+  # ============================================================
+  # 4. H / M / L FRACTAL [[ARCHITECTURE]]
+  # ============================================================
+
+  HML:
+
+    H:
+      id: "H.VALUE_ALIGNED_DOMESTIC_AUTOMATION"
+
+      governing_question: >
+        How can domestic automation become integrated with a value-governed
+        way of life rather than merely optimizing convenience and control?
+
+      governing_fields:
+        - domestic_technology
+        - values_in_design
+        - religious_practice
+        - temporal_structure
+        - family_routines
+        - human_autonomy
+        - automation
+        - social_order
+        - technology_respite
+
+      central_source_pattern:
+        class: DERIVED
+
+        chain: >
+          value system
+          -> temporal / behavioral constraints
+          -> advance preparation
+          -> automation configuration
+          -> reduced direct intervention
+          -> altered lived experience
+          -> household / community reinforcement
+
+    M:
+      id: "M.SABBATH_AUTOMATION_SOCIO_TECHNICAL_SYSTEM"
+
+      branches:
+
+        M1_TEMPORAL_REGIME:
+          name: WEEK_TO_SABBATH_TRANSITION
+
+          weekday:
+            participant_characterization:
+              - activity
+              - manipulation
+              - work
+              - preparation
+
+          Sabbath:
+            participant_characterization:
+              - cessation
+              - reflection
+              - family_and_social_time
+              - reduced_intervention
+              - reduced_information_exposure
+
+        M2_RELIGIOUS_CONSTRAINT:
+          name: PROSCRIBED_AND_PRESCRIBED_ACTIONS
+
+          source_description:
+            - >
+              Manual switching of electrical devices was generally treated
+              by participants as prohibited during Sabbath observance.
+            - >
+              Actions configured in advance could be treated differently
+              from direct in-the-moment intervention.
+
+          authority_warning:
+            >
+              This node records the paper's description and participant
+              practice, not an independent statement of Jewish law.
+
+        M3_AUTOMATION_INFRASTRUCTURE:
+          classes:
+            - TIMERS
+            - X10
+            - RIGHTSCHEDULE
+            - LOW_TECH_OR_ANTI_AUTOMATION
+
+        M4_EXPERIENTIAL_EFFECT:
+          themes:
+            - relief_from_burden
+            - enhancement_of_experience
+            - surrender_of_control
+            - respite_from_technology
+
+        M5_CUSTOM_AND_IDENTITY:
+          themes:
+            - ritual_familiarity
+            - continuity
+            - community_affiliation
+            - religious_commitment
+            - family_transmission
+
+        M6_FAMILY_SOCIAL_ORDER:
+          themes:
+            - routine_encoding
+            - behavior_cues
+            - facework
+            - expectation_signaling
+            - role_projection
+            - household_coordination
+
+        M7_DESIGN_GENERALIZATION:
+          themes:
+            - surrender_of_control_as_design_resource
+            - long_term_lifestyle_support
+            - community_scale_respite
+
+    L:
+      id: "L.OBSERVATIONS_TECHNOLOGIES_EVENTS"
+
+      technology_types:
+        TIMERS:
+          homes_in_sample: 9
+
+        X10:
+          homes_in_sample: 6
+
+        RIGHTSCHEDULE:
+          homes_in_sample: 5
+
+      warning:
+        >
+          These counts describe the study sample only and are not population
+          prevalence estimates.
+
+      household_actions:
+        - lighting_schedules
+        - appliance_schedules
+        - ovens
+        - skylights
+        - towel_warmers
+        - elevators
+        - drapes
+        - sprinklers
+        - security_systems
+        - holiday_specific_devices
+
+      low_tech_examples:
+        - leaving_lights_on
+        - disabling_refrigerator_light
+        - blechs
+        - avoiding_interactive_devices
+
+    HML_integrity_rule: >
+      L-level behavior must retain its household, religious, temporal,
+      technical, and study context. A specific observed practice must not
+      become a universal design principle without passing through the
+      M-level interpretation and explicit generalization boundary.
+
+  # ============================================================
+  # 5. STUDY OBJECTIVES
+  # ============================================================
+
+  research_problem:
+
+    primary_questions:
+      Q1:
+        class: SOURCE_CLAIM
+        text: >
+          What is the relationship between home automation and religious practice?
+
+      Q2:
+        class: SOURCE_CLAIM
+        text: >
+          What is the relationship between home automation and family life?
+
+    secondary_objective:
+      class: SOURCE_CLAIM
+      text: >
+        Use long-term real-world automation experience among these households
+        as a counterpoint to laboratory-oriented smart-home research.
+
+    design_objective:
+      class: SOURCE_CLAIM
+      text: >
+        Derive implications that may inspire design beyond the study population.
+
+  # ============================================================
+  # 6. METHOD RSCF
+  # ============================================================
+
+  methodology:
+
+    method_class:
+      QUALITATIVE
+
+    sampling:
+      recruitment_channels:
+        - online_forums
+        - Jewish_community_email_lists
+        - Jewish_newspaper
+        - specialized_automation_developer
+
+      sampling_type:
+        class: DERIVED
+        label:
+          "purposeful / convenience / networked recruitment"
+
+      representativeness:
+        source_status:
+          NOT_CLAIMED
+
+    data_collection:
+      visit_duration:
+        "~1.5–2 hours"
+
+      methods:
+        - semi_structured_interview
+        - home_walkthrough
+        - technology_demonstration
+        - photo_elicitation
+
+    analysis:
+      method:
+        affinity_clustering
+
+    known_limitations:
+
+      SAMPLE_SELECTION:
+        >
+          Participants were users of Sabbath-related automation and therefore
+          are not representative of people who reject or avoid such technology.
+
+      GEOGRAPHY:
+        >
+          Households were concentrated in New York and San Francisco metro areas.
+
+      SOCIOECONOMIC_RANGE:
+        >
+          The sample includes high-end automation users and luxury homes;
+          socioeconomic representativeness is not established.
+
+      OUTSIDER_PERSPECTIVE:
+        >
+          Researchers explicitly identify themselves as outsiders to
+          Orthodox Judaism.
+
+      SELF_REPORT:
+        >
+          Many experiential claims depend on participant interpretation
+          and retrospective account.
+
+      NO_CAUSAL_EXPERIMENT:
+        >
+          The design does not establish that automation caused reported
+          spiritual, psychological, or relational effects.
+
+  # ============================================================
+  # 7. OBSERVATION / CLAIM GRAPH
+  # ============================================================
+
+  claims:
+
+    C000:
+      class: OBSERVATION
+
+      claim: >
+        All participating households used some form of automation in connection
+        with Sabbath observance.
+
+    C010:
+      class: SOURCE_CLAIM
+
+      claim: >
+        Religious observance was reported as the primary reason for installing
+        and continuing to use home automation in almost all participating homes.
+
+    C020:
+      class: SOURCE_CLAIM
+
+      claim: >
+        Automation was often used to schedule actions in advance so household
+        occupants did not need to manually control devices during the Sabbath.
+
+    C030:
+      class: SOURCE_CLAIM
+
+      claim: >
+        Participants often distinguished preprogrammed automation from reactive
+        technologies such as motion sensors because the latter could create
+        direct in-the-moment effects.
+
+      scope_warning:
+        >
+          This is reported community practice and interpretation, not a universal
+          halakhic ruling.
+
+    C040:
+      class: SOURCE_CLAIM
+
+      claim: >
+        Participants commonly described Sabbath as a period of reduced engagement
+        with information, interactive technologies, work, and ordinary weekday activity.
+
+    C050:
+      class: SOURCE_CLAIM
+
+      claim: >
+        Participants reported that automation reduced the need to think about
+        mundane household controls during the Sabbath.
+
+    C060:
+      class: SOURCE_CLAIM
+
+      claim: >
+        Automation was generally described as enhancing rather than creating
+        the Sabbath experience.
+
+    C070:
+      class: SOURCE_CLAIM
+
+      claim: >
+        Some participants described intentional inability to intervene in
+        automation schedules as compatible with or supportive of the Sabbath's
+        value of surrendering control.
+
+    C080:
+      class: DERIVED
+
+      claim: >
+        In these households, reduced immediate controllability sometimes
+        functioned as a feature rather than a usability defect.
+
+      derived_from:
+        - C050
+        - C070
+
+      conclusion_class: CONDITIONAL
+
+    C090:
+      class: SOURCE_CLAIM
+
+      claim: >
+        Automation patterns and their resulting atmosphere could become
+        familiar parts of Sabbath ritual and household identity over time.
+
+    C100:
+      class: SOURCE_CLAIM
+
+      claim: >
+        Household automation encoded schedules and routines and could subtly
+        influence behavior without rigidly determining it.
+
+    C110:
+      class: SOURCE_CLAIM
+
+      claim: >
+        Automated environmental changes could act as social cues, such as
+        indicating expected bedtime or the progression of a meal.
+
+    C120:
+      class: DERIVED
+
+      claim: >
+        Home automation in the observed households functioned as an organizing
+        system that both represented and reinforced household social order.
+
+      derived_from:
+        - C100
+        - C110
+
+    C130:
+      class: SOURCE_CLAIM
+
+      claim: >
+        Some participants interpreted automation as an extension or proxy of
+        the person who configured or managed the system.
+
+    C140:
+      class: SOURCE_CLAIM
+
+      claim: >
+        Participants sometimes associated automation with roles such as
+        caretaker, servant, parent, or guide.
+
+      interpretation_firewall:
+        >
+          These metaphors do not establish literal anthropomorphism or belief
+          in machine agency.
+
+    C150:
+      class: SOURCE_CLAIM
+
+      claim: >
+        The authors propose that surrender of control can be explored as
+        a design resource.
+
+    C160:
+      class: SOURCE_CLAIM
+
+      claim: >
+        The authors propose that domestic technologies can be designed to
+        reinforce long-term lifestyles and values rather than merely convenience.
+
+    C170:
+      class: SOURCE_CLAIM
+
+      claim: >
+        The authors propose externally bounded and community-supported periods
+        of technology respite as a promising design space.
+
+    C180:
+      class: DERIVED
+
+      claim: >
+        The study challenges a single-axis smart-home design assumption that
+        increased user control is always the preferred outcome.
+
+      derived_from:
+        - C070
+        - C150
+
+      scope:
+        >
+          Design-space challenge, not universal rejection of user control.
+
+  # ============================================================
+  # 8. TEMPORAL [[ARCHITECTURE]]
+  # ============================================================
+
+  temporal_model:
+
+    T0_WEEKDAY:
+      state:
+        - interactive
+        - preparatory
+        - active_control
+        - ordinary_information_flow
+
+    T1_PRE_SABBATH:
+      state:
+        - preparation
+        - schedule_configuration
+        - appliance_setup
+        - environmental_setup
+
+      critical_transition:
+        >
+          Control is exercised before the bounded observance period.
+
+    T2_SABBATH:
+      state:
+        - preconfigured_environment
+        - reduced_manual_intervention
+        - reduced_interactive_technology_use
+        - social_and_religious_activity
+        - acceptance_of_precommitted_schedule
+
+    T3_POST_SABBATH:
+      state:
+        - interactive_control_returns
+        - ordinary_technology_use_resumes
+
+    structural_pattern:
+      class: DERIVED
+
+      expression: >
+        ACTIVE_CONFIGURATION
+        -> TEMPORAL_COMMITMENT_BOUNDARY
+        -> DELEGATED_EXECUTION
+        -> CONTROL_REACQUISITION
+
+    design_relevance:
+      >
+        This temporal pattern is more important than any specific legacy
+        automation technology used in the study.
+
+  # ============================================================
+  # 9. AUTOMATION TYPOLOGY
+  # ============================================================
+
+  automation_typology:
+
+    A1_TIMERS:
+
+      complexity:
+        LOW
+
+      characteristics:
+        - fixed_schedule
+        - predictable_devices
+        - local_control
+        - small_number_of_devices
+
+      strengths:
+        - simple
+        - understandable
+        - low_infrastructure_requirement
+
+      limitations:
+        - limited_flexibility
+        - multiple_timer_management
+
+    A2_X10:
+
+      complexity:
+        MEDIUM
+
+      characteristics:
+        - computer_programmed_schedule
+        - household_wiring_signal_transport
+        - broader_device_coverage
+        - DIY_configuration
+
+      source_reported_limitation:
+        - reliability_problems
+        - setup_complexity
+
+    A3_RIGHTSCHEDULE:
+
+      complexity:
+        HIGH
+
+      characteristics:
+        - rule_based
+        - calendar_aware
+        - Jewish_calendar
+        - holiday_specific_behavior
+        - integrated_home_systems
+
+      service_architecture:
+        HUMAN_MEDIATED
+
+      human_interface:
+        specialized_developer
+
+      important_pattern:
+        >
+          The service provider became part of the sociotechnical system,
+          sometimes serving as the practical interface between household
+          occupants and automation infrastructure.
+
+    A4_LOW_TECH_OR_ANTI_AUTOMATION:
+
+      examples:
+        - leave_light_on
+        - remove_refrigerator_bulb
+        - use_specialized_hotplate
+
+      architectural_significance:
+        >
+          Compliance with household goals did not require maximal automation;
+          deliberate non-automation was also part of the design ecology.
+
+  # ============================================================
+  # 10. CONTROL / AUTONOMY FIELD
+  # ============================================================
+
+  control_field:
+
+    traditional_HCI_reference_model:
+      assumed_goal:
+        MORE_USER_CONTROL
+
+    source_counterexample:
+      class: SOURCE_CLAIM
+
+      pattern:
+        >
+          Participants sometimes valued configuring the environment in advance
+          and then being unable or unwilling to alter it during the Sabbath.
+
+    control_phases:
+
+      PRECOMMIT:
+        user_control: HIGH
+        activity:
+          - configure
+          - schedule
+          - prepare
+
+      OBSERVANCE:
+        user_control: INTENTIONALLY_REDUCED
+        activity:
+          - experience
+          - adapt
+          - accept
+
+      POST_OBSERVANCE:
+        user_control: RESTORED
+
+    derived_design_pattern:
+      class: DERIVED
+
+      name:
+        TEMPORALLY_BOUNDED_VOLUNTARY_CONTROL_SURRENDER
+
+      definition: >
+        A user deliberately exercises control at an earlier time to constrain
+        their own later intervention within a known temporal boundary.
+
+    key_distinction:
+      >
+        This is not the same as involuntary loss of control.
+
+    safety_constraint:
+      >
+        Generalizing this design pattern must preserve emergency override,
+        informed consent, reversibility, and user-defined boundaries where
+        appropriate.
+
+  # ============================================================
+  # 11. BURDEN / ATTENTION MODEL
+  # ============================================================
+
+  attention_model:
+
+    source_pattern:
+
+      ordinary_state:
+        - device_state_monitoring
+        - switching
+        - adjustment
+        - information_attention
+
+      delegated_state:
+        - reduced_active_monitoring
+        - reduced_decision_frequency
+        - fewer_device_interactions
+
+      reported_effect:
+        - mental_relief
+        - ability_to_focus_on_other_goals
+
+    derived_chain:
+      class: MODEL
+
+      expression: >
+        PRECONFIGURATION
+        -> AUTOMATIC_EXECUTION
+        -> REDUCED_MICRO_DECISIONS
+        -> REDUCED_ATTENTIONAL_DEMAND
+        -> GREATER_AVAILABLE_ATTENTION_FOR_CHOSEN_ACTIVITY
+
+    causal_status:
+      >
+        Plausible mechanism derived from participant reports; not experimentally
+        established by this study.
+
+  # ============================================================
+  # 12. SOCIAL ORDER GRAPH
+  # ============================================================
+
+  social_order:
+
+    node:
+      AUTOMATION_SYSTEM
+
+    functions:
+
+      F1_ROUTINE_ENCODING:
+        >
+          Timed environmental changes encode expected household rhythms.
+
+      F2_BEHAVIORAL_CUEING:
+        >
+          Environmental changes suggest possible next actions.
+
+      F3_FACEWORK:
+        >
+          Automation can externalize socially awkward signals.
+
+      F4_FAMILY_COORDINATION:
+        >
+          Shared schedules become household infrastructure.
+
+      F5_VALUE_REINFORCEMENT:
+        >
+          Repeated technological patterns can become associated with
+          religious or family practices.
+
+      F6_INTERGENERATIONAL_CONTINUITY:
+        >
+          Familiar patterns may contribute to continuity of household practice.
+
+    derived_structure:
+
+      expression: >
+        HOUSEHOLD_VALUES
+        -> AUTOMATION_RULES
+        -> ENVIRONMENTAL_EVENTS
+        -> HUMAN_INTERPRETATION
+        -> SOCIAL_RESPONSE
+        -> REINFORCED_HOUSEHOLD_PATTERN
+
+    feedback:
+      >
+        Repeated household practices also reshape future automation schedules,
+        producing a recursive household-technology relation.
+
+  # ============================================================
+  # 13. HUMAN-MEDIATED AUTOMATION
+  # ============================================================
+
+  human_mediation:
+
+    source_case:
+      pseudonym:
+        Mr_Herschel
+
+      role:
+        specialized_automation_developer
+
+    observed_functions:
+      - requirements_elicitation
+      - configuration
+      - maintenance
+      - debugging
+      - schedule_changes
+      - interpretation
+      - long_term_relationship
+
+    derived_pattern:
+      class: DERIVED
+
+      name:
+        HUMAN_AS_SERVICE_LAYER
+
+      description: >
+        In some complex smart-home deployments, users may experience the
+        human service provider—not the technical interface—as the effective
+        control plane for the automation system.
+
+    implications:
+      - trust_becomes_part_of_system_design
+      - maintenance_relationship_matters
+      - expertise_can_be_externalized
+      - interface_is_socio_technical_not_only_screen_based
+
+    warning:
+      >
+        This pattern is derived primarily from a subset of high-end system users
+        and should not be generalized to all automation deployments.
+
+  # ============================================================
+  # 14. RELIGIOUS-CUSTOM / IDENTITY FIELD
+  # ============================================================
+
+  custom_identity:
+
+    source_claim:
+      >
+        Participants sometimes experienced automation itself or the atmosphere
+        created by automation as part of familiar Sabbath custom.
+
+    components:
+      - repeated_temporal_pattern
+      - environmental_familiarity
+      - shared_household_practice
+      - community_distinctiveness
+      - religious_commitment
+      - intergenerational_continuity
+
+    contested_dimension:
+      question:
+        >
+          Is automation a circumvention of religious restriction?
+
+      source_position:
+        >
+          The authors explicitly avoid adjudicating halachic correctness
+          and report that views and interpretations vary.
+
+    AMOS_firewall:
+      >
+        Preserve this as a contested religious-interpretive question.
+        Do not resolve it from HCI evidence.
+
+  # ============================================================
+  # 15. RESPITE FIELD
+  # ============================================================
+
+  respite:
+
+    source_observation:
+      >
+        Participants frequently associated the Sabbath with respite from
+        technology, information, work, and ordinary weekday demands.
+
+    apparent_paradox:
+      >
+        Automation technology was used partly to enable an experience
+        characterized by reduced interaction with technology.
+
+    resolved_structure:
+      class: DERIVED
+
+      distinction:
+        infrastructure_technology:
+          >
+            Runs in background after advance configuration.
+
+        foreground_interactive_technology:
+          >
+            Is deliberately reduced or avoided during the bounded period.
+
+    derived_pattern:
+      >
+        MORE_BACKGROUND_AUTOMATION
+        can coexist with
+        LESS_FOREGROUND_TECHNOLOGY_INTERACTION
+
+    caution:
+      >
+        This is an experiential and interaction-level distinction,
+        not a claim of lower total technical complexity.
+
+  # ============================================================
+  # 16. DESIGN IMPLICATION GRAPH
+  # ============================================================
+
+  design_implications:
+
+    D1_SURRENDER_OF_CONTROL:
+
+      source_class:
+        SOURCE_CLAIM
+
+      derived_class:
+        CONDITIONAL
+
+      proposition: >
+        Some designs may benefit from offering users voluntary,
+        temporally bounded ways to relinquish immediate control.
+
+      applicability_requires:
+        - voluntary_choice
+        - known_boundary
+        - reversibility
+        - safe_failure_behavior
+        - emergency_path
+        - value_alignment
+
+      prohibited_generalization:
+        >
+          "Users prefer less control."
+
+    D2_LONG_TERM_VALUE_SUPPORT:
+
+      proposition: >
+        Domestic systems can be designed to support chosen lifestyles,
+        practices, and long-term values rather than only efficiency
+        and convenience.
+
+      potential_domains_suggested_by_source:
+        - spirituality
+        - green_living
+        - slow_living
+
+      epistemic_status:
+        DESIGN_HYPOTHESIS
+
+    D3_COMMUNITY_RESPITE:
+
+      proposition: >
+        Technology respite may be easier to sustain when reinforced by
+        shared community rhythms and institutions.
+
+      epistemic_status:
+        CONDITIONAL
+
+      source_basis:
+        qualitative_participant_accounts
+
+      prohibited_generalization:
+        >
+          Community respite is always superior to individual digital wellbeing tools.
+
+  # ============================================================
+  # 17. COMPETING EXPLANATIONS
+  # ============================================================
+
+  competing_hypotheses:
+
+    HYP_A:
+      class: MODEL
+
+      proposition: >
+        Automation supports Sabbath experience primarily by reducing
+        mundane attention and intervention.
+
+    HYP_B:
+      class: MODEL
+
+      proposition: >
+        Benefits arise substantially from religious meaning and prior
+        commitment rather than automation itself.
+
+    HYP_C:
+      class: MODEL
+
+      proposition: >
+        Familiarity and long-term ritualization produce much of the
+        positive experience.
+
+    HYP_D:
+      class: MODEL
+
+      proposition: >
+        Family and community reinforcement are more important than
+        technical features.
+
+    HYP_E:
+      class: UNKNOWN
+
+      proposition: >
+        Similar effects might or might not occur in secular or differently
+        structured communities.
+
+    status:
+      COMPETING
+
+    collapse_rule:
+      >
+        The study does not experimentally discriminate the relative causal
+        contribution of automation, religious belief, community structure,
+        family routine, expectation, or ritual familiarity.
+
+  # ============================================================
+  # 18. CAUSAL FIREWALL
+  # ============================================================
+
+  causal_firewall:
+
+    source_supports:
+      - participant_reported_associations
+      - recurring_qualitative_themes
+      - observed_household_practices
+      - author_design_interpretations
+
+    source_does_not_establish:
+      - automation_causes_spirituality
+      - surrender_of_control_causes_psychological_benefit
+      - Sabbath_automation_improves_family_relationships
+      - community_mandates_are_superior_in_general
+      - religious_people_prefer_low_autonomy
+      - automation_causes_religious_identity
+
+    allowed_language:
+      - associated_with
+      - participants_reported
+      - participants_described
+      - authors_propose
+      - may_support
+      - may_function_as
+      - suggests_design_space
+
+    disallowed_upgrade:
+      - proves
+      - universally_causes
+      - necessarily_improves
+      - all_Orthodox_Jews
+      - all_families
+
+  # ============================================================
+  # 19. SCOPE / REGIME ENVELOPE
+  # ============================================================
+
+  applicability_envelope:
+
+    population:
+      source_sample:
+        >
+          20 American households, predominantly Modern Orthodox Jewish,
+          plus some Ultra-Orthodox and Conservative households with
+          comparatively strict Sabbath practices.
+
+    geography:
+      - New_York_metro
+      - San_Francisco_metro
+
+    time:
+      fieldwork:
+        - 2005
+        - 2006
+
+      publication:
+        2007
+
+    technologies:
+      - mechanical_or_digital_timers
+      - X10
+      - specialized_rule_based_home_automation
+      - appliance_Sabbath_modes
+      - low_tech_adaptations
+
+    environment:
+      domestic_home
+
+    social_regime:
+      - family_household
+      - Sabbath_observance
+      - Jewish_holiday_observance
+
+    extension_risk:
+      modern_voice_assistants: HIGH
+      AI_agents: HIGH
+      adaptive_sensor_driven_automation: HIGH
+      nonreligious_digital_wellbeing: HIGH
+
+  # ============================================================
+  # 20. SENSITIVITY / FLIP VARIABLES
+  # ============================================================
+
+  sensitivity:
+
+    highest_leverage_variables:
+      - religious_commitment
+      - interpretation_of_permissible_automation
+      - household_structure
+      - community_support
+      - automation_reliability
+      - ability_to_preconfigure
+      - predictability_of_household_routine
+      - level_of_required_manual_intervention
+      - system_complexity
+      - technical_literacy
+      - service_provider_support
+
+    fragile_conclusions:
+
+      surrender_of_control_beneficial:
+        class: CONDITIONAL
+        flips_if:
+          - loss_of_control_is_involuntary
+          - system_failure_is_high_stakes
+          - user_values_conflict
+          - emergency_override_is_needed
+
+      automation_reduces_burden:
+        class: CONDITIONAL
+        flips_if:
+          - setup_cost_exceeds_operational_relief
+          - reliability_is_low
+          - maintenance_attention_is_high
+
+      community_respite_effectiveness:
+        class: CONDITIONAL
+        flips_if:
+          - community_norms_are_not_shared
+          - participation_is_coerced
+          - household_context_differs
+
+  # ============================================================
+  # 21. INVALIDATION CONDITIONS
+  # ============================================================
+
+  invalidation_conditions:
+
+    sample_transfer_failure:
+      - >
+        Target population differs materially in religion, culture,
+        household structure, technology practices, or value system.
+
+    technology_transfer_failure:
+      - >
+        Target automation is continuously adaptive, sensor-driven,
+        conversational, or autonomous in ways unlike preconfigured systems
+        studied here.
+
+    causal_overreach:
+      - >
+        Claim requires experimentally established psychological or
+        behavioral causation.
+
+    halakhic_overreach:
+      - >
+        Claim requires authoritative Jewish legal interpretation.
+
+    historical_shift:
+      - >
+        Current smart-home practices or Orthodox Jewish technology practices
+        differ substantially from 2005–2007 conditions.
+
+    representativeness_failure:
+      - >
+        Claim assumes sample frequencies represent broader population rates.
+
+  # ============================================================
+  # 22. EVIDENCE TOPOLOGY
+  # ============================================================
+
+  evidence_topology:
+
+    E0:
+      type: PRIMARY_STUDY
+      source: "SRC.ARXIV.0704.3643v1"
+
+    E1:
+      type: OBSERVATION
+      parents:
+        - E0
+
+      content:
+        - household_technology_use
+        - system_types
+        - household_routines
+
+    E2:
+      type: PARTICIPANT_REPORT
+      parents:
+        - E0
+
+      content:
+        - perceived_relief
+        - perceived_spiritual_support
+        - surrender_of_control
+        - family_experience
+        - technology_respite
+
+    E3:
+      type: AUTHOR_INTERPRETATION
+      parents:
+        - E1
+        - E2
+
+      content:
+        - organizing_system
+        - religious_custom
+        - smart_home_counterpoint
+
+    E4:
+      type: DESIGN_DERIVATION
+      parents:
+        - E3
+
+      content:
+        - surrender_of_control_design_space
+        - lifestyle_support
+        - community_respite
+
+    independence_rule:
+      >
+        E3 and E4 are descendants of the same qualitative evidence and
+        cannot increase empirical confidence beyond the study itself.
+
+  # ============================================================
+  # 23. PROVENANCE TOPOLOGY / ANTI-SYBIL
+  # ============================================================
+
+  provenance_topology:
+
+    root:
+      "SRC.ARXIV.0704.3643v1"
+
+    descendants:
+      - extracted_quotes
+      - thematic_codes
+      - this_RSCF
+      - design_pattern_nodes
+      - embeddings
+      - summaries
+      - cross_domain_analogies
+
+    rule:
+      >
+        None of these descendants count as independent corroboration.
+
+    cited_literature_policy:
+      >
+        References cited by the paper become independent evidence only
+        after direct retrieval and provenance registration.
+
+  # ============================================================
+  # 24. CROSS-DOMAIN STRUCTURAL BRIDGES
+  # ============================================================
+
+  structural_bridges:
+
+    BRIDGE_1_COMMITMENT_DEVICES:
+
+      class: DERIVED
+
+      mapping:
+        >
+          Advance configuration followed by intentional temporary inability
+          to alter behavior resembles a commitment-device architecture.
+
+      causal_status:
+        STRUCTURAL_ANALOGY_ONLY
+
+      warning:
+        >
+          The paper does not itself establish equivalence with economic or
+          behavioral commitment-device theory.
+
+    BRIDGE_2_DIGITAL_WELLBEING:
+
+      class: DERIVED
+
+      mapping:
+        >
+          Temporally bounded disengagement from foreground technology
+          resembles digital-wellbeing or digital-detox design patterns.
+
+      warning:
+        >
+          Do not strip the original religious/community context when reusing
+          the pattern.
+
+    BRIDGE_3_VALUE_SENSITIVE_DESIGN:
+
+      class: DERIVED
+
+      mapping:
+        >
+          The home's technical configuration embodies chosen household values
+          and therefore fits broader value-sensitive / values-in-design reasoning.
+
+    BRIDGE_4_HUMAN_IN_LOOP_AUTOMATION:
+
+      class: DERIVED
+
+      mapping:
+        >
+          High-end households reveal that automation can depend on a trusted
+          specialist who functions as a persistent human control layer.
+
+  # ============================================================
+  # 25. QUERY ROUTING
+  # ============================================================
+
+  routing_index:
+
+    aliases:
+      - Sabbath automation
+      - Shabbat automation
+      - Jewish smart home
+      - X10 Sabbath
+      - smart home religion
+      - religious technology
+      - surrender of control
+      - digital respite
+      - value aligned smart home
+      - home automation family routines
+      - community technology boundaries
+
+    semantic_routes:
+
+      "Why did participants use automation?":
+        route:
+          - C010
+          - C020
+          - C050
+
+      "Did automation replace the Sabbath experience?":
+        route:
+          - C060
+        answer_constraint:
+          >
+            No. Participants generally described it as enhancing/supporting
+            the experience rather than making observance possible.
+
+      "What does surrender of control mean here?":
+        route:
+          - C070
+          - C080
+          - control_field
+
+      "How did automation affect family routines?":
+        route:
+          - C100
+          - C110
+          - C120
+          - social_order
+
+      "Was it considered a religious loophole?":
+        route:
+          - custom_identity
+        answer_constraint:
+          >
+            The study reports differing views and explicitly does not
+            adjudicate halachic correctness.
+
+      "What design lesson applies beyond religion?":
+        route:
+          - design_implications
+          - sensitivity
+          - applicability_envelope
+
+      "Does the paper prove low control is psychologically better?":
+        route:
+          - causal_firewall
+          - methodology
+        answer_class:
+          UNKNOWN
+
+  # ============================================================
+  # 26. ATOMIC RSCF SUBNODE MAP
+  # ============================================================
+
+  atomic_subnodes:
+
+    - id: "RSCF.0704_3643.H.VALUE_ALIGNED_AUTOMATION"
+      type: H_NODE
+
+    - id: "RSCF.0704_3643.M.SABBATH_TEMPORAL_REGIME"
+      type: M_NODE
+
+    - id: "RSCF.0704_3643.M.RELIGIOUS_CONSTRAINT"
+      type: M_NODE
+
+    - id: "RSCF.0704_3643.M.AUTOMATION_INFRASTRUCTURE"
+      type: M_NODE
+
+    - id: "RSCF.0704_3643.M.SURRENDER_OF_CONTROL"
+      type: M_NODE
+
+    - id: "RSCF.0704_3643.M.FAMILY_SOCIAL_ORDER"
+      type: M_NODE
+
+    - id: "RSCF.0704_3643.M.RELIGIOUS_CUSTOM"
+      type: M_NODE
+
+    - id: "RSCF.0704_3643.M.COMMUNITY_RESPITE"
+      type: M_NODE
+
+    - id: "RSCF.0704_3643.L.TIMERS"
+      type: TECHNOLOGY_NODE
+
+    - id: "RSCF.0704_3643.L.X10"
+      type: TECHNOLOGY_NODE
+
+    - id: "RSCF.0704_3643.L.RIGHTSCHEDULE"
+      type: TECHNOLOGY_NODE
+
+    - id: "RSCF.0704_3643.L.LOW_TECH_ADAPTATION"
+      type: TECHNOLOGY_NODE
+
+    - id: "RSCF.0704_3643.L.PARTICIPANT_REPORTS"
+      type: EVIDENCE_NODE
+
+  # ============================================================
+  # 27. GMEF BINDING
+  # ============================================================
+
+  GMEF_binding:
+
+    status: PARTIAL_UNBOUND
+
+    reason: >
+      Exact canonical GMEF serialization is not available in the loaded
+      canon layer. Preserve semantic entities and interactions without
+      inventing proprietary canonical field names.
+
+    candidate_components:
+
+      field:
+        - household_value_system
+        - Sabbath_temporal_regime
+        - domestic_technology_environment
+
+      entities:
+        - household_member
+        - family
+        - community
+        - automation_system
+        - automation_service_provider
+        - appliance
+        - home_environment
+
+      gradients:
+        - temporal_phase
+        - degree_of_control
+        - automation_complexity
+        - religious_commitment
+        - predictability_of_routine
+        - system_reliability
+
+      interactions:
+        - preconfiguration
+        - delegated_execution
+        - environmental_cue
+        - social_interpretation
+        - value_reinforcement
+        - respite
+
+      observables:
+        - participant_report
+        - household_behavior
+        - automation_event
+        - perceived_burden
+        - perceived_control
+        - routine_pattern
+
+      competing:
+        - HYP_A
+        - HYP_B
+        - HYP_C
+        - HYP_D
+        - HYP_E
+
+  # ============================================================
+  # 28. PROOF CAPSULES
+  # ============================================================
+
+  proof_capsules:
+
+    PC_AUTOMATION_SUPPORTS_SABBATH:
+
+      claim:
+        class: SOURCE_CLAIM
+
+        text: >
+          Participants commonly described automation as supporting or
+          enhancing Sabbath experience by reducing mundane attention and
+          manual intervention.
+
+      load_bearing_premises:
+        - participant_accounts_are_accurately_represented
+        - sampled_households_relevant_to_claim
+        - thematic_analysis_valid
+
+      evidence:
+        - C050
+        - C060
+        - C070
+
+      confidence_ceiling:
+        SAMPLE_SPECIFIC
+
+    PC_SURRENDER_CONTROL:
+
+      claim:
+        class: CONDITIONAL
+
+        text: >
+          Voluntary and temporally bounded surrender of immediate control can
+          function as a positive design resource in at least some contexts.
+
+      evidence:
+        - C070
+        - C080
+        - C150
+
+      competing:
+        - >
+          Benefit may depend primarily on religious meaning, ritual context,
+          community reinforcement, or prior commitment rather than reduced
+          control itself.
+
+      generalization_ceiling:
+        DESIGN_HYPOTHESIS
+
+    PC_SOCIAL_ORDER:
+
+      claim:
+        class: DERIVED
+
+        text: >
+          Home automation can function as an organizing system by encoding,
+          signaling, and reinforcing household routines and expectations.
+
+      evidence:
+        - C100
+        - C110
+        - C120
+
+      external_transfer:
+        CONDITIONAL
+
+    PC_COMMUNITY_RESPITE:
+
+      claim:
+        class: CONDITIONAL
+
+        text: >
+          Shared temporal norms and community participation may strengthen
+          adherence to periods of technology respite.
+
+      evidence:
+        - C040
+        - C170
+
+      limitation:
+        >
+          The study does not experimentally compare community-based and
+          individual respite systems.
+
+  # ============================================================
+  # 29. KNOWLEDGE HARVEST / LIFECYCLE
+  # ============================================================
+
+  lifecycle:
+
+    pipeline:
+      - EPHEMERAL_SOURCE
+      - PERSISTENT_EVIDENCE
+      - NORMALIZED_RSCF
+      - CROSS_STUDY_REVALIDATION
+      - VALIDATED_PATTERN_IF_WARRANTED
+
+    current_stage:
+      NORMALIZED_RSCF
+
+    retention_class:
+      LONG_TERM_HCI_REFERENCE
+
+    revalidation_triggers:
+      - current_smart_home_design
+      - AI_agent_design
+      - digital_wellbeing_design
+      - claims_about_Orthodox_Jewish_practice_today
+      - psychological_claim_about_autonomy
+      - community_scale_intervention_design
+
+    promotion_requirements:
+
+      design_pattern_to_validated:
+        require:
+          - independent_HCI_studies
+          - different_populations
+          - provenance_diversity
+          - compatible_context
+          - contradiction_scan
+
+      psychological_effect_to_verified:
+        require:
+          - controlled_or_strong_observational_evidence
+          - construct_validation
+          - independent_replication
+
+    rollback:
+      policy:
+        LOCAL_DEPENDENCY_INVALIDATION
+
+      examples:
+        - >
+          If surrender-of-control generalization fails, retain the original
+          participant observations.
+        - >
+          If current automation technology differs radically from X10-era
+          systems, retain the historical sociotechnical study.
+        - >
+          If a particular halakhic interpretation is later shown inaccurate,
+          invalidate only claims depending on that interpretation, not the
+          reported user-experience data.
+
+  # ============================================================
+  # 30. FINAL KNOWLEDGE CAPSULE
+  # ============================================================
+
+  final_capsule:
+
+    claim:
+      class: DERIVED
+
+      text: >
+        Woodruff, Augustin, and Foucault document long-term use of domestic
+        automation in 20 American Jewish households, predominantly Orthodox,
+        where technology was configured before Sabbath observance to reduce
+        the need for direct interaction with electrical devices during the
+        observance period. Participants commonly described automation as
+        reducing mundane attentional burden, enhancing atmosphere, fitting
+        with intentional surrender of control, and becoming intertwined with
+        religious custom and family routines. The systems also acted as
+        household organizing infrastructure whose timed environmental events
+        could cue behavior and express social expectations. The authors use
+        these findings to challenge control-centric smart-home assumptions and
+        propose broader design spaces involving voluntary surrender of control,
+        long-term value/lifestyle support, and community-supported technology
+        respite. These broader design implications remain hypotheses grounded
+        in a culturally and historically specific qualitative study rather than
+        universal human-computer-interaction laws.
+
+    strongest_source_support:
+      - methodology
+      - C010
+      - C050
+      - C060
+      - C070
+      - C100
+      - C110
+      - C150
+      - C160
+      - C170
+
+    weakest_load_bearing_premises:
+      - sample_transferability
+      - interpretation_of_participant_accounts
+      - cultural_context_compatibility
+      - distinction_between_voluntary_and_involuntary_control_loss
+
+    unresolved:
+      - generalizability_to_other_religions
+      - generalizability_to_secular_households
+      - causal_psychological_effect_of_surrendered_control
+      - present_day_Orthodox_Jewish_automation_practice
+      - applicability_to_AI_driven_adaptive_homes
+      - community_vs_individual_respite_effectiveness
+
+    confidence_ceiling:
+      sample_claims:
+        SOURCE_BOUND
+
+      broader_design_patterns:
+        CONDITIONAL
+
+      universal_claims:
+        UNKNOWN
+
+    safe_reuse:
+      - historical_HCI_reference
+      - value_sensitive_design
+      - domestic_automation_architecture
+      - temporal_commitment_design
+      - digital_wellbeing_hypothesis_generation
+      - community_technology_design
+      - sociotechnical_system_analysis
+
+    revalidation_required:
+      - product_policy
+      - current_religious_practice
+      - behavioral_intervention
+      - psychological_effect_claim
+      - AI_autonomy_design
+      - universal_smart_home_principle
+
+---
+---
+**MOC:** [[MOC_2007]]
+
+## Related
+
+- [[KNOWLEDGE_MOC]]

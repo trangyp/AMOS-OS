@@ -8,10 +8,6 @@ tags:
 - type/skill
 - architecture
 - ratpak
-- references-moc
-- 07-skills-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 - trang-framework-recursive-ontology-dynamics
 rscf:
@@ -315,7 +311,8 @@ effectively collaborate with AI systems in maintaining optimal states. It's the 
 
 potential and machine capability.
 
-Twenty-One Domains of Living State Monetisation
+
+Twenty-One Domains of Living State Monetisation
 
 1. Energy Infrastructure: The Frequency Guarantee
 

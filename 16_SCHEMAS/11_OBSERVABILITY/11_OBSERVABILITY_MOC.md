@@ -7,7 +7,7 @@ tags:
 - canon/schema
 - canon-healthschema
 - provenance-healthschema
-- 16-schemas-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

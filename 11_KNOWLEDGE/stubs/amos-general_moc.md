@@ -1,12 +1,10 @@
 ---
 title: amos-general moc
 tags:
+moc: true
 - stub
 - amos
 - general
-- amos-general-moc
-- kernel-moc
-- 00-home
 ---
 
 # amos-general moc

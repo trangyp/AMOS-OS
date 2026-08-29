@@ -6,10 +6,6 @@ tags:
 - reference
 - amos-distinction-relation-constraint-rscf-algebra
 - type/skill
-- references-moc
-- 07-skills-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 - trang-framework-recursive-ontology-dynamics
 rscf:
@@ -88,7 +84,8 @@ NEUROPAK frameworks, and AHC systems), strategic network access, and deep expert
 
 emerging technology commercialisation.
 
-C. The Recipient Company seeks strategic partnership with T4H to accelerate growth, access
+
+C. The Recipient Company seeks strategic partnership with T4H to accelerate growth, access
 
 advanced technology frameworks, and benefit from T4H's network and brand association.
 

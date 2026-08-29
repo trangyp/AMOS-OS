@@ -13,11 +13,6 @@ tags:
 - control-plane-readme
 - observability-readme
 - operations-readme
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 16-mode-template-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

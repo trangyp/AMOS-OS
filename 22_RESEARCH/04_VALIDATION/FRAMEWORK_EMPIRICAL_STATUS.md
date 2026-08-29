@@ -23,11 +23,7 @@ tags:
 - rscf
 - canon_candidate
 - canon/research
-- 04-validation-moc
-- 05-frameworks-moc
 - provenance-x-confidence
-- 00-home
-- 22-research-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

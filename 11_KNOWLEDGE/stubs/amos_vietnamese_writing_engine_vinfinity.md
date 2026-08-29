@@ -8,8 +8,6 @@ tags:
 - engine
 - vinfinity
 - amos-vietnamese-writing-engine-vinfinity
-- kernel-moc
-- 00-home
 ---
 
 # amos vietnamese writing engine vinfinity

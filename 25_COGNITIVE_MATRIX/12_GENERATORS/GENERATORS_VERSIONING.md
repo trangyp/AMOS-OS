@@ -27,14 +27,8 @@ tags:
 - revocation
 - validation
 - integration
-- 00-root-moc
 - canon
-- amos-moc
-- 00-home
 - generators-map
-- cognitive-matrix-moc
-- amos-rscf-nodes
-- 12-generators-moc
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED

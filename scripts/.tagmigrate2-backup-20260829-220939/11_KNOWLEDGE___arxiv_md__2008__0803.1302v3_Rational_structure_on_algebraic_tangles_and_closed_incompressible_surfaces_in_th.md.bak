@@ -1,0 +1,727 @@
+---
+title: 0803.1302v3_Rational_structure_on_algebraic_tangles_and_closed_incompressible_surfaces_in_th
+tags:
+- 2008
+- canon/knowledge
+- moc-2008
+- knowledge-moc
+type: document
+source: 11_KNOWLEDGE/2008
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+---
+
+# 0803.1302v3_Rational_structure_on_algebraic_tangles_and_closed_incompressible_surfaces_in_th
+
+> Source: 0803.1302v3_Rational_structure_on_algebraic_tangles_and_closed_incompressible_surfaces_in_th.pdf
+
+> Pages: 15
+
+---
+
+
+## Page 1
+
+
+arXiv:0803.1302v3  [math.GT]  7 May 2009
+RATIONAL STRUCTURE ON ALGEBRAIC TANGLES AND
+CLOSED INCOMPRESSIBLE SURFACES IN THE
+COMPLEMENTS OF ALGEBRAICALLY ALTERNATING KNOTS
+AND LINKS
+MAKOTO OZAWA
+Abstract. Let F be an incompressible, meridionally incompressible and not
+boundary-parallel surface with boundary in the complement of an algebraic
+tangle (B, T). Then F separates the strings of T in B and the boundary slope
+of F is uniquely determined by (B, T) and hence we can deﬁne the slope of the
+algebraic tangle. In addition to the Conway’s tangle sum, we deﬁne a natural
+product of two tangles. The slopes and binary operation on algebraic tangles
+lead an algebraic structure which is isomorphic to the rational numbers.
+We introduce a new knot and link class, algebraically alternating knots and
+links, roughly speaking which are constructed from alternating knots and links
+by replacing some crossings with algebraic tangles. We give a necessary and
+suﬃcient condition for a closed surface to be incompressible and meridionally
+incompressible in the complement of an algebraically alternating knot or link
+K, in particular we show that if K is a knot, then the complement of K does
+not contain such a surface.
+1. Introduction
+Conway introduced rational tangles and algebraic tangles for enumerating knots
+and links by using his “Conway notation” ([2]). He noted that the rational tangles
+correspond to the rational numbers in one-to-one. Kauﬀman and Lambropoulou
+gave also a proof of this theorem ([8]). Gabai gave an another deﬁnition for algebraic
+links by a plumbing construction from a weighted tree, so these links are called an
+“arborescent” links ([5]).
+Hatcher and Thurston classiﬁed incompressible surfaces in the complements of
+2-bridge knots ([6]). Oertel classiﬁed closed incompressible surfaces in the com-
+plements of Montesinos links ([13]). Bonahon and Siebenmann characterized non-
+hyperbolic algebraic links ([1]). Wu classiﬁed non-simple algebraic tangles ([19])
+and Reif determined the hyperbolicity of algebraic tangles and links ([17]). Futer
+and Gu´eritaud gave another proof of the theorem by Bonahon and Siebenmann
+([4]). In another direction, Menasco showed that closed incompressible surfaces in
+alternating link complements are meridionally compressible, and that an alternating
+link is split if and only if the alternating diagram is split ([11]).
+Krebes discoverd that the greatest common divisor of the determinant of a nu-
+merator and denominator of a tangle embedded in a link divides the determinant
+1991 Mathematics Subject Classiﬁcation. Primary 57M25; Secondary 57Q35.
+Key words and phrases. closed incompressible surface, algebraic knot, alternating knot, alge-
+braic tangle, rational tangle, tangle sum, tangle product.
+1
+
+
+## Page 2
+
+
+2
+MAKOTO OZAWA
+of the link ([9]). Moreover he constructed a map from tangles to formal fractions
+(not necessarily reduced), and the map on the algebraic tangles is surjective.
+In this paper, we extend the slope of rational tangles to one of algebraic tangles
+by means of the boundary slope of essential surfaces in algebraic tangles, and show
+that a map from algebraic tangles to the boundary slopes coincides with “reduced”
+Krebes’s invariant. This map induces a homomorphism from the algebraic tangles
+to the rational number. We also introduce algebraically alternating knots and links
+which are deﬁned by means of diagrams with Conway notation of “alternating
+slope”, and show that any essential closed surface in the complement of algebraically
+alternating knots is meridionally compressible.
+1.1. Rational structure on algebraic tangles. Let M be a 3-manifold and T a
+1-manifold properly embedded in M. We say that a surface F properly embedded
+in M −T is m-essential (meridionally essential) if it is incompressible, meridionally
+incompressible and not boundary-parallel in M −T . For the deﬁnition of incom-
+pressible and meridionally incompressible, we refer to [15]. (In general, the condi-
+tion that it is boundary-incompressible is required, but under the situation in this
+paper, it follows from the above three conditions. Also surfaces are automatically
+orientable under the situation of this paper.)
+Theorem 2.3 Let (B, T ) be an algebraic tangle. Then, any m-essential surface
+with boundary in B −T separates the components of T , and all boundary slopes of
+m-essential surfaces with boundary in B −T are unique.
+In the next section, we will see that there exists at least one m-essential surface
+with boundary in any algebraic tangle (Lemma 2.2). Hence we can deﬁne the slope
+of an algebraic tangle (B, T ) as the boundary slope of an m-essential surface F in
+B −T . This deﬁnition succeeds the slope of rational tangles. We will state the
+deﬁnitions of the summation and multiplication for tangles in the next section.
+Theorem 2.4 Let φ be a map from the set of algebraic tangles to the set of rational
+numbers which maps an algebraic tangle (B, T ) to the slope of (B, T ). Then φ is a
+surjective homomorphism under the summation and multiplication for tangles.
+The homomorphism φ is consistent with the Krebes invariant f ([9]), to be
+precise, φ(T ) is equal to an irreducible fraction of f(T ).
+1.2. Algebraically alternating knots and links. Let S2 ⊂S3 be the standard
+2-sphere and G a connected quadrivalent graph in S2 which has no bigon. We
+obtain a knot or link diagram ˜K by substituting algebraic tangles for vertices of G.
+After such an operation, we substitute each algebraic tangle (B, T ) for a rational
+tangle of slope 1, −1, 0 or ∞if the slope of (B, T ) is positive, negative, 0 or ∞
+respectively (ﬁxing four points of ∂T ). The resultant knot or link diagram is said to
+be basic and denoted by ˜
+K0. Then we say that ˜K is algebraically alternating if ˜
+K0 is
+alternating, and K is algebraically alternating if K has an algebraically alternating
+diagram. See Figure 1. We remark that the class of algebraically alternating knots
+and links includes both of alternating knots and links and algebraic knots and links.
+Besides the slope, we can deﬁne the genus of an algebraic tangle (B, T ) as the
+minimal genus of m-essential surfaces with boundary in B −T .
+In a diagram of Conway notation, an algebraic tangle of slope ∞(resp. 0) is
+called a cut tangle if the diagram becomes split when we replace the algebraic tangle
+with a rational tangle of slope 1/0 (resp. 0/1). See Figure 2.
+
+
+## Page 3
+
+
+RATIONAL STRUCTURE ON ALGEBRAIC TANGLES
+3
+˜K
+˜
+K0
+Figure 1. an algebraically alternating link diagram ˜K and the
+basic diagram ˜
+K0
+slope 1
+0
+Figure 2. Cut tangle
+An algebraic tangle with two unknotted parallel strings and m unknotted parallel
+loops is denoted by Qm (Figure 3).
+m
+Figure 3. Qm
+Menasco ([11]) showed that there exists no m-essential closed surface in the com-
+plement of any alternating knot or link. Oertel ([13]) showed that the complement
+of a Montesinos knot or link K containes an m-essential torus if and only if K is
+a pretzel link P(p, q, r, −1), where 1
+p + 1
+q + 1
+r = 1. Bonahon and Seibenmann ([1])
+showed that the complement of a large algebraic link contains an m-essential torus
+if and only if (S3, K) contains Q2. Here, an algebraic link is large if it does not
+have a form of a Montesinos link with length 3. See also [4] and [17].
+Next theorem extends the above results.
+
+
+## Page 4
+
+
+4
+MAKOTO OZAWA
+Theorem 1.1. Let K be an algebraically alternating knot or link in S3, ˜K an
+algebraically alternating diagram of K and ˜
+K0 the basic diagram of ˜K. Then,
+(1) There exists an m-essential closed surface in S3−K if and only if ˜
+K0 is split
+or there exists an algebraic tangle in ˜K which contains a closed algebraic
+sub-tangle.
+(2) There exists an m-essential 2-sphere in S3 −K if and only if there exists a
+genus 0 cut tangle in ˜K.
+(3) Suppose that there exists no genus 0 cut tangle in ˜K. Then there exists an
+m-essential torus in S3 −K if and only if there exists a genus 1 cut tangle
+in ˜K or (S3, K) contains Q2.
+Next corollary extends the Menasco’s meridian lemma ([11]).
+Corollary 1.2. Let K be an algebraically alternating knot, and F a closed incom-
+pressible surface in the complement of K. Then, F is meridionally compressible.
+Proof. Suppose that ˜
+K0 is split. Since K consists of one component, any algebraic
+tangle of ˜K contains no loop component. Therefore by Lemma 2.7, ˜K has more
+than one component. Next suppose that there exists an algebraic tangle in ˜K which
+contains a closed algebraic sub-tangle. Then by Lemma 2.7, some algebraic tangle
+of ˜K has a loop component. In either cases, we have a contradiction.
+□
+By [7, Lemma 2.1], we have the following corollary.
+Corollary 1.3. Hyperbolic algebraically alternating knots satisfy the Menasco-Reid
+conjecture ([12]), i.e. there is no totally geodesic closed surface embedded in the knot
+complement.
+Example 1.4. Let ˜K be an algebraically alternating diagram of K as Figure 4.
+Then ˜K contains a genus 0 cut tangle since S3−K contains an m-essential 2-sphere.
+˜K
+˜
+K0
+Figure 4. an algebraically alternating link diagram ˜K and the
+basic diagram ˜
+K0
+Example 1.5. Let ˜K be an algebraically alternating diagram of K as Figure 5.
+Then (S3, K) contains Q2 since S3−K contains an m-essential torus and ˜K contains
+no genus 0 nor 1 cut tangle.
+Here we represent the Hasse diagram of various classes of knots and links which
+are deﬁned by means of diagrams. See Figure 6 and refer Montesinos links ([13]),
+alternating links ([11]), positive links ([14]), homogeneous links ([3]), adequate links
+([18]), semi-adequate links ([10]), algebraic links ([2]), arborescent links ([5]), σ-
+adequate and σ-homogeneous links ([16]) for the deﬁnition of each diagrams.
+
+
+## Page 5
+
+
+RATIONAL STRUCTURE ON ALGEBRAIC TANGLES
+5
+˜K
+˜
+K0
+Figure 5. an algebraically alternating link diagram ˜K and the
+basic diagram ˜
+K0
+2-bridge
+torus
+alternating
+positive
+adequate
+homogeneous
+semi-adequate
+Montesinos
+pretzel
+algebraic
+(arborescent)
+algebraically
+alternating
+adequate
+homogeneous
+σ
+σ
+-
+-
+&
+Figure 6. The Hasse diagram of various classes of links
+2. Rational structure on algebraic tangle
+2.1. The slope of rational tangles. Let (B, T ) be a 2-string tangle ﬁxing four
+points of ∂T . There are a double covering map d : S1 ×S1 →∂B branched over ∂T
+and a universal covering map u : R2 →S1 × S1. Then we have a map p : R2 →∂B
+as a composition of these two covering maps such that p−1(∂T ) is the set of half
+integral points. We say that an essential loop C in ∂B −∂T which separates ∂T
+into two pairs of two points has a slope p/q if a component of p−1(C) is a line with
+slope p/q. In particular, C is a meridian (resp. a longitude) if it has a slope 1/0
+(resp. 0/1) and these are denoted by m and l respectively.
+Lemma 2.1 ([15, Lemma 3.4]). Let (B, T ) be a rational tangle and F an m-
+essential surface in B −T . Then F is a disk which separates two strings of T in
+B.
+By Lemma 2.1, a rational tangle (B, T ) contains a unique separating disk D.
+We deﬁne the slope of (B, T ) as the slope of ∂D.
+
+
+## Page 6
+
+
+6
+MAKOTO OZAWA
+m
+l
+p
+u
+d
+Figure 7. branched covering map p : R2 →∂B
+2.2. Rotation, reﬂection, summation and multiplication for tangles. Let
+(B, T ) be a 2-string tangle ﬁxing four points of ∂T . The rotation (B, T ∗) of (B, T )
+is obtained by rotating (B, T ) counterclockwise by 90◦. A rotation exchanges the
+meridian for the longitude. See Figure 8.
+m
+l
+m
+l
+Figure 8. rotation of a 2-string tangle
+The reﬂection (B, −T ) of (B, T ) is obtained by reﬂecting (B, T ) by a plane
+perpendicular to the axis of rotation. A reﬂection does not exchange both of the
+meridian and longitude as sets. See Figure 9.
+Let (B1, T1) and (B2, T2) be two tangles with meridians m1, m2 and longitudes
+l1, l2 respectively. We construct a new tangle (B, T ) from (B1, T1) and (B2, T2)
+by gluing the east side disk De in ∂B1 and the west side disk Dw in ∂B2 so that
+m1 = m2, ∂T1 ∩De = ∂T2 ∩Dw and l1 ∩De = l2 ∩Dw. See Figure 10. We
+
+
+## Page 7
+
+
+RATIONAL STRUCTURE ON ALGEBRAIC TANGLES
+7
+=
+T1
+-
+T1
+-
+Figure 9. reﬂection of a 2-string tangle
+call this summation a tangle sum of (B1, T1) and (B2, T2). A tangle sum of two
+tangles (B1, T1) and (B2, T2) is non-trivial if neither (Bi, Ti) is a rational tangle of
+slope 0 or ∞. An algebraic tangle is obtained inductively from rational tangles by
+non-trivial tangle sums and rotations.
+m
+l
+m
+l
++
+=
+1
+1
+2
+2
+m
+l
+Figure 10. summation of two 2-string tangles
+Next we deﬁne the product of two 2-string tangles (B1, T1) and (B2, T2). We
+regard each crossing of T1 as a rational tangle of slope 1 or −1, and replace each
+crossing of T1 with (B2, T2) or (B2, −T2) if the slope of the crossing is 1 or −1
+respectively. Then we obtain the multiplication (B, T1 ∗T2) of two tangles (B1, T1)
+and (B2, T2). We remark that the multiplication depends on the choice of tangle
+diagrams. Also in general, T1 ∗T2 ̸= T2 ∗T1, however two slopes of them coincide
+(Theorem 2.4).
+*
+=
++1
++1
+-1
+-1
+-1
+T2
+T2
+-T2
+-T2
+-T2
+T2
+T1
+T2
+T1 *
+Figure 11. multiplication of two 2-string tangles
+2.3. The slope of algebraic tangles. Let (B, T ) be a tangle sum of (B1, T1) and
+(B2, T2). Let Fi be a surface in Bi −Ti whose boundary is empty or separates ∂Ti
+into two pairs of two points. We say that a surface F in B −T is a non-trivial sum
+
+
+## Page 8
+
+
+8
+MAKOTO OZAWA
+of F1 and F2 if F = F1 ∪F2, and both of ∂Fi ∩D and ∂Fi ∩Di are essential arcs or
+essential loops parallel to ∂D in D −∂Ti and Di −∂Ti respectively, where D is the
+gluing disk and Di = ∂Bi −intD. The next lemma asserts that a non-trivial sum
+preserves the m-essentiality of surfaces. We say that an algebraic tangle is closed if
+it is a sum of two tangles both of which have slope 1/0.
+Lemma 2.2. Let (B, T ) be a non-trivial sum of two tangles (Bi, Ti). Then, for any
+m-essential surface F in B −T , there exists an m-essential surface Fi in Bi −Ti
+such that F is a non-trivial sum of F1 and F2. Conversely, for any m-essential
+surface Fi in Bi −Ti, a surface obtained from adequate parallelisms of Fi by a
+non-trivial sum is m-essential in B −T . Moreover, there exists a closed m-essential
+surface in B −T if and only if there exists a closed algebraic sub-tangle in (B, T ).
+Proof. Let F be an m-essential surface in B −T and D a disk in B which separates
+(B, T ) into (B1, T1) and (B2, T2). Suppose that F intersects D transversely and the
+intersection is minimal. Then both of F1 = F ∩B1 and F2 = F ∩B2 are m-essential
+in B1 and B2 respectively.
+Conversely, let Fi be an m-essential surface in Bi −Ti whose boundary runs in
+D−T as essential arcs or loops Li. We make a parallelism of Fi so that the number
+of essential arcs or loops is equal to l.c.m(|L1|, |L2|). Then we obtain an m-essential
+surface F by a non-trivial sum of a parallelism of F1 and F2.
+Moreover, if there exists a closed m-essential surface F in B −T , then there
+exists a minimal algebraic sub-tangle in (B′, T ′) which contains F. We note that
+(B′, T ′) is not a rational tangle and put (B′, T ′) = (B′
+1, T ′
+1) + (B′
+2, T ′
+2). Then both
+of (B′
+1, T ′
+1) and (B′
+2, T ′
+2) have slope 1/0, hence (B′, T ′) is closed. Conversely, if there
+exists a closed algebraic sub-tangle (B′, T ′) in (B, T ), then B′−T ′ contains a closed
+m-essential surface F and hence B −T contains F.
+We omit an elementary cut-and-paste argument required in this lemma.
+□
+By Lemma 2.2, we obtain that the set of all m-essential surfaces in B−T is equal
+to the set of non-trivial sums of all m-essential surfaces in Bi −Ti. Next theorem
+extends Lemma 2.1.
+Theorem 2.3. Let (B, T ) be an algebraic tangle. Then, any m-essential surface
+with boundary in B −T separates the components of T , and all boundary slopes of
+m-essential surfaces with boundary in B −T are unique.
+Proof. We prove Theorem 2.3 by induction on the length of algebraic tangles. If
+the length of (B, T ) is equal to 1, then it follows from Lemma 2.1. Suppose that
+Theorem 2.3 holds for algebraic tangles whose length is less than or equal to n, and
+let (B, T ) be an algebraic tangle with length n + 1. Then (B, T ) is a tangle sum of
+two algebraic tangles (B1, T1) and (B2, T2) of slopes p1/q1 and p2/q2 whose length
+is less than or equal to n. By Lemma 2.2, any m-essential surface F in B −T is
+obtained from parallelisms m1F1 and m2F2 of two m-essential surfaces F1 and F2
+in B1 −T1 and B2 −T2 by a non-trivial sum. Here, we note that at least one of m1
+and m2 is odd since F is connected. Suppose without loss of generality that m1 is
+odd. Let X and Y be two components that is obtained from B by cutting along
+F. Then both of X and Y contain some components of T since F1 separates the
+components of T1 and m1 is odd. Hence F separates the components of T .
+Next, suppose that the boundary slopes of m-essential surfaces in Bi −Ti are
+unique, and let pi/qi be the boundary slope of m-essential surfaces in Bi −Ti. If
+
+
+## Page 9
+
+
+RATIONAL STRUCTURE ON ALGEBRAIC TANGLES
+9
+either q1 or q2 is equal to 0, then by Lemma 2.2 any m-essential surface in B−T has
+the boundary slope ∞. Otherwise, the boundary slope of an m-essential surface F
+obtained by a non-trivial sum of F1 and F2 is p1/q1 + p2/q2. Hence the boundary
+slopes of m-essential surfaces in B −T are unique.
+□
+By virtue of Theorem 2.3, we can deﬁne the slope of an algebraic tangle (B, T )
+as the slope of the boundary of an m-essential surface in B −T .
+Theorem 2.4. Let φ be a map from the set of algebraic tangles to the set of rational
+numbers which maps an algebraic tangle T to the slope of T . Then φ satisﬁes the
+following.
+(1) φ(T1 + T2) = φ(T1) + φ(T2) and φ(R(0/1)) = 0
+(2) φ(T1 ∗T2) = φ(T1)φ(T2) and φ(R(1/1)) = 1
+(3) φ(−T1) = −φ(T1)
+(4) φ(T1)φ(T ∗
+1 ) = −1
+where R(p/q) denotes the rational tangle of slope p/q.
+Proof. (1) φ(T1 +T2) = φ(T1)+φ(T2) follows the proof of Lemma 2.2 and Theorem
+2.3.
+(3) φ(−T1) = −φ(T1) holds since a reﬂection changes the boundary slope −1
+times.
+(4) φ(T1)φ(T ∗
+1 ) = −1 follows that a rotation changes the boundary slope recip-
+rocally and times −1 by an orthogonal condition.
+(2) φ(T1 ∗T2) = φ(T1)φ(T2) is shown by an induction of the length of T1. First
+suppose that T1 is a non-trivial sum of T11 and T12. Then,
+φ(T1 ∗T2) = φ((T11 + T12) ∗T2)
+= φ(T11 ∗T2 + T12 ∗T2)
+= φ(T11 ∗T2) + φ(T12 ∗T2)
+= φ(T11)φ(T2) + φ(T12)φ(T2)
+= (φ(T11) + φ(T12))φ(T2)
+= φ(T11 + T12)φ(T2)
+= φ(T1)φ(T2)
+Next suppose that T1 is not a non-trivial sum but T ∗
+1 is a non-trivial sum. Then,
+
+
+## Page 10
+
+
+10
+MAKOTO OZAWA
+φ(T1 ∗T2) = −
+1
+φ((T1 ∗T2)∗)
+= −
+1
+φ(−T ∗
+1 ∗T ∗
+2 )
+=
+1
+φ(T ∗
+1 ∗T ∗
+2 )
+=
+1
+φ(T ∗
+1 )φ(T ∗
+2 )
+= (−φ(T1))(−φ(T2))
+= φ(T1)φ(T2)
+□
+Example 2.5. Figure 12 illustrates a non-trivial sum of two rational tangles of
+slope −1/3 and 1/3. The resultant algebraic tangle has slope −1/3 + 1/3 = 0 and
+contains an m-essential pair of pants which separates two strings.
+1
+3
++
+1
+3
+-
+0
+=
+1
+3
++
+1
+3
+-
+=
+0
+Figure 12. an algebraic tangle with slope −1/3 + 1/3 = 0
+Example 2.6. Figure 13 illustrates a non-trivial sum of three rational tangles
+of slope 1/2, −1/3 and 6.
+The resultant algebraic tangle has slope −1/(1/2 +
+(−1/3)) + 6 = 0 and contains an m-essential once punctured torus which separates
+two strings. This example is borrowed from R[1/2, −1/3; −1/6] in [19, Fig. 4.1].
+
+
+## Page 11
+
+
+RATIONAL STRUCTURE ON ALGEBRAIC TANGLES
+11
+1
+2
++
+1
+3
+-
+= 1
+6
+6
+-
+rotation
+=
+6
+-
++ 6
+0
+Figure 13. an algebraic tangle with slope −1/(1/2 + (−1/3)) + 6 = 0
+We say that an algebraic tangle (B, T ) of slope p/q is of Type 0/1 (resp. of Type
+1/0, of Type 1/1) if p is even and q is odd (resp. p is odd and q is even, both of p
+and q are odd).
+Lemma 2.7. An algebraic tangle (B, T ) has a loop component if and only if it
+contains an algebraic sub-tangle which is obtained from two algebraic tangles of
+Type 1/0 by a tangle sum. If an algebraic tangle (B, T ) of Type p/q has no loop
+component, then the connection of two strings T coincides with the rational tangle
+of slope p/q, where p/q = 0/1, 1/0 or 1/1.
+Proof. By an elementary calculus on fraction, we have Table 1 on the tangle sums
+of two algebraic tangles of three Types 0/1, 1/0 or 1/1. If we do not a tangle sum
+of two tangles of Type 1/0, then the connection of two strings T coincides with the
+rational tangle of slope p/q, where p/q = 0/1, 1/0 or 1/1. Otherwise, the algebraic
+tangle contains a loop component, and the converse holds.
+□
+0/1
+1/0
+1/1
+0/1
+0/1
+1/0
+1/1
+1/0
+1/0
+indeﬁnite
+1/0
+1/1
+1/1
+1/0
+0/1
+Table 1. tangle sums of Types
+
+
+## Page 12
+
+
+12
+MAKOTO OZAWA
+2.4. Algebraically alternating knots and links. We use the next lemma in the
+proof of Theorem 1.1.
+Lemma 2.8 ([17, Addendum 3.23]). Let (B, T ) be an algebraic tangle.
+(1) B −T contains no m-essential 2-sphere.
+(2) B −T contains an m-essential disk D if and only if (B, T ) is a rational
+tangle and D is the disk separating the two strings of T .
+(3) B −T contains an m-essential annulus A if and only if (B, T ) = Qm +
+(B′, T ′) for some m ≥1 and A is a standard annulus in Qm.
+(4) B −T contains an m-essential torus F if and only if B −T contains a Qm
+for some m ≥2 and F is a standard torus in Qm.
+Proof. (of Theorem 1.1) In this proof, we basically follow Menasco’s argument
+([11]). Let K be an algebraically knot or link. We assume that K is in a position
+with respect to the 2-sphere S2 as follows.
+(1) each algebraic tangle (Bi, Ti) in (S3, K) intersects S2 in an equatorial disk.
+(2) the rest of K except all (Bi, Ti) is entirely contained in S2.
+We put S3 = B3
++ ∪S2 B3
+−, B± = B3
+± −int S
+i Bi, and S± = ∂B±.
+Next, suppose that there exists an m-essential closed surface in S3 −K, and let
+F be an m-essential closed surface in S3 −K such that P
+i |F ∩∂Bi| is minimal
+among all m-essential closed surfaces. It follows that each component of F ∩Bi is m-
+essential in Bi −Ti and by Theorem 2.3, it separates Ti in Bi and has the boundary
+slope φ(Ti). See Figure 14. If F is contained in an algebraic tangle (Bi, Ti) in
+(S3, K), then by Lemma 2.2, (Bi, Ti) contains a closed algebraic sub-tangle.
+Figure 14. an intersection of F and the boundary of an algebraic
+tangle of slope 2/3
+By the incompressibility of F in S3 −K, we may assume that there is no loop of
+F ∩S± which is entirely contained in S+ ∩S−, and that F ∩B± consists of disks.
+Claim 2.9. There is no loop of F ∩S± which runs same algebraic tangle more
+than once.
+Proof. Let L be the set of loops of F ∩S+ which runs same algebraic tangle more
+than once. Then, a loop l in L which is innermost on S+ bounds a disk in F ∩B+.
+This shows that F ∩(S3 −S
+i Bi) is boundary compressible in (S3 −S
+i Bi) −K,
+and hence F is compressible or meridionally compressible in S3 −K.
+□
+
+
+## Page 13
+
+
+RATIONAL STRUCTURE ON ALGEBRAIC TANGLES
+13
+We ﬁx a checkerboard coloring of (S2 −S
+i Bi) −K so that it looks as Figure 15
+on the basic knot or link K0. By the alternating property of the basic knot or link
+K0, a loop of F ∩S± satisﬁes the semi-alternating property;
+(*) A loop of F ∩S+ goes through over ∂Bi looking ∂Bi in the right side when
+it runs from a black region to a white region.
+Figure 15. checkerboard coloring of K0, and loops of F ∩S+ on
+an algebraic tangle of slope 2/3
+Claim 2.10. There is no loop of F ∩S+ which runs through diﬀerent colors.
+Proof. Let L be the set of loops of F ∩S+ which runs through diﬀerent colors.
+Then, a loop in L which is innermost on S+ never satisfy Claim 2.9.
+□
+By Claim 2.10, any loop of F ∩S± runs algebraic tangles of slope 0 or ∞. Hence,
+˜
+K0 is split. Conversely, if ˜
+K0 is split, then we can construct an m-essential closed
+surface in S3 −K which is a union of m-essential surfaces in S
+i(Bi −Ti) and some
+planar surfaces in the outside of Bi. If there exists an algebraic tangle (Bi, Ti) in
+˜K which contains a closed algebraic sub-tangle, then by Lemma 2.2, there exists a
+closed m-essential surface in Bi −Ti and hence in S3 −K. This proves Theorem
+1.1 (1).
+(2) Suppose that F is an m-essential 2-sphere.
+We ﬁrst note that F is not
+contained in S
+i Bi by [17, Addendum 3.23 (1)]. Then an innermost disk D in F
+with respect to F ∩S
+i ∂Bi is in the outside of S
+i Bi. By Claim 2.10, ∂D has a
+slope 0 or ∞on a ∂Bi, and hence the algebraic tangle (Bi, Ti) is a genus 0 cut
+tangle.
+Converserly, if there exists a genus 0 cut tangle (Bi, Ti), then we can construct
+an m-essential 2-sphere which is a union of an m-essential planar surface in Bi −Ti
+and some disks in the outside of Bi.
+(3) Suppose that there exists no genus 0 cut tangle and F is an m-essential torus.
+We ﬁrst note that if F is contained in S
+i Bi, then by [17, Addendum 3.23 (4)], an
+algebraic tangle (Bi, Ti) containing F contains Q2.
+If there exists a loop of F ∩S
+i ∂Bi which is inessential in F, then by [17, Adden-
+dum 3.23 (2)], an innermost disk D on F is in the outside of S
+i Bi. By Claim 2.10,
+∂D has a slope 0 or ∞on a ∂Bi, and hence the algebraic tangle (Bi, Ti) is a genus
+1 cut tangle. Otherwise, since the basic diagram ˜
+K0 is connected, each component
+of F ∩S
+i ∂Bi is an essential loop in F, and hence every loops are parallel in F. Let
+
+
+## Page 14
+
+
+14
+MAKOTO OZAWA
+A1 be an annulus of F ∩S
+i Bi. By [17, Addendum 3.23 (3)], the algebraic tangle
+Bi containing A1 is a tangle sum of Qm (m ≥1) and an algebraic tangle, and A1
+is a standard annulus in Qm. Let A2 be the next annulus of A1 in F. By Claim
+2.9, A2 connects Bi and other algebraic tangle Bj. Then the next annulus A3 of
+A2 in F is an essential annulus in (Bj, Tj), and by [17, Addendum 3.23 (3)], the
+algebraic tangle (Bj, Tj) containing A3 is a tangle sum of Qm′ (m′ ≥1) and an
+algebraic tangle, and A3 is a standard annulus in Qm′. A loop of Qm′ is parallel to
+a loop of Qm along A2 and hence (S3, K) contains Q2.
+Conversely, if there exists a genus 1 cut tangle (Bi, Ti), then we can construct
+an m-essential torus which is a union of an m-essential genus 1 surface in Bi −Ti
+and some disks in the outside of Bi.
+□
+References
+1. F. Bonahon and L. Siebenmann, Geometric splittings of classical knots and the algebraic knots
+of Conway, from: ”New geometric splittings of classical knots” (editor L. Siebenmann), to
+appear in London Math. Soc. Lecture Notes Ser. 75 (2003).
+2. J. H. Conway, An enumeration of knots and links and some of their algebraic properties,
+in “Computational Problems in Abstract Algebra”, (D. Welsh, Ed.), pp. 329-358, Pergamon
+Press, New York, 1970.
+3. P. R. Cromwell, Homogeneous links, J. London Math. Soc. (2) 39 (1989) 535–552.
+4. D. Futer and F. Gu´eritaud, Angled decompositions of arborescent link complements, Proc.
+London Math. Soc. 98 (2009) 325–364.
+5. D. Gabai, Genera of the Arborescent Links, Memoirs of the American Mathematical Society,
+339, 1986.
+6. A. Hatcher and W. Thurston, Incompressible surfaces in 2-bridge knot complements. Invent.
+Math. 79 (1985), no. 2, 225–246.
+7. K. Ichihara and M. Ozawa, Hyperbolic knot complements without closed embedded totally
+geodesic surfaces, J. Austral. Math. Soc. Ser. A 68 (2000), no. 3, 379–386.
+8. L. H. Kauﬀman and S. Lambropoulou, On the classiﬁcation of rational tangles, Advances in
+Applied Mathematics, 33, No. 2 (2004), 199-237.
+9. David A. Krebes An obstruction to embedding 4-tangles in links, Journal of Knot Theory and
+Its Ramiﬁcations 8 (1999) 321–352.
+10. W. B. R. Lickorish and M. B. Thistlethwaite, Some links with non-trivial polynomials and
+their crossing numbers, Comment. Math. Helv. 63 (1988), 527–539.
+11. W. Menasco, Closed incompressible surfaces in alternating knot and link complements, Topol-
+ogy 23 (1984) 37–44.
+12. W. Menasco and A. Reid, Totally geodesic surfaces in hyperbolic link complements, in: Topol-
+ogy ’90, eds. B. Apanasov, W. Neumann, A. Reid and L. Siebenmann, (de Gruyter, Amster-
+dam, 1992).
+13. U. Oertel, Closed incompressible surfaces in complements of star links, Paciﬁc J. Math. 111
+(1984) 209–230.
+14. M. Ozawa, Closed incompressible surfaces in the complements of positive knots, Comment.
+Math. Helv. 77 (2002) 235–243.
+15. M. Ozawa, Morse position of knots and closed incompressible surfaces, J. Knot Theory and
+its Ramiﬁcations 17 (2008) 377–397.
+16. M. Ozawa, Essential state surfaces for knots and links, arXiv:math/0609166.
+17. K. Reif, Hyperbolicity of arborescent tangles and arborescent links, Topology and its Appl.
+156 (2009) 963–978.
+18. M. B. Thistlethwaite, On the Kauﬀman polynomial of an adequate link, Invent. Math. 93
+(1998) 285–296.
+19. Y.-Q. Wu, The classiﬁcation of nonsimple algebraic tangles, Math. Ann. 304 (1996) 457–480.
+
+
+## Page 15
+
+
+RATIONAL STRUCTURE ON ALGEBRAIC TANGLES
+15
+Department of Natural Sciences, Faculty of Arts and Sciences, Komazawa Univer-
+sity, 1-23-1 Komazawa, Setagaya-ku, Tokyo, 154-8525, Japan
+E-mail address: w3c@komazawa-u.ac.jp
+
+---
+**MOC:** [[MOC_2008]]
+
+## Related
+
+- [[KNOWLEDGE_MOC]]
+- [[MOC_2008]]

@@ -5,8 +5,6 @@ tags:
 - document
 - pdf
 - documentpdf
-- kernel-moc
-- 00-home
 ---
 
 # document.pdf

@@ -14,7 +14,6 @@ tags:
 - rscf/state/source-claim
 - topic/amos-tech-ubi-canon-kernel-v1
 - kernel
-- kernel-moc
 - canon
 created: 2026-08-22
 rscf:

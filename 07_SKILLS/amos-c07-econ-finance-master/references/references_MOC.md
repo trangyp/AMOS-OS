@@ -38,13 +38,9 @@ tags:
 - vn-vscci-investment-proposal
 - wealth-game-hack-5000
 - wealth-game-hack-50000
-- amos-c07-econ-finance-master-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- references-moc
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
+moc: true
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

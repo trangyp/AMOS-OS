@@ -8,10 +8,6 @@ tags:
 - readme
 - contract_filled
 - domain/cognitive-matrix
-- cognitive-matrix-moc
-- 00-root-moc
-- amos-moc
-- 08-structural-gaps-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

@@ -1,11 +1,9 @@
 ---
 title: speed moc
 tags:
+moc: true
 - stub
 - speed
-- speed-moc
-- kernel-moc
-- 00-home
 ---
 
 # speed moc

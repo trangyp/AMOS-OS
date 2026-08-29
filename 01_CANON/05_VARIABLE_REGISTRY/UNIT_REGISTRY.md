@@ -49,7 +49,6 @@ tags:
 - topic/unit-registry
 - readme
 - architecture
-- 00-root-naming-standard
 - placement-rules
 - canon-map
 - amos-core-laws
@@ -68,13 +67,7 @@ tags:
 - schema-map
 - observability-observability-map
 - test-map
-- index-research-readme
 - cognitive-matrix-architecture
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 05-variable-registry-moc
 aliases:
 - AMOS Unit Registry - Unit Registry - AMOS Measurement Registry - AMOS Quantity and
   Dimension

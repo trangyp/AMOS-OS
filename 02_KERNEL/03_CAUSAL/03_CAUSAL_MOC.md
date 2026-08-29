@@ -14,8 +14,7 @@ tags:
 - k-cross-scale-causality
 - k-quantum-causality
 - k-reality-causality
-- 00-index-moc
-- 02-kernel-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

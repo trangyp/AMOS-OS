@@ -38,9 +38,6 @@ tags:
 - dignity
 - architecture
 - law-hierarchy
-- 00-home
-- amos-rscf-nodes
-- 03-cognition-canon-moc
 - amos-cognition-canon
 - amos-cognition-master-canon
 - amos-cognitive-field-canon

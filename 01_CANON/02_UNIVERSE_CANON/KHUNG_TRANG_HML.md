@@ -8,9 +8,6 @@ tags:
 - scales
 - canon
 - khung-trang-canon
-- 02-universe-canon-moc
-- 00-index-moc
-- 00-home
 ---
 
 # Khung Trang H/M/L Scale Partitioning

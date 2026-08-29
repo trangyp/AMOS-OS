@@ -5,7 +5,7 @@ source: 03_CONTROL_PLANE/09_COMMIT/48_NEGOTIATION_BARGAINING_MODES
 tags:
 - 48-negotiation-bargaining-modes
 - canon/control-plane
-- 09-commit-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

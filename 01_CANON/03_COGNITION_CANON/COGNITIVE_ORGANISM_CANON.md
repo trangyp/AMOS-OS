@@ -48,7 +48,6 @@ tags:
 - rscf/state/derived
 - topic/cognitive-organism-canon
 - readme
-- 00-root-moc
 - architecture
 - system-map
 - neural-network
@@ -79,10 +78,6 @@ tags:
 - test-map
 - operations-map
 - cognitive-matrix-architecture
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 03-cognition-canon-moc
 aliases:
 - AMOS Cognitive Organism Canon - Cognitive Organism Canon - AMOS Cognitive Organism
   - Cogniti

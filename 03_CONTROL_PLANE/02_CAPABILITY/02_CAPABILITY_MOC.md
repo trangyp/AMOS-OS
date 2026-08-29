@@ -9,8 +9,7 @@ tags:
 - capability-manifest
 - capability-resolver
 - control-plane-capability-contract
-- 00-index-moc
-- 03-control-plane-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

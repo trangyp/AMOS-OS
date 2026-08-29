@@ -7,11 +7,7 @@ tags:
 - reference
 - amos-arxiv-structure-preserving-variational-neural
 - type/skill
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- references-moc
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

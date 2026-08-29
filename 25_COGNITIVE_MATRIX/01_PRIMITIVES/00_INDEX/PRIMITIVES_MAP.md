@@ -6,9 +6,6 @@ tags:
 - cognitive-matrix
 - 00_index
 - domain/cognitive-matrix
-- index-primitives-cognitive-matrix-readme
-- 00-root-map
-- amos-rscf-nodes
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - primitives-cognitive-matrix-primitives-contract
@@ -17,9 +14,6 @@ tags:
 - control-plane-readme
 - observability-readme
 - operations-readme
-- 00-root-moc
-- amos-moc
-- 00-index-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

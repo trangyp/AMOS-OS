@@ -7,8 +7,6 @@ tags:
 - engine
 - unipower
 - amos-scientific-engine-v0-unipower4
-- kernel-moc
-- 00-home
 ---
 
 # amos scientific engine v0 unipower4

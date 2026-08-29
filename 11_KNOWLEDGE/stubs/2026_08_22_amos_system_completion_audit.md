@@ -7,8 +7,6 @@ tags:
 - completion
 - audit
 - 2026-08-22-amos-system-completion-audit
-- kernel-moc
-- 00-home
 ---
 
 # 2026 08 22 amos system completion audit

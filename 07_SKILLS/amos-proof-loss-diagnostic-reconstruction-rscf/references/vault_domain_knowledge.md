@@ -6,15 +6,10 @@ tags:
 - reference
 - amos-proof-loss-diagnostic-reconstruction-rscf
 - type/skill
-- cosmo-brain-moc
 - 2026-08-22-amos-core-runtime-modules
-- references-moc
-- 00-home
-- amos-rscf-nodes
 - 2026-08-22-amos-core-infrastructure-modules
 - 2026-08-22-amos-remaining-module-test-coverage
 - law-hierarchy
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

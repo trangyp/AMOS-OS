@@ -67,7 +67,6 @@ tags:
 - topic/amos-os
 - topic/system-architecture
 - topic/cognitive-operating-system
-- 00-home
 - full-tree
 - system-map
 - authoritative-state
@@ -82,10 +81,6 @@ tags:
 - authority-canon
 - hml-canon
 - rscf-node-index
-- 00-root-moc
-- amos-moc
-- amos-rscf-nodes
-- 00-cosmo-brain-moc
 ---
 
 # AMOS OS Architecture

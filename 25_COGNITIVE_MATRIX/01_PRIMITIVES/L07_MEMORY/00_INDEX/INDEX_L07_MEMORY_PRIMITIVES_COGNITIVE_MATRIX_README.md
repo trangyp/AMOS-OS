@@ -9,8 +9,6 @@ tags:
 - memory
 - readme
 - l07-memory-map
-- 00-home
-- amos-rscf-nodes
 - primitives-cognitive-matrix-l07-memory-contract
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
@@ -19,9 +17,6 @@ tags:
 - control-plane-readme
 - observability-readme
 - operations-readme
-- 00-root-moc
-- amos-moc
-- 00-index-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

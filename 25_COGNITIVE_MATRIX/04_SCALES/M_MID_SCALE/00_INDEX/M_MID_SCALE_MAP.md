@@ -6,20 +6,14 @@ tags:
 - cognitive-matrix
 - m_mid_scale
 - domain/cognitive-matrix
-- 00-root-map
-- amos-rscf-nodes
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- index-m-mid-scale-scales-cognitive-matrix-readme
 - scales-cognitive-matrix-m-mid-scale-contract
 - kernel-readme
 - control-plane-readme
 - observability-readme
 - operations-readme
-- 00-root-moc
-- amos-moc
-- 00-index-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

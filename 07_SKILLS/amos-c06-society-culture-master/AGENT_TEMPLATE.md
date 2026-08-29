@@ -7,7 +7,6 @@ tags:
 - amos-c06-society-culture-master
 - type/skill
 - skill
-- amos-c06-society-culture-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

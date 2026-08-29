@@ -7,8 +7,6 @@ tags:
 - core
 - engine
 - amos-systems-core-engine-v0-systems4-2
-- kernel-moc
-- 00-home
 ---
 
 # amos systems core engine v0 systems4 2

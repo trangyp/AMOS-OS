@@ -49,7 +49,6 @@ tags:
 - rscf/state/derived
 - topic/cognition-canon
 - readme
-- 00-root-moc
 - architecture
 - system-map
 - neural-network
@@ -72,10 +71,6 @@ tags:
 - observability-observability-map
 - test-map
 - cognitive-matrix-architecture
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 03-cognition-canon-moc
 aliases:
 - AMOS Cognition Canon - Cognition Canon - AMOS Reasoning Canon - AMOS Cognitive Integrity
   Can

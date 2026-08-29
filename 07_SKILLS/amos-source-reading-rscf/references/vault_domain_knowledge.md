@@ -7,10 +7,6 @@ tags:
 - amos-source-reading-rscf
 - type/skill
 - workflow
-- references-moc
-- 07-skills-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 - trang-framework-recursive-ontology-dynamics
 rscf:

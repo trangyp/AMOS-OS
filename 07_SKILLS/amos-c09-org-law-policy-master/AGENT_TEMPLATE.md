@@ -7,7 +7,6 @@ tags:
 - amos-c09-org-law-policy-master
 - type/skill
 - skill
-- amos-c09-org-law-policy-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

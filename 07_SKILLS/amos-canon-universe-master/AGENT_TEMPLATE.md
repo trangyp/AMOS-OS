@@ -7,7 +7,6 @@ tags:
 - amos-canon-universe-master
 - type/skill
 - skill
-- amos-canon-universe-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

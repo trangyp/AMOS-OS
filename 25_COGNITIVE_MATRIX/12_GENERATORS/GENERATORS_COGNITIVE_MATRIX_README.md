@@ -8,13 +8,7 @@ tags:
 - readme
 - domain/cognitive-matrix
 - skill
-- 00-root-moc
-- amos-moc
-- 00-home
 - generators-map
-- cognitive-matrix-moc
-- amos-rscf-nodes
-- 12-generators-moc
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

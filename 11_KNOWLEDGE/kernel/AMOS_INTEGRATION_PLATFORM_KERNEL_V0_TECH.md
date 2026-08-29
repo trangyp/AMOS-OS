@@ -9,7 +9,6 @@ tags:
 - topic/amos-integration-platform-kernel-v0
 - kernel
 - integration
-- kernel-moc
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:

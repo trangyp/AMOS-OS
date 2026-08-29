@@ -19,7 +19,6 @@ tags:
 - epistemic/source_claim
 - amos-os
 - tensor-contracts
-- 08-workflows-moc
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

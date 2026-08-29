@@ -7,8 +7,6 @@ tags:
 - banking
 - core
 - kernel
-- kernel-moc
-- 00-home
 ---
 
 # amos national banking os amos core kernel v1 national banking os4

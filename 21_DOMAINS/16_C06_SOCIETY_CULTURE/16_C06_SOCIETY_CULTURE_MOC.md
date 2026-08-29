@@ -8,8 +8,7 @@ tags:
 - c06-society-culture-domains-domain-spec
 - c06-society-culture-domains-readme
 - domains-c06-society-culture-contract
-- 00-index-moc
-- 21-domains-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

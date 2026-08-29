@@ -7,12 +7,7 @@ tags:
 - amos-morphogenesis-mapper
 - type/skill
 - integration
-- amos-morphogenesis-mapper-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- references-moc
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

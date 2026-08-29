@@ -8,12 +8,8 @@ tags:
 - type/skill
 - rscf-proof-capsule
 - 2026-08-22-amos-system-completion-audit
-- references-moc
-- 00-home
-- amos-rscf-nodes
 - 2026-08-22-amos-system-completion-baseline
 - law-hierarchy
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

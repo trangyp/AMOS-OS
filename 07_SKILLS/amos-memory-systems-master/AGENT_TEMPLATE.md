@@ -7,7 +7,6 @@ tags:
 - amos-memory-systems-master
 - type/skill
 - skill
-- amos-memory-systems-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

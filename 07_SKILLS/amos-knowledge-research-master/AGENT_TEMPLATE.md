@@ -7,7 +7,6 @@ tags:
 - amos-knowledge-research-master
 - type/skill
 - skill
-- amos-knowledge-research-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

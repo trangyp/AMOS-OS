@@ -21,9 +21,6 @@ tags:
 - rscf
 - ubi-x-full-brain-matrix
 - ubi-full-brain-binding
-- 25-cognitive-matrix-moc
-- cognitive-matrix-moc
-- 00-home
 version: 2.0.0
 updated: '2026-08-28'
 status: ACTIVE_REFERENCE

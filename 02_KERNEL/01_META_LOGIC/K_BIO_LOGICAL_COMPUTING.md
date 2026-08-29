@@ -48,8 +48,6 @@ tags:
 - rollback
 - uncertainty
 - law-hierarchy
-- amos-rscf-nodes
-- 00-home
 - readme
 - observability-readme
 - operations-readme
@@ -57,7 +55,6 @@ tags:
 - control-plane-readme
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
-- 01-meta-logic-moc
 version: 0.1.0
 updated: '2026-08-27'
 status: PLACEHOLDER

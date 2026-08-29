@@ -23,10 +23,6 @@ tags:
 - biological-intelligence
 - rscf/claim
 - rscf/state/canonical
-- 00-home
-- 00-root-moc
-- 02-kernel-moc
-- 06-risk-repair-moc
 aliases:
 - UBI Entropy Correction Kernel
 - K_UBI_ENTROPY_CORRECTION

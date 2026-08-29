@@ -1,11 +1,9 @@
 ---
 title: cognitive moc
 tags:
+moc: true
 - stub
 - cognitive
-- cognitive-moc
-- kernel-moc
-- 00-home
 ---
 
 # cognitive moc

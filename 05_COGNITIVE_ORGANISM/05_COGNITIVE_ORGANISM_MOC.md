@@ -31,15 +31,8 @@ tags:
 - super-mind-engine
 - ubi-organism-binding
 - world-model-engine
-- 00-index-moc
-- 01-identity-moc
-- 04-cognition-moc
-- 06-world-model-moc
-- 07-emotion-regulation-moc
-- 15-homeostasis-moc
-- 16-repair-moc
-- 18-lifecycle-moc
 - amos-home
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

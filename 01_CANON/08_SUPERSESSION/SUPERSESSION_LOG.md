@@ -36,8 +36,6 @@ tags:
 - topic/rollback
 - topic/governed-evolution
 - readme
-- 00-root-moc
-- amos-moc
 - architecture
 - system-map
 - roadmap
@@ -57,9 +55,6 @@ tags:
 - hml-canon
 - persistence-canon
 - authoritative-state
-- 00-home
-- amos-rscf-nodes
-- 08-supersession-moc
 aliases:
 - AMOS Supersession Log - AMOS OS Supersession Log - Canon Supersession Log
 ---

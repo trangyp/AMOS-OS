@@ -11,8 +11,7 @@ tags:
 - k-commit-time-authority
 - k-effect-classification
 - k-information-exposure
-- 00-index-moc
-- 02-kernel-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

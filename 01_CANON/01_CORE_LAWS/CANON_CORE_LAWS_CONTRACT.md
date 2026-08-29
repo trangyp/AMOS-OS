@@ -12,11 +12,6 @@ rscf:
 tags:
 - note
 - 01-core-laws
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 01-core-laws-moc
 canon-group: canon/core-laws
 ---
 

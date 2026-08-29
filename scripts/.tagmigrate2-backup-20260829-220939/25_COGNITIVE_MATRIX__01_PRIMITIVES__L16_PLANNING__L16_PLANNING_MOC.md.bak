@@ -1,0 +1,69 @@
+---
+title: L16 Planning MOC
+type: moc
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L16_PLANNING
+tags:
+- l16-planning
+- domain/cognitive-matrix
+- cognitive-matrix-l16-planning-contract
+- 00-index-moc
+- 01-primitives-moc
+- l16-planning-primitives-cognitive-matrix-agents
+- l16-planning-primitives-cognitive-matrix-equations
+- l16-planning-primitives-cognitive-matrix-hml
+- l16-planning-primitives-cognitive-matrix-memory
+- l16-planning-primitives-cognitive-matrix-operators
+- l16-planning-primitives-cognitive-matrix-protocols
+- l16-planning-primitives-cognitive-matrix-purpose
+- l16-planning-primitives-cognitive-matrix-readme
+- l16-planning-primitives-cognitive-matrix-repair
+- l16-planning-primitives-cognitive-matrix-rscf
+- l16-planning-primitives-cognitive-matrix-skills
+- l16-planning-primitives-cognitive-matrix-state
+- l16-planning-primitives-cognitive-matrix-tests
+- l16-planning-primitives-cognitive-matrix-variables
+- l16-planning-primitives-cognitive-matrix-workflows
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+---
+
+# L16 Planning — Map of Content
+
+**Path:** `25_COGNITIVE_MATRIX/01_PRIMITIVES/L16_PLANNING`
+**Files:** 23 | **Subdirectories:** 1
+
+## Files
+
+- [[COGNITIVE_MATRIX_L16_PLANNING_CONTRACT]]
+- [[L16_PLANNING_PRIMITIVES_COGNITIVE_MATRIX_AGENTS]]
+- [[L16_PLANNING_PRIMITIVES_COGNITIVE_MATRIX_CONTROL_PLANES]]
+- [[L16_PLANNING_PRIMITIVES_COGNITIVE_MATRIX_DEFINITION]]
+- [[L16_PLANNING_PRIMITIVES_COGNITIVE_MATRIX_DEPENDENCIES]]
+- [[L16_PLANNING_PRIMITIVES_COGNITIVE_MATRIX_EQUATIONS]]
+- [[L16_PLANNING_PRIMITIVES_COGNITIVE_MATRIX_FAILURE_MODES]]
+- [[L16_PLANNING_PRIMITIVES_COGNITIVE_MATRIX_GAP_MATRIX]]
+- [[L16_PLANNING_PRIMITIVES_COGNITIVE_MATRIX_HML]]
+- [[L16_PLANNING_PRIMITIVES_COGNITIVE_MATRIX_INVARIANTS]]
+- [[L16_PLANNING_PRIMITIVES_COGNITIVE_MATRIX_MEMORY]]
+- [[L16_PLANNING_PRIMITIVES_COGNITIVE_MATRIX_OPERATORS]]
+- [[L16_PLANNING_PRIMITIVES_COGNITIVE_MATRIX_PROTOCOLS]]
+- [[L16_PLANNING_PRIMITIVES_COGNITIVE_MATRIX_PROVENANCE]]
+- [[L16_PLANNING_PRIMITIVES_COGNITIVE_MATRIX_PURPOSE]]
+- [[L16_PLANNING_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- [[L16_PLANNING_PRIMITIVES_COGNITIVE_MATRIX_REPAIR]]
+- [[L16_PLANNING_PRIMITIVES_COGNITIVE_MATRIX_RSCF]]
+- [[L16_PLANNING_PRIMITIVES_COGNITIVE_MATRIX_SKILLS]]
+- [[L16_PLANNING_PRIMITIVES_COGNITIVE_MATRIX_STATE]]
+- [[L16_PLANNING_PRIMITIVES_COGNITIVE_MATRIX_TESTS]]
+- [[L16_PLANNING_PRIMITIVES_COGNITIVE_MATRIX_VARIABLES]]
+- [[L16_PLANNING_PRIMITIVES_COGNITIVE_MATRIX_WORKFLOWS]]
+
+## Subdirectories
+
+- [[00_INDEX_MOC]] — 00_INDEX
+
+---
+**Parent:** [[01_PRIMITIVES_MOC]]

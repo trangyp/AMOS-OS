@@ -6,9 +6,8 @@ tags:
 - c03-executive
 - domain/cognitive-matrix
 - cognitive-matrix-c03-executive-contract
-- 00-index-moc
-- 03-control-planes-moc
 - c03-executive-control-planes-cognitive-matrix-rscf
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

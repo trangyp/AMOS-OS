@@ -8,17 +8,12 @@ tags:
 - cognition
 - domain/cognitive-matrix
 - cognitive-matrix-architecture
-- cognitive-matrix-moc
 - cognitive-matrix-naming-standard
 - control-plane-registry
-- index-cognitive-matrix-readme
-- index-cognitive-matrix-cognitive-matrix-contract
 - lifecycle-operation-registry
 - primitive-registry
 - scale-registry
 - status-legend
-- 00-root-map
-- amos-rscf-nodes
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
@@ -26,10 +21,7 @@ tags:
 - control-plane-readme
 - observability-readme
 - operations-readme
-- 00-root-moc
-- amos-moc
 - trang-framework-recursive-ontology-dynamics
-- 00-home
 rscf:
   state: DERIVED
   claim_class: DERIVED

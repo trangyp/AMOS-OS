@@ -8,12 +8,6 @@ tags:
 - l01_sensing_observation
 - note
 - domain/cognitive-matrix
-- 00-root-moc
-- amos-moc
-- 00-home
-- cognitive-matrix-moc
-- amos-rscf-nodes
-- l01-sensing-observation-moc
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

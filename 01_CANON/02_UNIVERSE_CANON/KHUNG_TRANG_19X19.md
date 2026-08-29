@@ -8,9 +8,6 @@ tags:
 - topology
 - canon
 - khung-trang-canon
-- 02-kernel-moc
-- 00-index-moc
-- 00-home
 ---
 
 # Khung Trang 19×19 Universal Topology

@@ -6,10 +6,6 @@ tags:
 - note
 - l23-metacognition
 - domain/cognitive-matrix
-- cognitive-matrix-moc
-- 00-root-moc
-- amos-moc
-- l23-metacognition-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

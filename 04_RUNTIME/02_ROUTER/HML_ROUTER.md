@@ -23,11 +23,6 @@ tags:
 - rscf
 - canon_candidate
 - canon/runtime
-- 02-router-moc
-- knowledge-moc
-- 25-cognitive-matrix-moc
-- 00-home
-- 04-runtime-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

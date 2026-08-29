@@ -5,7 +5,7 @@ source: 03_CONTROL_PLANE/09_COMMIT/53_PRIORITIZATION_TRIAGE_MODES
 tags:
 - 53-prioritization-triage-modes
 - canon/control-plane
-- 09-commit-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

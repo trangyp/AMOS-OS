@@ -28,13 +28,7 @@ tags:
 - law-hierarchy
 - promotion-gates
 - binding-rules
-- 00-root-moc
-- amos-moc
-- cognitive-matrix-moc
-- 00-home
-- amos-rscf-nodes
 - cognitive-matrix-validation-contract
-- 12-generators-moc
 canon-group: canon/cognitive-matrix
 ---
 

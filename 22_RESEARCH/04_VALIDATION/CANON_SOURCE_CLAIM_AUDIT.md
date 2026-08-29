@@ -24,10 +24,6 @@ tags:
 - canon_candidate
 - canon/research
 - canon-claim-registry
-- 04-validation-moc
-- 01-canon-moc
-- 00-home
-- 22-research-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

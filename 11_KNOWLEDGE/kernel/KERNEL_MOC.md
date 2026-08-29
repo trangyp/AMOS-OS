@@ -113,6 +113,7 @@ tags:
 - rscf/claim
 - rscf/provenance
 - rscf/state/observation
+moc: true
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

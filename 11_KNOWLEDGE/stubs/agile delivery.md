@@ -5,8 +5,6 @@ tags:
 - agile
 - delivery
 - agile-delivery
-- kernel-moc
-- 00-home
 ---
 
 # agile delivery

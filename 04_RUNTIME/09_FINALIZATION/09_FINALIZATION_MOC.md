@@ -8,7 +8,7 @@ tags:
 - causal-epoch-finalizer
 - local-proof-finalizer
 - proof-capsule-finalizer
-- 04-runtime-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

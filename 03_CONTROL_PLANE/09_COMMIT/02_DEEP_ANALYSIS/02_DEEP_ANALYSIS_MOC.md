@@ -28,7 +28,7 @@ tags:
 - deep-analysis-commit-control-plane-mode-spec
 - deep-analysis-commit-control-plane-provenance
 - deep-analysis-commit-control-plane-readme
-- 09-commit-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL

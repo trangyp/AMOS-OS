@@ -1,12 +1,10 @@
 ---
 title: probability-stats moc
 tags:
+moc: true
 - stub
 - probability
 - stats
-- probability-stats-moc
-- kernel-moc
-- 00-home
 ---
 
 # probability-stats moc

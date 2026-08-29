@@ -12,9 +12,7 @@ tags:
 - architecture
 - integration
 - validation
-- 00-cosmo-brain-moc
 - canon
-- engine-moc
 type: document
 source: 11_KNOWLEDGE/engine
 rscf:

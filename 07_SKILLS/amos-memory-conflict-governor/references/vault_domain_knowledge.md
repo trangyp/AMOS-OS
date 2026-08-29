@@ -8,10 +8,6 @@ tags:
 - type/skill
 - k-meta-logic
 - amos-ubi-kernel
-- references-moc
-- 07-skills-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 - trang-framework-recursive-ontology-dynamics
 rscf:

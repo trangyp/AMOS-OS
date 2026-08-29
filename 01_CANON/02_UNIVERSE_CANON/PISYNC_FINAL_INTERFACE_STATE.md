@@ -22,8 +22,6 @@ tags:
 - actuary_interface
 - universe_canon
 - canon/universe
-- 00-index-moc
-- 00-home
 - canon
 ---
 

@@ -6,9 +6,8 @@ tags:
 - o11-goal
 - domain/cognitive-matrix
 - cognitive-matrix-o11-goal-contract
-- 00-index-moc
-- 02-lifecycle-operations-moc
 - o11-goal-lifecycle-operations-cognitive-matrix-hml
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

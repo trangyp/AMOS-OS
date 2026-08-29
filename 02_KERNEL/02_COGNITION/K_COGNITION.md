@@ -65,11 +65,6 @@ tags:
 - control-plane-map
 - runtime-map
 - authoritative-state
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 02-cognition-moc
 aliases:
 - AMOS Meta Logic Kernel - Meta Logic Kernel - K Meta Logic - K_META_LOGIC
 ---

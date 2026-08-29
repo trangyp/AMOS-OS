@@ -6,10 +6,6 @@ tags:
 - note
 - o13-decision
 - domain/cognitive-matrix
-- cognitive-matrix-moc
-- 00-root-moc
-- amos-moc
-- o13-decision-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

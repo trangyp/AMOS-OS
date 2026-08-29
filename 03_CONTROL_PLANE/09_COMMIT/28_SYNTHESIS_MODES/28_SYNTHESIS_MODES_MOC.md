@@ -5,8 +5,8 @@ source: 03_CONTROL_PLANE/09_COMMIT/28_SYNTHESIS_MODES
 tags:
 - 28-synthesis-modes
 - canon/control-plane
-- 09-commit-moc
 - synthesis-modes-commit-control-plane-readme
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

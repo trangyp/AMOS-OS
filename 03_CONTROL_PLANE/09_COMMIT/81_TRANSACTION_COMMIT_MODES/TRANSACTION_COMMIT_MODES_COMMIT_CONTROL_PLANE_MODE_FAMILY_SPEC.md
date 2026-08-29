@@ -8,11 +8,6 @@ tags:
 - canon/control-plane
 - authz-engine-validation-receipt
 - routing-policy-validation-receipt
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 81-transaction-commit-modes-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

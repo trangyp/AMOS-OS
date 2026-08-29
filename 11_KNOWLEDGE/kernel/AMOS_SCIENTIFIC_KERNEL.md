@@ -14,7 +14,6 @@ tags:
 - rscf/state/source-claim
 - topic/amos-scientific-kernel-v0
 - kernel
-- kernel-moc
 created: 2026-08-22
 rscf:
   state: SOURCE_CLAIM

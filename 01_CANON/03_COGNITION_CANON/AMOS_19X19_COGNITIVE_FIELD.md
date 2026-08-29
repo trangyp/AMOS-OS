@@ -39,8 +39,6 @@ tags:
 - placeholder_expanded
 - architecture
 - law-hierarchy
-- 00-home
-- amos-rscf-nodes
 - kernel-readme
 - control-plane-readme
 - observability-readme

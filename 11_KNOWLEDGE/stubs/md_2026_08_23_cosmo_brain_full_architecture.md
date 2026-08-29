@@ -6,8 +6,6 @@ tags:
 - brain
 - full
 - architecture
-- kernel-moc
-- 00-home
 - md-2026-08-23-cosmo-brain-full-architecture
 ---
 

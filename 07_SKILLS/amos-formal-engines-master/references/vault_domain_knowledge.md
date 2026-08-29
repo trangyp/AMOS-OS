@@ -7,10 +7,6 @@ tags:
 - amos-formal-engines-master
 - type/skill
 - skill
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- references-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -5,7 +5,7 @@ source: 03_CONTROL_PLANE/09_COMMIT/64_DATA_EVIDENCE_GATHERING_MODES
 tags:
 - 64-data-evidence-gathering-modes
 - canon/control-plane
-- 09-commit-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

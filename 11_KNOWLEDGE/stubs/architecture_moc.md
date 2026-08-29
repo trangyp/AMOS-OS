@@ -1,11 +1,9 @@
 ---
 title: architecture moc
 tags:
+moc: true
 - stub
 - architecture
-- architecture-moc
-- kernel-moc
-- 00-home
 ---
 
 # architecture moc

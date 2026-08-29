@@ -12,10 +12,10 @@ tags:
 - tpe-model-registry
 - tss-model-registry
 - ubi-model-registry
-- 13-models-moc
 - rscf/claim
 - rscf/provenance
 - rscf/state/observation
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -14,7 +14,6 @@ tags:
 - rscf/state/source-claim
 - topic/amos-vietnamese-writing-engine-v0
 - engine
-- engine-moc
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL

@@ -6,10 +6,6 @@ tags:
 - note
 - o14-action
 - domain/cognitive-matrix
-- cognitive-matrix-moc
-- 00-root-moc
-- amos-moc
-- o14-action-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

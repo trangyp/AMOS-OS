@@ -19,13 +19,7 @@ validation_status: UNKNOWN/GAP
 active_root_authority: UNBOUND
 tags:
 - note
-- 00-root
 - canon/root
-- 00-home
-- 00-root-moc
-- amos-moc
-- amos-rscf-nodes
-- 00-cosmo-brain-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -21,13 +21,9 @@ tags:
 - qa-testing-kernel
 - system-fixes-complete
 - system-fixes-progress
-- amos-audit-repair-master-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- references-moc
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
+moc: true
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

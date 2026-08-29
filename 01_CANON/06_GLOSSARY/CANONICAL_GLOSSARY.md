@@ -35,8 +35,6 @@ tags:
 - topic/provenance
 - topic/epistemics
 - readme
-- 00-root-moc
-- amos-moc
 - architecture
 - system-map
 - neural-network
@@ -56,9 +54,6 @@ tags:
 - symbol-registry
 - unit-registry
 - universal-variable-registry
-- 00-home
-- amos-rscf-nodes
-- 06-glossary-moc
 aliases:
 - AMOS Canonical Glossary - AMOS OS Glossary - Canonical Terminology Registry - AMOS
   Semantic

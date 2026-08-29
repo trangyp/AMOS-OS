@@ -162,18 +162,12 @@ tags:
 - operations-readme
 - law-hierarchy
 - state-state-map
-- index-state-readme
-- index-state-state-contract
-- 00-home
-- 12-state-moc
 - state-readme
-- amos-rscf-nodes
 - state-identity
 - proposal-commit-separation
 - state-provenance
 - state-mutation-discipline
 - state-rollback
-- 00-root-mocmd
 rscf:
   state: DERIVED
   claim_class: DERIVED

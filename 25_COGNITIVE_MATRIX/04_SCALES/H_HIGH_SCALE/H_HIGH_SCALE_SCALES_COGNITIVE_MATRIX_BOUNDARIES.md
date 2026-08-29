@@ -6,10 +6,6 @@ tags:
 - note
 - h-high-scale
 - domain/cognitive-matrix
-- cognitive-matrix-moc
-- 00-root-moc
-- amos-moc
-- h-high-scale-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

@@ -28,8 +28,7 @@ tags:
 - primitives-cognitive-matrix-tests
 - primitives-cognitive-matrix-variables
 - primitives-cognitive-matrix-workflows
-- 00-index-moc
-- 01-primitives-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -6,8 +6,6 @@ tags:
 - full
 - brain
 - architecture
-- kernel-moc
-- 00-home
 - 2026-08-22-amos-full-brain-os-architecture
 ---
 

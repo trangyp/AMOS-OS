@@ -6,10 +6,6 @@ tags:
 - note
 - c08-execution
 - domain/cognitive-matrix
-- cognitive-matrix-moc
-- 00-root-moc
-- amos-moc
-- c08-execution-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

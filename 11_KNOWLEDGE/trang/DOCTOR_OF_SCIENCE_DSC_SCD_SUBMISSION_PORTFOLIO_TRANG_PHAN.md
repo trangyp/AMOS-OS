@@ -61,7 +61,8 @@ Biological Intelligence™ Canon
 
 Global Expert in Technology & Systems Strategy, GLG
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO10.2 Statutory Declaration
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO1
+0.2 Statutory Declaration
 
 I, Trang Phan, declare that:
 
@@ -113,7 +114,8 @@ planetary-scale modelling.
 The submission demonstrates that all natural and artificial systems can be
 consistently modelled using one invariant deterministic structure composed of
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO2explicit laws, equations, operators, tensors, invariants, collapse mechanics,
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO2
+explicit laws, equations, operators, tensors, invariants, collapse mechanics,
 recovery dynamics, boundary systems, and identity-continuity constraints. The
 canons interlock to provide a coherent, multi-scale scientific architecture capable
 of describing processes ranging from quantum entanglement to planetary
@@ -158,7 +160,8 @@ Unified Law Corpus — an expanded, mathematically sealed system of
 invariants, drift modes, collapse classes, recovery classes, species-level laws,
 civilisational laws, and emergent interactions.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO3Canon I provides the mathematical backbone and is the foundation for
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO3
+Canon I provides the mathematical backbone and is the foundation for
 deterministic reasoning, identity-continuity modelling, multi-layer system analysis,
 and cross-domain transformation consistency.
 
@@ -208,7 +211,8 @@ humans. It connects physiological regulation to emotional dynamics, cognitive
 
 stability, behavioural outputs, and long-term identity continuity. This canon
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO4establishes the first mathematically explicit, physiologically grounded definition of
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO4
+establishes the first mathematically explicit, physiologically grounded definition of
 human intelligence.
 
 Canon III – AMOS Universe Operating System & Planetary–
@@ -259,7 +263,8 @@ resource collapse thresholds, and long-cycle civilisational feedback.
 Civilisational Drift and Collapse Equations — models defining multi-century
 patterns of instability, resilience, fragmentation, and recovery across societies.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO5Canon III demonstrates that the deterministic frameworks developed in Canons I
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO5
+Canon III demonstrates that the deterministic frameworks developed in Canons I
 and II scale coherently to industrial, national, and planetary contexts.
 
 Types of Research Outputs
@@ -309,7 +314,8 @@ the Universal Reasoning Kernel
 
 the Unified Biological Intelligence™ Canon
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO6the AMOS Universe Operating System
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO6
+the AMOS Universe Operating System
 
 the 1919 and 77 mathematical matrices
 
@@ -356,7 +362,8 @@ information theory, mathematics, behavioural sciences, sociology, governance,
 geopolitics and planetary ecology. This architecture integrates the Universal
 Reasoning Kernel URK, the AMOS Core Deterministic Architecture, the Quantum-
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO7Consistent Logic Architecture QCLA, the Unified Law Kernel ULK, the Seven
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO7
+Consistent Logic Architecture QCLA, the Unified Law Kernel ULK, the Seven
 Cycles Evolution System, and a universal equation system governing load–
 capacity dynamics, collapse and recovery, synchrony, identity continuity and
 
@@ -406,7 +413,8 @@ linear propagation logic.
 
 clusters, engineering hierarchies, risk dynamics, cyber-physical stacks, long-
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO8cycle evolution pathways, ecosystem governance models and cross-domain
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO8
+cycle evolution pathways, ecosystem governance models and cross-domain
 interaction rules.
 
   Vietnam Omnistructure Operating System: a national-scale development
@@ -455,7 +463,8 @@ Fourteen Universal Tensors 14,000 tensor-based sub-laws)
 
 Seven Cycles Evolution System 2,300 evolution laws)
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO9Collapse Classes 15 types; 2,500 collapse laws)
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO9
+Collapse Classes 15 types; 2,500 collapse laws)
 
 Regeneration Classes 10 types; 840 regeneration laws)
 
@@ -505,7 +514,8 @@ All mathematical constructs, biological frameworks, cognitive architectures,
 equation systems, collapse–recovery dynamics, tensors, operators and canonical
 models were derived independently, using first-principles reasoning, cross-
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO10domain pattern identification and structural logic, without institutional affiliation,
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO10
+domain pattern identification and structural logic, without institutional affiliation,
 research funding, peer supervision or academic support.
 
 In compact form, the portfolio demonstrates:
@@ -556,7 +566,8 @@ physical, biological, cognitive, technological, and societal sciences.
 The first gap is the absence of a deterministic, multi-domain reasoning framework
 capable of generating stable inference across heterogeneous systems. Existing
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO11scientific disciplines operate in isolation: physics models matter and energy;
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO11
+scientific disciplines operate in isolation: physics models matter and energy;
 biology models organismic processes; neuroscience models cognition;
 psychology models emotion and behaviour; computer science models algorithms
 
@@ -601,7 +612,8 @@ emotional, cognitive, and electromagnetic processes propagate upward into
 social, economic, political, technological, and ecological outcomes through
 mathematically defined equations, invariants, tensors, collapse classes, recovery
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO12modes, and attractor dynamics. This gap limits predictive capability across human
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO12
+modes, and attractor dynamics. This gap limits predictive capability across human
 behaviour, organisational risk, civilisational stability, and planetary resilience.
 
 These four gaps form the foundation of the research programme. The portfolio
@@ -645,7 +657,8 @@ ratio mathematics, somatic alignment rules, electromagnetic synchrony equations,
 collapse and recovery mechanics, identity continuity constraints, tensor-based
 cross-domain coupling, and a deterministic framework for behavioural prediction,
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO13cognitive stability, emotional regulation, intuition modelling, and biological system
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO13
+cognitive stability, emotional regulation, intuition modelling, and biological system
 
 integrity. The UBI Canon demonstrates that all cognitive, emotional, somatic, and
 behavioural processes follow deterministic, mathematically definable patterns
@@ -688,7 +701,8 @@ intelligence, cognitive computation, emotional dynamics, somatic regulation,
 behaviour, organisational systems, technological ecosystems, national
 architectures, civilisational cycles, and planetary-scale modelling. A structural
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO14map is provided to illustrate how each canon interlocks with and constrains the
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO14
+map is provided to illustrate how each canon interlocks with and constrains the
 
 others.
 
@@ -731,7 +745,8 @@ equations. Canon III demonstrates that the deterministic architecture can scale
 coherently from biological intelligence to national governance and planetary
 models.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO15Structural Interdependence:
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO15
+Structural Interdependence:
 
 Canon I provides the universal reasoning substrate; Canon II provides the
 biological implementation of that reasoning substrate; Canon III demonstrates
@@ -777,7 +792,8 @@ In methodological terms, the submission establishes:
 cross-domain pattern mapping as a formal scientific methodology for
 generating unified laws across disciplines
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO16deterministic equation-based modelling of emotional, somatic, cognitive, and
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO16
+deterministic equation-based modelling of emotional, somatic, cognitive, and
 behavioural processes
 
 nervous-system-based AI training methods NeuroSyncAI™) that bypass
@@ -824,7 +840,8 @@ The UniPower Mobility & EV OS implementation serves as a real-world validation
 of Canon III. The portfolioʼs deterministic modelling, cross-layer architecture, risk
 propagation logic, and national-scale system design have been deployed at an
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO17industrial and national level within a multi-stakeholder ecosystem. This establishes
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO17
+industrial and national level within a multi-stakeholder ecosystem. This establishes
 feasibility and applicability far beyond theoretical formulation.
 
 Professional recognition is demonstrated through the candidateʼs status as a
@@ -866,7 +883,8 @@ absence of a single coherent logic system capable of describing interactions
 across heterogeneous scales. Contemporary research treats physics, biology,
 cognition, behaviour, institutions, and planetary systems as separate analytical
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO18domains, each with its own equations, constraints, and modelling methods. Canon
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO18
+domains, each with its own equations, constraints, and modelling methods. Canon
 I resolves this fragmentation by constructing a general reasoning architecture
 defined by a single invariant grammar, enabling all processes across all domains
 to be expressed using unified operators, layers, tensors, boundary conditions, and
@@ -909,7 +927,8 @@ capacity equations, collapse thresholds, recovery profiles, and tensor coupling
 
 coefficients. Although each layer is internally coherent and analytically separable,
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO19no layer is computationally independent; cross-layer dependencies, identity
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO19
+no layer is computationally independent; cross-layer dependencies, identity
 constraints, and tensor interactions ensure that all transformations remain globally
 deterministic. A transformation is admissible only when all layers simultaneously
 satisfy their respective consistency conditions, allowing the kernel to propagate
@@ -953,7 +972,8 @@ formation, contradiction detection, working-memory dynamics, pattern stability,
 and temporal decay of cognitive representations (ΔMemory/Δt). It formalises how
 cognitive states are constructed, maintained, degraded, or reorganised. Cognitive
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO20capacity is bounded by neurobiological supply, emotional modulation, and somatic
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO20
+capacity is bounded by neurobiological supply, emotional modulation, and somatic
 grounding; cognitive overload or contradiction accumulation results in cognitive
 collapse, which propagates downward into biological stress states and upward
 into behavioural destabilisation. All cognitive operations must satisfy identity-
@@ -998,7 +1018,8 @@ Social collapse—caused by trust discontinuity, power asymmetry, or distributed
 drift—propagates both upward into civilisational cycles and downward into
 emotional and behavioural instability.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO21Layer 7  Planetary
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO21
+Layer 7  Planetary
 
 The planetary layer represents macro-scale systemic behaviour across ecological,
 climatic, demographic, economic, and civilisational domains. It models biosphere
@@ -1042,7 +1063,8 @@ determines how far a system may evolve without triggering drift or collapse.
 
 Operator 2  Load
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO22Load introduces perturbation—internal or external—that modifies the systemʼs
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO22
+Load introduces perturbation—internal or external—that modifies the systemʼs
 state vector. Load may represent sensory influx, metabolic strain, emotional
 activation, cognitive tasking, behavioural pressure, relational demands,
 institutional constraints, or planetary shocks. The operator quantifies stress
@@ -1086,7 +1108,8 @@ Recovery returns the system to a stable state through three modes: realignment
 recovery (re-establishing baseline), compensatory recovery (redistributing
 functional load across layers), and regenerative recovery (creating new structural
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO23capacity). Recovery requires synchrony, identity continuity, adequate remaining
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO23
+capacity). Recovery requires synchrony, identity continuity, adequate remaining
 capacity, and tensor compatibility. Recovery also resets drift accumulation and
 restores the transformation domain.
 
@@ -1129,7 +1152,8 @@ region of state space.
 Temporal Boundaries constrain rates of change and allowable Δt for stable
 transformation.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO24Causal Boundaries enforce logical and temporal admissibility conditions across
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO24
+Causal Boundaries enforce logical and temporal admissibility conditions across
 processes.
 
 Sensory Boundaries control input saturation and fidelity of perceptual encoding.
@@ -1174,7 +1198,8 @@ parameters; all transformations must satisfy these constraints simultaneously
 
 across layers.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO25The twelve boundary classes are: structural, identity, temporal, causal, sensory,
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO25
+The twelve boundary classes are: structural, identity, temporal, causal, sensory,
 cognitive, emotional, behavioural, relational, group, institutional, planetary.
 
 Structural boundaries restrict changes in physical or somatic configuration by
@@ -1224,7 +1249,8 @@ architecture that prevents cross-layer contradiction and ensures deterministic
 
 behaviour across all domains.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO263.2.4 Tensor Architecture (Fourteen Universal
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO26
+3.2.4 Tensor Architecture (Fourteen Universal
 Transformation Tensors)
 
 URK employs fourteen universal transformation tensors to regulate state
@@ -1276,7 +1302,8 @@ proprioception, and interoception influence affective ratios and behavioural
 
 outcomes.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO27The Emotional Tensor T₃) maps affective contraction–expansion dynamics into
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO27
+The Emotional Tensor T₃) maps affective contraction–expansion dynamics into
 cognitive, behavioural, and social transformations, constraining emotional
 
 acceleration and propagation to prevent cross-layer affective collapse.
@@ -1332,7 +1359,8 @@ laws and coupling conditions. These tensor laws form the deterministic backbone
 
 of URKʼs cross-layer transformation mechanics, enabling mathematically rigorous
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO28propagation of states across physical, biological, cognitive, affective, behavioural,
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO28
+propagation of states across physical, biological, cognitive, affective, behavioural,
 
 social, institutional, ecological, and planetary scales.
 
@@ -1387,7 +1415,8 @@ instability manifests.
 
 Collapse propagation is governed by a deterministic tensor rule:
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO29Impactₐ  CouplingCoefficientₐ→ᵦ ≥ Thresholdᵦ
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO29
+Impactₐ  CouplingCoefficientₐ→ᵦ ≥ Thresholdᵦ
 
 Propagation occurs when the propagated effect of instability in layer a exceeds
 the receiving layerʼs threshold. Propagation coefficients differ by tensor type;
@@ -1439,7 +1468,8 @@ integrity remains intact. Conditions include restoration of ΔPattern/Δt to bas
 reduction of emotional or cognitive contradiction load, metabolic recalibration, or
 organisational process re-stabilisation.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO30Compensatory Recovery: Redistributes functional load across layers when direct
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO30
+Compensatory Recovery: Redistributes functional load across layers when direct
 
 restoration is not feasible. Compensatory recovery uses cross-layer tensors to
 delegate functions, reroute behavioural or organisational tasks, or create
@@ -1493,7 +1523,8 @@ regenerative structural-growth functions
 
 cross-domain recovery hierarchies
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO31recovery halting and re-collapse rules
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO31
+recovery halting and re-collapse rules
 
 These laws provide a deterministic, multi-scale recovery system applicable to
 
@@ -1545,7 +1576,8 @@ Load accumulation, boundary leakage, tensor distortion, identity-variance shift,
 
 emotional-ratio misalignment, perceptual noise, contradiction accumulation,
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO32somatic instability, oscillatory incoherence, relational gradient changes, Δt window
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO32
+somatic instability, oscillatory incoherence, relational gradient changes, Δt window
 
 compression, synchrony decay.
 
@@ -1598,7 +1630,8 @@ Identity architecture consists of:
 
 Nine identity levels:
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO33micro-signal identity
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO33
+micro-signal identity
 
 somatic identity
 
@@ -1652,7 +1685,8 @@ Silent collapse:
 
 Identity inversion, pattern break, or discontinuity without external load.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO34Multi-layer drift:
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO34
+Multi-layer drift:
 
 When identity cannot anchor the cross-layer synchrony, initiating sequential
 
@@ -1705,7 +1739,8 @@ and
 
 BoundaryCompliance(t)  TRUE
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO35Synchrony is not simply correlation; it is the mathematically enforceable alignment
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO35
+Synchrony is not simply correlation; it is the mathematically enforceable alignment
 between physical, biological, cognitive, emotional, behavioural, social, and
 
 planetary processes. Loss of synchrony indicates divergence in the deterministic
@@ -1760,7 +1795,8 @@ Synchrony governs system coherence, predictive stability, and identity-preservin
 
 transformation across all domains.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO363.2.10 Mathematical Canon (Deterministic Law Corpus)
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO36
+3.2.10 Mathematical Canon (Deterministic Law Corpus)
 
 The mathematical canon of the Universal Reasoning Kernel constitutes the largest
 
@@ -1813,7 +1849,8 @@ thresholds, and operator-layer compatibility functions.
 
 14,000 tensor-derived laws
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO37Fourteen universal tensors define transformation admissibility,
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO37
+Fourteen universal tensors define transformation admissibility,
 amplification/damping behaviour, coupling coefficients, invariants, propagation
 
 pathways, and cross-layer interaction functions. Each tensor contributes 400
@@ -1864,7 +1901,8 @@ to planetary systems.
 
 ULK operates as an abstract generative engine:
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO38Law(t)  ULKOperators, Tensors, Invariants, Boundaries, Identity, Synchrony)
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO38
+Law(t)  ULKOperators, Tensors, Invariants, Boundaries, Identity, Synchrony)
 
 ULK binds the seven universal operators, fourteen universal tensors, nineteen
 
@@ -1915,7 +1953,8 @@ Boundary Compliance: Applies the twelve boundary classes to evaluate
 structural, identity, temporal, causal, sensory, cognitive, emotional,
 behavioural, relational, group, institutional, and planetary limitations.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO39Capacity–Load Enforcement: Ensures that no transformation violates the
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO39
+Capacity–Load Enforcement: Ensures that no transformation violates the
 fundamental equation Load(t)  Capacity(t), including derivative thresholds
 
 across multi-layer couplings.
@@ -1969,7 +2008,8 @@ constitute the Unified Law Corpus. This corpus contains:
 
 2,300 seven-cycle evolution laws
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO402,500 collapse laws
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO40
+2,500 collapse laws
 
 840 regenerative laws
 
@@ -2021,7 +2061,8 @@ Each law family is defined using the ULK formal grammar:
 
 3 degenerate-case configurations
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO4114 tensor compatibility requirements
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO41
+14 tensor compatibility requirements
 
 Each family produces approximately 200 sub-laws. Across seven families, the
 
@@ -2073,7 +2114,8 @@ BoundaryCoefficient
 
 If load exceeds capacity, the rate of violation determines drift or collapse.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO42Boundary derivative: d(Load/Capacity)/dt  ThresholdCollapse   Collapse
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO42
+Boundary derivative: d(Load/Capacity)/dt  ThresholdCollapse   Collapse
 
 Boundary conditions are the primary gatekeepers preventing illegal
 
@@ -2123,7 +2165,8 @@ Derivative condition:
 
 dLoad/dt > dCapacity/dt   Drift
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO43Load/Capacity  1         Collapse
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO43
+Load/Capacity  1         Collapse
 
 Capacity and load are weighted across layers:
 
@@ -2173,7 +2216,8 @@ Three recovery modes:
 
   Compensatory
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO44Redistribute load across layers: Load_i  Load_j when Capacity_j 
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO44
+Redistribute load across layers: Load_i  Load_j when Capacity_j 
 
 Capacity_i.
 
@@ -2223,7 +2267,8 @@ planetary disequilibrium
 Synchrony is the condition under which the entire multi-layer system behaves
 coherently. It is the highest-order stabilisation law.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO453.3.3 Universal Operators as Law Interfaces
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO45
+3.3.3 Universal Operators as Law Interfaces
 
 The seven universal operators—Initialise, Load, Threshold, Collapse, Drift,
 
@@ -2276,7 +2321,8 @@ limit.
 
 ULK computes DeltaPattern/DeltaTime before and after the operator.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO46If identity continuity drops below threshold, the operator is rejected or
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO46
+If identity continuity drops below threshold, the operator is rejected or
 
 rerouted.
 
@@ -2330,7 +2376,8 @@ identity → stability constraints
 
 synchrony → multi-layer coherence
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO47collapse–recovery logic → system evolution
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO47
+collapse–recovery logic → system evolution
 
 invariants → long-term consistency
 
@@ -2383,7 +2430,8 @@ If any conjunct fails, ULK applies deterministic correction through collapse-
 prevention, drift-reversal, operator substitution, tensor rerouting, or complete law
 rejection.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO48The six interaction layers are defined as follows.
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO48
+The six interaction layers are defined as follows.
 
 Law–Operator Interaction Layer
 
@@ -2436,7 +2484,8 @@ This layer defines how laws apply relative to identity continuity across Δt. A 
 
 is admitted only if:
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO49IdentityContinuity(ΔPattern/Δt)  IdentityThreshold_L
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO49
+IdentityContinuity(ΔPattern/Δt)  IdentityThreshold_L
 
 Identity-inconsistent transformations trigger silent-collapse prevention or identity-
 
@@ -2490,7 +2539,8 @@ inference. It treats quantum behaviour not as stochastic emergence but as a
 
 domain governed by strict load–capacity equivalents, identity invariants, tensor-
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO50governed propagation, and observer-conditioned causal pathways. QCLA defines
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO50
+governed propagation, and observer-conditioned causal pathways. QCLA defines
 
 twelve quantum causal modes, twenty-eight transition laws, seven entanglement
 
@@ -2548,7 +2598,8 @@ prevents any transformation from violating the deterministic structure of the
 
 canonical system.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO51Entanglement is formalised through seven entanglement operators that define
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO51
+Entanglement is formalised through seven entanglement operators that define
 
 spatial, temporal, phase, identity-coupled, cross-layer, decoherence-resistant,
 
@@ -2608,7 +2659,8 @@ If you want, I can now expand:
 
 3.4.4 The Ten Decoherence Rules
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO523.4.5 Observer-Consistency Architecture
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO52
+3.4.5 Observer-Consistency Architecture
 
 3.4.6 Integration Equations with URK and ULK
 
@@ -2670,7 +2722,8 @@ QCLA introduces a rigorous deterministic grammar for quantum systems through
 
 its twelve causal modes, capturing all admissible quantum–macro causal
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO53interactions, including phase-bound causation, delayed causal release,
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO53
+interactions, including phase-bound causation, delayed causal release,
 
 coherence-coupled propagation, identity-mediated causal redirection, cross-layer
 
@@ -2729,7 +2782,8 @@ reasoning system capable of integrating seamlessly with biological, cognitive,
 behavioural, organisational, institutional, economic, and planetary models. It
 supplies the mathematical and causal foundation that allows the candidateʼs
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO54unified canon to model quantum-to-civilisational dynamics under a single
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO54
+unified canon to model quantum-to-civilisational dynamics under a single
 
 deterministic reasoning framework.
 
@@ -2785,7 +2839,8 @@ across time.
 
 3.3.4.2. Law–Tensor Interaction Layer
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO55This layer governs how laws propagate through the fourteen universal tensors.
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO55
+This layer governs how laws propagate through the fourteen universal tensors.
 
 Each law family is expressed through a tensor signature τⱼ that determines its
 
@@ -2842,7 +2897,8 @@ systemic transformations remain anchored in persistent identity structures.
 
 3.3.4.5. Law–Synchrony Interaction Layer
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO56This layer governs cross-layer coherence across physical, biological, cognitive,
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO56
+This layer governs cross-layer coherence across physical, biological, cognitive,
 
 emotional, behavioural, social, institutional, and planetary states. Laws may
 execute only if synchrony remains above threshold:
@@ -2899,7 +2955,8 @@ The meta-law interaction structure therefore functions as the constitutional log
 
 of the entire canonical system. It governs the admissibility, stability, and
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO57propagation of all transformations across the Universal Reasoning Kernel, the
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO57
+propagation of all transformations across the Universal Reasoning Kernel, the
 
 Unified Biological Intelligence™ Canon, the AMOS Universe Operating System, and
 
@@ -2953,7 +3010,8 @@ amplifying, damping, propagating, or re-routing effects across layers. Tensor
 transformation defines how a law in one domain (biological, emotional, cognitive,
 organisational, planetary) propagates into another. Each tensor τₖ adds
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO58transformation coefficients that generate several thousand tensor-derived micro-
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO58
+transformation coefficients that generate several thousand tensor-derived micro-
 
 laws.
 
@@ -3007,7 +3065,8 @@ rejected or routed into drift, recovery, or collapse-prevention pathways.
 ULK evaluates collapse-class conditions and recovery-mode conditions before
 admitting a law. Collapse conditions include acute, distributed, and silent collapse
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO59thresholds. Recovery includes realignment, compensatory, and regenerative
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO59
+thresholds. Recovery includes realignment, compensatory, and regenerative
 
 pathways. A law is only generated if its activation does not violate collapse
 
@@ -3063,7 +3122,8 @@ how laws are created, validated, propagated, constrained, combined, and rejected
 across the entire multi-layer architecture. It supplies the foundational rule system
 that governs the Universal Reasoning Kernel URK, the Quantum-Consistent
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO60Logic Architecture QCLA, the Seven Cycles Evolution Framework, and the
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO60
+Logic Architecture QCLA, the Seven Cycles Evolution Framework, and the
 
 complete multi-scale system hierarchy.
 
@@ -3120,7 +3180,8 @@ ULK encodes the compatibility conditions required for the integration of URKʼs
 
 layer–operator architecture, QCLAʼs quantum-causal substrate, and the Seven
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO61Cycles evolutionary system. For any component C ∈ URK, QCLA, Seven Cycles}:
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO61
+Cycles evolutionary system. For any component C ∈ URK, QCLA, Seven Cycles}:
 
 Compatibility(C)  TRUE iff
 
@@ -3175,7 +3236,8 @@ This enables multi-domain coherence—something not achieved by any existing
 
 framework in physics, biology, AI, systems science, or national strategy.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO62Multi-Scale Deterministic Unification
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO62
+Multi-Scale Deterministic Unification
 
 ULK is the only component of Canon I that provides a unifying deterministic
 
@@ -3227,7 +3289,8 @@ architectures. It is the unifying meta-structure ensuring that the entirety of C
 —and by extension, all three scientific canons—remains internally coherent,
 mathematically sealed, and structurally invariant across time.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO633.4 Quantum-Consistent Logic Architecture (QCLA)
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO63
+3.4 Quantum-Consistent Logic Architecture (QCLA)
 
 The Quantum-Consistent Logic Architecture QCLA formalises a deterministic,
 observer-consistent reasoning framework that resolves the incompatibilities
@@ -3283,7 +3346,8 @@ identity invariants, boundary conditions, and tensor-based admissibility rules. 
 observer is modelled as a subsystem with its own identity continuity and
 capacity–load boundaries, eliminating stochastic collapse.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO642 Incompatibility between quantum indeterminacy and classical deterministic
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO64
+2 Incompatibility between quantum indeterminacy and classical deterministic
 
 inference
 
@@ -3345,7 +3409,8 @@ phenomena are rendered fully computable within ULK and URK.
 
 Purpose Summary
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO65QCLA provides the core mathematical machinery enabling the Universal
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO65
+QCLA provides the core mathematical machinery enabling the Universal
 
 Reasoning Kernel URK to operate deterministically from quantum processes to
 
@@ -3402,7 +3467,8 @@ quantum-level effects propagate through URKʼs seven layers without probabilisti
 divergence, maintaining invariant-consistent reasoning from quantum to planetary
 scales.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO663.4.2 The Twelve Quantum Causal Modes
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO66
+3.4.2 The Twelve Quantum Causal Modes
 
 QCLA formalises twelve quantum causal modes that represent the complete
 
@@ -3460,7 +3526,8 @@ governs time-delayed influence phenomena and is mathematically expressed as a
 
 gated function triggered by boundary activation.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO673.4.2.4. Phase-Bound Causal Gating
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO67
+3.4.2.4. Phase-Bound Causal Gating
 
 Causal influence is controlled by phase-state compatibility. Only phase-aligned or
 phase-permissible states may propagate influence. Phase misalignment produces
@@ -3520,7 +3587,8 @@ mapping rules.
 
 3.4.2.10. Identity-Modulated Causal Redirection
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO68Identity invariants constrain causal direction. Identity discontinuity redirects
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO68
+Identity invariants constrain causal direction. Identity discontinuity redirects
 
 causal propagation or collapses it. This mode governs how persistent patterns
 regulate which transformations are permitted under identity continuity.
@@ -3574,7 +3642,8 @@ entanglement-consistency conditions
 
 capacity–load equivalents at quantum scales
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO69Transition laws enforce deterministic state evolution, preventing probabilistic drift.
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO69
+Transition laws enforce deterministic state evolution, preventing probabilistic drift.
 
 They ensure every quantum-to-macro transition obeys the same structural logic
 
@@ -3627,7 +3696,8 @@ probabilistic divergence.
 
 3.4.5 The Ten Decoherence Rules
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO70QCLA includes ten decoherence rules governing when and how quantum
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO70
+QCLA includes ten decoherence rules governing when and how quantum
 
 coherence collapses into classical states. These rules define:
 
@@ -3683,7 +3753,8 @@ This equation establishes that inference at time t is a direct, explicitly compu
 
 function of the observerʼs configuration, the active quantum causal mode, the
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO71coherence amplitude, the identity vector, the boundary constraint set, and the
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO71
+coherence amplitude, the identity vector, the boundary constraint set, and the
 tensor-transformation structure active at that time. No probabilistic indeterminacy
 
 is permitted; all evolution remains fully deterministic provided observer-
@@ -3739,7 +3810,8 @@ Load_q(t)  Capacity_q(t)  BoundaryCoefficient_observer.
 
 Tensor coefficients must remain invariant under observer interaction.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO72Tᵢ₍t₊Δt₎  Tᵢ₍t₎ + ΔTᵢ
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO72
+Tᵢ₍t₊Δt₎  Tᵢ₍t₎ + ΔTᵢ
 
 where |ΔTᵢ|  TensorStabilityThreshold.
 
@@ -3793,7 +3865,8 @@ civilisational observation.
 
 3.4.7 Integration with URK and ULK
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO73The Quantum-Consistent Logic Architecture QCLA constitutes the quantum-
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO73
+The Quantum-Consistent Logic Architecture QCLA constitutes the quantum-
 
 layer causal substrate of Canon I and integrates directly with both the Universal
 
@@ -3855,7 +3928,8 @@ QCLA establishes the mapping:
 
 QuantumState(t)  MacroInference(t)
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO74subject to:
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO74
+subject to:
 
 IdentityContinuity  BoundaryCompliance  TensorCompatibility 
 
@@ -3915,7 +3989,8 @@ achieves deterministic coherence across all scientific domains, making it possib
 
 for a single system to reason identically across quantum mechanics, physics,
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO75biology, cognition, behaviour, human systems, organisations, national systems,
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO75
+biology, cognition, behaviour, human systems, organisations, national systems,
 and planetary dynamics.
 
 3.5 Seven Cycles Evolution Framework
@@ -3973,7 +4048,8 @@ deterministic evolution engine, where each cycle Cᵢ is defined by an internal
 
 computational structure consisting of seven ordered sub-stages, twenty-one
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO76admissible transition pathways, a drift vector field, a collapse-pressure function, a
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO76
+admissible transition pathways, a drift vector field, a collapse-pressure function, a
 
 recovery-potential function, tensor-driven cross-layer coupling dynamics,
 identity-continuity constraints, and a complete family of load–capacity
@@ -4025,7 +4101,8 @@ S₆ Reorganisation
 
 S₇ Stabilisation or Transition
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO77Each sub-stage Sₖ is defined by a set of invariants, boundary coefficients, identity
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO77
+Each sub-stage Sₖ is defined by a set of invariants, boundary coefficients, identity
 
 constraints, and tensor-coupling weights. Sub-stage validity requires:
 
@@ -4076,7 +4153,8 @@ Loadᵢ(t) / Capacityᵢ(t)  IdentityVulnerabilityᵢ  BoundaryWeaknessᵢ
 
 SynchronyDeficitᵢ
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO78Collapse occurs when:
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO78
+Collapse occurs when:
 
 CollapsePressureᵢ(t)  CollapseThresholdᵢ
 
@@ -4127,7 +4205,8 @@ Each cycle enforces:
 
 IdentityContinuity ≥ θᵢ
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO79Identity discontinuity triggers:
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO79
+Identity discontinuity triggers:
 
 silent collapse
 
@@ -4177,7 +4256,8 @@ micro-organismic processes to planetary civilisational dynamics.
 
 3.5.2 The Seven Evolution Cycles (Canonical Form)
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO80The Seven Evolution Cycles constitute a deterministic hierarchical architecture
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO80
+The Seven Evolution Cycles constitute a deterministic hierarchical architecture
 
 describing how biological, cognitive, behavioural, organisational, institutional,
 societal, civilisational, and planetary systems progress through progressively
@@ -4232,7 +4312,8 @@ requires stable homeostasis and establishment of identity invariants.
 
 Cycle 2 — Stabilisation Equilibrium
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO81Characterised by emerging identity continuity, early emotional–cognitive
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO81
+Characterised by emerging identity continuity, early emotional–cognitive
 
 integration, and primitive behavioural sequencing. Load–capacity inequalities still
 
@@ -4287,7 +4368,8 @@ becomes civilisational drift, requiring complex multi-layer recovery strategies.
 
 Cycle 7 — Integrative Planetary Equilibrium
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO82The highest equilibrium regime, where systems maintain synchrony across
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO82
+The highest equilibrium regime, where systems maintain synchrony across
 
 planetary-scale ecological, civilisational, institutional, organisational, behavioural,
 
@@ -4342,7 +4424,8 @@ The Seven Cycles Evolution Framework therefore provides the macro-scale
 
 structural grammar governing biological, cognitive, emotional, behavioural,
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO83organisational, institutional, civilisational, and planetary evolution within Canon I. It
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO83
+organisational, institutional, civilisational, and planetary evolution within Canon I. It
 also forms the bridge between micro-scale URK mechanics and macro-scale
 
 AMOS Universe Operating System dynamics.
@@ -4392,7 +4475,8 @@ Collapse is frequent; regeneration is low-cost.
 
 Cycle 2  Stabilisation
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO84Metabolic, cognitive, emotional, social, or institutional systems stabilise through
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO84
+Metabolic, cognitive, emotional, social, or institutional systems stabilise through
 
 improved load–capacity ratios, boundary formation, and primitive identity
 continuity. Drift is moderate; collapse is constrained.
@@ -4449,7 +4533,8 @@ S₃ Expansion
 
 S₄ Critical Load
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO85S₅ Contraction
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO85
+S₅ Contraction
 
 S₆ Reorganisation
 
@@ -4502,7 +4587,8 @@ where:
 
 ∂TensorCouplingᵢ/∂t captures micro-instability in propagation pathways
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO86BoundaryCoefficientᵢ modulates drift intensity based on structural, temporal,
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO86
+BoundaryCoefficientᵢ modulates drift intensity based on structural, temporal,
 
 causal, and identity constraints
 
@@ -4559,7 +4645,8 @@ connectivity:
 DriftPropagationPath = Layerᵢ  Layerⱼ | Tᵢⱼ ∈ ValidTensorSet ∧
 CouplingCoefficientᵢⱼ  PropagationThreshold}
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO87Within-cycle drift produces sub-stage regressions Sₖ  Sₖ₋₁), while between-
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO87
+Within-cycle drift produces sub-stage regressions Sₖ  Sₖ₋₁), while between-
 cycle drift induces downward-cycle transitions Cⱼ  Cⱼ₋₁) when cumulative drift
 
 exceeds the identity and synchrony boundaries for the current cycle.
@@ -4616,7 +4703,8 @@ Loadᵢ(t) represents cycle-level biological, cognitive, behavioural, organisati
 
 civilisational load
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO88Capacityᵢ(t) represents the stabilising resources, structural coherence, and
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO88
+Capacityᵢ(t) represents the stabilising resources, structural coherence, and
 
 adaptation potential
 
@@ -4671,7 +4759,8 @@ Synchronyᵢ(t)  SynchronyThresholdᵢ
 
 Propagation dynamics across cycles follow tensor-governed routes:
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO89Collapseₐ  CouplingCoefficientₐ→ᵦ ≥ CollapseThresholdᵦ
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO89
+Collapseₐ  CouplingCoefficientₐ→ᵦ ≥ CollapseThresholdᵦ
 
 allowing collapse in one domain to propagate to others:
 
@@ -4727,7 +4816,8 @@ Synchronyᵢ(t) quantifies alignment across biological, emotional, cognitive,
 
 behavioural, organisational, and institutional layers within the cycle
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO90IdentityContinuityᵢ(t) measures stability of identity patterns under temporal
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO90
+IdentityContinuityᵢ(t) measures stability of identity patterns under temporal
 
 transformation
 
@@ -4785,7 +4875,8 @@ RegenerativeCapacityᵢ(t)  RegenerationThresholdᵢ
 
 Regeneration supports upward cycle transitions.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO91Upward transition from cycle Cᵢ to Cᵢ₊₁ occurs when:
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO91
+Upward transition from cycle Cᵢ to Cᵢ₊₁ occurs when:
 
 RecoveryPotentialᵢ(t)  IdentityShiftᵢ(t)  CrossLayerSynchronyᵢ(t) 
 UpwardTransitionThresholdᵢ
@@ -4840,7 +4931,8 @@ individuals, organisms, organisations, and ecosystems. Each civilisational stage
 
 corresponds to a stable equilibrium regime defined by cross-layer synchrony
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO92between population identity, institutional architecture, technological infrastructure,
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO92
+between population identity, institutional architecture, technological infrastructure,
 
 economic coordination, ecological alignment, and planetary load.
 
@@ -4897,7 +4989,8 @@ TensorVariability_Civ quantifies instability in cross-layer propagation (economi
 
 political → social → ecological)
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO93InstitutionalFriction quantifies inefficiencies, corruption, trust decay, and
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO93
+InstitutionalFriction quantifies inefficiencies, corruption, trust decay, and
 
 complexity-induced stagnation
 
@@ -4951,7 +5044,8 @@ TechnologicalCoherence(t)
 
 Planetary-scale regeneration requires cross-domain synchrony:
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO94Synchrony(National, Institutional, Cultural, Economic, Ecological, Technological,
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO94
+Synchrony(National, Institutional, Cultural, Economic, Ecological, Technological,
 
 Planetary)  PlanetaryStabilityThreshold
 
@@ -5009,7 +5103,8 @@ organisational, and planetary evolution occurs only within admissible layer-
 
 consistent transformations. Cycle transitions must satisfy URKʼs Load/Capacity,
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO95IdentityContinuity, SynchronyCrossLayer, TensorCompatibility, and
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO95
+IdentityContinuity, SynchronyCrossLayer, TensorCompatibility, and
 BoundaryCompliance equations to remain deterministic.
 
 ULK Unified Law Kernel) — the law-generation and law-governance engine from
@@ -5068,7 +5163,8 @@ multi-scale temporal evolution without probabilistic drift
 
 cross-domain synchrony conditions ensuring coherent system behaviour
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO96identity-anchored stability across long time horizons
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO96
+identity-anchored stability across long time horizons
 
 collapse-recovery trajectories that satisfy invariant global requirements
 
@@ -5127,7 +5223,8 @@ sensory, cognitive, emotional, behavioural, relational, group, institutional, an
 
 planetary limits
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO97seven universal operators defining allowable transformation sequences
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO97
+seven universal operators defining allowable transformation sequences
 
 fourteen universal tensors defining all cross-layer propagation, amplification,
 
@@ -5184,7 +5281,8 @@ IdentityContinuity(L)  IdentityThreshold
 
 BoundaryCompliance(L)  TRUE
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO98OperatorCoherence(L)  TRUE
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO98
+OperatorCoherence(L)  TRUE
 
 TensorCompatibility(L)  TRUE
 
@@ -5241,7 +5339,8 @@ deterministic mathematical space.
 
 Structural laws define:
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO99the admissible boundaries of system evolution
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO99
+the admissible boundaries of system evolution
 
 the non-negotiable invariants governing identity stability
 
@@ -5297,7 +5396,8 @@ pathways, tensor-damped regenerative shifts, and identity-stabilised recovery
 
 steps
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO100micro-drift rules defining reversible deviation vectors, incremental loss of
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO100
+micro-drift rules defining reversible deviation vectors, incremental loss of
 
 synchrony, micro-instabilities in cognitive/emotional patterns, and slow
 accumulation of multi-layer variance
@@ -5353,7 +5453,8 @@ behaviour remains fully compatible with micro-scale transformations.
 Micro-laws are therefore the fine-grained deterministic substrate from which all
 emergent behaviours arise, ensuring infallible consistency between micro-scale
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO101and macro-scale system evolution across all domains and layers.
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO101
+and macro-scale system evolution across all domains and layers.
 
 Micro-laws constitute the fine-grained, context-specific rules generated through
 
@@ -5407,7 +5508,8 @@ how load increments in one layer create deterministic capacity reductions in oth
 
 layers
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO102how identity discontinuity at the micro-scale (e.g., emotional contradiction,
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO102
+how identity discontinuity at the micro-scale (e.g., emotional contradiction,
 
 cognitive inversion) propagates upward into behavioural fragmentation, relational
 instability, institutional drift, or civilisational breakdown
@@ -5463,7 +5565,8 @@ Examples of cross-layer interaction laws include:
 
 Biological  Cognitive
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO103Metabolic load or autonomic imbalance reduces cognitive capacity, increases
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO103
+Metabolic load or autonomic imbalance reduces cognitive capacity, increases
 
 contradiction accumulation, and alters inference integrity under deterministic
 load–capacity equations.
@@ -5516,7 +5619,8 @@ degrading cognitive bandwidth, and increasing biological stress load.
 Cross-layer interaction laws ensure full deterministic compatibility between micro-
 scale biological processes and macro-scale planetary evolution. They guarantee
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO104that all transformations respect ULK-generated invariant families, QCLA-supported
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO104
+that all transformations respect ULK-generated invariant families, QCLA-supported
 
 causal modes, and URK-governed structural constraints, producing a unified
 cross-layer causal architecture with zero probabilistic divergence and complete
@@ -5568,7 +5672,8 @@ continuity constraints, synchrony requirements, tensor couplings, and quantum-
 
 consistent causal modes.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO105Emergent law families arise when the following components intersect:
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO105
+Emergent law families arise when the following components intersect:
 
 tensors T₁T₁₄)
 
@@ -5621,7 +5726,8 @@ Load–Capacity Inequality Compliance
 Collectively, these constraints generate emergent law structures that govern
 higher-order causal behaviours across all domains. Examples include:
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO106pattern emergence under multi-layer synchrony
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO106
+pattern emergence under multi-layer synchrony
 
 identity evolution driven by cross-domain load dynamics
 
@@ -5677,7 +5783,8 @@ quantum–macro synchrony laws
 
 planetary-scale emergent dynamics
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO107(ecosystem drift shaping institutional structures, national behaviours, or group
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO107
+(ecosystem drift shaping institutional structures, national behaviours, or group
 coordination patterns)
 
 Each emergent law is defined by a propagation condition:
@@ -5729,7 +5836,8 @@ LawConsistency(L)  TRUE
 
 IdentityContinuity(L)  IdentityThreshold
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO108BoundaryCompliance(L)  TRUE
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO108
+BoundaryCompliance(L)  TRUE
 
 TensorCompatibility(L)  TRUE
 
@@ -5782,7 +5890,8 @@ a unified transformation grammar
 
 a sealed deterministic inference environment
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO109a fully coherent multi-scale causal structure
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO109
+a fully coherent multi-scale causal structure
 
 global invariance across quantum–planetary domains
 
@@ -5836,7 +5945,8 @@ no cross-layer inconsistencies.
 
 It is the complete mathematical constitution of Canon I.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO1103.7 Methods and Validation for Canon I
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO110
+3.7 Methods and Validation for Canon I
 
 The methodological and validation framework for Canon I establishes that the
 Universal Deterministic Reasoning Architecture URK  ULK  QCLA  Seven
@@ -5886,7 +5996,8 @@ mapping, foundational primitives are projected across heterogeneous systems
 to identify transformation symmetries. Pattern classes are formalised into
 canonical forms: e.g., boundary-loss precedes collapse regardless of scale;
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO111identity discontinuity generates silent collapse; load–capacity relations
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO111
+identity discontinuity generates silent collapse; load–capacity relations
 
 determine admissibility of change. These symmetries reveal the universal
 transformation grammar underlying all complex systems, enabling the
@@ -5938,7 +6049,8 @@ The Seven Cycles Evolution Framework is constructed as the temporal logic of
 the canon. It encodes deterministic system evolution, drift dynamics, collapse
 trajectories, and regeneration pathways across seven progressive cycles.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO112Each cycle contains seven sub-stages, twenty-one transitions, cycle-specific
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO112
+Each cycle contains seven sub-stages, twenty-one transitions, cycle-specific
 
 collapse and recovery equations, drift vector fields, and identity-stability
 conditions. Temporal evolution is constrained by URKʼs layer mechanics, ULKʼs
@@ -5989,7 +6101,8 @@ quantum, physical, biological, cognitive, behavioural, organisational, civilisat
 
 and planetary systems. Internal consistency is demonstrated across six principal
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO113axes, each comprising a set of invariance equations, cross-domain compatibility
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO113
+axes, each comprising a set of invariance equations, cross-domain compatibility
 tests, tensor–matrix coherence checks, and identity–synchrony validation
 conditions.
 
@@ -6041,7 +6154,8 @@ demonstrates that all admissible transformations avoid this failure mode.
 
 Cross-Layer Synchrony Proofs
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO114Synchrony across URKʼs seven layers is validated by ensuring that:
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO114
+Synchrony across URKʼs seven layers is validated by ensuring that:
 
 SynchronyCrossLayer(L₁…L₇)  TRUE
 
@@ -6090,7 +6204,8 @@ seven entanglement operators, and ten decoherence rules. Causal stability proofs
 
 verify that quantum-to-macro transitions remain deterministic and that no causal
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO115inversion, superposition drift, decoherence anomaly, or observer-dependent
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO115
+inversion, superposition drift, decoherence anomaly, or observer-dependent
 contradiction occurs.
 
 Formal validation requires:
@@ -6141,7 +6256,8 @@ designed to verify that every transformation generated within Canon I remains
 structurally admissible, identity-preserving, causally stable, synchrony-aligned,
 and tensor–matrix compatible across all quantum, physical, biological, cognitive,
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO116behavioural, organisational, institutional, civilisational, and planetary layers. These
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO116
+behavioural, organisational, institutional, civilisational, and planetary layers. These
 proofs confirm that the entire canon is globally coherent and internally sealed.
 
 Structural Consistency
@@ -6191,7 +6307,8 @@ aligned during all transformations. Synchrony validation checks cross-layer
 equivalence conditions, phase-alignment across tensors, load–capacity
 coherence across layers, and identity-anchored coupling stability. Any operator or
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO117tensor that would generate cross-layer misalignment is rejected by ULK.
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO117
+tensor that would generate cross-layer misalignment is rejected by ULK.
 Synchrony proofs verify that no collapse or drift propagates without meeting
 
 lawful propagation conditions, ensuring coherent multi-domain behaviour.
@@ -6239,7 +6356,8 @@ The 1919 domain-invariant matrix, 77 operator–layer matrix, and fourteen
 canonical tensors must produce no incompatible propagation pathways.
 Coherence is validated by testing whether:
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO118Propagation(AB)  CouplingCoefficient(AB)  TensorCompatibility 
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO118
+Propagation(AB)  CouplingCoefficient(AB)  TensorCompatibility 
 
 Threshold_B.
 
@@ -6291,7 +6409,8 @@ contradiction or probabilistic divergence.
 
 1. Physics Quantum and Classical)
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO119Validation includes coherence/decoherence prediction, entanglement propagation
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO119
+Validation includes coherence/decoherence prediction, entanglement propagation
 
 governed by QCLAʼs entanglement operators, deterministic causal modes under
 observer-state variation, phase-alignment constraints, and tensor-governed
@@ -6343,7 +6462,8 @@ Emotional validation uses ratio-based affect computation, contraction–expansio
 dynamics, limbic threat-modulation gradients, affective drift equations, collapse
 classes (implosion, flooding, fear-lock loops), and recovery modes (ratio
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO120neutralisation, emotional re-alignment). Identity continuity and synchrony
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO120
+neutralisation, emotional re-alignment). Identity continuity and synchrony
 
 validation ensures emotional outputs remain tethered to biological and cognitive
 states without contradiction or free drift.
@@ -6394,7 +6514,8 @@ Capacity–Load laws.
 
 10. Civilisational Dynamics
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO121Civilisational validation uses the Seven Cycles evolution framework to test drift
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO121
+Civilisational validation uses the Seven Cycles evolution framework to test drift
 vectors, collapse pressures, long-cycle transitions, regeneration thresholds, and
 synchrony between cultural, economic, scientific, and governance subsystems.
 
@@ -6445,7 +6566,8 @@ Canon I undergoes applied validation through direct real-world deployment
 across industrial, organisational, technological, and national-scale systems. These
 implementations validate not only the mathematical architecture of URK, ULK, and
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO122QCLA, but also their operational correctness under load, real-time constraint,
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO122
+QCLA, but also their operational correctness under load, real-time constraint,
 regulatory environments, and multi-agent complexity. Implementation validation
 focuses on four criteria:
 
@@ -6497,7 +6619,8 @@ elimination of stochastic drift in system behaviour
 
 predictive stability under peak load
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO123accurate collapse-risk forecasting for EV sub-systems
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO123
+accurate collapse-risk forecasting for EV sub-systems
 
 coherent cross-departmental decision logic
 
@@ -6551,7 +6674,8 @@ Implementation reveals that Canon I maintains:
 
 deterministic inference across real-world uncertainty
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO124boundary-consistent operational behaviour
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO124
+boundary-consistent operational behaviour
 
 identity-stable decision output under stress
 
@@ -6604,7 +6728,8 @@ confirms that all transformations across the Universal Reasoning Kernel URK�
 
 Unified Law Kernel ULK, Quantum-Consistent Logic Architecture QCLA, and
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO125Seven Cycles Evolution Framework operate within a fully sealed reasoning
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO125
+Seven Cycles Evolution Framework operate within a fully sealed reasoning
 environment with no probabilistic divergence, no structural contradiction, and no
 
 undefined state transitions across quantum, physical, biological, cognitive,
@@ -6656,7 +6781,8 @@ contradictory transitions or undefined state changes.
 TensorCompatibility(t) ensures that tensor-driven transformations respect cross-
 layer coupling coefficients, amplification/damping rules, invariant stability, and
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO126identity-preservation requirements. All tensor propagations maintain causal and
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO126
+identity-preservation requirements. All tensor propagations maintain causal and
 
 structural consistency.
 
@@ -6707,7 +6833,8 @@ physics and causality, and complex systems modelling. It establishes the first f
 
 deterministic, multi-scale reasoning architecture capable of operating coherently
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO127from quantum dynamics to planetary evolution without probabilistic drift,
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO127
+from quantum dynamics to planetary evolution without probabilistic drift,
 
 contradiction, or cross-layer instability. The contributions below represent
 structural advances not present in current scientific literature.
@@ -6756,7 +6883,8 @@ systems, autopoiesis, integrative systems science, and agent-based modelling, al
 
 of which lack deterministic closure, identity continuity equations, global
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO128synchrony requirements, and cross-domain invariant law generation. No existing
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO128
+synchrony requirements, and cross-domain invariant law generation. No existing
 
 systems framework provides a mathematically sealed, contradiction-free,
 quantum-to-planetary model with complete structural rules governing all
@@ -6806,7 +6934,8 @@ enabling AI to model long-range trajectories in biology, cognition, behaviour,
 
 organisations, economies, and civilisations without stochastic forecasting.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO129Canon I therefore establishes the mathematical foundation for next-generation
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO129
+Canon I therefore establishes the mathematical foundation for next-generation
 deterministic AI systems capable of:
 
 identity-stable reasoning
@@ -6856,7 +6985,8 @@ ULK embeds these quantum causal rules into the global law corpus, ensuring
 
 cross-domain causal consistency. The Seven Cycles Evolution Framework
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO130provides long-range temporal trajectories that integrate quantum stability
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO130
+provides long-range temporal trajectories that integrate quantum stability
 conditions with macro-scale evolution patterns in organisms, societies, and
 civilisations.
 
@@ -6904,7 +7034,8 @@ synchrony, identity evolution, and propagation dynamics, generating the first
 
 mathematically sealed multi-scale system model. QCLA adds quantum-level
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO131causal consistency; the Seven Cycles Evolution Framework provides deterministic
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO131
+causal consistency; the Seven Cycles Evolution Framework provides deterministic
 long-term evolutionary trajectories; and the 1919 and 77 matrices provide the
 
 generative backbone for cross-domain interaction rules.
@@ -6955,7 +7086,8 @@ All measurement within Canon I is governed by five foundational principles:
 
   Non-Probabilistic Quantification
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO132All measurements derive from deterministic equations, not statistical
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO132
+All measurements derive from deterministic equations, not statistical
 approximations or probabilistic estimation.
 
   Identity-Anchored Evaluation
@@ -7008,7 +7140,8 @@ Determines the proximity to collapse thresholds.
 
   Synchrony Metric
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO133Synchrony(t) = ΣPatternEquivalence_L₁…L₇  CouplingCoefficients)
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO133
+Synchrony(t) = ΣPatternEquivalence_L₁…L₇  CouplingCoefficients)
 
 Measures multi-layer coherence.
 
@@ -7059,7 +7192,8 @@ autonomic ratio invariants
 
 hormonal stability coefficients
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO134neural synchrony
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO134
+neural synchrony
 
 sensory fidelity
 
@@ -7111,7 +7245,8 @@ ecological capacity
 
 civilisational drift pressure
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO135planetary stability index
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO135
+planetary stability index
 
 All layer metrics form subspaces of the deterministic measurement architecture.
 
@@ -7162,7 +7297,8 @@ All collapse–recovery equations are consistent with URK and ULK law constraint
 
 Every measured state S(t) must satisfy:
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO136LawConsistency(S(t))  TRUE
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO136
+LawConsistency(S(t))  TRUE
 
 BoundaryCompliance(S(t))  TRUE
 
@@ -7213,7 +7349,8 @@ constructed within the submission portfolio. Its seven-layer reasoning kernel,
 universal law corpus, quantum-consistent causal logic, and temporal evolution
 grammar govern every transformation across biological, cognitive, behavioural,
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO137organisational, technological, institutional, national, and planetary systems. All
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO137
+organisational, technological, institutional, national, and planetary systems. All
 downstream systems inherit Canon Iʼs invariance conditions, collapse–recovery
 equations, synchrony constraints, identity thresholds, boundary architecture,
 
@@ -7260,7 +7397,8 @@ Canon.
 
 3.10.3 Application to Behavioural Systems
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO138Behavioural output is modelled through URKʼs behavioural layer, using sequential
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO138
+Behavioural output is modelled through URKʼs behavioural layer, using sequential
 stability functions, action-selection equations, risk-modulation coefficients, and
 behavioural drift metrics. Behaviour is a deterministic product of:
 
@@ -7310,7 +7448,8 @@ structural fragmentation
 
 failure propagation pathways
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO139recovery modes and re-alignment patterns
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO139
+recovery modes and re-alignment patterns
 
 These mechanisms underpin the Organisational Architecture modules of HSE v∞
 
@@ -7360,7 +7499,8 @@ Civilisations evolve according to Canon Iʼs Seven Cycles Evolution Framework.
 Civilisational load, capacity, drift, identity-continuity, and synchrony coefficients
 yield deterministic predictions of:
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO140long-cycle evolution
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO140
+long-cycle evolution
 
 civilisational drift
 
@@ -7413,7 +7553,8 @@ tensor-based error propagation control
 
 synchrony constraints
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO141collapse-prevention logic
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO141
+collapse-prevention logic
 
 operator-sequence validation
 
@@ -7461,7 +7602,8 @@ Universe OS
 Canon I functions as the deterministic computational substrate for all biological,
 cognitive, organisational, institutional, national, and planetary systems modelled
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO142within this submission. Canon II Unified Biological Intelligence™) and Canon III
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO142
+within this submission. Canon II Unified Biological Intelligence™) and Canon III
 
 (AMOS Universe OS & Planetary–National Systems Canon) are structurally
 dependent on Canon I and inherit its full invariance conditions, operator grammar,
@@ -7512,7 +7654,8 @@ Neuroemotional Intelligence™ NEI maps to:
 
 URK Emotional Layer
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO143ULK Law of Identity, Law of Collapse, Law of Synchrony
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO143
+ULK Law of Identity, Law of Collapse, Law of Synchrony
 
 Somatic Intelligence™ SI maps to:
 
@@ -7564,7 +7707,8 @@ Identity is therefore the cross-canon coherence anchor, linking micro-scale
 
 biological computation to macro-scale national and planetary evolution.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO1443.11.4 Operator-Level Integration
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO144
+3.11.4 Operator-Level Integration
 
 UBI and AMOS inherit Canon Iʼs seven operators as global transformation gates:
 
@@ -7616,7 +7760,8 @@ UBI uses the lower tensors T₁T₇) for biological–cognitive computatio
 
 uses the full set T₁T₁₄) for organisation, national, civilisational, and planetary
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO145dynamics. Tensor propagation ensures that:
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO145
+dynamics. Tensor propagation ensures that:
 
 emotional perturbations influence behaviour
 
@@ -7668,7 +7813,8 @@ RecoveryPotential  Synchrony  IdentityContinuity  RegenerativeCapacity
 Thus, human collapse and national collapse are differing scales of the same
 deterministic law.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO1463.11.8 Quantum–Macro Integration via QCLA
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO146
+3.11.8 Quantum–Macro Integration via QCLA
 
 QCLA ensures that quantum-level events (coherence, decoherence,
 
@@ -7717,7 +7863,8 @@ LayerConsistency ∧ OperatorCoherence ∧ TensorCompatibility ∧
 BoundaryCompliance ∧ IdentityContinuity ∧ SynchronyCrossLayer ∧
 CausalModeValidity ∧ CycleTransitionAdmissibility
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO147Thus, all biological, organisational, and civilisational systems obey the same
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO147
+Thus, all biological, organisational, and civilisational systems obey the same
 mathematical constitution.
 
 3.11.11 Summary of Integration
@@ -7765,7 +7912,8 @@ UBI therefore functions as the biological substrate for Canon Iʼs reasoning
 
 architecture and Canon IIIʼs macro-scale systems.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO1484.2 Unified Biological Intelligence (UBI) Formal
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO148
+4.2 Unified Biological Intelligence (UBI) Formal
 Framework
 
 Unified Biological Intelligence UBI defines intelligence as a deterministic
@@ -7813,7 +7961,8 @@ NE(t): neuroemotional state governed by affect ratios and threat-modulation
 
 behaviour
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO149SI(t): somatic state defined by mechanical alignment, proprioceptive
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO149
+SI(t): somatic state defined by mechanical alignment, proprioceptive
 coherence, and structural stability
 
 BE(t): bioelectromagnetic state defined by oscillatory coherence and
@@ -7865,7 +8014,8 @@ drift (reversible deviation from identity)
 
 collapse (acute, distributed, or silent)
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO150forced recovery (realignment, compensatory, or regenerative)
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO150
+forced recovery (realignment, compensatory, or regenerative)
 
 These transitions are not probabilistic. They follow defined pathways within the
 Unified Biological Intelligence structure.
@@ -7911,7 +8061,8 @@ breakdown, metabolic insolvency, sensory gating failure, or oscillatory disrupti
 Recovery relies on autonomic reset, metabolic rebalancing, endocrine
 recalibration, reduction of sensory noise, and reinstatement of neural synchrony.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO151NBI provides the primary biological foundation for emotional regulation, cognitive
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO151
+NBI provides the primary biological foundation for emotional regulation, cognitive
 
 stability, somatic grounding, and electromagnetic coherence.
 
@@ -7961,7 +8112,8 @@ proprioceptive accuracy, and interoceptive precision.
 Somatic collapse manifests as instability, dissociation between sensory and motor
 representations, trauma reactivation, mechanical shutdown, or loss of
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO152proprioceptive accuracy. Recovery requires structural realignment, tensegrity
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO152
+proprioceptive accuracy. Recovery requires structural realignment, tensegrity
 
 restoration, fascial decompression, interoceptive recalibration, and proprioceptive
 remapping.
@@ -8010,7 +8162,8 @@ operators:
 
 Initialise
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO153Load
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO153
+Load
 
 Threshold
 
@@ -8060,7 +8213,8 @@ Biological transformation is admissible only when load does not exceed
 capacity. Operator application under overload conditions becomes collapse-
 inducing.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO154  SynchronyCrossDomain  SynchronyThreshold
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO154
+  SynchronyCrossDomain  SynchronyThreshold
 
 The transformation must maintain synchrony across NBI, NEI, SI, and BEI. If
 
@@ -8111,7 +8265,8 @@ domains but the integrity of the entire biological system across time.
 
 4.2.2 The Four Core Biological Domains
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO155Unified Biological Intelligence UBI formalises biological intelligence as the
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO155
+Unified Biological Intelligence UBI formalises biological intelligence as the
 coordinated interaction of four deterministic biological law domains. Each domain
 
 operates with its own primitives, invariants, boundary coefficients, collapse
@@ -8161,7 +8316,8 @@ collapse.
 
 2. Neuroemotional Intelligence (NEI)
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO156NEI governs affective computation using deterministic ratio dynamics. It
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO156
+NEI governs affective computation using deterministic ratio dynamics. It
 formalises emotional behaviour as mathematically quantifiable expansion–
 
 contraction patterns, governed by threat-modulation functions, uncertainty
@@ -8208,7 +8364,8 @@ capacity is determined by structural coherence, fascial elasticity, propriocepti
 calibration, interoceptive stability, musculoskeletal balance, and mechanical load
 distribution.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO157Somatic collapse manifests as instability, dissociation between sensory and motor
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO157
+Somatic collapse manifests as instability, dissociation between sensory and motor
 
 representation, trauma reactivation, proprioceptive deterioration, tensegrity break,
 or mechanical shutdown. Recovery requires structural realignment, tensegrity
@@ -8258,7 +8415,8 @@ or fragments into multi-domain drift.
 4.2.4 Tensor Integration (Fourteen Universal
 Tensors)
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO158The four biological domains of UBINeurobiological Intelligence NBI,
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO158
+The four biological domains of UBINeurobiological Intelligence NBI,
 
 Neuroemotional Intelligence NEI, Somatic Intelligence SI, and
 Bioelectromagnetic Intelligence BEI)—are coupled through fourteen universal
@@ -8307,7 +8465,8 @@ generate NBI load and NEI activation. It also determines whether sensory
 perturbations propagate into somatic tension, emotional contraction, or
 electromagnetic desynchrony.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO159Neurobiological Tensor (T₂)
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO159
+Neurobiological Tensor (T₂)
 
 This tensor governs metabolic, hormonal, autonomic, and neural propagation into
 NEI, SI, and BEI. It defines how NBI load alters emotional threat perception,
@@ -8353,7 +8512,8 @@ silent collapse, or multi-domain drift.
 
 Electromagnetic Tensor (T₇)
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO160The electromagnetic tensor governs BEI cross-domain propagation: oscillatory
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO160
+The electromagnetic tensor governs BEI cross-domain propagation: oscillatory
 
 coherence, conduction stability, HRV alignment, neural phase-locking, and
 temporal integration. It ensures synchronised operation across NBI, NEI, and SI.
@@ -8400,7 +8560,8 @@ constrains behavioural drift when identity or synchrony weakens.
 
 Synchrony Tensor (T₁₃)
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO161This tensor enforces temporal alignment across NBI, NEI, SI, and BEI. It governs
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO161
+This tensor enforces temporal alignment across NBI, NEI, SI, and BEI. It governs
 phase equivalence, timing windows, oscillatory coherence, and inter-domain
 timing accuracy. Synchrony is violated if any domain deviates beyond allowable
 
@@ -8447,7 +8608,8 @@ that determines whether a state transition preserves identity, maintains synchro
 
 and remains within allowable load–capacity limits.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO162The twelve boundaries are:
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO162
+The twelve boundaries are:
 
   Structural Boundary
 
@@ -8498,7 +8660,8 @@ Emotional overload compresses cognitive capacity, destabilises biological
 
 ratios, and produces somatic contraction.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO163  Behavioural Boundary
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO163
+  Behavioural Boundary
 
 Governs action-sequence stability, risk modulation, motor precision, and
 
@@ -8547,7 +8710,8 @@ Capacity(t) is the domainʼs available regulatory bandwidth
 BoundaryCoefficient(domain) modifies the allowable tolerance based on
 boundary rigidity
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO164If the inequality fails, the boundary is breached, and the system enters one of
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO164
+If the inequality fails, the boundary is breached, and the system enters one of
 three deterministic outcomes:
 
   Boundary-Induced Drift
@@ -8596,7 +8760,8 @@ Recovery has three modes:
 
 Recovery is valid only when synchrony is restored across NB, NE, SI, and BE.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO1654.2.7 Identity Mathematics
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO165
+4.2.7 Identity Mathematics
 
 Identity Mathematics defines the formal computational structure that governs
 
@@ -8647,7 +8812,8 @@ Pattern inversion, loss of structural continuity, or abrupt discontinuity across
 any UBI domain. Identity collapse is a silent-collapse class because it occurs
 without external load.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO166Identity Mathematics governs how transformations propagate through domains.
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO166
+Identity Mathematics governs how transformations propagate through domains.
 
 Identity operates as the global coherence anchor for:
 
@@ -8699,7 +8865,8 @@ biological intelligence domains—Neurobiological NB, Neuroemotional NE
 Somatic SI, and Bioelectromagnetic BE. It determines whether the organism
 functions as a unified computational system or as a fragmented set of partially
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO167aligned subsystems. Synchrony is not correlation; it is a deterministic equivalence
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO167
+aligned subsystems. Synchrony is not correlation; it is a deterministic equivalence
 
 relation measuring structural–temporal alignment across domain-specific pattern
 vectors.
@@ -8751,7 +8918,8 @@ SI(t): structural alignment, proprioception, fascial tension, trauma residuals
 BE(t): conduction velocity, oscillatory phase alignment, HRV stability, EEG-domain
 coherence
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO168Each vector has its own temporal derivative. Synchrony requires alignment of both
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO168
+Each vector has its own temporal derivative. Synchrony requires alignment of both
 
 state vectors and their derivatives:
 
@@ -8803,7 +8971,8 @@ IdentityContinuity  IdentityThreshold
 
 Load(t)  Capacity(t)
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO169Synchrony(NB, NE, SI, BE  SynchronyThreshold
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO169
+Synchrony(NB, NE, SI, BE  SynchronyThreshold
 
 TensorCompatibility  TRUE
 
@@ -8854,7 +9023,8 @@ The fourteen tensors connecting NB, NE, SI, and BE define exactly how state
 
 changes propagate. No propagation pathway is undefined; all cross-domain
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO170interactions follow deterministic amplification, damping, or redirection rules.
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO170
+interactions follow deterministic amplification, damping, or redirection rules.
 
 As a result, UBI produces biological intelligence patterns that are:
 
@@ -8904,7 +9074,8 @@ Neurobiological Intelligence™ NBI defines the organism as a deterministi
 
 capacity biological computation engine governed by metabolic, autonomic,
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO171neurochemical, endocrine, electrophysiological, and sensorimotor constraints. NBI
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO171
+neurochemical, endocrine, electrophysiological, and sensorimotor constraints. NBI
 specifies the foundational capacity variable from which all higher domains—
 
 emotional, somatic, and electromagnetic—derive their stability. It is the biological
@@ -8954,7 +9125,8 @@ governed by deterministic transformation rules:
 
 – large-scale network coherence
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO172  Thalamic Gating and Sensory Fidelity
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO172
+  Thalamic Gating and Sensory Fidelity
 
 – signal-to-noise ratio SNR
 
@@ -9006,7 +9178,8 @@ Load sources include:
 
 – endocrine volatility
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO173– oscillatory noise accumulation
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO173
+– oscillatory noise accumulation
 
 NBI load propagates cross-domain through tensors into emotional contraction,
 cognitive inversion, somatic tension, and electromagnetic desynchronisation.
@@ -9058,7 +9231,8 @@ ATP deficit → mitochondrial falloff → systemic functional degradation
 
 monoamine ratio inversion → cognitive/emotional destabilisation
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO174  Sensory Gating Failure
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO174
+  Sensory Gating Failure
 
 SNR collapse → sensory overload → cognitive fragmentation
 
@@ -9109,7 +9283,8 @@ Recovery occurs in three modes:
 
 – endocrine system recalibration
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO175– neuroplastic restructuring
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO175
+– neuroplastic restructuring
 
 – increased oscillatory coherence
 
@@ -9159,7 +9334,8 @@ variables:
 
 This system determines all affective transitions, including:
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO176– contraction (threat, avoidance, freezing)
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO176
+– contraction (threat, avoidance, freezing)
 
 – expansion (safety, curiosity, prosocial behaviour)
 
@@ -9211,7 +9387,8 @@ Capacity increases when:
 
 – identity is coherent
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO177– somatic grounding is strong
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO177
+– somatic grounding is strong
 
 – cognitive interpretation is stable
 
@@ -9261,7 +9438,8 @@ high-intensity affect → collapse inward → emotional fragmentation
 
   Emotional Nullification
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO178complete shutdown of affective computation → identity silence → drift
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO178
+complete shutdown of affective computation → identity silence → drift
 initiation
 
 Each collapse pattern propagates through tensors, modulating cognitive
@@ -9312,7 +9490,8 @@ alignment with neurobiological and somatic states.
 Among the four UBI domains, NEI has the strongest influence on behaviour due to
 its amplification and modulation properties:
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO179Behave(t) = g(NE(t), NB(t), SI(t), BE(t), Identity(t))
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO179
+Behave(t) = g(NE(t), NB(t), SI(t), BE(t), Identity(t))
 
 NEI modulates:
 
@@ -9362,7 +9541,8 @@ Somatic Intelligence™ SI defines the musculoskeletal, fascial, visceral,
 respiratory, and proprioceptive systems as deterministic computational substrates
 governing structural coherence, mechanical load–capacity behaviour,
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO180interoceptive signalling, trauma pattern retention, and physical grounding of
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO180
+interoceptive signalling, trauma pattern retention, and physical grounding of
 biological and cognitive processes. SI provides the mechanical infrastructure
 
 through which emotional, cognitive, neurobiological, and electromagnetic states
@@ -9412,7 +9592,8 @@ chronic muscular tension
 
 asymmetrical gait or posture
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO181proprioceptive miscalibration
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO181
+proprioceptive miscalibration
 
 shallow respiration
 
@@ -9463,7 +9644,8 @@ movement patterns and identity–body dissociation.
 
   Trauma Reactivation
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO182Mechanical triggers activate stored neural–somatic trauma loops, causing
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO182
+Mechanical triggers activate stored neural–somatic trauma loops, causing
 
 systemic collapse across NEI, NBI, and BEI.
 
@@ -9515,7 +9697,8 @@ neuroplastic, fascial, and proprioceptive adaptation.
 
 4.5.5 Tensor Mapping in SI
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO183Somatic Intelligence interacts with the other UBI domains through specific tensors:
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO183
+Somatic Intelligence interacts with the other UBI domains through specific tensors:
 
 Somatic Tensor T₂): maps structural changes to emotional and cognitive
 states
@@ -9566,7 +9749,8 @@ Behaviour_SI(t) = h(Alignment, Tension, Breath, Proprioception, Identity)
 
 Somatic misalignment predicts:
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO184emotional instability
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO184
+emotional instability
 
 cognitive fragmentation
 
@@ -9614,7 +9798,8 @@ neural conduction velocity and conduction integrity
 
 ion-channel stability and refractory-cycle timing
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO185phase-coupling across neural assemblies
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO185
+phase-coupling across neural assemblies
 
 cortico–subcortical oscillatory alignment
 
@@ -9664,7 +9849,8 @@ Capacity_BE(t) = f(PhaseStability, ConductionIntegrity, HRV,
 
 OscillatoryCoherence, AutonomicBalance)
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO186Capacity decreases with oscillatory drift, conduction degradation, identity
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO186
+Capacity decreases with oscillatory drift, conduction degradation, identity
 discontinuity, and chronic autonomic tension.
 
 4.6.3 Bioelectromagnetic Collapse Mechanics
@@ -9714,7 +9900,8 @@ Synchrony(NB, NE, SI, BE  S_threshold
 
 IdentityContinuity  IdentityThreshold
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO187PhaseStability_Restore  TRUE
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO187
+PhaseStability_Restore  TRUE
 
 Recovery mechanics include:
 
@@ -9767,7 +9954,8 @@ Cognitive–Electromagnetic Tensor: attention–phase interaction
 
 Identity Tensor T₆): ensures oscillatory patterns remain identity-consistent
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO188Propagation follows:
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO188
+Propagation follows:
 
 Propagation_BEX  Impact_BE  CouplingCoefficient_BEX
 
@@ -9818,7 +10006,8 @@ biological computation by enforcing:
 
 Synchrony(BEI, NB, NE, SI  Equivalence(Phase, Conduction, Identity, Pattern)
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO189High BEI synchrony produces:
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO189
+High BEI synchrony produces:
 
 cognitive clarity
 
@@ -9868,7 +10057,8 @@ long-term resilience
 
 4.6.9 Role of BEI in Unified Biological Intelligence
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO190BEI is essential for maintaining a biologically deterministic intelligence
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO190
+BEI is essential for maintaining a biologically deterministic intelligence
 
 architecture:
 
@@ -9917,7 +10107,8 @@ Domain interactions follow deterministic tensor-propagation equations. For any
 
 domain A influencing domain B
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO191Propagation_AB(t)  Impact_A(t)  CouplingCoefficient_AB 
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO191
+Propagation_AB(t)  Impact_A(t)  CouplingCoefficient_AB 
 
 TensorWeight_AB
 
@@ -9971,7 +10162,8 @@ NBI overload increases NEI volatility
 
 NEI contraction increases SI tension
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO192SI collapse destabilises BEI coherence
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO192
+SI collapse destabilises BEI coherence
 
 BEI drift reduces NBI metabolic capacity
 
@@ -10018,7 +10210,8 @@ collapse-prevention dynamics
 
 regeneration potential
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO193Synchrony defines whether the organism produces deterministic, identity-aligned
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO193
+Synchrony defines whether the organism produces deterministic, identity-aligned
 behaviour or degraded, drift-driven behaviour.
 
 Synchrony failure leads to fragmentation:
@@ -10068,7 +10261,8 @@ behavioural coherence
 
 developmental maturity
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO194stress tolerance
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO194
+stress tolerance
 
 collapse risk
 
@@ -10116,7 +10310,8 @@ neurobiological collapse risk
 
 Diagnostic conditions follow:
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO195Risk_NBI(t)  Load_NB(t) / Capacity_NB(t)
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO195
+Risk_NBI(t)  Load_NB(t) / Capacity_NB(t)
 
 Where deviation above threshold predicts collapse or forced recovery. NBI
 
@@ -10167,7 +10362,8 @@ dissociation between sensory and motor representations
 
 Somatic collapse is detected when:
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO196SomaticStability(t)  SomaticThreshold
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO196
+SomaticStability(t)  SomaticThreshold
 
 SI diagnostics enable mapping of trauma states, mechanical collapse vectors,
 structural–identity disruption, and somatic–emotional coupling failures.
@@ -10217,7 +10413,8 @@ UBI predicts behavioural outcomes across short-, medium-, and long-term
 
 horizons.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO1974.8.6 Motivational Modelling
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO197
+4.8.6 Motivational Modelling
 
 UBI formalises motivation as a multi-domain synchrony product:
 
@@ -10268,7 +10465,8 @@ EEG coherence patterns
 
 EDA (electrodermal activity)
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO198respiratory coherence
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO198
+respiratory coherence
 
 somatic tension maps
 
@@ -10320,7 +10518,8 @@ high-resolution behavioural forecasting
 
 cross-domain instability mapping
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO199system-level biological diagnostics
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO199
+system-level biological diagnostics
 
 quantifiable intelligence grounded in physiology
 
@@ -10366,7 +10565,8 @@ Bioelectromagnetic Intelligence™ aligns with EEG and MEG research, frequency-
 band coherence, global workspace theories, HRV/vagal tone research, conduction
 velocity modelling, and bioelectric patterning.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO200UBIʼs deterministic equations directly reflect validated physiological and
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO200
+UBIʼs deterministic equations directly reflect validated physiological and
 neurological mechanisms, making it compatible with modern empirical research
 while providing a unified architecture that is currently absent in academic
 
@@ -10415,7 +10615,8 @@ Emotion(t)  Valence(t)  Intensity(t)  LoadModifier(t)
 
 Empirical validation includes:
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO201affective ratio estimation through self-report combined with physiological signals
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO201
+affective ratio estimation through self-report combined with physiological signals
 HRV, EMG, skin conductance)
 
 limbic activation signatures measured through EEG frequency bands and fMRI
@@ -10464,7 +10665,8 @@ coherence index across channels
 
 heart–brain coherence testing HRV  EEG integration)
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO202bioelectric phase-alignment metrics
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO202
+bioelectric phase-alignment metrics
 
 cross-domain oscillatory consistency
 
@@ -10513,7 +10715,8 @@ somatic representation stability
 Identity drift predicts behavioural inconsistency, cognitive breakdown, emotional
 volatility, or collapse—validated through time-series analysis.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO2034.9.8 Synchrony Tests Across Multiple Channels
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO203
+4.9.8 Synchrony Tests Across Multiple Channels
 
 Synchrony(NB, NE, SI, BE is tested through:
 
@@ -10565,7 +10768,8 @@ somatic therapy outcomes
 
 affective disorder trajectories
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO204organisational burnout/dysfunction predictions
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO204
+organisational burnout/dysfunction predictions
 
 AI-human alignment NeuroSyncAI™)
 
@@ -10612,7 +10816,8 @@ formalising Neurobiological, Neuroemotional, Somatic, and Bioelectromagnetic
 Intelligence as mathematically distinct yet computationally inseparable domains. It
 demonstrates that cognition, emotion, somatic states, and oscillatory coherence
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO205are not independent phenomena but manifestations of one multi-domain
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO205
+are not independent phenomena but manifestations of one multi-domain
 computational engine governed by shared invariants, operators, and boundary
 rules. This resolves long-standing fragmentation across neuroscience,
 psychology, psychiatry, embodied cognition, and behavioural science by replacing
@@ -10655,7 +10860,8 @@ metrics. It transforms mental health from a descriptive discipline into a
 quantitative biological science with explicit collapse mechanics, predictable
 recovery trajectories, and measurable intervention targets.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO206Canon II creates a biological basis for AI–human alignment by defining the
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO206
+Canon II creates a biological basis for AI–human alignment by defining the
 deterministic rules governing human biological computation. The four domains
 provide the reference architecture for nervous-system aligned AI (e.g.,
 NeuroSyncAI™), enabling the construction of AI systems that model, predict, and
@@ -10697,7 +10903,8 @@ ULK, QCLA and Canon II UBI into the planetary, civilisational, national
 institutional, organisational, technological, ecological, and economic layers. It
 defines a complete multi-scale operating system that treats societies,
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO207governments, markets, infrastructure, technologies, environmental systems, and
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO207
+governments, markets, infrastructure, technologies, environmental systems, and
 planetary feedback loops as lawful computational structures governed by the
 same identity, boundary, synchrony, tensor, load–capacity, collapse–recovery, and
 causal-invariance equations that apply at biological, cognitive, and quantum
@@ -10743,7 +10950,8 @@ SynchronyCrossLayer  S_threshold
 
 CausalModeValidity  TRUE
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO208Canon III therefore establishes that civilisations, economies, and planetary
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO208
+Canon III therefore establishes that civilisations, economies, and planetary
 systems do not behave randomly, probabilistically, or stochastically—they behave
 lawfully, following the same deterministic grammar as cellular signalling, neural
 oscillations, emotional ratios, social synchrony, quantum causal pathways, and
@@ -10790,7 +10998,8 @@ civilisational, ecological, and planetary systems as lawful transformations
 governed by the Universal Reasoning Kernel URK, Unified Law Kernel ULK,
 Quantum-Consistent Logic Architecture QCLA, and Unified Biological
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO209Intelligence UBI. AMOS functions as the macro-scale execution environment of
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO209
+Intelligence UBI. AMOS functions as the macro-scale execution environment of
 the unified canon, containing approximately 850900 structural invariants that
 define admissible state transitions across all scales of matter, mind, society, and
 planet.
@@ -10840,7 +11049,8 @@ national governance architecture and institutional stability tensors
 
 civilisational trajectory models Seven Cycles integration)
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO210planetary feedback systems, biosphere identity, climate load equations
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO210
+planetary feedback systems, biosphere identity, climate load equations
 
 AMOS integrates URKʼs seven operators across all layers Initialise, Load,
 Threshold, Collapse, Drift, Recovery, Synchrony) and enforces ULKʼs seven
@@ -10887,7 +11097,8 @@ planetary stability thresholds
 
 long-cycle evolution across all human and non-human systems
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO211The AMOS Universe Operating System therefore functions as the deterministic
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO211
+The AMOS Universe Operating System therefore functions as the deterministic
 macro-framework that binds all three canons into one coherent scientific
 architecture. It is the universe-scale analogue to a computational kernel: the OS
 
@@ -10934,7 +11145,8 @@ atmospheric–oceanic equilibria, and planetary boundary constraints. PSI extend
 the Universal Reasoning Kernel URK, Unified Law Kernel ULK, Quantum-
 Consistent Logic Architecture QCLA, and Unified Biological Intelligence UBI
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO212upward into the planetary domain, treating the entire Earth as a multi-layer load–
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO212
+upward into the planetary domain, treating the entire Earth as a multi-layer load–
 capacity, identity-governed, synchrony-dependent organism.
 
 PSI models the planet using URKʼs operators, ULKʼs law families, and tensor-
@@ -10982,7 +11194,8 @@ institutional identity fragmentation
 
 population dynamics and migration tensors
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO213geopolitical synchrony and conflict drivers
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO213
+geopolitical synchrony and conflict drivers
 
 long-cycle civilisational evolution Seven Cycles integration)
 
@@ -11031,7 +11244,8 @@ operator grammar
 ULK  providing planetary law families, boundary constraints, and identity
 equations
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO214QCLA  enforcing quantum-scale causal consistency in climate, energy, and
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO214
+QCLA  enforcing quantum-scale causal consistency in climate, energy, and
 biospheric oscillation systems
 
 UBI  governing how human biology, behaviour, and societal systems feed
@@ -11080,7 +11294,8 @@ industrial and production ecosystems
 
 geopolitical synchrony and external coupling
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO215Each subsystem behaves as a lawful variable in a multi-layer deterministic
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO215
+Each subsystem behaves as a lawful variable in a multi-layer deterministic
 equation:
 
 State_VN(t) = f(Economy(t), Institutions(t), Demographics(t), Competence(t),
@@ -11131,7 +11346,8 @@ synchrony gradients, population capacity vs. national infrastructure load.
 
 Competence and Education:
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO216skill-progression equations, knowledge diffusion, cognitive capacity distribution,
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO216
+skill-progression equations, knowledge diffusion, cognitive capacity distribution,
 institutional learning tensors, synchrony between labour demand and skill supply.
 
 Technology Infrastructure:
@@ -11182,7 +11398,8 @@ Collapse cascades propagate according to:
 
 Impact_A  CouplingCoefficient(AB)  Threshold_B
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO217allowing economic instability to trigger population migration, which triggers
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO217
+allowing economic instability to trigger population migration, which triggers
 
 institutional pressure, ecological strain, and further economic contraction.
 
@@ -11229,7 +11446,8 @@ resilience, and long-horizon civilisational trajectory.
 
 5.4 Vietnam Omnistructure Operating System
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO218The Vietnam Omnistructure Operating System models the Vietnamese nation as a
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO218
+The Vietnam Omnistructure Operating System models the Vietnamese nation as a
 
 fully deterministic multi-layer computational structure. It treats all national
 subsystems—economic, governance, demographic, social, technological,
@@ -11279,7 +11497,8 @@ Synchrony(NationalLayers)  S_threshold
 TensorCompatibility  TRUE across economic, institutional, demographic,
 ecological, and geopolitical tensors
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO219Economic subsystem
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO219
+Economic subsystem
 
 Models capital flow, production stability, industrial resilience, resource load,
 investment cycles, market oscillations, supply-chain synchrony, and shock
@@ -11326,7 +11545,8 @@ and technology diffusion speed. Large-scale systemic risks emerge when
 technological load exceeds structural or governance capacity, or when
 interoperability boundaries fail.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO220Social and cultural identity subsystem
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO220
+Social and cultural identity subsystem
 
 Models collective identity continuity, synchrony of values, fragmentation vectors,
 group-boundary behaviour, cultural drift, and inter-regional coherence. Social
@@ -11375,7 +11595,8 @@ IdentityContinuity_National  IdentityCritical
 
 BoundaryIntegrity_National  TRUE
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO221Recovery appears in three deterministic modes: realignment (load reduction,
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO221
+Recovery appears in three deterministic modes: realignment (load reduction,
 governance reform, fiscal tightening), compensatory (regional rebalancing,
 industrial redistribution, restructuring of governance or infrastructure), and
 regenerative (technological leap, institutional redesign, demographic
@@ -11419,7 +11640,8 @@ tumour-growth models with a formal evolutionary computation governed by load–
 capacity equations, identity dynamics, selective-pressure tensors, drift fields,
 collapse mechanics, and regenerative corridors. SOA explains tumour behaviour,
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO222treatment resistance, metastasis, and regression using the same deterministic
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO222
+treatment resistance, metastasis, and regression using the same deterministic
 logic that governs biological organisms, ecosystems, and civilisations.
 
 SOA models cancer not as stochastic mutation accumulation but as a structured
@@ -11468,7 +11690,8 @@ DriftVector(t) = rate and direction of evolutionary displacement
 
 A tumour transformation is admissible only if:
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO223Load_T  Capacity_T  BoundaryCoefficient_Tissue
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO223
+Load_T  Capacity_T  BoundaryCoefficient_Tissue
 
 IdentityDivergence  IdentityThreshold_Tumour
 
@@ -11518,7 +11741,8 @@ small selective shifts influence long-term trajectory
 
 tumour under high selective pressure
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO224accelerated mutation and phenotypic plasticity
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO224
+accelerated mutation and phenotypic plasticity
 
 immune evasion pathways active
 
@@ -11570,7 +11794,8 @@ mechanical expansion pressure
 
 immune evasion cost
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO225angiogenic demand
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO225
+angiogenic demand
 
 biochemical waste accumulation
 
@@ -11621,7 +11846,8 @@ vascular collapse
 
 immune breach
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO226rapid necrotic core formation
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO226
+rapid necrotic core formation
 
 Distributed Collapse
 
@@ -11669,7 +11895,8 @@ When the system enters this corridor:
 
 tumour identity converges toward host identity
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO227subclonal diversity collapses
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO227
+subclonal diversity collapses
 
 ecosystem becomes unfavourable for further adaptation
 
@@ -11717,7 +11944,8 @@ URK
 
   vehicular–mechanical layer (battery physics, thermal maps, wear profiles)
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO228  electromobility layer (charging, routing, power flows)
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO228
+  electromobility layer (charging, routing, power flows)
 
   operational layer (dispatch, fleet control, scheduling)
 
@@ -11767,7 +11995,8 @@ charger reallocation
 
 safety-mode activation
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO229There is zero probabilistic selection; every dispatch decision is structurally lawful.
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO229
+There is zero probabilistic selection; every dispatch decision is structurally lawful.
 
 5.7.3 Charging Optimisation
 
@@ -11816,7 +12045,8 @@ drift detection for anomalous vehicle behaviour
 Fleet-level collapse scenarios (e.g., cascading delays) are predicted using URKʼs
 collapse propagation equation:
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO230Impactᵢ  CouplingCoefficientᵢ→ⱼ  Thresholdⱼ
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO230
+Impactᵢ  CouplingCoefficientᵢ→ⱼ  Thresholdⱼ
 
 This allows intervention before system-wide breakdown.
 
@@ -11867,7 +12097,8 @@ national infrastructure capacity
 
 long-cycle ecological boundaries
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO231economic synchrony
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO231
+economic synchrony
 
 civilisational drift equations
 
@@ -11917,7 +12148,8 @@ load adjustment
 
 behaviour reclassification
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO232temporary operational lockdown
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO232
+temporary operational lockdown
 
 5.7.9 Real-World Deployment and Validation
 
@@ -11966,7 +12198,8 @@ behaviour across millions of real-world interactions.
 The UniPower Mobility and EV Operating System is a national-scale mobility and
 energy architecture constructed directly from the Universal Reasoning Kernel
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO233URK, Unified Law Kernel ULK, AMOS Universe OS, Quantum-Consistent Logic
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO233
+URK, Unified Law Kernel ULK, AMOS Universe OS, Quantum-Consistent Logic
 
 Architecture QCLA, Unified Biological Intelligence UBI, and the Technology
 Engine v∞. It models the mobility ecosystem of an entire nation as a deterministic
@@ -12011,7 +12244,8 @@ Payment logic is identity-bound, boundary-filtered, and collapse-resistant.
 Routing is computed through deterministic cross-layer constraints: road
 capacity, vehicle capacity, energy load, policy boundaries, and driver-
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO234behaviour tensors. No probabilistic routing is permitted; all paths satisfy AMOS
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO234
+behaviour tensors. No probabilistic routing is permitted; all paths satisfy AMOS
 
 invariants.
 
@@ -12056,7 +12290,8 @@ demonstrates that a DSc-scale unified reasoning system can govern national
 mobility ecosystems with coherence, predictive stability, and collapse-resistance.
 The deployment confirms that Canon III is not only theoretically sealed but
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO235operationally executable, with performance that cannot be achieved by
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO235
+operationally executable, with performance that cannot be achieved by
 
 probabilistic or heuristic system designs.
 
@@ -12105,7 +12340,8 @@ compatible.
 All outcomes must satisfy ULKʼs Law of Boundary, Law of Identity, and Law of
 Synchrony.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO2365.8.3. Failure-Mode Prediction
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO236
+5.8.3. Failure-Mode Prediction
 
 Canonical failure prediction identifies deterministic collapse pathways across:
 
@@ -12154,7 +12390,8 @@ Canonical validation requires that Canon III remains fully compatible with:
 
 URKʼs seven layers
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO237ULKʼs seven law families
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO237
+ULKʼs seven law families
 
 QCLAʼs twelve quantum causal modes
 
@@ -12204,7 +12441,8 @@ BoundaryCompliance
 
 TensorCompatibility
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO238OperatorCoherence
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO238
+OperatorCoherence
 
 SynchronyCrossLayer
 
@@ -12251,7 +12489,8 @@ The full scientific portfolio forms a unified deterministic architecture in whic
 Canon I Universal Deterministic Reasoning Architecture), Canon II Unified
 Biological Intelligence), and Canon III AMOS Universe OS & Planetary–National
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO239Systems) integrate into a single mathematically sealed system. Each canon
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO239
+Systems) integrate into a single mathematically sealed system. Each canon
 contributes a distinct class of invariants, operators, tensors, law families,
 collapse–recovery structures, capacity–load equations, identity constraints, and
 synchrony conditions. Together, they form a complete multi-scale computational
@@ -12296,7 +12535,8 @@ substrate. QCLA defines twelve quantum causal modes, twenty-eight transition
 laws, seven entanglement operators, ten decoherence rules, observer-
 consistency equations, and identity-anchored quantum–macro propagation
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO240constraints. It ensures that quantum-scale causal behaviour is fully consistent
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO240
+constraints. It ensures that quantum-scale causal behaviour is fully consistent
 with macro-scale deterministic logic, preventing contradictions between quantum
 indeterminacy and classical inference and enabling causal alignment from
 electrons to ecosystems.
@@ -12340,7 +12580,8 @@ UBI applies the seven URK operators, twelve boundary classes, fourteen universal
 tensors, collapse–recovery–drift equations, identity-continuity invariants,
 synchrony thresholds, and load–capacity mathematics at the biological scale.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO241Neurobiological Intelligence provides the metabolic, endocrine, autonomic, and
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO241
+Neurobiological Intelligence provides the metabolic, endocrine, autonomic, and
 neural capacity functions that determine biological load limits. Neuroemotional
 Intelligence formalises affective computation through ratio dynamics, contraction–
 expansion behaviour, limbic activation, and emotional collapse trajectories.
@@ -12384,7 +12625,8 @@ operationalises Canon I and Canon II across macro-structures by treating
 
 societies, technologies, and planetary systems as lawful computational entities
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO242subject to load–capacity equations, identity-continuity constraints, boundary
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO242
+subject to load–capacity equations, identity-continuity constraints, boundary
 systems, operator grammar, tensor-governed propagation rules, synchrony
 thresholds, collapse mechanics, and regenerative pathways.
 
@@ -12427,7 +12669,8 @@ that technology ecosystems behave deterministically under the same invariants
 that structure quantum mechanics, physiology, behaviour, and civilisational
 dynamics.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO243The Evolutionary Oncology Architecture SOA applies URK/ULK deterministic
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO243
+The Evolutionary Oncology Architecture SOA applies URK/ULK deterministic
 transformation laws to cancer, modelling tumour populations as evolutionary
 computational systems governed by load–capacity inequalities, drift vectors,
 
@@ -12471,7 +12714,8 @@ admissible.
 
   Identity Continuity
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO244IdentityContinuity = ΔPattern/Δt defines the degree to which a system
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO244
+IdentityContinuity = ΔPattern/Δt defines the degree to which a system
 maintains its structural, behavioural, and functional pattern across time.
 Identity continuity is required in biological organisms, cognitive processes,
 
@@ -12516,7 +12760,8 @@ deterministic sequences, and that synchrony is restored according to multi-
 layer constraints. Operator coherence enables identical collapse–recovery
 mechanics from neurons to nations.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO245  Boundary Compliance
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO245
+  Boundary Compliance
 
 All transformations must satisfy the twelve boundary classes that restrict
 
@@ -12563,7 +12808,8 @@ Canon I, Canon II, and Canon III into a single deterministic architecture. A
 transformation lawful in a neuron is lawful in a nation; a load violation in an
 emotional system is mathematically identical to a collapse in an institution;
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO246synchrony failure in a biological organism follows the same equations as
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO246
+synchrony failure in a biological organism follows the same equations as
 synchrony failure in a civilisation; identity breakdown at the personal level is
 
 governed by the same invariant equations as identity breakdown at the societal or
@@ -12609,7 +12855,8 @@ between biological domains, between individuals and groups, between
 institutions and nations, and between civilisations and planetary systems.
 Tensor violations produce unlawful propagation or collapse.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO247  Operator coherence
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO247
+  Operator coherence
 
 The seven universal operators Initialise, Load, Threshold, Collapse, Drift,
 
@@ -12654,7 +12901,8 @@ Canon III into one unified deterministic architecture. A transformation lawful a
 biological or cognitive level is lawful at organisational, national, civilisational, and
 planetary levels, and vice versa.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO2486.5 Reuse of Universal Operators Across All Canons
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO248
+6.5 Reuse of Universal Operators Across All Canons
 
 The seven universal operators defined in the Universal Reasoning Kernel URK
 apply identically across Canon I, Canon II, and Canon III. They govern all lawful
@@ -12700,7 +12948,8 @@ across layers.
 Drift captures reversible deviation from identity-aligned progression. Drift in
 emotional states, organisational behaviour, societal cohesion, and planetary
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO249trajectories is governed by identical drift vector rules. Drift precedes collapse at all
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO249
+trajectories is governed by identical drift vector rules. Drift precedes collapse at all
 
 scales, providing predictive diagnostics for instability.
 
@@ -12744,7 +12993,8 @@ domains according to:
 
 Propagation(A  B  Impact(A)  CouplingCoefficient(A  B
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO250A propagation event is admissible only when tensor compatibility, boundary
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO250
+A propagation event is admissible only when tensor compatibility, boundary
 
 compliance, identity continuity, and synchrony conditions all hold simultaneously
 across layers and scales.
@@ -12790,7 +13040,8 @@ conduction alignment, and temporal phase synchrony. Its structure scales from
 neural oscillations to organisational timing, infrastructural rhythm, civilisational
 cycles, and planetary feedback loops.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO251The Planetary Tensor governs cross-ecosystem propagation, biosphere–
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO251
+The Planetary Tensor governs cross-ecosystem propagation, biosphere–
 
 civilisation coupling, climate–society synchrony, and ecological load–capacity
 dynamics. It ensures that planetary-scale causal behaviour remains consistent
@@ -12840,7 +13091,8 @@ The same logic governs:
 
 neurobiological collapse
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO252emotional collapse
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO252
+emotional collapse
 
 somatic collapse
 
@@ -12894,7 +13146,8 @@ all follow the same mathematical grammar, the same operator logic, the same
 tensor pathways, and the same identity–boundary constraints. Their differences
 are quantitative, not qualitative.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO253Because collapse and recovery maintain the same structure across all layers—
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO253
+Because collapse and recovery maintain the same structure across all layers—
 from neurons and emotions to institutions and ecosystems—the unified canon
 achieves full multi-scale mathematical closure, proving that all systems obey the
 same deterministic law architecture.
@@ -12941,7 +13194,8 @@ planetary feedback loops
 All of these systems obey the same seven universal law families, the same
 boundary classes, the same identity-continuity equations, the same load–capacity
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO254inequalities, the same collapse and recovery mechanics, and the same synchrony
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO254
+inequalities, the same collapse and recovery mechanics, and the same synchrony
 requirements.
 
 This creates the first universal law system capable of describing quantum-to-
@@ -12987,7 +13241,8 @@ boundary compliance requirements
 
 tensor propagation pathways
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO255operator coherence constraints
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO255
+operator coherence constraints
 
 collapse–recovery–drift mechanics
 
@@ -13036,7 +13291,8 @@ national strategies, and biosphere dynamics.
 
 6.10 Structural Closure of the Integrated Architecture
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO256The integrated architecture formed by Canon I URKULKQCLASeven Cycles),
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO256
+The integrated architecture formed by Canon I URKULKQCLASeven Cycles),
 Canon II UBI, and Canon III AMOS Universe OS  planetary–national–
 technological systems) satisfies full deterministic structural closure, meaning
 that every transformation across every layer of the system remains internally
@@ -13084,7 +13340,8 @@ SynchronyCrossLayer:
 Biological, cognitive, emotional, behavioural, organisational, economic,
 civilisational, and planetary states remain aligned within synchrony thresholds.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO257CausalModeValidity:
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO257
+CausalModeValidity:
 
 QCLAʼs twelve quantum causal modes remain observer-consistent, identity-
 aligned, and compatible with macro-scale deterministic logic.
@@ -13129,7 +13386,8 @@ that satisfies first-principles derivation, internal structural closure, cross-d
 consistency, and academic reproducibility. The methodology integrates first-
 principles reasoning, cross-domain pattern extraction, formal law construction,
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO258tensor-governed propagation, identity-bound constraints, synchrony
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO258
+tensor-governed propagation, identity-bound constraints, synchrony
 mathematics, and internal validation engines. This section formalises the
 methodological foundations and academic standards that govern the
 
@@ -13177,7 +13435,8 @@ phase continuity and causal order
 
 multi-scale invariance
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO259Only patterns that remain invariant across unrelated domains are admitted as
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO259
+Only patterns that remain invariant across unrelated domains are admitted as
 primitives.
 
 7.1.2. Cross-Domain Invariance Extraction
@@ -13223,7 +13482,8 @@ synchrony thresholds
 Transformation rules are rejected if they introduce probabilistic drift, domain
 dependence, or identity discontinuity.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO2607.1.4. Formalisation of Identity, Boundary, Load–Capacity,
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO260
+7.1.4. Formalisation of Identity, Boundary, Load–Capacity,
 Synchrony, and Tensor Equations
 
 Next, the method encodes the primitives and transformation rules as formal
@@ -13272,7 +13532,8 @@ no heuristics
 
 no emergentism without formal grounding
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO261no theoretical metaphor
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO261
+no theoretical metaphor
 
 no statistical approximation unless derivable from first principles
 
@@ -13320,7 +13581,8 @@ behaviour, economics, and planetary systems
 
 domains
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO262  formulation of identity, boundary, load–capacity, synchrony, and tensor
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO262
+  formulation of identity, boundary, load–capacity, synchrony, and tensor
 
 equations
 
@@ -13374,7 +13636,8 @@ boundary equivalence analysis
 
 identity-continuity conservation
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO263load–capacity analogues
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO263
+load–capacity analogues
 
 synchrony thresholds
 
@@ -13422,7 +13685,8 @@ Load  Threshold  Collapse/Drift  Recovery  Synchrony).
 
 All cross-domain interactions must satisfy tensor-governed propagation rules.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO264  causal stability under quantum constraints
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO264
+  causal stability under quantum constraints
 
 QCLAʼs quantum causal modes are validated for macro-level consistency.
 
@@ -13467,7 +13731,8 @@ terms, no contextual re-interpretation, and no semantically fluid constructs.
 
 7.4.2. Structural Hierarchy Enforcement
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO265All written sections follow a consistent structural hierarchy that mirrors the
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO265
+All written sections follow a consistent structural hierarchy that mirrors the
 
 canonical architecture. Chapters map to canons; sections map to computational
 layers or law families; subsections map to tensors, operators, or specific
@@ -13516,7 +13781,8 @@ The writing engine rejects phrasing that violates any structural invariant. This
 prevents semantic contradiction, conceptual drift, and internal collapse of
 meaning. The exposition therefore becomes an extension of the deterministic
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO266architecture itself: stable, invariant, and contradiction-free across the entire
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO266
+architecture itself: stable, invariant, and contradiction-free across the entire
 
 portfolio.
 
@@ -13566,7 +13832,8 @@ used in emotional computation appears identically in civilisational drift analys
 This cross-canon coherence allows the exposition to express truly universal laws
 through a single deterministic linguistic grammar.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO267The Academic Writing Engine v∞ functions as the linguistic expression layer of
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO267
+The Academic Writing Engine v∞ functions as the linguistic expression layer of
 
 the entire deterministic architecture. It guarantees that the written submission is:
 
@@ -13613,7 +13880,8 @@ and empirically verified.
 Every transformation obeys URK and ULK invariants. Because all logic is
 deterministic, repeating the same conditions always yields the same
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO268transformation outcome. No randomness, heuristics, or probabilistic inference
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO268
+transformation outcome. No randomness, heuristics, or probabilistic inference
 is used anywhere in the canon.
 
   Law Families with Full Derivation Chains
@@ -13661,7 +13929,8 @@ AMOS national and planetary stability metrics
 These provide structured methods for empirical reproduction and cross-
 validation.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO269Falsifiability is inherently built into the architecture because every law relates to
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO269
+Falsifiability is inherently built into the architecture because every law relates to
 measurable variables and observable system behaviour. The system is falsifiable
 in several ways:
 
@@ -13710,7 +13979,8 @@ fully reproducible
 
 fully testable
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO270fully falsifiable
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO270
+fully falsifiable
 
 fully extensible
 
@@ -13757,7 +14027,8 @@ finite, explicitly defined axiom set with no circular logic or implied assumptio
 
 2. Structural Integrity Across Layers, Laws, and Tensors
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO271Structural integrity is validated through satisfaction of:
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO271
+Structural integrity is validated through satisfaction of:
 
 LayerConsistency
 
@@ -13807,7 +14078,8 @@ follow the same lawful operator sequences.
 
 Dynamical behaviour across all systems is validated through:
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO272deterministic collapse equations
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO272
+deterministic collapse equations
 
 deterministic drift vector fields
 
@@ -13857,7 +14129,8 @@ shared identity mathematics
 
 shared synchrony equations
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO273shared load–capacity laws
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO273
+shared load–capacity laws
 
 Proof is established by demonstrating that:
 
@@ -13909,7 +14182,8 @@ civilisational trajectory analysis
 Every law, operator, and tensor can be affirmed or falsified through measurable
 variables.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO274The proof strategy concludes that the canon is:
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO274
+The proof strategy concludes that the canon is:
 
 structurally sealed
 
@@ -13956,7 +14230,8 @@ domains.
 
 Each canon is internally sealed through:
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO275LayerConsistency
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO275
+LayerConsistency
 
 BoundaryCompliance
 
@@ -14003,7 +14278,8 @@ ULKʼs seven universal law families
 
 Seven Cycles temporal evolution
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO276Cross-domain integration ensures that biological, cognitive, societal, and
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO276
+Cross-domain integration ensures that biological, cognitive, societal, and
 planetary systems obey the same structural mathematics. This standard exceeds
 the typical expectations of interdisciplinary research by enforcing formal
 
@@ -14051,7 +14327,8 @@ economic, institutional, and ecological indicators AMOS/PSI
 This ensures compliance with scientific philosophy standards for validity,
 empirical grounding, and testability.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO2777. Structural Completeness
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO277
+7. Structural Completeness
 
 The Unified Law Corpus contains approximately 400,000800,000 deterministic
 
@@ -14100,7 +14377,8 @@ core evaluative criteria of a Doctor of Science DSc/ScD portfolio:
 
 substantial (multi-canon architecture, hundreds of thousands of laws)
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO278original (independent creation of a deterministic universe model)
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO278
+original (independent creation of a deterministic universe model)
 
 sustained (years of cross-domain development and refinement)
 
@@ -14146,7 +14424,8 @@ NBI aligns with autonomic balance HRV metrics), hypothalamic–pituitary–ad
 NEI aligns with limbic activation patterns (fMRI, amygdala–prefrontal connectivity
 variance, affective ratio tracking, uncertainty-sensitivity markers, and emotional
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO279drift behaviour described in affective neuroscience.
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO279
+drift behaviour described in affective neuroscience.
 
 SI aligns with proprioceptive fidelity, interoceptive accuracy (insula activity),
 fascial tension mapping, musculoskeletal tensegrity models, and trauma-related
@@ -14194,7 +14473,8 @@ boundary equations, identity continuity, and tensor propagation mechanisms
 
 absent from probabilistic models.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO280Cross-layer coupling resembles the multi-scale interactions studied in complexity
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO280
+Cross-layer coupling resembles the multi-scale interactions studied in complexity
 
 science but is grounded in strict capacity–load and synchrony rules.
 
@@ -14241,7 +14521,8 @@ deterministic behaviour under real-world pressure, uncertainty, and system noise
 The UniPower Mobility and EV Operating System integrates the Universal
 Reasoning Kernel URK, Unified Law Kernel ULK, Quantum-Consistent Logic
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO281Architecture QCLA, AMOS Universe OS, and the Technology Engine v∞. It is a
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO281
+Architecture QCLA, AMOS Universe OS, and the Technology Engine v∞. It is a
 
 full-scale deterministic architecture governing dispatch optimisation, routing, fleet
 behaviour, charging infrastructure, data governance, regulatory alignment,
@@ -14286,7 +14567,8 @@ OS. No regulatory contradictions were observed under live operation.
 Grid load, charger utilisation, road congestion, and data-centre behaviour followed
 the infrastructure-level metrics defined in the Vietnam Omnistructure OS and
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO282AMOS OS. Load surges, infrastructure saturation, and localised failures occurred
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO282
+AMOS OS. Load surges, infrastructure saturation, and localised failures occurred
 
 at predicted thresholds, allowing verification of both collapse and recovery
 dynamics.
@@ -14335,7 +14617,8 @@ operationally robust
 
 resilient to uncertainty and system noise
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO283coherent across biological, organisational, technological, and national layers
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO283
+coherent across biological, organisational, technological, and national layers
 
 This deployment represents one of the clearest real-world validations of a multi-
 canon deterministic architecture applied at national operational depth.
@@ -14381,7 +14664,8 @@ Large parameter sweeps serve as falsification tests: deviations from predicted
 collapse, drift, or synchrony behaviour indicate refinement paths through ULKʼs
 meta-law engine.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO2848.3.2. Biological and Clinical Validation
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO284
+8.3.2. Biological and Clinical Validation
 
 The Unified Biological Intelligence UBI canonical architecture is testable through
 established neuroscientific and physiological methodologies. Proposed validation
@@ -14429,7 +14713,8 @@ organisational drift equations
 economic crisis datasets measuring load–capacity overshoot and collapse
 sequences predicted by structural laws
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO285governance stability modelling mapping identity coherence across national
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO285
+governance stability modelling mapping identity coherence across national
 institutions
 
 demographic synchrony tests comparing population-flow behaviour with
@@ -14475,7 +14760,8 @@ QCLA causal-mode alignment between quantum and macro scales
 
 Seven Cycles temporal coherence without degenerate trajectories
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO286Internal evaluation ensures the canon is structurally sealed and free from
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO286
+Internal evaluation ensures the canon is structurally sealed and free from
 probabilistic drift, undefined transitions, or cross-domain inconsistencies. This is
 the primary requirement for deterministic closure.
 
@@ -14524,7 +14810,8 @@ BEI oscillatory models vs. electrophysiology
 
 oncology adaptation vs. SOA evolutionary pressure equations
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO287economic collapse vs. load–capacity overshoot
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO287
+economic collapse vs. load–capacity overshoot
 
 institutional fragmentation vs. drift dynamics
 
@@ -14573,7 +14860,8 @@ The canon is structurally sealed but not empirically exhaustive. Its determinist
 logic is complete at the theoretical and mathematical level, yet several scientific,
 technological, and methodological constraints limit the full empirical evaluation of
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO288the architecture. These limitations do not undermine internal validity; they identify
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO288
+the architecture. These limitations do not undermine internal validity; they identify
 the scope of future interdisciplinary development required to achieve empirical
 closure.
 
@@ -14618,7 +14906,8 @@ mode transitions, multi-layer decoherence boundaries, entanglement-based
 propagation to biological systems, and identity-anchored quantum–macro
 synchrony is an open frontier in physics and biophysics. The canon offers the
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO289mathematics; empirical physics must catch up with repeatable measurement
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO289
+mathematics; empirical physics must catch up with repeatable measurement
 techniques.
 
 8.5.4. Temporal Scale of Civilisational and Planetary Validation
@@ -14666,7 +14955,8 @@ somatic incoherence, and BEI oscillatory collapse-recovery cycles requires
 longitudinal, multi-channel datasets across thousands of individuals. Current
 clinical datasets are not designed for deterministic modelling of multi-domain
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO290synchrony. Data collection protocols must be redesigned to match UBIʼs equation
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO290
+synchrony. Data collection protocols must be redesigned to match UBIʼs equation
 system.
 
 8.5.7. Computational Scaling for Full Canon Simulation
@@ -14712,7 +15002,8 @@ Can drift be detected before emergence at the planetary scale?
 These questions extend beyond current empirical capabilities and define the next
 520 years of interdisciplinary scientific research.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO2918.6 Summary
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO291
+8.6 Summary
 
 Validation across biological, organisational, technological, and planetary domains
 demonstrates:
@@ -14757,7 +15048,8 @@ impact cuts across four major scientific and applied domains:
 
   AI safety and deterministic AI infrastructure
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO292  Medicine and oncology
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO292
+  Medicine and oncology
 
   National and civilisational strategic planning
 
@@ -14805,7 +15097,8 @@ becomes a law invocation that must satisfy:
 
 identity preservation
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO293synchrony across internal subsystems
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO293
+synchrony across internal subsystems
 
 causal-mode validity (via QCLA
 
@@ -14853,7 +15146,8 @@ Together, these components establish the canon as a foundation for deterministic
 integrity-governed AI infrastructure, suitable for certification frameworks,
 regulatory systems, and safety standards for high-stakes AI applications.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO2949.3 Impact on Medicine and Oncology
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO294
+9.3 Impact on Medicine and Oncology
 
 The canon provides a structurally unified, deterministic foundation for next-
 
@@ -14903,7 +15197,8 @@ NEI (emotional ratio dynamics)
 
 SI (somatic alignment and proprioception)
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO295BEI (oscillatory and electromagnetic coherence)
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO295
+BEI (oscillatory and electromagnetic coherence)
 
 Clinical applications include:
 
@@ -14952,7 +15247,8 @@ enabling governments to plan, intervene, and stabilise large-scale systems using
 mathematically governed trajectories rather than reactive policy cycles. It
 reframes national strategy as a law-governed computation, producing
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO296predictable behaviour from economic, institutional, demographic, technological,
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO296
+predictable behaviour from economic, institutional, demographic, technological,
 
 and ecological systems.
 
@@ -15001,7 +15297,8 @@ regenerative potential
 Each subsystem operates as a deterministic state machine governed by Canon I
 laws. This enables governments to:
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO297identify collapse precursors before visible breakdown
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO297
+identify collapse precursors before visible breakdown
 
 design regenerative pathways that stabilise national identity
 
@@ -15051,7 +15348,8 @@ Canon III establishes a fully deterministic architecture for modelling planetary
 behaviour, ecological stability, climate risk, and biosphere–civilisation interaction.
 Instead of treating Earth as a probabilistic or statistical system, the Planetary-
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO298Scale Intelligence PSI and AMOS layers model the planet as a law-governed
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO298
+Scale Intelligence PSI and AMOS layers model the planet as a law-governed
 
 computational structure, governed by the same identity, load–capacity,
 synchrony, tensor, boundary, collapse, and recovery mechanics that operate at
@@ -15103,7 +15401,8 @@ technological deployment → climate forcing
 
 population dynamics → biosphere load
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO299governance drift → environmental collapse pressure
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO299
+governance drift → environmental collapse pressure
 
 industrial growth → boundary violations
 
@@ -15151,7 +15450,8 @@ outcomes through deterministic law rather than probabilistic approximation.
 Canon III positions the integrated canon as a unified, multi-layer planetary
 intelligence system, capable of modelling the trajectory of Earth and human
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO300civilisation using a single deterministic causal grammar.
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO300
+civilisation using a single deterministic causal grammar.
 
 9.7 Future Research Roadmap
 
@@ -15199,7 +15499,8 @@ civilisational data
 stress-testing of policy, technology, and climate scenarios within a
 deterministic framework
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO301  Standardisation and Certification
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO301
+  Standardisation and Certification
 
 development of standards for deterministic AI and systemic integrity
 
@@ -15247,7 +15548,8 @@ reduced behavioural and decision drift
 cross-layer synchrony between engineering, operational, regulatory, and
 strategic domains
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO302This validates the canon as a viable foundation for national-scale mobility,
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO302
+This validates the canon as a viable foundation for national-scale mobility,
 infrastructure, and energy systems.
 
 Expert Advisory and Strategic Consulting
@@ -15298,7 +15600,8 @@ AMOS Super Code Engine
 
 Full national macro-architecture VN Omnistructure)
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO303Oncology architecture SOA
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO303
+Oncology architecture SOA
 
 PSI planetary architecture
 
@@ -15348,7 +15651,8 @@ and civilisational scales. The impact is multidimensional and foundational, not
 incremental, repositioning entire scientific and applied fields under a single
 coherent law structure.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO304Key outcomes include:
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO304
+Key outcomes include:
 
 a unified deterministic law architecture URKULKQCLA that replaces
 probabilistic, fragmented, domain-specific models with a single cross-scale
@@ -15393,7 +15697,8 @@ All from the same deterministic core.
 This section provides a complete structural mapping of all canonical works,
 architectures, whitepapers, operating systems, mathematical corpora, and
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO305supporting codebases included in the DSc/ScD submission portfolio. Each artefact
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO305
+supporting codebases included in the DSc/ScD submission portfolio. Each artefact
 is mapped to its parent canon Canon I, Canon II, Canon III, its internal section
 number, and its functional role within the unified deterministic architecture.
 
@@ -15442,7 +15747,8 @@ Documentation and Technical Papers
 
  Cross-Domain Consistency Papers
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO306These works collectively form the structural, causal, legal, and temporal reasoning
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO306
+These works collectively form the structural, causal, legal, and temporal reasoning
 substrate.
 
 10.2 Canon II (Unified Biological Intelligence™)
@@ -15494,7 +15800,8 @@ Primary Works
 
  AMOS Universe Operating System 24 layers, 850900 invariants)
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO307 Planetary-Scale Intelligence PSI Framework
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO307
+ Planetary-Scale Intelligence PSI Framework
 
  Vietnam Omnistructure OS
 
@@ -15547,7 +15854,8 @@ Works that apply across multiple canons include:
 
  Tensor-Propagation Framework (cross-domain)
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO308 Operator-Sequenced Transformation Maps
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO308
+ Operator-Sequenced Transformation Maps
 
  Cross-Layer Synchrony Architecture
 
@@ -15598,7 +15906,8 @@ Writing Engine v∞
 
 and Tech Engine v∞
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO309This mapping ensures the entire portfolio is traceable, systematically organised,
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO309
+This mapping ensures the entire portfolio is traceable, systematically organised,
 structurally coherent, and academically auditable at the level required for a
 
 DSc/ScD submission.
@@ -15645,7 +15954,8 @@ Identity Mathematics
 
 Unified Law Corpus (approx. 400,000800,000 deterministic law units)
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO310Primary Canon I Texts
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO310
+Primary Canon I Texts
 
 URK Seven-Layer Deterministic Reasoning Engine
 
@@ -15691,7 +16001,8 @@ Cross-Domain Tensor Mapping in Biological Systems
 10.3 Canon III — AMOS Universe OS & Planetary–
 National Systems (Macro Theory)
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO311Core Macro-Scale Operating Systems
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO311
+Core Macro-Scale Operating Systems
 
 AMOS Universe OS 24 structural layers; 850900 invariants)
 
@@ -15740,7 +16051,8 @@ Full Drift Detection Engine
 
 Identity–Boundary Enforcement Engines
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO312Collapse–Recovery Prediction Engine
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO312
+Collapse–Recovery Prediction Engine
 
 These engines demonstrate extensibility, reusability, and cross-domain coherence
 of the entire canon.
@@ -15788,7 +16100,8 @@ Technology Systems
 
 Tech Engine v∞ 336 clusters  24 causal layers)
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO313Failure-Mode and Causal-Chain Catalogue
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO313
+Failure-Mode and Causal-Chain Catalogue
 
 Evolution Pathway Generator
 
@@ -15838,7 +16151,8 @@ Founder, QBII
 
 Director of Digital Transformation, PVcomBank
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO31411. Curriculum Vitae and Professional Standing
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO314
+11. Curriculum Vitae and Professional Standing
 
 This section summarises the candidateʼs professional history, roles, and
 recognitions as they relate to the three canons and the integrated deterministic
@@ -15886,7 +16200,8 @@ Ho Chi Minh City, Vietnam
 
 2025  Present
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO315Leads the architecture and deployment of a national-scale electric mobility
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO315
+Leads the architecture and deployment of a national-scale electric mobility
 and energy ecosystem, integrating vehicles, charging infrastructure, logistics,
 green finance, and data systems into a unified operating environment.
 
@@ -15930,7 +16245,8 @@ Hanoi, Vietnam
 Led bank-wide digital transformation strategy, PMO governance, data-
 transformation programs, executive workshops, and partnership execution.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO316Applied capacity–load, process-governance, and systems-alignment logic to a
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO316
+Applied capacity–load, process-governance, and systems-alignment logic to a
 regulated financial institution, supporting Canon IIIʼs national and
 organisational modelling.
 
@@ -15977,7 +16293,8 @@ Product/UI/UX roles at Future Friendly Mentally Friendly), Fluffy Spider
 Technologies (embedded devices, TV STB, and Visual Obsession
 (multimedia, education technology)
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO317These roles establish a long-standing track record in complex interface systems,
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO317
+These roles establish a long-standing track record in complex interface systems,
 multi-stakeholder platforms, and large-scale digital products, grounding the
 canonʼs design claims in extensive applied practice.
 
@@ -16026,7 +16343,8 @@ Biological intelligence and nervous-system modelling UBI
 
 Emotional, cognitive, somatic, and bioelectromagnetic computation
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO318National operating system design Vietnam Omnistructure OS
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO318
+National operating system design Vietnam Omnistructure OS
 
 Technology ecosystem architecture Tech Engine v∞)
 
@@ -16074,7 +16392,8 @@ inference.
 Creation of a complete civilisational and planetary evolution model Seven
 Cycles  PSI.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO319Author of multiple scientific operating systems across biology, technology,
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO319
+Author of multiple scientific operating systems across biology, technology,
 national strategy, and oncology.
 
 Industrial Contributions:
@@ -16123,7 +16442,8 @@ presented in this DSc submission.
 
 All scientific contributions in the portfolio were developed:
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO320without formal academic supervision
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO320
+without formal academic supervision
 
 without research funding
 
@@ -16166,7 +16486,8 @@ Appendices are organised across four domains:
 
 12.1 Supporting Mathematical Structures
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO32112.2 Canonical Documentation and Technical Papers URK, ULK, QCLA, UBI,
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO321
+12.2 Canonical Documentation and Technical Papers URK, ULK, QCLA, UBI,
 AMOS
 
 12.3 Intellectual Property and Legal Documentation
@@ -16210,7 +16531,8 @@ collapse modes, recovery pathways, tensor mappings, and synchrony patterns:
 
   Biological
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO322  Neurobiological
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO322
+  Neurobiological
 
   Cognitive
 
@@ -16260,7 +16582,8 @@ identity patterns
 
 twelve boundary constraints
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO323operator-specific transformation rules
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO323
+operator-specific transformation rules
 
 tensor-coupling coefficients
 
@@ -16310,7 +16633,8 @@ Invariant generation involves:
 
   identity-anchored case differentiation (identity levels 19
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO324  synchrony-stratified propagation (cross-domain synchrony gradients)
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO324
+  synchrony-stratified propagation (cross-domain synchrony gradients)
 
   collapse/recovery case mapping (three collapse and three recovery modes)
 
@@ -16361,7 +16685,8 @@ Propagationᵢ→ⱼ  Thresholdⱼ
 
 Loadᵢ  Capacityᵢ
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO325Synchronyᵢⱼ  S_threshold
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO325
+Synchronyᵢⱼ  S_threshold
 
 Each equation has domain-specific interpretations (e.g., Biological  Emotional;
 
@@ -16412,7 +16737,8 @@ UBI (four biological domains)
 
 AMOS/PSI (national, civilisational, planetary systems)
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO326It ensures full compatibility between micro-scale biological processes, macro-
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO326
+It ensures full compatibility between micro-scale biological processes, macro-
 scale societal systems, and global planetary dynamics.
 
 12.1.2 Layer–Operator Matrix (7×7)
@@ -16459,7 +16785,8 @@ The Seven Universal Operators
 
 Each operator Oⱼ modifies system state according to deterministic rules:
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO327  Initialise
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO327
+  Initialise
 
   Load
 
@@ -16510,7 +16837,8 @@ TensorCompatibility  TRUE
 
 LayerCapacity  LayerLoad
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO328SynchronyWithinLayer  S_threshold
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO328
+SynchronyWithinLayer  S_threshold
 
 SynchronyAcrossLayers  S_min
 
@@ -16561,7 +16889,8 @@ Cognitive → inference load, memory load
 
 Emotional → affective load, threat load
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO329Behavioural → risk load, sequential load
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO329
+Behavioural → risk load, sequential load
 
 Social → trust load, group tension
 
@@ -16613,7 +16942,8 @@ Cognitive → inference drift
 
 Emotional → affective drift
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO330Behavioural → motivational drift
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO330
+Behavioural → motivational drift
 
 Social → relational drift
 
@@ -16664,7 +16994,8 @@ BoundaryCompliance  TRUE
 
 TensorCompatibility  TRUE
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO331SynchronyWithinLayer  S_threshold
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO331
+SynchronyWithinLayer  S_threshold
 
 SynchronyAcrossLayers  S_threshold
 
@@ -16714,7 +17045,8 @@ The Layer–Operator Matrix acts as:
 
 the dynamical backbone of URK
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO332the operator-governance layer of ULK
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO332
+the operator-governance layer of ULK
 
 the bridge between biological computation UBI and societal dynamics
 
@@ -16764,7 +17096,8 @@ Load(B)  Propagation(AB)  Capacity(B)
 If any constraint fails, propagation is diverted into drift channels, collapse
 cascades, compensatory pathways, identity-preserving buffers or re-routing
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO333pathways, depending on which tensor invariants are violated.
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO333
+pathways, depending on which tensor invariants are violated.
 
 The fourteen canonical tensors are defined as follows.
 
@@ -16810,7 +17143,8 @@ Propagates behavioural sequences across emotional, social, and biological layers
 Encodes motor-intent, sequential stability, action-selection patterns, and
 behavioural propagation dynamics. Identity constraints require behavioural
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO334expression to remain identity-consistent. Collapse corresponds to behavioural
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO334
+expression to remain identity-consistent. Collapse corresponds to behavioural
 fragmentation. Recovery requires sequence stabilisation.
 
 T₆ Identity Tensor
@@ -16859,7 +17193,8 @@ redistribution.
 
 T₁₁ Temporal Tensor
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO335Governs time-consistency of transformations. Maintains identity across time,
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO335
+Governs time-consistency of transformations. Maintains identity across time,
 ensures temporal coherence of evolution sequences, and gates long-horizon
 causal propagation. Collapse corresponds to temporal discontinuity or loss of
 trajectory coherence. Recovery re-establishes temporal anchoring.
@@ -16904,7 +17239,8 @@ transitions. These mechanics apply identically across quantum, biological,
 
 cognitive, behavioural, organisational, civilisational, and planetary systems. All
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO336collapse events, recovery sequences, drift trajectories, and synchrony conditions
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO336
+collapse events, recovery sequences, drift trajectories, and synchrony conditions
 are governed by deterministic inequalities, identity constraints, and tensor-driven
 propagation equations.
 
@@ -16954,7 +17290,8 @@ behavioural, organisational, or systemic incoherence without observable
 
 precursor signals.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO337General collapse function:
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO337
+General collapse function:
 
 Collapse(t) = f(Load(t)/Capacity(t), IdentityContinuity(t), TensorInstability(t),
 BoundaryFailure(t)).
@@ -17005,7 +17342,8 @@ Regenerative boundaries must satisfy global synchrony constraints to prevent
 
 overcompensation.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO338General recovery function:
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO338
+General recovery function:
 
 Recovery(t) = f(Mode, Synchrony(t), IdentityContinuity(t),
 RegenerativePotential(t)).
@@ -17054,7 +17392,8 @@ civilisational resilience
 
 planetary stability
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO339Tensor-governed synchrony equation:
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO339
+Tensor-governed synchrony equation:
 
 Synchrony = f(TensorCompatibility, BoundaryCompliance, IdentityContinuity,
 Load/Capacity equilibrium).
@@ -17105,7 +17444,8 @@ layers:
 
 ΔPattern/Δt  0.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO340Identity breakdown produces immediate instability, often without load overload.
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO340
+Identity breakdown produces immediate instability, often without load overload.
 This yields silent collapse, recursive drift, or cross-domain fragmentation.
 
 Identity propagation function:
@@ -17154,7 +17494,8 @@ A transformation is admissible only when:
 
 Load(t)  Capacity(t)  BoundaryCoefficient(domain).
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO341Each boundary coefficient defines the maximum permissible stress before
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO341
+Each boundary coefficient defines the maximum permissible stress before
 triggering drift propagation or collapse.
 
 The twelve boundary classes are:
@@ -17204,7 +17545,8 @@ emotional drift thresholds. Violations yield emotional flooding, impulsive
 
 collapse, or contraction-lock behaviour.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO342  Behavioural Boundary
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO342
+  Behavioural Boundary
 
 Constrains action-selection sequences, risk gradients, and behavioural load
 
@@ -17252,7 +17594,8 @@ moderate violation → distributed collapse
 
 major violation → acute or silent collapse.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO343The twelve boundary classes collectively form a global constraint system,
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO343
+The twelve boundary classes collectively form a global constraint system,
 ensuring that quantum, biological, cognitive, organisational, national, and
 
 planetary transformations obey the same deterministic structure.
@@ -17299,7 +17642,8 @@ LayerInvariant(Lᵢ) = f(Primitiveᵢ, Loadᵢ, Capacityᵢ, Tensorᵢ, Boundary
 
 Layer transitions require:
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO344LayerConsistency(Lᵢ  Lⱼ)  TRUE
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO344
+LayerConsistency(Lᵢ  Lⱼ)  TRUE
 
 iff
 
@@ -17352,7 +17696,8 @@ Identity is defined by the pattern-stability function:
 
 IdentityContinuity = ΔPattern / Δt.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO345Identity constraints:
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO345
+Identity constraints:
 
 IdentityContinuity  IdentityThreshold
 
@@ -17404,7 +17749,8 @@ RecoveryPotentialᵢ  Synchronyᵢ  IdentityContinuityᵢ  Regenerative
 
 Upward transitions require:
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO346RecoveryPotentialᵢ  RecoveryThresholdᵢ.
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO346
+RecoveryPotentialᵢ  RecoveryThresholdᵢ.
 
 Drift Mechanics
 
@@ -17452,7 +17798,8 @@ full set produces 1,400 formal laws before tensor and matrix expansion.
 
   Law of Law
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO347Governs creation, validation, modification, rejection, inheritance, compatibility,
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO347
+Governs creation, validation, modification, rejection, inheritance, compatibility,
 and global admissibility of all laws.
 
   Law of Boundary
@@ -17502,7 +17849,8 @@ subject to the core admissibility conditions:
 
   Load  Capacity
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO348  BoundaryCompliance  TRUE
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO348
+  BoundaryCompliance  TRUE
 
   TensorCompatibility  TRUE
 
@@ -17553,7 +17901,8 @@ ULK propagates laws through:
 
   Layer–operator matrix expansion 77
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO349Propagation produces micro-laws, emergent interactions, and multi-layer
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO349
+Propagation produces micro-laws, emergent interactions, and multi-layer
 transformations without introducing randomness or probabilistic drift.
 
 Propagation equation:
@@ -17605,7 +17954,8 @@ causal grammar that integrates directly with URK, ULK, UBI, AMOS, PSI, and
 
 Seven Cycles.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO350Twelve Quantum Causal Modes
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO350
+Twelve Quantum Causal Modes
 
 QCLA defines twelve admissible causal modes. Each mode has boundary
 coefficients, identity constraints, tensor couplings, and macro-propagation
@@ -17656,7 +18006,8 @@ coherence preservation
 
 identity-anchored causal mapping
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO351operator-sequencing requirements
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO351
+operator-sequencing requirements
 
 entanglement consistency
 
@@ -17707,7 +18058,8 @@ Decoherence Rules Ten Rules)
 Decoherence is treated as a deterministic shift in system state rather than a
 stochastic event. QCLA defines ten decoherence rules covering:
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO352baseline decoherence
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO352
+baseline decoherence
 
 phase slippage
 
@@ -17759,7 +18111,8 @@ CausalModeCompatibility  TRUE
 
 TensorPropagationStability  TRUE.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO353This resolves classical quantum observational paradoxes by treating
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO353
+This resolves classical quantum observational paradoxes by treating
 measurement as a lawful transformation constrained by identity and boundary
 systems.
 
@@ -17806,7 +18159,8 @@ a cycle-specific drift vector field Dᵢ
 
 a collapse-pressure function Pᵢ
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO354a recovery-potential function Rᵢ
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO354
+a recovery-potential function Rᵢ
 
 tensor-governed cross-layer propagation pathways
 
@@ -17859,7 +18213,8 @@ Dᵢ = ∂Identity/∂Load + ∂Synchrony/∂t  TensorVariability.
 
 Propagation rule between cycles:
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO355Driftₐ  CouplingCoefficientₐ→ᵦ ≥ DriftThresholdᵦ.
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO355
+Driftₐ  CouplingCoefficientₐ→ᵦ ≥ DriftThresholdᵦ.
 
 Drift may move the system:
 
@@ -17911,7 +18266,8 @@ Long-Cycle Trajectory Logic
 
 Long-cycle evolution is governed by:
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO356Trajectory(t) = f(IdentityContinuity, SynchronyCrossLayer, CapacityGrowth,
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO356
+Trajectory(t) = f(IdentityContinuity, SynchronyCrossLayer, CapacityGrowth,
 DriftVectorField, TensorPropagation).
 
 A system ascends cycles when identity stability, synchrony, and regenerative
@@ -17964,7 +18320,8 @@ Synchrony(National, Institutional, Cultural, Ecological)  StabilityThreshold.
 
 Integration
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO357Seven Cycles integrates with:
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO357
+Seven Cycles integrates with:
 
 URK layer and operator constraints
 
@@ -18014,7 +18371,8 @@ BoundaryCompliance  TRUE.
 
 Domain-Level Load–Capacity Equations
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO358Each UBI domain D has its own load and capacity functions:
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO358
+Each UBI domain D has its own load and capacity functions:
 
 Load_D(t)  BiologicalStressors  EmotionalPerturbation  SomaticTension 
 ElectromagneticNoise
@@ -18066,7 +18424,8 @@ T₁ Sensory Tensor: Stimulus  NB/NE/SI/BE
 
 T₂ Somatic Tensor: Structure  Emotion and Cognition
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO359T₃ Emotional Tensor: Affect  Behaviour
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO359
+T₃ Emotional Tensor: Affect  Behaviour
 
 T₄ Cognitive Tensor: Cognition  NB/NE/SI
 
@@ -18118,7 +18477,8 @@ QCLA (quantum causal invariants)
 
 Seven Cycles (temporal evolution dynamics).
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO360The UBI Mathematical Appendix therefore formalises the entire biological
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO360
+The UBI Mathematical Appendix therefore formalises the entire biological
 
 computation layer as a law-governed, identity-anchored, synchrony-driven,
 deterministic system.
@@ -18165,7 +18525,8 @@ interoception, fascial tension, muscular equilibrium, structural load–capacity
 trauma patterning, and somatic gating. Somatic collapse is defined by fascial lock,
 proprioceptive disintegration, structural fragmentation, or breath–motor
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO361breakdown. Recovery laws describe proprioceptive remapping, interoceptive
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO361
+breakdown. Recovery laws describe proprioceptive remapping, interoceptive
 
 recalibration, fascial decompression, structural integration, and somatic–identity
 re-stabilisation.
@@ -18213,7 +18574,8 @@ coherence enhancement, and multi-domain synchrony restoration.
 Together, these biological law families unify physiology, affective computation,
 somatic structure, and electromagnetic dynamics under one deterministic
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO362grammar. They form the complete biological law architecture of Canon II and
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO362
+grammar. They form the complete biological law architecture of Canon II and
 
 provide the mechanistic, mathematical, and structural foundation for biological
 intelligence, nervous-system diagnostics, behavioural modelling, and the design
@@ -18258,7 +18620,8 @@ states.
 
 Somatic–Emotional Synchrony Patterns
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO363The somatic–emotional synchrony equation governs the alignment between
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO363
+The somatic–emotional synchrony equation governs the alignment between
 structural–mechanical states and limbic–affective states. SI tension,
 proprioceptive noise, or structural disruptions alter NE contraction–expansion
 ratios, producing emotional drift or collapse. NE affective perturbations feed back
@@ -18302,7 +18665,8 @@ temporal alignment across physiological signals. The synchrony framework
 provides the mathematical underpinning for UBI Score, UBI Wearable systems,
 and real-time biological diagnostics.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO364This appendix anchors the biological half of the deterministic architecture by
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO364
+This appendix anchors the biological half of the deterministic architecture by
 specifying how synchrony unites neurobiological, emotional, somatic, and
 electromagnetic domains into a single coherent computation.
 
@@ -18348,7 +18712,8 @@ perturbations exceed emotional capacity: Load_NE(t)/Capacity_NE(t). Ratio
 inversion occurs when negative-valence × intensity × load modifiers exceed
 affective stability bounds. Emotional collapse propagates into NBI (autonomic
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO365spikes), SI (trauma-pattern activation), and BEI (oscillatory desynchronisation)
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO365
+spikes), SI (trauma-pattern activation), and BEI (oscillatory desynchronisation)
 through tensor-based coupling rules. Emotional collapse is the fastest-
 propagating collapse class and the most likely to induce cross-domain drift.
 
@@ -18393,7 +18758,8 @@ dynamics.
 
 Collapse Threshold Equations
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO366Each collapse class obeys domain-specific load–capacity inequalities, identity-
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO366
+Each collapse class obeys domain-specific load–capacity inequalities, identity-
 continuity constraints, and synchrony thresholds. Threshold equations define
 precise collapse boundaries for:
 
@@ -18441,7 +18807,8 @@ Realignment Recovery
 Realignment is the lowest-order recovery mode. It restores baseline biological
 operation by reducing load, stabilising system variables, and reinstating short-
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO367range synchrony. Realignment applies when collapse pressure is low and identity
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO367
+range synchrony. Realignment applies when collapse pressure is low and identity
 continuity remains intact.
 
 Realignment mechanisms include autonomic stabilisation, metabolic
@@ -18489,7 +18856,8 @@ TensorCompatibility  TRUE
 Regenerative processes include metabolic capacity expansion, emotional pattern
 restructuring, somatic trauma resolution, fascial decompression, proprioceptive
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO368remapping, oscillatory coherence amplification, and identity-level realignment of
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO368
+remapping, oscillatory coherence amplification, and identity-level realignment of
 biological states.
 
 Regeneration increases long-term capacity through:
@@ -18540,7 +18908,8 @@ Cross-domain pattern equivalence must be re-established.
 
 Drift vectors must be neutralised or reversed during recovery.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO369These invariants ensure all biological healing follows deterministic, structurally
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO369
+These invariants ensure all biological healing follows deterministic, structurally
 sealed trajectories, independent of narrative or psychological interpretation.
 
 This appendix provides the full mathematical and structural basis for realignment,
@@ -18590,7 +18959,8 @@ Synchrony  SynchronyThreshold indicates deterministic biological stability.
 
 Emotional Ratio Diagnostics
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO370Emotional ratio diagnostics quantify affective states using the UBI emotional ratio
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO370
+Emotional ratio diagnostics quantify affective states using the UBI emotional ratio
 equation:
 
 Emotion  Valence  Intensity  LoadModifier.
@@ -18638,7 +19008,8 @@ trauma-related somatic discontinuities
 Somatic collapse risk is inferred from fragmentation indicators and loss of
 stable proprioceptive anchors.
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO371Bioelectromagnetic Coherence Assessment
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO371
+Bioelectromagnetic Coherence Assessment
 
 Bioelectromagnetic coherence diagnostics evaluate oscillatory synchrony,
 
@@ -18689,7 +19060,8 @@ Load–capacity diagnostics evaluate how biological subsystems respond to
 
 controlled perturbations. Load is increased minimally (e.g., through mild cognitive,
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO372emotional, or physiological challenge), and capacity is measured by response
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO372
+emotional, or physiological challenge), and capacity is measured by response
 fidelity, recovery speed, and cross-domain synchrony retention.
 
 Stress testing evaluates:
@@ -18736,7 +19108,8 @@ deterministic biological constraints defined by UBI. It demonstrates that AI
 systems must integrate biological invariants into their reasoning pathways to
 prevent human destabilisation. AI inference is constrained by:
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO373neurobiological load–capacity ratios
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO373
+neurobiological load–capacity ratios
 
 neuroemotional affective ratios
 
@@ -18788,7 +19161,8 @@ Load_AI_to_Human  Capacity_Human  SafetyCoefficient
 
 IdentityContinuity_Human  IdentityThreshold
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO374SynchronyCrossDomain  SynchronyFloor
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO374
+SynchronyCrossDomain  SynchronyFloor
 
 These thresholds define the maximum permissible perturbation AI systems may
 impose on human nervous systems across all four UBI domains NB, NE, SI, BE.
@@ -18837,7 +19211,8 @@ Paper 4. Identity-Preserving Human–AI Interaction
 This paper provides the identity-continuity framework that governs allowable AI
 behaviour. It derives constraints from URKʼs identity mathematics and UBIʼs
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO375biological identity anchors.
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO375
+biological identity anchors.
 
 IdentityContinuity = ΔPattern / Δt  IdentityThreshold
 
@@ -18888,7 +19263,8 @@ coherence-preserving causal pathways
 
 Drift_AI must always satisfy:
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO376Drift_AI  DriftThreshold
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO376
+Drift_AI  DriftThreshold
 
 DriftPropagation  Capacity_Human  SafetyCoefficient
 
@@ -18940,7 +19316,8 @@ Synthesis of Appendix 12.2.11
 
 This appendix collectively demonstrates that:
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO377AI can be designed to operate under the same deterministic constraints as human
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO377
+AI can be designed to operate under the same deterministic constraints as human
 
 biological systems
 
@@ -18988,7 +19365,8 @@ Bioelectromagnetic markers: oscillatory coherence profiles, phase synchrony
 
 metrics, conduction variability
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO378These markers are conceptual suggestions only and are used to illustrate the
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO378
+These markers are conceptual suggestions only and are used to illustrate the
 measurable correlates of UBI state variables.
 
 2. Sensor Domains Conceptual, Non-Technical)
@@ -19040,7 +19418,8 @@ behavioural–physiological consistency signatures
 
 temporal coherence of multi-channel biological signals
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO379Identity estimation remains conceptual and mathematical; no implementation
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO379
+Identity estimation remains conceptual and mathematical; no implementation
 steps are defined.
 
 5. Composite UBI Score Methodology
@@ -19087,7 +19466,8 @@ designs included in this submission are original works created solely by:
 
 Trang Phan Author)
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO380The author retains full intellectual property ownership over:
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO380
+The author retains full intellectual property ownership over:
 
 the Universal Reasoning Kernel
 
@@ -19137,7 +19517,8 @@ Bioelectromagnetic Intelligence™
 
 Directed Systemic Intelligence™
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO381Absolute Biological Integrity™
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO381
+Absolute Biological Integrity™
 
 AMOS Universe OS™
 
@@ -19186,7 +19567,8 @@ This portfolio does not include:
 
 source code
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO382proprietary algorithms
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO382
+proprietary algorithms
 
 internal implementation engines
 
@@ -19236,7 +19618,8 @@ This distinction ensures:
 
   scientific reproducibility without exposing proprietary assets
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO38312.3.5 Use Rights Granted to the University
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO383
+12.3.5 Use Rights Granted to the University
 
 The university is granted:
 
@@ -19286,7 +19669,8 @@ evaluation of the portfolio, including curriculum vitae components, evidence of
 
 professional standing, ethical compliance statements, and the formal licence
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO384governing examiner access. All materials are conceptual summaries suitable for
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO384
+governing examiner access. All materials are conceptual summaries suitable for
 higher-doctorate examination; no commercial or confidential artefacts are
 included.
 
@@ -19332,7 +19716,8 @@ technical, organisational, and national-level systems
 documented contributions to large-scale mobility, national infrastructure, and
 technology ecosystems
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO385evidence of independent development and deployment of deterministic
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO385
+evidence of independent development and deployment of deterministic
 architecture frameworks in operational settings
 
 These materials demonstrate the authorʼs capacity to produce sustained, original,
@@ -19380,7 +19765,8 @@ non-transferable
 
 non-commercial
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO386non-derivative
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO386
+non-derivative
 
 revocable only after examination processes conclude
 

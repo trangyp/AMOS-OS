@@ -25,11 +25,6 @@ tags:
 - revocation
 - integration
 - canon
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 00-mode-index-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -3,8 +3,6 @@ title: reality
 tags:
 - stub
 - reality
-- kernel-moc
-- 00-home
 ---
 
 # reality

@@ -8,8 +8,6 @@ metadata:
   copilot-enabled-agents: claude, codex, opencode
   copilot-builtin-version: '8'
 tags:
-- 00-root-moc
-- 00-home
 ---
 
 # Publish Markdown to Symposium

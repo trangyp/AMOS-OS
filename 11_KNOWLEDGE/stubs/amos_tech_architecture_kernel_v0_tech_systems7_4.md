@@ -7,8 +7,6 @@ tags:
 - architecture
 - kernel
 - systems
-- kernel-moc
-- 00-home
 - amos-tech-architecture-kernel-v0-tech-systems7-4
 ---
 

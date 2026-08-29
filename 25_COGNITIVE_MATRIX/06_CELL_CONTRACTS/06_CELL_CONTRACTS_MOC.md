@@ -11,8 +11,7 @@ tags:
 - cell-evidence
 - cell-state
 - cognitive-matrix-cell-contracts-contract
-- 00-index-moc
-- 25-cognitive-matrix-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

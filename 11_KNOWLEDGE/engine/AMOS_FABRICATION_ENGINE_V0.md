@@ -8,11 +8,8 @@ tags:
 - rscf/state/source-claim
 - topic/amos-fabrication-engine-v0
 - engine
-- 00-home
-- knowledge-moc
 - system-scan-agent
 - automation-profiles
-- engine-moc
 - amos-simulation-kernel-v0-math-foundations
 - trang-framework-recursive-ontology-dynamics
 type: document

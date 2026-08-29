@@ -1,11 +1,9 @@
 ---
 title: quantum moc
 tags:
+moc: true
 - stub
 - quantum
-- quantum-moc
-- kernel-moc
-- 00-home
 ---
 
 # quantum moc

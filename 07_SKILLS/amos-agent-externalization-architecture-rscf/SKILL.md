@@ -21,12 +21,7 @@ tags:
 - epistemic/source_claim
 - amos-os
 - architecture
-- 07-skills-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- amos-agent-externalization-architecture-rscf-moc
-- references-moc
 - trang-framework-recursive-ontology-dynamics
 - skill
 rscf:

@@ -7,7 +7,6 @@ tags:
 - amos-c08-strategy-game-master
 - type/skill
 - skill
-- amos-c08-strategy-game-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

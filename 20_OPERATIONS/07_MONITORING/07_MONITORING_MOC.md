@@ -6,8 +6,8 @@ tags:
 - 07-monitoring
 - canon/operations
 - amos-home
-- 07-monitoring-moc
 - trang-framework-recursive-ontology-dynamics
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

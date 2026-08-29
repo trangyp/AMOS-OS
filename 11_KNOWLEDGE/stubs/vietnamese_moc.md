@@ -1,11 +1,9 @@
 ---
 title: vietnamese moc
 tags:
+moc: true
 - stub
 - vietnamese
-- vietnamese-moc
-- kernel-moc
-- 00-home
 ---
 
 # vietnamese moc

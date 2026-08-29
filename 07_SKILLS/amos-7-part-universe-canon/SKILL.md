@@ -14,12 +14,7 @@ tags:
 - amos-os
 - references
 - readme
-- amos-7-part-universe-canon-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- 07-skills-moc
-- references-moc
 - trang-framework-recursive-ontology-dynamics
 - skill
 rscf:

@@ -5,8 +5,6 @@ tags:
 - bizfin
 - engine
 - bizfin-engine-v0
-- kernel-moc
-- 00-home
 ---
 
 # bizfin engine v0

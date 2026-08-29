@@ -7,7 +7,6 @@ tags:
 - amos-agent-systems-master
 - type/skill
 - skill
-- amos-agent-systems-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

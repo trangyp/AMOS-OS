@@ -10,8 +10,6 @@ tags:
 - type/workflow
 - domain/knowledge
 - amos-os
-- law-stack-enforcement-pipeline-moc
-- 00-home
 ---
 
 # Workflow: AMOS LLM Wiki

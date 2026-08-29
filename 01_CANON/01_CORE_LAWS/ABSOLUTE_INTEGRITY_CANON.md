@@ -27,9 +27,6 @@ tags:
 - rscf
 - canon/core_laws
 - readme
-- 01-core-laws-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 version: 1.0.0
 updated: '2026-08-27'

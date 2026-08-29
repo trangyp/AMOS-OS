@@ -5,11 +5,10 @@ source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L22_CONSOLIDATION
 tags:
 - l22-consolidation
 - domain/cognitive-matrix
-- 00-index-moc
-- 01-primitives-moc
 - cognitive-matrix-l22-consolidation-contract
 - l22-consolidation-primitives-cognitive-matrix-hml
 - l22-consolidation-primitives-cognitive-matrix-rscf
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

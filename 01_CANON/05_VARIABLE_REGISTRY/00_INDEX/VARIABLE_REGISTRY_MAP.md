@@ -6,9 +6,6 @@ tags:
 - amos-os
 - 01_canon
 - canon/universe
-- index-variable-registry-canon-readme
-- 00-root-map
-- amos-rscf-nodes
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - variable-registry-canon-variable-registry-contract
@@ -17,10 +14,6 @@ tags:
 - control-plane-readme
 - observability-readme
 - operations-readme
-- 00-root-moc
-- amos-moc
-- 00-home
-- 00-index-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

@@ -8,8 +8,6 @@ tags:
 - cycles
 - tss-seven-cycles
 - heritage-x-tss-matrix
-- 00-index-moc
-- 00-home
 ---
 
 # TSS 7-Cycle Dynamics

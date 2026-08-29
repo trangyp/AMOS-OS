@@ -6,8 +6,6 @@ tags:
 - logic
 - ulk
 - ulmk
-- kernel-moc
-- 00-home
 ---
 
 # 0 UNIVERSE LOGIC KERNEL ULK ULMK

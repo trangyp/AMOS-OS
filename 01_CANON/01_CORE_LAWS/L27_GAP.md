@@ -22,22 +22,17 @@ tags:
 - recovery
 - note
 - canon/universe
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 - l25-shard-local
 - l28-critical-gap
 - l10-failure-recovery
 - l17-rscf
 - fail-closed-governance
-- 01-core-laws-moc
 - trang-framework-recursive-ontology-dynamics
 - l19-proof-capsule
 - l26-proof-coordination
 - l27-gap
 - architecture
-- 00-root-moc
-- amos-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

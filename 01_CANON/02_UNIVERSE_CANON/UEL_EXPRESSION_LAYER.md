@@ -6,8 +6,6 @@ tags:
 - uel
 - expression
 - universe_canon
-- 00-index-moc
-- 00-home
 ---
 
 # UEL Expression Layer

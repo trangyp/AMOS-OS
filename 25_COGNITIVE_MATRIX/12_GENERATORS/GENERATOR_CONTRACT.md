@@ -9,14 +9,8 @@ tags:
 - domain/cognitive-matrix
 - validation
 - integration
-- 00-root-moc
-- amos-moc
-- 00-home
 - canon
 - generators-map
-- cognitive-matrix-moc
-- amos-rscf-nodes
-- 12-generators-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

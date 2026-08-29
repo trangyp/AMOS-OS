@@ -8,8 +8,6 @@ tags:
 - kernel
 - science
 - health
-- kernel-moc
-- 00-home
 - amos-medical-clinical-kernel-v0-science-health7-4
 ---
 

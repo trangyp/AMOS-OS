@@ -54,23 +54,17 @@ tags:
 - topic/canon
 - topic/canonical-authority
 - readme
-- 00-root-moc
 - architecture
 - system-map
 - dependency-map
 - authoritative-state
-- 00-root-naming-standard
 - placement-rules
 - roadmap
 - canon-map
 - kernel-map
 - control-plane-map
 - amos-full-brain-os-architecture
-- index-research-readme
 - legacy-archive-readme
-- amos-moc
-- 00-home
-- amos-rscf-nodes
 - amos-all-frameworks-canon-hierarchy
 - canon-active-legacy-matrix
 - canon-alias-registry
@@ -96,7 +90,6 @@ tags:
 - canon-supersession-registry
 - canon-tradename-registry
 - canon-version-registry
-- 00-index-moc
 aliases:
 - AMOS Canon - AMOS OS Canon - AMOS Canon Root - AMOS Canon Plane - AMOS Canonical
   Authority

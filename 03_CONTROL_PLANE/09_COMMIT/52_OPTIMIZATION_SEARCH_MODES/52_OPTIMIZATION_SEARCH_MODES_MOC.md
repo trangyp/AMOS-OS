@@ -5,7 +5,7 @@ source: 03_CONTROL_PLANE/09_COMMIT/52_OPTIMIZATION_SEARCH_MODES
 tags:
 - 52-optimization-search-modes
 - canon/control-plane
-- 09-commit-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

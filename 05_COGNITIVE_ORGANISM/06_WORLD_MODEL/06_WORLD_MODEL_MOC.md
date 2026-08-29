@@ -8,7 +8,7 @@ tags:
 - trang-reality-architecture-binding
 - universal-field-world-model
 - universe-canon-world-model
-- 05-cognitive-organism-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

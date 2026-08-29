@@ -11,7 +11,6 @@ correct:
 ```text
 local resolution
 ```
-
 ---
 tags:
 - stub

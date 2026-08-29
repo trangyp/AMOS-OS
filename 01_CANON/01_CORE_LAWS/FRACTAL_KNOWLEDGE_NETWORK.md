@@ -26,13 +26,8 @@ tags:
 - canon
 - canon/universe
 - l22-replayability
-- 00-home
-- amos-rscf-nodes
-- 01-canon-moc
 - law-hierarchy
-- 01-core-laws-moc
 - trang-framework-recursive-ontology-dynamics
-- 00-root-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL

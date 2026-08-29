@@ -23,9 +23,6 @@ tags:
 - l8-execution
 - l23-mvcc-cas
 - l24-causal-epoch
-- 01-core-laws-moc
-- 00-index-moc
-- 00-home
 rscf:
   state: CANON_LAW
   claim_class: CANONICAL_INVARIANT

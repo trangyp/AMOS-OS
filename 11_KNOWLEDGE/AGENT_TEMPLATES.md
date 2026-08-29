@@ -33,12 +33,7 @@ tags:
 - topic/agent-architecture
 - topic/agent-factory
 - agents
-- 00-home
 - agent-schema
-- 00-root-moc
-- amos-moc
-- amos-rscf-nodes
-- knowledge-moc
 created: 2026-08-22
 updated: 2026-08-25
 origin-architect: Trang Phan

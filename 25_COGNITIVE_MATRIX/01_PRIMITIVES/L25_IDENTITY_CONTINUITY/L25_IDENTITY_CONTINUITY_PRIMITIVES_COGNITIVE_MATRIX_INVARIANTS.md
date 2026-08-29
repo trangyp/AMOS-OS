@@ -6,10 +6,6 @@ tags:
 - note
 - l25-identity-continuity
 - domain/cognitive-matrix
-- cognitive-matrix-moc
-- 00-root-moc
-- amos-moc
-- l25-identity-continuity-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

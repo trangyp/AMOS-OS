@@ -7,8 +7,8 @@ tags:
 - canon/state
 - state-readme
 - state-state-contract
-- 00-index-moc
 - amos-home
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

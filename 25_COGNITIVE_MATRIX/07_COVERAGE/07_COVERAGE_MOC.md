@@ -11,8 +11,7 @@ tags:
 - coverage-cognitive-matrix-readme
 - coverage-model
 - coverage-thresholds
-- 00-index-moc
-- 25-cognitive-matrix-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

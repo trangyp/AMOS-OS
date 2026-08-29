@@ -7,10 +7,6 @@ tags:
 - amos-arxiv-multistage-order-causal-discovery-rscf
 - type/skill
 - skill
-- references-moc
-- 07-skills-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 - trang-framework-recursive-ontology-dynamics
 rscf:

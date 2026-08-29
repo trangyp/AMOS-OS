@@ -24,11 +24,7 @@ tags:
 - canon_candidate
 - canon/domain
 - cross-framework-validation
-- 05-frameworks-moc
 - framework-empirical-status
-- 00-home
-- 21-domains-moc
-- 02-research-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

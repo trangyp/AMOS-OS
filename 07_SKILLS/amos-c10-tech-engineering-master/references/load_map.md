@@ -9,15 +9,10 @@ tags:
 - fractal-runtime
 - regime-freshness
 - source-registry
-- 00-home
-- knowledge-moc
 - amos-simulation-kernel-v0-math-foundations
 - system-scan-agent
 - automation-profiles
-- references-moc
-- amos-rscf-nodes
 - law-hierarchy
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

@@ -1,11 +1,9 @@
 ---
 title: strategy moc
 tags:
+moc: true
 - stub
 - strategy
-- strategy-moc
-- kernel-moc
-- 00-home
 ---
 
 # strategy moc

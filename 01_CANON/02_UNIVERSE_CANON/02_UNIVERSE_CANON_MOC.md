@@ -62,8 +62,7 @@ tags:
 - universe-topology-architecture
 - universe-total-canon
 - urk-canon
-- 00-index-moc
-- 01-canon-moc
+moc: true
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

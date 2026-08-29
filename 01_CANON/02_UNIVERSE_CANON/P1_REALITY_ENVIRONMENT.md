@@ -24,9 +24,7 @@ tags:
 - epistemic_boundary
 - rscf
 - canon/universe
-- 00-home
 - amos-7-part-universe-canon
-- 00-index-moc
 - trang-framework-recursive-ontology-dynamics
 version: 1.0.0
 updated: '2026-08-27'

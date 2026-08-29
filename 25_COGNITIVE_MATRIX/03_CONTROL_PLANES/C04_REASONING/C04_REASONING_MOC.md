@@ -6,9 +6,8 @@ tags:
 - c04-reasoning
 - domain/cognitive-matrix
 - cognitive-matrix-c04-reasoning-contract
-- 00-index-moc
-- 03-control-planes-moc
 - c04-reasoning-control-planes-cognitive-matrix-rscf
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

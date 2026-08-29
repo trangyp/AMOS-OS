@@ -7,8 +7,6 @@ tags:
 - banking
 - emotion
 - kernel
-- kernel-moc
-- 00-home
 ---
 
 # amos national banking os emotion kernel v1 national banking os4

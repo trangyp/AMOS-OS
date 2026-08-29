@@ -5,8 +5,6 @@ tags:
 - analogy
 - mapping
 - analogy-mapping
-- kernel-moc
-- 00-home
 ---
 
 # analogy mapping

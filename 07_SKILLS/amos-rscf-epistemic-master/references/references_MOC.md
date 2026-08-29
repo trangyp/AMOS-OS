@@ -15,13 +15,9 @@ tags:
 - rscf-proof-capsule
 - rscf-state-architecture
 - validate-rscf
-- amos-rscf-epistemic-master-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- references-moc
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
+moc: true
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

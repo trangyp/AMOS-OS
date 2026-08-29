@@ -8,7 +8,7 @@ tags:
 - biological-entropy-correction
 - neurosyncai-recovery-binding
 - ubi-recovery-engine
-- 05-cognitive-organism-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

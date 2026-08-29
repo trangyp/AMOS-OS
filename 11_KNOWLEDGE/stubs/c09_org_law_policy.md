@@ -6,8 +6,6 @@ tags:
 - law
 - policy
 - c09-org-law-policy
-- kernel-moc
-- 00-home
 ---
 
 # c09 org law policy

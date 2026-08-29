@@ -5,7 +5,7 @@ source: 03_CONTROL_PLANE/09_COMMIT/96_SCHEDULING_ORCHESTRATION_MODES
 tags:
 - 96-scheduling-orchestration-modes
 - canon/control-plane
-- 09-commit-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -6,8 +6,6 @@ tags:
 - build
 - spec
 - amos-build-from-spec
-- kernel-moc
-- 00-home
 ---
 
 # amos build from spec

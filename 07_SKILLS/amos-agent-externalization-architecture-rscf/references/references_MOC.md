@@ -5,14 +5,10 @@ source: 07_SKILLS/amos-agent-externalization-architecture-rscf/references
 tags:
 - references
 - type/skill
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- references-moc
-- 07-skills-moc
 - amos-agent-externalization-architecture-rscf-code
-- amos-agent-externalization-architecture-rscf-moc
 - trang-framework-recursive-ontology-dynamics
+moc: true
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

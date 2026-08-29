@@ -24,12 +24,7 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos-os
-- 07-skills-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- references-moc
-- amos-cross-domain-tensor-composition-governor-moc
 - trang-framework-recursive-ontology-dynamics
 - skill
 rscf:

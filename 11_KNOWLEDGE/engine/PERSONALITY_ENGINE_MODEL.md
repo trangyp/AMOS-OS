@@ -12,8 +12,6 @@ tags:
 - rscf/state/derived
 - topic/personality-engine-model
 - engine
-- 00-cosmo-brain-moc
-- engine-moc
 status: active
 provenance: MODEL
 confidence: DERIVED

@@ -5,13 +5,8 @@ source: 03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES
 tags:
 - 06-reasoning-modes
 - canon/control-plane
-- 01-explore-moc
-- 02-diagnose-moc
-- 03-design-moc
-- 04-audit-moc
-- 05-measure-moc
 - reasoning-modes-commit-control-plane-readme
-- 09-commit-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

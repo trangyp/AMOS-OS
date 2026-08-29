@@ -21,9 +21,6 @@ tags:
 - canon/universe
 - l8-execution
 - l22-replayability
-- 01-core-laws-moc
-- 00-index-moc
-- 00-home
 rscf:
   state: CANON_LAW
   claim_class: CANONICAL_INVARIANT

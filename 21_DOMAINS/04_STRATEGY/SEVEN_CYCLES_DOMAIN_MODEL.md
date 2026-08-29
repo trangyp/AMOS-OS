@@ -26,9 +26,6 @@ tags:
 - tss-seven-cycles
 - tss-the-trang-system
 - tpe-trang-prediction-engine
-- 00-home
-- 21-domains-moc
-- 04-strategy-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

@@ -9,8 +9,6 @@ tags:
 - risk
 - policy
 - amos-legal-kernel-v0-org-risk-policy7-4
-- kernel-moc
-- 00-home
 ---
 
 # amos legal kernel v0 org risk policy7 4

@@ -8,8 +8,6 @@ tags:
 - kernel
 - tech
 - amos-agile-delivery-kernel-v0-tech7-3
-- kernel-moc
-- 00-home
 ---
 
 # amos agile delivery kernel v0 tech7 3

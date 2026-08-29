@@ -5,14 +5,6 @@ source: 00_ROOT
 tags:
 - root
 - navigation
-- 01-canon-moc
-- 07-skills-moc
-- 06-agents-moc
-- 08-workflows-moc
-- 11-knowledge-moc
-- 21-domains-moc
-- 00-root-moc
-- 00-home
 ---
 
 # AMOS MOC

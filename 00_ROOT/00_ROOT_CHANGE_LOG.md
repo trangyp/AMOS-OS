@@ -18,13 +18,7 @@ implementation_status: UNKNOWN/GAP
 validation_status: UNKNOWN/GAP
 tags:
 - note
-- 00-root
 - canon/root
-- 00-home
-- 00-root-moc
-- amos-moc
-- amos-rscf-nodes
-- 00-cosmo-brain-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

@@ -10,9 +10,7 @@ tags:
 - domain/cognitive-matrix
 - readme
 - promotion-gates
-- cognitive-matrix-moc
 - placeholder-seed-status
-- 07-coverage-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

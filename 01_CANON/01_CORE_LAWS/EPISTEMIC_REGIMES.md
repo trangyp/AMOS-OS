@@ -31,17 +31,12 @@ tags:
 - l28-critical-gap
 - l17-rscf
 - readme
-- 00-home
-- amos-rscf-nodes
-- 01-canon-moc
 - law-hierarchy
 - l22-atomic-reasoning
 - law/L1-epistemic
 - l5-scope-regime
 - scope-regime-firewall
-- 01-core-laws-moc
 - trang-framework-recursive-ontology-dynamics
-- 00-root-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL

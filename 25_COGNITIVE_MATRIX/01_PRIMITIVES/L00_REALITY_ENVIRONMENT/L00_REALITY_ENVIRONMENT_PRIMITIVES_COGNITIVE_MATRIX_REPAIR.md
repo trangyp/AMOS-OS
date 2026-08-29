@@ -16,12 +16,6 @@ tags:
 - rscf
 - resilience
 - domain/cognitive-matrix
-- 00-home
-- 00-root-moc
-- amos-moc
-- cognitive-matrix-moc
-- amos-rscf-nodes
-- l00-reality-environment-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -22,10 +22,6 @@ tags:
 - bio-safety
 - rscf/claim
 - rscf/state/canonical
-- 00-home
-- 00-root-moc
-- 02-kernel-moc
-- 06-risk-repair-moc
 aliases:
 - Absolute Biological Integrity Kernel
 - K_ABSOLUTE_BIOLOGICAL_INTEGRITY

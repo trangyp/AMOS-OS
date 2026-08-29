@@ -6,8 +6,8 @@ tags:
 - 11-scale-modes
 - canon/control-plane
 - scale-modes-commit-control-plane-readme
-- 09-commit-moc
 - scale-modes-commit-control-plane-mode-family-spec
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

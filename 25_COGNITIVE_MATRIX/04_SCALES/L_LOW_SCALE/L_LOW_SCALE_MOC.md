@@ -9,7 +9,6 @@ tags:
 - l-low-scale-scales-cognitive-matrix-rscf
 - scales-cognitive-matrix-boundaries
 - scales-cognitive-matrix-semantics
-- 00-index-moc
 - l-low-scale-scales-cognitive-matrix-control-planes
 - l-low-scale-scales-cognitive-matrix-definition
 - l-low-scale-scales-cognitive-matrix-dependencies
@@ -18,7 +17,7 @@ tags:
 - l-low-scale-scales-cognitive-matrix-readme
 - l-low-scale-scales-cognitive-matrix-tests
 - scales-cognitive-matrix-translation-rules
-- 04-scales-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -7,9 +7,6 @@ tags:
 - 26_planes
 - structure
 - canon
-- 25-cognitive-matrix-moc
-- 00-index-moc
-- 00-home
 ---
 
 # Khung Trang 26 Planes Structural Mapping (F1-F26)

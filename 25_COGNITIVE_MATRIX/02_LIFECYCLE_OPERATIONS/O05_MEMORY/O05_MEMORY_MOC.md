@@ -6,8 +6,7 @@ tags:
 - o05-memory
 - domain/cognitive-matrix
 - cognitive-matrix-o05-memory-contract
-- 00-index-moc
-- 02-lifecycle-operations-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

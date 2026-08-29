@@ -35,13 +35,9 @@ tags:
 - vn-ev-china-market-analysis
 - vn-ev-china-trend-strategy
 - vn-ev-unitax-100-vehicles
-- amos-c12-earth-ecology-master-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- references-moc
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
+moc: true
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

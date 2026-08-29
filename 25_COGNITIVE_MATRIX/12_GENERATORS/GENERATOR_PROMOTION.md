@@ -7,15 +7,9 @@ tags:
 - cognitive-matrix
 - matrix
 - domain/cognitive-matrix
-- 00-root-moc
-- amos-moc
-- 00-home
 - generators-map
-- cognitive-matrix-moc
 - generator-output
 - generator-falsification
-- amos-rscf-nodes
-- 12-generators-moc
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL

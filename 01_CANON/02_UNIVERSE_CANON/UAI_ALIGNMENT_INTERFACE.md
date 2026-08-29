@@ -6,8 +6,6 @@ tags:
 - uai
 - alignment
 - universe_canon
-- 00-index-moc
-- 00-home
 ---
 
 # UAI Alignment Interface

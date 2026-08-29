@@ -7,8 +7,6 @@ tags:
 - architecture
 - dmer
 - four-process-architecture-dmer
-- kernel-moc
-- 00-home
 ---
 
 # four process architecture dmer

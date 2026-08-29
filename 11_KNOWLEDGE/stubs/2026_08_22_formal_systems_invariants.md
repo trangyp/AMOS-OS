@@ -6,8 +6,6 @@ tags:
 - systems
 - invariants
 - 2026-08-22-formal-systems-invariants
-- kernel-moc
-- 00-home
 ---
 
 # 2026 08 22 formal systems invariants

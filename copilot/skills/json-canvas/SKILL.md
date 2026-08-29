@@ -12,8 +12,6 @@ metadata:
   copilot-builtin-version: '1'
   copilot-upstream-revision: a1dc48e68138490d522c04cbf5822214c6eb1202
 tags:
-- 00-root-moc
-- 00-home
 ---
 
 # JSON Canvas

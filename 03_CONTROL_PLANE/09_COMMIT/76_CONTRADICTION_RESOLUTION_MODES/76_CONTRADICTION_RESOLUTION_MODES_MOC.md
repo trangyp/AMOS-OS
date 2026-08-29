@@ -5,7 +5,7 @@ source: 03_CONTROL_PLANE/09_COMMIT/76_CONTRADICTION_RESOLUTION_MODES
 tags:
 - 76-contradiction-resolution-modes
 - canon/control-plane
-- 09-commit-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

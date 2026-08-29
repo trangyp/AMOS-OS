@@ -5,8 +5,6 @@ tags:
 - scrum
 - planning
 - scrum-planning
-- kernel-moc
-- 00-home
 ---
 
 # scrum planning

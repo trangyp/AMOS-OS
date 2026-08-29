@@ -10,13 +10,11 @@ tags:
 - rscf/claim
 - rscf/provenance
 - rscf/state/observation
-- topic/00-cosmo-brain-moc
 - index
 - architecture
 - amos-obsidian-linking-plugins
 - amos-layer-maps
 - amos-templates
-- 00-home
 - load-map
 - fractal-runtime
 - logic-kernel
@@ -38,13 +36,10 @@ tags:
 - speed-governor
 - agents
 - skill
-- 00-root-moc
-- amos-moc
-- amos-rscf-nodes
-- knowledge-moc
 status: living
 provenance: MODEL
 confidence: DERIVED
+moc: true
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -10,10 +10,6 @@ tags:
 - rscf
 - governance
 - canon/universe
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 - law/L0-integrity
 - law/L1-epistemic
@@ -22,7 +18,6 @@ tags:
 - l4-causal
 - l5-scope-regime
 - l6-uncertainty
-- 00-root-authorization
 - authorization-spec
 - authority-resolver
 - authority-witness
@@ -31,7 +26,6 @@ tags:
 - policy-decision
 - capability-manifest
 - control-plane-map
-- 01-core-laws-moc
 title: L7 Authority Boundary Laws
 origin_architect: Trang Phan
 updated: '2026-08-26'

@@ -8,8 +8,7 @@ tags:
 - c09-org-law-policy-domains-domain-spec
 - c09-org-law-policy-domains-readme
 - domains-c09-org-law-policy-contract
-- 00-index-moc
-- 21-domains-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

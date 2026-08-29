@@ -6,10 +6,10 @@ tags:
 - 05-healing-recovery
 - canon/control-plane
 - commit-control-plane-activation-rules
-- 09-commit-moc
 - healing-recovery-commit-control-plane-mode-spec
 - healing-recovery-commit-control-plane-provenance
 - healing-recovery-commit-control-plane-readme
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

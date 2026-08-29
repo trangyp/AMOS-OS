@@ -48,9 +48,6 @@ tags:
 - validation
 - trang-zero-framework-canon
 - rollback-basin
-- 00-home
-- amos-rscf-nodes
-- 25-cognitive-matrix-moc
 - k-rscf
 - k-hml
 - k-gmef

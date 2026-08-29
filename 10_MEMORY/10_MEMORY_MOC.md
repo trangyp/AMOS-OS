@@ -7,8 +7,8 @@ tags:
 - canon/memory
 - memory-memory-contract
 - memory-readme
-- 00-index-moc
 - amos-home
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

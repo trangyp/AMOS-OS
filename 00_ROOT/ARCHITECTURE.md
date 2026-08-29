@@ -17,9 +17,6 @@ tags:
 - control-plane-readme
 - observability-readme
 - operations-readme
-- 00-home
-- amos-rscf-nodes
-- 00-cosmo-brain-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

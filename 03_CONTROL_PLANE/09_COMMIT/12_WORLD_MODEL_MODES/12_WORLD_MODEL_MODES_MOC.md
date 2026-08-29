@@ -5,8 +5,8 @@ source: 03_CONTROL_PLANE/09_COMMIT/12_WORLD_MODEL_MODES
 tags:
 - 12-world-model-modes
 - canon/control-plane
-- 09-commit-moc
 - world-model-modes-commit-control-plane-readme
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

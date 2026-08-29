@@ -6,9 +6,8 @@ tags:
 - o12-plan
 - domain/cognitive-matrix
 - cognitive-matrix-o12-plan-contract
-- 00-index-moc
-- 02-lifecycle-operations-moc
 - o12-plan-lifecycle-operations-cognitive-matrix-hml
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

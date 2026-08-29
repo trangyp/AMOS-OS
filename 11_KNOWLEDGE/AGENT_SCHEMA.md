@@ -32,11 +32,6 @@ tags:
 - memory
 - skill
 - validation
-- 00-home
-- 00-root-moc
-- amos-moc
-- amos-rscf-nodes
-- knowledge-moc
 aliases:
 - AGENT_SCHEMA - AMOS Agent Schema - Unified Agent Construction Schema
 governing_law: integrity > completeness > fluency > speed > token savings

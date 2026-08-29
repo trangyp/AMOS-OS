@@ -8,8 +8,6 @@ tags:
 - domain/cognitive-matrix
 - signals
 - amos-x-heritage-matrix
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 - kernel-readme
 - control-plane-readme

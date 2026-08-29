@@ -7,10 +7,6 @@ tags:
 - l07-memory
 - domain/cognitive-matrix
 - memory
-- cognitive-matrix-moc
-- 00-root-moc
-- amos-moc
-- l07-memory-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

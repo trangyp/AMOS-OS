@@ -45,8 +45,6 @@ tags:
 - rscf/state/model
 - topic/structural-reasoning
 - readme
-- 00-root-moc
-- amos-moc
 - architecture
 - dependency-map
 - system-map
@@ -67,9 +65,6 @@ tags:
 - k-counterfactual
 - k-metacognition
 - k-multi-hypothesis
-- 00-home
-- amos-rscf-nodes
-- 02-cognition-moc
 aliases:
 - K Structural Reasoning - Structural Reasoning Kernel - AMOS Structural Reasoning
   - K_STRUCTU

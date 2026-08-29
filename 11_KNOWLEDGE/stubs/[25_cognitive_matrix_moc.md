@@ -1,6 +1,7 @@
 ---
 title: [25 cognitive matrix moc
 tags:
+moc: true
 - stub
 - cognitive
 - matrix

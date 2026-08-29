@@ -14,7 +14,6 @@ tags:
 - rscf/state/source-claim
 - topic/amos-os-root
 - kernel
-- kernel-moc
 created: 2026-08-22
 rscf:
   state: SOURCE_CLAIM

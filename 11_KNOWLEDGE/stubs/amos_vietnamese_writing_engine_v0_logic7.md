@@ -8,8 +8,6 @@ tags:
 - engine
 - logic
 - amos-vietnamese-writing-engine-v0-logic7
-- kernel-moc
-- 00-home
 ---
 
 # amos vietnamese writing engine v0 logic7

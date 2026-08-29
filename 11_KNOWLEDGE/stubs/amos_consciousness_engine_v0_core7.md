@@ -7,8 +7,6 @@ tags:
 - engine
 - core
 - amos-consciousness-engine-v0-core7
-- kernel-moc
-- 00-home
 ---
 
 # amos consciousness engine v0 core7

@@ -5,8 +5,6 @@ tags:
 - runtime
 - lineage
 - runtime-lineage
-- kernel-moc
-- 00-home
 ---
 
 # runtime lineage

@@ -5,10 +5,9 @@ source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L10_WORLD_MODELING
 tags:
 - l10-world-modeling
 - domain/cognitive-matrix
-- 00-index-moc
-- 01-primitives-moc
 - cognitive-matrix-l10-world-modeling-contract
 - l10-world-modeling-primitives-cognitive-matrix-hml
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

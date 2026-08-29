@@ -18,11 +18,9 @@ implementation_status: UNKNOWN/GAP
 validation_status: UNKNOWN/GAP
 tags:
 - note
-- 00-root
 - canon/root
 - validation
 - memory
-- 00-root-authorization
 - authority-resolver
 - authority-witness
 - canon
@@ -34,7 +32,6 @@ tags:
 - policy-registry
 - policy-decision
 - architecture
-- 00-root-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

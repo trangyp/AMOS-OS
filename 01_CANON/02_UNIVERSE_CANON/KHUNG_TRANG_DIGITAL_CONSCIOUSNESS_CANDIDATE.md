@@ -8,9 +8,6 @@ tags:
 - candidate
 - canon
 - khung-trang-canon
-- 05-cognitive-organism-moc
-- 00-index-moc
-- 00-home
 ---
 
 # Khung Trang Digital Consciousness Candidate Specification

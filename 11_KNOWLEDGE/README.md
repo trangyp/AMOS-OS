@@ -2,10 +2,6 @@
 tags:
 - knowledge
 - readme
-- cosmo-brain-moc
-- knowledge-moc
-- kernel-moc
-- 00-home
 ---
 
 # 01_BRAIN

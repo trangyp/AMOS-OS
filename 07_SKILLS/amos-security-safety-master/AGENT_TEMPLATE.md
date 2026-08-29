@@ -7,7 +7,6 @@ tags:
 - amos-security-safety-master
 - type/skill
 - skill
-- amos-security-safety-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

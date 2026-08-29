@@ -13,8 +13,7 @@ tags:
 - design-for-absolute-integrity
 - domains-design-contract
 - irreducible-systems-design
-- 00-index-moc
-- 21-domains-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

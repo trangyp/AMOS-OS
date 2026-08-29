@@ -17,11 +17,6 @@ tags:
 - custom_modes
 - note
 - canon/control-plane
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 15-custom-modes-moc
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL

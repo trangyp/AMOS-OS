@@ -7,8 +7,6 @@ tags:
 - engine
 - core
 - amos-cognition-engine-v0-core7
-- kernel-moc
-- 00-home
 ---
 
 # amos cognition engine v0 core7

@@ -12,10 +12,6 @@ rscf:
 tags:
 - note
 - 04-infrastructure-canon
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 - kernel-readme
 - control-plane-readme
@@ -23,7 +19,6 @@ tags:
 - operations-readme
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
-- 04-infrastructure-canon-moc
 canon-group: canon/infrastructure
 ---
 

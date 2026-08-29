@@ -36,11 +36,8 @@ tags:
 - amos-7-part-universe-canon
 - p1-reality-environment
 - hml-canon
-- 02-universe-canon-moc
 - trang-framework-recursive-ontology-dynamics
 - khung-trang-master
-- 00-home
-- amos-rscf-nodes
 version: 1.0.0
 updated: '2026-08-27'
 status: PROPOSED_SPECIFICATION

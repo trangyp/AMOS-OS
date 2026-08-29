@@ -8,9 +8,6 @@ tags:
 - knowledge
 - canon
 - khung-trang-canon
-- 11-knowledge-moc
-- 00-index-moc
-- 00-home
 ---
 
 # Khung Trang Universal Knowledge Representation (UKR)

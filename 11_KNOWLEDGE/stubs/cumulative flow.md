@@ -5,8 +5,6 @@ tags:
 - cumulative
 - flow
 - cumulative-flow
-- kernel-moc
-- 00-home
 ---
 
 # cumulative flow

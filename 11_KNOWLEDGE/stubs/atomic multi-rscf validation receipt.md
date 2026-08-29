@@ -8,8 +8,6 @@ tags:
 - validation
 - receipt
 - atomic-multi-rscf-validation-receipt
-- kernel-moc
-- 00-home
 ---
 
 # atomic multi-rscf validation receipt

@@ -47,9 +47,8 @@ tags:
 - shard-local-finalization-canon
 - sybil-hardening-canon
 - universal-bio-logical-architecture
-- 00-index-moc
-- 01-canon-moc
 - trang-framework-recursive-ontology-dynamics
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -58,11 +58,6 @@ tags:
 - control-plane-map
 - runtime-map
 - authoritative-state
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 01-meta-logic-moc
 aliases:
 - DRC Kernel - Distinction Relation Constraint - K DRC - AMOS Distinction Relation
   Constraint

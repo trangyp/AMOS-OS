@@ -7,8 +7,6 @@ tags:
 - ontology
 - kernel
 - cognition
-- kernel-moc
-- 00-home
 - amos-meta-ontology-kernel-v0-meta-cognition
 ---
 

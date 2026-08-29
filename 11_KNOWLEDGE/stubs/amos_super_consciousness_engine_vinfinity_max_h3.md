@@ -8,8 +8,6 @@ tags:
 - engine
 - vinfinity
 - max
-- kernel-moc
-- 00-home
 - amos-super-consciousness-engine-vinfinity-max-h3
 ---
 

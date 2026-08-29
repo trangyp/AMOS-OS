@@ -7,7 +7,7 @@ tags:
 - canon/control-plane
 - commit-control-plane-mode-spec
 - commit-control-plane-provenance
-- 06-reasoning-modes-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

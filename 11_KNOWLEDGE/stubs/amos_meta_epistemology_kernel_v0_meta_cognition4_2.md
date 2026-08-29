@@ -7,8 +7,6 @@ tags:
 - epistemology
 - kernel
 - cognition
-- kernel-moc
-- 00-home
 - amos-meta-epistemology-kernel-v0-meta-cognition4-2
 ---
 

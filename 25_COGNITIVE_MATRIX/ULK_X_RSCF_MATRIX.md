@@ -85,11 +85,8 @@ tags:
 - canon/rscf
 - ulk-x-rscf
 - ulk-logic-kernel
-- 25-cognitive-matrix-moc
 - k-fail-closed
 - k-provenance
-- 00-home
-- amos-rscf-nodes
 framework_binding:
   matrix_spec:
     artifact:

@@ -14,9 +14,6 @@ tags:
 - dmer-l5
 - validation
 - law-hierarchy
-- 00-home
-- amos-rscf-nodes
-- 01-core-laws-moc
 - trang-framework-recursive-ontology-dynamics
 - provenance-topology
 - mvcc-cas

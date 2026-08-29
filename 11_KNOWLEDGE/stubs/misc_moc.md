@@ -1,11 +1,9 @@
 ---
 title: misc moc
 tags:
+moc: true
 - stub
 - misc
-- misc-moc
-- kernel-moc
-- 00-home
 ---
 
 # misc moc

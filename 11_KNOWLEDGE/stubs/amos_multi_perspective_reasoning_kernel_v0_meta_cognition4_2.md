@@ -8,8 +8,6 @@ tags:
 - reasoning
 - kernel
 - meta
-- kernel-moc
-- 00-home
 ---
 
 # amos multi perspective reasoning kernel v0 meta cognition4 2

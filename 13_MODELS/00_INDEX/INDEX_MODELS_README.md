@@ -43,7 +43,6 @@ tags:
 - model
 - index
 - readme
-- index-readme
 - model-index
 - model-navigation
 - model-discovery
@@ -79,9 +78,6 @@ tags:
 - competing-models
 - epistemic-regime
 - canon/model
-- 00-home
-- amos-rscf-nodes
-- index-models-model-contract
 - model-map
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
@@ -90,9 +86,6 @@ tags:
 - control-plane-readme
 - operations-readme
 - law-hierarchy
-- 00-index-moc
-- 00-root-moc
-- 13-models-moc
 - model-index-navigation
 - local-basename-resolution
 - model-identity-preservation
@@ -100,7 +93,6 @@ tags:
 - model-provenance-preservation
 - model-scope-preservation
 - model-regime-preservation
-- index-failure-visibility
 - references
 rscf:
   state: DERIVED

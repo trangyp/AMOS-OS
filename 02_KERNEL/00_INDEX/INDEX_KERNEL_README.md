@@ -44,8 +44,6 @@ tags:
 - topic/kernel-architecture
 - topic/deterministic-logic
 - readme
-- 00-root-moc
-- amos-moc
 - architecture
 - system-map
 - placement-rules
@@ -66,9 +64,6 @@ tags:
 - runtime-map
 - cognitive-organism-map
 - authoritative-state
-- 00-home
-- amos-rscf-nodes
-- 00-index-moc
 aliases:
 - AMOS Kernel - AMOS OS Kernel - Kernel Plane
 ---

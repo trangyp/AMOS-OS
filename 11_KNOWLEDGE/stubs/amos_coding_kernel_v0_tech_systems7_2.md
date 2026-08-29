@@ -8,8 +8,6 @@ tags:
 - tech
 - systems
 - amos-coding-kernel-v0-tech-systems7-2
-- kernel-moc
-- 00-home
 ---
 
 # amos coding kernel v0 tech systems7 2

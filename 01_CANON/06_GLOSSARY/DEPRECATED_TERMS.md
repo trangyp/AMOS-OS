@@ -35,8 +35,6 @@ tags:
 - topic/lineage
 - topic/provenance
 - readme
-- 00-root-moc
-- amos-moc
 - architecture
 - system-map
 - neural-network
@@ -54,9 +52,6 @@ tags:
 - full-brain-os-canon
 - authority-canon
 - control-plane-canon
-- 00-home
-- amos-rscf-nodes
-- 06-glossary-moc
 aliases:
 - AMOS Deprecated Terms - Deprecated Terminology Registry - AMOS Terminology Migration
   Registry

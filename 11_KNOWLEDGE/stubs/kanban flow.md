@@ -5,8 +5,6 @@ tags:
 - kanban
 - flow
 - kanban-flow
-- kernel-moc
-- 00-home
 ---
 
 # kanban flow

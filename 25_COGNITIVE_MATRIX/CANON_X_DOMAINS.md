@@ -44,9 +44,6 @@ tags:
 - absolute-structural-integrity
 - quantum-integrity-stack
 - architecture
-- 01-core-laws-moc
-- amos-rscf-nodes
-- 00-home
 - kernel-readme
 - control-plane-readme
 - observability-readme

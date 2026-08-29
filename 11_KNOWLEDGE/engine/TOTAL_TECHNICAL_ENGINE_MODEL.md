@@ -12,11 +12,8 @@ tags:
 - rscf/state/observation
 - topic/total-technical-engine-model
 - engine
-- 00-home
-- knowledge-moc
 - system-scan-agent
 - automation-profiles
-- engine-moc
 - amos-simulation-kernel-v0-math-foundations
 status: active
 provenance: _AMOS_Total Technical Engine .txt

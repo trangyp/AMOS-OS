@@ -7,7 +7,6 @@ tags:
 - amos-c12-earth-ecology-master
 - type/skill
 - skill
-- amos-c12-earth-ecology-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

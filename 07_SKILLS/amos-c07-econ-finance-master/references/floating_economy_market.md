@@ -6,10 +6,6 @@ tags:
 - reference
 - amos-c07-econ-finance-master
 - type/skill
-- references-moc
-- 07-skills-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 - trang-framework-recursive-ontology-dynamics
 rscf:
@@ -71,7 +67,8 @@ Defense/security (piracy, smuggling, naval platforms).
 
 Energy (floating solar).
 
-🔹 How The Floating Economy Uses the Market1Manufacturing (heavy equipment, shipyards).
+🔹 How The Floating Economy Uses the Market1
+Manufacturing (heavy equipment, shipyards).
 
 Aquaculture (fish farms, insurance).
 
@@ -116,7 +113,8 @@ Running a community loop for growth.
 
 Claiming the whole category by branding themselves as the economy.
 
-🔹 How The Floating Economy Uses the Market2The Signal Economy: Canonical Strategic
+🔹 How The Floating Economy Uses the Market2
+The Signal Economy: Canonical Strategic
 Model
 
 1. Banner Group Identity
@@ -160,7 +158,8 @@ Protocols (audit-ready compliance layers).
 
 Governance (disciplinary and remediation pathways).
 
-🔹 How The Floating Economy Uses the Market3🔒 Fix From soft advocacy → deterministic frameworks with measurable
+🔹 How The Floating Economy Uses the Market3
+🔒 Fix From soft advocacy → deterministic frameworks with measurable
 outputs.
 
 3. Measurement & Data Layer

@@ -6,8 +6,6 @@ tags:
 - agent
 - registry
 - amos-agent-registry
-- kernel-moc
-- 00-home
 ---
 
 # amos agent registry

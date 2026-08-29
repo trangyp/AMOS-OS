@@ -11,7 +11,7 @@ tags:
 - proof-capsuleschema
 - provenance-topologyschema
 - rscf-transactionschema
-- 16-schemas-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

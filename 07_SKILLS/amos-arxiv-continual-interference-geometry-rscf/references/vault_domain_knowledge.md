@@ -6,7 +6,6 @@ tags:
 - reference
 - amos-arxiv-continual-interference-geometry-rscf
 - type/skill
-- cosmo-brain-moc
 - amos-build-from-spec
 - 2026-08-22-tests-logic-bridge-registry
 - 2026-08-22-brain-inventory
@@ -15,11 +14,7 @@ tags:
 - canon
 - 2026-08-22-amos-go-board-19x19-formal-system
 - amos-agent-registry
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- references-moc
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

@@ -8,7 +8,7 @@ tags:
 - canon/knowledge
 - moc-2007
 - moc-2008
-- knowledge-moc
+moc: true
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

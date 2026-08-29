@@ -35,8 +35,7 @@ tags:
 - ubi-provenance
 - universe-canon-provenance
 - version-hash-registry
-- 00-index-moc
-- 01-canon-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -15,12 +15,6 @@ tags:
 - l04_object_entity_formation
 - note
 - domain/cognitive-matrix
-- 00-root-moc
-- amos-moc
-- 00-home
-- cognitive-matrix-moc
-- amos-rscf-nodes
-- l04-object-entity-formation-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

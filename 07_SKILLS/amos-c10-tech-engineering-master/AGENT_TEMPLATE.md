@@ -7,7 +7,6 @@ tags:
 - amos-c10-tech-engineering-master
 - type/skill
 - skill
-- amos-c10-tech-engineering-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

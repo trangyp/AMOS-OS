@@ -19,9 +19,6 @@ tags:
 - hml/m
 - epistemic/source_canon
 - amos-os
-- 07-skills-moc
-- references-moc
-- 00-home
 rscf:
   state: DERIVED
   claim_class: DERIVED

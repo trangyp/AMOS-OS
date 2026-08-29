@@ -7,8 +7,8 @@ tags:
 - canon/observability
 - observability-observability-contract
 - observability-readme
-- 00-index-moc
 - amos-home
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

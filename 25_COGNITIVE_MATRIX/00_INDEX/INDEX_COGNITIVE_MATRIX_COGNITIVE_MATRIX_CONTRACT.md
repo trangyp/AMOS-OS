@@ -7,11 +7,6 @@ tags:
 - index
 - contract
 - domain/cognitive-matrix
-- 00-root-moc
-- amos-moc
-- 00-home
-- cognitive-matrix-moc
-- amos-rscf-nodes
 rscf:
   state: DERIVED
   claim_class: DERIVED

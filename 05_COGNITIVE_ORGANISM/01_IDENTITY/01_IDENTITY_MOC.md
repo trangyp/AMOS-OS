@@ -7,7 +7,7 @@ tags:
 - canon/cognitive
 - directed-systemal-identity
 - identity-continuity-model
-- 05-cognitive-organism-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

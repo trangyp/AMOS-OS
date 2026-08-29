@@ -7,8 +7,8 @@ tags:
 - canon/security
 - security-readme
 - security-security-contract
-- 00-index-moc
 - amos-home
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

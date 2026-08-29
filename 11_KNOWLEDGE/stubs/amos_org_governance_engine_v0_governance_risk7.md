@@ -7,8 +7,6 @@ tags:
 - governance
 - engine
 - risk
-- kernel-moc
-- 00-home
 - amos-org-governance-engine-v0-governance-risk7
 ---
 

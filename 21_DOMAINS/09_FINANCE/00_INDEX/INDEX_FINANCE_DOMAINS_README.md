@@ -9,8 +9,6 @@ tags:
 - readme
 - finance-domains-finance-contract
 - finance-map
-- 00-home
-- amos-rscf-nodes
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
@@ -18,9 +16,6 @@ tags:
 - control-plane-readme
 - observability-readme
 - operations-readme
-- 00-root-moc
-- amos-moc
-- 00-index-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

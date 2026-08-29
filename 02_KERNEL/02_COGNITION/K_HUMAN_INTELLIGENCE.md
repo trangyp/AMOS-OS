@@ -22,10 +22,6 @@ tags:
 - ubi
 - rscf/claim
 - rscf/state/canonical
-- 00-home
-- 00-root-moc
-- 02-kernel-moc
-- 02-cognition-moc
 aliases:
 - Human Intelligence Kernel
 - K_HUMAN_INTELLIGENCE

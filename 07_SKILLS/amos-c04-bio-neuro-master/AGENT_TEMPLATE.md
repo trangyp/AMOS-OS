@@ -7,7 +7,6 @@ tags:
 - amos-c04-bio-neuro-master
 - type/skill
 - skill
-- amos-c04-bio-neuro-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

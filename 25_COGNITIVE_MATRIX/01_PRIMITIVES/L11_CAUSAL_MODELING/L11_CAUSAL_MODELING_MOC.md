@@ -5,9 +5,8 @@ source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L11_CAUSAL_MODELING
 tags:
 - l11-causal-modeling
 - domain/cognitive-matrix
-- 00-index-moc
-- 01-primitives-moc
 - cognitive-matrix-l11-causal-modeling-contract
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

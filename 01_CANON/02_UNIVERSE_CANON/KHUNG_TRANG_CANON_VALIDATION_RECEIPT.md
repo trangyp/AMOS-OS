@@ -7,8 +7,6 @@ tags:
 - validation
 - khung_trang
 - pass
-- 00-index-moc
-- 00-home
 ---
 
 # Khung Trang Canon Validation Receipt

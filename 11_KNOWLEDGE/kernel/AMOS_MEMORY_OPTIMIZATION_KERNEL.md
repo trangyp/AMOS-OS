@@ -9,7 +9,6 @@ tags:
 - topic/amos-memory-optimization-kernel-v0
 - kernel
 - memory
-- kernel-moc
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:

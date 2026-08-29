@@ -6,8 +6,6 @@ tags:
 - reference
 - amos-learning-memory-knowledge-feedback-governor
 - type/skill
-- references-moc
-- 07-skills-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

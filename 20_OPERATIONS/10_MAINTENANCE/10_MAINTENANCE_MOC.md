@@ -6,8 +6,8 @@ tags:
 - 10-maintenance
 - canon/operations
 - amos-home
-- 10-maintenance-moc
 - trang-framework-recursive-ontology-dynamics
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

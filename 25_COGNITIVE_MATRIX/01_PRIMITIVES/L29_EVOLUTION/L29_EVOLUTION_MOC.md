@@ -6,8 +6,6 @@ tags:
 - l29-evolution
 - domain/cognitive-matrix
 - cognitive-matrix-l29-evolution-contract
-- 00-index-moc
-- 01-primitives-moc
 - l29-evolution-primitives-cognitive-matrix-agents
 - l29-evolution-primitives-cognitive-matrix-hml
 - l29-evolution-primitives-cognitive-matrix-memory
@@ -18,6 +16,7 @@ tags:
 - l29-evolution-primitives-cognitive-matrix-skills
 - l29-evolution-primitives-cognitive-matrix-state
 - l29-evolution-primitives-cognitive-matrix-tests
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

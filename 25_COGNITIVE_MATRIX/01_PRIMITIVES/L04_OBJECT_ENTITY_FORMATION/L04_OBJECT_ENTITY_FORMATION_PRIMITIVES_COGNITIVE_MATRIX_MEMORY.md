@@ -6,10 +6,6 @@ tags:
 - note
 - l04-object-entity-formation
 - domain/cognitive-matrix
-- cognitive-matrix-moc
-- 00-root-moc
-- amos-moc
-- l04-object-entity-formation-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

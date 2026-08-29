@@ -7,8 +7,6 @@ tags:
 - master
 - references
 - detailed
-- references-moc
-- 00-home
 ---
 
 ## AMOS Canon Grounding

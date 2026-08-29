@@ -60,11 +60,6 @@ tags:
 - k-world-model
 - k-causal-closure
 - k-causal-epoch
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 05-memory-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

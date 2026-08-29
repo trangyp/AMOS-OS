@@ -5,8 +5,6 @@ tags:
 - equation
 - registry
 - equation-registry
-- kernel-moc
-- 00-home
 ---
 
 # equation registry

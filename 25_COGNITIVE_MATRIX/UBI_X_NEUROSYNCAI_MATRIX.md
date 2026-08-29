@@ -21,9 +21,6 @@ tags:
 - rscf
 - ubi-x-neurosyncai
 - ubi-neurosyncai-binding
-- 25-cognitive-matrix-moc
-- cognitive-matrix-moc
-- 00-home
 version: 2.0.0
 updated: '2026-08-28'
 status: ACTIVE_REFERENCE
@@ -46,8 +43,8 @@ framework_binding:
 | Telemetry Stream | Frequency Band | Signal Invariant | Action on Anomaly |
 | :--- | :--- | :--- | :--- |
 | **EEG Gamma Coherence** | 38 - 42 Hz | Phase sync $> 0.65$ | Frequency Re-Pacing |
-| **Vagal Tone (HRV)** | 0.15 - 0.40 Hz | RMSSD $> 35	ext{ms}$ | Cognitive Load De-escalation |
-| **GSR / Electrodermal** | DC - 5 Hz | Tonic drift $< 1.5\mu	ext{S}/	ext{min}$ | Stress Cool-down Trigger |
+| **Vagal Tone (HRV)** | 0.15 - 0.40 Hz | RMSSD $> 35\text{ms}$ | Cognitive Load De-escalation |
+| **GSR / Electrodermal** | DC - 5 Hz | Tonic drift $< 1.5\mu\text{S}/\text{min}$ | Stress Cool-down Trigger |
 
 ## Connections
 - **Specification:** [[UBI_X_NEUROSYNCAI]]

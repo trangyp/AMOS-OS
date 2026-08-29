@@ -18,13 +18,9 @@ tags:
 - numerical-methods-engine-layer
 - spectral-method-governance
 - vault-domain-knowledge
-- amos-c02-math-compute-master-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- references-moc
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
+moc: true
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

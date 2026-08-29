@@ -10,7 +10,7 @@ tags:
 - trang-reality-architecture-model
 - uba-model
 - universal-field-architecture-model
-- 13-models-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

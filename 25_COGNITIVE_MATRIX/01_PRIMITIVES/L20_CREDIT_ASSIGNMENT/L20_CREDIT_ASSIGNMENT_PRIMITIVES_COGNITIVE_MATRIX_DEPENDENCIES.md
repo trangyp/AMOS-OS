@@ -6,10 +6,6 @@ tags:
 - note
 - l20-credit-assignment
 - domain/cognitive-matrix
-- cognitive-matrix-moc
-- 00-root-moc
-- amos-moc
-- l20-credit-assignment-moc
 - l21-learning-primitives-cognitive-matrix-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:

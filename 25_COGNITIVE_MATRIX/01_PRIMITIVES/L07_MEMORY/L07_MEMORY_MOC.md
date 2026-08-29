@@ -6,8 +6,6 @@ tags:
 - l07-memory
 - domain/cognitive-matrix
 - cognitive-matrix-l07-memory-contract
-- 00-index-moc
-- 01-primitives-moc
 - l07-memory-primitives-cognitive-matrix-agents
 - l07-memory-primitives-cognitive-matrix-definition
 - l07-memory-primitives-cognitive-matrix-equations
@@ -27,6 +25,7 @@ tags:
 - l07-memory-primitives-cognitive-matrix-tests
 - l07-memory-primitives-cognitive-matrix-variables
 - l07-memory-primitives-cognitive-matrix-workflows
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

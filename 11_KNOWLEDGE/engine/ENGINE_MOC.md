@@ -110,6 +110,7 @@ tags:
 - amos-super-factory-engine-v2-0-0
 - amos-super-kernel-and-engine
 - amos-systems-core-engine
+moc: true
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

@@ -5,7 +5,7 @@ source: 03_CONTROL_PLANE/09_COMMIT/70_MODALITY_TRANSLATION_MODES
 tags:
 - 70-modality-translation-modes
 - canon/control-plane
-- 09-commit-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

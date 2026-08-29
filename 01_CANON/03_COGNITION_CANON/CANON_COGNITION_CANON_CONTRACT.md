@@ -14,11 +14,6 @@ tags:
 - canon
 - observability-readme
 - operations-readme
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 03-cognition-canon-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

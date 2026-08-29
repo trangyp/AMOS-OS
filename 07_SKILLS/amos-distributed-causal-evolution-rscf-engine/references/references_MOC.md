@@ -6,13 +6,9 @@ tags:
 - references
 - type/skill
 - distributed-causal-spec
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- references-moc
-- amos-distributed-causal-evolution-rscf-engine-moc
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
+moc: true
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

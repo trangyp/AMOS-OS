@@ -6,10 +6,6 @@ tags:
 - reference
 - arxiv-grpo-reasoning-policy-rscf
 - type/skill
-- references-moc
-- 07-skills-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 - trang-framework-recursive-ontology-dynamics
 rscf:

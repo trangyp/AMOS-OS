@@ -9,12 +9,7 @@ tags:
 - domain/cognitive-matrix
 - skill
 - workflow
-- 00-root-moc
-- amos-moc
-- 00-home
 - canon
-- cognitive-matrix-moc
-- amos-rscf-nodes
 rscf:
   state: DERIVED
   claim_class: DERIVED

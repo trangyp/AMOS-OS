@@ -24,9 +24,6 @@ tags:
 - provenance
 - canon/universe
 - architecture
-- 00-home
-- amos-rscf-nodes
-- 02-universe-canon-moc
 - law-hierarchy
 - kernel-readme
 - control-plane-readme

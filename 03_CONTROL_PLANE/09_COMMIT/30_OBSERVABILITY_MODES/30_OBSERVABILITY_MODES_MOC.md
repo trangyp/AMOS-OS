@@ -5,8 +5,8 @@ source: 03_CONTROL_PLANE/09_COMMIT/30_OBSERVABILITY_MODES
 tags:
 - 30-observability-modes
 - canon/control-plane
-- 09-commit-moc
 - observability-modes-commit-control-plane-readme
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

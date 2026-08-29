@@ -6,8 +6,8 @@ tags:
 - 06-schedules
 - canon/operations
 - amos-home
-- 06-schedules-moc
 - trang-framework-recursive-ontology-dynamics
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

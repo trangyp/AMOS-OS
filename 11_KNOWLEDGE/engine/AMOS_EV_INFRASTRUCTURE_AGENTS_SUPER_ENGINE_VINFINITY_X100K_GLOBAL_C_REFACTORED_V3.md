@@ -16,12 +16,9 @@ tags:
 - topic/amos-ev-infrastructure-agents-super-engi
 - engine
 - agents
-- 00-home
-- knowledge-moc
 - system-scan-agent
 - automation-profiles
 - amos-simulation-kernel-v0-math-foundations
-- engine-moc
 - trang-framework-recursive-ontology-dynamics
 created: 2026-08-22
 rscf:

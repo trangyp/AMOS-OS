@@ -1,11 +1,9 @@
 ---
 title: layers moc
 tags:
+moc: true
 - stub
 - layers
-- layers-moc
-- kernel-moc
-- 00-home
 ---
 
 # layers moc

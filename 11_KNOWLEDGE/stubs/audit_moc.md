@@ -1,11 +1,9 @@
 ---
 title: audit moc
 tags:
+moc: true
 - stub
 - audit
-- audit-moc
-- kernel-moc
-- 00-home
 ---
 
 # audit moc

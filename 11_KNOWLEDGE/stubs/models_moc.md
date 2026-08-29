@@ -1,11 +1,9 @@
 ---
 title: models moc
 tags:
+moc: true
 - stub
 - models
-- models-moc
-- kernel-moc
-- 00-home
 ---
 
 # models moc

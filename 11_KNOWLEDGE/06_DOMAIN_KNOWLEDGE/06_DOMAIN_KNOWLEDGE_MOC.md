@@ -15,7 +15,7 @@ tags:
 - ubi-neurobiological-intelligence
 - ubi-neuroemotional-intelligence
 - ubi-somatic-intelligence
-- knowledge-moc
+moc: true
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

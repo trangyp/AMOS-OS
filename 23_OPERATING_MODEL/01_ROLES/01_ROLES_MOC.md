@@ -8,8 +8,7 @@ tags:
 - operating-model-roles-contract
 - roles-operating-model-readme
 - role-registry
-- 00-index-moc
-- 23-operating-model-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -7,7 +7,6 @@ tags:
 - amos-c11-design-language-master
 - type/skill
 - skill
-- amos-c11-design-language-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

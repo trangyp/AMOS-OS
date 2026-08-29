@@ -31,11 +31,7 @@ tags:
 - rscf
 - canon_candidate
 - domain/cognitive-matrix
-- 00-root-moc
-- 00-home
-- amos-rscf-nodes
 - amos-x-qls-qcla-matrix
-- 25-cognitive-matrix-moc
 - law-hierarchy
 - ubi
 version: 1.0.0

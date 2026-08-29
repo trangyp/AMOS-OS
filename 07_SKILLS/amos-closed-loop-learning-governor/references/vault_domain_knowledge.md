@@ -6,12 +6,7 @@ tags:
 - reference
 - amos-closed-loop-learning-governor
 - type/skill
-- amos-closed-loop-learning-governor-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- references-moc
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

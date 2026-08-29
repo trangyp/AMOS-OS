@@ -28,10 +28,7 @@ tags:
 - unified-biological-intelligence
 - frai-fractal-reasoning-ai
 - ubi-neurobiological-intelligence
-- 00-home
-- knowledge-moc
 - ubi-fractal-architecture-entropy-correction
-- 05-frameworks-moc
 - heritage-fractal-mathematics
 version: 1.0.0
 updated: '2026-08-27'

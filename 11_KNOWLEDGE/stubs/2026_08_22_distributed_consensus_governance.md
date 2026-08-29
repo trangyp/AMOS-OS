@@ -5,8 +5,6 @@ tags:
 - distributed
 - consensus
 - governance
-- kernel-moc
-- 00-home
 - 2026-08-22-distributed-consensus-governance
 ---
 

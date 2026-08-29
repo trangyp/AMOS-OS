@@ -8,8 +8,7 @@ tags:
 - c12-earth-ecology-domains-domain-spec
 - c12-earth-ecology-domains-readme
 - domains-c12-earth-ecology-contract
-- 00-index-moc
-- 21-domains-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

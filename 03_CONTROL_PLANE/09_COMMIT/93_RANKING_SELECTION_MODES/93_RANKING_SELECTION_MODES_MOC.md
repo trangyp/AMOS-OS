@@ -5,7 +5,7 @@ source: 03_CONTROL_PLANE/09_COMMIT/93_RANKING_SELECTION_MODES
 tags:
 - 93-ranking-selection-modes
 - canon/control-plane
-- 09-commit-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -35,16 +35,12 @@ tags:
 - canon_candidate
 - domain/cognitive-matrix
 - amos-x-ubi-matrix
-- 00-root-moc
-- 00-home
-- amos-rscf-nodes
 - amos-x-tss
 - amos-x-tpe
 - amos-x-neurosyncai
 - amos-x-qls
 - amos-x-trang-reality
 - law-hierarchy
-- 25-cognitive-matrix-moc
 version: 1.1.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

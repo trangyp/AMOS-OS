@@ -5,7 +5,7 @@ source: 03_CONTROL_PLANE/09_COMMIT/81_TRANSACTION_COMMIT_MODES
 tags:
 - 81-transaction-commit-modes
 - canon/control-plane
-- 09-commit-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

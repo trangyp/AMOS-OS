@@ -6,8 +6,6 @@ tags:
 - board
 - formal
 - system
-- kernel-moc
-- 00-home
 - 2026-08-22-amos-go-board-19x19-formal-system
 ---
 

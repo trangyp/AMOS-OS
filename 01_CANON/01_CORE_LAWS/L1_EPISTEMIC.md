@@ -13,14 +13,9 @@ tags:
 - note
 - 01-core-laws
 - readme
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
 - law/L0-integrity
 - core-laws-map
 - core-laws-canon-core-laws-contract
-- 01-core-laws-moc
 canon-group: canon/core-laws
 ---
 

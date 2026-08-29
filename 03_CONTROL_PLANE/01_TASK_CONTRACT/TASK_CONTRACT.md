@@ -7,11 +7,6 @@ tags:
 - task_contract
 - contract
 - canon/control-plane
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 01-task-contract-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

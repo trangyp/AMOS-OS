@@ -7,11 +7,8 @@ tags:
 - validation
 - scope_regime
 - pass
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 - scope-regime-firewall
-- 01-core-laws-moc
 - trang-framework-recursive-ontology-dynamics
 ---
 

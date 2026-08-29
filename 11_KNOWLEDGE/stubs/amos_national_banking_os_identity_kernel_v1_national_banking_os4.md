@@ -7,8 +7,6 @@ tags:
 - banking
 - identity
 - kernel
-- kernel-moc
-- 00-home
 ---
 
 # amos national banking os identity kernel v1 national banking os4

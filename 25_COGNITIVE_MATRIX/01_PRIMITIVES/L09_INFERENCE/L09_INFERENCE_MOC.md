@@ -6,8 +6,6 @@ tags:
 - l09-inference
 - domain/cognitive-matrix
 - cognitive-matrix-l09-inference-contract
-- 00-index-moc
-- 01-primitives-moc
 - l09-inference-primitives-cognitive-matrix-agents
 - l09-inference-primitives-cognitive-matrix-hml
 - l09-inference-primitives-cognitive-matrix-memory
@@ -18,6 +16,7 @@ tags:
 - l09-inference-primitives-cognitive-matrix-skills
 - l09-inference-primitives-cognitive-matrix-state
 - l09-inference-primitives-cognitive-matrix-tests
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

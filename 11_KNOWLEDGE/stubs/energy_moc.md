@@ -1,11 +1,9 @@
 ---
 title: energy moc
 tags:
+moc: true
 - stub
 - energy
-- energy-moc
-- kernel-moc
-- 00-home
 ---
 
 # energy moc

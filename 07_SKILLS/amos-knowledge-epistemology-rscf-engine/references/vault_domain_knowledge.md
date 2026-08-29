@@ -6,12 +6,7 @@ tags:
 - reference
 - amos-knowledge-epistemology-rscf-engine
 - type/skill
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- references-moc
-- 07-skills-moc
-- amos-knowledge-epistemology-rscf-engine-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

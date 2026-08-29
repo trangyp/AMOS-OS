@@ -9,9 +9,8 @@ tags:
 - dependency-graph-cognitive-matrix-readme
 - dependency-types
 - invalidation-rules
-- 00-index-moc
 - cognitive-matrix-dependency-graph-contract
-- 25-cognitive-matrix-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

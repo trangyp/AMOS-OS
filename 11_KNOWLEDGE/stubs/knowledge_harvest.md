@@ -5,8 +5,6 @@ tags:
 - knowledge
 - harvest
 - knowledge-harvest
-- kernel-moc
-- 00-home
 ---
 
 # knowledge harvest

@@ -13,11 +13,7 @@ tags:
 - note
 - 04-authority
 - canon/control-plane
-- 00-home
-- 00-root-moc
 - authority-control-plane-readme
-- amos-rscf-nodes
-- 04-authority-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

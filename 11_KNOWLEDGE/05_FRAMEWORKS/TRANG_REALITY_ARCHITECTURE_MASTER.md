@@ -9,9 +9,6 @@ tags:
 - master
 - canon
 - khung-trang-master
-- 11-knowledge-moc
-- kernel-moc
-- 00-home
 ---
 
 # Trang Reality Architecture Master

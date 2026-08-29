@@ -6,11 +6,7 @@ tags:
 - reference
 - amos-natural-evidence-trail-reasoning-rscf
 - type/skill
-- references-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- 07-skills-moc
 - 2026-08-22-cognitive-substrate-reality-gate
 - trang-framework-recursive-ontology-dynamics
 rscf:

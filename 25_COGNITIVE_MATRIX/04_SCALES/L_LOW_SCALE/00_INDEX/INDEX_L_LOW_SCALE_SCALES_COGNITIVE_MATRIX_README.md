@@ -8,8 +8,6 @@ tags:
 - domain/cognitive-matrix
 - readme
 - l-low-scale-map
-- 00-home
-- amos-rscf-nodes
 - routing-policy-validation-receipt
 - scales-cognitive-matrix-l-low-scale-contract
 - authz-engine-validation-receipt
@@ -18,9 +16,6 @@ tags:
 - control-plane-readme
 - observability-readme
 - operations-readme
-- 00-root-moc
-- amos-moc
-- 00-index-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

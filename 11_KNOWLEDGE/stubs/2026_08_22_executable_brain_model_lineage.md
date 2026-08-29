@@ -6,8 +6,6 @@ tags:
 - brain
 - model
 - lineage
-- kernel-moc
-- 00-home
 - 2026-08-22-executable-brain-model-lineage
 ---
 

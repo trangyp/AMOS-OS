@@ -7,7 +7,6 @@ tags:
 - amos-fractal-systems-master
 - type/skill
 - skill
-- amos-fractal-systems-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

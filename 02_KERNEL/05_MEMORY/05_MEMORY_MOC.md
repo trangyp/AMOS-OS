@@ -12,8 +12,7 @@ tags:
 - k-memory-immune
 - k-memory-retrieval
 - memory-kernel-readme
-- 00-index-moc
-- 02-kernel-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -32,8 +32,6 @@ tags:
 - topic/naming
 - topic/provenance
 - readme
-- 00-root-moc
-- amos-moc
 - architecture
 - system-map
 - neural-network
@@ -45,9 +43,6 @@ tags:
 - unit-registry
 - universal-variable-registry
 - control-plane-map
-- 00-home
-- amos-rscf-nodes
-- 06-glossary-moc
 aliases:
 - AMOS Alias Registry - AMOS Identity Alias Registry - Canonical Alias Registry -
   Alias Resolu

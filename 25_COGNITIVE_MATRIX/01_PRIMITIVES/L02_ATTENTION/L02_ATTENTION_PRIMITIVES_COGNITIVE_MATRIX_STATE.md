@@ -8,12 +8,6 @@ tags:
 - l02_attention
 - note
 - domain/cognitive-matrix
-- 00-root-moc
-- amos-moc
-- 00-home
-- cognitive-matrix-moc
-- amos-rscf-nodes
-- l02-attention-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

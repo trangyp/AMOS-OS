@@ -7,7 +7,6 @@ tags:
 - amos-law-stack-enforcement
 - type/skill
 - skill
-- amos-law-stack-enforcement-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

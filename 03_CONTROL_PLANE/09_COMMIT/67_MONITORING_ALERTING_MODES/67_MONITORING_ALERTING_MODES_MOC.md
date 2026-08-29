@@ -7,7 +7,7 @@ tags:
 - canon/control-plane
 - control-plane-mode-family-registry
 - control-plane-mode-family-spec
-- 09-commit-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

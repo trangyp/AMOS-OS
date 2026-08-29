@@ -8,8 +8,7 @@ tags:
 - c02-math-compute-domains-domain-spec
 - c02-math-compute-domains-readme
 - domains-c02-math-compute-contract
-- 00-index-moc
-- 21-domains-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

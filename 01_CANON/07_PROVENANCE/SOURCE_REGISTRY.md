@@ -38,8 +38,6 @@ tags:
 - topic/sybil-hardening
 - topic/persistent-provenance
 - readme
-- 00-root-moc
-- amos-moc
 - architecture
 - system-map
 - neural-network
@@ -58,9 +56,6 @@ tags:
 - persistence-canon
 - authority-canon
 - control-plane-canon
-- 00-home
-- amos-rscf-nodes
-- 07-provenance-moc
 aliases:
 - AMOS Source Registry - AMOS OS Source Registry - Canon Source Registry
 ---

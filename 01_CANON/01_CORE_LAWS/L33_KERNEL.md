@@ -7,17 +7,12 @@ tags:
 - core_laws
 - note
 - canon/universe
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 - l31-amos-plane
 - l32-canon
 - l8-execution
 - l10-failure-recovery
 - l22-replayability
-- 01-core-laws-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

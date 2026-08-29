@@ -6,10 +6,6 @@ tags:
 - reference
 - amos-security-control-access-bridge-governor
 - type/skill
-- references-moc
-- 07-skills-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 - trang-framework-recursive-ontology-dynamics
 rscf:

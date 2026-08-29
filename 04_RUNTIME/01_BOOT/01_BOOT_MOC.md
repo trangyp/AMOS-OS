@@ -9,7 +9,7 @@ tags:
 - full-brain-bootstrap
 - ubi-bootstrap
 - universe-canon-bootstrap
-- 04-runtime-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

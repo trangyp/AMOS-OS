@@ -6,8 +6,7 @@ tags:
 - amos-arxiv-influence-guided-symbolic-reg
 - type/skill
 - skill
-- references-moc
-- 07-skills-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

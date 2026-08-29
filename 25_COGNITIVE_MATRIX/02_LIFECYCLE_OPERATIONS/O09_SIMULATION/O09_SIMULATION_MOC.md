@@ -6,8 +6,7 @@ tags:
 - o09-simulation
 - domain/cognitive-matrix
 - cognitive-matrix-o09-simulation-contract
-- 00-index-moc
-- 02-lifecycle-operations-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

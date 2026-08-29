@@ -7,10 +7,7 @@ tags:
 - validation
 - versioning
 - pass
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- 01-core-laws-moc
 - trang-framework-recursive-ontology-dynamics
 ---
 

@@ -1,11 +1,9 @@
 ---
 title: fractal moc
 tags:
+moc: true
 - stub
 - fractal
-- fractal-moc
-- kernel-moc
-- 00-home
 ---
 
 # fractal moc

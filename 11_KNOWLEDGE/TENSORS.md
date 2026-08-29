@@ -11,9 +11,6 @@ tags:
 - topic/tensors
 - knowledge
 - tensor-contracts
-- 00-home
-- amos-rscf-nodes
-- knowledge-moc
 - claim-tensor
 - amos-cross-domain-tensor-composition-governor
 - evidence-tensor
@@ -21,8 +18,6 @@ tags:
 - amos-simulation-kernel-v0-math-foundations
 - system-scan-agent
 - automation-profiles
-- 00-root-moc
-- amos-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

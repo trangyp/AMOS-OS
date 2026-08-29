@@ -44,8 +44,6 @@ tags:
 - hml/h
 - epistemic/source_claim
 - amos-os
-- references-moc
-- 00-home
 rscf:
   state: SOURCE_CLAIM
   claim_class: MODEL

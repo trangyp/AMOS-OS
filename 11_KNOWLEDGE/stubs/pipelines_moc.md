@@ -1,11 +1,9 @@
 ---
 title: pipelines moc
 tags:
+moc: true
 - stub
 - pipelines
-- pipelines-moc
-- kernel-moc
-- 00-home
 ---
 
 # pipelines moc

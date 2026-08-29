@@ -8,7 +8,6 @@ tags:
 - rscf/state/observation
 - topic/amos-documentation-kernel-v0
 - kernel
-- kernel-moc
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:

@@ -6,10 +6,6 @@ tags:
 - note
 - o02-relation
 - domain/cognitive-matrix
-- cognitive-matrix-moc
-- 00-root-moc
-- amos-moc
-- o02-relation-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

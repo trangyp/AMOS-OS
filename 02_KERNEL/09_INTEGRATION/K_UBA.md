@@ -22,10 +22,6 @@ tags:
 - cross-layer-binding
 - rscf/claim
 - rscf/state/canonical
-- 00-home
-- 00-root-moc
-- 02-kernel-moc
-- 09-integration-moc
 aliases:
 - UBA Kernel
 - K_UBA

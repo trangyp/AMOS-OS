@@ -8,12 +8,6 @@ tags:
 - canon/cognitive
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- index-cognitive-organism-readme
-- 00-index-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

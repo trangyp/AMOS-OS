@@ -7,8 +7,6 @@ tags:
 - engine
 - vinfinity
 - org-governance-engine-vinfinity-v2-0-0
-- kernel-moc
-- 00-home
 ---
 
 # org governance engine vinfinity v2 0 0

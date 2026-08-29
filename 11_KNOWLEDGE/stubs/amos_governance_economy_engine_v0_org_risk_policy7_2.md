@@ -8,8 +8,6 @@ tags:
 - engine
 - org
 - risk
-- kernel-moc
-- 00-home
 ---
 
 # amos governance economy engine v0 org risk policy7 2

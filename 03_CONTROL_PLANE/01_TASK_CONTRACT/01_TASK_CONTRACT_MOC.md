@@ -8,8 +8,7 @@ tags:
 - task-contract
 - task-contract-control-plane-readme
 - task-resolver
-- 00-index-moc
-- 03-control-plane-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

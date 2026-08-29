@@ -39,8 +39,6 @@ tags:
 - architecture
 - l19-proof-capsule
 - law-hierarchy
-- 00-home
-- amos-rscf-nodes
 - canon-law-crosswalk
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt

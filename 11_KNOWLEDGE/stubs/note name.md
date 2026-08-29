@@ -5,8 +5,6 @@ tags:
 - note
 - name
 - note-name
-- kernel-moc
-- 00-home
 ---
 
 # note name

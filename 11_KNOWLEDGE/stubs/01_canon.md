@@ -4,8 +4,6 @@ tags:
 - stub
 - canon
 - 01-canon
-- kernel-moc
-- 00-home
 ---
 
 # 01 canon

@@ -14,11 +14,8 @@ tags:
 - rscf/state/source-claim
 - topic/ev-engine
 - engine
-- 00-home
-- knowledge-moc
 - system-scan-agent
 - automation-profiles
-- engine-moc
 - amos-simulation-kernel-v0-math-foundations
 - trang-framework-recursive-ontology-dynamics
 created: 2026-08-22

@@ -9,8 +9,6 @@ tags:
 - index
 - readme
 - canon/test
-- index-tests-readme
-- index-tests-test-contract
 - test-map
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
@@ -19,9 +17,6 @@ tags:
 - control-plane-readme
 - observability-readme
 - operations-readme
-- 00-home
-- amos-rscf-nodes
-- 00-index-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

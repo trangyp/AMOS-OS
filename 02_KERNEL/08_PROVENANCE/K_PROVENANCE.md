@@ -43,11 +43,6 @@ tags:
 - k-collapse-recovery
 - k-commit-time-authority
 - k-information-exposure
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 08-provenance-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

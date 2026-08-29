@@ -5,8 +5,7 @@ source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L12_COUNTERFACTUAL_SIMULATION
 tags:
 - l12-counterfactual-simulation
 - domain/cognitive-matrix
-- 00-index-moc
-- 01-primitives-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -5,7 +5,7 @@ source: 03_CONTROL_PLANE/09_COMMIT/97_ALLOCATION_RESOURCE_MODES
 tags:
 - 97-allocation-resource-modes
 - canon/control-plane
-- 09-commit-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

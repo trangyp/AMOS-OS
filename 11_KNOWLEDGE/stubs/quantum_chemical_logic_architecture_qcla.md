@@ -8,8 +8,6 @@ tags:
 - architecture
 - qcla
 - quantum-chemical-logic-architecture-qcla
-- kernel-moc
-- 00-home
 ---
 
 # quantum chemical logic architecture qcla

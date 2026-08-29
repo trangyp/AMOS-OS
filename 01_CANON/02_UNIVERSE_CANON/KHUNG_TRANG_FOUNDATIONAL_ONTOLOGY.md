@@ -9,11 +9,7 @@ tags:
 - pre_symbolic
 - khung-trang-master
 - khung-trang-canon
-- 02-universe-canon-moc
-- 00-home
-- amos-rscf-nodes
 - trang-framework-recursive-ontology-dynamics
-- 00-index-moc
 rscf:
   state: CANON_SPEC
   claim_class: CANONICAL_INVARIANT

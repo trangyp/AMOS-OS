@@ -15,9 +15,6 @@ tags:
 - amos-os
 - canon-group/tech-ai
 - canon/tooling
-- 00-root-moc
-- knowledge-moc
-- llm-wiki-moc
 - llm-wiki-index
 - llm-wiki-log
 title: AMOS LLM Wiki

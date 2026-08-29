@@ -8,9 +8,6 @@ tags:
 - v4_4
 - coordination_avoidance
 - amos-core
-- 00-root-moc
-- 04-runtime-moc
-- 00-home
 rscf:
   state: CANON_SPEC
   claim_class: AMOS_SYSTEM_CORE

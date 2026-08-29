@@ -5,7 +5,7 @@ source: 03_CONTROL_PLANE/09_COMMIT/68_OPPORTUNITY_DISCOVERY_MODES
 tags:
 - 68-opportunity-discovery-modes
 - canon/control-plane
-- 09-commit-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

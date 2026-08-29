@@ -7,11 +7,6 @@ tags:
 - integration
 - note
 - canon/kernel
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 09-integration-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

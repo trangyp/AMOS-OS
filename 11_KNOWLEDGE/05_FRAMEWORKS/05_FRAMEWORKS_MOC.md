@@ -104,7 +104,7 @@ tags:
 - ubi-wearable
 - ubi-wearable-framework
 - unified-biological-intelligence
-- knowledge-moc
+moc: true
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

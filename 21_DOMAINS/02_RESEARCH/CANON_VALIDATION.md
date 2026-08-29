@@ -24,11 +24,7 @@ tags:
 - canon_candidate
 - canon/domain
 - canon-source-claim-audit
-- 01-canon-moc
 - total-canon-matrix
-- 00-home
-- 21-domains-moc
-- 02-research-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

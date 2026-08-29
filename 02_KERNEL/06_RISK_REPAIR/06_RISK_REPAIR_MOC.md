@@ -16,8 +16,7 @@ tags:
 - k-ubi-entropy-correction
 - k-ubi-homeostasis
 - risk-repair-kernel-readme
-- 00-index-moc
-- 02-kernel-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

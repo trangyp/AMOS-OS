@@ -6,10 +6,6 @@ tags:
 - note
 - l15-goal-formation
 - domain/cognitive-matrix
-- cognitive-matrix-moc
-- 00-root-moc
-- amos-moc
-- l15-goal-formation-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

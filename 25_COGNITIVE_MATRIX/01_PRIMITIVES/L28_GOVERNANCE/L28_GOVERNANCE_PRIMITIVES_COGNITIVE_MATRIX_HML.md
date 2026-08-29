@@ -6,10 +6,6 @@ tags:
 - note
 - l28-governance
 - domain/cognitive-matrix
-- cognitive-matrix-moc
-- 00-root-moc
-- amos-moc
-- l28-governance-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

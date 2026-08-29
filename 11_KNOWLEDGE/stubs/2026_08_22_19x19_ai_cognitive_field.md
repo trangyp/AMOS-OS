@@ -5,8 +5,6 @@ tags:
 - cognitive
 - field
 - 2026-08-22-19x19-ai-cognitive-field
-- kernel-moc
-- 00-home
 ---
 
 # 2026 08 22 19x19 ai cognitive field

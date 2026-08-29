@@ -77,11 +77,6 @@ tags:
 - test-map
 - operations-map
 - operating-model
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 04-infrastructure-canon-moc
 aliases:
 - AMOS Control Plane Canon - Control Plane Canon - AMOS Governance Control Plane -
   AMOS Commit

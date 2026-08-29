@@ -7,7 +7,6 @@ tags:
 - amos-trang-framework-master
 - type/skill
 - skill
-- amos-trang-framework-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

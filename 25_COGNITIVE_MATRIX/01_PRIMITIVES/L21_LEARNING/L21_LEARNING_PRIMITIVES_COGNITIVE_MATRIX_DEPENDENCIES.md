@@ -6,10 +6,6 @@ tags:
 - note
 - l21-learning
 - domain/cognitive-matrix
-- cognitive-matrix-moc
-- 00-root-moc
-- amos-moc
-- l21-learning-moc
 - l29-evolution-primitives-cognitive-matrix-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:

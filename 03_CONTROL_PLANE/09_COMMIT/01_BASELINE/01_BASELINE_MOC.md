@@ -30,7 +30,7 @@ tags:
 - baseline-commit-control-plane-tests
 - baseline-commit-control-plane-transition-rules
 - baseline-commit-control-plane-validation
-- 09-commit-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL

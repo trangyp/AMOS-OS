@@ -8,8 +8,7 @@ tags:
 - c05-mind-behavior-domains-domain-spec
 - c05-mind-behavior-domains-readme
 - domains-c05-mind-behavior-contract
-- 00-index-moc
-- 21-domains-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

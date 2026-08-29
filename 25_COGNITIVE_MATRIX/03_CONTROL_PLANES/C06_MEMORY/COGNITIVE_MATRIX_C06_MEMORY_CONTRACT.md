@@ -8,12 +8,7 @@ tags:
 - c06_memory
 - contract
 - domain/cognitive-matrix
-- 00-root-moc
-- amos-moc
-- cognitive-matrix-moc
-- 00-home
 - cognitive-matrix-control-planes-contract
-- c06-memory-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

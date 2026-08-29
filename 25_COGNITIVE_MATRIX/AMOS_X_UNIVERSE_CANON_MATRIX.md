@@ -34,16 +34,12 @@ tags:
 - canon_candidate
 - canon/matrix
 - amos-x-universe-canon
-- 00-root-moc
-- 00-home
-- 25-cognitive-matrix-moc
 - universe-rscf-index
 - canon
 - amos-x-ubi
 - amos-x-tss
 - amos-x-tpe
 - amos-x-qls
-- amos-rscf-nodes
 - law-hierarchy
 - memory
 version: 1.1.0

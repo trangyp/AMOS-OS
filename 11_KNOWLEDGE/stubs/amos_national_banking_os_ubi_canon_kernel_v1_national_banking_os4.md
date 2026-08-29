@@ -8,8 +8,6 @@ tags:
 - ubi
 - canon
 - kernel
-- kernel-moc
-- 00-home
 ---
 
 # amos national banking os ubi canon kernel v1 national banking os4

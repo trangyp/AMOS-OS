@@ -7,10 +7,6 @@ tags:
 - amos-os-runtime-master
 - type/skill
 - architecture
-- references-moc
-- 07-skills-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 - trang-framework-recursive-ontology-dynamics
 rscf:

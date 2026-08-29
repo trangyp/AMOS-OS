@@ -8,8 +8,7 @@ tags:
 - escalation-operating-model-readme
 - escalation-paths
 - operating-model-escalation-contract
-- 00-index-moc
-- 23-operating-model-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

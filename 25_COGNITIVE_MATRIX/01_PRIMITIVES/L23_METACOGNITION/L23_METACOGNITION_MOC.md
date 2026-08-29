@@ -5,11 +5,10 @@ source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L23_METACOGNITION
 tags:
 - l23-metacognition
 - domain/cognitive-matrix
-- 00-index-moc
-- 01-primitives-moc
 - cognitive-matrix-l23-metacognition-contract
 - l23-metacognition-primitives-cognitive-matrix-hml
 - l23-metacognition-primitives-cognitive-matrix-rscf
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

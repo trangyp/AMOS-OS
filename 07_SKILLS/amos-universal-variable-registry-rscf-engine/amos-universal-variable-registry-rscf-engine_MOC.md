@@ -6,8 +6,7 @@ tags:
 - amos-universal-variable-registry-rscf-en
 - type/skill
 - skill
-- references-moc
-- 07-skills-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

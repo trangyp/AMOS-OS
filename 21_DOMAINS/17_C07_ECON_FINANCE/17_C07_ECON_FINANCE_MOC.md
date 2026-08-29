@@ -8,8 +8,7 @@ tags:
 - c07-econ-finance-domains-domain-spec
 - c07-econ-finance-domains-readme
 - domains-c07-econ-finance-contract
-- 00-index-moc
-- 21-domains-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

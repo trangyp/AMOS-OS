@@ -6,10 +6,6 @@ tags:
 - note
 - l13-prediction
 - domain/cognitive-matrix
-- cognitive-matrix-moc
-- 00-root-moc
-- amos-moc
-- l13-prediction-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

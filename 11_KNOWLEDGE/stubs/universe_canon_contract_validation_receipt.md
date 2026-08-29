@@ -7,8 +7,6 @@ tags:
 - contract
 - validation
 - receipt
-- kernel-moc
-- 00-home
 - universe-canon-contract-validation-receipt
 ---
 

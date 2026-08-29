@@ -8,8 +8,6 @@ tags:
 - kernel
 - biology
 - cognition
-- kernel-moc
-- 00-home
 ---
 
 # amos clinical research kernel v0 biology cognition7 3

@@ -9,7 +9,6 @@ tags:
 - karpathy-llm-wiki-summary
 - llm-wiki-pattern
 - amos-llm-wiki
-- llm-wiki-moc
 - llm-wiki-index
 - llm-wiki-log
 - amos-llm-wiki-operations

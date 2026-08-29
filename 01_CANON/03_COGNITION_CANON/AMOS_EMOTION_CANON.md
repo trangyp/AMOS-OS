@@ -32,10 +32,6 @@ tags:
 - regime
 - validation
 - canon/universe
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 - amos-cognition-canon
 - amos-consciousness-canon
@@ -45,7 +41,6 @@ tags:
 - operations-readme
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
-- 03-cognition-canon-moc
 version: 0.2.0
 updated: '2026-08-28'
 status: PLACEHOLDER_EXPANDED

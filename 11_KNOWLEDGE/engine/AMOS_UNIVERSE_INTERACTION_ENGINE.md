@@ -16,10 +16,6 @@ tags:
 - pointer
 - engine
 - canon/knowledge
-- engine-moc
-- knowledge-moc
-- kernel-moc
-- 00-home
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: AMOS_MODEL

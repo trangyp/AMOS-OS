@@ -5,8 +5,7 @@ source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION
 tags:
 - l04-object-entity-formation
 - domain/cognitive-matrix
-- 00-index-moc
-- 01-primitives-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

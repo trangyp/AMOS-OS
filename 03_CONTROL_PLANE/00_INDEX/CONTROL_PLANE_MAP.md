@@ -7,13 +7,7 @@ tags:
 - index
 - map
 - canon/control-plane
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
 - amos-layer-maps
-- index-control-plane-readme
-- 00-index-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -6,10 +6,6 @@ tags:
 - reference
 - amos-os-runtime-master
 - type/skill
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- references-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

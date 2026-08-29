@@ -6,10 +6,6 @@ tags:
 - reference
 - amos-session-control-plane
 - type/skill
-- references-moc
-- 07-skills-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 - trang-framework-recursive-ontology-dynamics
 rscf:
@@ -99,7 +95,8 @@ Financial Infrastructure Ecosystem: 11 actor types
 
 Governance and Standards Ecosystem: 11 actor types
 
-Biological and Environmental Ecosystem: 10 actor types
+
+Biological and Environmental Ecosystem: 10 actor types
 
 Original Human-Digital Ecosystem: 14 actor types
 
@@ -188,7 +185,8 @@ Cross-border resource allocation and management
 
 Competitive Advantages
 
-1. First-Mover Monopoly
+
+1. First-Mover Monopoly
 
 No comparable planetary-scale consent infrastructure exists
 
@@ -240,7 +238,8 @@ Process 1M+ consent cases daily
 
 Establish regulatory partnerships
 
-Phase 2: Ecosystem Expansion (Months 18-36)
+
+Phase 2: Ecosystem Expansion (Months 18-36)
 
 Supply chain integration across major global networks
 

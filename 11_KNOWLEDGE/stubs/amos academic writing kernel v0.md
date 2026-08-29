@@ -7,8 +7,6 @@ tags:
 - writing
 - kernel
 - amos-academic-writing-kernel-v0
-- kernel-moc
-- 00-home
 ---
 
 # amos academic writing kernel v0

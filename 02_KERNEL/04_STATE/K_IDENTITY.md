@@ -35,8 +35,6 @@ tags:
 - topic/semantic-identity
 - topic/provenance-lineage
 - readme
-- 00-root-moc
-- amos-moc
 - architecture
 - dependency-map
 - authoritative-state
@@ -58,9 +56,6 @@ tags:
 - control-plane-map
 - runtime-map
 - agent-map
-- 00-home
-- amos-rscf-nodes
-- 04-state-moc
 aliases:
 - AMOS Identity Kernel - Identity Kernel - K Identity - K_IDENTITY
 ---

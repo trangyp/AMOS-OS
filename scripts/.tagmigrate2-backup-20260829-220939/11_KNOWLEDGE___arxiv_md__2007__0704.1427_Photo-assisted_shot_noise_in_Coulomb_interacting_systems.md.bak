@@ -1,0 +1,184 @@
+---
+amos_schema: ARXIV_RSCF_MAX_DETAIL_V1
+document_type: scientific_paper_knowledge_node
+knowledge_layer: research_reference
+source_type: PRIMARY_PAPER
+default_epistemic_class: SOURCE_CLAIM
+arxiv:
+  id: '0704.1427'
+  version: v1
+  identifier: arXiv:0704.1427v1
+  category: cond-mat.mes-hall
+  submitted: '2007-04-11'
+bibliography:
+  title: Photo-Assisted Shot Noise in Coulomb Interacting Systems
+  authors:
+  - A. Crépieux
+  - M. Guigou
+  - A. Popoff
+  - P. Devillard
+  - T. Martin
+  institution: Centre de Physique Théorique, CNRS Luminy
+  year: 2007
+  pages: 4
+domains:
+  primary: mesoscopic condensed matter physics
+  secondary:
+  - quantum transport
+  - shot noise
+  - photo-assisted transport
+  - Coulomb interacting systems
+  - fractional quantum Hall effect
+  - Luttinger liquids
+  - carbon nanotubes
+systems:
+- id: FQH
+  name: fractional quantum Hall edge system
+- id: CNT
+  name: STM-injected carbon nanotube
+core_claim:
+  class: SOURCE_CLAIM
+  statement: 'Coulomb interactions qualitatively modify photo-assisted shot-noise
+    signatures relative to non-interacting conductors. '
+paper_specific_results:
+  fractional_quantum_hall:
+    result: 'The noise derivative develops evenly spaced singularities whose spacing
+      is connected to filling factor and quasiparticle charge. '
+    epistemic_class: SOURCE_CLAIM
+  carbon_nanotube:
+    result: 'Coulomb interactions smooth the staircase structure of the photo-assisted
+      noise derivative, while finite-size effects can restore behavior resembling
+      the non-interacting staircase. '
+    epistemic_class: SOURCE_CLAIM
+type: knowledge
+tags:
+- amos-os
+- knowledge
+- canon/knowledge
+- rscf
+- provenance
+- topic/physics
+- topic/arxiv
+- references
+- arxiv-md-moc
+- trang-framework-recursive-ontology-dynamics
+---
+
+---
+
+## title: "Photo-assisted shot noise in Coulomb interacting systems" type: reference source: 11_KNOWLEDGE/\_arxiv_md/2007 tags: [arxiv, research, 2007, canon/knowledge, canon/research] rscf: state: SOURCE_CLAIM claim_class: SOURCE_CLAIM provenance: arxiv scope: AMOS_research
+
+# Photo-assisted shot noise in Coulomb interacting systems
+
+Yes — for **this paper**. I’ll use the same **MAX-detail AMOS/arXiv Markdown knowledge-node format**, not a short summary. The source is the 4-page paper *Photo-Assisted Shot Noise in Coulomb Interacting Systems* by Crépieux et al.
+
+The MD should preserve the paper’s two distinct physical systems, equations, parameter definitions, regimes, figure interpretations, conclusions, and epistemic status. A suitable structure is:
+
+---
+
+# 32. KNOWLEDGE-GRAPH EDGES
+
+```yaml
+edges:
+
+  - from: AC_VOLTAGE
+    relation: MODULATES
+    to: TUNNEL_AMPLITUDE
+
+  - from: TUNNEL_AMPLITUDE
+    relation: GENERATES
+    to: BESSEL_SIDEBANDS
+
+  - from: FQH_FILLING_FACTOR
+    relation: DEFINES
+    to: QUASIPARTICLE_CHARGE
+
+  - from: QUASIPARTICLE_CHARGE
+    relation: SETS
+    to: FQH_OMEGA_0
+
+  - from: FQH_OMEGA_0
+    relation: CONTROLS
+    to: NOISE_SINGULARITY_POSITION
+
+  - from: K_C_PLUS
+    relation: CONTROLS
+    to: CNT_INTERACTION_STRENGTH
+
+  - from: CNT_INTERACTION_STRENGTH
+    relation: MODIFIES
+    to: NOISE_DERIVATIVE_PROFILE
+
+  - from: NANOTUBE_LENGTH
+    relation: CONTRIBUTES_TO
+    to: FINITE_SIZE_REGIME
+
+  - from: FINITE_SIZE_REGIME
+    relation: COMPETES_WITH
+    to: INTERACTION_SIGNATURE
+```
+
+---
+
+# 33. AMOS COMPRESSION CAPSULE
+
+**Paper:** Crépieux et al., arXiv:0704.1427v1.
+
+**Question:** How does Coulomb interaction modify photo-assisted shot noise?
+
+**FQH result:** fractional quasiparticle transport produces predicted
+evenly spaced singularities in the noise derivative, with spacing tied to
+(\\nu e).
+
+**CNT result:** Luttinger-liquid interactions smooth the conventional
+photo-assisted staircase; finite nanotube size progressively restores
+step-like behavior.
+
+**Shared mechanism:** AC voltage generates Bessel-weighted photon
+sidebands (\\omega_0+p\\omega).
+
+**Critical validity boundary:** the treatment is model- and
+regime-dependent; perturbative divergences outside its validity domain
+must not be interpreted physically.
+
+**Knowledge status:** PRIMARY SOURCE / SOURCE MODEL RESULTS.
+
+---
+
+# 34. REFERENCES
+
+Preserve the paper's complete reference list verbatim or as structured
+bibliographic records in the raw-reference layer.
+
+---
+
+# 35. PROVENANCE
+
+```yaml
+provenance:
+  source_document:
+    title: "Photo-Assisted Shot Noise in Coulomb Interacting Systems"
+    arxiv: "0704.1427v1"
+    pages: 4
+
+  extraction:
+    source_fidelity: "high"
+    interpretation_policy: "preserve source claims"
+    external_verification: false
+
+  integrity:
+    equations_should_be_checked_against_pdf: true
+    OCR_artifact_risk: true
+    unsupported_generalization: forbidden
+    empirical_upgrade_without_evidence: forbidden
+```
+
+```
+
+That is the level I’d use for the `.md`: **full paper → structured scientific knowledge node → equation/parameter/regime map → RSCF claims → epistemic/scope firewall → retrieval routes**, rather than reducing a four-page paper to a few paragraphs.
+```
+
+---
+
+**MOC:** [[_arxiv_md_MOC]]
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

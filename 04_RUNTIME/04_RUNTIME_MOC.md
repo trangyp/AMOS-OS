@@ -7,12 +7,8 @@ tags:
 - canon/runtime
 - runtime-readme
 - runtime-runtime-contract
-- 00-index-moc
-- 01-boot-moc
-- 02-router-moc
-- 06-execution-moc
-- 09-finalization-moc
 - amos-home
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

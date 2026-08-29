@@ -7,10 +7,8 @@ tags:
 - canon/schema
 - schemas-readme
 - schemas-schema-contract
-- 00-index-moc
-- 10-rscf-moc
-- 11-observability-moc
 - amos-home
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

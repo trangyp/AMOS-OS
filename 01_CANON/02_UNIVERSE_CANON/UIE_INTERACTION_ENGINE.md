@@ -6,8 +6,6 @@ tags:
 - uie
 - interaction
 - universe_canon
-- 00-index-moc
-- 00-home
 ---
 
 # UIE Interaction Engine

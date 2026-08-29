@@ -6,10 +6,6 @@ tags:
 - note
 - l24-self-regulation
 - domain/cognitive-matrix
-- cognitive-matrix-moc
-- 00-root-moc
-- amos-moc
-- l24-self-regulation-moc
 - l02-attention-primitives-cognitive-matrix-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:

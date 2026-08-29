@@ -7,8 +7,6 @@ tags:
 - architecture
 - kernel
 - business
-- kernel-moc
-- 00-home
 - amos-revenue-architecture-kernel-v0-business4
 ---
 

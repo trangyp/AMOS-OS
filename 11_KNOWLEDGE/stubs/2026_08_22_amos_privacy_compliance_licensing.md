@@ -6,8 +6,6 @@ tags:
 - privacy
 - compliance
 - licensing
-- kernel-moc
-- 00-home
 - 2026-08-22-amos-privacy-compliance-licensing
 ---
 

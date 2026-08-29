@@ -1,0 +1,148 @@
+---
+title: automation super engine
+type: reference
+source: 07_SKILLS/amos-c10-tech-engineering-master/references
+tags:
+- reference
+- amos-c10-tech-engineering-master
+- type/skill
+- amos-c10-tech-engineering-master-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- 07-skills-moc
+- trang-framework-recursive-ontology-dynamics
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
+---
+
+# AMOS Automation SUPER Engine
+
+> Source: `_00_Cosmo brain/engine/A/Automation_SUPER_Engine.md`
+> Epistemic class: SOURCE_DERIVED
+
+---
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: automation-super-engine
+tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/automation-super-engine, engine]
+created: 2026-08-22
+---
+
+```json
+{
+  "meta": {
+    "name": "AMOS_AUTOMATION_ENGINE_v2.0.0",
+    "description": "Unified, self-auditing automation OS combining SUPER_CODE, Tech vInfinity MAX, and Design v4.0.0 engines with full integration scaffolding, benchmarking, and n8n-style workflow orchestration primitives.",
+    "version": "2.0.0",
+    "source_files": [
+      "AMOS_SUPER_CODE_Engine_v1.6.0.json",
+      "Tech_Engine_vInfinity_MAX.json",
+      "Design_Engine_v4.0.0.json"
+    ],
+    "schema": "combined_engine_bundle",
+    "notes": "Some source files may include 'raw_text' wrappers if they were not strict JSON.",
+    "enhancements": [
+      "Self-audit pipeline for every automation run (design, code, infra, data).",
+      "Benchmarking contract for reliability, latency, cost, and safety across workflows.",
+      "First-class integration model for n8n, Zapier, Make, and generic webhook-based tools.",
+      "Extensible automation pattern library (30+ blueprints) with parameter schemas.",
+      "Auto-repair and retry orchestration with graded fallbacks and human-in-the-loop hooks."
+    ]
+  },
+  "engines": {
+    "SUPER_CODE_ENGINE": {
+      "meta": {
+        "name": "Unified_Coding_Engine_vInfinity",
+        "version": "1.6.0",
+        "default_language": "English",
+        "audit_profile": {
+          "requires_format_and_loading_audit": true,
+          "requires_prompt_integration_audit": true,
+          "requires_security_audit": true,
+          "requires_quality_audit": true,
+          "requires_governance_audit": true
+        },
+        "maturity": "fully_scoped_100%_with_delivery_layers",
+        "capability_flags": {
+          "architecture_fully_specified": true,
+          "runtime_fully_specified": true,
+          "testing_fully_specified": true,
+          "memory_fully_specified": true,
+          "self_correction_fully_specified": true,
+          "routing_fully_specified": true,
+          "language_control_fully_specified": true,
+          "governance_fully_specified": true,
+          "architecture_layer_defined": true,
+          "scope_excludes_theoretical_ai_research": true,
+          "infrastructure_support_is_advisory_not_runtime_bound": true,
+          "has_documentation_layer": true,
+          "has_estimation_planning_layer": true,
+          "has_change_impact_layer": true,
+          "has_api_contract_layer": true
+        }
+      },
+      "engine": {
+        "description": "Unified Coding Engine with runtime, testing, memory, and self-correction layers. Scope: code-related development, testing, debugging, and architecture across all software roles; excludes novel theoretical AI research and non-technical organisational politics.",
+        "capabilities": {
+          "runtime_layer": {
+            "functions": {
+              "observe_runtime_signals": {
+                "description": "Ingest runtime logs, metrics, and error events.",
+                "inputs_required": [
+                  "log_samples",
+                  "error_events",
+                  "metrics_snapshot",
+                  "deployment_context"
+                ],
+                "outputs": [
+                  "runtime_health_summary",
+                  "suspected_failure_points",
+                  "candidate_signals_to_instrument"
+                ]
+              },
+              "derive_execution_gaps": {
+                "description": "Find missing checks, missing branches, and unhandled states.",
+                "inputs_required": [
+                  "runtime_health_summary",
+                  "engine_expected_flows",
+                  "entity_state_model"
+                ],
+                "outputs": [
+                  "execution_gap_list",
+                  "prioritised_runtime_fix_list"
+                ]
+
+---
+**MOC:**
+
+## Related
+
+-
+```
+
+---
+
+**Related:** [[amos-c10-tech-engineering-master_MOC]]
+---
+
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
+
+**MOC:** references_MOC
+
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+RSCF-NODE
+node_id: amos-c10-tech-engineering-master-automation-super-engine
+node_type: reference
+path: 07_SKILLS/amos-c10-tech-engineering-master/references/automation_super_engine.md
+RSCF-RELATIONS:
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- CHILD_OF: references_MOC

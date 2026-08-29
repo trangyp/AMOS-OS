@@ -6,10 +6,6 @@ tags:
 - note
 - l26-social-cognition
 - domain/cognitive-matrix
-- cognitive-matrix-moc
-- 00-root-moc
-- amos-moc
-- l26-social-cognition-moc
 - l17-decision-primitives-cognitive-matrix-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:

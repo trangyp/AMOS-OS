@@ -22,11 +22,8 @@ tags:
 - rscf
 - canon_candidate
 - canon/runtime
-- 01-boot-moc
 - amos-full-brain-os-architecture
 - ubi-x-full-brain
-- 00-home
-- 04-runtime-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

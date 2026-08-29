@@ -8,8 +8,6 @@ tags:
 - architecture
 - qcla
 - false
-- kernel-moc
-- 00-home
 - quantum-causality-layer-architecture-qcla-off
 ---
 

@@ -8,8 +8,7 @@ tags:
 - c11-design-language-domains-domain-spec
 - c11-design-language-domains-readme
 - domains-c11-design-language-contract
-- 00-index-moc
-- 21-domains-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

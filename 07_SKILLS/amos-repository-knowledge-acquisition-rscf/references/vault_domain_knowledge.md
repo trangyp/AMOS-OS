@@ -6,12 +6,7 @@ tags:
 - reference
 - amos-repository-knowledge-acquisition-rscf
 - type/skill
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- references-moc
-- 07-skills-moc
-- amos-repository-knowledge-acquisition-rscf-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

@@ -6,10 +6,6 @@ tags:
 - note
 - l11-causal-modeling
 - domain/cognitive-matrix
-- cognitive-matrix-moc
-- 00-root-moc
-- amos-moc
-- l11-causal-modeling-moc
 - l13-prediction-primitives-cognitive-matrix-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:

@@ -8,7 +8,6 @@ tags:
 - rscf/state/observation
 - topic/tech-engine
 - engine
-- engine-moc
 - trang-framework-recursive-ontology-dynamics
 type: data
 source: 11_KNOWLEDGE/engine

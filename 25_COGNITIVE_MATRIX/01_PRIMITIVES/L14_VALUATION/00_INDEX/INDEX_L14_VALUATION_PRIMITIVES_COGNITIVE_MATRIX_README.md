@@ -8,8 +8,6 @@ tags:
 - domain/cognitive-matrix
 - readme
 - l14-valuation-map
-- 00-home
-- amos-rscf-nodes
 - routing-policy-validation-receipt
 - primitives-cognitive-matrix-l14-valuation-contract
 - authz-engine-validation-receipt
@@ -18,9 +16,6 @@ tags:
 - control-plane-readme
 - observability-readme
 - operations-readme
-- 00-root-moc
-- amos-moc
-- 00-index-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

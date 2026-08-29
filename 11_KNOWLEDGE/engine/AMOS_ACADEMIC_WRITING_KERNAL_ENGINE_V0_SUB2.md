@@ -8,7 +8,6 @@ tags:
 - rscf/state/observation
 - topic/amos-academic-writing-kernal-engine-v0
 - engine
-- engine-moc
 type: data
 source: 11_KNOWLEDGE/engine
 rscf:

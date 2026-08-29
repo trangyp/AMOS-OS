@@ -7,18 +7,8 @@ tags:
 - canon/operations
 - operations-operations-contract
 - operations-readme
-- 00-index-moc
-- 01-runbooks-moc
-- 02-playbooks-moc
-- 03-procedures-moc
-- 04-handbooks-moc
-- 05-policies-moc
-- 06-schedules-moc
-- 07-monitoring-moc
-- 08-incident-response-moc
-- 09-backups-moc
-- 10-maintenance-moc
 - amos-home
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

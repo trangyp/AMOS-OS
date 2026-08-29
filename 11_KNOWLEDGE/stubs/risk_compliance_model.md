@@ -6,8 +6,6 @@ tags:
 - compliance
 - model
 - risk-compliance-model
-- kernel-moc
-- 00-home
 ---
 
 # risk compliance model

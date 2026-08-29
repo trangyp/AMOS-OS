@@ -7,8 +7,6 @@ tags:
 - wiki
 - agent
 - amos-llm-wiki-agent
-- kernel-moc
-- 00-home
 ---
 
 # amos-llm-wiki-agent

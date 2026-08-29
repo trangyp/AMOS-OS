@@ -1,12 +1,10 @@
 ---
 title: universe-cosmos moc
 tags:
+moc: true
 - stub
 - universe
 - cosmos
-- universe-cosmos-moc
-- kernel-moc
-- 00-home
 ---
 
 # universe-cosmos moc

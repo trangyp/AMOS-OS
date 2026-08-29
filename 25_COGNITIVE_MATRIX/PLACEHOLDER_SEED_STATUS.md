@@ -6,10 +6,6 @@ tags:
 - note
 - 25-cognitive-matrix
 - domain/cognitive-matrix
-- cognitive-matrix-moc
-- 00-home
-- amos-rscf-nodes
-- 25-cognitive-matrix-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

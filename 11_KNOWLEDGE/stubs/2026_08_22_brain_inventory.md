@@ -5,8 +5,6 @@ tags:
 - brain
 - inventory
 - 2026-08-22-brain-inventory
-- kernel-moc
-- 00-home
 ---
 
 # 2026 08 22 brain inventory

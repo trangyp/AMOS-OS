@@ -10,8 +10,7 @@ tags:
 - provenance-control-plane-readme
 - provenance-ledger
 - read-set-validator
-- 00-index-moc
-- 03-control-plane-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL

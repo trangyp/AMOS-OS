@@ -6,9 +6,8 @@ tags:
 - c08-execution
 - domain/cognitive-matrix
 - cognitive-matrix-c08-execution-contract
-- 00-index-moc
-- 03-control-planes-moc
 - c08-execution-control-planes-cognitive-matrix-rscf
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

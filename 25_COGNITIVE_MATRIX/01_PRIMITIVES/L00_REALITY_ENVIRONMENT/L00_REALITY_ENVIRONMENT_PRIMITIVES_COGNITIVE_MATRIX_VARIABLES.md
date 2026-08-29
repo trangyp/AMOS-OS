@@ -8,12 +8,6 @@ tags:
 - l00_reality_environment
 - note
 - domain/cognitive-matrix
-- 00-root-moc
-- amos-moc
-- 00-home
-- cognitive-matrix-moc
-- amos-rscf-nodes
-- l00-reality-environment-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

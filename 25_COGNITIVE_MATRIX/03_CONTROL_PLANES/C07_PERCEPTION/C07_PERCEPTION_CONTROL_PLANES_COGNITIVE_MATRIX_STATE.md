@@ -6,10 +6,6 @@ tags:
 - note
 - c07-perception
 - domain/cognitive-matrix
-- cognitive-matrix-moc
-- 00-root-moc
-- amos-moc
-- c07-perception-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

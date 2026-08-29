@@ -7,7 +7,6 @@ tags:
 - amos-c07-econ-finance-master
 - type/skill
 - skill
-- amos-c07-econ-finance-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

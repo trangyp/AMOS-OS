@@ -5,8 +5,8 @@ source: 03_CONTROL_PLANE/09_COMMIT/40_LIFECYCLE_MODES
 tags:
 - 40-lifecycle-modes
 - canon/control-plane
-- 09-commit-moc
 - lifecycle-modes-commit-control-plane-readme
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

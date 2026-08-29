@@ -5,7 +5,7 @@ source: 03_CONTROL_PLANE/09_COMMIT/49_FORECASTING_PREDICTION_MODES
 tags:
 - 49-forecasting-prediction-modes
 - canon/control-plane
-- 09-commit-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

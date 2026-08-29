@@ -8,8 +8,7 @@ tags:
 - domains-ubi-super-contract
 - ubi-super-domains-domain-spec
 - ubi-super-domains-readme
-- 00-index-moc
-- 21-domains-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

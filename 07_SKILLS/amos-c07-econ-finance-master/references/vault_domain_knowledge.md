@@ -7,12 +7,7 @@ tags:
 - amos-c07-econ-finance-master
 - type/skill
 - skill
-- amos-c07-econ-finance-master-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- references-moc
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

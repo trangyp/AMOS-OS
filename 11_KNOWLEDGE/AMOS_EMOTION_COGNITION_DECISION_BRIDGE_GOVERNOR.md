@@ -6,7 +6,6 @@ tags:
 - decision
 - bridge
 - governor
-- knowledge-moc
 ---
 
 # AMOS EMOTION COGNITION DECISION BRIDGE GOVERNOR

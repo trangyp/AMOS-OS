@@ -7,8 +7,6 @@ tags:
 - kernel
 - tech
 - systems
-- kernel-moc
-- 00-home
 - amos-automation-kernel-v0-tech-systems7-3
 ---
 

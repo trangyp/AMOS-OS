@@ -26,8 +26,6 @@ tags:
 - id-exchange
 - ubi-id-exchange-binding
 - consentx
-- 00-home
-- 21-domains-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

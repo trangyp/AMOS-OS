@@ -1,0 +1,60 @@
+---
+title: 02 Cognition MOC
+type: moc
+source: 02_KERNEL/02_COGNITION
+tags:
+- 02-cognition
+- canon/kernel
+- cognition-kernel-readme
+- kernel-cognition-contract
+- k-bioelectromagnetic-bei
+- k-cognition
+- k-cognition-nbi
+- k-consciousness
+- k-counterfactual
+- k-emotion-nei
+- k-human-intelligence
+- k-metacognition
+- k-metacognitive-loop
+- k-multi-hypothesis
+- k-personality
+- k-somatic-si
+- k-structural-reasoning
+- 00-index-moc
+- 02-kernel-moc
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+---
+
+# 02 Cognition — Map of Content
+
+**Path:** `02_KERNEL/02_COGNITION`
+**Files:** 15 | **Subdirectories:** 1
+
+## Files
+
+- [[COGNITION_KERNEL_README]]
+- [[KERNEL_COGNITION_CONTRACT]]
+- [[K_BIOELECTROMAGNETIC_BEI]]
+- [[K_COGNITION]]
+- [[K_COGNITION_NBI]]
+- [[K_CONSCIOUSNESS]]
+- [[K_COUNTERFACTUAL]]
+- [[K_EMOTION_NEI]]
+- [[K_HUMAN_INTELLIGENCE]]
+- [[K_METACOGNITION]]
+- [[K_METACOGNITIVE_LOOP]]
+- [[K_MULTI_HYPOTHESIS]]
+- [[K_PERSONALITY]]
+- [[K_SOMATIC_SI]]
+- [[K_STRUCTURAL_REASONING]]
+
+## Subdirectories
+
+- [[00_INDEX_MOC]] — 00_INDEX
+
+---
+**Parent:** [[02_KERNEL_MOC]]

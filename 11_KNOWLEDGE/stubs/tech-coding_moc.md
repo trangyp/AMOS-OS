@@ -1,12 +1,10 @@
 ---
 title: tech-coding moc
 tags:
+moc: true
 - stub
 - tech
 - coding
-- tech-coding-moc
-- kernel-moc
-- 00-home
 ---
 
 # tech-coding moc

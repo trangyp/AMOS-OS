@@ -7,7 +7,6 @@ tags:
 - llm-wiki
 - source
 - canon/knowledge
-- llm-wiki-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

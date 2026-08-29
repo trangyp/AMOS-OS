@@ -8,8 +8,7 @@ tags:
 - c08-strategy-game-domains-domain-spec
 - c08-strategy-game-domains-readme
 - domains-c08-strategy-game-contract
-- 00-index-moc
-- 21-domains-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

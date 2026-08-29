@@ -6,10 +6,6 @@ tags:
 - reference
 - amos-c01-meta-logic-master
 - type/skill
-- 07-skills-moc
-- references-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 - trang-framework-recursive-ontology-dynamics
 rscf:

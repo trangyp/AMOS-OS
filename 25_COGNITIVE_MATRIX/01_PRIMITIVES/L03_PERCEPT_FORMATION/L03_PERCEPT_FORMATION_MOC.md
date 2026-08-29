@@ -5,9 +5,8 @@ source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
 tags:
 - l03-percept-formation
 - domain/cognitive-matrix
-- 00-index-moc
-- 01-primitives-moc
 - cognitive-matrix-l03-percept-formation-contract
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

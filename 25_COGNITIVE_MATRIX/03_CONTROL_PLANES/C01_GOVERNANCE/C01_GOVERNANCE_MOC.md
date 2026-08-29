@@ -6,8 +6,7 @@ tags:
 - c01-governance
 - domain/cognitive-matrix
 - cognitive-matrix-c01-governance-contract
-- 00-index-moc
-- 03-control-planes-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

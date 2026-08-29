@@ -40,9 +40,6 @@ tags:
 - mvcc-cas
 - validation
 - epistemic-regimes
-- 00-home
-- amos-rscf-nodes
-- 01-core-laws-moc
 - kernel-readme
 - control-plane-readme
 - observability-readme

@@ -7,8 +7,6 @@ tags:
 - logic
 - kernel
 - cognition
-- kernel-moc
-- 00-home
 - amos-meta-logic-kernel-v0-meta-cognition4-2
 ---
 

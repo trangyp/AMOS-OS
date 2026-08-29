@@ -6,8 +6,6 @@ tags:
 - substrate
 - reasoning
 - graph
-- kernel-moc
-- 00-home
 - 2026-08-22-cognitive-substrate-reasoning-graph
 ---
 

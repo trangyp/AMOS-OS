@@ -22,9 +22,6 @@ tags:
 - evolutionary-debt
 - rscf/claim
 - rscf/state/canonical
-- 00-home
-- 00-root-moc
-- 02-kernel-moc
 aliases:
 - Governed Evolution Kernel
 - K_GOVERNED_EVOLUTION

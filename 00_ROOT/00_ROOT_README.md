@@ -67,13 +67,11 @@ tags:
 - topic/amos-os
 - topic/system-architecture
 - readme
-- 00-root-moc
 - neural-network
 - full-tree
 - system-map
 - dependency-map
 - authoritative-state
-- 00-root-naming-standard
 - placement-rules
 - roadmap
 - canon-map
@@ -97,13 +95,8 @@ tags:
 - test-map
 - operations-map
 - domain-alias-map
-- index-research-readme
 - legacy-archive-readme
 - cognitive-matrix-architecture
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 00-cosmo-brain-moc
 aliases:
 - AMOS OS - AMOS Operating System - AMOS Cognitive Operating System - AMOS System
   Root

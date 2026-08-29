@@ -5,14 +5,10 @@ source: 07_SKILLS/amos-agent-memory-dynamics-rscf-engine/references
 tags:
 - references
 - type/skill
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- references-moc
-- 07-skills-moc
 - amos-agent-memory-dynamics-rscf-engine-code
-- amos-agent-memory-dynamics-rscf-engine-moc
 - trang-framework-recursive-ontology-dynamics
+moc: true
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

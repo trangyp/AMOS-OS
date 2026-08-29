@@ -7,8 +7,6 @@ tags:
 - kernel
 - biology
 - cognition
-- kernel-moc
-- 00-home
 - amos-biostatistics-kernel-v0-biology-cognition
 ---
 

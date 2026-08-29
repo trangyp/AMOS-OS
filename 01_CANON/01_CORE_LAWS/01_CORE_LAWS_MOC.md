@@ -66,9 +66,8 @@ tags:
 - stability-canon
 - structural-integrity-canon
 - universe-logic-kernel-canon
-- 00-index-moc
-- 01-canon-moc
 - trang-framework-recursive-ontology-dynamics
+moc: true
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

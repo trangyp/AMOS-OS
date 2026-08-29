@@ -6,10 +6,6 @@ tags:
 - note
 - l29-evolution
 - domain/cognitive-matrix
-- cognitive-matrix-moc
-- 00-root-moc
-- amos-moc
-- l29-evolution-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

@@ -11,7 +11,7 @@ tags:
 - fractal-runtime
 - sensitivity-runtime
 - uncertainty-vector-runtime
-- 04-runtime-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

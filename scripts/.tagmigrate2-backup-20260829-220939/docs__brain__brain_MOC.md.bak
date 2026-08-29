@@ -1,0 +1,20 @@
+---
+title: Brain Documentation MOC
+type: map-of-content
+source: docs/brain
+tags:
+- amos-os
+- docs
+- brain
+- 00-home
+- 00-root-moc
+---
+
+# Brain Documentation MOC
+
+## Map of Content
+- [[AMOS_Simulation_Kernel_v0_Math_Foundations]]
+
+## Navigation
+- Return to [[00_HOME]]
+- Return to [[00_ROOT_MOC]]

@@ -27,9 +27,6 @@ tags:
 - heritage-intelligence-master
 - tss-seven-cycles
 - tpe-trang-prediction-engine
-- 00-home
-- knowledge-moc
-- 06-domain-knowledge-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

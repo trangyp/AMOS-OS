@@ -25,9 +25,6 @@ tags:
 - canon/knowledge
 - unified-biological-intelligence
 - consentx
-- 00-home
-- knowledge-moc
-- 05-frameworks-moc
 - ubi-id-exchange-binding
 version: 1.0.0
 updated: '2026-08-27'

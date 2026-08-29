@@ -5,7 +5,7 @@ source: 03_CONTROL_PLANE/09_COMMIT/56_PRIVACY_CONFIDENTIALITY_MODES
 tags:
 - 56-privacy-confidentiality-modes
 - canon/control-plane
-- 09-commit-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

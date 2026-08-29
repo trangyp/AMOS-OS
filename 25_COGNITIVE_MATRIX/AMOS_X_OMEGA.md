@@ -8,16 +8,9 @@ tags:
 - omega
 - domain/cognitive-matrix
 - canon-map
-- 00-root-moc
-- 00-home
-- amos-rscf-nodes
-- 25-cognitive-matrix-moc
 - law-hierarchy
 - amos-quantum-stack-v0-core
-- quantum-moc
-- amos-general-moc
 - 2026-08-22-executable-brain-model-lineage
-- cognitive-matrix-moc
 source: 25_COGNITIVE_MATRIX
 rscf:
   state: AMOS_MODEL

@@ -6,10 +6,6 @@ tags:
 - reference
 - amos-trang-framework-master
 - type/skill
-- references-moc
-- 07-skills-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 - trang-framework-recursive-ontology-dynamics
 rscf:
@@ -69,7 +65,8 @@ Biological Intelligence™ Canon
 
 Global Expert in Technology & Systems Strategy, GLG
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO10.2 Statutory Declaration
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO1
+0.2 Statutory Declaration
 
 I, Trang Phan, declare that:
 
@@ -121,7 +118,8 @@ planetary-scale modelling.
 The submission demonstrates that all natural and artificial systems can be
 consistently modelled using one invariant deterministic structure composed of
 
-DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO2explicit laws, equations, operators, tensors, invariants, collapse mechanics,
+DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO2
+explicit laws, equations, operators, tensors, invariants, collapse mechanics,
 recovery dynamics, boundary systems, and identity-continuity constraints. The
 canons interlock to provide a coherent, multi-scale scientific architecture capable
 of describing processes ranging from quantum entanglement to planetary

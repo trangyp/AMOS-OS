@@ -6,8 +6,6 @@ tags:
 - fairness
 - ethics
 - externalities
-- kernel-moc
-- 00-home
 - 2026-08-22-amos-fairness-ethics-externalities
 ---
 

@@ -8,13 +8,7 @@ tags:
 - l13_prediction
 - contract
 - domain/cognitive-matrix
-- 00-root-moc
-- amos-moc
-- cognitive-matrix-moc
-- 00-home
-- amos-rscf-nodes
 - cognitive-matrix-primitives-contract
-- l13-prediction-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

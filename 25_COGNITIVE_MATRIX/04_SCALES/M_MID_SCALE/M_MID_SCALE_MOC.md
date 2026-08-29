@@ -17,8 +17,7 @@ tags:
 - scales-cognitive-matrix-invariants
 - scales-cognitive-matrix-rscf
 - scales-cognitive-matrix-tests
-- 00-index-moc
-- 04-scales-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

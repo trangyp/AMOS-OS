@@ -53,7 +53,6 @@ tags:
 - rscf/state/derived
 - topic/amos-core-laws
 - readme
-- 00-root-moc
 - architecture
 - system-map
 - authoritative-state
@@ -70,10 +69,6 @@ tags:
 - security-map
 - test-map
 - legacy-archive-readme
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 01-core-laws-moc
 aliases:
 - AMOS Core Laws - AMOS Constitutional Laws - AMOS Integrity Laws - AMOS Core Invariants
   - A

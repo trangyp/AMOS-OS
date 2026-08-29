@@ -5,8 +5,6 @@ tags:
 - personality
 - engine
 - personality-engine-v0
-- kernel-moc
-- 00-home
 ---
 
 # personality engine v0

@@ -5,8 +5,6 @@ tags:
 - image
 - png
 - imagepng
-- kernel-moc
-- 00-home
 ---
 
 # image.png

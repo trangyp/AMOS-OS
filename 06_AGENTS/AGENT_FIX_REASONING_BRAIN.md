@@ -15,7 +15,6 @@ tags:
 - agent-registry
 - agent-naming-convention
 - skill
-- 06-agents-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -6,8 +6,6 @@ tags:
 - umpl
 - meta_pattern
 - universe_canon
-- 00-index-moc
-- 00-home
 ---
 
 # UMPL Meta Pattern Layer

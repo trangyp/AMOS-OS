@@ -22,11 +22,6 @@ tags:
 - note
 - canon/knowledge
 - integration
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- knowledge-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

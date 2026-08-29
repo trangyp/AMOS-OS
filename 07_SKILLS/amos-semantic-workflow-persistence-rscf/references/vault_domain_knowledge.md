@@ -7,12 +7,7 @@ tags:
 - amos-semantic-workflow-persistence-rscf
 - type/skill
 - k-meta-logic
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- references-moc
-- amos-semantic-workflow-persistence-rscf-moc
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

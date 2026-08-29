@@ -3,8 +3,6 @@ title: retrospective
 tags:
 - stub
 - retrospective
-- kernel-moc
-- 00-home
 ---
 
 # retrospective

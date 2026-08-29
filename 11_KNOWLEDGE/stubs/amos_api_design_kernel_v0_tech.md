@@ -8,8 +8,6 @@ tags:
 - kernel
 - tech
 - amos-api-design-kernel-v0-tech
-- kernel-moc
-- 00-home
 ---
 
 # amos api design kernel v0 tech

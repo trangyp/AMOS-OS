@@ -7,8 +7,6 @@ tags:
 - engine
 - vinfinity
 - amos-cognition-engine-vinfinity
-- kernel-moc
-- 00-home
 ---
 
 # amos cognition engine vinfinity

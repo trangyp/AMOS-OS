@@ -9,9 +9,8 @@ tags:
 - gap-promotion
 - gap-registry
 - structural-gaps-cognitive-matrix-readme
-- 00-index-moc
 - cognitive-matrix-structural-gaps-contract
-- 25-cognitive-matrix-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

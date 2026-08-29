@@ -25,8 +25,6 @@ tags:
 - canon/universe
 - references
 - readme
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 - l19-proof-capsule
 - l22-replayability
@@ -34,11 +32,8 @@ tags:
 - l24-causal-epoch
 - l25-shard-local
 - atomic-multi-rscf
-- 01-core-laws-moc
 - trang-framework-recursive-ontology-dynamics
 - l26-proof-coordination
-- 00-root-moc
-- amos-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

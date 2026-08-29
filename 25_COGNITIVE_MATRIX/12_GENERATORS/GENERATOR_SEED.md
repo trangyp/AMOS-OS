@@ -12,12 +12,7 @@ rscf:
 tags:
 - note
 - 12-generators
-- 00-root-moc
-- amos-moc
-- 00-home
 - generators-map
-- cognitive-matrix-moc
-- amos-rscf-nodes
 - generator-registry
 - generator-output
 - generator-falsification
@@ -25,7 +20,6 @@ tags:
 - task-contract
 - task-resolver
 - capability-resolver
-- 12-generators-moc
 canon-group: canon/cognitive-matrix
 ---
 

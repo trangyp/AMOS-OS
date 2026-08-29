@@ -34,10 +34,7 @@ tags:
 - p2-sense-evidence
 - p1-reality-environment
 - hml-canon
-- 02-universe-canon-moc
 - trang-framework-recursive-ontology-dynamics
-- 00-home
-- amos-rscf-nodes
 version: 0.2.0
 updated: '2026-08-26'
 status: PROPOSED_SPECIFICATION

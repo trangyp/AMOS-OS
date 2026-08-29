@@ -5,7 +5,7 @@ source: 03_CONTROL_PLANE/09_COMMIT/58_COMPLIANCE_POLICY_MODES
 tags:
 - 58-compliance-policy-modes
 - canon/control-plane
-- 09-commit-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

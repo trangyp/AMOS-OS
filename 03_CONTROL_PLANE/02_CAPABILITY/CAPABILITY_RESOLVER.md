@@ -8,11 +8,6 @@ tags:
 - note
 - canon/control-plane
 - capability-manifest
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 02-capability-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

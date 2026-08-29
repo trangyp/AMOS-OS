@@ -7,8 +7,6 @@ tags:
 - kernel
 - vinfinity
 - amos-design-kernel-vinfinity
-- kernel-moc
-- 00-home
 ---
 
 # amos design kernel vinfinity

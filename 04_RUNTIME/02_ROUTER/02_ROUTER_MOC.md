@@ -9,7 +9,7 @@ tags:
 - framework-router
 - hml-router
 - rscf-router
-- 04-runtime-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

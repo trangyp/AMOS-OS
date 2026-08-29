@@ -26,8 +26,6 @@ tags:
 - ubi-somatic-intelligence
 - unified-biological-intelligence
 - uba-framework
-- 00-home
-- 21-domains-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

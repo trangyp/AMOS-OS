@@ -2,12 +2,11 @@
 title: Templates MOC
 type: moc
 source: Templates
+moc: true
 tags:
-- templates
-- canon/template
-- amos-home
-- templates-moc
-- trang-framework-recursive-ontology-dynamics
+  - templates
+  - canon/template
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -37,4 +36,5 @@ This file is classified under the AMOS RSCF epistemic framework. See frontmatter
 - [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
+
 **MOC:** [[Templates_MOC]]

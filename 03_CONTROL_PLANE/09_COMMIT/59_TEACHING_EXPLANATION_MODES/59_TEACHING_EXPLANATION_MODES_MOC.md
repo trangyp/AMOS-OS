@@ -5,7 +5,7 @@ source: 03_CONTROL_PLANE/09_COMMIT/59_TEACHING_EXPLANATION_MODES
 tags:
 - 59-teaching-explanation-modes
 - canon/control-plane
-- 09-commit-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

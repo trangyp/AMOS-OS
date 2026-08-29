@@ -4,8 +4,6 @@ tags:
 - stub
 - video
 - videomp4
-- kernel-moc
-- 00-home
 ---
 
 # video.mp4

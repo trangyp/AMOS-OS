@@ -8,8 +8,6 @@ tags:
 - kernel
 - tech
 - amos-api-integration-kernel-v0-tech7-3
-- kernel-moc
-- 00-home
 ---
 
 # amos api integration kernel v0 tech7 3

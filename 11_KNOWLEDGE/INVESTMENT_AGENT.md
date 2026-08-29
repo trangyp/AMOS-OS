@@ -45,11 +45,6 @@ tags:
 - memory
 - skill
 - validation
-- 00-home
-- 00-root-moc
-- amos-moc
-- amos-rscf-nodes
-- knowledge-moc
 governing_law: integrity > completeness > fluency > speed > token savings
 rscf:
   state: SOURCE_CLAIM

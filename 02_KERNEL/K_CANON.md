@@ -22,10 +22,6 @@ tags:
 - truth-convergence
 - rscf/claim
 - rscf/state/canonical
-- 00-home
-- 00-root-moc
-- 02-kernel-moc
-- 01-canon-moc
 aliases:
 - Canon Kernel
 - K_CANON

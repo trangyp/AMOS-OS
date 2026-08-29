@@ -9,8 +9,6 @@ tags:
 - cycles
 - trang
 - system
-- kernel-moc
-- 00-home
 ---
 
 # b32a7b01 5632 450a a935 2ded537ff5fe the seven cycles of the trang system official manual comprehensive edition

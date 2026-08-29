@@ -18,11 +18,8 @@ tags:
 - SEAs
 - engine
 - canon/knowledge
-- 00-home
-- knowledge-moc
 - system-scan-agent
 - automation-profiles
-- engine-moc
 - amos-simulation-kernel-v0-math-foundations
 status: active
 provenance: VERIFIED

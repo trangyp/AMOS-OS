@@ -7,8 +7,6 @@ tags:
 - integration
 - kernel
 - tech
-- kernel-moc
-- 00-home
 - amos-toolchain-integration-kernel-v0-tech
 ---
 

@@ -39,12 +39,8 @@ tags:
 - canon_candidate
 - domain/cognitive-matrix
 - amos-x-trang-reality-matrix
-- 00-root-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 - trang-reality-architecture
-- 25-cognitive-matrix-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

@@ -6,8 +6,6 @@ tags:
 - note
 - law-stack-enforcement-pipeline
 - type/workflow
-- law-stack-enforcement-pipeline-moc
-- 08-workflows-moc
 rscf:
   state: AMOS_MODEL
   claim_class: CONDITIONAL

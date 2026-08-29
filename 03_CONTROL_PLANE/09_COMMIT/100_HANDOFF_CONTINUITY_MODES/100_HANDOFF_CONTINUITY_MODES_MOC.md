@@ -5,7 +5,7 @@ source: 03_CONTROL_PLANE/09_COMMIT/100_HANDOFF_CONTINUITY_MODES
 tags:
 - 100-handoff-continuity-modes
 - canon/control-plane
-- 09-commit-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

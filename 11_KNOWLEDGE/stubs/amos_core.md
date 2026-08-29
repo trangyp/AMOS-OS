@@ -5,8 +5,6 @@ tags:
 - amos
 - core
 - amos-core
-- kernel-moc
-- 00-home
 ---
 
 # amos core

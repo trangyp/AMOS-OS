@@ -6,10 +6,6 @@ tags:
 - reference
 - amos-future-debt-option-value-governor
 - type/skill
-- references-moc
-- 07-skills-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 - trang-framework-recursive-ontology-dynamics
 rscf:

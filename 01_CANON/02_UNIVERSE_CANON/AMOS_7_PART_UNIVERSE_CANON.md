@@ -46,7 +46,6 @@ tags:
 - rscf/state/derived
 - topic/amos-7-part-universe
 - readme
-- 00-root-moc
 - system-map
 - neural-network
 - authoritative-state
@@ -72,13 +71,8 @@ tags:
 - test-map
 - operations-map
 - domain-alias-map
-- index-research-readme
 - operating-model
 - cognitive-matrix-architecture
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 02-universe-canon-moc
 aliases:
 - AMOS 7-Part Universe - AMOS Seven-Part Universe - AMOS Universe Canon - AMOS Universal
   Parti

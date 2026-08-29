@@ -6,10 +6,6 @@ tags:
 - note
 - l05-binding
 - domain/cognitive-matrix
-- cognitive-matrix-moc
-- 00-root-moc
-- amos-moc
-- l05-binding-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

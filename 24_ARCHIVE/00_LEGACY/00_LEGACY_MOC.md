@@ -3,7 +3,6 @@ title: 00 Legacy MOC
 type: moc
 source: 24_ARCHIVE/00_LEGACY
 tags:
-- 00-legacy
 - canon/archive
 - amos-core-historical-index
 - archive-legacy-contract
@@ -11,8 +10,7 @@ tags:
 - legacy-archive-readme
 - trang-framework-historical-index
 - ubi-historical-index
-- 00-index-moc
-- 24-archive-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

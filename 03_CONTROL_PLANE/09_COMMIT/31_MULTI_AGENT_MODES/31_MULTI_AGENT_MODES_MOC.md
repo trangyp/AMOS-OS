@@ -5,8 +5,8 @@ source: 03_CONTROL_PLANE/09_COMMIT/31_MULTI_AGENT_MODES
 tags:
 - 31-multi-agent-modes
 - canon/control-plane
-- 09-commit-moc
 - multi-agent-modes-commit-control-plane-readme
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

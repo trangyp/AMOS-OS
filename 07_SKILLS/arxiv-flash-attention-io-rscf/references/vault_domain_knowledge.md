@@ -6,13 +6,8 @@ tags:
 - reference
 - arxiv-flash-attention-io-rscf
 - type/skill
-- cosmo-brain-moc
-- references-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 - 2026-08-22-amos-core-module-test-coverage
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

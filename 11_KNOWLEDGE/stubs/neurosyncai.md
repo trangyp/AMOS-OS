@@ -3,8 +3,6 @@ title: neurosyncai
 tags:
 - stub
 - neurosyncai
-- kernel-moc
-- 00-home
 ---
 
 # neurosyncai

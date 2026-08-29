@@ -31,11 +31,7 @@ tags:
 - rscf
 - canon_candidate
 - domain/cognitive-matrix
-- 00-root-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- 25-cognitive-matrix-moc
 - canon
 version: 1.0.0
 updated: '2026-08-27'

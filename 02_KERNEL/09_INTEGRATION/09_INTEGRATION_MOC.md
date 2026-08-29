@@ -21,8 +21,7 @@ tags:
 - k-uba
 - k-ubi-binding
 - k-universe-amos-binding
-- 00-index-moc
-- 02-kernel-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

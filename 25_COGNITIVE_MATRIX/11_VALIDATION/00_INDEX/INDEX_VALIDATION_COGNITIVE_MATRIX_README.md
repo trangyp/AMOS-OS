@@ -9,8 +9,6 @@ tags:
 - validation
 - readme
 - cognitive-matrix-validation-map
-- 00-home
-- amos-rscf-nodes
 - validation-cognitive-matrix-validation-contract
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
@@ -19,9 +17,6 @@ tags:
 - control-plane-readme
 - observability-readme
 - operations-readme
-- 00-root-moc
-- amos-moc
-- 00-index-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

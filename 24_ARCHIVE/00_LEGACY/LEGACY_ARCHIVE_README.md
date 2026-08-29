@@ -9,11 +9,6 @@ tags:
 - readme
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 00-legacy-moc
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

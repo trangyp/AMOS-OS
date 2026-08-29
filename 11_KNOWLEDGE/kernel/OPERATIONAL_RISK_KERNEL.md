@@ -14,11 +14,8 @@ tags:
 - rscf/state/source-claim
 - topic/operational-risk-kernel
 - kernel
-- 00-home
-- knowledge-moc
 - system-scan-agent
 - automation-profiles
-- kernel-moc
 - amos-simulation-kernel-v0-math-foundations
 created: 2026-08-22
 rscf:

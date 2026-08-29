@@ -7,7 +7,6 @@ tags:
 - amos-audit-repair-master
 - type/skill
 - skill
-- amos-audit-repair-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -6,16 +6,10 @@ tags:
 - reference
 - amos-c03-physics-cosmos-master
 - type/skill
-- cosmo-brain-moc
-- 00-home
-- knowledge-moc
 - system-scan-agent
 - automation-profiles
 - amos-simulation-kernel-v0-math-foundations
-- references-moc
-- amos-rscf-nodes
 - law-hierarchy
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

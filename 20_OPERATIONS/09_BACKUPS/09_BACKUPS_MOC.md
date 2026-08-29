@@ -6,8 +6,8 @@ tags:
 - 09-backups
 - canon/operations
 - amos-home
-- 09-backups-moc
 - trang-framework-recursive-ontology-dynamics
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

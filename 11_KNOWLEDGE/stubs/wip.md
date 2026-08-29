@@ -3,8 +3,6 @@ title: wip
 tags:
 - stub
 - wip
-- kernel-moc
-- 00-home
 ---
 
 # wip

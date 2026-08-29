@@ -26,8 +26,7 @@ tags:
 - control-planes-cognitive-matrix-state
 - control-planes-cognitive-matrix-tests
 - control-planes-cognitive-matrix-workflows
-- 00-index-moc
-- 03-control-planes-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

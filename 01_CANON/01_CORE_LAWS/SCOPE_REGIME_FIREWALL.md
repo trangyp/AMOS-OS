@@ -8,7 +8,6 @@ tags:
 - firewall
 - epistemic_boundary
 - law/L0-integrity
-- 01-core-laws-moc
 - provenance-x-confidence
 - l5-scope-regime
 - l21-epistemic-regime
@@ -17,8 +16,6 @@ tags:
 - persistent-provenance
 - fail-closed-governance
 - scope-regime-validation-receipt
-- 00-index-moc
-- 00-home
 rscf:
   state: CANON_LAW
   claim_class: CANONICAL_INVARIANT

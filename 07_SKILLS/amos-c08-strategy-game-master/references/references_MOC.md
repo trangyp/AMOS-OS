@@ -26,13 +26,9 @@ tags:
 - strategic-partners-list
 - strategy-game-engine-cognitive
 - vault-domain-knowledge
-- amos-c08-strategy-game-master-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- references-moc
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
+moc: true
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

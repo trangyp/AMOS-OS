@@ -9,7 +9,6 @@ tags:
 - topic/amos-workflow-orchestration-kernel-v0
 - kernel
 - workflow
-- kernel-moc
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:

@@ -8,12 +8,7 @@ tags:
 - m_mid_scale
 - contract
 - domain/cognitive-matrix
-- 00-root-moc
-- amos-moc
 - hml-canon
-- cognitive-matrix-moc
-- 00-home
-- m-mid-scale-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

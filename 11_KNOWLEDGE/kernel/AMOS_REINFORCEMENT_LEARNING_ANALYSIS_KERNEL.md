@@ -8,7 +8,6 @@ tags:
 - rscf/state/source-claim
 - topic/amos-reinforcement-learning-analysis-ker
 - kernel
-- kernel-moc
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:

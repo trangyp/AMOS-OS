@@ -9,10 +9,6 @@ tags:
 - rscf
 - governance
 - canon/universe
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 - law/L0-integrity
 - law/L1-epistemic
@@ -20,7 +16,6 @@ tags:
 - law/L3-dependency
 - l4-causal
 - l5-scope-regime
-- 01-core-laws-moc
 title: L6 Uncertainty Laws — 01 Core Laws
 origin_architect: Trang Phan
 updated: '2026-08-26'

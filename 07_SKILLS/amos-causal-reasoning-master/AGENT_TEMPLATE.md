@@ -7,7 +7,6 @@ tags:
 - amos-causal-reasoning-master
 - type/skill
 - skill
-- amos-causal-reasoning-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

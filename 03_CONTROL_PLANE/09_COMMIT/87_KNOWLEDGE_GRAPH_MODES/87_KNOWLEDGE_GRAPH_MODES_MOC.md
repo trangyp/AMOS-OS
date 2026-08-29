@@ -5,8 +5,8 @@ source: 03_CONTROL_PLANE/09_COMMIT/87_KNOWLEDGE_GRAPH_MODES
 tags:
 - 87-knowledge-graph-modes
 - canon/control-plane
-- 09-commit-moc
 - knowledge-graph-modes-commit-control-plane-readme
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

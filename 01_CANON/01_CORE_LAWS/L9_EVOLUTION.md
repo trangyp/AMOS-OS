@@ -12,10 +12,6 @@ tags:
 - rscf
 - governance
 - canon/universe
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 - law/L0-integrity
 - law/L1-epistemic
@@ -27,7 +23,6 @@ tags:
 - l7-authority
 - l8-execution
 - l18-gmef
-- 01-core-laws-moc
 title: L9 Evolution Laws
 origin_architect: Trang Phan
 updated: '2026-08-26'

@@ -3,8 +3,6 @@ title: throughput
 tags:
 - stub
 - throughput
-- kernel-moc
-- 00-home
 ---
 
 # throughput

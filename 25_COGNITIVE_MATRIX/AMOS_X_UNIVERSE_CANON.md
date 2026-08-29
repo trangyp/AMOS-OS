@@ -33,14 +33,9 @@ tags:
 - canon_candidate
 - canon/matrix
 - amos-x-universe-canon-matrix
-- 02-universe-canon-moc
-- 00-root-moc
-- 00-home
-- 25-cognitive-matrix-moc
 - canon
 - universe-rscf-index
 - amos-7-part-universe-canon
-- amos-rscf-nodes
 - law-hierarchy
 version: 1.1.0
 updated: '2026-08-27'

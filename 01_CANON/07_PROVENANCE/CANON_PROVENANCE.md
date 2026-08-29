@@ -37,8 +37,6 @@ tags:
 - topic/sybil-hardening
 - topic/persistent-provenance
 - readme
-- 00-root-moc
-- amos-moc
 - architecture
 - system-map
 - neural-network
@@ -59,9 +57,6 @@ tags:
 - universal-variable-registry
 - canonical-glossary
 - deprecated-terms
-- 00-home
-- amos-rscf-nodes
-- 07-provenance-moc
 aliases:
 - AMOS Canon Provenance - Canon Provenance Registry - AMOS Canon Lineage Registry
   - Canon Sour

@@ -8,8 +8,8 @@ tags:
 - tools-readme
 - tools-tool-contract
 - amos-llm-wiki-tool
-- 00-index-moc
 - amos-home
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

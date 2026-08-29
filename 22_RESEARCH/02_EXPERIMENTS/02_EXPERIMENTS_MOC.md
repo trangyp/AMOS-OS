@@ -8,8 +8,7 @@ tags:
 - experiments-research-readme
 - experiment-registry
 - research-experiments-contract
-- 00-index-moc
-- 22-research-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

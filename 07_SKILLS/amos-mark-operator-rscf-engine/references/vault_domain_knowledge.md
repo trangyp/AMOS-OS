@@ -6,13 +6,8 @@ tags:
 - reference
 - amos-mark-operator-rscf-engine
 - type/skill
-- amos-mark-operator-rscf-engine-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- references-moc
 - canon
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

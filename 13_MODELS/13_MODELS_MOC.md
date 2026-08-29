@@ -7,11 +7,8 @@ tags:
 - canon/model
 - models-model-contract
 - models-readme
-- 00-index-moc
-- 01-foundation-moc
-- 04-domain-moc
-- 05-calibration-moc
 - amos-home
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

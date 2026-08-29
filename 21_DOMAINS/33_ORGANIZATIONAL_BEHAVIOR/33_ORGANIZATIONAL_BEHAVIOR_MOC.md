@@ -7,9 +7,8 @@ tags:
 - canon/domain
 - domains-organizational-behavior-contract
 - organizational-behavior-domains-readme
-- 00-index-moc
-- 21-domains-moc
 - organizational-behavior-domains-domain-spec
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

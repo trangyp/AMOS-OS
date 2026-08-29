@@ -22,15 +22,11 @@ tags:
 - rscf
 - canon_candidate
 - canon/knowledge
-- 02-claims-moc
-- 05-frameworks-moc
 - tss-the-trang-system
 - trang-reality-architecture
 - frai-fractal-reasoning-ai
 - trang-lacunarity
 - trang-equation-registry
-- 00-home
-- knowledge-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

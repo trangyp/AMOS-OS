@@ -8,8 +8,7 @@ tags:
 - operating-model-service-levels-contract
 - service-levels
 - service-levels-operating-model-readme
-- 00-index-moc
-- 23-operating-model-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

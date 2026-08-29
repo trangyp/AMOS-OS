@@ -7,8 +7,6 @@ tags:
 - insight
 - kernel
 - business
-- kernel-moc
-- 00-home
 - amos-customer-insight-kernel-v0-business4
 ---
 

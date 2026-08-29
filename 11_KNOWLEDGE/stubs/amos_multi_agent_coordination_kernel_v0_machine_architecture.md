@@ -8,8 +8,6 @@ tags:
 - coordination
 - kernel
 - machine
-- kernel-moc
-- 00-home
 ---
 
 # amos multi agent coordination kernel v0 machine architecture

@@ -5,7 +5,7 @@ source: 03_CONTROL_PLANE/09_COMMIT/77_ASSUMPTION_SENSITIVITY_MODES
 tags:
 - 77-assumption-sensitivity-modes
 - canon/control-plane
-- 09-commit-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

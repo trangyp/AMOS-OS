@@ -19,8 +19,6 @@ tags:
 - model-free
 - operational
 - readme
-- references-moc
-- 00-home
 rscf:
   state: DERIVED
   claim_class: DERIVED

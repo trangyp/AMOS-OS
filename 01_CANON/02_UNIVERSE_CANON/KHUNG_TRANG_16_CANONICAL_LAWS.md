@@ -7,9 +7,6 @@ tags:
 - laws
 - canon
 - khung-trang-canon
-- 01-core-laws-moc
-- 00-index-moc
-- 00-home
 ---
 
 # Khung Trang 16 Canonical Laws

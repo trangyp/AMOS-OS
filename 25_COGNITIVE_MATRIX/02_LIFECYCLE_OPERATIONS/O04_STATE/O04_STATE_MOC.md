@@ -6,8 +6,7 @@ tags:
 - o04-state
 - domain/cognitive-matrix
 - cognitive-matrix-o04-state-contract
-- 00-index-moc
-- 02-lifecycle-operations-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

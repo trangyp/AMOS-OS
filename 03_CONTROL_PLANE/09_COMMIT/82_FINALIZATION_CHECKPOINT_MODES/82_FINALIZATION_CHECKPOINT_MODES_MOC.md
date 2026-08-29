@@ -5,7 +5,7 @@ source: 03_CONTROL_PLANE/09_COMMIT/82_FINALIZATION_CHECKPOINT_MODES
 tags:
 - 82-finalization-checkpoint-modes
 - canon/control-plane
-- 09-commit-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

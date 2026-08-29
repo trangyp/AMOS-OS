@@ -6,12 +6,7 @@ tags:
 - reference
 - amos-governed-executable-knowledge-repair-rscf
 - type/skill
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- references-moc
-- 07-skills-moc
-- amos-governed-executable-knowledge-repair-rscf-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

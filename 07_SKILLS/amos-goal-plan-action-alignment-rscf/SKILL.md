@@ -20,12 +20,7 @@ tags:
 - hml/h
 - epistemic/source_claim
 - amos-os
-- 07-skills-moc
-- amos-goal-plan-action-alignment-rscf-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- references-moc
 - trang-framework-recursive-ontology-dynamics
 - skill
 rscf:

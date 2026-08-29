@@ -60,6 +60,7 @@ tags:
 - dependent-invalidation
 - framework-authority-registry
 - independent-path-analysis
+moc: true
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

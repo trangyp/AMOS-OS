@@ -45,8 +45,6 @@ tags:
 - topic/invalidation
 - topic/failure-propagation
 - readme
-- 00-root-moc
-- amos-moc
 - system-map
 - authoritative-state
 - placement-rules
@@ -63,9 +61,6 @@ tags:
 - control-plane-map
 - runtime-map
 - domain-alias-map
-- 00-home
-- amos-rscf-nodes
-- 00-cosmo-brain-moc
 aliases:
 - AMOS OS Dependency Map - Dependency Map - AMOS Dependency Topology - DEPENDENCY_MAP
 ---

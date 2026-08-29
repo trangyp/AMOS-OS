@@ -6,16 +6,11 @@ tags:
 - reference
 - amos-core19-logic-kernel
 - type/skill
-- cosmo-brain-moc
 - integration
 - 2026-08-22-executable-code-internals
 - 2026-08-22-devin-memory-update
-- references-moc
 - 2026-08-22-amos-go-board-19x19-runtime-methods
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

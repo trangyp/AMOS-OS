@@ -7,8 +7,6 @@ tags:
 - engine
 - tech
 - amos-design-engine-v0-tech7
-- kernel-moc
-- 00-home
 ---
 
 # amos design engine v0 tech7

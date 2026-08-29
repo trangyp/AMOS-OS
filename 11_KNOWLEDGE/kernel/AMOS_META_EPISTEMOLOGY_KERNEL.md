@@ -8,7 +8,6 @@ tags:
 - rscf/state/observation
 - topic/amos-meta-epistemology-kernel-v0
 - kernel
-- kernel-moc
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:

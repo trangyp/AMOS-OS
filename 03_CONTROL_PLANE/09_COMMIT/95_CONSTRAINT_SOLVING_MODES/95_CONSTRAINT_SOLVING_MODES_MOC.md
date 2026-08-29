@@ -5,7 +5,7 @@ source: 03_CONTROL_PLANE/09_COMMIT/95_CONSTRAINT_SOLVING_MODES
 tags:
 - 95-constraint-solving-modes
 - canon/control-plane
-- 09-commit-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

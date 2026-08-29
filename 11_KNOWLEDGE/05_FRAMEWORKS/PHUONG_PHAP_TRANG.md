@@ -28,9 +28,6 @@ tags:
 - canon/knowledge
 - post-theory-communication
 - unified-biological-intelligence
-- 00-home
-- knowledge-moc
-- 05-frameworks-moc
 - trang-reality-architecture
 version: 1.0.0
 updated: '2026-08-27'

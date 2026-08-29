@@ -23,11 +23,7 @@ tags:
 - rscf
 - canon_candidate
 - canon/runtime
-- 09-finalization-moc
 - law/L0-integrity
-- 03-control-plane-moc
-- 00-home
-- 04-runtime-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

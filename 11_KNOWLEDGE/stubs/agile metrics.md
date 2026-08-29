@@ -5,8 +5,6 @@ tags:
 - agile
 - metrics
 - agile-metrics
-- kernel-moc
-- 00-home
 ---
 
 # agile metrics

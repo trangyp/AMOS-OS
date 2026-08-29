@@ -1,11 +1,9 @@
 ---
 title: memory moc
 tags:
+moc: true
 - stub
 - memory
-- memory-moc
-- kernel-moc
-- 00-home
 ---
 
 # memory moc

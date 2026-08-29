@@ -8,8 +8,7 @@ tags:
 - domains-medical-clinical-contract
 - medical-clinical-domains-domain-spec
 - medical-clinical-domains-readme
-- 00-index-moc
-- 21-domains-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

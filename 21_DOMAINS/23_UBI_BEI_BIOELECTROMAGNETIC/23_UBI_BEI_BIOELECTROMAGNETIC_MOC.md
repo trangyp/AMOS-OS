@@ -5,11 +5,10 @@ source: 21_DOMAINS/23_UBI_BEI_BIOELECTROMAGNETIC
 tags:
 - 23-ubi-bei-bioelectromagnetic
 - canon/domain
-- 00-index-moc
-- 21-domains-moc
 - domains-ubi-bei-bioelectromagnetic-contract
 - ubi-bei-bioelectromagnetic-domains-domain-spec
 - ubi-bei-bioelectromagnetic-domains-readme
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

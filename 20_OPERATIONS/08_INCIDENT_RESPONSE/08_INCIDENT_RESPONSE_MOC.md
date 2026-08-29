@@ -6,7 +6,7 @@ tags:
 - 08-incident-response
 - canon/operations
 - incident-response-operations-readme
-- 20-operations-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

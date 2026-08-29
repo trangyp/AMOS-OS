@@ -7,17 +7,7 @@ tags:
 - domain/cognitive-matrix
 - cognitive-matrix-control-planes-contract
 - control-planes-cognitive-matrix-readme
-- 00-index-moc
-- c01-governance-moc
-- c02-metacognitive-moc
-- c03-executive-moc
-- c04-reasoning-moc
-- c05-representation-moc
-- c06-memory-moc
-- c07-perception-moc
-- c08-execution-moc
-- c09-kernel-control-moc
-- 25-cognitive-matrix-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

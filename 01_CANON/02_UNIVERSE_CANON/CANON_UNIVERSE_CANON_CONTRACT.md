@@ -35,10 +35,6 @@ tags:
 - rscf
 - gmef
 - canon/universe
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 - kernel-readme
 - control-plane-readme
@@ -47,7 +43,6 @@ tags:
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - canon-universe-canon-contract-validation-receipt
-- 02-universe-canon-moc
 - trang-framework-recursive-ontology-dynamics
 version: 1.0.0-contract-candidate
 updated: '2026-08-27'

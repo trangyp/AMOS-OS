@@ -9,17 +9,13 @@ provenance: USER_REQUEST / AMOS_Obsidian_Linking_Plugins
 status: active
 steward: Trang Phan
 tags:
-- template
-- boilerplate
-- reference
-- templater
-- linkme
-- canon-group/tech-ai
-- canon/tooling
-- 00-home
-- 00-root-moc
-- amos-rscf-nodes
-- templates-moc
+  - template
+  - boilerplate
+  - reference
+  - templater
+  - linkme
+  - canon-group/tech-ai
+  - canon/tooling
 title: linked-note template
 type: template
 source: Templates
@@ -38,6 +34,7 @@ rscf:
 ## Purpose
 
 ## Links
+
 - 00 Cosmo Brain MOC
 - [[00_HOME]]
 - [[00_ROOT_MOC]]
@@ -49,14 +46,17 @@ rscf:
 ## Notes
 
 ---
+
 RSCF-NODE
 node_id: linked_note
 node_type: note
 path: Templates/linked-note.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_HOME]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
+
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
 
 ---
+
 **MOC:** [[Templates_MOC]]

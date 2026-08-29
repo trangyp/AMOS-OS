@@ -31,7 +31,7 @@ tags:
 - control-plane-tests
 - control-plane-transition-rules
 - control-plane-validation
-- 09-commit-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL

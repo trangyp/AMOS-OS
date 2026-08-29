@@ -1,11 +1,9 @@
 ---
 title: indexes moc
 tags:
+moc: true
 - stub
 - indexes
-- indexes-moc
-- kernel-moc
-- 00-home
 ---
 
 # indexes moc

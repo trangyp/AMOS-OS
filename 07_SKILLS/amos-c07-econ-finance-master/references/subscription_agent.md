@@ -6,15 +6,10 @@ tags:
 - reference
 - amos-c07-econ-finance-master
 - type/skill
-- 00-home
-- knowledge-moc
 - system-scan-agent
 - automation-profiles
-- references-moc
 - amos-simulation-kernel-v0-math-foundations
-- amos-rscf-nodes
 - law-hierarchy
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

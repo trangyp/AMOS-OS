@@ -6,8 +6,6 @@ tags:
 - scan
 - agent
 - system-scan-agent
-- kernel-moc
-- 00-home
 ---
 
 # system scan agent

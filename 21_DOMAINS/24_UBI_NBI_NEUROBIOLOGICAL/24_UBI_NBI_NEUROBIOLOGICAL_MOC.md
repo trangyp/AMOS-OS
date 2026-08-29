@@ -7,9 +7,8 @@ tags:
 - canon/domain
 - domains-ubi-nbi-neurobiological-contract
 - ubi-nbi-neurobiological-domains-readme
-- 00-index-moc
-- 21-domains-moc
 - ubi-nbi-neurobiological-domains-domain-spec
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

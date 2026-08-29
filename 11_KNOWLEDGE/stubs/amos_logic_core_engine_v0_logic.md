@@ -7,8 +7,6 @@ tags:
 - core
 - engine
 - amos-logic-core-engine-v0-logic
-- kernel-moc
-- 00-home
 ---
 
 # amos logic core engine v0 logic

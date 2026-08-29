@@ -14,7 +14,6 @@ tags:
 - rscf/state/source-claim
 - topic/engineering-standards-library
 - engine
-- engine-moc
 - trang-framework-recursive-ontology-dynamics
 created: 2026-08-22
 rscf:

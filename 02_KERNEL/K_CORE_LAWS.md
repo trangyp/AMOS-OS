@@ -26,10 +26,6 @@ tags:
 - qls-84-laws
 - rscf/claim
 - rscf/state/canonical
-- 00-home
-- 00-root-moc
-- 02-kernel-moc
-- 01-meta-logic-moc
 aliases:
 - AMOS Core Laws Kernel
 - K_CORE_LAWS

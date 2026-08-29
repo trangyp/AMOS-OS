@@ -9,8 +9,7 @@ tags:
 - superseded-archive-readme
 - superseded-canon-registry
 - superseded-framework-registry
-- 00-index-moc
-- 24-archive-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

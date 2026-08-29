@@ -5,7 +5,7 @@ source: 03_CONTROL_PLANE/09_COMMIT/99_ESCALATION_INTERVENTION_MODES
 tags:
 - 99-escalation-intervention-modes
 - canon/control-plane
-- 09-commit-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

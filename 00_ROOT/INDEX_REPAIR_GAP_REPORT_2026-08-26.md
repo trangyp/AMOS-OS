@@ -6,15 +6,9 @@ canon-group: reference
 rscf-state: derived
 tags:
 - gap-report
-- index-repair
 - audit
 - canon/root
 - skill
-- 00-root-identity
-- 00-root-moc
-- knowledge-moc
-- cognitive-matrix-moc
-- 00-cosmo-brain-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -8,13 +8,7 @@ tags:
 - l19_outcome_observation
 - contract
 - domain/cognitive-matrix
-- 00-root-moc
-- amos-moc
-- cognitive-matrix-moc
-- 00-home
-- amos-rscf-nodes
 - cognitive-matrix-primitives-contract
-- l19-outcome-observation-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

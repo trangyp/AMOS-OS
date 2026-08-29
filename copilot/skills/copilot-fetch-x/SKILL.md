@@ -11,8 +11,6 @@ metadata:
   copilot-builtin-version: '6'
 tags:
 - skill
-- 00-root-moc
-- 00-home
 ---
 
 # Copilot fetch X

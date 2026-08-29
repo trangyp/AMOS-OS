@@ -7,7 +7,6 @@ tags:
 - index
 - link
 - integrity
-- index-link-integrity
 ---
 
 # INDEX LINK INTEGRITY

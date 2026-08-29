@@ -53,11 +53,6 @@ tags:
 - k-memory-admission
 - k-memory-conflict
 - k-memory-immune
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 06-risk-repair-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

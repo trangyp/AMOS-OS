@@ -7,7 +7,6 @@ tags:
 - amos-rscf-epistemic-master
 - type/skill
 - skill
-- amos-rscf-epistemic-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

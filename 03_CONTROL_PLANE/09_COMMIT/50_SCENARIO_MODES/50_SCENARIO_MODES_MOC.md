@@ -5,8 +5,8 @@ source: 03_CONTROL_PLANE/09_COMMIT/50_SCENARIO_MODES
 tags:
 - 50-scenario-modes
 - canon/control-plane
-- 09-commit-moc
 - scenario-modes-commit-control-plane-readme
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

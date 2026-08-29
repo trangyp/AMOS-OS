@@ -5,8 +5,6 @@ tags:
 - cycle
 - time
 - cycle-time
-- kernel-moc
-- 00-home
 ---
 
 # cycle time

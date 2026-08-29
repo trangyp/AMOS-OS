@@ -60,11 +60,6 @@ tags:
 - control-plane-map
 - runtime-map
 - authoritative-state
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 02-cognition-moc
 aliases:
 - AMOS Counterfactual Kernel - Counterfactual Kernel - K Counterfactual - K_COUNTERFACTUAL
 ---

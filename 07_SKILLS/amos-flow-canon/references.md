@@ -7,7 +7,6 @@ tags:
 - amos-flow-canon
 - type/skill
 - skill
-- amos-flow-canon-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

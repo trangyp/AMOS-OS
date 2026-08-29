@@ -8,11 +8,8 @@ tags:
 - rscf/state/source-claim
 - topic/amos-tech-kernel-expansion
 - kernel
-- 00-home
-- knowledge-moc
 - system-scan-agent
 - automation-profiles
-- kernel-moc
 - amos-simulation-kernel-v0-math-foundations
 type: note
 source: 11_KNOWLEDGE/kernel

@@ -49,7 +49,6 @@ tags:
 - rscf/state/derived
 - topic/persistence-canon
 - readme
-- 00-root-moc
 - architecture
 - system-map
 - neural-network
@@ -71,10 +70,6 @@ tags:
 - security-map
 - test-map
 - operations-map
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 02-universe-canon-moc
 aliases:
 - AMOS Persistence Canon - Persistence Canon - AMOS Durable State Canon - AMOS Persistent
   Prov

@@ -7,11 +7,7 @@ tags:
 - domain/cognitive-matrix
 - cognitive-matrix-scales-contract
 - scales-cognitive-matrix-readme
-- 00-index-moc
-- h-high-scale-moc
-- l-low-scale-moc
-- m-mid-scale-moc
-- 25-cognitive-matrix-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -95,13 +95,7 @@ tags:
 - competing-models
 - epistemic-regime
 - canon/model
-- index-models-readme
-- index-models-model-contract
-- 00-root-map
-- amos-rscf-nodes
 - readme
-- 00-home
-- 00-index-moc
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - observability-readme
@@ -109,8 +103,6 @@ tags:
 - control-plane-readme
 - operations-readme
 - law-hierarchy
-- 00-root-moc
-- 13-models-moc
 - models-readme
 rscf:
   state: DERIVED

@@ -2,7 +2,6 @@
 title: derivation.
 
 it does not transform the model's epistemic type into `observation`.
-
 ---
 tags:
 - stub

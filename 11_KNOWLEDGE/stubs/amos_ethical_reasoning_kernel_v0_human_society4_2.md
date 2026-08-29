@@ -8,8 +8,6 @@ tags:
 - kernel
 - human
 - society
-- kernel-moc
-- 00-home
 - amos-ethical-reasoning-kernel-v0-human-society4-2
 ---
 

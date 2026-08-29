@@ -6,10 +6,6 @@ tags:
 - reference
 - amos-persistence-dissolution-rscf-dynamics
 - type/skill
-- references-moc
-- 07-skills-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 - canon
 - trang-framework-recursive-ontology-dynamics
@@ -287,7 +283,8 @@ Neuroemotional Intelligence™ — instinct modulation, trauma patterning, emoti
 
 and decision regulation
 
- Unified Biological Intelligence™ and the Restoration of Aboriginal Somatic Intelligence1Somatic Intelligence™ — sensory precision, motor integration, fascia-based
+ Unified Biological Intelligence™ and the Restoration of Aboriginal Somatic Intelligence1
+Somatic Intelligence™ — sensory precision, motor integration, fascia-based
 
 information storage, and pre-verbal navigation
 

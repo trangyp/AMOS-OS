@@ -1,11 +1,9 @@
 ---
 title: human moc
 tags:
+moc: true
 - stub
 - human
-- human-moc
-- kernel-moc
-- 00-home
 ---
 
 # human moc

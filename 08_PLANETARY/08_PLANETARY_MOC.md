@@ -3,6 +3,7 @@ title: 08_PLANETARY MOC (Planetary Systems Map of Content)
 type: moc
 source: 08_PLANETARY
 tags:
+moc: true
 - planetary
 - biosphere
 - psi-planetary-layer

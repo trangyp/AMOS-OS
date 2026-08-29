@@ -8,25 +8,14 @@ tags:
 - 11k-cosmo-brain-bridge-index
 - auto-extracted-archive-index
 - brain-router-detailed
-- index-arxiv
-- index-daily
-- index-hash-prefixed
-- index-main
-- index-openclaw
-- index-root-misc
 - master-non-overlap-index
 - rscf-brain-router
 - science-engine-sector-packs
 - scientific-engine-layer
 - scientific-engine-vinfinity
-- amos-knowledge-research-master-moc
-- 11k-cosmo-brain-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- references-moc
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
+moc: true
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

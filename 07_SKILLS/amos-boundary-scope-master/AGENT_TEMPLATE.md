@@ -7,7 +7,6 @@ tags:
 - amos-boundary-scope-master
 - type/skill
 - skill
-- amos-boundary-scope-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -7,8 +7,6 @@ tags:
 - engine
 - domains
 - amos-vn-legal-engine-v0-domains2
-- kernel-moc
-- 00-home
 ---
 
 # amos vn legal engine v0 domains2

@@ -7,8 +7,6 @@ tags:
 - strategy
 - kernel
 - business
-- kernel-moc
-- 00-home
 - amos-pricing-strategy-kernel-v0-business4
 ---
 

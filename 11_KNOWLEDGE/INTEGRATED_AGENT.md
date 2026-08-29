@@ -38,12 +38,7 @@ tags:
 - architecture
 - validation
 - references
-- 00-home
-- 00-root-moc
 - canon
-- amos-moc
-- amos-rscf-nodes
-- knowledge-moc
 governing_law: integrity > completeness > fluency > speed > token savings
 rscf:
   state: SOURCE_CLAIM

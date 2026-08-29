@@ -65,9 +65,6 @@ tags:
 - canon/universe
 - diagnosis
 - absolute-omniverse-u-infinity-canon
-- 00-home
-- amos-rscf-nodes
-- 02-universe-canon-moc
 - law-hierarchy
 - absolute-omniverse-u-infinity
 - ubi-4-domain

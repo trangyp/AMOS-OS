@@ -4,8 +4,6 @@ tags:
 - stub
 - amos
 - amos-os
-- kernel-moc
-- 00-home
 ---
 
 # amos os

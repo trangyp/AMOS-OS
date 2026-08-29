@@ -5,8 +5,6 @@ tags:
 - other
 - note
 - other-note
-- kernel-moc
-- 00-home
 ---
 
 # other note

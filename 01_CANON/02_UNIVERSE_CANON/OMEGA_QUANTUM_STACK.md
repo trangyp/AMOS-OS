@@ -36,7 +36,6 @@ tags:
 - integration
 - law-hierarchy
 - canon-universe-canon-contract
-- 02-universe-canon-moc
 - omega-architecture-canon
 - khung-trang-master
 - khung-trang-equations

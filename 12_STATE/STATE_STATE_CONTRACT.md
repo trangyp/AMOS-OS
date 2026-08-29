@@ -187,9 +187,6 @@ tags:
 - readme
 - state-readme
 - state-state-contract
-- 00-home
-- amos-rscf-nodes
-- 12-state-moc
 - state-finality
 - proposal-commit-separation
 - capability-authority-separation
@@ -198,7 +195,6 @@ tags:
 - epoch-separation
 - consequential-effect-receipts
 - competing-hypothesis-preservation
-- 00-root-mocmd
 system: AMOS_OS
 origin_architect: Trang_Phan
 steward: Trang_Phan

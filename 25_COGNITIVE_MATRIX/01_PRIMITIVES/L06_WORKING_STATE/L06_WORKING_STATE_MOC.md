@@ -5,11 +5,10 @@ source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L06_WORKING_STATE
 tags:
 - l06-working-state
 - domain/cognitive-matrix
-- 00-index-moc
-- 01-primitives-moc
 - cognitive-matrix-l06-working-state-contract
 - l06-working-state-primitives-cognitive-matrix-hml
 - l06-working-state-primitives-cognitive-matrix-rscf
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

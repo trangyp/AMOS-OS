@@ -22,10 +22,6 @@ tags:
 - ubi
 - rscf/claim
 - rscf/state/canonical
-- 00-home
-- 00-root-moc
-- 02-kernel-moc
-- 02-cognition-moc
 aliases:
 - Neurobiological NBI Kernel
 - K_COGNITION_NBI

@@ -3,8 +3,6 @@ title: ubi
 tags:
 - stub
 - ubi
-- kernel-moc
-- 00-home
 ---
 
 # ubi

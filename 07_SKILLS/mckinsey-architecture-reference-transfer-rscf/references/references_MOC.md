@@ -5,14 +5,10 @@ source: 07_SKILLS/mckinsey-architecture-reference-transfer-rscf/references
 tags:
 - references
 - type/skill
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- references-moc
-- 07-skills-moc
 - mckinsey-architecture-reference-transfer-rscf-code
-- mckinsey-architecture-reference-transfer-rscf-moc
 - trang-framework-recursive-ontology-dynamics
+moc: true
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

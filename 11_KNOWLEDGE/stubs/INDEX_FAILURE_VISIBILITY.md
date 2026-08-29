@@ -7,7 +7,6 @@ tags:
 - index
 - failure
 - visibility
-- index-failure-visibility
 ---
 
 # INDEX FAILURE VISIBILITY

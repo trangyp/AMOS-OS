@@ -4,8 +4,6 @@ tags:
 - stub
 - model
 - model-x
-- kernel-moc
-- 00-home
 ---
 
 # model x

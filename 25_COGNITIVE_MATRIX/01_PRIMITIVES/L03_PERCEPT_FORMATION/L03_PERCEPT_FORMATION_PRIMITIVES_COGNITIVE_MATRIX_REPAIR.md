@@ -8,12 +8,6 @@ tags:
 - l03_percept_formation
 - note
 - domain/cognitive-matrix
-- 00-root-moc
-- amos-moc
-- 00-home
-- cognitive-matrix-moc
-- amos-rscf-nodes
-- l03-percept-formation-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

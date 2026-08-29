@@ -6,8 +6,6 @@ tags:
 - system
 - completion
 - baseline
-- kernel-moc
-- 00-home
 - 2026-08-22-amos-system-completion-baseline
 ---
 

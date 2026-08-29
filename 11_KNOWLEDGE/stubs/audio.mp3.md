@@ -4,8 +4,6 @@ tags:
 - stub
 - audio
 - audiomp3
-- kernel-moc
-- 00-home
 ---
 
 # audio.mp3

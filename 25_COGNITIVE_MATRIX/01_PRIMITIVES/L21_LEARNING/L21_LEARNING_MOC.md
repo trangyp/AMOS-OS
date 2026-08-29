@@ -6,8 +6,6 @@ tags:
 - l21-learning
 - domain/cognitive-matrix
 - cognitive-matrix-l21-learning-contract
-- 00-index-moc
-- 01-primitives-moc
 - l21-learning-primitives-cognitive-matrix-agents
 - l21-learning-primitives-cognitive-matrix-equations
 - l21-learning-primitives-cognitive-matrix-hml
@@ -23,6 +21,7 @@ tags:
 - l21-learning-primitives-cognitive-matrix-tests
 - l21-learning-primitives-cognitive-matrix-variables
 - l21-learning-primitives-cognitive-matrix-workflows
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

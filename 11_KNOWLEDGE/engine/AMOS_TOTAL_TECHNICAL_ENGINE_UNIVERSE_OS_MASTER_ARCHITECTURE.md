@@ -8,8 +8,6 @@ tags:
 - rscf/state/source-claim
 - topic/amos-total-technical-engine
 - engine
-- 00-cosmo-brain-moc
-- engine-moc
 type: code
 source: 11_KNOWLEDGE/engine
 rscf:

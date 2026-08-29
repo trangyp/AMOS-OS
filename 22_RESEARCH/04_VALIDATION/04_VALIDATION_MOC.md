@@ -11,8 +11,7 @@ tags:
 - research-validation-contract
 - validation-registry
 - validation-research-readme
-- 00-index-moc
-- 22-research-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL

@@ -11,11 +11,6 @@ tags:
 - integration
 - validation
 - memory
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 02-deep-analysis-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

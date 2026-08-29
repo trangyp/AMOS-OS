@@ -5,8 +5,6 @@ tags:
 - competing
 - hypotheses
 - competing-hypotheses
-- kernel-moc
-- 00-home
 ---
 
 # competing hypotheses

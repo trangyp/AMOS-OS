@@ -5,9 +5,8 @@ source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O15_OBSERVATION
 tags:
 - o15-observation
 - domain/cognitive-matrix
-- 00-index-moc
-- 02-lifecycle-operations-moc
 - cognitive-matrix-o15-observation-contract
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

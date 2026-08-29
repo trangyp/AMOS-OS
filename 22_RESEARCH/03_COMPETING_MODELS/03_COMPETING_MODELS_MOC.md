@@ -12,8 +12,7 @@ tags:
 - reality-architecture-competing-models
 - research-competing-models-contract
 - ubi-competing-models
-- 00-index-moc
-- 22-research-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

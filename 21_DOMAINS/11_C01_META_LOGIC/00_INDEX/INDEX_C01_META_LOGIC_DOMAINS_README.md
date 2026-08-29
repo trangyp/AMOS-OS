@@ -8,8 +8,6 @@ tags:
 - canon/domain
 - readme
 - c01-meta-logic-map
-- 00-home
-- amos-rscf-nodes
 - routing-policy-validation-receipt
 - c01-meta-logic-domains-c01-meta-logic-contract
 - authz-engine-validation-receipt
@@ -18,9 +16,6 @@ tags:
 - control-plane-readme
 - observability-readme
 - operations-readme
-- 00-root-moc
-- amos-moc
-- 00-index-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

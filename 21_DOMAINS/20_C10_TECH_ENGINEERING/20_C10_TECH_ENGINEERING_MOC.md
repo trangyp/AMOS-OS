@@ -8,8 +8,7 @@ tags:
 - c10-tech-engineering-domains-domain-spec
 - c10-tech-engineering-domains-readme
 - domains-c10-tech-engineering-contract
-- 00-index-moc
-- 21-domains-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

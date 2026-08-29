@@ -22,10 +22,6 @@ tags:
 - orthomodular-lattice
 - rscf/claim
 - rscf/state/canonical
-- 00-home
-- 00-root-moc
-- 02-kernel-moc
-- 01-meta-logic-moc
 aliases:
 - QCLA Kernel
 - K_QCLA

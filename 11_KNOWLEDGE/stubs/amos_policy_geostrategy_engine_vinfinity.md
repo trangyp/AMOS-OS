@@ -8,8 +8,6 @@ tags:
 - engine
 - vinfinity
 - amos-policy-geostrategy-engine-vinfinity
-- kernel-moc
-- 00-home
 ---
 
 # amos policy geostrategy engine vinfinity

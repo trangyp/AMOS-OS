@@ -6,19 +6,13 @@ tags:
 - cognitive-matrix
 - 00_index
 - domain/cognitive-matrix
-- 00-root-map
-- amos-rscf-nodes
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- index-control-planes-cognitive-matrix-readme
 - kernel-readme
 - control-plane-readme
 - observability-readme
 - operations-readme
-- 00-root-moc
-- amos-moc
-- 00-index-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

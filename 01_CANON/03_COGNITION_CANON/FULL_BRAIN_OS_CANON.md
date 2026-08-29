@@ -51,7 +51,6 @@ tags:
 - rscf/state/derived
 - topic/full-brain-os
 - readme
-- 00-root-moc
 - architecture
 - system-map
 - neural-network
@@ -84,13 +83,8 @@ tags:
 - test-map
 - operations-map
 - domain-alias-map
-- index-research-readme
 - operating-model
 - cognitive-matrix-architecture
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 03-cognition-canon-moc
 aliases:
 - AMOS Full Brain OS - Full Brain OS - AMOS Full Brain Architecture - AMOS Brain OS
 ---

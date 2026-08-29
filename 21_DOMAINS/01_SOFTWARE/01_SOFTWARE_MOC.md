@@ -10,8 +10,7 @@ tags:
 - software-domains-interfaces
 - software-domains-provenance
 - software-domains-readme
-- 00-index-moc
-- 21-domains-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

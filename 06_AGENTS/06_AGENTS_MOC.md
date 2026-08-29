@@ -11,8 +11,8 @@ tags:
 - agent-fix-reasoning-brain
 - amos-agent-registry-index
 - amos-qfm-paper-agents-index
-- 00-index-moc
 - amos-home
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

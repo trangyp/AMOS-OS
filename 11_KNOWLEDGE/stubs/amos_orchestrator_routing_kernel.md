@@ -7,8 +7,6 @@ tags:
 - routing
 - kernel
 - amos-orchestrator-routing-kernel
-- kernel-moc
-- 00-home
 ---
 
 # amos orchestrator routing kernel

@@ -6,8 +6,6 @@ tags:
 - engine
 - vinfinity
 - coding-engine-vinfinity-v1-6-0
-- kernel-moc
-- 00-home
 ---
 
 # coding engine vinfinity v1 6 0

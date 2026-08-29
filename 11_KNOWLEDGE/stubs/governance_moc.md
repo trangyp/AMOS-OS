@@ -1,11 +1,9 @@
 ---
 title: governance moc
 tags:
+moc: true
 - stub
 - governance
-- governance-moc
-- kernel-moc
-- 00-home
 ---
 
 # governance moc

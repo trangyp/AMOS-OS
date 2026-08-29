@@ -33,14 +33,9 @@ tags:
 - transactions
 - safety
 - canon/core
-- 00-home
-- amos-rscf-nodes
-- 01-core-laws-moc
 - law-hierarchy
 - atomic-multi-rscf-reasoning
 - invariant-registry
-- 00-root-moc
-- amos-moc
 - kernel-readme
 - control-plane-readme
 version: 1.0.0

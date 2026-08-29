@@ -32,7 +32,6 @@ tags:
 - regime
 - validation
 - canon/universe
-- 03-cognition-canon-moc
 - amos-consciousness-canon
 - amos-emotion-master-canon
 - amos-cognition-canon
@@ -44,9 +43,6 @@ tags:
 - observability-readme
 - operations-readme
 - amos-emotion-canon
-- 00-root-moc
-- 00-home
-- amos-rscf-nodes
 aliases:
 - AMOS Emotion Master Canon
 - AMOS Emotion Canon Master

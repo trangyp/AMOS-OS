@@ -110,6 +110,7 @@ tags:
 - amos-framework-registry-compiler-workflow
 - amos-brain-os-workflow
 - amos-future-debt-option-value-governor-workflow
+moc: true
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

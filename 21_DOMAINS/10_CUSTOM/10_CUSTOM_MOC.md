@@ -15,8 +15,7 @@ tags:
 - heritage-intelligence-domain
 - neurosyncai-domain
 - planetary-synchronization-interface
-- 00-index-moc
-- 21-domains-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

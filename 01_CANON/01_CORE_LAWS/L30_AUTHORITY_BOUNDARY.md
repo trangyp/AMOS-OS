@@ -7,10 +7,6 @@ tags:
 - core_laws
 - note
 - canon/universe
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
 - l7-authority
 - law/L1-epistemic
@@ -18,7 +14,6 @@ tags:
 - l29-decision-value
 - scope-regime-firewall
 - l28-critical-gap
-- 01-core-laws-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

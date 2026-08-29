@@ -8,7 +8,7 @@ tags:
 - confidence-ceiling-calibration
 - provenance-independence-calibration
 - ubi-score-calibration
-- 13-models-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

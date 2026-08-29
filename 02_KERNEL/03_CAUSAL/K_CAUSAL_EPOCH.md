@@ -51,8 +51,6 @@ tags:
 - k-metacognition
 - k-structural-reasoning
 - readme
-- 00-root-moc
-- amos-moc
 - architecture
 - authoritative-state
 - dependency-map
@@ -71,9 +69,6 @@ tags:
 - k-meta-logic
 - control-plane-map
 - runtime-map
-- 00-home
-- amos-rscf-nodes
-- 03-causal-moc
 aliases:
 - AMOS Causal Epoch Kernel - Causal Epoch Kernel - K Causal Epoch - K_CAUSAL_EPOCH
 ---

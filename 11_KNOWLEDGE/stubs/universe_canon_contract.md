@@ -6,8 +6,6 @@ tags:
 - canon
 - contract
 - universe-canon-contract
-- kernel-moc
-- 00-home
 ---
 
 # universe canon contract

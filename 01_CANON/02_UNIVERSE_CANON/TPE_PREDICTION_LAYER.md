@@ -8,8 +8,6 @@ tags:
 - prediction
 - tpe-trang-prediction-engine
 - amos-x-tpe
-- 00-index-moc
-- 00-home
 ---
 
 # TPE Prediction Layer

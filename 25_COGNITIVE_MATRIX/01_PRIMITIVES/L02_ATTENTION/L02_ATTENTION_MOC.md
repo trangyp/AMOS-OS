@@ -6,8 +6,6 @@ tags:
 - l02-attention
 - domain/cognitive-matrix
 - cognitive-matrix-l02-attention-contract
-- 00-index-moc
-- 01-primitives-moc
 - l02-attention-primitives-cognitive-matrix-agents
 - l02-attention-primitives-cognitive-matrix-hml
 - l02-attention-primitives-cognitive-matrix-memory
@@ -18,6 +16,7 @@ tags:
 - l02-attention-primitives-cognitive-matrix-skills
 - l02-attention-primitives-cognitive-matrix-state
 - l02-attention-primitives-cognitive-matrix-tests
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

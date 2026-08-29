@@ -24,10 +24,7 @@ tags:
 - canon_candidate
 - canon/domain
 - heritage-provenance
-- 02-research-moc
 - heritage-civilization-history
-- 00-home
-- 21-domains-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

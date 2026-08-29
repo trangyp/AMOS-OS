@@ -8,11 +8,7 @@ tags:
 - type/skill
 - 2026-08-22-formal-systems-invariants
 - 2026-08-22-brain-inventory
-- references-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

@@ -27,13 +27,8 @@ tags:
 - rscf
 - canon/core
 - k-atomic-multi-rscf
-- 00-home
-- amos-rscf-nodes
-- 01-core-laws-moc
 - law-hierarchy
 - amos-core
-- 00-root-moc
-- amos-moc
 version: 1.0.0
 updated: '2026-08-28'
 status: ACTIVE_REFERENCE

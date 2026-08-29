@@ -5,9 +5,8 @@ source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O00_DISTINCTION
 tags:
 - o00-distinction
 - domain/cognitive-matrix
-- 00-index-moc
-- 02-lifecycle-operations-moc
 - cognitive-matrix-o00-distinction-contract
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

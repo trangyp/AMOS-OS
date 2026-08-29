@@ -33,12 +33,6 @@ tags:
 - rules
 - identity: -None
 - placeholder_expanded
-- 00-root-moc
-- amos-moc
-- 00-home
-- cognitive-matrix-moc
-- amos-rscf-nodes
-- 10-routing-moc
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED

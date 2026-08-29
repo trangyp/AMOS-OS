@@ -4,9 +4,6 @@ tags:
 - full
 - brain
 - architecture
-- 00-home
-- amos-rscf-nodes
-- knowledge-moc
 ---
 
 # AMOS FULL BRAIN OS [[ARCHITECTURE]]

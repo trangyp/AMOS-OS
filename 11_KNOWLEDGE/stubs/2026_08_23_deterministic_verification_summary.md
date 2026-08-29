@@ -5,8 +5,6 @@ tags:
 - deterministic
 - verification
 - summary
-- kernel-moc
-- 00-home
 - 2026-08-23-deterministic-verification-summary
 ---
 

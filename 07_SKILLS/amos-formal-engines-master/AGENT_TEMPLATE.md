@@ -7,7 +7,6 @@ tags:
 - amos-formal-engines-master
 - type/skill
 - skill
-- amos-formal-engines-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -1,11 +1,9 @@
 ---
 title: signal moc
 tags:
+moc: true
 - stub
 - signal
-- signal-moc
-- kernel-moc
-- 00-home
 ---
 
 # signal moc

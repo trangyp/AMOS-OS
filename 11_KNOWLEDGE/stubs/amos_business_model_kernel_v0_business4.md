@@ -7,8 +7,6 @@ tags:
 - model
 - kernel
 - amos-business-model-kernel-v0-business4
-- kernel-moc
-- 00-home
 ---
 
 # amos business model kernel v0 business4

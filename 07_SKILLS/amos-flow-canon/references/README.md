@@ -7,13 +7,7 @@ tags:
 - index
 - type/skill
 - skill
-- 00-root-moc
-- amos-moc
-- references-moc
-- 00-home
-- amos-rscf-nodes
 - law-hierarchy
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
 - readme
 rscf:

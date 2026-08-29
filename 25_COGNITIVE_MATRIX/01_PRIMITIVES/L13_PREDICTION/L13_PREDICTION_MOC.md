@@ -6,8 +6,6 @@ tags:
 - l13-prediction
 - domain/cognitive-matrix
 - cognitive-matrix-l13-prediction-contract
-- 00-index-moc
-- 01-primitives-moc
 - l13-prediction-primitives-cognitive-matrix-agents
 - l13-prediction-primitives-cognitive-matrix-hml
 - l13-prediction-primitives-cognitive-matrix-memory
@@ -18,6 +16,7 @@ tags:
 - l13-prediction-primitives-cognitive-matrix-skills
 - l13-prediction-primitives-cognitive-matrix-state
 - l13-prediction-primitives-cognitive-matrix-tests
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

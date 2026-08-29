@@ -1,11 +1,9 @@
 ---
 title: 00 root moc.md
 tags:
+moc: true
 - stub
 - root
-- 00-root-mocmd
-- kernel-moc
-- 00-home
 ---
 
 # 00 root moc.md

@@ -14,7 +14,6 @@ tags:
 - rscf/state/observation
 - topic/vn-driver-charging-super-engine-vinfinit
 - engine
-- engine-moc
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL

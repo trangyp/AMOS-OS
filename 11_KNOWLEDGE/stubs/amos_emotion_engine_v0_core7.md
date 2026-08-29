@@ -7,8 +7,6 @@ tags:
 - engine
 - core
 - amos-emotion-engine-v0-core7
-- kernel-moc
-- 00-home
 ---
 
 # amos emotion engine v0 core7

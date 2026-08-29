@@ -6,12 +6,7 @@ tags:
 - reference
 - amos-c12-earth-ecology-master
 - type/skill
-- 00-home
-- knowledge-moc
-- references-moc
-- amos-rscf-nodes
 - law-hierarchy
-- 07-skills-moc
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

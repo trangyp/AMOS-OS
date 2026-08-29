@@ -7,8 +7,7 @@ tags:
 - canon/domain
 - domains-quantum-systems-contract
 - quantum-systems-domains-readme
-- 00-index-moc
-- 21-domains-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

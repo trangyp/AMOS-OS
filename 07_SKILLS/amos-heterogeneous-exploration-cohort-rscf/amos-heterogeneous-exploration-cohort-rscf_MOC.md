@@ -6,8 +6,7 @@ tags:
 - amos-heterogeneous-exploration-cohort-rs
 - type/skill
 - skill
-- references-moc
-- 07-skills-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

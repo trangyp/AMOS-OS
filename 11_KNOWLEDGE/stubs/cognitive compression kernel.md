@@ -6,8 +6,6 @@ tags:
 - compression
 - kernel
 - cognitive-compression-kernel
-- kernel-moc
-- 00-home
 ---
 
 # cognitive compression kernel

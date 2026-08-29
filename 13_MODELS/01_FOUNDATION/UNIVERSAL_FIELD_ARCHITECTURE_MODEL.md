@@ -136,9 +136,6 @@ tags:
 - add_only
 - heritage_preservation
 - model_registry
-- 00-home
-- amos-rscf-nodes
-- 13-models-moc
 - law-hierarchy
 - kernel-readme
 - control-plane-readme
@@ -146,10 +143,8 @@ tags:
 - operations-readme
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
-- 00-root-mocmd
 - model-map
 - trang-reality-architecture-model
-- 01-foundation-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

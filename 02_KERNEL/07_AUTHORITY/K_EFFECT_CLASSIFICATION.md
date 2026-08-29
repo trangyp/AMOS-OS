@@ -36,11 +36,6 @@ tags:
 - k-commit-time-authority
 - k-risk-constraint
 - k-event-bus
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
-- 07-authority-moc
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

@@ -5,6 +5,7 @@ source: 11_KNOWLEDGE/trang
 tags:
 - trang
 - canon/knowledge
+moc: true
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

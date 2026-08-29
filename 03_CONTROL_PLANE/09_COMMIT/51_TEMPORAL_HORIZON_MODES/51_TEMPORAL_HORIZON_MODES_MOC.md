@@ -5,8 +5,8 @@ source: 03_CONTROL_PLANE/09_COMMIT/51_TEMPORAL_HORIZON_MODES
 tags:
 - 51-temporal-horizon-modes
 - canon/control-plane
-- 09-commit-moc
 - temporal-horizon-modes-commit-control-plane-readme
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

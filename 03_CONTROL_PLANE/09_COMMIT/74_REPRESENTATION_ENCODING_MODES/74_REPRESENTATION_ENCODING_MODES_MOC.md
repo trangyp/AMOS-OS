@@ -5,7 +5,7 @@ source: 03_CONTROL_PLANE/09_COMMIT/74_REPRESENTATION_ENCODING_MODES
 tags:
 - 74-representation-encoding-modes
 - canon/control-plane
-- 09-commit-moc
+moc: true
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -8,8 +8,6 @@ tags:
 - canon/domain
 - readme
 - politics-power-map
-- 00-home
-- amos-rscf-nodes
 - routing-policy-validation-receipt
 - politics-power-domains-politics-power-contract
 - authz-engine-validation-receipt
@@ -18,9 +16,6 @@ tags:
 - control-plane-readme
 - observability-readme
 - operations-readme
-- 00-root-moc
-- amos-moc
-- 00-index-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

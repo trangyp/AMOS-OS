@@ -29,14 +29,10 @@ tags:
 - rscf
 - provenance
 - canon/universe
-- 01-canon-moc
 - khung-trang-equations
 - amos-x-trang-reality
 - khung-trang-canon
-- 00-home
-- 02-universe-canon-moc
 - capability-authority-separation
-- 00-index-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

@@ -55,9 +55,6 @@ tags:
 - provenance
 - canon/universe
 - khung-trang-canon-validation-receipt
-- 00-home
-- amos-rscf-nodes
-- 02-universe-canon-moc
 - law-hierarchy
 - khung-trang-full-max-detail-architecture-equations
 - trang-framework-recursive-ontology-dynamics

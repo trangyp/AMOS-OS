@@ -6,8 +6,6 @@ tags:
 - memory
 - update
 - 2026-08-22-devin-memory-update
-- kernel-moc
-- 00-home
 ---
 
 # 2026 08 22 devin memory update

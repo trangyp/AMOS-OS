@@ -1,11 +1,9 @@
 ---
 title: control moc
 tags:
+moc: true
 - stub
 - control
-- control-moc
-- kernel-moc
-- 00-home
 ---
 
 # control moc

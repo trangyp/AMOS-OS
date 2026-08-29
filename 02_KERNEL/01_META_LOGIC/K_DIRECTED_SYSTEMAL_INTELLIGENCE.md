@@ -37,10 +37,6 @@ tags:
 - governance
 - validation
 - recovery
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
 - kernel-readme
 - law-hierarchy
 - amos-core-laws
@@ -54,7 +50,6 @@ tags:
 - runtime-map
 - observability-readme
 - operations-readme
-- 01-meta-logic-moc
 version: 0.2.0
 updated: '2026-08-27'
 status: AMOS_MODEL

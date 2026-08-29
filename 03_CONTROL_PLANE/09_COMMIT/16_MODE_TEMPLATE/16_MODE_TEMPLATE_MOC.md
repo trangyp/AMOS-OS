@@ -6,7 +6,6 @@ tags:
 - 16-mode-template
 - canon/control-plane
 - mode-template-commit-control-plane-tests
-- 09-commit-moc
 - mode-template-commit-control-plane-aliases
 - mode-template-commit-control-plane-benchmarks
 - mode-template-commit-control-plane-composition
@@ -25,6 +24,7 @@ tags:
 - mode-template-commit-control-plane-readme
 - mode-template-commit-control-plane-safety-gates
 - mode-template-commit-control-plane-validation
+moc: true
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL
