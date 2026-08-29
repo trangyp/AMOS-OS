@@ -1,9 +1,9 @@
 ---
 title: models moc
 tags:
+  - stub
+  - models
 moc: true
-- stub
-- models
 ---
 
 # models moc

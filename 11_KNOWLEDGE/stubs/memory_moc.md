@@ -1,9 +1,9 @@
 ---
 title: memory moc
 tags:
+  - stub
+  - memory
 moc: true
-- stub
-- memory
 ---
 
 # memory moc

@@ -1,9 +1,9 @@
 ---
 title: architecture moc
 tags:
+  - stub
+  - architecture
 moc: true
-- stub
-- architecture
 ---
 
 # architecture moc

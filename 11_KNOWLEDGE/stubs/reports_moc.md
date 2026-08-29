@@ -1,9 +1,9 @@
 ---
 title: reports moc
 tags:
+  - stub
+  - reports
 moc: true
-- stub
-- reports
 ---
 
 # reports moc

@@ -1,5 +1,5 @@
 ---
-title: AMOS / TRANG — TOÀN CẢNH EV VIỆT NAM: MAX DETAIL MASTER
+title: "AMOS / TRANG — TOÀN CẢNH EV VIỆT NAM: MAX DETAIL MASTER"
 type: note
 source: 11_KNOWLEDGE
 subtitle: UBI × ULF × PSI × QLS/QIC × QCLA × H/M/L × RSCF × Infrastructure Control Plane

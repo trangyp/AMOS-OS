@@ -1,9 +1,9 @@
 ---
 title: signal moc
 tags:
+  - stub
+  - signal
 moc: true
-- stub
-- signal
 ---
 
 # signal moc

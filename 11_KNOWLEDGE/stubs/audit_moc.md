@@ -1,9 +1,9 @@
 ---
 title: audit moc
 tags:
+  - stub
+  - audit
 moc: true
-- stub
-- audit
 ---
 
 # audit moc

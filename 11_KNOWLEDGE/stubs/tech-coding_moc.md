@@ -1,10 +1,10 @@
 ---
 title: tech-coding moc
 tags:
+  - stub
+  - tech
+  - coding
 moc: true
-- stub
-- tech
-- coding
 ---
 
 # tech-coding moc

@@ -1,9 +1,9 @@
 ---
 title: fractal moc
 tags:
+  - stub
+  - fractal
 moc: true
-- stub
-- fractal
 ---
 
 # fractal moc

@@ -1,9 +1,9 @@
 ---
 title: system moc
 tags:
+  - stub
+  - system
 moc: true
-- stub
-- system
 ---
 
 # system moc

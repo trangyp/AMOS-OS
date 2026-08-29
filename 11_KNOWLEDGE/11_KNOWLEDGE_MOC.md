@@ -3,9 +3,9 @@ title: 11_KNOWLEDGE MOC (Knowledge Plane Map of Content)
 type: moc
 source: 11_KNOWLEDGE
 tags:
+  - knowledge
+  - rscf
 moc: true
-- knowledge
-- rscf
 ---
 
 # 11_KNOWLEDGE MOC

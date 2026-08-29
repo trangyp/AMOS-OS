@@ -1,9 +1,9 @@
 ---
 title: learning moc
 tags:
+  - stub
+  - learning
 moc: true
-- stub
-- learning
 ---
 
 # learning moc

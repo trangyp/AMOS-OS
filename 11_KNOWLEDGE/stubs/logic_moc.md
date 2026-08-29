@@ -1,9 +1,9 @@
 ---
 title: logic moc
 tags:
+  - stub
+  - logic
 moc: true
-- stub
-- logic
 ---
 
 # logic moc

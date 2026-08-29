@@ -1,9 +1,9 @@
 ---
 title: emotion moc
 tags:
+  - stub
+  - emotion
 moc: true
-- stub
-- emotion
 ---
 
 # emotion moc

@@ -1,9 +1,9 @@
 ---
 title: control moc
 tags:
+  - stub
+  - control
 moc: true
-- stub
-- control
 ---
 
 # control moc

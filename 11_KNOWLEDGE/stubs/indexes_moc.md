@@ -1,9 +1,9 @@
 ---
 title: indexes moc
 tags:
+  - stub
+  - indexes
 moc: true
-- stub
-- indexes
 ---
 
 # indexes moc

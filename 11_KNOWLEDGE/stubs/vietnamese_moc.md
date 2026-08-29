@@ -1,9 +1,9 @@
 ---
 title: vietnamese moc
 tags:
+  - stub
+  - vietnamese
 moc: true
-- stub
-- vietnamese
 ---
 
 # vietnamese moc

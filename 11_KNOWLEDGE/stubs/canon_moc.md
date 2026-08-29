@@ -1,9 +1,9 @@
 ---
 title: canon moc
 tags:
+  - stub
+  - canon
 moc: true
-- stub
-- canon
 ---
 
 # canon moc

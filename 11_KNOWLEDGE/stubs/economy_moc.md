@@ -1,9 +1,9 @@
 ---
 title: economy moc
 tags:
+  - stub
+  - economy
 moc: true
-- stub
-- economy
 ---
 
 # economy moc

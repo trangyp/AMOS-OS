@@ -1,9 +1,9 @@
 ---
 title: dated moc
 tags:
+  - stub
+  - dated
 moc: true
-- stub
-- dated
 ---
 
 # dated moc

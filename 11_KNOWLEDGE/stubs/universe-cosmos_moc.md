@@ -1,10 +1,10 @@
 ---
 title: universe-cosmos moc
 tags:
+  - stub
+  - universe
+  - cosmos
 moc: true
-- stub
-- universe
-- cosmos
 ---
 
 # universe-cosmos moc

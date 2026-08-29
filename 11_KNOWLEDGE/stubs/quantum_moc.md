@@ -1,9 +1,9 @@
 ---
 title: quantum moc
 tags:
+  - stub
+  - quantum
 moc: true
-- stub
-- quantum
 ---
 
 # quantum moc

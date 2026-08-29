@@ -1,9 +1,9 @@
 ---
 title: governance moc
 tags:
+  - stub
+  - governance
 moc: true
-- stub
-- governance
 ---
 
 # governance moc

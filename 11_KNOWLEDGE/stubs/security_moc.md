@@ -1,9 +1,9 @@
 ---
 title: security moc
 tags:
+  - stub
+  - security
 moc: true
-- stub
-- security
 ---
 
 # security moc

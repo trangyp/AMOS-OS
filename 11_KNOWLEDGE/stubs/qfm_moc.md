@@ -1,9 +1,9 @@
 ---
 title: qfm moc
 tags:
+  - stub
+  - qfm
 moc: true
-- stub
-- qfm
 ---
 
 # qfm moc

@@ -1,9 +1,9 @@
 ---
 title: speed moc
 tags:
+  - stub
+  - speed
 moc: true
-- stub
-- speed
 ---
 
 # speed moc

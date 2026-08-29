@@ -1,10 +1,10 @@
 ---
 title: biology-ubi moc
 tags:
+  - stub
+  - biology
+  - ubi
 moc: true
-- stub
-- biology
-- ubi
 ---
 
 # biology-ubi moc

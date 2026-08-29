@@ -1,9 +1,9 @@
 ---
 title: layers moc
 tags:
+  - stub
+  - layers
 moc: true
-- stub
-- layers
 ---
 
 # layers moc

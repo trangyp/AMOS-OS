@@ -1,10 +1,10 @@
 ---
 title: probability-stats moc
 tags:
+  - stub
+  - probability
+  - stats
 moc: true
-- stub
-- probability
-- stats
 ---
 
 # probability-stats moc

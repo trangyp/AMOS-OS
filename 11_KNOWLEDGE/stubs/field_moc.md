@@ -1,9 +1,9 @@
 ---
 title: field moc
 tags:
+  - stub
+  - field
 moc: true
-- stub
-- field
 ---
 
 # field moc

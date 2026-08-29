@@ -1,9 +1,9 @@
 ---
 title: strategy moc
 tags:
+  - stub
+  - strategy
 moc: true
-- stub
-- strategy
 ---
 
 # strategy moc

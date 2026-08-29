@@ -1,9 +1,9 @@
 ---
 title: pipelines moc
 tags:
+  - stub
+  - pipelines
 moc: true
-- stub
-- pipelines
 ---
 
 # pipelines moc

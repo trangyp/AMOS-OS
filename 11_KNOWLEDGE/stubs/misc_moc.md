@@ -1,9 +1,9 @@
 ---
 title: misc moc
 tags:
+  - stub
+  - misc
 moc: true
-- stub
-- misc
 ---
 
 # misc moc

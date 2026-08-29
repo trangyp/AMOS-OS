@@ -1,9 +1,9 @@
 ---
 title: math moc
 tags:
+  - stub
+  - math
 moc: true
-- stub
-- math
 ---
 
 # math moc

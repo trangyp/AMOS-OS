@@ -1,9 +1,9 @@
 ---
 title: 00 root moc.md
 tags:
+  - stub
+  - root
 moc: true
-- stub
-- root
 ---
 
 # 00 root moc.md

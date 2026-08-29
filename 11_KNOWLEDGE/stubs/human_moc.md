@@ -1,9 +1,9 @@
 ---
 title: human moc
 tags:
+  - stub
+  - human
 moc: true
-- stub
-- human
 ---
 
 # human moc

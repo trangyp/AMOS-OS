@@ -1,9 +1,9 @@
 ---
 title: rscf moc
 tags:
+  - stub
+  - rscf
 moc: true
-- stub
-- rscf
 ---
 
 # rscf moc

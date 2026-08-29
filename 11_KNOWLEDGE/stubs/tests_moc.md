@@ -1,9 +1,9 @@
 ---
 title: tests moc
 tags:
+  - stub
+  - tests
 moc: true
-- stub
-- tests
 ---
 
 # tests moc

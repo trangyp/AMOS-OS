@@ -1,10 +1,10 @@
 ---
 title: amos-general moc
 tags:
+  - stub
+  - amos
+  - general
 moc: true
-- stub
-- amos
-- general
 ---
 
 # amos-general moc

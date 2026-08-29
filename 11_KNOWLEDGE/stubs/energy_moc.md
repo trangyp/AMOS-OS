@@ -1,9 +1,9 @@
 ---
 title: energy moc
 tags:
+  - stub
+  - energy
 moc: true
-- stub
-- energy
 ---
 
 # energy moc

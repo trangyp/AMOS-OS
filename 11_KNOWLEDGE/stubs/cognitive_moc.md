@@ -1,9 +1,9 @@
 ---
 title: cognitive moc
 tags:
+  - stub
+  - cognitive
 moc: true
-- stub
-- cognitive
 ---
 
 # cognitive moc
