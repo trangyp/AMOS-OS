@@ -281,3 +281,47 @@ Read the `main` branch README of `linxuhao/SkillFlow` and mapped it to AMOS work
 Install `skillflow-py` in a sandbox, convert one AMOS workflow (e.g., `amos-skill-builder-workflow.md`) into a SkillFlow YAML, and run `skillflow-lint` to see how much of the AMOS workflow contract can be expressed in SkillFlow's DAG schema.
 
 Raw source: [[SKILLFLOW_README_2026_08_29]]
+
+## 2026-08-29 | AgentFactory deep-dive
+
+Read the `master` branch README of `zzatpku/AgentFactory` and mapped it to AMOS self-evolution and subagent governance.
+
+### Verified shape
+
+- ACL 2026 System Demonstrations paper; 63 stars.
+- Three-phase lifecycle: Install (create subagents) → Self-Evolve (refine on feedback) → Deploy (export as Python modules).
+- Meta-Agent decomposes problems, allocates subsets of tools, iteratively refines subagents.
+- Skill levels: Meta Skills (`create_subagent`, `run_subagent`, `modify_subagent`, ...), Tool Skills (`web_search`, `web_reading`, `browser_automation`, `shell_command`), Subagent Skills (dynamically generated Python).
+- Subagents are saved as Python code + `SKILL.md` documentation, portable to LangChain, AutoGen, Claude Code.
+- Workspace Manager isolates execution environments per task.
+- Requires Python 3.12, Playwright, Flask, `LLM_*` keys; cannot install on current host Python 3.9.6.
+
+### Integration points for AMOS
+
+1. **Executable subagent library → `amos-agent-orchestrator` and `amos-integrated-agent`**
+   - AgentFactory stores successful solutions as Python code. AMOS could store canonical subagents as `.devin/agents/` JSON and `SKILL.md` pairs after `amos-validation-pipeline`.
+
+2. **Meta Skills → `amos-skill-builder` and `amos-agent-systems-master`**
+   - The meta-agent primitives (`create/run/modify/list/view`) are a natural expansion of `amos-agent-orchestrator` subagent dispatch and `skill_operations_enhancer.py`.
+
+3. **Self-evolve feedback loop → `amos-evolution-loop` and `amos-brain-model-integration`**
+   - Retrieve → detect limitations → modify → validate. This maps directly to the `GMEF` evolution gate and the `AMOS_AUTONOMOUS_EVOLUTION_LAYER` already in `cosmo-brain/`.
+
+4. **Workspace Manager → `amos-boundary-scope-master` and `amos-memory-immune-system`**
+   - Isolated per-task workspaces prevent a subagent from corrupting the shared skill library. AMOS can enforce the same via project directories and `memory/short_term/` vs `memory/long_term/`.
+
+5. **SKILL.md + Python deployment → `amos-skill-builder` bundle format**
+   - AMOS skill bundles can already include `SKILL.md`; adding a `subagent.py` or `scripts/` Python artifact would make AMOS skills deployable like AgentFactory modules.
+
+### Open questions / gaps
+
+- 63 stars; ACL demo but not yet battle-tested.
+- README claims 57% token reduction; not independently benchmarked by AMOS.
+- Requires multiple API keys and Playwright; not all AMOS users will have these.
+- The `SKILL.md` format in AgentFactory is not documented in the README; would need to inspect `prompt4cc.txt` or code.
+
+### Recommended next step
+
+Clone `zzatpku/AgentFactory` and inspect `prompt4cc.txt` and a saved `SKILL.md` to compare the AgentFactory bundle format with the AMOS `amos-skill-builder` bundle spec.
+
+Raw source: [[AGENTFACTORY_README_2026_08_29]]

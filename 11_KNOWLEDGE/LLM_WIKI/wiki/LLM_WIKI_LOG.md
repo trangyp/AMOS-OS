@@ -175,3 +175,19 @@ claim_class: AMOS_MODEL
 - Fetched `linxuhao/SkillFlow` README and captured raw source to [[SKILLFLOW_README_2026_08_29]].
 - Mapped SkillFlow YAML DAG executor, capability-gated I/O, human checkpoints, and MCP transport to `amos-workflow-runner`, `amos-skill-builder`, `amos-routing-audit`, `amos-promotion-gates`, and `amos-observability-driven-harness-evolution-rscf`.
 - Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: install `skillflow-py` and convert one AMOS workflow.
+
+## [2026-08-29] enhance | Imported SkillOS `Boot.md` + `SkillIndex.md` pattern into AMOS `.devin/`
+
+- Created `stitch_project_cosmo/.devin/AMOS_BOOT.md` as the runtime manifest (boot checklist, capabilities, invariants).
+- Created `stitch_project_cosmo/.devin/SKILL_INDEX.md` as the hierarchical skill router with:
+  - 642 total skills across 45 unique `domain` values
+  - 24 parent-skill roots
+  - Usage protocol and canonical tree links to `[[07_SKILLS_MOC]]` / `[[AMOS_RSCF_NODES]]`
+- Re-ran `sota_skill_validator.py`: 642 / 642 skills still 100%.
+- Committed to `stitch_project_cosmo`.
+
+## [2026-08-29] research | AgentFactory README captured and evaluated
+
+- Fetched `zzatpku/AgentFactory` README and captured raw source to [[AGENTFACTORY_README_2026_08_29]].
+- Mapped AgentFactory meta-agent, subagent skill library, and self-evolution loop to `amos-agent-orchestrator`, `amos-skill-builder`, `amos-evolution-loop`, and `amos-brain-model-integration`.
+- Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: inspect `prompt4cc.txt` for bundle format comparison.
