@@ -371,3 +371,48 @@ Read the `main` branch README of `gfernandf/agent-skill-registry` and mapped it 
 Generate a machine-readable catalog from `gfernandf/agent-skill-registry` and compare its `capabilities.json` schema to the AMOS `SKILL.md` frontmatter to identify missing fields or naming mismatches.
 
 Raw source: [[AGENT_SKILL_REGISTRY_README_2026_08_29]]
+
+## 2026-08-29 | AgentSkills Registry deep-dive
+
+Read the `main` branch README of `kai98k/agent-skills-registry` and mapped it to AMOS skill packaging and registry distribution.
+
+### Verified shape
+
+- Go CLI (`agentskills`) + server; npm/Docker Hub-like registry for AI agent skills.
+- Skill bundle format: `SKILL.md` + optional `scripts/`, `references/`, `assets/`.
+- CLI: `init`, `login`, `push`, `pull`, `search`, `vendor` (with lock file and checksum).
+- Versioning: strict semver, pin, and `agentskills.lock` with SHA-256 for supply-chain safety.
+- Security: checksum verification, path traversal protection, per-file 200 MB size limits, bearer token auth.
+- Go + Cobra, file-based `.tar.gz` storage, JSON metadata.
+
+### Integration points for AMOS
+
+1. **Skill bundle format → `amos-skill-builder` and `skill-check`**
+   - AgentSkills bundle (`SKILL.md`, `scripts/`, `references/`, `assets/`) mirrors AMOS skill directories.
+   - AMOS `MANIFEST.yaml` can be extended to include `bundle_format: agentskills` and `checksum` fields for registry export.
+
+2. **Vendor + lock file → `skill_integrity_lock.py` and `skill_registry_packager.py`**
+   - `agentskills vendor` and `agentskills.lock` directly map to AMOS `skill_integrity_lock` and `skill_registry_packager`.
+   - Add SHA-256 `checksum` and `source_server` to the existing AMOS lock artifacts.
+
+3. **Semver and version pinning → `skill_version_manager.py`**
+   - Strict `name@version` pulling is a reference for `amos-skill-builder` and `skill_version_manager` to pin skill versions per environment.
+
+4. **Search and discovery → `amos-skill-registry-gateway` and `amos-agent-orchestrator`**
+   - `agentskills search <keyword>` can be wrapped as an MCP tool or a `skill-check` subcommand.
+   - AMOS agents can query a registry before falling back to local skills.
+
+5. **Self-hosted registry → `amos-mcp-connector` and enterprise governance**
+   - The standalone Go server supports private registries. AMOS could ship an `amos-skill-registry` MCP tool for on-premise skill distribution.
+
+### Open questions / gaps
+
+- No explicit star count in README; smaller than SkillNet / AgentFactory.
+- Security claims (SHA-256, path traversal, size limits) not independently audited by AMOS.
+- Quality of published skills is author responsibility; AMOS would still need `skill-check` and `skill_guardrail_checker` on `pull`.
+
+### Recommended next step
+
+Package one AMOS skill (e.g., `amos-llm-wiki`) into an AgentSkills-compatible `.tar.gz` bundle and validate that `SKILL.md` + `scripts/` + `references/` structure is accepted.
+
+Raw source: [[AGENTSKILLS_REGISTRY_README_2026_08_29]]

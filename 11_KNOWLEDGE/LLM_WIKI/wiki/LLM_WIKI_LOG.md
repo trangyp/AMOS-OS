@@ -253,3 +253,9 @@ claim_class: AMOS_MODEL
 - Added `stitch_project_cosmo/.devin/skills/amos-agent-orchestrator/CLAUDE.md` as a Claude Code prompt enforcing boot checklist, dispatch protocol, content-hash verification, and provenance logging.
 - Re-ran `sota_skill_validator.py`: 642 / 642 skills still 100%.
 - Committed to `stitch_project_cosmo`.
+
+## [2026-08-29] research | AgentSkills Registry README captured and evaluated
+
+- Fetched `kai98k/agent-skills-registry` README and captured raw source to [[AGENTSKILLS_REGISTRY_README_2026_08_29]].
+- Mapped Skill Bundle format, `vendor`/`lock` supply-chain model, semver, and self-hosted registry to `amos-skill-builder`, `skill_integrity_lock.py`, `skill_version_manager.py`, `amos-skill-registry-gateway`, and `amos-mcp-connector`.
+- Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: package one AMOS skill as AgentSkills-compatible `.tar.gz`.
