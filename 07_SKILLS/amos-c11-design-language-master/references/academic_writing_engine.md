@@ -33,7 +33,7 @@ category: "kernel"
 tags: [amos, academic, writing, engine, v-infinity, logic, reasoning, research, paper, composition, cross-domain]
 ---
 
-# AMOS Academic Writing Engine vInfinity
+# AMOS Academic Writing Engine vInfinity — part 2
 
 ## Meta
 - **Engine**: Academic_Writing_Engine_v∞

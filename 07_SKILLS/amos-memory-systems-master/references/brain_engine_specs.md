@@ -44,7 +44,7 @@ sources:
   - "_00_AMOS_CANON/AMOS_Speed_Engine_v0.json"
 ---
 
-# AMOS Brain Engine Specs
+# AMOS Brain Engine Specs — part 2
 
 Ingest summary of key AMOS brain engine specs from Google Drive (`_00_AMOS_CANON/Core/`).
 All specs authored by **Trang Phan**.

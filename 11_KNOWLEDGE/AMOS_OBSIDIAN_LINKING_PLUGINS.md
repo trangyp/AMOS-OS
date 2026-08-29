@@ -4101,7 +4101,7 @@ rather than allowing bulk automation, AI suggestions, semantic similarity, or gr
 
 ---
 
-## Source Tags
+## Source Tags — part 2
 
 `#obsidian` · `#knowledge` · `#vault` · `#linking` · `#plugins` · `#moc` · `#templater` · `#smart-connections` · `#dataview` · `#canon-group/tech-ai` · `#canon/tooling` · `#rscf/claim` · `#rscf/provenance` · `#rscf/state/derived` · `#topic/obsidian-linking`
 

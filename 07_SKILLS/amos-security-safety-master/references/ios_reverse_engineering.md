@@ -31,7 +31,7 @@ rscf:
 ---
 tags: [engine]
 ---
-# iOS Reverse Engineering
+# iOS Reverse Engineering — part 2
 * iOS/Android app is a binary
 * Few more steps in comparison to web testing
 * jail-break iOS / root Android first

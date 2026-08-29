@@ -382,7 +382,7 @@ competing models → falsifiers → dependencies → decision relevance → AMOS
 
 ---
 
-# H1 — Organization Structure, Decision Rights & Governance Design
+# H1 — Organization Structure, Decision Rights & Governance Design — part 2
 
 ### L4. Delegation Principle
 
@@ -402,7 +402,7 @@ high-blast-radius decisions up.
 
 ---
 
-# H2 — Controls, Risk & Compliance Architecture
+# H2 — Controls, Risk & Compliance Architecture — part 2
 
 ### L2. Risk Register Discipline
 

@@ -36,7 +36,7 @@ provenance: "SOURCE_CLAIM"
 confidence: "VERIFIED"
 ---
 
-# AMOS Emotion Engine Layer
+# AMOS Emotion Engine Layer — part 2
 
 The AMOS Emotion Engine (AMOS_MEGA_HUMAN_ENGINE vOmega.Infinity) is a unified affective-somatic-instinct engine for AMOS OS. It is the top-level engine for emotion, instinct, empathy, somatic state, motivation, cycles, and collective dynamics. Origin: `Google Drive /_00_AMOS_CANON/Core/AMOS_Emotion_Engine_v0.json` (439 lines, 15KB).
 

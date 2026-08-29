@@ -103,7 +103,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# K IDENTITY
+# K IDENTITY — part 2
 
 ## 1. Identity Principle
 

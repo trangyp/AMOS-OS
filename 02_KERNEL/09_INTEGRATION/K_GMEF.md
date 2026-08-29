@@ -2884,7 +2884,7 @@ implementation_aliases:
 updated: 2026-08-26
 ---
 
-# K GMEF
+# K GMEF — part 2
 
 > **Canonical framework:** Governed Machine Evolution Framework — GMEF
 > **Origin / stewardship:** Trang Phan

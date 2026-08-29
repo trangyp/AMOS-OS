@@ -31,7 +31,7 @@ rscf:
 ---
 tags: [misc]
 ---
-# Equation Firewall
+# Equation Firewall — part 2
 
 For every equation record:
 `EQR = [id, expression, variable_types, units, domain, assumptions, scope, provenance, status, falsifiers]`

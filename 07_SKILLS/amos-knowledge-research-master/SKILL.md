@@ -125,7 +125,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 > **Source**: `11_KNOWLEDGE/11_KNOWLEDGE_MOC.md` (content_hash: 665f1b63068333a0) from the AMOS_OS Obsidian vault.
 > This is substantive domain knowledge, not script-generated content.
 
-# 11_KNOWLEDGE MOC
+# 11_KNOWLEDGE MOC — part 2
 
 > Index of 40 top-level knowledge notes.
 

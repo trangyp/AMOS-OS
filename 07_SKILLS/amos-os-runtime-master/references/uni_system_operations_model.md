@@ -32,7 +32,7 @@ rscf:
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-uni-system-operations-engine-model, engine]
 ---
 
-# AMOS Uni System Operations Engine Model
+# AMOS Uni System Operations Engine Model — part 2
 
 **Source File**: `Unipower/AMOS_Uni_System_Operations_Engine_v0.json`
 **Version**: `vInfinity_X100k_GLOBAL_C_REFACTORED_v4`

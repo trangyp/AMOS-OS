@@ -6579,7 +6579,7 @@ The `Custom / Missing Template` branch is derived because the source does not pr
 # 391. Obsidian Atomic Note — Artifact
 
 ```markdown
-# AMOS ACADEMIC WRITING KERNEL V0
+# AMOS ACADEMIC WRITING KERNEL V0 — part 2
 
 ## Class
 SOURCE_CLAIM / AMOS_MODEL
@@ -6829,7 +6829,7 @@ rscf:
   scope: AMOS_knowledge
 ---
 
-# AMOS ACADEMIC WRITING KERNEL V0
+# AMOS ACADEMIC WRITING KERNEL V0 — part 3
 
 [original JSON payload]
 

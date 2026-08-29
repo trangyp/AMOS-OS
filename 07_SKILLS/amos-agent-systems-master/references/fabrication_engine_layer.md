@@ -31,7 +31,7 @@ created: 2026-08-22
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-fabrication-engine, engine]
 ---
 
-# AMOS Fabrication Engine Layer
+# AMOS Fabrication Engine Layer — part 2
 
 The AMOS Fabrication Engine (AMOS_SUPER_FABRICATION) is a full-stack fabrication layer that manages how agents, operating systems, institutions, and simulations are designed, transformed, and cast into stable architectures. It is composed of three structural tiers: **Factories** (design and assembly), **Forges** (transformation and optimisation), and **Foundries** (heavy system construction). This layer coordinates all agent and system fabrication under the AMOS canon, with hard IP and safety boundaries.
 

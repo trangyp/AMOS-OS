@@ -27,7 +27,7 @@ rscf:
 ---
 tags: [economy]
 ---
-# MONEY REGIMES STRUCTURAL ANALYSIS
+# MONEY REGIMES STRUCTURAL ANALYSIS — part 2
 
 ## PROOF
 [PROOF] Wikipedia. "Gold Standard" - https://en.wikipedia.org/wiki/Gold_standard

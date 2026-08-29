@@ -364,7 +364,7 @@ and/or:
 
 # 8. ALU-1 — Distinction
 
-## Source Row
+## Source Row — part 2
 
 | Field                      | Value                            |
 | -------------------------- | -------------------------------- |
@@ -418,7 +418,7 @@ The successful continuation path is not explicitly defined by the row.
 
 # 10. ALU-2 — Relational Coupling
 
-## Source Row
+## Source Row — part 3
 
 | Field                      | Value                     |
 | -------------------------- | ------------------------- |
@@ -473,7 +473,7 @@ Those details remain unresolved unless defined in [[ULK_LOGIC_KERNEL]].
 
 # 12. ALU-3 — Constitutional Projection
 
-## Source Row
+## Source Row — part 4
 
 | Field                      | Value                         |
 | -------------------------- | ----------------------------- |
@@ -535,7 +535,7 @@ They must not be invented from general AMOS principles.
 
 # 14. ALU-4 — Type Formation
 
-## Source Row
+## Source Row — part 5
 
 | Field                      | Value                    |
 | -------------------------- | ------------------------ |
@@ -602,7 +602,7 @@ These should be resolved through [[ULK_LOGIC_KERNEL]] rather than inferred.
 
 # 16. ALU-5 — State Hash Verification
 
-## Source Row
+## Source Row — part 6
 
 | Field                      | Value                       |
 | -------------------------- | --------------------------- |

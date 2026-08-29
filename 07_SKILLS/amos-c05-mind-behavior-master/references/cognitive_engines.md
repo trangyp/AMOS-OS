@@ -33,7 +33,7 @@ created: 2026-08-22
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-cognitive-engines, cognitive]
 ---
 
-# AMOS Cognitive Engines
+# AMOS Cognitive Engines — part 2
 
 The AMOS Cognitive Engines comprise the domain-specific reasoning layers that sit on top of the core AMOS logic kernel. They are drawn from two primary source inventories in the Cosmo brain: the **Cognitive Stack Engines** (13 engines from `_00_AMOS_CANON/Cognitive/`) and the **Domain Engines** (17 engines from `_00_AMOS_CANON/Domains/`).
 

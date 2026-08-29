@@ -32,7 +32,7 @@ origin_type: "SOURCE"
 tags: [amos, kernel, legal, vietnam, vInfinity, governance-risk, 25-axes, 24-dimensions, 7-tensor-layers, engine]
 ---
 
-# AMOS VN Legal Engine vInfinity
+# AMOS VN Legal Engine vInfinity — part 2
 
 ## Meta
 - **Engine ID**: `AMOS_Legal_Kernel_vInfinity`

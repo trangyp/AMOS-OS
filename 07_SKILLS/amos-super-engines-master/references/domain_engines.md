@@ -38,7 +38,7 @@ confidence: "VERIFIED"
 source: "Google Drive /_00_AMOS_CANON/Domains/ (4 subfolders, 15 engine JSON files)"
 ---
 
-# AMOS Domain Engines
+# AMOS Domain Engines — part 2
 
 Full inventory of domain engines from `_00_AMOS_CANON/Domains/`.
 Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.

@@ -5492,7 +5492,7 @@ The `RELATED_TO` entries normalize the source's Related list.
 The exact supplied law spine must remain recoverable:
 
 ```markdown
-# L26 Proof Coordination Laws
+# L26 Proof Coordination Laws — part 2
 
 STATUS: PROPOSED_SPECIFICATION
 epistemic_class: AMOS_MODEL

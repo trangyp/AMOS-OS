@@ -328,7 +328,7 @@ $$Isomorphic(A,B) \not\Rightarrow CausallyEquivalent(A,B)$$
 
 # 8. G02 — HYPOTHESIS GENERATOR
 
-## Objective
+## Objective — part 2
 
 Generate materially distinct candidate explanations.
 
@@ -377,7 +377,7 @@ where each is genuinely plausible.
 
 # 9. G03 — ALTERNATIVE GENERATOR
 
-## Objective
+## Objective — part 3
 
 Produce materially different candidate strategies, interpretations, architectures, or decisions.
 
@@ -405,7 +405,7 @@ The generator SHOULD maximize useful diversity rather than superficial variation
 
 # 10. G04 — CAUSAL GENERATOR
 
-## Objective
+## Objective — part 4
 
 Generate candidate causal explanations and intervention structures.
 
@@ -457,7 +457,7 @@ No transformation may silently convert one type into another.
 
 # 11. G05 — COUNTERFACTUAL GENERATOR
 
-## Objective
+## Objective — part 5
 
 Generate controlled alternative-world reasoning.
 
@@ -491,7 +491,7 @@ A counterfactual cannot establish its own causal model.
 
 # 12. G06 — SCENARIO GENERATOR
 
-## Objective
+## Objective — part 6
 
 Generate internally coherent possible states or futures.
 
@@ -527,7 +527,7 @@ Scenario detail does not convert a scenario into a prediction.
 
 # 13. G07 — SOLUTION GENERATOR
 
-## Objective
+## Objective — part 7
 
 Generate candidate solutions satisfying task constraints.
 
@@ -554,7 +554,7 @@ Generation and selection remain separate operations.
 
 # 14. G08 — PLAN GENERATOR
 
-## Objective
+## Objective — part 8
 
 Transform a selected strategy into candidate execution structure.
 
@@ -581,7 +581,7 @@ $$AuthorizedToGeneratePlan \not\Rightarrow AuthorizedToExecutePlan$$
 
 # 15. G09 — TEST GENERATOR
 
-## Objective
+## Objective — part 9
 
 Generate discriminating tests.
 
@@ -595,7 +595,7 @@ A high-value test SHOULD discriminate among competing explanations rather than m
 
 # 16. G10 — FALSIFIER GENERATOR
 
-## Objective
+## Objective — part 10
 
 Attack candidate claims through genuine falsification attempts.
 
@@ -624,7 +624,7 @@ The generator SHOULD attack load-bearing premises first.
 
 # 17. G11 — REPAIR GENERATOR
 
-## Objective
+## Objective — part 11
 
 Generate minimal valid recovery paths following failure.
 
@@ -658,7 +658,7 @@ subject to restoring validity.
 
 # 18. G12 — SYNTHESIS GENERATOR
 
-## Objective
+## Objective — part 12
 
 Integrate compatible outputs into a coherent candidate conclusion.
 

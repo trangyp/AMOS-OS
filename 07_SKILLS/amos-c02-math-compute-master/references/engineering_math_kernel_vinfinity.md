@@ -33,7 +33,7 @@ category: "kernel"
 tags: [amos, engineering, math, kernel, v-infinity, control-theory, signal-processing, optimization, simulation]
 ---
 
-# AMOS Engineering Math Kernel vInfinity
+# AMOS Engineering Math Kernel vInfinity — part 2
 
 ## Meta
 - **Name**: Engineering_Math_Kernel_vInfinity_SUPER

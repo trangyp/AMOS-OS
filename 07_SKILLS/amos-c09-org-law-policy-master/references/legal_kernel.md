@@ -33,7 +33,7 @@ category: "kernel"
 tags: [amos, legal, kernel, v-infinity, 25-axes, 24-dimensions, tensor, routing, governance]
 ---
 
-# AMOS Legal Kernel vInfinity
+# AMOS Legal Kernel vInfinity — part 2
 
 ## Meta
 - **Engine ID**: AMOS_Legal_Kernel_vInfinity

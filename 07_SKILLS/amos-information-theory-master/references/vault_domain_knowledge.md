@@ -1078,7 +1078,7 @@ This ordering concerns priority, not truth value.
 
 ---
 
-# 5. Uncertainty Vector
+# 5. Uncertainty Vector — part 2
 
 For consequential claims, L6 SHOULD support a multidimensional uncertainty representation.
 
@@ -1115,7 +1115,7 @@ It does not require every implementation to encode uncertainty numerically.
 
 ---
 
-# 6. Evidence Uncertainty
+# 6. Evidence Uncertainty — part 2
 
 Evidence uncertainty concerns the quality and completeness of evidence supporting a claim.
 
@@ -1143,7 +1143,7 @@ uncertainty:
 
 ---
 
-# 7. Model Uncertainty
+# 7. Model Uncertainty — part 2
 
 Model uncertainty concerns whether the selected representation or explanatory model is appropriate.
 
@@ -1169,7 +1169,7 @@ A model may output many decimal places while remaining epistemically weak.
 
 ---
 
-# 8. Scope Uncertainty
+# 8. Scope Uncertainty — part 2
 
 Scope uncertainty concerns uncertainty over where a claim applies.
 
@@ -1198,7 +1198,7 @@ not universal applicability.
 
 ---
 
-# 9. Temporal Uncertainty
+# 9. Temporal Uncertainty — part 2
 
 Temporal uncertainty concerns:
 
@@ -1223,7 +1223,7 @@ Temporal uncertainty does not necessarily invalidate historical claims but may i
 
 ---
 
-# 10. Causal Uncertainty
+# 10. Causal Uncertainty — part 2
 
 Causal uncertainty concerns uncertainty over whether observed relationships represent:
 
@@ -1250,7 +1250,7 @@ Causal typing remains governed by L4.
 
 ---
 
-# 11. Execution Uncertainty
+# 11. Execution Uncertainty — part 2
 
 Execution uncertainty concerns whether a proposed operation will actually produce the expected result.
 
@@ -1277,7 +1277,7 @@ Execution evidence must remain separate from reasoning confidence.
 
 ---
 
-# 12. Provenance-Independence Uncertainty
+# 12. Provenance-Independence Uncertainty — part 2
 
 AMOS MUST track uncertainty about whether apparently separate evidence is genuinely independent.
 
@@ -1309,7 +1309,7 @@ COUNT(INDEPENDENT_ORIGINS)
 
 ---
 
-# 13. Typed Uncertainty State
+# 13. Typed Uncertainty State — part 2
 
 A conceptual uncertainty object MAY be represented as:
 
@@ -1362,7 +1362,7 @@ UncertaintyState:
 
 ---
 
-# 14. Qualitative Uncertainty Levels
+# 14. Qualitative Uncertainty Levels — part 2
 
 Where numerical uncertainty is unsupported, AMOS SHOULD prefer explicit qualitative states.
 
@@ -1395,7 +1395,7 @@ unless explicitly calibrated.
 
 ---
 
-# 15. Numerical Confidence
+# 15. Numerical Confidence — part 2
 
 Numerical confidence MAY be used only when its semantics are explicit.
 
@@ -1420,7 +1420,7 @@ when ambiguity would matter.
 
 ---
 
-# 16. Confidence Ceiling Mechanics
+# 16. Confidence Ceiling Mechanics — part 2
 
 For a conclusion `C` depending on premises:
 
@@ -1457,7 +1457,7 @@ very strong conclusion
 
 ---
 
-# 17. Independent Revalidation Exception
+# 17. Independent Revalidation Exception — part 2
 
 The weakest-premise ceiling may cease to bind if the conclusion is independently established through another valid proof path.
 
@@ -1490,7 +1490,7 @@ Independence must be demonstrated.
 
 ---
 
-# 18. Proposed Hard Ceiling
+# 18. Proposed Hard Ceiling — part 2
 
 Absent a recognized stro
 

@@ -32,7 +32,7 @@ origin_type: "SOURCE"
 tags: [amos, kernel, species-interaction, hie, umpl, ust, uie, uel, human-interaction-engine, engine]
 ---
 
-# AMOS Species Interaction Core Engine
+# AMOS Species Interaction Core Engine — part 2
 
 ## Meta
 - **Name**: `SPECIES_INTERACTION_CORE`

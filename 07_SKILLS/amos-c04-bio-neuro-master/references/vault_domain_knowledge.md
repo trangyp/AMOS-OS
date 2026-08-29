@@ -401,7 +401,7 @@ falsifiers → dependencies → decision relevance → AMOS bridge**.
 
 ---
 
-# H1 — Biological System Structure & Organization
+# H1 — Biological System Structure & Organization — part 2
 
 ### L3. Metabolic Failure Modes [Model]
 
@@ -416,7 +416,7 @@ In AMOS organizational modeling these four failure classes are reused diagnostic
 
 ---
 
-# H2 — Homeostasis, Regulation & Repair
+# H2 — Homeostasis, Regulation & Repair — part 2
 
 ### L3. Feedback Discipline [Derived]
 

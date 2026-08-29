@@ -31,7 +31,7 @@ created: 2026-08-22
 tags: [canon-group/fractal, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/language-fractal-architecture, fractal]
 ---
 
-# Language Fractal Architecture
+# Language Fractal Architecture — part 2
 
 The Language Fractal Architecture module contains language-specific fractal architecture data and states within the AMOS cognitive framework. It is part of a broader fractal reasoning system that uses H/M/L (High/Medium/Low) scale decomposition to represent problems at multiple levels of abstraction, with recursive self-similarity across scales.
 

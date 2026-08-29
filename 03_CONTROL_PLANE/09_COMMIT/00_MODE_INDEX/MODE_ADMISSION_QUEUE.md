@@ -81,7 +81,7 @@ promotion_required: true
 updated: 2026-08-26
 ---
 
-# MODE ADMISSION QUEUE
+# MODE ADMISSION QUEUE — part 2
 
 > **Status:** `CANDIDATE_CANON`
 >

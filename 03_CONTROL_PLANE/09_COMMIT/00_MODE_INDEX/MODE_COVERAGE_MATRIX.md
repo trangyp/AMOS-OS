@@ -109,7 +109,7 @@ empirical_validation_status: NOT_CLAIMED
 promotion_required: true
 ---
 
-# MODE COVERAGE MATRIX
+# MODE COVERAGE MATRIX — part 2
 
 > **Status:** `CANDIDATE_CANON`
 >

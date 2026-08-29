@@ -33,7 +33,7 @@ category: "kernel"
 tags: [amos, risk, compliance, engine, v-infinity, credit-risk, operational-risk, aml, regulatory, lens-space]
 ---
 
-# AMOS Risk Compliance Engine vInfinity
+# AMOS Risk Compliance Engine vInfinity — part 2
 
 ## Meta
 - **Name**: Risk_Compliance_Kernel_vInfinity_SUPER

@@ -33,7 +33,7 @@ created: 2026-08-25
 tags: [canon-group/quantum-fractal-math, canon/framework, rscf/claim, qfm]
 ---
 
-# QFM Max-Power Consolidation
+# QFM Max-Power Consolidation — part 2
 
 ## Status
 

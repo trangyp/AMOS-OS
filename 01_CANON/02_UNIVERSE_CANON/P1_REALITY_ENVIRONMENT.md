@@ -327,7 +327,7 @@ Discriminating evidence determines which explanation survives.
 
 # 7. P1-2 — Constraint Inheritance
 
-## Law
+## Law — part 2
 
 ```text
 P1-2 CONSTRAINT INHERITANCE
@@ -432,7 +432,7 @@ REALITY OVERRIDE
 
 # 10. P1-3 — Falsifiability Contact
 
-## Law
+## Law — part 3
 
 ```text
 P1-3 FALSIFIABILITY CONTACT

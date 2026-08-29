@@ -28,7 +28,7 @@ rscf:
 ---
 tags: [rscf]
 ---
-# RSCF State Architecture
+# RSCF State Architecture — part 2
 
 ## Canonical compression
 **Definition:** An RSCF is a bounded-yet-permeable dynamic coherence field preserving distinction, boundary, relation, memory, mutation, repair, observer projection, symbolic compression, cross-scale embedding, collapse trajectory and regeneration under entropy.

@@ -2006,7 +2006,7 @@ check policy load
 → commit-time freshness
 ```
 
-## Integration
+## Integration — part 2
 
 ```text
 check entrypoint

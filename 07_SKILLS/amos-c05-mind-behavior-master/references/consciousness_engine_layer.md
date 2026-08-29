@@ -36,7 +36,7 @@ provenance: "SOURCE_CLAIM"
 confidence: "VERIFIED"
 ---
 
-# AMOS Consciousness Engine Layer
+# AMOS Consciousness Engine Layer — part 2
 
 The AMOS Consciousness Engine (AMOS_SUPER_CONSCIOUSNESS_ENGINE_vInfinity) is a unified kernel+engine for human-facing, universe-aware consciousness emulation. It merges the Species Interaction Kernel (HIE, UMPL, UST, UIE, UEL) and the AMOS Human Intelligence Super Engine into one structured, deterministic super-consciousness emulation layer. Origin: `Google Drive /_00_AMOS_CANON/Core/AMOS_Consciousness_Engine_v0.json` (632 lines, 27KB).
 

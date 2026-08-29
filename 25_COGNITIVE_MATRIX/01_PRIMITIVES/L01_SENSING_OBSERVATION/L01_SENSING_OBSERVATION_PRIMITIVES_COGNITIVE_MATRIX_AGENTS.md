@@ -377,7 +377,7 @@ OBSERVATION
 
 # 7. A02 — Environment Interface Agent
 
-## Responsibility
+## Responsibility — part 2
 
 Mediates access to an environment boundary.
 
@@ -444,7 +444,7 @@ Format conversion does not validate the represented fact.
 
 # 9. A04 — Observation Acquisition Agent
 
-## Responsibility
+## Responsibility — part 3
 
 Performs bounded acquisition from a specified channel.
 

@@ -32,7 +32,7 @@ rscf:
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-fabrication-engine-v0, engine]
 ---
 
-# AMOS Fabrication Engine v0
+# AMOS Fabrication Engine v0 — part 2
 
 > [!info] Populated Stub
 > Source: `amos-general/A/Meta/AMOS_Meta_Cognition_Self_Improvement.md` (L157: AMOS_SUPER_FABRICATION) and `misc/PO/Portfolio.md` (Section 19: Agent/OS fabrication layer).

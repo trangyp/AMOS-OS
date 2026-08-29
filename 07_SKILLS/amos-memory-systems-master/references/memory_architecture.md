@@ -31,7 +31,7 @@ rscf:
 ---
 tags: [memory]
 ---
-# Memory Architecture
+# Memory Architecture — part 2
 
 ## Principle
 Memory is coherence carried through transformation.

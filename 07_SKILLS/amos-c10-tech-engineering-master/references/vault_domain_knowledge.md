@@ -445,7 +445,7 @@ falsifiers → dependencies → decision relevance → AMOS bridge**.
 
 ---
 
-# H1 — Tech-System Structure & Coupling
+# H1 — Tech-System Structure & Coupling — part 2
 
 ### L3. Rule Of 2 — Alternatives Held Simultaneously
 
@@ -478,7 +478,7 @@ implementation acknowledged.
 
 ---
 
-# H3 — Data Pipelines & Data Flow
+# H3 — Data Pipelines & Data Flow — part 2
 
 ### L3. Framing Firewall
 
@@ -500,7 +500,7 @@ confirmation of anything.
 
 ---
 
-# H4 — EV Infrastructure & Energy-Mobility Systems
+# H4 — EV Infrastructure & Energy-Mobility Systems — part 2
 
 ### L1. Safety Checks
 

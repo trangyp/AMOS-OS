@@ -7977,7 +7977,7 @@ This is an intentional application of L27 to itself.
 The exact supplied source spine remains:
 
 ```markdown
-# L27 Gap Law
+# L27 Gap Law — part 2
 
 STATUS: PROPOSED_SPECIFICATION
 epistemic_class: AMOS_MODEL

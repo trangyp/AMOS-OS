@@ -461,7 +461,7 @@ to be validated empirically, not asserted.
 
 # H6 (F06) — Control Systems & Feedback Reasoning
 
-## M1. Structural Components
+## M1. Structural Components — part 2
 
 All six components required for valid closed-loop analysis:
 1. plant/process (dynamics, constraints, disturbances, uncertainties);

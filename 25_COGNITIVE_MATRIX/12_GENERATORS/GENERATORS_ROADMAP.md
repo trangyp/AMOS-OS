@@ -480,7 +480,7 @@ if authoritative source remains incomplete.
 
 # 10. Phase 1 — Generator contract foundation
 
-## Objective
+## Objective — part 2
 
 Make `GENERATOR_CONTRACT.md` precise enough to implement.
 
@@ -576,7 +576,7 @@ Exact classes remain provisional.
 
 # 13. Phase 3 — Schema infrastructure
 
-## Objective
+## Objective — part 3
 
 Define machine-checkable Generator contracts.
 
@@ -592,7 +592,7 @@ Generator test receipt schema
 Generator registry-entry schema
 ```
 
-## Exit criteria
+## Exit criteria — part 2
 
 ```text
 schemas parse
@@ -605,7 +605,7 @@ compatibility rules defined
 
 # 14. Phase 4 — Template infrastructure
 
-## Objective
+## Objective — part 4
 
 Create governed templates.
 

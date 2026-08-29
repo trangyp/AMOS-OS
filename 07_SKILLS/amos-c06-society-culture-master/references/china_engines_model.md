@@ -32,7 +32,7 @@ rscf:
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/state/derived, topic/amos-china-engines-model, engine]
 ---
 
-# AMOS China Engines Model
+# AMOS China Engines Model — part 2
 
 This model documents the unified structural kernels operating within the `amos-china-engine-layer` for the Chinese jurisdiction.
 

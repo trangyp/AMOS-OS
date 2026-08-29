@@ -381,7 +381,7 @@ unless a specific artifact is explicitly admitted into canon.
 
 # 6. `01_CANON` — Canon Plane
 
-## Role
+## Role — part 2
 
 Contains authoritative AMOS definitions and governing source law.
 
@@ -426,7 +426,7 @@ It does not itself execute.
 
 # 7. `02_KERNEL` — Deterministic Kernel Plane
 
-## Role
+## Role — part 3
 
 Implements deterministic primitives and invariants required by higher layers.
 
@@ -456,7 +456,7 @@ KERNEL
 DETERMINISTIC CONSTRAINT / OPERATOR
 ```
 
-## Boundary
+## Boundary — part 2
 
 ```text
 KERNEL
@@ -472,7 +472,7 @@ The control plane decides how governed operations use them.
 
 # 8. `03_CONTROL_PLANE` — Governance Plane
 
-## Role
+## Role — part 4
 
 Owns governed decision and authority coordination.
 
@@ -510,7 +510,7 @@ COMMIT
 
 # 9. `04_RUNTIME` — Execution Plane
 
-## Role
+## Role — part 5
 
 Coordinates live execution.
 
@@ -550,7 +550,7 @@ VALIDATE
 RETURN / PROPOSE COMMIT
 ```
 
-## Boundary
+## Boundary — part 3
 
 ```text
 RUNTIME
@@ -566,7 +566,7 @@ Control plane governs authority and commit semantics.
 
 # 10. `05_COGNITIVE_ORGANISM` — Cognitive Integration Plane
 
-## Role
+## Role — part 6
 
 Integrates AMOS cognitive subsystems.
 
@@ -615,7 +615,7 @@ It does not establish literal biological cognition, subjective consciousness, or
 
 # 11. `06_AGENTS` — Worker Plane
 
-## Role
+## Role — part 7
 
 Contains role-scoped workers.
 
@@ -655,7 +655,7 @@ AUTHORITY
 
 # 12. `07_SKILLS` — Reusable Procedure Plane
 
-## Role
+## Role — part 8
 
 Contains reusable bounded procedures.
 
@@ -687,7 +687,7 @@ A skill is a reusable procedure.
 
 # 13. `08_WORKFLOWS` — Orchestration Graph Plane
 
-## Role
+## Role — part 9
 
 Contains multi-step orchestration structures.
 
@@ -725,7 +725,7 @@ A workflow coordinates multiple steps or components.
 
 # 14. `09_PROTOCOLS` — Interaction Contract Plane
 
-## Role
+## Role — part 10
 
 Defines contracts between independently owned components.
 
@@ -758,7 +758,7 @@ Protocol defines interaction semantics.
 
 # 15. `10_MEMORY` — Memory Plane
 
-## Role
+## Role — part 11
 
 Stores remembered information used by cognition and runtime.
 
@@ -796,7 +796,7 @@ TRUE
 
 # 16. `11_KNOWLEDGE` — Knowledge Plane
 
-## Role
+## Role — part 12
 
 Stores evidence, claims, RSCFs, framework knowledge, and validated reusable knowledge.
 
@@ -831,7 +831,7 @@ UNKNOWN/GAP
 
 # 17. `12_STATE` — State Plane
 
-## Role
+## Role — part 13
 
 Stores system state.
 
@@ -862,7 +862,7 @@ State describes the current system condition.
 
 # 18. `13_MODELS` — Model Plane
 
-## Role
+## Role — part 14
 
 Contains explicit models used by AMOS components.
 
@@ -897,7 +897,7 @@ OBSERVATION
 
 # 19. `14_TOOLS` — Tool / Effector Plane
 
-## Role
+## Role — part 15
 
 Contains connectors and external effectors.
 
@@ -927,7 +927,7 @@ Tool availability establishes capability only.
 
 # 20. `15_INTERFACES` — Interface Plane
 
-## Role
+## Role — part 16
 
 Defines system access surfaces.
 
@@ -961,7 +961,7 @@ Interfaces should not silently bypass control-plane authority.
 
 # 21. `16_SCHEMAS` — Typed Schema Plane
 
-## Role
+## Role — part 17
 
 Defines machine-readable object contracts.
 
@@ -994,7 +994,7 @@ SEMANTICALLY CORRECT
 
 # 22. `17_OBSERVABILITY` — Observability Plane
 
-## Role
+## Role — part 18
 
 Makes runtime behavior inspectable.
 
@@ -1025,7 +1025,7 @@ Observability provides evidence for validation.
 
 # 23. `18_SECURITY` — Security Plane
 
-## Role
+## Role — part 19
 
 Protects AMOS identities, capabilities, data, state, tools, and interfaces.
 
@@ -1051,7 +1051,7 @@ It does not belong exclusively at the external boundary.
 
 # 24. `19_TESTS` — Verification Plane
 
-## Role
+## Role — part 20
 
 Contains verification assets.
 
@@ -1087,7 +1087,7 @@ Every test result inherits its scope.
 
 # 25. `20_OPERATIONS` — Operations Plane
 
-## Role
+## Role — part 21
 
 Contains operational lifecycle infrastructure.
 
@@ -1112,7 +1112,7 @@ Operations governs the transition between architecture and sustained execution.
 
 # 26. `21_DOMAINS` — Domain Adapter Plane
 
-## Role
+## Role — part 22
 
 Contains domain-specific adapters and mappings.
 
@@ -1144,7 +1144,7 @@ Domain-specific assumptions should not silently leak into the universal core.
 
 # 27. `22_RESEARCH` — Research Plane
 
-## Role
+## Role — part 23
 
 Contains:
 
@@ -1174,7 +1174,7 @@ It does not automatically become canon.
 
 # 28. `23_OPERATING_MODEL` — Human Governance Plane
 
-## Role
+## Role — part 24
 
 Defines organizational stewardship.
 
@@ -1204,7 +1204,7 @@ The two may interact but should remain explicitly modeled.
 
 # 29. `24_ARCHIVE` — Historical Plane
 
-## Role
+## Role — part 25
 
 Preserves:
 
@@ -1230,7 +1230,7 @@ Historical provenance should remain reconstructable where required.
 
 # 30. `25_COGNITIVE_MATRIX` — Cognitive Relationship Plane
 
-## Role
+## Role — part 26
 
 Maps cross-component cognitive relationships.
 

@@ -37,7 +37,7 @@ tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/s
 created: 2026-08-22
 ---
 
-# Org Engine
+# Org Engine — part 2
 
 > [!info] Populated Stub
 > Source: `engine/O/Org_Governance_Engine_vInfinity_v2.0.0.md` (full engine spec, 163 lines).

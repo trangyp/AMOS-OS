@@ -1943,7 +1943,7 @@ FULL_TREE
 → NAMING_STANDARD
 ```
 
-## Dependencies
+## Dependencies — part 2
 
 ```text
 DEPENDENCY_MAP

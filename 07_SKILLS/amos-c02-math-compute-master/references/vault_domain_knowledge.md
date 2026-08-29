@@ -459,7 +459,7 @@ falsifiers → dependencies → decision relevance → AMOS bridge**.
 
 ---
 
-# H1 (F01) — Problem Framing, Dimensional Analysis & Model Selection
+# H1 (F01) — Problem Framing, Dimensional Analysis & Model Selection — part 2
 
 ### L1. Selection Discipline
 
@@ -489,7 +489,7 @@ Every numerical design must state four disciplines (Numerical Methods Engine):
 
 ---
 
-# H3 (F03) — Probability & Statistics Kernel
+# H3 (F03) — Probability & Statistics Kernel — part 2
 
 ### L1. Kolmogorov Axioms
 
@@ -533,7 +533,7 @@ overconfident claims, correlation ≠ causation, assumption transparency.
 
 ---
 
-# H4 (F04) — Optimization & Decision Formulation
+# H4 (F04) — Optimization & Decision Formulation — part 2
 
 ### M3. Optimization Governance Gates
 

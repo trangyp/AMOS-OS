@@ -418,7 +418,7 @@ failure modes → competing models → falsifiers → dependencies → decision 
 
 ---
 
-# H1 — Game Structure & Incentive Mapping
+# H1 — Game Structure & Incentive Mapping — part 2
 
 ### L2. Canonical Game Forms
 
@@ -457,7 +457,7 @@ governance fill gaps; assume they matter.
 
 ---
 
-# H4 — Credible Commitment, Threats & Enforcement
+# H4 — Credible Commitment, Threats & Enforcement — part 2
 
 ### L2. Common Knowledge
 
@@ -483,7 +483,7 @@ prove real-world causation.
 
 ---
 
-# H7 — Go Board Formal System (State Space, Not Semantics)
+# H7 — Go Board Formal System (State Space, Not Semantics) — part 2
 
 ### L2. B3 Discipline: Address-Space Tested, Not Semantic-Equivalence
 
@@ -504,7 +504,7 @@ registered as cross-system reasoning tools, not proofs of shared meaning.
 
 ---
 
-# H8 — Multi-Agent Strategy Dynamics & Recurrence Control
+# H8 — Multi-Agent Strategy Dynamics & Recurrence Control — part 2
 
 ### M3. Rscf Strategy Mapping
 

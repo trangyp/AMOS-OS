@@ -31,7 +31,7 @@ rscf:
 ---
 tags: [rscf]
 ---
-# RSCF Proof Capsule
+# RSCF Proof Capsule — part 2
 
 For consequential claims maintain:
 

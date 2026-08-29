@@ -110,7 +110,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 > **Source**: `18_SECURITY/SECURITY_README.md` from the AMOS_OS Obsidian vault.
 > This is substantive domain knowledge, not script-generated content.
 
-# SECURITY README
+# SECURITY README — part 2
 
 ## Purpose
 `SECURITY README` is the package readme for the **Security** plane segment at `18_SECURITY`.

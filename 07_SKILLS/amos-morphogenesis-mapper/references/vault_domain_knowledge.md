@@ -128,7 +128,7 @@ class AMOSBrainPerformanceOptimizer:
 
 > Path: `brain/A/amos_brain_final_optimizer.md` | Size: 45799 chars | Match score: 3 | content_hash: d0d2990cbcfd87ea
 
-# -*- coding: utf-8 -*-
+## -*- coding: utf-8 -*-
 """
 AMOS Brain Final Comprehensive System Optimization
 ===============================================
@@ -153,7 +153,7 @@ from pathlib import Path
 import psutil
 import numpy as np
 
-# Configure logging
+## Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s
 - %(message)s')
 logger = logging.getLogger(__name__)

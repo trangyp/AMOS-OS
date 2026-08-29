@@ -407,7 +407,7 @@ falsifiers → dependencies → decision relevance → AMOS bridge**.
 
 ---
 
-# H1 — Emotion Canonical Law & Affective State Space
+# H1 — Emotion Canonical Law & Affective State Space — part 2
 
 ### L4. Regulated Empathy Without Fabrication
 
@@ -427,7 +427,7 @@ of subjective experience.
 
 ---
 
-# H2 — Personality Engine: Traits, States & Decision Style
+# H2 — Personality Engine: Traits, States & Decision Style — part 2
 
 ### L4. Decision Gates
 
@@ -439,7 +439,7 @@ of subjective experience.
 
 ---
 
-# H3 — Behavior Engine: Goal Arbitration & Risk-Gated Action
+# H3 — Behavior Engine: Goal Arbitration & Risk-Gated Action — part 2
 
 ### L1. Identity And Scope
 
@@ -464,7 +464,7 @@ uncertainty without risk assessment is blocked by gate rule, not merely discoura
 
 ---
 
-# H4 — Mind–Behavior Bridge: Tendency Prediction & State Inference
+# H4 — Mind–Behavior Bridge: Tendency Prediction & State Inference — part 2
 
 ### L3. Update Discipline
 

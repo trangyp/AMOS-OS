@@ -406,7 +406,7 @@ falsifiers → dependencies → decision relevance → AMOS bridge**.
 
 ---
 
-# H1 — Political Dynamics, Power & Conflict
+# H1 — Political Dynamics, Power & Conflict — part 2
 
 ### L1. Kernel Identity
 

@@ -33,7 +33,7 @@ category: "kernel"
 tags: [amos, documentation, corporate, engine, v-infinity, layout, templates, multilingual, governance, compliance]
 ---
 
-# AMOS Corp Doc Engine vInfinity
+# AMOS Corp Doc Engine vInfinity — part 2
 
 ## Meta
 - **Name**: AMOS_Corp_Doc_Engine_vInfinity

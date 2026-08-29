@@ -114,7 +114,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# K SYSTEM STATE
+# K SYSTEM STATE — part 2
 
 ## 1. System State Principle
 

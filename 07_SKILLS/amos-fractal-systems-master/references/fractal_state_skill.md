@@ -31,7 +31,7 @@ rscf:
 ---
 tags: [fractal]
 ---
-# Fractal State Skill
+# Fractal State Skill — part 2
 
 ## Purpose
 Manages the fractal state of the AMOS organism across multiple scales.

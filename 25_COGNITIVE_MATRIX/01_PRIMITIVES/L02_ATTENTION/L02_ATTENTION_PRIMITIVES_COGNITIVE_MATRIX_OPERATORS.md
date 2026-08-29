@@ -649,7 +649,7 @@ ADMITTED
 
 # 10. `NORMALIZE()`
 
-## Purpose
+## Purpose — part 2
 
 Convert heterogeneous candidates into a comparable typed attention representation.
 
@@ -685,7 +685,7 @@ SEMANTIC COLLAPSE
 
 # 11. `ADMIT()`
 
-## Purpose
+## Purpose — part 3
 
 Determine whether a candidate is eligible to enter ordinary attention allocation.
 
@@ -719,7 +719,7 @@ FAILED HARD INVARIANT
 
 # 12. `REJECT()`
 
-## Purpose
+## Purpose — part 4
 
 Remove a candidate from the active admissible set when a non-recoverable incompatibility is established for the current scope/regime.
 
@@ -735,7 +735,7 @@ Rejected candidates should retain sufficient provenance to explain the decision.
 
 # 13. `QUARANTINE()`
 
-## Purpose
+## Purpose — part 5
 
 Isolate a candidate whose integrity cannot currently be established.
 
@@ -765,7 +765,7 @@ where continuing ordinary processing would be unsafe.
 
 # 14. `ASSESS_RELEVANCE()`
 
-## Purpose
+## Purpose — part 6
 
 Estimate candidate relevance to the governing objective.
 
@@ -792,7 +792,7 @@ A false hypothesis may be highly relevant because falsifying it changes the deci
 
 # 15. `ASSESS_SALIENCE()`
 
-## Purpose
+## Purpose — part 7
 
 Estimate how strongly a candidate stands out.
 
@@ -822,7 +822,7 @@ Salience is one attention signal, not the governing result.
 
 # 16. `ASSESS_UNCERTAINTY()`
 
-## Purpose
+## Purpose — part 8
 
 Estimate unresolved uncertainty associated with a candidate.
 
@@ -850,7 +850,7 @@ AUTOMATIC HIGH PRIORITY
 
 # 17. `ASSESS_CONSEQUENCE()`
 
-## Purpose
+## Purpose — part 9
 
 Estimate potential consequence if a candidate is ignored, misunderstood, delayed, or acted upon incorrectly.
 
@@ -872,7 +872,7 @@ This is a governance input, not an empirical universal formula.
 
 # 18. `ASSESS_DEPENDENCY_CRITICALITY()`
 
-## Purpose
+## Purpose — part 10
 
 Estimate whether a candidate is load-bearing for other active claims or decisions.
 
@@ -900,7 +900,7 @@ HIGH EPISTEMIC CRITICALITY
 
 # 19. `ASSESS_TIME_SENSITIVITY()`
 
-## Purpose
+## Purpose — part 11
 
 Estimate temporal urgency.
 
@@ -928,7 +928,7 @@ IMPORTANT
 
 # 20. `ASSESS_INFORMATION_VALUE()`
 
-## Purpose
+## Purpose — part 12
 
 Estimate whether additional attention can materially reduce decision-changing uncertainty.
 
@@ -949,7 +949,7 @@ The exact numeric model remains unresolved.
 
 # 21. `ASSESS_COST()`
 
-## Purpose
+## Purpose — part 13
 
 Estimate expected cost of allocating more attention.
 
@@ -973,7 +973,7 @@ Resource units must remain typed.
 
 # 22. `RANK()`
 
-## Purpose
+## Purpose — part 14
 
 Order eligible candidates by attention priority.
 
@@ -1021,7 +1021,7 @@ AUTHORIZE
 
 # 23. `COMPARE()`
 
-## Purpose
+## Purpose — part 15
 
 Compare two or more candidates when a complete total ranking is unnecessary.
 
@@ -1045,7 +1045,7 @@ Do not force a numeric comparison where semantics do not support it.
 
 # 24. `SELECT()`
 
-## Purpose
+## Purpose — part 16
 
 Select candidates for potential resource allocation.
 
@@ -1067,7 +1067,7 @@ ALLOCATED
 
 # 25. `ALLOCATE()`
 
-## Purpose
+## Purpose — part 17
 
 Assign bounded cognitive resources to selected candidates.
 
@@ -1093,7 +1093,7 @@ Allocation output remains an attention-state proposal where authoritative state 
 
 # 26. `RESERVE()`
 
-## Purpose
+## Purpose — part 18
 
 Protect a portion of the attention budget for unforeseen decision-relevant events.
 
@@ -1124,7 +1124,7 @@ tool failure
 
 # 27. `FOCUS()`
 
-## Purpose
+## Purpose — part 19
 
 Move a candidate into active processing.
 
@@ -1154,7 +1154,7 @@ BELIEVE
 
 # 28. `SUSTAIN()`
 
-## Purpose
+## Purpose — part 20
 
 Continue allocating attention to an active candidate.
 
@@ -1185,7 +1185,7 @@ RELEASE or DEFER
 
 # 29. `SHIFT()`
 
-## Purpose
+## Purpose — part 21
 
 Move attention from one candidate or branch to another.
 
@@ -1208,7 +1208,7 @@ Frequent unnecessary switching is an attention-thrashing failure mode.
 
 # 30. `RELEASE()`
 
-## Purpose
+## Purpose — part 22
 
 Return unused attention resources to the available budget.
 
@@ -1225,7 +1225,7 @@ Release does not delete provenance or history.
 
 # 31. `DEFER()`
 
-## Purpose
+## Purpose — part 23
 
 Remove a candidate from immediate processing while retaining enough state for later resumption.
 
@@ -1252,7 +1252,7 @@ dependencies
 
 # 32. `RESUME()`
 
-## Purpose
+## Purpose — part 24
 
 Return deferred attention work to active consideration.
 
@@ -1277,7 +1277,7 @@ ASSUME OLD PRIORITY STILL VALID
 
 # 33. `ESCALATE()`
 
-## Purpose
+## Purpose — part 25
 
 Move a local/subsystem attention issue to a higher governance or reasoning level.
 
@@ -1314,7 +1314,7 @@ It does not itself authorize external action.
 
 # 34. `DEESCALATE()`
 
-## Purpose
+## Purpose — part 26
 
 Reduce reasoning depth after decision-changing uncertainty has been sufficiently resolved.
 
@@ -1343,7 +1343,7 @@ cannot hide unresolved critical gaps.
 
 # 35. `CHECK_FRESHNESS()`
 
-## Purpose
+## Purpose — part 27
 
 Determine whether mutable load-bearing state remains valid for current use.
 
@@ -1375,7 +1375,7 @@ UNKNOWN
 
 # 36. `REVALIDATE()`
 
-## Purpose
+## Purpose — part 28
 
 Re-establish validity after freshness, regime, scope, dependency, provenance, or authority changes.
 
@@ -1399,7 +1399,7 @@ REUSE OLD CONCLUSION
 
 # 37. `INVALIDATE()`
 
-## Purpose
+## Purpose — part 29
 
 Withdraw validity from state dependent on failed premises.
 
@@ -1425,7 +1425,7 @@ unless dependency closure proves (p) globally load-bearing.
 
 # 38. `REALLOCATE()`
 
-## Purpose
+## Purpose — part 30
 
 Redistribute attention resources after state change.
 
@@ -1460,7 +1460,7 @@ critical gap discovery
 
 # 39. `RECALL()`
 
-## Purpose
+## Purpose — part 31
 
 Retrieve attention-supporting memory.
 
@@ -1486,7 +1486,7 @@ A recalled priority should normally be treated as prior state, not automatically
 
 # 40. `EXTERNALIZE_MEMORY()`
 
-## Purpose
+## Purpose — part 32
 
 Propose moving attention-relevant state from active context to a persistent memory substrate.
 
@@ -1517,7 +1517,7 @@ DurableMemoryCommit
 
 # 41. `REPAIR()`
 
-## Purpose
+## Purpose — part 33
 
 Restore valid attention operation after a detected failure.
 
@@ -1545,7 +1545,7 @@ Repair itself must respect L02 repair and control-plane contracts.
 
 # 42. `ROLLBACK_PROPOSE()`
 
-## Purpose
+## Purpose — part 34
 
 Propose restoration to the nearest valid attention state when local repair is insufficient.
 
@@ -1574,7 +1574,7 @@ Authoritative rollback commit belongs to the appropriate control plane.
 
 # 43. `EMIT_PROPOSAL()`
 
-## Purpose
+## Purpose — part 35
 
 Produce a governed downstream attention or action-related proposal.
 

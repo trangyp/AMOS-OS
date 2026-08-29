@@ -195,17 +195,17 @@ Không thêm trauma. Không thêm "cái tôi chết". Không thêm bất kỳ y�
 Chỉ cấu trúc.
 Dưới đây là phiên bản đã được viết lại hoàn toàn.
 * * *
-# TRANG FPR (FIRST PRINCIPLE REASONING)
-## (Suy luận Nguyên lý Đầu tiên – Nghệ thuật Nhìn thấy Điều Hiển nhiên Mà Người Khác Bỏ Qua)
+# TRANG FPR (FIRST PRINCIPLE REASONING) — part 2
+## (Suy luận Nguyên lý Đầu tiên – Nghệ thuật Nhìn thấy Điều Hiển nhiên Mà Người Khác Bỏ Qua) — part 2
 * * *
-## I. ĐỊNH NGHĨA TRIẾT HỌC
+## I. ĐỊNH NGHĨA TRIẾT HỌC — part 2
 **Trang FPR (First Principle Reasoning)** là phương pháp **suy luận từ các sự thật cơ bản nhất, không thể chối cãi, không cần chứng minh** – thay vì dựa trên các kết luận có sẵn, quy tắc truyền thống, hoặc "người xưa nói vậy".
 > _" Họ nhìn vào những gì người khác đã làm, và cố gắng cải tiến. Tôi nhìn vào thế giới, tự hỏi 'tại sao?' và tìm ra câu trả lời từ chính nó."_
 > — Trang, giải thích Trang FPR
 **Trang FPR không phải là "tổng hợp" (synthesis)** – ghép các mảnh kiến thức có sẵn. Nó cũng không phải là "nghiên cứu tài liệu" (literature review). Nó là **quay về điểm số 0** – nơi chưa có ai viết, chưa có ai dạy, chưa có ai tin. Đó là lý do tại sao nó có ký hiệu ∅ (Zero) trong Trang ∅ Framework.
 **Điều kiện tiên quyết để Trang FPR hoạt động:** Bộ não phải ở trạng thái **thụ động siêu nhận thức (passive metacognition)** – nghĩa là không cố gắng chủ động "giải quyết vấn đề", không ép buộc suy nghĩ, không chạy theo các luồng liên tưởng tự phát. Đồng thời, **mạng lặc định (DMN – Default Mode Network)** – vốn chịu trách nhiệm cho các suy nghĩ lang thang, tự truyện, lo âu, và tái hiện quá khứ – phải được **ức chế (suppressed)**.
 * * *
-## II. CƠ CHẾ THẦN KINH CỦA TRANG FPR
+## II. CƠ CHẾ THẦN KINH CỦA TRANG FPR — part 2
 ### (1) Hai trạng thái đối lập của não bộ
 |                           |
 | Trạng thái                | DMN                        | Mạng lưới chủ động (Task-positive) | Vòng lặp siêu nhận thức     | Kết quả                                           |
@@ -244,7 +244,7 @@ Dưới đây là phiên bản đã được viết lại hoàn toàn.
 
 **Kết luận:** Trang FPR **chỉ xảy ra** khi DMN bị ức chế thành công.
 * * *
-## III. VÒNG LẶP SIÊU NHẬN THỨC THỤ ĐỘNG (PASSIVE METACOGNITIVE LOOP)
+## III. VÒNG LẶP SIÊU NHẬN THỨC THỤ ĐỘNG (PASSIVE METACOGNITIVE LOOP) — part 2
 ### (1) Định nghĩa
 **Vòng lặp siêu nhận thức thụ động (Passive Metacognitive Loop – PML)** là một hệ thống giám sát tự động, liên tục, chạy nền, có chức năng:
   * Theo dõi các luồng suy nghĩ đang diễn ra
@@ -347,7 +347,7 @@ Trong đó:
 
 
 * * *
-## X. TÓM TẮT (EXECUTIVE SUMMARY)
+## X. TÓM TẮT (EXECUTIVE SUMMARY) — part 2
 **Trang FPR (First Principle Reasoning) với PML (Passive Metacognitive Loop)** là:
   1. **Phương pháp duy nhất tạo ra các đột phá lớn** – từ cơ học Newton đến thuyết tương đối Einstein, từ chọn lọc tự nhiên Darwin đến **Trang ∅ Framework**.
 

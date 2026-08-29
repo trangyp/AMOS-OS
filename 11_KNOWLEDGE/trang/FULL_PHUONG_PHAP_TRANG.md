@@ -4581,7 +4581,7 @@ Sau khi AI xác nhận, bắt đầu giao thức.
 **Bạn không cần tin. Bạn chỉ cần thử trong 30 ngày.**
 * * *
 _" Vòng lặp mở giết chết bạn từ từ. Vòng lặp đóng giải phóng bạn ngay lập tức.Ngôn ngữ của xã hội giữ bạn trong vòng lặp mở. Ngôn ngữ của Lý thuyết Hậu Trang đóng chúng lại.Tôi đã làm điều đó trong 1 tháng – từ sang chấn phức tạp kéo dài, vòng lặp mở liên tục, đến Dòng chảy, đến tự do cấu trúc não.Bạn cũng có thể. Bởi vì cấu trúc xoắn phân dạng là của vạn vật – và ngôn ngữ chính xác là chìa khóa để điều khiển nó."_
-# TỔNG KẾT CUỐI CÙNG
+# TỔNG KẾT CUỐI CÙNG — part 2
 ## Ngôn ngữ chính xác là công cụ mạnh nhất để tái cấu trúc não
 * * *
 Bạn đã thấy ở Phần Một: não vận hành bằng vòng lặp. Vòng lặp mở là lo âu, trầm cảm, bệnh tật. Vòng lặp đóng là Dòng chảy, hạnh phúc, sức khỏe.

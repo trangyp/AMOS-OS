@@ -33,7 +33,7 @@ category: "kernel"
 tags: [amos, governance, organization, kernel, engine, v-infinity, diagnosis, design, structure, decision-rights, risk, compliance, culture, TSS, PSI, UBI]
 ---
 
-# AMOS Org Governance Engine vInfinity
+# AMOS Org Governance Engine vInfinity — part 2
 
 ## Meta
 - **Kernel**: Org_Governance_Kernel

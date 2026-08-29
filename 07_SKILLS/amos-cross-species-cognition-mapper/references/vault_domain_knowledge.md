@@ -190,13 +190,13 @@ The governing comp
 
 > Path: `amos-general/A/CROSS/AMOS_CROSS_SPECIES_FUNCTIONAL_DYNAMICS_ARCHITECTURE.md` | Size: 34939 chars | Match score: 19
 
-# AMOS Cross-Species Functional Dynamics Architecture (CSFDA)
+# AMOS Cross-Species Functional Dynamics Architecture (CSFDA) — part 2
 ## Advanced refinement of the Cross-Species Group Model (CSGM)
 
 
 ---
 
-# 0. Executive definition
+# 0. Executive definition — part 2
 
 The original Cross-Species Group Model proposes five recurring behavioral groups:
 
@@ -230,7 +230,7 @@ This is not a personality taxonomy, caste system, biological ranking, consciousn
 
 ---
 
-# 1. Epistemic firewall
+# 1. Epistemic firewall — part 2
 
 Use the following classes throughout:
 
@@ -276,7 +276,7 @@ MODEL_PROBABILITY != OBSERVED_FREQUENCY
 
 ---
 
-# 2. Ontology: entities before modes
+# 2. Ontology: entities before modes — part 2
 
 Every target must be typed before inference.
 
@@ -339,7 +339,7 @@ MARKET_SYSTEM
 
 ---
 
-# 3. AMOS cross-species cognition tensor
+# 3. AMOS cross-species cognition tensor — part 2
 
 The governing comp
 

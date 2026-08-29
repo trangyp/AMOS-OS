@@ -31,7 +31,7 @@ rscf:
 ---
 tags: [misc]
 ---
-# Adversarial Validation
+# Adversarial Validation — part 2
 
 For consequential conclusions:
 1. construct strongest supported conclusion

@@ -529,7 +529,7 @@ INITIALIZATION != COMMIT
 
 # 9. Workflow W02 — Input Admission
 
-## Objective
+## Objective — part 2
 
 Determine whether L03 outputs are admissible for L04 reasoning.
 
@@ -562,7 +562,7 @@ Unknown required provenance must not produce `ADMIT` merely because the percept 
 
 # 10. Workflow W03 — Distinction Formation
 
-## Objective
+## Objective — part 3
 
 Determine which perceptual states are meaningfully distinguishable under declared criteria.
 
@@ -592,7 +592,7 @@ does not imply globally distinct entities.
 
 # 11. Workflow W04 — Relation Formation
 
-## Objective
+## Objective — part 4
 
 Register supported relations among perceptual components without promoting relation into causation or identity.
 
@@ -621,7 +621,7 @@ adjacency != binding
 
 # 12. Workflow W05 — Boundary Formation
 
-## Objective
+## Objective — part 5
 
 Generate and test candidate boundaries around potentially coherent object structure.
 
@@ -650,7 +650,7 @@ do not collapse
 
 # 13. Workflow W06 — Binding Formation
 
-## Objective
+## Objective — part 6
 
 Determine whether components should be treated as a coherent composite under explicit binding criteria.
 

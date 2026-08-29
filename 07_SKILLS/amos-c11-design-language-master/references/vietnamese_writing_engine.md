@@ -33,7 +33,7 @@ category: "kernel"
 tags: [amos, vietnamese, writing, engine, v-infinity, executive, government, legal, business, mckinsey, logic, reasoning]
 ---
 
-# AMOS Vietnamese Writing Engine vInfinity
+# AMOS Vietnamese Writing Engine vInfinity — part 2
 
 ## Meta
 - **Engine Name**: TRANG_SUPERWRITER_ENGINE (Phases 1-8) + TRANG_VN_PRO_WRITING_ENGINE (v1.0, v2.0) + AMOS_VN_EXEC_WRITING_REASONING_ENGINE

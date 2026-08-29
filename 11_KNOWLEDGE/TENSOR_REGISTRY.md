@@ -161,7 +161,7 @@ raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 
 > **Source note**: The current Drive source confirms the seven registry contracts exactly as you supplied—`HARNESS`, `QUERY`, `EVIDENCE`, `CLAIM`, `RSCF`, `GOVERNANCE`, and `MEMORY`—but its metadata currently has only `tags: [tensor]`.  Below is a **filled, heavily tagged, source-preserving registry page**. The origin...
 
-# TENSOR REGISTRY
+# TENSOR REGISTRY — part 2
 
 ## 0. Purpose
 

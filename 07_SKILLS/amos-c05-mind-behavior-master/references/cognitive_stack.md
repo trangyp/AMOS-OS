@@ -37,7 +37,7 @@ provenance: "SOURCE_CLAIM"
 confidence: "VERIFIED"
 ---
 
-# AMOS Cognitive Stack
+# AMOS Cognitive Stack — part 2
 
 The AMOS Cognitive Stack is a set of 13 domain-neutral reasoning engines sourced from `_00_AMOS_CANON/Cognitive/` (13 engine JSON files). These engines form the domain-specific reasoning layers that sit on top of the core AMOS logic kernel and integrate with the broader AMOS architecture.
 

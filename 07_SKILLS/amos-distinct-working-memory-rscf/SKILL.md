@@ -114,7 +114,7 @@ Origin architect: **Trang Phan**. Domain: memory. Parent: amos-memory-systems-ma
 
 > Path: `agents/AGENT_WORKING_INSTRUCTIONS_V4.md` | Size: 18212 chars | Match score: 12 | content_hash: 65f44a3ef9716429
 
-# AGENT WORKING INSTRUCTIONS V3 - MANDATORY READING
+# AGENT WORKING INSTRUCTIONS V3 - MANDATORY READING — part 2
 ## PRE-WORK REQUIREMENTS
 
 ### ** BEFORE STARTING ANY WORK**

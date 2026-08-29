@@ -419,7 +419,7 @@ falsifiers → dependencies → decision relevance → AMOS bridge**.
 
 ---
 
-# H1 — Design Engine Lineage & Architecture
+# H1 — Design Engine Lineage & Architecture — part 2
 
 ### L2. Canonical Integration Points
 
@@ -509,7 +509,7 @@ MECE boundaries: Vietnamese executive prose → H4; corporate docs governance �
 
 ---
 
-# H6 — Expression Translation Constrained Envelopes
+# H6 — Expression Translation Constrained Envelopes — part 2
 
 Source: AMOS_EXPRESSION_TRANSLATION_vInfinity_v4 (amos-expression-translation-engine;
 amos-expression-translation-vinfinity batch-11 wrapper).

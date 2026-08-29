@@ -31,7 +31,7 @@ rscf:
 ---
 tags: [misc]
 ---
-# Unix Automated Tools
+# Unix Automated Tools — part 2
 
 * [Linpeas](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS)
     * Runs heap of commands an identifies potentially problems

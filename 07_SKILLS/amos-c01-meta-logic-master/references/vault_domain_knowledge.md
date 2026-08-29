@@ -428,7 +428,7 @@ falsifiers → dependencies → decision relevance → AMOS bridge**.
 
 ---
 
-# F01 — Problem Framing & Question Surgery
+# F01 — Problem Framing & Question Surgery — part 2
 
 **Claim class: MODEL** (engine capability per SOURCE spec).
 
@@ -451,7 +451,7 @@ corruption in cross-domain AMOS analyses.
 
 ---
 
-# F03 — Assumption Graphs & Epistemic Status
+# F03 — Assumption Graphs & Epistemic Status — part 2
 
 **Claim class: MODEL** (engine capability per SOURCE spec); hygiene rules are **CONDITIONAL** governance norms.
 
@@ -480,7 +480,7 @@ misleads regardless of internal consistency. Output precision must match input u
 
 ---
 
-# F04 — Multi-Framework Selection & Control
+# F04 — Multi-Framework Selection & Control — part 2
 
 **Claim class: MODEL** (engine capability per SOURCE spec).
 
@@ -496,7 +496,7 @@ Mode declared pre-inference is mandatory; retroactive mode assignment cannot res
 
 ---
 
-# F05 — Reasoning Traces & Auditability
+# F05 — Reasoning Traces & Auditability — part 2
 
 **Claim class: MODEL** (engine capability per SOURCE spec).
 
@@ -507,7 +507,7 @@ value (see F08 information-value estimation). [SOURCE_CLAIM]
 
 ---
 
-# F06 — Conflict Detection & Paraconsistent Scoping
+# F06 — Conflict Detection & Paraconsistent Scoping — part 2
 
 **Claim class: MIXED** — root commitments are SOURCE canon; scoping procedure is DERIVED/MODEL.
 
@@ -528,7 +528,7 @@ fatal (destroys validity). The scope classification above exists precisely to pr
 
 ---
 
-# F07 — Meta-Strategic Logic & Mode Governance
+# F07 — Meta-Strategic Logic & Mode Governance — part 2
 
 **Claim class: MODEL** (engine capability per SOURCE spec).
 

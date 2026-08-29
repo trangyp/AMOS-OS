@@ -99,7 +99,7 @@ empirical_validation_status: NOT_CLAIMED
 promotion_required: true
 ---
 
-# MODE CONFLICT REGISTRY
+# MODE CONFLICT REGISTRY — part 2
 
 > **Status:** `CANDIDATE_CANON`
 >

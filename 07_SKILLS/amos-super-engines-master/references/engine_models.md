@@ -31,7 +31,7 @@ created: 2026-08-22
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-engine-models, engine]
 ---
 
-# AMOS Engine Models
+# AMOS Engine Models — part 2
 
 The AMOS engine model architecture consists of two primary tiers: the **5 Super Engines** (domain-specific reasoning pipelines) and the **Super Kernel** (unified meta-operating system fusing 7 canonical kernels). Together they form the execution layer that consumes the cognitive stack and core logic/law layer to produce deterministic, domain-specific reasoning and output.
 

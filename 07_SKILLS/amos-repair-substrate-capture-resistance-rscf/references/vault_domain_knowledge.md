@@ -152,7 +152,7 @@ Multiple uncertainty sources compound nonline
 
 > Path: `cognitive/AMOS_Cognitive_Substrate_v2_Implementation_Notes_2.md` | Size: 9825 chars | Match score: 10
 
-# AMOS Cognitive Substrate v2.0 — Implementation Notes
+# AMOS Cognitive Substrate v2.0 — Implementation Notes — part 2
 
 > Consolidated execution substrate for the AMOS Cognitive Substrate Layer (gaps 701–900).
 > Unifies all 4 Obsidian brain slices into a single integrity-checked cognitive system.

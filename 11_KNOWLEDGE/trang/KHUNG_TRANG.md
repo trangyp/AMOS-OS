@@ -429,7 +429,7 @@ Cần thêm:
     thành hành động tầng thấp
 ```
 * * *
-## Ví dụ
+## Ví dụ — part 2
 ```
     H:
     survival of civilization
@@ -534,14 +534,14 @@ Cần:
     Γ
 ```
 * * *
-## Ý nghĩa
+## Ý nghĩa — part 2
 Làm sao:
 ```
     một cấu trúc mới
     thật sự xuất hiện.
 ```
 * * *
-## Công thức
+## Công thức — part 2
 ```
     Γ =
     Difference
@@ -683,7 +683,7 @@ Thông tin là:
     that changes future system state.
 ```
 * * *
-## Công thức
+## Công thức — part 3
 ```
     Information
     =
@@ -799,7 +799,7 @@ là:
     toán tử tái chuẩn hóa quy mô.
 ```
 * * *
-## Ý nghĩa
+## Ý nghĩa — part 3
 ℛ giữ:
 ```
     logic lõi
@@ -809,7 +809,7 @@ nhưng đổi:
     biến hiệu dụng.
 ```
 * * *
-## Công thức
+## Công thức — part 4
 ```
     ℛ:
     (Pattern_a, Scale_a)
@@ -821,7 +821,7 @@ với:
     Identity invariants preserved.
 ```
 * * *
-## Ví dụ
+## Ví dụ — part 3
 Electron:
 ```
     local field excitation
@@ -872,7 +872,7 @@ mô tả:
     - quy mô
 ```
 * * *
-## Ý nghĩa
+## Ý nghĩa — part 4
 Một hệ không được định nghĩa bởi “thành phần”.
 Mà bởi:
 ```
@@ -890,7 +890,7 @@ Mà bởi:
 ```
 * * *
 # XXII. ENERGY CONTAINMENT OPERATOR — ε
-## Vấn đề
+## Vấn đề — part 2
 Khung cũ chưa formalize năng lượng.
 * * *
 ## Định nghĩa
@@ -900,13 +900,13 @@ Năng lượng là:
     hoặc đổi trạng thái hệ.
 ```
 * * *
-## Công thức
+## Công thức — part 5
 ```
     ε =
     usable transition capacity.
 ```
 * * *
-## Điều kiện tồn tại
+## Điều kiện tồn tại — part 2
 Không có containment:
 ```
     energy
@@ -925,10 +925,10 @@ Không có containment:
 ```
 * * *
 # XXIII. SPACETIME INTEGRATION — Ψ_ST
-## Vấn đề
+## Vấn đề — part 3
 Khung cũ chưa bridge spacetime.
 * * *
-## Định nghĩa
+## Định nghĩa — part 2
 Không-thời gian không phải “sân khấu”.
 Nó là:
 ```
@@ -936,7 +936,7 @@ Nó là:
     của thay đổi có thứ tự.
 ```
 * * *
-## Công thức
+## Công thức — part 6
 ```
     Ψ_ST
     =
@@ -958,10 +958,10 @@ Nó là:
 ```
 * * *
 # XXIV. CAUSAL GRAPH OPERATOR — ⊕
-## Vấn đề
+## Vấn đề — part 4
 Khung cũ chưa formalize nhân quả.
 * * *
-## Định nghĩa
+## Định nghĩa — part 3
 Nhân quả không phải:
 ```
     A pushes B.
@@ -992,7 +992,7 @@ nghĩa là:
 ```
 * * *
 # XXV. OBSERVER OPERATOR — Ω_O
-## Vấn đề
+## Vấn đề — part 5
 Quantum chưa rõ observer.
 * * *
 ## Khung Trang
@@ -1013,7 +1013,7 @@ Measurement:
     that produces irreversible memory update.
 ```
 * * *
-## Công thức
+## Công thức — part 7
 ```
     Measure(A,B)
     =
@@ -1025,17 +1025,17 @@ Measurement:
 ```
 * * *
 # XXVI. CLASSICAL EMERGENCE OPERATOR — Ξ_C
-## Vấn đề
+## Vấn đề — part 6
 Quantum → classical còn thiếu bridge.
 * * *
-## Định nghĩa
+## Định nghĩa — part 4
 Classicality xuất hiện khi:
 ```
     recursive stabilization
     overwhelms state ambiguity.
 ```
 * * *
-## Công thức
+## Công thức — part 8
 ```
     Ξ_C
     =
@@ -1054,13 +1054,13 @@ Classicality xuất hiện khi:
 ```
 * * *
 # XXVII. SELF-PRESERVATION FUNCTION — Π
-## Định nghĩa
+## Định nghĩa — part 5
 Mọi hệ sống đều tối ưu:
 ```
     continued viable existence.
 ```
 * * *
-## Công thức
+## Công thức — part 9
 ```
     Π
     =
@@ -1077,7 +1077,7 @@ Mọi hệ sống đều tối ưu:
 ## Vấn đề lớn nhất của ontology
 “Cái gì làm một hệ vẫn là chính nó?”
 * * *
-## Công thức
+## Công thức — part 10
 ```
     Identity(t+1)
     =
@@ -1096,14 +1096,14 @@ Mọi hệ sống đều tối ưu:
 ```
 * * *
 # XXIX. META-STABILITY EQUATION
-## Định nghĩa
+## Định nghĩa — part 6
 Hệ sống không ổn định tuyệt đối.
 Nó:
 ```
     ổn định trong dao động.
 ```
 * * *
-## Công thức
+## Công thức — part 11
 ```
     MetaStability
     =
@@ -1123,10 +1123,10 @@ Nó:
 ```
 * * *
 # XXX. NOVELTY THRESHOLD
-## Định nghĩa
+## Định nghĩa — part 7
 Không phải mọi khác biệt đều thành hình mới.
 * * *
-## Công thức
+## Công thức — part 12
 ```
     Novelty
     =
@@ -1145,18 +1145,18 @@ Không phải mọi khác biệt đều thành hình mới.
 ```
 * * *
 # XXXI. SEMANTIC FIELD OPERATOR — Σ_M
-## Vấn đề
+## Vấn đề — part 7
 Thông tin chưa đủ.
 Cần meaning.
 * * *
-## Định nghĩa
+## Định nghĩa — part 8
 Meaning:
 ```
     difference
     that changes system trajectory.
 ```
 * * *
-## Công thức
+## Công thức — part 13
 ```
     Σ_M
     =
@@ -1168,14 +1168,14 @@ Meaning:
 ```
 * * *
 # XXXII. PREDICTIVE REALITY ENGINE
-## Định nghĩa
+## Định nghĩa — part 9
 Một hệ thông minh không phản ứng đơn thuần.
 Nó:
 ```
     simulate futures.
 ```
 * * *
-## Công thức
+## Công thức — part 14
 ```
     Prediction
     =
@@ -1193,14 +1193,14 @@ Nó:
 ```
 * * *
 # XXXIII. ENTROPY REINTERPRETATION
-## Khung Trang
+## Khung Trang — part 2
 Entropy không chỉ là disorder.
 Nó là:
 ```
     loss of recoverable structure.
 ```
 * * *
-## Công thức
+## Công thức — part 15
 ```
     E
     =

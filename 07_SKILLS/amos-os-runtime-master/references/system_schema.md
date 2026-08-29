@@ -37,7 +37,7 @@ tags: [canon-group/tech-ai, canon/protocol, rscf/claim, rscf/provenance, rscf/st
 created: 2026-08-22
 ---
 
-# System Schema
+# System Schema — part 2
 
 > [!warning] GAP — No vault-sourced content
 > This stub has no source content in the AMOS vault.
