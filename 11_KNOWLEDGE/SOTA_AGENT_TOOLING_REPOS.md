@@ -2237,3 +2237,28 @@ Added pytest-native agentic AI security testing frameworks.
 - **Categories covered**: agent red-teaming, security testing, adversarial evaluation, CI gate
 - **Total new repos**: 1 (RAMPART)
 - **Cumulative SOTA catalog**: 91 repos
+
+## Round 43: Agent evaluation and trustworthy benchmarking (2026-09-15)
+
+Added a human-verified, Pass^3 agent evaluation harness.
+
+### 92. Claw-Eval — `claw-eval/claw-eval` (~752 stars)
+
+- **Key feature**: Evaluation harness for LLM-as-agent with 300 human-verified tasks, 2,159 rubrics, and 9 categories (completion, safety, robustness). Pass^3 methodology requires success across three independent trials for a task to count as passed.
+- **AMOS integration**: Use Claw-Eval as the AMOS agent evaluation benchmark; map Pass^3 rubrics to `amos-validation-evidence` and `amos-goal-plan-action-alignment-rscf`; bind evaluation categories to `amos-c05-mind-behavior-master` for cognitive/behavioral scoring.
+
+## Round 43 Integration Priority
+
+1. **AMOS agent benchmark**: Run Claw-Eval against AMOS skills/agents to establish baseline completion, safety, and robustness scores (maps to `amos-validation-evidence`, `amos-c05-mind-behavior-master`)
+2. **Pass^3 promotion gate**: Require 3 independent successful runs before a skill or agent graduates to `amos-promotion-gates`
+3. **Rubric alignment**: Convert Claw-Eval's 2,159 rubrics into RSCF proof capsules for traceable evaluation (maps to `amos-goal-plan-action-alignment-rscf`)
+
+## Round 43 Provenance
+
+- **Research date**: 2026-09-15
+- **Researcher**: Devin (live GitHub web search)
+- **Epistemic class**: EMPIRICAL (star counts from GitHub, may change)
+- **RSCF state**: SOURCE_CLAIM (repo features from README/docs) → DERIVED (AMOS integration recommendations)
+- **Categories covered**: agent evaluation, benchmark, Pass^3, trustworthy evaluation, robustness
+- **Total new repos**: 1 (Claw-Eval)
+- **Cumulative SOTA catalog**: 92 repos
