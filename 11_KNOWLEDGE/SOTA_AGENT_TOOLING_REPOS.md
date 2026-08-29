@@ -2262,3 +2262,28 @@ Added a human-verified, Pass^3 agent evaluation harness.
 - **Categories covered**: agent evaluation, benchmark, Pass^3, trustworthy evaluation, robustness
 - **Total new repos**: 1 (Claw-Eval)
 - **Cumulative SOTA catalog**: 92 repos
+
+## Round 44: Agent deployment, LLM/MCP/A2A gateway (2026-09-15)
+
+Added a multi-protocol AI gateway for production agent traffic.
+
+### 93. Agentgateway — `agentgateway/agentgateway` (~4,628 stars)
+
+- **Key feature**: Open-source agentic proxy for AI agents and MCP servers. Provides LLM gateway (routing, budget, failover), MCP gateway (tool federation, transports, OAuth), A2A gateway (capability discovery, task collaboration), inference routing (GPU/KV cache/LoRA aware), guardrails, security, observability, and Kubernetes-native deployment.
+- **AMOS integration**: Deploy Agentgateway as the north-south/east-west control plane for AMOS agents; bind LLM routing and token budgets to `amos-os-runtime-master`; map MCP/A2A gateways to `amos-mcp-server` and `amos-a2a-protocol`; link guardrails and RBAC to `amos-security-safety-master` and `amos-routing-policy`.
+
+## Round 44 Integration Priority
+
+1. **AMOS control-plane gateway**: Route all AMOS agent-to-LLM, agent-to-tool, and agent-to-agent traffic through Agentgateway (maps to `amos-os-runtime-master`, `amos-routing-policy`)
+2. **MCP/A2A federation**: Federate `.devin/skills` as MCP servers and AMOS agents as A2A endpoints behind the gateway (maps to `amos-mcp-server`, `amos-a2a-protocol`)
+3. **Budget and guardrails**: Enforce token budgets, RBAC, and guardrails at the gateway before execution (maps to `amos-security-safety-master`, `amos-promotion-gates`)
+
+## Round 44 Provenance
+
+- **Research date**: 2026-09-15
+- **Researcher**: Devin (live GitHub web search)
+- **Epistemic class**: EMPIRICAL (star counts from GitHub, may change)
+- **RSCF state**: SOURCE_CLAIM (repo features from README/docs) → DERIVED (AMOS integration recommendations)
+- **Categories covered**: agent gateway, LLM proxy, MCP gateway, A2A gateway, inference routing, deployment
+- **Total new repos**: 1 (Agentgateway)
+- **Cumulative SOTA catalog**: 93 repos
