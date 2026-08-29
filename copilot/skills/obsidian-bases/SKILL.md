@@ -115,3 +115,4 @@ Adapted from <code>kepano/obsidian-skills</code> at revision
 ---
 
 **MOC:** [[00_ROOT_MOC]] · [[00_HOME]]
+

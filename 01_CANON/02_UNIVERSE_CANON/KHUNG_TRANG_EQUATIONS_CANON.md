@@ -1792,6 +1792,7 @@ CANON STATUS
 SOURCE_GROUNDED_CANON_CANDIDATE
 ```
 
+```
 ---
 
 00_ROOT_MOC|AMOS MOC
@@ -1810,3 +1811,5 @@ The key integrity correction is the separation of **`RUNTIME_VERIFIED` from empi
 ---
 
 **MOC:** [[00_INDEX_MOC]] · [[00_HOME]]
+
+```

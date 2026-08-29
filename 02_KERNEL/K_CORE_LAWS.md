@@ -2158,3 +2158,4 @@ Kết quả kỳ vọng: **INTERRUPT_TRIGGERED** $\to$ Trạng thái an toàn đ
 ---
 **Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS
 **Trạng thái:** `CANONICAL_CORE_LAWS_MASTER`
+

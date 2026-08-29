@@ -11365,3 +11365,4 @@ coarse-grained boundary / observer / system distinction\nWithout plurality:\nnot
 
 ---
 **MOC:** [[trang_MOC]]
+

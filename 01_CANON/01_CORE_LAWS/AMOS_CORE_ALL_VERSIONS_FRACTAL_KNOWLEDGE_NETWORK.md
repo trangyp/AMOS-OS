@@ -3455,3 +3455,4 @@ RSCF-RELATIONS:
 
 The important correction in this full node is that I did **not** repeat the earlier `v1.0 → v5.8` statement as established canon. The native AMOS Fractal Knowledge Network source currently available establishes **16 preserved runtime versions from v3.0 through v4.4**, with the exact evolution spine above. The pre-v3.0 and post-v4.4 ranges remain explicit `UNKNOWN/GAP` until their native lineage sources are present.
 ```
+

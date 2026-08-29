@@ -1504,3 +1504,4 @@ $$
 remains unresolved.
 
 That unresolved edge should remain visible until `UBI_FULL_BRAIN_BINDING` or the authoritative Full Brain ten-layer definition supplies the discriminating mapping.
+

@@ -51,3 +51,4 @@ If YAML frontmatter is added to wiki pages, Dataview can render dynamic tables o
 
 ---
 **MOC:** [[14_TOOLS_MOC]]
+

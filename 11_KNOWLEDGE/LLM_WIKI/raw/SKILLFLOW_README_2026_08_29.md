@@ -676,3 +676,4 @@ src/skillflow/
 pytest tests/ -v                    # 330+ tests
 pytest src/skillflow/plugins -v     # 27 plugin tests
 ```
+

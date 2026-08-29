@@ -300,3 +300,4 @@ _If you use our skills catalog, you **must** provide attribution to Tech Leads C
 <p align="center">
   <sub>Built with ❤️ by the Tech Leads Club community</sub>
 </p>
+

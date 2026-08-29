@@ -4356,6 +4356,7 @@ HIGHEST SUPPORT
 LOWEST SUPPORT
 ```
 
+```
 ---
 
 # 150. Final Canonical Compression
@@ -4491,3 +4492,4 @@ $$
 ---
 
 **MOC:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]
+```

@@ -88,3 +88,4 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[03_COMPETING_MODELS_MOC]]
+

@@ -164,3 +164,4 @@ document that is deliberately English-only has to say why.
 
 The primary project of [Evolving Agents Lab](https://github.com/EvolvingAgentsLabs).
 Everything else in the organisation is frozen — [why](doc/07-freeze-policy.md).
+

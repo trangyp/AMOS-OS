@@ -2245,3 +2245,4 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[L04_OBJECT_ENTITY_FORMATION_MOC]]
+

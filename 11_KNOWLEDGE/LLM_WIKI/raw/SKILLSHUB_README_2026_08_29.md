@@ -575,3 +575,4 @@ Skills sourced from [Microsoft](https://github.com/microsoft/skills), [OpenAI](h
 ---
 
 **Built by [ComeOnOliver](https://github.com/ComeOnOliver)** · **[skillshub.wtf](https://skillshub.wtf)**
+

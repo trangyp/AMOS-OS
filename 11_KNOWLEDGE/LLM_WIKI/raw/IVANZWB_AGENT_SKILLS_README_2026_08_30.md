@@ -518,3 +518,4 @@ If you are exploring the AI agent tooling ecosystem, you might also be intereste
 When starring or forking this repo, consider adding these topics to your fork for better discoverability:
 
 `ai-agent` · `agent-framework` · `llm-tools` · `function-calling` · `tool-use` · `skill-framework` · `typescript` · `ai` · `chatgpt` · `copilot` · `openai` · `claude` · `mcp` · `plugin-system` · `agent-skills`
+

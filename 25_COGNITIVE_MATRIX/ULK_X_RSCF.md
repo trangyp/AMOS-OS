@@ -4634,6 +4634,7 @@ RSCF-RELATIONS:
       "[[AMOS_CORE_v4_4]]"
 ```
 
+```
 ---
 
 # 127. Final Integrity Statement
@@ -4774,3 +4775,5 @@ $$
 
 **END OF `ULK_X_RSCF.md`**
 
+
+```

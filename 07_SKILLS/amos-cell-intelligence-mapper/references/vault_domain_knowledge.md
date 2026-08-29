@@ -278,6 +278,7 @@ These layers must not be collapsed.
 
 $$\boxed{ IntelligenceCapability \neq ProductMarketFit }$$
 
+```
 ---
 
 # 5. Level 0 — Core Intelligence Engine
@@ -323,3 +324,5 @@ RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
+
+```

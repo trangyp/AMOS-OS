@@ -2198,3 +2198,4 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[01_CORE_LAWS_MOC]]
+

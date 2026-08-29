@@ -220,3 +220,4 @@ These are recorded here so scope is explicit and no accidental over-reach.
    add `moc: true` property on files that ARE MOCs; write with `--backup-dir`.
 3. Dry-run first (no writes) → present diff → on approval, apply + re-audit.
 4. Re-audit: expect `*-moc`, `00-*`, `index-*` counts → 0; distinct-tag count drops sharply.
+

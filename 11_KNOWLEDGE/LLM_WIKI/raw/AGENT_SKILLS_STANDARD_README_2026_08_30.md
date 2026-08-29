@@ -595,3 +595,4 @@ See [docs/EVALS.md](./docs/EVALS.md) for the full protocol, the trust model, and
 | v2.2.0  | 2026-04-22 | 242    | 538        | 85%         | [Report](benchmarks/archive/v2.2.0.md) |
 | v2.1.2  | 2026-04-11 | 237    | 516        | 86%         | [Report](benchmarks/archive/v2.1.2.md) |
 | v2.1.1  | 2026-04-11 | 237    | 516        | 86%         | [Report](benchmarks/archive/v2.1.1.md) |
+

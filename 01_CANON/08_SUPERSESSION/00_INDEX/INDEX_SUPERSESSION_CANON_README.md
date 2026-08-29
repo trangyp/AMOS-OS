@@ -2134,3 +2134,4 @@ The artifact is therefore suitable as a **full AMOS supersession index specifica
 
 ---
 **MOC:** [[00_INDEX_MOC]]
+

@@ -94,19 +94,30 @@ def check_code_blocks(text, rel):
     in_code = False
     fence_char = None
     fence_len = 0
+    fence_info = None
     for line in text.split("\n"):
-        stripped = line.strip()
-        m = re.match(r'^(```+|~~~+)', stripped)
-        if m:
-            marker = m.group(1)
-            if not in_code:
+        m = re.match(r'^(\s*)(`{3,}|~{3,})(?:\s+(.*?)\s*)?$', line)
+        if not m:
+            continue
+        indent = m.group(1)
+        marker = m.group(2)
+        info = (m.group(3) or "").strip()
+        # Open fence must be at start of line or up to 3 spaces indent, with no info
+        if not in_code:
+            # Opening fence: up to 3 spaces indent, any info allowed
+            if len(indent.expandtabs(4)) <= 3:
                 in_code = True
                 fence_char = marker[0]
                 fence_len = len(marker)
-            elif marker[0] == fence_char and len(marker) >= fence_len:
+                fence_info = info
+        else:
+            # Close fence must match char, be at least as long, and have empty info
+            if (marker[0] == fence_char and len(marker) >= fence_len
+                    and not info and len(indent.expandtabs(4)) <= 3):
                 in_code = False
                 fence_char = None
                 fence_len = 0
+                fence_info = None
     if in_code:
         issues["unclosed_codeblock"].append(str(rel))
 

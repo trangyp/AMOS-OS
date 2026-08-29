@@ -52,3 +52,4 @@ Run before committing:
 - Keep searching public repositories for best skill / agent / workflow patterns.
 - Ingest findings into `11_KNOWLEDGE/LLM_WIKI/` as `raw/` captures and `wiki/` synthesis.
 - Run end-to-end ingestion trials (guardrail + RSCF canonicalizer) before promoting an external skill.
+

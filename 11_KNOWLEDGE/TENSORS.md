@@ -4362,3 +4362,4 @@ AMOS_MODEL
 
 This preserves the original `tensors.md` as the **seed contract**, while treating the richer six-tensor family and compatibility invariant from `TENSOR_CONTRACTS.md` as source-grounded extensions. The cross-domain composition formula and bridge machinery remain explicitly `AMOS_MODEL`, matching their own Drive classification rather than being upgraded to verified mathematical or empirical laws. :contentReference[oaicite:3]{index=3} :contentReference[oaicite:4]{index=4}
 ```
+

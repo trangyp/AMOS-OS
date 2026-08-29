@@ -4127,3 +4127,4 @@ rather than allowing bulk automation, AI suggestions, semantic similarity, or gr
 **Canonical principle:** `CONNECTIVITY ≠ EPISTEMIC VALIDITY`
 
 **END — `AMOS_Obsidian_Linking_Plugins.md`**
+

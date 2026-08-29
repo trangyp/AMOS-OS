@@ -5186,6 +5186,7 @@ Without that evidence, substantive completion would violate:
 NEVER_INVENT_CANON
 ```
 
+```
 ---
 
 00_ROOT_MOC|AMOS MOC
@@ -5324,3 +5325,5 @@ RSCF-RELATIONS:
 
 
 Critical gap preserved: **the word “Emergence” does not itself establish an AMOS emergence law**. In particular, the expansion does not silently import complexity-theory or philosophical definitions such as novelty, irreducibility, unpredictability, self-organization, micro→macro generation, strong/weak emergence, or downward causation. Those remain separately typed `UNKNOWN/GAP` slots until supported by verified native AMOS canon.
+
+```

@@ -3707,6 +3707,7 @@ TEST_SANDBOX_ONLY_WHERE_AUTHORIZED
 This makes `TESTS.md` the executable-assurance specification beside `GENERATOR_CONTRACT.md` and `VALIDATION.md`, without collapsing the distinction between “we know what must be tested” and “the tests exist and pass.” The AMOS Full Brain OS canon specifically requires that missing implementation, authority, provenance, or validation remain explicit rather than being inferred from architectural completeness.
 ```
 
+```
 ---
 
 00_ROOT_MOC|AMOS MOC
@@ -3730,3 +3731,5 @@ claim_class: AMOS_MODEL
 ---
 
 **Related:** [[25_COGNITIVE_MATRIX_MOC]]
+
+```

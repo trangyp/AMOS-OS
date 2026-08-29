@@ -4291,3 +4291,4 @@ AMOS MOC
 
 This preserves the actual source boundary: the current `STATE_README.md` itself says its role is orientation and that normative load-bearing content belongs in sibling contracts; it also explicitly keeps executable binding `PARTIAL`. :contentReference[oaicite:2]{index=2}
 ```
+

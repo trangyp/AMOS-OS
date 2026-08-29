@@ -3439,3 +3439,4 @@ The governor exists to make the bridge possible **without collapsing the distinc
 ---
 
 **MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+

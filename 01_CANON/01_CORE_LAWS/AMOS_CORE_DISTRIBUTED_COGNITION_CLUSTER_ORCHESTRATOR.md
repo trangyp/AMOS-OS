@@ -3328,6 +3328,7 @@ The governing invariant remains:
 
 > **Integrity > completeness > fluency > speed > token savings.**
 
+```
 ---
 
 **Related:**  ·
@@ -3360,3 +3361,5 @@ The governing invariant remains:
 
 **Unresolved critical runtime claims:** UNKNOWN/GAP
 
+
+```

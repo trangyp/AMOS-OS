@@ -3134,6 +3134,7 @@ proof_capsule:
 This version makes `ROUTING_POLICY.md` the **policy layer above route selection but below authority**, rather than duplicating `README`, `BINDING_RULES`, or `ROUTING_AUDIT`. The primary Full Brain OS canon specifically supports the material-relevance rule, explicit uncertainty/gap handling, and conservative routing discipline; it does not by itself prove this exact policy implementation exists.
 ```
 
+```
 ---
 
 00_ROOT_MOC|AMOS MOC
@@ -3157,3 +3158,5 @@ claim_class: AMOS_MODEL
 ---
 
 **Related:** [[25_COGNITIVE_MATRIX_MOC]]
+
+```

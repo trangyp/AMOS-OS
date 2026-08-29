@@ -4144,6 +4144,7 @@ PARTIALLY IMPLEMENTED
 
 until its promotion gates are satisfied.
 
+```
 ---
 
 RSCF-NODE
@@ -4165,3 +4166,5 @@ RSCF-RELATIONS:
 ---
 
 **MOC:** [[00_INDEX_MOC]]
+
+````

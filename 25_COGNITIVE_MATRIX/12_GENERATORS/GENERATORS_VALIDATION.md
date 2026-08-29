@@ -3155,6 +3155,7 @@ WORKER
 
 That gives `12_GENERATORS` its own validation surface without duplicating the general-purpose `11_VALIDATION` subsystem.
 
+```
 ---
 
 00_ROOT_MOC|AMOS MOC
@@ -3175,3 +3176,5 @@ claim_class: AMOS_MODEL
 ---
 **MOC:**
 
+
+```

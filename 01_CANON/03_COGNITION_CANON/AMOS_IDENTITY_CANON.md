@@ -4613,6 +4613,7 @@ validation_status: NOT_ESTABLISHED
 executable_binding: NOT_ESTABLISHED
 ```
 
+```
 ---
 
 [[00_ROOT_MOC]]|[[AMOS MOC]]
@@ -4660,3 +4661,5 @@ RSCF-RELATIONS:
 **Version:** `0.1.0`
 
 **Final status:** `PLACEHOLDER · AMOS_MODEL · UNKNOWN/GAP`
+
+```

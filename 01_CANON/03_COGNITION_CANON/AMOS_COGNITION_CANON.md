@@ -5142,3 +5142,4 @@ RSCF-RELATIONS:
 
 The decisive boundary is the same one the source itself requires: this artifact establishes the **AMOS Cognition Canon slot, identity, provenance class, ingestion discipline, and canon-mutation governance contract**. It does **not** yet establish what cognition means natively in AMOS, what its states/processes are, or how cognition binds to attention, memory, perception, reasoning, learning, decision, agency, emotion, RSCF, or H/M/L. Those remain `UNKNOWN/GAP` until a provenance-linked native source supplies them.
 ```
+

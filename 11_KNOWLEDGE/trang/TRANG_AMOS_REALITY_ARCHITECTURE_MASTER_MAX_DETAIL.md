@@ -28257,3 +28257,4 @@ timing, meaning, and repair.\nIf metabolized, it becomes learning, adaptation, m
 
 ---
 **MOC:** [[trang_MOC]]
+

@@ -108,3 +108,4 @@ eval_contract:
 3. Track 3 regression modes: osmosis, grounding displacement, verification displacement
 4. If regression rate > 10%, flag skill for review
 5. Executor and grader MUST be structurally separated (no self-grading bias)
+

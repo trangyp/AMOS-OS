@@ -299,6 +299,7 @@ Results:
 
 `test_completion.py` seed counts updated to **230 closed / 0 open** for meta-gaps (91-320). The `cognitive_architecture_matrix` cluster (gaps 321-339) also has passing tests, and its gates are wired into `AmosKernel` via `CognitiveArchitectureMatrixGovernor`.
 
+```
 ## Why this matters
 
 `human_interaction` is the last human-facing control plane before privacy, compliance, and lifecycle governance. Without it, the AMOS OS Kernel cannot prove a human was in the loop, trace instructions, or honor consent. Closin
@@ -330,3 +331,5 @@ RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
+
+```

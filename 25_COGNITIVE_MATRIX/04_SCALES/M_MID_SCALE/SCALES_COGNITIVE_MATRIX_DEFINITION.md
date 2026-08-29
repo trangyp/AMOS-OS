@@ -58,3 +58,4 @@ node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/04_SCALES/M_MID
 
 ---
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+

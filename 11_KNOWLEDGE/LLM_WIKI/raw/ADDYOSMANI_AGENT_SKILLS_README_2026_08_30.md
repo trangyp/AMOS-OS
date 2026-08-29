@@ -395,3 +395,4 @@ agent-skills is built and maintained by:
 ## License
 
 MIT - use these skills in your projects, teams, and tools.
+

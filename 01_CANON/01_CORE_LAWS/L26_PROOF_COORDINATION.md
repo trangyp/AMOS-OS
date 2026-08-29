@@ -5964,6 +5964,7 @@ PartsOnly
 }
 $$
 
+```
 ---
 
 # 225. Final Canon Boundary
@@ -6030,3 +6031,5 @@ claim_class: AMOS_MODEL
 ---
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+```

@@ -5092,3 +5092,6 @@ until authoritative adversarial canon supplies discriminating validation.
 
 **Conclusion class: CONDITIONAL / AMOS_MODEL.**
 
+
+```
+```

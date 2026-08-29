@@ -411,6 +411,7 @@ but H/M/L similarity does not imply identical mechanisms across scales.
 Cross-scale mappings should preserve:
 
 
+```
 ---
 
 # 5. Constraints
@@ -448,3 +449,5 @@ RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
+
+```

@@ -2442,6 +2442,7 @@ RSCF-RELATIONS:
       KT-EQ-004
 ```
 
+```
 ---
 
 00_ROOT_MOC|AMOS MOC
@@ -2460,3 +2461,5 @@ One mathematically material issue is preserved rather than silently repaired: in
 ---
 
 **MOC:** [[00_INDEX_MOC]] · [[00_HOME]]
+
+```
