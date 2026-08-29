@@ -787,3 +787,41 @@ Read the canonical `EvolvingAgentsLabs/skillos` README and the active successor 
 Add a 3-level Domain → Family → Skill view to `.devin/SKILL_TREE.json` and a `make reproduce` target for the AMOS SOTA validator.
 
 Raw sources: [[SKILL_OS_README_2026_08_29]] · [[AI_OS_README_2026_08_29]]
+
+## 2026-08-30 | addyosmani/agent-skills deep-dive
+
+Read the `addyosmani/agent-skills` README — production-grade engineering skills for AI coding agents.
+
+### Verified shape
+
+- 25 skills covering the full dev lifecycle: `/spec`, `/plan`, `/build`, `/test`, `/constraints`, `/review`, `/webperf`, `/code-simplify`, `/ship`.
+- `/build auto` generates plan + implements in one approved pass, commits each task, pauses on failures.
+- Auto-activation: API design → `api-and-interface-design`, UI → `frontend-ui-engineering`, etc.
+- CLI `npx skills add addyosmani/agent-skills` supports 70+ agents (Claude Code, Cursor, Codex, Copilot, Cline).
+- Each skill is self-contained in `skills/<name>/SKILL.md` with `references/` for shared checklists.
+
+### Integration points for AMOS
+
+1. **Lifecycle slash commands → `amos-workflow-runner` and `amos-agent-orchestrator`**
+   - `/spec`, `/plan`, `/build`, `/test`, `/review`, `/ship` map to AMOS workflow names. AMOS can expose the same 9 commands as canonical workflow invocations.
+
+2. **Per-skill SKILL.md pattern → `amos-skill-builder` and `CONTRACT_TEMPLATE.yaml`**
+   - Addy uses `skills/<name>/SKILL.md` + `references/` pattern. AMOS already uses this. The `references/` shared checklists mirror AMOS `references/` with loading modes.
+
+3. **Auto-activation by context → `amos-routing-audit` and `amos-c10-tech-engineering-master`**
+   - AMOS can adopt trigger-based auto-activation: `api-and-interface-design` for API changes, `frontend-ui-engineering` for UI changes.
+
+4. **`/build auto` autonomous pass → `amos-autonomous-evolution` and `amos-evolution-loop`**
+   - Plan generation, implementation per task, individual commits, failure pause. AMOS already has `AMOS_AUTONOMOUS_EVOLUTION_LAYER.py` and `evolution-loop` skill.
+
+5. **Quality gates (constraints, review, webperf, code-simplify) → `software-engineering-qa`, `amos-code-agent-harness-rscf`, `amos-structured-document-parsing-rscf`**
+   - Addy's five-axis review and TDD constraints can strengthen AMOS QA and code harness skills.
+
+6. **Claude Code `/plugin` marketplace → `amos-skill-registry-gateway` and `agent-registry`**
+   - AMOS `.devin/skills/` can be exposed as a Claude Code / Cursor / Copilot plugin marketplace.
+
+### Conclusion
+
+`addyosmani/agent-skills` is the most production-aligned engineering skill catalog captured so far. Its lifecycle commands and auto-activation directly map to AMOS workflow and routing capabilities. The AMOS `software-engineering-qa` and `amos-skill-builder` can be enriched with Addy's five-axis review, `/build auto` commit pattern, and constraints checklist.
+
+Raw source: [[ADDYOSMANI_AGENT_SKILLS_README_2026_08_30]]

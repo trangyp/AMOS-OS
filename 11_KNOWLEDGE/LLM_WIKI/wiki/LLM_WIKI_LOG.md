@@ -362,3 +362,12 @@ claim_class: AMOS_MODEL
 - Fetched `EvolvingAgentsLabs/ai-os` README (active successor) and captured raw source to [[AI_OS_README_2026_08_29]].
 - Mapped pure markdown OS, hierarchical skill tree, 4-step lazy loading, HWM planning, dialects, memory wiki, and `truth/` external gates to `amos-skill-builder`, `amos-agent-orchestrator`, `amos-cognitive-compression-kernel`, `amos-memory-systems-master`, `amos-llm-wiki`, `amos-claim-verifier`, `amos-audit-repair-master`, `amos-decision-logger`, and `sota_skill_validator.py`.
 - Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: add 3-level Domain → Family → Skill view to `.devin/SKILL_TREE.json` and a `make reproduce` target for the AMOS SOTA validator.
+
+## [2026-08-30] fix + enhance | Resolved vault orphan graph and captured addyosmani/agent-skills
+
+- Ran `AMOS_OBSIDIAN_MEMORY_BRIDGE.py` and found 2 orphan notes: `Agent Skills` (Addy Osmani raw capture) and `AMOS Global Contract for AI Coding Agents` (`.github/copilot-instructions.md`).
+- Fixed `cosmo-brain/AMOS_OBSIDIAN_MEMORY_BRIDGE.py` wikilink resolution to match `[[Title]]` against note H1/frontmatter title (`title_to_path`), not only file paths/basenames.
+- Re-linked the two orphans into `00_ROOT/00_COSMO_BRAIN_MOC.md`.
+- Re-verified orphan count: 0; vault graph connected.
+- Captured `addyosmani/agent-skills` README and stored raw source in `11_KNOWLEDGE/LLM_WIKI/raw/ADDYOSMANI_AGENT_SKILLS_README_2026_08_30.md`.
+- Committed to `stitch_project_cosmo` and `AMOS_OS`.
