@@ -82,6 +82,16 @@ Origin architect: **Trang Phan**. Domain: boundary. Parent: amos-boundary-scope-
 - **context_persona.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **context_persona.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **context_persona.evaluate_scope**: Evaluate scope boundaries: what is in-scope, out-of-scope, and at the boundary
+2. **context_persona.check_admission**: Check admission criteria: whether a query enters this capability legitimately
+3. **context_persona.detect_drift**: Detect context drift, persona drift, or scope creep beyond authorized bounds
+4. **context_persona.enforce_compaction**: Enforce context compaction and recoverability when budget is exceeded
+5. **context_persona.audit_boundary**: Audit boundary crossings and log violations for governance review
+6. **context_persona.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **context_persona.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Vault-Sourced Domain Knowledge
 
 > **Source**: `_00_Cosmo brain/misc/B/BOUNDARY_IDENTITY.md` (content_hash: 7bf808559889e145) (vault canon, SOURCE_CLAIM)

@@ -88,6 +88,17 @@ Origin architect: **Trang Phan**. Domain: rscf. Parent: amos-rscf-epistemic-mast
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: a38d52549b27c982) for the full vault-sourced domain knowledge (7944 chars).
 
+## Operations
+
+1. **natural_evidence.classify_claim**: Classify claims by epistemic state (VERIFIED, DERIVED, MODEL, UNKNOWN/GAP) and bind to evidence
+2. **natural_evidence.validate_evidence**: Validate evidence chains: provenance, freshness, scope, and regime validity
+3. **natural_evidence.trace_provenance**: Trace output provenance to vault sources and tag with content_hash
+4. **natural_evidence.assess_confidence**: Assess confidence ceiling based on epistemic class and evidence strength
+5. **natural_evidence.detect_falsifier**: Detect falsifiers and downgrade confidence when counter-evidence emerges
+6. **natural_evidence.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **natural_evidence.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **natural_evidence.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

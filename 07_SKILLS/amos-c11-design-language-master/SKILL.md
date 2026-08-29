@@ -90,6 +90,23 @@ Origin architect: **Trang Phan**. Domain: c11. Parent: none. Epistemic class: SO
 - **c11.detect_drift**: Detect drift in design language consistency, token systems, or pattern adherence
 - **c11.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **c11.design.primitive.definition**: Design Primitive Definition — design language capability
+2. **c11.design.token.systems**: Design Token Systems — design language capability
+3. **c11.visual.and.typographic.grammar**: Visual And Typographic Grammar — design language capability
+4. **c11.spatial.and.layout.systems**: Spatial And Layout Systems — design language capability
+5. **c11.interaction.and.motion.patterns**: Interaction And Motion Patterns — design language capability
+6. **c11.information.hierarchy.mapping**: Information Hierarchy Mapping — design language capability
+7. **c11.cross.channel.design.translation**: Cross Channel Design Translation — design language capability
+8. **c11.accessibility.and.inclusion.mapping**: Accessibility And Inclusion Mapping — design language capability
+9. **c11.design.language.auditing.and.refactoring**: Design Language Auditing And Refactoring — design language capability
+10. **c11.design.language.change.management**: Design Language Change Management — design language capability
+11. **c11.assess_claim**: Assess C11 design language claims for epistemic class and evidence
+12. **c11.manage_lifecycle**: Manage C11 design language lifecycle: define, audit, refactor, evolve
+13. **c11.detect_drift**: Detect drift in design language consistency, token systems, or pattern adherence
+14. **c11.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Vault-Sourced Domain Knowledge
 
 > **Source**: `11_KNOWLEDGE/AMOS_C11_DESIGN_LANGUAGE_MASTER_KNOWLEDGE.md` (content_hash: 77e58712bc1835c9) (vault canon, SOURCE_CLAIM)

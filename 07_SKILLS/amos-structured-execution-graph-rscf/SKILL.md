@@ -87,6 +87,17 @@ Origin architect: **Trang Phan**. Domain: runtime. Parent: amos-os-runtime-maste
 - **structured_execution.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **structured_execution.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **structured_execution.monitor_stability**: Monitor runtime stability: drift, oscillation, divergence, and regime transitions
+2. **structured_execution.calibrate_feedback**: Calibrate feedback control loops to maintain stable operating conditions
+3. **structured_execution.decompose_primitive**: Decompose complex operations into primitive, atomic, verifiable steps
+4. **structured_execution.align_drift**: Align AI drift back to authorized operating envelope when deviation is detected
+5. **structured_execution.enforce_closed_loop**: Enforce closed-loop learning: every output feeds back into the next iteration
+6. **structured_execution.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **structured_execution.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **structured_execution.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `_00_Cosmo brain/brain/A/amos_brain_continuous_execution_v2.md` (content_hash: b712a024c83fab95) (vault canon, SOURCE_CLAIM)

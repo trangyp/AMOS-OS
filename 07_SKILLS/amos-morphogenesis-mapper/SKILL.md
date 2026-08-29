@@ -84,6 +84,15 @@ Origin architect: **Trang Phan**. Domain: c04. Parent: amos-c04-bio-neuro-master
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: e18a2e3f25a4b772) for the full vault-sourced domain knowledge (8481 chars).
 
+## Operations
+
+1. **morphogenesis.map_mechanism**: Map biological mechanisms: cellular, neural, developmental, and evolutionary
+2. **morphogenesis.assess_cognition**: Assess cross-species cognition: comparative neural computation and intelligence
+3. **morphogenesis.model_morphogenesis**: Model morphogenesis: pattern formation, self-organization, and development
+4. **morphogenesis.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+5. **morphogenesis.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+6. **morphogenesis.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_C04_BIO_NEURO_MASTER_KNOWLEDGE.md` (content_hash: 6fbde28c766c9d49) (vault canon, SOURCE_CLAIM)

@@ -87,6 +87,17 @@ Origin architect: **Trang Phan**. Domain: security. Parent: amos-security-safety
 - **execution_provenance.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **execution_provenance.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **execution_provenance.detect_adversary**: Detect adversarial activity: attacks, probes, and manipulation attempts
+2. **execution_provenance.quantify_entropy**: Quantify adversarial entropy: uncertainty, information leakage, and attack surface
+3. **execution_provenance.govern_trust**: Govern principal-trust relationships: delegation, revocation, and audit
+4. **execution_provenance.monitor_attack**: Monitor distributed attack composition: multi-stage, multi-vector threats
+5. **execution_provenance.replay_provenance**: Replay execution provenance: trace and verify every action for integrity
+6. **execution_provenance.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **execution_provenance.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **execution_provenance.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Vault-Sourced Content
 
 ### Source 1: v3.9 — Persistent Incremental Provenance Runtime

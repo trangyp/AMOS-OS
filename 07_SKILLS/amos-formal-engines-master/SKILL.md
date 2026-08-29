@@ -96,6 +96,20 @@ Origin architect: **Trang Phan**. Domain: formal. Parent: none. Epistemic class:
 - **formal_engines.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **formal_engines.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **formal_engines.execute_formal**: Execute AMOS Formal Engines formal engines: MURK 19x19, Go Board, tensor composition, and RSCF proof systems.
+2. **formal_engines.validate_formal**: Validate AMOS Formal Engines proofs for completeness, soundness, tensor contract compliance, and axiom application.
+3. **formal_engines.analyze_tensor**: Analyze AMOS Formal Engines tensor structure: typed cells, axis compatibility, composition gates, and relation topology.
+4. **formal_engines.trace_formal_provenance**: Trace AMOS Formal Engines formal outputs to axioms, inference rules, tensor contracts, and proof graph.
+5. **formal_engines.assess_formal_claim**: Assess AMOS Formal Engines formal claims for proof status, tensor compatibility, gap registry, and invariant compliance.
+6. **formal_engines.manage_formal_lifecycle**: Manage AMOS Formal Engines formal lifecycle: axiomatize, derive, validate, cross-check, and finalize proof.
+7. **formal_engines.detect_formal_drift**: Detect formal drift: axiom erosion, tensor axis mismatch, proof graph degradation, and invariant violation.
+8. **formal_engines.escalate_formal_gaps**: Escalate AMOS Formal Engines formal gaps: flag unproven claims, tensor incompatibility, trigger gap registry repair.
+9. **formal_engines.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+10. **formal_engines.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+11. **formal_engines.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Vault-Sourced Domain Knowledge
 
 > **Sources**: `_00_Cosmo brain/amos-general/A/forex/AMOS forex__packages__murk__primitives.md` (content_hash: b289395a883dab29), `_00_Cosmo brain/amos-general/A/amos/amos-go-board-19x19.md` (content_hash: 7d5f3bb30310282b) (vault canon, SOURCE_CLAIM)

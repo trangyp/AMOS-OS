@@ -100,6 +100,20 @@ AMOS Knowledge & Research — Obsidian vault integration, arxiv research, knowle
 - **knowle_research.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **knowle_research.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **knowle_research.integrate_vault**: Integrate AMOS Knowledge & Research vault knowledge: read, parse, index Markdown files with provenance and epistemic class.
+2. **knowle_research.validate_knowledge**: Validate AMOS Knowledge & Research knowledge entries for provenance, epistemic class, freshness, and dependency chain.
+3. **knowle_research.analyze_knowledge**: Analyze AMOS Knowledge & Research knowledge graph: MOC structure, orphan notes, wikilink health, and knowledge frontier.
+4. **knowle_research.trace_knowledge_provenance**: Trace AMOS Knowledge & Research knowledge to vault source paths, arxiv papers, and derivation chain.
+5. **knowle_research.assess_knowledge_claim**: Assess AMOS Knowledge & Research knowledge claims for source quality, citation completeness, and scope validity.
+6. **knowle_research.manage_knowledge_lifecycle**: Manage AMOS Knowledge & Research knowledge lifecycle: ingest, index, curate, validate, update, and archive.
+7. **knowle_research.detect_knowledge_drift**: Detect knowledge drift: stale entries, broken wikilinks, orphan notes, and provenance decay.
+8. **knowle_research.escalate_knowledge_gaps**: Escalate AMOS Knowledge & Research knowledge gaps: flag missing sources, broken links, trigger vault repair.
+9. **knowle_research.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+10. **knowle_research.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+11. **knowle_research.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Consolidated Sub-Skills (143)
 
 This parent skill consolidates the following sub-skills. Each is a section within this domain:

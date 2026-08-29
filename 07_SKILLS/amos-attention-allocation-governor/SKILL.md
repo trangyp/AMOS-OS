@@ -83,6 +83,16 @@ Origin architect: **Trang Phan**. Domain: c05. Parent: amos-c05-mind-behavior-ma
 - **attention_allocation.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **attention_allocation.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **attention_allocation.model_cognition**: Model cognitive processes: attention, awareness, compression, and inference
+2. **attention_allocation.allocate_attention**: Allocate attention resources across competing demands and priorities
+3. **attention_allocation.assess_awareness**: Assess awareness levels: meta-cognition, self-monitoring, and calibration
+4. **attention_allocation.govern_expression**: Govern artistic and emotional expression within healthy bounds
+5. **attention_allocation.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **attention_allocation.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **attention_allocation.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

@@ -78,6 +78,18 @@ AMOS Fractal Systems — fractal architecture, lacunarity, self-similarity, scal
 - **fractal_systems.escalate_gaps**: Escalate AMOS Fractal Systems audit gaps: flag CRITICAL gaps, prioritize repair allocation, trigger bounded recovery.
 - **fractal_systems.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **fractal_systems.execute_recovery**: Execute AMOS Fractal Systems failure recovery: detect failure, diagnose root cause, apply repair, verify recovery.
+2. **fractal_systems.validate_quality**: Validate AMOS Fractal Systems outputs against validation gates, equation firewall, golden ratio, and integrity requirements.
+3. **fractal_systems.discover_gaps**: Discover knowledge gaps using AMOS Fractal Systems gap discovery engine, completion graph, and unknown-unknown registry.
+4. **fractal_systems.trace_provenance**: Trace AMOS Fractal Systems findings to test results, integrity scans, gap registry, and validation gate outputs.
+5. **fractal_systems.assess_claim**: Assess AMOS Fractal Systems audit claims for severity, scope, evidence strength, and repair priority.
+6. **fractal_systems.manage_lifecycle**: Manage AMOS Fractal Systems audit lifecycle: scan, detect, classify, allocate repair, verify, and document.
+7. **fractal_systems.detect_drift**: Detect audit drift: test count drift, gap regression, integrity degradation, and validation gate erosion.
+8. **fractal_systems.escalate_gaps**: Escalate AMOS Fractal Systems audit gaps: flag CRITICAL gaps, prioritize repair allocation, trigger bounded recovery.
+9. **fractal_systems.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Consolidated Sub-Skills (26)
 
 This parent skill consolidates the following sub-skills. Each is a section within this domain:

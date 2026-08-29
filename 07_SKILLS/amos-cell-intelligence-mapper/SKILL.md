@@ -85,6 +85,17 @@ Origin architect: **Trang Phan**. Domain: c04. Parent: amos-c04-bio-neuro-master
 - **cell_intelligence.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **cell_intelligence.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **cell_intelligence.map_mechanism**: Map biological mechanisms: cellular, neural, developmental, and evolutionary
+2. **cell_intelligence.assess_cognition**: Assess cross-species cognition: comparative neural computation and intelligence
+3. **cell_intelligence.model_morphogenesis**: Model morphogenesis: pattern formation, self-organization, and development
+4. **cell_intelligence.apply_nbi**: Apply NBI (Neurobiological Intelligence) structural analysis to biological questions
+5. **cell_intelligence.assess_claim**: Assess biological claims for epistemic class (AMOS_MODEL not medical advice)
+6. **cell_intelligence.detect_drift**: Detect drift in biological models, mechanism understanding, or evidence freshness
+7. **cell_intelligence.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+8. **cell_intelligence.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Vault-Sourced Domain Knowledge
 
 > **Sources**: `_00_Cosmo brain/engine/A/AMOS_Nbi_Engine_v0_Ubi7.md` (content_hash: bc906ea26514f5b3), `_00_Cosmo brain/misc/C0/C04_bio_neuro.md` (content_hash: ca73264907f22a55) (vault canon, SOURCE_CLAIM)

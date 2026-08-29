@@ -82,6 +82,15 @@ Origin architect: **Trang Phan**. Domain: econ. Parent: amos-c07-econ-finance-ma
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: d865f64cecd4214a) for the full vault-sourced domain knowledge (6420 chars).
 
+## Operations
+
+1. **economic_model.govern_economy**: Govern agent economy: constitutional rules, monetary policy, and allocation
+2. **economic_model.model_economic**: Model economic dynamics: supply, demand, price formation, and equilibrium
+3. **economic_model.assess_debt**: Assess future debt and option value: intertemporal tradeoffs and commitments
+4. **economic_model.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+5. **economic_model.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+6. **economic_model.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `_00_Cosmo brain/economy/Econ_Finance_Model.md` (content_hash: c5bb82643b0856ff) (vault canon, SOURCE_CLAIM)

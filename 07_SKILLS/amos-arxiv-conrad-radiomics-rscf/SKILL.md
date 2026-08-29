@@ -80,6 +80,16 @@ Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research
 - **conrad_radiomics.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **conrad_radiomics.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **conrad_radiomics.analyze_paper**: Analyze arxiv papers: extract claims, methods, evidence, and limitations
+2. **conrad_radiomics.classify_research**: Classify research by epistemic state: established, emerging, speculative, refuted
+3. **conrad_radiomics.assess_reproducibility**: Assess reproducibility: can the results be independently verified?
+4. **conrad_radiomics.trace_literature**: Trace literature chains: citations, dependencies, and influence networks
+5. **conrad_radiomics.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **conrad_radiomics.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **conrad_radiomics.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

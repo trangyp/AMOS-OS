@@ -84,6 +84,17 @@ Origin architect: **Trang Phan**. Domain: knowledge. Parent: amos-knowledge-rese
 - **mechmath_research.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **mechmath_research.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **mechmath_research.search_corpus**: Search the corpus directly: retrieve relevant passages with provenance
+2. **mechmath_research.manage_artifact**: Manage research artifacts: create, version, and link to vault sources
+3. **mechmath_research.trace_footprint**: Trace agent storage footprint and optimize knowledge retention
+4. **mechmath_research.validate_epistemology**: Validate knowledge epistemology: source quality, freshness, and scope
+5. **mechmath_research.index_knowledge**: Index knowledge for rapid retrieval and cross-reference navigation
+6. **mechmath_research.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **mechmath_research.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **mechmath_research.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

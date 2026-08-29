@@ -84,6 +84,15 @@ Origin architect: **Trang Phan**. Domain: trang. Parent: amos-trang-framework-ma
 - **distinction_architecture.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **distinction_architecture.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **distinction_architecture.recover_collapse**: Recover from collapse: detect, diagnose, and restore after system failure
+2. **distinction_architecture.analyze_distinction**: Analyze distinction-relation architecture: boundaries, identities, and transformations
+3. **distinction_architecture.translate_architecture**: Translate RSCF architecture across representation systems
+4. **distinction_architecture.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+5. **distinction_architecture.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+6. **distinction_architecture.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

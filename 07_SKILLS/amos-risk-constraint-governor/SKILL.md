@@ -85,6 +85,17 @@ Origin architect: **Trang Phan**. Domain: c09. Parent: amos-c09-org-law-policy-m
 - **risk_constraint.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **risk_constraint.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **risk_constraint.govern_ethics**: Govern ethical decisions: principles, consequences, and procedural fairness
+2. **risk_constraint.enforce_risk_constraint**: Enforce risk constraints: acceptable risk, risk budget, and risk escalation
+3. **risk_constraint.assess_trust**: Assess trust formation: evidence, reputation, and accountability mechanisms
+4. **risk_constraint.design_governance**: Design governance structures: role/responsibility clarity, accountability mapping
+5. **risk_constraint.detect_drift**: Detect governance drift: authority decay, accountability erosion, regulatory change
+6. **risk_constraint.escalate_gaps**: Escalate governance gaps: flag constitutional issues, require legal review
+7. **risk_constraint.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+8. **risk_constraint.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Vault-Sourced Domain Knowledge
 
 > **Source**: `_00_Cosmo brain/misc/C0/C09_org_law_policy.md` (content_hash: 302e0c57d6667297) (vault canon, SOURCE_CLAIM)

@@ -91,6 +91,20 @@ AMOS Agent Systems — agent fabrication, delegation, agency-consequence tensors
 - **agent_systems.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **agent_systems.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **agent_systems.fabricate_agent**: Fabricate agents with proper schema: capabilities, side-effect classification, governance metadata, and content hash.
+2. **agent_systems.delegate_task**: Delegate tasks to subordinate agents with scope bounds, authority gates, and consequence tensor tracking.
+3. **agent_systems.validate_agent_composition**: Validate agent composition: MECE coverage, skill binding integrity, capability bounds, and governance metadata.
+4. **agent_systems.trace_agent_provenance**: Trace agent capabilities, content, and delegation chain to source skills and vault provenance.
+5. **agent_systems.assess_agent_claim**: Assess agent claims for epistemic class, capability scope, authority bounds, and lifecycle status.
+6. **agent_systems.manage_agent_lifecycle**: Manage agent lifecycle: fabricate, activate, promote, retire, and archive with provenance tracking.
+7. **agent_systems.detect_agent_drift**: Detect agent drift: capability creep, scope expansion, governance decay, and content hash tampering.
+8. **agent_systems.escalate_agent_gaps**: Escalate agent gaps: flag orphan agents, broken skill bindings, missing capabilities, trigger repair.
+9. **agent_systems.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+10. **agent_systems.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+11. **agent_systems.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Consolidated Sub-Skills (11)
 
 This parent skill consolidates the following sub-skills. Each is a section within this domain:

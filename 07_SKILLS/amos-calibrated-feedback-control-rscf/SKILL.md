@@ -89,6 +89,17 @@ Origin architect: **Trang Phan**. Domain: runtime. Parent: amos-os-runtime-maste
 - **calibrated_feedback.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **calibrated_feedback.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **calibrated_feedback.monitor_stability**: Monitor runtime stability: drift, oscillation, divergence, and regime transitions
+2. **calibrated_feedback.calibrate_feedback**: Calibrate feedback control loops to maintain stable operating conditions
+3. **calibrated_feedback.decompose_primitive**: Decompose complex operations into primitive, atomic, verifiable steps
+4. **calibrated_feedback.align_drift**: Align AI drift back to authorized operating envelope when deviation is detected
+5. **calibrated_feedback.enforce_closed_loop**: Enforce closed-loop learning: every output feeds back into the next iteration
+6. **calibrated_feedback.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **calibrated_feedback.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **calibrated_feedback.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

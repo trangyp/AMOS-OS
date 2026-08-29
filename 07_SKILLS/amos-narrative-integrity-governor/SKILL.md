@@ -83,6 +83,16 @@ Origin architect: **Trang Phan**. Domain: c05. Parent: amos-c05-mind-behavior-ma
 - **narrative_integrity.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **narrative_integrity.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **narrative_integrity.model_cognition**: Model cognitive processes: attention, awareness, compression, and inference
+2. **narrative_integrity.allocate_attention**: Allocate attention resources across competing demands and priorities
+3. **narrative_integrity.assess_awareness**: Assess awareness levels: meta-cognition, self-monitoring, and calibration
+4. **narrative_integrity.govern_expression**: Govern artistic and emotional expression within healthy bounds
+5. **narrative_integrity.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **narrative_integrity.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **narrative_integrity.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `_00_Cosmo brain/trang/Trang Reality Architecture.md` (content_hash: 713f2b286bff07a0) (vault canon, SOURCE_CLAIM)

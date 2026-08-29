@@ -89,6 +89,17 @@ Origin architect: **Trang Phan**. Domain: runtime. Parent: amos-os-runtime-maste
 - **qls_qic.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **qls_qic.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **qls_qic.monitor_stability**: Monitor runtime stability: drift, oscillation, divergence, and regime transitions
+2. **qls_qic.calibrate_feedback**: Calibrate feedback control loops to maintain stable operating conditions
+3. **qls_qic.decompose_primitive**: Decompose complex operations into primitive, atomic, verifiable steps
+4. **qls_qic.align_drift**: Align AI drift back to authorized operating envelope when deviation is detected
+5. **qls_qic.enforce_closed_loop**: Enforce closed-loop learning: every output feeds back into the next iteration
+6. **qls_qic.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **qls_qic.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **qls_qic.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `_00_Cosmo brain/indexes/Master Non-Overlap Index v0 3.md` (content_hash: e26ee91dd65dd1ad) (vault canon, SOURCE_CLAIM)

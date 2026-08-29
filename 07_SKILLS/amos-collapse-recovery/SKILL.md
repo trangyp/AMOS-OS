@@ -86,6 +86,17 @@ Origin architect: **Trang Phan**. Domain: trang. Parent: amos-trang-framework-ma
 - **collapse_recovery.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **collapse_recovery.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **collapse_recovery.recover_collapse**: Recover from collapse: detect, diagnose, and restore after system failure
+2. **collapse_recovery.analyze_distinction**: Analyze distinction-relation architecture: boundaries, identities, and transformations
+3. **collapse_recovery.translate_architecture**: Translate RSCF architecture across representation systems
+4. **collapse_recovery.classify_collapse**: Classify collapse type: macroeconomic, financial, political, climate, ecological, integrated
+5. **collapse_recovery.assess_coverage**: Assess collapse-space coverage: model vs empirical, legacy estimates vs validated
+6. **collapse_recovery.detect_drift**: Detect drift in collapse models, evidence chains, or coverage estimates
+7. **collapse_recovery.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+8. **collapse_recovery.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Vault-Sourced Domain Knowledge
 
 > **Source**: `_00_Cosmo brain/amos-general/A/Collapse/AMOS Collapse-Space Coverage Audit.md` (content_hash: 8a6e8edc4d87f23a) (vault canon, SOURCE_CLAIM, AMOS_MODEL)

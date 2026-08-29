@@ -89,6 +89,17 @@ Origin architect: **Trang Phan**. Domain: security. Parent: amos-security-safety
 - **principal_trust.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **principal_trust.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **principal_trust.detect_adversary**: Detect adversarial activity: attacks, probes, and manipulation attempts
+2. **principal_trust.quantify_entropy**: Quantify adversarial entropy: uncertainty, information leakage, and attack surface
+3. **principal_trust.govern_trust**: Govern principal-trust relationships: delegation, revocation, and audit
+4. **principal_trust.monitor_attack**: Monitor distributed attack composition: multi-stage, multi-vector threats
+5. **principal_trust.replay_provenance**: Replay execution provenance: trace and verify every action for integrity
+6. **principal_trust.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **principal_trust.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **principal_trust.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

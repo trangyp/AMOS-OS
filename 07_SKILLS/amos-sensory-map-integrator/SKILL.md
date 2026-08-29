@@ -85,6 +85,17 @@ Origin architect: **Trang Phan**. Domain: c04. Parent: amos-c04-bio-neuro-master
 - **sensory_map.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **sensory_map.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **sensory_map.map_mechanism**: Map biological mechanisms: cellular, neural, developmental, and evolutionary
+2. **sensory_map.assess_cognition**: Assess cross-species cognition: comparative neural computation and intelligence
+3. **sensory_map.model_morphogenesis**: Model morphogenesis: pattern formation, self-organization, and development
+4. **sensory_map.map_neurotransmitters**: Map neurotransmitter systems: synthesis sites, release sites, receptor subtypes
+5. **sensory_map.integrate_layers**: Integrate biological cognition layers: molecular → neural → cognitive → social
+6. **sensory_map.detect_drift**: Detect drift in neurotransmitter maps, cognition models, or evidence freshness
+7. **sensory_map.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+8. **sensory_map.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Vault-Sourced Domain Knowledge
 
 > **Sources**: `_00_Cosmo brain/system/Neurotransmitter Map — Complete Human System.md` (content_hash: 65ce68025b96d942), `_00_Cosmo brain/biology-ubi/Biology_Cognition_Model.md` (content_hash: ba8c82870d94b577) (vault canon, SOURCE_CLAIM)

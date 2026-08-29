@@ -84,6 +84,16 @@ Origin architect: **Trang Phan**. Domain: boundary. Parent: amos-boundary-scope-
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 8940d50a1c67341a) for the full vault-sourced domain knowledge (7483 chars).
 
+## Operations
+
+1. **context_continuity.evaluate_scope**: Evaluate scope boundaries: what is in-scope, out-of-scope, and at the boundary
+2. **context_continuity.check_admission**: Check admission criteria: whether a query enters this capability legitimately
+3. **context_continuity.detect_drift**: Detect context drift, persona drift, or scope creep beyond authorized bounds
+4. **context_continuity.enforce_compaction**: Enforce context compaction and recoverability when budget is exceeded
+5. **context_continuity.audit_boundary**: Audit boundary crossings and log violations for governance review
+6. **context_continuity.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **context_continuity.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `_00_Cosmo brain/misc/TO/TOKEN_GOVERNOR.md` (content_hash: 61701ef736e3657a) (vault canon, SOURCE_CLAIM)

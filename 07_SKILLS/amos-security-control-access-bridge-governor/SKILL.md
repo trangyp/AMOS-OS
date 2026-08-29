@@ -124,6 +124,12 @@ The pipeline has 4 transition types:
 ---
 **Links:** [[07_SKILLS_MOC]]
 
+## Operations
+
+1. **sca_bridge.translate_policy_to_mechanism**: Translate C09 policy into C10 access control mechanisms. Maps policy requirements to implementable mechanisms (RBAC, ABAC, capability bounds, fail-closed design). Returns mechanism specificat...
+2. **sca_bridge.validate_mechanism_enforcement**: Validate C10 mechanism is correctly enforced at runtime. Checks enforcement attestation (ERA), enforcement trust contract (ETC), capability-bound governance. Returns enforcement validation r...
+3. **sca_bridge.govern_pipeline**: Govern the full pipeline (PIPELINE_PERMITTED / BLOCKED / CONDITIONAL). Block if: policy-mechanism mismatch, mechanism-enforcement mismatch, layer drift, audit failure. Returns pipeline
+
 ## Related
 
 - [[amos-security-control-access-bridge-governor_MOC]]

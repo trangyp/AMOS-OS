@@ -82,6 +82,16 @@ Origin architect: **Trang Phan**. Domain: info. Parent: amos-information-theory-
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 1ecf25a924ddcd61) for the full vault-sourced domain knowledge (5720 chars).
 
+## Operations
+
+1. **entropy_lacunarity.measure_entropy**: Measure entropy and lacunarity: information content, gaps, and structure
+2. **entropy_lacunarity.analyze_topology**: Analyze information collapse topology: how information condenses and structures
+3. **entropy_lacunarity.control_exposure**: Control information exposure: what is revealed, to whom, and under what conditions
+4. **entropy_lacunarity.map_geometry**: Map information geometry: manifolds, distances, and projections in information space
+5. **entropy_lacunarity.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **entropy_lacunarity.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **entropy_lacunarity.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `_00_Cosmo brain/amos-general/A/Vortical/AMOS_Vortical_Persistence_Deep_RSCF_Architecture.md` (content_hash: f9b18a9e22c3fb1d) (vault canon, SOURCE_CLAIM)

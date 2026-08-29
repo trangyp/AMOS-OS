@@ -83,6 +83,16 @@ Origin architect: **Trang Phan**. Domain: memory. Parent: amos-memory-systems-ma
 - **memory_conflict.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **memory_conflict.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **memory_conflict.manage_memory**: Manage memory: storage, retrieval, decay, and consolidation
+2. **memory_conflict.resolve_conflict**: Resolve memory conflicts: contradictions, staleness, and priority
+3. **memory_conflict.enforce_firewall**: Enforce memory firewall: prevent unauthorized access and tampering
+4. **memory_conflict.track_dynamics**: Track memory dynamics: formation, consolidation, and forgetting curves
+5. **memory_conflict.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **memory_conflict.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **memory_conflict.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `_00_Cosmo brain/misc/O/overlooked.md` (content_hash: eb91d778a79b4c6a) (vault canon, SOURCE_CLAIM)

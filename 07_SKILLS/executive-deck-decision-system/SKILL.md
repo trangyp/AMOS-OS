@@ -86,6 +86,16 @@ Origin architect: **Trang Phan**. Domain: c08. Parent: amos-c08-strategy-game-ma
 - **executive_deck.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **executive_deck.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **executive_deck.analyze_strategy**: Analyze strategic position: competitive landscape, game-theoretic equilibrium
+2. **executive_deck.evaluate_decision**: Evaluate decisions under uncertainty: expected value, regret, risk-adjusted return
+3. **executive_deck.model_game**: Model game-theoretic interactions: players, strategies, payoffs, equilibria
+4. **executive_deck.assess_risk**: Assess strategic risk: downside scenarios, adversarial responses, black swans
+5. **executive_deck.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **executive_deck.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **executive_deck.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_C08_STRATEGY_GAME_MASTER_KNOWLEDGE.md` (content_hash: 4b676ad6f9ca020f) (vault canon, SOURCE_CLAIM)

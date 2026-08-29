@@ -88,6 +88,17 @@ Origin architect: **Trang Phan**. Domain: runtime. Parent: amos-os-runtime-maste
 - **session_control.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **session_control.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **session_control.monitor_stability**: Monitor runtime stability: drift, oscillation, divergence, and regime transitions
+2. **session_control.calibrate_feedback**: Calibrate feedback control loops to maintain stable operating conditions
+3. **session_control.decompose_primitive**: Decompose complex operations into primitive, atomic, verifiable steps
+4. **session_control.align_drift**: Align AI drift back to authorized operating envelope when deviation is detected
+5. **session_control.enforce_closed_loop**: Enforce closed-loop learning: every output feeds back into the next iteration
+6. **session_control.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **session_control.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **session_control.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `_00_Cosmo brain/amos-general/0/00_AMOS_Full_Brain_OS_Architecture.md` (content_hash: b7acbb430dff829e) (vault canon, SOURCE_CLAIM)

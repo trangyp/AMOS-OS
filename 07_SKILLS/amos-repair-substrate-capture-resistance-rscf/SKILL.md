@@ -89,6 +89,17 @@ Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-maste
 - **repair_substrate.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **repair_substrate.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **repair_substrate.audit_claim**: Audit claims against evidence, provenance, and epistemic class
+2. **repair_substrate.detect_gap**: Detect gaps: missing capabilities, missing evidence, missing tests, missing monitors
+3. **repair_substrate.allocate_repair**: Allocate repair resources to highest-leverage gaps and failure modes
+4. **repair_substrate.verify_closure**: Verify gap closure: requirement → capability → component → test → evidence
+5. **repair_substrate.benchmark_forensics**: Benchmark forensic analysis: trace performance regressions to root causes
+6. **repair_substrate.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **repair_substrate.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **repair_substrate.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

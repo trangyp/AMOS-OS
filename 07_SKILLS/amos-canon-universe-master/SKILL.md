@@ -88,6 +88,20 @@ AMOS Canon & Universe — 7-Part Universe Canon, absolute protocols, invariants,
 - **canon_universe.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **canon_universe.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **canon_universe.apply_canon_model**: Apply the AMOS Canon & Universe canon model to analyze structural coverage, persistence functions, and canonical invariants.
+2. **canon_universe.validate_canon_compliance**: Validate AMOS Canon & Universe outputs against canon separation laws, epistemic firewall, and source-canon vs empirical-law distinction.
+3. **canon_universe.analyze_canon_structure**: Analyze AMOS Canon & Universe structural layers, constraint tensors, and canon nuclei for completeness and coherence.
+4. **canon_universe.trace_canon_provenance**: Trace AMOS Canon & Universe claims to vault canon sources, source-canon status, and AMOS_MODEL formalization chain.
+5. **canon_universe.assess_canon_claim**: Assess AMOS Canon & Universe claims for canon status (SOURCE_CANON vs AMOS_MODEL vs EMPIRICAL), scope regime, and overclaim risk.
+6. **canon_universe.manage_canon_lifecycle**: Manage AMOS Canon & Universe lifecycle: initialize canon test, execute 7-part sweep, checkpoint results, recover from gaps, finalize.
+7. **canon_universe.detect_canon_drift**: Detect canon drift: scope regime changes, source-canon promotion attempts, and structural coverage degradation over time.
+8. **canon_universe.escalate_canon_gaps**: Escalate AMOS Canon & Universe canon gaps: flag missing parts, downgrade structural validity, trigger canon completeness repair.
+9. **canon_universe.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+10. **canon_universe.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+11. **canon_universe.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Consolidated Sub-Skills (42)
 
 This parent skill consolidates the following sub-skills. Each is a section within this domain:

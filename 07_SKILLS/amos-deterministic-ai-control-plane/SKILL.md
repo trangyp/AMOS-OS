@@ -89,6 +89,17 @@ Origin architect: **Trang Phan**. Domain: runtime. Parent: amos-os-runtime-maste
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 4072104aece5492f) for the full vault-sourced domain knowledge (5944 chars).
 
+## Operations
+
+1. **deterministic_ai.monitor_stability**: Monitor runtime stability: drift, oscillation, divergence, and regime transitions
+2. **deterministic_ai.calibrate_feedback**: Calibrate feedback control loops to maintain stable operating conditions
+3. **deterministic_ai.decompose_primitive**: Decompose complex operations into primitive, atomic, verifiable steps
+4. **deterministic_ai.align_drift**: Align AI drift back to authorized operating envelope when deviation is detected
+5. **deterministic_ai.enforce_closed_loop**: Enforce closed-loop learning: every output feeds back into the next iteration
+6. **deterministic_ai.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **deterministic_ai.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **deterministic_ai.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `_00_Cosmo brain/misc/D/Deterministic Decision Infrastructure — First Oper.md` (content_hash: e42fe6c065f556d8) (vault canon, SOURCE_CLAIM)

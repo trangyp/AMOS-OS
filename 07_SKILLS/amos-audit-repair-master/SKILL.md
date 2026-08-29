@@ -82,6 +82,18 @@ AMOS Audit & Repair — failure recovery, gap discovery, quality auditing, valid
 - **audit_repair.escalate_gaps**: Escalate AMOS Audit & Repair audit gaps: flag CRITICAL gaps, prioritize repair allocation, trigger bounded recovery.
 - **audit_repair.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **audit_repair.execute_recovery**: Execute AMOS Audit & Repair failure recovery: detect failure, diagnose root cause, apply repair, verify recovery.
+2. **audit_repair.validate_quality**: Validate AMOS Audit & Repair outputs against validation gates, equation firewall, golden ratio, and integrity requirements.
+3. **audit_repair.discover_gaps**: Discover knowledge gaps using AMOS Audit & Repair gap discovery engine, completion graph, and unknown-unknown registry.
+4. **audit_repair.trace_provenance**: Trace AMOS Audit & Repair findings to test results, integrity scans, gap registry, and validation gate outputs.
+5. **audit_repair.assess_claim**: Assess AMOS Audit & Repair audit claims for severity, scope, evidence strength, and repair priority.
+6. **audit_repair.manage_lifecycle**: Manage AMOS Audit & Repair audit lifecycle: scan, detect, classify, allocate repair, verify, and document.
+7. **audit_repair.detect_drift**: Detect audit drift: test count drift, gap regression, integrity degradation, and validation gate erosion.
+8. **audit_repair.escalate_gaps**: Escalate AMOS Audit & Repair audit gaps: flag CRITICAL gaps, prioritize repair allocation, trigger bounded recovery.
+9. **audit_repair.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Consolidated Sub-Skills (8)
 
 This parent skill consolidates the following sub-skills. Each is a section within this domain:

@@ -82,6 +82,16 @@ Origin architect: **Trang Phan**. Domain: info. Parent: amos-information-theory-
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 423154ba73eef4b4) for the full vault-sourced domain knowledge (5769 chars).
 
+## Operations
+
+1. **information_geometry.measure_entropy**: Measure entropy and lacunarity: information content, gaps, and structure
+2. **information_geometry.analyze_topology**: Analyze information collapse topology: how information condenses and structures
+3. **information_geometry.control_exposure**: Control information exposure: what is revealed, to whom, and under what conditions
+4. **information_geometry.map_geometry**: Map information geometry: manifolds, distances, and projections in information space
+5. **information_geometry.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **information_geometry.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **information_geometry.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `_00_Cosmo brain/misc/M/Money.md` (content_hash: 266ab144bfa15b1c) (vault canon, SOURCE_CLAIM)

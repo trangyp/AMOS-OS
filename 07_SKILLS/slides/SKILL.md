@@ -89,6 +89,17 @@ Origin architect: **Trang Phan**. Domain: c10. Parent: amos-c10-tech-engineering
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: c3a91480723b812f) for the full vault-sourced domain knowledge (4975 chars).
 
+## Operations
+
+1. **slides.parse_presentation**: Parse presentation files (.pptx): extract slides, layouts, masters, and themes
+2. **slides.validate_structure**: Validate presentation structure against OOXML schema and slide ordering
+3. **slides.extract_content**: Extract structured content: text frames, shapes, tables, charts, speaker notes
+4. **slides.generate_presentation**: Generate presentations from structured content with proper layouts and transitions
+5. **slides.track_provenance**: Track provenance of slide content to source slides and design templates
+6. **slides.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **slides.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **slides.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_C10_TECH_ENGINEERING_MASTER_KNOWLEDGE.md` (content_hash: f23d35766fe766bc) (vault canon, SOURCE_CLAIM)

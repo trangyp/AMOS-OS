@@ -89,6 +89,17 @@ Origin architect: **Trang Phan**. Domain: c10. Parent: amos-c10-tech-engineering
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 1acc8e0bc3c3a25f) for the full vault-sourced domain knowledge (6462 chars).
 
+## Operations
+
+1. **paper_compiler.analyze_architecture**: Analyze software architecture: patterns, dependencies, coupling, cohesion
+2. **paper_compiler.discover_program**: Discover program behavior: black-box analysis, symbolic execution, fuzzing
+3. **paper_compiler.verify_code_facts**: Verify code facts: type safety, memory safety, termination, complexity
+4. **paper_compiler.optimize_performance**: Optimize performance: profiling, bottleneck analysis, and resource tuning
+5. **paper_compiler.enforce_bounds**: Enforce bounded code: resource limits, time limits, and capability limits
+6. **paper_compiler.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **paper_compiler.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **paper_compiler.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

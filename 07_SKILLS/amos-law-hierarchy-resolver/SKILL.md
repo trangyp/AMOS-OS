@@ -85,6 +85,17 @@ Origin architect: **Trang Phan**. Domain: c01. Parent: amos-c01-meta-logic-maste
 - **law_hierarchy.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **law_hierarchy.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **law_hierarchy.resolve_hierarchy**: Resolve law hierarchy: meta-laws, domain laws, and operational rules
+2. **law_hierarchy.validate_consistency**: Validate cross-law consistency using the Law of Law constraint
+3. **law_hierarchy.apply_rule_of_2**: Apply the Rule of 2 to decompose systems into complementary force pairs
+4. **law_hierarchy.apply_rule_of_4**: Apply the Rule of 4 to classify system behavior into structural quadrants
+5. **law_hierarchy.detect_drift**: Detect logical drift, contradiction, or overextension beyond structural boundaries
+6. **law_hierarchy.escalate_gaps**: Escalate unresolved law conflicts as UNKNOWN/GAP — do not force-fit
+7. **law_hierarchy.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+8. **law_hierarchy.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Vault-Sourced Domain Knowledge
 
 > **Sources**: `_00_Cosmo brain/misc/L/Law of Law Rule of 2 Rule of 4.md` (content_hash: 0e3a9a742d48438d), `_00_Cosmo brain/amos-general/A/all/AMOS All Frameworks Canon Hierarchy.md` (content_hash: 4628ba22a3b5d427) (vault canon, SOURCE_CLAIM)

@@ -87,6 +87,16 @@ Origin architect: **Trang Phan**. Domain: causal. Parent: amos-causal-reasoning-
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: fcf04078b0370f42) for the full vault-sourced domain knowledge (7519 chars).
 
+## Operations
+
+1. **causal_abstraction.validate_abstraction**: Validate causal abstraction: does the higher-level model preserve causal structure?
+2. **causal_abstraction.enforce_closure**: Enforce causal closure: every effect must have a sufficient cause within the system
+3. **causal_abstraction.govern_hierarchy**: Govern causal hierarchy: direct, distributed, delayed, and cascading causes
+4. **causal_abstraction.reason_counterfactual**: Reason counterfactually: what would happen under alternative interventions
+5. **causal_abstraction.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **causal_abstraction.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **causal_abstraction.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

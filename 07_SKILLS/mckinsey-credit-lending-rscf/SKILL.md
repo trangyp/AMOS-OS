@@ -81,6 +81,16 @@ Origin architect: **Trang Phan**. Domain: mckinsey. Parent: amos-c08-strategy-ga
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: adebfab91fade3e6) for the full vault-sourced domain knowledge (7609 chars).
 
+## Operations
+
+1. **credit_lending.assess_commercial**: Assess commercial due diligence: market, competitive position, and growth
+2. **credit_lending.evaluate_credit**: Evaluate credit and lending: risk scoring, portfolio, and concentration
+3. **credit_lending.analyze_banking**: Analyze banking CRM: customer lifetime value, retention, and cross-sell
+4. **credit_lending.transfer_architecture**: Transfer architecture references: best practices across organizational contexts
+5. **credit_lending.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **credit_lending.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **credit_lending.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

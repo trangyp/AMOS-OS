@@ -78,6 +78,12 @@ Origin architect: **Trang Phan**. Domain: canon. Parent: amos-canon-universe-mas
 - **canon_validate**: Validate system against canon invariants
 - **canon_map**: Map system elements to canon parts
 
+## Operations
+
+1. **canon_audit**: Audit structural completeness across the 7-Part Universe Canon
+2. **canon_validate**: Validate system against canon invariants
+3. **canon_map**: Map system elements to canon parts
+
 ## Source
 `_00_Cosmo brain/2026-08-22 7-Part Universe Canon.md` (196 lines) + vault audit 2026-08-23
 

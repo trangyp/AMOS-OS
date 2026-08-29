@@ -78,6 +78,6 @@ claim_class: AMOS_MODEL
 
 ## 2026-08-29 updates
 
-- New raw source: [[SOTA_AGENT_SKILL_WORKFLOW_REPOS_2026_08_29]]
+- New raw source: [[SOTA_AGENT_SKILL_WORKFLOW_REPOS_2026_08_29]] · [[SKILLNET_README_2026_08_29]]
 - Updated synthesis: [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]]
 - Activity logged: [[LLM_WIKI_LOG]]

@@ -84,6 +84,16 @@ Origin architect: **Trang Phan**. Domain: fx. Parent: amos-c07-econ-finance-mast
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: bcc29e4e925cdc95) for the full vault-sourced domain knowledge (7449 chars).
 
+## Operations
+
+1. **macro_differential.calibrate_model**: Calibrate FX models: Bayesian neural SDEs, volatility surfaces, and term structures
+2. **macro_differential.assess_risk**: Assess FX risk: currency exposure, correlation breakdown, and tail events
+3. **macro_differential.backtest_strategy**: Backtest FX strategies: walk-forward, regime-aware, and stress-tested
+4. **macro_differential.monitor_regime**: Monitor FX regime shifts: volatility, correlation, and liquidity transitions
+5. **macro_differential.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **macro_differential.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **macro_differential.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `_00_Cosmo brain/misc/G/Game.md` (content_hash: f116a25acc488148) (vault canon, SOURCE_CLAIM)

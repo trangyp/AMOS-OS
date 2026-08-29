@@ -91,6 +91,20 @@ A parent skill with clearly labeled sections is better than 15 separate shallow 
 - **trang.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **trang.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **trang.execute_formal**: Execute AMOS Trang Framework formal engines: MURK 19x19, Go Board, tensor composition, and RSCF proof systems.
+2. **trang.validate_formal**: Validate AMOS Trang Framework proofs for completeness, soundness, tensor contract compliance, and axiom application.
+3. **trang.analyze_tensor**: Analyze AMOS Trang Framework tensor structure: typed cells, axis compatibility, composition gates, and relation topology.
+4. **trang.trace_formal_provenance**: Trace AMOS Trang Framework formal outputs to axioms, inference rules, tensor contracts, and proof graph.
+5. **trang.assess_formal_claim**: Assess AMOS Trang Framework formal claims for proof status, tensor compatibility, gap registry, and invariant compliance.
+6. **trang.manage_formal_lifecycle**: Manage AMOS Trang Framework formal lifecycle: axiomatize, derive, validate, cross-check, and finalize proof.
+7. **trang.detect_formal_drift**: Detect formal drift: axiom erosion, tensor axis mismatch, proof graph degradation, and invariant violation.
+8. **trang.escalate_formal_gaps**: Escalate AMOS Trang Framework formal gaps: flag unproven claims, tensor incompatibility, trigger gap registry repair.
+9. **trang.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+10. **trang.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+11. **trang.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Vault-Sourced Domain Knowledge
 
 > **Source**: `11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS.md` (content_hash: bea699b152625ac3) (vault canon, SOURCE_CLAIM)

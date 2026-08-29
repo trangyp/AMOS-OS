@@ -86,6 +86,17 @@ Origin architect: **Trang Phan**. Domain: agent. Parent: amos-agent-systems-mast
 - **portable_agent.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **portable_agent.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **portable_agent.govern_agency**: Govern agency: who acts, under what authority, with what consequences
+2. **portable_agent.design_externalization**: Design agent externalization: what is delegated, to whom, with what controls
+3. **portable_agent.attribute_ownership**: Attribute agent ownership: who is responsible for each agent action
+4. **portable_agent.verify_agentic**: Verify agentic skill-lie algebroid: structural consistency of agent capabilities
+5. **portable_agent.validate_delegation**: Validate delegation witness: temporal, revocable, attenuation-bound
+6. **portable_agent.detect_drift**: Detect drift in authorization chains, delegation validity, or trust contracts
+7. **portable_agent.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+8. **portable_agent.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Vault-Sourced Domain Knowledge
 
 > **Sources**: Enforcement Trust Contract (v43) and Enforcement Root Attestation (v42) from AMOS brain production code (vault canon, SOURCE_CLAIM)

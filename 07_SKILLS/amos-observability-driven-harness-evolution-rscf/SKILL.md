@@ -88,6 +88,17 @@ Origin architect: **Trang Phan**. Domain: c10. Parent: amos-c10-tech-engineering
 - **observability_driven.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **observability_driven.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **observability_driven.analyze_architecture**: Analyze software architecture: patterns, dependencies, coupling, cohesion
+2. **observability_driven.discover_program**: Discover program behavior: black-box analysis, symbolic execution, fuzzing
+3. **observability_driven.verify_code_facts**: Verify code facts: type safety, memory safety, termination, complexity
+4. **observability_driven.optimize_performance**: Optimize performance: profiling, bottleneck analysis, and resource tuning
+5. **observability_driven.enforce_bounds**: Enforce bounded code: resource limits, time limits, and capability limits
+6. **observability_driven.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **observability_driven.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **observability_driven.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

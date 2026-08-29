@@ -82,6 +82,15 @@ Origin architect: **Trang Phan**. Domain: econ. Parent: amos-c07-econ-finance-ma
 - **future_debt.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **future_debt.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **future_debt.govern_economy**: Govern agent economy: constitutional rules, monetary policy, and allocation
+2. **future_debt.model_economic**: Model economic dynamics: supply, demand, price formation, and equilibrium
+3. **future_debt.assess_debt**: Assess future debt and option value: intertemporal tradeoffs and commitments
+4. **future_debt.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+5. **future_debt.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+6. **future_debt.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `_00_Cosmo brain/misc/E/EVOLUTION_DEBT.md` (content_hash: e57a27100b9c08a0) (vault canon, SOURCE_CLAIM)

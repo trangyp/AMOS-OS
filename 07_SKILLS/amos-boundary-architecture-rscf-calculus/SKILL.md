@@ -84,6 +84,16 @@ Origin architect: **Trang Phan**. Domain: boundary. Parent: amos-boundary-scope-
 - **boundary_architecture.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **boundary_architecture.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **boundary_architecture.evaluate_scope**: Evaluate scope boundaries: what is in-scope, out-of-scope, and at the boundary
+2. **boundary_architecture.check_admission**: Check admission criteria: whether a query enters this capability legitimately
+3. **boundary_architecture.detect_drift**: Detect context drift, persona drift, or scope creep beyond authorized bounds
+4. **boundary_architecture.enforce_compaction**: Enforce context compaction and recoverability when budget is exceeded
+5. **boundary_architecture.audit_boundary**: Audit boundary crossings and log violations for governance review
+6. **boundary_architecture.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **boundary_architecture.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

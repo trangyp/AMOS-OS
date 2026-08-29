@@ -52,6 +52,17 @@ Operational skill for the FareedKhan-dev/kimi-k3-in-c Kimi K3 C99 inference engi
 - **k3_in_c.preset**: Select or validate `--preset` memory configurations.
 - **k3_in_c.verify**: Confirm a downloaded checkpoint's byte totals and shard sizes.
 
+## Operations
+
+1. **k3_in_c.build**: Compile the engine.
+2. **k3_in_c.test**: Run the weightless test suite and report gates.
+3. **k3_in_c.run**: Execute `bin/k3` with a local model once a checkpoint is present.
+4. **k3_in_c.diagnose**: Run `scripts/k3-doctor.sh` (Linux only) to check the toolchain and storage. On macOS it exits immediately; use `bin/k3 --list-presets` and `df -h` instead.
+5. **k3_in_c.budget**: Compute memory budgets with `tools/budget.py <model_dir>` after a checkpoint is present (needs `.safetensors` shards).
+6. **k3_in_c.info**: Show presets, version, help, and architecture notes.
+7. **k3_in_c.preset**: Select or validate `--preset` memory configurations.
+8. **k3_in_c.verify**: Confirm a downloaded checkpoint's byte totals and shard sizes.
+
 ## Build
 
 ```bash

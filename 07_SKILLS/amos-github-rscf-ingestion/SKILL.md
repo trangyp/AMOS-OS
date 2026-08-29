@@ -89,6 +89,17 @@ Origin architect: **Trang Phan**. Domain: c10. Parent: amos-c10-tech-engineering
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 127d503d8a4202be) for the full vault-sourced domain knowledge (4363 chars).
 
+## Operations
+
+1. **github_ingestion.analyze_architecture**: Analyze software architecture: patterns, dependencies, coupling, cohesion
+2. **github_ingestion.discover_program**: Discover program behavior: black-box analysis, symbolic execution, fuzzing
+3. **github_ingestion.verify_code_facts**: Verify code facts: type safety, memory safety, termination, complexity
+4. **github_ingestion.optimize_performance**: Optimize performance: profiling, bottleneck analysis, and resource tuning
+5. **github_ingestion.enforce_bounds**: Enforce bounded code: resource limits, time limits, and capability limits
+6. **github_ingestion.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **github_ingestion.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **github_ingestion.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

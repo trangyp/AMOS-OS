@@ -90,6 +90,17 @@ Origin architect: **Trang Phan**. Domain: canon. Parent: amos-canon-universe-mas
 - **canonical_software.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **canonical_software.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **canonical_software.compile_canon**: Compile canonical structure from sources into a consistent, navigable canon
+2. **canonical_software.check_consistency**: Check canon consistency: no contradictions, no gaps, no orphan references
+3. **canonical_software.enforce_invariant**: Enforce canon invariants: structural laws that must hold across all parts
+4. **canonical_software.navigate_canon**: Navigate canon: locate the canonical part for any topic or query
+5. **canonical_software.validate_substrate**: Validate canonical software substrate against canon requirements
+6. **canonical_software.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **canonical_software.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **canonical_software.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

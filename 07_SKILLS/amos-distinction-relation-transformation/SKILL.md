@@ -84,6 +84,15 @@ Origin architect: **Trang Phan**. Domain: super. Parent: amos-super-engines-mast
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: aeeb0e55c59a623a) for the full vault-sourced domain knowledge (8208 chars).
 
+## Operations
+
+1. **distinction_relation_trans.supervise_test**: Supervise testing with cost-awareness: balance test coverage vs resource cost
+2. **distinction_relation_trans.transform_distinction**: Transform distinction-relation structures across scales and contexts
+3. **distinction_relation_trans.orchestrate_brain**: Orchestrate full brain OS: coordinate all cognitive engines as a unified system
+4. **distinction_relation_trans.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+5. **distinction_relation_trans.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+6. **distinction_relation_trans.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_C01_META_LOGIC_MASTER_KNOWLEDGE.md` (content_hash: ff5575df755d7e25) (vault canon, SOURCE_CLAIM)

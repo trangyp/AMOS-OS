@@ -91,6 +91,20 @@ Origin architect: **Trang Phan**. Domain: c07. Parent: none. Epistemic class: SO
 - **c07_econ_finance.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **c07_econ_finance.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **c07_econ_finance.analyze_market**: Analyze AMOS C07 Econ & Finance market dynamics: price formation, regime shifts, fractal economics, and chaos diagnostics.
+2. **c07_econ_finance.validate_econ**: Validate AMOS C07 Econ & Finance economic claims for scope regime, empirical calibration vs theoretical model, and overclaim.
+3. **c07_econ_finance.compute_risk**: Compute AMOS C07 Econ & Finance financial risk: tail risk, conformal prediction, and investment decision metrics.
+4. **c07_econ_finance.trace_econ_provenance**: Trace AMOS C07 Econ & Finance economic findings to market data, fractal analysis, and vault sources.
+5. **c07_econ_finance.assess_econ_claim**: Assess AMOS C07 Econ & Finance economic claims for empirical support, model validity, scope, and falsifier.
+6. **c07_econ_finance.manage_econ_lifecycle**: Manage AMOS C07 Econ & Finance economic lifecycle: analyze, model, validate, calibrate, and finalize.
+7. **c07_econ_finance.detect_econ_drift**: Detect economic drift: regime shift, model decay, market change, and calibration loss.
+8. **c07_econ_finance.escalate_econ_gaps**: Escalate AMOS C07 Econ & Finance economic gaps: flag model invalidity, require recalibration, trigger repair.
+9. **c07_econ_finance.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+10. **c07_econ_finance.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+11. **c07_econ_finance.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Vault-Sourced Domain Knowledge
 
 > **Source**: `11_KNOWLEDGE/AMOS_C07_ECON_FINANCE_MASTER_KNOWLEDGE.md` (content_hash: afc81525bb75994d) (vault canon, SOURCE_CLAIM)

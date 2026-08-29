@@ -81,6 +81,18 @@ AMOS RSCF Epistemic — claim/class/premises/evidence/provenance/scope/regime/fr
 - **rscf_episte.escalate_gaps**: Escalate AMOS RSCF Epistemic RSCF gaps: flag UNKNOWN/GAP class, downgrade confidence, trigger evidence gathering.
 - **rscf_episte.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **rscf_episte.classify_claim**: Classify claims using AMOS RSCF Epistemic RSCF state kinds: OBSERVATION, SOURCE_CLAIM, DERIVED, MODEL, DECISION, UNKNOWN.
+2. **rscf_episte.validate_epistemic**: Validate AMOS RSCF Epistemic outputs against epistemic class labels, claim ceiling, falsifier availability, and scope regime.
+3. **rscf_episte.analyze_evidence**: Analyze AMOS RSCF Epistemic evidence: source independence, contradiction status, freshness, and dependency chain.
+4. **rscf_episte.trace_provenance**: Trace AMOS RSCF Epistemic claims to source evidence, derivation chain, epistemic class, and RSCF proof capsule.
+5. **rscf_episte.assess_claim**: Assess AMOS RSCF Epistemic claims for epistemic class, confidence ceiling, competing hypotheses, and falsifier strength.
+6. **rscf_episte.manage_lifecycle**: Manage AMOS RSCF Epistemic RSCF lifecycle: classify, validate, trace, assess, label, and finalize with proof capsule.
+7. **rscf_episte.detect_drift**: Detect epistemic drift: class inflation, ceiling erosion, falsifier neglect, and provenance decay.
+8. **rscf_episte.escalate_gaps**: Escalate AMOS RSCF Epistemic RSCF gaps: flag UNKNOWN/GAP class, downgrade confidence, trigger evidence gathering.
+9. **rscf_episte.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Consolidated Sub-Skills (61)
 
 This parent skill consolidates the following sub-skills. Each is a section within this domain:

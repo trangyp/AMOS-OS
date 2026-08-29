@@ -97,6 +97,17 @@ Origin architect: **Trang Phan**. Domain: c10. Parent: amos-c10-tech-engineering
 - **softwareering_qa.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **softwareering_qa.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **softwareering_qa.analyze_architecture**: Analyze software architecture: patterns, dependencies, coupling, cohesion
+2. **softwareering_qa.discover_program**: Discover program behavior: black-box analysis, symbolic execution, fuzzing
+3. **softwareering_qa.verify_code_facts**: Verify code facts: type safety, memory safety, termination, complexity
+4. **softwareering_qa.optimize_performance**: Optimize performance: profiling, bottleneck analysis, and resource tuning
+5. **softwareering_qa.enforce_bounds**: Enforce bounded code: resource limits, time limits, and capability limits
+6. **softwareering_qa.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **softwareering_qa.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **softwareering_qa.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Core Invariants
 
 1. **Diagnose before edit** — never patch consequential code before understanding the failure mechanism.

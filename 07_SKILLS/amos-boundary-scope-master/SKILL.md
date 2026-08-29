@@ -84,6 +84,18 @@ Origin architect: **Trang Phan**. Domain: boundary. Parent: none. Epistemic clas
 - **boundary_scope.escalate_gaps**: Escalate AMOS Boundary & Scope memory gaps: flag UNKNOWN/GAP entries, quarantine untrusted data, trigger memory repair.
 - **boundary_scope.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **boundary_scope.evaluate_influence**: Evaluate whether memory may influence a pending action through the AMOS Boundary & Scope consent, provenance, and risk gates.
+2. **boundary_scope.validate_gates**: Validate AMOS Boundary & Scope decisions against hard partition gates, epistemic class preservation, and consent state requirements.
+3. **boundary_scope.analyze_state**: Analyze AMOS Boundary & Scope memory state: working, episodic, semantic stores, consolidation, and retrieval graph health.
+4. **boundary_scope.trace_provenance**: Trace AMOS Boundary & Scope memory entries to source, encoding operation, consolidation history, and field-level lineage.
+5. **boundary_scope.assess_claim**: Assess AMOS Boundary & Scope memory claims for epistemic class, freshness, contradiction status, and confidence ceiling.
+6. **boundary_scope.manage_lifecycle**: Manage AMOS Boundary & Scope lifecycle: encode, normalize, admit, consolidate, index, retrieve, filter, update.
+7. **boundary_scope.detect_drift**: Detect memory drift: stale entries, broken provenance, epistemic class erosion, and context discontinuity.
+8. **boundary_scope.escalate_gaps**: Escalate AMOS Boundary & Scope memory gaps: flag UNKNOWN/GAP entries, quarantine untrusted data, trigger memory repair.
+9. **boundary_scope.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Vault-Sourced Domain Knowledge
 
 > **Source**: `_00_Cosmo brain/misc/B/BOUNDARY_IDENTITY.md` (vault canon, SOURCE_CLAIM, content_hash: f487341d92a82385)

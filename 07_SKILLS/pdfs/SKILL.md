@@ -89,6 +89,17 @@ Origin architect: **Trang Phan**. Domain: c10. Parent: amos-c10-tech-engineering
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 8d6d1f2f6ef6cac2) for the full vault-sourced domain knowledge (6462 chars).
 
+## Operations
+
+1. **pdfs.extract_text**: Extract text from PDF files: handle encoded text, multi-column layouts, and embedded fonts
+2. **pdfs.validate_integrity**: Validate PDF structure: cross-reference table, object stream, and trailer integrity
+3. **pdfs.extract_metadata**: Extract PDF metadata: title, author, subject, keywords, creation/modification dates
+4. **pdfs.extract_tables**: Extract table structures from PDFs: detect rows, columns, and cell boundaries
+5. **pdfs.track_provenance**: Track provenance of extracted content to source pages and extraction method
+6. **pdfs.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **pdfs.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **pdfs.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_C10_TECH_ENGINEERING_MASTER_KNOWLEDGE.md` (content_hash: f23d35766fe766bc) (vault canon, SOURCE_CLAIM)

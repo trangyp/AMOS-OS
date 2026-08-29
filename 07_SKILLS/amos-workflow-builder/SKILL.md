@@ -117,6 +117,32 @@ Create Workflows that are:
 Never convert a large vault dump directly into a workflow unless every step is required at runtime.
 - **workflow.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **workflow.design**: Design a governed workflow graph from objective, steps, contracts, dependencies, gates, authority, retries, compensation, and rollback.
+2. **workflow.validate_topology**: Validate workflow topology, gates, contracts, authority boundaries, and cycles
+3. **workflow.analyze**: Analyze workflow topology, critical path, fan-out, fan-in, risk concentration, authority surface, failure propagation, and repair targets.
+4. **workflow.manage_lifecycle**: Manage workflow lifecycle: plan execution frontier, stage step execution under authority, checkpoint, recover from valid checkpoints, compensate completed durable steps after partial failure, and package va...
+5. **workflow.detect_drift**: Detect workflow scope, dependency, authority, schema, environment, provenance, and confidence drift.
+6. **workflow.trace_workflow_provenance**: Trace workflow provenance to skills, agents, and vault sources
+7. **workflow.assess_workflow_claim**: Assess workflow claims: gate enforcement, step ordering, and promotion readiness
+8. **workflow.escalate_gaps**: Classify workflow gaps and escalate blocking unknowns. Core Objective
+9. triggerable
+10. source-faithful
+11. operational rather than descriptive
+12. compact at the entrypoint
+13. progressively loadable
+14. provenance-preserving
+15. scope/regime bounded
+16. contradiction-visible
+17. composable with parent/child AMOS Workflows
+18. explicit about AMOS_MODEL versus empirical claims
+19. testable and package-ready
+20. agent-bound (every workflow binds to exactly one agent)
+21. skill-bound (every workflow binds to exactly one skill)
+22. gate-enforced (every step has a validation gate)
+23. **workflow.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Runtime
 
 Apply:

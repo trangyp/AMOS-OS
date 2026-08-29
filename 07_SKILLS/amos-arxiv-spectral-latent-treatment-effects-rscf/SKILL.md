@@ -80,6 +80,16 @@ Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 32f9171f7ab5b470) for the full vault-sourced domain knowledge (8091 chars).
 
+## Operations
+
+1. **spectral_latent.analyze_paper**: Analyze arxiv papers: extract claims, methods, evidence, and limitations
+2. **spectral_latent.classify_research**: Classify research by epistemic state: established, emerging, speculative, refuted
+3. **spectral_latent.assess_reproducibility**: Assess reproducibility: can the results be independently verified?
+4. **spectral_latent.trace_literature**: Trace literature chains: citations, dependencies, and influence networks
+5. **spectral_latent.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **spectral_latent.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **spectral_latent.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

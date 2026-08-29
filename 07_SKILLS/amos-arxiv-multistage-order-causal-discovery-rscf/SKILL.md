@@ -78,6 +78,16 @@ Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research
 - **multistage_order.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **multistage_order.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **multistage_order.analyze_paper**: Analyze arxiv papers: extract claims, methods, evidence, and limitations
+2. **multistage_order.classify_research**: Classify research by epistemic state: established, emerging, speculative, refuted
+3. **multistage_order.assess_reproducibility**: Assess reproducibility: can the results be independently verified?
+4. **multistage_order.trace_literature**: Trace literature chains: citations, dependencies, and influence networks
+5. **multistage_order.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **multistage_order.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **multistage_order.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/_arxiv_md/` (arxiv research papers indexed in the AMOS vault) (SOURCE_CLAIM)

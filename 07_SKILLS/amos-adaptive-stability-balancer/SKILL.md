@@ -147,6 +147,26 @@ within current constraints.
 ---
 **Links:** [[07_SKILLS_MOC]]
 
+## Operations
+
+1. **adaptive_stabil_balancer.evaluate_influence**: Evaluate whether memory may influence a pending action through the AMOS Adaptive Stability Balancer consent, provenance, and risk gates.
+2. **adaptive_stabil_balancer.validate_gates**: Validate AMOS Adaptive Stability Balancer decisions against hard partition gates, epistemic class preservation, and consent state requirements.
+3. **adaptive_stabil_balancer.analyze_state**: Analyze AMOS Adaptive Stability Balancer memory state: working, episodic, semantic stores, consolidation, and retrieval graph health.
+4. **adaptive_stabil_balancer.trace_provenance**: Trace AMOS Adaptive Stability Balancer memory entries to source, encoding operation, consolidation history, and field-level lineage.
+5. **adaptive_stabil_balancer.assess_claim**: Assess AMOS Adaptive Stability Balancer memory claims for epistemic class, freshness, contradiction status, and confidence ceiling.
+6. **adaptive_stabil_balancer.manage_lifecycle**: Manage AMOS Adaptive Stability Balancer lifecycle: encode, normalize, admit, consolidate, index, retrieve, filter, update.
+7. **adaptive_stabil_balancer.detect_drift**: Detect memory drift: stale entries, broken provenance, epistemic class erosion, and context discontinuity.
+8. **adaptive_stabil_balancer.escalate_gaps**: Escalate AMOS Adaptive Stability Balancer memory gaps: flag UNKNOWN/GAP entries, quarantine untrusted data, trigger memory repair.
+9. **adaptive_stabil_balancer.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+10. **adaptive_stability.monitor_stability**: Monitor runtime stability: drift, oscillation, divergence, and regime transitions
+11. **adaptive_stability.calibrate_feedback**: Calibrate feedback control loops to maintain stable operating conditions
+12. **adaptive_stability.decompose_primitive**: Decompose complex operations into primitive, atomic, verifiable steps
+13. **adaptive_stability.align_drift**: Align AI drift back to authorized operating envelope when deviation is detected
+14. **adaptive_stability.enforce_closed_loop**: Enforce closed-loop learning: every output feeds back into the next iteration
+15. **adaptive_stability.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+16. **adaptive_stability.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+17. **adapti
+
 ## Related
 
 - [[amos-adaptive-stability-balancer_MOC]]

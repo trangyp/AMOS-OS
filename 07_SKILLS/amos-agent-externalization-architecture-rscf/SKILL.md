@@ -85,6 +85,16 @@ Origin architect: **Trang Phan**. Domain: agent. Parent: amos-agent-systems-mast
 - **agent_externalization.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **agent_externalization.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **agent_externalization.govern_agency**: Govern agency: who acts, under what authority, with what consequences
+2. **agent_externalization.design_externalization**: Design agent externalization: what is delegated, to whom, with what controls
+3. **agent_externalization.attribute_ownership**: Attribute agent ownership: who is responsible for each agent action
+4. **agent_externalization.verify_agentic**: Verify agentic skill-lie algebroid: structural consistency of agent capabilities
+5. **agent_externalization.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **agent_externalization.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **agent_externalization.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

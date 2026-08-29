@@ -118,6 +118,13 @@ Bidirectional translation with two firewall rules:
 ---
 **Links:** [[07_SKILLS_MOC]]
 
+## Operations
+
+1. **vgc_bridge.translate_vietnamese_to_global**: Translate VN claims to global framework terms. Maps F07 VN-specific concepts to F01-F06/F08-F10 global equivalents. Tags translated claims as CONDITIONAL (context-dependent). Returns transla...
+2. **vgc_bridge.validate_global_for_vietnamese**: Validate global model applies to VN context. Checks cultural fit, contextual validity, and specificity preservation. Returns validation result + context adaptation requirements.
+3. **vgc_bridge.govern_bridge**: Govern bidirectional bridge (BRIDGE_PERMITTED / BLOCKED / CONDITIONAL). Block if: universalization without evidence, global model without VN validation, cultural specificity loss. Returns bridge state + bloc...
+4. **vgc_bridge.detect_cultural_drift**: Detect cultural drift between VN and global models. Checks: VN model updated without global sync, global model updated without VN validation, cultural specif
+
 ## Related
 
 - [[amos-vietnamese-global-cultural-bridge-governor_MOC]]

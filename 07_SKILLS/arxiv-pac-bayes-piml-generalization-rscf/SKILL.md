@@ -81,6 +81,16 @@ Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 624966b0f95223af) for the full vault-sourced domain knowledge (5007 chars).
 
+## Operations
+
+1. **pac_bayes.analyze_paper**: Analyze arxiv papers: extract claims, methods, evidence, and limitations
+2. **pac_bayes.classify_research**: Classify research by epistemic state: established, emerging, speculative, refuted
+3. **pac_bayes.assess_reproducibility**: Assess reproducibility: can the results be independently verified?
+4. **pac_bayes.trace_literature**: Trace literature chains: citations, dependencies, and influence networks
+5. **pac_bayes.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **pac_bayes.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **pac_bayes.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

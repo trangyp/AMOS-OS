@@ -109,6 +109,29 @@ Create Skills that are:
 Never convert a large vault dump directly into `SKILL.md` unless every section is required at runtime.
 - **skill_builder.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **skill_builder.execute_runtime**: Execute the Skill Builder runtime function: manage typed state, pipeline stages, and infrastructure control plane operations.
+2. **skill_builder.validate_runtime**: Validate Skill Builder outputs against authority gates, capability bounds, scope regime, and runtime invariants.
+3. **skill_builder.analyze_runtime**: Analyze Skill Builder pipeline structure, dependency graph, state transitions, and execution trace for completeness.
+4. **skill_builder.trace_skill_provenance**: Trace skill provenance to vault sources, parent skills, and origin architect decisions
+5. **skill_builder.assess_skill_claim**: Assess skill claims: epistemic class, evidence strength, and scope validity
+6. **skill_builder.manage_lifecycle**: Manage Skill Builder lifecycle: initialize, execute pipeline, checkpoint state, recover from failure, finalize.
+7. **skill_builder.detect_drift**: Detect runtime drift: state staleness, authority decay, scope creep, and pipeline degradation over time.
+8. **skill_builder.escalate_gaps**: Escalate Skill Builder runtime gaps: flag UNKNOWN/GAP states, downgrade confidence, trigger bounded repair. Core Objective
+9. triggerable
+10. source-faithful
+11. operational rather than descriptive
+12. compact at the entrypoint
+13. progressively loadable
+14. provenance-preserving
+15. scope/regime bounded
+16. contradiction-visible
+17. composable with parent/child AMOS Skills
+18. explicit about AMOS_MODEL versus empirical claims
+19. testable and package-ready
+20. **skill_builder.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Runtime
 
 Apply:

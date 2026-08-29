@@ -84,6 +84,17 @@ Origin architect: **Trang Phan**. Domain: knowledge. Parent: amos-knowledge-rese
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: c5bc9037f1a03b85) for the full vault-sourced domain knowledge (8031 chars).
 
+## Operations
+
+1. **agent_native.search_corpus**: Search the corpus directly: retrieve relevant passages with provenance
+2. **agent_native.manage_artifact**: Manage research artifacts: create, version, and link to vault sources
+3. **agent_native.trace_footprint**: Trace agent storage footprint and optimize knowledge retention
+4. **agent_native.validate_epistemology**: Validate knowledge epistemology: source quality, freshness, and scope
+5. **agent_native.index_knowledge**: Index knowledge for rapid retrieval and cross-reference navigation
+6. **agent_native.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **agent_native.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **agent_native.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

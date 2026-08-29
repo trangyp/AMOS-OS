@@ -78,6 +78,16 @@ Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research
 - **kv_cache.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **kv_cache.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **kv_cache.analyze_paper**: Analyze arxiv papers: extract claims, methods, evidence, and limitations
+2. **kv_cache.classify_research**: Classify research by epistemic state: established, emerging, speculative, refuted
+3. **kv_cache.assess_reproducibility**: Assess reproducibility: can the results be independently verified?
+4. **kv_cache.trace_literature**: Trace literature chains: citations, dependencies, and influence networks
+5. **kv_cache.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **kv_cache.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **kv_cache.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/_arxiv_md/` (arxiv research papers indexed in the AMOS vault) (SOURCE_CLAIM)

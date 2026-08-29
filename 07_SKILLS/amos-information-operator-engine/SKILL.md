@@ -82,6 +82,16 @@ Origin architect: **Trang Phan**. Domain: info. Parent: amos-information-theory-
 - **information_operator.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **information_operator.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **information_operator.measure_entropy**: Measure entropy and lacunarity: information content, gaps, and structure
+2. **information_operator.analyze_topology**: Analyze information collapse topology: how information condenses and structures
+3. **information_operator.control_exposure**: Control information exposure: what is revealed, to whom, and under what conditions
+4. **information_operator.map_geometry**: Map information geometry: manifolds, distances, and projections in information space
+5. **information_operator.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **information_operator.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **information_operator.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `_00_Cosmo brain/amos-general/A/Universe/AMOS_UNIVERSE_OS_FULL_BUNDLE.md` (content_hash: c3aef595e3657ad7) (vault canon, SOURCE_CLAIM)

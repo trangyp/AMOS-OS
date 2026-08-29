@@ -86,6 +86,20 @@ AMOS C04 Bio & Neuro — NBI (Neurobiological Intelligence), NEI, BEI, SI, cell 
 - **c04_bio_neuro.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **c04_bio_neuro.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **c04_bio_neuro.apply_bio_model**: Apply AMOS C04 Bio & Neuro biological models: NBI, NEI, BEI, SI for cognitive architecture and fractal biology.
+2. **c04_bio_neuro.validate_bio**: Validate AMOS C04 Bio & Neuro bio claims for epistemic class, biological analogy vs empirical finding, and scope.
+3. **c04_bio_neuro.analyze_biological**: Analyze AMOS C04 Bio & Neuro biological systems: cell intelligence, genetics, neural networks, homeostasis.
+4. **c04_bio_neuro.trace_bio_provenance**: Trace AMOS C04 Bio & Neuro bio findings to vault sources, biological models, and neurobiological evidence.
+5. **c04_bio_neuro.assess_bio_claim**: Assess AMOS C04 Bio & Neuro bio claims for analogy vs empirical, evidence strength, and overclaim risk.
+6. **c04_bio_neuro.manage_bio_lifecycle**: Manage AMOS C04 Bio & Neuro bio lifecycle: model, analogize, validate, bridge to cognitive, and finalize.
+7. **c04_bio_neuro.detect_bio_drift**: Detect bio drift: analogy overclaim, scope creep, model-reality conflation, and evidence decay.
+8. **c04_bio_neuro.escalate_bio_gaps**: Escalate AMOS C04 Bio & Neuro bio gaps: flag overclaim, require empirical evidence, trigger scope correction.
+9. **c04_bio_neuro.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+10. **c04_bio_neuro.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+11. **c04_bio_neuro.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Consolidated Sub-Skills (44)
 
 This parent skill consolidates the following sub-skills. Each is a section within this domain:

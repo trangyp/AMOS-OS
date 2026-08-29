@@ -89,6 +89,17 @@ Origin architect: **Trang Phan**. Domain: security. Parent: amos-security-safety
 - **adversarial_entropy.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **adversarial_entropy.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **adversarial_entropy.detect_adversary**: Detect adversarial activity: attacks, probes, and manipulation attempts
+2. **adversarial_entropy.quantify_entropy**: Quantify adversarial entropy: uncertainty, information leakage, and attack surface
+3. **adversarial_entropy.govern_trust**: Govern principal-trust relationships: delegation, revocation, and audit
+4. **adversarial_entropy.monitor_attack**: Monitor distributed attack composition: multi-stage, multi-vector threats
+5. **adversarial_entropy.replay_provenance**: Replay execution provenance: trace and verify every action for integrity
+6. **adversarial_entropy.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **adversarial_entropy.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **adversarial_entropy.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `_00_Cosmo brain/misc/O/overlooked.md` (content_hash: eb91d778a79b4c6a) (vault canon, SOURCE_CLAIM)

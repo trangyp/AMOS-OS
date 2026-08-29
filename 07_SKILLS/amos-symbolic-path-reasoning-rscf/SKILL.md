@@ -92,6 +92,17 @@ Origin architect: **Trang Phan**. Domain: formal. Parent: amos-formal-engines-ma
 - **symbolic_path.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **symbolic_path.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **symbolic_path.verify_proof**: Verify formal proofs against axioms, inference rules, and consistency constraints
+2. **symbolic_path.check_soundness**: Check soundness and completeness of formal systems under test
+3. **symbolic_path.propagate_constraints**: Propagate constraints through the formal system and detect unsatisfiable cores
+4. **symbolic_path.validate_invariant**: Validate invariants hold under all specified operating conditions
+5. **symbolic_path.detect_contradiction**: Detect contradictions and derive minimal conflict explanations
+6. **symbolic_path.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **symbolic_path.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **symbolic_path.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

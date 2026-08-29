@@ -84,6 +84,15 @@ Origin architect: **Trang Phan**. Domain: super. Parent: amos-super-engines-mast
 - **cost_aware.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **cost_aware.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **cost_aware.supervise_test**: Supervise testing with cost-awareness: balance test coverage vs resource cost
+2. **cost_aware.transform_distinction**: Transform distinction-relation structures across scales and contexts
+3. **cost_aware.orchestrate_brain**: Orchestrate full brain OS: coordinate all cognitive engines as a unified system
+4. **cost_aware.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+5. **cost_aware.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+6. **cost_aware.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

@@ -81,6 +81,16 @@ Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 3b4e4de25dc53b00) for the full vault-sourced domain knowledge (6242 chars).
 
+## Operations
+
+1. **spatial_speech.analyze_paper**: Analyze arxiv papers: extract claims, methods, evidence, and limitations
+2. **spatial_speech.classify_research**: Classify research by epistemic state: established, emerging, speculative, refuted
+3. **spatial_speech.assess_reproducibility**: Assess reproducibility: can the results be independently verified?
+4. **spatial_speech.trace_literature**: Trace literature chains: citations, dependencies, and influence networks
+5. **spatial_speech.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **spatial_speech.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **spatial_speech.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

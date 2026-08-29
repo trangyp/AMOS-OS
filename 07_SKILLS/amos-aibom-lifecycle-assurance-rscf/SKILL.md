@@ -87,6 +87,17 @@ Origin architect: **Trang Phan**. Domain: rscf. Parent: amos-rscf-epistemic-mast
 - **aibom_lifecycle.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration
 - **aibom_lifecycle.validate_outputs**: Validate AIBOM outputs against domain constraints and epistemic class
 
+## Operations
+
+1. **aibom_lifecycle.classify_claim**: Classify claims by epistemic state (VERIFIED, DERIVED, MODEL, UNKNOWN/GAP) and bind to evidence
+2. **aibom_lifecycle.validate_evidence**: Validate evidence chains: provenance, freshness, scope, and regime validity
+3. **aibom_lifecycle.trace_provenance**: Trace output provenance to vault sources and tag with content_hash
+4. **aibom_lifecycle.assess_confidence**: Assess confidence ceiling based on epistemic class and evidence strength
+5. **aibom_lifecycle.detect_falsifier**: Detect falsifiers and downgrade confidence when counter-evidence emerges
+6. **aibom_lifecycle.manage_lifecycle**: Manage AIBOM lifecycle: classify, validate, trace, assess, detect
+7. **aibom_lifecycle.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration
+8. **aibom_lifecycle.validate_outputs**: Validate AIBOM outputs against domain constraints and epistemic class
+
 ## Vault-Sourced Content
 
 ### Source 1: Assurance, Debt Registers & Maturity Governance

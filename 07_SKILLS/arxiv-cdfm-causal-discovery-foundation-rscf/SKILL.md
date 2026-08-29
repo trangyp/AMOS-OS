@@ -79,6 +79,16 @@ Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research
 - **cdfm_causal.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **cdfm_causal.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **cdfm_causal.analyze_paper**: Analyze arxiv papers: extract claims, methods, evidence, and limitations
+2. **cdfm_causal.classify_research**: Classify research by epistemic state: established, emerging, speculative, refuted
+3. **cdfm_causal.assess_reproducibility**: Assess reproducibility: can the results be independently verified?
+4. **cdfm_causal.trace_literature**: Trace literature chains: citations, dependencies, and influence networks
+5. **cdfm_causal.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **cdfm_causal.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **cdfm_causal.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/_arxiv_md/` (arxiv research papers indexed in the AMOS vault) (SOURCE_CLAIM)

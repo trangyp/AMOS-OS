@@ -84,6 +84,15 @@ Origin architect: **Trang Phan**. Domain: c09. Parent: amos-c09-org-law-policy-m
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 56746d44e9bd524d) for the full vault-sourced domain knowledge (4646 chars).
 
+## Operations
+
+1. **trust_formation.govern_ethics**: Govern ethical decisions: principles, consequences, and procedural fairness
+2. **trust_formation.enforce_risk_constraint**: Enforce risk constraints: acceptable risk, risk budget, and risk escalation
+3. **trust_formation.assess_trust**: Assess trust formation: evidence, reputation, and accountability mechanisms
+4. **trust_formation.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+5. **trust_formation.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+6. **trust_formation.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `_00_Cosmo brain/amos-general/A/Universe/AMOS_UNIVERSE_CORE.md` (content_hash: 15f6a73982ed5a30) (vault canon, SOURCE_CLAIM)

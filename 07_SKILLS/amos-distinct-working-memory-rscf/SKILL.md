@@ -82,6 +82,16 @@ Origin architect: **Trang Phan**. Domain: memory. Parent: amos-memory-systems-ma
 - **distinct_working.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **distinct_working.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **distinct_working.manage_memory**: Manage memory: storage, retrieval, decay, and consolidation
+2. **distinct_working.resolve_conflict**: Resolve memory conflicts: contradictions, staleness, and priority
+3. **distinct_working.enforce_firewall**: Enforce memory firewall: prevent unauthorized access and tampering
+4. **distinct_working.track_dynamics**: Track memory dynamics: formation, consolidation, and forgetting curves
+5. **distinct_working.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **distinct_working.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **distinct_working.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Vault-Sourced Content
 
 ### Source 1: AGENT WORKING INSTRUCTIONS V3

@@ -84,6 +84,16 @@ Origin architect: **Trang Phan**. Domain: fx. Parent: amos-c07-econ-finance-mast
 - **carry_differential.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **carry_differential.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **carry_differential.calibrate_model**: Calibrate FX models: Bayesian neural SDEs, volatility surfaces, and term structures
+2. **carry_differential.assess_risk**: Assess FX risk: currency exposure, correlation breakdown, and tail events
+3. **carry_differential.backtest_strategy**: Backtest FX strategies: walk-forward, regime-aware, and stress-tested
+4. **carry_differential.monitor_regime**: Monitor FX regime shifts: volatility, correlation, and liquidity transitions
+5. **carry_differential.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **carry_differential.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **carry_differential.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `_00_Cosmo brain/misc/F/FOREX LOOPHOLES.md` (content_hash: 46b37b527f6fcbac) (vault canon, SOURCE_CLAIM)

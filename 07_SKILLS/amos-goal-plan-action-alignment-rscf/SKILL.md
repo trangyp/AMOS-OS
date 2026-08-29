@@ -88,6 +88,17 @@ Origin architect: **Trang Phan**. Domain: rscf. Parent: amos-rscf-epistemic-mast
 - **goal_plan.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **goal_plan.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **goal_plan.classify_claim**: Classify claims by epistemic state (VERIFIED, DERIVED, MODEL, UNKNOWN/GAP) and bind to evidence
+2. **goal_plan.validate_evidence**: Validate evidence chains: provenance, freshness, scope, and regime validity
+3. **goal_plan.trace_provenance**: Trace output provenance to vault sources and tag with content_hash
+4. **goal_plan.assess_confidence**: Assess confidence ceiling based on epistemic class and evidence strength
+5. **goal_plan.detect_falsifier**: Detect falsifiers and downgrade confidence when counter-evidence emerges
+6. **goal_plan.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **goal_plan.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **goal_plan.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

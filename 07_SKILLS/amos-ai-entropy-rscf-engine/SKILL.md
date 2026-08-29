@@ -82,6 +82,16 @@ Origin architect: **Trang Phan**. Domain: fractal. Parent: amos-fractal-systems-
 - **ai_entropy.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **ai_entropy.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **ai_entropy.analyze_fractal**: Analyze fractal structure: self-similarity, scale invariance, and recursion
+2. **ai_entropy.quantify_entropy**: Quantify AI entropy within fractal architectures: information vs disorder
+3. **ai_entropy.validate_equation**: Validate strict fractal equations against scale-invariance requirements
+4. **ai_entropy.map_biology**: Map human biology fractal patterns: branching, scaling, and self-organization
+5. **ai_entropy.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **ai_entropy.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **ai_entropy.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

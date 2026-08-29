@@ -81,6 +81,16 @@ Origin architect: **Trang Phan**. Domain: mckinsey. Parent: amos-c08-strategy-ga
 - **recruiting_workforce.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **recruiting_workforce.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **recruiting_workforce.assess_commercial**: Assess commercial due diligence: market, competitive position, and growth
+2. **recruiting_workforce.evaluate_credit**: Evaluate credit and lending: risk scoring, portfolio, and concentration
+3. **recruiting_workforce.analyze_banking**: Analyze banking CRM: customer lifetime value, retention, and cross-sell
+4. **recruiting_workforce.transfer_architecture**: Transfer architecture references: best practices across organizational contexts
+5. **recruiting_workforce.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **recruiting_workforce.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **recruiting_workforce.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

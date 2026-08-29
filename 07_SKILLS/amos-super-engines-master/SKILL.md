@@ -91,6 +91,20 @@ A parent skill with clearly labeled sections is better than 8 separate shallow s
 - **super_engines.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **super_engines.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **super_engines.design_inference_loop**: Execute the AMOS Super Engines governed perception-belief-action loop with evidence, uncertainty, authority, and safety bounds.
+2. **super_engines.validate_governance**: Validate AMOS Super Engines outputs against governance gates: constraint, authority, safety, policy, scope, evidence, reversibility.
+3. **super_engines.analyze_belief_state**: Analyze AMOS Super Engines belief state: competing hypotheses, uncertainty vector, prediction error, and evidence basis.
+4. **super_engines.trace_inference_provenance**: Trace AMOS Super Engines outputs to observations, evidence, prediction model, and RSCF provenance chain.
+5. **super_engines.assess_inference_claim**: Assess AMOS Super Engines claims for epistemic class (AMOS_MODEL not BIOLOGICAL_PROOF), evidence strength, and falsifier availability.
+6. **super_engines.manage_loop_lifecycle**: Manage AMOS Super Engines loop lifecycle: observe, infer, compare, generate, govern, select, act, measure, update, stop.
+7. **super_engines.detect_loop_drift**: Detect inference drift: goal drift, authority drift, proxy optimization, confirmation loop, and belief overconfidence.
+8. **super_engines.escalate_inference_gaps**: Escalate AMOS Super Engines gaps: FREEZE on unresolved validation, preserve competing hypotheses, trigger discriminating evidence.
+9. **super_engines.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+10. **super_engines.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+11. **super_engines.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Vault-Sourced Domain Knowledge
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS.md` (content_hash: 3c4ff0d94377f3fe) (vault canon, SOURCE_CLAIM)

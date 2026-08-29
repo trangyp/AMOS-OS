@@ -89,6 +89,18 @@ AMOS Security & Safety — adversarial robustness, privacy, safety firewalls, im
 - **security_safety.escalate_gaps**: Escalate AMOS Security & Safety memory gaps: flag UNKNOWN/GAP entries, quarantine untrusted data, trigger memory repair.
 - **security_safety.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **security_safety.evaluate_influence**: Evaluate whether memory may influence a pending action through the AMOS Security & Safety consent, provenance, and risk gates.
+2. **security_safety.validate_gates**: Validate AMOS Security & Safety decisions against hard partition gates, epistemic class preservation, and consent state requirements.
+3. **security_safety.analyze_state**: Analyze AMOS Security & Safety memory state: working, episodic, semantic stores, consolidation, and retrieval graph health.
+4. **security_safety.trace_provenance**: Trace AMOS Security & Safety memory entries to source, encoding operation, consolidation history, and field-level lineage.
+5. **security_safety.assess_claim**: Assess AMOS Security & Safety memory claims for epistemic class, freshness, contradiction status, and confidence ceiling.
+6. **security_safety.manage_lifecycle**: Manage AMOS Security & Safety lifecycle: encode, normalize, admit, consolidate, index, retrieve, filter, update.
+7. **security_safety.detect_drift**: Detect memory drift: stale entries, broken provenance, epistemic class erosion, and context discontinuity.
+8. **security_safety.escalate_gaps**: Escalate AMOS Security & Safety memory gaps: flag UNKNOWN/GAP entries, quarantine untrusted data, trigger memory repair.
+9. **security_safety.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Consolidated Sub-Skills (2)
 
 This parent skill consolidates the following sub-skills. Each is a section within this domain:

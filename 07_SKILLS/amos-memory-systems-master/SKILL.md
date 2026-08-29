@@ -86,6 +86,18 @@ AMOS Memory Systems — 3 memory types, context compaction, memory conflict reso
 - **memory_systems.escalate_gaps**: Escalate AMOS Memory Systems memory gaps: flag UNKNOWN/GAP entries, quarantine untrusted data, trigger memory repair.
 - **memory_systems.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **memory_systems.evaluate_influence**: Evaluate whether memory may influence a pending action through the AMOS Memory Systems consent, provenance, and risk gates.
+2. **memory_systems.validate_gates**: Validate AMOS Memory Systems decisions against hard partition gates, epistemic class preservation, and consent state requirements.
+3. **memory_systems.analyze_state**: Analyze AMOS Memory Systems memory state: working, episodic, semantic stores, consolidation, and retrieval graph health.
+4. **memory_systems.trace_provenance**: Trace AMOS Memory Systems memory entries to source, encoding operation, consolidation history, and field-level lineage.
+5. **memory_systems.assess_claim**: Assess AMOS Memory Systems memory claims for epistemic class, freshness, contradiction status, and confidence ceiling.
+6. **memory_systems.manage_lifecycle**: Manage AMOS Memory Systems lifecycle: encode, normalize, admit, consolidate, index, retrieve, filter, update.
+7. **memory_systems.detect_drift**: Detect memory drift: stale entries, broken provenance, epistemic class erosion, and context discontinuity.
+8. **memory_systems.escalate_gaps**: Escalate AMOS Memory Systems memory gaps: flag UNKNOWN/GAP entries, quarantine untrusted data, trigger memory repair.
+9. **memory_systems.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Consolidated Sub-Skills (3)
 
 This parent skill consolidates the following sub-skills. Each is a section within this domain:

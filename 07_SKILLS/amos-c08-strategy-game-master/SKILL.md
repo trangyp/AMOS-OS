@@ -85,6 +85,20 @@ AMOS C08 Strategy & Game — MECE decomposition, hypothesis-first investigation,
 - **c08_strategy_game.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **c08_strategy_game.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **c08_strategy_game.decompose_strategy**: Decompose AMOS C08 Strategy & Game strategic problems using MECE and hypothesis-first investigation.
+2. **c08_strategy_game.validate_strategy**: Validate AMOS C08 Strategy & Game strategic assumptions for hidden dependencies, circular reasoning, and RSCF compliance.
+3. **c08_strategy_game.analyze_game**: Analyze AMOS C08 Strategy & Game game equilibria: Nash solutions, coalition formation, and bargaining outcomes.
+4. **c08_strategy_game.trace_strategy_provenance**: Trace AMOS C08 Strategy & Game strategic findings to game models, equilibrium analysis, and vault sources.
+5. **c08_strategy_game.assess_strategy_claim**: Assess AMOS C08 Strategy & Game strategic claims for assumption validity, evidence strength, and scope.
+6. **c08_strategy_game.manage_strategy_lifecycle**: Manage AMOS C08 Strategy & Game strategy lifecycle: frame, decompose, analyze, validate, and finalize.
+7. **c08_strategy_game.detect_strategy_drift**: Detect strategy drift: assumption invalidation, regime change, equilibrium shift, and evidence decay.
+8. **c08_strategy_game.escalate_strategy_gaps**: Escalate AMOS C08 Strategy & Game strategy gaps: flag invalid assumptions, require new analysis, trigger repair.
+9. **c08_strategy_game.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+10. **c08_strategy_game.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+11. **c08_strategy_game.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Consolidated Sub-Skills (31)
 
 This parent skill consolidates the following sub-skills. Each is a section within this domain:

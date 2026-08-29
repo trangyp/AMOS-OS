@@ -103,3 +103,49 @@ Follow-up scan expanded the candidate pool with five additional high-value repos
 Raw capture: [[SOTA_AGENT_SKILL_WORKFLOW_REPOS_2026_08_29]]
 
 **Confidence ceiling:** 0.80 (derived from README claims; not independently benchmarked).
+
+## 2026-08-29 | SkillNet deep-dive
+
+Read the `main` branch README of `zjunlp/SkillNet` and mapped it to AMOS operations.
+
+### Verified shape
+
+- PyPI package: `skillnet-ai` (Python 3.10+, MIT).
+- CLI + Python SDK.
+- Public skill search/install are credential-free.
+- Requires `API_KEY`, `BASE_URL`, `SKILLNET_MODEL` for create/evaluate/analyze/orchestrate.
+- Optional extras: `skillnet-ai[graph]` and `skillnet-ai[orchestrate]`.
+
+### Integration points for AMOS
+
+1. **Skill discovery → `amos-skill-builder` / `07_SKILLS`**
+   - Use `skillnet search <intent>` and `skillnet download <url>` to find public skills that AMOS has not yet ingested.
+   - Feed downloaded `SKILL.md` files into `skill-check` and the RSCF canonicalizer before adding them to the vault.
+
+2. **Skill evaluation → `skill-check` and guardrails**
+   - SkillNet scores safety, completeness, executability, maintainability, and cost awareness.
+   - AMOS can map these dimensions to H/M/L and `rscf.state` before promoting a skill.
+
+3. **Skill graph / composition → `amos-routing-audit` and `amos-workflow-runner`**
+   - `skillnet analyze` returns `compose_with` and `depend_on` relationships.
+   - These can augment AMOS workflow dependencies and agent capability bindings.
+
+4. **Orchestration → `amos-agent-orchestrator` and `amos-workflow-runner`**
+   - `skillnet orchestrate` returns a selected skill set and a downstream agent prompt.
+   - AMOS could use this as an external handoff generator for tasks where no local skill is optimal.
+
+5. **MCP integration → `amos-mcp-connector` (if it exists) or new skill**
+   - SkillNet has an MCP server; a new `amos-skillnet-mcp` skill could let AMOS agents query it at runtime.
+
+### Open questions / gaps
+
+- The 500K+ skill count is an unverified README claim.
+- `orchestrate` currently supports only the `sciatlas` scene in the first release.
+- Cost/evaluation scoring methodology is not detailed in the README.
+- License is MIT, but each downloaded skill may have its own license — AMOS must scan per-skill licenses before ingestion.
+
+### Recommended next step
+
+Clone a small SkillNet skill (e.g., a `pdf` or `rag` skill) and run the AMOS `skill-check` + `skill_rscf_canonicalizer` pipeline on it as an end-to-end ingestion trial.
+
+Raw source: [[SKILLNET_README_2026_08_29]]

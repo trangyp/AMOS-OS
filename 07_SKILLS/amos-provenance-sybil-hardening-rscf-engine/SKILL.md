@@ -87,6 +87,17 @@ Origin architect: **Trang Phan**. Domain: security. Parent: amos-security-safety
 - **provenance_sybil.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **provenance_sybil.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **provenance_sybil.detect_adversary**: Detect adversarial activity: attacks, probes, and manipulation attempts
+2. **provenance_sybil.quantify_entropy**: Quantify adversarial entropy: uncertainty, information leakage, and attack surface
+3. **provenance_sybil.govern_trust**: Govern principal-trust relationships: delegation, revocation, and audit
+4. **provenance_sybil.monitor_attack**: Monitor distributed attack composition: multi-stage, multi-vector threats
+5. **provenance_sybil.replay_provenance**: Replay execution provenance: trace and verify every action for integrity
+6. **provenance_sybil.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **provenance_sybil.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **provenance_sybil.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Vault-Sourced Content
 
 ### Source 1: v3.7.1 — Provenance Topology Hardened Runtime

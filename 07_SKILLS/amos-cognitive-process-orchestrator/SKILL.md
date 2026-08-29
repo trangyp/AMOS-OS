@@ -83,6 +83,16 @@ Origin architect: **Trang Phan**. Domain: c05. Parent: amos-c05-mind-behavior-ma
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 17b6beae69565d78) for the full vault-sourced domain knowledge (7950 chars).
 
+## Operations
+
+1. **cognitive_process.model_cognition**: Model cognitive processes: attention, awareness, compression, and inference
+2. **cognitive_process.allocate_attention**: Allocate attention resources across competing demands and priorities
+3. **cognitive_process.assess_awareness**: Assess awareness levels: meta-cognition, self-monitoring, and calibration
+4. **cognitive_process.govern_expression**: Govern artistic and emotional expression within healthy bounds
+5. **cognitive_process.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **cognitive_process.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **cognitive_process.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

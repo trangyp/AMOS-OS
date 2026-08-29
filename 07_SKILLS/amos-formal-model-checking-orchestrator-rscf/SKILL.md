@@ -92,6 +92,17 @@ Origin architect: **Trang Phan**. Domain: formal. Parent: amos-formal-engines-ma
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 3b8cda71d0e63885) for the full vault-sourced domain knowledge (4701 chars).
 
+## Operations
+
+1. **formal_model.verify_proof**: Verify formal proofs against axioms, inference rules, and consistency constraints
+2. **formal_model.check_soundness**: Check soundness and completeness of formal systems under test
+3. **formal_model.propagate_constraints**: Propagate constraints through the formal system and detect unsatisfiable cores
+4. **formal_model.validate_invariant**: Validate invariants hold under all specified operating conditions
+5. **formal_model.detect_contradiction**: Detect contradictions and derive minimal conflict explanations
+6. **formal_model.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **formal_model.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **formal_model.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

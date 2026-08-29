@@ -88,6 +88,17 @@ Origin architect: **Trang Phan**. Domain: rscf. Parent: amos-rscf-epistemic-mast
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 9f21dc805f413fbb) for the full vault-sourced domain knowledge (8028 chars).
 
+## Operations
+
+1. **mark_operator.classify_claim**: Classify claims by epistemic state (VERIFIED, DERIVED, MODEL, UNKNOWN/GAP) and bind to evidence
+2. **mark_operator.validate_evidence**: Validate evidence chains: provenance, freshness, scope, and regime validity
+3. **mark_operator.trace_provenance**: Trace output provenance to vault sources and tag with content_hash
+4. **mark_operator.assess_confidence**: Assess confidence ceiling based on epistemic class and evidence strength
+5. **mark_operator.detect_falsifier**: Detect falsifiers and downgrade confidence when counter-evidence emerges
+6. **mark_operator.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **mark_operator.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **mark_operator.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

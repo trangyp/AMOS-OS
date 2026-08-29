@@ -90,6 +90,17 @@ Origin architect: **Trang Phan**. Domain: canon. Parent: amos-canon-universe-mas
 - **canon_compiler.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **canon_compiler.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **canon_compiler.compile_canon**: Compile canonical structure from sources into a consistent, navigable canon
+2. **canon_compiler.check_consistency**: Check canon consistency: no contradictions, no gaps, no orphan references
+3. **canon_compiler.enforce_invariant**: Enforce canon invariants: structural laws that must hold across all parts
+4. **canon_compiler.navigate_canon**: Navigate canon: locate the canonical part for any topic or query
+5. **canon_compiler.validate_substrate**: Validate canonical software substrate against canon requirements
+6. **canon_compiler.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **canon_compiler.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **canon_compiler.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Cosmo Brain Vault Content
 
 > **Source**: `_00_Cosmo brain/amos-general/A/Universe/AMOS_UNIVERSE_OS_FULL_BUNDLE.md` (content_hash: c3aef595e3657ad7, 3166758 bytes) (vault canon, SOURCE_CLAIM)

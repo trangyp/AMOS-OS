@@ -85,6 +85,16 @@ Origin architect: **Trang Phan**. Domain: causal. Parent: amos-causal-reasoning-
 - **distributed_causal.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **distributed_causal.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **distributed_causal.validate_abstraction**: Validate causal abstraction: does the higher-level model preserve causal structure?
+2. **distributed_causal.enforce_closure**: Enforce causal closure: every effect must have a sufficient cause within the system
+3. **distributed_causal.govern_hierarchy**: Govern causal hierarchy: direct, distributed, delayed, and cascading causes
+4. **distributed_causal.reason_counterfactual**: Reason counterfactually: what would happen under alternative interventions
+5. **distributed_causal.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **distributed_causal.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **distributed_causal.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `_00_Cosmo brain/amos-general/A/CORE/AMOS_CORE v3.4.1 -- Distributed Causal Evolution Runtime.md` (content_hash: fa45f5b18b536485) (vault canon, SOURCE_CLAIM)

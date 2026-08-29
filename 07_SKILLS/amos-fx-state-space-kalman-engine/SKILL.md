@@ -84,6 +84,16 @@ Origin architect: **Trang Phan**. Domain: fx. Parent: amos-c07-econ-finance-mast
 - **state_space.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **state_space.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **state_space.calibrate_model**: Calibrate FX models: Bayesian neural SDEs, volatility surfaces, and term structures
+2. **state_space.assess_risk**: Assess FX risk: currency exposure, correlation breakdown, and tail events
+3. **state_space.backtest_strategy**: Backtest FX strategies: walk-forward, regime-aware, and stress-tested
+4. **state_space.monitor_regime**: Monitor FX regime shifts: volatility, correlation, and liquidity transitions
+5. **state_space.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **state_space.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **state_space.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_C07_ECON_FINANCE_MASTER_KNOWLEDGE.md` (content_hash: afc81525bb75994d) (vault canon, SOURCE_CLAIM)

@@ -80,6 +80,16 @@ Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research
 - **sparse_autoencoder.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **sparse_autoencoder.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **sparse_autoencoder.analyze_paper**: Analyze arxiv papers: extract claims, methods, evidence, and limitations
+2. **sparse_autoencoder.classify_research**: Classify research by epistemic state: established, emerging, speculative, refuted
+3. **sparse_autoencoder.assess_reproducibility**: Assess reproducibility: can the results be independently verified?
+4. **sparse_autoencoder.trace_literature**: Trace literature chains: citations, dependencies, and influence networks
+5. **sparse_autoencoder.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **sparse_autoencoder.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **sparse_autoencoder.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

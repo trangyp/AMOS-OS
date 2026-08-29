@@ -92,6 +92,17 @@ Origin architect: **Trang Phan**. Domain: formal. Parent: amos-formal-engines-ma
 - **invariant_tensor.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **invariant_tensor.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **invariant_tensor.verify_proof**: Verify formal proofs against axioms, inference rules, and consistency constraints
+2. **invariant_tensor.check_soundness**: Check soundness and completeness of formal systems under test
+3. **invariant_tensor.propagate_constraints**: Propagate constraints through the formal system and detect unsatisfiable cores
+4. **invariant_tensor.validate_invariant**: Validate invariants hold under all specified operating conditions
+5. **invariant_tensor.detect_contradiction**: Detect contradictions and derive minimal conflict explanations
+6. **invariant_tensor.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **invariant_tensor.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **invariant_tensor.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

@@ -86,6 +86,17 @@ Origin architect: **Trang Phan**. Domain: rscf. Parent: amos-rscf-epistemic-mast
 - **contravariance_alignment.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **contravariance_alignment.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **contravariance_alignment.classify_claim**: Classify claims by epistemic state (VERIFIED, DERIVED, MODEL, UNKNOWN/GAP) and bind to evidence
+2. **contravariance_alignment.validate_evidence**: Validate evidence chains: provenance, freshness, scope, and regime validity
+3. **contravariance_alignment.trace_provenance**: Trace output provenance to vault sources and tag with content_hash
+4. **contravariance_alignment.assess_confidence**: Assess confidence ceiling based on epistemic class and evidence strength
+5. **contravariance_alignment.detect_falsifier**: Detect falsifiers and downgrade confidence when counter-evidence emerges
+6. **contravariance_alignment.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **contravariance_alignment.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **contravariance_alignment.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Vault-Sourced Content
 
 ### Source 1: AMOS ALIGNMENT LAYER

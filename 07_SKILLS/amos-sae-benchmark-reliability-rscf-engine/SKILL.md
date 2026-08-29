@@ -87,6 +87,17 @@ Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-maste
 - **sae_benchmark.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **sae_benchmark.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **sae_benchmark.audit_claim**: Audit claims against evidence, provenance, and epistemic class
+2. **sae_benchmark.detect_gap**: Detect gaps: missing capabilities, missing evidence, missing tests, missing monitors
+3. **sae_benchmark.allocate_repair**: Allocate repair resources to highest-leverage gaps and failure modes
+4. **sae_benchmark.verify_closure**: Verify gap closure: requirement → capability → component → test → evidence
+5. **sae_benchmark.benchmark_forensics**: Benchmark forensic analysis: trace performance regressions to root causes
+6. **sae_benchmark.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **sae_benchmark.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **sae_benchmark.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Vault-Sourced Content
 
 ### Source 3: v4.1 — Transactional Multi-RSCF Runtime

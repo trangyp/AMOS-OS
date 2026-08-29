@@ -101,6 +101,13 @@ The `_00_Cosmo brain` exploration explicitly identified this gap: *"Emotion ↔ 
 ---
 **Links:** [[07_SKILLS_MOC]]
 
+## Operations
+
+1. **ecd_bridge.route_by_emotion**: Route a reasoning task to the appropriate C01 cognitive mode based on C05's 5-axis emotion state. High `risk_alert` → conservative/defensive mode; high `curiosity_focus` → exploratory mode; high `confiden...
+2. **ecd_bridge.gate_emotion_influence**: Gate emotion influence when crossing from C05 into C01/C10. Enforces the invariant: emotion may bias prioritization and tone, NEVER facts or logic. Returns PERMITTED_INFLUENCE list (pacing, verbosit...
+3. **ecd_bridge.unify_decision_style**: Unify C05's decision style ordering (integrity > correctness > completeness > fluency > speed) with C10's technical trade-off resolution and C01's meta-logic decision gates. Produces a single ordered...
+4. **ecd_bridge.assess_risk_combined**: Combine C
+
 ## Related
 
 - [[amos-emotion-cognition-decision-bridge-governor_MOC]]

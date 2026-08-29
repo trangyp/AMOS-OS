@@ -84,6 +84,16 @@ Origin architect: **Trang Phan**. Domain: fx. Parent: amos-c07-econ-finance-mast
 - **rough_heston.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **rough_heston.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **rough_heston.calibrate_model**: Calibrate FX models: Bayesian neural SDEs, volatility surfaces, and term structures
+2. **rough_heston.assess_risk**: Assess FX risk: currency exposure, correlation breakdown, and tail events
+3. **rough_heston.backtest_strategy**: Backtest FX strategies: walk-forward, regime-aware, and stress-tested
+4. **rough_heston.monitor_regime**: Monitor FX regime shifts: volatility, correlation, and liquidity transitions
+5. **rough_heston.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **rough_heston.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **rough_heston.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

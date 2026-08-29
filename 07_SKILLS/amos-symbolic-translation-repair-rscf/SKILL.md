@@ -89,6 +89,17 @@ Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-maste
 - **symbolic_translation.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **symbolic_translation.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **symbolic_translation.audit_claim**: Audit claims against evidence, provenance, and epistemic class
+2. **symbolic_translation.detect_gap**: Detect gaps: missing capabilities, missing evidence, missing tests, missing monitors
+3. **symbolic_translation.allocate_repair**: Allocate repair resources to highest-leverage gaps and failure modes
+4. **symbolic_translation.verify_closure**: Verify gap closure: requirement → capability → component → test → evidence
+5. **symbolic_translation.benchmark_forensics**: Benchmark forensic analysis: trace performance regressions to root causes
+6. **symbolic_translation.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **symbolic_translation.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **symbolic_translation.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

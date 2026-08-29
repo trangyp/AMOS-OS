@@ -87,6 +87,16 @@ Origin architect: **Trang Phan**. Domain: causal. Parent: amos-causal-reasoning-
 - **counterfactual_selfhood.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **counterfactual_selfhood.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **counterfactual_selfhood.validate_abstraction**: Validate causal abstraction: does the higher-level model preserve causal structure?
+2. **counterfactual_selfhood.enforce_closure**: Enforce causal closure: every effect must have a sufficient cause within the system
+3. **counterfactual_selfhood.govern_hierarchy**: Govern causal hierarchy: direct, distributed, delayed, and cascading causes
+4. **counterfactual_selfhood.reason_counterfactual**: Reason counterfactually: what would happen under alternative interventions
+5. **counterfactual_selfhood.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **counterfactual_selfhood.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **counterfactual_selfhood.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

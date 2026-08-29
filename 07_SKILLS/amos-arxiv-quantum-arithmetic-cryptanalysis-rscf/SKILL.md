@@ -80,6 +80,16 @@ Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: df64dd163366d786) for the full vault-sourced domain knowledge (6242 chars).
 
+## Operations
+
+1. **quantum_arithmetic.analyze_paper**: Analyze arxiv papers: extract claims, methods, evidence, and limitations
+2. **quantum_arithmetic.classify_research**: Classify research by epistemic state: established, emerging, speculative, refuted
+3. **quantum_arithmetic.assess_reproducibility**: Assess reproducibility: can the results be independently verified?
+4. **quantum_arithmetic.trace_literature**: Trace literature chains: citations, dependencies, and influence networks
+5. **quantum_arithmetic.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **quantum_arithmetic.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **quantum_arithmetic.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

@@ -84,6 +84,20 @@ AMOS C12 Earth & Ecology — climate, environment, hydro energy, EV infrastructu
 - **c12_earth_ecology.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **c12_earth_ecology.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **c12_earth_ecology.execute_engineering**: Execute AMOS C12 Earth & Ecology engineering design: software architecture, system implementation with fractal principles.
+2. **c12_earth_ecology.validate_architecture**: Validate AMOS C12 Earth & Ecology technical architecture for integrity, scalability, maintainability, and invariants.
+3. **c12_earth_ecology.analyze_code**: Analyze AMOS C12 Earth & Ecology code quality: design patterns, implementation correctness, and provenance requirements.
+4. **c12_earth_ecology.trace_tech_provenance**: Trace AMOS C12 Earth & Ecology technical outputs to design specs, code sources, and engineering standards.
+5. **c12_earth_ecology.assess_tech_claim**: Assess AMOS C12 Earth & Ecology technical claims for architecture validity, test coverage, and compliance.
+6. **c12_earth_ecology.manage_tech_lifecycle**: Manage AMOS C12 Earth & Ecology engineering lifecycle: design, implement, test, deploy, and maintain.
+7. **c12_earth_ecology.detect_tech_drift**: Detect technical drift: architecture decay, code degradation, test erosion, and dependency rot.
+8. **c12_earth_ecology.escalate_tech_gaps**: Escalate AMOS C12 Earth & Ecology technical gaps: flag architecture violations, require refactoring, trigger repair.
+9. **c12_earth_ecology.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+10. **c12_earth_ecology.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+11. **c12_earth_ecology.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Consolidated Sub-Skills (29)
 
 This parent skill consolidates the following sub-skills. Each is a section within this domain:

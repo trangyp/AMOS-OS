@@ -88,6 +88,15 @@ Skill for maintaining an LLM-managed, compounding knowledge wiki inside the AMOS
 - `wiki.log`: Append structured entries to `LLM_WIKI_LOG`
 - `wiki.clip`: Convert a web source into a raw-source markdown file ready for ingest
 
+## Operations
+
+1. `wiki.ingest`: Read a raw source and integrate it into the wiki
+2. `wiki.query`: Answer questions from the wiki and optionally file the answer
+3. `wiki.lint`: Health-check the wiki and flag issues
+4. `wiki.index`: Maintain `LLM_WIKI_INDEX` content catalog
+5. `wiki.log`: Append structured entries to `LLM_WIKI_LOG`
+6. `wiki.clip`: Convert a web source into a raw-source markdown file ready for ingest
+
 ## Validation Gates
 
 - **L0 Integrity**: Raw sources remain unmodified; only wiki files are edited

@@ -86,6 +86,16 @@ Origin architect: **Trang Phan**. Domain: agent. Parent: amos-agent-systems-mast
 - **agency_consequence.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **agency_consequence.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **agency_consequence.govern_agency**: Govern agency: who acts, under what authority, with what consequences
+2. **agency_consequence.design_externalization**: Design agent externalization: what is delegated, to whom, with what controls
+3. **agency_consequence.attribute_ownership**: Attribute agent ownership: who is responsible for each agent action
+4. **agency_consequence.verify_agentic**: Verify agentic skill-lie algebroid: structural consistency of agent capabilities
+5. **agency_consequence.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **agency_consequence.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **agency_consequence.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `_00_Cosmo brain/trang/TRANG FRAMEWORKS — MASTER EQUATION REGISTRY.md` (content_hash: 6f749d1b25d230d2) (vault canon, SOURCE_CLAIM)

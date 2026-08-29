@@ -86,6 +86,16 @@ Origin architect: **Trang Phan**. Domain: agent. Parent: amos-agent-systems-mast
 - **skill_creator.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **skill_creator.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **skill_creator.govern_agency**: Govern agency: who acts, under what authority, with what consequences
+2. **skill_creator.design_externalization**: Design agent externalization: what is delegated, to whom, with what controls
+3. **skill_creator.attribute_ownership**: Attribute agent ownership: who is responsible for each agent action
+4. **skill_creator.verify_agentic**: Verify agentic skill-lie algebroid: structural consistency of agent capabilities
+5. **skill_creator.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **skill_creator.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **skill_creator.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

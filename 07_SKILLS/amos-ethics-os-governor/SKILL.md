@@ -86,6 +86,17 @@ Origin architect: **Trang Phan**. Domain: c09. Parent: amos-c09-org-law-policy-m
 - **ethics.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **ethics.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **ethics.govern_ethics**: Govern ethical decisions: principles, consequences, and procedural fairness
+2. **ethics.enforce_risk_constraint**: Enforce risk constraints: acceptable risk, risk budget, and risk escalation
+3. **ethics.assess_trust**: Assess trust formation: evidence, reputation, and accountability mechanisms
+4. **ethics.evaluate_action**: Evaluate action impact across 6 ethical integrity axes
+5. **ethics.classify_decision**: Classify ethical decisions: ALLOW, CONDITIONAL, or BLOCK
+6. **ethics.detect_drift**: Detect drift in ethical policy, axis weights, or threshold calibration
+7. **ethics.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+8. **ethics.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Vault-Sourced Domain Knowledge
 
 > **Source**: `_00_Cosmo brain/amos-general/A/CORE/AMOS_CORE - FULL.md` (content_hash: 70a3efa841e64e65) (vault canon, SOURCE_CLAIM)

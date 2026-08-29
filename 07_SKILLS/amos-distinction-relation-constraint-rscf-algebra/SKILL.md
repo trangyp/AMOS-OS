@@ -91,6 +91,17 @@ Origin architect: **Trang Phan**. Domain: formal. Parent: amos-formal-engines-ma
 - **distinction_relation.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **distinction_relation.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **distinction_relation.verify_proof**: Verify formal proofs against axioms, inference rules, and consistency constraints
+2. **distinction_relation.check_soundness**: Check soundness and completeness of formal systems under test
+3. **distinction_relation.propagate_constraints**: Propagate constraints through the formal system and detect unsatisfiable cores
+4. **distinction_relation.validate_invariant**: Validate invariants hold under all specified operating conditions
+5. **distinction_relation.detect_contradiction**: Detect contradictions and derive minimal conflict explanations
+6. **distinction_relation.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **distinction_relation.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **distinction_relation.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

@@ -89,6 +89,17 @@ Origin architect: **Trang Phan**. Domain: c10. Parent: amos-c10-tech-engineering
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 7a3758dbe7acda29) for the full vault-sourced domain knowledge (7696 chars).
 
+## Operations
+
+1. **infrastructure_control.analyze_architecture**: Analyze software architecture: patterns, dependencies, coupling, cohesion
+2. **infrastructure_control.discover_program**: Discover program behavior: black-box analysis, symbolic execution, fuzzing
+3. **infrastructure_control.verify_code_facts**: Verify code facts: type safety, memory safety, termination, complexity
+4. **infrastructure_control.optimize_performance**: Optimize performance: profiling, bottleneck analysis, and resource tuning
+5. **infrastructure_control.enforce_bounds**: Enforce bounded code: resource limits, time limits, and capability limits
+6. **infrastructure_control.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **infrastructure_control.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **infrastructure_control.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `_00_Cosmo brain/dated/2026-08-25/2026-08-25 AMOS_Full_Brain_OS_CANON.md` (content_hash: 90a45dc5960eaa0e) (vault canon, SOURCE_CLAIM)

@@ -90,6 +90,17 @@ Origin architect: **Trang Phan**. Domain: formal. Parent: amos-formal-engines-ma
 - **ghost_code.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **ghost_code.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **ghost_code.verify_proof**: Verify formal proofs against axioms, inference rules, and consistency constraints
+2. **ghost_code.check_soundness**: Check soundness and completeness of formal systems under test
+3. **ghost_code.propagate_constraints**: Propagate constraints through the formal system and detect unsatisfiable cores
+4. **ghost_code.validate_invariant**: Validate invariants hold under all specified operating conditions
+5. **ghost_code.detect_contradiction**: Detect contradictions and derive minimal conflict explanations
+6. **ghost_code.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **ghost_code.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **ghost_code.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `_00_Cosmo brain/audit/REAL_CODE_VERIFICATION_COMPLETE.md` (content_hash: 5b9bdbb82bfbbcc5) (vault canon, SOURCE_CLAIM)

@@ -88,6 +88,17 @@ Origin architect: **Trang Phan**. Domain: runtime. Parent: amos-os-runtime-maste
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: fdd6514d733facae) for the full vault-sourced domain knowledge (7991 chars).
 
+## Operations
+
+1. **os.monitor_stability**: Monitor runtime stability: drift, oscillation, divergence, and regime transitions
+2. **os.calibrate_feedback**: Calibrate feedback control loops to maintain stable operating conditions
+3. **os.decompose_primitive**: Decompose complex operations into primitive, atomic, verifiable steps
+4. **os.align_drift**: Align AI drift back to authorized operating envelope when deviation is detected
+5. **os.enforce_closed_loop**: Enforce closed-loop learning: every output feeds back into the next iteration
+6. **os.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **os.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **os.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `_00_Cosmo brain/amos-general/0/00_AMOS_Full_Brain_OS_Architecture.md` (content_hash: b7acbb430dff829e) (vault canon, SOURCE_CLAIM)

@@ -89,6 +89,17 @@ Origin architect: **Trang Phan**. Domain: c10. Parent: amos-c10-tech-engineering
 - **constructive_metamorphic.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **constructive_metamorphic.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **constructive_metamorphic.analyze_architecture**: Analyze software architecture: patterns, dependencies, coupling, cohesion
+2. **constructive_metamorphic.discover_program**: Discover program behavior: black-box analysis, symbolic execution, fuzzing
+3. **constructive_metamorphic.verify_code_facts**: Verify code facts: type safety, memory safety, termination, complexity
+4. **constructive_metamorphic.optimize_performance**: Optimize performance: profiling, bottleneck analysis, and resource tuning
+5. **constructive_metamorphic.enforce_bounds**: Enforce bounded code: resource limits, time limits, and capability limits
+6. **constructive_metamorphic.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **constructive_metamorphic.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **constructive_metamorphic.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

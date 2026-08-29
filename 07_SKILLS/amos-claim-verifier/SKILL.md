@@ -89,6 +89,17 @@ Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-maste
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 6b68ea4d10bd5a2d) for the full vault-sourced domain knowledge (7115 chars).
 
+## Operations
+
+1. **claim_verifier.audit_claim**: Audit claims against evidence, provenance, and epistemic class
+2. **claim_verifier.detect_gap**: Detect gaps: missing capabilities, missing evidence, missing tests, missing monitors
+3. **claim_verifier.allocate_repair**: Allocate repair resources to highest-leverage gaps and failure modes
+4. **claim_verifier.verify_closure**: Verify gap closure: requirement → capability → component → test → evidence
+5. **claim_verifier.benchmark_forensics**: Benchmark forensic analysis: trace performance regressions to root causes
+6. **claim_verifier.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **claim_verifier.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **claim_verifier.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `_00_Cosmo brain/amos-general/A/Vortical/AMOS_Vortical_Persistence_Deep_RSCF_Architecture.md` (content_hash: f9b18a9e22c3fb1d) (vault canon, SOURCE_CLAIM)

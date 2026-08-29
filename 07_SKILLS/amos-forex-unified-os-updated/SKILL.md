@@ -84,6 +84,17 @@ Origin architect: **Trang Phan**. Domain: fx. Parent: amos-c07-econ-finance-mast
 - **forex_unified_upd.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **forex_unified_upd.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **forex_unified_upd.calibrate_model**: Calibrate FX models: Bayesian neural SDEs, volatility surfaces, and term structures
+2. **forex_unified_upd.assess_risk**: Assess FX risk: currency exposure, correlation breakdown, and tail events
+3. **forex_unified_upd.backtest_strategy**: Backtest FX strategies: walk-forward, regime-aware, and stress-tested
+4. **forex_unified_upd.monitor_regime**: Monitor FX regime shifts: volatility, correlation, and liquidity transitions
+5. **forex_unified_upd.classify_regime**: Classify FX regime: stable, transitioning, volatile, stressed, crisis
+6. **forex_unified_upd.detect_drift**: Detect drift in FX models, regime classification, or risk metrics
+7. **forex_unified_upd.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+8. **forex_unified_upd.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_C07_ECON_FINANCE_MASTER_KNOWLEDGE.md` (content_hash: afc81525bb75994d) (vault canon, SOURCE_CLAIM)

@@ -78,6 +78,16 @@ Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research
 - **geometric_causal.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **geometric_causal.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **geometric_causal.analyze_paper**: Analyze arxiv papers: extract claims, methods, evidence, and limitations
+2. **geometric_causal.classify_research**: Classify research by epistemic state: established, emerging, speculative, refuted
+3. **geometric_causal.assess_reproducibility**: Assess reproducibility: can the results be independently verified?
+4. **geometric_causal.trace_literature**: Trace literature chains: citations, dependencies, and influence networks
+5. **geometric_causal.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **geometric_causal.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **geometric_causal.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/_arxiv_md/` (arxiv research papers indexed in the AMOS vault) (SOURCE_CLAIM)

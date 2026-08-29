@@ -90,6 +90,17 @@ Origin architect: **Trang Phan**. Domain: canon. Parent: amos-canon-universe-mas
 - **reality_simulation.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **reality_simulation.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **reality_simulation.compile_canon**: Compile canonical structure from sources into a consistent, navigable canon
+2. **reality_simulation.check_consistency**: Check canon consistency: no contradictions, no gaps, no orphan references
+3. **reality_simulation.enforce_invariant**: Enforce canon invariants: structural laws that must hold across all parts
+4. **reality_simulation.navigate_canon**: Navigate canon: locate the canonical part for any topic or query
+5. **reality_simulation.validate_substrate**: Validate canonical software substrate against canon requirements
+6. **reality_simulation.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **reality_simulation.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **reality_simulation.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_C03_PHYSICS_COSMOS_MASTER_KNOWLEDGE.md` (content_hash: 4c2c6462c7ab1d23) (vault canon, SOURCE_CLAIM)

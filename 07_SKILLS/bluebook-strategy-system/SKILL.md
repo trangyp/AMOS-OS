@@ -86,6 +86,16 @@ Origin architect: **Trang Phan**. Domain: c08. Parent: amos-c08-strategy-game-ma
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: f9cbc6e87c4f6bff) for the full vault-sourced domain knowledge (5576 chars).
 
+## Operations
+
+1. **strategy.analyze_strategy**: Analyze strategic position: competitive landscape, game-theoretic equilibrium
+2. **strategy.evaluate_decision**: Evaluate decisions under uncertainty: expected value, regret, risk-adjusted return
+3. **strategy.model_game**: Model game-theoretic interactions: players, strategies, payoffs, equilibria
+4. **strategy.assess_risk**: Assess strategic risk: downside scenarios, adversarial responses, black swans
+5. **strategy.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **strategy.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **strategy.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_C08_STRATEGY_GAME_MASTER_KNOWLEDGE.md` (content_hash: 4b676ad6f9ca020f) (vault canon, SOURCE_CLAIM)

@@ -83,6 +83,16 @@ Origin architect: **Trang Phan**. Domain: memory. Parent: amos-memory-systems-ma
 - **memory.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **memory.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **memory.evaluate_influence_request**: Evaluate a memory-influence request against the 13-axis coupling tensor (action, tool, parameter, memory_id, memory_type, source_context, destination_context, personalizable, consent_state, stakes,...
+2. **memory.enforce_hard_gates**: Enforce hard partition gates: DATA_FLOW != AUTHORITY_FLOW, EVIDENCE_FLOW != EFFECT_PERMISSION, TOOL_OUTPUT != ACCEPTED_KNOWLEDGE, MODEL_PROPOSAL != COMMITTED_ACTION. Block memory influence that crosses acti...
+3. **memory.preserve_epistemic_class**: Preserve epistemic class through memory operations: SOURCE_CLAIM, OBSERVATION, DERIVED, MODEL, DECISION survive storage unchanged; modality, negation, quantifiers, and correlation-vs-cause distinction...
+4. **memory.manage_consent_and_reversibility**: Manage consent state (EXPLICIT_CURRENT, EXPLICIT_PERSISTENT, IMPLIED, ABSENT, REVOKED) and reversibility for memory-influenced actions. Require current confirmation when stakes are high or con...
+5. **memory.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **memory.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **memory.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Cosmo Brain Vault Content
 
 > **Source**: `_00_Cosmo brain/kernel/A/AMOS_Automation_Kernel_v0_Tech_Systems7_3.md` (content_hash: 43ddb346762b4ad8, 843967 bytes) (vault canon, SOURCE_CLAIM)

@@ -89,6 +89,17 @@ Origin architect: **Trang Phan**. Domain: runtime. Parent: amos-os-runtime-maste
 - **cosmo_human.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **cosmo_human.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **cosmo_human.monitor_stability**: Monitor runtime stability: drift, oscillation, divergence, and regime transitions
+2. **cosmo_human.calibrate_feedback**: Calibrate feedback control loops to maintain stable operating conditions
+3. **cosmo_human.decompose_primitive**: Decompose complex operations into primitive, atomic, verifiable steps
+4. **cosmo_human.align_drift**: Align AI drift back to authorized operating envelope when deviation is detected
+5. **cosmo_human.enforce_closed_loop**: Enforce closed-loop learning: every output feeds back into the next iteration
+6. **cosmo_human.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **cosmo_human.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **cosmo_human.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_C05_MIND_BEHAVIOR_MASTER_KNOWLEDGE.md` (content_hash: e3ca4951a743518b) (vault canon, SOURCE_CLAIM)

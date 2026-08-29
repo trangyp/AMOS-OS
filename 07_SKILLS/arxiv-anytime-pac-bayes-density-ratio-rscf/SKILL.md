@@ -81,6 +81,16 @@ Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research
 - **anytime_pac.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **anytime_pac.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **anytime_pac.analyze_paper**: Analyze arxiv papers: extract claims, methods, evidence, and limitations
+2. **anytime_pac.classify_research**: Classify research by epistemic state: established, emerging, speculative, refuted
+3. **anytime_pac.assess_reproducibility**: Assess reproducibility: can the results be independently verified?
+4. **anytime_pac.trace_literature**: Trace literature chains: citations, dependencies, and influence networks
+5. **anytime_pac.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **anytime_pac.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **anytime_pac.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

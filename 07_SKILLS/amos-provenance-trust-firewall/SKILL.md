@@ -89,6 +89,17 @@ Origin architect: **Trang Phan**. Domain: security. Parent: amos-security-safety
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 737938b28246ae22) for the full vault-sourced domain knowledge (7602 chars).
 
+## Operations
+
+1. **provenance_trust.detect_adversary**: Detect adversarial activity: attacks, probes, and manipulation attempts
+2. **provenance_trust.quantify_entropy**: Quantify adversarial entropy: uncertainty, information leakage, and attack surface
+3. **provenance_trust.govern_trust**: Govern principal-trust relationships: delegation, revocation, and audit
+4. **provenance_trust.monitor_attack**: Monitor distributed attack composition: multi-stage, multi-vector threats
+5. **provenance_trust.replay_provenance**: Replay execution provenance: trace and verify every action for integrity
+6. **provenance_trust.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **provenance_trust.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **provenance_trust.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `_00_Cosmo brain/dated/2026-08-22/2026-08-22 Cognitive Substrate Reality Gate.md` (content_hash: 2c93bdf31c3481c7) (vault canon, SOURCE_CLAIM)

@@ -89,6 +89,17 @@ Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-maste
 - **reality_meta.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **reality_meta.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **reality_meta.audit_claim**: Audit claims against evidence, provenance, and epistemic class
+2. **reality_meta.detect_gap**: Detect gaps: missing capabilities, missing evidence, missing tests, missing monitors
+3. **reality_meta.allocate_repair**: Allocate repair resources to highest-leverage gaps and failure modes
+4. **reality_meta.verify_closure**: Verify gap closure: requirement → capability → component → test → evidence
+5. **reality_meta.benchmark_forensics**: Benchmark forensic analysis: trace performance regressions to root causes
+6. **reality_meta.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **reality_meta.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **reality_meta.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_C01_META_LOGIC_MASTER_KNOWLEDGE.md` (content_hash: ff5575df755d7e25) (vault canon, SOURCE_CLAIM)

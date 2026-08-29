@@ -84,6 +84,16 @@ Origin architect: **Trang Phan**. Domain: fx. Parent: amos-c07-econ-finance-mast
 - **quantile_distribution.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **quantile_distribution.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **quantile_distribution.calibrate_model**: Calibrate FX models: Bayesian neural SDEs, volatility surfaces, and term structures
+2. **quantile_distribution.assess_risk**: Assess FX risk: currency exposure, correlation breakdown, and tail events
+3. **quantile_distribution.backtest_strategy**: Backtest FX strategies: walk-forward, regime-aware, and stress-tested
+4. **quantile_distribution.monitor_regime**: Monitor FX regime shifts: volatility, correlation, and liquidity transitions
+5. **quantile_distribution.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **quantile_distribution.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **quantile_distribution.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

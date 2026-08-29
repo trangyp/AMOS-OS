@@ -89,6 +89,17 @@ Origin architect: **Trang Phan**. Domain: c10. Parent: amos-c10-tech-engineering
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 869de7474d39fa78) for the full vault-sourced domain knowledge (6462 chars).
 
+## Operations
+
+1. **docx.parse_document**: Parse .docx files: extract text, tables, styles, headers, footers, and metadata
+2. **docx.validate_structure**: Validate document structure against OOXML schema and content integrity
+3. **docx.extract_content**: Extract structured content: paragraphs, runs, tables, images, hyperlinks
+4. **docx.generate_document**: Generate .docx files from structured content with proper styling and formatting
+5. **docx.track_provenance**: Track provenance of document content to source sections and transformations
+6. **docx.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **docx.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **docx.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_C10_TECH_ENGINEERING_MASTER_KNOWLEDGE.md` (content_hash: f23d35766fe766bc) (vault canon, SOURCE_CLAIM)

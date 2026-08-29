@@ -84,6 +84,16 @@ Origin architect: **Trang Phan**. Domain: c06. Parent: amos-c06-society-culture-
 - **heritage_decision.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **heritage_decision.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **heritage_decision.analyze_social**: Analyze emergent social intelligence: norms, networks, and cultural dynamics
+2. **heritage_decision.model_heritage**: Model heritage decision intelligence: tradition, continuity, and adaptation
+3. **heritage_decision.assess_language**: Assess language as equation: semantic structure, pragmatic force, and drift
+4. **heritage_decision.evaluate_pattern**: Evaluate heritage pattern claims: statistical validity, sample size, p-value
+5. **heritage_decision.detect_drift**: Detect drift in heritage patterns, cultural cycles, or evidence freshness
+6. **heritage_decision.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **heritage_decision.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Vault-Sourced Domain Knowledge
 
 > **Source**: `_00_Cosmo brain/misc/H/HERITAGE INTELLIGENCE™.md` (content_hash: 290290a4d8df047c) (vault canon, SOURCE_CLAIM)

@@ -88,6 +88,17 @@ Origin architect: **Trang Phan**. Domain: rscf. Parent: amos-rscf-epistemic-mast
 - **gradient_architecture.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **gradient_architecture.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **gradient_architecture.classify_claim**: Classify claims by epistemic state (VERIFIED, DERIVED, MODEL, UNKNOWN/GAP) and bind to evidence
+2. **gradient_architecture.validate_evidence**: Validate evidence chains: provenance, freshness, scope, and regime validity
+3. **gradient_architecture.trace_provenance**: Trace output provenance to vault sources and tag with content_hash
+4. **gradient_architecture.assess_confidence**: Assess confidence ceiling based on epistemic class and evidence strength
+5. **gradient_architecture.detect_falsifier**: Detect falsifiers and downgrade confidence when counter-evidence emerges
+6. **gradient_architecture.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **gradient_architecture.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **gradient_architecture.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

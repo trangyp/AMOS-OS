@@ -84,6 +84,17 @@ Origin architect: **Trang Phan**. Domain: knowledge. Parent: amos-knowledge-rese
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: d13ba2328adc6f64) for the full vault-sourced domain knowledge (7366 chars).
 
+## Operations
+
+1. **knowledge_harvest.search_corpus**: Search the corpus directly: retrieve relevant passages with provenance
+2. **knowledge_harvest.manage_artifact**: Manage research artifacts: create, version, and link to vault sources
+3. **knowledge_harvest.trace_footprint**: Trace agent storage footprint and optimize knowledge retention
+4. **knowledge_harvest.validate_epistemology**: Validate knowledge epistemology: source quality, freshness, and scope
+5. **knowledge_harvest.index_knowledge**: Index knowledge for rapid retrieval and cross-reference navigation
+6. **knowledge_harvest.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **knowledge_harvest.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **knowledge_harvest.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `_00_Cosmo brain/misc/K/KNOWLEDGE_HARVEST.md` (content_hash: ebf6cf9c8fcd5127) (vault canon, SOURCE_CLAIM)

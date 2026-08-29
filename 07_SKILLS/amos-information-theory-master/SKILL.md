@@ -81,6 +81,17 @@ Origin architect: **Trang Phan**. Domain: information. Parent: none. Epistemic c
 - **info_theory.classify_claim**: Classify information-theoretic claims by epistemic state (VERIFIED, DERIVED, MODEL, UNKNOWN/GAP)
 - **info_theory.validate_outputs**: Validate information theory outputs against domain constraints and epistemic class
 
+## Operations
+
+1. **info_theory.measure_entropy**: Measure Shannon entropy, conditional entropy, and mutual information for distributions and signals
+2. **info_theory.analyze_complexity**: Analyze Kolmogorov complexity, computational complexity, and information-theoretic complexity bounds
+3. **info_theory.map_boundaries**: Map information boundaries: exposure control, information collapse topology, and information geometry
+4. **info_theory.assess_claim**: Assess information theory claims for epistemic class, evidence strength, and regime validity
+5. **info_theory.manage_lifecycle**: Manage information theory lifecycle: measure, analyze, map, validate, and govern
+6. **info_theory.detect_drift**: Detect drift in entropy measurements, complexity bounds, or information boundary consistency
+7. **info_theory.classify_claim**: Classify information-theoretic claims by epistemic state (VERIFIED, DERIVED, MODEL, UNKNOWN/GAP)
+8. **info_theory.validate_outputs**: Validate information theory outputs against domain constraints and epistemic class
+
 ## Vault-Sourced Domain Knowledge
 
 > **Sources**: `_00_Cosmo brain/misc/E/ENTROPY_LACUNARITY.md` (content_hash: a859135f66fe21d5), `_00_Cosmo brain/architecture/ai_entropy_architecture 2.md` (content_hash: 3b09ceb0cbe19fda) (vault canon, SOURCE_CLAIM)

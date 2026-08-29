@@ -82,6 +82,18 @@ AMOS OS & Runtime — OS Kernel v4.4, runtime pipeline (Perceive→Route→Admit
 - **os_runtime.escalate_gaps**: Escalate AMOS OS & Runtime audit gaps: flag CRITICAL gaps, prioritize repair allocation, trigger bounded recovery.
 - **os_runtime.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **os_runtime.execute_recovery**: Execute AMOS OS & Runtime failure recovery: detect failure, diagnose root cause, apply repair, verify recovery.
+2. **os_runtime.validate_quality**: Validate AMOS OS & Runtime outputs against validation gates, equation firewall, golden ratio, and integrity requirements.
+3. **os_runtime.discover_gaps**: Discover knowledge gaps using AMOS OS & Runtime gap discovery engine, completion graph, and unknown-unknown registry.
+4. **os_runtime.trace_provenance**: Trace AMOS OS & Runtime findings to test results, integrity scans, gap registry, and validation gate outputs.
+5. **os_runtime.assess_claim**: Assess AMOS OS & Runtime audit claims for severity, scope, evidence strength, and repair priority.
+6. **os_runtime.manage_lifecycle**: Manage AMOS OS & Runtime audit lifecycle: scan, detect, classify, allocate repair, verify, and document.
+7. **os_runtime.detect_drift**: Detect audit drift: test count drift, gap regression, integrity degradation, and validation gate erosion.
+8. **os_runtime.escalate_gaps**: Escalate AMOS OS & Runtime audit gaps: flag CRITICAL gaps, prioritize repair allocation, trigger bounded recovery.
+9. **os_runtime.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Consolidated Sub-Skills (141)
 
 This parent skill consolidates the following sub-skills. Each is a section within this domain:

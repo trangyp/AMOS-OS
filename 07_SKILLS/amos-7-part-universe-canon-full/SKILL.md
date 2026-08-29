@@ -92,6 +92,16 @@ Origin architect: **Trang Phan**. Domain: canon. Parent: amos-canon-universe-mas
 - **canon.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **canon.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **canon.apply_seven_part_test**: Apply the 7-question canon test (Constraint, Flow, Structure, Enforcement, Time, Adaptation, Termination) to verify structural coverage of a target system. Failure to answer all seven = structural invalid...
+2. **canon.enforce_epistemic_firewall**: Enforce the canon/model/evidence separation: SOURCE_CANON is not EMPIRICAL_LAW, structural mapping is not causal proof, cross-domain analogy is not mechanism, all-seven-present is not system-true.
+3. **canon.map_persistence_functions**: Map a target system to the seven persistence functions (Constraint, Flow, Structure, Enforcement, Time, Adaptation, Termination) and identify which parts are present, sharpened, or missing.
+4. **canon.validate_canon_invariants**: Validate that all canon claims maintain hard invariants: SOURCE_CANON != EMPIRICAL_LAW, STRUCTURAL_MAPPING != CAUSAL_PROOF, FORMAL_ELEGANCE != VALIDATION.
+5. **canon.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **canon.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **canon.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Cosmo Brain Vault Content
 
 > **Source**: `_00_Cosmo brain/quantum/Quantum_Omega_Brain_Self_Analysis_7PT_Canon.md` (content_hash: 2e893dc7e8b77f4b, 17787 bytes) (vault canon, SOURCE_CLAIM)

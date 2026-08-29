@@ -89,6 +89,17 @@ Origin architect: **Trang Phan**. Domain: c10. Parent: amos-c10-tech-engineering
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 93110ff385770697) for the full vault-sourced domain knowledge (6462 chars).
 
+## Operations
+
+1. **spreadsheets.parse_workbook**: Parse spreadsheet files (.xlsx/.csv): extract sheets, cells, formulas, and named ranges
+2. **spreadsheets.validate_structure**: Validate workbook structure: cell references, formula syntax, and data type consistency
+3. **spreadsheets.extract_data**: Extract structured data: tables, pivot tables, charts, and conditional formatting
+4. **spreadsheets.generate_workbook**: Generate spreadsheets from structured data with formulas, formatting, and charts
+5. **spreadsheets.track_provenance**: Track provenance of cell data to source sheets and transformation formulas
+6. **spreadsheets.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **spreadsheets.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **spreadsheets.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_C10_TECH_ENGINEERING_MASTER_KNOWLEDGE.md` (content_hash: f23d35766fe766bc) (vault canon, SOURCE_CLAIM)

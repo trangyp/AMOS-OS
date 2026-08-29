@@ -89,6 +89,17 @@ Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-maste
 - **measurement_integrity.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **measurement_integrity.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **measurement_integrity.audit_claim**: Audit claims against evidence, provenance, and epistemic class
+2. **measurement_integrity.detect_gap**: Detect gaps: missing capabilities, missing evidence, missing tests, missing monitors
+3. **measurement_integrity.allocate_repair**: Allocate repair resources to highest-leverage gaps and failure modes
+4. **measurement_integrity.verify_closure**: Verify gap closure: requirement → capability → component → test → evidence
+5. **measurement_integrity.benchmark_forensics**: Benchmark forensic analysis: trace performance regressions to root causes
+6. **measurement_integrity.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **measurement_integrity.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **measurement_integrity.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `_00_Cosmo brain/amos-general/A/Collapse/AMOS Collapse-Space Coverage Audit.md` (content_hash: 8a6e8edc4d87f23a) (vault canon, SOURCE_CLAIM)

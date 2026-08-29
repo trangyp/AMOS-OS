@@ -83,6 +83,16 @@ Origin architect: **Trang Phan**. Domain: fractal. Parent: amos-fractal-systems-
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 66e052a4f7b27637) for the full vault-sourced domain knowledge (4630 chars).
 
+## Operations
+
+1. **fractal_math.analyze_fractal**: Analyze fractal structure: self-similarity, scale invariance, and recursion
+2. **fractal_math.quantify_entropy**: Quantify AI entropy within fractal architectures: information vs disorder
+3. **fractal_math.validate_equation**: Validate strict fractal equations against scale-invariance requirements
+4. **fractal_math.map_biology**: Map human biology fractal patterns: branching, scaling, and self-organization
+5. **fractal_math.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **fractal_math.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **fractal_math.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_C03_PHYSICS_COSMOS_MASTER_KNOWLEDGE.md` (content_hash: 4c2c6462c7ab1d23) (vault canon, SOURCE_CLAIM)

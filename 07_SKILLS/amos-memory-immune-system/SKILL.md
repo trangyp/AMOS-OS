@@ -83,6 +83,17 @@ Origin architect: **Trang Phan**. Domain: memory. Parent: amos-memory-systems-ma
 - **memory_immune.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **memory_immune.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **memory_immune.manage_memory**: Manage memory: storage, retrieval, decay, and consolidation
+2. **memory_immune.resolve_conflict**: Resolve memory conflicts: contradictions, staleness, and priority
+3. **memory_immune.enforce_firewall**: Enforce memory firewall: prevent unauthorized access and tampering
+4. **memory_immune.track_dynamics**: Track memory dynamics: formation, consolidation, and forgetting curves
+5. **memory_immune.assess_integrity**: Assess immune system integrity: activation, threat, recovery capacity
+6. **memory_immune.detect_drift**: Detect drift in memory integrity, conflict patterns, or firewall coverage
+7. **memory_immune.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+8. **memory_immune.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `_00_Cosmo brain/biology-ubi/ubi_immune_integrity.md` (content_hash: 54ac59182b01e57a) (vault canon, SOURCE_CLAIM)

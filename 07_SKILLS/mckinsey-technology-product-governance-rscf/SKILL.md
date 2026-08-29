@@ -81,6 +81,16 @@ Origin architect: **Trang Phan**. Domain: mckinsey. Parent: amos-c08-strategy-ga
 - **technology_product.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **technology_product.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **technology_product.assess_commercial**: Assess commercial due diligence: market, competitive position, and growth
+2. **technology_product.evaluate_credit**: Evaluate credit and lending: risk scoring, portfolio, and concentration
+3. **technology_product.analyze_banking**: Analyze banking CRM: customer lifetime value, retention, and cross-sell
+4. **technology_product.transfer_architecture**: Transfer architecture references: best practices across organizational contexts
+5. **technology_product.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **technology_product.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **technology_product.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

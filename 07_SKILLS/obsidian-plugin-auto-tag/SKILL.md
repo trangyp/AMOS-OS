@@ -80,6 +80,16 @@ Origin architect: **Trang Phan**. Domain: knowledge. Parent: amos-knowledge-rese
 
 > **Reference**: See `references/vault_domain_knowledge.md` for full vault-sourced plugin documentation.
 
+## Operations
+
+1. **auto_tag.generate_tags**: Generate relevant tags for a note or selected text using the Auto Tag plugin
+2. **auto_tag.update_frontmatter**: Insert generated tags into the note's YAML frontmatter `tags` list
+3. **auto_tag.normalize_format**: Normalize tag format (kebab-case, snake_case, camelCase, PascalCase)
+4. **auto_tag.detect_language**: Return tags in the detected language of the note
+5. **auto_tag.preview**: Preview suggested tags before committing them to the note
+6. **auto_tag.validate_scope**: Ensure suggested tags are within the note's declared canon/knowledge scope
+7. **auto_tag.fix_formatting**: Co-fixer for common formatting issues that accompany tagging (fence markers, whitespace)
+
 ## Vault-Sourced Domain Knowledge
 
 > **Source**: `references/vault_domain_knowledge.md`

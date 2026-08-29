@@ -92,6 +92,20 @@ Origin architect: **Trang Phan**. Domain: causal. Parent: none. Epistemic class:
 - **causal_reason.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **causal_reason.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **causal_reason.analyze_causal**: Analyze AMOS Causal Reasoning causal hierarchy: observation, intervention, counterfactual, and causal closure.
+2. **causal_reason.validate_causal**: Validate AMOS Causal Reasoning causal claims for identification, confounder control, and causal gate compliance.
+3. **causal_reason.apply_intervention**: Apply AMOS Causal Reasoning causal intervention analysis: do-calculus, effect estimation, and counterfactual mapping.
+4. **causal_reason.trace_causal_provenance**: Trace AMOS Causal Reasoning causal findings to observational data, intervention records, and counterfactual models.
+5. **causal_reason.assess_causal_claim**: Assess AMOS Causal Reasoning causal claims for identification type, evidence strength, and mechanism vs correlation.
+6. **causal_reason.manage_causal_lifecycle**: Manage AMOS Causal Reasoning causal lifecycle: observe, hypothesize, test, intervene, validate, and finalize.
+7. **causal_reason.detect_causal_drift**: Detect causal drift: confounder emergence, regime change, causal chain break, and effect decay.
+8. **causal_reason.escalate_causal_gaps**: Escalate AMOS Causal Reasoning causal gaps: flag unconfirmed causality, require discriminating test, trigger analysis.
+9. **causal_reason.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+10. **causal_reason.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+11. **causal_reason.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Vault-Sourced Domain Knowledge
 
 > **Sources**: `_00_Cosmo brain/misc/CA/causal.md` (content_hash: 6035054c7197da54), `_00_Cosmo brain/misc/CA/CAUSAL_FIREWALL.md` (content_hash: f71dae4c4d3e7ba6) (vault canon, SOURCE_CLAIM)

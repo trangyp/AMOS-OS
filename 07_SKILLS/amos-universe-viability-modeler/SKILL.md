@@ -90,6 +90,17 @@ Origin architect: **Trang Phan**. Domain: canon. Parent: amos-canon-universe-mas
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: e03cad8ab8a9d16a) for the full vault-sourced domain knowledge (8097 chars).
 
+## Operations
+
+1. **universe_viability.compile_canon**: Compile canonical structure from sources into a consistent, navigable canon
+2. **universe_viability.check_consistency**: Check canon consistency: no contradictions, no gaps, no orphan references
+3. **universe_viability.enforce_invariant**: Enforce canon invariants: structural laws that must hold across all parts
+4. **universe_viability.navigate_canon**: Navigate canon: locate the canonical part for any topic or query
+5. **universe_viability.validate_substrate**: Validate canonical software substrate against canon requirements
+6. **universe_viability.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **universe_viability.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **universe_viability.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `_00_Cosmo brain/trang/Khung trang.md` (content_hash: 314ed5686de64eef) (vault canon, SOURCE_CLAIM)

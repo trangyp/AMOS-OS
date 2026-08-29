@@ -81,6 +81,16 @@ Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research
 - **grapheval_reasoning.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **grapheval_reasoning.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **grapheval_reasoning.analyze_paper**: Analyze arxiv papers: extract claims, methods, evidence, and limitations
+2. **grapheval_reasoning.classify_research**: Classify research by epistemic state: established, emerging, speculative, refuted
+3. **grapheval_reasoning.assess_reproducibility**: Assess reproducibility: can the results be independently verified?
+4. **grapheval_reasoning.trace_literature**: Trace literature chains: citations, dependencies, and influence networks
+5. **grapheval_reasoning.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **grapheval_reasoning.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **grapheval_reasoning.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

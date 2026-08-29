@@ -84,6 +84,15 @@ Origin architect: **Trang Phan**. Domain: c06. Parent: amos-c06-society-culture-
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 275c3a3ed3327fdb) for the full vault-sourced domain knowledge (8170 chars).
 
+## Operations
+
+1. **emergent_social.analyze_social**: Analyze emergent social intelligence: norms, networks, and cultural dynamics
+2. **emergent_social.model_heritage**: Model heritage decision intelligence: tradition, continuity, and adaptation
+3. **emergent_social.assess_language**: Assess language as equation: semantic structure, pragmatic force, and drift
+4. **emergent_social.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+5. **emergent_social.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+6. **emergent_social.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

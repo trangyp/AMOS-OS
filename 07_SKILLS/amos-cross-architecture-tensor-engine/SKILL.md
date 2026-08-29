@@ -92,6 +92,17 @@ Origin architect: **Trang Phan**. Domain: formal. Parent: amos-formal-engines-ma
 - **cross_architecture.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **cross_architecture.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **cross_architecture.verify_proof**: Verify formal proofs against axioms, inference rules, and consistency constraints
+2. **cross_architecture.check_soundness**: Check soundness and completeness of formal systems under test
+3. **cross_architecture.propagate_constraints**: Propagate constraints through the formal system and detect unsatisfiable cores
+4. **cross_architecture.validate_invariant**: Validate invariants hold under all specified operating conditions
+5. **cross_architecture.detect_contradiction**: Detect contradictions and derive minimal conflict explanations
+6. **cross_architecture.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **cross_architecture.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **cross_architecture.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `_00_Cosmo brain/trang/trang_amos_reality_architecture_master_max_detail.md` (content_hash: da2bc7dc1c2ceeeb) (vault canon, SOURCE_CLAIM)

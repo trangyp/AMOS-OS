@@ -92,6 +92,20 @@ Origin architect: **Trang Phan**. Domain: c10. Parent: none. Epistemic class: SO
 - **c10_tech_engine.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **c10_tech_engine.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **c10_tech_engine.execute_engineering**: Execute AMOS C10 Tech & Engineering engineering design: software architecture, system implementation with fractal principles.
+2. **c10_tech_engine.validate_architecture**: Validate AMOS C10 Tech & Engineering technical architecture for integrity, scalability, maintainability, and invariants.
+3. **c10_tech_engine.analyze_code**: Analyze AMOS C10 Tech & Engineering code quality: design patterns, implementation correctness, and provenance requirements.
+4. **c10_tech_engine.trace_tech_provenance**: Trace AMOS C10 Tech & Engineering technical outputs to design specs, code sources, and engineering standards.
+5. **c10_tech_engine.assess_tech_claim**: Assess AMOS C10 Tech & Engineering technical claims for architecture validity, test coverage, and compliance.
+6. **c10_tech_engine.manage_tech_lifecycle**: Manage AMOS C10 Tech & Engineering engineering lifecycle: design, implement, test, deploy, and maintain.
+7. **c10_tech_engine.detect_tech_drift**: Detect technical drift: architecture decay, code degradation, test erosion, and dependency rot.
+8. **c10_tech_engine.escalate_tech_gaps**: Escalate AMOS C10 Tech & Engineering technical gaps: flag architecture violations, require refactoring, trigger repair.
+9. **c10_tech_engine.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+10. **c10_tech_engine.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+11. **c10_tech_engine.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Vault-Sourced Domain Knowledge
 
 > **Source**: `11_KNOWLEDGE/AMOS_C10_TECH_ENGINEERING_MASTER_KNOWLEDGE.md` (content_hash: f23d35766fe766bc) (vault canon, SOURCE_CLAIM)

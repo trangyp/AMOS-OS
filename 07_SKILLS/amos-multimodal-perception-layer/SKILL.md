@@ -83,6 +83,16 @@ Origin architect: **Trang Phan**. Domain: c05. Parent: amos-c05-mind-behavior-ma
 - **multimodal_perception.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **multimodal_perception.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **multimodal_perception.model_cognition**: Model cognitive processes: attention, awareness, compression, and inference
+2. **multimodal_perception.allocate_attention**: Allocate attention resources across competing demands and priorities
+3. **multimodal_perception.assess_awareness**: Assess awareness levels: meta-cognition, self-monitoring, and calibration
+4. **multimodal_perception.govern_expression**: Govern artistic and emotional expression within healthy bounds
+5. **multimodal_perception.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **multimodal_perception.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **multimodal_perception.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `_00_Cosmo brain/amos-general/A/Universe/AMOS_UNIVERSE_OS_FULL_BUNDLE.md` (content_hash: c3aef595e3657ad7) (vault canon, SOURCE_CLAIM)

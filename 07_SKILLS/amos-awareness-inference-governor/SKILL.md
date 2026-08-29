@@ -83,6 +83,16 @@ Origin architect: **Trang Phan**. Domain: c05. Parent: amos-c05-mind-behavior-ma
 - **awareness_inference.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **awareness_inference.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **awareness_inference.model_cognition**: Model cognitive processes: attention, awareness, compression, and inference
+2. **awareness_inference.allocate_attention**: Allocate attention resources across competing demands and priorities
+3. **awareness_inference.assess_awareness**: Assess awareness levels: meta-cognition, self-monitoring, and calibration
+4. **awareness_inference.govern_expression**: Govern artistic and emotional expression within healthy bounds
+5. **awareness_inference.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **awareness_inference.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **awareness_inference.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_C05_MIND_BEHAVIOR_MASTER_KNOWLEDGE.md` (content_hash: e3ca4951a743518b) (vault canon, SOURCE_CLAIM)

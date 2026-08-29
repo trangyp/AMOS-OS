@@ -89,6 +89,17 @@ Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-maste
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 308a3432feb5f1b0) for the full vault-sourced domain knowledge (5553 chars).
 
+## Operations
+
+1. **metacognitive_confidence.audit_claim**: Audit claims against evidence, provenance, and epistemic class
+2. **metacognitive_confidence.detect_gap**: Detect gaps: missing capabilities, missing evidence, missing tests, missing monitors
+3. **metacognitive_confidence.allocate_repair**: Allocate repair resources to highest-leverage gaps and failure modes
+4. **metacognitive_confidence.verify_closure**: Verify gap closure: requirement → capability → component → test → evidence
+5. **metacognitive_confidence.benchmark_forensics**: Benchmark forensic analysis: trace performance regressions to root causes
+6. **metacognitive_confidence.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **metacognitive_confidence.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **metacognitive_confidence.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `_00_Cosmo brain/cognitive/Metacognitive.md` (content_hash: 156abe467cfa7744) (vault canon, SOURCE_CLAIM)

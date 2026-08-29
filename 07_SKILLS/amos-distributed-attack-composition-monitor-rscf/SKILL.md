@@ -88,6 +88,17 @@ Origin architect: **Trang Phan**. Domain: security. Parent: amos-security-safety
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 5573d6db382d9d77) for the full vault-sourced domain knowledge (4796 chars).
 
+## Operations
+
+1. **distributed_attack.detect_adversary**: Detect adversarial activity: attacks, probes, and manipulation attempts
+2. **distributed_attack.quantify_entropy**: Quantify adversarial entropy: uncertainty, information leakage, and attack surface
+3. **distributed_attack.govern_trust**: Govern principal-trust relationships: delegation, revocation, and audit
+4. **distributed_attack.monitor_attack**: Monitor distributed attack composition: multi-stage, multi-vector threats
+5. **distributed_attack.replay_provenance**: Replay execution provenance: trace and verify every action for integrity
+6. **distributed_attack.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **distributed_attack.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **distributed_attack.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

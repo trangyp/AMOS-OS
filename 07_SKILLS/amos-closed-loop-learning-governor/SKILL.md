@@ -89,6 +89,17 @@ Origin architect: **Trang Phan**. Domain: runtime. Parent: amos-os-runtime-maste
 - **closed_loop.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **closed_loop.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **closed_loop.monitor_stability**: Monitor runtime stability: drift, oscillation, divergence, and regime transitions
+2. **closed_loop.calibrate_feedback**: Calibrate feedback control loops to maintain stable operating conditions
+3. **closed_loop.decompose_primitive**: Decompose complex operations into primitive, atomic, verifiable steps
+4. **closed_loop.align_drift**: Align AI drift back to authorized operating envelope when deviation is detected
+5. **closed_loop.enforce_closed_loop**: Enforce closed-loop learning: every output feeds back into the next iteration
+6. **closed_loop.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **closed_loop.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **closed_loop.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_C05_MIND_BEHAVIOR_MASTER_KNOWLEDGE.md` (content_hash: e3ca4951a743518b) (vault canon, SOURCE_CLAIM)

@@ -86,6 +86,17 @@ Origin architect: **Trang Phan**. Domain: c08. Parent: amos-c08-strategy-game-ma
 - **gmef_governance.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **gmef_governance.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **gmef_governance.analyze_strategy**: Analyze strategic position: competitive landscape, game-theoretic equilibrium
+2. **gmef_governance.evaluate_decision**: Evaluate decisions under uncertainty: expected value, regret, risk-adjusted return
+3. **gmef_governance.model_game**: Model game-theoretic interactions: players, strategies, payoffs, equilibria
+4. **gmef_governance.assess_risk**: Assess strategic risk: downside scenarios, adversarial responses, black swans
+5. **gmef_governance.classify_mutation**: Classify evolution mutations (M0-M5) and enforce mutation permission profiles
+6. **gmef_governance.detect_drift**: Detect governance drift: scope creep, authority decay, or constitutional boundary erosion
+7. **gmef_governance.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+8. **gmef_governance.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Vault-Sourced Domain Knowledge
 
 > **Source**: `_00_Cosmo brain/misc/G/GMEF.md` (content_hash: 136e7ab44d48b155) (vault canon, SOURCE_CLAIM)

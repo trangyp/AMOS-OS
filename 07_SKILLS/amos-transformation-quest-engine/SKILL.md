@@ -84,6 +84,15 @@ Origin architect: **Trang Phan**. Domain: super. Parent: amos-super-engines-mast
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: ecee19d8c23a69f6) for the full vault-sourced domain knowledge (5454 chars).
 
+## Operations
+
+1. **transformation_quest.supervise_test**: Supervise testing with cost-awareness: balance test coverage vs resource cost
+2. **transformation_quest.transform_distinction**: Transform distinction-relation structures across scales and contexts
+3. **transformation_quest.orchestrate_brain**: Orchestrate full brain OS: coordinate all cognitive engines as a unified system
+4. **transformation_quest.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+5. **transformation_quest.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+6. **transformation_quest.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

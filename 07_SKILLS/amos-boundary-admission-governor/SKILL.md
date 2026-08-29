@@ -84,6 +84,16 @@ Origin architect: **Trang Phan**. Domain: boundary. Parent: amos-boundary-scope-
 - **boundary_admission.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **boundary_admission.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **boundary_admission.evaluate_scope**: Evaluate scope boundaries: what is in-scope, out-of-scope, and at the boundary
+2. **boundary_admission.check_admission**: Check admission criteria: whether a query enters this capability legitimately
+3. **boundary_admission.detect_drift**: Detect context drift, persona drift, or scope creep beyond authorized bounds
+4. **boundary_admission.enforce_compaction**: Enforce context compaction and recoverability when budget is exceeded
+5. **boundary_admission.audit_boundary**: Audit boundary crossings and log violations for governance review
+6. **boundary_admission.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **boundary_admission.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `_00_Cosmo brain/economy/wealth_game_hack_5000_hidden_overlooked_equations.md` (content_hash: 4d96d7035c390960) (vault canon, SOURCE_CLAIM)

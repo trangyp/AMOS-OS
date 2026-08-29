@@ -84,6 +84,20 @@ AMOS C03 Physics & Cosmos — quantum mechanics, cosmology, spacetime, particle 
 - **physics.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **physics.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **physics.apply_quantum_reasoning**: Apply AMOS C03 Physics & Cosmos quantum reasoning analogies: superposition, entanglement, collapse for cognitive problems.
+2. **physics.validate_physics**: Validate AMOS C03 Physics & Cosmos physics claims for epistemic class (AMOS_MODEL not physics claim), scope, and overclaim.
+3. **physics.analyze_cosmological**: Analyze AMOS C03 Physics & Cosmos cosmological patterns: spacetime, fields, particles for structural insights.
+4. **physics.trace_physics_provenance**: Trace AMOS C03 Physics & Cosmos physics findings to quantum analogies, cosmological models, and vault sources.
+5. **physics.assess_physics_claim**: Assess AMOS C03 Physics & Cosmos physics claims for reasoning analogy vs empirical claim, scope, and falsifier.
+6. **physics.manage_physics_lifecycle**: Manage AMOS C03 Physics & Cosmos physics lifecycle: model, analogize, validate, bridge, and finalize.
+7. **physics.detect_physics_drift**: Detect physics drift: analogy overclaim, scope creep, model-reality conflation, and confidence inflation.
+8. **physics.escalate_physics_gaps**: Escalate AMOS C03 Physics & Cosmos physics gaps: flag overclaim, require empirical evidence, trigger scope correction.
+9. **physics.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+10. **physics.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+11. **physics.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Consolidated Sub-Skills (98)
 
 This parent skill consolidates the following sub-skills. Each is a section within this domain:

@@ -84,6 +84,16 @@ Origin architect: **Trang Phan**. Domain: c06. Parent: amos-c06-society-culture-
 - **growth_graph.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **growth_graph.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **growth_graph.analyze_social**: Analyze emergent social intelligence: norms, networks, and cultural dynamics
+2. **growth_graph.model_memory_graph**: Model cognitive substrate memory graphs: field-level lineage and consolidation
+3. **growth_graph.manage_forgetting**: Manage dependency-safe forgetting and reconsolidation governance
+4. **growth_graph.track_growth**: Track growth patterns across knowledge and social networks
+5. **growth_graph.detect_drift**: Detect drift in memory graphs, lineage chains, or growth patterns
+6. **growth_graph.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **growth_graph.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Vault-Sourced Domain Knowledge
 
 > **Sources**: `_00_Cosmo brain/dated/2026-08-22/2026-08-22 Cognitive Substrate Memory Graph.md` (content_hash: 89323199f0a3b075), `_00_Cosmo brain/cognitive/AMOS_Cognitive_Substrate_v2_Implementation_Notes.md` (content_hash: 39237d966cc491cf) (vault canon, SOURCE_CLAIM)

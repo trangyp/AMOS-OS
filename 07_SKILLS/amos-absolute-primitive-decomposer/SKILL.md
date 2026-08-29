@@ -88,6 +88,16 @@ Origin architect: **Trang Phan**. Domain: runtime. Parent: amos-os-runtime-maste
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: b635376a0788808e) for the full vault-sourced domain knowledge (7963 chars).
 
+## Operations
+
+1. **runtime.decompose_to_primitives**: Decompose an input concept or structure into the 19 irreducible Absolute Logic primitives (Existence, NonExistence, Causality, Temporal, Informational, Topological, Identity, Convergence, Divergence,...
+2. **runtime.evaluate_interaction_matrix**: Evaluate the 19x19 interaction matrix to determine the deterministic outcome when any two primitives interact, using category-based rules (Pattern, MetaPattern, Logic, MetaLogic).
+3. **runtime.detect_logic_collapse**: Detect logic collapse states (Dissolution via Paradox+AntiLogic, Driftless via zero derivatives, TerminalQuiet via NullLogic dominance) that indicate structural reasoning failure.
+4. **runtime.validate_primitive_mapping**: Validate primitive mappings for support, overreach, residue preservation, and epistemic labeling. Reject mappings that violate the 19x19 interaction matrix or claim empirical validity for AMOS_MODE...
+5. **runtime.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **runtime.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **runtime.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

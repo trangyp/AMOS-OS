@@ -88,6 +88,17 @@ Origin architect: **Trang Phan**. Domain: rscf. Parent: amos-rscf-epistemic-mast
 - **bundle_manifold.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **bundle_manifold.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **bundle_manifold.classify_claim**: Classify claims by epistemic state (VERIFIED, DERIVED, MODEL, UNKNOWN/GAP) and bind to evidence
+2. **bundle_manifold.validate_evidence**: Validate evidence chains: provenance, freshness, scope, and regime validity
+3. **bundle_manifold.trace_provenance**: Trace output provenance to vault sources and tag with content_hash
+4. **bundle_manifold.assess_confidence**: Assess confidence ceiling based on epistemic class and evidence strength
+5. **bundle_manifold.detect_falsifier**: Detect falsifiers and downgrade confidence when counter-evidence emerges
+6. **bundle_manifold.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+7. **bundle_manifold.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+8. **bundle_manifold.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

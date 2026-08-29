@@ -85,6 +85,17 @@ Origin architect: **Trang Phan**. Domain: super. Parent: amos-super-engines-mast
 - **full_brain.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **full_brain.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **full_brain.orchestrate_brain**: Orchestrate full brain OS: coordinate all cognitive engines as a unified system
+2. **full_brain.route_cognition**: Route cognitive tasks through omni kernel dynamic routing (activate minimum relevant region)
+3. **full_brain.manage_expression**: Manage expression translation: RAW EXPRESSION → LOGIC-READY AMOS INPUT pipeline
+4. **full_brain.assess_claim**: Assess Full Brain OS claims for epistemic class (AMOS_MODEL not BIOLOGICAL_PROOF)
+5. **full_brain.detect_drift**: Detect drift between brain components, engine registry, or world model layers
+6. **full_brain.escalate_gaps**: Escalate unresolved brain OS gaps (GAP-BRAIN-001, GAP-OMNI-001, GAP-OMNIVERSE-001)
+7. **full_brain.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+8. **full_brain.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## Vault-Sourced Domain Knowledge
 
 > **Source**: `_00_Cosmo brain/dated/2026-08-25/2026-08-25 AMOS_Full_Brain_OS_CANON.md` (content_hash: 90a45dc5960eaa0e) (vault canon, SOURCE_CLAIM, CONDITIONAL)

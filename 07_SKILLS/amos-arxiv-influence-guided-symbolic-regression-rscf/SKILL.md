@@ -80,6 +80,16 @@ Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 73a4f7ee3d09eaf8) for the full vault-sourced domain knowledge (5943 chars).
 
+## Operations
+
+1. **influence_guided.analyze_paper**: Analyze arxiv papers: extract claims, methods, evidence, and limitations
+2. **influence_guided.classify_research**: Classify research by epistemic state: established, emerging, speculative, refuted
+3. **influence_guided.assess_reproducibility**: Assess reproducibility: can the results be independently verified?
+4. **influence_guided.trace_literature**: Trace literature chains: citations, dependencies, and influence networks
+5. **influence_guided.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **influence_guided.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **influence_guided.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL.md` (content_hash: 61279c4b00128110) (vault canon, SOURCE_CLAIM)

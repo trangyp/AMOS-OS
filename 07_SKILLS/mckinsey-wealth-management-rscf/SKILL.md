@@ -79,6 +79,16 @@ Origin architect: **Trang Phan**. Domain: mckinsey. Parent: amos-c08-strategy-ga
 - **wealth_management.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **wealth_management.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
+## Operations
+
+1. **wealth_management.assess_commercial**: Assess commercial due diligence: market, competitive position, and growth
+2. **wealth_management.evaluate_credit**: Evaluate credit and lending: risk scoring, portfolio, and concentration
+3. **wealth_management.analyze_banking**: Analyze banking CRM: customer lifetime value, retention, and cross-sell
+4. **wealth_management.transfer_architecture**: Transfer architecture references: best practices across organizational contexts
+5. **wealth_management.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+6. **wealth_management.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+7. **wealth_management.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+
 ## 11_KNOWLEDGE Vault Content
 
 > **Source**: `11_KNOWLEDGE/AMOS_C07_ECON_FINANCE_MASTER_KNOWLEDGE.md` (content_hash: afc81525bb75994d) (vault canon, SOURCE_CLAIM)
