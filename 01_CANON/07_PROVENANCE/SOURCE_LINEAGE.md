@@ -2308,7 +2308,7 @@ Every transition must preserve upstream ancestry.
 
 ---
 
-# 95. [[README]] and Documentation Lineage
+# 95. README and Documentation Lineage
 
 Documentation remains:
 
@@ -2864,7 +2864,7 @@ UNKNOWN/GAP.
 
 ## Related
 
-[[README]] ·
+README ·
 [[00_ROOT_MOC]]|[[AMOS MOC]] ·
 [[ARCHITECTURE]] ·
 [[SYSTEM_MAP]] ·
@@ -2886,8 +2886,8 @@ ALIASES ·
 [[UNIT_REGISTRY]] ·
 [[UNIVERSAL_VARIABLE_REGISTRY]] ·
 11_KNOWLEDGE/00_AMOS_Full_Brain_OS_Architecture ·
-[[README]] ·
-[[README]]
+README ·
+README
 
 ```text
 ```

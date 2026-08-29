@@ -26,7 +26,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# SCHEDULES OPERATIONS [[README]]
+# SCHEDULES OPERATIONS README
 
 ## Purpose
 `SCHEDULES OPERATIONS README` is the package readme for the **Operations** plane segment at `20_OPERATIONS/06_SCHEDULES`.

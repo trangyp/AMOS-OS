@@ -28,7 +28,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# [[MEMORY]] [[README]]
+# MEMORY README
 
 ## Purpose
 `MEMORY README` is the package readme for the **Memory** plane segment at `10_MEMORY`.

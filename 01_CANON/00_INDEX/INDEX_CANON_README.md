@@ -1671,7 +1671,7 @@ remains visible.
 
 # 61. Current Implementation Boundary
 
-This [[README]] defines the intended canon-plane architecture.
+This README defines the intended canon-plane architecture.
 
 It does not prove:
 
@@ -1878,7 +1878,7 @@ The third invariant is:
 
 ---
 
-**Related:** [[README]]|AMOS OS · [[00_ROOT_MOC]]|MOC · [[ARCHITECTURE]]|Architecture · [[SYSTEM_MAP]]|System Map · [[DEPENDENCY_MAP]]|Dependency Map · [[AUTHORITATIVE_STATE]]|Authoritative State · [[00_ROOT_NAMING_STANDARD]]|Naming Standard · [[PLACEMENT_RULES]]|Placement Rules · [[ROADMAP]]|Roadmap · [[CANON_MAP]]|Canon Map · [[KERNEL_MAP]]|Kernel Map · [[CONTROL_PLANE_MAP]]|Control Plane Map · [[AMOS_FULL_BRAIN_OS_ARCHITECTURE|Knowledge Architecture]] · [[INDEX_RESEARCH_README]]|Research · [[LEGACY_ARCHIVE_README]]|Archive
+**Related:** README|AMOS OS · [[00_ROOT_MOC]]|MOC · [[ARCHITECTURE]]|Architecture · [[SYSTEM_MAP]]|System Map · [[DEPENDENCY_MAP]]|Dependency Map · [[AUTHORITATIVE_STATE]]|Authoritative State · [[00_ROOT_NAMING_STANDARD]]|Naming Standard · [[PLACEMENT_RULES]]|Placement Rules · [[ROADMAP]]|Roadmap · [[CANON_MAP]]|Canon Map · [[KERNEL_MAP]]|Kernel Map · [[CONTROL_PLANE_MAP]]|Control Plane Map · [[AMOS_FULL_BRAIN_OS_ARCHITECTURE|Knowledge Architecture]] · [[INDEX_RESEARCH_README]]|Research · [[LEGACY_ARCHIVE_README]]|Archive
 
 ```
 ```

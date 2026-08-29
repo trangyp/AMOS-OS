@@ -30,7 +30,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# BIOLOGY DOMAINS [[README]]
+# BIOLOGY DOMAINS README
 
 ## Purpose
 `BIOLOGY DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/06_BIOLOGY`.

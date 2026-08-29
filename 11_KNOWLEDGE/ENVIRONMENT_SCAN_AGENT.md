@@ -1511,7 +1511,7 @@ filesystem state
 
 ---
 
-# 47. [[MEMORY]] ADMISSION
+# 47. MEMORY ADMISSION
 
 Persistent environment observations should not automatically become memory.
 

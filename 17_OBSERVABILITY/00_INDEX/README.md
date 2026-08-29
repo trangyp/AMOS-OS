@@ -30,7 +30,7 @@ rscf:
   scope: index_navigation
 ---
 
-# [[README]]
+# README
 
 ## Purpose
 `README` is the package readme for the **Observability** plane segment at `17_OBSERVABILITY/00_INDEX`.
@@ -73,7 +73,7 @@ Given an operation touching `README` within the Observability plane:
 RSCF-NODE
 node_id: 17_OBSERVABILITY_00_INDEX_READMEmd
 node_type: note
-path: 17_OBSERVABILITY/00_INDEX/[[README]].md
+path: 17_OBSERVABILITY/00_INDEX/README.md
 RSCF-RELATIONS:
   - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]

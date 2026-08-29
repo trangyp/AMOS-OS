@@ -219,7 +219,7 @@ Cosmo human problem architecture is an analytical model. It does not prove probl
 - `cosmo-human-problem-architecture-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -229,7 +229,7 @@ Cosmo human problem architecture is an analytical model. It does not prove probl
 RSCF-NODE
 node_id: cosmo-human-problem-architecture
 node_type: skill
-path: 07_SKILLS/cosmo-human-problem-architecture/[[SKILL]].md
+path: 07_SKILLS/cosmo-human-problem-architecture/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

@@ -28,7 +28,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX HEALTHCARE DOMAINS [[README]]
+# INDEX HEALTHCARE DOMAINS README
 
 ## Index
 - See also — [[HEALTHCARE_DOMAINS_HEALTHCARE_CONTRACT]]

@@ -30,11 +30,11 @@ rscf:
   scope: index_navigation
 ---
 
-# PROVENANCE [[CANON]] MAP
+# PROVENANCE CANON MAP
 
 This note is a MOC alias for the canonical provenance map.
 
-> For the full provenance canon, see [[CANON_PROVENANCE_MAP]]|[[CANON]] PROVENANCE MAP.
+> For the full provenance canon, see [[CANON_PROVENANCE_MAP]]|CANON PROVENANCE MAP.
 
 ---
 

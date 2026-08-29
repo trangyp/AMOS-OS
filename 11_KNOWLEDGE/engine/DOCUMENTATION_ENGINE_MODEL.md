@@ -58,7 +58,7 @@ To ensure safety and structural consistency, the engine applies overlays before 
 - **Governance:** Legal, HR, and Policy documents are always marked as `DRAFT_REQUIRES_HUMAN_REVIEW`. The AI does not have the final authority to publish binding policies.
 
 ---
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
 
 ---
 **MOC:** [[ENGINE_MOC]]

@@ -27,7 +27,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# MARKET INTELLIGENCE DOMAINS [[README]]
+# MARKET INTELLIGENCE DOMAINS README
 
 ## Purpose
 `MARKET INTELLIGENCE DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/36_MARKET_INTELLIGENCE`.

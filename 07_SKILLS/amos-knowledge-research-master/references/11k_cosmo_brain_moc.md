@@ -88,15 +88,15 @@ answer the question, expand only when outcome-changing uncertainty remains.
 - AMOS Home — universal vault hub
 ## Operational brain — module map
 
-- 00_boot: brain/00_boot/BOOTSTRAP · ROUTER · [[LOAD_MAP]] · OS_Agent_Model
+- 00_boot: brain/00_boot/BOOTSTRAP · ROUTER · LOAD_MAP · OS_Agent_Model
 - 10_core: INVARIANTS · CLAIM_CLASSES · [[FRACTAL_RUNTIME]] · [[LOGIC_KERNEL]] · EQUATION_* · VARIABLE_REGISTRY · [[CONSTRAINT_ENGINE]] · Consciousness_Engine_Model · Personality_Engine_Model · Emotion_Engine_Model · Cognition_Engine_Model · Mind_OS_Model
-- 20_state: [[TENSOR_CONTRACTS]] · [[CLAIM_TENSOR]] · [[EVIDENCE_TENSOR]] · [[RELATION_TENSOR]] · [[MEMORY_ARCHITECTURE]] · WORKING_MEMORY · [[BOUNDARY_IDENTITY]] · UNCERTAINTY_VECTOR · ENTROPY_LACUNARITY · STATE_MACHINE · CONTEXT_ORIENTATION · [[GOVERNANCE_TENSOR]]
-- 30_epistemics: PROVENANCE_TOPOLOGY · [[RSCF_PROOF_CAPSULE]] · COMPETING_HYPOTHESES · [[REGIME_FRESHNESS]] · [[ADVERSARIAL_VALIDATION]] · [[SENSITIVITY_FALSIFIERS]] · CAUSAL_FIREWALL · [[ERROR_RECOVERY]] · SYBIL_HARDENING
+- 20_state: [[TENSOR_CONTRACTS]] · [[CLAIM_TENSOR]] · [[EVIDENCE_TENSOR]] · [[RELATION_TENSOR]] · MEMORY_ARCHITECTURE · WORKING_MEMORY · BOUNDARY_IDENTITY · UNCERTAINTY_VECTOR · ENTROPY_LACUNARITY · STATE_MACHINE · CONTEXT_ORIENTATION · GOVERNANCE_TENSOR
+- 30_epistemics: PROVENANCE_TOPOLOGY · RSCF_PROOF_CAPSULE · COMPETING_HYPOTHESES · REGIME_FRESHNESS · ADVERSARIAL_VALIDATION · SENSITIVITY_FALSIFIERS · CAUSAL_FIREWALL · ERROR_RECOVERY · SYBIL_HARDENING
 - 40_runtime: RUNTIME_LINEAGE · TRANSACTION_PROTOCOL · V3_0…V4_4 (MVCC/CAS, causal epoch, coordination avoidance)
 - 50_governance: GMEF · AUTHORITY_GOVERNOR · EVOLUTION_DEBT · EVOLUTION_MEMORY · REPAIR_ROLLBACK
 - 60_execution: REPOSITORY_REASONING · KNOWLEDGE_HARVEST · EXECUTION_HARNESS · EXECUTION_PROVENANCE · BENCHMARK_FIREWALL · *_EVIDENCE_SCHEMA
 - 70_domain: [[COGNITION_KERNEL]] · UNIVERSAL_FIELD_MODEL · SOURCE_MODEL_BOUNDARY
-- 90_output: [[FINAL_GATE]] · OUTPUT_PROTOCOL · CONTEXT_BUDGET · TOKEN_GOVERNOR · [[SPEED_GOVERNOR]]
+- 90_output: FINAL_GATE · OUTPUT_PROTOCOL · CONTEXT_BUDGET · TOKEN_GOVERNOR · SPEED_GOVERNOR
 - 95_meta: SELF_REVIEW (self-review loop — hardens reasoning before any consequential output or brain write)
 
 ## Reasoning skills (progressive load)
@@ -106,12 +106,12 @@ answer the question, expand only when outcome-changing uncertainty remains.
 - Reasoning improvement (NEW): amos-self-review-loop · amos-knowledge-gap-scan · amos-cogni
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -123,4 +123,4 @@ path: 07_SKILLS/amos-knowledge-research-master/references/11k_cosmo_brain_moc.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

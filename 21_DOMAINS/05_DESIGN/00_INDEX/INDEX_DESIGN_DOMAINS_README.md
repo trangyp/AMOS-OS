@@ -28,7 +28,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX DESIGN DOMAINS [[README]]
+# INDEX DESIGN DOMAINS README
 
 ## Index
 - See also — [[DESIGN_DOMAINS_DESIGN_CONTRACT]]

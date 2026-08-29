@@ -29,9 +29,9 @@ rscf:
   scope: index_navigation
 ---
 
-# COGNITIVE MATRIX [[VALIDATION]] MAP
+# COGNITIVE MATRIX VALIDATION MAP
 
-## Map — COGNITIVE MATRIX · [[VALIDATION]] MAP
+## Map — COGNITIVE MATRIX · VALIDATION MAP
 Navigation map for the `25_COGNITIVE_MATRIX/11_VALIDATION/00_INDEX` segment of the Cognitive Matrix plane.
 
 - **Readme** — [[INDEX_VALIDATION_COGNITIVE_MATRIX_README]]

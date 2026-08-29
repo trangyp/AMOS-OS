@@ -26,7 +26,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# PLAYBOOKS OPERATIONS [[README]]
+# PLAYBOOKS OPERATIONS README
 
 ## Purpose
 `PLAYBOOKS OPERATIONS README` is the package readme for the **Operations** plane segment at `20_OPERATIONS/02_PLAYBOOKS`.

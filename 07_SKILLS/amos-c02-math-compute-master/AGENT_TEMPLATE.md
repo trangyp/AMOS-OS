@@ -41,7 +41,7 @@ Domain master agent for AMOS C02 — Math & Compute Master. Consolidates 100 sub
 - **Consolidation**: 100 sub-skills merged 2026-08-26
 
 ---
-**MOC:** [[SKILL]]
+**MOC:** SKILL
 
 ---
 **MOC:** [[amos-c02-math-compute-master_MOC]]

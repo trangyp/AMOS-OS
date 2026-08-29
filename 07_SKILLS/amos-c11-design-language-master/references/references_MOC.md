@@ -72,7 +72,7 @@ rscf:
 - [[design_language_model]]
 - [[doc_super_engine]]
 - [[documentation_engine_layer]]
-- [[domain_config]]
+- domain_config
 - [[human_centered_design_drift]]
 - [[monogram_engine]]
 - [[monogram_kernel_engine]]
@@ -81,16 +81,16 @@ rscf:
 - [[super_corp_doc_engine_light]]
 - [[tech_design_engine]]
 - [[tech_expanded_design_engine]]
-- [[vault_domain_knowledge]]
+- vault_domain_knowledge
 - [[vietnamese_writing_engine]]
 
 ---
 **Parent:** [[amos-c11-design-language-master_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -102,4 +102,4 @@ path: 07_SKILLS/amos-c11-design-language-master/references/references_MOC.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

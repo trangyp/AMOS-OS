@@ -2223,7 +2223,7 @@ REGISTER THE GAP RATHER THAN FABRICATE THE MEANING.
 
 ---
 
-**Related:** [[README]]|AMOS OS · [[ARCHITECTURE]]|Architecture · [[00_ROOT_NAMING_STANDARD]]|Naming Standard · [[PLACEMENT_RULES]]|Placement Rules · [[CANON_MAP]]|Canon Map · [[AMOS_CORE_LAWS|AMOS Core Laws]] · [[INVARIANT_REGISTRY]]|Invariant Registry · [[LAW_HIERARCHY]]|Law Hierarchy · [[HML_CANON]]|HML Canon · [[PERSISTENCE_CANON]]|Persistence Canon · [[AUTHORITY_CANON]]|Authority Canon · [[CONTROL_PLANE_CANON]]|Control Plane Canon · [[INFRASTRUCTURE_CANON]]|Infrastructure Canon · [[KERNEL_MAP]]|Kernel Map · [[CONTROL_PLANE_MAP]]|Control Plane Map · [[AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS Full Brain OS Architecture]] · [[SCHEMA_MAP]]|Schema Map · Registry Schemas · [[OBSERVABILITY_OBSERVABILITY_MAP]]|Observability Map · [[OPERATING_MODEL]]|Operating Model
+**Related:** README|AMOS OS · [[ARCHITECTURE]]|Architecture · [[00_ROOT_NAMING_STANDARD]]|Naming Standard · [[PLACEMENT_RULES]]|Placement Rules · [[CANON_MAP]]|Canon Map · [[AMOS_CORE_LAWS|AMOS Core Laws]] · [[INVARIANT_REGISTRY]]|Invariant Registry · [[LAW_HIERARCHY]]|Law Hierarchy · [[HML_CANON]]|HML Canon · [[PERSISTENCE_CANON]]|Persistence Canon · [[AUTHORITY_CANON]]|Authority Canon · [[CONTROL_PLANE_CANON]]|Control Plane Canon · [[INFRASTRUCTURE_CANON]]|Infrastructure Canon · [[KERNEL_MAP]]|Kernel Map · [[CONTROL_PLANE_MAP]]|Control Plane Map · [[AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS Full Brain OS Architecture]] · [[SCHEMA_MAP]]|Schema Map · Registry Schemas · [[OBSERVABILITY_OBSERVABILITY_MAP]]|Observability Map · [[OPERATING_MODEL]]|Operating Model
 
 ```text
 ```

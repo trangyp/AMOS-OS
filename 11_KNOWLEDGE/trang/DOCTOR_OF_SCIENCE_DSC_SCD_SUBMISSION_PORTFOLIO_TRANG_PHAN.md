@@ -8,12 +8,6 @@ tags:
 - rscf/state/observation
 - topic/doctor-of-science-dsc-scd-submission-por
 - trang
-- 00-home
-- knowledge-moc
-- system-scan-agent
-- automation-profiles
-- trang-moc
-- amos-simulation-kernel-v0-math-foundations
 type: note
 source: 11_KNOWLEDGE/trang
 rscf:
@@ -22,6 +16,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
+
 
 # DOCTOR OF SCIENCE DSC SCD SUBMISSION PORTFOLIO TRANG PHAN
 

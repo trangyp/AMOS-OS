@@ -96,16 +96,16 @@ The engine's duties are to:
 The Org Governance Engine integrates with the HSE CEO Engine for executive-level governance modeling, the Legal Engine for compliance and regulatory frameworks, and the Governance Risk Policy Kernel for risk assessment and policy analysis. It feeds into the Documentation Engine for governance policy and procedure documentation.
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -117,4 +117,4 @@ path: 07_SKILLS/amos-c09-org-law-policy-master/references/org_governance_engine_
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

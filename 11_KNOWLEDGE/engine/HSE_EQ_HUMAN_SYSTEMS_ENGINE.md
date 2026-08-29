@@ -4268,7 +4268,7 @@ Hệ thống phải xác định:
 Hầu hết các thất bại xảy ra từ tối ưu hóa bên ngoài các ranh giới cho phép.
 **Hệ quả vận hành:** Không được phép mở rộng quy mô trước khi các ràng buộc được khép kín. Tăng trưởng mà không có ranh giới là tự sát có hệ thống.
 * * *
-## ĐỊNH LUẬT 5 — ĐỊNH LUẬT NHÂN PHẨM LÀ RANH GIỚI CẤU TRÚC ([[DIGNITY]] AS STRUCTURAL BOUNDARY LAW)
+## ĐỊNH LUẬT 5 — ĐỊNH LUẬT NHÂN PHẨM LÀ RANH GIỚI CẤU TRÚC (DIGNITY AS STRUCTURAL BOUNDARY LAW)
 **Nhân phẩm không phải đạo đức. Nhân phẩm là một bất biến phối hợp. (Dignity is not morality. Dignity is a coordination invariant.)**
 Nếu con người trở nên có thể thay thế được bên trong một hệ thống:
   * Lòng tin sụp đổ
@@ -4524,7 +4524,7 @@ Thực tế sẽ thực thi nó, dù có đồng ý hay không.
 * * *
 Đây là bản tổng hợp đầy đủ và cuối cùng của **Đề Án HSE Việt Nam** , tích hợp 14 định luật HSCSA (Human-Scale Control & Survivability Architecture) – kiến trúc tối thiểu để một hệ thống người, tổ chức hay trí tuệ duy trì khả năng tồn tại trong thực tại qua thời gian.
 **HSCSA không phải triết học. HSCSA là định luật vận hành. Thực tế sẽ thực thi nó, dù có đồng ý hay không.**
-\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
 
 ---
 **MOC:** [[ENGINE_MOC]]

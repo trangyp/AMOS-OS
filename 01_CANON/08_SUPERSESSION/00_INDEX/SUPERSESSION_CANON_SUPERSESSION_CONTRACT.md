@@ -28,10 +28,10 @@ rscf:
   scope: index_navigation
 ---
 
-# SUPERSESSION [[CANON]] SUPERSESSION CONTRACT
+# SUPERSESSION CANON SUPERSESSION CONTRACT
 
 ## 0. Status
-Canon-plane contract for **[[CANON]] SUPERSESSION CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
+Canon-plane contract for **CANON SUPERSESSION CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
 ## 1. Scope
 Governs canonical laws, universe/cognition/infrastructure canons, variable registry, glossary, provenance lineage, and supersession as they bear on `CANON SUPERSESSION CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.

@@ -39,7 +39,7 @@ rscf:
 - Skill synced via `hermes curator adopt amos-flow-canon` from `.hermes/skills/`
 
 ---
-**Related:** [[SKILL]]
+**Related:** SKILL
 
 ---
 **MOC:** [[amos-flow-canon_MOC]]

@@ -149,7 +149,7 @@ Models assets, liabilities, leverage, liquidity, and default risk in banks and c
 - AMOS Legal Kernel v0 Org Risk Policy7 4
 - AMOS Medical Clinical Kernel v0 Science Health7 4
 - AMOS Product Management Kernel v0 Tech7 3
-- [[V3_7_1]]
+- V3_7_1
 - AMOS Api Integration Kernel v0 Tech7 3
 - AMOS Systems Core Engine v0 Systems4 2
 - AMOS Meta Epistemology Kernel v0 Meta Cognition4 2
@@ -162,7 +162,7 @@ Models assets, liabilities, leverage, liquidity, and default risk in banks and c
 - AMOS Psychology Decision Kernel v0 Human Society4 2
 - AMOS Cognitive Compression Kernel v0 Meta Cognition4 2
 - ai equation architecture 25000
-- [[AMOS_ACCEPTANCE_REPORT_20260321_013004]]
+- AMOS_ACCEPTANCE_REPORT_20260321_013004
 - AMOS Cognitive Substrate v2 Implementation Notes 2
 - sample generated goal 500
 - all domain fractal architecture master 25000
@@ -170,27 +170,27 @@ Models assets, liabilities, leverage, liquidity, and default risk in banks and c
 - AMOS Counterfactual Reasoning Kernel v0 Meta Cognition4 2
 - foo 2
 - AMOS Multi Perspective Reasoning Kernel v0 Meta Cognition4 2
-- [[V3_8]]
+- V3_8
 - manifest 2
 - AMOS Tech Architecture Kernel v0 Tech Systems7 4
 - loader 2
-- [[V3_4_1]]
+- V3_4_1
 - AMOS Scientific Kernel v0 Science Health7 2
 - formalism 2
 - AMOS Reinforcement Learning Analysis Kernel v0 Machine Architecture4 2
 - AMOS Risk Compliance Engine v0 Org Risk Policy7 2
 - AMOS Analogy Abstraction Kernel v0 Meta Cognition4 2
 - fractal architecture framework 5000
-- [[V3_2_1]]
+- V3_2_1
 - absolute transcendent synthesis 20260219 214228
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -202,4 +202,4 @@ path: 07_SKILLS/arxiv-structured-gp-omics-uq-rscf/references/vault_domain_knowle
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

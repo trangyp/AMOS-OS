@@ -33,7 +33,7 @@ Covers write gating, consolidation thresholds, retrieval diversity, and falsific
 
 ## Definition
 
-[[MEMORY]]
+MEMORY
 
 This is a **contract-level definition**, not an implementation claim.
 

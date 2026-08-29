@@ -229,7 +229,7 @@ Semantic grounding auditing is an epistemic construct. It does not prove all gro
 - `amos-semantic-grounding-auditor-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -239,7 +239,7 @@ Semantic grounding auditing is an epistemic construct. It does not prove all gro
 RSCF-NODE
 node_id: amos-semantic-grounding-auditor
 node_type: skill
-path: 07_SKILLS/amos-semantic-grounding-auditor/[[SKILL]].md
+path: 07_SKILLS/amos-semantic-grounding-auditor/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

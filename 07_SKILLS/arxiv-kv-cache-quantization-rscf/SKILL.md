@@ -281,7 +281,7 @@ Prevention
 - `arxiv-kv-cache-quantization-rscf-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -291,7 +291,7 @@ Prevention
 RSCF-NODE
 node_id: arxiv-kv-cache-quantization-rscf
 node_type: skill
-path: 07_SKILLS/arxiv-kv-cache-quantization-rscf/[[SKILL]].md
+path: 07_SKILLS/arxiv-kv-cache-quantization-rscf/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

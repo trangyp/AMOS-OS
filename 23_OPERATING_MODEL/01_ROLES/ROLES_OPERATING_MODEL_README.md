@@ -28,7 +28,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# ROLES OPERATING MODEL [[README]]
+# ROLES OPERATING MODEL README
 
 ## Purpose
 `ROLES OPERATING MODEL README` is the package readme for the **Operating Model** plane segment at `23_OPERATING_MODEL/01_ROLES`.

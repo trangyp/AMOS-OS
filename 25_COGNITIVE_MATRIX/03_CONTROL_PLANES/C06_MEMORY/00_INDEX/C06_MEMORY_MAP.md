@@ -27,9 +27,9 @@ rscf:
   scope: index_navigation
 ---
 
-# C06 [[MEMORY]] MAP
+# C06 MEMORY MAP
 
-## Map — C06 [[MEMORY]] MAP
+## Map — C06 MEMORY MAP
 Navigation map for the `25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C06_MEMORY/00_INDEX` segment of the Cognitive Matrix plane.
 
 - **Contract** — [[CONTROL_PLANES_COGNITIVE_MATRIX_C06_MEMORY_CONTRACT]]

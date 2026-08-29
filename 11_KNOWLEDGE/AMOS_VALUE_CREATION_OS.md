@@ -25,7 +25,7 @@ rscf:
 ---
 
 # ⭐ AMOS GIANT VALUE CREATION OS
-## MAX-DETAIL MASTER [[ARCHITECTURE]] FOR COMMERCIALIZATION, [[VALIDATION]], LICENSING, PRODUCTIZATION, GOVERNANCE & SCALE
+## MAX-DETAIL MASTER [[ARCHITECTURE]] FOR COMMERCIALIZATION, VALIDATION, LICENSING, PRODUCTIZATION, GOVERNANCE & SCALE
 
 > **Origin architect / steward:** Trang Phan
 > **Purpose:** chuyển kiến trúc AMOS/TSS/TPE/UBI/QLS thành một hệ điều hành tạo giá trị có thể kiểm định, thương mại hóa, vận hành, học, sửa, cấp phép và scale mà không biến ambition thành unsupported certainty.
@@ -861,7 +861,7 @@ StartingARR
 
 ---
 
-# 11. TSS/TPE [[VALIDATION]] [[ARCHITECTURE]]
+# 11. TSS/TPE VALIDATION [[ARCHITECTURE]]
 
 This is one of the most important commercial components because high-value claims create both upside and reputational risk.
 
@@ -1348,7 +1348,7 @@ AgentProposal != DurableCommit
 
 ---
 
-# 23. [[SKILL]] CONTRACT
+# 23. SKILL CONTRACT
 
 ```text
 SkillContract = {
@@ -2124,7 +2124,7 @@ OriginalIP
 
 ---
 
-# 58. FAILURE [[MEMORY]]
+# 58. FAILURE MEMORY
 
 Every failed commercial hypothesis enters persistent memory.
 

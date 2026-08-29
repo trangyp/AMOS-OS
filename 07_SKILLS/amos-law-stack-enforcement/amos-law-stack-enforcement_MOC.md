@@ -24,12 +24,12 @@ rscf:
 
 ## Files
 
-- [[SKILL]]
-- [[references]]
+- SKILL
+- references
 
 ## Subdirectories
 
-- [[references_MOC]] — references
+- references_MOC — references
 
 ---
 **Parent:** [[07_SKILLS_MOC]]

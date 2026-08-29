@@ -948,7 +948,7 @@ Counterfactual confidence MUST NOT be inflated by duplicated ancestry.
 
 ---
 
-# 30. RSCF [[INTEGRATION]]
+# 30. RSCF INTEGRATION
 
 Counterfactual reasoning operates recursively across AMOS RSCF structures.
 
@@ -1015,7 +1015,7 @@ Global recomputation is a last resort.
 
 ---
 
-# 32. GMEF [[INTEGRATION]]
+# 32. GMEF INTEGRATION
 
 `K COUNTERFACTUAL` interoperates with GMEF for governed model/evidence
 reasoning.
@@ -1118,7 +1118,7 @@ Escalate counterfactual reasoning when any of the following holds:
 
 ---
 
-# 36. ADVERSARIAL COUNTERFACTUAL [[VALIDATION]]
+# 36. ADVERSARIAL COUNTERFACTUAL VALIDATION
 
 For consequential conclusions AMOS performs a challenge pass.
 
@@ -1693,7 +1693,7 @@ Freshness is part of epistemic validity.
 
 ---
 
-# 56. COUNTERFACTUAL [[MEMORY]]
+# 56. COUNTERFACTUAL MEMORY
 
 Stored counterfactual conclusions MUST retain their assumptions.
 
@@ -1722,7 +1722,7 @@ that made it valid.
 
 ---
 
-# 57. [[MEMORY]] ADMISSION
+# 57. MEMORY ADMISSION
 
 A counterfactual should enter persistent validated knowledge only when:
 
@@ -1748,7 +1748,7 @@ class.
 
 ---
 
-# 58. COUNTERFACTUAL [[MEMORY]] CONFLICT
+# 58. COUNTERFACTUAL MEMORY CONFLICT
 
 When retrieved counterfactual knowledge conflicts with new evidence:
 

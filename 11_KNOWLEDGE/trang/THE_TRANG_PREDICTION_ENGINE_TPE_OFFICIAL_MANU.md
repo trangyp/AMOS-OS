@@ -5,12 +5,6 @@ tags:
 - framework
 - reality
 - canon/knowledge
-- 00-home
-- knowledge-moc
-- system-scan-agent
-- automation-profiles
-- trang-moc
-- amos-simulation-kernel-v0-math-foundations
 type: document
 source: 11_KNOWLEDGE/trang
 rscf:
@@ -19,6 +13,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
+
 
 # **The Trang Prediction Engine™ (TPE) – Official Manual**
 The Trang Prediction Engine™ (TPE) is a universal forecasting system built to anticipate the evolution of human-linked systems. It operationalizes the structural logic of the Trang System™ (TSS) and converts it into predictive insight. TPE is not a statistical forecast, nor a discipline-specific model, nor a tool that relies on historical precedent alone. Instead, it is a structural engine built on universal forces that govern how all human systems behave under pressure. It predicts transitions at the level of system classes, time windows, and cascade effects—never precise dates or individuals—ensuring both scientific responsibility and long-term reliability.

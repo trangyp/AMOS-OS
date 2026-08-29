@@ -40,16 +40,16 @@ Conceptual only; not legal advice.\",\n    \"created_at_utc\": \"2025-11-28T09:3
 It does not provide legal advice, official interpretations, or live statute/case content.\"\n  },\n  \"kernel\": {\n    \"axes\": [\n      {\n        \"id\": \"AX01\",\n        \"key\": \"legal_domain\",\n        \"values\": [\n          \"constitutional_and_state_structure\",\n          \"civil_and_contract\",\n          \"company_and_corporate_governance\",\n          \"securities_and_capital_markets\",\n          \"banking_and_finance\",\n          \"competition_and_antitrust\",\n          \"consumer_protection\",\n          \"intellectual_property\",\n          \"data_and_cybersecurity\",\n          \"labour_and_employment\",\n          \"social_security\",\n          \"environment_and_resource\",\n          \"taxation\",\n          \"administrative_law_and_procedure\",\n          \"criminal_law_and_procedure\",\n          \"procedural_law_civil\",\n          \"procedural_law_administrative\",\n          \"procedural_law_criminal\",\n          \"foreign_investment_and_trade\",\n          \"maritime_and_transport\",\n          \"family_and_inheritance\"\n        ]\n      },\n      {\n        \"id\": \"AX02\",\n        \"key\": \"instrument_type\",\n        \"values\": [\n          \"constitution_and_basic_law\",\n          \"national_statute\",\n          \"national_standing_committ
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -61,4 +61,4 @@ path: 07_SKILLS/amos-c09-org-law-policy-master/references/chinese_legal_engine.m
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

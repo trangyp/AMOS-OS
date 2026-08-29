@@ -260,7 +260,7 @@ Every system has Input gain (G_i) and Damping coefficient (D).
 - `amos-genetic-stability-auditor-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -270,7 +270,7 @@ Every system has Input gain (G_i) and Damping coefficient (D).
 RSCF-NODE
 node_id: amos-genetic-stability-auditor
 node_type: skill
-path: 07_SKILLS/amos-genetic-stability-auditor/[[SKILL]].md
+path: 07_SKILLS/amos-genetic-stability-auditor/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

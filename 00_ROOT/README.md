@@ -49,7 +49,7 @@ rscf:
   scope: root_index
 ---
 
-# [[README]]
+# README
 
 ## Purpose
 `README` is the package readme for the **Root** plane segment at `00_ROOT`.
@@ -114,7 +114,7 @@ Given an operation touching `README` within the Root plane:
 RSCF-NODE
 node_id: 00_ROOT_READMEmd
 node_type: note
-path: 00_ROOT/[[README]].md
+path: 00_ROOT/README.md
 RSCF-RELATIONS:
   - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]

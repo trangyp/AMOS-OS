@@ -30,7 +30,7 @@ rscf:
   scope: index_navigation
 ---
 
-# [[README]]
+# README
 
 ## Purpose
 `README` is the package readme for the **Tests** plane segment at `19_TESTS/00_INDEX`.
@@ -73,7 +73,7 @@ Given an operation touching `README` within the Tests plane:
 RSCF-NODE
 node_id: 19_TESTS_00_INDEX_READMEmd
 node_type: note
-path: 19_TESTS/00_INDEX/[[README]].md
+path: 19_TESTS/00_INDEX/README.md
 RSCF-RELATIONS:
   - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]

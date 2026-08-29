@@ -30,7 +30,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX [[MEMORY]] KERNEL [[README]]
+# INDEX MEMORY KERNEL README
 
 ## Index
 - See also — [[KERNEL_MEMORY_MAP]]

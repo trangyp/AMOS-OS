@@ -133,7 +133,7 @@ Aesthetic judgments are VALUES, not FACTS. Fractal language hypothesis is MODEL 
 ## Consolidated Sub-Skills (16)
 
 This parent skill consolidates the following sub-skills. Each is a section within th
-- [[AGENT_TEMPLATE]]
+- AGENT_TEMPLATE
 
 ---
 **MOC:** [[amos-c11-design-language-master_MOC]]
@@ -249,7 +249,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - `amos-c11-design-language-master-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -259,7 +259,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 RSCF-NODE
 node_id: amos-c11-design-language-master
 node_type: skill
-path: 07_SKILLS/amos-c11-design-language-master/[[SKILL]].md
+path: 07_SKILLS/amos-c11-design-language-master/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

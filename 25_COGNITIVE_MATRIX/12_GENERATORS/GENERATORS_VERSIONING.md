@@ -1994,7 +1994,7 @@ unless additional validation establishes correctness.
 
 ---
 
-# 86. GENERATED [[CANON]]
+# 86. GENERATED CANON
 
 Generators may produce candidate canonical artifacts.
 
@@ -2015,7 +2015,7 @@ ADMISSION
 
 ---
 
-# 87. GENERATION ≠ [[CANON]] ADMISSION
+# 87. GENERATION ≠ CANON ADMISSION
 
 This firewall is mandatory:
 
@@ -2027,7 +2027,7 @@ CANONICAL STATUS
 
 ---
 
-# 88. [[CANON]] GENERATOR VERSION PINNING
+# 88. CANON GENERATOR VERSION PINNING
 
 Canonical artifacts produced by generators should preserve the concrete
 generator version that produced them.
@@ -3128,7 +3128,7 @@ without validating the provenance channel where stakes require it.
 
 ---
 
-# 151. [[VALIDATION]] SUITE
+# 151. VALIDATION SUITE
 
 A generator release should have a version-specific validation suite.
 
@@ -3768,7 +3768,7 @@ of the effective generation envelope.
 
 ---
 
-# 189. [[CANON]] EPOCH
+# 189. CANON EPOCH
 
 Canonical generator output should bind the canon epoch or equivalent
 authoritative-state version when canon state materially influences generation.
@@ -4835,7 +4835,7 @@ These should be evaluated against a coherent state before final commit.
 
 ---
 
-# 226. GMEF [[INTEGRATION]]
+# 226. GMEF INTEGRATION
 
 Generator evolution enters governed evolution when it changes:
 

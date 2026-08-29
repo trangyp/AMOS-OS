@@ -1,8 +1,8 @@
 ---
-title: TPE — Trang Prediction Engine Official Manual
-created: '2026-08-22'
-origin: Google Drive — _00_AMOS_CANON/training/TPE_Official_Manual.pdf
-origin_architect: Trang Phan
+title: "TPE — Trang Prediction Engine Official Manual"
+created: "2026-08-22"
+origin: "Google Drive — _00_AMOS_CANON/training/TPE_Official_Manual.pdf"
+origin_architect: "Trang Phan"
 type: training-manual
 source: 11_KNOWLEDGE/trang
 tags:
@@ -18,21 +18,16 @@ tags:
 - rscf/X-crossscale
 - topic/prediction-forecasting-model
 - trang
-- 00-home
-- knowledge-moc
-- system-scan-agent
-- automation-profiles
-- trang-moc
-- amos-simulation-kernel-v0-math-foundations
-status: active
-provenance: VERIFIED
-confidence: VERIFIED
+status: "active"
+provenance: "VERIFIED"
+confidence: "VERIFIED"
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
+
 
 # The Trang Prediction Engine™ (TPE) — Official Manual
 

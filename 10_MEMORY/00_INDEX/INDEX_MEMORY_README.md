@@ -29,7 +29,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX [[MEMORY]] [[README]]
+# INDEX MEMORY README
 
 ## Index
 - See also — [[INDEX_MEMORY_MEMORY_CONTRACT]]

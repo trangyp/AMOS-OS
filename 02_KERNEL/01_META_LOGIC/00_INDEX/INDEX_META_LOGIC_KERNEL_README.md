@@ -29,7 +29,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX META LOGIC KERNEL [[README]]
+# INDEX META LOGIC KERNEL README
 
 ## Index
 - See also — [[META_LOGIC_KERNEL_META_LOGIC_CONTRACT]]

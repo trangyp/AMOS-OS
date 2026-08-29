@@ -168,7 +168,7 @@ rscf:
 - [[INDEX_REPAIR_GAP_REPORT_2026-08-26]]
 - [[NEURAL_NETWORK]]
 - [[PLACEMENT_RULES]]
-- [[README]]
+- README
 - [[ROADMAP]]
 - [[RSCF_NODE_INDEX]]
 - [[SYSTEM_MAP]]
@@ -184,13 +184,13 @@ rscf:
 
 ## Newly bound agents and workflows
 
-- [[07_SKILLS/amos-flow-canon/SKILL|AMOS Flow Canon skill]]
-- [[08_WORKFLOWS/amos-flow-canon-workflow|AMOS Flow Canon workflow]]
-- [[07_SKILLS/amos-law-stack-enforcement/SKILL|AMOS Law Stack Enforcement skill]]
-- [[08_WORKFLOWS/amos-law-stack-enforcement-workflow|AMOS Law Stack Enforcement workflow]]
-- [[07_SKILLS/obsidian-plugin-auto-tag/SKILL|Obsidian Plugin Auto Tag skill]]
-- [[08_WORKFLOWS/obsidian-plugin-auto-tag-workflow|Obsidian Plugin Auto Tag workflow]]
-- [[08_WORKFLOWS/amos-mdformat-obsidian-workflow|AMOS mdformat-obsidian workflow]]
+- AMOS Flow Canon skill
+- AMOS Flow Canon workflow
+- AMOS Law Stack Enforcement skill
+- AMOS Law Stack Enforcement workflow
+- Obsidian Plugin Auto Tag skill
+- Obsidian Plugin Auto Tag workflow
+- AMOS mdformat-obsidian workflow
 - [[skill-catalog|AMOS Skill Catalog]]
 - [[skill-registry-catalog|AMOS Skill Registry Catalog]]
 - [[amos-skill-registry-gateway|AMOS Skill Registry Gateway]]

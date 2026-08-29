@@ -27,7 +27,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# HSE SAFETY DOMAINS [[README]]
+# HSE SAFETY DOMAINS README
 
 ## Purpose
 `HSE SAFETY DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/40_HSE_SAFETY`.

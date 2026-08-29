@@ -72,7 +72,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# K [[MEMORY]] RETRIEVAL
+# K MEMORY RETRIEVAL
 
 > **AMOS Core target:** `v4.4`
 > **Origin architect / steward:** Trang Phan
@@ -2209,7 +2209,7 @@ RECALL.
 
 ## Related
 
-[[README]] ·
+README ·
 [[DEPENDENCY_MAP]] ·
 [[AMOS_CORE_LAWS]] ·
 [[INVARIANT_REGISTRY]] ·
@@ -2231,14 +2231,14 @@ RECALL.
 [[K_WORLD_MODEL]] ·
 [[K_CAUSAL_CLOSURE]] ·
 [[K_CAUSAL_EPOCH]] ·
-[[README]] ·
+README ·
 11_KNOWLEDGE/00_AMOS_Full_Brain_OS_Architecture ·
-[[README]] ·
-[[README]] ·
-[[README]] ·
-[[README]] ·
-[[README]] ·
-[[README]]
+README ·
+README ·
+README ·
+README ·
+README ·
+README
 
 ```text
 ```

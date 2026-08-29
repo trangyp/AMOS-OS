@@ -28,7 +28,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX COGNITIVE ORGANISM [[README]]
+# INDEX COGNITIVE ORGANISM README
 
 ## Index
 - See also — [[COGNITIVE_ORGANISM_MAP]]

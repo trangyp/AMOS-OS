@@ -12,7 +12,7 @@ tags:
 - amos-emotion-cognition-decision-bridge-governor
 ---
 
-# AMOS LEARNING [[MEMORY]] KNOWLEDGE FEEDBACK GOVERNOR
+# AMOS LEARNING MEMORY KNOWLEDGE FEEDBACK GOVERNOR
 
 ## Full Canonical Content + Tags + RSCF + Obsidian Integration
 

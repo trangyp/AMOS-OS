@@ -186,8 +186,8 @@ Eleven supplemental modules built covering every missing section:
 
 - `cosmo-brain/executable_brain_model.py`: `build_deterministic_prompt()` method restructured
 - `cosmo-brain/test_deterministic_improvements.py`: A1-A4 tests (tests 0-3 in test suite)
-- Memory entry: see ~/.devin/memories/[[MEMORY]].md
-- Skill entry: see ~/.devin/skills/amos-deterministic-verification/[[SKILL]].md
+- Memory entry: see ~/.devin/memories/MEMORY.md
+- Skill entry: see ~/.devin/skills/amos-deterministic-verification/SKILL.md
 - Workflow entry: see .devin/workflows/ for existing patterns
 
 ## Task 2: Cosmo Pipeline Determinism Audit
@@ -227,16 +227,16 @@ Eleven supplemental modules built covering every missing section:
 - `cosmo-brain/test_brain_model_determinism.py`: 305 lines, 13 t
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -248,4 +248,4 @@ path: 07_SKILLS/amos-formal-agent-skill-verification-rscf/references/vault_domai
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

@@ -28,7 +28,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX BIOLOGY DOMAINS [[README]]
+# INDEX BIOLOGY DOMAINS README
 
 ## Index
 - See also — [[BIOLOGY_DOMAINS_BIOLOGY_CONTRACT]]

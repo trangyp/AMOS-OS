@@ -28,7 +28,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX C04 BIO NEURO DOMAINS [[README]]
+# INDEX C04 BIO NEURO DOMAINS README
 
 ## Index
 - See also — [[C04_BIO_NEURO_DOMAINS_C04_BIO_NEURO_CONTRACT]]

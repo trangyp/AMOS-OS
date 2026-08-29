@@ -29,7 +29,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX REPLAY CONTROL PLANE [[README]]
+# INDEX REPLAY CONTROL PLANE README
 
 ## Index
 - See also — [[REPLAY_CONTROL_PLANE_REPLAY_CONTRACT]]

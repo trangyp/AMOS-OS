@@ -30,7 +30,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# STRATEGY DOMAINS [[README]]
+# STRATEGY DOMAINS README
 
 ## Purpose
 `STRATEGY DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/04_STRATEGY`.
@@ -86,4 +86,4 @@ path: 21_DOMAINS/04_STRATEGY/STRATEGY_DOMAINS_README.md
 claim_class: AMOS_MODEL
 
 ---
-**MOC:** [[04_STRATEGY_MOC]]
+**MOC:** 04_STRATEGY_MOC

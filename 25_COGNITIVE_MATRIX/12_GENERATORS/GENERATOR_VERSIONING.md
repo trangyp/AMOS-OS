@@ -3941,7 +3941,7 @@ GENERATOR_VERSIONING.md
 PROVENANCE.md
 → ancestry and derivation lineage
 
-[[VALIDATION]].md
+VALIDATION.md
 → admissibility
 
 TESTS.md
@@ -3953,7 +3953,7 @@ TESTS.md
 [[GENERATORS_AUDIT]].md
 → cross-layer integrity examination
 
-[[INTEGRATION]].md
+INTEGRATION.md
 → subsystem bindings
 
 [[ROADMAP]].md

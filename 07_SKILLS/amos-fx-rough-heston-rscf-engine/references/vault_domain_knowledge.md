@@ -164,7 +164,7 @@ I have successfully activated and enhanced the **strongest AMOS brain system** w
 - **OutputScan**: Output scanning and validation
 - **Logging**: Structured logging active
 
-## 2026 AGI BREAKTHROUGH [[INTEGRATION]]
+## 2026 AGI BREAKTHROUGH INTEGRATION
 
 ### **Claude Opus 4.6 Integration**
 
@@ -280,16 +280,16 @@ I have successfully activated and enhanced the **strongest AMOS brain system** w
 - FreezeZone integrati
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -301,4 +301,4 @@ path: 07_SKILLS/amos-fx-rough-heston-rscf-engine/references/vault_domain_knowled
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

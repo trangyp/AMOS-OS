@@ -30,9 +30,9 @@ rscf:
   scope: index_navigation
 ---
 
-# UNIVERSE [[CANON]] MAP
+# UNIVERSE CANON MAP
 
-## Map — UNIVERSE [[CANON]] MAP
+## Map — UNIVERSE CANON MAP
 Navigation map for the `01_CANON/02_UNIVERSE_CANON/00_INDEX` segment of the Canon plane.
 
 - **Readme** — [[INDEX_UNIVERSE_CANON_CANON_README]]

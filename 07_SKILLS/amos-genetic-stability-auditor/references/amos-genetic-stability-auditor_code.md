@@ -22,7 +22,7 @@ rscf:
 
 # Code Reference
 
-> Moved from [[SKILL]].md for progressive loading.
+> Moved from SKILL.md for progressive loading.
 
 ```python
 import sys, random
@@ -61,16 +61,16 @@ for arena_name, ArenaClass, kwargs in [
 ```
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -82,4 +82,4 @@ path: 07_SKILLS/amos-genetic-stability-auditor/references/amos-genetic-stability
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

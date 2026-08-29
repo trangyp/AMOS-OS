@@ -31,7 +31,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# EFFECTS CONTROL PLANE [[README]]
+# EFFECTS CONTROL PLANE README
 
 ## Purpose
 `EFFECTS CONTROL PLANE README` is the package readme for the **Control Plane** plane segment at `03_CONTROL_PLANE/08_EFFECTS`.

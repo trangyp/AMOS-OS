@@ -33,7 +33,7 @@ Covers the operation contract for this lifecycle operator.
 
 ## Semantics
 
-[[MEMORY]]
+MEMORY
 
 ### Semantic rules
 

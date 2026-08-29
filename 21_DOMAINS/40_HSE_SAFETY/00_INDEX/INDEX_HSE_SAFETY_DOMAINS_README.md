@@ -28,7 +28,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX HSE SAFETY DOMAINS [[README]]
+# INDEX HSE SAFETY DOMAINS README
 
 ## Index
 - See also — [[HSE_SAFETY_DOMAINS_HSE_SAFETY_CONTRACT]]

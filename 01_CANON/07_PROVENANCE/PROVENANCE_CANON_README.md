@@ -32,7 +32,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# PROVENANCE [[CANON]] [[README]]
+# PROVENANCE CANON README
 
 ## Purpose
 `PROVENANCE CANON README` is the package readme for the **Canon** plane segment at `01_CANON/07_PROVENANCE`.

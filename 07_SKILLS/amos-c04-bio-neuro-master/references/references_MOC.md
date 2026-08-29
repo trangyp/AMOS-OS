@@ -68,7 +68,7 @@ rscf:
 - [[biometrics_to_bio_intelligence]]
 - [[biometrics_to_bio_intelligence_v2]]
 - [[brain_superxc_ubi_cognitive_max]]
-- [[domain_config]]
+- domain_config
 - [[evolutionary_adaptive_systems_v2]]
 - [[id_exchange_ubi_neurosyncai]]
 - [[kernels_biology_cognition]]
@@ -92,15 +92,15 @@ rscf:
 - [[ubi_official_manual]]
 - [[ubi_operators]]
 - [[unified_biological_governance]]
-- [[vault_domain_knowledge]]
+- vault_domain_knowledge
 
 ---
 **Parent:** [[amos-c04-bio-neuro-master_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -112,4 +112,4 @@ path: 07_SKILLS/amos-c04-bio-neuro-master/references/references_MOC.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

@@ -28,10 +28,10 @@ rscf:
   scope: index_navigation
 ---
 
-# [[INTEGRATION]] KERNEL [[INTEGRATION]] CONTRACT
+# INTEGRATION KERNEL INTEGRATION CONTRACT
 
 ## 0. Status
-Kernel-plane contract for **[[INTEGRATION]] KERNEL [[INTEGRATION]] CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
+Kernel-plane contract for **INTEGRATION KERNEL INTEGRATION CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
 ## 1. Scope
 Governs kernel-plane reasoning primitives: meta-logic, cognition, causality, state, memory, risk-repair, authority, provenance, integration as they bear on `INTEGRATION KERNEL INTEGRATION CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.

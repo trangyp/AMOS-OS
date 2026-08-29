@@ -27,10 +27,10 @@ rscf:
   scope: AMOS_general
 ---
 
-# [[CANON]] COGNITION [[CANON]] CONTRACT
+# CANON COGNITION CANON CONTRACT
 
 ## 0. Status
-Canon-plane contract for **COGNITION [[CANON]] CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
+Canon-plane contract for **COGNITION CANON CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
 ## 1. Scope
 Governs canonical laws, universe/cognition/infrastructure canons, variable registry, glossary, provenance lineage, and supersession as they bear on `COGNITION CANON CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.

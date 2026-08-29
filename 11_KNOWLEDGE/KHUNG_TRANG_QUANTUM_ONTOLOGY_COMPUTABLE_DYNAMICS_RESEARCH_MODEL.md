@@ -1489,7 +1489,7 @@ Recursive reinforcement
 ---
 
 
-## XXIII. SPACETIME [[INTEGRATION]] — Ψ_ST
+## XXIII. SPACETIME INTEGRATION — Ψ_ST
 
 
 ### Vấn đề

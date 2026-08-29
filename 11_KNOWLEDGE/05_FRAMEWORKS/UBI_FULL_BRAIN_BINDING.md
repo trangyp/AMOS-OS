@@ -96,7 +96,7 @@ UBI BIOLOGICAL CONSTRAINTS        COSMO BRAIN STACK (L0–L6)          AUTONOMIC
 # 2. Inter-Plane & Vault Connections
 
 - **Biological Master:** [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
-- **Cosmo Brain Spec:** [[MD_2026_08_23_COSMO_BRAIN_FULL_ARCHITECTURE]]
+- **Cosmo Brain Spec:** MD_2026_08_23_COSMO_BRAIN_FULL_ARCHITECTURE
 - **Cognitive Matrix:** [[AMOS_X_UBI]] and [[AMOS_X_UBI_MATRIX]]
 - **Cognition Binding:** [[UBI_COGNITION_BINDING]]
 

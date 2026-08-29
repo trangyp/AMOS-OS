@@ -252,7 +252,7 @@ USE       ↓
        NON-PORTABLES
           ↓
        TARGET-REGIME
-       [[VALIDATION]]
+       VALIDATION
 ```
 
 For simulation:
@@ -404,7 +404,7 @@ SIMULATION SUPPORTS RULE R
 does not imply:
 
 ```text
-R IS [[CANON]]
+R IS CANON
 ```
 
 Canonical status requires canonical authority under the relevant governance system.
@@ -528,7 +528,7 @@ CANONICAL
 RESULT OR RULE
 ESTABLISHED BY
 THE APPLICABLE
-AUTHORITATIVE [[CANON]]
+AUTHORITATIVE CANON
 ```
 
 The exact authority hierarchy is governed elsewhere.
@@ -569,7 +569,7 @@ Likewise, a canonical rule may define expected behavior while a simulation imple
 Therefore:
 
 ```text
-[[CANON]] SAYS X
+CANON SAYS X
 ```
 
 does not automatically establish:
@@ -897,7 +897,7 @@ FROM WHICH REGIME?
 TO WHICH REGIME?
 UNDER WHAT AUTHORITY?
 WHAT DOES NOT TRANSFER?
-WHAT TARGET-SIDE [[VALIDATION]]
+WHAT TARGET-SIDE VALIDATION
 IS REQUIRED?
 ```
 
@@ -1245,7 +1245,7 @@ SIMULATION
 
 EMPIRICAL PRACTICE
 →
-"[[CANON]]"
+"CANON"
 
 CANONICAL REQUIREMENT
 →
@@ -1472,7 +1472,7 @@ GOVERNED PAYLOAD
         ↓
 NON-PORTABLES DECLARED
         ↓
-TARGET-REGIME [[VALIDATION]]
+TARGET-REGIME VALIDATION
         ↓
 CONCLUSION @ REGIME B
 ```
@@ -2459,9 +2459,9 @@ Source freshness concerns whether the source itself remains current, authoritati
 Examples:
 
 ```text
-[[CANON]] v1
+CANON v1
 →
-[[CANON]] v2
+CANON v2
 ```
 
 or:
@@ -2847,7 +2847,7 @@ This is broader AMOS provenance discipline.
 Scope staleness may require:
 
 ```text
-[[VALIDATION]] IN EXPANDED /
+VALIDATION IN EXPANDED /
 CHANGED SCOPE
 ```
 
@@ -3220,7 +3220,7 @@ USE    FIREWALL
        │
        ├─ GOVERNED PAYLOAD
        ├─ NON-PORTABLES
-       └─ TARGET [[VALIDATION]]
+       └─ TARGET VALIDATION
               │
               ▼
         TARGET-REGIME
@@ -3349,7 +3349,7 @@ GMEF
        ↓
 ALLOW / DENY
        ↓
-TARGET-REGIME [[VALIDATION]]
+TARGET-REGIME VALIDATION
 ```
 
 This is a model-level integration suggested by the phrase:
@@ -3494,7 +3494,7 @@ This is not automatically a contradiction in the same epistemic sense.
 It may indicate:
 
 ```text
-[[CANON]] / IMPLEMENTATION
+CANON / IMPLEMENTATION
 MISMATCH
 ```
 
@@ -3524,7 +3524,7 @@ EMPIRICAL BEHAVIOR:
 ACCEPT O
 
 STATUS:
-IMPLEMENTATION / [[CANON]]
+IMPLEMENTATION / CANON
 MISMATCH
 ```
 
@@ -4217,7 +4217,7 @@ Rejected by ER-2.
 EVERY IMPLEMENTATION
 WE OBSERVED DOES X
 ↓
-X IS [[CANON]]
+X IS CANON
 ```
 
 Rejected without canonical bridge/governance.
@@ -4227,7 +4227,7 @@ Rejected without canonical bridge/governance.
 ## ER-A5 — Canon-to-Empirical Laundering
 
 ```text
-[[CANON]] REQUIRES X
+CANON REQUIRES X
 ↓
 DEPLOYMENT DOES X
 ```
@@ -5035,7 +5035,7 @@ Invalid:
 
 ```text
 L21 DEFINES
-EPISTEMIC [[VALIDATION]]
+EPISTEMIC VALIDATION
         ↓
 L21 IS ANALYZED
 USING ITS OWN RULES
@@ -5071,7 +5071,7 @@ Operationally:
 
 ```text
 RECOVER AUTHORITATIVE
-REGIME [[CANON]]
+REGIME CANON
         ↓
 EXTRACT FRESHNESS AXES
         ↓
@@ -5252,7 +5252,7 @@ depending on governance canon.
                                   └──────────┬──────────┘
                                              │
                                              ▼
-                                      TARGET [[VALIDATION]]
+                                      TARGET VALIDATION
 ```
 
 ---
@@ -5578,7 +5578,7 @@ SAME AS SOURCE?
        NON-PORTABLES
             ↓
        TARGET-REGIME
-       [[VALIDATION]]
+       VALIDATION
             ↓
        TARGET USE
        MAY BECOME VALID
@@ -5627,7 +5627,7 @@ SPECULATION
 
 SIMULATION PASS
 ≠
-PRODUCTION [[VALIDATION]]
+PRODUCTION VALIDATION
 
 SIMULATION STABILITY
 ≠
@@ -5756,7 +5756,7 @@ SOURCE-DEFINED FIFTH REGIME
 
 SELF-CONSISTENCY
 ≠
-CANONICAL [[VALIDATION]]
+CANONICAL VALIDATION
 ```
 
 ---
@@ -5809,15 +5809,15 @@ RSCF-RELATIONS:
 
   - RELATED_TO: [[L16_HML]]
 
-  - RELATED_TO: [[PROVENANCE_TOPOLOGY]]
+  - RELATED_TO: PROVENANCE_TOPOLOGY
 
   - RELATED_TO: [[PERSISTENT_PROVENANCE]]
 
   - RELATED_TO: [[SCOPE_REGIME_FIREWALL]]
 
-  - RELATED_TO: [[CAUSAL_FIREWALL]]
+  - RELATED_TO: CAUSAL_FIREWALL
 
-  - RELATED_TO: [[COMPETING_HYPOTHESES]]
+  - RELATED_TO: COMPETING_HYPOTHESES
 
   - RELATED_TO: [[CAUSAL_EPOCH_FINALITY]]
 

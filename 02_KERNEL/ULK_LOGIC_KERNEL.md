@@ -2258,7 +2258,7 @@ Kiểm thử 50,000 mệnh đề phức hợp trong miền ứng dụng #70:
 ## 5. LIÊN KẾT LIÊN BẢNG & DANH MỤC TÀI LIỆU THAM KHẢO WIKILINKS
 
 - **Hạt nhân Luận lý:** [[K_CORE_LAWS]] · [[K_ABSOLUTE_LOGIC]] · [[TRANG_LDAI_LOGICALLY_DETERMINISTIC_ARTIFICIAL_INT]]
-- **Điều khiển & Khung Đo lường:** [[K_CONTROL_PLANE]] · [[K_RSCF]] · [[PROOF_CAPSULE_SCHEMA]]
+- **Điều khiển & Khung Đo lường:** [[K_CONTROL_PLANE]] · [[K_RSCF]] · PROOF_CAPSULE_SCHEMA
 - **MOCs Điều hướng:** [[00_HOME]] · [[00_ROOT_MOC]] · [[02_KERNEL_MOC]] · [[01_META_LOGIC_MOC]]
 
 ---

@@ -29,9 +29,9 @@ rscf:
   scope: index_navigation
 ---
 
-# [[MEMORY]] [[MEMORY]] MAP
+# MEMORY MEMORY MAP
 
-## Map — [[MEMORY]] · [[MEMORY]] MAP
+## Map — MEMORY · MEMORY MAP
 Navigation map for the `10_MEMORY/00_INDEX` segment of the Memory plane.
 
 - **Contract** — [[INDEX_MEMORY_MEMORY_CONTRACT]]

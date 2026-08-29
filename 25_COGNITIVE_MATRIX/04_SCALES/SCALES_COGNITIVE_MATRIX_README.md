@@ -27,7 +27,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# SCALES COGNITIVE MATRIX [[README]]
+# SCALES COGNITIVE MATRIX README
 
 ## Purpose
 `SCALES COGNITIVE MATRIX README` is the package readme for the **Cognitive Matrix** plane segment at `25_COGNITIVE_MATRIX/04_SCALES`.

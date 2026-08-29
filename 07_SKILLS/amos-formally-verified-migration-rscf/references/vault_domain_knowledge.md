@@ -162,7 +162,7 @@ class PatchR
 > Durable map of what is in the Cosmo Brain. Counts verified by direct filesystem scan; the vault is co-edited by parallel Devin/Antigravity agents so numbers drift upward between scans.
 
 ## Corpus (verified this scan)
-- **Skills**: 803 `.devin/skills/` (0 empty dirs — every skill has [[SKILL]].md)
+- **Skills**: 803 `.devin/skills/` (0 empty dirs — every skill has SKILL.md)
 - **Agents**: 61 `*.md`
 - **Workflows**: 48 `*.md`
 - **Bridge notes**: 54 `_00_Cosmo brain/md/bridges/`
@@ -181,12 +181,12 @@ tech 30 · training 23 · vn 23 · absolute 20 · governance 13 · sector 13 · 
 - Obsidian resolves `link` by FILENAME anywhere in vault (bridges/ make MOC links resolve).
 - Engine-layer skills (19 MOC-linked) are mostly reference-only; only CodingOmegaEngineLayer has a real brain class.
 - Kernel JSON specs are source blueprints; the 146 kernel *skills* are their wrappers.
-- Thresholds in Trang ∅ Framework are AMOS_MODEL/UNVERIFIED (per [[EQUATION_FIREWALL]].md), not universal.
+- Thresholds in Trang ∅ Framework are AMOS_MODEL/UNVERIFIED (per EQUATION_FIREWALL.md), not universal.
 
 ## Links
-- [[2026_08_22_TRANG_PHI_FRAMEWORK]]
-- [[2026_08_22_EXECUTABLE_BRAIN_MODEL_LINEAGE]]
-- [[2026_08_22_DEVIN_MEMORY_UPDATE]]
+- 2026_08_22_TRANG_PHI_FRAMEWORK
+- 2026_08_22_EXECUTABLE_BRAIN_MODEL_LINEAGE
+- 2026_08_22_DEVIN_MEMORY_UPDATE
 
 ---
 
@@ -465,9 +465,9 @@ rscf/P-
 ```
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -479,4 +479,4 @@ path: 07_SKILLS/amos-formally-verified-migration-rscf/references/vault_domain_kn
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

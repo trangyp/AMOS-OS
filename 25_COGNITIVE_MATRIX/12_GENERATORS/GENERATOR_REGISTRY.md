@@ -2615,7 +2615,7 @@ These require their own evidence.
 
 # 101. Documentation Firewall
 
-[[README]], registry, architecture, or specification claims are:
+README, registry, architecture, or specification claims are:
 
 ```text
 SOURCE_CLAIM

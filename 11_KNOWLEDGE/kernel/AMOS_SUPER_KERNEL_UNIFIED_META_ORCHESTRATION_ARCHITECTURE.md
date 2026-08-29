@@ -2455,7 +2455,7 @@ modify this kernel specification.
 | Canon dependency list            | SOURCE_CLAIM       |
 | Domain registry                  | SOURCE_CLAIM       |
 | Standard pipeline                | SOURCE_CLAIM       |
-| Rule of 2 / Rule of 4            | [[CANON]] MODEL        |
+| Rule of 2 / Rule of 4            | CANON MODEL        |
 | Safety guardrails                | SOURCE RULE        |
 | Output structure                 | SOURCE RULE        |
 | Deterministic guarantee          | NOT DEMONSTRATED   |
@@ -2600,7 +2600,7 @@ rather than a specialist reasoning engine, persona, or independent source of can
 
 ---
 
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · AMOS_Universe_OS_Masterfile · AMOS_CORE · AMOS_BRAIN · Ubi · TSS · TPE · PSI · PISync · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · AMOS_Universe_OS_Masterfile · AMOS_CORE · AMOS_BRAIN · Ubi · TSS · TPE · PSI · PISync · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
 
 ---
 **MOC:** [[KERNEL_MOC]]

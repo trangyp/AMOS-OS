@@ -2879,7 +2879,7 @@ The intended separation across the Generator records is:
 PROVENANCE.md
 → where artifacts and decisions came from
 
-[[VALIDATION]].md
+VALIDATION.md
 → whether contracts/results satisfy required checks
 
 TESTS.md
@@ -2888,7 +2888,7 @@ TESTS.md
 [[ROADMAP]].md
 → intended future work
 
-[[INTEGRATION]].md
+INTEGRATION.md
 → subsystem boundaries and bindings
 
 HISTORY.md

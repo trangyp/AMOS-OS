@@ -27,7 +27,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# [[CANON]] PROVENANCE CONTRACT
+# CANON PROVENANCE CONTRACT
 
 ## 0. Status
 Canon-plane contract for **PROVENANCE CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.

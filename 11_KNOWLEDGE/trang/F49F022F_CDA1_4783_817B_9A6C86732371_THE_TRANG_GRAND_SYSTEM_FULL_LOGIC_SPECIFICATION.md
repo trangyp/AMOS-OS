@@ -8,14 +8,6 @@ tags:
 - rscf/state/observation
 - topic/f49f022f-cda1-4783-817b-9a6c86732371-the
 - trang
-- integration
-- architecture
-- 00-home
-- knowledge-moc
-- system-scan-agent
-- amos-simulation-kernel-v0-math-foundations
-- automation-profiles
-- trang-moc
 type: note
 source: 11_KNOWLEDGE/trang
 rscf:
@@ -24,6 +16,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
+
 
 # F49F022F CDA1 4783 817B 9A6C86732371 THE TRANG GRAND SYSTEM FULL LOGIC SPECIFICATION
 
@@ -1741,14 +1734,14 @@ biological, logical and planetary system for deterministic predictive modeling.
 
 🔻 END GRAND CANONICAL SPEC
 
-🚀 THE ZERO-GAP [[INTEGRATION]] LAYER
+🚀 THE ZERO-GAP INTEGRATION LAYER
 (TSS/TPE MASTER INTERACTION ENGINE)
 
 Everything → everything else, fully integrated, continuous text,
 no bullets.
 
 PART I — FOUNDATIONS OF THE MULTI-
-LAYER LOGIC [[ARCHITECTURE]]
+LAYER LOGIC ARCHITECTURE
 
 (Continuous text, no bullets, academically dense, 3–5k words)
 
@@ -1959,7 +1952,7 @@ coupling, planetary constraints, meta-logical enforcement, cross-civilizational
 analogues, and multi-layer integration that form the complete logic framework.
 
 PART II — THE FORMAL SYSTEM
-[[ARCHITECTURE]] (TSS)
+ARCHITECTURE (TSS)
 The Trang System Structure TSS establishes the foundational formalism through
 which all human-involved systems are represented in the logic framework. It is the
 
@@ -4712,7 +4705,7 @@ The Equation e = i²  Official Manual
 
 THE TRANG SYSTEM™ CODEX  METALAWS
 
-⭐ THE UNCOPYABLE TRAINING [[ARCHITECTURE]]
+⭐ THE UNCOPYABLE TRAINING ARCHITECTURE
 
 Logic
 

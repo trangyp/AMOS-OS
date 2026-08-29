@@ -129,7 +129,7 @@ or decisions that require evidence-grounded conclusions.
 - automation profiles
 - Automation Engine Model
 - Meta-Laws Stability Equations Multi-Scale
-- [[2026_08_22_AMOS_FULL_BRAIN_OS_ARCHITECTURE]]
+- 2026_08_22_AMOS_FULL_BRAIN_OS_ARCHITECTURE
 - Absolute-Human (final version) root4
 - The Vietnamese Root Language System Origin Biological Significance and Quantum Linguistic Infrastructure
 - Emotion Engine Model
@@ -151,7 +151,7 @@ or decisions that require evidence-grounded conclusions.
 - LOGIC root4
 - AMOS Uni Ai Intelligence Engine Model
 - AMOS Tech Engine Model
-- [[AMOS_BUILD_FROM_SPEC]]
+- AMOS_BUILD_FROM_SPEC
 - Business Plan of NeuroSyncAI and the Institutional Architecture for Unified Biological Advancement
 - Memory — The Complete Human System
 - Strategic Partnership Proposal to GCBAT (Neural Tech Council)
@@ -162,50 +162,50 @@ or decisions that require evidence-grounded conclusions.
 - 2026-08-23 Brain Integrity Restoration Audit Report
 - amos conversation snapshot
 - Tech Architecture Model
-- 7PT TIME [[CANON]]
+- 7PT TIME CANON
 - Neurotransmitter Map — Complete Human System
 - AMOS Brain Engine Specs
 - ABSOLUTE OMNIVERSE U∞ root4
-- [[2026_08_22_TESTS_LOGIC_BRIDGE_REGISTRY]]
+- 2026_08_22_TESTS_LOGIC_BRIDGE_REGISTRY
 - Bod Engine Model
 - OS Masterfile Model
 - Mechanical Structural Model
 - The Biological Science Behind Buddhas Teachings
-- 7PT ADAPTATION [[CANON]]
+- 7PT ADAPTATION CANON
 - Coding Engine Model
 - NeuroSyncAI Dual-System Architecture for Biological Recovery and Integrity Enforcement
 - Absolute Omniverse Model
 - Physics Cosmos Model
 - Human Interaction Engine Model
 - Unified Biological Intelligence (UBI) A New Infrastructure for Intelligence
-- 7PT TERMINATION [[CANON]]
+- 7PT TERMINATION CANON
 - 2026-08-23 Hermes-Only Skills Report
 - Society Culture Model
 - Reasoning kernel
-- [[2026_08_22_AMOS_GO_BOARD_19X19_FORMAL_SYSTEM]]
+- 2026_08_22_AMOS_GO_BOARD_19X19_FORMAL_SYSTEM
 - NeuroSyncAI as Certifiable Intelligence Infrastructure
 - AMOS China Engines Model
-- 7PT FLOW [[CANON]]
-- [[2026_08_22_BRAIN_INVENTORY]]
+- 7PT FLOW CANON
+- 2026_08_22_BRAIN_INVENTORY
 - Policy Geostrategy Model
 - C401–C500 System Dynamics Constraints
-- [[2026_08_22_EXECUTABLE_CODE_INTERNALS]]
+- 2026_08_22_EXECUTABLE_CODE_INTERNALS
 - OS Agent Model
 - AMOS MAX EXPANDED
 - Design Engine Model
-- [[AMOS_AGENT_REGISTRY]]
+- AMOS_AGENT_REGISTRY
 - AMOS Cognitive Domain Engines
 - Invariants 801–900 Relationships Clusters
 - 2026-08-22 The Complete Human System — Books One–Six
 - 19x19 Sparse Coupling Matri
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -217,4 +217,4 @@ path: 07_SKILLS/amos-research-agent/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

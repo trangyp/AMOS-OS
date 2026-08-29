@@ -101,16 +101,16 @@ C03_physics_cosmos serves as the physical constraint layer (L3) in the AMOS Cogn
 - Related vault files: `universe-cosmos/C03_physics_cosmos.md`, `universe-cosmos/Physics_Cosmos_Model.md`, `universe-cosmos/C03_physics_cosmos_SUPER.md`
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -122,4 +122,4 @@ path: 07_SKILLS/amos-c03-physics-cosmos-master/references/physics_cosmos_engine_
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

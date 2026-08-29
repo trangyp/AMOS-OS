@@ -189,7 +189,7 @@ ACTION / TOOL
    ↓
 OBSERVATION
    ↓
-[[VALIDATION]]
+VALIDATION
    ↓
 STATE UPDATE
 ```
@@ -229,7 +229,7 @@ ARCHITECTURAL / OPERATIONAL MODEL
 Therefore:
 
 ```text
-[[CANON]] CONTRACT
+CANON CONTRACT
     │
     │ governs
     ▼
@@ -245,7 +245,7 @@ The artifact may not weaken the governing canon.
 If a conflict occurs:
 
 ```text
-[[CANON]] CONTRACT
+CANON CONTRACT
 >
 ARTIFACT INTERPRETATION
 ```
@@ -347,7 +347,7 @@ TOOL OR RESPONSE
   ↓
 OBSERVATION
   ↓
-[[VALIDATION]]
+VALIDATION
   ↓
 OUTPUT / STATE UPDATE
 ```
@@ -362,7 +362,7 @@ The stack is decomposed as:
 
 ```text
 ┌──────────────────────────────────────────────┐
-│                [[CANON]] LAYER                   │
+│                CANON LAYER                   │
 │ laws · constraints · epistemic boundaries   │
 └──────────────────────┬───────────────────────┘
                        ▼
@@ -520,7 +520,7 @@ REGIME MISMATCH
 
 UNRECOVERABLE EXECUTION RISK
 
-[[VALIDATION]] FAILURE
+VALIDATION FAILURE
 ```
 
 Termination is an integrity-preserving state.
@@ -1262,11 +1262,11 @@ The Omega architecture distinguishes storage classes.
 These classes are not epistemically interchangeable.
 
 ```text
-[[MEMORY]] != [[CANON]]
+MEMORY != CANON
 
-[[SKILL]] != AUTHORITY
+SKILL != AUTHORITY
 
-[[WORKFLOW]] != [[VALIDATION]]
+[[WORKFLOW]] != VALIDATION
 
 VAULT NOTE != VERIFIED CLAIM
 
@@ -1288,13 +1288,13 @@ ACTION PROPOSAL
    ↓
 AUTHORITY CHECK
    ↓
-PRECONDITION [[VALIDATION]]
+PRECONDITION VALIDATION
    ↓
 EXECUTION
    ↓
 OBSERVATION
    ↓
-[[VALIDATION]]
+VALIDATION
    ↓
 STATE UPDATE
 ```
@@ -1504,17 +1504,17 @@ Proof capsules may be reused only while their dependencies and applicability env
 The stack separates:
 
 ```text
-L0  SCHEMA [[VALIDATION]]
+L0  SCHEMA VALIDATION
 
-L1  STRUCTURAL [[VALIDATION]]
+L1  STRUCTURAL VALIDATION
 
-L2  INVARIANT [[VALIDATION]]
+L2  INVARIANT VALIDATION
 
-L3  [[INTEGRATION]] [[VALIDATION]]
+L3  INTEGRATION VALIDATION
 
-L4  RUNTIME [[VALIDATION]]
+L4  RUNTIME VALIDATION
 
-L5  EMPIRICAL [[VALIDATION]]
+L5  EMPIRICAL VALIDATION
 ```
 
 No lower layer automatically implies a higher one.
@@ -1544,7 +1544,7 @@ APPROVED KNOWLEDGE INDEX
 
 MURK REASONING ENGINE
 
-MURK / BRAIN [[INTEGRATION]]
+MURK / BRAIN INTEGRATION
 
 EXECUTABLE BRAIN MODEL
 ```
@@ -1708,7 +1708,7 @@ SOURCE_GROUNDED_CANON_CANDIDATE
     │
     │ governance promotion
     ▼
-CANONICAL / [[CANON]]-BOUND ARTIFACT
+CANONICAL / CANON-BOUND ARTIFACT
     │
     │ executable implementation binding
     ▼
@@ -1909,7 +1909,7 @@ RSCF:
 
   M:
     architecture:
-      - [[CANON]]
+      - CANON
       - QUANTUM_KNOWLEDGE
       - MURK
       - COGNITIVE_STATE
@@ -1917,7 +1917,7 @@ RSCF:
       - STORAGE
       - TOOLS
       - OBSERVATION
-      - [[VALIDATION]]
+      - VALIDATION
       - RECOVERY
 
     state_transition:

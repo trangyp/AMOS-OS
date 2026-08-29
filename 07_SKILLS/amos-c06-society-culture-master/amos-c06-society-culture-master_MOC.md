@@ -24,13 +24,13 @@ rscf:
 
 ## Files
 
-- [[AGENT_TEMPLATE]]
-- [[SKILL]]
+- AGENT_TEMPLATE
+- SKILL
 
 ## Subdirectories
 
 - `agents/` (no markdown)
-- [[references_MOC]] — references
+- references_MOC — references
 
 ---
 **Parent:** [[07_SKILLS_MOC]]

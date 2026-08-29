@@ -157,8 +157,8 @@ The 7-part canon's Enforcement (Part IV) directly gates the AMOS_OS Law Stack:
 - For empirical claims without evidence
 - Outside the AMOS canon law hierarchy
 ## References
-- [[references]] — session-specific detail and authoritative sources
-- references/[[README]] — references subdirectory readme
+- references — session-specific detail and authoritative sources
+- references/README — references subdirectory readme
 
 ---
 **MOC:** [[amos-7-part-universe-canon_MOC]]
@@ -229,7 +229,7 @@ The 7-part canon's Enforcement (Part IV) directly gates the AMOS_OS Law Stack:
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -239,7 +239,7 @@ The 7-part canon's Enforcement (Part IV) directly gates the AMOS_OS Law Stack:
 RSCF-NODE
 node_id: amos-7-part-universe-canon
 node_type: skill
-path: 07_SKILLS/amos-7-part-universe-canon/[[SKILL]].md
+path: 07_SKILLS/amos-7-part-universe-canon/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

@@ -56,9 +56,9 @@ Deep code-level inspection of the AMOS brain's three core Python files:
 - [[COSMO_BRAIN_MOC]]
 - executable brain model
 - AMOS CORE v4 8 capability bound governance
-- [[2026_08_22_TESTS_LOGIC_BRIDGE_REGISTRY]] — companion inspection of test/logic/bridge modules
-- [[2026_08_22_EXECUTABLE_BRAIN_MODEL_LINEAGE]] — v1→v22 lineage of the executable brain
-- [[2026_08_22_BRAIN_INVENTORY]] — verified corpus counts
+- 2026_08_22_TESTS_LOGIC_BRIDGE_REGISTRY — companion inspection of test/logic/bridge modules
+- 2026_08_22_EXECUTABLE_BRAIN_MODEL_LINEAGE — v1→v22 lineage of the executable brain
+- 2026_08_22_BRAIN_INVENTORY — verified corpus counts
 
 ---
 
@@ -243,13 +243,13 @@ Obligations:
 ---
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 ```
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -261,4 +261,4 @@ path: 07_SKILLS/amos-code-agent-harness-rscf/references/vault_domain_knowledge.m
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

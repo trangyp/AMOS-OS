@@ -91,7 +91,7 @@ IMPLEMENTATION STATUS
 =
 NOT_ESTABLISHED
 
-[[VALIDATION]] STATUS
+VALIDATION STATUS
 =
 NOT_ESTABLISHED
 
@@ -398,7 +398,7 @@ CONTRADICTION CHECK
 NORMALIZATION
       │
       ▼
-[[VALIDATION]]
+VALIDATION
       │
       ▼
 PROMOTION / HOLD
@@ -416,14 +416,14 @@ Thus:
 
 ```text
 NATIVE SOURCE
-→ [[CANON]] INGESTION CANDIDATE
+→ CANON INGESTION CANDIDATE
 
 EXTERNAL RESEARCH
 → EVIDENCE LINK
 
 EXTERNAL RESEARCH
 !=
-NATIVE [[CANON]]
+NATIVE CANON
 ```
 
 unless a separate governed adoption process explicitly changes its status.
@@ -437,7 +437,7 @@ If Omega Architecture appears in multiple AMOS sources:
 ```text
 SOURCE A ──┐
            │
-SOURCE B ──┼──► ONE OMEGA [[CANON]] NODE
+SOURCE B ──┼──► ONE OMEGA CANON NODE
            │
 SOURCE C ──┘
 ```
@@ -1484,7 +1484,7 @@ The provenance graph must be corrected without erasing historical lineage.
                       │
                       ▼
             OMEGA [[ARCHITECTURE]]
-                  [[CANON]]
+                  CANON
                       │
        ┌──────────────┼──────────────┐
        ▼              ▼              ▼
@@ -1556,9 +1556,9 @@ as required validation references.
 However:
 
 ```text
-RELATED [[VALIDATION]] RECEIPT
+RELATED VALIDATION RECEIPT
 !=
-OMEGA-SPECIFIC [[VALIDATION]] RECEIPT
+OMEGA-SPECIFIC VALIDATION RECEIPT
 ```
 
 unless the receipt explicitly includes this artifact within its validated scope and dependency closure.
@@ -1978,7 +1978,7 @@ The current Omega Architecture Canon is:
 AN ADDRESSABLE
 ADD-ONLY
 SOURCE-CLAIM
-[[CANON]] PLACEHOLDER
+CANON PLACEHOLDER
 ```
 
 with:
@@ -2032,7 +2032,7 @@ not:
 INVENT
 PROMOTE
 ENFORCE
-CLAIM [[VALIDATION]]
+CLAIM VALIDATION
 CLAIM EMPIRICAL TRUTH
 ```
 

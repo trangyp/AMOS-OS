@@ -33,7 +33,7 @@ Covers write gating, consolidation thresholds, retrieval diversity, and falsific
 
 ## Contract content
 
-[[MEMORY]]
+MEMORY
 
 ## Equations
 

@@ -29,7 +29,7 @@ rscf:
 ---
 tags: [biology-ubi]
 ---
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>🔗 [[INTEGRATION]] MODULE: UBI + NeuroSyncAI™ + [[RATPAK]]</title><style>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>🔗 INTEGRATION MODULE: UBI + NeuroSyncAI™ + [[RATPAK]]</title><style>
 /* cspell:disable-file */
 /* webkit printing magic: print all background colors */
 html {
@@ -331,16 +331,16 @@ ol > li {
 	list-style-type: none;
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -352,4 +352,4 @@ path: 07_SKILLS/amos-c04-bio-neuro-master/references/ubi_neurosyncai_ratpak.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

@@ -133,7 +133,7 @@ Origin architect: **Trang Phan**. Domain: causal. Parent: none. Epistemic class:
 - **Distributed**: A → {B1, B2, ...} (fan-out, parallel)
 - **Delayed**: A →[Δt]→ B (time-lagged)
 - **Cascading**: A → B → C → ... (chain reactio
-- [[AGENT_TEMPLATE]]
+- AGENT_TEMPLATE
 
 ---
 **MOC:** [[amos-causal-reasoning-master_MOC]]
@@ -224,7 +224,7 @@ Origin architect: **Trang Phan**. Domain: causal. Parent: none. Epistemic class:
 - `amos-causal-reasoning-master-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -234,7 +234,7 @@ Origin architect: **Trang Phan**. Domain: causal. Parent: none. Epistemic class:
 RSCF-NODE
 node_id: amos-causal-reasoning-master
 node_type: skill
-path: 07_SKILLS/amos-causal-reasoning-master/[[SKILL]].md
+path: 07_SKILLS/amos-causal-reasoning-master/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

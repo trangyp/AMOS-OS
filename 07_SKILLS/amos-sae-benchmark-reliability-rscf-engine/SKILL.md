@@ -254,7 +254,7 @@ From C02 Math & Compute: Sparse Autoencoder (SAE) benchmarking and reliability. 
 - `amos-sae-benchmark-reliability-rscf-engine-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -264,7 +264,7 @@ From C02 Math & Compute: Sparse Autoencoder (SAE) benchmarking and reliability. 
 RSCF-NODE
 node_id: amos-sae-benchmark-reliability-rscf-engine
 node_type: skill
-path: 07_SKILLS/amos-sae-benchmark-reliability-rscf-engine/[[SKILL]].md
+path: 07_SKILLS/amos-sae-benchmark-reliability-rscf-engine/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

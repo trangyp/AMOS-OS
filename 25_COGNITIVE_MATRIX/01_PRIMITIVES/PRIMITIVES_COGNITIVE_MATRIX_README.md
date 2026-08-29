@@ -27,7 +27,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# PRIMITIVES COGNITIVE MATRIX [[README]]
+# PRIMITIVES COGNITIVE MATRIX README
 
 ## Purpose
 `PRIMITIVES COGNITIVE MATRIX README` is the package readme for the **Cognitive Matrix** plane segment at `25_COGNITIVE_MATRIX/01_PRIMITIVES`.

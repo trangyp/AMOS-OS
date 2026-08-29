@@ -3736,7 +3736,7 @@ The ownership split across `12_GENERATORS` is now clean:
 PROVENANCE.md
 → where Generator inputs/outputs came from
 
-[[VALIDATION]].md
+VALIDATION.md
 → whether a Generator/output satisfies declared requirements
 
 TESTS.md
@@ -3748,7 +3748,7 @@ TESTS.md
 GENERATORS_AUDIT.md
 → independent cross-layer examination of whether the whole control story is actually supported
 
-[[INTEGRATION]].md
+INTEGRATION.md
 → how Generators connect to the rest of AMOS
 
 [[ROADMAP]].md

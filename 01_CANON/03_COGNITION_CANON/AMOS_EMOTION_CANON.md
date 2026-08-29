@@ -1175,7 +1175,7 @@ SAME ACTION
 
 # 29. Purpose
 
-This artifact reserves the canonical [[CANON]] slot for future verified native content associated with:
+This artifact reserves the canonical CANON slot for future verified native content associated with:
 
 ```text
 AMOS Emotion Canon
@@ -5302,7 +5302,7 @@ validation_status = NOT_ESTABLISHED
 executable_binding = NOT_ESTABLISHED
 ```
 
-The source establishes canon-governance boundaries and target [[CANON]]-mutation semantics.
+The source establishes canon-governance boundaries and target CANON-mutation semantics.
 
 It does **not** establish:
 
@@ -5542,12 +5542,12 @@ ONE FAILED EMOTION CLASSIFICATION != ALL EMOTION CANON INVALID
 | Artifact path                     | SOURCE-SUPPORTED           | preserve exact path              |
 | Framework label                   | SOURCE-SUPPORTED           | native identity validation       |
 | Cognition-canon placement         | SOURCE-SUPPORTED           | preserve lineage                 |
-| Artifact kind = [[CANON]]             | SOURCE-SUPPORTED           | preserve type                    |
+| Artifact kind = CANON             | SOURCE-SUPPORTED           | preserve type                    |
 | Frontmatter artifact_id           | SOURCE-SUPPORTED           | preserve exact value             |
 | RSCF node_id                      | SOURCE-SUPPORTED           | preserve exact value             |
 | artifact_id/node_id textual match | SOURCE-SUPPORTED           | semantic resolver still required |
 | Integrity boundaries              | SOURCE-SUPPORTED           | preserve distinctions            |
-| [[CANON]] mutation target semantics   | SOURCE-SUPPORTED           | implementation validation        |
+| CANON mutation target semantics   | SOURCE-SUPPORTED           | implementation validation        |
 | Emotion definition                | UNKNOWN/GAP                | verified native source           |
 | Affect definition                 | UNKNOWN/GAP                | verified native source if used   |
 | Feeling definition                | UNKNOWN/GAP                | verified native source if used   |
@@ -6009,7 +6009,7 @@ RSCF-RELATIONS:
 
 **Canon governance boundaries:** SOURCE-SUPPORTED
 
-**[[CANON]]-operation target semantics:** SOURCE-SUPPORTED
+**CANON-operation target semantics:** SOURCE-SUPPORTED
 
 **Native emotion definition:** NOT_ESTABLISHED
 

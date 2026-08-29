@@ -36,7 +36,7 @@ rscf:
 **Origin Architect / Steward:** Trang Phan
 **Implementation Status:** NOT ESTABLISHED BY THIS DOCUMENT
 **Empirical Validation Status:** NOT ESTABLISHED BY THIS DOCUMENT
-**Canon Status:** NOT FINAL [[CANON]]
+**Canon Status:** NOT FINAL CANON
 **Supersession:** Only through the appropriate AMOS provenance / governance / supersession process
 
 ---
@@ -1121,7 +1121,7 @@ Other valid capsule components remain reusable.
 
 ---
 
-# 45. RSCF [[INTEGRATION]]
+# 45. RSCF INTEGRATION
 
 Falsification is first-class inside RSCF reasoning.
 
@@ -1155,7 +1155,7 @@ It does not automatically invalidate unrelated conclusions based solely on $R_1$
 
 ---
 
-# 47. GMEF [[INTEGRATION]]
+# 47. GMEF INTEGRATION
 
 For competing models:
 
@@ -1889,7 +1889,7 @@ It does not establish universal correctness.
 
 ---
 
-# 84. [[CANON]] RELATIONSHIPS
+# 84. CANON RELATIONSHIPS
 
 `Generator Falsification` SHOULD interoperate with, without silently overriding:
 

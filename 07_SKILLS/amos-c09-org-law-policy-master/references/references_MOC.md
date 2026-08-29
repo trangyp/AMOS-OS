@@ -84,7 +84,7 @@ rscf:
 - [[core_v47_hardened_governance]]
 - [[crisis_management_kernel]]
 - [[deterministic_organisation_governance]]
-- [[domain_config]]
+- domain_config
 - [[ethical_reasoning_kernel]]
 - [[ethics_as_infrastructure]]
 - [[global_legal_engine]]
@@ -113,7 +113,7 @@ rscf:
 - [[ubi_law_families]]
 - [[uni_power_strategic_governance]]
 - [[unified_org_systems_engine]]
-- [[vault_domain_knowledge]]
+- vault_domain_knowledge
 - [[vn_legal_engine]]
 - [[vn_legal_engine_domains]]
 - [[vn_legal_engine_v0_domains]]
@@ -126,9 +126,9 @@ rscf:
 **Parent:** [[amos-c09-org-law-policy-master_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -140,4 +140,4 @@ path: 07_SKILLS/amos-c09-org-law-policy-master/references/references_MOC.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

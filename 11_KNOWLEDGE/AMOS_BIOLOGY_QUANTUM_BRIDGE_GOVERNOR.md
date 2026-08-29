@@ -2512,7 +2512,7 @@ A widely repeated quantum-consciousness claim does not gain independent support 
 
 # 168. Documentation ≠ Validation
 
-[[README]] or documentation statements remain:
+README or documentation statements remain:
 
 ```text
 SOURCE_CLAIM

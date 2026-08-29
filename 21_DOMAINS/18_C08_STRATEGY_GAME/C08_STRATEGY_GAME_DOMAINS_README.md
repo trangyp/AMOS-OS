@@ -28,7 +28,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# C08 STRATEGY GAME DOMAINS [[README]]
+# C08 STRATEGY GAME DOMAINS README
 
 ## Purpose
 `C08 STRATEGY GAME DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/18_C08_STRATEGY_GAME`.

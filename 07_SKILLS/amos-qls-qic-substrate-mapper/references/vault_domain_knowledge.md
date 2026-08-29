@@ -220,7 +220,7 @@ captures transitions. The `transition_mode()` method now appends a
 > Source: `cosmo-brain/AMOS_COGNITIVE_SUBSTRATE_MEMORY_GRAPH.py` (27 self-tests)
 > Test: `cosmo-brain/test_cognitive_substrate_memory_graph.py` (11 integration, 38 total)
 > Skill: amos-cognitive-substrate-memory-graph
-> See also: [[2026_08_22_COGNITIVE_SUBSTRATE_REALITY_GATE]] · [[2026_08_22_COGNITIVE_SUBSTRATE_REASONING_GRAPH]] · [[2026_08_22_AMOS_OBSIDIAN_MEMORY_BRIDGE]]
+> See also: 2026_08_22_COGNITIVE_SUBSTRATE_REALITY_GATE · 2026_08_22_COGNITIVE_SUBSTRATE_REASONING_GRAPH · 2026_08_22_AMOS_OBSIDIAN_MEMORY_BRIDGE
 
 ## 1. The problem this solves
 
@@ -282,12 +282,12 @@ Retrieval is modeled as graph traversal with path provenance. Failure is separat
 `STORE_FAILURE | INDEX_FAILURE | QUERY_FAIL
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -299,4 +299,4 @@ path: 07_SKILLS/amos-qls-qic-substrate-mapper/references/vault_domain_knowledge.
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

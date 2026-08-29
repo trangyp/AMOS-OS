@@ -166,7 +166,7 @@ gaps:
 
 > [!note] Source preface
 >
-> I checked the exact `MODEL_MAP.md` in Drive. The native file confirms the same load-bearing nucleus: local scope is `13_MODELS/00_INDEX`, reading order is [[README]] → contract → artifacts, cross-segment edges are delegated to `` and ``, graph validation is `PARTIAL`, and the six-stage Admit → Commit/Hold semantics are present.
+> I checked the exact `MODEL_MAP.md` in Drive. The native file confirms the same load-bearing nucleus: local scope is `13_MODELS/00_INDEX`, reading order is README → contract → artifacts, cross-segment edges are delegated to `` and ``, graph validation is `PARTIAL`, and the six-stage Admit → Commit/Hold semantics are present.
 > 
 > Below is the **full expanded Obsidian note**, preserving that source canon while adding typed map semantics, provenance, scope/regime firewalls, H/M/L navigation, competing-model handling, graph invariants, validation contracts, negative cases, RSCF structure, and explicit `UNKNOWN/GAP` boundaries rather than inventing implementation.
 
@@ -376,7 +376,7 @@ It reduces the risk of interpreting an artifact before knowing:
 The fact that the README comes first does not imply:
 
 ```text
-[[README]] > CONTRACT > ARTIFACT
+README > CONTRACT > ARTIFACT
 ```
 
 as a universal law hierarchy.
@@ -911,7 +911,7 @@ Use the smallest dependency closure capable of changing the answer.
 Example:
 
 ```text
-[[README]]
+README
 +
 CONTRACT
 +
@@ -1671,7 +1671,7 @@ MODEL
 MODEL_FAMILY
 MODEL_VERSION
 CONTRACT
-[[README]]
+README
 INDEX
 RECEIPT
 EVIDENCE
@@ -1706,7 +1706,7 @@ Normalized candidate relation types include:
 
 ```text
 INDEXES
-[[REFERENCES]]
+REFERENCES
 DEPENDS_ON
 DERIVED_FROM
 GOVERNED_BY
@@ -1734,7 +1734,7 @@ ARE NOT INTERCHANGEABLE
 # 109. REFERENCES ≠ DEPENDS_ON
 
 ```text
-A [[REFERENCES]] B
+A REFERENCES B
 ≠
 A DEPENDS_ON B
 ```
@@ -1802,14 +1802,14 @@ Do not assume arbitrary edge types are transitive.
 Example:
 
 ```text
-A [[REFERENCES]] B
-B [[REFERENCES]] C
+A REFERENCES B
+B REFERENCES C
 ```
 
 does not necessarily mean:
 
 ```text
-A [[REFERENCES]] C
+A REFERENCES C
 ```
 
 ---
@@ -1937,7 +1937,7 @@ These are contextual validation references.
 ```text
 RELATED RECEIPT
 ≠
-ARTIFACT-SPECIFIC COMPLETE [[VALIDATION]]
+ARTIFACT-SPECIFIC COMPLETE VALIDATION
 ```
 
 unless the receipt explicitly covers this map and all relevant gates.
@@ -2602,7 +2602,7 @@ INVENT MODEL
 Input:
 
 ```text
-[[MODEL_X
+MODEL_X
 text
 MALFORMED
 text
@@ -2680,7 +2680,7 @@ LOCAL RESOLUTION
 text
 MODEL_MAP
 ↓
-[[00_ROOT_MAP]]
+[[00_ROOT_MAP
 and/or
 [[AMOS_RSCF_NODES]]
 ↓
@@ -3271,7 +3271,7 @@ Binding:
 If this normalized expansion conflicts with stronger canon:
 
 ```text
-STRONGER [[CANON]] WINS
+STRONGER CANON WINS
 ```
 
 ---
@@ -3339,7 +3339,7 @@ MODEL ARTIFACT
 ```text
 MODEL_MAP
 ↓
-[[README]]
+README
 ↓
 CONTRACT
 ↓
@@ -3934,7 +3934,7 @@ NODE CLASS
 =
 AMOS_MODEL
 
-EXECUTABLE GRAPH [[VALIDATION]]
+EXECUTABLE GRAPH VALIDATION
 =
 PARTIAL
 ```
@@ -4152,19 +4152,19 @@ IDENTITY BINDING
 ↓
 VERSION BINDING
 ↓
-LOCAL GRAPH [[VALIDATION]]
+LOCAL GRAPH VALIDATION
 ↓
-CROSS-SEGMENT ROUTING [[VALIDATION]]
+CROSS-SEGMENT ROUTING VALIDATION
 ↓
 NEGATIVE TESTS
 ↓
-PROVENANCE [[VALIDATION]]
+PROVENANCE VALIDATION
 ↓
-SCOPE / REGIME [[VALIDATION]]
+SCOPE / REGIME VALIDATION
 ↓
-AUTHORITY [[VALIDATION]]
+AUTHORITY VALIDATION
 ↓
-ROLLBACK [[VALIDATION]]
+ROLLBACK VALIDATION
 ↓
 ARTIFACT-SPECIFIC RECEIPT
 ↓
@@ -4260,13 +4260,13 @@ OWN DIRECTORY ONLY
 
 READING ORDER
 =
-[[README]]
+README
 →
 CONTRACT
 →
 ARTIFACTS
 
-[[README]]
+README
 =
 ORIENTATION
 
@@ -4371,11 +4371,11 @@ UNAFFECTED VALID STATE
 →
 PRESERVE
 
-EXECUTABLE GRAPH [[VALIDATION]]
+EXECUTABLE GRAPH VALIDATION
 =
 PARTIAL
 
-ARTIFACT-SPECIFIC [[VALIDATION]] RECEIPT
+ARTIFACT-SPECIFIC VALIDATION RECEIPT
 =
 UNKNOWN/GAP
 ```
@@ -4593,7 +4593,7 @@ RSCF-PROOF-CAPSULE:
   load_bearing_premises:
     - local scope is 13_MODELS/00_INDEX
     - map covers its own directory only
-    - [[README]] provides orientation
+    - README provides orientation
     - contract provides normative terms
     - artifacts are interpreted under the contract
     - cross-segment edges are external to the local map
@@ -4658,7 +4658,7 @@ RSCF-PROOF-CAPSULE:
 Its source-grounded orientation law is:
 
 ```text
-[[README]]
+README
 →
 ORIENTATION
 ```
@@ -4828,7 +4828,7 @@ PASS
 Its current source-grounded implementation boundary remains:
 
 ```text
-EXECUTABLE GRAPH [[VALIDATION]]
+EXECUTABLE GRAPH VALIDATION
 =
 PARTIAL
 ```
@@ -4864,7 +4864,7 @@ COMPETING-MODEL PRESERVATION
 +
 SELECTIVE INVALIDATION
 +
-PARTIAL EXECUTABLE GRAPH [[VALIDATION]]
+PARTIAL EXECUTABLE GRAPH VALIDATION
 +
 CONDITIONAL PROMOTION STATUS
 ```

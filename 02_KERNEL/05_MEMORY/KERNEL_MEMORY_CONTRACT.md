@@ -27,10 +27,10 @@ rscf:
   scope: AMOS_general
 ---
 
-# KERNEL [[MEMORY]] CONTRACT
+# KERNEL MEMORY CONTRACT
 
 ## 0. Status
-Kernel-plane contract for **[[MEMORY]] CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
+Kernel-plane contract for **MEMORY CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
 ## 1. Scope
 Governs kernel-plane reasoning primitives: meta-logic, cognition, causality, state, memory, risk-repair, authority, provenance, integration as they bear on `MEMORY CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.

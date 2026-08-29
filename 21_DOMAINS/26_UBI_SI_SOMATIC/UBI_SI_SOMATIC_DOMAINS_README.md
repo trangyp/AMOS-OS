@@ -28,7 +28,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# UBI SI SOMATIC DOMAINS [[README]]
+# UBI SI SOMATIC DOMAINS README
 
 ## Purpose
 `UBI SI SOMATIC DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/26_UBI_SI_SOMATIC`.

@@ -29,7 +29,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX RISK REPAIR KERNEL [[README]]
+# INDEX RISK REPAIR KERNEL README
 
 ## Index
 - See also — [[RISK_REPAIR_KERNEL_RISK_REPAIR_CONTRACT]]

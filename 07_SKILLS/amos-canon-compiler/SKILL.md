@@ -229,7 +229,7 @@ Canon compilation is an organizational process. It does not prove the canon is t
 - `amos-canon-compiler-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -239,7 +239,7 @@ Canon compilation is an organizational process. It does not prove the canon is t
 RSCF-NODE
 node_id: amos-canon-compiler
 node_type: skill
-path: 07_SKILLS/amos-canon-compiler/[[SKILL]].md
+path: 07_SKILLS/amos-canon-compiler/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

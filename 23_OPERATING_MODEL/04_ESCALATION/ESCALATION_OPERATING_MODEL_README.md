@@ -28,7 +28,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# ESCALATION OPERATING MODEL [[README]]
+# ESCALATION OPERATING MODEL README
 
 ## Purpose
 `ESCALATION OPERATING MODEL README` is the package readme for the **Operating Model** plane segment at `23_OPERATING_MODEL/04_ESCALATION`.

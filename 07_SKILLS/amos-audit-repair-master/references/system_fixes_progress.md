@@ -61,7 +61,7 @@ tags: [system]
 - **Status**: ✅ FIXED - Action gate now operational
 - **Validation**: Module imports successfully, AMOSActionGate functional
 
-### 3. [[MEMORY]] CONTAINMENT - EXCELLENT ✅
+### 3. MEMORY CONTAINMENT - EXCELLENT ✅
 **Current RAM Usage**: 18.3MB (excellent)
 **Memory Guard**: Active and enforcing 6GB limit
 **SAFE_MODE**: Active preventing background processes
@@ -131,16 +131,16 @@ K = {Governance, Incentive, Enforcement, Information, Recourse, Audit, Evolution
 - **Evidence Integrity**
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -152,4 +152,4 @@ path: 07_SKILLS/amos-audit-repair-master/references/system_fixes_progress.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

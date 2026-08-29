@@ -28,7 +28,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# UBI SUPER DOMAINS [[README]]
+# UBI SUPER DOMAINS README
 
 ## Purpose
 `UBI SUPER DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/27_UBI_SUPER`.

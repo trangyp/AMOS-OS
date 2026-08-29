@@ -107,7 +107,7 @@ The loop has 4 transition types:
 | Con
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 ## Related
 

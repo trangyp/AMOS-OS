@@ -195,84 +195,84 @@ Legend:
 | `01_CANON/00_INDEX/CANON_IP_REGISTRY.md` | `amos_01_canon_00_index_canon_ip_registry` | Canon IP Registry | AMOS_MODEL | REGISTRY | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/00_INDEX/CANON_TRADENAME_REGISTRY.md` | `amos_01_canon_00_index_canon_tradename_registry` | Canon Tradename Registry | AMOS_MODEL | REGISTRY | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/00_INDEX/CANON_ACTIVE_LEGACY_MATRIX.md` | `amos_01_canon_00_index_canon_active_legacy_matrix` | Canon Active vs Legacy Matrix | AMOS_MODEL | MATRIX | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/00_INDEX/CANON_SOURCE_COVERAGE.md` | `amos_01_canon_00_index_canon_source_coverage` | Canon Source Coverage | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/00_INDEX/CANON_SOURCE_COVERAGE.md` | `amos_01_canon_00_index_canon_source_coverage` | Canon Source Coverage | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/00_INDEX/CANON_COMPLETENESS_AUDIT.md` | `amos_01_canon_00_index_canon_completeness_audit` | Canon Completeness Audit | AMOS_MODEL | AUDIT | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/01_CORE_LAWS/ABSOLUTE_LOGIC_CANON.md` | `amos_01_canon_01_core_laws_absolute_logic_canon` | Absolute Logic Canon | AMOS_MODEL | LOG | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/01_CORE_LAWS/UNIVERSE_LOGIC_KERNEL_CANON.md` | `amos_01_canon_01_core_laws_universe_logic_kernel_canon` | Universe Logic Kernel Canon | AMOS_MODEL | LOG | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/01_CORE_LAWS/ABSOLUTE_INTEGRITY_CANON.md` | `amos_01_canon_01_core_laws_absolute_integrity_canon` | Absolute Integrity Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/01_CORE_LAWS/ABSOLUTE_STRUCTURAL_INTEGRITY_CANON.md` | `amos_01_canon_01_core_laws_absolute_structural_integrity_canon` | Absolute Structural Integrity Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/01_CORE_LAWS/ABSOLUTE_INTEGRITY_CANON.md` | `amos_01_canon_01_core_laws_absolute_integrity_canon` | Absolute Integrity Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/01_CORE_LAWS/ABSOLUTE_STRUCTURAL_INTEGRITY_CANON.md` | `amos_01_canon_01_core_laws_absolute_structural_integrity_canon` | Absolute Structural Integrity Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/01_CORE_LAWS/BIO_LOGICAL_LAWS_CANON.md` | `amos_01_canon_01_core_laws_bio_logical_laws_canon` | Bio-Logical Laws Canon | AMOS_MODEL | LOG | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/01_CORE_LAWS/RULE_OF_2_CANON.md` | `amos_01_canon_01_core_laws_rule_of_2_canon` | Rule of 2 Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/01_CORE_LAWS/RULE_OF_4_CANON.md` | `amos_01_canon_01_core_laws_rule_of_4_canon` | Rule of 4 Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/01_CORE_LAWS/CORE19_CANON.md` | `amos_01_canon_01_core_laws_core19_canon` | CORE-19 Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/01_CORE_LAWS/LOAD_CAPACITY_FEEDBACK_CANON.md` | `amos_01_canon_01_core_laws_load_capacity_feedback_canon` | Load Capacity Feedback Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/01_CORE_LAWS/COLLAPSE_RECOVERY_CANON.md` | `amos_01_canon_01_core_laws_collapse_recovery_canon` | Collapse Recovery Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/01_CORE_LAWS/IDENTITY_CONTINUITY_CANON.md` | `amos_01_canon_01_core_laws_identity_continuity_canon` | Identity Continuity Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/01_CORE_LAWS/RULE_OF_2_CANON.md` | `amos_01_canon_01_core_laws_rule_of_2_canon` | Rule of 2 Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/01_CORE_LAWS/RULE_OF_4_CANON.md` | `amos_01_canon_01_core_laws_rule_of_4_canon` | Rule of 4 Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/01_CORE_LAWS/CORE19_CANON.md` | `amos_01_canon_01_core_laws_core19_canon` | CORE-19 Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/01_CORE_LAWS/LOAD_CAPACITY_FEEDBACK_CANON.md` | `amos_01_canon_01_core_laws_load_capacity_feedback_canon` | Load Capacity Feedback Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/01_CORE_LAWS/COLLAPSE_RECOVERY_CANON.md` | `amos_01_canon_01_core_laws_collapse_recovery_canon` | Collapse Recovery Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/01_CORE_LAWS/IDENTITY_CONTINUITY_CANON.md` | `amos_01_canon_01_core_laws_identity_continuity_canon` | Identity Continuity Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/01_CORE_LAWS/CANON_LAW_CROSSWALK.md` | `amos_01_canon_01_core_laws_canon_law_crosswalk` | Canon Law Crosswalk | AMOS_MODEL | CROSSWALK | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/02_UNIVERSE_CANON/ABSOLUTE_OMNIVERSE_U_INFINITY_CANON.md` | `amos_01_canon_02_universe_canon_absolute_omniverse_u_infinity_canon` | Absolute Omniverse / U-Infinity Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/02_UNIVERSE_CANON/UNIVERSE_TOTAL_CANON.md` | `amos_01_canon_02_universe_canon_universe_total_canon` | Universe Total Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/02_UNIVERSE_CANON/SEVEN_PART_UNIVERSE_CANON_MASTER.md` | `amos_01_canon_02_universe_canon_seven_part_universe_canon_master` | Seven-Part Universe Canon Master | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/02_UNIVERSE_CANON/SEVEN_PART_UNIVERSE_CANON_V2.md` | `amos_01_canon_02_universe_canon_seven_part_universe_canon_v2` | Seven-Part Universe Canon v2 | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/02_UNIVERSE_CANON/UNIVERSAL_FIELD_ARCHITECTURE_CANON.md` | `amos_01_canon_02_universe_canon_universal_field_architecture_canon` | Universal Field Architecture Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/02_UNIVERSE_CANON/UNIVERSE_STRUCTURE_TREE_CANON.md` | `amos_01_canon_02_universe_canon_universe_structure_tree_canon` | Universe Structure Tree Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/02_UNIVERSE_CANON/UNIVERSE_INTERACTION_CANON.md` | `amos_01_canon_02_universe_canon_universe_interaction_canon` | Universe Interaction Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/02_UNIVERSE_CANON/UNIVERSE_BEHAVIOUR_CANON.md` | `amos_01_canon_02_universe_canon_universe_behaviour_canon` | Universe Behaviour Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/02_UNIVERSE_CANON/OMEGA_ARCHITECTURE_CANON.md` | `amos_01_canon_02_universe_canon_omega_architecture_canon` | Omega Architecture Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/02_UNIVERSE_CANON/OMEGA_QUANTUM_STACK_CANON.md` | `amos_01_canon_02_universe_canon_omega_quantum_stack_canon` | Omega Quantum Stack Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/02_UNIVERSE_CANON/QUANTUM_CAUSAL_ARCHITECTURE_CANON.md` | `amos_01_canon_02_universe_canon_quantum_causal_architecture_canon` | Quantum Causal Architecture Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/02_UNIVERSE_CANON/QCLA_CANON.md` | `amos_01_canon_02_universe_canon_qcla_canon` | QCLA Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/02_UNIVERSE_CANON/QLS_CANON.md` | `amos_01_canon_02_universe_canon_qls_canon` | QLS Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/02_UNIVERSE_CANON/URK_CANON.md` | `amos_01_canon_02_universe_canon_urk_canon` | URK Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/02_UNIVERSE_CANON/ULK_CANON.md` | `amos_01_canon_02_universe_canon_ulk_canon` | ULK Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/02_UNIVERSE_CANON/REALITY_ARCHITECTURE_CANON.md` | `amos_01_canon_02_universe_canon_reality_architecture_canon` | Reality Architecture Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/02_UNIVERSE_CANON/ABSOLUTE_OMNIVERSE_U_INFINITY_CANON.md` | `amos_01_canon_02_universe_canon_absolute_omniverse_u_infinity_canon` | Absolute Omniverse / U-Infinity Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/02_UNIVERSE_CANON/UNIVERSE_TOTAL_CANON.md` | `amos_01_canon_02_universe_canon_universe_total_canon` | Universe Total Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/02_UNIVERSE_CANON/SEVEN_PART_UNIVERSE_CANON_MASTER.md` | `amos_01_canon_02_universe_canon_seven_part_universe_canon_master` | Seven-Part Universe Canon Master | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/02_UNIVERSE_CANON/SEVEN_PART_UNIVERSE_CANON_V2.md` | `amos_01_canon_02_universe_canon_seven_part_universe_canon_v2` | Seven-Part Universe Canon v2 | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/02_UNIVERSE_CANON/UNIVERSAL_FIELD_ARCHITECTURE_CANON.md` | `amos_01_canon_02_universe_canon_universal_field_architecture_canon` | Universal Field Architecture Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/02_UNIVERSE_CANON/UNIVERSE_STRUCTURE_TREE_CANON.md` | `amos_01_canon_02_universe_canon_universe_structure_tree_canon` | Universe Structure Tree Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/02_UNIVERSE_CANON/UNIVERSE_INTERACTION_CANON.md` | `amos_01_canon_02_universe_canon_universe_interaction_canon` | Universe Interaction Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/02_UNIVERSE_CANON/UNIVERSE_BEHAVIOUR_CANON.md` | `amos_01_canon_02_universe_canon_universe_behaviour_canon` | Universe Behaviour Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/02_UNIVERSE_CANON/OMEGA_ARCHITECTURE_CANON.md` | `amos_01_canon_02_universe_canon_omega_architecture_canon` | Omega Architecture Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/02_UNIVERSE_CANON/OMEGA_QUANTUM_STACK_CANON.md` | `amos_01_canon_02_universe_canon_omega_quantum_stack_canon` | Omega Quantum Stack Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/02_UNIVERSE_CANON/QUANTUM_CAUSAL_ARCHITECTURE_CANON.md` | `amos_01_canon_02_universe_canon_quantum_causal_architecture_canon` | Quantum Causal Architecture Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/02_UNIVERSE_CANON/QCLA_CANON.md` | `amos_01_canon_02_universe_canon_qcla_canon` | QCLA Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/02_UNIVERSE_CANON/QLS_CANON.md` | `amos_01_canon_02_universe_canon_qls_canon` | QLS Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/02_UNIVERSE_CANON/URK_CANON.md` | `amos_01_canon_02_universe_canon_urk_canon` | URK Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/02_UNIVERSE_CANON/ULK_CANON.md` | `amos_01_canon_02_universe_canon_ulk_canon` | ULK Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/02_UNIVERSE_CANON/REALITY_ARCHITECTURE_CANON.md` | `amos_01_canon_02_universe_canon_reality_architecture_canon` | Reality Architecture Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/02_UNIVERSE_CANON/TRANG_ZERO_FRAMEWORK_CANON.md` | `amos_01_canon_02_universe_canon_trang_zero_framework_canon` | Trang Zero Framework Canon | AMOS_MODEL | FRAMEWORK | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_CANON.md` | `amos_01_canon_02_universe_canon_khung_trang_canon` | Khung Trang Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_EQUATIONS_CANON.md` | `amos_01_canon_02_universe_canon_khung_trang_equations_canon` | Khung Trang Equations Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/02_UNIVERSE_CANON/REALITY_FIELD_CAUSALITY_CANON.md` | `amos_01_canon_02_universe_canon_reality_field_causality_canon` | Reality Field Causality Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_CANON.md` | `amos_01_canon_02_universe_canon_khung_trang_canon` | Khung Trang Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_EQUATIONS_CANON.md` | `amos_01_canon_02_universe_canon_khung_trang_equations_canon` | Khung Trang Equations Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/02_UNIVERSE_CANON/REALITY_FIELD_CAUSALITY_CANON.md` | `amos_01_canon_02_universe_canon_reality_field_causality_canon` | Reality Field Causality Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/02_UNIVERSE_CANON/UNIVERSE_CANON_LINEAGE.md` | `amos_01_canon_02_universe_canon_universe_canon_lineage` | Universe Canon Lineage | AMOS_MODEL | LINEAGE | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/03_COGNITION_CANON/AMOS_FULL_BRAIN_OS_MASTER_CANON.md` | `amos_01_canon_03_cognition_canon_amos_full_brain_os_master_canon` | AMOS Full Brain OS Master Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/03_COGNITION_CANON/AMOS_SUPER_MIND_OS_CANON.md` | `amos_01_canon_03_cognition_canon_amos_super_mind_os_canon` | AMOS Super Mind OS Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/03_COGNITION_CANON/AMOS_SUPER_CONSCIOUSNESS_CANON.md` | `amos_01_canon_03_cognition_canon_amos_super_consciousness_canon` | AMOS Super Consciousness Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/03_COGNITION_CANON/AMOS_HUMAN_INTELLIGENCE_CANON.md` | `amos_01_canon_03_cognition_canon_amos_human_intelligence_canon` | AMOS Human Intelligence Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/03_COGNITION_CANON/AMOS_COGNITION_MASTER_CANON.md` | `amos_01_canon_03_cognition_canon_amos_cognition_master_canon` | AMOS Cognition Master Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/03_COGNITION_CANON/AMOS_EMOTION_MASTER_CANON.md` | `amos_01_canon_03_cognition_canon_amos_emotion_master_canon` | AMOS Emotion Master Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/03_COGNITION_CANON/AMOS_PERSONALITY_CANON.md` | `amos_01_canon_03_cognition_canon_amos_personality_canon` | AMOS Personality Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/03_COGNITION_CANON/AMOS_IDENTITY_CANON.md` | `amos_01_canon_03_cognition_canon_amos_identity_canon` | AMOS Identity Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/03_COGNITION_CANON/AMOS_INSTINCT_CANON.md` | `amos_01_canon_03_cognition_canon_amos_instinct_canon` | AMOS Instinct Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/03_COGNITION_CANON/AMOS_INTUITION_CANON.md` | `amos_01_canon_03_cognition_canon_amos_intuition_canon` | AMOS Intuition Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/03_COGNITION_CANON/AMOS_CONSCIOUSNESS_CANON.md` | `amos_01_canon_03_cognition_canon_amos_consciousness_canon` | AMOS Consciousness Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/03_COGNITION_CANON/AMOS_METACOGNITION_CANON.md` | `amos_01_canon_03_cognition_canon_amos_metacognition_canon` | AMOS Metacognition Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/03_COGNITION_CANON/AMOS_MEMORY_CANON.md` | `amos_01_canon_03_cognition_canon_amos_memory_canon` | AMOS Memory Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/03_COGNITION_CANON/AMOS_WORLD_MODEL_CANON.md` | `amos_01_canon_03_cognition_canon_amos_world_model_canon` | AMOS World Model Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/03_COGNITION_CANON/AMOS_PREDICTION_CANON.md` | `amos_01_canon_03_cognition_canon_amos_prediction_canon` | AMOS Prediction Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/03_COGNITION_CANON/AMOS_LEARNING_CANON.md` | `amos_01_canon_03_cognition_canon_amos_learning_canon` | AMOS Learning Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/03_COGNITION_CANON/AMOS_AGENCY_CANON.md` | `amos_01_canon_03_cognition_canon_amos_agency_canon` | AMOS Agency Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/03_COGNITION_CANON/AMOS_HOMEOSTASIS_CANON.md` | `amos_01_canon_03_cognition_canon_amos_homeostasis_canon` | AMOS Homeostasis Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/03_COGNITION_CANON/AMOS_COGNITIVE_FIELD_CANON.md` | `amos_01_canon_03_cognition_canon_amos_cognitive_field_canon` | AMOS Cognitive Field Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/03_COGNITION_CANON/AMOS_FULL_BRAIN_OS_MASTER_CANON.md` | `amos_01_canon_03_cognition_canon_amos_full_brain_os_master_canon` | AMOS Full Brain OS Master Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/03_COGNITION_CANON/AMOS_SUPER_MIND_OS_CANON.md` | `amos_01_canon_03_cognition_canon_amos_super_mind_os_canon` | AMOS Super Mind OS Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/03_COGNITION_CANON/AMOS_SUPER_CONSCIOUSNESS_CANON.md` | `amos_01_canon_03_cognition_canon_amos_super_consciousness_canon` | AMOS Super Consciousness Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/03_COGNITION_CANON/AMOS_HUMAN_INTELLIGENCE_CANON.md` | `amos_01_canon_03_cognition_canon_amos_human_intelligence_canon` | AMOS Human Intelligence Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/03_COGNITION_CANON/AMOS_COGNITION_MASTER_CANON.md` | `amos_01_canon_03_cognition_canon_amos_cognition_master_canon` | AMOS Cognition Master Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/03_COGNITION_CANON/AMOS_EMOTION_MASTER_CANON.md` | `amos_01_canon_03_cognition_canon_amos_emotion_master_canon` | AMOS Emotion Master Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/03_COGNITION_CANON/AMOS_PERSONALITY_CANON.md` | `amos_01_canon_03_cognition_canon_amos_personality_canon` | AMOS Personality Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/03_COGNITION_CANON/AMOS_IDENTITY_CANON.md` | `amos_01_canon_03_cognition_canon_amos_identity_canon` | AMOS Identity Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/03_COGNITION_CANON/AMOS_INSTINCT_CANON.md` | `amos_01_canon_03_cognition_canon_amos_instinct_canon` | AMOS Instinct Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/03_COGNITION_CANON/AMOS_INTUITION_CANON.md` | `amos_01_canon_03_cognition_canon_amos_intuition_canon` | AMOS Intuition Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/03_COGNITION_CANON/AMOS_CONSCIOUSNESS_CANON.md` | `amos_01_canon_03_cognition_canon_amos_consciousness_canon` | AMOS Consciousness Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/03_COGNITION_CANON/AMOS_METACOGNITION_CANON.md` | `amos_01_canon_03_cognition_canon_amos_metacognition_canon` | AMOS Metacognition Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/03_COGNITION_CANON/AMOS_MEMORY_CANON.md` | `amos_01_canon_03_cognition_canon_amos_memory_canon` | AMOS Memory Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/03_COGNITION_CANON/AMOS_WORLD_MODEL_CANON.md` | `amos_01_canon_03_cognition_canon_amos_world_model_canon` | AMOS World Model Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/03_COGNITION_CANON/AMOS_PREDICTION_CANON.md` | `amos_01_canon_03_cognition_canon_amos_prediction_canon` | AMOS Prediction Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/03_COGNITION_CANON/AMOS_LEARNING_CANON.md` | `amos_01_canon_03_cognition_canon_amos_learning_canon` | AMOS Learning Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/03_COGNITION_CANON/AMOS_AGENCY_CANON.md` | `amos_01_canon_03_cognition_canon_amos_agency_canon` | AMOS Agency Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/03_COGNITION_CANON/AMOS_HOMEOSTASIS_CANON.md` | `amos_01_canon_03_cognition_canon_amos_homeostasis_canon` | AMOS Homeostasis Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/03_COGNITION_CANON/AMOS_COGNITIVE_FIELD_CANON.md` | `amos_01_canon_03_cognition_canon_amos_cognitive_field_canon` | AMOS Cognitive Field Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/03_COGNITION_CANON/CROSS_SPECIES_FUNCTIONAL_MODE_CANON.md` | `amos_01_canon_03_cognition_canon_cross_species_functional_mode_canon` | Cross-Species Functional Mode Canon | AMOS_MODEL | SPEC | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/04_INFRASTRUCTURE_CANON/AMOS_CORE_V3_TO_V4_4_LINEAGE.md` | `amos_01_canon_04_infrastructure_canon_amos_core_v3_to_v4_4_lineage` | AMOS Core v3 to v4.4 Lineage | AMOS_MODEL | LINEAGE | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/04_INFRASTRUCTURE_CANON/AMOS_CORE_V4_4_CANON.md` | `amos_01_canon_04_infrastructure_canon_amos_core_v4_4_canon` | AMOS Core v4.4 Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/04_INFRASTRUCTURE_CANON/CANON_INTEGRATION_LAYER_CANON.md` | `amos_01_canon_04_infrastructure_canon_canon_integration_layer_canon` | Canon Integration Layer Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/04_INFRASTRUCTURE_CANON/DOMAIN_CANON_PROGRAMMING_CANON.md` | `amos_01_canon_04_infrastructure_canon_domain_canon_programming_canon` | Domain Canon Programming Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/04_INFRASTRUCTURE_CANON/AMOS_CORE_V4_4_CANON.md` | `amos_01_canon_04_infrastructure_canon_amos_core_v4_4_canon` | AMOS Core v4.4 Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/04_INFRASTRUCTURE_CANON/CANON_INTEGRATION_LAYER_CANON.md` | `amos_01_canon_04_infrastructure_canon_canon_integration_layer_canon` | Canon Integration Layer Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/04_INFRASTRUCTURE_CANON/DOMAIN_CANON_PROGRAMMING_CANON.md` | `amos_01_canon_04_infrastructure_canon_domain_canon_programming_canon` | Domain Canon Programming Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/04_INFRASTRUCTURE_CANON/UNIVERSAL_BIO_LOGICAL_ARCHITECTURE.md` | `amos_01_canon_04_infrastructure_canon_universal_bio_logical_architecture` | Universal Bio-Logical Architecture | AMOS_MODEL | LOG | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/04_INFRASTRUCTURE_CANON/BIO_LOGICAL_COMPUTING_CANON.md` | `amos_01_canon_04_infrastructure_canon_bio_logical_computing_canon` | Bio-Logical Computing Canon | AMOS_MODEL | LOG | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/04_INFRASTRUCTURE_CANON/BIO_LOGICAL_ARCHITECTURE_CANON.md` | `amos_01_canon_04_infrastructure_canon_bio_logical_architecture_canon` | Bio-Logical Architecture Canon | AMOS_MODEL | LOG | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/04_INFRASTRUCTURE_CANON/COGNITIVE_SYSTEMS_ARCHITECTURE_CANON.md` | `amos_01_canon_04_infrastructure_canon_cognitive_systems_architecture_canon` | Cognitive Systems Architecture Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/04_INFRASTRUCTURE_CANON/AMOS_ORGANISM_OS_CANON.md` | `amos_01_canon_04_infrastructure_canon_amos_organism_os_canon` | AMOS Organism OS Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/04_INFRASTRUCTURE_CANON/AMOS_BRAIN_MASTER_OS_CANON.md` | `amos_01_canon_04_infrastructure_canon_amos_brain_master_os_canon` | AMOS Brain Master OS Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/04_INFRASTRUCTURE_CANON/AMOS_MIND_OS_CANON.md` | `amos_01_canon_04_infrastructure_canon_amos_mind_os_canon` | AMOS Mind OS Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/04_INFRASTRUCTURE_CANON/AMOS_OS_AGENT_CANON.md` | `amos_01_canon_04_infrastructure_canon_amos_os_agent_canon` | AMOS OS Agent Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/04_INFRASTRUCTURE_CANON/AMOS_QUANTUM_STACK_CANON.md` | `amos_01_canon_04_infrastructure_canon_amos_quantum_stack_canon` | AMOS Quantum Stack Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/04_INFRASTRUCTURE_CANON/AMOS_GOD_MODE_RUNTIME_CANON.md` | `amos_01_canon_04_infrastructure_canon_amos_god_mode_runtime_canon` | AMOS God Mode Runtime Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/04_INFRASTRUCTURE_CANON/AMOS_EXPRESSION_TRANSLATION_CANON.md` | `amos_01_canon_04_infrastructure_canon_amos_expression_translation_canon` | AMOS Expression Translation Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/04_INFRASTRUCTURE_CANON/RSCF_CANON.md` | `amos_01_canon_04_infrastructure_canon_rscf_canon` | RSCF Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/04_INFRASTRUCTURE_CANON/GMEF_CANON.md` | `amos_01_canon_04_infrastructure_canon_gmef_canon` | GMEF Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/04_INFRASTRUCTURE_CANON/MVCC_CANON.md` | `amos_01_canon_04_infrastructure_canon_mvcc_canon` | MVCC Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/04_INFRASTRUCTURE_CANON/CAS_CANON.md` | `amos_01_canon_04_infrastructure_canon_cas_canon` | CAS Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/04_INFRASTRUCTURE_CANON/CAUSAL_EPOCH_CANON.md` | `amos_01_canon_04_infrastructure_canon_causal_epoch_canon` | Causal Epoch Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/04_INFRASTRUCTURE_CANON/ATOMIC_MULTI_RSCF_CANON.md` | `amos_01_canon_04_infrastructure_canon_atomic_multi_rscf_canon` | Atomic Multi-RSCF Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/04_INFRASTRUCTURE_CANON/SHARD_LOCAL_FINALITY_CANON.md` | `amos_01_canon_04_infrastructure_canon_shard_local_finality_canon` | Shard-Local Finality Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/04_INFRASTRUCTURE_CANON/PROOF_COORDINATION_AVOIDANCE_CANON.md` | `amos_01_canon_04_infrastructure_canon_proof_coordination_avoidance_canon` | Proof Coordination Avoidance Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/04_INFRASTRUCTURE_CANON/COGNITIVE_SYSTEMS_ARCHITECTURE_CANON.md` | `amos_01_canon_04_infrastructure_canon_cognitive_systems_architecture_canon` | Cognitive Systems Architecture Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/04_INFRASTRUCTURE_CANON/AMOS_ORGANISM_OS_CANON.md` | `amos_01_canon_04_infrastructure_canon_amos_organism_os_canon` | AMOS Organism OS Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/04_INFRASTRUCTURE_CANON/AMOS_BRAIN_MASTER_OS_CANON.md` | `amos_01_canon_04_infrastructure_canon_amos_brain_master_os_canon` | AMOS Brain Master OS Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/04_INFRASTRUCTURE_CANON/AMOS_MIND_OS_CANON.md` | `amos_01_canon_04_infrastructure_canon_amos_mind_os_canon` | AMOS Mind OS Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/04_INFRASTRUCTURE_CANON/AMOS_OS_AGENT_CANON.md` | `amos_01_canon_04_infrastructure_canon_amos_os_agent_canon` | AMOS OS Agent Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/04_INFRASTRUCTURE_CANON/AMOS_QUANTUM_STACK_CANON.md` | `amos_01_canon_04_infrastructure_canon_amos_quantum_stack_canon` | AMOS Quantum Stack Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/04_INFRASTRUCTURE_CANON/AMOS_GOD_MODE_RUNTIME_CANON.md` | `amos_01_canon_04_infrastructure_canon_amos_god_mode_runtime_canon` | AMOS God Mode Runtime Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/04_INFRASTRUCTURE_CANON/AMOS_EXPRESSION_TRANSLATION_CANON.md` | `amos_01_canon_04_infrastructure_canon_amos_expression_translation_canon` | AMOS Expression Translation Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/04_INFRASTRUCTURE_CANON/RSCF_CANON.md` | `amos_01_canon_04_infrastructure_canon_rscf_canon` | RSCF Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/04_INFRASTRUCTURE_CANON/GMEF_CANON.md` | `amos_01_canon_04_infrastructure_canon_gmef_canon` | GMEF Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/04_INFRASTRUCTURE_CANON/MVCC_CANON.md` | `amos_01_canon_04_infrastructure_canon_mvcc_canon` | MVCC Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/04_INFRASTRUCTURE_CANON/CAS_CANON.md` | `amos_01_canon_04_infrastructure_canon_cas_canon` | CAS Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/04_INFRASTRUCTURE_CANON/CAUSAL_EPOCH_CANON.md` | `amos_01_canon_04_infrastructure_canon_causal_epoch_canon` | Causal Epoch Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/04_INFRASTRUCTURE_CANON/ATOMIC_MULTI_RSCF_CANON.md` | `amos_01_canon_04_infrastructure_canon_atomic_multi_rscf_canon` | Atomic Multi-RSCF Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/04_INFRASTRUCTURE_CANON/SHARD_LOCAL_FINALITY_CANON.md` | `amos_01_canon_04_infrastructure_canon_shard_local_finality_canon` | Shard-Local Finality Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/04_INFRASTRUCTURE_CANON/PROOF_COORDINATION_AVOIDANCE_CANON.md` | `amos_01_canon_04_infrastructure_canon_proof_coordination_avoidance_canon` | Proof Coordination Avoidance Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/04_INFRASTRUCTURE_CANON/PERSISTENT_PROVENANCE_CANON.md` | `amos_01_canon_04_infrastructure_canon_persistent_provenance_canon` | Persistent Provenance Canon | AMOS_MODEL | PROVENANCE | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/05_VARIABLE_REGISTRY/TRANG_VARIABLE_REGISTRY.md` | `amos_01_canon_05_variable_registry_trang_variable_registry` | TRANG Variable Registry | AMOS_MODEL | REGISTRY | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/05_VARIABLE_REGISTRY/UBI_VARIABLE_REGISTRY.md` | `amos_01_canon_05_variable_registry_ubi_variable_registry` | UBI Variable Registry | AMOS_MODEL | REGISTRY | PASS1 | NATIVE_CANON_SLOT | NEW |
@@ -310,7 +310,7 @@ Legend:
 | `01_CANON/08_SUPERSESSION/UBI_SUPERSESSION.md` | `amos_01_canon_08_supersession_ubi_supersession` | UBI Supersession | AMOS_MODEL | SUPERSESSION | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/08_SUPERSESSION/HERITAGE_SUPERSESSION.md` | `amos_01_canon_08_supersession_heritage_supersession` | Heritage Supersession | AMOS_MODEL | SUPERSESSION | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/08_SUPERSESSION/UNIVERSE_CANON_SUPERSESSION.md` | `amos_01_canon_08_supersession_universe_canon_supersession` | Universe Canon Supersession | AMOS_MODEL | SUPERSESSION | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/08_SUPERSESSION/ACTIVE_VS_LEGACY_CANON.md` | `amos_01_canon_08_supersession_active_vs_legacy_canon` | Active vs Legacy Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/08_SUPERSESSION/ACTIVE_VS_LEGACY_CANON.md` | `amos_01_canon_08_supersession_active_vs_legacy_canon` | Active vs Legacy Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/08_SUPERSESSION/COMPETING_DEFINITION_REGISTRY.md` | `amos_01_canon_08_supersession_competing_definition_registry` | Competing Definition Registry | AMOS_MODEL | REGISTRY | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `02_KERNEL/01_META_LOGIC/K_UNIVERSE_LOGIC_KERNEL.md` | `amos_02_kernel_01_meta_logic_k_universe_logic_kernel` | Universe Logic Kernel | AMOS_MODEL | LOG | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `02_KERNEL/01_META_LOGIC/K_ABSOLUTE_LOGIC.md` | `amos_02_kernel_01_meta_logic_k_absolute_logic` | Absolute Logic | AMOS_MODEL | LOG | PASS1 | NATIVE_CANON_SLOT | NEW |
@@ -348,22 +348,22 @@ Legend:
 | `03_CONTROL_PLANE/03_POLICY/UBI_INTEGRITY_POLICY.md` | `amos_03_control_plane_03_policy_ubi_integrity_policy` | UBI Integrity Policy | AMOS_MODEL | POLICY | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `03_CONTROL_PLANE/03_POLICY/NEUROSYNCAI_GOVERNANCE_POLICY.md` | `amos_03_control_plane_03_policy_neurosyncai_governance_policy` | NeuroSyncAI Governance Policy | AMOS_MODEL | POLICY | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `03_CONTROL_PLANE/03_POLICY/BIO_LOGICAL_GOVERNANCE_POLICY.md` | `amos_03_control_plane_03_policy_bio_logical_governance_policy` | Bio-Logical Governance Policy | AMOS_MODEL | LOG | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `03_CONTROL_PLANE/04_AUTHORITY/CANON_AUTHORITY_CHAIN.md` | `amos_03_control_plane_04_authority_canon_authority_chain` | Canon Authority Chain | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `03_CONTROL_PLANE/04_AUTHORITY/CANON_AUTHORITY_CHAIN.md` | `amos_03_control_plane_04_authority_canon_authority_chain` | Canon Authority Chain | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `03_CONTROL_PLANE/04_AUTHORITY/ORIGIN_ARCHITECT_AUTHORITY.md` | `amos_03_control_plane_04_authority_origin_architect_authority` | Origin Architect Authority | AMOS_MODEL | ARTIFACT | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `03_CONTROL_PLANE/04_AUTHORITY/FRAMEWORK_AUTHORITY_REGISTRY.md` | `amos_03_control_plane_04_authority_framework_authority_registry` | Framework Authority Registry | AMOS_MODEL | REGISTRY | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION/MULTI_RSCF_TRANSACTION.md` | `amos_03_control_plane_06_semantic_transaction_multi_rscf_transaction` | Multi-RSCF Transaction | AMOS_MODEL | ARTIFACT | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION/CANON_SEMANTIC_TRANSACTION.md` | `amos_03_control_plane_06_semantic_transaction_canon_semantic_transaction` | Canon Semantic Transaction | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION/CANON_SEMANTIC_TRANSACTION.md` | `amos_03_control_plane_06_semantic_transaction_canon_semantic_transaction` | Canon Semantic Transaction | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION/CROSS_FRAMEWORK_TRANSACTION.md` | `amos_03_control_plane_06_semantic_transaction_cross_framework_transaction` | Cross-Framework Transaction | AMOS_MODEL | FRAMEWORK | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `03_CONTROL_PLANE/09_COMMIT/CAUSAL_EPOCH_FINALITY.md` | `amos_03_control_plane_09_commit_causal_epoch_finality` | Causal Epoch Finality | AMOS_MODEL | FINALITY | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `03_CONTROL_PLANE/09_COMMIT/SHARD_LOCAL_FINALIZATION.md` | `amos_03_control_plane_09_commit_shard_local_finalization` | Shard-Local Finalization | AMOS_MODEL | FINALIZATION | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `03_CONTROL_PLANE/09_COMMIT/PROOF_BASED_COORDINATION_AVOIDANCE.md` | `amos_03_control_plane_09_commit_proof_based_coordination_avoidance` | Proof-Based Coordination Avoidance | AMOS_MODEL | ARTIFACT | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `03_CONTROL_PLANE/12_ROLLBACK/CANON_LOCAL_INVALIDATION.md` | `amos_03_control_plane_12_rollback_canon_local_invalidation` | Canon Local Invalidation | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `03_CONTROL_PLANE/12_ROLLBACK/CANON_LOCAL_INVALIDATION.md` | `amos_03_control_plane_12_rollback_canon_local_invalidation` | Canon Local Invalidation | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `03_CONTROL_PLANE/12_ROLLBACK/FRAMEWORK_LINEAGE_ROLLBACK.md` | `amos_03_control_plane_12_rollback_framework_lineage_rollback` | Framework Lineage Rollback | AMOS_MODEL | LINEAGE | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `04_RUNTIME/01_BOOT/CANON_BOOTSTRAP.md` | `amos_04_runtime_01_boot_canon_bootstrap` | Canon Bootstrap | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `04_RUNTIME/01_BOOT/CANON_BOOTSTRAP.md` | `amos_04_runtime_01_boot_canon_bootstrap` | Canon Bootstrap | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `04_RUNTIME/01_BOOT/FULL_BRAIN_BOOTSTRAP.md` | `amos_04_runtime_01_boot_full_brain_bootstrap` | Full Brain Bootstrap | AMOS_MODEL | BOOTSTRAP | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `04_RUNTIME/01_BOOT/UBI_BOOTSTRAP.md` | `amos_04_runtime_01_boot_ubi_bootstrap` | UBI Bootstrap | AMOS_MODEL | BOOTSTRAP | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `04_RUNTIME/01_BOOT/UNIVERSE_CANON_BOOTSTRAP.md` | `amos_04_runtime_01_boot_universe_canon_bootstrap` | Universe Canon Bootstrap | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `04_RUNTIME/02_ROUTER/CANON_ROUTER.md` | `amos_04_runtime_02_router_canon_router` | Canon Router | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `04_RUNTIME/01_BOOT/UNIVERSE_CANON_BOOTSTRAP.md` | `amos_04_runtime_01_boot_universe_canon_bootstrap` | Universe Canon Bootstrap | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `04_RUNTIME/02_ROUTER/CANON_ROUTER.md` | `amos_04_runtime_02_router_canon_router` | Canon Router | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `04_RUNTIME/02_ROUTER/FRAMEWORK_ROUTER.md` | `amos_04_runtime_02_router_framework_router` | Framework Router | AMOS_MODEL | FRAMEWORK | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `04_RUNTIME/02_ROUTER/RSCF_ROUTER.md` | `amos_04_runtime_02_router_rscf_router` | RSCF Router | AMOS_MODEL | ROUTER | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `04_RUNTIME/02_ROUTER/HML_ROUTER.md` | `amos_04_runtime_02_router_hml_router` | HML Router | AMOS_MODEL | ROUTER | PASS1 | NATIVE_CANON_SLOT | NEW |
@@ -384,7 +384,7 @@ Legend:
 | `05_COGNITIVE_ORGANISM/04_COGNITION/FIRST_PRINCIPLES_REASONING.md` | `amos_05_cognitive_organism_04_cognition_first_principles_reasoning` | First-Principles Reasoning | AMOS_MODEL | REASONING | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `05_COGNITIVE_ORGANISM/04_COGNITION/FRACTAL_REASONING.md` | `amos_05_cognitive_organism_04_cognition_fractal_reasoning` | Fractal Reasoning | AMOS_MODEL | REASONING | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `05_COGNITIVE_ORGANISM/06_WORLD_MODEL/TRANG_REALITY_ARCHITECTURE_BINDING.md` | `amos_05_cognitive_organism_06_world_model_trang_reality_architecture_binding` | TRANG Reality Architecture Binding | AMOS_MODEL | BINDING | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `05_COGNITIVE_ORGANISM/06_WORLD_MODEL/UNIVERSE_CANON_WORLD_MODEL.md` | `amos_05_cognitive_organism_06_world_model_universe_canon_world_model` | Universe Canon World Model | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `05_COGNITIVE_ORGANISM/06_WORLD_MODEL/UNIVERSE_CANON_WORLD_MODEL.md` | `amos_05_cognitive_organism_06_world_model_universe_canon_world_model` | Universe Canon World Model | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `05_COGNITIVE_ORGANISM/06_WORLD_MODEL/UNIVERSAL_FIELD_WORLD_MODEL.md` | `amos_05_cognitive_organism_06_world_model_universal_field_world_model` | Universal Field World Model | AMOS_MODEL | MODEL | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `05_COGNITIVE_ORGANISM/07_EMOTION_REGULATION/AMOS_EMOTION_ENGINE.md` | `amos_05_cognitive_organism_07_emotion_regulation_amos_emotion_engine` | AMOS Emotion Engine | AMOS_MODEL | ENGINE | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `05_COGNITIVE_ORGANISM/07_EMOTION_REGULATION/NEI_ENGINE.md` | `amos_05_cognitive_organism_07_emotion_regulation_nei_engine` | NEI Engine | AMOS_MODEL | ENGINE | PASS1 | NATIVE_CANON_SLOT | NEW |
@@ -414,7 +414,7 @@ Legend:
 | `11_KNOWLEDGE/05_FRAMEWORKS/UBA_FRAMEWORK.md` | `amos_11_knowledge_05_frameworks_uba_framework` | UBA Framework | AMOS_MODEL | FRAMEWORK | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/BIO_LOGICAL_COMPUTING_FRAMEWORK.md` | `amos_11_knowledge_05_frameworks_bio_logical_computing_framework` | Bio-Logical Computing Framework | AMOS_MODEL | LOG | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/BIO_LOGICAL_ARCHITECTURE_FRAMEWORK.md` | `amos_11_knowledge_05_frameworks_bio_logical_architecture_framework` | Bio-Logical Architecture Framework | AMOS_MODEL | LOG | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `11_KNOWLEDGE/05_FRAMEWORKS/DOMAIN_CANON_PROGRAMMING_DCP.md` | `amos_11_knowledge_05_frameworks_domain_canon_programming_dcp` | Domain Canon Programming (DCP) | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `11_KNOWLEDGE/05_FRAMEWORKS/DOMAIN_CANON_PROGRAMMING_DCP.md` | `amos_11_knowledge_05_frameworks_domain_canon_programming_dcp` | Domain Canon Programming (DCP) | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/COGNITIVE_SYSTEMS_ARCHITECTURE.md` | `amos_11_knowledge_05_frameworks_cognitive_systems_architecture` | Cognitive Systems Architecture | AMOS_MODEL | [[ARCHITECTURE]] | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/AMOS_ORGANISM_OS_FRAMEWORK.md` | `amos_11_knowledge_05_frameworks_amos_organism_os_framework` | AMOS Organism OS Framework | AMOS_MODEL | FRAMEWORK | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/AMOS_MIND_OS_FRAMEWORK.md` | `amos_11_knowledge_05_frameworks_amos_mind_os_framework` | AMOS Mind OS Framework | AMOS_MODEL | FRAMEWORK | PASS1 | NATIVE_CANON_SLOT | NEW |
@@ -466,9 +466,9 @@ Legend:
 | `16_SCHEMAS/10_RSCF/causal_epoch.schema.md` | `amos_16_schemas_10_rscf_causal_epoch.schema` | Causal Epoch Schema | AMOS_MODEL | SCHEMA | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `16_SCHEMAS/10_RSCF/rscf_transaction.schema.md` | `amos_16_schemas_10_rscf_rscf_transaction.schema` | RSCF Transaction Schema | AMOS_MODEL | SCHEMA | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `16_SCHEMAS/10_RSCF/framework_node.schema.md` | `amos_16_schemas_10_rscf_framework_node.schema` | Framework Node Schema | AMOS_MODEL | FRAMEWORK | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `16_SCHEMAS/11_OBSERVABILITY/canon_health.schema.md` | `amos_16_schemas_11_observability_canon_health.schema` | Canon Health Schema | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `16_SCHEMAS/11_OBSERVABILITY/canon_health.schema.md` | `amos_16_schemas_11_observability_canon_health.schema` | Canon Health Schema | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `16_SCHEMAS/11_OBSERVABILITY/provenance_health.schema.md` | `amos_16_schemas_11_observability_provenance_health.schema` | Provenance Health Schema | AMOS_MODEL | PROVENANCE | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `21_DOMAINS/02_RESEARCH/CANON_VALIDATION.md` | `amos_21_domains_02_research_canon_validation` | Canon Validation | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `21_DOMAINS/02_RESEARCH/CANON_VALIDATION.md` | `amos_21_domains_02_research_canon_validation` | Canon Validation | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `21_DOMAINS/02_RESEARCH/FRAMEWORK_VALIDATION.md` | `amos_21_domains_02_research_framework_validation` | Framework Validation | AMOS_MODEL | FRAMEWORK | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `21_DOMAINS/02_RESEARCH/HERITAGE_RESEARCH_METHOD.md` | `amos_21_domains_02_research_heritage_research_method` | Heritage Research Method | AMOS_MODEL | METHOD | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `21_DOMAINS/04_STRATEGY/TSS_DOMAIN_MODEL.md` | `amos_21_domains_04_strategy_tss_domain_model` | TSS Domain Model | AMOS_MODEL | MODEL | PASS1 | NATIVE_CANON_SLOT | NEW |
@@ -478,7 +478,7 @@ Legend:
 | `21_DOMAINS/05_DESIGN/IRREDUCIBLE_SYSTEMS_DESIGN.md` | `amos_21_domains_05_design_irreducible_systems_design` | Irreducible Systems Design | AMOS_MODEL | DESIGN | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `21_DOMAINS/05_DESIGN/DESIGN_FOR_ABSOLUTE_INTEGRITY.md` | `amos_21_domains_05_design_design_for_absolute_integrity` | Design for Absolute Integrity | AMOS_MODEL | DESIGN | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `21_DOMAINS/05_DESIGN/BIO_LOGICAL_ARCHITECTURE_DESIGN.md` | `amos_21_domains_05_design_bio_logical_architecture_design` | Bio-Logical Architecture Design | AMOS_MODEL | LOG | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `21_DOMAINS/06_BIOLOGY/UBI_DOMAIN_CANON.md` | `amos_21_domains_06_biology_ubi_domain_canon` | UBI Domain Canon | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `21_DOMAINS/06_BIOLOGY/UBI_DOMAIN_CANON.md` | `amos_21_domains_06_biology_ubi_domain_canon` | UBI Domain Canon | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `21_DOMAINS/06_BIOLOGY/UBI_OMNIS.md` | `amos_21_domains_06_biology_ubi_omnis` | UBI OMNIS | AMOS_MODEL | ARTIFACT | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `21_DOMAINS/06_BIOLOGY/UBI_SUPER.md` | `amos_21_domains_06_biology_ubi_super` | UBI SUPER | AMOS_MODEL | ARTIFACT | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `21_DOMAINS/06_BIOLOGY/NBI.md` | `amos_21_domains_06_biology_nbi` | NBI (Neurobiological Intelligence) | AMOS_MODEL | ARTIFACT | PASS1 | NATIVE_CANON_SLOT | NEW |
@@ -490,26 +490,26 @@ Legend:
 | `21_DOMAINS/06_BIOLOGY/UBI_ENTROPY_CORRECTION.md` | `amos_21_domains_06_biology_ubi_entropy_correction` | UBI Entropy Correction | AMOS_MODEL | ARTIFACT | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `21_DOMAINS/06_BIOLOGY/UBI_FRACTAL_ARCHITECTURE.md` | `amos_21_domains_06_biology_ubi_fractal_architecture` | UBI Fractal Architecture | AMOS_MODEL | [[ARCHITECTURE]] | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `21_DOMAINS/06_BIOLOGY/CROSS_SPECIES_FUNCTIONAL_MODE_MODEL.md` | `amos_21_domains_06_biology_cross_species_functional_mode_model` | Cross-Species Functional Mode Model | AMOS_MODEL | SPEC | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `21_DOMAINS/06_BIOLOGY/UBI_NEUROSYNCAI_INTEGRATION.md` | `amos_21_domains_06_biology_ubi_neurosyncai_integration` | UBI NeuroSyncAI Integration | AMOS_MODEL | [[INTEGRATION]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `21_DOMAINS/06_BIOLOGY/UBI_CONSENTX_INTEGRATION.md` | `amos_21_domains_06_biology_ubi_consentx_integration` | UBI ConsentX Integration | AMOS_MODEL | [[INTEGRATION]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `21_DOMAINS/06_BIOLOGY/UBI_ID_EXCHANGE_INTEGRATION.md` | `amos_21_domains_06_biology_ubi_id_exchange_integration` | UBI ID Exchange Integration | AMOS_MODEL | [[INTEGRATION]] | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `21_DOMAINS/06_BIOLOGY/UBI_RATPAK_INTEGRATION.md` | `amos_21_domains_06_biology_ubi_ratpak_integration` | UBI RatPAK Integration | AMOS_MODEL | [[INTEGRATION]] | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `21_DOMAINS/06_BIOLOGY/UBI_NEUROSYNCAI_INTEGRATION.md` | `amos_21_domains_06_biology_ubi_neurosyncai_integration` | UBI NeuroSyncAI Integration | AMOS_MODEL | INTEGRATION | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `21_DOMAINS/06_BIOLOGY/UBI_CONSENTX_INTEGRATION.md` | `amos_21_domains_06_biology_ubi_consentx_integration` | UBI ConsentX Integration | AMOS_MODEL | INTEGRATION | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `21_DOMAINS/06_BIOLOGY/UBI_ID_EXCHANGE_INTEGRATION.md` | `amos_21_domains_06_biology_ubi_id_exchange_integration` | UBI ID Exchange Integration | AMOS_MODEL | INTEGRATION | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `21_DOMAINS/06_BIOLOGY/UBI_RATPAK_INTEGRATION.md` | `amos_21_domains_06_biology_ubi_ratpak_integration` | UBI RatPAK Integration | AMOS_MODEL | INTEGRATION | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `21_DOMAINS/07_HEALTHCARE/AMOS_MEDICAL_CLINICAL_KERNEL.md` | `amos_21_domains_07_healthcare_amos_medical_clinical_kernel` | AMOS Medical Clinical Kernel | AMOS_MODEL | KERNEL | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `21_DOMAINS/07_HEALTHCARE/UBI_HEALTH_APPLICATION.md` | `amos_21_domains_07_healthcare_ubi_health_application` | UBI Health Application | AMOS_MODEL | APPLICATION | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `21_DOMAINS/07_HEALTHCARE/BIOLOGICAL_INTEGRITY_HEALTH_MODEL.md` | `amos_21_domains_07_healthcare_biological_integrity_health_model` | Biological Integrity Health Model | AMOS_MODEL | MODEL | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `21_DOMAINS/08_LEGAL/AMOS_LEGAL_KERNEL.md` | `amos_21_domains_08_legal_amos_legal_kernel` | AMOS Legal Kernel | AMOS_MODEL | KERNEL | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `21_DOMAINS/08_LEGAL/VN_LEGAL_ENGINE.md` | `amos_21_domains_08_legal_vn_legal_engine` | VN Legal Engine | AMOS_MODEL | ENGINE | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `21_DOMAINS/08_LEGAL/CANON_IP_GOVERNANCE.md` | `amos_21_domains_08_legal_canon_ip_governance` | Canon IP Governance | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `21_DOMAINS/08_LEGAL/CANON_IP_GOVERNANCE.md` | `amos_21_domains_08_legal_canon_ip_governance` | Canon IP Governance | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `21_DOMAINS/09_FINANCE/MACRO_ECONOMY_KERNEL.md` | `amos_21_domains_09_finance_macro_economy_kernel` | Macro Economy Kernel | AMOS_MODEL | KERNEL | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `21_DOMAINS/09_FINANCE/OMEGA_FX_STRUCTURAL_OS.md` | `amos_21_domains_09_finance_omega_fx_structural_os` | Omega FX Structural OS | AMOS_MODEL | ARTIFACT | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `21_DOMAINS/09_FINANCE/TRANG_ZERO_FOREX.md` | `amos_21_domains_09_finance_trang_zero_forex` | Trang Zero Forex | AMOS_MODEL | ARTIFACT | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `21_DOMAINS/10_CUSTOM/HERITAGE_INTELLIGENCE_DOMAIN.md` | `amos_21_domains_10_custom_heritage_intelligence_domain` | Heritage Intelligence Domain | AMOS_MODEL | DOMAIN | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `21_DOMAINS/10_CUSTOM/PLANETARY_SYNCHRONIZATION_INTERFACE.md` | `amos_21_domains_10_custom_planetary_synchronization_interface` | Planetary Synchronization Interface | AMOS_MODEL | ARTIFACT | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `21_DOMAINS/10_CUSTOM/NEUROSYNCAI_DOMAIN.md` | `amos_21_domains_10_custom_neurosyncai_domain` | NeuroSyncAI Domain | AMOS_MODEL | DOMAIN | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `21_DOMAINS/10_CUSTOM/DOMAIN_CANON_PROGRAMMING.md` | `amos_21_domains_10_custom_domain_canon_programming` | Domain Canon Programming | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `21_DOMAINS/10_CUSTOM/DOMAIN_CANON_PROGRAMMING.md` | `amos_21_domains_10_custom_domain_canon_programming` | Domain Canon Programming | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `22_RESEARCH/01_PAPERS/NATIVE_CANON_SOURCE_REGISTRY.md` | `amos_22_research_01_papers_native_canon_source_registry` | Native Canon Source Registry | AMOS_MODEL | REGISTRY | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `22_RESEARCH/01_PAPERS/EXTERNAL_EVIDENCE_SOURCE_REGISTRY.md` | `amos_22_research_01_papers_external_evidence_source_registry` | External Evidence Source Registry | AMOS_MODEL | REGISTRY | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `22_RESEARCH/03_COMPETING_MODELS/CANON_COMPETING_DEFINITIONS.md` | `amos_22_research_03_competing_models_canon_competing_definitions` | Canon Competing Definitions | AMOS_MODEL | [[CANON]] | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `22_RESEARCH/03_COMPETING_MODELS/CANON_COMPETING_DEFINITIONS.md` | `amos_22_research_03_competing_models_canon_competing_definitions` | Canon Competing Definitions | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `22_RESEARCH/03_COMPETING_MODELS/UBI_COMPETING_MODELS.md` | `amos_22_research_03_competing_models_ubi_competing_models` | UBI Competing Models | AMOS_MODEL | MODEL | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `22_RESEARCH/03_COMPETING_MODELS/HERITAGE_COMPETING_MODELS.md` | `amos_22_research_03_competing_models_heritage_competing_models` | Heritage Competing Models | AMOS_MODEL | MODEL | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `22_RESEARCH/03_COMPETING_MODELS/REALITY_ARCHITECTURE_COMPETING_MODELS.md` | `amos_22_research_03_competing_models_reality_architecture_competing_models` | Reality Architecture Competing Models | AMOS_MODEL | MODEL | PASS1 | NATIVE_CANON_SLOT | NEW |
@@ -563,10 +563,10 @@ Legend:
 | `00_ROOT/AMOS_CANON_RUNTIME_BINDING_MAP.md` | `amos_00_root_amos_canon_runtime_binding_map` | AMOS Canon-Runtime Binding Map | AMOS_MODEL | MAP | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `00_ROOT/AMOS_CANON_KNOWLEDGE_BINDING_MAP.md` | `amos_00_root_amos_canon_knowledge_binding_map` | AMOS Canon-Knowledge Binding Map | AMOS_MODEL | MAP | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `00_ROOT/AMOS_CANON_DOMAIN_BINDING_MAP.md` | `amos_00_root_amos_canon_domain_binding_map` | AMOS Canon-Domain Binding Map | AMOS_MODEL | MAP | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `00_ROOT/AMOS_NATIVE_CANON_VS_EXTERNAL_EVIDENCE.md` | `amos_00_root_amos_native_canon_vs_external_evidence` | AMOS Native Canon vs External Evidence | AMOS_MODEL | [[CANON]] | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `00_ROOT/AMOS_NATIVE_CANON_VS_EXTERNAL_EVIDENCE.md` | `amos_00_root_amos_native_canon_vs_external_evidence` | AMOS Native Canon vs External Evidence | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `00_ROOT/AMOS_ORPHAN_FRAMEWORK_REGISTRY.md` | `amos_00_root_amos_orphan_framework_registry` | AMOS Orphan Framework Registry | AMOS_MODEL | REGISTRY | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `00_ROOT/AMOS_MISSING_CANON_REGISTRY.md` | `amos_00_root_amos_missing_canon_registry` | AMOS Missing Canon Registry | AMOS_MODEL | REGISTRY | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `00_ROOT/AMOS_CANON_COMPLETENESS_STATUS.md` | `amos_00_root_amos_canon_completeness_status` | AMOS Canon Completeness Status | AMOS_MODEL | [[CANON]] | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `00_ROOT/AMOS_CANON_COMPLETENESS_STATUS.md` | `amos_00_root_amos_canon_completeness_status` | AMOS Canon Completeness Status | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `00_ROOT/COSMO_BRAIN_AMOS_OS_MASTER_BINDING.md` | `amos_00_root_cosmo_brain_amos_os_master_binding` | Cosmo Brain AMOS OS Master Binding | AMOS_MODEL | BINDING | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/00_INDEX/CANON_MASTER_INDEX.md` | `amos_01_canon_00_index_canon_master_index` | Canon Master Index | AMOS_MODEL | INDEX | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/00_INDEX/CANON_FRAMEWORK_REGISTRY.md` | `amos_01_canon_00_index_canon_framework_registry` | Canon Framework Registry | AMOS_MODEL | REGISTRY | PASS2 | NATIVE_CANON_SLOT | NEW |
@@ -581,19 +581,19 @@ Legend:
 | `01_CANON/00_INDEX/CANON_SOURCE_REGISTRY.md` | `amos_01_canon_00_index_canon_source_registry` | Canon Source Registry | AMOS_MODEL | REGISTRY | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/00_INDEX/CANON_STATUS_REGISTRY.md` | `amos_01_canon_00_index_canon_status_registry` | Canon Status Registry | AMOS_MODEL | REGISTRY | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/00_INDEX/CANON_SUPERSESSION_REGISTRY.md` | `amos_01_canon_00_index_canon_supersession_registry` | Canon Supersession Registry | AMOS_MODEL | REGISTRY | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/00_INDEX/CANON_COMPETING_DEFINITIONS.md` | `amos_01_canon_00_index_canon_competing_definitions` | Canon Competing Definitions | AMOS_MODEL | [[CANON]] | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/01_CORE_LAWS/META_LAWS_CANON.md` | `amos_01_canon_01_core_laws_meta_laws_canon` | Meta-Laws Canon | AMOS_MODEL | [[CANON]] | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/01_CORE_LAWS/STRUCTURAL_INTEGRITY_CANON.md` | `amos_01_canon_01_core_laws_structural_integrity_canon` | Structural Integrity Canon | AMOS_MODEL | [[CANON]] | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/01_CORE_LAWS/EPISTEMIC_INTEGRITY_CANON.md` | `amos_01_canon_01_core_laws_epistemic_integrity_canon` | Epistemic Integrity Canon | AMOS_MODEL | [[CANON]] | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/01_CORE_LAWS/CAUSAL_INTEGRITY_CANON.md` | `amos_01_canon_01_core_laws_causal_integrity_canon` | Causal Integrity Canon | AMOS_MODEL | [[CANON]] | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/00_INDEX/CANON_COMPETING_DEFINITIONS.md` | `amos_01_canon_00_index_canon_competing_definitions` | Canon Competing Definitions | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/01_CORE_LAWS/META_LAWS_CANON.md` | `amos_01_canon_01_core_laws_meta_laws_canon` | Meta-Laws Canon | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/01_CORE_LAWS/STRUCTURAL_INTEGRITY_CANON.md` | `amos_01_canon_01_core_laws_structural_integrity_canon` | Structural Integrity Canon | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/01_CORE_LAWS/EPISTEMIC_INTEGRITY_CANON.md` | `amos_01_canon_01_core_laws_epistemic_integrity_canon` | Epistemic Integrity Canon | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/01_CORE_LAWS/CAUSAL_INTEGRITY_CANON.md` | `amos_01_canon_01_core_laws_causal_integrity_canon` | Causal Integrity Canon | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/01_CORE_LAWS/PROVENANCE_INTEGRITY_CANON.md` | `amos_01_canon_01_core_laws_provenance_integrity_canon` | Provenance Integrity Canon | AMOS_MODEL | PROVENANCE | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/01_CORE_LAWS/LOAD_CAPACITY_CANON.md` | `amos_01_canon_01_core_laws_load_capacity_canon` | Load Capacity Canon | AMOS_MODEL | [[CANON]] | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/01_CORE_LAWS/FEEDBACK_CANON.md` | `amos_01_canon_01_core_laws_feedback_canon` | Feedback Canon | AMOS_MODEL | [[CANON]] | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/01_CORE_LAWS/DIFFERENCE_RELATION_BOUNDARY_CANON.md` | `amos_01_canon_01_core_laws_difference_relation_boundary_canon` | Difference-Relation-Boundary Canon | AMOS_MODEL | [[CANON]] | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/01_CORE_LAWS/COLLAPSE_CANON.md` | `amos_01_canon_01_core_laws_collapse_canon` | Collapse Canon | AMOS_MODEL | [[CANON]] | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/01_CORE_LAWS/RECOVERY_CANON.md` | `amos_01_canon_01_core_laws_recovery_canon` | Recovery Canon | AMOS_MODEL | [[CANON]] | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/01_CORE_LAWS/EMERGENCE_CANON.md` | `amos_01_canon_01_core_laws_emergence_canon` | Emergence Canon | AMOS_MODEL | [[CANON]] | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/01_CORE_LAWS/STABILITY_CANON.md` | `amos_01_canon_01_core_laws_stability_canon` | Stability Canon | AMOS_MODEL | [[CANON]] | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/01_CORE_LAWS/LOAD_CAPACITY_CANON.md` | `amos_01_canon_01_core_laws_load_capacity_canon` | Load Capacity Canon | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/01_CORE_LAWS/FEEDBACK_CANON.md` | `amos_01_canon_01_core_laws_feedback_canon` | Feedback Canon | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/01_CORE_LAWS/DIFFERENCE_RELATION_BOUNDARY_CANON.md` | `amos_01_canon_01_core_laws_difference_relation_boundary_canon` | Difference-Relation-Boundary Canon | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/01_CORE_LAWS/COLLAPSE_CANON.md` | `amos_01_canon_01_core_laws_collapse_canon` | Collapse Canon | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/01_CORE_LAWS/RECOVERY_CANON.md` | `amos_01_canon_01_core_laws_recovery_canon` | Recovery Canon | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/01_CORE_LAWS/EMERGENCE_CANON.md` | `amos_01_canon_01_core_laws_emergence_canon` | Emergence Canon | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/01_CORE_LAWS/STABILITY_CANON.md` | `amos_01_canon_01_core_laws_stability_canon` | Stability Canon | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/01_CORE_LAWS/CORE_LAW_CROSSWALK.md` | `amos_01_canon_01_core_laws_core_law_crosswalk` | Core Law Crosswalk | AMOS_MODEL | CROSSWALK | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/02_UNIVERSE_CANON/ABSOLUTE_OMNIVERSE_U_INFINITY.md` | `amos_01_canon_02_universe_canon_absolute_omniverse_u_infinity` | Absolute Omniverse / U-Infinity | AMOS_MODEL | ARTIFACT | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/02_UNIVERSE_CANON/UNIVERSE_LOGIC_KERNEL.md` | `amos_01_canon_02_universe_canon_universe_logic_kernel` | Universe Logic Kernel | AMOS_MODEL | LOG | PASS2 | NATIVE_CANON_SLOT | NEW |
@@ -614,31 +614,31 @@ Legend:
 | `01_CANON/02_UNIVERSE_CANON/UNIVERSE_EMERGENCE_ARCHITECTURE.md` | `amos_01_canon_02_universe_canon_universe_emergence_architecture` | Universe Emergence Architecture | AMOS_MODEL | [[ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/02_UNIVERSE_CANON/UNIVERSE_COLLAPSE_ARCHITECTURE.md` | `amos_01_canon_02_universe_canon_universe_collapse_architecture` | Universe Collapse Architecture | AMOS_MODEL | [[ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/02_UNIVERSE_CANON/UNIVERSE_RECOVERY_ARCHITECTURE.md` | `amos_01_canon_02_universe_canon_universe_recovery_architecture` | Universe Recovery Architecture | AMOS_MODEL | RECOVERY | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/02_UNIVERSE_CANON/OMEGA_MASTER_CANON.md` | `amos_01_canon_02_universe_canon_omega_master_canon` | Omega Master Canon | AMOS_MODEL | [[CANON]] | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/02_UNIVERSE_CANON/OMEGA_MASTER_CANON.md` | `amos_01_canon_02_universe_canon_omega_master_canon` | Omega Master Canon | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/02_UNIVERSE_CANON/OMEGA_QUANTUM_STACK.md` | `amos_01_canon_02_universe_canon_omega_quantum_stack` | Omega Quantum Stack | AMOS_MODEL | ARTIFACT | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/02_UNIVERSE_CANON/UNIVERSAL_OPERATORS.md` | `amos_01_canon_02_universe_canon_universal_operators` | Universal Operators | AMOS_MODEL | ARTIFACT | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/02_UNIVERSE_CANON/UNIVERSAL_PATTERN_FAMILIES.md` | `amos_01_canon_02_universe_canon_universal_pattern_families` | Universal Pattern Families | AMOS_MODEL | ARTIFACT | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/02_UNIVERSE_CANON/UNIVERSE_EQUATION_REGISTRY.md` | `amos_01_canon_02_universe_canon_universe_equation_registry` | Universe Equation Registry | AMOS_MODEL | REGISTRY | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/03_COGNITION_CANON/AMOS_FULL_BRAIN_OS_CANON.md` | `amos_01_canon_03_cognition_canon_amos_full_brain_os_canon` | AMOS Full Brain OS Canon | AMOS_MODEL | [[CANON]] | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/03_COGNITION_CANON/AMOS_COGNITION_CANON.md` | `amos_01_canon_03_cognition_canon_amos_cognition_canon` | AMOS Cognition Canon | AMOS_MODEL | [[CANON]] | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/03_COGNITION_CANON/AMOS_EMOTION_CANON.md` | `amos_01_canon_03_cognition_canon_amos_emotion_canon` | AMOS Emotion Canon | AMOS_MODEL | [[CANON]] | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/03_COGNITION_CANON/AMOS_ATTENTION_CANON.md` | `amos_01_canon_03_cognition_canon_amos_attention_canon` | AMOS Attention Canon | AMOS_MODEL | [[CANON]] | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/03_COGNITION_CANON/AMOS_PERCEPTION_CANON.md` | `amos_01_canon_03_cognition_canon_amos_perception_canon` | AMOS Perception Canon | AMOS_MODEL | [[CANON]] | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/03_COGNITION_CANON/AMOS_FULL_BRAIN_OS_CANON.md` | `amos_01_canon_03_cognition_canon_amos_full_brain_os_canon` | AMOS Full Brain OS Canon | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/03_COGNITION_CANON/AMOS_COGNITION_CANON.md` | `amos_01_canon_03_cognition_canon_amos_cognition_canon` | AMOS Cognition Canon | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/03_COGNITION_CANON/AMOS_EMOTION_CANON.md` | `amos_01_canon_03_cognition_canon_amos_emotion_canon` | AMOS Emotion Canon | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/03_COGNITION_CANON/AMOS_ATTENTION_CANON.md` | `amos_01_canon_03_cognition_canon_amos_attention_canon` | AMOS Attention Canon | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/03_COGNITION_CANON/AMOS_PERCEPTION_CANON.md` | `amos_01_canon_03_cognition_canon_amos_perception_canon` | AMOS Perception Canon | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/03_COGNITION_CANON/AMOS_19X19_COGNITIVE_FIELD.md` | `amos_01_canon_03_cognition_canon_amos_19x19_cognitive_field` | AMOS 19x19 Cognitive Field | AMOS_MODEL | ARTIFACT | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/03_COGNITION_CANON/AMOS_CROSS_SPECIES_FUNCTIONAL_MODE_MODEL.md` | `amos_01_canon_03_cognition_canon_amos_cross_species_functional_mode_model` | AMOS Cross-Species Functional Mode Model | AMOS_MODEL | SPEC | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/03_COGNITION_CANON/COGNITIVE_CANON_RELATION_MAP.md` | `amos_01_canon_03_cognition_canon_cognitive_canon_relation_map` | Cognitive Canon Relation Map | AMOS_MODEL | MAP | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/04_INFRASTRUCTURE_CANON/CANON_INTEGRATION_LAYER.md` | `amos_01_canon_04_infrastructure_canon_canon_integration_layer` | Canon Integration Layer | AMOS_MODEL | [[CANON]] | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/04_INFRASTRUCTURE_CANON/CAUSAL_EPOCH_FINALITY_CANON.md` | `amos_01_canon_04_infrastructure_canon_causal_epoch_finality_canon` | Causal Epoch Finality Canon | AMOS_MODEL | [[CANON]] | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/04_INFRASTRUCTURE_CANON/HARDENED_SHARD_FINALIZATION_CANON.md` | `amos_01_canon_04_infrastructure_canon_hardened_shard_finalization_canon` | Hardened Shard Finalization Canon | AMOS_MODEL | [[CANON]] | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/04_INFRASTRUCTURE_CANON/CANON_INTEGRATION_LAYER.md` | `amos_01_canon_04_infrastructure_canon_canon_integration_layer` | Canon Integration Layer | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/04_INFRASTRUCTURE_CANON/CAUSAL_EPOCH_FINALITY_CANON.md` | `amos_01_canon_04_infrastructure_canon_causal_epoch_finality_canon` | Causal Epoch Finality Canon | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/04_INFRASTRUCTURE_CANON/HARDENED_SHARD_FINALIZATION_CANON.md` | `amos_01_canon_04_infrastructure_canon_hardened_shard_finalization_canon` | Hardened Shard Finalization Canon | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/04_INFRASTRUCTURE_CANON/PROOF_BASED_COORDINATION_AVOIDANCE.md` | `amos_01_canon_04_infrastructure_canon_proof_based_coordination_avoidance` | Proof-Based Coordination Avoidance | AMOS_MODEL | ARTIFACT | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/04_INFRASTRUCTURE_CANON/PROVENANCE_TOPOLOGY_CANON.md` | `amos_01_canon_04_infrastructure_canon_provenance_topology_canon` | Provenance Topology Canon | AMOS_MODEL | PROVENANCE | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/04_INFRASTRUCTURE_CANON/SYBIL_HARDENING_CANON.md` | `amos_01_canon_04_infrastructure_canon_sybil_hardening_canon` | Sybil Hardening Canon | AMOS_MODEL | [[CANON]] | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/04_INFRASTRUCTURE_CANON/COMPETING_HYPOTHESES_CANON.md` | `amos_01_canon_04_infrastructure_canon_competing_hypotheses_canon` | Competing Hypotheses Canon | AMOS_MODEL | [[CANON]] | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/04_INFRASTRUCTURE_CANON/EPISTEMIC_REGIME_CANON.md` | `amos_01_canon_04_infrastructure_canon_epistemic_regime_canon` | Epistemic Regime Canon | AMOS_MODEL | [[CANON]] | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/04_INFRASTRUCTURE_CANON/SYBIL_HARDENING_CANON.md` | `amos_01_canon_04_infrastructure_canon_sybil_hardening_canon` | Sybil Hardening Canon | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/04_INFRASTRUCTURE_CANON/COMPETING_HYPOTHESES_CANON.md` | `amos_01_canon_04_infrastructure_canon_competing_hypotheses_canon` | Competing Hypotheses Canon | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/04_INFRASTRUCTURE_CANON/EPISTEMIC_REGIME_CANON.md` | `amos_01_canon_04_infrastructure_canon_epistemic_regime_canon` | Epistemic Regime Canon | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/04_INFRASTRUCTURE_CANON/CAUSAL_LINEAGE_CANON.md` | `amos_01_canon_04_infrastructure_canon_causal_lineage_canon` | Causal Lineage Canon | AMOS_MODEL | LINEAGE | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/04_INFRASTRUCTURE_CANON/DOMAIN_CANON_PROGRAMMING.md` | `amos_01_canon_04_infrastructure_canon_domain_canon_programming` | Domain Canon Programming | AMOS_MODEL | [[CANON]] | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/04_INFRASTRUCTURE_CANON/DOMAIN_CANON_PROGRAMMING.md` | `amos_01_canon_04_infrastructure_canon_domain_canon_programming` | Domain Canon Programming | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/04_INFRASTRUCTURE_CANON/AMOS_INFRASTRUCTURE_ARCHITECTURE.md` | `amos_01_canon_04_infrastructure_canon_amos_infrastructure_architecture` | AMOS Infrastructure Architecture | AMOS_MODEL | [[ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/04_INFRASTRUCTURE_CANON/AMOS_ORCHESTRATION_REGULATOR_CANON.md` | `amos_01_canon_04_infrastructure_canon_amos_orchestration_regulator_canon` | AMOS Orchestration Regulator Canon | AMOS_MODEL | [[CANON]] | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/04_INFRASTRUCTURE_CANON/AMOS_ORCHESTRATION_REGULATOR_CANON.md` | `amos_01_canon_04_infrastructure_canon_amos_orchestration_regulator_canon` | AMOS Orchestration Regulator Canon | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/07_PROVENANCE/ORIGIN_ARCHITECT_REGISTRY.md` | `amos_01_canon_07_provenance_origin_architect_registry` | Origin Architect Registry | AMOS_MODEL | REGISTRY | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/07_PROVENANCE/ORIGINAL_SOURCE_REGISTRY.md` | `amos_01_canon_07_provenance_original_source_registry` | Original Source Registry | AMOS_MODEL | REGISTRY | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/07_PROVENANCE/NATIVE_CANON_SOURCE_REGISTRY.md` | `amos_01_canon_07_provenance_native_canon_source_registry` | Native Canon Source Registry | AMOS_MODEL | REGISTRY | PASS2 | NATIVE_CANON_SLOT | NEW |
@@ -729,7 +729,7 @@ Legend:
 | `11_KNOWLEDGE/05_FRAMEWORKS/TSS_META_LAWS.md` | `amos_11_knowledge_05_frameworks_tss_meta_laws` | TSS Meta-Laws | AMOS_MODEL | ARTIFACT | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/TSS_SEVEN_CYCLES.md` | `amos_11_knowledge_05_frameworks_tss_seven_cycles` | TSS Seven Cycles | AMOS_MODEL | ARTIFACT | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/TPE_TRANG_PREDICTION_ENGINE.md` | `amos_11_knowledge_05_frameworks_tpe_trang_prediction_engine` | TPE — Trang Prediction Engine | AMOS_MODEL | ENGINE | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `11_KNOWLEDGE/05_FRAMEWORKS/TSS_TPE_INTEGRATION.md` | `amos_11_knowledge_05_frameworks_tss_tpe_integration` | TSS-TPE Integration | AMOS_MODEL | [[INTEGRATION]] | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `11_KNOWLEDGE/05_FRAMEWORKS/TSS_TPE_INTEGRATION.md` | `amos_11_knowledge_05_frameworks_tss_tpe_integration` | TSS-TPE Integration | AMOS_MODEL | INTEGRATION | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/FPR_FIRST_PRINCIPLE_REASONING.md` | `amos_11_knowledge_05_frameworks_fpr_first_principle_reasoning` | FPR — First-Principle Reasoning | AMOS_MODEL | REASONING | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI.md` | `amos_11_knowledge_05_frameworks_frai_fractal_reasoning_ai` | FRAI — Fractal Reasoning AI | AMOS_MODEL | REASONING | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/LDAI_LOGICALLY_DETERMINISTIC_AI.md` | `amos_11_knowledge_05_frameworks_ldai_logically_deterministic_ai` | LDAI — Logically Deterministic AI | AMOS_MODEL | LOG | PASS2 | NATIVE_CANON_SLOT | NEW |
@@ -751,7 +751,7 @@ Legend:
 | `11_KNOWLEDGE/05_FRAMEWORKS/UBA_UNIVERSAL_BIOLOGICAL_ARCHITECTURE.md` | `amos_11_knowledge_05_frameworks_uba_universal_biological_architecture` | UBA — Universal Biological Architecture | AMOS_MODEL | [[ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/BIO_LOGICAL_COMPUTING.md` | `amos_11_knowledge_05_frameworks_bio_logical_computing` | Bio-Logical Computing | AMOS_MODEL | LOG | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/BIO_LOGICAL_ARCHITECTURE.md` | `amos_11_knowledge_05_frameworks_bio_logical_architecture` | Bio-Logical Architecture | AMOS_MODEL | LOG | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `11_KNOWLEDGE/05_FRAMEWORKS/DOMAIN_CANON_PROGRAMMING.md` | `amos_11_knowledge_05_frameworks_domain_canon_programming` | Domain Canon Programming | AMOS_MODEL | [[CANON]] | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `11_KNOWLEDGE/05_FRAMEWORKS/DOMAIN_CANON_PROGRAMMING.md` | `amos_11_knowledge_05_frameworks_domain_canon_programming` | Domain Canon Programming | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `25_COGNITIVE_MATRIX/TOTAL_CANON_MATRIX.md` | `amos_25_cognitive_matrix_total_canon_matrix` | Total Canon Matrix | AMOS_MODEL | MATRIX | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `25_COGNITIVE_MATRIX/TOTAL_FRAMEWORK_MATRIX.md` | `amos_25_cognitive_matrix_total_framework_matrix` | Total Framework Matrix | AMOS_MODEL | MATRIX | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `25_COGNITIVE_MATRIX/TOTAL_ENGINE_MATRIX.md` | `amos_25_cognitive_matrix_total_engine_matrix` | Total Engine Matrix | AMOS_MODEL | MATRIX | PASS2 | NATIVE_CANON_SLOT | NEW |
@@ -760,7 +760,7 @@ Legend:
 | `25_COGNITIVE_MATRIX/AMOS_X_HERITAGE.md` | `amos_25_cognitive_matrix_amos_x_heritage` | AMOS × Heritage | AMOS_MODEL | ARTIFACT | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `25_COGNITIVE_MATRIX/AMOS_X_UBI.md` | `amos_25_cognitive_matrix_amos_x_ubi` | AMOS × UBI | AMOS_MODEL | ARTIFACT | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `25_COGNITIVE_MATRIX/AMOS_X_NEUROSYNCAI.md` | `amos_25_cognitive_matrix_amos_x_neurosyncai` | AMOS × NeuroSyncAI | AMOS_MODEL | ARTIFACT | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `25_COGNITIVE_MATRIX/AMOS_X_UNIVERSE_CANON.md` | `amos_25_cognitive_matrix_amos_x_universe_canon` | AMOS × Universe Canon | AMOS_MODEL | [[CANON]] | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `25_COGNITIVE_MATRIX/AMOS_X_UNIVERSE_CANON.md` | `amos_25_cognitive_matrix_amos_x_universe_canon` | AMOS × Universe Canon | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `25_COGNITIVE_MATRIX/AMOS_X_OMEGA.md` | `amos_25_cognitive_matrix_amos_x_omega` | AMOS × Omega | AMOS_MODEL | ARTIFACT | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `25_COGNITIVE_MATRIX/AMOS_X_QLS.md` | `amos_25_cognitive_matrix_amos_x_qls` | AMOS × QLS | AMOS_MODEL | ARTIFACT | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `25_COGNITIVE_MATRIX/AMOS_X_QCLA.md` | `amos_25_cognitive_matrix_amos_x_qcla` | AMOS × QCLA | AMOS_MODEL | ARTIFACT | PASS2 | NATIVE_CANON_SLOT | NEW |
@@ -777,10 +777,10 @@ Legend:
 | `25_COGNITIVE_MATRIX/RSCF_X_GMEF.md` | `amos_25_cognitive_matrix_rscf_x_gmef` | RSCF × GMEF | AMOS_MODEL | ARTIFACT | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `25_COGNITIVE_MATRIX/CORE_X_RUNTIME.md` | `amos_25_cognitive_matrix_core_x_runtime` | Core × Runtime | AMOS_MODEL | RUNTIME | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `25_COGNITIVE_MATRIX/CORE_X_CONTROL_PLANE.md` | `amos_25_cognitive_matrix_core_x_control_plane` | Core × Control Plane | AMOS_MODEL | ARTIFACT | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `25_COGNITIVE_MATRIX/CANON_X_KNOWLEDGE.md` | `amos_25_cognitive_matrix_canon_x_knowledge` | Canon × Knowledge | AMOS_MODEL | [[CANON]] | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `25_COGNITIVE_MATRIX/CANON_X_DOMAINS.md` | `amos_25_cognitive_matrix_canon_x_domains` | Canon × Domains | AMOS_MODEL | [[CANON]] | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `25_COGNITIVE_MATRIX/CANON_X_KNOWLEDGE.md` | `amos_25_cognitive_matrix_canon_x_knowledge` | Canon × Knowledge | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `25_COGNITIVE_MATRIX/CANON_X_DOMAINS.md` | `amos_25_cognitive_matrix_canon_x_domains` | Canon × Domains | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `25_COGNITIVE_MATRIX/PROVENANCE_X_CONFIDENCE.md` | `amos_25_cognitive_matrix_provenance_x_confidence` | Provenance × Confidence | AMOS_MODEL | PROVENANCE | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/04_INFRASTRUCTURE_CANON/SHARD_LOCAL_FINALIZATION_CANON.md` | `amos_01_canon_04_infrastructure_canon_shard_local_finalization_canon` | Shard-Local Finalization Canon | AMOS_MODEL | [[CANON]] | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/04_INFRASTRUCTURE_CANON/SHARD_LOCAL_FINALIZATION_CANON.md` | `amos_01_canon_04_infrastructure_canon_shard_local_finalization_canon` | Shard-Local Finalization Canon | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
 
 ## 5. Ingestion rule (governing)
 

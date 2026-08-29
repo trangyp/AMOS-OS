@@ -23,7 +23,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX LEGACY ARCHIVE [[README]]
+# INDEX LEGACY ARCHIVE README
 
 STATUS: PROPOSED_SPECIFICATION
 epistemic_class: AMOS_MODEL

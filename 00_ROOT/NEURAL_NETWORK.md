@@ -318,7 +318,7 @@ COGNITIVE MATRIX
 
 # 5. Canon Plane
 
-## [[CANON_MAP]]|[[CANON]]
+## [[CANON_MAP]]|CANON
 
 Role:
 
@@ -554,7 +554,7 @@ source
 
 # 12. Workflows Plane
 
-## [[WORKFLOW_MAP]]|[[WORKFLOWS]]
+## [[WORKFLOW_MAP]]|WORKFLOWS
 
 Workflows define repeatable process topology.
 
@@ -610,7 +610,7 @@ KNOWLEDGE ↔ PROVENANCE
 
 # 14. Memory Plane
 
-## [[MEMORY_MEMORY_MAP]]|[[MEMORY]]
+## [[MEMORY_MEMORY_MAP]]|MEMORY
 
 Memory topology:
 
@@ -1434,25 +1434,25 @@ Avoid decorative linking solely to increase graph density.
 
 | From               | To               | Primary relation               |
 | ------------------ | ---------------- | ------------------------------ |
-| [[CANON]]              | KERNEL           | governs semantics              |
-| [[CANON]]              | CONTROL_PLANE    | constrains authority           |
+| CANON              | KERNEL           | governs semantics              |
+| CANON              | CONTROL_PLANE    | constrains authority           |
 | KERNEL             | RUNTIME          | provides primitives            |
 | CONTROL_PLANE      | RUNTIME          | governs execution              |
 | RUNTIME            | STATE            | updates current state          |
-| COGNITIVE_ORGANISM | [[MEMORY]]           | reads/writes governed memory   |
+| COGNITIVE_ORGANISM | MEMORY           | reads/writes governed memory   |
 | COGNITIVE_ORGANISM | KNOWLEDGE        | retrieves validated knowledge  |
 | [[AGENTS]]             | SKILLS           | invokes capability             |
 | [[AGENTS]]             | TOOLS            | requests external capability   |
 | SKILLS             | KNOWLEDGE        | consumes domain knowledge      |
-| [[WORKFLOWS]]          | [[AGENTS]]           | sequences workers              |
-| [[WORKFLOWS]]          | PROTOCOLS        | follows interaction contracts  |
+| WORKFLOWS          | [[AGENTS]]           | sequences workers              |
+| WORKFLOWS          | PROTOCOLS        | follows interaction contracts  |
 | MODELS             | KNOWLEDGE        | consumes evidence/claims       |
 | OBSERVABILITY      | RUNTIME          | records behavior               |
 | SECURITY           | CONTROL_PLANE    | constrains authority           |
 | TESTS              | COMPONENTS       | validates behavior             |
 | OPERATIONS         | RUNTIME          | manages lifecycle              |
 | DOMAINS            | [[AGENTS]]/SKILLS    | specializes behavior           |
-| RESEARCH           | [[CANON]]            | proposes future promotion      |
+| RESEARCH           | CANON            | proposes future promotion      |
 | ARCHIVE            | ACTIVE PLANES    | preserves superseded lineage   |
 | COGNITIVE_MATRIX   | COGNITION PLANES | cross-links cognitive topology |
 
@@ -2094,7 +2094,7 @@ The fourth invariant is:
 
 ---
 
-**Related:** [[README]]|AMOS OS Root · [[00_ROOT_MOC]]|MOC · [[ARCHITECTURE]]|Architecture · [[FULL_TREE]]|Full Tree · [[SYSTEM_MAP]]|System Map · [[DEPENDENCY_MAP]]|Dependency Map · [[AUTHORITATIVE_STATE]]|Authoritative State · [[00_ROOT_NAMING_STANDARD]]|Naming Standard · [[PLACEMENT_RULES]]|AMOS OS · [[CANON_MAP]]|[[CANON]] · [[KERNEL_MAP]]|KERNEL · [[CONTROL_PLANE_MAP]]|CONTROL_PLANE · [[RUNTIME_MAP]]|RUNTIME · [[COGNITIVE_ORGANISM_MAP]]|COGNITIVE_ORGANISM · [[AGENT_MAP]]|[[AGENTS]] · [[SKILL_MAP]]|SKILLS · [[WORKFLOW_MAP]]|[[WORKFLOWS]] · [[PROTOCOL_MAP]]|PROTOCOLS · [[MEMORY_MEMORY_MAP]]|[[MEMORY]] · [[AMOS_FULL_BRAIN_OS_ARCHITECTURE]]|KNOWLEDGE · [[STATE_STATE_MAP]]|STATE · [[MODEL_MAP]]|MODELS · [[TOOL_MAP]]|TOOLS · [[INTERFACE_MAP]]|INTERFACES · [[SCHEMA_MAP]]|SCHEMAS · [[OBSERVABILITY_OBSERVABILITY_MAP]]|OBSERVABILITY · [[SECURITY_MAP]]|SECURITY · [[TEST_MAP]]|TESTS · [[OPERATIONS_MAP]]|OPERATIONS · [[DOMAIN_ALIAS_MAP]]|DOMAINS · [[INDEX_RESEARCH_README]]|RESEARCH · [[OPERATING_MODEL]]|[[OPERATING_MODEL]] · [[LEGACY_ARCHIVE_README]]|ARCHIVE · [[COGNITIVE_MATRIX_ARCHITECTURE]]|COGNITIVE_MATRIX
+**Related:** README|AMOS OS Root · [[00_ROOT_MOC]]|MOC · [[ARCHITECTURE]]|Architecture · [[FULL_TREE]]|Full Tree · [[SYSTEM_MAP]]|System Map · [[DEPENDENCY_MAP]]|Dependency Map · [[AUTHORITATIVE_STATE]]|Authoritative State · [[00_ROOT_NAMING_STANDARD]]|Naming Standard · [[PLACEMENT_RULES]]|AMOS OS · [[CANON_MAP]]|CANON · [[KERNEL_MAP]]|KERNEL · [[CONTROL_PLANE_MAP]]|CONTROL_PLANE · [[RUNTIME_MAP]]|RUNTIME · [[COGNITIVE_ORGANISM_MAP]]|COGNITIVE_ORGANISM · [[AGENT_MAP]]|[[AGENTS]] · [[SKILL_MAP]]|SKILLS · [[WORKFLOW_MAP]]|WORKFLOWS · [[PROTOCOL_MAP]]|PROTOCOLS · [[MEMORY_MEMORY_MAP]]|MEMORY · [[AMOS_FULL_BRAIN_OS_ARCHITECTURE]]|KNOWLEDGE · [[STATE_STATE_MAP]]|STATE · [[MODEL_MAP]]|MODELS · [[TOOL_MAP]]|TOOLS · [[INTERFACE_MAP]]|INTERFACES · [[SCHEMA_MAP]]|SCHEMAS · [[OBSERVABILITY_OBSERVABILITY_MAP]]|OBSERVABILITY · [[SECURITY_MAP]]|SECURITY · [[TEST_MAP]]|TESTS · [[OPERATIONS_MAP]]|OPERATIONS · [[DOMAIN_ALIAS_MAP]]|DOMAINS · [[INDEX_RESEARCH_README]]|RESEARCH · [[OPERATING_MODEL]]|[[OPERATING_MODEL]] · [[LEGACY_ARCHIVE_README]]|ARCHIVE · [[COGNITIVE_MATRIX_ARCHITECTURE]]|COGNITIVE_MATRIX
 
 ```
 ```

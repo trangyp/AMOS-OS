@@ -1680,7 +1680,7 @@ RSCF-RELATIONS:
 
 ## Related
 
-[[README]] ·
+README ·
 [[00_ROOT_MOC]]|[[AMOS MOC]] ·
 [[ARCHITECTURE]] ·
 [[SYSTEM_MAP]] ·

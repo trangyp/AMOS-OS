@@ -27,7 +27,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# POLITICS POWER DOMAINS [[README]]
+# POLITICS POWER DOMAINS README
 
 ## Purpose
 `POLITICS POWER DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/39_POLITICS_POWER`.

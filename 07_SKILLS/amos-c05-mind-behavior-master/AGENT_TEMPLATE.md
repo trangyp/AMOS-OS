@@ -41,7 +41,7 @@ Domain master agent for AMOS C05 — Mind & Behavior Master. Consolidates 59 sub
 - **Consolidation**: 59 sub-skills merged 2026-08-26
 
 ---
-**MOC:** [[SKILL]]
+**MOC:** SKILL
 
 ---
 **MOC:** [[amos-c05-mind-behavior-master_MOC]]

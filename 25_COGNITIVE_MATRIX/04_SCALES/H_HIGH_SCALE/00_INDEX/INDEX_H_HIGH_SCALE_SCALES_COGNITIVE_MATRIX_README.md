@@ -29,7 +29,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX H HIGH SCALE SCALES COGNITIVE MATRIX [[README]]
+# INDEX H HIGH SCALE SCALES COGNITIVE MATRIX README
 
 ## Index
 - See also — [[H_HIGH_SCALE_MAP]]

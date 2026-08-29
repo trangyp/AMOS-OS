@@ -219,7 +219,7 @@ Entropy lacunarity governance is an AMOS_MODEL. It does not prove lacunarity pre
 - `amos-entropy-lacunarity-governor-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -229,7 +229,7 @@ Entropy lacunarity governance is an AMOS_MODEL. It does not prove lacunarity pre
 RSCF-NODE
 node_id: amos-entropy-lacunarity-governor
 node_type: skill
-path: 07_SKILLS/amos-entropy-lacunarity-governor/[[SKILL]].md
+path: 07_SKILLS/amos-entropy-lacunarity-governor/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

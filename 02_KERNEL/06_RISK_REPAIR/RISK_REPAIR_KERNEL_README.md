@@ -33,7 +33,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# RISK REPAIR KERNEL [[README]]
+# RISK REPAIR KERNEL README
 
 ## Purpose
 `RISK REPAIR KERNEL README` is the package readme for the **Kernel** plane segment at `02_KERNEL/06_RISK_REPAIR`.

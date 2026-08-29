@@ -66,7 +66,7 @@ Successfully implemented advanced intelligence system with internet state-of-the
 - **Decision Recording**: Complete audit trail with reversible reasoning
 - **Artifact Binding**: All decisions linked to verifiable evidence artifacts
 
-#### 3. [[INTEGRATION]] LAYER ✅
+#### 3. INTEGRATION LAYER ✅
 **File**: `01_BRAIN/omega_integration_layer.py`
 - **Comprehensive Analysis**: Tensor field + policy engine integration
 - **Internet Enhancement**: State-of-the-art model integration capability
@@ -123,9 +123,9 @@ operation = {
 **Related:** [[amos-super-engines-master_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -137,4 +137,4 @@ path: 07_SKILLS/amos-super-engines-master/references/omega_advanced_intelligence
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

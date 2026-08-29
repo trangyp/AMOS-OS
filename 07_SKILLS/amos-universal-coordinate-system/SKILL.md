@@ -219,7 +219,7 @@ Universal coordinate system is an AMOS_MODEL. It does not prove a single coordin
 - `amos-universal-coordinate-system-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -229,7 +229,7 @@ Universal coordinate system is an AMOS_MODEL. It does not prove a single coordin
 RSCF-NODE
 node_id: amos-universal-coordinate-system
 node_type: skill
-path: 07_SKILLS/amos-universal-coordinate-system/[[SKILL]].md
+path: 07_SKILLS/amos-universal-coordinate-system/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

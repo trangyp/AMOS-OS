@@ -6126,7 +6126,7 @@ RSCF-RELATIONS:
 
   - USES: `QLS`
 
-  - USES: [[UBI]]
+  - USES: UBI
 
   - USES: `DCC`
 

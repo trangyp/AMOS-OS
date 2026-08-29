@@ -3980,7 +3980,7 @@ Do not merge them.
 
 # 168. Documentation Evidence
 
-[[README]]/documentation statements remain:
+README/documentation statements remain:
 
 ```text
 SOURCE_CLAIM

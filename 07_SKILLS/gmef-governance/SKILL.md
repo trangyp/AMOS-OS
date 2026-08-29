@@ -235,7 +235,7 @@ Governance requirement scales with recursion depth and consequence level.
 - `gmef-governance-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -245,7 +245,7 @@ Governance requirement scales with recursion depth and consequence level.
 RSCF-NODE
 node_id: gmef-governance
 node_type: skill
-path: 07_SKILLS/gmef-governance/[[SKILL]].md
+path: 07_SKILLS/gmef-governance/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

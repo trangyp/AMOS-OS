@@ -30,7 +30,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX [[VALIDATION]] COGNITIVE MATRIX [[README]]
+# INDEX VALIDATION COGNITIVE MATRIX README
 
 ## Index
 - See also — [[COGNITIVE_MATRIX_VALIDATION_MAP]]

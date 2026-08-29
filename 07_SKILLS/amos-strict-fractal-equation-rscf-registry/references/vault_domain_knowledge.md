@@ -145,16 +145,16 @@ generalized","formula":"segment -> N segments scaled by r","family":"replacement
 r_l=r_0a^l"},{"name":"multifractal","formula":"Z(q,ε)=Σμ_i(ε)^q∼ε^{τ(q)}"},{"name":"cascade","formula":"μ_{n+1}=W_iμ_n"},{"name":"attractor","formula":"X_{t+1}=F(X_t)"},{"name":"signal_noise","formula":"SNR=Signal/Noise"},{"name":"control_gate","formula":"allow=true iff Risk<θ"},{"name":"renormalization","formula":"g'=R(g)"},{"name":"substitution","formula":"T_{n+1}=σ(T_n)"},{"name":"memory_decay","formula":"M_{t+1}=ρM_t+η"},{"name":"feedback","formula":"L_{t+1}=L_t+Input-Repair"}],"architecture_modes":["recursive","hierarchical","branching","network","cascade","boundary","porous","self_affine","multifractal","rank_size","spiral","tiling","attractor","feedback","control","ecosystem","symbolic","temporal","spatial","social"],"validation_methods":["box_counting","power_law_fit","hurst_exponent","lacunarity","graph_cover","multifractal_spectrum","branch_ratio","attractor_dimension","lyapunov","scaling_collapse","source_support","schema_parse","risk_check","anti_overclaim","domain_expert_review"],"entries":[{"id":"ADF-00001","dataset":"all_domain_fractal_architecture_master","domain":"mathematics","scale":"meso","architecture_mode":"boundary","equation_name":"box_dimension","equation_formula":"D=lim
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -166,4 +166,4 @@ path: 07_SKILLS/amos-strict-fractal-equation-rscf-registry/references/vault_doma
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

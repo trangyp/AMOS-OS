@@ -28,7 +28,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX C01 META LOGIC DOMAINS [[README]]
+# INDEX C01 META LOGIC DOMAINS README
 
 ## Index
 - See also — [[C01_META_LOGIC_DOMAINS_C01_META_LOGIC_CONTRACT]]

@@ -41,7 +41,7 @@ Domain master agent for AMOS Super Engines Master. Consolidates 8 sub-skills.
 - **Consolidation**: 8 sub-skills merged 2026-08-26
 
 ---
-**MOC:** [[SKILL]]
+**MOC:** SKILL
 
 ---
 **MOC:** [[amos-super-engines-master_MOC]]

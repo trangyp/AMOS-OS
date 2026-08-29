@@ -466,7 +466,7 @@ while retaining one authoritative home.
 Therefore:
 
 ```text
-MANY [[REFERENCES]]
+MANY REFERENCES
 +
 ONE AUTHORITY
 ```
@@ -3417,7 +3417,7 @@ PXC-4 directly reinforces this boundary.
 # 136. Test Report vs Test Observation
 
 ```text
-[[README]]:
+README:
 "100 tests pass"
 ```
 
@@ -5566,7 +5566,7 @@ law to unconditional canon.
 Critical firewall:
 
 ```text
-[[CANON]] DIRECTORY
+CANON DIRECTORY
 !=
 UNCONDITIONAL CANONICAL STATUS
 ```

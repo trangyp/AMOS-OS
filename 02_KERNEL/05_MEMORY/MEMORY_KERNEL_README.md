@@ -34,7 +34,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# [[MEMORY]] KERNEL [[README]]
+# MEMORY KERNEL README
 
 ## Purpose
 `MEMORY KERNEL README` is the package readme for the **Kernel** plane segment at `02_KERNEL/05_MEMORY`.

@@ -4366,7 +4366,7 @@ The central requirement is therefore:
 
 ---
 
-**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · [[Cosmo_Brain_BRIDGE_INDEX]] · AMOS_Relation_Tensor_Architecture · AMOS_Universal_Variable_Registry · AMOS_Mathematical_Rigor_RSCF_Kernel · AMOS_Provenance_Topology · AMOS_Constraint_Propagation · AMOS_Execution_Provenance_Replay · AMOS_Infrastructure_Control_Plane · [[AMOS_Simulation_Kernel_v0_Math_Foundations]] · system_scan_agent · automation_profiles
+**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · Cosmo_Brain_BRIDGE_INDEX · AMOS_Relation_Tensor_Architecture · AMOS_Universal_Variable_Registry · AMOS_Mathematical_Rigor_RSCF_Kernel · AMOS_Provenance_Topology · AMOS_Constraint_Propagation · AMOS_Execution_Provenance_Replay · AMOS_Infrastructure_Control_Plane · [[AMOS_Simulation_Kernel_v0_Math_Foundations]] · system_scan_agent · automation_profiles
 
 ---
 

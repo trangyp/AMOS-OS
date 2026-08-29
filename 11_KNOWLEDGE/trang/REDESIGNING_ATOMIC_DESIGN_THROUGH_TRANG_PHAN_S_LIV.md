@@ -5,12 +5,6 @@ tags:
 - framework
 - reality
 - canon/knowledge
-- 00-home
-- knowledge-moc
-- system-scan-agent
-- automation-profiles
-- trang-moc
-- amos-simulation-kernel-v0-math-foundations
 type: document
 source: 11_KNOWLEDGE/trang
 rscf:
@@ -19,6 +13,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
+
 
 # **Redesigning Atomic Design Through Trang Phan’s Living Intelligence Stack**
 Atomic Design, introduced by Brad Frost, provided product teams with a clear, practical, and highly effective language for scaling digital interfaces. By organizing UI elements into **atoms, molecules, organisms, templates, and pages** , it enabled organizations to move away from fragmented, screen-by-screen design toward reusable, consistent, and maintainable component systems. This shift dramatically improved collaboration between design and engineering, reduced duplication, accelerated delivery, and helped companies maintain brand coherence across multiple products and platforms.

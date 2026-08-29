@@ -22,7 +22,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX ARCHIVE [[README]]
+# INDEX ARCHIVE README
 
 STATUS: PROPOSED_SPECIFICATION
 epistemic_class: AMOS_MODEL

@@ -28,7 +28,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX RESEARCH DOMAINS [[README]]
+# INDEX RESEARCH DOMAINS README
 
 ## Index
 - See also — [[DOMAINS_RESEARCH_MAP]]

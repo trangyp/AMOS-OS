@@ -28,7 +28,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# COGNITIVE ORGANISM [[README]]
+# COGNITIVE ORGANISM README
 
 ## Purpose
 `COGNITIVE ORGANISM README` is the package readme for the **Cognitive Organism** plane segment at `05_COGNITIVE_ORGANISM`.

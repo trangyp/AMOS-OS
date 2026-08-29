@@ -28,7 +28,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# POLICY DESIGN DOMAINS [[README]]
+# POLICY DESIGN DOMAINS README
 
 ## Purpose
 `POLICY DESIGN DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/32_POLICY_DESIGN`.

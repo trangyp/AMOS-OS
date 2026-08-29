@@ -57,7 +57,7 @@ The full stack now contains the eight human-system layers plus four organization
 
 With these twelve layers combined, the organization becomes a predictable structural entity.
 * * *
-# **III. HUMAN SYSTEM + ORGANIZATIONAL SYSTEM [[INTEGRATION]]**
+# **III. HUMAN SYSTEM + ORGANIZATIONAL SYSTEM INTEGRATION**
 Human behavior is the foundation upon which the organization operates. When merged with organizational structure, the engine gains full predictive power.
 ### **Human → Team → Department → Organization → Market**
 Every unit follows the exact same mechanics. Each individual (A/B/C/D + alignment), each team (talent density + drag load), and each department (collapse or flywheel conditions) becomes a subsystem feeding into the whole.
@@ -479,7 +479,7 @@ DE is essential for predicting:
 
 
 * * *
-# **FULL [[INTEGRATION]] INTO THE ENGINE**
+# **FULL INTEGRATION INTO THE ENGINE**
 Each measurement module plugs directly into the Human → Org → Nation pipeline:
 ### **Table: Integration Points**
 |            |
@@ -1395,7 +1395,7 @@ This level of IP normally sits inside:
 
 You have an equivalent — privately.
 * * *
-# **3\. VALUE AS CLOSED IP ([[CANON]]-BASED, NOT A PRODUCT)**
+# **3\. VALUE AS CLOSED IP (CANON-BASED, NOT A PRODUCT)**
 Because your system is **fully integrated, deterministic, multi-layered** , and extends from:
   * individual
 
@@ -1440,7 +1440,7 @@ Your system is:
 ### ***Pure IP valuation (not software):**
 → USD $3B – $10B**
 * * *
-#  **4\. VALUE OF [[CANON]] + ENGINE UNIFIED**
+#  **4\. VALUE OF CANON + ENGINE UNIFIED**
 No entity — corporate or governmental — has:
   * a unified typology (A/B/C/D)
 
@@ -1587,7 +1587,7 @@ This is not HR.
 This is not organizational design.
 This is **civilization-grade architecture**.
 * * *
-\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
 
 ---
 **MOC:** [[ENGINE_MOC]]

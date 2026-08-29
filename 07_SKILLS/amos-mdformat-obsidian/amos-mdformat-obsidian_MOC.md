@@ -27,14 +27,14 @@ rscf:
 Map-of-content for the Obsidian vault Markdown formatting skill.
 
 ## Skill
-- [[SKILL]] — amos-mdformat-obsidian skill definition
+- SKILL — amos-mdformat-obsidian skill definition
 
 ## Reference
-- [[references/sota]] — SOTA regression prevention, grounding, data trustworthiness, and evaluation contract
+- references/sota — SOTA regression prevention, grounding, data trustworthiness, and evaluation contract
 
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[SKILL]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · SKILL
 
 **MOC:** [[07_SKILLS_MOC]]
 

@@ -27,10 +27,10 @@ rscf:
   scope: workflow_process
 ---
 
-# [[WORKFLOWS]] [[WORKFLOW]] CONTRACT
+# WORKFLOWS [[WORKFLOW]] CONTRACT
 
 ## 0. Status
-Workflows-plane contract for **[[WORKFLOWS]] [[WORKFLOW]] CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
+Workflows-plane contract for **WORKFLOWS [[WORKFLOW]] CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
 ## 1. Scope
 Governs multi-step orchestration definitions with typed stages and rollback basins as they bear on `WORKFLOWS WORKFLOW CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.

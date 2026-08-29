@@ -244,7 +244,7 @@ Expanded test coverage in 3 existing test files:
 - `amos-execution-provenance-replay-rscf-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -254,7 +254,7 @@ Expanded test coverage in 3 existing test files:
 RSCF-NODE
 node_id: amos-execution-provenance-replay-rscf
 node_type: skill
-path: 07_SKILLS/amos-execution-provenance-replay-rscf/[[SKILL]].md
+path: 07_SKILLS/amos-execution-provenance-replay-rscf/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

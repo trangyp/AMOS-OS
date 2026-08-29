@@ -1486,7 +1486,7 @@ GOVERNANCE CORRECTNESS PROVEN
 This creates a hard boundary between:
 
 ```text
-[[VALIDATION]] / AUDIT
+VALIDATION / AUDIT
 ```
 
 and:
@@ -1596,7 +1596,7 @@ INTEGRITY
 That does not imply A has authority to:
 
 ```text
-PROMOTE TO [[CANON]]
+PROMOTE TO CANON
 ```
 
 unless separately granted.
@@ -1720,7 +1720,7 @@ TECHNICAL AUDIT
         ↓
 PASS
         ↓
-[[CANON]]?
+CANON?
 ```
 
 GMEF-4 says:
@@ -1952,7 +1952,7 @@ Therefore:
 ```text
 GOVERNANCE AUTHORIZATION
 ≠
-EPISTEMIC [[VALIDATION]]
+EPISTEMIC VALIDATION
 ```
 
 ---
@@ -2543,7 +2543,7 @@ Conceptually:
 ```text
 TEST IN SANDBOX
 ≠
-PROMOTE TO [[CANON]]
+PROMOTE TO CANON
 ```
 
 A candidate may be evaluated in a reversible environment without receiving production/canonical authority.
@@ -2829,11 +2829,11 @@ PROMOTION DECISION
 A canonical mutation can be modeled:
 
 ```text
-CURRENT [[CANON]]
+CURRENT CANON
       ↓
 PROPOSE CHANGE
       ↓
-RSCF [[VALIDATION]]
+RSCF VALIDATION
       ↓
 GMEF GATES
       ↓
@@ -2841,7 +2841,7 @@ AUDIT
       ↓
 PROMOTION PROCESS
       ↓
-NEW [[CANON]]
+NEW CANON
 ```
 
 No earlier stage automatically grants a later stage.
@@ -4108,7 +4108,7 @@ L18 DEFINES GMEF
       ↓
 L18 PASSES ITS OWN GATES
       ↓
-L18 BECOMES [[CANON]]
+L18 BECOMES CANON
 ```
 
 This violates GMEF-4.
@@ -4140,7 +4140,7 @@ Original falsifier:
 Operationally:
 
 ```text
-RECOVER AUTHORITATIVE GMEF [[CANON]]
+RECOVER AUTHORITATIVE GMEF CANON
             ↓
 COMPARE GATE SEMANTICS
             ↓
@@ -4793,7 +4793,7 @@ RSCF-RELATIONS:
 
   - RELATED_TO: [[L16_HML]]
 
-  - RELATED_TO: [[PROVENANCE_TOPOLOGY]]
+  - RELATED_TO: PROVENANCE_TOPOLOGY
 
   - RELATED_TO: [[SCOPE_REGIME_FIREWALL]]
 
@@ -4923,7 +4923,7 @@ AUDIT PASS
 ≠
 PROMOTION
 
-[[VALIDATION]]
+VALIDATION
 ≠
 PROMOTION
 

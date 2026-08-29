@@ -28,9 +28,9 @@ rscf:
   scope: index_navigation
 ---
 
-# L07 [[MEMORY]] MAP
+# L07 MEMORY MAP
 
-## Map — L07 [[MEMORY]] MAP
+## Map — L07 MEMORY MAP
 Navigation map for the `25_COGNITIVE_MATRIX/01_PRIMITIVES/L07_MEMORY/00_INDEX` segment of the Cognitive Matrix plane.
 
 - **Readme** — [[INDEX_L07_MEMORY_PRIMITIVES_COGNITIVE_MATRIX_README]]

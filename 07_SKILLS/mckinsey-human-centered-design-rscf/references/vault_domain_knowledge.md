@@ -39,7 +39,7 @@ rscf:
 - **Version**: v∞_MAX_1.0
 - **Density Level**: x1000
 - **Expansion Label**: TECH_ENGINE_vInfinity_X1000
-- **Description**: Tech Engine v∞ with all conceptual gaps closed to 100% structural coverage across tech domains and leadership/specialist roles. Wraps full [[CANON]] engine, QUANTUM augmentation layers, and explicit benchmark matrix for covered roles.
+- **Description**: Tech Engine v∞ with all conceptual gaps closed to 100% structural coverage across tech domains and leadership/specialist roles. Wraps full CANON engine, QUANTUM augmentation layers, and explicit benchmark matrix for covered roles.
 - **Base Engine File**: Tech_Engine_vInfinity_CANON_EXPANDED.json
 - **Coverage**: 100% conceptual structural coverage vs global best (design space covers all known dimensions/roles; numerical performance depends on data, human execution, context)
 - **Linked Super Engines**: UNIVERSE_BRAIN_SUPER_ENGINE, AMOS_OMNIVERSE_BRAIN, _AMOS_FABRICATION_LAYER, AMOS_GLOBAL_AUDIT_AND_EXPANSION_ENGINE, AMOS_SUPER_CODE_Engine_v1.6.0
@@ -170,16 +170,16 @@ Tao sẽ **không giải thích lại**, mà tao sẽ **liệt kê tất cả ph
 | S1 | Phân tích đầ
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -191,4 +191,4 @@ path: 07_SKILLS/mckinsey-human-centered-design-rscf/references/vault_domain_know
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

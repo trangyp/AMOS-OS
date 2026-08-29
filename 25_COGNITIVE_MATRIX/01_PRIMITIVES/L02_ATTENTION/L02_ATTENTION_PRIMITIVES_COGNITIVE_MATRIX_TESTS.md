@@ -1213,7 +1213,7 @@ one ancestry family
 
 # 23. Skill Routing Tests
 
-## TEST-L02-[[SKILL]]-001 — Correct Scope
+## TEST-L02-SKILL-001 — Correct Scope
 
 Task requires provenance auditing.
 
@@ -1227,7 +1227,7 @@ reject out-of-scope Skill
 
 ---
 
-## TEST-L02-[[SKILL]]-002 — No Valid Skill
+## TEST-L02-SKILL-002 — No Valid Skill
 
 No available Skill satisfies requirements.
 
@@ -1241,7 +1241,7 @@ not fabricated capability.
 
 ---
 
-## TEST-L02-[[SKILL]]-003 — Skill Failure
+## TEST-L02-SKILL-003 — Skill Failure
 
 Invocation fails.
 

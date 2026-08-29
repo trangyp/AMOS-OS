@@ -27,7 +27,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# CONTROL PLANES COGNITIVE MATRIX [[README]]
+# CONTROL PLANES COGNITIVE MATRIX README
 
 ## Purpose
 `CONTROL PLANES COGNITIVE MATRIX README` is the package readme for the **Cognitive Matrix** plane segment at `25_COGNITIVE_MATRIX/03_CONTROL_PLANES`.

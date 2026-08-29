@@ -88,7 +88,7 @@ rscf:
 - [[subscription_agent]]
 - [[ubi_super_engine]]
 - [[uni_market_engine]]
-- [[vault_domain_knowledge]]
+- vault_domain_knowledge
 - [[vn_business_model_criteria]]
 - [[vn_vscci_investment_proposal]]
 - [[wealth_game_hack_5000]]
@@ -98,9 +98,9 @@ rscf:
 **Parent:** [[amos-c07-econ-finance-master_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -112,4 +112,4 @@ path: 07_SKILLS/amos-c07-econ-finance-master/references/references_MOC.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

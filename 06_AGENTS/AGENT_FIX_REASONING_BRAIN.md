@@ -76,7 +76,7 @@ Fix every generated agent template so each agent is **truthfully specialized** t
    - detects parent/child and uses `inherits_from` / `specialization` instead of duplicating parent
    - replaces placeholders with `${VAR}` typed config requirements + records in UNRESOLVED_AGENT_CONFIG.md
 4. **Build validator** that fails on: bad JSON, duplicate IDs, missing skill bindings, broken file paths, stale skill IDs, unresolved placeholders, missing referenced files, skill/agent trigger mismatch, unsupported tool/connector claims, material agent/skill contradiction.
-5. **Generate reports**: AGENT_FIX_REPORT.md, [[AGENT_REGISTRY]].json, AGENT_SKILL_SYNC_REPORT.json, UNRESOLVED_AGENT_CONFIG.md, AGENT_VALIDATION_REPORT.md.
+5. **Generate reports**: AGENT_FIX_REPORT.md, AGENT_REGISTRY.json, AGENT_SKILL_SYNC_REPORT.json, UNRESOLVED_AGENT_CONFIG.md, AGENT_VALIDATION_REPORT.md.
 6. **Git commit**.
 
 ## Anti-fabrication rule
@@ -112,7 +112,7 @@ A value that cannot be established from repository evidence stays explicitly unr
 ## Lifecycle enhancement pass (2026-08-26)
 
 User added AREG best practice lifecycle field to repair harness. Enhanced with:
-- **Superseded detection** from [[SKILL]].md frontmatter ("superseded by", "lineage marker", "honest stub")
+- **Superseded detection** from SKILL.md frontmatter ("superseded by", "lineage marker", "honest stub")
 - **Stub detection** from Status section ("Honest stub", "stub")
 - **Redirect detection** from frontmatter description ("Redirect — consolidated into")
 - **Redirect following**: when a skill is a redirect, content is extracted from the TARGET master skill, not the redirect stub
@@ -169,7 +169,7 @@ User added AREG best practice lifecycle field to repair harness. Enhanced with:
 2. **AWS AgentOps** — portfolio governance with owner_team, business_domain, risk_tier
 3. **Agent Registry Field Guide** — capability schema with side-effect classification, observability coverage
 4. **Redirect following** — redirect agents extract content from target master skills
-5. **Anti-fabrication** — all content sourced from [[SKILL]].md and vault knowledge files
+5. **Anti-fabrication** — all content sourced from SKILL.md and vault knowledge files
 ## Quality improvement pass (2026-08-26)
 
 After the initial repair, a quality spot-check found 422 issues:
@@ -214,28 +214,28 @@ After the initial repair, a quality spot-check found 422 issues:
 - 60 generic safety_constraints objects → replaced with skill-derived arrays
 - 54 agents with renamed/consolidated skills → re-bound via curated mapping
 - 15 agents bound to placeholder skills → marked CONDITIONAL with ${UNRESOLVED_CONFIG}
-- All 834 agents re-derived from [[SKILL]].md (no fabrication)
+- All 834 agents re-derived from SKILL.md (no fabrication)
 - Mis-specialization corrected (e.g. amos-adversarial-robustness-agent no longer claims ML security)
 
 ### Reports generated
 - AGENT_FIX_REPORT.md
-- [[AGENT_REGISTRY]].json
+- AGENT_REGISTRY.json
 - AGENT_SKILL_SYNC_REPORT.json
 - UNRESOLVED_AGENT_CONFIG.md
 - AGENT_VALIDATION_REPORT.md
 - .devin/AGENT_FIX_WORKLOG.json
 
 ### Anti-fabrication discipline held
-No value was fabricated to remove a placeholder. All 15 unresolved entries are agents bound to placeholder skills whose [[SKILL]].md content has not been authored — they remain explicitly CONDITIONAL.
+No value was fabricated to remove a placeholder. All 15 unresolved entries are agents bound to placeholder skills whose SKILL.md content has not been authored — they remain explicitly CONDITIONAL.
 ## Critical discovery (2026-08-26)
 
-The classifier marked 556 agents as SPECIALIZED, but inspection shows many are **mis-specialized** — they have rich fields populated with **fabricated content that contradicts the bound [[SKILL]].md**.
+The classifier marked 556 agents as SPECIALIZED, but inspection shows many are **mis-specialized** — they have rich fields populated with **fabricated content that contradicts the bound SKILL.md**.
 
-Example: `amos-adversarial-robustness-agent.json` describes "prompt injection defense, jailbreak resistance, data poisoning defense" (ML security) but the [[SKILL]].md is about **adversarial validation of reasoning outputs** (9-step protocol: falsifier enumeration, red-team framing, stress cases, alternative explanations, selection-effect correction, claim revision/downgrade, attack-log retention). The capabilities are completely wrong.
+Example: `amos-adversarial-robustness-agent.json` describes "prompt injection defense, jailbreak resistance, data poisoning defense" (ML security) but the SKILL.md is about **adversarial validation of reasoning outputs** (9-step protocol: falsifier enumeration, red-team framing, stress cases, alternative explanations, selection-effect correction, claim revision/downgrade, attack-log retention). The capabilities are completely wrong.
 
 ### Revised approach
 **Repair ALL 834 agents**, not just the 198 generic ones. For each agent:
-1. Read bound [[SKILL]].md completely
+1. Read bound SKILL.md completely
 2. Re-derive description, role, capabilities, operations, integrity_requirements, safety_constraints, depends_on_skills, depends_on_workflows FROM the skill
 3. Preserve any genuinely-correct existing content (e.g. Trang Phan author, version)
 4. Flag contradictions in AGENT_SKILL_SYNC_REPORT.json

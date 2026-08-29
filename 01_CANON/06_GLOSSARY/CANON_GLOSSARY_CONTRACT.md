@@ -27,7 +27,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# [[CANON]] GLOSSARY CONTRACT
+# CANON GLOSSARY CONTRACT
 
 ## 0. Status
 Canon-plane contract for **GLOSSARY CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.

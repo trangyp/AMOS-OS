@@ -842,7 +842,7 @@ Repeated descendants of one origin contribute limited evidential independence.
 
 ---
 
-# 25. NO CIRCULAR [[VALIDATION]]
+# 25. NO CIRCULAR VALIDATION
 
 The following is invalid:
 
@@ -994,7 +994,7 @@ CONDITIONAL
 
 ---
 
-# 34. ADVERSARIAL [[VALIDATION]]
+# 34. ADVERSARIAL VALIDATION
 
 For consequential outputs:
 
@@ -1114,7 +1114,7 @@ Otherwise escalate.
 
 ---
 
-# 39. H/M/L [[INTEGRATION]]
+# 39. H/M/L INTEGRATION
 
 Generators SHOULD retrieve only the knowledge resolution required.
 
@@ -1140,7 +1140,7 @@ Generation is not justification for indiscriminate retrieval.
 
 ---
 
-# 40. RSCF [[INTEGRATION]]
+# 40. RSCF INTEGRATION
 
 Generator invocation may occur inside RSCF structures.
 
@@ -1171,7 +1171,7 @@ Atomic reasoning is required where partial state would produce an invalid result
 
 ---
 
-# 42. GMEF [[INTEGRATION]]
+# 42. GMEF INTEGRATION
 
 Generated models SHOULD enter governed model evaluation.
 
@@ -1195,7 +1195,7 @@ It does not certify the model.
 
 ---
 
-# 43. PROOF CAPSULE [[INTEGRATION]]
+# 43. PROOF CAPSULE INTEGRATION
 
 Consequential generator conclusions SHOULD bind to a Proof Capsule.
 
@@ -1262,7 +1262,7 @@ not fabricated execution.
 
 ---
 
-# 45. MODE [[INTEGRATION]]
+# 45. MODE INTEGRATION
 
 Modes and generators are separate abstractions.
 
@@ -1911,7 +1911,7 @@ $$WeakPremise + ManyDerivedOutputs \not\Rightarrow StrongPremise$$
 
 ---
 
-# 85. ANTI-[[CANON]]-LAUNDERING
+# 85. ANTI-CANON-LAUNDERING
 
 Generated architecture documentation MUST NOT self-promote to canon.
 
@@ -2070,7 +2070,7 @@ generator_execution:
 
 ---
 
-# 88. [[VALIDATION]] REQUIREMENTS
+# 88. VALIDATION REQUIREMENTS
 
 An implementation claiming compliance SHOULD be tested for:
 
@@ -2580,7 +2580,7 @@ not `VERIFIED`.
 
 ---
 
-# 106. [[CANON]] PROMOTION
+# 106. CANON PROMOTION
 
 This artifact MUST NOT self-certify as final canon.
 

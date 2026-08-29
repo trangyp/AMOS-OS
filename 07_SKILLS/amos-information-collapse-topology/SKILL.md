@@ -218,7 +218,7 @@ Information collapse topology is an AMOS_MODEL. It does not prove collapse is ph
 - `amos-information-collapse-topology-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -228,7 +228,7 @@ Information collapse topology is an AMOS_MODEL. It does not prove collapse is ph
 RSCF-NODE
 node_id: amos-information-collapse-topology
 node_type: skill
-path: 07_SKILLS/amos-information-collapse-topology/[[SKILL]].md
+path: 07_SKILLS/amos-information-collapse-topology/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

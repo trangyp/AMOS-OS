@@ -1,14 +1,12 @@
 ---
-title: [[l2 provenance
+title: l2 provenance
 tags:
 - stub
 - [[l
 - provenance
----
+--- >  [[l2 provenance
 
-# [[l2 provenance
-
-Stub note for [[[[l2_provenance]].
+Stub note for [[[[l2_provenance.
 
 ---
 

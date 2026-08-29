@@ -2746,7 +2746,7 @@ tensor_registry:
       - confidence_ceiling
 
   T_G:
-    name: [[GOVERNANCE_TENSOR]]
+    name: GOVERNANCE_TENSOR
     axes:
       - action
       - capability
@@ -4243,7 +4243,7 @@ FRACTAL_RETRIEVAL:
       - FRACTAL_TENSOR
       - [[EVIDENCE_TENSOR]]
       - [[CLAIM_TENSOR]]
-      - [[GOVERNANCE_TENSOR]]
+      - GOVERNANCE_TENSOR
       - MEMORY_TENSOR
 
   L:

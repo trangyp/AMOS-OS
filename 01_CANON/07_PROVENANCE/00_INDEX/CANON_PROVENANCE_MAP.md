@@ -31,9 +31,9 @@ rscf:
   scope: index_navigation
 ---
 
-# [[CANON]] PROVENANCE MAP
+# CANON PROVENANCE MAP
 
-## Map — [[CANON]] · PROVENANCE MAP
+## Map — CANON · PROVENANCE MAP
 Navigation map for the `01_CANON/07_PROVENANCE/00_INDEX` segment of the Canon plane.
 
 - **Readme** — [[INDEX_PROVENANCE_CANON_README]]

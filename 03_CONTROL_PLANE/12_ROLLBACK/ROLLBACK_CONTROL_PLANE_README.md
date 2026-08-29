@@ -28,7 +28,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# ROLLBACK CONTROL PLANE [[README]]
+# ROLLBACK CONTROL PLANE README
 
 ## Purpose
 `ROLLBACK CONTROL PLANE README` is the package readme for the **Control Plane** plane segment at `03_CONTROL_PLANE/12_ROLLBACK`.

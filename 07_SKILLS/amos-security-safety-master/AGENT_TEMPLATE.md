@@ -41,7 +41,7 @@ Domain master agent for AMOS Security & Safety Master. Consolidates 2 sub-skills
 - **Consolidation**: 2 sub-skills merged 2026-08-26
 
 ---
-**MOC:** [[SKILL]]
+**MOC:** SKILL
 
 ---
 **MOC:** [[amos-security-safety-master_MOC]]

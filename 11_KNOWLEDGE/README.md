@@ -112,7 +112,7 @@ await subsystem.initialize()
 > The supplied metadata identifies the artifact as:
 > 
 > ```yaml
-> title: [[README]] — 11 Knowledge
+> title: README — 11 Knowledge
 > source: "11_KNOWLEDGE/root"
 > type: document
 > ````
@@ -142,7 +142,7 @@ await subsystem.initialize()
 > ```yaml
 > artifact_identity:
 >   metadata_identity:
->     title: "[[README]] — 11 Knowledge"
+>     title: "README — 11 Knowledge"
 >     location: "11_KNOWLEDGE/root"
 > 
 >   body_identity:
@@ -160,7 +160,7 @@ await subsystem.initialize()
 > The mismatch must not be silently normalized into either of these assumptions:
 > 
 > ```text
-> [[README]] — 11 Knowledge == [[README]] — 01_BRAIN
+> README — 11 Knowledge == README — 01_BRAIN
 > ```
 > 
 > or:
@@ -269,7 +269,7 @@ is a **SOURCE_CLAIM about operational status**, not independent runtime evidence
 
 The artifact visibly performs at least three documentation roles:
 
-1. [[README]]-style subsystem description.
+1. README-style subsystem description.
 2. Index/MOC participation through its tags and links.
 3. AMOS knowledge-corpus source claim.
 
@@ -278,7 +278,7 @@ This can be represented as:
 $$
 ArtifactRole
 =
-[[README]]
+README
 +
 IndexParticipation
 +
@@ -355,7 +355,7 @@ the AMOS system
 
 but does not define its exact system boundary in this artifact.
 
-Do not infer from this [[README]] alone:
+Do not infer from this README alone:
 
 * exact AMOS version;
 * runtime topology;
@@ -393,7 +393,7 @@ The ellipsis must not be filled with invented responsibilities.
 
 # 10. Purpose Gap
 
-The missing purpose is a **DECISION-RELEVANT GAP** if this [[README]] is used to determine:
+The missing purpose is a **DECISION-RELEVANT GAP** if this README is used to determine:
 
 * subsystem ownership;
 * API responsibility;
@@ -1104,7 +1104,7 @@ rscf:
 This gives four explicit dimensions:
 
 $$
-RSCF_{[[README]]}
+RSCF_{README}
 =
 (
 State,
@@ -1290,7 +1290,7 @@ RSCF_RETRIEVAL:
 | Contributing  |     ✓    |           No           |
 | Links         |     ✓    |         Partial        |
 
-The [[README]] is therefore structurally scaffolded but semantically incomplete.
+The README is therefore structurally scaffolded but semantically incomplete.
 
 ---
 
@@ -1354,7 +1354,7 @@ The highest-information next artifacts would be:
 1. the directory listing or MOC for `11_KNOWLEDGE`;
 2. ``;
 3. ``;
-4. the canonical `01_BRAIN` [[README]]/path;
+4. the canonical `01_BRAIN` README/path;
 5. the implementation containing `BRAINSubsystem`;
 6. the repository/module layout.
 
@@ -1515,7 +1515,7 @@ PROOF_CAPSULE:
 
 Strongest source-supported conclusion:
 
-> The [[README]] labels `01_BRAIN` operational.
+> The README labels `01_BRAIN` operational.
 
 Challenge:
 
@@ -1539,7 +1539,7 @@ INDEPENDENTLY VERIFIED RUNTIME FACT.
 
 Strongest source-supported conclusion:
 
-> The [[README]] intends Python-like initialization through `BRAINSubsystem`.
+> The README intends Python-like initialization through `BRAINSubsystem`.
 
 Challenge:
 
@@ -1572,11 +1572,11 @@ Only two placeholder rows are visible.
 
 ---
 
-# 59. Adversarial Validation — [[README]] Identity
+# 59. Adversarial Validation — README Identity
 
 Potential conclusion:
 
-> This is definitively the `01_BRAIN` [[README]].
+> This is definitively the `01_BRAIN` README.
 
 Challenge:
 
@@ -1593,11 +1593,11 @@ Result:
 
 ---
 
-# 60. Adversarial Validation — Knowledge [[README]]
+# 60. Adversarial Validation — Knowledge README
 
 Potential conclusion:
 
-> This is definitively the complete `11_KNOWLEDGE` [[README]].
+> This is definitively the complete `11_KNOWLEDGE` README.
 
 Challenge:
 
@@ -1611,7 +1611,7 @@ Result:
 
 # 61. Causal Firewall
 
-Nothing in this [[README]] establishes causal claims about cognition, brain function, intelligence, or external biological systems.
+Nothing in this README establishes causal claims about cognition, brain function, intelligence, or external biological systems.
 
 The name:
 
@@ -1655,7 +1655,7 @@ Documentation statements do not prove deployment.
 Therefore:
 
 $$
-[[README]]
+README
 \neq
 RuntimeReceipt.
 $$
@@ -2203,8 +2203,8 @@ DERIVED_VALIDATION:
 Do not claim from this artifact alone that:
 
 1. `01_BRAIN` is the same thing as `11_KNOWLEDGE`;
-2. this is definitely the canonical `01_BRAIN` [[README]];
-3. this is definitely the complete `11_KNOWLEDGE` [[README]];
+2. this is definitely the canonical `01_BRAIN` README;
+3. this is definitely the complete `11_KNOWLEDGE` README;
 4. `01_BRAIN` has exactly two components;
 5. Component 1 has a known identity;
 6. Component 2 has a known identity;
@@ -2867,9 +2867,9 @@ PROPOSED_RELATIONS:
 
 ---
 
-# 104. Canonical [[README]] Reconstruction
+# 104. Canonical README Reconstruction
 
-The strongest source-preserving normalized [[README]] remains:
+The strongest source-preserving normalized README remains:
 
 ## 01_BRAIN
 

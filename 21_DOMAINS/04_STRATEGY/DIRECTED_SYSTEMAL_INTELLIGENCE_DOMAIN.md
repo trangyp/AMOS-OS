@@ -80,7 +80,7 @@ epistemic_boundary:
 # 2. Inter-Plane & Vault Connections
 
 - **DSI Framework:** [[DIRECTED_SYSTEMAL_INTELLIGENCE]]
-- **Strategy MOC:** [[04_STRATEGY_MOC]]
+- **Strategy MOC:** 04_STRATEGY_MOC
 - **TSS Domain:** [[TSS_DOMAIN_MODEL]]
 
 ---
@@ -108,4 +108,4 @@ RSCF:
 **Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[DIRECTED_SYSTEMAL_INTELLIGENCE]] · [[TSS_DOMAIN_MODEL]]
 
 ---
-**MOC:** [[04_STRATEGY_MOC]]
+**MOC:** 04_STRATEGY_MOC

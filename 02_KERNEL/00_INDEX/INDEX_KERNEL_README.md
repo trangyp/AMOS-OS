@@ -1641,7 +1641,7 @@ Expected architecture:
 
 `KERNEL_MAP.md` owns detailed topology.
 
-This [[README]] owns the kernel plane's semantic boundary and entry contract.
+This README owns the kernel plane's semantic boundary and entry contract.
 
 ---
 
@@ -1688,7 +1688,7 @@ IMPLEMENTATION COVERAGE
 UNKNOWN/GAP
 ```
 
-Do not infer from this [[README]] alone:
+Do not infer from this README alone:
 
 ```text
 PRODUCTION READINESS
@@ -1783,7 +1783,7 @@ AUTHORITY
 
 ## Related
 
-[[README]] ·
+README ·
 [[00_ROOT_MOC]]|[[AMOS MOC]] ·
 [[ARCHITECTURE]] ·
 [[SYSTEM_MAP]] ·
@@ -1805,11 +1805,11 @@ AUTHORITY
 [[RUNTIME_MAP]] ·
 [[COGNITIVE_ORGANISM_MAP]] ·
 [[AUTHORITATIVE_STATE]] ·
-[[README]] ·
-[[README]] ·
-[[README]] ·
-[[README]] ·
-[[README]]
+README ·
+README ·
+README ·
+README ·
+README
 
 ```text
 ```

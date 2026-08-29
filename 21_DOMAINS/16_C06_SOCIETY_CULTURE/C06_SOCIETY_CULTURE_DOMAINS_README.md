@@ -28,7 +28,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# C06 SOCIETY CULTURE DOMAINS [[README]]
+# C06 SOCIETY CULTURE DOMAINS README
 
 ## Purpose
 `C06 SOCIETY CULTURE DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/16_C06_SOCIETY_CULTURE`.

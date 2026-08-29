@@ -27,10 +27,10 @@ rscf:
   scope: AMOS_general
 ---
 
-# COGNITIVE MATRIX [[VALIDATION]] CONTRACT
+# COGNITIVE MATRIX VALIDATION CONTRACT
 
 ## 0. Status
-Cognitive Matrix-plane contract for **[[VALIDATION]] CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
+Cognitive Matrix-plane contract for **VALIDATION CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
 ## 1. Scope
 Governs primitives L00–L29, lifecycle operations O00–O16, control planes C01–C09, scales, cell registry, routing, validation, generators as they bear on `VALIDATION CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.

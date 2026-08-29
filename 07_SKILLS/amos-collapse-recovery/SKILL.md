@@ -232,7 +232,7 @@ Collapse prediction is AMOS_MODEL. Coverage percentages are legacy estimates, NO
 - `amos-collapse-recovery-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -242,7 +242,7 @@ Collapse prediction is AMOS_MODEL. Coverage percentages are legacy estimates, NO
 RSCF-NODE
 node_id: amos-collapse-recovery
 node_type: skill
-path: 07_SKILLS/amos-collapse-recovery/[[SKILL]].md
+path: 07_SKILLS/amos-collapse-recovery/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

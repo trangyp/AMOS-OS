@@ -49,7 +49,7 @@ These 13 engines form the domain-neutral reasoning layer, sitting above the Dete
 | 4 | Physics Cosmos | Physics | Full-stack model of classical, quantum, statistical, and cosmological systems |
 | 5 | Signal Processing | DSP | Signal analysis, noise filtering, feature extraction, DSP pipelines |
 | 6 | Society Culture | Sociology | Kernel+engine for institutions, norms, demographics, media, and cultural evolution |
-| 7 | Design Engine | Tech Design | 100% structural coverage across tech domains; MAX variant wraps [[CANON]] engine + QUANTUM augmentation |
+| 7 | Design Engine | Tech Design | 100% structural coverage across tech domains; MAX variant wraps CANON engine + QUANTUM augmentation |
 | 8 | Design Language | Design/Language | Cross-modal design + linguistic kernel for structure, clarity, and UX |
 | 9 | Biology Cognition | Biology | Biological cognition kernel+engine |
 | 10 | Engineering Math | Math/Eng | Control, optimization, simulation, engineering mathematics |
@@ -103,12 +103,12 @@ Each engine maps to AMOS omni-logic and can be orchestrated by the AMOS OS Agent
 
 ---
 - [[07_SKILLS_MOC]]
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -120,4 +120,4 @@ path: 07_SKILLS/amos-c05-mind-behavior-master/references/cognitive_engines.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

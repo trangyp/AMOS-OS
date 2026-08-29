@@ -26,8 +26,8 @@ tags:
 
 ## Canonical / Curated
 
-- [[Canonical Node A]]
-- [[Canonical Node B]]
+- Canonical Node A
+- Canonical Node B
 
 ## Dynamic Discovery
 
@@ -315,7 +315,7 @@ SORT file.name ASC
 >        ↓
 > RELATED-NOTE DISCOVERY
 >        ↓
-> GRAPH [[INTEGRATION]]
+> GRAPH INTEGRATION
 > ```
 > 
 > This is a structural interpretation of the supplied template and plugin recommendations.
@@ -356,7 +356,7 @@ SORT file.name ASC
 > 
 > RECOMMENDED STACK
 > !=
-> MANDATORY [[CANON]]
+> MANDATORY CANON
 > 
 > AI LINK SUGGESTION
 > !=
@@ -524,7 +524,7 @@ SORT file.name ASC
 > A raw Obsidian wikilink:
 > 
 > ```markdown
-> [[NOTE_B]]
+> NOTE_B
 > ```
 > 
 > establishes navigational connectivity.
@@ -584,7 +584,7 @@ SORT file.name ASC
 > and a note:
 > 
 > ```markdown
-> [[Reality]]
+> Reality
 > ```
 > 
 > An automatic conversion of every occurrence of the word `Reality` into that note may be incorrect if some occurrences use a different meaning.
@@ -1089,8 +1089,8 @@ SORT file.name ASC
 > Explicit Obsidian links would normally have the structural form:
 > 
 > ```markdown
-> - [[00 Cosmo Brain MOC]]
-> - [[AMOS Home]]
+> - 00 Cosmo Brain MOC
+> - AMOS Home
 > ```
 > 
 > But the latter is a **PROPOSED correction**, not a silent normalization of the supplied template.
@@ -1132,7 +1132,7 @@ SORT file.name ASC
 > confidence: DERIVED
 > 
 > related:
->   - "[[00 Cosmo Brain MOC]]"
+>   - "00 Cosmo Brain MOC"
 >   - "[[00_HOME]]"
 > ---
 > 
@@ -1146,7 +1146,7 @@ SORT file.name ASC
 > 
 > ## Links
 > 
-> - [[00 Cosmo Brain MOC]]
+> - 00 Cosmo Brain MOC
 > - [[00_HOME]]
 > 
 > ## Notes
@@ -1794,7 +1794,7 @@ SORT file.name ASC
 > not:
 > 
 > ```text
-> [[CANON]] GOVERNANCE AUTHORITY
+> CANON GOVERNANCE AUTHORITY
 > ```
 > 
 > ---
@@ -1826,7 +1826,7 @@ SORT file.name ASC
 > not:
 > 
 > ```text
-> EPISTEMIC [[VALIDATION]]
+> EPISTEMIC VALIDATION
 > ```
 > 
 > ---
@@ -2040,7 +2040,7 @@ SORT file.name ASC
 >      ↓
 > PROVENANCE CHECK
 >      ↓
-> RELATION [[VALIDATION]]
+> RELATION VALIDATION
 >      ↓
 > CANONICAL / NONCANONICAL CLASSIFICATION
 > ```

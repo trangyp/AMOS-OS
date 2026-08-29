@@ -1236,7 +1236,7 @@ Freshness and source validity must be checked when material.
 
 # 53. L1-E039 — Documentation Claims Are SOURCE_CLAIM Until Validated
 
-[[README]] files, architecture documents, specifications, comments, marketing material, or internal descriptions may state that a system performs `X`.
+README files, architecture documents, specifications, comments, marketing material, or internal descriptions may state that a system performs `X`.
 
 Until independently validated:
 

@@ -217,7 +217,7 @@ DRT is an analytical framework. It does not prove all reality can be decomposed 
 - `amos-distinction-relation-transformation-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -227,7 +227,7 @@ DRT is an analytical framework. It does not prove all reality can be decomposed 
 RSCF-NODE
 node_id: amos-distinction-relation-transformation
 node_type: skill
-path: 07_SKILLS/amos-distinction-relation-transformation/[[SKILL]].md
+path: 07_SKILLS/amos-distinction-relation-transformation/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

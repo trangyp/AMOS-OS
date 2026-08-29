@@ -107,7 +107,7 @@ The vault uses Python 3.12+ for mdformat-obsidian (requires Python >= 3.10).
 
 - **mdformat-obsidian** — Obsidian callouts, inline footnotes, task lists, dollar math
 - **mdformat-frontmatter** — YAML frontmatter preservation and formatting
-- **mdformat-wikilink** — Obsidian `[[wikilink]]` preservation
+- **mdformat-wikilink** — Obsidian `wikilink` preservation
 - **mdformat-gfm** — GitHub Flavored Markdown tables, strikethrough
 
 ## Capabilities## Capabilities
@@ -163,7 +163,7 @@ This formats:
 - Inline footnotes (`^[footnote]`)
 - Task list markers (`[x]`, `[?]`, `[/]`, `[-]`)
 - Dollar math (`$...$`, `$$...$$`)
-- Wikilinks (`[[note]]`)
+- Wikilinks (`note`)
 - YAML frontmatter
 - Bullet markers (standardizes to `-`)
 - Code block fences
@@ -184,7 +184,7 @@ This is safe because frontmatter `---` delimiters are already `---` and won't ma
 
 ### Step 3a: Restore Stripped Wikilinks
 
-**CRITICAL**: mdformat-wikilink strips `[[...]]` syntax from wikilinks pointing to non-existent notes, converting `[[NOTE_NAME]]` to bare `NOTE_NAME`. This is destructive and must be reversed.
+**CRITICAL**: mdformat-wikilink strips `...` syntax from wikilinks pointing to non-existent notes, converting `NOTE_NAME` to bare `NOTE_NAME`. This is destructive and must be reversed.
 
 **Known stripped wikilink targets** (notes that don't exist in the vault):
 - `K_ATOMIC_MULTI_RSCF`
@@ -215,7 +215,7 @@ def restore_wikilinks(content):
         for name in STRIPPED_WIKILINKS:
             line = re.sub(
                 r'(?<!\[\[)(' + re.escape(name) + r')(?!\]|\w)',
-                r'[[\1]]', line
+                r'\1', line
             )
         result.append(line)
     return '\n'.join(result)
@@ -238,9 +238,9 @@ def fix_related_line(line):
                re.match(r'^L\d+_', content):
                 if '**Related:**' in part:
                     prefix = part[:part.index('**Related:**') + len('**Related:**')]
-                    part = prefix + ' [[' + content + ']]'
+                    part = prefix + ' ' + content + ''
                 else:
-                    part = '[[' + content + ']]'
+                    part = '' + content + ''
         result.append(part)
     return ' · '.join(result)
 ```
@@ -275,7 +275,7 @@ Inside `$$...$$` blocks, plain parentheses ARE math notation. Adding `\(` `\)` i
 only restore them in prose text, `**Related:**` lines, and RSCF-RELATIONS sections.
 YAML keys like `PROOF_CAPSULE:` must remain as plain identifiers, NOT `[[L19_PROOF_CAPSULE]]:`.
 
-**Detection**: Check inside `yaml` code blocks for `[[...]]:` patterns at line start.
+**Detection**: Check inside `yaml` code blocks for `...:` patterns at line start.
 **Fix**: `[[L19_PROOF_CAPSULE]]:` → `PROOF_CAPSULE:`
 
 ```python

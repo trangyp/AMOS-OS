@@ -81,7 +81,7 @@ Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 
 ### 5. AMOS_Design_Engine
 
-**Description**: Tech Engine v∞ with all conceptual gaps closed to 100% structural coverage across tech domains and leadership/specialist roles. MAX variant wraps the full [[CANON]] engine, QUANTUM augmentation layer.
+**Description**: Tech Engine v∞ with all conceptual gaps closed to 100% structural coverage across tech domains and leadership/specialist roles. MAX variant wraps the full CANON engine, QUANTUM augmentation layer.
 
 **Role**: Full-power design engine.
 
@@ -160,16 +160,16 @@ Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 **
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -181,4 +181,4 @@ path: 07_SKILLS/amos-super-engines-master/references/domain_engines.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

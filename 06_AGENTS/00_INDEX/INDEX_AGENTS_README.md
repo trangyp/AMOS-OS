@@ -29,7 +29,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX [[AGENTS]] [[README]]
+# INDEX [[AGENTS]] README
 
 ## Index
 - See also — [[AGENT_MAP]]

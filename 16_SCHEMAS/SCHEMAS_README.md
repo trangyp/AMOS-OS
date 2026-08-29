@@ -27,7 +27,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# SCHEMAS [[README]]
+# SCHEMAS README
 
 ## Purpose
 `SCHEMAS README` is the package readme for the **Schemas** plane segment at `16_SCHEMAS`.

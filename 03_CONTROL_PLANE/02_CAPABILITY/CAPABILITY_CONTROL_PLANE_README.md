@@ -30,7 +30,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# CAPABILITY CONTROL PLANE [[README]]
+# CAPABILITY CONTROL PLANE README
 
 ## Purpose
 `CAPABILITY CONTROL PLANE README` is the package readme for the **Control Plane** plane segment at `03_CONTROL_PLANE/02_CAPABILITY`.

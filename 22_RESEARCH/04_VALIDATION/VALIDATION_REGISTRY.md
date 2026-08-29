@@ -26,7 +26,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# [[VALIDATION]] REGISTRY
+# VALIDATION REGISTRY
 
 ## Purpose
 Registry for **REGISTRY** within the Research plane (research questions, experiments, competing models, validation, benchmarks context).

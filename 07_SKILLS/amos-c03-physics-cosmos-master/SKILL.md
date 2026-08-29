@@ -125,7 +125,7 @@ AMOS/Trang abstractions remain research models until precise mapping and indepen
 
 
 > **Reference**: S
-- [[AGENT_TEMPLATE]]
+- AGENT_TEMPLATE
 
 ---
 **MOC:** [[amos-c03-physics-cosmos-master_MOC]]
@@ -248,7 +248,7 @@ AMOS/Trang abstractions remain research models until precise mapping and indepen
 - `amos-c03-physics-cosmos-master-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -258,7 +258,7 @@ AMOS/Trang abstractions remain research models until precise mapping and indepen
 RSCF-NODE
 node_id: amos-c03-physics-cosmos-master
 node_type: skill
-path: 07_SKILLS/amos-c03-physics-cosmos-master/[[SKILL]].md
+path: 07_SKILLS/amos-c03-physics-cosmos-master/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

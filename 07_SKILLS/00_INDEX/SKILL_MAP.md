@@ -35,9 +35,9 @@ rscf:
   scope: index_navigation
 ---
 
-# [[SKILL]] MAP
+# SKILL MAP
 
-## Map — [[SKILL]] MAP
+## Map — SKILL MAP
 Navigation map for the `07_SKILLS/00_INDEX` segment of the Skills plane.
 
 - **Readme** — [[INDEX_SKILLS_README]]

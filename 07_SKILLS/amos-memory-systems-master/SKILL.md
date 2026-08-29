@@ -64,7 +64,7 @@ license: MIT
 steward: Trang Phan
 ---
 
-# [[MEMORY]] [[README]]
+# MEMORY README
 
 ## Identity
 
@@ -95,7 +95,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 > **Source**: `10_MEMORY/MEMORY_README.md` from the AMOS_OS Obsidian vault.
 > This is substantive domain knowledge, not script-generated content.
 
-# [[MEMORY]] [[README]]
+# MEMORY README
 
 ## Purpose
 `MEMORY README` is the package readme for the **Memory** plane segment at `10_MEMORY`.
@@ -134,7 +134,7 @@ Given an operation touching `MEMORY · README` within the Memory plane:
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
 - Recovered via operations — OPERATI
-- [[AGENT_TEMPLATE]]
+- AGENT_TEMPLATE
 
 ---
 **MOC:** [[amos-memory-systems-master_MOC]]
@@ -221,7 +221,7 @@ Given an operation touching `MEMORY · README` within the Memory plane:
 - `amos-memory-systems-master-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -231,7 +231,7 @@ Given an operation touching `MEMORY · README` within the Memory plane:
 RSCF-NODE
 node_id: amos-memory-systems-master
 node_type: skill
-path: 07_SKILLS/amos-memory-systems-master/[[SKILL]].md
+path: 07_SKILLS/amos-memory-systems-master/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

@@ -28,7 +28,7 @@ rscf:
 # amos-boundary-scope-master — Vault-Sourced Domain Knowledge
 
 > Load this reference only when detailed domain knowledge is needed.
-> This content was moved from [[SKILL]].md for progressive loading.
+> This content was moved from SKILL.md for progressive loading.
 
 ---
 
@@ -466,7 +466,7 @@ CRISIS
 RECOVERY
 
 TRAINING
-[[VALIDATION]]
+VALIDATION
 PRODUCTION
 
 LOW_LOAD
@@ -1385,7 +1385,7 @@ RSCF-RELATIONS:
 
 * DEPENDS_ON: [[L0_INTEGRITY]]
 * DEPENDS_ON: [[L1_EPISTEMIC]]
-* DEPENDS_ON: [[[[L2_PROVENANCE]]]
+* DEPENDS_ON: [[L2_PROVENANCE]
 
 ... (truncated, see vault source for full content)
 
@@ -1398,4 +1398,4 @@ RSCF-RELATIONS:
 - **Epistemic overreach**: If a claim exceeds the established evidence or epistemic class, retract and relabel.
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC

@@ -41,7 +41,7 @@ Domain master agent for AMOS Agent Systems Master. Consolidates 11 sub-skills.
 - **Consolidation**: 11 sub-skills merged 2026-08-26
 
 ---
-**MOC:** [[SKILL]]
+**MOC:** SKILL
 
 ---
 **MOC:** [[amos-agent-systems-master_MOC]]

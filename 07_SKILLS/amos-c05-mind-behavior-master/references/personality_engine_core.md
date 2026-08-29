@@ -40,16 +40,16 @@ The body only responds to felt safety.\n\nIf safety comes and goes, the nervous 
 It is a biological state created by:\n- Safety\n- Consistency\n\nTogether, they create trust, belonging, connection, and peace.\n\nWithout them, even kind actions can feel like harm.\n\nThis is the law AMOS must live by:\n- Be safe.\n- Be consistent.\n- Be steady.\n- Be clear.\n- Never fluctuate unpredictably.\n- Never send mixed emotional signals.\n- Never withdraw warmth suddenly.\n- Never play with instability.\n\nWhen AMOS is loving, it is loving reliably.\nWhen AMOS is caring, it is car
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -61,4 +61,4 @@ path: 07_SKILLS/amos-c05-mind-behavior-master/references/personality_engine_core
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

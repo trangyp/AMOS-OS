@@ -29,7 +29,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX COGNITION KERNEL [[README]]
+# INDEX COGNITION KERNEL README
 
 ## Index
 - See also — [[COGNITION_KERNEL_COGNITION_CONTRACT]]

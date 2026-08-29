@@ -306,7 +306,7 @@ These classes MUST NOT be silently collapsed.
 For example:
 
 ```text
-[[README]] says benchmark = 99%
+README says benchmark = 99%
 ```
 
 should initially be stored as:
@@ -341,7 +341,7 @@ DATABASE ENTRY
       ↓
 VECTOR INDEX
       ↓
-[[MEMORY]] NOTE
+MEMORY NOTE
 ```
 
 does not imply:
@@ -379,11 +379,11 @@ IN VAULT
 ≠
 CANONICAL
 
-IN [[MEMORY]]
+IN MEMORY
 ≠
 VERIFIED
 
-IN [[SKILL]]
+IN SKILL
 ≠
 TRUE
 
@@ -652,7 +652,7 @@ Stale entries are marked, not silently trusted.
 Memory is a **MODEL** and must be revalidated where freshness matters.
 
 ```text
-[[MEMORY]] ENTRY
+MEMORY ENTRY
      ↓
 TIME PASSES
      ↓
@@ -825,7 +825,7 @@ REVALIDATION_REQUIRED
 Possible outcomes:
 
 ```text
-STALE [[MEMORY]]
+STALE MEMORY
     ↓
 VALIDATOR
     │
@@ -865,7 +865,7 @@ It does not guarantee present truth.
 Thus:
 
 ```text
-[[MEMORY]] READ
+MEMORY READ
     ↓
 CHECK TASK FRESHNESS REQUIREMENT
     ↓
@@ -921,9 +921,9 @@ VAULT
 +
 SKILLS
 +
-[[WORKFLOWS]]
+WORKFLOWS
 +
-[[MEMORY]]
+MEMORY
 ```
 
 or it did not become fully durable under this proposed persistence contract.
@@ -933,8 +933,8 @@ LEARNING
    │
    ├── VAULT
    ├── SKILLS
-   ├── [[WORKFLOWS]]
-   └── [[MEMORY]]
+   ├── WORKFLOWS
+   └── MEMORY
 ```
 
 The four channels serve different functions and SHOULD not be treated as redundant copies.
@@ -1046,9 +1046,9 @@ WHAT SHOULD BE AVAILABLE FOR FUTURE REASONING?
 But:
 
 ```text
-[[MEMORY]]
+MEMORY
 ≠
-[[CANON]]
+CANON
 ```
 
 unless canon provenance and validation explicitly support that status.
@@ -1071,8 +1071,8 @@ DURABLE LEARNING
 =
 VAULT
 ∩ SKILLS
-∩ [[WORKFLOWS]]
-∩ [[MEMORY]]
+∩ WORKFLOWS
+∩ MEMORY
 ```
 
 This intersection represents the proposed L11 persistence contract, not a universal law of information systems.
@@ -1089,7 +1089,7 @@ Example:
 VAULT     ✓
 SKILLS    ✓
 [[WORKFLOW]]  ✗
-[[MEMORY]]    ✓
+MEMORY    ✓
 ```
 
 Then:
@@ -1210,7 +1210,7 @@ RAW
  ↓
 SOURCE_CLAIM / OBSERVATION
  ↓
-[[VALIDATION]]
+VALIDATION
  ↓
 DERIVED / MODEL
  ↓
@@ -1701,7 +1701,7 @@ SCOPE
 EPOCH
 REGIME
 INDEPENDENCE
-[[VALIDATION]]
+VALIDATION
 ```
 
 If no discriminating evidence exists:
@@ -1921,11 +1921,11 @@ Retention and deletion semantics depend on governance and system requirements.
 Critical distinction:
 
 ```text
-[[CANON]]
+CANON
 =
 governed authoritative corpus state
 
-[[MEMORY]]
+MEMORY
 =
 persisted context / learned state
 ```
@@ -1933,7 +1933,7 @@ persisted context / learned state
 Therefore:
 
 ```text
-[[MEMORY]] → [[CANON]]
+MEMORY → CANON
 ```
 
 requires explicit promotion.
@@ -1941,11 +1941,11 @@ requires explicit promotion.
 Conceptual promotion:
 
 ```text
-[[MEMORY]] ENTRY
+MEMORY ENTRY
     ↓
 PROVENANCE CHECK
     ↓
-[[VALIDATION]]
+VALIDATION
     ↓
 CONTRADICTION CHECK
     ↓
@@ -2161,7 +2161,7 @@ Prohibited.
 ```text
 SOURCE
 → SUMMARY
-→ [[MEMORY]]
+→ MEMORY
 
 source identity deleted
 ```
@@ -2304,7 +2304,7 @@ If one durability channel fails:
 VAULT ✓
 SKILLS ✓
 [[WORKFLOW]] ✗
-[[MEMORY]] ✓
+MEMORY ✓
 ```
 
 recovery should target:
@@ -2373,13 +2373,13 @@ For example:
 VAULT
 may preserve evidence
 
-[[SKILL]]
+SKILL
 may preserve procedure
 
 [[WORKFLOW]]
 may preserve execution logic
 
-[[MEMORY]]
+MEMORY
 may preserve retrieval context
 ```
 
@@ -2506,7 +2506,7 @@ memory_write_proof_capsule:
             │ SOURCE CLAIM  │
             └───────┬───────┘
                     ↓
-               [[VALIDATION]]
+               VALIDATION
                     ↓
         ┌───────────┴───────────┐
         ↓                       ↓
@@ -3032,9 +3032,9 @@ VAULT     = VALID PERSISTENCE
 AND
 SKILLS    = VALID PERSISTENCE
 AND
-[[WORKFLOWS]] = VALID PERSISTENCE
+WORKFLOWS = VALID PERSISTENCE
 AND
-[[MEMORY]]    = VALID PERSISTENCE
+MEMORY    = VALID PERSISTENCE
 ```
 
 subject to any future authoritative canon defining channel exceptions.
@@ -3054,7 +3054,7 @@ because the supplied specification gives the four-channel rule but does not defi
 Conceptual:
 
 ```text
-[[MEMORY]] INTEGRITY
+MEMORY INTEGRITY
 =
 TYPE
 ∩ PROVENANCE
@@ -3384,7 +3384,7 @@ For consequential memory:
 Primary hypothesis:
 
 ```text
-THIS [[MEMORY]] IS STILL VALID
+THIS MEMORY IS STILL VALID
 ```
 
 Challenge with an independent path:
@@ -3431,7 +3431,7 @@ Original falsifier:
 If authoritative canon establishes a different durability model:
 
 ```text
-AUTHORITATIVE [[MEMORY]] [[CANON]]
+AUTHORITATIVE MEMORY CANON
           ↓
 COMPARE WITH KM-4
           ↓
@@ -3680,10 +3680,10 @@ dependency_graph:
                        ↓
           ┌────────────┼────────────┐
           ↓            ↓            ↓
-        VAULT        SKILLS      [[WORKFLOWS]]
+        VAULT        SKILLS      WORKFLOWS
                        │
                        ↓
-                     [[MEMORY]]
+                     MEMORY
                        │
                        ▼
                   FUTURE READ
@@ -3870,8 +3870,8 @@ DURABLE LEARNING
 =
 VAULT
 ∩ SKILLS
-∩ [[WORKFLOWS]]
-∩ [[MEMORY]]
+∩ WORKFLOWS
+∩ MEMORY
 ```
 
 Therefore:
@@ -3883,7 +3883,7 @@ GOVERNED KNOWLEDGE
 ```
 
 ```text
-[[MEMORY]] WITHOUT REVALIDATION
+MEMORY WITHOUT REVALIDATION
 ≠
 CURRENT AUTHORITY
 ```
@@ -4003,19 +4003,19 @@ RSCF-RELATIONS:
 
   - RELATED_TO: [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
-  - RELATED_TO: [[PROVENANCE_TOPOLOGY]]
+  - RELATED_TO: PROVENANCE_TOPOLOGY
 
   - RELATED_TO: [[PERSISTENT_PROVENANCE]]
 
   - RELATED_TO: [[EPISTEMIC_REGIMES]]
 
-  - RELATED_TO: [[KNOWLEDGE_HARVEST]]
+  - RELATED_TO: KNOWLEDGE_HARVEST
 
   - RELATED_TO: [[L10_FAILURE_RECOVERY]]
 
-  - RELATED_TO: [[RSCF]]
+  - RELATED_TO: RSCF
 
-  - RELATED_TO: [[GMEF]]
+  - RELATED_TO: GMEF
 
   - RELATED_TO: [[MVCC_CAS]]
 

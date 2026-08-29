@@ -28,7 +28,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX STRATEGY DOMAINS [[README]]
+# INDEX STRATEGY DOMAINS README
 
 ## Index
 - See also — [[STRATEGY_DOMAINS_STRATEGY_CONTRACT]]

@@ -246,7 +246,7 @@ Check when available:
 - `amos-skill-builder-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -256,7 +256,7 @@ Check when available:
 RSCF-NODE
 node_id: amos-skill-builder
 node_type: skill
-path: 07_SKILLS/amos-skill-builder/[[SKILL]].md
+path: 07_SKILLS/amos-skill-builder/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

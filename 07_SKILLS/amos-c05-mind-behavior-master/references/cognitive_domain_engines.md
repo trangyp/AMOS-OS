@@ -60,7 +60,7 @@ Ingest of Cognitive Stack engines, Domain engines, Kernels, Packs, Unipower engi
 | AMOS_Econ_Finance_Engine | Unified kernel+engine for micro, macro, trade, public finance, and financial systems. |
 | AMOS_Physics_Cosmos_Engine | Full-stack kernel+engine model of classical, quantum, statistical, and cosmological systems, aligned to AMOS omni-logic. |
 | AMOS_Society_Culture_Engine | Kernel+engine stack for institutions, norms, demographics, media, and cultural evolution. |
-| AMOS_Design_Engine | Tech Engine v∞ with all conceptual gaps closed to 100% structural coverage across tech domains and leadership/specialist roles. MAX variant wraps full [[CANON]] engine + QUANTUM augmentation layer. |
+| AMOS_Design_Engine | Tech Engine v∞ with all conceptual gaps closed to 100% structural coverage across tech domains and leadership/specialist roles. MAX variant wraps full CANON engine + QUANTUM augmentation layer. |
 | AMOS_Design_Language_Engine | Cross-modal design + linguistic kernel+engine for structure, clarity, and user experience. |
 | AMOS_Biology_And_Cognition_Engine | Biological cognition kernel+engine. |
 | AMOS_Electrical_Power_Engine | Electrical power systems kernel+engine. |
@@ -106,16 +106,16 @@ Ingest of Cognitive Stack engines, Domain engines, Kernels, Packs, Unipower engi
 ### Other (2
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -127,4 +127,4 @@ path: 07_SKILLS/amos-c05-mind-behavior-master/references/cognitive_domain_engine
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

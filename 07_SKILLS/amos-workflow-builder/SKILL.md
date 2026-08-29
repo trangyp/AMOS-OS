@@ -244,7 +244,7 @@ Do not ask again for information already available from the request, source bund
 - `amos-workflow-builder-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -254,7 +254,7 @@ Do not ask again for information already available from the request, source bund
 RSCF-NODE
 node_id: amos-workflow-builder
 node_type: skill
-path: 07_SKILLS/amos-workflow-builder/[[SKILL]].md
+path: 07_SKILLS/amos-workflow-builder/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

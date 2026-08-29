@@ -30,7 +30,7 @@ rscf:
 - `L04` — OBJECT_ENTITY_FORMATION — source maturity `missing`
 - `L05` — BINDING — source maturity `missing`
 - `L06` — WORKING_STATE — source maturity `missing`
-- `L07` — [[MEMORY]] — source maturity `partial`
+- `L07` — MEMORY — source maturity `partial`
 - `L08` — REPRESENTATION — source maturity `partial`
 - `L09` — INFERENCE — source maturity `partial`
 - `L10` — WORLD_MODELING — source maturity `missing`

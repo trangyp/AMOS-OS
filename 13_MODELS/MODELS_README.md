@@ -27,7 +27,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# MODELS [[README]]
+# MODELS README
 
 ## Purpose
 `MODELS README` is the package readme for the **Models** plane segment at `13_MODELS`.

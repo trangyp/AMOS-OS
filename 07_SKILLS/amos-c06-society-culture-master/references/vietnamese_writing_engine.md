@@ -40,16 +40,16 @@ Ng\u00f4n ng\u1eef ph\u1ea3i ph\u1eb3ng, chu\u1ea9n, g\u1ecdn.\",\n      \"princ
 Lu\u00f4n hi\u1ec7u qu\u1ea3, b\u1ea5t k\u1ec3 ch\u1ee7 \u0111\u1ec1.\",\n      \"structure_rule_4\": \"M\u1ed9t t\u00e0i li\u1ec7u d\u00e0i lu\u00f4n c\u00f3 7 m\u1ee5c l\u1edbn: m\u1ee5c ti\u00eau, hi\u1ec7n tr\u1ea1ng, kho\u1ea3ng tr\u1ed1ng, nguy\u00ean nh\u00e2n, ph\u01b0\u01a1ng \u00e1n, t\u00e1c \u0111\u1ed9ng, \u0111i\u1ec1u ki\u1ec7n tri\u1ec3n khai.\",\n      \"structure_rule_5\": \"Khi vi\u1ebft cho l\u00e3nh \u0111\u1
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -61,4 +61,4 @@ path: 07_SKILLS/amos-c06-society-culture-master/references/vietnamese_writing_en
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

@@ -159,7 +159,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - [[AMOS_INFRASTRUCTURE_FULL_BRAIN_AGENT_ARCHITECTURE_ROUND11]] — AMOS Infrastructure, Full Brain OS, Agents & Skills Architecture
 - [[ENVIRONMENT_SCAN_AGENT]] — AMOS EnvironmentScan Agent
 - EXECUTOR
-- [[AGENT_TEMPLATE]]
+- AGENT_TEMPLATE
 
 ---
 **MOC:** [[amos-knowledge-research-master_MOC]]
@@ -262,7 +262,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - `amos-knowledge-research-master-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -272,7 +272,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 RSCF-NODE
 node_id: amos-knowledge-research-master
 node_type: skill
-path: 07_SKILLS/amos-knowledge-research-master/[[SKILL]].md
+path: 07_SKILLS/amos-knowledge-research-master/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

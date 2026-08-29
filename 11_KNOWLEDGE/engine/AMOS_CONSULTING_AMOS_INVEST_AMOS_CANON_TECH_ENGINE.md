@@ -17,7 +17,7 @@ rscf:
   scope: engine_specification
 ---
 
-# AMOS CONSULTING AMOS INVEST AMOS [[CANON]] TECH ENGINE
+# AMOS CONSULTING AMOS INVEST AMOS CANON TECH ENGINE
 
 ```json
 {

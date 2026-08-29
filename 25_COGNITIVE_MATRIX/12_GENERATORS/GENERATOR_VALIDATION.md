@@ -57,7 +57,7 @@ rscf:
 
 `GENERATOR_VALIDATION.md` is an **ADD-ONLY placeholder-expanded artifact** for the **25_COGNITIVE_MATRIX** plane segment.
 
-It reserves the canonical slot for the AMOS framework family named **GENERATOR [[VALIDATION]]**.
+It reserves the canonical slot for the AMOS framework family named **GENERATOR VALIDATION**.
 
 The artifact is presently:
 
@@ -576,7 +576,7 @@ INPUT_PROVENANCE_VALID
 
 # 14. Source claim validation
 
-Documentation or [[README]] content remains:
+Documentation or README content remains:
 
 ```text
 SOURCE_CLAIM
@@ -3617,7 +3617,7 @@ READ_ONLY_BY_DEFAULT
 The ownership distinction should remain:
 
 ```text
-12_GENERATORS/[[VALIDATION]].md
+12_GENERATORS/VALIDATION.md
 → subsystem-level Generator validation architecture
 
 GENERATOR_VALIDATION.md

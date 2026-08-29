@@ -347,7 +347,7 @@ VERIFIED:
 README CLAIMS P
 ```
 
-if directly observed in the [[README]].
+if directly observed in the README.
 
 It does **not** by itself support:
 
@@ -3028,7 +3028,7 @@ ARE IMPLEMENTED.
 
 ## Related
 
-[[README]] ·
+README ·
 [[DEPENDENCY_MAP]] ·
 [[AMOS_CORE_LAWS]] ·
 [[INVARIANT_REGISTRY]] ·
@@ -3053,13 +3053,13 @@ ARE IMPLEMENTED.
 [[K_COLLAPSE_RECOVERY]] ·
 [[K_COMMIT_TIME_AUTHORITY]] ·
 [[K_INFORMATION_EXPOSURE]] ·
-[[README]] ·
-[[README]] ·
-[[README]] ·
-[[README]] ·
-[[README]] ·
-[[README]] ·
-[[README]]
+README ·
+README ·
+README ·
+README ·
+README ·
+README ·
+README
 
 ```text
 

@@ -26,7 +26,7 @@ rscf:
   scope: root_index
 ---
 
-# 00 ROOT [[INTEGRATION]] CHECKLIST
+# 00 ROOT INTEGRATION CHECKLIST
 
 ## 0. Status
 Root-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.

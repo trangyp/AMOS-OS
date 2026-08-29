@@ -68,7 +68,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# K [[MEMORY]] ADMISSION
+# K MEMORY ADMISSION
 
 > **AMOS Core target:** `v4.4`
 > **Origin architect / steward:** Trang Phan
@@ -2576,7 +2576,7 @@ UNKNOWN/GAP.
 
 ## Related
 
-[[README]] ·
+README ·
 [[ARCHITECTURE]] ·
 [[DEPENDENCY_MAP]] ·
 [[AMOS_CORE_LAWS]] ·
@@ -2597,13 +2597,13 @@ UNKNOWN/GAP.
 [[K_MULTI_HYPOTHESIS]] ·
 [[K_CAUSAL_CLOSURE]] ·
 [[K_CAUSAL_EPOCH]] ·
-[[README]] ·
+README ·
 11_KNOWLEDGE/00_AMOS_Full_Brain_OS_Architecture ·
-[[README]] ·
-[[README]] ·
-[[README]] ·
-[[README]] ·
-[[README]]
+README ·
+README ·
+README ·
+README ·
+README
 
 ```text
 ```

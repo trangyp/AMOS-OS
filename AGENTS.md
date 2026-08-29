@@ -698,7 +698,7 @@ cd apps/mobile && npx tsc --noEmit && npx expo export --platform ios && npx expo
 ### AMOS Semantic Matrix 19×19 (AMOS MODEL / DERIVED)
 
 - **Semantic Matrix Engine**: `/Users/mac/Downloads/stitch_project_cosmo/cosmo-brain/AMOS_SEMANTIC_MATRIX_19X19.py` — 19 strategic primitives (P^Strategic_19) × 19 evaluation dimensions = 361 typed semantic interaction cells. Second 361-cell space (S) coupled with Go Board physical field (B) via A_t = B ⊗ S (130,321 states). With primitive coupling C: AMOS_19 = B ⊗ S ⊗ C (47,045,881 triple-address).
-- **19 Strategic Primitives**: VOID, MARK, RELATION, BOUNDARY, GROUP, LIBERTY, EYE, AJI, KO, SENTE, GOTE, TERRITORY, INFLUENCE, [[MEMORY]], ENTROPY, REPAIR, SACRIFICE, LIFE/DEATH, AGENCY. P^Strategic_19 ≠ MURK 19-primitives registry.
+- **19 Strategic Primitives**: VOID, MARK, RELATION, BOUNDARY, GROUP, LIBERTY, EYE, AJI, KO, SENTE, GOTE, TERRITORY, INFLUENCE, MEMORY, ENTROPY, REPAIR, SACRIFICE, LIFE/DEATH, AGENCY. P^Strategic_19 ≠ MURK 19-primitives registry.
 - **19 Evaluation Dimensions**: GEOMETRY, TOPOLOGY, TIME, ACTOR, OBSERVER, SCALE, REGIME, CONSTRAINT, PROVENANCE, CONFIDENCE, OPTION_VALUE, FUTURE_DEBT, IRREVERSIBILITY, CONSEQUENCE_RADIUS, CONSEQUENCE_DEPTH, ROBUSTNESS, REPAIRABILITY, SYMMETRY, GOVERNANCE.
 - **Primitive Coupling C**: 30+ directed couplings, 10 relation types (ENABLES, CONSTRAINS, CAUSES_MODEL, TRANSFORMS, PRESERVES, DESTROYS, REPAIRS, EXPOSES, DEPENDS_ON, COMPETES). CAUSES_MODEL ≠ validated causation (causal firewall).
 - **Accounting**: PossibilityAccount (Q_open+Q_latent+Q_protected+Q_committed), DebtAccount (5 debt types, NV=GV-ΔD), IntegrityAccount (bottleneck I*=min(I_L,I_M,I_H)).

@@ -1144,7 +1144,7 @@ revocation not triggered
 
 ---
 
-# 30. POLICY [[VALIDATION]]
+# 30. POLICY VALIDATION
 
 ```yaml
 PolicyDecision:

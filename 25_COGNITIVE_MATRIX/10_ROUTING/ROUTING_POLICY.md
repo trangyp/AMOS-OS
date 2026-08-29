@@ -346,7 +346,7 @@ ELIGIBLE ROUTES
     ↓
 BINDING
     ↓
-[[VALIDATION]]
+VALIDATION
     ↓
 AUTHORITY / CONTROL PLANE
 ```
@@ -1965,7 +1965,7 @@ ROUTING POLICY
     ↓
 BINDING
     ↓
-[[VALIDATION]]
+VALIDATION
     ↓
 AUTHORITY
     ↓
@@ -2235,7 +2235,7 @@ A routing policy version should not become active because a file exists.
 
 ```text
 POLICY_CANDIDATE
-→ [[VALIDATION]]
+→ VALIDATION
 → PROMOTION GATES
 → AUTHORITY
 → ACTIVE POLICY
@@ -2270,7 +2270,7 @@ rscf:
   load_bearing_premises:
     - authoritative routing policy canon recovered
     - active policy epoch known
-    - routing [[README]] accepted
+    - routing README accepted
     - binding rules accepted
     - mode registry recovered
     - component registries recovered
@@ -2279,7 +2279,7 @@ rscf:
 
   dependencies:
     - [[AUTHORITATIVE_STATE]]
-    - 10_ROUTING/[[README]].md
+    - 10_ROUTING/README.md
     - 10_ROUTING/[[BINDING_RULES]].md
     - 10_ROUTING/[[ROUTING_AUDIT]].md
     - [[MODE_REGISTRY]]
@@ -2712,7 +2712,7 @@ The Full Brain OS source is the primary canon source for this Skill, but preserv
 ```text
 ROUTING_POLICY
 │
-├── 10_ROUTING/[[README]].md
+├── 10_ROUTING/README.md
 ├── 10_ROUTING/[[BINDING_RULES]].md
 ├── 10_ROUTING/[[ROUTING_AUDIT]].md
 │
@@ -2720,7 +2720,7 @@ ROUTING_POLICY
 ├── CAPABILITY_REGISTRY
 ├── COMPONENT_REGISTRIES
 │   ├── AGENT
-│   ├── [[SKILL]]
+│   ├── SKILL
 │   ├── ENGINE
 │   ├── KERNEL
 │   ├── WORKER
@@ -2749,7 +2749,7 @@ related:
     - 10_ROUTING
 
   routing:
-    - 10_ROUTING/[[README]].md
+    - 10_ROUTING/README.md
     - 10_ROUTING/[[BINDING_RULES]].md
     - 10_ROUTING/[[ROUTING_AUDIT]].md
     - ROUTER_REGISTRY
@@ -2763,7 +2763,7 @@ related:
     - STRUCTURAL_GAPS
 
   validation:
-    - 11_VALIDATION/[[README]].md
+    - 11_VALIDATION/README.md
     - 11_VALIDATION/[[PROMOTION_GATES]].md
 
   generators:

@@ -27,7 +27,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# OBSERVABILITY [[README]]
+# OBSERVABILITY README
 
 ## Purpose
 `OBSERVABILITY README` is the package readme for the **Observability** plane segment at `17_OBSERVABILITY`.

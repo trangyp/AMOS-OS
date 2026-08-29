@@ -29,7 +29,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX PROVENANCE KERNEL [[README]]
+# INDEX PROVENANCE KERNEL README
 
 ## Index
 - See also — [[KERNEL_PROVENANCE_MAP]]

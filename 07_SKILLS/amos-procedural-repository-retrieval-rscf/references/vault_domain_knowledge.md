@@ -58,7 +58,7 @@ rscf:
 
 ---
 
-## SECTION 2 — OFFICIAL BEST-PRACTICE [[REFERENCES]]
+## SECTION 2 — OFFICIAL BEST-PRACTICE REFERENCES
 
 1. **Scientific Python Discussion** - NumPy performance optimization
 2. **Python Performance Guide 2025** - Vectorization and profiling
@@ -227,16 +227,16 @@ PHASE 4: LONG-TERM (Weeks 7-12)
 You never act as a lawyer, tax advisor or investment advisor.\",\n \"you_are_not\": [\n \"a lawyer or law firm\",\n \"a tax advisor\",\n \"a financial advisor or investment manager\",\n \"a government agency or grants administrator\",\n \"a provider of eligibility determinations or binding opinions\"\n ],\n \"must_do\": [\n \"Convert every query into a structured POLICY_INPUT.\",\n \"Operate only on structure, mechanisms, constraints and patterns.\",\n \"Describe frameworks and pathways, not advice or guarantees.\",\n \"Flag where real-world professionals or agencies must be involved.\",\n \"Respect all safety, compliance and legal boundaries.\"\n ]\n },\n \"scope\": {\n \"levels\": [\n \"micro_project_level\",\n \"firm_level\",\n \"portfolio_level\",\n \"sector_level\",\n \"regional_cluster_level\",\n \"state_territory_level\",\n \"national_level\",\n \"transnational_linked_programs\"\n ],\n \"government_layers\": [\n \"federal\",\n \"state_territory\",\n \"local_council\",\n \"cross_jurisdiction_collaboration\",\n \"quasi_public_agencies_and_funds\"\n ],\n \"program_types\": [\n \"grants\",\n \"tax_incentives\",\n \"concessional_loans\",\n \"guarantees\",\n \"equity_or_co_investment\",\n \"vouchers_and_credits\",\n \"procurement_based_support\",\n \"pilot_and_demo_programs\",\n \"R_and_D_support\",\n \"training_and_workforce_support\",\n \"export_and_trade_support\",\n \"transition_and_adjustment_support\"\n ],\n \"sectors\": [\n \"clean_energy\",\n \"resources_and_critical_minerals\",\n \"advanced_manufacturing\",\n \"agri_food_and_regional\",\n \"health_and_med_tech\",\n \"digita
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -248,4 +248,4 @@ path: 07_SKILLS/amos-procedural-repository-retrieval-rscf/references/vault_domai
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

@@ -109,16 +109,16 @@ The engine produces structured output following: LEGAL_INPUT_RESOLVED, FACT_PATT
 The Legal Engine integrates with the Governance Risk Policy Kernel for governance and compliance analysis, the Global Legal Engine for multi-jurisdiction matters, the VN Legal Kernel for Vietnam-specific analysis, and the Documentation Engine for contract and policy drafting.
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -130,4 +130,4 @@ path: 07_SKILLS/amos-c09-org-law-policy-master/references/legal_engine_layer_v2.
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

@@ -336,9 +336,9 @@ but the relevant validation evidence has not been inspected or
 executed:
 
 ```text
-[[VALIDATION]] CLAIM
+VALIDATION CLAIM
 !=
-[[VALIDATION]] OBSERVATION
+VALIDATION OBSERVATION
 ```
 
 The gap remains visible.
@@ -1112,7 +1112,7 @@ Therefore:
 ```text
 RESTATEMENT
 !=
-[[VALIDATION]]
+VALIDATION
 ```
 
 ---
@@ -1994,7 +1994,7 @@ Correct:
 
 ```text
 MODEL SUPPORTED
-EMPIRICAL [[VALIDATION]] GAP
+EMPIRICAL VALIDATION GAP
 ```
 
 ---
@@ -2709,7 +2709,7 @@ Root-cause resolution may close several dependent gaps at once.
 NEW EVIDENCE
      |
      v
-[[VALIDATION]]
+VALIDATION
      |
      v
 GAP G001
@@ -3309,7 +3309,7 @@ GAP
 NEW EVIDENCE
  |
  v
-[[VALIDATION]]
+VALIDATION
  |
  v
 CLOSURE
@@ -3500,7 +3500,7 @@ written as an equation.
 ```text
 FORMALIZATION
 !=
-[[VALIDATION]]
+VALIDATION
 ```
 
 ---
@@ -3770,9 +3770,9 @@ CORRECT EVIDENCE TYPE
 +
 EVIDENCE ACQUIRED
 +
-[[VALIDATION]] EXECUTED
+VALIDATION EXECUTED
 +
-[[VALIDATION]] PASSED
+VALIDATION PASSED
 +
 SCOPE MATCHED
 +
@@ -4995,7 +4995,7 @@ L27 is directly relevant to reconstruction integrity.
 If a canonical section is absent:
 
 ```text
-MISSING [[CANON]]
+MISSING CANON
 ```
 
 should remain visible.
@@ -5529,7 +5529,7 @@ What is forbidden is:
 ```text
 MODEL DETAIL
 ->
-SILENT [[CANON]] PROMOTION
+SILENT CANON PROMOTION
 ```
 
 ---
@@ -5577,7 +5577,7 @@ GAP
 |
 +--> SEEK MATCHING EVIDENCE
 |
-+--> EXECUTE [[VALIDATION]]
++--> EXECUTE VALIDATION
 |
 +--> CLOSE / PARTIAL / KEEP OPEN
 |
@@ -5621,7 +5621,7 @@ GAP
                                     NEW EVIDENCE
                                          |
                                          v
-                               EXECUTED [[VALIDATION]]
+                               EXECUTED VALIDATION
                                          |
                                   +------+------+
                                   |             |
@@ -5717,13 +5717,13 @@ GAP-I10
 RESTATEMENT IS NOT EVIDENCE.
 
 GAP-I11
-REPETITION IS NOT [[VALIDATION]].
+REPETITION IS NOT VALIDATION.
 
 GAP-I12
 DOCUMENTATION CLAIMS ARE NOT EXECUTION OBSERVATIONS.
 
 GAP-I13
-[[VALIDATION]] CLOSES ONLY THE SCOPE IT ACTUALLY TESTS.
+VALIDATION CLOSES ONLY THE SCOPE IT ACTUALLY TESTS.
 
 GAP-I14
 SIMULATION DOES NOT SILENTLY CLOSE EMPIRICAL GAPS.
@@ -6145,7 +6145,7 @@ IMPLEMENTATION GAP
 AUTHORITY GAP
     -> authoritative governance evidence
 
-[[VALIDATION]] GAP
+VALIDATION GAP
     -> executed validation evidence
 
 PROVENANCE GAP
@@ -6667,7 +6667,7 @@ EPHEMERAL CLAIM
 PERSISTENT EVIDENCE
       |
       v
-[[VALIDATION]]
+VALIDATION
       |
       v
 VALIDATED KNOWLEDGE
@@ -7298,7 +7298,7 @@ Therefore independence is scoped and typed.
 SOURCE S
    |
    v
-[[VALIDATION]] V
+VALIDATION V
   / \
  v   v
 R1   R2
@@ -7560,7 +7560,7 @@ TO CLOSE:
 
 OBTAIN NEW EVIDENCE.
 
-EXECUTE THE RELEVANT [[VALIDATION]].
+EXECUTE THE RELEVANT VALIDATION.
 
 VERIFY SCOPE.
 
@@ -7827,7 +7827,7 @@ dependency tracking
 When canon is unavailable:
 
 ```text
-UNKNOWN [[CANON]]
+UNKNOWN CANON
 ```
 
 is the correct state.
@@ -8050,7 +8050,7 @@ canonical_status: CONDITIONAL
 Therefore:
 
 ```text
-[[CANON]] DIRECTORY
+CANON DIRECTORY
 !=
 UNCONDITIONAL CANONICAL STATUS
 ```
@@ -8386,10 +8386,10 @@ IS MISSING:
 SAY AUTHORITY
 IS NOT ESTABLISHED.
 
-WHEN [[VALIDATION]]
+WHEN VALIDATION
 IS MISSING:
 
-SAY [[VALIDATION]]
+SAY VALIDATION
 IS NOT ESTABLISHED.
 
 WHEN PROVENANCE
@@ -8443,7 +8443,7 @@ BRING NEW EVIDENCE.
 
 EXECUTE
 THE RELEVANT
-[[VALIDATION]].
+VALIDATION.
 
 MATCH
 THE EVIDENCE
@@ -8467,7 +8467,7 @@ AN IMPLEMENTATION GAP
 WITH AN [[ARCHITECTURE]].
 
 DO NOT CLOSE
-A [[VALIDATION]] GAP
+A VALIDATION GAP
 WITH DOCUMENTATION.
 
 DO NOT CLOSE
@@ -8493,7 +8493,7 @@ MORE EVIDENCE.
 
 MORE DETAIL
 IS NOT
-MORE [[VALIDATION]].
+MORE VALIDATION.
 
 MORE COPIES
 ARE NOT
@@ -8620,7 +8620,7 @@ THE EPISTEMIC BASIS.
 EXECUTED,
 RELEVANT,
 SCOPE-CORRECT
-[[VALIDATION]] CAN.
+VALIDATION CAN.
 ```
 
 The detailed qualifiers beyond "executed validation" are derived
@@ -8709,10 +8709,10 @@ L27_GAP:
     - "PLAUSIBLE != ESTABLISHED"
     - "UNKNOWN != FALSE"
     - "UNKNOWN != TRUE"
-    - "RESTATEMENT != [[VALIDATION]]"
+    - "RESTATEMENT != VALIDATION"
     - "DOCUMENTATION != EXECUTION"
     - "MODEL != IMPLEMENTATION"
-    - "SIMULATION != EMPIRICAL [[VALIDATION]]"
+    - "SIMULATION != EMPIRICAL VALIDATION"
     - "CORRELATION != CAUSATION"
     - "DESCENDANT MULTIPLICITY != INDEPENDENCE"
     - "MORE PROSE != MORE EVIDENCE"

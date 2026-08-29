@@ -41,7 +41,7 @@ Domain master agent for AMOS C07 — Econ & Finance Master. Consolidates 44 sub-
 - **Consolidation**: 44 sub-skills merged 2026-08-26
 
 ---
-**MOC:** [[SKILL]]
+**MOC:** SKILL
 
 ---
 **MOC:** [[amos-c07-econ-finance-master_MOC]]

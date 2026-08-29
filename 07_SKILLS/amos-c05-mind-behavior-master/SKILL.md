@@ -267,4 +267,4 @@ C05 is **not** a mind reader and **not** a clinician. It never converts a model 
 
 ---
 
-**MOC:** [[references_MOC]] · [[00_HOME]]
+**MOC:** references_MOC · [[00_HOME]]

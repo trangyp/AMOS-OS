@@ -39,7 +39,7 @@ tags: [reports]
 
 ---
 
-## CORE [[INTEGRATION]] ACHIEVED
+## CORE INTEGRATION ACHIEVED
 
 ### 1. AMOS Brain Tensor Field Engine (`amos_brain_tensor_field_engine.py`)
 **MULTI-SCALE TENSOR FIELD ANALYSIS** - Models reality as S_t = T(Agents, Signals, Power, Incentives, Enforcement, Information, Constraints, Time)
@@ -112,16 +112,16 @@ tags: [reports]
 - **Parallel Execution**: Multi-threaded processing wo
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -133,4 +133,4 @@ path: 07_SKILLS/amos-os-runtime-master/references/brain_taskengine_integration.m
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

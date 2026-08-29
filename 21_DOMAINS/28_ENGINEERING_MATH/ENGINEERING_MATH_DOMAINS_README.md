@@ -28,7 +28,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# ENGINEERING MATH DOMAINS [[README]]
+# ENGINEERING MATH DOMAINS README
 
 ## Purpose
 `ENGINEERING MATH DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/28_ENGINEERING_MATH`.

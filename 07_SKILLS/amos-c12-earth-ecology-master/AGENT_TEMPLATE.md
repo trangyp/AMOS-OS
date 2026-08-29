@@ -41,7 +41,7 @@ Domain master agent for AMOS C12 — Earth & Ecology Master. Consolidates 29 sub
 - **Consolidation**: 29 sub-skills merged 2026-08-26
 
 ---
-**MOC:** [[SKILL]]
+**MOC:** SKILL
 
 ---
 **MOC:** [[amos-c12-earth-ecology-master_MOC]]

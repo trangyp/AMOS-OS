@@ -29,7 +29,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX M MID SCALE SCALES COGNITIVE MATRIX [[README]]
+# INDEX M MID SCALE SCALES COGNITIVE MATRIX README
 
 ## Index
 - See also — [[M_MID_SCALE_MAP]]

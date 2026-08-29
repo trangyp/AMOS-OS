@@ -86,15 +86,15 @@ answer the question, expand only when outcome-changing uncertainty remains.
 - [[00_HOME]] — universal vault hub
 ## Operational brain — module map
 
-- 00_boot: brain/00_boot/BOOTSTRAP · ROUTER · [[LOAD_MAP]] · OS_Agent_Model
+- 00_boot: brain/00_boot/BOOTSTRAP · ROUTER · LOAD_MAP · OS_Agent_Model
 - 10_core: INVARIANTS · CLAIM_CLASSES · [[FRACTAL_RUNTIME]] · [[LOGIC_KERNEL]] · EQUATION_* · VARIABLE_REGISTRY · [[CONSTRAINT_ENGINE]] · Consciousness_Engine_Model · Personality_Engine_Model · Emotion_Engine_Model · Cognition_Engine_Model · Mind_OS_Model
-- 20_state: [[TENSOR_CONTRACTS]] · [[CLAIM_TENSOR]] · [[EVIDENCE_TENSOR]] · [[RELATION_TENSOR]] · [[MEMORY_ARCHITECTURE]] · WORKING_MEMORY · [[BOUNDARY_IDENTITY]] · UNCERTAINTY_VECTOR · ENTROPY_LACUNARITY · STATE_MACHINE · CONTEXT_ORIENTATION · [[GOVERNANCE_TENSOR]]
-- 30_epistemics: PROVENANCE_TOPOLOGY · [[RSCF_PROOF_CAPSULE]] · COMPETING_HYPOTHESES · [[REGIME_FRESHNESS]] · [[ADVERSARIAL_VALIDATION]] · [[SENSITIVITY_FALSIFIERS]] · CAUSAL_FIREWALL · [[ERROR_RECOVERY]] · SYBIL_HARDENING
+- 20_state: [[TENSOR_CONTRACTS]] · [[CLAIM_TENSOR]] · [[EVIDENCE_TENSOR]] · [[RELATION_TENSOR]] · MEMORY_ARCHITECTURE · WORKING_MEMORY · BOUNDARY_IDENTITY · UNCERTAINTY_VECTOR · ENTROPY_LACUNARITY · STATE_MACHINE · CONTEXT_ORIENTATION · GOVERNANCE_TENSOR
+- 30_epistemics: PROVENANCE_TOPOLOGY · RSCF_PROOF_CAPSULE · COMPETING_HYPOTHESES · REGIME_FRESHNESS · ADVERSARIAL_VALIDATION · SENSITIVITY_FALSIFIERS · CAUSAL_FIREWALL · ERROR_RECOVERY · SYBIL_HARDENING
 - 40_runtime: RUNTIME_LINEAGE · TRANSACTION_PROTOCOL · V3_0…V4_4 (MVCC/CAS, causal epoch, coordination avoidance)
 - 50_governance: GMEF · AUTHORITY_GOVERNOR · EVOLUTION_DEBT · EVOLUTION_MEMORY · REPAIR_ROLLBACK
 - 60_execution: REPOSITORY_REASONING · KNOWLEDGE_HARVEST · EXECUTION_HARNESS · EXECUTION_PROVENANCE · BENCHMARK_FIREWALL · *_EVIDENCE_SCHEMA
 - 70_domain: [[COGNITION_KERNEL]] · UNIVERSAL_FIELD_MODEL · SOURCE_MODEL_BOUNDARY
-- 90_output: [[FINAL_GATE]] · OUTPUT_PROTOCOL · CONTEXT_BUDGET · TOKEN_GOVERNOR · [[SPEED_GOVERNOR]]
+- 90_output: FINAL_GATE · OUTPUT_PROTOCOL · CONTEXT_BUDGET · TOKEN_GOVERNOR · SPEED_GOVERNOR
 - 95_meta: SELF_REVIEW (self-review loop — hardens reasoning before any consequential output or brain write)
 
 ## Reasoning skills (progressive load)
@@ -1138,7 +1138,7 @@ to architectural skills in `.devin/skills/`. Each skill contains:
 
 #### New web-synthesized best-practice skill, agent, and workflow
 
-- `amos-agent-skill-workflow-best-practices` — best-practice guide for designing, distributing, and evaluating AI agent skills and workflows. Synthesizes 2026 Red Hat, Anthropic, OpenAI, and Arize AI guidance with AMOS conventions. Covers skill triplet structure ([[SKILL]].md + agent JSON + workflow), progressive disclosure, metadata-driven routing, deterministic scripting vs. LLM reasoning, evaluation-gated changes, and MOC/[[AGENTS]] integration.
+- `amos-agent-skill-workflow-best-practices` — best-practice guide for designing, distributing, and evaluating AI agent skills and workflows. Synthesizes 2026 Red Hat, Anthropic, OpenAI, and Arize AI guidance with AMOS conventions. Covers skill triplet structure (SKILL.md + agent JSON + workflow), progressive disclosure, metadata-driven routing, deterministic scripting vs. LLM reasoning, evaluation-gated changes, and MOC/[[AGENTS]] integration.
 - `amos-agent-skill-workflow-best-practices-agent.json` — agent for auditing, designing, and evaluating skill triplets; validates JSON and dependencies.
 - `amos-agent-skill-workflow-best-practices-workflow.md` — 12-phase workflow: scope → focus rules → triplet design → naming → metadata → deterministic scripts → guardrails → validation → MOC/index → eval → epistemic label.
 

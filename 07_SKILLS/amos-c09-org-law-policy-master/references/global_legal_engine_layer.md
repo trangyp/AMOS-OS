@@ -110,16 +110,16 @@ The engine refuses: assistance to commit crime, fraud, corruption, money launder
 The ENGINE_OUTPUT template produces: LEGAL_INPUT_RESOLVED, FACT_PATTERN, ISSUE_LIST, APPLICABLE_FRAMEWORKS, ANALYSIS, OPTIONS, RISK_MATRIX, RECOMMENDATIONS, COUNSEL_CHECKPOINTS, DISCLAIMER.
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -131,4 +131,4 @@ path: 07_SKILLS/amos-c09-org-law-policy-master/references/global_legal_engine_la
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

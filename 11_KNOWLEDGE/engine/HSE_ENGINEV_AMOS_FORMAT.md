@@ -1125,7 +1125,7 @@ HSE_ID_REGISTRY = {
     # 27 archetypes (behavioral templates, not psychology).
     # Fill from your canonical list (EN or VI) – IDs must be stable.
     "archetypes": [
-        # EXAMPLE ONLY – REPLACE / EXTEND FROM [[CANON]]
+        # EXAMPLE ONLY – REPLACE / EXTEND FROM CANON
         # GAP NOTE: Full canon list not available in vault as of 2026-08-26. Example data retained per G6 (fail closed, do not fabricate).
         {"id": "ARCH_EXECUTOR", "en": "The Executor", "vi": "Người thực thi", "active": True},
         {"id": "ARCH_PERFORMER", "en": "The Performer", "vi": "Người làm màu", "active": True},
@@ -5350,7 +5350,7 @@ HSE_GLOBAL_ENGINE_V1:
       - undocumented_critical_knowledge
 
   # ============================================================
-  # 4. ROLE & [[SKILL]] LAYER – GLOBAL + TECH + AI
+  # 4. ROLE & SKILL LAYER – GLOBAL + TECH + AI
   # ============================================================
   role_skill_layer:
     description: >
@@ -6351,7 +6351,7 @@ COUNTRY_CYCLE_SENSITIVITY {
 }
 
 ===========================================================
-VIII. GLOBAL LABOR + [[SKILL]] [[ARCHITECTURE]]
+VIII. GLOBAL LABOR + SKILL [[ARCHITECTURE]]
 ===========================================================
 
 SKILL_CLUSTER {
@@ -6601,7 +6601,7 @@ TABLE dim_role (
 
 # All VN tech roles (Dev, Cloud, AI, Security, Ops, etc.) plug here.
 
-1.5 [[SKILL]] REGISTRY
+1.5 SKILL REGISTRY
 ------------------
 
 TABLE dim_skill (
@@ -7306,7 +7306,7 @@ Outputs:
 - price_shock_response
 
 ===========================================================
-13. GLOBAL HR + [[SKILL]] TAXONOMY
+13. GLOBAL HR + SKILL TAXONOMY
 ===========================================================
 Skill categories:
 - STEM
@@ -7403,7 +7403,7 @@ Outputs:
 - intervention_threshold
 
 ===========================================================
-19. GLOBAL AI [[INTEGRATION]] LAYER
+19. GLOBAL AI INTEGRATION LAYER
 ===========================================================
 Dimensions:
 - AI trust score
@@ -8367,7 +8367,7 @@ This layer encodes global skills, roles, career flows, competency shapes,
 and workforce evolution. It integrates labour markets in 195+ countries.
 
 --------------------------------------------------
-13.1 GLOBAL [[SKILL]] FAMILIES
+13.1 GLOBAL SKILL FAMILIES
 --------------------------------------------------
 STEM:
 - mathematics
@@ -8432,7 +8432,7 @@ SERVICE SKILLS:
 - community engagement
 
 --------------------------------------------------
-13.2 GLOBAL [[SKILL]] LEVEL SCALE
+13.2 GLOBAL SKILL LEVEL SCALE
 --------------------------------------------------
 skill_novice:
 - requires step-by-step guidance
@@ -8455,7 +8455,7 @@ skill_master:
 - operates under failure conditions reliably
 
 --------------------------------------------------
-13.3 GLOBAL ROLE → [[SKILL]] MAP (ABRIDGED)
+13.3 GLOBAL ROLE → SKILL MAP (ABRIDGED)
 --------------------------------------------------
 Software Engineer: 50% digital, 30% STEM, 10% analytical, 10% managerial
 AI Engineer: 60% digital, 20% STEM, 20% analytical
@@ -9093,7 +9093,7 @@ governance_reform
 risk-adjusted_investment_thesis
 
 ====================================================================
-25. GLOBAL [[INTEGRATION]] (195 countries × 62 sectors × 7 cycles)
+25. GLOBAL INTEGRATION (195 countries × 62 sectors × 7 cycles)
 ====================================================================
 
 DEFINITION:
@@ -9163,7 +9163,7 @@ Every query to this engine returns a 12-line deterministic output.
 12. system-level recommendation
 
 ====================================================================
-27. FINAL [[CANON]] LOCK LAYER
+27. FINAL CANON LOCK LAYER
 ====================================================================
 
 Purpose:
@@ -10831,7 +10831,7 @@ income_group_tag: (low, lower-middle, upper-middle, high)
 regional_tag: (Africa, Europe, Asia, etc.)
 
 ---------------------------------------------------------
-IV. UNIVERSAL [[VALIDATION]] RULES
+IV. UNIVERSAL VALIDATION RULES
 ---------------------------------------------------------
 1. Every variable must exist (no nulls).
 2. Every object must implement full structure.
@@ -11880,7 +11880,7 @@ SECTION_VALIDITY_CHECKS:
 === END ===
 
 ---
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
 
 ---
 **MOC:** [[ENGINE_MOC]]

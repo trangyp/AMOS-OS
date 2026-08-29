@@ -20,13 +20,11 @@ it does not transform the model's epistemic type into `observation`.
 
 ---
 
-Stub note for [[derivation.
+Stub note for derivation.
 
 it does not transform the model's epistemic type into `observation`.
 
----
-
-]].
+---.
 
 ---
 

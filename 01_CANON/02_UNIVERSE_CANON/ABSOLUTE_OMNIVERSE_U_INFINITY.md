@@ -432,7 +432,7 @@ and:
 ```text
 STATE NAME
 !=
-[[DIAGNOSIS]]
+DIAGNOSIS
 ```
 
 Any system using U∞ to infer these fields must separately establish its evidence basis.
@@ -531,7 +531,7 @@ Important boundary:
 ```text
 ONTOLOGY LABEL
 !=
-CLINICAL [[DIAGNOSIS]]
+CLINICAL DIAGNOSIS
 ```
 
 The presence of terms such as `DEPRESSION_HEAVY` or `ANHEDONIA` does not establish clinical classification.
@@ -1970,7 +1970,7 @@ SOURCE-CONTENT ARTIFACT
 
 [[ABSOLUTE_OMNIVERSE_U_INFINITY_CANON]]
 =
-[[CANON]]-GOVERNANCE / CANONICAL DEFINITION NODE
+CANON-GOVERNANCE / CANONICAL DEFINITION NODE
 ```
 
 They should be linked rather than merged.
@@ -3510,7 +3510,7 @@ HUMAN STATES
 +
 EMOTION / ACTION
 +
-MICRO [[SIGNALS]]
+MICRO SIGNALS
 +
 PATHOLOGY PATTERNS
 +
@@ -3528,7 +3528,7 @@ SYMBOL / DREAM
 +
 EXPRESSION TONE
 +
-MORAL [[SIGNALS]]
+MORAL SIGNALS
 +
 PERSONAS
 
@@ -3791,7 +3791,7 @@ SUBSTANTIVE CONTENT
         =
 SOURCE-ESTABLISHED
 
-EMPIRICAL [[VALIDATION]]
+EMPIRICAL VALIDATION
         =
 NOT ESTABLISHED
 

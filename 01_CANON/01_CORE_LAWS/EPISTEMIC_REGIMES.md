@@ -3449,7 +3449,7 @@ Historical epistemic class rewritten without lineage.
 | ----------------------------------------- | ------------------------------------------------------------------ |
 | A document asserts X                      | `SOURCE_CLAIM`                                                     |
 | A person reports X                        | `SOURCE_CLAIM`                                                     |
-| A [[README]] reports test success             | `SOURCE_CLAIM`                                                     |
+| A README reports test success             | `SOURCE_CLAIM`                                                     |
 | A test is directly executed and returns X | `OBSERVATION`                                                      |
 | A sensor directly records X               | `OBSERVATION`                                                      |
 | File inspection finds X                   | `OBSERVATION`                                                      |

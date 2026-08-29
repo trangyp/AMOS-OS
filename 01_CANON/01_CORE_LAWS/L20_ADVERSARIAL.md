@@ -303,7 +303,7 @@ Conceptually:
 PATH IS CONSEQUENTIAL
         ↓
 ADVERSARIAL PROBES
-ARE PART OF [[VALIDATION]]
+ARE PART OF VALIDATION
 ```
 
 not:
@@ -1734,7 +1734,7 @@ Therefore:
 ```text
 OBSERVED FAILURE
 ≠
-UNIQUE CAUSAL [[DIAGNOSIS]]
+UNIQUE CAUSAL DIAGNOSIS
 ```
 
 ---
@@ -1912,7 +1912,7 @@ are compatible.
 The distinction is:
 
 ```text
-INITIAL [[VALIDATION]]
+INITIAL VALIDATION
 ≠
 RETRY / ESCALATION
 ```
@@ -2332,7 +2332,7 @@ may be directly established by execution evidence.
 But:
 
 ```text
-[[DIAGNOSIS]]:
+DIAGNOSIS:
 developer intentionally created bypass
 ```
 
@@ -2351,7 +2351,7 @@ Conceptually:
 ```text
 PROPOSED TRANSITION
         ↓
-ADVERSARIAL [[VALIDATION]]
+ADVERSARIAL VALIDATION
         ↓
 RECEIPTS
         ↓
@@ -2703,7 +2703,7 @@ Again, the underlying finalization semantics must come from their own canon.
 Proof-based coordination avoidance must not become:
 
 ```text
-SKIP [[VALIDATION]]
+SKIP VALIDATION
 BECAUSE COORDINATION IS EXPENSIVE
 ```
 
@@ -3485,7 +3485,7 @@ Rejected for consequential paths under ADV-1.
 ```text
 NO ATTACK OBSERVED
 ↓
-NO ADVERSARIAL [[VALIDATION]]
+NO ADVERSARIAL VALIDATION
 ```
 
 Rejected where ADV-1 applies.
@@ -4002,7 +4002,7 @@ The two are complementary.
 L20 does not state:
 
 ```text
-ADVERSARIAL [[VALIDATION]]
+ADVERSARIAL VALIDATION
 =
 FORMAL VERIFICATION
 ```
@@ -4435,7 +4435,7 @@ Invalid:
 
 ```text
 L20 DEFINES
-ADVERSARIAL [[VALIDATION]]
+ADVERSARIAL VALIDATION
         ↓
 L20 PASSES ITS OWN
 MODEL-LEVEL ANALYSIS
@@ -4471,7 +4471,7 @@ Operationally:
 
 ```text
 RECOVER AUTHORITATIVE
-ADVERSARIAL [[CANON]]
+ADVERSARIAL CANON
         ↓
 EXTRACT THREAT MODEL
         ↓
@@ -4565,7 +4565,7 @@ If authoritative canon states, for example:
 ```text
 CONSEQUENTIAL PATHS
 MUST NOT USE
-ASSUME-ATTACK [[VALIDATION]]
+ASSUME-ATTACK VALIDATION
 ```
 
 that would materially conflict with ADV-1.
@@ -4935,7 +4935,7 @@ EXHAUSTIVE SECURITY PROOF
 
 FUZZ FAILURE
 ≠
-UNIQUE CAUSAL [[DIAGNOSIS]]
+UNIQUE CAUSAL DIAGNOSIS
 
 FUZZ RECEIPT
 ≠
@@ -4979,7 +4979,7 @@ INDEPENDENT FAILURES
 
 OLD FUZZ PASS
 ≠
-NEW BUILD [[VALIDATION]]
+NEW BUILD VALIDATION
 
 NO FAILURE FOUND
 ≠
@@ -4987,7 +4987,7 @@ NO FAILURE EXISTS
 
 SELF-ANALYSIS
 ≠
-CANONICAL [[VALIDATION]]
+CANONICAL VALIDATION
 ```
 
 ---
@@ -5038,13 +5038,13 @@ RSCF-RELATIONS:
 
   - RELATED_TO: [[L16_HML]]
 
-  - RELATED_TO: [[PROVENANCE_TOPOLOGY]]
+  - RELATED_TO: PROVENANCE_TOPOLOGY
 
   - RELATED_TO: [[PERSISTENT_PROVENANCE]]
 
   - RELATED_TO: [[SCOPE_REGIME_FIREWALL]]
 
-  - RELATED_TO: [[CAUSAL_FIREWALL]]
+  - RELATED_TO: CAUSAL_FIREWALL
 
   - RELATED_TO: [[ATOMIC_MULTI_RSCF]]
 

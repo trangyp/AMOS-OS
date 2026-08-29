@@ -27,7 +27,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# RESEARCH [[README]]
+# RESEARCH README
 
 ## Purpose
 `RESEARCH README` is the package readme for the **Research** plane segment at `22_RESEARCH`.

@@ -28,7 +28,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# EXPERIMENTS RESEARCH [[README]]
+# EXPERIMENTS RESEARCH README
 
 ## Purpose
 `EXPERIMENTS RESEARCH README` is the package readme for the **Research** plane segment at `22_RESEARCH/02_EXPERIMENTS`.

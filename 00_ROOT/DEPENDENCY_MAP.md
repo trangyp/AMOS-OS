@@ -2255,7 +2255,7 @@ NO LESS.
 
 ## Related
 
-[[README]] ·
+README ·
 [[00_ROOT_MOC]]|[[AMOS MOC]] ·
 [[ARCHITECTURE]] ·
 [[SYSTEM_MAP]] ·
@@ -2271,29 +2271,29 @@ NO LESS.
 [[SOURCE_REGISTRY]] ·
 [[CONFLICT_REGISTRY]] ·
 [[KERNEL_MAP]] ·
-[[README]] ·
-[[README]] ·
-[[README]] ·
-[[README]] ·
-[[README]] ·
+README ·
+README ·
+README ·
+README ·
+README ·
 [[CONTROL_PLANE_MAP]] ·
 [[RUNTIME_MAP]] ·
-[[README]] ·
-[[README]] ·
-[[README]] ·
-[[README]] ·
-[[README]] ·
-[[README]] ·
+README ·
+README ·
+README ·
+README ·
+README ·
+README ·
 11_KNOWLEDGE/00_AMOS_Full_Brain_OS_Architecture ·
-[[README]] ·
-[[README]] ·
-[[README]] ·
-[[README]] ·
-[[README]] ·
-[[README]] ·
-[[README]] ·
-[[README]] ·
-[[README]] ·
+README ·
+README ·
+README ·
+README ·
+README ·
+README ·
+README ·
+README ·
+README ·
 [[DOMAIN_ALIAS_MAP]]
 
 ```text

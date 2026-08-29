@@ -29,7 +29,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# [[VALIDATION]] RESEARCH [[README]]
+# VALIDATION RESEARCH README
 
 ## Purpose
 `VALIDATION RESEARCH README` is the package readme for the **Research** plane segment at `22_RESEARCH/04_VALIDATION`.

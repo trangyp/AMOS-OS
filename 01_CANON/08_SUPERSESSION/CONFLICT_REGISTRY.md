@@ -2756,7 +2756,7 @@ UNKNOWN/GAP.
 
 ## Related
 
-[[README]] ·
+README ·
 [[00_ROOT_MOC]]|[[AMOS MOC]] ·
 [[ARCHITECTURE]] ·
 [[SYSTEM_MAP]] ·
@@ -2777,8 +2777,8 @@ ALIASES ·
 [[PERSISTENCE_CANON]] ·
 11_KNOWLEDGE/00_AMOS_Full_Brain_OS_Architecture ·
 [[AUTHORITATIVE_STATE]] ·
-[[README]] ·
-[[README]]
+README ·
+README
 
 ```text
 ```

@@ -29,7 +29,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX TASK CONTRACT CONTROL PLANE [[README]]
+# INDEX TASK CONTRACT CONTROL PLANE README
 
 ## Index
 - See also — [[TASK_CONTRACT_CONTRACT]]

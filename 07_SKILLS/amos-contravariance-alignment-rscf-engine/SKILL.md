@@ -300,7 +300,7 @@ A hard failure is not c
 - `amos-contravariance-alignment-rscf-engine-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -310,7 +310,7 @@ A hard failure is not c
 RSCF-NODE
 node_id: amos-contravariance-alignment-rscf-engine
 node_type: skill
-path: 07_SKILLS/amos-contravariance-alignment-rscf-engine/[[SKILL]].md
+path: 07_SKILLS/amos-contravariance-alignment-rscf-engine/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

@@ -30,7 +30,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# DESIGN DOMAINS [[README]]
+# DESIGN DOMAINS README
 
 ## Purpose
 `DESIGN DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/05_DESIGN`.

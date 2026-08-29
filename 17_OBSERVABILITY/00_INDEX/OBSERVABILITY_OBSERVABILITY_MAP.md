@@ -36,7 +36,7 @@ Navigation map for the `17_OBSERVABILITY/00_INDEX` segment of the Observability 
 
 - **Contract** — [[INDEX_OBSERVABILITY_OBSERVABILITY_CONTRACT]]
 - **Readme** — [[INDEX_OBSERVABILITY_README]]
-- **Readme** — [[README]]
+- **Readme** — README
 
 ## Reading order
 1. Readme → orientation.  2. Contract → normative terms.  3. Artifacts → instances bound by the contract.

@@ -233,8 +233,8 @@ AMOS separates agent cognition into explicit artifacts:
 | Cognitive burden | Correct externalization target |
 |---|---|
 | transient one-turn information | CONTEXT |
-| persistent user/system state | [[MEMORY]] |
-| reusable procedure | [[SKILL]] |
+| persistent user/system state | MEMORY |
+| reusable procedure | SKILL |
 | cross-agent/tool interaction contract | PROTOCOL |
 | deterministic computation | CODE |
 | external action interface | TOOL |
@@ -666,7 +666,7 @@ Aliases, summaries, copies, and transformations retain ancestry.
 
 ---
 
-# 16. [[MEMORY]] CONTRACT
+# 16. MEMORY CONTRACT
 
 ```yaml
 memory:
@@ -702,7 +702,7 @@ Memory must not silently authorize irreversible action.
 
 ---
 
-# 17. [[SKILL]] CONTRACT
+# 17. SKILL CONTRACT
 
 ```yaml
 skills:
@@ -1172,7 +1172,7 @@ interactions:
 
 ---
 
-# 35. [[VALIDATION]] SUITE
+# 35. VALIDATION SUITE
 
 Minimum deterministic schema tests:
 

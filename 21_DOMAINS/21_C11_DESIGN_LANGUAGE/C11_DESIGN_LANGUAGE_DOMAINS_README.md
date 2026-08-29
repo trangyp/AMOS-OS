@@ -28,7 +28,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# C11 DESIGN LANGUAGE DOMAINS [[README]]
+# C11 DESIGN LANGUAGE DOMAINS README
 
 ## Purpose
 `C11 DESIGN LANGUAGE DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/21_C11_DESIGN_LANGUAGE`.

@@ -28,7 +28,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX EXPERIMENTS RESEARCH [[README]]
+# INDEX EXPERIMENTS RESEARCH README
 
 ## Index
 - See also — [[EXPERIMENTS_MAP]]

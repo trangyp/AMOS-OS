@@ -2583,8 +2583,8 @@ Canonical progression:
 EPHEMERAL OUTPUT
 → PERSISTENT EVIDENCE
 → VALIDATED KNOWLEDGE
-→ [[CANON]] CANDIDATE
-→ GOVERNED [[CANON]]
+→ CANON CANDIDATE
+→ GOVERNED CANON
 ```
 
 Each arrow requires its own justification.
@@ -3741,7 +3741,7 @@ ABSOLUTE_LOGIC
 └── GOVERNED_EVOLUTION
     ├── ANTI_REGRESSION
     ├── LINEAGE
-    └── [[VALIDATION]]
+    └── VALIDATION
 ```
 
 ---
@@ -3784,7 +3784,7 @@ COMPETING             CLASSIFY
               ↓
           PROPOSAL
               ↓
-         [[VALIDATION]]
+         VALIDATION
               ↓
         AUTHORIZATION
               ↓

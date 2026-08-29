@@ -125,7 +125,7 @@ Proposed specification replacing placeholder. AMOS_MODEL. Canonical status: COND
 
 ## 4. Falsifiers
 F1: recovered fractal canon defines diff
-- [[AGENT_TEMPLATE]]
+- AGENT_TEMPLATE
 
 ---
 **MOC:** [[amos-fractal-systems-master_MOC]]
@@ -224,7 +224,7 @@ F1: recovered fractal canon defines diff
 - `amos-fractal-systems-master-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -234,7 +234,7 @@ F1: recovered fractal canon defines diff
 RSCF-NODE
 node_id: amos-fractal-systems-master
 node_type: skill
-path: 07_SKILLS/amos-fractal-systems-master/[[SKILL]].md
+path: 07_SKILLS/amos-fractal-systems-master/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

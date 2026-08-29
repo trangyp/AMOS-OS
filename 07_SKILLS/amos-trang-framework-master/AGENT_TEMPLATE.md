@@ -41,7 +41,7 @@ Domain master agent for AMOS Trang Framework Master. Consolidates 15 sub-skills.
 - **Consolidation**: 15 sub-skills merged 2026-08-26
 
 ---
-**MOC:** [[SKILL]]
+**MOC:** SKILL
 
 ---
 **MOC:** [[amos-trang-framework-master_MOC]]

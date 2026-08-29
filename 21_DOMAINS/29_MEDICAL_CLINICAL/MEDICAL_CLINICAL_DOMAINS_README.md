@@ -28,7 +28,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# MEDICAL CLINICAL DOMAINS [[README]]
+# MEDICAL CLINICAL DOMAINS README
 
 ## Purpose
 `MEDICAL CLINICAL DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/29_MEDICAL_CLINICAL`.

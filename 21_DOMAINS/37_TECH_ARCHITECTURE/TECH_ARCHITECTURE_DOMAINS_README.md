@@ -28,7 +28,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# TECH [[ARCHITECTURE]] DOMAINS [[README]]
+# TECH [[ARCHITECTURE]] DOMAINS README
 
 ## Purpose
 `TECH ARCHITECTURE DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/37_TECH_ARCHITECTURE`.

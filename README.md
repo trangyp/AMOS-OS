@@ -17,7 +17,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# [[README]] — Readme
+# README — Readme
 
 """
 COSMO Monorepo - Production Readiness Summary

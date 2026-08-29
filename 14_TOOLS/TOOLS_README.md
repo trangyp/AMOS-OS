@@ -27,7 +27,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# TOOLS [[README]]
+# TOOLS README
 
 ## Purpose
 `TOOLS README` is the package readme for the **Tools** plane segment at `14_TOOLS`.

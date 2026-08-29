@@ -216,7 +216,7 @@ The skill creator is an operational process. It does not prove skills are always
 - `skill-creator-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -226,7 +226,7 @@ The skill creator is an operational process. It does not prove skills are always
 RSCF-NODE
 node_id: skill-creator
 node_type: skill
-path: 07_SKILLS/skill-creator/[[SKILL]].md
+path: 07_SKILLS/skill-creator/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

@@ -221,7 +221,7 @@ FX macro differential mapping is an AMOS_MODEL. It does not prove macro breaks a
 - `amos-fx-macro-differential-mapper-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -231,7 +231,7 @@ FX macro differential mapping is an AMOS_MODEL. It does not prove macro breaks a
 RSCF-NODE
 node_id: amos-fx-macro-differential-mapper
 node_type: skill
-path: 07_SKILLS/amos-fx-macro-differential-mapper/[[SKILL]].md
+path: 07_SKILLS/amos-fx-macro-differential-mapper/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

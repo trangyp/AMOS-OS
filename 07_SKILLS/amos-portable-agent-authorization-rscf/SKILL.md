@@ -218,7 +218,7 @@ Enforcement trust contracts are AMOS_MODEL validated through synthetic fuzz test
 - `amos-portable-agent-authorization-rscf-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -228,7 +228,7 @@ Enforcement trust contracts are AMOS_MODEL validated through synthetic fuzz test
 RSCF-NODE
 node_id: amos-portable-agent-authorization-rscf
 node_type: skill
-path: 07_SKILLS/amos-portable-agent-authorization-rscf/[[SKILL]].md
+path: 07_SKILLS/amos-portable-agent-authorization-rscf/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

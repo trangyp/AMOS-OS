@@ -29,7 +29,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX AUTHORITY CONTROL PLANE [[README]]
+# INDEX AUTHORITY CONTROL PLANE README
 
 ## Index
 - See also — [[CONTROL_PLANE_AUTHORITY_CONTRACT]]

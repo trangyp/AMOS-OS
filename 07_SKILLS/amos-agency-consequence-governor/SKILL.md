@@ -221,7 +221,7 @@ Agency consequence governance is an operational construct. It does not prove the
 - `amos-agency-consequence-governor-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -231,7 +231,7 @@ Agency consequence governance is an operational construct. It does not prove the
 RSCF-NODE
 node_id: amos-agency-consequence-governor
 node_type: skill
-path: 07_SKILLS/amos-agency-consequence-governor/[[SKILL]].md
+path: 07_SKILLS/amos-agency-consequence-governor/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

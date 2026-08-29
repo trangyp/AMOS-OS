@@ -28,7 +28,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# SCALE MODES COMMIT CONTROL PLANE [[README]]
+# SCALE MODES COMMIT CONTROL PLANE README
 
 ## Purpose
 `SCALE MODES COMMIT CONTROL PLANE README` is the package readme for the **Control Plane** plane segment at `03_CONTROL_PLANE/09_COMMIT/11_SCALE_MODES`.

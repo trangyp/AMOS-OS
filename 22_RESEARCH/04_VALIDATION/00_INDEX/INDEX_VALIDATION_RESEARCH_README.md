@@ -29,7 +29,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX [[VALIDATION]] RESEARCH [[README]]
+# INDEX VALIDATION RESEARCH README
 
 ## Index
 - See also — [[RESEARCH_VALIDATION_MAP]]

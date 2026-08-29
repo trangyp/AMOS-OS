@@ -1966,7 +1966,7 @@ Artifact names should reveal contract type.
 
 ---
 
-# 62. [[README]] Boundary
+# 62. README Boundary
 
 `README.md` is orientation.
 

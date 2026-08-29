@@ -30,7 +30,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# FINANCE DOMAINS [[README]]
+# FINANCE DOMAINS README
 
 ## Purpose
 `FINANCE DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/09_FINANCE`.

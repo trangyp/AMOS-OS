@@ -33,7 +33,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# STATE KERNEL [[README]]
+# STATE KERNEL README
 
 ## Purpose
 `STATE KERNEL README` is the package readme for the **Kernel** plane segment at `02_KERNEL/04_STATE`.

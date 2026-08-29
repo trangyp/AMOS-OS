@@ -1668,7 +1668,7 @@ _SPEC_JSON = r"""{
           ],
           "technology": [
             "AMOS.TECH.DATA_INTEGRITY",
-            "AMOS.TECH.[[ACCESS_CONTROL]]"
+            "AMOS.TECH.ACCESS_CONTROL"
           ]
         },
         "propagation_rule": "Any audit weakness updates the corresponding AMOS node state and pushes a TTS delta and TPE cycle adjustment."
@@ -1743,7 +1743,7 @@ def summary_keys():
     return list(load_spec().keys())
 
 ---
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
 
 ---
 **MOC:** [[ENGINE_MOC]]

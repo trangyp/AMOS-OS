@@ -33,7 +33,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# COGNITION KERNEL [[README]]
+# COGNITION KERNEL README
 
 ## Purpose
 `COGNITION KERNEL README` is the package readme for the **Kernel** plane segment at `02_KERNEL/02_COGNITION`.

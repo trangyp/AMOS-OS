@@ -27,7 +27,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# QUANTUM SYSTEMS DOMAINS [[README]]
+# QUANTUM SYSTEMS DOMAINS README
 
 ## Purpose
 `QUANTUM SYSTEMS DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/41_QUANTUM_SYSTEMS`.

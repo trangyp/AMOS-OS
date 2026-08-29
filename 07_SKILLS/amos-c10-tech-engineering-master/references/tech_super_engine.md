@@ -38,7 +38,7 @@ created: 2026-08-22
   "meta": {
     "name": "Tech Engine v∞ — MAX (Gap-Closed)",
     "version": "v∞_MAX_1.0",
-    "description": "Tech Engine v∞ with all conceptual gaps closed to 100% structural coverage across tech domains and leadership/specialist roles. This MAX variant wraps the full [[CANON]] engine, QUANTUM augmentation layers, and an explicit benchmark matrix for covered roles.",
+    "description": "Tech Engine v∞ with all conceptual gaps closed to 100% structural coverage across tech domains and leadership/specialist roles. This MAX variant wraps the full CANON engine, QUANTUM augmentation layers, and an explicit benchmark matrix for covered roles.",
     "source": "User + AMOS canon + Tech Engine v∞",
     "base_engine_file": "Tech_Engine_vInfinity_CANON_EXPANDED.json",
     "coverage_statement": {
@@ -135,16 +135,16 @@ created: 2026-08-22
             "tech_lead",
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -156,4 +156,4 @@ path: 07_SKILLS/amos-c10-tech-engineering-master/references/tech_super_engine.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

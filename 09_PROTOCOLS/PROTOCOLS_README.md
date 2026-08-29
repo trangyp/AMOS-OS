@@ -27,7 +27,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# PROTOCOLS [[README]]
+# PROTOCOLS README
 
 ## Purpose
 `PROTOCOLS README` is the package readme for the **Protocols** plane segment at `09_PROTOCOLS`.

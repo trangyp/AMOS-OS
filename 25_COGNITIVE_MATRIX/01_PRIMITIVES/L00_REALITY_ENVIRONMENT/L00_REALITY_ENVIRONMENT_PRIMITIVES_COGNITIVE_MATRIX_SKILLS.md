@@ -2232,83 +2232,83 @@ provenance
 
 # 81. Failure Modes
 
-## [[SKILL]]-F01 — Placeholder Promotion
+## SKILL-F01 — Placeholder Promotion
 
 A placeholder is treated as implemented.
 
-## [[SKILL]]-F02 — Addressability Promotion
+## SKILL-F02 — Addressability Promotion
 
 A named capability is treated as available or validated.
 
-## [[SKILL]]-F03 — Capability / Authority Collapse
+## SKILL-F03 — Capability / Authority Collapse
 
 Ability to act is interpreted as permission to act.
 
-## [[SKILL]]-F04 — Skill / Evidence Collapse
+## SKILL-F04 — Skill / Evidence Collapse
 
 Skill output is treated as verified evidence without classification.
 
-## [[SKILL]]-F05 — Tool / Skill Collapse
+## SKILL-F05 — Tool / Skill Collapse
 
 Tool availability is treated as proof of complete skill capability.
 
-## [[SKILL]]-F06 — Agent / Skill Collapse
+## SKILL-F06 — Agent / Skill Collapse
 
 Agent identity is confused with capability identity.
 
-## [[SKILL]]-F07 — Scope Leakage
+## SKILL-F07 — Scope Leakage
 
 Skill output is reused outside validated scope.
 
-## [[SKILL]]-F08 — Regime Leakage
+## SKILL-F08 — Regime Leakage
 
 Skill is reused across materially incompatible regimes.
 
-## [[SKILL]]-F09 — Temporal Leakage
+## SKILL-F09 — Temporal Leakage
 
 Stale validation is treated as current.
 
-## [[SKILL]]-F10 — Dependency Drift
+## SKILL-F10 — Dependency Drift
 
 Skill dependencies change without revalidation.
 
-## [[SKILL]]-F11 — Version Drift
+## SKILL-F11 — Version Drift
 
 Output provenance loses the skill version.
 
-## [[SKILL]]-F12 — Evidence Ancestry Loss
+## SKILL-F12 — Evidence Ancestry Loss
 
 Skill transformation erases source lineage.
 
-## [[SKILL]]-F13 — Sybil Validation
+## SKILL-F13 — Sybil Validation
 
 Several skills using the same source are counted as independent validation.
 
-## [[SKILL]]-F14 — Causal Promotion
+## SKILL-F14 — Causal Promotion
 
 Semantic/structural output becomes causal without suitable evidence.
 
-## [[SKILL]]-F15 — Model / Reality Collapse
+## SKILL-F15 — Model / Reality Collapse
 
 Model output becomes environmental observation.
 
-## [[SKILL]]-F16 — Simulation / Reality Collapse
+## SKILL-F16 — Simulation / Reality Collapse
 
 Simulated result becomes empirical evidence.
 
-## [[SKILL]]-F17 — Validation Inflation
+## SKILL-F17 — Validation Inflation
 
 Passing bounded tests becomes universal validation.
 
-## [[SKILL]]-F18 — Confidence Inflation
+## SKILL-F18 — Confidence Inflation
 
 Skill output confidence exceeds load-bearing inputs.
 
-## [[SKILL]]-F19 — Irreversible Execution Without Gate
+## SKILL-F19 — Irreversible Execution Without Gate
 
 A skill commits durable effects without governance.
 
-## [[SKILL]]-F20 — Unknown Suppression
+## SKILL-F20 — Unknown Suppression
 
 Missing capability or evidence is represented as successful execution.
 
@@ -2538,83 +2538,83 @@ skill_invocation_protocol:
 
 # 88. Skill Invariants
 
-## [[SKILL]]-I01 — Identity
+## SKILL-I01 — Identity
 
 Every skill has a stable identity and version.
 
-## [[SKILL]]-I02 — State Separation
+## SKILL-I02 — State Separation
 
 Placeholder, implementation, test, validation, and authorization states remain distinct.
 
-## [[SKILL]]-I03 — Typed Inputs
+## SKILL-I03 — Typed Inputs
 
 Inputs are semantically typed.
 
-## [[SKILL]]-I04 — Typed Outputs
+## SKILL-I04 — Typed Outputs
 
 Outputs expose epistemic class.
 
-## [[SKILL]]-I05 — Dependency Visibility
+## SKILL-I05 — Dependency Visibility
 
 Load-bearing dependencies remain explicit.
 
-## [[SKILL]]-I06 — Provenance Preservation
+## SKILL-I06 — Provenance Preservation
 
 Skill transformations preserve material source lineage.
 
-## [[SKILL]]-I07 — Scope Preservation
+## SKILL-I07 — Scope Preservation
 
 Outputs remain bounded by applicable scope.
 
-## [[SKILL]]-I08 — Regime Preservation
+## SKILL-I08 — Regime Preservation
 
 Outputs remain bounded by regime.
 
-## [[SKILL]]-I09 — Temporal Integrity
+## SKILL-I09 — Temporal Integrity
 
 Freshness is checked where decision-relevant.
 
-## [[SKILL]]-I10 — H/M/L Integrity
+## SKILL-I10 — H/M/L Integrity
 
 Cross-scale promotion requires explicit transformation.
 
-## [[SKILL]]-I11 — Evidence Discipline
+## SKILL-I11 — Evidence Discipline
 
 Skill output is not automatically verified evidence.
 
-## [[SKILL]]-I12 — Independence Discipline
+## SKILL-I12 — Independence Discipline
 
 Multiple skills do not manufacture evidence independence.
 
-## [[SKILL]]-I13 — Causal Discipline
+## SKILL-I13 — Causal Discipline
 
 Non-causal relations cannot silently become causal.
 
-## [[SKILL]]-I14 — Confidence Ceiling
+## SKILL-I14 — Confidence Ceiling
 
 Output confidence cannot exceed load-bearing support without independent validation.
 
-## [[SKILL]]-I15 — Capability / Authority Separation
+## SKILL-I15 — Capability / Authority Separation
 
 Capability never grants authority automatically.
 
-## [[SKILL]]-I16 — Proposal / Commit Separation
+## SKILL-I16 — Proposal / Commit Separation
 
 Proposed effects are distinct from committed effects.
 
-## [[SKILL]]-I17 — Revalidation
+## SKILL-I17 — Revalidation
 
 Material skill mutation invalidates affected validation.
 
-## [[SKILL]]-I18 — Selective Invalidation
+## SKILL-I18 — Selective Invalidation
 
 Skill failure invalidates dependent state, not unrelated state.
 
-## [[SKILL]]-I19 — Quarantine
+## SKILL-I19 — Quarantine
 
 Compromised skills can be isolated.
 
-## [[SKILL]]-I20 — Gap Preservation
+## SKILL-I20 — Gap Preservation
 
 Unavailable or unsupported capability remains `UNKNOWN/GAP`.
 
@@ -3756,7 +3756,7 @@ The governing architectural principle is:
 
 ---
 
-**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[Cosmo_Brain_BRIDGE_INDEX]] · [[Cosmo_Brain_BRIDGE_INDEX]] · [[Cosmo_Brain_BRIDGE_INDEX]] · RSCF Modeler · [[Cosmo_Brain_BRIDGE_INDEX]] · AMOS Provenance Sybil Hardening · AMOS Reality Simulation Distinction · AMOS Causal Hierarchy Governor
+**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · Cosmo_Brain_BRIDGE_INDEX · Cosmo_Brain_BRIDGE_INDEX · Cosmo_Brain_BRIDGE_INDEX · RSCF Modeler · Cosmo_Brain_BRIDGE_INDEX · AMOS Provenance Sybil Hardening · AMOS Reality Simulation Distinction · AMOS Causal Hierarchy Governor
 
 ```
 ```

@@ -104,7 +104,7 @@ The AMOS brain reorganization evolved into a complete master equation cosmos sys
 ## Architecture
 
 ### Core Brain Layer
-- Enhanced AMOS [[CANON]] Brain (`brain_canonical_consolidated_fixed.py`)
+- Enhanced AMOS CANON Brain (`brain_canonical_consolidated_fixed.py`)
 - 19-Primitive Logic System (Rule of 2 & 4)
 - Quantum Stack (creator-attributed: Trang Phan)
 - UBI Framework (4 biological intelligence domains, 300 BEI layers)
@@ -186,16 +186,16 @@ Equations are preserved with their source/framework status. AMOS MODEL equations
 - **F24**: `\mathcal{D}(X)=Y; \mathrm{Valid}_dual(X)\Longleftrightarrow\math
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -207,4 +207,4 @@ path: 07_SKILLS/amos-language-equation-rscf-engine/references/vault_domain_knowl
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

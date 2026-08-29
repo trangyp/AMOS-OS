@@ -122,8 +122,8 @@ rscf:
 > [!abstract] Canon identity
 > **Artifact:** `AMOS_HOMEOSTASIS_CANON.md`  
 > **Artifact ID:** `amos_01_canon_03_cognition_canon_amos_homeostasis_canon`  
-> **System:** [[AMOS OS]]  
-> **Plane:** [[01_CANON]]  
+> **System:** AMOS OS  
+> **Plane:** 01_CANON  
 > **Segment:** [[03_COGNITION_CANON_MOC|03 Cognition Canon]]  
 > **Artifact kind:** `CANON`  
 > **Source state:** `PLACEHOLDER`  

@@ -28,7 +28,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX SKILLS [[SKILL]] CONTRACT
+# INDEX SKILLS SKILL CONTRACT
 
 ## Index
 - See also — [[INDEX_SKILLS_README]]

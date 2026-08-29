@@ -1138,10 +1138,10 @@ AMOS mapping:
 
 | Burden                     | Artifact         |
 | -------------------------- | ---------------- |
-| audience profile           | [[MEMORY]] / STATE   |
+| audience profile           | MEMORY / STATE   |
 | current campaign objective | CONTEXT          |
 | content matrix             | PERSISTENT STATE |
-| research methodology       | [[SKILL]]            |
+| research methodology       | SKILL            |
 | allocation algorithm       | CODE             |
 | agent-to-agent contract    | PROTOCOL         |
 | publishing integration     | TOOL             |
@@ -2328,7 +2328,7 @@ MatrixResult:
 
 ---
 
-# 71. [[VALIDATION]] GATES
+# 71. VALIDATION GATES
 
 Before matrix approval:
 
@@ -2703,7 +2703,7 @@ Không copy-paste nhiều versions nếu system có shared state.
 
 ---
 
-# 86. CONTENT [[MEMORY]]
+# 86. CONTENT MEMORY
 
 Persistent memory nên lưu:
 
@@ -2727,7 +2727,7 @@ all unverified observations
 
 ---
 
-# 87. NEGATIVE [[MEMORY]]
+# 87. NEGATIVE MEMORY
 
 Store failures such as:
 

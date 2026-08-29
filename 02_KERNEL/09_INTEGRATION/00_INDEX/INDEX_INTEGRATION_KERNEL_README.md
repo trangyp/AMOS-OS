@@ -30,7 +30,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX [[INTEGRATION]] KERNEL [[README]]
+# INDEX INTEGRATION KERNEL README
 
 ## Index
 - See also — [[INTEGRATION_KERNEL_INTEGRATION_CONTRACT]]

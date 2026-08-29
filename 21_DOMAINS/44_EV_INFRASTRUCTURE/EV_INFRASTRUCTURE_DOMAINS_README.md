@@ -27,7 +27,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# EV INFRASTRUCTURE DOMAINS [[README]]
+# EV INFRASTRUCTURE DOMAINS README
 
 ## Purpose
 `EV INFRASTRUCTURE DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/44_EV_INFRASTRUCTURE`.

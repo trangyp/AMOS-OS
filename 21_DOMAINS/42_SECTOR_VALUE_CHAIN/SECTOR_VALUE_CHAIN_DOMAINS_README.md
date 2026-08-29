@@ -27,7 +27,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# SECTOR VALUE CHAIN DOMAINS [[README]]
+# SECTOR VALUE CHAIN DOMAINS README
 
 ## Purpose
 `SECTOR VALUE CHAIN DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/42_SECTOR_VALUE_CHAIN`.

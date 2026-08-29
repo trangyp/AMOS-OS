@@ -5,12 +5,6 @@ tags:
 - framework
 - reality
 - canon/knowledge
-- 00-home
-- knowledge-moc
-- system-scan-agent
-- automation-profiles
-- trang-moc
-- amos-simulation-kernel-v0-math-foundations
 type: document
 source: 11_KNOWLEDGE/trang
 rscf:
@@ -19,6 +13,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
+
 
 # **The Seven Cycles of the Trang System™ – Official Manual (Comprehensive Edition)**
 The seven-cycle model of the Trang System™ (TSS) provides a universal structure for understanding how human-linked systems evolve over time. Whether the system is a family, a corporation, a political party, a national government, or a civilization, it moves through the same sequence of structural phases. These cycles describe how systems emerge, grow, overstretch, fracture, face crisis, collapse, and eventually reset into new forms. The model does not depend on cultural background, ideology, or historical moment. It reflects the underlying mechanics of human cooperation, organizational structure, and systemic stress. Because these mechanics are universal, the seven-cycle model provides a common language for analyzing system health, formulating interventions, and anticipating long-term trajectories.

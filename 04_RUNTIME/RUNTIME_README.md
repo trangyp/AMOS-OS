@@ -27,7 +27,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# RUNTIME [[README]]
+# RUNTIME README
 
 ## Purpose
 `RUNTIME README` is the package readme for the **Runtime** plane segment at `04_RUNTIME`.

@@ -32,7 +32,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX DOMAINS [[README]]
+# INDEX DOMAINS README
 
 ## Index
 - See also — [[DOMAIN_ALIAS_MAP]]

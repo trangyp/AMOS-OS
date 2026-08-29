@@ -224,7 +224,7 @@ The memory immune system is an operational construct. It does not prove all corr
 - `amos-memory-immune-system-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -234,7 +234,7 @@ The memory immune system is an operational construct. It does not prove all corr
 RSCF-NODE
 node_id: amos-memory-immune-system
 node_type: skill
-path: 07_SKILLS/amos-memory-immune-system/[[SKILL]].md
+path: 07_SKILLS/amos-memory-immune-system/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

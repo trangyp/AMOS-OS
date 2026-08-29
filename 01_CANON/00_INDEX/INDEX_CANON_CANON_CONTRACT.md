@@ -20,7 +20,7 @@ rscf:
   scope: index_navigation
 ---
 
-# AMOS OS — [[CANON]] Contract
+# AMOS OS — CANON Contract
 
 ```yaml
 ---
@@ -2129,7 +2129,7 @@ UNKNOWN/GAP != PASS
 
 ---
 
-# 79. Final [[CANON]] Contract
+# 79. Final CANON Contract
 
 > **AMOS OS SHALL treat canon as a governed, versioned, provenance-preserving knowledge structure rather than a collection of files. Canonical identity shall remain distinct from filenames and storage locations. Source material, candidate canon, accepted canon, implementation, validation, and empirical truth shall remain separate states. New material shall not enter canon merely because it exists, is detailed, is generated, is recent, or resembles existing architecture. Canon promotion, mutation, and supersession shall preserve provenance, scope, dependencies, contradiction visibility, authority, and historical lineage. AMOS framework models shall remain explicitly distinguished from independently validated empirical claims. Unresolved contradictions shall remain COMPETING or UNKNOWN/GAP rather than being silently merged. Canon changes shall selectively invalidate dependent conclusions and preserve rollback/recovery paths. No generated agent, Skill, tool, or artifact may self-authorize canonical promotion.**
 

@@ -2104,7 +2104,7 @@ knowledge_record:
   lineage: []
 ```
 
-[[README]]/documentation claims remain:
+README/documentation claims remain:
 
 ```text
 SOURCE_CLAIM

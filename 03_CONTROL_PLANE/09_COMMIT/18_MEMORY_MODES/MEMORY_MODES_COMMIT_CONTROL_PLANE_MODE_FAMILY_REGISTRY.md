@@ -27,7 +27,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# [[MEMORY]] MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
+# MEMORY MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 
 ## Purpose
 Registry for **MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY** within the Control Plane plane (governance surfaces that gate effects: task contracts, capability, policy, authority, provenance, semantic transactions, observability, effects, commit, exposure, replay, rollback context).

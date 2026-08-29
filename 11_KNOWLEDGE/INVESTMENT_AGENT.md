@@ -473,8 +473,8 @@ Correct AMOS externalization:
 | --------------------------- | ----------------------- |
 | current question / analysis | CONTEXT                 |
 | portfolio holdings          | PERSISTENT STATE        |
-| user risk mandate           | GOVERNED [[MEMORY]] / STATE |
-| valuation procedure         | [[SKILL]] / CODE            |
+| user risk mandate           | GOVERNED MEMORY / STATE |
+| valuation procedure         | SKILL / CODE            |
 | optimizer                   | CODE                    |
 | market-data interface       | TOOL                    |
 | investment workflow         | PROTOCOL                |
@@ -1955,7 +1955,7 @@ Do not collapse to generic `SUCCESS`.
 
 ---
 
-# 66. INVESTMENT [[MEMORY]]
+# 66. INVESTMENT MEMORY
 
 Potential persistent state:
 
@@ -1974,7 +1974,7 @@ Memory should not include unchecked generated market claims.
 
 ---
 
-# 67. NEGATIVE [[MEMORY]]
+# 67. NEGATIVE MEMORY
 
 Record failures:
 
@@ -1999,7 +1999,7 @@ forecast systematically overconfident
 
 ---
 
-# 68. [[MEMORY]] / AUTHORITY FIREWALL
+# 68. MEMORY / AUTHORITY FIREWALL
 
 ```text
 RememberedRiskTolerance
@@ -2103,7 +2103,7 @@ RobustStrategy
 
 ---
 
-# 73. WALK-FORWARD [[VALIDATION]]
+# 73. WALK-FORWARD VALIDATION
 
 Preferred structure for predictive systems:
 
@@ -2843,7 +2843,7 @@ T36 deterministic metric reproducibility
 
 ---
 
-# 106. MODEL [[VALIDATION]] TESTS
+# 106. MODEL VALIDATION TESTS
 
 ```text
 T37 train/test time ordering

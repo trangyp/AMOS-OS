@@ -111,16 +111,16 @@ tags: [amos, kernel, species-interaction, hie, umpl, ust, uie, uel, human-intera
 Physics_and_Quantum, Information_and_Complexity, Biology_and_Life, Mind_and_Consciousness, Society_and_Institution, Planetary_and_Ecology, Temporal_and_Scenarios, Multiverse_and_Modality, Observer_and_Perspectiv
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -132,4 +132,4 @@ path: 07_SKILLS/amos-c04-bio-neuro-master/references/species_interaction_engine.
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

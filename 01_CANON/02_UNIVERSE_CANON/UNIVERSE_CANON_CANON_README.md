@@ -39,7 +39,7 @@ rscf:
   scope: universe_canon
 ---
 
-# UNIVERSE [[CANON]] [[CANON]] [[README]]
+# UNIVERSE CANON CANON README
 
 ## Purpose
 `UNIVERSE CANON CANON README` is the package readme for the **Canon** plane segment at `01_CANON/02_UNIVERSE_CANON`.

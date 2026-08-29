@@ -29,9 +29,9 @@ rscf:
   scope: index_navigation
 ---
 
-# RESEARCH [[VALIDATION]] MAP
+# RESEARCH VALIDATION MAP
 
-## Map — RESEARCH · [[VALIDATION]] MAP
+## Map — RESEARCH · VALIDATION MAP
 Navigation map for the `22_RESEARCH/04_VALIDATION/00_INDEX` segment of the Research plane.
 
 - **Readme** — [[INDEX_VALIDATION_RESEARCH_README]]

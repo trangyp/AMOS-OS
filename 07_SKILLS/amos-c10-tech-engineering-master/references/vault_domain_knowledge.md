@@ -22,7 +22,7 @@ rscf:
 # amos-c10-tech-engineering-master — Vault-Sourced Domain Knowledge
 
 > Load this reference only when detailed domain knowledge is needed.
-> This content was moved from [[SKILL]].md for progressive loading.
+> This content was moved from SKILL.md for progressive loading.
 
 ---
 
@@ -658,4 +658,4 @@ claim_class: AMOS_MODEL
 - **Epistemic overreach**: If a claim exceeds the established evidence or epistemic class, retract and relabel.
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC

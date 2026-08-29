@@ -29,11 +29,11 @@ rscf:
 
 ## Vault-Sourced Content
 
-### Source 1: AMOS [[CANON]] Integration Marker
+### Source 1: AMOS CANON Integration Marker
 
 > Path: `amos-general/A/CANON/AMOS CANON Integration Marker.md` | Size: 24840 chars | Match score: 10 | content_hash: e542a15026c5d02c
 
-# AMOS [[CANON]] Integration Marker
+# AMOS CANON Integration Marker
 
 ## Overview
 
@@ -377,9 +377,9 @@ Stateframes are constructed by intersecting:
 **Related:** [[amos-mark-operator-rscf-engine_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -391,4 +391,4 @@ path: 07_SKILLS/amos-mark-operator-rscf-engine/references/vault_domain_knowledge
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

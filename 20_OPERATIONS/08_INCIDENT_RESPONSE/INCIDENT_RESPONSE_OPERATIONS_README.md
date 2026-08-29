@@ -26,7 +26,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# INCIDENT RESPONSE OPERATIONS [[README]]
+# INCIDENT RESPONSE OPERATIONS README
 
 ## Purpose
 `INCIDENT RESPONSE OPERATIONS README` is the package readme for the **Operations** plane segment at `20_OPERATIONS/08_INCIDENT_RESPONSE`.

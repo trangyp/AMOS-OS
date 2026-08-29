@@ -40,7 +40,7 @@ tags: [indexes]
 - INDEX_AMOS forex
 - INDEX_AMOS_Consulting
 - INDEX_root-misc-01
-- [[INDEX_MAIN]]
+- INDEX_MAIN
 - INDEX_LOGIC
 - INDEX_root-misc-05
 - INDEX_openclaw-main
@@ -103,15 +103,15 @@ tags: [indexes]
 - arxiv_md/INDEX_arxiv_md-33
 
 ---
-**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -123,4 +123,4 @@ path: 07_SKILLS/amos-knowledge-research-master/references/auto_extracted_archive
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

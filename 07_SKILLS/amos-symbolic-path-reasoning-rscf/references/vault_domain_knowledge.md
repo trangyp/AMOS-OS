@@ -150,7 +150,7 @@ axiom A_evolve_def :
 > Source: `cosmo-brain/AMOS_COGNITIVE_SUBSTRATE_REASONING_GRAPH.py` (20 self-tests)
 > Test: `cosmo-brain/test_cognitive_substrate_reasoning_graph.py` (9 integration, 29 total)
 > Skill: amos-cognitive-substrate-reasoning-graph
-> See also: [[2026_08_22_COGNITIVE_SUBSTRATE_REALITY_GATE]] · amos-core-reasoning · amos-competing-hypotheses
+> See also: 2026_08_22_COGNITIVE_SUBSTRATE_REALITY_GATE · amos-core-reasoning · amos-competing-hypotheses
 
 ## 1. The problem this solves
 
@@ -289,12 +289,12 @@ The core transformation loop is now fully functional:
 - cosmo-obsidian-memory
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -306,4 +306,4 @@ path: 07_SKILLS/amos-symbolic-path-reasoning-rscf/references/vault_domain_knowle
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

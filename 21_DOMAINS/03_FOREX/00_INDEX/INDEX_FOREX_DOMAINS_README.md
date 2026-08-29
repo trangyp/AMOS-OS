@@ -28,7 +28,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX FOREX DOMAINS [[README]]
+# INDEX FOREX DOMAINS README
 
 ## Index
 - See also — [[FOREX_DOMAINS_FOREX_CONTRACT]]

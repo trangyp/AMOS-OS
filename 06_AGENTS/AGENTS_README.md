@@ -28,7 +28,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# [[AGENTS]] [[README]]
+# [[AGENTS]] README
 
 ## Purpose
 `AGENTS README` is the package readme for the **Agents** plane segment at `06_AGENTS`.

@@ -2064,7 +2064,7 @@ $$u(t) = K_p e(t) + K_i \int_0^t e(\tau) d\tau + K_d \frac{de(t)}{dt} + \mathbf{
 
 ## Related
 
-[[README]] ·
+README ·
 [[DEPENDENCY_MAP]] ·
 [[AMOS_CORE_LAWS]] ·
 [[INVARIANT_REGISTRY]] ·
@@ -2087,11 +2087,11 @@ $$u(t) = K_p e(t) + K_i \int_0^t e(\tau) d\tau + K_d \frac{de(t)}{dt} + \mathbf{
 [[K_MEMORY_IMMUNE]] ·
 [[K_MEMORY_RETRIEVAL]] ·
 [[K_COLLAPSE_RECOVERY]] ·
-[[README]] ·
-[[README]] ·
-[[README]] ·
-[[README]] ·
-[[README]]
+README ·
+README ·
+README ·
+README ·
+README
 
 ```text
 ```

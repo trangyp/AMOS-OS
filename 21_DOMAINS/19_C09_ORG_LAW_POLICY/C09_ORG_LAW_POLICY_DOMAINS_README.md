@@ -28,7 +28,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# C09 ORG LAW POLICY DOMAINS [[README]]
+# C09 ORG LAW POLICY DOMAINS README
 
 ## Purpose
 `C09 ORG LAW POLICY DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/19_C09_ORG_LAW_POLICY`.

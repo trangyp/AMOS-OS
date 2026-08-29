@@ -239,7 +239,7 @@ It does not itself grant authority or commit effects.
 Conceptually:
 
 $$
-[[CANON]]
+CANON
 \rightarrow
 KERNEL
 \rightarrow

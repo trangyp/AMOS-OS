@@ -28,7 +28,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# API [[INTEGRATION]] DOMAINS [[README]]
+# API INTEGRATION DOMAINS README
 
 ## Purpose
 `API INTEGRATION DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/38_API_INTEGRATION`.

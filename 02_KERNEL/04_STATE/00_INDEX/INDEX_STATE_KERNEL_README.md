@@ -29,7 +29,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX STATE KERNEL [[README]]
+# INDEX STATE KERNEL README
 
 ## Index
 - See also — [[KERNEL_STATE_MAP]]

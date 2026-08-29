@@ -29,7 +29,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# [[CANON]] [[README]]
+# CANON README
 
 ## Purpose
 `CANON README` is the package readme for the **Canon** plane segment at `01_CANON`.

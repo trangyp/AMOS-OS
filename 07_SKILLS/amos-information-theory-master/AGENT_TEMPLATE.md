@@ -41,7 +41,7 @@ Domain master agent for AMOS Information Theory Master. Consolidates 3 sub-skill
 - **Consolidation**: 3 sub-skills merged 2026-08-26
 
 ---
-**MOC:** [[SKILL]]
+**MOC:** SKILL
 
 ---
 **MOC:** [[amos-information-theory-master_MOC]]

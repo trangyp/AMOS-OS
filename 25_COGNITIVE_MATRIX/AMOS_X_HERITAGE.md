@@ -185,13 +185,13 @@ No single signal layer is assumed sufficient.
 A decision is instead formed by evaluating:
 
 ```text
-WHAT [[SIGNALS]] EXIST?
+WHAT SIGNALS EXIST?
         ↓
 HOW RELIABLE ARE THEY?
         ↓
-WHICH [[SIGNALS]] AGREE?
+WHICH SIGNALS AGREE?
         ↓
-WHICH [[SIGNALS]] CONTRADICT?
+WHICH SIGNALS CONTRADICT?
         ↓
 WHAT REGIME ARE WE IN?
         ↓

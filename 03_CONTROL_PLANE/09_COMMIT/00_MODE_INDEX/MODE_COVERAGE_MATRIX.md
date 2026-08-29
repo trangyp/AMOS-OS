@@ -2045,7 +2045,7 @@ PROVENANCE COLLAPSE IS SYSTEMIC
 
 ---
 
-# 98. TASK CONTRACT [[INTEGRATION]]
+# 98. TASK CONTRACT INTEGRATION
 
 Given Task Contract `T`, the matrix should derive required coverage vector:
 
@@ -2105,7 +2105,7 @@ THE TASK DECISION.
 
 ---
 
-# 101. CAPABILITY RESOLVER [[INTEGRATION]]
+# 101. CAPABILITY RESOLVER INTEGRATION
 
 The matrix may answer:
 
@@ -2126,7 +2126,7 @@ LIVE CAPABILITY AVAILABILITY
 
 ---
 
-# 102. MODE COMPOSITION REGISTRY [[INTEGRATION]]
+# 102. MODE COMPOSITION REGISTRY INTEGRATION
 
 When coverage requires multiple modes:
 
@@ -2142,7 +2142,7 @@ valid / invalid / conditional
 
 ---
 
-# 103. MODE CONFLICT REGISTRY [[INTEGRATION]]
+# 103. MODE CONFLICT REGISTRY INTEGRATION
 
 If overlapping coverage is contradictory:
 
@@ -2156,7 +2156,7 @@ The matrix should not resolve the conflict silently.
 
 ---
 
-# 104. MODE ADMISSION [[INTEGRATION]]
+# 104. MODE ADMISSION INTEGRATION
 
 Coverage claims for non-admitted modes should be marked accordingly.
 
@@ -2632,7 +2632,7 @@ through GMEF as appropriate.
 
 ---
 
-# 136. GMEF [[INTEGRATION]]
+# 136. GMEF INTEGRATION
 
 Coverage analysis can supply evidence to governed evolution.
 
@@ -2652,7 +2652,7 @@ COVERAGE REVALIDATION
 
 ---
 
-# 137. RSCF [[INTEGRATION]]
+# 137. RSCF INTEGRATION
 
 A coverage claim may be represented as:
 
@@ -2716,7 +2716,7 @@ They must be evaluated against compatible scope, regime, and state.
 
 ---
 
-# 140. H/M/L [[INTEGRATION]]
+# 140. H/M/L INTEGRATION
 
 Suggested retrieval:
 
@@ -3246,7 +3246,7 @@ Ucoverage =
 
 ---
 
-# 169. ADVERSARIAL [[VALIDATION]]
+# 169. ADVERSARIAL VALIDATION
 
 For consequential coverage claims, challenge:
 

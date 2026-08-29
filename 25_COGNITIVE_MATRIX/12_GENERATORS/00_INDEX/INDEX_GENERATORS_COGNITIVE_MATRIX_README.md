@@ -43,13 +43,13 @@ tags:
 canon-group: canon/cognitive-matrix
 ---
 
----title: "INDEX GENERATORS COGNITIVE MATRIX [[README]]"
+---title: "INDEX GENERATORS COGNITIVE MATRIX README"
 type: document
 tags: [note]
 ---
 
 
-# Cognitive Matrix Routing — [[README]]
+# Cognitive Matrix Routing — README
 
 **STATUS:** CANDIDATE_CANON — SUBSTANTIVE SPECIFICATION
 **Artifact Type:** Routing Index / Navigation Contract / Routing Architecture Entry Point
@@ -109,7 +109,7 @@ $$Task \rightarrow Mode$$
 
 # 1. Purpose
 
-This [[README]] is the canonical navigation and architectural entry point for:
+This README is the canonical navigation and architectural entry point for:
 
 ```text
 25_COGNITIVE_MATRIX/10_ROUTING/
@@ -667,7 +667,7 @@ Selection SHOULD prefer the smallest sufficient mode configuration.
 
 An active mode is a runtime concept.
 
-This [[README]] does not establish that selected modes are literally instantiated as executable runtime objects.
+This README does not establish that selected modes are literally instantiated as executable runtime objects.
 
 ---
 
@@ -1697,7 +1697,7 @@ CHECK EXPECTED STATE
 COMMIT IF STILL VALID
 ```
 
-This [[README]] does not claim literal database MVCC or processor-level CAS implementation.
+This README does not claim literal database MVCC or processor-level CAS implementation.
 
 ---
 
@@ -2213,7 +2213,7 @@ MODE_DEPENDENCY_GRAPH.md
 
 Additional routing artifacts MAY exist elsewhere in the corpus.
 
-This [[README]] MUST NOT invent missing artifact names merely to make the directory appear complete.
+This README MUST NOT invent missing artifact names merely to make the directory appear complete.
 
 ---
 
@@ -2808,13 +2808,13 @@ SUPERSEDED
 
 but exact lifecycle semantics must be governed by the applicable canon.
 
-This [[README]] does not self-promote.
+This README does not self-promote.
 
 ---
 
-# 132. [[README]] Governance
+# 132. README Governance
 
-Changes to this [[README]] that materially alter:
+Changes to this README that materially alter:
 
 ```text
 routing semantics
@@ -2831,15 +2831,15 @@ SHOULD pass through the appropriate provenance/versioning/supersession process.
 
 ---
 
-# 133. [[README]] Non-Authority Rule
+# 133. README Non-Authority Rule
 
-This [[README]] is an index and architecture specification.
+This README is an index and architecture specification.
 
 Where a dedicated routing artifact defines a more specific contract, the dedicated artifact SHOULD govern within its scope unless supersession or canon rules establish otherwise.
 
 Therefore:
 
-$$SpecificContract > [[README]]\ Summary$$
+$$SpecificContract > README\ Summary$$
 
 within the specific contract's valid scope.
 
@@ -3044,7 +3044,7 @@ artifact:
 
 # 140. Canon Boundary
 
-Nothing in this [[README]] should be interpreted as independently upgrading:
+Nothing in this README should be interpreted as independently upgrading:
 
 ```text
 MODEL → DERIVED

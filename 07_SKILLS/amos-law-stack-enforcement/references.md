@@ -39,7 +39,7 @@ rscf:
 - Skill synced via `hermes curator adopt amos-law-stack-enforcement` from `.hermes/skills/`
 
 ---
-**Related:** [[SKILL]]
+**Related:** SKILL
 
 ---
 **MOC:** [[amos-law-stack-enforcement_MOC]]

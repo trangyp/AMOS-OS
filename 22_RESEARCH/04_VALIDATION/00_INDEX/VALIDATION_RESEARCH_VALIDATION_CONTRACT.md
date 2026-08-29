@@ -27,10 +27,10 @@ rscf:
   scope: index_navigation
 ---
 
-# [[VALIDATION]] RESEARCH [[VALIDATION]] CONTRACT
+# VALIDATION RESEARCH VALIDATION CONTRACT
 
 ## 0. Status
-Research-plane contract for **RESEARCH [[VALIDATION]] CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
+Research-plane contract for **RESEARCH VALIDATION CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
 ## 1. Scope
 Governs research questions, experiments, competing models, validation, benchmarks as they bear on `RESEARCH VALIDATION CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.

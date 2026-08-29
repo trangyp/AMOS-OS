@@ -5,12 +5,6 @@ tags:
 - framework
 - reality
 - canon/knowledge
-- 00-home
-- knowledge-moc
-- system-scan-agent
-- automation-profiles
-- trang-moc
-- amos-simulation-kernel-v0-math-foundations
 type: document
 source: 11_KNOWLEDGE/trang
 rscf:
@@ -19,6 +13,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
+
 
 # Trang Reality Architecture / AMOS Corpus
 # Trang Reality Architecture
@@ -10334,7 +10329,7 @@ Keep separate until validated:
 # v4 Core Spine
 ```
     Reality is not a collection of objects.
-
+    
     Reality =
     Potential structured by distinction,
     distinction stabilized by relation,

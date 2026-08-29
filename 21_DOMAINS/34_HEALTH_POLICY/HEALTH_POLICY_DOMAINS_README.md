@@ -28,7 +28,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# HEALTH POLICY DOMAINS [[README]]
+# HEALTH POLICY DOMAINS README
 
 ## Purpose
 `HEALTH POLICY DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/34_HEALTH_POLICY`.

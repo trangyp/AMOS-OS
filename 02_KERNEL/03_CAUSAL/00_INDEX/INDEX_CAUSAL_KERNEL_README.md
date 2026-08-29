@@ -29,7 +29,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX CAUSAL KERNEL [[README]]
+# INDEX CAUSAL KERNEL README
 
 ## Index
 - See also — [[CAUSAL_KERNEL_CAUSAL_CONTRACT]]

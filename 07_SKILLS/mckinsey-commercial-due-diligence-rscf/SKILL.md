@@ -213,7 +213,7 @@ Commercial due diligence is an analytical process. It does not prove all risks a
 - `mckinsey-commercial-due-diligence-rscf-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -223,7 +223,7 @@ Commercial due diligence is an analytical process. It does not prove all risks a
 RSCF-NODE
 node_id: mckinsey-commercial-due-diligence-rscf
 node_type: skill
-path: 07_SKILLS/mckinsey-commercial-due-diligence-rscf/[[SKILL]].md
+path: 07_SKILLS/mckinsey-commercial-due-diligence-rscf/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

@@ -32,7 +32,7 @@ rscf:
 
 ## Index
 - See also — [[INDEX_TESTS_README]]
-- See also — [[README]]
+- See also — README
 - See also — [[TEST_MAP]]
 
 ## Indexing rule

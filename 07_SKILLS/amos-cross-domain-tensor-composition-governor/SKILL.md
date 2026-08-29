@@ -189,7 +189,7 @@ No existing skill governs this composition operation. Only 3 cross-domain skills
 - `amos-cross-domain-tensor-composition-governor-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -199,7 +199,7 @@ No existing skill governs this composition operation. Only 3 cross-domain skills
 RSCF-NODE
 node_id: amos-cross-domain-tensor-composition-governor
 node_type: skill
-path: 07_SKILLS/amos-cross-domain-tensor-composition-governor/[[SKILL]].md
+path: 07_SKILLS/amos-cross-domain-tensor-composition-governor/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

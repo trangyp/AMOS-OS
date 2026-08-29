@@ -85,7 +85,7 @@ It extracts deep resilience principles from Vietnamese history: surviving thousa
 
 - **Civilization System:** [[HERITAGE_CIVILIZATION_SYSTEM]]
 - **Master Framework:** [[HERITAGE_INTELLIGENCE_MASTER]]
-- **Vietnamese Sub-Plane:** [[vietnamese_MOC]]
+- **Vietnamese Sub-Plane:** vietnamese_MOC
 - **Acoustic Roots:** [[HERITAGE_MUSIC_ACOUSTIC_INTELLIGENCE]]
 
 ---

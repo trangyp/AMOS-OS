@@ -829,7 +829,7 @@ Do not assume independence from:
 * multiple summaries of one study;
 * mirrored datasets;
 * multiple AMOS derivatives from one master artifact;
-* repeated [[README]] claims;
+* repeated README claims;
 * generated summaries;
 * or duplicated corpus entries.
 

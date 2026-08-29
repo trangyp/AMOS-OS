@@ -98,7 +98,7 @@ Navigation map for the `00_ROOT` segment of the Root plane.
 - **Artifact** — [[FULL_TREE]]
 - **Artifact** — [[NEURAL_NETWORK]]
 - **Artifact** — [[PLACEMENT_RULES]]
-- **Readme** — [[README]]
+- **Readme** — README
 - **Artifact** — [[ROADMAP]]
 - **Artifact** — [[RSCF_NODE_INDEX]]
 - **Artifact** — [[SYSTEM_MAP]]

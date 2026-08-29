@@ -138,7 +138,7 @@ gaps:
 >
 > Its source-grounded responsibility is deliberately bounded:
 >
-> **orient the reader to the local [[README]] and contract, then route from those definitions toward artifacts governed by that contract.**
+> **orient the reader to the local README and contract, then route from those definitions toward artifacts governed by that contract.**
 >
 > This map covers its own directory only.
 >
@@ -365,7 +365,7 @@ The source establishes two direct map targets:
 
 ---
 
-# 12. [[README]] Role
+# 12. README Role
 
 `` provides orientation.
 
@@ -434,7 +434,7 @@ ARTIFACTS
 
 # 16. Why Orientation Comes First
 
-The [[README]] establishes the navigation context before the reader interprets model artifacts.
+The README establishes the navigation context before the reader interprets model artifacts.
 
 This reduces:
 
@@ -2863,7 +2863,7 @@ MODEL_MAP_GAPS:
 
 # 212. Extended Promotion Gate — Reading Order
 
-* [ ] [[README]] resolves
+* [ ] README resolves
 * [ ] contract resolves
 * [ ] contract binding is explicit
 * [ ] artifact instances preserve contract identity

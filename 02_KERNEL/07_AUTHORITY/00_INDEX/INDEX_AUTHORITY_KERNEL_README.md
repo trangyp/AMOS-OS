@@ -29,7 +29,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX AUTHORITY KERNEL [[README]]
+# INDEX AUTHORITY KERNEL README
 
 ## Index
 - See also — [[AUTHORITY_KERNEL_AUTHORITY_CONTRACT]]

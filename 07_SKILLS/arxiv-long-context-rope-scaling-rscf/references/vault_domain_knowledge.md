@@ -35,7 +35,7 @@ rscf:
 # AMOS Longevity, Reproducibility & Archival (Gaps 291-300)
 
 > Epistemic class: MODEL (code artifact + test verification).
-> Related: [[2026_08_22_AMOS_GOVERNANCE_ARCHITECTURE_DECOMMISSIONING]] · [[2026_08_22_AMOS_FAIRNESS_ETHICS_EXTERNALITIES]] · amos-completion-graph-workflow
+> Related: 2026_08_22_AMOS_GOVERNANCE_ARCHITECTURE_DECOMMISSIONING · 2026_08_22_AMOS_FAIRNESS_ETHICS_EXTERNALITIES · amos-completion-graph-workflow
 
 ## Summary
 
@@ -150,12 +150,12 @@ When context is near capacity:
 ---
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -167,4 +167,4 @@ path: 07_SKILLS/arxiv-long-context-rope-scaling-rscf/references/vault_domain_kno
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

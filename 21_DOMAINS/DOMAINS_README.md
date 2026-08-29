@@ -27,7 +27,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# DOMAINS [[README]]
+# DOMAINS README
 
 ## Purpose
 `DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS`.

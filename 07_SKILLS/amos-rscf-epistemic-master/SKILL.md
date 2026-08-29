@@ -132,7 +132,7 @@ Proposed specification replacing placeholder. AMOS_MODEL. Canonical status: COND
 - **KM-1 Typed Storage**: knowledge entries carry type, provenance, confidence, epoch — no untyped dumps as authority.
 - **KM-2 Provenance Preservation**: source ancestry survives every transformation; repeated descendants do not increase independence.
 - **KM-3 Staleness Visibility**: stale entries are marked, not sile
-- [[AGENT_TEMPLATE]]
+- AGENT_TEMPLATE
 
 ---
 **MOC:** [[amos-rscf-epistemic-master_MOC]]
@@ -222,7 +222,7 @@ Proposed specification replacing placeholder. AMOS_MODEL. Canonical status: COND
 - `amos-rscf-epistemic-master-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -232,7 +232,7 @@ Proposed specification replacing placeholder. AMOS_MODEL. Canonical status: COND
 RSCF-NODE
 node_id: amos-rscf-epistemic-master
 node_type: skill
-path: 07_SKILLS/amos-rscf-epistemic-master/[[SKILL]].md
+path: 07_SKILLS/amos-rscf-epistemic-master/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

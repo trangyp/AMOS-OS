@@ -3215,7 +3215,7 @@ The clean ownership across this Generator cluster is now:
 [[GENERATOR_CONTRACT]].md
 → Generator semantics
 
-[[VALIDATION]].md
+VALIDATION.md
 → admissibility
 
 TESTS.md
@@ -3227,7 +3227,7 @@ GENERATORS_BENCHMARKS.md
 PROVENANCE.md
 → ancestry and evidence topology
 
-[[INTEGRATION]].md
+INTEGRATION.md
 → subsystem bindings
 
 [[ROADMAP]].md

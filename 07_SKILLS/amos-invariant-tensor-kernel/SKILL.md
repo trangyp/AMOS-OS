@@ -220,7 +220,7 @@ Invariant tensor kernel is a structural construct. It does not prove all invaria
 - `amos-invariant-tensor-kernel-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -230,7 +230,7 @@ Invariant tensor kernel is a structural construct. It does not prove all invaria
 RSCF-NODE
 node_id: amos-invariant-tensor-kernel
 node_type: skill
-path: 07_SKILLS/amos-invariant-tensor-kernel/[[SKILL]].md
+path: 07_SKILLS/amos-invariant-tensor-kernel/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

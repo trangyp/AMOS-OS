@@ -28,7 +28,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# C03 PHYSICS COSMOS DOMAINS [[README]]
+# C03 PHYSICS COSMOS DOMAINS README
 
 ## Purpose
 `C03 PHYSICS COSMOS DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/13_C03_PHYSICS_COSMOS`.

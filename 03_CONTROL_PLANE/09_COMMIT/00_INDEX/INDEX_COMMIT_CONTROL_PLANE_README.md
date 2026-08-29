@@ -29,7 +29,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX COMMIT CONTROL PLANE [[README]]
+# INDEX COMMIT CONTROL PLANE README
 
 ## Index
 - See also — [[COMMIT_CONTROL_PLANE_COMMIT_CONTRACT]]

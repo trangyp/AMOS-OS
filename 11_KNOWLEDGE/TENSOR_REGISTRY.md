@@ -2265,7 +2265,7 @@ because approval remains pending.
 
 ---
 
-# 76. [[MEMORY]] Tensor
+# 76. MEMORY Tensor
 
 ## 76.1 Canonical Signature
 
@@ -2283,11 +2283,11 @@ MEMORY[
 ]
 ```
 
-The [[MEMORY]] tensor represents persistent knowledge state while preserving validity and lineage metadata.
+The MEMORY tensor represents persistent knowledge state while preserving validity and lineage metadata.
 
 ---
 
-# 77. [[MEMORY]] Field Contract
+# 77. MEMORY Field Contract
 
 ```yaml
 MEMORY:
@@ -2482,7 +2482,7 @@ to determine when it must be checked against newer evidence or changed regimes.
 
 ---
 
-# 86. [[MEMORY]] Example
+# 86. MEMORY Example
 
 ```yaml
 MEMORY:
@@ -3347,7 +3347,7 @@ GOVERNANCE_VALIDATION:
 
 ---
 
-# 121. [[MEMORY]] Validation
+# 121. MEMORY Validation
 
 ```yaml
 MEMORY_VALIDATION:
@@ -3800,7 +3800,7 @@ EVIDENCE,
 CLAIM,
 RSCF,
 GOVERNANCE,
-[[MEMORY]]
+MEMORY
 \}
 }
 $$
@@ -4155,7 +4155,7 @@ RSCF-RELATIONS:
 
 * DEFINES: RSCF_TENSOR
 
-* DEFINES: [[GOVERNANCE_TENSOR]]
+* DEFINES: GOVERNANCE_TENSOR
 
 * DEFINES: MEMORY_TENSOR
 
@@ -4201,7 +4201,7 @@ claim_class: AMOS_MODEL
 
 ---
 
-**Related:** [[00_HOME]] · [[TENSORS]] · [[TENSOR_CONTRACTS]] · HARNESS_TENSOR · QUERY_TENSOR · [[EVIDENCE_TENSOR]] · [[CLAIM_TENSOR]] · RSCF_TENSOR · [[GOVERNANCE_TENSOR]] · MEMORY_TENSOR · 06-Knowledge-Base-MOC · AMOS_Simulation_Kernel_v0_Math_Foundations · system_scan_agent · automation_profiles
+**Related:** [[00_HOME]] · [[TENSORS]] · [[TENSOR_CONTRACTS]] · HARNESS_TENSOR · QUERY_TENSOR · [[EVIDENCE_TENSOR]] · [[CLAIM_TENSOR]] · RSCF_TENSOR · GOVERNANCE_TENSOR · MEMORY_TENSOR · 06-Knowledge-Base-MOC · AMOS_Simulation_Kernel_v0_Math_Foundations · system_scan_agent · automation_profiles
 
 ---
 

@@ -30,7 +30,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX GLOSSARY [[CANON]] [[README]]
+# INDEX GLOSSARY CANON README
 
 ## Index
 - See also — [[GLOSSARY_CANON_GLOSSARY_CONTRACT]]

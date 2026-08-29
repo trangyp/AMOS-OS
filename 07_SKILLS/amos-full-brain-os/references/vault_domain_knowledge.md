@@ -161,7 +161,7 @@ All source files from 7 subdirectories were moved to the vault root with flatten
 # AMOS Full Brain OS — Exhaustive Multi-Plane Architecture (SUPERSEDES linear model)
 
 > CORRECTION: the earlier "AMOS = Kernel→Engine→Agent chain" model is **superseded**. Full Brain OS (vInfinity_merged_2) is a **multi-plane structural container**, not a linear chain. Source: user re-read of mounted `AMOS_FULL_BRAIN_OS.json`. Raw json not in this vault — store as architectural canon from user source.
-> See also: [[2026_08_22_FORMAL_SYSTEMS_INVARIANTS]], [[2026_08_22_BRAIN_INVENTORY]], cosmo-brain/AMOS_OS_ARCHITECTURE_BRIDGE.md
+> See also: 2026_08_22_FORMAL_SYSTEMS_INVARIANTS, 2026_08_22_BRAIN_INVENTORY, cosmo-brain/AMOS_OS_ARCHITECTURE_BRIDGE.md
 
 ## Root container
 `AMOS_FULL_BRAIN_OS` → name, version (vInfinity_merged_2), description, meta, gap_management, components.
@@ -183,12 +183,12 @@ Input space: everyday/sragmented/emotional/narrative/symbolic/spiritual/VN+EN/hi
 - **4 UBI X2700 super engines**: NBI, NEI, SI, BEI — each ~300 layers/capabili
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -200,4 +200,4 @@ path: 07_SKILLS/amos-full-brain-os/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

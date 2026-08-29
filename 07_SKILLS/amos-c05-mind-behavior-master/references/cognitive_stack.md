@@ -62,7 +62,7 @@ Signal processing kernel+engine for noise filtering, feature extraction, and DSP
 Kernel+engine stack for institutions, norms, demographics, media, and cultural evolution.
 
 ### 7. AMOS_Design_Engine
-Tech Engine v-infinity with all conceptual gaps closed to 100% structural coverage across tech domains and leadership/specialist roles. MAX variant wraps the full [[CANON]] engine + QUANTUM augmentation layer.
+Tech Engine v-infinity with all conceptual gaps closed to 100% structural coverage across tech domains and leadership/specialist roles. MAX variant wraps the full CANON engine + QUANTUM augmentation layer.
 
 ### 8. AMOS_Design_Language_Engine
 Cross-modal design + linguistic kernel+engine for structure, clarity, and user experience.
@@ -106,12 +106,12 @@ All engine specs from: `Google Drive /_00_AMOS_CANON/Cognitive/` (13 JSON files,
 
 ---
 - [[07_SKILLS_MOC]]
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -123,4 +123,4 @@ path: 07_SKILLS/amos-c05-mind-behavior-master/references/cognitive_stack.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

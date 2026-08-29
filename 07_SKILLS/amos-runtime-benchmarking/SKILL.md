@@ -219,7 +219,7 @@ Runtime benchmarking is an engineering quality construct. It does not prove all 
 - `amos-runtime-benchmarking-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -229,7 +229,7 @@ Runtime benchmarking is an engineering quality construct. It does not prove all 
 RSCF-NODE
 node_id: amos-runtime-benchmarking
 node_type: skill
-path: 07_SKILLS/amos-runtime-benchmarking/[[SKILL]].md
+path: 07_SKILLS/amos-runtime-benchmarking/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

@@ -30,7 +30,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX UNIVERSE [[CANON]] [[CANON]] [[README]]
+# INDEX UNIVERSE CANON CANON README
 
 ## Index
 - See also — [[UNIVERSE_CANON_CANON_UNIVERSE_CANON_CONTRACT]]

@@ -41,7 +41,7 @@ Domain master agent for AMOS Formal Engines Master. Consolidates 24 sub-skills.
 - **Consolidation**: 24 sub-skills merged 2026-08-26
 
 ---
-**MOC:** [[SKILL]]
+**MOC:** SKILL
 
 ---
 **MOC:** [[amos-formal-engines-master_MOC]]

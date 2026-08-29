@@ -29,7 +29,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX [[WORKFLOWS]] [[README]]
+# INDEX WORKFLOWS README
 
 ## Index
 - See also — [[INDEX_WORKFLOWS_WORKFLOW_CONTRACT]]

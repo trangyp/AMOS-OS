@@ -28,7 +28,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX SOFTWARE DOMAINS [[README]]
+# INDEX SOFTWARE DOMAINS README
 
 ## Index
 - See also — [[SOFTWARE_DOMAINS_SOFTWARE_CONTRACT]]

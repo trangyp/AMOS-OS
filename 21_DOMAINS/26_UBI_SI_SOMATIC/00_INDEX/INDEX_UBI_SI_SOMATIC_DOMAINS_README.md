@@ -28,7 +28,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX UBI SI SOMATIC DOMAINS [[README]]
+# INDEX UBI SI SOMATIC DOMAINS README
 
 ## Index
 - See also — [[UBI_SI_SOMATIC_DOMAINS_UBI_SI_SOMATIC_CONTRACT]]

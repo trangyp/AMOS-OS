@@ -41,7 +41,7 @@ rscf:
 - Skill synced via `hermes curator adopt amos-7-part-universe-canon` from `.hermes/skills/`
 
 ---
-**Related:** [[SKILL]]
+**Related:** SKILL
 
 ---
 **MOC:** [[amos-7-part-universe-canon_MOC]]

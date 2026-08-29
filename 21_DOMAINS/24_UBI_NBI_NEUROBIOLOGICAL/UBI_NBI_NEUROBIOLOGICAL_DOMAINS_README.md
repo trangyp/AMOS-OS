@@ -28,7 +28,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# UBI NBI NEUROBIOLOGICAL DOMAINS [[README]]
+# UBI NBI NEUROBIOLOGICAL DOMAINS README
 
 ## Purpose
 `UBI NBI NEUROBIOLOGICAL DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/24_UBI_NBI_NEUROBIOLOGICAL`.

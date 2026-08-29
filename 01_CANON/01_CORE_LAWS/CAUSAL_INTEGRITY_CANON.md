@@ -872,7 +872,7 @@ It cannot by itself prove that the model is an empirically correct causal repres
 ```text
 SIMULATION CONSISTENT
 !=
-REAL-WORLD CAUSAL [[VALIDATION]]
+REAL-WORLD CAUSAL VALIDATION
 ```
 
 ---
@@ -2084,7 +2084,7 @@ DO_NOT_LOAD_UNLESS_REQUIRED
 Target node:
 
 ```text
-RSCF.AMOS.[[CANON]].CAUSAL_INTEGRITY.H.SYSTEM
+RSCF.AMOS.CANON.CAUSAL_INTEGRITY.H.SYSTEM
 ```
 
 Responsibilities:
@@ -2102,7 +2102,7 @@ PROVENANCE CONTROL
 
 CONFLICT VISIBILITY
 
-[[VALIDATION]] ROUTING
+VALIDATION ROUTING
 ```
 
 ---
@@ -2136,7 +2136,7 @@ M.SCOPE_REGIME
 
 M.FALSIFICATION
 
-M.[[VALIDATION]]
+M.VALIDATION
 ```
 
 These are organizational target categories, not claims of already populated native canon.
@@ -2967,7 +2967,7 @@ MISSING VERSION
 
 FAILED IDENTIFICATION ASSUMPTION
 
-FAILED [[VALIDATION]] RECEIPT
+FAILED VALIDATION RECEIPT
 
 UNKNOWN/GAP TREATED AS PASS
 ```
@@ -3571,7 +3571,7 @@ FALSIFIABILITY
 
 ROLLBACK
 
-[[VALIDATION]]
+VALIDATION
 ```
 
 A faster causal inference that silently removes these protections is a regression.

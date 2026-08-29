@@ -30,7 +30,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX SUPERSESSION [[CANON]] [[README]]
+# INDEX SUPERSESSION CANON README
 
 ## 1. Purpose
 
@@ -538,7 +538,7 @@ REGISTER_GAP(gap)
 EMIT_RESOLUTION_RECEIPT(result)
 ```
 
-Mutation operators belong to governed supersession/control-plane paths and are not granted by this [[README]].
+Mutation operators belong to governed supersession/control-plane paths and are not granted by this README.
 
 ---
 
@@ -704,7 +704,7 @@ no authoritative supersession state becomes visible
 
 This is a model-level integrity requirement.
 
-It does not assert that this [[README]] implements distributed atomic transactions.
+It does not assert that this README implements distributed atomic transactions.
 
 ---
 
@@ -1977,7 +1977,7 @@ These boundaries are load-bearing.
 
 # 55. Canonical index contract
 
-The operational meaning of this [[README]] can be compressed to:
+The operational meaning of this README can be compressed to:
 
 ```text
 RESOLVE EXACTLY

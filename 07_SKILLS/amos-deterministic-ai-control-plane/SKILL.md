@@ -222,7 +222,7 @@ Deterministic AI control plane is a runtime architecture. It does not prove all 
 - `amos-deterministic-ai-control-plane-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -232,7 +232,7 @@ Deterministic AI control plane is a runtime architecture. It does not prove all 
 RSCF-NODE
 node_id: amos-deterministic-ai-control-plane
 node_type: skill
-path: 07_SKILLS/amos-deterministic-ai-control-plane/[[SKILL]].md
+path: 07_SKILLS/amos-deterministic-ai-control-plane/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

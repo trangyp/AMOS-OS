@@ -183,7 +183,7 @@ Both registered additively in `_00_Cosmo Brain/AMOS_AGENT_REGISTRY.json` with pr
 
 ## Verification
 
-- `scripts/brain-integrity-repair.py` then `scripts/brain-consistency-audit.py`: **RESULT: OK** — skills 69 dirs / 0 missing [[SKILL]].md / 0 tiny, 0 empty core files, 0 broken MOC links, registry 137 registered ↔ 94 files, **0 unregistered**.
+- `scripts/brain-integrity-repair.py` then `scripts/brain-consistency-audit.py`: **RESULT: OK** — skills 69 dirs / 0 missing SKILL.md / 0 tiny, 0 empty core files, 0 broken MOC links, registry 137 registered ↔ 94 files, **0 unregistered**.
 - Both agent JSONs parse (`json.load` OK); dependency check: all deps resolve on disk.
 - `sh scripts/obsidian-health-check.sh`: all checks passed.
 
@@ -197,16 +197,16 @@ Both registered additively in `_00_Cosmo Brain/AMOS_AGENT_REGISTRY.json` with pr
 - Registry repair loop (repair → audit) absorbed all new agents cleanly; keep registering
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -218,4 +218,4 @@ path: 07_SKILLS/amos-narrative-integrity-governor/references/vault_domain_knowle
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

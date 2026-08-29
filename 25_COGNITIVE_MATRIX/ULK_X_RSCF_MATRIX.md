@@ -2775,7 +2775,7 @@ within the supplied AMOS model matrix.
 
 ## Functional Connections
 
-* **RSCF:** [[RSCF]]
+* **RSCF:** RSCF
 * **Scope Firewall:** K_SCOPE_FIREWALL
 * **Fail-Closed Governance:** [[K_FAIL_CLOSED]]
 * **Provenance:** [[K_PROVENANCE]]

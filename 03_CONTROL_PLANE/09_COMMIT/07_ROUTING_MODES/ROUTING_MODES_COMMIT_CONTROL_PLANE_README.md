@@ -27,7 +27,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# ROUTING MODES COMMIT CONTROL PLANE [[README]]
+# ROUTING MODES COMMIT CONTROL PLANE README
 
 ## Purpose
 `ROUTING MODES COMMIT CONTROL PLANE README` is the package readme for the **Control Plane** plane segment at `03_CONTROL_PLANE/09_COMMIT/07_ROUTING_MODES`.

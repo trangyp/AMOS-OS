@@ -27,7 +27,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# MODES DOMAINS [[README]]
+# MODES DOMAINS README
 
 ## Purpose
 `MODES DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/45_MODES`.

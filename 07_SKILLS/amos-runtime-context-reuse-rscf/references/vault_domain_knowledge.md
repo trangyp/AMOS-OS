@@ -106,8 +106,8 @@ runtime. These are the foundational layers beneath the governance modules.
 
 ## Links
 - [[COSMO_BRAIN_MOC]]
-- [[2026_08_22_AMOS_ALL_249_GAPS_CLOSED]]
-- [[2026_08_22_TYPESCRIPT_DATA_QUALITY_GOVERNANCE]]
+- 2026_08_22_AMOS_ALL_249_GAPS_CLOSED
+- 2026_08_22_TYPESCRIPT_DATA_QUALITY_GOVERNANCE
 
 ---
 
@@ -340,12 +340,12 @@ class Formula:
             args_str = ", ".join(repr(a) for a in
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -357,4 +357,4 @@ path: 07_SKILLS/amos-runtime-context-reuse-rscf/references/vault_domain_knowledg
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

@@ -28,7 +28,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# CLINICAL RESEARCH DOMAINS [[README]]
+# CLINICAL RESEARCH DOMAINS README
 
 ## Purpose
 `CLINICAL RESEARCH DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/30_CLINICAL_RESEARCH`.

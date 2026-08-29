@@ -31,7 +31,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# CUSTOM DOMAINS [[README]]
+# CUSTOM DOMAINS README
 
 ## Purpose
 `CUSTOM DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/10_CUSTOM`.

@@ -3098,7 +3098,7 @@ The central architectural rule is:
 
 ---
 
-**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · [[Cosmo_Brain_BRIDGE_INDEX]] · AMOS_Relation_Tensor_Architecture · AMOS_Cross_Scale_RSCF_Tensor_Engine · AMOS_Reality_Simulation_Distinction · AMOS_Constraint_Propagation · AMOS_Provenance_Topology · AMOS_Infrastructure_Control_Plane · [[AMOS_Simulation_Kernel_v0_Math_Foundations]] · system_scan_agent · automation_profiles
+**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · Cosmo_Brain_BRIDGE_INDEX · AMOS_Relation_Tensor_Architecture · AMOS_Cross_Scale_RSCF_Tensor_Engine · AMOS_Reality_Simulation_Distinction · AMOS_Constraint_Propagation · AMOS_Provenance_Topology · AMOS_Infrastructure_Control_Plane · [[AMOS_Simulation_Kernel_v0_Math_Foundations]] · system_scan_agent · automation_profiles
 
 ---
 

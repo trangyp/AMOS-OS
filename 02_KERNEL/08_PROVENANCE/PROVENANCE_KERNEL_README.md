@@ -31,7 +31,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# PROVENANCE KERNEL [[README]]
+# PROVENANCE KERNEL README
 
 ## Purpose
 `PROVENANCE KERNEL README` is the package readme for the **Kernel** plane segment at `02_KERNEL/08_PROVENANCE`.

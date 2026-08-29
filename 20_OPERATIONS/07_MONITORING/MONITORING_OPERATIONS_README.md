@@ -26,7 +26,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# MONITORING OPERATIONS [[README]]
+# MONITORING OPERATIONS README
 
 ## Purpose
 `MONITORING OPERATIONS README` is the package readme for the **Operations** plane segment at `20_OPERATIONS/07_MONITORING`.

@@ -1,7 +1,7 @@
 ---
 title: INDEX MODELS README
 aliases:
-- Models Index [[README]]
+- Models Index README
 - AMOS Models Index
 - 13 Models Index
 - Models Navigation Index
@@ -121,7 +121,7 @@ gaps:
   complete_collision_policy: NOT_ESTABLISHED
 ---
 
-# INDEX MODELS [[README]]
+# INDEX MODELS README
 
 > [!abstract] Models Index
 > `INDEX MODELS README` is the primary orientation and navigation artifact for the `13_MODELS/00_INDEX` surface.
@@ -217,9 +217,9 @@ INDEX_MODELS_README
 
 ---
 
-# 2. Role of This [[README]]
+# 2. Role of This README
 
-This file is an **index [[README]]**, not the substantive definition of every model.
+This file is an **index README**, not the substantive definition of every model.
 
 Its role is primarily:
 
@@ -494,7 +494,7 @@ CROSS-PLANE RESOLUTION AUTHORITY
 
 Within this contract, `` is an explicit root-level cross-plane navigation surface.
 
-This [[README]] does not independently redefine the full semantics of `00_HOME`.
+This README does not independently redefine the full semantics of `00_HOME`.
 
 ---
 
@@ -508,9 +508,9 @@ The precise node registry semantics remain governed by the corresponding authori
 
 ---
 
-# 17. [[README]] ≠ Registry
+# 17. README ≠ Registry
 
-This [[README]] is not automatically a complete model registry.
+This README is not automatically a complete model registry.
 
 ```text
 README
@@ -2407,7 +2407,7 @@ ARTIFACT VALIDATED
 
 # 158. Documentation Claims
 
-A model [[README]] may say:
+A model README may say:
 
 ```text
 THIS MODEL ACHIEVES X
@@ -4136,8 +4136,8 @@ RSCF-RELATIONS:
 * INDEXED_BY: [[00_HOME]]
 * INDEXED_BY: [[AMOS_RSCF_NODES]]
 * INDEXED_BY: [[00_INDEX_MOC]]
-* [[REFERENCES]]: [[INDEX_MODELS_MODEL_CONTRACT]]
-* [[REFERENCES]]: [[MODEL_MAP]]
+* REFERENCES: [[INDEX_MODELS_MODEL_CONTRACT]]
+* REFERENCES: [[MODEL_MAP]]
 * GOVERNED_BY: [[LAW_HIERARCHY]]
 
 ---

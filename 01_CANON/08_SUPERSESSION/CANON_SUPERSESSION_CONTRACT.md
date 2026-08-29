@@ -27,7 +27,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# [[CANON]] SUPERSESSION CONTRACT
+# CANON SUPERSESSION CONTRACT
 
 ## 0. Status
 Canon-plane contract for **SUPERSESSION CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.

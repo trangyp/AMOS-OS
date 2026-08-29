@@ -38,14 +38,12 @@ local resolution
 
 ---
 
-Stub note for [[00_index
+Stub note for 00_index
 text
 local resolution
 ```
 
----
-
-]].
+---.
 
 ---
 

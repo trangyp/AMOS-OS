@@ -41,7 +41,7 @@ Domain master agent for AMOS Memory Systems Master. Consolidates 3 sub-skills.
 - **Consolidation**: 3 sub-skills merged 2026-08-26
 
 ---
-**MOC:** [[SKILL]]
+**MOC:** SKILL
 
 ---
 **MOC:** [[amos-memory-systems-master_MOC]]

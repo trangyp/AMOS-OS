@@ -32,7 +32,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# INFRASTRUCTURE [[CANON]] [[CANON]] [[README]]
+# INFRASTRUCTURE CANON CANON README
 
 ## Purpose
 `INFRASTRUCTURE CANON CANON README` is the package readme for the **Canon** plane segment at `01_CANON/04_INFRASTRUCTURE_CANON`.

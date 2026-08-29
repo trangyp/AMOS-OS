@@ -43,13 +43,13 @@ tags:
 canon-group: canon/cognitive-matrix
 ---
 
----title: "INDEX ROUTING COGNITIVE MATRIX [[README]]"
+---title: "INDEX ROUTING COGNITIVE MATRIX README"
 type: document
 tags: [note]
 ---
 
 
-# INDEX ROUTING COGNITIVE MATRIX [[README]]
+# INDEX ROUTING COGNITIVE MATRIX README
 
 **STATUS:** DERIVED_REFERENCE_SPECIFICATION
 **epistemic_class:** AMOS_MODEL
@@ -350,7 +350,7 @@ rather than relying on filename similarity.
 
 # 8. Locality Firewall
 
-This [[README]] is authoritative only for the semantics explicitly assigned to this index segment under its declared status.
+This README is authoritative only for the semantics explicitly assigned to this index segment under its declared status.
 
 It MUST NOT be used to claim:
 
@@ -2402,7 +2402,7 @@ infer runtime binding from Markdown links.
 
 # 117. Documentation Claim Rule
 
-Statements in this [[README]] about intended behavior remain:
+Statements in this README about intended behavior remain:
 
 ```text
 AMOS_MODEL
@@ -3061,21 +3061,21 @@ RSCF-RELATIONS:
 
 * ORIENTS_TO: [[ROUTING_MAP]]
 
-* [[REFERENCES]]: [[TASK_CONTRACT]]
+* REFERENCES: [[TASK_CONTRACT]]
 
-* [[REFERENCES]]: [[TASK_RESOLVER]]
+* REFERENCES: [[TASK_RESOLVER]]
 
-* [[REFERENCES]]: [[CAPABILITY_RESOLVER]]
+* REFERENCES: [[CAPABILITY_RESOLVER]]
 
-* [[REFERENCES]]: [[MODE_ADMISSION_QUEUE]]
+* REFERENCES: [[MODE_ADMISSION_QUEUE]]
 
-* [[REFERENCES]]: [[MODE_COMPOSITION_REGISTRY]]
+* REFERENCES: [[MODE_COMPOSITION_REGISTRY]]
 
-* [[REFERENCES]]: [[MODE_CONFLICT_REGISTRY]]
+* REFERENCES: [[MODE_CONFLICT_REGISTRY]]
 
-* [[REFERENCES]]: [[MODE_COVERAGE_MATRIX]]
+* REFERENCES: [[MODE_COVERAGE_MATRIX]]
 
-* [[REFERENCES]]: [[MODE_DEPENDENCY_GRAPH]]
+* REFERENCES: [[MODE_DEPENDENCY_GRAPH]]
 
 * GOVERNED_BY: AMOS Core Laws
 

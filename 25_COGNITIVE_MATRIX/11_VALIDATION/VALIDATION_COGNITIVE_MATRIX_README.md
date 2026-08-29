@@ -2635,7 +2635,7 @@ KNOWLEDGE CANDIDATE
 CANON ADMISSION
 ```
 
-Documentation and [[README]] claims remain `SOURCE_CLAIM` until validated.
+Documentation and README claims remain `SOURCE_CLAIM` until validated.
 
 ---
 

@@ -26,7 +26,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# MAINTENANCE OPERATIONS [[README]]
+# MAINTENANCE OPERATIONS README
 
 ## Purpose
 `MAINTENANCE OPERATIONS README` is the package readme for the **Operations** plane segment at `20_OPERATIONS/10_MAINTENANCE`.

@@ -28,7 +28,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# GOVERNANCE FORUMS OPERATING MODEL [[README]]
+# GOVERNANCE FORUMS OPERATING MODEL README
 
 ## Purpose
 `GOVERNANCE FORUMS OPERATING MODEL README` is the package readme for the **Operating Model** plane segment at `23_OPERATING_MODEL/03_GOVERNANCE_FORUMS`.

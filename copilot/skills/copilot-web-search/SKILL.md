@@ -22,7 +22,7 @@ Search the web through Copilot and return results for the user's query.
 
 ## How to run
 
-Find the absolute path to this [[SKILL]].md file on disk, then run the script next
+Find the absolute path to this SKILL.md file on disk, then run the script next
 to it that matches the operating system. No extra runtime is needed — `sh`
 (macOS/Linux) and `cmd`/PowerShell (Windows) are always present.
 

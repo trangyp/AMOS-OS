@@ -27,7 +27,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# TESTS [[README]]
+# TESTS README
 
 ## Purpose
 `TESTS README` is the package readme for the **Tests** plane segment at `19_TESTS`.

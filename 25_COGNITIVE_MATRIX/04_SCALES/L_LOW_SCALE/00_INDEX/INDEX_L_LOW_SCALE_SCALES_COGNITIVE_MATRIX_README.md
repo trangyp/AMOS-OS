@@ -29,7 +29,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX L LOW SCALE SCALES COGNITIVE MATRIX [[README]]
+# INDEX L LOW SCALE SCALES COGNITIVE MATRIX README
 
 ## Index
 - See also — [[L_LOW_SCALE_MAP]]

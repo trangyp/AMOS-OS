@@ -137,7 +137,7 @@ The Go Board 19x19 is a formal system implementing 62+ sections from a 75-sectio
 - **Liberty independence graph**: eye topology (EyeQuality/PVR/Robustness)
 - **Aji system**: DAG with half-life and latent threat tracking
 - **Memory system**: decay, classes, prio
-- [[AGENT_TEMPLATE]]
+- AGENT_TEMPLATE
 
 ---
 **MOC:** [[amos-formal-engines-master_MOC]]
@@ -238,7 +238,7 @@ The Go Board 19x19 is a formal system implementing 62+ sections from a 75-sectio
 - `amos-formal-engines-master-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -248,7 +248,7 @@ The Go Board 19x19 is a formal system implementing 62+ sections from a 75-sectio
 RSCF-NODE
 node_id: amos-formal-engines-master
 node_type: skill
-path: 07_SKILLS/amos-formal-engines-master/[[SKILL]].md
+path: 07_SKILLS/amos-formal-engines-master/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

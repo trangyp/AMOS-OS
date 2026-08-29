@@ -28,7 +28,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# CUSTOM MODES COMMIT CONTROL PLANE [[README]]
+# CUSTOM MODES COMMIT CONTROL PLANE README
 
 ## Purpose
 `CUSTOM MODES COMMIT CONTROL PLANE README` is the package readme for the **Control Plane** plane segment at `03_CONTROL_PLANE/09_COMMIT/15_CUSTOM_MODES`.

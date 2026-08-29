@@ -130,7 +130,7 @@ The domain is organized into source families:
 ### Epistemic Boundary
 
 Engineering recommendations are always scope-, scale-, workload-, team-, and constraint-dependent. No design output constitutes a guaranteed working system — all require validation, testing, implementation, and operational monitoring. Implicit coupling is an architecture violatio
-- [[AGENT_TEMPLATE]]
+- AGENT_TEMPLATE
 
 ---
 **MOC:** [[amos-c10-tech-engineering-master_MOC]]
@@ -258,7 +258,7 @@ Engineering recommendations are always scope-, scale-, workload-, team-, and con
 - `amos-c10-tech-engineering-master-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -268,7 +268,7 @@ Engineering recommendations are always scope-, scale-, workload-, team-, and con
 RSCF-NODE
 node_id: amos-c10-tech-engineering-master
 node_type: skill
-path: 07_SKILLS/amos-c10-tech-engineering-master/[[SKILL]].md
+path: 07_SKILLS/amos-c10-tech-engineering-master/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

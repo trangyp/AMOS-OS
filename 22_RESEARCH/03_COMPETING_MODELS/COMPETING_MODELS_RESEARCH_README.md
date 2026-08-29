@@ -28,7 +28,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# COMPETING MODELS RESEARCH [[README]]
+# COMPETING MODELS RESEARCH README
 
 ## Purpose
 `COMPETING MODELS RESEARCH README` is the package readme for the **Research** plane segment at `22_RESEARCH/03_COMPETING_MODELS`.

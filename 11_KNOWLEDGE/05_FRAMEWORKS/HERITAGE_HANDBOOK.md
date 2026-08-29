@@ -102,7 +102,7 @@ STEP 5: RECEIPT GENERATION & SIGNING
 # 2. Inter-Plane & Vault Connections
 
 - **Master Framework:** [[HERITAGE_INTELLIGENCE_MASTER]]
-- **Operational Skill:** [[SKILL]]
+- **Operational Skill:** SKILL
 - **TSS Coupling:** [[HERITAGE_TO_TSS_BINDING]] and [[HERITAGE_X_TSS]]
 - **Zero Anchor:** [[HERITAGE_ZERO_FRAMEWORK]]
 

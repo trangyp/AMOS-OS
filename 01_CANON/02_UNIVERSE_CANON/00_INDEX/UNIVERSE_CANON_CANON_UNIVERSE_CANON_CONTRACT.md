@@ -28,10 +28,10 @@ rscf:
   scope: index_navigation
 ---
 
-# UNIVERSE [[CANON]] [[CANON]] UNIVERSE [[CANON]] CONTRACT
+# UNIVERSE CANON CANON UNIVERSE CANON CONTRACT
 
 ## 0. Status
-Canon-plane contract for **UNIVERSE [[CANON]] [[CANON]] UNIVERSE [[CANON]] CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
+Canon-plane contract for **UNIVERSE CANON CANON UNIVERSE CANON CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
 ## 1. Scope
 Governs canonical laws, universe/cognition/infrastructure canons, variable registry, glossary, provenance lineage, and supersession as they bear on `UNIVERSE CANON CANON UNIVERSE CANON CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.

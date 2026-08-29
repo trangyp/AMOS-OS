@@ -59,7 +59,7 @@ rscf:
 
 - [[c12_earth_ecology_super_full]]
 - [[civilization_fails_energy_transition]]
-- [[domain_config]]
+- domain_config
 - [[drive_quantum_restoration]]
 - [[electrical_power_engine_cognitive]]
 - [[electrical_power_engine_layer]]
@@ -81,7 +81,7 @@ rscf:
 - [[integrity_bounded_energy_standard]]
 - [[nui_cam_planetary_energy_node]]
 - [[qls_abi_longevity]]
-- [[vault_domain_knowledge]]
+- vault_domain_knowledge
 - [[vn_driver_charging_engine]]
 - [[vn_ev_baojun_collaboration]]
 - [[vn_ev_china_market_analysis]]
@@ -92,9 +92,9 @@ rscf:
 **Parent:** [[amos-c12-earth-ecology-master_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -106,4 +106,4 @@ path: 07_SKILLS/amos-c12-earth-ecology-master/references/references_MOC.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

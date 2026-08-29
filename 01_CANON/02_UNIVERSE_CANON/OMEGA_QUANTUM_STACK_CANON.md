@@ -159,7 +159,7 @@ The stack is represented conceptually as:
 
 ```text
 ┌───────────────────────────────────────────────┐
-│              GOVERNING [[CANON]]                  │
+│              GOVERNING CANON                  │
 │ Constraint · Flow · Structure · Enforcement  │
 │ Time · Adaptation · Termination              │
 └──────────────────────┬────────────────────────┘
@@ -255,7 +255,7 @@ TOOL / KNOWLEDGE ACCESS
   ↓
 OBSERVATION
   ↓
-[[VALIDATION]]
+VALIDATION
   ↓
 OUTPUT
 ```
@@ -315,7 +315,7 @@ REGIME BINDING
 
 LOOP / COLLAPSE DETECTION
 
-[[VALIDATION]] GATES
+VALIDATION GATES
 
 AUTHORITY CHECKS
 
@@ -394,7 +394,7 @@ AUTHORITY FAILURE
 
 PROVENANCE FAILURE
 
-[[VALIDATION]] FAILURE
+VALIDATION FAILURE
 
 DEPENDENCY CLOSURE UNKNOWN
 
@@ -1005,9 +1005,9 @@ These surfaces must not be collapsed into one epistemic category.
 For example:
 
 ```text
-[[MEMORY]]
+MEMORY
 !=
-[[CANON]]
+CANON
 
 [[WORKFLOW]]
 !=
@@ -1068,7 +1068,7 @@ EXECUTION
 OBSERVATION
    │
    ▼
-[[VALIDATION]]
+VALIDATION
    │
    ▼
 STATE UPDATE
@@ -1334,12 +1334,12 @@ OMEGA_QUANTUM_[[L19_PROOF_CAPSULE]]:
 Validation must be separated into:
 
 ```text
-L0 — SCHEMA [[VALIDATION]]
-L1 — STRUCTURAL [[VALIDATION]]
-L2 — INVARIANT [[VALIDATION]]
-L3 — [[INTEGRATION]] [[VALIDATION]]
-L4 — RUNTIME [[VALIDATION]]
-L5 — EMPIRICAL [[VALIDATION]]
+L0 — SCHEMA VALIDATION
+L1 — STRUCTURAL VALIDATION
+L2 — INVARIANT VALIDATION
+L3 — INTEGRATION VALIDATION
+L4 — RUNTIME VALIDATION
+L5 — EMPIRICAL VALIDATION
 ```
 
 Passing \(L_0-L_4\) does not imply \(L_5\).
@@ -1369,7 +1369,7 @@ APPROVED KNOWLEDGE INDEX
 
 MURK REASONING ENGINE
 
-MURK / BRAIN [[INTEGRATION]]
+MURK / BRAIN INTEGRATION
 
 EXECUTABLE BRAIN MODEL
 ```
@@ -1569,13 +1569,13 @@ MURK CAUSAL DRIVER
 !=
 EMPIRICAL CAUSAL EFFECT
 
-[[CANON]]
+CANON
 !=
 PHYSICS
 
 ARCHITECTURAL COHERENCE
 !=
-EMPIRICAL [[VALIDATION]]
+EMPIRICAL VALIDATION
 ```
 
 ---
@@ -1744,7 +1744,7 @@ RSCF:
 
   M:
     architecture:
-      - [[CANON]]
+      - CANON
       - QUANTUM_KNOWLEDGE
       - MURK
       - BRAIN_MODEL

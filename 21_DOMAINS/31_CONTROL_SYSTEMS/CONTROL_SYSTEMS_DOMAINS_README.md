@@ -28,7 +28,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# CONTROL SYSTEMS DOMAINS [[README]]
+# CONTROL SYSTEMS DOMAINS README
 
 ## Purpose
 `CONTROL SYSTEMS DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/31_CONTROL_SYSTEMS`.

@@ -2621,7 +2621,7 @@ with provenance, authority, freshness, reversibility, and recovery preserved acr
 
 ---
 
-**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · [[Cosmo_Brain_BRIDGE_INDEX]] · AMOS_Relation_Tensor_Architecture · AMOS_Infrastructure_Control_Plane · AMOS_Deterministic_AI_Control_Plane · AMOS_Commit_Time_Authorization · AMOS_Execution_Provenance_Replay · AMOS_Semantic_Workflow_Persistence · [[AMOS_Simulation_Kernel_v0_Math_Foundations]] · system_scan_agent · automation_profiles
+**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · Cosmo_Brain_BRIDGE_INDEX · AMOS_Relation_Tensor_Architecture · AMOS_Infrastructure_Control_Plane · AMOS_Deterministic_AI_Control_Plane · AMOS_Commit_Time_Authorization · AMOS_Execution_Provenance_Replay · AMOS_Semantic_Workflow_Persistence · [[AMOS_Simulation_Kernel_v0_Math_Foundations]] · system_scan_agent · automation_profiles
 
 ---
 

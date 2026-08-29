@@ -1,139 +1,235 @@
 ---
-title: Causal Epoch Schema (RSCF)
+title: Causal Epoch Schema
 type: schema
 source: 16_SCHEMAS/10_RSCF
-artifact_id: AMOS-SCHEMA-CAUSAL-EPOCH
-canonical_name: CAUSAL_EPOCH_SCHEMA
-artifact_type: json_yaml_schema_contract
-status: CANONICAL
-conclusion_class: CANONICAL
-amos_core_target: v4.4
+artifact: causal_epoch.schema.md
+artifact_id: amos_16_schemas_10_rscf_causal_epoch.schema
 origin_architect: Trang Phan
 steward: Trang Phan
+system: AMOS OS
 plane: 16_SCHEMAS
 segment: 16_SCHEMAS/10_RSCF
-schema_family: RSCF
-domain: causal-epochs
-scope: AMOS_OS
-created: '2026-08-25'
-updated: '2026-08-28'
+artifact_kind: SCHEMA
+path: 16_SCHEMAS/10_RSCF/causal_epoch.schema.md
 tags:
-- amos-os
+- amos_os
 - schema
+- specification
+- 16_schemas
+- canon_placeholder
 - rscf
-- causal-epoch
-- lamport-timestamps
-- monotonic-clock
-- merkle-dag-hash
-- rscf/claim
-- rscf/state/canonical
-- 10-rscf-moc
-- 16-schemas-moc
-- 00-home
+- canon/schema
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
 - 00-root-moc
-aliases:
-- Causal Epoch Schema
-- Epoch Invariant Contract
-- causal_epoch.schema
-- AMOS Causal Ordering Specification
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 10-rscf-moc
+version: 0.1.0
+updated: '2026-08-27'
+status: PLACEHOLDER
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
-# Causal Epoch Schema (RSCF)
+# Causal Epoch Schema
 
-> **Origin Architect / Steward:** Trang Phan  
-> **Plane:** `16_SCHEMAS/10_RSCF`  
-> **Status:** `CANONICAL`  
-> **Temporal Standard:** Monotonic Epoch Counter $\times$ Merkle DAG Hash $\times$ Strict Lamport Causality
+## 0. Status
 
----
+`causal_epoch.schema.md` is an **ADD-ONLY placeholder** for the **Schemas** plane segment at `16_SCHEMAS/10_RSCF`.
 
-## 1. Schema Purpose
+It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
 
-`CAUSAL_EPOCH_SCHEMA` defines the global ordering, timestamping, and state-snapshot structure for all events in AMOS OS. It guarantees chronological consistency across distributed agents, ensuring that effect never precedes cause and that stale reads are immediately detected and rejected.
+The governing boundaries are:
 
-```
-+-------------------------------------------------------------------------+
-|                       CAUSAL EPOCH ARCHITECTURE                         |
-|                                                                         |
-|  [ Epoch t - 1 ] (Hash: H_{t-1})                                        |
-|         |                                                               |
-|         v                                                               |
-|  [ Epoch Transition Delta: Validated Transactions & Proof Capsules ]   |
-|         |                                                               |
-|         v                                                               |
-|  [ Epoch t ] (Hash: H_t = SHA256(H_{t-1} + Delta + Timestamp) )         |
-|         |                                                               |
-|         v                                                               |
-|  [ Epoch State Commitment & Merkle Tree Root Broadcast ]                |
-+-------------------------------------------------------------------------+
-```
+```text
+PLACEHOLDER != IMPLEMENTED
 
----
+ADDRESSABLE != VALIDATED
 
-## 2. Formal JSON Schema Specification
+DOCUMENTED != ENFORCED
 
-```json
-{
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://amos-os.org/schemas/rscf/causal_epoch.schema.json",
-  "title": "AMOS_Causal_Epoch",
-  "type": "object",
-  "required": [
-    "epoch_id",
-    "epoch_index",
-    "parent_epoch_hash",
-    "current_epoch_hash",
-    "epoch_timestamp",
-    "transaction_ids",
-    "merkle_root"
-  ],
-  "properties": {
-    "epoch_id": {
-      "type": "string",
-      "format": "uuid"
-    },
-    "epoch_index": {
-      "type": "integer",
-      "minimum": 0
-    },
-    "parent_epoch_hash": {
-      "type": "string",
-      "pattern": "^[a-f0-9]{64}$"
-    },
-    "current_epoch_hash": {
-      "type": "string",
-      "pattern": "^[a-f0-9]{64}$"
-    },
-    "epoch_timestamp": {
-      "type": "string",
-      "format": "date-time"
-    },
-    "transaction_ids": {
-      "type": "array",
-      "items": { "type": "string", "format": "uuid" }
-    },
-    "merkle_root": {
-      "type": "string",
-      "pattern": "^[a-f0-9]{64}$"
-    }
-  },
-  "additionalProperties": false
-}
+MODEL != OBSERVATION
+
+SOURCE_CLAIM != VERIFIED
+
+CANON_CANDIDATE != CANONICAL
+
+CANONICAL != EMPIRICAL_TRUTH
+
+CAPABILITY != AUTHORITY
+
+AUTHORIZATION != COMMIT
+
+PROPOSAL != COMMIT
+
+IMPLEMENTED != VALIDATED
+
+LOGGED != APPROVED
+
+UNKNOWN/GAP != PASS
 ```
 
----
+Origin architect / steward:
 
-## 3. Invariant Validation Rules
-
-1. **Monotonic Index Law:** $\text{epoch\_index}_t = \text{epoch\_index}_{t-1} + 1$.
-2. **Cryptographic Chaining:** $\text{current\_epoch\_hash} = \text{SHA256}(\text{parent\_epoch\_hash} \,||\, \text{merkle\_root} \,||\, \text{epoch\_timestamp})$.
-3. **No Retroactive Mutation:** Once an epoch hash is committed, all descendant operations referencing past epochs treat them as immutable read-only baselines.
+**Trang Phan**
 
 ---
 
-## 4. Cross-Plane Bindings
+## 1. Purpose
 
-- **Causal Kernels:** [[K_REALITY_CAUSALITY]] · [[K_QUANTUM_CAUSALITY]] · [[K_CROSS_SCALE_CAUSALITY]]
-- **Transactions & Proofs:** [[RSCF_TRANSACTION_SCHEMA]] · [[PROOF_CAPSULE_SCHEMA]]
-- **Navigation:** [[00_HOME]] · [[16_SCHEMAS_MOC]] · [[10_RSCF_MOC]] · [[00_ROOT_MOC]]
+This artifact reserves the **Causal Epoch Schema** slot within the Schemas plane. The Schemas plane governs typed artifact schemas and compatibility rules.
 
+Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
+
+---
+
+## 2. Non-Purpose
+
+This placeholder MUST NOT be used to claim:
+
+* universal laws of reality;
+* scientific proof;
+* biological truth;
+* mathematical theoremhood;
+* philosophical certainty;
+* runtime enforcement that has not been implemented;
+* final canonical status;
+* authority merely from architectural importance;
+* or successful validation merely because the slot is addressable.
+
+---
+
+## 3. Ingestion Rule
+
+```yaml
+AMOS_CANON_INGESTION_RULE:
+  existing_folder:
+    preserve: true
+  existing_file:
+    preserve: true
+    overwrite: false
+  new_framework:
+    action: ADD_FILE_TO_EXISTING_FOLDER
+  master_source:
+    action: NORMALIZE_TO_RSCF_FILE
+  framework_existing_in_multiple_sources:
+    action:
+      - CREATE_ONE_CANONICAL_NODE
+      - LINK_ALL_SOURCE_PROVENANCE
+      - DO_NOT_CREATE_DUPLICATE_CANON
+  historical_source:
+    action:
+      - LINK_TO_CANON
+      - RECORD_LINEAGE
+      - PRESERVE_HERITAGE
+  external_research:
+    action:
+      - KEEP_OUT_OF_NATIVE_CANON
+      - LINK_AS_EVIDENCE
+  duplicate_filename:
+    action:
+      - COMPARE_CONTENT_AND_LINEAGE
+      - DO_NOT_OVERWRITE
+  uncertainty:
+    action:
+      - MARK_GAP_OR_COMPETING
+      - NEVER_INVENT_CANON
+```
+
+---
+
+## 4. Contract discipline
+
+Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+
+---
+
+## 5. Gaps
+
+Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]].
+
+---
+
+## 6. Worked semantics (target)
+
+Given an operation touching `16_SCHEMAS · SCHEMA` within the Schemas plane:
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+
+---
+
+## 7. Promotion-gate checklist
+
+- [ ] substantive content populated from verified native-canon source
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+
+---
+
+## 8. Cross-plane bindings (target)
+
+- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
+- Kernel interaction — [[KERNEL_README]]
+- Control-plane gates — [[CONTROL_PLANE_README]]
+- Observed by — [[OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[OPERATIONS_README]]
+
+---
+
+[[00_ROOT_MOC]]|[[AMOS MOC]]
+
+---
+
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
+
+---
+
+RSCF-NODE
+
+node_id: amos_16_schemas_10_rscf_causal_epoch.schema
+
+node_type: schema
+
+path: 16_SCHEMAS/10_RSCF/causal_epoch.schema.md
+
+claim_class: AMOS_MODEL
+
+rscf_state: placeholder
+
+canonical_status: UNKNOWN/GAP
+
+RSCF-RELATIONS:
+
+  - INDEXED_BY: [[00_HOME]]
+
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+
+  - GOVERNED_BY: [[LAW_HIERARCHY]]
+
+---
+**MOC:** [[10_RSCF_MOC]]

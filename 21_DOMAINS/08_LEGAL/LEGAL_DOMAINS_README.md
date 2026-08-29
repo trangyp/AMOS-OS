@@ -30,7 +30,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# LEGAL DOMAINS [[README]]
+# LEGAL DOMAINS README
 
 ## Purpose
 `LEGAL DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/08_LEGAL`.

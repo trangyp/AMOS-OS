@@ -28,7 +28,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# BENCHMARKS RESEARCH [[README]]
+# BENCHMARKS RESEARCH README
 
 ## Purpose
 `BENCHMARKS RESEARCH README` is the package readme for the **Research** plane segment at `22_RESEARCH/05_BENCHMARKS`.

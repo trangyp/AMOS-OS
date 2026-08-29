@@ -28,7 +28,7 @@ rscf:
   scope: workflow_process
 ---
 
-# [[WORKFLOWS]] [[README]]
+# WORKFLOWS README
 
 ## Purpose
 `WORKFLOWS README` is the package readme for the **Workflows** plane segment at `08_WORKFLOWS`.

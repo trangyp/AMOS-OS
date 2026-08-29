@@ -1674,7 +1674,7 @@ They do not automatically establish evidentiary independence.
                      │
           ┌──────────┼───────────┐
           ▼          ▼           ▼
-   [[CANON]] MOC    TRANG REALITY   AMOS × TRANG
+   CANON MOC    TRANG REALITY   AMOS × TRANG
                    MASTER          REALITY
           │          │           │
           └──────────┼───────────┘
@@ -1686,7 +1686,7 @@ They do not automatically establish evidentiary independence.
 Where nodes share ancestry:
 
 ```text
-MULTIPLE [[REFERENCES]]
+MULTIPLE REFERENCES
 !=
 INDEPENDENT CONFIRMATION
 ```
@@ -1701,7 +1701,7 @@ The supplied bindings are:
 [[00_ROOT_MOC]]
      │
      ▼
-UNIVERSE [[CANON]]
+UNIVERSE CANON
      │
      ▼
 KHUNG TRANG MASTER

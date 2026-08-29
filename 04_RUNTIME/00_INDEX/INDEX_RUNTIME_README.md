@@ -28,7 +28,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX RUNTIME [[README]]
+# INDEX RUNTIME README
 
 ## Index
 - See also — [[INDEX_RUNTIME_RUNTIME_CONTRACT]]

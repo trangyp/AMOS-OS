@@ -31,7 +31,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX PROVENANCE [[CANON]] [[README]]
+# INDEX PROVENANCE CANON README
 
 ## Index
 - See also — [[CANON_PROVENANCE_MAP]]

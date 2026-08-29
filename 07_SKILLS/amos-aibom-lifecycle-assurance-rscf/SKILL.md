@@ -244,7 +244,7 @@ Gate: FAIL if quarantined without authority; CONDITIONAL if quarantined with aut
 - `amos-aibom-lifecycle-assurance-rscf-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -254,7 +254,7 @@ Gate: FAIL if quarantined without authority; CONDITIONAL if quarantined with aut
 RSCF-NODE
 node_id: amos-aibom-lifecycle-assurance-rscf
 node_type: skill
-path: 07_SKILLS/amos-aibom-lifecycle-assurance-rscf/[[SKILL]].md
+path: 07_SKILLS/amos-aibom-lifecycle-assurance-rscf/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

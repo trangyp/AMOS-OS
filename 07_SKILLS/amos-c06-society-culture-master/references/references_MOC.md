@@ -55,11 +55,11 @@ rscf:
 - [[china_engines_model]]
 - [[cultural_bifurcation_emotion_logic]]
 - [[dignity]]
-- [[domain_config]]
+- domain_config
 - [[humanity_ice_age_to_present]]
 - [[marketing_gtm_kernel]]
 - [[society_culture_engine_cognitive]]
-- [[vault_domain_knowledge]]
+- vault_domain_knowledge
 - [[vietnam_engine_layer]]
 - [[vietnam_engines_model]]
 - [[vietnam_environment_report]]
@@ -80,9 +80,9 @@ rscf:
 **Parent:** [[amos-c06-society-culture-master_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -94,4 +94,4 @@ path: 07_SKILLS/amos-c06-society-culture-master/references/references_MOC.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

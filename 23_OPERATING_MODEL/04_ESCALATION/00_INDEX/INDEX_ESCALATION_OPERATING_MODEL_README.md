@@ -28,7 +28,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX ESCALATION OPERATING MODEL [[README]]
+# INDEX ESCALATION OPERATING MODEL README
 
 ## Index
 - See also — [[ESCALATION_MAP]]

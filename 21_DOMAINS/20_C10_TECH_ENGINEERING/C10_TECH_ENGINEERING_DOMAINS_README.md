@@ -28,7 +28,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# C10 TECH ENGINEERING DOMAINS [[README]]
+# C10 TECH ENGINEERING DOMAINS README
 
 ## Purpose
 `C10 TECH ENGINEERING DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/20_C10_TECH_ENGINEERING`.

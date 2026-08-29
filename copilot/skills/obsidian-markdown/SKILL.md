@@ -35,10 +35,10 @@ CommonMark or GFM unless the user asks.
 ## Wikilinks and block references
 
 ~~~markdown
-[[Note Name]]
-[[Note Name|Display Text]]
-[[Note Name#Heading]]
-[[Note Name#^block-id]]
+Note Name
+Display Text
+Note Name > Heading
+Note Name > ^block-id
 [[#Heading in this note]]
 
 This paragraph is addressable. ^block-id
@@ -51,8 +51,8 @@ Put a block ID on its own line after a list or quote block.
 Prefix a wikilink with <code>!</code>:
 
 ~~~markdown
-![[Note Name]]
-![[Note Name#Heading]]
+!Note Name
+!Note Name > Heading
 ![[image.png|300]]
 ![[document.pdf#page=3]]
 ~~~
@@ -81,7 +81,7 @@ tags:
   - project
 aliases:
   - Alternate Name
-related: "[[Other Note]]"
+related: "Other Note"
 ---
 ~~~
 

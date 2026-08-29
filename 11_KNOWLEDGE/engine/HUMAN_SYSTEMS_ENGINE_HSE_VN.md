@@ -485,7 +485,7 @@ C. Owner bị phá
  Chủ tịch/giám đốc bypass quy trình
  Owner bị cấp dưới thao túng
  Owner bị ép ký không đúng
-IV. PROCESS [[INTEGRATION]] RISKS – RỦI RO TÍCH HỢP QUY
+IV. PROCESS INTEGRATION RISKS – RỦI RO TÍCH HỢP QUY
 TRÌNH (28 LOẠI)
 A. Liên phòng ban
  Phòng A không gửi thông tin cho B
@@ -5699,7 +5699,7 @@ Chọn: 1 / 2 / 3 / 4 / 5 / ALL
 Human Systems Engine™ HSE VN 112
 
 ---
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
 
 ---
 **MOC:** [[ENGINE_MOC]]

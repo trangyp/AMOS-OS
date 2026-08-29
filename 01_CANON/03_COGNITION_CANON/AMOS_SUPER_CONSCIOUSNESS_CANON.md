@@ -1545,7 +1545,7 @@ knowledge_object:
   lineage:
 ```
 
-[[README]] or documentation claims remain:
+README or documentation claims remain:
 
 ```text
 SOURCE_CLAIM

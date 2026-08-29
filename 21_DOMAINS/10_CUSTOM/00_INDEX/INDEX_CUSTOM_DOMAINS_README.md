@@ -28,7 +28,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX CUSTOM DOMAINS [[README]]
+# INDEX CUSTOM DOMAINS README
 
 ## Index
 - See also — [[CUSTOM_DOMAINS_CUSTOM_CONTRACT]]

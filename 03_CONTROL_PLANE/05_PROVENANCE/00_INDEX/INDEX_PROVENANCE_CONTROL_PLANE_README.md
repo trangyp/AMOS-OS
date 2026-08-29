@@ -29,7 +29,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX PROVENANCE CONTROL PLANE [[README]]
+# INDEX PROVENANCE CONTROL PLANE README
 
 ## Index
 - See also — [[CONTROL_PLANE_PROVENANCE_MAP]]

@@ -28,7 +28,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# KERNEL [[README]]
+# KERNEL README
 
 ## Purpose
 `KERNEL README` is the package readme for the **Kernel** plane segment at `02_KERNEL`.

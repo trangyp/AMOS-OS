@@ -28,7 +28,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# UBI NEI NEUROEMOTIONAL DOMAINS [[README]]
+# UBI NEI NEUROEMOTIONAL DOMAINS README
 
 ## Purpose
 `UBI NEI NEUROEMOTIONAL DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/25_UBI_NEI_NEUROEMOTIONAL`.

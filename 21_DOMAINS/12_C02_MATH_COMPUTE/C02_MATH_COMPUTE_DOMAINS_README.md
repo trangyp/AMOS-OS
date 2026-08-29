@@ -28,7 +28,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# C02 MATH COMPUTE DOMAINS [[README]]
+# C02 MATH COMPUTE DOMAINS README
 
 ## Purpose
 `C02 MATH COMPUTE DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/12_C02_MATH_COMPUTE`.

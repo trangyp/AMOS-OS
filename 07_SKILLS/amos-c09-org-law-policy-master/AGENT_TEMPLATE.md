@@ -41,7 +41,7 @@ Domain master agent for AMOS C09 — Org, Law & Policy Master. Consolidates 29 s
 - **Consolidation**: 29 sub-skills merged 2026-08-26
 
 ---
-**MOC:** [[SKILL]]
+**MOC:** SKILL
 
 ---
 **MOC:** [[amos-c09-org-law-policy-master_MOC]]

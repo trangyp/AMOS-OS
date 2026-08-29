@@ -4086,7 +4086,7 @@ until the rollback requirement is satisfied or governance explicitly establishes
 
 Governed by:
 
-* [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]]
+* AMOS Core Laws
 * [[LAW_HIERARCHY]]
 
 State-plane semantics must remain compatible with governing canon.
@@ -4157,7 +4157,7 @@ under applicable authority.
 
 ---
 
-# 186. Relationship to STATE [[README]]
+# 186. Relationship to STATE README
 
 Orientation:
 
@@ -4187,7 +4187,7 @@ STATE-PLANE CONTRACT
 
 # 187. Contract Precedence
 
-Where this [[README]]-style explanatory expansion conflicts with the source-grounded contract nucleus or stronger canon:
+Where this README-style explanatory expansion conflicts with the source-grounded contract nucleus or stronger canon:
 
 ```text
 STRONGER SOURCE
@@ -4740,7 +4740,7 @@ RSCF-RELATIONS:
 
 ## Cross-plane bindings
 
-* **Governed by canon** — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+* **Governed by canon** — AMOS Core Laws · [[LAW_HIERARCHY]]
 * **Kernel interaction** — [[KERNEL_README]]
 * **Control-plane gates** — [[CONTROL_PLANE_README]]
 * **Observed by** — [[OBSERVABILITY_README]] · never treated as authority
@@ -4764,7 +4764,7 @@ RSCF-RELATIONS:
 
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+AMOS MOC
 
 ---
 

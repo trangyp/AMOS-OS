@@ -1323,7 +1323,7 @@ Omega collapse formulation
         │
         ├───────────────┐
         ▼               ▼
-UNIVERSE [[CANON]]      OMEGA LIMITS
+UNIVERSE CANON      OMEGA LIMITS
         │               │
         └───────┬───────┘
                 ▼
@@ -4160,7 +4160,7 @@ Pcollapse ~ ΩFS/(H·Reserves)
 The paired artifacts now support the following source-grounded/derived architecture:
 
 ```text
-7-PART UNIVERSE [[CANON]]
+7-PART UNIVERSE CANON
         │
         ▼
 P1 Reality

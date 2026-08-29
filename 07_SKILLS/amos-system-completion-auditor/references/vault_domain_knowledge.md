@@ -37,7 +37,7 @@ rscf:
 # AMOS System Completion Audit — Reconciliation vs Baseline (2026-08-22)
 
 > Epistemic class: OBSERVATION / DERIVED — measured against actual repo file evidence and executed test suites.
-> Reconciles [[2026_08_22_AMOS_SYSTEM_COMPLETION_BASELINE]] (MODEL-class estimates) against the real cosmo-brain repo.
+> Reconciles 2026_08_22_AMOS_SYSTEM_COMPLETION_BASELINE (MODEL-class estimates) against the real cosmo-brain repo.
 > Governing law: `integrity > completeness > fluency > speed > token savings`.
 
 ## Method
@@ -48,7 +48,7 @@ rscf:
 - Python: MURK comprehensive 110/110, Go Board 190/190, Go Board self-test 226/226, MURK engine 10/10, MURK brain integration 9/9, brain determinism 9/9.
    - **Total verified passing tests: ~1,693** (TS 1,139 + Py ~554).
 3. Inspected `core/` TS runtime: typed `MemoryClass` + `RetentionPolicy`, `core/orchestration/pipeline.ts` (659 lines), `core/reasoning/meta-logic.ts` (407 lines), `governance/{provenance,consent,ethics,safety,audit,claims,privacy,uncertainty,scientific-claims,consent-tokens}/` (10 modules, 1,091 lines).
-4. Inspected `AMOS_MD_BRAIN_FULL_INFRA/brain/{20_state,30_epistemics,40_runtime,50_governance,60_execution}/` — these are **markdown specs** (V3.0…V4.4 runtime versions, GMEF, AUTHORITY_GOVERNOR, REPAIR_ROLLBACK, PROVENANCE_TOPOLOGY, [[RSCF_PROOF_CAPSULE]], etc.), not executable code.
+4. Inspected `AMOS_MD_BRAIN_FULL_INFRA/brain/{20_state,30_epistemics,40_runtime,50_governance,60_execution}/` — these are **markdown specs** (V3.0…V4.4 runtime versions, GMEF, AUTHORITY_GOVERNOR, REPAIR_ROLLBACK, PROVENANCE_TOPOLOGY, RSCF_PROOF_CAPSULE, etc.), not executable code.
 
 ## Decisive finding: two parallel brains, not one
 
@@ -77,7 +77,7 @@ The Baseline's ~35% executable-runtime estimate was **closer to correct than the
 
 # AMOS System Completion Roadmap (2026-08-22)
 
-> Epistemic class: MODEL — an actionable ordering derived from the audit in [[2026_08_22_AMOS_SYSTEM_COMPLETION_AUDIT]] and the baseline in [[2026_08_22_AMOS_SYSTEM_COMPLETION_BASELINE]].
+> Epistemic class: MODEL — an actionable ordering derived from the audit in 2026_08_22_AMOS_SYSTEM_COMPLETION_AUDIT and the baseline in 2026_08_22_AMOS_SYSTEM_COMPLETION_BASELINE.
 > Conclusion label: `CONDITIONAL` — priorities may shift when each step is completed and re-audited.
 > Governing law: `integrity > completeness > fluency > speed > token savings`. The bottleneck is implementation/integration, not more architecture.
 
@@ -130,7 +130,7 @@ Implement `amos/governance/resource_governance.py` using existing types and stor
 # AMOS System Completion Baseline (2026-08-22)
 
 > Epistemic class: MODEL / DECISION — an engineering estimate, **not** a measured benchmark score.
-> Conclusion label: `CONDITIONAL` — pending repo audit reconciliation (see [[2026_08_22_AMOS_SYSTEM_COMPLETION_AUDIT]]).
+> Conclusion label: `CONDITIONAL` — pending repo audit reconciliation (see 2026_08_22_AMOS_SYSTEM_COMPLETION_AUDIT).
 > Governing law: `integrity > completeness > fluency > speed > token savings`. This baseline is recorded to prevent
 > inflated self-reporting; the numbers below are explicitly **estimates**, not verified measurements.
 
@@ -175,12 +175,12 @@ Three distinct completion numbers must be kept separate. Conflating them is the 
 |
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -192,4 +192,4 @@ path: 07_SKILLS/amos-system-completion-auditor/references/vault_domain_knowledge
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

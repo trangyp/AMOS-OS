@@ -27,7 +27,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# RESEARCH MODES COMMIT CONTROL PLANE [[README]]
+# RESEARCH MODES COMMIT CONTROL PLANE README
 
 ## Purpose
 `RESEARCH MODES COMMIT CONTROL PLANE README` is the package readme for the **Control Plane** plane segment at `03_CONTROL_PLANE/09_COMMIT/27_RESEARCH_MODES`.

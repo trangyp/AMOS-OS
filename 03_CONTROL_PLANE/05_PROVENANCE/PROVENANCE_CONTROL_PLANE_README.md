@@ -31,7 +31,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# PROVENANCE CONTROL PLANE [[README]]
+# PROVENANCE CONTROL PLANE README
 
 ## Purpose
 `PROVENANCE CONTROL PLANE README` is the package readme for the **Control Plane** plane segment at `03_CONTROL_PLANE/05_PROVENANCE`.

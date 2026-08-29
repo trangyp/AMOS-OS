@@ -28,7 +28,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX INTERFACES [[README]]
+# INDEX INTERFACES README
 
 ## Index
 - See also — [[INDEX_INTERFACES_INTERFACE_CONTRACT]]

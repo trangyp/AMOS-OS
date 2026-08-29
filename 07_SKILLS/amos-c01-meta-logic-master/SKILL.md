@@ -288,4 +288,4 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 
 ---
 
-**MOC:** [[references_MOC]] · [[00_HOME]]
+**MOC:** references_MOC · [[00_HOME]]

@@ -32,7 +32,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# GLOSSARY [[CANON]] [[README]]
+# GLOSSARY CANON README
 
 ## Purpose
 `GLOSSARY CANON README` is the package readme for the **Canon** plane segment at `01_CANON/06_GLOSSARY`.

@@ -2505,7 +2505,7 @@ is the appropriate class.
 
 ---
 
-# 130. ADVERSARIAL [[VALIDATION]]
+# 130. ADVERSARIAL VALIDATION
 
 For consequential conflicts, challenge the conflict itself:
 
@@ -2569,7 +2569,7 @@ CAUSAL MODEL FAILURE
 
 ---
 
-# 132. RSCF [[INTEGRATION]]
+# 132. RSCF INTEGRATION
 
 ```yaml
 ModeConflictRSCF:
@@ -2635,7 +2635,7 @@ load-bearing RSCFs against a coherent state where material.
 
 ---
 
-# 135. GMEF [[INTEGRATION]]
+# 135. GMEF INTEGRATION
 
 A conflict resolution that changes canonical mode relationships may constitute
 governed evolution.
@@ -2658,7 +2658,7 @@ Such changes require appropriate evolution governance.
 
 ---
 
-# 136. H/M/L [[INTEGRATION]]
+# 136. H/M/L INTEGRATION
 
 Suggested retrieval:
 
@@ -3705,7 +3705,7 @@ KnownGaps:
 
 ---
 
-# 178. [[CANON]] PROMOTION CHECKLIST
+# 178. CANON PROMOTION CHECKLIST
 
 ```text
 [ ] canonical location confirmed

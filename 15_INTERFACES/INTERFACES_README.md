@@ -27,7 +27,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# INTERFACES [[README]]
+# INTERFACES README
 
 ## Purpose
 `INTERFACES README` is the package readme for the **Interfaces** plane segment at `15_INTERFACES`.

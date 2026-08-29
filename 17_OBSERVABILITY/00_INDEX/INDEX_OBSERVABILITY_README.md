@@ -28,12 +28,12 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX OBSERVABILITY [[README]]
+# INDEX OBSERVABILITY README
 
 ## Index
 - See also — [[INDEX_OBSERVABILITY_OBSERVABILITY_CONTRACT]]
 - See also — [[OBSERVABILITY_OBSERVABILITY_MAP]]
-- See also — [[README]]
+- See also — README
 
 ## Indexing rule
 This index resolves by basename within its own directory. Cross-plane resolution goes through [[00_HOME]] and [[AMOS_RSCF_NODES]].

@@ -1,9 +1,9 @@
 ---
 title: STATE README
 aliases:
-- State [[README]]
-- AMOS State [[README]]
-- State Plane [[README]]
+- State README
+- AMOS State README
+- State Plane README
 - State Plane
 - AMOS State Plane
 - 12 STATE
@@ -200,14 +200,14 @@ gaps:
   complete_schema_binding: NOT_ESTABLISHED
 ---
 
-# STATE [[README]]
+# STATE README
 
 > [!abstract] State Plane
 > `STATE README` is the package-level orientation note for the **State plane** at `12_STATE`.
 >
 > The State plane governs **authoritative state records and state-versioned artifacts**.
 >
-> This [[README]] is navigational and explanatory. Normative, load-bearing State-plane requirements belong in the applicable contract artifacts, beginning with [[STATE_STATE_CONTRACT]].
+> This README is navigational and explanatory. Normative, load-bearing State-plane requirements belong in the applicable contract artifacts, beginning with [[STATE_STATE_CONTRACT]].
 
 ---
 
@@ -237,7 +237,7 @@ It does **not** independently establish that every described mechanism has an ex
 
 # 1. Purpose
 
-`STATE README` is the package [[README]] for the **State** plane segment at:
+`STATE README` is the package README for the **State** plane segment at:
 
 ```text
 12_STATE
@@ -287,7 +287,7 @@ NORMATIVE LOAD-BEARING REQUIREMENTS
 
 # 2. Epistemic Status
 
-This [[README]] is classified:
+This README is classified:
 
 ```yaml
 rscf:
@@ -637,7 +637,7 @@ Snapshot =
 }
 ```
 
-Exact implementation is not established by this [[README]].
+Exact implementation is not established by this README.
 
 ---
 
@@ -688,7 +688,7 @@ COMMIT IF COMPATIBLE
 However:
 
 > [!warning] Implementation Boundary
-> This [[README]] does not prove that an actual MVCC storage engine is implemented in `12_STATE`.
+> This README does not prove that an actual MVCC storage engine is implemented in `12_STATE`.
 
 MVCC here is a reasoning/architecture concept unless executable implementation evidence exists.
 
@@ -1744,7 +1744,7 @@ Referenced receipts:
 * [[ROUTING_POLICY_VALIDATION_RECEIPT]]
 * [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
-These references do not, by themselves, establish that the State [[README]] has a complete artifact-specific executed validation receipt.
+These references do not, by themselves, establish that the State README has a complete artifact-specific executed validation receipt.
 
 ---
 
@@ -2452,7 +2452,7 @@ Kernel interaction:
 
 The kernel may consume, validate, route, or operate on State-plane information according to its own contract.
 
-This [[README]] does not grant the kernel unrestricted mutation authority.
+This README does not grant the kernel unrestricted mutation authority.
 
 ---
 
@@ -2504,7 +2504,7 @@ State-plane behavior is governed by canonical law.
 
 Primary link:
 
-* [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]]
+* AMOS Core Laws
 * [[LAW_HIERARCHY]]
 
 State-plane contracts cannot silently override higher-order canon.
@@ -2529,9 +2529,9 @@ Lower layers must remain compatible with governing higher layers.
 
 ---
 
-# 103. [[README]] Authority Boundary
+# 103. README Authority Boundary
 
-This [[README]] is not itself the strongest normative authority for State-plane behavior.
+This README is not itself the strongest normative authority for State-plane behavior.
 
 Therefore:
 
@@ -3345,7 +3345,7 @@ These are normalized strengthening gates and do not imply they are already satis
 
 # 140. Validation Matrix
 
-| Dimension                             | Required Principle                   | Current [[README]] Status |
+| Dimension                             | Required Principle                   | Current README Status |
 | ------------------------------------- | ------------------------------------ | --------------------- |
 | Identity                              | ID + version resolution              | Defined conceptually  |
 | Versioning                            | Version-aware state                  | Required              |
@@ -3710,7 +3710,7 @@ by arbitrary selection.
 
 Governed by:
 
-* [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]]
+* AMOS Core Laws
 * [[LAW_HIERARCHY]]
 
 ## Kernel
@@ -3858,7 +3858,7 @@ STATE_README_GAPS:
 
 # 155. Promotion Law
 
-This [[README]] must not be promoted from:
+This README must not be promoted from:
 
 ```text
 DERIVED / AMOS_MODEL
@@ -3910,7 +3910,7 @@ REPRODUCIBLE VALIDATION
 
 # 157. Invalidation Conditions
 
-This [[README]]'s derived semantics require revalidation if:
+This README's derived semantics require revalidation if:
 
 ```text
 STATE_STATE_CONTRACT changes
@@ -4269,7 +4269,7 @@ RSCF-RELATIONS:
 
 ## Cross-plane bindings
 
-* **Governed by canon** — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+* **Governed by canon** — AMOS Core Laws · [[LAW_HIERARCHY]]
 * **Kernel interaction** — [[KERNEL_README]]
 * **Control-plane gates** — [[CONTROL_PLANE_README]]
 * **Observed by** — [[OBSERVABILITY_README]] · never treated as authority
@@ -4283,7 +4283,7 @@ RSCF-RELATIONS:
 
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+AMOS MOC
 
 ---
 

@@ -185,8 +185,8 @@ or use a `main()` function called at the end.
 ## Links
 
 - [[COSMO_BRAIN_MOC]]
-- [[2026_08_23_AMOS_COGNITIVE_SUBSTRATE_BUG_FIXES]]
-- [[2026_08_23_DETERMINISTIC_VERIFICATION_SUMMARY]]
+- 2026_08_23_AMOS_COGNITIVE_SUBSTRATE_BUG_FIXES
+- 2026_08_23_DETERMINISTIC_VERIFICATION_SUMMARY
 
 ---
 
@@ -286,12 +286,12 @@ or use a `main()` function called at the end.
         }
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -303,4 +303,4 @@ path: 07_SKILLS/amos-representation-aware-bug-localization-rscf/references/vault
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

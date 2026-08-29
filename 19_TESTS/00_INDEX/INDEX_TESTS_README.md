@@ -28,11 +28,11 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX TESTS [[README]]
+# INDEX TESTS README
 
 ## Index
 - See also — [[INDEX_TESTS_TEST_CONTRACT]]
-- See also — [[README]]
+- See also — README
 - See also — [[TEST_MAP]]
 
 ## Indexing rule

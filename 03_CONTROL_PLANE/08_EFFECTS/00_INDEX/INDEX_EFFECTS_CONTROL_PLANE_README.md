@@ -29,7 +29,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX EFFECTS CONTROL PLANE [[README]]
+# INDEX EFFECTS CONTROL PLANE README
 
 ## Index
 - See also — [[EFFECTS_CONTROL_PLANE_EFFECTS_CONTRACT]]

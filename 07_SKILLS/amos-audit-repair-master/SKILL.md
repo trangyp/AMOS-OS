@@ -132,7 +132,7 @@ Proposed specification replacing placeholder. AMOS_MODEL. Canonical status: COND
 - **FR-2 Repair Capacity Bounds**: recovery is bounded by independent repair capacity per failure mode; correlated damage amplifies (DMER L5).
 - **FR-3 Fail Closed on Critical Unknown**: missing authority/provenance/validation blocks execution rather than defaulting open.
 - **FR-4 Recovery Basins**: every consequential subsystem declares a rollback t
-- [[AGENT_TEMPLATE]]
+- AGENT_TEMPLATE
 
 ---
 **MOC:** [[amos-audit-repair-master_MOC]]
@@ -228,7 +228,7 @@ Proposed specification replacing placeholder. AMOS_MODEL. Canonical status: COND
 - `amos-audit-repair-master-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -238,7 +238,7 @@ Proposed specification replacing placeholder. AMOS_MODEL. Canonical status: COND
 RSCF-NODE
 node_id: amos-audit-repair-master
 node_type: skill
-path: 07_SKILLS/amos-audit-repair-master/[[SKILL]].md
+path: 07_SKILLS/amos-audit-repair-master/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

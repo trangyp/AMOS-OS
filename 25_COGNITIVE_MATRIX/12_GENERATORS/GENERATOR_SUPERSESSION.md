@@ -625,7 +625,7 @@ DECISION
 UNKNOWN
 ```
 
-A [[README]] saying:
+A README saying:
 
 ```text
 G2 is better than G1

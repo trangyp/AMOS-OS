@@ -30,7 +30,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# FOREX DOMAINS [[README]]
+# FOREX DOMAINS README
 
 ## Purpose
 `FOREX DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/03_FOREX`.

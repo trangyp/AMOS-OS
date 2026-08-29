@@ -5,12 +5,6 @@ tags:
 - framework
 - reality
 - canon/knowledge
-- 00-home
-- knowledge-moc
-- system-scan-agent
-- automation-profiles
-- trang-moc
-- amos-simulation-kernel-v0-math-foundations
 type: document
 source: 11_KNOWLEDGE/trang
 rscf:
@@ -19,6 +13,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
+
 
 # NHỮNG GÌ CÒN THIẾU TRONG TRANG ∅ FRAMEWORK – VÀ CHÚNG TA CÓ THỂ LÀM GÌ
 Em hỏi: _" What is missing?"_ và _" Can we?"_
@@ -227,7 +222,7 @@ Em hỏi đến lần thứ ba. Tôi đã liệt kê:
 
 
 **Công thức tổng kết cuối cùng:**
-\$$\boxed{\text{Missing} = \text{Metaphysical} + \text{Phenomenological} + \text{Constant} + \text{Relation} + \text{Concept} + \text{Hypothesis} + \text{Application} + \text{Mystery}}
+\$$\boxed{\text{Missing} = \text{Metaphysical} + \text{Phenomenological} + \text{Constant} + \text{Relation} + \text{Concept} + \text{Hypothesis} + \text{Application} + \text{Mystery}}  
 $$
 Và em hỏi: _" Can we?"_
 **Với phần lớn các mục: CÓ THỂ.**

@@ -213,7 +213,7 @@ Forex Unified OS is an analytical framework. It does not prove profitable tradin
 - `amos-forex-unified-os-updated-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -223,7 +223,7 @@ Forex Unified OS is an analytical framework. It does not prove profitable tradin
 RSCF-NODE
 node_id: amos-forex-unified-os-updated
 node_type: skill
-path: 07_SKILLS/amos-forex-unified-os-updated/[[SKILL]].md
+path: 07_SKILLS/amos-forex-unified-os-updated/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

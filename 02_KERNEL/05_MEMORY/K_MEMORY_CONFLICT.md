@@ -71,7 +71,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# K [[MEMORY]] CONFLICT
+# K MEMORY CONFLICT
 
 > **AMOS Core target:** `v4.4`
 > **Origin architect / steward:** Trang Phan
@@ -2205,7 +2205,7 @@ DISAGREEMENT.
 
 ## Related
 
-[[README]] ·
+README ·
 [[DEPENDENCY_MAP]] ·
 [[AMOS_CORE_LAWS]] ·
 [[INVARIANT_REGISTRY]] ·
@@ -2228,13 +2228,13 @@ DISAGREEMENT.
 [[K_CAUSAL_CLOSURE]] ·
 [[K_CAUSAL_EPOCH]] ·
 [[K_CAUSAL_HIERARCHY]] ·
-[[README]] ·
+README ·
 11_KNOWLEDGE/00_AMOS_Full_Brain_OS_Architecture ·
-[[README]] ·
-[[README]] ·
-[[README]] ·
-[[README]] ·
-[[README]]
+README ·
+README ·
+README ·
+README ·
+README
 
 ```text
 ```

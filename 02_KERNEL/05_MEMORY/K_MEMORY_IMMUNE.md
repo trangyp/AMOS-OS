@@ -74,7 +74,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# K [[MEMORY]] IMMUNE
+# K MEMORY IMMUNE
 
 > **AMOS Core target:** `v4.4`
 > **Origin architect / steward:** Trang Phan
@@ -837,7 +837,7 @@ solely because it was stored.
 
 ## 30. Source Claim Firewall
 
-Documentation, [[README]] text, source assertions, generated summaries, and external statements remain:
+Documentation, README text, source assertions, generated summaries, and external statements remain:
 
 ```text
 SOURCE_CLAIM
@@ -1777,7 +1777,7 @@ Persistence alone is not validation.
 
 ---
 
-## 75. [[README]] Firewall
+## 75. README Firewall
 
 Repository documentation may be valuable evidence but remains:
 
@@ -2395,7 +2395,7 @@ AUTHORITY.
 
 ## Related
 
-[[README]] ·
+README ·
 [[DEPENDENCY_MAP]] ·
 [[AMOS_CORE_LAWS]] ·
 [[INVARIANT_REGISTRY]] ·
@@ -2418,14 +2418,14 @@ AUTHORITY.
 [[K_WORLD_MODEL]] ·
 [[K_CAUSAL_CLOSURE]] ·
 [[K_CAUSAL_EPOCH]] ·
-[[README]] ·
+README ·
 11_KNOWLEDGE/00_AMOS_Full_Brain_OS_Architecture ·
-[[README]] ·
-[[README]] ·
-[[README]] ·
-[[README]] ·
-[[README]] ·
-[[README]]
+README ·
+README ·
+README ·
+README ·
+README ·
+README
 
 ```text
 ```

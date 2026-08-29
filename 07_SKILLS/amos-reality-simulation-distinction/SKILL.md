@@ -221,7 +221,7 @@ Reality-simulation distinction is an epistemological framework. It does not prov
 - `amos-reality-simulation-distinction-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -231,7 +231,7 @@ Reality-simulation distinction is an epistemological framework. It does not prov
 RSCF-NODE
 node_id: amos-reality-simulation-distinction
 node_type: skill
-path: 07_SKILLS/amos-reality-simulation-distinction/[[SKILL]].md
+path: 07_SKILLS/amos-reality-simulation-distinction/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

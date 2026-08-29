@@ -63,7 +63,7 @@ and authority are explicitly established.
 ```
 
 
-Therefore this [[README]] distinguishes:
+Therefore this README distinguishes:
 
 ```yaml
 source_aligned:
@@ -922,7 +922,7 @@ empirical_validation: false
 
 # 21. Falsifiers
 
-This [[README]] must be revised if authoritative evidence establishes:
+This README must be revised if authoritative evidence establishes:
 
 ```text
 a different L04 primitive role
@@ -1005,7 +1005,7 @@ L04_OBJECT_ENTITY_FORMATION/
 └── GAP_MATRIX.md
 ```
 
-This [[README]] is the orientation layer. Specialized artifacts remain authoritative for their declared MODEL contract areas once independently completed and checked for consistency.
+This README is the orientation layer. Specialized artifacts remain authoritative for their declared MODEL contract areas once independently completed and checked for consistency.
 
 ---
 

@@ -28,7 +28,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX BENCHMARKS RESEARCH [[README]]
+# INDEX BENCHMARKS RESEARCH README
 
 ## Index
 - See also — [[BENCHMARKS_MAP]]

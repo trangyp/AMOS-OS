@@ -239,7 +239,7 @@ not automatically:
 VERIFIED(X)
 ```
 
-Documentation, papers, [[README]] files, databases, humans, agents, models, APIs, and external systems may all produce source claims.
+Documentation, papers, README files, databases, humans, agents, models, APIs, and external systems may all produce source claims.
 
 Authority of the source does not eliminate the distinction.
 
@@ -2628,7 +2628,7 @@ REALITY.
 
 ## Related
 
-[[README]] ·
+README ·
 [[ARCHITECTURE]] ·
 [[DEPENDENCY_MAP]] ·
 [[AMOS_CORE_LAWS]] ·
@@ -2653,12 +2653,12 @@ REALITY.
 [[K_CAUSAL_EPOCH]] ·
 [[K_CAUSAL_HIERARCHY]] ·
 11_KNOWLEDGE/00_AMOS_Full_Brain_OS_Architecture ·
-[[README]] ·
-[[README]] ·
-[[README]] ·
-[[README]] ·
-[[README]] ·
-[[README]]
+README ·
+README ·
+README ·
+README ·
+README ·
+README
 
 ```text
 ```

@@ -57,7 +57,7 @@ rscf:
 
 ---
 
-## title: "AMOS QUANTUM STACK [[CANON]]" type: document source: 01_CANON/04_INFRASTRUCTURE_CANON tags: [amos_os, 04_INFRASTRUCTURE_CANON, canon/universe] rscf: state: DERIVED claim_class: DERIVED provenance: AMOS_corpus scope: AMOS_general
+## title: "AMOS QUANTUM STACK CANON" type: document source: 01_CANON/04_INFRASTRUCTURE_CANON tags: [amos_os, 04_INFRASTRUCTURE_CANON, canon/universe] rscf: state: DERIVED claim_class: DERIVED provenance: AMOS_corpus scope: AMOS_general
 
 # AMOS_QUANTUM_STACK_CANON — Canon-Safe Expansion
 

@@ -64,7 +64,7 @@ The 17 domain engines form the **application layer** of AMOS. They consume the c
 
 ### 5. AMOS_Design_Engine
 
-**Description**: Tech Engine vInfinity with all conceptual gaps closed to 100% structural coverage across tech domains and leadership/specialist roles. MAX variant wraps the full [[CANON]] engine with QUANTUM augmentation layer.
+**Description**: Tech Engine vInfinity with all conceptual gaps closed to 100% structural coverage across tech domains and leadership/specialist roles. MAX variant wraps the full CANON engine with QUANTUM augmentation layer.
 
 **Role**: Full-power design engine.
 
@@ -186,12 +186,12 @@ The 17 domain engines form the **application layer** of AMOS. They consume the c
 
 ---
 - [[07_SKILLS_MOC]]
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -203,4 +203,4 @@ path: 07_SKILLS/amos-super-engines-master/references/domains_engines_collection.
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

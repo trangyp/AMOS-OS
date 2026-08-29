@@ -88,7 +88,7 @@ integrity:
   observation_grants_authority: false
 ---
 
-# META LOGIC KERNEL [[README]]
+# META LOGIC KERNEL README
 
 > **Package:** `02_KERNEL/01_META_LOGIC`
 > **Plane:** `02_KERNEL · KERNEL`
@@ -198,7 +198,7 @@ Integration
 \}
 $$
 
-The [[README]] maps this subsystem.
+The README maps this subsystem.
 
 Normative definitions remain in their governing contracts and canonical artifacts.
 
@@ -206,7 +206,7 @@ Normative definitions remain in their governing contracts and canonical artifact
 
 # 2. Non-Purpose
 
-This [[README]] MUST NOT independently be used to claim:
+This README MUST NOT independently be used to claim:
 
 ```text
 A SIBLING CONTRACT IS IMPLEMENTED
@@ -420,7 +420,7 @@ The supplied package declares the following siblings:
 | ``                   | kernel law ordering / hierarchy            |
 | ``                      | meta-logic model / kernel logic            |
 
-The existence of a wiki-link in this [[README]] establishes a declared relationship.
+The existence of a wiki-link in this README establishes a declared relationship.
 
 It does not by itself establish:
 
@@ -461,7 +461,7 @@ UNRESOLVED SIBLING
 UNKNOWN/GAP
 ```
 
-The [[README]] MUST NOT invent missing sibling content.
+The README MUST NOT invent missing sibling content.
 
 ---
 
@@ -505,7 +505,7 @@ Exact precedence remains governed by the applicable law hierarchy.
 
 Its expected role is to hold normative requirements for the segment.
 
-The [[README]] SHOULD orient toward that contract rather than duplicate its entire normative content.
+The README SHOULD orient toward that contract rather than duplicate its entire normative content.
 
 Therefore:
 
@@ -521,7 +521,7 @@ CONTRACT = NORMATIVE REQUIREMENTS
 
 `` is declared as a sibling artifact.
 
-The [[README]] does not establish its detailed semantics.
+The README does not establish its detailed semantics.
 
 Accordingly:
 
@@ -746,7 +746,7 @@ DECISION
 UNKNOWN
 ```
 
-The [[README]] itself is:
+The README itself is:
 
 ```text
 RSCF STATE = DERIVED
@@ -1424,7 +1424,7 @@ REJECT / REVALIDATE
 
 This is consistent with CAS/MVCC-style integrity reasoning.
 
-It is not a claim that this [[README]] itself implements CAS or MVCC.
+It is not a claim that this README itself implements CAS or MVCC.
 
 ---
 
@@ -2229,7 +2229,7 @@ The source explicitly declares:
 
 as the associated Trang Framework reference.
 
-This [[README]] establishes the link.
+This README establishes the link.
 
 It does not establish the complete semantics of that framework.
 
@@ -2239,7 +2239,7 @@ Those semantics must be resolved from the referenced artifact.
 
 # 84. RSCF Package Role
 
-The [[README]] itself is represented as an RSCF node:
+The README itself is represented as an RSCF node:
 
 ```text
 node_id:
@@ -3486,7 +3486,7 @@ gaps:
 
 # 133. Invalidation Conditions
 
-Re-evaluate this [[README]] if evidence establishes:
+Re-evaluate this README if evidence establishes:
 
 ```text
 A DIFFERENT PACKAGE STRUCTURE
@@ -3994,7 +3994,7 @@ META LOGIC KERNEL
 
 # 148. Package Integrity Declaration
 
-The package [[README]] establishes an architectural navigation and integration layer.
+The package README establishes an architectural navigation and integration layer.
 
 It does not independently establish complete executable enforcement.
 
@@ -4002,7 +4002,7 @@ The controlling boundaries are:
 
 $$
 \boxed{
-[[README]]
+README
 \neq
 Contract
 }
@@ -4148,7 +4148,7 @@ production_readiness:
 
 # 151. Canon-Safe Terminal Rule
 
-The [[README]] should be treated as the authoritative **navigation point for the package only to the extent established by the corpus**, not as automatic proof of every implementation behind it.
+The README should be treated as the authoritative **navigation point for the package only to the extent established by the corpus**, not as automatic proof of every implementation behind it.
 
 Therefore:
 

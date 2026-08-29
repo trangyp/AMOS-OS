@@ -21,16 +21,16 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX CONTROL PLANE [[README]]
+# INDEX CONTROL PLANE README
 
 ---
-artifact_id: AMOS-OS-CONTROL-PLANE-[[README]]
+artifact_id: AMOS-OS-CONTROL-PLANE-README
 title: AMOS OS Control Plane
 canonical_name: [[CONTROL_PLANE_README]]
 
 artifact_class: INDEX_GUIDE
 plane: CONTROL_PLANE
-canonical_location: 03_CONTROL_PLANE/00_INDEX/[[README]].md
+canonical_location: 03_CONTROL_PLANE/00_INDEX/README.md
 
 origin_architect: Trang Phan
 amos_core_target: v4.4
@@ -382,7 +382,7 @@ The canonical Control Plane tree is:
     └── SELECTIVE_INVALIDATION.md
 ```
 
-This [[README]] describes how those domains fit together.
+This README describes how those domains fit together.
 
 The individual files remain authoritative for their own detailed contracts
 once promoted.
@@ -834,7 +834,7 @@ INVALIDATABLE
 FRESHNESS-BOUND
 ```
 
-This [[README]] does not claim any particular cryptographic implementation.
+This README does not claim any particular cryptographic implementation.
 
 ---
 
@@ -2043,7 +2043,7 @@ K_EFFECT_CLASSIFICATION
 
 and/or the dedicated effects/control-plane artifacts.
 
-This [[README]] must not silently redefine kernel law.
+This README must not silently redefine kernel law.
 
 ---
 
@@ -3246,9 +3246,9 @@ control_plane_result:
 
 ---
 
-# 91. [[README]] Scope Boundary
+# 91. README Scope Boundary
 
-This [[README]] establishes:
+This README establishes:
 
 ```text
 CONTROL PLANE PURPOSE
@@ -3332,7 +3332,7 @@ Directory existence does not imply implementation completeness.
 
 # 93. Promotion Boundary
 
-This [[README]] may replace a placeholder as a substantive candidate artifact.
+This README may replace a placeholder as a substantive candidate artifact.
 
 That does **not** by itself promote every referenced Control Plane component
 to final canon.
@@ -3540,7 +3540,7 @@ CORRECTNESS OR GOVERNANCE
 FOR SPEED.
 ```
 
-# END — AMOS OS CONTROL PLANE [[README]]
+# END — AMOS OS CONTROL PLANE README
 
 ```
 

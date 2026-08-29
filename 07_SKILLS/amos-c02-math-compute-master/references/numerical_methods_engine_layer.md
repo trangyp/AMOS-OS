@@ -118,16 +118,16 @@ The Signal Processing Kernel supports analyzing, transforming, and interpreting 
 - Related vault files: `math/AMOS_Simulation_Kernel_v0_Math_Foundations.md`, `math/AMOS_Optimization_Kernel_v0_Math_Foundations.md`, `math/AMOS_Control_Systems_Kernel_v0_Math_Foundations.md`, `math/AMOS_Signal_Processing_Kernel_v0_Math_Foundations.md`
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -139,4 +139,4 @@ path: 07_SKILLS/amos-c02-math-compute-master/references/numerical_methods_engine
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

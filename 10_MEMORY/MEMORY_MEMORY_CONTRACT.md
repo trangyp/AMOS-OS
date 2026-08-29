@@ -26,10 +26,10 @@ rscf:
   scope: AMOS_general
 ---
 
-# [[MEMORY]] [[MEMORY]] CONTRACT
+# MEMORY MEMORY CONTRACT
 
 ## 0. Status
-Memory-plane contract for **[[MEMORY]] CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
+Memory-plane contract for **MEMORY CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
 ## 1. Scope
 Governs durable memory stores, trust classes, admission, retrieval, and conflict policy as they bear on `MEMORY CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.

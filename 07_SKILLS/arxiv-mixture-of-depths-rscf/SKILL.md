@@ -217,7 +217,7 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - `arxiv-mixture-of-depths-rscf-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -227,7 +227,7 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 RSCF-NODE
 node_id: arxiv-mixture-of-depths-rscf
 node_type: skill
-path: 07_SKILLS/arxiv-mixture-of-depths-rscf/[[SKILL]].md
+path: 07_SKILLS/arxiv-mixture-of-depths-rscf/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

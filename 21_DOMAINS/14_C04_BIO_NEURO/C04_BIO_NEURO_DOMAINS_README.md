@@ -28,7 +28,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# C04 BIO NEURO DOMAINS [[README]]
+# C04 BIO NEURO DOMAINS README
 
 ## Purpose
 `C04 BIO NEURO DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/14_C04_BIO_NEURO`.

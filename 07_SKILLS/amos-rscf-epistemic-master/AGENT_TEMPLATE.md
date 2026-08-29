@@ -41,7 +41,7 @@ Domain master agent for AMOS RSCF Epistemic Master. Consolidates 61 sub-skills.
 - **Consolidation**: 61 sub-skills merged 2026-08-26
 
 ---
-**MOC:** [[SKILL]]
+**MOC:** SKILL
 
 ---
 **MOC:** [[amos-rscf-epistemic-master_MOC]]

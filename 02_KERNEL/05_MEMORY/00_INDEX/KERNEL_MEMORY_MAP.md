@@ -30,9 +30,9 @@ rscf:
   scope: index_navigation
 ---
 
-# KERNEL [[MEMORY]] MAP
+# KERNEL MEMORY MAP
 
-## Map — KERNEL · [[MEMORY]] MAP
+## Map — KERNEL · MEMORY MAP
 Navigation map for the `02_KERNEL/05_MEMORY/00_INDEX` segment of the Kernel plane.
 
 - **Readme** — [[INDEX_MEMORY_KERNEL_README]]

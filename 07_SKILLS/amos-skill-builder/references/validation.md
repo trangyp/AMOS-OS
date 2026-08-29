@@ -33,11 +33,11 @@ Every AMOS skill MUST pass these gates before promotion to `production`.
 
 ### G2: Description Meaningful
 - `description` MUST be ≥ 20 characters
-- MUST NOT be a placeholder ("Placeholder [[SKILL]].md for ...")
+- MUST NOT be a placeholder ("Placeholder SKILL.md for ...")
 - MUST describe what the skill does and when to use it
 
 ### G3: No Placeholder Content
-- [[SKILL]].md MUST NOT contain "Placeholder [[SKILL]].md" in the first 500 chars
+- SKILL.md MUST NOT contain "Placeholder SKILL.md" in the first 500 chars
 
 ### G4: Epistemic Class Labeling
 - All claims MUST be labeled: SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL
@@ -78,16 +78,16 @@ python3 scripts/workflow_audit.py                   # workflow validation
 ```
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -99,4 +99,4 @@ path: 07_SKILLS/amos-skill-builder/references/validation.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

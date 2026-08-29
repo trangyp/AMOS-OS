@@ -27,7 +27,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# SECURITY [[README]]
+# SECURITY README
 
 ## Purpose
 `SECURITY README` is the package readme for the **Security** plane segment at `18_SECURITY`.

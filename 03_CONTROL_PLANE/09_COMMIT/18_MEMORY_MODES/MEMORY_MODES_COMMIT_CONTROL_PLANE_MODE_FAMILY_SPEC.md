@@ -27,7 +27,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# [[MEMORY]] MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
+# MEMORY MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 
 ## 0. Status
 Control Plane-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.

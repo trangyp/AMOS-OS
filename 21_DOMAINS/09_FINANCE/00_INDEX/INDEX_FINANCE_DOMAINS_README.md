@@ -28,7 +28,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX FINANCE DOMAINS [[README]]
+# INDEX FINANCE DOMAINS README
 
 ## Index
 - See also — [[FINANCE_DOMAINS_FINANCE_CONTRACT]]

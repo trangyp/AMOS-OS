@@ -28,7 +28,7 @@ rscf:
 - `O02` — RELATION
 - `O03` — BINDING
 - `O04` — STATE
-- `O05` — [[MEMORY]]
+- `O05` — MEMORY
 - `O06` — MODEL
 - `O07` — INFERENCE
 - `O08` — PREDICTION

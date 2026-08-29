@@ -2335,7 +2335,7 @@ for high-value repositories.
 
 ---
 
-# 73. [[CANON]] TOKEN WARNING
+# 73. CANON TOKEN WARNING
 
 The source removes:
 
@@ -2632,7 +2632,7 @@ manifest complete
 
 ---
 
-# 85. PYTHON IMPORT [[VALIDATION]]
+# 85. PYTHON IMPORT VALIDATION
 
 For Python repositories, run at minimum where applicable:
 
@@ -2654,7 +2654,7 @@ plugin registries
 
 ---
 
-# 86. TYPESCRIPT [[VALIDATION]]
+# 86. TYPESCRIPT VALIDATION
 
 Renaming `.ts` files can invalidate:
 
@@ -2678,7 +2678,7 @@ where available.
 
 ---
 
-# 87. MARKDOWN [[VALIDATION]]
+# 87. MARKDOWN VALIDATION
 
 Renaming `.md` files can invalidate:
 
@@ -2694,7 +2694,7 @@ Therefore update link graphs or preserve aliases.
 
 ---
 
-# 88. JSON [[VALIDATION]]
+# 88. JSON VALIDATION
 
 Renaming `.json` files can invalidate:
 
@@ -2752,7 +2752,7 @@ These require explicit migration rules.
 
 ---
 
-# 91. EXTERNAL [[REFERENCES]]
+# 91. EXTERNAL REFERENCES
 
 Repository-local search cannot detect every consumer.
 

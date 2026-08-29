@@ -32,7 +32,7 @@ tags: [quantum]
 
 ## MISSION STATUS: QUANTUM-ENHANCED CONTINUOUS EVOLUTION OPERATIONAL
 
-### 2025 QUANTUM STATE-OF-THE-ART [[INTEGRATION]] ACHIEVED
+### 2025 QUANTUM STATE-OF-THE-ART INTEGRATION ACHIEVED
 
 **Quantum Computing Integration**:
 - Real quantum circuit simulation with Qiskit-compatible design
@@ -128,16 +128,16 @@ V_q = ⟨ψ|[H,R_q]|ψ⟩ (quantum risk variance)
 - *
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -149,4 +149,4 @@ path: 07_SKILLS/amos-c03-physics-cosmos-master/references/quantum_enhanced_compl
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

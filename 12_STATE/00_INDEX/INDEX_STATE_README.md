@@ -28,7 +28,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX STATE [[README]]
+# INDEX STATE README
 
 ## Index
 - See also — [[INDEX_STATE_STATE_CONTRACT]]

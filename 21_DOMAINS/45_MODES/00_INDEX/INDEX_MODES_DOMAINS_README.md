@@ -28,7 +28,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX MODES DOMAINS [[README]]
+# INDEX MODES DOMAINS README
 
 ## Index
 - See also — [[MODES_DOMAINS_MODES_CONTRACT]]

@@ -229,7 +229,7 @@ python goal_driven_ai_architecture_ge
 - `mckinsey-architecture-reference-transfer-rscf-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -239,7 +239,7 @@ python goal_driven_ai_architecture_ge
 RSCF-NODE
 node_id: mckinsey-architecture-reference-transfer-rscf
 node_type: skill
-path: 07_SKILLS/mckinsey-architecture-reference-transfer-rscf/[[SKILL]].md
+path: 07_SKILLS/mckinsey-architecture-reference-transfer-rscf/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

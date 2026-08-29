@@ -46,7 +46,7 @@ rscf:
 > Source: `cosmo-brain/AMOS_COGNITIVE_SUBSTRATE_MEMORY_GRAPH.py` (27 self-tests)
 > Test: `cosmo-brain/test_cognitive_substrate_memory_graph.py` (11 integration, 38 total)
 > Skill: amos-cognitive-substrate-memory-graph
-> See also: [[2026_08_22_COGNITIVE_SUBSTRATE_REALITY_GATE]] · [[2026_08_22_COGNITIVE_SUBSTRATE_REASONING_GRAPH]] · [[2026_08_22_AMOS_OBSIDIAN_MEMORY_BRIDGE]]
+> See also: 2026_08_22_COGNITIVE_SUBSTRATE_REALITY_GATE · 2026_08_22_COGNITIVE_SUBSTRATE_REASONING_GRAPH · 2026_08_22_AMOS_OBSIDIAN_MEMORY_BRIDGE
 
 ## 1. The problem this solves
 
@@ -118,7 +118,7 @@ Retrieval is modeled as graph traversal with path provenance. Failure is separat
 > The Obsidian vault IS the brain. This bridge module provides programmatic access to the vault as durable, queryable memory. 43 self-tests pass; 0 failures. 0 KB orphans.
 >
 > Source: `cosmo-brain/AMOS_OBSIDIAN_MEMORY_BRIDGE.py`
-> See also: [[COSMO_BRAIN_MOC]] · [[2026_08_22_AMOS_GO_BOARD_19X19_FORMAL_SYSTEM]]
+> See also: [[COSMO_BRAIN_MOC]] · 2026_08_22_AMOS_GO_BOARD_19X19_FORMAL_SYSTEM
 
 ## 1. Architecture
 
@@ -268,9 +268,9 @@ python3
 ```
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -282,4 +282,4 @@ path: 07_SKILLS/amos-action-memory-firewall/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

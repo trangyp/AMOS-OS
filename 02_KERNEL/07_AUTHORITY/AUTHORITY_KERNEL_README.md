@@ -32,7 +32,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# AUTHORITY KERNEL [[README]]
+# AUTHORITY KERNEL README
 
 ## Purpose
 `AUTHORITY KERNEL README` is the package readme for the **Kernel** plane segment at `02_KERNEL/07_AUTHORITY`.

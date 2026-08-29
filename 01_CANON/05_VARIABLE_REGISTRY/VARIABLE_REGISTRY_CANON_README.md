@@ -32,7 +32,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# VARIABLE REGISTRY [[CANON]] [[README]]
+# VARIABLE REGISTRY CANON README
 
 ## Purpose
 `VARIABLE REGISTRY CANON README` is the package readme for the **Canon** plane segment at `01_CANON/05_VARIABLE_REGISTRY`.

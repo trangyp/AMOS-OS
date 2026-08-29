@@ -218,7 +218,7 @@ Trust formation governance is a social model. It does not prove trust is always 
 - `amos-trust-formation-governor-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -228,7 +228,7 @@ Trust formation governance is a social model. It does not prove trust is always 
 RSCF-NODE
 node_id: amos-trust-formation-governor
 node_type: skill
-path: 07_SKILLS/amos-trust-formation-governor/[[SKILL]].md
+path: 07_SKILLS/amos-trust-formation-governor/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

@@ -28,7 +28,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# C05 MIND BEHAVIOR DOMAINS [[README]]
+# C05 MIND BEHAVIOR DOMAINS README
 
 ## Purpose
 `C05 MIND BEHAVIOR DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/15_C05_MIND_BEHAVIOR`.

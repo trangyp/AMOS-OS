@@ -97,7 +97,7 @@ tags: [reports]
 # - **No Mysticism**: Pure engineering with state-space based design
 # - **Memory Safe**: All operations bounded and reversible
 #
-# ## 16GB MAC SAFETY [[VALIDATION]]
+# ## 16GB MAC SAFETY VALIDATION
 # **Hardware-aware constraints for safe operation**
 #
 # - **RAM Limit**: < 6GB usage (leaves 10GB for system)
@@ -120,16 +120,16 @@ tags: [reports]
 # - **Deterministic**: Reproducible state evolutio
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -141,4 +141,4 @@ path: 07_SKILLS/amos-c03-physics-cosmos-master/references/omega_quantum_structur
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

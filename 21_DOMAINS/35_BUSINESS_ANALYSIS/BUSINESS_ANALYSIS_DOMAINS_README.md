@@ -27,7 +27,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# BUSINESS ANALYSIS DOMAINS [[README]]
+# BUSINESS ANALYSIS DOMAINS README
 
 ## Purpose
 `BUSINESS ANALYSIS DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/35_BUSINESS_ANALYSIS`.

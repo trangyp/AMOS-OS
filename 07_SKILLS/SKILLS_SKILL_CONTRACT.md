@@ -26,10 +26,10 @@ rscf:
   scope: AMOS_general
 ---
 
-# SKILLS [[SKILL]] CONTRACT
+# SKILLS SKILL CONTRACT
 
 ## 0. Status
-Skills-plane contract for **SKILLS [[SKILL]] CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
+Skills-plane contract for **SKILLS SKILL CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
 ## 1. Scope
 Governs host skill packages exposing workflows; deployment infrastructure, never truth authorities as they bear on `SKILLS SKILL CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.

@@ -90,7 +90,7 @@ Implemented the Uncertainty & Calibration governance module for the AMOS OS Kern
 - **19 matrix gaps** (321-339)
 - **777 total tests** ## Related
 - [[adversarial_robustness_governance]]
-- [[2026_08_22_DISTRIBUTED_CONSENSUS_GOVERNANCE]]
+- 2026_08_22_DISTRIBUTED_CONSENSUS_GOVERNANCE
 - [[COSMO_BRAIN_MOC]]
 
 #uncertainty-calibration #governance #gaps-217-221 #closed #amos-os-kernel
@@ -209,12 +209,12 @@ collaboration that:
 2.1 Clarifies Ownership and
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -226,4 +226,4 @@ path: 07_SKILLS/amos-fx-bayesian-neural-sde-calibration-rscf-engine/references/v
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

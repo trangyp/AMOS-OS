@@ -225,7 +225,7 @@ Framework registry compiler is an operational construct. It does not prove all f
 - `amos-framework-registry-compiler-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -235,7 +235,7 @@ Framework registry compiler is an operational construct. It does not prove all f
 RSCF-NODE
 node_id: amos-framework-registry-compiler
 node_type: skill
-path: 07_SKILLS/amos-framework-registry-compiler/[[SKILL]].md
+path: 07_SKILLS/amos-framework-registry-compiler/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

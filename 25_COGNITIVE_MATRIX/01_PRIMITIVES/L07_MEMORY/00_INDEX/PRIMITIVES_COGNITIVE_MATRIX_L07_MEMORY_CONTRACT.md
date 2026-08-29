@@ -27,10 +27,10 @@ rscf:
   scope: index_navigation
 ---
 
-# PRIMITIVES COGNITIVE MATRIX L07 [[MEMORY]] CONTRACT
+# PRIMITIVES COGNITIVE MATRIX L07 MEMORY CONTRACT
 
 ## 0. Status
-Cognitive Matrix-plane contract for **COGNITIVE MATRIX L07 [[MEMORY]] CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
+Cognitive Matrix-plane contract for **COGNITIVE MATRIX L07 MEMORY CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
 ## 1. Scope
 Governs primitives L00–L29, lifecycle operations O00–O16, control planes C01–C09, scales, cell registry, routing, validation, generators as they bear on `COGNITIVE MATRIX L07 MEMORY CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.

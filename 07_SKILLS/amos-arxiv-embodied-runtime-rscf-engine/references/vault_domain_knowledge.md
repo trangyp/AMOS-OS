@@ -44,7 +44,7 @@ rscf:
 > New executable methods added to `cosmo-brain/AMOS_GO_BOARD_19X19.py` to make the 75-section formal specification runnable. 226 self-tests + 251 integration tests pass; 0 failures. 811 grand total across all suites (including 15 Obsidian bridge tests).
 >
 > Source: `cosmo-brain/AMOS_GO_BOARD_19X19.py`
-> See also: [[2026_08_22_AMOS_GO_BOARD_19X19_FORMAL_SYSTEM]] · [[2026_08_22_19X19_AI_COGNITIVE_FIELD]] · [[2026_08_22_TESTS_LOGIC_BRIDGE_REGISTRY]]
+> See also: 2026_08_22_AMOS_GO_BOARD_19X19_FORMAL_SYSTEM · 2026_08_22_19X19_AI_COGNITIVE_FIELD · 2026_08_22_TESTS_LOGIC_BRIDGE_REGISTRY
 
 ## 1. Move transition engine (§10-11)
 
@@ -171,8 +171,8 @@ runtime. These are the foundational layers beneath the governance modules.
 
 ## Links (2)
 - [[COSMO_BRAIN_MOC]]
-- [[2026_08_22_AMOS_ALL_249_GAPS_CLOSED]]
-- [[2026_08_22_TYPESCRIPT_DATA_QUALITY_GOVERNANCE]]
+- 2026_08_22_AMOS_ALL_249_GAPS_CLOSED
+- 2026_08_22_TYPESCRIPT_DATA_QUALITY_GOVERNANCE
 
 ---
 
@@ -247,16 +247,16 @@ Mixed VERIFIED + UNKNOWN claims = `DERIVED` (not all VERIFIED).
 ## Links
 
 - [[COSMO_BRAIN_MOC]]
-- [[2026_08_23_AMOS_ABI_AND_IO_TEST_EXPANSION]]
-- [[2026_08_22_AMOS_CORE_MODULE_TEST_COVERAGE]]
+- 2026_08_23_AMOS_ABI_AND_IO_TEST_EXPANSION
+- 2026_08_22_AMOS_CORE_MODULE_TEST_COVERAGE
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -268,4 +268,4 @@ path: 07_SKILLS/amos-arxiv-embodied-runtime-rscf-engine/references/vault_domain_
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

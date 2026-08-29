@@ -27,7 +27,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# [[CANON]] VARIABLE REGISTRY CONTRACT
+# CANON VARIABLE REGISTRY CONTRACT
 
 ## 0. Status
 Canon-plane contract for **VARIABLE REGISTRY CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.

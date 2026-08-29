@@ -23,7 +23,7 @@ This directory contains all AMOS OS skills, indexed by the 7-Part Universe Canon
 ## Skill Directory Structure
 Skills live at `.hermes/skills/amos-<name>/` and are synced to `07_SKILLS/amos-<name>/` via `hermes curator adopt`. The vault directory `07_SKILLS/` is the **canonical on-disk index**; `.hermes/skills/` is the **working copy** where skills are created and edited.
 
-## Canonical Entry Format ([[SKILL]].md)
+## Canonical Entry Format (SKILL.md)
 Each skill has a `SKILL.md` with YAML frontmatter and markdown body:
 
 ```yaml
@@ -39,7 +39,7 @@ confidence: HIGH | MEDIUM | FRONTIER
 ```
 
 ## 7-Part Mapping (Required)
-Every [[SKILL]].md MUST include a "## 7-Part Mapping" section:
+Every SKILL.md MUST include a "## 7-Part Mapping" section:
 
 | Part | Owned By | Gap Status |
 |------|----------|-----------|
@@ -51,7 +51,7 @@ Every [[SKILL]].md MUST include a "## 7-Part Mapping" section:
 | VI — Adaptation | <skill names> | <FILLED/EMPTY> |
 | VII — Termination | <skill names> | <FILLED/EMPTY> |
 
-## Known Skills (11 currently with [[SKILL]].md in hermes)
+## Known Skills (11 currently with SKILL.md in hermes)
 - amos-7-part-universe-canon — the 7-part canon itself (owned by Part I–VII)
 - amos-a-matrix-system-dynamics — A-Matrix dynamics (Part III: Structure)
 - amos-law-stack-enforcement — Law of Law/Rule of 2/Rule of 4 (Part IV: Enforcement)

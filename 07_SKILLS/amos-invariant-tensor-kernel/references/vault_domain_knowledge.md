@@ -67,7 +67,7 @@ This closes the last unowned composition surface in the QFM architecture: knowle
 
 # Formal Systems Invariants & Civilizational Dynamical Model (Trang Phan)
 
-> Canonical anchor for the formal invariant catalogs + the G–N–D–C–B dynamical system + 19×19 coupling matrix + micro↔macro civilization map. Supplement to [[2026_08_22_TRANG_PHI_FRAMEWORK]] (entropy/lacunarity/ASEA).
+> Canonical anchor for the formal invariant catalogs + the G–N–D–C–B dynamical system + 19×19 coupling matrix + micro↔macro civilization map. Supplement to 2026_08_22_TRANG_PHI_FRAMEWORK (entropy/lacunarity/ASEA).
 
 ## 1. The G–N–D–C–B dynamical system (universal stability model)
 
@@ -181,12 +181,12 @@ Successfully implemented and deployed the AMOS BRAIN OMEGA Ultimate Tensor Field
 - **Evidence Artifacts**: All
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -198,4 +198,4 @@ path: 07_SKILLS/amos-invariant-tensor-kernel/references/vault_domain_knowledge.m
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

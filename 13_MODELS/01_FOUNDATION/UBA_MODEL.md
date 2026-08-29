@@ -2814,7 +2814,7 @@ VALIDATED KNOWLEDGE
 
 # 172. Source Documentation
 
-[[README]] claims remain:
+README claims remain:
 
 ```text
 SOURCE_CLAIM
@@ -5310,7 +5310,7 @@ REQUIRED
 
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+AMOS MOC
 
 ---
 

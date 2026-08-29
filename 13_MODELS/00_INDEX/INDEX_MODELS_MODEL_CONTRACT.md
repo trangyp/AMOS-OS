@@ -481,7 +481,7 @@ Completeness requires separate validation.
 
 ---
 
-# 14. Models [[README]]
+# 14. Models README
 
 `` is explicitly linked as a companion artifact.
 
@@ -926,7 +926,7 @@ They do not automatically constitute artifact-specific validation of this index 
 Correct:
 
 ```text
-THE OS HAS REFERENCED [[VALIDATION]] PATTERNS
+THE OS HAS REFERENCED VALIDATION PATTERNS
 ```
 
 Incorrect:
@@ -972,7 +972,7 @@ but does not independently prove model-index correctness.
 Promotion requires:
 
 ```text
-EXECUTED [[VALIDATION]] RECEIPT
+EXECUTED VALIDATION RECEIPT
 SPECIFIC TO
 INDEX_MODELS_MODEL_CONTRACT
 ```
@@ -1289,7 +1289,7 @@ Example:
 
 ```yaml
 proposal:
-  add_link: "[[MODEL_X]]"
+  add_link: "MODEL_X"
   status: PROPOSED
 ```
 
@@ -2574,7 +2574,7 @@ can alter the result.
 Input:
 
 ```text
-[[NONEXISTENT_MODEL]]
+NONEXISTENT_MODEL
 ```
 
 Local result:
@@ -2618,7 +2618,7 @@ Do not select arbitrarily.
 Input:
 
 ```text
-[[MODEL_X
+MODEL_X
 ```
 
 Result:
@@ -2629,9 +2629,7 @@ MALFORMED
 
 Do not silently repair and commit the guessed target.
 
----
-
-# 150. Negative Case — Stale
+--- >  150. Negative Case — Stale
 
 The index points to:
 
@@ -2832,7 +2830,7 @@ The actual authoritative index resolver does not resolve by basename within its 
 
 ### F5 — Cross-plane contradiction
 
-Authoritative canon establishes a cross-plane route incompatible with `[[00_HOME]]` / `[[AMOS_RSCF_NODES]]`.
+Authoritative canon establishes a cross-plane route incompatible with `[[00_HOME` / `[[AMOS_RSCF_NODES]]`.
 
 ---
 
@@ -4169,8 +4167,8 @@ RSCF-RELATIONS:
 * INDEXED_BY: [[00_HOME]]
 * INDEXED_BY: [[AMOS_RSCF_NODES]]
 * INDEXED_BY: [[00_INDEX_MOC]]
-* [[REFERENCES]]: [[INDEX_MODELS_README]]
-* [[REFERENCES]]: [[MODEL_MAP]]
+* REFERENCES: [[INDEX_MODELS_README]]
+* REFERENCES: [[MODEL_MAP]]
 * GOVERNED_BY: [[LAW_HIERARCHY]]
 
 ---

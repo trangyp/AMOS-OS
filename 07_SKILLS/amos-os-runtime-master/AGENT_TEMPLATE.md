@@ -41,7 +41,7 @@ Domain master agent for AMOS OS & Runtime Master. Consolidates 141 sub-skills.
 - **Consolidation**: 141 sub-skills merged 2026-08-26
 
 ---
-**MOC:** [[SKILL]]
+**MOC:** SKILL
 
 ---
 **MOC:** [[amos-os-runtime-master_MOC]]

@@ -37,7 +37,7 @@ rscf:
 # AMOS Fairness, Ethics & Externalities (Gaps 274-279)
 
 > Epistemic class: MODEL (code artifact + test verification).
-> Related: [[2026_08_22_AMOS_ACCESSIBILITY_I18N]] · [[2026_08_22_AMOS_PRIVACY_COMPLIANCE_LICENSING]] · amos-completion-graph-workflow
+> Related: 2026_08_22_AMOS_ACCESSIBILITY_I18N · 2026_08_22_AMOS_PRIVACY_COMPLIANCE_LICENSING · amos-completion-graph-workflow
 
 ## Summary (2)
 
@@ -183,7 +183,7 @@ This is the governance layer of the AMOS Universe OS — it sits between the tec
 # AMOS Governance Architecture & Decommissioning (Gaps 280-290)
 
 > Epistemic class: MODEL (code artifact + test verification).
-> Related: [[2026_08_22_AMOS_FAIRNESS_ETHICS_EXTERNALITIES]] · [[2026_08_22_AMOS_ACCESSIBILITY_I18N]] · amos-completion-graph-workflow
+> Related: 2026_08_22_AMOS_FAIRNESS_ETHICS_EXTERNALITIES · 2026_08_22_AMOS_ACCESSIBILITY_I18N · amos-completion-graph-workflow
 
 ## Summary
 
@@ -230,12 +230,12 @@ This is the 22nd governance gate in `AmosKernel.run()`, evaluated post-execution
 4. **Two-person control**: VERIFIED,
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -247,4 +247,4 @@ path: 07_SKILLS/amos-ethics-os-governor/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

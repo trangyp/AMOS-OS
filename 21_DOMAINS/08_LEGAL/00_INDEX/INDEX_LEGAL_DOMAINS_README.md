@@ -28,7 +28,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX LEGAL DOMAINS [[README]]
+# INDEX LEGAL DOMAINS README
 
 ## Index
 - See also — [[LEGAL_DOMAINS_LEGAL_CONTRACT]]

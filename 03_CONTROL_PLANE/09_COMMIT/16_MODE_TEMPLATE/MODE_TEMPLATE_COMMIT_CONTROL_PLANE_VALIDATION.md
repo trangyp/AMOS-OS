@@ -27,7 +27,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# MODE TEMPLATE COMMIT CONTROL PLANE [[VALIDATION]]
+# MODE TEMPLATE COMMIT CONTROL PLANE VALIDATION
 
 ## 0. Status
 Control Plane-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.

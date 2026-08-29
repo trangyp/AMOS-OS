@@ -77,4 +77,4 @@ Per `01_CANON/01_CORE_LAWS/COLLAPSE_CANON.md`:
 
 ---
 
-**MOC:** [[references_MOC]] · [[00_HOME]]
+**MOC:** references_MOC · [[00_HOME]]

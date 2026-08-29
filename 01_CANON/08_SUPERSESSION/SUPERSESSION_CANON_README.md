@@ -31,7 +31,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# SUPERSESSION [[CANON]] [[README]]
+# SUPERSESSION CANON README
 
 ## Purpose
 `SUPERSESSION CANON README` is the package readme for the **Canon** plane segment at `01_CANON/08_SUPERSESSION`.

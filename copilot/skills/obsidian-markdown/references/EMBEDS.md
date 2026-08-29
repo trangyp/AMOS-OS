@@ -1,9 +1,9 @@
 # Embeds reference
 
 ~~~markdown
-![[Note Name]]
-![[Note Name#Heading]]
-![[Note Name#^block-id]]
+!Note Name
+!Note Name > Heading
+!Note Name > ^block-id
 
 ![[image.png]]
 ![[image.png|640x480]]

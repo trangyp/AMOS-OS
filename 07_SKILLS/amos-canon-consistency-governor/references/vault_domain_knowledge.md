@@ -130,11 +130,11 @@ This is not merely a taxonomy. The source attempts to define a **reasoning and s
 
 ---
 
-### Source 2: AMOS [[CANON]] Integration Marker
+### Source 2: AMOS CANON Integration Marker
 
 > Path: `amos-general/A/CANON/AMOS CANON Integration Marker.md` | Size: 24840 chars | Match score: 10
 
-# AMOS [[CANON]] Integration Marker
+# AMOS CANON Integration Marker
 
 ## Overview
 
@@ -495,9 +495,9 @@ class PatchR
 **Related:** [[amos-canon-consistency-governor_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -509,4 +509,4 @@ path: 07_SKILLS/amos-canon-consistency-governor/references/vault_domain_knowledg
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

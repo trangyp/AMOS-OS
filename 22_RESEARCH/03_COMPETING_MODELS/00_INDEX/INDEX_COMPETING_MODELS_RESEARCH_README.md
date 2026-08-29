@@ -27,7 +27,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX COMPETING MODELS RESEARCH [[README]]
+# INDEX COMPETING MODELS RESEARCH README
 
 ## Index
 - See also — [[COMPETING_MODELS_MAP]]

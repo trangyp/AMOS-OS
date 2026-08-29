@@ -30,7 +30,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX L07 [[MEMORY]] PRIMITIVES COGNITIVE MATRIX [[README]]
+# INDEX L07 MEMORY PRIMITIVES COGNITIVE MATRIX README
 
 ## Index
 - See also — [[L07_MEMORY_MAP]]

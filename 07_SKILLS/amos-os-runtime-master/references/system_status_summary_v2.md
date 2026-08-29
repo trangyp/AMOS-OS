@@ -83,7 +83,7 @@ IP Blocking: Automated
 
 ---
 
-## [[INTEGRATION]] TEST RESULTS
+## INTEGRATION TEST RESULTS
 
 ### **Test Summary**
 ```
@@ -192,21 +192,21 @@ IP Blocking: ✅ AUTOMATED
 
 ---
 
-## [[MEMORY]] STATUS
+## MEMORY STATUS
 
 ### **Memory Op
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -218,4 +218,4 @@ path: 07_SKILLS/amos-os-runtime-master/references/system_status_summary_v2.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

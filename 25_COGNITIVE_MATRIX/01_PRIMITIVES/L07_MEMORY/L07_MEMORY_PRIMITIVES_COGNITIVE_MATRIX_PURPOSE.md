@@ -33,7 +33,7 @@ Covers write gating, consolidation thresholds, retrieval diversity, and falsific
 
 ## Purpose
 
-[[MEMORY]].
+MEMORY.
 
 Durable storage of consolidated knowledge with trust-state lifecycle (TRUSTED → PROVISIONAL → QUARANTINED → …).
 

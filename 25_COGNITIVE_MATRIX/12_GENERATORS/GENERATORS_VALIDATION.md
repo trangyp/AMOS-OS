@@ -49,7 +49,7 @@ rscf:
 
 `GENERATORS_VALIDATION.md` is an **ADD-ONLY placeholder-expanded artifact** for the **25_COGNITIVE_MATRIX** plane segment.
 
-It reserves the canonical slot for the AMOS framework family named **GENERATORS [[VALIDATION]]**.
+It reserves the canonical slot for the AMOS framework family named **GENERATORS VALIDATION**.
 
 The artifact is presently:
 
@@ -3141,7 +3141,7 @@ The central relationship should remain:
 12_GENERATORS/[[GENERATOR_CONTRACT]].md
           ↓ defines generator semantics
 
-12_GENERATORS/[[VALIDATION]].md
+12_GENERATORS/VALIDATION.md
           ↓ validates generator + output
 
 11_VALIDATION/[[PROMOTION_GATES]].md

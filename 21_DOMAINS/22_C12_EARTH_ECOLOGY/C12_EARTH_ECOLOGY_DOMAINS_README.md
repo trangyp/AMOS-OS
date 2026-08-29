@@ -28,7 +28,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# C12 EARTH ECOLOGY DOMAINS [[README]]
+# C12 EARTH ECOLOGY DOMAINS README
 
 ## Purpose
 `C12 EARTH ECOLOGY DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/22_C12_EARTH_ECOLOGY`.

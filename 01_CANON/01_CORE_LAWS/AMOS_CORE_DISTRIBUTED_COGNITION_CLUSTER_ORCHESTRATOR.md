@@ -132,9 +132,9 @@ IMPLEMENTATION
 
 IMPLEMENTATION
 ≠
-[[VALIDATION]]
+VALIDATION
 
-[[VALIDATION]]
+VALIDATION
 ≠
 PRODUCTION READINESS
 
@@ -382,7 +382,7 @@ TOKENS
 WALL_TIME
 TOOL_CALLS
 RETRIES
-[[MEMORY]]
+MEMORY
 COMPUTE
 EVIDENCE_ACQUISITION
 VERIFICATION_EFFORT
@@ -733,7 +733,7 @@ Implementation is a proposal until verification and governance gates pass.
 Role:
 
 ```text
-ADVERSARIAL [[VALIDATION]]
+ADVERSARIAL VALIDATION
 ```
 
 Responsibilities:
@@ -799,7 +799,7 @@ Compression MUST NOT increase confidence.
 Role:
 
 ```text
-GOVERNANCE [[VALIDATION]]
+GOVERNANCE VALIDATION
 ```
 
 Responsibilities:
@@ -3085,7 +3085,7 @@ No state may be inferred solely because later-state terminology appears in docum
 Target bindings:
 
 ```text
-[[CANON]]
+CANON
   ↓ governs
 DCO [[ARCHITECTURE]]
 

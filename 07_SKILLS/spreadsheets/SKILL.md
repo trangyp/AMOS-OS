@@ -223,7 +223,7 @@ This utility skill is an operational tool. It does not prove content correctness
 - `spreadsheets-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -233,7 +233,7 @@ This utility skill is an operational tool. It does not prove content correctness
 RSCF-NODE
 node_id: spreadsheets
 node_type: skill
-path: 07_SKILLS/spreadsheets/[[SKILL]].md
+path: 07_SKILLS/spreadsheets/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

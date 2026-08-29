@@ -36,13 +36,13 @@ tags:
 canon-group: canon/root
 ---
 
----title: "[[CANON]] [[README]]"
+---title: "CANON README"
 type: document
 tags: [note]
 ---
 
 
-# [[CANON]] [[README]]
+# CANON README
 
 > **AMOS OS Canon Plane — orientation, authority boundaries, admission semantics, lineage, provenance, supersession, and canonical-state governance.**
 
@@ -91,7 +91,7 @@ Its scope includes, where corresponding artifacts exist:
 * compatibility boundaries;
 * version and epoch relationships.
 
-This [[README]] does **not** make every file inside `01_CANON` authoritative.
+This README does **not** make every file inside `01_CANON` authoritative.
 
 It defines the navigation and governance model by which authoritative status must be resolved.
 
@@ -1236,61 +1236,61 @@ An unresolved required invariant is not equivalent to `PASS`.
 
 Canonical identifiers should ultimately resolve to explicit registry definitions. Until such registry bindings are confirmed, the following names are conceptual.
 
-### I-[[CANON]]-IDENTITY
+### I-CANON-IDENTITY
 
 ```text
 No consequential canonical mutation without resolvable artifact identity.
 ```
 
-### I-[[CANON]]-PROVENANCE
+### I-CANON-PROVENANCE
 
 ```text
 No canonical promotion requiring evidence without recoverable load-bearing provenance.
 ```
 
-### I-[[CANON]]-AUTHORITY
+### I-CANON-AUTHORITY
 
 ```text
 No canonical mutation without valid authority for the requested mutation scope.
 ```
 
-### I-[[CANON]]-VERSION
+### I-CANON-VERSION
 
 ```text
 No stale write may silently overwrite a newer authoritative state.
 ```
 
-### I-[[CANON]]-SCOPE
+### I-CANON-SCOPE
 
 ```text
 No claim may silently expand beyond its validated applicability envelope.
 ```
 
-### I-[[CANON]]-REGIME
+### I-CANON-REGIME
 
 ```text
 No stale regime-bound conclusion may be reused after a material regime shift without revalidation.
 ```
 
-### I-[[CANON]]-CONTRADICTION
+### I-CANON-CONTRADICTION
 
 ```text
 No unresolved material contradiction may be erased merely to produce a single answer.
 ```
 
-### I-[[CANON]]-CONFIDENCE
+### I-CANON-CONFIDENCE
 
 ```text
 Derived confidence cannot exceed the weakest unresolved load-bearing premise.
 ```
 
-### I-[[CANON]]-PROPOSAL-COMMIT
+### I-CANON-PROPOSAL-COMMIT
 
 ```text
 Proposal is never equivalent to commit.
 ```
 
-### I-[[CANON]]-UNKNOWN
+### I-CANON-UNKNOWN
 
 ```text
 UNKNOWN/GAP on a load-bearing gate cannot be interpreted as PASS.
@@ -1325,7 +1325,7 @@ SWAP(candidate_state)
 
 only after all other required gates pass.
 
-This [[README]] does not assert that a specific underlying repository currently implements full MVCC or CAS semantics.
+This README does not assert that a specific underlying repository currently implements full MVCC or CAS semantics.
 
 ---
 
@@ -1804,9 +1804,9 @@ The normative package-level contract SHOULD reside in:
 
 ```
 
-This [[README]] is an orientation and integration surface.
+This README is an orientation and integration surface.
 
-If this [[README]] conflicts with a properly admitted higher-authority Canon contract:
+If this README conflicts with a properly admitted higher-authority Canon contract:
 
 ```text
 README yields to higher-authority admitted contract
@@ -1920,7 +1920,7 @@ GitHub may provide:
 
 GitHub does not inherently provide epistemic authority.
 
-A [[README]] claim in GitHub remains:
+A README claim in GitHub remains:
 
 ```text
 SOURCE_CLAIM
@@ -2650,7 +2650,7 @@ Each transition requires its own evidence.
 
 ---
 
-# 83. Current epistemic status of this [[README]]
+# 83. Current epistemic status of this README
 
 This document should be interpreted as:
 
@@ -2713,7 +2713,7 @@ Until verified, these remain implementation questions rather than established ca
 
 # 85. Promotion-gate checklist for this artifact
 
-Before this [[README]] itself is promoted beyond `MODEL`:
+Before this README itself is promoted beyond `MODEL`:
 
 * [ ] authoritative source references resolved
 * [ ] `CANON_CANON_CONTRACT` compatibility checked
@@ -2776,7 +2776,7 @@ EVENT_EMITTED != STATE_COMMITTED
 
 ---
 
-# 87. RSCF state for this [[README]]
+# 87. RSCF state for this README
 
 ```yaml
 RSCF:

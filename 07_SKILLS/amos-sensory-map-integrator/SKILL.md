@@ -222,7 +222,7 @@ Neurotransmitter mapping is SOURCE_CLAIM (vault-sourced structural model). Biolo
 - `amos-sensory-map-integrator-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -232,7 +232,7 @@ Neurotransmitter mapping is SOURCE_CLAIM (vault-sourced structural model). Biolo
 RSCF-NODE
 node_id: amos-sensory-map-integrator
 node_type: skill
-path: 07_SKILLS/amos-sensory-map-integrator/[[SKILL]].md
+path: 07_SKILLS/amos-sensory-map-integrator/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

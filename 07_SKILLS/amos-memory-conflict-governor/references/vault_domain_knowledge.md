@@ -219,16 +219,16 @@ Cashflow_Agent, Finance_Agent, Fin
 | L3 | Rule of 4 — every biological act operates across 4 entangled quadrants: biological mechanisms, experiential/phenomenological real-time signal, logical/structural mapping, systemic/situational context | TRUE | epistemic+structural | IMPOSSIBLE to by
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -240,4 +240,4 @@ path: 07_SKILLS/amos-memory-conflict-governor/references/vault_domain_knowledge.
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

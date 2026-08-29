@@ -2587,7 +2587,7 @@ UNKNOWN/GAP.
 
 ## Related
 
-[[README]] ·
+README ·
 [[ARCHITECTURE]] ·
 [[DEPENDENCY_MAP]] ·
 [[AMOS_CORE_LAWS]] ·
@@ -2610,11 +2610,11 @@ UNKNOWN/GAP.
 [[K_CAUSAL_CLOSURE]] ·
 [[K_CAUSAL_EPOCH]] ·
 11_KNOWLEDGE/00_AMOS_Full_Brain_OS_Architecture ·
-[[README]] ·
-[[README]] ·
-[[README]] ·
-[[README]] ·
-[[README]]
+README ·
+README ·
+README ·
+README ·
+README
 
 ```text
 ```

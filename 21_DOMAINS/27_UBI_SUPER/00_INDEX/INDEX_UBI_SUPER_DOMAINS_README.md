@@ -28,7 +28,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX UBI SUPER DOMAINS [[README]]
+# INDEX UBI SUPER DOMAINS README
 
 ## Index
 - See also — [[UBI_SUPER_DOMAINS_UBI_SUPER_CONTRACT]]

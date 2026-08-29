@@ -28,7 +28,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# C01 META LOGIC DOMAINS [[README]]
+# C01 META LOGIC DOMAINS README
 
 ## Purpose
 `C01 META LOGIC DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/11_C01_META_LOGIC`.

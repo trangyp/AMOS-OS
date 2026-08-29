@@ -124,4 +124,4 @@ This skill is governed by the AMOS constitutional law hierarchy. See `01_CANON/0
 
 ---
 
-**MOC:** [[references_MOC]] · [[00_HOME]]
+**MOC:** references_MOC · [[00_HOME]]

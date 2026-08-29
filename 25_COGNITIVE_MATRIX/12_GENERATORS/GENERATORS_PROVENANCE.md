@@ -1968,7 +1968,7 @@ Generator provenance should preserve the lineage of each transition rather than 
 
 # 90. Documentation claim status
 
-[[README]]/documentation claims remain:
+README/documentation claims remain:
 
 ```text
 SOURCE_CLAIM
@@ -3420,7 +3420,7 @@ The intended separation across `12_GENERATORS` is now:
 PROVENANCE.md
 → where Generator inputs/outputs came from and how lineage persists
 
-[[VALIDATION]].md
+VALIDATION.md
 → whether Generator/output satisfies declared contracts
 
 TESTS.md

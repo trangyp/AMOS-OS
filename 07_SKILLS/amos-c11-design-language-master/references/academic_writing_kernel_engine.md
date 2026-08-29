@@ -35,16 +35,16 @@ economics \u2192 policy).\",\n      \"implications\": [\n        \"abstract_conc
 Each mode activates specific pipelines and constraints.\"\n  },\n  \"layer_stack\": {\n    \"L1_problem_formulation_layer\": {\n      \"description\": \"Transforms raw topic ideas into crisp research questions, objectives, and hypotheses.\",\n      \"inputs\": [\n        \"raw_topic_description\",\n        \"background_context\",\n        \"constraints (time, data, domain, contribution_type)\"\n      ],\n      \"outputs\": [\n        \"formal_research_question\",\n        \"sub_questions\",\n        \"operational_objectives\",\n        \"candidate_hypotheses\"\n      ],\n      \"submodules\": {\n        \"L1A_topic_normalizer\": {\n          \"function\": \"Convert vague/ambiguous topic phrasing into a normalized academic topic with clear boundaries.\",\n          \"examples\": [\n            \"from: 'AI and emotions' \u2192 to: 'computational modeling of human emotional states using multimodal signals under constrained datasets'\",\n
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -56,4 +56,4 @@ path: 07_SKILLS/amos-c11-design-language-master/references/academic_writing_kern
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

@@ -3045,10 +3045,10 @@ HISTORY.md
 [[ROADMAP]].md
 → intended future evolution
 
-[[INTEGRATION]].md
+INTEGRATION.md
 → relationships among live subsystem boundaries
 
-[[VALIDATION]].md
+VALIDATION.md
 → admissibility evidence
 
 TESTS.md

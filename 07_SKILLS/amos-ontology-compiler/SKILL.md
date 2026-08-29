@@ -224,7 +224,7 @@ Ontology compiler is an AMOS_MODEL. It does not prove all ontologies are compila
 - `amos-ontology-compiler-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -234,7 +234,7 @@ Ontology compiler is an AMOS_MODEL. It does not prove all ontologies are compila
 RSCF-NODE
 node_id: amos-ontology-compiler
 node_type: skill
-path: 07_SKILLS/amos-ontology-compiler/[[SKILL]].md
+path: 07_SKILLS/amos-ontology-compiler/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

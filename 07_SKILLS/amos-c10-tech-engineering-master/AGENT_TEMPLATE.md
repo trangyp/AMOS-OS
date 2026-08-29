@@ -41,7 +41,7 @@ Domain master agent for AMOS C10 — Tech & Engineering Master. Consolidates 54 
 - **Consolidation**: 54 sub-skills merged 2026-08-26
 
 ---
-**MOC:** [[SKILL]]
+**MOC:** SKILL
 
 ---
 **MOC:** [[amos-c10-tech-engineering-master_MOC]]

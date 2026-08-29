@@ -29,7 +29,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# [[MEMORY]] MODES COMMIT CONTROL PLANE [[README]]
+# MEMORY MODES COMMIT CONTROL PLANE README
 
 ## Purpose
 `MEMORY MODES COMMIT CONTROL PLANE README` is the package readme for the **Control Plane** plane segment at `03_CONTROL_PLANE/09_COMMIT/18_MEMORY_MODES`.

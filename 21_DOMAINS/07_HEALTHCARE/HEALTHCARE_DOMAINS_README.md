@@ -30,7 +30,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# HEALTHCARE DOMAINS [[README]]
+# HEALTHCARE DOMAINS README
 
 ## Purpose
 `HEALTHCARE DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/07_HEALTHCARE`.

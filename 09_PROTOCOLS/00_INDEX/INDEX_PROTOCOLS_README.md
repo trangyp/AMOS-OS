@@ -28,7 +28,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX PROTOCOLS [[README]]
+# INDEX PROTOCOLS README
 
 ## Index
 - See also — [[INDEX_PROTOCOLS_PROTOCOL_CONTRACT]]

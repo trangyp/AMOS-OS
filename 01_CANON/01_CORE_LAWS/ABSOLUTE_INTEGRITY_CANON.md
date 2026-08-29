@@ -2310,7 +2310,7 @@ knowledge_object:
 
 # 84. Documentation Integrity
 
-[[README]], documentation, architecture descriptions, and comments remain:
+README, documentation, architecture descriptions, and comments remain:
 
 ```text
 SOURCE_CLAIM

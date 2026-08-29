@@ -27,14 +27,14 @@ rscf:
 Map-of-content for the Auto Tag Obsidian plugin skill.
 
 ## Skill
-- [[SKILL]] — obsidian-plugin-auto-tag skill definition
+- SKILL — obsidian-plugin-auto-tag skill definition
 
 ## Reference
-- [[references/vault_domain_knowledge]] — plugin documentation and integration notes
+- references/vault_domain_knowledge — plugin documentation and integration notes
 
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[SKILL]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · SKILL
 
 **MOC:** [[07_SKILLS_MOC]]
 

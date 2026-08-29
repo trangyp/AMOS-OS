@@ -29,7 +29,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX OPERATING MODEL [[README]]
+# INDEX OPERATING MODEL README
 
 ## Index
 - See also — [[INDEX_OPERATING_MODEL_OPERATING_MODEL_CONTRACT]]

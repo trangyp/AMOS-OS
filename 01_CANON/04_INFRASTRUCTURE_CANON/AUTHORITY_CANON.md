@@ -2422,7 +2422,7 @@ DO NOT INVENT IT.
 
 ---
 
-**Related:** [[README]]|AMOS OS · [[ARCHITECTURE]]|Architecture · [[SYSTEM_MAP]]|System Map · [[PLACEMENT_RULES]]|Placement Rules · [[CANON_MAP]]|Canon Map · [[AMOS_CORE_LAWS|AMOS Core Laws]] · [[INVARIANT_REGISTRY]]|Invariant Registry · [[LAW_HIERARCHY]]|Law Hierarchy · [[PERSISTENCE_CANON]]|Persistence Canon · [[COGNITION_CANON]]|Cognition Canon · [[FULL_BRAIN_OS_CANON]]|Full Brain OS Canon · [[KERNEL_MAP]]|Kernel Map · [[CONTROL_PLANE_MAP]]|Control Plane Map · [[RUNTIME_MAP]]|Runtime Map · [[AGENT_MAP]]|Agent Map · [[WORKFLOW_MAP]]|Workflow Map · [[PROTOCOL_MAP]]|Protocol Map · [[STATE_STATE_MAP]]|State Map · [[TOOL_MAP]]|Tool Map · [[SCHEMA_MAP]]|Schema Map · [[OBSERVABILITY_OBSERVABILITY_MAP]]|Observability Map · [[SECURITY_MAP]]|Security Map · [[TEST_MAP]]|Test Map · [[OPERATIONS_MAP]]|Operations Map · [[OPERATING_MODEL]]|Operating Model
+**Related:** README|AMOS OS · [[ARCHITECTURE]]|Architecture · [[SYSTEM_MAP]]|System Map · [[PLACEMENT_RULES]]|Placement Rules · [[CANON_MAP]]|Canon Map · [[AMOS_CORE_LAWS|AMOS Core Laws]] · [[INVARIANT_REGISTRY]]|Invariant Registry · [[LAW_HIERARCHY]]|Law Hierarchy · [[PERSISTENCE_CANON]]|Persistence Canon · [[COGNITION_CANON]]|Cognition Canon · [[FULL_BRAIN_OS_CANON]]|Full Brain OS Canon · [[KERNEL_MAP]]|Kernel Map · [[CONTROL_PLANE_MAP]]|Control Plane Map · [[RUNTIME_MAP]]|Runtime Map · [[AGENT_MAP]]|Agent Map · [[WORKFLOW_MAP]]|Workflow Map · [[PROTOCOL_MAP]]|Protocol Map · [[STATE_STATE_MAP]]|State Map · [[TOOL_MAP]]|Tool Map · [[SCHEMA_MAP]]|Schema Map · [[OBSERVABILITY_OBSERVABILITY_MAP]]|Observability Map · [[SECURITY_MAP]]|Security Map · [[TEST_MAP]]|Test Map · [[OPERATIONS_MAP]]|Operations Map · [[OPERATING_MODEL]]|Operating Model
 
 ---
 

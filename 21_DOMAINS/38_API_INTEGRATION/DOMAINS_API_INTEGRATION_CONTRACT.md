@@ -26,10 +26,10 @@ rscf:
   scope: AMOS_general
 ---
 
-# DOMAINS API [[INTEGRATION]] CONTRACT
+# DOMAINS API INTEGRATION CONTRACT
 
 ## 0. Status
-Domains-plane contract for **DOMAINS API [[INTEGRATION]] CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
+Domains-plane contract for **DOMAINS API INTEGRATION CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
 ## 1. Scope
 Governs C-family domain engine mappings (C01–C12) onto the OS planes as they bear on `DOMAINS API INTEGRATION CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.

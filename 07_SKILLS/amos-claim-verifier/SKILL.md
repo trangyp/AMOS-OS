@@ -226,7 +226,7 @@ Claim verification is an epistemic governance construct. It does not prove claim
 - `amos-claim-verifier-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
 
 **MOC:** [[07_SKILLS_MOC]]
 
@@ -236,7 +236,7 @@ Claim verification is an epistemic governance construct. It does not prove claim
 RSCF-NODE
 node_id: amos-claim-verifier
 node_type: skill
-path: 07_SKILLS/amos-claim-verifier/[[SKILL]].md
+path: 07_SKILLS/amos-claim-verifier/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

@@ -29,7 +29,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# TASK CONTRACT CONTROL PLANE [[README]]
+# TASK CONTRACT CONTROL PLANE README
 
 ## Purpose
 `TASK CONTRACT CONTROL PLANE README` is the package readme for the **Control Plane** plane segment at `03_CONTROL_PLANE/01_TASK_CONTRACT`.

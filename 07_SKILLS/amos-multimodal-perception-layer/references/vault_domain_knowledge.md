@@ -76,7 +76,7 @@ rscf:
  },
 
  // -------------------------------------------------
- // 1. [[CANON]] REGISTRY (WHAT EXISTS)
+ // 1. CANON REGISTRY (WHAT EXISTS)
  // -------------------------------------------------
  "CIL_Registry": {
  "Canon_Groups": [
@@ -241,16 +241,16 @@ I have successfully implemented the **complete AMOS Nervous System Framework** f
 ### **Technical Excellence Achieved** **Signal Schema**: Complete signal encoding with 8 signal types and comprehensive metadata **Link Tensor**: 3D tensor with 9 link types and dynamic s
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -262,4 +262,4 @@ path: 07_SKILLS/amos-multimodal-perception-layer/references/vault_domain_knowled
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

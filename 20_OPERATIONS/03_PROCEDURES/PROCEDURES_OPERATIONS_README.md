@@ -26,7 +26,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# PROCEDURES OPERATIONS [[README]]
+# PROCEDURES OPERATIONS README
 
 ## Purpose
 `PROCEDURES OPERATIONS README` is the package readme for the **Operations** plane segment at `20_OPERATIONS/03_PROCEDURES`.

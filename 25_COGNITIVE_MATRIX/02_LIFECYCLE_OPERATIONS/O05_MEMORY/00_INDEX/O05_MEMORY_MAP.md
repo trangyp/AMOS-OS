@@ -27,9 +27,9 @@ rscf:
   scope: index_navigation
 ---
 
-# O05 [[MEMORY]] MAP
+# O05 MEMORY MAP
 
-## Map — O05 [[MEMORY]] MAP
+## Map — O05 MEMORY MAP
 Navigation map for the `25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O05_MEMORY/00_INDEX` segment of the Cognitive Matrix plane.
 
 - **Readme** — [[INDEX_O05_MEMORY_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_README]]

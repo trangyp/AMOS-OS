@@ -30,7 +30,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# L03_PERCEPT_FORMATION — [[README]]
+# L03_PERCEPT_FORMATION — README
 
 **Class:** `COGNITIVE_PRIMITIVE_CONTRACT`
 **Origin architect / steward:** Trang Phan
@@ -156,7 +156,7 @@ what is unknown
 
 ## 2.1 Architecture-level alignment
 
-This [[README]] is aligned with available AMOS architecture concerning:
+This README is aligned with available AMOS architecture concerning:
 
 ```text
 AMOS Full Brain OS
@@ -1491,7 +1491,7 @@ empirical_validation: false
 
 # 24. Falsifiers
 
-This [[README]] must be revised if stronger canonical or executable evidence establishes:
+This README must be revised if stronger canonical or executable evidence establishes:
 
 ```text
 a materially different purpose for L03
@@ -1519,7 +1519,7 @@ different authority/commit boundary
 or executable canonical behavior contradicting this model
 ```
 
-No L03-specific claim should be promoted merely because it is internally coherent with the rest of this [[README]].
+No L03-specific claim should be promoted merely because it is internally coherent with the rest of this README.
 
 ---
 

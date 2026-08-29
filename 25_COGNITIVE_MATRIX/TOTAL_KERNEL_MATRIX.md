@@ -4285,7 +4285,7 @@ The deepest compression is:
 
 $$
 \boxed{
-[[CANON]]
+CANON
 \neq
 FRAMEWORK
 \neq

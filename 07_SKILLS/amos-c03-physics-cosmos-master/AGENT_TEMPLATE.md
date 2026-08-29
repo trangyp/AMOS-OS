@@ -41,7 +41,7 @@ Domain master agent for AMOS C03 — Physics & Cosmos Master. Consolidates 98 su
 - **Consolidation**: 98 sub-skills merged 2026-08-26
 
 ---
-**MOC:** [[SKILL]]
+**MOC:** SKILL
 
 ---
 **MOC:** [[amos-c03-physics-cosmos-master_MOC]]

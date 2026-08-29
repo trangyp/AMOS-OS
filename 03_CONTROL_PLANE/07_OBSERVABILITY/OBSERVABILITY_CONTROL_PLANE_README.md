@@ -31,7 +31,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# OBSERVABILITY CONTROL PLANE [[README]]
+# OBSERVABILITY CONTROL PLANE README
 
 ## Purpose
 `OBSERVABILITY CONTROL PLANE README` is the package readme for the **Control Plane** plane segment at `03_CONTROL_PLANE/07_OBSERVABILITY`.

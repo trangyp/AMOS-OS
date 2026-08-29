@@ -75,7 +75,7 @@ governance:
   independence_must_be_demonstrated: true
 ---
 
-# [[CANON]] UNIVERSE [[CANON]] CONTRACT
+# CANON UNIVERSE CANON CONTRACT
 
 > **Origin architect / steward:** Trang Phan
 > **System:** AMOS OS
@@ -3318,7 +3318,7 @@ RECOVER TO THE NEAREST VALID STATE.
 | Dimension                        | Current state      |
 | -------------------------------- | ------------------ |
 | Artifact identity                | SOURCE-DEFINED     |
-| Artifact type                    | [[CANON]] CONTRACT     |
+| Artifact type                    | CANON CONTRACT     |
 | Epistemic class                  | AMOS_MODEL         |
 | Canonical status                 | CONDITIONAL        |
 | Implementation                   | PARTIAL            |

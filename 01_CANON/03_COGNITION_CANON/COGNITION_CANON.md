@@ -1794,7 +1794,7 @@ Promotion must preserve provenance.
 
 # 83. Documentation Firewall
 
-Documentation and [[README]] statements begin as:
+Documentation and README statements begin as:
 
 ```text
 SOURCE_CLAIM
@@ -2411,7 +2411,7 @@ STRONGER THAN THE EVIDENCE.
 
 ---
 
-**Related:** [[README]]|AMOS OS · [[00_ROOT_MOC]]|MOC · [[ARCHITECTURE]]|Architecture · [[SYSTEM_MAP]]|System Map · [[NEURAL_NETWORK]]|AMOS Neural Network · AMOS Canon · [[CANON_MAP]]|Canon Map · [[AMOS_CORE_LAWS|AMOS Core Laws]] · [[INVARIANT_REGISTRY]]|Invariant Registry · [[LAW_HIERARCHY]]|Law Hierarchy · [[HML_CANON]]|H/M/L Canon · [[PERSISTENCE_CANON]]|Persistence Canon · [[KERNEL_MAP]]|Kernel Map · [[CONTROL_PLANE_MAP]]|Control Plane Map · [[RUNTIME_MAP]]|Runtime Map · [[COGNITIVE_ORGANISM_MAP]]|Cognitive Organism Map · [[AGENT_MAP]]|Agent Map · [[WORKFLOW_MAP]]|Workflow Map · [[MEMORY_MEMORY_MAP]]|Memory Map · Knowledge Map · [[STATE_STATE_MAP]]|State Map · [[MODEL_MAP]]|Model Map · [[SCHEMA_MAP]]|Schema Map · [[OBSERVABILITY_OBSERVABILITY_MAP]]|Observability Map · [[TEST_MAP]]|Test Map · [[COGNITIVE_MATRIX_ARCHITECTURE]]|Cognitive Matrix
+**Related:** README|AMOS OS · [[00_ROOT_MOC]]|MOC · [[ARCHITECTURE]]|Architecture · [[SYSTEM_MAP]]|System Map · [[NEURAL_NETWORK]]|AMOS Neural Network · AMOS Canon · [[CANON_MAP]]|Canon Map · [[AMOS_CORE_LAWS|AMOS Core Laws]] · [[INVARIANT_REGISTRY]]|Invariant Registry · [[LAW_HIERARCHY]]|Law Hierarchy · [[HML_CANON]]|H/M/L Canon · [[PERSISTENCE_CANON]]|Persistence Canon · [[KERNEL_MAP]]|Kernel Map · [[CONTROL_PLANE_MAP]]|Control Plane Map · [[RUNTIME_MAP]]|Runtime Map · [[COGNITIVE_ORGANISM_MAP]]|Cognitive Organism Map · [[AGENT_MAP]]|Agent Map · [[WORKFLOW_MAP]]|Workflow Map · [[MEMORY_MEMORY_MAP]]|Memory Map · Knowledge Map · [[STATE_STATE_MAP]]|State Map · [[MODEL_MAP]]|Model Map · [[SCHEMA_MAP]]|Schema Map · [[OBSERVABILITY_OBSERVABILITY_MAP]]|Observability Map · [[TEST_MAP]]|Test Map · [[COGNITIVE_MATRIX_ARCHITECTURE]]|Cognitive Matrix
 
 ---
 

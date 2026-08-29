@@ -124,7 +124,7 @@ Designed to approximate 100% conceptual coverage for biological modeling and AI 
 AMOS Brain Performance Optimization System
 ========================================
 
-PERFORMANCE SURGEON AGENT - COMPREHENSIVE OPTIMIZATION WITH AMOS BRAIN [[INTEGRATION]]
+PERFORMANCE SURGEON AGENT - COMPREHENSIVE OPTIMIZATION WITH AMOS BRAIN INTEGRATION
 Complete performance optimization using strongest AMOS brain for analysis and implementation.
 """
 
@@ -208,16 +208,16 @@ class AMOSBrainPerformanceOptimizer:
  logger.info(f" Hypothesis Class: {self.hypothesis_class}")
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -229,4 +229,4 @@ path: 07_SKILLS/amos-neural-ode-dynamics-rscf-engine/references/vault_domain_kno
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

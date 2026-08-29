@@ -240,7 +240,7 @@ tool-augmented, retrieval-grounded, verification-driven, high-reliability intell
 - Context window budgeting
 - Source citation enforcement
 
-### **LAYER 3 — [[MEMORY]] LAYER** (`omega_offline_intelligence_orchestrator.py`)
+### **LAYER 3 — MEMORY LAYER** (`omega_offline_intelligence_orchestrator.py`)
 - 5 memory types: User, Project, Evidence, Execution, Policy
 - Explicit, queryable, versioned memory
 - Append-only log with immutability
@@ -288,7 +288,7 @@ tool-augmented, retrieval-grounded, verification-driven, high-reliability intell
 - only evidence-driven improvement** ## HALLUCINATION SUPPRESSION PROTOCOL IMPLEMENTED **Mandatory retrieval fo
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 ## Related
 
@@ -296,9 +296,9 @@ tool-augmented, retrieval-grounded, verification-driven, high-reliability intell
 ```
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -310,4 +310,4 @@ path: 07_SKILLS/amos-verification-aware-implementation-diversity-rscf/references
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

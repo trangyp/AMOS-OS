@@ -37,7 +37,7 @@ Governed generator `25_COGNITIVE_MATRIX/12_GENERATORS/fill_matrix.py` (payload m
 | **Total** | **1,102 files** |
 
 Idempotency verified: second run → 0 filled / 1,214 skipped.
-Residual `PLACEHOLDER / UNVALIDATED` strings: 9, all prose references inside already-substantive contracts (routing [[README]], [[PROMOTION_GATES]], validation receipt) — not gaps.
+Residual `PLACEHOLDER / UNVALIDATED` strings: 9, all prose references inside already-substantive contracts (routing README, [[PROMOTION_GATES]], validation receipt) — not gaps.
 
 ## Epistemic boundaries
 - All fills carry `DERIVED / MODEL EXTENSION` class with confidence ceiling 0.6.

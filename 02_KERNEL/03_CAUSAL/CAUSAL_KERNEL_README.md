@@ -31,7 +31,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# CAUSAL KERNEL [[README]]
+# CAUSAL KERNEL README
 
 ## Purpose
 `CAUSAL KERNEL README` is the package readme for the **Kernel** plane segment at `02_KERNEL/03_CAUSAL`.

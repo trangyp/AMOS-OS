@@ -27,7 +27,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# GEO GEOPOLITICS DOMAINS [[README]]
+# GEO GEOPOLITICS DOMAINS README
 
 ## Purpose
 `GEO GEOPOLITICS DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/43_GEO_GEOPOLITICS`.

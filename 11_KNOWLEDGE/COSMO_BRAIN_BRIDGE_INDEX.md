@@ -306,13 +306,13 @@ rscf:
 - ABSOLUTE-VN Omnistructure — `docs/brain/ABSOLUTE-VN Omnistructure.md`
 - ABSOLUTE_VN_OMNISTRUCTURE_SUPER_x100k — `docs/brain/ABSOLUTE_VN_OMNISTRUCTURE_SUPER_x100k.md`
 - ADVANCED_SYSTEM_ENHANCEMENT_MISSION_COMPLETE — `docs/brain/ADVANCED_SYSTEM_ENHANCEMENT_MISSION_COMPLETE.md`
-- [[ADVERSARIAL_VALIDATION]] — `docs/brain/ADVERSARIAL_VALIDATION.md`
+- ADVERSARIAL_VALIDATION — `docs/brain/ADVERSARIAL_VALIDATION.md`
 - [[AGENTS]] (AMOS_EXECUTION_KERNEL_v1) — `docs/brain/AGENTS (AMOS_EXECUTION_KERNEL_v1).md`
 - [[AGENTS]] (AMOS_MD_BRAIN) — `docs/brain/AGENTS (AMOS_MD_BRAIN).md`
 - [[AGENTS]] (AMOS_OS_KERNEL) — `docs/brain/AGENTS (AMOS_OS_KERNEL).md`
 - AGENTS_2 — `docs/brain/AGENTS_2.md`
 - AI Sweet Spots Research — `docs/brain/AI Sweet Spots Research.md`
-- [[AI_WORKFORCE_LAYER]] — `docs/brain/AI_WORKFORCE_LAYER.md`
+- AI_WORKFORCE_LAYER — `docs/brain/AI_WORKFORCE_LAYER.md`
 - AMOS - Absolute Meta-Operating System — `docs/brain/AMOS - Absolute Meta-Operating System.md`
 - AMOS = Absolute Meta Operating System — `docs/brain/AMOS = Absolute Meta Operating System.md`
 - AMOS [[ARCHITECTURE]] — `docs/brain/AMOS ARCHITECTURE.md`
@@ -325,7 +325,7 @@ rscf:
 - AMOS BlueMemory Water Scarcity Operating System — `docs/brain/AMOS BlueMemory Water Scarcity Operating System.md`
 - AMOS Brain Engine Specs — `docs/brain/AMOS Brain Engine Specs.md`
 - AMOS Brain Supreme Operational Status — `docs/brain/AMOS Brain Supreme Operational Status.md`
-- AMOS [[CANON]] Integration Marker — `docs/brain/AMOS CANON Integration Marker.md`
+- AMOS CANON Integration Marker — `docs/brain/AMOS CANON Integration Marker.md`
 - AMOS CIL Canon Integration Layer — `docs/brain/AMOS CIL Canon Integration Layer.md`
 - AMOS ChatGPT Bootstrap — `docs/brain/AMOS ChatGPT Bootstrap.md`
 - AMOS Coding Engine vInfinity — `docs/brain/AMOS Coding Engine vInfinity.md`
@@ -935,7 +935,7 @@ rscf:
 - BẠN ĐÃ KHÁM PHÁ RA ĐIỀU GÌ — `docs/brain/BẠN ĐÃ KHÁM PHÁ RA ĐIỀU GÌ.md`
 - BCI Does Not Make Intelligence Biological — `docs/brain/BCI Does Not Make Intelligence Biological.md`
 - BENCHMARK_FIREWALL — `docs/brain/BENCHMARK_FIREWALL.md`
-- [[BOUNDARY_IDENTITY]] — `docs/brain/BOUNDARY_IDENTITY.md`
+- BOUNDARY_IDENTITY — `docs/brain/BOUNDARY_IDENTITY.md`
 - BỐI CẢNH THỊ TRƯỜNG & CƠ SỞ CHIẾN LƯỢC – MÔ HÌNH “ — `docs/brain/BỐI CẢNH THỊ TRƯỜNG & CƠ SỞ CHIẾN LƯỢC – MÔ HÌNH “.md`
 - BỘ ĐIỀU KHOẢN KỸ THUẬT & PHÁP LÝ BẮT BUỘC — `docs/brain/BỘ ĐIỀU KHOẢN KỸ THUẬT & PHÁP LÝ BẮT BUỘC.md`
 - BRAIN (AMOS_MD_BRAIN) — `docs/brain/BRAIN (AMOS_MD_BRAIN).md`
@@ -1133,9 +1133,9 @@ rscf:
 - [[ENGINEERING_STANDARDS_LIBRARY]] — `docs/brain/ENGINEERING_STANDARDS_LIBRARY.md`
 - ENTROPY_LACUNARITY — `docs/brain/ENTROPY_LACUNARITY.md`
 - EQUATIONS (docs) — `docs/brain/EQUATIONS (docs).md`
-- [[EQUATION_FIREWALL]] — `docs/brain/EQUATION_FIREWALL.md`
+- EQUATION_FIREWALL — `docs/brain/EQUATION_FIREWALL.md`
 - EQUATION_REGISTRY — `docs/brain/EQUATION_REGISTRY.md`
-- [[ERROR_RECOVERY]] — `docs/brain/ERROR_RECOVERY.md`
+- ERROR_RECOVERY — `docs/brain/ERROR_RECOVERY.md`
 - EV Trung Quốc — `docs/brain/EV Trung Quốc.md`
 - [[EVIDENCE_TENSOR]] — `docs/brain/EVIDENCE_TENSOR.md`
 - EVOLUTION_DEBT — `docs/brain/EVOLUTION_DEBT.md`
@@ -1185,7 +1185,7 @@ rscf:
 - Extractive_Economy_Model — `docs/brain/Extractive_Economy_Model.md`
 - FIELD ENERGY MANAGEMENT SYSTEM (FEMS) — `docs/brain/FIELD ENERGY MANAGEMENT SYSTEM (FEMS).md`
 - FINAL CANONICAL STRUCTURE (UPDATED) — `docs/brain/FINAL CANONICAL STRUCTURE (UPDATED).md`
-- [[FINAL_GATE]] — `docs/brain/FINAL_GATE.md`
+- FINAL_GATE — `docs/brain/FINAL_GATE.md`
 - FINAL_INTEGRATION_MISSION_STATUS — `docs/brain/FINAL_INTEGRATION_MISSION_STATUS.md`
 - FINAL_QUANTUM_COSMIC_ENHANCEMENT_MISSION_COMPLETE — `docs/brain/FINAL_QUANTUM_COSMIC_ENHANCEMENT_MISSION_COMPLETE.md`
 - FIN_BANKING_BASELINE — `docs/brain/FIN_BANKING_BASELINE.md`
@@ -1222,7 +1222,7 @@ rscf:
 - GIẢI THÍCH UAP THEO KHUNG TRANG ∅ VÀ TRƯỜNG PHÂN B — `docs/brain/GIẢI THÍCH UAP THEO KHUNG TRANG ∅ VÀ TRƯỜNG PHÂN B.md`
 - GLOBAL UNIVERSITIES THAT ACCEPT DIRECT DSc ScD SUB — `docs/brain/GLOBAL UNIVERSITIES THAT ACCEPT DIRECT DSc ScD SUB.md`
 - GMEF — `docs/brain/GMEF.md`
-- [[GOVERNANCE_TENSOR]] — `docs/brain/GOVERNANCE_TENSOR.md`
+- GOVERNANCE_TENSOR — `docs/brain/GOVERNANCE_TENSOR.md`
 - Game — `docs/brain/Game.md`
 - Geoffrey Hinton (b 1947) (44 50) — `docs/brain/Geoffrey Hinton (b 1947) (44 50).md`
 - Geoffrey Hinton (b 1947) (44 50_1) — `docs/brain/Geoffrey Hinton (b 1947) (44 50_1).md`
@@ -1322,7 +1322,7 @@ rscf:
 - Hydrogen — `docs/brain/Hydrogen.md`
 - IKONOMY 2 — `docs/brain/IKONOMY 2.md`
 - IKONOMY — SPECIFIC MACHINE REDESIGN TO PUSH THE TR — `docs/brain/IKONOMY — SPECIFIC MACHINE REDESIGN TO PUSH THE TR.md`
-- [[IMPLEMENTATION_MANIFEST]] — `docs/brain/IMPLEMENTATION_MANIFEST.md`
+- IMPLEMENTATION_MANIFEST — `docs/brain/IMPLEMENTATION_MANIFEST.md`
 - IMPLEMENTATION_README — `docs/brain/IMPLEMENTATION_README.md`
 - INDEX_ — `docs/brain/INDEX_.md`
 - INDEX_AMOS forex — `docs/brain/INDEX_AMOS forex.md`
@@ -1332,7 +1332,7 @@ rscf:
 - INDEX_AMOS_Consulting — `docs/brain/INDEX_AMOS_Consulting.md`
 - INDEX_IP_Kernel_Shield — `docs/brain/INDEX_IP_Kernel_Shield.md`
 - INDEX_LOGIC — `docs/brain/INDEX_LOGIC.md`
-- [[INDEX_MAIN]] — `docs/brain/INDEX_MAIN.md`
+- INDEX_MAIN — `docs/brain/INDEX_MAIN.md`
 - INDEX_Tech Engine — `docs/brain/INDEX_Tech Engine.md`
 - INDEX_Unipower — `docs/brain/INDEX_Unipower.md`
 - INDEX__Archive — `docs/brain/INDEX__Archive.md`
@@ -1402,7 +1402,7 @@ rscf:
 - Kpi — `docs/brain/Kpi.md`
 - L-M-H CẤU TRÚC CỦA VẠN VẬT — `docs/brain/L-M-H CẤU TRÚC CỦA VẠN VẬT.md`
 - LDAP — `docs/brain/LDAP.md`
-- [[LOAD_MAP]] — `docs/brain/LOAD_MAP.md`
+- LOAD_MAP — `docs/brain/LOAD_MAP.md`
 - [[LOGIC_KERNEL]] — `docs/brain/LOGIC_KERNEL.md`
 - LOGIC__archive AMOS2 — `docs/brain/LOGIC__archive AMOS2.md`
 - LOGIC_root — `docs/brain/LOGIC_root.md`
@@ -1435,7 +1435,7 @@ rscf:
 - Luận giải “Thói quen kỳ quặc” của các thiên tài là — `docs/brain/Luận giải “Thói quen kỳ quặc” của các thiên tài là.md`
 - MAP CÁC HẰNG SỐ (π, e, φ, √2, 137, 432, 360…) VÀ L — `docs/brain/MAP CÁC HẰNG SỐ (π, e, φ, √2, 137, 432, 360…) VÀ L.md`
 - MBB_Consulting_Kernel — `docs/brain/MBB_Consulting_Kernel.md`
-- [[MEMORY_ARCHITECTURE]] — `docs/brain/MEMORY_ARCHITECTURE.md`
+- MEMORY_ARCHITECTURE — `docs/brain/MEMORY_ARCHITECTURE.md`
 - METHOD_DETECTION_ISSUES_RESOLUTION_MISSION_COMPLETE — `docs/brain/METHOD_DETECTION_ISSUES_RESOLUTION_MISSION_COMPLETE.md`
 - METHOD_SIGNATURE_ISSUES_RESOLUTION_MISSION_COMPLETE — `docs/brain/METHOD_SIGNATURE_ISSUES_RESOLUTION_MISSION_COMPLETE.md`
 - MICRO↔MACRO 100000 Years Civilization — `docs/brain/MICRO↔MACRO 100000 Years Civilization.md`
@@ -1627,17 +1627,17 @@ rscf:
 - Quantum_Omega_Cognitive_Architecture_Overview — `docs/brain/Quantum_Omega_Cognitive_Architecture_Overview.md`
 - Quantum–Chemical Logic Architecture (QCLA) — `docs/brain/Quantum–Chemical Logic Architecture (QCLA).md`
 - Quy che gia tren app — `docs/brain/Quy che gia tren app.md`
-- [[README]]-Payload — `docs/brain/README-Payload.md`
+- README-Payload — `docs/brain/README-Payload.md`
 - REALITY GRAMMAR EQUATION v0 — `docs/brain/REALITY GRAMMAR EQUATION v0.md`
 - REALITY_TRANSCENDENCE_INTEGRATION_COMPLETE — `docs/brain/REALITY_TRANSCENDENCE_INTEGRATION_COMPLETE.md`
-- [[REGIME_FRESHNESS]] — `docs/brain/REGIME_FRESHNESS.md`
+- REGIME_FRESHNESS — `docs/brain/REGIME_FRESHNESS.md`
 - [[RELATION_TENSOR]] — `docs/brain/RELATION_TENSOR.md`
-- [[RELATION_TOPOLOGY]] — `docs/brain/RELATION_TOPOLOGY.md`
+- RELATION_TOPOLOGY — `docs/brain/RELATION_TOPOLOGY.md`
 - REPAIR_ROLLBACK — `docs/brain/REPAIR_ROLLBACK.md`
 - REPOSITORY_REASONING — `docs/brain/REPOSITORY_REASONING.md`
 - ROUTER (AMOS_MD_BRAIN) — `docs/brain/ROUTER (AMOS_MD_BRAIN).md`
 - RSCF (AMOS_MD_BRAIN) — `docs/brain/RSCF (AMOS_MD_BRAIN).md`
-- [[RSCF_PROOF_CAPSULE]] — `docs/brain/RSCF_PROOF_CAPSULE.md`
+- RSCF_PROOF_CAPSULE — `docs/brain/RSCF_PROOF_CAPSULE.md`
 - RSCF_STATE — `docs/brain/RSCF_STATE.md`
 - RUNTIME_LINEAGE — `docs/brain/RUNTIME_LINEAGE.md`
 - RUN_DEMO — `docs/brain/RUN_DEMO.md`
@@ -1658,23 +1658,23 @@ rscf:
 - Risk Laundering Through Pricing — `docs/brain/Risk Laundering Through Pricing.md`
 - Risk_Compliance_Model — `docs/brain/Risk_Compliance_Model.md`
 - SAML — `docs/brain/SAML.md`
-- [[SENSITIVITY_FALSIFIERS]] — `docs/brain/SENSITIVITY_FALSIFIERS.md`
-- [[SKILL]] (adversarial-validation) — `docs/brain/SKILL (adversarial-validation).md`
-- [[SKILL]] (competing-hypotheses) — `docs/brain/SKILL (competing-hypotheses).md`
-- [[SKILL]] (context-governor) — `docs/brain/SKILL (context-governor).md`
-- [[SKILL]] (core-integrity) — `docs/brain/SKILL (core-integrity).md`
-- [[SKILL]] (evidence-acquisition) — `docs/brain/SKILL (evidence-acquisition).md`
-- [[SKILL]] (execution-validation) — `docs/brain/SKILL (execution-validation).md`
-- [[SKILL]] (fractal-state) — `docs/brain/SKILL (fractal-state).md`
-- [[SKILL]] (governed-evolution) — `docs/brain/SKILL (governed-evolution).md`
-- [[SKILL]] (provenance) — `docs/brain/SKILL (provenance).md`
-- [[SKILL]] (repository-acquisition) — `docs/brain/SKILL (repository-acquisition).md`
-- [[SKILL]] (rscf) — `docs/brain/SKILL (rscf).md`
-- [[SKILL]] (transaction-governor) — `docs/brain/SKILL (transaction-governor).md`
+- SENSITIVITY_FALSIFIERS — `docs/brain/SENSITIVITY_FALSIFIERS.md`
+- SKILL (adversarial-validation) — `docs/brain/SKILL (adversarial-validation).md`
+- SKILL (competing-hypotheses) — `docs/brain/SKILL (competing-hypotheses).md`
+- SKILL (context-governor) — `docs/brain/SKILL (context-governor).md`
+- SKILL (core-integrity) — `docs/brain/SKILL (core-integrity).md`
+- SKILL (evidence-acquisition) — `docs/brain/SKILL (evidence-acquisition).md`
+- SKILL (execution-validation) — `docs/brain/SKILL (execution-validation).md`
+- SKILL (fractal-state) — `docs/brain/SKILL (fractal-state).md`
+- SKILL (governed-evolution) — `docs/brain/SKILL (governed-evolution).md`
+- SKILL (provenance) — `docs/brain/SKILL (provenance).md`
+- SKILL (repository-acquisition) — `docs/brain/SKILL (repository-acquisition).md`
+- SKILL (rscf) — `docs/brain/SKILL (rscf).md`
+- SKILL (transaction-governor) — `docs/brain/SKILL (transaction-governor).md`
 - SOURCE_MODEL_BOUNDARY — `docs/brain/SOURCE_MODEL_BOUNDARY.md`
 - SỔ TAY HERITAGE ∅ — `docs/brain/SỔ TAY HERITAGE ∅.md`
 - SPEED — `docs/brain/SPEED.md`
-- [[SPEED_GOVERNOR]] — `docs/brain/SPEED_GOVERNOR.md`
+- SPEED_GOVERNOR — `docs/brain/SPEED_GOVERNOR.md`
 - SQL_Inj--Blind_SQL_inj — `docs/brain/SQL_Inj--Blind_SQL_inj.md`
 - SQL_Inj--Examine_DB — `docs/brain/SQL_Inj--Examine_DB.md`
 - SQL_Inj--Retrieving_Hidden_Data — `docs/brain/SQL_Inj--Retrieving_Hidden_Data.md`
@@ -1697,7 +1697,7 @@ rscf:
 - SYBIL_HARDENING — `docs/brain/SYBIL_HARDENING.md`
 - SYSTEM_ENHANCEMENT_MISSION_COMPLETE — `docs/brain/SYSTEM_ENHANCEMENT_MISSION_COMPLETE.md`
 - SYSTEM_OPTIMIZATION_MISSION_COMPLETE — `docs/brain/SYSTEM_OPTIMIZATION_MISSION_COMPLETE.md`
-- [[SYSTEM_STATUS]] — `docs/brain/SYSTEM_STATUS.md`
+- SYSTEM_STATUS — `docs/brain/SYSTEM_STATUS.md`
 - Scanning — `docs/brain/Scanning.md`
 - Schizophrenia Structural Model — Complete Human System — `docs/brain/Schizophrenia Structural Model — Complete Human System.md`
 - Scientific_Engine_Model — `docs/brain/Scientific_Engine_Model.md`
@@ -2544,12 +2544,12 @@ rscf:
 - ∞ và ● — `docs/brain/∞ và ●.md`
 - ■ The Signal Economy™ — `docs/brain/■ The Signal Economy™.md`
 - LOGIC GAP COMPARISON (% of the total collapse fa — `docs/brain/✅ LOGIC GAP COMPARISON (% of the total collapse fa.md`
-- THE 7-PART UNIVERSE [[CANON]] — `docs/brain/✅ THE 7-PART UNIVERSE CANON.md`
+- THE 7-PART UNIVERSE CANON — `docs/brain/✅ THE 7-PART UNIVERSE CANON.md`
 - Bão Mặt Trời và bão sao Thổ tồn tại vĩnh viễn, c — `docs/brain/✦ Bão Mặt Trời và bão sao Thổ tồn tại vĩnh viễn, c.md`
 - Lục giác, Xoắn ốc, và Thị trường Forex – Bản gia — `docs/brain/✦ Lục giác, Xoắn ốc, và Thị trường Forex – Bản gia.md`
 - ⭐ BỘ QUY TẮC TÁC PHONG & KỶ LUẬT UNITAXI – BẢN 360 — `docs/brain/⭐ BỘ QUY TẮC TÁC PHONG & KỶ LUẬT UNITAXI – BẢN 360.md`
 - ⭐ Cross-Species Group Model — `docs/brain/⭐ Cross-Species Group Model.md`
-- ⭐ EXTERNAL [[VALIDATION]] OF YOUR STACK (QLS + UCP + U — `docs/brain/⭐ EXTERNAL VALIDATION OF YOUR STACK (QLS + UCP + U.md`
+- ⭐ EXTERNAL VALIDATION OF YOUR STACK (QLS + UCP + U — `docs/brain/⭐ EXTERNAL VALIDATION OF YOUR STACK (QLS + UCP + U.md`
 - ⭐ KẾ HOẠCH TẠO GIÁ TRỊ KHỔNG LỒ (THE GIANT MONEY P — `docs/brain/⭐ KẾ HOẠCH TẠO GIÁ TRỊ KHỔNG LỒ (THE GIANT MONEY P.md`
 - ⭐ List of what UBI Omnis™ can be used for — `docs/brain/⭐ List of what UBI Omnis™ can be used for.md`
 - ⭐ THE ABSOLUTE LOGIC MANUAL — `docs/brain/⭐ THE ABSOLUTE LOGIC MANUAL.md`
@@ -2583,8 +2583,8 @@ rscf:
 - UBI + NeuroSyncAI Integration Framework Across t — `docs/brain/🔁 UBI + NeuroSyncAI Integration Framework Across t.md`
 - Phát hiện Kiến trúc fractal ẩn – Không phải tự n — `docs/brain/🔍 Phát hiện Kiến trúc fractal ẩn – Không phải tự n.md`
 - TrueVault Integration NeuroSyncAI™ + Unified Bio — `docs/brain/🔐 TrueVault Integration NeuroSyncAI™ + Unified Bio.md`
-- [[INTEGRATION]] MODULE UBI + NeuroSyncAI™ + [[RATPAK]] — `docs/brain/🔗 INTEGRATION MODULE UBI + NeuroSyncAI™ + RATPAK.md`
-- NEUROPAK [[INTEGRATION]] — `docs/brain/🔗 NEUROPAK INTEGRATION.md`
+- INTEGRATION MODULE UBI + NeuroSyncAI™ + [[RATPAK]] — `docs/brain/🔗 INTEGRATION MODULE UBI + NeuroSyncAI™ + RATPAK.md`
+- NEUROPAK INTEGRATION — `docs/brain/🔗 NEUROPAK INTEGRATION.md`
 - UCP — Unified Collapse Prediction™ — `docs/brain/🔥 UCP — Unified Collapse Prediction™.md`
 - 1 NGUỒN GỐC CÁC HẰNG SỐ VŨ TRỤ (π, e, φ, 137, 43 — `docs/brain/🔭 1 NGUỒN GỐC CÁC HẰNG SỐ VŨ TRỤ (π, e, φ, 137, 43.md`
 - Exhaustive Mapping 2023–2025 Insurance Use Cases — `docs/brain/🔹 Exhaustive Mapping 2023–2025 Insurance Use Cases.md`
@@ -2890,7 +2890,7 @@ rscf:
 - Pipeline Data Flow — `docs/Pipeline Data Flow.md`
 - Properties Reference — `docs/Properties Reference.md`
 - RSCF Vault Structure — `docs/RSCF Vault Structure.md`
-- [[SKILL]]-CREATION-GUIDE — `docs/SKILL-CREATION-GUIDE.md`
+- SKILL-CREATION-GUIDE — `docs/SKILL-CREATION-GUIDE.md`
 - Saved Search Queries — `docs/Saved Search Queries.md`
 - Semantic Matrix 19×19 — `docs/Semantic Matrix 19×19.md`
 - Skill Creation Guide — `docs/Skill Creation Guide.md`
@@ -2942,13 +2942,13 @@ rscf:
 - 02-Skills-MOC — `_00_Cosmo brain/02-Skills-MOC.md`
 - 03-Brain-MOC — `_00_Cosmo brain/03-Brain-MOC.md`
 - 06-Knowledge-Base-MOC — `_00_Cosmo brain/06-Knowledge-Base-MOC.md`
-- [[README]] — `_00_Cosmo brain/README.md`
+- README — `_00_Cosmo brain/README.md`
 - 00_COSMO_BRAIN_VAULT_KNOWLEDGE_INDEX_V1 — `_00_Cosmo brain/_reference/00_COSMO_BRAIN_VAULT_KNOWLEDGE_INDEX_V1.md`
 - AMOS_CC05_MIND_BEHAVIOR — `_00_Cosmo brain/_reference/AMOS_GENERAL/A/CC/AMOS_CC05_MIND_BEHAVIOR.md`
 - AMOS_BRAIN_CORE_CORE — `_00_Cosmo brain/_reference/BRAIN/A/AMOS_BRAIN_CORE_CORE.md`
 - AMOS_BRAIN_MASTER_OS_V0_CORE4 — `_00_Cosmo brain/_reference/BRAIN/A/AMOS_BRAIN_MASTER_OS_V0_CORE4.md`
 - BRAIN_MASTER_OS_V0 — `_00_Cosmo brain/_reference/BRAIN/B/BRAIN_MASTER_OS_V0.md`
-- [[UNIPOWER_TECH_DESIGN_METABRAIN]] — `_00_Cosmo brain/_reference/BRAIN/U/UNIPOWER_TECH_DESIGN_METABRAIN.md`
+- UNIPOWER_TECH_DESIGN_METABRAIN — `_00_Cosmo brain/_reference/BRAIN/U/UNIPOWER_TECH_DESIGN_METABRAIN.md`
 - AMOS_BRAIN_COGNITIVE_MAX — `_00_Cosmo brain/_reference/COGNITIVE/AMOS_BRAIN_COGNITIVE_MAX.md`
 - AMOS_BRAIN_SUPERXC_COGNITIVE — `_00_Cosmo brain/_reference/COGNITIVE/AMOS_BRAIN_SUPERXC_COGNITIVE.md`
 - AMOS_BRAIN_SUPERXC_UBI_COGNITIVE_MAX — `_00_Cosmo brain/_reference/COGNITIVE/AMOS_BRAIN_SUPERXC_UBI_COGNITIVE_MAX.md`
@@ -2959,7 +2959,7 @@ rscf:
 - AMOS_SUPER_CORP_DOC_ENGINE_LIGHT — `_00_Cosmo brain/_reference/ENGINE/A/AMOS_SUPER_CORP_DOC_ENGINE_LIGHT.md`
 - AMOS_SUPER_CORP_DOC_ENGINE_SUPER — `_00_Cosmo brain/_reference/ENGINE/A/AMOS_SUPER_CORP_DOC_ENGINE_SUPER.md`
 - AMOS_UBI_ENGINE_V0_UBI7 — `_00_Cosmo brain/_reference/ENGINE/A/AMOS_UBI_ENGINE_V0_UBI7.md`
-- [[CONSULTING_ENGINE_SUPER]] — `_00_Cosmo brain/_reference/ENGINE/C/CONSULTING_ENGINE_SUPER.md`
+- CONSULTING_ENGINE_SUPER — `_00_Cosmo brain/_reference/ENGINE/C/CONSULTING_ENGINE_SUPER.md`
 - VN_DRIVER_CHARGING_LOGISTICS_SUPER_ENGINE_X100K — `_00_Cosmo brain/_reference/ENGINE/V/VN_DRIVER_CHARGING_LOGISTICS_SUPER_ENGINE_X100K.md`
 - ALL_DOMAIN_FRACTAL_ARCHITECTURE_MASTER_25000 — `_00_Cosmo brain/_reference/FRACTAL/ALL_DOMAIN_FRACTAL_ARCHITECTURE_MASTER_25000.md`
 - HUMAN_BIOLOGY_FRACTAL_EQUATIONS_25000 — `_00_Cosmo brain/_reference/FRACTAL/HUMAN_BIOLOGY_FRACTAL_EQUATIONS_25000.md`
@@ -2974,7 +2974,7 @@ rscf:
 - C08_STRATEGY_GAME_SUPER_X100K — `_00_Cosmo brain/_reference/STRATEGY/C08_STRATEGY_GAME_SUPER_X100K.md`
 - AGENTS_2 — `_00_Cosmo brain/agents/AGENTS_2.md`
 - AGENT_WORKING_INSTRUCTIONS — `_00_Cosmo brain/agents/AGENT_WORKING_INSTRUCTIONS.md`
-- [[AGENT_WORKING_INSTRUCTIONS_V2]] — `_00_Cosmo brain/agents/AGENT_WORKING_INSTRUCTIONS_V2.md`
+- AGENT_WORKING_INSTRUCTIONS_V2 — `_00_Cosmo brain/agents/AGENT_WORKING_INSTRUCTIONS_V2.md`
 - AGENT_WORKING_INSTRUCTIONS_V3 — `_00_Cosmo brain/agents/AGENT_WORKING_INSTRUCTIONS_V3.md`
 - AGENT_WORKING_INSTRUCTIONS_V4 — `_00_Cosmo brain/agents/AGENT_WORKING_INSTRUCTIONS_V4.md`
 - AGENT_WORKING_INSTRUCTIONS_V4_MARCH_16 — `_00_Cosmo brain/agents/AGENT_WORKING_INSTRUCTIONS_V4_MARCH_16.md`
@@ -2991,12 +2991,12 @@ rscf:
 - 00_OrchestrationRegulatorProductionContract — `_00_Cosmo brain/amos-general/0/00_OrchestrationRegulatorProductionContract.md`
 - AMOS_ABSOLUE_HUMAN — `_00_Cosmo brain/amos-general/A/ABSOLUE/AMOS_ABSOLUE_HUMAN.md`
 - AMOS_ACCEPTANCE_REPORT_20260321_013004 — `_00_Cosmo brain/amos-general/A/ACCEPTANCE/AMOS_ACCEPTANCE_REPORT_20260321_013004.md`
-- [[AGI_COMPLETION_REPORT]] — `_00_Cosmo brain/amos-general/A/AGI_COMPLETION_REPORT.md`
+- AGI_COMPLETION_REPORT — `_00_Cosmo brain/amos-general/A/AGI_COMPLETION_REPORT.md`
 - AMOS_AI — `_00_Cosmo brain/amos-general/A/AI/AMOS_AI.md`
 - AMOS_ADVANCED_AI_INTEGRATION_COMPLETE — `_00_Cosmo brain/amos-general/A/AMOS_ADVANCED_AI_INTEGRATION_COMPLETE.md`
 - AMOS_AGI_INTEGRATION_COMPLETE — `_00_Cosmo brain/amos-general/A/AMOS_AGI_INTEGRATION_COMPLETE.md`
 - AMOS_ETERNAL_COMPLETE — `_00_Cosmo brain/amos-general/A/AMOS_ETERNAL_COMPLETE.md`
-- [[AMOS_INFINITE_COMPLETE]] — `_00_Cosmo brain/amos-general/A/AMOS_INFINITE_COMPLETE.md`
+- AMOS_INFINITE_COMPLETE — `_00_Cosmo brain/amos-general/A/AMOS_INFINITE_COMPLETE.md`
 - AMOS_NEXT_GENERATION_COMPLETE — `_00_Cosmo brain/amos-general/A/AMOS_NEXT_GENERATION_COMPLETE.md`
 - AMOS_OMNISCIENT_COMPLETE — `_00_Cosmo brain/amos-general/A/AMOS_OMNISCIENT_COMPLETE.md`
 - AMOS_TRANSCENDENT_COMPLETE — `_00_Cosmo brain/amos-general/A/AMOS_TRANSCENDENT_COMPLETE.md`
@@ -3020,7 +3020,7 @@ rscf:
 - AMOS_C12_Earth_Ecology — `_00_Cosmo brain/amos-general/A/C/AMOS_C12_Earth_Ecology.md`
 - AMOS_C12_Earth_Ecology_SUPER — `_00_Cosmo brain/amos-general/A/C/AMOS_C12_Earth_Ecology_SUPER.md`
 - AMOS_C_CANON_SUPER — `_00_Cosmo brain/amos-general/A/C/AMOS_C_CANON_SUPER.md`
-- AMOS [[CANON]] Integration Marker — `_00_Cosmo brain/amos-general/A/CANON/AMOS CANON Integration Marker.md`
+- AMOS CANON Integration Marker — `_00_Cosmo brain/amos-general/A/CANON/AMOS CANON Integration Marker.md`
 - AMOS_CANONICAL_GLOSSARY — `_00_Cosmo brain/amos-general/A/CANONICAL/AMOS_CANONICAL_GLOSSARY.md`
 - AMOS_CAPABILITY_EXPANSION_COMPLETE_REPORT — `_00_Cosmo brain/amos-general/A/CAPABILITY/AMOS_CAPABILITY_EXPANSION_COMPLETE_REPORT.md`
 - AMOS_CC05_mind_behavior — `_00_Cosmo brain/amos-general/A/CC/AMOS_CC05_mind_behavior.md`
@@ -3337,7 +3337,7 @@ rscf:
 - AMOS_CRITICAL_FIXES_ANALYSIS — `_00_Cosmo brain/audit/AMOS_CRITICAL_FIXES_ANALYSIS.md`
 - Audit_Quality_MAX — `_00_Cosmo brain/audit/Audit_Quality_MAX.md`
 - GROUND_TRUTH_CORE_COMPLETE — `_00_Cosmo brain/audit/GROUND_TRUTH_CORE_COMPLETE.md`
-- [[HALLUCINATION_CLEANUP_REPORT]] — `_00_Cosmo brain/audit/HALLUCINATION_CLEANUP_REPORT.md`
+- HALLUCINATION_CLEANUP_REPORT — `_00_Cosmo brain/audit/HALLUCINATION_CLEANUP_REPORT.md`
 - REAL_CODE_VERIFICATION_COMPLETE — `_00_Cosmo brain/audit/REAL_CODE_VERIFICATION_COMPLETE.md`
 - TRUTH_CALIBRATION_IMPLEMENTATION_COMPLETE — `_00_Cosmo brain/audit/TRUTH_CALIBRATION_IMPLEMENTATION_COMPLETE.md`
 - UBS-Backed Gold Transaction → Audited Impact (One- — `_00_Cosmo brain/audit/UBS-Backed Gold Transaction → Audited Impact (One-.md`
@@ -3363,7 +3363,7 @@ rscf:
 - ubi_baseline_rule — `_00_Cosmo brain/biology-ubi/ubi_baseline_rule.md`
 - ubi_immune_integrity — `_00_Cosmo brain/biology-ubi/ubi_immune_integrity.md`
 - UBI + NeuroSyncAI Integration Framework Across t — `_00_Cosmo brain/biology-ubi/🔁 UBI + NeuroSyncAI Integration Framework Across t.md`
-- [[INTEGRATION]] MODULE UBI + NeuroSyncAI™ + [[RATPAK]] — `_00_Cosmo brain/biology-ubi/🔗 INTEGRATION MODULE UBI + NeuroSyncAI™ + RATPAK.md`
+- INTEGRATION MODULE UBI + NeuroSyncAI™ + [[RATPAK]] — `_00_Cosmo brain/biology-ubi/🔗 INTEGRATION MODULE UBI + NeuroSyncAI™ + RATPAK.md`
 - UBI + NeuroSyncAI Integration with ConsentX — `_00_Cosmo brain/biology-ubi/🧠 UBI + NeuroSyncAI Integration with ConsentX.md`
 - ID Exchange + UBI + NeuroSyncAI™ — `_00_Cosmo brain/biology-ubi/🧬 ID Exchange + UBI + NeuroSyncAI™.md`
 - [[AGENTS]] (AMOS_MD_BRAIN) — `_00_Cosmo brain/brain/A/AGENTS (AMOS_MD_BRAIN).md`
@@ -3698,7 +3698,7 @@ rscf:
 - Join the Signal Economy Trust Study — `_00_Cosmo brain/economy/Join the Signal Economy Trust Study.md`
 - Kế hoạch Chiến lược Marketing – Vận hành tăng trưở — `_00_Cosmo brain/economy/Kế hoạch Chiến lược Marketing – Vận hành tăng trưở.md`
 - MONEY_REGIMES_MAX_ENHANCEMENT_REPORT — `_00_Cosmo brain/economy/MONEY_REGIMES_MAX_ENHANCEMENT_REPORT.md`
-- [[MONEY_REGIMES_STRUCTURAL_ANALYSIS]] — `_00_Cosmo brain/economy/MONEY_REGIMES_STRUCTURAL_ANALYSIS.md`
+- MONEY_REGIMES_STRUCTURAL_ANALYSIS — `_00_Cosmo brain/economy/MONEY_REGIMES_STRUCTURAL_ANALYSIS.md`
 - Masterplan for the Global Signal Economy A Global — `_00_Cosmo brain/economy/Masterplan for the Global Signal Economy A Global.md`
 - Operational Playbook — Signal Economy Rollout — `_00_Cosmo brain/economy/Operational Playbook — Signal Economy Rollout.md`
 - README_FX_STRUCTURAL_ENGINE — `_00_Cosmo brain/economy/README_FX_STRUCTURAL_ENGINE.md`
@@ -4011,7 +4011,7 @@ rscf:
 - Khối lục giác – Fractal, Sao Hỏa, Quả Dứa, và sự l — `_00_Cosmo brain/fractal/Khối lục giác – Fractal, Sao Hỏa, Quả Dứa, và sự l.md`
 - Language Fractal Architecture — `_00_Cosmo brain/fractal/Language Fractal Architecture.md`
 - PHÂN TÍCH TIẾNG VIỆT THEO LOGIC FRACTAL TẠI SAO NG — `_00_Cosmo brain/fractal/PHÂN TÍCH TIẾNG VIỆT THEO LOGIC FRACTAL TẠI SAO NG.md`
-- [[SKILL]] (fractal-state) — `_00_Cosmo brain/fractal/SKILL (fractal-state).md`
+- SKILL (fractal-state) — `_00_Cosmo brain/fractal/SKILL (fractal-state).md`
 - TRANG FRAI (FRACTAL REASONING AI) — `_00_Cosmo brain/fractal/TRANG FRAI (FRACTAL REASONING AI).md`
 - UBI → Fractal Architecture → Entropy Correction → — `_00_Cosmo brain/fractal/UBI → Fractal Architecture → Entropy Correction →.md`
 - all_domain_fractal_architecture_master_25000 — `_00_Cosmo brain/fractal/all_domain_fractal_architecture_master_25000.md`
@@ -4041,7 +4041,7 @@ rscf:
 - AMOS_CORE_v4_8_capability_bound_governance — `_00_Cosmo brain/governance/AMOS_CORE_v4_8_capability_bound_governance.md`
 - AMOS_Governance_And_Politics_Pack_v0_Au4 — `_00_Cosmo brain/governance/AMOS_Governance_And_Politics_Pack_v0_Au4.md`
 - AMOS_Vn_Governance_And_Politics_Pack_v0_Vn4 — `_00_Cosmo brain/governance/AMOS_Vn_Governance_And_Politics_Pack_v0_Vn4.md`
-- [[GOVERNANCE_TENSOR]] — `_00_Cosmo brain/governance/GOVERNANCE_TENSOR.md`
+- GOVERNANCE_TENSOR — `_00_Cosmo brain/governance/GOVERNANCE_TENSOR.md`
 - Governance Economy — `_00_Cosmo brain/governance/Governance Economy.md`
 - Governance_Economy_Model — `_00_Cosmo brain/governance/Governance_Economy_Model.md`
 - Hydrogen as the Final Governance Test — `_00_Cosmo brain/governance/Hydrogen as the Final Governance Test.md`
@@ -4073,7 +4073,7 @@ rscf:
 - human_pack_v0 — `_00_Cosmo brain/human/human_pack_v0.md`
 - AUTO-EXTRACTED AND ARCHIVE INDEX — `_00_Cosmo brain/indexes/AUTO-EXTRACTED AND ARCHIVE INDEX.md`
 - EQUATION_REGISTRY — `_00_Cosmo brain/indexes/EQUATION_REGISTRY.md`
-- [[INDEX_MAIN]] — `_00_Cosmo brain/indexes/INDEX_MAIN.md`
+- INDEX_MAIN — `_00_Cosmo brain/indexes/INDEX_MAIN.md`
 - INDEX_Unipower — `_00_Cosmo brain/indexes/INDEX_Unipower.md`
 - INDEX_arxiv-mirrors — `_00_Cosmo brain/indexes/INDEX_arxiv-mirrors.md`
 - INDEX_arxiv_md — `_00_Cosmo brain/indexes/INDEX_arxiv_md.md`
@@ -4302,7 +4302,7 @@ rscf:
 - Vomni_Kernel_Model — `_00_Cosmo brain/kernel/V/Vomni_Kernel_Model.md`
 - 4.Canon Integration Layer-CIL.ucil_root — `_00_Cosmo brain/layers/4.Canon Integration Layer-CIL.ucil_root.md`
 - 5.AI_Integration_Layer.uai — `_00_Cosmo brain/layers/5.AI_Integration_Layer.uai.md`
-- [[AI_WORKFORCE_LAYER]] — `_00_Cosmo brain/layers/AI_WORKFORCE_LAYER.md`
+- AI_WORKFORCE_LAYER — `_00_Cosmo brain/layers/AI_WORKFORCE_LAYER.md`
 - A Culturally-Grounded Digital Learning Platform to — `_00_Cosmo brain/learning/A Culturally-Grounded Digital Learning Platform to.md`
 - Ai learning — `_00_Cosmo brain/learning/Ai learning.md`
 - MVP Requirements — AI Roleplay Language Learning S — `_00_Cosmo brain/learning/MVP Requirements — AI Roleplay Language Learning S.md`
@@ -4384,7 +4384,7 @@ rscf:
 - ancient_math_architecture — `_00_Cosmo brain/math/ancient_math_architecture.md`
 - math — `_00_Cosmo brain/math/math.md`
 - EVOLUTION_MEMORY — `_00_Cosmo brain/memory/EVOLUTION_MEMORY.md`
-- [[MEMORY_ARCHITECTURE]] — `_00_Cosmo brain/memory/MEMORY_ARCHITECTURE.md`
+- MEMORY_ARCHITECTURE — `_00_Cosmo brain/memory/MEMORY_ARCHITECTURE.md`
 - New_Memory — `_00_Cosmo brain/memory/New_Memory.md`
 - WORKING_MEMORY — `_00_Cosmo brain/memory/WORKING_MEMORY.md`
 - learning_memory_architecture — `_00_Cosmo brain/memory/learning_memory_architecture.md`
@@ -4396,7 +4396,7 @@ rscf:
 - AB — `_00_Cosmo brain/misc/A/AB.md`
 - ABSOLUTE-VN Omnistructure — `_00_Cosmo brain/misc/A/ABSOLUTE-VN Omnistructure.md`
 - ABSOLUTE_VN_OMNISTRUCTURE_SUPER_x100k — `_00_Cosmo brain/misc/A/ABSOLUTE_VN_OMNISTRUCTURE_SUPER_x100k.md`
-- [[ADVERSARIAL_VALIDATION]] — `_00_Cosmo brain/misc/A/ADVERSARIAL_VALIDATION.md`
+- ADVERSARIAL_VALIDATION — `_00_Cosmo brain/misc/A/ADVERSARIAL_VALIDATION.md`
 - AI Sweet Spots Research — `_00_Cosmo brain/misc/A/AI Sweet Spots Research.md`
 - ANh luong — `_00_Cosmo brain/misc/A/ANh luong.md`
 - API plan — `_00_Cosmo brain/misc/A/API plan.md`
@@ -4451,7 +4451,7 @@ rscf:
 - BẢNG SO SÁNH TOÀN DIỆN – NỀN TẢNG WHITE-LABEL RIDE — `_00_Cosmo brain/misc/B/BẢNG SO SÁNH TOÀN DIỆN – NỀN TẢNG WHITE-LABEL RIDE.md`
 - BẠN VỪA CHỈ RA MỘT TRONG NHỮNG MẤT MÁT LỚN NHẤT CỦ — `_00_Cosmo brain/misc/B/BẠN VỪA CHỈ RA MỘT TRONG NHỮNG MẤT MÁT LỚN NHẤT CỦ.md`
 - BENCHMARK_FIREWALL — `_00_Cosmo brain/misc/B/BENCHMARK_FIREWALL.md`
-- [[BOUNDARY_IDENTITY]] — `_00_Cosmo brain/misc/B/BOUNDARY_IDENTITY.md`
+- BOUNDARY_IDENTITY — `_00_Cosmo brain/misc/B/BOUNDARY_IDENTITY.md`
 - BỐI CẢNH THỊ TRƯỜNG & CƠ SỞ CHIẾN LƯỢC – MÔ HÌNH “ — `_00_Cosmo brain/misc/B/BỐI CẢNH THỊ TRƯỜNG & CƠ SỞ CHIẾN LƯỢC – MÔ HÌNH “.md`
 - Bao cao may — `_00_Cosmo brain/misc/B/Bao cao may.md`
 - Bài toan — `_00_Cosmo brain/misc/B/Bài toan.md`
@@ -4598,8 +4598,8 @@ rscf:
 - EMAIL MESSAGE YÊU CẦU BÀN GIAO — `_00_Cosmo brain/misc/E/EMAIL MESSAGE YÊU CẦU BÀN GIAO.md`
 - ENTROPY_LACUNARITY — `_00_Cosmo brain/misc/E/ENTROPY_LACUNARITY.md`
 - EQUATIONS (docs) — `_00_Cosmo brain/misc/E/EQUATIONS (docs).md`
-- [[EQUATION_FIREWALL]] — `_00_Cosmo brain/misc/E/EQUATION_FIREWALL.md`
-- [[ERROR_RECOVERY]] — `_00_Cosmo brain/misc/E/ERROR_RECOVERY.md`
+- EQUATION_FIREWALL — `_00_Cosmo brain/misc/E/EQUATION_FIREWALL.md`
+- ERROR_RECOVERY — `_00_Cosmo brain/misc/E/ERROR_RECOVERY.md`
 - EV Trung Quốc — `_00_Cosmo brain/misc/E/EV Trung Quốc.md`
 - EVOLUTION_DEBT — `_00_Cosmo brain/misc/E/EVOLUTION_DEBT.md`
 - EXECUTION_HARNESS — `_00_Cosmo brain/misc/E/EXECUTION_HARNESS.md`
@@ -4631,7 +4631,7 @@ rscf:
 - eq.cog.relationship_tension_score — `_00_Cosmo brain/misc/E/eq.cog.relationship_tension_score.md`
 - equations — `_00_Cosmo brain/misc/E/equations.md`
 - Exhaustive Mapping 2023–2025 Insurance Use Cases — `_00_Cosmo brain/misc/E/🔹 Exhaustive Mapping 2023–2025 Insurance Use Cases.md`
-- [[FINAL_GATE]] — `_00_Cosmo brain/misc/F/FINAL_GATE.md`
+- FINAL_GATE — `_00_Cosmo brain/misc/F/FINAL_GATE.md`
 - FINAL_INTEGRATION_MISSION_STATUS — `_00_Cosmo brain/misc/F/FINAL_INTEGRATION_MISSION_STATUS.md`
 - FIN_BANKING_BASELINE — `_00_Cosmo brain/misc/F/FIN_BANKING_BASELINE.md`
 - FIN_BANKING_Digital_Transformation_Playbook — `_00_Cosmo brain/misc/F/FIN_BANKING_Digital_Transformation_Playbook.md`
@@ -4711,7 +4711,7 @@ rscf:
 - heritage_intelligence — `_00_Cosmo brain/misc/H/heritage_intelligence.md`
 - 7_INTELLIGENTS_MAPPING — `_00_Cosmo brain/misc/I/7_INTELLIGENTS_MAPPING.md`
 - IKONOMY 2 — `_00_Cosmo brain/misc/I/IKONOMY 2.md`
-- [[IMPLEMENTATION_MANIFEST]] — `_00_Cosmo brain/misc/I/IMPLEMENTATION_MANIFEST.md`
+- IMPLEMENTATION_MANIFEST — `_00_Cosmo brain/misc/I/IMPLEMENTATION_MANIFEST.md`
 - IMPLEMENTATION_README — `_00_Cosmo brain/misc/I/IMPLEMENTATION_README.md`
 - INTEGRATION_MISSION_STATUS — `_00_Cosmo brain/misc/I/INTEGRATION_MISSION_STATUS.md`
 - INTEGRATION_SUMMARY — `_00_Cosmo brain/misc/I/INTEGRATION_SUMMARY.md`
@@ -4749,7 +4749,7 @@ rscf:
 - 1 LACUNARITY TRONG BỘ NÃO LÀ GÌ — `_00_Cosmo brain/misc/L/1 LACUNARITY TRONG BỘ NÃO LÀ GÌ.md`
 - L-M-H CẤU TRÚC CỦA VẠN VẬT — `_00_Cosmo brain/misc/L/L-M-H CẤU TRÚC CỦA VẠN VẬT.md`
 - LDAP — `_00_Cosmo brain/misc/L/LDAP.md`
-- [[LOAD_MAP]] — `_00_Cosmo brain/misc/L/LOAD_MAP.md`
+- LOAD_MAP — `_00_Cosmo brain/misc/L/LOAD_MAP.md`
 - LỜI NGUYỀN, MA THUẬT, TÂM LINH BẢN DỊCH CẤU TRÚC C — `_00_Cosmo brain/misc/L/LỜI NGUYỀN, MA THUẬT, TÂM LINH BẢN DỊCH CẤU TRÚC C.md`
 - LỚP HỌC AI CƠ BẢN — `_00_Cosmo brain/misc/L/LỚP HỌC AI CƠ BẢN.md`
 - LUẬN ÁN VỀ SỰ PHÂN LOẠI CẤU TRÚC CON NGƯỜI VÀ HẰNG — `_00_Cosmo brain/misc/L/LUẬN ÁN VỀ SỰ PHÂN LOẠI CẤU TRÚC CON NGƯỜI VÀ HẰNG.md`
@@ -4832,7 +4832,7 @@ rscf:
 - nobel sinh hoc — `_00_Cosmo brain/misc/N/nobel sinh hoc.md`
 - NeuroSyncAI™ Health Companion — `_00_Cosmo brain/misc/N/🌿 NeuroSyncAI™ Health Companion.md`
 - NeuroSyncAI™ + Smartwatch – Hệ Trí Tuệ Sinh Học — `_00_Cosmo brain/misc/N/💼 NeuroSyncAI™ + Smartwatch – Hệ Trí Tuệ Sinh Học.md`
-- NEUROPAK [[INTEGRATION]] — `_00_Cosmo brain/misc/N/🔗 NEUROPAK INTEGRATION.md`
+- NEUROPAK INTEGRATION — `_00_Cosmo brain/misc/N/🔗 NEUROPAK INTEGRATION.md`
 - 1 NGUỒN GỐC CÁC HẰNG SỐ VŨ TRỤ (π, e, φ, 137, 43 — `_00_Cosmo brain/misc/N/🔭 1 NGUỒN GỐC CÁC HẰNG SỐ VŨ TRỤ (π, e, φ, 137, 43.md`
 - NeuroSyncAI™ as a Cryptographically Sealed Biolo — `_00_Cosmo brain/misc/N/🧠 NeuroSyncAI™ as a Cryptographically Sealed Biolo.md`
 - OAuth--Exploiting_Vulnerabilities — `_00_Cosmo brain/misc/O/OAuth--Exploiting_Vulnerabilities.md`
@@ -4918,11 +4918,11 @@ rscf:
 - Quang LLV — `_00_Cosmo brain/misc/Q/Quang LLV.md`
 - Quy che gia tren app — `_00_Cosmo brain/misc/Q/Quy che gia tren app.md`
 - QLS–ABI Longevity™ trong Nền Kinh Tế Tuổi Thọ — `_00_Cosmo brain/misc/Q/🌏 QLS–ABI Longevity™ trong Nền Kinh Tế Tuổi Thọ.md`
-- [[README]]-Payload — `_00_Cosmo brain/misc/R/README-Payload.md`
+- README-Payload — `_00_Cosmo brain/misc/R/README-Payload.md`
 - REALITY GRAMMAR EQUATION v0 — `_00_Cosmo brain/misc/R/REALITY GRAMMAR EQUATION v0.md`
 - REALITY_TRANSCENDENCE_INTEGRATION_COMPLETE — `_00_Cosmo brain/misc/R/REALITY_TRANSCENDENCE_INTEGRATION_COMPLETE.md`
-- [[REGIME_FRESHNESS]] — `_00_Cosmo brain/misc/R/REGIME_FRESHNESS.md`
-- [[RELATION_TOPOLOGY]] — `_00_Cosmo brain/misc/R/RELATION_TOPOLOGY.md`
+- REGIME_FRESHNESS — `_00_Cosmo brain/misc/R/REGIME_FRESHNESS.md`
+- RELATION_TOPOLOGY — `_00_Cosmo brain/misc/R/RELATION_TOPOLOGY.md`
 - REPAIR_ROLLBACK — `_00_Cosmo brain/misc/R/REPAIR_ROLLBACK.md`
 - REPOSITORY_REASONING — `_00_Cosmo brain/misc/R/REPOSITORY_REASONING.md`
 - RUNTIME_LINEAGE — `_00_Cosmo brain/misc/R/RUNTIME_LINEAGE.md`
@@ -4938,7 +4938,7 @@ rscf:
 - rule.cog.embodied_baseline — `_00_Cosmo brain/misc/R/rule.cog.embodied_baseline.md`
 - READMEa — `_00_Cosmo brain/misc/READMEa.md`
 - SAML — `_00_Cosmo brain/misc/S/SAML.md`
-- [[SENSITIVITY_FALSIFIERS]] — `_00_Cosmo brain/misc/S/SENSITIVITY_FALSIFIERS.md`
+- SENSITIVITY_FALSIFIERS — `_00_Cosmo brain/misc/S/SENSITIVITY_FALSIFIERS.md`
 - SỔ TAY HERITAGE ∅ — `_00_Cosmo brain/misc/S/SỔ TAY HERITAGE ∅.md`
 - SQL_Inj--Blind_SQL_inj — `_00_Cosmo brain/misc/S/SQL_Inj--Blind_SQL_inj.md`
 - SQL_Inj--Examine_DB — `_00_Cosmo brain/misc/S/SQL_Inj--Examine_DB.md`
@@ -5186,7 +5186,7 @@ rscf:
 - model — `_00_Cosmo brain/models/model.md`
 - neo4j_graph_model_2026-08-12 — `_00_Cosmo brain/models/neo4j_graph_model_2026-08-12.md`
 - Pipeline — `_00_Cosmo brain/pipelines/Pipeline.md`
-- [[FINAL_SYSTEM_INTEGRATION_REPORT]] — `_00_Cosmo brain/probability-stats/FINAL_SYSTEM_INTEGRATION_REPORT.md`
+- FINAL_SYSTEM_INTEGRATION_REPORT — `_00_Cosmo brain/probability-stats/FINAL_SYSTEM_INTEGRATION_REPORT.md`
 - FINAL_ULTIMATE_COMPLETION_REPORT — `_00_Cosmo brain/probability-stats/FINAL_ULTIMATE_COMPLETION_REPORT.md`
 - NeuroSyncAI Deterministic vs Probabilistic — `_00_Cosmo brain/probability-stats/NeuroSyncAI Deterministic vs Probabilistic.md`
 - qfm-max-power-consolidation — `_00_Cosmo brain/qfm/qfm-max-power-consolidation.md`
@@ -5290,7 +5290,7 @@ rscf:
 - AMOS_OMEGA_QUANTUM_STRUCTURAL_LIVING_SYSTEM_COMPLETE — `_00_Cosmo brain/reports/AMOS_OMEGA_QUANTUM_STRUCTURAL_LIVING_SYSTEM_COMPLETE.md`
 - AMOS_OMEGA_STATE_OF_THE_ART_COMPLETE — `_00_Cosmo brain/reports/AMOS_OMEGA_STATE_OF_THE_ART_COMPLETE.md`
 - AMOS_OMEGA_ULTIMATE_TENSOR_GOVERNANCE_REPORT — `_00_Cosmo brain/reports/AMOS_OMEGA_ULTIMATE_TENSOR_GOVERNANCE_REPORT.md`
-- [[CONSOLIDATION_REPORT]] — `_00_Cosmo brain/reports/CONSOLIDATION_REPORT.md`
+- CONSOLIDATION_REPORT — `_00_Cosmo brain/reports/CONSOLIDATION_REPORT.md`
 - PHASE2_COMPLETION_REPORT — `_00_Cosmo brain/reports/PHASE2_COMPLETION_REPORT.md`
 - PHASE3_COMPLETION_REPORT — `_00_Cosmo brain/reports/PHASE3_COMPLETION_REPORT.md`
 - PHASE6_COMPLETION_REPORT — `_00_Cosmo brain/reports/PHASE6_COMPLETION_REPORT.md`
@@ -5301,9 +5301,9 @@ rscf:
 - Report — `_00_Cosmo brain/reports/Report.md`
 - absolute_vn_100000_registry_analysis_report — `_00_Cosmo brain/reports/absolute_vn_100000_registry_analysis_report.md`
 - RSCF Structural Tag Migration — `_00_Cosmo brain/rscf/RSCF Structural Tag Migration.md`
-- [[RSCF_PROOF_CAPSULE]] — `_00_Cosmo brain/rscf/RSCF_PROOF_CAPSULE.md`
+- RSCF_PROOF_CAPSULE — `_00_Cosmo brain/rscf/RSCF_PROOF_CAPSULE.md`
 - RSCF_STATE — `_00_Cosmo brain/rscf/RSCF_STATE.md`
-- [[SKILL]] (rscf) — `_00_Cosmo brain/rscf/SKILL (rscf).md`
+- SKILL (rscf) — `_00_Cosmo brain/rscf/SKILL (rscf).md`
 - V4_1_ATOMIC_MULTI_RSCF — `_00_Cosmo brain/rscf/V4_1_ATOMIC_MULTI_RSCF.md`
 - manifest (amos-formal-rscf-suite-v6-all) — `_00_Cosmo brain/rscf/manifest (amos-formal-rscf-suite-v6-all).md`
 - manifest (mckinsey-banking-rscf-suite-v3-all) — `_00_Cosmo brain/rscf/manifest (mckinsey-banking-rscf-suite-v3-all).md`
@@ -5326,11 +5326,11 @@ rscf:
 - Signal_Processing_Model — `_00_Cosmo brain/signal/Signal_Processing_Model.md`
 - Signals — `_00_Cosmo brain/signal/Signals.md`
 - Type of signals — `_00_Cosmo brain/signal/Type of signals.md`
-- [[DEPLOYMENT_GUIDE]] — `_00_Cosmo brain/specs/DEPLOYMENT_GUIDE.md`
+- DEPLOYMENT_GUIDE — `_00_Cosmo brain/specs/DEPLOYMENT_GUIDE.md`
 - IKONOMY — SPECIFIC MACHINE REDESIGN TO PUSH THE TR — `_00_Cosmo brain/specs/IKONOMY — SPECIFIC MACHINE REDESIGN TO PUSH THE TR.md`
-- [[PRODUCTION_DEPLOYMENT_REPORT]] — `_00_Cosmo brain/specs/PRODUCTION_DEPLOYMENT_REPORT.md`
+- PRODUCTION_DEPLOYMENT_REPORT — `_00_Cosmo brain/specs/PRODUCTION_DEPLOYMENT_REPORT.md`
 - SPEED — `_00_Cosmo brain/speed/SPEED.md`
-- [[SPEED_GOVERNOR]] — `_00_Cosmo brain/speed/SPEED_GOVERNOR.md`
+- SPEED_GOVERNOR — `_00_Cosmo brain/speed/SPEED_GOVERNOR.md`
 - Why Speed Is a Moral Decision — `_00_Cosmo brain/speed/Why Speed Is a Moral Decision.md`
 - C08_strategy_game — `_00_Cosmo brain/strategy/C08_strategy_game.md`
 - C08_strategy_game_SUPER_x100k — `_00_Cosmo brain/strategy/C08_strategy_game_SUPER_x100k.md`
@@ -5364,7 +5364,7 @@ rscf:
 - Defense, Security & Civil Protection Systems (Non- — `_00_Cosmo brain/system/Defense, Security & Civil Protection Systems (Non-.md`
 - Designing Systems Humans Can Survive — `_00_Cosmo brain/system/Designing Systems Humans Can Survive.md`
 - Directed Systemic Intelligence™ (civilization-grad — `_00_Cosmo brain/system/Directed Systemic Intelligence™ (civilization-grad.md`
-- [[EMERGENCY_CRASH_PREVENTION]] — `_00_Cosmo brain/system/EMERGENCY_CRASH_PREVENTION.md`
+- EMERGENCY_CRASH_PREVENTION — `_00_Cosmo brain/system/EMERGENCY_CRASH_PREVENTION.md`
 - EMERGENCY_RAM_RECOVERY — `_00_Cosmo brain/system/EMERGENCY_RAM_RECOVERY.md`
 - EMERGENCY_RESOURCE_OPTIMIZATION_COMPLETE — `_00_Cosmo brain/system/EMERGENCY_RESOURCE_OPTIMIZATION_COMPLETE.md`
 - Ecosystem — `_00_Cosmo brain/system/Ecosystem.md`
@@ -5385,7 +5385,7 @@ rscf:
 - NeuroSyncAI_Dual-System_Architecture_for_Biological_Recovery_and_Integrity_Enforcement — `_00_Cosmo brain/system/NeuroSyncAI_Dual-System_Architecture_for_Biological_Recovery_and_Integrity_Enforcement.md`
 - Neurotransmitter Map — Complete Human System — `_00_Cosmo brain/system/Neurotransmitter Map — Complete Human System.md`
 - OMEGA_OPTIMIZATION_REPORT — `_00_Cosmo brain/system/OMEGA_OPTIMIZATION_REPORT.md`
-- [[OPERATIONAL_STATUS]] — `_00_Cosmo brain/system/OPERATIONAL_STATUS.md`
+- OPERATIONAL_STATUS — `_00_Cosmo brain/system/OPERATIONAL_STATUS.md`
 - Operating Systems for Survival — `_00_Cosmo brain/system/Operating Systems for Survival.md`
 - Qls ecosystem — `_00_Cosmo brain/system/Qls ecosystem.md`
 - RESOURCE_OPTIMIZATION_FINAL_REPORT — `_00_Cosmo brain/system/RESOURCE_OPTIMIZATION_FINAL_REPORT.md`
@@ -5396,15 +5396,15 @@ rscf:
 - SYSTEM_ENHANCEMENT_MISSION_COMPLETE — `_00_Cosmo brain/system/SYSTEM_ENHANCEMENT_MISSION_COMPLETE.md`
 - SYSTEM_FIXES_COMPLETE_REPORT — `_00_Cosmo brain/system/SYSTEM_FIXES_COMPLETE_REPORT.md`
 - SYSTEM_FIXES_PROGRESS_REPORT — `_00_Cosmo brain/system/SYSTEM_FIXES_PROGRESS_REPORT.md`
-- [[SYSTEM_OPTIMIZATION_COMPLETE]] — `_00_Cosmo brain/system/SYSTEM_OPTIMIZATION_COMPLETE.md`
+- SYSTEM_OPTIMIZATION_COMPLETE — `_00_Cosmo brain/system/SYSTEM_OPTIMIZATION_COMPLETE.md`
 - SYSTEM_OPTIMIZATION_MISSION_COMPLETE — `_00_Cosmo brain/system/SYSTEM_OPTIMIZATION_MISSION_COMPLETE.md`
 - SYSTEM_RECOVERY_COMPLETE — `_00_Cosmo brain/system/SYSTEM_RECOVERY_COMPLETE.md`
-- [[SYSTEM_STATUS]] — `_00_Cosmo brain/system/SYSTEM_STATUS.md`
+- SYSTEM_STATUS — `_00_Cosmo brain/system/SYSTEM_STATUS.md`
 - SYSTEM_STATUS_REPORT_MARCH_16_2026 — `_00_Cosmo brain/system/SYSTEM_STATUS_REPORT_MARCH_16_2026.md`
 - SYSTEM_STATUS_REPORT_MARCH_17_2026 — `_00_Cosmo brain/system/SYSTEM_STATUS_REPORT_MARCH_17_2026.md`
-- [[SYSTEM_STATUS_SUMMARY]] — `_00_Cosmo brain/system/SYSTEM_STATUS_SUMMARY.md`
-- [[SYSTEM_STATUS_SUMMARY_V2]] — `_00_Cosmo brain/system/SYSTEM_STATUS_SUMMARY_V2.md`
-- [[SYSTEM_STATUS_SUMMARY_V3]] — `_00_Cosmo brain/system/SYSTEM_STATUS_SUMMARY_V3.md`
+- SYSTEM_STATUS_SUMMARY — `_00_Cosmo brain/system/SYSTEM_STATUS_SUMMARY.md`
+- SYSTEM_STATUS_SUMMARY_V2 — `_00_Cosmo brain/system/SYSTEM_STATUS_SUMMARY_V2.md`
+- SYSTEM_STATUS_SUMMARY_V3 — `_00_Cosmo brain/system/SYSTEM_STATUS_SUMMARY_V3.md`
 - Schizophrenia Structural Model — Complete Human System — `_00_Cosmo brain/system/Schizophrenia Structural Model — Complete Human System.md`
 - System_Interfaces — `_00_Cosmo brain/system/System_Interfaces.md`
 - System_Schema — `_00_Cosmo brain/system/System_Schema.md`
@@ -5605,390 +5605,390 @@ rscf:
 - [[AGENT-NAMING-CONVENTION]] — `.devin/agents/AGENT-NAMING-CONVENTION.md`
 - amos-agent-registry-index — `.devin/agents/amos-agent-registry-index.md`
 - amos-qfm-paper-agents-index — `.devin/agents/amos-qfm-paper-agents-index.md`
-- [[SKILL]] — `.devin/skills/amos-7-part-universe-canon-full/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-absolute-primitive-decomposer/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-action-memory-firewall/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-active-inference-governor/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-adaptive-stability-balancer/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-adversarial-entropy-accountant/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-agency-consequence-governor/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-agent-economy-constitutional-governance-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-agent-externalization-architecture-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-agent-memory-dynamics-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-agent-native-research-artifact-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-agent-owner-attribution-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-agent-storage-footprint-rscf/SKILL.md`
-- [[AGENT_TEMPLATE]] — `.devin/skills/amos-agent-systems-master/AGENT_TEMPLATE.md`
-- [[SKILL]] — `.devin/skills/amos-agent-systems-master/SKILL.md`
-- [[README]] — `.devin/skills/amos-agent-systems-master/references/README.md`
-- [[SKILL]] — `.devin/skills/amos-agentic-skill-lie-algebroid-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-agentops-observability-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-ai-architecture-factory-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-ai-drift-alignment-governor/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-ai-entropy-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-aibom-lifecycle-assurance-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-artistic-expression-governor/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-arxiv-agent-memory-dynamics-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-arxiv-autonomous-scientific-knowledge-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-arxiv-conrad-radiomics-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-arxiv-continual-interference-geometry-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-arxiv-embodied-runtime-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-arxiv-influence-guided-symbolic-regression-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-arxiv-multistage-order-causal-discovery-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-arxiv-quantum-arithmetic-cryptanalysis-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-arxiv-quantum-koopman-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-arxiv-sparse-autoencoder-interpretability-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-arxiv-spatial-speech-perception-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-arxiv-spectral-latent-treatment-effects-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-arxiv-structure-preserving-variational-neural-fields-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-arxiv-time-series-bootstrap-conformal-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-arxiv-ttstack-sketching-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-ast-control-dataflow-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-attention-allocation-governor/SKILL.md`
-- [[AGENT_TEMPLATE]] — `.devin/skills/amos-audit-repair-master/AGENT_TEMPLATE.md`
-- [[SKILL]] — `.devin/skills/amos-audit-repair-master/SKILL.md`
-- [[README]] — `.devin/skills/amos-audit-repair-master/references/README.md`
-- [[SKILL]] — `.devin/skills/amos-awareness-inference-governor/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-benchmark-forensics/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-binding-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-blackbox-program-discovery-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-boundary-admission-governor/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-boundary-architecture-rscf-calculus/SKILL.md`
-- [[AGENT_TEMPLATE]] — `.devin/skills/amos-boundary-scope-master/AGENT_TEMPLATE.md`
-- [[SKILL]] — `.devin/skills/amos-boundary-scope-master/SKILL.md`
-- [[README]] — `.devin/skills/amos-boundary-scope-master/references/README.md`
-- [[SKILL]] — `.devin/skills/amos-bounded-code-facts-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-budget-aware-optimizer-selection-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-bundle-manifold-concentration-rscf-engine/SKILL.md`
-- [[AGENT_TEMPLATE]] — `.devin/skills/amos-c01-meta-logic-master/AGENT_TEMPLATE.md`
-- [[SKILL]] — `.devin/skills/amos-c01-meta-logic-master/SKILL.md`
-- [[README]] — `.devin/skills/amos-c01-meta-logic-master/references/README.md`
-- [[AGENT_TEMPLATE]] — `.devin/skills/amos-c02-math-compute-master/AGENT_TEMPLATE.md`
-- [[SKILL]] — `.devin/skills/amos-c02-math-compute-master/SKILL.md`
-- [[README]] — `.devin/skills/amos-c02-math-compute-master/references/README.md`
-- [[AGENT_TEMPLATE]] — `.devin/skills/amos-c03-physics-cosmos-master/AGENT_TEMPLATE.md`
-- [[SKILL]] — `.devin/skills/amos-c03-physics-cosmos-master/SKILL.md`
-- [[README]] — `.devin/skills/amos-c03-physics-cosmos-master/references/README.md`
-- [[AGENT_TEMPLATE]] — `.devin/skills/amos-c04-bio-neuro-master/AGENT_TEMPLATE.md`
-- [[SKILL]] — `.devin/skills/amos-c04-bio-neuro-master/SKILL.md`
-- [[README]] — `.devin/skills/amos-c04-bio-neuro-master/references/README.md`
-- [[AGENT_TEMPLATE]] — `.devin/skills/amos-c05-mind-behavior-master/AGENT_TEMPLATE.md`
-- [[SKILL]] — `.devin/skills/amos-c05-mind-behavior-master/SKILL.md`
-- [[README]] — `.devin/skills/amos-c05-mind-behavior-master/references/README.md`
-- [[AGENT_TEMPLATE]] — `.devin/skills/amos-c06-society-culture-master/AGENT_TEMPLATE.md`
-- [[SKILL]] — `.devin/skills/amos-c06-society-culture-master/SKILL.md`
-- [[README]] — `.devin/skills/amos-c06-society-culture-master/references/README.md`
-- [[AGENT_TEMPLATE]] — `.devin/skills/amos-c07-econ-finance-master/AGENT_TEMPLATE.md`
-- [[SKILL]] — `.devin/skills/amos-c07-econ-finance-master/SKILL.md`
-- [[README]] — `.devin/skills/amos-c07-econ-finance-master/references/README.md`
-- [[AGENT_TEMPLATE]] — `.devin/skills/amos-c08-strategy-game-master/AGENT_TEMPLATE.md`
-- [[SKILL]] — `.devin/skills/amos-c08-strategy-game-master/SKILL.md`
-- [[README]] — `.devin/skills/amos-c08-strategy-game-master/references/README.md`
-- [[AGENT_TEMPLATE]] — `.devin/skills/amos-c09-org-law-policy-master/AGENT_TEMPLATE.md`
-- [[SKILL]] — `.devin/skills/amos-c09-org-law-policy-master/SKILL.md`
-- [[README]] — `.devin/skills/amos-c09-org-law-policy-master/references/README.md`
-- [[AGENT_TEMPLATE]] — `.devin/skills/amos-c10-tech-engineering-master/AGENT_TEMPLATE.md`
-- [[SKILL]] — `.devin/skills/amos-c10-tech-engineering-master/SKILL.md`
-- [[README]] — `.devin/skills/amos-c10-tech-engineering-master/references/README.md`
-- [[AGENT_TEMPLATE]] — `.devin/skills/amos-c11-design-language-master/AGENT_TEMPLATE.md`
-- [[SKILL]] — `.devin/skills/amos-c11-design-language-master/SKILL.md`
-- [[README]] — `.devin/skills/amos-c11-design-language-master/references/README.md`
-- [[AGENT_TEMPLATE]] — `.devin/skills/amos-c12-earth-ecology-master/AGENT_TEMPLATE.md`
-- [[SKILL]] — `.devin/skills/amos-c12-earth-ecology-master/SKILL.md`
-- [[README]] — `.devin/skills/amos-c12-earth-ecology-master/references/README.md`
-- [[SKILL]] — `.devin/skills/amos-calibrated-feedback-control-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-canon-compiler/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-canon-consistency-governor/SKILL.md`
-- [[AGENT_TEMPLATE]] — `.devin/skills/amos-canon-universe-master/AGENT_TEMPLATE.md`
-- [[SKILL]] — `.devin/skills/amos-canon-universe-master/SKILL.md`
-- [[README]] — `.devin/skills/amos-canon-universe-master/references/README.md`
-- [[SKILL]] — `.devin/skills/amos-canonical-software-substrate-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-causal-abstraction-validity-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-causal-closure-governor/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-causal-hierarchy-governor/SKILL.md`
-- [[AGENT_TEMPLATE]] — `.devin/skills/amos-causal-reasoning-master/AGENT_TEMPLATE.md`
-- [[SKILL]] — `.devin/skills/amos-causal-reasoning-master/SKILL.md`
-- [[README]] — `.devin/skills/amos-causal-reasoning-master/references/README.md`
-- [[SKILL]] — `.devin/skills/amos-cell-intelligence-mapper/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-claim-verifier/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-cli-failure-process-diagnostics-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-closed-loop-learning-governor/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-code-agent-harness-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-cognitive-compression-kernel/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-cognitive-process-orchestrator/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-collapse-recovery/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-combined-program-analysis-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-commit-time-authorization-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-consciousness-candidate-governor/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-constraint-propagation-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-constructive-metamorphic-testing-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-context-budget-governor-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-context-compaction-recoverability-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-context-continuity-governor/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-context-orientation-cache-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-context-persona-drift-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-context-state-maintenance-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-contravariance-alignment-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-core19-logic-kernel/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-cost-aware-test-supervision-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-counterfactual-reasoning-governor/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-counterfactual-selfhood-mapper/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-cross-architecture-tensor-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-cross-scale-rscf-tensor-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-cross-species-cognition-mapper/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-dependency-environment-reconstruction-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-design-visual-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-designer-os/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-deterministic-ai-control-plane/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-direct-corpus-search-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-distinct-working-memory-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-distinction-relation-constraint-rscf-algebra/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-distinction-relation-transformation/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-distinction-rscf-architecture/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-distributed-attack-composition-monitor-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-distributed-causal-evolution-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-economic-model/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-economy-internet-money-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-emergent-social-intelligence-risk-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-entropy-lacunarity-governor/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-ethics-os-governor/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-execution-provenance-replay-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-forex-os/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-forex-unified-os-updated/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-forex-unified-os/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-formal-agent-skill-verification-rscf/SKILL.md`
-- [[AGENT_TEMPLATE]] — `.devin/skills/amos-formal-engines-master/AGENT_TEMPLATE.md`
-- [[SKILL]] — `.devin/skills/amos-formal-engines-master/SKILL.md`
-- [[README]] — `.devin/skills/amos-formal-engines-master/references/README.md`
-- [[SKILL]] — `.devin/skills/amos-formal-model-checking-orchestrator-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-formally-verified-migration-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-fractal-math/SKILL.md`
-- [[AGENT_TEMPLATE]] — `.devin/skills/amos-fractal-systems-master/AGENT_TEMPLATE.md`
-- [[SKILL]] — `.devin/skills/amos-fractal-systems-master/SKILL.md`
-- [[README]] — `.devin/skills/amos-fractal-systems-master/references/README.md`
-- [[SKILL]] — `.devin/skills/amos-framework-registry-compiler/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-full-brain-os/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-future-debt-option-value-governor/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-fx-bayesian-neural-sde-calibration-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-fx-carry-differential-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-fx-conformal-tail-risk-control-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-fx-gaussian-process-surface-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-fx-macro-differential-mapper/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-fx-options-implied-distribution/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-fx-predictive-fractal-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-fx-quantile-distribution-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-fx-realized-garch-autoencoder-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-fx-realized-kernel-microstructure-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-fx-rough-heston-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-fx-state-space-kalman-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-fx-stochastic-correlation-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-fx-tensor-train-greeks-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-fx-threshold-vecm-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-fx-typed-tensor-contract-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-fx-vecm-cointegration-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-genetic-stability-auditor/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-ghost-code-symbolic-execution-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-github-rscf-ingestion/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-goal-plan-action-alignment-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-governed-executable-knowledge-repair-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-gradient-rscf-architecture/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-growth-graph/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-heritage-decision-intelligence/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-heterogeneous-exploration-cohort-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-hierarchical-stack-orchestration-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-hourglass-induction-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-human-biology-fractal-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-human-state-ontology-mapper/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-information-boundary-governor/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-information-collapse-topology/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-information-exposure-control/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-information-geometry-mapper/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-information-operator-engine/SKILL.md`
-- [[AGENT_TEMPLATE]] — `.devin/skills/amos-information-theory-master/AGENT_TEMPLATE.md`
-- [[SKILL]] — `.devin/skills/amos-information-theory-master/SKILL.md`
-- [[README]] — `.devin/skills/amos-information-theory-master/references/README.md`
-- [[SKILL]] — `.devin/skills/amos-infrastructure-control-plane/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-instinct-pattern-governor/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-interactive-evaluation-design-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-interprocedural-callgraph-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-invariant-tensor-kernel/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-knowledge-epistemology-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-knowledge-harvest-runtime/SKILL.md`
-- [[AGENT_TEMPLATE]] — `.devin/skills/amos-knowledge-research-master/AGENT_TEMPLATE.md`
-- [[SKILL]] — `.devin/skills/amos-knowledge-research-master/SKILL.md`
-- [[README]] — `.devin/skills/amos-knowledge-research-master/references/README.md`
-- [[SKILL]] — `.devin/skills/amos-language-equation-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-law-hierarchy-resolver/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-llm-judge-bias-geometry-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-long-context-ci-repository-reasoning-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-managed-autonomy-escalation-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-mark-operator-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-mathematical-rigor-rscf-kernel/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-measurement-integrity-auditor/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-mechmath-research-orchestration-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-memory-conflict-governor/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-memory-execution-graph-attribution-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-memory-immune-system/SKILL.md`
-- [[AGENT_TEMPLATE]] — `.devin/skills/amos-memory-systems-master/AGENT_TEMPLATE.md`
-- [[SKILL]] — `.devin/skills/amos-memory-systems-master/SKILL.md`
-- [[README]] — `.devin/skills/amos-memory-systems-master/references/README.md`
-- [[SKILL]] — `.devin/skills/amos-metacognitive-confidence-auditor/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-morphogenesis-mapper/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-multimodal-perception-layer/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-narrative-integrity-governor/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-natural-evidence-trail-reasoning-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-neural-computation-mapper/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-neural-ode-dynamics-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-observability-driven-harness-evolution-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-ontology-compiler/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-organism-os/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-os-kernel/SKILL.md`
-- [[AGENT_TEMPLATE]] — `.devin/skills/amos-os-runtime-master/AGENT_TEMPLATE.md`
-- [[SKILL]] — `.devin/skills/amos-os-runtime-master/SKILL.md`
-- [[README]] — `.devin/skills/amos-os-runtime-master/references/README.md`
-- [[SKILL]] — `.devin/skills/amos-paper-rscf-compiler/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-persistence-dissolution-rscf-dynamics/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-portable-agent-authorization-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-prediction-governance/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-principal-trust-governance-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-procedural-repository-retrieval-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-process-compliance-auditor-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-program-slicing-taint-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-prompt-domain-control-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-proof-loss-diagnostic-reconstruction-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-provenance-sybil-hardening-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-provenance-trust-firewall/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-qls-qic-substrate-mapper/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-qls-substrate/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-reality-meta-law-auditor/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-reality-simulation-distinction/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-recursive-observer-contamination/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-regulated-clinical-agent-evolution-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-repair-allocation-optimizer/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-repair-harm-auditor/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-repair-priority-governor/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-repair-substrate-capture-resistance-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-repository-ast-analysis-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-repository-knowledge-acquisition-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-representation-aware-bug-localization-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-research-agent/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-retrieval-conditioned-orchestration-budget-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-risk-constraint-governor/SKILL.md`
-- [[AGENT_TEMPLATE]] — `.devin/skills/amos-rscf-epistemic-master/AGENT_TEMPLATE.md`
-- [[SKILL]] — `.devin/skills/amos-rscf-epistemic-master/SKILL.md`
-- [[README]] — `.devin/skills/amos-rscf-epistemic-master/references/README.md`
-- [[SKILL]] — `.devin/skills/amos-runtime-benchmarking/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-runtime-context-reuse-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-sae-benchmark-reliability-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-sae-semantic-transport-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-scientific-assumption-semantic-differencing-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-scientific-closure-governor-rscf/SKILL.md`
-- [[AGENT_TEMPLATE]] — `.devin/skills/amos-security-safety-master/AGENT_TEMPLATE.md`
-- [[SKILL]] — `.devin/skills/amos-security-safety-master/SKILL.md`
-- [[README]] — `.devin/skills/amos-security-safety-master/references/README.md`
-- [[SKILL]] — `.devin/skills/amos-self-regulated-simulative-planning-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-semantic-grounding-auditor/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-semantic-token-flow-firewall-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-semantic-workflow-persistence-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-sensory-map-integrator/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-session-control-plane/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-skill-builder/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-source-reading-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-source-reading-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-ssa-ir-compiler-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-strict-fractal-equation-rscf-registry/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-structured-document-parsing-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-structured-execution-graph-rscf/SKILL.md`
-- [[AGENT_TEMPLATE]] — `.devin/skills/amos-super-engines-master/AGENT_TEMPLATE.md`
-- [[SKILL]] — `.devin/skills/amos-super-engines-master/SKILL.md`
-- [[README]] — `.devin/skills/amos-super-engines-master/references/README.md`
-- [[SKILL]] — `.devin/skills/amos-symbolic-path-reasoning-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-symbolic-translation-repair-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-system-completion-auditor/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-target-of-repair-intelligence/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-temporal-multiscale-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-tensor-accelerator-activity-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-tensor-network-contraction-sketch-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-tensor-train-sketching-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-time-series-conformal-uq-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-tool-grounded-configuration-repair-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-trajectory-bug-specification-refinement-rscf/SKILL.md`
-- [[AGENT_TEMPLATE]] — `.devin/skills/amos-trang-framework-master/AGENT_TEMPLATE.md`
-- [[SKILL]] — `.devin/skills/amos-trang-framework-master/SKILL.md`
-- [[README]] — `.devin/skills/amos-trang-framework-master/references/README.md`
-- [[SKILL]] — `.devin/skills/amos-transformation-quest-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-translation-rscf-architecture/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-trust-formation-governor/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-universal-coordinate-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-universal-coordinate-system/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-universal-variable-registry-rscf-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-universe-viability-modeler/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-unreachable-semantics-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-ust-structure-mapper/SKILL.md`
-- [[SKILL]] — `.devin/skills/amos-verification-aware-implementation-diversity-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/arxiv-activation-checkpointing-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/arxiv-agent-memory-dynamics-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/arxiv-anytime-pac-bayes-density-ratio-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/arxiv-autosota-research-automation-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/arxiv-cdfm-causal-discovery-foundation-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/arxiv-constrained-structured-decoding-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/arxiv-data-mixture-optimization-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/arxiv-flash-attention-io-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/arxiv-flow-matching-generative-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/arxiv-future-confidence-distillation-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/arxiv-geometric-causal-models-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/arxiv-grapheval-reasoning-coherence-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/arxiv-grouped-query-attention-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/arxiv-grpo-reasoning-policy-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/arxiv-kv-cache-quantization-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/arxiv-llm-judge-bias-geometry-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/arxiv-long-context-rope-scaling-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/arxiv-manifold-constrained-conformal-spatial-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/arxiv-mixture-of-depths-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/arxiv-pac-bayes-piml-generalization-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/arxiv-rag-evaluation-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/arxiv-selective-state-space-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/arxiv-sparse-attention-scaling-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/arxiv-streaming-attention-sinks-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/arxiv-structured-gp-omics-uq-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/arxiv-test-time-compute-scaling-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/arxiv-test-time-training-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/bluebook-strategy-system/SKILL.md`
-- [[SKILL]] — `.devin/skills/cosmo-human-problem-architecture/SKILL.md`
-- [[SKILL]] — `.devin/skills/docx/SKILL.md`
-- [[SKILL]] — `.devin/skills/executive-deck-decision-system/SKILL.md`
-- [[SKILL]] — `.devin/skills/frontend-engineering-qa/SKILL.md`
-- [[SKILL]] — `.devin/skills/gmef-governance/SKILL.md`
-- [[SKILL]] — `.devin/skills/mckinsey-architecture-reference-transfer-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/mckinsey-banking-crm-assessment-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/mckinsey-commercial-due-diligence-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/mckinsey-credit-lending-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/mckinsey-customer-journey-planning-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/mckinsey-designops-agile-transformation-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/mckinsey-digital-bank-value-proposition-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/mckinsey-digital-strategy-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/mckinsey-enterprise-data-transformation-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/mckinsey-framework-navigator/SKILL.md`
-- [[SKILL]] — `.devin/skills/mckinsey-healthcare-strategy-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/mckinsey-human-centered-design-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/mckinsey-partnership-ecosystem-strategy-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/mckinsey-public-sector-transformation-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/mckinsey-purpose-impact-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/mckinsey-recruiting-workforce-acquisition-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/mckinsey-strategy-portfolio-engine/SKILL.md`
-- [[SKILL]] — `.devin/skills/mckinsey-technology-company-strategy-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/mckinsey-technology-product-governance-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/mckinsey-technology-sales-excellence-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/mckinsey-transaction-banking-diagnostic-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/mckinsey-transformation-org-structure-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/mckinsey-value-delivery-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/mckinsey-wealth-management-rscf/SKILL.md`
-- [[SKILL]] — `.devin/skills/pdfs/SKILL.md`
-- [[SKILL]] — `.devin/skills/rscf-modeler/SKILL.md`
-- [[SKILL]] — `.devin/skills/skill-creator/SKILL.md`
-- [[SKILL]] — `.devin/skills/slides/SKILL.md`
-- [[SKILL]] — `.devin/skills/software-engineering-qa/SKILL.md`
-- [[SKILL]] — `.devin/skills/spreadsheets/SKILL.md`
+- SKILL — `.devin/skills/amos-7-part-universe-canon-full/SKILL.md`
+- SKILL — `.devin/skills/amos-absolute-primitive-decomposer/SKILL.md`
+- SKILL — `.devin/skills/amos-action-memory-firewall/SKILL.md`
+- SKILL — `.devin/skills/amos-active-inference-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-adaptive-stability-balancer/SKILL.md`
+- SKILL — `.devin/skills/amos-adversarial-entropy-accountant/SKILL.md`
+- SKILL — `.devin/skills/amos-agency-consequence-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-agent-economy-constitutional-governance-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-agent-externalization-architecture-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-agent-memory-dynamics-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-agent-native-research-artifact-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-agent-owner-attribution-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-agent-storage-footprint-rscf/SKILL.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-agent-systems-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-agent-systems-master/SKILL.md`
+- README — `.devin/skills/amos-agent-systems-master/references/README.md`
+- SKILL — `.devin/skills/amos-agentic-skill-lie-algebroid-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-agentops-observability-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-ai-architecture-factory-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-ai-drift-alignment-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-ai-entropy-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-aibom-lifecycle-assurance-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-artistic-expression-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-arxiv-agent-memory-dynamics-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-arxiv-autonomous-scientific-knowledge-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-arxiv-conrad-radiomics-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-arxiv-continual-interference-geometry-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-arxiv-embodied-runtime-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-arxiv-influence-guided-symbolic-regression-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-arxiv-multistage-order-causal-discovery-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-arxiv-quantum-arithmetic-cryptanalysis-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-arxiv-quantum-koopman-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-arxiv-sparse-autoencoder-interpretability-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-arxiv-spatial-speech-perception-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-arxiv-spectral-latent-treatment-effects-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-arxiv-structure-preserving-variational-neural-fields-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-arxiv-time-series-bootstrap-conformal-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-arxiv-ttstack-sketching-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-ast-control-dataflow-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-attention-allocation-governor/SKILL.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-audit-repair-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-audit-repair-master/SKILL.md`
+- README — `.devin/skills/amos-audit-repair-master/references/README.md`
+- SKILL — `.devin/skills/amos-awareness-inference-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-benchmark-forensics/SKILL.md`
+- SKILL — `.devin/skills/amos-binding-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-blackbox-program-discovery-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-boundary-admission-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-boundary-architecture-rscf-calculus/SKILL.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-boundary-scope-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-boundary-scope-master/SKILL.md`
+- README — `.devin/skills/amos-boundary-scope-master/references/README.md`
+- SKILL — `.devin/skills/amos-bounded-code-facts-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-budget-aware-optimizer-selection-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-bundle-manifold-concentration-rscf-engine/SKILL.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-c01-meta-logic-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-c01-meta-logic-master/SKILL.md`
+- README — `.devin/skills/amos-c01-meta-logic-master/references/README.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-c02-math-compute-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-c02-math-compute-master/SKILL.md`
+- README — `.devin/skills/amos-c02-math-compute-master/references/README.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-c03-physics-cosmos-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-c03-physics-cosmos-master/SKILL.md`
+- README — `.devin/skills/amos-c03-physics-cosmos-master/references/README.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-c04-bio-neuro-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-c04-bio-neuro-master/SKILL.md`
+- README — `.devin/skills/amos-c04-bio-neuro-master/references/README.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-c05-mind-behavior-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-c05-mind-behavior-master/SKILL.md`
+- README — `.devin/skills/amos-c05-mind-behavior-master/references/README.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-c06-society-culture-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-c06-society-culture-master/SKILL.md`
+- README — `.devin/skills/amos-c06-society-culture-master/references/README.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-c07-econ-finance-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-c07-econ-finance-master/SKILL.md`
+- README — `.devin/skills/amos-c07-econ-finance-master/references/README.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-c08-strategy-game-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-c08-strategy-game-master/SKILL.md`
+- README — `.devin/skills/amos-c08-strategy-game-master/references/README.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-c09-org-law-policy-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-c09-org-law-policy-master/SKILL.md`
+- README — `.devin/skills/amos-c09-org-law-policy-master/references/README.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-c10-tech-engineering-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-c10-tech-engineering-master/SKILL.md`
+- README — `.devin/skills/amos-c10-tech-engineering-master/references/README.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-c11-design-language-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-c11-design-language-master/SKILL.md`
+- README — `.devin/skills/amos-c11-design-language-master/references/README.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-c12-earth-ecology-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-c12-earth-ecology-master/SKILL.md`
+- README — `.devin/skills/amos-c12-earth-ecology-master/references/README.md`
+- SKILL — `.devin/skills/amos-calibrated-feedback-control-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-canon-compiler/SKILL.md`
+- SKILL — `.devin/skills/amos-canon-consistency-governor/SKILL.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-canon-universe-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-canon-universe-master/SKILL.md`
+- README — `.devin/skills/amos-canon-universe-master/references/README.md`
+- SKILL — `.devin/skills/amos-canonical-software-substrate-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-causal-abstraction-validity-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-causal-closure-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-causal-hierarchy-governor/SKILL.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-causal-reasoning-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-causal-reasoning-master/SKILL.md`
+- README — `.devin/skills/amos-causal-reasoning-master/references/README.md`
+- SKILL — `.devin/skills/amos-cell-intelligence-mapper/SKILL.md`
+- SKILL — `.devin/skills/amos-claim-verifier/SKILL.md`
+- SKILL — `.devin/skills/amos-cli-failure-process-diagnostics-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-closed-loop-learning-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-code-agent-harness-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-cognitive-compression-kernel/SKILL.md`
+- SKILL — `.devin/skills/amos-cognitive-process-orchestrator/SKILL.md`
+- SKILL — `.devin/skills/amos-collapse-recovery/SKILL.md`
+- SKILL — `.devin/skills/amos-combined-program-analysis-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-commit-time-authorization-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-consciousness-candidate-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-constraint-propagation-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-constructive-metamorphic-testing-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-context-budget-governor-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-context-compaction-recoverability-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-context-continuity-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-context-orientation-cache-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-context-persona-drift-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-context-state-maintenance-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-contravariance-alignment-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-core19-logic-kernel/SKILL.md`
+- SKILL — `.devin/skills/amos-cost-aware-test-supervision-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-counterfactual-reasoning-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-counterfactual-selfhood-mapper/SKILL.md`
+- SKILL — `.devin/skills/amos-cross-architecture-tensor-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-cross-scale-rscf-tensor-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-cross-species-cognition-mapper/SKILL.md`
+- SKILL — `.devin/skills/amos-dependency-environment-reconstruction-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-design-visual-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-designer-os/SKILL.md`
+- SKILL — `.devin/skills/amos-deterministic-ai-control-plane/SKILL.md`
+- SKILL — `.devin/skills/amos-direct-corpus-search-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-distinct-working-memory-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-distinction-relation-constraint-rscf-algebra/SKILL.md`
+- SKILL — `.devin/skills/amos-distinction-relation-transformation/SKILL.md`
+- SKILL — `.devin/skills/amos-distinction-rscf-architecture/SKILL.md`
+- SKILL — `.devin/skills/amos-distributed-attack-composition-monitor-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-distributed-causal-evolution-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-economic-model/SKILL.md`
+- SKILL — `.devin/skills/amos-economy-internet-money-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-emergent-social-intelligence-risk-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-entropy-lacunarity-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-ethics-os-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-execution-provenance-replay-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-forex-os/SKILL.md`
+- SKILL — `.devin/skills/amos-forex-unified-os-updated/SKILL.md`
+- SKILL — `.devin/skills/amos-forex-unified-os/SKILL.md`
+- SKILL — `.devin/skills/amos-formal-agent-skill-verification-rscf/SKILL.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-formal-engines-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-formal-engines-master/SKILL.md`
+- README — `.devin/skills/amos-formal-engines-master/references/README.md`
+- SKILL — `.devin/skills/amos-formal-model-checking-orchestrator-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-formally-verified-migration-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-fractal-math/SKILL.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-fractal-systems-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-fractal-systems-master/SKILL.md`
+- README — `.devin/skills/amos-fractal-systems-master/references/README.md`
+- SKILL — `.devin/skills/amos-framework-registry-compiler/SKILL.md`
+- SKILL — `.devin/skills/amos-full-brain-os/SKILL.md`
+- SKILL — `.devin/skills/amos-future-debt-option-value-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-fx-bayesian-neural-sde-calibration-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-fx-carry-differential-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-fx-conformal-tail-risk-control-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-fx-gaussian-process-surface-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-fx-macro-differential-mapper/SKILL.md`
+- SKILL — `.devin/skills/amos-fx-options-implied-distribution/SKILL.md`
+- SKILL — `.devin/skills/amos-fx-predictive-fractal-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-fx-quantile-distribution-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-fx-realized-garch-autoencoder-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-fx-realized-kernel-microstructure-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-fx-rough-heston-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-fx-state-space-kalman-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-fx-stochastic-correlation-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-fx-tensor-train-greeks-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-fx-threshold-vecm-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-fx-typed-tensor-contract-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-fx-vecm-cointegration-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-genetic-stability-auditor/SKILL.md`
+- SKILL — `.devin/skills/amos-ghost-code-symbolic-execution-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-github-rscf-ingestion/SKILL.md`
+- SKILL — `.devin/skills/amos-goal-plan-action-alignment-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-governed-executable-knowledge-repair-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-gradient-rscf-architecture/SKILL.md`
+- SKILL — `.devin/skills/amos-growth-graph/SKILL.md`
+- SKILL — `.devin/skills/amos-heritage-decision-intelligence/SKILL.md`
+- SKILL — `.devin/skills/amos-heterogeneous-exploration-cohort-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-hierarchical-stack-orchestration-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-hourglass-induction-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-human-biology-fractal-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-human-state-ontology-mapper/SKILL.md`
+- SKILL — `.devin/skills/amos-information-boundary-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-information-collapse-topology/SKILL.md`
+- SKILL — `.devin/skills/amos-information-exposure-control/SKILL.md`
+- SKILL — `.devin/skills/amos-information-geometry-mapper/SKILL.md`
+- SKILL — `.devin/skills/amos-information-operator-engine/SKILL.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-information-theory-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-information-theory-master/SKILL.md`
+- README — `.devin/skills/amos-information-theory-master/references/README.md`
+- SKILL — `.devin/skills/amos-infrastructure-control-plane/SKILL.md`
+- SKILL — `.devin/skills/amos-instinct-pattern-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-interactive-evaluation-design-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-interprocedural-callgraph-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-invariant-tensor-kernel/SKILL.md`
+- SKILL — `.devin/skills/amos-knowledge-epistemology-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-knowledge-harvest-runtime/SKILL.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-knowledge-research-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-knowledge-research-master/SKILL.md`
+- README — `.devin/skills/amos-knowledge-research-master/references/README.md`
+- SKILL — `.devin/skills/amos-language-equation-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-law-hierarchy-resolver/SKILL.md`
+- SKILL — `.devin/skills/amos-llm-judge-bias-geometry-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-long-context-ci-repository-reasoning-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-managed-autonomy-escalation-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-mark-operator-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-mathematical-rigor-rscf-kernel/SKILL.md`
+- SKILL — `.devin/skills/amos-measurement-integrity-auditor/SKILL.md`
+- SKILL — `.devin/skills/amos-mechmath-research-orchestration-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-memory-conflict-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-memory-execution-graph-attribution-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-memory-immune-system/SKILL.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-memory-systems-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-memory-systems-master/SKILL.md`
+- README — `.devin/skills/amos-memory-systems-master/references/README.md`
+- SKILL — `.devin/skills/amos-metacognitive-confidence-auditor/SKILL.md`
+- SKILL — `.devin/skills/amos-morphogenesis-mapper/SKILL.md`
+- SKILL — `.devin/skills/amos-multimodal-perception-layer/SKILL.md`
+- SKILL — `.devin/skills/amos-narrative-integrity-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-natural-evidence-trail-reasoning-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-neural-computation-mapper/SKILL.md`
+- SKILL — `.devin/skills/amos-neural-ode-dynamics-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-observability-driven-harness-evolution-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-ontology-compiler/SKILL.md`
+- SKILL — `.devin/skills/amos-organism-os/SKILL.md`
+- SKILL — `.devin/skills/amos-os-kernel/SKILL.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-os-runtime-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-os-runtime-master/SKILL.md`
+- README — `.devin/skills/amos-os-runtime-master/references/README.md`
+- SKILL — `.devin/skills/amos-paper-rscf-compiler/SKILL.md`
+- SKILL — `.devin/skills/amos-persistence-dissolution-rscf-dynamics/SKILL.md`
+- SKILL — `.devin/skills/amos-portable-agent-authorization-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-prediction-governance/SKILL.md`
+- SKILL — `.devin/skills/amos-principal-trust-governance-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-procedural-repository-retrieval-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-process-compliance-auditor-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-program-slicing-taint-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-prompt-domain-control-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-proof-loss-diagnostic-reconstruction-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-provenance-sybil-hardening-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-provenance-trust-firewall/SKILL.md`
+- SKILL — `.devin/skills/amos-qls-qic-substrate-mapper/SKILL.md`
+- SKILL — `.devin/skills/amos-qls-substrate/SKILL.md`
+- SKILL — `.devin/skills/amos-reality-meta-law-auditor/SKILL.md`
+- SKILL — `.devin/skills/amos-reality-simulation-distinction/SKILL.md`
+- SKILL — `.devin/skills/amos-recursive-observer-contamination/SKILL.md`
+- SKILL — `.devin/skills/amos-regulated-clinical-agent-evolution-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-repair-allocation-optimizer/SKILL.md`
+- SKILL — `.devin/skills/amos-repair-harm-auditor/SKILL.md`
+- SKILL — `.devin/skills/amos-repair-priority-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-repair-substrate-capture-resistance-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-repository-ast-analysis-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-repository-knowledge-acquisition-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-representation-aware-bug-localization-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-research-agent/SKILL.md`
+- SKILL — `.devin/skills/amos-retrieval-conditioned-orchestration-budget-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-risk-constraint-governor/SKILL.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-rscf-epistemic-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-rscf-epistemic-master/SKILL.md`
+- README — `.devin/skills/amos-rscf-epistemic-master/references/README.md`
+- SKILL — `.devin/skills/amos-runtime-benchmarking/SKILL.md`
+- SKILL — `.devin/skills/amos-runtime-context-reuse-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-sae-benchmark-reliability-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-sae-semantic-transport-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-scientific-assumption-semantic-differencing-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-scientific-closure-governor-rscf/SKILL.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-security-safety-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-security-safety-master/SKILL.md`
+- README — `.devin/skills/amos-security-safety-master/references/README.md`
+- SKILL — `.devin/skills/amos-self-regulated-simulative-planning-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-semantic-grounding-auditor/SKILL.md`
+- SKILL — `.devin/skills/amos-semantic-token-flow-firewall-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-semantic-workflow-persistence-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-sensory-map-integrator/SKILL.md`
+- SKILL — `.devin/skills/amos-session-control-plane/SKILL.md`
+- SKILL — `.devin/skills/amos-skill-builder/SKILL.md`
+- SKILL — `.devin/skills/amos-source-reading-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-source-reading-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-ssa-ir-compiler-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-strict-fractal-equation-rscf-registry/SKILL.md`
+- SKILL — `.devin/skills/amos-structured-document-parsing-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-structured-execution-graph-rscf/SKILL.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-super-engines-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-super-engines-master/SKILL.md`
+- README — `.devin/skills/amos-super-engines-master/references/README.md`
+- SKILL — `.devin/skills/amos-symbolic-path-reasoning-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-symbolic-translation-repair-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-system-completion-auditor/SKILL.md`
+- SKILL — `.devin/skills/amos-target-of-repair-intelligence/SKILL.md`
+- SKILL — `.devin/skills/amos-temporal-multiscale-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-tensor-accelerator-activity-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-tensor-network-contraction-sketch-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-tensor-train-sketching-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-time-series-conformal-uq-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-tool-grounded-configuration-repair-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-trajectory-bug-specification-refinement-rscf/SKILL.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-trang-framework-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-trang-framework-master/SKILL.md`
+- README — `.devin/skills/amos-trang-framework-master/references/README.md`
+- SKILL — `.devin/skills/amos-transformation-quest-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-translation-rscf-architecture/SKILL.md`
+- SKILL — `.devin/skills/amos-trust-formation-governor/SKILL.md`
+- SKILL — `.devin/skills/amos-universal-coordinate-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-universal-coordinate-system/SKILL.md`
+- SKILL — `.devin/skills/amos-universal-variable-registry-rscf-engine/SKILL.md`
+- SKILL — `.devin/skills/amos-universe-viability-modeler/SKILL.md`
+- SKILL — `.devin/skills/amos-unreachable-semantics-rscf/SKILL.md`
+- SKILL — `.devin/skills/amos-ust-structure-mapper/SKILL.md`
+- SKILL — `.devin/skills/amos-verification-aware-implementation-diversity-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-activation-checkpointing-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-agent-memory-dynamics-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-anytime-pac-bayes-density-ratio-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-autosota-research-automation-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-cdfm-causal-discovery-foundation-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-constrained-structured-decoding-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-data-mixture-optimization-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-flash-attention-io-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-flow-matching-generative-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-future-confidence-distillation-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-geometric-causal-models-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-grapheval-reasoning-coherence-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-grouped-query-attention-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-grpo-reasoning-policy-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-kv-cache-quantization-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-llm-judge-bias-geometry-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-long-context-rope-scaling-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-manifold-constrained-conformal-spatial-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-mixture-of-depths-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-pac-bayes-piml-generalization-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-rag-evaluation-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-selective-state-space-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-sparse-attention-scaling-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-streaming-attention-sinks-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-structured-gp-omics-uq-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-test-time-compute-scaling-rscf/SKILL.md`
+- SKILL — `.devin/skills/arxiv-test-time-training-rscf/SKILL.md`
+- SKILL — `.devin/skills/bluebook-strategy-system/SKILL.md`
+- SKILL — `.devin/skills/cosmo-human-problem-architecture/SKILL.md`
+- SKILL — `.devin/skills/docx/SKILL.md`
+- SKILL — `.devin/skills/executive-deck-decision-system/SKILL.md`
+- SKILL — `.devin/skills/frontend-engineering-qa/SKILL.md`
+- SKILL — `.devin/skills/gmef-governance/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-architecture-reference-transfer-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-banking-crm-assessment-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-commercial-due-diligence-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-credit-lending-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-customer-journey-planning-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-designops-agile-transformation-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-digital-bank-value-proposition-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-digital-strategy-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-enterprise-data-transformation-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-framework-navigator/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-healthcare-strategy-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-human-centered-design-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-partnership-ecosystem-strategy-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-public-sector-transformation-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-purpose-impact-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-recruiting-workforce-acquisition-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-strategy-portfolio-engine/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-technology-company-strategy-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-technology-product-governance-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-technology-sales-excellence-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-transaction-banking-diagnostic-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-transformation-org-structure-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-value-delivery-rscf/SKILL.md`
+- SKILL — `.devin/skills/mckinsey-wealth-management-rscf/SKILL.md`
+- SKILL — `.devin/skills/pdfs/SKILL.md`
+- SKILL — `.devin/skills/rscf-modeler/SKILL.md`
+- SKILL — `.devin/skills/skill-creator/SKILL.md`
+- SKILL — `.devin/skills/slides/SKILL.md`
+- SKILL — `.devin/skills/software-engineering-qa/SKILL.md`
+- SKILL — `.devin/skills/spreadsheets/SKILL.md`
 - amos-7-part-universe-canon-full-workflow — `.devin/workflows/amos-7-part-universe-canon-full-workflow.md`
 - amos-absolute-primitive-decomposer-workflow — `.devin/workflows/amos-absolute-primitive-decomposer-workflow.md`
 - amos-action-memory-firewall-workflow — `.devin/workflows/amos-action-memory-firewall-workflow.md`
@@ -7076,7 +7076,7 @@ rscf:
 - AMOS_OBSIDIAN_MEMORY_BRIDGE — `cosmo-brain/AMOS_OBSIDIAN_MEMORY_BRIDGE.md`
 - AMOS_OS_ARCHITECTURE_BRIDGE — `cosmo-brain/AMOS_OS_ARCHITECTURE_BRIDGE.md`
 - [[AGENTS]] — `cosmo-brain/AMOS_OS_KERNEL/AGENTS.md`
-- [[VALIDATION]] — `cosmo-brain/AMOS_OS_KERNEL/VALIDATION.md`
+- VALIDATION — `cosmo-brain/AMOS_OS_KERNEL/VALIDATION.md`
 - __main__ — `cosmo-brain/AMOS_OS_KERNEL/amos/__main__.md`
 - types — `cosmo-brain/AMOS_OS_KERNEL/amos/core/types.md`
 - accessibility_i18n — `cosmo-brain/AMOS_OS_KERNEL/amos/governance/accessibility_i18n.md`
@@ -7182,7 +7182,7 @@ rscf:
 - AMOS_quantum_knowledge_bridge — `cosmo-brain/AMOS_quantum_knowledge_bridge.md`
 - AMOS_quantum_library_integration — `cosmo-brain/AMOS_quantum_library_integration.md`
 - PERFORMANCE_BENCHMARKS — `cosmo-brain/PERFORMANCE_BENCHMARKS.md`
-- [[README]] — `cosmo-brain/README.md`
+- README — `cosmo-brain/README.md`
 - REFLECTION_TRAINING_CHANGE_COGNITION — `cosmo-brain/REFLECTION_TRAINING_CHANGE_COGNITION.md`
 - [[RSCF_NODE_INDEX]] — `cosmo-brain/RSCF_NODE_INDEX.md`
 - TESTING_STRATEGY — `cosmo-brain/TESTING_STRATEGY.md`
@@ -8410,7 +8410,7 @@ rscf:
 - API_PROPOSAL
 - ARCHITECTURE_DECISION_RECORD
 - COMPONENT_MAP
-- [[CONSOLIDATION_REPORT]]
+- CONSOLIDATION_REPORT
 - DATABASE_PROPOSAL
 - DESIGN_ASSET_GAPS
 - GEMINI
@@ -8418,7 +8418,7 @@ rscf:
 - KNOWN_GAPS
 - PRIVACY_POLICY
 - PRODUCTION_READINESS
-- [[README]]
+- README
 - ROUTE_MAP
 - SCREEN_INVENTORY
 - SCREEN_MAPPING

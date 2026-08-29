@@ -35,7 +35,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# [[INTEGRATION]] KERNEL [[README]]
+# INTEGRATION KERNEL README
 
 ## Purpose
 `INTEGRATION KERNEL README` is the package readme for the **Kernel** plane segment at `02_KERNEL/09_INTEGRATION`.

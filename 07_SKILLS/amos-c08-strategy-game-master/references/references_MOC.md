@@ -55,7 +55,7 @@ rscf:
 - [[consulting_engine_super]]
 - [[consulting_super_engine]]
 - [[directed_systemic_intelligence]]
-- [[domain_config]]
+- domain_config
 - [[grand_cannon_mobility_model]]
 - [[hse_ceo_engine_model]]
 - [[mbb_consulting_kernel]]
@@ -68,15 +68,15 @@ rscf:
 - [[strategic_analysis_report]]
 - [[strategic_partners_list]]
 - [[strategy_game_engine_cognitive]]
-- [[vault_domain_knowledge]]
+- vault_domain_knowledge
 
 ---
 **Parent:** [[amos-c08-strategy-game-master_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
-**MOC:** [[references_MOC]]
+**MOC:** references_MOC
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
@@ -88,4 +88,4 @@ path: 07_SKILLS/amos-c08-strategy-game-master/references/references_MOC.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[references_MOC]]
+- CHILD_OF: references_MOC

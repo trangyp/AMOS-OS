@@ -130,7 +130,7 @@ Purpose:
 * known gaps;
 * links into detailed routing artifacts.
 
-The [[README]] is explanatory unless stronger canonical status is explicitly established.
+The README is explanatory unless stronger canonical status is explicitly established.
 
 Documentation statements remain `SOURCE_CLAIM` or `AMOS_MODEL` according to their provenance and classification.
 
@@ -152,7 +152,7 @@ Purpose:
 * validation requirements;
 * routing invariants.
 
-Where the [[README]] and Contract differ, the map MUST NOT silently decide precedence.
+Where the README and Contract differ, the map MUST NOT silently decide precedence.
 
 The applicable canon/version/supersession rules must resolve the conflict.
 
@@ -1385,19 +1385,19 @@ RSCF-RELATIONS:
 
 * MAPS: [[ROUTING_COGNITIVE_MATRIX_ROUTING_CONTRACT]]
 
-* [[REFERENCES]]: [[TASK_RESOLVER]]
+* REFERENCES: [[TASK_RESOLVER]]
 
-* [[REFERENCES]]: [[CAPABILITY_RESOLVER]]
+* REFERENCES: [[CAPABILITY_RESOLVER]]
 
-* [[REFERENCES]]: [[MODE_ADMISSION_QUEUE]]
+* REFERENCES: [[MODE_ADMISSION_QUEUE]]
 
-* [[REFERENCES]]: [[MODE_COMPOSITION_REGISTRY]]
+* REFERENCES: [[MODE_COMPOSITION_REGISTRY]]
 
-* [[REFERENCES]]: [[MODE_CONFLICT_REGISTRY]]
+* REFERENCES: [[MODE_CONFLICT_REGISTRY]]
 
-* [[REFERENCES]]: [[MODE_COVERAGE_MATRIX]]
+* REFERENCES: [[MODE_COVERAGE_MATRIX]]
 
-* [[REFERENCES]]: [[MODE_DEPENDENCY_GRAPH]]
+* REFERENCES: [[MODE_DEPENDENCY_GRAPH]]
 
 * VALIDATED_BY: [[ROUTING_POLICY_VALIDATION_RECEIPT]]
 

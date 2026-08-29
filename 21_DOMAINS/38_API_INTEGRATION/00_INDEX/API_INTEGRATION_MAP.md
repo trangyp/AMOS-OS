@@ -29,9 +29,9 @@ rscf:
   scope: index_navigation
 ---
 
-# API [[INTEGRATION]] MAP
+# API INTEGRATION MAP
 
-## Map — API [[INTEGRATION]] MAP
+## Map — API INTEGRATION MAP
 Navigation map for the `21_DOMAINS/38_API_INTEGRATION/00_INDEX` segment of the Domains plane.
 
 - **Contract** — [[API_INTEGRATION_DOMAINS_API_INTEGRATION_CONTRACT]]

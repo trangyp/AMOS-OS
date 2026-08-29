@@ -28,7 +28,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX PAPERS RESEARCH [[README]]
+# INDEX PAPERS RESEARCH README
 
 ## Index
 - See also — [[PAPERS_MAP]]

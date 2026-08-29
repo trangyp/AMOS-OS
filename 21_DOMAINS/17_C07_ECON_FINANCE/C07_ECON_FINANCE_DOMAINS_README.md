@@ -28,7 +28,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# C07 ECON FINANCE DOMAINS [[README]]
+# C07 ECON FINANCE DOMAINS README
 
 ## Purpose
 `C07 ECON FINANCE DOMAINS README` is the package readme for the **Domains** plane segment at `21_DOMAINS/17_C07_ECON_FINANCE`.
