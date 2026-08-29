@@ -235,3 +235,49 @@ Read the `main` branch README of `microsoft/SkillOpt` and mapped it to AMOS skil
 Install `skillopt` in a sandbox, run a built-in benchmark on one AMOS skill (e.g., `amos-llm-wiki`), and compare the `best_skill.md` output to the current `SKILL.md` to see if validation-gated evolution improves SOTA score.
 
 Raw source: [[SKILLOPT_README_2026_08_29]]
+
+## 2026-08-29 | SkillFlow deep-dive
+
+Read the `main` branch README of `linxuhao/SkillFlow` and mapped it to AMOS workflow and runtime governance.
+
+### Verified shape
+
+- PyPI package: `skillflow-py` (Python 3.12+, MIT).
+- CLI tools: `skillflow-lint`, `skillflow-run`, `skillflow-convert`, `skillflow-mcp`.
+- YAML-defined DAG pipelines; engine handles traversal, loops, retries, recovery.
+- Capability-gated I/O: each step declares inputs/outputs; the engine generates dedicated `write_*` / `create_*` / `edit_*` / `append_*` tools so the agent cannot access undeclared files.
+- Human-in-the-loop by design: approve/reject-with-feedback checkpoints are first-class nodes.
+- Immutable SQLite audit trace keyed by `step_instance_id`.
+- Framework Mode (engine drives agent step-by-step) and Runner Mode (external agent drives pipelines via CLI/MCP).
+- MCP transport `skillflow-mcp` for Claude Code / opencode with zero agent-side code.
+
+### Integration points for AMOS
+
+1. **Deterministic workflow runner → `amos-workflow-runner` and `amos-routing-audit`**
+   - SkillFlow's YAML DAG executor with linting and replay is a reference for hardening AMOS `.devin/workflows` parsing.
+   - The `amos-workflow-runner` can adopt a `workflow.yaml` lint step before execution.
+
+2. **Capability-gated I/O → `amos-skill-builder` contracts and `amos-routing-audit`**
+   - SkillFlow's `write_<slot>` / `edit_<slot>` pattern strengthens the `CONTRACT_TEMPLATE.yaml` added earlier.
+   - AMOS skill contracts can declare file slots and the runtime can expose only those tools.
+
+3. **Human-in-the-loop checkpoints → `amos-promotion-gates` and `amos-authority-canon`**
+   - First-class approve/reject nodes match AMOS `PROMOTION_GATES` and `L7_AUTHORITY` for human escalation before irreversible effects.
+
+4. **Immutable audit trace → `amos-observability-driven-harness-evolution-rscf`**
+   - The `step_instance_id` keyed SQLite trace is a concrete reference for AMOS execution provenance and `AGENT_VALIDATION_REPORT`.
+
+5. **MCP transport → `amos-mcp-connector` / `amos-llm-wiki`**
+   - `skillflow-mcp` can be mounted as an MCP server, letting AMOS agents run SkillFlow pipelines without new code.
+
+### Open questions / gaps
+
+- 3 stars on the repo at time of scan; no broad community validation.
+- README claims deterministic replay, but reproducibility across model providers is not empirically verified by AMOS.
+- The `edit_*` staging logic is subtle; importing it requires careful testing against AMOS's existing `skill_operations_enhancer.py`.
+
+### Recommended next step
+
+Install `skillflow-py` in a sandbox, convert one AMOS workflow (e.g., `amos-skill-builder-workflow.md`) into a SkillFlow YAML, and run `skillflow-lint` to see how much of the AMOS workflow contract can be expressed in SkillFlow's DAG schema.
+
+Raw source: [[SKILLFLOW_README_2026_08_29]]

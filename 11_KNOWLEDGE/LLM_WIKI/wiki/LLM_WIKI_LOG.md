@@ -151,3 +151,19 @@ claim_class: AMOS_MODEL
 - Fetched `microsoft/SkillOpt` README and captured raw source to [[SKILLOPT_README_2026_08_29]].
 - Mapped SkillOpt trainable-skill loop, held-out validation gates, and multi-harness evaluation to `amos-skill-builder`, `skill-check`, `amos-validation-pipeline`, and `amos-agent-orchestrator`.
 - Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: sandbox `skillopt` on one AMOS skill.
+
+## [2026-08-29] enhance | Implemented ORPHEUS + SkillOpt importables in `amos-skill-builder`
+
+- Created `stitch_project_cosmo/.devin/scripts/skill_operations_enhancer.py`:
+  - `Edit`/`Patch` dataclasses with `append`, `insert_after`, `replace`, `delete` operations.
+  - Held-out validation gate: reject candidate edits that break SKILL.md frontmatter or top-heading invariants.
+  - CLI supports `--patch` JSON or single `--op` with `--target`/`--content`.
+- Added `stitch_project_cosmo/.devin/skills/amos-skill-builder/references/CONTRACT_TEMPLATE.yaml` from ORPHEUS typed I/O contract pattern.
+- Re-ran `sota_skill_validator.py`: 642 / 642 skills still 100% SOTA; no regressions.
+- Committed to `stitch_project_cosmo`.
+
+## [2026-08-29] research | SkillFlow README captured and evaluated
+
+- Fetched `linxuhao/SkillFlow` README and captured raw source to [[SKILLFLOW_README_2026_08_29]].
+- Mapped SkillFlow YAML DAG executor, capability-gated I/O, human checkpoints, and MCP transport to `amos-workflow-runner`, `amos-skill-builder`, `amos-routing-audit`, `amos-promotion-gates`, and `amos-observability-driven-harness-evolution-rscf`.
+- Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: install `skillflow-py` and convert one AMOS workflow.

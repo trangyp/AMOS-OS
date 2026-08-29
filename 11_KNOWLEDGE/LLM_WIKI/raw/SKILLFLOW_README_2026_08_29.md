@@ -1,0 +1,678 @@
+---
+date: 2026-08-29
+epistemic_class: OBSERVATION
+provenance: GitHub README, not independently verified
+rscf:
+  claim_class: DERIVED
+  provenance: GitHub README (linxuhao/SkillFlow)
+  scope: AMOS_knowledge
+  state: SOURCE_CLAIM
+source: https://raw.githubusercontent.com/linxuhao/SkillFlow/main/README.md
+title: SkillFlow README — Raw Capture
+---
+# SkillFlow README — Raw Capture
+
+Source: `https://github.com/linxuhao/SkillFlow`
+
+# Skillflow
+
+[![PyPI](https://img.shields.io/pypi/v/skillflow-py)](https://pypi.org/project/skillflow-py/)
+![Python](https://img.shields.io/badge/python-3.12%2B-3776AB)
+![License](https://img.shields.io/badge/license-MIT-blue)
+
+Config-agnostic LLM pipeline graph executor with **human-in-the-loop by design**. Define multi-agent pipelines as YAML DAGs — skillflow handles deterministic traversal, tool execution, approval/reject checkpoints, loops, recovery, a full durable audit trace, and event streaming on SQLite. Provider-agnostic, custom tools, clean per-agent context.
+
+Two ways agents plug in: **embed** skillflow in a host app so it *drives* real agents step-by-step (forced execution order — see [Framework Mode](#framework-mode)), or have an **external agent** drive pipelines over a stateless protocol ([Runner Mode](#runner-mode)) — via the `skillflow-run` CLI or as typed **MCP tools** (`skillflow-mcp`, works with Claude Code / opencode / any MCP host with zero agent-side code). An agent can even *generate* a pipeline from a natural-language description (`skillflow-convert`) and then execute it.
+
+## Why Skillflow
+
+Most agent frameworks let the LLM improvise control flow, tool use, and file access — which is exactly why their runs can't be reproduced, audited, or trusted. Skillflow inverts that: **the LLM is a constrained, contract-bound function; the engine is the runtime.**
+
+- **Deterministic traversal** — the pipeline is a YAML DAG walked by the engine. Loops, gates, retries, and recovery are the engine's job, not the model's. Same config, same path.
+- **Capability-gated I/O (least privilege)** — a step sees only the context it declares, and for each declared output the engine *generates a dedicated write tool* (`write_<slot>` / `create_<slot>` / `edit_<slot>` / `append_<slot>`). An agent literally **cannot read or write a file outside its contract** — the tool to do so doesn't exist in its schema. *Brain to brain, tools to tools.* (It's also why cheap models suffice: small, focused, role-scoped context.)
+  `edit_*` is the PREFERRED revision path: it splices an exact unique replacement over a baseline and carries everything else through verbatim (a full rewrite from memory silently corrupts unflagged parts). Baseline resolution is **staging-first**: this attempt's staging → the consolidated repo → the step's own promoted output. Staging must win because a step makes many `edit_*` calls and each has to build on the last — the repo copy is only the *pre-step* baseline (`repo_apply` refreshes it after the step ends), so re-reading it per call would rewrite staging as `original + this one edit` and silently keep only the step's LAST edit. The promoted-output fallback is gated to *revision loops within the same run* (step dirs are shared across runs of one config — without the gate, a fresh run's first attempt would silently edit a previous run's output).
+- **Human-in-the-loop by design** — approve / reject-with-feedback checkpoints are first-class nodes, not bolted on.
+- **Immutable audit trace** — every step, prompt, response, tool call, and verdict is appended to a trace that is *never deleted*, keyed by `step_instance_id`. "Why did this run do X?" is one query.
+- **Config- and provider-agnostic** — a pipeline can be anything; nothing is hardcoded to a use case or a model.
+
+## Install
+
+```bash
+pip install skillflow-py      # PyPI
+pip install -e ~/skillflow    # from repo (editable)
+```
+
+`pip install` (≥ 1.1.2) gives you both the **library** (`from skillflow import SkillFlow`) and the **`skillflow-*` CLI commands** as console entry points. The clone + install-script flow is an alternative that registers the same commands into `~/.local/bin/`:
+
+```bash
+git clone https://github.com/linxuhao/SkillFlow.git
+bash skillflow/scripts/install.sh
+```
+
+CLI commands registered in `~/.local/bin/`:
+
+| Command | Description |
+|---------|-------------|
+| `skillflow-lint` | Validate pipeline YAML files (one-shot) |
+| `skillflow-run` | Stateless pipeline runner (agent calls via CLI) |
+| `skillflow-mcp` | Same runner protocol as typed MCP tools over stdio (`pip install skillflow-py[mcp]`) |
+| `skillflow-convert` | Convert a skill description → pipeline YAML |
+
+```bash
+skillflow-lint configs/*.yaml                       # one-shot validation
+skillflow-run --graph pipeline.yaml --action start  # start a pipeline (returns JSON)
+skillflow-run --action submit --run-id <id> --result '{"key": "val"}'
+skillflow-convert --desc "Code review skill..." --action start  # start from inline text
+skillflow-convert --desc-file my_skill.md --action start        # or from a file
+```
+
+### PyPI publish
+
+```bash
+pip install build twine
+python3 -m build
+twine upload dist/*
+```
+
+## Two modes
+
+Skillflow has two distinct modes — one for embedding in code, one for LLM agents.
+
+| | Framework mode | Runner mode |
+|---|---|---|
+| **Interface** | Python library (`from skillflow import SkillFlow`) | CLI tools (`skillflow-run`, `skillflow-convert`) |
+| **State** | In-process (or shared SQLite) | Stateless — each CLI call is a fresh process, state in SQLite |
+| **Tool execution** | All tools auto-execute inline | Native tools auto-execute, everything else delegated to the agent |
+| **delegate_tools_to_agent** | `False` (default) | `True` (hardcoded) |
+| **Use case** | Embed skillflow in a host app | LLM agent drives pipelines via shell commands |
+
+### Framework Mode
+
+Skillflow is embedded in a host application. The host drives the loop — skillflow handles traversal, tool execution, and state. The host only executes agent steps via `StepRunner`.
+
+```python
+from skillflow import SkillFlow, PipelineGraph, StepResult
+
+graph = PipelineGraph.from_yaml("tests/fixtures/minimal_1step.yaml")
+
+sf = SkillFlow(":memory:")
+sf.register_graph(graph)
+sf.register_agent_config("echo_agent", model="host")
+
+run_id = sf.create_run("minimal_1step")
+sf.start_run(run_id)
+
+while True:
+    sf.advance_run(run_id)
+    claimed = sf.claim_next_step(run_id)
+    if claimed is None:
+        break  # completed or paused
+    # Host StepRunner executes the agent step here
+    sf.confirm_step(claimed.token, StepResult(outputs={}, flags={}))
+```
+
+Config reference: `tests/fixtures/minimal_1step.yaml`.
+
+### Runner Mode
+
+Runner mode is the **language-agnostic** interface for LLM agents. Agents drive pipelines by calling CLI tools — `skillflow-run` and `skillflow-convert`. Each invocation is a **fresh process** that reads state from SQLite, does one thing, prints JSON, and exits. The agent loops: call → parse JSON → act → call again.
+
+Pass `--graph` **once** with `--action start`. The graph path is stored in the DB. All subsequent calls use `--run-id` to reconnect — no `--graph` needed.
+
+```bash
+# 1. Start a pipeline — pass --graph once, get the first step back
+$ skillflow-run --graph pipeline.yaml --action start
+{"status": "in_progress", "run_id": "abc123", "step": "analyze", "instruction": "..."}
+
+# 2. Submit work for the current step (no --graph needed)
+$ skillflow-run --action submit --run-id abc123 \
+    --result '{"issues": [{"file": "app.py", "severity": "high"}]}'
+{"status": "in_progress", "run_id": "abc123", "step": "summarize", "instruction": "..."}
+
+# 3. When a checkpoint step completes, the run pauses
+{"status": "paused", "checkpoint_label": "Review Summary — approve to commit, reject to revise"}
+
+# 3a. Human approves (no --graph needed)
+$ skillflow-run --action approve --run-id abc123
+{"status": "in_progress", "run_id": "abc123", "step": "apply_fixes", ...}
+
+# 3b. Or human rejects with feedback
+$ skillflow-run --action reject --run-id abc123 \
+    --feedback "Severity of bare except should be high, not medium"
+
+# 4. Loop continues until the pipeline completes
+{"status": "completed", "steps_completed": 3, "outputs": {...}}
+```
+
+**The agent drives this inline — there is no driver code.** The agent itself calls `skillflow-run` as a command inside its own turn loop: call → read the JSON → do the work (stage the expected output files, or run a delegated tool) → call again, reacting to `status` each turn (`in_progress` → submit, `paused` → ask the human to approve/reject, `completed`/`failed` → done). *The agent is the loop* — it never writes a program to drive skillflow. The full, injectable manual is [`AGENT.md`](src/skillflow/plugins/skill_runner/AGENT.md); load it via `load_agent_guide()` from `skillflow.plugins.skill_runner` and put it in the agent's system prompt.
+
+**Response fields beyond status:**
+
+| Field | When present | Meaning |
+|-------|-------------|---------|
+| `output_dir` | Steps with `output.fixed` | `.tmp` staging dir — write expected files here; skillflow promotes them on submit |
+| `expected_files` | Steps with `output.fixed` | File names to create (e.g. `["findings.json"]`) |
+| `validation_error` | Submit rejected by validator | Why the previous submit failed — fix and re-submit |
+| `tool_name` | Tool steps | Tool the agent must execute |
+| `tool_params` | Tool steps | Parameters for the tool |
+| `tools` | Agent steps | Write helpers (`write_*`, `create_*`, `append_*`) with format specs |
+
+#### MCP transport (`skillflow-mcp`)
+
+The same protocol is available as typed MCP tools — any MCP-speaking agent
+(Claude Code, opencode, ...) drives pipelines with **zero agent-side code**
+and no shell quoting of documents:
+
+```jsonc
+// e.g. .mcp.json
+{ "mcpServers": { "skillflow": {
+    "command": "skillflow-mcp",
+    "args": ["--db", "~/.skillflow/skillflow.db",
+             "--workspace", "~/.skillflow/ws",
+             "--graphs", "./graphs",
+             "--agent-configs", "./graphs/agents.yaml"] } } }
+```
+
+Tools: `runner_start` / `runner_next` / `runner_status` / `runner_submit` /
+`runner_approve` / `runner_reject`, plus `skillflow_tool(run_id, step_id,
+name, params)` — a proxy that executes the *current step's* skillflow tools
+(`write_<slot>`, `read_*`, native tools) server-side with allowlisting and
+tracing; host-tool names are bounced with a redirecting error. Stdio
+transport means no standing server: the agent spawns the process per session,
+and all state lives in SQLite — a crashed client reconnects with
+`runner_next(run_id)`. Requires the optional extra: `pip install
+skillflow-py[mcp]`.
+
+Both transports (and in-process hosts) share one core:
+`RunnerService` in `skillflow.plugins.skill_runner` — embed it directly when
+your host process already owns a `SkillFlow` instance.
+
+## Node Types
+
+| Type | Description |
+|------|-------------|
+| `agent` | LLM step — host app executes via `StepRunner` protocol |
+| `tool` | Auto-executed by skillflow (native), or delegated to agent in runner mode (custom) |
+| `gate` | Auto-resolved using match conditions against step output flags |
+| `loop` | Iterates over a JSON list from a workspace file, instantiating sub-steps per item |
+
+## Transition Matching
+
+Five match strategies. See `tests/fixtures/dpe_full.yaml` for a complete pipeline using all of them:
+
+```yaml
+match: { field: "passed", value: true }                          # step output flags
+match: { from_file: "review_verdict.json", field: "passed", value: true }  # output file
+match: { from: "checkpoint", value: "approved" }                 # checkpoint routing
+match: { _error: true }                                          # error handler
+# (no match key)                                                 # always match
+```
+
+## Loopback (review & goal loops)
+
+Any transition's `to` can point **backward** to an earlier step — that's how review and goal loops are built. `max_loop` caps how many times an edge may fire per run (tracked in `skillflow_edge_counts`); once the cap is hit the edge stops matching, so the run takes another branch instead of looping forever. Set `feedback: true` to inject the step's outputs as `_feedback` into the target on the way back, making the redo corrective.
+
+```yaml
+# A Red-checker that sends work back to the maker until it passes (max 3×)
+transitions:
+  - to: "implement"          # backward edge → redo the step
+    match: { passed: false }
+    max_loop: 3
+    feedback: true           # pass review notes back into 'implement'
+  - to: "next_step"          # forward once the checker passes
+    match: { passed: true }
+```
+
+This powers both **inner review loops** (e.g. `review → implement`, `max_loop: 3`) and **goal loops** (a final verifier routing back to planning until goals are met). See `tests/fixtures/review_loop.yaml` and `tests/fixtures/dpe_full.yaml`.
+
+### Why a run died there
+
+Exhausting a `max_loop` is a legitimate terminal — a review loop that never converges is *supposed* to stop. But the failure is a routing decision, and a routing decision reports the edge (`Cycle limit exceeded`, `No matching transition from 'X' with flags {...}`) while the reason sits in the file the edges route on. So when a run ends on an exhausted or unmatched transition, skillflow re-reads the `from_file` targets of that node's transitions and inserts the first human-readable field it finds — `feedback`, `error`, `errors`, `reason`, `violations`, `summary`, `message`, `detail` — into the run's `error_reason`, ahead of the edge detail:
+
+```
+Cycle limit exceeded — continuity_report.json violations: 字数超限: 5662 字（上限 4500） (edges: All
+transitions from 'continuity_check' are exhausted: 'continuity_check' -> 'chapter_writer' (max_loop=3 reached))
+```
+
+The reason comes first because hosts truncate this string for status displays. A field whose JSON value is `null` is skipped, not printed as `"None"` — `{"passed": false, "error": null, "violations": [...]}` reports the violations. Bounded (at most 3 files, 300 characters, one line) and never fatal: an unreadable or unparseable routing file just leaves the message as it was. Applies to agent, tool, and gate nodes.
+
+A gate resolves `from_file` edges against the last completed step's output — including when a tick finds the run already parked on the gate (after a restart, say). Before 1.5.30 that second path passed no reader, so the same gate routed one way mid-tick and dead-ended on `no matching transition` when it was reached pre-resolved.
+
+## Context Injection
+
+```yaml
+context:
+  - source: { step: "1" }
+  - source: { step: "2", mode: "interfaces" }
+  - source: { config: "meta", output: "brief.md" }                  # any step of another config
+  - source: { config: "meta", step: "finalize", output: "x.json" }  # a SPECIFIC step's output
+  - source: { tool: "dir_tree" }
+  - source: { from: "repository", mode: "tool" }                    # read tools over the CODE repo
+  - source: { from: "repository", path: "docs/spec.md" }            # inline-inject one repo file/subtree
+  - source: { feedback_of: "draft" }                                # another step's checkpoint-feedback log
+  - source: { step: "verify", scope: "all" }                        # ALL items of a loop-body producer
+```
+
+A cross-config source without `step` scans the other config's step dirs for the
+file; adding `step` reads that one step's output (use it when only a specific
+producing step is authoritative).
+
+**Loop fan-out reads (`scope`)**: a loop-body *agent* step's output is stored
+per item at `{step}/{item}/` (each iteration survives promotion; only that
+item's folder is replaced on a redo). How a source over such a producer
+resolves depends on where the reader sits: a reader in the **same loop** gets
+its own current item's folder (`scope: task`, the default); a reader **outside
+the producer's loop** — an aggregator after the loop — always gets all items
+(the `{step}/` parent), and should declare `scope: all` for clarity. With
+`scope: all`, a `file:` selector matches per item (`{step}/*/file`). `scope`
+values are validated at graph registration. Loop-body **tool** steps are not
+per-item — they write flat via `$STEP_DIR` and are overwritten each iteration.
+Lifecycle hooks of a body step (`on_deliver: repo_apply` etc.) resolve
+`$STEP_DIR` to the per-item folder — the dir the files were just promoted to.
+
+`from: repository` resolves the **code repository** (`workspace.get_project_code_path`)
+in every mode. Inline injection requires a `path:` — a pathless inline source is
+refused (a real repo is megabytes; injecting all of it into the prompt is never
+what you want). Use `mode: "tool"` to expose the repo as a browsable read
+surface instead.
+
+`feedback_of` injects the named step's **accumulated checkpoint-feedback log**
+(all reject rounds, prefixed with a read contract — see Checkpoints below).
+Wire it onto a reviewer so a revision that silently reverts an earlier round's
+fix gets caught instead of passing review unchallenged. Volatile tier: it is
+emitted last and never poisons the prompt-cache prefix.
+
+## The Read Surface (read / search / list)
+
+Context specs with `mode: "tool"`/`"both"` also generate a unified read surface:
+three tools (`read`, `search`, `list`) over the step's declared sources, each
+addressable via `source:` (`"step:2"`, `"repo"`, `"self"`, …; omitted = the
+working tree, staging-first so an agent sees its own just-written edits).
+`read` pages by 0-based `start_line`/`end_line`, so a truncated injection is
+recoverable rather than terminal.
+
+**A wrong path is not a dead end.** Agents routinely address one namespace with
+another's path (a live one asked a step source for `novel/chapters/ch0003/
+chapter_draft.md` when the step held `chapter_draft.md` at its root — then
+gave up and worked blind). `read` recovers deterministically: if exactly ONE
+file in the searched layers has the requested basename, it is served with the
+corrected path in `resolved_from`; several → the error lists the candidates;
+none → the error lists what each layer actually contains (bounded). Every
+failure tells the agent what to call next.
+
+## Checkpoints
+
+Agent **and tool** steps can pause for human approval (`tests/fixtures/checkpoint_cycle.yaml`).
+A checkpoint on a tool step enables the *review-before-checkpoint* pattern: a cheap
+staging tool re-materializes the artifacts to approve, and the human is only asked
+once the automated reviewer has passed — not on every autonomous revision loop.
+
+On reject, the feedback is injected so the re-run knows *why* it was rejected:
+
+```python
+# Redo the rejected step itself
+sf.reject_checkpoint(run_id, "draft", "Add more detail to the analysis")
+
+# Or loop back to a DIFFERENT step — reopen the run earlier and carry the
+# feedback to that target (e.g. reject the final review back to planning)
+sf.reject_checkpoint(run_id, "final_review", "Goals not met", redirect_to="plan")
+```
+
+`redirect_to` makes rejection a human-driven loopback: it sets the run's current node to the target step and injects the feedback there. Over the CLI this is `--redirect-to <step>`. Graphs can pin the target declaratively with `checkpoint_reject_to: "<step>"` on the checkpoint node. A checkpoint can also be rejected *after* a downstream failure (the only invariant is that the checkpoint step is `completed`), so you can reopen earlier work to recover.
+
+**Feedback accumulates.** Every reject round is APPENDED to a per-step log at
+`{config}/_feedback/{step}.md` (beside the step dir — step dirs are wiped on
+re-run), git-versioned when artifact history is on. The re-run's prompt gets the
+FULL history, not just the latest round, prefixed with a read contract: rounds
+are cumulative (fixing round 3 must not undo round 1), quoted passages are the
+complained-about OLD text (never text to reproduce), and feedback is a
+constraint on the artifact (satisfied by what the artifact IS — never by
+restating it, and never by asserting the absence of something to prove
+compliance). Each clause exists because a live run violated it. The log is
+scoped per project+config: a fresh project starts clean; re-running the same
+project inherits its rounds.
+
+## Output Validation
+
+Steps declare validation specs auto-executed by skillflow. See `tests/fixtures/skill_review.yaml` for inline JSON Schema validation, or `tests/fixtures/lifecycle_hooks.yaml` for syntax_lint + py_compile validators.
+
+Available validators: `json_schema`, `syntax_lint`, `py_compile`, `pytest`, `file_exists`.
+
+## Lifecycle Hooks
+
+Steps with `output.mode: "write"` can trigger deliver and post-deliver hooks. See `tests/fixtures/lifecycle_hooks.yaml`:
+
+```yaml
+lifecycle:
+  on_deliver:
+    tool: "repo_apply"
+    params:
+      source_dir: "$STEP_DIR"
+    on_failure: "retry"
+    max_retries: 2
+  after_deliver:
+    - tool: "syntax_lint"
+      files: ["*.py"]
+```
+
+## Error Handling
+
+Steps declare `max_retries` and an `_error` transition. See `tests/fixtures/error_handler.yaml`.
+
+## Feedback Loopback
+
+Tool failures can inject output into the next step's inputs (`feedback: true`). See `plugins/skill_converter/skill_converter.yaml` — the `validate_design` step feeds lint errors into `fix_issues`.
+
+## End Conditions
+
+Four termination strategies, combined with `and`/`or`. See `tests/fixtures/end_conditions.yaml` and `tests/fixtures/dpe_full.yaml`:
+
+```yaml
+end_conditions:
+  combinator: or
+  conditions:
+    - type: node_reached
+      node: "5_review"
+      result: "completed"
+      require_completed: true   # fire only once the node has COMPLETED, not merely
+                                # been reached (i.e. become current_node)
+    - type: max_total_steps
+      limit: 200
+    - type: max_run_duration_seconds
+      limit: 3600
+    - type: flag_match
+      flag: { fatal_error: true }
+```
+
+`require_completed` (node_reached only) gates termination on the node's step
+reaching `completed` status. Use it when the terminal node is a real agent/tool
+step that must execute before the run ends — without it the condition fires as
+soon as the node becomes `current_node`.
+
+**Terminating a run needs an end condition.** A transition `to: null` does NOT by
+itself end a run: with no resolvable target the run is marked **failed** ("no
+matching transition"). To finish cleanly, give the terminal step `to: null` **and**
+a `node_reached` end condition for that node (the pattern above). This applies to
+`tool` and `gate` steps too, not just `agent` steps.
+
+## Execution Order vs Creation Order
+
+Step instance `id` is CREATION order: `start_run` instantiates every node up
+front, and loop/reject re-runs append new high-id instances of EARLY steps —
+after any loop, id order and execution order diverge permanently. Everything
+that needs "what happened last" uses **`completion_seq`** instead: a per-run
+monotonic counter assigned in the same transaction that marks an instance
+completed (`completed_at` alone can't do this — 1-second resolution ties).
+`advance_run`'s position reconstruction, `reactivate_run`'s resume point, and
+`resume_from_checkpoint` all order by it; sorting by id here once sent a live
+run backwards into an hours-old reviewer instance. `get_steps()` returns GRAPH
+declaration order (instances grouped under their node, attempts adjacent) so a
+UI never renders a loop re-run *after* still-pending downstream steps.
+
+## Stale Claim Recovery
+
+Built into `advance_run`. **Ownership decides; the clock only answers where
+ownership cannot.** Death is observed by someone else, tardiness is measured by
+the clock, and the two are never merged — a process cannot detect its own death,
+and nobody else should be guessing at its tardiness.
+
+**Death — the owner's pid is gone.** Every claim records who made it, in
+`skillflow_steps.claimed_by`:
+
+```
+worker host=box-1 pid=4711 boot=911724fdc197 ns=4026531836 start=154110928
+```
+
+`recover_stale_claims` probes that owner (`skillflow.identity.owner_is_dead`)
+and reclaims a dead one **immediately**, without waiting out the lease — and
+regardless of the `timeout_seconds: 0` exemption below, since a dead owner is
+running nothing. `start=` is the process's start time, so a *recycled* pid (a
+restarted container whose new main process is pid 1 exactly as the old one was)
+is not mistaken for the original. The probe is three-valued and only "dead"
+short-circuits anything: another kernel boot, a `claimed_by` written before this
+existed, or a platform without `/proc` all answer "unknown" and fall back to the
+lease. `claimed_by` used to be the string literal `"worker"`, which made a
+crashed worker and a quiet one the same row by construction.
+
+**Life — the owner answers to its pid.** An owner observed *running* is never
+reclaimed, whatever the clock says: it is still working, and there is nothing to
+recover. Silence is not death — an agent step spends minutes inside one LLM call
+and traces nothing while it waits, so the activity clock below cannot tell a
+working step from an abandoned one. Reaping the working one killed real work and
+then failed the returning executor's `confirm_step` on a version mismatch. If a
+live owner is *also* hung, that is tardiness, and tardiness belongs to its own
+timeout and to the host's supervision — not to a reaper that cannot tell the two
+apart.
+
+**Tardiness — the activity lease, for owners that cannot be probed.** Where the
+answer is "unknown" — another kernel boot, a pre-identity `claimed_by`, no
+`/proc` — a claim *silent* longer than `stale_threshold_seconds` (default 300)
+is reset to `pending` and re-claimed. Silence, not runtime: every `trace()`
+heartbeats the claimed step. A tool step's window is the longer of the threshold
+and its node's `timeout_seconds`; `timeout_seconds: 0` means such a tool is
+never reclaimed at all (reclaiming it would relaunch it beside itself).
+
+```python
+sf = SkillFlow("pipeline.db", stale_threshold_seconds=300)
+```
+
+**Crash-loop guard:** if the *same* step instance is recovered 3 times, skillflow stops retrying and marks it `failed` (`"worker crashed 3 times — likely a code bug or OOM"`), emitting a non-retryable `step_failed` event — so a buggy or OOM-prone step can't loop forever.
+
+## Fencing a reclaimed executor
+
+Reclaiming a step does not stop the executor that was holding it — a hung LLM
+call in a thread is not killable — so recovery has to make the zombie's *writes*
+harmless. Every claim bumps `skillflow_steps.claim_epoch`, and the value rides
+on the `ClaimToken`:
+
+| path | fenced | how |
+|---|---|---|
+| `confirm_step(token, …)` | always | raises `StaleClaimFenced`, **before** the lifecycle hooks — so `on_deliver` (`repo_apply`, real git commits) and the `{step}.tmp/` → `{step}/` promotion never run twice |
+| `fail_step(token, …)` | always | raises `StaleClaimFenced` — a zombie cannot spend its replacement's retry budget |
+| `sf.execute_tool(…, claim_epoch=token.claim_epoch)` | when the host forwards the epoch | returns `{"error": "… was reclaimed …"}` |
+
+`StaleClaimFenced` subclasses `StepVersionConflict`, but they mean different
+things: a version conflict says *reload and re-decide*, a fence says **stop** —
+nothing the caller re-reads will make it the executor again.
+
+`claim_epoch = 0` means "unfenced" on either side, so a hand-built `ClaimToken`
+and rows written before the column existed behave exactly as they did. Adding
+the column is the whole migration (`SKILLFLOW_MIGRATIONS`, applied on every
+open); old rows backfill to 0.
+
+## Event Streaming
+
+All state transitions are written to `skillflow_outbox`. Poll for real-time notifications:
+
+```python
+events = sf.drain_outbox(batch_size=50)
+for event in events:
+    print(event.event_type, event.payload)
+sf.ack_outbox([e.id for e in events])
+```
+
+In-process subscribers via `NotificationBus`:
+
+```python
+from skillflow import NotificationBus
+
+bus = NotificationBus()
+bus.subscribe("step_completed", lambda n: print(n.payload))
+sf = SkillFlow(":memory:", notification_bus=bus)
+```
+
+## Durable Run Trace
+
+Unlike the outbox (drained + ack'd for delivery), the **trace is an append-only audit log that is never deleted**. It records every step claim/completion, prompt, model response, tool call + result, and lifecycle-hook outcome — keyed by `step_instance_id`, so loop iterations never overwrite one another and a finished run can be reconstructed offline. Tool calls are traced across **all** invocation paths (agent-invoked incl. custom tools, tool-step nodes, lifecycle hooks, validators), each tagged with a `source`.
+
+```python
+sf.trace(run_id, "event", "note", {"x": 1})          # hosts can add their own records
+records = sf.get_trace(run_id)                        # chronological, by seq
+for r in records:
+    print(r["seq"], r["category"], r["event"], r["payload"])
+```
+
+Within a host, the claimed step exposes `step.trace(category, event, payload)` so prompts/responses land in the same timeline. Long fields are clipped; writes are cheap (an in-process per-run seq counter avoids a SELECT per record). Retention is the host's call:
+
+```python
+SkillFlow(db, trace_enabled=False)                   # opt out entirely (zero overhead)
+sf.prune_trace(run_id="...")                          # drop one run's trace
+sf.prune_trace(keep_last_runs=200)                    # cap to recent runs
+```
+
+`delete_project` removes a project's trace automatically. This is what turns "why did this run do X?" from forensic git-archaeology into one query.
+
+## Artifact History
+
+The trace records *what happened*; **artifact history records the actual files each step produced**. A step's output is promoted `{step}.tmp/ → {step}/` on commit, and `_step_commit` **rmtree's the old `{step}/` before renaming the new one in** — so a goal/review loop that re-runs the same step (re-plan, re-implement, re-verify) would otherwise **overwrite and lose** every earlier iteration's output.
+
+With `artifact_history` (**on by default**), each promoted step-output dir is committed to a git repo at the **workspace root**. The previous version was committed by that step's previous `_step_commit`, so the overwrite loses nothing — every iteration stays recoverable for tracing.
+
+```python
+SkillFlow(db, workspace_base="…")                    # artifact history ON by default
+SkillFlow(db, workspace_base="…", artifact_history=False)   # opt out
+
+# List a step's output versions (newest first) and recover any of them
+for v in sf.step_output_versions(project_id, "dpe_default", "3"):
+    print(v["commit"], v["timestamp"], v["message"])
+# git show <commit>:<config>/<step>/<file>   (run at the workspace root)
+```
+
+- **Best-effort**: any git failure is swallowed — it never breaks a run.
+- **No-op without a workspace** (`:memory:` / workspace-less hosts are unaffected), and a no-change step produces no empty commit.
+- **Volatile files stay out of history**: `*.tmp/` staging dirs and trace DBs (`trace.db*`, `*.db-wal/shm`) are auto-gitignored; one commit == one step's promoted output.
+
+Complements the trace: the trace answers *why*, artifact history hands you the *exact files* a step wrote on any iteration.
+
+## Tools
+
+### Native (13 built-in)
+
+| Tool | Description |
+|------|-------------|
+| `read_file` | Read a file with line numbers |
+| `write` | Write content to workspace |
+| `list_tree` | List directory structure |
+| `dir_tree` | Context tree for prompt injection |
+| `json_schema` | Validate JSON against inline schema |
+| `syntax_lint` | Syntax check via ruff |
+| `py_compile` | Python bytecode compile |
+| `pytest` | Run pytest on test files |
+| `repo_apply` | Copy files to repo + git commit |
+| `repo_validate` | Multi-tool repo validation |
+| `draft_commit` | Move draft files to final dir + commit |
+| `file_exists` | Check files matching glob patterns |
+| `notify` | Send user-visible notifications |
+
+### Custom tools
+
+Host apps add tool directories. Each tool: `{name}/tool.yaml` + `{name}/impl.py`. Function name must match directory name.
+
+```python
+from skillflow.tool_loader import ToolLoader
+
+loader = ToolLoader()
+loader.add_tools_dir("my_app/tools")
+sf = SkillFlow(":memory:", tool_loader=loader)
+```
+
+### Auto-injected: `finish_step`
+
+Every agent step (both `content` mode and `write` mode) automatically gets a `finish_step` tool injected as the **last** tool in the schema. This gives the agent a deterministic way to signal "I'm done writing outputs" instead of relying on the host runner to guess when the agent has stopped calling tools.
+
+**Contract:**
+
+- Skillflow generates the tool schema (always last in the array — the model is shown it last so it calls it last).
+- Skillflow's tool executor returns `{"status": "completed"}` — a no-op.
+- The **host runner** detects `finish_step` in the tool-calling loop and breaks the turn loop, proceeding to output validation and step completion.
+- The runner MUST process **all** tool calls in the current turn before checking for `finish_step`, so multi-tool responses (e.g. `write_sota` + `finish_step`) work correctly — never short-circuit mid-turn.
+
+## Use Cases
+
+### 1. Framework mode — embed skillflow in your app
+
+Use skillflow as a library. Read the [Getting Started](#getting-started) section above and the fixture examples in `tests/fixtures/`.
+
+```python
+from skillflow import SkillFlow, PipelineGraph
+graph = PipelineGraph.from_yaml("my_pipeline.yaml")
+sf = SkillFlow(":memory:")
+sf.register_graph(graph)
+# ... drive the loop with claim_next_step / confirm_step
+```
+
+### 2. Agent mode — convert skills to pipelines
+
+`skillflow-convert` is a thin wrapper that calls `skillflow-run` with the built-in converter pipeline. The agent drives it the same way:
+
+```bash
+# Start conversion with a skill description
+$ skillflow-convert --desc "Code review skill..." --action start
+{"status": "in_progress", "run_id": "abc123", "step": "analyze_skill", "instruction": "..."}
+
+# Submit analysis, continue through design → explain → lint → done (no --desc needed)
+$ skillflow-convert --action submit --run-id abc123 --result '{"analysis": {...}}'
+```
+
+On completion, the generated pipeline YAML is at `~/.skillflow/workspaces/skill-converter/.../skill_pipeline.yaml`.
+
+Agent manuals (the tool schema + rules) are shipped in the package:
+
+| Plugin | Manual | Load via |
+|--------|--------|----------|
+| `skill_runner` | Actions, response format, rules | `load_agent_guide()` from `skillflow.plugins.skill_runner` |
+| `skill_converter` | Step-by-step: analyze → design → lint → fix | `load_agent_guide()` from `skillflow.plugins.skill_converter` |
+
+Inject these into the agent's system prompt so it knows how to call the CLI tools.
+
+```bash
+skillflow-lint pipeline.yaml                             # one-shot config validation
+skillflow-run --graph pipeline.yaml --action start        # start a pipeline (returns JSON, --graph only once)
+skillflow-convert --desc "..." --action start             # start a conversion
+```
+
+### Linter (`skillflow.plugins.linter`)
+
+Framework utility. Validates pipeline YAML — used as a skillflow tool (`skillflow_lint`) inside the converter's feedback loop, or standalone:
+
+```bash
+skillflow-lint tests/fixtures/skill_review.yaml
+skillflow-lint configs/*.yaml
+```
+
+## Package
+
+```
+src/skillflow/
+├── core.py              # SkillFlow orchestrator (create/claim/confirm/advance)
+├── graph.py             # PipelineGraph, StepNode, Transition, GraphResolver
+├── tool_loader.py       # Dynamic tool schema + implementation loading
+├── context.py           # ContextResolver: cross-config, step, tool sources
+├── step_validation.py   # StepValidator: multi-tool output validation
+├── write_tools.py       # Constrained write tool generation from output.fixed
+├── workspace.py         # Per-step atomic staging directories
+├── validation.py        # Optional external-schema output validation
+├── recovery.py          # Stale claim recovery
+├── schema.py            # SQLite DDL + migrations
+├── exceptions.py        # SkillFlowError hierarchy
+├── outbox.py            # OutboxConsumer for event polling
+├── notifications.py     # NotificationBus for in-process subscribers
+├── agent_registry.py    # Agent config registry + schema resolution
+├── plugins/             # Built-in plugins
+│   ├── linter/          # Config validator + skillflow_lint tool
+│   ├── skill_runner/    # SkillTool — interactive pipeline facade
+│   └── skill_converter/ # Skill description → pipeline YAML
+└── tools/               # Native tools (13)
+    ├── read_file/       ├── write/          ├── list_tree/
+    ├── dir_tree/        ├── json_schema/    ├── syntax_lint/
+    ├── py_compile/      ├── pytest/         ├── repo_apply/
+    ├── repo_validate/   ├── draft_commit/   ├── file_exists/
+    └── notify/
+```
+
+## Tests
+
+```bash
+pytest tests/ -v                    # 330+ tests
+pytest src/skillflow/plugins -v     # 27 plugin tests
+```
