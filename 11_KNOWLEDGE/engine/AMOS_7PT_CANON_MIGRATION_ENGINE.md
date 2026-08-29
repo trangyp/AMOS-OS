@@ -412,7 +412,7 @@ def section_bounds(text: str, heading: str) -> tuple[int, int]:
     """Return [start, end) for a level-2 Markdown section."""
 
     pattern = re.compile(
-        rf"(?m)^{re.escape(heading)}\s*$"
+        rf"(?m)^{re.escape(heading)}\s*\$"
     )
 
     match = pattern.search(text)

@@ -441,7 +441,7 @@ $$
 P2 contains:
 
 ```text
-Instant $ Reset
+Instant \$ Reset
 ```
 
 The missing mathematical symbol between `Instant` and `Reset` is not recoverable from this artifact alone.
@@ -449,7 +449,7 @@ The missing mathematical symbol between `Instant` and `Reset` is not recoverable
 P7 contains:
 
 ```text
-Clean Slate Ground State Recovery ($)
+Clean Slate Ground State Recovery (\$)
 ```
 
 The symbol inside the parentheses is absent/corrupted.
@@ -768,7 +768,7 @@ for any \(x\).
 The source gives:
 
 ```text
-Instant $ Reset
+Instant \$ Reset
 ```
 
 Possible interpretations of the missing symbol are not promoted.

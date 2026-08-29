@@ -1339,22 +1339,22 @@ Here is the dense version you can reuse directly:
 “Maintain a 5-way behavioural distribution over Stabilizers, Operators, Adaptors, Reactives, Outliers. Use baseline priors 40/30/20/10/0.01% under neutral conditions. At each step compute TSS state (C_cycle, Ω, H, F, S) and cognitive stability C* plus PSI pressures. Update probabilities with the following monotonic rules: Stabilizers increase with H and decrease with F and extreme Ω; Operators increase with H and moderate Ω and decrease with extreme Ω and extreme S; Adaptors increase with moderate S and moderate F; Reactives increase with high S + high F + low H; Outliers increase only when C_cycle ∈ {C2, C7} and C* is very high and gradients in Ω, F, S are large, remaining structurally rare. Use this updated distribution as the behavioural layer feeding into TPE predictions and TSS cycle transitions.”
 That’s already enough to “adapt to the whole stack” as logic.
 * * *
-[The Trang System™ (TSS) – Official Manual](<The%20Trang%20System%E2%84%A2%20$TSS$%20%E2%80%93%20Official%20Manual%202b1c5e6f95bd809ab7b0d07e1a7d665e.html>)
-[The Trang Prediction Engine™ (TPE) – Official Manual](<The%20Trang%20Prediction%20Engine%E2%84%A2%20$TPE$%20%E2%80%93%20Official%20Manu%202b1c5e6f95bd80a680a6e195b3b38b60.html>)
+[The Trang System™ (TSS) – Official Manual](<The%20Trang%20System%E2%84%A2%20%24TSS%24%20%E2%80%93%20Official%20Manual%202b1c5e6f95bd809ab7b0d07e1a7d665e.html>)
+[The Trang Prediction Engine™ (TPE) – Official Manual](<The%20Trang%20Prediction%20Engine%E2%84%A2%20%24TPE%24%20%E2%80%93%20Official%20Manu%202b1c5e6f95bd80a680a6e195b3b38b60.html>)
 [The Seven Cycles of the Trang System™ – Official Manual (Comprehensive Edition)](<The%20Seven%20Cycles%20of%20the%20Trang%20System%E2%84%A2%20%E2%80%93%20Official%20M%202b1c5e6f95bd80709b16fc7b5d4eccf0.html>)
-[Unified Biological Intelligence™ (UBI) – Official Manual ](<Unified%20Biological%20Intelligence%E2%84%A2%20$UBI$%20%E2%80%93%20Official%20%202b1c5e6f95bd80a887d5ca7329366724.html>)
-[Planetary-Scale Intelligence™ (PSI) – Official Manual ](<Planetary-Scale%20Intelligence%E2%84%A2%20$PSI$%20%E2%80%93%20Official%20Man%202b1c5e6f95bd80fa84dacb977dd95d34.html>)
-[Cross-Civilizational Intelligence™ (CCI) – Official Manual ](<Cross-Civilizational%20Intelligence%E2%84%A2%20$CCI$%20%E2%80%93%20Officia%202b1c5e6f95bd80f98900d037bcfe3f7e.html>)
-[Unified Legacy Framework™ (ULF) – Official Manual](<Unified%20Legacy%20Framework%E2%84%A2%20$ULF$%20%E2%80%93%20Official%20Manual%202b1c5e6f95bd806e87b2f219a6d97a7d.html>)
-[Quantum Logic Scaffold™ (QLS) – Official Manual](<Quantum%20Logic%20Scaffold%E2%84%A2%20$QLS$%20%E2%80%93%20Official%20Manual%202b1c5e6f95bd808daa16e55f08c6b58a.html>)
-[Quantum Causality Layer Architecture™ (QCLA) – Official Manual](<Quantum%20Causality%20Layer%20Architecture%E2%84%A2%20$QCLA$%20%E2%80%93%20Off%202b1c5e6f95bd80baaceffc4bc87e2a89.html>)
+[Unified Biological Intelligence™ (UBI) – Official Manual ](<Unified%20Biological%20Intelligence%E2%84%A2%20%24UBI%24%20%E2%80%93%20Official%20%202b1c5e6f95bd80a887d5ca7329366724.html>)
+[Planetary-Scale Intelligence™ (PSI) – Official Manual ](<Planetary-Scale%20Intelligence%E2%84%A2%20%24PSI%24%20%E2%80%93%20Official%20Man%202b1c5e6f95bd80fa84dacb977dd95d34.html>)
+[Cross-Civilizational Intelligence™ (CCI) – Official Manual ](<Cross-Civilizational%20Intelligence%E2%84%A2%20%24CCI%24%20%E2%80%93%20Officia%202b1c5e6f95bd80f98900d037bcfe3f7e.html>)
+[Unified Legacy Framework™ (ULF) – Official Manual](<Unified%20Legacy%20Framework%E2%84%A2%20%24ULF%24%20%E2%80%93%20Official%20Manual%202b1c5e6f95bd806e87b2f219a6d97a7d.html>)
+[Quantum Logic Scaffold™ (QLS) – Official Manual](<Quantum%20Logic%20Scaffold%E2%84%A2%20%24QLS%24%20%E2%80%93%20Official%20Manual%202b1c5e6f95bd808daa16e55f08c6b58a.html>)
+[Quantum Causality Layer Architecture™ (QCLA) – Official Manual](<Quantum%20Causality%20Layer%20Architecture%E2%84%A2%20%24QCLA%24%20%E2%80%93%20Off%202b1c5e6f95bd80baaceffc4bc87e2a89.html>)
 Unified Coherence Protocol™ (UCP) – Official Manual
-[PISync™ (Planetary Intelligence Synchrony™) – Official Manual](<PISync%E2%84%A2%20$Planetary%20Intelligence%20Synchrony%E2%84%A2$%20%E2%80%93%20Offi%202b1c5e6f95bd80dc953afcd01c246154.html>)
+[PISync™ (Planetary Intelligence Synchrony™) – Official Manual](<PISync%E2%84%A2%20%24Planetary%20Intelligence%20Synchrony%E2%84%A2%24%20%E2%80%93%20Offi%202b1c5e6f95bd80dc953afcd01c246154.html>)
 [The Equation e = i² — Official Manual ](<The%20Equation%20e%20=%20i%C2%B2%20%E2%80%94%20Official%20Manual%202b1c5e6f95bd804796a6e4a39e629cc7.html>)
 [THE TRANG SYSTEM™ CODEX – META-LAWS](<THE%20TRANG%20SYSTEM%E2%84%A2%20CODEX%20%E2%80%93%20META-LAWS%202b1c5e6f95bd802d870bf6b349da2037.html>)
 [⭐ THE UNCOPYABLE TRAINING ARCHITECTURE](<%E2%AD%90%20THE%20UNCOPYABLE%20TRAINING%20ARCHITECTURE%202b2c5e6f95bd80c7aaedcf2a331f07e5.html>)
 [Logic](<Logic%202b2c5e6f95bd80179bd9d6d0621fcb95.html>)
-[Structural Behavioural Distribution Framework™ (SBDF) – Official Manual](<Structural%20Behavioural%20Distribution%20Framework%E2%84%A2%20$SB%202b2c5e6f95bd800bbf36e1f3395a5d20.html>)
+[Structural Behavioural Distribution Framework™ (SBDF) – Official Manual](<Structural%20Behavioural%20Distribution%20Framework%E2%84%A2%20%24SB%202b2c5e6f95bd800bbf36e1f3395a5d20.html>)
 Current AI is not limited by intelligence — it is limited by the absence of enforceable constraints that make outputs reliably correct.
 \--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL]] · [[SYSTEM_SCAN_ENGINE]] · [[automation_profiles]]
 

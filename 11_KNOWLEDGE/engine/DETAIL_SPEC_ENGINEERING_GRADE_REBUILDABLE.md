@@ -983,7 +983,7 @@ If you want next, I can:
   * produce a **VN government funding justification**
 
 
-  * or model **$/kg H₂ in VN vs AU side-by-side**
+  * or model **\$/kg H₂ in VN vs AU side-by-side**
 
 
 Just tell me which.
