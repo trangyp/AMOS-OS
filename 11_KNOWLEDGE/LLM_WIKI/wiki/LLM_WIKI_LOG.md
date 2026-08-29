@@ -432,3 +432,11 @@ claim_class: AMOS_MODEL
 - Updated gate list, gate names table, and fix-actions in the validator.
 - Ran `make validate`: 643/643 skills at 100% SOTA, 0 critical, 0 warnings.
 - Out of 643 skills, 0 have name or description length/format drift against the spec.
+
+## [2026-08-30] implement | Added G15/G16 to `sota_skill_validator.py`
+
+- Added `G15` — `compatibility` <=500 chars.
+- Added `G16` — `allowed-tools` format (known tools or `Bash(scope:*)` scoping).
+- Fixed `amos-0704-3643v1-sabbath-day-home-automation-it-s-like-mixing-te` `allowed-tools` from `Read skill` to `Read`.
+- `make validate`: 643/643 skills, 100% SOTA across 16 gates.
+- New recommended next step in `SOTA_AGENT_SKILL_WORKFLOW_REPOS`: capture and AMOS-lint the `SkillOS` `CLAUDE.md` pattern as `amos-skillos`.

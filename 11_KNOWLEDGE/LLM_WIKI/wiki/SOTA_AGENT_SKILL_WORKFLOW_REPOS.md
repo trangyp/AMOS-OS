@@ -1050,3 +1050,25 @@ Implemented the previous recommendation: evaluate `name` (64 chars) and `descrip
 ### Recommended next step
 
 Evaluate `compatibility` (<=500 chars) and `allowed-tools` scoping (e.g. `Bash(git:*)`) gates, and compare AMOS `compatibility` strings against the `agentskills.io` `compatibility` examples.
+
+## 2026-08-30 | implement | Added Agent Skills `compatibility` and `allowed-tools` gates (G15/G16)
+
+Implemented the previous recommendation: evaluate `compatibility` (<=500) and `allowed-tools` scoping against `agentskills.io`.
+
+### Results
+
+- Added `G15` to `sota_skill_validator.py`: `compatibility` <=500 chars.
+- Added `G16`: `allowed-tools` must contain known tools or `Bash(scope:*)` scoping patterns.
+- Found one drift in `amos-0704-3643v1-sabbath-day-home-automation-it-s-like-mixing-te`: `allowed-tools: "Read skill"` contained `skill` (not a tool). Corrected to `Read`.
+- `amos-skillnet` `allowed-tools: "Read Write Edit Exec WebSearch WebFetch"` passed (allowed capital `Exec`).
+- `amos-skill-builder` `allowed-tools: "Read Write Edit exec"` passed.
+- `make validate`: 643/643 skills, 100% SOTA, 16 gates.
+
+### AMOS integration points
+
+- `CONTRACT_TEMPLATE.yaml` already uses `Bash(git:*) Bash(jq:*) WebSearch WebFetch` as the canonical scoping example.
+- `amos-skill-builder` can emit `allowed-tools` lists that pass G16.
+
+### Recommended next step
+
+Capture and AMOS-lint the `SkillOS` `CLAUDE.md` pattern (markdown-only agents/tools, `projects/` structure, memory logging) as an `amos-skillos` skill, or import the system-agent manifest and tool-map into `amos-agent-orchestrator`.
