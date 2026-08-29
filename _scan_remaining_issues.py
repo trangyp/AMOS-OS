@@ -168,6 +168,22 @@ def resolve_wikilink(target: str, source_path: Path) -> bool:
             except Exception:
                 pass
 
+    # 8. Naming-variant fallbacks for stale .devin wikilinks
+    if REPO_ROOT and source_path.is_relative_to(VAULT / ".devin"):
+        for suffix in ("_root4", "_root", "_MOC", "_CANON", "-agent"):
+            if target.endswith(suffix):
+                alt = target[:-len(suffix)]
+                alt_keys = {alt.lower(), alt.lower().replace(" ", "_").replace("-", "_"), alt.lower().replace("-", "_")}
+                if any(k in all_files_any or k in all_md_files or k in all_json_files or k in repo_stems for k in alt_keys):
+                    return True
+                # [[X_root4]] -> [[X_root]] (root note with numbered alias)
+                if suffix == "_root4" and (alt + "_root").lower() in repo_stems:
+                    return True
+                if (VAULT / ".devin" / "agents" / f"amos-{alt}-agent.json").is_file() or (VAULT / ".devin" / "agents" / f"{alt}-agent.json").is_file():
+                    return True
+                if (VAULT / ".devin" / "skills" / alt / "SKILL.md").is_file():
+                    return True
+
     return False
 
 # Scan
