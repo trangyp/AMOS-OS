@@ -704,3 +704,37 @@ Read the `main` branch README of `anthropics/skills` and mapped it to AMOS Claud
 Fetch the `anthropics/skills/template` and `spec` directories and compare the canonical template to the AMOS `CONTRACT_TEMPLATE.yaml`.
 
 Raw source: [[ANTHROPICS_SKILLS_README_2026_08_29]]
+
+## 2026-08-29 | Anthropic Skills template and spec comparison
+
+Captured the canonical `anthropics/skills/template/SKILL.md` and `spec/agent-skills-spec.md` and compared to AMOS `CONTRACT_TEMPLATE.yaml`.
+
+### Verified shape
+
+- `anthropics/skills/template/SKILL.md` requires only `name` and `description`.
+- `anthropics/skills/spec/agent-skills-spec.md` is a pointer to `https://agentskills.io/specification` (already captured).
+- The spec frontmatter fields are: `name`, `description`, `license`, `compatibility`, `metadata`, `allowed-tools`.
+
+### Comparison to AMOS `CONTRACT_TEMPLATE.yaml`
+
+AMOS is already a strict superset:
+
+| Field | Anthropic spec | AMOS `CONTRACT_TEMPLATE.yaml` | Status |
+|---|---|---|---|
+| `name` | yes, 64 chars | yes, 64 chars, `name`/`name` | covered |
+| `description` | yes, 1024 chars | yes, 1024 chars | covered |
+| `license` | optional | yes, `license` | covered |
+| `compatibility` | optional | yes, `compatibility` | covered |
+| `metadata` | optional map | `rscf`, `status`, `category`, `tags` | covered + more |
+| `allowed-tools` | optional | yes, `allowed-tools` | covered |
+| `references` loading modes | N/A | explicit/implicit/always, `path` + `mode` | exceeds spec |
+| `triggers` | N/A | yes | exceeds spec |
+| `capabilities` typed I/O | N/A | yes | exceeds spec |
+| `input`/`output` typed schema | N/A | yes | exceeds spec |
+| `rscf` epistemic metadata | N/A | yes | exceeds spec |
+
+### Conclusion
+
+AMOS `amos-skill-builder` already produces skill bundles that satisfy the canonical Agent Skills spec and adds progressive disclosure, typed I/O, epistemic metadata, and governance fields beyond it.
+
+Raw sources: [[ANTHROPICS_SKILLS_TEMPLATE_2026_08_29]] · [[AGENTSKILLS_SPECIFICATION_2026_08_29]]

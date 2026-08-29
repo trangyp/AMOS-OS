@@ -346,3 +346,12 @@ claim_class: AMOS_MODEL
 - Fetched `anthropics/skills` README and captured raw source to [[ANTHROPICS_SKILLS_README_2026_08_29]].
 - Mapped canonical Claude Code plugin marketplace, document skills, and basic skill template to `amos-pdfs`, `amos-docx`, `amos-slides`, `spreadsheets`, `amos-skill-builder`, `amos-skill-registry-gateway`, and `amos-mcp-connector`.
 - Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: compare `anthropics/skills/template` and `spec` to AMOS `CONTRACT_TEMPLATE.yaml`.
+
+## [2026-08-29] research | Anthropic Skills template and spec captured
+
+- Fetched `anthropics/skills/template/SKILL.md` and `spec/agent-skills-spec.md`.
+- Captured raw sources to `[[ANTHROPICS_SKILLS_TEMPLATE_2026_08_29]]` and noted the spec is canonical `agentskills.io/specification` (already captured as `[[AGENTSKILLS_SPECIFICATION_2026_08_29]]`).
+- Comparison to `amos-skill-builder/references/CONTRACT_TEMPLATE.yaml`:
+  - Anthropic template only requires `name` and `description` frontmatter.
+  - AMOS `CONTRACT_TEMPLATE.yaml` is already a strict superset: `schema_version`, `version`, `status`, `category`, `compatibility`, `allowed-tools`, `triggers`, `references`, typed `input`/`output`, `capabilities`, `rscf` metadata, and governance fields.
+- No changes needed; AMOS skill frontmatter already exceeds the canonical minimal template and covers the full `agentskills.io` specification.
