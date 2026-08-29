@@ -533,3 +533,10 @@ Continue scanning for the next SOTA repo to capture, or implement the next vault
 - `agent_sync_validator.py`: 677/677 agents valid.
 - Clean working tree.
 - Logged next steps in `SOTA_AGENT_SKILL_WORKFLOW_REPOS`.
+
+## [2026-08-30] fix all | Closed all skill/agent/workflow binding gaps; imported AIOS and Anthropic Skills
+
+- Fixed `amos-addyosmani-agent-skills` and `amos-anthropic-skills` G11 by adding agents/workflows.
+- Enhanced `workflow_validator.py` with `--verbose` and robust title detection.
+- Captured `agiresearch/AIOS` as `amos-aios`.
+- Final corpus: 653 skills, 680 agents, 687 workflows, 100% SOTA/workflow/agent validity.

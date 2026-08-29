@@ -1291,3 +1291,36 @@ Final pass on the workflow validator after improving title detection to support 
 1. Close the remaining 8 workflow warnings by adding titles/sections.
 2. Add a `make all` target to run `validate`, `workflows`, and `agents` in one command.
 3. Continue SOTA repo scan for `ai-os`, `addyosmani/agent-skills`, `HoangNguyen0403/agent-skills-standard`, `tech-leads-club/agent-skills`, `ivanzwb/agent-skills`, `skillshub`, or `Anthropic Skills`.
+
+## 2026-08-30 | fix all | Closed remaining skill/agent/workflow binding gaps; added AIOS, Anthropic Skills
+
+Full clean-up pass on untracked and under-bound skills, plus capture of the next SOTA repo.
+
+### Fixes
+
+- Fixed `amos-addyosmani-agent-skills` G11 by adding missing agent and workflow.
+- Fixed `amos-anthropic-skills` G11 by adding missing agent and workflow; imported from `anthropics/skills`.
+- Enhanced `workflow_validator.py` with `--verbose` flag, `argparse`, and robust `#` title detection.
+
+### SOTA repo capture
+
+- Captured `agiresearch/AIOS` as `amos-aios`.
+- Created `amos-aios` skill, agent, workflow, and scaffold script.
+- Raw README archived at `11_KNOWLEDGE/LLM_WIKI/raw/AIOS_README_2026_08_30.md`.
+
+### Final metrics
+
+- Skills: 653
+- Agents: 680
+- Workflows: 687
+- `make validate`: 100% SOTA
+- `make workflows`: 100% pass, 0 warnings
+- `agent_sync_validator.py`: 100% valid
+
+### Next targets from the vault queue
+
+- `ai-os` / AgentOS trading project
+- `tech-leads-club/agent-skills`
+- `ivanzwb/agent-skills`
+- `skillshub`
+- `HoangNguyen0403/agent-skills-standard`
