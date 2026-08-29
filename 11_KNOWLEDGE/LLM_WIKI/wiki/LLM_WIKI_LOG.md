@@ -450,3 +450,8 @@ claim_class: AMOS_MODEL
 - Updated `.devin/skills/SkillIndex.md` to 644 skills and added `amos-skillos` cross-cutting route.
 - `make validate`: 644/644 skills at 100% SOTA.
 - `agent_sync_validator.py`: 671/671 agents valid.
+
+## [2026-08-30] research | Captured Microsoft SkillOpt latest README
+
+- Fetched `microsoft/SkillOpt` `main` README and captured to [[MICROSOFT_SKILLOPT_README_2026_08_30]].
+- Added deep-dive to [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] covering v0.2.0, `SkillOpt-Sleep`, supported backends, integration shells for Claude Code/Codex/Copilot/Devin, and AMOS integration points.

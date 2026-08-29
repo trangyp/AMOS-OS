@@ -1095,3 +1095,32 @@ Implemented the previous recommendation: capture and AMOS-lint the SkillOS `CLAU
 ### Recommended next step
 
 Continue scanning for best upstream skill/agent/workflow repos (SkillOpt, ORPHEUS, SkillFlow, AgentFactory, AgentSkill Registry, XSkill, OpenSkills, MMSkills, ai-os, addyosmani/agent-skills, HoangNguyen0403/agent-skills-standard) and capture the most relevant next repo into AMOS.
+
+## 2026-08-30 | research | Re-captured Microsoft `SkillOpt` README from main branch
+
+Re-fetched `microsoft/SkillOpt` README to get the latest `v0.2.0` changes, including `SkillOpt-Sleep` and integration shells for Claude Code, Codex, Copilot, and Devin.
+
+### Verified shape
+
+- Repo: `https://github.com/microsoft/SkillOpt`
+- PyPI: `skillopt` (v0.2.0), Python 3.10+.
+- Training loop: rollout → reflect → aggregate → select → update → evaluate.
+- Artifact: `best_skill.md` (300–2,000 tokens) deployed against unchanged target model.
+- `SkillOpt-Sleep`: nightly offline self-evolution (`skillopt-sleep` CLI) with harvest → mine → replay → consolidate behind a held-out validation gate.
+- Backends: `openai_chat`, `openai_compatible`, `claude_chat`, `qwen_chat`, `minimax_chat`, `copilot_chat`, `codex_exec`, `claude_code_exec`, `cursor_exec`, `copilot_exec`.
+- Targets: direct chat, Codex CLI, Claude Code CLI, Copilot.
+- Integration shells: Claude Code / Codex / Copilot / Devin plugin/MCP files in the repo source (not the PyPI wheel).
+
+### AMOS integration points
+
+- `skillopt` train/eval loop → `amos-skill-builder` validation-gated skill evolution.
+- `best_skill.md` artifact → AMOS `SKILL.md` with `rscf` and `hml_level`.
+- `SkillOpt-Sleep` harvest/mine/replay/consolidate → `amos-memory-systems-master` and `amos-llm-wiki`.
+- OpenAI / Claude / Codex / Devin backends → `amos-agent-orchestrator` and `amos-os-runtime-master`.
+- Held-out validation gate → `sota_skill_validator.py` and `amos-formal-agent-skill-verification-rscf`.
+
+### Recommended next step
+
+Either install `skillopt` in a Python 3.10+ sandbox and run a built-in benchmark on one AMOS skill (e.g., `amos-llm-wiki`) to compare `best_skill.md` to the current `SKILL.md`, or capture the next SOTA repo such as `nuryslyrt/ORPHEUS`/`linxuhao/SkillFlow`/`zzatpku/AgentFactory`/`gfernandf/agent-skill-registry`/`xskill`/`OpenSkills`/`MMSkills`/`ai-os`/`addyosmani/agent-skills`.
+
+Raw source: [[MICROSOFT_SKILLOPT_README_2026_08_30]]
