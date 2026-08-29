@@ -70,8 +70,8 @@ try:
                             except ValueError:
                                 continue
                             repo_rel_json_paths[str(_rel).lower()] = _p
-    except Exception:
-        REPO_ROOT = None
+except Exception:
+    REPO_ROOT = None
 
 WIKILINK_RE = re.compile(r'\[\[([^"\|\[\]\{\}#]+?)(?:#[^\]|]*)?(?:\|[^\]]*)?\]\]')
 
@@ -225,7 +225,6 @@ for root, dirs, files in os.walk(VAULT, followlinks=True):
                 bucket = broken_devin if is_devin else broken_vault
                 bucket.setdefault(target, []).append(rel)
 
-print(f"[DEBUG] REPO_ROOT={REPO_ROOT}, repo_stems={len(repo_stems)}, has_memory={'memory — the complete human system' in repo_stems}\n")
 print(f"=== VAULT NOTES (real wikilinks) ===")
 print(f"Scanned {scanned_vault} .md files")
 print(f"Found {len(broken_vault)} unique broken wikilink targets\n")
