@@ -149,3 +149,47 @@ Read the `main` branch README of `zjunlp/SkillNet` and mapped it to AMOS operati
 Clone a small SkillNet skill (e.g., a `pdf` or `rag` skill) and run the AMOS `skill-check` + `skill_rscf_canonicalizer` pipeline on it as an end-to-end ingestion trial.
 
 Raw source: [[SKILLNET_README_2026_08_29]]
+
+## 2026-08-29 | ORPHEUS deep-dive
+
+Read the `main` branch README of `nuryslyrt/ORPHEUS` and mapped it to AMOS operations.
+
+### Verified shape
+
+- Filesystem-only runtime — no pip/npm/docker; skills are markdown files.
+- Install is `cp -r ORPHEUS/skill/ ~/.claude/skills/orpheus/`.
+- Meta-orchestrator + 4 experts (Builder, Runner, Doctor, Auditor, Surgeon) + 7 workers.
+- Generated `.orpheus/` contains `system.yaml`, `registry.yaml`, `orchestrator/SKILL.md`, `experts/{name}/SKILL.md + contract.yaml`, `workers/{name}/SKILL.md + contract.yaml`, `scripts/`, `logs/`.
+- Decision-level logging: every decision records WHAT, WHY, and confidence.
+- Error chain preservation with full root-cause-to-symptom YAML traces.
+- Target runtime: Claude Code / coding agent.
+
+### Integration points for AMOS
+
+1. **Markdown-first orchestration → `amos-workflow-builder` and `amos-routing-audit`**
+   - ORPHEUS proves that a single coding agent can run orchestrator/expert/worker hierarchies with only markdown files.
+   - AMOS can compare its `.devin/skills` / `.devin/agents` / `.devin/workflows` against the ORPHEUS `orchestrator/SKILL.md` + `contract.yaml` pattern.
+
+2. **Typed contracts → `amos-skill-builder` references/**
+   - `contract.yaml` defines typed I/O between skills.
+   - AMOS could add a `contract/` or `contract.yaml` artifact to skills that need composable boundaries.
+
+3. **Decision logs → `amos-observability-driven-harness-evolution-rscf` and audit trail**
+   - ORPHEUS logs `question / options_considered / chosen / reasoning / confidence`.
+   - AMOS `AGENT_VALIDATION_REPORT` and `LLM_WIKI_LOG` already capture some of this; can be aligned to the same schema.
+
+4. **Meta-expert roles → `amos-agent-orchestrator`**
+   - Builder/Runner/Doctor/Auditor/Surgeon are natural-role templates that could become AMOS agents or workflow modes.
+
+### Open questions / gaps
+
+- 0 stars on the repo at time of scan; no community validation.
+- README claims are not empirically benchmarked (no SWE-bench, no eval harness shown).
+- Claude Code-specific; portability to Devin / other coding agents unproven.
+- Security and provenance controls (content hashing, guardrails, sandboxing) are not described.
+
+### Recommended next step
+
+Clone `nuryslyrt/ORPHEUS`, inspect the `skill/` directory structure, and compare one generated `.orpheus/` system to an AMOS workflow to see if any contract/role patterns should be imported.
+
+Raw source: [[ORPHEUS_README_2026_08_29]]

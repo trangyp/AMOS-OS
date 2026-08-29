@@ -78,3 +78,9 @@ claim_class: AMOS_MODEL
 - Fixed `amos-routing-audit/SKILL.md` frontmatter: the `description` field had RSCF content embedded inside it and lacked a concrete trigger.
 - Split the `## SOTA Evaluation Contract` section out of 16 oversized skills into `references/SOTA_EVALUATION_CONTRACT.md` with Obsidian wikilinks, achieving `skill_md_lines < 500` everywhere.
 - Result: 642 / 642 skills pass all 12 SOTA gates with a 1.00 score and 0 warnings.
+
+## [2026-08-29] research | ORPHEUS README captured and evaluated
+
+- Fetched `nuryslyrt/ORPHEUS` README and captured raw source to [[ORPHEUS_README_2026_08_29]].
+- Mapped ORPHEUS orchestrator/expert/worker/contract patterns to `amos-workflow-builder`, `amos-routing-audit`, `amos-skill-builder`, and `amos-agent-orchestrator`.
+- Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: clone and compare a generated `.orpheus/` system to an AMOS workflow.

@@ -56,3 +56,29 @@ Search context: identify public GitHub repositories useful for continuously enha
   - Orchestrate thousands of agents/harnesses as dependency graphs.
   - Codex, Claude, Kimi, Pi support; parallel fanout, iterative cycles.
   - Local Docker, SSH, EC2, ECS targets; graph optimization rounds.
+
+## Search 3: self-evolving / trainable skills and deterministic workflow execution 2026-08-29
+
+- `zzatpku/AgentFactory` — ACL 2026 System Demonstrations
+  - Self-evolving framework that preserves successful task solutions as executable subagent code.
+  - Meta-agent decomposes tasks, allocates tool subsets, refines subagents from execution feedback.
+  - Skills shipped as Python scripts plus `SKILL.md` documentation; portable to LangChain, AutoGen, Claude Code.
+  - AMOS fit: skill evolution loop, execution feedback, canonical `SKILL.md` packaging.
+
+- `microsoft/SkillOpt` — 16.3k stars, MIT
+  - Text-space optimizer that trains reusable natural-language skills for frozen LLM agents.
+  - Trajectory-driven edits, validation-gated updates, `best_skill.md` artifacts.
+  - PyPI package; skill training as epochs/mini-batches/learning rates without touching model weights.
+  - AMOS fit: skill quality gates, versioned best-skill artifacts, validation-before-promotion.
+
+- `linxuhao/SkillFlow` — 3 stars, MIT
+  - Deterministic agentic workflow framework; YAML DAG executor with human-in-the-loop checkpoints.
+  - Framework Mode (engine drives agents) and Runner Mode (external agent over MCP/CLI).
+  - Immutable SQLite audit trace, loops, retries, recovery, event streaming, provider-agnostic.
+  - AMOS fit: deterministic workflow runtime, durable audit trace, MCP gateway.
+
+- `XSkill-Agent/XSkill` — ICML 2026
+  - Continual learning from trajectories: task-level Skills + action-level Experiences, no parametric training.
+  - Visually-grounded trajectory summarization, cross-rollout critique, hierarchical consolidation.
+  - Evaluated on VisualToolBench, TIR-Bench, MMSearch-Plus, AgentVista, MMBrowseComp.
+  - AMOS fit: trajectory-to-skill distillation, experience memory, multimodal skill extraction.
