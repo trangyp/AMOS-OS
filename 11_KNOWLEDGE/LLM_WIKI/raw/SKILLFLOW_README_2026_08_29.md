@@ -591,7 +591,7 @@ Every agent step (both `content` mode and `write` mode) automatically gets a `fi
 
 ### 1. Framework mode — embed skillflow in your app
 
-Use skillflow as a library. Read the [Getting Started](#getting-started) section above and the fixture examples in `tests/fixtures/`.
+Use skillflow as a library. Read the [Getting Started](#install) section above and the fixture examples in `tests/fixtures/`.
 
 ```python
 from skillflow import SkillFlow, PipelineGraph

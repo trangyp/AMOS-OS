@@ -58,16 +58,16 @@ Source: `https://github.com/tech-leads-club/agent-skills`
 
 ## 📖 Table of Contents
 
-- [✨ What are Skills?](#-what-are-skills)
-- [🛡️ Security & Trust](#️-security--trust)
-- [🤖 Supported Agents](#-supported-agents)
-- [🌟 Featured Skills](#-featured-skills)
-- [🚀 Quick Start](#-quick-start)
-- [⚡ How It Works](#-how-it-works)
-- [🔌 MCP Server](#-mcp-server)
-- [🤝 Contributing](#-contributing)
-- [🛡️ Content & Authorship](#️-content--authorship)
-- [📄 License and Attribution](#-license-and-attribution)
+- [✨ What are Skills?](#what-are-skills)
+- [🛡️ Security & Trust](#security--trust)
+- [🤖 Supported Agents](#supported-agents)
+- [🌟 Featured Skills](#featured-skills)
+- [🚀 Quick Start](#quick-start)
+- [⚡ How It Works](#how-it-works)
+- [🔌 MCP Server](#mcp-server)
+- [🤝 Contributing](#contributing)
+- [🛡️ Content & Authorship](#content-authorship)
+- [📄 License and Attribution](#license-and-attribution)
 
 ## ✨ What are Skills?
 
@@ -82,7 +82,7 @@ packages/skills-catalog/skills/
       references/       ← On-demand documentation
 ```
 
-## 🛡️ Security & Trust
+## Security Trust
 
 Your environment's safety is our top priority. Unlike open marketplaces where **13.4% of skills contain critical issues**, `agent-skills` is a managed, hardened library: 100% open source (no binaries), static analysis in CI/CD, immutable integrity via lockfiles and content hashing, and human-curated prompts. The CLI uses defense-in-depth (sanitization, path isolation, symlink guards, atomic lockfile, audit trail); every skill is scanned with [Snyk Agent Scan](https://github.com/snyk/agent-scan) (formerly mcp-scan) before publishing.
 
@@ -273,7 +273,7 @@ rm -rf ~/.cache/agent-skills
 
 We welcome contributions! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) file for detailed guidelines on how to set up your local environment, create new skills, contribute to the marketplace, and follow our release processes.
 
-## 🛡️ Content & Authorship
+## Content Authorship
 
 This repository is a collection of curated skills intended to benefit the community. We deeply respect the intellectual property and wishes of all creators.
 
