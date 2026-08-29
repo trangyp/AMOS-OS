@@ -469,3 +469,32 @@ claim_class: AMOS_MODEL
 - Updated `SkillIndex.md` to 645 skills.
 - `make validate`: 645/645 skills at 100% SOTA; `agent_sync_validator.py`: 672/672 agents valid.
 - Logged implementation and next steps in `SOTA_AGENT_SKILL_WORKFLOW_REPOS`.
+
+## 2026-08-30 | implement | Added G17/G18 to `sota_skill_validator.py` and aligned AMOS contract with OpenSkills progressive disclosure
+
+Implemented the vault recommendation from OpenSkills to add `triggers` and `references` loading-mode metadata to the AMOS `SKILL.md` frontmatter and `CONTRACT_TEMPLATE.yaml`.
+
+### Results
+
+- Added `G17` — `triggers` must be a YAML list of strings.
+- Added `G18` — `references` must be a YAML list of dicts with `path` and `mode` (`explicit`, `implicit`, `always`); `explicit` requires a `condition`.
+- Fixed `amos-skillnet/SKILL.md`:
+  - `triggers` converted from comma-separated string to YAML list.
+  - `references` converted from comma-separated string to YAML list with `mode: implicit/always/implicit`.
+  - `allowed-tools` normalized `Exec` → `exec`.
+- Updated `amos-skill-builder/references/CONTRACT_TEMPLATE.yaml`:
+  - Added an `explicit` reference entry with a `condition` example.
+  - Added `scripts` block with `name`, `path`, `description`, `timeout`.
+  - Added `assets` block with `path` and `description`.
+- `make validate`: 645/645 skills at 100% SOTA across 18 gates.
+- `agent_sync_validator.py`: 672/672 agents valid.
+
+### AMOS integration points
+
+- `CONTRACT_TEMPLATE.yaml` now matches OpenSkills L1/L2/L3 progressive disclosure and Agent Skills bundle format.
+- `sota_skill_validator.py` G17/G18 enforce these frontmatter conventions corpus-wide.
+- `amos-skillnet` is now a clean example of the new `triggers`/`references` list format.
+
+### Recommended next step
+
+Continue scanning for the next SOTA repo to capture, or implement the next vault hardening task such as adding `assets/` directory support to `sota_skill_validator.py` or creating an `amos-openskills` skill that wraps the `openskills-sdk` progressive disclosure runtime.
