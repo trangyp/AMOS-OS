@@ -72,8 +72,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_MEDICAL_CLINICAL_KERNEL]] · [[AMOS_CLINICAL_RESEARCH_KERNEL]] · [[TECH_SYSTEMS_PRODUCT_MANAGEMENT_KERNEL]] · [[AMOS_PSYCHOLOGY_DECISION_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

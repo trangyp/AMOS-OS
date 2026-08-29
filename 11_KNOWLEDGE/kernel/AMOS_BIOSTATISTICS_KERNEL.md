@@ -80,9 +80,14 @@ rscf:
 ```
 
 ## Related
+- [[AMOS_META_EPISTEMOLOGY_KERNEL]]
+- [[AMOS_IP_SHIELD_KERNEL_V0_WEB7]]
+- [[AMOS_POLICY_GEOSTRATEGY_KERNEL_V0]]
+- [[AMOS_BIZFIN_KERNEL_V0]]
 - RSCF-Brain-MOC
 - [[00_COSMO_BRAIN_MOC]]
 - AMOS_Biostatistics_Kernel_v0_Biology_Cognition (source)
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

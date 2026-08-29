@@ -98,8 +98,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_SECURITY_ARCHITECTURE_KERNEL_V0_TECH]] · [[AMOS_COGNITION_TOTAL_KERNEL]] · [[REASONING_KERNEL]] · [[AMOS_SIMULATION_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

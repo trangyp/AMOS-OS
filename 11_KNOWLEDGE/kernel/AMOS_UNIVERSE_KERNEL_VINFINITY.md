@@ -127,8 +127,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_SIMULATION_KERNEL]] · [[REASONING_KERNEL]] · [[AMOS_BIOSTATISTICS_KERNEL]] · [[AMOS_TECH_EMOTION_KERNEL_V1_TECH4]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

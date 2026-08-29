@@ -241,8 +241,9 @@ rscf:
 ]
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[FINANCE_SENSOR_KERNEL]] · [[COGNITION_KERNEL]] · [[OPERATIONS_SUPPLYCHAIN_KERNEL]] · [[AMOS_RISK_COMPLIANCE_KERNEL_V0]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

@@ -97,8 +97,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_BUSINESS_ANALYSIS_KERNEL_V0_TECH]] · [[COGNITION_KERNEL]] · [[AMOS_LEGAL_KERNEL]] · [[AMOS_HR_TALENT_KERNEL_V0]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

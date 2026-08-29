@@ -525,8 +525,9 @@ rscf:
 ]
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[MOOD_KERNEL]] · [[MEDICAL_CLINICAL_KERNEL_VINFINITY_SUPER]] · [[OPERATIONS_SUPPLYCHAIN_KERNEL]] · [[TECH_SYSTEMS_PRODUCT_MANAGEMENT_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

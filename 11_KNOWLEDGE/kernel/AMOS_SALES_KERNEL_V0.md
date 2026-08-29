@@ -225,8 +225,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_MEDICAL_CLINICAL_KERNEL]] · [[AMOS_FOREX_PACKAGES_UKR_RECURSIVE_KERNEL]] · [[INVESTMENT_KERNEL]] · [[AMOS_IP_SHIELD_KERNEL_V0_WEB7]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

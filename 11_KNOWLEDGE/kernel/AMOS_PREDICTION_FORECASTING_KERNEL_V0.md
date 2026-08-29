@@ -237,8 +237,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_META_KERNEL_SPECIFICATIONS]] · [[AMOS_TECH_KERNEL_EXPANSION]] · [[AMOS_QA_TESTING_KERNEL_V0_TECH]] · [[COGNITION_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

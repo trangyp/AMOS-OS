@@ -60,7 +60,8 @@ The **Unified EV Kernel** models electric vehicle infrastructure spanning strate
 - **NO BYPASS:** The engine must not be used to bypass local environmental, electrical, or construction regulations.
 
 ---
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES · [[AMOS_CHANGE_MANAGEMENT_KERNEL_V0_GOVERNANCE_RISK]] · [[AMOS_OS_ROOT_KERNEL]] · [[AMOS_OMNI_KERNEL_CORE]] · [[MARKET_SIGNALS_KERNEL]]
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

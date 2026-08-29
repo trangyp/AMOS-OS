@@ -34,8 +34,9 @@ rscf:
 ]
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[TECH_SYSTEMS_PRODUCT_MANAGEMENT_KERNEL]] · [[AMOS_SIMULATION_KERNEL]] · [[AMOS_DESIGN_KERNEL]] · [[AMOS_OBSERVABILITY_MONITORING_KERNEL_V0_TECH]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

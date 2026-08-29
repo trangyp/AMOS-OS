@@ -1167,8 +1167,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_TECH_AMOS_CORE_KERNEL_V1_TECH4]] · [[AMOS_BIOSTATISTICS_KERNEL]] · [[AMOS_POLITICAL_DYNAMICS_KERNEL]] · [[BIOLOGICAL_KERNEL_COMPUTING_BKC]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

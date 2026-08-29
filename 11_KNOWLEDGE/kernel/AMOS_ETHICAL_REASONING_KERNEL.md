@@ -72,8 +72,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[GOVERNANCE_KERNEL]] · [[AMOS_KERNEL_CONFIG_KERNEL]] · [[IP_KERNEL_SHIELD_ARCHIVE_AMOS23]] · [[LIFE_CORE_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

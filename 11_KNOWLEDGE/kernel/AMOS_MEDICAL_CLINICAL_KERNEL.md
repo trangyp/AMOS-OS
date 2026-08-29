@@ -282,8 +282,9 @@ rscf:
 ]
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[LOGIC_KERNEL]] · [[AMOS_SUPER_FABRICATION_KERNEL]] · [[AMOS_LEGAL_KERNEL]] · [[AMOS_EV_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

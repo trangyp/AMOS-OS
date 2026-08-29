@@ -354,8 +354,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_CLINICAL_RESEARCH_KERNEL]] · [[AMOS_TECH_KERNEL_EXPANSION]] · [[ORG_GOVERNANCE_KERNEL]] · [[AMOS_GOVERNANCE_RISK_POLICY_KERNEL_V0]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

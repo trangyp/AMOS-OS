@@ -12,6 +12,9 @@ tags:
 - automation-profiles
 - amos-simulation-kernel-v0-math-foundations
 - kernel-moc
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
 type: note
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -266,7 +269,8 @@ def summary_keys():
     return list(load_spec().keys())
 
 ---
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES · [[AMOS_GOVERNANCE_KERNEL_V0]] · [[LIFE_CORE_KERNEL]] · [[LOGIC_KERNEL]] · [[AMOS_PRODUCT_STRATEGY_KERNEL_V0]]
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

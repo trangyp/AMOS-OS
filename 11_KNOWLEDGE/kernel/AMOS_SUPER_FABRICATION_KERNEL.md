@@ -1075,8 +1075,9 @@ overclaim_note: Contains language that may violate AMOS anti-overclaim principle
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[EV_KERNEL_MODEL]] · [[AMOS_TECH_EMOTION_KERNEL_V1_TECH4]] · [[AMOS_MARKET_ECON_KERNEL_V0]] · [[GOVERNANCE_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

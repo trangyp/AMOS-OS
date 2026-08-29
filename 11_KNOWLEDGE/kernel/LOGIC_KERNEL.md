@@ -11,6 +11,9 @@ tags:
 - automation-profiles
 - kernel-moc
 - amos-simulation-kernel-v0-math-foundations
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
 type: document
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -39,7 +42,8 @@ A proposition and its negation may be represented as an explicit contradiction s
 Entailment claims require premises + inference rule + applicable logic fragment.
 
 ---
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES · [[AMOS_OS_INTEGRATED_AGENT_KERNEL]] · [[AMOS_BIZFIN_KERNEL_V0]] · [[AMOS_POLICY_DESIGN_KERNEL_V0_GOVERNANCE_RISK]] · [[AMOS_FOREX_PACKAGES_UKR_RECURSIVE_KERNEL]]
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

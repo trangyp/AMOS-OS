@@ -118,8 +118,9 @@ rscf:
 ]
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_META_EPISTEMOLOGY_KERNEL]] · [[AMOS_POLICY_GEOSTRATEGY_KERNEL_V0]] · [[IPPROTECTION_KERNEL]] · [[AMOS_VOMNI_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

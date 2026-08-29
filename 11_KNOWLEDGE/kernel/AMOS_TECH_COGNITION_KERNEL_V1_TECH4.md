@@ -65,8 +65,9 @@ rscf:
 ]
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[INVESTMENT_KERNEL]] · [[AMOS_CHANGE_MANAGEMENT_KERNEL_V0_GOVERNANCE_RISK]] · [[AMOS_TECH_UBI_CANON_KERNEL_V1_TECH4]] · [[BIOLOGICAL_KERNEL_COMPUTING_BKC]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

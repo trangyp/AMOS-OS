@@ -62,8 +62,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_QA_TESTING_KERNEL_V0_TECH]] · [[AMOS_CLOUD_PLATFORM_KERNEL_V0_TECH]] · [[AMOS_POLICY_GEOSTRATEGY_KERNEL_V0]] · [[LOGIC_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

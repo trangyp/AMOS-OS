@@ -326,8 +326,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[NEGOTIATION_DIPLOMACY_KERNEL]] · [[AMOS_COGNITION_TOTAL_KERNEL]] · [[SYSTEM_SENSOR_KERNEL]] · [[OPERATIONS_SUPPLYCHAIN_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

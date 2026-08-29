@@ -23,6 +23,9 @@ tags:
 - automation-profiles
 - kernel-moc
 - amos-simulation-kernel-v0-math-foundations
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
 status: active
 provenance: VERIFIED
 confidence: VERIFIED
@@ -141,7 +144,8 @@ All kernels: `density_profile: "kernel_x100k_virtual"`, version `v2.0.0+lens_int
 *Source: 24 JSON files extracted from _AMOS_UNIVERSE/Domains/ + 6 engines. Total ~75KB.*
 
 ---
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES · [[EV_KERNEL_MODEL]] · [[ORG_GOVERNANCE_KERNEL]] · [[AMOS_ORG_GOVERNANCE_KERNEL]] · [[BIOLOGICAL_KERNEL_COMPUTING_BKC]]
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

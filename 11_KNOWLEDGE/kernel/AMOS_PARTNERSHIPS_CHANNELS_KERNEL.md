@@ -39,6 +39,10 @@ rscf:
 - **Action**: Escalate — source spec needed before population
 
 ## Related Kernels (with content)
+- [[AMOS_VOMNI_MASTER_KERNEL]]
+- [[AMOS_AUDIT_QUALITY_KERNEL_V0]]
+- [[AMOS_MEMORY_OPTIMIZATION_KERNEL]]
+- [[AMOS_INTEGRATION_PLATFORM_KERNEL_V0_TECH]]
 - AMOS_Marketing_Gtm_Kernel_v0 — contains channel_strategy, channel_partner_strategy clusters
 - AMOS_Product_Strategy_Kernel_v0 — contains portfolio_management
 - AMOS_Sales_Kernel_v0 — contains deal_strategy, proposal_design
@@ -49,3 +53,4 @@ rscf:
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

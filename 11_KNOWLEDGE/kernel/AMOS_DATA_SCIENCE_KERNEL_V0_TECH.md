@@ -98,8 +98,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_CONTROL_SYSTEMS_KERNEL]] · [[IP_KERNEL_SHIELD_ARCHIVE_AMOS23]] · [[FINANCE_SENSOR_KERNEL]] · [[AMOS_TECH_UBI_CANON_KERNEL_V1_TECH4]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

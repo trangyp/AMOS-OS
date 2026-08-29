@@ -34,8 +34,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_PSYCHOLOGY_DECISION_KERNEL]] · [[COGNITION_KERNEL]] · [[AMOS_TECH_KERNEL_EXPANSION]] · [[AMOS_TECH_EMOTION_KERNEL_V1_TECH4]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

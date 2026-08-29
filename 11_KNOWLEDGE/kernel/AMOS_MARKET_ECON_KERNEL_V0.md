@@ -744,8 +744,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_UNIVERSE_DOMAIN_KERNELS]] · [[AMOS_OMNI_KERNEL_CORE]] · [[AMOS_BIOSTATISTICS_KERNEL]] · [[AMOS_UNIVERSE_KERNEL_VINFINITY]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

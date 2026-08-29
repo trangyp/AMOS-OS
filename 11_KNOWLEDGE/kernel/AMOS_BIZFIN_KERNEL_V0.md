@@ -354,8 +354,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_TECH_UBI_CANON_KERNEL_V1_TECH4]] · [[AMOS_PRICING_STRATEGY_KERNEL]] · [[AMOS_ETHICAL_REASONING_KERNEL]] · [[AMOS_ETL_PIPELINE_KERNEL_V0_TECH]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

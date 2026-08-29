@@ -39,6 +39,10 @@ rscf:
 - **Action**: Escalate — source spec needed before population
 
 ## Related Kernels (with content)
+- [[AMOS_INTEGRATION_PLATFORM_KERNEL_V0_TECH]]
+- [[AMOS_IP_SHIELD_KERNEL_V0_WEB7]]
+- [[NEGOTIATION_DIPLOMACY_KERNEL]]
+- [[DOCUMENTATION_KERNEL_V0]]
 - AMOS_Marketing_Gtm_Kernel_v0 — contains pricing_strategy cluster
 - AMOS_Sales_Kernel_v0 — contains pricing cluster
 - AMOS_Product_Strategy_Kernel_v0 — contains value_proposition_design
@@ -49,3 +53,4 @@ rscf:
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

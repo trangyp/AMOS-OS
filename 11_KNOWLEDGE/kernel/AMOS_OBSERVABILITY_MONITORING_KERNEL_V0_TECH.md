@@ -93,8 +93,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_PARTNERSHIPS_CHANNELS_KERNEL]] · [[MOOD_KERNEL]] · [[AMOS_CUSTOMER_INSIGHT_KERNEL]] · [[AMOS_MBB_CONSULTING_KERNEL_V0]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

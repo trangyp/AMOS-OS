@@ -11,6 +11,9 @@ tags:
 - automation-profiles
 - kernel-moc
 - amos-simulation-kernel-v0-math-foundations
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
 type: note
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -58,7 +61,8 @@ class Compliance_Kernel(Kernel):
         return context
 
 ---
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES · [[AMOS_BIOSTATISTICS_KERNEL]] · [[AMOS_NEGOTIATION_DIPLOMACY_KERNEL_V0]] · [[EV_KERNEL_MODEL]] · [[AMOS_ETHICAL_REASONING_KERNEL]]
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

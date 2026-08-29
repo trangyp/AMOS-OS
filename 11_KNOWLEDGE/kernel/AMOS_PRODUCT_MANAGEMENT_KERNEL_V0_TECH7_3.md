@@ -97,8 +97,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_PROBABILITY_STATISTICS_KERNEL]] · [[AMOS_SIMULATION_KERNEL]] · [[TPE_MODEL_REGISTRY]] · [[GOVERNANCE_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

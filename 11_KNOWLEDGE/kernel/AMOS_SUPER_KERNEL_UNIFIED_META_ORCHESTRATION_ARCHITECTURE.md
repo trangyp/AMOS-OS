@@ -12,6 +12,9 @@ tags:
 - kernel-moc
 - canon
 - amos-simulation-kernel-v0-math-foundations
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
 type: document
 source: 11_KNOWLEDGE/kernel
 rscf:

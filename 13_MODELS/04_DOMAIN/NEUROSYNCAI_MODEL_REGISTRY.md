@@ -23,6 +23,14 @@ tags:
 - control-plane-readme
 - observability-readme
 - operations-readme
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
 
 Below is the **full expanded Obsidian-ready `NEUROSYNCAI_MODEL_REGISTRY.md`**. The supplied seed establishes the registry slot, but it does **not** provide verified native NeuroSyncAI model definitions. Accordingly, the expansion defines the registry contract, neural-model epistemics, provenance, validation, safety, RSCF/H-M-L, lifecycle, and promotion semantics while keeping the actual NeuroSyncAI model inventory explicitly `UNKNOWN/GAP` rather than inventing it.

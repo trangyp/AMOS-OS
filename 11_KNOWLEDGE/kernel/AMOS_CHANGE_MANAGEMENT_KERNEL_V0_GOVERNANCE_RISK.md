@@ -62,8 +62,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[EV_KERNEL_MODEL]] · [[AMOS_REINFORCEMENT_LEARNING_ANALYSIS_KERNEL]] · [[AMOS_BUSINESS_ANALYSIS_KERNEL_V0_TECH]] · [[AMOS_BEHAVIORAL_ECONOMICS_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

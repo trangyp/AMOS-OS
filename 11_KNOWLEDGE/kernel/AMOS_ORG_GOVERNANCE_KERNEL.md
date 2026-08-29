@@ -62,8 +62,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_MBB_CONSULTING_KERNEL_V0]] · [[IP_KERNEL_SHIELD_ARCHIVE_AMOS22]] · [[SENSE_CORE_KERNEL]] · [[AMOS_FOREX_PACKAGES_UKR_RECURSIVE_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

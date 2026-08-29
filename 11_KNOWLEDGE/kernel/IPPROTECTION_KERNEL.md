@@ -11,6 +11,9 @@ tags:
 - automation-profiles
 - kernel-moc
 - amos-simulation-kernel-v0-math-foundations
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
 type: note
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -58,7 +61,8 @@ class IPProtection_Kernel(Kernel):
         return context
 
 ---
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES · [[AMOS_SIMULATION_KERNEL]] · [[AMOS_MARKETING_GTM_KERNEL_V0]] · [[AMOS_PREDICTION_FORECASTING_KERNEL_V0]] · [[NEGOTIATION_DIPLOMACY_KERNEL]]
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

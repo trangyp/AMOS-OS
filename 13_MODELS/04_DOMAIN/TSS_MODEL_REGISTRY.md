@@ -32,6 +32,9 @@ tags:
 - 00-home
 - amos-rscf-nodes
 - 04-domain-moc
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
 version: 0.1.0
 updated: '2026-08-27'
 status: PLACEHOLDER

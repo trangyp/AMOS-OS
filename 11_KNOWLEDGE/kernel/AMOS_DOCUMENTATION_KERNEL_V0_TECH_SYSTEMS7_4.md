@@ -732,8 +732,9 @@ rscf:
 ]
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_COGNITION_TOTAL_KERNEL]] · [[AMOS_BUSINESS_MODEL_KERNEL]] · [[MONEY_CORE_KERNEL]] · [[AMOS_PRODUCT_STRATEGY_KERNEL_V0]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

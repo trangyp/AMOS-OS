@@ -6,6 +6,9 @@ tags:
 - runtime
 - canon/knowledge
 - kernel-moc
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -64,8 +67,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_ETHICAL_REASONING_KERNEL]] · [[AMOS_MULTI_PERSPECTIVE_REASONING_KERNEL]] · [[NEGOTIATION_DIPLOMACY_KERNEL]] · [[AMOS_DESIGN_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

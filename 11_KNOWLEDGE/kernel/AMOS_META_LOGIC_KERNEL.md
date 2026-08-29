@@ -97,8 +97,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_COGNITION_TOTAL_KERNEL]] · [[AMOS_UBI_KERNEL]] · [[INVESTMENT_KERNEL]] · [[AMOS_BEHAVIORAL_ECONOMICS_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

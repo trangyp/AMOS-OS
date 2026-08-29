@@ -61,8 +61,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_BIZFIN_KERNEL_V0]] · [[AMOS_HEALTH_POLICY_KERNEL]] · [[AMOS_TECH_UBI_CANON_KERNEL_V1_TECH4]] · [[MOOD_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

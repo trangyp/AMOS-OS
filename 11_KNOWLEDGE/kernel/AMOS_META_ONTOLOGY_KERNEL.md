@@ -121,8 +121,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[COMPLIANCE_KERNEL]] · [[AMOS_SECURITY_ARCHITECTURE_KERNEL_V0_TECH]] · [[FINANCE_SENSOR_KERNEL]] · [[COGNITION_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

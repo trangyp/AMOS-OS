@@ -97,8 +97,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[FINANCE_SENSOR_KERNEL]] · [[AMOS_BIZFIN_KERNEL_V0]] · [[AMOS_TECH_COGNITION_KERNEL_V1_TECH4]] · [[COMPLIANCE_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

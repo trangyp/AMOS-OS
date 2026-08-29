@@ -52,8 +52,9 @@ rscf:
 ]
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_KERNEL_ROUTING_WORKFLOW]] · [[AMOS_UNIVERSE_DOMAIN_KERNELS]] · [[AMOS_POLITICAL_DYNAMICS_KERNEL]] · [[AMOS_PARTNERSHIPS_CHANNELS_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

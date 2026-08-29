@@ -80,9 +80,14 @@ rscf:
 ```
 
 ## Related
+- [[AMOS_SECURITY_ARCHITECTURE_KERNEL_V0_TECH]]
+- [[AMOS_TECH_AMOS_CORE_KERNEL_V1_TECH4]]
+- [[AMOS_QA_TESTING_KERNEL_V0_TECH]]
+- [[COMPLIANCE_KERNEL]]
 - RSCF-Brain-MOC
 - [[00_COSMO_BRAIN_MOC]]
 - AMOS_Public_Health_Kernel_v0_Biology_Cognition (source)
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

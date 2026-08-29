@@ -39,8 +39,13 @@ rscf:
 - **Action**: Escalate — source spec needed before population
 
 ## Related
+- [[SENSE_CORE_KERNEL]]
+- [[AMOS_PRODUCT_MANAGEMENT_KERNEL_V0_TECH7_3]]
+- [[AMOS_HR_TALENT_KERNEL_V0]]
+- [[AMOS_REVENUE_ARCHITECTURE_KERNEL]]
 - RSCF-Brain-MOC
 - [[00_COSMO_BRAIN_MOC]]
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

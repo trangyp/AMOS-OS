@@ -457,8 +457,9 @@ rscf:
 ]
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_CLINICAL_RESEARCH_KERNEL]] · [[DOCUMENTATION_KERNEL_V0]] · [[AMOS_ETL_PIPELINE_KERNEL_V0_TECH]] · [[AMOS_META_EPISTEMOLOGY_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

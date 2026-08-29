@@ -62,8 +62,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_OMNI_KERNEL_CORE]] · [[AMOS_MULTI_AGENT_COORDINATION_KERNEL]] · [[AMOS_META_LOGIC_KERNEL]] · [[AMOS_FOREX_PACKAGES_UKR_RECURSIVE_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

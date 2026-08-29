@@ -73,8 +73,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_TOOLCHAIN_INTEGRATION_KERNEL]] · [[AMOS_POLICY_DESIGN_KERNEL_V0_GOVERNANCE_RISK]] · [[AMOS_POLITICAL_DYNAMICS_KERNEL]] · [[AMOS_OS_ROOT_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

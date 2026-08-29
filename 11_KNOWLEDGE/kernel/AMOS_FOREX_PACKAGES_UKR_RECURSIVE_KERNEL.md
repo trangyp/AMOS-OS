@@ -12,6 +12,9 @@ tags:
 - automation-profiles
 - amos-simulation-kernel-v0-math-foundations
 - kernel-moc
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
 type: document
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -303,7 +306,8 @@ def process_ukr(state) -> CanonPermission:
 __all__ = ["process_ukr", "STAGE_ORDER"]
 
 ---
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES · [[AMOS_HR_TALENT_KERNEL_V0]] · [[AMOS_PROBABILITY_STATISTICS_KERNEL]] · [[AMOS_MARKETING_GTM_KERNEL_V0]] · [[NEGOTIATION_DIPLOMACY_KERNEL]]
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

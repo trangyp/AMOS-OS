@@ -46,7 +46,8 @@ rscf:
 The original auto-fix process could not parse this file. The `autofixed_raw` field was empty, indicating no source content was available for parsing.
 
 ---
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES · [[AMOS_AUDIT_QUALITY_KERNEL_V0]] · [[AMOS_EV_KERNEL]] · [[AMOS_TECH_EMOTION_KERNEL_V1_TECH4]] · [[AMOS_META_KERNEL_SPECIFICATIONS]]
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

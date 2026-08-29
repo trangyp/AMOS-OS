@@ -224,8 +224,9 @@ rscf:
 ]
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_SALES_KERNEL_V0]] · [[AMOS_MARKETING_GTM_KERNEL_V0]] · [[AMOS_ETL_PIPELINE_KERNEL_V0_TECH]] · [[HEALTH_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

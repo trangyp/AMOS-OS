@@ -80,9 +80,14 @@ rscf:
 ```
 
 ## Related
+- [[AMOS_MBB_CONSULTING_KERNEL_V0]]
+- [[AMOS_MARKET_ECON_KERNEL_V0]]
+- [[AMOS_OS_INTEGRATED_AGENT_KERNEL]]
+- [[AMOS_POLICY_GEOSTRATEGY_KERNEL_V0]]
 - RSCF-Brain-MOC
 - [[00_COSMO_BRAIN_MOC]]
 - AMOS_Clinical_Research_Kernel_v0_Biology_Cognition7_3 (source)
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

@@ -397,8 +397,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[MOOD_KERNEL]] · [[AMOS_CLOUD_PLATFORM_KERNEL_V0_TECH]] · [[AMOS_HEALTH_POLICY_KERNEL]] · [[TECH_ARCHITECTURE_KERNEL_V0]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

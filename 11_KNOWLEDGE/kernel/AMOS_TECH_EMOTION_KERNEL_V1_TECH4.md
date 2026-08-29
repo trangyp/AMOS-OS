@@ -58,8 +58,9 @@ rscf:
 ]
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[IP_KERNEL_SHIELD_ARCHIVE_AMOS22]] · [[AMOS_COUNTERFACTUAL_REASONING_KERNEL]] · [[AMOS_MEDICAL_CLINICAL_KERNEL]] · [[AMOS_HEALTH_POLICY_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

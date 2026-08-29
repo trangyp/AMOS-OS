@@ -257,8 +257,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_MBB_CONSULTING_KERNEL_V0]] · [[AMOS_UNIVERSE_DOMAIN_KERNELS]] · [[AMOS_BUSINESS_ANALYSIS_KERNEL_V0_TECH]] · [[AMOS_PUBLIC_HEALTH_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

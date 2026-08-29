@@ -22,6 +22,14 @@ tags:
 - 04-domain-moc
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
 
 Below is the full expanded Obsidian-ready registry. I’m keeping the supplied artifact as the source nucleus and treating the expanded registry semantics as **AMOS_MODEL / normalized AMOS governance**, not inventing specific heritage-domain models that were not supplied or independently established.

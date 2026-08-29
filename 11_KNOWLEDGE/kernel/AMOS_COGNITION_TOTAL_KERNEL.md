@@ -359,8 +359,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_SUPER_FABRICATION_KERNEL]] · [[IP_KERNEL_SHIELD_SECURITY]] · [[AMOS_VOMNI_KERNEL]] · [[AMOS_CODING_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

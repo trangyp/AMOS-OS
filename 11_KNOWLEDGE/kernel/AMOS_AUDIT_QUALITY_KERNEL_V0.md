@@ -267,8 +267,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_REINFORCEMENT_LEARNING_ANALYSIS_KERNEL]] · [[AMOS_UNNAMED_KERNEL_V0]] · [[OPERATIONS_SUPPLYCHAIN_KERNEL]] · [[AMOS_COGNITION_TOTAL_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

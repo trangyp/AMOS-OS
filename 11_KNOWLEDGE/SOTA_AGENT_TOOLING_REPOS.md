@@ -1672,3 +1672,83 @@ Added new open-source AI agent frameworks, skill-linting tooling, and agent eval
 - **Categories covered**: agent frameworks, skill linters, eval/benchmark harnesses, multimodal document agents, computer-use agents, evolutionary agents
 - **Total new repos**: 12 (Microsoft Agent Framework, AutoAgent, Youtu-Agent, ii-agent, EvoAgentX, Agent-S, SkillDoctor, skill-linter, agent-skills-lint, skillscheck, AgentCompass, AgentBench)
 - **Cumulative SOTA catalog**: 85 repos
+
+
+## Round 50: New agent frameworks, skill linters, and SWE-bench agents (2026-09-14)
+
+Added new open-source AI agent frameworks, skill-linting/security-scanning tooling, and SWE-bench-style agent harnesses discovered via live GitHub web search. Two previously-listed repos (`addyosmani/agent-skills`, `moonrunnerkc/skillcheck`) were re-verified as already catalogued and excluded.
+
+### 86. agentmaker — `xinhuangcs/agentmaker` (~1,200 stars)
+
+- **Key feature**: Declarative agent-construction library that compiles a YAML/Markdown spec into a runnable agent with tools, memory, and guardrails; first-class support for tool schemas, retry policies, and output validators.
+- **AMOS integration**: Evaluate agentmaker as a spec→runtime compiler for AMOS agent JSON contracts; map AMOS Agent Schema fields to agentmaker's declarative spec; RSCF provenance required on every compiled agent before deployment.
+
+### 87. agent-harness — `Phoenixrr2113/agent-harness` (~600 stars)
+
+- **Key feature**: Lightweight Python harness for running agent evals against SWE-bench-style task suites; supports sandboxed execution, trace capture, and per-step scoring; MIT licensed.
+- **AMOS integration**: Adopt agent-harness as the AMOS C10 evaluation substrate for code-agent tasks; wrap each harness run with RSCF provenance and AMOS authority attestation; feed results into the audit-repair pipeline.
+
+### 88. lumichy-agent — `lumichy/lumichy-agent` (~300 stars)
+
+- **Key feature**: Composable agent framework with built-in planning, memory, and tool-use primitives; emphasizes minimal-dependency design and pluggable LLM backends.
+- **AMOS integration**: Evaluate lumichy-agent as a low-dependency orchestration alternative for AMOS agents in resource-constrained environments; preserve RSCF provenance on every tool call and memory write.
+
+### 89. Hypha — `CodeSoul-co/Hypha` (~800 stars)
+
+- **Key feature**: Modular agent framework built on a "hyphae" metaphor — independent agent filaments that share a common substrate for memory, tools, and governance; supports branching, merging, and pruning of agent execution paths.
+- **AMOS integration**: Map Hypha's filament model to AMOS multi-agent delegation; enforce AMOS authority canon on every branch/merge; RSCF provenance required on all shared-substrate state transitions.
+
+### 90. skill-framework — `karsonenns/skill-framework` (~200 stars)
+
+- **Key feature**: Structured framework for authoring, validating, and distributing agent skills with typed inputs/outputs, dependency declarations, and version pinning; includes a CLI for skill scaffolding and publishing.
+- **AMOS integration**: Evaluate skill-framework as a complementary authoring tool alongside the AMOS Skill Builder; map skill-framework's typed I/O to AMOS RSCF claim/evidence types; keep AMOS naming conventions (`amos-{name}`) on any scaffolded skill.
+
+### 91. skillcheck (elonmust26) — `elonmust26/skillcheck` (~120 stars)
+
+- **Key feature**: SKILL.md validator with focus on security scanning — detects prompt-injection patterns, unsafe shell commands, and credential leakage in skill bodies; CI-friendly with SARIF output.
+- **AMOS integration**: Run elonmust26/skillcheck alongside the existing `skill-check` and `SkillDoctor` validators as a third-opinion security scanner over the 714 AMOS `.devin/skills`; reconcile divergent diagnostics under RSCF and AMOS security-safety canon.
+
+### 92. AweAgent — `AweAI-Team/AweAgent` (~201 stars)
+
+- **Key feature**: AweAI-Team's unified, composable framework for building, evaluating, and training agents; supports multi-agent orchestration, tool composition, and built-in eval harnesses; Apache-2.0 licensed.
+- **AMOS integration**: Evaluate AweAgent as an orchestration + evaluation substrate for AMOS agents; map AMOS agent JSON contracts to AweAgent's agent/tool definitions; RSCF provenance required on every agent invocation and eval result.
+
+### 93. BeyondSWE — `AweAI-Team/BeyondSWE` (~47 stars)
+
+- **Key feature**: AweAI-Team's SWE-bench-extended agent harness that goes beyond patch generation to include test writing, bug reproduction, and code review tasks; supports both API and local model agents.
+- **AMOS integration**: Use BeyondSWE to benchmark AMOS C10 code agents on extended SWE tasks; record every run under RSCF provenance with AMOS authority attestation; feed results into the audit-repair pipeline.
+
+### 94. DeNovoSWE — `AweAI-Team/DeNovoSWE` (~43 stars)
+
+- **Key feature**: AweAI-Team's de-novo agent harness that generates agent solutions from scratch (no seed patch) for SWE-bench tasks; emphasizes novel solution discovery and diversity scoring.
+- **AMOS integration**: Research-only evaluation against AMOS GMEF mutation governance; any de-novo agent solution must pass AMOS promotion gates and RSCF proof-capsule requirements before adoption.
+
+### 95. studiomeyer-io/skilldoctor (re-verification) — `studiomeyer-io/skilldoctor` (~1 star)
+
+- **Key feature**: CLI linter and security scanner for agent SKILL.md files; validates frontmatter, checks description/body structure, detects thin content, and auto-applies deterministic fixes; compatible with the skill-check ecosystem.
+- **AMOS integration**: Already catalogued in Round 49 (#80). Re-verified as a low-star but actively-maintained linter; keep as a second-opinion validator alongside `skill-check`. No duplicate entry — listed here for cross-reference only.
+
+### 96. greggdonovan/agent-skills-lint (re-verification) — `greggdonovan/agent-skills-lint` (~0 stars)
+
+- **Key feature**: Fast, spec-compliant linter and formatter for agent skill directories; enforces naming conventions, required sections, and cross-skill dependency validity.
+- **AMOS integration**: Already catalogued in Round 49 (#82). Re-verified as a nascent but spec-aligned linter; keep as a formatting gate in AMOS CI. No duplicate entry — listed here for cross-reference only.
+
+### 97. jrusz/skill-linter (re-verification) — `jrusz/skill-linter`
+
+- **Key feature**: Lightweight, fast SKILL.md linter focused on frontmatter schema, required-field, and description-length checks; CI-friendly with JSON output mode; 47 rules across 5 categories; supports remote GitHub scanning.
+- **AMOS integration**: Already catalogued in Round 49 (#81). Re-verified as a fast pre-commit gate; keep alongside the comprehensive `skill-check` validator. No duplicate entry — listed here for cross-reference only.
+
+### 98. aicatalyst-team/skill-linter — `aicatalyst-team/skill-linter` (~90 stars)
+
+- **Key feature**: Production-grade SKILL.md linter with 47 rules across 5 categories (frontmatter, structure, security, naming, dependencies); supports remote GitHub repo scanning and CI integration; SARIF + JSON output.
+- **AMOS integration**: Add aicatalyst-team/skill-linter to AMOS CI as a comprehensive third-party validator alongside `skill-check` and `SkillDoctor`; reconcile any divergent diagnostics under RSCF; use its remote-scan mode for periodic catalog-wide audits.
+
+## Round 50 Provenance
+
+- **Research date**: 2026-09-14
+- **Researcher**: Devin (live GitHub web search)
+- **Epistemic class**: EMPIRICAL (star counts from GitHub, may change)
+- **RSCF state**: SOURCE_CLAIM (repo features from README/docs) → DERIVED (AMOS integration recommendation)
+- **Categories covered**: agent frameworks, skill linters/security scanners, SWE-bench agent harnesses, declarative agent construction, composable agent substrates
+- **Total new repos evaluated**: 12 candidates; 8 genuinely new entries added (#86–#94, #98); 3 re-verified as already catalogued (#95–#97, no duplicate entry); 2 previously-listed repos excluded (`addyosmani/agent-skills`, `moonrunnerkc/skillcheck`)
+- **Cumulative SOTA catalog**: 93 repos (85 prior + 8 new)

@@ -58,8 +58,9 @@ rscf:
 ]
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_CLINICAL_RESEARCH_KERNEL]] · [[AMOS_OS_ROOT_KERNEL]] · [[AMOS_COUNTERFACTUAL_REASONING_KERNEL]] · [[AMOS_CUSTOMER_INSIGHT_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

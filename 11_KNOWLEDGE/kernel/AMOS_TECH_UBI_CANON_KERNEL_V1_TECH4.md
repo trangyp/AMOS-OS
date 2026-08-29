@@ -59,8 +59,9 @@ rscf:
 ]
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[INVESTMENT_KERNEL]] · [[ORG_GOVERNANCE_KERNEL]] · [[LOGIC_KERNEL]] · [[BIOLOGICAL_KERNEL_COMPUTING_BKC]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

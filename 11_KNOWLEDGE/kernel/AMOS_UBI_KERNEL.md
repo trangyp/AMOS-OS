@@ -392,8 +392,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_TECH_IDENTITY_KERNEL_V1_TECH4]] · [[AMOS_REVENUE_ARCHITECTURE_KERNEL]] · [[IP_KERNEL_SHIELD_ARCHIVE_AMOS23]] · [[AMOS_SIMULATION_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

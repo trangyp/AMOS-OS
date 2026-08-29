@@ -74,8 +74,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[KERNEL_PROTOCOL]] · [[AMOS_KERNEL_ROUTING_WORKFLOW]] · [[AMOS_COUNTERFACTUAL_REASONING_KERNEL]] · [[MARKET_SIGNALS_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

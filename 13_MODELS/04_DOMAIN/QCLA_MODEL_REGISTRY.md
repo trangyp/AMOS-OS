@@ -1,6 +1,3 @@
-Below is the **full expanded Obsidian-ready `QCLA_MODEL_REGISTRY.md`**. I’m preserving **QCLA as an unresolved native acronym/framework identity** because the supplied source does not define what QCLA expands to or provide its substantive model inventory. The registry architecture can be populated; the missing QCLA canon remains explicitly `UNKNOWN/GAP`.
-
-````markdown
 ---
 title: "QCLA Model Registry"
 aliases:
@@ -169,7 +166,7 @@ Source state:
 QCLA_MODEL_REGISTRY.md
 =
 ADD-ONLY PLACEHOLDER
-````
+```
 
 Location:
 

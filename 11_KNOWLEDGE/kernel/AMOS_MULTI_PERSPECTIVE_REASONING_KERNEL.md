@@ -118,8 +118,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[SYSTEM_SENSOR_KERNEL]] · [[KERNEL_PROTOCOL]] · [[AMOS_COGNITION_TOTAL_KERNEL]] · [[AMOS_BIZFIN_KERNEL_V0]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

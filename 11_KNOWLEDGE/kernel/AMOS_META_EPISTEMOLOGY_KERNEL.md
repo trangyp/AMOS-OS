@@ -131,8 +131,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_BIZFIN_KERNEL_V0]] · [[AMOS_DEVOPS_INFRA_KERNEL_V0_TECH]] · [[AMOS_BEHAVIORAL_ECONOMICS_KERNEL]] · [[AMOS_RISK_COMPLIANCE_KERNEL_V0]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

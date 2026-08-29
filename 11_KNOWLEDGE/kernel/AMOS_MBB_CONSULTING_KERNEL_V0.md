@@ -321,8 +321,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_TECH_COGNITION_KERNEL_V1_TECH4]] · [[AMOS_TECH_UBI_CANON_KERNEL_V1_TECH4]] · [[DOCUMENTATION_KERNEL_V0]] · [[AMOS_CODING_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

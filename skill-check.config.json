@@ -1,0 +1,5 @@
+{
+  "rules": {
+    "frontmatter.unknown_fields": "off"
+  }
+}

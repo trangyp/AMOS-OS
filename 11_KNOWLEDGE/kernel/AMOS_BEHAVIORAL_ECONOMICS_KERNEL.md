@@ -118,8 +118,9 @@ rscf:
 ]
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_IP_SHIELD_KERNEL_V0_WEB7]] · [[HEALTH_KERNEL]] · [[AMOS_MULTI_AGENT_COORDINATION_KERNEL]] · [[AMOS_TECH_ARCHITECTURE_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

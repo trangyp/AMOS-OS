@@ -98,8 +98,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[COGNITION_KERNEL]] · [[MOOD_KERNEL]] · [[AMOS_UBI_KERNEL]] · [[AMOS_POLICY_DESIGN_KERNEL_V0_GOVERNANCE_RISK]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

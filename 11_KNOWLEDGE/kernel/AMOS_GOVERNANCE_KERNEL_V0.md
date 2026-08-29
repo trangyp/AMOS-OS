@@ -389,8 +389,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_SIMULATION_KERNEL]] · [[SENSE_CORE_KERNEL]] · [[AMOS_BUSINESS_ANALYSIS_KERNEL_V0_TECH]] · [[AMOS_UX_DESIGN_KERNEL_V0_TECH7_3]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

@@ -255,7 +255,8 @@ Hold and compare multiple structurally distinct perspectives on the same problem
 All meta-cognition kernels depend on Meta_Logic_Kernel (Law of Law is the foundation). Meta_Epistemology and Meta_Ontology are independent of each other but both support Meta_Logic. Counterfactual and Multi-Perspective both depend on the full meta-cognition foundation.
 
 ---
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES · [[AMOS_NEGOTIATION_DIPLOMACY_KERNEL_V0]] · [[AMOS_CLINICAL_RESEARCH_KERNEL]] · [[AMOS_SIMULATION_KERNEL]] · [[AMOS_TECH_UBI_CANON_KERNEL_V1_TECH4]]
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

@@ -11,6 +11,9 @@ tags:
 - automation-profiles
 - kernel-moc
 - amos-simulation-kernel-v0-math-foundations
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
 type: document
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -650,3 +653,6 @@ Tell me < strong>A–I** (any combination).
 
 ---
 **MOC:** [[KERNEL_MOC]]
+
+**Related:** [[AMOS_MBB_CONSULTING_KERNEL_V0]] · [[LOGIC_KERNEL]] · [[AMOS_SIMULATION_KERNEL]] · [[AMOS_SALES_KERNEL_V0]]
+

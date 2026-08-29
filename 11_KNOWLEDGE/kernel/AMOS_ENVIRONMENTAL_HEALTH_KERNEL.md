@@ -80,9 +80,14 @@ rscf:
 ```
 
 ## Related
+- [[LOGIC_KERNEL]]
+- [[AMOS_META_LOGIC_KERNEL]]
+- [[TECH_SYSTEMS_PRODUCT_MANAGEMENT_KERNEL]]
+- [[GOVERNANCE_KERNEL]]
 - RSCF-Brain-MOC
 - [[00_COSMO_BRAIN_MOC]]
 - AMOS_Environmental_Health_Kernel_v0_Biology_Cognition7_3 (source)
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

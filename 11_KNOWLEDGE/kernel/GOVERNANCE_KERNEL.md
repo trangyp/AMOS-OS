@@ -394,8 +394,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[DOCUMENTATION_KERNEL_V0]] · [[AMOS_POLITICAL_DYNAMICS_KERNEL]] · [[TECH_SYSTEMS_PRODUCT_MANAGEMENT_KERNEL]] · [[AMOS_MEMORY_OPTIMIZATION_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

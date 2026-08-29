@@ -606,8 +606,9 @@ rscf:
 ]
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_ORG_GOVERNANCE_KERNEL]] · [[AMOS_CRISIS_MANAGEMENT_KERNEL_V0_GOVERNANCE_RISK]] · [[OPERATIONAL_RISK_KERNEL]] · [[MOOD_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

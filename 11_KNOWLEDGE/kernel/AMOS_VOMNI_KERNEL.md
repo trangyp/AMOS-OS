@@ -143,8 +143,9 @@ rscf:
 ]
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_COGNITION_TOTAL_KERNEL]] · [[AMOS_META_KERNEL_SPECIFICATIONS]] · [[AMOS_TOOLCHAIN_INTEGRATION_KERNEL]] · [[AMOS_POLICY_GEOSTRATEGY_KERNEL_V0]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

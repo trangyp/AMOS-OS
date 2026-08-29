@@ -422,8 +422,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_DATA_SCIENCE_KERNEL_V0_TECH]] · [[AMOS_BIZFIN_KERNEL_V0]] · [[AMOS_FOREX_PACKAGES_UKR_RECURSIVE_KERNEL]] · [[AMOS_ENVIRONMENTAL_HEALTH_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

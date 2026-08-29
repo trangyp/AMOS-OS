@@ -209,8 +209,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_META_ONTOLOGY_KERNEL]] · [[AMOS_UNIFIED_CODING_KERNEL_VINFINITY]] · [[BIOLOGICAL_KERNEL_COMPUTING_BKC]] · [[AMOS_OMNI_KERNEL_CORE]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

@@ -111,6 +111,9 @@ tags:
 - amos-sales-kernel-v0
 - amos-scientific-kernel-v0-biology-cognition7-3
 - amos-scientific-kernel-v0-science-health7-2
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

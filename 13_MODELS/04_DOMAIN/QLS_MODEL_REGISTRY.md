@@ -1,6 +1,3 @@
-Below is the **full expanded Obsidian-ready `QLS_MODEL_REGISTRY.md`**. I preserve `QLS` as the source-provided framework identifier: the supplied nucleus does not establish its expansion, native model inventory, equations, or executable implementation, so those remain explicit `UNKNOWN/GAP` rather than being invented.
-
-````markdown
 ---
 title: "QLS Model Registry"
 aliases:
@@ -189,7 +186,7 @@ Source state:
 QLS_MODEL_REGISTRY.md
 =
 ADD-ONLY PLACEHOLDER
-````
+```
 
 Location:
 

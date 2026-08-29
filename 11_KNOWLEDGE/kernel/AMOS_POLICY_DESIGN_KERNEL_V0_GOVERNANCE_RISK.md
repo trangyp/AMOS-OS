@@ -62,8 +62,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_BUSINESS_MODEL_KERNEL]] · [[AMOS_TECH_IDENTITY_KERNEL_V1_TECH4]] · [[AMOS_SALES_KERNEL_V0]] · [[AMOS_POLITICAL_DYNAMICS_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

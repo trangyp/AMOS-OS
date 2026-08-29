@@ -328,8 +328,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[AMOS_SIMULATION_KERNEL]] · [[AMOS_RISK_COMPLIANCE_KERNEL_V0]] · [[AMOS_CRISIS_MANAGEMENT_KERNEL_V0_GOVERNANCE_RISK]] · [[AMOS_LEGAL_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+

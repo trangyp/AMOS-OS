@@ -121,8 +121,9 @@ rscf:
 }
 
 ---
-**Related:**  ·  ·  ·  · 
+**Related:** [[DOCUMENTATION_KERNEL_V0]] · [[AMOS_DESIGN_KERNEL]] · [[AMOS_META_EPISTEMOLOGY_KERNEL]] · [[AMOS_ORG_GOVERNANCE_KERNEL]]
 ```
 
 ---
 **MOC:** [[KERNEL_MOC]]
+
