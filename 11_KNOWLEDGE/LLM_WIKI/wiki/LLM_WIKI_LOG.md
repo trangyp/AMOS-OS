@@ -283,3 +283,15 @@ claim_class: AMOS_MODEL
   - `description`: max 1024 chars.
 - Result: 0 violations. AMOS skill bundles already follow the Agent Skills naming and size conventions.
 - Progressive disclosure (metadata → instructions → resources) already matches AMOS `references/` and `scripts/` pattern.
+
+## [2026-08-29] enhance | Aligned `amos-skill-builder` with canonical Agent Skills spec optional frontmatter
+
+- Added `compatibility` and `allowed-tools` optional frontmatter fields to `stitch_project_cosmo/.devin/skills/amos-skill-builder/SKILL.md` and `references/CONTRACT_TEMPLATE.yaml` per agentskills.io.
+- Re-ran `sota_skill_validator.py`: 642 / 642 skills still 100%.
+- Committed to `stitch_project_cosmo`.
+
+## [2026-08-29] research | OpenSkills SDK README captured and evaluated
+
+- Fetched `ljluestc/OpenSkills` README and captured raw source to [[OPENSKILLS_README_2026_08_29]].
+- Mapped three-layer progressive disclosure, reference loading modes, auto-discovery, and `[INVOKE:name]` script execution to `amos-skill-builder`, `amos-workflow-runner`, `amos-agent-orchestrator`, `amos-security-safety-master`, and `amos-os-runtime-master`.
+- Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: add `triggers` and `references` loading-mode metadata to AMOS `SKILL.md` frontmatter.

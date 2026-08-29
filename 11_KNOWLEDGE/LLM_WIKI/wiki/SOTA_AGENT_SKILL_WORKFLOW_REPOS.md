@@ -500,3 +500,46 @@ Read the canonical Agent Skills README and specification and verified AMOS compl
 Add `allowed-tools` and `compatibility` as optional frontmatter fields in `amos-skill-builder` and validate that existing 642 skills can still pass `sota_skill_validator.py`.
 
 Raw sources: [[AGENTSKILLS_SPEC_README_2026_08_29]] · [[AGENTSKILLS_SPECIFICATION_2026_08_29]]
+
+## 2026-08-29 | OpenSkills SDK deep-dive
+
+Read the `main` branch README of `ljluestc/OpenSkills` and mapped it to AMOS progressive disclosure and script execution.
+
+### Verified shape
+
+- Apache 2.0, PyPI `openskills-sdk`, Python 3.10+.
+- Three-layer progressive disclosure: Metadata (Layer 1) → Instructions (Layer 2) → Resources (Layer 3).
+- `SKILL.md` frontmatter: `name`, `description`, `version`, `triggers`, `references`, `scripts`.
+- Reference loading modes: `explicit` (condition), `implicit` (LLM decides), `always`.
+- Auto-discovery of `references/` directory.
+- Script execution via `[INVOKE:name]` marker and optional AIO Sandbox container.
+- Multiple LLM providers: OpenAI, Azure, Ollama, Together, Groq, DeepSeek.
+- Multimodal support: images via URL, base64, or file path.
+
+### Integration points for AMOS
+
+1. **Progressive disclosure layers → `amos-skill-builder/references/progressive_loading.md`**
+   - OpenSkills L1/L2/L3 directly maps to AMOS `references/` progressive loading. AMOS `SKILL.md` frontmatter is L1, body is L2, `references/` and `scripts/` are L3.
+
+2. **Reference loading modes → `amos-skill-builder` reference manifest**
+   - Add `mode: explicit|implicit|always` and `condition` fields to `references/` entries. This can be added to `MANIFEST.yaml` or a `references/index.yaml`.
+
+3. **Auto-discovery of `references/` → `amos-skill-builder` and `skill-check`**
+   - `skill-check` can auto-index `references/` and validate that all referenced files exist, similar to the wikilink lint.
+
+4. **Script invocation via `[INVOKE:name]` → `amos-workflow-runner` and `amos-agent-orchestrator`**
+   - AMOS `scripts/` can be triggered by the LLM outputting an explicit marker. `amos-workflow-runner` can parse `[INVOKE:script_name]` in skill outputs and execute the matching script.
+
+5. **AIO Sandbox → `amos-security-safety-master` and `amos-os-runtime-master`**
+   - Containerized script execution with dependency auto-install is a reference for `amos-os-runtime-master` and `skill_guardrail_checker.py`.
+
+### Open questions / gaps
+
+- Requires Python 3.10+ and Docker for sandbox; current host Python 3.9.6.
+- `triggers` frontmatter is more specific than AMOS `description` triggers; AMOS could add `triggers` list.
+
+### Recommended next step
+
+Add `triggers` and `references` loading-mode metadata to the AMOS `SKILL.md` frontmatter and `CONTRACT_TEMPLATE.yaml` to align with OpenSkills progressive disclosure.
+
+Raw source: [[OPENSKILLS_README_2026_08_29]]
