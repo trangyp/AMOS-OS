@@ -97,6 +97,19 @@ claim_class: AMOS_MODEL
   3. Expert/worker role hierarchy → map to `amos-agent-orchestrator` subagent dispatch.
   4. Routing table signal words → reuse in `amos-routing-audit` intent classification.
 
+## [2026-08-29] repo evaluation | SkillOpt README and package structure
+
+- Cloned `microsoft/SkillOpt` to `/tmp/skillopt` and inspected README, `pyproject.toml`, `skillopt/config.py`, `skillopt/types.py`.
+- Core pattern: treat the skill markdown as a trainable parameter of a frozen agent.
+- Training loop is Reflect → Aggregate → Select → Update → MetaReflect; output is `best_skill.md`.
+- `Edit` dataclass defines `append/insert_after/replace/delete` ops with `target`, `content`, `source_type`, `support_count`.
+- YAML configs use `_base_` inheritance and canonical/legacy alias normalization.
+- AMOS importables identified:
+  1. `best_skill.md` promotion gate → align with `amos-promotion-gates` and `amos-skill-builder`.
+  2. Edit operation taxonomy → use in `skill_operations_enhancer.py` for deterministic skill mutations.
+  3. Held-out validation gate before accepting edits → strengthen `skill_guardrail_checker` and `skill_rscf_canonicalizer`.
+  4. YAML config inheritance with aliases → improve `workflow_operations_enhancer.py` and `amos-integrated-agent` rename maps.
+
 ## [2026-08-29] research | SkillOpt README captured and evaluated
 
 - Fetched `microsoft/SkillOpt` README and captured raw source to [[SKILLOPT_README_2026_08_29]].
