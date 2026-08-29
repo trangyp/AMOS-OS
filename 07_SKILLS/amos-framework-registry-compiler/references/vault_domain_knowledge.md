@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-framework-registry-compiler/references
 tags:
 - reference
 - amos-framework-registry-compiler
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

@@ -3,10 +3,9 @@ title: references MOC
 type: moc
 source: 07_SKILLS/obsidian-plugin-auto-tag/references
 tags:
-- moc
 - references
 - obsidian-plugin-auto-tag
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

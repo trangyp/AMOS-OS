@@ -4,9 +4,8 @@ title: References MOC — References — Amos Trajectory Bug Specification Refin
 type: moc
 source: 07_SKILLS/amos-trajectory-bug-specification-refinement-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

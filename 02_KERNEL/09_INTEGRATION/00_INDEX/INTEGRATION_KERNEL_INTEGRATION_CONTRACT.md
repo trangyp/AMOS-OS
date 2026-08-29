@@ -3,7 +3,7 @@ title: INTEGRATION KERNEL INTEGRATION CONTRACT
 type: kernel
 source: 02_KERNEL/09_INTEGRATION/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 02_kernel
 - canon/kernel
 - integration

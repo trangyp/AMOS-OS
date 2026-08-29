@@ -3,9 +3,9 @@ title: INDEX C04 REASONING CONTROL PLANES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C04_REASONING/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - c04_reasoning
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - c04-reasoning-map
 - 00-home

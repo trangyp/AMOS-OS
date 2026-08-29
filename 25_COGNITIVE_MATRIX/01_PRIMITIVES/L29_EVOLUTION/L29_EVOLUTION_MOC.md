@@ -3,9 +3,8 @@ title: L29 Evolution MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L29_EVOLUTION
 tags:
-- moc
 - l29-evolution
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-l29-evolution-contract
 - 00-index-moc
 - 01-primitives-moc

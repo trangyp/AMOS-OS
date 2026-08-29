@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-designer-os/references
 tags:
 - reference
 - amos-designer-os
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

@@ -3,9 +3,8 @@ title: Amos-Direct-Corpus-Search-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-direct-corpus-search-rscf
 tags:
-- moc
 - amos-direct-corpus-search-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

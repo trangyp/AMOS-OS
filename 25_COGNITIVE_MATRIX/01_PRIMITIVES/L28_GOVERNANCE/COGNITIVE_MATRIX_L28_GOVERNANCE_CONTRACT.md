@@ -3,11 +3,11 @@ title: COGNITIVE MATRIX L28 GOVERNANCE CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L28_GOVERNANCE
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - primitives
 - l28_governance
 - contract
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - cognitive-matrix-moc

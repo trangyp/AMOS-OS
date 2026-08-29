@@ -3,9 +3,8 @@ title: Spreadsheets MOC
 type: moc
 source: 07_SKILLS/spreadsheets
 tags:
-- moc
 - spreadsheets
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

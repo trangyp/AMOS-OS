@@ -3,7 +3,7 @@ title: CAPABILITY RESOLVER
 type: note
 source: 03_CONTROL_PLANE/02_CAPABILITY
 tags:
-- control_plane
+- control-plane
 - capability
 - note
 - canon/control-plane

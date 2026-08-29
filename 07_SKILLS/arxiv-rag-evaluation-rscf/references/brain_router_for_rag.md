@@ -5,7 +5,7 @@ source: 07_SKILLS/arxiv-rag-evaluation-rscf/references
 tags:
 - reference
 - arxiv-rag-evaluation-rscf
-- canon/skill
+- type/skill
 - 00-home
 - knowledge-moc
 - system-scan-agent

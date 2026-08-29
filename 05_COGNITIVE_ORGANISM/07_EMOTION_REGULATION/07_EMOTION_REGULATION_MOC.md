@@ -3,7 +3,6 @@ title: 07 Emotion Regulation MOC
 type: moc
 source: 05_COGNITIVE_ORGANISM/07_EMOTION_REGULATION
 tags:
-- moc
 - 07-emotion-regulation
 - canon/cognitive
 - amos-emotion-engine

@@ -3,9 +3,8 @@ title: References MOC — References — Arxiv Flash Attention Io Rscf
 type: moc
 source: 07_SKILLS/arxiv-flash-attention-io-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - arxiv-flash-attention-io-rscf-moc
 - 00-home

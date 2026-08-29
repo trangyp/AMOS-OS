@@ -3,9 +3,9 @@ title: PRIMITIVES COGNITIVE MATRIX L16 PLANNING CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L16_PLANNING/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l16_planning
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy

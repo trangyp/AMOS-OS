@@ -3,7 +3,7 @@ title: C07 ECON FINANCE MAP
 type: map
 source: 21_DOMAINS/17_C07_ECON_FINANCE/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - index-c07-econ-finance-domains-readme

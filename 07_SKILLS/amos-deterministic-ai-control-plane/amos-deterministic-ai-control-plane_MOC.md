@@ -3,9 +3,8 @@ title: Amos-Deterministic-Ai-Control-Plane MOC
 type: moc
 source: 07_SKILLS/amos-deterministic-ai-control-plane
 tags:
-- moc
 - amos-deterministic-ai-control-plane
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

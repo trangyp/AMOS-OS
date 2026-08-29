@@ -3,9 +3,8 @@ title: References MOC — References — Amos Process Compliance Auditor Rscf
 type: moc
 source: 07_SKILLS/amos-process-compliance-auditor-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-process-compliance-auditor-rscf-moc
 - 00-home

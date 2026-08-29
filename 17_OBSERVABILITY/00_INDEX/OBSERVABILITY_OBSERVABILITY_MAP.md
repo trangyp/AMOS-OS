@@ -3,7 +3,7 @@ title: OBSERVABILITY OBSERVABILITY MAP
 type: map
 source: 17_OBSERVABILITY/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 17_observability
 - canon/observability
 - index-observability-readme

@@ -3,7 +3,6 @@ tags:
 - knowledge
 - kernel
 - agents
-- kernel.md
 - 00-home
 - knowledge-moc
 - system-scan-agent

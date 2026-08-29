@@ -3,7 +3,7 @@ title: KERNEL RISK REPAIR CONTRACT
 type: kernel
 source: 02_KERNEL/06_RISK_REPAIR
 tags:
-- amos_os
+- amos-os
 - 02_kernel
 - canon/kernel
 - routing-policy-validation-receipt

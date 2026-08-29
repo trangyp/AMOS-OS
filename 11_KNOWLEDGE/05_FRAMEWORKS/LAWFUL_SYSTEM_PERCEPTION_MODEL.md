@@ -12,7 +12,7 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: MODEL
 path: 11_KNOWLEDGE/05_FRAMEWORKS/LAWFUL_SYSTEM_PERCEPTION_MODEL.md
 tags:
-- amos_os
+- amos-os
 - knowledge
 - vault
 - 11_knowledge

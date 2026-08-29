@@ -3,7 +3,7 @@ title: GEO GEOPOLITICS DOMAINS README
 type: note
 source: 21_DOMAINS/43_GEO_GEOPOLITICS
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - readme

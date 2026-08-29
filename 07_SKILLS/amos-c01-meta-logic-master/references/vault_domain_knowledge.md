@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-c01-meta-logic-master/references
 tags:
 - reference
 - amos-c01-meta-logic-master
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

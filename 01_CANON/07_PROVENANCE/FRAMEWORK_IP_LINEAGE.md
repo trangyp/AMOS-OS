@@ -12,7 +12,7 @@ segment: 01_CANON/07_PROVENANCE
 artifact_kind: LINEAGE
 path: 01_CANON/07_PROVENANCE/FRAMEWORK_IP_LINEAGE.md
 tags:
-- amos_os
+- amos-os
 - canon
 - universe
 - 01_canon

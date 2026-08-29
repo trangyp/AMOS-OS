@@ -3,7 +3,6 @@ title: 54 Crisis Incident Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/54_CRISIS_INCIDENT_MODES
 tags:
-- moc
 - 54-crisis-incident-modes
 - canon/control-plane
 - 09-commit-moc

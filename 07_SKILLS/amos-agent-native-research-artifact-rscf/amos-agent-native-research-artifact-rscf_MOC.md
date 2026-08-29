@@ -3,9 +3,8 @@ title: Amos-Agent-Native-Research-Artifact-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-agent-native-research-artifact-rscf
 tags:
-- moc
 - amos-agent-native-research-artifact-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

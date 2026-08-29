@@ -3,9 +3,9 @@ title: PRIMITIVES COGNITIVE MATRIX PRIMITIVES CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - 00_index
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy

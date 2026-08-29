@@ -3,7 +3,7 @@ title: CRISIS INCIDENT MODES COMMIT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/54_CRISIS_INCIDENT_MODES
 tags:
-- control_plane
+- control-plane
 - 54_crisis_incident_modes
 - canon/control-plane
 - readme

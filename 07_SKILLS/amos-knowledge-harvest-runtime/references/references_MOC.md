@@ -3,9 +3,8 @@ title: References MOC — References — Amos Knowledge Harvest Runtime
 type: moc
 source: 07_SKILLS/amos-knowledge-harvest-runtime/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-knowledge-harvest-runtime-moc
 - 00-home

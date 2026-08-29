@@ -3,7 +3,7 @@ title: ROUTING MODES COMMIT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/07_ROUTING_MODES
 tags:
-- control_plane
+- control-plane
 - 07_routing_modes
 - canon/control-plane
 - readme

@@ -3,9 +3,8 @@ title: Amos-Arxiv-Continual-Interference-Geometry-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-arxiv-continual-interference-geometry-rscf
 tags:
-- moc
 - amos-arxiv-continual-interference-geomet
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

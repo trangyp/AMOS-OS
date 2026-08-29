@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-context-persona-drift-rscf/references
 tags:
 - reference
 - amos-context-persona-drift-rscf
-- canon/skill
+- type/skill
 - 00-home
 - knowledge-moc
 - system-scan-agent

@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-morphogenesis-mapper/references
 tags:
 - reference
 - amos-morphogenesis-mapper
-- canon/skill
+- type/skill
 - integration
 - amos-morphogenesis-mapper-moc
 - 00-home

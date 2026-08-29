@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-neural-ode-dynamics-rscf-engine/references
 tags:
 - reference
 - amos-neural-ode-dynamics-rscf-engine
-- canon/skill
+- type/skill
 - integration
 - references-moc
 - 07-skills-moc

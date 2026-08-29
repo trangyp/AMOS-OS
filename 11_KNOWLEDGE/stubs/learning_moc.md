@@ -3,7 +3,6 @@ title: learning moc
 tags:
 - stub
 - learning
-- moc
 - learning-moc
 - kernel-moc
 - 00-home

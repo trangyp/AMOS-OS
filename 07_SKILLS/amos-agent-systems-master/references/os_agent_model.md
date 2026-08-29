@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-agent-systems-master/references
 tags:
 - reference
 - amos-agent-systems-master
-- canon/skill
+- type/skill
 - cosmo-brain-moc
 - references-moc
 - 00-home

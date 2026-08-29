@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-semantic-grounding-auditor/references
 tags:
 - reference
 - amos-semantic-grounding-auditor
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

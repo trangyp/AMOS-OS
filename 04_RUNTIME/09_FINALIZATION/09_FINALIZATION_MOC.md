@@ -3,7 +3,6 @@ title: 09 Finalization MOC
 type: moc
 source: 04_RUNTIME/09_FINALIZATION
 tags:
-- moc
 - 09-finalization
 - canon/runtime
 - causal-epoch-finalizer

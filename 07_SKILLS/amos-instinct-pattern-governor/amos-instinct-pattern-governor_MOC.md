@@ -3,9 +3,8 @@ title: Amos-Instinct-Pattern-Governor MOC
 type: moc
 source: 07_SKILLS/amos-instinct-pattern-governor
 tags:
-- moc
 - amos-instinct-pattern-governor
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-canon-compiler/references
 tags:
 - reference
 - amos-canon-compiler
-- canon/skill
+- type/skill
 - amos-canon-compiler-moc
 - 00-home
 - amos-rscf-nodes

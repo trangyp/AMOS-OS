@@ -3,9 +3,8 @@ title: Amos-Repair-Priority-Governor MOC
 type: moc
 source: 07_SKILLS/amos-repair-priority-governor
 tags:
-- moc
 - amos-repair-priority-governor
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

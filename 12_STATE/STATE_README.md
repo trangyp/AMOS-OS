@@ -24,7 +24,7 @@ empirical_status: NOT_APPLICABLE
 authority_class: ORIENTATION_NOT_NORMATIVE_CONTRACT
 tags:
 - amos
-- amos_os
+- amos-os
 - amos/state
 - amos/state-plane
 - amos/architecture
@@ -4296,3 +4296,4 @@ AMOS MOC
 ```
 
 This preserves the actual source boundary: the current `STATE_README.md` itself says its role is orientation and that normative load-bearing content belongs in sibling contracts; it also explicitly keeps executable binding `PARTIAL`. :contentReference[oaicite:2]{index=2}
+```

@@ -3,9 +3,9 @@ title: INDEX O03 BINDING LIFECYCLE OPERATIONS COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O03_BINDING/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - o03_binding
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - o03-binding-map
 - 00-home

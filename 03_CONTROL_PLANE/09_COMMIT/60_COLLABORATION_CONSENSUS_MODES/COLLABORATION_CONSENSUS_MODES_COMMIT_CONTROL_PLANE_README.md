@@ -3,7 +3,7 @@ title: COLLABORATION CONSENSUS MODES COMMIT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/60_COLLABORATION_CONSENSUS_MODES
 tags:
-- control_plane
+- control-plane
 - 60_collaboration_consensus_modes
 - canon/control-plane
 - readme

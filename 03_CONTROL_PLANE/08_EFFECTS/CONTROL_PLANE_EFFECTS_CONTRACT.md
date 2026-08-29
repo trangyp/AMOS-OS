@@ -3,8 +3,7 @@ title: CONTROL PLANE EFFECTS CONTRACT
 type: control-plane
 source: 03_CONTROL_PLANE/08_EFFECTS
 tags:
-- control_plane
-- control_plane_effects_contract.md
+- control-plane
 - canon/control-plane
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt

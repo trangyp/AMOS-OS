@@ -15,7 +15,7 @@ tags:
 - hml
 - control-plane
 - validation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - skill
 - 00-home
 - cosmo-brain-bridge-index

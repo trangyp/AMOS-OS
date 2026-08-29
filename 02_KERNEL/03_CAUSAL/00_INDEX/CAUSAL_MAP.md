@@ -3,7 +3,7 @@ title: CAUSAL MAP
 type: map
 source: 02_KERNEL/03_CAUSAL/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 02_kernel
 - canon/kernel
 - causal-kernel-causal-contract

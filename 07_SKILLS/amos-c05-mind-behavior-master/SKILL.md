@@ -38,12 +38,12 @@ type: mind
 source: 11_KNOWLEDGE
 tags:
 - type/skill
-- canon/skill
+- type/skill
 - domain/mind-behavior
-- rscf/source_claim
+- epistemic/source_claim
 - hml/h
 - epistemic/source_claim
-- amos_os
+- amos-os
 - references-moc
 - 00-home
 rscf:

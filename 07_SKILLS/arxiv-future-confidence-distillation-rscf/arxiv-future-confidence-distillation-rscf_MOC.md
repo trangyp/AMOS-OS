@@ -3,9 +3,8 @@ title: Arxiv-Future-Confidence-Distillation-Rscf MOC
 type: moc
 source: 07_SKILLS/arxiv-future-confidence-distillation-rscf
 tags:
-- moc
 - arxiv-future-confidence-distillation-rsc
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

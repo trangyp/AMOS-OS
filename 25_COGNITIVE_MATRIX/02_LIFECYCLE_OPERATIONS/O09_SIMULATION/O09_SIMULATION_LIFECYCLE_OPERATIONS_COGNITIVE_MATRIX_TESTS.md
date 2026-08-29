@@ -5,7 +5,7 @@ source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O09_SIMULATION
 tags:
 - note
 - o09-simulation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-moc
 - 00-root-moc
 - amos-moc

@@ -3,9 +3,8 @@ title: L10 World Modeling MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L10_WORLD_MODELING
 tags:
-- moc
 - l10-world-modeling
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-index-moc
 - 01-primitives-moc
 - cognitive-matrix-l10-world-modeling-contract

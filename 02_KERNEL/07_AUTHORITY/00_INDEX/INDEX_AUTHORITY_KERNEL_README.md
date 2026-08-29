@@ -3,7 +3,7 @@ title: INDEX AUTHORITY KERNEL README
 type: index
 source: 02_KERNEL/07_AUTHORITY/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 02_kernel
 - canon/kernel
 - readme

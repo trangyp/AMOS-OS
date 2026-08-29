@@ -3,9 +3,8 @@ title: Amos-Workflow-Builder MOC
 type: moc
 source: 07_SKILLS/amos-workflow-builder
 tags:
-- moc
 - amos-workflow-builder
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

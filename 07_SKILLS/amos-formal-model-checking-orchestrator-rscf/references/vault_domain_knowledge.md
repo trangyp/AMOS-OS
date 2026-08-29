@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-formal-model-checking-orchestrator-rscf/references
 tags:
 - reference
 - amos-formal-model-checking-orchestrator-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

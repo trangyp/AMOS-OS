@@ -12,8 +12,8 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX
 path: 25_COGNITIVE_MATRIX/UBI_X_FULL_BRAIN_MATRIX.md
 tags:
-- amos_os
-- cognitive_matrix
+- amos-os
+- cognitive-matrix
 - canon/matrix
 - rscf
 - provenance

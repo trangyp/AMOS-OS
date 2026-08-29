@@ -3,7 +3,6 @@ title: system moc
 tags:
 - stub
 - system
-- moc
 - system-moc
 - kernel-moc
 - 00-home

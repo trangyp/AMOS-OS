@@ -18,7 +18,7 @@ schema_family: RSCF
 schema_role: CROSS_SPECIES_FUNCTIONAL_MODE_RSCF
 schema_version: AMOS_CORE_v4.4-compatible-conceptual
 tags:
-- amos_os
+- amos-os
 - canon
 - cognition
 - cross_species

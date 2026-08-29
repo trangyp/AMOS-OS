@@ -3,9 +3,8 @@ title: Mckinsey-Strategy-Portfolio-Engine MOC
 type: moc
 source: 07_SKILLS/mckinsey-strategy-portfolio-engine
 tags:
-- moc
 - mckinsey-strategy-portfolio-engine
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

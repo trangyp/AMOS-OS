@@ -3,9 +3,8 @@ title: 01 Primitives MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES
 tags:
-- moc
 - 01-primitives
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-primitives-contract
 - primitives-cognitive-matrix-readme
 - 00-index-moc

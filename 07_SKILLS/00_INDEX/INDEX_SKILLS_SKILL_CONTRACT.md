@@ -3,9 +3,9 @@ title: INDEX SKILLS SKILL CONTRACT
 type: index
 source: 07_SKILLS/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 07_skills
-- canon/skill
+- type/skill
 - skill
 - index-skills-readme
 - skill-map

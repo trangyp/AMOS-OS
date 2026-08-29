@@ -3,9 +3,8 @@ title: References MOC — References — Amos Benchmark Forensics
 type: moc
 source: 07_SKILLS/amos-benchmark-forensics/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - asymptotic-ceiling-analysis
 - amos-benchmark-forensics-moc
 - 00-home

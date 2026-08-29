@@ -41,7 +41,7 @@ source_basis:
   note: Corpus artifacts may share AMOS ancestry and therefore are not treated as
     independent empirical confirmation.
 tags:
-- amos_os
+- amos-os
 - amos
 - model
 - specification
@@ -5194,3 +5194,4 @@ RSCF-RELATIONS:
 ---
 
 **MOC:** [[01_FOUNDATION_MOC]]
+```

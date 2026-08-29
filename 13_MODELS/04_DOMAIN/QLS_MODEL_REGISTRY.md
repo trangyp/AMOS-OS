@@ -77,83 +77,83 @@ claim_ceiling:
   qls_runtime_capability: "NOT_ESTABLISHED"
 
 tags:
-  - amos_os
-  - amos
-  - trang
-  - trang_phan
-  - qls
-  - qls_model
-  - qls_registry
-  - qls_model_registry
-  - domain_model
-  - domain_registry
-  - model
-  - models
-  - specification
-  - registry
-  - model_registry
-  - architecture
-  - 13_models
-  - 04_domain
-  - canon/model
-  - canon/domain
-  - canon_candidate
-  - native_canon
-  - canon_ingestion
-  - source_claim
-  - observation
-  - derived
-  - AMOS_MODEL
-  - epistemic_regime
-  - epistemic_class
-  - conclusion_class
-  - model_observation_firewall
-  - model_output_firewall
-  - provenance
-  - provenance_topology
-  - source_ancestry
-  - model_ancestry
-  - provenance_independence
-  - sybil_hardening
-  - confidence_ceiling
-  - scope
-  - regime
-  - temporal_validity
-  - freshness
-  - causal_firewall
-  - scope_firewall
-  - regime_firewall
-  - temporal_firewall
-  - provenance_firewall
-  - authority_firewall
-  - equation_firewall
-  - mathematical_firewall
-  - competing_hypotheses
-  - competing_models
-  - contradiction
-  - falsifier
-  - sensitivity
-  - uncertainty
-  - unknown_gap
-  - fail_closed
-  - rscf
-  - hml
-  - proof_capsule
-  - dependency_closure
-  - selective_invalidation
-  - governed_evolution
-  - model_lifecycle
-  - versioning
-  - mvcc
-  - cas
-  - rollback
-  - validation
-  - validation_receipt
-  - governance
-  - add_only
-  - no_overwrite
-  - external_evidence
-  - native_source_required
+- amos-os
+- amos
+- trang
+- trang_phan
+- qls
+- qls_model
+- qls_registry
+- qls_model_registry
+- domain_model
+- domain_registry
+- model
+- models
+- specification
+- registry
+- model_registry
+- architecture
+- 13_models
+- 04_domain
+- canon/model
+- canon/domain
+- canon_candidate
+- native_canon
+- canon_ingestion
+- source_claim
+- observation
+- derived
+- AMOS_MODEL
+- epistemic_regime
+- epistemic_class
+- conclusion_class
+- model_observation_firewall
+- model_output_firewall
+- provenance
+- provenance_topology
+- source_ancestry
+- model_ancestry
+- provenance_independence
+- sybil_hardening
+- confidence_ceiling
+- scope
+- regime
+- temporal_validity
+- freshness
+- causal_firewall
+- scope_firewall
+- regime_firewall
+- temporal_firewall
+- provenance_firewall
+- authority_firewall
+- equation_firewall
+- mathematical_firewall
+- competing_hypotheses
+- competing_models
+- contradiction
+- falsifier
+- sensitivity
+- uncertainty
+- unknown_gap
+- fail_closed
+- rscf
+- hml
+- proof_capsule
+- dependency_closure
+- selective_invalidation
+- governed_evolution
+- model_lifecycle
+- versioning
+- mvcc
+- cas
+- rollback
+- validation
+- validation_receipt
+- governance
+- add_only
+- no_overwrite
+- external_evidence
+- native_source_required
 rscf:
   state: "DERIVED"
   claim_class: "DERIVED"

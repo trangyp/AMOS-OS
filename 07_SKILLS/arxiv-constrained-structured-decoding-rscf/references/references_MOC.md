@@ -3,9 +3,8 @@ title: References MOC — References — Arxiv Constrained Structured Decoding R
 type: moc
 source: 07_SKILLS/arxiv-constrained-structured-decoding-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

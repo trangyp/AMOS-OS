@@ -12,8 +12,8 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX
 path: 25_COGNITIVE_MATRIX/AMOS_X_UNIVERSE_CANON.md
 tags:
-- amos_os
-- cognitive_matrix
+- amos-os
+- cognitive-matrix
 - vault
 - 25_cognitive_matrix
 - amos_x_universe_canon

@@ -5,7 +5,7 @@ source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION
 tags:
 - note
 - l04-object-entity-formation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-moc
 - 00-root-moc
 - amos-moc

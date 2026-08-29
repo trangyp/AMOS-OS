@@ -3,7 +3,6 @@ title: 93 Ranking Selection Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/93_RANKING_SELECTION_MODES
 tags:
-- moc
 - 93-ranking-selection-modes
 - canon/control-plane
 - 09-commit-moc

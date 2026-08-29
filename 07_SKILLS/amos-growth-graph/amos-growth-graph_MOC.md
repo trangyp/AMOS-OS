@@ -3,9 +3,8 @@ title: Amos-Growth-Graph MOC
 type: moc
 source: 07_SKILLS/amos-growth-graph
 tags:
-- moc
 - amos-growth-graph
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

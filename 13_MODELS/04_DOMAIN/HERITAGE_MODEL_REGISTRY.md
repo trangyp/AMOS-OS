@@ -3,7 +3,6 @@ tags:
 - models
 - domain
 - heritage
-- registry.md
 - registry
 - validation
 - architecture
@@ -7099,3 +7098,4 @@ RSCF-RELATIONS:
 ---
 
 **MOC:**
+```

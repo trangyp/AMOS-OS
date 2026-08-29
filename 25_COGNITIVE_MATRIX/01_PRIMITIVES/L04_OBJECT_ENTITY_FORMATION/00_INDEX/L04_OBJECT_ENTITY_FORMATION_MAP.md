@@ -3,9 +3,9 @@ title: L04 OBJECT ENTITY FORMATION MAP
 type: map
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l04_object_entity_formation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-map
 - amos-rscf-nodes
 - routing-policy-validation-receipt

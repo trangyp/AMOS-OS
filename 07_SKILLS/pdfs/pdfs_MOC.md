@@ -3,9 +3,8 @@ title: Pdfs MOC
 type: moc
 source: 07_SKILLS/pdfs
 tags:
-- moc
 - pdfs
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

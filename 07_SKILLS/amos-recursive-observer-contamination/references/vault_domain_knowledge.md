@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-recursive-observer-contamination/references
 tags:
 - reference
 - amos-recursive-observer-contamination
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

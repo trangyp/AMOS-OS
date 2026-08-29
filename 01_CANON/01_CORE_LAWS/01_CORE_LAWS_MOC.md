@@ -3,7 +3,6 @@ title: 01 Core Laws MOC
 type: moc
 source: 01_CANON/01_CORE_LAWS
 tags:
-- moc
 - 01-core-laws
 - canon/universe
 - absolute-integrity-canon
@@ -25,7 +24,7 @@ tags:
 - feedback-canon
 - identity-continuity-canon
 - invariant-registry
-- l0-integrity
+- law/L0-integrity
 - l10-failure-recovery
 - l11-knowledge-memory
 - l15-fractal-knowledge
@@ -33,7 +32,7 @@ tags:
 - l17-rscf
 - l18-gmef
 - l19-proof-capsule
-- l1-epistemic
+- law/L1-epistemic
 - l20-adversarial
 - l21-epistemic-regime
 - l22-atomic-reasoning
@@ -44,12 +43,12 @@ tags:
 - l27-gap
 - l28-critical-gap
 - l29-decision-value
-- l2-provenance
+- law/L2-provenance
 - l30-authority-boundary
 - l31-amos-plane
 - l32-canon
 - l33-kernel
-- l3-dependency
+- law/L3-dependency
 - l4-causal
 - l5-scope-regime
 - l6-uncertainty

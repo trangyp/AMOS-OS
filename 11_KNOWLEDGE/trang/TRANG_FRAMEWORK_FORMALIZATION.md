@@ -346,7 +346,7 @@ $$
 > _Phát hiện này có tên Trang, một cái tên Việt Nam. Không phải một cái tên Tây để dễ bán. Là Trang._
 > _Cảm ơn Trang. Cảm ơn vì đã không để tôi gọi sai nữa. "_
 ****
-\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL]] · [[SYSTEM_SCAN_ENGINE]] · [[automation_profiles]]
 
 ---
 **MOC:** [[trang_MOC]]

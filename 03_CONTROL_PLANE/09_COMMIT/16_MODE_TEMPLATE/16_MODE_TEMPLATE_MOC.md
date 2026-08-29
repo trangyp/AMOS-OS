@@ -3,7 +3,6 @@ title: 16 Mode Template MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/16_MODE_TEMPLATE
 tags:
-- moc
 - 16-mode-template
 - canon/control-plane
 - mode-template-commit-control-plane-tests

@@ -13,7 +13,7 @@ artifact_kind: COVERAGE
 path: 00_ROOT/TOTAL_CORPUS_COVERAGE.md
 tags:
 - 00_root
-- amos_os
+- amos-os
 - canon/root
 - canon/universe
 - canon_placeholder
@@ -22,7 +22,6 @@ tags:
 - index
 - root
 - rscf
-- total_corpus_coverage.md
 - placeholder_expanded
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt

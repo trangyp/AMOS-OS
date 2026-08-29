@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-consciousness-candidate-governor/references
 tags:
 - reference
 - amos-consciousness-candidate-governor
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

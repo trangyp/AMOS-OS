@@ -3,11 +3,11 @@ title: COGNITIVE MATRIX L LOW SCALE CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/04_SCALES/L_LOW_SCALE
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - scales
 - l_low_scale
 - contract
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - hml-canon

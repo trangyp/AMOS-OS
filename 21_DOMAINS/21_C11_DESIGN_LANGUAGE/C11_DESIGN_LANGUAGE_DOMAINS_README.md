@@ -3,7 +3,7 @@ title: C11 DESIGN LANGUAGE DOMAINS README
 type: design
 source: 21_DOMAINS/21_C11_DESIGN_LANGUAGE
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - readme

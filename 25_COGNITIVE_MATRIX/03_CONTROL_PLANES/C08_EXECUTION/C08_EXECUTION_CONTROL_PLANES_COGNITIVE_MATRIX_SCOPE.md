@@ -5,7 +5,7 @@ source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C08_EXECUTION
 tags:
 - note
 - c08-execution
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-moc
 - 00-root-moc
 - amos-moc

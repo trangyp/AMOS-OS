@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-observability-driven-harness-evolution-rscf/references
 tags:
 - reference
 - amos-observability-driven-harness-evolution-rscf
-- canon/skill
+- type/skill
 - 00-home
 - amos-rscf-nodes
 - law-hierarchy

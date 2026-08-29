@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-fractal-systems-master/references
 tags:
 - reference
 - amos-fractal-systems-master
-- canon/skill
+- type/skill
 - 07-skills-moc
 - references-moc
 - 00-home

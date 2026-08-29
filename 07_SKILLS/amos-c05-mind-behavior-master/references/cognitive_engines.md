@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-c05-mind-behavior-master/references
 tags:
 - reference
 - amos-c05-mind-behavior-master
-- canon/skill
+- type/skill
 - 07-skills-moc
 - references-moc
 - 00-home

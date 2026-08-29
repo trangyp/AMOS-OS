@@ -3,9 +3,8 @@ title: Amos-Arxiv-Agent-Memory-Dynamics-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-arxiv-agent-memory-dynamics-rscf
 tags:
-- moc
 - amos-arxiv-agent-memory-dynamics-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-ai-drift-alignment-governor/references
 tags:
 - reference
 - amos-ai-drift-alignment-governor
-- canon/skill
+- type/skill
 - amos-ai-drift-alignment-governor-moc
 - 00-home
 - amos-rscf-nodes

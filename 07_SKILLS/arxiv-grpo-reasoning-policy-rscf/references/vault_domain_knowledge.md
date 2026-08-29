@@ -5,7 +5,7 @@ source: 07_SKILLS/arxiv-grpo-reasoning-policy-rscf/references
 tags:
 - reference
 - arxiv-grpo-reasoning-policy-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

@@ -3,10 +3,10 @@ title: SCALES COGNITIVE MATRIX README
 type: cognitive
 source: 25_COGNITIVE_MATRIX/04_SCALES
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - matrix
 - cognition
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - cognitive-matrix-scales-contract
 - routing-policy-validation-receipt

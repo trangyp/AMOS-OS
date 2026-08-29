@@ -3,9 +3,9 @@ title: PRIMITIVES COGNITIVE MATRIX L25 IDENTITY CONTINUITY CONTRACT
 type: identity
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L25_IDENTITY_CONTINUITY/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l25_identity_continuity
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - validation-evidence
 - 00-root-moc
 - amos-moc

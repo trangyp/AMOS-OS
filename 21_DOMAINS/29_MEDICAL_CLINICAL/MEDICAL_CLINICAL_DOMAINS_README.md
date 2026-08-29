@@ -3,7 +3,7 @@ title: MEDICAL CLINICAL DOMAINS README
 type: note
 source: 21_DOMAINS/29_MEDICAL_CLINICAL
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - readme

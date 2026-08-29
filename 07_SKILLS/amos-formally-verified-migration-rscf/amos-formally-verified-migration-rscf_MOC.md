@@ -3,9 +3,8 @@ title: Amos-Formally-Verified-Migration-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-formally-verified-migration-rscf
 tags:
-- moc
 - amos-formally-verified-migration-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

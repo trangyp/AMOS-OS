@@ -3,9 +3,8 @@ title: References MOC — References — Amos Os Kernel
 type: moc
 source: 07_SKILLS/amos-os-kernel/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - amos-home
 - references-moc
 - 00-home

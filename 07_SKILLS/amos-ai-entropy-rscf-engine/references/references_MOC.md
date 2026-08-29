@@ -3,9 +3,8 @@ title: References MOC — References — Amos Ai Entropy Rscf Engine
 type: moc
 source: 07_SKILLS/amos-ai-entropy-rscf-engine/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-ai-entropy-rscf-engine-moc
 - 00-home

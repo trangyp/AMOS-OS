@@ -3,9 +3,8 @@ title: References MOC — References — Amos Narrative Integrity Governor
 type: moc
 source: 07_SKILLS/amos-narrative-integrity-governor/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-narrative-integrity-governor-moc
 - 00-home

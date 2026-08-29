@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-growth-graph/references
 tags:
 - reference
 - amos-growth-graph
-- canon/skill
+- type/skill
 - 2026-08-22-amos-obsidian-memory-bridge
 - references-moc
 - 00-home

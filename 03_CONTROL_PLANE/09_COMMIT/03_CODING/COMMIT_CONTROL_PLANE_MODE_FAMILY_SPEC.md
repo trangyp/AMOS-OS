@@ -3,7 +3,7 @@ title: COMMIT CONTROL PLANE MODE FAMILY SPEC
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/03_CODING
 tags:
-- control_plane
+- control-plane
 - 03_coding
 - canon/control-plane
 - routing-policy-validation-receipt

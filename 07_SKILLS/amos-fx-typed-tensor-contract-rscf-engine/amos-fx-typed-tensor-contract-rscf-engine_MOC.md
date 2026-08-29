@@ -3,9 +3,8 @@ title: Amos-Fx-Typed-Tensor-Contract-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-fx-typed-tensor-contract-rscf-engine
 tags:
-- moc
 - amos-fx-typed-tensor-contract-rscf-engin
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

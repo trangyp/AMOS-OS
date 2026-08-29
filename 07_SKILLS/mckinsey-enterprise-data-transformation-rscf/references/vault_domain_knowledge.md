@@ -5,7 +5,7 @@ source: 07_SKILLS/mckinsey-enterprise-data-transformation-rscf/references
 tags:
 - reference
 - mckinsey-enterprise-data-transformation-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

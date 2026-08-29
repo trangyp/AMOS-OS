@@ -21,12 +21,12 @@ law_compliance:
 - L5
 tags:
 - type/skill
-- canon/skill
+- type/skill
 - domain/knowledge-research
-- rscf/source_claim
+- epistemic/source_claim
 - hml/m
 - epistemic/source_claim
-- amos_os
+- amos-os
 steward: Trang Phan
 language: en
 rscf:

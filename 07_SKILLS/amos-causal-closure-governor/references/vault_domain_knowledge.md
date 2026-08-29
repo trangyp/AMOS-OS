@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-causal-closure-governor/references
 tags:
 - reference
 - amos-causal-closure-governor
-- canon/skill
+- type/skill
 - 07-skills-moc
 - references-moc
 - 00-home

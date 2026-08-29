@@ -12,8 +12,8 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX_TABLE
 path: 25_COGNITIVE_MATRIX/TOTAL_CANON_MATRIX.md
 tags:
-- amos_os
-- cognitive_matrix
+- amos-os
+- cognitive-matrix
 - vault
 - 25_cognitive_matrix
 - total_canon_matrix
@@ -22,7 +22,7 @@ tags:
 - cross_plane
 - canon_routing
 - core_laws
-- l0_integrity
+- law/L0-integrity
 - l1_reality
 - l2_cognition
 - l3_governance
@@ -58,7 +58,7 @@ tags:
 - k-governance
 - k-reality
 - k-universe-strata
-- l0-integrity
+- law/L0-integrity
 - amos-core-v4-4
 version: 1.0.0
 updated: '2026-08-27'

@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-counterfactual-selfhood-mapper/references
 tags:
 - reference
 - amos-counterfactual-selfhood-mapper
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

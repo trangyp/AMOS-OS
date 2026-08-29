@@ -3,9 +3,9 @@ title: INDEX L15 GOAL FORMATION PRIMITIVES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L15_GOAL_FORMATION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l15_goal_formation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - l15-goal-formation-map
 - 00-home

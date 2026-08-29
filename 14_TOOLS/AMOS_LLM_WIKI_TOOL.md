@@ -6,10 +6,9 @@ tags:
 - tool
 - llm-wiki
 - obsidian
-- amos_os
+- amos-os
 - amos-llm-wiki
 - llm-wiki-moc
-- moc
 - 14-tools-moc
 rscf:
   state: DERIVED

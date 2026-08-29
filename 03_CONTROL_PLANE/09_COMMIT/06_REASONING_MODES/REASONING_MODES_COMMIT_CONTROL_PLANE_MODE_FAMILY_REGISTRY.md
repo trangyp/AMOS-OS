@@ -3,7 +3,7 @@ title: REASONING MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES
 tags:
-- control_plane
+- control-plane
 - 06_reasoning_modes
 - canon/control-plane
 - routing-policy-validation-receipt

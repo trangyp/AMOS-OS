@@ -21,7 +21,7 @@ scope:
   - n
 tags:
 - amos
-- amos_os
+- amos-os
 - root
 - amos-os
 - neural-network

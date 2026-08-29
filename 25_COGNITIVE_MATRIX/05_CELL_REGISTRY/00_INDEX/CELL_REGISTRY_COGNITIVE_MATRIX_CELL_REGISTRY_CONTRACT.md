@@ -3,9 +3,9 @@ title: CELL REGISTRY COGNITIVE MATRIX CELL REGISTRY CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/05_CELL_REGISTRY/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - 00_index
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy

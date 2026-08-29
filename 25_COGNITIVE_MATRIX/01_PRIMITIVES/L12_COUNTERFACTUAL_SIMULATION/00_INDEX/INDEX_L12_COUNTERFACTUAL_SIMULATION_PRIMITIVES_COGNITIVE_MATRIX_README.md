@@ -3,9 +3,9 @@ title: INDEX L12 COUNTERFACTUAL SIMULATION PRIMITIVES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L12_COUNTERFACTUAL_SIMULATION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l12_counterfactual_simulation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - l12-counterfactual-simulation-map
 - 00-home

@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-os-runtime-master
 tags:
 - note
 - amos-os-runtime-master
-- canon/skill
+- type/skill
 - skill
 - amos-os-runtime-master-moc
 rscf:

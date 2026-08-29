@@ -4,7 +4,7 @@ type: test
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
 tags:
 - amos
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-home
 - 00-root-moc
 - amos-moc

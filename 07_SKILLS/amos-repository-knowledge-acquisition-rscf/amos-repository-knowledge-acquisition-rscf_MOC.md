@@ -3,9 +3,8 @@ title: Amos-Repository-Knowledge-Acquisition-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-repository-knowledge-acquisition-rscf
 tags:
-- moc
 - amos-repository-knowledge-acquisition-rs
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

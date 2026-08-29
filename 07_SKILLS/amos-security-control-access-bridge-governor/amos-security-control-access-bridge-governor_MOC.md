@@ -3,9 +3,8 @@ title: Amos-Security-Control-Access-Bridge-Governor MOC
 type: moc
 source: 07_SKILLS/amos-security-control-access-bridge-governor
 tags:
-- moc
 - amos-security-control-access-bridge-gove
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

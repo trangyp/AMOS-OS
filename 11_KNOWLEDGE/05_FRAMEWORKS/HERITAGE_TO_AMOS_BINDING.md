@@ -12,16 +12,16 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: BINDING
 path: 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_TO_AMOS_BINDING.md
 tags:
-- amos_os
+- amos-os
 - knowledge
 - vault
 - 11_knowledge
 - 05_frameworks
 - heritage_amos_binding
-- amos_os
+- amos-os
 - heritage
 - decision_governance
-- control_plane
+- control-plane
 - rscf
 - canon_candidate
 - canon/knowledge

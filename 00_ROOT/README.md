@@ -8,7 +8,6 @@ rscf-state: derived
 tags:
 - index
 - readme
-- moc
 - canon/root
 - 00-home
 - 00-cosmo-brain-moc

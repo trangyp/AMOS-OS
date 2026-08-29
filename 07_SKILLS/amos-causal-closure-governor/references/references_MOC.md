@@ -3,9 +3,8 @@ title: References MOC — References — Amos Causal Closure Governor
 type: moc
 source: 07_SKILLS/amos-causal-closure-governor/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-causal-closure-governor-moc
 - 00-home

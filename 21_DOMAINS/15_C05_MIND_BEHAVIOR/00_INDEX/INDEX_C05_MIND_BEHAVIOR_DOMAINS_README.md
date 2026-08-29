@@ -3,7 +3,7 @@ title: INDEX C05 MIND BEHAVIOR DOMAINS README
 type: index
 source: 21_DOMAINS/15_C05_MIND_BEHAVIOR/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - readme

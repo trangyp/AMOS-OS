@@ -3,7 +3,7 @@ title: CUSTOM DOMAINS README
 type: note
 source: 21_DOMAINS/10_CUSTOM
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - readme

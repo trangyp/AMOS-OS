@@ -3,9 +3,8 @@ title: Amos-Paper-Rscf-Compiler MOC
 type: moc
 source: 07_SKILLS/amos-paper-rscf-compiler
 tags:
-- moc
 - amos-paper-rscf-compiler
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

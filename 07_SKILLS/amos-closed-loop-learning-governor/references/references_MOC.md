@@ -3,9 +3,8 @@ title: References MOC — References — Amos Closed Loop Learning Governor
 type: moc
 source: 07_SKILLS/amos-closed-loop-learning-governor/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-closed-loop-learning-governor-moc
 - 00-home

@@ -3,7 +3,6 @@ title: 27 Ubi Super MOC
 type: moc
 source: 21_DOMAINS/27_UBI_SUPER
 tags:
-- moc
 - 27-ubi-super
 - canon/domain
 - domains-ubi-super-contract

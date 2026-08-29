@@ -13,8 +13,7 @@ artifact_kind: CANON
 path: 00_ROOT/AMOS_CANON_DOMAIN_BINDING_MAP.md
 tags:
 - 00_root
-- amos_canon_domain_binding_map.md
-- amos_os
+- amos-os
 - binding
 - canon
 - canon/root

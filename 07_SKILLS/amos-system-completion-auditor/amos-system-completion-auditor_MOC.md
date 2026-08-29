@@ -3,9 +3,8 @@ title: Amos-System-Completion-Auditor MOC
 type: moc
 source: 07_SKILLS/amos-system-completion-auditor
 tags:
-- moc
 - amos-system-completion-auditor
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

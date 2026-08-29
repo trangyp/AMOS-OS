@@ -12,7 +12,7 @@ segment: 21_DOMAINS/02_RESEARCH
 artifact_kind: DOMAIN_METHODOLOGY
 path: 21_DOMAINS/02_RESEARCH/HERITAGE_RESEARCH_METHOD.md
 tags:
-- amos_os
+- amos-os
 - domain
 - vault
 - 21_domains

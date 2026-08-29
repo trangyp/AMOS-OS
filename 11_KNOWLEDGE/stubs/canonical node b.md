@@ -2,7 +2,7 @@
 title: canonical node b
 tags:
 - stub
-- canonical
+- canon
 - node
 - canonical-node-b
 - kernel-moc

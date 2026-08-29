@@ -3,9 +3,8 @@ title: Amos-Fx-Gaussian-Process-Surface-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-fx-gaussian-process-surface-rscf-engine
 tags:
-- moc
 - amos-fx-gaussian-process-surface-rscf-en
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

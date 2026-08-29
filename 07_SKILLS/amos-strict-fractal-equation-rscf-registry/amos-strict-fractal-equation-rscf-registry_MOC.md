@@ -3,9 +3,8 @@ title: Amos-Strict-Fractal-Equation-Rscf-Registry MOC
 type: moc
 source: 07_SKILLS/amos-strict-fractal-equation-rscf-registry
 tags:
-- moc
 - amos-strict-fractal-equation-rscf-regist
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

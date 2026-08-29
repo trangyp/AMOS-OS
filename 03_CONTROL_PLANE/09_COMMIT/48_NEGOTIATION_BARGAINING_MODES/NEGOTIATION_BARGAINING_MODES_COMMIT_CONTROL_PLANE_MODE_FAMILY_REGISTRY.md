@@ -3,7 +3,7 @@ title: NEGOTIATION BARGAINING MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/48_NEGOTIATION_BARGAINING_MODES
 tags:
-- control_plane
+- control-plane
 - 48_negotiation_bargaining_modes
 - canon/control-plane
 - authz-engine-validation-receipt

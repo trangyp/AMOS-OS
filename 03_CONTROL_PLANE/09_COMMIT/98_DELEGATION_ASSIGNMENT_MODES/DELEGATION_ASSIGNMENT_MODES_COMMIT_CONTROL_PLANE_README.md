@@ -3,7 +3,7 @@ title: DELEGATION ASSIGNMENT MODES COMMIT CONTROL PLANE README
 type: delegation
 source: 03_CONTROL_PLANE/09_COMMIT/98_DELEGATION_ASSIGNMENT_MODES
 tags:
-- control_plane
+- control-plane
 - 98_delegation_assignment_modes
 - canon/control-plane
 - delegation

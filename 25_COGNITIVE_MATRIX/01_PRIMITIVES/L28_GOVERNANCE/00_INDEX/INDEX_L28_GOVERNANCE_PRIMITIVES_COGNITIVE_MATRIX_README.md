@@ -3,9 +3,9 @@ title: INDEX L28 GOVERNANCE PRIMITIVES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L28_GOVERNANCE/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l28_governance
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - l28-governance-map
 - 00-home

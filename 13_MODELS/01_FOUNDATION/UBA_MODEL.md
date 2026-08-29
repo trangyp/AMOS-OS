@@ -35,7 +35,7 @@ source_resolution:
   uba_empirical_validation: NOT_ESTABLISHED
   action: PRESERVE_PLACEHOLDER_AND_DO_NOT_INVENT
 tags:
-- amos_os
+- amos-os
 - amos
 - trang
 - trang_phan
@@ -108,7 +108,6 @@ tags:
 - canon_candidate
 - model_registry
 - models_plane
-- uba_model.md
 - readme
 - 00-home
 - amos-rscf-nodes

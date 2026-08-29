@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-design-visual-rscf-engine/references
 tags:
 - reference
 - amos-design-visual-rscf-engine
-- canon/skill
+- type/skill
 - integration
 - references-moc
 - 07-skills-moc

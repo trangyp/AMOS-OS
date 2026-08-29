@@ -12,7 +12,7 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: SPECIFICATION
 path: 11_KNOWLEDGE/05_FRAMEWORKS/DOMAIN_CANON_PROGRAMMING_DCP.md
 tags:
-- amos_os
+- amos-os
 - knowledge
 - vault
 - 11_knowledge

@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-absolute-primitive-decomposer/references
 tags:
 - reference
 - amos-absolute-primitive-decomposer
-- canon/skill
+- type/skill
 - amos-absolute-primitive-decomposer-moc
 - 00-home
 - amos-rscf-nodes

@@ -3,7 +3,7 @@ title: OBSERVABILITY OBSERVABILITY CONTRACT
 type: observability
 source: 17_OBSERVABILITY
 tags:
-- amos_os
+- amos-os
 - 17_observability
 - canon/observability
 - routing-policy-validation-receipt

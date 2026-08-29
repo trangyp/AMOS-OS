@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-formal-agent-skill-verification-rscf/references
 tags:
 - reference
 - amos-formal-agent-skill-verification-rscf
-- canon/skill
+- type/skill
 - memory
 - skill
 - references-moc

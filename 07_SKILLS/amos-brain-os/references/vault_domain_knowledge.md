@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-brain-os/references
 tags:
 - reference
 - amos-brain-os
-- canon/skill
+- type/skill
 - 2026-08-22-formal-systems-invariants
 - 2026-08-22-brain-inventory
 - references-moc

@@ -5,7 +5,7 @@ source: 07_SKILLS/cosmo-human-problem-architecture/references
 tags:
 - reference
 - cosmo-human-problem-architecture
-- canon/skill
+- type/skill
 - cosmo-human-problem-architecture-moc
 - 00-home
 - amos-rscf-nodes

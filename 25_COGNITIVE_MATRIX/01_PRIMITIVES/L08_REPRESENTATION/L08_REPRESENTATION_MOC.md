@@ -3,9 +3,8 @@ title: L08 Representation MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L08_REPRESENTATION
 tags:
-- moc
 - l08-representation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-index-moc
 - 01-primitives-moc
 - cognitive-matrix-l08-representation-contract

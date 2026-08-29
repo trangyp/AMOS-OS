@@ -3,9 +3,8 @@ title: References MOC — References — Arxiv Flow Matching Generative Rscf
 type: moc
 source: 07_SKILLS/arxiv-flow-matching-generative-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - arxiv-flow-matching-generative-rscf-moc
 - 00-home

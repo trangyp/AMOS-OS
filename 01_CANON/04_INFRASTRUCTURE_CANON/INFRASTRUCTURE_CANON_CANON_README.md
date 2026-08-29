@@ -3,7 +3,7 @@ title: INFRASTRUCTURE CANON CANON README
 type: canon
 source: 01_CANON/04_INFRASTRUCTURE_CANON
 tags:
-- amos_os
+- amos-os
 - 01_canon
 - canon/universe
 - readme

@@ -3,9 +3,8 @@ title: O00 Distinction MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O00_DISTINCTION
 tags:
-- moc
 - o00-distinction
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-index-moc
 - 02-lifecycle-operations-moc
 - cognitive-matrix-o00-distinction-contract

@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-mark-operator-rscf-engine/references
 tags:
 - reference
 - amos-mark-operator-rscf-engine
-- canon/skill
+- type/skill
 - amos-mark-operator-rscf-engine-moc
 - 00-home
 - amos-rscf-nodes

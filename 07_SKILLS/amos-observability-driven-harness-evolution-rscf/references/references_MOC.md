@@ -3,9 +3,8 @@ title: References MOC — References — Amos Observability Driven Harness Evolu
 type: moc
 source: 07_SKILLS/amos-observability-driven-harness-evolution-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

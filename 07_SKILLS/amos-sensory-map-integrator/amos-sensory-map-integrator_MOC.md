@@ -3,9 +3,8 @@ title: Amos-Sensory-Map-Integrator MOC
 type: moc
 source: 07_SKILLS/amos-sensory-map-integrator
 tags:
-- moc
 - amos-sensory-map-integrator
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

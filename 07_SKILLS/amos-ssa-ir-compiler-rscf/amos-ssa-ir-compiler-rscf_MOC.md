@@ -3,9 +3,8 @@ title: Amos-Ssa-Ir-Compiler-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-ssa-ir-compiler-rscf
 tags:
-- moc
 - amos-ssa-ir-compiler-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

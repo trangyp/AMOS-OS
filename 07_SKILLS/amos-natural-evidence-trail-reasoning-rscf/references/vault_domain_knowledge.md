@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-natural-evidence-trail-reasoning-rscf/references
 tags:
 - reference
 - amos-natural-evidence-trail-reasoning-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 00-home
 - amos-rscf-nodes

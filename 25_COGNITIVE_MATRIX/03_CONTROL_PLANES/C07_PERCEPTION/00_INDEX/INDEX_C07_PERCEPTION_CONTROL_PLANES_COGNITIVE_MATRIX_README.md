@@ -3,9 +3,9 @@ title: INDEX C07 PERCEPTION CONTROL PLANES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C07_PERCEPTION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - c07_perception
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - c07-perception-map
 - 00-home

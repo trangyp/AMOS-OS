@@ -3,7 +3,7 @@ title: INTEGRATION KERNEL README
 type: kernel
 source: 02_KERNEL/09_INTEGRATION
 tags:
-- amos_os
+- amos-os
 - 02_kernel
 - canon/kernel
 - integration

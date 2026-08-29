@@ -3,7 +3,7 @@ title: KERNEL META LOGIC CONTRACT
 type: kernel
 source: 02_KERNEL/01_META_LOGIC
 tags:
-- amos_os
+- amos-os
 - 02_kernel
 - canon/kernel
 - routing-policy-validation-receipt

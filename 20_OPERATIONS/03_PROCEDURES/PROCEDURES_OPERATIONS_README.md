@@ -3,7 +3,7 @@ title: PROCEDURES OPERATIONS README
 type: procedure
 source: 20_OPERATIONS/03_PROCEDURES
 tags:
-- amos_os
+- amos-os
 - 20_operations
 - canon/operations
 - readme

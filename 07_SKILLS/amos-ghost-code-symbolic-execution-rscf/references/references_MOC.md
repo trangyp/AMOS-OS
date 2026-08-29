@@ -3,9 +3,8 @@ title: References MOC — References — Amos Ghost Code Symbolic Execution Rscf
 type: moc
 source: 07_SKILLS/amos-ghost-code-symbolic-execution-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - unified-coding-engine-spec
 - 00-home
 - amos-rscf-nodes

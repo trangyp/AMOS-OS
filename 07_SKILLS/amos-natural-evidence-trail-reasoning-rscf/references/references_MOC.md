@@ -3,9 +3,8 @@ title: References MOC — References — Amos Natural Evidence Trail Reasoning R
 type: moc
 source: 07_SKILLS/amos-natural-evidence-trail-reasoning-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

@@ -6,7 +6,7 @@ tags:
 - kernel
 - core
 - cognitive-matrix
-- l02
+- matrix/l02
 - attention
 - purpose
 - rscf

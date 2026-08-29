@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-cross-domain-tensor-composition-governor/references
 tags:
 - reference
 - amos-cross-domain-tensor-composition-governor
-- canon/skill
+- type/skill
 - tensor-contracts
 - relation-tensor
 - references-moc

@@ -3,7 +3,7 @@ title: INDEX GLOSSARY CANON README
 type: index
 source: 01_CANON/06_GLOSSARY/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 01_canon
 - canon/universe
 - readme

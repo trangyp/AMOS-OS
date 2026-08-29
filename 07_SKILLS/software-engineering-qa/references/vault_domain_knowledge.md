@@ -5,7 +5,7 @@ source: 07_SKILLS/software-engineering-qa/references
 tags:
 - reference
 - software-engineering-qa
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

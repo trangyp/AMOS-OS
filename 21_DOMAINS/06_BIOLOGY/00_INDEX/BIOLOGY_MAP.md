@@ -3,7 +3,7 @@ title: BIOLOGY MAP
 type: map
 source: 21_DOMAINS/06_BIOLOGY/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - biology-domains-biology-contract

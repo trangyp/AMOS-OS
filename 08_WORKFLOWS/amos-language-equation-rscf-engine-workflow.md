@@ -9,12 +9,12 @@ Trigger: When society-culture engine is needed within the c06 domain
 Version: 1.0.0
 tags:
 - type/workflow
-- canon/workflow
+- type/workflow
 - domain/society-culture
-- rscf/source_claim
+- epistemic/source_claim
 - hml/m
 - epistemic/source_claim
-- amos_os
+- amos-os
 - 08-workflows-moc
 rscf:
   state: AMOS_MODEL

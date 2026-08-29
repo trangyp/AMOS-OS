@@ -3,9 +3,8 @@ title: L27 Multi Agent Cognition MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L27_MULTI_AGENT_COGNITION
 tags:
-- moc
 - l27-multi-agent-cognition
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-agents
 - cognitive-matrix-control-planes
 - cognitive-matrix-definition

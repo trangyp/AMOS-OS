@@ -3,9 +3,8 @@ title: References MOC — References — Amos Full Brain Os
 type: moc
 source: 07_SKILLS/amos-brain-os/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-brain-os-moc
 - 00-home

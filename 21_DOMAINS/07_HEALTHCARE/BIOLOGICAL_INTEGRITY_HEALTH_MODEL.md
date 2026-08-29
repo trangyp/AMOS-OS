@@ -12,7 +12,7 @@ segment: 21_DOMAINS/07_HEALTHCARE
 artifact_kind: DOMAIN_MODEL
 path: 21_DOMAINS/07_HEALTHCARE/BIOLOGICAL_INTEGRITY_HEALTH_MODEL.md
 tags:
-- amos_os
+- amos-os
 - domain
 - vault
 - 21_domains

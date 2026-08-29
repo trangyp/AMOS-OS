@@ -3,9 +3,8 @@ title: References MOC — References — Mckinsey Technology Product Governance 
 type: moc
 source: 07_SKILLS/mckinsey-technology-product-governance-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

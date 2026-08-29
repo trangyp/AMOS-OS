@@ -8,7 +8,7 @@ title: AMOS Law Stack Enforcement
 tags:
 - type/workflow
 - domain/canon_enforcement
-- amos_os
+- amos-os
 ---
 
 # AMOS Law Stack Enforcement

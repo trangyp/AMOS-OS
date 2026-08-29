@@ -3,9 +3,8 @@ title: References MOC — References — Arxiv Streaming Attention Sinks Rscf
 type: moc
 source: 07_SKILLS/arxiv-streaming-attention-sinks-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - arxiv-streaming-attention-sinks-rscf-moc
 - 00-home

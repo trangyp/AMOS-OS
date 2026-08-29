@@ -3,7 +3,7 @@ title: INDEX RESEARCH DOMAINS README
 type: index
 source: 21_DOMAINS/02_RESEARCH/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - readme

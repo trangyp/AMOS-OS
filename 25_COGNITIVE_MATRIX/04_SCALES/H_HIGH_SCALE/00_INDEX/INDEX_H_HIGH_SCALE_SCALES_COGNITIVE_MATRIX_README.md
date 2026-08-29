@@ -3,9 +3,9 @@ title: INDEX H HIGH SCALE SCALES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/04_SCALES/H_HIGH_SCALE/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - h_high_scale
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - h-high-scale-map
 - 00-home

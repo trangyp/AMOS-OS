@@ -3,9 +3,8 @@ title: Amos-Fx-Macro-Differential-Mapper MOC
 type: moc
 source: 07_SKILLS/amos-fx-macro-differential-mapper
 tags:
-- moc
 - amos-fx-macro-differential-mapper
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

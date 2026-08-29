@@ -3,7 +3,7 @@ title: VALIDATION RESEARCH VALIDATION CONTRACT
 type: validation
 source: 22_RESEARCH/04_VALIDATION/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 22_research
 - canon/research
 - validation

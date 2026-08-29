@@ -5,7 +5,7 @@ source: 07_SKILLS/arxiv-cdfm-causal-discovery-foundation-rscf/references
 tags:
 - reference
 - arxiv-cdfm-causal-discovery-foundation-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

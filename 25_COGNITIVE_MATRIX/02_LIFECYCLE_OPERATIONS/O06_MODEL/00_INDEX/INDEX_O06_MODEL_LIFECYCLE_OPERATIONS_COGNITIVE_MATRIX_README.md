@@ -3,9 +3,9 @@ title: INDEX O06 MODEL LIFECYCLE OPERATIONS COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O06_MODEL/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - o06_model
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - o06-model-map
 - 00-home

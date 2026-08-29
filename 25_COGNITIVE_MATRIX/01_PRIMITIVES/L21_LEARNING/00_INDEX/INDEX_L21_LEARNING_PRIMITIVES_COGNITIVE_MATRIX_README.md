@@ -3,9 +3,9 @@ title: INDEX L21 LEARNING PRIMITIVES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L21_LEARNING/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l21_learning
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - l21-learning-map
 - 00-home

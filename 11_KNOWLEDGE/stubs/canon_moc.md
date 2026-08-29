@@ -3,7 +3,6 @@ title: canon moc
 tags:
 - stub
 - canon
-- moc
 - canon-moc
 - kernel-moc
 - 00-home

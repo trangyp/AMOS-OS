@@ -3,9 +3,8 @@ title: References MOC — References — Amos Trust Formation Governor
 type: moc
 source: 07_SKILLS/amos-trust-formation-governor/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-trust-formation-governor-moc
 - 00-home

@@ -3,7 +3,7 @@ title: SOFTWARE DOMAINS SOFTWARE CONTRACT
 type: note
 source: 21_DOMAINS/01_SOFTWARE/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - routing-policy-validation-receipt

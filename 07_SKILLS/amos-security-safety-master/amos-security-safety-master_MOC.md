@@ -3,9 +3,8 @@ title: Amos-Security-Safety-Master MOC
 type: moc
 source: 07_SKILLS/amos-security-safety-master
 tags:
-- moc
 - amos-security-safety-master
-- canon/skill
+- type/skill
 - agent-template
 - skill
 - references-moc

@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-target-of-repair-intelligence/references
 tags:
 - reference
 - amos-target-of-repair-intelligence
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

@@ -3,7 +3,7 @@ title: INDEX COGNITION KERNEL README
 type: index
 source: 02_KERNEL/02_COGNITION/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 02_kernel
 - canon/kernel
 - readme

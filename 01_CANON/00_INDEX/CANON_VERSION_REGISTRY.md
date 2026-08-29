@@ -12,7 +12,7 @@ segment: 01_CANON/00_INDEX
 artifact_kind: REGISTRY
 path: 01_CANON/00_INDEX/CANON_VERSION_REGISTRY.md
 tags:
-- amos_os
+- amos-os
 - canon
 - universe
 - 01_canon

@@ -3,9 +3,8 @@ title: References MOC — References — Amos Goal Plan Action Alignment Rscf
 type: moc
 source: 07_SKILLS/amos-goal-plan-action-alignment-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-goal-plan-action-alignment-rscf-moc
 - 00-home

@@ -12,8 +12,8 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX_TABLE
 path: 25_COGNITIVE_MATRIX/TOTAL_ENGINE_MATRIX.md
 tags:
-- amos_os
-- cognitive_matrix
+- amos-os
+- cognitive-matrix
 - vault
 - 25_cognitive_matrix
 - total_engine_matrix
@@ -29,7 +29,7 @@ tags:
 - dcp
 - fail_closed
 - cross_plane
-- control_plane
+- control-plane
 - runtime
 - domains
 - rscf

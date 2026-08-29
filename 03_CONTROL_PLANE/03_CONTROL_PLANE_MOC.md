@@ -3,7 +3,6 @@ title: 03 Control Plane MOC
 type: moc
 source: 03_CONTROL_PLANE
 tags:
-- moc
 - 03-control-plane
 - canon/control-plane
 - control-plane-control-plane-contract

@@ -13,8 +13,7 @@ artifact_kind: SYSTEM
 path: 00_ROOT/AMOS_TOTAL_SYSTEM_LINEAGE.md
 tags:
 - 00_root
-- amos_os
-- amos_total_system_lineage.md
+- amos-os
 - canon/root
 - canon/universe
 - canon_placeholder

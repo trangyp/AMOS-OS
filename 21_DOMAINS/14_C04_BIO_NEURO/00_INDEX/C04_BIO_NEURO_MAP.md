@@ -3,7 +3,7 @@ title: C04 BIO NEURO MAP
 type: map
 source: 21_DOMAINS/14_C04_BIO_NEURO/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - index-c04-bio-neuro-domains-readme

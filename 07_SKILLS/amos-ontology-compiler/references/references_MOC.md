@@ -3,9 +3,8 @@ title: References MOC — References — Amos Ontology Compiler
 type: moc
 source: 07_SKILLS/amos-ontology-compiler/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-ontology-compiler-moc
 - 00-home

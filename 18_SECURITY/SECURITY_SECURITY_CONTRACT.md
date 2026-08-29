@@ -3,7 +3,7 @@ title: SECURITY SECURITY CONTRACT
 type: security
 source: 18_SECURITY
 tags:
-- amos_os
+- amos-os
 - 18_security
 - canon/security
 - routing-policy-validation-receipt

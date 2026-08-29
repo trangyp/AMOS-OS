@@ -3,10 +3,10 @@ title: LIFECYCLE OPERATIONS COGNITIVE MATRIX README
 type: lifecycle
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - matrix
 - cognition
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt

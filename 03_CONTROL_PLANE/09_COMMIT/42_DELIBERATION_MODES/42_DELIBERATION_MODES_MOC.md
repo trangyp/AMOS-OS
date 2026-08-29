@@ -3,7 +3,6 @@ title: 42 Deliberation Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/42_DELIBERATION_MODES
 tags:
-- moc
 - 42-deliberation-modes
 - canon/control-plane
 - 09-commit-moc

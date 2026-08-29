@@ -3,9 +3,8 @@ title: Amos-C05-Mind-Behavior-Master MOC
 type: moc
 source: 07_SKILLS/amos-c05-mind-behavior-master
 tags:
-- moc
 - amos-c05-mind-behavior-master
-- canon/skill
+- type/skill
 - agent-template
 - skill
 - references-moc

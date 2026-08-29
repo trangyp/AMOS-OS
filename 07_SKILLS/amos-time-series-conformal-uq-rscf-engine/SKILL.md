@@ -14,12 +14,12 @@ origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
 - type/skill
-- canon/skill
+- type/skill
 - domain/formal-engines
-- rscf/source_claim
+- epistemic/source_claim
 - hml/h
 - epistemic/source_claim
-- amos_os
+- amos-os
 - 07-skills-moc
 - 00-home
 - amos-rscf-nodes

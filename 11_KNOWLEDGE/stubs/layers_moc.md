@@ -3,7 +3,6 @@ title: layers moc
 tags:
 - stub
 - layers
-- moc
 - layers-moc
 - kernel-moc
 - 00-home

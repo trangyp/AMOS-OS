@@ -3,9 +3,9 @@ title: INDEX L17 DECISION PRIMITIVES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L17_DECISION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l17_decision
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - l17-decision-map
 - 00-home

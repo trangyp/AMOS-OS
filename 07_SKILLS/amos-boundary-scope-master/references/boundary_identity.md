@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-boundary-scope-master/references
 tags:
 - reference
 - amos-boundary-scope-master
-- canon/skill
+- type/skill
 - 00-home
 - knowledge-moc
 - system-scan-agent

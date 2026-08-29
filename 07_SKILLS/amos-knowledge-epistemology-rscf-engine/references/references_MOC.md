@@ -3,9 +3,8 @@ title: References MOC — References — Amos Knowledge Epistemology Rscf Engine
 type: moc
 source: 07_SKILLS/amos-knowledge-epistemology-rscf-engine/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

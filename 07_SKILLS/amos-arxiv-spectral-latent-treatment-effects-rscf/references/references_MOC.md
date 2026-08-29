@@ -4,9 +4,8 @@ title: References MOC — References — Amos Arxiv Spectral Latent Treatment Ef
 type: moc
 source: 07_SKILLS/amos-arxiv-spectral-latent-treatment-effects-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

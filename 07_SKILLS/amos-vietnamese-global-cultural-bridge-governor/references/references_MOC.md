@@ -3,9 +3,8 @@ title: References MOC — References — Amos Vietnamese Global Cultural Bridge 
 type: moc
 source: 07_SKILLS/amos-vietnamese-global-cultural-bridge-governor/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - vn-20-impossible-competitions
 - vn-akashic-thong-thien

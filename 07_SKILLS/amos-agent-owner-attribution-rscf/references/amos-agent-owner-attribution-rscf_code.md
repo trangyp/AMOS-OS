@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-agent-owner-attribution-rscf/references
 tags:
 - reference
 - amos-agent-owner-attribution-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

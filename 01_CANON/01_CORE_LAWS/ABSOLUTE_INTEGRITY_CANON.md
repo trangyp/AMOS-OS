@@ -12,7 +12,7 @@ segment: 01_CANON/01_CORE_LAWS
 artifact_kind: CANON
 path: 01_CANON/01_CORE_LAWS/ABSOLUTE_INTEGRITY_CANON.md
 tags:
-- amos_os
+- amos-os
 - canon
 - core_laws
 - absolute_integrity

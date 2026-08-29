@@ -3,7 +3,7 @@ title: DESIGN MAP
 type: map
 source: 21_DOMAINS/05_DESIGN/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - design-domains-design-contract

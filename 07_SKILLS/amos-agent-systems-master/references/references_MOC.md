@@ -3,9 +3,8 @@ title: References MOC — References — Amos Agent Systems Master
 type: moc
 source: 07_SKILLS/amos-agent-systems-master/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - 11k-agent-templates
 - 11k-environment-scan-agent
 - agent-registry

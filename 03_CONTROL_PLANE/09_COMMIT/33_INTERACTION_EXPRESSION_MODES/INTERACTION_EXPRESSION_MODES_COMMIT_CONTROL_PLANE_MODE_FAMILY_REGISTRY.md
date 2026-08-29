@@ -3,7 +3,7 @@ title: INTERACTION EXPRESSION MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/33_INTERACTION_EXPRESSION_MODES
 tags:
-- control_plane
+- control-plane
 - 33_interaction_expression_modes
 - canon/control-plane
 - authz-engine-validation-receipt

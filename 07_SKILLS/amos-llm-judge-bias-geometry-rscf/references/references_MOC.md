@@ -3,9 +3,8 @@ title: References MOC — References — Amos Llm Judge Bias Geometry Rscf
 type: moc
 source: 07_SKILLS/amos-llm-judge-bias-geometry-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-llm-judge-bias-geometry-rscf-moc
 - 00-home

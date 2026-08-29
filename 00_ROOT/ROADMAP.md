@@ -19,7 +19,7 @@ created: 2026-08-25
 updated: 2026-08-25
 tags:
 - amos
-- amos_os
+- amos-os
 - root
 - amos-os
 - roadmap

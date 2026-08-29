@@ -3,9 +3,8 @@ title: References MOC — References — Amos Human State Ontology Mapper
 type: moc
 source: 07_SKILLS/amos-human-state-ontology-mapper/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-human-state-ontology-mapper-moc
 - 00-home

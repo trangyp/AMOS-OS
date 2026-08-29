@@ -7,7 +7,7 @@ status: CONTRACT_FILLED_PASS_COMPLETE
 tags:
 - note
 - 07-coverage
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - promotion-gates
 - cognitive-matrix-moc

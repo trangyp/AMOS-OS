@@ -3,9 +3,8 @@ title: References MOC — References — Amos Risk Constraint Governor
 type: moc
 source: 07_SKILLS/amos-risk-constraint-governor/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-risk-constraint-governor-moc
 - 00-home

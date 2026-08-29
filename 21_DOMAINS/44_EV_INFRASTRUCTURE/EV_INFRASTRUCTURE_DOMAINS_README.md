@@ -3,7 +3,7 @@ title: EV INFRASTRUCTURE DOMAINS README
 type: infrastructure
 source: 21_DOMAINS/44_EV_INFRASTRUCTURE
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - readme

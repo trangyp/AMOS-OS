@@ -3,9 +3,8 @@ title: Amos-Knowledge-Research-Master MOC
 type: moc
 source: 07_SKILLS/amos-knowledge-research-master
 tags:
-- moc
 - amos-knowledge-research-master
-- canon/skill
+- type/skill
 - agent-template
 - skill
 - references-moc

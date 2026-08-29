@@ -3,9 +3,8 @@ title: References MOC — References — Amos Bundle Manifold Concentration Rscf
 type: moc
 source: 07_SKILLS/amos-bundle-manifold-concentration-rscf-engine/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

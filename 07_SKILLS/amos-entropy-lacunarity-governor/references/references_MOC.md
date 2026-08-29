@@ -3,9 +3,8 @@ title: References MOC — References — Amos Entropy Lacunarity Governor
 type: moc
 source: 07_SKILLS/amos-entropy-lacunarity-governor/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-entropy-lacunarity-governor-moc
 - 00-home

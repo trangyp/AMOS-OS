@@ -5,7 +5,7 @@ source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L23_METACOGNITION
 tags:
 - note
 - l23-metacognition
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-moc
 - 00-root-moc
 - amos-moc

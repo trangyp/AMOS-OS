@@ -5,7 +5,6 @@ tags:
 - cognition
 - decision
 - bridge
-- governor.md
 - governor
 - knowledge-moc
 ---

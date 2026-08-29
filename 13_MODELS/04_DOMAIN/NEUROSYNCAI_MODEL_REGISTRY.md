@@ -3,7 +3,6 @@ tags:
 - models
 - domain
 - neurosyncai
-- registry.md
 - registry
 - validation
 - architecture
@@ -6630,3 +6629,4 @@ RSCF-RELATIONS:
 ---
 
 **MOC:**
+```

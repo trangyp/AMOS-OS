@@ -3,11 +3,11 @@ title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX INVARIANTS
 type: invariant
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - primitives
 - l01_sensing_observation
 - note
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-home
 - 00-root-moc
 - amos-moc

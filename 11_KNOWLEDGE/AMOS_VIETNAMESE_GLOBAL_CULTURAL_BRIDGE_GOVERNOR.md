@@ -25,7 +25,7 @@ tags:
 - topic/cultural-bridge
 - canon/knowledge
 - amos
-- amos_os
+- amos-os
 - amos_corpus
 - amos_knowledge
 - 11_knowledge
@@ -92,7 +92,7 @@ tags:
 - rscf_relations
 - tensor_composition
 - cross_domain_tensor
-- cognitive_matrix
+- cognitive-matrix
 - domain_engine
 - society_culture_engine
 - vn_legal_engine

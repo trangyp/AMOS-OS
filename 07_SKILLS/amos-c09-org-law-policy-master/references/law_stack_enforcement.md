@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-c09-org-law-policy-master/references
 tags:
 - reference
 - amos-c09-org-law-policy-master
-- canon/skill
+- type/skill
 - 00-home
 - knowledge-moc
 - references-moc

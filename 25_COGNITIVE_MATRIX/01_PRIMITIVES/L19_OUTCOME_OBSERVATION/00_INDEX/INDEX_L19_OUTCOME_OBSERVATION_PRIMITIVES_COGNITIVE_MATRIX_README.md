@@ -3,9 +3,9 @@ title: INDEX L19 OUTCOME OBSERVATION PRIMITIVES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L19_OUTCOME_OBSERVATION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l19_outcome_observation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - l19-outcome-observation-map
 - 00-home

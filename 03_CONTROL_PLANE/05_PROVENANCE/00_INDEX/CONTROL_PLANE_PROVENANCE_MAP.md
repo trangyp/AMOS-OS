@@ -3,7 +3,7 @@ title: CONTROL PLANE PROVENANCE MAP
 type: provenance
 source: 03_CONTROL_PLANE/05_PROVENANCE/00_INDEX
 tags:
-- control_plane
+- control-plane
 - 00_index
 - canon/control-plane
 - index-provenance-control-plane-readme

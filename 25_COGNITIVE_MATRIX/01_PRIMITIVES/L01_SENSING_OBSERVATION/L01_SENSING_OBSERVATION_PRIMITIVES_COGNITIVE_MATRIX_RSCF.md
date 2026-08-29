@@ -3,11 +3,11 @@ title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX RSCF
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - primitives
 - l01_sensing_observation
 - note
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - 00-home

@@ -3,9 +3,9 @@ title: L06 WORKING STATE MAP
 type: map
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L06_WORKING_STATE/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l06_working_state
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-map
 - amos-rscf-nodes
 - routing-policy-validation-receipt

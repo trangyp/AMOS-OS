@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-fractal-math/references
 tags:
 - reference
 - amos-fractal-math
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

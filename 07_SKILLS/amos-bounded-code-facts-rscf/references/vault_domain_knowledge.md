@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-bounded-code-facts-rscf/references
 tags:
 - reference
 - amos-bounded-code-facts-rscf
-- canon/skill
+- type/skill
 - amos-bounded-code-facts-rscf-moc
 - 00-home
 - amos-rscf-nodes

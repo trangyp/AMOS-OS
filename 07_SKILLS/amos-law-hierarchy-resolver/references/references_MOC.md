@@ -3,9 +3,8 @@ title: References MOC — References — Amos Law Hierarchy Resolver
 type: moc
 source: 07_SKILLS/amos-law-hierarchy-resolver/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-law-hierarchy-resolver-moc
 - 00-home

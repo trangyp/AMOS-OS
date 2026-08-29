@@ -3,9 +3,8 @@ title: Amos-Source-Reading-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-source-reading-rscf-engine
 tags:
-- moc
 - amos-source-reading-rscf-engine
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

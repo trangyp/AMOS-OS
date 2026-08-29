@@ -12,7 +12,7 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_EQUATION_REGISTRY.md
 tags:
-- amos_os
+- amos-os
 - knowledge
 - vault
 - 11_knowledge

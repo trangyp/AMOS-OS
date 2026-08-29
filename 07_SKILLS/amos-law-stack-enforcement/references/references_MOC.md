@@ -3,9 +3,8 @@ title: References MOC — References — Amos Law Stack Enforcement
 type: moc
 source: 07_SKILLS/amos-law-stack-enforcement/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - readme
 - amos-law-stack-enforcement-moc
 - 00-home

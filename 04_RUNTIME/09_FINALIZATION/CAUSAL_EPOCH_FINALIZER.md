@@ -12,7 +12,7 @@ segment: 04_RUNTIME/09_FINALIZATION
 artifact_kind: FINALIZER_SPEC
 path: 04_RUNTIME/09_FINALIZATION/CAUSAL_EPOCH_FINALIZER.md
 tags:
-- amos_os
+- amos-os
 - runtime
 - vault
 - 04_runtime
@@ -24,7 +24,7 @@ tags:
 - canon_candidate
 - canon/runtime
 - 09-finalization-moc
-- l0-integrity
+- law/L0-integrity
 - 03-control-plane-moc
 - 00-home
 - 04-runtime-moc

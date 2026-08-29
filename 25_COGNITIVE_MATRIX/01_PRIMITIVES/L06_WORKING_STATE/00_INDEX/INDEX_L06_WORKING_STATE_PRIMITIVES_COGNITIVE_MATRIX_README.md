@@ -3,9 +3,9 @@ title: INDEX L06 WORKING STATE PRIMITIVES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L06_WORKING_STATE/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l06_working_state
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - l06-working-state-map
 - 00-home

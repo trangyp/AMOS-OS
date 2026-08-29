@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-boundary-architecture-rscf-calculus/references
 tags:
 - reference
 - amos-boundary-architecture-rscf-calculus
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

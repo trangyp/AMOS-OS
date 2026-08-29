@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-distinct-working-memory-rscf/references
 tags:
 - reference
 - amos-distinct-working-memory-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

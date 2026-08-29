@@ -3,9 +3,8 @@ title: 07 Skills MOC
 type: moc
 source: 07_SKILLS
 tags:
-- moc
 - 07-skills
-- canon/skill
+- type/skill
 - agent-naming-audit
 - cloud-skill-rename-audit
 - skills-readme

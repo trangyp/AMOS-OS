@@ -13,8 +13,7 @@ artifact_kind: CANON
 path: 00_ROOT/AMOS_MISSING_CANON_REGISTRY.md
 tags:
 - 00_root
-- amos_missing_canon_registry.md
-- amos_os
+- amos-os
 - canon
 - canon/root
 - canon/universe

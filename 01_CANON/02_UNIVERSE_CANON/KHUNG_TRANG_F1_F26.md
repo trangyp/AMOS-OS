@@ -7,7 +7,6 @@ tags:
 - 26_planes
 - structure
 - canon
-- moc
 - 25-cognitive-matrix-moc
 - 00-index-moc
 - 00-home

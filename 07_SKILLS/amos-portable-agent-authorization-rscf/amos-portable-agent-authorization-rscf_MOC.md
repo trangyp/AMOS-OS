@@ -3,9 +3,8 @@ title: Amos-Portable-Agent-Authorization-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-portable-agent-authorization-rscf
 tags:
-- moc
 - amos-portable-agent-authorization-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

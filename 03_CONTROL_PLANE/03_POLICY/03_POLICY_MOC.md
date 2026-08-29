@@ -3,7 +3,6 @@ title: 03 Policy MOC
 type: moc
 source: 03_CONTROL_PLANE/03_POLICY
 tags:
-- moc
 - 03-policy
 - canon/control-plane
 - bio-logical-governance-policy

@@ -3,9 +3,8 @@ title: References MOC — References — Amos Canon Universe Master
 type: moc
 source: 07_SKILLS/amos-canon-universe-master/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - absolute-integrity-architecture
 - absolute-omniverse-model
 - canon-integration-layer

@@ -353,7 +353,7 @@ Thiếu một trong ba, hiệu quả giảm ít nhất 50%.
 > _Bạn cũng có thể. Bởi vì cấu trúc fractal là của vạn vật – và ngôn ngữ chính xác là chìa khóa để điều khiển nó.”_
 * * *
 **** Hết báo cáo.
-\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL]] · [[SYSTEM_SCAN_ENGINE]] · [[automation_profiles]]
 
 ---
 **MOC:** [[trang_MOC]]

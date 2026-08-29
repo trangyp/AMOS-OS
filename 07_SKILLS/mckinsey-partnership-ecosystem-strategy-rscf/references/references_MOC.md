@@ -3,9 +3,8 @@ title: References MOC — References — Mckinsey Partnership Ecosystem Strategy
 type: moc
 source: 07_SKILLS/mckinsey-partnership-ecosystem-strategy-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

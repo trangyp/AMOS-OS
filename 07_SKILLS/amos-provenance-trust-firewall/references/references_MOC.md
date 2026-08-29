@@ -3,9 +3,8 @@ title: References MOC — References — Amos Provenance Trust Firewall
 type: moc
 source: 07_SKILLS/amos-provenance-trust-firewall/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-provenance-trust-firewall-moc
 - 00-home

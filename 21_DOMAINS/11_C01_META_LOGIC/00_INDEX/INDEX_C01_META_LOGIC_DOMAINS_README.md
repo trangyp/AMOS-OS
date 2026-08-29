@@ -3,7 +3,7 @@ title: INDEX C01 META LOGIC DOMAINS README
 type: index
 source: 21_DOMAINS/11_C01_META_LOGIC/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - readme

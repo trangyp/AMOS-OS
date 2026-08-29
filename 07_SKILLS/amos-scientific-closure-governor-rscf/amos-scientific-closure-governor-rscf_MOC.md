@@ -3,9 +3,8 @@ title: Amos-Scientific-Closure-Governor-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-scientific-closure-governor-rscf
 tags:
-- moc
 - amos-scientific-closure-governor-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

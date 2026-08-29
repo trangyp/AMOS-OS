@@ -3,9 +3,8 @@ title: Amos-Core19-Logic-Kernel MOC
 type: moc
 source: 07_SKILLS/amos-core19-logic-kernel
 tags:
-- moc
 - amos-core19-logic-kernel
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

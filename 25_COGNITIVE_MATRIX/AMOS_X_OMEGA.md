@@ -2,11 +2,11 @@
 title: AMOS × Omega
 type: cognitive-matrix
 tags:
-- amos_os
+- amos-os
 - cognitive-matrix
 - canon
 - omega
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - canon-map
 - 00-root-moc
 - 00-home

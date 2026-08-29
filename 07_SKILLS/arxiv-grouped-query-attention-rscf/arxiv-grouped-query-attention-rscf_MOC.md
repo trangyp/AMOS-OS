@@ -3,9 +3,8 @@ title: Arxiv-Grouped-Query-Attention-Rscf MOC
 type: moc
 source: 07_SKILLS/arxiv-grouped-query-attention-rscf
 tags:
-- moc
 - arxiv-grouped-query-attention-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

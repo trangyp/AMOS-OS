@@ -3,9 +3,8 @@ title: References MOC — References — Amos Semantic Grounding Auditor
 type: moc
 source: 07_SKILLS/amos-semantic-grounding-auditor/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-semantic-grounding-auditor-moc
 - 00-home

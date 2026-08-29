@@ -54,7 +54,7 @@ status: PLACEHOLDER_EXPANDED
 steward: Trang Phan
 system: AMOS OS
 tags:
-- amos_os
+- amos-os
 - canon
 - cognition
 - consciousness

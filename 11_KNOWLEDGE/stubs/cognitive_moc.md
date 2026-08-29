@@ -3,7 +3,6 @@ title: cognitive moc
 tags:
 - stub
 - cognitive
-- moc
 - cognitive-moc
 - kernel-moc
 - 00-home

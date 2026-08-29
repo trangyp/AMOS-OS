@@ -3,7 +3,6 @@ title: 10 Exposure MOC
 type: moc
 source: 03_CONTROL_PLANE/10_EXPOSURE
 tags:
-- moc
 - 10-exposure
 - canon/control-plane
 - control-plane-exposure-contract

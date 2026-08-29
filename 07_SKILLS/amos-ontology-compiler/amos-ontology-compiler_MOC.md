@@ -3,9 +3,8 @@ title: Amos-Ontology-Compiler MOC
 type: moc
 source: 07_SKILLS/amos-ontology-compiler
 tags:
-- moc
 - amos-ontology-compiler
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

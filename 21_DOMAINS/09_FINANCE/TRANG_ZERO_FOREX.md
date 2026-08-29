@@ -12,7 +12,7 @@ segment: 21_DOMAINS/09_FINANCE
 artifact_kind: DOMAIN_ENGINE
 path: 21_DOMAINS/09_FINANCE/TRANG_ZERO_FOREX.md
 tags:
-- amos_os
+- amos-os
 - domain
 - vault
 - 21_domains

@@ -3,9 +3,9 @@ title: INDEX C08 EXECUTION CONTROL PLANES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C08_EXECUTION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - c08_execution
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - c08-execution-map
 - 00-home

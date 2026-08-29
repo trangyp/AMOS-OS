@@ -3,9 +3,9 @@ title: L22 CONSOLIDATION MAP
 type: map
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L22_CONSOLIDATION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l22_consolidation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-map
 - amos-rscf-nodes
 - routing-policy-validation-receipt

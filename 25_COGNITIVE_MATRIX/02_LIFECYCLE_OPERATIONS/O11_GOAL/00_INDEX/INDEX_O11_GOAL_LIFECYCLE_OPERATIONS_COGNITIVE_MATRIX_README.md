@@ -3,9 +3,9 @@ title: INDEX O11 GOAL LIFECYCLE OPERATIONS COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O11_GOAL/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - o11_goal
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - o11-goal-map
 - 00-home

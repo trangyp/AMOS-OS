@@ -13,8 +13,7 @@ artifact_kind: NOTE
 path: 00_ROOT/AMOS_TOTAL_CROSSWALK.md
 tags:
 - 00_root
-- amos_os
-- amos_total_crosswalk.md
+- amos-os
 - canon/root
 - canon/universe
 - canon_placeholder

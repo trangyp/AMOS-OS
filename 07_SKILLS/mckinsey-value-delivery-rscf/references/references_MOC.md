@@ -3,9 +3,8 @@ title: References MOC — References — Mckinsey Value Delivery Rscf
 type: moc
 source: 07_SKILLS/mckinsey-value-delivery-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - mckinsey-value-delivery-rscf-moc
 - 00-home

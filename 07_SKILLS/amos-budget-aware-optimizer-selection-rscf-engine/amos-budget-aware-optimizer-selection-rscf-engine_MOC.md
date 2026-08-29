@@ -3,9 +3,8 @@ title: Amos-Budget-Aware-Optimizer-Selection-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-budget-aware-optimizer-selection-rscf-engine
 tags:
-- moc
 - amos-budget-aware-optimizer-selection-rs
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

@@ -3,7 +3,7 @@ title: PAPERS RESEARCH README
 type: research
 source: 22_RESEARCH/01_PAPERS
 tags:
-- amos_os
+- amos-os
 - 22_research
 - canon/research
 - readme

@@ -3,7 +3,6 @@ title: 47 Adversarial Red Team Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/47_ADVERSARIAL_RED_TEAM_MODES
 tags:
-- moc
 - 47-adversarial-red-team-modes
 - canon/control-plane
 - 09-commit-moc

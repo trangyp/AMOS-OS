@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-ghost-code-symbolic-execution-rscf/references
 tags:
 - reference
 - amos-ghost-code-symbolic-execution-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

@@ -3,7 +3,7 @@ title: INTERFACES INTERFACE CONTRACT
 type: interface
 source: 15_INTERFACES
 tags:
-- amos_os
+- amos-os
 - 15_interfaces
 - canon/interface
 - routing-policy-validation-receipt

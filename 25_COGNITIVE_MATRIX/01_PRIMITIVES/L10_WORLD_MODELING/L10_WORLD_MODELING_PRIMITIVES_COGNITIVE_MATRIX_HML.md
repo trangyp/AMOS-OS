@@ -5,7 +5,7 @@ source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L10_WORLD_MODELING
 tags:
 - note
 - l10-world-modeling
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-moc
 - 00-root-moc
 - amos-moc

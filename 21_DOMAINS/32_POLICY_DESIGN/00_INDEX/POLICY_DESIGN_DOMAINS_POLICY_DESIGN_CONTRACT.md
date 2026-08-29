@@ -3,7 +3,7 @@ title: POLICY DESIGN DOMAINS POLICY DESIGN CONTRACT
 type: design
 source: 21_DOMAINS/32_POLICY_DESIGN/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - routing-policy-validation-receipt

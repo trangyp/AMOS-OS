@@ -3,7 +3,6 @@ title: 18 Security MOC
 type: moc
 source: 18_SECURITY
 tags:
-- moc
 - 18-security
 - canon/security
 - security-readme

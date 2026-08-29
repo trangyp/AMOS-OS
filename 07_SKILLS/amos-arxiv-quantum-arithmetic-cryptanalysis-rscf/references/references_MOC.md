@@ -3,9 +3,8 @@ title: References MOC — References — Amos Arxiv Quantum Arithmetic Cryptanal
 type: moc
 source: 07_SKILLS/amos-arxiv-quantum-arithmetic-cryptanalysis-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

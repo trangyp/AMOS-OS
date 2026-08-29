@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-c12-earth-ecology-master/references
 tags:
 - reference
 - amos-c12-earth-ecology-master
-- canon/skill
+- type/skill
 - amos-c12-earth-ecology-master-moc
 - 00-home
 - amos-rscf-nodes

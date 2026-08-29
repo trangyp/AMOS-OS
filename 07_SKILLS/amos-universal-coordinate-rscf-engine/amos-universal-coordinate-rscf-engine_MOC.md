@@ -3,9 +3,8 @@ title: Amos-Universal-Coordinate-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-universal-coordinate-rscf-engine
 tags:
-- moc
 - amos-universal-coordinate-rscf-engine
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

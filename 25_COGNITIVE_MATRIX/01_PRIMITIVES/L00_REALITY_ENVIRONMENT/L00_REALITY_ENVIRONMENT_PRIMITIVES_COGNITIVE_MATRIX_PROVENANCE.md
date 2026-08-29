@@ -15,7 +15,7 @@ tags:
 - hml
 - tensors
 - control-plane
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - 00-home
 - cosmo-brain-bridge-index

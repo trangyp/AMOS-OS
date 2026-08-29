@@ -3,9 +3,8 @@ title: Amos-Mark-Operator-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-mark-operator-rscf-engine
 tags:
-- moc
 - amos-mark-operator-rscf-engine
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

@@ -5,7 +5,7 @@ source: 07_SKILLS/arxiv-future-confidence-distillation-rscf/references
 tags:
 - reference
 - arxiv-future-confidence-distillation-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

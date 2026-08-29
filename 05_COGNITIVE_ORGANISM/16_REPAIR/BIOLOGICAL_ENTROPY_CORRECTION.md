@@ -12,7 +12,7 @@ segment: 05_COGNITIVE_ORGANISM/16_REPAIR
 artifact_kind: ARTIFACT
 path: 05_COGNITIVE_ORGANISM/16_REPAIR/BIOLOGICAL_ENTROPY_CORRECTION.md
 tags:
-- amos_os
+- amos-os
 - cognitive
 - organism
 - 05_cognitive_organism

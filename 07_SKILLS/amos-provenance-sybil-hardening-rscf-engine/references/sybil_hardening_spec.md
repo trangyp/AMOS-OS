@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-provenance-sybil-hardening-rscf-engine/references
 tags:
 - reference
 - amos-provenance-sybil-hardening-rscf-engine
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

@@ -3,9 +3,8 @@ title: References MOC — References — Amos Source Reading Rscf
 type: moc
 source: 07_SKILLS/amos-source-reading-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-source-reading-rscf-moc
 - 00-home

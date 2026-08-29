@@ -5,7 +5,7 @@ tags:
 - type/reference
 - domain/agent-systems
 - sota
-- amos_os
+- amos-os
 ---
 
 # SOTA Agent/Skill/Workflow Tooling Repos (2025-2026)
@@ -1752,3 +1752,62 @@ Added new open-source AI agent frameworks, skill-linting/security-scanning tooli
 - **Categories covered**: agent frameworks, skill linters/security scanners, SWE-bench agent harnesses, declarative agent construction, composable agent substrates
 - **Total new repos evaluated**: 12 candidates; 8 genuinely new entries added (#86–#94, #98); 3 re-verified as already catalogued (#95–#97, no duplicate entry); 2 previously-listed repos excluded (`addyosmani/agent-skills`, `moonrunnerkc/skillcheck`)
 - **Cumulative SOTA catalog**: 93 repos (85 prior + 8 new)
+
+## Round 51: Agent Skills standard, SDKs, and progressive-disclosure loaders (2026-09-15)
+
+Added the canonical Agent Skills specification, Anthropic's reference implementation, and the emerging ecosystem of SDKs and loaders that implement the open `SKILL.md` progressive-disclosure format. These repos define the interoperable standard that AMOS skills already conform to and provide production-grade tooling for serving, validating, and binding skills to any LLM agent runtime.
+
+### 99. agentskills/agentskills — `agentskills/agentskills` (~24,770 stars)
+
+- **Key feature**: The canonical open specification and documentation for the Agent Skills format — a directory containing a `SKILL.md` with YAML frontmatter (`name`, `description` required; optional `license`, `compatibility`, `metadata`, `allowed-tools`) plus optional `scripts/`, `references/`, `assets/`. Defines three-stage progressive disclosure: Discovery (name+description only) → Activation (full SKILL.md body) → Execution (scripts/references on demand). Apache-2.0. Originally developed by Anthropic, released as an open standard Dec 2025; now supported by Claude Code, Cursor, GitHub, VS Code, Gemini CLI.
+- **AMOS integration**: This is the spec AMOS skills already conform to. Use as the authoritative reference for SKILL.md frontmatter validation; cross-check the `skill-check` linter rules against this spec; track spec evolution (e.g. `allowed-tools` experimental field) and propagate to AMOS skill authoring conventions.
+
+### 100. anthropics/skills — `anthropics/skills` (~172,283 stars)
+
+- **Key feature**: Anthropic's public reference implementation of Agent Skills — example skills spanning Creative & Design, Development & Technical, Enterprise & Communication, and Document Skills (docx, pdf, pptx, xlsx). Includes the spec, a skill template, and production-grade document-creation skills that power Claude's file capabilities. Most skills Apache-2.0; document skills are source-available (not OSS) but shared as reference.
+- **AMOS integration**: Mine anthropics/skills for proven patterns (progressive disclosure structure, reference bundling, script invocation); use the document skills as reference for complex, production-used SKILL.md files; adopt the template for AMOS skill scaffolding. RSCF provenance required when borrowing patterns — Anthropic skills are EMPIRICAL reference, not AMOS canon.
+
+### 101. pratikxpanda/agentskills-sdk — `pratikxpanda/agentskills-sdk`
+
+- **Key feature**: Python SDK for discovering, retrieving, and serving Agent Skills to LLM agents. Provider abstraction (filesystem, HTTP, database), integrations for LangChain, Microsoft Agent Framework, and MCP. Implements progressive-disclosure API via tools (`get_skill_body`, `get_skill_reference`). Validates skills against the agentskills.io spec.
+- **AMOS integration**: Evaluate as the serving layer for AMOS skills in non-Devin runtimes (LangChain, MS Agent Framework, MCP servers); map AMOS skill frontmatter to the SDK's provider model; preserve RSCF provenance on every `get_skill_body` disclosure. Use the HTTP provider to expose the AMOS skill catalog as a remote skill source.
+
+### 102. microsoft/agent-skills — `microsoft/agent-skills`
+
+- **Key feature**: Microsoft's repository of Agent Skills following the open standard, placed in `.github/skills/`. Includes skills for Azure Cosmos DB, Azure AI Agents, MCP Builder, and other Microsoft-stack tasks. Auto-discovered by Copilot CLI and compatible agents via workspace scanning. Documents the three-tier loading strategy (Metadata ~50-100 tokens → Instructions ~500-2000 → Resources on-demand).
+- **AMOS integration**: Reference for enterprise-grade skill organization in a monorepo `.github/skills/` layout; evaluate the MCP Builder skill as a template for AMOS MCP-server-generation skills; RSCF provenance required on any pattern borrowed. Cross-reference Microsoft's agent-integration docs for AMOS agent-onboarding-guide improvements.
+
+### 103. ivanzwb/agent-skills — `ivanzwb/agent-skills`
+
+- **Key feature**: Skill package management framework aligned with the Agent Skills Specification. Three-level progressive loading (L0 index summary → L1 full body → L2 reference docs). Install/uninstall from directories, `.zip` archives, GitHub repos, or ClawHub registry. Network search & install. `manifest.json` tool declarations parsed to function-call format. Built-in npm/pip dependency installation. Security hardening: zip-slip detection, path traversal prevention, name-directory validation. CLI support.
+- **AMOS integration**: Evaluate as a package manager for distributing AMOS skills beyond the local `.devin/skills/` directory; the ClawHub registry model maps to a future AMOS skill registry; adopt the zip-slip and path-traversal guards in any AMOS skill installer. RSCF provenance required on every installed skill.
+
+### 104. microsoft/agent-framework (SkillsProvider) — `microsoft/agent-framework`
+
+- **Key feature**: Microsoft's official Python agent framework with a built-in `SkillsProvider` context provider implementing the Agent Skills progressive-disclosure pattern: Advertise (inject skill names+descriptions into system prompt, ~100 tokens/skill) → Load (full SKILL.md via `load_skill` tool) → Read resources (via `read_skill_resource` tool). Supports file-based skills (`from_paths`), inline skills, and composable sources (`AggregatingSkillsSource`, `FilteringSkillsSource`, `DeduplicatingSkillsSource`). Security: XML-escaping of file-based metadata, path-traversal and symlink-escape guards on resource reads.
+- **AMOS integration**: Evaluate `SkillsProvider` as the AMOS skill-serving layer for Microsoft Agent Framework runtimes; map AMOS skill frontmatter to the `Skill`/`InlineSkill` types; adopt the `DeduplicatingSkillsSource` pattern for the AMOS dual-location skill layout (`.devin/skills/` + `07_SKILLS/`). RSCF provenance required on every `load_skill` invocation.
+
+### 105. phronetic-ai/agentskills — `phronetic-ai/agentskills`
+
+- **Key feature**: Production-ready Agent Skills SDK implementing the Anthropic open standard. Four tools for intelligent skill management: `list_available_skills()` (metadata only, ~1600 tokens), `search_skills(query)`, `load_skill_instructions(name)`, `read_skill_reference(name, path)`. Framework integrations: Agno, LangChain, CrewAI, custom frameworks. Claims 85-95% token savings via progressive disclosure. Pip installable, tested.
+- **AMOS integration**: Evaluate as a lightweight alternative to pratikxpanda/agentskills-sdk for CrewAI/Agno runtimes; the four-tool API maps cleanly to AMOS skill operations; adopt the `search_skills` semantic-search pattern for AMOS skill discovery. RSCF provenance required on every skill load and reference read.
+
+### 106. agentproto/agentproto (AIP-3) — `agentproto/agentproto`
+
+- **Key feature**: Agent Protocol (AIP) specification suite, including AIP-3: SKILL.md as a skill manifest format. AIP-3 formalizes SKILL.md as a markdown-with-frontmatter file packaging a single reusable agent skill (metadata, instructions, optional tool bindings, example invocations) into a portable, version-controlled artifact. Aligned with (not a fork of) Anthropic's Agent Skills format. Status: Final. Reference implementation provided.
+- **AMOS integration**: Track AIP-3 as a parallel standardization effort; evaluate AIP-compliant runtimes as an alternative deployment target for AMOS skills; map AMOS RSCF claim/evidence types to AIP-3's tool-binding and example-invocation fields. RSCF provenance required when cross-referencing AIP-3 with the agentskills.io spec.
+
+### 107. choutos/agent-skills-spec — `choutos/agent-skills-spec`
+
+- **Key feature**: Open, framework-agnostic specification for packaging procedural knowledge for AI agents via the SKILL.md format. MIT licensed. Documents the skill directory structure, frontmatter fields (`name`, `description`, `license`, `compatibility`, `metadata`, `allowed-tools`), and progressive-disclosure loading. Independent community spec aligned with the agentskills.io standard.
+- **AMOS integration**: Reference as a community-validated MIT-licensed spec document; use as a citable provenance source for SKILL.md format decisions in AMOS documentation. Low-star but spec-aligned; keep as a cross-reference, not a primary dependency.
+
+## Round 51 Provenance
+
+- **Research date**: 2026-09-15
+- **Researcher**: Devin (live GitHub web search)
+- **Epistemic class**: EMPIRICAL (star counts from GitHub, may change; spec content is SOURCE_CLAIM from repo READMEs/docs)
+- **RSCF state**: SOURCE_CLAIM (repo features from README/docs/specs) → DERIVED (AMOS integration recommendations)
+- **Categories covered**: Agent Skills specification, reference implementations, Python SDKs, skill package managers, progressive-disclosure loaders, framework integrations (LangChain, CrewAI, Agno, MS Agent Framework, MCP), standardization efforts (AIP-3)
+- **Total new repos evaluated**: 9 candidates; 9 genuinely new entries added (#99–#107); 0 re-verified; 0 excluded
+- **Cumulative SOTA catalog**: 102 repos (93 prior + 9 new)

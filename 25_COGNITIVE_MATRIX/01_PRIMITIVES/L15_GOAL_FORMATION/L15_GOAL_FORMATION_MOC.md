@@ -3,9 +3,8 @@ title: L15 Goal Formation MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L15_GOAL_FORMATION
 tags:
-- moc
 - l15-goal-formation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-index-moc
 - 01-primitives-moc
 - cognitive-matrix-l15-goal-formation-contract

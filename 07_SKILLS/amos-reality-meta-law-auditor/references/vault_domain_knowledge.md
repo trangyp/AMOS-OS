@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-reality-meta-law-auditor/references
 tags:
 - reference
 - amos-reality-meta-law-auditor
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

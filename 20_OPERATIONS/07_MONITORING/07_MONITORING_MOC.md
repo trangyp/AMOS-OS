@@ -3,7 +3,6 @@ title: 07 Monitoring MOC
 type: moc
 source: 20_OPERATIONS/07_MONITORING
 tags:
-- moc
 - 07-monitoring
 - canon/operations
 - amos-home

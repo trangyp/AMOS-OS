@@ -3,9 +3,9 @@ title: INDEX L05 BINDING PRIMITIVES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L05_BINDING/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l05_binding
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - l05-binding-map
 - 00-home

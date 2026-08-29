@@ -3,7 +3,7 @@ title: RANKING SELECTION MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/93_RANKING_SELECTION_MODES
 tags:
-- control_plane
+- control-plane
 - 93_ranking_selection_modes
 - canon/control-plane
 - authz-engine-validation-receipt

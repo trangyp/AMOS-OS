@@ -3,9 +3,9 @@ title: INDEX VALIDATION COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/11_VALIDATION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - 00_index
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - validation
 - readme
 - cognitive-matrix-validation-map

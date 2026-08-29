@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-learning-memory-knowledge-feedback-governor/references
 tags:
 - reference
 - amos-learning-memory-knowledge-feedback-governor
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

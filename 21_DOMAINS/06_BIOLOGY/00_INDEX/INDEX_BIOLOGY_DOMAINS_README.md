@@ -3,7 +3,7 @@ title: INDEX BIOLOGY DOMAINS README
 type: index
 source: 21_DOMAINS/06_BIOLOGY/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - readme

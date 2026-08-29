@@ -15,12 +15,11 @@ tags:
 - 12-generators
 - 12_generators
 - 25_cognitive_matrix
-- amos_os
+- amos-os
 - benchmarks
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - canon/universe
 - generators
-- generators_benchmarks.md
 - note
 - rscf
 - placeholder_expanded

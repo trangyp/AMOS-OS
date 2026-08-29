@@ -9,7 +9,7 @@ description: Proposed skill renames based on AMOS Naming Standard (lowercase-keb
 tags:
 - note
 - 07-skills
-- canon/skill
+- type/skill
 - 07-skills-moc
 rscf:
   state: DERIVED

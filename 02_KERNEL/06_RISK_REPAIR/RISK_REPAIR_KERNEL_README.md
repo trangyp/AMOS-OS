@@ -3,7 +3,7 @@ title: RISK REPAIR KERNEL README
 type: kernel
 source: 02_KERNEL/06_RISK_REPAIR
 tags:
-- amos_os
+- amos-os
 - 02_kernel
 - canon/kernel
 - readme

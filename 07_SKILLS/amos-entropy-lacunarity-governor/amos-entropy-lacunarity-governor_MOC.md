@@ -3,9 +3,8 @@ title: Amos-Entropy-Lacunarity-Governor MOC
 type: moc
 source: 07_SKILLS/amos-entropy-lacunarity-governor
 tags:
-- moc
 - amos-entropy-lacunarity-governor
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

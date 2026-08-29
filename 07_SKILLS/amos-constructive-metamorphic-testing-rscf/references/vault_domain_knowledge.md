@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-constructive-metamorphic-testing-rscf/references
 tags:
 - reference
 - amos-constructive-metamorphic-testing-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

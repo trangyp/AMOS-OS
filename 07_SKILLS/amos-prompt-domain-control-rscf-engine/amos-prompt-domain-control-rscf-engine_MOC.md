@@ -3,9 +3,8 @@ title: Amos-Prompt-Domain-Control-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-prompt-domain-control-rscf-engine
 tags:
-- moc
 - amos-prompt-domain-control-rscf-engine
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-causal-reasoning-master/references
 tags:
 - reference
 - amos-causal-reasoning-master
-- canon/skill
+- type/skill
 - 00-home
 - knowledge-moc
 - system-scan-agent

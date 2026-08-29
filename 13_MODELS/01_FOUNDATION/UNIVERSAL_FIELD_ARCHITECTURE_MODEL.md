@@ -45,7 +45,7 @@ claim_ceiling:
   empirical_physical_claims: NOT_ESTABLISHED
   universal_reality_claims: NOT_ESTABLISHED
 tags:
-- amos_os
+- amos-os
 - amos
 - trang
 - trang_phan

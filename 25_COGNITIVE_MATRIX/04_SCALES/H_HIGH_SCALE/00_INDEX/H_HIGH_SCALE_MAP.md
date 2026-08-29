@@ -3,9 +3,9 @@ title: H HIGH SCALE MAP
 type: map
 source: 25_COGNITIVE_MATRIX/04_SCALES/H_HIGH_SCALE/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - h_high_scale
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-map
 - amos-rscf-nodes
 - routing-policy-validation-receipt

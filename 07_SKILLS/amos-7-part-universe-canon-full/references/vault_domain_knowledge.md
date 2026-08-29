@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-7-part-universe-canon-full/references
 tags:
 - reference
 - amos-7-part-universe-canon-full
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

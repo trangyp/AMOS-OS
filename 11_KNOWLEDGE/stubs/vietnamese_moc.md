@@ -3,7 +3,6 @@ title: vietnamese moc
 tags:
 - stub
 - vietnamese
-- moc
 - vietnamese-moc
 - kernel-moc
 - 00-home

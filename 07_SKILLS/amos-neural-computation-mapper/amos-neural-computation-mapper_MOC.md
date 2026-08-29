@@ -3,9 +3,8 @@ title: Amos-Neural-Computation-Mapper MOC
 type: moc
 source: 07_SKILLS/amos-neural-computation-mapper
 tags:
-- moc
 - amos-neural-computation-mapper
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

@@ -3,7 +3,6 @@ title: 02 Universe Canon MOC
 type: moc
 source: 01_CANON/02_UNIVERSE_CANON
 tags:
-- moc
 - 02-universe-canon
 - canon/universe
 - absolute-omniverse-u-infinity

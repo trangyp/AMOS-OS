@@ -12,8 +12,8 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX
 path: 25_COGNITIVE_MATRIX/CANON_X_KNOWLEDGE.md
 tags:
-- amos_os
-- cognitive_matrix
+- amos-os
+- cognitive-matrix
 - canon_x_knowledge
 - structural_review
 - epistemic_boundary

@@ -3,9 +3,9 @@ title: WORKFLOW MAP
 type: workflow
 source: 08_WORKFLOWS/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 08_workflows
-- canon/workflow
+- type/workflow
 - workflow
 - index-workflows-readme
 - index-workflows-workflow-contract

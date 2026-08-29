@@ -3,9 +3,8 @@ title: Mckinsey-Public-Sector-Transformation-Rscf MOC
 type: moc
 source: 07_SKILLS/mckinsey-public-sector-transformation-rscf
 tags:
-- moc
 - mckinsey-public-sector-transformation-rs
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

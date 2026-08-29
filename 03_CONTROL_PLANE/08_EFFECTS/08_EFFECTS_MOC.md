@@ -3,7 +3,6 @@ title: 08 Effects MOC
 type: moc
 source: 03_CONTROL_PLANE/08_EFFECTS
 tags:
-- moc
 - 08-effects
 - canon/control-plane
 - control-plane-effects-contract

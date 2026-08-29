@@ -3,7 +3,7 @@ title: SIMULATION MODES COMMIT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/21_SIMULATION_MODES
 tags:
-- control_plane
+- control-plane
 - 21_simulation_modes
 - canon/control-plane
 - readme

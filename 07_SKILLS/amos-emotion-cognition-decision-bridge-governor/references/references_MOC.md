@@ -3,9 +3,8 @@ title: References MOC — References — Amos Emotion Cognition Decision Bridge 
 type: moc
 source: 07_SKILLS/amos-emotion-cognition-decision-bridge-governor/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

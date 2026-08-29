@@ -5,7 +5,6 @@ tags:
 - universe
 - logic
 - ulk
-- ulmk.md
 - ulmk
 - kernel-moc
 - 00-home

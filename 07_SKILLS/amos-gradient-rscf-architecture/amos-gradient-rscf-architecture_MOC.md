@@ -3,9 +3,8 @@ title: Amos-Gradient-Rscf-Architecture MOC
 type: moc
 source: 07_SKILLS/amos-gradient-rscf-architecture
 tags:
-- moc
 - amos-gradient-rscf-architecture
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

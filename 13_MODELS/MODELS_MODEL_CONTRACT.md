@@ -3,7 +3,7 @@ title: MODELS MODEL CONTRACT
 type: model
 source: 13_MODELS
 tags:
-- amos_os
+- amos-os
 - 13_models
 - canon/model
 - routing-policy-validation-receipt

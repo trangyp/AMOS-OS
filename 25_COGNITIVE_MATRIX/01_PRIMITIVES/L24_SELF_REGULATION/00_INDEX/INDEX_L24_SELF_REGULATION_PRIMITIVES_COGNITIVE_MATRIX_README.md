@@ -3,9 +3,9 @@ title: INDEX L24 SELF REGULATION PRIMITIVES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L24_SELF_REGULATION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l24_self_regulation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - l24-self-regulation-map
 - 00-home

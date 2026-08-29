@@ -3,8 +3,7 @@ title: REPLAY CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/11_REPLAY
 tags:
-- control_plane
-- replay_control_plane_readme.md
+- control-plane
 - canon/control-plane
 - readme
 - control-plane-replay-contract

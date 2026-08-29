@@ -5,7 +5,7 @@ source: 07_SKILLS
 tags:
 - note
 - 07-skills
-- canon/skill
+- type/skill
 - skill
 - 07-skills-moc
 rscf:

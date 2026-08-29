@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-c04-bio-neuro-master/references
 tags:
 - reference
 - amos-c04-bio-neuro-master
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

@@ -3,9 +3,8 @@ title: L Low Scale MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/04_SCALES/L_LOW_SCALE
 tags:
-- moc
 - l-low-scale
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-l-low-scale-contract
 - l-low-scale-scales-cognitive-matrix-rscf
 - scales-cognitive-matrix-boundaries

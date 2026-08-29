@@ -12,8 +12,8 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX
 path: 25_COGNITIVE_MATRIX/UNIVERSE_X_OMEGA.md
 tags:
-- amos_os
-- cognitive_matrix
+- amos-os
+- cognitive-matrix
 - canon/matrix
 - rscf
 - provenance
@@ -4495,3 +4495,4 @@ $$
 ---
 
 **MOC:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]
+```

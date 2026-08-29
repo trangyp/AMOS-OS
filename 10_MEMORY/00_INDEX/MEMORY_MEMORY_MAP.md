@@ -3,7 +3,7 @@ title: MEMORY MEMORY MAP
 type: map
 source: 10_MEMORY/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 10_memory
 - canon/memory
 - memory

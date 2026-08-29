@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-ai-entropy-rscf-engine/references
 tags:
 - reference
 - amos-ai-entropy-rscf-engine
-- canon/skill
+- type/skill
 - amos-ai-entropy-rscf-engine-moc
 - 00-home
 - amos-rscf-nodes

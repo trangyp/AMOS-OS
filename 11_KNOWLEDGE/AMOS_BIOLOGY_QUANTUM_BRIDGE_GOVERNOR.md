@@ -31,7 +31,7 @@ canonical_status: SOURCE_GROUNDED_AMOS_MODEL
 bridge_status: GOVERNED
 anti_overclaim_firewall: REQUIRED
 tags:
-- amos_os
+- amos-os
 - amos-os
 - rscf
 - rscf/node

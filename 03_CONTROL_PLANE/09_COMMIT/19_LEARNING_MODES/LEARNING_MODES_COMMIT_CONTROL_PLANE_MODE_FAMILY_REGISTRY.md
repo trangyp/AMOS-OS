@@ -3,7 +3,7 @@ title: LEARNING MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/19_LEARNING_MODES
 tags:
-- control_plane
+- control-plane
 - 19_learning_modes
 - canon/control-plane
 - routing-policy-validation-receipt

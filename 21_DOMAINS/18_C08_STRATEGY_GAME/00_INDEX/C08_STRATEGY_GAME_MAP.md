@@ -3,7 +3,7 @@ title: C08 STRATEGY GAME MAP
 type: map
 source: 21_DOMAINS/18_C08_STRATEGY_GAME/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - index-c08-strategy-game-domains-readme

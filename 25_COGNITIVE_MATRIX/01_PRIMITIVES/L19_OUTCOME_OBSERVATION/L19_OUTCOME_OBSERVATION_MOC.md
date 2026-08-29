@@ -3,9 +3,8 @@ title: L19 Outcome Observation MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L19_OUTCOME_OBSERVATION
 tags:
-- moc
 - l19-outcome-observation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-index-moc
 - 01-primitives-moc
 - cognitive-matrix-l19-outcome-observation-contract

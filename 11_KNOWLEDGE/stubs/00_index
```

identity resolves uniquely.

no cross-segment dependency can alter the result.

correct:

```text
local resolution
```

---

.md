@@ -48,3 +48,4 @@ local resolution
 ---
 
 **MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+```

@@ -3,9 +3,8 @@ title: Amos-Distinction-Relation-Constraint-Rscf-Algebra MOC
 type: moc
 source: 07_SKILLS/amos-distinction-relation-constraint-rscf-algebra
 tags:
-- moc
 - amos-distinction-relation-constraint-rsc
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

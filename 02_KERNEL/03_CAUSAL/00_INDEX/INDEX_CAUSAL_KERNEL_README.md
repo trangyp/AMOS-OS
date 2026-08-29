@@ -3,7 +3,7 @@ title: INDEX CAUSAL KERNEL README
 type: index
 source: 02_KERNEL/03_CAUSAL/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 02_kernel
 - canon/kernel
 - readme

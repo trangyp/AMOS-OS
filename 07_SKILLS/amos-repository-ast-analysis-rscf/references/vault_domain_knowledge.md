@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-repository-ast-analysis-rscf/references
 tags:
 - reference
 - amos-repository-ast-analysis-rscf
-- canon/skill
+- type/skill
 - amos-repository-ast-analysis-rscf-moc
 - 00-home
 - amos-rscf-nodes

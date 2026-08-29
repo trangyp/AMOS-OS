@@ -3,9 +3,9 @@ title: INDEX PRIMITIVES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - 00_index
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - primitives-map
 - 00-home

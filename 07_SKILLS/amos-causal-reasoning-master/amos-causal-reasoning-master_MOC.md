@@ -3,9 +3,8 @@ title: Amos-Causal-Reasoning-Master MOC
 type: moc
 source: 07_SKILLS/amos-causal-reasoning-master
 tags:
-- moc
 - amos-causal-reasoning-master
-- canon/skill
+- type/skill
 - agent-template
 - skill
 - references-moc

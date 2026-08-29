@@ -3,9 +3,8 @@ title: Mckinsey-Customer-Journey-Planning-Rscf MOC
 type: moc
 source: 07_SKILLS/mckinsey-customer-journey-planning-rscf
 tags:
-- moc
 - mckinsey-customer-journey-planning-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

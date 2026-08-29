@@ -12,7 +12,7 @@ segment: 01_CANON/04_INFRASTRUCTURE_CANON
 artifact_kind: CANON
 path: 01_CANON/04_INFRASTRUCTURE_CANON/AMOS_EXPRESSION_TRANSLATION_CANON.md
 tags:
-- amos_os
+- amos-os
 - canon
 - universe
 - 01_canon

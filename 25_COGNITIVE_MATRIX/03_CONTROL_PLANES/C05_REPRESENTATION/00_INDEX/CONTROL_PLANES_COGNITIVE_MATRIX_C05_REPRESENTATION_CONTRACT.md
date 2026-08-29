@@ -3,9 +3,9 @@ title: CONTROL PLANES COGNITIVE MATRIX C05 REPRESENTATION CONTRACT
 type: control-plane
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C05_REPRESENTATION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - c05_representation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy

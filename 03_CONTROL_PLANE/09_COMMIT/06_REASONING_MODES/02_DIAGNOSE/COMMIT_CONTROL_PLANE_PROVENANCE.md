@@ -3,7 +3,7 @@ title: COMMIT CONTROL PLANE PROVENANCE
 type: provenance
 source: 03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/02_DIAGNOSE
 tags:
-- control_plane
+- control-plane
 - 06_reasoning_modes/02_diagnose
 - canon/control-plane
 - routing-policy-validation-receipt

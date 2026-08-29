@@ -3,7 +3,6 @@ title: 11 C01 Meta Logic MOC
 type: moc
 source: 21_DOMAINS/11_C01_META_LOGIC
 tags:
-- moc
 - 11-c01-meta-logic
 - canon/domain
 - c01-meta-logic-domains-domain-spec

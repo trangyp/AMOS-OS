@@ -3,9 +3,8 @@ title: References MOC — References — Amos Context Orientation Cache Rscf
 type: moc
 source: 07_SKILLS/amos-context-orientation-cache-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-context-orientation-cache-rscf-moc
 - 00-home

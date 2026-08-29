@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-heritage-decision-intelligence/references
 tags:
 - reference
 - amos-heritage-decision-intelligence
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

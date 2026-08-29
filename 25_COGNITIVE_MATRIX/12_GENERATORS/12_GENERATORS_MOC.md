@@ -3,9 +3,8 @@ title: 12 Generators MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/12_GENERATORS
 tags:
-- moc
 - 12-generators
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-generators-contract
 - generators-audit
 - generators-benchmarks

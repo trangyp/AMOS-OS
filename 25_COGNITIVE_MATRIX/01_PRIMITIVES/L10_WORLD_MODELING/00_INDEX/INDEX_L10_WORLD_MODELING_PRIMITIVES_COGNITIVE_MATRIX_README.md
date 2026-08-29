@@ -3,9 +3,9 @@ title: INDEX L10 WORLD MODELING PRIMITIVES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L10_WORLD_MODELING/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l10_world_modeling
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - l10-world-modeling-map
 - 00-home

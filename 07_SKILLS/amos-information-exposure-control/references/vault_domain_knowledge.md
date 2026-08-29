@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-information-exposure-control/references
 tags:
 - reference
 - amos-information-exposure-control
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

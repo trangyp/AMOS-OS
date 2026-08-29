@@ -30,47 +30,47 @@ aliases:
   - "Independent Cross-Validation Principle"
 
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - trang
-  - trang_zero
-  - tat_2
-  - t2
-  - cross_validation
-  - independent_sources
-  - source_independence
-  - provenance
-  - epistemic_validation
-  - evidence
-  - confidence
-  - decision_governance
-  - anti_hallucination
-  - anti_autopoisoning
-  - lmh
-  - fractal
-  - temporal_validation
-  - spatial_validation
-  - social_validation
-  - science
-  - medicine
-  - law
-  - finance
-  - ai
-  - asea
-  - governance
-  - rscf
-  - canon_candidate
-  - canon/knowledge
-  - canon/framework
-  - canon-group/epistemology
-  - topic/source-independence
-  - topic/cross-validation
-  - topic/evidence-topology
-  - topic/decision-gate
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
+- amos-os
+- knowledge
+- vault
+- trang
+- trang_zero
+- tat_2
+- t2
+- cross_validation
+- independent_sources
+- source_independence
+- provenance
+- epistemic_validation
+- evidence
+- confidence
+- decision_governance
+- anti_hallucination
+- anti_autopoisoning
+- lmh
+- fractal
+- temporal_validation
+- spatial_validation
+- social_validation
+- science
+- medicine
+- law
+- finance
+- ai
+- asea
+- governance
+- rscf
+- canon_candidate
+- canon/knowledge
+- canon/framework
+- canon-group/epistemology
+- topic/source-independence
+- topic/cross-validation
+- topic/evidence-topology
+- topic/decision-gate
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
 
 version: "1.0.0"
 

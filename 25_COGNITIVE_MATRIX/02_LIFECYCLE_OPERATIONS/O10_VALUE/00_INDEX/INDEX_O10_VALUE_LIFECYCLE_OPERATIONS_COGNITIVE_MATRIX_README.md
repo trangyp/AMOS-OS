@@ -3,9 +3,9 @@ title: INDEX O10 VALUE LIFECYCLE OPERATIONS COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O10_VALUE/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - o10_value
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - o10-value-map
 - 00-home

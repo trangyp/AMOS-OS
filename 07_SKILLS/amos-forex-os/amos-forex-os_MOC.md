@@ -3,9 +3,8 @@ title: Amos-Forex-Os MOC
 type: moc
 source: 07_SKILLS/amos-forex-os
 tags:
-- moc
 - amos-forex-os
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

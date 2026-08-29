@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-flow-canon
 tags:
 - note
 - amos-flow-canon
-- canon/skill
+- type/skill
 - skill
 - amos-flow-canon-moc
 rscf:

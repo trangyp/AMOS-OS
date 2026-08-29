@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-knowledge-research-master/references
 tags:
 - reference
 - amos-knowledge-research-master
-- canon/skill
+- type/skill
 - 00-home
 - knowledge-moc
 - system-scan-agent

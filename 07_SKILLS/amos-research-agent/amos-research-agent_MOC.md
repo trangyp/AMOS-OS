@@ -3,9 +3,8 @@ title: Amos-Research-Agent MOC
 type: moc
 source: 07_SKILLS/amos-research-agent
 tags:
-- moc
 - amos-research-agent
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

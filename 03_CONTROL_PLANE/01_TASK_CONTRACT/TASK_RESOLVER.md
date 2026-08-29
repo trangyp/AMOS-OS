@@ -3,7 +3,7 @@ title: TASK RESOLVER
 type: task
 source: 03_CONTROL_PLANE/01_TASK_CONTRACT
 tags:
-- control_plane
+- control-plane
 - task_contract
 - note
 - canon/control-plane

@@ -12,7 +12,7 @@ segment: 01_CANON/08_SUPERSESSION
 artifact_kind: REGISTRY
 path: 01_CANON/08_SUPERSESSION/COMPETING_DEFINITION_REGISTRY.md
 tags:
-- amos_os
+- amos-os
 - canon
 - universe
 - 01_canon

@@ -5,7 +5,7 @@ source: 25_COGNITIVE_MATRIX/12_GENERATORS
 tags:
 - note
 - 12-generators
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - 00-home

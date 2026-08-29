@@ -3,9 +3,8 @@ title: References MOC — References — Amos Distinction Rscf Architecture
 type: moc
 source: 07_SKILLS/amos-distinction-rscf-architecture/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-distinction-rscf-architecture-moc
 - 00-home

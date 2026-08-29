@@ -3,9 +3,8 @@ title: Amos-Context-Continuity-Governor MOC
 type: moc
 source: 07_SKILLS/amos-context-continuity-governor
 tags:
-- moc
 - amos-context-continuity-governor
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

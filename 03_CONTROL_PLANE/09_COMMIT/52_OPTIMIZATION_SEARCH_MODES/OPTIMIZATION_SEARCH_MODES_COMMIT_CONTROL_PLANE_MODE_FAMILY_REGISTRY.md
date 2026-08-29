@@ -3,7 +3,7 @@ title: OPTIMIZATION SEARCH MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/52_OPTIMIZATION_SEARCH_MODES
 tags:
-- control_plane
+- control-plane
 - 52_optimization_search_modes
 - canon/control-plane
 - authz-engine-validation-receipt

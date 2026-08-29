@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-security-safety-master
 tags:
 - note
 - amos-security-safety-master
-- canon/skill
+- type/skill
 - skill
 - amos-security-safety-master-moc
 rscf:

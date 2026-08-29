@@ -3,9 +3,9 @@ title: C06 MEMORY MAP
 type: map
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C06_MEMORY/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - c06_memory
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - memory
 - 00-root-map
 - amos-rscf-nodes

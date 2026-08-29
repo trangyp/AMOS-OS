@@ -3,9 +3,8 @@ title: References MOC — References — Arxiv Mixture Of Depths Rscf
 type: moc
 source: 07_SKILLS/arxiv-mixture-of-depths-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - arxiv-mixture-of-depths-rscf-moc
 - 00-home

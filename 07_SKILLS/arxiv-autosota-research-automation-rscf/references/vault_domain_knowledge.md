@@ -5,7 +5,7 @@ source: 07_SKILLS/arxiv-autosota-research-automation-rscf/references
 tags:
 - reference
 - arxiv-autosota-research-automation-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

@@ -1,7 +1,6 @@
 ---
 tags:
 - knowledge
-- readme.md
 - readme
 - cosmo-brain-moc
 - knowledge-moc

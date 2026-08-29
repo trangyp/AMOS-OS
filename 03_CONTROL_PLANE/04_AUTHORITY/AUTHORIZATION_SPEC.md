@@ -3,7 +3,7 @@ title: AUTHORIZATION SPEC
 type: note
 source: 03_CONTROL_PLANE/04_AUTHORITY
 tags:
-- control_plane
+- control-plane
 - authority
 - note
 - canon/control-plane

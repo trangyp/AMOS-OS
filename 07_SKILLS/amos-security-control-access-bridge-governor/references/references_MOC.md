@@ -3,9 +3,8 @@ title: References MOC — References — Amos Security Control Access Bridge Gov
 type: moc
 source: 07_SKILLS/amos-security-control-access-bridge-governor/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

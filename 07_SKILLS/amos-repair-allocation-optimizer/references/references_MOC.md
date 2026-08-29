@@ -3,9 +3,8 @@ title: References MOC — References — Amos Repair Allocation Optimizer
 type: moc
 source: 07_SKILLS/amos-repair-allocation-optimizer/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-repair-allocation-optimizer-moc
 - 00-home

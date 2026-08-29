@@ -5,7 +5,7 @@ source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
 tags:
 - amos
 - cognitive-matrix
-- l01
+- matrix/l01
 - sensing-observation
 - variables
 - typed-state
@@ -13,7 +13,7 @@ tags:
 - provenance
 - hml
 - control-plane
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - 00-home

@@ -3,9 +3,8 @@ title: Mckinsey-Recruiting-Workforce-Acquisition-Rscf MOC
 type: moc
 source: 07_SKILLS/mckinsey-recruiting-workforce-acquisition-rscf
 tags:
-- moc
 - mckinsey-recruiting-workforce-acquisitio
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

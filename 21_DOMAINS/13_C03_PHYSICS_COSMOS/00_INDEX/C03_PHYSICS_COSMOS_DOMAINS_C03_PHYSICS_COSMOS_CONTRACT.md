@@ -3,7 +3,7 @@ title: C03 PHYSICS COSMOS DOMAINS C03 PHYSICS COSMOS CONTRACT
 type: physics
 source: 21_DOMAINS/13_C03_PHYSICS_COSMOS/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - routing-policy-validation-receipt

@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-agency-consequence-governor/references
 tags:
 - reference
 - amos-agency-consequence-governor
-- canon/skill
+- type/skill
 - amos-agency-consequence-governor-moc
 - 00-home
 - amos-rscf-nodes

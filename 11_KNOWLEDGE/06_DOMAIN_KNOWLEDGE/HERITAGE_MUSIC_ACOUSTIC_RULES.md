@@ -12,7 +12,7 @@ segment: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE
 artifact_kind: DOMAIN_KNOWLEDGE
 path: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/HERITAGE_MUSIC_ACOUSTIC_RULES.md
 tags:
-- amos_os
+- amos-os
 - knowledge
 - vault
 - 11_knowledge

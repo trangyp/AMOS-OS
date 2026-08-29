@@ -3,9 +3,8 @@ title: References MOC — References — Amos Cell Intelligence Mapper
 type: moc
 source: 07_SKILLS/amos-cell-intelligence-mapper/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-cell-intelligence-mapper-moc
 - 00-home

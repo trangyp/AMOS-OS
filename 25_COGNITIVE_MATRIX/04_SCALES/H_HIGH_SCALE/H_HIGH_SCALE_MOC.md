@@ -3,9 +3,8 @@ title: H High Scale MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/04_SCALES/H_HIGH_SCALE
 tags:
-- moc
 - h-high-scale
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-h-high-scale-contract
 - 00-index-moc
 - 04-scales-moc

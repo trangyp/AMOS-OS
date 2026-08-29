@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-calibrated-feedback-control-rscf/references
 tags:
 - reference
 - amos-calibrated-feedback-control-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

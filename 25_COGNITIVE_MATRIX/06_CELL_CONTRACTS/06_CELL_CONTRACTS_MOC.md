@@ -3,9 +3,8 @@ title: 06 Cell Contracts MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/06_CELL_CONTRACTS
 tags:
-- moc
 - 06-cell-contracts
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cell-authority
 - cell-bindings
 - cell-contracts-cognitive-matrix-readme

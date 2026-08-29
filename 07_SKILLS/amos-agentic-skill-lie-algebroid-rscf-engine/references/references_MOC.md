@@ -3,9 +3,8 @@ title: References MOC — References — Amos Agentic Skill Lie Algebroid Rscf E
 type: moc
 source: 07_SKILLS/amos-agentic-skill-lie-algebroid-rscf-engine/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

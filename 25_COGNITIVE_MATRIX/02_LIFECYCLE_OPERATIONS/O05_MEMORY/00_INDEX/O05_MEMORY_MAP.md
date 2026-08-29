@@ -3,9 +3,9 @@ title: O05 MEMORY MAP
 type: map
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O05_MEMORY/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - o05_memory
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - memory
 - 00-root-map
 - amos-rscf-nodes

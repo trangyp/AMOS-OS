@@ -3,8 +3,7 @@ title: INV-AUTHZ-044
 type: invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
 tags:
-- control_plane
-- inv-authz-044.md
+- control-plane
 - canon/control-plane
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt

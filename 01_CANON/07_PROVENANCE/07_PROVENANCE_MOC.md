@@ -3,7 +3,6 @@ title: 07 Provenance MOC
 type: moc
 source: 01_CANON/07_PROVENANCE
 tags:
-- moc
 - 07-provenance
 - canon/universe
 - amos-core-lineage-provenance

@@ -5,7 +5,7 @@ source: 25_COGNITIVE_MATRIX/11_VALIDATION
 tags:
 - note
 - 11-validation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - 00-home

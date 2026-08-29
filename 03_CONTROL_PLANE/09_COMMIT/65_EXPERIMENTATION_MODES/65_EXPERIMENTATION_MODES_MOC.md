@@ -3,7 +3,6 @@ title: 65 Experimentation Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/65_EXPERIMENTATION_MODES
 tags:
-- moc
 - 65-experimentation-modes
 - canon/control-plane
 - 09-commit-moc

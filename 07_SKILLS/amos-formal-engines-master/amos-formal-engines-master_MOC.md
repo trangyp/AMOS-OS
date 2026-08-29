@@ -3,9 +3,8 @@ title: Amos-Formal-Engines-Master MOC
 type: moc
 source: 07_SKILLS/amos-formal-engines-master
 tags:
-- moc
 - amos-formal-engines-master
-- canon/skill
+- type/skill
 - agent-template
 - skill
 - references-moc

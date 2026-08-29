@@ -3,7 +3,7 @@ title: RUNTIME MAP
 type: map
 source: 04_RUNTIME/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 04_runtime
 - canon/runtime
 - index-runtime-readme

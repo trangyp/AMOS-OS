@@ -3,11 +3,11 @@ title: COGNITIVE MATRIX L00 REALITY ENVIRONMENT CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - primitives
 - l00_reality_environment
 - contract
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - cognitive-matrix-moc

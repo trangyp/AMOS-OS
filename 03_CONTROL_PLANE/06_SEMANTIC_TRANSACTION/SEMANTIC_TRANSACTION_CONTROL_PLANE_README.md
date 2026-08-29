@@ -3,8 +3,7 @@ title: SEMANTIC TRANSACTION CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION
 tags:
-- control_plane
-- semantic_transaction_control_plane_readme.md
+- control-plane
 - canon/control-plane
 - readme
 - lineage-graph

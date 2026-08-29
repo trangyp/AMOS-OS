@@ -3,7 +3,6 @@ title: 03 Coding MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/03_CODING
 tags:
-- moc
 - 03-coding
 - canon/control-plane
 - coding-commit-control-plane-readme

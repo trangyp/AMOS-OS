@@ -12,7 +12,7 @@ segment: 01_CANON/00_INDEX
 artifact_kind: AUDIT
 path: 01_CANON/00_INDEX/CANON_COMPLETENESS_AUDIT.md
 tags:
-- amos_os
+- amos-os
 - canon
 - universe
 - 01_canon

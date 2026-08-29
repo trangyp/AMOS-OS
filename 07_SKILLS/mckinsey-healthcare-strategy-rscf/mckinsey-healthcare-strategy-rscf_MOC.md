@@ -3,9 +3,8 @@ title: Mckinsey-Healthcare-Strategy-Rscf MOC
 type: moc
 source: 07_SKILLS/mckinsey-healthcare-strategy-rscf
 tags:
-- moc
 - mckinsey-healthcare-strategy-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

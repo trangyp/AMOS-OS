@@ -3,7 +3,6 @@ title: 15 Interfaces MOC
 type: moc
 source: 15_INTERFACES
 tags:
-- moc
 - 15-interfaces
 - canon/interface
 - interfaces-interface-contract

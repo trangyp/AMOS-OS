@@ -3,9 +3,8 @@ title: Amos-Full-Brain-Os MOC
 type: moc
 source: 07_SKILLS/amos-brain-os
 tags:
-- moc
 - amos-brain-os
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

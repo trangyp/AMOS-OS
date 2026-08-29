@@ -5,7 +5,7 @@ source: 07_SKILLS/arxiv-manifold-constrained-conformal-spatial-rscf/references
 tags:
 - reference
 - arxiv-manifold-constrained-conformal-spatial-rscf
-- canon/skill
+- type/skill
 - cosmo-brain-moc
 - amos-build-from-spec
 - 2026-08-22-tests-logic-bridge-registry

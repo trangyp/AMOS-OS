@@ -3,9 +3,8 @@ title: References MOC — References — Amos Arxiv Quantum Koopman Rscf
 type: moc
 source: 07_SKILLS/amos-arxiv-quantum-koopman-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-arxiv-quantum-koopman-rscf-moc
 - 00-home

@@ -3,7 +3,6 @@ title: 34 Health Policy MOC
 type: moc
 source: 21_DOMAINS/34_HEALTH_POLICY
 tags:
-- moc
 - 34-health-policy
 - canon/domain
 - domains-health-policy-contract

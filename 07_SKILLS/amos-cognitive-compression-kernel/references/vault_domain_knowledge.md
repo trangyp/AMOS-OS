@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-cognitive-compression-kernel/references
 tags:
 - reference
 - amos-cognitive-compression-kernel
-- canon/skill
+- type/skill
 - cosmo-brain-moc
 - ratpak
 - references-moc

@@ -3,7 +3,6 @@ title: fractal moc
 tags:
 - stub
 - fractal
-- moc
 - fractal-moc
 - kernel-moc
 - 00-home

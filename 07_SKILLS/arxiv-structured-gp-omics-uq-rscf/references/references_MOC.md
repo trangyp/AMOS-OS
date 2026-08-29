@@ -3,9 +3,8 @@ title: References MOC — References — Arxiv Structured Gp Omics Uq Rscf
 type: moc
 source: 07_SKILLS/arxiv-structured-gp-omics-uq-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - arxiv-structured-gp-omics-uq-rscf-moc
 - 00-home

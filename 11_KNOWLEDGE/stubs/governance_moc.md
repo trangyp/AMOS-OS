@@ -3,7 +3,6 @@ title: governance moc
 tags:
 - stub
 - governance
-- moc
 - governance-moc
 - kernel-moc
 - 00-home

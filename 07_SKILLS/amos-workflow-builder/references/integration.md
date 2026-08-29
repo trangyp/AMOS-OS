@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-workflow-builder/references
 tags:
 - reference
 - amos-workflow-builder
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

@@ -3,7 +3,7 @@ title: DECISION MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/41_DECISION_MODES
 tags:
-- control_plane
+- control-plane
 - 41_decision_modes
 - canon/control-plane
 - routing-policy-validation-receipt

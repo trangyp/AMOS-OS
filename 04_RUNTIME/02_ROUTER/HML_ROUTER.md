@@ -12,7 +12,7 @@ segment: 04_RUNTIME/02_ROUTER
 artifact_kind: ROUTER_SPEC
 path: 04_RUNTIME/02_ROUTER/HML_ROUTER.md
 tags:
-- amos_os
+- amos-os
 - runtime
 - vault
 - 04_runtime

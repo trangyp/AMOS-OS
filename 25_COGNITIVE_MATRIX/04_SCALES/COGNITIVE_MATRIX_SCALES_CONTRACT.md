@@ -3,9 +3,8 @@ title: COGNITIVE MATRIX SCALES CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/04_SCALES
 tags:
-- cognitive_matrix
-- cognitive_matrix_scales_contract.md
-- canon/cognitive-matrix
+- cognitive-matrix
+- domain/cognitive-matrix
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy

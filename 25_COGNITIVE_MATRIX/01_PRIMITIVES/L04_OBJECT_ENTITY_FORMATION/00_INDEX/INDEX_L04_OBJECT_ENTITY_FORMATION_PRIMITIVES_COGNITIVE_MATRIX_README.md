@@ -3,9 +3,9 @@ title: INDEX L04 OBJECT ENTITY FORMATION PRIMITIVES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l04_object_entity_formation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - l04-object-entity-formation-map
 - 00-home

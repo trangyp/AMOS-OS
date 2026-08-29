@@ -3,9 +3,8 @@ title: Amos-Retrieval-Conditioned-Orchestration-Budget-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-retrieval-conditioned-orchestration-budget-rscf
 tags:
-- moc
 - amos-retrieval-conditioned-orchestration
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

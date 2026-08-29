@@ -22,12 +22,12 @@ origin_architect: Trang Phan
 epistemic_class: AMOS_MODEL
 tags:
 - type/skill
-- canon/skill
+- type/skill
 - domain/mind-behavior
-- rscf/source_claim
+- epistemic/source_claim
 - hml/m
 - epistemic/amos_model
-- amos_os
+- amos-os
 - 00-home
 - amos-rscf-nodes
 - law-hierarchy

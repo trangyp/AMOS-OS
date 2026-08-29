@@ -3,9 +3,8 @@ title: References MOC — References — Amos Persistence Dissolution Rscf Dynam
 type: moc
 source: 07_SKILLS/amos-persistence-dissolution-rscf-dynamics/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

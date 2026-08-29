@@ -11,7 +11,7 @@ status: ACTIVE_MANIFEST
 epistemic_class: AMOS_MODEL
 ingestion_action: ADD_ONLY
 tags:
-- amos_os
+- amos-os
 - root
 - index
 - canon-ingestion

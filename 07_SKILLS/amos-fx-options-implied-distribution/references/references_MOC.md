@@ -3,9 +3,8 @@ title: References MOC — References — Amos Fx Options Implied Distribution
 type: moc
 source: 07_SKILLS/amos-fx-options-implied-distribution/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-fx-options-implied-distribution-moc
 - 00-home

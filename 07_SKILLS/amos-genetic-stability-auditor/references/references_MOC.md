@@ -3,9 +3,8 @@ title: References MOC — References — Amos Genetic Stability Auditor
 type: moc
 source: 07_SKILLS/amos-genetic-stability-auditor/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - amos-genetic-stability-auditor-code
 - amos-genetic-stability-auditor-moc
 - 00-home

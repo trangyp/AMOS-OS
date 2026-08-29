@@ -3,9 +3,8 @@ title: Amos-C11-Design-Language-Master MOC
 type: moc
 source: 07_SKILLS/amos-c11-design-language-master
 tags:
-- moc
 - amos-c11-design-language-master
-- canon/skill
+- type/skill
 - agent-template
 - skill
 - references-moc

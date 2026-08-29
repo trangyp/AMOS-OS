@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-trang-framework-master
 tags:
 - note
 - amos-trang-framework-master
-- canon/skill
+- type/skill
 - skill
 - amos-trang-framework-master-moc
 rscf:

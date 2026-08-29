@@ -3,9 +3,8 @@ title: L13 Prediction MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L13_PREDICTION
 tags:
-- moc
 - l13-prediction
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-l13-prediction-contract
 - 00-index-moc
 - 01-primitives-moc

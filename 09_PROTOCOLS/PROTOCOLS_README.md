@@ -3,7 +3,7 @@ title: PROTOCOLS README
 type: protocol
 source: 09_PROTOCOLS
 tags:
-- amos_os
+- amos-os
 - 09_protocols
 - canon/protocol
 - readme

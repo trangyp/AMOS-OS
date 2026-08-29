@@ -3,7 +3,7 @@ title: SECURITY MAP
 type: map
 source: 18_SECURITY/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 18_security
 - canon/security
 - index-security-readme

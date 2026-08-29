@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-provenance-trust-firewall/references
 tags:
 - reference
 - amos-provenance-trust-firewall
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

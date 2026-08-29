@@ -3,7 +3,7 @@ title: RESEARCH BENCHMARKS
 type: benchmark
 source: 22_RESEARCH/05_BENCHMARKS
 tags:
-- amos_os
+- amos-os
 - 22_research
 - canon/research
 - routing-policy-validation-receipt

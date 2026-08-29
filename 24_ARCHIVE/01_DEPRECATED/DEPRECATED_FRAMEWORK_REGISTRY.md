@@ -12,7 +12,7 @@ segment: 24_ARCHIVE/01_DEPRECATED
 artifact_kind: REGISTRY
 path: 24_ARCHIVE/01_DEPRECATED/DEPRECATED_FRAMEWORK_REGISTRY.md
 tags:
-- amos_os
+- amos-os
 - archive
 - legacy
 - 24_archive

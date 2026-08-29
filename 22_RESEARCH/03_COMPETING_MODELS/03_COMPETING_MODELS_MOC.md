@@ -3,7 +3,6 @@ title: 03 Competing Models MOC
 type: moc
 source: 22_RESEARCH/03_COMPETING_MODELS
 tags:
-- moc
 - 03-competing-models
 - canon/research
 - canon-competing-definitions

@@ -3,7 +3,6 @@ title: signal moc
 tags:
 - stub
 - signal
-- moc
 - signal-moc
 - kernel-moc
 - 00-home

@@ -3,9 +3,8 @@ title: Arxiv-Geometric-Causal-Models-Rscf MOC
 type: moc
 source: 07_SKILLS/arxiv-geometric-causal-models-rscf
 tags:
-- moc
 - arxiv-geometric-causal-models-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

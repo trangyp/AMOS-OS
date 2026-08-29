@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-causal-hierarchy-governor/references
 tags:
 - reference
 - amos-causal-hierarchy-governor
-- canon/skill
+- type/skill
 - 07-skills-moc
 - references-moc
 - 00-home

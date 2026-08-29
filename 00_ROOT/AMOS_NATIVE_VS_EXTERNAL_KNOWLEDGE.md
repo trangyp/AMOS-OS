@@ -12,7 +12,7 @@ segment: 00_ROOT
 artifact_kind: ARTIFACT
 path: 00_ROOT/AMOS_NATIVE_VS_EXTERNAL_KNOWLEDGE.md
 tags:
-- amos_os
+- amos-os
 - root
 - index
 - 00_root

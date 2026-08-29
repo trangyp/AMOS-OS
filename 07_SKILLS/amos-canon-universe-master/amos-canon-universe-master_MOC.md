@@ -3,9 +3,8 @@ title: Amos-Canon-Universe-Master MOC
 type: moc
 source: 07_SKILLS/amos-canon-universe-master
 tags:
-- moc
 - amos-canon-universe-master
-- canon/skill
+- type/skill
 - agent-template
 - skill
 - references-moc

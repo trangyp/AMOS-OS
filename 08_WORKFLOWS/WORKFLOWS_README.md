@@ -3,9 +3,9 @@ title: WORKFLOWS README
 type: workflow
 source: 08_WORKFLOWS
 tags:
-- amos_os
+- amos-os
 - 08_workflows
-- canon/workflow
+- type/workflow
 - workflows
 - readme
 - workflows-workflow-contract

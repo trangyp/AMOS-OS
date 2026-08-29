@@ -16,7 +16,7 @@ artifact_kind: INTELLIGENCE
 domain: directed-systemal-intelligence
 path: 02_KERNEL/01_META_LOGIC/K_DIRECTED_SYSTEMAL_INTELLIGENCE.md
 tags:
-- amos_os
+- amos-os
 - kernel
 - core
 - 02_kernel

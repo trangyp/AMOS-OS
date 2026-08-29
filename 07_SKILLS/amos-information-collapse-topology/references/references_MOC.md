@@ -3,9 +3,8 @@ title: References MOC — References — Amos Information Collapse Topology
 type: moc
 source: 07_SKILLS/amos-information-collapse-topology/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-information-collapse-topology-moc
 - 00-home

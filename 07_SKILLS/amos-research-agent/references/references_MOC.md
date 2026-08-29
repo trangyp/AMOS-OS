@@ -3,9 +3,8 @@ title: References MOC — References — Amos Research Agent
 type: moc
 source: 07_SKILLS/amos-research-agent/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-research-agent-moc
 - 00-home

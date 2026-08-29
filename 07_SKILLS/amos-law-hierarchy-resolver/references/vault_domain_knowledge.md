@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-law-hierarchy-resolver/references
 tags:
 - reference
 - amos-law-hierarchy-resolver
-- canon/skill
+- type/skill
 - amos-law-hierarchy-resolver-moc
 - 00-home
 - amos-rscf-nodes

@@ -3,7 +3,7 @@ title: DOMAINS C08 STRATEGY GAME CONTRACT
 type: strategy
 source: 21_DOMAINS/18_C08_STRATEGY_GAME
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - routing-policy-validation-receipt

@@ -3,9 +3,8 @@ title: Arxiv-Grapheval-Reasoning-Coherence-Rscf MOC
 type: moc
 source: 07_SKILLS/arxiv-grapheval-reasoning-coherence-rscf
 tags:
-- moc
 - arxiv-grapheval-reasoning-coherence-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

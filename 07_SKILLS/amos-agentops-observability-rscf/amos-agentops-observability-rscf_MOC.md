@@ -3,9 +3,8 @@ title: Amos-Agentops-Observability-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-agentops-observability-rscf
 tags:
-- moc
 - amos-agentops-observability-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

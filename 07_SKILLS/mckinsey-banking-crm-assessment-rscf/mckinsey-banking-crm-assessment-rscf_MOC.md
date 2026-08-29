@@ -3,9 +3,8 @@ title: Mckinsey-Banking-Crm-Assessment-Rscf MOC
 type: moc
 source: 07_SKILLS/mckinsey-banking-crm-assessment-rscf
 tags:
-- moc
 - mckinsey-banking-crm-assessment-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

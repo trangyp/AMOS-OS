@@ -3,9 +3,8 @@ title: 10 Routing MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/10_ROUTING
 tags:
-- moc
 - 10-routing
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - binding-rules
 - cognitive-matrix-routing-contract
 - routing-audit

@@ -3,7 +3,7 @@ title: COGNITIVE ORGANISM README
 type: cognitive
 source: 05_COGNITIVE_ORGANISM
 tags:
-- amos_os
+- amos-os
 - 05_cognitive_organism
 - canon/cognitive
 - readme

@@ -3,7 +3,6 @@ title: energy moc
 tags:
 - stub
 - energy
-- moc
 - energy-moc
 - kernel-moc
 - 00-home

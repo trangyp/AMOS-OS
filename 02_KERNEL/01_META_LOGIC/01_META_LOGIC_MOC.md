@@ -3,7 +3,6 @@ title: 01 Meta Logic MOC
 type: moc
 source: 02_KERNEL/01_META_LOGIC
 tags:
-- moc
 - 01-meta-logic
 - canon/kernel
 - kernel-meta-logic-contract

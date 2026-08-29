@@ -8,7 +8,6 @@ rscf-state: derived
 tags:
 - index
 - readme
-- moc
 - canon/observability
 - index-observability-readme
 - observability-observability-map

@@ -3,7 +3,6 @@ title: 18 Memory Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/18_MEMORY_MODES
 tags:
-- moc
 - 18-memory-modes
 - canon/control-plane
 - memory-modes-commit-control-plane-readme

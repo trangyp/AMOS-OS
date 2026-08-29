@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-structured-execution-graph-rscf/references
 tags:
 - reference
 - amos-structured-execution-graph-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

@@ -12,7 +12,7 @@ segment: 04_RUNTIME/06_EXECUTION
 artifact_kind: RUNTIME_SPEC
 path: 04_RUNTIME/06_EXECUTION/ADVERSARIAL_VALIDATION_RUNTIME.md
 tags:
-- amos_os
+- amos-os
 - runtime
 - vault
 - 04_runtime
@@ -24,7 +24,7 @@ tags:
 - canon_candidate
 - canon/runtime
 - 06-execution-moc
-- l0-integrity
+- law/L0-integrity
 - design-for-absolute-integrity
 - 00-home
 - 04-runtime-moc

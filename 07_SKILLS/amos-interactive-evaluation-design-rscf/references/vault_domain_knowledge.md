@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-interactive-evaluation-design-rscf/references
 tags:
 - reference
 - amos-interactive-evaluation-design-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

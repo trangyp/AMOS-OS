@@ -9,7 +9,7 @@ description: AMOS agent naming and structure audit produced from .devin/agents a
 tags:
 - note
 - 07-skills
-- canon/skill
+- type/skill
 - skill
 - 07-skills-moc
 rscf:

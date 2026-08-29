@@ -3,7 +3,7 @@ title: SEMANTIC TRANSACTION MAP
 type: map
 source: 03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION/00_INDEX
 tags:
-- control_plane
+- control-plane
 - 00_index
 - canon/control-plane
 - 00-root-map

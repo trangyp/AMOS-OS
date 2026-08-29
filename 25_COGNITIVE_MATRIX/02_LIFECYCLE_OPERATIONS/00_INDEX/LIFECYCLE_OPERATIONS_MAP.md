@@ -3,9 +3,9 @@ title: LIFECYCLE OPERATIONS MAP
 type: lifecycle
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - 00_index
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-map
 - amos-rscf-nodes
 - routing-policy-validation-receipt

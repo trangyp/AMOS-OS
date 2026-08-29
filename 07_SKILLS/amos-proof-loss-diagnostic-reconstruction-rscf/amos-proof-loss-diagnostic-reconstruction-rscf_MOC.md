@@ -3,9 +3,8 @@ title: Amos-Proof-Loss-Diagnostic-Reconstruction-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-proof-loss-diagnostic-reconstruction-rscf
 tags:
-- moc
 - amos-proof-loss-diagnostic-reconstructio
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

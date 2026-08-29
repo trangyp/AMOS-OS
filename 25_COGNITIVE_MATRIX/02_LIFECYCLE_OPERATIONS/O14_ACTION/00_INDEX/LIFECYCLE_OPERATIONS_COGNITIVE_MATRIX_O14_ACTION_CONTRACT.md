@@ -3,9 +3,9 @@ title: LIFECYCLE OPERATIONS COGNITIVE MATRIX O14 ACTION CONTRACT
 type: lifecycle
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O14_ACTION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - o14_action
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy

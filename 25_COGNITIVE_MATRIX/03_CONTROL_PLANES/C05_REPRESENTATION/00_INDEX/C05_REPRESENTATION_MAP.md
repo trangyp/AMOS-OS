@@ -3,9 +3,9 @@ title: C05 REPRESENTATION MAP
 type: map
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C05_REPRESENTATION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - c05_representation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-map
 - amos-rscf-nodes
 - routing-policy-validation-receipt

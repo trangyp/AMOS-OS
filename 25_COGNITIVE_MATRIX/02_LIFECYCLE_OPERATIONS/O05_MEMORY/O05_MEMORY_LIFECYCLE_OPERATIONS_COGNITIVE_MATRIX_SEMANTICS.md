@@ -5,7 +5,7 @@ source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O05_MEMORY
 tags:
 - note
 - o05-memory
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - memory
 - cognitive-matrix-moc
 - 00-root-moc

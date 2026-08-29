@@ -5,7 +5,7 @@ source: 07_SKILLS/skill-creator/references
 tags:
 - reference
 - skill-creator
-- canon/skill
+- type/skill
 - k-meta-logic
 - references-moc
 - 07-skills-moc

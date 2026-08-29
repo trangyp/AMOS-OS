@@ -3,7 +3,7 @@ title: COUNTERFACTUAL MODES COMMIT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/22_COUNTERFACTUAL_MODES
 tags:
-- control_plane
+- control-plane
 - 22_counterfactual_modes
 - canon/control-plane
 - readme

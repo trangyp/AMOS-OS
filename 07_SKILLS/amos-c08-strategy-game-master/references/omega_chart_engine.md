@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-c08-strategy-game-master/references
 tags:
 - reference
 - amos-c08-strategy-game-master
-- canon/skill
+- type/skill
 - amos-c08-strategy-game-master-moc
 - 00-home
 - amos-rscf-nodes

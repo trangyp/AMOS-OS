@@ -3,7 +3,6 @@ title: 04 Strategy MOC — 04 Strategy — 21 Domains / 04 Strategy
 type: moc
 source: 21_DOMAINS/04_STRATEGY
 tags:
-- moc
 - 04-strategy
 - canon/domain
 - directed-systemal-intelligence-domain

@@ -3,8 +3,7 @@ title: INDEX CONTROL PLANE CONTROL PLANE CONTRACT
 type: index
 source: 03_CONTROL_PLANE/00_INDEX
 tags:
-- control_plane
-- index_control_plane_control_plane_contract.md
+- control-plane
 - canon/control-plane
 - control-plane-map
 - index-control-plane-readme

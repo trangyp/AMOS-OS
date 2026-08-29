@@ -3,9 +3,8 @@ title: References MOC — References — Amos Target Of Repair Intelligence
 type: moc
 source: 07_SKILLS/amos-target-of-repair-intelligence/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-target-of-repair-intelligence-moc
 - 00-home

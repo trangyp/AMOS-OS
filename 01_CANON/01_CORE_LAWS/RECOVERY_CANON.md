@@ -14,12 +14,11 @@ path: 01_CANON/01_CORE_LAWS/RECOVERY_CANON.md
 tags:
 - 01_canon
 - 01_core_laws
-- amos_os
+- amos-os
 - canon
 - canon/universe
 - canon_placeholder
 - recovery
-- recovery_canon.md
 - rscf
 - universe
 - placeholder_expanded

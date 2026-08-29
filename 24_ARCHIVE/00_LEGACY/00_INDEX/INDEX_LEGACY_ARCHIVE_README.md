@@ -3,7 +3,7 @@ title: INDEX LEGACY ARCHIVE README
 type: index
 source: 24_ARCHIVE/00_LEGACY/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 24_archive
 - canon/archive
 - readme

@@ -3,7 +3,6 @@ title: 45 Compression Expansion Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/45_COMPRESSION_EXPANSION_MODES
 tags:
-- moc
 - 45-compression-expansion-modes
 - canon/control-plane
 - 09-commit-moc

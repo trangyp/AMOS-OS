@@ -5,7 +5,7 @@ source: 07_SKILLS/arxiv-flash-attention-io-rscf/references
 tags:
 - reference
 - arxiv-flash-attention-io-rscf
-- canon/skill
+- type/skill
 - cosmo-brain-moc
 - references-moc
 - 00-home

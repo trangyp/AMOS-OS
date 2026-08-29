@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-7-part-universe-canon
 tags:
 - note
 - amos-7-part-universe-canon
-- canon/skill
+- type/skill
 - skill
 - amos-7-part-universe-canon-moc
 rscf:

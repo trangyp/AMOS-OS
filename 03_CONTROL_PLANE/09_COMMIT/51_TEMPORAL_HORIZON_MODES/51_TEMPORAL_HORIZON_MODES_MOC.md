@@ -3,7 +3,6 @@ title: 51 Temporal Horizon Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/51_TEMPORAL_HORIZON_MODES
 tags:
-- moc
 - 51-temporal-horizon-modes
 - canon/control-plane
 - 09-commit-moc

@@ -3,9 +3,8 @@ title: 03 Control Planes MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES
 tags:
-- moc
 - 03-control-planes
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-control-planes-contract
 - control-planes-cognitive-matrix-readme
 - 00-index-moc

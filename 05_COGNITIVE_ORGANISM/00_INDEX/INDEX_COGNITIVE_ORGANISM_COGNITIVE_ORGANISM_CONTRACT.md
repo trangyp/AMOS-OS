@@ -3,7 +3,7 @@ title: INDEX COGNITIVE ORGANISM COGNITIVE ORGANISM CONTRACT
 type: index
 source: 05_COGNITIVE_ORGANISM/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 05_cognitive_organism
 - canon/cognitive
 - routing-policy-validation-receipt

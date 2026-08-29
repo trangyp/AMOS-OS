@@ -12,7 +12,7 @@ segment: 01_CANON/00_INDEX
 artifact_kind: FRAMEWORK
 path: 01_CANON/00_INDEX/AMOS_ALL_FRAMEWORKS_CANON_HIERARCHY.md
 tags:
-- amos_os
+- amos-os
 - canon
 - universe
 - 01_canon

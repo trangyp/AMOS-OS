@@ -3,9 +3,9 @@ title: L LOW SCALE MAP
 type: map
 source: 25_COGNITIVE_MATRIX/04_SCALES/L_LOW_SCALE/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l_low_scale
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-map
 - amos-rscf-nodes
 - routing-policy-validation-receipt

@@ -3,7 +3,7 @@ title: C02 MATH COMPUTE DOMAINS C02 MATH COMPUTE CONTRACT
 type: math
 source: 21_DOMAINS/12_C02_MATH_COMPUTE/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - routing-policy-validation-receipt

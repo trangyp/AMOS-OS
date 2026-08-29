@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-fx-bayesian-neural-sde-calibration-rscf-engine/references
 tags:
 - reference
 - amos-fx-bayesian-neural-sde-calibration-rscf-engine
-- canon/skill
+- type/skill
 - adversarial-robustness-governance
 - cosmo-brain-moc
 - references-moc

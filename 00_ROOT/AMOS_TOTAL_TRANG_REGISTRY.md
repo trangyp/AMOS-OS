@@ -13,8 +13,7 @@ artifact_kind: TRANG-FRAMEWORK
 path: 00_ROOT/AMOS_TOTAL_TRANG_REGISTRY.md
 tags:
 - 00_root
-- amos_os
-- amos_total_trang_registry.md
+- amos-os
 - canon/root
 - canon/universe
 - canon_placeholder

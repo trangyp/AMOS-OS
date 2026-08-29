@@ -3,7 +3,7 @@ title: MEMORY KERNEL MEMORY CONTRACT
 type: kernel
 source: 02_KERNEL/05_MEMORY/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 02_kernel
 - canon/kernel
 - memory

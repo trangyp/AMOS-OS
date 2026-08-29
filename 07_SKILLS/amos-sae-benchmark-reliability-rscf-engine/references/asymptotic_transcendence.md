@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-sae-benchmark-reliability-rscf-engine/references
 tags:
 - reference
 - amos-sae-benchmark-reliability-rscf-engine
-- canon/skill
+- type/skill
 - validation
 - references-moc
 - 07-skills-moc

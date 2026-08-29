@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-c10-tech-engineering-master/references
 tags:
 - reference
 - amos-c10-tech-engineering-master
-- canon/skill
+- type/skill
 - amos-c10-tech-engineering-master-moc
 - 00-home
 - amos-rscf-nodes

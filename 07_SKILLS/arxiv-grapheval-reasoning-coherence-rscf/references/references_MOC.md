@@ -3,9 +3,8 @@ title: References MOC — References — Arxiv Grapheval Reasoning Coherence Rsc
 type: moc
 source: 07_SKILLS/arxiv-grapheval-reasoning-coherence-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

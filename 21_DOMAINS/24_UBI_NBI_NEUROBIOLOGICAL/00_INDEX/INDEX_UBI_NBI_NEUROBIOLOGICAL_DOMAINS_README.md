@@ -3,7 +3,7 @@ title: INDEX UBI NBI NEUROBIOLOGICAL DOMAINS README
 type: index
 source: 21_DOMAINS/24_UBI_NBI_NEUROBIOLOGICAL/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - readme

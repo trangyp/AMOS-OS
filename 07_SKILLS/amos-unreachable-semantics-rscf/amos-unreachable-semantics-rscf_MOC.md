@@ -3,9 +3,8 @@ title: Amos-Unreachable-Semantics-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-unreachable-semantics-rscf
 tags:
-- moc
 - amos-unreachable-semantics-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

@@ -3,9 +3,8 @@ title: Amos-C08-Strategy-Game-Master MOC
 type: moc
 source: 07_SKILLS/amos-c08-strategy-game-master
 tags:
-- moc
 - amos-c08-strategy-game-master
-- canon/skill
+- type/skill
 - agent-template
 - skill
 - references-moc

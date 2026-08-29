@@ -3,9 +3,9 @@ title: L27 MULTI AGENT COGNITION MAP
 type: agent
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L27_MULTI_AGENT_COGNITION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l27_multi_agent_cognition
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-map
 - amos-rscf-nodes
 - routing-policy-validation-receipt

@@ -12,7 +12,7 @@ status: PROPOSED_SPECIFICATION
 conclusion_class: UNKNOWN/GAP
 rscf_state: placeholder
 tags:
-- control_plane
+- control-plane
 - commit
 - world_model_modes
 - note

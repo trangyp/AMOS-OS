@@ -3,9 +3,9 @@ title: LIFECYCLE OPERATIONS COGNITIVE MATRIX O15 OBSERVATION CONTRACT
 type: lifecycle
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O15_OBSERVATION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - o15_observation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy

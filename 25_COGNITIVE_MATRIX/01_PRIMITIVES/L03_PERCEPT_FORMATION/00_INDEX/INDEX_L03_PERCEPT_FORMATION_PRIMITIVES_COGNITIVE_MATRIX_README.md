@@ -3,9 +3,9 @@ title: INDEX L03 PERCEPT FORMATION PRIMITIVES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l03_percept_formation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - l03-percept-formation-map
 - 00-home

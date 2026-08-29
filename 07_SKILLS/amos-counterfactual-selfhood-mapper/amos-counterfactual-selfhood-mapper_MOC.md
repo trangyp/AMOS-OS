@@ -3,9 +3,8 @@ title: Amos-Counterfactual-Selfhood-Mapper MOC
 type: moc
 source: 07_SKILLS/amos-counterfactual-selfhood-mapper
 tags:
-- moc
 - amos-counterfactual-selfhood-mapper
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

@@ -36,7 +36,7 @@ resolution_policy:
   - '[[00_HOME]]'
   - '[[AMOS_RSCF_NODES]]'
 tags:
-- amos_os
+- amos-os
 - 13_models
 - 00_index
 - models

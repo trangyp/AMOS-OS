@@ -3,7 +3,6 @@ title: 14 Tools MOC
 type: moc
 source: 14_TOOLS
 tags:
-- moc
 - 14-tools
 - canon/tool
 - tools-readme

@@ -6,7 +6,7 @@ source: 07_SKILLS/amos-arxiv-structure-preserving-variational-neural-fields-rscf
 tags:
 - reference
 - amos-arxiv-structure-preserving-variational-neural
-- canon/skill
+- type/skill
 - 00-home
 - amos-rscf-nodes
 - law-hierarchy

@@ -12,7 +12,7 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: INTELLIGENCE
 path: 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_MUSIC_ACOUSTIC_INTELLIGENCE.md
 tags:
-- amos_os
+- amos-os
 - knowledge
 - vault
 - 11_knowledge

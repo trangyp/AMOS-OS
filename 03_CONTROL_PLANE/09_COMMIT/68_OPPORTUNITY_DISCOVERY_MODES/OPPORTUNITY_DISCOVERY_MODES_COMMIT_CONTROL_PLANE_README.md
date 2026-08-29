@@ -3,7 +3,7 @@ title: OPPORTUNITY DISCOVERY MODES COMMIT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/68_OPPORTUNITY_DISCOVERY_MODES
 tags:
-- control_plane
+- control-plane
 - 68_opportunity_discovery_modes
 - canon/control-plane
 - readme

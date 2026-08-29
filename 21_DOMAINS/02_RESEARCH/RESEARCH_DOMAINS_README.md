@@ -3,7 +3,7 @@ title: RESEARCH DOMAINS README
 type: research
 source: 21_DOMAINS/02_RESEARCH
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - readme

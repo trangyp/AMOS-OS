@@ -3,7 +3,6 @@ title: 06 Semantic Transaction MOC
 type: moc
 source: 03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION
 tags:
-- moc
 - 06-semantic-transaction
 - canon/control-plane
 - canon-semantic-transaction

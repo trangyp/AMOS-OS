@@ -3,11 +3,11 @@ title: COGNITIVE MATRIX O06 MODEL CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O06_MODEL
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - lifecycle_operations
 - o06_model
 - contract
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - cognitive-matrix-moc

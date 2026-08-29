@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-agent-storage-footprint-rscf/references
 tags:
 - reference
 - amos-agent-storage-footprint-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

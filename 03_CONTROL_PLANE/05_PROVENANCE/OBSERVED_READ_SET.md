@@ -3,8 +3,7 @@ title: OBSERVED READ SET
 type: note
 source: 03_CONTROL_PLANE/05_PROVENANCE
 tags:
-- control_plane
-- observed_read_set.md
+- control-plane
 - canon/control-plane
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt

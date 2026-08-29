@@ -13,8 +13,7 @@ artifact_kind: CANON
 path: 00_ROOT/AMOS_CANON_TO_RUNTIME_MAP.md
 tags:
 - 00_root
-- amos_canon_to_runtime_map.md
-- amos_os
+- amos-os
 - canon
 - canon/root
 - canon/universe

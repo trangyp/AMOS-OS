@@ -3,7 +3,7 @@ title: DOMAINS C01 META LOGIC CONTRACT
 type: logic
 source: 21_DOMAINS/11_C01_META_LOGIC
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - routing-policy-validation-receipt

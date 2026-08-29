@@ -3,9 +3,8 @@ title: References MOC — References — Arxiv Selective State Space Rscf
 type: moc
 source: 07_SKILLS/arxiv-selective-state-space-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - arxiv-selective-state-space-rscf-moc
 - 00-home

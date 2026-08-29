@@ -3,9 +3,8 @@ title: References MOC — References — Amos Agent Storage Footprint Rscf
 type: moc
 source: 07_SKILLS/amos-agent-storage-footprint-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - amos-agent-storage-footprint-rscf-code
 - amos-agent-storage-footprint-rscf-moc
 - 00-home

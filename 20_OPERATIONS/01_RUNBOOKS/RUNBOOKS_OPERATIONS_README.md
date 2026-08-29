@@ -3,7 +3,7 @@ title: RUNBOOKS OPERATIONS README
 type: operation
 source: 20_OPERATIONS/01_RUNBOOKS
 tags:
-- amos_os
+- amos-os
 - 20_operations
 - canon/operations
 - readme

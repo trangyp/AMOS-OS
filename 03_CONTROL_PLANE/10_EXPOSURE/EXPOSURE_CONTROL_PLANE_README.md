@@ -3,8 +3,7 @@ title: EXPOSURE CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/10_EXPOSURE
 tags:
-- control_plane
-- exposure_control_plane_readme.md
+- control-plane
 - canon/control-plane
 - readme
 - control-plane-exposure-contract

@@ -3,11 +3,11 @@ title: COGNITIVE MATRIX L26 SOCIAL COGNITION CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L26_SOCIAL_COGNITION
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - primitives
 - l26_social_cognition
 - contract
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - cognitive-matrix-moc

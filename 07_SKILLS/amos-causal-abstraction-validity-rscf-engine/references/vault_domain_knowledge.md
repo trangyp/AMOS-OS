@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-causal-abstraction-validity-rscf-engine/references
 tags:
 - reference
 - amos-causal-abstraction-validity-rscf-engine
-- canon/skill
+- type/skill
 - 07-skills-moc
 - references-moc
 - 00-home

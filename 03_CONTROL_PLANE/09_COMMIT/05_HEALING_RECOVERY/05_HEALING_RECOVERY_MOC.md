@@ -3,7 +3,6 @@ title: 05 Healing Recovery MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/05_HEALING_RECOVERY
 tags:
-- moc
 - 05-healing-recovery
 - canon/control-plane
 - commit-control-plane-activation-rules

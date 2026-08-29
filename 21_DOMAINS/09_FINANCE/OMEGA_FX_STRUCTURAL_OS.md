@@ -12,7 +12,7 @@ segment: 21_DOMAINS/09_FINANCE
 artifact_kind: DOMAIN_OS
 path: 21_DOMAINS/09_FINANCE/OMEGA_FX_STRUCTURAL_OS.md
 tags:
-- amos_os
+- amos-os
 - domain
 - vault
 - 21_domains

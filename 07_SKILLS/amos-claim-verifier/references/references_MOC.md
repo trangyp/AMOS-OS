@@ -3,9 +3,8 @@ title: References MOC — References — Amos Claim Verifier
 type: moc
 source: 07_SKILLS/amos-claim-verifier/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-claim-verifier-moc
 - 00-home

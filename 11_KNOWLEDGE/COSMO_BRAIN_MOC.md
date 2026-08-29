@@ -11,7 +11,6 @@ tags:
 - rscf/provenance
 - rscf/state/observation
 - topic/00-cosmo-brain-moc
-- moc
 - index
 - architecture
 - amos-obsidian-linking-plugins

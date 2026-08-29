@@ -3,8 +3,7 @@ title: CONTROL PLANE OBSERVABILITY CONTRACT
 type: control-plane
 source: 03_CONTROL_PLANE/07_OBSERVABILITY
 tags:
-- control_plane
-- control_plane_observability_contract.md
+- control-plane
 - canon/control-plane
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt

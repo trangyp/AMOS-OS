@@ -5,7 +5,7 @@ source: 07_SKILLS/mckinsey-partnership-ecosystem-strategy-rscf/references
 tags:
 - reference
 - mckinsey-partnership-ecosystem-strategy-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

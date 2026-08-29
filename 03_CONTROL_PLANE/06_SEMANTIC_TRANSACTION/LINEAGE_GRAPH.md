@@ -3,8 +3,7 @@ title: LINEAGE GRAPH
 type: graph
 source: 03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION
 tags:
-- control_plane
-- lineage_graph.md
+- control-plane
 - canon/control-plane
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt

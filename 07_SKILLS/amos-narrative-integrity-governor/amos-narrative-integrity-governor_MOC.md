@@ -3,9 +3,8 @@ title: Amos-Narrative-Integrity-Governor MOC
 type: moc
 source: 07_SKILLS/amos-narrative-integrity-governor
 tags:
-- moc
 - amos-narrative-integrity-governor
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

@@ -13,8 +13,7 @@ artifact_kind: HERITAGE
 path: 00_ROOT/AMOS_ORIGIN_HERITAGE_MASTER.md
 tags:
 - 00_root
-- amos_origin_heritage_master.md
-- amos_os
+- amos-os
 - artifact
 - canon/root
 - canon/universe

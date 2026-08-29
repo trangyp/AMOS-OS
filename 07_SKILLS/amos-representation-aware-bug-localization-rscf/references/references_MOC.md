@@ -3,9 +3,8 @@ title: References MOC — References — Amos Representation Aware Bug Localizat
 type: moc
 source: 07_SKILLS/amos-representation-aware-bug-localization-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

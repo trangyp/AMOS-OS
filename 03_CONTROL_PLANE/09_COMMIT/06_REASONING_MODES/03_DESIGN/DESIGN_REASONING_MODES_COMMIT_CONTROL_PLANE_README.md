@@ -3,7 +3,7 @@ title: DESIGN REASONING MODES COMMIT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/03_DESIGN
 tags:
-- control_plane
+- control-plane
 - 06_reasoning_modes/03_design
 - canon/control-plane
 - readme

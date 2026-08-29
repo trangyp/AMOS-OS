@@ -3,9 +3,8 @@ title: Index MOC — Cognitive Matrix / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/00_INDEX
 tags:
-- moc
 - 00-index
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-architecture
 - cognitive-matrix-map
 - cognitive-matrix-naming-standard

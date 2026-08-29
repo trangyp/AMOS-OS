@@ -3,9 +3,8 @@ title: References MOC — References — Amos Future Debt Option Value Governor
 type: moc
 source: 07_SKILLS/amos-future-debt-option-value-governor/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

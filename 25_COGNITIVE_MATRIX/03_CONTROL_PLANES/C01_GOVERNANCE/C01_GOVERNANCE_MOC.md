@@ -3,9 +3,8 @@ title: C01 Governance MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C01_GOVERNANCE
 tags:
-- moc
 - c01-governance
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-c01-governance-contract
 - 00-index-moc
 - 03-control-planes-moc

@@ -3,7 +3,6 @@ title: 41 Decision Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/41_DECISION_MODES
 tags:
-- moc
 - 41-decision-modes
 - canon/control-plane
 - 09-commit-moc

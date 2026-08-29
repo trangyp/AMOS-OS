@@ -3,9 +3,8 @@ title: L20 Credit Assignment MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L20_CREDIT_ASSIGNMENT
 tags:
-- moc
 - l20-credit-assignment
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-index-moc
 - 01-primitives-moc
 - cognitive-matrix-l20-credit-assignment-contract

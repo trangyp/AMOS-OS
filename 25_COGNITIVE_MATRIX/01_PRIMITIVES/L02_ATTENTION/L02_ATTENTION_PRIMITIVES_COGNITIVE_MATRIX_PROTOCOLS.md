@@ -14,14 +14,13 @@ path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_C
 tags:
 - 01_primitives
 - 25_cognitive_matrix
-- amos_os
+- amos-os
 - attention
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - canon/universe
 - cognitive
-- cognitive_matrix
+- cognitive-matrix
 - l02_attention
-- l02_attention_primitives_cognitive_matrix_protocols.md
 - matrix
 - note
 - primitives

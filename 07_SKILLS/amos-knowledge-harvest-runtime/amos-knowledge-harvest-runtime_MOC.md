@@ -3,9 +3,8 @@ title: Amos-Knowledge-Harvest-Runtime MOC
 type: moc
 source: 07_SKILLS/amos-knowledge-harvest-runtime
 tags:
-- moc
 - amos-knowledge-harvest-runtime
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

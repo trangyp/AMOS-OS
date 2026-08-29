@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-c03-physics-cosmos-master/references
 tags:
 - reference
 - amos-c03-physics-cosmos-master
-- canon/skill
+- type/skill
 - cosmo-brain-moc
 - references-moc
 - 00-home

@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-structured-document-parsing-rscf/references
 tags:
 - reference
 - amos-structured-document-parsing-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

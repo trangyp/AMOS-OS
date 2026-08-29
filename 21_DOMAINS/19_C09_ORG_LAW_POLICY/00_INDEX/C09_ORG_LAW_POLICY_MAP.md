@@ -3,7 +3,7 @@ title: C09 ORG LAW POLICY MAP
 type: map
 source: 21_DOMAINS/19_C09_ORG_LAW_POLICY/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - index-c09-org-law-policy-domains-readme

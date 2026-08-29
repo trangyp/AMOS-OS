@@ -16,7 +16,7 @@ source: 12_STATE
 path: 12_STATE/STATE_STATE_CONTRACT.md
 tags:
 - amos
-- amos_os
+- amos-os
 - amos/state
 - amos/state-plane
 - amos/state-contract
@@ -4777,3 +4777,4 @@ AMOS MOC
 ```
 
 The key boundary remains unchanged from your seed: the `19/19` routing and `17/17` authz validators are **patterns, not validation evidence for this State contract**. Likewise, concepts such as MVCC/CAS, atomic multi-RSCF reasoning, causal-epoch finality, and shard-local finalization above are explicitly architecture/model semantics rather than claims of a verified distributed runtime.
+```

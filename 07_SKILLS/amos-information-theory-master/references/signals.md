@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-information-theory-master/references
 tags:
 - reference
 - amos-information-theory-master
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

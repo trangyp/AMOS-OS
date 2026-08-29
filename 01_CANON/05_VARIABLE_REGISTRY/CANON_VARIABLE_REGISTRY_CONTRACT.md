@@ -3,7 +3,7 @@ title: CANON VARIABLE REGISTRY CONTRACT
 type: canon
 source: 01_CANON/05_VARIABLE_REGISTRY
 tags:
-- amos_os
+- amos-os
 - 01_canon
 - canon/universe
 - routing-policy-validation-receipt

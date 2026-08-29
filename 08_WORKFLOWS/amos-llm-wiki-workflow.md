@@ -9,7 +9,7 @@ title: AMOS LLM Wiki
 tags:
 - type/workflow
 - domain/knowledge
-- amos_os
+- amos-os
 - law-stack-enforcement-pipeline-moc
 - 00-home
 ---

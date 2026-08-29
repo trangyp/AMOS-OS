@@ -3,7 +3,7 @@ title: INDEX STATE README
 type: index
 source: 12_STATE/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 12_state
 - canon/state
 - readme

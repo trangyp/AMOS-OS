@@ -3,7 +3,6 @@ title: misc moc
 tags:
 - stub
 - misc
-- moc
 - misc-moc
 - kernel-moc
 - 00-home

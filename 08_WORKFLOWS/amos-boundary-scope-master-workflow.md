@@ -10,12 +10,12 @@ Trigger: AMOS Boundary & Scope — scope regimes, boundary admission, context co
 Version: 1.0.0
 tags:
 - type/workflow
-- canon/workflow
+- type/workflow
 - domain/boundary-scope
-- rscf/source_claim
+- epistemic/source_claim
 - hml/m
 - epistemic/source_claim
-- amos_os
+- amos-os
 - 08-workflows-moc
 rscf:
   state: AMOS_MODEL

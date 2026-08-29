@@ -3,7 +3,7 @@ title: PAPERS MAP
 type: map
 source: 22_RESEARCH/01_PAPERS/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 22_research
 - canon/research
 - index-papers-research-readme

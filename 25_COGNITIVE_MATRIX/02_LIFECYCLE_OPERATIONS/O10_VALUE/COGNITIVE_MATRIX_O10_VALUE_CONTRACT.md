@@ -3,11 +3,11 @@ title: COGNITIVE MATRIX O10 VALUE CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O10_VALUE
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - lifecycle_operations
 - o10_value
 - contract
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - cognitive-matrix-moc

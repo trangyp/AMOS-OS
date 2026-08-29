@@ -3,9 +3,8 @@ title: References MOC — References — Amos Deterministic Ai Control Plane
 type: moc
 source: 07_SKILLS/amos-deterministic-ai-control-plane/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-deterministic-ai-control-plane-moc
 - 00-home

@@ -3,9 +3,8 @@ title: Amos-C03-Physics-Cosmos-Master MOC
 type: moc
 source: 07_SKILLS/amos-c03-physics-cosmos-master
 tags:
-- moc
 - amos-c03-physics-cosmos-master
-- canon/skill
+- type/skill
 - agent-template
 - skill
 - references-moc

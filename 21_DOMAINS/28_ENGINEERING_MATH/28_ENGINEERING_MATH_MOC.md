@@ -3,7 +3,6 @@ title: 28 Engineering Math MOC
 type: moc
 source: 21_DOMAINS/28_ENGINEERING_MATH
 tags:
-- moc
 - 28-engineering-math
 - canon/domain
 - domains-engineering-math-contract

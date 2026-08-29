@@ -7,7 +7,7 @@ tags:
 - core_law
 - firewall
 - epistemic_boundary
-- l0-integrity
+- law/L0-integrity
 - 01-core-laws-moc
 - provenance-x-confidence
 - l5-scope-regime

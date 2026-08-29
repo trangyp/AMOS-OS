@@ -3,7 +3,7 @@ title: FINANCE DOMAINS DOMAIN SPEC
 type: finance
 source: 21_DOMAINS/09_FINANCE
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - routing-policy-validation-receipt

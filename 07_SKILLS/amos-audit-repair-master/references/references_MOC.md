@@ -3,9 +3,8 @@ title: References MOC — References — Amos Audit Repair Master
 type: moc
 source: 07_SKILLS/amos-audit-repair-master/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - 11k-cross-skill-proof-composition
 - 11k-known-gaps
 - audit-quality-engine

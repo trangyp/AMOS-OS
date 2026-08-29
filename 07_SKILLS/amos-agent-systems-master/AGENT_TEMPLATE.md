@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-agent-systems-master
 tags:
 - note
 - amos-agent-systems-master
-- canon/skill
+- type/skill
 - skill
 - amos-agent-systems-master-moc
 rscf:

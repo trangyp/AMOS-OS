@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-governed-executable-knowledge-repair-rscf/references
 tags:
 - reference
 - amos-governed-executable-knowledge-repair-rscf
-- canon/skill
+- type/skill
 - 00-home
 - amos-rscf-nodes
 - law-hierarchy

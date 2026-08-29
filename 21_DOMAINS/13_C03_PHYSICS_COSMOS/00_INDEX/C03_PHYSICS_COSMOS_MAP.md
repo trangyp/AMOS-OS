@@ -3,7 +3,7 @@ title: C03 PHYSICS COSMOS MAP
 type: map
 source: 21_DOMAINS/13_C03_PHYSICS_COSMOS/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - index-c03-physics-cosmos-domains-readme

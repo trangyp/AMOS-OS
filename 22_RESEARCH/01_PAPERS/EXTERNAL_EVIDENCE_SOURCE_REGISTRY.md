@@ -12,7 +12,7 @@ segment: 22_RESEARCH/01_PAPERS
 artifact_kind: REGISTRY
 path: 22_RESEARCH/01_PAPERS/EXTERNAL_EVIDENCE_SOURCE_REGISTRY.md
 tags:
-- amos_os
+- amos-os
 - research
 - vault
 - 22_research

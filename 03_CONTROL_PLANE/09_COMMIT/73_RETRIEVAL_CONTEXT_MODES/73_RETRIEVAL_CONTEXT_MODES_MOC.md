@@ -3,7 +3,6 @@ title: 73 Retrieval Context Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/73_RETRIEVAL_CONTEXT_MODES
 tags:
-- moc
 - 73-retrieval-context-modes
 - canon/control-plane
 - 09-commit-moc

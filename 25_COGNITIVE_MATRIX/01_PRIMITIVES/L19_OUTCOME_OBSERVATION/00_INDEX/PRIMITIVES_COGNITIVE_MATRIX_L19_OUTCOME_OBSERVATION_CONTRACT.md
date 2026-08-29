@@ -3,9 +3,9 @@ title: PRIMITIVES COGNITIVE MATRIX L19 OUTCOME OBSERVATION CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L19_OUTCOME_OBSERVATION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l19_outcome_observation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - validation-evidence
 - 00-root-moc
 - amos-moc

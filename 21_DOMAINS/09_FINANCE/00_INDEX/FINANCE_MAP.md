@@ -3,7 +3,7 @@ title: FINANCE MAP
 type: map
 source: 21_DOMAINS/09_FINANCE/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - finance-domains-finance-contract

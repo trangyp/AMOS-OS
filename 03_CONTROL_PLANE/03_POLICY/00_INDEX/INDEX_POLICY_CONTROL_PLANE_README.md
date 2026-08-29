@@ -3,7 +3,7 @@ title: INDEX POLICY CONTROL PLANE README
 type: index
 source: 03_CONTROL_PLANE/03_POLICY/00_INDEX
 tags:
-- control_plane
+- control-plane
 - 00_index
 - canon/control-plane
 - readme

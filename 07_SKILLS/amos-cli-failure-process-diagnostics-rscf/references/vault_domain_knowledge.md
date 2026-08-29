@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-cli-failure-process-diagnostics-rscf/references
 tags:
 - reference
 - amos-cli-failure-process-diagnostics-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

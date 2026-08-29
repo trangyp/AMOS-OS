@@ -3,9 +3,8 @@ title: References MOC — References — Amos Tensor Network Contraction Sketch 
 type: moc
 source: 07_SKILLS/amos-tensor-network-contraction-sketch-rscf-engine/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

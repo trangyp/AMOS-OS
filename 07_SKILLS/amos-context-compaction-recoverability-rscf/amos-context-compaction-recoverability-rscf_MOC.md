@@ -3,9 +3,8 @@ title: Amos-Context-Compaction-Recoverability-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-context-compaction-recoverability-rscf
 tags:
-- moc
 - amos-context-compaction-recoverability-r
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

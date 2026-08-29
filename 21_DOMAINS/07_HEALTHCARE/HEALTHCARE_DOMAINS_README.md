@@ -3,7 +3,7 @@ title: HEALTHCARE DOMAINS README
 type: note
 source: 21_DOMAINS/07_HEALTHCARE
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - readme

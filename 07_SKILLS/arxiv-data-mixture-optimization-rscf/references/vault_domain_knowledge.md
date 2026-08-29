@@ -5,7 +5,7 @@ source: 07_SKILLS/arxiv-data-mixture-optimization-rscf/references
 tags:
 - reference
 - arxiv-data-mixture-optimization-rscf
-- canon/skill
+- type/skill
 - cosmo-brain-moc
 - 2026-08-22-amos-all-249-gaps-closed
 - references-moc

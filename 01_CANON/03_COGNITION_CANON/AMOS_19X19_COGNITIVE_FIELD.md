@@ -17,7 +17,7 @@ schema_family: RSCF
 schema_role: COGNITIVE_FIELD_RSCF
 schema_version: AMOS_CORE_v4.4-compatible-conceptual
 tags:
-- amos_os
+- amos-os
 - canon
 - cognition
 - universe

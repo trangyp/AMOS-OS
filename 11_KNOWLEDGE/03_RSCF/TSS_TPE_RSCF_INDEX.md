@@ -12,7 +12,7 @@ segment: 11_KNOWLEDGE/03_RSCF
 artifact_kind: INDEX
 path: 11_KNOWLEDGE/03_RSCF/TSS_TPE_RSCF_INDEX.md
 tags:
-- amos_os
+- amos-os
 - knowledge
 - vault
 - 11_knowledge

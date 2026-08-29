@@ -3,9 +3,9 @@ title: INDEX O12 PLAN LIFECYCLE OPERATIONS COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O12_PLAN/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - o12_plan
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - o12-plan-map
 - 00-home

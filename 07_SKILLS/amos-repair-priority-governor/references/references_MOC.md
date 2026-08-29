@@ -3,9 +3,8 @@ title: References MOC — References — Amos Repair Priority Governor
 type: moc
 source: 07_SKILLS/amos-repair-priority-governor/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-repair-priority-governor-moc
 - 00-home

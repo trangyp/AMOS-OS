@@ -3,9 +3,8 @@ title: References MOC — References — Amos Universe Viability Modeler
 type: moc
 source: 07_SKILLS/amos-universe-viability-modeler/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-universe-viability-modeler-moc
 - 00-home

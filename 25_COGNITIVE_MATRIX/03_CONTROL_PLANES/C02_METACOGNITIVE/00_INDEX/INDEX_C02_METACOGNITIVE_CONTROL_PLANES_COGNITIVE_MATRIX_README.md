@@ -3,9 +3,9 @@ title: INDEX C02 METACOGNITIVE CONTROL PLANES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C02_METACOGNITIVE/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - c02_metacognitive
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - c02-metacognitive-map
 - 00-home

@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-distinction-relation-constraint-rscf-algebra/references
 tags:
 - reference
 - amos-distinction-relation-constraint-rscf-algebra
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

@@ -3,7 +3,7 @@ title: PAPERS RESEARCH PAPERS CONTRACT
 type: research
 source: 22_RESEARCH/01_PAPERS/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 22_research
 - canon/research
 - routing-policy-validation-receipt

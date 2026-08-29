@@ -3,9 +3,8 @@ title: References MOC — References — Arxiv Anytime Pac Bayes Density Ratio R
 type: moc
 source: 07_SKILLS/arxiv-anytime-pac-bayes-density-ratio-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

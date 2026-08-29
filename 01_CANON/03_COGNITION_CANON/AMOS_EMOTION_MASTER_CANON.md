@@ -12,7 +12,7 @@ segment: 01_CANON/03_COGNITION_CANON
 artifact_kind: CANON
 path: 01_CANON/03_COGNITION_CANON/AMOS_EMOTION_MASTER_CANON.md
 tags:
-- amos_os
+- amos-os
 - amos_emotion
 - amos_emotion_master_canon
 - emotion

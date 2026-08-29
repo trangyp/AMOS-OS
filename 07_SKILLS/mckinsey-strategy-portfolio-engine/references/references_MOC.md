@@ -3,9 +3,8 @@ title: References MOC — References — Mckinsey Strategy Portfolio Engine
 type: moc
 source: 07_SKILLS/mckinsey-strategy-portfolio-engine/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - mckinsey-strategy-portfolio-engine-moc
 - 00-home

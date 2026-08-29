@@ -3,7 +3,7 @@ title: BIOLOGY DOMAINS README
 type: biology
 source: 21_DOMAINS/06_BIOLOGY
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - readme

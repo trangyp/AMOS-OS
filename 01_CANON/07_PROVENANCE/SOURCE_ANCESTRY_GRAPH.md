@@ -12,7 +12,7 @@ segment: 01_CANON/07_PROVENANCE
 artifact_kind: ARTIFACT
 path: 01_CANON/07_PROVENANCE/SOURCE_ANCESTRY_GRAPH.md
 tags:
-- amos_os
+- amos-os
 - canon
 - universe
 - 01_canon

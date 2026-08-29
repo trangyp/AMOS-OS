@@ -3,7 +3,6 @@ title: 43 Geo Geopolitics MOC
 type: moc
 source: 21_DOMAINS/43_GEO_GEOPOLITICS
 tags:
-- moc
 - 43-geo-geopolitics
 - canon/domain
 - domains-geo-geopolitics-contract

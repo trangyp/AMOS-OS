@@ -16,9 +16,9 @@ tags:
 - amos-moc
 - 00-home
 - amos-rscf-nodes
-- l0-integrity
-- l1-epistemic
-- l2-provenance
+- law/L0-integrity
+- law/L1-epistemic
+- law/L2-provenance
 - core-laws-map
 - core-laws-canon-core-laws-contract
 - 01-core-laws-moc

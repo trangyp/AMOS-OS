@@ -3,9 +3,8 @@ title: Amos-Human-State-Ontology-Mapper MOC
 type: moc
 source: 07_SKILLS/amos-human-state-ontology-mapper
 tags:
-- moc
 - amos-human-state-ontology-mapper
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

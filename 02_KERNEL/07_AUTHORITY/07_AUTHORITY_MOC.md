@@ -3,7 +3,6 @@ title: 07 Authority MOC
 type: moc
 source: 02_KERNEL/07_AUTHORITY
 tags:
-- moc
 - 07-authority
 - canon/kernel
 - authority-kernel-readme

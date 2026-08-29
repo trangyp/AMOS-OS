@@ -3,9 +3,9 @@ title: INDEX O14 ACTION LIFECYCLE OPERATIONS COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O14_ACTION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - o14_action
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - o14-action-map
 - 00-home

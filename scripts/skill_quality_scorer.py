@@ -199,7 +199,7 @@ def score_skill(skill_dir: Path, all_skill_names: set) -> dict:
 
     content = skill_md.read_text(encoding="utf-8")
     fm = parse_frontmatter(content)
-    body = content.split('---', 2)[-1] if '---' in content else content
+    body = re.split(r"^---\s*$", content, 2, flags=re.MULTILINE)[-1]
     body_lines = body.strip().split('\n')
     body_line_count = len(body_lines)
 

@@ -17,7 +17,7 @@ artifact_kind: README
 package_role: KERNEL_SEGMENT_ORIENTATION_AND_INTEGRATION_MAP
 path: 02_KERNEL/01_META_LOGIC/META_LOGIC_KERNEL_README.md
 tags:
-- amos_os
+- amos-os
 - kernel
 - core
 - 02_kernel

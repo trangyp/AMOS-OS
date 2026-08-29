@@ -3,9 +3,9 @@ title: INDEX C01 GOVERNANCE CONTROL PLANES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C01_GOVERNANCE/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - c01_governance
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - c01-governance-map
 - 00-home

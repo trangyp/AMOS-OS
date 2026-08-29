@@ -3,7 +3,7 @@ title: MODALITY TRANSLATION MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/70_MODALITY_TRANSLATION_MODES
 tags:
-- control_plane
+- control-plane
 - 70_modality_translation_modes
 - canon/control-plane
 - authz-engine-validation-receipt

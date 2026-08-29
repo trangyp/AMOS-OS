@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-attention-allocation-governor/references
 tags:
 - reference
 - amos-attention-allocation-governor
-- canon/skill
+- type/skill
 - ratpak
 - references-moc
 - 07-skills-moc

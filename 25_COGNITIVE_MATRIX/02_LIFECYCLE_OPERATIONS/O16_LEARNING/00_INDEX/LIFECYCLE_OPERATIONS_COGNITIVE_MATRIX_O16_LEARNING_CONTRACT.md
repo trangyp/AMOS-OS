@@ -3,9 +3,9 @@ title: LIFECYCLE OPERATIONS COGNITIVE MATRIX O16 LEARNING CONTRACT
 type: lifecycle
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O16_LEARNING/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - o16_learning
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy

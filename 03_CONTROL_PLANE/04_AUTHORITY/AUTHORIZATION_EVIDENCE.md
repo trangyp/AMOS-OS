@@ -3,7 +3,7 @@ title: AUTHORIZATION EVIDENCE
 type: evidence
 source: 03_CONTROL_PLANE/04_AUTHORITY
 tags:
-- control_plane
+- control-plane
 - authority
 - note
 - canon/control-plane

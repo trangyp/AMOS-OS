@@ -3,7 +3,7 @@ title: CONTROL PLANE MAP
 type: map
 source: 03_CONTROL_PLANE/00_INDEX
 tags:
-- control_plane
+- control-plane
 - index
 - map
 - canon/control-plane

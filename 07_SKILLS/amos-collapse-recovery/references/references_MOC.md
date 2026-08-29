@@ -3,9 +3,8 @@ title: References MOC — References — Amos Collapse Recovery
 type: moc
 source: 07_SKILLS/amos-collapse-recovery/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-collapse-recovery-moc
 - 00-home

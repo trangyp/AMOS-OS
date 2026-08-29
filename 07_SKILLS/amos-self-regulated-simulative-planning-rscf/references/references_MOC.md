@@ -3,9 +3,8 @@ title: References MOC — References — Amos Self Regulated Simulative Planning
 type: moc
 source: 07_SKILLS/amos-self-regulated-simulative-planning-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

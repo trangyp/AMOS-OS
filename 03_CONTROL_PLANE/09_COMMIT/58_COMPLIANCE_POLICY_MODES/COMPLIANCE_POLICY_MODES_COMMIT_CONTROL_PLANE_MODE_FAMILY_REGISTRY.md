@@ -3,7 +3,7 @@ title: COMPLIANCE POLICY MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/58_COMPLIANCE_POLICY_MODES
 tags:
-- control_plane
+- control-plane
 - 58_compliance_policy_modes
 - canon/control-plane
 - authz-engine-validation-receipt

@@ -3,9 +3,8 @@ title: References MOC — References — Amos Forex Unified Os Updated
 type: moc
 source: 07_SKILLS/amos-forex-unified-os-updated/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-forex-unified-os-updated-moc
 - 00-home

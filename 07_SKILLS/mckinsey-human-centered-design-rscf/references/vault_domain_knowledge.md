@@ -5,7 +5,7 @@ source: 07_SKILLS/mckinsey-human-centered-design-rscf/references
 tags:
 - reference
 - mckinsey-human-centered-design-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

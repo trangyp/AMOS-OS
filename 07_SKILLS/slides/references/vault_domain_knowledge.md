@@ -5,7 +5,7 @@ source: 07_SKILLS/slides/references
 tags:
 - reference
 - slides
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

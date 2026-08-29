@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-formally-verified-migration-rscf/references
 tags:
 - reference
 - amos-formally-verified-migration-rscf
-- canon/skill
+- type/skill
 - skill
 - equation-firewall
 - 2026-08-22-trang-phi-framework

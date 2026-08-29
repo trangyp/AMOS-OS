@@ -3,7 +3,6 @@ tags:
 - knowledge
 - obsidian
 - linking
-- plugins.md
 - plugins
 - canonical-node-a
 - canonical-node-b

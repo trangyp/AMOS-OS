@@ -9,7 +9,7 @@ title: Kimi K3 in C Workflow
 tags:
 - type/workflow
 - domain/tech-engineering
-- amos_os
+- amos-os
 - skill
 - 08-workflows-moc
 - law-stack-enforcement-pipeline-moc

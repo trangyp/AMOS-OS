@@ -3,8 +3,7 @@ title: EFFECT RELEASE STATE
 type: state
 source: 03_CONTROL_PLANE/08_EFFECTS
 tags:
-- control_plane
-- effect_release_state.md
+- control-plane
 - canon/control-plane
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt

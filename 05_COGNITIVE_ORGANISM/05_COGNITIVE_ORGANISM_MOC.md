@@ -3,7 +3,6 @@ title: 05 Cognitive Organism MOC
 type: moc
 source: 05_COGNITIVE_ORGANISM
 tags:
-- moc
 - 05-cognitive-organism
 - canon/cognitive
 - attention-engine

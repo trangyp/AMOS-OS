@@ -7,7 +7,6 @@ tags:
 - master
 - references
 - detailed
-- moc
 - references-moc
 - 00-home
 ---

@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-c02-math-compute-master/references
 tags:
 - reference
 - amos-c02-math-compute-master
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

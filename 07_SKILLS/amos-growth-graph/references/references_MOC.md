@@ -3,9 +3,8 @@ title: References MOC — References — Amos Growth Graph
 type: moc
 source: 07_SKILLS/amos-growth-graph/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-growth-graph-moc
 - 00-home

@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-neural-computation-mapper/references
 tags:
 - reference
 - amos-neural-computation-mapper
-- canon/skill
+- type/skill
 - architecture
 - references-moc
 - 07-skills-moc

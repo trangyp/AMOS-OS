@@ -3,7 +3,7 @@ title: INDEX C08 STRATEGY GAME DOMAINS README
 type: index
 source: 21_DOMAINS/18_C08_STRATEGY_GAME/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - readme

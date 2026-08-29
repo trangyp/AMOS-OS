@@ -3,7 +3,7 @@ title: 00 ROOT MAP
 type: map
 source: 00_ROOT
 tags:
-- amos_os
+- amos-os
 - 00_root
 - canon/root
 - 00-home

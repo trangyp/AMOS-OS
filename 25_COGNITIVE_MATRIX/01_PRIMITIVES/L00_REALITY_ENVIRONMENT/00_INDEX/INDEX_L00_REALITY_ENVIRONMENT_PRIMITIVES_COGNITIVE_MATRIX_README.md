@@ -3,9 +3,9 @@ title: INDEX L00 REALITY ENVIRONMENT PRIMITIVES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l00_reality_environment
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - l00-reality-environment-map
 - 00-home

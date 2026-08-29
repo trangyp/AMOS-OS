@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-metacognitive-confidence-auditor/references
 tags:
 - reference
 - amos-metacognitive-confidence-auditor
-- canon/skill
+- type/skill
 - 07-skills-moc
 - references-moc
 - 00-home

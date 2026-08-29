@@ -5,7 +5,7 @@ source: 25_COGNITIVE_MATRIX/07_COVERAGE
 tags:
 - note
 - 07-coverage
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-moc
 - 00-root-moc
 - amos-moc

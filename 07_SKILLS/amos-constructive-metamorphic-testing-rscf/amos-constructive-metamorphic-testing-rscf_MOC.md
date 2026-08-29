@@ -3,9 +3,8 @@ title: Amos-Constructive-Metamorphic-Testing-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-constructive-metamorphic-testing-rscf
 tags:
-- moc
 - amos-constructive-metamorphic-testing-rs
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

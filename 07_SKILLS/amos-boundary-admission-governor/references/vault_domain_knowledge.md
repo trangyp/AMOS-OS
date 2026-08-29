@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-boundary-admission-governor/references
 tags:
 - reference
 - amos-boundary-admission-governor
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

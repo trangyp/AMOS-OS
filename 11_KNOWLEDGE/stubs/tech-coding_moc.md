@@ -4,7 +4,6 @@ tags:
 - stub
 - tech
 - coding
-- moc
 - tech-coding-moc
 - kernel-moc
 - 00-home

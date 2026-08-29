@@ -3,9 +3,8 @@ title: References MOC — References — Amos Universal Coordinate System
 type: moc
 source: 07_SKILLS/amos-universal-coordinate-system/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-universal-coordinate-system-moc
 - 00-home

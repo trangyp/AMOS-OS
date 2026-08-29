@@ -24,7 +24,7 @@ native_source:
   raw_source_preserved: true
 native_framework_title: KHUNG TRANG — HỆ HÌNH THỨC ĐỘNG HÌNH ĐỆ QUY SINH TỒN
 tags:
-- amos_os
+- amos-os
 - canon
 - universe
 - khung_trang

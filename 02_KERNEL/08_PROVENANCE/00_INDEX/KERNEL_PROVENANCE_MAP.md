@@ -3,7 +3,7 @@ title: KERNEL PROVENANCE MAP
 type: kernel
 source: 02_KERNEL/08_PROVENANCE/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 02_kernel
 - canon/kernel
 - index-provenance-kernel-readme

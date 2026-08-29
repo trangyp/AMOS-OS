@@ -3,9 +3,8 @@ title: C04 Reasoning MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C04_REASONING
 tags:
-- moc
 - c04-reasoning
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-c04-reasoning-contract
 - 00-index-moc
 - 03-control-planes-moc

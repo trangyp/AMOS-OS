@@ -3,7 +3,7 @@ title: C04 BIO NEURO DOMAINS README
 type: neural
 source: 21_DOMAINS/14_C04_BIO_NEURO
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - readme

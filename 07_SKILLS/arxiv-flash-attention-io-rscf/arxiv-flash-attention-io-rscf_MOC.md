@@ -3,9 +3,8 @@ title: Arxiv-Flash-Attention-Io-Rscf MOC
 type: moc
 source: 07_SKILLS/arxiv-flash-attention-io-rscf
 tags:
-- moc
 - arxiv-flash-attention-io-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

@@ -3,9 +3,8 @@ title: Amos-Repair-Allocation-Optimizer MOC
 type: moc
 source: 07_SKILLS/amos-repair-allocation-optimizer
 tags:
-- moc
 - amos-repair-allocation-optimizer
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

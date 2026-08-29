@@ -12,7 +12,7 @@ source: 01_CANON/02_UNIVERSE_CANON
 steward: Trang Phan
 system: AMOS OS
 tags:
-- amos_os
+- amos-os
 - canon
 - universe_canon
 - governance

@@ -3,9 +3,9 @@ title: LIFECYCLE OPERATIONS COGNITIVE MATRIX O02 RELATION CONTRACT
 type: lifecycle
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O02_RELATION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - o02_relation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy

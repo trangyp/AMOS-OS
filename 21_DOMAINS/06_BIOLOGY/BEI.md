@@ -12,7 +12,7 @@ segment: 21_DOMAINS/06_BIOLOGY
 artifact_kind: DOMAIN_ENGINE
 path: 21_DOMAINS/06_BIOLOGY/BEI.md
 tags:
-- amos_os
+- amos-os
 - domain
 - vault
 - 21_domains

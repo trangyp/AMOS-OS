@@ -3,7 +3,7 @@ title: TRANSACTION COMMIT MODES COMMIT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/81_TRANSACTION_COMMIT_MODES
 tags:
-- control_plane
+- control-plane
 - 81_transaction_commit_modes
 - canon/control-plane
 - readme

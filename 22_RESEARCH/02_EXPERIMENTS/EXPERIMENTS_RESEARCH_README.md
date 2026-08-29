@@ -3,7 +3,7 @@ title: EXPERIMENTS RESEARCH README
 type: research
 source: 22_RESEARCH/02_EXPERIMENTS
 tags:
-- amos_os
+- amos-os
 - 22_research
 - canon/research
 - readme

@@ -3,9 +3,8 @@ title: Amos-Cost-Aware-Test-Supervision-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-cost-aware-test-supervision-rscf
 tags:
-- moc
 - amos-cost-aware-test-supervision-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

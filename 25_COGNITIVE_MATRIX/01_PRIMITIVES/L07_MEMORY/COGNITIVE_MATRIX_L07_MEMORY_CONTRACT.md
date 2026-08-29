@@ -3,11 +3,11 @@ title: COGNITIVE MATRIX L07 MEMORY CONTRACT
 type: memory
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L07_MEMORY
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - primitives
 - l07_memory
 - contract
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - cognitive-matrix-moc

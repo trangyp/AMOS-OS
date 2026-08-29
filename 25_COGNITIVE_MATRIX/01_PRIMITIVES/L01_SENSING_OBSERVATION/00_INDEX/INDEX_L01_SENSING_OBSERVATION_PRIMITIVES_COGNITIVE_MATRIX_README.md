@@ -3,9 +3,9 @@ title: INDEX L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l01_sensing_observation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - l01-sensing-observation-map
 - 00-home

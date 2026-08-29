@@ -3,7 +3,7 @@ title: INDEX SCHEMAS README
 type: index
 source: 16_SCHEMAS/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 16_schemas
 - canon/schema
 - readme

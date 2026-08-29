@@ -3,7 +3,7 @@ title: DEPENDENCY TRACE MODES COMMIT CONTROL PLANE README
 type: dependency
 source: 03_CONTROL_PLANE/09_COMMIT/88_DEPENDENCY_TRACE_MODES
 tags:
-- control_plane
+- control-plane
 - 88_dependency_trace_modes
 - canon/control-plane
 - readme

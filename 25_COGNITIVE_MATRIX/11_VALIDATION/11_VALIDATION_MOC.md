@@ -3,9 +3,8 @@ title: 11 Validation MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/11_VALIDATION
 tags:
-- moc
 - 11-validation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-validation-contract
 - l00-reality-validation-receipt
 - promotion-gates

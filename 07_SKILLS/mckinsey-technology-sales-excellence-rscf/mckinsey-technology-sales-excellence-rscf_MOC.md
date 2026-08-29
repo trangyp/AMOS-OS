@@ -3,9 +3,8 @@ title: Mckinsey-Technology-Sales-Excellence-Rscf MOC
 type: moc
 source: 07_SKILLS/mckinsey-technology-sales-excellence-rscf
 tags:
-- moc
 - mckinsey-technology-sales-excellence-rsc
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

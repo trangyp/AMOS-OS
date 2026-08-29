@@ -3,8 +3,7 @@ title: RESERVATION TRANSACTION REVIEW
 type: action
 source: 03_CONTROL_PLANE/04_AUTHORITY
 tags:
-- control_plane
-- reservation_transaction_review.md
+- control-plane
 - canon/control-plane
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt

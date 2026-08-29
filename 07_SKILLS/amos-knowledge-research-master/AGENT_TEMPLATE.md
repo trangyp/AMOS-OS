@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-knowledge-research-master
 tags:
 - note
 - amos-knowledge-research-master
-- canon/skill
+- type/skill
 - skill
 - amos-knowledge-research-master-moc
 rscf:

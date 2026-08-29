@@ -3,9 +3,8 @@ title: References MOC — References — Arxiv Grpo Reasoning Policy Rscf
 type: moc
 source: 07_SKILLS/arxiv-grpo-reasoning-policy-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - arxiv-grpo-reasoning-policy-rscf-moc
 - 00-home

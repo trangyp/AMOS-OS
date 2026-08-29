@@ -12,7 +12,7 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: EVOLUTION
 path: 11_KNOWLEDGE/05_FRAMEWORKS/ASEA_ADAPTIVE_SELF_EVOLUTION_AI.md
 tags:
-- amos_os
+- amos-os
 - knowledge
 - vault
 - 11_knowledge

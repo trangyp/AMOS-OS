@@ -3,9 +3,8 @@ title: References MOC — References — Amos Binding Rscf Engine
 type: moc
 source: 07_SKILLS/amos-binding-rscf-engine/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-binding-rscf-engine-moc
 - 00-home

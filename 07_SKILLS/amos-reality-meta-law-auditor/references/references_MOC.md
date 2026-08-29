@@ -3,9 +3,8 @@ title: References MOC — References — Amos Reality Meta Law Auditor
 type: moc
 source: 07_SKILLS/amos-reality-meta-law-auditor/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-reality-meta-law-auditor-moc
 - 00-home

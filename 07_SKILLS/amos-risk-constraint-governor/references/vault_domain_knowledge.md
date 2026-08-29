@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-risk-constraint-governor/references
 tags:
 - reference
 - amos-risk-constraint-governor
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

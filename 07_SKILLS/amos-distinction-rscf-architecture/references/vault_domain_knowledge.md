@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-distinction-rscf-architecture/references
 tags:
 - reference
 - amos-distinction-rscf-architecture
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

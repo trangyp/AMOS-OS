@@ -12,10 +12,9 @@ tags:
 - llm-wiki
 - knowledge
 - obsidian
-- amos_os
+- amos-os
 - canon-group/tech-ai
 - canon/tooling
-- moc
 - 00-root-moc
 - knowledge-moc
 - llm-wiki-moc

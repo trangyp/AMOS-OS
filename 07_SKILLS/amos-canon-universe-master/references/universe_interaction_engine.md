@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-canon-universe-master/references
 tags:
 - reference
 - amos-canon-universe-master
-- canon/skill
+- type/skill
 - 07-skills-moc
 - references-moc
 - 00-home

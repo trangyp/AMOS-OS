@@ -3,9 +3,8 @@ title: Amos-Information-Theory-Master MOC
 type: moc
 source: 07_SKILLS/amos-information-theory-master
 tags:
-- moc
 - amos-information-theory-master
-- canon/skill
+- type/skill
 - agent-template
 - skill
 - references-moc

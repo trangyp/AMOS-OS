@@ -3,9 +3,8 @@ title: Slides MOC
 type: moc
 source: 07_SKILLS/slides
 tags:
-- moc
 - slides
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-information-geometry-mapper/references
 tags:
 - reference
 - amos-information-geometry-mapper
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

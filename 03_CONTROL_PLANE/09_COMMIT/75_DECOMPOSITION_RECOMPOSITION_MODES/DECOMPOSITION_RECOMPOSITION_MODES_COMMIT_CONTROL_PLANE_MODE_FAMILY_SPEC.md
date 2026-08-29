@@ -3,7 +3,7 @@ title: DECOMPOSITION RECOMPOSITION MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/75_DECOMPOSITION_RECOMPOSITION_MODES
 tags:
-- control_plane
+- control-plane
 - 75_decomposition_recomposition_modes
 - canon/control-plane
 - routing-policy-validation-receipt

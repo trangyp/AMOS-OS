@@ -3,7 +3,7 @@ title: INDEX POLITICS POWER DOMAINS README
 type: index
 source: 21_DOMAINS/39_POLITICS_POWER/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - readme

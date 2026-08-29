@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-agent-native-research-artifact-rscf/references
 tags:
 - reference
 - amos-agent-native-research-artifact-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

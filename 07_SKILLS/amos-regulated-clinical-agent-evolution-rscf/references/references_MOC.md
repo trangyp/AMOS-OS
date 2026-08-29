@@ -3,9 +3,8 @@ title: References MOC — References — Amos Regulated Clinical Agent Evolution
 type: moc
 source: 07_SKILLS/amos-regulated-clinical-agent-evolution-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

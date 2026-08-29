@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-hourglass-induction-rscf/references
 tags:
 - reference
 - amos-hourglass-induction-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

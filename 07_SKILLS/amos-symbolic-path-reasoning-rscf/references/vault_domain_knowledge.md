@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-symbolic-path-reasoning-rscf/references
 tags:
 - reference
 - amos-symbolic-path-reasoning-rscf
-- canon/skill
+- type/skill
 - cosmo-brain-moc
 - references-moc
 - 00-home

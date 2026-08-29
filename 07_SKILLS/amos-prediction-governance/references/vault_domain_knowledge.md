@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-prediction-governance/references
 tags:
 - reference
 - amos-prediction-governance
-- canon/skill
+- type/skill
 - amos-prediction-governance-moc
 - 00-home
 - amos-rscf-nodes

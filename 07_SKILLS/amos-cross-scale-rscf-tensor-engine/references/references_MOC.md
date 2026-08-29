@@ -3,9 +3,8 @@ title: References MOC — References — Amos Cross Scale Rscf Tensor Engine
 type: moc
 source: 07_SKILLS/amos-cross-scale-rscf-tensor-engine/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-cross-scale-rscf-tensor-engine-moc
 - 00-home

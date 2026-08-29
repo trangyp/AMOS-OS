@@ -15,7 +15,7 @@ tags:
 - control-plane
 - rscf
 - resilience
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-home
 - 00-root-moc
 - amos-moc

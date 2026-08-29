@@ -3,7 +3,6 @@ title: 12 Rollback MOC
 type: moc
 source: 03_CONTROL_PLANE/12_ROLLBACK
 tags:
-- moc
 - 12-rollback
 - canon/control-plane
 - canon-local-invalidation

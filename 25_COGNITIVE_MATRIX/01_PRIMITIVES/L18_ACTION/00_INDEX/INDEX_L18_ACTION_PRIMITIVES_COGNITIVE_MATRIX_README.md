@@ -3,9 +3,9 @@ title: INDEX L18 ACTION PRIMITIVES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L18_ACTION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l18_action
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - l18-action-map
 - 00-home

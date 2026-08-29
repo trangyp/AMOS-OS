@@ -3,7 +3,6 @@ title: 12 State MOC
 type: moc
 source: 12_STATE
 tags:
-- moc
 - 12-state
 - canon/state
 - state-readme

@@ -3,7 +3,7 @@ title: CUSTOM MAP
 type: map
 source: 21_DOMAINS/10_CUSTOM/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - custom-domains-custom-contract

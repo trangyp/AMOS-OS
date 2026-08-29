@@ -3,9 +3,8 @@ title: References MOC — References — Amos Emergent Social Intelligence Risk 
 type: moc
 source: 07_SKILLS/amos-emergent-social-intelligence-risk-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

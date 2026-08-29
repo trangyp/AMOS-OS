@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-fx-carry-differential-engine/references
 tags:
 - reference
 - amos-fx-carry-differential-engine
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

@@ -12,7 +12,7 @@ segment: 01_CANON/03_COGNITION_CANON
 artifact_kind: CANON
 path: 01_CANON/03_COGNITION_CANON/AMOS_PERSONALITY_CANON.md
 tags:
-- amos_os
+- amos-os
 - canon
 - universe
 - 01_canon

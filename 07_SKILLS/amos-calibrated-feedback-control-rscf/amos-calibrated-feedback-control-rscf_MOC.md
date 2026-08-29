@@ -3,9 +3,8 @@ title: Amos-Calibrated-Feedback-Control-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-calibrated-feedback-control-rscf
 tags:
-- moc
 - amos-calibrated-feedback-control-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

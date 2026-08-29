@@ -3,9 +3,8 @@ title: References MOC — References — Amos Context Continuity Governor
 type: moc
 source: 07_SKILLS/amos-context-continuity-governor/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-context-continuity-governor-moc
 - 00-home

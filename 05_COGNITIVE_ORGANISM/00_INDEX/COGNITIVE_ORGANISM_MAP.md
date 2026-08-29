@@ -3,7 +3,7 @@ title: COGNITIVE ORGANISM MAP
 type: map
 source: 05_COGNITIVE_ORGANISM/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 05_cognitive_organism
 - canon/cognitive
 - index-cognitive-organism-readme

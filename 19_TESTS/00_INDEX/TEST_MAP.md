@@ -3,7 +3,7 @@ title: TEST MAP
 type: test
 source: 19_TESTS/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 19_tests
 - canon/test
 - index-tests-readme

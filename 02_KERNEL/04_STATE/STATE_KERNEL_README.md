@@ -3,7 +3,7 @@ title: STATE KERNEL README
 type: kernel
 source: 02_KERNEL/04_STATE
 tags:
-- amos_os
+- amos-os
 - 02_kernel
 - canon/kernel
 - readme

@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-c04-bio-neuro-master
 tags:
 - note
 - amos-c04-bio-neuro-master
-- canon/skill
+- type/skill
 - skill
 - amos-c04-bio-neuro-master-moc
 rscf:

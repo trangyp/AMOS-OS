@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-semantic-token-flow-firewall-rscf/references
 tags:
 - reference
 - amos-semantic-token-flow-firewall-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

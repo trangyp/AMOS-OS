@@ -3,9 +3,8 @@ title: References MOC — References — Amos Runtime Benchmarking
 type: moc
 source: 07_SKILLS/amos-runtime-benchmarking/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-runtime-benchmarking-moc
 - 00-home

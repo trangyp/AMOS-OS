@@ -3,7 +3,6 @@ title: 46 Creative Generative Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/46_CREATIVE_GENERATIVE_MODES
 tags:
-- moc
 - 46-creative-generative-modes
 - canon/control-plane
 - 09-commit-moc

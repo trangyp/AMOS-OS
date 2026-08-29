@@ -3,7 +3,6 @@ title: 08 Legal MOC
 type: moc
 source: 21_DOMAINS/08_LEGAL
 tags:
-- moc
 - 08-legal
 - canon/domain
 - amos-legal-kernel

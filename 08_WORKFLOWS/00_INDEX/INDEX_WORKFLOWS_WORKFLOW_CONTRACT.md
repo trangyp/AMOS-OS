@@ -3,9 +3,9 @@ title: INDEX WORKFLOWS WORKFLOW CONTRACT
 type: index
 source: 08_WORKFLOWS/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 08_workflows
-- canon/workflow
+- type/workflow
 - workflows
 - workflow
 - index-workflows-readme

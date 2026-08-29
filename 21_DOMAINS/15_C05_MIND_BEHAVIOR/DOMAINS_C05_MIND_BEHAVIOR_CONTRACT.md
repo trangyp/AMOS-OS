@@ -3,7 +3,7 @@ title: DOMAINS C05 MIND BEHAVIOR CONTRACT
 type: mind
 source: 21_DOMAINS/15_C05_MIND_BEHAVIOR
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - routing-policy-validation-receipt

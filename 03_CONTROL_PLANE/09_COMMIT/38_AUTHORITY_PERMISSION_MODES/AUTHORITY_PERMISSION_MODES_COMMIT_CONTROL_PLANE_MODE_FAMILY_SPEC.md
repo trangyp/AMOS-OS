@@ -3,7 +3,7 @@ title: AUTHORITY PERMISSION MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 type: authority
 source: 03_CONTROL_PLANE/09_COMMIT/38_AUTHORITY_PERMISSION_MODES
 tags:
-- control_plane
+- control-plane
 - 38_authority_permission_modes
 - canon/control-plane
 - authz-engine-validation-receipt

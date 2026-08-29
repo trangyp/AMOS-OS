@@ -12,7 +12,7 @@ segment: 24_ARCHIVE/02_SUPERSEDED
 artifact_kind: REGISTRY
 path: 24_ARCHIVE/02_SUPERSEDED/SUPERSEDED_FRAMEWORK_REGISTRY.md
 tags:
-- amos_os
+- amos-os
 - archive
 - legacy
 - 24_archive

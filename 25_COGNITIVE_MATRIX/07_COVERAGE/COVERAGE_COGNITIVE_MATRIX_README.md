@@ -3,11 +3,11 @@ title: COVERAGE COGNITIVE MATRIX README
 type: coverage
 source: 25_COGNITIVE_MATRIX/07_COVERAGE
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - coverage
 - readme
 - contract_filled
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-moc
 - 00-root-moc
 - amos-moc

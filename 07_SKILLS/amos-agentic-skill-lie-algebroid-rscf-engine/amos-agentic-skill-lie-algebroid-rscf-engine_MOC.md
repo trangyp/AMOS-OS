@@ -3,9 +3,8 @@ title: Amos-Agentic-Skill-Lie-Algebroid-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-agentic-skill-lie-algebroid-rscf-engine
 tags:
-- moc
 - amos-agentic-skill-lie-algebroid-rscf-en
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

@@ -3,7 +3,7 @@ title: KERNEL README
 type: kernel
 source: 02_KERNEL
 tags:
-- amos_os
+- amos-os
 - 02_kernel
 - canon/kernel
 - readme

@@ -4,7 +4,6 @@ tags:
 - kernel
 - agents
 - execution
-- v1.md
 - 00-home
 - knowledge-moc
 - system-scan-agent

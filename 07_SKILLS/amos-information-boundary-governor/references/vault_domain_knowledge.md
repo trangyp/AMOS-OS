@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-information-boundary-governor/references
 tags:
 - reference
 - amos-information-boundary-governor
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

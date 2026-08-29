@@ -3,7 +3,6 @@ title: 63 Classification Taxonomy Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/63_CLASSIFICATION_TAXONOMY_MODES
 tags:
-- moc
 - 63-classification-taxonomy-modes
 - canon/control-plane
 - 09-commit-moc

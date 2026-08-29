@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-context-state-maintenance-rscf/references
 tags:
 - reference
 - amos-context-state-maintenance-rscf
-- canon/skill
+- type/skill
 - ratpak
 - references-moc
 - 07-skills-moc

@@ -3,9 +3,9 @@ title: PRIMITIVES MAP
 type: map
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - 00_index
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - index-primitives-cognitive-matrix-readme
 - 00-root-map
 - amos-rscf-nodes

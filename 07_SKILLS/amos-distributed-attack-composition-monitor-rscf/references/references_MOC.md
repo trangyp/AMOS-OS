@@ -3,9 +3,8 @@ title: References MOC — References — Amos Distributed Attack Composition Mon
 type: moc
 source: 07_SKILLS/amos-distributed-attack-composition-monitor-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

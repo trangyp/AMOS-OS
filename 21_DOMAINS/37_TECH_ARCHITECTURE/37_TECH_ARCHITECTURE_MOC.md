@@ -3,7 +3,6 @@ title: 37 Tech Architecture MOC
 type: moc
 source: 21_DOMAINS/37_TECH_ARCHITECTURE
 tags:
-- moc
 - 37-tech-architecture
 - canon/domain
 - domains-tech-architecture-contract

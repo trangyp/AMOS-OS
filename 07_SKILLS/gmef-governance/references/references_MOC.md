@@ -3,9 +3,8 @@ title: References MOC — References — Gmef Governance
 type: moc
 source: 07_SKILLS/gmef-governance/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - authority-gmef-gate-integration
 - gmef-full
 - vault-domain-knowledge

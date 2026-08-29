@@ -16,7 +16,7 @@ schema_family: RSCF
 schema_role: KNOWLEDGE_RSCF
 schema_version: AMOS_CORE_v4.4-compatible-conceptual
 tags:
-- amos_os
+- amos-os
 - amos_core
 - cognition
 - distributed_cognition

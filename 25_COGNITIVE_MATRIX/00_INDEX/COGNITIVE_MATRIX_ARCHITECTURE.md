@@ -3,10 +3,10 @@ title: COGNITIVE MATRIX ARCHITECTURE
 type: architecture
 source: 25_COGNITIVE_MATRIX/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - index
 - note
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - 00-home

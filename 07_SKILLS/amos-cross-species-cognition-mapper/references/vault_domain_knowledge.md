@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-cross-species-cognition-mapper/references
 tags:
 - reference
 - amos-cross-species-cognition-mapper
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

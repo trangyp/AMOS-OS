@@ -3,7 +3,7 @@ title: BACKUPS OPERATIONS README
 type: operation
 source: 20_OPERATIONS/09_BACKUPS
 tags:
-- amos_os
+- amos-os
 - 20_operations
 - canon/operations
 - readme

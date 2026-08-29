@@ -3,9 +3,8 @@ title: C02 Metacognitive MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C02_METACOGNITIVE
 tags:
-- moc
 - c02-metacognitive
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - control-planes-cognitive-matrix-policies
 - control-planes-cognitive-matrix-scope
 - 00-index-moc

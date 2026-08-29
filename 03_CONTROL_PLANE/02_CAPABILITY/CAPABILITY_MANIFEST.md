@@ -3,7 +3,7 @@ title: CAPABILITY MANIFEST
 type: manifest
 source: 03_CONTROL_PLANE/02_CAPABILITY
 tags:
-- control_plane
+- control-plane
 - capability
 - note
 - canon/control-plane

@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-dependency-environment-reconstruction-rscf/references
 tags:
 - reference
 - amos-dependency-environment-reconstruction-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

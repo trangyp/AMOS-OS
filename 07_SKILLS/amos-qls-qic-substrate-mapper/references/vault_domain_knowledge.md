@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-qls-qic-substrate-mapper/references
 tags:
 - reference
 - amos-qls-qic-substrate-mapper
-- canon/skill
+- type/skill
 - 2026-08-22-amos-obsidian-memory-bridge
 - references-moc
 - 00-home

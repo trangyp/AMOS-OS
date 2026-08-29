@@ -3,7 +3,6 @@ title: control moc
 tags:
 - stub
 - control
-- moc
 - control-moc
 - kernel-moc
 - 00-home

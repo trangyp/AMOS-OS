@@ -3,11 +3,11 @@ title: COGNITIVE MATRIX C04 REASONING CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C04_REASONING
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - control_planes
 - c04_reasoning
 - contract
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - cognitive-matrix-moc

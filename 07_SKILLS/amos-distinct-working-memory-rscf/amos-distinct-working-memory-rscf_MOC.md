@@ -3,9 +3,8 @@ title: Amos-Distinct-Working-Memory-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-distinct-working-memory-rscf
 tags:
-- moc
 - amos-distinct-working-memory-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

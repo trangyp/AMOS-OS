@@ -5,7 +5,6 @@ source: 11_KNOWLEDGE
 canon-group: reference
 rscf-state: derived
 tags:
-- moc
 - index
 - bridge
 - cosmo-brain

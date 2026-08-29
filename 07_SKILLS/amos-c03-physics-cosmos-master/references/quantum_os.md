@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-c03-physics-cosmos-master/references
 tags:
 - reference
 - amos-c03-physics-cosmos-master
-- canon/skill
+- type/skill
 - amos-c03-physics-cosmos-master-moc
 - 00-home
 - amos-rscf-nodes

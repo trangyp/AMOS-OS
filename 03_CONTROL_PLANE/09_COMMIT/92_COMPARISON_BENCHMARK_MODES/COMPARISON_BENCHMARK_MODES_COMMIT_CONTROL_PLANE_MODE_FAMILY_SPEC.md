@@ -3,7 +3,7 @@ title: COMPARISON BENCHMARK MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/92_COMPARISON_BENCHMARK_MODES
 tags:
-- control_plane
+- control-plane
 - 92_comparison_benchmark_modes
 - canon/control-plane
 - authz-engine-validation-receipt

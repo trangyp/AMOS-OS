@@ -5,7 +5,7 @@ source: 07_SKILLS/mckinsey-commercial-due-diligence-rscf/references
 tags:
 - reference
 - mckinsey-commercial-due-diligence-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

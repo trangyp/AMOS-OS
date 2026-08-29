@@ -3,9 +3,8 @@ title: Amos-Arxiv-Sparse-Autoencoder-Interpretability-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-arxiv-sparse-autoencoder-interpretability-rscf
 tags:
-- moc
 - amos-arxiv-sparse-autoencoder-interpreta
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

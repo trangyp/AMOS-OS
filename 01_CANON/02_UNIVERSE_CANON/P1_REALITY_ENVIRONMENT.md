@@ -12,7 +12,7 @@ segment: 01_CANON/02_UNIVERSE_CANON
 artifact_kind: CANON_SPECIFICATION
 path: 01_CANON/02_UNIVERSE_CANON/P1_REALITY_ENVIRONMENT.md
 tags:
-- amos_os
+- amos-os
 - canon
 - universe
 - universe_canon

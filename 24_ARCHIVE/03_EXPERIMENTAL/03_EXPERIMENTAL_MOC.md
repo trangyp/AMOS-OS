@@ -3,7 +3,6 @@ title: 03 Experimental MOC
 type: moc
 source: 24_ARCHIVE/03_EXPERIMENTAL
 tags:
-- moc
 - 03-experimental
 - canon/archive
 - archive-experimental-contract

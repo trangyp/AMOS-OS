@@ -5,7 +5,7 @@ source: 07_SKILLS/arxiv-selective-state-space-rscf/references
 tags:
 - reference
 - arxiv-selective-state-space-rscf
-- canon/skill
+- type/skill
 - ratpak
 - references-moc
 - 07-skills-moc

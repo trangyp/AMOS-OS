@@ -3,7 +3,6 @@ title: 24 Archive MOC
 type: moc
 source: 24_ARCHIVE
 tags:
-- moc
 - 24-archive
 - canon/archive
 - archive-archive-contract

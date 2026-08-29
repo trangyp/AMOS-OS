@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-self-regulated-simulative-planning-rscf/references
 tags:
 - reference
 - amos-self-regulated-simulative-planning-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

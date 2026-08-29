@@ -3,7 +3,6 @@ title: architecture moc
 tags:
 - stub
 - architecture
-- moc
 - architecture-moc
 - kernel-moc
 - 00-home

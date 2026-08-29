@@ -3,7 +3,6 @@ title: 11 Observability MOC
 type: moc
 source: 16_SCHEMAS/11_OBSERVABILITY
 tags:
-- moc
 - 11-observability
 - canon/schema
 - canon-healthschema

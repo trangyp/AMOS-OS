@@ -3,9 +3,8 @@ title: References MOC — References — Amos Information Exposure Control
 type: moc
 source: 07_SKILLS/amos-information-exposure-control/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-information-exposure-control-moc
 - 00-home

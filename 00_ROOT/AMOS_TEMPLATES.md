@@ -9,11 +9,10 @@ status: active
 steward: Trang Phan
 tags:
 - templates
-- amos_os
+- amos-os
 - root
 - templater
 - index
-- moc
 - obsidian
 - canon-group/tech-ai
 - canon/tooling

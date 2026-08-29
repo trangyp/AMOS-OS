@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-human-biology-fractal-rscf-engine/references
 tags:
 - reference
 - amos-human-biology-fractal-rscf-engine
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

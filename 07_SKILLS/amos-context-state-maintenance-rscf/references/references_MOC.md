@@ -3,9 +3,8 @@ title: References MOC — References — Amos Context State Maintenance Rscf
 type: moc
 source: 07_SKILLS/amos-context-state-maintenance-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-context-state-maintenance-rscf-moc
 - 00-home

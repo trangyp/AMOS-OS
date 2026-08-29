@@ -3,9 +3,8 @@ title: References MOC — References — Amos Economic Model
 type: moc
 source: 07_SKILLS/amos-economic-model/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-economic-model-moc
 - 00-home

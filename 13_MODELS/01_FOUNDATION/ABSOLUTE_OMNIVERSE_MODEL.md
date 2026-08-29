@@ -42,7 +42,7 @@ ingestion_action: ADD_ONLY
 overwrite_policy: PRESERVE_EXISTING
 duplicate_policy: COMPARE_CONTENT_AND_LINEAGE
 tags:
-- amos_os
+- amos-os
 - amos
 - universe_os
 - model
@@ -5401,3 +5401,4 @@ RSCF-RELATIONS:
 ---
 
 **MOC:** [[01_FOUNDATION_MOC]]
+```

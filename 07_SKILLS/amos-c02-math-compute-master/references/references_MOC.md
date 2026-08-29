@@ -3,9 +3,8 @@ title: References MOC — References — Amos C02 Math Compute Master
 type: moc
 source: 07_SKILLS/amos-c02-math-compute-master/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - ancient-math
 - complex-analysis-bridge
 - computational-complexity-model

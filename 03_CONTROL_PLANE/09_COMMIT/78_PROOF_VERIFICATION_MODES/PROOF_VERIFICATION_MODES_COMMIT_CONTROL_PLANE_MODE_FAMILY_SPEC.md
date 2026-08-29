@@ -3,7 +3,7 @@ title: PROOF VERIFICATION MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/78_PROOF_VERIFICATION_MODES
 tags:
-- control_plane
+- control-plane
 - 78_proof_verification_modes
 - canon/control-plane
 - authz-engine-validation-receipt

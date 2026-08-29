@@ -14,12 +14,12 @@ origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
 tags:
 - type/skill
-- canon/skill
+- type/skill
 - domain/knowledge-research
-- rscf/source_claim
+- epistemic/source_claim
 - hml/m
 - epistemic/source_canon
-- amos_os
+- amos-os
 - amos-c01-meta-logic-master-knowledge
 - amos-c12-earth-ecology-master-knowledge
 - amos-c02-math-compute-master-knowledge

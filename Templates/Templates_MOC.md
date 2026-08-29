@@ -3,7 +3,6 @@ title: Templates MOC
 type: moc
 source: Templates
 tags:
-- moc
 - templates
 - canon/template
 - amos-home

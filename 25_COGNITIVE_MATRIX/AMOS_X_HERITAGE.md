@@ -5,7 +5,7 @@ source: 25_COGNITIVE_MATRIX
 tags:
 - note
 - 25-cognitive-matrix
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - signals
 - amos-x-heritage-matrix
 - 00-home

@@ -3,9 +3,8 @@ title: References MOC — References — Amos Memory Systems Master
 type: moc
 source: 07_SKILLS/amos-memory-systems-master/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - brain-engine-specs
 - distinct-working-memory
 - learning-memory-fractal

@@ -3,7 +3,6 @@ title: 04 Infrastructure Canon MOC
 type: moc
 source: 01_CANON/04_INFRASTRUCTURE_CANON
 tags:
-- moc
 - 04-infrastructure-canon
 - canon/universe
 - amos-brain-master-os-canon

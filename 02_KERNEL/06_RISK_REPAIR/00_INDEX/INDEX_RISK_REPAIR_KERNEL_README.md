@@ -3,7 +3,7 @@ title: INDEX RISK REPAIR KERNEL README
 type: index
 source: 02_KERNEL/06_RISK_REPAIR/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 02_kernel
 - canon/kernel
 - readme

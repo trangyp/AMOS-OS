@@ -5,7 +5,7 @@ source: 07_SKILLS/mckinsey-wealth-management-rscf/references
 tags:
 - reference
 - mckinsey-wealth-management-rscf
-- canon/skill
+- type/skill
 - mckinsey-wealth-management-rscf-moc
 - 00-home
 - amos-rscf-nodes

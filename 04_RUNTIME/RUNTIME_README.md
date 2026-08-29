@@ -3,7 +3,7 @@ title: RUNTIME README
 type: runtime
 source: 04_RUNTIME
 tags:
-- amos_os
+- amos-os
 - 04_runtime
 - canon/runtime
 - readme

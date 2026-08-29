@@ -12,8 +12,8 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX
 path: 25_COGNITIVE_MATRIX/AMOS_X_TSS_TPE_MATRIX.md
 tags:
-- amos_os
-- cognitive_matrix
+- amos-os
+- cognitive-matrix
 - matrix
 - 25_cognitive_matrix
 - tss
@@ -30,7 +30,7 @@ tags:
 - provenance
 - rscf
 - canon_candidate
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - 00-home
 - amos-rscf-nodes

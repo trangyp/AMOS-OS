@@ -3,9 +3,9 @@ title: INDEX L26 SOCIAL COGNITION PRIMITIVES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L26_SOCIAL_COGNITION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l26_social_cognition
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - l26-social-cognition-map
 - 00-home

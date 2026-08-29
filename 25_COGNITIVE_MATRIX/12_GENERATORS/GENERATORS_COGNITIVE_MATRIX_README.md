@@ -3,10 +3,10 @@ title: GENERATORS COGNITIVE MATRIX README
 type: cognitive
 source: 25_COGNITIVE_MATRIX/12_GENERATORS
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - generators
 - readme
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - skill
 - 00-root-moc
 - amos-moc

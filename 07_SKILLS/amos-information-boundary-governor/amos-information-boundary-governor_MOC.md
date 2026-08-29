@@ -3,9 +3,8 @@ title: Amos-Information-Boundary-Governor MOC
 type: moc
 source: 07_SKILLS/amos-information-boundary-governor
 tags:
-- moc
 - amos-information-boundary-governor
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

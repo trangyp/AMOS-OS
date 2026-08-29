@@ -3,9 +3,8 @@ title: References MOC — References — Amos Arxiv Spatial Speech Perception Rs
 type: moc
 source: 07_SKILLS/amos-arxiv-spatial-speech-perception-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

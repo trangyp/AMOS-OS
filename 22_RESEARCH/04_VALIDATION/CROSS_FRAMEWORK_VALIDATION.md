@@ -12,7 +12,7 @@ segment: 22_RESEARCH/04_VALIDATION
 artifact_kind: VALIDATION_REPORT
 path: 22_RESEARCH/04_VALIDATION/CROSS_FRAMEWORK_VALIDATION.md
 tags:
-- amos_os
+- amos-os
 - research
 - vault
 - 22_research

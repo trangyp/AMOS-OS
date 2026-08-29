@@ -3,9 +3,8 @@ title: References MOC — References — Amos Fractal Systems Master
 type: moc
 source: 07_SKILLS/amos-fractal-systems-master/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - chaos-diagnostics
 - forex-fractal-geometry-research
 - fractal-architecture-reality

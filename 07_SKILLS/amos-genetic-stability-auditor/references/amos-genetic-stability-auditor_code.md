@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-genetic-stability-auditor/references
 tags:
 - reference
 - amos-genetic-stability-auditor
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

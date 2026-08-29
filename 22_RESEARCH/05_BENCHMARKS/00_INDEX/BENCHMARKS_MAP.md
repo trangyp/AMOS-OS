@@ -3,7 +3,7 @@ title: BENCHMARKS MAP
 type: map
 source: 22_RESEARCH/05_BENCHMARKS/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 22_research
 - canon/research
 - benchmarks-research-benchmarks-contract

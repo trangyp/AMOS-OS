@@ -3,9 +3,8 @@ title: References MOC — References — Amos Fractal Math
 type: moc
 source: 07_SKILLS/amos-fractal-math/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-fractal-math-moc
 - 00-home

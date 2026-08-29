@@ -3,7 +3,6 @@ title: 85 Interpretation Semantic Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/85_INTERPRETATION_SEMANTIC_MODES
 tags:
-- moc
 - 85-interpretation-semantic-modes
 - canon/control-plane
 - 09-commit-moc

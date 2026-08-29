@@ -12,7 +12,7 @@ segment: 21_DOMAINS/08_LEGAL
 artifact_kind: DOMAIN_GOVERNANCE
 path: 21_DOMAINS/08_LEGAL/CANON_IP_GOVERNANCE.md
 tags:
-- amos_os
+- amos-os
 - domain
 - vault
 - 21_domains
@@ -23,7 +23,7 @@ tags:
 - rscf
 - canon_candidate
 - canon/domain
-- l0-integrity
+- law/L0-integrity
 - 08-legal-moc
 - amos-legal-kernel
 - 00-home

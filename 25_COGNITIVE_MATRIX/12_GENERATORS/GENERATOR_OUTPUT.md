@@ -4,9 +4,9 @@ type: generator
 source: 25_COGNITIVE_MATRIX/12_GENERATORS
 tags:
 - 12_GENERATORS
-- cognitive_matrix
+- cognitive-matrix
 - matrix
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - 00-home

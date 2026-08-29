@@ -3,9 +3,8 @@ title: References MOC — References — Amos C01 Meta Logic Master
 type: moc
 source: 07_SKILLS/amos-c01-meta-logic-master/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - absolute-protocol-synthesis
 - architecture-beneath-science
 - business-logic-vulns

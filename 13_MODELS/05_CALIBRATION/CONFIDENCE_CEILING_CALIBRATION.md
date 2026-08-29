@@ -12,7 +12,7 @@ segment: 13_MODELS/05_CALIBRATION
 artifact_kind: CALIBRATION
 path: 13_MODELS/05_CALIBRATION/CONFIDENCE_CEILING_CALIBRATION.md
 tags:
-- amos_os
+- amos-os
 - model
 - specification
 - 13_models

@@ -3,9 +3,8 @@ title: Amos-Agent-Storage-Footprint-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-agent-storage-footprint-rscf
 tags:
-- moc
 - amos-agent-storage-footprint-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

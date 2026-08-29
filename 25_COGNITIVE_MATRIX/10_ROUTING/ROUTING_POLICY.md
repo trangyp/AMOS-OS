@@ -14,14 +14,13 @@ path: 25_COGNITIVE_MATRIX/10_ROUTING/ROUTING_POLICY.md
 tags:
 - 10_routing
 - 25_cognitive_matrix
-- amos_os
-- canon/cognitive-matrix
+- amos-os
+- domain/cognitive-matrix
 - canon/universe
-- cognitive_matrix
+- cognitive-matrix
 - note
 - policy
 - routing
-- routing_policy.md
 - rscf
 - placeholder_expanded
 - validation

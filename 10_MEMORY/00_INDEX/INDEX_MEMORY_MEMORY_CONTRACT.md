@@ -3,7 +3,7 @@ title: INDEX MEMORY MEMORY CONTRACT
 type: index
 source: 10_MEMORY/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 10_memory
 - canon/memory
 - memory

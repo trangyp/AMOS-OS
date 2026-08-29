@@ -3,9 +3,8 @@ title: Arxiv-Structured-Gp-Omics-Uq-Rscf MOC
 type: moc
 source: 07_SKILLS/arxiv-structured-gp-omics-uq-rscf
 tags:
-- moc
 - arxiv-structured-gp-omics-uq-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

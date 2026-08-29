@@ -12,7 +12,7 @@ segment: 01_CANON/01_CORE_LAWS
 artifact_kind: LOG
 path: 01_CANON/01_CORE_LAWS/UNIVERSE_LOGIC_KERNEL_CANON.md
 tags:
-- amos_os
+- amos-os
 - canon
 - universe
 - 01_canon

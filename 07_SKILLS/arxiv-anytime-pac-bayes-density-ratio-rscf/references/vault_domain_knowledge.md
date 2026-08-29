@@ -5,7 +5,7 @@ source: 07_SKILLS/arxiv-anytime-pac-bayes-density-ratio-rscf/references
 tags:
 - reference
 - arxiv-anytime-pac-bayes-density-ratio-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

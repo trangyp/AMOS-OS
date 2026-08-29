@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-universal-coordinate-system/references
 tags:
 - reference
 - amos-universal-coordinate-system
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

@@ -3,9 +3,8 @@ title: References MOC — References — Amos Information Operator Engine
 type: moc
 source: 07_SKILLS/amos-information-operator-engine/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-information-operator-engine-moc
 - 00-home

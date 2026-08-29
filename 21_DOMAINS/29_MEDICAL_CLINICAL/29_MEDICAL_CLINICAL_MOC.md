@@ -3,7 +3,6 @@ title: 29 Medical Clinical MOC
 type: moc
 source: 21_DOMAINS/29_MEDICAL_CLINICAL
 tags:
-- moc
 - 29-medical-clinical
 - canon/domain
 - domains-medical-clinical-contract

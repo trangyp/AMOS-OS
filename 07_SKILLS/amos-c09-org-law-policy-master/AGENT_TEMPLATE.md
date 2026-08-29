@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-c09-org-law-policy-master
 tags:
 - note
 - amos-c09-org-law-policy-master
-- canon/skill
+- type/skill
 - skill
 - amos-c09-org-law-policy-master-moc
 rscf:

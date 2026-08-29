@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-fx-rough-heston-rscf-engine/references
 tags:
 - reference
 - amos-fx-rough-heston-rscf-engine
-- canon/skill
+- type/skill
 - integration
 - references-moc
 - 07-skills-moc

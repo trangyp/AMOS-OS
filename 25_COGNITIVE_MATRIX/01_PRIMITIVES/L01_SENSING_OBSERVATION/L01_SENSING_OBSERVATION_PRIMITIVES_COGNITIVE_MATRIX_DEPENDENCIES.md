@@ -4,7 +4,7 @@ type: dependency
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
 tags:
 - amos
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-home
 - 00-root-moc
 - amos-moc

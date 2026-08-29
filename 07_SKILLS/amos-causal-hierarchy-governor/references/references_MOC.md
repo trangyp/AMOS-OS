@@ -3,9 +3,8 @@ title: References MOC — References — Amos Causal Hierarchy Governor
 type: moc
 source: 07_SKILLS/amos-causal-hierarchy-governor/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-causal-hierarchy-governor-moc
 - 00-home

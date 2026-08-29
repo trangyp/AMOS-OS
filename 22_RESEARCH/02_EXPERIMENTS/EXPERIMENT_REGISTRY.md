@@ -3,7 +3,7 @@ title: EXPERIMENT REGISTRY
 type: registry
 source: 22_RESEARCH/02_EXPERIMENTS
 tags:
-- amos_os
+- amos-os
 - 22_research
 - canon/research
 - routing-policy-validation-receipt

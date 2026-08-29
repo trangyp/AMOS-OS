@@ -3,7 +3,7 @@ title: EXPERIMENTAL ARCHIVE README
 type: experimental
 source: 24_ARCHIVE/03_EXPERIMENTAL
 tags:
-- amos_os
+- amos-os
 - 24_archive
 - canon/archive
 - readme

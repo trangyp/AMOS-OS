@@ -3,9 +3,8 @@ title: References MOC — References — Amos Information Theory Master
 type: moc
 source: 07_SKILLS/amos-information-theory-master/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - hermes-omni-signal
 - information-measure-governance
 - qfm-bridge-entropy-lacunarity

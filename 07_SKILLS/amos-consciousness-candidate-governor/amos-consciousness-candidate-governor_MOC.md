@@ -3,9 +3,8 @@ title: Amos-Consciousness-Candidate-Governor MOC
 type: moc
 source: 07_SKILLS/amos-consciousness-candidate-governor
 tags:
-- moc
 - amos-consciousness-candidate-governor
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

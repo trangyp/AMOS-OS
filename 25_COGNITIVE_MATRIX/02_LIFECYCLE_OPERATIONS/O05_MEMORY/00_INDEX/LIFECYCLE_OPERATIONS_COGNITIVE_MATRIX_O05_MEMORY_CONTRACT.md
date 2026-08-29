@@ -3,9 +3,9 @@ title: LIFECYCLE OPERATIONS COGNITIVE MATRIX O05 MEMORY CONTRACT
 type: lifecycle
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O05_MEMORY/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - o05_memory
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - memory
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt

@@ -3,7 +3,6 @@ title: AMOS MOC (Redirect)
 type: moc_redirect
 source: 00_ROOT
 tags:
-- moc
 - root
 - navigation
 - 01-canon-moc

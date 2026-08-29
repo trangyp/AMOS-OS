@@ -50,7 +50,7 @@ reading_order:
 - '[[INDEX_MODELS_MODEL_CONTRACT]]'
 - contract-bound model artifacts
 tags:
-- amos_os
+- amos-os
 - amos-os
 - 13_models
 - 00_index
@@ -4895,3 +4895,4 @@ RSCF-RELATIONS:
 ---
 
 **MOC:** [[00_INDEX_MOC]]
+```

@@ -12,7 +12,7 @@ segment: 05_COGNITIVE_ORGANISM/16_REPAIR
 artifact_kind: ENGINE
 path: 05_COGNITIVE_ORGANISM/16_REPAIR/UBI_RECOVERY_ENGINE.md
 tags:
-- amos_os
+- amos-os
 - cognitive
 - organism
 - 05_cognitive_organism

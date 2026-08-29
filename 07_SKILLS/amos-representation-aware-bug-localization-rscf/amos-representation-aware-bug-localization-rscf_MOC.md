@@ -3,9 +3,8 @@ title: Amos-Representation-Aware-Bug-Localization-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-representation-aware-bug-localization-rscf
 tags:
-- moc
 - amos-representation-aware-bug-localizati
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

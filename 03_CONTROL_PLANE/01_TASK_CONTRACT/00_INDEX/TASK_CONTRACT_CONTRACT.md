@@ -3,7 +3,7 @@ title: TASK CONTRACT CONTRACT
 type: task
 source: 03_CONTROL_PLANE/01_TASK_CONTRACT/00_INDEX
 tags:
-- control_plane
+- control-plane
 - 00_index
 - canon/control-plane
 - routing-policy-validation-receipt

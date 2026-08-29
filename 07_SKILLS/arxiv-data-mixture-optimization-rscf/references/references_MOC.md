@@ -3,9 +3,8 @@ title: References MOC — References — Arxiv Data Mixture Optimization Rscf
 type: moc
 source: 07_SKILLS/arxiv-data-mixture-optimization-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - arxiv-data-mixture-optimization-rscf-moc
 - 00-home

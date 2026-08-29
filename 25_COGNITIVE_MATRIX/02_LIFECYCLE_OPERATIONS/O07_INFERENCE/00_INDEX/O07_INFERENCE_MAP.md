@@ -3,9 +3,9 @@ title: O07 INFERENCE MAP
 type: map
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O07_INFERENCE/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - o07_inference
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-map
 - amos-rscf-nodes
 - routing-policy-validation-receipt

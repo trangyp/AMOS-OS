@@ -3,7 +3,6 @@ title: LLM Wiki MOC
 type: moc
 source: 11_KNOWLEDGE/LLM_WIKI
 tags:
-- moc
 - llm-wiki
 - 11-knowledge
 - canon/knowledge

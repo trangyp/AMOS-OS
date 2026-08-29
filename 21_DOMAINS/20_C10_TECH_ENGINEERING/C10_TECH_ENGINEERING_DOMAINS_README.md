@@ -3,7 +3,7 @@ title: C10 TECH ENGINEERING DOMAINS README
 type: engine
 source: 21_DOMAINS/20_C10_TECH_ENGINEERING
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - readme

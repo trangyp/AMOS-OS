@@ -3,9 +3,8 @@ title: Amos-Runtime-Benchmarking MOC
 type: moc
 source: 07_SKILLS/amos-runtime-benchmarking
 tags:
-- moc
 - amos-runtime-benchmarking
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

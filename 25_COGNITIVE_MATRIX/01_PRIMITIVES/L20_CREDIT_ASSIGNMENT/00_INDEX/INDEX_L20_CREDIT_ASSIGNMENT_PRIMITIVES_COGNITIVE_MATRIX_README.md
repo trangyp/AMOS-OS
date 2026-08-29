@@ -3,9 +3,9 @@ title: INDEX L20 CREDIT ASSIGNMENT PRIMITIVES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L20_CREDIT_ASSIGNMENT/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l20_credit_assignment
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - l20-credit-assignment-map
 - 00-home

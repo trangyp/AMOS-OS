@@ -12,7 +12,7 @@ segment: 04_RUNTIME/01_BOOT
 artifact_kind: BOOTSTRAP_SPEC
 path: 04_RUNTIME/01_BOOT/FULL_BRAIN_BOOTSTRAP.md
 tags:
-- amos_os
+- amos-os
 - runtime
 - vault
 - 04_runtime

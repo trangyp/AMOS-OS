@@ -12,7 +12,7 @@ segment: 05_COGNITIVE_ORGANISM/15_HOMEOSTASIS
 artifact_kind: INTELLIGENCE
 path: 05_COGNITIVE_ORGANISM/15_HOMEOSTASIS/SOMATIC_INTELLIGENCE_SI.md
 tags:
-- amos_os
+- amos-os
 - cognitive
 - organism
 - 05_cognitive_organism

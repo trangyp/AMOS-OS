@@ -3,9 +3,9 @@ title: PRIMITIVES COGNITIVE MATRIX L28 GOVERNANCE CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L28_GOVERNANCE/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l28_governance
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy

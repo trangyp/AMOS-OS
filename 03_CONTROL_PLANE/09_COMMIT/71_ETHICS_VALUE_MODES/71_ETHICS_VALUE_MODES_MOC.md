@@ -3,7 +3,6 @@ title: 71 Ethics Value Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/71_ETHICS_VALUE_MODES
 tags:
-- moc
 - 71-ethics-value-modes
 - canon/control-plane
 - 09-commit-moc

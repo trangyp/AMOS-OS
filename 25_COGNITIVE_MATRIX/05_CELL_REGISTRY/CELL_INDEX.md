@@ -5,7 +5,7 @@ source: 25_COGNITIVE_MATRIX/05_CELL_REGISTRY
 tags:
 - note
 - 05-cell-registry
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-moc
 - 00-root-moc
 - amos-moc

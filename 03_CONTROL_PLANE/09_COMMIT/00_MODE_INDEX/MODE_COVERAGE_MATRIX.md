@@ -3,7 +3,7 @@ title: MODE COVERAGE MATRIX
 type: coverage
 source: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX
 tags:
-- control_plane
+- control-plane
 - commit
 - mode_index
 - note

@@ -3,7 +3,7 @@ title: EXPERIMENTS MAP
 type: map
 source: 22_RESEARCH/02_EXPERIMENTS/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 22_research
 - canon/research
 - index-experiments-research-readme

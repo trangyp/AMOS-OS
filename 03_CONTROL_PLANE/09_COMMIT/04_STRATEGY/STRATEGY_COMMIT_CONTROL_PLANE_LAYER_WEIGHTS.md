@@ -3,7 +3,7 @@ title: STRATEGY COMMIT CONTROL PLANE LAYER WEIGHTS
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/04_STRATEGY
 tags:
-- control_plane
+- control-plane
 - 04_strategy
 - canon/control-plane
 - routing-policy-validation-receipt

@@ -5,7 +5,7 @@ source: 07_SKILLS/arxiv-constrained-structured-decoding-rscf/references
 tags:
 - reference
 - arxiv-constrained-structured-decoding-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

@@ -3,9 +3,9 @@ title: COGNITIVE MATRIX VALIDATION MAP
 type: map
 source: 25_COGNITIVE_MATRIX/11_VALIDATION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - 00_index
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - validation
 - index-validation-cognitive-matrix-readme
 - 00-root-map

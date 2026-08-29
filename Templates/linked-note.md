@@ -14,7 +14,6 @@ tags:
 - reference
 - templater
 - linkme
-- moc
 - canon-group/tech-ai
 - canon/tooling
 - 00-home

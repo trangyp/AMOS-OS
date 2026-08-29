@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-trang-framework-master/references
 tags:
 - reference
 - amos-trang-framework-master
-- canon/skill
+- type/skill
 - cosmo-brain-moc
 - references-moc
 - 00-home

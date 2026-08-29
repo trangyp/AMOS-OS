@@ -3,7 +3,6 @@ title: 39 Politics Power MOC
 type: moc
 source: 21_DOMAINS/39_POLITICS_POWER
 tags:
-- moc
 - 39-politics-power
 - canon/domain
 - domains-politics-power-contract

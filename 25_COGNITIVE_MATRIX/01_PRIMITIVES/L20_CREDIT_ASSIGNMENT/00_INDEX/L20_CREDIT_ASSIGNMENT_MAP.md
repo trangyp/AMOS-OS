@@ -3,9 +3,9 @@ title: L20 CREDIT ASSIGNMENT MAP
 type: map
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L20_CREDIT_ASSIGNMENT/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l20_credit_assignment
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-map
 - amos-rscf-nodes
 - routing-policy-validation-receipt

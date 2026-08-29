@@ -13,7 +13,7 @@ tags:
 - amos-rscf-nodes
 - law-hierarchy
 - l7-authority
-- l1-epistemic
+- law/L1-epistemic
 - l5-scope-regime
 - l29-decision-value
 - scope-regime-firewall

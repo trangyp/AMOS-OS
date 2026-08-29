@@ -3,7 +3,6 @@ title: 02 Cognition MOC
 type: moc
 source: 02_KERNEL/02_COGNITION
 tags:
-- moc
 - 02-cognition
 - canon/kernel
 - cognition-kernel-readme

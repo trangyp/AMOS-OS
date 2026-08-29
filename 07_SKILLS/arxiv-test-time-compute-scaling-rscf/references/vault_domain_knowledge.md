@@ -5,7 +5,7 @@ source: 07_SKILLS/arxiv-test-time-compute-scaling-rscf/references
 tags:
 - reference
 - arxiv-test-time-compute-scaling-rscf
-- canon/skill
+- type/skill
 - cosmo-brain-moc
 - 2026-08-22-19x19-ai-cognitive-field
 - 2026-08-22-tests-logic-bridge-registry

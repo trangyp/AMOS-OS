@@ -3,9 +3,9 @@ title: SCALES COGNITIVE MATRIX L LOW SCALE CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/04_SCALES/L_LOW_SCALE/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l_low_scale
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy

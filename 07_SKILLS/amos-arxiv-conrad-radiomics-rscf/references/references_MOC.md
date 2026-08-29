@@ -3,9 +3,8 @@ title: References MOC — References — Amos Arxiv Conrad Radiomics Rscf
 type: moc
 source: 07_SKILLS/amos-arxiv-conrad-radiomics-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-arxiv-conrad-radiomics-rscf-moc
 - 00-home

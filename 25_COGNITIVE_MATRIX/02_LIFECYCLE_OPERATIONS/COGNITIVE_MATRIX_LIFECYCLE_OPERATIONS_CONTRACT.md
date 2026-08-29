@@ -3,9 +3,8 @@ title: COGNITIVE MATRIX LIFECYCLE OPERATIONS CONTRACT
 type: lifecycle
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS
 tags:
-- cognitive_matrix
-- cognitive_matrix_lifecycle_operations_contract.md
-- canon/cognitive-matrix
+- cognitive-matrix
+- domain/cognitive-matrix
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy

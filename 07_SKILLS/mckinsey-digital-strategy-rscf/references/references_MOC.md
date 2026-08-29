@@ -3,9 +3,8 @@ title: References MOC — References — Mckinsey Digital Strategy Rscf
 type: moc
 source: 07_SKILLS/mckinsey-digital-strategy-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - mckinsey-digital-strategy-rscf-moc
 - 00-home

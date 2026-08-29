@@ -13,8 +13,7 @@ artifact_kind: REGISTRY
 path: 00_ROOT/AMOS_TOTAL_DOMAIN_REGISTRY.md
 tags:
 - 00_root
-- amos_os
-- amos_total_domain_registry.md
+- amos-os
 - canon/root
 - canon/universe
 - canon_placeholder

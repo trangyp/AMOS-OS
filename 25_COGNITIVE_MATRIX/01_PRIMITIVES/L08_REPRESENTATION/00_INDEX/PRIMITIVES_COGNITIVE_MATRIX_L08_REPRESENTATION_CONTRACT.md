@@ -3,9 +3,9 @@ title: PRIMITIVES COGNITIVE MATRIX L08 REPRESENTATION CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L08_REPRESENTATION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l08_representation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - validation-evidence
 - 00-root-moc
 - amos-moc

@@ -13,8 +13,7 @@ artifact_kind: GRAPH
 path: 00_ROOT/AMOS_TOTAL_RELATION_GRAPH.md
 tags:
 - 00_root
-- amos_os
-- amos_total_relation_graph.md
+- amos-os
 - artifact
 - canon/root
 - canon/universe

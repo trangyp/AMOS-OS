@@ -13,8 +13,7 @@ artifact_kind: ARCHITECTURE
 path: 00_ROOT/AMOS_TOTAL_ARCHITECTURE.md
 tags:
 - 00_root
-- amos_os
-- amos_total_architecture.md
+- amos-os
 - architecture
 - canon/root
 - canon/universe

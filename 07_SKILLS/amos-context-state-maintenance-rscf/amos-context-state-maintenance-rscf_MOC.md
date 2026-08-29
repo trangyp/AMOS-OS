@@ -3,9 +3,8 @@ title: Amos-Context-State-Maintenance-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-context-state-maintenance-rscf
 tags:
-- moc
 - amos-context-state-maintenance-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

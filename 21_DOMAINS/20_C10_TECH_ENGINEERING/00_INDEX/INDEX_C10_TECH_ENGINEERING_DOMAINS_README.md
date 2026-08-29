@@ -3,7 +3,7 @@ title: INDEX C10 TECH ENGINEERING DOMAINS README
 type: index
 source: 21_DOMAINS/20_C10_TECH_ENGINEERING/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - readme

@@ -3,9 +3,8 @@ title: References MOC — References — Executive Deck Decision System
 type: moc
 source: 07_SKILLS/executive-deck-decision-system/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - executive-deck-decision-system-moc
 - 00-home

@@ -3,9 +3,8 @@ title: Mckinsey-Value-Delivery-Rscf MOC
 type: moc
 source: 07_SKILLS/mckinsey-value-delivery-rscf
 tags:
-- moc
 - mckinsey-value-delivery-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

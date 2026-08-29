@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-audit-repair-master/references
 tags:
 - reference
 - amos-audit-repair-master
-- canon/skill
+- type/skill
 - validation
 - amos-audit-repair-master-moc
 - 00-home

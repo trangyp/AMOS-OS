@@ -3,9 +3,8 @@ title: References MOC — References — Mckinsey Credit Lending Rscf
 type: moc
 source: 07_SKILLS/mckinsey-credit-lending-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - mckinsey-credit-lending-rscf-moc
 - 00-home

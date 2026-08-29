@@ -3,7 +3,6 @@ title: 16 C06 Society Culture MOC
 type: moc
 source: 21_DOMAINS/16_C06_SOCIETY_CULTURE
 tags:
-- moc
 - 16-c06-society-culture
 - canon/domain
 - c06-society-culture-domains-domain-spec

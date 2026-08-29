@@ -3,9 +3,8 @@ title: Amos-Framework-Registry-Compiler MOC
 type: moc
 source: 07_SKILLS/amos-framework-registry-compiler
 tags:
-- moc
 - amos-framework-registry-compiler
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

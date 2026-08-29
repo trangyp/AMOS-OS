@@ -3,9 +3,8 @@ title: Amos-Ethics-Os-Governor MOC
 type: moc
 source: 07_SKILLS/amos-ethics-os-governor
 tags:
-- moc
 - amos-ethics-os-governor
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

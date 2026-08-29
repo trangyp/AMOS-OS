@@ -3,7 +3,7 @@ title: COGNITIVE ORGANISM COGNITIVE ORGANISM CONTRACT
 type: cognitive
 source: 05_COGNITIVE_ORGANISM
 tags:
-- amos_os
+- amos-os
 - 05_cognitive_organism
 - canon/cognitive
 - routing-policy-validation-receipt

@@ -3,7 +3,7 @@ title: DELIBERATION MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/42_DELIBERATION_MODES
 tags:
-- control_plane
+- control-plane
 - 42_deliberation_modes
 - canon/control-plane
 - authz-engine-validation-receipt

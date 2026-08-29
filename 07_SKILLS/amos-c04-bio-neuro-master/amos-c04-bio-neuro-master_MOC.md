@@ -3,9 +3,8 @@ title: Amos-C04-Bio-Neuro-Master MOC
 type: moc
 source: 07_SKILLS/amos-c04-bio-neuro-master
 tags:
-- moc
 - amos-c04-bio-neuro-master
-- canon/skill
+- type/skill
 - agent-template
 - skill
 - references-moc

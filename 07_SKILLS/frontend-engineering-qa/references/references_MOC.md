@@ -3,9 +3,8 @@ title: References MOC — References — Frontend Engineering Qa
 type: moc
 source: 07_SKILLS/frontend-engineering-qa/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - frontend-engineering-qa-moc
 - 00-home

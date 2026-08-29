@@ -3,9 +3,8 @@ title: O11 Goal MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O11_GOAL
 tags:
-- moc
 - o11-goal
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-o11-goal-contract
 - 00-index-moc
 - 02-lifecycle-operations-moc

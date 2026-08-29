@@ -3,9 +3,8 @@ title: Law-Stack-Enforcement-Pipeline MOC
 type: moc
 source: 08_WORKFLOWS/law-stack-enforcement-pipeline
 tags:
-- moc
 - law-stack-enforcement-pipeline
-- canon/workflow
+- type/workflow
 - workflow
 - 08-workflows-moc
 rscf:

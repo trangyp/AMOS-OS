@@ -3,9 +3,8 @@ title: Amos-Arxiv-Autonomous-Scientific-Knowledge-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-arxiv-autonomous-scientific-knowledge-rscf
 tags:
-- moc
 - amos-arxiv-autonomous-scientific-knowled
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

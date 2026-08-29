@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-fx-macro-differential-mapper/references
 tags:
 - reference
 - amos-fx-macro-differential-mapper
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

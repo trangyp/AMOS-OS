@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-boundary-scope-master
 tags:
 - note
 - amos-boundary-scope-master
-- canon/skill
+- type/skill
 - skill
 - amos-boundary-scope-master-moc
 rscf:

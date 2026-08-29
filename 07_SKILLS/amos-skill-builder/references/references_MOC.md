@@ -3,9 +3,8 @@ title: References MOC — References — Amos Skill Builder
 type: moc
 source: 07_SKILLS/amos-skill-builder/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - integration
 - output-patterns
 - validation

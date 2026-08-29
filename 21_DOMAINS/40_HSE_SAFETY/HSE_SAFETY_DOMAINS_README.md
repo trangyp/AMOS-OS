@@ -3,7 +3,7 @@ title: HSE SAFETY DOMAINS README
 type: safety
 source: 21_DOMAINS/40_HSE_SAFETY
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - readme

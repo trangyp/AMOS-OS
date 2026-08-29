@@ -3,9 +3,8 @@ title: 08 Workflows MOC
 type: moc
 source: 08_WORKFLOWS
 tags:
-- moc
 - 08-workflows
-- canon/workflow
+- type/workflow
 - workflows-readme
 - workflows-workflow-contract
 - amos-7-part-universe-canon-full-workflow

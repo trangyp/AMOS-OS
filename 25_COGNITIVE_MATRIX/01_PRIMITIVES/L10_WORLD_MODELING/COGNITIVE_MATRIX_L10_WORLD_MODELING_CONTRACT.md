@@ -3,11 +3,11 @@ title: COGNITIVE MATRIX L10 WORLD MODELING CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L10_WORLD_MODELING
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - primitives
 - l10_world_modeling
 - contract
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - cognitive-matrix-moc

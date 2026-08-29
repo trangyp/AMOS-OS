@@ -3,7 +3,6 @@ title: 08 Incident Response MOC
 type: moc
 source: 20_OPERATIONS/08_INCIDENT_RESPONSE
 tags:
-- moc
 - 08-incident-response
 - canon/operations
 - incident-response-operations-readme

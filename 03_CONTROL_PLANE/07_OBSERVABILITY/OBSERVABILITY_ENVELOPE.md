@@ -3,8 +3,7 @@ title: OBSERVABILITY ENVELOPE
 type: observability
 source: 03_CONTROL_PLANE/07_OBSERVABILITY
 tags:
-- control_plane
-- observability_envelope.md
+- control-plane
 - canon/control-plane
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt

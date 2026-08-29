@@ -3,9 +3,9 @@ title: PRIMITIVES COGNITIVE MATRIX L01 SENSING OBSERVATION CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l01_sensing_observation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - validation-evidence
 - 00-root-moc
 - amos-moc

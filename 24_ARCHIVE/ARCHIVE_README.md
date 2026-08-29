@@ -3,7 +3,7 @@ title: ARCHIVE README
 type: archive
 source: 24_ARCHIVE
 tags:
-- amos_os
+- amos-os
 - 24_archive
 - canon/archive
 - readme

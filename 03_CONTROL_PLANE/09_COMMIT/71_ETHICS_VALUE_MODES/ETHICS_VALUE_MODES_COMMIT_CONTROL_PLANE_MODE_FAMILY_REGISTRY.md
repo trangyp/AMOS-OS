@@ -3,7 +3,7 @@ title: ETHICS VALUE MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/71_ETHICS_VALUE_MODES
 tags:
-- control_plane
+- control-plane
 - 71_ethics_value_modes
 - canon/control-plane
 - authz-engine-validation-receipt

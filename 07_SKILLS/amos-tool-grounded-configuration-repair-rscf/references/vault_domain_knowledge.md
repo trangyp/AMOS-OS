@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-tool-grounded-configuration-repair-rscf/references
 tags:
 - reference
 - amos-tool-grounded-configuration-repair-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

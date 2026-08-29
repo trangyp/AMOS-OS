@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-arxiv-agent-memory-dynamics-rscf/references
 tags:
 - reference
 - amos-arxiv-agent-memory-dynamics-rscf
-- canon/skill
+- type/skill
 - cosmo-brain-moc
 - amos-build-from-spec
 - 2026-08-22-tests-logic-bridge-registry

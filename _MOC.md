@@ -3,10 +3,9 @@ title: AMOS Vault MOC
 type: moc
 source: .
 tags:
-- moc
 - vault
 - root
-- canon/general
+- epistemic/amos_model
 - amos-home
 - agents
 - amos-cognitive-architecture-matrix

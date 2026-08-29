@@ -3,9 +3,8 @@ title: Amos-Tensor-Train-Sketching-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-tensor-train-sketching-rscf-engine
 tags:
-- moc
 - amos-tensor-train-sketching-rscf-engine
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

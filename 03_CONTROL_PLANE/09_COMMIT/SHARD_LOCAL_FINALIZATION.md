@@ -12,8 +12,8 @@ segment: 03_CONTROL_PLANE/09_COMMIT
 artifact_kind: FINALIZATION
 path: 03_CONTROL_PLANE/09_COMMIT/SHARD_LOCAL_FINALIZATION.md
 tags:
-- amos_os
-- control_plane
+- amos-os
+- control-plane
 - governance
 - 03_control_plane
 - finalization

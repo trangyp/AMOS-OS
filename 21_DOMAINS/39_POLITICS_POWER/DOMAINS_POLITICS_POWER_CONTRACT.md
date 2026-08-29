@@ -3,7 +3,7 @@ title: DOMAINS POLITICS POWER CONTRACT
 type: note
 source: 21_DOMAINS/39_POLITICS_POWER
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - routing-policy-validation-receipt

@@ -3,7 +3,6 @@ title: security moc
 tags:
 - stub
 - security
-- moc
 - security-moc
 - kernel-moc
 - 00-home

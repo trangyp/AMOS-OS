@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-managed-autonomy-escalation-rscf/references
 tags:
 - reference
 - amos-managed-autonomy-escalation-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

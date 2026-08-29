@@ -3,9 +3,8 @@ title: C08 Execution MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C08_EXECUTION
 tags:
-- moc
 - c08-execution
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-c08-execution-contract
 - 00-index-moc
 - 03-control-planes-moc

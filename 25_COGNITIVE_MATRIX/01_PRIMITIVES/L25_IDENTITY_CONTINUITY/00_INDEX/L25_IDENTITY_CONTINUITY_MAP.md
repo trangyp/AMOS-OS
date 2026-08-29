@@ -3,9 +3,9 @@ title: L25 IDENTITY CONTINUITY MAP
 type: identity
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L25_IDENTITY_CONTINUITY/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l25_identity_continuity
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-map
 - amos-rscf-nodes
 - routing-policy-validation-receipt

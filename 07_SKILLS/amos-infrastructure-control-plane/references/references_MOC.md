@@ -3,9 +3,8 @@ title: References MOC — References — Amos Infrastructure Control Plane
 type: moc
 source: 07_SKILLS/amos-infrastructure-control-plane/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-infrastructure-control-plane-moc
 - 00-home

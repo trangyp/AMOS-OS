@@ -3,7 +3,7 @@ title: MULTI HYPOTHESIS MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/23_MULTI_HYPOTHESIS_MODES
 tags:
-- control_plane
+- control-plane
 - 23_multi_hypothesis_modes
 - canon/control-plane
 - authz-engine-validation-receipt

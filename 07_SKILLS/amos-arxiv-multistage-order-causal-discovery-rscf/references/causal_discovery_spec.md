@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-arxiv-multistage-order-causal-discovery-rscf/references
 tags:
 - reference
 - amos-arxiv-multistage-order-causal-discovery-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

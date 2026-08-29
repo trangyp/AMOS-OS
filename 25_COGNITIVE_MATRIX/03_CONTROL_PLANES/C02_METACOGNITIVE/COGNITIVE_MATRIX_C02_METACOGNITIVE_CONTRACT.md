@@ -3,11 +3,11 @@ title: COGNITIVE MATRIX C02 METACOGNITIVE CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C02_METACOGNITIVE
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - control_planes
 - c02_metacognitive
 - contract
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - cognitive-matrix-moc

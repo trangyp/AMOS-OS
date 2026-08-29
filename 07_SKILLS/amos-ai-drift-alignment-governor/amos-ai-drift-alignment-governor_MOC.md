@@ -3,9 +3,8 @@ title: Amos-Ai-Drift-Alignment-Governor MOC
 type: moc
 source: 07_SKILLS/amos-ai-drift-alignment-governor
 tags:
-- moc
 - amos-ai-drift-alignment-governor
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

@@ -3,9 +3,8 @@ title: References MOC — References — Amos Organism Os
 type: moc
 source: 07_SKILLS/amos-organism-os/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - bluememory-water-scarcity-os
 - amos-organism-os-moc
 - 00-home

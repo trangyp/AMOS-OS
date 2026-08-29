@@ -4,7 +4,6 @@ tags:
 - stub
 - universe
 - cosmos
-- moc
 - universe-cosmos-moc
 - kernel-moc
 - 00-home

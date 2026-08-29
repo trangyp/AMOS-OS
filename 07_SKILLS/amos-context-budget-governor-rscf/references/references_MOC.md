@@ -3,9 +3,8 @@ title: References MOC — References — Amos Context Budget Governor Rscf
 type: moc
 source: 07_SKILLS/amos-context-budget-governor-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-context-budget-governor-rscf-moc
 - 00-home

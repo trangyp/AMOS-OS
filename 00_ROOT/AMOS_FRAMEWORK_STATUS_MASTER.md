@@ -12,7 +12,7 @@ segment: 00_ROOT
 artifact_kind: FRAMEWORK
 path: 00_ROOT/AMOS_FRAMEWORK_STATUS_MASTER.md
 tags:
-- amos_os
+- amos-os
 - root
 - index
 - 00_root

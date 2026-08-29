@@ -3,9 +3,8 @@ title: References MOC — References — Amos System Completion Auditor
 type: moc
 source: 07_SKILLS/amos-system-completion-auditor/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-system-completion-auditor-moc
 - 00-home

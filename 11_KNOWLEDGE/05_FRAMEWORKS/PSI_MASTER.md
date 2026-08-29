@@ -12,7 +12,7 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: MASTER
 path: 11_KNOWLEDGE/05_FRAMEWORKS/PSI_MASTER.md
 tags:
-- amos_os
+- amos-os
 - knowledge
 - vault
 - 11_knowledge

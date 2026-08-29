@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-cross-scale-rscf-tensor-engine/references
 tags:
 - reference
 - amos-cross-scale-rscf-tensor-engine
-- canon/skill
+- type/skill
 - architecture
 - references-moc
 - 07-skills-moc

@@ -3,11 +3,11 @@ title: COGNITIVE MATRIX O13 DECISION CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O13_DECISION
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - lifecycle_operations
 - o13_decision
 - contract
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - cognitive-matrix-moc

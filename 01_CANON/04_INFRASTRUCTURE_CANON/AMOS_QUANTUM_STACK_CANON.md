@@ -14,7 +14,7 @@ artifact_kind: CANON_PLACEHOLDER
 package_role: RESERVED_INFRASTRUCTURE_CANON_SLOT
 path: 01_CANON/04_INFRASTRUCTURE_CANON/AMOS_QUANTUM_STACK_CANON.md
 tags:
-- amos_os
+- amos-os
 - canon
 - infrastructure_canon
 - quantum_stack

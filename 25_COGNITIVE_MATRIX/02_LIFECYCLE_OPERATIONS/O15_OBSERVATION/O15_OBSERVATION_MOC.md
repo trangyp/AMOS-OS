@@ -3,9 +3,8 @@ title: O15 Observation MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O15_OBSERVATION
 tags:
-- moc
 - o15-observation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-index-moc
 - 02-lifecycle-operations-moc
 - cognitive-matrix-o15-observation-contract

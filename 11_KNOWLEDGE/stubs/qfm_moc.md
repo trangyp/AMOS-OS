@@ -3,7 +3,6 @@ title: qfm moc
 tags:
 - stub
 - qfm
-- moc
 - qfm-moc
 - kernel-moc
 - 00-home

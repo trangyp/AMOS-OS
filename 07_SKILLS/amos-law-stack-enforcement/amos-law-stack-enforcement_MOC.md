@@ -3,9 +3,8 @@ title: Amos-Law-Stack-Enforcement MOC
 type: moc
 source: 07_SKILLS/amos-law-stack-enforcement
 tags:
-- moc
 - amos-law-stack-enforcement
-- canon/skill
+- type/skill
 - skill
 - references
 - references-moc

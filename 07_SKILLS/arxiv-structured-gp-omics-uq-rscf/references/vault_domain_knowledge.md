@@ -5,7 +5,7 @@ source: 07_SKILLS/arxiv-structured-gp-omics-uq-rscf/references
 tags:
 - reference
 - arxiv-structured-gp-omics-uq-rscf
-- canon/skill
+- type/skill
 - v3-7-1
 - agents
 - amos-acceptance-report-20260321-013004

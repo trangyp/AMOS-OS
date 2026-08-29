@@ -3,9 +3,8 @@ title: Amos-Forex-Unified-Os MOC
 type: moc
 source: 07_SKILLS/amos-forex-unified-os
 tags:
-- moc
 - amos-forex-unified-os
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

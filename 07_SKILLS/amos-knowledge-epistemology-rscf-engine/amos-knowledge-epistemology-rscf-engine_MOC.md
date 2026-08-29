@@ -3,9 +3,8 @@ title: Amos-Knowledge-Epistemology-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-knowledge-epistemology-rscf-engine
 tags:
-- moc
 - amos-knowledge-epistemology-rscf-engine
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

@@ -3,11 +3,11 @@ title: COGNITIVE MATRIX L27 MULTI AGENT COGNITION CONTRACT
 type: agent
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L27_MULTI_AGENT_COGNITION
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - primitives
 - l27_multi_agent_cognition
 - contract
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - cognitive-matrix-moc

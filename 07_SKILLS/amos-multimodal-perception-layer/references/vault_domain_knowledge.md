@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-multimodal-perception-layer/references
 tags:
 - reference
 - amos-multimodal-perception-layer
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

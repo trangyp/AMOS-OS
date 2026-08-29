@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-information-theory-master/references
 tags:
 - reference
 - amos-information-theory-master
-- canon/skill
+- type/skill
 - amos-information-theory-master-moc
 - 00-home
 - amos-rscf-nodes

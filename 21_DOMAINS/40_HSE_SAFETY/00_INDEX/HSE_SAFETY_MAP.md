@@ -3,7 +3,7 @@ title: HSE SAFETY MAP
 type: map
 source: 21_DOMAINS/40_HSE_SAFETY/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - hse-safety-domains-hse-safety-contract

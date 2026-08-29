@@ -3,7 +3,6 @@ title: 02 Experiments MOC
 type: moc
 source: 22_RESEARCH/02_EXPERIMENTS
 tags:
-- moc
 - 02-experiments
 - canon/research
 - experiments-research-readme

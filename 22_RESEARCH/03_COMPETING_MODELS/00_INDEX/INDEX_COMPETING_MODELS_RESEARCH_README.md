@@ -3,7 +3,7 @@ title: INDEX COMPETING MODELS RESEARCH README
 type: index
 source: 22_RESEARCH/03_COMPETING_MODELS/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 22_research
 - canon/research
 - readme

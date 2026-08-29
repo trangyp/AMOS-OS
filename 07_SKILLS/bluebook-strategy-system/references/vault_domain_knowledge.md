@@ -5,7 +5,7 @@ source: 07_SKILLS/bluebook-strategy-system/references
 tags:
 - reference
 - bluebook-strategy-system
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

@@ -3,9 +3,8 @@ title: Arxiv-Autosota-Research-Automation-Rscf MOC
 type: moc
 source: 07_SKILLS/arxiv-autosota-research-automation-rscf
 tags:
-- moc
 - arxiv-autosota-research-automation-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

@@ -3,7 +3,7 @@ title: DOMAINS RESEARCH MAP
 type: map
 source: 21_DOMAINS/02_RESEARCH/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - index-research-domains-readme

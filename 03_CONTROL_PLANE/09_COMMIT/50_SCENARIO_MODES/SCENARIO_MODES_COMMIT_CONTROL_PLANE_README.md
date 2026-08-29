@@ -3,7 +3,7 @@ title: SCENARIO MODES COMMIT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/50_SCENARIO_MODES
 tags:
-- control_plane
+- control-plane
 - 50_scenario_modes
 - canon/control-plane
 - readme

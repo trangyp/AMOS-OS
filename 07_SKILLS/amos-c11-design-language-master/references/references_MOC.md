@@ -3,9 +3,8 @@ title: References MOC — References — Amos C11 Design Language Master
 type: moc
 source: 07_SKILLS/amos-c11-design-language-master/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - academic-writing-engine
 - academic-writing-kernel-engine
 - accessibility-i18n

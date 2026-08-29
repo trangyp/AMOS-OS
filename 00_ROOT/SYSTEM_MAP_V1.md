@@ -21,7 +21,7 @@ scope:
 - AMOS_OS - repository_topology - system_planes - authority_boundaries - execution_topology
 tags:
 - amos
-- amos_os
+- amos-os
 - root
 - amos-os
 - system-map

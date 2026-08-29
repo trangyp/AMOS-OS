@@ -3,7 +3,7 @@ title: LEGAL DOMAINS README
 type: legal
 source: 21_DOMAINS/08_LEGAL
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - readme

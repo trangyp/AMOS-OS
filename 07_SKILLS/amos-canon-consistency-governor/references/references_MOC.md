@@ -3,9 +3,8 @@ title: References MOC — References — Amos Canon Consistency Governor
 type: moc
 source: 07_SKILLS/amos-canon-consistency-governor/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-canon-consistency-governor-moc
 - 00-home

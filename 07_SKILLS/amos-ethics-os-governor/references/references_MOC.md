@@ -3,9 +3,8 @@ title: References MOC — References — Amos Ethics Os Governor
 type: moc
 source: 07_SKILLS/amos-ethics-os-governor/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-ethics-os-governor-moc
 - 00-home

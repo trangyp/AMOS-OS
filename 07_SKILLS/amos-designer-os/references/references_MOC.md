@@ -3,9 +3,8 @@ title: References MOC — References — Amos Designer Os
 type: moc
 source: 07_SKILLS/amos-designer-os/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - amos-home
 - references-moc
 - 00-home

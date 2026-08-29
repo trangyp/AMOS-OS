@@ -3,7 +3,7 @@ title: INDEX DEPRECATED ARCHIVE README
 type: index
 source: 24_ARCHIVE/01_DEPRECATED/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 24_archive
 - canon/archive
 - readme

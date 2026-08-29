@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-tensor-train-sketching-rscf-engine/references
 tags:
 - reference
 - amos-tensor-train-sketching-rscf-engine
-- canon/skill
+- type/skill
 - architecture
 - 00-home
 - amos-rscf-nodes

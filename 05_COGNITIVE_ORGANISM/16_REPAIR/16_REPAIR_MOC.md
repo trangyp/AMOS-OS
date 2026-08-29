@@ -3,7 +3,6 @@ title: 16 Repair MOC
 type: moc
 source: 05_COGNITIVE_ORGANISM/16_REPAIR
 tags:
-- moc
 - 16-repair
 - canon/cognitive
 - biological-entropy-correction

@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-system-completion-auditor/references
 tags:
 - reference
 - amos-system-completion-auditor
-- canon/skill
+- type/skill
 - rscf-proof-capsule
 - 2026-08-22-amos-system-completion-audit
 - references-moc

@@ -3,9 +3,8 @@ title: References MOC — References — Pdfs
 type: moc
 source: 07_SKILLS/pdfs/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - amos-home
 - references-moc
 - 00-home

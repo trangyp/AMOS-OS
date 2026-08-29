@@ -3,7 +3,6 @@ title: emotion moc
 tags:
 - stub
 - emotion
-- moc
 - emotion-moc
 - kernel-moc
 - 00-home

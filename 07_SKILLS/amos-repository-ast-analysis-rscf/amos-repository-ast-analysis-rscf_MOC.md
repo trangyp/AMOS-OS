@@ -3,9 +3,8 @@ title: Amos-Repository-Ast-Analysis-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-repository-ast-analysis-rscf
 tags:
-- moc
 - amos-repository-ast-analysis-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

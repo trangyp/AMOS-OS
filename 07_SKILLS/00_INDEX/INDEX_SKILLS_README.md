@@ -3,9 +3,9 @@ title: INDEX SKILLS README
 type: index
 source: 07_SKILLS/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 07_skills
-- canon/skill
+- type/skill
 - readme
 - index-skills-skill-contract
 - skill-map

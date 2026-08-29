@@ -3,9 +3,8 @@ title: Amos-Fx-Rough-Heston-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-fx-rough-heston-rscf-engine
 tags:
-- moc
 - amos-fx-rough-heston-rscf-engine
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

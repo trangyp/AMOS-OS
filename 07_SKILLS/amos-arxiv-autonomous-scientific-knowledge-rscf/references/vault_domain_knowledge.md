@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-arxiv-autonomous-scientific-knowledge-rscf/references
 tags:
 - reference
 - amos-arxiv-autonomous-scientific-knowledge-rscf
-- canon/skill
+- type/skill
 - 00-home
 - amos-rscf-nodes
 - law-hierarchy

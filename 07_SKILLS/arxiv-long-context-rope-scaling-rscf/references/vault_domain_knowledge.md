@@ -5,7 +5,7 @@ source: 07_SKILLS/arxiv-long-context-rope-scaling-rscf/references
 tags:
 - reference
 - arxiv-long-context-rope-scaling-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 00-home
 - amos-rscf-nodes

@@ -3,8 +3,7 @@ title: BLIND SPOT REGISTRY
 type: registry
 source: 03_CONTROL_PLANE/07_OBSERVABILITY
 tags:
-- control_plane
-- blind_spot_registry.md
+- control-plane
 - canon/control-plane
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt

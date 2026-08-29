@@ -3,10 +3,9 @@ title: references MOC
 type: moc
 source: 07_SKILLS
 tags:
-- moc
 - references
 - skills
-- canon/skill
+- type/skill
 - 00-home
 - amos-rscf-nodes
 - law-hierarchy

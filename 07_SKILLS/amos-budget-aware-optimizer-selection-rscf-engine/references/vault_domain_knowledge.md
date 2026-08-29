@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-budget-aware-optimizer-selection-rscf-engine/references
 tags:
 - reference
 - amos-budget-aware-optimizer-selection-rscf-engine
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

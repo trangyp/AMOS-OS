@@ -3,7 +3,6 @@ title: 04 Runtime MOC
 type: moc
 source: 04_RUNTIME
 tags:
-- moc
 - 04-runtime
 - canon/runtime
 - runtime-readme

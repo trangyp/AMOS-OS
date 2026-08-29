@@ -3,7 +3,6 @@ title: 09 Commit MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT
 tags:
-- moc
 - 09-commit
 - canon/control-plane
 - causal-epoch-finality

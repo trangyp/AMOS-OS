@@ -3,7 +3,7 @@ title: 100 HANDOFF CONTINUITY MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/100_HANDOFF_CONTINUITY_MODES
 tags:
-- control_plane
+- control-plane
 - 100_handoff_continuity_modes
 - canon/control-plane
 - authz-engine-validation-receipt

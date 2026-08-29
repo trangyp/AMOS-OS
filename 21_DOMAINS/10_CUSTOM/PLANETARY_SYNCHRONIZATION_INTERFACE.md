@@ -12,7 +12,7 @@ segment: 21_DOMAINS/10_CUSTOM
 artifact_kind: DOMAIN_ENGINE
 path: 21_DOMAINS/10_CUSTOM/PLANETARY_SYNCHRONIZATION_INTERFACE.md
 tags:
-- amos_os
+- amos-os
 - domain
 - vault
 - 21_domains

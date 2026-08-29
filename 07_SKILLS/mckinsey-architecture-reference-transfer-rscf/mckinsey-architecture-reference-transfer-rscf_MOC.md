@@ -3,9 +3,8 @@ title: Mckinsey-Architecture-Reference-Transfer-Rscf MOC
 type: moc
 source: 07_SKILLS/mckinsey-architecture-reference-transfer-rscf
 tags:
-- moc
 - mckinsey-architecture-reference-transfer
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

@@ -12,8 +12,8 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX
 path: 25_COGNITIVE_MATRIX/AMOS_X_UBI_MATRIX.md
 tags:
-- amos_os
-- cognitive_matrix
+- amos-os
+- cognitive-matrix
 - matrix
 - 25_cognitive_matrix
 - ubi
@@ -29,7 +29,7 @@ tags:
 - systems_design
 - rscf
 - canon_candidate
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - amos-x-ubi
 - 00-root-moc
 - 00-home
@@ -3411,3 +3411,4 @@ i = f(NBI, NEI, SI, BEI)
 while `e = i²` **is present in the native UBI manual as a framework relationship**. The same source also explicitly connects UBI to TSS and TPE.
 
 The Drive search independently located the dedicated `Unified Biological Intelligence™ (UBI) – Official.md` artifact and also surfaced UBI/NeuroSyncAI integration material; that latter material should remain separate provenance rather than being silently merged into the native UBI definition.
+```

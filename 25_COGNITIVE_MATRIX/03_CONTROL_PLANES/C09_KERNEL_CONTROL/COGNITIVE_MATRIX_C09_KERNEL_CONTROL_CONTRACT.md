@@ -3,11 +3,11 @@ title: COGNITIVE MATRIX C09 KERNEL CONTROL CONTRACT
 type: kernel
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C09_KERNEL_CONTROL
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - control_planes
 - c09_kernel_control
 - contract
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - cognitive-matrix-moc

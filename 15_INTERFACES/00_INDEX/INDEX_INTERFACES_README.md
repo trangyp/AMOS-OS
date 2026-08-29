@@ -3,7 +3,7 @@ title: INDEX INTERFACES README
 type: index
 source: 15_INTERFACES/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 15_interfaces
 - canon/interface
 - readme

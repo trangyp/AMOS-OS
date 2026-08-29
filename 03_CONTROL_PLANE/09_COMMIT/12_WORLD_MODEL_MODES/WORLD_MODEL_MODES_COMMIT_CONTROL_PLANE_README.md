@@ -3,7 +3,7 @@ title: WORLD MODEL MODES COMMIT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/12_WORLD_MODEL_MODES
 tags:
-- control_plane
+- control-plane
 - 12_world_model_modes
 - canon/control-plane
 - readme

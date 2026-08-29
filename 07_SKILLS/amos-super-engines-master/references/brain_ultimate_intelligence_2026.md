@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-super-engines-master/references
 tags:
 - reference
 - amos-super-engines-master
-- canon/skill
+- type/skill
 - integration
 - references-moc
 - 07-skills-moc

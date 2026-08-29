@@ -3,10 +3,10 @@ title: COGNITIVE MATRIX MAP
 type: map
 source: 25_COGNITIVE_MATRIX/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - matrix
 - cognition
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-architecture
 - cognitive-matrix-moc
 - cognitive-matrix-naming-standard

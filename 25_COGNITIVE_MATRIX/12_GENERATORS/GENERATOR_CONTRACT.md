@@ -3,10 +3,10 @@ title: GENERATOR CONTRACT
 type: generator
 source: 25_COGNITIVE_MATRIX/12_GENERATORS
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - generators
 - contract
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - validation
 - integration
 - 00-root-moc

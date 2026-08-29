@@ -3,7 +3,7 @@ title: ANALOGY TRANSFER MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/44_ANALOGY_TRANSFER_MODES
 tags:
-- control_plane
+- control-plane
 - 44_analogy_transfer_modes
 - canon/control-plane
 - authz-engine-validation-receipt

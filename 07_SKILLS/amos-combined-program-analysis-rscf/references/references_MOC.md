@@ -3,9 +3,8 @@ title: References MOC — References — Amos Combined Program Analysis Rscf
 type: moc
 source: 07_SKILLS/amos-combined-program-analysis-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-combined-program-analysis-rscf-moc
 - 00-home

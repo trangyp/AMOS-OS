@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-rscf-epistemic-master/references
 tags:
 - reference
 - amos-rscf-epistemic-master
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

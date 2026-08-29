@@ -15,14 +15,13 @@ tags:
 - 00_mode_index
 - 03_control_plane
 - 09_commit
-- amos_os
+- amos-os
 - canon/control-plane
 - canon/universe
 - commit
-- control_plane
+- control-plane
 - log
 - mode_index
-- mode_ontology.md
 - note
 - ontology
 - rscf

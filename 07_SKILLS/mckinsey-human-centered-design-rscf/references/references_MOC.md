@@ -3,9 +3,8 @@ title: References MOC — References — Mckinsey Human Centered Design Rscf
 type: moc
 source: 07_SKILLS/mckinsey-human-centered-design-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - mckinsey-human-centered-design-rscf-moc
 - 00-home

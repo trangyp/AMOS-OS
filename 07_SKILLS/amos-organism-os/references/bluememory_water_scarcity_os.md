@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-organism-os/references
 tags:
 - reference
 - amos-organism-os
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

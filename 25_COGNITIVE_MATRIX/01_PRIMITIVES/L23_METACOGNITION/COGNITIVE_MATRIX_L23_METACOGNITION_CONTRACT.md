@@ -3,11 +3,11 @@ title: COGNITIVE MATRIX L23 METACOGNITION CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L23_METACOGNITION
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - primitives
 - l23_metacognition
 - contract
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - cognitive-matrix-moc

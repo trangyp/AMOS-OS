@@ -3,7 +3,6 @@ title: 01 Software MOC
 type: moc
 source: 21_DOMAINS/01_SOFTWARE
 tags:
-- moc
 - 01-software
 - canon/domain
 - domains-software-contract

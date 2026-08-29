@@ -12,7 +12,7 @@ segment: 01_CANON/07_PROVENANCE
 artifact_kind: REGISTRY
 path: 01_CANON/07_PROVENANCE/LICENSE_REGISTRY.md
 tags:
-- amos_os
+- amos-os
 - canon
 - universe
 - 01_canon

@@ -3,7 +3,7 @@ title: STATE KERNEL STATE CONTRACT
 type: kernel
 source: 02_KERNEL/04_STATE/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 02_kernel
 - canon/kernel
 - routing-policy-validation-receipt

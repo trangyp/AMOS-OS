@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-heterogeneous-exploration-cohort-rscf/references
 tags:
 - reference
 - amos-heterogeneous-exploration-cohort-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

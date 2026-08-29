@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-memory-conflict-governor/references
 tags:
 - reference
 - amos-memory-conflict-governor
-- canon/skill
+- type/skill
 - k-meta-logic
 - amos-ubi-kernel
 - references-moc

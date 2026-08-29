@@ -12,8 +12,8 @@ segment: 03_CONTROL_PLANE/03_POLICY
 artifact_kind: POLICY
 path: 03_CONTROL_PLANE/03_POLICY/UBI_INTEGRITY_POLICY.md
 tags:
-- amos_os
-- control_plane
+- amos-os
+- control-plane
 - governance
 - 03_control_plane
 - policy

@@ -3,9 +3,8 @@ title: Amos-Fx-Tensor-Train-Greeks-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-fx-tensor-train-greeks-rscf-engine
 tags:
-- moc
 - amos-fx-tensor-train-greeks-rscf-engine
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

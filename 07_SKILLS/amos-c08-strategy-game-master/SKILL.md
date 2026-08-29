@@ -13,12 +13,12 @@ origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
 tags:
 - type/skill
-- canon/skill
+- type/skill
 - domain/strategy-game
-- rscf/source_claim
+- epistemic/source_claim
 - hml/m
 - epistemic/source_canon
-- amos_os
+- amos-os
 - agent-template
 - amos-c08-strategy-game-master-moc
 - 00-home

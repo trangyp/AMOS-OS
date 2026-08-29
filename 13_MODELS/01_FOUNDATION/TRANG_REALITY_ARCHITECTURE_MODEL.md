@@ -48,7 +48,7 @@ source_basis:
 
     '
 tags:
-- amos_os
+- amos-os
 - amos
 - trang
 - trang_phan
@@ -6558,3 +6558,4 @@ RSCF-RELATIONS:
 ---
 
 **MOC:** [[01_FOUNDATION_MOC]]
+```

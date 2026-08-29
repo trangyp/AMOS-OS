@@ -3,7 +3,6 @@ title: Trang MOC
 type: moc
 source: 11_KNOWLEDGE/trang
 tags:
-- moc
 - trang
 - canon/knowledge
 rscf:

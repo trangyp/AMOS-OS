@@ -3,7 +3,7 @@ title: POLITICS POWER MAP
 type: map
 source: 21_DOMAINS/39_POLITICS_POWER/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - index-politics-power-domains-readme

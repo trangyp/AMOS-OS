@@ -3,9 +3,8 @@ title: References MOC — References — Amos Gradient Rscf Architecture
 type: moc
 source: 07_SKILLS/amos-gradient-rscf-architecture/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-gradient-rscf-architecture-moc
 - 00-home

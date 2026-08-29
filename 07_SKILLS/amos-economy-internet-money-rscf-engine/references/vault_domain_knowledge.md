@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-economy-internet-money-rscf-engine/references
 tags:
 - reference
 - amos-economy-internet-money-rscf-engine
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

@@ -3,7 +3,7 @@ title: ARCHIVE DEPRECATED CONTRACT
 type: deprecated
 source: 24_ARCHIVE/01_DEPRECATED
 tags:
-- amos_os
+- amos-os
 - 24_archive
 - canon/archive
 - routing-policy-validation-receipt

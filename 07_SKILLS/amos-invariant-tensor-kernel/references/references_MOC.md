@@ -3,9 +3,8 @@ title: References MOC — References — Amos Invariant Tensor Kernel
 type: moc
 source: 07_SKILLS/amos-invariant-tensor-kernel/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-invariant-tensor-kernel-moc
 - 00-home

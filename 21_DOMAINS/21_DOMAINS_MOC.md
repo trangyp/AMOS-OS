@@ -3,7 +3,6 @@ title: 21 Domains MOC
 type: moc
 source: 21_DOMAINS
 tags:
-- moc
 - 21-domains
 - canon/domain
 - domains-domain-alias-contract

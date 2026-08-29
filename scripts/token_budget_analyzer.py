@@ -86,7 +86,7 @@ def parse_frontmatter(text: str) -> tuple[dict, str]:
     """Extract YAML frontmatter and return (metadata, body)."""
     if not text.startswith("---"):
         return {}, text
-    parts = text.split("---", 2)
+    parts = re.split(r"^---\s*$", text, 2, flags=re.MULTILINE)
     if len(parts) < 3:
         return {}, text
     try:

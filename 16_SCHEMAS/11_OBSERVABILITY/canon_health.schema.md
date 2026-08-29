@@ -12,7 +12,7 @@ segment: 16_SCHEMAS/11_OBSERVABILITY
 artifact_kind: CANON
 path: 16_SCHEMAS/11_OBSERVABILITY/canon_health.schema.md
 tags:
-- amos_os
+- amos-os
 - schema
 - specification
 - 16_schemas

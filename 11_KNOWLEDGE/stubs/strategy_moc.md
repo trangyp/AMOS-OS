@@ -3,7 +3,6 @@ title: strategy moc
 tags:
 - stub
 - strategy
-- moc
 - strategy-moc
 - kernel-moc
 - 00-home

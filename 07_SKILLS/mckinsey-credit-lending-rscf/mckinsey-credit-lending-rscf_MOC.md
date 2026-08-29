@@ -3,9 +3,8 @@ title: Mckinsey-Credit-Lending-Rscf MOC
 type: moc
 source: 07_SKILLS/mckinsey-credit-lending-rscf
 tags:
-- moc
 - mckinsey-credit-lending-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

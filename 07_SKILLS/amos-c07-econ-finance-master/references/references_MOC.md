@@ -3,9 +3,8 @@ title: References MOC — References — Amos C07 Econ Finance Master
 type: moc
 source: 07_SKILLS/amos-c07-econ-finance-master/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - 11k-investment-agent
 - australia-economy-engine
 - australia-engine-layer

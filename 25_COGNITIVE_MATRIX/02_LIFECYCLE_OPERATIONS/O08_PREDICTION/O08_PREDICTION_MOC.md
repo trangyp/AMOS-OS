@@ -3,9 +3,8 @@ title: O08 Prediction MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O08_PREDICTION
 tags:
-- moc
 - o08-prediction
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-o08-prediction-contract
 - 00-index-moc
 - 02-lifecycle-operations-moc

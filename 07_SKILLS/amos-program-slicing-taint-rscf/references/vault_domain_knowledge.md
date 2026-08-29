@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-program-slicing-taint-rscf/references
 tags:
 - reference
 - amos-program-slicing-taint-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

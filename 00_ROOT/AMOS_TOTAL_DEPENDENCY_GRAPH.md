@@ -13,8 +13,7 @@ artifact_kind: DEPENDENCY
 path: 00_ROOT/AMOS_TOTAL_DEPENDENCY_GRAPH.md
 tags:
 - 00_root
-- amos_os
-- amos_total_dependency_graph.md
+- amos-os
 - artifact
 - canon/root
 - canon/universe

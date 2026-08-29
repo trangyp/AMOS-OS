@@ -3,9 +3,8 @@ title: Amos-Cognitive-Compression-Kernel MOC
 type: moc
 source: 07_SKILLS/amos-cognitive-compression-kernel
 tags:
-- moc
 - amos-cognitive-compression-kernel
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

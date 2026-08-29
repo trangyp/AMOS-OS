@@ -3,7 +3,7 @@ title: OPERATIONS OPERATIONS CONTRACT
 type: operation
 source: 20_OPERATIONS
 tags:
-- amos_os
+- amos-os
 - 20_operations
 - canon/operations
 - routing-policy-validation-receipt

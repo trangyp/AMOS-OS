@@ -3,7 +3,6 @@ title: math moc
 tags:
 - stub
 - math
-- moc
 - math-moc
 - kernel-moc
 - 00-home

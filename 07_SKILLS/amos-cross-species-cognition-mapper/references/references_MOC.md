@@ -3,9 +3,8 @@ title: References MOC — References — Amos Cross Species Cognition Mapper
 type: moc
 source: 07_SKILLS/amos-cross-species-cognition-mapper/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-cross-species-cognition-mapper-moc
 - 00-home

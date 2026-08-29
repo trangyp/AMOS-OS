@@ -3,7 +3,6 @@ title: economy moc
 tags:
 - stub
 - economy
-- moc
 - economy-moc
 - kernel-moc
 - 00-home

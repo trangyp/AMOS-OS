@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-direct-corpus-search-rscf/references
 tags:
 - reference
 - amos-direct-corpus-search-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

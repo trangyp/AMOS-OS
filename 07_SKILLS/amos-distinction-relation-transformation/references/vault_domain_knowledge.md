@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-distinction-relation-transformation/references
 tags:
 - reference
 - amos-distinction-relation-transformation
-- canon/skill
+- type/skill
 - ratpak
 - references-moc
 - 07-skills-moc

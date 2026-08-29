@@ -3,7 +3,7 @@ title: FRESHNESS REVALIDATION MODES COMMIT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/84_FRESHNESS_REVALIDATION_MODES
 tags:
-- control_plane
+- control-plane
 - 84_freshness_revalidation_modes
 - canon/control-plane
 - readme

@@ -12,7 +12,7 @@ segment: 04_RUNTIME/06_EXECUTION
 artifact_kind: RUNTIME_SPEC
 path: 04_RUNTIME/06_EXECUTION/UNCERTAINTY_VECTOR_RUNTIME.md
 tags:
-- amos_os
+- amos-os
 - runtime
 - vault
 - 04_runtime

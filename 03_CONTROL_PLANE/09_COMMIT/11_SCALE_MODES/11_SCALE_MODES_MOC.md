@@ -3,7 +3,6 @@ title: 11 Scale Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/11_SCALE_MODES
 tags:
-- moc
 - 11-scale-modes
 - canon/control-plane
 - scale-modes-commit-control-plane-readme

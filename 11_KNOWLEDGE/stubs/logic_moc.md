@@ -3,7 +3,6 @@ title: logic moc
 tags:
 - stub
 - logic
-- moc
 - logic-moc
 - kernel-moc
 - 00-home

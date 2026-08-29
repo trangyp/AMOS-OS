@@ -3,7 +3,6 @@ title: 16 Schemas MOC
 type: moc
 source: 16_SCHEMAS
 tags:
-- moc
 - 16-schemas
 - canon/schema
 - schemas-readme

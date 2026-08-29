@@ -3,9 +3,8 @@ title: Amos-Aibom-Lifecycle-Assurance-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-aibom-lifecycle-assurance-rscf
 tags:
-- moc
 - amos-aibom-lifecycle-assurance-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

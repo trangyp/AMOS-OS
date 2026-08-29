@@ -3,9 +3,8 @@ title: Amos-Canon-Compiler MOC
 type: moc
 source: 07_SKILLS/amos-canon-compiler
 tags:
-- moc
 - amos-canon-compiler
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

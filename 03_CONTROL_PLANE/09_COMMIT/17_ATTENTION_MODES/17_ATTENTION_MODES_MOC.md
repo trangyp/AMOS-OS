@@ -3,7 +3,6 @@ title: 17 Attention Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/17_ATTENTION_MODES
 tags:
-- moc
 - 17-attention-modes
 - canon/control-plane
 - 09-commit-moc

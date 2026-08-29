@@ -3,7 +3,7 @@ title: ESCALATION MAP
 type: map
 source: 23_OPERATING_MODEL/04_ESCALATION/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 23_operating_model
 - canon/operating-model
 - index-escalation-operating-model-readme

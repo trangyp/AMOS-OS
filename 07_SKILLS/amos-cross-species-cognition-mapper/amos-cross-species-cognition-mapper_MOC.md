@@ -3,9 +3,8 @@ title: Amos-Cross-Species-Cognition-Mapper MOC
 type: moc
 source: 07_SKILLS/amos-cross-species-cognition-mapper
 tags:
-- moc
 - amos-cross-species-cognition-mapper
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

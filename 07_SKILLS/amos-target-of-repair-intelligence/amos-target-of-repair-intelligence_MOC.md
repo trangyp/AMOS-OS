@@ -3,9 +3,8 @@ title: Amos-Target-Of-Repair-Intelligence MOC
 type: moc
 source: 07_SKILLS/amos-target-of-repair-intelligence
 tags:
-- moc
 - amos-target-of-repair-intelligence
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

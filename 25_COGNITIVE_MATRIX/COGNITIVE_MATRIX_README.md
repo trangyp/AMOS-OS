@@ -12,8 +12,8 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: COGNITIVE_ARCHITECTURE
 path: 25_COGNITIVE_MATRIX/COGNITIVE_MATRIX_README.md
 tags:
-- amos_os
-- cognitive_matrix
+- amos-os
+- cognitive-matrix
 - cognitive_architecture
 - reasoning_architecture
 - governed_cognition
@@ -44,7 +44,7 @@ tags:
 - anti_fabrication
 - anti_regression
 - canon_candidate
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - validation
 - task-contract

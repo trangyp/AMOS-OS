@@ -3,9 +3,8 @@ title: Amos-Interactive-Evaluation-Design-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-interactive-evaluation-design-rscf
 tags:
-- moc
 - amos-interactive-evaluation-design-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

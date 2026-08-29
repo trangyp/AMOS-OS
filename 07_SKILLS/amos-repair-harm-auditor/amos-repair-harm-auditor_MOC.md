@@ -3,9 +3,8 @@ title: Amos-Repair-Harm-Auditor MOC
 type: moc
 source: 07_SKILLS/amos-repair-harm-auditor
 tags:
-- moc
 - amos-repair-harm-auditor
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

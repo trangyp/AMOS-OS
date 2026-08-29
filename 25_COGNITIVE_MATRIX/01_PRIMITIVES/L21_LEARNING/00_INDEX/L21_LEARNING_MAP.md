@@ -3,9 +3,9 @@ title: L21 LEARNING MAP
 type: map
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L21_LEARNING/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l21_learning
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-map
 - amos-rscf-nodes
 - routing-policy-validation-receipt

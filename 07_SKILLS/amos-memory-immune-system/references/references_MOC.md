@@ -3,9 +3,8 @@ title: References MOC — References — Amos Memory Immune System
 type: moc
 source: 07_SKILLS/amos-memory-immune-system/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-memory-immune-system-moc
 - 00-home

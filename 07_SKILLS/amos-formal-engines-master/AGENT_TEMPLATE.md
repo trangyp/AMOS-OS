@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-formal-engines-master
 tags:
 - note
 - amos-formal-engines-master
-- canon/skill
+- type/skill
 - skill
 - amos-formal-engines-master-moc
 rscf:

@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-repair-harm-auditor/references
 tags:
 - reference
 - amos-repair-harm-auditor
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

@@ -3,9 +3,8 @@ title: References MOC — References — Amos Boundary Scope Master
 type: moc
 source: 07_SKILLS/amos-boundary-scope-master/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - boundary-identity
 - vault-domain-knowledge
 - amos-boundary-scope-master-moc

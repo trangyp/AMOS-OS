@@ -3,9 +3,8 @@ title: Amos-Os-Kernel MOC
 type: moc
 source: 07_SKILLS/amos-os-kernel
 tags:
-- moc
 - amos-os-kernel
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

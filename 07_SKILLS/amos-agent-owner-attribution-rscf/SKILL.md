@@ -14,12 +14,12 @@ origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
 - type/skill
-- canon/skill
+- type/skill
 - domain/agent-systems
-- rscf/source_claim
+- epistemic/source_claim
 - hml/m
 - epistemic/source_claim
-- amos_os
+- amos-os
 - architecture
 - 07-skills-moc
 - amos-agent-owner-attribution-rscf-moc

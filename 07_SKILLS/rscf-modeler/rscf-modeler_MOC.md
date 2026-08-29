@@ -3,9 +3,8 @@ title: Rscf-Modeler MOC
 type: moc
 source: 07_SKILLS/rscf-modeler
 tags:
-- moc
 - rscf-modeler
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-ai-architecture-factory-rscf-engine/references
 tags:
 - reference
 - amos-ai-architecture-factory-rscf-engine
-- canon/skill
+- type/skill
 - 00-home
 - amos-rscf-nodes
 - law-hierarchy

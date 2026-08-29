@@ -3,9 +3,9 @@ title: CONTROL PLANES MAP
 type: map
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - 00_index
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-map
 - amos-rscf-nodes
 - routing-policy-validation-receipt

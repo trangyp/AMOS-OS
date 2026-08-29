@@ -3,7 +3,7 @@ title: RESEARCH COMPETING MODELS CONTRACT
 type: model
 source: 22_RESEARCH/03_COMPETING_MODELS
 tags:
-- amos_os
+- amos-os
 - 22_research
 - canon/research
 - routing-policy-validation-receipt

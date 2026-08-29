@@ -3,9 +3,8 @@ title: Amos-Agent-Owner-Attribution-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-agent-owner-attribution-rscf
 tags:
-- moc
 - amos-agent-owner-attribution-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

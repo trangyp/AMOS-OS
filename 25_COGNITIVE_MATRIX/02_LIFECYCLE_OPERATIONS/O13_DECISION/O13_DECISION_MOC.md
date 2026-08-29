@@ -3,9 +3,8 @@ title: O13 Decision MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O13_DECISION
 tags:
-- moc
 - o13-decision
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-o13-decision-contract
 - 00-index-moc
 - 02-lifecycle-operations-moc

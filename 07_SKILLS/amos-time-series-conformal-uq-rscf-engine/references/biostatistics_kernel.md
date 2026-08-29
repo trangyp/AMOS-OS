@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-time-series-conformal-uq-rscf-engine/references
 tags:
 - reference
 - amos-time-series-conformal-uq-rscf-engine
-- canon/skill
+- type/skill
 - cosmo-brain-moc
 - references-moc
 - 00-home

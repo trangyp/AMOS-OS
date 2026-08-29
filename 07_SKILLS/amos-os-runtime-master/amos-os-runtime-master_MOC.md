@@ -3,9 +3,8 @@ title: Amos-Os-Runtime-Master MOC
 type: moc
 source: 07_SKILLS/amos-os-runtime-master
 tags:
-- moc
 - amos-os-runtime-master
-- canon/skill
+- type/skill
 - agent-template
 - skill
 - references-moc

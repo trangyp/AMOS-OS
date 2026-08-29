@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-context-compaction-recoverability-rscf/references
 tags:
 - reference
 - amos-context-compaction-recoverability-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

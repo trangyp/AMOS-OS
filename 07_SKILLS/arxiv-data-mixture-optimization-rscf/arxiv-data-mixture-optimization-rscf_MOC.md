@@ -3,9 +3,8 @@ title: Arxiv-Data-Mixture-Optimization-Rscf MOC
 type: moc
 source: 07_SKILLS/arxiv-data-mixture-optimization-rscf
 tags:
-- moc
 - arxiv-data-mixture-optimization-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-execution-provenance-replay-rscf/references
 tags:
 - reference
 - amos-execution-provenance-replay-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

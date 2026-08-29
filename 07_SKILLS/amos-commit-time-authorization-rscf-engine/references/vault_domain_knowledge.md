@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-commit-time-authorization-rscf-engine/references
 tags:
 - reference
 - amos-commit-time-authorization-rscf-engine
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

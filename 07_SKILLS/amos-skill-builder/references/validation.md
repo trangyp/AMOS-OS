@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-skill-builder/references
 tags:
 - reference
 - amos-skill-builder
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

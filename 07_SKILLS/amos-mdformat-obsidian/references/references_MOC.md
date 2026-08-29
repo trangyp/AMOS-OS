@@ -3,10 +3,9 @@ title: references MOC
 type: moc
 source: 07_SKILLS/amos-mdformat-obsidian/references
 tags:
-- moc
 - references
 - amos-mdformat-obsidian
-- canon/skill
+- type/skill
 - sota
 - 00-home
 - amos-rscf-nodes

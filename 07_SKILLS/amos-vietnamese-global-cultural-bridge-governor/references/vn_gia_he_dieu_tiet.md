@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-vietnamese-global-cultural-bridge-governor/references
 tags:
 - reference
 - amos-vietnamese-global-cultural-bridge-governor
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

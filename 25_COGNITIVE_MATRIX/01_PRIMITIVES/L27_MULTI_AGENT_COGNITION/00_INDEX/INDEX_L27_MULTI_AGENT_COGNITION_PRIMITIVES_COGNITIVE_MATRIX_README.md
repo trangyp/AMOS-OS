@@ -3,9 +3,9 @@ title: INDEX L27 MULTI AGENT COGNITION PRIMITIVES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L27_MULTI_AGENT_COGNITION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l27_multi_agent_cognition
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - l27-multi-agent-cognition-map
 - 00-home

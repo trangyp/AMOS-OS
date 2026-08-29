@@ -3,8 +3,7 @@ title: CONTROL PLANE ROLLBACK CONTRACT
 type: control-plane
 source: 03_CONTROL_PLANE/12_ROLLBACK
 tags:
-- control_plane
-- control_plane_rollback_contract.md
+- control-plane
 - canon/control-plane
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt

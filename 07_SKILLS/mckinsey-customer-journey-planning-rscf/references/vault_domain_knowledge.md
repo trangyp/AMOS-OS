@@ -5,7 +5,7 @@ source: 07_SKILLS/mckinsey-customer-journey-planning-rscf/references
 tags:
 - reference
 - mckinsey-customer-journey-planning-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

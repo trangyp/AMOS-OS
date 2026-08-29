@@ -3,9 +3,8 @@ title: Mckinsey-Digital-Strategy-Rscf MOC
 type: moc
 source: 07_SKILLS/mckinsey-digital-strategy-rscf
 tags:
-- moc
 - mckinsey-digital-strategy-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

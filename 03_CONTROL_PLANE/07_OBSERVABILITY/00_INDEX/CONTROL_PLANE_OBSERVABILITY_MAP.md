@@ -3,7 +3,7 @@ title: CONTROL PLANE OBSERVABILITY MAP
 type: map
 source: 03_CONTROL_PLANE/07_OBSERVABILITY/00_INDEX
 tags:
-- control_plane
+- control-plane
 - 00_index
 - canon/control-plane
 - index-observability-control-plane-readme

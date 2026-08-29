@@ -37,7 +37,7 @@ anchors:
 - PSI_planetary_layer
 - PISync_final_interface_state
 tags:
-- amos_os
+- amos-os
 - canon
 - universe
 - universe_canon

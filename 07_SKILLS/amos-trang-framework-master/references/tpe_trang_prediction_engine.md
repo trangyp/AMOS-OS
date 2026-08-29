@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-trang-framework-master/references
 tags:
 - reference
 - amos-trang-framework-master
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

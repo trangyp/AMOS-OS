@@ -12,7 +12,7 @@ segment: 01_CANON/02_UNIVERSE_CANON
 artifact_kind: CANON
 path: 01_CANON/02_UNIVERSE_CANON/SEVEN_PART_UNIVERSE_CANON_V2.md
 tags:
-- amos_os
+- amos-os
 - canon
 - universe
 - 01_canon

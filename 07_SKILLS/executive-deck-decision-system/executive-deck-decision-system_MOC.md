@@ -3,9 +3,8 @@ title: Executive-Deck-Decision-System MOC
 type: moc
 source: 07_SKILLS/executive-deck-decision-system
 tags:
-- moc
 - executive-deck-decision-system
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

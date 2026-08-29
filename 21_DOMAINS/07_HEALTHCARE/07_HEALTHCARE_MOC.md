@@ -3,7 +3,6 @@ title: 07 Healthcare MOC
 type: moc
 source: 21_DOMAINS/07_HEALTHCARE
 tags:
-- moc
 - 07-healthcare
 - canon/domain
 - amos-medical-clinical-kernel

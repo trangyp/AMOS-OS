@@ -3,9 +3,8 @@ title: Amos-Self-Regulated-Simulative-Planning-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-self-regulated-simulative-planning-rscf
 tags:
-- moc
 - amos-self-regulated-simulative-planning-
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

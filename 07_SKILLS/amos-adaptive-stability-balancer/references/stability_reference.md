@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-adaptive-stability-balancer/references
 tags:
 - reference
 - amos-adaptive-stability-balancer
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

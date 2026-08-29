@@ -3,9 +3,8 @@ title: COGNITIVE MATRIX ROUTING CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/10_ROUTING
 tags:
-- cognitive_matrix
-- cognitive_matrix_routing_contract.md
-- canon/cognitive-matrix
+- cognitive-matrix
+- domain/cognitive-matrix
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy

@@ -3,9 +3,8 @@ title: Amos-Fx-Bayesian-Neural-Sde-Calibration-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-fx-bayesian-neural-sde-calibration-rscf-engine
 tags:
-- moc
 - amos-fx-bayesian-neural-sde-calibration-
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

@@ -3,9 +3,9 @@ title: INDEX L25 IDENTITY CONTINUITY PRIMITIVES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L25_IDENTITY_CONTINUITY/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l25_identity_continuity
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - l25-identity-continuity-map
 - 00-home

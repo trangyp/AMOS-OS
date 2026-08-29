@@ -3,9 +3,8 @@ title: Amos-Emotion-Cognition-Decision-Bridge-Governor MOC
 type: moc
 source: 07_SKILLS/amos-emotion-cognition-decision-bridge-governor
 tags:
-- moc
 - amos-emotion-cognition-decision-bridge-g
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

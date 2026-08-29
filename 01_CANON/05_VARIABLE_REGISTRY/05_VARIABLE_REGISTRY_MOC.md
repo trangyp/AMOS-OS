@@ -3,7 +3,6 @@ title: 05 Variable Registry MOC
 type: moc
 source: 01_CANON/05_VARIABLE_REGISTRY
 tags:
-- moc
 - 05-variable-registry
 - canon/universe
 - bio-logical-variable-registry

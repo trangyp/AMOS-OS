@@ -3,7 +3,6 @@ title: pipelines moc
 tags:
 - stub
 - pipelines
-- moc
 - pipelines-moc
 - kernel-moc
 - 00-home

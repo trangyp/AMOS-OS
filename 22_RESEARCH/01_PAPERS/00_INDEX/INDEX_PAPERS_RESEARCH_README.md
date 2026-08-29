@@ -3,7 +3,7 @@ title: INDEX PAPERS RESEARCH README
 type: index
 source: 22_RESEARCH/01_PAPERS/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 22_research
 - canon/research
 - readme

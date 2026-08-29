@@ -3,7 +3,7 @@ title: SCHEMA MAP
 type: map
 source: 16_SCHEMAS/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 16_schemas
 - canon/schema
 - index-schemas-readme

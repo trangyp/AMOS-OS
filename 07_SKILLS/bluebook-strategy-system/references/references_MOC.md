@@ -3,9 +3,8 @@ title: References MOC — References — Bluebook Strategy System
 type: moc
 source: 07_SKILLS/bluebook-strategy-system/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - bluebook-strategy-system-moc
 - 00-home

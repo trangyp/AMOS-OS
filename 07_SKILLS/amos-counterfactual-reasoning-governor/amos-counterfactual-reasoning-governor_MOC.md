@@ -3,9 +3,8 @@ title: Amos-Counterfactual-Reasoning-Governor MOC
 type: moc
 source: 07_SKILLS/amos-counterfactual-reasoning-governor
 tags:
-- moc
 - amos-counterfactual-reasoning-governor
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

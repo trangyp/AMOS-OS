@@ -3,9 +3,9 @@ title: INDEX L11 CAUSAL MODELING PRIMITIVES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L11_CAUSAL_MODELING/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l11_causal_modeling
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - l11-causal-modeling-map
 - 00-home

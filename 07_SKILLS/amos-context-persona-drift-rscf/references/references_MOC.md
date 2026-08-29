@@ -3,9 +3,8 @@ title: References MOC — References — Amos Context Persona Drift Rscf
 type: moc
 source: 07_SKILLS/amos-context-persona-drift-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - nervous-system-state-drift
 - amos-context-persona-drift-rscf-moc
 - 00-home

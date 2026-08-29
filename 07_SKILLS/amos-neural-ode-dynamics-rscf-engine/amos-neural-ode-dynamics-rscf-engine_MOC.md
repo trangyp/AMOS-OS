@@ -3,9 +3,8 @@ title: Amos-Neural-Ode-Dynamics-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-neural-ode-dynamics-rscf-engine
 tags:
-- moc
 - amos-neural-ode-dynamics-rscf-engine
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

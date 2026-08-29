@@ -3,9 +3,8 @@ title: O16 Learning MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O16_LEARNING
 tags:
-- moc
 - o16-learning
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-input-output
 - cognitive-matrix-o16-learning-contract
 - cognitive-matrix-postconditions

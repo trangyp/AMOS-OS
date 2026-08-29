@@ -3,9 +3,8 @@ title: References MOC — References — Amos Ast Control Dataflow Rscf Engine
 type: moc
 source: 07_SKILLS/amos-ast-control-dataflow-rscf-engine/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

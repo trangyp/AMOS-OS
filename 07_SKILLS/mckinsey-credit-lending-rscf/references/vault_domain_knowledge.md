@@ -5,7 +5,7 @@ source: 07_SKILLS/mckinsey-credit-lending-rscf/references
 tags:
 - reference
 - mckinsey-credit-lending-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

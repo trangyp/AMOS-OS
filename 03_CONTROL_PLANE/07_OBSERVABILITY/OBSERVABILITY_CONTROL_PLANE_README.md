@@ -3,8 +3,7 @@ title: OBSERVABILITY CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/07_OBSERVABILITY
 tags:
-- control_plane
-- observability_control_plane_readme.md
+- control-plane
 - canon/control-plane
 - readme
 - blind-spot-registry

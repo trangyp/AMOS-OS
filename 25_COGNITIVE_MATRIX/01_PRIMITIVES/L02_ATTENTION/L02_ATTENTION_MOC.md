@@ -3,9 +3,8 @@ title: L02 Attention MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
 tags:
-- moc
 - l02-attention
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-l02-attention-contract
 - 00-index-moc
 - 01-primitives-moc

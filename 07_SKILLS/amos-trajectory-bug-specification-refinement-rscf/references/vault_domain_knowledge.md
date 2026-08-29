@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-trajectory-bug-specification-refinement-rscf/references
 tags:
 - reference
 - amos-trajectory-bug-specification-refinement-rscf
-- canon/skill
+- type/skill
 - agents
 - references-moc
 - 07-skills-moc

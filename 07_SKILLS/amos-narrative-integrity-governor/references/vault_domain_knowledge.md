@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-narrative-integrity-governor/references
 tags:
 - reference
 - amos-narrative-integrity-governor
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-procedural-repository-retrieval-rscf/references
 tags:
 - reference
 - amos-procedural-repository-retrieval-rscf
-- canon/skill
+- type/skill
 - references
 - references-moc
 - 07-skills-moc

@@ -3,7 +3,6 @@ title: 01 Canon MOC
 type: moc
 source: 01_CANON
 tags:
-- moc
 - 01-canon
 - canon/universe
 - canon-canon-contract

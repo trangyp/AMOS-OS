@@ -11,12 +11,12 @@ Trigger: When canon and universe engine is needed within the canon domain, inclu
 Version: 1.0.0
 tags:
 - type/workflow
-- canon/workflow
+- type/workflow
 - domain/canon-universe
-- rscf/source_claim
+- epistemic/source_claim
 - hml/m
 - epistemic/source_claim
-- amos_os
+- amos-os
 - validation
 - 08-workflows-moc
 rscf:

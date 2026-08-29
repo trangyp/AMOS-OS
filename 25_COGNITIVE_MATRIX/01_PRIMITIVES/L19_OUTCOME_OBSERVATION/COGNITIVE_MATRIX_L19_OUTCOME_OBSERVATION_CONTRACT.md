@@ -3,11 +3,11 @@ title: COGNITIVE MATRIX L19 OUTCOME OBSERVATION CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L19_OUTCOME_OBSERVATION
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - primitives
 - l19_outcome_observation
 - contract
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - cognitive-matrix-moc

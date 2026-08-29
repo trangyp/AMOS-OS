@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-mathematical-rigor-rscf-kernel/references
 tags:
 - reference
 - amos-mathematical-rigor-rscf-kernel
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

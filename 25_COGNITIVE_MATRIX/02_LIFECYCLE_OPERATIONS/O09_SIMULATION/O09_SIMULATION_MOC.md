@@ -3,9 +3,8 @@ title: O09 Simulation MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O09_SIMULATION
 tags:
-- moc
 - o09-simulation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-o09-simulation-contract
 - 00-index-moc
 - 02-lifecycle-operations-moc

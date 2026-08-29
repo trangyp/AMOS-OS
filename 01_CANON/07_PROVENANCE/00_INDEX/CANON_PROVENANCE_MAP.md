@@ -3,7 +3,7 @@ title: CANON PROVENANCE MAP
 type: canon
 source: 01_CANON/07_PROVENANCE/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 01_canon
 - canon/universe
 - index-provenance-canon-readme

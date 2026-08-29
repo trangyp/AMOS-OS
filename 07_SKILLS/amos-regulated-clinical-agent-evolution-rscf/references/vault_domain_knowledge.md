@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-regulated-clinical-agent-evolution-rscf/references
 tags:
 - reference
 - amos-regulated-clinical-agent-evolution-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

@@ -12,7 +12,7 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: METRIC
 path: 11_KNOWLEDGE/05_FRAMEWORKS/UBI_SCORE.md
 tags:
-- amos_os
+- amos-os
 - knowledge
 - vault
 - 11_knowledge

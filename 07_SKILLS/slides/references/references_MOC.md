@@ -3,9 +3,8 @@ title: References MOC — References — Slides
 type: moc
 source: 07_SKILLS/slides/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - amos-home
 - references-moc
 - 00-home

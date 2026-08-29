@@ -12,7 +12,7 @@ segment: 05_COGNITIVE_ORGANISM/01_IDENTITY
 artifact_kind: MODEL
 path: 05_COGNITIVE_ORGANISM/01_IDENTITY/IDENTITY_CONTINUITY_MODEL.md
 tags:
-- amos_os
+- amos-os
 - cognitive
 - organism
 - 05_cognitive_organism

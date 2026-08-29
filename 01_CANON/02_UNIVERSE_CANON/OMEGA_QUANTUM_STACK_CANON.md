@@ -12,7 +12,7 @@ segment: 01_CANON/02_UNIVERSE_CANON
 artifact_kind: CANON_SPECIFICATION
 path: 01_CANON/02_UNIVERSE_CANON/OMEGA_QUANTUM_STACK_CANON.md
 tags:
-- amos_os
+- amos-os
 - canon
 - universe
 - 01_canon

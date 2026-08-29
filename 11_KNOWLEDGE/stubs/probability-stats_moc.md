@@ -4,7 +4,6 @@ tags:
 - stub
 - probability
 - stats
-- moc
 - probability-stats-moc
 - kernel-moc
 - 00-home

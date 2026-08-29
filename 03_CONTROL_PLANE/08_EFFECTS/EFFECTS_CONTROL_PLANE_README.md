@@ -3,8 +3,7 @@ title: EFFECTS CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/08_EFFECTS
 tags:
-- control_plane
-- effects_control_plane_readme.md
+- control-plane
 - canon/control-plane
 - readme
 - control-plane-effects-contract

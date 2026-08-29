@@ -12,7 +12,7 @@ segment: 11_KNOWLEDGE/02_CLAIMS
 artifact_kind: REGISTRY
 path: 11_KNOWLEDGE/02_CLAIMS/HERITAGE_CLAIM_REGISTRY.md
 tags:
-- amos_os
+- amos-os
 - knowledge
 - vault
 - 11_knowledge

@@ -3,7 +3,7 @@ title: PLAYBOOKS OPERATIONS README
 type: operation
 source: 20_OPERATIONS/02_PLAYBOOKS
 tags:
-- amos_os
+- amos-os
 - 20_operations
 - canon/operations
 - readme

@@ -3,9 +3,8 @@ title: Amos-Blackbox-Program-Discovery-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-blackbox-program-discovery-rscf
 tags:
-- moc
 - amos-blackbox-program-discovery-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

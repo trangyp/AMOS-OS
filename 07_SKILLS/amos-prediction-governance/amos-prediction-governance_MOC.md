@@ -3,9 +3,8 @@ title: Amos-Prediction-Governance MOC
 type: moc
 source: 07_SKILLS/amos-prediction-governance
 tags:
-- moc
 - amos-prediction-governance
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

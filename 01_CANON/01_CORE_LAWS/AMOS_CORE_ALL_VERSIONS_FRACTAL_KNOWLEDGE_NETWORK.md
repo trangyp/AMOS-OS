@@ -12,7 +12,7 @@ segment: 01_CANON/01_CORE_LAWS
 artifact_kind: CORE_LINEAGE_NETWORK
 path: 01_CANON/01_CORE_LAWS/AMOS_CORE_ALL_VERSIONS_FRACTAL_KNOWLEDGE_NETWORK.md
 tags:
-- amos_os
+- amos-os
 - canon
 - core
 - core_law

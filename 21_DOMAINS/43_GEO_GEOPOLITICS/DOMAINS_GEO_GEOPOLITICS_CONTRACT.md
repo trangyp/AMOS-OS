@@ -3,7 +3,7 @@ title: DOMAINS GEO GEOPOLITICS CONTRACT
 type: note
 source: 21_DOMAINS/43_GEO_GEOPOLITICS
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - routing-policy-validation-receipt

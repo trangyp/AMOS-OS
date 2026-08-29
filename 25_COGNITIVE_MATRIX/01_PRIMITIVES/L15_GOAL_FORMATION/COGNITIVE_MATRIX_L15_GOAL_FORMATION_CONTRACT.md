@@ -3,11 +3,11 @@ title: COGNITIVE MATRIX L15 GOAL FORMATION CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L15_GOAL_FORMATION
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - primitives
 - l15_goal_formation
 - contract
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - cognitive-matrix-moc

@@ -3,7 +3,7 @@ title: 00 ROOT COVERAGE
 type: coverage
 source: 00_ROOT
 tags:
-- amos_os
+- amos-os
 - 00_root
 - canon/root
 - routing-policy-validation-receipt

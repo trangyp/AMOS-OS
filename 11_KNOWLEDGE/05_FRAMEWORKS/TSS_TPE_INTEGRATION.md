@@ -12,7 +12,7 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: INTEGRATION
 path: 11_KNOWLEDGE/05_FRAMEWORKS/TSS_TPE_INTEGRATION.md
 tags:
-- amos_os
+- amos-os
 - knowledge
 - vault
 - 11_knowledge

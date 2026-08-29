@@ -3,7 +3,6 @@ title: 02 Kernel MOC
 type: moc
 source: 02_KERNEL
 tags:
-- moc
 - 02-kernel
 - canon/kernel
 - kernel-kernel-contract

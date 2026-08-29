@@ -4,7 +4,6 @@ tags:
 - learning
 - memory
 - feedback
-- governor.md
 - governor
 - 00-home
 - knowledge-moc

@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-closed-loop-learning-governor/references
 tags:
 - reference
 - amos-closed-loop-learning-governor
-- canon/skill
+- type/skill
 - amos-closed-loop-learning-governor-moc
 - 00-home
 - amos-rscf-nodes

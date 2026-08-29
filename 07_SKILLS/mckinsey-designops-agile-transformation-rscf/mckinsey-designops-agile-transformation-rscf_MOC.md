@@ -3,9 +3,8 @@ title: Mckinsey-Designops-Agile-Transformation-Rscf MOC
 type: moc
 source: 07_SKILLS/mckinsey-designops-agile-transformation-rscf
 tags:
-- moc
 - mckinsey-designops-agile-transformation-
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

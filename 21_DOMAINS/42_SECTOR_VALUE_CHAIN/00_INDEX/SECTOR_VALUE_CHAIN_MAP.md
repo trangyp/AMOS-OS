@@ -3,7 +3,7 @@ title: SECTOR VALUE CHAIN MAP
 type: map
 source: 21_DOMAINS/42_SECTOR_VALUE_CHAIN/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - index-sector-value-chain-domains-readme

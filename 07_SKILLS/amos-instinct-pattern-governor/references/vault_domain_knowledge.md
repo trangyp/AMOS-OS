@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-instinct-pattern-governor/references
 tags:
 - reference
 - amos-instinct-pattern-governor
-- canon/skill
+- type/skill
 - integration
 - references-moc
 - 07-skills-moc

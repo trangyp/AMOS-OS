@@ -3,7 +3,7 @@ title: INDEX AGENTS AGENT CONTRACT
 type: index
 source: 06_AGENTS/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 06_agents
 - canon/agent
 - agents

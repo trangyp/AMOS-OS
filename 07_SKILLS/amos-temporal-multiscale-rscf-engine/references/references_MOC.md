@@ -3,9 +3,8 @@ title: References MOC — References — Amos Temporal Multiscale Rscf Engine
 type: moc
 source: 07_SKILLS/amos-temporal-multiscale-rscf-engine/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-temporal-multiscale-rscf-engine-moc
 - 00-home

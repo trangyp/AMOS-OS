@@ -3,9 +3,8 @@ title: References MOC — References — Amos Trang Framework Master
 type: moc
 source: 07_SKILLS/amos-trang-framework-master/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - cosmo-brain-reasoning-os
 - first-principle-reasoning-trang
 - full-phuong-phap-trang

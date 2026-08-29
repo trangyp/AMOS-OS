@@ -3,9 +3,9 @@ title: PRIMITIVES COGNITIVE MATRIX L11 CAUSAL MODELING CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L11_CAUSAL_MODELING/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l11_causal_modeling
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - validation-evidence
 - 00-root-moc
 - amos-moc

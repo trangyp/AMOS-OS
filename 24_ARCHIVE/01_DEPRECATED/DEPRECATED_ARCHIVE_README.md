@@ -3,7 +3,7 @@ title: DEPRECATED ARCHIVE README
 type: deprecated
 source: 24_ARCHIVE/01_DEPRECATED
 tags:
-- amos_os
+- amos-os
 - 24_archive
 - canon/archive
 - readme

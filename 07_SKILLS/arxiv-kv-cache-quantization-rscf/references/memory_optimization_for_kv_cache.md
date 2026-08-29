@@ -5,7 +5,7 @@ source: 07_SKILLS/arxiv-kv-cache-quantization-rscf/references
 tags:
 - reference
 - arxiv-kv-cache-quantization-rscf
-- canon/skill
+- type/skill
 - 00-home
 - knowledge-moc
 - system-scan-agent

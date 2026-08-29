@@ -3,9 +3,8 @@ title: L17 Decision MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L17_DECISION
 tags:
-- moc
 - l17-decision
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-l17-decision-contract
 - 00-index-moc
 - 01-primitives-moc

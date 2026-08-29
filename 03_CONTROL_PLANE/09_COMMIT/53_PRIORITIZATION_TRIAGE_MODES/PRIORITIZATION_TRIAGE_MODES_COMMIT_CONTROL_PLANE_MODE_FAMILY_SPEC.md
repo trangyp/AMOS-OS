@@ -3,7 +3,7 @@ title: PRIORITIZATION TRIAGE MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/53_PRIORITIZATION_TRIAGE_MODES
 tags:
-- control_plane
+- control-plane
 - 53_prioritization_triage_modes
 - canon/control-plane
 - authz-engine-validation-receipt

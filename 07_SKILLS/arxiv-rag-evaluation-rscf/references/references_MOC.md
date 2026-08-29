@@ -3,9 +3,8 @@ title: References MOC — References — Arxiv Rag Evaluation Rscf
 type: moc
 source: 07_SKILLS/arxiv-rag-evaluation-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - brain-router-for-rag
 - arxiv-rag-evaluation-rscf-moc
 - 00-home

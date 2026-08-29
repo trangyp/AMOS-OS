@@ -3,7 +3,6 @@ title: quantum moc
 tags:
 - stub
 - quantum
-- moc
 - quantum-moc
 - kernel-moc
 - 00-home

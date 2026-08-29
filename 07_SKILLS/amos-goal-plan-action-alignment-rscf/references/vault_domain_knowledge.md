@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-goal-plan-action-alignment-rscf/references
 tags:
 - reference
 - amos-goal-plan-action-alignment-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

@@ -32,7 +32,7 @@ Không có ngoại lệ. Không có "linh thiêng" đặc biệt. Không có "si
 > _" Vũ trụ không được tạo thành từ 'vật chất' hay 'tinh thần'. Nó được tạo thành từ __**cấu trúc fractal [L, M, H]**__, được đo bằng lacunarity và entropy, và được xác nhận bằng Tát 2. Mọi thứ khác – từ hạt quark đến Chúa Trời – chỉ là các trường hợp đặc biệt của công thức này. "_
 ****
 * * *
-\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL]] · [[SYSTEM_SCAN_ENGINE]] · [[automation_profiles]]
 
 ---
 **MOC:** [[trang_MOC]]

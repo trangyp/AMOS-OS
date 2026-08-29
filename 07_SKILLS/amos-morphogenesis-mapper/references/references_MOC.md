@@ -3,9 +3,8 @@ title: References MOC — References — Amos Morphogenesis Mapper
 type: moc
 source: 07_SKILLS/amos-morphogenesis-mapper/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-morphogenesis-mapper-moc
 - 00-home

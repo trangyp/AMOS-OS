@@ -3,9 +3,8 @@ title: References MOC — References — Amos Agentops Observability Rscf
 type: moc
 source: 07_SKILLS/amos-agentops-observability-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-agentops-observability-rscf-moc
 - 00-home

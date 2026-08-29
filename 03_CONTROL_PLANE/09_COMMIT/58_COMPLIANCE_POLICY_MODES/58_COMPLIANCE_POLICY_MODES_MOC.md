@@ -3,7 +3,6 @@ title: 58 Compliance Policy Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/58_COMPLIANCE_POLICY_MODES
 tags:
-- moc
 - 58-compliance-policy-modes
 - canon/control-plane
 - 09-commit-moc

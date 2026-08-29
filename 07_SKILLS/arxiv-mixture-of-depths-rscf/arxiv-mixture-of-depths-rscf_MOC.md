@@ -3,9 +3,8 @@ title: Arxiv-Mixture-Of-Depths-Rscf MOC
 type: moc
 source: 07_SKILLS/arxiv-mixture-of-depths-rscf
 tags:
-- moc
 - arxiv-mixture-of-depths-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

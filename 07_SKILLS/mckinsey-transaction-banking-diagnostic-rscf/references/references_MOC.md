@@ -3,9 +3,8 @@ title: References MOC — References — Mckinsey Transaction Banking Diagnostic
 type: moc
 source: 07_SKILLS/mckinsey-transaction-banking-diagnostic-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

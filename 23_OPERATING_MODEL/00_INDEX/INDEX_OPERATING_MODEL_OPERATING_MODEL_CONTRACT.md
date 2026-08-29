@@ -3,7 +3,7 @@ title: INDEX OPERATING MODEL OPERATING MODEL CONTRACT
 type: index
 source: 23_OPERATING_MODEL/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 23_operating_model
 - canon/operating-model
 - index-operating-model-readme

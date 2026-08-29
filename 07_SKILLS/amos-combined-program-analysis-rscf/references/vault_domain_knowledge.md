@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-combined-program-analysis-rscf/references
 tags:
 - reference
 - amos-combined-program-analysis-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

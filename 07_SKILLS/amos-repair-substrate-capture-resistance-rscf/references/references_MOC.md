@@ -3,9 +3,8 @@ title: References MOC — References — Amos Repair Substrate Capture Resistanc
 type: moc
 source: 07_SKILLS/amos-repair-substrate-capture-resistance-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

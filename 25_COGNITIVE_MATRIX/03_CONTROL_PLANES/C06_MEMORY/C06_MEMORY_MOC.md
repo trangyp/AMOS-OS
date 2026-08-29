@@ -3,9 +3,8 @@ title: C06 Memory MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C06_MEMORY
 tags:
-- moc
 - c06-memory
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-authority
 - cognitive-matrix-c06-memory-contract
 - cognitive-matrix-decision-rules

@@ -8,7 +8,7 @@ title: AMOS Flow Canon
 tags:
 - type/workflow
 - domain/canon_universe
-- amos_os
+- amos-os
 ---
 
 # AMOS Flow Canon

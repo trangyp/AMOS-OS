@@ -3,9 +3,8 @@ title: Amos-Managed-Autonomy-Escalation-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-managed-autonomy-escalation-rscf
 tags:
-- moc
 - amos-managed-autonomy-escalation-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

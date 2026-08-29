@@ -3,9 +3,8 @@ title: Amos-Contravariance-Alignment-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-contravariance-alignment-rscf-engine
 tags:
-- moc
 - amos-contravariance-alignment-rscf-engin
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

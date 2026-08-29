@@ -3,7 +3,6 @@ title: 19 Learning Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/19_LEARNING_MODES
 tags:
-- moc
 - 19-learning-modes
 - canon/control-plane
 - 09-commit-moc

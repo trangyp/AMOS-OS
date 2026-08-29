@@ -3,9 +3,9 @@ title: L17 DECISION MAP
 type: map
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L17_DECISION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l17_decision
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-map
 - amos-rscf-nodes
 - routing-policy-validation-receipt

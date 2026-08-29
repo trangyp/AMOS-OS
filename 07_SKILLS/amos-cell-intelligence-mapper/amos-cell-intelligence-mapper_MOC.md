@@ -3,9 +3,8 @@ title: Amos-Cell-Intelligence-Mapper MOC
 type: moc
 source: 07_SKILLS/amos-cell-intelligence-mapper
 tags:
-- moc
 - amos-cell-intelligence-mapper
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

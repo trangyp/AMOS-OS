@@ -3,7 +3,6 @@ title: 13 Recovery Degraded Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/13_RECOVERY_DEGRADED_MODES
 tags:
-- moc
 - 13-recovery-degraded-modes
 - canon/control-plane
 - 09-commit-moc

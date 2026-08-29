@@ -12,7 +12,7 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: PROTOCOL
 path: 11_KNOWLEDGE/05_FRAMEWORKS/NEUTRAL_INTERFACE_TRAINING_PROTOCOL.md
 tags:
-- amos_os
+- amos-os
 - knowledge
 - vault
 - 11_knowledge

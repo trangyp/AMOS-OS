@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-c07-econ-finance-master/references
 tags:
 - reference
 - amos-c07-econ-finance-master
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

@@ -3,7 +3,7 @@ title: INDEX INFRASTRUCTURE CANON CANON README
 type: index
 source: 01_CANON/04_INFRASTRUCTURE_CANON/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 01_canon
 - canon/universe
 - readme

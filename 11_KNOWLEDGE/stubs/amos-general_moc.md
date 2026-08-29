@@ -4,7 +4,6 @@ tags:
 - stub
 - amos
 - general
-- moc
 - amos-general-moc
 - kernel-moc
 - 00-home

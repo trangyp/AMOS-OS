@@ -27,6 +27,7 @@ import argparse
 import hashlib
 import json
 import os
+import re
 import sys
 import time
 from pathlib import Path
@@ -84,7 +85,7 @@ def parse_frontmatter(text: str) -> dict:
     """Extract YAML frontmatter from markdown."""
     if not text.startswith("---"):
         return {}
-    parts = text.split("---", 2)
+    parts = re.split(r"^---\s*$", text, 2, flags=re.MULTILINE)
     if len(parts) < 3:
         return {}
     try:

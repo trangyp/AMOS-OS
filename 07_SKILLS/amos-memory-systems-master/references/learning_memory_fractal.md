@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-memory-systems-master/references
 tags:
 - reference
 - amos-memory-systems-master
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

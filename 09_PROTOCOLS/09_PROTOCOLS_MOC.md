@@ -3,7 +3,6 @@ title: 09 Protocols MOC
 type: moc
 source: 09_PROTOCOLS
 tags:
-- moc
 - 09-protocols
 - canon/protocol
 - protocols-protocol-contract

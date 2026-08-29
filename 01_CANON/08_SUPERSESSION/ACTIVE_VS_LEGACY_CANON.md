@@ -12,7 +12,7 @@ segment: 01_CANON/08_SUPERSESSION
 artifact_kind: CANON
 path: 01_CANON/08_SUPERSESSION/ACTIVE_VS_LEGACY_CANON.md
 tags:
-- amos_os
+- amos-os
 - canon
 - universe
 - 01_canon

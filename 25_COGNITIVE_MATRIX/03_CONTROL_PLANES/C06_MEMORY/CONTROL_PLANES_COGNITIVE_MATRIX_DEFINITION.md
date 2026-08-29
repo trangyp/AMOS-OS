@@ -5,7 +5,7 @@ source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C06_MEMORY
 tags:
 - note
 - c06-memory
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - memory
 - cognitive-matrix-moc
 - 00-root-moc

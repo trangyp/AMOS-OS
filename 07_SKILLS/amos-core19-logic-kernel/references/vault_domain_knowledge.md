@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-core19-logic-kernel/references
 tags:
 - reference
 - amos-core19-logic-kernel
-- canon/skill
+- type/skill
 - cosmo-brain-moc
 - integration
 - 2026-08-22-executable-code-internals

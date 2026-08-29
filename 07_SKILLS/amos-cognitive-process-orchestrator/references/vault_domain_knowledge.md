@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-cognitive-process-orchestrator/references
 tags:
 - reference
 - amos-cognitive-process-orchestrator
-- canon/skill
+- type/skill
 - cosmo-brain-moc
 - ratpak
 - references-moc

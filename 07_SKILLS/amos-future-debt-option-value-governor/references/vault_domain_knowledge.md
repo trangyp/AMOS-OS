@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-future-debt-option-value-governor/references
 tags:
 - reference
 - amos-future-debt-option-value-governor
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

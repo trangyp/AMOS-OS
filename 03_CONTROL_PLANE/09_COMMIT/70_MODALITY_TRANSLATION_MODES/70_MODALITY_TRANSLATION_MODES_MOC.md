@@ -3,7 +3,6 @@ title: 70 Modality Translation Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/70_MODALITY_TRANSLATION_MODES
 tags:
-- moc
 - 70-modality-translation-modes
 - canon/control-plane
 - 09-commit-moc

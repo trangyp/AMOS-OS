@@ -3,9 +3,8 @@ title: References MOC — References — Amos Artistic Expression Governor
 type: moc
 source: 07_SKILLS/amos-artistic-expression-governor/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-artistic-expression-governor-moc
 - 00-home

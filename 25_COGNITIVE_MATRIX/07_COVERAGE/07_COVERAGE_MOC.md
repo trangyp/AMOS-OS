@@ -3,9 +3,8 @@ title: 07 Coverage MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/07_COVERAGE
 tags:
-- moc
 - 07-coverage
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 2026-08-26-contract-fill-pass
 - cognitive-matrix-coverage-contract
 - coverage-audit

@@ -3,7 +3,6 @@ title: models moc
 tags:
 - stub
 - models
-- moc
 - models-moc
 - kernel-moc
 - 00-home

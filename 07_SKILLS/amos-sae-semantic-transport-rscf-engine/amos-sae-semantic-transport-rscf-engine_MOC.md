@@ -3,9 +3,8 @@ title: Amos-Sae-Semantic-Transport-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-sae-semantic-transport-rscf-engine
 tags:
-- moc
 - amos-sae-semantic-transport-rscf-engine
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

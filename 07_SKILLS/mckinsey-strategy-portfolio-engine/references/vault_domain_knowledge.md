@@ -5,7 +5,7 @@ source: 07_SKILLS/mckinsey-strategy-portfolio-engine/references
 tags:
 - reference
 - mckinsey-strategy-portfolio-engine
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

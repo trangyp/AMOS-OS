@@ -14,7 +14,7 @@ tags:
 - law-hierarchy
 - l33-kernel
 - l31-amos-plane
-- l1-epistemic
+- law/L1-epistemic
 - l17-rscf
 - l26-proof-coordination
 - 01-core-laws-moc

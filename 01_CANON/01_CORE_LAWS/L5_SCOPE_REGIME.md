@@ -14,10 +14,10 @@ tags:
 - amos-moc
 - 00-home
 - amos-rscf-nodes
-- l0-integrity
-- l1-epistemic
-- l2-provenance
-- l3-dependency
+- law/L0-integrity
+- law/L1-epistemic
+- law/L2-provenance
+- law/L3-dependency
 - l4-causal
 - 01-core-laws-moc
 title: L5 Scope, Regime, and Temporal Laws

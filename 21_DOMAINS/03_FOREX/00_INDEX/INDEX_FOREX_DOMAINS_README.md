@@ -3,7 +3,7 @@ title: INDEX FOREX DOMAINS README
 type: index
 source: 21_DOMAINS/03_FOREX/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - readme

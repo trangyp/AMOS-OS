@@ -11,12 +11,12 @@ Trigger: AMOS Memory Systems — 3 memory types, context compaction, memory conf
 Version: 1.0.0
 tags:
 - type/workflow
-- canon/workflow
+- type/workflow
 - domain/memory-systems
-- rscf/source_claim
+- epistemic/source_claim
 - hml/m
 - epistemic/source_claim
-- amos_os
+- amos-os
 - 08-workflows-moc
 rscf:
   state: AMOS_MODEL

@@ -3,7 +3,7 @@ title: INDEX RUNTIME README
 type: index
 source: 04_RUNTIME/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 04_runtime
 - canon/runtime
 - readme

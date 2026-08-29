@@ -3,9 +3,8 @@ title: References MOC — References — Amos Agent Externalization Architecture
 type: moc
 source: 07_SKILLS/amos-agent-externalization-architecture-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - 00-home
 - amos-rscf-nodes
 - law-hierarchy

@@ -3,9 +3,9 @@ title: INDEX L23 METACOGNITION PRIMITIVES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L23_METACOGNITION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l23_metacognition
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - l23-metacognition-map
 - 00-home

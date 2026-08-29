@@ -3,9 +3,9 @@ title: INDEX O02 RELATION LIFECYCLE OPERATIONS COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O02_RELATION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - o02_relation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - o02-relation-map
 - 00-home

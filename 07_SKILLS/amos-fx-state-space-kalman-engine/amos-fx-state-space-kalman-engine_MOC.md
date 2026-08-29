@@ -3,9 +3,8 @@ title: Amos-Fx-State-Space-Kalman-Engine MOC
 type: moc
 source: 07_SKILLS/amos-fx-state-space-kalman-engine
 tags:
-- moc
 - amos-fx-state-space-kalman-engine
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

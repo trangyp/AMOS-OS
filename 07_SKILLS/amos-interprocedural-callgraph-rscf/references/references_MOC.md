@@ -3,9 +3,8 @@ title: References MOC — References — Amos Interprocedural Callgraph Rscf
 type: moc
 source: 07_SKILLS/amos-interprocedural-callgraph-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-interprocedural-callgraph-rscf-moc
 - 00-home

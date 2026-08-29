@@ -3,11 +3,11 @@ title: COGNITIVE MATRIX O07 INFERENCE CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O07_INFERENCE
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - lifecycle_operations
 - o07_inference
 - contract
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - cognitive-matrix-moc

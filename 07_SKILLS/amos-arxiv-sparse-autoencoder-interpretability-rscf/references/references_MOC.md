@@ -4,9 +4,8 @@ title: References MOC — References — Amos Arxiv Sparse Autoencoder Interpret
 type: moc
 source: 07_SKILLS/amos-arxiv-sparse-autoencoder-interpretability-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

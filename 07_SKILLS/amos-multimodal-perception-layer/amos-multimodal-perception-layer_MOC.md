@@ -3,9 +3,8 @@ title: Amos-Multimodal-Perception-Layer MOC
 type: moc
 source: 07_SKILLS/amos-multimodal-perception-layer
 tags:
-- moc
 - amos-multimodal-perception-layer
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

@@ -3,9 +3,8 @@ title: References MOC — References — Amos Execution Provenance Replay Rscf
 type: moc
 source: 07_SKILLS/amos-execution-provenance-replay-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - execution-provenance-spec
 - 00-home
 - amos-rscf-nodes

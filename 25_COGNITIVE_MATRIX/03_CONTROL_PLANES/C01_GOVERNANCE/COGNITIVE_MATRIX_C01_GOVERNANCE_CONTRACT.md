@@ -3,11 +3,11 @@ title: COGNITIVE MATRIX C01 GOVERNANCE CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C01_GOVERNANCE
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - control_planes
 - c01_governance
 - contract
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - cognitive-matrix-moc

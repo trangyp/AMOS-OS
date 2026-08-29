@@ -3,9 +3,8 @@ title: References MOC — References — Amos Multimodal Perception Layer
 type: moc
 source: 07_SKILLS/amos-multimodal-perception-layer/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-multimodal-perception-layer-moc
 - 00-home

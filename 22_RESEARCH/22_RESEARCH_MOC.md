@@ -3,7 +3,6 @@ title: 22 Research MOC
 type: moc
 source: 22_RESEARCH
 tags:
-- moc
 - 22-research
 - canon/research
 - research-readme

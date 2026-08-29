@@ -21,7 +21,7 @@ segment_role: meta-logic
 artifact_kind: LOG
 path: 02_KERNEL/01_META_LOGIC/K_BIO_LOGICAL_COMPUTING.md
 tags:
-- amos_os
+- amos-os
 - amos-general
 - kernel
 - core

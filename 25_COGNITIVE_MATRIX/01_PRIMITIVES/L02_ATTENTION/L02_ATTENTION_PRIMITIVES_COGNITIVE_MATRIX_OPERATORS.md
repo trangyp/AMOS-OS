@@ -3,11 +3,11 @@ title: L02 ATTENTION PRIMITIVES COGNITIVE MATRIX OPERATORS
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - primitives
 - l02_attention
 - note
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - 00-home

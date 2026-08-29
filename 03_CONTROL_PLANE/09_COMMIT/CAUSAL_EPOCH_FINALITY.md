@@ -12,8 +12,8 @@ segment: 03_CONTROL_PLANE/09_COMMIT
 artifact_kind: FINALITY
 path: 03_CONTROL_PLANE/09_COMMIT/CAUSAL_EPOCH_FINALITY.md
 tags:
-- amos_os
-- control_plane
+- amos-os
+- control-plane
 - governance
 - 03_control_plane
 - finality

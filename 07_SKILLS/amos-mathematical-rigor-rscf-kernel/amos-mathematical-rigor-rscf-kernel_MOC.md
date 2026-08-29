@@ -3,9 +3,8 @@ title: Amos-Mathematical-Rigor-Rscf-Kernel MOC
 type: moc
 source: 07_SKILLS/amos-mathematical-rigor-rscf-kernel
 tags:
-- moc
 - amos-mathematical-rigor-rscf-kernel
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

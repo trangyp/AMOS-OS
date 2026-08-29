@@ -3,7 +3,7 @@ title: COMMIT CONTROL PLANE ALIASES
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/02_DEEP_ANALYSIS
 tags:
-- control_plane
+- control-plane
 - 02_deep_analysis
 - canon/control-plane
 - routing-policy-validation-receipt

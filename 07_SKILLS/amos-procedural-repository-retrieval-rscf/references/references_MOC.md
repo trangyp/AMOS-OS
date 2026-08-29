@@ -3,9 +3,8 @@ title: References MOC — References — Amos Procedural Repository Retrieval Rs
 type: moc
 source: 07_SKILLS/amos-procedural-repository-retrieval-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

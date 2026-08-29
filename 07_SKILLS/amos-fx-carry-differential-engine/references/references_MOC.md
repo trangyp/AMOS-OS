@@ -3,9 +3,8 @@ title: References MOC — References — Amos Fx Carry Differential Engine
 type: moc
 source: 07_SKILLS/amos-fx-carry-differential-engine/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-fx-carry-differential-engine-moc
 - 00-home

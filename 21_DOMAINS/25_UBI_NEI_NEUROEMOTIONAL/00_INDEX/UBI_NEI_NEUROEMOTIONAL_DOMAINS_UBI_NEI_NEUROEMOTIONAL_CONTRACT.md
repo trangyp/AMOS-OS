@@ -3,7 +3,7 @@ title: UBI NEI NEUROEMOTIONAL DOMAINS UBI NEI NEUROEMOTIONAL CONTRACT
 type: emotion
 source: 21_DOMAINS/25_UBI_NEI_NEUROEMOTIONAL/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - routing-policy-validation-receipt

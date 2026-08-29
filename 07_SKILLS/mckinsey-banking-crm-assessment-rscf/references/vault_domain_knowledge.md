@@ -5,7 +5,7 @@ source: 07_SKILLS/mckinsey-banking-crm-assessment-rscf/references
 tags:
 - reference
 - mckinsey-banking-crm-assessment-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

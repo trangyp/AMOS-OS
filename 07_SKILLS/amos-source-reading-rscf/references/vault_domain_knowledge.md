@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-source-reading-rscf/references
 tags:
 - reference
 - amos-source-reading-rscf
-- canon/skill
+- type/skill
 - workflow
 - references-moc
 - 07-skills-moc

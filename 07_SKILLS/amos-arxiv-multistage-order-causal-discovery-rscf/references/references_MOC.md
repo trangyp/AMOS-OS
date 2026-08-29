@@ -4,9 +4,8 @@ title: References MOC — References — Amos Arxiv Multistage Order Causal Disc
 type: moc
 source: 07_SKILLS/amos-arxiv-multistage-order-causal-discovery-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - causal-discovery-spec
 - 00-home
 - amos-rscf-nodes

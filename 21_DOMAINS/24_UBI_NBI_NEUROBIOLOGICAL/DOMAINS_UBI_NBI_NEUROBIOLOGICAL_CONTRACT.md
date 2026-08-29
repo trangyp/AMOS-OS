@@ -3,7 +3,7 @@ title: DOMAINS UBI NBI NEUROBIOLOGICAL CONTRACT
 type: biology
 source: 21_DOMAINS/24_UBI_NBI_NEUROBIOLOGICAL
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - routing-policy-validation-receipt

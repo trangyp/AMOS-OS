@@ -3,9 +3,8 @@ title: Amos-Human-Biology-Fractal-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-human-biology-fractal-rscf-engine
 tags:
-- moc
 - amos-human-biology-fractal-rscf-engine
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

@@ -3,7 +3,7 @@ title: PROVENANCE KERNEL PROVENANCE CONTRACT
 type: kernel
 source: 02_KERNEL/08_PROVENANCE/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 02_kernel
 - canon/kernel
 - routing-policy-validation-receipt

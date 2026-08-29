@@ -3,7 +3,6 @@ title: 14 Composite Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/14_COMPOSITE_MODES
 tags:
-- moc
 - 14-composite-modes
 - canon/control-plane
 - 09-commit-moc

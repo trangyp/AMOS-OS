@@ -13,8 +13,7 @@ artifact_kind: INDEX
 path: 00_ROOT/AMOS_ALL_FRAMEWORKS_INDEX.md
 tags:
 - 00_root
-- amos_all_frameworks_index.md
-- amos_os
+- amos-os
 - canon/root
 - canon/universe
 - canon_placeholder

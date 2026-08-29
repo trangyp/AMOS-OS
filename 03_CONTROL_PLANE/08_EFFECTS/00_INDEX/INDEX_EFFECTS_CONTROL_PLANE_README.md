@@ -3,7 +3,7 @@ title: INDEX EFFECTS CONTROL PLANE README
 type: index
 source: 03_CONTROL_PLANE/08_EFFECTS/00_INDEX
 tags:
-- control_plane
+- control-plane
 - 00_index
 - canon/control-plane
 - readme

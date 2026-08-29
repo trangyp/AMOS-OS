@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-scientific-assumption-semantic-differencing-rscf/referenc
 tags:
 - reference
 - amos-scientific-assumption-semantic-differencing-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

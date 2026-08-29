@@ -3,7 +3,7 @@ title: INDEX TOOLS README
 type: index
 source: 14_TOOLS/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 14_tools
 - canon/tool
 - readme

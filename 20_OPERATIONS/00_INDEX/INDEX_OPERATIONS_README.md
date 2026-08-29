@@ -3,7 +3,7 @@ title: INDEX OPERATIONS README
 type: index
 source: 20_OPERATIONS/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 20_operations
 - canon/operations
 - readme

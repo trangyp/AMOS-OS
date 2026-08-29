@@ -3,9 +3,8 @@ title: References MOC — References — Amos Blackbox Program Discovery Rscf
 type: moc
 source: 07_SKILLS/amos-blackbox-program-discovery-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-blackbox-program-discovery-rscf-moc
 - 00-home

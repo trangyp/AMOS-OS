@@ -3,7 +3,6 @@ title: tests moc
 tags:
 - stub
 - tests
-- moc
 - tests-moc
 - kernel-moc
 - 00-home

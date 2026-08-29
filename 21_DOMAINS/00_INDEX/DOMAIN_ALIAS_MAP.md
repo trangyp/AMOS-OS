@@ -3,7 +3,7 @@ title: DOMAIN ALIAS MAP
 type: map
 source: 21_DOMAINS/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - domain-extension-protocol

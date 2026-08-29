@@ -12,8 +12,8 @@ segment: 03_CONTROL_PLANE/09_COMMIT
 artifact_kind: ARTIFACT
 path: 03_CONTROL_PLANE/09_COMMIT/PROOF_BASED_COORDINATION_AVOIDANCE.md
 tags:
-- amos_os
-- control_plane
+- amos-os
+- control-plane
 - governance
 - 03_control_plane
 - artifact

@@ -3,7 +3,6 @@ title: Kernel MOC
 type: moc
 source: 11_KNOWLEDGE/kernel
 tags:
-- moc
 - kernel
 - canon/knowledge
 - 0-universe-logic-kernel-ulk-ulmk

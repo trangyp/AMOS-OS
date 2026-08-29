@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-runtime-context-reuse-rscf/references
 tags:
 - reference
 - amos-runtime-context-reuse-rscf
-- canon/skill
+- type/skill
 - cosmo-brain-moc
 - 2026-08-22-amos-all-249-gaps-closed
 - references-moc

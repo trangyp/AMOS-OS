@@ -3,7 +3,7 @@ title: STRATEGY MAP
 type: map
 source: 21_DOMAINS/04_STRATEGY/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - index-strategy-domains-readme

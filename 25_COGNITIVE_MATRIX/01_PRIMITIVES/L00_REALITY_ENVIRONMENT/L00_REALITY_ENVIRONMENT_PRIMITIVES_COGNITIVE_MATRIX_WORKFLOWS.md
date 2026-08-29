@@ -5,7 +5,7 @@ source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
 tags:
 - amos
 - cognitive-matrix
-- l00
+- matrix/l00
 - reality-environment
 - workflows
 - orchestration
@@ -22,7 +22,7 @@ tags:
 - rscf/T-topology
 - rscf/C-constraint
 - rscf/type-model
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-home
 - 00-root-moc
 - amos-moc

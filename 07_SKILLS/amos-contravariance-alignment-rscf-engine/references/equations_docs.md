@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-contravariance-alignment-rscf-engine/references
 tags:
 - reference
 - amos-contravariance-alignment-rscf-engine
-- canon/skill
+- type/skill
 - 00-home
 - knowledge-moc
 - system-scan-agent

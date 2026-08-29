@@ -3,9 +3,8 @@ title: Amos-Distributed-Causal-Evolution-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-distributed-causal-evolution-rscf-engine
 tags:
-- moc
 - amos-distributed-causal-evolution-rscf-e
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

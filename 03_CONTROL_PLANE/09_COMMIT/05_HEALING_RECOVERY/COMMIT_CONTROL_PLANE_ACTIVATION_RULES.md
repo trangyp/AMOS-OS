@@ -3,7 +3,7 @@ title: COMMIT CONTROL PLANE ACTIVATION RULES
 type: rule
 source: 03_CONTROL_PLANE/09_COMMIT/05_HEALING_RECOVERY
 tags:
-- control_plane
+- control-plane
 - 05_healing_recovery
 - canon/control-plane
 - routing-policy-validation-receipt

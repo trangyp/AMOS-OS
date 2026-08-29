@@ -3,9 +3,8 @@ title: obsidian-plugin-auto-tag MOC
 type: moc
 source: 07_SKILLS/obsidian-plugin-auto-tag
 tags:
-- moc
 - obsidian-plugin-auto-tag
-- canon/skill
+- type/skill
 - skill
 - vault-domain-knowledge
 - 00-home

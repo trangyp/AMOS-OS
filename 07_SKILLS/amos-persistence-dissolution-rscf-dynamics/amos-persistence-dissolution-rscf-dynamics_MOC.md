@@ -3,9 +3,8 @@ title: Amos-Persistence-Dissolution-Rscf-Dynamics MOC
 type: moc
 source: 07_SKILLS/amos-persistence-dissolution-rscf-dynamics
 tags:
-- moc
 - amos-persistence-dissolution-rscf-dynami
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

@@ -8,7 +8,6 @@ rscf-state: derived
 tags:
 - index
 - readme
-- moc
 - canon/root
 - architecture
 - routing-policy-validation-receipt

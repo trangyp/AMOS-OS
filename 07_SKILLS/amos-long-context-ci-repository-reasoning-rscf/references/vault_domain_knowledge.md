@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-long-context-ci-repository-reasoning-rscf/references
 tags:
 - reference
 - amos-long-context-ci-repository-reasoning-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 00-home
 - amos-rscf-nodes

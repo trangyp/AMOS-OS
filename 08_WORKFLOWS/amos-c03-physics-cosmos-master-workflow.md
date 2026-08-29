@@ -11,12 +11,12 @@ Trigger: AMOS C03 Physics & Cosmos — quantum mechanics, cosmology, spacetime, 
 Version: 1.0.0
 tags:
 - type/workflow
-- canon/workflow
+- type/workflow
 - domain/physics-cosmos
-- rscf/source_claim
+- epistemic/source_claim
 - hml/m
 - epistemic/source_claim
-- amos_os
+- amos-os
 - 08-workflows-moc
 rscf:
   state: AMOS_MODEL

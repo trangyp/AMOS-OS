@@ -3,9 +3,8 @@ title: References MOC — References — Amos Ust Structure Mapper
 type: moc
 source: 07_SKILLS/amos-ust-structure-mapper/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-ust-structure-mapper-moc
 - 00-home

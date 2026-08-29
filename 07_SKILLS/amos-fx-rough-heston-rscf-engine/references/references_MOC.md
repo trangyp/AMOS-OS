@@ -3,9 +3,8 @@ title: References MOC — References — Amos Fx Rough Heston Rscf Engine
 type: moc
 source: 07_SKILLS/amos-fx-rough-heston-rscf-engine/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-fx-rough-heston-rscf-engine-moc
 - 00-home

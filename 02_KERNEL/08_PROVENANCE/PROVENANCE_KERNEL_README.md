@@ -3,7 +3,7 @@ title: PROVENANCE KERNEL README
 type: kernel
 source: 02_KERNEL/08_PROVENANCE
 tags:
-- amos_os
+- amos-os
 - 02_kernel
 - canon/kernel
 - readme

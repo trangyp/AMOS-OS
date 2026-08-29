@@ -3,7 +3,6 @@ title: Attachments MOC
 type: moc
 source: 00_ROOT/attachments
 tags:
-- moc
 - attachments
 - canon/root
 - amos-home

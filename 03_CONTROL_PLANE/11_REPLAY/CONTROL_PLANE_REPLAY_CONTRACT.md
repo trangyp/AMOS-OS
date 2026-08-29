@@ -3,8 +3,7 @@ title: CONTROL PLANE REPLAY CONTRACT
 type: control-plane
 source: 03_CONTROL_PLANE/11_REPLAY
 tags:
-- control_plane
-- control_plane_replay_contract.md
+- control-plane
 - canon/control-plane
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt

@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-cell-intelligence-mapper/references
 tags:
 - reference
 - amos-cell-intelligence-mapper
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

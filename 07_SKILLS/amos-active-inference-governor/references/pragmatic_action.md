@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-active-inference-governor/references
 tags:
 - reference
 - amos-active-inference-governor
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

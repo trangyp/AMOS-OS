@@ -3,9 +3,9 @@ title: PRIMITIVES COGNITIVE MATRIX L05 BINDING CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L05_BINDING/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l05_binding
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy

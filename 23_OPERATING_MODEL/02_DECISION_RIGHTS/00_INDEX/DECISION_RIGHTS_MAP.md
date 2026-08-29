@@ -3,7 +3,7 @@ title: DECISION RIGHTS MAP
 type: map
 source: 23_OPERATING_MODEL/02_DECISION_RIGHTS/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 23_operating_model
 - canon/operating-model
 - 00-root-map

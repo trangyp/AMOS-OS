@@ -14,13 +14,12 @@ path: 01_CANON/01_CORE_LAWS/META_LAWS_CANON.md
 tags:
 - 01_canon
 - 01_core_laws
-- amos_os
+- amos-os
 - canon
 - canon/universe
 - canon_placeholder
 - laws
 - meta
-- meta_laws_canon.md
 - rscf
 - universe
 - placeholder_expanded

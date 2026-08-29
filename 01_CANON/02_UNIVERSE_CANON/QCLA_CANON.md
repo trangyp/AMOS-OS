@@ -14,12 +14,11 @@ path: 01_CANON/02_UNIVERSE_CANON/QCLA_CANON.md
 tags:
 - 01_canon
 - 02_universe_canon
-- amos_os
+- amos-os
 - canon
 - canon/universe
 - canon_placeholder
 - qcla
-- qcla_canon.md
 - rscf
 - universe
 - placeholder_expanded

@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-fx-conformal-tail-risk-control-rscf-engine/references
 tags:
 - reference
 - amos-fx-conformal-tail-risk-control-rscf-engine
-- canon/skill
+- type/skill
 - architecture
 - references-moc
 - 07-skills-moc

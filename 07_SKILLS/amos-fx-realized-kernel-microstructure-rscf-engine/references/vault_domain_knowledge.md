@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-fx-realized-kernel-microstructure-rscf-engine/references
 tags:
 - reference
 - amos-fx-realized-kernel-microstructure-rscf-engine
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

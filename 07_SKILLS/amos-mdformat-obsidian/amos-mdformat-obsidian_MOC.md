@@ -3,9 +3,8 @@ title: amos-mdformat-obsidian MOC
 type: moc
 source: 07_SKILLS/amos-mdformat-obsidian
 tags:
-- moc
 - amos-mdformat-obsidian
-- canon/skill
+- type/skill
 - skill
 - sota
 - 00-home

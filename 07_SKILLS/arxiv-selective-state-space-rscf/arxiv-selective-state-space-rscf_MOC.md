@@ -3,9 +3,8 @@ title: Arxiv-Selective-State-Space-Rscf MOC
 type: moc
 source: 07_SKILLS/arxiv-selective-state-space-rscf
 tags:
-- moc
 - arxiv-selective-state-space-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

@@ -3,10 +3,10 @@ title: INDEX COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - index
 - readme
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - skill
 - workflow
 - 00-root-moc

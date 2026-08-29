@@ -15,13 +15,12 @@ tags:
 - 00_mode_index
 - 03_control_plane
 - 09_commit
-- amos_os
+- amos-os
 - canon/control-plane
 - canon/universe
 - commit
-- control_plane
+- control-plane
 - falsifier
-- mode_falsifier_registry.md
 - mode_index
 - note
 - registry

@@ -3,7 +3,7 @@ title: REASONING MODES COMMIT CONTROL PLANE MODE SPEC
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/05_MEASURE
 tags:
-- control_plane
+- control-plane
 - 06_reasoning_modes/05_measure
 - canon/control-plane
 - routing-policy-validation-receipt

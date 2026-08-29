@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-os-runtime-master/references
 tags:
 - reference
 - amos-os-runtime-master
-- canon/skill
+- type/skill
 - 07-skills-moc
 - references-moc
 - 00-home

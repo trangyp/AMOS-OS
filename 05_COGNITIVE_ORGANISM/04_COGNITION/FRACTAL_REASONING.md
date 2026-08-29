@@ -12,7 +12,7 @@ segment: 05_COGNITIVE_ORGANISM/04_COGNITION
 artifact_kind: REASONING
 path: 05_COGNITIVE_ORGANISM/04_COGNITION/FRACTAL_REASONING.md
 tags:
-- amos_os
+- amos-os
 - cognitive
 - organism
 - 05_cognitive_organism

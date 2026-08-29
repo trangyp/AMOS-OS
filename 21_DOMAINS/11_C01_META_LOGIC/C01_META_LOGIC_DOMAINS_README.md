@@ -3,7 +3,7 @@ title: C01 META LOGIC DOMAINS README
 type: logic
 source: 21_DOMAINS/11_C01_META_LOGIC
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - readme

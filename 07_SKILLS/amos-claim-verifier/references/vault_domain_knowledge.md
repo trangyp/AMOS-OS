@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-claim-verifier/references
 tags:
 - reference
 - amos-claim-verifier
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

@@ -3,9 +3,8 @@ title: References MOC — References — Amos Fx State Space Kalman Engine
 type: moc
 source: 07_SKILLS/amos-fx-state-space-kalman-engine/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-fx-state-space-kalman-engine-moc
 - 00-home

@@ -49,10 +49,9 @@ status: ACTIVE_MOC
 steward: Trang Phan
 tags:
 - amos
-- amos_os
+- amos-os
 - root
 - amos-os
-- moc
 - map-of-content
 - root-index
 - architecture

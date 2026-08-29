@@ -3,7 +3,6 @@ title: 40 Hse Safety MOC
 type: moc
 source: 21_DOMAINS/40_HSE_SAFETY
 tags:
-- moc
 - 40-hse-safety
 - canon/domain
 - domains-hse-safety-contract

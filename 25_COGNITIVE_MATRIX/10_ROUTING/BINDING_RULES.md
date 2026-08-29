@@ -21,12 +21,11 @@ tags:
 - BINDING_RULES
 - COGNITIVE_MATRIX
 - ROUTING
-- amos_os
+- amos-os
 - binding
-- binding_rules.md
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - canon/universe
-- cognitive_matrix
+- cognitive-matrix
 - matrix
 - routing
 - rscf

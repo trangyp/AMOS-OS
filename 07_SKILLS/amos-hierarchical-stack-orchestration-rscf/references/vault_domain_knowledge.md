@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-hierarchical-stack-orchestration-rscf/references
 tags:
 - reference
 - amos-hierarchical-stack-orchestration-rscf
-- canon/skill
+- type/skill
 - 00-home
 - amos-rscf-nodes
 - law-hierarchy

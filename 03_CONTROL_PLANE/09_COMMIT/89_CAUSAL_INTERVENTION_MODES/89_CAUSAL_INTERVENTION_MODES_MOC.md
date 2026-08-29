@@ -3,7 +3,6 @@ title: 89 Causal Intervention Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/89_CAUSAL_INTERVENTION_MODES
 tags:
-- moc
 - 89-causal-intervention-modes
 - canon/control-plane
 - 09-commit-moc

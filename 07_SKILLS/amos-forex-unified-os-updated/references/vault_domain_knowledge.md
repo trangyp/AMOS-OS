@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-forex-unified-os-updated/references
 tags:
 - reference
 - amos-forex-unified-os-updated
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

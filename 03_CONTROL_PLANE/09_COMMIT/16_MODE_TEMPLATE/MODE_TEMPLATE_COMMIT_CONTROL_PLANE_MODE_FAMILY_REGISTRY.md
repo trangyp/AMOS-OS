@@ -3,7 +3,7 @@ title: MODE TEMPLATE COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 type: template
 source: 03_CONTROL_PLANE/09_COMMIT/16_MODE_TEMPLATE
 tags:
-- control_plane
+- control-plane
 - 16_mode_template
 - canon/control-plane
 - routing-policy-validation-receipt

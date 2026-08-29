@@ -3,9 +3,8 @@ title: Amos-Hourglass-Induction-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-hourglass-induction-rscf
 tags:
-- moc
 - amos-hourglass-induction-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

@@ -3,7 +3,6 @@ tags:
 - knowledge
 - kernel
 - accounts
-- kernel.md
 ---
 
 # ACCOUNTS KERNEL

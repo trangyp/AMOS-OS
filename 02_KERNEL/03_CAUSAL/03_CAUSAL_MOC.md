@@ -3,7 +3,6 @@ title: 03 Causal MOC
 type: moc
 source: 02_KERNEL/03_CAUSAL
 tags:
-- moc
 - 03-causal
 - canon/kernel
 - causal-kernel-readme

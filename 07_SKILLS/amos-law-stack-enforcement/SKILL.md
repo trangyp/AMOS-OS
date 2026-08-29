@@ -6,12 +6,12 @@ type: note
 source: 07_SKILLS/amos-law-stack-enforcement
 tags:
 - type/skill
-- canon/skill
+- type/skill
 - domain/canon-universe
-- rscf/source_claim
+- epistemic/source_claim
 - hml/m
 - epistemic/source_claim
-- amos_os
+- amos-os
 - references
 - readme
 - amos-law-stack-enforcement-moc

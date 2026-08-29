@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-unreachable-semantics-rscf/references
 tags:
 - reference
 - amos-unreachable-semantics-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

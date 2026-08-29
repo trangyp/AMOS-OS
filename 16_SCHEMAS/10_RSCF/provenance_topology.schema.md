@@ -12,7 +12,7 @@ segment: 16_SCHEMAS/10_RSCF
 artifact_kind: PROVENANCE
 path: 16_SCHEMAS/10_RSCF/provenance_topology.schema.md
 tags:
-- amos_os
+- amos-os
 - schema
 - specification
 - 16_schemas

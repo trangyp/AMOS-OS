@@ -4,9 +4,8 @@ title: References MOC — References — Amos Retrieval Conditioned Orchestratio
 type: moc
 source: 07_SKILLS/amos-retrieval-conditioned-orchestration-budget-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

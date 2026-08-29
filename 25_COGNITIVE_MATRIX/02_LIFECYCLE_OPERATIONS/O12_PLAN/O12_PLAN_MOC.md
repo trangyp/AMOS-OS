@@ -3,9 +3,8 @@ title: O12 Plan MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O12_PLAN
 tags:
-- moc
 - o12-plan
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-o12-plan-contract
 - 00-index-moc
 - 02-lifecycle-operations-moc

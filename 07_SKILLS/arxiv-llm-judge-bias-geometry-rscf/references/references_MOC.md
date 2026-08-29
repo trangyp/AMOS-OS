@@ -3,9 +3,8 @@ title: References MOC — References — Arxiv Llm Judge Bias Geometry Rscf
 type: moc
 source: 07_SKILLS/arxiv-llm-judge-bias-geometry-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - arxiv-llm-judge-bias-geometry-rscf-moc
 - 00-home

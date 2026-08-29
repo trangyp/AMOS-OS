@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-arxiv-time-series-bootstrap-conformal-rscf/references
 tags:
 - reference
 - amos-arxiv-time-series-bootstrap-conformal-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

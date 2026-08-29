@@ -3,9 +3,9 @@ title: INDEX C03 EXECUTIVE CONTROL PLANES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C03_EXECUTIVE/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - c03_executive
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - c03-executive-map
 - 00-home

@@ -3,9 +3,9 @@ title: PRIMITIVES COGNITIVE MATRIX L02 ATTENTION CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l02_attention
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy

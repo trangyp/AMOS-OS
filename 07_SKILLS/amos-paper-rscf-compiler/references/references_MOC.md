@@ -3,9 +3,8 @@ title: References MOC — References — Amos Paper Rscf Compiler
 type: moc
 source: 07_SKILLS/amos-paper-rscf-compiler/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-paper-rscf-compiler-moc
 - 00-home

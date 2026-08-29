@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-invariant-tensor-kernel/references
 tags:
 - reference
 - amos-invariant-tensor-kernel
-- canon/skill
+- type/skill
 - 2026-08-22-trang-phi-framework
 - references-moc
 - 00-home

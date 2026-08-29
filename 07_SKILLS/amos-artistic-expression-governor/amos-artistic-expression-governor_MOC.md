@@ -3,9 +3,8 @@ title: Amos-Artistic-Expression-Governor MOC
 type: moc
 source: 07_SKILLS/amos-artistic-expression-governor
 tags:
-- moc
 - amos-artistic-expression-governor
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

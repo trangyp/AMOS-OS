@@ -3,7 +3,6 @@ title: field moc
 tags:
 - stub
 - field
-- moc
 - field-moc
 - kernel-moc
 - 00-home

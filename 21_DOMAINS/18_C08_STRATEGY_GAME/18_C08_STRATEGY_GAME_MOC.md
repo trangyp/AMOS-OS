@@ -3,7 +3,6 @@ title: 18 C08 Strategy Game MOC
 type: moc
 source: 21_DOMAINS/18_C08_STRATEGY_GAME
 tags:
-- moc
 - 18-c08-strategy-game
 - canon/domain
 - c08-strategy-game-domains-domain-spec

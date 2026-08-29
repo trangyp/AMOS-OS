@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-c01-meta-logic-master
 tags:
 - note
 - amos-c01-meta-logic-master
-- canon/skill
+- type/skill
 - skill
 - amos-c01-meta-logic-master-moc
 rscf:

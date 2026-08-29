@@ -3,9 +3,8 @@ title: 25 Cognitive Matrix MOC
 type: moc
 source: 25_COGNITIVE_MATRIX
 tags:
-- moc
 - 25-cognitive-matrix
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - amos-x-heritage
 - amos-x-heritage-matrix
 - amos-x-neurosyncai

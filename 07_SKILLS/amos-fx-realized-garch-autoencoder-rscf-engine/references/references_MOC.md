@@ -3,9 +3,8 @@ title: References MOC — References — Amos Fx Realized Garch Autoencoder Rscf
 type: moc
 source: 07_SKILLS/amos-fx-realized-garch-autoencoder-rscf-engine/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

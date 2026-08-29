@@ -3,9 +3,8 @@ title: References MOC — References — Mckinsey Architecture Reference Transfe
 type: moc
 source: 07_SKILLS/mckinsey-architecture-reference-transfer-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - 00-home
 - amos-rscf-nodes
 - law-hierarchy

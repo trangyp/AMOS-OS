@@ -3,7 +3,6 @@ title: 01 Papers MOC
 type: moc
 source: 22_RESEARCH/01_PAPERS
 tags:
-- moc
 - 01-papers
 - canon/research
 - external-evidence-source-registry

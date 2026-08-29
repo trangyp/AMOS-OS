@@ -3,9 +3,8 @@ title: Cosmo-Human-Problem-Architecture MOC
 type: moc
 source: 07_SKILLS/cosmo-human-problem-architecture
 tags:
-- moc
 - cosmo-human-problem-architecture
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

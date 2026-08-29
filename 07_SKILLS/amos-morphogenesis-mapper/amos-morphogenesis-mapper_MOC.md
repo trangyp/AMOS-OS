@@ -3,9 +3,8 @@ title: Amos-Morphogenesis-Mapper MOC
 type: moc
 source: 07_SKILLS/amos-morphogenesis-mapper
 tags:
-- moc
 - amos-morphogenesis-mapper
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

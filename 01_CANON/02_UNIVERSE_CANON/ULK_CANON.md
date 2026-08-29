@@ -14,12 +14,11 @@ path: 01_CANON/02_UNIVERSE_CANON/ULK_CANON.md
 tags:
 - 01_canon
 - 02_universe_canon
-- amos_os
+- amos-os
 - canon
 - canon/universe
 - canon_placeholder
 - rscf
-- ulk_canon.md
 - universe
 - placeholder_expanded
 - routing-policy-validation-receipt

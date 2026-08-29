@@ -3,9 +3,8 @@ title: References MOC — References — Amos Bounded Code Facts Rscf
 type: moc
 source: 07_SKILLS/amos-bounded-code-facts-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-bounded-code-facts-rscf-moc
 - 00-home

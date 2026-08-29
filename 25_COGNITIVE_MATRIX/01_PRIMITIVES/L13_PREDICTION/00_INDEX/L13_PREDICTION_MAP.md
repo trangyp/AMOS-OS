@@ -3,9 +3,9 @@ title: L13 PREDICTION MAP
 type: map
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L13_PREDICTION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l13_prediction
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-map
 - amos-rscf-nodes
 - routing-policy-validation-receipt

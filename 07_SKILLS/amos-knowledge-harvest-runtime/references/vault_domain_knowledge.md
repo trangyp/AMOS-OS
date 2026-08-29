@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-knowledge-harvest-runtime/references
 tags:
 - reference
 - amos-knowledge-harvest-runtime
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

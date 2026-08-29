@@ -3,9 +3,8 @@ title: Arxiv-Manifold-Constrained-Conformal-Spatial-Rscf MOC
 type: moc
 source: 07_SKILLS/arxiv-manifold-constrained-conformal-spatial-rscf
 tags:
-- moc
 - arxiv-manifold-constrained-conformal-spa
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-ast-control-dataflow-rscf-engine/references
 tags:
 - reference
 - amos-ast-control-dataflow-rscf-engine
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

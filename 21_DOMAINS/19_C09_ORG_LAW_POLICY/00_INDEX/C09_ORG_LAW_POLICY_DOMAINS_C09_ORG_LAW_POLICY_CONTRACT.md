@@ -3,7 +3,7 @@ title: C09 ORG LAW POLICY DOMAINS C09 ORG LAW POLICY CONTRACT
 type: law
 source: 21_DOMAINS/19_C09_ORG_LAW_POLICY/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - routing-policy-validation-receipt

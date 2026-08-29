@@ -3,7 +3,6 @@ title: audit moc
 tags:
 - stub
 - audit
-- moc
 - audit-moc
 - kernel-moc
 - 00-home

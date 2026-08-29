@@ -3,9 +3,8 @@ title: Amos-Boundary-Admission-Governor MOC
 type: moc
 source: 07_SKILLS/amos-boundary-admission-governor
 tags:
-- moc
 - amos-boundary-admission-governor
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

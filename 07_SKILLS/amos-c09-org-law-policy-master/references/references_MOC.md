@@ -3,9 +3,8 @@ title: References MOC — References — Amos C09 Org Law Policy Master
 type: moc
 source: 07_SKILLS/amos-c09-org-law-policy-master/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - advanced-governance-report
 - bio-data-ownership-charter
 - bio-data-ownership-legal-tech

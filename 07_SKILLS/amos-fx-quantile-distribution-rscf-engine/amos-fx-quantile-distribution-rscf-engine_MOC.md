@@ -3,9 +3,8 @@ title: Amos-Fx-Quantile-Distribution-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-fx-quantile-distribution-rscf-engine
 tags:
-- moc
 - amos-fx-quantile-distribution-rscf-engin
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

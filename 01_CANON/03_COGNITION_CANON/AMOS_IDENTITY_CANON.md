@@ -12,7 +12,7 @@ segment: 01_CANON/03_COGNITION_CANON
 artifact_kind: CANON
 path: 01_CANON/03_COGNITION_CANON/AMOS_IDENTITY_CANON.md
 tags:
-- amos_os
+- amos-os
 - canon
 - universe
 - 01_canon
@@ -4665,3 +4665,4 @@ RSCF-RELATIONS:
 **Version:** `0.1.0`
 
 **Final status:** `PLACEHOLDER · AMOS_MODEL · UNKNOWN/GAP`
+```

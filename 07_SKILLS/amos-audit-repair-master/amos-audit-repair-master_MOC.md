@@ -3,9 +3,8 @@ title: Amos-Audit-Repair-Master MOC
 type: moc
 source: 07_SKILLS/amos-audit-repair-master
 tags:
-- moc
 - amos-audit-repair-master
-- canon/skill
+- type/skill
 - agent-template
 - skill
 - references-moc

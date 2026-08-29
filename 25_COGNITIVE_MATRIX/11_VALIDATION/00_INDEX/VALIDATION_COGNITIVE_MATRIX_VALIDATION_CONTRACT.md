@@ -3,9 +3,9 @@ title: VALIDATION COGNITIVE MATRIX VALIDATION CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/11_VALIDATION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - 00_index
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - validation
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt

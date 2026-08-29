@@ -3,7 +3,7 @@ title: ANOMALY DETECTION MODES COMMIT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/90_ANOMALY_DETECTION_MODES
 tags:
-- control_plane
+- control-plane
 - 90_anomaly_detection_modes
 - canon/control-plane
 - readme

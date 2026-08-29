@@ -15,7 +15,7 @@ tags:
 - l33-kernel
 - l32-canon
 - l8-execution
-- l3-dependency
+- law/L3-dependency
 - l10-failure-recovery
 - 01-core-laws-moc
 - trang-framework-recursive-ontology-dynamics

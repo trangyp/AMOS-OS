@@ -3,9 +3,8 @@ title: C03 Executive MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C03_EXECUTIVE
 tags:
-- moc
 - c03-executive
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-c03-executive-contract
 - 00-index-moc
 - 03-control-planes-moc

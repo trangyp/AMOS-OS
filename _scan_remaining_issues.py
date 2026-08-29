@@ -35,6 +35,44 @@ for root, dirs, files in os.walk(VAULT, followlinks=True):
             all_json_files.setdefault(stem.lower(), []).append(p)
             rel_json_paths[str(rel).lower()] = p
 
+# Resolve .devin wikilinks against the real AMOS source package
+# .devin/ itself is a regular directory; skills/agents/workflows are symlinks to the repo.
+REPO_ROOT = None
+repo_stems = {}
+repo_rel_md_paths = {}
+repo_rel_json_paths = {}
+_devin_link = VAULT / ".devin"
+_skills_link = _devin_link / "skills"
+try:
+    if _skills_link.is_symlink():
+        _skills_real = _skills_link.resolve()
+        _repo_dotdevin = _skills_real.parent
+        REPO_ROOT = _repo_dotdevin.parent
+        if REPO_ROOT.is_dir():
+            for _scan_root in (REPO_ROOT / "docs", REPO_ROOT / "_00_Cosmo brain", REPO_ROOT / "cosmo-brain"):
+                if not _scan_root.is_dir():
+                    continue
+                for _rroot, _dirs, _files in os.walk(_scan_root, followlinks=True):
+                    if "node_modules" in _rroot:
+                        continue
+                    for _fn in _files:
+                        _p = Path(_rroot) / _fn
+                        if _fn.endswith(".md"):
+                            try:
+                                _rel = _p.relative_to(REPO_ROOT)
+                            except ValueError:
+                                continue
+                            repo_stems.setdefault(_p.stem.lower(), []).append(_p)
+                            repo_rel_md_paths[str(_rel).lower()] = _p
+                        elif _fn.endswith(".json"):
+                            try:
+                                _rel = _p.relative_to(REPO_ROOT)
+                            except ValueError:
+                                continue
+                            repo_rel_json_paths[str(_rel).lower()] = _p
+    except Exception:
+        REPO_ROOT = None
+
 WIKILINK_RE = re.compile(r'\[\[([^"\|\[\]\{\}#]+?)(?:#[^\]|]*)?(?:\|[^\]]*)?\]\]')
 
 # Vault-note directories (exclude .devin, .git, .agents, .claude, node_modules, _*)
@@ -109,6 +147,27 @@ def resolve_wikilink(target: str, source_path: Path) -> bool:
     if (VAULT / ".devin" / "skills" / target / "SKILL.md").is_file():
         return True
 
+    # 7. For .devin files, also resolve against the real source-package root
+    #    (covers [[docs/moc/...]] and [[Memory — ...]] links in references/*.md)
+    if REPO_ROOT and source_path.is_relative_to(VAULT / ".devin"):
+        for k in (base_underscore, base_plain, key_underscore, key_plain):
+            if k in repo_stems:
+                return True
+        for d in (repo_rel_md_paths, repo_rel_json_paths):
+            for k in (key_plain, key_plain + ".md", key_underscore, key_underscore + ".md"):
+                if k in d:
+                    return True
+        if "/" in target:
+            try:
+                resolved = (REPO_ROOT / target).resolve()
+                if resolved.exists():
+                    return True
+                resolved2 = (REPO_ROOT / (target + ".md")).resolve()
+                if resolved2.exists():
+                    return True
+            except Exception:
+                pass
+
     return False
 
 # Scan
@@ -166,6 +225,7 @@ for root, dirs, files in os.walk(VAULT, followlinks=True):
                 bucket = broken_devin if is_devin else broken_vault
                 bucket.setdefault(target, []).append(rel)
 
+print(f"[DEBUG] REPO_ROOT={REPO_ROOT}, repo_stems={len(repo_stems)}, has_memory={'memory — the complete human system' in repo_stems}\n")
 print(f"=== VAULT NOTES (real wikilinks) ===")
 print(f"Scanned {scanned_vault} .md files")
 print(f"Found {len(broken_vault)} unique broken wikilink targets\n")

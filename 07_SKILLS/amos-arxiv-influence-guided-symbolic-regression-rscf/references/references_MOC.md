@@ -4,9 +4,8 @@ title: References MOC — References — Amos Arxiv Influence Guided Symbolic Re
 type: moc
 source: 07_SKILLS/amos-arxiv-influence-guided-symbolic-regression-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

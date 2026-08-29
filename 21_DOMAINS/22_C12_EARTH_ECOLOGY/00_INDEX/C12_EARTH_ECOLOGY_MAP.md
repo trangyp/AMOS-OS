@@ -3,7 +3,7 @@ title: C12 EARTH ECOLOGY MAP
 type: map
 source: 21_DOMAINS/22_C12_EARTH_ECOLOGY/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - index-c12-earth-ecology-domains-readme

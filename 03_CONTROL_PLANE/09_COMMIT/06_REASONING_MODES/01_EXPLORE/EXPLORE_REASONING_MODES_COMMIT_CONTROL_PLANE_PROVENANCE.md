@@ -3,7 +3,7 @@ title: EXPLORE REASONING MODES COMMIT CONTROL PLANE PROVENANCE
 type: provenance
 source: 03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/01_EXPLORE
 tags:
-- control_plane
+- control-plane
 - 06_reasoning_modes/01_explore
 - canon/control-plane
 - authz-engine-validation-receipt

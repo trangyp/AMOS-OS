@@ -3,9 +3,8 @@ title: References MOC — References — Amos Program Slicing Taint Rscf
 type: moc
 source: 07_SKILLS/amos-program-slicing-taint-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-program-slicing-taint-rscf-moc
 - 00-home

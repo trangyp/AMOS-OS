@@ -17,7 +17,7 @@ tags:
 - repair
 - validation
 - ai
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - l00-reality-validation-receipt
 - 00-home

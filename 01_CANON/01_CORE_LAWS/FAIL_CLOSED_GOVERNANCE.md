@@ -12,7 +12,7 @@ segment: 01_CANON/01_CORE_LAWS
 artifact_kind: CORE_LAW
 path: 01_CANON/01_CORE_LAWS/FAIL_CLOSED_GOVERNANCE.md
 tags:
-- amos_os
+- amos-os
 - canon
 - core_law
 - fail_closed

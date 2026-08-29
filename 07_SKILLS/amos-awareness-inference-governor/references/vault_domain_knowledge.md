@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-awareness-inference-governor/references
 tags:
 - reference
 - amos-awareness-inference-governor
-- canon/skill
+- type/skill
 - architecture
 - references-moc
 - 07-skills-moc

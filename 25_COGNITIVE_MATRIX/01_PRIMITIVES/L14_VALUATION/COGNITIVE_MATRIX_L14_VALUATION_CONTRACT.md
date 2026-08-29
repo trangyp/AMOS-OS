@@ -3,11 +3,11 @@ title: COGNITIVE MATRIX L14 VALUATION CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L14_VALUATION
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - primitives
 - l14_valuation
 - contract
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - cognitive-matrix-moc

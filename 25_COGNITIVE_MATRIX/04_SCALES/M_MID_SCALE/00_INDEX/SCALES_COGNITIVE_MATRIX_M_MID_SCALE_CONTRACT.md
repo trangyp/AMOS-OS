@@ -3,9 +3,9 @@ title: SCALES COGNITIVE MATRIX M MID SCALE CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/04_SCALES/M_MID_SCALE/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - m_mid_scale
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy

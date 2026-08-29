@@ -4,7 +4,6 @@ tags:
 - full
 - brain
 - master
-- canon.md
 - amos-os
 - 01-canon
 - 03-cognition-canon-moc

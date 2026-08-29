@@ -12,7 +12,7 @@ segment: 05_COGNITIVE_ORGANISM/18_LIFECYCLE
 artifact_kind: EVOLUTION
 path: 05_COGNITIVE_ORGANISM/18_LIFECYCLE/COGNITIVE_ORGANISM_EVOLUTION.md
 tags:
-- amos_os
+- amos-os
 - cognitive
 - organism
 - 05_cognitive_organism

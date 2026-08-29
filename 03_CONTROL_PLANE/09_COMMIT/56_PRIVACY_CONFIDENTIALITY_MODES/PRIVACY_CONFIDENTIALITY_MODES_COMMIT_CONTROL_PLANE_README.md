@@ -3,7 +3,7 @@ title: PRIVACY CONFIDENTIALITY MODES COMMIT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/56_PRIVACY_CONFIDENTIALITY_MODES
 tags:
-- control_plane
+- control-plane
 - 56_privacy_confidentiality_modes
 - canon/control-plane
 - readme

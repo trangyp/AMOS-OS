@@ -3,9 +3,8 @@ title: Amos-Recursive-Observer-Contamination MOC
 type: moc
 source: 07_SKILLS/amos-recursive-observer-contamination
 tags:
-- moc
 - amos-recursive-observer-contamination
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

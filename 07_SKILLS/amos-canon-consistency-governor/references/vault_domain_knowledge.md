@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-canon-consistency-governor/references
 tags:
 - reference
 - amos-canon-consistency-governor
-- canon/skill
+- type/skill
 - amos-canon-consistency-governor-moc
 - 00-home
 - amos-rscf-nodes

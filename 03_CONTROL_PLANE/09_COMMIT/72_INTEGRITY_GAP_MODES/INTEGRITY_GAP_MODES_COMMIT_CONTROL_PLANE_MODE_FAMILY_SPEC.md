@@ -3,7 +3,7 @@ title: INTEGRITY GAP MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 type: gap
 source: 03_CONTROL_PLANE/09_COMMIT/72_INTEGRITY_GAP_MODES
 tags:
-- control_plane
+- control-plane
 - 72_integrity_gap_modes
 - canon/control-plane
 - authz-engine-validation-receipt

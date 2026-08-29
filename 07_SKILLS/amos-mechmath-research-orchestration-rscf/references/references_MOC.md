@@ -3,9 +3,8 @@ title: References MOC — References — Amos Mechmath Research Orchestration Rs
 type: moc
 source: 07_SKILLS/amos-mechmath-research-orchestration-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

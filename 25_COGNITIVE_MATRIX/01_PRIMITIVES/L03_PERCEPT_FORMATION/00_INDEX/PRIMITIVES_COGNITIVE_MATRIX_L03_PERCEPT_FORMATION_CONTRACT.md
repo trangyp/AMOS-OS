@@ -3,9 +3,9 @@ title: PRIMITIVES COGNITIVE MATRIX L03 PERCEPT FORMATION CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l03_percept_formation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - validation-evidence
 - 00-root-moc
 - amos-moc

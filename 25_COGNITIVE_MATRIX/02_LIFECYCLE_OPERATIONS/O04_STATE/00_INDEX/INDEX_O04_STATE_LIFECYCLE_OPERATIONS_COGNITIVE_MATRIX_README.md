@@ -3,9 +3,9 @@ title: INDEX O04 STATE LIFECYCLE OPERATIONS COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O04_STATE/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - o04_state
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - o04-state-map
 - 00-home

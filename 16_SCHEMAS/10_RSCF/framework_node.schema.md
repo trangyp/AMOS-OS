@@ -12,7 +12,7 @@ segment: 16_SCHEMAS/10_RSCF
 artifact_kind: FRAMEWORK
 path: 16_SCHEMAS/10_RSCF/framework_node.schema.md
 tags:
-- amos_os
+- amos-os
 - schema
 - specification
 - 16_schemas

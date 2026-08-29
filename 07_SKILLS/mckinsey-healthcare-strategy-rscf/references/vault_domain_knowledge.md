@@ -5,7 +5,7 @@ source: 07_SKILLS/mckinsey-healthcare-strategy-rscf/references
 tags:
 - reference
 - mckinsey-healthcare-strategy-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

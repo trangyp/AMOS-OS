@@ -61,79 +61,79 @@ claim_ceiling:
   runtime_capability: "NOT_ESTABLISHED"
 
 tags:
-  - amos_os
-  - amos
-  - trang
-  - trang_phan
-  - qcla
-  - qcla_model
-  - qcla_registry
-  - model
-  - models
-  - specification
-  - registry
-  - model_registry
-  - domain_model
-  - domain_registry
-  - architecture
-  - 13_models
-  - 04_domain
-  - canon/model
-  - canon/domain
-  - canon_candidate
-  - native_canon
-  - source_claim
-  - observation
-  - derived
-  - AMOS_MODEL
-  - epistemic_regime
-  - epistemic_class
-  - conclusion_class
-  - provenance
-  - provenance_topology
-  - source_ancestry
-  - provenance_independence
-  - sybil_hardening
-  - confidence_ceiling
-  - scope
-  - regime
-  - temporal_validity
-  - freshness
-  - causal_firewall
-  - model_observation_firewall
-  - scope_firewall
-  - regime_firewall
-  - temporal_firewall
-  - provenance_firewall
-  - authority_firewall
-  - equation_firewall
-  - mathematical_firewall
-  - competing_hypotheses
-  - competing_models
-  - contradiction
-  - falsifier
-  - sensitivity
-  - uncertainty
-  - unknown_gap
-  - fail_closed
-  - rscf
-  - hml
-  - proof_capsule
-  - dependency_closure
-  - selective_invalidation
-  - governed_evolution
-  - model_lifecycle
-  - versioning
-  - mvcc
-  - cas
-  - rollback
-  - validation
-  - validation_receipt
-  - governance
-  - add_only
-  - no_overwrite
-  - external_evidence
-  - canon_placeholder_recovery
+- amos-os
+- amos
+- trang
+- trang_phan
+- qcla
+- qcla_model
+- qcla_registry
+- model
+- models
+- specification
+- registry
+- model_registry
+- domain_model
+- domain_registry
+- architecture
+- 13_models
+- 04_domain
+- canon/model
+- canon/domain
+- canon_candidate
+- native_canon
+- source_claim
+- observation
+- derived
+- AMOS_MODEL
+- epistemic_regime
+- epistemic_class
+- conclusion_class
+- provenance
+- provenance_topology
+- source_ancestry
+- provenance_independence
+- sybil_hardening
+- confidence_ceiling
+- scope
+- regime
+- temporal_validity
+- freshness
+- causal_firewall
+- model_observation_firewall
+- scope_firewall
+- regime_firewall
+- temporal_firewall
+- provenance_firewall
+- authority_firewall
+- equation_firewall
+- mathematical_firewall
+- competing_hypotheses
+- competing_models
+- contradiction
+- falsifier
+- sensitivity
+- uncertainty
+- unknown_gap
+- fail_closed
+- rscf
+- hml
+- proof_capsule
+- dependency_closure
+- selective_invalidation
+- governed_evolution
+- model_lifecycle
+- versioning
+- mvcc
+- cas
+- rollback
+- validation
+- validation_receipt
+- governance
+- add_only
+- no_overwrite
+- external_evidence
+- canon_placeholder_recovery
 rscf:
   state: DERIVED
   claim_class: DERIVED

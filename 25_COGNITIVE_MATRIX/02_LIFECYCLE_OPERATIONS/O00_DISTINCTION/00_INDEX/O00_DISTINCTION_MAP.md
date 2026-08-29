@@ -3,9 +3,9 @@ title: O00 DISTINCTION MAP
 type: map
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O00_DISTINCTION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - o00_distinction
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-map
 - amos-rscf-nodes
 - routing-policy-validation-receipt

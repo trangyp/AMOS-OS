@@ -12,8 +12,8 @@ segment: 03_CONTROL_PLANE/12_ROLLBACK
 artifact_kind: CANON
 path: 03_CONTROL_PLANE/12_ROLLBACK/CANON_LOCAL_INVALIDATION.md
 tags:
-- amos_os
-- control_plane
+- amos-os
+- control-plane
 - governance
 - 03_control_plane
 - canon

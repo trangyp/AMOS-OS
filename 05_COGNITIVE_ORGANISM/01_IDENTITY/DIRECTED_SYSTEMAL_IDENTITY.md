@@ -12,7 +12,7 @@ segment: 05_COGNITIVE_ORGANISM/01_IDENTITY
 artifact_kind: ARTIFACT
 path: 05_COGNITIVE_ORGANISM/01_IDENTITY/DIRECTED_SYSTEMAL_IDENTITY.md
 tags:
-- amos_os
+- amos-os
 - cognitive
 - organism
 - 05_cognitive_organism

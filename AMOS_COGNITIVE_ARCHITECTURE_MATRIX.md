@@ -5,10 +5,9 @@ source: .
 tags:
 - note
 - vault
-- canon/general
+- epistemic/amos_model
 - 00-home
 - amos-home
-- moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

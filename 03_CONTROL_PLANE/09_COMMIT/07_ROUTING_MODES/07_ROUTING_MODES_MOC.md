@@ -3,7 +3,6 @@ title: 07 Routing Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/07_ROUTING_MODES
 tags:
-- moc
 - 07-routing-modes
 - canon/control-plane
 - 09-commit-moc

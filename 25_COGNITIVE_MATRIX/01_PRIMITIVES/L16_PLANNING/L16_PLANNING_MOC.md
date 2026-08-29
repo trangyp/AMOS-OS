@@ -3,9 +3,8 @@ title: L16 Planning MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L16_PLANNING
 tags:
-- moc
 - l16-planning
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-l16-planning-contract
 - 00-index-moc
 - 01-primitives-moc

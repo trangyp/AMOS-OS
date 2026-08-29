@@ -3,9 +3,8 @@ title: Amos-Learning-Memory-Knowledge-Feedback-Governor MOC
 type: moc
 source: 07_SKILLS/amos-learning-memory-knowledge-feedback-governor
 tags:
-- moc
 - amos-learning-memory-knowledge-feedback-
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

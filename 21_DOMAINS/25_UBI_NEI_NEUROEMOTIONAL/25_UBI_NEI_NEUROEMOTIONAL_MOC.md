@@ -3,7 +3,6 @@ title: 25 Ubi Nei Neuroemotional MOC
 type: moc
 source: 21_DOMAINS/25_UBI_NEI_NEUROEMOTIONAL
 tags:
-- moc
 - 25-ubi-nei-neuroemotional
 - canon/domain
 - domains-ubi-nei-neuroemotional-contract

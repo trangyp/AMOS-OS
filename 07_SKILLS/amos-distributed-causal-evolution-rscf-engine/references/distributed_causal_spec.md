@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-distributed-causal-evolution-rscf-engine/references
 tags:
 - reference
 - amos-distributed-causal-evolution-rscf-engine
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

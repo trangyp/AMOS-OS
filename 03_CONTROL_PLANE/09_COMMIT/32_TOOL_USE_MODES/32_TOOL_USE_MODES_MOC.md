@@ -3,7 +3,6 @@ title: 32 Tool Use Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/32_TOOL_USE_MODES
 tags:
-- moc
 - 32-tool-use-modes
 - canon/control-plane
 - 09-commit-moc

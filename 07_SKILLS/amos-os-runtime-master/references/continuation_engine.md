@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-os-runtime-master/references
 tags:
 - reference
 - amos-os-runtime-master
-- canon/skill
+- type/skill
 - amos-os-runtime-master-moc
 - 00-home
 - amos-rscf-nodes

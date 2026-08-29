@@ -3,7 +3,6 @@ title: 15 Homeostasis MOC
 type: moc
 source: 05_COGNITIVE_ORGANISM/15_HOMEOSTASIS
 tags:
-- moc
 - 15-homeostasis
 - canon/cognitive
 - absolute-biological-integrity

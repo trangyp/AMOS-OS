@@ -14,12 +14,11 @@ path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_ROADMAP.md
 tags:
 - 12_generators
 - 25_cognitive_matrix
-- amos_os
-- canon/cognitive-matrix
+- amos-os
+- domain/cognitive-matrix
 - canon/universe
-- cognitive_matrix
+- cognitive-matrix
 - generators
-- generators_roadmap.md
 - note
 - roadmap
 - rscf

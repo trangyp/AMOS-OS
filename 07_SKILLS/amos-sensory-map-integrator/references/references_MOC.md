@@ -3,9 +3,8 @@ title: References MOC — References — Amos Sensory Map Integrator
 type: moc
 source: 07_SKILLS/amos-sensory-map-integrator/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-sensory-map-integrator-moc
 - 00-home

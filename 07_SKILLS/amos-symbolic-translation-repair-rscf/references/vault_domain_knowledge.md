@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-symbolic-translation-repair-rscf/references
 tags:
 - reference
 - amos-symbolic-translation-repair-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

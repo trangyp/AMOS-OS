@@ -3,7 +3,7 @@ title: TEACHING EXPLANATION MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/59_TEACHING_EXPLANATION_MODES
 tags:
-- control_plane
+- control-plane
 - 59_teaching_explanation_modes
 - canon/control-plane
 - authz-engine-validation-receipt

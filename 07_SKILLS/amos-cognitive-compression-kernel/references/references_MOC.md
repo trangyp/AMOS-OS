@@ -3,9 +3,8 @@ title: References MOC — References — Amos Cognitive Compression Kernel
 type: moc
 source: 07_SKILLS/amos-cognitive-compression-kernel/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-cognitive-compression-kernel-moc
 - 00-home

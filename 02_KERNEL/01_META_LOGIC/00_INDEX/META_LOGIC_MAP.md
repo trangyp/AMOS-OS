@@ -3,7 +3,7 @@ title: META LOGIC MAP
 type: map
 source: 02_KERNEL/01_META_LOGIC/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 02_kernel
 - canon/kernel
 - index-meta-logic-kernel-readme

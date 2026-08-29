@@ -3,9 +3,8 @@ title: References MOC — References — Amos Adversarial Entropy Accountant
 type: moc
 source: 07_SKILLS/amos-adversarial-entropy-accountant/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-adversarial-entropy-accountant-moc
 - 00-home

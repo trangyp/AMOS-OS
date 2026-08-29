@@ -3,9 +3,8 @@ title: Amos-Context-Budget-Governor-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-context-budget-governor-rscf
 tags:
-- moc
 - amos-context-budget-governor-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

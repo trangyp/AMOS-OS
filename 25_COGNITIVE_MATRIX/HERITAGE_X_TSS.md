@@ -12,8 +12,8 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: ARTIFACT
 path: 25_COGNITIVE_MATRIX/HERITAGE_X_TSS.md
 tags:
-- amos_os
-- cognitive_matrix
+- amos-os
+- cognitive-matrix
 - 25_cognitive_matrix
 - artifact
 - heritage
@@ -44,7 +44,7 @@ tags:
 - regime
 - rscf
 - canon_candidate
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - heritage-x-tss-matrix
 - diagnosis
 - memory

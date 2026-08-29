@@ -3,9 +3,9 @@ title: PRIMITIVES COGNITIVE MATRIX L14 VALUATION CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L14_VALUATION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l14_valuation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy

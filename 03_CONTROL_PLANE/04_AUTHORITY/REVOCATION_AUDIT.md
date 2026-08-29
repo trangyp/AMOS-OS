@@ -3,8 +3,7 @@ title: REVOCATION AUDIT
 type: revocation
 source: 03_CONTROL_PLANE/04_AUTHORITY
 tags:
-- control_plane
-- revocation_audit.md
+- control-plane
 - canon/control-plane
 - revocation
 - routing-policy-validation-receipt

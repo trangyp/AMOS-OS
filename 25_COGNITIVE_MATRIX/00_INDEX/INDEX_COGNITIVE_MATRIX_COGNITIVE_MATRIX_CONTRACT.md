@@ -3,10 +3,10 @@ title: INDEX COGNITIVE MATRIX COGNITIVE MATRIX CONTRACT
 type: index
 source: 25_COGNITIVE_MATRIX/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - index
 - contract
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - 00-home

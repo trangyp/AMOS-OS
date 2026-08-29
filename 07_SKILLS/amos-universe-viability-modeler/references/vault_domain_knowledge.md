@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-universe-viability-modeler/references
 tags:
 - reference
 - amos-universe-viability-modeler
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

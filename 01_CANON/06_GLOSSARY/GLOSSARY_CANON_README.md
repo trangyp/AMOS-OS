@@ -3,7 +3,7 @@ title: GLOSSARY CANON README
 type: canon
 source: 01_CANON/06_GLOSSARY
 tags:
-- amos_os
+- amos-os
 - 01_canon
 - canon/universe
 - readme

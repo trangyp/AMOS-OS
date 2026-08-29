@@ -3,7 +3,7 @@ title: HANDBOOKS OPERATIONS README
 type: operation
 source: 20_OPERATIONS/04_HANDBOOKS
 tags:
-- amos_os
+- amos-os
 - 20_operations
 - canon/operations
 - readme

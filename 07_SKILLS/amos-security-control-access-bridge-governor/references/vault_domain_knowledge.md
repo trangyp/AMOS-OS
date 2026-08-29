@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-security-control-access-bridge-governor/references
 tags:
 - reference
 - amos-security-control-access-bridge-governor
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

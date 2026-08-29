@@ -3,9 +3,8 @@ title: Mckinsey-Commercial-Due-Diligence-Rscf MOC
 type: moc
 source: 07_SKILLS/mckinsey-commercial-due-diligence-rscf
 tags:
-- moc
 - mckinsey-commercial-due-diligence-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

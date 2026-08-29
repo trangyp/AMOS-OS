@@ -3,7 +3,6 @@ title: 04 Validation MOC
 type: moc
 source: 22_RESEARCH/04_VALIDATION
 tags:
-- moc
 - 04-validation
 - canon/research
 - canon-source-claim-audit

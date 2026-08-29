@@ -3,7 +3,6 @@ title: 06 Risk Repair MOC
 type: moc
 source: 02_KERNEL/06_RISK_REPAIR
 tags:
-- moc
 - 06-risk-repair
 - canon/kernel
 - kernel-risk-repair-contract

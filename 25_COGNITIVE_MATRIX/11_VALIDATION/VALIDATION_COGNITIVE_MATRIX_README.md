@@ -21,17 +21,16 @@ tags:
 - - - VALIDATION
 - VALIDATION_CONTRACT
 - VALIDATOR
-- amos_os
-- canon/cognitive-matrix
+- amos-os
+- domain/cognitive-matrix
 - canon/universe
 - cognitive
-- cognitive_matrix
+- cognitive-matrix
 - contract
 - infrastructure
 - matrix
 - rscf
 - validation
-- validation_cognitive_matrix_readme.md
 - identity: -None
 - placeholder_expanded
 - readme

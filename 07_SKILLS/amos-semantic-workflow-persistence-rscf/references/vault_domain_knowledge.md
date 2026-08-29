@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-semantic-workflow-persistence-rscf/references
 tags:
 - reference
 - amos-semantic-workflow-persistence-rscf
-- canon/skill
+- type/skill
 - k-meta-logic
 - 00-home
 - amos-rscf-nodes

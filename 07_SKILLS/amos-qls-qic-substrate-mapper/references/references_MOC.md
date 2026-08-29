@@ -3,9 +3,8 @@ title: References MOC — References — Amos Qls Qic Substrate Mapper
 type: moc
 source: 07_SKILLS/amos-qls-qic-substrate-mapper/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-qls-qic-substrate-mapper-moc
 - 00-home

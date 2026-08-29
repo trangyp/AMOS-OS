@@ -12,8 +12,8 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: ARTIFACT
 path: 25_COGNITIVE_MATRIX/AMOS_X_UBI.md
 tags:
-- amos_os
-- cognitive_matrix
+- amos-os
+- cognitive-matrix
 - 25_cognitive_matrix
 - artifact
 - ubi
@@ -33,7 +33,7 @@ tags:
 - human_ai_interaction
 - rscf
 - canon_candidate
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - amos-x-ubi-matrix
 - 00-root-moc
 - 00-home
@@ -2892,3 +2892,4 @@ i = (NBI × NEI × SI × BEI)^(1/4)
 ````
 
 That distinction should now be invariant across `AMOS_X_UBI.md` and `AMOS_X_UBI_MATRIX.md`. The corpus also contains separate UBI × NeuroSyncAI integration artifacts, including a recently updated copy dated August 26–27, 2026; those are useful cross-framework provenance but should remain separate from the native UBI-definition ancestry.
+```

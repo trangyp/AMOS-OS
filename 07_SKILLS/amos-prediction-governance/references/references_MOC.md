@@ -3,9 +3,8 @@ title: References MOC — References — Amos Prediction Governance
 type: moc
 source: 07_SKILLS/amos-prediction-governance/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-prediction-governance-moc
 - 00-home

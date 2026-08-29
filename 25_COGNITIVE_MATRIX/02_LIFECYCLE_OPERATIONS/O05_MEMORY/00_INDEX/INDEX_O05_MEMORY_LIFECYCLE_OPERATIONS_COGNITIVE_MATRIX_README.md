@@ -3,9 +3,9 @@ title: INDEX O05 MEMORY LIFECYCLE OPERATIONS COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O05_MEMORY/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - o05_memory
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - memory
 - readme
 - o05-memory-map

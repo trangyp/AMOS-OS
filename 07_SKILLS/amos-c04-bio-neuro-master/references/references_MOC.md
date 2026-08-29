@@ -3,9 +3,8 @@ title: References MOC — References — Amos C04 Bio Neuro Master
 type: moc
 source: 07_SKILLS/amos-c04-bio-neuro-master/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - bci-intelligence-biological
 - bei-engine-v0
 - biocurrency-monetary-architecture

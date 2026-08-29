@@ -12,7 +12,7 @@ segment: 05_COGNITIVE_ORGANISM/15_HOMEOSTASIS
 artifact_kind: ARTIFACT
 path: 05_COGNITIVE_ORGANISM/15_HOMEOSTASIS/ABSOLUTE_BIOLOGICAL_INTEGRITY.md
 tags:
-- amos_os
+- amos-os
 - cognitive
 - organism
 - 05_cognitive_organism

@@ -3,9 +3,9 @@ title: INDEX O13 DECISION LIFECYCLE OPERATIONS COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O13_DECISION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - o13_decision
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - o13-decision-map
 - 00-home

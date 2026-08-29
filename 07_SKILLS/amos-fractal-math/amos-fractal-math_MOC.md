@@ -3,9 +3,8 @@ title: Amos-Fractal-Math MOC
 type: moc
 source: 07_SKILLS/amos-fractal-math
 tags:
-- moc
 - amos-fractal-math
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

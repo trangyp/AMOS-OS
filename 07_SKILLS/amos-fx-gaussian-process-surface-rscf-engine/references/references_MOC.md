@@ -3,9 +3,8 @@ title: References MOC — References — Amos Fx Gaussian Process Surface Rscf E
 type: moc
 source: 07_SKILLS/amos-fx-gaussian-process-surface-rscf-engine/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

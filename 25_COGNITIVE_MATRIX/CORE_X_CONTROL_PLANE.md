@@ -12,8 +12,8 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX
 path: 25_COGNITIVE_MATRIX/CORE_X_CONTROL_PLANE.md
 tags:
-- amos_os
-- cognitive_matrix
+- amos-os
+- cognitive-matrix
 - vault
 - 25_cognitive_matrix
 - core_x_control_plane
@@ -55,7 +55,7 @@ tags:
 - delegation
 - 01-canon-moc
 - 03-control-plane-moc
-- l0-integrity
+- law/L0-integrity
 - references
 - 00-home
 - amos-rscf-nodes

@@ -3,7 +3,7 @@ title: QUANTUM SYSTEMS DOMAINS QUANTUM SYSTEMS CONTRACT
 type: quantum
 source: 21_DOMAINS/41_QUANTUM_SYSTEMS/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - routing-policy-validation-receipt

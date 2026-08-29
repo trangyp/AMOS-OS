@@ -43,7 +43,7 @@ navigation_contract:
   - '[[00_ROOT_MAP]]'
   - '[[AMOS_RSCF_NODES]]'
 tags:
-- amos_os
+- amos-os
 - amos-os
 - 13_models
 - 00_index

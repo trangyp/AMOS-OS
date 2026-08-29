@@ -5,7 +5,7 @@ source: 07_SKILLS/arxiv-pac-bayes-piml-generalization-rscf/references
 tags:
 - reference
 - arxiv-pac-bayes-piml-generalization-rscf
-- canon/skill
+- type/skill
 - ratpak
 - references-moc
 - 07-skills-moc

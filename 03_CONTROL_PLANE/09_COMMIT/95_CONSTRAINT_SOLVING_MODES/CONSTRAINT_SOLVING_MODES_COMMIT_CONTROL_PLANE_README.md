@@ -3,7 +3,7 @@ title: CONSTRAINT SOLVING MODES COMMIT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/95_CONSTRAINT_SOLVING_MODES
 tags:
-- control_plane
+- control-plane
 - 95_constraint_solving_modes
 - canon/control-plane
 - readme

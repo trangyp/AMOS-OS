@@ -3,9 +3,8 @@ title: References MOC — References — Amos Core19 Logic Kernel
 type: moc
 source: 07_SKILLS/amos-core19-logic-kernel/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-core19-logic-kernel-moc
 - 00-home

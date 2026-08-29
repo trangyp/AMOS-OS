@@ -3,9 +3,8 @@ title: Amos-Active-Inference-Governor MOC
 type: moc
 source: 07_SKILLS/amos-active-inference-governor
 tags:
-- moc
 - amos-active-inference-governor
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

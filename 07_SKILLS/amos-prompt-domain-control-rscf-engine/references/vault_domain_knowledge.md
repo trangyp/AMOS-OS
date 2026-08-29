@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-prompt-domain-control-rscf-engine/references
 tags:
 - reference
 - amos-prompt-domain-control-rscf-engine
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

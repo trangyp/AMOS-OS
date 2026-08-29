@@ -5,7 +5,7 @@ source: 07_SKILLS/arxiv-geometric-causal-models-rscf/references
 tags:
 - reference
 - arxiv-geometric-causal-models-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

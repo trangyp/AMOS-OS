@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-temporal-multiscale-rscf-engine/references
 tags:
 - reference
 - amos-temporal-multiscale-rscf-engine
-- canon/skill
+- type/skill
 - amos-temporal-multiscale-rscf-engine-moc
 - 00-home
 - amos-rscf-nodes

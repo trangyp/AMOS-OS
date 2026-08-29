@@ -3,11 +3,11 @@ title: COGNITIVE MATRIX L06 WORKING STATE CONTRACT
 type: state
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L06_WORKING_STATE
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - primitives
 - l06_working_state
 - contract
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - cognitive-matrix-moc

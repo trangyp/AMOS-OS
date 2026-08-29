@@ -15,12 +15,11 @@ tags:
 - 12_GENERATORS
 - 12_generators
 - 25_cognitive_matrix
-- amos_os
-- canon/cognitive-matrix
+- amos-os
+- domain/cognitive-matrix
 - canon/universe
 - document
 - generators
-- generators_versioning.md
 - rscf
 - versioning
 - placeholder_expanded

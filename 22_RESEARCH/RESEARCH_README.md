@@ -3,7 +3,7 @@ title: RESEARCH README
 type: research
 source: 22_RESEARCH
 tags:
-- amos_os
+- amos-os
 - 22_research
 - canon/research
 - readme

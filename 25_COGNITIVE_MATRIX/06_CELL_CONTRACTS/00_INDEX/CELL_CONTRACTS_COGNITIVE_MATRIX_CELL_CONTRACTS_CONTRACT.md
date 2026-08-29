@@ -3,9 +3,9 @@ title: CELL CONTRACTS COGNITIVE MATRIX CELL CONTRACTS CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/06_CELL_CONTRACTS/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - 00_index
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy

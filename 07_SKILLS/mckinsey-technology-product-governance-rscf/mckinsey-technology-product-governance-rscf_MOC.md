@@ -3,9 +3,8 @@ title: Mckinsey-Technology-Product-Governance-Rscf MOC
 type: moc
 source: 07_SKILLS/mckinsey-technology-product-governance-rscf
 tags:
-- moc
 - mckinsey-technology-product-governance-r
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

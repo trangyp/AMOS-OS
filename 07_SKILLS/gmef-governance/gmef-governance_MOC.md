@@ -3,9 +3,8 @@ title: Gmef-Governance MOC
 type: moc
 source: 07_SKILLS/gmef-governance
 tags:
-- moc
 - gmef-governance
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

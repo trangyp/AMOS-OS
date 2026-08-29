@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-fractal-systems-master
 tags:
 - note
 - amos-fractal-systems-master
-- canon/skill
+- type/skill
 - skill
 - amos-fractal-systems-master-moc
 rscf:

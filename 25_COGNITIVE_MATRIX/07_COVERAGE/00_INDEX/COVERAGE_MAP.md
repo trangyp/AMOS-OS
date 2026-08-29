@@ -3,9 +3,9 @@ title: COVERAGE MAP
 type: coverage
 source: 25_COGNITIVE_MATRIX/07_COVERAGE/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - 00_index
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - index-coverage-cognitive-matrix-readme
 - 00-root-map
 - amos-rscf-nodes

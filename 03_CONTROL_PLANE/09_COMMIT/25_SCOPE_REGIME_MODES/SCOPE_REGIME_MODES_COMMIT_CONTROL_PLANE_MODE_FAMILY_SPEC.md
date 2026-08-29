@@ -3,7 +3,7 @@ title: SCOPE REGIME MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/25_SCOPE_REGIME_MODES
 tags:
-- control_plane
+- control-plane
 - 25_scope_regime_modes
 - canon/control-plane
 - authz-engine-validation-receipt

@@ -3,9 +3,8 @@ title: Mckinsey-Wealth-Management-Rscf MOC
 type: moc
 source: 07_SKILLS/mckinsey-wealth-management-rscf
 tags:
-- moc
 - mckinsey-wealth-management-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

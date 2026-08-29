@@ -3,9 +3,8 @@ title: References MOC — References — Amos Cognitive Process Orchestrator
 type: moc
 source: 07_SKILLS/amos-cognitive-process-orchestrator/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-cognitive-process-orchestrator-moc
 - 00-home

@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-context-continuity-governor/references
 tags:
 - reference
 - amos-context-continuity-governor
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

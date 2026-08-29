@@ -3,7 +3,7 @@ title: UNIVERSE CANON MAP
 type: canon
 source: 01_CANON/02_UNIVERSE_CANON/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 01_canon
 - canon/universe
 - index-universe-canon-canon-readme

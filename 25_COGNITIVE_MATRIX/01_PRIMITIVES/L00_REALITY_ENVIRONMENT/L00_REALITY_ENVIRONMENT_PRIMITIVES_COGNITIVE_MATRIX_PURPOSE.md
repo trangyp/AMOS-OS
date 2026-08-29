@@ -15,7 +15,7 @@ tags:
 - hml
 - tensors
 - ai
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-home
 - cosmo-brain-bridge-index
 - 00-root-moc

@@ -3,9 +3,8 @@ title: References MOC — References — Arxiv Test Time Training Rscf
 type: moc
 source: 07_SKILLS/arxiv-test-time-training-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - arxiv-test-time-training-rscf-moc
 - 00-home

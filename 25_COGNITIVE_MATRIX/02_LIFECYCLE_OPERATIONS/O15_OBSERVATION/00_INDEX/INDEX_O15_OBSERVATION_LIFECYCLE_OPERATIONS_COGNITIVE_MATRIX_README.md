@@ -3,9 +3,9 @@ title: INDEX O15 OBSERVATION LIFECYCLE OPERATIONS COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O15_OBSERVATION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - o15_observation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - o15-observation-map
 - 00-home

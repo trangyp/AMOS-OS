@@ -12,7 +12,7 @@ segment: 21_DOMAINS/04_STRATEGY
 artifact_kind: DOMAIN_ENGINE
 path: 21_DOMAINS/04_STRATEGY/DIRECTED_SYSTEMAL_INTELLIGENCE_DOMAIN.md
 tags:
-- amos_os
+- amos-os
 - domain
 - vault
 - 21_domains

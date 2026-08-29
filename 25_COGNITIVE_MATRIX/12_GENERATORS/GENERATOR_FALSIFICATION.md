@@ -8,7 +8,7 @@ tags:
 - generator
 - falsification
 - note
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - integration
 - generators-map
 - generator-contract

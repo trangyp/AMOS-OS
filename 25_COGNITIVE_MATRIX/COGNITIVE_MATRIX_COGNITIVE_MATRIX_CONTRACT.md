@@ -12,12 +12,12 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: CONTRACT
 path: 25_COGNITIVE_MATRIX/COGNITIVE_MATRIX_COGNITIVE_MATRIX_CONTRACT.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - contract
-  - governance
-  - generators
-  - canon/cognitive-matrix
+- amos-os
+- cognitive-matrix
+- contract
+- governance
+- generators
+- domain/cognitive-matrix
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

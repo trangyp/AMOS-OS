@@ -3,7 +3,7 @@ title: INDEX META LOGIC KERNEL README
 type: index
 source: 02_KERNEL/01_META_LOGIC/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 02_kernel
 - canon/kernel
 - readme

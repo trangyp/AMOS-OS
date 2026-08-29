@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-strict-fractal-equation-rscf-registry/references
 tags:
 - reference
 - amos-strict-fractal-equation-rscf-registry
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

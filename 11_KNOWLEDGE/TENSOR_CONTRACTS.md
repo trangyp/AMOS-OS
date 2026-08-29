@@ -4973,3 +4973,4 @@ claim_class: AMOS_MODEL
 ---
 
 **END OF `TENSOR_CONTRACTS.md`**
+```

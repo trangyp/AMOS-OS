@@ -12,7 +12,7 @@ segment: 22_RESEARCH/03_COMPETING_MODELS
 artifact_kind: COMPETING_MODELS_ANALYSIS
 path: 22_RESEARCH/03_COMPETING_MODELS/REALITY_ARCHITECTURE_COMPETING_MODELS.md
 tags:
-- amos_os
+- amos-os
 - research
 - vault
 - 22_research

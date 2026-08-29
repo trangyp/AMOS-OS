@@ -3,9 +3,8 @@ title: Amos-Vietnamese-Global-Cultural-Bridge-Governor MOC
 type: moc
 source: 07_SKILLS/amos-vietnamese-global-cultural-bridge-governor
 tags:
-- moc
 - amos-vietnamese-global-cultural-bridge-g
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

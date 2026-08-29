@@ -3,11 +3,11 @@ title: COGNITIVE MATRIX C07 PERCEPTION CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C07_PERCEPTION
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - control_planes
 - c07_perception
 - contract
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - cognitive-matrix-moc

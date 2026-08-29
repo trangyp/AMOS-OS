@@ -3,9 +3,8 @@ title: Amos-Heritage-Decision-Intelligence MOC
 type: moc
 source: 07_SKILLS/amos-heritage-decision-intelligence
 tags:
-- moc
 - amos-heritage-decision-intelligence
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

@@ -3,7 +3,7 @@ title: OPERATING MODEL GOVERNANCE FORUMS CONTRACT
 type: model
 source: 23_OPERATING_MODEL/03_GOVERNANCE_FORUMS
 tags:
-- amos_os
+- amos-os
 - 23_operating_model
 - canon/operating-model
 - routing-policy-validation-receipt

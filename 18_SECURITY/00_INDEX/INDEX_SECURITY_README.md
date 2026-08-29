@@ -3,7 +3,7 @@ title: INDEX SECURITY README
 type: index
 source: 18_SECURITY/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 18_security
 - canon/security
 - readme

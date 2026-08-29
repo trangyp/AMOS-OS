@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-ethics-os-governor/references
 tags:
 - reference
 - amos-ethics-os-governor
-- canon/skill
+- type/skill
 - 2026-08-22-amos-accessibility-i18n
 - references-moc
 - 00-home

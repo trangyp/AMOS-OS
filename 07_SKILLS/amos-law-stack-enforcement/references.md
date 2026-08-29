@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-law-stack-enforcement
 tags:
 - note
 - amos-law-stack-enforcement
-- canon/skill
+- type/skill
 - skill
 - amos-law-stack-enforcement-moc
 rscf:

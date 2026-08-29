@@ -3,7 +3,7 @@ title: INDEX ESCALATION OPERATING MODEL README
 type: index
 source: 23_OPERATING_MODEL/04_ESCALATION/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 23_operating_model
 - canon/operating-model
 - readme

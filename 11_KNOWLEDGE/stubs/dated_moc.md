@@ -3,7 +3,6 @@ title: dated moc
 tags:
 - stub
 - dated
-- moc
 - dated-moc
 - kernel-moc
 - 00-home

@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-tensor-accelerator-activity-rscf-engine/references
 tags:
 - reference
 - amos-tensor-accelerator-activity-rscf-engine
-- canon/skill
+- type/skill
 - architecture
 - references-moc
 - 07-skills-moc

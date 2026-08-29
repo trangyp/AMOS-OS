@@ -3,9 +3,8 @@ title: References MOC — References — Amos Os Runtime Master
 type: moc
 source: 07_SKILLS/amos-os-runtime-master/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - 11k-executor-agent
 - advanced-system-enhancement
 - ai-integration-layer

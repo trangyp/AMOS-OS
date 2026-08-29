@@ -8,7 +8,6 @@ rscf-state: derived
 tags:
 - index
 - readme
-- moc
 - canon/test
 - index-tests-readme
 - index-tests-test-contract

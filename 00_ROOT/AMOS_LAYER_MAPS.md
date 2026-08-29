@@ -8,8 +8,7 @@ provenance: VAULT_INDEX
 status: active
 steward: Trang Phan
 tags:
-- moc
-- amos_os
+- amos-os
 - root
 - index
 - map

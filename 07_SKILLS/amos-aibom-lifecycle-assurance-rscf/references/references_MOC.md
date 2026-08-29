@@ -3,9 +3,8 @@ title: References MOC — References — Amos Aibom Lifecycle Assurance Rscf
 type: moc
 source: 07_SKILLS/amos-aibom-lifecycle-assurance-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - aibom-subsystems
 - amos-aibom-lifecycle-assurance-rscf-moc
 - 00-home

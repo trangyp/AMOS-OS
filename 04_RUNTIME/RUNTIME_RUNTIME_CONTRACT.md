@@ -3,7 +3,7 @@ title: RUNTIME RUNTIME CONTRACT
 type: runtime
 source: 04_RUNTIME
 tags:
-- amos_os
+- amos-os
 - 04_runtime
 - canon/runtime
 - routing-policy-validation-receipt

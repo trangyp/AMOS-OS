@@ -3,9 +3,8 @@ title: References MOC — References — Amos Provenance Sybil Hardening Rscf En
 type: moc
 source: 07_SKILLS/amos-provenance-sybil-hardening-rscf-engine/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - sybil-hardening-spec
 - 00-home
 - amos-rscf-nodes

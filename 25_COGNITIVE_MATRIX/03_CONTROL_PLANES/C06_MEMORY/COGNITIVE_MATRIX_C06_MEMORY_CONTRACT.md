@@ -3,11 +3,11 @@ title: COGNITIVE MATRIX C06 MEMORY CONTRACT
 type: memory
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C06_MEMORY
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - control_planes
 - c06_memory
 - contract
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - cognitive-matrix-moc

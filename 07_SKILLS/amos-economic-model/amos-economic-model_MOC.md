@@ -3,9 +3,8 @@ title: Amos-Economic-Model MOC
 type: moc
 source: 07_SKILLS/amos-economic-model
 tags:
-- moc
 - amos-economic-model
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

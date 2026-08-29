@@ -3,9 +3,8 @@ title: Amos-Repair-Substrate-Capture-Resistance-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-repair-substrate-capture-resistance-rscf
 tags:
-- moc
 - amos-repair-substrate-capture-resistance
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

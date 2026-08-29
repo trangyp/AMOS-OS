@@ -12,8 +12,8 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: ARTIFACT
 path: 25_COGNITIVE_MATRIX/AMOS_X_TRANG_REALITY.md
 tags:
-- amos_os
-- cognitive_matrix
+- amos-os
+- cognitive-matrix
 - 25_cognitive_matrix
 - artifact
 - trang_reality
@@ -37,7 +37,7 @@ tags:
 - truth_maintenance
 - rscf
 - canon_candidate
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - amos-x-trang-reality-matrix
 - 00-root-moc
 - 00-home

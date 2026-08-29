@@ -6,12 +6,12 @@ type: note
 source: 07_SKILLS/amos-7-part-universe-canon
 tags:
 - type/skill
-- canon/skill
+- type/skill
 - domain/canon-universe
-- rscf/source_claim
+- epistemic/source_claim
 - hml/m
 - epistemic/source_claim
-- amos_os
+- amos-os
 - references
 - readme
 - amos-7-part-universe-canon-moc

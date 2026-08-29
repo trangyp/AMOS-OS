@@ -3,7 +3,7 @@ title: INDEX CONTROL PLANE README
 type: index
 source: 03_CONTROL_PLANE/00_INDEX
 tags:
-- control_plane
+- control-plane
 - index
 - readme
 - canon/control-plane

@@ -3,7 +3,6 @@ title: 02 Claims MOC
 type: moc
 source: 11_KNOWLEDGE/02_CLAIMS
 tags:
-- moc
 - 02-claims
 - canon/knowledge
 - canon-claim-registry

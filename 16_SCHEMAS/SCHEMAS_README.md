@@ -3,7 +3,7 @@ title: SCHEMAS README
 type: schema
 source: 16_SCHEMAS
 tags:
-- amos_os
+- amos-os
 - 16_schemas
 - canon/schema
 - readme

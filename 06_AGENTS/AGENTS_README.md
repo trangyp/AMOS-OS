@@ -3,7 +3,7 @@ title: AGENTS README
 type: agent
 source: 06_AGENTS
 tags:
-- amos_os
+- amos-os
 - 06_agents
 - canon/agent
 - agents

@@ -3,7 +3,7 @@ title: AUTHORITY LIFECYCLE
 type: authority
 source: 03_CONTROL_PLANE/04_AUTHORITY
 tags:
-- control_plane
+- control-plane
 - authority
 - note
 - canon/control-plane

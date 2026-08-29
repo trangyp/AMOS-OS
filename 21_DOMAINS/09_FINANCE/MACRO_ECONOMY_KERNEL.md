@@ -12,7 +12,7 @@ segment: 21_DOMAINS/09_FINANCE
 artifact_kind: DOMAIN_KERNEL
 path: 21_DOMAINS/09_FINANCE/MACRO_ECONOMY_KERNEL.md
 tags:
-- amos_os
+- amos-os
 - domain
 - vault
 - 21_domains

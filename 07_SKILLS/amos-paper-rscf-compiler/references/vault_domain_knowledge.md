@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-paper-rscf-compiler/references
 tags:
 - reference
 - amos-paper-rscf-compiler
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

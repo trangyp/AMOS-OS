@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-qls-substrate/references
 tags:
 - reference
 - amos-qls-substrate
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

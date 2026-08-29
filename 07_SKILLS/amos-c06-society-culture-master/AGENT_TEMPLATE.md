@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-c06-society-culture-master
 tags:
 - note
 - amos-c06-society-culture-master
-- canon/skill
+- type/skill
 - skill
 - amos-c06-society-culture-master-moc
 rscf:

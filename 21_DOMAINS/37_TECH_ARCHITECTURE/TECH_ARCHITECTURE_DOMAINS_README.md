@@ -3,7 +3,7 @@ title: TECH ARCHITECTURE DOMAINS README
 type: architecture
 source: 21_DOMAINS/37_TECH_ARCHITECTURE
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - architecture

@@ -12,8 +12,8 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX_TABLE
 path: 25_COGNITIVE_MATRIX/TOTAL_FRAMEWORK_MATRIX.md
 tags:
-- amos_os
-- cognitive_matrix
+- amos-os
+- cognitive-matrix
 - vault
 - 25_cognitive_matrix
 - total_framework_matrix
@@ -61,7 +61,6 @@ tags:
 - k-governance
 - k-anti-autopoisoning
 - k-governed-evolution
-- moc
 - trang-reality-architecture
 - khung-trang
 - amos-core-v4-4

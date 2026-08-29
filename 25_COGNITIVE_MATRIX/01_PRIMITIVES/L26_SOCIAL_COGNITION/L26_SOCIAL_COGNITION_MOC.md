@@ -3,9 +3,8 @@ title: L26 Social Cognition MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L26_SOCIAL_COGNITION
 tags:
-- moc
 - l26-social-cognition
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-index-moc
 - 01-primitives-moc
 - cognitive-matrix-l26-social-cognition-contract

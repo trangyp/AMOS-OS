@@ -3,7 +3,7 @@ title: COGNITION MAP
 type: map
 source: 02_KERNEL/02_COGNITION/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 02_kernel
 - canon/kernel
 - cognition-kernel-cognition-contract

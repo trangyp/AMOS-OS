@@ -3,7 +3,7 @@ title: OPERATIONS MAP
 type: map
 source: 20_OPERATIONS/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 20_operations
 - canon/operations
 - index-operations-operations-contract

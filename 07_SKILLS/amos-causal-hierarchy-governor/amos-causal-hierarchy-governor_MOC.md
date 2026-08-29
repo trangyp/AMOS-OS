@@ -3,9 +3,8 @@ title: Amos-Causal-Hierarchy-Governor MOC
 type: moc
 source: 07_SKILLS/amos-causal-hierarchy-governor
 tags:
-- moc
 - amos-causal-hierarchy-governor
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

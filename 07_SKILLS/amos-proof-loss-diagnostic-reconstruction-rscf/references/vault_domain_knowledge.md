@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-proof-loss-diagnostic-reconstruction-rscf/references
 tags:
 - reference
 - amos-proof-loss-diagnostic-reconstruction-rscf
-- canon/skill
+- type/skill
 - cosmo-brain-moc
 - 2026-08-22-amos-core-runtime-modules
 - references-moc

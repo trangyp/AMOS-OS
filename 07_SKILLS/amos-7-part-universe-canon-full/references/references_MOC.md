@@ -3,9 +3,8 @@ title: References MOC — References — Amos 7 Part Universe Canon Full
 type: moc
 source: 07_SKILLS/amos-7-part-universe-canon-full/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-7-part-universe-canon-full-moc
 - 00-home

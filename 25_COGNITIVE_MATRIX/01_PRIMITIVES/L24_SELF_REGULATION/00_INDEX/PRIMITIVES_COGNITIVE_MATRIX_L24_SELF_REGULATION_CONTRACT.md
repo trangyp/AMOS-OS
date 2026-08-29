@@ -3,9 +3,9 @@ title: PRIMITIVES COGNITIVE MATRIX L24 SELF REGULATION CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L24_SELF_REGULATION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l24_self_regulation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - validation-evidence
 - 00-root-moc
 - amos-moc

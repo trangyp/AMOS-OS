@@ -3,7 +3,7 @@ title: INDEX PROTOCOLS PROTOCOL CONTRACT
 type: index
 source: 09_PROTOCOLS/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 09_protocols
 - canon/protocol
 - index-protocols-readme

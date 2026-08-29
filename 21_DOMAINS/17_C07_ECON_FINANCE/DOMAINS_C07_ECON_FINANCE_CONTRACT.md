@@ -3,7 +3,7 @@ title: DOMAINS C07 ECON FINANCE CONTRACT
 type: finance
 source: 21_DOMAINS/17_C07_ECON_FINANCE
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - routing-policy-validation-receipt

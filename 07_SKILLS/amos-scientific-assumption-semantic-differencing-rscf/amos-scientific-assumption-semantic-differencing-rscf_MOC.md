@@ -3,9 +3,8 @@ title: Amos-Scientific-Assumption-Semantic-Differencing-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-scientific-assumption-semantic-differencing-rscf
 tags:
-- moc
 - amos-scientific-assumption-semantic-diff
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

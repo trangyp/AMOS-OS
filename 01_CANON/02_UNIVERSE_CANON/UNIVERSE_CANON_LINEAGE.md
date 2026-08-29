@@ -12,7 +12,7 @@ segment: 01_CANON/02_UNIVERSE_CANON
 artifact_kind: LINEAGE
 path: 01_CANON/02_UNIVERSE_CANON/UNIVERSE_CANON_LINEAGE.md
 tags:
-- amos_os
+- amos-os
 - canon
 - universe
 - 01_canon

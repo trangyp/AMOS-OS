@@ -3,9 +3,8 @@ title: C09 Kernel Control MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C09_KERNEL_CONTROL
 tags:
-- moc
 - c09-kernel-control
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-index-moc
 - 03-control-planes-moc
 - cognitive-matrix-c09-kernel-control-contract

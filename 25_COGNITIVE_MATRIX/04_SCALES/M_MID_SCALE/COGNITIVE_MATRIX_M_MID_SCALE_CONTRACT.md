@@ -3,11 +3,11 @@ title: COGNITIVE MATRIX M MID SCALE CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/04_SCALES/M_MID_SCALE
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - scales
 - m_mid_scale
 - contract
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - hml-canon

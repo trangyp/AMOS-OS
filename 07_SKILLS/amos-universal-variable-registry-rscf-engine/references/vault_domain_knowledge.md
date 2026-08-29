@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-universal-variable-registry-rscf-engine/references
 tags:
 - reference
 - amos-universal-variable-registry-rscf-engine
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

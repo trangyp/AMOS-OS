@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-agentic-skill-lie-algebroid-rscf-engine/references
 tags:
 - reference
 - amos-agentic-skill-lie-algebroid-rscf-engine
-- canon/skill
+- type/skill
 - k-meta-logic
 - references-moc
 - 07-skills-moc

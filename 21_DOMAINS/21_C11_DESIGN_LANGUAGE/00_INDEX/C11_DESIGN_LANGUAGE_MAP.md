@@ -3,7 +3,7 @@ title: C11 DESIGN LANGUAGE MAP
 type: map
 source: 21_DOMAINS/21_C11_DESIGN_LANGUAGE/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - index-c11-design-language-domains-readme

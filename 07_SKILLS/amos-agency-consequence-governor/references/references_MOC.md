@@ -3,9 +3,8 @@ title: References MOC — References — Amos Agency Consequence Governor
 type: moc
 source: 07_SKILLS/amos-agency-consequence-governor/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-agency-consequence-governor-moc
 - 00-home

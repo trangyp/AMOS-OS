@@ -12,36 +12,36 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX
 path: 25_COGNITIVE_MATRIX/PROVENANCE_X_CONFIDENCE.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - vault
-  - 25_cognitive_matrix
-  - provenance_x_confidence
-  - epistemic_audit
-  - confidence_ceiling_law
-  - source_independence
-  - provenance_topology
-  - provenance_ancestry
-  - empirical_grounding
-  - empirical_primacy
-  - inheritance_penalty
-  - weakest_load_bearing_premise
-  - correlated_sources
-  - echo_chamber_resistance
-  - sybil_hardening
-  - confidence_governance
-  - claim_lineage
-  - evidence_topology
-  - epistemic_regime
-  - source_claim
-  - observation
-  - derived
-  - model
-  - decision
-  - unknown
-  - rscf
-  - canon_candidate
-  - canon/matrix
+- amos-os
+- cognitive-matrix
+- vault
+- 25_cognitive_matrix
+- provenance_x_confidence
+- epistemic_audit
+- confidence_ceiling_law
+- source_independence
+- provenance_topology
+- provenance_ancestry
+- empirical_grounding
+- empirical_primacy
+- inheritance_penalty
+- weakest_load_bearing_premise
+- correlated_sources
+- echo_chamber_resistance
+- sybil_hardening
+- confidence_governance
+- claim_lineage
+- evidence_topology
+- epistemic_regime
+- source_claim
+- observation
+- derived
+- model
+- decision
+- unknown
+- rscf
+- canon_candidate
+- canon/matrix
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

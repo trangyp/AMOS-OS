@@ -3,9 +3,8 @@ title: References MOC — References — Mckinsey Wealth Management Rscf
 type: moc
 source: 07_SKILLS/mckinsey-wealth-management-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - money-regimes-for-wealth
 - mckinsey-wealth-management-rscf-moc
 - 00-home

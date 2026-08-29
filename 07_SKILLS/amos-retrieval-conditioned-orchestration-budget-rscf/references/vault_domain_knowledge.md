@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-retrieval-conditioned-orchestration-budget-rscf/reference
 tags:
 - reference
 - amos-retrieval-conditioned-orchestration-budget-rscf
-- canon/skill
+- type/skill
 - k-meta-logic
 - references-moc
 - 07-skills-moc

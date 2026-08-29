@@ -12,7 +12,7 @@ segment: 01_CANON/05_VARIABLE_REGISTRY
 artifact_kind: CROSSWALK
 path: 01_CANON/05_VARIABLE_REGISTRY/CROSS_CANON_SYMBOL_CROSSWALK.md
 tags:
-- amos_os
+- amos-os
 - canon
 - universe
 - 01_canon

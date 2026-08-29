@@ -3,9 +3,8 @@ title: Amos-Process-Compliance-Auditor-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-process-compliance-auditor-rscf
 tags:
-- moc
 - amos-process-compliance-auditor-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

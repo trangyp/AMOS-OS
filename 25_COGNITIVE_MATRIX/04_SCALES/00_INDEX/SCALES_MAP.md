@@ -3,9 +3,9 @@ title: SCALES MAP
 type: map
 source: 25_COGNITIVE_MATRIX/04_SCALES/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - 00_index
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - index-scales-cognitive-matrix-readme
 - scales-cognitive-matrix-scales-contract
 - 00-root-map

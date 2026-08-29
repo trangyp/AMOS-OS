@@ -3,9 +3,8 @@ title: Amos-Transformation-Quest-Engine MOC
 type: moc
 source: 07_SKILLS/amos-transformation-quest-engine
 tags:
-- moc
 - amos-transformation-quest-engine
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

@@ -3,9 +3,9 @@ title: CONTROL PLANES COGNITIVE MATRIX C09 KERNEL CONTROL CONTRACT
 type: kernel
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C09_KERNEL_CONTROL/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - c09_kernel_control
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy

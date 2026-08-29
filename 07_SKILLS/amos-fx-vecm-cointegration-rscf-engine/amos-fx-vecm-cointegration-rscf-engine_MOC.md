@@ -3,9 +3,8 @@ title: Amos-Fx-Vecm-Cointegration-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-fx-vecm-cointegration-rscf-engine
 tags:
-- moc
 - amos-fx-vecm-cointegration-rscf-engine
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

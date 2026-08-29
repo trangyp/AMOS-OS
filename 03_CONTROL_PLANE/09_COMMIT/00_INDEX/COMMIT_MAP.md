@@ -3,7 +3,7 @@ title: COMMIT MAP
 type: map
 source: 03_CONTROL_PLANE/09_COMMIT/00_INDEX
 tags:
-- control_plane
+- control-plane
 - 00_index
 - canon/control-plane
 - commit-control-plane-commit-contract

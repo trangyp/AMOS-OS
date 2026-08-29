@@ -3,11 +3,11 @@ title: COGNITIVE MATRIX O05 MEMORY CONTRACT
 type: memory
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O05_MEMORY
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - lifecycle_operations
 - o05_memory
 - contract
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - cognitive-matrix-moc

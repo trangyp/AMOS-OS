@@ -3,9 +3,8 @@ title: 02 Lifecycle Operations MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS
 tags:
-- moc
 - 02-lifecycle-operations
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-index-moc
 - o00-distinction-moc
 - o01-object-moc

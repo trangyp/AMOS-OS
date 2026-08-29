@@ -3,7 +3,6 @@ title: 31 Control Systems MOC
 type: moc
 source: 21_DOMAINS/31_CONTROL_SYSTEMS
 tags:
-- moc
 - 31-control-systems
 - canon/domain
 - control-systems-domains-domain-spec

@@ -3,7 +3,7 @@ title: RISK REPAIR MAP
 type: map
 source: 02_KERNEL/06_RISK_REPAIR/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 02_kernel
 - canon/kernel
 - index-risk-repair-kernel-readme

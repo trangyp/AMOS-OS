@@ -3,9 +3,8 @@ title: Amos-Temporal-Multiscale-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-temporal-multiscale-rscf-engine
 tags:
-- moc
 - amos-temporal-multiscale-rscf-engine
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

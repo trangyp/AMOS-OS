@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-persistence-dissolution-rscf-dynamics/references
 tags:
 - reference
 - amos-persistence-dissolution-rscf-dynamics
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

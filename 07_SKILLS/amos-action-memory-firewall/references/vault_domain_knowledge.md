@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-action-memory-firewall/references
 tags:
 - reference
 - amos-action-memory-firewall
-- canon/skill
+- type/skill
 - 2026-08-22-amos-obsidian-memory-bridge
 - cosmo-brain-moc
 - 00-home

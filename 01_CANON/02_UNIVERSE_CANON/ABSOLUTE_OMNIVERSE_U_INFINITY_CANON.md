@@ -14,7 +14,7 @@ path: 01_CANON/02_UNIVERSE_CANON/ABSOLUTE_OMNIVERSE_U_INFINITY_CANON.md
 native_source_candidate:
 - ABSOLUTE OMNIVERSE U∞.txt
 tags:
-- amos_os
+- amos-os
 - canon
 - universe
 - absolute_omniverse

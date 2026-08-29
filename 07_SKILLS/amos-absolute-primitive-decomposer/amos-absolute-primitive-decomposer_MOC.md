@@ -3,9 +3,8 @@ title: Amos-Absolute-Primitive-Decomposer MOC
 type: moc
 source: 07_SKILLS/amos-absolute-primitive-decomposer
 tags:
-- moc
 - amos-absolute-primitive-decomposer
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

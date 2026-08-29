@@ -3,7 +3,7 @@ title: INDEX EXPERIMENTAL ARCHIVE README
 type: index
 source: 24_ARCHIVE/03_EXPERIMENTAL/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 24_archive
 - canon/archive
 - readme

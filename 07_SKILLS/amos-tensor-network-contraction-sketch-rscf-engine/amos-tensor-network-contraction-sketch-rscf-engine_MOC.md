@@ -3,9 +3,8 @@ title: Amos-Tensor-Network-Contraction-Sketch-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-tensor-network-contraction-sketch-rscf-engine
 tags:
-- moc
 - amos-tensor-network-contraction-sketch-r
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

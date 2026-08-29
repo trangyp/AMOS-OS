@@ -3,9 +3,8 @@ title: References MOC — References — Amos Time Series Conformal Uq Rscf Engi
 type: moc
 source: 07_SKILLS/amos-time-series-conformal-uq-rscf-engine/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - biostatistics-kernel
 - 00-home
 - amos-rscf-nodes

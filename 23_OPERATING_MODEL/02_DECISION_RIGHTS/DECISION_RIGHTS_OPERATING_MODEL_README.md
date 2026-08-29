@@ -3,7 +3,7 @@ title: DECISION RIGHTS OPERATING MODEL README
 type: model
 source: 23_OPERATING_MODEL/02_DECISION_RIGHTS
 tags:
-- amos_os
+- amos-os
 - 23_operating_model
 - canon/operating-model
 - readme

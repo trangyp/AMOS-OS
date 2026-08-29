@@ -3,9 +3,8 @@ title: Amos-Symbolic-Path-Reasoning-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-symbolic-path-reasoning-rscf
 tags:
-- moc
 - amos-symbolic-path-reasoning-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

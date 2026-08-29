@@ -3,9 +3,8 @@ title: References MOC — References — Arxiv Autosota Research Automation Rscf
 type: moc
 source: 07_SKILLS/arxiv-autosota-research-automation-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

@@ -12,12 +12,12 @@ Trigger: When composing typed tensors (claims, evidence, reasoning) across two o
 Version: 1.0.0
 tags:
 - type/workflow
-- canon/workflow
+- type/workflow
 - domain/cross-domain
-- rscf/source_claim
+- epistemic/source_claim
 - hml/m
 - epistemic/source_claim
-- amos_os
+- amos-os
 - tensor-contracts
 - 08-workflows-moc
 rscf:

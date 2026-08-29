@@ -3,7 +3,6 @@ title: 05 Policies MOC
 type: moc
 source: 20_OPERATIONS/05_POLICIES
 tags:
-- moc
 - 05-policies
 - canon/operations
 - amos-home

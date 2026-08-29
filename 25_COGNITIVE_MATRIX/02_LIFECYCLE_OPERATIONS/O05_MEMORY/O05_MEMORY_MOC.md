@@ -3,9 +3,8 @@ title: O05 Memory MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O05_MEMORY
 tags:
-- moc
 - o05-memory
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-o05-memory-contract
 - 00-index-moc
 - 02-lifecycle-operations-moc

@@ -3,9 +3,8 @@ title: GENERATOR ADMISSION
 type: generator
 source: 25_COGNITIVE_MATRIX/12_GENERATORS
 tags:
-- cognitive_matrix
-- generator_admission.md
-- canon/cognitive-matrix
+- cognitive-matrix
+- domain/cognitive-matrix
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy

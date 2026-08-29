@@ -3,9 +3,8 @@ title: Amos-Fx-Options-Implied-Distribution MOC
 type: moc
 source: 07_SKILLS/amos-fx-options-implied-distribution
 tags:
-- moc
 - amos-fx-options-implied-distribution
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

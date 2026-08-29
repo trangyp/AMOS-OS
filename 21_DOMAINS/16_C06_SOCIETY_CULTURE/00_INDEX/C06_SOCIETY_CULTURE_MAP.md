@@ -3,7 +3,7 @@ title: C06 SOCIETY CULTURE MAP
 type: map
 source: 21_DOMAINS/16_C06_SOCIETY_CULTURE/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - index-c06-society-culture-domains-readme

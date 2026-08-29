@@ -3,7 +3,7 @@ title: RESEARCH VALIDATION MAP
 type: map
 source: 22_RESEARCH/04_VALIDATION/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 22_research
 - canon/research
 - validation

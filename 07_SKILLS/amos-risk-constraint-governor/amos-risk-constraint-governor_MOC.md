@@ -3,9 +3,8 @@ title: Amos-Risk-Constraint-Governor MOC
 type: moc
 source: 07_SKILLS/amos-risk-constraint-governor
 tags:
-- moc
 - amos-risk-constraint-governor
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

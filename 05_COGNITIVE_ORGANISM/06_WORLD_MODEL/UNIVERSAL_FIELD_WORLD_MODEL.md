@@ -12,7 +12,7 @@ segment: 05_COGNITIVE_ORGANISM/06_WORLD_MODEL
 artifact_kind: MODEL
 path: 05_COGNITIVE_ORGANISM/06_WORLD_MODEL/UNIVERSAL_FIELD_WORLD_MODEL.md
 tags:
-- amos_os
+- amos-os
 - cognitive
 - organism
 - 05_cognitive_organism

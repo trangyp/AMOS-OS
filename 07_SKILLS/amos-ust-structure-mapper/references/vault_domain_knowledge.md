@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-ust-structure-mapper/references
 tags:
 - reference
 - amos-ust-structure-mapper
-- canon/skill
+- type/skill
 - 07-skills-moc
 - references-moc
 - 00-home

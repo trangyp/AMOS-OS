@@ -3,7 +3,6 @@ title: 11_KNOWLEDGE MOC (Knowledge Plane Map of Content)
 type: moc
 source: 11_KNOWLEDGE
 tags:
-- moc
 - knowledge
 - rscf
 - 25-cognitive-matrix-moc

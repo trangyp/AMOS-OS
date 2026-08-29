@@ -5,7 +5,7 @@ source: 07_SKILLS/mckinsey-public-sector-transformation-rscf/references
 tags:
 - reference
 - mckinsey-public-sector-transformation-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

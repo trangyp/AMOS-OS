@@ -3,9 +3,8 @@ title: Amos-Code-Agent-Harness-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-code-agent-harness-rscf
 tags:
-- moc
 - amos-code-agent-harness-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

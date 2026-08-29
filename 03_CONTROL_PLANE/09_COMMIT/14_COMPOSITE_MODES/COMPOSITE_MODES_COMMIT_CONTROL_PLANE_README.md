@@ -3,7 +3,7 @@ title: COMPOSITE MODES COMMIT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/14_COMPOSITE_MODES
 tags:
-- control_plane
+- control-plane
 - 14_composite_modes
 - canon/control-plane
 - readme

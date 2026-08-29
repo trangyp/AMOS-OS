@@ -3,7 +3,7 @@ title: INTERPRETATION SEMANTIC MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/85_INTERPRETATION_SEMANTIC_MODES
 tags:
-- control_plane
+- control-plane
 - 85_interpretation_semantic_modes
 - canon/control-plane
 - authz-engine-validation-receipt

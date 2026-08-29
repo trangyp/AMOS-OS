@@ -3,9 +3,8 @@ title: Mckinsey-Human-Centered-Design-Rscf MOC
 type: moc
 source: 07_SKILLS/mckinsey-human-centered-design-rscf
 tags:
-- moc
 - mckinsey-human-centered-design-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

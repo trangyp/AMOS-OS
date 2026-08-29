@@ -3,7 +3,7 @@ title: CANON GLOSSARY CONTRACT
 type: canon
 source: 01_CANON/06_GLOSSARY
 tags:
-- amos_os
+- amos-os
 - 01_canon
 - canon/universe
 - routing-policy-validation-receipt

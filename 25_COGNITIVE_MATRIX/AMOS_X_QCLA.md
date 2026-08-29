@@ -12,8 +12,8 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: ARTIFACT
 path: 25_COGNITIVE_MATRIX/AMOS_X_QCLA.md
 tags:
-- amos_os
-- cognitive_matrix
+- amos-os
+- cognitive-matrix
 - matrix
 - 25_cognitive_matrix
 - artifact
@@ -32,7 +32,7 @@ tags:
 - deterministic_logic
 - rscf
 - canon_candidate
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - 00-home
 - amos-rscf-nodes

@@ -14,7 +14,7 @@ tags:
 - non_portables
 - simulation
 - empirical
-- canonical
+- canon
 - speculative
 - simulation_pessimism
 - branch_stability

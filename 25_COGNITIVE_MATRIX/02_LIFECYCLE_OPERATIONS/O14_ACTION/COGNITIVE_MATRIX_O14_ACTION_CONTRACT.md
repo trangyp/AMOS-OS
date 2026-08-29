@@ -3,11 +3,11 @@ title: COGNITIVE MATRIX O14 ACTION CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O14_ACTION
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - lifecycle_operations
 - o14_action
 - contract
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - cognitive-matrix-moc

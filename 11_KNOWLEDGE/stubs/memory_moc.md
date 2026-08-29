@@ -3,7 +3,6 @@ title: memory moc
 tags:
 - stub
 - memory
-- moc
 - memory-moc
 - kernel-moc
 - 00-home

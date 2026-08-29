@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-memory-systems-master
 tags:
 - note
 - amos-memory-systems-master
-- canon/skill
+- type/skill
 - skill
 - amos-memory-systems-master-moc
 rscf:

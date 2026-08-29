@@ -12,7 +12,7 @@ segment: 01_CANON/08_SUPERSESSION
 artifact_kind: SUPERSESSION
 path: 01_CANON/08_SUPERSESSION/UBI_SUPERSESSION.md
 tags:
-- amos_os
+- amos-os
 - canon
 - universe
 - 01_canon

@@ -3,9 +3,8 @@ title: Amos-7-Part-Universe-Canon-Full MOC
 type: moc
 source: 07_SKILLS/amos-7-part-universe-canon-full
 tags:
-- moc
 - amos-7-part-universe-canon-full
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

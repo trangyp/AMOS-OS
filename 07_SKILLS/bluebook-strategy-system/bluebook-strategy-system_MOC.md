@@ -3,9 +3,8 @@ title: Bluebook-Strategy-System MOC
 type: moc
 source: 07_SKILLS/bluebook-strategy-system
 tags:
-- moc
 - bluebook-strategy-system
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

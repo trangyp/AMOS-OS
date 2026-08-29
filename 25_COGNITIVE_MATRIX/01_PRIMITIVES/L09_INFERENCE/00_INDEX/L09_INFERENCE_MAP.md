@@ -3,9 +3,9 @@ title: L09 INFERENCE MAP
 type: map
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L09_INFERENCE/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l09_inference
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-map
 - amos-rscf-nodes
 - routing-policy-validation-receipt

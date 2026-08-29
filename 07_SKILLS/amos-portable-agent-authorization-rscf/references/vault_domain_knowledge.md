@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-portable-agent-authorization-rscf/references
 tags:
 - reference
 - amos-portable-agent-authorization-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

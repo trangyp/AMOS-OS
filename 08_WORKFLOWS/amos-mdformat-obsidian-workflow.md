@@ -8,7 +8,7 @@ title: AMOS mdformat-obsidian
 tags:
 - type/workflow
 - domain/cross-domain
-- amos_os
+- amos-os
 ---
 
 # Workflow: AMOS mdformat-obsidian

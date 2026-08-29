@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-agent-memory-dynamics-rscf-engine/references
 tags:
 - reference
 - amos-agent-memory-dynamics-rscf-engine
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

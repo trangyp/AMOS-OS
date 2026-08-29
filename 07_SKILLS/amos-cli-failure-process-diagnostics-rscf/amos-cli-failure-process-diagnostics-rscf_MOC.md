@@ -3,9 +3,8 @@ title: Amos-Cli-Failure-Process-Diagnostics-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-cli-failure-process-diagnostics-rscf
 tags:
-- moc
 - amos-cli-failure-process-diagnostics-rsc
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

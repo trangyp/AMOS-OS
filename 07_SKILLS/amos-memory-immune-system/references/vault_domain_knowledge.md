@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-memory-immune-system/references
 tags:
 - reference
 - amos-memory-immune-system
-- canon/skill
+- type/skill
 - k-meta-logic
 - amos-ubi-kernel
 - references-moc

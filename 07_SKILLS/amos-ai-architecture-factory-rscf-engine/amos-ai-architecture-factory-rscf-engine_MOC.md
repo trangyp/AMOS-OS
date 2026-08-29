@@ -3,9 +3,8 @@ title: Amos-Ai-Architecture-Factory-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-ai-architecture-factory-rscf-engine
 tags:
-- moc
 - amos-ai-architecture-factory-rscf-engine
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

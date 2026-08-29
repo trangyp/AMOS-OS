@@ -15,15 +15,14 @@ tags:
 - 00_mode_index
 - 03_control_plane
 - 09_commit
-- amos_os
+- amos-os
 - audit
 - canon/control-plane
 - canon/universe
 - commit
-- control_plane
+- control-plane
 - coverage
 - mode_index
-- mode_placeholder_audit_2026_08_25.md
 - note
 - placeholder
 - rscf

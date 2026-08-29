@@ -3,9 +3,8 @@ title: References MOC — References — Amos Agent Native Research Artifact Rsc
 type: moc
 source: 07_SKILLS/amos-agent-native-research-artifact-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

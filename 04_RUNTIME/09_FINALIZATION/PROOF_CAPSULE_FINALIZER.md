@@ -12,7 +12,7 @@ segment: 04_RUNTIME/09_FINALIZATION
 artifact_kind: FINALIZER_SPEC
 path: 04_RUNTIME/09_FINALIZATION/PROOF_CAPSULE_FINALIZER.md
 tags:
-- amos_os
+- amos-os
 - runtime
 - vault
 - 04_runtime

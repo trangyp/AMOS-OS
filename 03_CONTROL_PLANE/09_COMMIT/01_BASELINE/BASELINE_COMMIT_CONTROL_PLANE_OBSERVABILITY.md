@@ -3,7 +3,7 @@ title: BASELINE COMMIT CONTROL PLANE OBSERVABILITY
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/01_BASELINE
 tags:
-- control_plane
+- control-plane
 - 01_baseline
 - canon/control-plane
 - routing-policy-validation-receipt

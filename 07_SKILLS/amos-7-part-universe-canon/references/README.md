@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-7-part-universe-canon/references
 tags:
 - skill_reference
 - index
-- canon/skill
+- type/skill
 - skill
 - 00-root-moc
 - amos-moc

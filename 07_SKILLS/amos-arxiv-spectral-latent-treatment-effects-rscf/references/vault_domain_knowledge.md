@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-arxiv-spectral-latent-treatment-effects-rscf/references
 tags:
 - reference
 - amos-arxiv-spectral-latent-treatment-effects-rscf
-- canon/skill
+- type/skill
 - cosmo-brain-moc
 - amos-build-from-spec
 - 2026-08-22-tests-logic-bridge-registry

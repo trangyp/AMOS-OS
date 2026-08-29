@@ -3,7 +3,7 @@ title: API INTEGRATION DOMAINS README
 type: integration
 source: 21_DOMAINS/38_API_INTEGRATION
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - integration

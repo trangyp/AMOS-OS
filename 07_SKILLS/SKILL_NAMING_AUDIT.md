@@ -9,7 +9,7 @@ description: AMOS skill naming audit produced from .devin/skills across vault an
 tags:
 - note
 - 07-skills
-- canon/skill
+- type/skill
 - 07-skills-moc
 rscf:
   state: DERIVED

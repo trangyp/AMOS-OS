@@ -12,7 +12,7 @@ segment: 01_CANON/07_PROVENANCE
 artifact_kind: MAP
 path: 01_CANON/07_PROVENANCE/CANON_TO_SOURCE_MAP.md
 tags:
-- amos_os
+- amos-os
 - canon
 - universe
 - 01_canon

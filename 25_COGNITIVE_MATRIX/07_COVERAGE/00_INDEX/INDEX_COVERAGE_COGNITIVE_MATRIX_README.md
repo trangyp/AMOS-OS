@@ -3,9 +3,9 @@ title: INDEX COVERAGE COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/07_COVERAGE/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - 00_index
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - coverage-map
 - 00-home

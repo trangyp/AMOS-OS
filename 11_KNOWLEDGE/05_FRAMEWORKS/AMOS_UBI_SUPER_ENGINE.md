@@ -12,7 +12,7 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: ENGINE
 path: 11_KNOWLEDGE/05_FRAMEWORKS/AMOS_UBI_SUPER_ENGINE.md
 tags:
-- amos_os
+- amos-os
 - knowledge
 - vault
 - 11_knowledge

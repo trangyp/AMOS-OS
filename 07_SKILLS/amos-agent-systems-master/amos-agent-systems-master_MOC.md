@@ -3,9 +3,8 @@ title: Amos-Agent-Systems-Master MOC
 type: moc
 source: 07_SKILLS/amos-agent-systems-master
 tags:
-- moc
 - amos-agent-systems-master
-- canon/skill
+- type/skill
 - agent-template
 - skill
 - references-moc

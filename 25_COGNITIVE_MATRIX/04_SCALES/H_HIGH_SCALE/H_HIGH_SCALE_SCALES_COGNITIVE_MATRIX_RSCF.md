@@ -5,7 +5,7 @@ source: 25_COGNITIVE_MATRIX/04_SCALES/H_HIGH_SCALE
 tags:
 - note
 - h-high-scale
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-moc
 - 00-root-moc
 - amos-moc

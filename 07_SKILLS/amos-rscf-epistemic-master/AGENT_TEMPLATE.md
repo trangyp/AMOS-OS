@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-rscf-epistemic-master
 tags:
 - note
 - amos-rscf-epistemic-master
-- canon/skill
+- type/skill
 - skill
 - amos-rscf-epistemic-master-moc
 rscf:

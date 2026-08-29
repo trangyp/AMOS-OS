@@ -3,9 +3,9 @@ title: INDEX M MID SCALE SCALES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/04_SCALES/M_MID_SCALE/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - m_mid_scale
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - m-mid-scale-map
 - 00-home

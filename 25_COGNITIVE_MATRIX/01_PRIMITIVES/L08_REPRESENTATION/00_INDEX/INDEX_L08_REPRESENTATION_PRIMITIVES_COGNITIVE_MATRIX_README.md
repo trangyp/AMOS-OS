@@ -3,9 +3,9 @@ title: INDEX L08 REPRESENTATION PRIMITIVES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L08_REPRESENTATION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l08_representation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - l08-representation-map
 - 00-home

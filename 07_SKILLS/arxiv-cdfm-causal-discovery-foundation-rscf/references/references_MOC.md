@@ -3,9 +3,8 @@ title: References MOC — References — Arxiv Cdfm Causal Discovery Foundation 
 type: moc
 source: 07_SKILLS/arxiv-cdfm-causal-discovery-foundation-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - cdfm-causal-spec
 - 00-home
 - amos-rscf-nodes

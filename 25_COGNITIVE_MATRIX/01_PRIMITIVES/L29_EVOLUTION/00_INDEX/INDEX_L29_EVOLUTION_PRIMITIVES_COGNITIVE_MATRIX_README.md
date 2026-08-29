@@ -3,9 +3,9 @@ title: INDEX L29 EVOLUTION PRIMITIVES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L29_EVOLUTION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l29_evolution
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - l29-evolution-map
 - 00-home

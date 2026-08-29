@@ -10,7 +10,7 @@ tags:
 - rscf
 - provenance
 - governance
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - 00-home

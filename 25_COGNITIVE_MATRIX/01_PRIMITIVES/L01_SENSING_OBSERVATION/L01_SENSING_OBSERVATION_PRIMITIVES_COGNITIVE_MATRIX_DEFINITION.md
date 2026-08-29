@@ -5,14 +5,14 @@ source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
 tags:
 - amos
 - cognitive-matrix
-- l01
+- matrix/l01
 - sensing
 - observation
 - cognitive-primitive
 - epistemics
 - provenance
 - rscf
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-home
 - 00-root-moc
 - amos-moc

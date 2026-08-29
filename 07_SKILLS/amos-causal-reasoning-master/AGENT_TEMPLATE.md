@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-causal-reasoning-master
 tags:
 - note
 - amos-causal-reasoning-master
-- canon/skill
+- type/skill
 - skill
 - amos-causal-reasoning-master-moc
 rscf:

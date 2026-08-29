@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-c11-design-language-master/references
 tags:
 - reference
 - amos-c11-design-language-master
-- canon/skill
+- type/skill
 - skill
 - amos-c11-design-language-master-moc
 - 00-home

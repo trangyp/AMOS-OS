@@ -17,7 +17,7 @@ tags:
 - amos-moc
 - 00-home
 - amos-rscf-nodes
-- l0-integrity
+- law/L0-integrity
 - core-laws-map
 - core-laws-canon-core-laws-contract
 - 01-core-laws-moc

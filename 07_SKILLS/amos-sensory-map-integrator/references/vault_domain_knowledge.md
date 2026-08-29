@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-sensory-map-integrator/references
 tags:
 - reference
 - amos-sensory-map-integrator
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

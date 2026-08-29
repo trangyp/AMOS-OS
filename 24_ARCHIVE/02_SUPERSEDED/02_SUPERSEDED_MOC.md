@@ -3,7 +3,6 @@ title: 02 Superseded MOC
 type: moc
 source: 24_ARCHIVE/02_SUPERSEDED
 tags:
-- moc
 - 02-superseded
 - canon/archive
 - archive-superseded-contract

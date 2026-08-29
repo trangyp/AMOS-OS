@@ -5,7 +5,7 @@ source: 07_SKILLS/rscf-modeler/references
 tags:
 - reference
 - rscf-modeler
-- canon/skill
+- type/skill
 - rscf-modeler-moc
 - 00-home
 - amos-rscf-nodes

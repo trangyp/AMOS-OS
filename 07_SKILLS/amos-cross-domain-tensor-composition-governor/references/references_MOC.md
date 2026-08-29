@@ -3,9 +3,8 @@ title: References MOC — References — Amos Cross Domain Tensor Composition Go
 type: moc
 source: 07_SKILLS/amos-cross-domain-tensor-composition-governor/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

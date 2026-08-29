@@ -14,13 +14,12 @@ path: 01_CANON/06_GLOSSARY/UBI_GLOSSARY.md
 tags:
 - 01_canon
 - 06_glossary
-- amos_os
+- amos-os
 - canon
 - canon/universe
 - canon_placeholder
 - glossary
 - rscf
-- ubi_glossary.md
 - universe
 - placeholder_expanded
 - routing-policy-validation-receipt

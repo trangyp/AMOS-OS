@@ -3,7 +3,7 @@ title: ROLLBACK REPLAY MODES COMMIT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/83_ROLLBACK_REPLAY_MODES
 tags:
-- control_plane
+- control-plane
 - 83_rollback_replay_modes
 - canon/control-plane
 - readme

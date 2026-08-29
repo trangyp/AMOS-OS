@@ -3,7 +3,6 @@ tags:
 - knowledge
 - full
 - brain
-- architecture.md
 - architecture
 - 00-home
 - amos-rscf-nodes

@@ -12,7 +12,7 @@ segment: 21_DOMAINS/06_BIOLOGY
 artifact_kind: DOMAIN_MODEL
 path: 21_DOMAINS/06_BIOLOGY/CROSS_SPECIES_FUNCTIONAL_MODE_MODEL.md
 tags:
-- amos_os
+- amos-os
 - domain
 - vault
 - 21_domains

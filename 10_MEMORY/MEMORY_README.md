@@ -3,7 +3,7 @@ title: MEMORY README
 type: memory
 source: 10_MEMORY
 tags:
-- amos_os
+- amos-os
 - 10_memory
 - canon/memory
 - memory

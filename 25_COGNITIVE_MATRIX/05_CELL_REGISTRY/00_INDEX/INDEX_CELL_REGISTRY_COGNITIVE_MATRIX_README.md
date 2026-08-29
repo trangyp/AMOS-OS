@@ -3,9 +3,9 @@ title: INDEX CELL REGISTRY COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/05_CELL_REGISTRY/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - 00_index
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - cell-registry-map
 - 00-home

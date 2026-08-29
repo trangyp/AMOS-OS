@@ -3,9 +3,9 @@ title: PRIMITIVES COGNITIVE MATRIX L22 CONSOLIDATION CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L22_CONSOLIDATION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l22_consolidation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - validation-evidence
 - 00-root-moc
 - amos-moc

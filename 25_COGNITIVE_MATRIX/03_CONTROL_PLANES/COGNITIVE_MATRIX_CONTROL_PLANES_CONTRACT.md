@@ -3,9 +3,8 @@ title: COGNITIVE MATRIX CONTROL PLANES CONTRACT
 type: control-plane
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES
 tags:
-- cognitive_matrix
-- cognitive_matrix_control_planes_contract.md
-- canon/cognitive-matrix
+- cognitive-matrix
+- domain/cognitive-matrix
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy

@@ -3,9 +3,8 @@ title: References MOC — References — Amos Agent Memory Dynamics Rscf Engine
 type: moc
 source: 07_SKILLS/amos-agent-memory-dynamics-rscf-engine/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - 00-home
 - amos-rscf-nodes
 - law-hierarchy

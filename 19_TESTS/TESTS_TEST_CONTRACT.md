@@ -3,7 +3,7 @@ title: TESTS TEST CONTRACT
 type: test
 source: 19_TESTS
 tags:
-- amos_os
+- amos-os
 - 19_tests
 - canon/test
 - routing-policy-validation-receipt

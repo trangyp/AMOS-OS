@@ -4,12 +4,12 @@ source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
 tags:
 - amos
 - cognitive-matrix
-- l02
+- matrix/l02
 - attention
 - failure-modes
 - rscf
 - hml
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - 00-home

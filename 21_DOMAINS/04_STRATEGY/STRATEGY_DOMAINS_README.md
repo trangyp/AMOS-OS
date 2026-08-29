@@ -3,7 +3,7 @@ title: STRATEGY DOMAINS README
 type: strategy
 source: 21_DOMAINS/04_STRATEGY
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - readme

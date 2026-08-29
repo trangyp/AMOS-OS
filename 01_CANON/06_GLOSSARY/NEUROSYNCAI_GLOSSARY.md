@@ -12,7 +12,7 @@ segment: 01_CANON/06_GLOSSARY
 artifact_kind: GLOSSARY
 path: 01_CANON/06_GLOSSARY/NEUROSYNCAI_GLOSSARY.md
 tags:
-- amos_os
+- amos-os
 - canon
 - universe
 - 01_canon

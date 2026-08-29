@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-measurement-integrity-auditor/references
 tags:
 - reference
 - amos-measurement-integrity-auditor
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

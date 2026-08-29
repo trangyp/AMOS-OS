@@ -3,9 +3,8 @@ title: Amos-Cross-Architecture-Tensor-Engine MOC
 type: moc
 source: 07_SKILLS/amos-cross-architecture-tensor-engine
 tags:
-- moc
 - amos-cross-architecture-tensor-engine
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

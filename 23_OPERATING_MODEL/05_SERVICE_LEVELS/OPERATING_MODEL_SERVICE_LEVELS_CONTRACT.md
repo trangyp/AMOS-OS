@@ -3,7 +3,7 @@ title: OPERATING MODEL SERVICE LEVELS CONTRACT
 type: model
 source: 23_OPERATING_MODEL/05_SERVICE_LEVELS
 tags:
-- amos_os
+- amos-os
 - 23_operating_model
 - canon/operating-model
 - routing-policy-validation-receipt

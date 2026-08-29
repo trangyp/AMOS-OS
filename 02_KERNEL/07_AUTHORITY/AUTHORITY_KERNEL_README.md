@@ -3,7 +3,7 @@ title: AUTHORITY KERNEL README
 type: kernel
 source: 02_KERNEL/07_AUTHORITY
 tags:
-- amos_os
+- amos-os
 - 02_kernel
 - canon/kernel
 - readme

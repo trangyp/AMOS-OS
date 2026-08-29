@@ -3,9 +3,8 @@ title: References MOC — References — Amos Recursive Observer Contamination
 type: moc
 source: 07_SKILLS/amos-recursive-observer-contamination/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

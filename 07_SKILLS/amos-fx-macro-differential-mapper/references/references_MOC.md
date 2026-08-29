@@ -3,9 +3,8 @@ title: References MOC — References — Amos Fx Macro Differential Mapper
 type: moc
 source: 07_SKILLS/amos-fx-macro-differential-mapper/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-fx-macro-differential-mapper-moc
 - 00-home

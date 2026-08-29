@@ -3,9 +3,8 @@ title: Amos-Super-Engines-Master MOC
 type: moc
 source: 07_SKILLS/amos-super-engines-master
 tags:
-- moc
 - amos-super-engines-master
-- canon/skill
+- type/skill
 - agent-template
 - skill
 - references-moc

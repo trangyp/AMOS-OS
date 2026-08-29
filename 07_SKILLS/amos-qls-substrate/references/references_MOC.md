@@ -3,9 +3,8 @@ title: References MOC — References — Amos Qls Substrate
 type: moc
 source: 07_SKILLS/amos-qls-substrate/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-qls-substrate-moc
 - 00-home

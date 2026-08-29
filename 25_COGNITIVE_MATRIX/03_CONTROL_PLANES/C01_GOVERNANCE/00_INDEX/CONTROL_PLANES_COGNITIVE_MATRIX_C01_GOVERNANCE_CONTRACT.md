@@ -3,9 +3,9 @@ title: CONTROL PLANES COGNITIVE MATRIX C01 GOVERNANCE CONTRACT
 type: control-plane
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C01_GOVERNANCE/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - c01_governance
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy

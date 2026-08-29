@@ -9,11 +9,11 @@ epistemic_class: MODEL
 primitive: L04_OBJECT_ENTITY_FORMATION
 artifact: VARIABLES.md
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - primitives
 - l04_object_entity_formation
 - note
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - 00-home

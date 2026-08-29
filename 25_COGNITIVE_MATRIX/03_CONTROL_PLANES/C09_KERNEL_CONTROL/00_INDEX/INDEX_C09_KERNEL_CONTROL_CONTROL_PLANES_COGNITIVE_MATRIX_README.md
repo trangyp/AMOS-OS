@@ -3,9 +3,9 @@ title: INDEX C09 KERNEL CONTROL CONTROL PLANES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C09_KERNEL_CONTROL/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - c09_kernel_control
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - c09-kernel-control-map
 - 00-home

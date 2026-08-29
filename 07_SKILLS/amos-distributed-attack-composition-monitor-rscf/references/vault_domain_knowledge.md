@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-distributed-attack-composition-monitor-rscf/references
 tags:
 - reference
 - amos-distributed-attack-composition-monitor-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

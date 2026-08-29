@@ -3,7 +3,6 @@ title: 03 Cognition Canon MOC
 type: moc
 source: 01_CANON/03_COGNITION_CANON
 tags:
-- moc
 - 03-cognition-canon
 - canon/universe
 - amos-19x19-cognitive-field

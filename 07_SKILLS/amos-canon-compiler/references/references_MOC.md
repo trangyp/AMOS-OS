@@ -3,9 +3,8 @@ title: References MOC — References — Amos Canon Compiler
 type: moc
 source: 07_SKILLS/amos-canon-compiler/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-canon-compiler-moc
 - 00-home

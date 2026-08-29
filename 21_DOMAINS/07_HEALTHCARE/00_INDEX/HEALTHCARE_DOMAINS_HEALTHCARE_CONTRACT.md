@@ -3,7 +3,7 @@ title: HEALTHCARE DOMAINS HEALTHCARE CONTRACT
 type: note
 source: 21_DOMAINS/07_HEALTHCARE/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - routing-policy-validation-receipt

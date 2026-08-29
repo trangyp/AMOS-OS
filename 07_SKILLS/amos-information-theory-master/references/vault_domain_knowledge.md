@@ -8,7 +8,7 @@ tags:
 - competing
 - rscf
 - governance
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

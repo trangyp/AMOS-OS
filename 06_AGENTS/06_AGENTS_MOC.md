@@ -3,7 +3,6 @@ title: 06 Agents MOC
 type: moc
 source: 06_AGENTS
 tags:
-- moc
 - 06-agents
 - canon/agent
 - agent-naming-convention

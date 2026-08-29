@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-constraint-propagation-rscf-engine/references
 tags:
 - reference
 - amos-constraint-propagation-rscf-engine
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

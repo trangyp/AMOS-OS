@@ -3,9 +3,8 @@ title: Amos-Bundle-Manifold-Concentration-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-bundle-manifold-concentration-rscf-engine
 tags:
-- moc
 - amos-bundle-manifold-concentration-rscf-
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

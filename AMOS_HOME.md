@@ -7,7 +7,7 @@ aliases:
 tags:
 - note
 - vault
-- canon/general
+- epistemic/amos_model
 - 00-root-moc
 - knowledge-moc
 - cosmo-brain-moc
@@ -19,7 +19,6 @@ tags:
 - readme
 - architecture
 - agents
-- moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

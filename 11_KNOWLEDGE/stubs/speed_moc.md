@@ -3,7 +3,6 @@ title: speed moc
 tags:
 - stub
 - speed
-- moc
 - speed-moc
 - kernel-moc
 - 00-home

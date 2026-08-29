@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-repair-substrate-capture-resistance-rscf/references
 tags:
 - reference
 - amos-repair-substrate-capture-resistance-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 00-home
 - amos-rscf-nodes

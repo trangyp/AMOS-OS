@@ -3,7 +3,7 @@ title: SERVICE LEVELS
 type: service
 source: 23_OPERATING_MODEL/05_SERVICE_LEVELS
 tags:
-- amos_os
+- amos-os
 - 23_operating_model
 - canon/operating-model
 - routing-policy-validation-receipt

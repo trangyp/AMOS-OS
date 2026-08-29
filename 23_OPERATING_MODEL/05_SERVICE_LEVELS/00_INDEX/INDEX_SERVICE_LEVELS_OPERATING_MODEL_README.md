@@ -3,7 +3,7 @@ title: INDEX SERVICE LEVELS OPERATING MODEL README
 type: index
 source: 23_OPERATING_MODEL/05_SERVICE_LEVELS/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 23_operating_model
 - canon/operating-model
 - readme

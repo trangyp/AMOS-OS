@@ -3,7 +3,7 @@ title: AGENT MAP
 type: agent
 source: 06_AGENTS/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 06_agents
 - canon/agent
 - index-agents-agent-contract

@@ -12,7 +12,7 @@ segment: 05_COGNITIVE_ORGANISM/07_EMOTION_REGULATION
 artifact_kind: REGULATION
 path: 05_COGNITIVE_ORGANISM/07_EMOTION_REGULATION/BIOLOGICAL_EMOTION_REGULATION.md
 tags:
-- amos_os
+- amos-os
 - cognitive
 - organism
 - 05_cognitive_organism

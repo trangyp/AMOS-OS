@@ -3,7 +3,6 @@ title: 13 Models MOC
 type: moc
 source: 13_MODELS
 tags:
-- moc
 - 13-models
 - canon/model
 - models-model-contract

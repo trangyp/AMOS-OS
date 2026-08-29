@@ -3,7 +3,6 @@ title: 40 Lifecycle Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/40_LIFECYCLE_MODES
 tags:
-- moc
 - 40-lifecycle-modes
 - canon/control-plane
 - 09-commit-moc

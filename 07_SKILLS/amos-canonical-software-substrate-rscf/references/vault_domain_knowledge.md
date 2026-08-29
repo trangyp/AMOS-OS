@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-canonical-software-substrate-rscf/references
 tags:
 - reference
 - amos-canonical-software-substrate-rscf
-- canon/skill
+- type/skill
 - 2026-08-22-amos-obsidian-memory-bridge
 - references-moc
 - 00-home

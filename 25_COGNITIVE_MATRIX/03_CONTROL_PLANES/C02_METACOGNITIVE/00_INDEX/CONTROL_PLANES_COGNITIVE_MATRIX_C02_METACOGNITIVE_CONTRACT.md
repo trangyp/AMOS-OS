@@ -3,9 +3,9 @@ title: CONTROL PLANES COGNITIVE MATRIX C02 METACOGNITIVE CONTRACT
 type: control-plane
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C02_METACOGNITIVE/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - c02_metacognitive
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy

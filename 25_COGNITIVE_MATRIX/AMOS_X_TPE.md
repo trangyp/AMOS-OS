@@ -12,8 +12,8 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: ARTIFACT
 path: 25_COGNITIVE_MATRIX/AMOS_X_TPE.md
 tags:
-- amos_os
-- cognitive_matrix
+- amos-os
+- cognitive-matrix
 - 25_cognitive_matrix
 - artifact
 - tpe
@@ -37,7 +37,7 @@ tags:
 - psi
 - rscf
 - canon_candidate
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - 00-home
 - amos-rscf-nodes

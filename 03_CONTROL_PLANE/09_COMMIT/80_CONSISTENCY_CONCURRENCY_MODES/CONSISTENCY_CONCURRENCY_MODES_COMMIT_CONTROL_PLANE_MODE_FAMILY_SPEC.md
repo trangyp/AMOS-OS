@@ -3,7 +3,7 @@ title: CONSISTENCY CONCURRENCY MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/80_CONSISTENCY_CONCURRENCY_MODES
 tags:
-- control_plane
+- control-plane
 - 80_consistency_concurrency_modes
 - canon/control-plane
 - authz-engine-validation-receipt

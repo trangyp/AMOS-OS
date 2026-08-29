@@ -15,7 +15,7 @@ segment_name: 02_UNIVERSE_CANON
 artifact_kind: CANON_CONTRACT
 path: 01_CANON/02_UNIVERSE_CANON/CANON_UNIVERSE_CANON_CONTRACT.md
 tags:
-- amos_os
+- amos-os
 - canon
 - universe
 - universe_canon

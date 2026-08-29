@@ -3,7 +3,7 @@ title: INDEX TASK CONTRACT CONTROL PLANE README
 type: index
 source: 03_CONTROL_PLANE/01_TASK_CONTRACT/00_INDEX
 tags:
-- control_plane
+- control-plane
 - 00_index
 - canon/control-plane
 - readme

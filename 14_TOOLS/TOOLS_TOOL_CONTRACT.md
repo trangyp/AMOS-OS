@@ -3,7 +3,7 @@ title: TOOLS TOOL CONTRACT
 type: tool
 source: 14_TOOLS
 tags:
-- amos_os
+- amos-os
 - 14_tools
 - canon/tool
 - routing-policy-validation-receipt

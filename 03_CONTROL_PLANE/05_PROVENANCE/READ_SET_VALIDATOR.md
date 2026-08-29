@@ -3,8 +3,7 @@ title: READ SET VALIDATOR
 type: note
 source: 03_CONTROL_PLANE/05_PROVENANCE
 tags:
-- control_plane
-- read_set_validator.md
+- control-plane
 - canon/control-plane
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt

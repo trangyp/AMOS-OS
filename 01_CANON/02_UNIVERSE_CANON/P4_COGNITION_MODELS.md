@@ -12,7 +12,7 @@ segment: 01_CANON/02_UNIVERSE_CANON
 artifact_kind: UNIVERSE_PLANE
 path: 01_CANON/02_UNIVERSE_CANON/P4_COGNITION_MODELS.md
 tags:
-- amos_os
+- amos-os
 - canon
 - universe_canon
 - cognition

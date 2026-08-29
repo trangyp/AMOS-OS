@@ -3,7 +3,6 @@ title: 10 Custom MOC
 type: moc
 source: 21_DOMAINS/10_CUSTOM
 tags:
-- moc
 - 10-custom
 - canon/domain
 - custom-domains-domain-spec

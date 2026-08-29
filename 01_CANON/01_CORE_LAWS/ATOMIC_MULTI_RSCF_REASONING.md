@@ -12,7 +12,7 @@ segment: 01_CANON/01_CORE_LAWS
 artifact_kind: CORE_LAW_SPECIFICATION
 path: 01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF_REASONING.md
 tags:
-- amos_os
+- amos-os
 - canon
 - core_laws
 - rscf

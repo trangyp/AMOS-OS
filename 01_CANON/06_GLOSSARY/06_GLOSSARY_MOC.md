@@ -3,7 +3,6 @@ title: 06 Glossary MOC
 type: moc
 source: 01_CANON/06_GLOSSARY
 tags:
-- moc
 - 06-glossary
 - canon/universe
 - amos-framework-glossary

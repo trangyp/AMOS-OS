@@ -3,11 +3,11 @@ title: L03 PERCEPT FORMATION PRIMITIVES COGNITIVE MATRIX RSCF
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - primitives
 - l03_percept_formation
 - note
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - 00-home

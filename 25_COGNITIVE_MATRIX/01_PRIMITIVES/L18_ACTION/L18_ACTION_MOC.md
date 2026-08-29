@@ -3,9 +3,8 @@ title: L18 Action MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L18_ACTION
 tags:
-- moc
 - l18-action
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-l18-action-contract
 - 00-index-moc
 - 01-primitives-moc

@@ -3,11 +3,11 @@ title: COGNITIVE MATRIX O02 RELATION CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O02_RELATION
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - lifecycle_operations
 - o02_relation
 - contract
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - cognitive-matrix-moc

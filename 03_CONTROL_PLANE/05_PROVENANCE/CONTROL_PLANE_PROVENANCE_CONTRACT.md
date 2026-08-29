@@ -3,8 +3,7 @@ title: CONTROL PLANE PROVENANCE CONTRACT
 type: provenance
 source: 03_CONTROL_PLANE/05_PROVENANCE
 tags:
-- control_plane
-- control_plane_provenance_contract.md
+- control-plane
 - canon/control-plane
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt

@@ -3,9 +3,8 @@ title: References MOC — References — Mckinsey Public Sector Transformation R
 type: moc
 source: 07_SKILLS/mckinsey-public-sector-transformation-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

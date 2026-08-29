@@ -3,9 +3,8 @@ title: Amos-Skill-Builder MOC
 type: moc
 source: 07_SKILLS/amos-skill-builder
 tags:
-- moc
 - amos-skill-builder
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

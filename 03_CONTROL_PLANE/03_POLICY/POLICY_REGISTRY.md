@@ -3,7 +3,7 @@ title: POLICY REGISTRY
 type: registry
 source: 03_CONTROL_PLANE/03_POLICY
 tags:
-- control_plane
+- control-plane
 - policy
 - note
 - canon/control-plane

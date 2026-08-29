@@ -3,9 +3,8 @@ title: Amos-C10-Tech-Engineering-Master MOC
 type: moc
 source: 07_SKILLS/amos-c10-tech-engineering-master
 tags:
-- moc
 - amos-c10-tech-engineering-master
-- canon/skill
+- type/skill
 - agent-template
 - skill
 - references-moc

@@ -3,7 +3,7 @@ title: SOFTWARE DOMAINS DOMAIN SPEC
 type: note
 source: 21_DOMAINS/01_SOFTWARE
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - routing-policy-validation-receipt

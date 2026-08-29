@@ -3,9 +3,8 @@ title: References MOC — References — Amos Cross Architecture Tensor Engine
 type: moc
 source: 07_SKILLS/amos-cross-architecture-tensor-engine/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

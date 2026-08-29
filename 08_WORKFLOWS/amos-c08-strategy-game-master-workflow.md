@@ -11,12 +11,12 @@ Trigger: AMOS C08 Strategy & Game — MECE decomposition, hypothesis-first inves
 Version: 1.0.0
 tags:
 - type/workflow
-- canon/workflow
+- type/workflow
 - domain/strategy-game
-- rscf/source_claim
+- epistemic/source_claim
 - hml/m
 - epistemic/source_claim
-- amos_os
+- amos-os
 - 08-workflows-moc
 rscf:
   state: AMOS_MODEL

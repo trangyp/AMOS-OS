@@ -3,9 +3,8 @@ title: References MOC — References — Amos Knowledge Research Master
 type: moc
 source: 07_SKILLS/amos-knowledge-research-master/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - 11k-cosmo-brain-bridge-index
 - auto-extracted-archive-index
 - brain-router-detailed

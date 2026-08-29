@@ -3,7 +3,7 @@ title: RECOVERY DEGRADED MODES COMMIT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/13_RECOVERY_DEGRADED_MODES
 tags:
-- control_plane
+- control-plane
 - 13_recovery_degraded_modes
 - canon/control-plane
 - readme

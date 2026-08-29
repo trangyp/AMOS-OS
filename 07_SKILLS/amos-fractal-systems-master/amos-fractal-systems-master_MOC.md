@@ -3,9 +3,8 @@ title: Amos-Fractal-Systems-Master MOC
 type: moc
 source: 07_SKILLS/amos-fractal-systems-master
 tags:
-- moc
 - amos-fractal-systems-master
-- canon/skill
+- type/skill
 - agent-template
 - skill
 - references-moc

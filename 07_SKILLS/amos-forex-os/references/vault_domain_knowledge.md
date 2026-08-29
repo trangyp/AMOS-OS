@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-forex-os/references
 tags:
 - reference
 - amos-forex-os
-- canon/skill
+- type/skill
 - amos-forex-os-moc
 - 00-home
 - amos-rscf-nodes

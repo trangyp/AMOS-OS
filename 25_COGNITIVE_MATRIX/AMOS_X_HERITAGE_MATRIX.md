@@ -3,8 +3,8 @@ title: AMOS × Heritage Matrix
 type: heritage
 source: 25_COGNITIVE_MATRIX
 tags:
-- amos_os
-- cognitive_matrix
+- amos-os
+- cognitive-matrix
 - matrix
 - 25_cognitive_matrix
 - heritage
@@ -15,7 +15,7 @@ tags:
 - regime_detection
 - provenance
 - rscf
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - 00-home

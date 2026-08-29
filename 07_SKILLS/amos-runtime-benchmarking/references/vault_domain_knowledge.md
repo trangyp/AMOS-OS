@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-runtime-benchmarking/references
 tags:
 - reference
 - amos-runtime-benchmarking
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

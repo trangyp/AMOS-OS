@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-entropy-lacunarity-governor/references
 tags:
 - reference
 - amos-entropy-lacunarity-governor
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

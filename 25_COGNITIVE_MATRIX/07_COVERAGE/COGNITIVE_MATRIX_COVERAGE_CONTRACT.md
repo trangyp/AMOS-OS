@@ -3,9 +3,8 @@ title: COGNITIVE MATRIX COVERAGE CONTRACT
 type: coverage
 source: 25_COGNITIVE_MATRIX/07_COVERAGE
 tags:
-- cognitive_matrix
-- cognitive_matrix_coverage_contract.md
-- canon/cognitive-matrix
+- cognitive-matrix
+- domain/cognitive-matrix
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy

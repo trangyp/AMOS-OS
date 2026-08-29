@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-interprocedural-callgraph-rscf/references
 tags:
 - reference
 - amos-interprocedural-callgraph-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

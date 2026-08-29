@@ -3,9 +3,9 @@ title: INDEX L22 CONSOLIDATION PRIMITIVES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L22_CONSOLIDATION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l22_consolidation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - l22-consolidation-map
 - 00-home

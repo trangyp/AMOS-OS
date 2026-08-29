@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-gradient-rscf-architecture/references
 tags:
 - reference
 - amos-gradient-rscf-architecture
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

@@ -3,9 +3,9 @@ title: INDEX SCALES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/04_SCALES/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - 00_index
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - scales-cognitive-matrix-scales-contract
 - scales-map

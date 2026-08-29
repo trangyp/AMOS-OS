@@ -3,9 +3,8 @@ title: References MOC — References — Amos Direct Corpus Search Rscf
 type: moc
 source: 07_SKILLS/amos-direct-corpus-search-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-direct-corpus-search-rscf-moc
 - 00-home

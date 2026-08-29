@@ -3,9 +3,8 @@ title: References MOC — References — Amos C08 Strategy Game Master
 type: moc
 source: 07_SKILLS/amos-c08-strategy-game-master/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - architecture-of-war
 - architecture-of-war-and-peace
 - c08-strategy-game-super

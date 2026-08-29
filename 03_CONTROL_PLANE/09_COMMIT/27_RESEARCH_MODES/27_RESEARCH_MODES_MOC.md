@@ -3,7 +3,6 @@ title: 27 Research Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/27_RESEARCH_MODES
 tags:
-- moc
 - 27-research-modes
 - canon/control-plane
 - 09-commit-moc

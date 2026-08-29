@@ -12,8 +12,8 @@ segment: 03_CONTROL_PLANE/12_ROLLBACK
 artifact_kind: LINEAGE
 path: 03_CONTROL_PLANE/12_ROLLBACK/FRAMEWORK_LINEAGE_ROLLBACK.md
 tags:
-- amos_os
-- control_plane
+- amos-os
+- control-plane
 - governance
 - 03_control_plane
 - lineage

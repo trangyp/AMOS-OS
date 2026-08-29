@@ -3,9 +3,8 @@ title: O02 Relation MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O02_RELATION
 tags:
-- moc
 - o02-relation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-o02-relation-contract
 - 00-index-moc
 - 02-lifecycle-operations-moc

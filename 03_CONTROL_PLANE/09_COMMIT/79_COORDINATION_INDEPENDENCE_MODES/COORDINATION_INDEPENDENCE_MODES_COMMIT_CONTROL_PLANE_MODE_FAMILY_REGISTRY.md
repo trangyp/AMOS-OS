@@ -3,7 +3,7 @@ title: COORDINATION INDEPENDENCE MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/79_COORDINATION_INDEPENDENCE_MODES
 tags:
-- control_plane
+- control-plane
 - 79_coordination_independence_modes
 - canon/control-plane
 - authz-engine-validation-receipt

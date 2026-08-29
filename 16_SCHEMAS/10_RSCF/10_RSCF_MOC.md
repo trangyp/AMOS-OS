@@ -3,7 +3,6 @@ title: 10 Rscf MOC
 type: moc
 source: 16_SCHEMAS/10_RSCF
 tags:
-- moc
 - 10-rscf
 - canon/schema
 - causal-epochschema

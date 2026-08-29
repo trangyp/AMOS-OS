@@ -3,9 +3,8 @@ title: Amos-Arxiv-Spatial-Speech-Perception-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-arxiv-spatial-speech-perception-rscf
 tags:
-- moc
 - amos-arxiv-spatial-speech-perception-rsc
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

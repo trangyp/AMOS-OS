@@ -3,9 +3,8 @@ title: M Mid Scale MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/04_SCALES/M_MID_SCALE
 tags:
-- moc
 - m-mid-scale
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-boundaries
 - cognitive-matrix-m-mid-scale-contract
 - cognitive-matrix-semantics

@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-counterfactual-reasoning-governor/references
 tags:
 - reference
 - amos-counterfactual-reasoning-governor
-- canon/skill
+- type/skill
 - references-moc
 - 00-home
 - amos-rscf-nodes

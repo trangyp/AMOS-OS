@@ -3,9 +3,8 @@ title: References MOC — References — Amos Contravariance Alignment Rscf Engi
 type: moc
 source: 07_SKILLS/amos-contravariance-alignment-rscf-engine/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - equations-docs
 - 00-home
 - amos-rscf-nodes

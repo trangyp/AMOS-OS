@@ -3,9 +3,8 @@ title: References MOC — References — Amos Sae Semantic Transport Rscf Engine
 type: moc
 source: 07_SKILLS/amos-sae-semantic-transport-rscf-engine/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

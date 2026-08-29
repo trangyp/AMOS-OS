@@ -3,9 +3,8 @@ title: Amos-Semantic-Grounding-Auditor MOC
 type: moc
 source: 07_SKILLS/amos-semantic-grounding-auditor
 tags:
-- moc
 - amos-semantic-grounding-auditor
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

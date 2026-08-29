@@ -3,9 +3,8 @@ title: References MOC — References — Amos Learning Memory Knowledge Feedback
 type: moc
 source: 07_SKILLS/amos-learning-memory-knowledge-feedback-governor/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - 11k-learning-memory-knowledge-governor
 - ai-learning
 - mvp-ai-roleplay-language-learning

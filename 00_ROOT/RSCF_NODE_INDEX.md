@@ -12,8 +12,7 @@ origin_architect: Trang Phan
 rscf_state: derived
 status: ACTIVE_MOC
 tags:
-- moc
-- amos_os
+- amos-os
 - root
 - rscf
 - index

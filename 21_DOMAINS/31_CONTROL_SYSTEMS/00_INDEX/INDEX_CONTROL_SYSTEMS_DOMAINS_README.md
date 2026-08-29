@@ -3,7 +3,7 @@ title: INDEX CONTROL SYSTEMS DOMAINS README
 type: index
 source: 21_DOMAINS/31_CONTROL_SYSTEMS/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - readme

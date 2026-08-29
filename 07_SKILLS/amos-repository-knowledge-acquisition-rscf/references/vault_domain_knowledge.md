@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-repository-knowledge-acquisition-rscf/references
 tags:
 - reference
 - amos-repository-knowledge-acquisition-rscf
-- canon/skill
+- type/skill
 - 00-home
 - amos-rscf-nodes
 - law-hierarchy

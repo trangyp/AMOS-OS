@@ -12,7 +12,7 @@ segment: 00_ROOT
 artifact_kind: BINDING
 path: 00_ROOT/COSMO_BRAIN_AMOS_OS_MASTER_BINDING.md
 tags:
-- amos_os
+- amos-os
 - root
 - index
 - 00_root

@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-verification-aware-implementation-diversity-rscf/referenc
 tags:
 - reference
 - amos-verification-aware-implementation-diversity-rscf
-- canon/skill
+- type/skill
 - architecture
 - memory
 - references-moc

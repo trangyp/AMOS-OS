@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-security-safety-master/references
 tags:
 - reference
 - amos-security-safety-master
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

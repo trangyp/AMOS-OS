@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-principal-trust-governance-rscf/references
 tags:
 - reference
 - amos-principal-trust-governance-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

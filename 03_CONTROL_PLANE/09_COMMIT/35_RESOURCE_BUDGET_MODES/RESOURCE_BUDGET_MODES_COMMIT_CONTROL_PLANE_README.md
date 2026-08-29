@@ -3,7 +3,7 @@ title: RESOURCE BUDGET MODES COMMIT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/35_RESOURCE_BUDGET_MODES
 tags:
-- control_plane
+- control-plane
 - 35_resource_budget_modes
 - canon/control-plane
 - readme

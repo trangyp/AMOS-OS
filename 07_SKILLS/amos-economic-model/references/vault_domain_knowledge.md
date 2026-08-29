@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-economic-model/references
 tags:
 - reference
 - amos-economic-model
-- canon/skill
+- type/skill
 - ratpak
 - references-moc
 - 07-skills-moc

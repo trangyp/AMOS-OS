@@ -3,11 +3,11 @@ title: COGNITIVE MATRIX L21 LEARNING CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L21_LEARNING
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - primitives
 - l21_learning
 - contract
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - cognitive-matrix-moc

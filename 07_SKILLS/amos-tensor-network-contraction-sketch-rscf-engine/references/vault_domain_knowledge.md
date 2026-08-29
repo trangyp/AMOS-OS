@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-tensor-network-contraction-sketch-rscf-engine/references
 tags:
 - reference
 - amos-tensor-network-contraction-sketch-rscf-engine
-- canon/skill
+- type/skill
 - architecture
 - references-moc
 - 07-skills-moc

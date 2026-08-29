@@ -5,7 +5,7 @@ source: 07_SKILLS/gmef-governance/references
 tags:
 - reference
 - gmef-governance
-- canon/skill
+- type/skill
 - 00-home
 - knowledge-moc
 - references-moc

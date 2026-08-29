@@ -14,15 +14,14 @@ path: 25_COGNITIVE_MATRIX/10_ROUTING/ROUTING_COGNITIVE_MATRIX_README.md
 tags:
 - 10_routing
 - 25_cognitive_matrix
-- amos_os
-- canon/cognitive-matrix
+- amos-os
+- domain/cognitive-matrix
 - canon/universe
 - cognitive
-- cognitive_matrix
+- cognitive-matrix
 - matrix
 - readme
 - routing
-- routing_cognitive_matrix_readme.md
 - rscf
 - placeholder_expanded
 - 00-root-moc

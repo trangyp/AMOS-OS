@@ -3,9 +3,8 @@ title: Amos-Information-Collapse-Topology MOC
 type: moc
 source: 07_SKILLS/amos-information-collapse-topology
 tags:
-- moc
 - amos-information-collapse-topology
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

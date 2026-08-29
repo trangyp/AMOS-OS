@@ -12,8 +12,8 @@ segment: 03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION
 artifact_kind: CANON
 path: 03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION/CANON_SEMANTIC_TRANSACTION.md
 tags:
-- amos_os
-- control_plane
+- amos-os
+- control-plane
 - governance
 - 03_control_plane
 - canon

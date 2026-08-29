@@ -3,9 +3,8 @@ title: Amos-Design-Visual-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-design-visual-rscf-engine
 tags:
-- moc
 - amos-design-visual-rscf-engine
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

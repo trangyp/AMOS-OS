@@ -3,7 +3,6 @@ title: 04 State MOC
 type: moc
 source: 02_KERNEL/04_STATE
 tags:
-- moc
 - 04-state
 - canon/kernel
 - kernel-state-contract

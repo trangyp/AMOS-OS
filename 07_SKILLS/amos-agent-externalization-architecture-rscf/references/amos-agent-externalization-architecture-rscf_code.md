@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-agent-externalization-architecture-rscf/references
 tags:
 - reference
 - amos-agent-externalization-architecture-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

@@ -3,8 +3,7 @@ title: TASK CONTRACT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/01_TASK_CONTRACT
 tags:
-- control_plane
-- task_contract_control_plane_readme.md
+- control-plane
 - canon/control-plane
 - readme
 - task-contract

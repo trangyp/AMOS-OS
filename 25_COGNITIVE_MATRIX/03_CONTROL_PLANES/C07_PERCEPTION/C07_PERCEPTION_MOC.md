@@ -3,9 +3,8 @@ title: C07 Perception MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C07_PERCEPTION
 tags:
-- moc
 - c07-perception
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-c07-perception-contract
 - 00-index-moc
 - 03-control-planes-moc

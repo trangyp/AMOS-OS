@@ -3,7 +3,6 @@ title: 06 World Model MOC
 type: moc
 source: 05_COGNITIVE_ORGANISM/06_WORLD_MODEL
 tags:
-- moc
 - 06-world-model
 - canon/cognitive
 - trang-reality-architecture-binding

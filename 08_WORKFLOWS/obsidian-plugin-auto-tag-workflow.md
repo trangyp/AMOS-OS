@@ -8,7 +8,7 @@ title: Obsidian Plugin Auto Tag
 tags:
 - type/workflow
 - domain/knowledge_research
-- amos_os
+- amos-os
 ---
 
 # Obsidian Plugin Auto Tag

@@ -3,9 +3,8 @@ title: Amos-Formal-Model-Checking-Orchestrator-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-formal-model-checking-orchestrator-rscf
 tags:
-- moc
 - amos-formal-model-checking-orchestrator-
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

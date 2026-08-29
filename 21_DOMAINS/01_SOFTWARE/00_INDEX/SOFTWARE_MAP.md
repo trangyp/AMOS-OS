@@ -3,7 +3,7 @@ title: SOFTWARE MAP
 type: map
 source: 21_DOMAINS/01_SOFTWARE/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - index-software-domains-readme

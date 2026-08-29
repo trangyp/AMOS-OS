@@ -3,9 +3,8 @@ title: Amos-Agent-Externalization-Architecture-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-agent-externalization-architecture-rscf
 tags:
-- moc
 - amos-agent-externalization-architecture-
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

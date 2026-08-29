@@ -3,9 +3,8 @@ title: Amos-Biology-Quantum-Bridge-Governor MOC
 type: moc
 source: 07_SKILLS/amos-biology-quantum-bridge-governor
 tags:
-- moc
 - amos-biology-quantum-bridge-governor
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

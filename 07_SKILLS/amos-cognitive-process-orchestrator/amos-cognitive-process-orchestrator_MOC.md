@@ -3,9 +3,8 @@ title: Amos-Cognitive-Process-Orchestrator MOC
 type: moc
 source: 07_SKILLS/amos-cognitive-process-orchestrator
 tags:
-- moc
 - amos-cognitive-process-orchestrator
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

@@ -3,7 +3,7 @@ title: DOMAINS ENGINEERING MATH CONTRACT
 type: math
 source: 21_DOMAINS/28_ENGINEERING_MATH
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - routing-policy-validation-receipt

@@ -5,7 +5,7 @@ source: 07_SKILLS/mckinsey-recruiting-workforce-acquisition-rscf/references
 tags:
 - reference
 - mckinsey-recruiting-workforce-acquisition-rscf
-- canon/skill
+- type/skill
 - ratpak
 - references-moc
 - 07-skills-moc

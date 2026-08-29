@@ -27,7 +27,7 @@ scope:
   - govern
 tags:
 - amos
-- amos_os
+- amos-os
 - root
 - amos-os
 - architecture

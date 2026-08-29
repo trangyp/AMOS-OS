@@ -5,7 +5,7 @@ source: 11_KNOWLEDGE/LLM_WIKI
 tags:
 - synthesis
 - llm-wiki
-- amos_os
+- amos-os
 - llm-wiki-index
 - amos-llm-wiki
 - llm-wiki-moc

@@ -5,7 +5,7 @@ source: 07_SKILLS/arxiv-flow-matching-generative-rscf/references
 tags:
 - reference
 - arxiv-flow-matching-generative-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

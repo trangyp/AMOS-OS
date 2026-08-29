@@ -3,9 +3,8 @@ title: Amos-Symbolic-Translation-Repair-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-symbolic-translation-repair-rscf
 tags:
-- moc
 - amos-symbolic-translation-repair-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

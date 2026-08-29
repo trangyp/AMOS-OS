@@ -4344,9 +4344,9 @@ $$
 * [[00_HOME]]
 * [[KNOWLEDGE_MOC]]
 * [[AMOS_RSCF_NODES]]
-* [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]]
-* [[SYSTEM_SCAN_AGENT]]
-* [[AUTOMATION_PROFILES]]
+* [[AMOS_SIMULATION_KERNEL]]
+* [[SYSTEM_SCAN_ENGINE]]
+* [[automation_profiles]]
 
 ---
 
@@ -4374,3 +4374,4 @@ claim_class: AMOS_MODEL
 ---
 
 **MOC:** [[trang_MOC]]
+```

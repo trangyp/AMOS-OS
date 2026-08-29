@@ -3,8 +3,7 @@ title: CONTROL PLANE EXPOSURE CONTRACT
 type: control-plane
 source: 03_CONTROL_PLANE/10_EXPOSURE
 tags:
-- control_plane
-- control_plane_exposure_contract.md
+- control-plane
 - canon/control-plane
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt

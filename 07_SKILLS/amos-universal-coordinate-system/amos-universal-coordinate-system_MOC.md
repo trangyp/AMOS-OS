@@ -3,9 +3,8 @@ title: Amos-Universal-Coordinate-System MOC
 type: moc
 source: 07_SKILLS/amos-universal-coordinate-system
 tags:
-- moc
 - amos-universal-coordinate-system
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

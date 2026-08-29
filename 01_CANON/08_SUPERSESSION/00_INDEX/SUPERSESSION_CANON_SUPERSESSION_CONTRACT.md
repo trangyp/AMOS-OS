@@ -3,7 +3,7 @@ title: SUPERSESSION CANON SUPERSESSION CONTRACT
 type: canon
 source: 01_CANON/08_SUPERSESSION/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 01_canon
 - canon/universe
 - routing-policy-validation-receipt

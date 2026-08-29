@@ -12,7 +12,7 @@ segment: 01_CANON/04_INFRASTRUCTURE_CANON
 artifact_kind: ARCHITECTURE
 path: 01_CANON/04_INFRASTRUCTURE_CANON/AMOS_INFRASTRUCTURE_ARCHITECTURE.md
 tags:
-- amos_os
+- amos-os
 - canon
 - universe
 - 01_canon

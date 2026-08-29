@@ -3,7 +3,7 @@ title: KERNEL KERNEL CONTRACT
 type: kernel
 source: 02_KERNEL
 tags:
-- amos_os
+- amos-os
 - 02_kernel
 - canon/kernel
 - routing-policy-validation-receipt

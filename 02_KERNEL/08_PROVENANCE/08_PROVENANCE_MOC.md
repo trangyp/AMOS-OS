@@ -3,7 +3,6 @@ title: 08 Provenance MOC
 type: moc
 source: 02_KERNEL/08_PROVENANCE
 tags:
-- moc
 - 08-provenance
 - canon/kernel
 - kernel-provenance-contract

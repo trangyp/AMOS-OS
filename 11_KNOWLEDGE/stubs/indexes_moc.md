@@ -3,7 +3,6 @@ title: indexes moc
 tags:
 - stub
 - indexes
-- moc
 - indexes-moc
 - kernel-moc
 - 00-home

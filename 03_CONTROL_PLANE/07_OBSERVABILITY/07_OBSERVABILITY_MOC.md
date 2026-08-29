@@ -3,7 +3,6 @@ title: 07 Observability MOC
 type: moc
 source: 03_CONTROL_PLANE/07_OBSERVABILITY
 tags:
-- moc
 - 07-observability
 - canon/control-plane
 - blind-spot-registry

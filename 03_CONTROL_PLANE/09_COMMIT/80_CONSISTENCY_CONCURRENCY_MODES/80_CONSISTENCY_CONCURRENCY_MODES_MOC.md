@@ -3,7 +3,6 @@ title: 80 Consistency Concurrency Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/80_CONSISTENCY_CONCURRENCY_MODES
 tags:
-- moc
 - 80-consistency-concurrency-modes
 - canon/control-plane
 - 09-commit-moc

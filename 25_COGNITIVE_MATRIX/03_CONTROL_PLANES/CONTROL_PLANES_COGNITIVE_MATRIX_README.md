@@ -3,10 +3,10 @@ title: CONTROL PLANES COGNITIVE MATRIX README
 type: control-plane
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - matrix
 - cognition
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - cognitive-matrix-control-planes-contract
 - routing-policy-validation-receipt

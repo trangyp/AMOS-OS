@@ -3,9 +3,9 @@ title: INDEX O09 SIMULATION LIFECYCLE OPERATIONS COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O09_SIMULATION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - o09_simulation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - o09-simulation-map
 - 00-home

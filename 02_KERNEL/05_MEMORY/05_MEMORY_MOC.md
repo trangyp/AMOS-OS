@@ -3,7 +3,6 @@ title: 05 Memory MOC
 type: moc
 source: 02_KERNEL/05_MEMORY
 tags:
-- moc
 - 05-memory
 - canon/kernel
 - kernel-memory-contract

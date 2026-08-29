@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-representation-aware-bug-localization-rscf/references
 tags:
 - reference
 - amos-representation-aware-bug-localization-rscf
-- canon/skill
+- type/skill
 - cosmo-brain-moc
 - references-moc
 - 00-home

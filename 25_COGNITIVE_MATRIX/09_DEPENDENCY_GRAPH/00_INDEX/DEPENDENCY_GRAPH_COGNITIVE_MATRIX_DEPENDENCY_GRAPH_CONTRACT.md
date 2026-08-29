@@ -3,9 +3,9 @@ title: DEPENDENCY GRAPH COGNITIVE MATRIX DEPENDENCY GRAPH CONTRACT
 type: dependency
 source: 25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - 00_index
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy

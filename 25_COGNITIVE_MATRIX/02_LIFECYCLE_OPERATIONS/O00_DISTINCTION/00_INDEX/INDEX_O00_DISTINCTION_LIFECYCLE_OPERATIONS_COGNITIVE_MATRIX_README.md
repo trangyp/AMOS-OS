@@ -3,9 +3,9 @@ title: INDEX O00 DISTINCTION LIFECYCLE OPERATIONS COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O00_DISTINCTION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - o00_distinction
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - o00-distinction-map
 - 00-home

@@ -3,9 +3,9 @@ title: INDEX O08 PREDICTION LIFECYCLE OPERATIONS COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O08_PREDICTION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - o08_prediction
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - o08-prediction-map
 - 00-home

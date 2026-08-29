@@ -3,7 +3,7 @@ title: KERNEL CAUSAL CONTRACT
 type: kernel
 source: 02_KERNEL/03_CAUSAL
 tags:
-- amos_os
+- amos-os
 - 02_kernel
 - canon/kernel
 - routing-policy-validation-receipt

@@ -3,9 +3,8 @@ title: Amos-Arxiv-Ttstack-Sketching-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-arxiv-ttstack-sketching-rscf-engine
 tags:
-- moc
 - amos-arxiv-ttstack-sketching-rscf-engine
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

@@ -3,9 +3,8 @@ title: References MOC — References — Amos C06 Society Culture Master
 type: moc
 source: 07_SKILLS/amos-c06-society-culture-master/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - cci-official-manual
 - china-engines-model
 - cultural-bifurcation-emotion-logic

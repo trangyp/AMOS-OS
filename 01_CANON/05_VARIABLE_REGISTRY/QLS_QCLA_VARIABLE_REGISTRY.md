@@ -12,7 +12,7 @@ segment: 01_CANON/05_VARIABLE_REGISTRY
 artifact_kind: REGISTRY
 path: 01_CANON/05_VARIABLE_REGISTRY/QLS_QCLA_VARIABLE_REGISTRY.md
 tags:
-- amos_os
+- amos-os
 - canon
 - universe
 - 01_canon

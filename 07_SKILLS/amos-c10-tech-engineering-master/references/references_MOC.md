@@ -3,9 +3,8 @@ title: References MOC — References — Amos C10 Tech Engineering Master
 type: moc
 source: 07_SKILLS/amos-c10-tech-engineering-master/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - 11k-architecture-decision-record
 - 11k-component-map
 - architecture-of-architecture

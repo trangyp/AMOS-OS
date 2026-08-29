@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-fx-typed-tensor-contract-rscf-engine/references
 tags:
 - reference
 - amos-fx-typed-tensor-contract-rscf-engine
-- canon/skill
+- type/skill
 - architecture
 - references-moc
 - 07-skills-moc

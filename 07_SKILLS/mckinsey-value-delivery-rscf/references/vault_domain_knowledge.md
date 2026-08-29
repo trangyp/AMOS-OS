@@ -5,7 +5,7 @@ source: 07_SKILLS/mckinsey-value-delivery-rscf/references
 tags:
 - reference
 - mckinsey-value-delivery-rscf
-- canon/skill
+- type/skill
 - architecture
 - ratpak
 - references-moc

@@ -3,7 +3,6 @@ title: 21 Simulation Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/21_SIMULATION_MODES
 tags:
-- moc
 - 21-simulation-modes
 - canon/control-plane
 - 09-commit-moc

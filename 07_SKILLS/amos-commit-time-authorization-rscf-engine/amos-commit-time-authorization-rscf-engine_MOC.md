@@ -3,9 +3,8 @@ title: Amos-Commit-Time-Authorization-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-commit-time-authorization-rscf-engine
 tags:
-- moc
 - amos-commit-time-authorization-rscf-engi
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

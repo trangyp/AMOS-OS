@@ -3,9 +3,8 @@ title: References MOC — References — Amos Sae Benchmark Reliability Rscf Eng
 type: moc
 source: 07_SKILLS/amos-sae-benchmark-reliability-rscf-engine/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - asymptotic-transcendence
 - 00-home
 - amos-rscf-nodes

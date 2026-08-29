@@ -14,13 +14,12 @@ path: 01_CANON/01_CORE_LAWS/RULE_OF_2_CANON.md
 tags:
 - 01_canon
 - 01_core_laws
-- amos_os
+- amos-os
 - canon
 - canon/universe
 - canon_placeholder
 - rscf
 - rule
-- rule_of_2_canon.md
 - universe
 - placeholder_expanded
 - routing-policy-validation-receipt

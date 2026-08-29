@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-formal-engines-master/references
 tags:
 - reference
 - amos-formal-engines-master
-- canon/skill
+- type/skill
 - skill
 - amos-moc
 - 00-home

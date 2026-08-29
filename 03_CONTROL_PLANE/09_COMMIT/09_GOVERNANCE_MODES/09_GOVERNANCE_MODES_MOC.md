@@ -3,7 +3,6 @@ title: 09 Governance Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/09_GOVERNANCE_MODES
 tags:
-- moc
 - 09-governance-modes
 - canon/control-plane
 - 09-commit-moc

@@ -3,7 +3,6 @@ title: reports moc
 tags:
 - stub
 - reports
-- moc
 - reports-moc
 - kernel-moc
 - 00-home

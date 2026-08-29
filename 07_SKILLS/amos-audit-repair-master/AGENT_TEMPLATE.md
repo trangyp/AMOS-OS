@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-audit-repair-master
 tags:
 - note
 - amos-audit-repair-master
-- canon/skill
+- type/skill
 - skill
 - amos-audit-repair-master-moc
 rscf:

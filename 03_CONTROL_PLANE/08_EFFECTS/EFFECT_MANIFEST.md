@@ -3,8 +3,7 @@ title: EFFECT MANIFEST
 type: manifest
 source: 03_CONTROL_PLANE/08_EFFECTS
 tags:
-- control_plane
-- effect_manifest.md
+- control-plane
 - canon/control-plane
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt

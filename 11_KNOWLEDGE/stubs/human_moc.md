@@ -3,7 +3,6 @@ title: human moc
 tags:
 - stub
 - human
-- moc
 - human-moc
 - kernel-moc
 - 00-home

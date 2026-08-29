@@ -3,7 +3,7 @@ title: ROLLBACK CONTROL PLANE ROLLBACK CONTRACT
 type: control-plane
 source: 03_CONTROL_PLANE/12_ROLLBACK/00_INDEX
 tags:
-- control_plane
+- control-plane
 - 00_index
 - canon/control-plane
 - routing-policy-validation-receipt

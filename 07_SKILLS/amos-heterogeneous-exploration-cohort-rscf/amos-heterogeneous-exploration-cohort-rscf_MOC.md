@@ -3,9 +3,8 @@ title: Amos-Heterogeneous-Exploration-Cohort-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-heterogeneous-exploration-cohort-rscf
 tags:
-- moc
 - amos-heterogeneous-exploration-cohort-rs
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

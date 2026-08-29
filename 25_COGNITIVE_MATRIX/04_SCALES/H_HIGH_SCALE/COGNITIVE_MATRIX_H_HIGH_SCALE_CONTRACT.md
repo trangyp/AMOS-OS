@@ -3,11 +3,11 @@ title: COGNITIVE MATRIX H HIGH SCALE CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/04_SCALES/H_HIGH_SCALE
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - scales
 - h_high_scale
 - contract
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - hml-canon

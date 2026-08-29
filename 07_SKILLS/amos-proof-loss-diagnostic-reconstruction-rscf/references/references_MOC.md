@@ -3,9 +3,8 @@ title: References MOC — References — Amos Proof Loss Diagnostic Reconstructi
 type: moc
 source: 07_SKILLS/amos-proof-loss-diagnostic-reconstruction-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

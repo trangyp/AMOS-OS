@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-security-safety-master/references
 tags:
 - reference
 - amos-security-safety-master
-- canon/skill
+- type/skill
 - cosmo-brain-moc
 - references-moc
 - 00-home

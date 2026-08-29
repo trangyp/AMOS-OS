@@ -12,7 +12,7 @@ segment: 21_DOMAINS/05_DESIGN
 artifact_kind: DOMAIN_DESIGN
 path: 21_DOMAINS/05_DESIGN/BIO_LOGICAL_ARCHITECTURE_DESIGN.md
 tags:
-- amos_os
+- amos-os
 - domain
 - vault
 - 21_domains

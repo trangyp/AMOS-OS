@@ -12,7 +12,7 @@ segment: 00_ROOT
 artifact_kind: PROVENANCE
 path: 00_ROOT/AMOS_TOTAL_PROVENANCE_GRAPH.md
 tags:
-- amos_os
+- amos-os
 - root
 - index
 - 00_root

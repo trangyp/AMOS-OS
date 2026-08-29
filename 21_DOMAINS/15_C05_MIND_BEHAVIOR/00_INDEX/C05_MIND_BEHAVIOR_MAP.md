@@ -3,7 +3,7 @@ title: C05 MIND BEHAVIOR MAP
 type: map
 source: 21_DOMAINS/15_C05_MIND_BEHAVIOR/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - index-c05-mind-behavior-domains-readme

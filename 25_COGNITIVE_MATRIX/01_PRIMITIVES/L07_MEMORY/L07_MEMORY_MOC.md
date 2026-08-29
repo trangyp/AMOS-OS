@@ -3,9 +3,8 @@ title: L07 Memory MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L07_MEMORY
 tags:
-- moc
 - l07-memory
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-l07-memory-contract
 - 00-index-moc
 - 01-primitives-moc

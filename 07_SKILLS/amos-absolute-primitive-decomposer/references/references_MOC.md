@@ -3,9 +3,8 @@ title: References MOC — References — Amos Absolute Primitive Decomposer
 type: moc
 source: 07_SKILLS/amos-absolute-primitive-decomposer/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-absolute-primitive-decomposer-moc
 - 00-home

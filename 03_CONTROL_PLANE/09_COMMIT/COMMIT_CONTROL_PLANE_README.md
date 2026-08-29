@@ -3,8 +3,7 @@ title: COMMIT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT
 tags:
-- control_plane
-- commit_control_plane_readme.md
+- control-plane
 - canon/control-plane
 - readme
 - control-plane-commit-contract

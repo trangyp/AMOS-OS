@@ -3,9 +3,8 @@ title: References MOC — References — Amos Unreachable Semantics Rscf
 type: moc
 source: 07_SKILLS/amos-unreachable-semantics-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-unreachable-semantics-rscf-moc
 - 00-home

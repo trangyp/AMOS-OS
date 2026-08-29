@@ -3,11 +3,11 @@ title: COGNITIVE MATRIX O08 PREDICTION CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O08_PREDICTION
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - lifecycle_operations
 - o08_prediction
 - contract
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - cognitive-matrix-moc

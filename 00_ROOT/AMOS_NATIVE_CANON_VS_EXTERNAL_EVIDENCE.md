@@ -12,7 +12,7 @@ segment: 00_ROOT
 artifact_kind: CANON
 path: 00_ROOT/AMOS_NATIVE_CANON_VS_EXTERNAL_EVIDENCE.md
 tags:
-- amos_os
+- amos-os
 - root
 - index
 - 00_root

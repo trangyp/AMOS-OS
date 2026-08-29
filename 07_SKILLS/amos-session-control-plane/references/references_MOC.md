@@ -3,9 +3,8 @@ title: References MOC — References — Amos Session Control Plane
 type: moc
 source: 07_SKILLS/amos-session-control-plane/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-session-control-plane-moc
 - 00-home

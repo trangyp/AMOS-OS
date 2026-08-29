@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-reality-simulation-distinction/references
 tags:
 - reference
 - amos-reality-simulation-distinction
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

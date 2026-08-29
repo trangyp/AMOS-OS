@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-fx-tensor-train-greeks-rscf-engine/references
 tags:
 - reference
 - amos-fx-tensor-train-greeks-rscf-engine
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

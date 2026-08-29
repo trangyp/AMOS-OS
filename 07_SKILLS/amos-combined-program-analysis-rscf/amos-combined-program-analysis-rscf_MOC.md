@@ -3,9 +3,8 @@ title: Amos-Combined-Program-Analysis-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-combined-program-analysis-rscf
 tags:
-- moc
 - amos-combined-program-analysis-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-ontology-compiler/references
 tags:
 - reference
 - amos-ontology-compiler
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

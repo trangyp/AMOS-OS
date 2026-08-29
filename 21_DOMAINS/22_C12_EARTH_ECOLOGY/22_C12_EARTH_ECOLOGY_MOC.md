@@ -3,7 +3,6 @@ title: 22 C12 Earth Ecology MOC
 type: moc
 source: 21_DOMAINS/22_C12_EARTH_ECOLOGY
 tags:
-- moc
 - 22-c12-earth-ecology
 - canon/domain
 - c12-earth-ecology-domains-domain-spec

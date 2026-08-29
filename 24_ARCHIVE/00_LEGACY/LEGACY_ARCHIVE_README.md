@@ -3,7 +3,7 @@ title: LEGACY ARCHIVE README
 type: legacy
 source: 24_ARCHIVE/00_LEGACY
 tags:
-- amos_os
+- amos-os
 - 24_archive
 - canon/archive
 - readme

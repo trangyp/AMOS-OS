@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-repair-allocation-optimizer/references
 tags:
 - reference
 - amos-repair-allocation-optimizer
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

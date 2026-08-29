@@ -5,7 +5,7 @@ source: 07_SKILLS/mckinsey-purpose-impact-rscf/references
 tags:
 - reference
 - mckinsey-purpose-impact-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

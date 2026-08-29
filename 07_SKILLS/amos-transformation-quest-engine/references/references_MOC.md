@@ -3,9 +3,8 @@ title: References MOC — References — Amos Transformation Quest Engine
 type: moc
 source: 07_SKILLS/amos-transformation-quest-engine/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-transformation-quest-engine-moc
 - 00-home

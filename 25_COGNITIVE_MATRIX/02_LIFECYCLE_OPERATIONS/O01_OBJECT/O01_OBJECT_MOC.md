@@ -3,9 +3,8 @@ title: O01 Object MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O01_OBJECT
 tags:
-- moc
 - o01-object
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-o01-object-contract
 - 00-index-moc
 - 02-lifecycle-operations-moc

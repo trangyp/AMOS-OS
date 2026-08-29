@@ -3,7 +3,6 @@ title: 00 Legacy MOC
 type: moc
 source: 24_ARCHIVE/00_LEGACY
 tags:
-- moc
 - 00-legacy
 - canon/archive
 - amos-core-historical-index

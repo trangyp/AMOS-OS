@@ -12,15 +12,15 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX_TABLE
 path: 25_COGNITIVE_MATRIX/CORE_X_CONTROL_PLANE_MATRIX.md
 tags:
-- amos_os
-- cognitive_matrix
+- amos-os
+- cognitive-matrix
 - vault
 - 25_cognitive_matrix
 - core_x_control_plane_matrix
 - matrix_table
 - cross_plane
 - routing_matrix
-- control_plane
+- control-plane
 - canon_plane
 - authority_envelopes
 - control_harnesses
@@ -56,7 +56,7 @@ tags:
 - 01-canon-moc
 - 03-control-plane-moc
 - canon
-- l0-integrity
+- law/L0-integrity
 - 00-home
 - amos-rscf-nodes
 - task-contract

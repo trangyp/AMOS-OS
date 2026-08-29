@@ -3,7 +3,6 @@ title: 03 Rscf MOC
 type: moc
 source: 11_KNOWLEDGE/03_RSCF
 tags:
-- moc
 - 03-rscf
 - canon/knowledge
 - amos-rscf-index

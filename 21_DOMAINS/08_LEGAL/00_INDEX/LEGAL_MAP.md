@@ -3,7 +3,7 @@ title: LEGAL MAP
 type: map
 source: 21_DOMAINS/08_LEGAL/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - index-legal-domains-readme

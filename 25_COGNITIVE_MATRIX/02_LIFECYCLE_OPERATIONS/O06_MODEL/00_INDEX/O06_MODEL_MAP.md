@@ -3,9 +3,9 @@ title: O06 MODEL MAP
 type: map
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O06_MODEL/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - o06_model
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-map
 - amos-rscf-nodes
 - routing-policy-validation-receipt

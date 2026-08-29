@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-fx-state-space-kalman-engine/references
 tags:
 - reference
 - amos-fx-state-space-kalman-engine
-- canon/skill
+- type/skill
 - ratpak
 - references-moc
 - 07-skills-moc

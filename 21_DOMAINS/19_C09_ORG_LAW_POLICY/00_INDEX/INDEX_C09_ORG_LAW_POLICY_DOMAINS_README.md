@@ -3,7 +3,7 @@ title: INDEX C09 ORG LAW POLICY DOMAINS README
 type: index
 source: 21_DOMAINS/19_C09_ORG_LAW_POLICY/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - readme

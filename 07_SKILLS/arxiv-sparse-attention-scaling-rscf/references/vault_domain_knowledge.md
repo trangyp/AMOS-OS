@@ -5,7 +5,7 @@ source: 07_SKILLS/arxiv-sparse-attention-scaling-rscf/references
 tags:
 - reference
 - arxiv-sparse-attention-scaling-rscf
-- canon/skill
+- type/skill
 - cosmo-brain-moc
 - amos-build-from-spec
 - 2026-08-22-tests-logic-bridge-registry

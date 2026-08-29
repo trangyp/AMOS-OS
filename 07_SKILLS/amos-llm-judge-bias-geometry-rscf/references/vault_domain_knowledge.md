@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-llm-judge-bias-geometry-rscf/references
 tags:
 - reference
 - amos-llm-judge-bias-geometry-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

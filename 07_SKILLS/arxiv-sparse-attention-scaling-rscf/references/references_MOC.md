@@ -3,9 +3,8 @@ title: References MOC — References — Arxiv Sparse Attention Scaling Rscf
 type: moc
 source: 07_SKILLS/arxiv-sparse-attention-scaling-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - arxiv-sparse-attention-scaling-rscf-moc
 - 00-home

@@ -3,9 +3,9 @@ title: INDEX O01 OBJECT LIFECYCLE OPERATIONS COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O01_OBJECT/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - o01_object
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - o01-object-map
 - 00-home

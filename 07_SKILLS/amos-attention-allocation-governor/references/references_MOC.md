@@ -3,9 +3,8 @@ title: References MOC — References — Amos Attention Allocation Governor
 type: moc
 source: 07_SKILLS/amos-attention-allocation-governor/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-attention-allocation-governor-moc
 - 00-home

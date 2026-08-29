@@ -3,9 +3,8 @@ title: L28 Governance MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L28_GOVERNANCE
 tags:
-- moc
 - l28-governance
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-l28-governance-contract
 - 00-index-moc
 - 01-primitives-moc

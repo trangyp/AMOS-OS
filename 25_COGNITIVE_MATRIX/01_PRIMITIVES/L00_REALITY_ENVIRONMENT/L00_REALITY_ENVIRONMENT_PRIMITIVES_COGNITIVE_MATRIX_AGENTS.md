@@ -3,11 +3,11 @@ title: L00 REALITY ENVIRONMENT PRIMITIVES COGNITIVE MATRIX AGENTS
 type: agent
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - primitives
 - l00_reality_environment
 - note
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - 00-home

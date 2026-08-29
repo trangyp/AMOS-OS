@@ -3,7 +3,6 @@ title: 03 Forex MOC
 type: moc
 source: 21_DOMAINS/03_FOREX
 tags:
-- moc
 - 03-forex
 - canon/domain
 - domains-forex-contract

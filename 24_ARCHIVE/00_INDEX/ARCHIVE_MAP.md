@@ -3,7 +3,7 @@ title: ARCHIVE MAP
 type: archive
 source: 24_ARCHIVE/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 24_archive
 - canon/archive
 - routing-policy-validation-receipt

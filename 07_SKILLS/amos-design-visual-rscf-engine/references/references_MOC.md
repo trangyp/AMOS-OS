@@ -3,9 +3,8 @@ title: References MOC — References — Amos Design Visual Rscf Engine
 type: moc
 source: 07_SKILLS/amos-design-visual-rscf-engine/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-design-visual-rscf-engine-moc
 - 00-home

@@ -3,9 +3,9 @@ title: C08 EXECUTION MAP
 type: map
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C08_EXECUTION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - c08_execution
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-map
 - amos-rscf-nodes
 - routing-policy-validation-receipt

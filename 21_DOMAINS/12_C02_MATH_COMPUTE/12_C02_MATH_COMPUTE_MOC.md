@@ -3,7 +3,6 @@ title: 12 C02 Math Compute MOC
 type: moc
 source: 21_DOMAINS/12_C02_MATH_COMPUTE
 tags:
-- moc
 - 12-c02-math-compute
 - canon/domain
 - c02-math-compute-domains-domain-spec

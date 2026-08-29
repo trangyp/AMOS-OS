@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-adversarial-entropy-accountant/references
 tags:
 - reference
 - amos-adversarial-entropy-accountant
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

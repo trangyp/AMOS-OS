@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-arxiv-influence-guided-symbolic-regression-rscf/reference
 tags:
 - reference
 - amos-arxiv-influence-guided-symbolic-regression-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

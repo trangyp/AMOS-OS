@@ -3,7 +3,7 @@ title: SCHEDULES OPERATIONS README
 type: schedule
 source: 20_OPERATIONS/06_SCHEDULES
 tags:
-- amos_os
+- amos-os
 - 20_operations
 - canon/operations
 - readme

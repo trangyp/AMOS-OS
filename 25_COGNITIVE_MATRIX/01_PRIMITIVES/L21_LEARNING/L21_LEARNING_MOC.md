@@ -3,9 +3,8 @@ title: L21 Learning MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L21_LEARNING
 tags:
-- moc
 - l21-learning
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-l21-learning-contract
 - 00-index-moc
 - 01-primitives-moc

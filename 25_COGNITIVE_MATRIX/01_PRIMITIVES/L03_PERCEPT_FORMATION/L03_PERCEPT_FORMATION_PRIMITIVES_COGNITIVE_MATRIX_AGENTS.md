@@ -4,14 +4,14 @@ source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
 tags:
 - amos
 - cognitive-matrix
-- l03
+- matrix/l03
 - percept-formation
 - agents
 - perception
 - rscf
 - hml
 - governance
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - 00-home

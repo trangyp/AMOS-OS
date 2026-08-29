@@ -3,7 +3,7 @@ title: CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE
 tags:
-- control_plane
+- control-plane
 - governance
 - policy
 - canon/control-plane

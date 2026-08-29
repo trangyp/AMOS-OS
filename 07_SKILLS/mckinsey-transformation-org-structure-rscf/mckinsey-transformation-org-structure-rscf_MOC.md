@@ -3,9 +3,8 @@ title: Mckinsey-Transformation-Org-Structure-Rscf MOC
 type: moc
 source: 07_SKILLS/mckinsey-transformation-org-structure-rscf
 tags:
-- moc
 - mckinsey-transformation-org-structure-rs
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

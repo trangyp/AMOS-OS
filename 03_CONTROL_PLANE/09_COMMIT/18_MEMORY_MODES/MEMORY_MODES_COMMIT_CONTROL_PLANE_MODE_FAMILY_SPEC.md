@@ -3,7 +3,7 @@ title: MEMORY MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/18_MEMORY_MODES
 tags:
-- control_plane
+- control-plane
 - 18_memory_modes
 - canon/control-plane
 - memory

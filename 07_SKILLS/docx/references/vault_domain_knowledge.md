@@ -5,7 +5,7 @@ source: 07_SKILLS/docx/references
 tags:
 - reference
 - docx
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

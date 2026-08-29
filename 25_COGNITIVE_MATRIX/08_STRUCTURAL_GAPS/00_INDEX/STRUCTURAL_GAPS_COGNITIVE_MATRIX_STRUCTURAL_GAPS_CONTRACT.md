@@ -3,9 +3,9 @@ title: STRUCTURAL GAPS COGNITIVE MATRIX STRUCTURAL GAPS CONTRACT
 type: gap
 source: 25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - 00_index
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy

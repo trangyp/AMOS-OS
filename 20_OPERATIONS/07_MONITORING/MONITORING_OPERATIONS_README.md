@@ -3,7 +3,7 @@ title: MONITORING OPERATIONS README
 type: operation
 source: 20_OPERATIONS/07_MONITORING
 tags:
-- amos_os
+- amos-os
 - 20_operations
 - canon/operations
 - readme

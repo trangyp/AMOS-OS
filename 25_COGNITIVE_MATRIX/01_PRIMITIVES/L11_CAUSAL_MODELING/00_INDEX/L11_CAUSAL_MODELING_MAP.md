@@ -3,9 +3,9 @@ title: L11 CAUSAL MODELING MAP
 type: map
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L11_CAUSAL_MODELING/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l11_causal_modeling
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-map
 - amos-rscf-nodes
 - routing-policy-validation-receipt

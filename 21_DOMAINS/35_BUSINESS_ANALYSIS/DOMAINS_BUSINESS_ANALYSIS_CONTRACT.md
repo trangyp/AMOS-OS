@@ -3,7 +3,7 @@ title: DOMAINS BUSINESS ANALYSIS CONTRACT
 type: analysis
 source: 21_DOMAINS/35_BUSINESS_ANALYSIS
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - routing-policy-validation-receipt

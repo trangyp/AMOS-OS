@@ -3,10 +3,10 @@ title: PRIMITIVES COGNITIVE MATRIX README
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - matrix
 - cognition
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - cognitive-matrix-primitives-contract
 - routing-policy-validation-receipt

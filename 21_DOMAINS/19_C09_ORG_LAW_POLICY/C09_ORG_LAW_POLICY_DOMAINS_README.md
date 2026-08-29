@@ -3,7 +3,7 @@ title: C09 ORG LAW POLICY DOMAINS README
 type: law
 source: 21_DOMAINS/19_C09_ORG_LAW_POLICY
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - readme

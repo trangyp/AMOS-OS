@@ -4,7 +4,6 @@ tags:
 - stub
 - cognitive
 - matrix
-- moc
 ---
 
 # [25 cognitive matrix moc

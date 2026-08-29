@@ -3,7 +3,6 @@ title: 19 Tests MOC
 type: moc
 source: 19_TESTS
 tags:
-- moc
 - 19-tests
 - canon/test
 - tests-readme

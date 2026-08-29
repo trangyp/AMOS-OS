@@ -3,11 +3,11 @@ title: COGNITIVE MATRIX O04 STATE CONTRACT
 type: state
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O04_STATE
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - lifecycle_operations
 - o04_state
 - contract
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - 00-root-moc
 - amos-moc
 - cognitive-matrix-moc

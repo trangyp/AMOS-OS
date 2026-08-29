@@ -3,9 +3,8 @@ title: L14 Valuation MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L14_VALUATION
 tags:
-- moc
 - l14-valuation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-l14-valuation-contract
 - 00-index-moc
 - 01-primitives-moc

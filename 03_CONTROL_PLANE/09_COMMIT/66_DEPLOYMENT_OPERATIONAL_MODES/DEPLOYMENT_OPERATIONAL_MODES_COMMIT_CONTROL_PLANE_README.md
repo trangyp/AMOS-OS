@@ -3,7 +3,7 @@ title: DEPLOYMENT OPERATIONAL MODES COMMIT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/66_DEPLOYMENT_OPERATIONAL_MODES
 tags:
-- control_plane
+- control-plane
 - 66_deployment_operational_modes
 - canon/control-plane
 - readme

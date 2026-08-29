@@ -3,7 +3,6 @@ title: 03 Governance Forums MOC
 type: moc
 source: 23_OPERATING_MODEL/03_GOVERNANCE_FORUMS
 tags:
-- moc
 - 03-governance-forums
 - canon/operating-model
 - governance-forums

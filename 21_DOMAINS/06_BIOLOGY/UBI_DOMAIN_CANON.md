@@ -12,7 +12,7 @@ segment: 21_DOMAINS/06_BIOLOGY
 artifact_kind: DOMAIN_CANON
 path: 21_DOMAINS/06_BIOLOGY/UBI_DOMAIN_CANON.md
 tags:
-- amos_os
+- amos-os
 - domain
 - vault
 - 21_domains

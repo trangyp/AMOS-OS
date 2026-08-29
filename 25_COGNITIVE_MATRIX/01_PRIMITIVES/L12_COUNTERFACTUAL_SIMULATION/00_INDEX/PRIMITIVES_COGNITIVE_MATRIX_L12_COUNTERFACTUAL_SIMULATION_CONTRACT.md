@@ -3,9 +3,9 @@ title: PRIMITIVES COGNITIVE MATRIX L12 COUNTERFACTUAL SIMULATION CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L12_COUNTERFACTUAL_SIMULATION/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l12_counterfactual_simulation
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - validation-evidence
 - 00-root-moc
 - amos-moc

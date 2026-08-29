@@ -36,7 +36,7 @@ tags:
 - 01-canon-moc
 - law-hierarchy
 - l22-atomic-reasoning
-- l1-epistemic
+- law/L1-epistemic
 - l5-scope-regime
 - scope-regime-firewall
 - 01-core-laws-moc

@@ -3,8 +3,7 @@ title: PROVENANCE LEDGER
 type: provenance
 source: 03_CONTROL_PLANE/05_PROVENANCE
 tags:
-- control_plane
-- provenance_ledger.md
+- control-plane
 - canon/control-plane
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt

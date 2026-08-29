@@ -3,9 +3,8 @@ title: Amos-Closed-Loop-Learning-Governor MOC
 type: moc
 source: 07_SKILLS/amos-closed-loop-learning-governor
 tags:
-- moc
 - amos-closed-loop-learning-governor
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

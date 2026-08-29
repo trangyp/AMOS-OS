@@ -3,9 +3,8 @@ title: Amos-Language-Equation-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-language-equation-rscf-engine
 tags:
-- moc
 - amos-language-equation-rscf-engine
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

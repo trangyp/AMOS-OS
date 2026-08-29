@@ -3,9 +3,9 @@ title: INDEX DEPENDENCY GRAPH COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - 00_index
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - dependency-graph-map
 - 00-home

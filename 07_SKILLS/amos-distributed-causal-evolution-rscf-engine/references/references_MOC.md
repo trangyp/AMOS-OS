@@ -3,9 +3,8 @@ title: References MOC — References — Amos Distributed Causal Evolution Rscf 
 type: moc
 source: 07_SKILLS/amos-distributed-causal-evolution-rscf-engine/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - distributed-causal-spec
 - 00-home
 - amos-rscf-nodes

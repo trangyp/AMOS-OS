@@ -3,7 +3,7 @@ title: KERNEL COGNITION CONTRACT
 type: kernel
 source: 02_KERNEL/02_COGNITION
 tags:
-- amos_os
+- amos-os
 - 02_kernel
 - canon/kernel
 - routing-policy-validation-receipt

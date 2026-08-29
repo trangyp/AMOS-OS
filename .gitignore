@@ -46,3 +46,7 @@ AMOS OS/
 /_00_Cosmo brain/
 .amos-observability/
 copilot/copilot-conversations/*.md
+
+# Tag migration backups (do not track)
+scripts/.tagmigrate-backup-*/
+

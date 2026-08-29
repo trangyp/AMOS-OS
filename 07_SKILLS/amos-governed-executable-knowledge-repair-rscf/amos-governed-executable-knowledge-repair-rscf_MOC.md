@@ -3,9 +3,8 @@ title: Amos-Governed-Executable-Knowledge-Repair-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-governed-executable-knowledge-repair-rscf
 tags:
-- moc
 - amos-governed-executable-knowledge-repai
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

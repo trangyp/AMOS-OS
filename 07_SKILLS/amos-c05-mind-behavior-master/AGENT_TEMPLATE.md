@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-c05-mind-behavior-master
 tags:
 - note
 - amos-c05-mind-behavior-master
-- canon/skill
+- type/skill
 - skill
 - amos-c05-mind-behavior-master-moc
 rscf:

@@ -3,7 +3,6 @@ title: 10 Memory MOC
 type: moc
 source: 10_MEMORY
 tags:
-- moc
 - 10-memory
 - canon/memory
 - memory-memory-contract

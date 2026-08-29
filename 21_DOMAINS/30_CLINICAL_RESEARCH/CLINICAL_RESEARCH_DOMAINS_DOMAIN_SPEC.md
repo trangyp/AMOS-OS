@@ -3,7 +3,7 @@ title: CLINICAL RESEARCH DOMAINS DOMAIN SPEC
 type: research
 source: 21_DOMAINS/30_CLINICAL_RESEARCH
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - routing-policy-validation-receipt

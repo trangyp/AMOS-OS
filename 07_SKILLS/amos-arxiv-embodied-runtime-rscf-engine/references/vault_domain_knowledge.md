@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-arxiv-embodied-runtime-rscf-engine/references
 tags:
 - reference
 - amos-arxiv-embodied-runtime-rscf-engine
-- canon/skill
+- type/skill
 - 2026-08-22-19x19-ai-cognitive-field
 - 2026-08-22-tests-logic-bridge-registry
 - cosmo-brain-moc

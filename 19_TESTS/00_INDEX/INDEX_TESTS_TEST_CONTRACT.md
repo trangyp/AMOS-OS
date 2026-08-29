@@ -3,7 +3,7 @@ title: INDEX TESTS TEST CONTRACT
 type: index
 source: 19_TESTS/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 19_tests
 - canon/test
 - index-tests-readme

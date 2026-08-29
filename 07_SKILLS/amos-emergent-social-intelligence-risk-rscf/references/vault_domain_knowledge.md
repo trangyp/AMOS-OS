@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-emergent-social-intelligence-risk-rscf/references
 tags:
 - reference
 - amos-emergent-social-intelligence-risk-rscf
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

@@ -3,7 +3,7 @@ title: UBI SI SOMATIC MAP
 type: map
 source: 21_DOMAINS/26_UBI_SI_SOMATIC/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - index-ubi-si-somatic-domains-readme

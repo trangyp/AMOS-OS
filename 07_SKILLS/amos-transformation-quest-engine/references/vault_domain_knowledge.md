@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-transformation-quest-engine/references
 tags:
 - reference
 - amos-transformation-quest-engine
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

@@ -19,13 +19,12 @@ schema_version: AMOS_CORE_v4.4-compatible-conceptual
 tags:
 - 01_canon
 - 01_core_laws
-- amos_os
+- amos-os
 - canon
 - canon/universe
 - canon_placeholder
 - core_laws
 - feedback
-- feedback_canon.md
 - feedback_loop
 - feedback_signal
 - provenance

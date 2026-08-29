@@ -3,9 +3,9 @@ title: INDEX L16 PLANNING PRIMITIVES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L16_PLANNING/00_INDEX
 tags:
-- cognitive_matrix
+- cognitive-matrix
 - l16_planning
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - readme
 - l16-planning-map
 - 00-home

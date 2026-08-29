@@ -5,7 +5,7 @@ source: 07_SKILLS/mckinsey-architecture-reference-transfer-rscf/references
 tags:
 - reference
 - mckinsey-architecture-reference-transfer-rscf
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

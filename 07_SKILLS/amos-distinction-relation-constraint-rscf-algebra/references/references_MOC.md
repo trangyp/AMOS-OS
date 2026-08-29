@@ -3,9 +3,8 @@ title: References MOC — References — Amos Distinction Relation Constraint Rs
 type: moc
 source: 07_SKILLS/amos-distinction-relation-constraint-rscf-algebra/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

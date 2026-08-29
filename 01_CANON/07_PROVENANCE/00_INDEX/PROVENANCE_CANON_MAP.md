@@ -10,7 +10,6 @@ origin_architect: Trang Phan
 rscf_state: derived
 status: ACTIVE_MOC
 tags:
-- moc
 - canon
 - provenance
 - navigation

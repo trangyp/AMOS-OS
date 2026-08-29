@@ -3,9 +3,8 @@ title: References MOC — References — Amos Action Memory Firewall
 type: moc
 source: 07_SKILLS/amos-action-memory-firewall/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-action-memory-firewall-moc
 - 00-home

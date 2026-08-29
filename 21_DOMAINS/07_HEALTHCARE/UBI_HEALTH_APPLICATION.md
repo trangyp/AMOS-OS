@@ -12,7 +12,7 @@ segment: 21_DOMAINS/07_HEALTHCARE
 artifact_kind: DOMAIN_APPLICATION
 path: 21_DOMAINS/07_HEALTHCARE/UBI_HEALTH_APPLICATION.md
 tags:
-- amos_os
+- amos-os
 - domain
 - vault
 - 21_domains

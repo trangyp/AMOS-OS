@@ -4,9 +4,8 @@ title: References MOC — References — Amos Verification Aware Implementation 
 type: moc
 source: 07_SKILLS/amos-verification-aware-implementation-diversity-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

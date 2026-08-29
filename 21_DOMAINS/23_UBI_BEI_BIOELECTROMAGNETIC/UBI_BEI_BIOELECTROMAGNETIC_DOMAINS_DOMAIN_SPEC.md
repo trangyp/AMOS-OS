@@ -3,7 +3,7 @@ title: UBI BEI BIOELECTROMAGNETIC DOMAINS DOMAIN SPEC
 type: note
 source: 21_DOMAINS/23_UBI_BEI_BIOELECTROMAGNETIC
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - routing-policy-validation-receipt

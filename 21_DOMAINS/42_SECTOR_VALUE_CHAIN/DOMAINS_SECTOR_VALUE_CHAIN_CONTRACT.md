@@ -3,7 +3,7 @@ title: DOMAINS SECTOR VALUE CHAIN CONTRACT
 type: value
 source: 21_DOMAINS/42_SECTOR_VALUE_CHAIN
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - routing-policy-validation-receipt

@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-biology-quantum-bridge-governor/references
 tags:
 - reference
 - amos-biology-quantum-bridge-governor
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

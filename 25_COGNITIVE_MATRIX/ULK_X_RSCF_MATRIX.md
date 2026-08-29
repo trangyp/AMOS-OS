@@ -27,8 +27,8 @@ executable_binding: ESTABLISHED
 ingestion_action: NATIVE_CANON_INGESTION
 raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 tags:
-- amos_os
-- cognitive_matrix
+- amos-os
+- cognitive-matrix
 - vault
 - 25_cognitive_matrix
 - ulk_x_rscf
@@ -80,7 +80,7 @@ tags:
 - scope_firewall
 - fractal_knowledge_network
 - hml
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - canon/ulk
 - canon/rscf
 - ulk-x-rscf

@@ -3,9 +3,8 @@ title: Amos-Observability-Driven-Harness-Evolution-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-observability-driven-harness-evolution-rscf
 tags:
-- moc
 - amos-observability-driven-harness-evolut
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

@@ -23,15 +23,14 @@ tags:
 - ROUTING
 - ROUTING_AUDIT
 - TRANG_PHAN
-- amos_os
+- amos-os
 - audit
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - canon/universe
-- cognitive_matrix
+- cognitive-matrix
 - matrix
 - note
 - routing
-- routing_audit.md
 - rscf
 - identity: -None
 - placeholder_expanded

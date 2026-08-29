@@ -3,9 +3,8 @@ title: References MOC — References — Amos Rscf Epistemic Master
 type: moc
 source: 07_SKILLS/amos-rscf-epistemic-master/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - conjecture-discipline
 - ethical-intelligence
 - meta-epistemology-kernel

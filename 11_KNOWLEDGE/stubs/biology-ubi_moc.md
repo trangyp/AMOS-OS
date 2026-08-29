@@ -4,7 +4,6 @@ tags:
 - stub
 - biology
 - ubi
-- moc
 - biology-ubi-moc
 - kernel-moc
 - 00-home

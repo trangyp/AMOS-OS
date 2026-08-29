@@ -3,9 +3,8 @@ title: Amos-Fx-Threshold-Vecm-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-fx-threshold-vecm-rscf-engine
 tags:
-- moc
 - amos-fx-threshold-vecm-rscf-engine
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

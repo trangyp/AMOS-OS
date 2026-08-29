@@ -5,7 +5,7 @@ source: 25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH
 tags:
 - note
 - 09-dependency-graph
-- canon/cognitive-matrix
+- domain/cognitive-matrix
 - cognitive-matrix-moc
 - 00-root-moc
 - amos-moc

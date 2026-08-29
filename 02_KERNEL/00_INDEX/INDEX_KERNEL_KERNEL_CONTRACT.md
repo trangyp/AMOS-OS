@@ -3,7 +3,7 @@ title: INDEX KERNEL KERNEL CONTRACT
 type: index
 source: 02_KERNEL/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 02_kernel
 - canon/kernel
 - index-kernel-readme

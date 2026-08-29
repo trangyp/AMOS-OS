@@ -3,7 +3,7 @@ title: BIOLOGY DOMAINS BIOLOGY CONTRACT
 type: biology
 source: 21_DOMAINS/06_BIOLOGY/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 21_domains
 - canon/domain
 - routing-policy-validation-receipt

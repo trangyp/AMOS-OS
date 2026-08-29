@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-fx-quantile-distribution-rscf-engine/references
 tags:
 - reference
 - amos-fx-quantile-distribution-rscf-engine
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

@@ -3,9 +3,8 @@ title: References MOC — References — Amos Ssa Ir Compiler Rscf
 type: moc
 source: 07_SKILLS/amos-ssa-ir-compiler-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-ssa-ir-compiler-rscf-moc
 - 00-home

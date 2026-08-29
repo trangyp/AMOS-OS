@@ -12,7 +12,7 @@ segment: 22_RESEARCH/04_VALIDATION
 artifact_kind: VALIDATION_AUDIT
 path: 22_RESEARCH/04_VALIDATION/CANON_SOURCE_CLAIM_AUDIT.md
 tags:
-- amos_os
+- amos-os
 - research
 - vault
 - 22_research

@@ -3,9 +3,9 @@ title: SKILL MAP
 type: skill
 source: 07_SKILLS/00_INDEX
 tags:
-- amos_os
+- amos-os
 - 07_skills
-- canon/skill
+- type/skill
 - skill
 - index-skills-readme
 - index-skills-skill-contract

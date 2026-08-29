@@ -3,7 +3,6 @@ title: 36 Market Intelligence MOC
 type: moc
 source: 21_DOMAINS/36_MARKET_INTELLIGENCE
 tags:
-- moc
 - 36-market-intelligence
 - canon/domain
 - domains-market-intelligence-contract

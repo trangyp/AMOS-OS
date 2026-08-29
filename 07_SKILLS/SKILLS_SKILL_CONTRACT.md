@@ -3,9 +3,9 @@ title: SKILLS SKILL CONTRACT
 type: skill
 source: 07_SKILLS
 tags:
-- amos_os
+- amos-os
 - 07_skills
-- canon/skill
+- type/skill
 - skill
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt

@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-trust-formation-governor/references
 tags:
 - reference
 - amos-trust-formation-governor
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

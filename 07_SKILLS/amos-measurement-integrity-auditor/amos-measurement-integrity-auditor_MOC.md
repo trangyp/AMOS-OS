@@ -3,9 +3,8 @@ title: Amos-Measurement-Integrity-Auditor MOC
 type: moc
 source: 07_SKILLS/amos-measurement-integrity-auditor
 tags:
-- moc
 - amos-measurement-integrity-auditor
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

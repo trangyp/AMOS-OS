@@ -3,9 +3,8 @@ title: References MOC — References — Amos Constructive Metamorphic Testing R
 type: moc
 source: 07_SKILLS/amos-constructive-metamorphic-testing-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - 00-home
 - amos-rscf-nodes

@@ -3,9 +3,8 @@ title: References MOC — References — Arxiv Kv Cache Quantization Rscf
 type: moc
 source: 07_SKILLS/arxiv-kv-cache-quantization-rscf/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - memory-optimization-for-kv-cache
 - arxiv-kv-cache-quantization-rscf-moc
 - 00-home

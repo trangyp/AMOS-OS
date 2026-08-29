@@ -3,9 +3,8 @@ title: Frontend-Engineering-Qa MOC
 type: moc
 source: 07_SKILLS/frontend-engineering-qa
 tags:
-- moc
 - frontend-engineering-qa
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

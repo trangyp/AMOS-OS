@@ -3,9 +3,8 @@ title: Arxiv-Anytime-Pac-Bayes-Density-Ratio-Rscf MOC
 type: moc
 source: 07_SKILLS/arxiv-anytime-pac-bayes-density-ratio-rscf
 tags:
-- moc
 - arxiv-anytime-pac-bayes-density-ratio-rs
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

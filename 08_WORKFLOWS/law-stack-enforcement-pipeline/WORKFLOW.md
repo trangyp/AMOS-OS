@@ -5,7 +5,7 @@ source: 08_WORKFLOWS/law-stack-enforcement-pipeline
 tags:
 - note
 - law-stack-enforcement-pipeline
-- canon/workflow
+- type/workflow
 - law-stack-enforcement-pipeline-moc
 - 08-workflows-moc
 rscf:

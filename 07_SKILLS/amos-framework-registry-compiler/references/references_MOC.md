@@ -3,9 +3,8 @@ title: References MOC — References — Amos Framework Registry Compiler
 type: moc
 source: 07_SKILLS/amos-framework-registry-compiler/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - vault-domain-knowledge
 - amos-framework-registry-compiler-moc
 - 00-home

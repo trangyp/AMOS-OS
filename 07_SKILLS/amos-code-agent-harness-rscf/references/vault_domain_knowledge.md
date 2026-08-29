@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-code-agent-harness-rscf/references
 tags:
 - reference
 - amos-code-agent-harness-rscf
-- canon/skill
+- type/skill
 - cosmo-brain-moc
 - 2026-08-22-tests-logic-bridge-registry
 - 2026-08-22-brain-inventory

@@ -5,7 +5,7 @@ source: 07_SKILLS/amos-session-control-plane/references
 tags:
 - reference
 - amos-session-control-plane
-- canon/skill
+- type/skill
 - references-moc
 - 07-skills-moc
 - 00-home

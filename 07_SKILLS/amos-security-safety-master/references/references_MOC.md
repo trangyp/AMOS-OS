@@ -3,9 +3,8 @@ title: References MOC — References — Amos Security Safety Master
 type: moc
 source: 07_SKILLS/amos-security-safety-master/references
 tags:
-- moc
 - references
-- canon/skill
+- type/skill
 - access-control
 - access-control-priv-esc
 - access-control-security-models

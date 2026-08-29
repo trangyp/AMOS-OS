@@ -12,7 +12,7 @@ segment: 01_CANON/00_INDEX
 artifact_kind: CANON
 path: 01_CANON/00_INDEX/CANON_COMPETING_DEFINITIONS.md
 tags:
-- amos_os
+- amos-os
 - canon
 - universe
 - 01_canon

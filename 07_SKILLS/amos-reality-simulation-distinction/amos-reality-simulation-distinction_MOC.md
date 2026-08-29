@@ -3,9 +3,8 @@ title: Amos-Reality-Simulation-Distinction MOC
 type: moc
 source: 07_SKILLS/amos-reality-simulation-distinction
 tags:
-- moc
 - amos-reality-simulation-distinction
-- canon/skill
+- type/skill
 - skill
 - references-moc
 - 07-skills-moc

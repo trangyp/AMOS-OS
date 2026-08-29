@@ -3,7 +3,7 @@ title: TOOLS README
 type: tool
 source: 14_TOOLS
 tags:
-- amos_os
+- amos-os
 - 14_tools
 - canon/tool
 - readme
