@@ -84,3 +84,15 @@ claim_class: AMOS_MODEL
 - Fetched `nuryslyrt/ORPHEUS` README and captured raw source to [[ORPHEUS_README_2026_08_29]].
 - Mapped ORPHEUS orchestrator/expert/worker/contract patterns to `amos-workflow-builder`, `amos-routing-audit`, `amos-skill-builder`, and `amos-agent-orchestrator`.
 - Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: clone and compare a generated `.orpheus/` system to an AMOS workflow.
+
+## [2026-08-29] repo evaluation | ORPHEUS structure cloned and AMOS comparison
+
+- Cloned `nuryslyrt/ORPHEUS` to `/tmp/orpheus` and inspected `skill/` and templates.
+- Verified filesystem-only runtime: `SKILL.md` + `references/` + `scripts/` + `templates/`.
+- `contract.yaml.tmpl` is a typed I/O envelope (name, version, input required/optional, output required/optional).
+- `orchestrator-skill.md.tmpl` enforces a 4-phase execution protocol: intent decomposition, execution planning, dispatch, aggregation.
+- AMOS importables identified:
+  1. Contract YAML pattern → add `contract.yaml` artifact to `amos-skill-builder` bundles.
+  2. Execution manifest + decision logs → extend `amos-workflow-runner` with `state/execution/{eid}/` logging.
+  3. Expert/worker role hierarchy → map to `amos-agent-orchestrator` subagent dispatch.
+  4. Routing table signal words → reuse in `amos-routing-audit` intent classification.
