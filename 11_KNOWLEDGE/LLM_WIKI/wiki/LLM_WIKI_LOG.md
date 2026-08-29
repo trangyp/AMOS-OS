@@ -340,3 +340,9 @@ claim_class: AMOS_MODEL
 - Added `multimodal_perception.gate_visual_keyframe` capability and `assets/visual_keyframe_template.md` reference to `amos-multimodal-perception-layer/SKILL.md`.
 - Re-ran `sota_skill_validator.py`: 642 / 642 skills still 100%.
 - Committed to `stitch_project_cosmo`.
+
+## [2026-08-29] research | Anthropic Skills README captured and evaluated
+
+- Fetched `anthropics/skills` README and captured raw source to [[ANTHROPICS_SKILLS_README_2026_08_29]].
+- Mapped canonical Claude Code plugin marketplace, document skills, and basic skill template to `amos-pdfs`, `amos-docx`, `amos-slides`, `spreadsheets`, `amos-skill-builder`, `amos-skill-registry-gateway`, and `amos-mcp-connector`.
+- Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: compare `anthropics/skills/template` and `spec` to AMOS `CONTRACT_TEMPLATE.yaml`.

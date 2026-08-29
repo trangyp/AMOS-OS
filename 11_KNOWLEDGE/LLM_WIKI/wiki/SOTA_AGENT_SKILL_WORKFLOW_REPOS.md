@@ -667,3 +667,40 @@ Raw source: [[AGENTSKILLOS_README_2026_08_29]]
   3. **No-auth fetch endpoint → `amos-llm-wiki` remote source ingestion**
 
 Raw sources: [[TECH_LEADS_CLUB_AGENT_SKILLS_README_2026_08_29]] · [[IVANZWB_AGENT_SKILLS_README_2026_08_29]] · [[SKILLSHUB_README_2026_08_29]]
+
+## 2026-08-29 | Anthropic Skills (canonical Claude skill library) deep-dive
+
+Read the `main` branch README of `anthropics/skills` and mapped it to AMOS Claude Code integration and skill marketplace.
+
+### Verified shape
+
+- Official Anthropic skill examples. Includes `skills/`, `spec/`, `template/`.
+- Document skills (`docx`, `pdf`, `pptx`, `xlsx`) are source-available production skills.
+- Claude Code plugin marketplace: `/plugin marketplace add anthropics/skills`.
+- Claude API supports pre-built and custom skills.
+- Basic skill only requires `name` and `description` frontmatter.
+
+### Integration points for AMOS
+
+1. **Document skills → `amos-pdfs`, `amos-docx`, `amos-slides`, `spreadsheets`**
+   - AMOS already has `pdfs`, `docx`, `slides`, `spreadsheets` skills. Can compare to `anthropics/skills/skills/docx`, `pdf`, `pptx`, `xlsx` for production patterns.
+
+2. **Claude Code plugin marketplace → `amos-skill-registry-gateway` and `amos-mcp-connector`**
+   - AMOS can expose `.devin/skills/` as a Claude Code `/plugin marketplace` compatible catalog.
+
+3. **Basic skill template → `amos-skill-builder` reference template**
+   - The minimal frontmatter is exactly what AMOS `sota_skill_validator` enforces. Add `anthropics/skills/template` as a reference to `amos-skill-builder/references/`.
+
+4. **Skills API → `amos-skill-registry-gateway` REST endpoints**
+   - The Claude API Skills API can be mirrored for AMOS skill upload/retrieve.
+
+### Open questions / gaps
+
+- Source-available document skills are not fully open source.
+- Plugin marketplace is Claude-specific; AMOS needs an agent-agnostic registry.
+
+### Recommended next step
+
+Fetch the `anthropics/skills/template` and `spec` directories and compare the canonical template to the AMOS `CONTRACT_TEMPLATE.yaml`.
+
+Raw source: [[ANTHROPICS_SKILLS_README_2026_08_29]]
