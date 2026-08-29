@@ -166,12 +166,11 @@ for p in MD_FILES:
                     issues.append((rel, "broken_block_ref", i, f"[[^{block_id}]]: block id not found in same file"))
 
         # 5. Unclosed inline math — strip balanced $...$ pairs, then shell/currency
-        if "$" in line and "$$" not in line:
+        if "$" in line and "$$" not in line and "LLM_WIKI/raw" not in rel:
             cleaned = line.replace(r"\$", "")
-            # Strip HTML comments and inline code spans (they can contain literal $)
-            cleaned = re.sub(r'<!--.*?-->', '', cleaned)
+            # Strip HTML tags/comments and inline code spans (they can contain literal $)
+            cleaned = re.sub(r'<[^>]+>', '', cleaned)
             cleaned = re.sub(r'`[^`]*`', '', cleaned)
-            cleaned = re.sub(r'<code>[^<]*</code>', '', cleaned)
             # Remove balanced inline math pairs first (including $...$ with parens/spaces)
             cleaned = re.sub(r'\$(?!\$)[^$\n]*\$', '', cleaned)
             # Remove shell substitutions $(...), ${...}, and template ${VAR}
