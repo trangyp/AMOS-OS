@@ -161,6 +161,18 @@ claim_class: AMOS_MODEL
 - Most are cross-directory canonical links (`LLM_WIKI_MOC`, `AMOS_LLM_WIKI`, `07_SKILLS_MOC`, `AMOS_RSCF_NODES`) that resolve to other vault directories in Obsidian, so the linter's file-stem check is too strict.
 - No true orphan pages found; no contradictions or stale claims flagged in this pass.
 
+## [2026-08-29] repo evaluation | AgentFactory bundle format inspection
+
+- Cloned `zzatpku/AgentFactory` to `/tmp/agentfactory` and inspected `prompt4cc.txt` and sample skills.
+- Bundle format confirmed: `SKILL.md` (frontmatter: name, description, entry_file) + `<skill_name>.py` + optional helper scripts.
+- `skills_utils.py` parses frontmatter and loads instructions on demand; meta/tools/subagents are organized under `skills/{meta,tools,subagents}/`.
+- `prompt4cc.txt` tells Claude Code to read each `SKILL.md` before invoking the Python code.
+- AMOS importables:
+  1. `entry_file` frontmatter → add to `amos-skill-builder/SKILL.md` frontmatter and `MANIFEST.yaml`.
+  2. `skills/{meta,tools,subagents}/` taxonomy → mirror in `.devin/skills/{meta,tools,subagents}/`.
+  3. On-demand instructions loading → support progressive disclosure already in `references/`.
+  4. `prompt4cc.txt`-style Claude Code prompt → `CLAUDE.md` for `amos-agent-orchestrator`.
+
 ## [2026-08-29] research | SkillOpt README captured and evaluated
 
 - Fetched `microsoft/SkillOpt` README and captured raw source to [[SKILLOPT_README_2026_08_29]].
