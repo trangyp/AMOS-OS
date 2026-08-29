@@ -118,6 +118,22 @@ claim_class: AMOS_MODEL
 - Blocked from running the recommended benchmark on `amos-llm-wiki`.
 - Next: either install Python 3.10+ or run the benchmark in a container.
 
+## [2026-08-29] repo evaluation | SkillFlow install attempt blocked
+
+- Cloned `linxuhao/SkillFlow` to `/tmp/skillflow` and inspected README and `pyproject.toml`.
+- Requires Python >=3.12 (badges and `requires-python` field).
+- Key patterns identified from source (not executed):
+  - YAML DAG pipeline graph executor
+  - CLI tools: `skillflow-lint`, `skillflow-run`, `skillflow-convert`, `skillflow-mcp`
+  - Capability-gated I/O with auto-generated `write_*` / `edit_*` tools
+  - Immutable SQLite audit trace keyed by `step_instance_id`
+- AMOS importables:
+  1. `skillflow-lint` → add `skill-check` lint for workflow YAML
+  2. `edit_*` staging-first baseline model → strengthen `amos_rename_engine.py`
+  3. `step_instance_id` audit trace → extend `amos-observability-driven-harness-evolution-rscf`
+  4. `skillflow-mcp` typed MCP tools → export AMOS `amos-workflow-runner` as MCP
+- Install blocked by Python 3.12 requirement; host has 3.9.6.
+
 ## [2026-08-29] research | SkillOpt README captured and evaluated
 
 - Fetched `microsoft/SkillOpt` README and captured raw source to [[SKILLOPT_README_2026_08_29]].
