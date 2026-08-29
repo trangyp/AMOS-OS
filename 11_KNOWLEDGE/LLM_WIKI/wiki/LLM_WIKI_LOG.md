@@ -71,3 +71,10 @@ claim_class: AMOS_MODEL
 - Fetched `zjunlp/SkillNet` README and captured raw source to [[SKILLNET_README_2026_08_29]].
 - Mapped SkillNet SDK/CLI capabilities to AMOS skill-builder, routing-audit, workflow-runner, and MCP integration.
 - Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: clone and AMOS-lint one SkillNet skill.
+
+## [2026-08-29] fix | .devin/skills reach 100% SOTA compliance
+
+- Ran `.devin/scripts/sota_skill_validator.py` against `stitch_project_cosmo/.devin/skills`.
+- Fixed `amos-routing-audit/SKILL.md` frontmatter: the `description` field had RSCF content embedded inside it and lacked a concrete trigger.
+- Split the `## SOTA Evaluation Contract` section out of 16 oversized skills into `references/SOTA_EVALUATION_CONTRACT.md` with Obsidian wikilinks, achieving `skill_md_lines < 500` everywhere.
+- Result: 642 / 642 skills pass all 12 SOTA gates with a 1.00 score and 0 warnings.
