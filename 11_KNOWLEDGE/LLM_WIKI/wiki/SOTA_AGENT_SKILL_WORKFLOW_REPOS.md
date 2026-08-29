@@ -629,3 +629,41 @@ Read the `main` branch README of `songfang/AgentSkillOS` and mapped it to AMOS s
 Generate a capability tree from the existing 642 AMOS skills using `parent_skill` and `domain` fields and compare it to AgentSkillOS `skill_seeds` / `top500` tree format.
 
 Raw source: [[AGENTSKILLOS_README_2026_08_29]]
+
+## 2026-08-29 | Production skill marketplaces and hardened registries
+
+### `tech-leads-club/agent-skills` — 5,087 stars, production skill catalog
+
+- Hardened, human-curated skill library with Snyk Agent Scan, lockfiles, content hashing.
+- Multi-agent installer for Claude Code, Cursor, Cline, GitHub Copilot, Windsurf, Aider, etc.
+- Skills grouped in categories (`(development)`, `(cloud)`, `(security)`, etc.); `SKILL.md` + `references/` + `scripts/` + `templates/`.
+- CLI `npx @tech-leads-club/agent-skills` with install/update/list, copy or symlink scope.
+- Strong governance: Verifier pattern (author != verifier), deterministic `scripts/*.py` gates, `STATE.md` decision log.
+- AMOS importables:
+  1. **Snyk Agent Scan / content hashing → `skill_guardrail_checker.py` and `skill_security_scanner.py`**
+  2. **Category-based skill tree → `SKILL_TREE.json` category expansion**
+  3. **Verifier pattern (author != verifier) → `amos-promotion-gates` and `skill-check`**
+  4. **`STATE.md` decision log → `amos-decision-logger` and `11_KNOWLEDGE/LLM_WIKI/wiki/LLM_WIKI_LOG.md`**
+
+### `ivanzwb/agent-skills` — TypeScript skill lifecycle framework
+
+- Open [Agent Skills Specification](https://agentskills.io/specification) implementation.
+- Progressive loading L0/L1/L2, `manifest.json` tool declarations, dependency installers (npm/pip/extensible).
+- CLI `skill` with install/uninstall/preview/search; GitHub + ClawHub network install.
+- Security: zip-slip detection, path traversal prevention, atomic lockfile, JSON persistent registry.
+- AMOS importables:
+  1. **`manifest.json` tool declarations → `amos-skill-builder` tool contracts**
+  2. **L0/L1/L2 progressive loading → `amos-skill-builder/references/progressive_loading.md`**
+  3. **Dependency installers → `amos-skill-builder/scripts/dependency_installer.py`**
+  4. **Atomic lockfile / JSON registry → `skill_integrity_lock.py` and `amos-skill-registry-gateway`**
+
+### `ComeOnOliver/skillshub` — Token-efficient skill resolver API
+
+- `skillshub.wtf` search/resolve endpoints: 1 API call returns the best-fit skill for a task.
+- 10,000+ skills indexed from 230+ repos; no auth required for search/fetch; raw `SKILL.md` via `?format=md`.
+- AMOS importables:
+  1. **Skill resolver API → `amos-skill-registry-gateway` MCP tool**
+  2. **`/api/v1/skills/resolve` → `amos-routing-audit` and `amos-agent-orchestrator` route selection**
+  3. **No-auth fetch endpoint → `amos-llm-wiki` remote source ingestion**
+
+Raw sources: [[TECH_LEADS_CLUB_AGENT_SKILLS_README_2026_08_29]] · [[IVANZWB_AGENT_SKILLS_README_2026_08_29]] · [[SKILLSHUB_README_2026_08_29]]
