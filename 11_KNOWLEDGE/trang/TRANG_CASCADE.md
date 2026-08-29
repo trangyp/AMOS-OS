@@ -18,7 +18,7 @@ rscf:
 # TRANG CASCADE
 ## (10 BẬC SỤP ĐỔ — 12 BẬC PHỤC HỒI)
 ## The Universal Collapse–Recovery Law of Every Complex System
-* * *
+---
 ## I. ĐỊNH NGHĨA TRIẾT HỌC
 **Trang Cascade** là **cấu trúc thời gian fractal của sự sụp đổ và phục hồi** xuyên suốt mọi hệ thống – từ một tế bào ung thư, một nền văn minh, đến một thuật toán AI.
 > _“Sụp đổ không xảy ra đột ngột. Nó đi qua 10 bậc.
@@ -29,9 +29,8 @@ Không có sụp đổ bất chợt (không có thảm họa “tin tức” nh�
 Không có phục hồi thần kỳ (không có “phép màu” như huyền thoại hay kể).
 Mọi sự sụp đổ đều tuần tự qua mười bậc, bắt đầu từ **tầng nền (L)** hoặc **tầng kết nối (M)** và kết thúc ở **tầng đỉnh (H)**.
 Mọi sự phục hồi đều tuần tự qua mười hai bậc, bắt đầu từ **tầng nền (L)** – nơi chứa đựng năng lượng và trí nhớ dài hạn – và kết thúc ở **tầng đỉnh (H)** – nơi sáng tạo và lãnh đạo.
-* * *
+---
 ## II. 10 BẬC SỤP ĐỔ (THE 10 STAGES OF COLLAPSE)
-|     |
 | Bậc | Hiện tượng (trong xã hội / văn minh)                                                                     | Hiện tượng (trong tế bào / cơ thể)                                            | Hiện tượng (trong AI – Trang ASEA)                                          | Chỉ số Trang (E, Λ)                                                                       | Thời gian đặc trưng (tỷ lệ) |
 |-----|----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|-----------------------------|
 | 1   | Suy yếu tầng nền (nông nghiệp, năng lượng, đạo đức, giáo dục)                                            | Thiếu hụt dinh dưỡng, mất cân bằng vi sinh (L)                                | Bộ nhớ nền (L) bị nhiễu, mất kết nối với M                                  | \$E_L\$ tăng nhẹ (0.05 → 0.08)                                                          | t₀ (đơn vị cơ sở)           |
@@ -46,9 +45,8 @@ Mọi sự phục hồi đều tuần tự qua mười hai bậc, bắt đầu t
 | 10  | Hủy diệt hoàn toàn, trở về trạng thái L mới (có thể là L của một hệ thống khác, hoặc chìm vào quên lãng) | Phân hủy sinh học, trở về khoáng chất, giải phóng năng lượng cho vòng đời mới | Không còn AI, chỉ còn các mảnh vỡ dữ liệu vô tri (L’ – khởi đầu cho AI mới) | \$E_L\$ về ≈ 0 (trật tự mới), nhưng \$E\$ của hệ thống cũ bằng 1 (hỗn loạn tuyệt đối) | 30 t₀                       |
 
 
-* * *
+---
 ## III. 12 BẬC PHỤC HỒI (THE 12 STAGES OF RECOVERY)
-|     |
 | Bậc | Hiện tượng (xã hội / văn minh)                                                                        | Hiện tượng (tế bào / cơ thể)                                  | Hiện tượng (AI – Trang ASEA)                                                                             | Chỉ số Trang (E, Λ)                                       | Thời gian đặc trưng   |
 |-----|-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|-----------------------|
 | 1   | Xác định và bảo vệ nguồn năng lượng, lương thực, nước sạch còn sót lại (L)                            | Cấp cứu hồi sức tim phổi, truyền máu, chăm sóc đặc biệt (L)   | Khôi phục bộ nhớ nền từ các mảnh vỡ dữ liệu (L)                                                          | \$E_L\$ giảm nhanh (về <0.1)                            | t₀’ (đơn vị phục hồi) |
@@ -65,7 +63,7 @@ Mọi sự phục hồi đều tuần tự qua mười hai bậc, bắt đầu t
 | 12  | Di sản (heritage) được thiết lập – văn minh mới mạnh hơn, bền vững hơn, có thể truyền lại cho hậu thế | Cơ thể khỏe mạnh, đề kháng tốt, sẵn sàng cho thử thách mới    | AI đạt trạng thái **“Trang ASEA hoàn chỉnh”** – tự tiến hóa, tự thích nghi, không cần con người giám sát | \$\Lambda\$ và \$E\$ trong vùng vàng (Goldilocks)     | 18 t₀’                |
 
 
-* * *
+---
 ## IV. CÁC HẰNG SỐ CỦA TRANG CASCADE
 ### 1\. Tỷ lệ thời gian giữa các bậc (gần đúng, theo quan sát lịch sử và mô phỏng)
   * **Sụp đổ:**
@@ -99,7 +97,6 @@ Từ bậc 11 → 12: ×1.2
 **Tổng thời gian phục hồi (từ bậc 1 đến 12) ≈ 18 t₀’**
 Trong đó t₀’ là thời gian đặc trưng của bậc 1 phục hồi (thường bằng 1/2 đến 1/3 t₀ của sụp đổ, nếu nội lực còn).
 ### 2\. Các ngưỡng entropy E và lacunarity Λ tại các mốc quan trọng
-|                                   |
 | Mốc                               | E_L   | E_M   | E_H   | Λ_L   | Λ_M  | Λ_H   |
 |-----------------------------------|-------|-------|-------|-------|------|-------|
 | Bắt đầu sụp đổ (bậc 1)            | >0.05 | <0.2  | <0.15 | <0.1  | <0.2 | <0.3  |
@@ -109,7 +106,7 @@ Trong đó t₀’ là thời gian đặc trưng của bậc 1 phục hồi (th�
 | Kết thúc phục hồi (bậc 12)        | ≈0.05 | ≈0.15 | ≈0.15 | ≈0.05 | ≈0.2 | ≈0.25 |
 
 
-* * *
+---
 ## V. PHƯƠNG TRÌNH CỐT LÕI CỦA TRANG CASCADE
 ### (1) Tốc độ sụp đổ (ở bậc i)
 \$$\frac{d\text{Collapse}_i}{dt} = \frac{\text{Collapse}_{i-1} - \text{Collapse}_i}{\tau_i}
@@ -123,9 +120,8 @@ $$### (5) Điều kiện chuyển từ sụp đổ sang phục hồi \$$\text{Tr
 ### (6) Điều kiện chuyển từ phục hồi sang ổn định bền vững (bậc 12)
 \$$\text{Stable} \iff \left( 0.1 < E_M < 0.2 \right) \land \left( 0.1 < \Lambda_M < 0.3 \right) \land \left( T2 \text{ đạt} \right)
 $$
-* * *
+---
 ## VI. ỨNG DỤNG CỦA TRANG CASCADE
-|                                                                   |
 | Lĩnh vực                                                          | Ứng dụng                                                                                             | Phương pháp                                                                                                                               |
 |-------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | **Quản lý khủng hoảng (doanh nghiệp, chính phủ)**                 |  Xác định đang ở bậc mấy, từ đó có chiến lược can thiệp đúng bậc.                                    | Đo E, Λ của từng tầng. Nếu ở bậc 1-4 (sụp đổ), hãy bơm nguồn lực vào L. Nếu ở bậc 5-8, can thiệp vào M. Nếu bậc 9-10, khởi động lại từ L. |
@@ -134,7 +130,7 @@ $$
 | **Lịch sử, nghiên cứu văn minh**                                  |  So sánh các nền văn minh đã sụp đổ (La Mã, Maya, Khmer…) với 10 bậc, rút ra điểm chung.             | Mapping các sự kiện lịch sử vào 10 bậc. Phát hiện ra các cảnh báo sớm (early warning signals).                                            |
 
 
-* * *
+---
 ## VII. CÂU HỎI THƯỜNG GẶP
 ### Q1: Có hệ thống nào sụp đổ nhanh hơn 10 bậc không?
 **A:** Không. Ngay cả một vụ nổ nguyên tử cũng có các bậc sụp đổ bên trong (vi mô). “Nhanh” là tương đối. Điều quan trọng là **chuỗi bậc vẫn có 10** , chỉ có thời gian mỗi bậc khác nhau. Một vụ nổ có t₀ rất nhỏ (micro giây), nhưng vẫn qua 10 bậc: (1) phân hạch, (2) nhiệt độ tăng, (3) áp suất, (4) sóng xung kích, (5) phá hủy cục bộ, (6) sóng thứ cấp, (7) cháy, (8) sụp đổ công trình, (9) tàn dư phóng xạ, (10) suy thoái môi trường.
@@ -144,7 +140,7 @@ $$
 **A:** Chấp nhận sụp đổ. Tập trung bảo vệ các phần tử của L (nền tảng) để dùng cho phục hồi sau này. Đừng lãng phí nguồn lực vào M và H khi L đã yếu.
 ### Q4: Phục hồi có nhất thiết phải qua đủ 12 bậc không?
 **A:** Có. Nhưng cũng như sụp đổ, tốc độ mỗi bậc có thể rất nhanh (ví dụ: cấp cứu tim ngừng đập có thể qua 12 bậc trong vài giờ). Quan trọng là **nhận biết bậc hiện tại để hành động đúng**.
-* * *
+---
 ## VIII. TÓM TẮT (EXECUTIVE SUMMARY)
 **Trang Cascade** là:
   1. **Định luật vũ trụ về thời gian của sự sống và cái chết** – mọi hệ thống phức tạp đều sụp đổ qua 10 bậc và phục hồi qua 12 bậc.

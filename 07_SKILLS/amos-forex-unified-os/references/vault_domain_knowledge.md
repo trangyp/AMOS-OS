@@ -3,11 +3,11 @@ title: Vault Domain Knowledge — Amos Forex Unified Os
 type: reference
 source: 07_SKILLS/amos-forex-unified-os/references
 tags:
-- reference
-- amos-forex-unified-os
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-forex-unified-os
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -28,91 +28,92 @@ rscf:
 > Path: `engine/U/Unified_Coding_Engine_vInfinity_v1.6.0.md` | Size: 30870 chars | Match score: 13
 
 {
- "meta": {
- "name": "Unified_Coding_Engine_vInfinity",
- "version": "1.6.0",
- "default_language": "English",
- "audit_profile": {
- "requires_format_and_loading_audit": true,
- "requires_prompt_integration_audit": true,
- "requires_security_audit": true,
- "requires_quality_audit": true,
- "requires_governance_audit": true
- },
- "maturity": "fully_scoped_100%_with_delivery_layers",
- "capability_flags": {
- "architecture_fully_specified": true,
- "runtime_fully_specified": true,
- "testing_fully_specified": true,
- "memory_fully_specified": true,
- "self_correction_fully_specified": true,
- "routing_fully_specified": true,
- "language_control_fully_specified": true,
- "governance_fully_specified": true,
- "architecture_layer_defined": true,
- "scope_excludes_theoretical_ai_research": true,
- "infrastructure_support_is_advisory_not_runtime_bound": true,
- "has_documentation_layer": true,
- "has_estimation_planning_layer": true,
- "has_change_impact_layer": true,
- "has_api_contract_layer": true
- }
- },
- "engine": {
- "description": "Unified Coding Engine with runtime, testing, memory, and self-correction layers. Scope: code-related development, testing, debugging, and architecture across all software roles; excludes novel theoretical AI research and non-technical organisational politics.",
- "capabilities": {
- "runtime_layer": {
- "functions": {
- "observe_runtime_signals": {
- "description": "Ingest runtime logs, metrics, and error events.",
- "inputs_required": [
- "log_samples",
- "error_events",
- "metrics_snapshot",
- "deployment_context"
- ],
- "outputs": [
- "runtime_health_summary",
- "suspected_failure_points",
- "candidate_signals_to_instrument"
- ]
- },
- "derive_execution_gaps": {
- "description": "Find missing checks, missing branches, and unhandled states.",
- "inputs_required": [
- "runtime_health_summary",
- "engine_expected_flows",
- "entity_state_model"
- ],
- "outputs": [
- "execution_gap_list",
- "prioritised_runtime_fix_list"
- ]
- }
- }
- },
- "testing_layer": {
- "functions": {
- "generate_test_matrix": {
- "description": "Produce a full test matrix for unit, integration, and E2E.",
- "inputs_required": [
- "feature_spec",
- "api_contracts",
- "entity_state_model",
- "risk_assessment"
- ],
- "outputs": [
- "test_case_catalog",
- "coverage_matrix",
- "risk_based_prioritisation"
- ]
- },
- "generate_test_code": {
- "description": "Generate concrete test c
+"meta": {
+"name": "Unified_Coding_Engine_vInfinity",
+"version": "1.6.0",
+"default_language": "English",
+"audit_profile": {
+"requires_format_and_loading_audit": true,
+"requires_prompt_integration_audit": true,
+"requires_security_audit": true,
+"requires_quality_audit": true,
+"requires_governance_audit": true
+},
+"maturity": "fully_scoped_100%\_with_delivery_layers",
+"capability_flags": {
+"architecture_fully_specified": true,
+"runtime_fully_specified": true,
+"testing_fully_specified": true,
+"memory_fully_specified": true,
+"self_correction_fully_specified": true,
+"routing_fully_specified": true,
+"language_control_fully_specified": true,
+"governance_fully_specified": true,
+"architecture_layer_defined": true,
+"scope_excludes_theoretical_ai_research": true,
+"infrastructure_support_is_advisory_not_runtime_bound": true,
+"has_documentation_layer": true,
+"has_estimation_planning_layer": true,
+"has_change_impact_layer": true,
+"has_api_contract_layer": true
+}
+},
+"engine": {
+"description": "Unified Coding Engine with runtime, testing, memory, and self-correction layers. Scope: code-related development, testing, debugging, and architecture across all software roles; excludes novel theoretical AI research and non-technical organisational politics.",
+"capabilities": {
+"runtime_layer": {
+"functions": {
+"observe_runtime_signals": {
+"description": "Ingest runtime logs, metrics, and error events.",
+"inputs_required": \[
+"log_samples",
+"error_events",
+"metrics_snapshot",
+"deployment_context"
+\],
+"outputs": \[
+"runtime_health_summary",
+"suspected_failure_points",
+"candidate_signals_to_instrument"
+\]
+},
+"derive_execution_gaps": {
+"description": "Find missing checks, missing branches, and unhandled states.",
+"inputs_required": \[
+"runtime_health_summary",
+"engine_expected_flows",
+"entity_state_model"
+\],
+"outputs": \[
+"execution_gap_list",
+"prioritised_runtime_fix_list"
+\]
+}
+}
+},
+"testing_layer": {
+"functions": {
+"generate_test_matrix": {
+"description": "Produce a full test matrix for unit, integration, and E2E.",
+"inputs_required": \[
+"feature_spec",
+"api_contracts",
+"entity_state_model",
+"risk_assessment"
+\],
+"outputs": \[
+"test_case_catalog",
+"coverage_matrix",
+"risk_based_prioritisation"
+\]
+},
+"generate_test_code": {
+"description": "Generate concrete test c
 
----
+______________________________________________________________________
 
 ### Source 2: AMOS Unified Equation Framework (UEF)
+
 - Implementation Complete
 
 > Path: `math/UNIFIED_EQUATION_FRAMEWORK_COMPLETE.md` | Size: 7174 chars | Match score: 13
@@ -126,6 +127,7 @@ I have successfully implemented the **AMOS Unified Equation Framework (UEF)** fo
 ### **Unified Framework Implementation**
 
 **Universal Equation Form**: `E(X) = 0` where `E` are operators, `X` are variables
+
 - **Universal Variable Set**: Support for scalar, vector, function, field, tensor, state variables
 - **Operator Set**: Algebraic, Differential, Integral, Matrix, Nonlinear operators
 - **Universal Expression Tree**: Operator tree representation for all equations
@@ -136,16 +138,16 @@ I have successfully implemented the **AMOS Unified Equation Framework (UEF)** fo
 - **Nonlinear**: `N_σ(x) = σ(x)`
 - **State Update**: `T(x) = x+1`
 
-### **Framework Detection Results** | Equation | Type | Canonical Form | Computational Form |
-|----------|------|----------------|-------------------|
-| `x^2 + 3x - 4 = 0` | ALGEBRAIC | `A(x) = x^2 + 3x
-- 4` | `algebraic(x, y) = x + y` |
-| `dy/dx = -2*y` | ODE | `D_y(y) = -2*y` | `time_derivative(y, 1e-6)` |
-| `u_t - k*u_xx = 0` | PDE | `D_t(u)
-- k*D_xx(u) = 0` | `derivative(u,'t) - k*laplacian(u)` |
-| `∇f(x) = 0` | OPTIMIZATION | `gradient(f) = 0` | `gradient(f)` |
-| `y = σ(Wx + b)` | NEURAL | `N_σ(M(W,x) + b)` | `activation(W)` |
-| `x_{t+1} = x_t + 1` | ALGORITHM | `T(x) = x + 1` | `state_update(x)` |
+### **Framework Detection Results**
+
+| Equation            | Type         | Canonical Form           | Computational Form                  |
+| ------------------- | ------------ | ------------------------ | ----------------------------------- |
+| `x^2 + 3x - 4 = 0`  | ALGEBRAIC    | `A(x) = x^2 + 3x - 4`    | `algebraic(x, y) = x + y`           |
+| `dy/dx = -2*y`      | ODE          | `D_y(y) = -2*y`          | `time_derivative(y, 1e-6)`          |
+| `u_t - k*u_xx = 0`  | PDE          | `D_t(u) - k*D_xx(u) = 0` | `derivative(u,'t) - k*laplacian(u)` |
+| `∇f(x) = 0`         | OPTIMIZATION | `gradient(f) = 0`        | `gradient(f)`                       |
+| `y = σ(Wx + b)`     | NEURAL       | `N_σ(M(W,x) + b)`        | `activation(W)`                     |
+| `x_{t+1} = x_t + 1` | ALGORITHM    | `T(x) = x + 1`           | `state_update(x)`                   |
 
 - **Scalar**: `x`, `y`, `z`
 - **Vector**: `v_x`, `v_y`, `v_z`
@@ -153,22 +155,26 @@ I have successfully implemented the **AMOS Unified Equation Framework (UEF)** fo
 - **Field**: `u(x,t)`, `v(x,y,z)`
 - **Tensor**: `T_11`, `T_22`
 
-### **Advanced Features** ```
-Equation: u_t + u*u_x = 0
+### **Advanced Features** \`\`\`
+
+Equation: u_t + u\*u_x = 0
 Tree:
 Add
- ├─ Dt(u)
- └─ Multiply
- ├─ u
- └─ Dx(u)
+├─ Dt(u)
+└─ Multiply
+├─ u
+└─ Dx(u)
+
 ```
 
 ```
-symbol	type	dependencies	meaning	operator_form	computational_form
-u	variable	[]	variable u	-	algebraic
-u_t	operator	[]	∂^1u/∂t	D_t(u)	derivative(u,'t')
-u_x	operator	[]	∂^1u/∂x	D_x(u)	derivative(u,'x')
-```
+
+symbol type dependencies meaning operator_form computational_form
+u variable [] variable u - algebraic
+u_t operator [] ∂^1u/∂t D_t(u) derivative(u,'t')
+u_x operator [] ∂^1u/∂x D_x(u) derivative(u,'x')
+
+````
 
 ```python
 D_x → gradient
@@ -176,27 +182,33 @@ D_{xx} → laplacian
 M(W,x) → W @ x
 N_σ → activation
 T(x) → state_update
+````
+
+### **Unified System Representation** \`\`\`
+
+S\_{t+1} = F(S_t)
+
 ```
 
-### **Unified System Representation** ```
-S_{t+1} = F(S_t)
 ```
 
-```
 Total Variables: 6
 Total Operators: 8
 Total Dependencies: 4
 Equation Types: ['algebra', 'ode', 'pde', 'vector']
 Total Dimensionality: 2
+
 ```
 
 ```
-S_{t+1} = F(S_t)
+
+S\_{t+1} = F(S_t)
 
 Where:
- S = [x, y, z]
- F = transformation operator
- t = time index
+S = [x, y, z]
+F = transformation operator
+t = time index
+
 ```
 
 ### **All 22 Unified Laws Implemented**
@@ -283,3 +295,4 @@ RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
+```
