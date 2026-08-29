@@ -39,7 +39,7 @@ rscf:
 "requires_quality_audit": true,
 "requires_governance_audit": true
 },
-"maturity": "fully_scoped_100%\_with_delivery_layers",
+"maturity": "fully_scoped_100%_with_delivery_layers",
 "capability_flags": {
 "architecture_fully_specified": true,
 "runtime_fully_specified": true,
@@ -65,29 +65,29 @@ rscf:
 "functions": {
 "observe_runtime_signals": {
 "description": "Ingest runtime logs, metrics, and error events.",
-"inputs_required": \[
+"inputs_required": [
 "log_samples",
 "error_events",
 "metrics_snapshot",
 "deployment_context"
-\],
-"outputs": \[
+],
+"outputs": [
 "runtime_health_summary",
 "suspected_failure_points",
 "candidate_signals_to_instrument"
-\]
+]
 },
 "derive_execution_gaps": {
 "description": "Find missing checks, missing branches, and unhandled states.",
-"inputs_required": \[
+"inputs_required": [
 "runtime_health_summary",
 "engine_expected_flows",
 "entity_state_model"
-\],
-"outputs": \[
+],
+"outputs": [
 "execution_gap_list",
 "prioritised_runtime_fix_list"
-\]
+]
 }
 }
 },
@@ -95,17 +95,17 @@ rscf:
 "functions": {
 "generate_test_matrix": {
 "description": "Produce a full test matrix for unit, integration, and E2E.",
-"inputs_required": \[
+"inputs_required": [
 "feature_spec",
 "api_contracts",
 "entity_state_model",
 "risk_assessment"
-\],
-"outputs": \[
+],
+"outputs": [
 "test_case_catalog",
 "coverage_matrix",
 "risk_based_prioritisation"
-\]
+]
 },
 "generate_test_code": {
 "description": "Generate concrete test c
