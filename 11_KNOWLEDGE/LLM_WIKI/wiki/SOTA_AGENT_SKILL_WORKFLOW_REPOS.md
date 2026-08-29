@@ -543,3 +543,45 @@ Read the `main` branch README of `ljluestc/OpenSkills` and mapped it to AMOS pro
 Add `triggers` and `references` loading-mode metadata to the AMOS `SKILL.md` frontmatter and `CONTRACT_TEMPLATE.yaml` to align with OpenSkills progressive disclosure.
 
 Raw source: [[OPENSKILLS_README_2026_08_29]]
+
+## 2026-08-29 | MMSkills for Visual Agents deep-dive
+
+Read the `main` branch README of `zkangning/MMSkills_for_Visual_Agents` and mapped it to AMOS multimodal skill packaging.
+
+### Verified shape
+
+- Apache 2.0, Python 3.10+, 515 skills in library.
+- Skill package: `SKILL.md` + runtime state cards + audit state cards + visual keyframes.
+- Multimodal evidence gating: runtime decides if visual references are needed, loads only requested state views.
+- Branch-loaded planning: temporary planner branch consults selected skills and returns guidance, fallback, verification cues.
+- Agent adapters for Codex, OpenClaw, Claude Code.
+- OSWorld, macOSWorld, VAB-Minecraft, GamingAgent integrations.
+
+### Integration points for AMOS
+
+1. **Visual keyframes / state cards → `amos-multimodal-perception-layer` and `amos-structured-document-parsing-rscf`**
+   - AMOS skills can include `assets/` with images and `references/` with state cards, gated by runtime evidence needs.
+
+2. **Multimodal evidence gating → `amos-boundary-scope-master` and `amos-context-budget-governor-rscf`**
+   - Only load visual references when task state requires them, reducing context budget.
+
+3. **Branch-loaded planning → `amos-agent-orchestrator` and `amos-workflow-runner`**
+   - Temporary planner branch can be modeled as a subagent dispatch that consults a skill and returns concise guidance.
+
+4. **Agent Adapter pattern → `amos-mcp-connector` and `amos-skill-registry-gateway`**
+   - One-line adapter for Claude Code / Codex maps to AMOS `CLAUDE.md` and `SKILL_INDEX.md` integration.
+
+5. **Searchable skill library → `amos-skill-registry-gateway` and `amos-llm-wiki`**
+   - On-demand Hugging Face / web skill retrieval can be mirrored to `11_KNOWLEDGE/LLM_WIKI/raw/` ingestion.
+
+### Open questions / gaps
+
+- Visual skill packages require image assets; AMOS skills are mostly text/code today.
+- Requires Python 3.10+ and OSWorld; current host is 3.9.6.
+- No explicit benchmark numbers in README.
+
+### Recommended next step
+
+Add an `assets/` directory and visual-keyframe support to one AMOS skill (e.g., `amos-llm-wiki`) to prototype MMSkills-style multimodal evidence gating.
+
+Raw source: [[MMSKILLS_README_2026_08_29]]

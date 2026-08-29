@@ -295,3 +295,15 @@ claim_class: AMOS_MODEL
 - Fetched `ljluestc/OpenSkills` README and captured raw source to [[OPENSKILLS_README_2026_08_29]].
 - Mapped three-layer progressive disclosure, reference loading modes, auto-discovery, and `[INVOKE:name]` script execution to `amos-skill-builder`, `amos-workflow-runner`, `amos-agent-orchestrator`, `amos-security-safety-master`, and `amos-os-runtime-master`.
 - Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: add `triggers` and `references` loading-mode metadata to AMOS `SKILL.md` frontmatter.
+
+## [2026-08-29] enhance | Aligned `amos-skill-builder` with OpenSkills `triggers` and `references` loading modes
+
+- Added `triggers` and `references` (with `path` and `mode`) optional frontmatter fields to `stitch_project_cosmo/.devin/skills/amos-skill-builder/SKILL.md` and `references/CONTRACT_TEMPLATE.yaml` per OpenSkills SDK.
+- Re-ran `sota_skill_validator.py`: 642 / 642 skills still 100%.
+- Committed to `stitch_project_cosmo`.
+
+## [2026-08-29] research | MMSkills for Visual Agents README captured and evaluated
+
+- Fetched `zkangning/MMSkills_for_Visual_Agents` README and captured raw source to [[MMSKILLS_README_2026_08_29]].
+- Mapped self-contained multimodal skill packages, visual keyframes, evidence gating, and branch-loaded planning to `amos-multimodal-perception-layer`, `amos-structured-document-parsing-rscf`, `amos-boundary-scope-master`, `amos-context-budget-governor-rscf`, `amos-agent-orchestrator`, `amos-workflow-runner`, `amos-mcp-connector`, and `amos-skill-registry-gateway`.
+- Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: prototype `assets/` and visual keyframes in one AMOS skill.
