@@ -384,3 +384,15 @@ claim_class: AMOS_MODEL
 - Fetched `heyimcarlos/agent-skills` README and captured raw source to [[HEYIMCARLOS_AGENT_SKILLS_README_2026_08_30]].
 - Fetched `netresearch/claude-code-marketplace` README and captured raw source to [[NETRESEARCH_CLAUDE_CODE_MARKETPLACE_README_2026_08_30]].
 - Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with deep dives covering bucket-based storage, QRSPI workflows, subagents, `disable-model-invocation`, `plugin.json` + `skills/` packaging, and multi-language marketplace sites.
+
+## [2026-08-30] research | Fetched zjunlp/SkillNet README for direct AMOS trial
+
+- Web-fetched `https://raw.githubusercontent.com/zjunlp/SkillNet/main/README.md` and placed raw source at `11_KNOWLEDGE/LLM_WIKI/raw/ZJUNLP_SKILLNET_README_2026_08_30.md`.
+- Noted 500K+ indexed GitHub skills, 5-dimension skill quality scoring, and a portable `skills/skillnet/` agent skill for Claude Code / Codex / MCP.
+- Recommended next step: clone the `skills/skillnet` package into AMOS `.devin/skills/amos-skillnet/` and run `sota_skill_validator.py` on it.
+
+## [2026-08-30] implement | Imported SkillOS `SkillIndex.md` and wired it into AMOS boot
+
+- Copied `SkillOS` `CLAUDE.md` to `11_KNOWLEDGE/LLM_WIKI/raw/SKILLOS_CLAUDE_MD_2026_08_30.md`.
+- Created `.devin/skills/SkillIndex.md` (~51 lines) as the SkillOS-style top-level skill routing index, listing the 24 root/master domains from `.devin/SKILL_TREE.json` and cross-cutting skills.
+- Updated `.devin/AMOS_BOOT.md` to load `.devin/skills/SkillIndex.md` first, then `.devin/SKILL_TREE.json`.

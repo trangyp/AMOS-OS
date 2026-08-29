@@ -913,3 +913,29 @@ Integration points for AMOS:
 - Composer/npm distribution → `agent-registry` OCI/manifest promotion.
 
 Raw sources: [[PEDRONAUCK_SKILLS_README_2026_08_30]] · [[HEYIMCARLOS_AGENT_SKILLS_README_2026_08_30]] · [[NETRESEARCH_CLAUDE_CODE_MARKETPLACE_README_2026_08_30]]
+
+## 2026-08-30 | implement | SkillOS top-level `SkillIndex.md` imported into AMOS boot
+
+Implemented the SkillOS pure-markdown `SkillIndex.md` pattern inside `.devin/skills/SkillIndex.md`.
+
+### Imported from SkillOS
+
+- `system/skills/SkillIndex.md` top-level routing index (~50 lines) → `.devin/skills/SkillIndex.md`.
+- Lazy-loading 4-step protocol: SkillIndex → domain index → skill manifest → full spec.
+- Domain inheritance via `extends:` frontmatter and `base.md` shared behaviors.
+
+### AMOS `SkillIndex.md` shape
+
+- YAML frontmatter: `name: SkillIndex`, `type: skill-index`, `extends: .devin/skills/base`.
+- Table of 24 AMOS root/master skill domains (derived from `.devin/SKILL_TREE.json`).
+- Cross-cutting skills section: `software-engineering-qa`, `amos-llm-wiki`, `amos-agent-orchestrator`, `amos-workflow-runner`, `amos-skill-builder`, `skill-check`.
+- Reference to `.devin/SKILL_TREE.json` (642 skills, 24 roots, 45 domains) as the machine-readable index.
+
+### Boot wiring
+
+- Updated `.devin/AMOS_BOOT.md` step 3 to load `.devin/skills/SkillIndex.md` first, then `.devin/SKILL_TREE.json`.
+
+### Raw source
+
+- Copied `SkillOS` `CLAUDE.md` to `[[SKILLOS_CLAUDE_MD_2026_08_30]]`.
+
