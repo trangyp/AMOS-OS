@@ -313,3 +313,10 @@ claim_class: AMOS_MODEL
 - Fetched `songfang/AgentSkillOS` README and captured raw source to [[AGENTSKILLOS_README_2026_08_29]].
 - Mapped 90,000+ skill ecosystem, skill tree construction, complementarity-aware retrieval, and DAG-based orchestration to `SKILL_INDEX.md`, `07_SKILLS_MOC`, `amos-routing-audit`, `amos-agent-orchestrator`, `amos-workflow-builder`, `amos-workflow-runner`, `amos-promotion-gates`, `amos-human-interaction-engine`, `amos-observability-driven-harness-evolution-rscf`, and `amos-decision-logger`.
 - Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: generate a capability tree from 642 AMOS skills and compare to AgentSkillOS pre-built trees.
+
+## [2026-08-29] enhance | Generated AMOS skill capability tree `SKILL_TREE.json` for AgentSkillOS comparison
+
+- Parsed all 642 `stitch_project_cosmo/.devin/skills/*/SKILL.md` frontmatters.
+- Generated `.devin/SKILL_TREE.json` with `by_parent` (24 roots) and `by_domain` (45 domains) views.
+- Re-ran `sota_skill_validator.py`: 642 / 642 skills still 100%.
+- Committed to `stitch_project_cosmo`.
