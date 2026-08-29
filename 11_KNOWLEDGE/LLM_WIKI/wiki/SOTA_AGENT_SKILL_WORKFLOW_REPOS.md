@@ -738,3 +738,52 @@ AMOS is already a strict superset:
 AMOS `amos-skill-builder` already produces skill bundles that satisfy the canonical Agent Skills spec and adds progressive disclosure, typed I/O, epistemic metadata, and governance fields beyond it.
 
 Raw sources: [[ANTHROPICS_SKILLS_TEMPLATE_2026_08_29]] · [[AGENTSKILLS_SPECIFICATION_2026_08_29]]
+
+## 2026-08-29 | SkillOS and ai-os deep-dive
+
+Read the canonical `EvolvingAgentsLabs/skillos` README and the active successor `EvolvingAgentsLabs/ai-os` README.
+
+### Verified shape
+
+- `skillos` is frozen as of 2026-08-01; the concept continues in `ai-os`.
+- Pure Markdown OS: every component is an agent or tool defined in markdown; LLM is the interpreter.
+- `boot skillos` command; `setup_agents.sh`/`setup_agents.ps1`; `projects/[ProjectName]/` structure.
+- 3-level hierarchy: Domain → Family → Skill; 4-step lazy loading; ~61% token reduction.
+- HWM planning (arXiv:2604.03208); dialects (14 token-compression formats up to 99% reduction); compounding knowledge wiki; structured memory.
+- `ai-os` is an agent-based operating system on `QM` with external `truth/` gates, hash-chained ledger, `make reproduce`, nightly provenance checks.
+- `ai-os` has `ai-base/`, `ai-flows/`, `ai-memory/`, `ai-ui/`, `projects/`, `truth/`.
+
+### Integration points for AMOS
+
+1. **Pure Markdown OS → `amos-skill-builder`, `amos-agent-orchestrator`, and `stitch_project_cosmo/.devin/AMOS_BOOT.md`**
+   - AMOS already uses markdown specs (`SKILL.md`, `CLAUDE.md`, `AGENTS.md`). The `SkillOS` boot structure reinforces the `AMOS_BOOT.md` + `SKILL_INDEX.md` pattern.
+
+2. **Hierarchical skill tree → `stitch_project_cosmo/.devin/SKILL_TREE.json`**
+   - Domain → Family → Skill maps to AMOS `domain` → `parent_skill` → `name`. The `SKILL_TREE.json` can be extended with a 3-level view.
+
+3. **4-step lazy loading → `amos-skill-builder/references/progressive_loading.md`**
+   - AMOS already has L0/L1/L2; add explicit 4-step lazy loading (metadata → instruction → reference → script) if needed.
+
+4. **Dialects / token compression → `amos-cognitive-compression-kernel` and `amos-llm-wiki`**
+   - Token compression is similar to `amos-cognitive-compression-kernel`. Could import `strict-patch`, `formal-proof`, `system-dynamics` as dialect examples.
+
+5. **Memory wiki and structured memory → `amos-memory-systems-master` and `amos-llm-wiki`**
+   - `short_term/` and `long_term/` memory structure mirrors `11_KNOWLEDGE/LLM_WIKI/` and `memory/`.
+
+6. **ai-os `truth/` external gates → `amos-claim-verifier`, `amos-audit-repair-master`, `enforcement_root_attestation.py`**
+   - The principle that `truth/` must not import `src/` is exactly the AMOS `enforcement_root_attestation` / RSCF epistemic separation.
+
+7. **Nightly provenance / hash-chained ledger → `amos-decision-logger` and `skill_integrity_lock.py`**
+   - AMOS can adopt `make reproduce` and nightly provenance checks for `sota_skill_validator.py` and `agent_sync_validator.py`.
+
+### Open questions / gaps
+
+- `skillos` is frozen; do not build on it directly. Use `ai-os` patterns instead.
+- `ai-os` requires Node.js/TypeScript runtime; AMOS is Python-centric.
+- `ai-os` has 828 tests and 3,768 upstream tests; AMOS SOTA validator is smaller.
+
+### Recommended next step
+
+Add a 3-level Domain → Family → Skill view to `.devin/SKILL_TREE.json` and a `make reproduce` target for the AMOS SOTA validator.
+
+Raw sources: [[SKILL_OS_README_2026_08_29]] · [[AI_OS_README_2026_08_29]]

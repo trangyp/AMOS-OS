@@ -175,6 +175,11 @@ rscf:
 - [[SYSTEM_MAP_V1]]
 - [[TOTAL_CORPUS_COVERAGE]]
 
+## SOTA and Agent Contracts
+
+- [[Agent Skills]]
+- [[AMOS Global Contract for AI Coding Agents]]
+
 ## Subdirectories
 
 - [[attachments_MOC]] — attachments

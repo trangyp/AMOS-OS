@@ -355,3 +355,10 @@ claim_class: AMOS_MODEL
   - Anthropic template only requires `name` and `description` frontmatter.
   - AMOS `CONTRACT_TEMPLATE.yaml` is already a strict superset: `schema_version`, `version`, `status`, `category`, `compatibility`, `allowed-tools`, `triggers`, `references`, typed `input`/`output`, `capabilities`, `rscf` metadata, and governance fields.
 - No changes needed; AMOS skill frontmatter already exceeds the canonical minimal template and covers the full `agentskills.io` specification.
+
+## [2026-08-29] research | SkillOS and ai-os READMEs captured and evaluated
+
+- Fetched `EvolvingAgentsLabs/skillos` README (frozen 2026-08-01) and captured raw source to [[SKILL_OS_README_2026_08_29]].
+- Fetched `EvolvingAgentsLabs/ai-os` README (active successor) and captured raw source to [[AI_OS_README_2026_08_29]].
+- Mapped pure markdown OS, hierarchical skill tree, 4-step lazy loading, HWM planning, dialects, memory wiki, and `truth/` external gates to `amos-skill-builder`, `amos-agent-orchestrator`, `amos-cognitive-compression-kernel`, `amos-memory-systems-master`, `amos-llm-wiki`, `amos-claim-verifier`, `amos-audit-repair-master`, `amos-decision-logger`, and `sota_skill_validator.py`.
+- Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: add 3-level Domain → Family → Skill view to `.devin/SKILL_TREE.json` and a `make reproduce` target for the AMOS SOTA validator.

@@ -73,3 +73,22 @@ Search context: identify public GitHub repositories useful for continuously enha
   - Continual learning from trajectories: task-level Skills + action-level Experiences, no parametric training.
   - Visually-grounded trajectory summarization, cross-rollout critique, hierarchical consolidation.
   - Evaluated on VisualToolBench, TIR-Bench, MMSearch-Plus, AgentVista, MMBrowseComp.
+
+## Search 4: production skill marketplaces and hardened registries
+
+- `tech-leads-club/agent-skills` — 5,087 stars, production skill catalog.
+  - Hardened, human-curated skill library with Snyk Agent Scan, lockfiles, content hashing.
+  - Multi-agent installer for Claude Code, Cursor, Cline, GitHub Copilot, Windsurf, Aider, etc.
+  - Skills grouped in categories (`(development)`, `(cloud)`, `(security)`, etc.); `SKILL.md` + `references/` + `scripts/` + templates.
+  - CLI `npx @tech-leads-club/agent-skills` with install/update/list, copy or symlink scope.
+  - Strong governance: Verifier pattern (author != verifier), deterministic `scripts/*.py` gates, `STATE.md` decision log.
+
+- `ivanzwb/agent-skills` — TypeScript skill lifecycle framework.
+  - Open [Agent Skills Specification](https://agentskills.io/specification) implementation.
+  - Progressive loading L0/L1/L2, `manifest.json` tool declarations, dependency installers (npm/pip/extensible).
+  - CLI `skill` with install/uninstall/preview/search; GitHub + ClawHub network install.
+  - Security: zip-slip detection, path traversal prevention, atomic lockfile, JSON persistent registry.
+
+- `ComeOnOliver/skillshub` — Token-efficient skill resolver API.
+  - `skillshub.wtf` search/resolve endpoints: 1 API call returns the best-fit skill for a task.
+  - 5,000+ skills indexed from 230+ repos; no auth required for search/fetch; raw `SKILL.md` via `?format=md`.
