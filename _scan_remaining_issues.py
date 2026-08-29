@@ -58,24 +58,26 @@ def resolve_wikilink(target: str, source_path: Path) -> bool:
     """Try to resolve a wikilink target. Returns True if resolvable."""
     if not target or target.startswith("http"):
         return True  # external or empty
-    key = target.lower().replace(" ", "_")
+
+    # Convention placeholders / non-wikilink artifacts
+    if target in ("...", "none") or "dangerouslysetinnerhtml" in target.lower():
+        return True
+
     key_plain = target.lower()
+    key_underscore = target.lower().replace(" ", "_").replace("-", "_")
+    base = target.rsplit("/", 1)[-1]
+    if base.lower().endswith(".md"):
+        base = base[:-3]
+    base_plain = base.lower()
+    base_underscore = base.lower().replace(" ", "_").replace("-", "_")
 
-    # 1. Basename lookup (any file type — covers -agent JSON files)
-    if key in all_files_any or key_plain in all_files_any:
-        return True
-
-    # 2. MD basename
-    if key in all_md_files or key_plain in all_md_files:
-        return True
-
-    # 3. JSON basename (for [[skill-name-agent]] -> skill-name-agent.json)
-    if key in all_json_files or key_plain in all_json_files:
-        return True
+    for k in (base_underscore, base_plain, key_underscore, key_plain):
+        if k in all_files_any or k in all_md_files or k in all_json_files:
+            return True
 
     # 4. Full relpath lookup (with and without .md)
     for d in (rel_md_paths, rel_json_paths):
-        for k in (key_plain, key_plain + ".md", key, key + ".md"):
+        for k in (key_plain, key_plain + ".md", key_underscore, key_underscore + ".md"):
             if k in d:
                 return True
 
@@ -92,12 +94,20 @@ def resolve_wikilink(target: str, source_path: Path) -> bool:
         except Exception:
             pass
 
-    # 6. Path with spaces->underscores
-    key2 = target.lower().replace(" ", "_")
-    for d in (rel_md_paths, rel_json_paths):
-        for k in (key2, key2 + ".md"):
-            if k in d:
+        # 5b. Vault-root relative path
+        try:
+            resolved = (VAULT / target).resolve()
+            if resolved.exists():
                 return True
+            resolved2 = (VAULT / (target + ".md")).resolve()
+            if resolved2.exists():
+                return True
+        except Exception:
+            pass
+
+    # 6. .devin skill shorthand: [[skill-name]] -> .devin/skills/skill-name/SKILL.md
+    if (VAULT / ".devin" / "skills" / target / "SKILL.md").is_file():
+        return True
 
     return False
 
@@ -119,7 +129,7 @@ for root, dirs, files in os.walk(VAULT, followlinks=True):
         except ValueError:
             continue
         parts = rel.replace("\\", "/").split("/")
-        if any(part.startswith(".") and part not in (".devin",) for part in parts):
+        if any(part.startswith(".") and part not in (".devin", ".github") for part in parts):
             continue
         if "node_modules" in parts:
             continue

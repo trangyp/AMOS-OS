@@ -72,7 +72,7 @@ def parse_frontmatter(text: str) -> tuple[Optional[dict], str]:
     """Split SKILL.md into (frontmatter_dict, body)."""
     if not text.startswith("---"):
         return None, text
-    parts = text.split("---", 2)
+    parts = re.split(r"^---\s*$", text, 2, flags=re.MULTILINE)
     if len(parts) < 3:
         return None, text
     try:
@@ -115,10 +115,10 @@ def validate_skill(skill_path: Path) -> dict:
         return result
 
     text = sm.read_text(encoding="utf-8", errors="replace")
-    body_lines = text.count("\n")
-    result["metrics"]["skill_md_lines"] = body_lines
 
     fm, body = parse_frontmatter(text)
+    body_lines = body.count("\n")
+    result["metrics"]["skill_md_lines"] = body_lines
     if fm is None:
         result["p1_errors"].append("frontmatter_present: SKILL.md has no YAML frontmatter")
         result["valid"] = False
