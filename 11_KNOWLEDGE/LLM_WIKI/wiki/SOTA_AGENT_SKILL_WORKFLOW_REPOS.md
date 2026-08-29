@@ -950,7 +950,7 @@ Cloned `zjunlp/SkillNet` and imported its `skills/skillnet` package as `.devin/s
 - Copied `skills/skillnet/` (287-line `SKILL.md`, `references/`, `scripts/`) to `.devin/skills/amos-skillnet/`.
 - Rewrote `SKILL.md` frontmatter with AMOS fields (`name`, `description`, `compatibility`, `allowed-tools`, `triggers`, `references`, `rscf`) and appended AMOS governance sections: regression prevention (osmosis, grounding-displacement, verification-displacement), grounding support, verification support, data trustworthiness.
 - Created `.devin/agents/amos-skillnet-agent.json` and `.devin/workflows/amos-skillnet-workflow.md` to satisfy G11 1:1:1 binding.
-- Updated `.devin/skills/SkillIndex.md` to 643 skills and added `[[amos-skillnet]]` as a cross-cutting route.
+- Updated `.devin/skills/SkillIndex.md` to 643 skills and added `[[.devin/skills/amos-skillnet/SKILL|amos-skillnet]]` as a cross-cutting route.
 
 ### Validation
 
@@ -1082,7 +1082,7 @@ Implemented the previous recommendation: capture and AMOS-lint the SkillOS `CLAU
 - Created `.devin/skills/amos-skillos/` with `SKILL.md`, `references/skillos-claude.md` (verbatim source), `references/skillos-manifest.md`, and `scripts/skillos_setup.sh`.
 - Wrote AMOS-linted `SKILL.md` covering `boot skillos`, `skillos execute:`, project scaffolding, agent/tool markdown creation, memory logging, and multi-agent pipelines.
 - Added `amos-skillos-agent.json` and `amos-skillos-workflow.md` for 1:1:1 binding.
-- Updated `SkillIndex.md` to 644 skills and added `[[amos-skillos]]` as a cross-cutting route.
+- Updated `SkillIndex.md` to 644 skills and added `[[.devin/skills/amos-skillos/SKILL|amos-skillos]]` as a cross-cutting route.
 - `make validate`: 644/644 skills at 100% SOTA.
 - `agent_sync_validator.py`: 671/671 agents valid.
 
@@ -1172,7 +1172,7 @@ Implemented the SOTA capture and AMOS-linting of the XSkill continual-learning f
 - Created `.devin/skills/amos-xskill/` with `SKILL.md`, `references/xskill-readme.md`, `references/xskill-memory-bank.md`, and `scripts/xskill_scaffold.sh`.
 - Wrote AMOS-linted `SKILL.md` covering Phase I (accumulation: trajectory summarization → experience critique → hierarchical consolidation) and Phase II (inference: decompose → retrieve → adapt → inject).
 - Added `amos-xskill-agent.json` and `amos-xskill-workflow.md` for 1:1:1 binding.
-- Updated `SkillIndex.md` to 645 skills and added `[[amos-xskill]]` cross-cutting route.
+- Updated `SkillIndex.md` to 645 skills and added `[[.devin/skills/amos-xskill/SKILL|amos-xskill]]` cross-cutting route.
 - `make validate`: 645/645 skills at 100% SOTA.
 - `agent_sync_validator.py`: 672/672 agents valid.
 
@@ -1354,3 +1354,18 @@ Tech Leads Club Agent Skills brings hardened skill-registry controls (lockfiles,
 ### Synthesis
 
 `ivanzwb/agent-skills` is the TypeScript runtime that materializes the `agentskills.io` spec: skill package lifecycle, three-level progressive loading, and `manifest.json` tool declarations. AMOS can align its `SKILL.md` frontmatter (L0) and `references/` (L2) to the same loading model.
+
+## 2026-08-30 | audit | Scanned for structural errors, fixed stale count references, full `make all` passes
+
+- `make all` passed:
+  - 655/655 skills at 100% SOTA
+  - 682/682 agents valid
+  - 689/689 workflows pass, 0 warnings
+- Fixed stale count references:
+  - `amos-agent-orchestrator/SKILL.md` and `amos-agent-orchestrator-agent.json`: 678 → 682 agents
+  - `amos-workflow-runner/SKILL.md`: 200+ → 689 workflows
+  - `amos-agent-systems-master/SKILL.md`: 678-agent registry → 682-agent registry
+  - `amos-agent-registry-index.md`: 678 → 682 JSON agents
+  - `AGENTS.md`: state and count table updated to 655/682/689
+- Rebuilt `.devin/SKILL_TREE.json`.
+- Commit `1ee236e58` also improved `sota_skill_validator.py` frontmatter parser to ignore `---` inside quoted values.

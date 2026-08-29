@@ -552,3 +552,10 @@ Continue scanning for the next SOTA repo to capture, or implement the next vault
 - Captured and imported `ivanzwb/agent-skills` as `amos-ivanzwb-agent-skills`.
 - Committed in `stitch_project_cosmo` and `AMOS_OS` vault.
 - 100% SOTA, 100% workflow, 100% agent validity.
+
+## [2026-08-30] audit | Scanned for structural errors and fixed stale count references
+
+- `make all`: 655 skills, 682 agents, 689 workflows, 100% SOTA, 0 warnings.
+- Fixed `678`/`200+` stale count references to current corpus counts.
+- Rebuilt `SKILL_TREE.json`; updated `AGENTS.md` state and table.
+- Commit `1ee236e58`: frontmatter parser robustness + count audit.
