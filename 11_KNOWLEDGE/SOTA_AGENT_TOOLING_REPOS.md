@@ -1618,6 +1618,62 @@ Added a document-to-memory pipeline optimized for agentic retrieval.
 - **Total new repos**: 1 (Knowhere)
 - **Cumulative SOTA catalog**: 74 repos
 
+## Round 37: Durable context, agent guardrails, and sandbox orchestration (2026-09-12)
+
+Added six high-signal repos addressing three SOTA concerns AMOS had not yet cataloged: (1) durable cross-session agent state, (2) repo-level guardrails for coding agents, and (3) sandbox-first orchestration. These map directly to AMOS `amos-memory-systems-master`, `amos-security-safety-master`, and `amos-os-runtime-master`.
+
+### 75. Durable Context Spine (DCS) — `drewmattie-code/Durable-Context-Spine` (new/niche)
+
+- **Key feature**: Open spec (CC BY 4.0 + MIT) for the temporal-persistence layer that makes agent state, memory, and knowledge survive across context-window boundaries, disconnected sessions, and the passage of time. Defines durable store as system of record, verification-gated "done" ledger, clean-exit resumable state, deterministic startup sequence, progressive knowledge disclosure, and lossy-compaction flush rules.
+- **AMOS integration**: Adopt DCS as the canonical pattern for AMOS `amos-context-compaction-recoverability-rscf` and `amos-distinct-working-memory-rscf`. The verification-gated ledger maps to AMOS L19 proof capsules; the durable-store-as-record invariant maps to AMOS K_MEMORY_ADMISSION. Use DCS to harden multi-session AMOS workflows that currently rely on conversation history.
+
+### 76. Portable Persistent Goal Protocol (PPGP) — `Fatboy-coder/ppgp` (new/niche, v0.1.2)
+
+- **Key feature**: Vendor-neutral continuity protocol for long-running coding agents. Externalizes minimal operational state (current goal, frozen decisions, verified state, remaining work, real blockers, durable lessons, next executable action) into repository-visible state so a fresh agent can resume without human reconstruction. Treats conversation history as disposable cache. Defines CONSTITUTION / ROADMAP / MEMORY / ACTIVE_GOAL / GIT layers.
+- **AMOS integration**: Map PPGP's ACTIVE_GOAL to AMOS `amos-task-resolver` TaskContract; map MEMORY to AMOS `amos-k-memory-admission`; map CONSTITUTION to AMOS Canon laws. Use PPGP as the wire format for AMOS agent handoff across context compaction and session restarts. Aligns with AMOS L22 deterministic replayability.
+
+### 77. GitHub Agentic Workflows — `github/gh-aw` (GitHub official)
+
+- **Key feature**: GitHub's official agentic workflow runtime: markdown workflows running coding agents (Copilot, Claude Code, Gemini, Codex) in GitHub Actions with strong guardrails — sandboxing, scoped permissions, gated outputs, threat detection, expression allowlisting, action pinning. `gh aw compile` produces hardened `.lock.yml` GitHub Actions workflows.
+- **AMOS integration**: Use as the CI/CD execution substrate for AMOS workflows. Convert AMOS workflow MD files to `gh-aw` markdown sources; let `gh aw compile` produce hardened Actions workflows. The layered defense-in-depth model (sandbox + firewall + safe outputs + threat detection) directly maps to AMOS `amos-security-safety-master` enforcement gates.
+
+### 78. agent-guardrails — `logi-cmd/agent-guardrails` (~8 stars)
+
+- **Key feature**: Local safety layer for AI coding agents (Claude Code, Cursor, Windsurf, Codex via MCP). Detects scope violations, missing tests, risks before merge. Generates repo-local helper files and MCP config for each supported agent. Prints score, verdict, findings, next actions, and review summary.
+- **AMOS integration**: Wire as a per-PR gate in AMOS CI. The scope-violation detector maps to AMOS `amos-boundary-admission-governor`; the missing-test check maps to AMOS `amos-formal-agent-skill-verification-rscf`; the risk surface maps to AMOS `amos-risk-constraint-governor`. Generate `CLAUDE.md` / `.codex/instructions.md` / `.cursor/rules/` from AMOS agent JSON.
+
+### 79. agentguard — `SumonMSelim/agentguard` (~55 stars)
+
+- **Key feature**: Universal security guardrails and workflow policies for AI coding agents. Blocks dangerous operations at the hook level (not just instructions). Supports Claude Code, Kiro, Cursor, Grok, Codex. Shell hooks + settings.json + instruction file enforcement. Global and per-project skills.
+- **AMOS integration**: Deploy agentguard hooks as the runtime enforcement layer for AMOS `amos-security-safety-master`. Map AMOS safety_constraints to agentguard hook rules. The hook-level enforcement (vs. instruction-only) satisfies AMOS L0 integrity requirements — guardrails must be enforceable, not advisory.
+
+### 80. Vigilante — `aliengiraffe/vigilante` (~37 stars)
+
+- **Key feature**: Sandbox-first orchestration layer for coding agents. Isolates every task in a git worktree, enforces strict credential scoping, provides full audit logs. Turns GitHub issues into a guarded issue-to-PR pipeline: one worktree per task, deterministic lifecycle, scoped execution, durable operator trail through issue comments, session state, and PRs. Local session tracking for cleanup, resume, redispatch, recovery.
+- **AMOS integration**: Use Vigilante as the orchestration layer for parallel AMOS agent execution. The one-worktree-per-task model maps to AMOS `amos-delegation-lifecycle`; credential scoping maps to AMOS `amos-k-identity` and `amos-portable-agent-authorization-rscf`; the audit trail maps to AMOS `amos-delegation-log` and `amos-revocation-log`. Supports AMOS L23 MVCC concurrency by isolating each agent's working state.
+
+### 81. Warden — `Gentoflakes/warden` (new/niche)
+
+- **Key feature**: Audit-gated orchestration for parallel coding agents. Runs each unit of work as an isolated agent in its own git worktree, then requires two independent gates before merge: (1) structural audit agent with fresh context diffs the branch and interrogates it for scope violations, weakened validation, symptom patches, broken interfaces; (2) `warden digest` ranks surviving branches by evidence and predicts merge conflicts without checkout; (3) `warden integrate` builds a dependency-aware merge train.
+- **AMOS integration**: Adopt Warden's two-gate model for AMOS multi-agent workflow execution. The independent audit agent maps to AMOS `amos-claim-verifier` and `amos-process-compliance-auditor-rscf`; the fail-closed verdict (no verdict = fail) maps to AMOS L0 fail-closed governance; the evidence-ranked digest maps to AMOS `amos-repair-priority-governor`. Use for parallel AMOS agent runs where merge-order matters.
+
+## Round 37 Integration Priority
+
+1. **Durable state**: Adopt DCS + PPGP patterns for AMOS cross-session continuity (maps to memory-systems-master, context-compaction-recoverability)
+2. **CI guardrails**: Wire agent-guardrails + agentguard into AMOS CI for per-PR scope/risk enforcement (maps to security-safety-master)
+3. **Sandbox orchestration**: Evaluate Vigilante + Warden for parallel AMOS agent execution with isolated worktrees and audit-gated merges (maps to os-runtime-master, delegation-lifecycle)
+4. **Official substrate**: Use GitHub Agentic Workflows as the hardened CI runner for AMOS workflow MD files
+
+## Round 37 Provenance
+
+- **Research date**: 2026-09-12
+- **Researcher**: Devin (web search for "agent memory context management durable state 2026" and "agent guardrails workflow orchestration 2026")
+- **Epistemic class**: EMPIRICAL (star counts from GitHub, may change) + AMOS_MODEL (integration mappings)
+- **RSCF state**: SOURCE_CLAIM (repo features from README/docs) → DERIVED (AMOS integration recommendations)
+- **Categories covered**: durable context, continuity protocol, CI guardrails, hook enforcement, sandbox orchestration, audit-gated merges
+- **Total new repos**: 7
+- **Cumulative SOTA catalog**: 81 repos
+
 ## Round 37: Agent browser automation (2026-08-29)
 
 Added a fast browser automation CLI purpose-built for AI agents.
@@ -1655,3 +1711,93 @@ Added an accessibility-tree-based desktop automation CLI for AI agents.
 - **Categories covered**: desktop automation, GUI agent, accessibility, computer use
 - **Total new repos**: 1 (agent-desktop)
 - **Cumulative SOTA catalog**: 76 repos
+
+## Round 39: Agent sandbox runtime (2026-08-29)
+
+Added a general-purpose sandbox platform for coding, GUI, and RL agents.
+
+### 77. OpenSandbox — `alibaba/OpenSandbox` (~14,797 stars)
+
+- **Key feature**: Secure, fast, extensible sandbox runtime for AI apps: multi-language SDKs, `osb` CLI, MCP server, Docker/Kubernetes runtimes, built-in command/filesystem/code-interpreter environments, sandbox protocol lifecycle/execution APIs.
+- **AMOS integration**: Use OpenSandbox as the default execution substrate for AMOS code agents; map every sandbox create/run/destroy to an RSCF provenance receipt and bind the MCP tools into the AMOS tooling layer.
+
+## Round 39 Provenance
+
+- **Research date**: 2026-08-29
+- **Researcher**: Devin (live GitHub web search)
+- **Epistemic class**: EMPIRICAL (star counts from GitHub, may change)
+- **RSCF state**: SOURCE_CLAIM (repo features from README/docs) → DERIVED (AMOS integration recommendation)
+- **Categories covered**: sandbox, code execution, agent runtime, MCP
+- **Total new repos**: 1 (OpenSandbox)
+- **Cumulative SOTA catalog**: 77 repos
+
+## Round 40: Skill linters, agent OS, and production multi-agent harnesses (2026-09-12)
+
+Added ten repos across three categories: (1) skill linters/security scanners for SKILL.md quality gates, (2) a Rust-based Agent OS, and (3) production-grade multi-agent harnesses and workflow orchestrators. These map to AMOS `skill-check`, `amos-security-safety-master`, `amos-os-runtime-master`, and `amos-agent-systems-master`.
+
+### 78. OpenFang — `RightNow-AI/openfang` (~18,136 stars)
+
+- **Key feature**: Open-source Agent Operating System built in Rust (137K LOC, 14 crates, single ~32MB binary). Autonomous agents on schedules 24/7, knowledge graphs, monitoring, dashboard reporting. Not a chatbot framework — a full OS for autonomous agents.
+- **AMOS integration**: Compare OpenFang's single-binary OS approach with AMOS OS Kernel v4.4; evaluate Rust runtime patterns for AMOS deterministic execution pipeline; map OpenFang's autonomous scheduling to AMOS `amos-os-runtime-master` mode transitions.
+
+### 79. OpenHive — `adenhq/hive` (~10,985 stars)
+
+- **Key feature**: Multi-agent harness for production workloads. Colonies of agents: a Queen (persistent, client-facing lead) plus worker clones. One loop controlling many loops — no graph to compile. Shared tracker ledger + persistent task plan, crash-safe state, deep observability, human oversight.
+- **AMOS integration**: Map AMOS agent JSON to Hive's Queen/worker colony model; evaluate shared ledger for AMOS `delegation-lifecycle` and `delegation-log`; compare Hive's one-primitive-many-loops with AMOS `amos-agent-orchestrator`.
+
+### 80. skill-validator — `agent-ecosystem/skill-validator` (~224 stars)
+
+- **Key feature**: CLI tool that validates and scores Agent Skill packages against the agentskills.io spec. Goes beyond spec compliance: checks link resolution, flags files that shouldn't be in a skill directory, reports token counts, analyzes content quality metrics, detects cross-language contamination, offers LLM-as-judge scoring. Pre-commit hooks for all major agent platforms.
+- **AMOS integration**: Run `skill-validator` in AMOS CI alongside `skill-check`; use content density and specificity metrics to gate PRs; adopt LLM-as-judge scoring for AMOS skill quality evaluation.
+
+### 81. skilldoctor — `studiomeyer-io/skilldoctor` (new/niche)
+
+- **Key feature**: Linter and security scanner for AI-agent skill files (SKILL.md, AGENTS.md, subagent frontmatter). Catches prompt-injection text, data-exfiltration lines, over-broad `tools:` grants, missing/vague descriptions. A–F grading, `--fix` mode, SARIF output, GitHub Action. Heuristic-based, not a sandbox.
+- **AMOS integration**: Add skilldoctor as a pre-merge security gate for AMOS skills; generate SARIF reports for CI; use A–F grading to block low-quality skills from promotion.
+
+### 82. agent-skills-lint — `greggdonovan/agent-skills-lint` (new/niche)
+
+- **Key feature**: Fast, spec-compliant linter and formatter for Agent Skills (SKILL.md) written in Rust. Validates required YAML frontmatter, enforces skill naming rules (NFKC normalization), directory/name matching, description length limits. Fix mode normalizes formatting and repairs common issues. Pre-commit/prek hooks.
+- **AMOS integration**: Evaluate as a faster alternative to Python-based linters for AMOS CI; use fix mode to normalize skill frontmatter across 714 skills; enforce NFKC naming consistency.
+
+### 83. skill-linter — `jrusz/skill-linter` (new/niche)
+
+- **Key feature**: Linter for AI agent skill files with 47 rules across 5 categories: structural, frontmatter, content, security, and best practices. Supports text, JSON, SARIF, and GitHub Actions output. Optional LLM-powered deep analysis via Anthropic API or Google Cloud Vertex AI. Can lint remote GitHub repos directly.
+- **AMOS integration**: Use 47-rule suite as comprehensive AMOS skill quality gate; leverage remote GitHub repo linting for external skill evaluation; integrate LLM deep analysis for semantic skill auditing.
+
+### 84. sklint — `sven1103-agent/sklint` (new/niche)
+
+- **Key feature**: Small Go CLI to validate agent skills against the agentskills.io specification. Validates structure, frontmatter rules, required fields, and common best-practice issues. CI-ready with prebuilt binaries for Linux, macOS, Windows. Tagged releases (vYYYY-MM-DD).
+- **AMOS integration**: Use as a lightweight CI-side validator for AMOS skills; deploy as a fast pre-commit hook for skill directory structure validation.
+
+### 85. Spectra — `alicank/Spectra` (new/niche)
+
+- **Key feature**: .NET workflow orchestration framework for AI agents. Define workflows as directed graphs in C# or JSON. Mix code functions, LLM prompts, autonomous agents, human approval gates, subgraphs. Multi-provider (OpenAI, Claude, Gemini, Ollama, OpenRouter). Checkpointing, time travel, interrupts, streaming, prompt management with YAML frontmatter + templating.
+- **AMOS integration**: Evaluate Spectra's graph-based workflow model for AMOS `amos-workflow-runner`; compare checkpointing/time-travel with AMOS `L22_REPLAYABILITY`; map YAML frontmatter prompt management to AMOS skill frontmatter patterns.
+
+### 86. Overseer — `nikitavivat/Overseer` (new/niche)
+
+- **Key feature**: Open-source framework for reliable multi-agent AI workflows. Runtime, observability, and quality control in one place. Every step is a node in a graph; verifiers are first-class nodes; every attempt is snapshotted. When the system fails its own checks, it pauses and waits. SQLite with JSON payloads for shareable, replayable, grep-able snapshots.
+- **AMOS integration**: Map Overseer's verifier-as-first-class-node pattern to AMOS `amos-rscf-epistemic-master` validation gates; evaluate SQLite snapshot approach for AMOS `L22_REPLAYABILITY` and `K_SYSTEM_STATE`; compare pause-on-failure with AMOS `fail-closed-governance`.
+
+### 87. Xagent — `xorbitsai/xagent` (~291 stars)
+
+- **Key feature**: Build personal agents and enterprise AI workforces that plan, delegate, use tools, and deliver real work. Three modes: personal agent (one-off tasks), team workforce (reusable agents, shared knowledge), enterprise platform (private data, models, infrastructure). No-code agent builder with live preview and publishing.
+- **AMOS integration**: Compare Xagent's three-tier model with AMOS agent tiers; evaluate no-code builder for AMOS skill-to-agent conversion; map team workforce publishing to AMOS `agent-registry` promotion lifecycle.
+
+## Round 40 Integration Priority
+
+1. **Skill quality gates**: Adopt skill-validator + skilldoctor + agent-skills-lint + skill-linter + sklint as a layered CI quality gate for all 714 AMOS skills (maps to `skill-check`, `amos-security-safety-master`)
+2. **Agent OS comparison**: Benchmark OpenFang's Rust single-binary OS against AMOS OS Kernel v4.4 for runtime patterns and autonomous scheduling (maps to `amos-os-runtime-master`)
+3. **Production harness**: Evaluate OpenHive's Queen/worker colony model for AMOS multi-agent delegation (maps to `amos-agent-orchestrator`, `delegation-lifecycle`)
+4. **Workflow orchestration**: Study Spectra's graph-based checkpointing and Overseer's verifier-as-node pattern for AMOS workflow hardening (maps to `amos-workflow-runner`, `amos-rscf-epistemic-master`)
+
+## Round 40 Provenance
+
+- **Research date**: 2026-09-12
+- **Researcher**: Devin (web search for "best open source AI agent framework 2025 2026 github repository", "agent skill SKILL.md linter validator github 2025 2026", "AI agent workflow orchestration framework github 2025 2026 new")
+- **Epistemic class**: EMPIRICAL (star counts from GitHub, may change) + AMOS_MODEL (integration mappings)
+- **RSCF state**: SOURCE_CLAIM (repo features from README/docs) → DERIVED (AMOS integration recommendations)
+- **Categories covered**: skill linting, skill security scanning, agent OS, production multi-agent harness, workflow orchestration, reliable agent workflows, enterprise agent platform
+- **Total new repos**: 10
+- **Cumulative SOTA catalog**: 87 repos

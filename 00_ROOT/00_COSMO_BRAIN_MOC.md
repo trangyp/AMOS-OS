@@ -194,3 +194,4 @@ rscf:
 - [[skill-catalog|AMOS Skill Catalog]]
 - [[skill-registry-catalog|AMOS Skill Registry Catalog]]
 - [[amos-skill-registry-gateway|AMOS Skill Registry Gateway]]
+- [[SOTA_AGENT_TOOLING_REPOS|AMOS SOTA Agent Tooling Repositories]]
