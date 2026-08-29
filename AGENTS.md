@@ -5,12 +5,11 @@ source: .
 tags:
 - note
 - vault
-- canon/general
+- epistemic/amos_model
 - ratpak
 - memory
 - 00-home
 - amos-home
-- moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -55,10 +54,10 @@ Three skill/knowledge systems — now fully consistent:
 
 | System | Location | Count | Status |
 |--------|----------|-------|--------|
-| Devin skills | `.devin/skills/` | 714 | **~100% coverage** — all brain spec Markdown files covered; 0 empty skill dirs, 0 broken dependencies; all skills enriched with Capabilities, Operations, and Detailed Reference sections; quantum/fractal/math priority fully covered; **22 NEW QFM convergence skills added 2026-08-25 (v3.1): 14 from v3.0 + 8 from v3.1 (math-fractal-25000-quantum-bridge, strict-fractal-30000-quantum-atlas, physics-cosmos-quantum-fractal-bridge, cognitive-max-ubi-quantum-fractal, strategy-game-quantum-fractal-nash, wealth-game-50000-fractal-quantum-economy, biology-fractal-25000-quantum-coherence, all-domain-fractal-25000-quantum-math-master); 48 total QFM convergence skills** |
+| Devin skills | `.devin/skills/` | 655 | 100% SOTA-compliant — 0 critical failures, 0 warnings; 24 roots, 45 domains, 66 families in `SKILL_TREE.json`; quantum/fractal/math and SOTA agent-skill registry skills fully covered |
 | Hermes skills | `~/.hermes/skills/` | 2029 | (Pre-bulk-conversion snapshot; resync required) |
-| Devin agents | `.devin/agents/` | 834 | 703 JSON agents (all with real capabilities, 8 caps each, 0 broken dependencies) + 1 agent registry index MD; consistent `amos-{name}-agent.json` naming, no duplicates; quantum/fractal/math agents fully covered; **22 NEW QFM convergence agents added 2026-08-25 (v3.1); 51 total QFM convergence agents** |
-| Devin workflows | `.devin/workflows/` | 837 | 1 master index + operational workflows (MD) + JSON workflow specs; 0 stubs, 0 orphaned files, 0 broken agent deps, consistent `amos-*` naming; quantum/fractal/math workflows fully covered; **22 NEW QFM convergence workflows added 2026-08-25 (v3.1); 59 total QFM convergence workflows** |
+| Devin agents | `.devin/agents/` | 682 | 682/682 JSON agents valid; 0 broken dependencies; consistent `amos-{name}-agent.json` naming; SOTA repo agents (AIOS, Addy Osmani, Anthropic, Tech Leads Club, ivanzwb) integrated |
+| Devin workflows | `.devin/workflows/` | 689 | 689/689 workflows pass validation with 0 errors, 0 warnings; 1 master index + operational workflows (MD); consistent `amos-*` naming |
 | Obsidian vault | `.obsidian/` + `docs/` | 21 config, 10 MOCs, 22 ref docs, 15 canvases | Health check: all pass |
 
 **Bulk conversion (2026-08-24) — COMPLETE:**
