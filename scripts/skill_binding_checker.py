@@ -96,7 +96,7 @@ def load_workflows(workflows_dir: Path) -> Dict[str, Path]:
 
 
 def match_skill_to_agent(skill_name: str, agents: dict) -> Optional[Path]:
-    """Match a skill to its agent, handling -master suffix."""
+    """Match a skill to its agent, handling -master suffix and amos- prefix."""
     # Exact match
     if skill_name in agents:
         return agents[skill_name]
@@ -107,11 +107,16 @@ def match_skill_to_agent(skill_name: str, agents: dict) -> Optional[Path]:
     # Try with -master added (for non-master skills)
     if f"{skill_name}-master" in agents:
         return agents[f"{skill_name}-master"]
+    # Try amos- prefixed (canonical agent naming convention)
+    if f"amos-{skill_name}" in agents:
+        return agents[f"amos-{skill_name}"]
+    if f"amos-{base}" in agents:
+        return agents[f"amos-{base}"]
     return None
 
 
 def match_skill_to_workflow(skill_name: str, workflows: dict) -> Optional[Path]:
-    """Match a skill to its workflow, handling -master suffix."""
+    """Match a skill to its workflow, handling -master suffix and amos- prefix."""
     if skill_name in workflows:
         return workflows[skill_name]
     base = skill_name.removesuffix("-master")
@@ -119,6 +124,10 @@ def match_skill_to_workflow(skill_name: str, workflows: dict) -> Optional[Path]:
         return workflows[base]
     if f"{skill_name}-master" in workflows:
         return workflows[f"{skill_name}-master"]
+    if f"amos-{skill_name}" in workflows:
+        return workflows[f"amos-{skill_name}"]
+    if f"amos-{base}" in workflows:
+        return workflows[f"amos-{base}"]
     return None
 
 
@@ -191,20 +200,24 @@ def check_binding_integrity(skills_dir: Path, agents_dir: Path, workflows_dir: P
 
     for agent_base, agent_path in agents.items():
         if agent_base not in matched_agent_bases:
-            # Double-check: maybe it matches a skill with -master added
+            # Double-check: maybe it matches a skill with -master added or an amos- prefix
             if f"{agent_base}-master" not in skills and agent_base not in skills:
-                results["orphan_agents"].append({
-                    "agent": agent_path.name,
-                    "base": agent_base,
-                })
+                agent_core = agent_base.removeprefix("amos-")
+                if not (agent_core in skills or f"{agent_core}-master" in skills):
+                    results["orphan_agents"].append({
+                        "agent": agent_path.name,
+                        "base": agent_base,
+                    })
 
     for wf_base, wf_path in workflows.items():
         if wf_base not in matched_workflow_bases:
             if f"{wf_base}-master" not in skills and wf_base not in skills:
-                results["orphan_workflows"].append({
-                    "workflow": wf_path.name,
-                    "base": wf_base,
-                })
+                wf_core = wf_base.removeprefix("amos-")
+                if not (wf_core in skills or f"{wf_core}-master" in skills):
+                    results["orphan_workflows"].append({
+                        "workflow": wf_path.name,
+                        "base": wf_base,
+                    })
 
     stats = {
         "total_skills": len(skills),
