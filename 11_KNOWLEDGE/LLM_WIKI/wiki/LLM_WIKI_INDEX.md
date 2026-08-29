@@ -31,6 +31,7 @@ Content catalog for the AMOS LLM Wiki. Updated on every ingest, query, and lint.
 |------|---------|--------------|
 | [[karpathy_llm_wiki_summary]] | Karpathy's LLM Wiki pattern, adapted for AMOS | 1 |
 | [[SOTA_AGENT_SKILL_WORKFLOW_REPOS_2026_08_25]] | Raw capture of SOTA agent, skill and workflow repos | 2 |
+| [[ZJUNLP_SKILLNET_README_2026_08_30]] | zjunlp/SkillNet README, re-fetched for AMOS trial | 1 |
 
 ## Concepts
 
@@ -81,3 +82,9 @@ claim_class: AMOS_MODEL
 - New raw source: [[SOTA_AGENT_SKILL_WORKFLOW_REPOS_2026_08_29]] · [[SKILLNET_README_2026_08_29]]
 - Updated synthesis: [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]]
 - Activity logged: [[LLM_WIKI_LOG]]
+
+## 2026-08-30 updates
+
+- New raw source: [[ZJUNLP_SKILLNET_README_2026_08_30]]
+- Updated index and log: [[LLM_WIKI_INDEX]] · [[LLM_WIKI_LOG]]
+- Done: `amos-skillnet` cloned, AMOS-linted, SOTA-validated, and wired into `SkillIndex.md`; logged in [[LLM_WIKI_LOG]]
