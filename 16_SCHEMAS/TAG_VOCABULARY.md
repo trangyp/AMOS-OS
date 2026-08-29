@@ -165,3 +165,58 @@ drop:
 - [ ] Approve hyphen/lowercase/singular convention
 - [ ] Approve dropping filename-leak and `lNN` noise tags
 - [ ] Approve moving mass graph-enablement tags out of content
+
+---
+
+# Pass 2 — Move Graph-Enablement Tags to Properties (Option A)
+
+**Status: PROPOSAL — approved strategy (Option A). Not yet applied.**
+
+## What this pass does
+
+Move the *graph-enablement / filename-mirror* tags OUT of content `tags:` and into
+frontmatter `properties` (or rely on existing wikilinks), so the content tag space
+becomes meaningful and the graph behavior is preserved via filters.
+
+## Evidence (measured post-Pass-1)
+
+| Tag family | Nature | Distinct | Instances |
+|---|---|---|---|
+| `*-moc` | graph-federation; ~6.9k files tagged but only 1,067 are MOCs | 691 | 18,770 |
+| `00-*` (e.g. `00-home`) | root/graph roots | ~20 | ~9,000 |
+| `index-*` | filename-mirror | 32+ | ~495 |
+| `-readme` / `-map` / `-contract` / `-registry` | filename-mirror (fold into `type:`) | 325/205/301/126 | ~8,800 |
+| `lNN` matrix layers (`l00-reality-environment`…) | matrix membership (also in `domain/` + folder) | 30 | ~1,794 |
+
+## Scope of THIS pass (agreed Option A)
+
+Strip from content `tags:` and express as properties/links:
+
+1. `*-moc` tags — remove from all files; on the ~1,067 true MOC files add `moc: true`.
+   MOC relationships are already preserved by `[[...MOC]]` wikilinks + `**MOC:** [[…]]`.
+2. `00-*` graph-root tags (`00-home`, `00-root-*`, …) — remove; roots are already
+   expressed by `[[00_HOME]]`, `[[00_ROOT_MOC]]` links and `type:`.
+3. `index-*` tags — remove; fold into `type:` (`index`) — already covered per-file by
+   `type: index` in most `00_INDEX/*` files, and filename mirrors it.
+4. `amos-rscf-nodes` (mass RSCF-federation tag) — remove; RSCF relations already live
+   in the `RSCF-NODE` block + `RSCF-RELATIONS` in each file.
+
+**Templates are the re-emission source:** `Templates/linked-note.md` and
+`Templates/Templates_MOC.md` hardcode `00-home`, `00-root-moc`, `amos-rscf-nodes`, and
+`-moc`. Fix BOTH templates so new notes stop re-inheriting graph noise. Without this,
+a one-time migration re-drifts immediately.
+
+## Explicitly OUT of scope (deferred, need separate sign-off)
+
+- `-readme` / `-map` / `-contract` / `-registry` / `-canon` artifact-suffix folds into `type:` — LARGE (~8.8k) and touches `type:` semantics; separate decision.
+- `lNN` law-gate keep vs matrix-layer drop — the two `lNN` systems overlap numerically; needs a canonical naming decision (`law/LN-*` vs drop matrix tags), separate from this pass.
+
+These are recorded here so scope is explicit and no accidental over-reach.
+
+## Execution (same governed flow as Pass 1)
+
+1. Fix `Templates/*.md` (source re-emission) — draft separately.
+2. Migration: parse `tags:`; strip `*-moc`, `00-*`, `index-*`, `amos-rscf-nodes`;
+   add `moc: true` property on files that ARE MOCs; write with `--backup-dir`.
+3. Dry-run first (no writes) → present diff → on approval, apply + re-audit.
+4. Re-audit: expect `*-moc`, `00-*`, `index-*` counts → 0; distinct-tag count drops sharply.

@@ -133,10 +133,19 @@ def check_duplicate_headings(text, rel):
             continue
         if in_code:
             continue
-        m = re.match(r'^(#{1,2})\s+(.+)$', line)
+        m = re.match(r'^(#{1})\s+(.+)$', line)
         if m:
             level = len(m.group(1))
             heading = m.group(2).strip().lower()
+            # Skip decorative divider lines (only =, -, *, # chars)
+            if re.match(r'^[=\-*#]+\s*$', heading):
+                continue
+            # Skip Python coding declaration lines
+            if re.match(r'^[-*]+\s+coding[:\s]', heading, re.I):
+                continue
+            # Skip "configure logging" and similar code comments
+            if heading.startswith('configure ') or heading.startswith('import ') or heading.startswith('from '):
+                continue
             key = (level, heading)
             headings[key] = headings.get(key, 0) + 1
     for (level, heading), count in headings.items():
