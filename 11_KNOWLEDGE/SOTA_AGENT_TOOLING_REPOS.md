@@ -1617,3 +1617,22 @@ Added a document-to-memory pipeline optimized for agentic retrieval.
 - **Categories covered**: agentic RAG, document ingestion, knowledge memory, multi-modal parsing
 - **Total new repos**: 1 (Knowhere)
 - **Cumulative SOTA catalog**: 74 repos
+
+## Round 37: Agent browser automation (2026-08-29)
+
+Added a fast browser automation CLI purpose-built for AI agents.
+
+### 75. Agent Browser — `vercel-labs/agent-browser` (~41,505 stars)
+
+- **Key feature**: Fast native Rust CLI for browser automation: navigation, snapshots, interaction, waits, screenshots, JS eval, network inspection, cookies/storage, React tree inspection, mobile viewport/touch, all exposed as MCP tools.
+- **AMOS integration**: Evaluate Agent Browser as the web-browsing execution harness for AMOS agents; map browser sessions to traceable RSCF provenance receipts, and wrap skills around the `chat`, `network`, `state`, and `tabs` command groups.
+
+## Round 37 Provenance
+
+- **Research date**: 2026-08-29
+- **Researcher**: Devin (live GitHub web search)
+- **Epistemic class**: EMPIRICAL (star counts from GitHub, may change)
+- **RSCF state**: SOURCE_CLAIM (repo features from README/docs) → DERIVED (AMOS integration recommendation)
+- **Categories covered**: agent browser, browser automation, MCP tools, web interaction
+- **Total new repos**: 1 (Agent Browser)
+- **Cumulative SOTA catalog**: 75 repos
