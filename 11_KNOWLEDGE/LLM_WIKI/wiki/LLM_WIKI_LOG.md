@@ -508,3 +508,12 @@ Continue scanning for the next SOTA repo to capture, or implement the next vault
 - Updated `SkillIndex.md` to 646 skills.
 - `make validate`: 646/646 skills at 100% SOTA; `agent_sync_validator.py`: 673/673 agents valid.
 - Logged implementation and next steps in `SOTA_AGENT_SKILL_WORKFLOW_REPOS`.
+
+## [2026-08-30] implement | Imported AgentSkillOS as `amos-agentskillos`
+
+- Fetched `ynulihao/AgentSkillOS` README and captured to `11_KNOWLEDGE/LLM_WIKI/raw/AGENTSKILLOS_README_2026_08_30.md`.
+- Created `amos-agentskillos` skill with references and scaffold script.
+- Added `amos-agentskillos-agent.json` and `amos-agentskillos-workflow.md`.
+- Updated `SkillIndex.md` to 647 skills.
+- `make validate`: 647/647 skills at 100% SOTA; `agent_sync_validator.py`: 674/674 agents valid.
+- Logged implementation and next steps in `SOTA_AGENT_SKILL_WORKFLOW_REPOS`.

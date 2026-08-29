@@ -1217,3 +1217,29 @@ Implemented the vault recommendation to add `assets/` frontmatter support and to
 ### Recommended next step
 
 Continue scanning for the next high-value repo such as `ai-os`, `addyosmani/agent-skills`, `HoangNguyen0403/agent-skills-standard`, `wuyifeishu/nexus-agentos`, or `tech-leads-club/agent-skills`; capture the most relevant and AMOS-lint it into a new `amos-*` skill.
+
+## 2026-08-30 | implement | Imported AgentSkillOS `ynulihao/AgentSkillOS` as `amos-agentskillos`
+
+Implemented the vault's next SOTA recommendation by capturing the AgentSkillOS 200,000+ skill retrieval and orchestration framework.
+
+### Results
+
+- Captured `ynulihao/AgentSkillOS` main README to `11_KNOWLEDGE/LLM_WIKI/raw/AGENTSKILLOS_README_2026_08_30.md`.
+- Created `.devin/skills/amos-agentskillos/`:
+  - `SKILL.md` covering skill tree construction, retrieval, DAG orchestration, and human-in-the-loop checkpoints.
+  - `references/agentskillos-readme.md` and `references/agentskillos-tree.md`.
+  - `scripts/agentskillos_scaffold.sh`.
+- Added `amos-agentskillos-agent.json` and `amos-agentskillos-workflow.md` for 1:1:1 binding.
+- Updated `SkillIndex.md` to 647 skills.
+- `make validate`: 647/647 skills at 100% SOTA across 19 gates.
+- `agent_sync_validator.py`: 674/674 agents valid.
+
+### AMOS integration points
+
+- `amos-agentskillos` maps to `amos-agent-orchestrator` and `amos-workflow-runner` for large-scale skill composition.
+- Capability tree pattern can be integrated into `.devin/SKILL_TREE.json` for 200,000+ skill indexing.
+- DAG orchestration pattern strengthens `amos-workflow-runner` workflow execution.
+
+### Recommended next step
+
+Continue scanning for the next high-value repo, or implement a concrete runtime enhancement such as adding a YAML DAG linter to `amos-workflow-runner` using the SkillFlow/AgentSkillOS orchestration schemas as references.
