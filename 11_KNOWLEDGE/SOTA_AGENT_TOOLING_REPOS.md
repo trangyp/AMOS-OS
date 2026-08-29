@@ -2312,3 +2312,28 @@ Added a production chat interface for interacting with LangGraph agents.
 - **Categories covered**: agent chat UI, consumer-facing agent interface, LangGraph, Next.js, streaming
 - **Total new repos**: 1 (Agent Chat UI)
 - **Cumulative SOTA catalog**: 94 repos
+
+## Round 46: Agent payments and agentic economy (2026-09-15)
+
+Added a money layer for AI agents — wallets, payments, and autonomous commerce.
+
+### 95. Agenti — `nirholas/agenti` (~72 stars)
+
+- **Key feature**: SDK + MCP server that gives any AI agent (Claude, LangChain, AutoGen, CrewAI) a crypto wallet to hold, spend, earn, and receive USDC across EVM and Solana. Built on open standards (x402, EIP-3009, ERC-8004). Supports MCP clients and autonomous agent-to-agent payments.
+- **AMOS integration**: Use Agenti as the C07 economic substrate for AMOS agents; bind `@agenti/mcp` to `amos-mcp-server`; map wallet balances, spend policies, and agent-to-agent payments to `amos-c07-econ-finance-master`, `amos-forex-os`, and `amos-agent-economy-constitutional-governance-rscf`; enforce spend limits via `amos-promotion-gates`.
+
+## Round 46 Integration Priority
+
+1. **AMOS agent wallet**: Integrate `@agenti/sdk` so AMOS agents can hold and transact USDC for paid APIs, services, and compute (maps to `amos-c07-econ-finance-master`)
+2. **MCP money tool**: Expose wallet balance, send, receive, and x402 payment tools via `amos-mcp-server` so any MCP client can pay (maps to `amos-mcp-server`, `amos-a2a-protocol`)
+3. **Spend governance**: On-chain per-tx and daily spend caps plus merchant allowlists enforced before any agent transaction (maps to `amos-security-safety-master`, `amos-promotion-gates`)
+
+## Round 46 Provenance
+
+- **Research date**: 2026-09-15
+- **Researcher**: Devin (Obsidian vault SOTA brain + live GitHub web search)
+- **Epistemic class**: EMPIRICAL (star counts from GitHub, may change)
+- **RSCF state**: SOURCE_CLAIM (repo features from README/docs) → DERIVED (AMOS integration recommendations)
+- **Categories covered**: agent wallet, agentic economy, payments, x402, MCP, USDC, EVM, Solana
+- **Total new repos**: 1 (Agenti)
+- **Cumulative SOTA catalog**: 95 repos
