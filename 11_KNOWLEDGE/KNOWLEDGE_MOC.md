@@ -218,6 +218,7 @@ rscf:
 - [[UNIVERSE-COSMOS_MOC]] — `universe-cosmos` (Universe Total Canon & physics)
 - [[vietnamese_MOC]] — `vietnamese` (Vietnamese strategic & cultural analysis)
 - [[LLM_WIKI_MOC]] — `llm-wiki` (LLM Wiki subsystem)
+- [[SOTA_AGENT_TOOLING_REPOS]] — `sota-tooling` (Curated SOTA agent/skill/workflow tooling repos)
 
 ---
 
