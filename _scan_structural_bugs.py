@@ -96,7 +96,7 @@ def check_code_blocks(text, rel):
     fence_len = 0
     fence_info = None
     for line in text.split("\n"):
-        m = re.match(r'^(\s*)(`{3,}|~{3,})(?:\s+(.*?)\s*)?$', line)
+        m = re.match(r'^(\s*)(`{3,}|~{3,})(.*?)\s*$', line)
         if not m:
             continue
         indent = m.group(1)
