@@ -273,3 +273,13 @@ claim_class: AMOS_MODEL
 - Fetched `XSkill-Agent/XSkill` README and captured raw source to [[XSKILL_README_2026_08_29]].
 - Mapped XSkill two-phase accumulation/inference loop, experience/skill memory bank, and trajectory-to-skill document builder to `amos-memory-systems-master`, `amos-llm-wiki`, `amos-observability-driven-harness-evolution-rscf`, `amos-agent-orchestrator`, `amos-skill-builder`, and `amos-multimodal-perception-layer`.
 - Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: compare XSkill `skill_builder.py` output to AMOS `SKILL.md` frontmatter.
+
+## [2026-08-29] audit | AMOS skill names and descriptions already comply with Agent Skills spec
+
+- Fetched the canonical `agentskills/agentskills` README and `https://agentskills.io/specification`.
+- Captured raw sources to `[[AGENTSKILLS_SPEC_README_2026_08_29]]` and `[[AGENTSKILLS_SPECIFICATION_2026_08_29]]`.
+- Ran a programmatic check of all 642 `stitch_project_cosmo/.devin/skills/*/SKILL.md` frontmatters against the spec:
+  - `name`: 1-64 chars, lowercase alphanumeric + hyphens, no leading/trailing/consecutive hyphens.
+  - `description`: max 1024 chars.
+- Result: 0 violations. AMOS skill bundles already follow the Agent Skills naming and size conventions.
+- Progressive disclosure (metadata → instructions → resources) already matches AMOS `references/` and `scripts/` pattern.

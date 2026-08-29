@@ -461,3 +461,42 @@ Read the `main` branch README of `XSkill-Agent/XSkill` and mapped it to AMOS con
 Inspect the `eval/exskill/skill_builder.py` output format and compare an XSkill-generated skill document to the AMOS `SKILL.md` frontmatter schema.
 
 Raw source: [[XSKILL_README_2026_08_29]]
+
+## 2026-08-29 | Agent Skills (agentskills.io) deep-dive
+
+Read the canonical Agent Skills README and specification and verified AMOS compliance.
+
+### Verified shape
+
+- Anthropic-opened standard, Apache 2.0, 24,770+ stars.
+- Skill bundle: `SKILL.md` + optional `scripts/`, `references/`, `assets/`.
+- `SKILL.md` frontmatter: `name` (1-64 lowercase alphanumeric/hyphens), `description` (≤1024 chars), optional `license`, `compatibility`, `metadata`, `allowed-tools`.
+- Progressive disclosure: metadata (~100 tokens) → full `SKILL.md` instructions → `scripts/` / `references/` / `assets/` on demand.
+- Keep `SKILL.md` under 500 lines; move detailed reference material to `references/`.
+- `agentskills` package has `skills-ref validate` tool.
+
+### Integration points for AMOS
+
+1. **Canonical bundle format → `amos-skill-builder` package spec**
+   - AMOS skill bundles are already structurally equivalent (`SKILL.md`, `references/`, `scripts/`). The `assets/` directory and `allowed-tools` frontmatter can be added as optional fields.
+
+2. **Progressive disclosure → `amos-skill-builder/references/progressive_loading.md`**
+   - Agent Skills three-stage disclosure mirrors AMOS `references/progressive_loading.md` and `CAPABILITY_NAMING_CONTRACT.md`.
+
+3. **Validation tool `skills-ref` → `skill-check` and `sota_skill_validator.py`**
+   - The 642 AMOS skills already pass the `name` and `description` constraints.
+   - `skill-check` can be extended to check `allowed-tools` and `compatibility` fields.
+
+4. **Open standard adoption → `amos-skill-registry-gateway` and `amos-mcp-connector`**
+   - Export AMOS `.devin/skills/` as Agent Skills bundles; import Agent Skills from public registries.
+
+### Open questions / gaps
+
+- AMOS uses `_` in some `tags` and `domain` values, but `name` fields are clean.
+- AMOS `SKILL.md` files are already under 500 lines after the `SOTA Evaluation Contract` split.
+
+### Recommended next step
+
+Add `allowed-tools` and `compatibility` as optional frontmatter fields in `amos-skill-builder` and validate that existing 642 skills can still pass `sota_skill_validator.py`.
+
+Raw sources: [[AGENTSKILLS_SPEC_README_2026_08_29]] · [[AGENTSKILLS_SPECIFICATION_2026_08_29]]
