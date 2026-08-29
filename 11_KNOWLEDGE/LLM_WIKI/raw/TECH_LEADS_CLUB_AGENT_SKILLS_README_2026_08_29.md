@@ -59,14 +59,14 @@ Source: `https://github.com/tech-leads-club/agent-skills`
 ## 📖 Table of Contents
 
 - [✨ What are Skills?](#what-are-skills)
-- [🛡️ Security & Trust](#security--trust)
+- [🛡️ Security & Trust](#-security-trust)
 - [🤖 Supported Agents](#supported-agents)
 - [🌟 Featured Skills](#featured-skills)
 - [🚀 Quick Start](#quick-start)
 - [⚡ How It Works](#how-it-works)
 - [🔌 MCP Server](#mcp-server)
 - [🤝 Contributing](#contributing)
-- [🛡️ Content & Authorship](#content-authorship)
+- [🛡️ Content & Authorship](#-content-authorship)
 - [📄 License and Attribution](#license-and-attribution)
 
 ## ✨ What are Skills?
