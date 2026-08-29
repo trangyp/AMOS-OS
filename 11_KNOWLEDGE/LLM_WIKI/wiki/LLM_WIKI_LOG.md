@@ -377,3 +377,10 @@ claim_class: AMOS_MODEL
 - Fetched `muratcankoylan/Agent-Skills-for-Context-Engineering` README and captured raw source to [[AGENT_SKILLS_FOR_CONTEXT_ENGINEERING_README_2026_08_30]].
 - Fetched `HoangNguyen0403/agent-skills-standard` README and captured raw source to [[AGENT_SKILLS_STANDARD_README_2026_08_30]].
 - Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with deep dives mapping context engineering, harness engineering, progressive disclosure, Claude Code plugin marketplace, `ags` CLI, lockfile verification, MCP runtime enforcement, and pre-edit hooks to AMOS skills.
+
+## [2026-08-30] research | Captured three curated skill marketplaces and catalogs
+
+- Fetched `pedronauck/skills` README and captured raw source to [[PEDRONAUCK_SKILLS_README_2026_08_30]].
+- Fetched `heyimcarlos/agent-skills` README and captured raw source to [[HEYIMCARLOS_AGENT_SKILLS_README_2026_08_30]].
+- Fetched `netresearch/claude-code-marketplace` README and captured raw source to [[NETRESEARCH_CLAUDE_CODE_MARKETPLACE_README_2026_08_30]].
+- Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with deep dives covering bucket-based storage, QRSPI workflows, subagents, `disable-model-invocation`, `plugin.json` + `skills/` packaging, and multi-language marketplace sites.
