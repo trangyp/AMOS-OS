@@ -18,7 +18,8 @@ rscf:
 
 # AMOS 7PT CANON MIGRATION ENGINE
 
-# """ AMOS 7PT Canon Migration Engine
+```python
+"""AMOS 7PT Canon Migration Engine
 
 ## Purpose
 
@@ -152,7 +153,6 @@ OWNED_ANSWERS: Final = {
 "that make a system possible rather than noise. Without constraint, "
 "there is no system — only noise.",
 
-```
 "FLOW":
     "Flow IS constrained throughput across a system: input → "
     "transformation → output, with bottlenecks, leakage, and queues as "
@@ -188,7 +188,6 @@ OWNED_ANSWERS: Final = {
     "toward collapse, stabilization, extinction, or reconstitution. "
     "Systems do not fail randomly; they terminate when correction "
     "capacity is exceeded.",
-```
 
 }
 
@@ -202,7 +201,6 @@ SHARPEN: Final = {
 6: "Termination becomes meaningful because capacity is finite.",
 },
 
-```
 "FLOW": {
     0: "Constraint bounds throughput.",
     2: "Structure stabilizes flow into repeatable form.",
@@ -256,7 +254,6 @@ SHARPEN: Final = {
     4: "Time accumulates unresolved deviation.",
     5: "Adaptation determines whether the system can return to a viable basin.",
 },
-```
 
 }
 
@@ -273,9 +270,7 @@ For any system, answer:
 
 Failure to answer all five = the system's existence is structurally undefined.""",
 
-```
 "STRUCTURE": """## Structure-specific analysis
-```
 
 For any system, answer:
 
@@ -287,9 +282,7 @@ For any system, answer:
 
 Failure to answer all five = the system's structure is undefined.""",
 
-```
 "TIME": """## Time-specific analysis
-```
 
 For any system, answer:
 
@@ -301,9 +294,7 @@ For any system, answer:
 
 Failure to answer all five = the system's temporal dimension is undefined.""",
 
-```
 "ADAPTATION": """## Adaptation-specific analysis
-```
 
 For any system, answer:
 
@@ -315,9 +306,7 @@ For any system, answer:
 
 Failure to answer all five = the system's adaptation is undefined.""",
 
-```
 "TERMINATION": """## Termination-specific analysis
-```
 
 For any system, answer:
 
@@ -339,7 +328,6 @@ Failure to answer all five = the system's termination is undefined.""",
 def validate_configuration() -> None:
 """Fail closed if the static architecture is internally inconsistent."""
 
-```
 if len(PARTS) != 7:
     raise RuntimeError("7PT invariant violated: expected exactly seven parts.")
 
@@ -358,7 +346,6 @@ if set(PART_OWNED_QUESTION.values()) != set(range(7)):
 
 if len(CANONICAL_QUESTIONS) != 7:
     raise RuntimeError("Expected exactly seven canonical questions.")
-```
 
 # ---------------------------------------------------------------------------
 
@@ -390,7 +377,6 @@ def build_7q_canonical_test(part: str) -> str:
 display = PART_DISPLAY[part]
 owned_index = PART_OWNED_QUESTION[part]
 
-```
 lines = [
     f"## Canonical test ({display.lower()}-specific)",
     "",
@@ -420,7 +406,6 @@ lines.append(
 )
 
 return "\n".join(lines)
-```
 
 # ---------------------------------------------------------------------------
 
@@ -431,7 +416,6 @@ return "\n".join(lines)
 def section_bounds(text: str, heading: str) -> tuple\[int, int\]:
 """Return \[start, end) for a level-2 Markdown section."""
 
-```
 pattern = re.compile(
     rf"(?m)^{re.escape(heading)}\s*\$"
 )
@@ -454,7 +438,6 @@ if next_heading is None:
 end = match.end() + next_heading.start()
 
 return start, end
-```
 
 def replace_section(
 text: str,
@@ -463,7 +446,6 @@ replacement: str,
 ) -> str:
 start, end = section_bounds(text, heading)
 
-```
 prefix = text[:start].rstrip()
 suffix = text[end:].lstrip("\n")
 
@@ -473,7 +455,6 @@ if suffix:
     result += "\n" + suffix
 
 return result
-```
 
 # ---------------------------------------------------------------------------
 
@@ -484,7 +465,6 @@ return result
 def ensure_linked_vault_items(text: str) -> str:
 heading = "## Linked vault items"
 
-```
 start, end = section_bounds(text, heading)
 section = text[start:end]
 
@@ -521,7 +501,6 @@ else:
     )
 
 return text[:start] + patched_section + text[end:]
-```
 
 # ---------------------------------------------------------------------------
 
@@ -534,7 +513,6 @@ heading = (
 f"## Canonical test ({PART_DISPLAY[part].lower()}-specific)"
 )
 
-```
 canonical = build_7q_canonical_test(part)
 analysis = PART_SPECIFIC_CONTENT[part]
 
@@ -545,7 +523,6 @@ return replace_section(
     heading=heading,
     replacement=replacement,
 )
-```
 
 # ---------------------------------------------------------------------------
 
@@ -556,7 +533,6 @@ return replace_section(
 def write_if_changed(path: Path, new_text: str) -> PatchResult:
 old_text = path.read_text(encoding="utf-8")
 
-```
 if new_text == old_text:
     return PatchResult(
         path=path,
@@ -571,23 +547,18 @@ return PatchResult(
     changed=True,
     reason="patched",
 )
-```
 
 def patch_crosslinks(path: Path) -> PatchResult:
 old = path.read_text(encoding="utf-8")
 new = ensure_linked_vault_items(old)
 
-```
 return write_if_changed(path, new)
-```
 
 def patch_part(path: Path, part: str) -> PatchResult:
 old = path.read_text(encoding="utf-8")
 new = patch_canonical_test(old, part)
 
-```
 return write_if_changed(path, new)
-```
 
 # ---------------------------------------------------------------------------
 
@@ -598,7 +569,6 @@ return write_if_changed(path, new)
 def validate_note(path: Path, part: str) -> None:
 text = path.read_text(encoding="utf-8")
 
-```
 if part in {"FLOW", "ENFORCEMENT"}:
     if HOME_FILENAME not in text:
         raise RuntimeError(
@@ -634,7 +604,6 @@ if part in PART_SPECIFIC_CONTENT:
         raise RuntimeError(
             f"{path.name}: missing preserved analysis section."
         )
-```
 
 # ---------------------------------------------------------------------------
 
@@ -646,7 +615,6 @@ def validate_idempotency(path: Path, part: str) -> None:
 """
 Validate the transformation in memory without performing a second write.
 
-```
 Required invariant:
     T(T(x)) == T(x)
 """
@@ -662,7 +630,6 @@ if twice != once:
     raise RuntimeError(
         f"{path.name}: patch is not idempotent."
     )
-```
 
 # ---------------------------------------------------------------------------
 
@@ -673,7 +640,6 @@ if twice != once:
 def patch_all() -> list\[PatchResult\]:
 validate_configuration()
 
-```
 missing = [
     VAULT / f"7PT_{part}_CANON.md"
     for part in PARTS
@@ -704,12 +670,10 @@ for part in PARTS:
     validate_idempotency(path, part)
 
 return results
-```
 
 def main() -> int:
 results = patch_all()
 
-```
 changed = [r.path.name for r in results if r.changed]
 unchanged = [r.path.name for r in results if not r.changed]
 
@@ -725,12 +689,10 @@ for name in unchanged:
     print(f"  PASS     {name}")
 
 return 0
-```
 
 if __name__ == "__main__":
 raise SystemExit(main())
-
-````
+```
 
 ### What was actually wrong
 
@@ -740,7 +702,7 @@ The most important bug is `_other_part_for_question()`. In the supplied version:
 for part, owned in PART_OWNED_QUESTION.items():
     if owned != idx:
         return part
-````
+```
 
 That does **not** answer “which part owns this question?” It returns the first part that *doesn't* own it. So a Flow question can point to Constraint, a Structure question can also point to Constraint, etc. The correct mapping is the inverse:
 
