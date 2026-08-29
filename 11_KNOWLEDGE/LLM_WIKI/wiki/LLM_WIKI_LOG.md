@@ -546,3 +546,9 @@ Continue scanning for the next SOTA repo to capture, or implement the next vault
 - Captured and imported `tech-leads-club/agent-skills` as `amos-tech-leads-club-agent-skills`.
 - Committed in `stitch_project_cosmo` and `AMOS_OS` vault.
 - 100% SOTA, 100% workflow, 100% agent validity.
+
+## [2026-08-30] import | Imported ivanzwb/agent-skills; 655 skills, 689 workflows, 682 agents
+
+- Captured and imported `ivanzwb/agent-skills` as `amos-ivanzwb-agent-skills`.
+- Committed in `stitch_project_cosmo` and `AMOS_OS` vault.
+- 100% SOTA, 100% workflow, 100% agent validity.

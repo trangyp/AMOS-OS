@@ -1339,3 +1339,18 @@ Full clean-up pass on untracked and under-bound skills, plus capture of the next
 ### Synthesis
 
 Tech Leads Club Agent Skills brings hardened skill-registry controls (lockfiles, content hashing, Snyk scan, path isolation, symlink guards, audit trail) that AMOS can map to `amos-skill-builder`, `skill-check`, and the `agent-registry` lifecycle.
+
+## 2026-08-30 | import | Added `amos-ivanzwb-agent-skills` (655 skills, 689 workflows, 682 agents, 100% SOTA)
+
+- Captured `ivanzwb/agent-skills` README to `11_KNOWLEDGE/LLM_WIKI/raw/IVANZWB_AGENT_SKILLS_README_2026_08_30.md`.
+- Created `.devin/skills/amos-ivanzwb-agent-skills/` with `SKILL.md`, references, and `scripts/validate.sh`.
+- Added agent and workflow for L0/L1/L2 loading, `manifest.json` tool binding, and `runScript()`.
+- Updated `SkillIndex.md` to 655 skills.
+- Final validation:
+  - `make validate`: 655/655 skills at 100% SOTA.
+  - `workflow_validator.py -v`: 689/689 workflows pass.
+  - `agent_sync_validator.py`: 682/682 agents valid.
+
+### Synthesis
+
+`ivanzwb/agent-skills` is the TypeScript runtime that materializes the `agentskills.io` spec: skill package lifecycle, three-level progressive loading, and `manifest.json` tool declarations. AMOS can align its `SKILL.md` frontmatter (L0) and `references/` (L2) to the same loading model.
