@@ -405,3 +405,15 @@ claim_class: AMOS_MODEL
 - Updated `.devin/skills/SkillIndex.md` to 643 skills and added `amos-skillnet` cross-cutting route.
 - `make validate`: 643/643 skills at 100% SOTA.
 - `agent_sync_validator.py`: 670/670 agents valid, 0 invalid.
+
+## [2026-08-30] close | amos-skillnet SOTA validated and committed
+
+- Re-ran `.devin/scripts/sota_skill_validator.py` against full `.devin/skills` corpus: 643/643 skills at 100% SOTA, 0 critical, 0 warnings.
+- Wired `amos-skillnet` cross-cutting route into `.devin/skills/SkillIndex.md`.
+- Re-ran `agent_sync_validator.py`: 670/670 agents valid, 0 invalid.
+- Committed `amos-skillnet` skill package, agent JSON, workflow, and `SkillIndex.md` to `stitch_project_cosmo`.
+
+## [2026-08-30] research | Captured Vercel Labs `skills` CLI README
+
+- Fetched `vercel-labs/skills` README and captured raw source to [[VERCEL_LABS_SKILLS_README_2026_08_30]].
+- Added deep-dive to [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] mapping `npx skills add/use/find/init`, source formats, installation scope, symlink vs copy, and 73+ supported agents to AMOS skills.

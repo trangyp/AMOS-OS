@@ -963,3 +963,26 @@ Cloned `zjunlp/SkillNet` and imported its `skills/skillnet` package as `.devin/s
 - `skillnet validate` 5-dimension scorecard → `amos-formal-agent-skill-verification-rscf` and `skill-check`.
 - `skillnet create` from repos/docs/logs → `amos-skill-builder` and `amos-github-rscf-ingestion`.
 
+
+## 2026-08-30 | Capture Vercel Labs `skills` CLI spec
+
+Fetched the `vercel-labs/skills` CLI README — the canonical `npx skills` package manager used by SkillNet, `heyimcarlos/agent-skills`, `netresearch/claude-code-marketplace`, and many other catalogs.
+
+### Verified shape
+
+- CLI: `npx skills add <owner/repo>` for installation, `npx skills use` for one-shot prompt generation, `npx skills find` for search, `npx skills init` for new SKILL.md scaffolding.
+- Source formats: GitHub shorthand, full URL, direct path, GitLab, any git URL, local path, direct download URL for SKILL.md or archive.
+- Installation scope: project `./<agent>/skills/` or global `~/<agent>/skills/`.
+- Installation methods: symlink (recommended) or copy.
+- Supports 73+ agents: OpenCode, Claude Code, Codex, Cursor, etc.
+- Archive limits: 10 MiB direct download, 25 MiB extracted, 1000 files by default.
+
+### AMOS integration points
+
+- `npx skills add` + `npx skills use` → `amos-skillnet` should wrap or delegate to these commands.
+- `npx skills init` → `amos-skill-builder` scaffolding template.
+- Symlink vs copy modes → `amos-skill-builder/references/package.md` and `scripts/package.py` bundle format.
+- `npx skills find` keyword search → `amos-skill-registry-gateway` and `AMOS_SKILL_REGISTRY`.
+- Project vs global scope → `AMOS_BOOT.md` working-directory checks and `.claude/skills` discovery.
+
+Raw source: [[VERCEL_LABS_SKILLS_README_2026_08_30]]
