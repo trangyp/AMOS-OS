@@ -190,6 +190,19 @@ claim_class: AMOS_MODEL
   3. `metadata.status` and `metadata.category` → add to `SKILL.md` frontmatter as `status` and `category`.
   4. Dataflow `steps` referencing capability IDs → `amos-workflow-builder` machine-readable output.
 
+## [2026-08-29] repo evaluation | AgentSkills Registry bundle and supply chain
+
+- Cloned `kai98k/agent-skills-registry` to `/tmp/agent-skills-registry`.
+- Go/Cobra CLI + HTTP server; `agentskills push|pull|search|vendor` commands.
+- Skill bundle: `SKILL.md` + `scripts/` + `references/` + `assets/`.
+- Supply chain: `agentskills vendor` locks checksums in a lockfile and restores on new machine.
+- Example `SKILL.md` frontmatter: `name`, `version`, `description`, `author`, `tags`.
+- AMOS importables:
+  1. Bundle structure (`SKILL.md` + `scripts/` + `references/` + `assets/`) → already close to AMOS skill bundles; formalize in `amos-skill-builder` package spec.
+  2. `agentskills vendor` checksum lock → extend `skill_guardrail_checker.py` to verify `content_hash` lockfiles.
+  3. CLI `push|pull|search` → `amos-skill-registry-gateway` could expose these for `.devin/skills/`.
+  4. Semver versioned skills → `skill_version_manager` and `amos-promotion-gates`.
+
 ## [2026-08-29] research | SkillOpt README captured and evaluated
 
 - Fetched `microsoft/SkillOpt` README and captured raw source to [[SKILLOPT_README_2026_08_29]].
@@ -233,3 +246,10 @@ claim_class: AMOS_MODEL
 - Fetched `gfernandf/agent-skill-registry` README and captured raw source to [[AGENT_SKILL_REGISTRY_README_2026_08_29]].
 - Mapped controlled vocabulary, declarative skill dataflow, machine-readable catalog, and governance guardrails to `amos-skill-builder`, `amos-workflow-builder`, `amos-skill-catalog-generator`, `skill_guardrail_checker`, and `skill_version_manager`.
 - Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: generate and compare registry catalog to AMOS `SKILL.md` frontmatter.
+
+## [2026-08-29] enhance | Imported AgentFactory bundle conventions into AMOS skill builder and agent orchestrator
+
+- Added `entry_file: scripts/validate.py` to `stitch_project_cosmo/.devin/skills/amos-skill-builder/SKILL.md` frontmatter and `MANIFEST.yaml` to align with AgentFactory `SKILL.md` + Python `entry_file` pattern.
+- Added `stitch_project_cosmo/.devin/skills/amos-agent-orchestrator/CLAUDE.md` as a Claude Code prompt enforcing boot checklist, dispatch protocol, content-hash verification, and provenance logging.
+- Re-ran `sota_skill_validator.py`: 642 / 642 skills still 100%.
+- Committed to `stitch_project_cosmo`.
