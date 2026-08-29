@@ -2362,3 +2362,87 @@ Added a graph-native memory system for long-horizon agent context and reasoning.
 - **Categories covered**: agent memory, long-term memory, graph RAG, knowledge graph, MCP, Neo4j
 - **Total new repos**: 1 (Agent Memory)
 - **Cumulative SOTA catalog**: 96 repos
+
+## Round 48: Multi-agent frameworks, skill tooling, registries, memory, benchmarks, and security (2026-09-15)
+
+Added 12 new agent tooling repos spanning multi-agent orchestration frameworks, skill validation/quality tooling, agent registries, persistent agent memory, evaluation benchmarks, agentic build pipelines, and defense-in-depth security.
+
+### 97. Hive — `aden-hive/hive` (~10,900 stars)
+
+- **Key feature**: Python-based harness for building goal-driven, self-improving AI agents with triangulated verification, a Queen/Worker/Judge multi-agent architecture, and production-grade state management.
+- **AMOS integration**: Adopt Hive's Queen/Worker/Judge triangulation pattern as a reference model for `amos-agent-orchestrator` and `amos-workflow-runner`; bind verification gates to `amos-validation-evidence` and `amos-rscf-epistemic-master` for triangulated claim confirmation; map Hive state management to `amos-memory-systems-master`.
+
+### 98. Omnigent — `omnigent-ai/omnigent` (~9,300 stars)
+
+- **Key feature**: Open-source "meta-harness" that wraps Claude Code, Codex, Cursor, OpenCode, Pi, and custom agents in a common sandboxed session with policies and real-time collaboration across devices.
+- **AMOS integration**: Use Omnigent as the unified sandboxing and policy enforcement layer across heterogeneous coding agents; map its policy engine to `amos-security-safety-master` and `amos-promotion-gates`; bind cross-device session state to `amos-memory-systems-master` and `amos-boundary-scope-master`.
+
+### 99. Open Multi-Agent — `open-multi-agent/open-multi-agent` (~6,800 stars)
+
+- **Key feature**: TypeScript multi-agent orchestration framework that turns a natural-language goal into a runtime task DAG, parallelizes work, and provides an inspectable/replayable run viewer.
+- **AMOS integration**: Adopt Open Multi-Agent's goal-to-DAG decomposition as a reference for `amos-workflow-builder` and `amos-task-resolver`; bind the replayable run viewer to `amos-execution-provenance-replay-rscf` for traceable execution; map parallel scheduling to `amos-os-runtime-master`.
+
+### 100. skill-validator — `agent-ecosystem/skill-validator` (~224 stars)
+
+- **Key feature**: CLI tool that validates and scores Agent Skill packages against the agentskills.io spec, checking links, token counts, content quality, and LLM-judge quality.
+- **AMOS integration**: Integrate skill-validator into the AMOS skill promotion pipeline as a CI gate alongside `skill-check`; map spec validation to `amos-skill-builder` and `amos-promotion-gates`; bind LLM-judge quality scoring to `amos-rscf-epistemic-master` for evidence-typed quality claims.
+
+### 101. skilldoctor — `xyiqq/skilldoctor` (~9 stars)
+
+- **Key feature**: Quality gate for Agent Skills that lints the spec, audits unsafe instructions, and tests whether a `SKILL.md` works across Claude Code, Cursor, Codex, OpenCode, Gemini CLI, and Copilot.
+- **AMOS integration**: Use skilldoctor for cross-platform skill compatibility testing and unsafe-instruction auditing; map safety audits to `amos-security-safety-master` and `amos-semantic-token-flow-firewall-rscf`; bind compatibility results to `amos-promotion-gates` as a pre-promotion gate.
+
+### 102. Orloj — `OrlojHQ/orloj` (~117 stars)
+
+- **Key feature**: Open-source orchestration runtime for multi-agent systems where agents, tools, models, memory, policies, and DAGs are declared as YAML and the platform schedules, executes, and governs them.
+- **AMOS integration**: Adopt Orloj's YAML-declarative orchestration as an infrastructure-as-code pattern for `amos-workflow-runner` and `amos-agent-orchestrator`; map policy declarations to `amos-c09-org-law-policy-master` and `amos-routing-policy`; bind DAG scheduling to `amos-os-runtime-master`.
+
+### 103. Agentic Memory — `agentralabs/agentic-memory` (~24 stars)
+
+- **Key feature**: Persistent cognitive graph memory for AI agents that stores facts, decisions, reasoning chains, and corrections with fast multi-index querying and an MCP server.
+- **AMOS integration**: Use Agentic Memory as a complementary persistent memory substrate alongside Neo4j Agent Memory (Round 47); expose the MCP server via `amos-mcp-server`; map cognitive graph edges to `amos-execution-provenance-replay-rscf` and `amos-memory-systems-master` for traceable, queryable agent memory.
+
+### 104. OmniaBench — `scuuy/OmniaBench` (~12 stars)
+
+- **Key feature**: Broad diagnostic benchmark for evaluating general AI agents across 1,400+ real-world tasks and a ten-dimensional capability taxonomy.
+- **AMOS integration**: Adopt OmniaBench as a complementary agent evaluation benchmark alongside Claw-Eval (Round 43); map the ten-dimensional capability taxonomy to `amos-c05-mind-behavior-master` and `amos-validation-evidence`; bind benchmark results to `amos-benchmark-forensics` for diagnostic analysis.
+
+### 105. ACP Registry — `agentclientprotocol/registry` (~363 stars)
+
+- **Key feature**: Curated catalog of agents that implement the Agent Client Protocol (ACP), letting clients discover, install, and configure ACP-compatible coding agents.
+- **AMOS integration**: Map ACP Registry entries to AMOS agent discovery via `agent-registry` and `a2a-protocol` skills; bind ACP-compatible agent installation to `amos-agent-onboarding-guide`; link protocol compliance to `amos-agent-systems-master` for governed agent federation.
+
+### 106. agentregistry — `agentregistry-dev/agentregistry` (~466 stars)
+
+- **Key feature**: Open-source, centralized platform to find, manage, curate, and deploy MCP servers, agents, and skills through a CLI and web UI.
+- **AMOS integration**: Use agentregistry as the unified discovery and deployment platform for AMOS skills, agents, and MCP servers; map curation workflows to `amos-knowledge-research-master` and `amos-promotion-gates`; bind deployment governance to `amos-os-runtime-master` and `amos-security-safety-master`.
+
+### 107. Ferrox Factory — `FerroxLabs/ferrox-factory` (~20 stars)
+
+- **Key feature**: "Agentic build line" that turns specs into verified, shipped software through planned phases, parallel sub-agent waves, and machine-gated verification.
+- **AMOS integration**: Adopt Ferrox Factory's spec-to-ship pipeline as a reference for `amos-workflow-builder` and `amos-c10-tech-engineering-master`; bind machine-gated verification to `amos-validation-evidence` and `amos-promotion-gates`; map parallel sub-agent waves to `amos-agent-orchestrator`.
+
+### 108. AgentArmor — `Agastya910/agentarmor` (~94 stars)
+
+- **Key feature**: Open-source, 8-layer defense-in-depth security framework for agentic AI applications covering the OWASP Top 10 for Agentic Applications.
+- **AMOS integration**: Map AgentArmor's 8-layer defense model to `amos-security-safety-master` and `amos-distributed-attack-composition-monitor-rscf`; bind OWASP Agentic Top 10 coverage to `amos-semantic-token-flow-firewall-rscf` and `amos-provenance-trust-firewall`; link defense layers to `amos-promotion-gates` as pre-deployment security gates.
+
+## Round 48 Integration Priority
+
+1. **Multi-agent orchestration**: Evaluate Hive, Omnigent, Open Multi-Agent, and Orloj as candidate orchestration runtimes for AMOS agents (maps to `amos-agent-orchestrator`, `amos-workflow-runner`, `amos-os-runtime-master`)
+2. **Skill quality gates**: Integrate skill-validator and skilldoctor into the AMOS skill promotion pipeline alongside `skill-check` (maps to `amos-skill-builder`, `amos-promotion-gates`, `amos-security-safety-master`)
+3. **Agent registry and discovery**: Adopt ACP Registry and agentregistry for federated AMOS agent/skill/MCP discovery (maps to `agent-registry`, `a2a-protocol`, `amos-mcp-server`)
+4. **Persistent memory**: Evaluate Agentic Memory as a complementary memory substrate to Neo4j Agent Memory (maps to `amos-memory-systems-master`, `amos-mcp-server`)
+5. **Evaluation benchmark**: Run OmniaBench alongside Claw-Eval for comprehensive agent capability scoring (maps to `amos-validation-evidence`, `amos-benchmark-forensics`)
+6. **Agentic build pipeline**: Adopt Ferrox Factory's spec-to-ship pattern for AMOS software engineering workflows (maps to `amos-c10-tech-engineering-master`, `amos-workflow-builder`)
+7. **Defense-in-depth security**: Map AgentArmor's 8-layer model to AMOS security skills (maps to `amos-security-safety-master`, `amos-distributed-attack-composition-monitor-rscf`)
+
+## Round 48 Provenance
+
+- **Research date**: 2026-09-15
+- **Researcher**: Devin (Obsidian vault SOTA brain + live GitHub web search via subagent)
+- **Epistemic class**: EMPIRICAL (star counts from GitHub, may change)
+- **RSCF state**: SOURCE_CLAIM (repo features from README/docs) → DERIVED (AMOS integration recommendations)
+- **Categories covered**: multi-agent orchestration, skill validation, skill quality, agent registry, agent discovery, ACP, persistent memory, cognitive graph, agent benchmark, agentic build pipeline, defense-in-depth, OWASP agentic, security framework
+- **Total new repos**: 12 (Hive, Omnigent, Open Multi-Agent, skill-validator, skilldoctor, Orloj, Agentic Memory, OmniaBench, ACP Registry, agentregistry, Ferrox Factory, AgentArmor)
+- **Cumulative SOTA catalog**: 108 repos
