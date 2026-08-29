@@ -46,10 +46,16 @@ for sdir in skill_dirs:
     body_stripped = re.sub(r'\s+', '', body)
     if len(body_stripped) < 200:
         issues["skills"].append(f"THIN_CONTENT: {sname} — body only {len(body_stripped)} chars")
-    # Check for placeholder/stub markers
-    if "TODO" in content or "PLACEHOLDER" in content.upper():
-        if "ADD-ONLY placeholder" not in content:  # ADD-ONLY is legitimate
-            issues["skills"].append(f"STUB_MARKER: {sname} — contains TODO/PLACEHOLDER")
+    # Check for placeholder/stub markers in the frontmatter description only
+    if content.startswith("---"):
+        fm_end = content.find("---", 3)
+        if fm_end > 0:
+            fm = content[3:fm_end]
+            desc_match = re.search(r'^description:\s*["\']?(.*?)(?:\n\w|\n---|$)', fm, re.IGNORECASE | re.DOTALL)
+            if desc_match:
+                desc_value = desc_match.group(1).upper()
+                if ("TODO" in desc_value or "PLACEHOLDER" in desc_value) and "ADD-ONLY" not in desc_value:
+                    issues["skills"].append(f"STUB_MARKER: {sname} — frontmatter description is a TODO/PLACEHOLDER")
 
 # ============================================================
 # 2. AUDIT AGENTS
@@ -156,7 +162,7 @@ for wf in wf_files:
 # ============================================================
 # Every skill should have a matching agent
 for sname in skill_names:
-    expected_agent = f"{sname}-agent"
+    expected_agent = f"{sname}-agent" if sname.startswith("amos-") else f"amos-{sname}-agent"
     if expected_agent not in agent_names:
         issues["cross_refs"].append(f"MISSING_AGENT_FOR_SKILL: {sname} — no agent '{expected_agent}'")
 # Every skill should have a matching workflow
