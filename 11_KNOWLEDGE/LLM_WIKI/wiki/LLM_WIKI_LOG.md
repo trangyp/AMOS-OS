@@ -146,6 +146,14 @@ claim_class: AMOS_MODEL
   3. `memory/short_term/` and `memory/long_term/` → extend `11_KNOWLEDGE/LLM_WIKI/` log and synthesis split.
   4. `projects/[ProjectName]/{components,input,output,memory,state}` workspace template → `amos-integrated-agent` project scaffold.
 
+## [2026-08-29] enhance | SkillOpt/SkillOpt-style Edit/Patch engine in `AMOS_OS/scripts`
+
+- Created `scripts/skill_patch_engine.py` (mirrored from `stitch_project_cosmo` design).
+- Provides `Edit` and `Patch` dataclasses with `append`, `insert_after`, `replace`, `delete`.
+- Held-out validation gate: rejects candidate edits that break frontmatter delimiters or top heading.
+- CLI supports `--patch` JSON or single `--op` with `--target`/`--content`.
+- Successful dry-run and real test on `amos-skill-builder/SKILL.md` copy.
+
 ## [2026-08-29] research | SkillOpt README captured and evaluated
 
 - Fetched `microsoft/SkillOpt` README and captured raw source to [[SKILLOPT_README_2026_08_29]].
