@@ -1598,3 +1598,22 @@ Added an A2A-native control plane for deploying, routing, securing, and observin
 - **Categories covered**: A2A, agent deployment, control plane, MCP gateway, observability
 - **Total new repos**: 1 (Nasiko)
 - **Cumulative SOTA catalog**: 73 repos
+
+## Round 36: Agentic RAG document memory (2026-08-29)
+
+Added a document-to-memory pipeline optimized for agentic retrieval.
+
+### 74. Knowhere — `Ontos-AI/knowhere` (~2,697 stars)
+
+- **Key feature**: Ingests unstructured documents and builds persistent, navigable agent memory: parsing, hierarchy extraction, multi-modal structuring, and graph construction; Tree-like algorithm preserves full semantic context for Agentic RAG.
+- **AMOS integration**: Use Knowhere as the ingestion backend for the AMOS vault knowledge plane (11_KNOWLEDGE/LLM_WIKI, arxiv, canon sources); keep its chunk hierarchy and provenance in sync with the Obsidian graph and AMOS skill registry.
+
+## Round 36 Provenance
+
+- **Research date**: 2026-08-29
+- **Researcher**: Devin (live GitHub web search)
+- **Epistemic class**: EMPIRICAL (star counts from GitHub, may change)
+- **RSCF state**: SOURCE_CLAIM (repo features from README/docs) → DERIVED (AMOS integration recommendation)
+- **Categories covered**: agentic RAG, document ingestion, knowledge memory, multi-modal parsing
+- **Total new repos**: 1 (Knowhere)
+- **Cumulative SOTA catalog**: 74 repos
