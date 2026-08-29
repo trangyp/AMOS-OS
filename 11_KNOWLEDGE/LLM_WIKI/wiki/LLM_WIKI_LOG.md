@@ -110,6 +110,14 @@ claim_class: AMOS_MODEL
   3. Held-out validation gate before accepting edits → strengthen `skill_guardrail_checker` and `skill_rscf_canonicalizer`.
   4. YAML config inheritance with aliases → improve `workflow_operations_enhancer.py` and `amos-integrated-agent` rename maps.
 
+## [2026-08-29] repo evaluation | SkillOpt install attempt blocked
+
+- Attempted `pip install -e .` for `microsoft/SkillOpt` in a fresh `/tmp/skillopt/venv`.
+- Environment has Python 3.9.6; SkillOpt requires `>=3.10`.
+- No alternative Python 3.10+ interpreter found on the system.
+- Blocked from running the recommended benchmark on `amos-llm-wiki`.
+- Next: either install Python 3.10+ or run the benchmark in a container.
+
 ## [2026-08-29] research | SkillOpt README captured and evaluated
 
 - Fetched `microsoft/SkillOpt` README and captured raw source to [[SKILLOPT_README_2026_08_29]].
