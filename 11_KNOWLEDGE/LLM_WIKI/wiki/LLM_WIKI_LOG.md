@@ -333,3 +333,10 @@ claim_class: AMOS_MODEL
 - Created `stitch_project_cosmo/.devin/skills/amos-skill-builder/manifest.json` with tool declarations for `validate_skill`, `package_skill`, and `list_skills` aligned with `ivanzwb/agent-skills` Agent Skills Specification implementation.
 - Re-ran `sota_skill_validator.py`: 642 / 642 skills still 100%.
 - Committed to `stitch_project_cosmo`.
+
+## [2026-08-29] fix + enhance | Added `amos-skill-builder/scripts/validate.py` and wired visual keyframes into `amos-multimodal-perception-layer`
+
+- Created `stitch_project_cosmo/.devin/skills/amos-skill-builder/scripts/validate.py` to validate `SKILL.md` frontmatter against Agent Skills `name`/`description`/`version` rules and AMOS SOTA constraints. Resolves the missing `entry_file: scripts/validate.py`.
+- Added `multimodal_perception.gate_visual_keyframe` capability and `assets/visual_keyframe_template.md` reference to `amos-multimodal-perception-layer/SKILL.md`.
+- Re-ran `sota_skill_validator.py`: 642 / 642 skills still 100%.
+- Committed to `stitch_project_cosmo`.
