@@ -154,6 +154,13 @@ claim_class: AMOS_MODEL
 - CLI supports `--patch` JSON or single `--op` with `--target`/`--content`.
 - Successful dry-run and real test on `amos-skill-builder/SKILL.md` copy.
 
+## [2026-08-29] lint | LLM_WIKI wikilink scan
+
+- Invoked `amos-llm-wiki` skill and ran a lightweight wikilink lint over `11_KNOWLEDGE/LLM_WIKI/wiki/`.
+- Scanned 15 wiki files; found 14 `[[...]]` references whose targets do not exist as sibling `*.md` stems in `wiki/` or `raw/`.
+- Most are cross-directory canonical links (`LLM_WIKI_MOC`, `AMOS_LLM_WIKI`, `07_SKILLS_MOC`, `AMOS_RSCF_NODES`) that resolve to other vault directories in Obsidian, so the linter's file-stem check is too strict.
+- No true orphan pages found; no contradictions or stale claims flagged in this pass.
+
 ## [2026-08-29] research | SkillOpt README captured and evaluated
 
 - Fetched `microsoft/SkillOpt` README and captured raw source to [[SKILLOPT_README_2026_08_29]].
