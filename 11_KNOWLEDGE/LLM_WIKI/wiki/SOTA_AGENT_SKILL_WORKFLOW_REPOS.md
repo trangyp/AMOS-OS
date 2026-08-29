@@ -416,3 +416,48 @@ Read the `main` branch README of `kai98k/agent-skills-registry` and mapped it to
 Package one AMOS skill (e.g., `amos-llm-wiki`) into an AgentSkills-compatible `.tar.gz` bundle and validate that `SKILL.md` + `scripts/` + `references/` structure is accepted.
 
 Raw source: [[AGENTSKILLS_REGISTRY_README_2026_08_29]]
+
+## 2026-08-29 | XSkill deep-dive
+
+Read the `main` branch README of `XSkill-Agent/XSkill` and mapped it to AMOS continual learning and memory systems.
+
+### Verified shape
+
+- ICML 2026, MIT License.
+- Two-phase loop: Phase I (Accumulation) distills skill documents and experience entries from trajectories; Phase II (Inference) retrieves and adapts knowledge into the system prompt.
+- Visually-grounded trajectory summarization, cross-rollout critique, hierarchical consolidation.
+- `memory_bank/` created at runtime with experience library and skill documents.
+- Supports text and multimodal (images) samples; OpenAI-compatible API; needs SerpAPI, Jina, ImgBB keys.
+- Evaluated on VisualToolBench, TIR-Bench, MMSearch-Plus, AgentVista, MMBrowseComp.
+
+### Integration points for AMOS
+
+1. **Experience + skill memory bank → `amos-memory-systems-master` and `amos-llm-wiki`**
+   - The `memory_bank/` of structured skills/experiences maps directly to AMOS `11_KNOWLEDGE/LLM_WIKI/raw/` and `memory/short_term/` vs `memory/long_term/` split.
+   - AMOS can store trajectories as `agent_interaction.md` and consolidate them into `SKILL.md` upgrades via `skill_operations_enhancer.py`.
+
+2. **Phase I trajectory summarization → `amos-observability-driven-harness-evolution-rscf`**
+   - `trajectory_summary.py` and `experience_critique.py` mirror the AMOS `execution trace → memory → consolidated skill` pipeline.
+   - Could reuse `amos-observability-driven-harness-evolution-rscf` to generate `best_skill.md` candidates.
+
+3. **Phase II retrieval + prompt injection → `amos-agent-orchestrator` and `amos-llm-wiki`**
+   - Retrieve relevant skills from the bank and inject into the system prompt, similar to AMOS `AMOS_BOOT.md` and `CLAUDE.md` context window management.
+   - `amos-llm-wiki` can serve as the retrieval corpus.
+
+4. **Skill documents from trajectories → `amos-skill-builder` and `amos-evolution-loop`**
+   - `skill_builder.py` automatically creates structured skill documents from rollouts. AMOS `amos-skill-builder` can consume execution traces to propose `SKILL.md` updates.
+
+5. **Multimodal sample format → `amos-structured-document-parsing-rscf` and `amos-multimodal-perception-layer`**
+   - The JSON sample format with `problem`, `images`, `<image>` placeholders is a reference for AMOS multimodal prompts.
+
+### Open questions / gaps
+
+- Requires many API keys (SERPAPI, JINA, ImgBB, OpenAI endpoints); not all AMOS users will have these.
+- No explicit SOTA improvement claims; only "considerable performance gains" without numbers in README.
+- Python 3.11 recommended; current host is 3.9.6.
+
+### Recommended next step
+
+Inspect the `eval/exskill/skill_builder.py` output format and compare an XSkill-generated skill document to the AMOS `SKILL.md` frontmatter schema.
+
+Raw source: [[XSKILL_README_2026_08_29]]

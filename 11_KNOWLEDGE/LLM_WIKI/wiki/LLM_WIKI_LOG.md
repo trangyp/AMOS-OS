@@ -259,3 +259,17 @@ claim_class: AMOS_MODEL
 - Fetched `kai98k/agent-skills-registry` README and captured raw source to [[AGENTSKILLS_REGISTRY_README_2026_08_29]].
 - Mapped Skill Bundle format, `vendor`/`lock` supply-chain model, semver, and self-hosted registry to `amos-skill-builder`, `skill_integrity_lock.py`, `skill_version_manager.py`, `amos-skill-registry-gateway`, and `amos-mcp-connector`.
 - Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: package one AMOS skill as AgentSkills-compatible `.tar.gz`.
+
+## [2026-08-29] enhance | Imported Agent Skill Registry and AgentSkills Registry conventions into `amos-skill-builder`
+
+- Extended `stitch_project_cosmo/.devin/skills/amos-skill-builder/references/CONTRACT_TEMPLATE.yaml` with `capabilities` typed I/O schema, dot-notation `id`, and `metadata.status/category`.
+- Added `stitch_project_cosmo/.devin/skills/amos-skill-builder/references/CAPABILITY_NAMING_CONTRACT.md` formalizing `domain.noun.verb` capability identifiers.
+- Added `status`, `category`, `bundle_format`, and `assets_dir` to `amos-skill-builder/SKILL.md` and `MANIFEST.yaml`.
+- Re-ran `sota_skill_validator.py`: 642 / 642 skills still 100%.
+- Committed to `stitch_project_cosmo`.
+
+## [2026-08-29] research | XSkill README captured and evaluated
+
+- Fetched `XSkill-Agent/XSkill` README and captured raw source to [[XSKILL_README_2026_08_29]].
+- Mapped XSkill two-phase accumulation/inference loop, experience/skill memory bank, and trajectory-to-skill document builder to `amos-memory-systems-master`, `amos-llm-wiki`, `amos-observability-driven-harness-evolution-rscf`, `amos-agent-orchestrator`, `amos-skill-builder`, and `amos-multimodal-perception-layer`.
+- Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: compare XSkill `skill_builder.py` output to AMOS `SKILL.md` frontmatter.
