@@ -170,6 +170,7 @@ for p in MD_FILES:
             cleaned = line.replace(r"\$", "")
             # Strip HTML tags/comments and inline code spans (they can contain literal $)
             cleaned = re.sub(r'<[^>]+>', '', cleaned)
+            cleaned = re.sub(r'<(script|style)\b[^>]*>.*?</\1>', '', cleaned, flags=re.DOTALL)
             cleaned = re.sub(r'`[^`]*`', '', cleaned)
             # Remove balanced inline math pairs first (including $...$ with parens/spaces)
             cleaned = re.sub(r'\$(?!\$)[^$\n]*\$', '', cleaned)
