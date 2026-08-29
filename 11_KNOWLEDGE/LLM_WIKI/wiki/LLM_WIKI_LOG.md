@@ -41,6 +41,12 @@ Chronological, append-only record of ingests, queries, and lint passes.
 - Ran `AMOS_OBSIDIAN_MEMORY_BRIDGE` self-test: 43 passed, 0 failed
 - Fixed orphan `08_WORKFLOWS/kimi-k3-in-c-workflow.md` by linking ``
 
+## [2026-08-25] research | SOTA agent/skill/workflow repo survey
+- Web-searched public GitHub repositories for agent skill, workflow, and orchestration tooling.
+- Captured raw source to [[SOTA_AGENT_SKILL_WORKFLOW_REPOS_2026_08_25]]
+- Synthesized top picks and AMOS integration notes to [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]]
+- Updated [[LLM_WIKI_INDEX]] catalog and this log.
+
 ---
 RSCF-NODE
 node_id: llm_wiki_log

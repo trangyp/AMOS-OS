@@ -30,6 +30,7 @@ Content catalog for the AMOS LLM Wiki. Updated on every ingest, query, and lint.
 | Page | Summary | Source count |
 |------|---------|--------------|
 | [[karpathy_llm_wiki_summary]] | Karpathy's LLM Wiki pattern, adapted for AMOS | 1 |
+| [[SOTA_AGENT_SKILL_WORKFLOW_REPOS_2026_08_25]] | Raw capture of SOTA agent, skill and workflow repos | 2 |
 
 ## Concepts
 
@@ -52,6 +53,7 @@ Content catalog for the AMOS LLM Wiki. Updated on every ingest, query, and lint.
 |------|---------|
 | [[karpathy_llm_wiki_summary]] | AMOS interpretation of Karpathy's gist |
 | [[amos_llm_wiki_operations]] | Ingest, query, lint, and clip for the AMOS wiki |
+| [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] | Synthesized SOTA agent/skill/workflow repo guide |
 
 ## Tools
 

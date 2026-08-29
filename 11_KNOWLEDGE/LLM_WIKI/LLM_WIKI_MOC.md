@@ -37,9 +37,11 @@ rscf:
 
 ## Wiki pages
 - [[karpathy_llm_wiki_summary]] — Karpathy LLM Wiki pattern summary
+- [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] — Synthesized SOTA agent/skill/workflow repo guide
 
 ## Raw sources
 - `11_KNOWLEDGE/LLM_WIKI/raw/` — Immutable source documents
+- [[SOTA_AGENT_SKILL_WORKFLOW_REPOS_2026_08_25]] — SOTA agent/skill/workflow repo raw capture
 
 ## Related MOCs
 - [[KNOWLEDGE_MOC]]
