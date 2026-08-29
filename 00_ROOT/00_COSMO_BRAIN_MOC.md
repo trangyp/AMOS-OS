@@ -3,7 +3,6 @@ title: 00 Root MOC
 type: moc
 source: 00_ROOT
 tags:
-- moc
 - 00-root
 - canon/root
 - 00-home
@@ -177,8 +176,8 @@ rscf:
 
 ## SOTA and Agent Contracts
 
-- [[Agent Skills]]
-- [[AMOS Global Contract for AI Coding Agents]]
+- [[AGENT_SKILLS_STANDARD_README_2026_08_30|Agent Skills]]
+- [[.github/copilot-instructions.md|AMOS Global Contract for AI Coding Agents]]
 
 ## Subdirectories
 
