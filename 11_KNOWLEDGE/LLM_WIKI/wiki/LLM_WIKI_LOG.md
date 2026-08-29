@@ -524,3 +524,12 @@ Continue scanning for the next SOTA repo to capture, or implement the next vault
 - Added `make workflows` target to `Makefile`.
 - `make validate`: 649/649 skills at 100% SOTA; `make workflows`: 683/683 workflows pass; `agent_sync_validator.py`: 676/676 agents valid.
 - Logged next step (auto-add titles/sections to close 676 warnings) in `SOTA_AGENT_SKILL_WORKFLOW_REPOS`.
+
+## [2026-08-30] finalize | Workflow validator passes with 8 warnings; 650 skills, 677 agents, 684 workflows
+
+- Improved `workflow_validator.py` title detection to support YAML frontmatter `title`.
+- `make validate`: 650/650 skills at 100% SOTA.
+- `make workflows`: 684/684 workflows pass with 8 structural warnings.
+- `agent_sync_validator.py`: 677/677 agents valid.
+- Clean working tree.
+- Logged next steps in `SOTA_AGENT_SKILL_WORKFLOW_REPOS`.

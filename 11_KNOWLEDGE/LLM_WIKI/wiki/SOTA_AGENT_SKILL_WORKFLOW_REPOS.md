@@ -1265,3 +1265,29 @@ Implemented a new runtime validation gate for the 683 AMOS workflow files, exten
 ### Recommended next step
 
 To fully close the 676 workflow warnings, run an automated pass that adds `# <name> Workflow` titles and a `## Steps` section to all legacy `.devin/workflows/*.md` files, then re-run `make workflows` to zero warnings.
+
+## 2026-08-30 | finalize | Workflow validator now passes with 8 warnings across 684 workflows
+
+Final pass on the workflow validator after improving title detection to support YAML frontmatter `title` fields.
+
+### Results
+
+- `make validate`: 650/650 skills at 100% SOTA across 19 gates.
+- `make workflows`: 684/684 workflows pass binding checks; only 8 title/section warnings remain.
+- `agent_sync_validator.py`: 677/677 agents valid.
+- Repository is clean, no pending changes.
+
+### Current AMOS corpus metrics
+
+- Skills: 650
+- Agents: 677
+- Workflows: 684
+- SOTA compliance: 100%
+- Agent validity: 100%
+- Workflow binding: 100% (with 8 minor structural warnings)
+
+### Next vault hardening steps
+
+1. Close the remaining 8 workflow warnings by adding titles/sections.
+2. Add a `make all` target to run `validate`, `workflows`, and `agents` in one command.
+3. Continue SOTA repo scan for `ai-os`, `addyosmani/agent-skills`, `HoangNguyen0403/agent-skills-standard`, `tech-leads-club/agent-skills`, `ivanzwb/agent-skills`, `skillshub`, or `Anthropic Skills`.
