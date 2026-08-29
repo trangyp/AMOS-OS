@@ -2523,6 +2523,5 @@ RSCF-RELATIONS:
 
 **Origin architect / steward:** **Trang Phan**
 
-```
 
 The normalized P4 keeps the supplied three-law spine intact: **preserve viable competing hypotheses, type every epistemic output, and isolate speculative frontier reasoning**. Two boundaries are deliberately not promoted beyond the source: the exact semantics of **`U-3` remain a gap**, and the cognition architecture remains an **AMOS structural model, not a neuroscience claim**.

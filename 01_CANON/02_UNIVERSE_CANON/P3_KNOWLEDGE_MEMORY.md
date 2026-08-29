@@ -2559,6 +2559,5 @@ RSCF-RELATIONS:
 
 **Origin architect / steward:** **Trang Phan**
 
-```
 
 The normalization keeps the supplied P3 laws intact while making one important gap explicit: **`KM-1..4` is referenced but not defined in the supplied artifact**, so its exact semantics should not be invented. The resulting P3 spine is **typed persistence → memory-as-model → diversity-gated consolidation**, with staleness, provenance, epoch validity, competing memories, and dependency-local invalidation carried explicitly.

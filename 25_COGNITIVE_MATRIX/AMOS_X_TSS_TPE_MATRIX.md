@@ -3609,8 +3609,6 @@ RSCF-RELATIONS:
 
 **MOC:** [[25_COGNITIVE_MATRIX_MOC]]
 
-```
-
 The decisive source-state change is therefore:
 
 ```text
@@ -3627,3 +3625,4 @@ TSS source located
 TPE source located
 +
 direct TSS × TPE composite source located
+```

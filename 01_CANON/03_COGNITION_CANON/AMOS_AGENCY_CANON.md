@@ -5126,6 +5126,5 @@ RSCF-RELATIONS:
 
 **Validation:** NOT_ESTABLISHED
 
-```
 
 The decisive distinction in this placeholder is stronger than in a purely empty canon slot: it already provides a **source-supported governance spine**—`CAPABILITY ≠ AUTHORITY`, `AUTHORIZATION ≠ COMMIT`, `PROPOSAL ≠ COMMIT`, epoch-valid authority, fail-closed uncertainty, selective invalidation, receipts, and rollback discipline. What remains unavailable is the native definition that turns those boundaries into a complete **AMOS Agency ontology and executable contract**.

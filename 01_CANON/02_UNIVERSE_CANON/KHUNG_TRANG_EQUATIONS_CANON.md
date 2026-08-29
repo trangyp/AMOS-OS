@@ -1804,7 +1804,6 @@ SOURCE_GROUNDED_CANON_CANDIDATE
 
 **Origin architect / steward:** **Trang Phan**
 
-```
 
 The key integrity correction is the separation of **`RUNTIME_VERIFIED` from empirical equation validation**. The supplied artifact supports the former as its declared runtime state; it does not supply evidence sufficient to promote every Khung Trang equation to an empirically verified physical, biological, cognitive, or universal law.
 

@@ -419,7 +419,6 @@ Cross-scale mappings should preserve:
 
 Examples include:
 
-```text
 structural constraints
 interface constraints
 resource constraints

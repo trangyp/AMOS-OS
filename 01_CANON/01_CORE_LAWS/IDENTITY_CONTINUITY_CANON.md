@@ -5246,6 +5246,5 @@ RSCF-RELATIONS:
 
 **Validation:** NOT_ESTABLISHED
 
-```
 
 The decisive difference from the preceding Feedback placeholder is that this artifact has no observed identifier asymmetry: `artifact_id` and `node_id` are textually identical. That supports **identifier consistency only**; it does not establish the still-missing native rule for what constitutes identity or continuity in AMOS OS.

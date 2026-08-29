@@ -3074,6 +3074,5 @@ RSCF-RELATIONS:
 
 **Origin architect / steward:** **Trang Phan**
 
-```
 
 Two material boundaries are deliberately retained in this full version rather than normalized away. First, the `0.8` reset threshold is source-grounded but its measurement function, scale, and empirical calibration are not supplied here, so those remain `UNKNOWN/GAP`. Second, the entropy equation requires internal generation to be no greater than export magnitude for net entropy to be non-positive; negative export by itself is mathematically insufficient.

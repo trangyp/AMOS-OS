@@ -309,7 +309,6 @@ Results:
 ## Related
 
 -
-```
 
 ---
 

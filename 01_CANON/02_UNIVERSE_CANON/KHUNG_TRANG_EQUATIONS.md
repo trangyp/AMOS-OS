@@ -2454,7 +2454,6 @@ RSCF-RELATIONS:
 
 **Origin architect / steward:** **Trang Phan**
 
-```
 
 One mathematically material issue is preserved rather than silently repaired: in Equation 3, **\(\dot S_{export}<0\) alone does not imply \(dS/dt\le0\)**. Given the supplied balance equation, that conclusion additionally requires \(\dot S_{internal}\le|\dot S_{export}|\). The source statement remains intact, while the necessary condition is separately typed as a derived algebraic clarification.
 

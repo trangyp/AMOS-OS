@@ -3360,4 +3360,3 @@ The governing invariant remains:
 
 **Unresolved critical runtime claims:** UNKNOWN/GAP
 
-```

@@ -420,7 +420,6 @@ structural abstraction
 
 # 11. Repair
 
-```text
 rscf/P-
 
 ---

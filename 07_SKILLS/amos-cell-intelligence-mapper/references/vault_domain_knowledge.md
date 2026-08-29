@@ -290,7 +290,6 @@ $$\boxed{ L_0 = CoreIntelligence }$$
 
 Its role is to provide reusable primitives such as:
 
-```text
 reasoning
 memory
 pattern detection

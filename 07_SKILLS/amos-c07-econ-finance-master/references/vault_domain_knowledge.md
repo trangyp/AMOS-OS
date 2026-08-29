@@ -560,7 +560,6 @@ Incorrect: `Rates will do X` / `Buy Y`.
 ## Related
 
 -
-```
 
 ---
 

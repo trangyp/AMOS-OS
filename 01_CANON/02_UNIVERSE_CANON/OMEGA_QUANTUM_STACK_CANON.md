@@ -1963,6 +1963,5 @@ RSCF-RELATIONS:
 
 **Origin architect / steward:** **Trang Phan**
 
-```
 
 The key promotion relative to the original placeholder is **architectural content: SOURCE_GROUNDED**. I did **not** carry forward `RUNTIME_VERIFIED` merely from reported implementation/test counts: the connected Omega architecture describes concrete library, MURK, brain-model, storage, and integration components, but those reports are still source claims until their executable artifacts and receipts are independently checked. :contentReference[oaicite:1]{index=1}

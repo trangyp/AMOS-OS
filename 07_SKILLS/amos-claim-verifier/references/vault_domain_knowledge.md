@@ -192,7 +192,6 @@ decision_relevance: low | medium | high
 ## Related
 
 - [[07_SKILLS_MOC]]
-```
 ---
 
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]

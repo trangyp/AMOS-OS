@@ -4625,6 +4625,5 @@ RSCF-RELATIONS:
 
 **Validation:** NOT_ESTABLISHED
 
-```
 
 Critical gap preserved: **the framework name does not itself license a `Difference → Relation → Boundary` law**. The expansion therefore treats Difference, Relation, Boundary, their directionality, necessity/sufficiency conditions, causal semantics, scope, and dependencies as separate unresolved native-canon slots rather than silently deriving ontology from the title.

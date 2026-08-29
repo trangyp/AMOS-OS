@@ -4198,7 +4198,6 @@ $$
 
 **END OF `UNIVERSE_X_OMEGA_MATRIX.md`**
 
-```
 
 ---
 

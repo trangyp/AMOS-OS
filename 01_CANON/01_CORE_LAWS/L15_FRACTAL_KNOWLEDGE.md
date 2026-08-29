@@ -4341,4 +4341,3 @@ CAUSAL PROOF
 
 **Conclusion class: CONDITIONAL / AMOS_MODEL.**
 
-```

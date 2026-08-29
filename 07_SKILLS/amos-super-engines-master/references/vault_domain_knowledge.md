@@ -1370,7 +1370,6 @@ diversity/coherence governance
 ## Related
 
 -
-```
 
 ---
 

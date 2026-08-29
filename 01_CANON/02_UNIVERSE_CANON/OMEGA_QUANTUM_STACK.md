@@ -2153,6 +2153,5 @@ RSCF-RELATIONS:
 
 **Origin architect / steward:** **Trang Phan**
 
-```
 
 This converts the artifact from an empty placeholder into the **operational companion** to `OMEGA_QUANTUM_STACK_CANON.md`, while keeping the promotion ceiling at `SOURCE_GROUNDED_CANON_CANDIDATE`. The implementation remains `SOURCE_REPORTED_PARTIAL`; an artifact/version-bound executed receipt is still the decisive missing evidence for `RUNTIME_VERIFIED`.

@@ -1048,6 +1048,5 @@ $$
 
 **MOC:**
 
-```
 
 **Critical gap:** the actual contents of `ABSOLUTE OMNIVERSE U∞.txt` are required to produce the **full substantive version** analogous to the Super Mind OS reconstruction. The filename is known, but its contents are not exposed to the retrievable-file interface in this turn. Supplying/re-uploading that native text as a readable attachment would permit extraction of its actual U∞ hierarchy, definitions, equations, laws, variables, and lineage without fabrication.

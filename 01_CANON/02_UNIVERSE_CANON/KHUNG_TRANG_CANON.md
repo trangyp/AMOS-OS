@@ -6321,6 +6321,5 @@ until discriminating evidence exists.
 
 **Origin architect / steward:** **Trang Phan**
 
-```
 
 This version promotes the file from an empty `PLACEHOLDER` to **`SOURCE_BOUND_CANON_CANDIDATE`** because the native Khung Trang master is actually present and contains substantive architecture. It deliberately does **not** promote its physics, biology, consciousness, cosmology, ethics, or universal cross-scale propositions beyond `AMOS_MODEL` without independent validation.
