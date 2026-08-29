@@ -96,3 +96,9 @@ claim_class: AMOS_MODEL
   2. Execution manifest + decision logs → extend `amos-workflow-runner` with `state/execution/{eid}/` logging.
   3. Expert/worker role hierarchy → map to `amos-agent-orchestrator` subagent dispatch.
   4. Routing table signal words → reuse in `amos-routing-audit` intent classification.
+
+## [2026-08-29] research | SkillOpt README captured and evaluated
+
+- Fetched `microsoft/SkillOpt` README and captured raw source to [[SKILLOPT_README_2026_08_29]].
+- Mapped SkillOpt trainable-skill loop, held-out validation gates, and multi-harness evaluation to `amos-skill-builder`, `skill-check`, `amos-validation-pipeline`, and `amos-agent-orchestrator`.
+- Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: sandbox `skillopt` on one AMOS skill.

@@ -193,3 +193,45 @@ Read the `main` branch README of `nuryslyrt/ORPHEUS` and mapped it to AMOS opera
 Clone `nuryslyrt/ORPHEUS`, inspect the `skill/` directory structure, and compare one generated `.orpheus/` system to an AMOS workflow to see if any contract/role patterns should be imported.
 
 Raw source: [[ORPHEUS_README_2026_08_29]]
+
+## 2026-08-29 | SkillOpt deep-dive
+
+Read the `main` branch README of `microsoft/SkillOpt` and mapped it to AMOS skill training and governance.
+
+### Verified shape
+
+- PyPI package: `skillopt` (Python 3.10+, MIT).
+- CLI `skillopt`, WebUI `skillopt_webui`, and offline `skillopt-sleep`.
+- Training loop: rollout → reflect → aggregate → select → update → evaluate.
+- Optimizer model turns scored rollouts into bounded `add / delete / replace` edits on a single skill document.
+- Candidate edits accepted only when they strictly improve a held-out validation score.
+- Built-in backends: OpenAI, Azure, Claude, Qwen, MiniMax, Codex CLI, Claude Code CLI, Cursor, Copilot; `openai_compatible` fallback.
+- Six built-in benchmarks; project page, paper arXiv:2605.23904, and docs in `docs/`.
+
+### Integration points for AMOS
+
+1. **Skill quality evolution → `amos-skill-builder` and `skill-check`**
+   - `best_skill.md` artifact produced after validation is the same object AMOS stores as `SKILL.md`.
+   - AMOS can adopt the rollout-reflect-edit-evaluate loop as a governed `skill-check --evolve` mode, producing a promoted `best_skill.md` only after a held-out gate passes.
+
+2. **Held-out validation gates → `amos-validation-pipeline` and promotion gates**
+   - SkillOpt rejects edits that do not improve a held-out score. This matches `PROMOTION_GATES` and the `amos-validation-levels` contract.
+   - Could add `skillopt_eval` as a `validation_status` step before a skill moves `draft → staging → production`.
+
+3. **Multi-backend / multi-harness validation → `amos-agent-orchestrator` and `amos-cli-failure-process-diagnostics-rscf`**
+   - SkillOpt tests the same skill across direct chat, Codex, Claude Code, Cursor. AMOS can run `skill-check` against multiple agent harnesses before releasing.
+
+4. **SkillOpt-Sleep offline self-evolution → `amos-evolution-loop` and `amos-brain-model-integration`**
+   - Nightly `harvest → mine → replay → consolidate` with validation. AMOS could schedule this over `.devin/skills/` using the `enforcement_trust_contract` and `AMOS_AUTONOMOUS_EVOLUTION_LAYER` already in `cosmo-brain/`.
+
+### Open questions / gaps
+
+- README claims 52 cells best/tied-best and +23.5 point lifts — not independently benchmarked by AMOS.
+- The 2026 dates in the README are future-dated relative to current AMOS context; source freshness should be flagged.
+- License is MIT, but the paper and benchmarks are Microsoft-copyrighted; ingestion of example skills should respect per-file license.
+
+### Recommended next step
+
+Install `skillopt` in a sandbox, run a built-in benchmark on one AMOS skill (e.g., `amos-llm-wiki`), and compare the `best_skill.md` output to the current `SKILL.md` to see if validation-gated evolution improves SOTA score.
+
+Raw source: [[SKILLOPT_README_2026_08_29]]
