@@ -540,3 +540,9 @@ Continue scanning for the next SOTA repo to capture, or implement the next vault
 - Enhanced `workflow_validator.py` with `--verbose` and robust title detection.
 - Captured `agiresearch/AIOS` as `amos-aios`.
 - Final corpus: 653 skills, 680 agents, 687 workflows, 100% SOTA/workflow/agent validity.
+
+## [2026-08-30] import | Imported Tech Leads Club Agent Skills; 654 skills, 688 workflows, 681 agents
+
+- Captured and imported `tech-leads-club/agent-skills` as `amos-tech-leads-club-agent-skills`.
+- Committed in `stitch_project_cosmo` and `AMOS_OS` vault.
+- 100% SOTA, 100% workflow, 100% agent validity.

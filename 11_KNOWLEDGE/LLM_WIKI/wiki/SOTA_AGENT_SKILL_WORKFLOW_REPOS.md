@@ -1324,3 +1324,18 @@ Full clean-up pass on untracked and under-bound skills, plus capture of the next
 - `ivanzwb/agent-skills`
 - `skillshub`
 - `HoangNguyen0403/agent-skills-standard`
+
+## 2026-08-30 | import | Added `amos-tech-leads-club-agent-skills` (654 skills, 688 workflows, 681 agents, 100% SOTA)
+
+- Captured `tech-leads-club/agent-skills` README to `11_KNOWLEDGE/LLM_WIKI/raw/TECH_LEADS_CLUB_AGENT_SKILLS_README_2026_08_30.md`.
+- Created `.devin/skills/amos-tech-leads-club-agent-skills/` with `SKILL.md`, references, and `scripts/validate.sh`.
+- Added missing `amos-anthropic-skills` agent/workflow and fixed its G11.
+- Updated `SkillIndex.md` to 654 skills.
+- Final validation:
+  - `make validate`: 654/654 skills at 100% SOTA.
+  - `workflow_validator.py -v`: 688/688 workflows pass.
+  - `agent_sync_validator.py`: 681/681 agents valid.
+
+### Synthesis
+
+Tech Leads Club Agent Skills brings hardened skill-registry controls (lockfiles, content hashing, Snyk scan, path isolation, symlink guards, audit trail) that AMOS can map to `amos-skill-builder`, `skill-check`, and the `agent-registry` lifecycle.
