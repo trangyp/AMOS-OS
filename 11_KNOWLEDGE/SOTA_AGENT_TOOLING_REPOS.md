@@ -1636,3 +1636,22 @@ Added a fast browser automation CLI purpose-built for AI agents.
 - **Categories covered**: agent browser, browser automation, MCP tools, web interaction
 - **Total new repos**: 1 (Agent Browser)
 - **Cumulative SOTA catalog**: 75 repos
+
+## Round 38: Native desktop automation (2026-08-29)
+
+Added an accessibility-tree-based desktop automation CLI for AI agents.
+
+### 76. agent-desktop — `lahfir/agent-desktop` (~1,030 stars)
+
+- **Key feature**: Native Rust CLI that controls any desktop app through OS accessibility trees (macOS, Windows, Linux AT-SPI); 58 commands, 54 operational, structured JSON output, deterministic element refs, snapshot-based skeleton traversal, headless interactions, CDP interop.
+- **AMOS integration**: Use agent-desktop as the OS-native execution harness for AMOS agents needing desktop/GUI actions; map accessibility snapshots and element refs into RSCF provenance receipts and wrap each command group (observe, interact, keyboard, mouse, window, session) into AMOS skills.
+
+## Round 38 Provenance
+
+- **Research date**: 2026-08-29
+- **Researcher**: Devin (live GitHub web search)
+- **Epistemic class**: EMPIRICAL (star counts from GitHub, may change)
+- **RSCF state**: SOURCE_CLAIM (repo features from README/docs) → DERIVED (AMOS integration recommendation)
+- **Categories covered**: desktop automation, GUI agent, accessibility, computer use
+- **Total new repos**: 1 (agent-desktop)
+- **Cumulative SOTA catalog**: 76 repos
