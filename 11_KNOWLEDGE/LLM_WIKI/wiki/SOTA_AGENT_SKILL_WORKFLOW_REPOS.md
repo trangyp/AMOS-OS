@@ -1072,3 +1072,26 @@ Implemented the previous recommendation: evaluate `compatibility` (<=500) and `a
 ### Recommended next step
 
 Capture and AMOS-lint the `SkillOS` `CLAUDE.md` pattern (markdown-only agents/tools, `projects/` structure, memory logging) as an `amos-skillos` skill, or import the system-agent manifest and tool-map into `amos-agent-orchestrator`.
+
+## 2026-08-30 | implement | Imported SkillOS `CLAUDE.md` as AMOS skill `amos-skillos`
+
+Implemented the previous recommendation: capture and AMOS-lint the SkillOS `CLAUDE.md` markdown operating system framework.
+
+### Results
+
+- Created `.devin/skills/amos-skillos/` with `SKILL.md`, `references/skillos-claude.md` (verbatim source), `references/skillos-manifest.md`, and `scripts/skillos_setup.sh`.
+- Wrote AMOS-linted `SKILL.md` covering `boot skillos`, `skillos execute:`, project scaffolding, agent/tool markdown creation, memory logging, and multi-agent pipelines.
+- Added `amos-skillos-agent.json` and `amos-skillos-workflow.md` for 1:1:1 binding.
+- Updated `SkillIndex.md` to 644 skills and added `[[amos-skillos]]` as a cross-cutting route.
+- `make validate`: 644/644 skills at 100% SOTA.
+- `agent_sync_validator.py`: 671/671 agents valid.
+
+### AMOS integration points
+
+- SkillOS `projects/Project_[Name]/` scaffold → `amos-skill-builder` and `amos-workflow-builder`.
+- SkillOS agent/tool markdown specs → `amos-agent-orchestrator` and `amos-agent-schema`.
+- SkillOS memory logging → `amos-memory-systems-master` and `amos-llm-wiki`.
+
+### Recommended next step
+
+Continue scanning for best upstream skill/agent/workflow repos (SkillOpt, ORPHEUS, SkillFlow, AgentFactory, AgentSkill Registry, XSkill, OpenSkills, MMSkills, ai-os, addyosmani/agent-skills, HoangNguyen0403/agent-skills-standard) and capture the most relevant next repo into AMOS.

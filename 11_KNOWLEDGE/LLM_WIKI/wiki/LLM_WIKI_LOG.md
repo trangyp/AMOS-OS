@@ -440,3 +440,13 @@ claim_class: AMOS_MODEL
 - Fixed `amos-0704-3643v1-sabbath-day-home-automation-it-s-like-mixing-te` `allowed-tools` from `Read skill` to `Read`.
 - `make validate`: 643/643 skills, 100% SOTA across 16 gates.
 - New recommended next step in `SOTA_AGENT_SKILL_WORKFLOW_REPOS`: capture and AMOS-lint the `SkillOS` `CLAUDE.md` pattern as `amos-skillos`.
+
+## [2026-08-30] implement | Imported SkillOS `CLAUDE.md` as `amos-skillos` and wired into AMOS
+
+- Copied `/private/tmp/skillos/CLAUDE.md` to `.devin/skills/amos-skillos/references/skillos-claude.md`.
+- Wrote `SKILL.md` with SkillOS boot, scaffold, execute, and agent/tool creation instructions.
+- Added `references/skillos-manifest.md` and `scripts/skillos_setup.sh`.
+- Created `.devin/agents/amos-skillos-agent.json` and `.devin/workflows/amos-skillos-workflow.md`.
+- Updated `.devin/skills/SkillIndex.md` to 644 skills and added `amos-skillos` cross-cutting route.
+- `make validate`: 644/644 skills at 100% SOTA.
+- `agent_sync_validator.py`: 671/671 agents valid.
