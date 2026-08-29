@@ -34,12 +34,12 @@ AIOS is the AI Agent Operating System, which embeds large language model (LLM) i
 </p>
 
 The AIOS system is comprised of two key components: the AIOS kernel and the AIOS SDK.
-The AIOS kernel acts as an abstraction layer over the operating system kernel, managing various resources that agents require, such as LLM, memory, storage and tool. 
+The AIOS kernel acts as an abstraction layer over the operating system kernel, managing various resources that agents require, such as LLM, memory, storage and tool.
 The AIOS SDK is designed for agent users and developers, enabling them to build and run agent applications by interacting with the AIOS kernel.
 AIOS kernel is the current repository and AIOS SDK can be found at [here](https://github.com/agiresearch/Cerebrum)
 
 ### Modules and Connections
-Below shows how agents utilize AIOS SDK to interact with AIOS kernel and how AIOS kernel receives agent queries and leverage the chain of syscalls that are scheduled and dispatched to run in different modules. 
+Below shows how agents utilize AIOS SDK to interact with AIOS kernel and how AIOS kernel receives agent queries and leverage the chain of syscalls that are scheduled and dispatched to run in different modules.
 <p align="center">
 <img src="docs/assets/aios-figs/details.png">
 </p>
@@ -47,7 +47,7 @@ Below shows how agents utilize AIOS SDK to interact with AIOS kernel and how AIO
 ### Computer-use Specialized Architecture
 For computer-use agent, the architecture extends the AIOS Kernel with significant enhancements focused on computer contextualization. While preserving essential components like LLM Core(s), Context Manager, and Memory Manager, the Tool Manager module has been fundamentally redesigned to incorporate a VM (Virtual Machine) Controller and MCP Server.
 This redesign creates a sandboxed environment that allows agents to safely interact with computer systems while
-maintaining a consistent semantic mapping between agent intentions and computer operations. 
+maintaining a consistent semantic mapping between agent intentions and computer operations.
 
 <p align="center">
 <img src="docs/assets/litecua-figs/architecture.png">
@@ -56,13 +56,13 @@ maintaining a consistent semantic mapping between agent intentions and computer 
 ## 📰 News
 - **[2025-07-08]** 🎉 The foundational paper [AIOS: LLM Agent Operating System](https://arxiv.org/abs/2403.16971) has been accepted by the Conference on Language Modeling (COLM 2025). Congratulations to the team!
 - **[2025-07-02]** 🎉 AIOS has been selected as the finalist for AgentX – LLM Agents MOOC Competition, hosted by Berkeley RDI in conjunction with the Advanced LLM Agents MOOC. Congratulations to the team!
-- **[2025-05-24]** 📋 Check out our paper on computer-use agent: [LiteCUA: Computer as MCP Server for Computer-Use Agent on AIOS](https://arxiv.org/pdf/2505.18829) and the corresponding [codebase](https://github.com/agiresearch/LiteCUA). 
+- **[2025-05-24]** 📋 Check out our paper on computer-use agent: [LiteCUA: Computer as MCP Server for Computer-Use Agent on AIOS](https://arxiv.org/pdf/2505.18829) and the corresponding [codebase](https://github.com/agiresearch/LiteCUA).
 - **[2025-03-13]** 📋 Paper [Cerebrum (AIOS SDK): A Platform for Agent Development, Deployment, Distribution, and Discovery](https://arxiv.org/abs/2503.11444) has been accepted by NAACL 2025! Features has been integrated into [Cerebrum](https://github.com/agiresearch/Cerebrum).
 - **[2025-03-12]** 🔥 A major refactor of the codebase packed with powerful new features have been integrated into the main repo. Please check out the AIOS v0.2.2 release.
-- **[2025-03-10]** 📋 Check out our paper on agentic memory [A-MEM: Agentic Memory for LLM Agents](https://arxiv.org/abs/2502.12110) and the corresponding [codebase](https://github.com/agiresearch/A-mem). 
-- **[2025-02-07]** 📋 Our paper [From Commands to Prompts: LLM-based Semantic File System for AIOS](https://arxiv.org/abs/2410.11843) has been accepted by ICLR2025! The features of this paper has been integrated into AIOS as the **Terminal UI**. 
-- **[2025-01-27]** 🔥 Deepseek-r1 (1.5b, 7b, 8b, 14b, 32b, 70b, 671b) has already been supported in AIOS, both open-sourced versions and deepseek apis (deepseek-chat and deepseek-reasoner) are available. 
-- **[2024-11-30]** 🔥 AIOS v0.2: Disentangled AIOS Kernel (this [AIOS](https://github.com/agiresearch/AIOS) repository) and AIOS SDK (The [Cerebrum](https://github.com/agiresearch/Cerebrum) repository), Remote Kernel for agent users. 
+- **[2025-03-10]** 📋 Check out our paper on agentic memory [A-MEM: Agentic Memory for LLM Agents](https://arxiv.org/abs/2502.12110) and the corresponding [codebase](https://github.com/agiresearch/A-mem).
+- **[2025-02-07]** 📋 Our paper [From Commands to Prompts: LLM-based Semantic File System for AIOS](https://arxiv.org/abs/2410.11843) has been accepted by ICLR2025! The features of this paper has been integrated into AIOS as the **Terminal UI**.
+- **[2025-01-27]** 🔥 Deepseek-r1 (1.5b, 7b, 8b, 14b, 32b, 70b, 671b) has already been supported in AIOS, both open-sourced versions and deepseek apis (deepseek-chat and deepseek-reasoner) are available.
+- **[2024-11-30]** 🔥 AIOS v0.2: Disentangled AIOS Kernel (this [AIOS](https://github.com/agiresearch/AIOS) repository) and AIOS SDK (The [Cerebrum](https://github.com/agiresearch/Cerebrum) repository), Remote Kernel for agent users.
 - **[2024-09-01]** 🔥 AIOS supports multiple agent creation frameworks (e.g., ReAct, Reflexion, OpenAGI, AutoGen, Open Interpreter, MetaGPT). Agents created by these frameworks can onboard AIOS. Onboarding guidelines can be found at the [Doc](https://docs.aios.foundation/aios-docs/aios-agent/how-to-develop-agents).
 - **[2024-07-10]** 📖 AIOS documentation is up, which can be found at [Website](https://docs.aios.foundation/).
 - **[2024-06-20]** 🔥 Function calling for open-sourced LLMs (native huggingface, vLLM, ollama) is supported.
@@ -75,7 +75,7 @@ maintaining a consistent semantic mapping between agent intentions and computer 
 - **[2023-12-06]** 📋 After several months of working, our perspective paper [LLM as OS, Agents as Apps: Envisioning AIOS, Agents and the AIOS-Agent Ecosystem](https://arxiv.org/abs/2312.03815) is officially released.
 
 ## Different deployment modes of AIOS
-Here are some key notations that are required to know before introducing the different modes of AIOS. 
+Here are some key notations that are required to know before introducing the different modes of AIOS.
 - **AHM (Agent Hub Machine)**: Central server that hosts the agent marketplace/repository where users can publish, download, and share agents. Acts as the distribution center for all agent-related resources.
 - **AUM (Agent UI Machine)**: Client machine that provides user interface for interacting with agents. Can be any device from mobile phones to desktops that supports agent visualization and control.
 - **ADM (Agent Development Machine)**: Development environment where agent developers write, debug and test their agents. Requires proper development tools and libraries.
@@ -90,7 +90,7 @@ The following parts introduce different modes of deploying AIOS. **Currently, AI
 </p>
 
 - Features:
-  - For agent users: They can download agents from agent hub from Machine B and run agents on Machine A. 
+  - For agent users: They can download agents from agent hub from Machine B and run agents on Machine A.
   - For agent developers: They can develop and test agents in Machine A and can upload agents to agent hub on Machine B.
 
 ### Mode 2 (Remote Kernel Mode)
@@ -99,8 +99,8 @@ The following parts introduce different modes of deploying AIOS. **Currently, AI
 <img src="docs/assets/aios-figs/stage2.png" width=300>
 </p>
 
-- Features: 
-  - Remote use of agents: Agent users / developers can use agents on Machine B, which is different from the development and running machine (Machine A).  
+- Features:
+  - Remote use of agents: Agent users / developers can use agents on Machine B, which is different from the development and running machine (Machine A).
   - Benefit users who would like to use agents on resource-restricted machine (e.g., mobile device or edge device)
 
 ### Mode 2.5 (Remote Kernel Dev Mode)
@@ -174,7 +174,7 @@ conda activate venv
 
 > [!TIP]
 > We strongly recommend using [uv](https://github.com/astral-sh/uv) for faster and more reliable package installation.
-> To install uv: 
+> To install uv:
 > ```bash pip install uv```
 
 **For GPU environments:**
@@ -204,40 +204,40 @@ pip install -r requirements.txt
    ```bash
    git clone https://github.com/agiresearch/Cerebrum.git
    ```
-  
+
 2. Install using uv (recommended):
    ```bash
    cd Cerebrum && uv pip install -e .
    ```
-   
+
    Or using pip:
    ```bash
    cd Cerebrum && pip install -e .
    ```
 
 ##### Step 3: Install Virtualized Environment (Optional)
-To use the mcp for computer-use agent, we strongly recommend you install a virtualized environment equipped with GUI. Instructions can be found in [here](https://github.com/xlang-ai/OSWorld). 
+To use the mcp for computer-use agent, we strongly recommend you install a virtualized environment equipped with GUI. Instructions can be found in [here](https://github.com/xlang-ai/OSWorld).
 
 **Note**: The machine where the AIOS kernel (AIOS) is installed must also have the AIOS SDK (Cerebrum) installed. Installing AIOS kernel will install the AIOS SDK automatically by default. If you are using the Local Kernel mode, i.e., you are running AIOS and agents on the same machine, then simply install both AIOS and Cerebrum on that machine. If you are using Remote Kernel mode, i.e., running AIOS on Machine 1 and running agents on Machine 2 and the agents remotely interact with the kernel, then you need to install both AIOS kernel and AIOS SDK on Machine 1, and install the AIOS SDK alone on Machine 2. Please follow the guidelines at [Cerebrum](https://github.com/agiresearch/Cerebrum) regarding how to install the SDK.
 
 ### Quickstart
-Before launching AIOS, it is required to set up configurations. AIOS provides two ways of setting up configurations, one is to set up by directly modifying the configuration file, another is to set up interactively. 
+Before launching AIOS, it is required to set up configurations. AIOS provides two ways of setting up configurations, one is to set up by directly modifying the configuration file, another is to set up interactively.
 
 #### Set up configuration file directly (Recommended)
 You need API keys for services like OpenAI, Anthropic, Groq and HuggingFace. The simplest way to configure them is to edit the `aios/config/config.yaml`.
 
 > [!TIP]
-> It is important to mention that, we strongly recommend using the `aios/config/config.yaml` file to set up your API keys. This method is straightforward and helps avoid potential sychronization issues with environment variables. 
+> It is important to mention that, we strongly recommend using the `aios/config/config.yaml` file to set up your API keys. This method is straightforward and helps avoid potential sychronization issues with environment variables.
 
 A simple example to set up your API keys in `aios/config/config.yaml` is shown below:
 ```yaml
 api_keys:
-  openai: "your-openai-key"    
-  gemini: "your-gemini-key"    
-  groq: "your-groq-key"      
-  anthropic: "your-anthropic-key" 
+  openai: "your-openai-key"
+  gemini: "your-gemini-key"
+  groq: "your-groq-key"
+  anthropic: "your-anthropic-key"
   huggingface:
-    auth_token: "your-huggingface-token-for-authorized-models"  
+    auth_token: "your-huggingface-token-for-authorized-models"
     cache_dir: "your-cache-dir-for-saving-models"
   novita: "your-novita-api-key"
 ```
@@ -268,7 +268,7 @@ llms:
       hostname: "http://localhost:8091/v1"  # Make sure to run vllm server
 ```
 
-**Using Ollama Models:** 
+**Using Ollama Models:**
 1. First, download ollama from https://ollama.com/
 2. Start the ollama server in a separate terminal:
 ```bash
@@ -293,7 +293,7 @@ vllm serve meta-llama/Llama-3.1-8B-Instruct --port 8091
 > vLLM currently only supports Linux and GPU-enabled environments. If you don't have a compatible environment, please choose other backend options.
 > To enable the tool calling feature of vllm, refer to https://docs.vllm.ai/en/latest/features/tool_calling.html
 
-**Using HuggingFace Models:** 
+**Using HuggingFace Models:**
 You can configure HuggingFace models with specific GPU memory allocation:
 ```yaml
 - name: "meta-llama/Llama-3.1-8B-Instruct"
@@ -304,7 +304,7 @@ You can configure HuggingFace models with specific GPU memory allocation:
 
 #### Set up interactively
 
-Alternatively, you can set up aios configurations interactively by using the following command. 
+Alternatively, you can set up aios configurations interactively by using the following command.
 
 - `aios env list`: Show current environment variables, or show available API keys if no variables are set
 - `aios env set`: Show current environment variables, or show available API keys if no variables are set
@@ -337,7 +337,7 @@ Or if you need to explicity set the Python version by running `python3.10`, `pyt
 python3.x -m uvicorn runtime.launch:app --host 0.0.0.0 --port 8000 # replace the port with your own port
 ```
 
-You also need to set up the host and port in the configuration of Cerebrum (AIOS SDK) to make sure it is consistent with the configurations of AIOS. 
+You also need to set up the host and port in the configuration of Cerebrum (AIOS SDK) to make sure it is consistent with the configurations of AIOS.
 
 You can also force the kernel to run in the background with:
 ```
@@ -360,9 +360,9 @@ To interact with the AIOS terminal (LLM-based semantic file system), you can run
 python scripts/run_terminal.py
 ```
 
-Then you can start interacting with the AIOS terminal by typing natural language commands. 
+Then you can start interacting with the AIOS terminal by typing natural language commands.
 
-If you successfully start the AIOS terminal, it will be shown as below: 
+If you successfully start the AIOS terminal, it will be shown as below:
 
 <p align="center">
 <img src="docs/assets/terminal-figs/example.png" width=800>
@@ -374,7 +374,7 @@ Detailed instructions of how to use the AIOS terminal can be found at [here](htt
 > The rollback feature of the AIOS terminal requires the connection to the redis server. Make sure you have the redis server running if you would like to use the rollback feature.
 
 #### Run computer-use Agent
-Make sure you have installed a virtualized environment with GUI, then you can refer to [Cerebrum](https://github.com/agiresearch/Cerebrum) for how to run the computer-use agent. 
+Make sure you have installed a virtualized environment with GUI, then you can refer to [Cerebrum](https://github.com/agiresearch/Cerebrum) for how to run the computer-use agent.
 
 ### Supported Agent Frameworks
 - [OpenAGI](https://github.com/agiresearch/openagi)
@@ -442,7 +442,7 @@ fn main() -> anyhow::Result<()> {
   year={2025}
 }
 @inproceedings{rama2025cerebrum,
-  title={Cerebrum (AIOS SDK): A Platform for Agent Development, Deployment, Distribution, and Discovery}, 
+  title={Cerebrum (AIOS SDK): A Platform for Agent Development, Deployment, Distribution, and Discovery},
   author={Balaji Rama and Kai Mei and Yongfeng Zhang},
   booktitle={2025 Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics},
   year={2025}

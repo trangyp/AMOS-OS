@@ -57,385 +57,385 @@
 
 ### `amos-agent-systems-master` (8 children)
 
-- [`amos-agency-consequence-governor`](#amosagencyconsequencegovernor)
-- [`amos-agent-externalization-architecture-rscf`](#amosagentexternalizationarchitecturerscf)
-- [`amos-agent-owner-attribution-rscf`](#amosagentownerattributionrscf)
-- [`amos-agentic-skill-lie-algebroid-rscf-engine`](#amosagenticskillliealgebroidrscfengine)
-- [`amos-agentops-observability-rscf`](#amosagentopsobservabilityrscf)
-- [`amos-portable-agent-authorization-rscf`](#amosportableagentauthorizationrscf)
-- [`rscf-modeler`](#rscfmodeler)
-- [`skill-creator`](#skillcreator)
+- `amos-agency-consequence-governor`
+- `amos-agent-externalization-architecture-rscf`
+- `amos-agent-owner-attribution-rscf`
+- `amos-agentic-skill-lie-algebroid-rscf-engine`
+- `amos-agentops-observability-rscf`
+- `amos-portable-agent-authorization-rscf`
+- `rscf-modeler`
+- `skill-creator`
 
 ### `amos-audit-repair-master` (22 children)
 
-- [`amos-benchmark-forensics`](#amosbenchmarkforensics)
-- [`amos-claim-verifier`](#amosclaimverifier)
-- [`amos-formal-agent-skill-verification-rscf`](#amosformalagentskillverificationrscf)
-- [`amos-formally-verified-migration-rscf`](#amosformallyverifiedmigrationrscf)
-- [`amos-genetic-stability-auditor`](#amosgeneticstabilityauditor)
-- [`amos-governed-executable-knowledge-repair-rscf`](#amosgovernedexecutableknowledgerepairrscf)
-- [`amos-measurement-integrity-auditor`](#amosmeasurementintegrityauditor)
-- [`amos-metacognitive-confidence-auditor`](#amosmetacognitiveconfidenceauditor)
-- [`amos-process-compliance-auditor-rscf`](#amosprocesscomplianceauditorrscf)
-- [`amos-reality-meta-law-auditor`](#amosrealitymetalawauditor)
-- [`amos-repair-allocation-optimizer`](#amosrepairallocationoptimizer)
-- [`amos-repair-harm-auditor`](#amosrepairharmauditor)
-- [`amos-repair-priority-governor`](#amosrepairprioritygovernor)
-- [`amos-repair-substrate-capture-resistance-rscf`](#amosrepairsubstratecaptureresistancerscf)
-- [`amos-runtime-benchmarking`](#amosruntimebenchmarking)
-- [`amos-sae-benchmark-reliability-rscf-engine`](#amossaebenchmarkreliabilityrscfengine)
-- [`amos-semantic-grounding-auditor`](#amossemanticgroundingauditor)
-- [`amos-symbolic-translation-repair-rscf`](#amossymbolictranslationrepairrscf)
-- [`amos-system-completion-auditor`](#amossystemcompletionauditor)
-- [`amos-target-of-repair-intelligence`](#amostargetofrepairintelligence)
-- [`amos-tool-grounded-configuration-repair-rscf`](#amostoolgroundedconfigurationrepairrscf)
-- [`amos-verification-aware-implementation-diversity-rscf`](#amosverificationawareimplementationdiversityrscf)
+- `amos-benchmark-forensics`
+- `amos-claim-verifier`
+- `amos-formal-agent-skill-verification-rscf`
+- `amos-formally-verified-migration-rscf`
+- `amos-genetic-stability-auditor`
+- `amos-governed-executable-knowledge-repair-rscf`
+- `amos-measurement-integrity-auditor`
+- `amos-metacognitive-confidence-auditor`
+- `amos-process-compliance-auditor-rscf`
+- `amos-reality-meta-law-auditor`
+- `amos-repair-allocation-optimizer`
+- `amos-repair-harm-auditor`
+- `amos-repair-priority-governor`
+- `amos-repair-substrate-capture-resistance-rscf`
+- `amos-runtime-benchmarking`
+- `amos-sae-benchmark-reliability-rscf-engine`
+- `amos-semantic-grounding-auditor`
+- `amos-symbolic-translation-repair-rscf`
+- `amos-system-completion-auditor`
+- `amos-target-of-repair-intelligence`
+- `amos-tool-grounded-configuration-repair-rscf`
+- `amos-verification-aware-implementation-diversity-rscf`
 
 ### `amos-boundary-scope-master` (11 children)
 
-- [`amos-boundary-admission-governor`](#amosboundaryadmissiongovernor)
-- [`amos-boundary-architecture-rscf-calculus`](#amosboundaryarchitecturerscfcalculus)
-- [`amos-context-budget-governor-rscf`](#amoscontextbudgetgovernorrscf)
-- [`amos-context-compaction-recoverability-rscf`](#amoscontextcompactionrecoverabilityrscf)
-- [`amos-context-continuity-governor`](#amoscontextcontinuitygovernor)
-- [`amos-context-orientation-cache-rscf`](#amoscontextorientationcacherscf)
-- [`amos-context-persona-drift-rscf`](#amoscontextpersonadriftrscf)
-- [`amos-context-state-maintenance-rscf`](#amoscontextstatemaintenancerscf)
-- [`amos-information-boundary-governor`](#amosinformationboundarygovernor)
-- [`amos-long-context-ci-repository-reasoning-rscf`](#amoslongcontextcirepositoryreasoningrscf)
-- [`amos-runtime-context-reuse-rscf`](#amosruntimecontextreuserscf)
+- `amos-boundary-admission-governor`
+- `amos-boundary-architecture-rscf-calculus`
+- `amos-context-budget-governor-rscf`
+- `amos-context-compaction-recoverability-rscf`
+- `amos-context-continuity-governor`
+- `amos-context-orientation-cache-rscf`
+- `amos-context-persona-drift-rscf`
+- `amos-context-state-maintenance-rscf`
+- `amos-information-boundary-governor`
+- `amos-long-context-ci-repository-reasoning-rscf`
+- `amos-runtime-context-reuse-rscf`
 
 ### `amos-c01-meta-logic-master` (1 children)
 
-- [`amos-law-hierarchy-resolver`](#amoslawhierarchyresolver)
+- `amos-law-hierarchy-resolver`
 
 ### `amos-c04-bio-neuro-master` (7 children)
 
-- [`amos-biology-quantum-bridge-governor`](#amosbiologyquantumbridgegovernor)
-- [`amos-cell-intelligence-mapper`](#amoscellintelligencemapper)
-- [`amos-cross-species-cognition-mapper`](#amoscrossspeciescognitionmapper)
-- [`amos-morphogenesis-mapper`](#amosmorphogenesismapper)
-- [`amos-neural-computation-mapper`](#amosneuralcomputationmapper)
-- [`amos-neural-ode-dynamics-rscf-engine`](#amosneuralodedynamicsrscfengine)
-- [`amos-sensory-map-integrator`](#amossensorymapintegrator)
+- `amos-biology-quantum-bridge-governor`
+- `amos-cell-intelligence-mapper`
+- `amos-cross-species-cognition-mapper`
+- `amos-morphogenesis-mapper`
+- `amos-neural-computation-mapper`
+- `amos-neural-ode-dynamics-rscf-engine`
+- `amos-sensory-map-integrator`
 
 ### `amos-c05-mind-behavior-master` (11 children)
 
-- [`amos-active-inference-governor`](#amosactiveinferencegovernor)
-- [`amos-artistic-expression-governor`](#amosartisticexpressiongovernor)
-- [`amos-attention-allocation-governor`](#amosattentionallocationgovernor)
-- [`amos-awareness-inference-governor`](#amosawarenessinferencegovernor)
-- [`amos-cognitive-compression-kernel`](#amoscognitivecompressionkernel)
-- [`amos-cognitive-process-orchestrator`](#amoscognitiveprocessorchestrator)
-- [`amos-consciousness-candidate-governor`](#amosconsciousnesscandidategovernor)
-- [`amos-emotion-cognition-decision-bridge-governor`](#amosemotioncognitiondecisionbridgegovernor)
-- [`amos-instinct-pattern-governor`](#amosinstinctpatterngovernor)
-- [`amos-multimodal-perception-layer`](#amosmultimodalperceptionlayer)
-- [`amos-narrative-integrity-governor`](#amosnarrativeintegritygovernor)
+- `amos-active-inference-governor`
+- `amos-artistic-expression-governor`
+- `amos-attention-allocation-governor`
+- `amos-awareness-inference-governor`
+- `amos-cognitive-compression-kernel`
+- `amos-cognitive-process-orchestrator`
+- `amos-consciousness-candidate-governor`
+- `amos-emotion-cognition-decision-bridge-governor`
+- `amos-instinct-pattern-governor`
+- `amos-multimodal-perception-layer`
+- `amos-narrative-integrity-governor`
 
 ### `amos-c06-society-culture-master` (5 children)
 
-- [`amos-emergent-social-intelligence-risk-rscf`](#amosemergentsocialintelligenceriskrscf)
-- [`amos-growth-graph`](#amosgrowthgraph)
-- [`amos-heritage-decision-intelligence`](#amosheritagedecisionintelligence)
-- [`amos-language-equation-rscf-engine`](#amoslanguageequationrscfengine)
-- [`amos-vietnamese-global-cultural-bridge-governor`](#amosvietnameseglobalculturalbridgegovernor)
+- `amos-emergent-social-intelligence-risk-rscf`
+- `amos-growth-graph`
+- `amos-heritage-decision-intelligence`
+- `amos-language-equation-rscf-engine`
+- `amos-vietnamese-global-cultural-bridge-governor`
 
 ### `amos-c07-econ-finance-master` (24 children)
 
-- [`amos-agent-economy-constitutional-governance-rscf`](#amosagenteconomyconstitutionalgovernancerscf)
-- [`amos-economic-model`](#amoseconomicmodel)
-- [`amos-economy-internet-money-rscf-engine`](#amoseconomyinternetmoneyrscfengine)
-- [`amos-forex-os`](#amosforexos)
-- [`amos-forex-unified-os`](#amosforexunifiedos)
-- [`amos-forex-unified-os-updated`](#amosforexunifiedosupdated)
-- [`amos-future-debt-option-value-governor`](#amosfuturedebtoptionvaluegovernor)
-- [`amos-fx-bayesian-neural-sde-calibration-rscf-engine`](#amosfxbayesianneuralsdecalibrationrscfengine)
-- [`amos-fx-carry-differential-engine`](#amosfxcarrydifferentialengine)
-- [`amos-fx-conformal-tail-risk-control-rscf-engine`](#amosfxconformaltailriskcontrolrscfengine)
-- [`amos-fx-gaussian-process-surface-rscf-engine`](#amosfxgaussianprocesssurfacerscfengine)
-- [`amos-fx-macro-differential-mapper`](#amosfxmacrodifferentialmapper)
-- [`amos-fx-options-implied-distribution`](#amosfxoptionsimplieddistribution)
-- [`amos-fx-predictive-fractal-engine`](#amosfxpredictivefractalengine)
-- [`amos-fx-quantile-distribution-rscf-engine`](#amosfxquantiledistributionrscfengine)
-- [`amos-fx-realized-garch-autoencoder-rscf-engine`](#amosfxrealizedgarchautoencoderrscfengine)
-- [`amos-fx-realized-kernel-microstructure-rscf-engine`](#amosfxrealizedkernelmicrostructurerscfengine)
-- [`amos-fx-rough-heston-rscf-engine`](#amosfxroughhestonrscfengine)
-- [`amos-fx-state-space-kalman-engine`](#amosfxstatespacekalmanengine)
-- [`amos-fx-stochastic-correlation-rscf-engine`](#amosfxstochasticcorrelationrscfengine)
-- [`amos-fx-tensor-train-greeks-rscf-engine`](#amosfxtensortraingreeksrscfengine)
-- [`amos-fx-threshold-vecm-rscf-engine`](#amosfxthresholdvecmrscfengine)
-- [`amos-fx-typed-tensor-contract-rscf-engine`](#amosfxtypedtensorcontractrscfengine)
-- [`amos-fx-vecm-cointegration-rscf-engine`](#amosfxvecmcointegrationrscfengine)
+- `amos-agent-economy-constitutional-governance-rscf`
+- `amos-economic-model`
+- `amos-economy-internet-money-rscf-engine`
+- `amos-forex-os`
+- `amos-forex-unified-os`
+- `amos-forex-unified-os-updated`
+- `amos-future-debt-option-value-governor`
+- `amos-fx-bayesian-neural-sde-calibration-rscf-engine`
+- `amos-fx-carry-differential-engine`
+- `amos-fx-conformal-tail-risk-control-rscf-engine`
+- `amos-fx-gaussian-process-surface-rscf-engine`
+- `amos-fx-macro-differential-mapper`
+- `amos-fx-options-implied-distribution`
+- `amos-fx-predictive-fractal-engine`
+- `amos-fx-quantile-distribution-rscf-engine`
+- `amos-fx-realized-garch-autoencoder-rscf-engine`
+- `amos-fx-realized-kernel-microstructure-rscf-engine`
+- `amos-fx-rough-heston-rscf-engine`
+- `amos-fx-state-space-kalman-engine`
+- `amos-fx-stochastic-correlation-rscf-engine`
+- `amos-fx-tensor-train-greeks-rscf-engine`
+- `amos-fx-threshold-vecm-rscf-engine`
+- `amos-fx-typed-tensor-contract-rscf-engine`
+- `amos-fx-vecm-cointegration-rscf-engine`
 
 ### `amos-c08-strategy-game-master` (27 children)
 
-- [`bluebook-strategy-system`](#bluebookstrategysystem)
-- [`executive-deck-decision-system`](#executivedeckdecisionsystem)
-- [`gmef-governance`](#gmefgovernance)
-- [`mckinsey-architecture-reference-transfer-rscf`](#mckinseyarchitecturereferencetransferrscf)
-- [`mckinsey-banking-crm-assessment-rscf`](#mckinseybankingcrmassessmentrscf)
-- [`mckinsey-commercial-due-diligence-rscf`](#mckinseycommercialduediligencerscf)
-- [`mckinsey-credit-lending-rscf`](#mckinseycreditlendingrscf)
-- [`mckinsey-customer-journey-planning-rscf`](#mckinseycustomerjourneyplanningrscf)
-- [`mckinsey-designops-agile-transformation-rscf`](#mckinseydesignopsagiletransformationrscf)
-- [`mckinsey-digital-bank-value-proposition-rscf`](#mckinseydigitalbankvaluepropositionrscf)
-- [`mckinsey-digital-strategy-rscf`](#mckinseydigitalstrategyrscf)
-- [`mckinsey-enterprise-data-transformation-rscf`](#mckinseyenterprisedatatransformationrscf)
-- [`mckinsey-framework-navigator`](#mckinseyframeworknavigator)
-- [`mckinsey-healthcare-strategy-rscf`](#mckinseyhealthcarestrategyrscf)
-- [`mckinsey-human-centered-design-rscf`](#mckinseyhumancentereddesignrscf)
-- [`mckinsey-partnership-ecosystem-strategy-rscf`](#mckinseypartnershipecosystemstrategyrscf)
-- [`mckinsey-public-sector-transformation-rscf`](#mckinseypublicsectortransformationrscf)
-- [`mckinsey-purpose-impact-rscf`](#mckinseypurposeimpactrscf)
-- [`mckinsey-recruiting-workforce-acquisition-rscf`](#mckinseyrecruitingworkforceacquisitionrscf)
-- [`mckinsey-strategy-portfolio-engine`](#mckinseystrategyportfolioengine)
-- [`mckinsey-technology-company-strategy-rscf`](#mckinseytechnologycompanystrategyrscf)
-- [`mckinsey-technology-product-governance-rscf`](#mckinseytechnologyproductgovernancerscf)
-- [`mckinsey-technology-sales-excellence-rscf`](#mckinseytechnologysalesexcellencerscf)
-- [`mckinsey-transaction-banking-diagnostic-rscf`](#mckinseytransactionbankingdiagnosticrscf)
-- [`mckinsey-transformation-org-structure-rscf`](#mckinseytransformationorgstructurerscf)
-- [`mckinsey-value-delivery-rscf`](#mckinseyvaluedeliveryrscf)
-- [`mckinsey-wealth-management-rscf`](#mckinseywealthmanagementrscf)
+- `bluebook-strategy-system`
+- `executive-deck-decision-system`
+- `gmef-governance`
+- `mckinsey-architecture-reference-transfer-rscf`
+- `mckinsey-banking-crm-assessment-rscf`
+- `mckinsey-commercial-due-diligence-rscf`
+- `mckinsey-credit-lending-rscf`
+- `mckinsey-customer-journey-planning-rscf`
+- `mckinsey-designops-agile-transformation-rscf`
+- `mckinsey-digital-bank-value-proposition-rscf`
+- `mckinsey-digital-strategy-rscf`
+- `mckinsey-enterprise-data-transformation-rscf`
+- `mckinsey-framework-navigator`
+- `mckinsey-healthcare-strategy-rscf`
+- `mckinsey-human-centered-design-rscf`
+- `mckinsey-partnership-ecosystem-strategy-rscf`
+- `mckinsey-public-sector-transformation-rscf`
+- `mckinsey-purpose-impact-rscf`
+- `mckinsey-recruiting-workforce-acquisition-rscf`
+- `mckinsey-strategy-portfolio-engine`
+- `mckinsey-technology-company-strategy-rscf`
+- `mckinsey-technology-product-governance-rscf`
+- `mckinsey-technology-sales-excellence-rscf`
+- `mckinsey-transaction-banking-diagnostic-rscf`
+- `mckinsey-transformation-org-structure-rscf`
+- `mckinsey-value-delivery-rscf`
+- `mckinsey-wealth-management-rscf`
 
 ### `amos-c09-org-law-policy-master` (3 children)
 
-- [`amos-ethics-os-governor`](#amosethicsosgovernor)
-- [`amos-risk-constraint-governor`](#amosriskconstraintgovernor)
-- [`amos-trust-formation-governor`](#amostrustformationgovernor)
+- `amos-ethics-os-governor`
+- `amos-risk-constraint-governor`
+- `amos-trust-formation-governor`
 
 ### `amos-c10-tech-engineering-master` (32 children)
 
-- [`amos-ai-architecture-factory-rscf-engine`](#amosaiarchitecturefactoryrscfengine)
-- [`amos-ast-control-dataflow-rscf-engine`](#amosastcontroldataflowrscfengine)
-- [`amos-blackbox-program-discovery-rscf`](#amosblackboxprogramdiscoveryrscf)
-- [`amos-bounded-code-facts-rscf`](#amosboundedcodefactsrscf)
-- [`amos-cli-failure-process-diagnostics-rscf`](#amosclifailureprocessdiagnosticsrscf)
-- [`amos-code-agent-harness-rscf`](#amoscodeagentharnessrscf)
-- [`amos-combined-program-analysis-rscf`](#amoscombinedprogramanalysisrscf)
-- [`amos-constructive-metamorphic-testing-rscf`](#amosconstructivemetamorphictestingrscf)
-- [`amos-design-visual-rscf-engine`](#amosdesignvisualrscfengine)
-- [`amos-designer-os`](#amosdesigneros)
-- [`amos-framework-registry-compiler`](#amosframeworkregistrycompiler)
-- [`amos-github-rscf-ingestion`](#amosgithubrscfingestion)
-- [`amos-infrastructure-control-plane`](#amosinfrastructurecontrolplane)
-- [`amos-interactive-evaluation-design-rscf`](#amosinteractiveevaluationdesignrscf)
-- [`amos-interprocedural-callgraph-rscf`](#amosinterproceduralcallgraphrscf)
-- [`amos-observability-driven-harness-evolution-rscf`](#amosobservabilitydrivenharnessevolutionrscf)
-- [`amos-paper-rscf-compiler`](#amospaperrscfcompiler)
-- [`amos-procedural-repository-retrieval-rscf`](#amosproceduralrepositoryretrievalrscf)
-- [`amos-program-slicing-taint-rscf`](#amosprogramslicingtaintrscf)
-- [`amos-regulated-clinical-agent-evolution-rscf`](#amosregulatedclinicalagentevolutionrscf)
-- [`amos-repository-ast-analysis-rscf`](#amosrepositoryastanalysisrscf)
-- [`amos-repository-knowledge-acquisition-rscf`](#amosrepositoryknowledgeacquisitionrscf)
-- [`amos-representation-aware-bug-localization-rscf`](#amosrepresentationawarebuglocalizationrscf)
-- [`amos-ssa-ir-compiler-rscf`](#amosssaircompilerrscf)
-- [`amos-structured-document-parsing-rscf`](#amosstructureddocumentparsingrscf)
-- [`amos-trajectory-bug-specification-refinement-rscf`](#amostrajectorybugspecificationrefinementrscf)
-- [`docx`](#docx)
-- [`frontend-engineering-qa`](#frontendengineeringqa)
-- [`pdfs`](#pdfs)
-- [`slides`](#slides)
-- [`software-engineering-qa`](#softwareengineeringqa)
-- [`spreadsheets`](#spreadsheets)
+- `amos-ai-architecture-factory-rscf-engine`
+- `amos-ast-control-dataflow-rscf-engine`
+- `amos-blackbox-program-discovery-rscf`
+- `amos-bounded-code-facts-rscf`
+- `amos-cli-failure-process-diagnostics-rscf`
+- `amos-code-agent-harness-rscf`
+- `amos-combined-program-analysis-rscf`
+- `amos-constructive-metamorphic-testing-rscf`
+- `amos-design-visual-rscf-engine`
+- `amos-designer-os`
+- `amos-framework-registry-compiler`
+- `amos-github-rscf-ingestion`
+- `amos-infrastructure-control-plane`
+- `amos-interactive-evaluation-design-rscf`
+- `amos-interprocedural-callgraph-rscf`
+- `amos-observability-driven-harness-evolution-rscf`
+- `amos-paper-rscf-compiler`
+- `amos-procedural-repository-retrieval-rscf`
+- `amos-program-slicing-taint-rscf`
+- `amos-regulated-clinical-agent-evolution-rscf`
+- `amos-repository-ast-analysis-rscf`
+- `amos-repository-knowledge-acquisition-rscf`
+- `amos-representation-aware-bug-localization-rscf`
+- `amos-ssa-ir-compiler-rscf`
+- `amos-structured-document-parsing-rscf`
+- `amos-trajectory-bug-specification-refinement-rscf`
+- `docx`
+- `frontend-engineering-qa`
+- `pdfs`
+- `slides`
+- `software-engineering-qa`
+- `spreadsheets`
 
 ### `amos-canon-universe-master` (12 children)
 
-- [`amos-7-part-universe-canon`](#amos7partuniversecanon)
-- [`amos-7-part-universe-canon-full`](#amos7partuniversecanonfull)
-- [`amos-canon-compiler`](#amoscanoncompiler)
-- [`amos-canon-consistency-governor`](#amoscanonconsistencygovernor)
-- [`amos-canonical-software-substrate-rscf`](#amoscanonicalsoftwaresubstraterscf)
-- [`amos-flow-canon`](#amosflowcanon)
-- [`amos-human-state-ontology-mapper`](#amoshumanstateontologymapper)
-- [`amos-law-stack-enforcement`](#amoslawstackenforcement)
-- [`amos-ontology-compiler`](#amosontologycompiler)
-- [`amos-organism-os`](#amosorganismos)
-- [`amos-reality-simulation-distinction`](#amosrealitysimulationdistinction)
-- [`amos-universe-viability-modeler`](#amosuniverseviabilitymodeler)
+- `amos-7-part-universe-canon`
+- `amos-7-part-universe-canon-full`
+- `amos-canon-compiler`
+- `amos-canon-consistency-governor`
+- `amos-canonical-software-substrate-rscf`
+- `amos-flow-canon`
+- `amos-human-state-ontology-mapper`
+- `amos-law-stack-enforcement`
+- `amos-ontology-compiler`
+- `amos-organism-os`
+- `amos-reality-simulation-distinction`
+- `amos-universe-viability-modeler`
 
 ### `amos-causal-reasoning-master` (7 children)
 
-- [`amos-causal-abstraction-validity-rscf-engine`](#amoscausalabstractionvalidityrscfengine)
-- [`amos-causal-closure-governor`](#amoscausalclosuregovernor)
-- [`amos-causal-hierarchy-governor`](#amoscausalhierarchygovernor)
-- [`amos-counterfactual-reasoning-governor`](#amoscounterfactualreasoninggovernor)
-- [`amos-counterfactual-selfhood-mapper`](#amoscounterfactualselfhoodmapper)
-- [`amos-distributed-causal-evolution-rscf-engine`](#amosdistributedcausalevolutionrscfengine)
-- [`amos-scientific-closure-governor-rscf`](#amosscientificclosuregovernorrscf)
+- `amos-causal-abstraction-validity-rscf-engine`
+- `amos-causal-closure-governor`
+- `amos-causal-hierarchy-governor`
+- `amos-counterfactual-reasoning-governor`
+- `amos-counterfactual-selfhood-mapper`
+- `amos-distributed-causal-evolution-rscf-engine`
+- `amos-scientific-closure-governor-rscf`
 
 ### `amos-formal-engines-master` (14 children)
 
-- [`amos-constraint-propagation-rscf-engine`](#amosconstraintpropagationrscfengine)
-- [`amos-cross-architecture-tensor-engine`](#amoscrossarchitecturetensorengine)
-- [`amos-cross-scale-rscf-tensor-engine`](#amoscrossscalerscftensorengine)
-- [`amos-distinction-relation-constraint-rscf-algebra`](#amosdistinctionrelationconstraintrscfalgebra)
-- [`amos-formal-model-checking-orchestrator-rscf`](#amosformalmodelcheckingorchestratorrscf)
-- [`amos-ghost-code-symbolic-execution-rscf`](#amosghostcodesymbolicexecutionrscf)
-- [`amos-invariant-tensor-kernel`](#amosinvarianttensorkernel)
-- [`amos-mathematical-rigor-rscf-kernel`](#amosmathematicalrigorrscfkernel)
-- [`amos-proof-loss-diagnostic-reconstruction-rscf`](#amosprooflossdiagnosticreconstructionrscf)
-- [`amos-symbolic-path-reasoning-rscf`](#amossymbolicpathreasoningrscf)
-- [`amos-tensor-accelerator-activity-rscf-engine`](#amostensoracceleratoractivityrscfengine)
-- [`amos-tensor-network-contraction-sketch-rscf-engine`](#amostensornetworkcontractionsketchrscfengine)
-- [`amos-tensor-train-sketching-rscf-engine`](#amostensortrainsketchingrscfengine)
-- [`amos-time-series-conformal-uq-rscf-engine`](#amostimeseriesconformaluqrscfengine)
+- `amos-constraint-propagation-rscf-engine`
+- `amos-cross-architecture-tensor-engine`
+- `amos-cross-scale-rscf-tensor-engine`
+- `amos-distinction-relation-constraint-rscf-algebra`
+- `amos-formal-model-checking-orchestrator-rscf`
+- `amos-ghost-code-symbolic-execution-rscf`
+- `amos-invariant-tensor-kernel`
+- `amos-mathematical-rigor-rscf-kernel`
+- `amos-proof-loss-diagnostic-reconstruction-rscf`
+- `amos-symbolic-path-reasoning-rscf`
+- `amos-tensor-accelerator-activity-rscf-engine`
+- `amos-tensor-network-contraction-sketch-rscf-engine`
+- `amos-tensor-train-sketching-rscf-engine`
+- `amos-time-series-conformal-uq-rscf-engine`
 
 ### `amos-fractal-systems-master` (4 children)
 
-- [`amos-ai-entropy-rscf-engine`](#amosaientropyrscfengine)
-- [`amos-fractal-math`](#amosfractalmath)
-- [`amos-human-biology-fractal-rscf-engine`](#amoshumanbiologyfractalrscfengine)
-- [`amos-strict-fractal-equation-rscf-registry`](#amosstrictfractalequationrscfregistry)
+- `amos-ai-entropy-rscf-engine`
+- `amos-fractal-math`
+- `amos-human-biology-fractal-rscf-engine`
+- `amos-strict-fractal-equation-rscf-registry`
 
 ### `amos-information-theory-master` (5 children)
 
-- [`amos-entropy-lacunarity-governor`](#amosentropylacunaritygovernor)
-- [`amos-information-collapse-topology`](#amosinformationcollapsetopology)
-- [`amos-information-exposure-control`](#amosinformationexposurecontrol)
-- [`amos-information-geometry-mapper`](#amosinformationgeometrymapper)
-- [`amos-information-operator-engine`](#amosinformationoperatorengine)
+- `amos-entropy-lacunarity-governor`
+- `amos-information-collapse-topology`
+- `amos-information-exposure-control`
+- `amos-information-geometry-mapper`
+- `amos-information-operator-engine`
 
 ### `amos-knowledge-research-master` (55 children)
 
-- [`amos-agent-native-research-artifact-rscf`](#amosagentnativeresearchartifactrscf)
-- [`amos-agent-storage-footprint-rscf`](#amosagentstoragefootprintrscf)
-- [`amos-arxiv-agent-memory-dynamics-rscf`](#amosarxivagentmemorydynamicsrscf)
-- [`amos-arxiv-autonomous-scientific-knowledge-rscf`](#amosarxivautonomousscientificknowledgerscf)
-- [`amos-arxiv-conrad-radiomics-rscf`](#amosarxivconradradiomicsrscf)
-- [`amos-arxiv-continual-interference-geometry-rscf`](#amosarxivcontinualinterferencegeometryrscf)
-- [`amos-arxiv-embodied-runtime-rscf-engine`](#amosarxivembodiedruntimerscfengine)
-- [`amos-arxiv-influence-guided-symbolic-regression-rscf`](#amosarxivinfluenceguidedsymbolicregressionrscf)
-- [`amos-arxiv-multistage-order-causal-discovery-rscf`](#amosarxivmultistageordercausaldiscoveryrscf)
-- [`amos-arxiv-quantum-arithmetic-cryptanalysis-rscf`](#amosarxivquantumarithmeticcryptanalysisrscf)
-- [`amos-arxiv-quantum-koopman-rscf`](#amosarxivquantumkoopmanrscf)
-- [`amos-arxiv-sparse-autoencoder-interpretability-rscf`](#amosarxivsparseautoencoderinterpretabilityrscf)
-- [`amos-arxiv-spatial-speech-perception-rscf`](#amosarxivspatialspeechperceptionrscf)
-- [`amos-arxiv-spectral-latent-treatment-effects-rscf`](#amosarxivspectrallatenttreatmenteffectsrscf)
-- [`amos-arxiv-structure-preserving-variational-neural-fields-rscf`](#amosarxivstructurepreservingvariationalneuralfieldsrscf)
-- [`amos-arxiv-time-series-bootstrap-conformal-rscf`](#amosarxivtimeseriesbootstrapconformalrscf)
-- [`amos-arxiv-ttstack-sketching-rscf-engine`](#amosarxivttstacksketchingrscfengine)
-- [`amos-direct-corpus-search-rscf`](#amosdirectcorpussearchrscf)
-- [`amos-knowledge-epistemology-rscf-engine`](#amosknowledgeepistemologyrscfengine)
-- [`amos-knowledge-harvest-runtime`](#amosknowledgeharvestruntime)
-- [`amos-learning-memory-knowledge-feedback-governor`](#amoslearningmemoryknowledgefeedbackgovernor)
-- [`amos-llm-wiki`](#amosllmwiki)
-- [`amos-mdformat-obsidian`](#amosmdformatobsidian)
-- [`amos-mechmath-research-orchestration-rscf`](#amosmechmathresearchorchestrationrscf)
-- [`amos-research-agent`](#amosresearchagent)
-- [`amos-retrieval-conditioned-orchestration-budget-rscf`](#amosretrievalconditionedorchestrationbudgetrscf)
-- [`amos-source-reading-rscf`](#amossourcereadingrscf)
-- [`amos-source-reading-rscf-engine`](#amossourcereadingrscfengine)
-- [`arxiv-activation-checkpointing-rscf`](#arxivactivationcheckpointingrscf)
-- [`arxiv-anytime-pac-bayes-density-ratio-rscf`](#arxivanytimepacbayesdensityratiorscf)
-- [`arxiv-autosota-research-automation-rscf`](#arxivautosotaresearchautomationrscf)
-- [`arxiv-cdfm-causal-discovery-foundation-rscf`](#arxivcdfmcausaldiscoveryfoundationrscf)
-- [`arxiv-constrained-structured-decoding-rscf`](#arxivconstrainedstructureddecodingrscf)
-- [`arxiv-data-mixture-optimization-rscf`](#arxivdatamixtureoptimizationrscf)
-- [`arxiv-flash-attention-io-rscf`](#arxivflashattentioniorscf)
-- [`arxiv-flow-matching-generative-rscf`](#arxivflowmatchinggenerativerscf)
-- [`arxiv-future-confidence-distillation-rscf`](#arxivfutureconfidencedistillationrscf)
-- [`arxiv-geometric-causal-models-rscf`](#arxivgeometriccausalmodelsrscf)
-- [`arxiv-grapheval-reasoning-coherence-rscf`](#arxivgraphevalreasoningcoherencerscf)
-- [`arxiv-grouped-query-attention-rscf`](#arxivgroupedqueryattentionrscf)
-- [`arxiv-grpo-reasoning-policy-rscf`](#arxivgrporeasoningpolicyrscf)
-- [`arxiv-kv-cache-quantization-rscf`](#arxivkvcachequantizationrscf)
-- [`arxiv-llm-judge-bias-geometry-rscf`](#arxivllmjudgebiasgeometryrscf)
-- [`arxiv-long-context-rope-scaling-rscf`](#arxivlongcontextropescalingrscf)
-- [`arxiv-manifold-constrained-conformal-spatial-rscf`](#arxivmanifoldconstrainedconformalspatialrscf)
-- [`arxiv-mixture-of-depths-rscf`](#arxivmixtureofdepthsrscf)
-- [`arxiv-pac-bayes-piml-generalization-rscf`](#arxivpacbayespimlgeneralizationrscf)
-- [`arxiv-rag-evaluation-rscf`](#arxivragevaluationrscf)
-- [`arxiv-selective-state-space-rscf`](#arxivselectivestatespacerscf)
-- [`arxiv-sparse-attention-scaling-rscf`](#arxivsparseattentionscalingrscf)
-- [`arxiv-streaming-attention-sinks-rscf`](#arxivstreamingattentionsinksrscf)
-- [`arxiv-structured-gp-omics-uq-rscf`](#arxivstructuredgpomicsuqrscf)
-- [`arxiv-test-time-compute-scaling-rscf`](#arxivtesttimecomputescalingrscf)
-- [`arxiv-test-time-training-rscf`](#arxivtesttimetrainingrscf)
-- [`obsidian-plugin-auto-tag`](#obsidianpluginautotag)
+- `amos-agent-native-research-artifact-rscf`
+- `amos-agent-storage-footprint-rscf`
+- `amos-arxiv-agent-memory-dynamics-rscf`
+- `amos-arxiv-autonomous-scientific-knowledge-rscf`
+- `amos-arxiv-conrad-radiomics-rscf`
+- `amos-arxiv-continual-interference-geometry-rscf`
+- `amos-arxiv-embodied-runtime-rscf-engine`
+- `amos-arxiv-influence-guided-symbolic-regression-rscf`
+- `amos-arxiv-multistage-order-causal-discovery-rscf`
+- `amos-arxiv-quantum-arithmetic-cryptanalysis-rscf`
+- `amos-arxiv-quantum-koopman-rscf`
+- `amos-arxiv-sparse-autoencoder-interpretability-rscf`
+- `amos-arxiv-spatial-speech-perception-rscf`
+- `amos-arxiv-spectral-latent-treatment-effects-rscf`
+- `amos-arxiv-structure-preserving-variational-neural-fields-rscf`
+- `amos-arxiv-time-series-bootstrap-conformal-rscf`
+- `amos-arxiv-ttstack-sketching-rscf-engine`
+- `amos-direct-corpus-search-rscf`
+- `amos-knowledge-epistemology-rscf-engine`
+- `amos-knowledge-harvest-runtime`
+- `amos-learning-memory-knowledge-feedback-governor`
+- `amos-llm-wiki`
+- `amos-mdformat-obsidian`
+- `amos-mechmath-research-orchestration-rscf`
+- `amos-research-agent`
+- `amos-retrieval-conditioned-orchestration-budget-rscf`
+- `amos-source-reading-rscf`
+- `amos-source-reading-rscf-engine`
+- `arxiv-activation-checkpointing-rscf`
+- `arxiv-anytime-pac-bayes-density-ratio-rscf`
+- `arxiv-autosota-research-automation-rscf`
+- `arxiv-cdfm-causal-discovery-foundation-rscf`
+- `arxiv-constrained-structured-decoding-rscf`
+- `arxiv-data-mixture-optimization-rscf`
+- `arxiv-flash-attention-io-rscf`
+- `arxiv-flow-matching-generative-rscf`
+- `arxiv-future-confidence-distillation-rscf`
+- `arxiv-geometric-causal-models-rscf`
+- `arxiv-grapheval-reasoning-coherence-rscf`
+- `arxiv-grouped-query-attention-rscf`
+- `arxiv-grpo-reasoning-policy-rscf`
+- `arxiv-kv-cache-quantization-rscf`
+- `arxiv-llm-judge-bias-geometry-rscf`
+- `arxiv-long-context-rope-scaling-rscf`
+- `arxiv-manifold-constrained-conformal-spatial-rscf`
+- `arxiv-mixture-of-depths-rscf`
+- `arxiv-pac-bayes-piml-generalization-rscf`
+- `arxiv-rag-evaluation-rscf`
+- `arxiv-selective-state-space-rscf`
+- `arxiv-sparse-attention-scaling-rscf`
+- `arxiv-streaming-attention-sinks-rscf`
+- `arxiv-structured-gp-omics-uq-rscf`
+- `arxiv-test-time-compute-scaling-rscf`
+- `arxiv-test-time-training-rscf`
+- `obsidian-plugin-auto-tag`
 
 ### `amos-memory-systems-master` (6 children)
 
-- [`amos-action-memory-firewall`](#amosactionmemoryfirewall)
-- [`amos-agent-memory-dynamics-rscf-engine`](#amosagentmemorydynamicsrscfengine)
-- [`amos-distinct-working-memory-rscf`](#amosdistinctworkingmemoryrscf)
-- [`amos-memory-conflict-governor`](#amosmemoryconflictgovernor)
-- [`amos-memory-execution-graph-attribution-rscf`](#amosmemoryexecutiongraphattributionrscf)
-- [`amos-memory-immune-system`](#amosmemoryimmunesystem)
+- `amos-action-memory-firewall`
+- `amos-agent-memory-dynamics-rscf-engine`
+- `amos-distinct-working-memory-rscf`
+- `amos-memory-conflict-governor`
+- `amos-memory-execution-graph-attribution-rscf`
+- `amos-memory-immune-system`
 
 ### `amos-os-runtime-master` (18 children)
 
-- [`amos-absolute-primitive-decomposer`](#amosabsoluteprimitivedecomposer)
-- [`amos-adaptive-stability-balancer`](#amosadaptivestabilitybalancer)
-- [`amos-ai-drift-alignment-governor`](#amosaidriftalignmentgovernor)
-- [`amos-calibrated-feedback-control-rscf`](#amoscalibratedfeedbackcontrolrscf)
-- [`amos-closed-loop-learning-governor`](#amosclosedlooplearninggovernor)
-- [`amos-core19-logic-kernel`](#amoscore19logickernel)
-- [`amos-deterministic-ai-control-plane`](#amosdeterministicaicontrolplane)
-- [`amos-os-kernel`](#amososkernel)
-- [`amos-prediction-governance`](#amospredictiongovernance)
-- [`amos-prompt-domain-control-rscf-engine`](#amospromptdomaincontrolrscfengine)
-- [`amos-qls-qic-substrate-mapper`](#amosqlsqicsubstratemapper)
-- [`amos-qls-substrate`](#amosqlssubstrate)
-- [`amos-recursive-observer-contamination`](#amosrecursiveobservercontamination)
-- [`amos-session-control-plane`](#amossessioncontrolplane)
-- [`amos-structured-execution-graph-rscf`](#amosstructuredexecutiongraphrscf)
-- [`amos-universal-coordinate-system`](#amosuniversalcoordinatesystem)
-- [`amos-ust-structure-mapper`](#amosuststructuremapper)
-- [`cosmo-human-problem-architecture`](#cosmohumanproblemarchitecture)
+- `amos-absolute-primitive-decomposer`
+- `amos-adaptive-stability-balancer`
+- `amos-ai-drift-alignment-governor`
+- `amos-calibrated-feedback-control-rscf`
+- `amos-closed-loop-learning-governor`
+- `amos-core19-logic-kernel`
+- `amos-deterministic-ai-control-plane`
+- `amos-os-kernel`
+- `amos-prediction-governance`
+- `amos-prompt-domain-control-rscf-engine`
+- `amos-qls-qic-substrate-mapper`
+- `amos-qls-substrate`
+- `amos-recursive-observer-contamination`
+- `amos-session-control-plane`
+- `amos-structured-execution-graph-rscf`
+- `amos-universal-coordinate-system`
+- `amos-ust-structure-mapper`
+- `cosmo-human-problem-architecture`
 
 ### `amos-rscf-epistemic-master` (26 children)
 
-- [`amos-aibom-lifecycle-assurance-rscf`](#amosaibomlifecycleassurancerscf)
-- [`amos-binding-rscf-engine`](#amosbindingrscfengine)
-- [`amos-budget-aware-optimizer-selection-rscf-engine`](#amosbudgetawareoptimizerselectionrscfengine)
-- [`amos-bundle-manifold-concentration-rscf-engine`](#amosbundlemanifoldconcentrationrscfengine)
-- [`amos-commit-time-authorization-rscf-engine`](#amoscommittimeauthorizationrscfengine)
-- [`amos-contravariance-alignment-rscf-engine`](#amoscontravariancealignmentrscfengine)
-- [`amos-cross-domain-tensor-composition-governor`](#amoscrossdomaintensorcompositiongovernor)
-- [`amos-dependency-environment-reconstruction-rscf`](#amosdependencyenvironmentreconstructionrscf)
-- [`amos-goal-plan-action-alignment-rscf`](#amosgoalplanactionalignmentrscf)
-- [`amos-gradient-rscf-architecture`](#amosgradientrscfarchitecture)
-- [`amos-heterogeneous-exploration-cohort-rscf`](#amosheterogeneousexplorationcohortrscf)
-- [`amos-hierarchical-stack-orchestration-rscf`](#amoshierarchicalstackorchestrationrscf)
-- [`amos-hourglass-induction-rscf`](#amoshourglassinductionrscf)
-- [`amos-llm-judge-bias-geometry-rscf`](#amosllmjudgebiasgeometryrscf)
-- [`amos-managed-autonomy-escalation-rscf`](#amosmanagedautonomyescalationrscf)
-- [`amos-mark-operator-rscf-engine`](#amosmarkoperatorrscfengine)
-- [`amos-natural-evidence-trail-reasoning-rscf`](#amosnaturalevidencetrailreasoningrscf)
-- [`amos-persistence-dissolution-rscf-dynamics`](#amospersistencedissolutionrscfdynamics)
-- [`amos-sae-semantic-transport-rscf-engine`](#amossaesemantictransportrscfengine)
-- [`amos-scientific-assumption-semantic-differencing-rscf`](#amosscientificassumptionsemanticdifferencingrscf)
-- [`amos-self-regulated-simulative-planning-rscf`](#amosselfregulatedsimulativeplanningrscf)
-- [`amos-semantic-workflow-persistence-rscf`](#amossemanticworkflowpersistencerscf)
-- [`amos-temporal-multiscale-rscf-engine`](#amostemporalmultiscalerscfengine)
-- [`amos-universal-coordinate-rscf-engine`](#amosuniversalcoordinaterscfengine)
-- [`amos-universal-variable-registry-rscf-engine`](#amosuniversalvariableregistryrscfengine)
-- [`amos-unreachable-semantics-rscf`](#amosunreachablesemanticsrscf)
+- `amos-aibom-lifecycle-assurance-rscf`
+- `amos-binding-rscf-engine`
+- `amos-budget-aware-optimizer-selection-rscf-engine`
+- `amos-bundle-manifold-concentration-rscf-engine`
+- `amos-commit-time-authorization-rscf-engine`
+- `amos-contravariance-alignment-rscf-engine`
+- `amos-cross-domain-tensor-composition-governor`
+- `amos-dependency-environment-reconstruction-rscf`
+- `amos-goal-plan-action-alignment-rscf`
+- `amos-gradient-rscf-architecture`
+- `amos-heterogeneous-exploration-cohort-rscf`
+- `amos-hierarchical-stack-orchestration-rscf`
+- `amos-hourglass-induction-rscf`
+- `amos-llm-judge-bias-geometry-rscf`
+- `amos-managed-autonomy-escalation-rscf`
+- `amos-mark-operator-rscf-engine`
+- `amos-natural-evidence-trail-reasoning-rscf`
+- `amos-persistence-dissolution-rscf-dynamics`
+- `amos-sae-semantic-transport-rscf-engine`
+- `amos-scientific-assumption-semantic-differencing-rscf`
+- `amos-self-regulated-simulative-planning-rscf`
+- `amos-semantic-workflow-persistence-rscf`
+- `amos-temporal-multiscale-rscf-engine`
+- `amos-universal-coordinate-rscf-engine`
+- `amos-universal-variable-registry-rscf-engine`
+- `amos-unreachable-semantics-rscf`
 
 ### `amos-security-safety-master` (8 children)
 
-- [`amos-adversarial-entropy-accountant`](#amosadversarialentropyaccountant)
-- [`amos-distributed-attack-composition-monitor-rscf`](#amosdistributedattackcompositionmonitorrscf)
-- [`amos-execution-provenance-replay-rscf`](#amosexecutionprovenancereplayrscf)
-- [`amos-principal-trust-governance-rscf`](#amosprincipaltrustgovernancerscf)
-- [`amos-provenance-sybil-hardening-rscf-engine`](#amosprovenancesybilhardeningrscfengine)
-- [`amos-provenance-trust-firewall`](#amosprovenancetrustfirewall)
-- [`amos-security-control-access-bridge-governor`](#amossecuritycontrolaccessbridgegovernor)
-- [`amos-semantic-token-flow-firewall-rscf`](#amossemantictokenflowfirewallrscf)
+- `amos-adversarial-entropy-accountant`
+- `amos-distributed-attack-composition-monitor-rscf`
+- `amos-execution-provenance-replay-rscf`
+- `amos-principal-trust-governance-rscf`
+- `amos-provenance-sybil-hardening-rscf-engine`
+- `amos-provenance-trust-firewall`
+- `amos-security-control-access-bridge-governor`
+- `amos-semantic-token-flow-firewall-rscf`
 
 ### `amos-super-engines-master` (4 children)
 
-- [`amos-cost-aware-test-supervision-rscf`](#amoscostawaretestsupervisionrscf)
-- [`amos-distinction-relation-transformation`](#amosdistinctionrelationtransformation)
-- [`amos-full-brain-os`](#amosfullbrainos)
-- [`amos-transformation-quest-engine`](#amostransformationquestengine)
+- `amos-cost-aware-test-supervision-rscf`
+- `amos-distinction-relation-transformation`
+- `amos-full-brain-os`
+- `amos-transformation-quest-engine`
 
 ### `amos-trang-framework-master` (3 children)
 
-- [`amos-collapse-recovery`](#amoscollapserecovery)
-- [`amos-distinction-rscf-architecture`](#amosdistinctionrscfarchitecture)
-- [`amos-translation-rscf-architecture`](#amostranslationrscfarchitecture)
+- `amos-collapse-recovery`
+- `amos-distinction-rscf-architecture`
+- `amos-translation-rscf-architecture`
 
 ## All Skills (Alphabetical)
 
