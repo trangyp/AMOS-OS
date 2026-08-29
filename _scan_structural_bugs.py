@@ -91,14 +91,23 @@ def parse_frontmatter(text):
     return fm, body
 
 def check_code_blocks(text, rel):
-    fences = 0
     in_code = False
+    fence_char = None
+    fence_len = 0
     for line in text.split("\n"):
         stripped = line.strip()
-        if stripped.startswith("```") or stripped.startswith("~~~"):
-            fences += 1
-            in_code = not in_code
-    if fences % 2 != 0:
+        m = re.match(r'^(```+|~~~+)', stripped)
+        if m:
+            marker = m.group(1)
+            if not in_code:
+                in_code = True
+                fence_char = marker[0]
+                fence_len = len(marker)
+            elif marker[0] == fence_char and len(marker) >= fence_len:
+                in_code = False
+                fence_char = None
+                fence_len = 0
+    if in_code:
         issues["unclosed_codeblock"].append(str(rel))
 
 def check_callouts(text, rel):

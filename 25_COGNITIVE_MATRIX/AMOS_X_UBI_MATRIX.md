@@ -3407,4 +3407,3 @@ i = f(NBI, NEI, SI, BEI)
 while `e = i²` **is present in the native UBI manual as a framework relationship**. The same source also explicitly connects UBI to TSS and TPE.
 
 The Drive search independently located the dedicated `Unified Biological Intelligence™ (UBI) – Official.md` artifact and also surfaced UBI/NeuroSyncAI integration material; that latter material should remain separate provenance rather than being silently merged into the native UBI definition.
-```
