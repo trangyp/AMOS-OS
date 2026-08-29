@@ -157,7 +157,7 @@ claim_class: AMOS_MODEL
 ## [2026-08-29] lint | LLM_WIKI wikilink scan
 
 - Invoked `amos-llm-wiki` skill and ran a lightweight wikilink lint over `11_KNOWLEDGE/LLM_WIKI/wiki/`.
-- Scanned 15 wiki files; found 14 `[[...]]` references whose targets do not exist as sibling `*.md` stems in `wiki/` or `raw/`.
+- Scanned 15 wiki files; found 14 `[[...]]`-style references whose targets do not exist as sibling `*.md` stems in `wiki/` or `raw/`.
 - Most are cross-directory canonical links (`LLM_WIKI_MOC`, `AMOS_LLM_WIKI`, `07_SKILLS_MOC`, `AMOS_RSCF_NODES`) that resolve to other vault directories in Obsidian, so the linter's file-stem check is too strict.
 - No true orphan pages found; no contradictions or stale claims flagged in this pass.
 
@@ -366,7 +366,7 @@ claim_class: AMOS_MODEL
 ## [2026-08-30] fix + enhance | Resolved vault orphan graph and captured addyosmani/agent-skills
 
 - Ran `AMOS_OBSIDIAN_MEMORY_BRIDGE.py` and found 2 orphan notes: `Agent Skills` (Addy Osmani raw capture) and `AMOS Global Contract for AI Coding Agents` (`.github/copilot-instructions.md`).
-- Fixed `cosmo-brain/AMOS_OBSIDIAN_MEMORY_BRIDGE.py` wikilink resolution to match `[[Title]]` against note H1/frontmatter title (`title_to_path`), not only file paths/basenames.
+- Fixed `cosmo-brain/AMOS_OBSIDIAN_MEMORY_BRIDGE.py` wikilink resolution to match the `Title` wikilink pattern against note H1/frontmatter title (`title_to_path`), not only file paths/basenames.
 - Re-linked the two orphans into `00_ROOT/00_COSMO_BRAIN_MOC.md`.
 - Re-verified orphan count: 0; vault graph connected.
 - Captured `addyosmani/agent-skills` README and stored raw source in `11_KNOWLEDGE/LLM_WIKI/raw/ADDYOSMANI_AGENT_SKILLS_README_2026_08_30.md`.
