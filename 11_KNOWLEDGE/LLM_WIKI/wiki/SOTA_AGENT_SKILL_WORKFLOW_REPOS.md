@@ -1161,3 +1161,32 @@ Re-fetched `nuryslyrt/ORPHEUS` README to verify the markdown-first multi-skill o
 Clone `nuryslyrt/ORPHEUS` and compare its `skill/` directory (orchestrator, experts, workers, contracts, scripts) to the AMOS `.devin/skills/`, `.devin/agents/`, and `.devin/workflows/` layout to import the hierarchical skill contract pattern as `amos-orpheus`, or continue to the next SOTA repo.
 
 Raw source: [[ORPHEUS_README_2026_08_30]]
+
+## 2026-08-30 | implement | Imported XSkill `XSkill-Agent/XSkill` as `amos-xskill`
+
+Implemented the SOTA capture and AMOS-linting of the XSkill continual-learning framework for multimodal agents.
+
+### Results
+
+- Captured `XSkill-Agent/XSkill` `main` README to `11_KNOWLEDGE/LLM_WIKI/raw/XSKILL_README_2026_08_30.md`.
+- Created `.devin/skills/amos-xskill/` with `SKILL.md`, `references/xskill-readme.md`, `references/xskill-memory-bank.md`, and `scripts/xskill_scaffold.sh`.
+- Wrote AMOS-linted `SKILL.md` covering Phase I (accumulation: trajectory summarization → experience critique → hierarchical consolidation) and Phase II (inference: decompose → retrieve → adapt → inject).
+- Added `amos-xskill-agent.json` and `amos-xskill-workflow.md` for 1:1:1 binding.
+- Updated `SkillIndex.md` to 645 skills and added `[[amos-xskill]]` cross-cutting route.
+- `make validate`: 645/645 skills at 100% SOTA.
+- `agent_sync_validator.py`: 672/672 agents valid.
+
+### AMOS integration points
+
+- `memory_bank/experience_library/` and `memory_bank/skill_documents/` → `amos-memory-systems-master`, `amos-llm-wiki`, and `amos-skill-builder`.
+- `skill_builder.py` output → `amos-skill-builder` and `skill-check` for `SKILL.md` generation.
+- Retrieval/adaptation/injection → `amos-agent-orchestrator` and `amos-multimodal-perception-layer`.
+
+### Recommended next step
+
+Continue scanning for the next SOTA repo to capture, or run a concrete AMOS hardening task such as:
+- Add `assets/` directory and frontmatter support to `amos-skill-builder` for full Agent Skills bundle compatibility.
+- Implement a workflow YAML lint gate in `amos-workflow-runner` using the SkillFlow DAG schema as a reference.
+- Add ORPHEUS-style `contract.yaml` typed I/O to `amos-skill-builder/references/`.
+
+Raw source: [[XSKILL_README_2026_08_30]]

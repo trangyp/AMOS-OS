@@ -460,3 +460,12 @@ claim_class: AMOS_MODEL
 
 - Fetched `nuryslyrt/ORPHEUS` main README and captured to [[ORPHEUS_README_2026_08_30]].
 - Added deep-dive to [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] covering the `.orpheus/` tree, Builder/Doctor/Auditor/Surgeon meta-roles, decision logs, error chain preservation, and AMOS integration points.
+
+## [2026-08-30] implement | Imported XSkill as `amos-xskill`
+
+- Fetched `XSkill-Agent/XSkill` README and captured to `11_KNOWLEDGE/LLM_WIKI/raw/XSKILL_README_2026_08_30.md`.
+- Created `amos-xskill` skill with references and scaffold script.
+- Added `amos-xskill-agent.json` and `amos-xskill-workflow.md`.
+- Updated `SkillIndex.md` to 645 skills.
+- `make validate`: 645/645 skills at 100% SOTA; `agent_sync_validator.py`: 672/672 agents valid.
+- Logged implementation and next steps in `SOTA_AGENT_SKILL_WORKFLOW_REPOS`.
