@@ -1190,3 +1190,30 @@ Continue scanning for the next SOTA repo to capture, or run a concrete AMOS hard
 - Add ORPHEUS-style `contract.yaml` typed I/O to `amos-skill-builder/references/`.
 
 Raw source: [[XSKILL_README_2026_08_30]]
+
+## 2026-08-30 | implement | Added G19 and imported MMSkills as `amos-mmskills`
+
+Implemented the vault recommendation to add `assets/` frontmatter support and to keep scanning for the next SOTA repo (MMSkills).
+
+### Results
+
+- Added `G19` — `assets` must be a YAML list of dicts with `path` and `description`.
+- Captured `zkangning/MMSkills_for_Visual_Agents` main README to `11_KNOWLEDGE/LLM_WIKI/raw/MMSKILLS_README_2026_08_30.md`.
+- Created `.devin/skills/amos-mmskills/`:
+  - `SKILL.md` covering package layout, runtime/audit state cards, branch-loaded planning, and visual keyframes.
+  - `references/mmskills-readme.md` and `references/mmskills-package.md`.
+  - `scripts/mmskills_scaffold.sh` for scaffolding an MMSkills project.
+- Added `amos-mmskills-agent.json` and `amos-mmskills-workflow.md` for 1:1:1 binding.
+- Updated `SkillIndex.md` to 646 skills.
+- `make validate`: 646/646 skills at 100% SOTA across 19 gates.
+- `agent_sync_validator.py`: 673/673 agents valid.
+
+### AMOS integration points
+
+- `amos-mmskills` extends `amos-multimodal-perception-layer` with visual evidence gating for GUI tasks.
+- Runtime state cards and audit cards map to AMOS `PROMOTION_GATES` and `L7_AUTHORITY`.
+- Branch-loaded planning pattern can be used by `amos-agent-orchestrator` for visual-agent subtasks.
+
+### Recommended next step
+
+Continue scanning for the next high-value repo such as `ai-os`, `addyosmani/agent-skills`, `HoangNguyen0403/agent-skills-standard`, `wuyifeishu/nexus-agentos`, or `tech-leads-club/agent-skills`; capture the most relevant and AMOS-lint it into a new `amos-*` skill.

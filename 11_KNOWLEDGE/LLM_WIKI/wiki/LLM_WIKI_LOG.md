@@ -498,3 +498,13 @@ Implemented the vault recommendation from OpenSkills to add `triggers` and `refe
 ### Recommended next step
 
 Continue scanning for the next SOTA repo to capture, or implement the next vault hardening task such as adding `assets/` directory support to `sota_skill_validator.py` or creating an `amos-openskills` skill that wraps the `openskills-sdk` progressive disclosure runtime.
+
+## [2026-08-30] implement | Added G19 and imported MMSkills as `amos-mmskills`
+
+- Added `G19` (`assets` frontmatter format) to `sota_skill_validator.py`.
+- Fetched `zkangning/MMSkills_for_Visual_Agents` README and captured to `11_KNOWLEDGE/LLM_WIKI/raw/MMSKILLS_README_2026_08_30.md`.
+- Created `amos-mmskills` skill with references and scaffold script.
+- Added `amos-mmskills-agent.json` and `amos-mmskills-workflow.md`.
+- Updated `SkillIndex.md` to 646 skills.
+- `make validate`: 646/646 skills at 100% SOTA; `agent_sync_validator.py`: 673/673 agents valid.
+- Logged implementation and next steps in `SOTA_AGENT_SKILL_WORKFLOW_REPOS`.
