@@ -173,6 +173,23 @@ claim_class: AMOS_MODEL
   3. On-demand instructions loading → support progressive disclosure already in `references/`.
   4. `prompt4cc.txt`-style Claude Code prompt → `CLAUDE.md` for `amos-agent-orchestrator`.
 
+## [2026-08-29] repo evaluation | Agent Skill Registry catalog generation and comparison
+
+- Cloned `gfernandf/agent-skill-registry` to `/tmp/agent-skill-registry`.
+- Ran `tools/generate_catalog.py` on the host Python 3.9.6; it generated `catalog/capabilities.json` (184 entries) and `catalog/skills.json` (40 entries) successfully.
+- Capability schema: `id`, `version`, `description`, `inputs`, `outputs`, `metadata`, `properties`, `cognitive_hints`.
+- Skill schema: `id`, `version`, `name`, `description`, `channel`, `domain`, `slug`, `inputs`, `outputs`, `steps`, `uses_capabilities`, `uses_skills`, `metadata`.
+- Comparison to AMOS `SKILL.md` frontmatter:
+  - Registry `id` uses `domain.noun.verb` dot-notation; AMOS uses `name` as a slug.
+  - Registry has typed `inputs`/`outputs` blocks per capability; AMOS has free-form `## Inputs` / `## Outputs` sections in `references/build.md`.
+  - Registry `metadata.status` and `metadata.category` are first-class; AMOS has `rscf.state`, `rscf.scope`, `hml_level`, `tags`.
+  - Registry skills are dataflow `steps` referencing capabilities by ID; AMOS workflows are narrative `## Steps`.
+- AMOS importables:
+  1. Dot-notation `capability.id` → add to `amos-skill-builder` capability naming contract.
+  2. Typed `inputs`/`outputs` → extend `CONTRACT_TEMPLATE.yaml` with per-capability schema.
+  3. `metadata.status` and `metadata.category` → add to `SKILL.md` frontmatter as `status` and `category`.
+  4. Dataflow `steps` referencing capability IDs → `amos-workflow-builder` machine-readable output.
+
 ## [2026-08-29] research | SkillOpt README captured and evaluated
 
 - Fetched `microsoft/SkillOpt` README and captured raw source to [[SKILLOPT_README_2026_08_29]].
