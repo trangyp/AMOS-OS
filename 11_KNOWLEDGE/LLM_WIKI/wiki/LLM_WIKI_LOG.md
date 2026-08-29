@@ -327,3 +327,9 @@ claim_class: AMOS_MODEL
 - Fetched `ivanzwb/agent-skills` README and captured raw source to [[IVANZWB_AGENT_SKILLS_README_2026_08_29]].
 - Fetched `ComeOnOliver/skillshub` README and captured raw source to [[SKILLSHUB_README_2026_08_29]].
 - Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a Search 4 section mapping hardened registries, TypeScript skill lifecycle, and token-efficient resolver to `skill_guardrail_checker.py`, `skill_security_scanner.py`, `SKILL_TREE.json`, `amos-promotion-gates`, `skill-check`, `amos-skill-builder`, `amos-skill-registry-gateway`, `amos-routing-audit`, `amos-agent-orchestrator`, and `amos-llm-wiki`.
+
+## [2026-08-29] enhance | Added Agent Skills-compatible `manifest.json` to `amos-skill-builder`
+
+- Created `stitch_project_cosmo/.devin/skills/amos-skill-builder/manifest.json` with tool declarations for `validate_skill`, `package_skill`, and `list_skills` aligned with `ivanzwb/agent-skills` Agent Skills Specification implementation.
+- Re-ran `sota_skill_validator.py`: 642 / 642 skills still 100%.
+- Committed to `stitch_project_cosmo`.
