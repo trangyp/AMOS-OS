@@ -1,10 +1,10 @@
 ---
 title: Amos-Full-Brain-Os MOC
 type: moc
-source: 07_SKILLS/amos-full-brain-os
+source: 07_SKILLS/amos-brain-os
 tags:
 - moc
-- amos-full-brain-os
+- amos-brain-os
 - canon/skill
 - skill
 - references-moc
@@ -18,7 +18,7 @@ rscf:
 
 # Amos-Full-Brain-Os — Map of Content
 
-**Path:** `07_SKILLS/amos-full-brain-os`
+**Path:** `07_SKILLS/amos-brain-os`
 **Files:** 1 | **Subdirectories:** 1
 
 ## Files

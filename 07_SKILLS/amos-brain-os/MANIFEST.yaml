@@ -14,7 +14,7 @@ steward: Trang Phan
 license: MIT
 files:
   - path: "SKILL.md"
-  - path: "amos-full-brain-os_MOC.md"
+  - path: "amos-brain-os_MOC.md"
   - path: "references/references_MOC.md"
   - path: "references/vault_domain_knowledge.md"
   - path: "scripts/hooks/hooks_config.yaml"

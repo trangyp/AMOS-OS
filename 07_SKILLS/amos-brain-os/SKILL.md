@@ -2,8 +2,8 @@
 schema_version: 1.0
 title: SKILL — Amos Full Brain Os
 type: skill
-source: 07_SKILLS/amos-full-brain-os
-name: amos-full-brain-os
+source: 07_SKILLS/amos-brain-os
+name: amos-brain-os
 description: Full Brain Os — super engines capability. Use when super-engine reasoning,
   consciousness emulation, or mega-engine analysis. Use when amos-super-engines-master
   routes to this specialized capability. Do not use for generic tasks outside super
@@ -21,7 +21,7 @@ tags:
 - epistemic/source_claim
 - amos_os
 - 07-skills-moc
-- amos-full-brain-os-moc
+- amos-brain-os-moc
 - 00-home
 - amos-rscf-nodes
 - law-hierarchy
@@ -145,7 +145,7 @@ Full Brain OS is AMOS_MODEL. The pipeline is a governance-aware demonstration, n
 
 ## Related
 
-- [[amos-full-brain-os_MOC]]
+- [[amos-brain-os_MOC]]
 
 ## Examples
 
@@ -228,7 +228,7 @@ Full Brain OS is AMOS_MODEL. The pipeline is a governance-aware demonstration, n
 - `` — skill Map of Content
 - `amos-super-engines-master` — parent skill
 - `` — corresponding workflow
-- `amos-full-brain-os-agent` — corresponding agent
+- `amos-brain-os-agent` — corresponding agent
 ---
 
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
@@ -239,9 +239,9 @@ Full Brain OS is AMOS_MODEL. The pipeline is a governance-aware demonstration, n
 
 ---
 RSCF-NODE
-node_id: amos-full-brain-os
+node_id: amos-brain-os
 node_type: skill
-path: 07_SKILLS/amos-full-brain-os/SKILL.md
+path: 07_SKILLS/amos-brain-os/SKILL.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

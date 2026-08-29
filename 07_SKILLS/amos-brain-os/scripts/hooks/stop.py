@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Stop hook for amos-full-brain-os.
+Stop hook for amos-brain-os.
 Fires at turn end. Gates completion until validation passes.
 Per Claude Code best practices (2026): run tests before allowing turn to end.
 """

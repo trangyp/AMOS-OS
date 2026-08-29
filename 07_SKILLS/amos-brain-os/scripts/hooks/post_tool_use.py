@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-PostToolUse hook for amos-full-brain-os.
+PostToolUse hook for amos-brain-os.
 Fires AFTER skill execution succeeds. Validates output quality.
 Per Skills-vs-MCP-vs-Hooks (2026): deterministic post-execution gate.
 """

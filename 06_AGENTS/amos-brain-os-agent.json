@@ -1,5 +1,5 @@
 {
-  "name": "amos-full-brain-os-agent",
+  "name": "amos-brain-os-agent",
   "display_name": "Full Brain Os",
   "description": "Full Brain Os — Full Brain Os — Runtime and OS engine within the runtime domain.",
   "author": "Trang Phan",
@@ -7,8 +7,8 @@
   "system": "AMOS_OS",
   "role": "Full Brain Os — Runtime and OS engine within the runtime domain.",
   "skill_binding": {
-    "primary_skill": "amos-full-brain-os",
-    "skill_path": ".devin/skills/amos-full-brain-os/SKILL.md"
+    "primary_skill": "amos-brain-os",
+    "skill_path": ".devin/skills/amos-brain-os/SKILL.md"
   },
   "capabilities": [
     {
@@ -55,7 +55,7 @@
   "operations": [
     {
       "step": 1,
-      "action": "Load the amos-full-brain-os skill and its content",
+      "action": "Load the amos-brain-os skill and its content",
       "gate": "skill_loaded"
     },
     {
@@ -91,10 +91,10 @@
     "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
   ],
   "depends_on_skills": [
-    "amos-full-brain-os"
+    "amos-brain-os"
   ],
   "depends_on_workflows": [
-    "amos-full-brain-os-workflow.md"
+    "amos-brain-os-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,
@@ -115,7 +115,7 @@
   "content_hash": "2b256654af10bd90",
   "implementation": {
     "type": "json",
-    "file": "amos-full-brain-os-agent.json",
+    "file": "amos-brain-os-agent.json",
     "class": null,
     "executable": true
   },

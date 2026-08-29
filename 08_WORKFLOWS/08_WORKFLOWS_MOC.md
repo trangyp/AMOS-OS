@@ -109,7 +109,7 @@ tags:
 - amos-fractal-math-workflow
 - amos-fractal-systems-master-workflow
 - amos-framework-registry-compiler-workflow
-- amos-full-brain-os-workflow
+- amos-brain-os-workflow
 - amos-future-debt-option-value-governor-workflow
 rscf:
   state: AMOS_MODEL
@@ -254,7 +254,7 @@ rscf:
 - [[amos-fractal-math-workflow]]
 - [[amos-fractal-systems-master-workflow]]
 - [[amos-framework-registry-compiler-workflow]]
-- [[amos-full-brain-os-workflow]]
+- [[amos-brain-os-workflow]]
 - [[amos-future-debt-option-value-governor-workflow]]
 - [[amos-fx-bayesian-neural-sde-calibration-rscf-engine-workflow]]
 - [[amos-fx-carry-differential-engine-workflow]]

@@ -1,10 +1,10 @@
 ---
 title: Vault Domain Knowledge — Amos Full Brain Os
 type: reference
-source: 07_SKILLS/amos-full-brain-os/references
+source: 07_SKILLS/amos-brain-os/references
 tags:
 - reference
-- amos-full-brain-os
+- amos-brain-os
 - canon/skill
 - 2026-08-22-formal-systems-invariants
 - 2026-08-22-brain-inventory
@@ -25,7 +25,7 @@ rscf:
 
 > Source: AMOS_OS Obsidian vault (`_00_Cosmo brain/`)
 > Epistemic class: SOURCE_CLAIM
-> Extracted from skill: `amos-full-brain-os`
+> Extracted from skill: `amos-brain-os`
 
 ## Vault-Sourced Content
 
@@ -194,9 +194,9 @@ Input space: everyday/sragmented/emotional/narrative/symbolic/spiritual/VN+EN/hi
 
 ---
 RSCF-NODE
-node_id: amos-full-brain-os-vault-domain-knowledge
+node_id: amos-brain-os-vault-domain-knowledge
 node_type: reference
-path: 07_SKILLS/amos-full-brain-os/references/vault_domain_knowledge.md
+path: 07_SKILLS/amos-brain-os/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

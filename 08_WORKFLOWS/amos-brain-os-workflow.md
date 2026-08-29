@@ -1,10 +1,10 @@
 ---
-title: amos-full-brain-os-workflow
+title: amos-brain-os-workflow
 type: workflow
 source: 08_WORKFLOWS
 Type: Workflow
-Skill: amos-full-brain-os
-Agent: amos-full-brain-os-agent
+Skill: amos-brain-os
+Agent: amos-brain-os-agent
 Trigger: When runtime and os engine is needed within the runtime domain
 Version: 1.0.0
 tags:
@@ -56,8 +56,8 @@ Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic clas
 
 ## Preconditions
 
-- The `amos-full-brain-os` skill exists and is loaded.
-- The `amos-full-brain-os-agent` agent is available and has valid content_hash.
+- The `amos-brain-os` skill exists and is loaded.
+- The `amos-brain-os-agent` agent is available and has valid content_hash.
 - The query falls within the skill's declared scope and domain.
 - All required vault sources (if any) are accessible.
 - Epistemic class labeling is enabled (SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL).
@@ -67,7 +67,7 @@ Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic clas
 1. **Intake**: Identify the problem and confirm it matches the Full Brain Os scope.
    - Classify the query against the runtime domain
    - Route to the appropriate capability
-2. **Skill Invocation**: Load the `amos-full-brain-os` skill.
+2. **Skill Invocation**: Load the `amos-brain-os` skill.
    - Read the skill content and validation gates
    - Identify which capability is most relevant
 3. **Application**: Apply the Full Brain Os capability.
@@ -109,9 +109,9 @@ The workflow produces a structured result containing:
 
 ## Provenance
 
-- **Workflow**: `amos-full-brain-os-workflow.md`
-- **Skill**: `amos-full-brain-os`
-- **Agent**: `amos-full-brain-os-agent`
+- **Workflow**: `amos-brain-os-workflow.md`
+- **Skill**: `amos-brain-os`
+- **Agent**: `amos-brain-os-agent`
 
 ---
 **MOC:** [[08_WORKFLOWS_MOC]]
@@ -179,8 +179,8 @@ This workflow follows a single-agent orchestration with explicit validation gate
 
 ## Composition
 
-- **Skill**: `amos-full-brain-os`
-- **Agent**: `amos-full-brain-os-agent`
+- **Skill**: `amos-brain-os`
+- **Agent**: `amos-brain-os-agent`
 - **Parent workflow**: Routes via `AMOS_HOME` or parent skill workflow
 - **Chain depth**: Maximum 3 workflows in sequence without orchestrator approval
 - **Parallel execution**: Supported when independent capabilities are invoked

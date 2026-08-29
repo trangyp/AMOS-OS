@@ -1,13 +1,13 @@
 ---
 title: References MOC — References — Amos Full Brain Os
 type: moc
-source: 07_SKILLS/amos-full-brain-os/references
+source: 07_SKILLS/amos-brain-os/references
 tags:
 - moc
 - references
 - canon/skill
 - vault-domain-knowledge
-- amos-full-brain-os-moc
+- amos-brain-os-moc
 - 00-home
 - amos-rscf-nodes
 - law-hierarchy
@@ -23,7 +23,7 @@ rscf:
 
 # References — Map of Content
 
-**Path:** `07_SKILLS/amos-full-brain-os/references`
+**Path:** `07_SKILLS/amos-brain-os/references`
 **Files:** 1 | **Subdirectories:** 0
 
 ## Files
@@ -31,7 +31,7 @@ rscf:
 - vault_domain_knowledge
 
 ---
-**Parent:** [[amos-full-brain-os_MOC]]
+**Parent:** [[amos-brain-os_MOC]]
 ---
 
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
@@ -42,9 +42,9 @@ rscf:
 
 ---
 RSCF-NODE
-node_id: amos-full-brain-os-references-MOC
+node_id: amos-brain-os-references-MOC
 node_type: reference
-path: 07_SKILLS/amos-full-brain-os/references/references_MOC.md
+path: 07_SKILLS/amos-brain-os/references/references_MOC.md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

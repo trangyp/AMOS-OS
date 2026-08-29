@@ -1,4 +1,4 @@
-# Hooks Configuration for amos-full-brain-os
+# Hooks Configuration for amos-brain-os
 # Per Skills-vs-MCP-vs-Hooks (claudeskills.info 2026):
 # Knowledge goes in skills, external access through MCP, guarantees in hooks.
 # Hooks are deterministic gates the model cannot skip.

@@ -264,7 +264,7 @@ rscf:
 - [[amos-fractal-math_MOC]] — amos-fractal-math
 - [[amos-fractal-systems-master_MOC]] — amos-fractal-systems-master
 - [[amos-framework-registry-compiler_MOC]] — amos-framework-registry-compiler
-- [[amos-full-brain-os_MOC]] — amos-full-brain-os
+- [[amos-brain-os_MOC]] — amos-brain-os
 - [[amos-future-debt-option-value-governor_MOC]] — amos-future-debt-option-value-governor
 - [[amos-fx-bayesian-neural-sde-calibration-rscf-engine_MOC]] — amos-fx-bayesian-neural-sde-calibration-rscf-engine
 - [[amos-fx-carry-differential-engine_MOC]] — amos-fx-carry-differential-engine
