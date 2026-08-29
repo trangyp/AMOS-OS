@@ -585,3 +585,47 @@ Read the `main` branch README of `zkangning/MMSkills_for_Visual_Agents` and mapp
 Add an `assets/` directory and visual-keyframe support to one AMOS skill (e.g., `amos-llm-wiki`) to prototype MMSkills-style multimodal evidence gating.
 
 Raw source: [[MMSKILLS_README_2026_08_29]]
+
+## 2026-08-29 | AgentSkillOS deep-dive
+
+Read the `main` branch README of `songfang/AgentSkillOS` and mapped it to AMOS skill tree, retrieval, and DAG orchestration.
+
+### Verified shape
+
+- MIT License, Python 3.10+, 90,000+ skill ecosystem.
+- Three pillars: skill tree construction, skill retrieval, skill orchestration.
+- Capability tree organizes skills hierarchically for coarse-to-fine discovery.
+- Complementarity-aware retrieval selects diverse skill sets.
+- Graph-based orchestration executes skills as a DAG with human-in-the-loop GUI.
+- Observability and debugging with step logs and metadata.
+- Pre-built trees: `skill_seeds` (~50), `top500`, `top1000`.
+- Future work: interactive agent execution, plan refinement, auto skill import, dependency detection, recipe generation.
+
+### Integration points for AMOS
+
+1. **Skill tree / capability hierarchy → `SKILL_INDEX.md` and `07_SKILLS_MOC`**
+   - AgentSkillOS skill tree directly maps to the AMOS `.devin/SKILL_INDEX.md` hierarchical router. AMOS can model the 642 skills as a capability tree with `parent_skill` and `domain`.
+
+2. **Complementarity-aware retrieval → `amos-routing-audit` and `amos-agent-orchestrator`**
+   - Selecting a diverse, task-relevant skill set is a natural extension of `amos-routing-audit` intent classification and `amos-agent-orchestrator` agent discovery.
+
+3. **DAG-based skill orchestration → `amos-workflow-builder` and `amos-workflow-runner`**
+   - AgentSkillOS DAG execution maps to AMOS workflow `steps` and the `amos-workflow-runner`. Human-in-the-loop checkpoints mirror `amos-promotion-gates`.
+
+4. **Human-in-the-loop GUI → `amos-human-interaction-engine` and `amos-promotion-gates`**
+   - Step-level human approval can be added to `amos-workflow-runner` and `amos-promotion-gates`.
+
+5. **Observability / step logs → `amos-observability-driven-harness-evolution-rscf` and `amos-decision-logger`**
+   - Per-step logs and metadata for debugging are already partially in `amos-observability-driven-harness-evolution-rscf`.
+
+### Open questions / gaps
+
+- Requires Python 3.10+ and Claude Code; current host is 3.9.6.
+- 90,000+ skill ecosystem is larger than AMOS; bridging is a long-term mapping effort.
+- The skill tree is a curated, pre-built artifact; AMOS needs a runtime tree builder.
+
+### Recommended next step
+
+Generate a capability tree from the existing 642 AMOS skills using `parent_skill` and `domain` fields and compare it to AgentSkillOS `skill_seeds` / `top500` tree format.
+
+Raw source: [[AGENTSKILLOS_README_2026_08_29]]

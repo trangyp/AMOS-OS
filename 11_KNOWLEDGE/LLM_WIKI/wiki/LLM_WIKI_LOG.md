@@ -307,3 +307,9 @@ claim_class: AMOS_MODEL
 - Fetched `zkangning/MMSkills_for_Visual_Agents` README and captured raw source to [[MMSKILLS_README_2026_08_29]].
 - Mapped self-contained multimodal skill packages, visual keyframes, evidence gating, and branch-loaded planning to `amos-multimodal-perception-layer`, `amos-structured-document-parsing-rscf`, `amos-boundary-scope-master`, `amos-context-budget-governor-rscf`, `amos-agent-orchestrator`, `amos-workflow-runner`, `amos-mcp-connector`, and `amos-skill-registry-gateway`.
 - Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: prototype `assets/` and visual keyframes in one AMOS skill.
+
+## [2026-08-29] research | AgentSkillOS README captured and evaluated
+
+- Fetched `songfang/AgentSkillOS` README and captured raw source to [[AGENTSKILLOS_README_2026_08_29]].
+- Mapped 90,000+ skill ecosystem, skill tree construction, complementarity-aware retrieval, and DAG-based orchestration to `SKILL_INDEX.md`, `07_SKILLS_MOC`, `amos-routing-audit`, `amos-agent-orchestrator`, `amos-workflow-builder`, `amos-workflow-runner`, `amos-promotion-gates`, `amos-human-interaction-engine`, `amos-observability-driven-harness-evolution-rscf`, and `amos-decision-logger`.
+- Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: generate a capability tree from 642 AMOS skills and compare to AgentSkillOS pre-built trees.
