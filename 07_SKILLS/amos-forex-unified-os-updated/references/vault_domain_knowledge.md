@@ -39,7 +39,7 @@ rscf:
 "requires_quality_audit": true,
 "requires_governance_audit": true
 },
-"maturity": "fully_scoped_100%_with_delivery_layers",
+"maturity": "fully_scoped_100%\_with_delivery_layers",
 "capability_flags": {
 "architecture_fully_specified": true,
 "runtime_fully_specified": true,
@@ -65,29 +65,29 @@ rscf:
 "functions": {
 "observe_runtime_signals": {
 "description": "Ingest runtime logs, metrics, and error events.",
-"inputs_required": [
+"inputs_required": \[
 "log_samples",
 "error_events",
 "metrics_snapshot",
 "deployment_context"
-],
-"outputs": [
+\],
+"outputs": \[
 "runtime_health_summary",
 "suspected_failure_points",
 "candidate_signals_to_instrument"
-]
+\]
 },
 "derive_execution_gaps": {
 "description": "Find missing checks, missing branches, and unhandled states.",
-"inputs_required": [
+"inputs_required": \[
 "runtime_health_summary",
 "engine_expected_flows",
 "entity_state_model"
-],
-"outputs": [
+\],
+"outputs": \[
 "execution_gap_list",
 "prioritised_runtime_fix_list"
-]
+\]
 }
 }
 },
@@ -95,29 +95,29 @@ rscf:
 "functions": {
 "generate_test_matrix": {
 "description": "Produce a full test matrix for unit, integration, and E2E.",
-"inputs_required": [
+"inputs_required": \[
 "feature_spec",
 "api_contracts",
 "entity_state_model",
 "risk_assessment"
-],
-"outputs": [
+\],
+"outputs": \[
 "test_case_catalog",
 "coverage_matrix",
 "risk_based_prioritisation"
-]
+\]
 },
 "generate_test_code": {
 "description": "Generate concrete test code from the test matrix.",
-"inputs_required": [
+"inputs_required": \[
 "test_case_catalog",
 "api_contracts",
 "entity_state_model"
-],
-"outputs": [
+\],
+"outputs": \[
 "test_code_files",
 "test_coverage_report"
-]
+\]
 }
 }
 },
@@ -125,14 +125,14 @@ rscf:
 "functions": {
 "load_context": {
 "description": "Load relevant context from persistent memory.",
-"inputs_required": [
+"inputs_required": \[
 "task_description",
 "entity_state_model"
-],
-"outputs": [
+\],
+"outputs": \[
 "context_summary",
 "relevant_artifacts"
-]
+\]
 }
 }
 },
@@ -140,20 +140,21 @@ rscf:
 "functions": {
 "detect_drift": {
 "description": "Detect drift between expected and actual behavior.",
-"inputs_required": [
+"inputs_required": \[
 "runtime_health_summary",
 "engine_expected_flows"
-],
-"outputs": [
+\],
+"outputs": \[
 "drift_report",
 "correction_candidates"
-]
+\]
 }
 }
 }
 }
 }
 }
+
 <!-- NOTE: Source JSON truncated in original vault content. Closing braces added for structural validity. -->
 
 ______________________________________________________________________
@@ -220,7 +221,7 @@ u variable [] variable u - algebraic
 u_t operator [] ∂^1u/∂t D_t(u) derivative(u,'t')
 u_x operator [] ∂^1u/∂x D_x(u) derivative(u,'x')
 
-```
+````
 
 ```python
 D_x → gradient
@@ -228,7 +229,7 @@ D_{xx} → laplacian
 M(W,x) → W @ x
 N_σ → activation
 T(x) → state_update
-```
+````
 
 ### **Unified System Representation**
 
