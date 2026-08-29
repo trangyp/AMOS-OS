@@ -108,7 +108,53 @@ rscf:
 ]
 },
 "generate_test_code": {
-"description": "Generate concrete test c
+"description": "Generate concrete test code from the test matrix.",
+"inputs_required": [
+"test_case_catalog",
+"api_contracts",
+"entity_state_model"
+],
+"outputs": [
+"test_code_files",
+"test_coverage_report"
+]
+}
+}
+},
+"memory_layer": {
+"functions": {
+"load_context": {
+"description": "Load relevant context from persistent memory.",
+"inputs_required": [
+"task_description",
+"entity_state_model"
+],
+"outputs": [
+"context_summary",
+"relevant_artifacts"
+]
+}
+}
+},
+"self_correction_layer": {
+"functions": {
+"detect_drift": {
+"description": "Detect drift between expected and actual behavior.",
+"inputs_required": [
+"runtime_health_summary",
+"engine_expected_flows"
+],
+"outputs": [
+"drift_report",
+"correction_candidates"
+]
+}
+}
+}
+}
+}
+}
+<!-- NOTE: Source JSON truncated in original vault content. Closing braces added for structural validity. -->
 
 ______________________________________________________________________
 
@@ -174,7 +220,7 @@ u variable [] variable u - algebraic
 u_t operator [] ∂^1u/∂t D_t(u) derivative(u,'t')
 u_x operator [] ∂^1u/∂x D_x(u) derivative(u,'x')
 
-````
+```
 
 ```python
 D_x → gradient
@@ -182,11 +228,12 @@ D_{xx} → laplacian
 M(W,x) → W @ x
 N_σ → activation
 T(x) → state_update
-````
+```
 
-### **Unified System Representation** \`\`\`
+### **Unified System Representation**
 
-S\_{t+1} = F(S_t)
+```
+S_{t+1} = F(S_t)
 
 ```
 
@@ -202,7 +249,7 @@ Total Dimensionality: 2
 
 ```
 
-S\_{t+1} = F(S_t)
+S_{t+1} = F(S_t)
 
 Where:
 S = [x, y, z]
@@ -218,7 +265,7 @@ t = time index
 1. **Differential Operator**: `D_x(u) = ∂u/∂x`
 1. **Integral Operator**: `I(f,x) = ∫f(x)dx`
 1. **Matrix Operator**: `M(W,x) = W·x`
-1. **Nonlinear Operator**: \`N\_
+1. **Nonlinear Operator**: `N_σ(x) = σ(x)`
 
 ______________________________________________________________________
 
@@ -268,7 +315,16 @@ ______________________________________________________________________
 "capabilities_summary": "Workflow automation, RPA, intelligent automation, scripting, automation governance, tool discovery, connection management, tool composition, error handling."
 },
 "eu_design": {
-"so
+"source": "EU_Design_Kernel",
+"capabilities_summary": "European design standards compliance, EU regulatory alignment, GDPR considerations, accessibility standards."
+}
+}
+}
+}
+}
+```
+
+<!-- NOTE: Source JSON truncated in original vault content. Closing braces added for structural validity. -->
 
 ______________________________________________________________________
 
