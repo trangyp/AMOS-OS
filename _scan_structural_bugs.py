@@ -191,12 +191,14 @@ def check_broken_internal_links(text, rel):
             h = m.group(1).strip().lower()
             h = re.sub(r'[^\w\s-]', '', h)
             h = re.sub(r'[\s]+', '-', h)
+            h = re.sub(r'-+', '-', h).strip('-')
             headings.add(h)
     # Check internal links
     for m in re.finditer(r'\[([^\]]*)\]\(#([^)]+)\)', text):
         anchor = m.group(2).strip().lower()
         anchor_norm = re.sub(r'[^\w\s-]', '', anchor)
         anchor_norm = re.sub(r'[\s]+', '-', anchor_norm)
+        anchor_norm = re.sub(r'-+', '-', anchor_norm).strip('-')
         if anchor_norm not in headings and anchor not in headings:
             issues["broken_internal_link"].append((str(rel), m.group(0)[:60]))
 
