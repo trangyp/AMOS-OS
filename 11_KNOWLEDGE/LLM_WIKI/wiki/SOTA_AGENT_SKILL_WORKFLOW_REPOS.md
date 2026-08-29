@@ -825,3 +825,44 @@ Read the `addyosmani/agent-skills` README — production-grade engineering skill
 `addyosmani/agent-skills` is the most production-aligned engineering skill catalog captured so far. Its lifecycle commands and auto-activation directly map to AMOS workflow and routing capabilities. The AMOS `software-engineering-qa` and `amos-skill-builder` can be enriched with Addy's five-axis review, `/build auto` commit pattern, and constraints checklist.
 
 Raw source: [[ADDYOSMANI_AGENT_SKILLS_README_2026_08_30]]
+
+## 2026-08-30 | Context Engineering & Agent Skills Standard deep-dive
+
+Captured two high-signal skill frameworks: `muratcankoylan/Agent-Skills-for-Context-Engineering` (17,857 stars, academic-cited) and `HoangNguyen0403/agent-skills-standard` (539 stars, SDLC standards CLI).
+
+### muratcankoylan/Agent-Skills-for-Context-Engineering
+
+Verified shape:
+- 16+ skills across Foundational, Architectural, Operational, Methodology, Cognitive Architecture.
+- Progressive disclosure: skill names/descriptions loaded first, full content on activation.
+- Platform agnostic; Claude Code plugin marketplace.
+- Cited in arxiv Meta Context Engineering and Agent Harness Engineering survey.
+
+Integration points for AMOS:
+- `context-fundamentals`, `context-degradation`, `context-compression` → `amos-context-budget-governor-rscf`, `amos-context-compaction-recoverability-rscf`, `amos-long-context-ci-repository-reasoning-rscf`.
+- `multi-agent-patterns`, `harness-engineering` → `amos-agent-systems-master`, `amos-agent-orchestrator`.
+- `memory-systems` → `amos-memory-systems-master`.
+- `self-improvement-loops` → `amos-autonomous-evolution`, `amos-evolution-loop`.
+- `evaluation`, `advanced-evaluation` → `amos-evaluation`, `amos-formal-agent-skill-verification-rscf`.
+- `project-development` → `amos-workflow-builder`, `amos-c10-tech-engineering-master`.
+
+### HoangNguyen0403/agent-skills-standard
+
+Verified shape:
+- `npx agent-skills-standard init/sync` CLI; 280 coding standards for 8+ agents.
+- `AGENTS.md` router → `_INDEX.md` trigger table → `SKILL.md` progressive loading.
+- MCP server runtime enforcement, lockfile (`ags verify`), pre-edit hooks, secret/dependency scanning.
+- Zero-Trust / Rust Token Killer inspired token economy.
+
+Integration points for AMOS:
+- `AGENTS.md` → `_INDEX.md` → `SKILL.md` hierarchy → AMOS `SKILL_INDEX.md` and `SKILL_TREE.json` already mirror this.
+- `ags verify` lockfile pattern → `sota_skill_validator.py` and `skill_integrity_lock.py`.
+- MCP `load_skills_for_files` → `amos-mcp-connector`, `amos-skill-registry-gateway`.
+- Pre-edit hooks → `amos-skill-builder/scripts/hooks/pre_tool_use.py` and `post_tool_use.py`.
+- Secret/dependency scanning → `skill_security_scanner.py`, `amos-provenance-trust-firewall`.
+
+### Conclusion
+
+`muratcankoylan/Agent-Skills-for-Context-Engineering` is the strongest academic-backed context-engineering catalog; `HoangNguyen0403/agent-skills-standard` is the strongest CLI-governed SDLC standards system with lockfiles, MCP, and hooks. AMOS can adopt the `AGENTS.md` → `_INDEX.md` → `SKILL.md` progressive lookup and the `ags verify` lockfile/audit model.
+
+Raw sources: [[AGENT_SKILLS_FOR_CONTEXT_ENGINEERING_README_2026_08_30]] · [[AGENT_SKILLS_STANDARD_README_2026_08_30]]

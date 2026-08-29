@@ -371,3 +371,9 @@ claim_class: AMOS_MODEL
 - Re-verified orphan count: 0; vault graph connected.
 - Captured `addyosmani/agent-skills` README and stored raw source in `11_KNOWLEDGE/LLM_WIKI/raw/ADDYOSMANI_AGENT_SKILLS_README_2026_08_30.md`.
 - Committed to `stitch_project_cosmo` and `AMOS_OS`.
+
+## [2026-08-30] research | Captured context-engineering and SDLC-standards skill frameworks
+
+- Fetched `muratcankoylan/Agent-Skills-for-Context-Engineering` README and captured raw source to [[AGENT_SKILLS_FOR_CONTEXT_ENGINEERING_README_2026_08_30]].
+- Fetched `HoangNguyen0403/agent-skills-standard` README and captured raw source to [[AGENT_SKILLS_STANDARD_README_2026_08_30]].
+- Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with deep dives mapping context engineering, harness engineering, progressive disclosure, Claude Code plugin marketplace, `ags` CLI, lockfile verification, MCP runtime enforcement, and pre-edit hooks to AMOS skills.
