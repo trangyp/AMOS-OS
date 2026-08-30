@@ -20,7 +20,7 @@ rscf:
 Domain master agent for AMOS Engines Master. Consolidates 8 sub-skills.
 
 ## Capabilities
-- Apply amos super engines master reasoning across all sub-domains
+- Apply amos engines master reasoning across all sub-domains
 - Route queries to the appropriate sub-skill section
 - Validate claims against domain-specific epistemic boundaries
 - Enforce validation gates for the entire domain
@@ -40,7 +40,7 @@ Domain master agent for AMOS Engines Master. Consolidates 8 sub-skills.
 - **Consolidation**: 8 sub-skills merged 2026-08-26
 
 ---
-**MOC:** SKILL
+**MOC:** [[SKILL]]
 
 ---
 **MOC:** [[amos-engines-master_MOC]]

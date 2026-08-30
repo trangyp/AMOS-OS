@@ -1,193 +1,100 @@
 {
-  "name": "amos-engines-master-agent",
-  "display_name": "AMOS Engines Master",
-  "description": "AMOS Engines Master — Super Mind OS, Omega Infinity Stack, ultra/mega/infinity engine variants. Cognition + Emotion + Consciousness triad. Use for super-engine reasoning, consciousness emulation, or",
   "author": "Trang Phan",
-  "steward": "Trang Phan",
-  "system": "AMOS_OS",
-  "role": "Super engines: Super Mind OS, Omega Infinity Stack, cognition + emotion + consciousness triad.",
-  "skill_binding": {
-    "primary_skill": "amos-engines-master",
-    "skill_path": ".devin/skills/amos-engines-master/SKILL.md"
-  },
   "capabilities": [
     {
-      "name": "super_engines.design_inference_loop",
       "description": "Execute the AMOS Engines Master governed perception-belief-action loop with evidence, uncertainty, authority, and safety bounds.",
+      "name": "amos_engines.design_inference_loop",
       "side_effect": "write"
     },
     {
-      "name": "super_engines.validate_governance",
       "description": "Validate AMOS Engines Master outputs against governance gates: constraint, authority, safety, policy, scope, evidence, reversibility.",
+      "name": "amos_engines.validate_governance",
       "side_effect": "read"
     },
     {
-      "name": "super_engines.analyze_belief_state",
       "description": "Analyze AMOS Engines Master belief state: competing hypotheses, uncertainty vector, prediction error, and evidence basis.",
+      "name": "amos_engines.analyze_belief_state",
       "side_effect": "read"
     },
     {
-      "name": "super_engines.trace_inference_provenance",
       "description": "Trace AMOS Engines Master outputs to observations, evidence, prediction model, and RSCF provenance chain.",
+      "name": "amos_engines.trace_inference_provenance",
       "side_effect": "read"
     },
     {
-      "name": "super_engines.assess_inference_claim",
       "description": "Assess AMOS Engines Master claims for epistemic class (AMOS_MODEL not BIOLOGICAL_PROOF), evidence strength, and falsifier availability.",
+      "name": "amos_engines.assess_inference_claim",
       "side_effect": "read"
     },
     {
-      "name": "super_engines.manage_loop_lifecycle",
       "description": "Manage AMOS Engines Master loop lifecycle: observe, infer, compare, generate, govern, select, act, measure, update, stop.",
+      "name": "amos_engines.manage_loop_lifecycle",
       "side_effect": "write"
     },
     {
-      "name": "super_engines.detect_loop_drift",
       "description": "Detect inference drift: goal drift, authority drift, proxy optimization, confirmation loop, and belief overconfidence.",
+      "name": "amos_engines.detect_loop_drift",
       "side_effect": "read"
     },
     {
-      "name": "super_engines.escalate_inference_gaps",
       "description": "Escalate AMOS Engines Master gaps: FREEZE on unresolved validation, preserve competing hypotheses, trigger discriminating evidence.",
+      "name": "amos_engines.escalate_inference_gaps",
       "side_effect": "write"
     },
     {
-      "name": "super_engines.manage_lifecycle",
       "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "name": "amos_engines.manage_lifecycle",
       "side_effect": "write"
     },
     {
-      "name": "super_engines.detect_drift",
       "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
+      "name": "amos_engines.detect_drift",
       "side_effect": "read"
     },
     {
-      "name": "super_engines.validate_outputs",
       "description": "Validate outputs against domain constraints and epistemic class.",
+      "name": "amos_engines.validate_outputs",
       "side_effect": "read"
     }
   ],
-  "operations": [
-    {
-      "step": 1,
-      "action": "ORIENT: Identify the problem and confirm it matches the super engines scope.",
-      "gate": "scope_confirmed"
-    },
-    {
-      "step": 2,
-      "action": "CLASSIFY: Classify the query against super engines sub-capabilities and frameworks.",
-      "gate": "domain_classified"
-    },
-    {
-      "step": 3,
-      "action": "APPLY: Apply the appropriate super engines framework with epistemic class labeling.",
-      "gate": "framework_applied"
-    },
-    {
-      "step": 4,
-      "action": "CHALLENGE: Challenge results against epistemic firewall and domain-specific invariants.",
-      "gate": "firewall_passed"
-    },
-    {
-      "step": 5,
-      "action": "SYNTHESIZE: Synthesize results with provenance and confidence ceiling.",
-      "gate": "result_synthesized"
-    }
-  ],
-  "integrity_requirements": [
-    "SUPER ENGINES model != empirical proof: framework is not empirical validation",
-    "Structural mapping != causal proof: mapping is not causation",
-    "Capability != Authority: having a capability does not authorize its use",
-    "Competing hypotheses must be preserved under uncertainty",
-    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
-  ],
-  "safety_constraints": [
-    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
-    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
-  ],
-  "depends_on_skills": [
-    "amos-engines-master"
-  ],
-  "depends_on_workflows": [
-    "amos-engines-master-workflow.md"
-  ],
-  "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,
-  "lifecycle": {
-    "status": "active",
-    "deprecated": false,
-    "deprecation_date": null,
-    "successor": null
-  },
-  "governance": {
-    "owner_team": "AMOS_CORE",
-    "business_domain": "super",
-    "risk_tier": "medium",
-    "observability": "structured_logs+content_hash",
-    "approval_mode": "steward_review",
-    "promotion_state": "production"
-  },
-  "implementation": {
-    "type": "json",
-    "file": "amos-engines-master-agent.json",
-    "class": null,
-    "executable": true
-  },
-  "content_hash": "b77971c031577aa0",
-  "version": "1.1.0",
-  "reasoning_pattern": "Plan-Execute",
-  "termination_criteria": {
-    "max_steps": 10,
-    "max_tokens": 8000,
-    "stop_on_confidence_below": 0.3,
-    "stop_on_critical_gap": true,
-    "stop_on_scope_violation": true,
-    "human_in_the_loop": false
-  },
-  "error_recovery": {
-    "on_timeout": "return partial result with GAP flag",
-    "on_scope_violation": "reject and route to parent",
-    "on_contradiction": "flag CRITICAL_GAP and halt",
-    "on_provenance_loss": "mark as UNKNOWN and request human review",
-    "on_drift": "trigger drift alignment governor"
-  },
-  "context_management": {
-    "strategy": "progressive_disclosure",
-    "max_context_tokens": 4000,
-    "compaction_threshold": 0.8,
-    "scratchpad_enabled": true
-  },
-  "evaluation_metrics": {
-    "success_rate_target": 0.85,
-    "false_positive_rate_max": 0.1,
-    "avg_steps_target": 3.0,
-    "provenance_coverage_target": 1.0
-  },
+  "collapse_class": "reversible",
   "composition_rules": {
     "can_delegate_to": [],
     "can_receive_from": [],
     "max_chain_depth": 3,
     "requires_orchestrator": true
   },
-  "observability": {
-    "trace_level": "full",
-    "log_inputs": true,
-    "log_outputs": true,
-    "log_intermediate": true,
-    "metrics_enabled": true
+  "content_hash": "911191a9d85d765d",
+  "context_management": {
+    "compaction_threshold": 0.8,
+    "max_context_tokens": 4000,
+    "scratchpad_enabled": true,
+    "strategy": "progressive_disclosure"
   },
-  "tags": [
-    "type/agent",
-    "canon/agent",
-    "domain/super-engines",
-    "rscf/source_claim",
-    "hml/m",
-    "epistemic/amos_model",
-    "amos_os"
+  "depends_on_skills": [
+    "amos-engines-master"
   ],
-  "origin_architect": "Trang Phan",
-  "rscf_state": "SOURCE_CLAIM",
-  "hml_level": "M",
+  "depends_on_workflows": [
+    "amos-engines-master-workflow.md"
+  ],
+  "description": "AMOS Engines Master — Super Mind OS, Omega Infinity Stack, ultra/mega/infinity engine variants. Cognition + Emotion + Consciousness triad. Use for engines-master reasoning, consciousness emulation, or",
+  "display_name": "AMOS Engines Master",
+  "domain": "super",
+  "epistemic_class": "AMOS_MODEL",
+  "error_recovery": {
+    "on_contradiction": "flag CRITICAL_GAP and halt",
+    "on_drift": "trigger drift alignment governor",
+    "on_provenance_loss": "mark as UNKNOWN and request human review",
+    "on_scope_violation": "reject and route to parent",
+    "on_timeout": "return partial result with GAP flag"
+  },
+  "evaluation_metrics": {
+    "avg_steps_target": 3.0,
+    "false_positive_rate_max": 0.1,
+    "provenance_coverage_target": 1.0,
+    "success_rate_target": 0.85
+  },
   "gmef_gates": [
     "L0_integrity",
     "L1_epistemic",
@@ -195,8 +102,28 @@
     "L5_scope",
     "L7_authority"
   ],
-  "collapse_class": "reversible",
-  "qfm_gate_set": "QFM_v43",
+  "governance": {
+    "approval_mode": "steward_review",
+    "business_domain": "super",
+    "observability": "structured_logs+content_hash",
+    "owner_team": "AMOS_CORE",
+    "promotion_state": "production",
+    "risk_tier": "medium"
+  },
+  "hml_level": "M",
+  "implementation": {
+    "class": null,
+    "executable": true,
+    "file": "amos-engines-master-agent.json",
+    "type": "json"
+  },
+  "integrity_requirements": [
+    "AMOS ENGINES MASTER model != empirical proof: framework is not empirical validation",
+    "Structural mapping != causal proof: mapping is not causation",
+    "Capability != Authority: having a capability does not authorize its use",
+    "Competing hypotheses must be preserved under uncertainty",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
   "law_compliance": [
     "L0",
     "L1",
@@ -208,5 +135,78 @@
     "L17",
     "L18"
   ],
-  "domain": "super"
+  "lifecycle": {
+    "deprecated": false,
+    "deprecation_date": null,
+    "status": "active",
+    "successor": null
+  },
+  "name": "amos-engines-master-agent",
+  "observability": {
+    "log_inputs": true,
+    "log_intermediate": true,
+    "log_outputs": true,
+    "metrics_enabled": true,
+    "trace_level": "full"
+  },
+  "operations": [
+    {
+      "action": "ORIENT: Identify the problem and confirm it matches the amos-engines-master scope.",
+      "gate": "scope_confirmed",
+      "step": 1
+    },
+    {
+      "action": "CLASSIFY: Classify the query against amos-engines-master sub-capabilities and frameworks.",
+      "gate": "domain_classified",
+      "step": 2
+    },
+    {
+      "action": "APPLY: Apply the appropriate amos-engines-master framework with epistemic class labeling.",
+      "gate": "framework_applied",
+      "step": 3
+    },
+    {
+      "action": "CHALLENGE: Challenge results against epistemic firewall and domain-specific invariants.",
+      "gate": "firewall_passed",
+      "step": 4
+    },
+    {
+      "action": "SYNTHESIZE: Synthesize results with provenance and confidence ceiling.",
+      "gate": "result_synthesized",
+      "step": 5
+    }
+  ],
+  "origin_architect": "Trang Phan",
+  "qfm_gate_set": "QFM_v43",
+  "reasoning_pattern": "Plan-Execute",
+  "role": "AMOS Engines Master: Super Mind OS, Omega Infinity Stack, cognition + emotion + consciousness triad.",
+  "rscf_state": "SOURCE_CLAIM",
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "skill_binding": {
+    "primary_skill": "amos-engines-master",
+    "skill_path": ".devin/skills/amos-engines-master/SKILL.md"
+  },
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "tags": [
+    "type/agent",
+    "canon/agent",
+    "domain/engines-master",
+    "rscf/source_claim",
+    "hml/m",
+    "epistemic/amos_model",
+    "amos_os"
+  ],
+  "termination_criteria": {
+    "human_in_the_loop": false,
+    "max_steps": 10,
+    "max_tokens": 8000,
+    "stop_on_confidence_below": 0.3,
+    "stop_on_critical_gap": true,
+    "stop_on_scope_violation": true
+  },
+  "version": "1.1.0"
 }

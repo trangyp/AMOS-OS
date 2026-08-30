@@ -25,9 +25,9 @@ tags:
 - omega-state-of-the-art
 - super-consciousness-engine
 - super-consciousness-engine-max
-- super-engine-omni-x1000
-- super-engine-v1
-- super-engine-v100
+- engines-master-omni-x1000
+- engines-master-v1
+- engines-master-v100
 - super-kernel-engine
 - trang-asea
 - unipower-engines-collection
@@ -81,7 +81,7 @@ rscf:
 - [[unipower_engines_collection]]
 - [[unipower_engines_layer]]
 - [[unipower_tech_design_metabrain]]
-- vault_domain_knowledge
+- [[vault_domain_knowledge]]
 
 ---
 **Parent:** [[amos-engines-master_MOC]]

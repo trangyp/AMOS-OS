@@ -6,13 +6,13 @@ Type: Workflow
 Skill: amos-engines-master
 Agent: amos-engines-master-agent
 Trigger: AMOS Engines Master — Super Mind OS, Omega Infinity Stack, ultra/mega/infinity
-  engine variants. Cognition + Emotion + Consciousness triad. Use for super-engine
+  engine variants. Cognition + Emotion + Consciousness triad. Use for engines-master
   reasoning, consciousness emulation, or
 Version: 1.0.0
 tags:
 - type/workflow
 - type/workflow
-- domain/super-engines
+- domain/engines-master
 - epistemic/source_claim
 - hml/m
 - epistemic/source_claim
@@ -45,7 +45,7 @@ law_compliance:
 - L16
 - L17
 - L18
-domain: super
+domain: engines-master
 ---
 
 # Workflow: AMOS Engines Master

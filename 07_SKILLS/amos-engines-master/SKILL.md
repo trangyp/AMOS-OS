@@ -5,17 +5,17 @@ type: skill
 source: 07_SKILLS/amos-engines-master
 name: amos-engines-master
 description: AMOS Engines Master — Super Mind OS, Omega Infinity Stack, ultra/mega/infinity
-  engine variants. Cognition + Emotion + Consciousness triad. Use when super-engine
+  engine variants. Cognition + Emotion + Consciousness triad. Use when engines-master
   reasoning, consciousness emulation, or. Do not use for generic tasks outside super
   domain.
 parent_skill: none
-domain: super
+domain: engines-master
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
 tags:
 - type/skill
 - type/skill
-- domain/super-engines
+- domain/engines-master
 - epistemic/source_claim
 - hml/h
 - epistemic/source_canon
@@ -64,12 +64,12 @@ A parent skill with clearly labeled sections is better than 8 separate shallow s
 
 ## When to Use
 
-- When reasoning about super-engine architectures (Super Mind OS, Omega Infinity Stack)
+- When reasoning about engines-master architectures (Super Mind OS, Omega Infinity Stack)
 - When working with ultra/mega/infinity engine variants
 - When analyzing the Cognition + Emotion + Consciousness triad
 - When emulating consciousness-like processes within AMOS governance
 - When integrating universe-scale control and measurement engines
-- When a child skill routes a super-engine reasoning task to this master
+- When a child skill routes a engines-master reasoning task to this master
 
 - When managing lifecycle operations across classify, validate, trace, assess, and detect
 - When detecting drift in evidence chains, provenance freshness, or confidence calibration
@@ -77,31 +77,31 @@ A parent skill with clearly labeled sections is better than 8 separate shallow s
 
 ## Capabilities
 
-- **super_engines.design_inference_loop**: Execute the AMOS Engines Master governed perception-belief-action loop with evidence, uncertainty, authority, and safety bounds.
-- **super_engines.validate_governance**: Validate AMOS Engines Master outputs against governance gates: constraint, authority, safety, policy, scope, evidence, reversibility.
-- **super_engines.analyze_belief_state**: Analyze AMOS Engines Master belief state: competing hypotheses, uncertainty vector, prediction error, and evidence basis.
-- **super_engines.trace_inference_provenance**: Trace AMOS Engines Master outputs to observations, evidence, prediction model, and RSCF provenance chain.
-- **super_engines.assess_inference_claim**: Assess AMOS Engines Master claims for epistemic class (AMOS_MODEL not BIOLOGICAL_PROOF), evidence strength, and falsifier availability.
-- **super_engines.manage_loop_lifecycle**: Manage AMOS Engines Master loop lifecycle: observe, infer, compare, generate, govern, select, act, measure, update, stop.
-- **super_engines.detect_loop_drift**: Detect inference drift: goal drift, authority drift, proxy optimization, confirmation loop, and belief overconfidence.
-- **super_engines.escalate_inference_gaps**: Escalate AMOS Engines Master gaps: FREEZE on unresolved validation, preserve competing hypotheses, trigger discriminating evidence.
-- **super_engines.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-- **super_engines.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-- **super_engines.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+- **amos_engines.design_inference_loop**: Execute the AMOS Engines Master governed perception-belief-action loop with evidence, uncertainty, authority, and safety bounds.
+- **amos_engines.validate_governance**: Validate AMOS Engines Master outputs against governance gates: constraint, authority, safety, policy, scope, evidence, reversibility.
+- **amos_engines.analyze_belief_state**: Analyze AMOS Engines Master belief state: competing hypotheses, uncertainty vector, prediction error, and evidence basis.
+- **amos_engines.trace_inference_provenance**: Trace AMOS Engines Master outputs to observations, evidence, prediction model, and RSCF provenance chain.
+- **amos_engines.assess_inference_claim**: Assess AMOS Engines Master claims for epistemic class (AMOS_MODEL not BIOLOGICAL_PROOF), evidence strength, and falsifier availability.
+- **amos_engines.manage_loop_lifecycle**: Manage AMOS Engines Master loop lifecycle: observe, infer, compare, generate, govern, select, act, measure, update, stop.
+- **amos_engines.detect_loop_drift**: Detect inference drift: goal drift, authority drift, proxy optimization, confirmation loop, and belief overconfidence.
+- **amos_engines.escalate_inference_gaps**: Escalate AMOS Engines Master gaps: FREEZE on unresolved validation, preserve competing hypotheses, trigger discriminating evidence.
+- **amos_engines.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+- **amos_engines.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+- **amos_engines.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## Operations
 
-1. **super_engines.design_inference_loop**: Execute the AMOS Engines Master governed perception-belief-action loop with evidence, uncertainty, authority, and safety bounds.
-2. **super_engines.validate_governance**: Validate AMOS Engines Master outputs against governance gates: constraint, authority, safety, policy, scope, evidence, reversibility.
-3. **super_engines.analyze_belief_state**: Analyze AMOS Engines Master belief state: competing hypotheses, uncertainty vector, prediction error, and evidence basis.
-4. **super_engines.trace_inference_provenance**: Trace AMOS Engines Master outputs to observations, evidence, prediction model, and RSCF provenance chain.
-5. **super_engines.assess_inference_claim**: Assess AMOS Engines Master claims for epistemic class (AMOS_MODEL not BIOLOGICAL_PROOF), evidence strength, and falsifier availability.
-6. **super_engines.manage_loop_lifecycle**: Manage AMOS Engines Master loop lifecycle: observe, infer, compare, generate, govern, select, act, measure, update, stop.
-7. **super_engines.detect_loop_drift**: Detect inference drift: goal drift, authority drift, proxy optimization, confirmation loop, and belief overconfidence.
-8. **super_engines.escalate_inference_gaps**: Escalate AMOS Engines Master gaps: FREEZE on unresolved validation, preserve competing hypotheses, trigger discriminating evidence.
-9. **super_engines.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-10. **super_engines.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-11. **super_engines.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **amos_engines.design_inference_loop**: Execute the AMOS Engines Master governed perception-belief-action loop with evidence, uncertainty, authority, and safety bounds.
+2. **amos_engines.validate_governance**: Validate AMOS Engines Master outputs against governance gates: constraint, authority, safety, policy, scope, evidence, reversibility.
+3. **amos_engines.analyze_belief_state**: Analyze AMOS Engines Master belief state: competing hypotheses, uncertainty vector, prediction error, and evidence basis.
+4. **amos_engines.trace_inference_provenance**: Trace AMOS Engines Master outputs to observations, evidence, prediction model, and RSCF provenance chain.
+5. **amos_engines.assess_inference_claim**: Assess AMOS Engines Master claims for epistemic class (AMOS_MODEL not BIOLOGICAL_PROOF), evidence strength, and falsifier availability.
+6. **amos_engines.manage_loop_lifecycle**: Manage AMOS Engines Master loop lifecycle: observe, infer, compare, generate, govern, select, act, measure, update, stop.
+7. **amos_engines.detect_loop_drift**: Detect inference drift: goal drift, authority drift, proxy optimization, confirmation loop, and belief overconfidence.
+8. **amos_engines.escalate_inference_gaps**: Escalate AMOS Engines Master gaps: FREEZE on unresolved validation, preserve competing hypotheses, trigger discriminating evidence.
+9. **amos_engines.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+10. **amos_engines.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+11. **amos_engines.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## Vault-Sourced Domain Knowledge
 
@@ -147,7 +147,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 > **Reference**: See `references/amos_infinite_complete.md` (content_hash: 71e64bb6d9768e29) for the AMOS Infinite Complete (infinite engine architecture, completion summary, capability matrix).
 
 
-> **Reference**: See `references/unipower_tech_design_metabrain.md` (content_hash: 6dd070cb95171643) for the UniPower Tech Design MetaBrain (meta-brain architecture, UniPower design, super-engine integration).
+> **Reference**: See `references/unipower_tech_design_metabrain.md` (content_hash: 6dd070cb95171643) for the UniPower Tech Design MetaBrain (meta-brain architecture, UniPower design, engines-master integration).
 
 
 > **Reference**: See `references/trang_asea.md` (content_hash: 465ecbf8421d1fa3) for the Trang ASEA Adaptive Self-Evolution AI (adaptive self-evolution, ASEA architecture, self-improvement).
@@ -295,22 +295,22 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 
 ## Examples
 
-- **Scenario**: When reasoning about super-engine architectures (Super Mind OS, Omega Infinity Stack)
-  - **Input**: A query matching this skill's domain (super)
+- **Scenario**: When reasoning about engines-master architectures (Super Mind OS, Omega Infinity Stack)
+  - **Input**: A query matching this skill's domain (engines-master)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When working with ultra/mega/infinity engine variants
-  - **Input**: A query matching this skill's domain (super)
+  - **Input**: A query matching this skill's domain (engines-master)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When analyzing the Cognition + Emotion + Consciousness triad
-  - **Input**: A query matching this skill's domain (super)
+  - **Input**: A query matching this skill's domain (engines-master)
   - **Output**: Structured result with epistemic labels and provenance
 
 
 ## Anti-Patterns
 
-- **Do not use** for tasks outside the super domain
+- **Do not use** for tasks outside the engines-master domain
 - **Do not use** when the query requires empirical validation that this skill cannot provide
 - **Do not use** when a parent skill or higher-level orchestrator should route instead
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
@@ -319,7 +319,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 
 ## Composition
 
-- **Parent**: `` — routes to this skill when super specialization is needed
+- **Parent**: `` — routes to this skill when engines-master specialization is needed
 - **Peers**: Other skills in the `super` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -396,10 +396,10 @@ See `references/detailed-content.md` for detailed amos canon grounding.
 
 ## Do not use
 
-- For generic consciousness analysis outside the super-engine framework
+- For generic consciousness analysis outside the engines-master framework
 - To claim empirical validation of consciousness or mega-engine theories
 - As a substitute for domain-specific cognitive or consciousness evidence
-- Outside super-engine domain reasoning
+- Outside engines-master domain reasoning
 
 ---
 
