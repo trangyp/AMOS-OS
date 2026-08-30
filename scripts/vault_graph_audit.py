@@ -238,8 +238,12 @@ class VaultGraph:
     # ── Metrics ──────────────────────────────────────────────────────────────
 
     def orphans(self) -> list[str]:
-        """Nodes with no incoming links (no backlinks)."""
-        return sorted([relpath for relpath in self.nodes if not self.backlinks.get(relpath)])
+        """Nodes with no incoming links (no backlinks), excluding noparse/raw dirs."""
+        return sorted([
+            relpath for relpath in self.nodes
+            if not self.backlinks.get(relpath)
+            and not any(p in self.noparse_dirs for p in Path(relpath).parts)
+        ])
 
     def hubs(self, top_n: int = 20) -> list[tuple[str, int]]:
         """Nodes ranked by incoming link count (PageRank-like)."""

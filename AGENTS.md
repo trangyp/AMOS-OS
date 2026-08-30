@@ -966,3 +966,6 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[_MOC]]
+
+---
+**Vault root links:** [[README.md]] · [[11_KNOWLEDGE/stubs/19|Stubs 19]]
