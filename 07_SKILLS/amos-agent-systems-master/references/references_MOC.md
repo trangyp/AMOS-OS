@@ -36,7 +36,7 @@ rscf:
 - [[agent_working_instructions_v2]]
 - [[ai_workforce_layer]]
 - [[architecture_guardian_agent]]
-- [[fabrication_engine]]
+- [fabrication_engine](fabrication_engine.md)
 - [[fabrication_engine_layer]]
 - [[os_agent_model]]
 

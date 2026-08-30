@@ -26,14 +26,14 @@ updated: 2026-08-30
 
 ## Core Skill & Agent Template
 
-- [[AGENT_TEMPLATE]] — Agent template for the amos-engines-master skill.
-- [[SKILL]] — AMOS COGNITIVE ORGANISM OS skill definition.
+- [AGENT_TEMPLATE](AGENT_TEMPLATE.md) — Agent template for the amos-engines-master skill.
+- [SKILL](SKILL.md) — AMOS COGNITIVE ORGANISM OS skill definition.
 
 ---
 
 ## References MOC
 
-- [[references_MOC]] — Central index for amos-engines-master reference notes.
+- [references_MOC](references_MOC.md) — Central index for amos-engines-master reference notes.
 - [[domains_engines_collection]] — AMOS Domains Engines Collection.
 - [[engine_models]] — AMOS Engine Models.
 - [[index_unipower]] — Index Unipower.
@@ -54,7 +54,7 @@ updated: 2026-08-30
 - [[unipower_engines_collection]] — AMOS Unipower Engines.
 - [[unipower_engines_layer]] — AMOS Unipower Engines Layer.
 - [[unipower_tech_design_metabrain]] — UniPower Tech Design MetaBrain.
-- [[vault_domain_knowledge]] — amos-engines-master — Vault-Sourced Domain Knowledge.
+- [vault_domain_knowledge](vault_domain_knowledge.md) — amos-engines-master — Vault-Sourced Domain Knowledge.
 
 ---
 
@@ -86,7 +86,7 @@ updated: 2026-08-30
 ## Supporting Files
 
 - `agents/openai.yaml` — OpenAI agent definition (non-markdown).
-- [[references_MOC]] — References Map of Content.
+- [references_MOC](references_MOC.md) — References Map of Content.
 
 ---
 

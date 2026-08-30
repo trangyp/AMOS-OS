@@ -62,7 +62,7 @@ rscf:
 
 - [[11k_architecture_decision_record]]
 - [[11k_component_map]]
-- [[architecture_of_architecture]]
+- [architecture_of_architecture](architecture_of_architecture.md)
 - [[automation_engine_layer]]
 - [[automation_engine_v1]]
 - [[automation_super_engine]]
@@ -76,7 +76,7 @@ rscf:
 - [[data_engineering_kernel]]
 - [[deployment_guide]]
 - [[design_kernel]]
-- [[fabrication_engine]]
+- [fabrication_engine](fabrication_engine.md)
 - [[implementation_manifest]]
 - [[kernels_tech]]
 - [[load_map]]
@@ -88,7 +88,7 @@ rscf:
 - [[super_factory_engine_v2]]
 - [[tech_architecture_kernel]]
 - [[tech_architecture_model]]
-- [[tech_design_engine]]
+- [tech_design_engine](tech_design_engine.md)
 - [[tech_engine_model]]
 - [[tech_engine_unipower]]
 - [[tech_engine_vinfinity]]

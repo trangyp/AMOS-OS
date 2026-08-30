@@ -53,7 +53,7 @@ rscf:
 - [[academic_writing_engine]]
 - [[academic_writing_kernel_engine]]
 - [[accessibility_i18n]]
-- [[architecture_of_architecture]]
+- [architecture_of_architecture](architecture_of_architecture.md)
 - [[atomic_to_living_design]]
 - [[beauty_emptiness_finality]]
 - [[corp_doc_engine]]
@@ -74,10 +74,10 @@ rscf:
 - [[strategic_document_engine_layer]]
 - [[super_corp_doc_engine]]
 - [[super_corp_doc_engine_light]]
-- [[tech_design_engine]]
+- [tech_design_engine](tech_design_engine.md)
 - [[tech_expanded_design_engine]]
 - vault_domain_knowledge
-- [[vietnamese_writing_engine]]
+- [vietnamese_writing_engine](vietnamese_writing_engine.md)
 
 ---
 **Parent:** [[amos-c11-design-language-master_MOC]]

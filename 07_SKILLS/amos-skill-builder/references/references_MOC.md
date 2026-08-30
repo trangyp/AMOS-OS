@@ -28,10 +28,10 @@ rscf:
 ## Files
 
 - [[canon]]
-- [[integration]]
+- [integration](integration.md)
 - [[output-patterns]]
-- [[validation]]
-- [[workflows]]
+- [validation](validation.md)
+- [workflows](workflows.md)
 
 ---
 **Parent:** [[amos-skill-builder_MOC]]

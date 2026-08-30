@@ -25,9 +25,9 @@ rscf:
 
 ## Files
 
-- [[integration]]
-- [[validation]]
-- [[workflows]]
+- [integration](integration.md)
+- [validation](validation.md)
+- [workflows](workflows.md)
 
 ---
 **Parent:** [[amos-workflow-builder_MOC]]

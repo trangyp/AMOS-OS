@@ -81,7 +81,7 @@ type: moc
 - [[unipower_engines_collection]]
 - [[unipower_engines_layer]]
 - [[unipower_tech_design_metabrain]]
-- [[vault_domain_knowledge]]
+- [vault_domain_knowledge](vault_domain_knowledge.md)
 
 ---
 **Parent:** [[amos-engines-master_MOC]]

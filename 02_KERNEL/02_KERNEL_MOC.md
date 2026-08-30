@@ -19,14 +19,30 @@ rscf:
 **Path:** `02_KERNEL`
 **Files:** 2 | **Subdirectories:** 10
 
-## Files
+## Files & Computational Kernels
 
-- [[KERNEL_KERNEL_CONTRACT]]
 - [[KERNEL_README]]
+- [[KERNEL_KERNEL_CONTRACT]]
+- [[K_ANTI_AUTOPOISONING]] — Anti-Autopoisoning Base ALU
+- [[K_ATOMIC_MULTI_RSCF]] — Atomic Multi-Proof Transaction ALU
+- [[K_AUTHORITY]] — Authority & Permission Validation Kernel
+- [[K_CANON]] — Canonical Invariant Verification Kernel
+- [[K_CAS]] — Lock-Free Compare-And-Swap Epoch ALU
+- [[K_CONTROL_PLANE]] — Control Plane Orchestration ALU
+- [[K_CORE_LAWS]] — Core Law Validation Engine
+- [[K_DOMAINS]] — Multi-Domain Mapping Kernel
+- [[K_FAILURE_RECOVERY]] — Failure Recovery & Rollback ALU
+- [[K_FAIL_CLOSED]] — Fail-Closed Safety Gate
+- [[K_GOVERNANCE]] — Governance & Policy Enforcement Kernel
+- [[K_GOVERNED_EVOLUTION]] — Governed Mutation & Evolution Kernel
+- [[K_MVCC]] — Multiversion Concurrency Snapshot Buffer
+- [[K_REALITY]] — Reality Grounding Substrate ALU
+- [[K_UNIVERSE_STRATA]] — Universe Strata Hierarchy Engine
+- [[MVCC_CAS]] — MVCC/CAS Transaction Integration
+- [[ULK_LOGIC_KERNEL]] — Universal Logic Kernel ALU
 
 ## Subdirectories
 
-- [[00_INDEX_MOC]] — 00_INDEX
 - [[01_META_LOGIC_MOC]] — 01_META_LOGIC
 - [[02_COGNITION_MOC]] — 02_COGNITION
 - [[03_CAUSAL_MOC]] — 03_CAUSAL
@@ -38,4 +54,10 @@ rscf:
 - [[09_INTEGRATION_MOC]] — 09_INTEGRATION
 
 ---
-**Parent:** [[AMOS_HOME]]
+
+**Parent:** [[00_HOME]] · [[00_ROOT_MOC]]
+
+---
+
+**Related:** [[01_CANON_MOC]] · [[03_CONTROL_PLANE_MOC]] · [[25_COGNITIVE_MATRIX_MOC]] · [[07_SKILLS_MOC]] · [[08_WORKFLOWS_MOC]]
+

@@ -26,6 +26,7 @@ import re
 import sys
 from collections import defaultdict, Counter
 from pathlib import Path
+from typing import Optional
 
 try:
     import yaml
@@ -40,16 +41,20 @@ WL_RE = re.compile(r"\[\[([^\]|#\n]+?)(?:#[^\]|]*)?(?:\|[^\]\n]*)?\]\]")
 
 
 class VaultGraph:
-    """Directed graph of an Obsidian vault: nodes = files, edges = wikilinks."""
+    """Directed graph of an Obsidian vault: nodes = files (by rel path), edges = wikilinks."""
 
     def __init__(self, vault_path: Path, exclude_dirs: set = None):
         self.vault_path = vault_path
-        self.exclude_dirs = exclude_dirs or {".obsidian", ".git", "node_modules", ".gemini", "copilot"}
-        self.nodes = {}           # stem -> Path
-        self.edges = defaultdict(set)  # src_stem -> set(target_stems)
-        self.backlinks = defaultdict(set)  # target_stem -> set(src_stems)
-        self.broken_links = []     # (src_path, target)
+        self.exclude_dirs = exclude_dirs or {".obsidian", ".git", "node_modules", ".gemini", "copilot", "scripts", ".devin"}
+        self.nodes = {}           # rel_path (posix) -> Path
+        self.edges = defaultdict(set)  # src_relpath -> set(target_relpaths)
+        self.backlinks = defaultdict(set)  # target_relpath -> set(src_relpaths)
+        self.broken_links = []     # (src_relpath, target)
+        self.ambiguous_links = []  # (src_relpath, target)
         self.all_files = []
+        self._nodes_by_stem = defaultdict(list)
+        self._nodes_by_title = defaultdict(list)
+        self._relpaths_lower = {}
         self._build()
 
     def _should_exclude(self, path: Path) -> bool:
@@ -62,7 +67,29 @@ class VaultGraph:
             if self._should_exclude(f):
                 continue
             self.all_files.append(f)
-            self.nodes[f.stem] = f
+            relpath = f.relative_to(self.vault_path).as_posix()
+            self.nodes[relpath] = f
+            self._nodes_by_stem[f.stem].append(relpath)
+            self._relpaths_lower[relpath.lower()] = relpath
+
+        # Parse frontmatter titles for title-based wikilink resolution
+        import yaml
+        for f in self.all_files:
+            relpath = f.relative_to(self.vault_path).as_posix()
+            try:
+                text = f.read_text(encoding="utf-8", errors="replace")
+            except Exception:
+                continue
+            if text.startswith("---"):
+                parts = text.split("---", 2)
+                if len(parts) >= 3:
+                    try:
+                        fm = yaml.safe_load(parts[1]) or {}
+                        title = fm.get("title")
+                        if isinstance(title, str):
+                            self._nodes_by_title[title].append(relpath)
+                    except Exception:
+                        pass
 
         # Parse wikilinks
         for f in self.all_files:
@@ -70,28 +97,105 @@ class VaultGraph:
                 text = f.read_text(encoding="utf-8", errors="replace")
             except Exception:
                 continue
-            src_stem = f.stem
+            src_relpath = f.relative_to(self.vault_path).as_posix()
             for m in WL_RE.finditer(text):
-                target = m.group(1).strip()
-                if not target:
+                raw_target = m.group(1).strip()
+                if not raw_target:
                     continue
-                if target in self.nodes:
-                    self.edges[src_stem].add(target)
-                    self.backlinks[target].add(src_stem)
+                target = self._resolve_target(src_relpath, raw_target)
+                if target:
+                    self.edges[src_relpath].add(target)
+                    self.backlinks[target].add(src_relpath)
                 else:
-                    # Check if file exists with .md extension
-                    target_path = self.vault_path / f"{target}.md"
-                    if target_path.exists():
-                        self.edges[src_stem].add(target)
-                        self.backlinks[target].add(src_stem)
+                    self.broken_links.append((src_relpath, raw_target))
+
+    def _resolve_target(self, src_relpath: str, raw_target: str) -> Optional[str]:
+        """Resolve a wikilink target to a canonical relative path."""
+        raw_target = raw_target.strip()
+        if not raw_target:
+            return None
+
+        src_path = Path(src_relpath)
+        src_dir = src_path.parent
+
+        # 1. Path-prefixed wikilink (e.g. 07_SKILLS/amos-flow-canon/SKILL)
+        if "/" in raw_target:
+            rel_md = raw_target if raw_target.endswith(".md") else raw_target + ".md"
+            target_path = (self.vault_path / rel_md).resolve()
+            if target_path.is_file() and target_path.is_relative_to(self.vault_path.resolve()):
+                return target_path.relative_to(self.vault_path.resolve()).as_posix()
+            # case-insensitive fallback for case-insensitive filesystems
+            lower = rel_md.lower()
+            return self._relpaths_lower.get(lower)
+
+        def _pick(candidates: list[str]) -> Optional[str]:
+            if not candidates:
+                return None
+            if len(candidates) == 1:
+                return candidates[0]
+
+            # Prefer the candidate in the same directory as the source note.
+            same_dir = [c for c in candidates if Path(c).parent == src_dir]
+            if len(same_dir) == 1:
+                return same_dir[0]
+
+            # Prefer candidates under the same parent folder, then closest by
+            # longest common path prefix and shortest overall path length.
+            def score(c: str) -> tuple[int, int, int]:
+                c_parts = Path(c).parts
+                common = 0
+                for a, b in zip(src_path.parts, c_parts):
+                    if a == b:
+                        common += 1
                     else:
-                        self.broken_links.append((str(f.relative_to(self.vault_path)), target))
+                        break
+                # Extra points if the candidate is inside the source directory.
+                under_src = 1 if src_dir in Path(c).parents or Path(c).parent == src_dir else 0
+                return (under_src, common, -len(c_parts))
+
+            ranked = sorted(candidates, key=score, reverse=True)
+            best_score = score(ranked[0])
+            top = [c for c in ranked if score(c) == best_score]
+            if len(top) == 1:
+                return top[0]
+            return None  # still ambiguous
+
+        # 2. Title-based resolution
+        if raw_target in self._nodes_by_title:
+            picked = _pick(self._nodes_by_title[raw_target])
+            if picked:
+                return picked
+
+        # 3. Stem-based resolution
+        if raw_target in self._nodes_by_stem:
+            candidates = self._nodes_by_stem[raw_target]
+            picked = _pick(candidates)
+            if picked:
+                return picked
+            if len(candidates) > 1:
+                self.ambiguous_links.append((src_relpath, raw_target))
+                return None  # ambiguous stem (e.g. SKILL without a path)
+
+        # 4. Case-insensitive stem fallback
+        lower = raw_target.lower()
+        matched_stems = [s for s in self._nodes_by_stem if s.lower() == lower]
+        if len(matched_stems) == 1:
+            picked = _pick(self._nodes_by_stem[matched_stems[0]])
+            if picked:
+                return picked
+
+        # 5. Root-level file check
+        target_path = (self.vault_path / f"{raw_target}.md").resolve()
+        if target_path.exists() and target_path.is_file() and target_path.is_relative_to(self.vault_path.resolve()):
+            return target_path.relative_to(self.vault_path.resolve()).as_posix()
+
+        return None
 
     # ── Metrics ──────────────────────────────────────────────────────────────
 
     def orphans(self) -> list[str]:
         """Nodes with no incoming links (no backlinks)."""
-        return sorted([s for s in self.nodes if s not in self.backlinks or not self.backlinks[s]])
+        return sorted([relpath for relpath in self.nodes if not self.backlinks.get(relpath)])
 
     def hubs(self, top_n: int = 20) -> list[tuple[str, int]]:
         """Nodes ranked by incoming link count (PageRank-like)."""

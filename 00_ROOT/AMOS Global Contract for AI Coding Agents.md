@@ -17,7 +17,7 @@ tags:
 
 This note is the canonical vault entry point for the global AMOS coding-agent contract.
 
-The authoritative source lives at [[.github/copilot-instructions]] in the project root.
+The authoritative source lives at `copilot-instructions.md` in the project root.
 
 See also:
 - [[AGENTS|AMOS Agent Contract]]

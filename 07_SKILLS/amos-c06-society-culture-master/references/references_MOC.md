@@ -59,7 +59,7 @@ rscf:
 - [[vietnam_engines_model]]
 - [[vietnam_environment_report]]
 - [[vietnamese_fractal_logic_analysis]]
-- [[vietnamese_writing_engine]]
+- [vietnamese_writing_engine](vietnamese_writing_engine.md)
 - [[vietnamese_writing_model]]
 - [[vn_absolute_architecture]]
 - [[vn_governance_politics_pack]]
