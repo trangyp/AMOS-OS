@@ -149,6 +149,11 @@ rscf:
 - [[SYSTEM_MAP]]
 - [[SYSTEM_MAP_V1]]
 - [[TOTAL_CORPUS_COVERAGE]]
+- [[00_ROOT/README|Root README]]
+- [[19_TESTS/00_INDEX/README|Tests Index]]
+- [[17_OBSERVABILITY/00_INDEX/README|Observability Index]]
+- [[07_SKILLS/amos-knowledge-research-master/SKILL|Knowledge & Research Master]]
+- [[11_KNOWLEDGE/trang/Distinction → Constraint → Intelligence|Distinction → Constraint → Intelligence]]
 
 ## SOTA and Agent Contracts
 
