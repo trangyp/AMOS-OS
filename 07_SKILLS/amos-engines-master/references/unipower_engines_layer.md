@@ -201,7 +201,7 @@ Each Unipower engine maps to the AMOS omni-logic and can be orchestrated by the 
 
 - `_00_Cosmo brain/engine/A/AMOS Unipower Engines.md` — Full inventory with 20 engines
 - `_00_Cosmo brain/engine/A/AMOS Domain Engines.md` — 17 domain engines (preceding layer)
-- `_00_Cosmo brain/engine/A/AMOS Super Engines.md` — 5 Super Engines that unify all layers
+- `_00_Cosmo brain/engine/A/AMOS Engines Master.md` — 5 Super Engines that unify all layers
 
 ---
 - [[07_SKILLS_MOC]]

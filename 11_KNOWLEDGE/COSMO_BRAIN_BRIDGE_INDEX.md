@@ -359,7 +359,7 @@ rscf:
 - AMOS Scientific Kernel vInfinity — `docs/brain/AMOS Scientific Kernel vInfinity.md`
 - AMOS Species Interaction Core Engine — `docs/brain/AMOS Species Interaction Core Engine.md`
 - AMOS Species Interaction Core HIE — `docs/brain/AMOS Species Interaction Core HIE.md`
-- AMOS Super Engines — `docs/brain/AMOS Super Engines.md`
+- AMOS Engines Master — `docs/brain/AMOS Engines Master.md`
 - AMOS Super Kernel — Unified Meta-Orchestration Architecture — `docs/brain/AMOS Super Kernel — Unified Meta-Orchestration Architecture.md`
 - AMOS Tech Architecture Kernel SUPER vInfinity — `docs/brain/AMOS Tech Architecture Kernel SUPER vInfinity.md`
 - AMOS Tech Architecture Kernel vInfinity — `docs/brain/AMOS Tech Architecture Kernel vInfinity.md`
@@ -3742,7 +3742,7 @@ rscf:
 - AMOS Risk Compliance Engine vInfinity — `_00_Cosmo brain/engine/A/AMOS Risk Compliance Engine vInfinity.md`
 - AMOS SUPER Kernel and Engine — `_00_Cosmo brain/engine/A/AMOS SUPER Kernel and Engine.md`
 - AMOS Species Interaction Core Engine — `_00_Cosmo brain/engine/A/AMOS Species Interaction Core Engine.md`
-- AMOS Super Engines — `_00_Cosmo brain/engine/A/AMOS Super Engines.md`
+- AMOS Engines Master — `_00_Cosmo brain/engine/A/AMOS Engines Master.md`
 - AMOS Tech Design Engine vInfinity — `_00_Cosmo brain/engine/A/AMOS Tech Design Engine vInfinity.md`
 - AMOS Tech Engine V∞ — `_00_Cosmo brain/engine/A/AMOS Tech Engine V∞.md`
 - AMOS Total Technical Engine — Universe OS Master Architecture — `_00_Cosmo brain/engine/A/AMOS Total Technical Engine — Universe OS Master Architecture.md`

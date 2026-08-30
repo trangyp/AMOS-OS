@@ -709,7 +709,7 @@ rscf:
 | [`amos-strict-fractal-equation-rscf-registry`](../amos-strict-fractal-equation-rscf-registry/SKILL.md) | fractal | amos-fractal-systems-master | SOURCE_CLAIM | Strict Fractal Equation Rscf Registry — fractal systems capability. Use |
 | [`amos-structured-document-parsing-rscf`](../amos-structured-document-parsing-rscf/SKILL.md) | c10 | amos-c10-tech-engineering-master | SOURCE_CLAIM | Structured Document Parsing — technology and engineering capability. |
 | [`amos-structured-execution-graph-rscf`](../amos-structured-execution-graph-rscf/SKILL.md) | runtime | amos-os-runtime-master | SOURCE_CLAIM | Structured Execution Graph — runtime and OS capability. Use when runtime |
-| [`amos-engines-master`](../amos-engines-master/SKILL.md) | super | — | SOURCE_CANON | AMOS Super Engines — Super Mind OS, Omega Infinity Stack, ultra/mega/infinity |
+| [`amos-engines-master`](../amos-engines-master/SKILL.md) | super | — | SOURCE_CANON | AMOS Engines Master — Super Mind OS, Omega Infinity Stack, ultra/mega/infinity |
 | [`amos-symbolic-path-reasoning-rscf`](../amos-symbolic-path-reasoning-rscf/SKILL.md) | formal | amos-formal-engines-master | SOURCE_CLAIM | Symbolic Path Reasoning — formal verification capability. Use when formal |
 | [`amos-symbolic-translation-repair-rscf`](../amos-symbolic-translation-repair-rscf/SKILL.md) | audit | amos-audit-repair-master | SOURCE_CLAIM | Symbolic Translation Repair — audit and repair capability. Use when auditing, |
 | [`amos-system-completion-auditor`](../amos-system-completion-auditor/SKILL.md) | audit | amos-audit-repair-master | SOURCE_CLAIM | System Completion Auditor — audit and repair capability. Use when auditing, |

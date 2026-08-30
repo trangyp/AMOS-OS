@@ -3032,7 +3032,7 @@ Total size: 11,989,174 bytes (11.4 MB)
 - **SHA-256**: `9b9b08bf44c4d062...`
 
 ### amos-engines-master
-- **Description**: AMOS Super Engines — Super Mind OS, Omega Infinity Stack, ultra/mega/infinity...
+- **Description**: AMOS Engines Master — Super Mind OS, Omega Infinity Stack, ultra/mega/infinity...
 - **Version**: 1.1.0
 - **Domain**: super
 - **Parent**: none

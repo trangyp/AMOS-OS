@@ -1,5 +1,5 @@
 ---
-title: References MOC — References — Amos Super Engines Master
+title: References MOC — References — Amos Engines Master
 type: moc
 source: 07_SKILLS/amos-engines-master/references
 tags:

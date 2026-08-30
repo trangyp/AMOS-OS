@@ -5,7 +5,7 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-engines-master
 Agent: amos-engines-master-agent
-Trigger: AMOS Super Engines — Super Mind OS, Omega Infinity Stack, ultra/mega/infinity
+Trigger: AMOS Engines Master — Super Mind OS, Omega Infinity Stack, ultra/mega/infinity
   engine variants. Cognition + Emotion + Consciousness triad. Use for super-engine
   reasoning, consciousness emulation, or
 Version: 1.0.0
@@ -48,7 +48,7 @@ law_compliance:
 domain: super
 ---
 
-# Workflow: AMOS Super Engines Master
+# Workflow: AMOS Engines Master
 
 ## Identity
 
@@ -65,7 +65,7 @@ Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic clas
 
 ## Steps
 
-1. **Intake**: Identify the problem domain and confirm it matches the AMOS Super Engines Master scope.
+1. **Intake**: Identify the problem domain and confirm it matches the AMOS Engines Master scope.
    - Classify the query against the domain's sub-capabilities
    - Route to the appropriate section of the parent skill
 2. **Skill Invocation**: Load the `amos-engines-master` skill and its vault-sourced content.
@@ -91,7 +91,7 @@ Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic clas
 
 ## Operations
 
-1. **Intake**: Identify the problem domain and confirm it matches the AMOS Super Engines Master scope. - Classify the query against the domain's sub-capabilities - Route to the appropriate section of the parent skill
+1. **Intake**: Identify the problem domain and confirm it matches the AMOS Engines Master scope. - Classify the query against the domain's sub-capabilities - Route to the appropriate section of the parent skill
 2. **Skill Invocation**: Load the `amos-engines-master` skill and its vault-sourced content. - Read the canonical vault source: `05_COGNITIVE_ORGANISM/COGNITIVE_ORGANISM_CANON.md` - Identify which sub-domain is most relevant
 3. **Decomposition**: Break the problem into components using the domain's framework. - Apply MECE decomposition within the domain - Identify which sub-skills are relevant
 4. **Application**: Apply the domain's equations, algorithms, or frameworks. - Use the appropriate knowledge family within the domain - Tag every equation with its epistemic status (SOURCE_CANON / AMOS_MODEL)
@@ -101,7 +101,7 @@ Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic clas
 
 ## Validation Gates
 
-- **G1 (Intake)**: Problem domain confirmed within AMOS Super Engines Master scope.
+- **G1 (Intake)**: Problem domain confirmed within AMOS Engines Master scope.
 - **G2 (Decomposition)**: Components are MECE and traceable to domain framework.
 - **G3 (Application)**: Equations/algorithms carry correct epistemic status tags.
 - **G4 (Validation)**: Results pass Law of Law, Rule of 2, Rule of 4 checks.
@@ -109,7 +109,7 @@ Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic clas
 
 ## Failure Paths
 
-- **Scope mismatch**: If problem is outside AMOS Super Engines Master scope, route to matching domain master or escalate.
+- **Scope mismatch**: If problem is outside AMOS Engines Master scope, route to matching domain master or escalate.
 - **Validation failure**: Downgrade confidence, flag the gap, and escalate — do not force-fit.
 - **Missing dependency**: If a required cross-domain skill is unavailable, halt and report.
 - **Epistemic overreach**: If a claim exceeds its evidence class, downgrade to UNVERIFIED.

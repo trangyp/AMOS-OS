@@ -1,5 +1,5 @@
 ---
-title: AGENT TEMPLATE — Amos Super Engines Master
+title: AGENT TEMPLATE — Amos Engines Master
 type: note
 source: 07_SKILLS/amos-engines-master
 tags:
@@ -17,7 +17,7 @@ rscf:
 # Agent Template: amos-engines-master
 
 ## Role
-Domain master agent for AMOS Super Engines Master. Consolidates 8 sub-skills.
+Domain master agent for AMOS Engines Master. Consolidates 8 sub-skills.
 
 ## Capabilities
 - Apply amos super engines master reasoning across all sub-domains

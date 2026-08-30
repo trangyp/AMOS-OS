@@ -13,32 +13,32 @@
   "capabilities": [
     {
       "name": "super_engines.design_inference_loop",
-      "description": "Execute the AMOS Super Engines governed perception-belief-action loop with evidence, uncertainty, authority, and safety bounds.",
+      "description": "Execute the AMOS Engines Master governed perception-belief-action loop with evidence, uncertainty, authority, and safety bounds.",
       "side_effect": "write"
     },
     {
       "name": "super_engines.validate_governance",
-      "description": "Validate AMOS Super Engines outputs against governance gates: constraint, authority, safety, policy, scope, evidence, reversibility.",
+      "description": "Validate AMOS Engines Master outputs against governance gates: constraint, authority, safety, policy, scope, evidence, reversibility.",
       "side_effect": "read"
     },
     {
       "name": "super_engines.analyze_belief_state",
-      "description": "Analyze AMOS Super Engines belief state: competing hypotheses, uncertainty vector, prediction error, and evidence basis.",
+      "description": "Analyze AMOS Engines Master belief state: competing hypotheses, uncertainty vector, prediction error, and evidence basis.",
       "side_effect": "read"
     },
     {
       "name": "super_engines.trace_inference_provenance",
-      "description": "Trace AMOS Super Engines outputs to observations, evidence, prediction model, and RSCF provenance chain.",
+      "description": "Trace AMOS Engines Master outputs to observations, evidence, prediction model, and RSCF provenance chain.",
       "side_effect": "read"
     },
     {
       "name": "super_engines.assess_inference_claim",
-      "description": "Assess AMOS Super Engines claims for epistemic class (AMOS_MODEL not BIOLOGICAL_PROOF), evidence strength, and falsifier availability.",
+      "description": "Assess AMOS Engines Master claims for epistemic class (AMOS_MODEL not BIOLOGICAL_PROOF), evidence strength, and falsifier availability.",
       "side_effect": "read"
     },
     {
       "name": "super_engines.manage_loop_lifecycle",
-      "description": "Manage AMOS Super Engines loop lifecycle: observe, infer, compare, generate, govern, select, act, measure, update, stop.",
+      "description": "Manage AMOS Engines Master loop lifecycle: observe, infer, compare, generate, govern, select, act, measure, update, stop.",
       "side_effect": "write"
     },
     {
@@ -48,7 +48,7 @@
     },
     {
       "name": "super_engines.escalate_inference_gaps",
-      "description": "Escalate AMOS Super Engines gaps: FREEZE on unresolved validation, preserve competing hypotheses, trigger discriminating evidence.",
+      "description": "Escalate AMOS Engines Master gaps: FREEZE on unresolved validation, preserve competing hypotheses, trigger discriminating evidence.",
       "side_effect": "write"
     },
     {
@@ -133,7 +133,7 @@
     "class": null,
     "executable": true
   },
-  "content_hash": "d09373747f22cc7f",
+  "content_hash": "b77971c031577aa0",
   "version": "1.1.0",
   "reasoning_pattern": "Plan-Execute",
   "termination_criteria": {

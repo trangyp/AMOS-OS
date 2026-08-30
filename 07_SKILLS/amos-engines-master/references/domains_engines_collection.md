@@ -177,7 +177,7 @@ The 17 domain engines form the **application layer** of AMOS. They consume the c
 ## Related Vault Sources
 
 - `_00_Cosmo brain/engine/A/AMOS Domain Engines.md` — Full inventory with 17 engines
-- `_00_Cosmo brain/engine/A/AMOS Super Engines.md` — 5 Super Engines that unify domain engines
+- `_00_Cosmo brain/engine/A/AMOS Engines Master.md` — 5 Super Engines that unify domain engines
 - `_00_Cosmo brain/engine/A/AMOS Unipower Engines.md` — 20 Unipower engines (country/sector layer)
 
 ---

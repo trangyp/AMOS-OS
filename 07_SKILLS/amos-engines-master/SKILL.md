@@ -1,10 +1,10 @@
 ---
 schema_version: 1.0
-title: SKILL — Amos Super Engines Master
+title: SKILL — Amos Engines Master
 type: skill
 source: 07_SKILLS/amos-engines-master
 name: amos-engines-master
-description: AMOS Super Engines — Super Mind OS, Omega Infinity Stack, ultra/mega/infinity
+description: AMOS Engines Master — Super Mind OS, Omega Infinity Stack, ultra/mega/infinity
   engine variants. Cognition + Emotion + Consciousness triad. Use when super-engine
   reasoning, consciousness emulation, or. Do not use for generic tasks outside super
   domain.
@@ -77,28 +77,28 @@ A parent skill with clearly labeled sections is better than 8 separate shallow s
 
 ## Capabilities
 
-- **super_engines.design_inference_loop**: Execute the AMOS Super Engines governed perception-belief-action loop with evidence, uncertainty, authority, and safety bounds.
-- **super_engines.validate_governance**: Validate AMOS Super Engines outputs against governance gates: constraint, authority, safety, policy, scope, evidence, reversibility.
-- **super_engines.analyze_belief_state**: Analyze AMOS Super Engines belief state: competing hypotheses, uncertainty vector, prediction error, and evidence basis.
-- **super_engines.trace_inference_provenance**: Trace AMOS Super Engines outputs to observations, evidence, prediction model, and RSCF provenance chain.
-- **super_engines.assess_inference_claim**: Assess AMOS Super Engines claims for epistemic class (AMOS_MODEL not BIOLOGICAL_PROOF), evidence strength, and falsifier availability.
-- **super_engines.manage_loop_lifecycle**: Manage AMOS Super Engines loop lifecycle: observe, infer, compare, generate, govern, select, act, measure, update, stop.
+- **super_engines.design_inference_loop**: Execute the AMOS Engines Master governed perception-belief-action loop with evidence, uncertainty, authority, and safety bounds.
+- **super_engines.validate_governance**: Validate AMOS Engines Master outputs against governance gates: constraint, authority, safety, policy, scope, evidence, reversibility.
+- **super_engines.analyze_belief_state**: Analyze AMOS Engines Master belief state: competing hypotheses, uncertainty vector, prediction error, and evidence basis.
+- **super_engines.trace_inference_provenance**: Trace AMOS Engines Master outputs to observations, evidence, prediction model, and RSCF provenance chain.
+- **super_engines.assess_inference_claim**: Assess AMOS Engines Master claims for epistemic class (AMOS_MODEL not BIOLOGICAL_PROOF), evidence strength, and falsifier availability.
+- **super_engines.manage_loop_lifecycle**: Manage AMOS Engines Master loop lifecycle: observe, infer, compare, generate, govern, select, act, measure, update, stop.
 - **super_engines.detect_loop_drift**: Detect inference drift: goal drift, authority drift, proxy optimization, confirmation loop, and belief overconfidence.
-- **super_engines.escalate_inference_gaps**: Escalate AMOS Super Engines gaps: FREEZE on unresolved validation, preserve competing hypotheses, trigger discriminating evidence.
+- **super_engines.escalate_inference_gaps**: Escalate AMOS Engines Master gaps: FREEZE on unresolved validation, preserve competing hypotheses, trigger discriminating evidence.
 - **super_engines.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **super_engines.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **super_engines.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## Operations
 
-1. **super_engines.design_inference_loop**: Execute the AMOS Super Engines governed perception-belief-action loop with evidence, uncertainty, authority, and safety bounds.
-2. **super_engines.validate_governance**: Validate AMOS Super Engines outputs against governance gates: constraint, authority, safety, policy, scope, evidence, reversibility.
-3. **super_engines.analyze_belief_state**: Analyze AMOS Super Engines belief state: competing hypotheses, uncertainty vector, prediction error, and evidence basis.
-4. **super_engines.trace_inference_provenance**: Trace AMOS Super Engines outputs to observations, evidence, prediction model, and RSCF provenance chain.
-5. **super_engines.assess_inference_claim**: Assess AMOS Super Engines claims for epistemic class (AMOS_MODEL not BIOLOGICAL_PROOF), evidence strength, and falsifier availability.
-6. **super_engines.manage_loop_lifecycle**: Manage AMOS Super Engines loop lifecycle: observe, infer, compare, generate, govern, select, act, measure, update, stop.
+1. **super_engines.design_inference_loop**: Execute the AMOS Engines Master governed perception-belief-action loop with evidence, uncertainty, authority, and safety bounds.
+2. **super_engines.validate_governance**: Validate AMOS Engines Master outputs against governance gates: constraint, authority, safety, policy, scope, evidence, reversibility.
+3. **super_engines.analyze_belief_state**: Analyze AMOS Engines Master belief state: competing hypotheses, uncertainty vector, prediction error, and evidence basis.
+4. **super_engines.trace_inference_provenance**: Trace AMOS Engines Master outputs to observations, evidence, prediction model, and RSCF provenance chain.
+5. **super_engines.assess_inference_claim**: Assess AMOS Engines Master claims for epistemic class (AMOS_MODEL not BIOLOGICAL_PROOF), evidence strength, and falsifier availability.
+6. **super_engines.manage_loop_lifecycle**: Manage AMOS Engines Master loop lifecycle: observe, infer, compare, generate, govern, select, act, measure, update, stop.
 7. **super_engines.detect_loop_drift**: Detect inference drift: goal drift, authority drift, proxy optimization, confirmation loop, and belief overconfidence.
-8. **super_engines.escalate_inference_gaps**: Escalate AMOS Super Engines gaps: FREEZE on unresolved validation, preserve competing hypotheses, trigger discriminating evidence.
+8. **super_engines.escalate_inference_gaps**: Escalate AMOS Engines Master gaps: FREEZE on unresolved validation, preserve competing hypotheses, trigger discriminating evidence.
 9. **super_engines.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 10. **super_engines.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 11. **super_engines.validate_outputs**: Validate outputs against domain constraints and epistemic class.

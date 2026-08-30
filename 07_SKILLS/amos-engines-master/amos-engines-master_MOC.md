@@ -1,5 +1,5 @@
 ---
-title: Amos-Super-Engines-Master MOC
+title: Amos-Engines-Master MOC
 type: moc
 source: 07_SKILLS/amos-engines-master
 tags:
@@ -15,7 +15,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# Amos-Super-Engines-Master — Map of Content
+# Amos-Engines-Master — Map of Content
 
 **Path:** `07_SKILLS/amos-engines-master`
 **Files:** 2 | **Subdirectories:** 2

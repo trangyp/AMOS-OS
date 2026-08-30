@@ -152,7 +152,7 @@ Physical, Biological, Cognitive, Social, Digital.
 
 ## Related Vault Sources
 
-- `_00_Cosmo brain/engine/A/AMOS Super Engines.md` — 5 Super Engines full spec
+- `_00_Cosmo brain/engine/A/AMOS Engines Master.md` — 5 Super Engines full spec
 - `_00_Cosmo brain/engine/A/AMOS SUPER Kernel and Engine.md` — Super Kernel and Super Engine spec
 - `_00_Cosmo brain/engine/A/AMOS Domain Engines.md` — 17 domain engine inventory
 - `_00_Cosmo brain/engine/A/AMOS Unipower Engines.md` — 20 unipower engine inventory
