@@ -52,3 +52,5 @@ RSCF-RELATIONS:
 
 ---
 **Skill:** [[SKILL]]
+
+**Reference Knowledge:** [[vault_domain_knowledge]]

@@ -37,4 +37,6 @@ rscf:
 ---
 **Skill:** [[SKILL]]
 
+**Agent Template:** [[AGENT_TEMPLATE]]
+
 **Parent:** [[07_SKILLS_MOC]]

@@ -379,3 +379,5 @@ rscf:
 
 ---
 **Parent:** [[AMOS_HOME]]
+- [[07_SKILLS/amos-llm-wiki/SKILL|amos-llm-wiki]]
+- [[07_SKILLS/kimi-k3-in-c/SKILL|kimi-k3-in-c]]

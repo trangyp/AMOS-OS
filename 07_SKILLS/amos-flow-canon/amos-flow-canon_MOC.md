@@ -35,4 +35,6 @@ rscf:
 ---
 **Skill:** [[SKILL]]
 
+**References:** [[references]]
+
 **Parent:** [[07_SKILLS_MOC]]
