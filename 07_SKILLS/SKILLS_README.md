@@ -50,7 +50,7 @@ Every SKILL.md MUST include a "## 7-Part Mapping" section:
 | VI — Adaptation | <skill names> | <FILLED/EMPTY> |
 | VII — Termination | <skill names> | <FILLED/EMPTY> |
 
-## Known Skills (699 SOTA-compliant SKILL.md packages in .devin/skills/)
+## Known Skills (682 SOTA-compliant SKILL.md packages in .devin/skills/)
 
 The full canonical inventory is in `SkillIndex.md` and `skill-catalog.md`. A few representative examples:
 

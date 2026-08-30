@@ -53,10 +53,10 @@ Three skill/knowledge systems — now fully consistent:
 
 | System | Location | Count | Status |
 |--------|----------|-------|--------|
-| Devin skills | `.devin/skills/` | 699 | 100% SOTA-compliant — 0 critical failures, 0 warnings; 24 roots, 45 domains, 66 families in `SKILL_TREE.json`; quantum/fractal/math and SOTA agent-skill registry skills fully covered |
+| Devin skills | `.devin/skills/` | 682 | 100% SOTA-compliant — 0 critical failures, 0 warnings; 24 roots, 45 domains, 66 families in `SKILL_TREE.json`; quantum/fractal/math and SOTA agent-skill registry skills fully covered |
 | Hermes skills | `~/.hermes/skills/` | 2029 | (Pre-bulk-conversion snapshot; resync required) |
-| Devin agents | `.devin/agents/` | 726 | 726/726 JSON agents valid; 0 broken dependencies; consistent `amos-{name}-agent.json` naming; SOTA repo agents (AIOS, Addy Osmani, Anthropic, Tech Leads Club, ivanzwb) integrated |
-| Devin workflows | `.devin/workflows/` | 699 | 699/699 workflows pass validation with 0 errors, 0 warnings; 1 master index + operational workflows (MD); consistent `amos-*` naming |
+| Devin agents | `.devin/agents/` | 709 | 709/709 JSON agents valid; 0 broken dependencies; consistent `amos-{name}-agent.json` naming; SOTA repo agents (AIOS, Addy Osmani, Anthropic, Tech Leads Club, ivanzwb) integrated |
+| Devin workflows | `.devin/workflows/` | 682 | 682/682 workflows pass validation with 0 errors, 0 warnings; 1 master index + operational workflows (MD); consistent `amos-*` naming |
 | Obsidian vault | `.obsidian/` + `docs/` | 21 config, 10 MOCs, 22 ref docs, 15 canvases | Health check: all pass |
 
 **Bulk conversion (2026-08-24) — COMPLETE:**
@@ -444,30 +444,30 @@ Select specialized skills only when relevant:
 - `amos-human-systems-engine`: 8-layer HSE (human→team→org→market→infra→power→risk→prediction), 27 archetypes, A/B/C/D types, Vietnam-specific risks. Use for human systems analysis.
 - `amos-floating-economy`: Market structure analysis — TFI/COFI standards body, 5 market tactics (Banner, Frameworks, Data, Partners, Community). Use for market positioning strategy.
 
-## AMOS Agents (726 in .devin/agents/ — SOTA canonical)
+## AMOS Agents (709 in .devin/agents/ — SOTA canonical)
 
-Current canonical count: **726 JSON agents** in `.devin/agents/`.
+Current canonical count: **709 JSON agents** in `.devin/agents/`.
 
-- 726/726 JSON agents valid; 0 broken dependencies.
+- 709/709 JSON agents valid; 0 broken dependencies.
 - Naming: `amos-{name}-agent.json`.
 - SOTA repo agents (AIOS, Addy Osmani, Anthropic, Tech Leads Club, ivanzwb) integrated.
 - For the authoritative list and per-agent manifests, see `skill-catalog.md` and `.devin/agents/`.
 
-## AMOS Workflows (699 in .devin/workflows/ — SOTA canonical)
+## AMOS Workflows (682 in .devin/workflows/ — SOTA canonical)
 
-Current canonical count: **699 workflow definitions** in `.devin/workflows/`.
+Current canonical count: **682 workflow definitions** in `.devin/workflows/`.
 
-- 699/699 workflows pass validation with 0 errors and 0 warnings.
+- 682/682 workflows pass validation with 0 errors and 0 warnings.
 - Consistent `amos-*` naming; 1 master index + operational workflows.
 - For the authoritative list, see `.devin/workflows/` and `amos-wf-master-index-workflow-workflow.md`.
 
 ## AMOS Agent Systems
 
-All 726 agents are classified by the 8 canonical systems (BRAIN, EXECUTION, LEGAL, LIFE, MONEY, SENSE, WORLD_MODEL, plus Specialized/Research/Domain). Per-agent manifests live in `.devin/agents/`.
+All 709 agents are classified by the 8 canonical systems (BRAIN, EXECUTION, LEGAL, LIFE, MONEY, SENSE, WORLD_MODEL, plus Specialized/Research/Domain). Per-agent manifests live in `.devin/agents/`.
 
-## AMOS Skills (699 SOTA-compliant packages)
+## AMOS Skills (682 SOTA-compliant packages)
 
-Current canonical count: **699 `SKILL.md` packages** in `.devin/skills/`.
+Current canonical count: **682 `SKILL.md` packages** in `.devin/skills/`.
 
 - 0 critical failures, 0 warnings; 100% progressive-loading pass.
 - 24 root master skills, 45 domains, 66 families indexed in `SKILL_TREE.json`.
