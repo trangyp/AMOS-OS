@@ -2810,7 +2810,7 @@ The actual authoritative index resolver does not resolve by basename within its 
 
 ### F5 — Cross-plane contradiction
 
-Authoritative canon establishes a cross-plane route incompatible with `[[00_HOME` / `[[AMOS_RSCF_NODES]]`.
+Authoritative canon establishes a cross-plane route incompatible with `[[00_HOME]]` / `[[AMOS_RSCF_NODES]]`.
 
 ---
 
