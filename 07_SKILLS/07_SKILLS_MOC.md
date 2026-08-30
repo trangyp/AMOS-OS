@@ -30,6 +30,7 @@ rscf:
 - [[SKILLS_SKILL_CONTRACT]]
 - [[SKILL_NAMING_AUDIT]]
 - [[SKILL_RENAME_MANIFEST]]
+- [[references_MOC]]
 
 ## Subdirectories
 

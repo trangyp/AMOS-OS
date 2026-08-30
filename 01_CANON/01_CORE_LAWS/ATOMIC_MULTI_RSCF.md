@@ -4304,7 +4304,11 @@ THE MISSING CURRENT KERNEL BODY
 - [[P7_EVOLUTION_LEARNING]] — Governed learning & mutation limits
 
 ### Cognitive Matrix & Registries
+- [[25_COGNITIVE_MATRIX_MOC]] — 25 Cognitive Matrix Map of Content
 - [[COGNITIVE_MATRIX_README]] — Multi-dimensional conceptual routing
+- [[RSCF_X_GMEF]] — Non-compensatory evolutionary debt matrix
+- [[REALITY_X_RSCF_MATRIX]] — Reality to RSCF projection matrix
+- [[09_COMMIT_MOC]] — Strategy & Commit Control Plane
 - [[AMOS_RSCF_INDEX]] — Master index of RSCF nodes
 - [[CANON_CLAIM_REGISTRY]] — Canonical claim ledger
 - [[UBI_CLAIM_REGISTRY]] — Biological intelligence claims

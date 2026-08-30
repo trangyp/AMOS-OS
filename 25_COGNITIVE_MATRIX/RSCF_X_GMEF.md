@@ -239,10 +239,13 @@ PROPOSED SYSTEM MUTATION (μ)       RSCF INVARIANT AUDITOR            COMMIT / R
 
 • Code / Prompt / Skill Change     • Validates proof preservation    • Emits signed evolution
 • Structural re-weighting            and non-compensatory debt         receipt or triggers S₀
-
 ```
 
 ---
 
-**MOC:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]
+**MOC:** [[25_COGNITIVE_MATRIX_MOC]] · [[00_HOME]] · [[01_CORE_LAWS_MOC]]
+
+---
+
+**Related:** [[L17_RSCF]] · [[L18_GMEF]] · [[ATOMIC_MULTI_RSCF]] · [[K_ATOMIC_MULTI_RSCF]] · [[ROLLBACK_AND_RECOVERY_BASINS]] · [[L10_FAILURE_RECOVERY]]
 
