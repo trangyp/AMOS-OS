@@ -74,7 +74,9 @@ This is the same governance shape applied repeatedly: find a domain where SOURCE
 
 I have successfully implemented the **AMOS Ground-Truth Core** - the complete Python implementation skeleton for the five missing components that give AMOS actual ground truth about itself instead of only structure.
 
-### **Core Laws Implemented** ```python
+### **Core Laws Implemented**
+
+```python
 # The system enforces this hierarchy through verification
 if not is_available:
  issues.append("Capability not available")

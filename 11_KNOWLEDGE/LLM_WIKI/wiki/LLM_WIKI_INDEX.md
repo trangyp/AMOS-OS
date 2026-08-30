@@ -31,6 +31,7 @@ Content catalog for the AMOS LLM Wiki. Updated on every ingest, query, and lint.
 | [[karpathy_llm_wiki_summary]] | Karpathy's LLM Wiki pattern, adapted for AMOS | 1 |
 | [[SOTA_AGENT_SKILL_WORKFLOW_REPOS_2026_08_25]] | Raw capture of SOTA agent, skill and workflow repos | 2 |
 | [[ZJUNLP_SKILLNET_README_2026_08_30]] | zjunlp/SkillNet README, re-fetched for AMOS trial | 1 |
+| [[ZIMA_TOP10_AGENT_SKILLS_GITHUB_2026_08_30]] | Zima top-10 trending open-source AI agent skills (July 21-26, 2026) | 1 |
 
 ## Concepts
 

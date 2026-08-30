@@ -178,7 +178,7 @@ rscf:
 ## SOTA and Agent Contracts
 
 - [[AGENT_SKILLS_STANDARD_README_2026_08_30|Agent Skills]]
-- [[copilot-instructions|AMOS Global Contract for AI Coding Agents]]
+- [[AMOS Global Contract for AI Coding Agents]]
 
 ## Subdirectories
 

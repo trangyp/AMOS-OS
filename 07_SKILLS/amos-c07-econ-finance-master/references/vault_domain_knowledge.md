@@ -383,7 +383,17 @@ Analytical decision support only:
 The QFS stage model:
 
 ```text
-1. DECOMPOSE     request into hori
+1. DECOMPOSE     request into horizons × systems × constraints
+2. FAN-OUT       enumerate what-if branches (rate paths, regime shifts, liquidity states)
+                 — evaluate ALL branches before any collapse
+3. ENTANGLE      map co-varying positions/assets; shared-factor clusters flagged
+4. COLLAPSE      select branch by declared criteria; tag assumptions,
+                 confidence ceiling ≤ 0.95, risk level
+5. GOVERN        Rule-of-2 dual frame (bull/bear), Rule-of-4 quadrant impact,
+                 no-advice disclaimer attached
+```
+
+**Class:** MODEL — an orchestration metaphor, not a claim that markets are quantum-mechanical.
 
 
 ## Vault-Sourced Domain Content

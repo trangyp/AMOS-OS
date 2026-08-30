@@ -3,7 +3,7 @@ epoch: 1788000810000
 mode: agent
 backendId: opencode
 sessionId: "ses_fb2d907d1ffeP9bVxwp518vQUt"
-usage: '{"usedTokens":130448,"contextWindow":200000,"updatedAt":1788015185790}'
+usage: '{"usedTokens":134649,"contextWindow":200000,"updatedAt":1788056008016}'
 tags:
   - copilot-conversation
 ---
@@ -949,8 +949,60 @@ I see. Note `Templates_MOC.md` has `type: moc` and tag `templates-moc`. Note the
 Let me edit both templates.
 
 Templates fixed. Now let me run the migration on the full vault with a timestamped backup basin, then verify.
-
-
-
-
 [Timestamp: 2026/08/29 21:53:06]
+
+**user**: continue
+[Timestamp: 2026/08/30 00:06:31]
+
+**ai**: Zero frontmatter regressions across all 6,943 written files, and `moc: true` is now on 1,064 genuine MOC files. The pass-2 migration is complete and verified.
+
+Let me update the todos and give you a consolidated completion report covering both passes.
+
+# Pass 2 complete — verified clean
+
+## What ran
+Applied to the full vault with rollback basin at `scripts/.tagmigrate2-backup-20260829-220939/` (6,979 `.bak` snapshots — original of every written file).
+
+## Results (verified)
+
+| Target family | Before | After |
+|---|---|---|
+| `*-moc` (691 distinct tags) | 18,770 | **0** |
+| `00-*` (incl. `00-home`, `00-root-moc`) | ~9,000 | **0** |
+| `index-*` | ~495 | **0** |
+| `amos-rscf-nodes` | 3,726 | **0** |
+
+**Information preserved as properties/links instead of tags:**
+- `moc: true` added to **1,064** genuine MOC files (calibrated by `type: moc` + `_MOC`/`MOC` filename)
+- Root/MOC relationships already live in `[[...MOC]]` wikilinks and `RSCF-RELATIONS` — graph behavior preserved
+- Fixed the two **templates** (`Templates/linked-note.md`, `Templates/Templates_MOC.md`) that were re-emitting these graph tags, so new notes won't re-drift
+
+## Integrity
+- **0 frontmatter regressions** across all 6,943 written files (verified against backups)
+- Out-of-scope families deliberately untouched (`-readme`/`-map`/`-contract`/`-registry` still present, as recorded)
+
+## Cumulative state (both passes)
+
+| Metric | Original | Now |
+|---|---|---|
+| Distinct tag values | 6,784 | **7,270** (incl. untouched deep families) |
+| `type/*` vs `canon/*` collisions | collapsed | single owner |
+| separator drift (`_`, case) | massive | canonical |
+| `.md` filename-leak tags | 160+ | **0** |
+| `*-moc` / `00-*` / `index-*` graph noise | ~28k | **0** |
+
+## Artifacts (all in vault)
+- `16_SCHEMAS/TAG_VOCABULARY.md` — full proposal: canonical namespaces + Pass 1 map + Pass 2 (Option A) plan
+- `scripts/tag_migrate.py` — Pass 1 tool (collision/rename)
+- `scripts/tag_migrate_props.py` — Pass 2 tool (graph-tags→properties)
+- Rollback basins: `scripts/.tagmigrate-backup-20260829-194226/` and `scripts/.tagmigrate2-backup-20260829-220939/`
+
+## Honest caveats
+1. **Obsidian graph view** may need a filter reconfiguration — it was drawing cluster edges from the removed tags. It now needs to read `moc: true`/links/properties instead. I can draft the `.obsidian/graph.json` filter update if you want.
+2. **Working tree is heavily modified** (both passes touched ~13k file-edits total across ~7k+ files). If you want a clean git checkpoint, I can snapshot the pre-migration state as a commit — but I'll only do that on explicit request.
+3. **Remaining families** for a potential Pass 3, untouched: `lNN` (law-gate vs matrix-layer collision), and `-readme`/`-map`/`-contract`/`-registry`/`-canon` suffix-folds into `type:`. These were deliberately deferred.
+
+---
+
+Do you want me to **draft the Obsidian graph-filter update** (so the graph doesn't silently change behavior), **snapshot a git commit** of the pre-migration state for clean rollback, or **stop here**? Any of those I'll do on your word.
+[Timestamp: 2026/08/30 00:06:31]
