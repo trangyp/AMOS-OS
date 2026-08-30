@@ -32,7 +32,7 @@ rscf:
 
 ---
 ---
-**References MOC:** [[references/references_MOC]]
+**References MOC:** [[07_SKILLS/spreadsheets/references/references_MOC|references_MOC]]
 
 ---
 **Skill:** [[07_SKILLS/amos-c01-meta-logic-master/SKILL|SKILL]]

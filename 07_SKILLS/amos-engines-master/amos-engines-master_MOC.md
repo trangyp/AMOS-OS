@@ -91,7 +91,7 @@ updated: 2026-08-30
 ---
 
 ---
-**References MOC:** [[references/references_MOC]]
+**References MOC:** [[07_SKILLS/spreadsheets/references/references_MOC|references_MOC]]
 
 ---
 **Skill:** [[07_SKILLS/amos-engines-master/SKILL|SKILL]]

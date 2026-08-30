@@ -101,7 +101,7 @@ $$\text{Commit}(\mathbb{T}) = 0 \implies \text{Rollback}(\mathbb{T}) \land \text
 
 ## 4. Relationship to Core Laws & Canon
 
-- Canonical Redirect: **[[ATOMIC_MULTI_RSCF]]**
+- Canonical Redirect: **[[scripts/.tagmigrate17-backup-20260830-182230/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]]**
 - Direct Law Invariant: **[[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]]** · **[[01_CANON/01_CORE_LAWS/L10_FAILURE_RECOVERY|L10_FAILURE_RECOVERY]]** · **[[01_CANON/01_CORE_LAWS/L17_RSCF|L17_RSCF]]**
 - Concurrency & Epochs: **[[02_KERNEL/K_MVCC|K_MVCC]]** · **[[02_KERNEL/K_CAS|K_CAS]]** · **[[01_CANON/01_CORE_LAWS/L23_MVCC_CAS|L23_MVCC_CAS]]** · **[[01_CANON/01_CORE_LAWS/L24_CAUSAL_EPOCH|L24_CAUSAL_EPOCH]]**
 - Recovery Basins: **[[01_CANON/01_CORE_LAWS/ROLLBACK_AND_RECOVERY_BASINS|ROLLBACK_AND_RECOVERY_BASINS]]**

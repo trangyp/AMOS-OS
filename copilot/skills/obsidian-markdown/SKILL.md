@@ -51,8 +51,8 @@ Prefix a wikilink with <code>!</code>:
 ~~~markdown
 !Note Name
 !Note Name > Heading
-![[image.png|300]]
-![[document.pdf#page=3]]
+![[11_KNOWLEDGE/stubs/image.png|300]]
+![[11_KNOWLEDGE/stubs/document.pdf#page=3|document.pdf]]
 ~~~
 
 See [Embeds](references/EMBEDS.md) for media, PDF, and query forms.
@@ -97,4 +97,4 @@ Adapted from <code>kepano/obsidian-skills</code> at revision
 
 ---
 
-**MOC:** [[00_ROOT_MOC]] · [[00_HOME]]
+**MOC:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

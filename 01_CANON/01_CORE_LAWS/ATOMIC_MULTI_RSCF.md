@@ -54,7 +54,7 @@ See canonical kernel:
 The redirect relationship is:
 
 ```text
-[[ATOMIC_MULTI_RSCF]]
+[[scripts/.tagmigrate17-backup-20260830-182230/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]]
         |
         | REDIRECTS_TO
         v
@@ -1362,7 +1362,7 @@ The associated validation receipt node is:
 Conceptually:
 
 ```text
-[[ATOMIC_MULTI_RSCF]]
+[[scripts/.tagmigrate17-backup-20260830-182230/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]]
         |
         v
 [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
@@ -3617,13 +3617,13 @@ REQUIRES CURRENT KERNEL
 A consumer encountering:
 
 ```text
-[[ATOMIC_MULTI_RSCF]]
+[[scripts/.tagmigrate17-backup-20260830-182230/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]]
 ```
 
 should resolve:
 
 ```text
-[[ATOMIC_MULTI_RSCF]]
+[[scripts/.tagmigrate17-backup-20260830-182230/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]]
         |
         v
 [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
@@ -4155,7 +4155,7 @@ SPEED.
                [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
                         |
                         v
-             [[ATOMIC_MULTI_RSCF]]
+             [[scripts/.tagmigrate17-backup-20260830-182230/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]]
                         |
                         | REDIRECTS_TO
                         v
@@ -4304,12 +4304,18 @@ THE MISSING CURRENT KERNEL BODY
 - [[01_CANON/02_UNIVERSE_CANON/P7_EVOLUTION_LEARNING|P7_EVOLUTION_LEARNING]] — Governed learning & mutation limits
 
 ### Cognitive Matrix & Registries
+- [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] — Computational Kernel ALU for Atomic Multi-RSCF
 - [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]] — 25 Cognitive Matrix Map of Content
 - [[25_COGNITIVE_MATRIX/COGNITIVE_MATRIX_README|COGNITIVE_MATRIX_README]] — Multi-dimensional conceptual routing
 - [[25_COGNITIVE_MATRIX/RSCF_X_GMEF|RSCF_X_GMEF]] — Non-compensatory evolutionary debt matrix
 - [[25_COGNITIVE_MATRIX/REALITY_X_RSCF_MATRIX|REALITY_X_RSCF_MATRIX]] — Reality to RSCF projection matrix
 - [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]] — Strategy & Commit Control Plane
 - [[11_KNOWLEDGE/03_RSCF/AMOS_RSCF_INDEX|AMOS_RSCF_INDEX]] — Master index of RSCF nodes
+- [[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC|03_RSCF_MOC]] — 03_RSCF Sub-plane Map of Content
+- [[11_KNOWLEDGE/03_RSCF/TSS_TPE_RSCF_INDEX|TSS_TPE_RSCF_INDEX]] — TSS & TPE RSCF Claim and Proof Index
+- [[11_KNOWLEDGE/03_RSCF/QLS_QCLA_RSCF_INDEX|QLS_QCLA_RSCF_INDEX]] — Quantum Logic Scaffold & Causality RSCF Index
+- [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/06_DOMAIN_KNOWLEDGE_MOC|06_DOMAIN_KNOWLEDGE_MOC]] — Domain Knowledge Map of Content
+- [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/HERITAGE_PATTERN_SYSTEMS|HERITAGE_PATTERN_SYSTEMS]] — Heritage Pattern & Cultural Invariant Systems
 - [[11_KNOWLEDGE/02_CLAIMS/CANON_CLAIM_REGISTRY|CANON_CLAIM_REGISTRY]] — Canonical claim ledger
 - [[11_KNOWLEDGE/02_CLAIMS/UBI_CLAIM_REGISTRY|UBI_CLAIM_REGISTRY]] — Biological intelligence claims
 
@@ -4323,5 +4329,6 @@ THE MISSING CURRENT KERNEL BODY
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] | [[00_ROOT/AMOS MOC|AMOS MOC]]
+
 
 

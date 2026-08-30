@@ -1983,7 +1983,8 @@ confidence_ceiling:
 - [[00_ROOT/00_HOME|00_HOME]] — universal vault hub (00_ROOT)
 - [[00_ROOT/00_HOME|00_HOME]] — root AMOS Home
 - [[CLAUDE|CLAUDE]] — Anthropic Claude guidelines
-- [[11_KNOWLEDGE/LLM_WIKI/raw/AGENT_SKILLS_STANDARD_README_2026_08_30|Agent Skills]] — Agent skills core index
+- [[00_ROOT/Agent Skills|Agent Skills]] — Agent skills core note
+- [[11_KNOWLEDGE/LLM_WIKI/raw/AGENT_SKILLS_STANDARD_README_2026_08_30|Agent Skills Standard]] — Agent skills standard README
 
 ---
 

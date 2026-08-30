@@ -385,7 +385,7 @@ UBI_X_NEUROSYNCAI
         │
         │ specifies
         ▼
-[[UBI_X_NEUROSYNCAI_MATRIX]]
+[[scripts/.tagmigrate14-backup-20260830-171025/UBI_X_NEUROSYNCAI_MATRIX|UBI_X_NEUROSYNCAI_MATRIX]]
         │
         │ expresses
         ▼
@@ -424,7 +424,7 @@ The two artifacts form a natural pair:
                    │
                    ▼
 ┌──────────────────────────────────────┐
-│ [[UBI_X_NEUROSYNCAI_MATRIX]]             │
+│ [[scripts/.tagmigrate14-backup-20260830-171025/UBI_X_NEUROSYNCAI_MATRIX|UBI_X_NEUROSYNCAI_MATRIX]]             │
 │                                      │
 │ MATRIX_TABLE                         │
 │                                      │
@@ -2069,7 +2069,7 @@ L:
 
   load_on_demand:
 
-    - "[[UBI_X_NEUROSYNCAI_MATRIX]]"
+    - "[[scripts/.tagmigrate14-backup-20260830-171025/UBI_X_NEUROSYNCAI_MATRIX|UBI_X_NEUROSYNCAI_MATRIX]]"
     - "[[11_KNOWLEDGE/05_FRAMEWORKS/UBI_NEUROSYNCAI_BINDING|UBI_NEUROSYNCAI_BINDING]]"
     - "[[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]"
     - "[[25_COGNITIVE_MATRIX/AMOS_X_NEUROSYNCAI|AMOS_X_NEUROSYNCAI]]"
@@ -2114,7 +2114,7 @@ RSCF_CORE_CLAIM:
       UBI_X_NEUROSYNCAI.md
 
   dependencies:
-    - "[[UBI_X_NEUROSYNCAI_MATRIX]]"
+    - "[[scripts/.tagmigrate14-backup-20260830-171025/UBI_X_NEUROSYNCAI_MATRIX|UBI_X_NEUROSYNCAI_MATRIX]]"
     - "[[11_KNOWLEDGE/05_FRAMEWORKS/UBI_NEUROSYNCAI_BINDING|UBI_NEUROSYNCAI_BINDING]]"
 
   scope:
@@ -2293,7 +2293,7 @@ PROOF_CAPSULE:
     inter_plane_connections:
 
       matrix_table:
-        "[[UBI_X_NEUROSYNCAI_MATRIX]]"
+        "[[scripts/.tagmigrate14-backup-20260830-171025/UBI_X_NEUROSYNCAI_MATRIX|UBI_X_NEUROSYNCAI_MATRIX]]"
 
       knowledge_binding:
         "[[11_KNOWLEDGE/05_FRAMEWORKS/UBI_NEUROSYNCAI_BINDING|UBI_NEUROSYNCAI_BINDING]]"
@@ -2962,7 +2962,7 @@ UBI_X_NEUROSYNCAI:
   framework_binding:
 
     matrix_counterpart:
-      "[[UBI_X_NEUROSYNCAI_MATRIX]]"
+      "[[scripts/.tagmigrate14-backup-20260830-171025/UBI_X_NEUROSYNCAI_MATRIX|UBI_X_NEUROSYNCAI_MATRIX]]"
 
     knowledge_binding:
       "[[11_KNOWLEDGE/05_FRAMEWORKS/UBI_NEUROSYNCAI_BINDING|UBI_NEUROSYNCAI_BINDING]]"
@@ -3689,7 +3689,7 @@ RSCF-RELATIONS:
 
   - PART_OF: "[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]"
 
-  - HAS_MATRIX_COUNTERPART: "[[UBI_X_NEUROSYNCAI_MATRIX]]"
+  - HAS_MATRIX_COUNTERPART: "[[scripts/.tagmigrate14-backup-20260830-171025/UBI_X_NEUROSYNCAI_MATRIX|UBI_X_NEUROSYNCAI_MATRIX]]"
 
   - BOUND_BY: "[[11_KNOWLEDGE/05_FRAMEWORKS/UBI_NEUROSYNCAI_BINDING|UBI_NEUROSYNCAI_BINDING]]"
 

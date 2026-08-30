@@ -29,7 +29,7 @@ rscf:
 
 ---
 ---
-**References MOC:** [[references/references_MOC]]
+**References MOC:** [[07_SKILLS/spreadsheets/references/references_MOC|references_MOC]]
 
 ---
 **Skill:** [[07_SKILLS/amos-language-equation-rscf-engine/SKILL|SKILL]]

@@ -72,5 +72,5 @@ choose an action or document id.
 
 ---
 
-**MOC:** [[00_ROOT_MOC]] · [[00_HOME]]
+**MOC:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
 
