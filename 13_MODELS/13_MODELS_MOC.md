@@ -5,8 +5,6 @@ source: 13_MODELS
 tags:
 - 13-models
 - canon/model
-- models-model-contract
-- models-readme
 - amos-home
 moc: true
 rscf:

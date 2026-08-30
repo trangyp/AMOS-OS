@@ -15,7 +15,6 @@ tags:
 - amos-os
 - knowledge
 - vault
-- 11_knowledge
 - 05_frameworks
 - absolute_structural_integrity
 - law_of_law

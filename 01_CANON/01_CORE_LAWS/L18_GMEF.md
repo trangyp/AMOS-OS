@@ -22,17 +22,17 @@ tags:
 - validation
 - law-hierarchy
 - trang-framework-recursive-ontology-dynamics
-- l17-rscf
-- l16-hml
+- law/L17-rscf
+- law/L16-hml
 - provenance-topology
 - scope-regime-firewall
 - causal-epoch-finality
 - persistent-provenance
 - mvcc-cas
 - atomic-multi-rscf
-- l10-failure-recovery
-- l11-knowledge-memory
-- l15-fractal-knowledge
+- law/L10-failure-recovery
+- law/L11-knowledge-memory
+- law/L15-fractal-knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

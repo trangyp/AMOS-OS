@@ -5,8 +5,6 @@ source: 03_CONTROL_PLANE
 tags:
 - 03-control-plane
 - canon/control-plane
-- control-plane-control-plane-contract
-- control-plane-readme
 - amos-home
 moc: true
 rscf:

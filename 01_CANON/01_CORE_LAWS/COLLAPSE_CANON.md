@@ -19,7 +19,6 @@ tags:
 - amos-os
 - canon
 - universe
-- 01_canon
 - core_laws
 - collapse
 - state_reduction
@@ -37,7 +36,7 @@ tags:
 - placeholder_expanded
 - validation
 - local-finality
-- l19-proof-capsule
+- law/L19-proof-capsule
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED

@@ -4,17 +4,11 @@ type: index
 source: 16_SCHEMAS/00_INDEX
 tags:
 - amos-os
-- 16_schemas
 - canon/schema
 - readme
-- schema-map
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

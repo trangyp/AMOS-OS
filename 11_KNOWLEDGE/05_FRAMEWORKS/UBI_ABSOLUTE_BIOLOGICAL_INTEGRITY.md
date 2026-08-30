@@ -15,7 +15,6 @@ tags:
 - amos-os
 - knowledge
 - vault
-- 11_knowledge
 - 05_frameworks
 - ubi_absolute_integrity
 - biological_integrity

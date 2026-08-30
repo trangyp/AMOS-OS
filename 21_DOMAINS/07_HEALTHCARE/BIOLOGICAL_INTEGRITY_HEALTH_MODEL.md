@@ -15,7 +15,6 @@ tags:
 - amos-os
 - domain
 - vault
-- 21_domains
 - 07_healthcare
 - biological_integrity_health_model
 - homeostatic_resilience

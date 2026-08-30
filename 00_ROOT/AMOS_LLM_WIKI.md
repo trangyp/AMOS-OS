@@ -15,7 +15,6 @@ tags:
 - amos-os
 - canon-group/tech-ai
 - canon/tooling
-- llm-wiki-index
 - llm-wiki-log
 title: AMOS LLM Wiki
 type: schema

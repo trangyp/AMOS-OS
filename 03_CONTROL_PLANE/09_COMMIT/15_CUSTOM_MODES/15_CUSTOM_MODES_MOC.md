@@ -5,7 +5,6 @@ source: 03_CONTROL_PLANE/09_COMMIT/15_CUSTOM_MODES
 tags:
 - 15-custom-modes
 - canon/control-plane
-- custom-modes-commit-control-plane-readme
 - custom-modes-commit-control-plane-mode-family-spec
 moc: true
 rscf:

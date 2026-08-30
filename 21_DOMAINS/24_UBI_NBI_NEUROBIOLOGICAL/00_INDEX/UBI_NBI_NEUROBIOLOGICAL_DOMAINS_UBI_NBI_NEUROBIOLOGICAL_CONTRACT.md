@@ -4,7 +4,6 @@ type: biology
 source: 21_DOMAINS/24_UBI_NBI_NEUROBIOLOGICAL/00_INDEX
 tags:
 - amos-os
-- 21_domains
 - canon/domain
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt

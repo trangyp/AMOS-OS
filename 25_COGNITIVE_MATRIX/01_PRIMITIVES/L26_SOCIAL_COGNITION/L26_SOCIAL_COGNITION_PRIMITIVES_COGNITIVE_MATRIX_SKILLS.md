@@ -4,7 +4,7 @@ type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L26_SOCIAL_COGNITION
 tags:
 - note
-- l26-social-cognition
+- matrix/l26-social-cognition
 - domain/cognitive-matrix
 - trang-framework-recursive-ontology-dynamics
 rscf:

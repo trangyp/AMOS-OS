@@ -4,12 +4,10 @@ type: index
 source: 21_DOMAINS/24_UBI_NBI_NEUROBIOLOGICAL/00_INDEX
 tags:
 - amos-os
-- 21_domains
 - canon/domain
 - readme
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
-- ubi-nbi-neurobiological-map
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

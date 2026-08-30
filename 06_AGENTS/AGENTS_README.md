@@ -4,18 +4,12 @@ type: agent
 source: 06_AGENTS
 tags:
 - amos-os
-- 06_agents
 - canon/agent
 - agents
 - readme
-- agents-agent-contract
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

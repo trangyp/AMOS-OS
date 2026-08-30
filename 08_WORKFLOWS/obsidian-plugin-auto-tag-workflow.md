@@ -7,7 +7,7 @@ Version: 1.1.0
 title: Obsidian Plugin Auto Tag
 tags:
 - type/workflow
-- domain/knowledge_research
+- domain/knowledge-research
 - amos-os
 ---
 

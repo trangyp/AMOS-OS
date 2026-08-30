@@ -8,12 +8,12 @@ tags:
 - note
 - canon/universe
 - law-hierarchy
-- l7-authority
+- law/L7-authority
 - law/L1-epistemic
-- l5-scope-regime
-- l29-decision-value
+- law/L5-scope-regime
+- law/L29-decision-value
 - scope-regime-firewall
-- l28-critical-gap
+- law/L28-critical-gap
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

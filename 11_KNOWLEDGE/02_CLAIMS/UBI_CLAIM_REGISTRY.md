@@ -15,7 +15,6 @@ tags:
 - amos-os
 - knowledge
 - vault
-- 11_knowledge
 - 02_claims
 - ubi_claim_registry
 - biological_claims

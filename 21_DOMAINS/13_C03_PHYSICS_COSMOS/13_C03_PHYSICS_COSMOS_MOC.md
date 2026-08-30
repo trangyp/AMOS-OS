@@ -6,8 +6,6 @@ tags:
 - 13-c03-physics-cosmos
 - canon/domain
 - c03-physics-cosmos-domains-domain-spec
-- c03-physics-cosmos-domains-readme
-- domains-c03-physics-cosmos-contract
 moc: true
 rscf:
   state: DERIVED

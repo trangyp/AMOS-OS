@@ -5,8 +5,6 @@ source: 21_DOMAINS/39_POLITICS_POWER
 tags:
 - 39-politics-power
 - canon/domain
-- domains-politics-power-contract
-- politics-power-domains-readme
 moc: true
 rscf:
   state: DERIVED

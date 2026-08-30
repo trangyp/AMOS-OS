@@ -5,7 +5,6 @@ source: 25_COGNITIVE_MATRIX/04_SCALES/L_LOW_SCALE
 tags:
 - l-low-scale
 - domain/cognitive-matrix
-- cognitive-matrix-l-low-scale-contract
 - l-low-scale-scales-cognitive-matrix-rscf
 - scales-cognitive-matrix-boundaries
 - scales-cognitive-matrix-semantics
@@ -14,7 +13,6 @@ tags:
 - l-low-scale-scales-cognitive-matrix-dependencies
 - l-low-scale-scales-cognitive-matrix-gap-matrix
 - l-low-scale-scales-cognitive-matrix-invariants
-- l-low-scale-scales-cognitive-matrix-readme
 - l-low-scale-scales-cognitive-matrix-tests
 - scales-cognitive-matrix-translation-rules
 moc: true

@@ -4,7 +4,6 @@ type: mind
 source: 21_DOMAINS/15_C05_MIND_BEHAVIOR/00_INDEX
 tags:
 - amos-os
-- 21_domains
 - canon/domain
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt

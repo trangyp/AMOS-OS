@@ -4,13 +4,10 @@ type: index
 source: 24_ARCHIVE/01_DEPRECATED/00_INDEX
 tags:
 - amos-os
-- 24_archive
 - canon/archive
 - readme
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
-- deprecated-archive-deprecated-contract
-- deprecated-map
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

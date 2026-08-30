@@ -5,10 +5,9 @@ source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L24_SELF_REGULATION
 tags:
 - cognitive-matrix
 - primitives
-- l24_self_regulation
+- matrix/l24-self-regulation
 - contract
 - domain/cognitive-matrix
-- cognitive-matrix-primitives-contract
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

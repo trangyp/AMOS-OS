@@ -15,7 +15,6 @@ tags:
 - amos-os
 - research
 - vault
-- 22_research
 - 04_validation
 - canon_source_claim_audit
 - epistemic_audit
@@ -23,7 +22,6 @@ tags:
 - rscf
 - canon_candidate
 - canon/research
-- canon-claim-registry
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

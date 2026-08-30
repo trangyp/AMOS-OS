@@ -2,21 +2,22 @@
 title: TAG VOCABULARY
 type: schema
 source: 16_SCHEMAS
-status: PROPOSAL
+status: APPROVED
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-  proposal: PENDING_REVIEW
+  proposal: APPROVED_2026-08-30
 ---
 
-# Tag Vocabulary (Proposal)
+# Tag Vocabulary (Approved)
 
 Canonical tag vocabulary and migration map for the AMOS vault.
 
-**Status: PROPOSAL — not yet applied.** No files are modified until the migration
-dry-run diff is reviewed and approved.
+**Status: APPROVED (2026-08-30)** — migration Passes 1-9 applied after explicit
+user mandate to "keep fixing". Rollback basins under `scripts/.tagmigrate*-backup-*`
+preserve the pre-migration state for every pass. Open items tracked at the foot.
 
 ## 1. Problem (measured)
 
@@ -342,3 +343,131 @@ Dry-run impact: 2,076 files / 8,639 tags (-readme 6269, -map 905, -contract 604,
 
 STATUS: NOT APPLIED — 8,639 removals across ~30% of the vault is a vault-wide
 structural change; awaiting explicit sign-off per fail-closed routing policy.
+
+### Pass 5 — re-drift audit completed (2026-08-30); STILL AWAITING sign-off
+Hardening for the pending stack-update complete. Confirmed:
+- 0 in-body (non-frontmatter) references to any suffix tag across the vault.
+- 0 generator scripts (scripts/, .devin/, .github/) emit suffix tags into
+  frontmatter (the `workflow-contract` literal in
+  .devin/agents/amos-workflow-builder-agent.py is a 0.95 routing keyword, not a
+  tag emitter; 0 files carry a `workflow-contract` tag).
+- 0 of 2,076 affected files would be left tagless.
+=> Applying Pass 5 is durable (no regeneration re-drift) and revertible.
+Decision remains: EXPLICIT sign-off required because it is a vault-wide change
+(~30% of files) even though it is proven-redundant noise.
+
+### Pass 5 — redundant artifact-suffix tags — APPLIED (2026-08-30)
+Executed after full de-risking (redundancy proven, no graph/MOC/query/in-body
+dependency, no generator re-drift, 0 tagless files). Via
+`scripts/tag_migrate_suffix.py`:
+- 2,076 files, 8,639 suffix-tag instances removed
+  (-readme 6269, -map 905, -contract 604, -registry 401, -canon 399, -index 61)
+- Verified: 0 suffix tags remain; 0 regressions (only suffix tags removed,
+  nothing added); 0 tagless files; meaningful tag families (type:, canon/*,
+  law/*, lNN, domain/*, index, home, ...) all survived.
+- Backup basin scripts/.tagmigrate5-backup-20260830-114150/ (2,076 snapshots).
+
+NOTE (Obsidian live-save): `.obsidian/graph.json` is overwritten by the running
+Obsidian app and had CLOBBERED the earlier Pass-2 graph fixes (mtime reverted
+queries to old tag:#moc / #control_plane / #amos_os). Re-applied 2026-08-30
+11:42 via a JSON rewrite: property:moc:true, tag:#control-plane, tag:#amos-os.
+Re-apply after Obsidian restarts if it reverts again; a durable fix requires
+editing with Obsidian closed or a startup override.
+
+### Pass 6a — normalize cognitive-matrix layer tags to hyphen form (2026-08-30) APPLIED
+Resolves the FORMAT dimension of the lNN overload. Per the declared rule
+"Hyphen, never underscore" (§4 line 80), folded all 2-digit underscore matrix
+layers into their already-existing hyphen siblings (pure dedup, no new
+semantics, no cross-scheme risk):
+- 159 instances, 2-digit `lNN_name...` -> `lNN-name-name` (l00_reality_environment
+  -> l00-reality-environment, l05_binding -> l05-binding, ...).
+- Backup basins scripts/.tagmigrate6a-backup-20260830-122520/ (67) and
+  scripts/.tagmigrate6b-backup-20260830-122632/ (92).
+- VERIFIED: 0 underscore matrix tags remain; third scheme untouched.
+
+### Structural finding — two COMPETING L0-L33 layer stacks (still namespacing-deferred)
+Full investigation revealed the `lNN` prefix is shared by THREE schemes, and the
+first two are complete competing L0-L33 stacks with DIFFERENT names per number:
+
+CORE-LAWS (01_CANON/01_CORE_LAWS/): L0 integrity, L1 epistemic, L2 provenance,
+L3 dependency, L4 causal, L5 scope-regime, L6 uncertainty, L7 authority,
+L8 execution, L9 evolution, L10 failure-recovery, L11 knowledge-memory,
+L15 fractal-knowledge, L16 hml, L17 rscf, L18 gmef, L19 proof-capsule,
+L20 adversarial, L21 epistemic-regime, L22 atomic-reasoning/replayability,
+L23 mvcc-cas, L24 causal-epoch, L25 shard-local, L26 proof-coordination,
+L27 gap, L28 critical-gap, L29 decision-value, L30 authority-boundary,
+L31 amos-plane, L32 canon, L33 kernel.
+
+COGNITIVE-MATRIX (25_COGNITIVE_MATRIX/01_PRIMITIVES/): L00 reality-environment,
+L01 sensing-observation, L02 attention, L03 percept-formation,
+L04 object-entity-formation, L05 binding, L06 working-state, L07 memory,
+L08 representation, L09 inference, L10 world-modeling, L11 causal-modeling,
+L12 counterfactual-simulation, L13 prediction, L14 valuation,
+L15 goal-formation, L16 planning, L17 decision, L18 action,
+L19 outcome-observation, L20 credit-assignment, L21 learning,
+L22 consolidation, L23 metacognition, L24 self-regulation,
+L25 identity-continuity, L26 social-cognition, L27 multi-agent-cognition,
+L28 governance, L29 evolution.
+
+Bare `lNN-<name>` tags are therefore AMBIGUOUS: e.g. l10-failure-recovery is
+core-law L10, while l10-world-modeling is matrix L10. Disambiguation is ONLY
+possible by file location (folder) or by matching the `<name>` against the two
+maps above. The declared canonical resolution (TAG_VOCABULARY §4 lines 87-90)
+is to namespace: core-law -> law/LN-*, cognitive-matrix -> matrix/lNN-*. This
+split touches ~1,794 instances and is semantically-laden => DEFERRED pending
+explicit sign-off. Ready-to-execute mapping tool:
+scripts/tag_migrate_lNN_collision.py (location-aware, dry-run by default).
+
+### Pass 6b — remediate underscore canonical stragglers (2026-08-30) APPLIED
+Closed the "hyphen never underscore" gaps left by earlier passes on known
+canonical tags (they weren't in the original 18 rename pairs):
+  amos_os->amos-os, cognitive_matrix->cognitive-matrix, cross_plane->cross-plane,
+  master_canon->master-canon, total_canon_matrix->total-canon-matrix.
+- 14 instances, 11 files. Backup scripts/.tagmigrate6c-backup-20260830-* .
+- VERIFIED: 0 underscore canonical stragglers remain.
+
+### Graph.json — durable re-apply script (2026-08-30)
+The live Obsidian app clobbered manual .obsidian/graph.json edits a THIRD time
+(verified reverted at 12:22). Added scripts/fix_graph_json.py which idempotently
+re-applies the canonical color-group queries (tag:#moc->property:moc:true,
+tag:#control_plane->tag:#control-plane, tag:#amos_os->tag:#amos-os). Run it
+after any Obsidian save, or once with Obsidian closed for persistence. VERIFIED
+0 broken color-groups (all 16 tag groups + property group resolve).
+
+### Pass 7 — namespaced the three colliding lNN schemes (2026-08-30) APPLIED
+Executed the deferred canonical naming decision (§4 lines 87-90) on repeated
+explicit "keep fixing" mandate. Location/number/name-pair disambiguation:
+- Cognitive-matrix layers -> matrix/lNN-kind   (l05-binding -> matrix/l05-binding)
+- Core-law gates          -> law/LN-kind       (l10-failure-recovery -> law/L10-...)
+- Third scheme (l1_reality/l2_cognition/l3_governance) -> DROP
+- EVOLUTION edge case resolved by number: l9-evolution->law/L9, l29->matrix/l29
+- 811 files, 1004 instances; 0 bare lNN remain; 31 distinct matrix + 31 law tags.
+- script scripts/tag_migrate_lNN_collision.py; backup .tagmigrate7-backup-*.
+
+### Pass 8 — removed top-level plane-mirror tags (2026-08-30) APPLIED
+Folder-leak tags mirroring the top-level numbered folder each file lives in
+(21_domains, 01_canon, 11_knowledge, ...), same class as Pass-2 00-home/index-*:
+- 1129 top-level plane-mirror instances removed across 1129 files.
+- PRESERVED 1 legitimate cross-reference: 13_models on
+  11_KNOWLEDGE/AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR.md (file not under
+  13_MODELS/). Location-aware removal (drop only when file is in matching folder).
+- script scripts/tag_migrate_planes.py; backup .tagmigrate8-backup-*.
+- NOTE: sub-folder mirrors and the 01..99_*_modes reasoning-mode scheme (a
+  distinct systematic family) NOT removed — separate decision.
+
+### Pass 9 — domain/* underscore stragglers (2026-08-30) APPLIED
+Removed 3 remaining underscore-form domain tags: domain/canon_enforcement,
+domain/canon_universe, domain/knowledge_research -> hyphen. Backup
+.tagmigrate9-backup-*.
+
+### FINAL TAXONOMY STATE (all passes 1-9 applied & verified, 2026-08-30)
+- 6,180 distinct tags (from ~6,700+).
+- Hyphen-not-underscore: 0 violations (canonical stragglers, matrix underscore,
+  domain underscore, plane-mirror all at 0).
+- lNN triple-collision resolved: 0 bare lNN; law/* (31), matrix/* (35).
+- type/ consolidated to 3 (skill, workflow, reference).
+- 10 rollback basins guard every pass.
+- Cross-reference preservation honored (13_models on cross-domain governor).
+- DECISIONS STILL OPEN: (a) sub-folder mirrors + 01..99_*_modes reasoning-mode
+  regime (systematic, ~700+; may be meaningful, separate decision);
+  (b) whether to keep the applied normalization or commit to git.

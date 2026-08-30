@@ -15,7 +15,6 @@ tags:
 - amos-os
 - research
 - vault
-- 22_research
 - 04_validation
 - framework_empirical_status
 - model_vs_observation

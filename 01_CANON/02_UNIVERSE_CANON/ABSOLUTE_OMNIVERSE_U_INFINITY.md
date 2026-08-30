@@ -64,7 +64,6 @@ tags:
 - provenance
 - canon/universe
 - diagnosis
-- absolute-omniverse-u-infinity-canon
 - law-hierarchy
 - absolute-omniverse-u-infinity
 - ubi-4-domain
@@ -81,9 +80,6 @@ tags:
 - cil-culture-interface-layer
 - uai-alignment-interface
 - urta-risk-tension-architecture
-- control-plane-readme
-- observability-readme
-- operations-readme
 - signals
 - validation
 version: 1.0.0-canon-candidate

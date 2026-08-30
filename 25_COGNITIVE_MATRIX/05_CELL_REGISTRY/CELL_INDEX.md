@@ -4,7 +4,6 @@ type: note
 source: 25_COGNITIVE_MATRIX/05_CELL_REGISTRY
 tags:
 - note
-- 05-cell-registry
 - domain/cognitive-matrix
 - trang-framework-recursive-ontology-dynamics
 rscf:

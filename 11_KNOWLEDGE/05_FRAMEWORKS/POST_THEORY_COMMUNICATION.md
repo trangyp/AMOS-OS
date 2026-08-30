@@ -15,7 +15,6 @@ tags:
 - amos-os
 - knowledge
 - vault
-- 11_knowledge
 - 05_frameworks
 - post_theory_communication
 - precise_language

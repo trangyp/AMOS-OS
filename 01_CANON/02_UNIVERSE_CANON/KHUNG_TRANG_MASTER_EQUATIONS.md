@@ -8,7 +8,6 @@ tags:
 - master
 - canon
 - khung-trang-equations
-- khung-trang-canon
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: CANON_SPEC

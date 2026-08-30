@@ -5,10 +5,9 @@ source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L08_REPRESENTATION
 tags:
 - cognitive-matrix
 - primitives
-- l08_representation
+- matrix/l08-representation
 - contract
 - domain/cognitive-matrix
-- cognitive-matrix-primitives-contract
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

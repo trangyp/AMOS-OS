@@ -14,7 +14,6 @@ path: 25_COGNITIVE_MATRIX/AMOS_X_UBI.md
 tags:
 - amos-os
 - cognitive-matrix
-- 25_cognitive_matrix
 - artifact
 - ubi
 - unified_biological_intelligence

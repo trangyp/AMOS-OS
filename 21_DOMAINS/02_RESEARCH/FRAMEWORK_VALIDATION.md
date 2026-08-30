@@ -15,7 +15,6 @@ tags:
 - amos-os
 - domain
 - vault
-- 21_domains
 - 02_research
 - framework_validation
 - theoretical_verification

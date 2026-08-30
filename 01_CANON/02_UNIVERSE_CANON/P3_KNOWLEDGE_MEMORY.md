@@ -30,10 +30,8 @@ tags:
 - rscf
 - canon/universe
 - validation
-- amos-7-part-universe-canon
 - p2-sense-evidence
 - p1-reality-environment
-- hml-canon
 - trang-framework-recursive-ontology-dynamics
 version: 0.2.0
 updated: '2026-08-26'

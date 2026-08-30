@@ -4,11 +4,9 @@ type: kernel
 source: 02_KERNEL/05_MEMORY
 tags:
 - amos-os
-- 02_kernel
 - canon/kernel
 - memory
 - readme
-- kernel-memory-contract
 - k-context-compaction
 - k-memory-admission
 - k-memory-conflict
@@ -17,10 +15,6 @@ tags:
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

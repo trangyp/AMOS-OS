@@ -5,7 +5,6 @@ source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C05_REPRESENTATION
 tags:
 - c05-representation
 - domain/cognitive-matrix
-- cognitive-matrix-c05-representation-contract
 moc: true
 rscf:
   state: DERIVED

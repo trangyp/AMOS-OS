@@ -4,12 +4,6 @@ type: moc
 source: 24_ARCHIVE/00_LEGACY
 tags:
 - canon/archive
-- amos-core-historical-index
-- archive-legacy-contract
-- heritage-historical-index
-- legacy-archive-readme
-- trang-framework-historical-index
-- ubi-historical-index
 moc: true
 rscf:
   state: DERIVED

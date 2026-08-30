@@ -4,16 +4,10 @@ type: map
 source: 21_DOMAINS/02_RESEARCH/00_INDEX
 tags:
 - amos-os
-- 21_domains
 - canon/domain
-- research-domains-research-contract
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

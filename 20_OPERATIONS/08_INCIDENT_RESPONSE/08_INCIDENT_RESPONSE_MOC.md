@@ -5,7 +5,6 @@ source: 20_OPERATIONS/08_INCIDENT_RESPONSE
 tags:
 - 08-incident-response
 - canon/operations
-- incident-response-operations-readme
 moc: true
 rscf:
   state: DERIVED

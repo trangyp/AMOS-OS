@@ -4,18 +4,11 @@ type: index
 source: 21_DOMAINS/43_GEO_GEOPOLITICS/00_INDEX
 tags:
 - amos-os
-- 21_domains
 - canon/domain
 - readme
-- geo-geopolitics-map
 - routing-policy-validation-receipt
-- geo-geopolitics-domains-geo-geopolitics-contract
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -12,12 +12,9 @@ rscf:
 tags:
 - note
 - readme
-- task-contract
 - task-resolver
 - capability-resolver
 - mode-admission-queue
-- mode-composition-registry
-- mode-conflict-registry
 - mode-coverage-matrix
 - mode-dependency-graph
 - k-constraint-propagation
@@ -26,12 +23,9 @@ tags:
 - k-hml
 - k-gmef
 - k-sybil-hardening
-- generators-map
-- generator-registry
 - generator-templates
 - k-counterfactual
 - k-translation
-- generators-cognitive-matrix-generators-contract
 canon-group: canon/cognitive-matrix
 ---
 

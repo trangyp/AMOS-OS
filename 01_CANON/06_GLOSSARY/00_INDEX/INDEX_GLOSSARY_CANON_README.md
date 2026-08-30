@@ -4,19 +4,12 @@ type: index
 source: 01_CANON/06_GLOSSARY/00_INDEX
 tags:
 - amos-os
-- 01_canon
 - canon/universe
 - readme
-- glossary-canon-glossary-contract
-- glossary-map
 - canon
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

@@ -7,14 +7,9 @@ tags:
 - o07_inference
 - domain/cognitive-matrix
 - readme
-- o07-inference-map
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

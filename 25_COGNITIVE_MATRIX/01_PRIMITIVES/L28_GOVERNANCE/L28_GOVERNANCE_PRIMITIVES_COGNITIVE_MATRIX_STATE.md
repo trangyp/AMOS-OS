@@ -4,7 +4,7 @@ type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L28_GOVERNANCE
 tags:
 - note
-- l28-governance
+- matrix/l28-governance
 - domain/cognitive-matrix
 - trang-framework-recursive-ontology-dynamics
 rscf:

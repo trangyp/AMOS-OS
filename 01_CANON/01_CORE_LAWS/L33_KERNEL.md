@@ -8,11 +8,10 @@ tags:
 - note
 - canon/universe
 - law-hierarchy
-- l31-amos-plane
-- l32-canon
-- l8-execution
-- l10-failure-recovery
-- l22-replayability
+- law/L31-amos-plane
+- law/L8-execution
+- law/L10-failure-recovery
+- law/L22-replayability
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

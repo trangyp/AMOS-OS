@@ -6,7 +6,6 @@ tags:
 - amos-os
 - cognitive-matrix
 - matrix
-- 25_cognitive_matrix
 - heritage
 - heritage_intelligence
 - heritage_void

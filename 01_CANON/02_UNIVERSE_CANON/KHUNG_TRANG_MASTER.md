@@ -15,7 +15,6 @@ tags:
 - amos-os
 - canon
 - universe
-- 01_canon
 - khung_trang
 - trang_framework
 - pre_symbolic_spine
@@ -39,9 +38,8 @@ tags:
 - amos-x-trang-reality
 - references
 - canon-router
-- l19-proof-capsule
+- law/L19-proof-capsule
 - khung-trang-equations
-- khung-trang-equations-canon
 - architecture
 version: 1.0.0
 updated: '2026-08-27'

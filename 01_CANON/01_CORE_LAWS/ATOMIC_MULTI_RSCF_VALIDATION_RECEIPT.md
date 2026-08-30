@@ -32,15 +32,15 @@ tags:
 - atomic-multi-rscf
 - atomic-multi-rscf-reasoning
 - k-atomic-multi-rscf
-- l17-rscf
-- l18-gmef
-- l19-proof-capsule
-- l20-adversarial
-- l21-epistemic-regime
-- l22-replayability
-- l23-mvcc-cas
-- l24-causal-epoch
-- l25-shard-local
+- law/L17-rscf
+- law/L18-gmef
+- law/L19-proof-capsule
+- law/L20-adversarial
+- law/L21-epistemic-regime
+- law/L22-replayability
+- law/L23-mvcc-cas
+- law/L24-causal-epoch
+- law/L25-shard-local
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

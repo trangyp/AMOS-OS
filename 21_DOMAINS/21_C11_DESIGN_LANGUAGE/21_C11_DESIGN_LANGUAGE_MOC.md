@@ -6,8 +6,6 @@ tags:
 - 21-c11-design-language
 - canon/domain
 - c11-design-language-domains-domain-spec
-- c11-design-language-domains-readme
-- domains-c11-design-language-contract
 moc: true
 rscf:
   state: DERIVED

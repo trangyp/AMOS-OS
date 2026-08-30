@@ -9,9 +9,7 @@ tags:
 - design-domains-domain-spec
 - design-domains-interfaces
 - design-domains-provenance
-- design-domains-readme
 - design-for-absolute-integrity
-- domains-design-contract
 - irreducible-systems-design
 moc: true
 rscf:

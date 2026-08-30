@@ -9,10 +9,6 @@ tags:
 - signals
 - amos-x-heritage-matrix
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

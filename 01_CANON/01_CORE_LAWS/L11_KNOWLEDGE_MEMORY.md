@@ -23,7 +23,7 @@ tags:
 - persistent-provenance
 - epistemic-regimes
 - knowledge-harvest
-- l10-failure-recovery
+- law/L10-failure-recovery
 - rscf
 - gmef
 - mvcc-cas

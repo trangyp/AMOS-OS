@@ -5,7 +5,6 @@ source: 02_KERNEL/06_RISK_REPAIR
 tags:
 - 06-risk-repair
 - canon/kernel
-- kernel-risk-repair-contract
 - k-absolute-biological-integrity
 - k-collapse-recovery
 - k-homeostasis
@@ -15,7 +14,6 @@ tags:
 - k-risk-constraint
 - k-ubi-entropy-correction
 - k-ubi-homeostasis
-- risk-repair-kernel-readme
 moc: true
 rscf:
   state: DERIVED

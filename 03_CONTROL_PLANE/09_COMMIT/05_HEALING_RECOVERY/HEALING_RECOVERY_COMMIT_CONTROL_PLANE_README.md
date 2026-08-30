@@ -13,10 +13,6 @@ tags:
 - law-hierarchy
 - healing-recovery-commit-control-plane-mode-spec
 - healing-recovery-commit-control-plane-provenance
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

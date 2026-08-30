@@ -22,7 +22,6 @@ tags:
 - amos-os
 - agents
 - readme
-- agents-agent-contract
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - agent-template

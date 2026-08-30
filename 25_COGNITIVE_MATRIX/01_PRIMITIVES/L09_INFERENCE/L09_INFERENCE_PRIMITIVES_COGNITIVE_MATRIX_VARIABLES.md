@@ -4,7 +4,7 @@ type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L09_INFERENCE
 tags:
 - note
-- l09-inference
+- matrix/l09-inference
 - domain/cognitive-matrix
 - trang-framework-recursive-ontology-dynamics
 rscf:

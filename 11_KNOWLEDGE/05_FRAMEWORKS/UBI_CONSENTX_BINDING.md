@@ -15,7 +15,6 @@ tags:
 - amos-os
 - knowledge
 - vault
-- 11_knowledge
 - 05_frameworks
 - ubi_consentx_binding
 - biological_consent

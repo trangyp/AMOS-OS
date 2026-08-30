@@ -14,7 +14,6 @@ path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_VERSIONING.md
 tags:
 - 12_GENERATORS
 - 12_generators
-- 25_cognitive_matrix
 - amos-os
 - domain/cognitive-matrix
 - canon/universe
@@ -28,7 +27,6 @@ tags:
 - validation
 - integration
 - canon
-- generators-map
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED

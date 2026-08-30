@@ -5,14 +5,9 @@ source: 01_CANON/08_SUPERSESSION
 tags:
 - 08-supersession
 - canon/universe
-- active-vs-legacy-canon
 - amos-core-version-lineage
 - amos-framework-supersession
-- canon-supersession-contract
-- competing-definition-registry
-- conflict-registry
 - heritage-supersession
-- supersession-canon-readme
 - supersession-log
 - trang-framework-supersession
 - ubi-supersession

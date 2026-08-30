@@ -5,10 +5,9 @@ source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L17_DECISION
 tags:
 - cognitive-matrix
 - primitives
-- l17_decision
+- matrix/l17-decision
 - contract
 - domain/cognitive-matrix
-- cognitive-matrix-primitives-contract
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

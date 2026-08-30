@@ -15,7 +15,6 @@ tags:
 - amos-os
 - research
 - vault
-- 22_research
 - 03_competing_models
 - heritage_competing_models
 - decision_science_comparison

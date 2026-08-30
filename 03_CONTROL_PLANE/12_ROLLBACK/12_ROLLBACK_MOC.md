@@ -6,9 +6,7 @@ tags:
 - 12-rollback
 - canon/control-plane
 - canon-local-invalidation
-- control-plane-rollback-contract
 - framework-lineage-rollback
-- rollback-control-plane-readme
 moc: true
 rscf:
   state: DERIVED

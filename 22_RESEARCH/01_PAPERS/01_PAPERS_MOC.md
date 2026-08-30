@@ -5,11 +5,6 @@ source: 22_RESEARCH/01_PAPERS
 tags:
 - 01-papers
 - canon/research
-- external-evidence-source-registry
-- native-canon-source-registry
-- papers-research-readme
-- paper-registry
-- research-papers-contract
 moc: true
 rscf:
   state: DERIVED

@@ -17,7 +17,6 @@ tags:
 - validation
 - domain/cognitive-matrix
 - skill
-- cosmo-brain-bridge-index
 rscf:
   state: DERIVED
   claim_class: DERIVED

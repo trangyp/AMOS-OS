@@ -10,13 +10,8 @@ tags:
 - parameter-provenance
 - semantic-transaction
 - routing-policy-validation-receipt
-- control-plane-semantic-transaction-contract
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

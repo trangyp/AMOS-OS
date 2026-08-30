@@ -58,7 +58,6 @@ tags:
 - architecture
 - model
 - specification
-- 13_models
 - 01_foundation
 - foundation
 - reality_model
@@ -128,12 +127,7 @@ tags:
 - trang-zero-framework
 - khung-trang-full-max-detail-architecture-equations
 - canon
-- model-map
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-reality-architecture-master
 rscf:
   state: DERIVED

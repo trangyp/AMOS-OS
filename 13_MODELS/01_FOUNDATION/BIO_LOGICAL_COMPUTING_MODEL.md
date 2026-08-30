@@ -45,7 +45,6 @@ tags:
 - amos
 - model
 - specification
-- 13_models
 - 01_foundation
 - foundation
 - bio_logical_computing
@@ -122,12 +121,7 @@ tags:
 - validation
 - khung-trang-full-max-detail-architecture-equations
 - bio-logical-computing
-- model-map
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - canon
 rscf:
   state: DERIVED

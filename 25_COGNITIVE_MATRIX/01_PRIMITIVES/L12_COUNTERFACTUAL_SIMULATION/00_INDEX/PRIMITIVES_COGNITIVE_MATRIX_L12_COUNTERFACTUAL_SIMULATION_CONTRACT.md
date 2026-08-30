@@ -4,7 +4,7 @@ type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L12_COUNTERFACTUAL_SIMULATION/00_INDEX
 tags:
 - cognitive-matrix
-- l12_counterfactual_simulation
+- matrix/l12-counterfactual-simulation
 - domain/cognitive-matrix
 - validation-evidence
 - trang-framework-recursive-ontology-dynamics

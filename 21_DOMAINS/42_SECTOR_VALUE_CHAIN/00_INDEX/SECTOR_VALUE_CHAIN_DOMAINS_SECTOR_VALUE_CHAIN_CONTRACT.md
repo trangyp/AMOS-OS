@@ -4,7 +4,6 @@ type: value
 source: 21_DOMAINS/42_SECTOR_VALUE_CHAIN/00_INDEX
 tags:
 - amos-os
-- 21_domains
 - canon/domain
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt

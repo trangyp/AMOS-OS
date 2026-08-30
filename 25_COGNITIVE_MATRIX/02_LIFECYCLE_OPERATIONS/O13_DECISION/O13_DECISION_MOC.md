@@ -5,7 +5,6 @@ source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O13_DECISION
 tags:
 - o13-decision
 - domain/cognitive-matrix
-- cognitive-matrix-o13-decision-contract
 moc: true
 rscf:
   state: DERIVED

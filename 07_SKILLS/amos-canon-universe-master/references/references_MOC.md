@@ -9,7 +9,6 @@ tags:
 - absolute-omniverse-model
 - canon-integration-layer
 - canon-integration-layer-model
-- canonical-body-registry
 - final-canonical-structure
 - full-canon-encyclopedia
 - heritage-intelligence
@@ -17,7 +16,6 @@ tags:
 - universe-core
 - universe-core-engine
 - universe-interaction-engine
-- universe-total-canon
 - vault-domain-knowledge
 - law-hierarchy
 - trang-framework-recursive-ontology-dynamics

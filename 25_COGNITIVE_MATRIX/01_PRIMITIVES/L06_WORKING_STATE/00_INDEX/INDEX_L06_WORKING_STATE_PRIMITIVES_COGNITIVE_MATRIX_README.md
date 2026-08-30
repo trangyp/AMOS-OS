@@ -4,17 +4,12 @@ type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L06_WORKING_STATE/00_INDEX
 tags:
 - cognitive-matrix
-- l06_working_state
+- matrix/l06-working-state
 - domain/cognitive-matrix
 - readme
-- l06-working-state-map
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

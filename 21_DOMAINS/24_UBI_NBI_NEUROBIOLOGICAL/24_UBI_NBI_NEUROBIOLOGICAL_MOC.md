@@ -5,8 +5,6 @@ source: 21_DOMAINS/24_UBI_NBI_NEUROBIOLOGICAL
 tags:
 - 24-ubi-nbi-neurobiological
 - canon/domain
-- domains-ubi-nbi-neurobiological-contract
-- ubi-nbi-neurobiological-domains-readme
 - ubi-nbi-neurobiological-domains-domain-spec
 moc: true
 rscf:

@@ -7,7 +7,6 @@ tags:
 - type/skill
 - 11k-agent-templates
 - 11k-environment-scan-agent
-- agent-registry
 - agent-working-instructions-v2
 - ai-workforce-layer
 - architecture-guardian-agent

@@ -5,9 +5,7 @@ source: 21_DOMAINS/32_POLICY_DESIGN
 tags:
 - 32-policy-design
 - canon/domain
-- domains-policy-design-contract
 - policy-design-domains-domain-spec
-- policy-design-domains-readme
 moc: true
 rscf:
   state: DERIVED

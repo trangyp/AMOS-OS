@@ -28,7 +28,6 @@ tags:
 - amos-os
 - amos_corpus
 - amos_knowledge
-- 11_knowledge
 - cross_domain
 - bridge
 - bridge_governor

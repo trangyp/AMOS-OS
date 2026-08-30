@@ -4,17 +4,12 @@ type: map
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L07_MEMORY/00_INDEX
 tags:
 - cognitive-matrix
-- l07_memory
+- matrix/l07-memory
 - domain/cognitive-matrix
 - memory
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
-- primitives-cognitive-matrix-l07-memory-contract
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

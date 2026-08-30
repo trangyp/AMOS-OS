@@ -32,12 +32,10 @@ tags:
 - canon/universe
 - validation
 - memory
-- l19-proof-capsule
-- amos-7-part-universe-canon
+- law/L19-proof-capsule
 - p3-knowledge-memory
 - p2-sense-evidence
 - p1-reality-environment
-- hml-canon
 - trang-framework-recursive-ontology-dynamics
 version: 0.2.0
 updated: '2026-08-26'

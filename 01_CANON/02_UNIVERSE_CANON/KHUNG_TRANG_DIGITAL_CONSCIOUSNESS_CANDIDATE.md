@@ -7,7 +7,6 @@ tags:
 - consciousness
 - candidate
 - canon
-- khung-trang-canon
 ---
 
 # Khung Trang Digital Consciousness Candidate Specification

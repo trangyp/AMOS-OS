@@ -6,10 +6,8 @@ tags:
 - 09-dependency-graph
 - domain/cognitive-matrix
 - dependency-audit
-- dependency-graph-cognitive-matrix-readme
 - dependency-types
 - invalidation-rules
-- cognitive-matrix-dependency-graph-contract
 moc: true
 rscf:
   state: DERIVED

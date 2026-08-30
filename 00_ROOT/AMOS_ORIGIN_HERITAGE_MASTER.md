@@ -12,7 +12,6 @@ segment: 00_ROOT/AMOS_ORIGIN_HERITAGE_MASTER.md
 artifact_kind: HERITAGE
 path: 00_ROOT/AMOS_ORIGIN_HERITAGE_MASTER.md
 tags:
-- 00_root
 - amos-os
 - artifact
 - canon/root
@@ -28,10 +27,6 @@ tags:
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED

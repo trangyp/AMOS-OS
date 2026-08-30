@@ -6,9 +6,7 @@ tags:
 - 07-coverage
 - domain/cognitive-matrix
 - 2026-08-26-contract-fill-pass
-- cognitive-matrix-coverage-contract
 - coverage-audit
-- coverage-cognitive-matrix-readme
 - coverage-model
 - coverage-thresholds
 moc: true

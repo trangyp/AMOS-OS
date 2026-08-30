@@ -5,8 +5,6 @@ source: 03_CONTROL_PLANE/10_EXPOSURE
 tags:
 - 10-exposure
 - canon/control-plane
-- control-plane-exposure-contract
-- exposure-control-plane-readme
 moc: true
 rscf:
   state: DERIVED

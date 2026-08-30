@@ -15,7 +15,6 @@ tags:
 - amos-os
 - cognitive-matrix
 - vault
-- 25_cognitive_matrix
 - reality_x_rscf_matrix
 - matrix_table
 - cross_plane_routing

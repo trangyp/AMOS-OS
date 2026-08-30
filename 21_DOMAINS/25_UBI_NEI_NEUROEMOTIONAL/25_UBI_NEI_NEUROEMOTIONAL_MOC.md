@@ -5,8 +5,6 @@ source: 21_DOMAINS/25_UBI_NEI_NEUROEMOTIONAL
 tags:
 - 25-ubi-nei-neuroemotional
 - canon/domain
-- domains-ubi-nei-neuroemotional-contract
-- ubi-nei-neuroemotional-domains-readme
 - ubi-nei-neuroemotional-domains-domain-spec
 moc: true
 rscf:

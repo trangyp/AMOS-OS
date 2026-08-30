@@ -15,7 +15,6 @@ tags:
 - amos-os
 - knowledge
 - vault
-- 11_knowledge
 - 03_rscf
 - canon_rscf_index
 - proof_capsules
@@ -23,7 +22,6 @@ tags:
 - rscf
 - canon_candidate
 - canon/knowledge
-- canon-claim-registry
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

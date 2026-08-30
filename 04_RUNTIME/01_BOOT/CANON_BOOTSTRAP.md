@@ -15,7 +15,6 @@ tags:
 - amos-os
 - runtime
 - vault
-- 04_runtime
 - 01_boot
 - canon_bootstrap
 - core_laws_initialization

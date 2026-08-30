@@ -4,18 +4,12 @@ type: note
 source: 21_DOMAINS/23_UBI_BEI_BIOELECTROMAGNETIC
 tags:
 - amos-os
-- 21_domains
 - canon/domain
 - readme
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- domains-ubi-bei-bioelectromagnetic-contract
 - ubi-bei-bioelectromagnetic-domains-domain-spec
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

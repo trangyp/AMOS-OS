@@ -4,18 +4,12 @@ type: benchmark
 source: 22_RESEARCH/05_BENCHMARKS
 tags:
 - amos-os
-- 22_research
 - canon/research
 - readme
 - research-benchmarks
-- research-benchmarks-contract
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL

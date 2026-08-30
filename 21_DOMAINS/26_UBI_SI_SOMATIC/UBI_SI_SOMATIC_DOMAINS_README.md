@@ -4,18 +4,12 @@ type: note
 source: 21_DOMAINS/26_UBI_SI_SOMATIC
 tags:
 - amos-os
-- 21_domains
 - canon/domain
 - readme
-- domains-ubi-si-somatic-contract
 - ubi-si-somatic-domains-domain-spec
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

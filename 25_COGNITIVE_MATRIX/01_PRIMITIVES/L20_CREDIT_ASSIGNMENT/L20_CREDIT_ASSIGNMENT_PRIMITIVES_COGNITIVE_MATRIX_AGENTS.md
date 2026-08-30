@@ -4,7 +4,7 @@ type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L20_CREDIT_ASSIGNMENT
 tags:
 - note
-- l20-credit-assignment
+- matrix/l20-credit-assignment
 - domain/cognitive-matrix
 - trang-framework-recursive-ontology-dynamics
 rscf:

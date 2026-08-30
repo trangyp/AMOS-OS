@@ -4,7 +4,7 @@ type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L12_COUNTERFACTUAL_SIMULATION
 tags:
 - note
-- l12-counterfactual-simulation
+- matrix/l12-counterfactual-simulation
 - domain/cognitive-matrix
 - trang-framework-recursive-ontology-dynamics
 rscf:

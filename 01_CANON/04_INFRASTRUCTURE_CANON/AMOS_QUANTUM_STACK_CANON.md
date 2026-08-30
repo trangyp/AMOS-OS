@@ -19,17 +19,12 @@ tags:
 - infrastructure_canon
 - quantum_stack
 - amos_quantum_stack
-- 01_canon
 - canon_placeholder
 - rscf
 - provenance
 - lineage
 - unknown_gap
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER

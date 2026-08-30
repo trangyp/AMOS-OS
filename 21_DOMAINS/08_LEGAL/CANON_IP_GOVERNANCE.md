@@ -15,7 +15,6 @@ tags:
 - amos-os
 - domain
 - vault
-- 21_domains
 - 08_legal
 - canon_ip_governance
 - intellectual_property

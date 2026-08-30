@@ -6,7 +6,6 @@ tags:
 - logic
 - bridge
 - registry
-- 2026-08-22-tests-logic-bridge-registry
 ---
 
 # 2026 08 22 tests logic bridge registry

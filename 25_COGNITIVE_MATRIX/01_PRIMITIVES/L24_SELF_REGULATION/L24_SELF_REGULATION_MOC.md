@@ -3,9 +3,8 @@ title: L24 Self Regulation MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L24_SELF_REGULATION
 tags:
-- l24-self-regulation
+- matrix/l24-self-regulation
 - domain/cognitive-matrix
-- cognitive-matrix-l24-self-regulation-contract
 moc: true
 rscf:
   state: DERIVED

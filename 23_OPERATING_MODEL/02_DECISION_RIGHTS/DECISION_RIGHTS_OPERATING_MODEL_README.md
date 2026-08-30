@@ -4,18 +4,12 @@ type: model
 source: 23_OPERATING_MODEL/02_DECISION_RIGHTS
 tags:
 - amos-os
-- 23_operating_model
 - canon/operating-model
 - readme
 - decision-rights
-- operating-model-decision-rights-contract
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

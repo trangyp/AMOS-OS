@@ -5,7 +5,6 @@ source: 03_CONTROL_PLANE/09_COMMIT/20_PLANNING_MODES
 tags:
 - 20-planning-modes
 - canon/control-plane
-- planning-modes-commit-control-plane-readme
 moc: true
 rscf:
   state: DERIVED

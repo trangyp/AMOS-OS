@@ -5,9 +5,6 @@ source: 24_ARCHIVE/03_EXPERIMENTAL
 tags:
 - 03-experimental
 - canon/archive
-- archive-experimental-contract
-- experimental-archive-readme
-- experimental-framework-registry
 moc: true
 rscf:
   state: DERIVED

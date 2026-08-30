@@ -12,7 +12,6 @@ tags:
 - reasoning-brain
 - worklog
 - canon/agent
-- agent-registry
 - agent-naming-convention
 - skill
 rscf:

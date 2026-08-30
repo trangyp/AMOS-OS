@@ -5,8 +5,6 @@ source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS
 tags:
 - 02-lifecycle-operations
 - domain/cognitive-matrix
-- cognitive-matrix-lifecycle-operations-contract
-- lifecycle-operations-cognitive-matrix-readme
 moc: true
 rscf:
   state: DERIVED

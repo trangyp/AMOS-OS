@@ -5,7 +5,6 @@ source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O11_GOAL
 tags:
 - o11-goal
 - domain/cognitive-matrix
-- cognitive-matrix-o11-goal-contract
 - o11-goal-lifecycle-operations-cognitive-matrix-hml
 moc: true
 rscf:

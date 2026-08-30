@@ -6,8 +6,6 @@ tags:
 - 15-c05-mind-behavior
 - canon/domain
 - c05-mind-behavior-domains-domain-spec
-- c05-mind-behavior-domains-readme
-- domains-c05-mind-behavior-contract
 moc: true
 rscf:
   state: DERIVED

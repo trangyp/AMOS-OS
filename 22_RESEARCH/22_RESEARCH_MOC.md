@@ -5,8 +5,6 @@ source: 22_RESEARCH
 tags:
 - 22-research
 - canon/research
-- research-readme
-- research-research-contract
 - amos-home
 moc: true
 rscf:

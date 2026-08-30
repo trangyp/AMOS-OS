@@ -4,17 +4,11 @@ type: index
 source: 07_SKILLS/00_INDEX
 tags:
 - amos-os
-- 07_skills
 - type/skill
 - readme
-- skill-map
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

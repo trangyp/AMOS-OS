@@ -7,14 +7,9 @@ tags:
 - o06_model
 - domain/cognitive-matrix
 - readme
-- o06-model-map
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

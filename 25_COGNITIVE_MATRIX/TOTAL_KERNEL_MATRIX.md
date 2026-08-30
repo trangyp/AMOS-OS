@@ -15,7 +15,6 @@ tags:
 - amos-os
 - cognitive-matrix
 - vault
-- 25_cognitive_matrix
 - total_kernel_matrix
 - kernel_routing
 - kernel_convergence
@@ -47,7 +46,6 @@ tags:
 - total-framework-matrix
 - k-rscf
 - k-hml
-- k-canon
 - k-fail-closed
 - k-provenance
 - k-governed-evolution

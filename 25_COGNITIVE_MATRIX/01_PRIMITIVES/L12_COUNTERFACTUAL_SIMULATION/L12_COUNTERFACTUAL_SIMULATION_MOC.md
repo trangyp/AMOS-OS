@@ -3,7 +3,7 @@ title: L12 Counterfactual Simulation MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L12_COUNTERFACTUAL_SIMULATION
 tags:
-- l12-counterfactual-simulation
+- matrix/l12-counterfactual-simulation
 - domain/cognitive-matrix
 moc: true
 rscf:

@@ -7,7 +7,6 @@ tags:
 - skills
 - type/skill
 - law-hierarchy
-- skills-readme
 - trang-framework-recursive-ontology-dynamics
 moc: true
 rscf:

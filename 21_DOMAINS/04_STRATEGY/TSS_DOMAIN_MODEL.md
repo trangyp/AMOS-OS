@@ -15,7 +15,6 @@ tags:
 - amos-os
 - domain
 - vault
-- 21_domains
 - 04_strategy
 - tss_domain_model
 - lifecycle_strategy

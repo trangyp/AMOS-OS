@@ -6,8 +6,6 @@ tags:
 - 02-decision-rights
 - canon/operating-model
 - decision-rights
-- decision-rights-operating-model-readme
-- operating-model-decision-rights-contract
 moc: true
 rscf:
   state: DERIVED

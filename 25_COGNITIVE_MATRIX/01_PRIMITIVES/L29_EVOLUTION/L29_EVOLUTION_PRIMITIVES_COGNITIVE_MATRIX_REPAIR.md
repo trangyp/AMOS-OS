@@ -4,7 +4,7 @@ type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L29_EVOLUTION
 tags:
 - note
-- l29-evolution
+- matrix/l29-evolution
 - domain/cognitive-matrix
 - trang-framework-recursive-ontology-dynamics
 rscf:

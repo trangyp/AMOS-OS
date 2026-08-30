@@ -4,18 +4,11 @@ type: index
 source: 21_DOMAINS/14_C04_BIO_NEURO/00_INDEX
 tags:
 - amos-os
-- 21_domains
 - canon/domain
 - readme
-- c04-bio-neuro-map
 - routing-policy-validation-receipt
-- c04-bio-neuro-domains-c04-bio-neuro-contract
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -3,7 +3,6 @@ title: 00 ROOT CONTRACT
 type: note
 source: 00_ROOT
 tags:
-- 00_root
 - contract
 - canon/root
 rscf:

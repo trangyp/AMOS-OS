@@ -5,13 +5,6 @@ source: 13_MODELS/04_DOMAIN
 tags:
 - 04-domain
 - canon/model
-- heritage-model-registry
-- neurosyncai-model-registry
-- qcla-model-registry
-- qls-model-registry
-- tpe-model-registry
-- tss-model-registry
-- ubi-model-registry
 - rscf/claim
 - rscf/provenance
 - rscf/state/observation

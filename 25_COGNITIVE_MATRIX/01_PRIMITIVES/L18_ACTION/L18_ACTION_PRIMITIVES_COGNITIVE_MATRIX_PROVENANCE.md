@@ -4,7 +4,7 @@ type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L18_ACTION
 tags:
 - note
-- l18-action
+- matrix/l18-action
 - domain/cognitive-matrix
 - trang-framework-recursive-ontology-dynamics
 rscf:

@@ -5,7 +5,6 @@ source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O06_MODEL
 tags:
 - o06-model
 - domain/cognitive-matrix
-- cognitive-matrix-o06-model-contract
 moc: true
 rscf:
   state: DERIVED

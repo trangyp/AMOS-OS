@@ -30,11 +30,10 @@ tags:
 - amos-os
 - cognitive-matrix
 - vault
-- 25_cognitive_matrix
 - ulk_x_rscf
 - ulk_x_rscf_matrix
 - matrix_table
-- cross_plane
+- cross-plane
 - cross_plane_matrix
 - universal_logic_kernel
 - ulk

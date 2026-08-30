@@ -4,16 +4,11 @@ type: operation
 source: 20_OPERATIONS/01_RUNBOOKS
 tags:
 - amos-os
-- 20_operations
 - canon/operations
 - readme
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

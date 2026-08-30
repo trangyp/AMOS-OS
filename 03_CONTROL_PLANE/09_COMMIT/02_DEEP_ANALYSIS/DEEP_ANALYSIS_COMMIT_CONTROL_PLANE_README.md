@@ -16,10 +16,8 @@ tags:
 - commit-control-plane-exit-criteria
 - commit-control-plane-failure-recovery
 - commit-control-plane-governance
-- commit-control-plane-input-contract
 - commit-control-plane-layer-weights
 - commit-control-plane-observability
-- commit-control-plane-output-contract
 - commit-control-plane-preconditions
 - commit-control-plane-purpose-scope
 - commit-control-plane-routing-bindings
@@ -31,10 +29,6 @@ tags:
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

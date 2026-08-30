@@ -4,16 +4,11 @@ type: integration
 source: 21_DOMAINS/38_API_INTEGRATION
 tags:
 - amos-os
-- 21_domains
 - canon/domain
 - integration
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

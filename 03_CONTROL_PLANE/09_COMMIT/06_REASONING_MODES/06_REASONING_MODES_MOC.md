@@ -5,7 +5,6 @@ source: 03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES
 tags:
 - 06-reasoning-modes
 - canon/control-plane
-- reasoning-modes-commit-control-plane-readme
 moc: true
 rscf:
   state: DERIVED

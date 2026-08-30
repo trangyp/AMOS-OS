@@ -5,7 +5,6 @@ source: 03_CONTROL_PLANE/09_COMMIT/36_RISK_SAFETY_MODES
 tags:
 - 36-risk-safety-modes
 - canon/control-plane
-- risk-safety-modes-commit-control-plane-readme
 moc: true
 rscf:
   state: DERIVED

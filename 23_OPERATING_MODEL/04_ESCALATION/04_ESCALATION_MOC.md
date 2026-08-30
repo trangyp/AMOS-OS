@@ -5,9 +5,7 @@ source: 23_OPERATING_MODEL/04_ESCALATION
 tags:
 - 04-escalation
 - canon/operating-model
-- escalation-operating-model-readme
 - escalation-paths
-- operating-model-escalation-contract
 moc: true
 rscf:
   state: DERIVED

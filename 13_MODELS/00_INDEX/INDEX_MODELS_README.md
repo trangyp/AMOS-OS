@@ -37,13 +37,11 @@ resolution_policy:
   - '[[AMOS_RSCF_NODES]]'
 tags:
 - amos-os
-- 13_models
 - 00_index
 - models
 - model
 - index
 - readme
-- model-index
 - model-navigation
 - model-discovery
 - model-resolution
@@ -78,13 +76,8 @@ tags:
 - competing-models
 - epistemic-regime
 - canon/model
-- model-map
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
-- observability-readme
-- kernel-readme
-- control-plane-readme
-- operations-readme
 - law-hierarchy
 - model-index-navigation
 - local-basename-resolution

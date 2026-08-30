@@ -5,7 +5,7 @@ source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
 tags:
 - cognitive-matrix
 - primitives
-- l03_percept_formation
+- matrix/l03-percept-formation
 - note
 - domain/cognitive-matrix
 rscf:

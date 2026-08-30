@@ -4,18 +4,12 @@ type: logic
 source: 21_DOMAINS/11_C01_META_LOGIC
 tags:
 - amos-os
-- 21_domains
 - canon/domain
 - readme
 - c01-meta-logic-domains-domain-spec
-- domains-c01-meta-logic-contract
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

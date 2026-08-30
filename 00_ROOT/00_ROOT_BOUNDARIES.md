@@ -29,7 +29,6 @@ tags:
 - revocation
 - capability-manifest
 - policy-engine
-- policy-registry
 - policy-decision
 - architecture
 rscf:

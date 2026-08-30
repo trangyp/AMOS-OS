@@ -5,9 +5,7 @@ source: 03_CONTROL_PLANE/05_PROVENANCE
 tags:
 - 05-provenance
 - canon/control-plane
-- control-plane-provenance-contract
 - observed-read-set
-- provenance-control-plane-readme
 - provenance-ledger
 - read-set-validator
 moc: true

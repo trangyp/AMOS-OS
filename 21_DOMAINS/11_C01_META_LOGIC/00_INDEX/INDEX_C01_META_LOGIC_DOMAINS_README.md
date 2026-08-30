@@ -4,18 +4,11 @@ type: index
 source: 21_DOMAINS/11_C01_META_LOGIC/00_INDEX
 tags:
 - amos-os
-- 21_domains
 - canon/domain
 - readme
-- c01-meta-logic-map
 - routing-policy-validation-receipt
-- c01-meta-logic-domains-c01-meta-logic-contract
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

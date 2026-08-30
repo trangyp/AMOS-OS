@@ -5,8 +5,6 @@ source: 09_PROTOCOLS
 tags:
 - 09-protocols
 - canon/protocol
-- protocols-protocol-contract
-- protocols-readme
 - amos-home
 moc: true
 rscf:

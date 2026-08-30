@@ -20,9 +20,9 @@ tags:
 - auditability
 - integrity
 - canon/universe
-- l8-execution
-- l23-mvcc-cas
-- l24-causal-epoch
+- law/L8-execution
+- law/L23-mvcc-cas
+- law/L24-causal-epoch
 rscf:
   state: CANON_LAW
   claim_class: CANONICAL_INVARIANT

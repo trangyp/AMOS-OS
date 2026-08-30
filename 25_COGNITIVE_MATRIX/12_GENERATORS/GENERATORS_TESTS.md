@@ -13,7 +13,6 @@ artifact_kind: TEST
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_TESTS.md
 tags:
 - 12_generators
-- 25_cognitive_matrix
 - amos-os
 - domain/cognitive-matrix
 - canon/universe
@@ -24,7 +23,6 @@ tags:
 - test
 - tests
 - placeholder_expanded
-- generator-contract
 - validation
 - fractal-knowledge-network
 - mvcc-cas
@@ -37,9 +35,6 @@ tags:
 - binding-rules
 - routing-policy
 - routing-audit
-- generator-registry
-- mode-registry
-- authority-registry
 - authoritative-state
 version: 0.2.0
 updated: '2026-08-27'

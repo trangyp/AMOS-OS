@@ -18,7 +18,6 @@ tags:
 - amos-os
 - model
 - specification
-- 13_models
 - registry
 - canon_placeholder
 - rscf
@@ -41,10 +40,6 @@ tags:
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - rscf/claim
 - rscf/provenance
 - rscf/state/observation

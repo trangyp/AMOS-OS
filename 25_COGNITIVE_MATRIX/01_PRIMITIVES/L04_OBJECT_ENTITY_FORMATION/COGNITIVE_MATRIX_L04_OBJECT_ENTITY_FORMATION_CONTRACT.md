@@ -5,10 +5,9 @@ source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION
 tags:
 - cognitive-matrix
 - primitives
-- l04_object_entity_formation
+- matrix/l04-object-entity-formation
 - contract
 - domain/cognitive-matrix
-- cognitive-matrix-primitives-contract
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

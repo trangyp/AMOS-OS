@@ -7,14 +7,9 @@ tags:
 - c02_metacognitive
 - domain/cognitive-matrix
 - readme
-- c02-metacognitive-map
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

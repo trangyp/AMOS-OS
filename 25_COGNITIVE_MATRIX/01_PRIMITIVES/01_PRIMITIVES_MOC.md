@@ -5,8 +5,6 @@ source: 25_COGNITIVE_MATRIX/01_PRIMITIVES
 tags:
 - 01-primitives
 - domain/cognitive-matrix
-- cognitive-matrix-primitives-contract
-- primitives-cognitive-matrix-readme
 moc: true
 rscf:
   state: DERIVED

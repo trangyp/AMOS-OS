@@ -15,7 +15,6 @@ tags:
 - amos-os
 - cognitive-matrix
 - vault
-- 25_cognitive_matrix
 - heritage_x_trang_zero_matrix
 - heritage
 - trang_zero

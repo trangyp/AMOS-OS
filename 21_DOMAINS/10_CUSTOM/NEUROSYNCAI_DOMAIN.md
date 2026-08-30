@@ -15,7 +15,6 @@ tags:
 - amos-os
 - domain
 - vault
-- 21_domains
 - 10_custom
 - neurosyncai_domain
 - bio_adaptive_orchestration

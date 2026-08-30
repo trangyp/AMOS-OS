@@ -4,7 +4,7 @@ type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION/00_INDEX
 tags:
 - cognitive-matrix
-- l04_object_entity_formation
+- matrix/l04-object-entity-formation
 - domain/cognitive-matrix
 - validation-evidence
 - trang-framework-recursive-ontology-dynamics

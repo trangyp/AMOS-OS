@@ -6,9 +6,7 @@ tags:
 - 10-routing
 - domain/cognitive-matrix
 - binding-rules
-- cognitive-matrix-routing-contract
 - routing-audit
-- routing-cognitive-matrix-readme
 - routing-policy
 moc: true
 rscf:

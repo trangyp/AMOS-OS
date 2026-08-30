@@ -4,12 +4,10 @@ type: index
 source: 23_OPERATING_MODEL/05_SERVICE_LEVELS/00_INDEX
 tags:
 - amos-os
-- 23_operating_model
 - canon/operating-model
 - readme
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
-- service-levels-map
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

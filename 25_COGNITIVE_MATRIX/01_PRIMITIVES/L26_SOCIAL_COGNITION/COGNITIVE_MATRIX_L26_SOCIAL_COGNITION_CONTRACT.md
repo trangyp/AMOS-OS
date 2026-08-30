@@ -5,10 +5,9 @@ source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L26_SOCIAL_COGNITION
 tags:
 - cognitive-matrix
 - primitives
-- l26_social_cognition
+- matrix/l26-social-cognition
 - contract
 - domain/cognitive-matrix
-- cognitive-matrix-primitives-contract
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

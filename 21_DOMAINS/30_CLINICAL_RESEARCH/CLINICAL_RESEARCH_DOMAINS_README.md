@@ -4,18 +4,12 @@ type: research
 source: 21_DOMAINS/30_CLINICAL_RESEARCH
 tags:
 - amos-os
-- 21_domains
 - canon/domain
 - readme
 - clinical-research-domains-domain-spec
-- domains-clinical-research-contract
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

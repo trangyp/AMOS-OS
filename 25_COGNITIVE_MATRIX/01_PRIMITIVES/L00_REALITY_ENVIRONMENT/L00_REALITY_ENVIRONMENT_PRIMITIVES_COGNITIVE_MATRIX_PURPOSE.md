@@ -16,7 +16,6 @@ tags:
 - tensors
 - ai
 - domain/cognitive-matrix
-- cosmo-brain-bridge-index
 rscf:
   state: DERIVED
   claim_class: DERIVED

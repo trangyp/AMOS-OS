@@ -5,13 +5,11 @@ source: 25_COGNITIVE_MATRIX/04_SCALES/H_HIGH_SCALE
 tags:
 - h-high-scale
 - domain/cognitive-matrix
-- cognitive-matrix-h-high-scale-contract
 - h-high-scale-scales-cognitive-matrix-boundaries
 - h-high-scale-scales-cognitive-matrix-definition
 - h-high-scale-scales-cognitive-matrix-dependencies
 - h-high-scale-scales-cognitive-matrix-gap-matrix
 - h-high-scale-scales-cognitive-matrix-invariants
-- h-high-scale-scales-cognitive-matrix-readme
 - h-high-scale-scales-cognitive-matrix-rscf
 - h-high-scale-scales-cognitive-matrix-semantics
 - h-high-scale-scales-cognitive-matrix-tests

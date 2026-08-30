@@ -9,10 +9,10 @@ tags:
 - epistemic_boundary
 - law/L0-integrity
 - provenance-x-confidence
-- l5-scope-regime
-- l21-epistemic-regime
+- law/L5-scope-regime
+- law/L21-epistemic-regime
 - epistemic-regimes
-- l30-authority-boundary
+- law/L30-authority-boundary
 - persistent-provenance
 - fail-closed-governance
 - scope-regime-validation-receipt

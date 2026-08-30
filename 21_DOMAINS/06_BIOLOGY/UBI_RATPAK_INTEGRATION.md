@@ -15,7 +15,6 @@ tags:
 - amos-os
 - domain
 - vault
-- 21_domains
 - 06_biology
 - ubi_ratpak_integration
 - binary_serialization

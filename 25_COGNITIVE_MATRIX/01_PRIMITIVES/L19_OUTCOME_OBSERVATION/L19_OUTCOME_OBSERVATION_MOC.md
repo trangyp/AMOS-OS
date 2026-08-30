@@ -3,9 +3,8 @@ title: L19 Outcome Observation MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L19_OUTCOME_OBSERVATION
 tags:
-- l19-outcome-observation
+- matrix/l19-outcome-observation
 - domain/cognitive-matrix
-- cognitive-matrix-l19-outcome-observation-contract
 moc: true
 rscf:
   state: DERIVED

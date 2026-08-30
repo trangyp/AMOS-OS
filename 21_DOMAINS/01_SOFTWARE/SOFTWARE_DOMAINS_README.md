@@ -4,20 +4,14 @@ type: note
 source: 21_DOMAINS/01_SOFTWARE
 tags:
 - amos-os
-- 21_domains
 - canon/domain
 - readme
-- domains-software-contract
 - software-domains-domain-spec
 - software-domains-interfaces
 - software-domains-provenance
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

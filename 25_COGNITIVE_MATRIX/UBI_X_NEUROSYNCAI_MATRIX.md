@@ -16,10 +16,9 @@ artifact_kind: MATRIX_TABLE
 path: 25_COGNITIVE_MATRIX/UBI_X_NEUROSYNCAI_MATRIX.md
 
 tags:
-  - amos_os
-  - cognitive_matrix
+  - amos-os
+  - cognitive-matrix
   - vault
-  - 25_cognitive_matrix
   - ubi_x_neurosyncai
   - ubi_x_neurosyncai_matrix
   - matrix_table

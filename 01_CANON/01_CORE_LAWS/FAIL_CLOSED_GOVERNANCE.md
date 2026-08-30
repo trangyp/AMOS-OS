@@ -35,9 +35,6 @@ tags:
 - canon/core
 - law-hierarchy
 - atomic-multi-rscf-reasoning
-- invariant-registry
-- kernel-readme
-- control-plane-readme
 version: 1.0.0
 updated: '2026-08-28'
 status: ACTIVE_REFERENCE

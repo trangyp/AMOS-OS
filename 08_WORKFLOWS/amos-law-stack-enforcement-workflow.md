@@ -7,7 +7,7 @@ Version: 1.1.0
 title: AMOS Law Stack Enforcement
 tags:
 - type/workflow
-- domain/canon_enforcement
+- domain/canon-enforcement
 - amos-os
 ---
 

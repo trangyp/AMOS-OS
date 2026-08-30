@@ -26,12 +26,12 @@ tags:
 - validation
 - law-hierarchy
 - trang-framework-recursive-ontology-dynamics
-- l17-rscf
-- l18-gmef
-- l19-proof-capsule
-- l20-adversarial
-- l21-epistemic-regime
-- l16-hml
+- law/L17-rscf
+- law/L18-gmef
+- law/L19-proof-capsule
+- law/L20-adversarial
+- law/L21-epistemic-regime
+- law/L16-hml
 - provenance-topology
 - persistent-provenance
 - competing-hypotheses
@@ -42,9 +42,9 @@ tags:
 - causal-epoch-finality
 - shard-local-finalization
 - proof-based-coordination-avoidance
-- l10-failure-recovery
-- l11-knowledge-memory
-- l15-fractal-knowledge
+- law/L10-failure-recovery
+- law/L11-knowledge-memory
+- law/L15-fractal-knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

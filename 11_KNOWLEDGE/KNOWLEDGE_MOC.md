@@ -36,7 +36,6 @@ tags:
 - amos-value-creation-os
 - amos-vietnamese-global-cultural-bridge-governor
 - claim-tensor
-- cosmo-brain-bridge-index
 - environment-scan-agent
 - evidence-tensor
 - executor-agent
@@ -46,7 +45,6 @@ tags:
 - relation-tensor
 - tensors
 - tensor-contracts
-- tensor-registry
 - trang-framework-recursive-ontology-dynamics
 - amos-llm-wiki
 - amos-home

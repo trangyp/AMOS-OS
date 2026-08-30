@@ -60,7 +60,6 @@ tags:
 - canon
 - cognition
 - attention
-- 01_canon
 - 03_cognition_canon
 - canon_placeholder
 - rscf
@@ -79,10 +78,6 @@ tags:
 - regime
 - validation
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 title: AMOS Attention Canon

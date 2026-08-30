@@ -4,13 +4,10 @@ type: index
 source: 24_ARCHIVE/02_SUPERSEDED/00_INDEX
 tags:
 - amos-os
-- 24_archive
 - canon/archive
 - readme
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
-- superseded-archive-superseded-contract
-- superseded-map
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

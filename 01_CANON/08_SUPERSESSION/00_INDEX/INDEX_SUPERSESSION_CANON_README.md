@@ -6,16 +6,8 @@ tags:
 - 00_INDEX
 - canon/universe
 - readme
-- supersession-canon-supersession-contract
-- supersession-map
 - law-hierarchy
 - canon
-- hml-canon
-- persistence-canon
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 rscf:

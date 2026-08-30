@@ -4,7 +4,7 @@ type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L27_MULTI_AGENT_COGNITION
 tags:
 - note
-- l27-multi-agent-cognition
+- matrix/l27-multi-agent-cognition
 - domain/cognitive-matrix
 - trang-framework-recursive-ontology-dynamics
 rscf:

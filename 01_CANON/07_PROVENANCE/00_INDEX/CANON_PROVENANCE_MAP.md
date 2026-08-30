@@ -4,18 +4,11 @@ type: canon
 source: 01_CANON/07_PROVENANCE/00_INDEX
 tags:
 - amos-os
-- 01_canon
 - canon/universe
-- provenance-canon-map
-- provenance-canon-provenance-contract
 - canon
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

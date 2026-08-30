@@ -5,7 +5,6 @@ source: 03_CONTROL_PLANE/09_COMMIT/14_COMPOSITE_MODES
 tags:
 - 14-composite-modes
 - canon/control-plane
-- composite-modes-commit-control-plane-readme
 moc: true
 rscf:
   state: DERIVED

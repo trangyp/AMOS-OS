@@ -15,7 +15,6 @@ tags:
 - amos-os
 - domain
 - vault
-- 21_domains
 - 04_strategy
 - tpe_domain_model
 - predictive_foresight

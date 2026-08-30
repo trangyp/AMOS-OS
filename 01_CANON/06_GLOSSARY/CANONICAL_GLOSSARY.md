@@ -36,24 +36,9 @@ tags:
 - topic/epistemics
 - readme
 - architecture
-- system-map
 - neural-network
-- canon-map
 - amos-core-laws
-- invariant-registry
 - law-hierarchy
-- amos-7-part-universe-canon
-- hml-canon
-- persistence-canon
-- cognition-canon
-- cognitive-organism-canon
-- full-brain-os-canon
-- authority-canon
-- control-plane-canon
-- infrastructure-canon
-- symbol-registry
-- unit-registry
-- universal-variable-registry
 aliases:
 - AMOS Canonical Glossary - AMOS OS Glossary - Canonical Terminology Registry - AMOS
   Semantic

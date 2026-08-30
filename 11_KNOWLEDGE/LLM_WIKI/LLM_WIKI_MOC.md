@@ -7,9 +7,7 @@ tags:
 - 11-knowledge
 - canon/knowledge
 - amos-llm-wiki
-- llm-wiki-index
 - llm-wiki-log
-- llm-wiki-raw-readme
 - amos-llm-wiki-tool
 - karpathy-llm-wiki-summary
 moc: true

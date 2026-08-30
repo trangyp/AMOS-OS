@@ -3,7 +3,6 @@ title: Amos-Flow-Canon MOC
 type: moc
 source: 07_SKILLS/amos-flow-canon
 tags:
-- amos-flow-canon
 - type/skill
 - skill
 - references

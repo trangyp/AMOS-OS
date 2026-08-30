@@ -4,7 +4,7 @@ type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION
 tags:
 - note
-- l04-object-entity-formation
+- matrix/l04-object-entity-formation
 - domain/cognitive-matrix
 - trang-framework-recursive-ontology-dynamics
 rscf:

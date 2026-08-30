@@ -4,7 +4,6 @@ type: reference
 source: 07_SKILLS/amos-strict-fractal-equation-rscf-registry/references
 tags:
 - reference
-- amos-strict-fractal-equation-rscf-registry
 - type/skill
 - law-hierarchy
 - trang-framework-recursive-ontology-dynamics

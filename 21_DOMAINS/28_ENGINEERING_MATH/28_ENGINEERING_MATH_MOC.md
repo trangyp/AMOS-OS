@@ -5,9 +5,7 @@ source: 21_DOMAINS/28_ENGINEERING_MATH
 tags:
 - 28-engineering-math
 - canon/domain
-- domains-engineering-math-contract
 - engineering-math-domains-domain-spec
-- engineering-math-domains-readme
 moc: true
 rscf:
   state: DERIVED

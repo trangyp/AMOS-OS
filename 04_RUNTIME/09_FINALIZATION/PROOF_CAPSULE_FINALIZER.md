@@ -15,7 +15,6 @@ tags:
 - amos-os
 - runtime
 - vault
-- 04_runtime
 - 09_finalization
 - proof_capsule_finalizer
 - cryptographic_signing

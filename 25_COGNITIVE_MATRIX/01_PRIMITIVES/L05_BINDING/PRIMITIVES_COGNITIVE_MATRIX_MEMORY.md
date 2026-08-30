@@ -4,7 +4,7 @@ type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L05_BINDING
 tags:
 - note
-- l05-binding
+- matrix/l05-binding
 - domain/cognitive-matrix
 - trang-framework-recursive-ontology-dynamics
 rscf:

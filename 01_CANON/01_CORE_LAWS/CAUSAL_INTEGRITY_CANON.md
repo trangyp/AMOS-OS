@@ -19,7 +19,6 @@ tags:
 - amos-os
 - canon
 - universe
-- 01_canon
 - core_laws
 - causal_integrity
 - causal_firewall
@@ -37,7 +36,7 @@ tags:
 - canon/universe
 - placeholder_expanded
 - architecture
-- l19-proof-capsule
+- law/L19-proof-capsule
 - law-hierarchy
 - canon-law-crosswalk
 - routing-policy-validation-receipt

@@ -11,7 +11,6 @@ tags:
 - optimization-claim-governance
 - qci-claim-class-governance
 - relation-topology
-- rscf-contract
 - rscf-proof-capsule
 - rscf-state-architecture
 - validate-rscf

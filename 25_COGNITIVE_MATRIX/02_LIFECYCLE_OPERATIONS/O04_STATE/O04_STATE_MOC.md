@@ -5,7 +5,6 @@ source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O04_STATE
 tags:
 - o04-state
 - domain/cognitive-matrix
-- cognitive-matrix-o04-state-contract
 moc: true
 rscf:
   state: DERIVED

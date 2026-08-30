@@ -15,7 +15,6 @@ tags:
 - amos-os
 - knowledge
 - vault
-- 11_knowledge
 - 05_frameworks
 - trang_framework_lineage
 - conceptual_lineage
@@ -27,7 +26,6 @@ tags:
 - trang-reality-architecture
 - trang-zero-framework
 - trang-grand-system-codex
-- trang-equation-registry
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

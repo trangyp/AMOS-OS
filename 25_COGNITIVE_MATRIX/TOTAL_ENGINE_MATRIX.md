@@ -15,7 +15,6 @@ tags:
 - amos-os
 - cognitive-matrix
 - vault
-- 25_cognitive_matrix
 - total_engine_matrix
 - engine_routing
 - multi_engine_convergence
@@ -28,7 +27,7 @@ tags:
 - asea
 - dcp
 - fail_closed
-- cross_plane
+- cross-plane
 - control-plane
 - runtime
 - domains
@@ -42,7 +41,6 @@ tags:
 - tpe-trang-prediction-engine
 - k-rscf
 - k-hml
-- k-canon
 - k-control-plane
 - k-domains
 - k-provenance

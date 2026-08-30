@@ -5,8 +5,6 @@ source: 12_STATE
 tags:
 - 12-state
 - canon/state
-- state-readme
-- state-state-contract
 - amos-home
 moc: true
 rscf:

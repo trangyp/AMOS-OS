@@ -5,8 +5,6 @@ source: 10_MEMORY
 tags:
 - 10-memory
 - canon/memory
-- memory-memory-contract
-- memory-readme
 - amos-home
 moc: true
 rscf:

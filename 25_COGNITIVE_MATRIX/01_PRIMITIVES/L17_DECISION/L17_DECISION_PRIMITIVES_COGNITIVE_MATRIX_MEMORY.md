@@ -4,7 +4,7 @@ type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L17_DECISION
 tags:
 - note
-- l17-decision
+- matrix/l17-decision
 - domain/cognitive-matrix
 - trang-framework-recursive-ontology-dynamics
 rscf:

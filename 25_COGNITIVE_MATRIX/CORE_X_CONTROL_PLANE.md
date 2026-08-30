@@ -15,7 +15,6 @@ tags:
 - amos-os
 - cognitive-matrix
 - vault
-- 25_cognitive_matrix
 - core_x_control_plane
 - control_plane_governance
 - authority_routing

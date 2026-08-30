@@ -5,8 +5,6 @@ source: 21_DOMAINS/42_SECTOR_VALUE_CHAIN
 tags:
 - 42-sector-value-chain
 - canon/domain
-- domains-sector-value-chain-contract
-- sector-value-chain-domains-readme
 moc: true
 rscf:
   state: DERIVED

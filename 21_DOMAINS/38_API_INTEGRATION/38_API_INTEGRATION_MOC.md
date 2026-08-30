@@ -5,8 +5,6 @@ source: 21_DOMAINS/38_API_INTEGRATION
 tags:
 - 38-api-integration
 - canon/domain
-- api-integration-domains-readme
-- domains-api-integration-contract
 moc: true
 rscf:
   state: DERIVED

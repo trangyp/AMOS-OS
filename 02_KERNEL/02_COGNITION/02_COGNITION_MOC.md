@@ -5,8 +5,6 @@ source: 02_KERNEL/02_COGNITION
 tags:
 - 02-cognition
 - canon/kernel
-- cognition-kernel-readme
-- kernel-cognition-contract
 - k-bioelectromagnetic-bei
 - k-cognition
 - k-cognition-nbi

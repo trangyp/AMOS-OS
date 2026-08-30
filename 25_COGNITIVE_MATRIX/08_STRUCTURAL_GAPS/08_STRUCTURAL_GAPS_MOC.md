@@ -7,9 +7,6 @@ tags:
 - domain/cognitive-matrix
 - gap-priority
 - gap-promotion
-- gap-registry
-- structural-gaps-cognitive-matrix-readme
-- cognitive-matrix-structural-gaps-contract
 moc: true
 rscf:
   state: DERIVED

@@ -11,11 +11,9 @@ rscf:
   falsifiers: []
 tags:
 - note
-- cognitive-matrix-generators-contract
 - generators-audit
 - generators-benchmarks
 - generators-change-log
-- generators-cognitive-matrix-readme
 - generators-history
 - generators-integration
 - generators-provenance
@@ -24,11 +22,9 @@ tags:
 - generators-validation
 - generators-versioning
 - generator-admission
-- generator-contract
 - generator-falsification
 - generator-output
 - generator-promotion
-- generator-registry
 - generator-seed
 - generator-supersession
 - generator-templates
@@ -36,7 +32,7 @@ tags:
 - generator-validation
 - generator-versioning
 - k-rscf
-- l17-rscf
+- law/L17-rscf
 canon-group: canon/cognitive-matrix
 ---
 

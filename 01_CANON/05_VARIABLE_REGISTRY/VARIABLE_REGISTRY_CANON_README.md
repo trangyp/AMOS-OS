@@ -4,21 +4,12 @@ type: canon
 source: 01_CANON/05_VARIABLE_REGISTRY
 tags:
 - amos-os
-- 01_canon
 - canon/universe
 - readme
-- canon-variable-registry-contract
-- symbol-registry
-- unit-registry
-- universal-variable-registry
 - canon
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

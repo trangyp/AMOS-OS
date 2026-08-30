@@ -5,7 +5,6 @@ tags:
 - amos
 - agent
 - registry
-- amos-agent-registry
 ---
 
 # amos agent registry

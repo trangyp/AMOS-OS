@@ -5,8 +5,6 @@ source: 21_DOMAINS/43_GEO_GEOPOLITICS
 tags:
 - 43-geo-geopolitics
 - canon/domain
-- domains-geo-geopolitics-contract
-- geo-geopolitics-domains-readme
 moc: true
 rscf:
   state: DERIVED

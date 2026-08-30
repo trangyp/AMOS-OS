@@ -4,10 +4,9 @@ type: state
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L06_WORKING_STATE/00_INDEX
 tags:
 - cognitive-matrix
-- l06_working_state
+- matrix/l06-working-state
 - domain/cognitive-matrix
 - validation-evidence
-- cognitive-matrix-l06-working-state-contract
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

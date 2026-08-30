@@ -4,11 +4,9 @@ type: kernel
 source: 02_KERNEL/09_INTEGRATION
 tags:
 - amos-os
-- 02_kernel
 - canon/kernel
 - integration
 - readme
-- kernel-integration-contract
 - k-binding
 - k-constraint-propagation
 - k-gmef
@@ -18,10 +16,6 @@ tags:
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

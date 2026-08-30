@@ -4,18 +4,12 @@ type: index
 source: 01_CANON/04_INFRASTRUCTURE_CANON/00_INDEX
 tags:
 - amos-os
-- 01_canon
 - canon/universe
 - readme
-- infrastructure-canon-map
 - routing-policy-validation-receipt
 - canon
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

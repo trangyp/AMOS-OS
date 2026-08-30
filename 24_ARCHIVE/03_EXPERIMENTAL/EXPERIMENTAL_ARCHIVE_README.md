@@ -4,7 +4,6 @@ type: experimental
 source: 24_ARCHIVE/03_EXPERIMENTAL
 tags:
 - amos-os
-- 24_archive
 - canon/archive
 - readme
 - routing-policy-validation-receipt

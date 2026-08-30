@@ -3,9 +3,8 @@ title: L00 Reality Environment MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
 tags:
-- l00-reality-environment
+- matrix/l00-reality-environment
 - domain/cognitive-matrix
-- cognitive-matrix-l00-reality-environment-contract
 moc: true
 rscf:
   state: DERIVED

@@ -6,7 +6,6 @@ tags:
 - concept
 - llm-wiki
 - canon/knowledge
-- llm-wiki-index
 - karpathy-llm-wiki-summary
 rscf:
   state: DERIVED

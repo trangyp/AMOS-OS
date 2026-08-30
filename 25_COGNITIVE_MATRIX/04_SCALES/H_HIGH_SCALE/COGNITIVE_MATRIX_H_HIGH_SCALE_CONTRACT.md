@@ -8,7 +8,6 @@ tags:
 - h_high_scale
 - contract
 - domain/cognitive-matrix
-- hml-canon
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

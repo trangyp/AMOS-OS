@@ -15,7 +15,6 @@ tags:
 - amos-os
 - domain
 - vault
-- 21_domains
 - 02_research
 - canon_validation
 - core_laws_verification

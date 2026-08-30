@@ -14,7 +14,7 @@ tags:
 - law/L1-epistemic
 - law/L2-provenance
 - law/L3-dependency
-- l4-causal
+- law/L4-causal
 title: L5 Scope, Regime, and Temporal Laws
 origin_architect: Trang Phan
 status: AMOS_MODEL

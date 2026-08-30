@@ -4,17 +4,12 @@ type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L10_WORLD_MODELING/00_INDEX
 tags:
 - cognitive-matrix
-- l10_world_modeling
+- matrix/l10-world-modeling
 - domain/cognitive-matrix
 - readme
-- l10-world-modeling-map
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

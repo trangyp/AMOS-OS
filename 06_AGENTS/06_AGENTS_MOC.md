@@ -6,11 +6,7 @@ tags:
 - 06-agents
 - canon/agent
 - agent-naming-convention
-- agents-agent-contract
-- agents-readme
 - agent-fix-reasoning-brain
-- amos-agent-registry-index
-- amos-qfm-paper-agents-index
 - amos-home
 moc: true
 rscf:

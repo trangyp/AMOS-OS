@@ -12,12 +12,9 @@ rscf:
 tags:
 - note
 - 12-generators
-- generators-map
-- generator-registry
 - generator-output
 - generator-falsification
 - generator-promotion
-- task-contract
 - task-resolver
 - capability-resolver
 canon-group: canon/cognitive-matrix

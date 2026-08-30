@@ -5,7 +5,6 @@ tags:
 - universe
 - canon
 - contract
-- universe-canon-contract
 ---
 
 # universe canon contract

@@ -15,7 +15,6 @@ tags:
 - amos-os
 - cognitive-matrix
 - matrix
-- 25_cognitive_matrix
 - trang_reality_matrix
 - trang_reality_architecture
 - reality_architecture

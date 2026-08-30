@@ -4,7 +4,7 @@ type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L24_SELF_REGULATION
 tags:
 - note
-- l24-self-regulation
+- matrix/l24-self-regulation
 - domain/cognitive-matrix
 - trang-framework-recursive-ontology-dynamics
 rscf:

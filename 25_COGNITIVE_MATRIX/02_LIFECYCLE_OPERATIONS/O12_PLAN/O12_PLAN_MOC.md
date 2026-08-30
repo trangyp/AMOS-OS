@@ -5,7 +5,6 @@ source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O12_PLAN
 tags:
 - o12-plan
 - domain/cognitive-matrix
-- cognitive-matrix-o12-plan-contract
 - o12-plan-lifecycle-operations-cognitive-matrix-hml
 moc: true
 rscf:

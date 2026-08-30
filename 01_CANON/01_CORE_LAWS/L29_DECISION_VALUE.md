@@ -8,11 +8,11 @@ tags:
 - note
 - canon/universe
 - law-hierarchy
-- l6-uncertainty
-- l7-authority
-- l8-execution
-- l30-authority-boundary
-- l28-critical-gap
+- law/L6-uncertainty
+- law/L7-authority
+- law/L8-execution
+- law/L30-authority-boundary
+- law/L28-critical-gap
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

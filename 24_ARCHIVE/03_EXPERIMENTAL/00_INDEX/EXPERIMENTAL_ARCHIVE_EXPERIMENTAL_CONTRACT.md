@@ -4,7 +4,6 @@ type: experimental
 source: 24_ARCHIVE/03_EXPERIMENTAL/00_INDEX
 tags:
 - amos-os
-- 24_archive
 - canon/archive
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt

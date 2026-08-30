@@ -5,7 +5,6 @@ source: 03_CONTROL_PLANE/09_COMMIT/10_EPISTEMIC_MODES
 tags:
 - 10-epistemic-modes
 - canon/control-plane
-- epistemic-modes-commit-control-plane-readme
 moc: true
 rscf:
   state: DERIVED

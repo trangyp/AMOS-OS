@@ -16,10 +16,10 @@ tags:
 - law/L1-epistemic
 - law/L2-provenance
 - law/L3-dependency
-- l4-causal
-- l5-scope-regime
-- l6-uncertainty
-- l7-authority
+- law/L4-causal
+- law/L5-scope-regime
+- law/L6-uncertainty
+- law/L7-authority
 - routing-policy
 - authority-resolver
 - authority-witness

@@ -4,15 +4,10 @@ type: identity
 source: 00_ROOT
 tags:
 - amos-os
-- 00_root
 - canon/root
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

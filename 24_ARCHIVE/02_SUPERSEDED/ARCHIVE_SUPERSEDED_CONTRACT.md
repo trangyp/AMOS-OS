@@ -4,7 +4,6 @@ type: supersession
 source: 24_ARCHIVE/02_SUPERSEDED
 tags:
 - amos-os
-- 24_archive
 - canon/archive
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt

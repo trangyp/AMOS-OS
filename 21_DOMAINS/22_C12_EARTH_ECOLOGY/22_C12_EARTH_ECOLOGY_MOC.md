@@ -6,8 +6,6 @@ tags:
 - 22-c12-earth-ecology
 - canon/domain
 - c12-earth-ecology-domains-domain-spec
-- c12-earth-ecology-domains-readme
-- domains-c12-earth-ecology-contract
 moc: true
 rscf:
   state: DERIVED

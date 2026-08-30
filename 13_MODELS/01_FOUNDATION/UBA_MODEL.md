@@ -44,7 +44,6 @@ tags:
 - foundation
 - foundation_model
 - 01_foundation
-- 13_models
 - model
 - specification
 - architecture
@@ -110,13 +109,8 @@ tags:
 - models_plane
 - readme
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
-- model-map
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

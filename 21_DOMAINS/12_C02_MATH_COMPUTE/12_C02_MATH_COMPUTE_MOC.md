@@ -6,8 +6,6 @@ tags:
 - 12-c02-math-compute
 - canon/domain
 - c02-math-compute-domains-domain-spec
-- c02-math-compute-domains-readme
-- domains-c02-math-compute-contract
 moc: true
 rscf:
   state: DERIVED

@@ -3,10 +3,7 @@ title: 01 Task Contract MOC
 type: moc
 source: 03_CONTROL_PLANE/01_TASK_CONTRACT
 tags:
-- 01-task-contract
 - canon/control-plane
-- task-contract
-- task-contract-control-plane-readme
 - task-resolver
 moc: true
 rscf:

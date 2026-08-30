@@ -15,7 +15,6 @@ tags:
 - amos-os
 - canon
 - universe
-- 01_canon
 - spec
 - canon_placeholder
 - rscf
@@ -23,10 +22,6 @@ tags:
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 version: 0.1.0
 updated: '2026-08-27'
 status: PLACEHOLDER

@@ -4,7 +4,6 @@ type: model
 source: 22_RESEARCH/03_COMPETING_MODELS/00_INDEX
 tags:
 - amos-os
-- 22_research
 - canon/research
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt

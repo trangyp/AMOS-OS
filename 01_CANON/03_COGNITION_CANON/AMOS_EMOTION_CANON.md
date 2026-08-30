@@ -23,7 +23,6 @@ tags:
 - cognition
 - emotion
 - affect
-- 01_canon
 - 03_cognition_canon
 - canon_placeholder
 - rscf
@@ -33,12 +32,6 @@ tags:
 - validation
 - canon/universe
 - law-hierarchy
-- amos-cognition-canon
-- amos-consciousness-canon
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 version: 0.2.0

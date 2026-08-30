@@ -9,10 +9,8 @@ tags:
 - canon-policy
 - heritage-policy
 - neurosyncai-governance-policy
-- policy-control-plane-readme
 - policy-decision
 - policy-engine
-- policy-registry
 - ubi-integrity-policy
 moc: true
 rscf:

@@ -4,17 +4,11 @@ type: value
 source: 21_DOMAINS/42_SECTOR_VALUE_CHAIN
 tags:
 - amos-os
-- 21_domains
 - canon/domain
 - readme
-- domains-sector-value-chain-contract
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

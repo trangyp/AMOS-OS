@@ -21,7 +21,6 @@ tags:
 - canon
 - cognition
 - universe
-- 01_canon
 - 03_cognition_canon
 - artifact
 - canon_placeholder
@@ -39,10 +38,6 @@ tags:
 - placeholder_expanded
 - architecture
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED

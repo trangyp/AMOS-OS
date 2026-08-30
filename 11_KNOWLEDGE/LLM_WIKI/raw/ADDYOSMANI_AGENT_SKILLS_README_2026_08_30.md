@@ -5,7 +5,6 @@ date: 2026-08-30
 tags:
   - sota
   - agent-skills
-  - skill-registry
   - amos-skill-builder
 ---
 

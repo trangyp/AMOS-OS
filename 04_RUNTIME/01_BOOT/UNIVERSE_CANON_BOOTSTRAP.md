@@ -15,14 +15,12 @@ tags:
 - amos-os
 - runtime
 - vault
-- 04_runtime
 - 01_boot
 - universe_canon_bootstrap
 - 7_part_universe_init
 - rscf
 - canon_candidate
 - canon/runtime
-- amos-x-universe-canon
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

@@ -4,20 +4,14 @@ type: kernel
 source: 02_KERNEL/03_CAUSAL
 tags:
 - amos-os
-- 02_kernel
 - canon/kernel
 - readme
-- kernel-causal-contract
 - k-causal-closure
 - k-causal-epoch
 - k-causal-hierarchy
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

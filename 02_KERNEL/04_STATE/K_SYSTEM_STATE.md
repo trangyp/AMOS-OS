@@ -39,17 +39,11 @@ tags:
 - readme
 - architecture
 - authoritative-state
-- dependency-map
-- canon-map
 - amos-core-laws
-- invariant-registry
 - law-hierarchy
-- persistence-canon
 - canon-provenance
 - source-lineage
-- conflict-registry
 - supersession-log
-- kernel-map
 - k-identity
 - k-context-state
 - k-event-bus
@@ -57,8 +51,6 @@ tags:
 - k-causal-closure
 - k-causal-epoch
 - k-causal-hierarchy
-- control-plane-map
-- runtime-map
 aliases:
 - AMOS System State Kernel - System State Kernel - K System State - K_SYSTEM_STATE
 ---

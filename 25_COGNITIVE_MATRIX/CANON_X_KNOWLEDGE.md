@@ -21,7 +21,7 @@ tags:
 - rscf
 - canon/matrix
 - validation
-- l19-proof-capsule
+- law/L19-proof-capsule
 - canon
 version: 1.0.0
 updated: '2026-08-27'

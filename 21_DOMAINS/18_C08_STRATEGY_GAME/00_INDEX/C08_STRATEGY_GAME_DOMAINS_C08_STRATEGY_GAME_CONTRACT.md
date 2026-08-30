@@ -4,7 +4,6 @@ type: strategy
 source: 21_DOMAINS/18_C08_STRATEGY_GAME/00_INDEX
 tags:
 - amos-os
-- 21_domains
 - canon/domain
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt

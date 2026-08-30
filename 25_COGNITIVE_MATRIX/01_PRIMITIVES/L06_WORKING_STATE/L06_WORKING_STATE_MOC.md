@@ -3,9 +3,8 @@ title: L06 Working State MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L06_WORKING_STATE
 tags:
-- l06-working-state
+- matrix/l06-working-state
 - domain/cognitive-matrix
-- cognitive-matrix-l06-working-state-contract
 moc: true
 rscf:
   state: DERIVED

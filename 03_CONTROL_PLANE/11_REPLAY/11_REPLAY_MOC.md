@@ -5,8 +5,6 @@ source: 03_CONTROL_PLANE/11_REPLAY
 tags:
 - 11-replay
 - canon/control-plane
-- control-plane-replay-contract
-- replay-control-plane-readme
 moc: true
 rscf:
   state: DERIVED

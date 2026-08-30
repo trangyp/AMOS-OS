@@ -4,18 +4,11 @@ type: index
 source: 21_DOMAINS/34_HEALTH_POLICY/00_INDEX
 tags:
 - amos-os
-- 21_domains
 - canon/domain
 - readme
-- health-policy-map
 - routing-policy-validation-receipt
-- health-policy-domains-health-policy-contract
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

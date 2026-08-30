@@ -8,9 +8,6 @@ tags:
 - canon-source-claim-audit
 - cross-framework-validation
 - framework-empirical-status
-- research-validation-contract
-- validation-registry
-- validation-research-readme
 moc: true
 rscf:
   state: DERIVED

@@ -4,18 +4,11 @@ type: index
 source: 22_RESEARCH/05_BENCHMARKS/00_INDEX
 tags:
 - amos-os
-- 22_research
 - canon/research
 - readme
-- benchmarks-map
-- benchmarks-research-benchmarks-contract
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL

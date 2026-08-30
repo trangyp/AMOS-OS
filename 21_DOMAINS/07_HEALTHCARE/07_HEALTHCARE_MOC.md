@@ -7,11 +7,9 @@ tags:
 - canon/domain
 - amos-medical-clinical-kernel
 - biological-integrity-health-model
-- domains-healthcare-contract
 - healthcare-domains-domain-spec
 - healthcare-domains-interfaces
 - healthcare-domains-provenance
-- healthcare-domains-readme
 - ubi-health-application
 moc: true
 rscf:

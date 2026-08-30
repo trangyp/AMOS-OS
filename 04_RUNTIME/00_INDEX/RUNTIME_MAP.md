@@ -4,15 +4,10 @@ type: map
 source: 04_RUNTIME/00_INDEX
 tags:
 - amos-os
-- 04_runtime
 - canon/runtime
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

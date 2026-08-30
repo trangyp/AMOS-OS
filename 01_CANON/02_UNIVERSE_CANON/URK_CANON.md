@@ -12,7 +12,6 @@ segment: 01_CANON/02_UNIVERSE_CANON
 artifact_kind: CANON
 path: 01_CANON/02_UNIVERSE_CANON/URK_CANON.md
 tags:
-- 01_canon
 - 02_universe_canon
 - amos-os
 - canon
@@ -24,10 +23,6 @@ tags:
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED

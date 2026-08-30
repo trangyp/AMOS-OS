@@ -5,7 +5,6 @@ source: 03_CONTROL_PLANE/09_COMMIT/19_LEARNING_MODES
 tags:
 - 19-learning-modes
 - canon/control-plane
-- learning-modes-commit-control-plane-readme
 moc: true
 rscf:
   state: DERIVED

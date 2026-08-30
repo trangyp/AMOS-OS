@@ -11,7 +11,6 @@ tags:
 - control-plane-activation-rules
 - control-plane-aliases
 - control-plane-benchmarks
-- commit-control-plane-mode-family-registry
 - control-plane-composition
 - control-plane-deprecation-supersession
 - control-plane-domain-weights
@@ -19,11 +18,9 @@ tags:
 - control-plane-exit-criteria
 - control-plane-failure-recovery
 - control-plane-governance
-- control-plane-input-contract
 - control-plane-layer-weights
 - control-plane-mode-spec
 - control-plane-observability
-- control-plane-output-contract
 - control-plane-preconditions
 - control-plane-provenance
 - control-plane-purpose-scope
@@ -34,10 +31,6 @@ tags:
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

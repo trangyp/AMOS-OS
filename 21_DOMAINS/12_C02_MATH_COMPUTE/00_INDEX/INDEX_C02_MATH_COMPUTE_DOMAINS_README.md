@@ -4,18 +4,11 @@ type: index
 source: 21_DOMAINS/12_C02_MATH_COMPUTE/00_INDEX
 tags:
 - amos-os
-- 21_domains
 - canon/domain
 - readme
-- c02-math-compute-map
 - routing-policy-validation-receipt
-- c02-math-compute-domains-c02-math-compute-contract
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -14,7 +14,6 @@ path: 25_COGNITIVE_MATRIX/HERITAGE_X_TRANG_ZERO.md
 tags:
 - amos-os
 - cognitive-matrix
-- 25_cognitive_matrix
 - artifact
 - heritage
 - heritage_decision_intelligence
@@ -46,7 +45,6 @@ tags:
 - amos-x-trang-reality
 - amos-x-qls
 - validation
-- trang-zero-framework-canon
 - rollback-basin
 - k-rscf
 - k-hml

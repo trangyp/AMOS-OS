@@ -8,7 +8,6 @@ tags:
 - o03_binding
 - contract
 - domain/cognitive-matrix
-- cognitive-matrix-lifecycle-operations-contract
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

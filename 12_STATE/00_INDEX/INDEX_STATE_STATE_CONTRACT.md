@@ -4,16 +4,10 @@ type: index
 source: 12_STATE/00_INDEX
 tags:
 - amos-os
-- 12_state
 - canon/state
-- state-state-map
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

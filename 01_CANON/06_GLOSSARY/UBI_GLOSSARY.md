@@ -12,7 +12,6 @@ segment: 01_CANON/06_GLOSSARY
 artifact_kind: GLOSSARY
 path: 01_CANON/06_GLOSSARY/UBI_GLOSSARY.md
 tags:
-- 01_canon
 - 06_glossary
 - amos-os
 - canon
@@ -25,10 +24,6 @@ tags:
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED

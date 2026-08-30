@@ -4,7 +4,6 @@ type: legacy
 source: 24_ARCHIVE/00_LEGACY
 tags:
 - amos-os
-- 24_archive
 - canon/archive
 - readme
 - routing-policy-validation-receipt

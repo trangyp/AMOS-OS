@@ -13,7 +13,6 @@ artifact_kind: NOTE
 path: 25_COGNITIVE_MATRIX/11_VALIDATION/PROMOTION_GATES.md
 tags:
 - 11_validation
-- 25_cognitive_matrix
 - amos-os
 - domain/cognitive-matrix
 - canon/universe

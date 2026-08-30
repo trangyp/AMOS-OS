@@ -15,7 +15,6 @@ tags:
 - amos-os
 - cognitive-matrix
 - vault
-- 25_cognitive_matrix
 - ubi_x_cognition_matrix
 - matrix_table
 - ubi

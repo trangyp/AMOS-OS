@@ -4,7 +4,6 @@ type: model
 source: 23_OPERATING_MODEL/04_ESCALATION/00_INDEX
 tags:
 - amos-os
-- 23_operating_model
 - canon/operating-model
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt

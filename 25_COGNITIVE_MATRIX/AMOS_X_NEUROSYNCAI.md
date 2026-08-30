@@ -16,10 +16,6 @@ tags:
 - amos-x-ubi
 - law-hierarchy
 - absolute-biological-integrity
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 canon-group: canon/cognitive-matrix
 ---
 

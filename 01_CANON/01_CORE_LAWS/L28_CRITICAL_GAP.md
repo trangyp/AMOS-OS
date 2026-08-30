@@ -8,11 +8,11 @@ tags:
 - note
 - canon/universe
 - law-hierarchy
-- l27-gap
-- l10-failure-recovery
-- l8-execution
+- law/L27-gap
+- law/L10-failure-recovery
+- law/L8-execution
 - fail-closed-governance
-- l30-authority-boundary
+- law/L30-authority-boundary
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

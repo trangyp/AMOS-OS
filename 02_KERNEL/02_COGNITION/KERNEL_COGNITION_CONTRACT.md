@@ -4,15 +4,10 @@ type: kernel
 source: 02_KERNEL/02_COGNITION
 tags:
 - amos-os
-- 02_kernel
 - canon/kernel
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

@@ -4,15 +4,10 @@ type: note
 source: 23_OPERATING_MODEL/04_ESCALATION
 tags:
 - amos-os
-- 23_operating_model
 - canon/operating-model
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

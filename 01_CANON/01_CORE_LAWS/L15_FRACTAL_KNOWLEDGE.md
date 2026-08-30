@@ -25,7 +25,7 @@ tags:
 - competing-hypotheses
 - causal-firewall
 - scope-regime-firewall
-- l11-knowledge-memory
+- law/L11-knowledge-memory
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

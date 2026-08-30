@@ -9,18 +9,10 @@ tags:
 - domain/cognitive-matrix
 - cognitive-matrix-architecture
 - cognitive-matrix-naming-standard
-- control-plane-registry
-- lifecycle-operation-registry
-- primitive-registry
-- scale-registry
 - status-legend
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

@@ -5,10 +5,9 @@ source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L06_WORKING_STATE
 tags:
 - cognitive-matrix
 - primitives
-- l06_working_state
+- matrix/l06-working-state
 - contract
 - domain/cognitive-matrix
-- cognitive-matrix-primitives-contract
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

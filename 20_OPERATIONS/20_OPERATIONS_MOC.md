@@ -5,8 +5,6 @@ source: 20_OPERATIONS
 tags:
 - 20-operations
 - canon/operations
-- operations-operations-contract
-- operations-readme
 - amos-home
 moc: true
 rscf:

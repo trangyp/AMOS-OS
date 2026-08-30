@@ -6,7 +6,6 @@ tags:
 - reference
 - amos-code-agent-harness-rscf
 - type/skill
-- 2026-08-22-tests-logic-bridge-registry
 - 2026-08-22-brain-inventory
 - 2026-08-22-executable-brain-model-lineage
 - law-hierarchy

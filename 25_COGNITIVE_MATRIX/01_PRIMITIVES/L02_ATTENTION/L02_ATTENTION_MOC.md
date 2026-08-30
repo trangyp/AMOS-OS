@@ -3,9 +3,8 @@ title: L02 Attention MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
 tags:
-- l02-attention
+- matrix/l02-attention
 - domain/cognitive-matrix
-- cognitive-matrix-l02-attention-contract
 moc: true
 rscf:
   state: DERIVED

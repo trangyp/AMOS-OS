@@ -4,7 +4,6 @@ type: archive
 source: 24_ARCHIVE
 tags:
 - amos-os
-- 24_archive
 - canon/archive
 - readme
 - routing-policy-validation-receipt

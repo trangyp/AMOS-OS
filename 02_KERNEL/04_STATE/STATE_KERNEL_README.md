@@ -4,10 +4,8 @@ type: kernel
 source: 02_KERNEL/04_STATE
 tags:
 - amos-os
-- 02_kernel
 - canon/kernel
 - readme
-- kernel-state-contract
 - k-context-state
 - k-event-bus
 - k-identity
@@ -16,10 +14,6 @@ tags:
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

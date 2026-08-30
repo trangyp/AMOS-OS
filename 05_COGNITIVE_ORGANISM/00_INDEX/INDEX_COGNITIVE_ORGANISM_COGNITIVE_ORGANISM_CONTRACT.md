@@ -4,7 +4,6 @@ type: index
 source: 05_COGNITIVE_ORGANISM/00_INDEX
 tags:
 - amos-os
-- 05_cognitive_organism
 - canon/cognitive
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt

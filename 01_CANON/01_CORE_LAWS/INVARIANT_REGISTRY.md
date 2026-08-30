@@ -10,7 +10,6 @@ tags:
 - amos-core
 - amos-core-v4-4
 - invariants
-- invariant-registry
 - constitutional-invariants
 - runtime-invariants
 - integrity
@@ -33,27 +32,14 @@ tags:
 - rscf/claim
 - rscf/provenance
 - rscf/state/derived
-- topic/invariant-registry
 - skill
 - workflow
 - readme
 - architecture
-- system-map
 - authoritative-state
 - placement-rules
-- canon-map
 - amos-core-laws
-- kernel-map
-- control-plane-map
-- runtime-map
-- memory-memory-map
 - amos-full-brain-os-architecture
-- state-state-map
-- schema-map
-- observability-observability-map
-- security-map
-- test-map
-- operations-map
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

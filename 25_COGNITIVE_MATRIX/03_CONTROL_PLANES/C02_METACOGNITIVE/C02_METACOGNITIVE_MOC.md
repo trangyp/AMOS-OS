@@ -7,7 +7,6 @@ tags:
 - domain/cognitive-matrix
 - control-planes-cognitive-matrix-policies
 - control-planes-cognitive-matrix-scope
-- cognitive-matrix-c02-metacognitive-contract
 - control-planes-cognitive-matrix-authority
 - control-planes-cognitive-matrix-decision-rules
 - control-planes-cognitive-matrix-observability

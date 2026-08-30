@@ -4,19 +4,12 @@ type: validation
 source: 22_RESEARCH/04_VALIDATION
 tags:
 - amos-os
-- 22_research
 - canon/research
 - validation
 - readme
-- research-validation-contract
-- validation-registry
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL

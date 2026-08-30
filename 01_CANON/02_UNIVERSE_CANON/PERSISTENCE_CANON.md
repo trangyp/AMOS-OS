@@ -47,29 +47,13 @@ tags:
 - rscf/claim
 - rscf/provenance
 - rscf/state/derived
-- topic/persistence-canon
 - readme
 - architecture
-- system-map
 - neural-network
 - authoritative-state
 - placement-rules
-- canon-map
 - amos-core-laws
-- invariant-registry
 - law-hierarchy
-- hml-canon
-- kernel-map
-- control-plane-map
-- runtime-map
-- protocol-map
-- memory-memory-map
-- state-state-map
-- schema-map
-- observability-observability-map
-- security-map
-- test-map
-- operations-map
 aliases:
 - AMOS Persistence Canon - Persistence Canon - AMOS Durable State Canon - AMOS Persistent
   Prov

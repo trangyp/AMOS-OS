@@ -5,9 +5,6 @@ source: 22_RESEARCH/02_EXPERIMENTS
 tags:
 - 02-experiments
 - canon/research
-- experiments-research-readme
-- experiment-registry
-- research-experiments-contract
 moc: true
 rscf:
   state: DERIVED

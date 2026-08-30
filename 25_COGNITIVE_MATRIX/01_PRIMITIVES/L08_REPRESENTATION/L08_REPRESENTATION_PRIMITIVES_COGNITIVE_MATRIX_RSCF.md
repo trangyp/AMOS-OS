@@ -4,7 +4,7 @@ type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L08_REPRESENTATION
 tags:
 - note
-- l08-representation
+- matrix/l08-representation
 - domain/cognitive-matrix
 - trang-framework-recursive-ontology-dynamics
 rscf:

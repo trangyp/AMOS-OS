@@ -4,17 +4,12 @@ type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L20_CREDIT_ASSIGNMENT/00_INDEX
 tags:
 - cognitive-matrix
-- l20_credit_assignment
+- matrix/l20-credit-assignment
 - domain/cognitive-matrix
 - readme
-- l20-credit-assignment-map
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

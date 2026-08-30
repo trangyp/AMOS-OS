@@ -15,7 +15,6 @@ tags:
 - amos-os
 - cognitive-matrix
 - vault
-- 25_cognitive_matrix
 - amos_x_universe_canon_matrix
 - matrix_table
 - universe_canon
@@ -33,8 +32,6 @@ tags:
 - rscf
 - canon_candidate
 - canon/matrix
-- amos-x-universe-canon
-- universe-rscf-index
 - canon
 - amos-x-ubi
 - amos-x-tss

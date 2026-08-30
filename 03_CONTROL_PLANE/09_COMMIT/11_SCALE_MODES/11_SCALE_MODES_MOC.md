@@ -5,7 +5,6 @@ source: 03_CONTROL_PLANE/09_COMMIT/11_SCALE_MODES
 tags:
 - 11-scale-modes
 - canon/control-plane
-- scale-modes-commit-control-plane-readme
 - scale-modes-commit-control-plane-mode-family-spec
 moc: true
 rscf:

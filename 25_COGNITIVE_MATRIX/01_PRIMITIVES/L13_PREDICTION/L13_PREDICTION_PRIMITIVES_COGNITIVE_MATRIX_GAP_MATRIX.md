@@ -4,7 +4,7 @@ type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L13_PREDICTION
 tags:
 - note
-- l13-prediction
+- matrix/l13-prediction
 - domain/cognitive-matrix
 - trang-framework-recursive-ontology-dynamics
 rscf:

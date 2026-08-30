@@ -3,9 +3,8 @@ title: L01 Sensing Observation MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
 tags:
-- l01-sensing-observation
+- matrix/l01-sensing-observation
 - domain/cognitive-matrix
-- cognitive-matrix-l01-sensing-observation-contract
 moc: true
 rscf:
   state: DERIVED

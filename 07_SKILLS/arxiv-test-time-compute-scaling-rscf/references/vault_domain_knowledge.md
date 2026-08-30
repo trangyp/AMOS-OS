@@ -7,7 +7,6 @@ tags:
 - arxiv-test-time-compute-scaling-rscf
 - type/skill
 - 2026-08-22-19x19-ai-cognitive-field
-- 2026-08-22-tests-logic-bridge-registry
 - 2026-08-22-amos-all-249-gaps-closed
 - 2026-08-23-amos-abi-and-io-test-expansion
 - 2026-08-22-amos-core-module-test-coverage

@@ -5,8 +5,6 @@ source: 19_TESTS
 tags:
 - 19-tests
 - canon/test
-- tests-readme
-- tests-test-contract
 - amos-home
 moc: true
 rscf:

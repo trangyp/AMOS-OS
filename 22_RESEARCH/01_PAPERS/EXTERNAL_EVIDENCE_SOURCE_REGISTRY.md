@@ -15,7 +15,6 @@ tags:
 - amos-os
 - research
 - vault
-- 22_research
 - 01_papers
 - external_evidence_source_registry
 - arxiv_corpus

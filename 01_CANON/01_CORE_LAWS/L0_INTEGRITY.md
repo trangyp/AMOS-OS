@@ -12,8 +12,6 @@ rscf:
 tags:
 - note
 - 01-core-laws
-- core-laws-map
-- core-laws-canon-core-laws-contract
 canon-group: canon/core-laws
 ---
 

@@ -12,7 +12,6 @@ segment: 00_ROOT/AMOS_CANON_DOMAIN_BINDING_MAP.md
 artifact_kind: CANON
 path: 00_ROOT/AMOS_CANON_DOMAIN_BINDING_MAP.md
 tags:
-- 00_root
 - amos-os
 - binding
 - canon
@@ -28,10 +27,6 @@ tags:
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED

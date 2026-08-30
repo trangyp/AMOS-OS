@@ -23,15 +23,15 @@ tags:
 - note
 - canon/universe
 - law-hierarchy
-- l25-shard-local
-- l28-critical-gap
-- l10-failure-recovery
-- l17-rscf
+- law/L25-shard-local
+- law/L28-critical-gap
+- law/L10-failure-recovery
+- law/L17-rscf
 - fail-closed-governance
 - trang-framework-recursive-ontology-dynamics
-- l19-proof-capsule
-- l26-proof-coordination
-- l27-gap
+- law/L19-proof-capsule
+- law/L26-proof-coordination
+- law/L27-gap
 - architecture
 rscf:
   state: SOURCE_CLAIM

@@ -14,8 +14,6 @@ tags:
 - 01-core-laws
 - readme
 - law/L0-integrity
-- core-laws-map
-- core-laws-canon-core-laws-contract
 canon-group: canon/core-laws
 ---
 

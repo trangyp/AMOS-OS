@@ -4,10 +4,9 @@ type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L11_CAUSAL_MODELING/00_INDEX
 tags:
 - cognitive-matrix
-- l11_causal_modeling
+- matrix/l11-causal-modeling
 - domain/cognitive-matrix
 - validation-evidence
-- cognitive-matrix-l11-causal-modeling-contract
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

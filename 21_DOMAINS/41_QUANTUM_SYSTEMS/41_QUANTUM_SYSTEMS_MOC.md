@@ -5,8 +5,6 @@ source: 21_DOMAINS/41_QUANTUM_SYSTEMS
 tags:
 - 41-quantum-systems
 - canon/domain
-- domains-quantum-systems-contract
-- quantum-systems-domains-readme
 moc: true
 rscf:
   state: DERIVED

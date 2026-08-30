@@ -15,7 +15,6 @@ tags:
 - amos-os
 - canon
 - universe
-- 01_canon
 - khung_trang
 - trang_framework
 - equations
@@ -31,7 +30,6 @@ tags:
 - canon/universe
 - khung-trang-equations
 - amos-x-trang-reality
-- khung-trang-canon
 - capability-authority-separation
 version: 1.0.0
 updated: '2026-08-27'

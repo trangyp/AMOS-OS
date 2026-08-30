@@ -65,7 +65,6 @@ tags:
 - si-somatic-intelligence
 - tpe-trang-prediction-engine
 - trang-cascade
-- trang-equation-registry
 - trang-framework-lineage
 - trang-grand-system
 - trang-grand-system-codex

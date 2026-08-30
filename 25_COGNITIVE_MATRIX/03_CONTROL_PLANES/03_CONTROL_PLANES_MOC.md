@@ -5,8 +5,6 @@ source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES
 tags:
 - 03-control-planes
 - domain/cognitive-matrix
-- cognitive-matrix-control-planes-contract
-- control-planes-cognitive-matrix-readme
 moc: true
 rscf:
   state: DERIVED

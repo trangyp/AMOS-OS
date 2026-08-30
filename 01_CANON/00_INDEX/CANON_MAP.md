@@ -25,7 +25,6 @@ tags:
 - canon
 - universe
 - amos-os
-- canon-map
 - canonical-authority
 - canonical-lineage
 - source-of-truth
@@ -51,19 +50,13 @@ tags:
 - rscf/state/derived
 - topic/amos-os
 - topic/canon
-- topic/canon-map
 - topic/canonical-authority
 - readme
 - architecture
-- system-map
-- dependency-map
 - authoritative-state
 - placement-rules
-- kernel-map
-- control-plane-map
 - amos-full-brain-os-architecture
 - operating-model
-- legacy-archive-readme
 - amos-layer-maps
 aliases:
 - AMOS Canon Map - AMOS OS Canon Map - Canon Authority Map - Canon Lineage Map

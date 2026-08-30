@@ -6,8 +6,6 @@ tags:
 - 11-c01-meta-logic
 - canon/domain
 - c01-meta-logic-domains-domain-spec
-- c01-meta-logic-domains-readme
-- domains-c01-meta-logic-contract
 moc: true
 rscf:
   state: DERIVED

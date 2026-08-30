@@ -5,8 +5,6 @@ source: 18_SECURITY
 tags:
 - 18-security
 - canon/security
-- security-readme
-- security-security-contract
 - amos-home
 moc: true
 rscf:

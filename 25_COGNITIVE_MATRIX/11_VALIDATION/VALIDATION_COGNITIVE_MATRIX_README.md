@@ -13,7 +13,6 @@ artifact_kind: COGNITIVE
 path: 25_COGNITIVE_MATRIX/11_VALIDATION/VALIDATION_COGNITIVE_MATRIX_README.md
 tags:
 - 11_validation
-- 25_cognitive_matrix
 - AMOS
 - AMOS_CORE_v4_4
 - AMOS_OS

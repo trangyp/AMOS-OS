@@ -5,13 +5,11 @@ source: 02_KERNEL/04_STATE
 tags:
 - 04-state
 - canon/kernel
-- kernel-state-contract
 - k-context-state
 - k-event-bus
 - k-identity
 - k-system-state
 - k-world-model
-- state-kernel-readme
 moc: true
 rscf:
   state: DERIVED

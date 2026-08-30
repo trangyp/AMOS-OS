@@ -3,9 +3,8 @@ title: L14 Valuation MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L14_VALUATION
 tags:
-- l14-valuation
+- matrix/l14-valuation
 - domain/cognitive-matrix
-- cognitive-matrix-l14-valuation-contract
 moc: true
 rscf:
   state: DERIVED

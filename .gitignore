@@ -49,4 +49,5 @@ copilot/copilot-conversations/*.md
 
 # Tag migration backups (do not track)
 scripts/.tagmigrate-backup-*/
+scripts/.tagmigrate*-backup-*/
 

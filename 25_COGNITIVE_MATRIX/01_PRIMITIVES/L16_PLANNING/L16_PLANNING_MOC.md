@@ -3,9 +3,8 @@ title: L16 Planning MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L16_PLANNING
 tags:
-- l16-planning
+- matrix/l16-planning
 - domain/cognitive-matrix
-- cognitive-matrix-l16-planning-contract
 moc: true
 rscf:
   state: DERIVED

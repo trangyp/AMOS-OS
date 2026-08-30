@@ -5,8 +5,6 @@ source: 04_RUNTIME
 tags:
 - 04-runtime
 - canon/runtime
-- runtime-readme
-- runtime-runtime-contract
 - amos-home
 moc: true
 rscf:

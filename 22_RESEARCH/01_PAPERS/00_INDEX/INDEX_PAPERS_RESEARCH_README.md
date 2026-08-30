@@ -4,18 +4,11 @@ type: index
 source: 22_RESEARCH/01_PAPERS/00_INDEX
 tags:
 - amos-os
-- 22_research
 - canon/research
 - readme
-- papers-map
-- papers-research-papers-contract
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

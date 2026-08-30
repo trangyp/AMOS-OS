@@ -5,8 +5,6 @@ source: 21_DOMAINS/37_TECH_ARCHITECTURE
 tags:
 - 37-tech-architecture
 - canon/domain
-- domains-tech-architecture-contract
-- tech-architecture-domains-readme
 moc: true
 rscf:
   state: DERIVED

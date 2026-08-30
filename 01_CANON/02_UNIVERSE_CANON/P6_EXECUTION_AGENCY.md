@@ -24,8 +24,6 @@ tags:
 - p6_plane
 - rscf
 - canon/universe
-- amos-7-part-universe-canon
-- hml-canon
 - p1-reality-environment
 - p2-sense-evidence
 - p3-knowledge-memory

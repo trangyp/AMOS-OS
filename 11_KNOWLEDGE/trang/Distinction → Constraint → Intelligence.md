@@ -24,7 +24,7 @@ artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/DISTINCTION_CONSTRAINT_INTELLIGENCE.md
 
 tags:
-  - amos_os
+  - amos-os
   - knowledge
   - distinction
   - constraint

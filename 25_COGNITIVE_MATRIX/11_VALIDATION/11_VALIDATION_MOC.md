@@ -5,11 +5,9 @@ source: 25_COGNITIVE_MATRIX/11_VALIDATION
 tags:
 - 11-validation
 - domain/cognitive-matrix
-- cognitive-matrix-validation-contract
-- l00-reality-validation-receipt
+- matrix/l00-reality-validation-receipt
 - promotion-gates
 - routing-policy-validation-receipt
-- validation-cognitive-matrix-readme
 - validation-evidence
 - validation-levels
 moc: true

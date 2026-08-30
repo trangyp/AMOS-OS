@@ -4,10 +4,9 @@ type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L08_REPRESENTATION/00_INDEX
 tags:
 - cognitive-matrix
-- l08_representation
+- matrix/l08-representation
 - domain/cognitive-matrix
 - validation-evidence
-- cognitive-matrix-l08-representation-contract
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

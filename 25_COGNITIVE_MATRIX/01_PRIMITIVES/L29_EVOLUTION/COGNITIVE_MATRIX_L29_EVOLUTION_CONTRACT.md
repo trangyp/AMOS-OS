@@ -5,10 +5,9 @@ source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L29_EVOLUTION
 tags:
 - cognitive-matrix
 - primitives
-- l29_evolution
+- matrix/l29-evolution
 - contract
 - domain/cognitive-matrix
-- cognitive-matrix-primitives-contract
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

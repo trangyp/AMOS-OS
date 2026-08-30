@@ -4,17 +4,11 @@ type: integration
 source: 02_KERNEL/09_INTEGRATION/00_INDEX
 tags:
 - amos-os
-- 02_kernel
 - canon/kernel
 - integration
-- integration-kernel-integration-contract
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

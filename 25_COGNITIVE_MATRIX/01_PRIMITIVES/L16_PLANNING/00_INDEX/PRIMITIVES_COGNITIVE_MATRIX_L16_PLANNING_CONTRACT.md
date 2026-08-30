@@ -4,15 +4,11 @@ type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L16_PLANNING/00_INDEX
 tags:
 - cognitive-matrix
-- l16_planning
+- matrix/l16-planning
 - domain/cognitive-matrix
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

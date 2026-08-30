@@ -5,10 +5,9 @@ source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L10_WORLD_MODELING
 tags:
 - cognitive-matrix
 - primitives
-- l10_world_modeling
+- matrix/l10-world-modeling
 - contract
 - domain/cognitive-matrix
-- cognitive-matrix-primitives-contract
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

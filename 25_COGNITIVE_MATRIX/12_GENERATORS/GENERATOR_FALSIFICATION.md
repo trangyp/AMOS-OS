@@ -3,15 +3,12 @@ title: GENERATOR FALSIFICATION
 type: generator
 source: 25_COGNITIVE_MATRIX/12_GENERATORS
 tags:
-- 25_cognitive_matrix
 - 12_generators
 - generator
 - falsification
 - note
 - domain/cognitive-matrix
 - integration
-- generators-map
-- generator-contract
 - generator-admission
 - canon
 rscf:

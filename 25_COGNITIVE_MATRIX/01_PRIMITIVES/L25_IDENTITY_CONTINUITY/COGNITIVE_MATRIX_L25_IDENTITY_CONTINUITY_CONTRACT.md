@@ -5,10 +5,9 @@ source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L25_IDENTITY_CONTINUITY
 tags:
 - cognitive-matrix
 - primitives
-- l25_identity_continuity
+- matrix/l25-identity-continuity
 - contract
 - domain/cognitive-matrix
-- cognitive-matrix-primitives-contract
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

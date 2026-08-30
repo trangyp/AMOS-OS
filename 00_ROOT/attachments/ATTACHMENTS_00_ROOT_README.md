@@ -15,18 +15,12 @@ tags:
 - readme
 - law-hierarchy
 - canon
-- kernel-readme
-- control-plane-readme
 - routing-policy
 - binding-rules
 - routing-audit
 - promotion-gates
-- observability-readme
-- operations-readme
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
-- canon-canon-contract
-- canon-readme
 canon-group: canon/root
 ---
 

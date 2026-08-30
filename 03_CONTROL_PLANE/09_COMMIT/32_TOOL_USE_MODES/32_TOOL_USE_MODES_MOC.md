@@ -5,7 +5,6 @@ source: 03_CONTROL_PLANE/09_COMMIT/32_TOOL_USE_MODES
 tags:
 - 32-tool-use-modes
 - canon/control-plane
-- tool-use-modes-commit-control-plane-readme
 moc: true
 rscf:
   state: DERIVED

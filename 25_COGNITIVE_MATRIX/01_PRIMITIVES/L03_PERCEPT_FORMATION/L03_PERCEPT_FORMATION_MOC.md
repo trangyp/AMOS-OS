@@ -3,9 +3,8 @@ title: L03 Percept Formation MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
 tags:
-- l03-percept-formation
+- matrix/l03-percept-formation
 - domain/cognitive-matrix
-- cognitive-matrix-l03-percept-formation-contract
 moc: true
 rscf:
   state: DERIVED

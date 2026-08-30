@@ -8,7 +8,6 @@ tags:
 - canon
 - pre_symbolic
 - khung-trang-master
-- khung-trang-canon
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: CANON_SPEC

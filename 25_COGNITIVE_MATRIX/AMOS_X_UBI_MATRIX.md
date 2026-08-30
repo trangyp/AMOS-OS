@@ -15,7 +15,6 @@ tags:
 - amos-os
 - cognitive-matrix
 - matrix
-- 25_cognitive_matrix
 - ubi
 - unified_biological_intelligence
 - biological_intelligence

@@ -4,17 +4,11 @@ type: index
 source: 14_TOOLS/00_INDEX
 tags:
 - amos-os
-- 14_tools
 - canon/tool
 - readme
-- tool-map
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

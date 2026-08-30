@@ -7,15 +7,9 @@ tags:
 - h_high_scale
 - domain/cognitive-matrix
 - readme
-- h-high-scale-map
 - routing-policy-validation-receipt
-- scales-cognitive-matrix-h-high-scale-contract
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

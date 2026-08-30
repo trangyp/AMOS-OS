@@ -4,17 +4,11 @@ type: kernel
 source: 02_KERNEL/05_MEMORY/00_INDEX
 tags:
 - amos-os
-- 02_kernel
 - canon/kernel
 - memory
-- memory-kernel-memory-contract
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

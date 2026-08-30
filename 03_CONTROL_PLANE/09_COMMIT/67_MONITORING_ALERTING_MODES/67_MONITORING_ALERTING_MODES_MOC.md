@@ -5,7 +5,6 @@ source: 03_CONTROL_PLANE/09_COMMIT/67_MONITORING_ALERTING_MODES
 tags:
 - 67-monitoring-alerting-modes
 - canon/control-plane
-- control-plane-mode-family-registry
 - control-plane-mode-family-spec
 moc: true
 rscf:

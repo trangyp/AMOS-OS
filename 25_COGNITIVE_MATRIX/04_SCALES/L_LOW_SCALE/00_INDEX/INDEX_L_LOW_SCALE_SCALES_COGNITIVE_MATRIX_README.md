@@ -7,15 +7,9 @@ tags:
 - l_low_scale
 - domain/cognitive-matrix
 - readme
-- l-low-scale-map
 - routing-policy-validation-receipt
-- scales-cognitive-matrix-l-low-scale-contract
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

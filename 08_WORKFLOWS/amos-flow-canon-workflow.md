@@ -7,7 +7,7 @@ Version: 1.1.0
 title: AMOS Flow Canon
 tags:
 - type/workflow
-- domain/canon_universe
+- domain/canon-universe
 - amos-os
 ---
 

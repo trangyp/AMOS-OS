@@ -7,7 +7,6 @@ tags:
 - matrix/l03
 - percept-formation
 - variables
-- variable-registry
 - rscf
 - provenance
 - governance

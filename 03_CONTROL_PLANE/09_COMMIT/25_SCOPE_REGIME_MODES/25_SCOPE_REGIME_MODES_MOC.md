@@ -5,7 +5,6 @@ source: 03_CONTROL_PLANE/09_COMMIT/25_SCOPE_REGIME_MODES
 tags:
 - 25-scope-regime-modes
 - canon/control-plane
-- scope-regime-modes-commit-control-plane-readme
 moc: true
 rscf:
   state: DERIVED

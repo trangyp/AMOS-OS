@@ -4,7 +4,7 @@ type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L22_CONSOLIDATION
 tags:
 - note
-- l22-consolidation
+- matrix/l22-consolidation
 - domain/cognitive-matrix
 - trang-framework-recursive-ontology-dynamics
 rscf:

@@ -4,7 +4,7 @@ type: agent
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L27_MULTI_AGENT_COGNITION/00_INDEX
 tags:
 - cognitive-matrix
-- l27_multi_agent_cognition
+- matrix/l27-multi-agent-cognition
 - domain/cognitive-matrix
 - validation-evidence
 - trang-framework-recursive-ontology-dynamics

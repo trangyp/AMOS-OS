@@ -3,9 +3,8 @@ title: L25 Identity Continuity MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L25_IDENTITY_CONTINUITY
 tags:
-- l25-identity-continuity
+- matrix/l25-identity-continuity
 - domain/cognitive-matrix
-- cognitive-matrix-l25-identity-continuity-contract
 moc: true
 rscf:
   state: DERIVED

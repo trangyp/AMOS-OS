@@ -5,8 +5,6 @@ source: 21_DOMAINS/36_MARKET_INTELLIGENCE
 tags:
 - 36-market-intelligence
 - canon/domain
-- domains-market-intelligence-contract
-- market-intelligence-domains-readme
 moc: true
 rscf:
   state: DERIVED

@@ -24,7 +24,6 @@ tags:
 - canon/universe
 - law-hierarchy
 - k-failure-recovery
-- collapse-recovery-canon
 - trang-framework-recursive-ontology-dynamics
 - amos-dmer-dual-loop-architecture
 - four-process-architecture-dmer

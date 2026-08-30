@@ -5,7 +5,7 @@ source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
 tags:
 - cognitive-matrix
 - primitives
-- l02_attention
+- matrix/l02-attention
 - note
 - domain/cognitive-matrix
 - skill

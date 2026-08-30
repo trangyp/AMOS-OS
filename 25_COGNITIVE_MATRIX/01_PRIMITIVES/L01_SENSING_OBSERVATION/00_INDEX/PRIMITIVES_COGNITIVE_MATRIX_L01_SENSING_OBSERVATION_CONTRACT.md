@@ -4,10 +4,9 @@ type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/00_INDEX
 tags:
 - cognitive-matrix
-- l01_sensing_observation
+- matrix/l01-sensing-observation
 - domain/cognitive-matrix
 - validation-evidence
-- cognitive-matrix-l01-sensing-observation-contract
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

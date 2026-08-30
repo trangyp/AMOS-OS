@@ -5,9 +5,6 @@ source: 24_ARCHIVE/01_DEPRECATED
 tags:
 - 01-deprecated
 - canon/archive
-- archive-deprecated-contract
-- deprecated-archive-readme
-- deprecated-framework-registry
 moc: true
 rscf:
   state: DERIVED

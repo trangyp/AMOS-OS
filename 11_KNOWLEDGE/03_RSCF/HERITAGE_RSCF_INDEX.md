@@ -15,7 +15,6 @@ tags:
 - amos-os
 - knowledge
 - vault
-- 11_knowledge
 - 03_rscf
 - heritage_rscf_index
 - proof_capsules
@@ -24,7 +23,6 @@ tags:
 - canon_candidate
 - canon/knowledge
 - heritage-intelligence-master
-- heritage-claim-registry
 - amos-x-heritage
 version: 1.0.0
 updated: '2026-08-27'

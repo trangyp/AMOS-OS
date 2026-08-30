@@ -4,7 +4,7 @@ type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L19_OUTCOME_OBSERVATION
 tags:
 - note
-- l19-outcome-observation
+- matrix/l19-outcome-observation
 - domain/cognitive-matrix
 - trang-framework-recursive-ontology-dynamics
 rscf:

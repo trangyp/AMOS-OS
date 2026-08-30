@@ -5,8 +5,6 @@ source: 02_KERNEL/09_INTEGRATION
 tags:
 - 09-integration
 - canon/kernel
-- integration-kernel-readme
-- kernel-integration-contract
 - k-binding
 - k-cil
 - k-constraint-propagation

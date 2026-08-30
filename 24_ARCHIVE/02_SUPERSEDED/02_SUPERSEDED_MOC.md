@@ -5,10 +5,6 @@ source: 24_ARCHIVE/02_SUPERSEDED
 tags:
 - 02-superseded
 - canon/archive
-- archive-superseded-contract
-- superseded-archive-readme
-- superseded-canon-registry
-- superseded-framework-registry
 moc: true
 rscf:
   state: DERIVED

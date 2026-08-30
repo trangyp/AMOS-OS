@@ -4,17 +4,11 @@ type: security
 source: 18_SECURITY
 tags:
 - amos-os
-- 18_security
 - canon/security
 - readme
-- security-security-contract
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

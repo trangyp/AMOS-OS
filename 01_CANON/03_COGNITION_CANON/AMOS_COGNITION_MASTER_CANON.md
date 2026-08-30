@@ -64,10 +64,9 @@ tags:
 - canon
 - cognition
 - cognition_master
-- 01_canon
 - 03_cognition_canon
 - canon_placeholder
-- master_canon
+- master-canon
 - rscf
 - rscf/C-constraint
 - rscf/D-distinction
@@ -81,11 +80,6 @@ tags:
 - regime
 - validation
 - law-hierarchy
-- amos-cognition-canon
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 title: AMOS Cognition Master Canon

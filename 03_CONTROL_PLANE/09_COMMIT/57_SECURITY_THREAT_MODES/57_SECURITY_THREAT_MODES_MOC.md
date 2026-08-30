@@ -5,7 +5,6 @@ source: 03_CONTROL_PLANE/09_COMMIT/57_SECURITY_THREAT_MODES
 tags:
 - 57-security-threat-modes
 - canon/control-plane
-- security-threat-modes-commit-control-plane-readme
 moc: true
 rscf:
   state: DERIVED

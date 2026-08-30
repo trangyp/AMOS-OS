@@ -5,7 +5,6 @@ source: 03_CONTROL_PLANE/09_COMMIT/08_EXECUTION_MODES
 tags:
 - 08-execution-modes
 - canon/control-plane
-- execution-modes-commit-control-plane-readme
 moc: true
 rscf:
   state: DERIVED

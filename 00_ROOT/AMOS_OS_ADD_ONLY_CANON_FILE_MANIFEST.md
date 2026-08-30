@@ -19,7 +19,6 @@ tags:
 - manifest
 - rscf
 - canon/root
-- shard-local-finalization-canon
 - architecture
 - integration
 - canon

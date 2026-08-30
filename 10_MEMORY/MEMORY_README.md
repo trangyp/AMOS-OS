@@ -4,18 +4,12 @@ type: memory
 source: 10_MEMORY
 tags:
 - amos-os
-- 10_memory
 - canon/memory
 - memory
 - readme
-- memory-memory-contract
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

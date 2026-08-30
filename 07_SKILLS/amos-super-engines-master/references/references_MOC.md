@@ -20,7 +20,6 @@ tags:
 - engine-final-complete
 - engine-models
 - engine-practical-complete
-- meta-engines-index
 - omega-advanced-intelligence
 - omega-maximum-enhancement
 - omega-state-of-the-art

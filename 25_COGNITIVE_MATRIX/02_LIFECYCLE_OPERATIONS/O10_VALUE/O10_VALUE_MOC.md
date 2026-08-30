@@ -5,7 +5,6 @@ source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O10_VALUE
 tags:
 - o10-value
 - domain/cognitive-matrix
-- cognitive-matrix-o10-value-contract
 moc: true
 rscf:
   state: DERIVED

@@ -7,14 +7,9 @@ tags:
 - c04_reasoning
 - domain/cognitive-matrix
 - readme
-- c04-reasoning-map
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

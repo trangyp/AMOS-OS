@@ -6,8 +6,6 @@ tags:
 - 16-c06-society-culture
 - canon/domain
 - c06-society-culture-domains-domain-spec
-- c06-society-culture-domains-readme
-- domains-c06-society-culture-contract
 moc: true
 rscf:
   state: DERIVED

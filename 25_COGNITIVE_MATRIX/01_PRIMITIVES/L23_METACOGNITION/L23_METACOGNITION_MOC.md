@@ -3,9 +3,8 @@ title: L23 Metacognition MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L23_METACOGNITION
 tags:
-- l23-metacognition
+- matrix/l23-metacognition
 - domain/cognitive-matrix
-- cognitive-matrix-l23-metacognition-contract
 moc: true
 rscf:
   state: DERIVED

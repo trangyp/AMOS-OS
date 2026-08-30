@@ -15,7 +15,6 @@ tags:
 - amos-os
 - runtime
 - vault
-- 04_runtime
 - 06_execution
 - adversarial_validation_runtime
 - stress_testing

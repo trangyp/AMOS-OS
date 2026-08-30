@@ -4,10 +4,9 @@ type: identity
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L25_IDENTITY_CONTINUITY/00_INDEX
 tags:
 - cognitive-matrix
-- l25_identity_continuity
+- matrix/l25-identity-continuity
 - domain/cognitive-matrix
 - validation-evidence
-- cognitive-matrix-l25-identity-continuity-contract
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

@@ -14,18 +14,11 @@ tags:
 - strategy-commit-control-plane-activation-rules
 - strategy-commit-control-plane-domain-weights
 - strategy-commit-control-plane-engine-weights
-- strategy-commit-control-plane-input-contract
 - strategy-commit-control-plane-layer-weights
-- strategy-commit-control-plane-mode-family-registry
 - strategy-commit-control-plane-mode-family-spec
-- strategy-commit-control-plane-output-contract
 - strategy-commit-control-plane-preconditions
 - strategy-commit-control-plane-purpose-scope
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

@@ -13,7 +13,6 @@ tags:
 - note
 - 04-authority
 - canon/control-plane
-- authority-control-plane-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

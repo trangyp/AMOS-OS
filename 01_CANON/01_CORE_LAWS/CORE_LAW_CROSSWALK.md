@@ -19,7 +19,6 @@ tags:
 - amos-os
 - canon
 - universe
-- 01_canon
 - core_laws
 - crosswalk
 - law_hierarchy

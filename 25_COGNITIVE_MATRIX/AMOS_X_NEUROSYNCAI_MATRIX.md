@@ -15,10 +15,6 @@ tags:
 - amos-x-neurosyncai
 - amos-x-ubi
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - absolute-biological-integrity
 canon-group: canon/cognitive-matrix
 ---

@@ -5,9 +5,6 @@ source: 23_OPERATING_MODEL/01_ROLES
 tags:
 - 01-roles
 - canon/operating-model
-- operating-model-roles-contract
-- roles-operating-model-readme
-- role-registry
 moc: true
 rscf:
   state: DERIVED

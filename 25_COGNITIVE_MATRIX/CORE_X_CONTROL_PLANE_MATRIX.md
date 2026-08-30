@@ -15,10 +15,9 @@ tags:
 - amos-os
 - cognitive-matrix
 - vault
-- 25_cognitive_matrix
 - core_x_control_plane_matrix
 - matrix_table
-- cross_plane
+- cross-plane
 - routing_matrix
 - control-plane
 - canon_plane
@@ -54,7 +53,6 @@ tags:
 - validation
 - canon
 - law/L0-integrity
-- task-contract
 - capability-resolver
 - k-rscf
 - k-hml

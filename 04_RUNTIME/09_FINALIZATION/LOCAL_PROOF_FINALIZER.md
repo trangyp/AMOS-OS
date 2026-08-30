@@ -15,7 +15,6 @@ tags:
 - amos-os
 - runtime
 - vault
-- 04_runtime
 - 09_finalization
 - local_proof_finalizer
 - step_level_verification

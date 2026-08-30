@@ -12,10 +12,6 @@ tags:
 - authz-engine-validation-receipt
 - law-hierarchy
 - memory-modes-commit-control-plane-mode-family-spec
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

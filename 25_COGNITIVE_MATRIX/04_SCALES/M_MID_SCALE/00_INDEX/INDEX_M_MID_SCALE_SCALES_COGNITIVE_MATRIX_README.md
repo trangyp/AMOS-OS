@@ -7,15 +7,9 @@ tags:
 - m_mid_scale
 - domain/cognitive-matrix
 - readme
-- m-mid-scale-map
 - routing-policy-validation-receipt
-- scales-cognitive-matrix-m-mid-scale-contract
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

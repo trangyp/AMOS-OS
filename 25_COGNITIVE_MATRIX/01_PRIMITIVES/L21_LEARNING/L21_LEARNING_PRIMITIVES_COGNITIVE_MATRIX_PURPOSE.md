@@ -4,7 +4,7 @@ type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L21_LEARNING
 tags:
 - note
-- l21-learning
+- matrix/l21-learning
 - domain/cognitive-matrix
 - trang-framework-recursive-ontology-dynamics
 rscf:

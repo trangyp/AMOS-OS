@@ -4,17 +4,11 @@ type: note
 source: 21_DOMAINS/36_MARKET_INTELLIGENCE
 tags:
 - amos-os
-- 21_domains
 - canon/domain
 - readme
-- domains-market-intelligence-contract
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

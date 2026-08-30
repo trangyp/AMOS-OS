@@ -5,8 +5,6 @@ source: 16_SCHEMAS
 tags:
 - 16-schemas
 - canon/schema
-- schemas-readme
-- schemas-schema-contract
 - amos-home
 moc: true
 rscf:

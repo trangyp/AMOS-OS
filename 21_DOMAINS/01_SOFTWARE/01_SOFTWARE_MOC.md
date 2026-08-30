@@ -5,11 +5,9 @@ source: 21_DOMAINS/01_SOFTWARE
 tags:
 - 01-software
 - canon/domain
-- domains-software-contract
 - software-domains-domain-spec
 - software-domains-interfaces
 - software-domains-provenance
-- software-domains-readme
 moc: true
 rscf:
   state: DERIVED

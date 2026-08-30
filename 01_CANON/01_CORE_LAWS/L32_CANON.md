@@ -8,11 +8,11 @@ tags:
 - note
 - canon/universe
 - law-hierarchy
-- l33-kernel
-- l31-amos-plane
+- law/L33-kernel
+- law/L31-amos-plane
 - law/L1-epistemic
-- l17-rscf
-- l26-proof-coordination
+- law/L17-rscf
+- law/L26-proof-coordination
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

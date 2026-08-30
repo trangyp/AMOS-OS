@@ -5,7 +5,6 @@ source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C04_REASONING
 tags:
 - c04-reasoning
 - domain/cognitive-matrix
-- cognitive-matrix-c04-reasoning-contract
 - c04-reasoning-control-planes-cognitive-matrix-rscf
 moc: true
 rscf:

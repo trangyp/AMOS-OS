@@ -15,7 +15,6 @@ tags:
 - amos-os
 - runtime
 - vault
-- 04_runtime
 - 06_execution
 - uncertainty_vector_runtime
 - epistemic_confidence

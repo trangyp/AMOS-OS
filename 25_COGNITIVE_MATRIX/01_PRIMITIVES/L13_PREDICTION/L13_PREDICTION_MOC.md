@@ -3,9 +3,8 @@ title: L13 Prediction MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L13_PREDICTION
 tags:
-- l13-prediction
+- matrix/l13-prediction
 - domain/cognitive-matrix
-- cognitive-matrix-l13-prediction-contract
 moc: true
 rscf:
   state: DERIVED

@@ -17,12 +17,9 @@ tags:
 - baseline-commit-control-plane-engine-weights
 - baseline-commit-control-plane-exit-criteria
 - baseline-commit-control-plane-failure-recovery
-- baseline-commit-control-plane-input-contract
 - baseline-commit-control-plane-layer-weights
-- baseline-commit-control-plane-mode-family-registry
 - baseline-commit-control-plane-mode-family-spec
 - baseline-commit-control-plane-observability
-- baseline-commit-control-plane-output-contract
 - baseline-commit-control-plane-preconditions
 - baseline-commit-control-plane-provenance
 - baseline-commit-control-plane-purpose-scope
@@ -33,10 +30,6 @@ tags:
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

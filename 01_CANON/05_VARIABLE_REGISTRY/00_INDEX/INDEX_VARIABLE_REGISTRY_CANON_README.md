@@ -4,19 +4,12 @@ type: index
 source: 01_CANON/05_VARIABLE_REGISTRY/00_INDEX
 tags:
 - amos-os
-- 01_canon
 - canon/universe
 - readme
-- variable-registry-map
 - routing-policy-validation-receipt
 - canon
-- variable-registry-canon-variable-registry-contract
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

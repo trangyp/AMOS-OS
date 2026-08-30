@@ -5,8 +5,6 @@ source: 21_DOMAINS
 tags:
 - 21-domains
 - canon/domain
-- domains-domain-alias-contract
-- domains-readme
 - amos-home
 moc: true
 rscf:

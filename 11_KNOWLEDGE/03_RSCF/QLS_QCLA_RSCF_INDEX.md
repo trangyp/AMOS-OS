@@ -15,7 +15,6 @@ tags:
 - amos-os
 - knowledge
 - vault
-- 11_knowledge
 - 03_rscf
 - qls_qcla_rscf_index
 - proof_capsules

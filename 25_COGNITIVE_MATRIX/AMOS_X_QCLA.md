@@ -15,7 +15,6 @@ tags:
 - amos-os
 - cognitive-matrix
 - matrix
-- 25_cognitive_matrix
 - artifact
 - qcla
 - quantum_chemical_logic_architecture

@@ -9,17 +9,14 @@ aliases:
 tags:
 - tensor
 - tensors
-- tensor-registry
 - typed-tensor
 - typed-tensors
-- tensor-contract
 - tensor-schema
 - tensor-system
 - multidimensional-knowledge
 - semantic-typing
 - semantic-axis
 - typed-axis
-- axis-contract
 - knowledge
 - knowledge-model
 - knowledge-representation

@@ -5,7 +5,6 @@ source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O05_MEMORY
 tags:
 - o05-memory
 - domain/cognitive-matrix
-- cognitive-matrix-o05-memory-contract
 moc: true
 rscf:
   state: DERIVED

@@ -5,9 +5,7 @@ source: 21_DOMAINS/26_UBI_SI_SOMATIC
 tags:
 - 26-ubi-si-somatic
 - canon/domain
-- domains-ubi-si-somatic-contract
 - ubi-si-somatic-domains-domain-spec
-- ubi-si-somatic-domains-readme
 moc: true
 rscf:
   state: DERIVED

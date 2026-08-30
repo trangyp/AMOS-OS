@@ -26,14 +26,14 @@ tags:
 - references
 - readme
 - law-hierarchy
-- l19-proof-capsule
-- l22-replayability
-- l23-mvcc-cas
-- l24-causal-epoch
-- l25-shard-local
+- law/L19-proof-capsule
+- law/L22-replayability
+- law/L23-mvcc-cas
+- law/L24-causal-epoch
+- law/L25-shard-local
 - atomic-multi-rscf
 - trang-framework-recursive-ontology-dynamics
-- l26-proof-coordination
+- law/L26-proof-coordination
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

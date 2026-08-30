@@ -5,7 +5,6 @@ source: 03_CONTROL_PLANE/09_COMMIT/09_GOVERNANCE_MODES
 tags:
 - 09-governance-modes
 - canon/control-plane
-- governance-modes-commit-control-plane-readme
 moc: true
 rscf:
   state: DERIVED

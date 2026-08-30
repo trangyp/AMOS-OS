@@ -15,7 +15,6 @@ tags:
 - amos-os
 - cognitive-matrix
 - vault
-- 25_cognitive_matrix
 - reality_x_ulk
 - reality_architecture
 - universal_logic_kernel

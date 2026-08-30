@@ -5,10 +5,7 @@ source: 07_SKILLS/amos-knowledge-research-master/references
 tags:
 - references
 - type/skill
-- 11k-cosmo-brain-bridge-index
-- auto-extracted-archive-index
 - brain-router-detailed
-- master-non-overlap-index
 - rscf-brain-router
 - science-engine-sector-packs
 - scientific-engine-layer

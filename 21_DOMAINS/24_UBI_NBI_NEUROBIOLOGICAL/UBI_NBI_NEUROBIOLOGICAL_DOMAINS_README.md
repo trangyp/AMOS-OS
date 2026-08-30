@@ -4,18 +4,12 @@ type: biology
 source: 21_DOMAINS/24_UBI_NBI_NEUROBIOLOGICAL
 tags:
 - amos-os
-- 21_domains
 - canon/domain
 - readme
-- domains-ubi-nbi-neurobiological-contract
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
 - ubi-nbi-neurobiological-domains-domain-spec
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

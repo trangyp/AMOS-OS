@@ -19,7 +19,6 @@ tags:
 - amos-os
 - canon
 - universe
-- 01_canon
 - log
 - bio_logical
 - biological_logic
@@ -40,7 +39,7 @@ tags:
 - placeholder_expanded
 - memory
 - validation
-- l19-proof-capsule
+- law/L19-proof-capsule
 - architecture
 - law-hierarchy
 - routing-policy-validation-receipt

@@ -5,8 +5,6 @@ source: 03_CONTROL_PLANE/08_EFFECTS
 tags:
 - 08-effects
 - canon/control-plane
-- control-plane-effects-contract
-- effects-control-plane-readme
 - effect-intent
 - effect-manifest
 - effect-release-state

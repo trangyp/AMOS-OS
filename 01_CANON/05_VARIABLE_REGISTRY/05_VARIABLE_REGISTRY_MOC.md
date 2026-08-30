@@ -3,23 +3,8 @@ title: 05 Variable Registry MOC
 type: moc
 source: 01_CANON/05_VARIABLE_REGISTRY
 tags:
-- 05-variable-registry
 - canon/universe
-- bio-logical-variable-registry
-- canon-variable-registry-contract
 - cross-canon-symbol-crosswalk
-- gmef-variable-registry
-- heritage-variable-registry
-- omega-variable-registry
-- qls-qcla-variable-registry
-- rscf-variable-registry
-- symbol-registry
-- trang-variable-registry
-- ubi-variable-registry
-- unit-registry
-- universal-variable-registry
-- universe-variable-registry
-- variable-registry-canon-readme
 moc: true
 rscf:
   state: DERIVED

@@ -4,10 +4,9 @@ type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L24_SELF_REGULATION/00_INDEX
 tags:
 - cognitive-matrix
-- l24_self_regulation
+- matrix/l24-self-regulation
 - domain/cognitive-matrix
 - validation-evidence
-- cognitive-matrix-l24-self-regulation-contract
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

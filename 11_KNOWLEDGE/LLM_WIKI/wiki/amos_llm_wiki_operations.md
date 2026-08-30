@@ -6,7 +6,6 @@ tags:
 - synthesis
 - llm-wiki
 - amos-os
-- llm-wiki-index
 - amos-llm-wiki
 rscf:
   state: DERIVED

@@ -7,7 +7,6 @@ tags:
 - go_board
 - topology
 - canon
-- khung-trang-canon
 ---
 
 # Khung Trang 19×19 Universal Topology

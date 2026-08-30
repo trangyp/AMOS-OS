@@ -5,8 +5,6 @@ source: 21_DOMAINS/35_BUSINESS_ANALYSIS
 tags:
 - 35-business-analysis
 - canon/domain
-- business-analysis-domains-readme
-- domains-business-analysis-contract
 moc: true
 rscf:
   state: DERIVED

@@ -4,18 +4,12 @@ type: model
 source: 23_OPERATING_MODEL/03_GOVERNANCE_FORUMS
 tags:
 - amos-os
-- 23_operating_model
 - canon/operating-model
 - readme
 - governance-forums
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- operating-model-governance-forums-contract
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

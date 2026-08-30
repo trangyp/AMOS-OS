@@ -20,7 +20,6 @@ tags:
 - cognition_canon
 - canon
 - universe
-- 01_canon
 - 03_cognition_canon
 - canon_placeholder
 - rscf
@@ -38,18 +37,7 @@ tags:
 - dignity
 - architecture
 - law-hierarchy
-- amos-cognition-canon
-- amos-cognition-master-canon
-- amos-cognitive-field-canon
-- amos-consciousness-canon
-- amos-homeostasis-canon
 - amos-cross-species-functional-mode-model
-- amos-full-brain-os-canon
-- amos-full-brain-os-master-canon
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 aliases:

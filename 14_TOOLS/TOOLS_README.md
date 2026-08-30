@@ -4,17 +4,11 @@ type: tool
 source: 14_TOOLS
 tags:
 - amos-os
-- 14_tools
 - canon/tool
 - readme
-- tools-tool-contract
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

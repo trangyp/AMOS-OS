@@ -7,7 +7,6 @@ tags:
 - cognitive-matrix
 - matrix
 - domain/cognitive-matrix
-- generators-map
 - generator-output
 - generator-falsification
 rscf:

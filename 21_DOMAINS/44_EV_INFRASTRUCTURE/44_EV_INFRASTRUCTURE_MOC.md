@@ -5,8 +5,6 @@ source: 21_DOMAINS/44_EV_INFRASTRUCTURE
 tags:
 - 44-ev-infrastructure
 - canon/domain
-- domains-ev-infrastructure-contract
-- ev-infrastructure-domains-readme
 moc: true
 rscf:
   state: DERIVED

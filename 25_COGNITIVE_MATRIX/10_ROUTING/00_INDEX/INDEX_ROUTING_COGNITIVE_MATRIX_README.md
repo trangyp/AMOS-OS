@@ -12,25 +12,16 @@ rscf:
 tags:
 - note
 - readme
-- routing-map
-- task-contract
 - task-resolver
 - capability-resolver
-- routing-cognitive-matrix-routing-contract
 - mode-admission-queue
-- mode-composition-registry
-- mode-conflict-registry
 - mode-coverage-matrix
 - mode-dependency-graph
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - k-rscf
-- l17-rscf
-- observability-readme
+- law/L17-rscf
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- operations-readme
 - references
 canon-group: canon/cognitive-matrix
 ---

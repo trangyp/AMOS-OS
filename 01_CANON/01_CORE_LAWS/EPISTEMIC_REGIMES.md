@@ -26,15 +26,15 @@ tags:
 - core_laws
 - canon
 - canon/universe
-- l21-epistemic-regime
-- l27-gap
-- l28-critical-gap
-- l17-rscf
+- law/L21-epistemic-regime
+- law/L27-gap
+- law/L28-critical-gap
+- law/L17-rscf
 - readme
 - law-hierarchy
-- l22-atomic-reasoning
+- law/L22-atomic-reasoning
 - law/L1-epistemic
-- l5-scope-regime
+- law/L5-scope-regime
 - scope-regime-firewall
 - trang-framework-recursive-ontology-dynamics
 rscf:

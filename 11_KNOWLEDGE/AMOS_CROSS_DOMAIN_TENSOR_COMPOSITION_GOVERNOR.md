@@ -50,20 +50,14 @@ tags:
 - models
 - model
 - map
-- model-map
 - navigation
-- navigation-map
 - index
-- model-index
 - model-navigation
-- artifact-map
 - artifact-discovery
 - local-navigation
 - segment-navigation
 - local-scope
 - directory-scope
-- model-contract
-- model-readme
 - model-instances
 - rscf
 - rscf-node
@@ -98,12 +92,7 @@ tags:
 - readme
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
-- observability-readme
-- kernel-readme
-- control-plane-readme
-- operations-readme
 - law-hierarchy
-- models-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

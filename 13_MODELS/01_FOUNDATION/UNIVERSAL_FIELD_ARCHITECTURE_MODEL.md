@@ -54,7 +54,6 @@ tags:
 - specification
 - foundation
 - foundation_model
-- 13_models
 - 01_foundation
 - universal_field
 - universal_field_architecture
@@ -137,13 +136,8 @@ tags:
 - heritage_preservation
 - model_registry
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
-- model-map
 - trang-reality-architecture-model
 rscf:
   state: DERIVED

@@ -48,7 +48,6 @@ tags:
 - model
 - specification
 - foundation
-- 13_models
 - 01_foundation
 - absolute_omniverse
 - absolute-omniverse
@@ -125,12 +124,7 @@ tags:
 - validation
 - absolute-omniverse-u-infinity
 - canon
-- model-map
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

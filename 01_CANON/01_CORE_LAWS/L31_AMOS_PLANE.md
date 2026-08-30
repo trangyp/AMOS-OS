@@ -8,11 +8,10 @@ tags:
 - note
 - canon/universe
 - law-hierarchy
-- l33-kernel
-- l32-canon
-- l8-execution
+- law/L33-kernel
+- law/L8-execution
 - law/L3-dependency
-- l10-failure-recovery
+- law/L10-failure-recovery
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

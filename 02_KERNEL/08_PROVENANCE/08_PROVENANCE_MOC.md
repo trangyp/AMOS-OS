@@ -5,11 +5,9 @@ source: 02_KERNEL/08_PROVENANCE
 tags:
 - 08-provenance
 - canon/kernel
-- kernel-provenance-contract
 - k-provenance
 - k-provenance-topology
 - k-sybil-hardening
-- provenance-kernel-readme
 moc: true
 rscf:
   state: DERIVED

@@ -8,7 +8,6 @@ tags:
 - o16_learning
 - contract
 - domain/cognitive-matrix
-- cognitive-matrix-lifecycle-operations-contract
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

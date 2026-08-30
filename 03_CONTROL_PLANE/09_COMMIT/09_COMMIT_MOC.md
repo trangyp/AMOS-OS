@@ -6,8 +6,6 @@ tags:
 - 09-commit
 - canon/control-plane
 - causal-epoch-finality
-- commit-control-plane-readme
-- control-plane-commit-contract
 - proof-based-coordination-avoidance
 - shard-local-finalization
 moc: true

@@ -5,7 +5,6 @@ source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C03_EXECUTIVE
 tags:
 - c03-executive
 - domain/cognitive-matrix
-- cognitive-matrix-c03-executive-contract
 - c03-executive-control-planes-cognitive-matrix-rscf
 moc: true
 rscf:

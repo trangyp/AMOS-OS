@@ -28,7 +28,6 @@ tags:
 - trang-empty-framework-complete
 - trang-grand-system-codex
 - trang-grand-system-logic-spec
-- trang-master-equation-registry
 - trang-reality-architecture-corpus
 - trang-system-codex-meta-laws
 - trang-system-codex-meta-laws-v2

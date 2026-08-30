@@ -3,9 +3,8 @@ title: L22 Consolidation MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L22_CONSOLIDATION
 tags:
-- l22-consolidation
+- matrix/l22-consolidation
 - domain/cognitive-matrix
-- cognitive-matrix-l22-consolidation-contract
 moc: true
 rscf:
   state: DERIVED

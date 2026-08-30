@@ -15,7 +15,6 @@ tags:
 - amos-obsidian-linking-plugins
 - amos-layer-maps
 - amos-templates
-- load-map
 - fractal-runtime
 - logic-kernel
 - constraint-engine

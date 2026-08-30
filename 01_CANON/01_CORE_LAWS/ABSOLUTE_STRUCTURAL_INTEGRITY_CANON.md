@@ -28,8 +28,6 @@ tags:
 - governed_evolution
 - rollback
 - canon/core_laws
-- absolute-integrity-canon
-- absolute-logic-canon
 - law-hierarchy
 version: 1.0.0
 updated: '2026-08-27'

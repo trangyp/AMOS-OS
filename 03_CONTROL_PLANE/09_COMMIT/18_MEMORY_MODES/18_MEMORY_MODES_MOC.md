@@ -5,7 +5,6 @@ source: 03_CONTROL_PLANE/09_COMMIT/18_MEMORY_MODES
 tags:
 - 18-memory-modes
 - canon/control-plane
-- memory-modes-commit-control-plane-readme
 - memory-modes-commit-control-plane-mode-family-spec
 moc: true
 rscf:

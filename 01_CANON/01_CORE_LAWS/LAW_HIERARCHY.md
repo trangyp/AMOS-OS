@@ -44,23 +44,10 @@ tags:
 - topic/law-hierarchy
 - readme
 - architecture
-- system-map
 - authoritative-state
 - placement-rules
-- canon-map
 - amos-core-laws
-- invariant-registry
-- kernel-map
-- control-plane-map
-- runtime-map
-- memory-memory-map
 - amos-full-brain-os-architecture
-- state-state-map
-- schema-map
-- observability-observability-map
-- security-map
-- test-map
-- operations-map
 aliases:
 - AMOS Law Hierarchy - AMOS Canon Law Hierarchy - AMOS Authority Hierarchy - AMOS
   Precedence M

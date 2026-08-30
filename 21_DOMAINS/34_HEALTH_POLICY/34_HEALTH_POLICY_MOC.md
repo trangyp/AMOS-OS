@@ -5,9 +5,7 @@ source: 21_DOMAINS/34_HEALTH_POLICY
 tags:
 - 34-health-policy
 - canon/domain
-- domains-health-policy-contract
 - health-policy-domains-domain-spec
-- health-policy-domains-readme
 moc: true
 rscf:
   state: DERIVED

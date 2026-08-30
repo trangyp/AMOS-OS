@@ -4,15 +4,10 @@ type: strategy
 source: 21_DOMAINS/04_STRATEGY
 tags:
 - amos-os
-- 21_domains
 - canon/domain
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -4,7 +4,7 @@ type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L11_CAUSAL_MODELING
 tags:
 - note
-- l11-causal-modeling
+- matrix/l11-causal-modeling
 - domain/cognitive-matrix
 - trang-framework-recursive-ontology-dynamics
 rscf:

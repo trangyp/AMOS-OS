@@ -5,8 +5,6 @@ source: 21_DOMAINS/40_HSE_SAFETY
 tags:
 - 40-hse-safety
 - canon/domain
-- domains-hse-safety-contract
-- hse-safety-domains-readme
 moc: true
 rscf:
   state: DERIVED

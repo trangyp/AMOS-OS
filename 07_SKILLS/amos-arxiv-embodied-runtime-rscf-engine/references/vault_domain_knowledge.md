@@ -7,7 +7,6 @@ tags:
 - amos-arxiv-embodied-runtime-rscf-engine
 - type/skill
 - 2026-08-22-19x19-ai-cognitive-field
-- 2026-08-22-tests-logic-bridge-registry
 - 2026-08-22-amos-all-249-gaps-closed
 - 2026-08-22-amos-go-board-19x19-formal-system
 - 2026-08-22-typescript-data-quality-governance

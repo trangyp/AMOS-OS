@@ -8,7 +8,6 @@ tags:
 - readme
 - domain/cognitive-matrix
 - skill
-- generators-map
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

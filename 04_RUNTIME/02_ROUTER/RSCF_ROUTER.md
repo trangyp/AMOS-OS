@@ -15,7 +15,6 @@ tags:
 - amos-os
 - runtime
 - vault
-- 04_runtime
 - 02_router
 - rscf_router
 - proof_capsule_routing

@@ -4,7 +4,6 @@ tags:
 - stub
 - equation
 - registry
-- equation-registry
 ---
 
 # equation registry

@@ -11,7 +11,6 @@ rscf:
   falsifiers: []
 tags:
 - note
-- generator-registry
 - generator-admission
 - generator-seed
 - generator-templates
@@ -24,17 +23,10 @@ tags:
 - generator-supersession
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
-- l00-reality-validation-receipt
-- cognitive-matrix-validation-contract
-- observability-readme
-- control-plane-readme
-- kernel-readme
-- operations-readme
+- matrix/l00-reality-validation-receipt
 - law-hierarchy
 - promotion-gates
 - binding-rules
-- generators-map
-- generator-contract
 - generators-versioning
 - generators-change-log
 - generators-history

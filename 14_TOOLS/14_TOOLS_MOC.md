@@ -5,8 +5,6 @@ source: 14_TOOLS
 tags:
 - 14-tools
 - canon/tool
-- tools-readme
-- tools-tool-contract
 - amos-llm-wiki-tool
 - amos-home
 moc: true

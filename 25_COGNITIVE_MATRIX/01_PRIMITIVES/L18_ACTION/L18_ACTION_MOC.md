@@ -3,9 +3,8 @@ title: L18 Action MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L18_ACTION
 tags:
-- l18-action
+- matrix/l18-action
 - domain/cognitive-matrix
-- cognitive-matrix-l18-action-contract
 moc: true
 rscf:
   state: DERIVED

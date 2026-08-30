@@ -14,8 +14,6 @@ tags:
 - 01-core-laws
 - law/L0-integrity
 - law/L1-epistemic
-- core-laws-map
-- core-laws-canon-core-laws-contract
 canon-group: canon/core-laws
 ---
 

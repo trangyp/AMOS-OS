@@ -5,8 +5,6 @@ source: 21_DOMAINS/33_ORGANIZATIONAL_BEHAVIOR
 tags:
 - 33-organizational-behavior
 - canon/domain
-- domains-organizational-behavior-contract
-- organizational-behavior-domains-readme
 - organizational-behavior-domains-domain-spec
 moc: true
 rscf:

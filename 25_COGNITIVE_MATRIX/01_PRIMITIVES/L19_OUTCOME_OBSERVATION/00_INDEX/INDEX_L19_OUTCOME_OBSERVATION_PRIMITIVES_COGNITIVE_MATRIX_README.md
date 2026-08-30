@@ -4,17 +4,12 @@ type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L19_OUTCOME_OBSERVATION/00_INDEX
 tags:
 - cognitive-matrix
-- l19_outcome_observation
+- matrix/l19-outcome-observation
 - domain/cognitive-matrix
 - readme
-- l19-outcome-observation-map
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

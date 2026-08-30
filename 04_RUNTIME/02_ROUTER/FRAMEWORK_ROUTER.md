@@ -15,7 +15,6 @@ tags:
 - amos-os
 - runtime
 - vault
-- 04_runtime
 - 02_router
 - framework_router
 - multi_framework_routing

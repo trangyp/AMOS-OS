@@ -4,7 +4,7 @@ type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L25_IDENTITY_CONTINUITY
 tags:
 - note
-- l25-identity-continuity
+- matrix/l25-identity-continuity
 - domain/cognitive-matrix
 - trang-framework-recursive-ontology-dynamics
 rscf:

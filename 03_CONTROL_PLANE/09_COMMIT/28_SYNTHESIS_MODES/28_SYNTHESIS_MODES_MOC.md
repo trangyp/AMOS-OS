@@ -5,7 +5,6 @@ source: 03_CONTROL_PLANE/09_COMMIT/28_SYNTHESIS_MODES
 tags:
 - 28-synthesis-modes
 - canon/control-plane
-- synthesis-modes-commit-control-plane-readme
 moc: true
 rscf:
   state: DERIVED

@@ -7,11 +7,9 @@ tags:
 - canon/domain
 - amos-legal-kernel
 - canon-ip-governance
-- domains-legal-contract
 - legal-domains-domain-spec
 - legal-domains-interfaces
 - legal-domains-provenance
-- legal-domains-readme
 - vn-legal-engine
 moc: true
 rscf:

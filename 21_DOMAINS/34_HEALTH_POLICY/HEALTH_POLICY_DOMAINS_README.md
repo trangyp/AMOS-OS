@@ -4,18 +4,12 @@ type: policy
 source: 21_DOMAINS/34_HEALTH_POLICY
 tags:
 - amos-os
-- 21_domains
 - canon/domain
 - readme
-- domains-health-policy-contract
 - health-policy-domains-domain-spec
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

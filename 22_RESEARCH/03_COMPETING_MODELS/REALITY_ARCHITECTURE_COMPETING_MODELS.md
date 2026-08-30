@@ -15,7 +15,6 @@ tags:
 - amos-os
 - research
 - vault
-- 22_research
 - 03_competing_models
 - reality_architecture_competing_models
 - ontology_comparisons

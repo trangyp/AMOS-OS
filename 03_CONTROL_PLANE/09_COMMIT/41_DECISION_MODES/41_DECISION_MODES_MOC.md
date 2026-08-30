@@ -5,7 +5,6 @@ source: 03_CONTROL_PLANE/09_COMMIT/41_DECISION_MODES
 tags:
 - 41-decision-modes
 - canon/control-plane
-- decision-modes-commit-control-plane-readme
 moc: true
 rscf:
   state: DERIVED

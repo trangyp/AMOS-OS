@@ -4,18 +4,11 @@ type: index
 source: 02_KERNEL/02_COGNITION/00_INDEX
 tags:
 - amos-os
-- 02_kernel
 - canon/kernel
 - readme
-- cognition-kernel-cognition-contract
-- cognition-map
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

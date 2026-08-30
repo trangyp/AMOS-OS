@@ -15,7 +15,6 @@ tags:
 - amos-os
 - domain
 - vault
-- 21_domains
 - 09_finance
 - omega_fx_structural_os
 - currency_architecture

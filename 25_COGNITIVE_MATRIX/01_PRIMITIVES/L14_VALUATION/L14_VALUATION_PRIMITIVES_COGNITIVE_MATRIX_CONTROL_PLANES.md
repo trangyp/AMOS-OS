@@ -4,7 +4,7 @@ type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L14_VALUATION
 tags:
 - note
-- l14-valuation
+- matrix/l14-valuation
 - domain/cognitive-matrix
 - trang-framework-recursive-ontology-dynamics
 rscf:

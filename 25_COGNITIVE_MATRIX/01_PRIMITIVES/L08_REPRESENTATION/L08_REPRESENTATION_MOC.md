@@ -3,9 +3,8 @@ title: L08 Representation MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L08_REPRESENTATION
 tags:
-- l08-representation
+- matrix/l08-representation
 - domain/cognitive-matrix
-- cognitive-matrix-l08-representation-contract
 moc: true
 rscf:
   state: DERIVED

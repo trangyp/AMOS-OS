@@ -15,11 +15,10 @@ tags:
 - amos-os
 - cognitive-matrix
 - vault
-- 25_cognitive_matrix
 - total_framework_matrix
 - master_matrix
 - framework_convergence
-- cross_plane
+- cross-plane
 - 26_planes
 - trang_zero
 - tra
@@ -47,7 +46,6 @@ tags:
 - total-canon-matrix
 - k-rscf
 - k-hml
-- k-canon
 - k-control-plane
 - k-provenance
 - k-provenance-topology

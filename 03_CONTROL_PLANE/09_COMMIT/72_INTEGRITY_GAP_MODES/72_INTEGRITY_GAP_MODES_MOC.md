@@ -5,7 +5,6 @@ source: 03_CONTROL_PLANE/09_COMMIT/72_INTEGRITY_GAP_MODES
 tags:
 - 72-integrity-gap-modes
 - canon/control-plane
-- integrity-gap-modes-commit-control-plane-readme
 moc: true
 rscf:
   state: DERIVED

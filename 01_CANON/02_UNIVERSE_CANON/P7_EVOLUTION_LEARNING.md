@@ -4,10 +4,7 @@ type: note
 source: 01_CANON/02_UNIVERSE_CANON
 tags:
 - note
-- 02-universe-canon
 - canon/universe
-- amos-7-part-universe-canon
-- hml-canon
 - p1-reality-environment
 - p2-sense-evidence
 - p3-knowledge-memory

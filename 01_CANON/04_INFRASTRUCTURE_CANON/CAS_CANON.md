@@ -11,12 +11,7 @@ rscf:
   falsifiers: []
 tags:
 - note
-- 04-infrastructure-canon
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 canon-group: canon/infrastructure

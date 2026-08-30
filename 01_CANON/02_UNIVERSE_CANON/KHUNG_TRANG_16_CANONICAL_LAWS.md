@@ -6,7 +6,6 @@ tags:
 - khung_trang
 - laws
 - canon
-- khung-trang-canon
 ---
 
 # Khung Trang 16 Canonical Laws

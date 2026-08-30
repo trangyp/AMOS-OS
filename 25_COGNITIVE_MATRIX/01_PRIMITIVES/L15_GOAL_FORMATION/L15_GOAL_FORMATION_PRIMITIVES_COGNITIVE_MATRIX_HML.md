@@ -4,7 +4,7 @@ type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L15_GOAL_FORMATION
 tags:
 - note
-- l15-goal-formation
+- matrix/l15-goal-formation
 - domain/cognitive-matrix
 - trang-framework-recursive-ontology-dynamics
 rscf:

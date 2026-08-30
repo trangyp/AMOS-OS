@@ -4,17 +4,11 @@ type: schema
 source: 16_SCHEMAS
 tags:
 - amos-os
-- 16_schemas
 - canon/schema
 - readme
-- schemas-schema-contract
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

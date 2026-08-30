@@ -13,14 +13,13 @@ artifact_kind: PROTOCOL
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_PROTOCOLS.md
 tags:
 - 01_primitives
-- 25_cognitive_matrix
 - amos-os
 - attention
 - domain/cognitive-matrix
 - canon/universe
 - cognitive
 - cognitive-matrix
-- l02_attention
+- matrix/l02-attention
 - matrix
 - note
 - primitives

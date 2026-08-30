@@ -8,7 +8,6 @@ tags:
 - type/skill
 - fractal-runtime
 - regime-freshness
-- source-registry
 - amos-simulation-kernel-v0-math-foundations
 - system-scan-agent
 - automation-profiles

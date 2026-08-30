@@ -13,7 +13,6 @@ artifact_kind: VALIDATION
 path: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_REVALIDATION_SCHEDULE.md
 tags:
 - 00_mode_index
-- 03_control_plane
 - 09_commit
 - amos-os
 - canon/control-plane

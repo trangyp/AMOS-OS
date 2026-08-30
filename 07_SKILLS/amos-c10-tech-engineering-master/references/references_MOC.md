@@ -6,7 +6,6 @@ tags:
 - references
 - type/skill
 - 11k-architecture-decision-record
-- 11k-component-map
 - architecture-of-architecture
 - automation-engine-layer
 - automation-engine-v1
@@ -24,7 +23,6 @@ tags:
 - fabrication-engine
 - implementation-manifest
 - kernels-tech
-- load-map
 - mechanical-structural-engine-cognitive
 - mechanical-structural-engine-layer
 - ml-engineering-kernel

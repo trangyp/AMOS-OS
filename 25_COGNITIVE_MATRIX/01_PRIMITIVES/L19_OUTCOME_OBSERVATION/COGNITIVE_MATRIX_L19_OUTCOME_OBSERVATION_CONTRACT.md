@@ -5,10 +5,9 @@ source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L19_OUTCOME_OBSERVATION
 tags:
 - cognitive-matrix
 - primitives
-- l19_outcome_observation
+- matrix/l19-outcome-observation
 - contract
 - domain/cognitive-matrix
-- cognitive-matrix-primitives-contract
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

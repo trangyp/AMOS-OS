@@ -4,12 +4,8 @@ type: canon
 source: 01_CANON/02_UNIVERSE_CANON
 tags:
 - amos-os
-- 01_canon
 - canon/universe
 - readme
-- amos-7-part-universe-canon
-- canon-universe-canon-contract
-- hml-canon
 - p1-reality-environment
 - canon
 - p2-sense-evidence
@@ -18,14 +14,9 @@ tags:
 - p5-governance-authority
 - p6-execution-agency
 - p7-evolution-learning
-- persistence-canon
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

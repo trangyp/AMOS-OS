@@ -7,13 +7,11 @@ tags:
 - amos-arxiv-continual-interference-geometry-rscf
 - type/skill
 - amos-build-from-spec
-- 2026-08-22-tests-logic-bridge-registry
 - 2026-08-22-brain-inventory
 - 2026-08-22-executable-code-internals
 - 2026-08-22-amos-full-brain-os-architecture
 - canon
 - 2026-08-22-amos-go-board-19x19-formal-system
-- amos-agent-registry
 - law-hierarchy
 - trang-framework-recursive-ontology-dynamics
 rscf:

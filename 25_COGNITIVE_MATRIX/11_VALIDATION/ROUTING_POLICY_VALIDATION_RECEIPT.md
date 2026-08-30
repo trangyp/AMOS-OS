@@ -14,8 +14,6 @@ tags:
 - 11-validation
 - validation-evidence
 - routing-policy
-- routing-map
-- routing-cognitive-matrix-routing-contract
 - authz-engine-validation-receipt
 - validation
 canon-group: canon/cognitive-matrix

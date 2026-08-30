@@ -15,7 +15,6 @@ tags:
 - amos-os
 - domain
 - vault
-- 21_domains
 - 04_strategy
 - seven_cycles_domain_model
 - evolutionary_cycles

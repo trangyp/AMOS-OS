@@ -3,9 +3,8 @@ title: L07 Memory MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L07_MEMORY
 tags:
-- l07-memory
+- matrix/l07-memory
 - domain/cognitive-matrix
-- cognitive-matrix-l07-memory-contract
 moc: true
 rscf:
   state: DERIVED

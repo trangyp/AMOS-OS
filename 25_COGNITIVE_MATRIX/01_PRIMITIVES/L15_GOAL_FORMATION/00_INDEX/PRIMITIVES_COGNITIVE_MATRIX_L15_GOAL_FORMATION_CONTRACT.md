@@ -4,10 +4,9 @@ type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L15_GOAL_FORMATION/00_INDEX
 tags:
 - cognitive-matrix
-- l15_goal_formation
+- matrix/l15-goal-formation
 - domain/cognitive-matrix
 - validation-evidence
-- cognitive-matrix-l15-goal-formation-contract
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

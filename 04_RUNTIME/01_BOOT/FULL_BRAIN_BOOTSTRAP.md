@@ -15,7 +15,6 @@ tags:
 - amos-os
 - runtime
 - vault
-- 04_runtime
 - 01_boot
 - full_brain_bootstrap
 - system_initialization

@@ -5,7 +5,6 @@ source: 03_CONTROL_PLANE/09_COMMIT/22_COUNTERFACTUAL_MODES
 tags:
 - 22-counterfactual-modes
 - canon/control-plane
-- counterfactual-modes-commit-control-plane-readme
 moc: true
 rscf:
   state: DERIVED

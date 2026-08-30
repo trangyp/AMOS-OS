@@ -20,7 +20,6 @@ tags:
 - amos-os
 - canon
 - universe
-- 01_canon
 - core_laws
 - epistemic_integrity
 - canon_placeholder
@@ -41,10 +40,6 @@ tags:
 - canon/universe
 - placeholder_expanded
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED

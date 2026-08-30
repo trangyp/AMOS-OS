@@ -4,7 +4,7 @@ type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L16_PLANNING
 tags:
 - note
-- l16-planning
+- matrix/l16-planning
 - domain/cognitive-matrix
 - trang-framework-recursive-ontology-dynamics
 rscf:

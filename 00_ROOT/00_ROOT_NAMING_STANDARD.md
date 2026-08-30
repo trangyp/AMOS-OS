@@ -70,12 +70,9 @@ tags:
 - topic/version-governance
 - architecture
 - full-tree
-- system-map
 - authoritative-state
-- dependency-map
 - placement-rules
 - roadmap
-- rscf-node-index
 ---
 
 # AMOS OS Naming Standard

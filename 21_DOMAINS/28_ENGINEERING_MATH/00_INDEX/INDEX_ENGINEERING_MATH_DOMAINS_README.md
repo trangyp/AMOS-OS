@@ -4,18 +4,11 @@ type: index
 source: 21_DOMAINS/28_ENGINEERING_MATH/00_INDEX
 tags:
 - amos-os
-- 21_domains
 - canon/domain
 - readme
-- engineering-math-map
 - routing-policy-validation-receipt
-- engineering-math-domains-engineering-math-contract
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

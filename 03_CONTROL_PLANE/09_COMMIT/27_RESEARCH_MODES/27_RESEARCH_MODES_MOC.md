@@ -5,7 +5,6 @@ source: 03_CONTROL_PLANE/09_COMMIT/27_RESEARCH_MODES
 tags:
 - 27-research-modes
 - canon/control-plane
-- research-modes-commit-control-plane-readme
 moc: true
 rscf:
   state: DERIVED

@@ -4,16 +4,11 @@ type: map
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L09_INFERENCE/00_INDEX
 tags:
 - cognitive-matrix
-- l09_inference
+- matrix/l09-inference
 - domain/cognitive-matrix
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- primitives-cognitive-matrix-l09-inference-contract
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

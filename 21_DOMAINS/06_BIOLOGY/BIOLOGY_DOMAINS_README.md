@@ -4,20 +4,14 @@ type: biology
 source: 21_DOMAINS/06_BIOLOGY
 tags:
 - amos-os
-- 21_domains
 - canon/domain
 - readme
 - biology-domains-domain-spec
-- domains-biology-contract
 - domains-interfaces
 - domains-provenance
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

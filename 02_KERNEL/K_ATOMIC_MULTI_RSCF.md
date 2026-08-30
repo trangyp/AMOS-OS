@@ -7,7 +7,7 @@ tags:
 - rscf
 - transaction
 - atomicity
-- cross_plane
+- cross-plane
 - k-mvcc
 - k-cas
 - rscf-x-gmef

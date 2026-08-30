@@ -5,11 +5,6 @@ tags:
 - amos-full-brain-os
 - full-brain-os
 - cognition
-- cognition-canon
-- amos-cognition-canon
-- amos-cognition-master-canon
-- amos-emotion-canon
-- amos-consciousness-canon
 type: canon
 source: 01_CANON/03_COGNITION_CANON
 artifact_id: AMOS-CANON-COGNITION-FULL-BRAIN-OS

@@ -6,7 +6,6 @@ tags:
 - source-summary
 - llm-wiki
 - canon/knowledge
-- llm-wiki-index
 rscf:
   state: DERIVED
   claim_class: SOURCE_CLAIM

@@ -9,14 +9,9 @@ tags:
 - index
 - readme
 - canon/observability
-- observability-observability-map
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

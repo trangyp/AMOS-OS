@@ -44,11 +44,6 @@ tags:
 - absolute-structural-integrity
 - quantum-integrity-stack
 - architecture
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
-- absolute-structural-integrity-canon
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

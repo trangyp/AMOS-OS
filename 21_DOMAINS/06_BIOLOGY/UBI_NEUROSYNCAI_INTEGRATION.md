@@ -15,7 +15,6 @@ tags:
 - amos-os
 - domain
 - vault
-- 21_domains
 - 06_biology
 - ubi_neurosyncai_integration
 - bio_synchrony_dispatch

@@ -10,9 +10,7 @@ tags:
 - lineage-graph
 - multi-rscf-transaction
 - parameter-provenance
-- control-plane-semantic-transaction-contract
 - semantic-transaction
-- semantic-transaction-control-plane-readme
 moc: true
 rscf:
   state: DERIVED

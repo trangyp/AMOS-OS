@@ -5,7 +5,6 @@ source: 03_CONTROL_PLANE/09_COMMIT/23_MULTI_HYPOTHESIS_MODES
 tags:
 - 23-multi-hypothesis-modes
 - canon/control-plane
-- multi-hypothesis-modes-commit-control-plane-readme
 moc: true
 rscf:
   state: DERIVED

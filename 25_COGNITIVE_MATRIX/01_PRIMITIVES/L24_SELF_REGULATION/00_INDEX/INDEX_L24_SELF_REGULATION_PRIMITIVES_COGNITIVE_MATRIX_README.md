@@ -4,17 +4,12 @@ type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L24_SELF_REGULATION/00_INDEX
 tags:
 - cognitive-matrix
-- l24_self_regulation
+- matrix/l24-self-regulation
 - domain/cognitive-matrix
 - readme
-- l24-self-regulation-map
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

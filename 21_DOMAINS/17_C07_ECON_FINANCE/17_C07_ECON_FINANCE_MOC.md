@@ -6,8 +6,6 @@ tags:
 - 17-c07-econ-finance
 - canon/domain
 - c07-econ-finance-domains-domain-spec
-- c07-econ-finance-domains-readme
-- domains-c07-econ-finance-contract
 moc: true
 rscf:
   state: DERIVED

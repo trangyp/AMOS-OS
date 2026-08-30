@@ -4,10 +4,9 @@ type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L19_OUTCOME_OBSERVATION/00_INDEX
 tags:
 - cognitive-matrix
-- l19_outcome_observation
+- matrix/l19-outcome-observation
 - domain/cognitive-matrix
 - validation-evidence
-- cognitive-matrix-l19-outcome-observation-contract
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

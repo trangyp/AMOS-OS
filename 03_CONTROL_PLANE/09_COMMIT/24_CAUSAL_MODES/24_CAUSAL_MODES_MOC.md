@@ -5,7 +5,6 @@ source: 03_CONTROL_PLANE/09_COMMIT/24_CAUSAL_MODES
 tags:
 - 24-causal-modes
 - canon/control-plane
-- causal-modes-commit-control-plane-readme
 - causal-modes-commit-control-plane-mode-family-spec
 moc: true
 rscf:

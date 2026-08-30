@@ -5,13 +5,11 @@ source: 02_KERNEL/05_MEMORY
 tags:
 - 05-memory
 - canon/kernel
-- kernel-memory-contract
 - k-context-compaction
 - k-memory-admission
 - k-memory-conflict
 - k-memory-immune
 - k-memory-retrieval
-- memory-kernel-readme
 moc: true
 rscf:
   state: DERIVED

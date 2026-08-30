@@ -5,10 +5,6 @@ source: 11_KNOWLEDGE/02_CLAIMS
 tags:
 - 02-claims
 - canon/knowledge
-- canon-claim-registry
-- framework-claim-registry
-- heritage-claim-registry
-- ubi-claim-registry
 moc: true
 rscf:
   state: SOURCE_CLAIM

@@ -13,7 +13,6 @@ artifact_kind: ROUTING
 path: 25_COGNITIVE_MATRIX/10_ROUTING/ROUTING_POLICY.md
 tags:
 - 10_routing
-- 25_cognitive_matrix
 - amos-os
 - domain/cognitive-matrix
 - canon/universe
@@ -29,14 +28,11 @@ tags:
 - authoritative-state
 - binding-rules
 - routing-audit
-- mode-registry
-- authority-registry
 - promotion-gates
 - fractal-knowledge-network
 - mvcc-cas
 - proof-based-coordination-avoidance
 - skill
-- generator-contract
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED

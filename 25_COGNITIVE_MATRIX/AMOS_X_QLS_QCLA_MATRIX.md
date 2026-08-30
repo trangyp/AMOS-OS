@@ -15,7 +15,6 @@ tags:
 - amos-os
 - cognitive-matrix
 - matrix
-- 25_cognitive_matrix
 - qls
 - qcla
 - quantum_logic_scaffold

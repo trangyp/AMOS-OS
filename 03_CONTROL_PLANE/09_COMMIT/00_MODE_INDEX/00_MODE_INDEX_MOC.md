@@ -5,18 +5,12 @@ source: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX
 tags:
 - canon/control-plane
 - mode-admission-queue
-- mode-composition-registry
-- mode-conflict-registry
 - mode-coverage-matrix
 - mode-dependency-graph
 - mode-discovery-queue
 - mode-extension-protocol
-- mode-falsifier-registry
-- mode-gap-registry
-- mode-index-commit-control-plane-readme
 - mode-ontology
 - mode-placeholder-audit-2026-08-25
-- mode-registry
 - mode-revalidation-schedule
 - mode-transition-matrix
 moc: true

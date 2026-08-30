@@ -40,18 +40,11 @@ tags:
 - topic/causal-lineage
 - readme
 - architecture
-- dependency-map
 - authoritative-state
-- canon-map
 - amos-core-laws
-- invariant-registry
 - law-hierarchy
-- authority-canon
-- control-plane-canon
 - canon-provenance
 - source-lineage
-- conflict-registry
-- kernel-map
 - k-core19-logic
 - k-meta-logic
 - k-context-state
@@ -61,10 +54,6 @@ tags:
 - k-causal-closure
 - k-causal-epoch
 - k-causal-hierarchy
-- control-plane-map
-- runtime-map
-- agent-map
-- workflow-map
 aliases:
 - AMOS Event Bus Kernel - Event Bus Kernel - K Event Bus - K_EVENT_BUS
 ---

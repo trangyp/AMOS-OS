@@ -4,10 +4,8 @@ type: kernel
 source: 02_KERNEL/06_RISK_REPAIR
 tags:
 - amos-os
-- 02_kernel
 - canon/kernel
 - readme
-- kernel-risk-repair-contract
 - k-collapse-recovery
 - k-homeostasis
 - k-repair-harm
@@ -16,10 +14,6 @@ tags:
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

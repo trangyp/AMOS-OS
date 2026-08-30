@@ -20,7 +20,6 @@ tags:
 - amos-os
 - canon
 - universe
-- 01_canon
 - 01_core_laws
 - canon_placeholder
 - canon/universe
@@ -40,10 +39,6 @@ tags:
 - memory
 - law-hierarchy
 - agents
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED

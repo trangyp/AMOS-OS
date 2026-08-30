@@ -8,8 +8,6 @@ tags:
 - custom-domains-domain-spec
 - custom-domains-interfaces
 - custom-domains-provenance
-- custom-domains-readme
-- domains-custom-contract
 - domain-canon-programming
 - domain-template
 - heritage-intelligence-domain

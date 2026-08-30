@@ -13,7 +13,6 @@ artifact_kind: RULE
 path: 25_COGNITIVE_MATRIX/10_ROUTING/BINDING_RULES.md
 tags:
 - 10_routing
-- 25_cognitive_matrix
 - AMOS
 - AMOS_CORE
 - AMOS_CORE_v4_4

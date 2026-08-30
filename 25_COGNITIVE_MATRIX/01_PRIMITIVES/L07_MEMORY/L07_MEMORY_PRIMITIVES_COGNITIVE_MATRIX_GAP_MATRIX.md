@@ -4,7 +4,7 @@ type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L07_MEMORY
 tags:
 - note
-- l07-memory
+- matrix/l07-memory
 - domain/cognitive-matrix
 - trang-framework-recursive-ontology-dynamics
 rscf:

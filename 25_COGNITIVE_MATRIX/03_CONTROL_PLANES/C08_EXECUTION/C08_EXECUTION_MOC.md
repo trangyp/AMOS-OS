@@ -5,7 +5,6 @@ source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C08_EXECUTION
 tags:
 - c08-execution
 - domain/cognitive-matrix
-- cognitive-matrix-c08-execution-contract
 - c08-execution-control-planes-cognitive-matrix-rscf
 moc: true
 rscf:

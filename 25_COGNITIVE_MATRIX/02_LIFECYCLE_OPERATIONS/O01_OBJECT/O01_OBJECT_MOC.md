@@ -5,7 +5,6 @@ source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O01_OBJECT
 tags:
 - o01-object
 - domain/cognitive-matrix
-- cognitive-matrix-o01-object-contract
 - lifecycle-operations-cognitive-matrix-input-output
 moc: true
 rscf:

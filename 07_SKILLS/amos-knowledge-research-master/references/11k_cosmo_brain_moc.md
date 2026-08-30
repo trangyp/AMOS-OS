@@ -7,7 +7,6 @@ tags:
 - amos-knowledge-research-master
 - type/skill
 - architecture
-- load-map
 - fractal-runtime
 - logic-kernel
 - constraint-engine

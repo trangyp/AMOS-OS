@@ -3,9 +3,8 @@ title: L11 Causal Modeling MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L11_CAUSAL_MODELING
 tags:
-- l11-causal-modeling
+- matrix/l11-causal-modeling
 - domain/cognitive-matrix
-- cognitive-matrix-l11-causal-modeling-contract
 moc: true
 rscf:
   state: DERIVED

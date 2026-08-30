@@ -15,7 +15,6 @@ tags:
 - amos-os
 - cognitive-matrix
 - vault
-- 25_cognitive_matrix
 - amos_x_universe_canon
 - 7_part_universe
 - universe_canon
@@ -34,8 +33,6 @@ tags:
 - canon/matrix
 - amos-x-universe-canon-matrix
 - canon
-- universe-rscf-index
-- amos-7-part-universe-canon
 - law-hierarchy
 version: 1.1.0
 updated: '2026-08-27'

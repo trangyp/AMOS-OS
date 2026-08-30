@@ -4,18 +4,12 @@ type: model
 source: 23_OPERATING_MODEL/05_SERVICE_LEVELS
 tags:
 - amos-os
-- 23_operating_model
 - canon/operating-model
 - readme
-- operating-model-service-levels-contract
 - service-levels
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

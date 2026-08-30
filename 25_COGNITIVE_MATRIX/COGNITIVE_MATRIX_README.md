@@ -47,12 +47,9 @@ tags:
 - domain/cognitive-matrix
 - readme
 - validation
-- task-contract
 - task-resolver
 - capability-resolver
 - mode-admission-queue
-- mode-composition-registry
-- mode-conflict-registry
 - mode-coverage-matrix
 - mode-dependency-graph
 - k-hml
@@ -76,7 +73,7 @@ tags:
 - architecture
 - integration
 - canon
-- l19-proof-capsule
+- law/L19-proof-capsule
 - causal-epoch-finality
 - shard-local-finalization
 - proof-based-coordination-avoidance

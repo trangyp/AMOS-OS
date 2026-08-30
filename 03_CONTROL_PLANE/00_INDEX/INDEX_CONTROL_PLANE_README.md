@@ -7,8 +7,6 @@ tags:
 - index
 - readme
 - canon/control-plane
-- control-plane-readme
-- control-plane-map
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -32,7 +32,6 @@ tags:
 - implementation-manifest
 - kernel-protocol
 - khung-trang-full-max-detail-architecture-equations
-- load-map
 - logic-kernel
 - memory-architecture
 - readme
@@ -45,7 +44,6 @@ tags:
 - speed-governor
 - system-status
 - tensor-contracts
-- tensor-registry
 - validation
 - integration
 - ratpak
@@ -68,7 +66,6 @@ tags:
 - system-status-summary-v3
 - agent-naming-convention
 - agent-template
-- rscf-node-index
 - amos-cognitive-architecture-matrix
 rscf:
   state: SOURCE_CLAIM

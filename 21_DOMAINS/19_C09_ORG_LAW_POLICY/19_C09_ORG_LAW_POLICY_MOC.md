@@ -6,8 +6,6 @@ tags:
 - 19-c09-org-law-policy
 - canon/domain
 - c09-org-law-policy-domains-domain-spec
-- c09-org-law-policy-domains-readme
-- domains-c09-org-law-policy-contract
 moc: true
 rscf:
   state: DERIVED

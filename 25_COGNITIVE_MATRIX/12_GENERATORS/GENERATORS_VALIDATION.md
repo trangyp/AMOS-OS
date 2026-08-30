@@ -13,7 +13,6 @@ artifact_kind: VALIDATION
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_VALIDATION.md
 tags:
 - 12_generators
-- 25_cognitive_matrix
 - amos-os
 - domain/cognitive-matrix
 - canon/universe
@@ -23,7 +22,6 @@ tags:
 - rscf
 - validation
 - placeholder_expanded
-- generator-contract
 - promotion-gates
 version: 0.2.0
 updated: '2026-08-27'

@@ -17,7 +17,6 @@ tags:
 - control-plane
 - domain/cognitive-matrix
 - readme
-- cosmo-brain-bridge-index
 rscf:
   state: DERIVED
   claim_class: DERIVED

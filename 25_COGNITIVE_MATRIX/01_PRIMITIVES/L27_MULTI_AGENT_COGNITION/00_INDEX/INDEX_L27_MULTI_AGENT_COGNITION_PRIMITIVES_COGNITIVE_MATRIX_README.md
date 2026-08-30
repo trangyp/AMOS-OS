@@ -4,17 +4,12 @@ type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L27_MULTI_AGENT_COGNITION/00_INDEX
 tags:
 - cognitive-matrix
-- l27_multi_agent_cognition
+- matrix/l27-multi-agent-cognition
 - domain/cognitive-matrix
 - readme
-- l27-multi-agent-cognition-map
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

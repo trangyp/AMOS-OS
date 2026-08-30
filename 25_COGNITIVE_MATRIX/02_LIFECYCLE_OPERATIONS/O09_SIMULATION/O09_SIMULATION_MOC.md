@@ -5,7 +5,6 @@ source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O09_SIMULATION
 tags:
 - o09-simulation
 - domain/cognitive-matrix
-- cognitive-matrix-o09-simulation-contract
 moc: true
 rscf:
   state: DERIVED

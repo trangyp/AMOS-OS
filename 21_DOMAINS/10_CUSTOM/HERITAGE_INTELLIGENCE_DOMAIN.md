@@ -15,7 +15,6 @@ tags:
 - amos-os
 - domain
 - vault
-- 21_domains
 - 10_custom
 - heritage_intelligence_domain
 - 32_layer_custom_engine

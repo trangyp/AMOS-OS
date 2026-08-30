@@ -8,12 +8,10 @@ tags:
 - atomic-state-transition
 - audit-provenance
 - authority-audit
-- authority-control-plane-readme
 - authority-history
 - authority-lifecycle
 - authority-log
 - authority-policy
-- authority-registry
 - authority-resolver
 - authority-source
 - authority-witness
@@ -58,7 +56,6 @@ tags:
 - delegation-witness
 - dependency-closure
 - dependent-invalidation
-- framework-authority-registry
 - independent-path-analysis
 moc: true
 rscf:

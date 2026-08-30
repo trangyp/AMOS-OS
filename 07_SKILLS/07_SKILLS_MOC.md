@@ -7,8 +7,6 @@ tags:
 - type/skill
 - agent-naming-audit
 - cloud-skill-rename-audit
-- skills-readme
-- skills-skill-contract
 - skill-naming-audit
 - skill-rename-manifest
 moc: true

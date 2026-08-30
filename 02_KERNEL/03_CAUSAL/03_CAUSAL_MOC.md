@@ -5,8 +5,6 @@ source: 02_KERNEL/03_CAUSAL
 tags:
 - 03-causal
 - canon/kernel
-- causal-kernel-readme
-- kernel-causal-contract
 - k-biological-causality
 - k-causal-closure
 - k-causal-epoch

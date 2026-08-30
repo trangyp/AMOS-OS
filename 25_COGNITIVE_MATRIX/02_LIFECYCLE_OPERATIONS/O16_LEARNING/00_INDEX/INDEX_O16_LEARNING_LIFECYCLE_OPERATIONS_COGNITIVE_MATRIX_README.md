@@ -7,14 +7,9 @@ tags:
 - o16_learning
 - domain/cognitive-matrix
 - readme
-- o16-learning-map
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

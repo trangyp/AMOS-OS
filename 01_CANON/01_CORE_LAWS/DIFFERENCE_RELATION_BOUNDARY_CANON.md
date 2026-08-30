@@ -20,7 +20,6 @@ tags:
 - amos-os
 - canon
 - universe
-- 01_canon
 - core_laws
 - difference_relation_boundary
 - difference
@@ -37,10 +36,6 @@ tags:
 - canon/universe
 - placeholder_expanded
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED

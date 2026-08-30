@@ -19,7 +19,6 @@ tags:
 - amos-os
 - canon
 - universe
-- 01_canon
 - crosswalk
 - core_laws
 - law_hierarchy
@@ -35,12 +34,9 @@ tags:
 - rscf
 - canon/universe
 - placeholder_expanded
-- absolute-logic-canon
-- absolute-structural-integrity-canon
-- bio-logical-laws-canon
 - law-hierarchy
 - references
-- l19-proof-capsule
+- law/L19-proof-capsule
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 version: 0.2.0

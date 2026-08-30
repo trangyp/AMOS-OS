@@ -20,9 +20,8 @@ tags:
 - cognition
 - cognition_canon
 - canon
-- master_canon
+- master-canon
 - universe
-- 01_canon
 - 03_cognition_canon
 - canon_placeholder
 - rscf
@@ -32,17 +31,9 @@ tags:
 - regime
 - validation
 - canon/universe
-- amos-consciousness-canon
-- amos-emotion-master-canon
-- amos-cognition-canon
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
-- amos-emotion-canon
 aliases:
 - AMOS Emotion Master Canon
 - AMOS Emotion Canon Master

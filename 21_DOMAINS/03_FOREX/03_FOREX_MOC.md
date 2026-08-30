@@ -5,11 +5,9 @@ source: 21_DOMAINS/03_FOREX
 tags:
 - 03-forex
 - canon/domain
-- domains-forex-contract
 - forex-domains-domain-spec
 - forex-domains-interfaces
 - forex-domains-provenance
-- forex-domains-readme
 moc: true
 rscf:
   state: DERIVED

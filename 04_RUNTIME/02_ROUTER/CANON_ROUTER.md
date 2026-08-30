@@ -15,7 +15,6 @@ tags:
 - amos-os
 - runtime
 - vault
-- 04_runtime
 - 02_router
 - canon_router
 - core_law_enforcement

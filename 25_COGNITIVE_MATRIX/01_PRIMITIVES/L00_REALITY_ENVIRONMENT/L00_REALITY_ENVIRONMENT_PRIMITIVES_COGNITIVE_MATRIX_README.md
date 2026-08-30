@@ -19,8 +19,7 @@ tags:
 - ai
 - domain/cognitive-matrix
 - readme
-- l00-reality-validation-receipt
-- cosmo-brain-bridge-index
+- matrix/l00-reality-validation-receipt
 rscf:
   state: DERIVED
   claim_class: DERIVED

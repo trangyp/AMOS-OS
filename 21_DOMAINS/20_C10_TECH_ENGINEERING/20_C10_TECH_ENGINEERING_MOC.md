@@ -6,8 +6,6 @@ tags:
 - 20-c10-tech-engineering
 - canon/domain
 - c10-tech-engineering-domains-domain-spec
-- c10-tech-engineering-domains-readme
-- domains-c10-tech-engineering-contract
 moc: true
 rscf:
   state: DERIVED

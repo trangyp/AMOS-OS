@@ -13,7 +13,6 @@ artifact_kind: COGNITIVE
 path: 25_COGNITIVE_MATRIX/10_ROUTING/ROUTING_COGNITIVE_MATRIX_README.md
 tags:
 - 10_routing
-- 25_cognitive_matrix
 - amos-os
 - domain/cognitive-matrix
 - canon/universe

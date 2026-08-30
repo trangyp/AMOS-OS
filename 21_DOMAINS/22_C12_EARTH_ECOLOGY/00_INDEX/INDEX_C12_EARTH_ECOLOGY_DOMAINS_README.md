@@ -4,17 +4,11 @@ type: index
 source: 21_DOMAINS/22_C12_EARTH_ECOLOGY/00_INDEX
 tags:
 - amos-os
-- 21_domains
 - canon/domain
 - readme
-- c12-earth-ecology-map
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

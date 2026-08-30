@@ -5,8 +5,6 @@ source: 21_DOMAINS/45_MODES
 tags:
 - 45-modes
 - canon/domain
-- domains-modes-contract
-- modes-domains-readme
 moc: true
 rscf:
   state: DERIVED

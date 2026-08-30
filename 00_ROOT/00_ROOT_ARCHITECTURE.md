@@ -68,19 +68,10 @@ tags:
 - topic/system-architecture
 - topic/cognitive-operating-system
 - full-tree
-- system-map
 - authoritative-state
-- dependency-map
 - placement-rules
 - roadmap
 - amos-core-laws
-- full-brain-os-canon
-- cognition-canon
-- cognitive-organism-canon
-- control-plane-canon
-- authority-canon
-- hml-canon
-- rscf-node-index
 ---
 
 # AMOS OS Architecture

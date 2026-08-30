@@ -6,13 +6,11 @@ tags:
 - 02-research
 - canon/domain
 - canon-validation
-- domains-research-contract
 - framework-validation
 - heritage-research-method
 - research-domains-domain-spec
 - research-domains-interfaces
 - research-domains-provenance
-- research-domains-readme
 moc: true
 rscf:
   state: DERIVED

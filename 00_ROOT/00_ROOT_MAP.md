@@ -4,29 +4,21 @@ type: map
 source: 00_ROOT
 tags:
 - amos-os
-- 00_root
 - canon/root
 - amos-layer-maps
 - amos-templates
 - architecture
 - authoritative-state
 - cognitive-matrix-integration
-- dependency-map
 - full-tree
 - neural-network
 - placement-rules
 - readme
 - roadmap
-- rscf-node-index
-- system-map
 - system-map-v1
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

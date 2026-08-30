@@ -22,15 +22,15 @@ tags:
 - law-hierarchy
 - trang-framework-recursive-ontology-dynamics
 - amos-core-all-versions-fractal-knowledge-network
-- l16-hml
+- law/L16-hml
 - gmef
 - provenance-topology
 - competing-hypotheses
 - scope-regime-firewall
 - causal-firewall
-- l10-failure-recovery
-- l11-knowledge-memory
-- l15-fractal-knowledge
+- law/L10-failure-recovery
+- law/L11-knowledge-memory
+- law/L15-fractal-knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

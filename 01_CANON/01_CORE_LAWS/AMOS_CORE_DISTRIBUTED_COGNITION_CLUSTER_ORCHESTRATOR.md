@@ -40,13 +40,9 @@ tags:
 - validation
 - agents
 - memory
-- l19-proof-capsule
+- law/L19-proof-capsule
 - canon
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 version: 1.0.0
 updated: '2026-08-27'

@@ -4,7 +4,7 @@ type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L23_METACOGNITION
 tags:
 - note
-- l23-metacognition
+- matrix/l23-metacognition
 - domain/cognitive-matrix
 - trang-framework-recursive-ontology-dynamics
 rscf:

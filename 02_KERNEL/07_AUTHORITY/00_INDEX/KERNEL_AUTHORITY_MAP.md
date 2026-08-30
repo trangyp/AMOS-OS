@@ -4,16 +4,10 @@ type: kernel
 source: 02_KERNEL/07_AUTHORITY/00_INDEX
 tags:
 - amos-os
-- 02_kernel
 - canon/kernel
-- authority-kernel-authority-contract
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

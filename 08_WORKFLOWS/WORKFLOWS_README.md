@@ -4,18 +4,12 @@ type: workflow
 source: 08_WORKFLOWS
 tags:
 - amos-os
-- 08_workflows
 - type/workflow
 - workflows
 - readme
-- workflows-workflow-contract
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

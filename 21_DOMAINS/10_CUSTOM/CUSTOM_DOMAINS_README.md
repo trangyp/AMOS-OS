@@ -4,21 +4,15 @@ type: note
 source: 21_DOMAINS/10_CUSTOM
 tags:
 - amos-os
-- 21_domains
 - canon/domain
 - readme
 - custom-domains-domain-spec
 - custom-domains-interfaces
 - custom-domains-provenance
-- domains-custom-contract
 - domain-template
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

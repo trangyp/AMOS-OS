@@ -4,16 +4,10 @@ type: map
 source: 02_KERNEL/06_RISK_REPAIR/00_INDEX
 tags:
 - amos-os
-- 02_kernel
 - canon/kernel
-- risk-repair-kernel-risk-repair-contract
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

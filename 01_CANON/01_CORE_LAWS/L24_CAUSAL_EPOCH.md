@@ -19,8 +19,8 @@ tags:
 - provenance
 - time
 - canon/universe
-- l8-execution
-- l22-replayability
+- law/L8-execution
+- law/L22-replayability
 rscf:
   state: CANON_LAW
   claim_class: CANONICAL_INVARIANT

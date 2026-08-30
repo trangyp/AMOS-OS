@@ -6,8 +6,6 @@ tags:
 - 31-control-systems
 - canon/domain
 - control-systems-domains-domain-spec
-- control-systems-domains-readme
-- domains-control-systems-contract
 moc: true
 rscf:
   state: DERIVED

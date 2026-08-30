@@ -5,8 +5,6 @@ source: 25_COGNITIVE_MATRIX/04_SCALES
 tags:
 - 04-scales
 - domain/cognitive-matrix
-- cognitive-matrix-scales-contract
-- scales-cognitive-matrix-readme
 moc: true
 rscf:
   state: DERIVED

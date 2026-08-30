@@ -4,7 +4,6 @@ type: canon
 source: 01_CANON/05_VARIABLE_REGISTRY/00_INDEX
 tags:
 - amos-os
-- 01_canon
 - canon/universe
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt

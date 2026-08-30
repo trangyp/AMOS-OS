@@ -15,7 +15,6 @@ tags:
 - amos-os
 - knowledge
 - vault
-- 11_knowledge
 - 06_domain_knowledge
 - heritage_pattern_systems
 - pattern_recognition

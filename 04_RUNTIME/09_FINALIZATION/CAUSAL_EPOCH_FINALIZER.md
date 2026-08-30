@@ -15,7 +15,6 @@ tags:
 - amos-os
 - runtime
 - vault
-- 04_runtime
 - 09_finalization
 - causal_epoch_finalizer
 - state_transition_commit

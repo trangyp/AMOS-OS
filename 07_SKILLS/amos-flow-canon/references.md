@@ -4,7 +4,6 @@ type: note
 source: 07_SKILLS/amos-flow-canon
 tags:
 - note
-- amos-flow-canon
 - type/skill
 - skill
 rscf:

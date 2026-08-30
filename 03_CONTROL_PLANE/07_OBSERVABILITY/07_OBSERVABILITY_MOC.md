@@ -5,10 +5,6 @@ source: 03_CONTROL_PLANE/07_OBSERVABILITY
 tags:
 - 07-observability
 - canon/control-plane
-- blind-spot-registry
-- control-plane-observability-contract
-- monitor-registry
-- observability-control-plane-readme
 - observability-envelope
 moc: true
 rscf:

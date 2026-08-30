@@ -5,8 +5,6 @@ source: 08_WORKFLOWS
 tags:
 - 08-workflows
 - type/workflow
-- workflows-readme
-- workflows-workflow-contract
 - amos-7-part-universe-canon-full-workflow
 - amos-action-memory-firewall-workflow
 - amos-active-inference-governor-workflow

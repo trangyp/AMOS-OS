@@ -7,7 +7,6 @@ tags:
 - policy
 - note
 - canon/control-plane
-- policy-registry
 - capability-manifest
 rscf:
   state: DERIVED

@@ -15,15 +15,12 @@ tags:
 - task-resolver
 - capability-resolver
 - mode-admission-queue
-- routing-cognitive-matrix-routing-contract
-- mode-composition-registry
-- mode-conflict-registry
 - mode-coverage-matrix
 - mode-dependency-graph
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - k-rscf
-- l17-rscf
+- law/L17-rscf
 - references
 - trang-framework-recursive-ontology-dynamics
 canon-group: canon/cognitive-matrix

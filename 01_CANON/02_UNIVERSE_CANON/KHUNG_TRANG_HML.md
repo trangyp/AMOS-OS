@@ -7,7 +7,6 @@ tags:
 - hml
 - scales
 - canon
-- khung-trang-canon
 ---
 
 # Khung Trang H/M/L Scale Partitioning

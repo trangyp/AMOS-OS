@@ -5,7 +5,6 @@ source: 03_CONTROL_PLANE/09_COMMIT/21_SIMULATION_MODES
 tags:
 - 21-simulation-modes
 - canon/control-plane
-- simulation-modes-commit-control-plane-readme
 moc: true
 rscf:
   state: DERIVED

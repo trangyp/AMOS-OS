@@ -13,16 +13,12 @@ tags:
 - note
 - 12-generators
 - readme
-- generators-map
 - generator-output
 - generator-falsification
 - generator-promotion
-- task-contract
 - task-resolver
 - capability-resolver
 - mode-admission-queue
-- mode-composition-registry
-- mode-conflict-registry
 - mode-coverage-matrix
 - mode-dependency-graph
 canon-group: canon/cognitive-matrix

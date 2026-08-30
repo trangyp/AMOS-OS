@@ -11,8 +11,6 @@ rscf:
   falsifiers: []
 tags:
 - note
-- core-laws-canon-readme
-- core-laws-canon-core-laws-contract
 canon-group: canon/core-laws
 ---
 

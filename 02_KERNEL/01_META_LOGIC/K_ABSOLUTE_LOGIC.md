@@ -28,7 +28,6 @@ tags:
 - logic
 - meta_logic
 - absolute_logic
-- 02_kernel
 - 01_meta_logic
 - log
 - canon_placeholder
@@ -53,10 +52,6 @@ tags:
 - epistemic-discipline
 - law-hierarchy
 - readme
-- observability-readme
-- operations-readme
-- kernel-readme
-- control-plane-readme
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 version: 0.1.0

@@ -5,7 +5,6 @@ source: 03_CONTROL_PLANE/09_COMMIT/35_RESOURCE_BUDGET_MODES
 tags:
 - 35-resource-budget-modes
 - canon/control-plane
-- resource-budget-modes-commit-control-plane-readme
 moc: true
 rscf:
   state: DERIVED

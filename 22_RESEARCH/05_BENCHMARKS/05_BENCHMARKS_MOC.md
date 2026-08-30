@@ -5,9 +5,7 @@ source: 22_RESEARCH/05_BENCHMARKS
 tags:
 - 05-benchmarks
 - canon/research
-- benchmarks-research-readme
 - research-benchmarks
-- research-benchmarks-contract
 moc: true
 rscf:
   state: DERIVED

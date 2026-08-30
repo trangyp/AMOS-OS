@@ -10,7 +10,6 @@ tags:
 - validation
 - integration
 - canon
-- generators-map
 rscf:
   state: DERIVED
   claim_class: DERIVED

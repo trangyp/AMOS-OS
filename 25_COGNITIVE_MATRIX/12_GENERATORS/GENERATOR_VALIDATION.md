@@ -14,7 +14,6 @@ path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_VALIDATION.md
 tags:
 - 12-generators
 - 12_generators
-- 25_cognitive_matrix
 - amos-os
 - domain/cognitive-matrix
 - canon/universe
@@ -24,7 +23,6 @@ tags:
 - validation
 - placeholder_expanded
 - readme
-- generators-map
 - generators-benchmarks
 - generators-audit
 - promotion-gates

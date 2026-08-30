@@ -4,18 +4,12 @@ type: design
 source: 21_DOMAINS/32_POLICY_DESIGN
 tags:
 - amos-os
-- 21_domains
 - canon/domain
 - readme
-- domains-policy-design-contract
 - policy-design-domains-domain-spec
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

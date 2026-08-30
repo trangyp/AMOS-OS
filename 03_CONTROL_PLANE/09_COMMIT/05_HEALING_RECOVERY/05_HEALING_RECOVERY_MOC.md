@@ -8,7 +8,6 @@ tags:
 - commit-control-plane-activation-rules
 - healing-recovery-commit-control-plane-mode-spec
 - healing-recovery-commit-control-plane-provenance
-- healing-recovery-commit-control-plane-readme
 moc: true
 rscf:
   state: DERIVED

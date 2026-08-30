@@ -4,17 +4,11 @@ type: test
 source: 19_TESTS
 tags:
 - amos-os
-- 19_tests
 - canon/test
 - readme
-- tests-test-contract
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

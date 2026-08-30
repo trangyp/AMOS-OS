@@ -4,7 +4,7 @@ type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L06_WORKING_STATE
 tags:
 - note
-- l06-working-state
+- matrix/l06-working-state
 - domain/cognitive-matrix
 - trang-framework-recursive-ontology-dynamics
 rscf:

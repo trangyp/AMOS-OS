@@ -15,7 +15,6 @@ tags:
 - amos-os
 - canon
 - universe
-- 01_canon
 - omega
 - omega_architecture
 - canon_placeholder
@@ -26,13 +25,9 @@ tags:
 - rscf
 - canon/universe
 - validation
-- l19-proof-capsule
+- law/L19-proof-capsule
 - architecture
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 version: 0.1.0

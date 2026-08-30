@@ -15,7 +15,6 @@ tags:
 - amos-os
 - domain
 - vault
-- 21_domains
 - 05_design
 - bio_logical_architecture_design
 - living_systems_design

@@ -3,9 +3,8 @@ title: L09 Inference MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L09_INFERENCE
 tags:
-- l09-inference
+- matrix/l09-inference
 - domain/cognitive-matrix
-- cognitive-matrix-l09-inference-contract
 moc: true
 rscf:
   state: DERIVED

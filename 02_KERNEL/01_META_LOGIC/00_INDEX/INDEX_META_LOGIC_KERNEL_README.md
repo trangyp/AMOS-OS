@@ -4,18 +4,11 @@ type: index
 source: 02_KERNEL/01_META_LOGIC/00_INDEX
 tags:
 - amos-os
-- 02_kernel
 - canon/kernel
 - readme
-- meta-logic-kernel-meta-logic-contract
-- meta-logic-map
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

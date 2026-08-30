@@ -4,18 +4,12 @@ type: mind
 source: 21_DOMAINS/15_C05_MIND_BEHAVIOR
 tags:
 - amos-os
-- 21_domains
 - canon/domain
 - readme
 - c05-mind-behavior-domains-domain-spec
-- domains-c05-mind-behavior-contract
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

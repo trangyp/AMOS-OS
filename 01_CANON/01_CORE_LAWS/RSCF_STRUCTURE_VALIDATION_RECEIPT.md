@@ -8,7 +8,7 @@ tags:
 - rscf
 - pass
 - law-hierarchy
-- l17-rscf
+- law/L17-rscf
 - trang-framework-recursive-ontology-dynamics
 ---
 

@@ -7,7 +7,7 @@ tags:
 - rollback
 - recovery_basins
 - law-hierarchy
-- l10-failure-recovery
+- law/L10-failure-recovery
 - dmer-l5
 - trang-framework-recursive-ontology-dynamics
 ---

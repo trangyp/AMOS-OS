@@ -3,7 +3,7 @@ title: L04 Object Entity Formation MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION
 tags:
-- l04-object-entity-formation
+- matrix/l04-object-entity-formation
 - domain/cognitive-matrix
 moc: true
 rscf:

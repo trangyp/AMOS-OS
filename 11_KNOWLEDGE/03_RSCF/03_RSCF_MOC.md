@@ -5,15 +5,6 @@ source: 11_KNOWLEDGE/03_RSCF
 tags:
 - 03-rscf
 - canon/knowledge
-- amos-rscf-index
-- canon-rscf-index
-- heritage-rscf-index
-- neurosyncai-rscf-index
-- qls-qcla-rscf-index
-- trang-reality-rscf-index
-- tss-tpe-rscf-index
-- ubi-rscf-index
-- universe-rscf-index
 moc: true
 rscf:
   state: SOURCE_CLAIM

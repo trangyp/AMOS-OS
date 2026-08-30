@@ -4,17 +4,11 @@ type: cognitive
 source: 05_COGNITIVE_ORGANISM
 tags:
 - amos-os
-- 05_cognitive_organism
 - canon/cognitive
 - readme
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- cognitive-organism-cognitive-organism-contract
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

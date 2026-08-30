@@ -52,22 +52,15 @@ reading_order:
 tags:
 - amos-os
 - amos-os
-- 13_models
 - 00_index
 - models
 - model
 - map
-- model-map
-- models-map
 - navigation
-- navigation-map
 - index
 - model-navigation
 - model-discovery
 - model-resolution
-- model-registry
-- model-contract
-- model-readme
 - artifact-navigation
 - graph
 - knowledge-graph
@@ -78,7 +71,6 @@ tags:
 - directory-scope
 - rscf
 - rscf-node
-- rscf-map
 - fractal-knowledge-network
 - hml
 - h-level
@@ -128,10 +120,6 @@ tags:
 - validation
 - canon
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 rscf:

@@ -17,7 +17,6 @@ schema_family: RSCF
 schema_role: FEEDBACK_CANON_RSCF
 schema_version: AMOS_CORE_v4.4-compatible-conceptual
 tags:
-- 01_canon
 - 01_core_laws
 - amos-os
 - canon
@@ -38,10 +37,6 @@ tags:
 - placeholder_expanded
 - memory
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - signals
 version: 0.3.0
 updated: '2026-08-27'

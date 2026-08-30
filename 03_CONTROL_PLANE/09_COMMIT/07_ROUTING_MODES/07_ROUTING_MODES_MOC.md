@@ -5,7 +5,6 @@ source: 03_CONTROL_PLANE/09_COMMIT/07_ROUTING_MODES
 tags:
 - 07-routing-modes
 - canon/control-plane
-- routing-modes-commit-control-plane-readme
 moc: true
 rscf:
   state: DERIVED

@@ -70,10 +70,6 @@ tags:
 - khung-trang-digital-consciousness-candidate
 - khung-trang-observer-experience-gap
 - absolute-omniverse-u-infinity
-- amos-super-mind-os-canon
-- control-plane-readme
-- observability-readme
-- operations-readme
 - validation
 version: 1.0.0-source-bound-canon-candidate
 updated: '2026-08-27'

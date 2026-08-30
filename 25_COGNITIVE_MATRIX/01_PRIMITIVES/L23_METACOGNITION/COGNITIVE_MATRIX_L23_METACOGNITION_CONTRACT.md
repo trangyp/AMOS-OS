@@ -5,10 +5,9 @@ source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L23_METACOGNITION
 tags:
 - cognitive-matrix
 - primitives
-- l23_metacognition
+- matrix/l23-metacognition
 - contract
 - domain/cognitive-matrix
-- cognitive-matrix-primitives-contract
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

@@ -28,7 +28,6 @@ tags:
 - fractal_knowledge
 - governance
 - canon/core_laws
-- absolute-integrity-canon
 - law-hierarchy
 - provenance-topology-validation-receipt
 - scope-regime-validation-receipt
@@ -40,10 +39,6 @@ tags:
 - mvcc-cas
 - validation
 - epistemic-regimes
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 version: 1.0.0
 updated: '2026-08-27'
 status: CANON_CANDIDATE

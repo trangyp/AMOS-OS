@@ -33,16 +33,9 @@ tags:
 - topic/provenance
 - readme
 - architecture
-- system-map
 - neural-network
-- canon-map
 - amos-core-laws
-- invariant-registry
 - law-hierarchy
-- symbol-registry
-- unit-registry
-- universal-variable-registry
-- control-plane-map
 aliases:
 - AMOS Alias Registry - AMOS Identity Alias Registry - Canonical Alias Registry -
   Alias Resolu

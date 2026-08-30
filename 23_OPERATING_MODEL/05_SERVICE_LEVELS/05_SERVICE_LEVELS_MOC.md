@@ -5,9 +5,7 @@ source: 23_OPERATING_MODEL/05_SERVICE_LEVELS
 tags:
 - 05-service-levels
 - canon/operating-model
-- operating-model-service-levels-contract
 - service-levels
-- service-levels-operating-model-readme
 moc: true
 rscf:
   state: DERIVED

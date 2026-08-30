@@ -4,21 +4,12 @@ type: canon
 source: 01_CANON/03_COGNITION_CANON
 tags:
 - amos-os
-- 01_canon
 - canon/universe
 - readme
-- canon-cognition-canon-contract
-- cognition-canon
-- cognitive-organism-canon
-- full-brain-os-canon
 - canon
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

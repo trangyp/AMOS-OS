@@ -18,19 +18,13 @@ tags:
 - mode-template-commit-control-plane-engine-weights
 - mode-template-commit-control-plane-exit-criteria
 - mode-template-commit-control-plane-governance
-- mode-template-commit-control-plane-input-contract
 - mode-template-commit-control-plane-layer-weights
 - mode-template-commit-control-plane-mode-spec
 - mode-template-commit-control-plane-observability
-- mode-template-commit-control-plane-output-contract
 - mode-template-commit-control-plane-preconditions
 - mode-template-commit-control-plane-provenance
 - mode-template-commit-control-plane-purpose-scope
 - mode-template-commit-control-plane-safety-gates
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

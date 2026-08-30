@@ -14,7 +14,6 @@ path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_CHANGE_LOG.md
 tags:
 - 12-generators
 - 12_generators
-- 25_cognitive_matrix
 - amos-os
 - domain/cognitive-matrix
 - canon/universe
@@ -23,8 +22,6 @@ tags:
 - note
 - rscf
 - placeholder_expanded
-- generators-map
-- generator-contract
 - validation
 - roadmap
 - integration

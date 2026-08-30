@@ -4,16 +4,10 @@ type: map
 source: 21_DOMAINS/26_UBI_SI_SOMATIC/00_INDEX
 tags:
 - amos-os
-- 21_domains
 - canon/domain
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
-- ubi-si-somatic-domains-ubi-si-somatic-contract
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

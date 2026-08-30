@@ -93,7 +93,6 @@ tags:
 - registry
 - model_registry
 - architecture
-- 13_models
 - 04_domain
 - canon/model
 - canon/domain

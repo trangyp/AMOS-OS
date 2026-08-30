@@ -15,7 +15,6 @@ tags:
 - amos-os
 - domain
 - vault
-- 21_domains
 - 09_finance
 - macro_economy_kernel
 - macroeconomic_modeling

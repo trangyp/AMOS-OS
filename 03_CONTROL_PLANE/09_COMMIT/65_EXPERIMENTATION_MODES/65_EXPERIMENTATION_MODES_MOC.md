@@ -5,7 +5,6 @@ source: 03_CONTROL_PLANE/09_COMMIT/65_EXPERIMENTATION_MODES
 tags:
 - 65-experimentation-modes
 - canon/control-plane
-- experimentation-modes-commit-control-plane-readme
 moc: true
 rscf:
   state: DERIVED

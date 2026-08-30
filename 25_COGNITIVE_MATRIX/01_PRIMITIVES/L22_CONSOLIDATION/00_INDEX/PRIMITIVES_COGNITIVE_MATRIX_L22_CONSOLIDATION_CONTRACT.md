@@ -4,10 +4,9 @@ type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L22_CONSOLIDATION/00_INDEX
 tags:
 - cognitive-matrix
-- l22_consolidation
+- matrix/l22-consolidation
 - domain/cognitive-matrix
 - validation-evidence
-- cognitive-matrix-l22-consolidation-contract
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

@@ -15,7 +15,6 @@ tags:
 - amos-os
 - knowledge
 - vault
-- 11_knowledge
 - 02_claims
 - framework_claim_registry
 - epistemic_claims
@@ -26,7 +25,6 @@ tags:
 - trang-reality-architecture
 - frai-fractal-reasoning-ai
 - trang-lacunarity
-- trang-equation-registry
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

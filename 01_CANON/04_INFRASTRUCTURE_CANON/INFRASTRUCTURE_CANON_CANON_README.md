@@ -4,21 +4,12 @@ type: canon
 source: 01_CANON/04_INFRASTRUCTURE_CANON
 tags:
 - amos-os
-- 01_canon
 - canon/universe
 - readme
-- authority-canon
-- canon-infrastructure-canon-contract
-- control-plane-canon
-- infrastructure-canon
 - canon
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

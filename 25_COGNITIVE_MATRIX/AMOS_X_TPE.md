@@ -14,7 +14,6 @@ path: 25_COGNITIVE_MATRIX/AMOS_X_TPE.md
 tags:
 - amos-os
 - cognitive-matrix
-- 25_cognitive_matrix
 - artifact
 - tpe
 - trang_prediction_engine

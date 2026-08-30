@@ -7,14 +7,9 @@ tags:
 - o00_distinction
 - domain/cognitive-matrix
 - readme
-- o00-distinction-map
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

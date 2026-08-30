@@ -4,15 +4,11 @@ type: map
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L22_CONSOLIDATION/00_INDEX
 tags:
 - cognitive-matrix
-- l22_consolidation
+- matrix/l22-consolidation
 - domain/cognitive-matrix
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

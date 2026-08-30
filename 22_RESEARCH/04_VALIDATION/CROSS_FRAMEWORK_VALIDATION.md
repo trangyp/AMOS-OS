@@ -15,7 +15,6 @@ tags:
 - amos-os
 - research
 - vault
-- 22_research
 - 04_validation
 - cross_framework_validation
 - theoretical_consistency

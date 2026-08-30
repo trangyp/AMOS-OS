@@ -4,17 +4,11 @@ type: interface
 source: 15_INTERFACES
 tags:
 - amos-os
-- 15_interfaces
 - canon/interface
 - readme
-- interfaces-interface-contract
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

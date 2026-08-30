@@ -7,15 +7,10 @@ tags:
 - 67_monitoring_alerting_modes
 - canon/control-plane
 - readme
-- control-plane-mode-family-registry
 - control-plane-mode-family-spec
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

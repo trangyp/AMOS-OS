@@ -15,17 +15,15 @@ tags:
 - law/L1-epistemic
 - law/L2-provenance
 - law/L3-dependency
-- l4-causal
-- l5-scope-regime
-- l6-uncertainty
+- law/L4-causal
+- law/L5-scope-regime
+- law/L6-uncertainty
 - authorization-spec
 - authority-resolver
 - authority-witness
 - policy-engine
-- policy-registry
 - policy-decision
 - capability-manifest
-- control-plane-map
 title: L7 Authority Boundary Laws
 origin_architect: Trang Phan
 updated: '2026-08-26'

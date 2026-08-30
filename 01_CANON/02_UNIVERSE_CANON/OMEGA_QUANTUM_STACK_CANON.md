@@ -15,7 +15,6 @@ tags:
 - amos-os
 - canon
 - universe
-- 01_canon
 - omega
 - omega_quantum_stack
 - quantum_architecture
@@ -30,18 +29,11 @@ tags:
 - validation
 - memory
 - workflow
-- l19-proof-capsule
+- law/L19-proof-capsule
 - integration
 - law-hierarchy
-- canon-universe-canon-contract
-- omega-architecture-canon
 - khung-trang-master
 - khung-trang-equations
-- khung-trang-equations-canon
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - omega-quantum-stack
 version: 1.0.0
 updated: '2026-08-27'

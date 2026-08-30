@@ -8,12 +8,7 @@ tags:
 - domain/cognitive-matrix
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
-- primitives-cognitive-matrix-primitives-contract
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

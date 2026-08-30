@@ -17,12 +17,12 @@ tags:
 - law/L1-epistemic
 - law/L2-provenance
 - law/L3-dependency
-- l4-causal
-- l5-scope-regime
-- l6-uncertainty
-- l7-authority
-- l8-execution
-- l18-gmef
+- law/L4-causal
+- law/L5-scope-regime
+- law/L6-uncertainty
+- law/L7-authority
+- law/L8-execution
+- law/L18-gmef
 title: L9 Evolution Laws
 origin_architect: Trang Phan
 updated: '2026-08-26'

@@ -5,8 +5,6 @@ source: 24_ARCHIVE
 tags:
 - 24-archive
 - canon/archive
-- archive-archive-contract
-- archive-readme
 - amos-home
 moc: true
 rscf:

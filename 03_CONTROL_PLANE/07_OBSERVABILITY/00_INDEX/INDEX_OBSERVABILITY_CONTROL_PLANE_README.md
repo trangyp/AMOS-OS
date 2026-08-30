@@ -7,15 +7,9 @@ tags:
 - 00_index
 - canon/control-plane
 - readme
-- control-plane-observability-map
 - routing-policy-validation-receipt
-- observability-control-plane-observability-contract
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

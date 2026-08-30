@@ -4,18 +4,11 @@ type: index
 source: 21_DOMAINS/39_POLITICS_POWER/00_INDEX
 tags:
 - amos-os
-- 21_domains
 - canon/domain
 - readme
-- politics-power-map
 - routing-policy-validation-receipt
-- politics-power-domains-politics-power-contract
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

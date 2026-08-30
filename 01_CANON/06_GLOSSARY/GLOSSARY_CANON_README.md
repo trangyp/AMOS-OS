@@ -4,21 +4,15 @@ type: canon
 source: 01_CANON/06_GLOSSARY
 tags:
 - amos-os
-- 01_canon
 - canon/universe
 - readme
 - canonical-glossary
 - canon-aliases
-- canon-glossary-contract
 - deprecated-terms
 - canon
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

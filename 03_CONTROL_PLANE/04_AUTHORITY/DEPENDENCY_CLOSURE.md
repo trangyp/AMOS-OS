@@ -10,10 +10,6 @@ tags:
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - dependency-closure
 - trang-framework-recursive-ontology-dynamics
 rscf:

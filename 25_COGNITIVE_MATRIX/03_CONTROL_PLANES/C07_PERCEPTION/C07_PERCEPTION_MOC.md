@@ -5,7 +5,6 @@ source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C07_PERCEPTION
 tags:
 - c07-perception
 - domain/cognitive-matrix
-- cognitive-matrix-c07-perception-contract
 moc: true
 rscf:
   state: DERIVED

@@ -6,7 +6,6 @@ tags:
 - o16-learning
 - domain/cognitive-matrix
 - cognitive-matrix-input-output
-- cognitive-matrix-o16-learning-contract
 - cognitive-matrix-postconditions
 - cognitive-matrix-preconditions
 - cognitive-matrix-state-transitions

@@ -5,7 +5,6 @@ source: 03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/04_AUDIT
 tags:
 - 04-audit
 - canon/control-plane
-- audit-reasoning-modes-commit-control-plane-readme
 moc: true
 rscf:
   state: DERIVED

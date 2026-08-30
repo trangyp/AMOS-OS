@@ -5,11 +5,9 @@ source: 25_COGNITIVE_MATRIX/12_GENERATORS
 tags:
 - 12-generators
 - domain/cognitive-matrix
-- cognitive-matrix-generators-contract
 - generators-audit
 - generators-benchmarks
 - generators-change-log
-- generators-cognitive-matrix-readme
 - generators-history
 - generators-integration
 - generators-provenance
@@ -18,11 +16,9 @@ tags:
 - generators-validation
 - generators-versioning
 - generator-admission
-- generator-contract
 - generator-falsification
 - generator-output
 - generator-promotion
-- generator-registry
 - generator-seed
 - generator-supersession
 - generator-templates

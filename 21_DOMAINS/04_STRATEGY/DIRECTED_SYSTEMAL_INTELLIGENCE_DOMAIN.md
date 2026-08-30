@@ -15,7 +15,6 @@ tags:
 - amos-os
 - domain
 - vault
-- 21_domains
 - 04_strategy
 - directed_systemal_intelligence_domain
 - teleological_navigation

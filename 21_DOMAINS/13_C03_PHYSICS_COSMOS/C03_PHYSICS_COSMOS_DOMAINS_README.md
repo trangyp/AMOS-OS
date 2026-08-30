@@ -4,18 +4,12 @@ type: physics
 source: 21_DOMAINS/13_C03_PHYSICS_COSMOS
 tags:
 - amos-os
-- 21_domains
 - canon/domain
 - readme
 - c03-physics-cosmos-domains-domain-spec
-- domains-c03-physics-cosmos-contract
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

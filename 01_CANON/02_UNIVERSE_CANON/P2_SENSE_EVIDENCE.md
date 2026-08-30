@@ -32,10 +32,8 @@ tags:
 - canon/universe
 - validation
 - integration
-- l19-proof-capsule
-- amos-7-part-universe-canon
+- law/L19-proof-capsule
 - p1-reality-environment
-- hml-canon
 - trang-framework-recursive-ontology-dynamics
 - khung-trang-master
 version: 1.0.0

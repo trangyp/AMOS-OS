@@ -12,8 +12,8 @@ tags:
 - law/L1-epistemic
 - law/L2-provenance
 - law/L3-dependency
-- l4-causal
-- l5-scope-regime
+- law/L4-causal
+- law/L5-scope-regime
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

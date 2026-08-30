@@ -15,20 +15,14 @@ tags:
 - validation
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
-- l00-reality-validation-receipt
-- generator-contract
+- matrix/l00-reality-validation-receipt
 - generator-output
 - generator-validation
 - generator-falsification
 - generator-promotion
-- observability-readme
-- control-plane-readme
-- kernel-readme
-- operations-readme
 - law-hierarchy
 - promotion-gates
 - binding-rules
-- cognitive-matrix-validation-contract
 canon-group: canon/cognitive-matrix
 ---
 

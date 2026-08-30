@@ -15,7 +15,6 @@ tags:
 - amos-os
 - cognitive-matrix
 - vault
-- 25_cognitive_matrix
 - core_x_runtime_matrix
 - matrix_table
 - runtime_dispatch
@@ -52,7 +51,7 @@ tags:
 - memory
 - full-brain-bootstrap
 - canon
-- l19-proof-capsule
+- law/L19-proof-capsule
 - local-proof-finalizer
 - readme
 - architecture

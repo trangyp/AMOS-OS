@@ -15,12 +15,11 @@ tags:
 - amos-os
 - cognitive-matrix
 - vault
-- 25_cognitive_matrix
 - ubi_x_emotion_matrix
 - matrix_table
 - affective_state
 - cognitive_control
-- cross_plane
+- cross-plane
 - emotional_governance
 - refusal_firewall
 - metabolic_pacing

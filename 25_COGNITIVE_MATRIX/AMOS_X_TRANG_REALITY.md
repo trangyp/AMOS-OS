@@ -14,7 +14,6 @@ path: 25_COGNITIVE_MATRIX/AMOS_X_TRANG_REALITY.md
 tags:
 - amos-os
 - cognitive-matrix
-- 25_cognitive_matrix
 - artifact
 - trang_reality
 - trang_reality_architecture

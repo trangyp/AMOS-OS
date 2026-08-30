@@ -4,7 +4,7 @@ type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L10_WORLD_MODELING
 tags:
 - note
-- l10-world-modeling
+- matrix/l10-world-modeling
 - domain/cognitive-matrix
 - trang-framework-recursive-ontology-dynamics
 rscf:

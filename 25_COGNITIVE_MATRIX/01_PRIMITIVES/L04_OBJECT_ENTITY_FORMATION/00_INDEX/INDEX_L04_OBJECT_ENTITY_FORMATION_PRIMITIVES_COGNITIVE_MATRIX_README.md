@@ -4,17 +4,12 @@ type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION/00_INDEX
 tags:
 - cognitive-matrix
-- l04_object_entity_formation
+- matrix/l04-object-entity-formation
 - domain/cognitive-matrix
 - readme
-- l04-object-entity-formation-map
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

@@ -5,8 +5,6 @@ source: 02_KERNEL
 tags:
 - 02-kernel
 - canon/kernel
-- kernel-kernel-contract
-- kernel-readme
 - amos-home
 moc: true
 rscf:

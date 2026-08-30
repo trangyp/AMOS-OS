@@ -3,10 +3,7 @@ title: 01 Canon MOC
 type: moc
 source: 01_CANON
 tags:
-- 01-canon
 - canon/universe
-- canon-canon-contract
-- canon-readme
 - amos-home
 - trang-framework-recursive-ontology-dynamics
 moc: true

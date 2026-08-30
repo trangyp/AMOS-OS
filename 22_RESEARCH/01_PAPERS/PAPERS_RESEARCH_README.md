@@ -4,18 +4,11 @@ type: research
 source: 22_RESEARCH/01_PAPERS
 tags:
 - amos-os
-- 22_research
 - canon/research
 - readme
-- paper-registry
-- research-papers-contract
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL

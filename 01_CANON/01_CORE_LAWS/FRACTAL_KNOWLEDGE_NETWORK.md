@@ -25,7 +25,7 @@ tags:
 - context_efficiency
 - canon
 - canon/universe
-- l22-replayability
+- law/L22-replayability
 - law-hierarchy
 - trang-framework-recursive-ontology-dynamics
 rscf:

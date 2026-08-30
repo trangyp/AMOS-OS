@@ -15,7 +15,6 @@ tags:
 - amos-os
 - domain
 - vault
-- 21_domains
 - 05_design
 - irreducible_systems_design
 - minimal_architecture

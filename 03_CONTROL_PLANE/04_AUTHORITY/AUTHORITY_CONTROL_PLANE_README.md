@@ -13,7 +13,6 @@ tags:
 - authority-lifecycle
 - authority-log
 - authority-policy
-- authority-registry
 - authority-resolver
 - authority-source
 - authority-witness
@@ -33,10 +32,6 @@ tags:
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM

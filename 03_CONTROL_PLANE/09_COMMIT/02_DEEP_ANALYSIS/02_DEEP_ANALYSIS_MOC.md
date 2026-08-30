@@ -14,10 +14,8 @@ tags:
 - commit-control-plane-exit-criteria
 - commit-control-plane-failure-recovery
 - commit-control-plane-governance
-- commit-control-plane-input-contract
 - commit-control-plane-layer-weights
 - commit-control-plane-observability
-- commit-control-plane-output-contract
 - commit-control-plane-preconditions
 - commit-control-plane-purpose-scope
 - commit-control-plane-routing-bindings
@@ -27,7 +25,6 @@ tags:
 - commit-control-plane-validation
 - deep-analysis-commit-control-plane-mode-spec
 - deep-analysis-commit-control-plane-provenance
-- deep-analysis-commit-control-plane-readme
 moc: true
 rscf:
   state: DERIVED

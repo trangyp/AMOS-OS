@@ -3,9 +3,8 @@ title: L21 Learning MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L21_LEARNING
 tags:
-- l21-learning
+- matrix/l21-learning
 - domain/cognitive-matrix
-- cognitive-matrix-l21-learning-contract
 moc: true
 rscf:
   state: DERIVED

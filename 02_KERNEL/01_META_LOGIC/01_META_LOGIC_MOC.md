@@ -5,7 +5,6 @@ source: 02_KERNEL/01_META_LOGIC
 tags:
 - 01-meta-logic
 - canon/kernel
-- kernel-meta-logic-contract
 - k-absolute-logic
 - k-bio-logical-computing
 - k-core19-logic
@@ -17,7 +16,6 @@ tags:
 - k-qcla
 - k-quantum-logic-system
 - k-universe-logic-kernel
-- meta-logic-kernel-readme
 moc: true
 rscf:
   state: DERIVED

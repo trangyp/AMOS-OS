@@ -8,7 +8,6 @@ tags:
 - c09_kernel_control
 - contract
 - domain/cognitive-matrix
-- cognitive-matrix-control-planes-contract
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

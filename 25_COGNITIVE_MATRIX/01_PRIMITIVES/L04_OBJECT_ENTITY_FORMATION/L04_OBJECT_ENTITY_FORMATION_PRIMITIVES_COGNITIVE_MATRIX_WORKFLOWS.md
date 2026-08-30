@@ -11,7 +11,7 @@ artifact: WORKFLOWS.md
 tags:
 - cognitive-matrix
 - primitives
-- l04_object_entity_formation
+- matrix/l04-object-entity-formation
 - note
 - domain/cognitive-matrix
 rscf:

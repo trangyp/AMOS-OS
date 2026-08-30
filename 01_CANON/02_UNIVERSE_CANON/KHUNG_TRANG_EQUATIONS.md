@@ -15,7 +15,6 @@ tags:
 - amos-os
 - canon
 - universe
-- 01_canon
 - khung_trang
 - equations
 - master_mathematics
@@ -27,10 +26,9 @@ tags:
 - provenance
 - canon/universe
 - khung-trang
-- l19-proof-capsule
+- law/L19-proof-capsule
 - khung-trang-master
 - amos-x-trang-reality
-- khung-trang-equations-canon
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

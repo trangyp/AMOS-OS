@@ -4,18 +4,11 @@ type: index
 source: 21_DOMAINS/09_FINANCE/00_INDEX
 tags:
 - amos-os
-- 21_domains
 - canon/domain
 - readme
-- finance-domains-finance-contract
-- finance-map
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -7,7 +7,6 @@ tags:
 - ukr
 - knowledge
 - canon
-- khung-trang-canon
 ---
 
 # Khung Trang Universal Knowledge Representation (UKR)

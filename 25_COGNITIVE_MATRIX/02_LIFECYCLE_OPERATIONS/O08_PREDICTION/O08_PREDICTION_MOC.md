@@ -5,7 +5,6 @@ source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O08_PREDICTION
 tags:
 - o08-prediction
 - domain/cognitive-matrix
-- cognitive-matrix-o08-prediction-contract
 moc: true
 rscf:
   state: DERIVED

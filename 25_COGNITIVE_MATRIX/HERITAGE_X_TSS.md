@@ -14,7 +14,6 @@ path: 25_COGNITIVE_MATRIX/HERITAGE_X_TSS.md
 tags:
 - amos-os
 - cognitive-matrix
-- 25_cognitive_matrix
 - artifact
 - heritage
 - heritage_intelligence

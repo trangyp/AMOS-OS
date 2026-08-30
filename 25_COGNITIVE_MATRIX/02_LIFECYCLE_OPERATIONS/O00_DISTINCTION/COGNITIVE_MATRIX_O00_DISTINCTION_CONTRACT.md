@@ -8,7 +8,6 @@ tags:
 - o00_distinction
 - contract
 - domain/cognitive-matrix
-- cognitive-matrix-lifecycle-operations-contract
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

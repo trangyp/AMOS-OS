@@ -15,7 +15,6 @@ tags:
 - amos-os
 - cognitive-matrix
 - vault
-- 25_cognitive_matrix
 - provenance_x_confidence
 - epistemic_audit
 - confidence_ceiling_law

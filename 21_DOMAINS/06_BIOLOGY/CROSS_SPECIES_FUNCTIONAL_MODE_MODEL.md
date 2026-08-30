@@ -15,7 +15,6 @@ tags:
 - amos-os
 - domain
 - vault
-- 21_domains
 - 06_biology
 - cross_species_functional_mode_model
 - comparative_ethology

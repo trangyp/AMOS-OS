@@ -6,8 +6,6 @@ tags:
 - 30-clinical-research
 - canon/domain
 - clinical-research-domains-domain-spec
-- clinical-research-domains-readme
-- domains-clinical-research-contract
 moc: true
 rscf:
   state: DERIVED

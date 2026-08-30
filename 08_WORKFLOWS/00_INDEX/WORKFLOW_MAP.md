@@ -4,18 +4,11 @@ type: workflow
 source: 08_WORKFLOWS/00_INDEX
 tags:
 - amos-os
-- 08_workflows
 - type/workflow
 - workflow
-- workflows-readme
-- workflows-workflow-contract
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

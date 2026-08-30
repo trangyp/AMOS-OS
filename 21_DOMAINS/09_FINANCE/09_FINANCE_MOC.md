@@ -5,11 +5,9 @@ source: 21_DOMAINS/09_FINANCE
 tags:
 - 09-finance
 - canon/domain
-- domains-finance-contract
 - finance-domains-domain-spec
 - finance-domains-interfaces
 - finance-domains-provenance
-- finance-domains-readme
 - macro-economy-kernel
 - omega-fx-structural-os
 - trang-zero-forex

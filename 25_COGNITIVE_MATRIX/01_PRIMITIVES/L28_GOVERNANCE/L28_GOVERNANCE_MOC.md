@@ -3,9 +3,8 @@ title: L28 Governance MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L28_GOVERNANCE
 tags:
-- l28-governance
+- matrix/l28-governance
 - domain/cognitive-matrix
-- cognitive-matrix-l28-governance-contract
 moc: true
 rscf:
   state: DERIVED

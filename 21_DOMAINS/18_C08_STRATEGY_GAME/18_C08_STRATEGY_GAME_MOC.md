@@ -6,8 +6,6 @@ tags:
 - 18-c08-strategy-game
 - canon/domain
 - c08-strategy-game-domains-domain-spec
-- c08-strategy-game-domains-readme
-- domains-c08-strategy-game-contract
 moc: true
 rscf:
   state: DERIVED

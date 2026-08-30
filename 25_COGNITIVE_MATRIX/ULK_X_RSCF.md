@@ -20,7 +20,7 @@ tags:
 - reality-x-ulk
 - ulk-logic-kernel
 - ulk-x-rscf
-- l19-proof-capsule
+- law/L19-proof-capsule
 - ulk-x-rscf-matrix
 - k-provenance
 - k-fail-closed

@@ -9,8 +9,6 @@ tags:
 - note
 - canon/control-plane
 - mode-admission-queue
-- mode-composition-registry
-- task-contract
 - task-resolver
 - capability-resolver
 - k-system-state

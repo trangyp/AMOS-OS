@@ -12,7 +12,6 @@ segment: 00_ROOT/AMOS_TOTAL_DEPENDENCY_GRAPH.md
 artifact_kind: DEPENDENCY
 path: 00_ROOT/AMOS_TOTAL_DEPENDENCY_GRAPH.md
 tags:
-- 00_root
 - amos-os
 - artifact
 - canon/root
@@ -26,10 +25,6 @@ tags:
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED

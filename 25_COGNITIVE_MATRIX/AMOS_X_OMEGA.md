@@ -7,7 +7,6 @@ tags:
 - canon
 - omega
 - domain/cognitive-matrix
-- canon-map
 - law-hierarchy
 - amos-quantum-stack-v0-core
 - 2026-08-22-executable-brain-model-lineage

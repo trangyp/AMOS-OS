@@ -5,7 +5,6 @@ source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O07_INFERENCE
 tags:
 - o07-inference
 - domain/cognitive-matrix
-- cognitive-matrix-o07-inference-contract
 moc: true
 rscf:
   state: DERIVED

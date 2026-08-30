@@ -5,7 +5,6 @@ source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C09_KERNEL_CONTROL
 tags:
 - c09-kernel-control
 - domain/cognitive-matrix
-- cognitive-matrix-c09-kernel-control-contract
 moc: true
 rscf:
   state: DERIVED

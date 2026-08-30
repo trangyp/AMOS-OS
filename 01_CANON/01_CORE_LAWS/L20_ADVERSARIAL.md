@@ -27,19 +27,19 @@ tags:
 - diagnosis
 - law-hierarchy
 - trang-framework-recursive-ontology-dynamics
-- l17-rscf
-- l18-gmef
-- l19-proof-capsule
-- l16-hml
+- law/L17-rscf
+- law/L18-gmef
+- law/L19-proof-capsule
+- law/L16-hml
 - provenance-topology
 - persistent-provenance
 - scope-regime-firewall
 - causal-firewall
 - atomic-multi-rscf
 - causal-epoch-finality
-- l10-failure-recovery
-- l11-knowledge-memory
-- l15-fractal-knowledge
+- law/L10-failure-recovery
+- law/L11-knowledge-memory
+- law/L15-fractal-knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

@@ -15,7 +15,6 @@ tags:
 - amos-os
 - domain
 - vault
-- 21_domains
 - 07_healthcare
 - ubi_health_application
 - clinical_vitality

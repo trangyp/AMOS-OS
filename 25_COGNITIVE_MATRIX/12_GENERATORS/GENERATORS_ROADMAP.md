@@ -13,7 +13,6 @@ artifact_kind: ROADMAP
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_ROADMAP.md
 tags:
 - 12_generators
-- 25_cognitive_matrix
 - amos-os
 - domain/cognitive-matrix
 - canon/universe
@@ -23,7 +22,6 @@ tags:
 - roadmap
 - rscf
 - placeholder_expanded
-- generators-map
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED

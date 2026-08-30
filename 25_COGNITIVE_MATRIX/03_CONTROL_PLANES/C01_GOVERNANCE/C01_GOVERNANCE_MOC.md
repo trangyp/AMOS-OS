@@ -5,7 +5,6 @@ source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C01_GOVERNANCE
 tags:
 - c01-governance
 - domain/cognitive-matrix
-- cognitive-matrix-c01-governance-contract
 moc: true
 rscf:
   state: DERIVED

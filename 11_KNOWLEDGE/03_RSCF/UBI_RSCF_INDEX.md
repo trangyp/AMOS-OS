@@ -15,7 +15,6 @@ tags:
 - amos-os
 - knowledge
 - vault
-- 11_knowledge
 - 03_rscf
 - ubi_rscf_index
 - proof_capsules
@@ -25,7 +24,6 @@ tags:
 - canon_candidate
 - canon/knowledge
 - unified-biological-intelligence
-- ubi-claim-registry
 - amos-x-ubi
 version: 1.0.0
 updated: '2026-08-27'

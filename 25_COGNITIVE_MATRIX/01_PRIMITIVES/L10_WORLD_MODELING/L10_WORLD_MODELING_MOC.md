@@ -3,9 +3,8 @@ title: L10 World Modeling MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L10_WORLD_MODELING
 tags:
-- l10-world-modeling
+- matrix/l10-world-modeling
 - domain/cognitive-matrix
-- cognitive-matrix-l10-world-modeling-contract
 moc: true
 rscf:
   state: DERIVED

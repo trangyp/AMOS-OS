@@ -15,7 +15,6 @@ tags:
 - amos-os
 - knowledge
 - vault
-- 11_knowledge
 - 05_frameworks
 - trang_equation_registry
 - equations
@@ -25,7 +24,6 @@ tags:
 - rscf
 - canon_candidate
 - canon/knowledge
-- equation-registry
 - tss-the-trang-system
 - unified-biological-intelligence
 - trang-reality-architecture

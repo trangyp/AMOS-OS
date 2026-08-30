@@ -12,19 +12,14 @@ rscf:
 tags:
 - note
 - 12-generators
-- generators-map
-- generator-registry
 - generator-seed
 - generator-output
 - generator-promotion
 - generator-falsification
 - generator-supersession
-- task-contract
 - task-resolver
 - capability-resolver
 - mode-admission-queue
-- mode-composition-registry
-- mode-conflict-registry
 - mode-coverage-matrix
 - mode-dependency-graph
 - k-provenance

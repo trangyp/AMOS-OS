@@ -3,9 +3,8 @@ title: L29 Evolution MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L29_EVOLUTION
 tags:
-- l29-evolution
+- matrix/l29-evolution
 - domain/cognitive-matrix
-- cognitive-matrix-l29-evolution-contract
 moc: true
 rscf:
   state: DERIVED

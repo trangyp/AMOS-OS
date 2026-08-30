@@ -4,7 +4,6 @@ type: deprecated
 source: 24_ARCHIVE/01_DEPRECATED
 tags:
 - amos-os
-- 24_archive
 - canon/archive
 - readme
 - routing-policy-validation-receipt

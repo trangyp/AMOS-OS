@@ -5,8 +5,6 @@ source: 15_INTERFACES
 tags:
 - 15-interfaces
 - canon/interface
-- interfaces-interface-contract
-- interfaces-readme
 - amos-home
 moc: true
 rscf:

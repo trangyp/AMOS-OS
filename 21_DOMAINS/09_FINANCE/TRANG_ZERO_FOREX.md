@@ -15,7 +15,6 @@ tags:
 - amos-os
 - domain
 - vault
-- 21_domains
 - 09_finance
 - trang_zero_forex
 - null_state_pricing

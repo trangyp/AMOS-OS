@@ -6,7 +6,6 @@ tags:
 - note
 - 12-generators
 - domain/cognitive-matrix
-- generators-map
 rscf:
   state: DERIVED
   claim_class: DERIVED

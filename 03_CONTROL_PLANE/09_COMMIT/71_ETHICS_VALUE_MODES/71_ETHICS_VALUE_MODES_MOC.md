@@ -5,7 +5,6 @@ source: 03_CONTROL_PLANE/09_COMMIT/71_ETHICS_VALUE_MODES
 tags:
 - 71-ethics-value-modes
 - canon/control-plane
-- ethics-value-modes-commit-control-plane-readme
 moc: true
 rscf:
   state: DERIVED

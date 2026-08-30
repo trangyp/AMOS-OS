@@ -5,9 +5,7 @@ source: 21_DOMAINS/27_UBI_SUPER
 tags:
 - 27-ubi-super
 - canon/domain
-- domains-ubi-super-contract
 - ubi-super-domains-domain-spec
-- ubi-super-domains-readme
 moc: true
 rscf:
   state: DERIVED

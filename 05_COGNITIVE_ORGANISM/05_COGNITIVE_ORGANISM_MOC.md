@@ -8,9 +8,7 @@ tags:
 - attention-engine
 - bei-organism-binding
 - cognition-engine
-- cognitive-organism-readme
 - cross-species-mode-engine
-- cognitive-organism-cognitive-organism-contract
 - emotion-engine
 - full-brain-os-runtime-binding
 - homeostasis-engine

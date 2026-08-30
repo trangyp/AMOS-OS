@@ -5,7 +5,6 @@ source: 03_CONTROL_PLANE/09_COMMIT/54_CRISIS_INCIDENT_MODES
 tags:
 - 54-crisis-incident-modes
 - canon/control-plane
-- crisis-incident-modes-commit-control-plane-readme
 moc: true
 rscf:
   state: DERIVED

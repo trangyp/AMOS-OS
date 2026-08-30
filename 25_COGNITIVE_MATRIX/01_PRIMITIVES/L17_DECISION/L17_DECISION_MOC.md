@@ -3,9 +3,8 @@ title: L17 Decision MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L17_DECISION
 tags:
-- l17-decision
+- matrix/l17-decision
 - domain/cognitive-matrix
-- cognitive-matrix-l17-decision-contract
 moc: true
 rscf:
   state: DERIVED

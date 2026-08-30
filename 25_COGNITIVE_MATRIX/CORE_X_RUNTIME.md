@@ -15,7 +15,6 @@ tags:
 - amos-os
 - cognitive-matrix
 - vault
-- 25_cognitive_matrix
 - core_x_runtime
 - runtime_execution
 - deterministic_loop

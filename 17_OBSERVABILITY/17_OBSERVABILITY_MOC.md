@@ -5,8 +5,6 @@ source: 17_OBSERVABILITY
 tags:
 - 17-observability
 - canon/observability
-- observability-observability-contract
-- observability-readme
 - amos-home
 moc: true
 rscf:

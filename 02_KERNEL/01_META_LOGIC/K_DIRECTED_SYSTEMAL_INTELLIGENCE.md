@@ -19,7 +19,6 @@ tags:
 - amos-os
 - kernel
 - core
-- 02_kernel
 - intelligence
 - directed_intelligence
 - systemal_intelligence
@@ -37,19 +36,11 @@ tags:
 - governance
 - validation
 - recovery
-- kernel-readme
 - law-hierarchy
 - amos-core-laws
-- invariant-registry
-- hml-canon
 - canon-provenance
 - source-lineage
-- conflict-registry
 - supersession-log
-- control-plane-readme
-- runtime-map
-- observability-readme
-- operations-readme
 version: 0.2.0
 updated: '2026-08-27'
 status: AMOS_MODEL

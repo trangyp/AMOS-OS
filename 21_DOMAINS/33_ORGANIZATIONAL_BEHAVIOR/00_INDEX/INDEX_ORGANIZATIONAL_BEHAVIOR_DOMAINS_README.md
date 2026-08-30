@@ -4,12 +4,10 @@ type: index
 source: 21_DOMAINS/33_ORGANIZATIONAL_BEHAVIOR/00_INDEX
 tags:
 - amos-os
-- 21_domains
 - canon/domain
 - readme
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
-- organizational-behavior-map
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

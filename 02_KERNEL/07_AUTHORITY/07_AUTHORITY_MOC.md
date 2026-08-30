@@ -5,8 +5,6 @@ source: 02_KERNEL/07_AUTHORITY
 tags:
 - 07-authority
 - canon/kernel
-- authority-kernel-readme
-- kernel-authority-contract
 - k-capability-authorization
 - k-commit-time-authority
 - k-effect-classification

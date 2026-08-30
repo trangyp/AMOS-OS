@@ -14,7 +14,6 @@ tags:
 - provenance
 - navigation
 - canon/universe
-- canon-provenance-map
 title: PROVENANCE CANON MAP
 rscf:
   state: DERIVED

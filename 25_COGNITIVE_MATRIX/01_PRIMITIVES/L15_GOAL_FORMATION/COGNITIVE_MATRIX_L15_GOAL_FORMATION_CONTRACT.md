@@ -5,10 +5,9 @@ source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L15_GOAL_FORMATION
 tags:
 - cognitive-matrix
 - primitives
-- l15_goal_formation
+- matrix/l15-goal-formation
 - contract
 - domain/cognitive-matrix
-- cognitive-matrix-primitives-contract
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

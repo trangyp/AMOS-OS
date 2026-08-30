@@ -24,9 +24,9 @@ tags:
 - provenance-topology
 - competing-hypotheses
 - scope-regime-firewall
-- l10-failure-recovery
-- l11-knowledge-memory
-- l15-fractal-knowledge
+- law/L10-failure-recovery
+- law/L11-knowledge-memory
+- law/L15-fractal-knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

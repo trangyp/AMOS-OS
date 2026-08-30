@@ -5,9 +5,7 @@ source: 21_DOMAINS/29_MEDICAL_CLINICAL
 tags:
 - 29-medical-clinical
 - canon/domain
-- domains-medical-clinical-contract
 - medical-clinical-domains-domain-spec
-- medical-clinical-domains-readme
 moc: true
 rscf:
   state: DERIVED

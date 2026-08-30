@@ -5,8 +5,6 @@ source: 23_OPERATING_MODEL
 tags:
 - 23-operating-model
 - canon/operating-model
-- operating-model-operating-model-contract
-- operating-model-readme
 - amos-home
 moc: true
 rscf:

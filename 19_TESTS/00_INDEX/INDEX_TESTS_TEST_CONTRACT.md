@@ -4,17 +4,11 @@ type: index
 source: 19_TESTS/00_INDEX
 tags:
 - amos-os
-- 19_tests
 - canon/test
 - readme
-- test-map
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

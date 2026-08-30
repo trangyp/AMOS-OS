@@ -7,10 +7,8 @@ tags:
 - domain/cognitive-matrix
 - cell-authority
 - cell-bindings
-- cell-contracts-cognitive-matrix-readme
 - cell-evidence
 - cell-state
-- cognitive-matrix-cell-contracts-contract
 moc: true
 rscf:
   state: DERIVED

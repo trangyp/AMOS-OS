@@ -5,7 +5,6 @@ source: 03_CONTROL_PLANE/09_COMMIT/62_SENSEMAKING_MODES
 tags:
 - 62-sensemaking-modes
 - canon/control-plane
-- sensemaking-modes-commit-control-plane-readme
 moc: true
 rscf:
   state: DERIVED

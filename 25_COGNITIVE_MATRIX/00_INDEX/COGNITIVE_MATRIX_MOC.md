@@ -5,12 +5,7 @@ source: 25_COGNITIVE_MATRIX/00_INDEX
 tags:
 - domain/cognitive-matrix
 - cognitive-matrix-architecture
-- cognitive-matrix-map
 - cognitive-matrix-naming-standard
-- control-plane-registry
-- lifecycle-operation-registry
-- primitive-registry
-- scale-registry
 - status-legend
 moc: true
 rscf:

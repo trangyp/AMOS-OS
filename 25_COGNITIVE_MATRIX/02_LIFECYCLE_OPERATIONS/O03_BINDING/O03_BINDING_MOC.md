@@ -5,7 +5,6 @@ source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O03_BINDING
 tags:
 - o03-binding
 - domain/cognitive-matrix
-- cognitive-matrix-o03-binding-contract
 moc: true
 rscf:
   state: DERIVED

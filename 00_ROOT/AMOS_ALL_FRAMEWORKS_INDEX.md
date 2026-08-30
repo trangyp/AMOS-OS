@@ -12,7 +12,6 @@ segment: 00_ROOT/AMOS_ALL_FRAMEWORKS_INDEX.md
 artifact_kind: INDEX
 path: 00_ROOT/AMOS_ALL_FRAMEWORKS_INDEX.md
 tags:
-- 00_root
 - amos-os
 - canon/root
 - canon/universe
@@ -25,10 +24,6 @@ tags:
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
