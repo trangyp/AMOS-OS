@@ -1,5 +1,5 @@
 ---
-title: AMOS Engines Master — 5 Unified SUPER Engines
+title: AMOS Engines Master — 5 Unified Engines
 created: '2026-08-22'
 origin: Google Drive — _00_AMOS_CANON/Packs/Sector_Packs/
 origin_architect: Trang Phan
