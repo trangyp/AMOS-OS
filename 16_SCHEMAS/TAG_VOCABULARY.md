@@ -471,3 +471,20 @@ domain/canon_universe, domain/knowledge_research -> hyphen. Backup
 - DECISIONS STILL OPEN: (a) sub-folder mirrors + 01..99_*_modes reasoning-mode
   regime (systematic, ~700+; may be meaningful, separate decision);
   (b) whether to keep the applied normalization or commit to git.
+
+### Pass 9 commit + retention findings (2026-08-30) COMMITTED
+- Committed as `76944966e9` ("Apply 9-pass tag migration..."). Tree clean
+  except an unstaged Copilot conversation log (intentionally excluded).
+- gitignore extended: `scripts/.tagmigrate*-backup-*/` now covers ALL numbered
+  basins (base pattern only matched passes 1-4). Backups retained on disk, not tracked.
+
+### Retained systematic schemes (deliberately NOT modified — findings)
+These are meaningful, not drift, and must not be erased by any future tag pass:
+1. `01..99_*_modes` — self-consistent numbered operating-mode taxonomy (203 distinct,
+   290 instances) confined to 03_CONTROL_PLANE, mirroring its own subfolder paths
+   (06_reasoning_modes/01_explore etc.). Scoped internal scheme => retained.
+2. `epistemic/amos_model` — claim-class canon value (underscore is part of the value).
+3. `canon_placeholder` (x308) / `placeholder_expanded` (x74) — real state markers.
+4. `00_index` / `00_mode_index` / `mode_index` — navigation/index tags.
+Remaining numbered-vs-unnumbered pairs (e.g. 06_reasoning_modes vs reasoning_modes)
+are minor drift INSIDE the control-plane scheme; left untouched to respect the scheme.
