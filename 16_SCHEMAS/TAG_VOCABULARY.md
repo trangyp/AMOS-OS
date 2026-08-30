@@ -488,3 +488,17 @@ These are meaningful, not drift, and must not be erased by any future tag pass:
 4. `00_index` / `00_mode_index` / `mode_index` — navigation/index tags.
 Remaining numbered-vs-unnumbered pairs (e.g. 06_reasoning_modes vs reasoning_modes)
 are minor drift INSIDE the control-plane scheme; left untouched to respect the scheme.
+
+### Pass 10 — type: frontmatter property hyphen drift (2026-08-30) APPLIED
+The `type:` frontmatter PROPERTY (the vault's real node-kind axis, 157 distinct,
+~6.7k files) still carried 6 underscore-form values from the pre-Pass-6 style:
+core_spec/kernel_spec/domain_knowledge/framework_master/moc_redirect/universe_canon.
+Hyphenated => core-spec, kernel-spec, domain-knowledge, framework-master,
+moc-redirect, universe-canon. 29 files changed (exact git reconciliation:
+1+1+21+1+1+4=29). FAIL-CLOSED on concept-distinct pairs (map vs map-of-content,
+engine vs engine-spec, framework vs trang-framework, research vs research-paper,
+model vs brain-model) — these are distinct artifact kinds, NOT spelling drift.
+NOTE: tags-list `type/*` namespace holds only 3 values (skill/workflow/reference)
+and is a SEPARATE, sparsely-populated encoding from the rich `type:` property;
+flagged for later decision, not touched here to preserve intent.
+backup scripts/.tagmigrate10-backup-* (pruned to the 29 real backups).
