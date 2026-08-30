@@ -1,6 +1,6 @@
 ---
 title: L24 — Causal Epoch Law
-type: core_law
+type: law
 source: 01_CANON/01_CORE_LAWS
 tags:
 - canon

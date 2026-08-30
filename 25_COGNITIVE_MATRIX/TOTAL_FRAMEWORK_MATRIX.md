@@ -1,6 +1,6 @@
 ---
 title: Total Framework Cross-Plane Matrix
-type: cognitive_matrix
+type: cognitive
 source: 25_COGNITIVE_MATRIX
 artifact: TOTAL_FRAMEWORK_MATRIX.md
 artifact_id: amos_25_cognitive_matrix_total_framework_matrix

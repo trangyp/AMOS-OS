@@ -1,6 +1,6 @@
 ---
 title: Provenance x Confidence Cognitive Matrix
-type: cognitive_matrix
+type: cognitive
 source: 25_COGNITIVE_MATRIX
 artifact: PROVENANCE_X_CONFIDENCE.md
 artifact_id: amos_25_cognitive_matrix_provenance_x_confidence

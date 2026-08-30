@@ -6,7 +6,6 @@ tags:
 - l08-representation
 - domain/cognitive-matrix
 - cognitive-matrix-l08-representation-contract
-- l08-representation-primitives-cognitive-matrix-hml
 moc: true
 rscf:
   state: DERIVED

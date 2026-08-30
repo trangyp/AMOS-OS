@@ -1,6 +1,6 @@
 ---
 title: UBI x Emotion Cognitive Matrix Specification
-type: cognitive_matrix
+type: cognitive
 source: 25_COGNITIVE_MATRIX
 artifact: UBI_X_EMOTION.md
 artifact_id: amos_25_cognitive_matrix_ubi_x_emotion

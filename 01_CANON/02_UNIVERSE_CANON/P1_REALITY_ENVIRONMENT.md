@@ -1,6 +1,6 @@
 ---
 title: P1 Reality & Environment
-type: canon_specification
+type: canon
 source: 01_CANON/02_UNIVERSE_CANON
 artifact: P1_REALITY_ENVIRONMENT.md
 artifact_id: amos_01_canon_02_universe_canon_p1_reality_environment

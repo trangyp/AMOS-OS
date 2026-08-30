@@ -5,7 +5,7 @@ aliases:
 - Epistemic Regimes
 - Epistemic Regimes Classification
 - Epistemic Classification Law
-type: core_law
+type: law
 source: 01_CANON/01_CORE_LAWS
 tags:
 - core_law

@@ -6,8 +6,6 @@ tags:
 - l23-metacognition
 - domain/cognitive-matrix
 - cognitive-matrix-l23-metacognition-contract
-- l23-metacognition-primitives-cognitive-matrix-hml
-- l23-metacognition-primitives-cognitive-matrix-rscf
 moc: true
 rscf:
   state: DERIVED

@@ -6,7 +6,6 @@ tags:
 - note
 - l20-credit-assignment
 - domain/cognitive-matrix
-- l21-learning-primitives-cognitive-matrix-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

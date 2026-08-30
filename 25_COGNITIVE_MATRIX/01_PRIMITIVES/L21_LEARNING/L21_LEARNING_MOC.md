@@ -6,21 +6,6 @@ tags:
 - l21-learning
 - domain/cognitive-matrix
 - cognitive-matrix-l21-learning-contract
-- l21-learning-primitives-cognitive-matrix-agents
-- l21-learning-primitives-cognitive-matrix-equations
-- l21-learning-primitives-cognitive-matrix-hml
-- l21-learning-primitives-cognitive-matrix-memory
-- l21-learning-primitives-cognitive-matrix-operators
-- l21-learning-primitives-cognitive-matrix-protocols
-- l21-learning-primitives-cognitive-matrix-purpose
-- l21-learning-primitives-cognitive-matrix-readme
-- l21-learning-primitives-cognitive-matrix-repair
-- l21-learning-primitives-cognitive-matrix-rscf
-- l21-learning-primitives-cognitive-matrix-skills
-- l21-learning-primitives-cognitive-matrix-state
-- l21-learning-primitives-cognitive-matrix-tests
-- l21-learning-primitives-cognitive-matrix-variables
-- l21-learning-primitives-cognitive-matrix-workflows
 moc: true
 rscf:
   state: DERIVED

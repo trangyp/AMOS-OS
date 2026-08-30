@@ -1,6 +1,6 @@
 ---
 title: ATOMIC_MULTI_RSCF_REASONING Specification
-type: core_law
+type: law
 source: 01_CANON/01_CORE_LAWS
 artifact: ATOMIC_MULTI_RSCF_REASONING.md
 artifact_id: amos_01_canon_01_core_laws_atomic_multi_rscf_reasoning

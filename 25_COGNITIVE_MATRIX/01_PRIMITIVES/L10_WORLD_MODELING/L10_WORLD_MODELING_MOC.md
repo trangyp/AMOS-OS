@@ -6,7 +6,6 @@ tags:
 - l10-world-modeling
 - domain/cognitive-matrix
 - cognitive-matrix-l10-world-modeling-contract
-- l10-world-modeling-primitives-cognitive-matrix-hml
 moc: true
 rscf:
   state: DERIVED

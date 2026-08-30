@@ -6,7 +6,6 @@ tags:
 - note
 - l11-causal-modeling
 - domain/cognitive-matrix
-- l13-prediction-primitives-cognitive-matrix-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

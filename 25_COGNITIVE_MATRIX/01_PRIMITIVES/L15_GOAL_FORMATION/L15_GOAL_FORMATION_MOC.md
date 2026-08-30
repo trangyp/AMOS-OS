@@ -6,7 +6,6 @@ tags:
 - l15-goal-formation
 - domain/cognitive-matrix
 - cognitive-matrix-l15-goal-formation-contract
-- l15-goal-formation-primitives-cognitive-matrix-hml
 moc: true
 rscf:
   state: DERIVED

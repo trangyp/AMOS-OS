@@ -6,8 +6,6 @@ tags:
 - note
 - l22-consolidation
 - domain/cognitive-matrix
-- l21-learning-primitives-cognitive-matrix-readme
-- l07-memory-primitives-cognitive-matrix-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

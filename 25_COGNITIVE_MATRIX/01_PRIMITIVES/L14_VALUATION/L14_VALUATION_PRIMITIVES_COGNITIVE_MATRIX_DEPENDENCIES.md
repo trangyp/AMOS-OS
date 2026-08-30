@@ -6,8 +6,6 @@ tags:
 - note
 - l14-valuation
 - domain/cognitive-matrix
-- l13-prediction-primitives-cognitive-matrix-readme
-- l17-decision-primitives-cognitive-matrix-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

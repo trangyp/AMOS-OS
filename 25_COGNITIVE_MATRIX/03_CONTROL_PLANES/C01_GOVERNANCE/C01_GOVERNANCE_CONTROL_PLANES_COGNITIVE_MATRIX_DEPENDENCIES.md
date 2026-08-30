@@ -6,7 +6,6 @@ tags:
 - note
 - c01-governance
 - domain/cognitive-matrix
-- l28-governance-primitives-cognitive-matrix-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

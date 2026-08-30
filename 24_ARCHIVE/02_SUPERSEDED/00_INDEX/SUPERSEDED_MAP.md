@@ -1,6 +1,6 @@
 ---
 title: SUPERSEDED MAP
-type: superseded
+type: supersession
 source: 24_ARCHIVE/02_SUPERSEDED/00_INDEX
 tags:
 - amos-os

@@ -1,6 +1,6 @@
 ---
 title: Superseded Framework Registry
-type: superseded
+type: supersession
 source: 24_ARCHIVE/02_SUPERSEDED
 artifact: SUPERSEDED_FRAMEWORK_REGISTRY.md
 artifact_id: amos_24_archive_02_superseded_superseded_framework_registry

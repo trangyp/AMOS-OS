@@ -6,8 +6,6 @@ tags:
 - note
 - l15-goal-formation
 - domain/cognitive-matrix
-- l14-valuation-primitives-cognitive-matrix-readme
-- l16-planning-primitives-cognitive-matrix-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

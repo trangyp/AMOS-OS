@@ -1,6 +1,6 @@
 ---
 title: Reality x RSCF Cross-Plane Matrix
-type: cognitive_matrix
+type: cognitive
 source: 25_COGNITIVE_MATRIX
 artifact: REALITY_X_RSCF_MATRIX.md
 artifact_id: amos_25_cognitive_matrix_reality_x_rscf_matrix

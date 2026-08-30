@@ -6,16 +6,6 @@ tags:
 - l13-prediction
 - domain/cognitive-matrix
 - cognitive-matrix-l13-prediction-contract
-- l13-prediction-primitives-cognitive-matrix-agents
-- l13-prediction-primitives-cognitive-matrix-hml
-- l13-prediction-primitives-cognitive-matrix-memory
-- l13-prediction-primitives-cognitive-matrix-purpose
-- l13-prediction-primitives-cognitive-matrix-readme
-- l13-prediction-primitives-cognitive-matrix-repair
-- l13-prediction-primitives-cognitive-matrix-rscf
-- l13-prediction-primitives-cognitive-matrix-skills
-- l13-prediction-primitives-cognitive-matrix-state
-- l13-prediction-primitives-cognitive-matrix-tests
 moc: true
 rscf:
   state: DERIVED

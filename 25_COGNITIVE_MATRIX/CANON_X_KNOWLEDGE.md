@@ -1,6 +1,6 @@
 ---
 title: Canon x Knowledge
-type: cognitive_matrix
+type: cognitive
 source: 25_COGNITIVE_MATRIX
 artifact: CANON_X_KNOWLEDGE.md
 artifact_id: amos_25_cognitive_matrix_canon_x_knowledge

@@ -1,6 +1,6 @@
 ---
 title: UBI X FULL BRAIN MATRIX
-type: cognitive_matrix
+type: cognitive
 source: 25_COGNITIVE_MATRIX
 artifact: UBI_X_FULL_BRAIN_MATRIX.md
 artifact_id: amos_25_cognitive_matrix_ubi_x_full_brain_matrix

@@ -6,8 +6,6 @@ tags:
 - l22-consolidation
 - domain/cognitive-matrix
 - cognitive-matrix-l22-consolidation-contract
-- l22-consolidation-primitives-cognitive-matrix-hml
-- l22-consolidation-primitives-cognitive-matrix-rscf
 moc: true
 rscf:
   state: DERIVED

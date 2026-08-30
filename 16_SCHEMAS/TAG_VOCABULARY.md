@@ -221,3 +221,124 @@ These are recorded here so scope is explicit and no accidental over-reach.
 3. Dry-run first (no writes) → present diff → on approval, apply + re-audit.
 4. Re-audit: expect `*-moc`, `00-*`, `index-*` counts → 0; distinct-tag count drops sharply.
 
+
+## Post-execution status (2026-08-30)
+
+Both passes APPLIED and verified:
+
+- **Pass 1** (collisions/renames): 6,123 files, 18 rename pairs (7,717 instances), 1,308 drops. Rollback basin `scripts/.tagmigrate-backup-20260829-194226/`.
+- **Pass 2** (graph-tags → properties): 6,959 files, `moc: true` added to 1,064 genuine MOCs. Rollback basin `scripts/.tagmigrate2-backup-20260829-220939/`.
+
+**Export at 0 (verified):** `.md` tag-leaks, bare `moc`, `*-moc`, `00-*`, `index-*`, `amos-rscf-nodes`, `canon/skill`, `canon/workflow`, `canon/cognitive-matrix`, `amos_os`, `control_plane`, `cognitive_matrix`, `rscf/source_claim`.
+**Canonical present:** `type/skill` (2,367), `type/workflow` (688), `amos-os` (1,976), `control-plane` (701).
+
+### Graph filter repaired (`.obsidian/graph.json`)
+Three color-group queries pointed at removed tag spellings. Fixed:
+- `tag:#moc` → `property:moc:true` (MOCs now carry the property, not the tag)
+- `tag:#control_plane` → `tag:#control-plane`
+- `tag:#amos_os` → `tag:#amos-os`
+Verified: all 16 `tag:` color groups + the `property:` group now match >=1 frontmatter file; `graph.json` re-parses as valid JSON (107 color groups).
+
+### Generator re-drift audit (negative)
+`skill_registry_packager.py` emits only `type: skill` (canonical); `skill_catalog_generator.py` and `skill_rscf_canonicalizer.py` write no tags. Re-running them will NOT re-emit non-canonical graph tags. The migration tools themselves encode the canonical set (`amos_os→amos-os`, `control_plane→control-plane`, drop `*-moc`/`index-*`/`00-*`).
+
+### Still open (deferred, need separate sign-off)
+- `lNN` law-gate vs matrix-layer collision (~1,794 instances)
+- `-readme` / `-map` / `-contract` / `-registry` / `-canon` folds into `type:`
+
+### Pass 3 — lNN degenerate path-mirror tags (2026-08-30) — APPLIED
+Scope investigation corrected the earlier estimate: the lNN family is NOT a
+~1,794-instance collision. Actual decomposition:
+
+- **cognitive-matrix layer tags** (l00_reality_environment ... l29_evolution,
+  97 distinct / 796 instances) — MEANINGFUL, bound to
+  25_COGNITIVE_MATRIX/01_PRIMITIVES/LNN_*. **KEPT.**
+- **RSCF law-gate tags** (l4-causal, l10-failure-recovery, l18-gmef, l33-canon,
+  ...) — MEANINGFUL. **KEPT.**
+- **degenerate path-mirror tags** (153 distinct / 195 instances / 45 files) whose
+  body embeds the file's own path (`lNN-* primitives-cognitive-matrix-<artifact>`).
+  Pure generation noise. **REMOVED** via `scripts/tag_migrate_lNN.py`
+  (--apply --backup-dir scripts/.tagmigrate3-backup-20260830-112326/).
+
+Verified post-apply: 0 degenerate tags remain; 0 frontmatter regressions across
+all 45 written files; every removed tag was path-mirror; 0 files left tagless;
+meaningful lNN matrix + RSCF law tags untouched.
+
+The overloaded `lNN` prefix (two unrelated schemes sharing it) is a **naming-
+standard** concern, NOT a migration: there is no literal name collision (tag
+bodies differ, e.g. l13-prediction vs l10-failure-recovery). Recording for
+future naming-standard sign-off, not action.
+
+### Still open (deferred)
+- artifact-suffix folds into `type:`: -readme (198/6323), -contract (280/604),
+  -map (205/905), -registry (126/401), -canon (125/399), -index (30/61),
+  -moc (1/1). Changes `type:` semantics — separate decision.
+
+### Decision proposal (DRAFT — NOT executed): artifact-suffix tags & the type: enum
+
+Investigation (2026-08-30) changed the shape of this deferred item. Measured:
+
+- Suffix-tag families (frontmatter): -readme 198/6323, -contract 280/604,
+  -map 205/905, -registry 126/401, -canon 125/399, -index 30/61, -moc 1/1.
+- `type:` field is itself a **164-value enum** (6,744 files) with drift:
+  cognitive(136)/cognitive_matrix(28)/cognitive-matrix(1)/cognition(1);
+  canon(197)/canon_specification(1); law(9)/core_law(12);
+  supersession(11)/superseded(5).
+- A suffix-tag agnostic to `type:`: a file carries BOTH e.g.
+  `type: control-plane` AND `security-readme`. So folding `-readme` into
+  `type:` is **contradictory** (one file, one `type:`), and `type:` is already
+  fragmented. Naive fold is NOT viable on this data.
+
+Suffix tags encode TWO dimensions that `type:` collapses to one: artifact-kind
+(readme/map/contract/registry/canon) AND owning domain (security/kernel/...).
+
+Options for sign-off (choose one; NONE executed):
+  A. Keep suffix tags as-is (they work; only the -moc residual=1 and the 153
+     degenerate lNN mirrors were true noise). Add a naming standard forbidding
+     NEW suffix-tag creation; prefer `type:` + `plane:` property going forward.
+  B. Normalize the `type:` enum first (collapse cognitive/cognition/cognitive
+     [-matrix] -> cognitive; canon/canon_specification -> canon; law/core_law ->
+     law; supersession/superseded -> supersession), THEN decide suffix fate.
+  C. Adopt a real two-axis model: `type:` = artifact-kind enum
+     (readme/map/contract/registry/canon/index/moc/note/reference/...) and
+     `plane:` = owning domain. Migrate suffix-tag -> type: + plane: pair.
+     Largest change; highest long-term cleanliness; touches every file.
+
+Recommendation: B is the safe first step (pure collision cleanup on `type:`,
+matches Pass-1 discipline, no semantic redesign, fully revertible). C is the
+architecturally correct but large endpoint. A is acceptable if the enum
+fragmentation is tolerated.
+
+### Pass 4 — type: enum collision collapse (Option B) — APPLIED (2026-08-30)
+Recommended in the decision proposal above as the safe first step. Executed via
+`scripts/tag_migrate_type.py`:
+- cognitive_matrix(28) / cognitive-matrix(1) / cognition(1)   -> cognitive
+- core_law(12)            -> law
+- superseded(5)           -> supersession
+- canon_specification(1)  -> canon
+- source-summary(1)       -> index
+49 files changed; verified 0 collision type: values remain and 0 non-type
+frontmatter regressions. Distinct type: values 164 -> 157. Backup basin
+`scripts/.tagmigrate4-backup-20260830-112623/` (49 snapshots).
+
+Option C (two-axis type:+plane: migration for the artifact-suffix families)
+REMAINS DEFERRED — large endpoint, needs explicit sign-off.
+
+### Pass 5 candidate — redundant artifact-suffix tags (DRAFT, AWAITING sign-off)
+Option C (type:+plane: two-axis redesign) is REJECTED on evidence: the suffix
+tags are pure redundancy, not a structure gap. Measured:
+  - artifact-kind already in EVERY filename/parent (8,639/8,639): *_README /
+    *_MAP / *_CONTRACT / *_REGISTRY / *_CANON / *_INDEX.
+  - plane already in the path (NN_PLANE/...).
+  - no graph color-group references any suffix tag.
+  - no dataview/MOC query references one (the 11 `canon` hits are namespaced
+    `canon/*`, NOT `-canon` suffixes).
+  - 0 of 2,076 files would be left tagless.
+
+So the correct action is Pass-3-style REMOVAL, not Option-C property addition
+(which would triple-encode). Tool: `scripts/tag_migrate_suffix.py`.
+Dry-run impact: 2,076 files / 8,639 tags (-readme 6269, -map 905, -contract 604,
+-registry 401, -canon 399, -index 61). ~30% of vault.
+
+STATUS: NOT APPLIED — 8,639 removals across ~30% of the vault is a vault-wide
+structural change; awaiting explicit sign-off per fail-closed routing policy.

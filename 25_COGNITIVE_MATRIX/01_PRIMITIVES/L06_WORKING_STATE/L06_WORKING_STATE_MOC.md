@@ -6,8 +6,6 @@ tags:
 - l06-working-state
 - domain/cognitive-matrix
 - cognitive-matrix-l06-working-state-contract
-- l06-working-state-primitives-cognitive-matrix-hml
-- l06-working-state-primitives-cognitive-matrix-rscf
 moc: true
 rscf:
   state: DERIVED

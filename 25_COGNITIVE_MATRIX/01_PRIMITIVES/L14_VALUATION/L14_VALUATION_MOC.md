@@ -6,16 +6,6 @@ tags:
 - l14-valuation
 - domain/cognitive-matrix
 - cognitive-matrix-l14-valuation-contract
-- l14-valuation-primitives-cognitive-matrix-agents
-- l14-valuation-primitives-cognitive-matrix-hml
-- l14-valuation-primitives-cognitive-matrix-memory
-- l14-valuation-primitives-cognitive-matrix-purpose
-- l14-valuation-primitives-cognitive-matrix-readme
-- l14-valuation-primitives-cognitive-matrix-repair
-- l14-valuation-primitives-cognitive-matrix-rscf
-- l14-valuation-primitives-cognitive-matrix-skills
-- l14-valuation-primitives-cognitive-matrix-state
-- l14-valuation-primitives-cognitive-matrix-tests
 moc: true
 rscf:
   state: DERIVED

@@ -1,6 +1,6 @@
 ---
 title: UNIVERSE X OMEGA MATRIX
-type: cognitive_matrix
+type: cognitive
 source: 25_COGNITIVE_MATRIX
 artifact: UNIVERSE_X_OMEGA_MATRIX.md
 artifact_id: amos_25_cognitive_matrix_universe_x_omega_matrix

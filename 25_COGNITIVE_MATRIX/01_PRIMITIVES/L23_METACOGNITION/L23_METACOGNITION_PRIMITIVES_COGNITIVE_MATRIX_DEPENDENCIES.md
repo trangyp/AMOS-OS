@@ -6,8 +6,6 @@ tags:
 - note
 - l23-metacognition
 - domain/cognitive-matrix
-- l09-inference-primitives-cognitive-matrix-readme
-- l13-prediction-primitives-cognitive-matrix-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

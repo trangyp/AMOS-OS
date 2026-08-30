@@ -1,6 +1,6 @@
 ---
 title: RSCF x GMEF Cognitive Matrix
-type: cognitive_matrix
+type: cognitive
 source: 25_COGNITIVE_MATRIX
 artifact: RSCF_X_GMEF.md
 artifact_id: amos_25_cognitive_matrix_rscf_x_gmef

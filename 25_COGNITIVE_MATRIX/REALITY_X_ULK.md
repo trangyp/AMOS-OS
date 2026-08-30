@@ -1,6 +1,6 @@
 ---
 title: Reality x ULK Cognitive Matrix
-type: cognitive_matrix
+type: cognitive
 source: 25_COGNITIVE_MATRIX
 artifact: REALITY_X_ULK.md
 artifact_id: amos_25_cognitive_matrix_reality_x_ulk

@@ -5,7 +5,7 @@ aliases:
 - ULK x RSCF Matrix
 - ULK RSCF Matrix
 - ULK RSCF Cross-Plane Matrix Table
-type: cognitive_matrix
+type: cognitive
 source: 25_COGNITIVE_MATRIX
 artifact: ULK_X_RSCF_MATRIX.md
 artifact_id: amos_25_cognitive_matrix_ulk_x_rscf_matrix

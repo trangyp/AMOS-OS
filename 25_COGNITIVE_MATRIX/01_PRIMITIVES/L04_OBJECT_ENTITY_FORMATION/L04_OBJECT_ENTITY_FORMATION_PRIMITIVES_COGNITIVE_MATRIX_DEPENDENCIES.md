@@ -6,7 +6,6 @@ tags:
 - note
 - l04-object-entity-formation
 - domain/cognitive-matrix
-- l05-binding-primitives-cognitive-matrix-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

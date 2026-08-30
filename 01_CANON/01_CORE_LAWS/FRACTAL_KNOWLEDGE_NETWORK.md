@@ -5,7 +5,7 @@ aliases:
 - Fractal Knowledge Network
 - FKN
 - H/M/L Knowledge Network
-type: core_law
+type: law
 source: 01_CANON/01_CORE_LAWS
 tags:
 - core_law

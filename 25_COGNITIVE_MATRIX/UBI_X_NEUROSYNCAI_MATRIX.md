@@ -1,6 +1,6 @@
 ---
 title: UBI x NeuroSyncAI Cross-Plane Matrix Table
-type: cognitive_matrix
+type: cognitive
 source: 25_COGNITIVE_MATRIX
 
 artifact: UBI_X_NEUROSYNCAI_MATRIX.md

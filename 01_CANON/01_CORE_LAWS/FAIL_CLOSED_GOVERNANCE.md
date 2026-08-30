@@ -1,6 +1,6 @@
 ---
 title: FAIL_CLOSED_GOVERNANCE Law
-type: core_law
+type: law
 source: 01_CANON/01_CORE_LAWS
 artifact: FAIL_CLOSED_GOVERNANCE.md
 artifact_id: amos_01_canon_01_core_laws_fail_closed_governance

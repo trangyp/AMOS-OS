@@ -1,6 +1,6 @@
 ---
 title: Heritage x Trang Zero Cross-Plane Matrix
-type: cognitive_matrix
+type: cognitive
 source: 25_COGNITIVE_MATRIX
 artifact: HERITAGE_X_TRANG_ZERO_MATRIX.md
 artifact_id: amos_25_cognitive_matrix_heritage_x_trang_zero_matrix

@@ -6,7 +6,6 @@ tags:
 - note
 - l24-self-regulation
 - domain/cognitive-matrix
-- l02-attention-primitives-cognitive-matrix-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

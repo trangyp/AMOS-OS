@@ -6,16 +6,6 @@ tags:
 - l28-governance
 - domain/cognitive-matrix
 - cognitive-matrix-l28-governance-contract
-- l28-governance-primitives-cognitive-matrix-agents
-- l28-governance-primitives-cognitive-matrix-hml
-- l28-governance-primitives-cognitive-matrix-memory
-- l28-governance-primitives-cognitive-matrix-purpose
-- l28-governance-primitives-cognitive-matrix-readme
-- l28-governance-primitives-cognitive-matrix-repair
-- l28-governance-primitives-cognitive-matrix-rscf
-- l28-governance-primitives-cognitive-matrix-skills
-- l28-governance-primitives-cognitive-matrix-state
-- l28-governance-primitives-cognitive-matrix-tests
 moc: true
 rscf:
   state: DERIVED

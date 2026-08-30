@@ -6,7 +6,6 @@ tags:
 - note
 - l08-representation
 - domain/cognitive-matrix
-- l09-inference-primitives-cognitive-matrix-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

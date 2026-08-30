@@ -10,7 +10,6 @@ tags:
 - primitives-cognitive-matrix-definition
 - primitives-cognitive-matrix-dependencies
 - primitives-cognitive-matrix-equations
-- l05-binding-primitives-cognitive-matrix-readme
 - primitives-cognitive-matrix-control-planes
 - primitives-cognitive-matrix-failure-modes
 - primitives-cognitive-matrix-gap-matrix

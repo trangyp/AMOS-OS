@@ -1,6 +1,6 @@
 ---
 title: Core x Runtime Cross-Plane Matrix
-type: cognitive_matrix
+type: cognitive
 source: 25_COGNITIVE_MATRIX
 artifact: CORE_X_RUNTIME_MATRIX.md
 artifact_id: amos_25_cognitive_matrix_core_x_runtime_matrix

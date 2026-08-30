@@ -1,6 +1,6 @@
 ---
 title: Metacognitive Loop
-type: cognition
+type: cognitive
 source: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact: METACOGNITIVE_LOOP.md
 artifact_id: amos_11_knowledge_05_frameworks_metacognitive_loop

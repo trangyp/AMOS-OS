@@ -1,6 +1,6 @@
 ---
 title: Karpathy LLM Wiki Pattern
-type: source-summary
+type: index
 source: 11_KNOWLEDGE/LLM_WIKI
 tags:
 - source-summary

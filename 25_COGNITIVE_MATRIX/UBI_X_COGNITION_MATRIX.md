@@ -1,6 +1,6 @@
 ---
 title: UBI x Cognition Cross-Plane Matrix Table
-type: cognitive_matrix
+type: cognitive
 source: 25_COGNITIVE_MATRIX
 artifact: UBI_X_COGNITION_MATRIX.md
 artifact_id: amos_25_cognitive_matrix_ubi_x_cognition_matrix

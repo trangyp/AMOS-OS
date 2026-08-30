@@ -6,16 +6,6 @@ tags:
 - l09-inference
 - domain/cognitive-matrix
 - cognitive-matrix-l09-inference-contract
-- l09-inference-primitives-cognitive-matrix-agents
-- l09-inference-primitives-cognitive-matrix-hml
-- l09-inference-primitives-cognitive-matrix-memory
-- l09-inference-primitives-cognitive-matrix-purpose
-- l09-inference-primitives-cognitive-matrix-readme
-- l09-inference-primitives-cognitive-matrix-repair
-- l09-inference-primitives-cognitive-matrix-rscf
-- l09-inference-primitives-cognitive-matrix-skills
-- l09-inference-primitives-cognitive-matrix-state
-- l09-inference-primitives-cognitive-matrix-tests
 moc: true
 rscf:
   state: DERIVED

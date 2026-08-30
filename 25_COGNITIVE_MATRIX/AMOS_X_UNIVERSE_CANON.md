@@ -1,6 +1,6 @@
 ---
 title: AMOS x Universe Canon Cognitive Matrix
-type: cognitive_matrix
+type: cognitive
 source: 25_COGNITIVE_MATRIX
 artifact: AMOS_X_UNIVERSE_CANON.md
 artifact_id: amos_25_cognitive_matrix_amos_x_universe_canon

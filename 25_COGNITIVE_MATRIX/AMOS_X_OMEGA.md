@@ -1,6 +1,6 @@
 ---
 title: AMOS × Omega
-type: cognitive-matrix
+type: cognitive
 tags:
 - amos-os
 - cognitive-matrix

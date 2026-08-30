@@ -1,6 +1,6 @@
 ---
 title: ARCHIVE SUPERSEDED CONTRACT
-type: superseded
+type: supersession
 source: 24_ARCHIVE/02_SUPERSEDED
 tags:
 - amos-os

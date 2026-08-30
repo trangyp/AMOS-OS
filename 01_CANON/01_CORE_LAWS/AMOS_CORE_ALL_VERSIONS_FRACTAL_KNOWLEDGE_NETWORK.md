@@ -1,6 +1,6 @@
 ---
 title: AMOS Core All Versions Fractal Knowledge Network
-type: core_law
+type: law
 source: 01_CANON/01_CORE_LAWS
 artifact: AMOS_CORE_ALL_VERSIONS_FRACTAL_KNOWLEDGE_NETWORK.md
 artifact_id: amos_01_canon_01_core_laws_amos_core_all_versions_fractal_knowledge_network

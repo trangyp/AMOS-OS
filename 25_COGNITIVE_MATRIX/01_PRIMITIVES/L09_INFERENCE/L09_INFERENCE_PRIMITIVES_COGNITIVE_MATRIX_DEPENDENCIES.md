@@ -6,9 +6,6 @@ tags:
 - note
 - l09-inference
 - domain/cognitive-matrix
-- l05-binding-primitives-cognitive-matrix-readme
-- l07-memory-primitives-cognitive-matrix-readme
-- l13-prediction-primitives-cognitive-matrix-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

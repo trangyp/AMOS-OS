@@ -6,11 +6,6 @@ tags:
 - note
 - l06-working-state
 - domain/cognitive-matrix
-- l02-attention-primitives-cognitive-matrix-readme
-- l05-binding-primitives-cognitive-matrix-readme
-- l07-memory-primitives-cognitive-matrix-readme
-- l09-inference-primitives-cognitive-matrix-readme
-- l16-planning-primitives-cognitive-matrix-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

@@ -6,7 +6,6 @@ tags:
 - note
 - l21-learning
 - domain/cognitive-matrix
-- l29-evolution-primitives-cognitive-matrix-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

@@ -6,21 +6,6 @@ tags:
 - l16-planning
 - domain/cognitive-matrix
 - cognitive-matrix-l16-planning-contract
-- l16-planning-primitives-cognitive-matrix-agents
-- l16-planning-primitives-cognitive-matrix-equations
-- l16-planning-primitives-cognitive-matrix-hml
-- l16-planning-primitives-cognitive-matrix-memory
-- l16-planning-primitives-cognitive-matrix-operators
-- l16-planning-primitives-cognitive-matrix-protocols
-- l16-planning-primitives-cognitive-matrix-purpose
-- l16-planning-primitives-cognitive-matrix-readme
-- l16-planning-primitives-cognitive-matrix-repair
-- l16-planning-primitives-cognitive-matrix-rscf
-- l16-planning-primitives-cognitive-matrix-skills
-- l16-planning-primitives-cognitive-matrix-state
-- l16-planning-primitives-cognitive-matrix-tests
-- l16-planning-primitives-cognitive-matrix-variables
-- l16-planning-primitives-cognitive-matrix-workflows
 moc: true
 rscf:
   state: DERIVED

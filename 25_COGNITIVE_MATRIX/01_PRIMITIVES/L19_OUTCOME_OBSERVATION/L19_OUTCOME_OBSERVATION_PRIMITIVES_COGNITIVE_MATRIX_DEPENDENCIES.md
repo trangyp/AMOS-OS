@@ -6,7 +6,6 @@ tags:
 - note
 - l19-outcome-observation
 - domain/cognitive-matrix
-- l18-action-primitives-cognitive-matrix-readme
 - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED

@@ -6,16 +6,6 @@ tags:
 - l29-evolution
 - domain/cognitive-matrix
 - cognitive-matrix-l29-evolution-contract
-- l29-evolution-primitives-cognitive-matrix-agents
-- l29-evolution-primitives-cognitive-matrix-hml
-- l29-evolution-primitives-cognitive-matrix-memory
-- l29-evolution-primitives-cognitive-matrix-purpose
-- l29-evolution-primitives-cognitive-matrix-readme
-- l29-evolution-primitives-cognitive-matrix-repair
-- l29-evolution-primitives-cognitive-matrix-rscf
-- l29-evolution-primitives-cognitive-matrix-skills
-- l29-evolution-primitives-cognitive-matrix-state
-- l29-evolution-primitives-cognitive-matrix-tests
 moc: true
 rscf:
   state: DERIVED

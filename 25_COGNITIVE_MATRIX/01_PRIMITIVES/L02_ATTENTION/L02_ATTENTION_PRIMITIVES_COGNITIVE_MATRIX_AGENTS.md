@@ -13,7 +13,6 @@ tags:
 - control-plane
 - ai
 - domain/cognitive-matrix
-- l02-attention-primitives-cognitive-matrix-readme
 title: L02_ATTENTION — Agents
 origin_architect: Trang Phan
 status: MODEL_SPECIFICATION / UNVALIDATED

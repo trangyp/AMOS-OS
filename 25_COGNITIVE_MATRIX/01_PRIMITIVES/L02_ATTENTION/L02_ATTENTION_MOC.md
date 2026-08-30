@@ -6,16 +6,6 @@ tags:
 - l02-attention
 - domain/cognitive-matrix
 - cognitive-matrix-l02-attention-contract
-- l02-attention-primitives-cognitive-matrix-agents
-- l02-attention-primitives-cognitive-matrix-hml
-- l02-attention-primitives-cognitive-matrix-memory
-- l02-attention-primitives-cognitive-matrix-purpose
-- l02-attention-primitives-cognitive-matrix-readme
-- l02-attention-primitives-cognitive-matrix-repair
-- l02-attention-primitives-cognitive-matrix-rscf
-- l02-attention-primitives-cognitive-matrix-skills
-- l02-attention-primitives-cognitive-matrix-state
-- l02-attention-primitives-cognitive-matrix-tests
 moc: true
 rscf:
   state: DERIVED
