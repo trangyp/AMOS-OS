@@ -1982,6 +1982,8 @@ confidence_ceiling:
 - [[AMOS_OBSIDIAN_LINKING_PLUGINS]] — Obsidian vault linking plugin stack
 - [[00_HOME]] — universal vault hub (00_ROOT)
 - [[00_HOME]] — root AMOS Home
+- [[CLAUDE]] — Anthropic Claude guidelines
+- [[Agent Skills]] — Agent skills core index
 
 ---
 
