@@ -54,7 +54,7 @@ See canonical kernel:
 The redirect relationship is:
 
 ```text
-[[scripts/.tagmigrate17-backup-20260830-182230/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]]
+[[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]]
         |
         | REDIRECTS_TO
         v
@@ -1362,7 +1362,7 @@ The associated validation receipt node is:
 Conceptually:
 
 ```text
-[[scripts/.tagmigrate17-backup-20260830-182230/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]]
+[[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]]
         |
         v
 [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
@@ -3617,13 +3617,13 @@ REQUIRES CURRENT KERNEL
 A consumer encountering:
 
 ```text
-[[scripts/.tagmigrate17-backup-20260830-182230/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]]
+[[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]]
 ```
 
 should resolve:
 
 ```text
-[[scripts/.tagmigrate17-backup-20260830-182230/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]]
+[[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]]
         |
         v
 [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
@@ -4155,7 +4155,7 @@ SPEED.
                [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
                         |
                         v
-             [[scripts/.tagmigrate17-backup-20260830-182230/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]]
+             [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]]
                         |
                         | REDIRECTS_TO
                         v
