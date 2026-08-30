@@ -207,7 +207,7 @@ derived_obsidian_augmentation:
     - "[[GMEF]]"
     - "[[ULK_X_RSCF]]"
     - "[[PROVENANCE_X_CONFIDENCE]]"
-    - "[[AMOS_FULL_BRAIN_OS]]"
+    - "[[AMOS_FULL_BRAIN_OS_ARCHITECTURE]]"
 ```
 
 ---

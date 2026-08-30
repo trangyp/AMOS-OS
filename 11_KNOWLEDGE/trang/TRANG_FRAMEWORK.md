@@ -95,7 +95,7 @@ derived_obsidian_augmentation:
     - "[[TRANG_ZERO_FRAMEWORK]]"
     - "[[RSCF]]"
     - "[[GMEF]]"
-    - "[[AMOS_FULL_BRAIN_OS]]"
+    - "[[AMOS_FULL_BRAIN_OS_ARCHITECTURE]]"
     - "[[PROVENANCE_X_CONFIDENCE]]"
 
   integrity_invariants:
