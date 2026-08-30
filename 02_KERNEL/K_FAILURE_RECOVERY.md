@@ -25,10 +25,10 @@ rscf:
 - Emits cryptographic error capsules and post-incident verification receipts.
 
 ## Inter-Plane Connections
-- **Runtime:** [[04_RUNTIME_MOC]]
-- **Universal Kernel:** [[02_KERNEL_MOC]]
-- **Matrix Binding:** [[HERITAGE_X_TRANG_ZERO_MATRIX]]
+- **Runtime:** [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]]
+- **Universal Kernel:** [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
+- **Matrix Binding:** [[25_COGNITIVE_MATRIX/HERITAGE_X_TRANG_ZERO_MATRIX|HERITAGE_X_TRANG_ZERO_MATRIX]]
 
 ---
 
-**MOC:** [[03_CAUSAL_MOC]] · [[00_HOME]]
+**MOC:** [[02_KERNEL/03_CAUSAL/03_CAUSAL_MOC|03_CAUSAL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

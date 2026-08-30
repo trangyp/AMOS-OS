@@ -18,8 +18,8 @@ rscf:
 
 # total canon relation matrix
 
-Stub note for [[total_canon_relation_matrix]].
+Stub note for [[11_KNOWLEDGE/stubs/total_canon_relation_matrix|total_canon_relation_matrix]].
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

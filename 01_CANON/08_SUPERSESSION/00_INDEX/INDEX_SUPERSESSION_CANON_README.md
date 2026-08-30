@@ -129,28 +129,28 @@ The precise executable schema remains dependent on the sibling normative contrac
 
 Primary sibling artifacts:
 
-- [[SUPERSESSION_CANON_SUPERSESSION_CONTRACT]]
-- [[SUPERSESSION_MAP]]
+- [[01_CANON/08_SUPERSESSION/00_INDEX/SUPERSESSION_CANON_SUPERSESSION_CONTRACT|SUPERSESSION_CANON_SUPERSESSION_CONTRACT]]
+- [[01_CANON/08_SUPERSESSION/00_INDEX/SUPERSESSION_MAP|SUPERSESSION_MAP]]
 
 Supporting canonical infrastructure:
 
-- [[LAW_HIERARCHY]]
-- [[AMOS_RSCF_NODES]]
-- [[00_HOME]]
-- [[HML_CANON]]
-- [[PERSISTENCE_CANON]]
+- [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+- [[00_ROOT/00_HOME|00_HOME]]
+- [[01_CANON/02_UNIVERSE_CANON/HML_CANON|HML_CANON]]
+- [[01_CANON/02_UNIVERSE_CANON/PERSISTENCE_CANON|PERSISTENCE_CANON]]
 
 Operational and governance dependencies:
 
-- [[KERNEL_README]]
-- [[CONTROL_PLANE_README]]
-- [[OBSERVABILITY_README]]
-- [[OPERATIONS_README]]
+- [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]]
+- [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
 Validation references:
 
-- [[ROUTING_POLICY_VALIDATION_RECEIPT]]
-- [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+- [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]
+- [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
 These links provide navigation.
 
@@ -1751,7 +1751,7 @@ Before this artifact or its executable bindings are promoted beyond conditional 
 
 Governed by:
 
-[[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
+[[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
 The supersession index cannot supersede higher-order law merely by recording an edge.
 
@@ -1759,7 +1759,7 @@ The supersession index cannot supersede higher-order law merely by recording an 
 
 Interaction:
 
-[[KERNEL_README]]
+[[02_KERNEL/KERNEL_README|KERNEL_README]]
 
 Kernel behavior may consume resolved canonical state but must not infer authority from index presence alone.
 
@@ -1767,7 +1767,7 @@ Kernel behavior may consume resolved canonical state but must not infer authorit
 
 Governed transition gates:
 
-[[CONTROL_PLANE_README]]
+[[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
 
 Authorization and consequential mutation remain control-plane concerns.
 
@@ -1775,7 +1775,7 @@ Authorization and consequential mutation remain control-plane concerns.
 
 Observed by:
 
-[[OBSERVABILITY_README]]
+[[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]]
 
 Observability provides evidence and receipts but never becomes canonical authority merely through observation.
 
@@ -1783,7 +1783,7 @@ Observability provides evidence and receipts but never becomes canonical authori
 
 Recovery:
 
-[[OPERATIONS_README]]
+[[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
 Operational procedures provide rollback, restoration, incident response, and lineage repair where governed.
 
@@ -2112,11 +2112,11 @@ The artifact is therefore suitable as a **full AMOS supersession index specifica
 
 ---
 
-[[00_ROOT_MOC]]|[[AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[SUPERSESSION_CANON_SUPERSESSION_CONTRACT]] · [[SUPERSESSION_MAP]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/08_SUPERSESSION/00_INDEX/SUPERSESSION_CANON_SUPERSESSION_CONTRACT|SUPERSESSION_CANON_SUPERSESSION_CONTRACT]] · [[01_CANON/08_SUPERSESSION/00_INDEX/SUPERSESSION_MAP|SUPERSESSION_MAP]]
 
 ---
 
@@ -2125,5 +2125,5 @@ The artifact is therefore suitable as a **full AMOS supersession index specifica
 **Canonical status:** `CONDITIONAL`
 
 ---
-**MOC:** [[00_INDEX_MOC]]
+**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]
 

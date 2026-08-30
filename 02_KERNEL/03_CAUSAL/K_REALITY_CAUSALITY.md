@@ -2206,8 +2206,8 @@ Phân vùng #144 bảo đảm thứ tự thời gian tuyến tính không thể 
 
 ## 3. LIÊN KẾT LIÊN BẢNG & DANH MỤC TÀI LIỆU THAM KHẢO WIKILINKS
 
-- **Hạt nhân Liên quan:** [[K_CAUSAL_EPOCH]] · [[K_CAUSAL_CLOSURE]] · [[K_CORE_LAWS]]
-- **MOCs Điều hướng:** [[00_HOME]] · [[00_ROOT_MOC]] · [[02_KERNEL_MOC]] · [[03_CAUSAL_MOC]]
+- **Hạt nhân Liên quan:** [[02_KERNEL/03_CAUSAL/K_CAUSAL_EPOCH|K_CAUSAL_EPOCH]] · [[02_KERNEL/03_CAUSAL/K_CAUSAL_CLOSURE|K_CAUSAL_CLOSURE]] · [[02_KERNEL/K_CORE_LAWS|K_CORE_LAWS]]
+- **MOCs Điều hướng:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]] · [[02_KERNEL/03_CAUSAL/03_CAUSAL_MOC|03_CAUSAL_MOC]]
 
 ---
 **Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS

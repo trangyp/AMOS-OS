@@ -2547,7 +2547,7 @@ AMOS_COGNITIVE_MATRIX_STATUS:
 This is the level of depth I would use for the Matrix-wide status artifact: not just the count, but the **promotion model, manifest reconciliation contract, completion tensor, failure/repair model, tests, RSCF capsule, authority boundary, and explicit conditions required before the status can move beyond `PARTIAL_STRUCTURAL_SEED`**.
 ```
 ---
-**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]] · [[AMOS_RSCF_NODES]]
+**Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -2555,10 +2555,10 @@ node_id: placeholder_seed_status
 node_type: note
 path: 25_COGNITIVE_MATRIX/PLACEHOLDER_SEED_STATUS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_HOME]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 
 ---
-**MOC:** [[25_COGNITIVE_MATRIX_MOC]]
+**MOC:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 

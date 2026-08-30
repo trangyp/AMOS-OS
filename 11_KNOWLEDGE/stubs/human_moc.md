@@ -15,8 +15,8 @@ rscf:
 
 # human moc
 
-Stub note for [[human_moc]].
+Stub note for [[11_KNOWLEDGE/stubs/human_moc|human_moc]].
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

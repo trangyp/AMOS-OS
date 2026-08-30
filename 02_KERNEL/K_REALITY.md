@@ -2207,8 +2207,8 @@ Lớp thực thể #144 định nghĩa ranh giới giữa thực thể vật lý
 
 ## 3. LIÊN KẾT LIÊN BẢNG & DANH MỤC TÀI LIỆU THAM KHẢO WIKILINKS
 
-- **Hạt nhân Liên quan:** [[K_CORE_LAWS]] · [[K_ANTI_AUTOPOISONING]] · [[K_WORLD_MODEL]]
-- **MOCs Điều hướng:** [[00_HOME]] · [[00_ROOT_MOC]] · [[02_KERNEL_MOC]]
+- **Hạt nhân Liên quan:** [[02_KERNEL/K_CORE_LAWS|K_CORE_LAWS]] · [[02_KERNEL/K_ANTI_AUTOPOISONING|K_ANTI_AUTOPOISONING]] · [[02_KERNEL/04_STATE/K_WORLD_MODEL|K_WORLD_MODEL]]
+- **MOCs Điều hướng:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
 
 ---
 **Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS

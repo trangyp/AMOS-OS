@@ -37,17 +37,17 @@ rscf:
 - **Action**: Escalate — source spec needed before population
 
 ## Related Kernels (with content)
-- [[AMOS_OBSERVABILITY_MONITORING_KERNEL_V0_TECH]]
-- [[IP_KERNEL_SHIELD_ARCHIVE_AMOS23]]
-- [[AMOS_BUSINESS_MODEL_KERNEL]]
-- [[TPE_MODEL_REGISTRY]]
+- [[11_KNOWLEDGE/kernel/AMOS_OBSERVABILITY_MONITORING_KERNEL_V0_TECH|AMOS_OBSERVABILITY_MONITORING_KERNEL_V0_TECH]]
+- [[11_KNOWLEDGE/kernel/IP_KERNEL_SHIELD_ARCHIVE_AMOS23|IP_KERNEL_SHIELD_ARCHIVE_AMOS23]]
+- [[11_KNOWLEDGE/kernel/AMOS_BUSINESS_MODEL_KERNEL|AMOS_BUSINESS_MODEL_KERNEL]]
+- [[13_MODELS/04_DOMAIN/TPE_MODEL_REGISTRY|TPE_MODEL_REGISTRY]]
 - AMOS_Marketing_Gtm_Kernel_v0 — contains customer_segmentation, ICP, persona clusters
 - AMOS_Product_Strategy_Kernel_v0 — contains customer_segments, persona_system
 - AMOS_Sales_Kernel_v0 — contains discovery, stakeholder_mapping
 
 ## Related
 - RSCF-Brain-MOC
-- [[00_COSMO_BRAIN_MOC]]
+- [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]
 
 ---
-**MOC:** [[KERNEL_MOC]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

@@ -2677,10 +2677,10 @@ This is intentionally much deeper than the placeholder, but it keeps the critica
 
 ---
 
-[[00_ROOT_MOC]]|[[AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ---
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -2688,10 +2688,10 @@ node_id: commit_control_plane_validation
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/02_DEEP_ANALYSIS/COMMIT_CONTROL_PLANE_VALIDATION.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_HOME]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 
 ---
-**MOC:** [[02_DEEP_ANALYSIS_MOC]]
+**MOC:** [[03_CONTROL_PLANE/09_COMMIT/02_DEEP_ANALYSIS/02_DEEP_ANALYSIS_MOC|02_DEEP_ANALYSIS_MOC]]
 

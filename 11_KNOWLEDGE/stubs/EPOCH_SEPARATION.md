@@ -18,4 +18,4 @@ rscf:
 
 # EPOCH SEPARATION
 
-Stub note for [[EPOCH_SEPARATION]].
+Stub note for [[11_KNOWLEDGE/stubs/EPOCH_SEPARATION|EPOCH_SEPARATION]].

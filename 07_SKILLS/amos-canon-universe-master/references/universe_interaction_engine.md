@@ -45,7 +45,7 @@ UIE = the engine governing interactions between nodes of the Universe Structure 
 - AMOS Universe Structure Tree — UST defines the node set UIE operates over.
 - 0.Universe_Logic_Kernel-ULK.ulmk — ULK supplies the logical primitives.
 - AMOS Universe Total Canon UTC Master File — canonical home.
-- [[07_SKILLS_MOC]]
+- [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Epistemic note
 This note is a **link-resolution anchor**, not an independent architecture claim. All interaction-layer authority is delegated to the UTC master file above. Confidence = SOURCE (delegated to canonical master).
@@ -54,11 +54,11 @@ This note is a **link-resolution anchor**, not an independent architecture claim
 **MOC:** references_MOC
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 **MOC:** references_MOC
 
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 RSCF-NODE
@@ -66,6 +66,6 @@ node_id: amos-canon-universe-master-universe-interaction-engine
 node_type: reference
 path: 07_SKILLS/amos-canon-universe-master/references/universe_interaction_engine.md
 RSCF-RELATIONS:
-- INDEXED_BY: [[00_HOME]]
-- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

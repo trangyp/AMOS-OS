@@ -183,24 +183,24 @@ tags:
 framework_binding:
 
   matrix_counterpart:
-    artifact: "[[UNIVERSE_X_OMEGA_MATRIX]]"
+    artifact: "[[25_COGNITIVE_MATRIX/UNIVERSE_X_OMEGA_MATRIX|UNIVERSE_X_OMEGA_MATRIX]]"
 
   universe_canon:
-    artifact: "[[02_UNIVERSE_CANON_MOC]]"
+    artifact: "[[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]"
 
 source_connections:
 
   matrix_table:
-    artifact: "[[UNIVERSE_X_OMEGA_MATRIX]]"
+    artifact: "[[25_COGNITIVE_MATRIX/UNIVERSE_X_OMEGA_MATRIX|UNIVERSE_X_OMEGA_MATRIX]]"
 
   universe_canon_moc:
-    artifact: "[[02_UNIVERSE_CANON_MOC]]"
+    artifact: "[[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]"
 
   khung_trang_master:
-    artifact: "[[KHUNG_TRANG_MASTER]]"
+    artifact: "[[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER|KHUNG_TRANG_MASTER]]"
 
   cognitive_matrix_plane:
-    artifact: "[[25_COGNITIVE_MATRIX_MOC]]"
+    artifact: "[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]"
 
 epistemic_boundary:
 
@@ -1323,7 +1323,7 @@ UNIVERSE CANON      OMEGA LIMITS
         │               │
         └───────┬───────┘
                 ▼
-[[UNIVERSE_X_OMEGA_MATRIX]].md
+[[25_COGNITIVE_MATRIX/UNIVERSE_X_OMEGA_MATRIX|UNIVERSE_X_OMEGA_MATRIX]].md
                 │
                 ▼
 P1–P7 typed stress/defense mapping
@@ -2819,7 +2819,7 @@ Therefore:
 khung_trang_binding:
 
   artifact:
-    "[[KHUNG_TRANG_MASTER]]"
+    "[[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER|KHUNG_TRANG_MASTER]]"
 
   relation:
     SOURCE_DEFINED_CONNECTION
@@ -2854,9 +2854,9 @@ For interpreting this artifact, the smallest sufficient dependency chain is:
 ```text
 UNIVERSE_X_OMEGA.md
         │
-        ├── [[UNIVERSE_X_OMEGA_MATRIX]].md
+        ├── [[25_COGNITIVE_MATRIX/UNIVERSE_X_OMEGA_MATRIX|UNIVERSE_X_OMEGA_MATRIX]].md
         │
-        └── [[02_UNIVERSE_CANON_MOC]]
+        └── [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]
 ```
 
 `KHUNG_TRANG_MASTER` should be retrieved only when a question materially depends on its equations or definitions.
@@ -2997,16 +2997,16 @@ L:
 RSCF_RELATIONS:
 
   - MATRIX_COUNTERPART:
-      "[[UNIVERSE_X_OMEGA_MATRIX]]"
+      "[[25_COGNITIVE_MATRIX/UNIVERSE_X_OMEGA_MATRIX|UNIVERSE_X_OMEGA_MATRIX]]"
 
   - UNIVERSE_CANON:
-      "[[02_UNIVERSE_CANON_MOC]]"
+      "[[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]"
 
   - MASTER_CONNECTION:
-      "[[KHUNG_TRANG_MASTER]]"
+      "[[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER|KHUNG_TRANG_MASTER]]"
 
   - PART_OF:
-      "[[25_COGNITIVE_MATRIX_MOC]]"
+      "[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]"
 
   - DEFINES:
       OMEGA_SYSTEMIC_OVERREACH_RATIO
@@ -3120,8 +3120,8 @@ PROOF_CAPSULE_P5:
   premises:
 
     - "UNIVERSE_X_OMEGA: Omega = systemic overreach / overhead ratio"
-    - "[[UNIVERSE_X_OMEGA_MATRIX]]: Omega >= 0.70"
-    - "[[UNIVERSE_X_OMEGA_MATRIX]]: defense = Modular Decoupling Protocol"
+    - "[[25_COGNITIVE_MATRIX/UNIVERSE_X_OMEGA_MATRIX|UNIVERSE_X_OMEGA_MATRIX]]: Omega >= 0.70"
+    - "[[25_COGNITIVE_MATRIX/UNIVERSE_X_OMEGA_MATRIX|UNIVERSE_X_OMEGA_MATRIX]]: defense = Modular Decoupling Protocol"
 
   result:
     "SystemicOverreachRatio >= 0.70 => ModularDecouplingProtocol"
@@ -3543,7 +3543,7 @@ UNIVERSE_X_OMEGA:
   counterpart:
 
     artifact:
-      "[[UNIVERSE_X_OMEGA_MATRIX]]"
+      "[[25_COGNITIVE_MATRIX/UNIVERSE_X_OMEGA_MATRIX|UNIVERSE_X_OMEGA_MATRIX]]"
 
     direct_binding:
 
@@ -3790,7 +3790,7 @@ flowchart TD
     SPEC["UNIVERSE_X_OMEGA.md"]
     EQ["Pcollapse ~ ΩFS / (H·Reserves)"]
 
-    MATRIX["[[UNIVERSE_X_OMEGA_MATRIX]].md"]
+    MATRIX["[[25_COGNITIVE_MATRIX/UNIVERSE_X_OMEGA_MATRIX|UNIVERSE_X_OMEGA_MATRIX]].md"]
     P1["P1 Reality"]
     P2["P2 Logic"]
     P3["P3 Organism"]
@@ -4104,13 +4104,13 @@ When a question cannot be resolved locally:
 ```text
 1. UNIVERSE_X_OMEGA.md
         ↓
-2. [[UNIVERSE_X_OMEGA_MATRIX]].md
+2. [[25_COGNITIVE_MATRIX/UNIVERSE_X_OMEGA_MATRIX|UNIVERSE_X_OMEGA_MATRIX]].md
         ↓
-3. [[02_UNIVERSE_CANON_MOC]]
+3. [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]
         ↓
 4. relevant Omega theorem node
         ↓
-5. [[KHUNG_TRANG_MASTER]]
+5. [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER|KHUNG_TRANG_MASTER]]
         ↓
 6. raw evidence only if required
 ```
@@ -4122,23 +4122,23 @@ Do not load the full canon merely to answer a local variable question.
 # 144. Canonical Dependency Graph
 
 ```text
-[[25_COGNITIVE_MATRIX_MOC]]
+[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
             │
             ▼
-[[UNIVERSE_X_OMEGA]]
+[[25_COGNITIVE_MATRIX/UNIVERSE_X_OMEGA|UNIVERSE_X_OMEGA]]
        ┌────┼──────────────┐
        │    │              │
        ▼    ▼              ▼
  Omega   Universe
        │    │
        │    ▼
-       │ [[02_UNIVERSE_CANON_MOC]]
+       │ [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]
        │
        ▼
 Pcollapse ~ ΩFS/(H·Reserves)
        │
        ▼
-[[UNIVERSE_X_OMEGA_MATRIX]]
+[[25_COGNITIVE_MATRIX/UNIVERSE_X_OMEGA_MATRIX|UNIVERSE_X_OMEGA_MATRIX]]
        │
        ├── P1 Reality
        ├── P2 Logic
@@ -4480,10 +4480,10 @@ $$
 
 ## Connections
 
-- **Matrix Table:** [[UNIVERSE_X_OMEGA_MATRIX]]
-- **Universe Canon MOC:** [[02_UNIVERSE_CANON_MOC]]
-- **Khung Trang Master:** [[KHUNG_TRANG_MASTER]]
-- **Cognitive Matrix Plane:** [[25_COGNITIVE_MATRIX_MOC]]
+- **Matrix Table:** [[25_COGNITIVE_MATRIX/UNIVERSE_X_OMEGA_MATRIX|UNIVERSE_X_OMEGA_MATRIX]]
+- **Universe Canon MOC:** [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]
+- **Khung Trang Master:** [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER|KHUNG_TRANG_MASTER]]
+- **Cognitive Matrix Plane:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
 ---
 
@@ -4491,7 +4491,7 @@ $$
 
 ---
 
-**MOC:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]
+**MOC:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
 ```
 
 ```

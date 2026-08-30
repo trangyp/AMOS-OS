@@ -19,7 +19,7 @@ rscf:
 ---
 
 # ⭐ AMOS GIANT VALUE CREATION OS
-## MAX-DETAIL MASTER [[ARCHITECTURE]] FOR COMMERCIALIZATION, VALIDATION, LICENSING, PRODUCTIZATION, GOVERNANCE & SCALE
+## MAX-DETAIL MASTER [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] FOR COMMERCIALIZATION, VALIDATION, LICENSING, PRODUCTIZATION, GOVERNANCE & SCALE
 
 > **Origin architect / steward:** Trang Phan
 > **Purpose:** chuyển kiến trúc AMOS/TSS/TPE/UBI/QLS thành một hệ điều hành tạo giá trị có thể kiểm định, thương mại hóa, vận hành, học, sửa, cấp phép và scale mà không biến ambition thành unsupported certainty.
@@ -301,7 +301,7 @@ Shared vocabulary
 
 ---
 
-# 2. AMOS COMMERCIAL META-[[ARCHITECTURE]]
+# 2. AMOS COMMERCIAL META-[[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 ## 2.1 Stack
 
@@ -584,7 +584,7 @@ Severity
 
 ---
 
-# 7. VALUE PROPOSITION [[ARCHITECTURE]]
+# 7. VALUE PROPOSITION [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 ## 7.1 Value types
 
@@ -851,7 +851,7 @@ StartingARR
 ```
 ---
 
-# 11. TSS/TPE VALIDATION [[ARCHITECTURE]]
+# 11. TSS/TPE VALIDATION [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 This is one of the most important commercial components because high-value claims create both upside and reputational risk.
 
@@ -1007,7 +1007,7 @@ promotion_requirement:
 
 ---
 
-# 14. MARKET EVIDENCE [[ARCHITECTURE]]
+# 14. MARKET EVIDENCE [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 ## 14.1 Evidence levels
 
@@ -1062,7 +1062,7 @@ But stage probability must be learned from actual conversion history.
 
 ---
 
-# 16. PRICING [[ARCHITECTURE]]
+# 16. PRICING [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 ## 16.1 Three price tests
 
@@ -1206,7 +1206,7 @@ GrossProfit_t
 
 ---
 
-# 19. VALUE POOL [[ARCHITECTURE]]
+# 19. VALUE POOL [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 Potential value pools:
 
@@ -1242,7 +1242,7 @@ EvidenceGain
 
 ---
 
-# 20. PRODUCT [[ROADMAP]] [[ARCHITECTURE]]
+# 20. PRODUCT [[00_ROOT/ROADMAP|ROADMAP]] [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 ## Phase 0 — No product
 Manual / advisory evidence.
@@ -1442,7 +1442,7 @@ because it preserves option value while generating evidence and cash.
 
 ---
 
-# 27. IP [[ARCHITECTURE]]
+# 27. IP [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 ## Layers
 
@@ -1465,7 +1465,7 @@ External research cannot become proprietary canon merely through ingestion.
 
 ---
 
-# 28. PROVENANCE [[ARCHITECTURE]]
+# 28. PROVENANCE [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 Every commercial output should trace:
 
@@ -1499,7 +1499,7 @@ Provenance = {
 
 ---
 
-# 29. TRUST [[ARCHITECTURE]]
+# 29. TRUST [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 Trust dimensions:
 
@@ -1531,7 +1531,7 @@ Multiplicative form reflects that severe failure in one dimension may dominate.
 
 ---
 
-# 30. SECURITY [[ARCHITECTURE]]
+# 30. SECURITY [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 Threat classes:
 
@@ -1561,7 +1561,7 @@ Threat classes:
 
 ---
 
-# 31. LEGAL / REGULATORY [[ARCHITECTURE]]
+# 31. LEGAL / REGULATORY [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 For every deployment:
 
@@ -1601,7 +1601,7 @@ Sell bounded decision support.
 
 ---
 
-# 33. FUTURE-DEBT [[ARCHITECTURE]]
+# 33. FUTURE-DEBT [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 ```text
 FutureDebt =
@@ -1690,7 +1690,7 @@ Scale based on evidence.
 
 ---
 
-# 36. TALENT [[ARCHITECTURE]]
+# 36. TALENT [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 Hire only when a role removes a proven bottleneck.
 
@@ -1745,7 +1745,7 @@ CustomerValueRecord = {
 
 ---
 
-# 39. BENCHMARK [[ARCHITECTURE]]
+# 39. BENCHMARK [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 For high claims, compare AMOS to:
 
@@ -1786,7 +1786,7 @@ Do Ω/H/F/S and C1–C7 add value beyond simpler models?
 
 ---
 
-# 41. ABLATION [[ARCHITECTURE]]
+# 41. ABLATION [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 Test:
 
@@ -1957,7 +1957,7 @@ Avoid false precision.
 
 ---
 
-# 49. EARLY-WARNING [[ARCHITECTURE]]
+# 49. EARLY-WARNING [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 If TSS/TPE supports risk warning, define:
 
@@ -1977,7 +1977,7 @@ Warning = {
 
 ---
 
-# 50. DECISION TRIGGER [[ARCHITECTURE]]
+# 50. DECISION TRIGGER [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 Example:
 
@@ -1994,7 +1994,7 @@ NOT
 
 ---
 
-# 51. INTERVENTION [[ARCHITECTURE]]
+# 51. INTERVENTION [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 Every intervention requires:
 
@@ -2009,7 +2009,7 @@ Every intervention requires:
 
 ---
 
-# 52. COMMERCIAL BRAND [[ARCHITECTURE]]
+# 52. COMMERCIAL BRAND [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 Recommended positioning:
 
@@ -2080,7 +2080,7 @@ OutcomeGain
 
 ---
 
-# 56. MOAT [[ARCHITECTURE]]
+# 56. MOAT [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 Potential moat layers:
 
@@ -2267,7 +2267,7 @@ Every model must have:
 
 ---
 
-# 66. DATA [[ARCHITECTURE]]
+# 66. DATA [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 Data classes:
 
@@ -2332,7 +2332,7 @@ Track:
 
 ---
 
-# 70. RELIABILITY [[ARCHITECTURE]]
+# 70. RELIABILITY [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 SLO examples:
 
@@ -2363,7 +2363,7 @@ Detect
 
 ---
 
-# 72. CUSTOMER PROCUREMENT [[ARCHITECTURE]]
+# 72. CUSTOMER PROCUREMENT [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 Enterprise sale requires:
 
@@ -2395,7 +2395,7 @@ Possible blockers:
 
 ---
 
-# 74. STRATEGIC PARTNERSHIP [[ARCHITECTURE]]
+# 74. STRATEGIC PARTNERSHIP [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 Partner categories:
 
@@ -2427,7 +2427,7 @@ Only after core product reliability.
 
 ---
 
-# 76. CERTIFICATION [[ARCHITECTURE]]
+# 76. CERTIFICATION [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 Do not claim “certified” without external authority.
 
@@ -2441,7 +2441,7 @@ It must not be confused with regulator or standards certification.
 
 ---
 
-# 77. REPUTATION [[ARCHITECTURE]]
+# 77. REPUTATION [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 Reputation is especially sensitive to strong prediction claims.
 
@@ -2911,8 +2911,8 @@ Choose one expensive decision problem
 
 # 103. RELATED AMOS NODES
 
-- [[00_HOME]]
-- [[00_COSMO_BRAIN_MOC]]
+- [[00_ROOT/00_HOME|00_HOME]]
+- [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]
 - Cosmo_Brain_BRIDGE_INDEX
 - Cosmo_Brain_BRIDGE_INDEX
 - Cosmo_Brain_BRIDGE_INDEX
@@ -2933,10 +2933,10 @@ Choose one expensive decision problem
 
 ---
 
-[[00_ROOT_MOC]]|[[AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ---
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -2944,10 +2944,10 @@ node_id: amos_value_creation_os
 node_type: note
 path: 11_KNOWLEDGE/AMOS_VALUE_CREATION_OS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_HOME]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 
 ---
-**MOC:** [[KNOWLEDGE_MOC]]
+**MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
 

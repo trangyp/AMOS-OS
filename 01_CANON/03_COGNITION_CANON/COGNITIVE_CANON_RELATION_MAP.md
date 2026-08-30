@@ -153,7 +153,7 @@ Typed artifacts · provenance stamped · epistemic class declared · confidence 
 
 ## 5. Gaps
 
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]].
+Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
 
 ---
 
@@ -184,19 +184,19 @@ Given an operation touching `01_CANON · MAP` within the Canon plane:
 
 ## 8. Cross-plane bindings (target)
 
-- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
 ---
 
-[[00_ROOT_MOC]]|[[AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 ---
 
@@ -216,11 +216,11 @@ canonical_status: UNKNOWN/GAP
 
 RSCF-RELATIONS:
 
-  - INDEXED_BY: [[00_HOME]]
+  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
+  - GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
 ---
-**MOC:** [[03_COGNITION_CANON_MOC]]
+**MOC:** [[01_CANON/03_COGNITION_CANON/03_COGNITION_CANON_MOC|03_COGNITION_CANON_MOC]]

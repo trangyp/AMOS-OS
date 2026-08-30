@@ -71,18 +71,18 @@ It catalogues and classifies all architectural assertions, mathematical equation
 
 | Claim ID | Framework Artifact | Claim Assertion | Epistemic Class | Status |
 | :--- | :--- | :--- | :--- | :--- |
-| `CLM-FRM-001` | [[TSS_THE_TRANG_SYSTEM]] | Lifecycle Dynamics: $i_{\text{TSS}} = [H(1-\Omega)(1-F)(1-S)]^{1/4}$ | `AMOS_MODEL` | Grounded |
-| `CLM-FRM-002` | [[TRANG_REALITY_ARCHITECTURE]] | Ontological Pre-Symbolic Spine: $P \to D \to R \to C \to F \to M$ | `AMOS_MODEL` | Grounded |
-| `CLM-FRM-003` | [[FRAI_FRACTAL_REASONING_AI]] | Fractal Engine: $\text{FRAI} = \langle \mathcal{D}, \mathcal{S}, \mathcal{R}, \mathcal{I}, \mathcal{A}, \mathcal{T}_2 \rangle$ | `AMOS_MODEL` | Grounded |
-| `CLM-FRM-004` | [[TRANG_LACUNARITY]] | Texture Gapping Metric: $\Lambda = \langle M^2 \rangle / \langle M \rangle^2$ | `MATHEMATICAL_MODEL` | Grounded |
+| `CLM-FRM-001` | [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM|TSS_THE_TRANG_SYSTEM]] | Lifecycle Dynamics: $i_{\text{TSS}} = [H(1-\Omega)(1-F)(1-S)]^{1/4}$ | `AMOS_MODEL` | Grounded |
+| `CLM-FRM-002` | [[11_KNOWLEDGE/trang/TRANG_REALITY_ARCHITECTURE|TRANG_REALITY_ARCHITECTURE]] | Ontological Pre-Symbolic Spine: $P \to D \to R \to C \to F \to M$ | `AMOS_MODEL` | Grounded |
+| `CLM-FRM-003` | [[11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI|FRAI_FRACTAL_REASONING_AI]] | Fractal Engine: $\text{FRAI} = \langle \mathcal{D}, \mathcal{S}, \mathcal{R}, \mathcal{I}, \mathcal{A}, \mathcal{T}_2 \rangle$ | `AMOS_MODEL` | Grounded |
+| `CLM-FRM-004` | [[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_LACUNARITY|TRANG_LACUNARITY]] | Texture Gapping Metric: $\Lambda = \langle M^2 \rangle / \langle M \rangle^2$ | `MATHEMATICAL_MODEL` | Grounded |
 
 ---
 
 # 2. Inter-Plane & Vault Connections
 
-- **Claims MOC:** [[02_CLAIMS_MOC]]
-- **Frameworks Sub-Plane:** [[05_FRAMEWORKS_MOC]]
-- **Equation Registry:** [[TRANG_EQUATION_REGISTRY]]
+- **Claims MOC:** [[11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC|02_CLAIMS_MOC]]
+- **Frameworks Sub-Plane:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+- **Equation Registry:** [[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_EQUATION_REGISTRY|TRANG_EQUATION_REGISTRY]]
 
 ---
 
@@ -106,8 +106,8 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[02_CLAIMS_MOC]] · [[05_FRAMEWORKS_MOC]] · [[TRANG_EQUATION_REGISTRY]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC|02_CLAIMS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_EQUATION_REGISTRY|TRANG_EQUATION_REGISTRY]]
 
 ---
-**MOC:** [[02_CLAIMS_MOC]]
+**MOC:** [[11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC|02_CLAIMS_MOC]]
 

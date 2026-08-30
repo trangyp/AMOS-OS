@@ -137,7 +137,7 @@ Deep code-level inspection of 5 AMOS brain Python files:
 - 677 skills in master registry across 10 UTC parts (P1_META: 82, P7_APPLIED_OS: 212, P5_SOCIAL: 127)
 
 ## Links
-- [[COSMO_BRAIN_MOC]]
+- [[11_KNOWLEDGE/COSMO_BRAIN_MOC|COSMO_BRAIN_MOC]]
 - executable brain model
 - AMOS INTEGRATION TEST DASHBOARD
 - 2026_08_22_EXECUTABLE_CODE_INTERNALS — companion inspection of core brain Python files
@@ -263,11 +263,11 @@ class Formula:
 **MOC:** references_MOC
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 **MOC:** references_MOC
 
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 RSCF-NODE
@@ -275,6 +275,6 @@ node_id: amos-core19-logic-kernel-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-core19-logic-kernel/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
-- INDEXED_BY: [[00_HOME]]
-- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

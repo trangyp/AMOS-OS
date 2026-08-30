@@ -35,7 +35,7 @@ Governed generator `25_COGNITIVE_MATRIX/12_GENERATORS/fill_matrix.py` (payload m
 | **Total** | **1,102 files** |
 
 Idempotency verified: second run → 0 filled / 1,214 skipped.
-Residual `PLACEHOLDER / UNVALIDATED` strings: 9, all prose references inside already-substantive contracts (routing README, [[PROMOTION_GATES]], validation receipt) — not gaps.
+Residual `PLACEHOLDER / UNVALIDATED` strings: 9, all prose references inside already-substantive contracts (routing README, [[25_COGNITIVE_MATRIX/11_VALIDATION/PROMOTION_GATES|PROMOTION_GATES]], validation receipt) — not gaps.
 
 ## Epistemic boundaries
 - All fills carry `DERIVED / MODEL EXTENSION` class with confidence ceiling 0.6.
@@ -45,10 +45,10 @@ Residual `PLACEHOLDER / UNVALIDATED` strings: 9, all prose references inside alr
 ## What this does NOT establish
 Implementation, execution, validation, authority binding, or runtime integration remain UNKNOWN/GAP per package gap matrices.
 
-[[COGNITIVE_MATRIX_MOC]] · [[PLACEHOLDER_SEED_STATUS]]
+[[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[25_COGNITIVE_MATRIX/PLACEHOLDER_SEED_STATUS|PLACEHOLDER_SEED_STATUS]]
 
 ---
-**MOC:** [[07_COVERAGE_MOC]]
+**MOC:** [[25_COGNITIVE_MATRIX/07_COVERAGE/07_COVERAGE_MOC|07_COVERAGE_MOC]]
 
 ---
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -996,7 +996,7 @@ MULTIPLE COMPONENTS
 
 HETEROGENEOUS COMPONENTS
 
-[[AGENTS]]
+[[AGENTS|AGENTS]]
 
 NODES
 
@@ -2228,7 +2228,7 @@ emergence_dependencies:
     UNKNOWN/GAP
 
   governance:
-    - [[LAW_HIERARCHY]]
+    - [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
   implementation:
     UNKNOWN/GAP
@@ -2240,7 +2240,7 @@ emergence_dependencies:
 The supplied:
 
 ```text
-GOVERNED_BY: [[LAW_HIERARCHY]]
+GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 ```
 
 is artifact-level evidence.
@@ -2767,7 +2767,7 @@ The supplied artifact establishes:
 ```text
 EMERGENCE_CANON
 ↓ GOVERNED_BY
-[[LAW_HIERARCHY]]
+[[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 ```
 
 at the artifact relation level.
@@ -4574,7 +4574,7 @@ Source-supported artifact relation:
 ```text
 EMERGENCE_CANON
 ↓ GOVERNED_BY
-[[LAW_HIERARCHY]]
+[[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 ```
 
 Source-supported indexing:
@@ -4582,23 +4582,23 @@ Source-supported indexing:
 ```text
 EMERGENCE_CANON
 ↓ INDEXED_BY
-[[00_HOME]]
+[[00_ROOT/00_HOME|00_HOME]]
 
 EMERGENCE_CANON
 ↓ INDEXED_BY
-[[AMOS_RSCF_NODES]]
+[[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 ```
 
 Target integration points:
 
 ```text
-[[KERNEL_README]]
+[[02_KERNEL/KERNEL_README|KERNEL_README]]
 
-[[CONTROL_PLANE_README]]
+[[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
 
-[[OBSERVABILITY_README]]
+[[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]]
 
-[[OPERATIONS_README]]
+[[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 ```
 
 These references do not establish executable binding.
@@ -4670,7 +4670,7 @@ AUTHORITY
 Operational recovery may eventually bind through:
 
 ```text
-[[OPERATIONS_README]]
+[[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 ```
 
 Current executable recovery binding:
@@ -4710,7 +4710,7 @@ proof_capsule:
 
   dependencies:
     - AMOS_CANON_INGESTION_RULE
-    - [[LAW_HIERARCHY]]
+    - [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
   competing_explanations: []
 

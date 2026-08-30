@@ -14,7 +14,7 @@ rscf:
   scope: AMOS_knowledge
 ---
 
-# AMOS FULL BRAIN OS [[ARCHITECTURE]]
+# AMOS FULL BRAIN OS [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 ## Full Canonical Content + Extended Tags + RSCF + Obsidian Integration
 
@@ -4155,11 +4155,11 @@ The last five relations are normalized/derived except where directly stated by t
 
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[KNOWLEDGE_MOC]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
 
 ---
 
-**MOC:** [[KNOWLEDGE_MOC]]
+**MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
 
 **Artifact state:** `SOURCE_CLAIM`
 **Architecture class:** `CONDITIONAL / AMOS_MODEL`

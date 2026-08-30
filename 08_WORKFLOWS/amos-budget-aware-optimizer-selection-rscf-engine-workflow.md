@@ -121,7 +121,7 @@ The workflow produces a structured result containing:
 - **Agent**: `amos-budget-aware-optimizer-selection-rscf-engine-agent`
 
 ---
-**MOC:** [[08_WORKFLOWS_MOC]]
+**MOC:** [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS_MOC]]
 
 ## Orchestration Pattern
 

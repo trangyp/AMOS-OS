@@ -18,8 +18,8 @@ rscf:
 
 # four process architecture dmer
 
-Stub note for [[four_process_architecture_dmer]].
+Stub note for [[11_KNOWLEDGE/stubs/four_process_architecture_dmer|four_process_architecture_dmer]].
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

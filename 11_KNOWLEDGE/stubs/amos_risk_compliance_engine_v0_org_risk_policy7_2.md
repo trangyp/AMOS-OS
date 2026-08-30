@@ -20,8 +20,8 @@ rscf:
 
 # amos risk compliance engine v0 org risk policy7 2
 
-Stub note for [[amos_risk_compliance_engine_v0_org_risk_policy7_2]].
+Stub note for [[11_KNOWLEDGE/stubs/amos_risk_compliance_engine_v0_org_risk_policy7_2|amos_risk_compliance_engine_v0_org_risk_policy7_2]].
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

@@ -43,4 +43,4 @@ Domain master agent for AMOS Memory Systems Master. Consolidates 3 sub-skills.
 **MOC:** SKILL
 
 ---
-**MOC:** [[amos-memory-systems-master_MOC]]
+**MOC:** [[07_SKILLS/amos-memory-systems-master/amos-memory-systems-master_MOC|amos-memory-systems-master_MOC]]

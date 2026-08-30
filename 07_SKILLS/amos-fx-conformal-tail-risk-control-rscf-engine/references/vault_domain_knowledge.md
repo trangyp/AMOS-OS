@@ -142,12 +142,12 @@ For each currency pair:
 
 ---
 
-### Source 3: [[KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS]]
+### Source 3: [[11_KNOWLEDGE/trang/KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS|KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS]]
 
 > Path: `trang/KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS.md` | Size: 1133050 chars | Match score: 8
 
 {
- "title": "KHUNG TRANG — MAX DETAIL [[ARCHITECTURE]] WITH FULL EQUATION REGISTRY",
+ "title": "KHUNG TRANG — MAX DETAIL [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] WITH FULL EQUATION REGISTRY",
  "version": "U∞_full_source_preserved_v3",
  "generated_at": "2026-05-19T15:14:32.907954Z",
  "source": {
@@ -252,14 +252,14 @@ For each currency pair:
 
 ## Related
 
-- [[07_SKILLS_MOC]]
+- [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 **MOC:** references_MOC
 
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 RSCF-NODE
@@ -267,6 +267,6 @@ node_id: amos-fx-conformal-tail-risk-control-rscf-engine-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-fx-conformal-tail-risk-control-rscf-engine/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
-- INDEXED_BY: [[00_HOME]]
-- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

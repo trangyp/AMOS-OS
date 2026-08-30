@@ -750,7 +750,7 @@ It does not erase plane boundaries.
 Referenced artifact:
 
 ```text
-01_CANON/[[01_CANON_MOC]]
+01_CANON/[[01_CANON/01_CANON_MOC|01_CANON_MOC]]
 ```
 
 The Canon Plane is represented here as the upstream authority/law context.
@@ -766,7 +766,7 @@ Those remain dependent on the referenced Canon artifact.
 Referenced artifact:
 
 ```text
-[[25_COGNITIVE_MATRIX_MOC]]
+[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 ```
 
 The Cognitive Matrix performs the conceptual binding between:
@@ -790,7 +790,7 @@ The matrix therefore acts as a routing specification rather than an authority or
 Referenced artifact:
 
 ```text
-03_CONTROL_PLANE/[[03_CONTROL_PLANE_MOC]]
+03_CONTROL_PLANE/[[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
 ```
 
 The Control Plane is the target execution/control architecture named by the matrix.
@@ -804,13 +804,13 @@ The supplied source does not independently establish its executable runtime.
 Primary matrix specification:
 
 ```text
-[[CORE_X_CONTROL_PLANE]]
+[[25_COGNITIVE_MATRIX/CORE_X_CONTROL_PLANE|CORE_X_CONTROL_PLANE]]
 ```
 
 Relationship:
 
 ```text
-[[CORE_X_CONTROL_PLANE]]
+[[25_COGNITIVE_MATRIX/CORE_X_CONTROL_PLANE|CORE_X_CONTROL_PLANE]]
         ↓
 DEFINES / CONTEXTUALIZES
         ↓
@@ -1573,7 +1573,7 @@ Scope_Envelope:
     CONTROL_PLANE
 
   laws:
-    - [[L0_INTEGRITY]]
+    - [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]]
     - L1_REALITY
     - L2_COGNITION
     - L3_GOVERNANCE
@@ -2199,8 +2199,8 @@ Proof_Capsule:
     - CORE_X_CONTROL_PLANE_MATRIX source structure
 
   provenance:
-    - 25_COGNITIVE_MATRIX/[[CORE_X_CONTROL_PLANE]]
-    - 03_CONTROL_PLANE/[[03_CONTROL_PLANE_MOC]]
+    - 25_COGNITIVE_MATRIX/[[25_COGNITIVE_MATRIX/CORE_X_CONTROL_PLANE|CORE_X_CONTROL_PLANE]]
+    - 03_CONTROL_PLANE/[[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
     - AMOS_CORPUS
 
   scope:
@@ -2233,7 +2233,7 @@ Proof_Capsule:
 ```yaml
 Core_X_Control_Plane_Matrix:
 
-  [[L0_INTEGRITY]]:
+  [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]]:
 
     harness:
       STATE_VALIDATOR
@@ -2774,7 +2774,7 @@ These must not be fabricated.
            ▼
 25_COGNITIVE_MATRIX
            │
-           └── [[CORE_X_CONTROL_PLANE]]
+           └── [[25_COGNITIVE_MATRIX/CORE_X_CONTROL_PLANE|CORE_X_CONTROL_PLANE]]
                     │
                     ▼
        CORE_X_CONTROL_PLANE_MATRIX
@@ -3286,7 +3286,7 @@ Revalidate this matrix if any of the following changes:
 ```text
 CORE LAW SEMANTICS
 
-[[CORE_X_CONTROL_PLANE]] SPECIFICATION
+[[25_COGNITIVE_MATRIX/CORE_X_CONTROL_PLANE|CORE_X_CONTROL_PLANE]] SPECIFICATION
 
 CONTROL PLANE HARNESS DEFINITIONS
 
@@ -3434,7 +3434,7 @@ RSCF:
   M:
 
     routed_laws:
-      - [[L0_INTEGRITY]]
+      - [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]]
       - L1_REALITY
       - L2_COGNITION
       - L3_GOVERNANCE
@@ -3496,17 +3496,17 @@ RSCF:
 ```yaml
 RSCF_RELATIONS:
 
-  - INDEXED_BY: "[[00_HOME]]"
+  - INDEXED_BY: "[[00_ROOT/00_HOME|00_HOME]]"
 
-  - INDEXED_BY: "[[AMOS_RSCF_NODES]]"
+  - INDEXED_BY: "[[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]"
 
-  - PART_OF: "[[25_COGNITIVE_MATRIX_MOC]]"
+  - PART_OF: "[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]"
 
-  - SPECIFIED_BY: "[[CORE_X_CONTROL_PLANE]]"
+  - SPECIFIED_BY: "[[25_COGNITIVE_MATRIX/CORE_X_CONTROL_PLANE|CORE_X_CONTROL_PLANE]]"
 
-  - ROUTES_FROM: "01_CANON/[[01_CANON_MOC]]"
+  - ROUTES_FROM: "01_CANON/[[01_CANON/01_CANON_MOC|01_CANON_MOC]]"
 
-  - ROUTES_TO: "03_CONTROL_PLANE/[[03_CONTROL_PLANE_MOC]]"
+  - ROUTES_TO: "03_CONTROL_PLANE/[[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]"
 
   - GOVERNS:
       - L0_INTEGRITY_ROUTE
@@ -3515,18 +3515,18 @@ RSCF_RELATIONS:
       - L3_GOVERNANCE_ROUTE
 
   - RELATED_TO:
-      - "[[TASK_CONTRACT]]"
-      - "[[CAPABILITY_RESOLVER]]"
-      - "[[K_RSCF]]"
-      - "[[K_HML]]"
-      - "[[K_GMEF]]"
-      - "[[K_PROVENANCE]]"
-      - "[[K_PROVENANCE_TOPOLOGY]]"
-      - "[[K_CAPABILITY_AUTHORIZATION]]"
-      - "[[K_COMMIT_TIME_AUTHORITY]]"
+      - "[[03_CONTROL_PLANE/01_TASK_CONTRACT/TASK_CONTRACT|TASK_CONTRACT]]"
+      - "[[03_CONTROL_PLANE/02_CAPABILITY/CAPABILITY_RESOLVER|CAPABILITY_RESOLVER]]"
+      - "[[02_KERNEL/09_INTEGRATION/K_RSCF|K_RSCF]]"
+      - "[[02_KERNEL/09_INTEGRATION/K_HML|K_HML]]"
+      - "[[02_KERNEL/09_INTEGRATION/K_GMEF|K_GMEF]]"
+      - "[[02_KERNEL/08_PROVENANCE/K_PROVENANCE|K_PROVENANCE]]"
+      - "[[02_KERNEL/08_PROVENANCE/K_PROVENANCE_TOPOLOGY|K_PROVENANCE_TOPOLOGY]]"
+      - "[[02_KERNEL/07_AUTHORITY/K_CAPABILITY_AUTHORIZATION|K_CAPABILITY_AUTHORIZATION]]"
+      - "[[02_KERNEL/07_AUTHORITY/K_COMMIT_TIME_AUTHORITY|K_COMMIT_TIME_AUTHORITY]]"
 
   - LINEAGE_TARGET:
-      "[[AMOS_CORE_v4_4]]"
+      "[[00_ROOT/AMOS_CORE_v4_4|AMOS_CORE_v4_4]]"
 ```
 
 ---

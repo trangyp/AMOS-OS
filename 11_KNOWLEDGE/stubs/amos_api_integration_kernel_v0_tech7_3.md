@@ -19,8 +19,8 @@ rscf:
 
 # amos api integration kernel v0 tech7 3
 
-Stub note for [[amos_api_integration_kernel_v0_tech7_3]].
+Stub note for [[11_KNOWLEDGE/stubs/amos_api_integration_kernel_v0_tech7_3|amos_api_integration_kernel_v0_tech7_3]].
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

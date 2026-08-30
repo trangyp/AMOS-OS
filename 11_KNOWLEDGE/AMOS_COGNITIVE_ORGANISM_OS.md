@@ -2384,7 +2384,7 @@ enough separation for independent error detection
 
 ---
 
-# 133. MEMORY ACROSS [[AGENTS]]
+# 133. MEMORY ACROSS [[AGENTS|AGENTS]]
 
 Shared memory must distinguish:
 
@@ -3106,7 +3106,7 @@ I40 INTEGRITY > COMPLETENESS > FLUENCY > SPEED
 
 ---
 
-# 169. IMPLEMENTATION [[ROADMAP]]
+# 169. IMPLEMENTATION [[00_ROOT/ROADMAP|ROADMAP]]
 
 ## Wave 1 — Kernel
 
@@ -3235,7 +3235,7 @@ independent assessment
 
 ---
 
-# 170. FINAL [[ARCHITECTURE]]
+# 170. FINAL [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 ```text
                          USER / SYSTEM AUTHORITY
@@ -3369,10 +3369,10 @@ This is the level at which “AMOS organism” becomes structurally useful: not 
 
 ---
 
-[[00_ROOT_MOC]]|[[AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ---
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -3380,9 +3380,9 @@ node_id: amos_cognitive_organism_os
 node_type: note
 path: 11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_HOME]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 
 ---
-**MOC:** [[KNOWLEDGE_MOC]]
+**MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]

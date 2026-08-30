@@ -60,11 +60,11 @@ epistemic_boundary:
   runtime_enforcement: NOT_ESTABLISHED
 ---
 
-# UBI-[[RATPAK]] Binding
+# UBI-[[11_KNOWLEDGE/05_FRAMEWORKS/RATPAK|RATPAK]] Binding
 
-`UBI_RATPAK_BINDING.md` is the canonical Knowledge Plane reference artifact for the **UBI-[[RATPAK]] Binding** within `11_KNOWLEDGE/05_FRAMEWORKS`.
+`UBI_RATPAK_BINDING.md` is the canonical Knowledge Plane reference artifact for the **UBI-[[11_KNOWLEDGE/05_FRAMEWORKS/RATPAK|RATPAK]] Binding** within `11_KNOWLEDGE/05_FRAMEWORKS`.
 
-It formalizes the relational packaging schemas that serialize multi-channel continuous biological telemetry (NBI, NEI, SI, BEI) into high-efficiency [[RATPAK]] payloads.
+It formalizes the relational packaging schemas that serialize multi-channel continuous biological telemetry (NBI, NEI, SI, BEI) into high-efficiency [[11_KNOWLEDGE/05_FRAMEWORKS/RATPAK|RATPAK]] payloads.
 
 ---
 
@@ -78,9 +78,9 @@ It formalizes the relational packaging schemas that serialize multi-channel cont
 
 # 2. Inter-Plane & Vault Connections
 
-- **Biological Master:** [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
-- **[[RATPAK]] Master:** [[RATPAK]]
-- **Wearable Sensors:** [[UBI_WEARABLE_FRAMEWORK]]
+- **Biological Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+- **[[11_KNOWLEDGE/05_FRAMEWORKS/RATPAK|RATPAK]] Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/RATPAK|RATPAK]]
+- **Wearable Sensors:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_WEARABLE_FRAMEWORK|UBI_WEARABLE_FRAMEWORK]]
 
 ---
 
@@ -104,8 +104,8 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[05_FRAMEWORKS_MOC]] · [[UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[RATPAK]] · [[UBI_WEARABLE_FRAMEWORK]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/RATPAK|RATPAK]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_WEARABLE_FRAMEWORK|UBI_WEARABLE_FRAMEWORK]]
 
 ---
-**MOC:** [[05_FRAMEWORKS_MOC]]
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
 

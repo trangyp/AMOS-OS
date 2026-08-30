@@ -43,4 +43,4 @@ Domain master agent for AMOS C08 — Strategy & Game Master. Consolidates 31 sub
 **MOC:** SKILL
 
 ---
-**MOC:** [[amos-c08-strategy-game-master_MOC]]
+**MOC:** [[07_SKILLS/amos-c08-strategy-game-master/amos-c08-strategy-game-master_MOC|amos-c08-strategy-game-master_MOC]]

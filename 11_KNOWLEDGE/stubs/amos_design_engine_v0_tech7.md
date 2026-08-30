@@ -18,8 +18,8 @@ rscf:
 
 # amos design engine v0 tech7
 
-Stub note for [[amos_design_engine_v0_tech7]].
+Stub note for [[11_KNOWLEDGE/stubs/amos_design_engine_v0_tech7|amos_design_engine_v0_tech7]].
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

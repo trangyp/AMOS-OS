@@ -42,4 +42,4 @@ rscf:
 **Related:** SKILL
 
 ---
-**MOC:** [[amos-7-part-universe-canon_MOC]]
+**MOC:** [[07_SKILLS/amos-7-part-universe-canon/amos-7-part-universe-canon_MOC|amos-7-part-universe-canon_MOC]]

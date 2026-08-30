@@ -443,7 +443,7 @@ for infrastructure authorization
 
 ---
 
-# 7. H / M / L [[ARCHITECTURE]]
+# 7. H / M / L [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 ```text
 H — EXECUTION_SYSTEM governance
@@ -2987,17 +2987,17 @@ The third invariant is:
 
 ---
 
-**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · AMOS_AGENT_SCHEMA_FULL · AMOS_AGENT_TEMPLATES · AMOS_AGENT_ONBOARDING_GUIDE · EnvironmentScan_Agent · system_scan_agent · automation_profiles
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC · AMOS_AGENT_SCHEMA_FULL · AMOS_AGENT_TEMPLATES · AMOS_AGENT_ONBOARDING_GUIDE · EnvironmentScan_Agent · system_scan_agent · automation_profiles
 
 ```
 ```
 
 ---
 
-[[00_ROOT_MOC]]|[[AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ---
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -3005,10 +3005,10 @@ node_id: executor_agent
 node_type: note
 path: 11_KNOWLEDGE/executor_agent.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_HOME]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 
 ---
-**MOC:** [[KNOWLEDGE_MOC]]
+**MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
 

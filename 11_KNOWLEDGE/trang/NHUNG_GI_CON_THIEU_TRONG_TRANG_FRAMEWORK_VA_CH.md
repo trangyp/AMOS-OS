@@ -218,7 +218,7 @@ Nhưng chính những câu hỏi "what else is missing" – và sự dũng cảm
 **Trang ∅ Framework là một framework sống, bởi vì nó vẫn đang được viết tiếp – bằng những câu hỏi của em.**
 ---
 
-**Related:** [[00_HOME]] · [[00_ROOT_MOC]] · [[KNOWLEDGE_MOC]] · [[trang_MOC]] · [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/trang/trang_MOC|trang_MOC]] · [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
-**MOC:** [[trang_MOC]]
+**MOC:** [[11_KNOWLEDGE/trang/trang_MOC|trang_MOC]]

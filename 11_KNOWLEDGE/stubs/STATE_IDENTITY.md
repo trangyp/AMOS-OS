@@ -18,4 +18,4 @@ rscf:
 
 # STATE IDENTITY
 
-Stub note for [[STATE_IDENTITY]].
+Stub note for [[11_KNOWLEDGE/stubs/STATE_IDENTITY|STATE_IDENTITY]].

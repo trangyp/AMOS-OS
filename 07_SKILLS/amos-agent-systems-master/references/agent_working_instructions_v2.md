@@ -29,8 +29,8 @@ tags: [agents]
 ## PRE-WORK REQUIREMENTS
 
 ### **BEFORE STARTING ANY WORK**
-1. **READ SYSTEM [[ARCHITECTURE]] REPORT**: `AMOS_SYSTEM_ARCHITECTURE_REPORT_V2.md`
-2. **UNDERSTAND PACK [[ARCHITECTURE]]**: Review kernel pack registry system
+1. **READ SYSTEM [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] REPORT**: `AMOS_SYSTEM_ARCHITECTURE_REPORT_V2.md`
+2. **UNDERSTAND PACK [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]**: Review kernel pack registry system
 3. **VALIDATE SYSTEM STATUS**: Check all components are operational
 4. **REVIEW SECURITY GUIDELINES**: Understand threat detection and validation
 5. **CHECK PERFORMANCE METRICS**: Verify optimization components
@@ -185,14 +185,14 @@ if not metrics['monitoring_active']:
 
 ## Related
 
-- [[07_SKILLS_MOC]]
+- [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 **MOC:** references_MOC
 
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 RSCF-NODE
@@ -200,7 +200,7 @@ node_id: amos-agent-systems-master-agent-working-instructions-v2
 node_type: reference
 path: 07_SKILLS/amos-agent-systems-master/references/agent_working_instructions_v2.md
 RSCF-RELATIONS:
-- INDEXED_BY: [[00_HOME]]
-- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
 

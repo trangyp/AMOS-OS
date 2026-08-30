@@ -18,4 +18,4 @@ rscf:
 
 # STATE VERSIONING
 
-Stub note for [[STATE_VERSIONING]].
+Stub note for [[11_KNOWLEDGE/stubs/STATE_VERSIONING|STATE_VERSIONING]].

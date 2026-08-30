@@ -68,17 +68,17 @@ symbols preserved, bodies = NotImplementedError with restore instructions) + rea
 - The corrupted originals are overwritten in place (Drive cloud history retains prior versions).
 
 ---
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · 2026-08-25-qfm-pass15-corpus-depth · 2026-08-25-qfm-pass5-zero-empty · 2026-08-25-qfm-pass4-runtime-sync
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · 2026-08-25-qfm-pass15-corpus-depth · 2026-08-25-qfm-pass5-zero-empty · 2026-08-25-qfm-pass4-runtime-sync
 
 ---
 **MOC:** references_MOC
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 **MOC:** references_MOC
 
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 RSCF-NODE
@@ -86,6 +86,6 @@ node_id: amos-c12-earth-ecology-master-drive-quantum-restoration
 node_type: reference
 path: 07_SKILLS/amos-c12-earth-ecology-master/references/drive_quantum_restoration.md
 RSCF-RELATIONS:
-- INDEXED_BY: [[00_HOME]]
-- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

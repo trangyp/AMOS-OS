@@ -63,7 +63,7 @@ epistemic_boundary:
 
 `UBI_ID_EXCHANGE_BINDING.md` is the canonical Knowledge Plane reference artifact for the **UBI-ID Exchange Binding** within `11_KNOWLEDGE/05_FRAMEWORKS`.
 
-It integrates continuous multi-domain biological presence proofs with [[ID_EXCHANGE]], allowing zero-knowledge proof of genuine human aliveness without exposing sensitive biometric raw data.
+It integrates continuous multi-domain biological presence proofs with [[11_KNOWLEDGE/05_FRAMEWORKS/ID_EXCHANGE|ID_EXCHANGE]], allowing zero-knowledge proof of genuine human aliveness without exposing sensitive biometric raw data.
 
 ---
 
@@ -77,9 +77,9 @@ It integrates continuous multi-domain biological presence proofs with [[ID_EXCHA
 
 # 2. Inter-Plane & Vault Connections
 
-- **Biological Master:** [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
-- **Identity Exchange:** [[ID_EXCHANGE]]
-- **Consent Binding:** [[UBI_CONSENTX_BINDING]]
+- **Biological Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+- **Identity Exchange:** [[11_KNOWLEDGE/05_FRAMEWORKS/ID_EXCHANGE|ID_EXCHANGE]]
+- **Consent Binding:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_CONSENTX_BINDING|UBI_CONSENTX_BINDING]]
 - **Native Vault Source:** `11_KNOWLEDGE/biology-ubi/ID_EXCHANGE_PLUS_UBI_PLUS_NEUROSYNCAI`
 
 ---
@@ -104,8 +104,8 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[05_FRAMEWORKS_MOC]] · [[UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[ID_EXCHANGE]] · [[UBI_CONSENTX_BINDING]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/ID_EXCHANGE|ID_EXCHANGE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_CONSENTX_BINDING|UBI_CONSENTX_BINDING]]
 
 ---
-**MOC:** [[05_FRAMEWORKS_MOC]]
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
 

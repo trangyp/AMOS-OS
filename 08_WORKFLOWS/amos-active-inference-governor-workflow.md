@@ -170,7 +170,7 @@ The workflow produces an `AgentResult` containing:
 - **Agent path**: `.devin/agents/amos-active-inferen
 
 ---
-**MOC:** [[08_WORKFLOWS_MOC]]
+**MOC:** [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS_MOC]]
 
 ## Orchestration Pattern
 

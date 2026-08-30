@@ -1410,7 +1410,7 @@ rather than source-verified scheduling semantics.
 The source explicitly links:
 
 ```text
-[[CORE_X_RUNTIME_MATRIX]]
+[[25_COGNITIVE_MATRIX/CORE_X_RUNTIME_MATRIX|CORE_X_RUNTIME_MATRIX]]
 ```
 
 as its Matrix Table counterpart.
@@ -1422,7 +1422,7 @@ CORE_X_RUNTIME
        │
        │ specification
        ▼
-[[CORE_X_RUNTIME_MATRIX]]
+[[25_COGNITIVE_MATRIX/CORE_X_RUNTIME_MATRIX|CORE_X_RUNTIME_MATRIX]]
        │
        │ routing table
        ▼
@@ -1469,7 +1469,7 @@ CORE_X_RUNTIME SPECIFICATION
         └── Verified Commit Dispatch
         │
         ▼
-[[CORE_X_RUNTIME_MATRIX]]
+[[25_COGNITIVE_MATRIX/CORE_X_RUNTIME_MATRIX|CORE_X_RUNTIME_MATRIX]]
         │
         ├── 01_BOOT
         ├── 02_ROUTER
@@ -1622,7 +1622,7 @@ Proof_Capsule:
 
   claim: >
     CORE_X_RUNTIME defines a three-primitive execution
-    mesh, while [[CORE_X_RUNTIME_MATRIX]] defines four
+    mesh, while [[25_COGNITIVE_MATRIX/CORE_X_RUNTIME_MATRIX|CORE_X_RUNTIME_MATRIX]] defines four
     selected Runtime-stage routing contracts. The sources
     establish counterpart status but do not explicitly
     establish a one-to-one primitive-to-stage mapping.
@@ -1632,7 +1632,7 @@ Proof_Capsule:
 
   premises:
     - CORE_X_RUNTIME execution mesh
-    - [[CORE_X_RUNTIME_MATRIX]] routing grid
+    - [[25_COGNITIVE_MATRIX/CORE_X_RUNTIME_MATRIX|CORE_X_RUNTIME_MATRIX]] routing grid
     - explicit counterpart relationship
 
   scope:
@@ -1659,7 +1659,7 @@ Proof_Capsule:
 The source explicitly references:
 
 ```text
-04_RUNTIME/[[04_RUNTIME_MOC]]
+04_RUNTIME/[[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]]
 ```
 
 This is the authoritative dependency to load when exact Runtime semantics become decision-relevant.
@@ -1680,7 +1680,7 @@ the deeper Runtime corpus should not be loaded merely to decorate this specifica
 The source explicitly references:
 
 ```text
-01_CANON/[[01_CANON_MOC]]
+01_CANON/[[01_CANON/01_CANON_MOC|01_CANON_MOC]]
 ```
 
 The artifact therefore participates in a Core-to-Runtime interface.
@@ -1900,7 +1900,7 @@ A claim repeated in:
 ```text
 CORE_X_RUNTIME
 
-[[CORE_X_RUNTIME_MATRIX]]
+[[25_COGNITIVE_MATRIX/CORE_X_RUNTIME_MATRIX|CORE_X_RUNTIME_MATRIX]]
 
 04_RUNTIME DOCUMENTATION
 ```
@@ -2436,7 +2436,7 @@ Preserve:
 CORE_X_RUNTIME.md
 → three execution-mesh primitives
 
-[[CORE_X_RUNTIME_MATRIX]].md
+[[25_COGNITIVE_MATRIX/CORE_X_RUNTIME_MATRIX|CORE_X_RUNTIME_MATRIX]].md
 → four stage-routing rows
 ```
 
@@ -3607,7 +3607,7 @@ CORE_X_RUNTIME
 conflicts with:
 
 ```text
-[[CORE_X_RUNTIME_MATRIX]]
+[[25_COGNITIVE_MATRIX/CORE_X_RUNTIME_MATRIX|CORE_X_RUNTIME_MATRIX]]
 ```
 
 do not silently reconcile.
@@ -3643,7 +3643,7 @@ COMPETING
 If:
 
 ```text
-04_RUNTIME/[[04_RUNTIME_MOC]]
+04_RUNTIME/[[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]]
 ```
 
 defines the Runtime differently, preserve the conflict until authority and supersession are established.
@@ -3764,9 +3764,9 @@ Regime:
     "2026-08-27"
 
   dependencies:
-    - 01_CANON/[[01_CANON_MOC]]
-    - 04_RUNTIME/[[04_RUNTIME_MOC]]
-    - [[CORE_X_RUNTIME_MATRIX]]
+    - 01_CANON/[[01_CANON/01_CANON_MOC|01_CANON_MOC]]
+    - 04_RUNTIME/[[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]]
+    - [[25_COGNITIVE_MATRIX/CORE_X_RUNTIME_MATRIX|CORE_X_RUNTIME_MATRIX]]
 
   revalidate_on:
     - canon_change
@@ -3933,7 +3933,7 @@ Revalidate this specification when:
 ```text
 CORE_X_RUNTIME IS SUPERSEDED
 
-[[CORE_X_RUNTIME_MATRIX]] CHANGES
+[[25_COGNITIVE_MATRIX/CORE_X_RUNTIME_MATRIX|CORE_X_RUNTIME_MATRIX]] CHANGES
 
 01_CANON MOC CHANGES
 
@@ -4068,7 +4068,7 @@ Runtime_Conformance_Receipt:
     "1.0.0"
 
   matrix_counterpart:
-    [[CORE_X_RUNTIME_MATRIX]]
+    [[25_COGNITIVE_MATRIX/CORE_X_RUNTIME_MATRIX|CORE_X_RUNTIME_MATRIX]]
 
   runtime_version:
 
@@ -4274,7 +4274,7 @@ Core_X_Runtime:
         UNKNOWN
 
   counterpart:
-    [[CORE_X_RUNTIME_MATRIX]]
+    [[25_COGNITIVE_MATRIX/CORE_X_RUNTIME_MATRIX|CORE_X_RUNTIME_MATRIX]]
 
   executable_binding:
     NOT_ESTABLISHED
@@ -4475,9 +4475,9 @@ RSCF:
   L:
 
     load_on_demand:
-      - 01_CANON/[[01_CANON_MOC]]
-      - 04_RUNTIME/[[04_RUNTIME_MOC]]
-      - [[CORE_X_RUNTIME_MATRIX]]
+      - 01_CANON/[[01_CANON/01_CANON_MOC|01_CANON_MOC]]
+      - 04_RUNTIME/[[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]]
+      - [[25_COGNITIVE_MATRIX/CORE_X_RUNTIME_MATRIX|CORE_X_RUNTIME_MATRIX]]
       - Reality_Gate_definition
       - seven_phase_loop_definition
       - Intake_definition
@@ -4518,19 +4518,19 @@ RSCF:
 ```yaml
 RSCF_RELATIONS:
 
-  - INDEXED_BY: "[[00_HOME]]"
+  - INDEXED_BY: "[[00_ROOT/00_HOME|00_HOME]]"
 
-  - INDEXED_BY: "[[AMOS_RSCF_NODES]]"
+  - INDEXED_BY: "[[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]"
 
-  - PART_OF: "[[25_COGNITIVE_MATRIX_MOC]]"
+  - PART_OF: "[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]"
 
-  - COUNTERPART: "[[CORE_X_RUNTIME_MATRIX]]"
+  - COUNTERPART: "[[25_COGNITIVE_MATRIX/CORE_X_RUNTIME_MATRIX|CORE_X_RUNTIME_MATRIX]]"
 
   - ROUTES_FROM:
-      "01_CANON/[[01_CANON_MOC]]"
+      "01_CANON/[[01_CANON/01_CANON_MOC|01_CANON_MOC]]"
 
   - ROUTES_TO:
-      "04_RUNTIME/[[04_RUNTIME_MOC]]"
+      "04_RUNTIME/[[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]]"
 
   - DEFINES_PRIMITIVE:
       INPUT_TELEMETRY_INGESTION
@@ -4542,19 +4542,19 @@ RSCF_RELATIONS:
       VERIFIED_COMMIT_DISPATCH
 
   - RELATED_TO:
-      - "[[K_RSCF]]"
-      - "[[K_HML]]"
-      - "[[K_GMEF]]"
-      - "[[K_PROVENANCE]]"
-      - "[[K_PROVENANCE_TOPOLOGY]]"
-      - "[[K_FAILURE_RECOVERY]]"
-      - "[[K_CAUSAL_EPOCH]]"
-      - "[[K_MVCC]]"
-      - "[[K_CAS]]"
-      - "[[K_ATOMIC_MULTI_RSCF]]"
+      - "[[02_KERNEL/09_INTEGRATION/K_RSCF|K_RSCF]]"
+      - "[[02_KERNEL/09_INTEGRATION/K_HML|K_HML]]"
+      - "[[02_KERNEL/09_INTEGRATION/K_GMEF|K_GMEF]]"
+      - "[[02_KERNEL/08_PROVENANCE/K_PROVENANCE|K_PROVENANCE]]"
+      - "[[02_KERNEL/08_PROVENANCE/K_PROVENANCE_TOPOLOGY|K_PROVENANCE_TOPOLOGY]]"
+      - "[[02_KERNEL/K_FAILURE_RECOVERY|K_FAILURE_RECOVERY]]"
+      - "[[02_KERNEL/03_CAUSAL/K_CAUSAL_EPOCH|K_CAUSAL_EPOCH]]"
+      - "[[02_KERNEL/K_MVCC|K_MVCC]]"
+      - "[[02_KERNEL/K_CAS|K_CAS]]"
+      - "[[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]"
 
   - LINEAGE_TARGET:
-      "[[AMOS_CORE_v4_4]]"
+      "[[00_ROOT/AMOS_CORE_v4_4|AMOS_CORE_v4_4]]"
 ```
 
 ---
@@ -4957,11 +4957,11 @@ VERIFIED COMMIT DISPATCH
 ## Source-defined references
 
 ```text
-[[CORE_X_RUNTIME_MATRIX]]
+[[25_COGNITIVE_MATRIX/CORE_X_RUNTIME_MATRIX|CORE_X_RUNTIME_MATRIX]]
 
-04_RUNTIME/[[04_RUNTIME_MOC]]
+04_RUNTIME/[[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]]
 
-01_CANON/[[01_CANON_MOC]]
+01_CANON/[[01_CANON/01_CANON_MOC|01_CANON_MOC]]
 ```
 
 ## Derived expansion
@@ -5096,9 +5096,9 @@ RSCF:
         DO_NOT_LOAD_UNLESS_REQUIRED
 
       dependencies:
-        - 01_CANON/[[01_CANON_MOC]]
-        - 04_RUNTIME/[[04_RUNTIME_MOC]]
-        - [[CORE_X_RUNTIME_MATRIX]]
+        - 01_CANON/[[01_CANON/01_CANON_MOC|01_CANON_MOC]]
+        - 04_RUNTIME/[[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]]
+        - [[25_COGNITIVE_MATRIX/CORE_X_RUNTIME_MATRIX|CORE_X_RUNTIME_MATRIX]]
         - Reality_Gate_definition
         - seven_phase_loop_definition
         - state_transition_definition
@@ -5150,8 +5150,8 @@ PROOF_CAPSULE:
     - "Verified Commit Dispatch → Emits signed state transition (S_{t+1})"
 
   provenance:
-    - 01_CANON/[[01_CANON_MOC]]
-    - 04_RUNTIME/[[04_RUNTIME_MOC]]
+    - 01_CANON/[[01_CANON/01_CANON_MOC|01_CANON_MOC]]
+    - 04_RUNTIME/[[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]]
     - AMOS_CORPUS
 
   scope:
@@ -5160,9 +5160,9 @@ PROOF_CAPSULE:
     - SOURCE_DEFINED_MODEL
 
   dependencies:
-    - [[CORE_X_RUNTIME_MATRIX]]
-    - 01_CANON/[[01_CANON_MOC]]
-    - 04_RUNTIME/[[04_RUNTIME_MOC]]
+    - [[25_COGNITIVE_MATRIX/CORE_X_RUNTIME_MATRIX|CORE_X_RUNTIME_MATRIX]]
+    - 01_CANON/[[01_CANON/01_CANON_MOC|01_CANON_MOC]]
+    - 04_RUNTIME/[[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]]
 
   competing_explanations:
     - the three primitives may span multiple Runtime stages
@@ -5410,7 +5410,7 @@ FRESHNESS, AND DEPENDENCIES.
 DO NOT INVENT ONE-TO-ONE BINDINGS
 BETWEEN THE THREE EXECUTION
 PRIMITIVES AND THE FOUR ROUTED
-STAGES OF [[CORE_X_RUNTIME_MATRIX]].
+STAGES OF [[25_COGNITIVE_MATRIX/CORE_X_RUNTIME_MATRIX|CORE_X_RUNTIME_MATRIX]].
 
 USE THE SMALLEST SUFFICIENT
 DEPENDENCY CLOSURE.

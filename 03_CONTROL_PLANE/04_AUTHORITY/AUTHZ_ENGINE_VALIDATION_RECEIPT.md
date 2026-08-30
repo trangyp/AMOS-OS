@@ -72,10 +72,10 @@ DERIVED reference implementation pending promotion.
 
 ## Related MOCs
 
-- [[00_HOME]] — universal vault hub
-- [[00_ROOT_MOC]] — AMOS OS master map
-- [[AUTHORITY_CONTROL_PLANE_README|AUTHORITY readme]]
-- [[AMOS_RSCF_NODES]] — RSCF node index
+- [[00_ROOT/00_HOME|00_HOME]] — universal vault hub
+- [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] — AMOS OS master map
+- [[03_CONTROL_PLANE/04_AUTHORITY/AUTHORITY_CONTROL_PLANE_README|AUTHORITY readme]]
+- [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] — RSCF node index
 
 ## Reproduce
 
@@ -84,7 +84,7 @@ python3 03_CONTROL_PLANE/04_AUTHORITY/authz_invariant_engine.py
 ```
 
 ---
-**MOC:** [[04_AUTHORITY_MOC]]
+**MOC:** [[03_CONTROL_PLANE/04_AUTHORITY/04_AUTHORITY_MOC|04_AUTHORITY_MOC]]
 
 ---
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

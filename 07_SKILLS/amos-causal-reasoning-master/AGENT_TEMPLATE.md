@@ -43,4 +43,4 @@ Domain master agent for AMOS Causal Reasoning Master. Consolidates 3 sub-skills.
 **MOC:** SKILL
 
 ---
-**MOC:** [[amos-causal-reasoning-master_MOC]]
+**MOC:** [[07_SKILLS/amos-causal-reasoning-master/amos-causal-reasoning-master_MOC|amos-causal-reasoning-master_MOC]]

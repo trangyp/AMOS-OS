@@ -741,7 +741,7 @@ Not merely metaphor.
     and\ tested\ by\ validation.
 ```
 **This is Khung Trang formalized.**
-\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL]] · [[SYSTEM_SCAN_ENGINE]] · [[automation_profiles]]
+\--- **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/kernel/AMOS_SIMULATION_KERNEL|AMOS_SIMULATION_KERNEL]] · [[11_KNOWLEDGE/engine/SYSTEM_SCAN_ENGINE|SYSTEM_SCAN_ENGINE]] · [[11_KNOWLEDGE/stubs/automation_profiles|automation_profiles]]
 
 ---
-**MOC:** [[trang_MOC]]
+**MOC:** [[11_KNOWLEDGE/trang/trang_MOC|trang_MOC]]

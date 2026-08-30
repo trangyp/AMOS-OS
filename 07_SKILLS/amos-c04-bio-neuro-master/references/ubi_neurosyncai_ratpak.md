@@ -17,7 +17,7 @@ rscf:
   scope: skill_reference
 ---
 
-# UBI NeuroSyncAI [[RATPAK]] Integration Module
+# UBI NeuroSyncAI [[11_KNOWLEDGE/05_FRAMEWORKS/RATPAK|RATPAK]] Integration Module
 
 > Source: `_00_Cosmo brain/biology-ubi/🔗 INTEGRATION MODULE UBI + NeuroSyncAI™ + RATPAK.md`
 > Epistemic class: SOURCE_DERIVED
@@ -25,7 +25,7 @@ rscf:
 ---
 tags: [biology-ubi]
 ---
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>🔗 INTEGRATION MODULE: UBI + NeuroSyncAI™ + [[RATPAK]]</title><style>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>🔗 INTEGRATION MODULE: UBI + NeuroSyncAI™ + [[11_KNOWLEDGE/05_FRAMEWORKS/RATPAK|RATPAK]]</title><style>
 /* cspell:disable-file */
 /* webkit printing magic: print all background colors */
 html {
@@ -331,14 +331,14 @@ ol > li {
 
 ## Related
 
-- [[07_SKILLS_MOC]]
+- [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 **MOC:** references_MOC
 
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 RSCF-NODE
@@ -346,6 +346,6 @@ node_id: amos-c04-bio-neuro-master-ubi-neurosyncai-ratpak
 node_type: reference
 path: 07_SKILLS/amos-c04-bio-neuro-master/references/ubi_neurosyncai_ratpak.md
 RSCF-RELATIONS:
-- INDEXED_BY: [[00_HOME]]
-- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

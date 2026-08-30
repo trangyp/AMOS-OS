@@ -37,7 +37,7 @@ Governs roles, decision rights, governance forums, escalation paths, service lev
 - Competing hypotheses remain visible when evidence does not discriminate.
 
 ## 4. Executed reference
-No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
+No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
 
 ## 5. Gaps
 Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
@@ -63,17 +63,17 @@ Given an operation touching `OPERATING MODEL · OPERATING MODEL CONTRACT` within
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 ---
 
-[[00_ROOT_MOC]]|[[AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ---
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -83,4 +83,4 @@ path: 23_OPERATING_MODEL/OPERATING_MODEL_OPERATING_MODEL_CONTRACT.md
 claim_class: AMOS_MODEL
 
 ---
-**MOC:** [[23_OPERATING_MODEL_MOC]]
+**MOC:** [[23_OPERATING_MODEL/23_OPERATING_MODEL_MOC|23_OPERATING_MODEL_MOC]]

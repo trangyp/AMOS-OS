@@ -18,4 +18,4 @@ rscf:
 
 # STATE MUTATION
 
-Stub note for [[STATE_MUTATION]].
+Stub note for [[11_KNOWLEDGE/stubs/STATE_MUTATION|STATE_MUTATION]].

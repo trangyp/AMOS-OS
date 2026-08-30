@@ -23,8 +23,8 @@ rscf:
 
 ## Year Archives
 
-- [[MOC_2007]] — 2007 papers
-- [[MOC_2008]] — 2008 papers
+- [[11_KNOWLEDGE/_arxiv_md/2007/MOC_2007|MOC_2007]] — 2007 papers
+- [[11_KNOWLEDGE/_arxiv_md/2008/MOC_2008|MOC_2008]] — 2008 papers
 
 ---
-**Parent:** [[KNOWLEDGE_MOC]]
+**Parent:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]

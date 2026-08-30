@@ -128,7 +128,7 @@ Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic clas
    - G3: Pro
 
 ---
-**MOC:** [[08_WORKFLOWS_MOC]]
+**MOC:** [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS_MOC]]
 
 ## Operations
 

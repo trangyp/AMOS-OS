@@ -15,7 +15,7 @@ rscf:
   scope: index_navigation
 ---
 
-# TECH [[ARCHITECTURE]] DOMAINS TECH [[ARCHITECTURE]] CONTRACT
+# TECH [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] DOMAINS TECH [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] CONTRACT
 
 STATUS: PROPOSED_SPECIFICATION
 epistemic_class: AMOS_MODEL
@@ -29,14 +29,14 @@ Index navigation stub; canonical content in package contract.
 Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
 
 ## Gaps
-Executable binding PARTIAL unless an executed validation receipt exists for this subsystem (see [[ROUTING_POLICY_VALIDATION_RECEIPT]], [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
+Executable binding PARTIAL unless an executed validation receipt exists for this subsystem (see [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]], [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
 
 ---
 
-[[00_ROOT_MOC]]|[[AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ---
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -46,7 +46,7 @@ path: 21_DOMAINS/37_TECH_ARCHITECTURE/00_INDEX/TECH_ARCHITECTURE_DOMAINS_TECH_AR
 claim_class: AMOS_MODEL
 
 ---
-**MOC:** [[INDEX_TECH_ARCHITECTURE_DOMAINS_README]]
+**MOC:** [[21_DOMAINS/37_TECH_ARCHITECTURE/00_INDEX/INDEX_TECH_ARCHITECTURE_DOMAINS_README|INDEX_TECH_ARCHITECTURE_DOMAINS_README]]
 
 ---
-**MOC:** [[00_INDEX_MOC]]
+**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]

@@ -934,7 +934,7 @@ The source does not specify stronger edge types.
 
 ---
 
-# 34. [[COSMO_BRAIN_MOC]]
+# 34. [[11_KNOWLEDGE/COSMO_BRAIN_MOC|COSMO_BRAIN_MOC]]
 
 The link:
 
@@ -959,7 +959,7 @@ Therefore:
 
 ---
 
-# 35. [[KNOWLEDGE_MOC]]
+# 35. [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
 
 The link:
 
@@ -2958,8 +2958,8 @@ The exact development-guidelines artifact is not supplied.
 
 ### Links
 
-- [[COSMO_BRAIN_MOC]]
-- [[KNOWLEDGE_MOC]]
+- [[11_KNOWLEDGE/COSMO_BRAIN_MOC|COSMO_BRAIN_MOC]]
+- [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
 
 ---
 
@@ -3150,8 +3150,8 @@ Those sources can determine whether the current body is intentional, misplaced, 
 
 # Navigation
 
-**Knowledge:** [[KNOWLEDGE_MOC]]
-**Brain:** [[COSMO_BRAIN_MOC]]
+**Knowledge:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
+**Brain:** [[11_KNOWLEDGE/COSMO_BRAIN_MOC|COSMO_BRAIN_MOC]]
 
 ---
 
@@ -3169,4 +3169,4 @@ Those sources can determine whether the current body is intentional, misplaced, 
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

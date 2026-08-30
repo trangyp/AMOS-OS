@@ -131,7 +131,7 @@ The workflow produces a structured result containing:
 - If skill content is insufficient: mark as UNKNOWN/GAP and fail closed.
 
 ---
-**MOC:** [[08_WORKFLOWS_MOC]]
+**MOC:** [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS_MOC]]
 
 ## Orchestration Pattern
 

@@ -136,4 +136,4 @@ Use `--ids` to bypass the tokenizer and run ids-to-ids with no checkpoint vocabu
 
 ---
 
-**MOC:** references_MOC · [[00_HOME]]
+**MOC:** references_MOC · [[00_ROOT/00_HOME|00_HOME]]

@@ -18,8 +18,8 @@ rscf:
 
 # amos environmental health kernel v0 science health2
 
-Stub note for [[amos_environmental_health_kernel_v0_science_health2]].
+Stub note for [[11_KNOWLEDGE/stubs/amos_environmental_health_kernel_v0_science_health2|amos_environmental_health_kernel_v0_science_health2]].
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

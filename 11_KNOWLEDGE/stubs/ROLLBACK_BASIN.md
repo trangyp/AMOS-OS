@@ -18,4 +18,4 @@ rscf:
 
 # ROLLBACK BASIN
 
-Stub note for [[ROLLBACK_BASIN]].
+Stub note for [[11_KNOWLEDGE/stubs/ROLLBACK_BASIN|ROLLBACK_BASIN]].

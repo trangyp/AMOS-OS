@@ -41,4 +41,4 @@ rscf:
 **Related:** SKILL
 
 ---
-**MOC:** [[amos-law-stack-enforcement_MOC]]
+**MOC:** [[07_SKILLS/amos-law-stack-enforcement/amos-law-stack-enforcement_MOC|amos-law-stack-enforcement_MOC]]

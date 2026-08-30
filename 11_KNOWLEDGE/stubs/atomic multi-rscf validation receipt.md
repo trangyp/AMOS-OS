@@ -19,8 +19,8 @@ rscf:
 
 # atomic multi-rscf validation receipt
 
-Stub note for [[atomic multi-rscf validation receipt]].
+Stub note for [[11_KNOWLEDGE/stubs/atomic multi-rscf validation receipt|atomic multi-rscf validation receipt]].
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

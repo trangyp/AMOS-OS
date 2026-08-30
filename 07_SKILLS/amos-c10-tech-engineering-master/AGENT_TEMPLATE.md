@@ -43,4 +43,4 @@ Domain master agent for AMOS C10 — Tech & Engineering Master. Consolidates 54 
 **MOC:** SKILL
 
 ---
-**MOC:** [[amos-c10-tech-engineering-master_MOC]]
+**MOC:** [[07_SKILLS/amos-c10-tech-engineering-master/amos-c10-tech-engineering-master_MOC|amos-c10-tech-engineering-master_MOC]]

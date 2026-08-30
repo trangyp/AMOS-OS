@@ -31,50 +31,50 @@ rscf:
 ## Map — 00 ROOT MAP
 Navigation map for the `00_ROOT` segment of the Root plane.
 
-- **Artifact** — [[00_HOME]]
-- **Artifact** — [[00_COSMO_BRAIN_MOC]]
-- **Artifact** — [[00_ROOT_ARCHITECTURE]]
-- **Artifact** — [[00_ROOT_AUDIT]]
-- **Artifact** — [[00_ROOT_AUTHORIZATION]]
-- **Artifact** — [[00_ROOT_BOUNDARIES]]
-- **Artifact** — [[00_ROOT_CHANGE_LOG]]
-- **Contract** — [[00_ROOT_CONTRACT]]
-- **Artifact** — [[00_ROOT_COVERAGE]]
-- **Artifact** — [[00_ROOT_DEPENDENCIES]]
-- **Artifact** — [[00_ROOT_GLOSSARY]]
-- **Artifact** — [[00_ROOT_HISTORY]]
-- **Artifact** — [[00_ROOT_IDENTITY]]
-- **Artifact** — [[00_ROOT_INTEGRATION_CHECKLIST]]
-- **Artifact** — [[00_ROOT_LIFECYCLE]]
-- **Artifact** — [[00_ROOT_MOC]]
-- **Artifact** — [[00_ROOT_NAMING_STANDARD]]
-- **Artifact** — [[00_ROOT_PROVENANCE]]
-- **Readme** — [[00_ROOT_README]]
-- **Artifact** — [[00_ROOT_REGISTRY]]
-- **Artifact** — [[00_ROOT_RELEASE_NOTES]]
-- **Artifact** — [[00_ROOT_STATUS]]
-- **Artifact** — [[00_ROOT_VERSIONING]]
-- **Artifact** — [[AMOS_LAYER_MAPS]]
-- **Artifact** — [[AMOS_RSCF_NODES]]
-- **Artifact** — [[AMOS_TEMPLATES]]
-- **Artifact** — [[ARCHITECTURE]]
-- **Artifact** — [[AUTHORITATIVE_STATE]]
-- **Artifact** — [[COGNITIVE_MATRIX_INTEGRATION]]
-- **Artifact** — [[DEPENDENCY_MAP]]
-- **Artifact** — [[FULL_TREE]]
-- **Artifact** — [[NEURAL_NETWORK]]
-- **Artifact** — [[PLACEMENT_RULES]]
+- **Artifact** — [[00_ROOT/00_HOME|00_HOME]]
+- **Artifact** — [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]
+- **Artifact** — [[00_ROOT/00_ROOT_ARCHITECTURE|00_ROOT_ARCHITECTURE]]
+- **Artifact** — [[00_ROOT/00_ROOT_AUDIT|00_ROOT_AUDIT]]
+- **Artifact** — [[00_ROOT/00_ROOT_AUTHORIZATION|00_ROOT_AUTHORIZATION]]
+- **Artifact** — [[00_ROOT/00_ROOT_BOUNDARIES|00_ROOT_BOUNDARIES]]
+- **Artifact** — [[00_ROOT/00_ROOT_CHANGE_LOG|00_ROOT_CHANGE_LOG]]
+- **Contract** — [[00_ROOT/00_ROOT_CONTRACT|00_ROOT_CONTRACT]]
+- **Artifact** — [[00_ROOT/00_ROOT_COVERAGE|00_ROOT_COVERAGE]]
+- **Artifact** — [[00_ROOT/00_ROOT_DEPENDENCIES|00_ROOT_DEPENDENCIES]]
+- **Artifact** — [[00_ROOT/00_ROOT_GLOSSARY|00_ROOT_GLOSSARY]]
+- **Artifact** — [[00_ROOT/00_ROOT_HISTORY|00_ROOT_HISTORY]]
+- **Artifact** — [[00_ROOT/00_ROOT_IDENTITY|00_ROOT_IDENTITY]]
+- **Artifact** — [[00_ROOT/00_ROOT_INTEGRATION_CHECKLIST|00_ROOT_INTEGRATION_CHECKLIST]]
+- **Artifact** — [[00_ROOT/00_ROOT_LIFECYCLE|00_ROOT_LIFECYCLE]]
+- **Artifact** — [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+- **Artifact** — [[00_ROOT/00_ROOT_NAMING_STANDARD|00_ROOT_NAMING_STANDARD]]
+- **Artifact** — [[00_ROOT/00_ROOT_PROVENANCE|00_ROOT_PROVENANCE]]
+- **Readme** — [[00_ROOT/00_ROOT_README|00_ROOT_README]]
+- **Artifact** — [[00_ROOT/00_ROOT_REGISTRY|00_ROOT_REGISTRY]]
+- **Artifact** — [[00_ROOT/00_ROOT_RELEASE_NOTES|00_ROOT_RELEASE_NOTES]]
+- **Artifact** — [[00_ROOT/00_ROOT_STATUS|00_ROOT_STATUS]]
+- **Artifact** — [[00_ROOT/00_ROOT_VERSIONING|00_ROOT_VERSIONING]]
+- **Artifact** — [[00_ROOT/AMOS_LAYER_MAPS|AMOS_LAYER_MAPS]]
+- **Artifact** — [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+- **Artifact** — [[00_ROOT/AMOS_TEMPLATES|AMOS_TEMPLATES]]
+- **Artifact** — [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
+- **Artifact** — [[00_ROOT/AUTHORITATIVE_STATE|AUTHORITATIVE_STATE]]
+- **Artifact** — [[00_ROOT/COGNITIVE_MATRIX_INTEGRATION|COGNITIVE_MATRIX_INTEGRATION]]
+- **Artifact** — [[00_ROOT/DEPENDENCY_MAP|DEPENDENCY_MAP]]
+- **Artifact** — [[00_ROOT/FULL_TREE|FULL_TREE]]
+- **Artifact** — [[00_ROOT/NEURAL_NETWORK|NEURAL_NETWORK]]
+- **Artifact** — [[00_ROOT/PLACEMENT_RULES|PLACEMENT_RULES]]
 - **Readme** — README
-- **Artifact** — [[ROADMAP]]
-- **Artifact** — [[RSCF_NODE_INDEX]]
-- **Artifact** — [[SYSTEM_MAP]]
-- **Artifact** — [[SYSTEM_MAP_V1]]
+- **Artifact** — [[00_ROOT/ROADMAP|ROADMAP]]
+- **Artifact** — [[00_ROOT/RSCF_NODE_INDEX|RSCF_NODE_INDEX]]
+- **Artifact** — [[00_ROOT/SYSTEM_MAP|SYSTEM_MAP]]
+- **Artifact** — [[00_ROOT/SYSTEM_MAP_V1|SYSTEM_MAP_V1]]
 
 ## Reading order
 1. Readme → orientation.  2. Contract → normative terms.  3. Artifacts → instances bound by the contract.
 
 ## Gaps
-This map covers its own directory only; cross-segment edges live in [[00_ROOT_MAP]] and [[AMOS_RSCF_NODES]]. Executable graph validation remains PARTIAL ([[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
+This map covers its own directory only; cross-segment edges live in [[00_ROOT/00_ROOT_MAP|00_ROOT_MAP]] and [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]. Executable graph validation remains PARTIAL ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
 ## Worked semantics
 Given an operation touching `00 ROOT MAP` within the Root plane:
 1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
@@ -94,17 +94,17 @@ Given an operation touching `00 ROOT MAP` within the Root plane:
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 ---
 
-[[00_ROOT_MOC]]|[[AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ---
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -114,4 +114,4 @@ path: 00_ROOT/00_ROOT_MAP.md
 claim_class: AMOS_MODEL
 
 ---
-**MOC:** [[00_COSMO_BRAIN_MOC]]
+**MOC:** [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]

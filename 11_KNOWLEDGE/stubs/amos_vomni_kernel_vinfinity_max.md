@@ -19,8 +19,8 @@ rscf:
 
 # amos vomni kernel vinfinity max
 
-Stub note for [[amos_vomni_kernel_vinfinity_max]].
+Stub note for [[11_KNOWLEDGE/stubs/amos_vomni_kernel_vinfinity_max|amos_vomni_kernel_vinfinity_max]].
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

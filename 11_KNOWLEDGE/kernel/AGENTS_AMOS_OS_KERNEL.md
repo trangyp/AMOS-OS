@@ -16,7 +16,7 @@ rscf:
   scope: AMOS_knowledge
 ---
 
-# [[AGENTS]] AMOS OS KERNEL — Full Canonical Expansion
+# [[AGENTS|AGENTS]] AMOS OS KERNEL — Full Canonical Expansion
 
 ## 0. Canonical Status
 
@@ -8723,7 +8723,7 @@ canonical_state:
       model assertion.
 ```
 
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
 
-**MOC:** [[KERNEL_MOC]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
 

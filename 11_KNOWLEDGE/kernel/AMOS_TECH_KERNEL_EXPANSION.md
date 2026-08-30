@@ -55,7 +55,7 @@ New workflow written to brain vault: AMOS_Tech_Kernel_Integration_Workflow.md �
 Tech kernel coverage: 20 files covering software architecture, infrastructure, security, data engineering, data science, ML engineering, DevOps, QA/testing, product management, agile delivery, business analysis, API design, automation, ETL, integration platform, observability, toolchain integration, memory optimization, and unified tech engine.
 
 ---
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES · [[FINANCE_SENSOR_KERNEL]] · [[AMOS_MEDICAL_CLINICAL_KERNEL]] · [[AMOS_PARTNERSHIPS_CHANNELS_KERNEL]] · [[ORG_GOVERNANCE_KERNEL]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES · [[11_KNOWLEDGE/kernel/FINANCE_SENSOR_KERNEL|FINANCE_SENSOR_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_MEDICAL_CLINICAL_KERNEL|AMOS_MEDICAL_CLINICAL_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_PARTNERSHIPS_CHANNELS_KERNEL|AMOS_PARTNERSHIPS_CHANNELS_KERNEL]] · [[11_KNOWLEDGE/kernel/ORG_GOVERNANCE_KERNEL|ORG_GOVERNANCE_KERNEL]]
 
 ---
-**MOC:** [[KERNEL_MOC]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

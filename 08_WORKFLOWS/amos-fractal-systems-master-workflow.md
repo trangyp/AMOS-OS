@@ -158,7 +158,7 @@ This workflow has been consolidated into `amos-fractal-systems-master-workflow.m
 Use `amos-fractal-systems-master-workflow.md` in
 
 ---
-**MOC:** [[08_WORKFLOWS_MOC]]
+**MOC:** [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS_MOC]]
 
 ## Orchestration Pattern
 

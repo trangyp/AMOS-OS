@@ -19,8 +19,8 @@ rscf:
 Defines the 26 topological planes ($F_1 \text{--} F_{26}$) of AMOS OS and their structural invariant boundaries.
 
 ## Related
-- [[_MOC]] · [[25_COGNITIVE_MATRIX_MOC]]
+- [[_MOC|_MOC]] · [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
 ---
 
-**MOC:** [[00_INDEX_MOC]] · [[00_HOME]]
+**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

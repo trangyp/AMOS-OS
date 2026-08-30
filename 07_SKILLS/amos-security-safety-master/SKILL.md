@@ -108,13 +108,13 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 The Security plane governs threat surface, fail-closed gates, attestation, and secrets status. Normative load-bearing content lives in the sibling contract(s); this readme orients navigation.
 
 ## Sibling artifacts
-- [[SECURITY_SECURITY_CONTRACT]]
+- [[18_SECURITY/SECURITY_SECURITY_CONTRACT|SECURITY_SECURITY_CONTRACT]]
 
 ## Contract discipline
 Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
 
 ## Gaps
-Executable binding PARTIAL unless an executed validation receipt exists for this subsystem ([[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
+Executable binding PARTIAL unless an executed validation receipt exists for this subsystem ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
 
 ## Worked semantics
 Given an operation touching `SECURITY · README` within the Security plane:
@@ -135,15 +135,15 @@ Given an operation touching `SECURITY · README` within the Security plane:
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
 - Recovered via operations —
 - AGENT_TEMPLATE
 
 ---
-**MOC:** [[amos-security-safety-master_MOC]]
+**MOC:** [[07_SKILLS/amos-security-safety-master/amos-security-safety-master_MOC|amos-security-safety-master_MOC]]
 
 ## Examples
 
@@ -248,11 +248,11 @@ Given an operation touching `SECURITY · README` within the Security plane:
 - `amos-security-safety-master-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
-**MOC:** [[07_SKILLS_MOC]]
+**MOC:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 RSCF-NODE
@@ -260,6 +260,6 @@ node_id: amos-security-safety-master
 node_type: skill
 path: 07_SKILLS/amos-security-safety-master/SKILL.md
 RSCF-RELATIONS:
-- INDEXED_BY: [[00_HOME]]
-- INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[07_SKILLS_MOC]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+- CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

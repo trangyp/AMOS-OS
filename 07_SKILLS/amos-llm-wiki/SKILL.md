@@ -134,9 +134,9 @@ This skill is governed by the AMOS constitutional law hierarchy. See `01_CANON/0
 - `11_KNOWLEDGE/LLM_WIKI/LLM_WIKI_MOC.md` — MOC
 - `11_KNOWLEDGE/LLM_WIKI/wiki/LLM_WIKI_INDEX.md` — index
 - `11_KNOWLEDGE/LLM_WIKI/wiki/LLM_WIKI_LOG.md` — log
-- [[amos-llm-wiki-workflow]] — bound workflow
-- [[amos-llm-wiki-agent]] — bound agent
+- [[08_WORKFLOWS/amos-llm-wiki-workflow|amos-llm-wiki-workflow]] — bound workflow
+- [[11_KNOWLEDGE/stubs/amos-llm-wiki-agent|amos-llm-wiki-agent]] — bound agent
 
 ---
 
-**MOC:** references_MOC · [[00_HOME]]
+**MOC:** references_MOC · [[00_ROOT/00_HOME|00_HOME]]

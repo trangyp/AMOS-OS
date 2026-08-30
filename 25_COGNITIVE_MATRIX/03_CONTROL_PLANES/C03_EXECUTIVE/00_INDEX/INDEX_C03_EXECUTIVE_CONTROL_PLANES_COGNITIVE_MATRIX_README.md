@@ -21,14 +21,14 @@ rscf:
 # INDEX C03 EXECUTIVE CONTROL PLANES COGNITIVE MATRIX README
 
 ## Index
-- See also — [[C03_EXECUTIVE_MAP]]
-- See also — [[CONTROL_PLANES_COGNITIVE_MATRIX_C03_EXECUTIVE_CONTRACT]]
+- See also — [[25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C03_EXECUTIVE/00_INDEX/C03_EXECUTIVE_MAP|C03_EXECUTIVE_MAP]]
+- See also — [[25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C03_EXECUTIVE/00_INDEX/CONTROL_PLANES_COGNITIVE_MATRIX_C03_EXECUTIVE_CONTRACT|CONTROL_PLANES_COGNITIVE_MATRIX_C03_EXECUTIVE_CONTRACT]]
 
 ## Indexing rule
-This index resolves by basename within its own directory. Cross-plane resolution goes through [[00_HOME]] and [[AMOS_RSCF_NODES]].
+This index resolves by basename within its own directory. Cross-plane resolution goes through [[00_ROOT/00_HOME|00_HOME]] and [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]].
 
 ## Gaps
-Automated link-integrity execution for this index is PARTIAL ([[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
+Automated link-integrity execution for this index is PARTIAL ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
 ## Worked semantics
 Given an operation touching `C03 EXECUTIVE CONTROL PLANES COGNITIVE MATRIX README` within the Cognitive Matrix plane:
 1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
@@ -48,14 +48,14 @@ Given an operation touching `C03 EXECUTIVE CONTROL PLANES COGNITIVE MATRIX READM
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 ---
 
-[[00_ROOT_MOC]]|[[AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ---
 RSCF-NODE
@@ -65,7 +65,7 @@ path: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C03_EXECUTIVE/00_INDEX/INDEX_C03_EXE
 claim_class: AMOS_MODEL
 
 ---
-**MOC:** [[00_INDEX_MOC]]
+**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]
 
 ---
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

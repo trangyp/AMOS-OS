@@ -99,7 +99,7 @@ Mixed VERIFIED + UNKNOWN claims = `DERIVED` (not all VERIFIED).
 
 ## Links (2)
 
-- [[COSMO_BRAIN_MOC]]
+- [[11_KNOWLEDGE/COSMO_BRAIN_MOC|COSMO_BRAIN_MOC]]
 - 2026_08_23_AMOS_ABI_AND_IO_TEST_EXPANSION
 - 2026_08_22_AMOS_CORE_MODULE_TEST_COVERAGE
 
@@ -240,7 +240,7 @@ runtime. These are the foundational layers beneath the governance modules.
 - **Total: 3701 verified tests** across all runtimes
 
 ## Links
-- [[COSMO_BRAIN_MOC]]
+- [[11_KNOWLEDGE/COSMO_BRAIN_MOC|COSMO_BRAIN_MOC]]
 - 2026_08_22_AMOS_ALL_249_GAPS_CLOSED
 - 2026_08_22_TYPESCRIPT_DATA_QUALITY_GOVERNANCE
 
@@ -248,11 +248,11 @@ runtime. These are the foundational layers beneath the governance modules.
 **MOC:** references_MOC
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 **MOC:** references_MOC
 
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 RSCF-NODE
@@ -260,6 +260,6 @@ node_id: arxiv-test-time-compute-scaling-rscf-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/arxiv-test-time-compute-scaling-rscf/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
-- INDEXED_BY: [[00_HOME]]
-- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

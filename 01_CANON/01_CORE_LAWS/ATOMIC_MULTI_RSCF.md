@@ -37,13 +37,13 @@ rscf:
 >
 > The substantive kernel is:
 >
-> **[[K_ATOMIC_MULTI_RSCF]]**
+> **[[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]**
 >
 > This redirect must not independently fork, redefine, or supersede the kernel.
 
 See canonical kernel:
 
-## [[K_ATOMIC_MULTI_RSCF]]
+## [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
 
 ---
 
@@ -58,7 +58,7 @@ The redirect relationship is:
         |
         | REDIRECTS_TO
         v
-[[K_ATOMIC_MULTI_RSCF]]
+[[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
 ```
 
 ### Formal Transaction Invariant
@@ -66,7 +66,7 @@ An atomic multi-RSCF transaction commits if and only if all constituent verifica
 
 $$\text{Commit}(\mathbb{T}) = 1 \iff \left(\bigwedge_{p \in \mathcal{P}} \text{Verify}(p) = 1\right) \land \left(\bigwedge_{\text{inv} \in \mathcal{I}} \text{Check}(\text{inv}) = 1\right) \land \text{CAS}(\mathcal{W}_{\text{write}}, \text{Epoch}_{\text{current}})$$
 
-Any single proof failure immediately triggers [[ROLLBACK_AND_RECOVERY_BASINS]] via [[L10_FAILURE_RECOVERY]].
+Any single proof failure immediately triggers [[01_CANON/01_CORE_LAWS/ROLLBACK_AND_RECOVERY_BASINS|ROLLBACK_AND_RECOVERY_BASINS]] via [[01_CANON/01_CORE_LAWS/L10_FAILURE_RECOVERY|L10_FAILURE_RECOVERY]].
 
 The redirect exists to preserve:
 
@@ -96,12 +96,12 @@ K_ATOMIC_MULTI_RSCF
 
 The substantive semantics of the kernel must therefore be resolved through:
 
-[[K_ATOMIC_MULTI_RSCF]]
+[[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
 
 rather than independently invented inside this redirect.
 
 > [!important] Integrity Boundary
-> Content below that explains transactional semantics, validation mechanics, rollback, provenance, confidence, MVCC/CAS, epochs, replayability, shard locality, or coordination avoidance is an **integration model** governed by [[L0_INTEGRITY]], unless separately established by authoritative kernel or canon sources.
+> Content below that explains transactional semantics, validation mechanics, rollback, provenance, confidence, MVCC/CAS, epochs, replayability, shard locality, or coordination avoidance is an **integration model** governed by [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]], unless separately established by authoritative kernel or canon sources.
 
 ---
 
@@ -376,7 +376,7 @@ DECLARED TRANSACTION CLOSURE
 ACTUAL DEPENDENCY CLOSURE
 ```
 
-This is a derived integrity requirement governed by [[L3_DEPENDENCY]].
+This is a derived integrity requirement governed by [[01_CANON/01_CORE_LAWS/L3_DEPENDENCY|L3_DEPENDENCY]].
 
 ---
 
@@ -439,12 +439,12 @@ COMPOSED TRANSACTION VALID
 A multi-RSCF transaction may additionally require:
 
 - interface compatibility
-- dependency compatibility ([[L3_DEPENDENCY]])
-- scope compatibility ([[L5_SCOPE_REGIME]])
-- regime compatibility ([[L21_EPISTEMIC_REGIME]])
-- epoch compatibility ([[L24_CAUSAL_EPOCH]])
-- provenance accounting ([[L2_PROVENANCE]])
-- confidence propagation ([[L6_UNCERTAINTY]])
+- dependency compatibility ([[01_CANON/01_CORE_LAWS/L3_DEPENDENCY|L3_DEPENDENCY]])
+- scope compatibility ([[01_CANON/01_CORE_LAWS/L5_SCOPE_REGIME|L5_SCOPE_REGIME]])
+- regime compatibility ([[01_CANON/01_CORE_LAWS/L21_EPISTEMIC_REGIME|L21_EPISTEMIC_REGIME]])
+- epoch compatibility ([[01_CANON/01_CORE_LAWS/L24_CAUSAL_EPOCH|L24_CAUSAL_EPOCH]])
+- provenance accounting ([[01_CANON/01_CORE_LAWS/L2_PROVENANCE|L2_PROVENANCE]])
+- confidence propagation ([[01_CANON/01_CORE_LAWS/L6_UNCERTAINTY|L6_UNCERTAINTY]])
 - conflict detection
 - expected-state validation
 - governance validation
@@ -485,7 +485,7 @@ S_{current}\neq S_{expected}
 ABORT
 $$
 
-This aligns naturally with [[L23_MVCC_CAS]], but the exact coupling must remain governed by its authoritative law.
+This aligns naturally with [[01_CANON/01_CORE_LAWS/L23_MVCC_CAS|L23_MVCC_CAS]], but the exact coupling must remain governed by its authoritative law.
 
 ---
 
@@ -565,7 +565,7 @@ Failure(T)
 Rollback(T)
 $$
 
-subject to the transaction's valid rollback boundary and [[L10_FAILURE_RECOVERY]] / [[ROLLBACK_AND_RECOVERY_BASINS]].
+subject to the transaction's valid rollback boundary and [[01_CANON/01_CORE_LAWS/L10_FAILURE_RECOVERY|L10_FAILURE_RECOVERY]] / [[01_CANON/01_CORE_LAWS/ROLLBACK_AND_RECOVERY_BASINS|ROLLBACK_AND_RECOVERY_BASINS]].
 
 ---
 
@@ -581,7 +581,7 @@ Rollback should restore a valid authoritative state while preserving provenance 
 
 This becomes particularly important when integrated with:
 
-[[L24_CAUSAL_EPOCH]]
+[[01_CANON/01_CORE_LAWS/L24_CAUSAL_EPOCH|L24_CAUSAL_EPOCH]]
 
 because later state transitions should not silently rewrite earlier historical verdicts.
 
@@ -694,7 +694,7 @@ INTERFACE VALIDATION
 TRANSACTION PROOF
 ```
 
-This aligns with [[L26_PROOF_COORDINATION]].
+This aligns with [[01_CANON/01_CORE_LAWS/L26_PROOF_COORDINATION|L26_PROOF_COORDINATION]].
 
 ---
 
@@ -787,7 +787,7 @@ $$
 
 because several capsules participated.
 
-A conservative AMOS integrity rule under [[L6_UNCERTAINTY]] and [[L1_EPISTEMIC]] is:
+A conservative AMOS integrity rule under [[01_CANON/01_CORE_LAWS/L6_UNCERTAINTY|L6_UNCERTAINTY]] and [[01_CANON/01_CORE_LAWS/L1_EPISTEMIC|L1_EPISTEMIC]] is:
 
 $$
 Conf(T)
@@ -1357,7 +1357,7 @@ Repeated execution without changed relevant state does not constitute recovery.
 
 The associated validation receipt node is:
 
-[[ATOMIC_MULTI_RSCF_VALIDATION_RECEIPT]]
+[[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF_VALIDATION_RECEIPT|ATOMIC_MULTI_RSCF_VALIDATION_RECEIPT]]
 
 Conceptually:
 
@@ -1365,12 +1365,12 @@ Conceptually:
 [[ATOMIC_MULTI_RSCF]]
         |
         v
-[[K_ATOMIC_MULTI_RSCF]]
+[[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
         |
         +--> transaction validation
                     |
                     v
-[[ATOMIC_MULTI_RSCF_VALIDATION_RECEIPT]]
+[[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF_VALIDATION_RECEIPT|ATOMIC_MULTI_RSCF_VALIDATION_RECEIPT]]
 ```
 
 The receipt records validation outcome.
@@ -1416,7 +1416,7 @@ where those dimensions are material.
 
 # 44. Replay Receipt Integration
 
-A transaction receipt may also support [[L22_REPLAYABILITY]] if it contains all outcome-changing information required for deterministic replay.
+A transaction receipt may also support [[01_CANON/01_CORE_LAWS/L22_REPLAYABILITY|L22_REPLAYABILITY]] if it contains all outcome-changing information required for deterministic replay.
 
 But:
 
@@ -1708,7 +1708,7 @@ without source canon.
 
 # 57. Shard-Local Fast Path
 
-A derived integration with [[L25_SHARD_LOCAL]] is:
+A derived integration with [[01_CANON/01_CORE_LAWS/L25_SHARD_LOCAL|L25_SHARD_LOCAL]] is:
 
 ```text
 TRANSACTION TOUCHES ONLY SHARD-LOCAL FACTS
@@ -2772,7 +2772,7 @@ Conceptually:
 $$
 AuthoritativeHome(AtomicMultiRSCF)
 =
-[[K_ATOMIC_MULTI_RSCF]]
+[[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
 $$
 
 The redirect is a pointer.
@@ -2841,7 +2841,7 @@ A redirect graph must terminate at an authoritative definition.
 
 If:
 
-[[K_ATOMIC_MULTI_RSCF]]
+[[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
 
 cannot be resolved:
 
@@ -2969,7 +2969,7 @@ The available redirect and historical source do **not** establish:
 
 | ID       | Priority            | Gap                                                |
 | -------- | ------------------- | -------------------------------------------------- |
-| AMR-G001 | `CRITICAL`          | Full authoritative body of [[K_ATOMIC_MULTI_RSCF]] |
+| AMR-G001 | `CRITICAL`          | Full authoritative body of [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] |
 | AMR-G002 | `CRITICAL`          | Current transaction schema                         |
 | AMR-G003 | `CRITICAL`          | Current atomic commit/finalization semantics       |
 | AMR-G004 | `CRITICAL`          | Distributed finality under partition               |
@@ -3291,7 +3291,7 @@ Tx
 e_(k+1)
 ```
 
-Exact epoch binding remains governed by [[L24_CAUSAL_EPOCH]].
+Exact epoch binding remains governed by [[01_CANON/01_CORE_LAWS/L24_CAUSAL_EPOCH|L24_CAUSAL_EPOCH]].
 
 ---
 
@@ -3626,7 +3626,7 @@ should resolve:
 [[ATOMIC_MULTI_RSCF]]
         |
         v
-[[K_ATOMIC_MULTI_RSCF]]
+[[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
 ```
 
 for substantive current law.
@@ -3654,35 +3654,35 @@ without duplicating the kernel.
 
 Required core link:
 
-[[K_ATOMIC_MULTI_RSCF]]
+[[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
 
 Related architecture:
 
-[[ATOMIC_MULTI_RSCF_REASONING]]
+[[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF_REASONING|ATOMIC_MULTI_RSCF_REASONING]]
 
 Validation:
 
-[[ATOMIC_MULTI_RSCF_VALIDATION_RECEIPT]]
+[[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF_VALIDATION_RECEIPT|ATOMIC_MULTI_RSCF_VALIDATION_RECEIPT]]
 
 Hierarchy:
 
-[[LAW_HIERARCHY]]
+[[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
 Index:
 
-[[AMOS_RSCF_NODES]]
+[[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 Home:
 
-[[00_HOME]]
+[[00_ROOT/00_HOME|00_HOME]]
 
 MOC:
 
-[[01_CORE_LAWS_MOC]]
+[[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
 
 Framework:
 
-[[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+[[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 
@@ -3703,14 +3703,14 @@ The exact path is inferred from the supplied source family unless separately con
 
 ```yaml
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_HOME]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-  - CHILD_OF: [[LAW_HIERARCHY]]
-  - REDIRECTS_TO: [[K_ATOMIC_MULTI_RSCF]]
-  - RELATED_TO: [[ATOMIC_MULTI_RSCF_REASONING]]
-  - VALIDATED_BY: [[ATOMIC_MULTI_RSCF_VALIDATION_RECEIPT]]
-  - INDEXED_BY: [[01_CORE_LAWS_MOC]]
-  - FRAMEWORK_CONTEXT: [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  - CHILD_OF: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+  - REDIRECTS_TO: [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
+  - RELATED_TO: [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF_REASONING|ATOMIC_MULTI_RSCF_REASONING]]
+  - VALIDATED_BY: [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF_VALIDATION_RECEIPT|ATOMIC_MULTI_RSCF_VALIDATION_RECEIPT]]
+  - INDEXED_BY: [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
+  - FRAMEWORK_CONTEXT: [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 ```
 
 > [!warning]
@@ -3728,7 +3728,7 @@ redirect_contract:
     type: redirect
 
   canonical_target:
-    wikilink: "[[K_ATOMIC_MULTI_RSCF]]"
+    wikilink: "[[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]"
 
   authority:
     substantive_definition: TARGET_KERNEL
@@ -3783,7 +3783,7 @@ proof_capsule:
     - redirect node identifies K_ATOMIC_MULTI_RSCF as canonical kernel
 
   dependencies:
-    - "[[K_ATOMIC_MULTI_RSCF]]"
+    - "[[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]"
 
   scope:
     corpus: AMOS
@@ -4149,21 +4149,21 @@ SPEED.
 # 165. Canonical Resolution Map
 
 ```text
-                    [[00_HOME]]
+                    [[00_ROOT/00_HOME|00_HOME]]
                         |
                         v
-               [[LAW_HIERARCHY]]
+               [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
                         |
                         v
              [[ATOMIC_MULTI_RSCF]]
                         |
                         | REDIRECTS_TO
                         v
-             [[K_ATOMIC_MULTI_RSCF]]
+             [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
                   /             \
                  /               \
                 v                 v
-[[ATOMIC_MULTI_RSCF_REASONING]]   [[ATOMIC_MULTI_RSCF_VALIDATION_RECEIPT]]
+[[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF_REASONING|ATOMIC_MULTI_RSCF_REASONING]]   [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF_VALIDATION_RECEIPT|ATOMIC_MULTI_RSCF_VALIDATION_RECEIPT]]
                  \               /
                   \             /
                    v           v
@@ -4208,7 +4208,7 @@ This map is directly normalized from the retrieved historical source.
 
 The current redirect tells consumers where to obtain substantive authority:
 
-[[K_ATOMIC_MULTI_RSCF]]
+[[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
 
 The historical v4.1 source provides meaningful architectural lineage, but it should not be silently promoted into the exact current kernel.
 
@@ -4250,7 +4250,7 @@ THE MISSING CURRENT KERNEL BODY
 >
 > Its canonical target is:
 >
-> **[[K_ATOMIC_MULTI_RSCF]]**
+> **[[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]**
 >
 > The expanded transactional architecture in this note is grounded where possible in the retrieved v4.1 Atomic Multi-RSCF lineage and otherwise explicitly treated as `DERIVED` or `MODEL`.
 >
@@ -4267,61 +4267,61 @@ THE MISSING CURRENT KERNEL BODY
 # 170. Related & Cross-Plane Navigation
 
 ### Upward & Canonical Hierarchy
-- [[00_HOME]]
-- [[00_ROOT_MOC]]
-- [[01_CORE_LAWS_MOC]]
-- [[LAW_HIERARCHY]]
-- [[AMOS_RSCF_NODES]]
+- [[00_ROOT/00_HOME|00_HOME]]
+- [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+- [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
+- [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 ### Substantive Kernel & Validation
-- [[K_ATOMIC_MULTI_RSCF]]
-- [[ATOMIC_MULTI_RSCF_REASONING]]
-- [[ATOMIC_MULTI_RSCF_VALIDATION_RECEIPT]]
+- [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
+- [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF_REASONING|ATOMIC_MULTI_RSCF_REASONING]]
+- [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF_VALIDATION_RECEIPT|ATOMIC_MULTI_RSCF_VALIDATION_RECEIPT]]
 
 ### Direct Core Law Foundations
-- [[L0_INTEGRITY]] — Base reality gate and anti-autopoisoning
-- [[L1_EPISTEMIC]] — Epistemic boundaries and claim classification
-- [[L2_PROVENANCE]] — Ancestry and independent evidence verification
-- [[L3_DEPENDENCY]] — Dependency closure and acyclic causality
-- [[L5_SCOPE_REGIME]] — Scope boundaries and operational envelopes
-- [[L6_UNCERTAINTY]] — Bounded confidence propagation
-- [[L10_FAILURE_RECOVERY]] — All-or-nothing failure semantics & rollback
-- [[L17_RSCF]] — Reality-State-Claim-Formalism substrate
-- [[L19_PROOF_CAPSULE]] — Composable verification capsules
-- [[L21_EPISTEMIC_REGIME]] — Regime transition compatibility
-- [[L22_REPLAYABILITY]] — Deterministic reproduction of state transitions
-- [[L23_MVCC_CAS]] — Transaction-level Compare-And-Swap
-- [[L24_CAUSAL_EPOCH]] — Causal epoch transition invariants
-- [[L25_SHARD_LOCAL]] — Shard locality and coordination boundaries
-- [[L26_PROOF_COORDINATION]] — Multi-proof composition and aggregation
-- [[ROLLBACK_AND_RECOVERY_BASINS]] — Controlled rollback isolation
+- [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]] — Base reality gate and anti-autopoisoning
+- [[01_CANON/01_CORE_LAWS/L1_EPISTEMIC|L1_EPISTEMIC]] — Epistemic boundaries and claim classification
+- [[01_CANON/01_CORE_LAWS/L2_PROVENANCE|L2_PROVENANCE]] — Ancestry and independent evidence verification
+- [[01_CANON/01_CORE_LAWS/L3_DEPENDENCY|L3_DEPENDENCY]] — Dependency closure and acyclic causality
+- [[01_CANON/01_CORE_LAWS/L5_SCOPE_REGIME|L5_SCOPE_REGIME]] — Scope boundaries and operational envelopes
+- [[01_CANON/01_CORE_LAWS/L6_UNCERTAINTY|L6_UNCERTAINTY]] — Bounded confidence propagation
+- [[01_CANON/01_CORE_LAWS/L10_FAILURE_RECOVERY|L10_FAILURE_RECOVERY]] — All-or-nothing failure semantics & rollback
+- [[01_CANON/01_CORE_LAWS/L17_RSCF|L17_RSCF]] — Reality-State-Claim-Formalism substrate
+- [[01_CANON/01_CORE_LAWS/L19_PROOF_CAPSULE|L19_PROOF_CAPSULE]] — Composable verification capsules
+- [[01_CANON/01_CORE_LAWS/L21_EPISTEMIC_REGIME|L21_EPISTEMIC_REGIME]] — Regime transition compatibility
+- [[01_CANON/01_CORE_LAWS/L22_REPLAYABILITY|L22_REPLAYABILITY]] — Deterministic reproduction of state transitions
+- [[01_CANON/01_CORE_LAWS/L23_MVCC_CAS|L23_MVCC_CAS]] — Transaction-level Compare-And-Swap
+- [[01_CANON/01_CORE_LAWS/L24_CAUSAL_EPOCH|L24_CAUSAL_EPOCH]] — Causal epoch transition invariants
+- [[01_CANON/01_CORE_LAWS/L25_SHARD_LOCAL|L25_SHARD_LOCAL]] — Shard locality and coordination boundaries
+- [[01_CANON/01_CORE_LAWS/L26_PROOF_COORDINATION|L26_PROOF_COORDINATION]] — Multi-proof composition and aggregation
+- [[01_CANON/01_CORE_LAWS/ROLLBACK_AND_RECOVERY_BASINS|ROLLBACK_AND_RECOVERY_BASINS]] — Controlled rollback isolation
 
 ### Universe Canon Layers
-- [[P3_KNOWLEDGE_MEMORY]] — Holographic memory & interference patterns
-- [[P4_COGNITION_MODELS]] — Multi-scale reasoning & scenario lattices
-- [[P5_GOVERNANCE_AUTHORITY]] — Governance validation & authority gates
-- [[P6_EXECUTION_AGENCY]] — Atomic action execution
-- [[P7_EVOLUTION_LEARNING]] — Governed learning & mutation limits
+- [[01_CANON/02_UNIVERSE_CANON/P3_KNOWLEDGE_MEMORY|P3_KNOWLEDGE_MEMORY]] — Holographic memory & interference patterns
+- [[01_CANON/02_UNIVERSE_CANON/P4_COGNITION_MODELS|P4_COGNITION_MODELS]] — Multi-scale reasoning & scenario lattices
+- [[01_CANON/02_UNIVERSE_CANON/P5_GOVERNANCE_AUTHORITY|P5_GOVERNANCE_AUTHORITY]] — Governance validation & authority gates
+- [[01_CANON/02_UNIVERSE_CANON/P6_EXECUTION_AGENCY|P6_EXECUTION_AGENCY]] — Atomic action execution
+- [[01_CANON/02_UNIVERSE_CANON/P7_EVOLUTION_LEARNING|P7_EVOLUTION_LEARNING]] — Governed learning & mutation limits
 
 ### Cognitive Matrix & Registries
-- [[25_COGNITIVE_MATRIX_MOC]] — 25 Cognitive Matrix Map of Content
-- [[COGNITIVE_MATRIX_README]] — Multi-dimensional conceptual routing
-- [[RSCF_X_GMEF]] — Non-compensatory evolutionary debt matrix
-- [[REALITY_X_RSCF_MATRIX]] — Reality to RSCF projection matrix
-- [[09_COMMIT_MOC]] — Strategy & Commit Control Plane
-- [[AMOS_RSCF_INDEX]] — Master index of RSCF nodes
-- [[CANON_CLAIM_REGISTRY]] — Canonical claim ledger
-- [[UBI_CLAIM_REGISTRY]] — Biological intelligence claims
+- [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]] — 25 Cognitive Matrix Map of Content
+- [[25_COGNITIVE_MATRIX/COGNITIVE_MATRIX_README|COGNITIVE_MATRIX_README]] — Multi-dimensional conceptual routing
+- [[25_COGNITIVE_MATRIX/RSCF_X_GMEF|RSCF_X_GMEF]] — Non-compensatory evolutionary debt matrix
+- [[25_COGNITIVE_MATRIX/REALITY_X_RSCF_MATRIX|REALITY_X_RSCF_MATRIX]] — Reality to RSCF projection matrix
+- [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]] — Strategy & Commit Control Plane
+- [[11_KNOWLEDGE/03_RSCF/AMOS_RSCF_INDEX|AMOS_RSCF_INDEX]] — Master index of RSCF nodes
+- [[11_KNOWLEDGE/02_CLAIMS/CANON_CLAIM_REGISTRY|CANON_CLAIM_REGISTRY]] — Canonical claim ledger
+- [[11_KNOWLEDGE/02_CLAIMS/UBI_CLAIM_REGISTRY|UBI_CLAIM_REGISTRY]] — Biological intelligence claims
 
 ### Framework & Ontology
-- [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+- [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 
-**MOC:** [[01_CORE_LAWS_MOC]]
+**MOC:** [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
 
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
-[[00_ROOT_MOC]] | [[AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] | [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 

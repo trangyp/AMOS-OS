@@ -4126,8 +4126,8 @@ for:
 Source lists:
 
 ```text
-[[00_HOME]]
-[[KNOWLEDGE_MOC]]
+[[00_ROOT/00_HOME|00_HOME]]
+[[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
 AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS
 SYSTEM_SCAN_AGENT
 AUTOMATION_PROFILES
@@ -4136,7 +4136,7 @@ AUTOMATION_PROFILES
 and:
 
 ```text
-[[KERNEL_MOC]]
+[[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
 ```
 
 These are explicit navigational relations.
@@ -4171,7 +4171,7 @@ MOC
 So a safe relation is:
 
 ```text
-MEMBER_OF / INDEXED_BY → [[KERNEL_MOC]]
+MEMBER_OF / INDEXED_BY → [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
 ```
 
 but exact RSCF edge semantics are not source-defined.
@@ -6711,12 +6711,12 @@ RSCF_NODE:
   dependencies:
     explicit: []
     navigational:
-      - [[00_HOME]]
-      - [[KNOWLEDGE_MOC]]
+      - [[00_ROOT/00_HOME|00_HOME]]
+      - [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
       - AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS
       - SYSTEM_SCAN_AGENT
       - AUTOMATION_PROFILES
-      - [[KERNEL_MOC]]
+      - [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
   unresolved:
     - executable_binding
     - validation_status
@@ -6733,15 +6733,15 @@ Everything under this proposed node beyond the source-declared RSCF values is au
 ```yaml
 RSCF_RELATIONS:
   - relation: INDEXED_BY
-    target: [[KERNEL_MOC]]
+    target: [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
     status: DERIVED_FROM_MOC_LABEL
 
   - relation: RELATED_TO
-    target: [[00_HOME]]
+    target: [[00_ROOT/00_HOME|00_HOME]]
     status: SOURCE_EXPLICIT
 
   - relation: RELATED_TO
-    target: [[KNOWLEDGE_MOC]]
+    target: [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
     status: SOURCE_EXPLICIT
 
   - relation: RELATED_TO
@@ -6802,9 +6802,9 @@ SORT file.name ASC
 
 ```markdown
 ---
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
 
-**MOC:** [[KERNEL_MOC]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
 ```
 
 This restores the intended navigational rendering without placing the links inside the JSON code fence.
@@ -6839,11 +6839,11 @@ rscf:
 
 ---
 
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
 
 ---
 
-**MOC:** [[KERNEL_MOC]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
 ```
 
 No derived fields need to be injected into the original frontmatter.

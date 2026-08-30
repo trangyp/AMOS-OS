@@ -25862,5 +25862,5 @@ rscf:
 ```
 
 ---
-**MOC:** [[KERNEL_MOC]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
 

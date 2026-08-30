@@ -42,17 +42,17 @@ World Modeling × Prediction × Reasoning Control Plane × High scale.
 
 ## Critical separation
 
-CANON != KERNEL != PRIMITIVE != AGENT != SKILL != [[WORKFLOW]] != CONTROL_PLANE
+CANON != KERNEL != PRIMITIVE != AGENT != SKILL != [[08_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW|WORKFLOW]] != CONTROL_PLANE
 
 A cell does not claim implementation merely because a candidate kernel/agent/skill/workflow can be routed to it.
 Each binding is `UNVALIDATED_BINDING` until validated by tests and provenance.
 
 ---
 
-[[00_ROOT_MOC]]|[[AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ---
-**Related:** [[00_HOME]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -60,10 +60,10 @@ node_id: index_cognitive_matrix_readme
 node_type: note
 path: 25_COGNITIVE_MATRIX/00_INDEX/INDEX_COGNITIVE_MATRIX_README.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_HOME]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 
 ---
 
-**MOC:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]
+**MOC:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

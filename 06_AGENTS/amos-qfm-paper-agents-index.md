@@ -141,7 +141,7 @@ rscf:
 - **MECE grouping**: one group per primary subject; no agent appears in more than one group.
 
 ---
-**Related:** [[00_HOME]] · `amos-agent-registry-index.md` · `AGENT-NAMING-CONVENTION.md`
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · `amos-agent-registry-index.md` · `AGENT-NAMING-CONVENTION.md`
 
 ---
-**MOC:** [[06_AGENTS_MOC]]
+**MOC:** [[06_AGENTS/06_AGENTS_MOC|06_AGENTS_MOC]]

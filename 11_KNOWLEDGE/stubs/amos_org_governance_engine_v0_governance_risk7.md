@@ -19,8 +19,8 @@ rscf:
 
 # amos org governance engine v0 governance risk7
 
-Stub note for [[amos_org_governance_engine_v0_governance_risk7]].
+Stub note for [[11_KNOWLEDGE/stubs/amos_org_governance_engine_v0_governance_risk7|amos_org_governance_engine_v0_governance_risk7]].
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

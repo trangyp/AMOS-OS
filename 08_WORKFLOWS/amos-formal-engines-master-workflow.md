@@ -158,7 +158,7 @@ This workflow has been consolidated into `amos-c08-strategy-game-master-workflow
 Use `amos-c08-strategy-game-master-workflow.md` instead. This name is retain
 
 ---
-**MOC:** [[08_WORKFLOWS_MOC]]
+**MOC:** [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS_MOC]]
 
 ## Orchestration Pattern
 

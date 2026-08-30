@@ -212,7 +212,7 @@ Atomic Design taught the industry how to build consistent, modular interfaces at
 **Living Atomic Design** takes the next essential step — teaching us how to build responsible, coherent, self-correcting systems that protect human regulation, preserve structural integrity across scale, detect and repair degradation, account for planetary and social consequence, and execute with meaningful governance.
 The future of design systems will not be judged only by how efficiently they scale interfaces, but by how responsibly they shape human behavior, system behavior, and planetary outcomes.
 **Living Atomic Design is the maturation of Atomic Design for the AI era.**
-\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL]] · [[SYSTEM_SCAN_ENGINE]] · [[automation_profiles]]
+\--- **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/kernel/AMOS_SIMULATION_KERNEL|AMOS_SIMULATION_KERNEL]] · [[11_KNOWLEDGE/engine/SYSTEM_SCAN_ENGINE|SYSTEM_SCAN_ENGINE]] · [[11_KNOWLEDGE/stubs/automation_profiles|automation_profiles]]
 
 ---
-**MOC:** [[trang_MOC]]
+**MOC:** [[11_KNOWLEDGE/trang/trang_MOC|trang_MOC]]

@@ -2245,8 +2245,8 @@ Ghi nhận thông lượng giao dịch đạt 250,000 ops/sec với 0% mất má
 
 ## 4. LIÊN KẾT LIÊN BẢNG & DANH MỤC TÀI LIỆU THAM KHẢO WIKILINKS
 
-- **Hạt nhân Liên quan:** [[K_CORE_LAWS]] · [[K_AUTHORITY]] · [[K_FAIL_CLOSED]] · [[K_EVENT_BUS]]
-- **MOCs Điều hướng:** [[00_HOME]] · [[00_ROOT_MOC]] · [[02_KERNEL_MOC]] · [[03_CONTROL_PLANE_MOC]]
+- **Hạt nhân Liên quan:** [[02_KERNEL/K_CORE_LAWS|K_CORE_LAWS]] · [[02_KERNEL/K_AUTHORITY|K_AUTHORITY]] · [[02_KERNEL/K_FAIL_CLOSED|K_FAIL_CLOSED]] · [[02_KERNEL/04_STATE/K_EVENT_BUS|K_EVENT_BUS]]
+- **MOCs Điều hướng:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]] · [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
 
 ---
 **Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS

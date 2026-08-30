@@ -84,9 +84,9 @@ $$i_{\text{TSS}} = [H(1-\Omega)(1-F)(1-S)]^{1/4}, \quad e = i_{\text{TSS}}^2$$
 
 # 2. Inter-Plane & Vault Connections
 
-- **TSS Master:** [[TSS_THE_TRANG_SYSTEM]]
+- **TSS Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM|TSS_THE_TRANG_SYSTEM]]
 - **Strategy MOC:** 04_STRATEGY_MOC
-- **Cognitive Matrix:** [[AMOS_X_TSS]]
+- **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/AMOS_X_TSS|AMOS_X_TSS]]
 
 ---
 
@@ -110,7 +110,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[TSS_THE_TRANG_SYSTEM]] · [[AMOS_X_TSS]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM|TSS_THE_TRANG_SYSTEM]] · [[25_COGNITIVE_MATRIX/AMOS_X_TSS|AMOS_X_TSS]]
 
 ---
 **MOC:** 04_STRATEGY_MOC

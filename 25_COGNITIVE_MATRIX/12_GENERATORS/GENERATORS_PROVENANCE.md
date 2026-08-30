@@ -3411,7 +3411,7 @@ NON_AUTHORITATIVE
 The intended separation across `12_GENERATORS` is now:
 
 ```text
-[[GENERATOR_CONTRACT]].md
+[[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_CONTRACT|GENERATOR_CONTRACT]].md
 → what a Generator is allowed/expected to do
 
 PROVENANCE.md
@@ -3423,10 +3423,10 @@ VALIDATION.md
 TESTS.md
 → executable evidence for those properties
 
-[[ROADMAP]].md
+[[00_ROOT/ROADMAP|ROADMAP]].md
 → sequencing and maturity path
 
-11_VALIDATION/[[PROMOTION_GATES]].md
+11_VALIDATION/[[25_COGNITIVE_MATRIX/11_VALIDATION/PROMOTION_GATES|PROMOTION_GATES]].md
 → whether validated candidates may advance lifecycle state
 
 CONTROL PLANE / AUTHORITY

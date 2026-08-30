@@ -23,20 +23,20 @@ rscf:
 
 ## Files
 
-- [[AGENT-NAMING-CONVENTION]]
-- [[AGENTS_AGENT_CONTRACT]]
-- [[AGENTS_README]]
-- [[AGENT_FIX_REASONING_BRAIN]]
-- [[amos-agent-registry-index]]
-- [[amos-qfm-paper-agents-index]]
+- [[06_AGENTS/AGENT-NAMING-CONVENTION|AGENT-NAMING-CONVENTION]]
+- [[06_AGENTS/AGENTS_AGENT_CONTRACT|AGENTS_AGENT_CONTRACT]]
+- [[06_AGENTS/AGENTS_README|AGENTS_README]]
+- [[06_AGENTS/AGENT_FIX_REASONING_BRAIN|AGENT_FIX_REASONING_BRAIN]]
+- [[06_AGENTS/amos-agent-registry-index|amos-agent-registry-index]]
+- [[06_AGENTS/amos-qfm-paper-agents-index|amos-qfm-paper-agents-index]]
 
 ## Subdirectories
 
-- [[00_INDEX_MOC]] — 00_INDEX
+- [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
 - `amos-flow-auditor-agent/` (no markdown)
 - `amos-law-stack-gate-agent/` (no markdown)
 
 ---
-**Parent:** [[AMOS_HOME]]
+**Parent:** [[AMOS_HOME|AMOS_HOME]]
 
 - amos-7-part-universe-canon-agent

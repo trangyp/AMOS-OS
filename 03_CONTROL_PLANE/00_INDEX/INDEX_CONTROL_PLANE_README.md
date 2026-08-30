@@ -19,7 +19,7 @@ rscf:
 ---
 artifact_id: AMOS-OS-CONTROL-PLANE-README
 title: AMOS OS Control Plane
-canonical_name: [[CONTROL_PLANE_README]]
+canonical_name: [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
 
 artifact_class: INDEX_GUIDE
 plane: CONTROL_PLANE
@@ -33,7 +33,7 @@ conclusion_class: DERIVED
 
 parent_layer: 03_CONTROL_PLANE
 sibling_index:
-  - [[CONTROL_PLANE_MAP]].md
+  - [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP|CONTROL_PLANE_MAP]].md
 
 upstream:
   - 00_ROOT
@@ -3534,10 +3534,10 @@ This version is aligned to the actual `03_CONTROL_PLANE` tree in `FULL_TREE.md`,
 
 ---
 
-[[00_ROOT_MOC]]|[[AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ---
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -3545,14 +3545,14 @@ node_id: index_control_plane_readme
 node_type: note
 path: 03_CONTROL_PLANE/00_INDEX/INDEX_CONTROL_PLANE_README.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_HOME]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 
 ## Files
 
-- [[CONTROL_PLANE_MAP]]
+- [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP|CONTROL_PLANE_MAP]]
 
 ---
-**MOC:** [[00_INDEX_MOC]]
+**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]
 

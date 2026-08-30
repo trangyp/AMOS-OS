@@ -21,7 +21,7 @@ rscf:
 
 > **Source**: AMOS_OS Obsidian vault and Cosmo Brain vault (`_00_Cosmo brain/`)
 
-## 1. Tensor Compatibility Invariant ([[TENSOR_CONTRACTS]].md)
+## 1. Tensor Compatibility Invariant ([[11_KNOWLEDGE/TENSOR_CONTRACTS|TENSOR_CONTRACTS]].md)
 
 The canonical tensor contracts define 6 typed tensors:
 
@@ -143,7 +143,7 @@ Each domain has explicit anti-overclaim firewalls that must be preserved across 
 - C11: "Aesthetic judgments are VALUES, not FACTS"
 - C12: "A project is not ecologically beneficial merely because it contains vegetation (greenwashing firewall)"
 
-## 9. Relation Tensor ([[RELATION_TENSOR]].md)
+## 9. Relation Tensor ([[11_KNOWLEDGE/RELATION_TENSOR|RELATION_TENSOR]].md)
 
 The relation tensor R_ij represents typed relations between AMOS objects:
 
@@ -185,14 +185,14 @@ Each engine produces typed tensors that must pass compatibility validation befor
 
 ## Related
 
-- [[07_SKILLS_MOC]]
+- [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 **MOC:** references_MOC
 
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 RSCF-NODE
@@ -200,6 +200,6 @@ node_id: amos-cross-domain-tensor-composition-governor-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-cross-domain-tensor-composition-governor/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
-- INDEXED_BY: [[00_HOME]]
-- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

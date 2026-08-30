@@ -83,5 +83,5 @@ The full canonical inventory is in `SkillIndex.md` and `skill-catalog.md`. A few
 3. Any new skill must map to an EMPTY part before filling a PARTIALLY-FILLED part
 
 ---
-**MOC:** [[07_SKILLS_MOC]]
+**MOC:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 

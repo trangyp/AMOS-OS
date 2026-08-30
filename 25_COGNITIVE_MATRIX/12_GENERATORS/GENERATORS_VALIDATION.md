@@ -3135,13 +3135,13 @@ READ_ONLY_BY_DEFAULT
 The central relationship should remain:
 
 ```text
-12_GENERATORS/[[GENERATOR_CONTRACT]].md
+12_GENERATORS/[[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_CONTRACT|GENERATOR_CONTRACT]].md
           ↓ defines generator semantics
 
 12_GENERATORS/VALIDATION.md
           ↓ validates generator + output
 
-11_VALIDATION/[[PROMOTION_GATES]].md
+11_VALIDATION/[[25_COGNITIVE_MATRIX/11_VALIDATION/PROMOTION_GATES|PROMOTION_GATES]].md
           ↓ decides promotion eligibility
 
 CONTROL PLANE / AUTHORITY

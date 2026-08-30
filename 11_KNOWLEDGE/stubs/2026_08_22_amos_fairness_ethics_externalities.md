@@ -18,8 +18,8 @@ rscf:
 
 # 2026 08 22 amos fairness ethics externalities
 
-Stub note for [[2026_08_22_amos_fairness_ethics_externalities]].
+Stub note for [[11_KNOWLEDGE/stubs/2026_08_22_amos_fairness_ethics_externalities|2026_08_22_amos_fairness_ethics_externalities]].
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

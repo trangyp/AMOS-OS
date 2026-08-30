@@ -156,7 +156,7 @@ TPE works because it focuses on forces that do not change across time: pressure,
 ## **10\. Summary**
 The Trang Prediction Engine™ is a universal forecasting architecture that translates the structural rules of the Trang System™ into actionable insights. It identifies where systems stand, how they are drifting, which transitions are emerging, and which outcomes are structurally available. TPE does not attempt perfect foresight; it delivers structural foresight, which is more powerful and reliable across long timelines. It is built for decision-makers navigating uncertainty, complexity, and rapid change. It is the first forecasting engine designed to function across organizations, governments, markets, and civilizations with one unified structure.
 * * *
-\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL]] · [[SYSTEM_SCAN_ENGINE]] · [[automation_profiles]]
+\--- **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/kernel/AMOS_SIMULATION_KERNEL|AMOS_SIMULATION_KERNEL]] · [[11_KNOWLEDGE/engine/SYSTEM_SCAN_ENGINE|SYSTEM_SCAN_ENGINE]] · [[11_KNOWLEDGE/stubs/automation_profiles|automation_profiles]]
 
 ---
-**MOC:** [[trang_MOC]]
+**MOC:** [[11_KNOWLEDGE/trang/trang_MOC|trang_MOC]]

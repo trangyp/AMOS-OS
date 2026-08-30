@@ -113,7 +113,7 @@ Retrieval is modeled as graph traversal with path provenance. Failure is separat
 > The Obsidian vault IS the brain. This bridge module provides programmatic access to the vault as durable, queryable memory. 43 self-tests pass; 0 failures. 0 KB orphans.
 >
 > Source: `cosmo-brain/AMOS_OBSIDIAN_MEMORY_BRIDGE.py`
-> See also: [[COSMO_BRAIN_MOC]] · 2026_08_22_AMOS_GO_BOARD_19X19_FORMAL_SYSTEM
+> See also: [[11_KNOWLEDGE/COSMO_BRAIN_MOC|COSMO_BRAIN_MOC]] · 2026_08_22_AMOS_GO_BOARD_19X19_FORMAL_SYSTEM
 
 ## 1. Architecture
 
@@ -263,11 +263,11 @@ python3
 ```
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 **MOC:** references_MOC
 
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 RSCF-NODE
@@ -275,6 +275,6 @@ node_id: amos-action-memory-firewall-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-action-memory-firewall/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
-- INDEXED_BY: [[00_HOME]]
-- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

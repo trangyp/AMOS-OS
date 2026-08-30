@@ -19,8 +19,8 @@ rscf:
 Specifies Higher-Order \(H\), Meso-Level \(M\), and Local-Evidence \(L\) scale partitioning across the AMOS cognitive architecture.
 
 ## Related
-- [[KHUNG_TRANG_CANON]] · [[02_UNIVERSE_CANON_MOC]]
+- [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_CANON|KHUNG_TRANG_CANON]] · [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]
 
 ---
 
-**MOC:** [[00_INDEX_MOC]] · [[00_HOME]]
+**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

@@ -438,7 +438,7 @@ Select specialized skills only when relevant:
 - `amos-neurosync-deterministic-architecture`: 5-tier deterministic AI alignment (Interface Conditions, Trainer Profile, Operational Principles, Audit Anchors, Metacognitive Loop™). Use when designing deterministic AI systems.
 - `amos-certifiable-intelligence-infrastructure`: 4 GenAI failure modes, 4 deterministic enforcement functions, biological blueprint. Use for certifiable AI deployment in mission-critical environments.
 - `amos-planetary-consent-infrastructure`: 67 actor types, 98 consent types, 60 lifecycle phases, 6 ecosystems, 308+ trillion daily decisions. Use for planetary-scale consent governance.
-- `amos-living-stack-architecture`: Cognitive Reef — tasks as signals, role mutation, 6 integrated frameworks ([[RATPAK]], NEUROPAK, HoloOrg, MyNeuralSignal, FAR-CAGE, ConsentX). Use for outcome-driven orchestration.
+- `amos-living-stack-architecture`: Cognitive Reef — tasks as signals, role mutation, 6 integrated frameworks ([[11_KNOWLEDGE/05_FRAMEWORKS/RATPAK|RATPAK]], NEUROPAK, HoloOrg, MyNeuralSignal, FAR-CAGE, ConsentX). Use for outcome-driven orchestration.
 - `amos-vietnamese-root-language`: 7-tone phonemic structure as multisensory compression algorithm, 5 scientific properties, gốc từ as bio-cognitive packets. Use for Vietnamese linguistic/biological reasoning.
 - `amos-biological-science-buddha`: Buddha's teachings translated into UBI — peace as nervous system function, trauma as reversible biological loop, Metacognitive Loop™. Use for biological-spiritual bridge reasoning.
 - `amos-human-systems-engine`: 8-layer HSE (human→team→org→market→infra→power→risk→prediction), 27 archetypes, A/B/C/D types, Vietnam-specific risks. Use for human systems analysis.
@@ -946,7 +946,7 @@ Total brain-spec skills: 244
 - `amos-world-model-system`
 
 ---
-**Related:** [[00_HOME]] · generated_architecture · AMOS_quantum_library_v0.1.0 · PRIVACY_POLICY
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · generated_architecture · AMOS_quantum_library_v0.1.0 · PRIVACY_POLICY
 
 ---
 ```RSCF-NODE
@@ -962,10 +962,10 @@ claim_class: AMOS_MODEL
 ```
 
 ---
-**MOC:** [[AMOS_HOME]]
+**MOC:** [[AMOS_HOME|AMOS_HOME]]
 
 ---
-**MOC:** [[_MOC]]
+**MOC:** [[_MOC|_MOC]]
 
 ---
 **Vault root links:** [[00_ROOT/README|README.md]] · [[11_KNOWLEDGE/stubs/19|Stubs 19]]

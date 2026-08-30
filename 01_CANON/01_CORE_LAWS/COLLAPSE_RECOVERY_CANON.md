@@ -1374,7 +1374,7 @@ Finality must remain scoped and typed.
 If a shard-local finalized state becomes invalid:
 
 ```text
-[[LOCAL_FINALITY]]
+[[11_KNOWLEDGE/stubs/LOCAL_FINALITY|LOCAL_FINALITY]]
 ↓
 INVALIDATING EVENT
 ↓

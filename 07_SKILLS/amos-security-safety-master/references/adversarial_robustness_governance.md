@@ -91,7 +91,7 @@ Implemented the Adversarial Robustness governance module for the AMOS OS Kernel,
 
 - 2026-08-22 Distributed Consensus Governance
 - 2026-08-22 Cognitive Substrate Interface Coupling
-- [[COSMO_BRAIN_MOC]]
+- [[11_KNOWLEDGE/COSMO_BRAIN_MOC|COSMO_BRAIN_MOC]]
 
 #adversarial-robustness #governance #gaps-210-216 #closed #amos-os-kernel
 
@@ -99,11 +99,11 @@ Implemented the Adversarial Robustness governance module for the AMOS OS Kernel,
 **MOC:** references_MOC
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 **MOC:** references_MOC
 
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 RSCF-NODE
@@ -111,6 +111,6 @@ node_id: amos-security-safety-master-adversarial-robustness-governance
 node_type: reference
 path: 07_SKILLS/amos-security-safety-master/references/adversarial_robustness_governance.md
 RSCF-RELATIONS:
-- INDEXED_BY: [[00_HOME]]
-- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

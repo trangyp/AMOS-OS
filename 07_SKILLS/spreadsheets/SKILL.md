@@ -146,11 +146,11 @@ This utility skill is an operational tool. It does not prove content correctness
 - `engine/T/Tech Engine__Archive.md` — Tech Engine__Archive (92349 chars,
 
 ---
-**Links:** [[07_SKILLS_MOC]]
+**Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
 
-- [[spreadsheets_MOC]]
+- [[07_SKILLS/spreadsheets/spreadsheets_MOC|spreadsheets_MOC]]
 
 ## Examples
 
@@ -229,11 +229,11 @@ This utility skill is an operational tool. It does not prove content correctness
 - `spreadsheets-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
-**MOC:** [[07_SKILLS_MOC]]
+**MOC:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 RSCF-NODE
@@ -241,6 +241,6 @@ node_id: spreadsheets
 node_type: skill
 path: 07_SKILLS/spreadsheets/SKILL.md
 RSCF-RELATIONS:
-- INDEXED_BY: [[00_HOME]]
-- INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[07_SKILLS_MOC]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+- CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

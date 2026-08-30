@@ -48,7 +48,7 @@ The **AMOS Unified OS Agent** (`AMOS_UNIFIED_OS_AGENT_MERGED`) serves as the mas
 - **AMOS_KERNEL_CONFIG & ROUTING**: Dynamically loads specialized sub-kernels (e.g., `K_TECH_ENGINE`, `K_MIND_BEHAVIOR`) based on the detected intent and tags of the task.
 
 ## Links
-- [[COSMO_BRAIN_MOC]]
+- [[11_KNOWLEDGE/COSMO_BRAIN_MOC|COSMO_BRAIN_MOC]]
 - Mind_OS_Model
 - Cognition_Engine_Model
 
@@ -56,11 +56,11 @@ The **AMOS Unified OS Agent** (`AMOS_UNIFIED_OS_AGENT_MERGED`) serves as the mas
 **MOC:** references_MOC
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 **MOC:** references_MOC
 
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 RSCF-NODE
@@ -68,6 +68,6 @@ node_id: amos-agent-systems-master-os-agent-model
 node_type: reference
 path: 07_SKILLS/amos-agent-systems-master/references/os_agent_model.md
 RSCF-RELATIONS:
-- INDEXED_BY: [[00_HOME]]
-- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

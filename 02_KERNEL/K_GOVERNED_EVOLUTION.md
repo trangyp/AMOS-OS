@@ -2213,8 +2213,8 @@ Theo dõi nợ kỹ thuật và độ lệch kiến trúc tại phân vùng #144
 
 ## 3. LIÊN KẾT LIÊN BẢNG & DANH MỤC TÀI LIỆU THAM KHẢO WIKILINKS
 
-- **Hạt nhân Liên quan:** [[K_CORE_LAWS]] · [[K_GMEF]] · [[K_FAIL_CLOSED]] · [[K_GOVERNANCE]]
-- **MOCs Điều hướng:** [[00_HOME]] · [[00_ROOT_MOC]] · [[02_KERNEL_MOC]]
+- **Hạt nhân Liên quan:** [[02_KERNEL/K_CORE_LAWS|K_CORE_LAWS]] · [[02_KERNEL/09_INTEGRATION/K_GMEF|K_GMEF]] · [[02_KERNEL/K_FAIL_CLOSED|K_FAIL_CLOSED]] · [[02_KERNEL/K_GOVERNANCE|K_GOVERNANCE]]
+- **MOCs Điều hướng:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
 
 ---
 **Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS

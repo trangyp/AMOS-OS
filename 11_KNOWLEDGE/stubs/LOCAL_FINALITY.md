@@ -18,4 +18,4 @@ rscf:
 
 # LOCAL FINALITY
 
-Stub note for [[LOCAL_FINALITY]].
+Stub note for [[11_KNOWLEDGE/stubs/LOCAL_FINALITY|LOCAL_FINALITY]].

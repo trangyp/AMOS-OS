@@ -31,11 +31,11 @@ Map-of-content for the Obsidian vault Markdown formatting skill.
 
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · SKILL
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · SKILL
 
-**MOC:** [[07_SKILLS_MOC]]
+**MOC:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 RSCF-NODE
@@ -43,9 +43,9 @@ node_id: amos-mdformat-obsidian_moc
 node_type: moc
 path: 07_SKILLS/amos-mdformat-obsidian/amos-mdformat-obsidian_MOC.md
 RSCF-RELATIONS:
-- INDEXED_BY: [[00_HOME]]
-- INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[07_SKILLS_MOC]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+- CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ---
 **References MOC:** [[07_SKILLS/amos-mdformat-obsidian/references/references_MOC|references_MOC]]

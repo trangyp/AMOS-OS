@@ -2214,8 +2214,8 @@ Giao diện chuyển pha giữa Tầng N và Tầng N+1 tại phân vùng #144.
 
 ## 3. LIÊN KẾT LIÊN BẢNG & DANH MỤC TÀI LIỆU THAM KHẢO WIKILINKS
 
-- **Hạt nhân Liên quan:** [[K_CORE_LAWS]] · [[ULK_LOGIC_KERNEL]] · [[K_REALITY]] · [[TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL]]
-- **MOCs Điều hướng:** [[00_HOME]] · [[00_ROOT_MOC]] · [[02_KERNEL_MOC]]
+- **Hạt nhân Liên quan:** [[02_KERNEL/K_CORE_LAWS|K_CORE_LAWS]] · [[02_KERNEL/ULK_LOGIC_KERNEL|ULK_LOGIC_KERNEL]] · [[02_KERNEL/K_REALITY|K_REALITY]] · [[11_KNOWLEDGE/trang/TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL|TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL]]
+- **MOCs Điều hướng:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
 
 ---
 **Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS

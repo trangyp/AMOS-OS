@@ -1425,7 +1425,7 @@ Every use of an equation inherits its applicability envelope.
 
 ```yaml
 applicability:
-  framework: [[KHUNG_TRANG]]
+  framework: [[11_KNOWLEDGE/trang/KHUNG_TRANG|KHUNG_TRANG]]
   system:
   domain:
   environment:
@@ -1647,7 +1647,7 @@ No interpretation is promoted solely because it appears intuitively plausible.
 Every consequential equation use SHOULD carry:
 
 ```yaml
-EQUATION_[[L19_PROOF_CAPSULE]]:
+EQUATION_[[01_CANON/01_CORE_LAWS/L19_PROOF_CAPSULE|L19_PROOF_CAPSULE]]:
 
   equation_id:
   equation_version:
@@ -1722,11 +1722,11 @@ This is an AMOS epistemic governance rule, not a universal probability theorem.
 The current provenance declared by this artifact is:
 
 ```text
-01_CANON/[[01_CANON_MOC]]
+01_CANON/[[01_CANON/01_CANON_MOC|01_CANON_MOC]]
             │
             ├──────────────┐
             ▼              ▼
-[[KHUNG_TRANG_MASTER]]   [[AMOS_X_TRANG_REALITY]]
+[[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER|KHUNG_TRANG_MASTER]]   [[25_COGNITIVE_MATRIX/AMOS_X_TRANG_REALITY|AMOS_X_TRANG_REALITY]]
             │              │
             └──────┬───────┘
                    ▼
@@ -1754,7 +1754,7 @@ SOURCE EQUATION REGISTRY
         │
         │ governed by
         ▼
-[[KHUNG_TRANG_EQUATIONS_CANON]]
+[[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_EQUATIONS_CANON|KHUNG_TRANG_EQUATIONS_CANON]]
         │
         ├── dimensional consistency
         ├── entropy non-accumulation
@@ -1770,7 +1770,7 @@ KHUNG_TRANG_EQUATIONS
 =
 WHAT THE EQUATION REGISTRY CONTAINS
 
-[[KHUNG_TRANG_EQUATIONS_CANON]]
+[[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_EQUATIONS_CANON|KHUNG_TRANG_EQUATIONS_CANON]]
 =
 HOW THOSE EQUATIONS ARE GOVERNED
 ```
@@ -1782,7 +1782,7 @@ HOW THOSE EQUATIONS ARE GOVERNED
 The declared provenance includes:
 
 ```text
-01_CANON/02_UNIVERSE_CANON/[[KHUNG_TRANG_MASTER]]
+01_CANON/02_UNIVERSE_CANON/[[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER|KHUNG_TRANG_MASTER]]
 ```
 
 Therefore this registry SHOULD preserve source-level equation lineage back to the master framework.
@@ -1956,9 +1956,9 @@ RSCF:
         SOURCE_DEPENDENT
 
   provenance:
-    - 01_CANON/[[01_CANON_MOC]]
-    - 01_CANON/02_UNIVERSE_CANON/[[KHUNG_TRANG_MASTER]]
-    - 25_COGNITIVE_MATRIX/[[AMOS_X_TRANG_REALITY]]
+    - 01_CANON/[[01_CANON/01_CANON_MOC|01_CANON_MOC]]
+    - 01_CANON/02_UNIVERSE_CANON/[[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER|KHUNG_TRANG_MASTER]]
+    - 25_COGNITIVE_MATRIX/[[25_COGNITIVE_MATRIX/AMOS_X_TRANG_REALITY|AMOS_X_TRANG_REALITY]]
 
   confidence_ceiling:
     source_model:
@@ -2410,22 +2410,22 @@ ESTABLISHED_VIA_VALIDATION_SUITE
 
 RSCF-RELATIONS:
 
-  - INDEXED_BY: [[00_HOME]]
+  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 
   - INDEXED_BY:
-      [[02_UNIVERSE_CANON_MOC]]
+      [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]
 
   - DERIVED_FROM:
-      [[KHUNG_TRANG_MASTER]]
+      [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER|KHUNG_TRANG_MASTER]]
 
   - PROVENANCE:
-      [[01_CANON_MOC]]
+      [[01_CANON/01_CANON_MOC|01_CANON_MOC]]
 
   - PROVENANCE:
-      [[AMOS_X_TRANG_REALITY]]
+      [[25_COGNITIVE_MATRIX/AMOS_X_TRANG_REALITY|AMOS_X_TRANG_REALITY]]
 
   - GOVERNED_BY:
-      [[KHUNG_TRANG_EQUATIONS_CANON]]
+      [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_EQUATIONS_CANON|KHUNG_TRANG_EQUATIONS_CANON]]
 
   - CONTAINS:
       KT-EQ-001
@@ -2458,7 +2458,7 @@ One mathematically material issue is preserved rather than silently repaired: in
 
 ---
 
-**MOC:** [[00_INDEX_MOC]] · [[00_HOME]]
+**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
 
 ```
 ```

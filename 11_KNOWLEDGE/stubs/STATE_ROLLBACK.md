@@ -18,4 +18,4 @@ rscf:
 
 # STATE ROLLBACK
 
-Stub note for [[STATE_ROLLBACK]].
+Stub note for [[11_KNOWLEDGE/stubs/STATE_ROLLBACK|STATE_ROLLBACK]].

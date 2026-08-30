@@ -16,8 +16,8 @@ rscf:
 
 # bizfin engine v0
 
-Stub note for [[bizfin_engine_v0]].
+Stub note for [[11_KNOWLEDGE/stubs/bizfin_engine_v0|bizfin_engine_v0]].
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

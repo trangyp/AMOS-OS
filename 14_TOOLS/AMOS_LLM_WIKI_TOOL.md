@@ -45,10 +45,10 @@ If YAML frontmatter is added to wiki pages, Dataview can render dynamic tables o
 
 ## Related
 
-- [[AMOS_LLM_WIKI]]
-- [[LLM_WIKI_MOC]]
-- [[_MOC]]
+- [[00_ROOT/AMOS_LLM_WIKI|AMOS_LLM_WIKI]]
+- [[11_KNOWLEDGE/LLM_WIKI/LLM_WIKI_MOC|LLM_WIKI_MOC]]
+- [[_MOC|_MOC]]
 
 ---
-**MOC:** [[14_TOOLS_MOC]]
+**MOC:** [[14_TOOLS/14_TOOLS_MOC|14_TOOLS_MOC]]
 

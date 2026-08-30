@@ -372,7 +372,7 @@ The technical foundation is solid and production-ready. With the remaining API c
 *Status: PHASE 1 READY with CLEAR PATH TO PRODUCTION*
 
 ---
-**Related:** [[00_HOME]] · generated_architecture · AMOS_quantum_library_v0.1.0 · PRIVACY_POLICY
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · generated_architecture · AMOS_quantum_library_v0.1.0 · PRIVACY_POLICY
 
 ---
 ```RSCF-NODE
@@ -388,8 +388,8 @@ claim_class: AMOS_MODEL
 ```
 
 ---
-**MOC:** [[AMOS_HOME]]
+**MOC:** [[AMOS_HOME|AMOS_HOME]]
 
 ---
-**MOC:** [[_MOC]]
+**MOC:** [[_MOC|_MOC]]
 

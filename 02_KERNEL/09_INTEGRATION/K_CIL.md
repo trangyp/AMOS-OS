@@ -2206,8 +2206,8 @@ Kênh #144 duy trì sự liên kết phi khóa giữa các phân hệ.
 
 ## 3. LIÊN KẾT LIÊN BẢNG & DANH MỤC TÀI LIỆU THAM KHẢO WIKILINKS
 
-- **Hạt nhân Liên quan:** [[K_BINDING]] · [[K_CORE_LAWS]] · [[K_GMEF]] · [[ULK_LOGIC_KERNEL]]
-- **MOCs Điều hướng:** [[00_HOME]] · [[00_ROOT_MOC]] · [[02_KERNEL_MOC]] · [[09_INTEGRATION_MOC]]
+- **Hạt nhân Liên quan:** [[02_KERNEL/09_INTEGRATION/K_BINDING|K_BINDING]] · [[02_KERNEL/K_CORE_LAWS|K_CORE_LAWS]] · [[02_KERNEL/09_INTEGRATION/K_GMEF|K_GMEF]] · [[02_KERNEL/ULK_LOGIC_KERNEL|ULK_LOGIC_KERNEL]]
+- **MOCs Điều hướng:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]] · [[02_KERNEL/09_INTEGRATION/09_INTEGRATION_MOC|09_INTEGRATION_MOC]]
 
 ---
 **Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS

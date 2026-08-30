@@ -112,7 +112,7 @@ TSS does not predict precise dates or individual behaviours. It respects scienti
 ## **12\. Summary**
 The Trang System™ is a comprehensive framework that explains the dynamics of human-linked systems through a universal structure. With four variables, seven developmental cycles, and four possible outcomes, it provides clarity and coherence to understanding how systems evolve. TSS creates a shared language accessible to analysts, policymakers, and researchers across disciplines. It enables structural understanding that supports prediction, decision-making, crisis prevention, and sustainable long-term governance.
 * * *
-\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL]] · [[SYSTEM_SCAN_ENGINE]] · [[automation_profiles]]
+\--- **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/kernel/AMOS_SIMULATION_KERNEL|AMOS_SIMULATION_KERNEL]] · [[11_KNOWLEDGE/engine/SYSTEM_SCAN_ENGINE|SYSTEM_SCAN_ENGINE]] · [[11_KNOWLEDGE/stubs/automation_profiles|automation_profiles]]
 
 ---
-**MOC:** [[trang_MOC]]
+**MOC:** [[11_KNOWLEDGE/trang/trang_MOC|trang_MOC]]

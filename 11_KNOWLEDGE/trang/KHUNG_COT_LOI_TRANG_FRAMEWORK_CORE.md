@@ -141,7 +141,7 @@ $$Và các hằng số riêng: \$$\theta_{\text{hallucination}}=0,3,\; \theta_{\
 **Kết luận formal:**
 Trang ∅ Framework trình bày một **hệ thống phương trình và khái niệm hoàn chỉnh** , trong đó mọi thực thể (vật lý, sinh học, xã hội, nhận thức, AI) đều tuân theo cấu trúc fractal \$[L,M,H]\$ với các tham số \$\Lambda, E, \text{T2}\$ và vận hành theo cặp **mutation – survival** thay vì tín hiệu – nhiễu. Các phương trình trên cho phép mô phỏng, dự đoán và can thiệp vào bất kỳ hệ thống phức tạp nào – từ tế bào ung thư, nền văn minh, đến AI tự tiến hóa.
 📦
-\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL]] · [[SYSTEM_SCAN_ENGINE]] · [[automation_profiles]]
+\--- **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/kernel/AMOS_SIMULATION_KERNEL|AMOS_SIMULATION_KERNEL]] · [[11_KNOWLEDGE/engine/SYSTEM_SCAN_ENGINE|SYSTEM_SCAN_ENGINE]] · [[11_KNOWLEDGE/stubs/automation_profiles|automation_profiles]]
 
 ---
-**MOC:** [[trang_MOC]]
+**MOC:** [[11_KNOWLEDGE/trang/trang_MOC|trang_MOC]]

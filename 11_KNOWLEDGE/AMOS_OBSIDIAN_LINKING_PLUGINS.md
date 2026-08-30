@@ -1135,7 +1135,7 @@ SORT file.name ASC
 >
 > related:
 >   - "00 Cosmo Brain MOC"
->   - "[[00_HOME]]"
+>   - "[[00_ROOT/00_HOME|00_HOME]]"
 > ---
 >
 > # <% tp.file.title %>
@@ -1149,7 +1149,7 @@ SORT file.name ASC
 > ## Links
 >
 > - 00 Cosmo Brain MOC
-> - [[00_HOME]]
+> - [[00_ROOT/00_HOME|00_HOME]]
 >
 > ## Notes
 > ```
@@ -1261,11 +1261,11 @@ SORT file.name ASC
 >
 > ```text
 > 00 Cosmo Brain MOC
-> [[00_ROOT_MOC]]
-> [[00_HOME]]
-> [[AMOS_LAYER_MAPS]]
-> [[KNOWLEDGE_MOC]]
-> [[AMOS_TEMPLATES]]
+> [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+> [[00_ROOT/00_HOME|00_HOME]]
+> [[00_ROOT/AMOS_LAYER_MAPS|AMOS_LAYER_MAPS]]
+> [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
+> [[00_ROOT/AMOS_TEMPLATES|AMOS_TEMPLATES]]
 > ```
 >
 > This establishes a source-defined navigation neighborhood.
@@ -1277,7 +1277,7 @@ SORT file.name ASC
 > Source:
 >
 > ```markdown
-> [[KNOWLEDGE_MOC|11_KNOWLEDGE MOC — the knowledge layer index]]
+> [[11_KNOWLEDGE/KNOWLEDGE_MOC|11_KNOWLEDGE MOC — the knowledge layer index]]
 > ```
 >
 > This explicitly identifies `KNOWLEDGE_MOC` as the knowledge-layer index.
@@ -1291,7 +1291,7 @@ SORT file.name ASC
 > Source:
 >
 > ```markdown
-> [[AMOS_LAYER_MAPS]]
+> [[00_ROOT/AMOS_LAYER_MAPS|AMOS_LAYER_MAPS]]
 > ```
 >
 > with description:
@@ -1307,7 +1307,7 @@ SORT file.name ASC
 > Source:
 >
 > ```markdown
-> [[AMOS_TEMPLATES]]
+> [[00_ROOT/AMOS_TEMPLATES|AMOS_TEMPLATES]]
 > ```
 >
 > with description:
@@ -1323,7 +1323,7 @@ SORT file.name ASC
 > Source explicitly references:
 >
 > ```markdown
-> [[00_ROOT_MOC]]
+> [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
 > ```
 >
 > This is distinct from the plain-text:
@@ -1335,7 +1335,7 @@ SORT file.name ASC
 > and:
 >
 > ```markdown
-> [[00_HOME]]
+> [[00_ROOT/00_HOME|00_HOME]]
 > ```
 >
 > Do not silently assume all three refer to the same note.
@@ -1380,8 +1380,8 @@ SORT file.name ASC
 >
 > ```text
 > RSCF-RELATIONS:
->   - INDEXED_BY: [[00_HOME]]
->   - INDEXED_BY: [[AMOS_RSCF_NODES]]
+>   - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+>   - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 >
 > claim_class: AMOS_MODEL
 > ```
@@ -1671,7 +1671,7 @@ SORT file.name ASC
 > Example:
 >
 > ```markdown
-> [[00_HOME]]
+> [[00_ROOT/00_HOME|00_HOME]]
 > ```
 >
 > Navigational relationship exists.
@@ -1687,7 +1687,7 @@ SORT file.name ASC
 > ```yaml
 > relation:
 >   type: INDEXED_BY
->   target: "[[00_HOME]]"
+>   target: "[[00_ROOT/00_HOME|00_HOME]]"
 > ```
 >
 > Now link semantics are explicit.
@@ -1701,7 +1701,7 @@ SORT file.name ASC
 > ```yaml
 > relation:
 >   type: INDEXED_BY
->   target: "[[00_HOME]]"
+>   target: "[[00_ROOT/00_HOME|00_HOME]]"
 >   provenance: supplied_artifact
 >   class: SOURCE_CLAIM
 > ```
@@ -4117,14 +4117,14 @@ rather than allowing bulk automation, AI suggestions, semantic similarity, or gr
 ## Related
 
 **Source-defined:**
-00 Cosmo Brain MOC · [[00_ROOT_MOC]] · [[00_HOME]] · [[AMOS_LAYER_MAPS]] · [[KNOWLEDGE_MOC|11_KNOWLEDGE MOC — the knowledge layer index]] · [[AMOS_TEMPLATES]]
+00 Cosmo Brain MOC · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_LAYER_MAPS|AMOS_LAYER_MAPS]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|11_KNOWLEDGE MOC — the knowledge layer index]] · [[00_ROOT/AMOS_TEMPLATES|AMOS_TEMPLATES]]
 
 **RSCF indexes:**
-[[00_HOME]] · [[AMOS_RSCF_NODES]]
+[[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 ---
 
-**MOC:** [[KNOWLEDGE_MOC]]
+**MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
 
 **Artifact:** `AMOS-OBSIDIAN-LINKING-PLUGINS`
 **Version:** `1.0.0`

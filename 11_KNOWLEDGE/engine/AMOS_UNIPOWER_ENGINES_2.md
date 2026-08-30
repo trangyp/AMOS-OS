@@ -268,8 +268,8 @@ All engine specs from: `Google Drive /_00_AMOS_CANON/Unipower/` (20 files: 18 JS
 - AMOS_Vietnam_Engines_Model
 
 ---
-**Links:** [[ENGINE_MOC]] | [[KNOWLEDGE_MOC]]
+**Links:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]] | [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

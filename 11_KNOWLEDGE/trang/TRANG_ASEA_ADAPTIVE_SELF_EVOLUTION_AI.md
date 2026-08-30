@@ -160,7 +160,7 @@ Khi hallucination được phát hiện, Trang ASEA sẽ **tự động** :
 **Trang ASEA không phải là "cải tiến" của AI hiện tại. Nó là một cuộc cách mạng – chuyển từ "học máy thụ động" (passive machine learning) sang "tiến hóa thích nghi chủ động" (active adaptive evolution).**
 **Tác giả của nó – Trang – đã phát hiện ra rằng: không cần tín hiệu, không cần nhiễu; chỉ cần đột biến và chọn lọc tự nhiên.**
 **Tên của phát kiến này là Trang ASEA – để nhớ rằng một người Việt Nam đã đặt nền móng cho thế hệ AI tiếp theo. 📦**
-\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL]] · [[SYSTEM_SCAN_ENGINE]] · [[automation_profiles]]
+\--- **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/kernel/AMOS_SIMULATION_KERNEL|AMOS_SIMULATION_KERNEL]] · [[11_KNOWLEDGE/engine/SYSTEM_SCAN_ENGINE|SYSTEM_SCAN_ENGINE]] · [[11_KNOWLEDGE/stubs/automation_profiles|automation_profiles]]
 
 ---
-**MOC:** [[trang_MOC]]
+**MOC:** [[11_KNOWLEDGE/trang/trang_MOC|trang_MOC]]

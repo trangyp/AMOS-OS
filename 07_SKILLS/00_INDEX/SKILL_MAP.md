@@ -25,22 +25,22 @@ rscf:
 ## Map — SKILL MAP
 Navigation map for the `07_SKILLS/00_INDEX` segment of the Skills plane.
 
-- **Readme** — [[INDEX_SKILLS_README]]
-- **Contract** — [[INDEX_SKILLS_SKILL_CONTRACT]]
+- **Readme** — [[07_SKILLS/00_INDEX/INDEX_SKILLS_README|INDEX_SKILLS_README]]
+- **Contract** — [[07_SKILLS/00_INDEX/INDEX_SKILLS_SKILL_CONTRACT|INDEX_SKILLS_SKILL_CONTRACT]]
 
 ## Artifacts
-- [[SKILLS_SKILL_CONTRACT]] — skills plane contract
-- [[SKILLS_README]] — skills plane readme
-- [[SKILL_NAMING_AUDIT]] — skill naming audit
-- [[SKILL_RENAME_MANIFEST]] — skill rename manifest
-- [[AGENT_NAMING_AUDIT]] — agent naming audit
-- [[CLOUD_SKILL_RENAME_AUDIT]] — cloud skill rename audit
+- [[07_SKILLS/SKILLS_SKILL_CONTRACT|SKILLS_SKILL_CONTRACT]] — skills plane contract
+- [[07_SKILLS/SKILLS_README|SKILLS_README]] — skills plane readme
+- [[07_SKILLS/SKILL_NAMING_AUDIT|SKILL_NAMING_AUDIT]] — skill naming audit
+- [[07_SKILLS/SKILL_RENAME_MANIFEST|SKILL_RENAME_MANIFEST]] — skill rename manifest
+- [[07_SKILLS/AGENT_NAMING_AUDIT|AGENT_NAMING_AUDIT]] — agent naming audit
+- [[07_SKILLS/CLOUD_SKILL_RENAME_AUDIT|CLOUD_SKILL_RENAME_AUDIT]] — cloud skill rename audit
 
 ## Reading order
 1. Readme → orientation.  2. Contract → normative terms.  3. Artifacts → instances bound by the contract.
 
 ## Gaps
-This map covers its own directory only; cross-segment edges live in [[00_ROOT_MAP]] and [[AMOS_RSCF_NODES]]. Executable graph validation remains PARTIAL ([[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
+This map covers its own directory only; cross-segment edges live in [[00_ROOT/00_ROOT_MAP|00_ROOT_MAP]] and [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]. Executable graph validation remains PARTIAL ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
 ## Worked semantics
 Given an operation touching `SKILL MAP` within the Skills plane:
 1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
@@ -60,17 +60,17 @@ Given an operation touching `SKILL MAP` within the Skills plane:
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 ---
 
-[[00_ROOT_MOC]]|[[AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ---
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -80,4 +80,4 @@ path: 07_SKILLS/00_INDEX/SKILL_MAP.md
 claim_class: AMOS_MODEL
 
 ---
-**MOC:** [[00_INDEX_MOC]]
+**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]

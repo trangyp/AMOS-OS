@@ -212,11 +212,11 @@ The system should also:
 
 ---
 
-### Source 3: THE UNCOPYABLE TRAINING [[ARCHITECTURE]]
+### Source 3: THE UNCOPYABLE TRAINING [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 > Path: `amos-general/A/UNCOPYABLE/AMOS_UNCOPYABLE_TRAINING_ARCHITECTURE_v2.0.0_CORE-v4.4.md` | Size: 25142 chars | Match score: 10
 
-# THE UNCOPYABLE TRAINING [[ARCHITECTURE]]
+# THE UNCOPYABLE TRAINING [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 ## AMOS Governed Edition v2.0.0 · CORE target v4.4
 
 > **Canonical status:** governed derivative of the source architecture.
@@ -320,14 +320,14 @@ SourceLineagePreserved
 
 ---
 
-**Related:** [[amos-tensor-train-sketching-rscf-engine_MOC]]
+**Related:** [[07_SKILLS/amos-tensor-train-sketching-rscf-engine/amos-tensor-train-sketching-rscf-engine_MOC|amos-tensor-train-sketching-rscf-engine_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 **MOC:** references_MOC
 
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 RSCF-NODE
@@ -335,7 +335,7 @@ node_id: amos-tensor-train-sketching-rscf-engine-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-tensor-train-sketching-rscf-engine/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
-- INDEXED_BY: [[00_HOME]]
-- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
 

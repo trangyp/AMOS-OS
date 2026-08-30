@@ -43,4 +43,4 @@ Domain master agent for AMOS Fractal Systems Master. Consolidates 26 sub-skills.
 **MOC:** SKILL
 
 ---
-**MOC:** [[amos-fractal-systems-master_MOC]]
+**MOC:** [[07_SKILLS/amos-fractal-systems-master/amos-fractal-systems-master_MOC|amos-fractal-systems-master_MOC]]

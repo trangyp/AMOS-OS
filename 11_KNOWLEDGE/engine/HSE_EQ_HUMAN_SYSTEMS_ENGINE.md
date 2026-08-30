@@ -4475,7 +4475,7 @@ Thực tế sẽ thực thi nó, dù có đồng ý hay không.
 * * *
 Đây là bản tổng hợp đầy đủ và cuối cùng của **Đề Án HSE Việt Nam** , tích hợp 14 định luật HSCSA (Human-Scale Control & Survivability Architecture) – kiến trúc tối thiểu để một hệ thống người, tổ chức hay trí tuệ duy trì khả năng tồn tại trong thực tại qua thời gian.
 **HSCSA không phải triết học. HSCSA là định luật vận hành. Thực tế sẽ thực thi nó, dù có đồng ý hay không.**
-\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
+\--- **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
 
 ---
-**MOC:** [[ENGINE_MOC]]
+**MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]

@@ -52,7 +52,7 @@ The Total Technical Engine is the master technical reasoning framework encompass
 Used extensively by coding, DevOps, and architectural design agents. It serves as the parent engine for the `amos-tech-architecture-kernel-layer` and the `amos-coding-engine-layer`, ensuring all technical output adheres to a consistent, rigorously defined structural paradigm.
 
 ---
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
 
 ---
-**MOC:** [[ENGINE_MOC]]
+**MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]

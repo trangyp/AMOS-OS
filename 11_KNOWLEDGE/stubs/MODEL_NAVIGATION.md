@@ -18,4 +18,4 @@ rscf:
 
 # MODEL NAVIGATION
 
-Stub note for [[MODEL_NAVIGATION]].
+Stub note for [[11_KNOWLEDGE/stubs/MODEL_NAVIGATION|MODEL_NAVIGATION]].

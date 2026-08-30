@@ -32,7 +32,7 @@ rscf:
 # L5 Scope, Regime, and Temporal Laws
 
 **Origin architect / steward:** Trang Phan
-**Layer:** `01_CANON / 01_CORE_LAWS / [[L5_SCOPE_REGIME]]`
+**Layer:** `01_CANON / 01_CORE_LAWS / [[01_CANON/01_CORE_LAWS/L5_SCOPE_REGIME|L5_SCOPE_REGIME]]`
 **Artifact class:** `CORE_LAW_CONTRACT`
 **Status:** `AMOS_MODEL — requires canon approval / provenance validation`
 
@@ -44,7 +44,7 @@ rscf:
 
 # 1. Purpose
 
-`[[L5_SCOPE_REGIME]]` establishes the AMOS laws for:
+`[[01_CANON/01_CORE_LAWS/L5_SCOPE_REGIME|L5_SCOPE_REGIME]]` establishes the AMOS laws for:
 
 - scope;
 - applicability;
@@ -3199,7 +3199,7 @@ must remain visible.
 
 # 98. Gap Status
 
-This document supplies a full structural proposal for `[[L5_SCOPE_REGIME]].md`.
+This document supplies a full structural proposal for `[[01_CANON/01_CORE_LAWS/L5_SCOPE_REGIME|L5_SCOPE_REGIME]].md`.
 
 It does **not** establish that every law, schema, variable, operator, threshold, or workflow above already exists verbatim in approved Trang Phan source canon.
 
@@ -3361,11 +3361,11 @@ STATUS = VERIFIED_FINAL_CANON
 
 ---
 
-[[00_ROOT_MOC]]|[[AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[L0_INTEGRITY]] · [[L1_EPISTEMIC]] · [[L2_PROVENANCE]] · [[L3_DEPENDENCY]] · [[L4_CAUSAL]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]] · [[01_CANON/01_CORE_LAWS/L1_EPISTEMIC|L1_EPISTEMIC]] · [[01_CANON/01_CORE_LAWS/L2_PROVENANCE|L2_PROVENANCE]] · [[01_CANON/01_CORE_LAWS/L3_DEPENDENCY|L3_DEPENDENCY]] · [[01_CANON/01_CORE_LAWS/L4_CAUSAL|L4_CAUSAL]]
 
 ---
 
@@ -3379,13 +3379,13 @@ path: 01_CANON/01_CORE_LAWS/L5_SCOPE_REGIME.md
 
 RSCF-RELATIONS:
 
-- DEPENDS_ON: [[L0_INTEGRITY]]
-- DEPENDS_ON: [[L1_EPISTEMIC]]
-- DEPENDS_ON: [[L2_PROVENANCE]]
-- DEPENDS_ON: [[L3_DEPENDENCY]]
-- DEPENDS_ON: [[L4_CAUSAL]]
-- INDEXED_BY: [[00_HOME]]
-- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- DEPENDS_ON: [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]]
+- DEPENDS_ON: [[01_CANON/01_CORE_LAWS/L1_EPISTEMIC|L1_EPISTEMIC]]
+- DEPENDS_ON: [[01_CANON/01_CORE_LAWS/L2_PROVENANCE|L2_PROVENANCE]]
+- DEPENDS_ON: [[01_CANON/01_CORE_LAWS/L3_DEPENDENCY|L3_DEPENDENCY]]
+- DEPENDS_ON: [[01_CANON/01_CORE_LAWS/L4_CAUSAL|L4_CAUSAL]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 claim_class: AMOS_MODEL
 
@@ -3393,4 +3393,4 @@ claim_class: AMOS_MODEL
 ```
 
 ---
-**MOC:** [[01_CORE_LAWS_MOC]]
+**MOC:** [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]

@@ -22,8 +22,8 @@ rscf:
 
 ## Files
 
-- [[canon_health.schema]]
-- [[provenance_health.schema]]
+- [[16_SCHEMAS/11_OBSERVABILITY/canon_health.schema|canon_health.schema]]
+- [[16_SCHEMAS/11_OBSERVABILITY/provenance_health.schema|provenance_health.schema]]
 
 ---
-**Parent:** [[16_SCHEMAS_MOC]]
+**Parent:** [[16_SCHEMAS/16_SCHEMAS_MOC|16_SCHEMAS_MOC]]

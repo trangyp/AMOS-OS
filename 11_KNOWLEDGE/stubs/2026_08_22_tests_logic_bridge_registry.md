@@ -17,8 +17,8 @@ rscf:
 
 # 2026 08 22 tests logic bridge registry
 
-Stub note for [[2026_08_22_tests_logic_bridge_registry]].
+Stub note for [[11_KNOWLEDGE/stubs/2026_08_22_tests_logic_bridge_registry|2026_08_22_tests_logic_bridge_registry]].
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

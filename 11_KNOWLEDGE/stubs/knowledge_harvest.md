@@ -16,8 +16,8 @@ rscf:
 
 # knowledge harvest
 
-Stub note for [[knowledge_harvest]].
+Stub note for [[11_KNOWLEDGE/stubs/knowledge_harvest|knowledge_harvest]].
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

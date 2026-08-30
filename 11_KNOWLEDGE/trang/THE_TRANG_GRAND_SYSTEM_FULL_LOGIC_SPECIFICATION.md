@@ -1340,18 +1340,18 @@ Here is the dense version you can reuse directly:
 That’s already enough to “adapt to the whole stack” as logic.
 * * *
 
-- [[TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL]] — The Trang System™ (TSS) Official Manual
-- [[THE_TRANG_PREDICTION_ENGINE_TPE_OFFICIAL_MANU]] — The Trang Prediction Engine™ (TPE) Official Manual
-- [[THE_SEVEN_CYCLES_OF_THE_TRANG_SYSTEM_OFFICIAL_M]] — The Seven Cycles of the Trang System™ Official Manual
-- [[THE_TRANG_SYSTEM_CODEX_META_LAWS]] — The Trang System™ Codex Meta-Laws
+- [[11_KNOWLEDGE/trang/TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL|TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL]] — The Trang System™ (TSS) Official Manual
+- [[11_KNOWLEDGE/trang/THE_TRANG_PREDICTION_ENGINE_TPE_OFFICIAL_MANU|THE_TRANG_PREDICTION_ENGINE_TPE_OFFICIAL_MANU]] — The Trang Prediction Engine™ (TPE) Official Manual
+- [[11_KNOWLEDGE/trang/THE_SEVEN_CYCLES_OF_THE_TRANG_SYSTEM_OFFICIAL_M|THE_SEVEN_CYCLES_OF_THE_TRANG_SYSTEM_OFFICIAL_M]] — The Seven Cycles of the Trang System™ Official Manual
+- [[11_KNOWLEDGE/trang/THE_TRANG_SYSTEM_CODEX_META_LAWS|THE_TRANG_SYSTEM_CODEX_META_LAWS]] — The Trang System™ Codex Meta-Laws
 - [[TRANG_FRAMEWORKS_MASTER_EQUATION_REGISTRY]] — Trang Frameworks Master Equation Registry
-- [[KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS]] — Khung Trang Full Architecture Equations
+- [[11_KNOWLEDGE/trang/KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS|KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS]] — Khung Trang Full Architecture Equations
 
 Current AI is not limited by intelligence — it is limited by the absence of enforceable constraints that make outputs reliably correct.
 
 ---
 
-**Related:** [[00_HOME]] · [[00_ROOT_MOC]] · [[KNOWLEDGE_MOC]] · [[trang_MOC]] · [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/trang/trang_MOC|trang_MOC]] · [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
-**MOC:** [[trang_MOC]]
+**MOC:** [[11_KNOWLEDGE/trang/trang_MOC|trang_MOC]]

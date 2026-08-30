@@ -43,4 +43,4 @@ Domain master agent for AMOS Knowledge & Research Master. Consolidates 143 sub-s
 **MOC:** SKILL
 
 ---
-**MOC:** [[amos-knowledge-research-master_MOC]]
+**MOC:** [[07_SKILLS/amos-knowledge-research-master/amos-knowledge-research-master_MOC|amos-knowledge-research-master_MOC]]

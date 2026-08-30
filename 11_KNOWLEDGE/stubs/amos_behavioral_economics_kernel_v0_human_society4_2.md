@@ -19,8 +19,8 @@ rscf:
 
 # amos behavioral economics kernel v0 human society4 2
 
-Stub note for [[amos_behavioral_economics_kernel_v0_human_society4_2]].
+Stub note for [[11_KNOWLEDGE/stubs/amos_behavioral_economics_kernel_v0_human_society4_2|amos_behavioral_economics_kernel_v0_human_society4_2]].
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

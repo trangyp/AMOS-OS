@@ -19,8 +19,8 @@ rscf:
  specifies the decentralized, coordination-avoiding execution architecture for parallel subagents, maintaining causal consistency without centralized serialization bottlenecks.
 
 ## Related
-- AMOS_CORE · [[00_ROOT_MOC]] · [[04_RUNTIME_MOC]]
+- AMOS_CORE · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]]
 
 ---
 
-**MOC:** [[00_ROOT_MOC]] · [[00_HOME]]
+**MOC:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

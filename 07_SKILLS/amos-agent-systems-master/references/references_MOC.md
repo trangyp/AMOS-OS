@@ -30,25 +30,25 @@ rscf:
 
 ## Files
 
-- [[11k_agent_templates]]
-- [[11k_environment_scan_agent]]
-- [[agent_registry]]
-- [[agent_working_instructions_v2]]
-- [[ai_workforce_layer]]
-- [[architecture_guardian_agent]]
+- [[07_SKILLS/amos-agent-systems-master/references/11k_agent_templates|11k_agent_templates]]
+- [[07_SKILLS/amos-agent-systems-master/references/11k_environment_scan_agent|11k_environment_scan_agent]]
+- [[07_SKILLS/amos-agent-systems-master/references/agent_registry|agent_registry]]
+- [[07_SKILLS/amos-agent-systems-master/references/agent_working_instructions_v2|agent_working_instructions_v2]]
+- [[07_SKILLS/amos-agent-systems-master/references/ai_workforce_layer|ai_workforce_layer]]
+- [[07_SKILLS/amos-agent-systems-master/references/architecture_guardian_agent|architecture_guardian_agent]]
 - [fabrication_engine](fabrication_engine.md)
-- [[fabrication_engine_layer]]
-- [[os_agent_model]]
+- [[07_SKILLS/amos-agent-systems-master/references/fabrication_engine_layer|fabrication_engine_layer]]
+- [[07_SKILLS/amos-agent-systems-master/references/os_agent_model|os_agent_model]]
 
 ---
-**Parent:** [[amos-agent-systems-master_MOC]]
+**Parent:** [[07_SKILLS/amos-agent-systems-master/amos-agent-systems-master_MOC|amos-agent-systems-master_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 **MOC:** references_MOC
 
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 RSCF-NODE
@@ -56,6 +56,6 @@ node_id: amos-agent-systems-master-references-MOC
 node_type: reference
 path: 07_SKILLS/amos-agent-systems-master/references/references_MOC.md
 RSCF-RELATIONS:
-- INDEXED_BY: [[00_HOME]]
-- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

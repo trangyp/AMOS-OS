@@ -37,4 +37,4 @@ rscf:
 
 **References:** [[07_SKILLS/amos-flow-canon/references/references_MOC|references]]
 
-**Parent:** [[07_SKILLS_MOC]]
+**Parent:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

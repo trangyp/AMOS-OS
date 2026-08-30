@@ -21,8 +21,8 @@ rscf:
 Master specification formalizing the pre-symbolic spine, reality gatekeeper, and multiscale ontology of AMOS OS.
 
 ## Related
-- [[KHUNG_TRANG_MASTER]] · [[11_KNOWLEDGE_MOC]]
+- [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER|KHUNG_TRANG_MASTER]] · [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE_MOC]]
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

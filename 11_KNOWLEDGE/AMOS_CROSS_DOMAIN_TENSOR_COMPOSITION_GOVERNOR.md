@@ -40,8 +40,8 @@ navigation_contract:
   normative_contract:
   - - INDEX_MODELS_MODEL_CONTRACT
   cross_segment:
-  - '[[00_ROOT_MAP]]'
-  - '[[AMOS_RSCF_NODES]]'
+  - '[[00_ROOT/00_ROOT_MAP|00_ROOT_MAP]]'
+  - '[[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]'
 tags:
 - amos-os
 - amos-os
@@ -225,8 +225,8 @@ segment of the Models plane.
 
 Primary local artifacts:
 
-- **Contract** — [[INDEX_MODELS_MODEL_CONTRACT]]
-- **Readme** — [[INDEX_MODELS_README]]
+- **Contract** — [[13_MODELS/00_INDEX/INDEX_MODELS_MODEL_CONTRACT|INDEX_MODELS_MODEL_CONTRACT]]
+- **Readme** — [[13_MODELS/00_INDEX/INDEX_MODELS_README|INDEX_MODELS_README]]
 
 ---
 
@@ -318,8 +318,8 @@ Artifacts outside that boundary require cross-segment navigation.
 
 Cross-segment edges are explicitly delegated to:
 
-- [[00_ROOT_MAP]]
-- [[AMOS_RSCF_NODES]]
+- [[00_ROOT/00_ROOT_MAP|00_ROOT_MAP]]
+- [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 ---
 
@@ -813,9 +813,9 @@ may be used as normalized metadata without replacing the source-native node type
 
 Explicit RSCF-related navigation includes:
 
-- [[00_HOME]]
-- [[AMOS_RSCF_NODES]]
-- [[00_INDEX_MOC]]
+- [[00_ROOT/00_HOME|00_HOME]]
+- [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+- [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]
 
 ---
 
@@ -993,8 +993,8 @@ PARTIAL
 
 The source identifies:
 
-- [[ROUTING_POLICY_VALIDATION_RECEIPT]]
-- [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+- [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]
+- [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
 These are contextual validation references.
 
@@ -4254,7 +4254,7 @@ ACTION AUTHORIZED
 
 Cross-plane binding:
 
-- [[OBSERVABILITY_README]]
+- [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]]
 
 Observability may report map state.
 
@@ -4276,7 +4276,7 @@ AUTHORIZED BY
 
 Cross-plane binding:
 
-- [[KERNEL_README]]
+- [[02_KERNEL/KERNEL_README|KERNEL_README]]
 
 Kernel interaction may support execution or resolution.
 
@@ -4288,7 +4288,7 @@ Exact implementation remains governed by the kernel artifact.
 
 Cross-plane binding:
 
-- [[CONTROL_PLANE_README]]
+- [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
 
 The control plane may govern admission, authority, and commit semantics.
 
@@ -4298,7 +4298,7 @@ The control plane may govern admission, authority, and commit semantics.
 
 Cross-plane binding:
 
-- [[OPERATIONS_README]]
+- [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
 Operations provides the recovery route.
 
@@ -4308,7 +4308,7 @@ Operations provides the recovery route.
 
 Governed by:
 
-- [[LAW_HIERARCHY]]
+- [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
 Stronger canon overrides conflicting normalized semantics in this map.
 
@@ -4318,7 +4318,7 @@ Stronger canon overrides conflicting normalized semantics in this map.
 
 Cross-segment navigation:
 
-- [[00_ROOT_MAP]]
+- [[00_ROOT/00_ROOT_MAP|00_ROOT_MAP]]
 
 ---
 
@@ -4326,7 +4326,7 @@ Cross-segment navigation:
 
 Cross-segment graph navigation:
 
-- [[AMOS_RSCF_NODES]]
+- [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 ---
 
@@ -4334,7 +4334,7 @@ Cross-segment graph navigation:
 
 Root orientation:
 
-- [[00_HOME]]
+- [[00_ROOT/00_HOME|00_HOME]]
 
 ---
 
@@ -4342,7 +4342,7 @@ Root orientation:
 
 This artifact belongs to:
 
-- [[00_INDEX_MOC]]
+- [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]
 
 ---
 
@@ -4350,19 +4350,19 @@ This artifact belongs to:
 
 | Function                         | Artifact                              |
 | -------------------------------- | ------------------------------------- |
-| Canon governance                 | [[LAW_HIERARCHY]]                     |
-| Root orientation                 | [[00_HOME]]                           |
-| Root mapping                     | [[00_ROOT_MAP]]                       |
-| RSCF navigation                  | [[AMOS_RSCF_NODES]]                   |
-| Models orientation               | [[INDEX_MODELS_README]]               |
-| Models contract                  | [[INDEX_MODELS_MODEL_CONTRACT]]       |
-| Kernel interaction               | [[KERNEL_README]]                     |
-| Control-plane gating             | [[CONTROL_PLANE_README]]              |
-| Observability                    | [[OBSERVABILITY_README]]              |
-| Recovery                         | [[OPERATIONS_README]]                 |
-| Routing validation context       | [[ROUTING_POLICY_VALIDATION_RECEIPT]] |
-| Authorization validation context | [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]   |
-| Local MOC                        | [[00_INDEX_MOC]]                      |
+| Canon governance                 | [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]                     |
+| Root orientation                 | [[00_ROOT/00_HOME|00_HOME]]                           |
+| Root mapping                     | [[00_ROOT/00_ROOT_MAP|00_ROOT_MAP]]                       |
+| RSCF navigation                  | [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]                   |
+| Models orientation               | [[13_MODELS/00_INDEX/INDEX_MODELS_README|INDEX_MODELS_README]]               |
+| Models contract                  | [[13_MODELS/00_INDEX/INDEX_MODELS_MODEL_CONTRACT|INDEX_MODELS_MODEL_CONTRACT]]       |
+| Kernel interaction               | [[02_KERNEL/KERNEL_README|KERNEL_README]]                     |
+| Control-plane gating             | [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]              |
+| Observability                    | [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]]              |
+| Recovery                         | [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]                 |
+| Routing validation context       | [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] |
+| Authorization validation context | [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]   |
+| Local MOC                        | [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]                      |
 
 ---
 
@@ -5284,24 +5284,24 @@ UNKNOWN/GAP
 
 # 362. Cross-Plane Bindings
 
-- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
-- Root navigation — [[00_HOME]]
-- Root map — [[00_ROOT_MAP]]
-- RSCF navigation — [[AMOS_RSCF_NODES]]
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
+- Root navigation — [[00_ROOT/00_HOME|00_HOME]]
+- Root map — [[00_ROOT/00_ROOT_MAP|00_ROOT_MAP]]
+- RSCF navigation — [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 ---
 
 # 363. Related
 
-[[00_HOME]] · [[00_ROOT_MAP]] · [[AMOS_RSCF_NODES]] · [[INDEX_MODELS_README]] · [[INDEX_MODELS_MODEL_CONTRACT]] · [[LAW_HIERARCHY]] · [[KERNEL_README]] · [[CONTROL_PLANE_README]] · [[OBSERVABILITY_README]] · [[OPERATIONS_README]] · [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+[[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/00_ROOT_MAP|00_ROOT_MAP]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[13_MODELS/00_INDEX/INDEX_MODELS_README|INDEX_MODELS_README]] · [[13_MODELS/00_INDEX/INDEX_MODELS_MODEL_CONTRACT|INDEX_MODELS_MODEL_CONTRACT]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[02_KERNEL/KERNEL_README|KERNEL_README]] · [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]] · [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]] · [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|AMOS MOC]]
 
 ---
 
@@ -5362,22 +5362,22 @@ RSCF-NODE:
 ```yaml
 RSCF-RELATIONS:
 
-  - INDEXED_BY: [[00_HOME]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-  - INDEXED_BY: [[13_MODELS_MOC]]
+  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  - INDEXED_BY: [[13_MODELS/13_MODELS_MOC|13_MODELS_MOC]]
 
-  - ORIENTED_BY: [[MODELS_README]]
+  - ORIENTED_BY: [[13_MODELS/MODELS_README|MODELS_README]]
   - CONTRACT_BOUND_BY:
 
   - CROSS_SEGMENT_ROUTED_BY:
   - CROSS_SEGMENT_ROUTED_BY:
 
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
+  - GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
-  - INTERACTS_WITH: [[KERNEL_README]]
-  - GATED_BY: [[CONTROL_PLANE_README]]
-  - OBSERVED_BY: [[OBSERVABILITY_README]]
-  - RECOVERED_VIA: [[OPERATIONS_README]]
+  - INTERACTS_WITH: [[02_KERNEL/KERNEL_README|KERNEL_README]]
+  - GATED_BY: [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+  - OBSERVED_BY: [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]]
+  - RECOVERED_VIA: [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
   - VALIDATION_CONTEXT:
   - VALIDATION_CONTEXT:
@@ -5613,20 +5613,20 @@ RSCF-NODE
 
 node_id: amos_13_models_00_index_model_map_md
 node_type: note
-path: 13_MODELS/00_INDEX/[[MODEL_MAP]].md
+path: 13_MODELS/00_INDEX/[[13_MODELS/00_INDEX/MODEL_MAP|MODEL_MAP]].md
 claim_class: AMOS_MODEL
 
 RSCF-RELATIONS:
 
-- INDEXED_BY: [[00_HOME]]
-- INDEXED_BY: [[AMOS_RSCF_NODES]]
-- INDEXED_BY: [[00_INDEX_MOC]]
-- ORIENTED_BY: [[INDEX_MODELS_README]]
-- CONTRACT_BOUND_BY: [[INDEX_MODELS_MODEL_CONTRACT]]
-- CROSS_SEGMENT_ROUTED_BY: [[00_ROOT_MAP]]
-- GOVERNED_BY: [[LAW_HIERARCHY]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+- INDEXED_BY: [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]
+- ORIENTED_BY: [[13_MODELS/00_INDEX/INDEX_MODELS_README|INDEX_MODELS_README]]
+- CONTRACT_BOUND_BY: [[13_MODELS/00_INDEX/INDEX_MODELS_MODEL_CONTRACT|INDEX_MODELS_MODEL_CONTRACT]]
+- CROSS_SEGMENT_ROUTED_BY: [[00_ROOT/00_ROOT_MAP|00_ROOT_MAP]]
+- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
 ---
 
-**MOC:** [[00_INDEX_MOC]]
+**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]
 

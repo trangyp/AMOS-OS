@@ -316,8 +316,8 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 ## References
 
 - See `references/` directory for detailed reference materials
-- [[07_SKILLS_MOC]] — Skills map of content
+- [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] — Skills map of content
 
 ---
 
-**MOC:** references_MOC · [[00_HOME]]
+**MOC:** references_MOC · [[00_ROOT/00_HOME|00_HOME]]

@@ -570,7 +570,7 @@ Boot_Route:
     01_BOOT
 
   subsystem:
-    [[FULL_BRAIN_BOOTSTRAP]]
+    [[04_RUNTIME/01_BOOT/FULL_BRAIN_BOOTSTRAP|FULL_BRAIN_BOOTSTRAP]]
 
   invariant:
     - SUBSTRATE_INTEGRITY
@@ -1096,7 +1096,7 @@ Execution_Route:
     SYNTAX_INVARIANT_LOGIC_CLOSURE
 
   failure_action:
-    EMIT_ERROR_[[L19_PROOF_CAPSULE]]
+    EMIT_ERROR_[[01_CANON/01_CORE_LAWS/L19_PROOF_CAPSULE|L19_PROOF_CAPSULE]]
 
   source_status:
     SOURCE_DEFINED_MODEL
@@ -1346,7 +1346,7 @@ Finalization_Route:
     09_FINALIZATION
 
   subsystem:
-    [[LOCAL_PROOF_FINALIZER]]
+    [[04_RUNTIME/09_FINALIZATION/LOCAL_PROOF_FINALIZER|LOCAL_PROOF_FINALIZER]]
 
   invariant:
     LAW_OF_LAW_C_E_F_COMPLIANCE
@@ -1495,7 +1495,7 @@ Core_X_Runtime_Matrix:
   01_BOOT:
 
     subsystem:
-      [[FULL_BRAIN_BOOTSTRAP]]
+      [[04_RUNTIME/01_BOOT/FULL_BRAIN_BOOTSTRAP|FULL_BRAIN_BOOTSTRAP]]
 
     primary_invariant:
       - SUBSTRATE_INTEGRITY
@@ -1524,12 +1524,12 @@ Core_X_Runtime_Matrix:
       SYNTAX_INVARIANT_LOGIC_CLOSURE
 
     failure_action:
-      EMIT_ERROR_[[L19_PROOF_CAPSULE]]
+      EMIT_ERROR_[[01_CANON/01_CORE_LAWS/L19_PROOF_CAPSULE|L19_PROOF_CAPSULE]]
 
   09_FINALIZATION:
 
     subsystem:
-      [[LOCAL_PROOF_FINALIZER]]
+      [[04_RUNTIME/09_FINALIZATION/LOCAL_PROOF_FINALIZER|LOCAL_PROOF_FINALIZER]]
 
     primary_invariant:
       LAW_OF_LAW_C_E_F_COMPLIANCE
@@ -1603,13 +1603,13 @@ Runtime enforcement remains unknown.
 The matrix counterpart is:
 
 ```text
-[[CORE_X_RUNTIME]]
+[[25_COGNITIVE_MATRIX/CORE_X_RUNTIME|CORE_X_RUNTIME]]
 ```
 
 Relationship:
 
 ```text
-[[CORE_X_RUNTIME]]
+[[25_COGNITIVE_MATRIX/CORE_X_RUNTIME|CORE_X_RUNTIME]]
        │
        │ specification
        ▼
@@ -1653,11 +1653,11 @@ $$
 The source explicitly connects:
 
 ```text
-[[CORE_X_RUNTIME]]
+[[25_COGNITIVE_MATRIX/CORE_X_RUNTIME|CORE_X_RUNTIME]]
 
-04_RUNTIME/[[04_RUNTIME_MOC]]
+04_RUNTIME/[[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]]
 
-01_CANON/[[01_CANON_MOC]]
+01_CANON/[[01_CANON/01_CANON_MOC|01_CANON_MOC]]
 ```
 
 This creates a source-defined cross-plane topology:
@@ -1666,7 +1666,7 @@ This creates a source-defined cross-plane topology:
 01_CANON
     │
     ▼
-[[CORE_X_RUNTIME]]
+[[25_COGNITIVE_MATRIX/CORE_X_RUNTIME|CORE_X_RUNTIME]]
     │
     ▼
 CORE_X_RUNTIME_MATRIX
@@ -1684,7 +1684,7 @@ The exact dependency direction beyond the explicit references should be governed
 Referenced:
 
 ```text
-01_CANON/[[01_CANON_MOC]]
+01_CANON/[[01_CANON/01_CANON_MOC|01_CANON_MOC]]
 ```
 
 The matrix claims to map:
@@ -1706,7 +1706,7 @@ Therefore no exact L0–L3 row mapping should be invented from this artifact alo
 Referenced:
 
 ```text
-04_RUNTIME/[[04_RUNTIME_MOC]]
+04_RUNTIME/[[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]]
 ```
 
 The matrix establishes selected runtime stage names.
@@ -1795,7 +1795,7 @@ RSCF:
       01_BOOT
 
     subsystem:
-      [[FULL_BRAIN_BOOTSTRAP]]
+      [[04_RUNTIME/01_BOOT/FULL_BRAIN_BOOTSTRAP|FULL_BRAIN_BOOTSTRAP]]
 
   M:
 
@@ -1886,7 +1886,7 @@ RSCF:
       SYNTAX_INVARIANT_LOGIC_CLOSURE
 
     failure_action:
-      EMIT_ERROR_[[L19_PROOF_CAPSULE]]
+      EMIT_ERROR_[[01_CANON/01_CORE_LAWS/L19_PROOF_CAPSULE|L19_PROOF_CAPSULE]]
 
   confidence_ceiling:
 
@@ -1919,7 +1919,7 @@ RSCF:
       09_FINALIZATION
 
     subsystem:
-      [[LOCAL_PROOF_FINALIZER]]
+      [[04_RUNTIME/09_FINALIZATION/LOCAL_PROOF_FINALIZER|LOCAL_PROOF_FINALIZER]]
 
   M:
 
@@ -2587,7 +2587,7 @@ Therefore:
 TABLE STRUCTURE:
 VERIFIED_SOURCE_STRUCTURE
 
-TOTAL RUNTIME [[ARCHITECTURE]]:
+TOTAL RUNTIME [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]:
 UNKNOWN FROM THIS ARTIFACT ALONE
 ```
 
@@ -4036,9 +4036,9 @@ Regime:
     "2026-08-27"
 
   dependencies:
-    - [[CORE_X_RUNTIME]]
-    - 04_RUNTIME/[[04_RUNTIME_MOC]]
-    - 01_CANON/[[01_CANON_MOC]]
+    - [[25_COGNITIVE_MATRIX/CORE_X_RUNTIME|CORE_X_RUNTIME]]
+    - 04_RUNTIME/[[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]]
+    - 01_CANON/[[01_CANON/01_CANON_MOC|01_CANON_MOC]]
 
   revalidate_on:
     - matrix_change
@@ -4203,7 +4203,7 @@ COMPETING
 If:
 
 ```text
-04_RUNTIME/[[04_RUNTIME_MOC]]
+04_RUNTIME/[[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]]
 ```
 
 defines a stage differently from this matrix, the conflict must remain visible until authority/supersession analysis resolves it.
@@ -4295,7 +4295,7 @@ FAILURE RECOVERABILITY
 Revalidate this matrix when:
 
 ```text
-[[CORE_X_RUNTIME]] CHANGES
+[[25_COGNITIVE_MATRIX/CORE_X_RUNTIME|CORE_X_RUNTIME]] CHANGES
 
 04_RUNTIME MOC CHANGES
 
@@ -4574,7 +4574,7 @@ Core_X_Runtime_Matrix:
     "01_BOOT":
 
       subsystem:
-        [[FULL_BRAIN_BOOTSTRAP]]
+        [[04_RUNTIME/01_BOOT/FULL_BRAIN_BOOTSTRAP|FULL_BRAIN_BOOTSTRAP]]
 
       primary_invariant:
         - SUBSTRATE_INTEGRITY
@@ -4615,7 +4615,7 @@ Core_X_Runtime_Matrix:
         SYNTAX_INVARIANT_LOGIC_CLOSURE
 
       failure_action:
-        EMIT_ERROR_[[L19_PROOF_CAPSULE]]
+        EMIT_ERROR_[[01_CANON/01_CORE_LAWS/L19_PROOF_CAPSULE|L19_PROOF_CAPSULE]]
 
       source_status:
         SOURCE_DEFINED
@@ -4626,7 +4626,7 @@ Core_X_Runtime_Matrix:
     "09_FINALIZATION":
 
       subsystem:
-        [[LOCAL_PROOF_FINALIZER]]
+        [[04_RUNTIME/09_FINALIZATION/LOCAL_PROOF_FINALIZER|LOCAL_PROOF_FINALIZER]]
 
       primary_invariant:
         LAW_OF_LAW_C_E_F_COMPLIANCE
@@ -4669,7 +4669,7 @@ Runtime_Stage_Registry:
     - stage:
         01_BOOT
       subsystem:
-        [[FULL_BRAIN_BOOTSTRAP]]
+        [[04_RUNTIME/01_BOOT/FULL_BRAIN_BOOTSTRAP|FULL_BRAIN_BOOTSTRAP]]
 
     - stage:
         02_ROUTER
@@ -4684,7 +4684,7 @@ Runtime_Stage_Registry:
     - stage:
         09_FINALIZATION
       subsystem:
-        [[LOCAL_PROOF_FINALIZER]]
+        [[04_RUNTIME/09_FINALIZATION/LOCAL_PROOF_FINALIZER|LOCAL_PROOF_FINALIZER]]
 
   completeness:
     SELECTED_STAGE_SET_ONLY
@@ -4725,8 +4725,8 @@ PROOF_CAPSULE:
     - RSCF Contract
 
   provenance:
-    - 25_COGNITIVE_MATRIX/[[CORE_X_RUNTIME]]
-    - 04_RUNTIME/[[04_RUNTIME_MOC]]
+    - 25_COGNITIVE_MATRIX/[[25_COGNITIVE_MATRIX/CORE_X_RUNTIME|CORE_X_RUNTIME]]
+    - 04_RUNTIME/[[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]]
     - AMOS_CORPUS
 
   scope:
@@ -4930,7 +4930,7 @@ RSCF:
         stage:
           01_BOOT
         subsystem:
-          [[FULL_BRAIN_BOOTSTRAP]]
+          [[04_RUNTIME/01_BOOT/FULL_BRAIN_BOOTSTRAP|FULL_BRAIN_BOOTSTRAP]]
         invariant:
           SUBSTRATE_INTEGRITY_AND_NULL_INVARIANT_S0
         failure:
@@ -4954,13 +4954,13 @@ RSCF:
         invariant:
           SYNTAX_INVARIANT_LOGIC_CLOSURE
         failure:
-          EMIT_ERROR_[[L19_PROOF_CAPSULE]]
+          EMIT_ERROR_[[01_CANON/01_CORE_LAWS/L19_PROOF_CAPSULE|L19_PROOF_CAPSULE]]
 
       finalization_stage:
         stage:
           09_FINALIZATION
         subsystem:
-          [[LOCAL_PROOF_FINALIZER]]
+          [[04_RUNTIME/09_FINALIZATION/LOCAL_PROOF_FINALIZER|LOCAL_PROOF_FINALIZER]]
         invariant:
           LAW_OF_LAW_C_E_F_COMPLIANCE
         failure:
@@ -4969,9 +4969,9 @@ RSCF:
   L:
 
     load_on_demand:
-      - [[CORE_X_RUNTIME]]
-      - 04_RUNTIME/[[04_RUNTIME_MOC]]
-      - 01_CANON/[[01_CANON_MOC]]
+      - [[25_COGNITIVE_MATRIX/CORE_X_RUNTIME|CORE_X_RUNTIME]]
+      - 04_RUNTIME/[[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]]
+      - 01_CANON/[[01_CANON/01_CANON_MOC|01_CANON_MOC]]
       - S0_definition
       - law_of_law_C_E_F_definition
       - default_safe_route_definition
@@ -5010,19 +5010,19 @@ RSCF:
 ```yaml
 RSCF_RELATIONS:
 
-  - INDEXED_BY: "[[00_HOME]]"
+  - INDEXED_BY: "[[00_ROOT/00_HOME|00_HOME]]"
 
-  - INDEXED_BY: "[[AMOS_RSCF_NODES]]"
+  - INDEXED_BY: "[[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]"
 
-  - PART_OF: "[[25_COGNITIVE_MATRIX_MOC]]"
+  - PART_OF: "[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]"
 
-  - COUNTERPART: "[[CORE_X_RUNTIME]]"
+  - COUNTERPART: "[[25_COGNITIVE_MATRIX/CORE_X_RUNTIME|CORE_X_RUNTIME]]"
 
   - ROUTES_FROM:
-      "01_CANON/[[01_CANON_MOC]]"
+      "01_CANON/[[01_CANON/01_CANON_MOC|01_CANON_MOC]]"
 
   - ROUTES_TO:
-      "04_RUNTIME/[[04_RUNTIME_MOC]]"
+      "04_RUNTIME/[[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]]"
 
   - MAPS_STAGE:
       01_BOOT
@@ -5037,19 +5037,19 @@ RSCF_RELATIONS:
       09_FINALIZATION
 
   - RELATED_TO:
-      - "[[K_RSCF]]"
-      - "[[K_HML]]"
-      - "[[K_GMEF]]"
-      - "[[K_PROVENANCE]]"
-      - "[[K_PROVENANCE_TOPOLOGY]]"
-      - "[[K_FAILURE_RECOVERY]]"
-      - "[[K_CAUSAL_EPOCH]]"
-      - "[[K_MVCC]]"
-      - "[[K_CAS]]"
-      - "[[K_ATOMIC_MULTI_RSCF]]"
+      - "[[02_KERNEL/09_INTEGRATION/K_RSCF|K_RSCF]]"
+      - "[[02_KERNEL/09_INTEGRATION/K_HML|K_HML]]"
+      - "[[02_KERNEL/09_INTEGRATION/K_GMEF|K_GMEF]]"
+      - "[[02_KERNEL/08_PROVENANCE/K_PROVENANCE|K_PROVENANCE]]"
+      - "[[02_KERNEL/08_PROVENANCE/K_PROVENANCE_TOPOLOGY|K_PROVENANCE_TOPOLOGY]]"
+      - "[[02_KERNEL/K_FAILURE_RECOVERY|K_FAILURE_RECOVERY]]"
+      - "[[02_KERNEL/03_CAUSAL/K_CAUSAL_EPOCH|K_CAUSAL_EPOCH]]"
+      - "[[02_KERNEL/K_MVCC|K_MVCC]]"
+      - "[[02_KERNEL/K_CAS|K_CAS]]"
+      - "[[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]"
 
   - LINEAGE_TARGET:
-      "[[AMOS_CORE_v4_4]]"
+      "[[00_ROOT/AMOS_CORE_v4_4|AMOS_CORE_v4_4]]"
 ```
 
 ---
@@ -5436,11 +5436,11 @@ Triggers Automatic Rollback
 ## Source-defined references
 
 ```text
-[[CORE_X_RUNTIME]]
+[[25_COGNITIVE_MATRIX/CORE_X_RUNTIME|CORE_X_RUNTIME]]
 
-04_RUNTIME/[[04_RUNTIME_MOC]]
+04_RUNTIME/[[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]]
 
-01_CANON/[[01_CANON_MOC]]
+01_CANON/[[01_CANON/01_CANON_MOC|01_CANON_MOC]]
 ```
 
 ## Derived expansion
@@ -5537,7 +5537,7 @@ RSCF:
       - id:
           01_BOOT
         subsystem:
-          [[FULL_BRAIN_BOOTSTRAP]]
+          [[04_RUNTIME/01_BOOT/FULL_BRAIN_BOOTSTRAP|FULL_BRAIN_BOOTSTRAP]]
         invariant:
           SUBSTRATE_INTEGRITY_AND_NULL_INVARIANT_S0
         failure_action:
@@ -5559,12 +5559,12 @@ RSCF:
         invariant:
           SYNTAX_INVARIANT_LOGIC_CLOSURE
         failure_action:
-          EMIT_ERROR_[[L19_PROOF_CAPSULE]]
+          EMIT_ERROR_[[01_CANON/01_CORE_LAWS/L19_PROOF_CAPSULE|L19_PROOF_CAPSULE]]
 
       - id:
           09_FINALIZATION
         subsystem:
-          [[LOCAL_PROOF_FINALIZER]]
+          [[04_RUNTIME/09_FINALIZATION/LOCAL_PROOF_FINALIZER|LOCAL_PROOF_FINALIZER]]
         invariant:
           LAW_OF_LAW_C_E_F_COMPLIANCE
         failure_action:
@@ -5578,9 +5578,9 @@ RSCF:
         DO_NOT_LOAD_UNLESS_REQUIRED
 
       dependencies:
-        - [[CORE_X_RUNTIME]]
-        - 04_RUNTIME/[[04_RUNTIME_MOC]]
-        - 01_CANON/[[01_CANON_MOC]]
+        - [[25_COGNITIVE_MATRIX/CORE_X_RUNTIME|CORE_X_RUNTIME]]
+        - 04_RUNTIME/[[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]]
+        - 01_CANON/[[01_CANON/01_CANON_MOC|01_CANON_MOC]]
         - S0_definition
         - law_of_law_definition
         - default_safe_route_definition
@@ -5634,8 +5634,8 @@ PROOF_CAPSULE:
     - "09_FINALIZATION → Local Proof Finalizer → Law of Law (𝒞, ℰ, ℱ) Compliance → Triggers Automatic Rollback"
 
   provenance:
-    - 25_COGNITIVE_MATRIX/[[CORE_X_RUNTIME]]
-    - 04_RUNTIME/[[04_RUNTIME_MOC]]
+    - 25_COGNITIVE_MATRIX/[[25_COGNITIVE_MATRIX/CORE_X_RUNTIME|CORE_X_RUNTIME]]
+    - 04_RUNTIME/[[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]]
     - AMOS_CORPUS
 
   scope:

@@ -2206,8 +2206,8 @@ Kênh #144 duy trì sự đồng bộ giữa nhận thức logic và cân bằng
 
 ## 3. LIÊN KẾT LIÊN BẢNG & DANH MỤC TÀI LIỆU THAM KHẢO WIKILINKS
 
-- **Hạt nhân Liên quan:** [[K_COGNITION]] · [[K_CORE_LAWS]] · [[ULK_LOGIC_KERNEL]] · [[AMOS_FULL_BRAIN_OS_CANON]]
-- **MOCs Điều hướng:** [[00_HOME]] · [[00_ROOT_MOC]] · [[02_KERNEL_MOC]] · [[02_COGNITION_MOC]]
+- **Hạt nhân Liên quan:** [[02_KERNEL/02_COGNITION/K_COGNITION|K_COGNITION]] · [[02_KERNEL/K_CORE_LAWS|K_CORE_LAWS]] · [[02_KERNEL/ULK_LOGIC_KERNEL|ULK_LOGIC_KERNEL]] · [[01_CANON/03_COGNITION_CANON/AMOS_FULL_BRAIN_OS_CANON|AMOS_FULL_BRAIN_OS_CANON]]
+- **MOCs Điều hướng:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]] · [[02_KERNEL/02_COGNITION/02_COGNITION_MOC|02_COGNITION_MOC]]
 
 ---
 **Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS

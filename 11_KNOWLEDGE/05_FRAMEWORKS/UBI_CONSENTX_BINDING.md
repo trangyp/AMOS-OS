@@ -63,7 +63,7 @@ epistemic_boundary:
 
 `UBI_CONSENTX_BINDING.md` is the canonical Knowledge Plane reference artifact for the **UBI-ConsentX Binding** within `11_KNOWLEDGE/05_FRAMEWORKS`.
 
-It binds continuous autonomic, somatic, and bioelectromagnetic signals directly into the [[CONSENTX]] arbitration engine, validating genuine human readiness before executing system transactions.
+It binds continuous autonomic, somatic, and bioelectromagnetic signals directly into the [[11_KNOWLEDGE/05_FRAMEWORKS/CONSENTX|CONSENTX]] arbitration engine, validating genuine human readiness before executing system transactions.
 
 ---
 
@@ -85,8 +85,8 @@ AUTONOMIC STATE STREAM             COERCION & STRESS DETECTOR         CONSENT AR
 
 # 2. Inter-Plane & Vault Connections
 
-- **Biological Master:** [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
-- **Consent Engine:** [[CONSENTX]]
+- **Biological Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+- **Consent Engine:** [[11_KNOWLEDGE/05_FRAMEWORKS/CONSENTX|CONSENTX]]
 - **Native Vault Source:** `11_KNOWLEDGE/biology-ubi/UBI_PLUS_NEUROSYNCAI_INTEGRATION_WITH_CONSENTX`
 
 ---
@@ -111,7 +111,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[05_FRAMEWORKS_MOC]] · [[UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[CONSENTX]] · [[UBI_ID_EXCHANGE_BINDING]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/CONSENTX|CONSENTX]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_ID_EXCHANGE_BINDING|UBI_ID_EXCHANGE_BINDING]]
 
 ---
-**MOC:** [[05_FRAMEWORKS_MOC]]
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

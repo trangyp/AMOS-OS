@@ -27,7 +27,7 @@ rscf:
 **AMOS Core target:** `v4.4`
 **Origin architect / steward:** Trang Phan
 
-I broadened the corpus search beyond the literal filename. The relevant AMOS corpus contains major architecture/state artifacts including **AMOS [[ARCHITECTURE]]**, **AMOS OS**, the max-detail Reality Architecture master, and the Trang Reality Architecture corpus.
+I broadened the corpus search beyond the literal filename. The relevant AMOS corpus contains major architecture/state artifacts including **AMOS [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]**, **AMOS OS**, the max-detail Reality Architecture master, and the Trang Reality Architecture corpus.
 
 There is still no independently identified artifact titled `K_HML`. Therefore the document below is the **full kernel reconstruction consistent with the supplied AMOS v4.4 H/M/L contract**, not falsely presented as a verbatim historical source file.
 
@@ -780,9 +780,9 @@ does not establish three independent confirmations.
 
 H/M/L must therefore interact with:
 
-[[K_PROVENANCE]]
-[[K_PROVENANCE_TOPOLOGY]]
-[[K_SYBIL_HARDENING]]
+[[02_KERNEL/08_PROVENANCE/K_PROVENANCE|K_PROVENANCE]]
+[[02_KERNEL/08_PROVENANCE/K_PROVENANCE_TOPOLOGY|K_PROVENANCE_TOPOLOGY]]
+[[02_KERNEL/08_PROVENANCE/K_SYBIL_HARDENING|K_SYBIL_HARDENING]]
 
 ---
 
@@ -2594,7 +2594,7 @@ Required evidence:
 
 Until then:
 
-HML [[ARCHITECTURE]] = AMOS MODEL
+HML [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] = AMOS MODEL
 
 HML RETRIEVAL CONTRACT = AMOS v4.4 CANON-COMPATIBLE MODEL
 
@@ -2706,10 +2706,10 @@ So this is suitable as the **full `K_HML` canon-candidate specification**, but t
 
 ---
 
-[[00_ROOT_MOC]]|[[AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ---
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 ---
-**MOC:** [[09_INTEGRATION_MOC]]
+**MOC:** [[02_KERNEL/09_INTEGRATION/09_INTEGRATION_MOC|09_INTEGRATION_MOC]]

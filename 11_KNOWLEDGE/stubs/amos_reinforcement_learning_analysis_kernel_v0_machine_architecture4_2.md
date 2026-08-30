@@ -19,8 +19,8 @@ rscf:
 
 # amos reinforcement learning analysis kernel v0 machine architecture4 2
 
-Stub note for [[amos_reinforcement_learning_analysis_kernel_v0_machine_architecture4_2]].
+Stub note for [[11_KNOWLEDGE/stubs/amos_reinforcement_learning_analysis_kernel_v0_machine_architecture4_2|amos_reinforcement_learning_analysis_kernel_v0_machine_architecture4_2]].
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

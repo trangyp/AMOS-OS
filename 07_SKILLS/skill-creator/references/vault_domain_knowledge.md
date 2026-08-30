@@ -62,7 +62,7 @@ From md/Core/AMOS_Kernel_Routing_Workflow.md:
 
 | Kernel ID | Name | Priority | Required | Domains |
 |-----------|------|----------|----------|---------|
-| [[K_META_LOGIC]] | Meta Logic & Law Kernel | 10 | Yes | logic, law_of_law, reasoning |
+| [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]] | Meta Logic & Law Kernel | 10 | Yes | logic, law_of_law, reasoning |
 | K_MATH_COMPUTE | Math & Computation Kernel | 9 | Yes | math, compute, optimization |
 | K_BIO_NEURO | Biology & Neuro Kernel | 9 | Yes | ubi, biology, nervous_system |
 | K_MIND_BEHAVIOR | Mind, Emotion & Behaviour Kernel | 8 | Yes | psychology, emotion, behaviour |
@@ -75,17 +75,17 @@ From md/Core/AMOS_Kernel_Routing_Workflow.md:
 
 | Route | Match Tags | Kernels Activated |
 |-------|------------|-------------------|
-| ROUTE_EV | ev, charging, station, driver, fleet | [[K_META_LOGIC]], K_MATH_COMPUTE, K_EV_INFRA, K_UNIPOWER_OPS |
-| ROUTE_TECH | software, ai, architecture, system_design | [[K_META_LOGIC]], K_MATH_COMPUTE, K_TECH_ENGINE, K_UNIPOWER_TECH |
-| ROUTE_PSYCH | emotion, behaviour, psychology, ubi | [[K_META_LOGIC]], K_BIO_NEURO, K_MIND_BEHAVIOR |
-| ROUTE_DEFAULT | * (all) | [[K_META_LOGIC]], K_MATH_COMPUTE, K_BIO_NEURO |
+| ROUTE_EV | ev, charging, station, driver, fleet | [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]], K_MATH_COMPUTE, K_EV_INFRA, K_UNIPOWER_OPS |
+| ROUTE_TECH | software, ai, architecture, system_design | [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]], K_MATH_COMPUTE, K_TECH_ENGINE, K_UNIPOWER_TECH |
+| ROUTE_PSYCH | emotion, behaviour, psychology, ubi | [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]], K_BIO_NEURO, K_MIND_BEHAVIOR |
+| ROUTE_DEFAULT | * (all) | [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]], K_MATH_COMPUTE, K_BIO_NEURO |
 
 ## Proposed Future Skills
 
 These skills would extend coverage to domains currently served only by brain kernels:
 
 ### Reasoning Extensions
-1. **amos-multi-perspective** — Multi-perspective reasoning, bias detection, viewpoint comparison ([[K_META_LOGIC]] + K_MIND_BEHAVIOR)
+1. **amos-multi-perspective** — Multi-perspective reasoning, bias detection, viewpoint comparison ([[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]] + K_MIND_BEHAVIOR)
 2. **amos-counterfactual** — Counterfactual reasoning, what-if
 
 ---
@@ -112,7 +112,7 @@ Use this workflow to create new AMOS skills that extend the brain's capabilities
    - `communication/` — amos-expression-overlay
 
 2. Check the brain's kernel registry (md/Core/AMOS_Kernel_Routing_Workflow.md):
-   - [[K_META_LOGIC]] — logic, law_of_law, reasoning
+   - [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]] — logic, law_of_law, reasoning
 - K_MATH_COMPUTE — math, compute, optimization
    - K_BIO_NEURO — ubi, biology, nervous_system
 - K_MIND_BEHAVIOR — psychology, emotion, behaviour
@@ -224,11 +224,11 @@ Strategist_Agent → Context_Agent → Opportunity_Agent → Planner_Agent → R
 ## Per-Agent Quick Reference
 
 ### BRAIN_SYSTEM
-- Architecture_Agent: components → relationships → evaluation → ADR documentation. Kernels: [[K_META_LOGIC]]+K_TECH_ENGINE+K_UNIPOWER_TECH.
-- Decomposer_Agent: MECE decomposition, hidden sub-questions, dependency sequencing. Kernels: [[K_META_LOGIC]]+K_MATH_COMPUTE.
-- Planner_Agent: steps → dependencies → resources → roadmap with milestones. Kernels: [[K_META_LOGIC]]+K_MATH_COMPUTE+K_MIND_BEHAVIOR.
-- Reflection_Agent: L1-L6 audit → gaps → weaknesses → contradictions → prioritised improvements. Kernel: [[K_META_LOGIC]].
-- Strategist_Agent: actors/incentives → coalitions → game-theory analysis → strategic recommendations. Kernels: [[K_META_LOGIC]]+K_MIND_BEHAVIOR+K_MATH_COMPUTE.
+- Architecture_Agent: components → relationships → evaluation → ADR documentation. Kernels: [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]]+K_TECH_ENGINE+K_UNIPOWER_TECH.
+- Decomposer_Agent: MECE decomposition, hidden sub-questions, dependency sequencing. Kernels: [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]]+K_MATH_COMPUTE.
+- Planner_Agent: steps → dependencies → resources → roadmap with milestones. Kernels: [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]]+K_MATH_COMPUTE+K_MIND_BEHAVIOR.
+- Reflection_Agent: L1-L6 audit → gaps → weaknesses → contradictions → prioritised improvements. Kernel: [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]].
+- Strategist_Agent: actors/incentives → coalitions → game-theory analysis → strategic recommendations. Kernels: [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]]+K_MIND_BEHAVIOR+K_MATH_COMPUTE.
 
 ### EXECUTION_SYSTEM
 - Coding_Agent: requirements → design → generate → review → document. Security and quality gates.
@@ -242,14 +242,14 @@ Strategist_Agent → Context_Agent → Opportunity_Agent → Planner_Agent → R
 
 ## Related
 
-- [[07_SKILLS_MOC]]
+- [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 **MOC:** references_MOC
 
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 RSCF-NODE
@@ -257,7 +257,7 @@ node_id: skill-creator-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/skill-creator/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
-- INDEXED_BY: [[00_HOME]]
-- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
 

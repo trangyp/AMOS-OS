@@ -18,4 +18,4 @@ rscf:
 
 # MODEL INDEXING
 
-Stub note for [[MODEL_INDEXING]].
+Stub note for [[11_KNOWLEDGE/stubs/MODEL_INDEXING|MODEL_INDEXING]].

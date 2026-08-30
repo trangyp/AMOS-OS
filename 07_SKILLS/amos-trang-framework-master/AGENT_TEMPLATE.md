@@ -43,4 +43,4 @@ Domain master agent for AMOS Trang Framework Master. Consolidates 15 sub-skills.
 **MOC:** SKILL
 
 ---
-**MOC:** [[amos-trang-framework-master_MOC]]
+**MOC:** [[07_SKILLS/amos-trang-framework-master/amos-trang-framework-master_MOC|amos-trang-framework-master_MOC]]

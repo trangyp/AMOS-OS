@@ -31,8 +31,8 @@ rscf:
 - Open the skill: .agents/skills/amos-cognition-engine-layer
 
 ---
-**Links:** [[ENGINE_MOC]] | [[KNOWLEDGE_MOC]]
+**Links:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]] | [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

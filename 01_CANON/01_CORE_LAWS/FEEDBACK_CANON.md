@@ -3114,7 +3114,7 @@ feedback_dependencies:
     UNKNOWN/GAP
 
   governance:
-    - [[LAW_HIERARCHY]]
+    - [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
   implementation:
     UNKNOWN/GAP
@@ -4483,7 +4483,7 @@ Source-supported relation:
 ```text
 FEEDBACK_CANON
 ↓ GOVERNED_BY
-[[LAW_HIERARCHY]]
+[[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 ```
 
 Source-supported indexing:
@@ -4491,23 +4491,23 @@ Source-supported indexing:
 ```text
 FEEDBACK_CANON
 ↓ INDEXED_BY
-[[00_HOME]]
+[[00_ROOT/00_HOME|00_HOME]]
 
 FEEDBACK_CANON
 ↓ INDEXED_BY
-[[AMOS_RSCF_NODES]]
+[[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 ```
 
 Target integration points:
 
 ```text
-[[KERNEL_README]]
+[[02_KERNEL/KERNEL_README|KERNEL_README]]
 
-[[CONTROL_PLANE_README]]
+[[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
 
-[[OBSERVABILITY_README]]
+[[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]]
 
-[[OPERATIONS_README]]
+[[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 ```
 
 These references do not establish executable binding.
@@ -4597,7 +4597,7 @@ APPROVED
 Recovery may eventually bind through:
 
 ```text
-[[OPERATIONS_README]]
+[[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 ```
 
 Current executable recovery binding:
@@ -4679,7 +4679,7 @@ proof_capsule:
 
   dependencies:
     - AMOS_CANON_INGESTION_RULE
-    - [[LAW_HIERARCHY]]
+    - [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
   competing_explanations: []
 

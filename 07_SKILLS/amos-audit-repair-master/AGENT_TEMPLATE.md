@@ -43,4 +43,4 @@ Domain master agent for AMOS Audit & Repair Master. Consolidates 8 sub-skills.
 **MOC:** SKILL
 
 ---
-**MOC:** [[amos-audit-repair-master_MOC]]
+**MOC:** [[07_SKILLS/amos-audit-repair-master/amos-audit-repair-master_MOC|amos-audit-repair-master_MOC]]

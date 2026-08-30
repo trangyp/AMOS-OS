@@ -81,8 +81,8 @@ epistemic_boundary:
 `TSS_THE_TRANG_SYSTEM.md` is the canonical Knowledge Plane reference artifact for **The Trang System™ (TSS)** within `11_KNOWLEDGE/05_FRAMEWORKS`.
 
 It integrates the foundational models established in native vault manuals:
-- [[TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL]]
-- [[THE_SEVEN_CYCLES_OF_THE_TRANG_SYSTEM_OFFICIAL_M]]
+- [[11_KNOWLEDGE/trang/TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL|TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL]]
+- [[11_KNOWLEDGE/trang/THE_SEVEN_CYCLES_OF_THE_TRANG_SYSTEM_OFFICIAL_M|THE_SEVEN_CYCLES_OF_THE_TRANG_SYSTEM_OFFICIAL_M]]
 
 ---
 
@@ -118,10 +118,10 @@ The Trang System™ provides a universal language for interpreting how human-lin
 
 # 3. Inter-Plane & Cross-Framework Connections
 
-- **Cognitive Matrix:** [[AMOS_X_TSS]] and [[AMOS_X_TSS_TPE_MATRIX]] (Decision and foresight routing).
+- **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/AMOS_X_TSS|AMOS_X_TSS]] and [[25_COGNITIVE_MATRIX/AMOS_X_TSS_TPE_MATRIX|AMOS_X_TSS_TPE_MATRIX]] (Decision and foresight routing).
 - **Prediction Engine:** [[11_KNOWLEDGE/trang/TPE_TRANG_PREDICTION_ENGINE|TPE_TRANG_PREDICTION_ENGINE]] (Trajectory and window forecasting).
-- **Biological Grounding:** [[UNIFIED_BIOLOGICAL_INTELLIGENCE]] (Biological constraints on $\Omega$ and $H$).
-- **Ontological Grounding:** [[TRANG_REALITY_ARCHITECTURE]] ($P \to D \to R \to C \to F \to M$).
+- **Biological Grounding:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] (Biological constraints on $\Omega$ and $H$).
+- **Ontological Grounding:** [[11_KNOWLEDGE/trang/TRANG_REALITY_ARCHITECTURE|TRANG_REALITY_ARCHITECTURE]] ($P \to D \to R \to C \to F \to M$).
 - **Native Sources:** `11_KNOWLEDGE/trang/TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL`
 
 ---
@@ -149,7 +149,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/trang/TPE_TRANG_PREDICTION_ENGINE|TPE_TRANG_PREDICTION_ENGINE]] · [[UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[AMOS_X_TSS]] · [[AMOS_X_TSS_TPE_MATRIX]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/trang/TPE_TRANG_PREDICTION_ENGINE|TPE_TRANG_PREDICTION_ENGINE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[25_COGNITIVE_MATRIX/AMOS_X_TSS|AMOS_X_TSS]] · [[25_COGNITIVE_MATRIX/AMOS_X_TSS_TPE_MATRIX|AMOS_X_TSS_TPE_MATRIX]]
 
 ---
-**MOC:** [[05_FRAMEWORKS_MOC]]
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

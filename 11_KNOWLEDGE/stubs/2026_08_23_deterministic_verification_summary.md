@@ -17,8 +17,8 @@ rscf:
 
 # 2026 08 23 deterministic verification summary
 
-Stub note for [[2026_08_23_deterministic_verification_summary]].
+Stub note for [[11_KNOWLEDGE/stubs/2026_08_23_deterministic_verification_summary|2026_08_23_deterministic_verification_summary]].
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

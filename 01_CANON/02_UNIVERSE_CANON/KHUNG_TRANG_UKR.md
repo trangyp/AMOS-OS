@@ -19,8 +19,8 @@ rscf:
 Universal knowledge representation framework governing lossless cross-plane abstraction translation.
 
 ## Related
-- [[KHUNG_TRANG_CANON]] · [[11_KNOWLEDGE_MOC]]
+- [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_CANON|KHUNG_TRANG_CANON]] · [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE_MOC]]
 
 ---
 
-**MOC:** [[00_INDEX_MOC]] · [[00_HOME]]
+**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

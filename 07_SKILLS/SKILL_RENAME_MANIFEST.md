@@ -135,4 +135,4 @@ rscf:
 | `amos-vomni-master-kernel` | `amos-master-kernel` | DECORATIVE:vomni | `AMOS` |  |
 
 ---
-**MOC:** [[07_SKILLS_MOC]]
+**MOC:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

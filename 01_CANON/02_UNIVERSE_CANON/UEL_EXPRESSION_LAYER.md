@@ -19,4 +19,4 @@ Universal expression and translation layer mapping formal logical proofs to natu
 
 ---
 
-**MOC:** [[00_INDEX_MOC]] · [[00_HOME]]
+**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

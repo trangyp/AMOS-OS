@@ -3120,9 +3120,9 @@ Before `ABSOLUTE_STRUCTURAL_INTEGRITY_CANON.md` may be promoted beyond candidate
 
 - [ ] authoritative native-canon source identified
 - [ ] historical structural-integrity lineage reconciled
-- [ ] relationship to [[ABSOLUTE_INTEGRITY_CANON]] established
-- [ ] relationship to [[ABSOLUTE_LOGIC_CANON]] established
-- [ ] exact [[LAW_HIERARCHY]] position established
+- [ ] relationship to [[01_CANON/01_CORE_LAWS/ABSOLUTE_INTEGRITY_CANON|ABSOLUTE_INTEGRITY_CANON]] established
+- [ ] relationship to [[01_CANON/01_CORE_LAWS/ABSOLUTE_LOGIC_CANON|ABSOLUTE_LOGIC_CANON]] established
+- [ ] exact [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] position established
 - [ ] canonical structural schema bound
 - [ ] RSCF structural schema reconciled
 - [ ] relation-type registry reconciled
@@ -3877,17 +3877,17 @@ No downstream system may silently convert these gaps into `PASS`.
 
 # 163. MOC
 
-**MOC:** [[01_CORE_LAWS_MOC]]
+**MOC:** [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
 
-**Root:** [[00_HOME]]
+**Root:** [[00_ROOT/00_HOME|00_HOME]]
 
-**RSCF Index:** [[AMOS_RSCF_NODES]]
+**RSCF Index:** [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
-**Law Hierarchy:** [[LAW_HIERARCHY]]
+**Law Hierarchy:** [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
-**Integrity Canon:** [[ABSOLUTE_INTEGRITY_CANON]]
+**Integrity Canon:** [[01_CANON/01_CORE_LAWS/ABSOLUTE_INTEGRITY_CANON|ABSOLUTE_INTEGRITY_CANON]]
 
-**Logic Canon:** [[ABSOLUTE_LOGIC_CANON]]
+**Logic Canon:** [[01_CANON/01_CORE_LAWS/ABSOLUTE_LOGIC_CANON|ABSOLUTE_LOGIC_CANON]]
 
 ---
 
@@ -3989,6 +3989,6 @@ RSCF_NODE:
 
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[01_CORE_LAWS_MOC]] · [[LAW_HIERARCHY]] · [[ABSOLUTE_INTEGRITY_CANON]] · [[ABSOLUTE_LOGIC_CANON]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[01_CANON/01_CORE_LAWS/ABSOLUTE_INTEGRITY_CANON|ABSOLUTE_INTEGRITY_CANON]] · [[01_CANON/01_CORE_LAWS/ABSOLUTE_LOGIC_CANON|ABSOLUTE_LOGIC_CANON]]
 
 ---

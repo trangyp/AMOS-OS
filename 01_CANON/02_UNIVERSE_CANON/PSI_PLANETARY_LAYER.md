@@ -19,8 +19,8 @@ rscf:
 Specifies the planetary-scale feedback loops, ecological carrying capacities, and biosphere telemetry integration.
 
 ## Related
-- [[08_PLANETARY_MOC]] · [[02_UNIVERSE_CANON_MOC]]
+- [[08_PLANETARY/08_PLANETARY_MOC|08_PLANETARY_MOC]] · [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]
 
 ---
 
-**MOC:** [[00_INDEX_MOC]] · [[00_HOME]]
+**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

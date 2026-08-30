@@ -3091,11 +3091,11 @@ The governing Core Laws principle is:
 
 ---
 
-[[00_ROOT_MOC]]|[[AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ---
 
-**Related:** [[00_HOME]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]]
 
 ---
 
@@ -3116,10 +3116,10 @@ node_id: canon_core_laws_contract
 node_type: note
 path: 01_CANON/01_CORE_LAWS/CANON_CORE_LAWS_CONTRACT.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_HOME]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 
 ---
-**MOC:** [[01_CORE_LAWS_MOC]]
+**MOC:** [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
 

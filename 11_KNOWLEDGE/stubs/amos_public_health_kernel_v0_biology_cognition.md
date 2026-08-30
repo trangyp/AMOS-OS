@@ -20,8 +20,8 @@ rscf:
 
 # amos public health kernel v0 biology cognition
 
-Stub note for [[amos_public_health_kernel_v0_biology_cognition]].
+Stub note for [[11_KNOWLEDGE/stubs/amos_public_health_kernel_v0_biology_cognition|amos_public_health_kernel_v0_biology_cognition]].
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

@@ -36,7 +36,7 @@ rscf:
 - `index.md` — content catalog.
 - `log.md` — chronological activity log.
 
-See [[karpathy_llm_wiki_summary]] for an AMOS-vault interpretation.
+See [[11_KNOWLEDGE/LLM_WIKI/wiki/karpathy_llm_wiki_summary|karpathy_llm_wiki_summary]] for an AMOS-vault interpretation.
 
 ---
 RSCF-NODE
@@ -44,9 +44,9 @@ node_id: karpathy_llm_wiki_gist
 node_type: source
 path: 11_KNOWLEDGE/LLM_WIKI/raw/karpathy_llm_wiki_gist.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[LLM_WIKI_RAW_README]]
-  - SUMMARIZED_BY: [[karpathy_llm_wiki_summary]]
+  - INDEXED_BY: [[11_KNOWLEDGE/LLM_WIKI/raw/LLM_WIKI_RAW_README|LLM_WIKI_RAW_README]]
+  - SUMMARIZED_BY: [[11_KNOWLEDGE/LLM_WIKI/wiki/karpathy_llm_wiki_summary|karpathy_llm_wiki_summary]]
 claim_class: SOURCE_CLAIM
 
 ---
-**MOC:** [[LLM_WIKI_MOC]]
+**MOC:** [[11_KNOWLEDGE/LLM_WIKI/LLM_WIKI_MOC|LLM_WIKI_MOC]]

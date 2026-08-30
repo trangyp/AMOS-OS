@@ -306,7 +306,7 @@ Live workspace count: **678 JSON agents** (non-arxiv + arxiv-index). The full pe
 Total: **337 agents (JSON), 0 non-arxiv skills without agents**.
 
 ---
-**Related:** [[00_HOME]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]]
 
 ---
 ```RSCF-NODE
@@ -320,4 +320,4 @@ claim_class: AMOS_MODEL
 ```
 
 ---
-**MOC:** [[06_AGENTS_MOC]]
+**MOC:** [[06_AGENTS/06_AGENTS_MOC|06_AGENTS_MOC]]

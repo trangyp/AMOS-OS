@@ -158,7 +158,7 @@ This workflow has been consolidated into `amos-engines-master-workflow.md`.
 Use `amos-engines-master-workflow.md` instead. Thi
 
 ---
-**MOC:** [[08_WORKFLOWS_MOC]]
+**MOC:** [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS_MOC]]
 
 ## Orchestration Pattern
 

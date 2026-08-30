@@ -18,8 +18,8 @@ rscf:
 
 # amos quantum stack v0 core
 
-Stub note for [[amos_quantum_stack_v0_core]].
+Stub note for [[11_KNOWLEDGE/stubs/amos_quantum_stack_v0_core|amos_quantum_stack_v0_core]].
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

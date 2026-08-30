@@ -167,5 +167,5 @@ The engine will infer the mode and respond with a structured, high-quality draft
 ```
 
 ---
-**MOC:** [[ENGINE_MOC]]
+**MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]
 

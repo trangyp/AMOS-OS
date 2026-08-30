@@ -19,8 +19,8 @@ rscf:
 
 Stub note for [[11_KNOWLEDGE/stubs/brain_moc|brain_moc]] — Cosmo brain & cognitive modules.
 
-The Cosmo Brain vault is indexed by [[COSMO_BRAIN_BRIDGE_INDEX]]. See also [[00_COSMO_BRAIN_MOC]] in `00_ROOT/`.
+The Cosmo Brain vault is indexed by [[11_KNOWLEDGE/COSMO_BRAIN_BRIDGE_INDEX|COSMO_BRAIN_BRIDGE_INDEX]]. See also [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]] in `00_ROOT/`.
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

@@ -116,7 +116,7 @@ Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic clas
 6. **Apply to New Inference**: Apply r
 
 ---
-**MOC:** [[08_WORKFLOWS_MOC]]
+**MOC:** [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS_MOC]]
 
 ## Operations
 

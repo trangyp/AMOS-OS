@@ -121,7 +121,7 @@ Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic clas
    - Record C05 emotion state (5
 
 ---
-**MOC:** [[08_WORKFLOWS_MOC]]
+**MOC:** [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS_MOC]]
 
 ## Operations
 

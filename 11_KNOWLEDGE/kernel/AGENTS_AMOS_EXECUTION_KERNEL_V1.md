@@ -17,7 +17,7 @@ rscf:
   scope: AMOS_knowledge
 ---
 
-# [[AGENTS]] AMOS EXECUTION KERNEL V1 — Full Canonical Expansion
+# [[AGENTS|AGENTS]] AMOS EXECUTION KERNEL V1 — Full Canonical Expansion
 
 ## 0. Normalized Source Frontmatter
 
@@ -4948,6 +4948,6 @@ core_law:
     answer through fluent prose.
 ```
 
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
 
-**MOC:** [[KERNEL_MOC]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

@@ -40,9 +40,9 @@ The **AMOS Cognition Infinity Kernel** (`AMOS_COGNITION_INFINITY_KERNEL`) define
 - It applies **Biological Logic**, anchoring analysis in human processing limits, neurobiology, and trauma/stress cycles.
 
 ## Links
-- [[00_COSMO_BRAIN_MOC]]
+- [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]
 - Mind_OS_Model
 - OS_Agent_Model
 
 ---
-**MOC:** [[ENGINE_MOC]]
+**MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]

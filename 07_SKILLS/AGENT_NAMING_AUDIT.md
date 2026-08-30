@@ -149,4 +149,4 @@ Decorative/suffix tokens removed from filenames: `full`, `complete`, `super`, `u
 `depends_on_skills` arrays were re-pointed at the canonical post-rename skill names in each tree. The full manifest is in `07_SKILLS/AGENT_RENAME_PASS.json`.
 
 ---
-**MOC:** [[07_SKILLS_MOC]]
+**MOC:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

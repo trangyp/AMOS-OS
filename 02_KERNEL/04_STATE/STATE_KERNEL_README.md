@@ -29,18 +29,18 @@ rscf:
 The Kernel plane governs kernel-plane reasoning primitives: meta-logic, cognition, causality, state, memory, risk-repair, authority, provenance, integration. Normative load-bearing content lives in the sibling contract(s); this readme orients navigation.
 
 ## Sibling artifacts
-- [[KERNEL_STATE_CONTRACT]]
-- [[K_CONTEXT_STATE]]
-- [[K_EVENT_BUS]]
-- [[K_IDENTITY]]
-- [[K_SYSTEM_STATE]]
-- [[K_WORLD_MODEL]]
+- [[02_KERNEL/04_STATE/KERNEL_STATE_CONTRACT|KERNEL_STATE_CONTRACT]]
+- [[02_KERNEL/04_STATE/K_CONTEXT_STATE|K_CONTEXT_STATE]]
+- [[02_KERNEL/04_STATE/K_EVENT_BUS|K_EVENT_BUS]]
+- [[02_KERNEL/04_STATE/K_IDENTITY|K_IDENTITY]]
+- [[02_KERNEL/04_STATE/K_SYSTEM_STATE|K_SYSTEM_STATE]]
+- [[02_KERNEL/04_STATE/K_WORLD_MODEL|K_WORLD_MODEL]]
 
 ## Contract discipline
 Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
 
 ## Gaps
-Executable binding PARTIAL unless an executed validation receipt exists for this subsystem ([[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
+Executable binding PARTIAL unless an executed validation receipt exists for this subsystem ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
 ## Worked semantics
 Given an operation touching `STATE · KERNEL README` within the Kernel plane:
 1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
@@ -60,17 +60,17 @@ Given an operation touching `STATE · KERNEL README` within the Kernel plane:
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 ---
 
-[[00_ROOT_MOC]]|[[AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ---
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -80,7 +80,7 @@ path: 02_KERNEL/04_STATE/STATE_KERNEL_README.md
 claim_class: AMOS_MODEL
 
 ---
-**MOC:** [[04_STATE_MOC]]
+**MOC:** [[02_KERNEL/04_STATE/04_STATE_MOC|04_STATE_MOC]]
 
 ---
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -101,8 +101,8 @@ rscf:
   claim_class: AMOS_MODEL
   provenance:
   - 25_COGNITIVE_MATRIX/ULK_X_RSCF_MATRIX.md
-  - '[[ULK_X_RSCF]]'
-  - '[[ULK_LOGIC_KERNEL]]'
+  - '[[25_COGNITIVE_MATRIX/ULK_X_RSCF|ULK_X_RSCF]]'
+  - '[[02_KERNEL/ULK_LOGIC_KERNEL|ULK_LOGIC_KERNEL]]'
   - AMOS_CORPUS
   scope:
   - COGNITIVE_MATRIX
@@ -165,7 +165,7 @@ epistemic_boundary:
 | **ALU-5 ($\mathcal{H}$)** | `UNKNOWN / SOURCE BLANK` | SHA-256 state hash verified | Merkle Verification Fail |
 
 > [!warning] Source normalization
-> The supplied text contains formatting corruption around the ALU-0 arrow and ALU-4 symbol. This note normalizes them as `\emptyset \to S_0` and `\tau` for readable Obsidian/LaTeX rendering. If the authoritative [[ULK_LOGIC_KERNEL]] defines different symbols, that artifact supersedes this normalization.
+> The supplied text contains formatting corruption around the ALU-0 arrow and ALU-4 symbol. This note normalizes them as `\emptyset \to S_0` and `\tau` for readable Obsidian/LaTeX rendering. If the authoritative [[02_KERNEL/ULK_LOGIC_KERNEL|ULK_LOGIC_KERNEL]] defines different symbols, that artifact supersedes this normalization.
 
 ---
 
@@ -221,7 +221,7 @@ within this artifact.
 
 This artifact is the operational matrix counterpart of:
 
-[[ULK_X_RSCF]]
+[[25_COGNITIVE_MATRIX/ULK_X_RSCF|ULK_X_RSCF]]
 
 The relationship is:
 
@@ -253,7 +253,7 @@ This matrix remains the preferred authority for the supplied row-level mappings.
 
 The matrix explicitly binds to:
 
-[[ULK_LOGIC_KERNEL]]
+[[02_KERNEL/ULK_LOGIC_KERNEL|ULK_LOGIC_KERNEL]]
 
 Therefore the operator identities:
 
@@ -350,11 +350,11 @@ The matrix does not define:
 
 Therefore these remain dependent on:
 
-[[ULK_LOGIC_KERNEL]]
+[[02_KERNEL/ULK_LOGIC_KERNEL|ULK_LOGIC_KERNEL]]
 
 and/or:
 
-[[ULK_X_RSCF]].
+[[25_COGNITIVE_MATRIX/ULK_X_RSCF|ULK_X_RSCF]].
 
 ---
 
@@ -463,7 +463,7 @@ Nor does it specify:
 - invertibility;
 - decomposition algorithm.
 
-Those details remain unresolved unless defined in [[ULK_LOGIC_KERNEL]].
+Those details remain unresolved unless defined in [[02_KERNEL/ULK_LOGIC_KERNEL|ULK_LOGIC_KERNEL]].
 
 ---
 
@@ -592,7 +592,7 @@ type_system:
     UNKNOWN
 ```
 
-These should be resolved through [[ULK_LOGIC_KERNEL]] rather than inferred.
+These should be resolved through [[02_KERNEL/ULK_LOGIC_KERNEL|ULK_LOGIC_KERNEL]] rather than inferred.
 
 ---
 
@@ -791,7 +791,7 @@ ALU-2 → RSCF.L
 
 or any similar reconstruction.
 
-Those would be fabricated unless established by [[ULK_X_RSCF]] or another canonical dependency.
+Those would be fabricated unless established by [[25_COGNITIVE_MATRIX/ULK_X_RSCF|ULK_X_RSCF]] or another canonical dependency.
 
 Canonical state:
 
@@ -825,11 +825,11 @@ Because this is explicitly a **ULK × RSCF** matrix, the blank RSCF column is de
 
 The cheapest discriminating dependency is:
 
-[[ULK_X_RSCF]]
+[[25_COGNITIVE_MATRIX/ULK_X_RSCF|ULK_X_RSCF]]
 
 Then:
 
-[[ULK_LOGIC_KERNEL]]
+[[02_KERNEL/ULK_LOGIC_KERNEL|ULK_LOGIC_KERNEL]]
 
 Only if those artifacts do not resolve the mappings should deeper source evidence be loaded.
 
@@ -1025,7 +1025,7 @@ FAIL
 
 But these meanings are **MODEL interpretations**, not explicit source definitions.
 
-Canonical runtime semantics remain dependent on [[ULK_LOGIC_KERNEL]].
+Canonical runtime semantics remain dependent on [[02_KERNEL/ULK_LOGIC_KERNEL|ULK_LOGIC_KERNEL]].
 
 ---
 
@@ -1780,8 +1780,8 @@ No hypothesis should be promoted without discriminating evidence.
 
 Priority order:
 
-1. [[ULK_X_RSCF]]
-2. [[ULK_LOGIC_KERNEL]]
+1. [[25_COGNITIVE_MATRIX/ULK_X_RSCF|ULK_X_RSCF]]
+2. [[02_KERNEL/ULK_LOGIC_KERNEL|ULK_LOGIC_KERNEL]]
 3. authoritative RSCF schema
 4. constitutional law definitions
 5. executable binding
@@ -2682,15 +2682,15 @@ SHA-256 State Hash Verified
 ```
 Its specification counterpart is:
 
-[[ULK_X_RSCF]]
+[[25_COGNITIVE_MATRIX/ULK_X_RSCF|ULK_X_RSCF]]
 
 Its Universal Logic Kernel authority is:
 
-[[ULK_LOGIC_KERNEL]]
+[[02_KERNEL/ULK_LOGIC_KERNEL|ULK_LOGIC_KERNEL]]
 
 Its parent plane is:
 
-[[25_COGNITIVE_MATRIX_MOC]]
+[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
 The decisive unresolved field is:
 
@@ -2760,16 +2760,16 @@ within the supplied AMOS model matrix.
 
 ## Inter-Plane Connections
 
-- **Specification:** [[ULK_X_RSCF]]
-- **Universal Logic Kernel:** [[ULK_LOGIC_KERNEL]]
-- **Cognitive Matrix Plane:** [[25_COGNITIVE_MATRIX_MOC]]
+- **Specification:** [[25_COGNITIVE_MATRIX/ULK_X_RSCF|ULK_X_RSCF]]
+- **Universal Logic Kernel:** [[02_KERNEL/ULK_LOGIC_KERNEL|ULK_LOGIC_KERNEL]]
+- **Cognitive Matrix Plane:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
 ## Functional Connections
 
 - **RSCF:** RSCF
 - **Scope Firewall:** K_SCOPE_FIREWALL
-- **Fail-Closed Governance:** [[K_FAIL_CLOSED]]
-- **Provenance:** [[K_PROVENANCE]]
+- **Fail-Closed Governance:** [[02_KERNEL/K_FAIL_CLOSED|K_FAIL_CLOSED]]
+- **Provenance:** [[02_KERNEL/08_PROVENANCE/K_PROVENANCE|K_PROVENANCE]]
 - **Causal Firewall:** K_CAUSAL_FIREWALL
 
 > [!note]
@@ -2779,15 +2779,15 @@ within the supplied AMOS model matrix.
 
 # 76. Obsidian Navigation Footer
 
-**Home:** [[00_HOME]]
+**Home:** [[00_ROOT/00_HOME|00_HOME]]
 
-**RSCF Index:** [[AMOS_RSCF_NODES]]
+**RSCF Index:** [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
-**Plane:** [[25_COGNITIVE_MATRIX_MOC]]
+**Plane:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
-**Specification:** [[ULK_X_RSCF]]
+**Specification:** [[25_COGNITIVE_MATRIX/ULK_X_RSCF|ULK_X_RSCF]]
 
-**Universal Logic Kernel:** [[ULK_LOGIC_KERNEL]]
+**Universal Logic Kernel:** [[02_KERNEL/ULK_LOGIC_KERNEL|ULK_LOGIC_KERNEL]]
 
 ---
 
@@ -2906,11 +2906,11 @@ RSCF-RELATIONS:
 
 ---
 
-**MOC:** [[25_COGNITIVE_MATRIX_MOC]]
+**MOC:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
-**Specification:** [[ULK_X_RSCF]]
+**Specification:** [[25_COGNITIVE_MATRIX/ULK_X_RSCF|ULK_X_RSCF]]
 
-**Universal Logic Kernel:** [[ULK_LOGIC_KERNEL]]
+**Universal Logic Kernel:** [[02_KERNEL/ULK_LOGIC_KERNEL|ULK_LOGIC_KERNEL]]
 
 ---
 

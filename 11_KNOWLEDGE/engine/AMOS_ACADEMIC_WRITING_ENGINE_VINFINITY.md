@@ -229,7 +229,7 @@ Includes: Research_Gap_Mapping, Academic_Definition_Expander, Academic_Compressi
 **Conclusion**: SOURCE — The most comprehensive academic writing engine ever specified. 9-layer core stack + 24-module missing expansion + 100-module x10 expansion + 9-layer META_FINAL closure. Covers full research lifecycle from problem formulation through publication and scholarly trajectory. Multi-domain, multi-venue, multi-role, cross-lingual, multimodal. Integrity-first with hallucination controls, reproducibility requirements, and argumentation rigor. Production-ready for any academic writing task across all disciplines.
 
 ---
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
 
 ---
-**MOC:** [[ENGINE_MOC]]
+**MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]

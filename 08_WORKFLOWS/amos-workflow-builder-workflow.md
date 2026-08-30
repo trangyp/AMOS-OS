@@ -131,7 +131,7 @@ The workflow produces a structured result containing:
 - If authority witness is stale or missing: block write-classified capabilities, fail closed.
 
 ---
-**MOC:** [[08_WORKFLOWS_MOC]]
+**MOC:** [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS_MOC]]
 
 ## Orchestration Pattern
 

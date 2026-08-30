@@ -1826,5 +1826,5 @@ For future `full` requests on these matrix artifacts, I’ll use this depth as t
 
 ---
 
-**MOC:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]
+**MOC:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
 

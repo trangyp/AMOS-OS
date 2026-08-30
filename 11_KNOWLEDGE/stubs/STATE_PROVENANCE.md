@@ -18,4 +18,4 @@ rscf:
 
 # STATE PROVENANCE
 
-Stub note for [[STATE_PROVENANCE]].
+Stub note for [[11_KNOWLEDGE/stubs/STATE_PROVENANCE|STATE_PROVENANCE]].

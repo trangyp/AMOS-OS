@@ -137,11 +137,11 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **G4 (Anti-overreach)**: No claim beyond the skill's d
 
 ---
-**Links:** [[07_SKILLS_MOC]]
+**Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
 
-- [[amos-retrieval-conditioned-orchestration-budget-rscf_MOC]]
+- [[07_SKILLS/amos-retrieval-conditioned-orchestration-budget-rscf/amos-retrieval-conditioned-orchestration-budget-rscf_MOC|amos-retrieval-conditioned-orchestration-budget-rscf_MOC]]
 
 ## Examples
 
@@ -220,11 +220,11 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - `amos-retrieval-conditioned-orchestration-budget-rscf-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
-**MOC:** [[07_SKILLS_MOC]]
+**MOC:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 RSCF-NODE
@@ -232,6 +232,6 @@ node_id: amos-retrieval-conditioned-orchestration-budget-rscf
 node_type: skill
 path: 07_SKILLS/amos-retrieval-conditioned-orchestration-budget-rscf/SKILL.md
 RSCF-RELATIONS:
-- INDEXED_BY: [[00_HOME]]
-- INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[07_SKILLS_MOC]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+- CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

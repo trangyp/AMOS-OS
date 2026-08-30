@@ -170,7 +170,7 @@ Specialises in: AI augmentation, BCI, robotics integration, digital transformati
 
 ## Floating Economy Research
 Key insight: Value comes from **maintaining optimal states** (continuity economics), not task completion. The floating economy operates through:
-- **[[RATPAK]]**: Real-time sensor fusion, predictive intervention
+- **[[11_KNOWLEDGE/05_FRAMEWORKS/RATPAK|RATPAK]]**: Real-time sensor fusion, predictive intervention
 - **NEUROPAK**: BCI for subconscious pattern recognition
 - **MyNeuralSignal**: Cognitive guardian monitoring load/drift
 - **AHC**: Just-in-time training for human-AI collaboration
@@ -243,14 +243,14 @@ Key insight: Value comes from **maintaining optimal states** (continuity economi
 
 ## Related
 
-- [[07_SKILLS_MOC]]
+- [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 **MOC:** references_MOC
 
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 RSCF-NODE
@@ -258,6 +258,6 @@ node_id: amos-distinction-relation-transformation-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-distinction-relation-transformation/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
-- INDEXED_BY: [[00_HOME]]
-- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

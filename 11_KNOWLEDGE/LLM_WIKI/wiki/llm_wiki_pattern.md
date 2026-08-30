@@ -45,8 +45,8 @@ node_id: llm_wiki_pattern
 node_type: concept
 path: 11_KNOWLEDGE/LLM_WIKI/wiki/llm_wiki_pattern.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[LLM_WIKI_INDEX]]
-  - DERIVED_FROM: [[karpathy_llm_wiki_summary]]
+  - INDEXED_BY: [[11_KNOWLEDGE/LLM_WIKI/wiki/LLM_WIKI_INDEX|LLM_WIKI_INDEX]]
+  - DERIVED_FROM: [[11_KNOWLEDGE/LLM_WIKI/wiki/karpathy_llm_wiki_summary|karpathy_llm_wiki_summary]]
 claim_class: DERIVED
 
 ---

@@ -1718,7 +1718,7 @@ proof_capsule:
 | COGNITIVE_ORGANISM |                No |       Yes |        Internal reasoning |                      No |
 | AGENT              |                No |   Limited |            Local contract |                      No |
 | SKILL              |                No |   Limited |           Procedure-local |                      No |
-| [[WORKFLOW]]           |                No |       Yes |       Orchestration gates |                      No |
+| [[08_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW|WORKFLOW]]           |                No |       Yes |       Orchestration gates |                      No |
 | MODEL              |                No |  Advisory |                        No |                      No |
 | TOOL               |                No |        No |           Capability only |                      No |
 
@@ -2160,17 +2160,17 @@ UNKNOWN/GAP != PASS
 
 ---
 
-**Related:** README|AMOS OS · [[00_ROOT_MOC]]|MOC · [[ARCHITECTURE]]|Architecture · [[SYSTEM_MAP]]|System Map · [[AUTHORITATIVE_STATE]]|Authoritative State · [[PLACEMENT_RULES]]|Placement Rules · AMOS Canon · [[CANON_MAP]]|Canon Map · [[AMOS_CORE_LAWS|AMOS Core Laws]] · [[KERNEL_MAP]]|Kernel Map · [[CONTROL_PLANE_MAP]]|Control Plane Map · [[RUNTIME_MAP]]|Runtime Map · [[MEMORY_MEMORY_MAP]]|Memory Map · [[AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS Full Brain OS Architecture]] · [[STATE_STATE_MAP]]|State Map · [[SCHEMA_MAP]]|Schema Map · [[OBSERVABILITY_OBSERVABILITY_MAP]]|Observability Map · [[SECURITY_MAP]]|Security Map · [[TEST_MAP]]|Tests · [[OPERATIONS_MAP]]|Operations
+**Related:** README|AMOS OS · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|MOC · [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]|Architecture · [[00_ROOT/SYSTEM_MAP|SYSTEM_MAP]]|System Map · [[00_ROOT/AUTHORITATIVE_STATE|AUTHORITATIVE_STATE]]|Authoritative State · [[00_ROOT/PLACEMENT_RULES|PLACEMENT_RULES]]|Placement Rules · AMOS Canon · [[01_CANON/00_INDEX/CANON_MAP|CANON_MAP]]|Canon Map · [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|AMOS Core Laws]] · [[02_KERNEL/00_INDEX/KERNEL_MAP|KERNEL_MAP]]|Kernel Map · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP|CONTROL_PLANE_MAP]]|Control Plane Map · [[04_RUNTIME/00_INDEX/RUNTIME_MAP|RUNTIME_MAP]]|Runtime Map · [[10_MEMORY/00_INDEX/MEMORY_MEMORY_MAP|MEMORY_MEMORY_MAP]]|Memory Map · [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS Full Brain OS Architecture]] · [[12_STATE/00_INDEX/STATE_STATE_MAP|STATE_STATE_MAP]]|State Map · [[16_SCHEMAS/00_INDEX/SCHEMA_MAP|SCHEMA_MAP]]|Schema Map · [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_OBSERVABILITY_MAP|OBSERVABILITY_OBSERVABILITY_MAP]]|Observability Map · [[18_SECURITY/00_INDEX/SECURITY_MAP|SECURITY_MAP]]|Security Map · [[19_TESTS/00_INDEX/TEST_MAP|TEST_MAP]]|Tests · [[20_OPERATIONS/00_INDEX/OPERATIONS_MAP|OPERATIONS_MAP]]|Operations
 
 ```
 ```
 
 ---
 
-[[00_ROOT_MOC]]|[[AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ---
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -2178,10 +2178,10 @@ node_id: invariant_registry
 node_type: note
 path: 01_CANON/01_CORE_LAWS/INVARIANT_REGISTRY.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_HOME]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 
 ---
-**MOC:** [[01_CORE_LAWS_MOC]]
+**MOC:** [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
 

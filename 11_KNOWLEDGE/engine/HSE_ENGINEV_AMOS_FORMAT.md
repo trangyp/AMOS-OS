@@ -5997,7 +5997,7 @@ HSE_GLOBAL_ENGINE_V1:
         meaning: "phá hệ – risk cao"
 
   # ============================================================
-  # 14. PROMPT [[ARCHITECTURE]] – HOW TO DRIVE AN AI
+  # 14. PROMPT [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] – HOW TO DRIVE AN AI
   # ============================================================
   prompt_architecture:
     system_prompt_core: >
@@ -6069,7 +6069,7 @@ HSE_GLOBAL_ENGINE_V1:
 This block adds every missing module that completes global coverage for:
 195 COUNTRIES
 7,000+ CULTURAL PATTERNS (schema-level)
-GLOBAL ECONOMIC [[ARCHITECTURE]]
+GLOBAL ECONOMIC [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 SECTOR × COUNTRY MATRIX
 MACRO BANDS
 TRADE / EXPOSURE
@@ -6208,7 +6208,7 @@ REGION_PROFILE {
 }
 
 ===========================================================
-III. GLOBAL ECONOMIC [[ARCHITECTURE]] (COUNTRY-LEVEL)
+III. GLOBAL ECONOMIC [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] (COUNTRY-LEVEL)
 ===========================================================
 
 1. MACRO BANDS (global)
@@ -6230,7 +6230,7 @@ TRADE_STRUCTURE {
     trade_concentration_risk_band
 }
 
-3. BALANCE-SHEET [[ARCHITECTURE]]
+3. BALANCE-SHEET [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 -------------------------------------
 BALANCE_SHEET_BANDS {
     public_debt_stress_band,
@@ -6348,7 +6348,7 @@ COUNTRY_CYCLE_SENSITIVITY {
 }
 
 ===========================================================
-VIII. GLOBAL LABOR + SKILL [[ARCHITECTURE]]
+VIII. GLOBAL LABOR + SKILL [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 ===========================================================
 
 SKILL_CLUSTER {
@@ -6398,7 +6398,7 @@ GLOBAL_INFRA_LAYER {
 }
 
 ===========================================================
-X. GLOBAL SOCIO-RISK [[ARCHITECTURE]]
+X. GLOBAL SOCIO-RISK [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 ===========================================================
 
 SOCIAL_RISK_MODEL {
@@ -8781,7 +8781,7 @@ CONTENTS:
 27. Final Canon Lock Layer
 
 ====================================================================
-19. GLOBAL PSYCHOLOGICAL [[ARCHITECTURE]]
+19. GLOBAL PSYCHOLOGICAL [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 ====================================================================
 
 Definition:
@@ -8846,7 +8846,7 @@ decision_style_map
 conflict_behavior_map
 
 ====================================================================
-20. GLOBAL ORGANIZATIONAL [[ARCHITECTURE]]
+20. GLOBAL ORGANIZATIONAL [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 ====================================================================
 
 Definition:
@@ -10854,7 +10854,7 @@ END OF PART 3/60
 =========================
 
 ==========================================================
-GLOBAL REGION MATRICES — BASE [[ARCHITECTURE]] v1.0
+GLOBAL REGION MATRICES — BASE [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] v1.0
 ==========================================================
 This layer establishes:
 - 5 global regions
@@ -11877,7 +11877,7 @@ SECTION_VALIDITY_CHECKS:
 === END ===
 
 ---
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
 
 ---
-**MOC:** [[ENGINE_MOC]]
+**MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]

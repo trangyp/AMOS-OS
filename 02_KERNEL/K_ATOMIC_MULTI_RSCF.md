@@ -39,7 +39,7 @@ Where:
 - $\mathcal{R}_{\text{read}} = \{r_1, r_2, \dots, r_m\}$: Set of read RSCF node dependencies with read-epoch timestamps.
 - $\mathcal{W}_{\text{write}} = \{w_1, w_2, \dots, w_n\}$: Set of staged RSCF mutations and new claim assertions.
 - $\mathcal{P}_{\text{proofs}} = \{p_1, p_2, \dots, p_k\}$: Verification capsules required to certify mutations.
-- $\mathcal{I}_{\text{invariants}}$: Set of cross-plane invariant predicates (e.g. [[L0_INTEGRITY]], [[L3_DEPENDENCY]], [[L5_SCOPE_REGIME]]).
+- $\mathcal{I}_{\text{invariants}}$: Set of cross-plane invariant predicates (e.g. [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]], [[01_CANON/01_CORE_LAWS/L3_DEPENDENCY|L3_DEPENDENCY]], [[01_CANON/01_CORE_LAWS/L5_SCOPE_REGIME|L5_SCOPE_REGIME]]).
 
 ### The Atomic Commit Predicate
 
@@ -63,14 +63,14 @@ $$\text{Commit}(\mathbb{T}) = 0 \implies \text{Rollback}(\mathbb{T}) \land \text
   ┌──────────────────┐    ┌──────────────────┐    ┌──────────────────┐
   │  READ/WRITE SET  │    │  PROOF CAPSULE   │    │  EPOCH & CAS     │
   │   ISOLATION      │    │  VERIFIER        │    │  CONTROLLER      │
-  │  ([[K_MVCC]])    │    │  ([[L19_PROOF_CAPSULE|L19_PROOF]]) │    │  ([[K_CAS]])     │
+  │  ([[02_KERNEL/K_MVCC|K_MVCC]])    │    │  ([[01_CANON/01_CORE_LAWS/L19_PROOF_CAPSULE|L19_PROOF]]) │    │  ([[02_KERNEL/K_CAS|K_CAS]])     │
   └──────────────────┘    └──────────────────┘    └──────────────────┘
            │                        │                        │
            └────────────────────────┼────────────────────────┘
                                     ▼
        ┌─────────────────────────────────────────────────────────┐
        │             ATOMIC COMMIT / ROLLBACK BASIN              │
-       │         ([[ROLLBACK_AND_RECOVERY_BASINS]])              │
+       │         ([[01_CANON/01_CORE_LAWS/ROLLBACK_AND_RECOVERY_BASINS|ROLLBACK_AND_RECOVERY_BASINS]])              │
        └─────────────────────────────────────────────────────────┘
 ```
 
@@ -81,9 +81,9 @@ $$\text{Commit}(\mathbb{T}) = 0 \implies \text{Rollback}(\mathbb{T}) \land \text
 2. **Multi-Proof Aggregation (`PROOF_EVAL`)**:
    Evaluates all constituent verification capsules $p_i \in \mathcal{P}$ simultaneously using short-circuit failure detection.
 3. **Compare-And-Swap Gate (`CAS_COMMIT`)**:
-   Executes lock-free atomic version promotion via [[K_CAS]] against the global causal epoch tracker ([[L24_CAUSAL_EPOCH]]).
+   Executes lock-free atomic version promotion via [[02_KERNEL/K_CAS|K_CAS]] against the global causal epoch tracker ([[01_CANON/01_CORE_LAWS/L24_CAUSAL_EPOCH|L24_CAUSAL_EPOCH]]).
 4. **Basin-Isolated Abort (`ROLLBACK_EXEC`)**:
-   Reverts all pending writes without state contamination using [[ROLLBACK_AND_RECOVERY_BASINS]] and [[L10_FAILURE_RECOVERY]].
+   Reverts all pending writes without state contamination using [[01_CANON/01_CORE_LAWS/ROLLBACK_AND_RECOVERY_BASINS|ROLLBACK_AND_RECOVERY_BASINS]] and [[01_CANON/01_CORE_LAWS/L10_FAILURE_RECOVERY|L10_FAILURE_RECOVERY]].
 
 ---
 
@@ -92,8 +92,8 @@ $$\text{Commit}(\mathbb{T}) = 0 \implies \text{Rollback}(\mathbb{T}) \land \text
 | Gate ID | Gate Name | Verification Check | Failure Action |
 |---|---|---|---|
 | `GATE_01_WELLFORMED` | Schema & Identity | $\tau_{\text{id}}$ is cryptographically valid and read/write sets are non-empty | Reject before execution |
-| `GATE_02_DEPENDENCY` | Causal Closure | Read set $\mathcal{R}_{\text{read}}$ satisfies acyclic causality ([[L3_DEPENDENCY]]) | Halt with `CAUSAL_CYCLE` |
-| `GATE_03_INVARIANT` | Invariant Soundness | Zero violations across [[L0_INTEGRITY]], [[L1_EPISTEMIC]], [[L5_SCOPE_REGIME]] | Reject with `INVARIANT_VIOLATION` |
+| `GATE_02_DEPENDENCY` | Causal Closure | Read set $\mathcal{R}_{\text{read}}$ satisfies acyclic causality ([[01_CANON/01_CORE_LAWS/L3_DEPENDENCY|L3_DEPENDENCY]]) | Halt with `CAUSAL_CYCLE` |
+| `GATE_03_INVARIANT` | Invariant Soundness | Zero violations across [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]], [[01_CANON/01_CORE_LAWS/L1_EPISTEMIC|L1_EPISTEMIC]], [[01_CANON/01_CORE_LAWS/L5_SCOPE_REGIME|L5_SCOPE_REGIME]] | Reject with `INVARIANT_VIOLATION` |
 | `GATE_04_PROOF_CERT` | Multi-Proof Integrity | All capsules in $\mathcal{P}_{\text{proofs}}$ evaluate to valid with confidence $\ge \theta$ | Abort transaction |
 | `GATE_05_EPOCH_CAS` | Monotonic CAS Finality | Target version equals current epoch state at commit instant | Retry with exponential backoff |
 
@@ -102,15 +102,15 @@ $$\text{Commit}(\mathbb{T}) = 0 \implies \text{Rollback}(\mathbb{T}) \land \text
 ## 4. Relationship to Core Laws & Canon
 
 - Canonical Redirect: **[[ATOMIC_MULTI_RSCF]]**
-- Direct Law Invariant: **[[L0_INTEGRITY]]** · **[[L10_FAILURE_RECOVERY]]** · **[[L17_RSCF]]**
-- Concurrency & Epochs: **[[K_MVCC]]** · **[[K_CAS]]** · **[[L23_MVCC_CAS]]** · **[[L24_CAUSAL_EPOCH]]**
-- Recovery Basins: **[[ROLLBACK_AND_RECOVERY_BASINS]]**
-- Validation Receipts: **[[ATOMIC_MULTI_RSCF_VALIDATION_RECEIPT]]**
+- Direct Law Invariant: **[[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]]** · **[[01_CANON/01_CORE_LAWS/L10_FAILURE_RECOVERY|L10_FAILURE_RECOVERY]]** · **[[01_CANON/01_CORE_LAWS/L17_RSCF|L17_RSCF]]**
+- Concurrency & Epochs: **[[02_KERNEL/K_MVCC|K_MVCC]]** · **[[02_KERNEL/K_CAS|K_CAS]]** · **[[01_CANON/01_CORE_LAWS/L23_MVCC_CAS|L23_MVCC_CAS]]** · **[[01_CANON/01_CORE_LAWS/L24_CAUSAL_EPOCH|L24_CAUSAL_EPOCH]]**
+- Recovery Basins: **[[01_CANON/01_CORE_LAWS/ROLLBACK_AND_RECOVERY_BASINS|ROLLBACK_AND_RECOVERY_BASINS]]**
+- Validation Receipts: **[[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF_VALIDATION_RECEIPT|ATOMIC_MULTI_RSCF_VALIDATION_RECEIPT]]**
 
 ---
 
 ## 5. Navigation
 
-- **Parent MOC:** [[02_KERNEL_MOC]] · [[01_CORE_LAWS_MOC]]
-- **Universal Root:** [[00_HOME]] · [[00_ROOT_MOC]]
-- **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+- **Parent MOC:** [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]] · [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
+- **Universal Root:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+- **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

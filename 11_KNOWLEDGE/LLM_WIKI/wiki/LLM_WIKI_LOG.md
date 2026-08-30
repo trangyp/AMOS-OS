@@ -23,7 +23,7 @@ Chronological, append-only record of ingests, queries, and lint passes.
 - Created `11_KNOWLEDGE/LLM_WIKI/` with `raw/`, `wiki/`, and MOC
 - Added links to `` and ``
 - First raw source: [Karpathy LLM Wiki gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
-- First wiki page: [[karpathy_llm_wiki_summary]]
+- First wiki page: [[11_KNOWLEDGE/LLM_WIKI/wiki/karpathy_llm_wiki_summary|karpathy_llm_wiki_summary]]
 
 ## [2026-08-28] build | AMOS canonical bindings added
 - Created `amos-llm-wiki` skill in `.devin/skills/amos-llm-wiki/`
@@ -42,9 +42,9 @@ Chronological, append-only record of ingests, queries, and lint passes.
 
 ## [2026-08-25] research | SOTA agent/skill/workflow repo survey
 - Web-searched public GitHub repositories for agent skill, workflow, and orchestration tooling.
-- Captured raw source to [[SOTA_AGENT_SKILL_WORKFLOW_REPOS_2026_08_25]]
-- Synthesized top picks and AMOS integration notes to [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]]
-- Updated [[LLM_WIKI_INDEX]] catalog and this log.
+- Captured raw source to [[11_KNOWLEDGE/LLM_WIKI/raw/SOTA_AGENT_SKILL_WORKFLOW_REPOS_2026_08_25|SOTA_AGENT_SKILL_WORKFLOW_REPOS_2026_08_25]]
+- Synthesized top picks and AMOS integration notes to [[11_KNOWLEDGE/LLM_WIKI/wiki/SOTA_AGENT_SKILL_WORKFLOW_REPOS|SOTA_AGENT_SKILL_WORKFLOW_REPOS]]
+- Updated [[11_KNOWLEDGE/LLM_WIKI/wiki/LLM_WIKI_INDEX|LLM_WIKI_INDEX]] catalog and this log.
 
 ---
 RSCF-NODE
@@ -52,24 +52,24 @@ node_id: llm_wiki_log
 node_type: log
 path: 11_KNOWLEDGE/LLM_WIKI/wiki/LLM_WIKI_LOG.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[LLM_WIKI_MOC]]
+  - INDEXED_BY: [[11_KNOWLEDGE/LLM_WIKI/LLM_WIKI_MOC|LLM_WIKI_MOC]]
 claim_class: AMOS_MODEL
 
 ---
-**MOC:** [[LLM_WIKI_MOC]]
+**MOC:** [[11_KNOWLEDGE/LLM_WIKI/LLM_WIKI_MOC|LLM_WIKI_MOC]]
 
 ## [2026-08-29] research | SOTA agent/skill/workflow repo follow-up
 
 - Web-searched for `best skill marketplace multi agent framework github 2026` and `agentic skills registry orchestration github AgentSkillOS ORPHEUS alternatives`.
 - Identified 10 additional public repositories: `nexus-agentos`, `SkillNet`, `AgentSkillOS`, `ORPHEUS`, `agent-skill-registry`, `agent-skills-registry`, `agent-registry`, `skill-orchestration-system`, `aidd-framework`.
-- Captured raw source to [[SOTA_AGENT_SKILL_WORKFLOW_REPOS_2026_08_29]].
-- Updated synthesis and AMOS integration notes in [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]].
+- Captured raw source to [[11_KNOWLEDGE/LLM_WIKI/raw/SOTA_AGENT_SKILL_WORKFLOW_REPOS_2026_08_29|SOTA_AGENT_SKILL_WORKFLOW_REPOS_2026_08_29]].
+- Updated synthesis and AMOS integration notes in [[11_KNOWLEDGE/LLM_WIKI/wiki/SOTA_AGENT_SKILL_WORKFLOW_REPOS|SOTA_AGENT_SKILL_WORKFLOW_REPOS]].
 
 ## [2026-08-29] repo evaluation | SkillNet README deep-dive
 
-- Fetched `zjunlp/SkillNet` README and captured raw source to [[SKILLNET_README_2026_08_29]].
+- Fetched `zjunlp/SkillNet` README and captured raw source to [[11_KNOWLEDGE/LLM_WIKI/raw/SKILLNET_README_2026_08_29|SKILLNET_README_2026_08_29]].
 - Mapped SkillNet SDK/CLI capabilities to AMOS skill-builder, routing-audit, workflow-runner, and MCP integration.
-- Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: clone and AMOS-lint one SkillNet skill.
+- Updated [[11_KNOWLEDGE/LLM_WIKI/wiki/SOTA_AGENT_SKILL_WORKFLOW_REPOS|SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: clone and AMOS-lint one SkillNet skill.
 
 ## [2026-08-29] fix | .devin/skills reach 100% SOTA compliance
 
@@ -80,9 +80,9 @@ claim_class: AMOS_MODEL
 
 ## [2026-08-29] research | ORPHEUS README captured and evaluated
 
-- Fetched `nuryslyrt/ORPHEUS` README and captured raw source to [[ORPHEUS_README_2026_08_29]].
+- Fetched `nuryslyrt/ORPHEUS` README and captured raw source to [[11_KNOWLEDGE/LLM_WIKI/raw/ORPHEUS_README_2026_08_29|ORPHEUS_README_2026_08_29]].
 - Mapped ORPHEUS orchestrator/expert/worker/contract patterns to `amos-workflow-builder`, `amos-routing-audit`, `amos-skill-builder`, and `amos-agent-orchestrator`.
-- Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: clone and compare a generated `.orpheus/` system to an AMOS workflow.
+- Updated [[11_KNOWLEDGE/LLM_WIKI/wiki/SOTA_AGENT_SKILL_WORKFLOW_REPOS|SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: clone and compare a generated `.orpheus/` system to an AMOS workflow.
 
 ## [2026-08-29] repo evaluation | ORPHEUS structure cloned and AMOS comparison
 
@@ -204,9 +204,9 @@ claim_class: AMOS_MODEL
 
 ## [2026-08-29] research | SkillOpt README captured and evaluated
 
-- Fetched `microsoft/SkillOpt` README and captured raw source to [[SKILLOPT_README_2026_08_29]].
+- Fetched `microsoft/SkillOpt` README and captured raw source to [[11_KNOWLEDGE/LLM_WIKI/raw/SKILLOPT_README_2026_08_29|SKILLOPT_README_2026_08_29]].
 - Mapped SkillOpt trainable-skill loop, held-out validation gates, and multi-harness evaluation to `amos-skill-builder`, `skill-check`, `amos-validation-pipeline`, and `amos-agent-orchestrator`.
-- Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: sandbox `skillopt` on one AMOS skill.
+- Updated [[11_KNOWLEDGE/LLM_WIKI/wiki/SOTA_AGENT_SKILL_WORKFLOW_REPOS|SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: sandbox `skillopt` on one AMOS skill.
 
 ## [2026-08-29] enhance | Implemented ORPHEUS + SkillOpt importables in `amos-skill-builder`
 
@@ -220,9 +220,9 @@ claim_class: AMOS_MODEL
 
 ## [2026-08-29] research | SkillFlow README captured and evaluated
 
-- Fetched `linxuhao/SkillFlow` README and captured raw source to [[SKILLFLOW_README_2026_08_29]].
+- Fetched `linxuhao/SkillFlow` README and captured raw source to [[11_KNOWLEDGE/LLM_WIKI/raw/SKILLFLOW_README_2026_08_29|SKILLFLOW_README_2026_08_29]].
 - Mapped SkillFlow YAML DAG executor, capability-gated I/O, human checkpoints, and MCP transport to `amos-workflow-runner`, `amos-skill-builder`, `amos-routing-audit`, `amos-promotion-gates`, and `amos-observability-driven-harness-evolution-rscf`.
-- Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: install `skillflow-py` and convert one AMOS workflow.
+- Updated [[11_KNOWLEDGE/LLM_WIKI/wiki/SOTA_AGENT_SKILL_WORKFLOW_REPOS|SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: install `skillflow-py` and convert one AMOS workflow.
 
 ## [2026-08-29] enhance | Imported SkillOS `Boot.md` + `SkillIndex.md` pattern into AMOS `.devin/`
 
@@ -230,21 +230,21 @@ claim_class: AMOS_MODEL
 - Created `stitch_project_cosmo/.devin/SKILL_INDEX.md` as the hierarchical skill router with:
   - 642 total skills across 45 unique `domain` values
   - 24 parent-skill roots
-  - Usage protocol and canonical tree links to `[[07_SKILLS_MOC]]` / `[[AMOS_RSCF_NODES]]`
+  - Usage protocol and canonical tree links to `[[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]` / `[[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]`
 - Re-ran `sota_skill_validator.py`: 642 / 642 skills still 100%.
 - Committed to `stitch_project_cosmo`.
 
 ## [2026-08-29] research | AgentFactory README captured and evaluated
 
-- Fetched `zzatpku/AgentFactory` README and captured raw source to [[AGENTFACTORY_README_2026_08_29]].
+- Fetched `zzatpku/AgentFactory` README and captured raw source to [[11_KNOWLEDGE/LLM_WIKI/raw/AGENTFACTORY_README_2026_08_29|AGENTFACTORY_README_2026_08_29]].
 - Mapped AgentFactory meta-agent, subagent skill library, and self-evolution loop to `amos-agent-orchestrator`, `amos-skill-builder`, `amos-evolution-loop`, and `amos-brain-model-integration`.
-- Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: inspect `prompt4cc.txt` for bundle format comparison.
+- Updated [[11_KNOWLEDGE/LLM_WIKI/wiki/SOTA_AGENT_SKILL_WORKFLOW_REPOS|SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: inspect `prompt4cc.txt` for bundle format comparison.
 
 ## [2026-08-29] research | Agent Skill Registry README captured and evaluated
 
-- Fetched `gfernandf/agent-skill-registry` README and captured raw source to [[AGENT_SKILL_REGISTRY_README_2026_08_29]].
+- Fetched `gfernandf/agent-skill-registry` README and captured raw source to [[11_KNOWLEDGE/LLM_WIKI/raw/AGENT_SKILL_REGISTRY_README_2026_08_29|AGENT_SKILL_REGISTRY_README_2026_08_29]].
 - Mapped controlled vocabulary, declarative skill dataflow, machine-readable catalog, and governance guardrails to `amos-skill-builder`, `amos-workflow-builder`, `amos-skill-catalog-generator`, `skill_guardrail_checker`, and `skill_version_manager`.
-- Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: generate and compare registry catalog to AMOS `SKILL.md` frontmatter.
+- Updated [[11_KNOWLEDGE/LLM_WIKI/wiki/SOTA_AGENT_SKILL_WORKFLOW_REPOS|SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: generate and compare registry catalog to AMOS `SKILL.md` frontmatter.
 
 ## [2026-08-29] enhance | Imported AgentFactory bundle conventions into AMOS skill builder and agent orchestrator
 
@@ -255,9 +255,9 @@ claim_class: AMOS_MODEL
 
 ## [2026-08-29] research | AgentSkills Registry README captured and evaluated
 
-- Fetched `kai98k/agent-skills-registry` README and captured raw source to [[AGENTSKILLS_REGISTRY_README_2026_08_29]].
+- Fetched `kai98k/agent-skills-registry` README and captured raw source to [[11_KNOWLEDGE/LLM_WIKI/raw/AGENTSKILLS_REGISTRY_README_2026_08_29|AGENTSKILLS_REGISTRY_README_2026_08_29]].
 - Mapped Skill Bundle format, `vendor`/`lock` supply-chain model, semver, and self-hosted registry to `amos-skill-builder`, `skill_integrity_lock.py`, `skill_version_manager.py`, `amos-skill-registry-gateway`, and `amos-mcp-connector`.
-- Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: package one AMOS skill as AgentSkills-compatible `.tar.gz`.
+- Updated [[11_KNOWLEDGE/LLM_WIKI/wiki/SOTA_AGENT_SKILL_WORKFLOW_REPOS|SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: package one AMOS skill as AgentSkills-compatible `.tar.gz`.
 
 ## [2026-08-29] enhance | Imported Agent Skill Registry and AgentSkills Registry conventions into `amos-skill-builder`
 
@@ -269,14 +269,14 @@ claim_class: AMOS_MODEL
 
 ## [2026-08-29] research | XSkill README captured and evaluated
 
-- Fetched `XSkill-Agent/XSkill` README and captured raw source to [[XSKILL_README_2026_08_29]].
+- Fetched `XSkill-Agent/XSkill` README and captured raw source to [[11_KNOWLEDGE/LLM_WIKI/raw/XSKILL_README_2026_08_29|XSKILL_README_2026_08_29]].
 - Mapped XSkill two-phase accumulation/inference loop, experience/skill memory bank, and trajectory-to-skill document builder to `amos-memory-systems-master`, `amos-llm-wiki`, `amos-observability-driven-harness-evolution-rscf`, `amos-agent-orchestrator`, `amos-skill-builder`, and `amos-multimodal-perception-layer`.
-- Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: compare XSkill `skill_builder.py` output to AMOS `SKILL.md` frontmatter.
+- Updated [[11_KNOWLEDGE/LLM_WIKI/wiki/SOTA_AGENT_SKILL_WORKFLOW_REPOS|SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: compare XSkill `skill_builder.py` output to AMOS `SKILL.md` frontmatter.
 
 ## [2026-08-29] audit | AMOS skill names and descriptions already comply with Agent Skills spec
 
 - Fetched the canonical `agentskills/agentskills` README and `https://agentskills.io/specification`.
-- Captured raw sources to `[[AGENTSKILLS_SPEC_README_2026_08_29]]` and `[[AGENTSKILLS_SPECIFICATION_2026_08_29]]`.
+- Captured raw sources to `[[11_KNOWLEDGE/LLM_WIKI/raw/AGENTSKILLS_SPEC_README_2026_08_29|AGENTSKILLS_SPEC_README_2026_08_29]]` and `[[11_KNOWLEDGE/LLM_WIKI/raw/AGENTSKILLS_SPECIFICATION_2026_08_29|AGENTSKILLS_SPECIFICATION_2026_08_29]]`.
 - Ran a programmatic check of all 642 `stitch_project_cosmo/.devin/skills/*/SKILL.md` frontmatters against the spec:
   - `name`: 1-64 chars, lowercase alphanumeric + hyphens, no leading/trailing/consecutive hyphens.
   - `description`: max 1024 chars.
@@ -291,9 +291,9 @@ claim_class: AMOS_MODEL
 
 ## [2026-08-29] research | OpenSkills SDK README captured and evaluated
 
-- Fetched `ljluestc/OpenSkills` README and captured raw source to [[OPENSKILLS_README_2026_08_29]].
+- Fetched `ljluestc/OpenSkills` README and captured raw source to [[11_KNOWLEDGE/LLM_WIKI/raw/OPENSKILLS_README_2026_08_29|OPENSKILLS_README_2026_08_29]].
 - Mapped three-layer progressive disclosure, reference loading modes, auto-discovery, and `[INVOKE:name]` script execution to `amos-skill-builder`, `amos-workflow-runner`, `amos-agent-orchestrator`, `amos-security-safety-master`, and `amos-os-runtime-master`.
-- Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: add `triggers` and `references` loading-mode metadata to AMOS `SKILL.md` frontmatter.
+- Updated [[11_KNOWLEDGE/LLM_WIKI/wiki/SOTA_AGENT_SKILL_WORKFLOW_REPOS|SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: add `triggers` and `references` loading-mode metadata to AMOS `SKILL.md` frontmatter.
 
 ## [2026-08-29] enhance | Aligned `amos-skill-builder` with OpenSkills `triggers` and `references` loading modes
 
@@ -303,15 +303,15 @@ claim_class: AMOS_MODEL
 
 ## [2026-08-29] research | MMSkills for Visual Agents README captured and evaluated
 
-- Fetched `zkangning/MMSkills_for_Visual_Agents` README and captured raw source to [[MMSKILLS_README_2026_08_29]].
+- Fetched `zkangning/MMSkills_for_Visual_Agents` README and captured raw source to [[11_KNOWLEDGE/LLM_WIKI/raw/MMSKILLS_README_2026_08_29|MMSKILLS_README_2026_08_29]].
 - Mapped self-contained multimodal skill packages, visual keyframes, evidence gating, and branch-loaded planning to `amos-multimodal-perception-layer`, `amos-structured-document-parsing-rscf`, `amos-boundary-scope-master`, `amos-context-budget-governor-rscf`, `amos-agent-orchestrator`, `amos-workflow-runner`, `amos-mcp-connector`, and `amos-skill-registry-gateway`.
-- Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: prototype `assets/` and visual keyframes in one AMOS skill.
+- Updated [[11_KNOWLEDGE/LLM_WIKI/wiki/SOTA_AGENT_SKILL_WORKFLOW_REPOS|SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: prototype `assets/` and visual keyframes in one AMOS skill.
 
 ## [2026-08-29] research | AgentSkillOS README captured and evaluated
 
-- Fetched `songfang/AgentSkillOS` README and captured raw source to [[AGENTSKILLOS_README_2026_08_29]].
+- Fetched `songfang/AgentSkillOS` README and captured raw source to [[11_KNOWLEDGE/LLM_WIKI/raw/AGENTSKILLOS_README_2026_08_29|AGENTSKILLOS_README_2026_08_29]].
 - Mapped 90,000+ skill ecosystem, skill tree construction, complementarity-aware retrieval, and DAG-based orchestration to `SKILL_INDEX.md`, `07_SKILLS_MOC`, `amos-routing-audit`, `amos-agent-orchestrator`, `amos-workflow-builder`, `amos-workflow-runner`, `amos-promotion-gates`, `amos-human-interaction-engine`, `amos-observability-driven-harness-evolution-rscf`, and `amos-decision-logger`.
-- Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: generate a capability tree from 642 AMOS skills and compare to AgentSkillOS pre-built trees.
+- Updated [[11_KNOWLEDGE/LLM_WIKI/wiki/SOTA_AGENT_SKILL_WORKFLOW_REPOS|SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: generate a capability tree from 642 AMOS skills and compare to AgentSkillOS pre-built trees.
 
 ## [2026-08-29] enhance | Generated AMOS skill capability tree `SKILL_TREE.json` for AgentSkillOS comparison
 
@@ -322,10 +322,10 @@ claim_class: AMOS_MODEL
 
 ## [2026-08-29] research | Production skill marketplaces and hardened registries captured
 
-- Fetched `tech-leads-club/agent-skills` README and captured raw source to [[TECH_LEADS_CLUB_AGENT_SKILLS_README_2026_08_29]].
-- Fetched `ivanzwb/agent-skills` README and captured raw source to [[IVANZWB_AGENT_SKILLS_README_2026_08_29]].
-- Fetched `ComeOnOliver/skillshub` README and captured raw source to [[SKILLSHUB_README_2026_08_29]].
-- Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a Search 4 section mapping hardened registries, TypeScript skill lifecycle, and token-efficient resolver to `skill_guardrail_checker.py`, `skill_security_scanner.py`, `SKILL_TREE.json`, `amos-promotion-gates`, `skill-check`, `amos-skill-builder`, `amos-skill-registry-gateway`, `amos-routing-audit`, `amos-agent-orchestrator`, and `amos-llm-wiki`.
+- Fetched `tech-leads-club/agent-skills` README and captured raw source to [[11_KNOWLEDGE/LLM_WIKI/raw/TECH_LEADS_CLUB_AGENT_SKILLS_README_2026_08_29|TECH_LEADS_CLUB_AGENT_SKILLS_README_2026_08_29]].
+- Fetched `ivanzwb/agent-skills` README and captured raw source to [[11_KNOWLEDGE/LLM_WIKI/raw/IVANZWB_AGENT_SKILLS_README_2026_08_29|IVANZWB_AGENT_SKILLS_README_2026_08_29]].
+- Fetched `ComeOnOliver/skillshub` README and captured raw source to [[11_KNOWLEDGE/LLM_WIKI/raw/SKILLSHUB_README_2026_08_29|SKILLSHUB_README_2026_08_29]].
+- Updated [[11_KNOWLEDGE/LLM_WIKI/wiki/SOTA_AGENT_SKILL_WORKFLOW_REPOS|SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a Search 4 section mapping hardened registries, TypeScript skill lifecycle, and token-efficient resolver to `skill_guardrail_checker.py`, `skill_security_scanner.py`, `SKILL_TREE.json`, `amos-promotion-gates`, `skill-check`, `amos-skill-builder`, `amos-skill-registry-gateway`, `amos-routing-audit`, `amos-agent-orchestrator`, and `amos-llm-wiki`.
 
 ## [2026-08-29] enhance | Added Agent Skills-compatible `manifest.json` to `amos-skill-builder`
 
@@ -342,14 +342,14 @@ claim_class: AMOS_MODEL
 
 ## [2026-08-29] research | Anthropic Skills README captured and evaluated
 
-- Fetched `anthropics/skills` README and captured raw source to [[ANTHROPICS_SKILLS_README_2026_08_29]].
+- Fetched `anthropics/skills` README and captured raw source to [[11_KNOWLEDGE/LLM_WIKI/raw/ANTHROPICS_SKILLS_README_2026_08_29|ANTHROPICS_SKILLS_README_2026_08_29]].
 - Mapped canonical Claude Code plugin marketplace, document skills, and basic skill template to `amos-pdfs`, `amos-docx`, `amos-slides`, `spreadsheets`, `amos-skill-builder`, `amos-skill-registry-gateway`, and `amos-mcp-connector`.
-- Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: compare `anthropics/skills/template` and `spec` to AMOS `CONTRACT_TEMPLATE.yaml`.
+- Updated [[11_KNOWLEDGE/LLM_WIKI/wiki/SOTA_AGENT_SKILL_WORKFLOW_REPOS|SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: compare `anthropics/skills/template` and `spec` to AMOS `CONTRACT_TEMPLATE.yaml`.
 
 ## [2026-08-29] research | Anthropic Skills template and spec captured
 
 - Fetched `anthropics/skills/template/SKILL.md` and `spec/agent-skills-spec.md`.
-- Captured raw sources to `[[ANTHROPICS_SKILLS_TEMPLATE_2026_08_29]]` and noted the spec is canonical `agentskills.io/specification` (already captured as `[[AGENTSKILLS_SPECIFICATION_2026_08_29]]`).
+- Captured raw sources to `[[11_KNOWLEDGE/LLM_WIKI/raw/ANTHROPICS_SKILLS_TEMPLATE_2026_08_29|ANTHROPICS_SKILLS_TEMPLATE_2026_08_29]]` and noted the spec is canonical `agentskills.io/specification` (already captured as `[[11_KNOWLEDGE/LLM_WIKI/raw/AGENTSKILLS_SPECIFICATION_2026_08_29|AGENTSKILLS_SPECIFICATION_2026_08_29]]`).
 - Comparison to `amos-skill-builder/references/CONTRACT_TEMPLATE.yaml`:
   - Anthropic template only requires `name` and `description` frontmatter.
   - AMOS `CONTRACT_TEMPLATE.yaml` is already a strict superset: `schema_version`, `version`, `status`, `category`, `compatibility`, `allowed-tools`, `triggers`, `references`, typed `input`/`output`, `capabilities`, `rscf` metadata, and governance fields.
@@ -357,10 +357,10 @@ claim_class: AMOS_MODEL
 
 ## [2026-08-29] research | SkillOS and ai-os READMEs captured and evaluated
 
-- Fetched `EvolvingAgentsLabs/skillos` README (frozen 2026-08-01) and captured raw source to [[SKILL_OS_README_2026_08_29]].
-- Fetched `EvolvingAgentsLabs/ai-os` README (active successor) and captured raw source to [[AI_OS_README_2026_08_29]].
+- Fetched `EvolvingAgentsLabs/skillos` README (frozen 2026-08-01) and captured raw source to [[11_KNOWLEDGE/LLM_WIKI/raw/SKILL_OS_README_2026_08_29|SKILL_OS_README_2026_08_29]].
+- Fetched `EvolvingAgentsLabs/ai-os` README (active successor) and captured raw source to [[11_KNOWLEDGE/LLM_WIKI/raw/AI_OS_README_2026_08_29|AI_OS_README_2026_08_29]].
 - Mapped pure markdown OS, hierarchical skill tree, 4-step lazy loading, HWM planning, dialects, memory wiki, and `truth/` external gates to `amos-skill-builder`, `amos-agent-orchestrator`, `amos-cognitive-compression-kernel`, `amos-memory-systems-master`, `amos-llm-wiki`, `amos-claim-verifier`, `amos-audit-repair-master`, `amos-decision-logger`, and `sota_skill_validator.py`.
-- Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: add 3-level Domain → Family → Skill view to `.devin/SKILL_TREE.json` and a `make reproduce` target for the AMOS SOTA validator.
+- Updated [[11_KNOWLEDGE/LLM_WIKI/wiki/SOTA_AGENT_SKILL_WORKFLOW_REPOS|SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with a deep-dive section and recommended next step: add 3-level Domain → Family → Skill view to `.devin/SKILL_TREE.json` and a `make reproduce` target for the AMOS SOTA validator.
 
 ## [2026-08-30] fix + enhance | Resolved vault orphan graph and captured addyosmani/agent-skills
 
@@ -373,16 +373,16 @@ claim_class: AMOS_MODEL
 
 ## [2026-08-30] research | Captured context-engineering and SDLC-standards skill frameworks
 
-- Fetched `muratcankoylan/Agent-Skills-for-Context-Engineering` README and captured raw source to [[AGENT_SKILLS_FOR_CONTEXT_ENGINEERING_README_2026_08_30]].
-- Fetched `HoangNguyen0403/agent-skills-standard` README and captured raw source to [[AGENT_SKILLS_STANDARD_README_2026_08_30]].
-- Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with deep dives mapping context engineering, harness engineering, progressive disclosure, Claude Code plugin marketplace, `ags` CLI, lockfile verification, MCP runtime enforcement, and pre-edit hooks to AMOS skills.
+- Fetched `muratcankoylan/Agent-Skills-for-Context-Engineering` README and captured raw source to [[11_KNOWLEDGE/LLM_WIKI/raw/AGENT_SKILLS_FOR_CONTEXT_ENGINEERING_README_2026_08_30|AGENT_SKILLS_FOR_CONTEXT_ENGINEERING_README_2026_08_30]].
+- Fetched `HoangNguyen0403/agent-skills-standard` README and captured raw source to [[11_KNOWLEDGE/LLM_WIKI/raw/AGENT_SKILLS_STANDARD_README_2026_08_30|AGENT_SKILLS_STANDARD_README_2026_08_30]].
+- Updated [[11_KNOWLEDGE/LLM_WIKI/wiki/SOTA_AGENT_SKILL_WORKFLOW_REPOS|SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with deep dives mapping context engineering, harness engineering, progressive disclosure, Claude Code plugin marketplace, `ags` CLI, lockfile verification, MCP runtime enforcement, and pre-edit hooks to AMOS skills.
 
 ## [2026-08-30] research | Captured three curated skill marketplaces and catalogs
 
-- Fetched `pedronauck/skills` README and captured raw source to [[PEDRONAUCK_SKILLS_README_2026_08_30]].
-- Fetched `heyimcarlos/agent-skills` README and captured raw source to [[HEYIMCARLOS_AGENT_SKILLS_README_2026_08_30]].
-- Fetched `netresearch/claude-code-marketplace` README and captured raw source to [[NETRESEARCH_CLAUDE_CODE_MARKETPLACE_README_2026_08_30]].
-- Updated [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with deep dives covering bucket-based storage, QRSPI workflows, subagents, `disable-model-invocation`, `plugin.json` + `skills/` packaging, and multi-language marketplace sites.
+- Fetched `pedronauck/skills` README and captured raw source to [[11_KNOWLEDGE/LLM_WIKI/raw/PEDRONAUCK_SKILLS_README_2026_08_30|PEDRONAUCK_SKILLS_README_2026_08_30]].
+- Fetched `heyimcarlos/agent-skills` README and captured raw source to [[11_KNOWLEDGE/LLM_WIKI/raw/HEYIMCARLOS_AGENT_SKILLS_README_2026_08_30|HEYIMCARLOS_AGENT_SKILLS_README_2026_08_30]].
+- Fetched `netresearch/claude-code-marketplace` README and captured raw source to [[11_KNOWLEDGE/LLM_WIKI/raw/NETRESEARCH_CLAUDE_CODE_MARKETPLACE_README_2026_08_30|NETRESEARCH_CLAUDE_CODE_MARKETPLACE_README_2026_08_30]].
+- Updated [[11_KNOWLEDGE/LLM_WIKI/wiki/SOTA_AGENT_SKILL_WORKFLOW_REPOS|SOTA_AGENT_SKILL_WORKFLOW_REPOS]] with deep dives covering bucket-based storage, QRSPI workflows, subagents, `disable-model-invocation`, `plugin.json` + `skills/` packaging, and multi-language marketplace sites.
 
 ## [2026-08-30] research | Fetched zjunlp/SkillNet README for direct AMOS trial
 
@@ -414,14 +414,14 @@ claim_class: AMOS_MODEL
 
 ## [2026-08-30] research | Captured Vercel Labs `skills` CLI README
 
-- Fetched `vercel-labs/skills` README and captured raw source to [[VERCEL_LABS_SKILLS_README_2026_08_30]].
-- Added deep-dive to [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] mapping `npx skills add/use/find/init`, source formats, installation scope, symlink vs copy, and 73+ supported agents to AMOS skills.
+- Fetched `vercel-labs/skills` README and captured raw source to [[11_KNOWLEDGE/LLM_WIKI/raw/VERCEL_LABS_SKILLS_README_2026_08_30|VERCEL_LABS_SKILLS_README_2026_08_30]].
+- Added deep-dive to [[11_KNOWLEDGE/LLM_WIKI/wiki/SOTA_AGENT_SKILL_WORKFLOW_REPOS|SOTA_AGENT_SKILL_WORKFLOW_REPOS]] mapping `npx skills add/use/find/init`, source formats, installation scope, symlink vs copy, and 73+ supported agents to AMOS skills.
 
 ## [2026-08-30] research | Captured canonical Agent Skills spec and Anthropic skills template
 
-- Fetched `agentskills.io/specification` and captured to [[AGENTSKILLS_IO_SPECIFICATION_2026_08_30]].
+- Fetched `agentskills.io/specification` and captured to [[11_KNOWLEDGE/LLM_WIKI/raw/AGENTSKILLS_IO_SPECIFICATION_2026_08_30|AGENTSKILLS_IO_SPECIFICATION_2026_08_30]].
 - Fetched `anthropics/skills` README, template `SKILL.md`, and `spec/agent-skills-spec.md` to `ANTHROPICS_SKILLS_*` raw captures.
-- Added deep-dive to [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] comparing `name`/`description`/`compatibility`/`allowed-tools`/`metadata`/`references` progressive disclosure to AMOS `CONTRACT_TEMPLATE.yaml` and `sota_skill_validator.py`.
+- Added deep-dive to [[11_KNOWLEDGE/LLM_WIKI/wiki/SOTA_AGENT_SKILL_WORKFLOW_REPOS|SOTA_AGENT_SKILL_WORKFLOW_REPOS]] comparing `name`/`description`/`compatibility`/`allowed-tools`/`metadata`/`references` progressive disclosure to AMOS `CONTRACT_TEMPLATE.yaml` and `sota_skill_validator.py`.
 - Recommended next step: add `allowed-tools` scoping examples to `CONTRACT_TEMPLATE.yaml` and evaluate enforcing `name` (64) and `description` (1024) length limits.
 
 ## [2026-08-30] implement | Added Agent Skills spec G13/G14 gates to `sota_skill_validator.py`
@@ -452,13 +452,13 @@ claim_class: AMOS_MODEL
 
 ## [2026-08-30] research | Captured Microsoft SkillOpt latest README
 
-- Fetched `microsoft/SkillOpt` `main` README and captured to [[MICROSOFT_SKILLOPT_README_2026_08_30]].
-- Added deep-dive to [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] covering v0.2.0, `SkillOpt-Sleep`, supported backends, integration shells for Claude Code/Codex/Copilot/Devin, and AMOS integration points.
+- Fetched `microsoft/SkillOpt` `main` README and captured to [[11_KNOWLEDGE/LLM_WIKI/raw/MICROSOFT_SKILLOPT_README_2026_08_30|MICROSOFT_SKILLOPT_README_2026_08_30]].
+- Added deep-dive to [[11_KNOWLEDGE/LLM_WIKI/wiki/SOTA_AGENT_SKILL_WORKFLOW_REPOS|SOTA_AGENT_SKILL_WORKFLOW_REPOS]] covering v0.2.0, `SkillOpt-Sleep`, supported backends, integration shells for Claude Code/Codex/Copilot/Devin, and AMOS integration points.
 
 ## [2026-08-30] research | Captured ORPHEUS latest README
 
-- Fetched `nuryslyrt/ORPHEUS` main README and captured to [[ORPHEUS_README_2026_08_30]].
-- Added deep-dive to [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]] covering the `.orpheus/` tree, Builder/Doctor/Auditor/Surgeon meta-roles, decision logs, error chain preservation, and AMOS integration points.
+- Fetched `nuryslyrt/ORPHEUS` main README and captured to [[11_KNOWLEDGE/LLM_WIKI/raw/ORPHEUS_README_2026_08_30|ORPHEUS_README_2026_08_30]].
+- Added deep-dive to [[11_KNOWLEDGE/LLM_WIKI/wiki/SOTA_AGENT_SKILL_WORKFLOW_REPOS|SOTA_AGENT_SKILL_WORKFLOW_REPOS]] covering the `.orpheus/` tree, Builder/Doctor/Auditor/Surgeon meta-roles, decision logs, error chain preservation, and AMOS integration points.
 
 ## [2026-08-30] implement | Imported XSkill as `amos-xskill`
 
@@ -566,7 +566,7 @@ Continue scanning for the next SOTA repo to capture, or implement the next vault
 - Kept `HERITAGE_MODEL_REGISTRY.md` / `NEUROSYNCAI_MODEL_REGISTRY.md` 4-backtick wrappers intact (would duplicate broken frontmatter); quoted arxiv 0801.4950v1 title.
 - By directory: 07_SKILLS 232, 25_COGNITIVE_MATRIX 138, 11_KNOWLEDGE 129, 01_CANON 84, 00_ROOT 48, 05_COGNITIVE_ORGANISM 43, 03_CONTROL_PLANE 31, 08_WORKFLOWS 26, 13_MODELS 18, 02_KERNEL 13, 16_SCHEMAS 8, 24_ARCHIVE 8, 12_STATE 2, 21_DOMAINS 1, .github 1, loose root files 4.
 - Verified: 0 unclosed fences across 7,081 scanned files; only pre-existing `25_COGNITIVE_MATRIX/UBI_X_FULL_BRAIN.md` fails YAML (left for content-level decision).
-- Page: [[VAULT_INGEST_2026_08_30]]; backup tar in temp dir; modified files uncommitted at user's discretion.
+- Page: [[11_KNOWLEDGE/LLM_WIKI/wiki/VAULT_INGEST_2026_08_30|VAULT_INGEST_2026_08_30]]; backup tar in temp dir; modified files uncommitted at user's discretion.
 
 ## [2026-08-30] ingest | Follow-up: UBI_X_FULL_BRAIN repaired; vault now 0 bad YAML, 0 unclosed fences, 0 stray bullets
 

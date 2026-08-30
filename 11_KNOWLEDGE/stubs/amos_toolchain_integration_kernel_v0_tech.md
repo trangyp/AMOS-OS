@@ -19,8 +19,8 @@ rscf:
 
 # amos toolchain integration kernel v0 tech
 
-Stub note for [[amos_toolchain_integration_kernel_v0_tech]].
+Stub note for [[11_KNOWLEDGE/stubs/amos_toolchain_integration_kernel_v0_tech|amos_toolchain_integration_kernel_v0_tech]].
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

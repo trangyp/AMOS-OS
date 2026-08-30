@@ -1595,7 +1595,7 @@ Translation_Layer:
 # ------------------------------------------------------------
 ```
 
-- [[00_COSMO_BRAIN_MOC]]
+- [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]
 
 ---
-**MOC:** [[ENGINE_MOC]]
+**MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]

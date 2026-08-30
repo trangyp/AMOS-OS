@@ -163,7 +163,7 @@ Unified Coding Engine with runtime, testing, memory, and self-correction layers.
 **Conclusion**: SOURCE — Complete unified coding kernel (clean version without X1000 expansion). 9-layer architecture with 15 capability flags, 11 policies, full language control, deterministic routing. Covers runtime observability, testing, memory management, self-correction/patching, architecture design, documentation, estimation/planning, change impact analysis, and API contract management. Production-ready for deterministic software engineering across all roles and stacks.
 
 ---
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES · [[AMOS_RISK_COMPLIANCE_KERNEL_V0]] · [[AMOS_OS_INTEGRATED_AGENT_KERNEL]] · [[SENSE_CORE_KERNEL]] · [[AMOS_PRODUCT_STRATEGY_KERNEL_V0]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES · [[11_KNOWLEDGE/kernel/AMOS_RISK_COMPLIANCE_KERNEL_V0|AMOS_RISK_COMPLIANCE_KERNEL_V0]] · [[11_KNOWLEDGE/kernel/AMOS_OS_INTEGRATED_AGENT_KERNEL|AMOS_OS_INTEGRATED_AGENT_KERNEL]] · [[11_KNOWLEDGE/kernel/SENSE_CORE_KERNEL|SENSE_CORE_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_PRODUCT_STRATEGY_KERNEL_V0|AMOS_PRODUCT_STRATEGY_KERNEL_V0]]
 
 ---
-**MOC:** [[KERNEL_MOC]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

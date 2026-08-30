@@ -72,7 +72,7 @@ node_id: amos_llm_wiki_operations
 node_type: synthesis
 path: 11_KNOWLEDGE/LLM_WIKI/wiki/amos_llm_wiki_operations.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[LLM_WIKI_INDEX]]
+  - INDEXED_BY: [[11_KNOWLEDGE/LLM_WIKI/wiki/LLM_WIKI_INDEX|LLM_WIKI_INDEX]]
   - DERIVED_FROM: [[00_ROOT/AMOS_LLM_WIKI]]
 claim_class: AMOS_MODEL
 

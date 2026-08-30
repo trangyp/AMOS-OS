@@ -18,8 +18,8 @@ rscf:
 
 # 2026 08 22 amos obsidian memory bridge
 
-Stub note for [[2026_08_22_amos_obsidian_memory_bridge]].
+Stub note for [[11_KNOWLEDGE/stubs/2026_08_22_amos_obsidian_memory_bridge|2026_08_22_amos_obsidian_memory_bridge]].
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

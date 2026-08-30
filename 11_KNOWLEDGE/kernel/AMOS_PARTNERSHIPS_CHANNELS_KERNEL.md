@@ -37,17 +37,17 @@ rscf:
 - **Action**: Escalate — source spec needed before population
 
 ## Related Kernels (with content)
-- [[AMOS_VOMNI_MASTER_KERNEL]]
-- [[AMOS_AUDIT_QUALITY_KERNEL_V0]]
-- [[AMOS_MEMORY_OPTIMIZATION_KERNEL]]
-- [[AMOS_INTEGRATION_PLATFORM_KERNEL_V0_TECH]]
+- [[11_KNOWLEDGE/kernel/AMOS_VOMNI_MASTER_KERNEL|AMOS_VOMNI_MASTER_KERNEL]]
+- [[11_KNOWLEDGE/kernel/AMOS_AUDIT_QUALITY_KERNEL_V0|AMOS_AUDIT_QUALITY_KERNEL_V0]]
+- [[11_KNOWLEDGE/kernel/AMOS_MEMORY_OPTIMIZATION_KERNEL|AMOS_MEMORY_OPTIMIZATION_KERNEL]]
+- [[11_KNOWLEDGE/kernel/AMOS_INTEGRATION_PLATFORM_KERNEL_V0_TECH|AMOS_INTEGRATION_PLATFORM_KERNEL_V0_TECH]]
 - AMOS_Marketing_Gtm_Kernel_v0 — contains channel_strategy, channel_partner_strategy clusters
 - AMOS_Product_Strategy_Kernel_v0 — contains portfolio_management
 - AMOS_Sales_Kernel_v0 — contains deal_strategy, proposal_design
 
 ## Related
 - RSCF-Brain-MOC
-- [[00_COSMO_BRAIN_MOC]]
+- [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]
 
 ---
-**MOC:** [[KERNEL_MOC]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

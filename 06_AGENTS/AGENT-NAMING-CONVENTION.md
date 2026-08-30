@@ -65,8 +65,8 @@ amos-{domain}-{function}-{qualifier}-agent.json
 - **Skill + workflow names**: match the agent name; rename together.
 
 ---
-**Related:** [[00_HOME]] · `amos-agent-registry-index.md` · `amos-qfm-paper-agents-index.md`
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · `amos-agent-registry-index.md` · `amos-qfm-paper-agents-index.md`
 
 ---
-**MOC:** [[06_AGENTS_MOC]]
+**MOC:** [[06_AGENTS/06_AGENTS_MOC|06_AGENTS_MOC]]
 

@@ -178,15 +178,15 @@ The primary audit question is:
 > **Given request Q and state S, did AMOS select and bind the smallest sufficient valid route, under the correct cons
 
 ---
-**MOC:** [[10_ROUTING_MOC]]
+**MOC:** [[25_COGNITIVE_MATRIX/10_ROUTING/10_ROUTING_MOC|10_ROUTING_MOC]]
 
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
 ---
 
-**MOC:** [[25_COGNITIVE_MATRIX_MOC]]
+**MOC:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
 ---
 

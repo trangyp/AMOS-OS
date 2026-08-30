@@ -45,7 +45,7 @@ rscf:
 
 `GENERATORS_ROADMAP.md` is an **ADD-ONLY placeholder-expanded artifact** for the **25_COGNITIVE_MATRIX** plane segment.
 
-It reserves the canonical slot for the AMOS framework family named **GENERATORS [[ROADMAP]]**.
+It reserves the canonical slot for the AMOS framework family named **GENERATORS [[00_ROOT/ROADMAP|ROADMAP]]**.
 
 The artifact is presently:
 
@@ -3124,10 +3124,10 @@ The key distinction is that `ROADMAP.md` should now own **sequencing, maturity, 
 ```
 ---
 
-[[00_ROOT_MOC]]|[[AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ---
-**Related:** [[00_HOME]] · [[GENERATORS_MAP]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX/GENERATORS_MAP|GENERATORS_MAP]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -3135,9 +3135,9 @@ node_id: generators_roadmap
 node_type: note
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_ROADMAP.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_HOME]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 
 ---
-**MOC:** [[12_GENERATORS_MOC]]
+**MOC:** [[25_COGNITIVE_MATRIX/12_GENERATORS/12_GENERATORS_MOC|12_GENERATORS_MOC]]

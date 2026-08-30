@@ -2246,8 +2246,8 @@ Phân vùng #104 tự động phát hiện mọi tuyên bố mâu thuẫn với 
 
 ## 4. LIÊN KẾT LIÊN BẢNG & DANH MỤC TÀI LIỆU THAM KHẢO WIKILINKS
 
-- **Hạt nhân Liên quan:** [[K_CORE_LAWS]] · [[K_ABSOLUTE_LOGIC]] · [[K_CONTROL_PLANE]] · [[K_PROVENANCE]]
-- **MOCs Điều hướng:** [[00_HOME]] · [[00_ROOT_MOC]] · [[02_KERNEL_MOC]] · [[01_CANON_MOC]]
+- **Hạt nhân Liên quan:** [[02_KERNEL/K_CORE_LAWS|K_CORE_LAWS]] · [[02_KERNEL/01_META_LOGIC/K_ABSOLUTE_LOGIC|K_ABSOLUTE_LOGIC]] · [[02_KERNEL/K_CONTROL_PLANE|K_CONTROL_PLANE]] · [[02_KERNEL/08_PROVENANCE/K_PROVENANCE|K_PROVENANCE]]
+- **MOCs Điều hướng:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]] · [[01_CANON/01_CANON_MOC|01_CANON_MOC]]
 
 ---
 **Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS

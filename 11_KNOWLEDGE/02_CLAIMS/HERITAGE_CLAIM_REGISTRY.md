@@ -75,19 +75,19 @@ It catalogues and classifies all formal assertions concerning ancestral geometry
 
 | Claim ID | Source Artifact | Claim Assertion | Epistemic Class | Status |
 | :--- | :--- | :--- | :--- | :--- |
-| `CLM-HRT-001` | [[HERITAGE_INTELLIGENCE_MASTER]] | 32-Layer Stack: Structural mapping across 10 distinct signal classes | `AMOS_MODEL` | Grounded |
-| `CLM-HRT-002` | [[HERITAGE_FRACTAL_MATHEMATICS]] | 12 Fractal Typologies: Scale-invariant repeating geometries | `MATHEMATICAL_MODEL` | Grounded |
-| `CLM-HRT-003` | [[HERITAGE_PROVENANCE]] | Source Independence Law: $\text{Source Count} \neq \text{Independent Provenance}$ | `SYSTEM_INVARIANT` | Grounded |
-| `CLM-HRT-004` | [[HERITAGE_MUSIC_ACOUSTIC_INTELLIGENCE]] | Harmonic Entrainment: Bronze metallurgy induces theta/alpha neural synchrony | `OBSERVATION_GROUNDED` | Grounded |
+| `CLM-HRT-001` | [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]] | 32-Layer Stack: Structural mapping across 10 distinct signal classes | `AMOS_MODEL` | Grounded |
+| `CLM-HRT-002` | [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_FRACTAL_MATHEMATICS|HERITAGE_FRACTAL_MATHEMATICS]] | 12 Fractal Typologies: Scale-invariant repeating geometries | `MATHEMATICAL_MODEL` | Grounded |
+| `CLM-HRT-003` | [[01_CANON/07_PROVENANCE/HERITAGE_PROVENANCE|HERITAGE_PROVENANCE]] | Source Independence Law: $\text{Source Count} \neq \text{Independent Provenance}$ | `SYSTEM_INVARIANT` | Grounded |
+| `CLM-HRT-004` | [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_MUSIC_ACOUSTIC_INTELLIGENCE|HERITAGE_MUSIC_ACOUSTIC_INTELLIGENCE]] | Harmonic Entrainment: Bronze metallurgy induces theta/alpha neural synchrony | `OBSERVATION_GROUNDED` | Grounded |
 
 ---
 
 # 2. Inter-Plane & Vault Connections
 
-- **Claims MOC:** [[02_CLAIMS_MOC]]
+- **Claims MOC:** [[11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC|02_CLAIMS_MOC]]
 - **RSCF Proof Index:** `11_KNOWLEDGE/03_RSCF/HERITAGE_RSCF_INDEX`
-- **Heritage Master:** [[HERITAGE_INTELLIGENCE_MASTER]]
-- **Heritage Handbook:** [[HERITAGE_HANDBOOK]]
+- **Heritage Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]]
+- **Heritage Handbook:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_HANDBOOK|HERITAGE_HANDBOOK]]
 
 ---
 
@@ -111,8 +111,8 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[02_CLAIMS_MOC]] · `11_KNOWLEDGE/03_RSCF/HERITAGE_RSCF_INDEX` · [[HERITAGE_INTELLIGENCE_MASTER]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC|02_CLAIMS_MOC]] · `11_KNOWLEDGE/03_RSCF/HERITAGE_RSCF_INDEX` · [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]]
 
 ---
-**MOC:** [[02_CLAIMS_MOC]]
+**MOC:** [[11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC|02_CLAIMS_MOC]]
 

@@ -20,8 +20,8 @@ rscf:
 
 # amos medical clinical kernel v0 biology cognition7
 
-Stub note for [[amos_medical_clinical_kernel_v0_biology_cognition7]].
+Stub note for [[11_KNOWLEDGE/stubs/amos_medical_clinical_kernel_v0_biology_cognition7|amos_medical_clinical_kernel_v0_biology_cognition7]].
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

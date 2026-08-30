@@ -18,8 +18,8 @@ rscf:
 Enumeration of the 16 universal laws governing conservation, non-contradiction, authority separation, and emergence.
 
 ## Related
-- [[KHUNG_TRANG_CANON]] · [[01_CORE_LAWS_MOC]]
+- [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_CANON|KHUNG_TRANG_CANON]] · [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
 
 ---
 
-**MOC:** [[00_INDEX_MOC]] · [[00_HOME]]
+**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

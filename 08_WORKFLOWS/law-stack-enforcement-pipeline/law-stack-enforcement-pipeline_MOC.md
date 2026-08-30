@@ -21,7 +21,7 @@ rscf:
 
 ## Files
 
-- [[WORKFLOW]]
+- [[08_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW|WORKFLOW]]
 
 ---
-**Parent:** [[08_WORKFLOWS_MOC]]
+**Parent:** [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS_MOC]]

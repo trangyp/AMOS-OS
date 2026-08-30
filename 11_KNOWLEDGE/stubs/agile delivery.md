@@ -16,8 +16,8 @@ rscf:
 
 # agile delivery
 
-Stub note for [[agile delivery]].
+Stub note for [[11_KNOWLEDGE/stubs/agile delivery|agile delivery]].
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

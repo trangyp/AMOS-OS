@@ -18,8 +18,8 @@ rscf:
 
 # 2026 08 22 executable brain model lineage
 
-Stub note for [[2026_08_22_executable_brain_model_lineage]].
+Stub note for [[11_KNOWLEDGE/stubs/2026_08_22_executable_brain_model_lineage|2026_08_22_executable_brain_model_lineage]].
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

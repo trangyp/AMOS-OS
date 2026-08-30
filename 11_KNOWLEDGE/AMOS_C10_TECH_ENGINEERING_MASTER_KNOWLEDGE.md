@@ -579,10 +579,10 @@ The tech quantum engine organizes technical reasoning as layers:
 **Class:** MODEL — an AMOS reasoning structure, not a claim about physical computation.
 
 ### L2. Routing
-ROUTE_TECH (software, ai, architecture, system_design) activates [[K_META_LOGIC]] +
+ROUTE_TECH (software, ai, architecture, system_design) activates [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]] +
 K_MATH_COMPUTE + K_TECH_ENGINE (+ K_UNIPOWER_TECH). ROUTE_DEFAULT falls back to
-[[K_META_LOGIC]] + K_MATH_COMPUTE + K_BIO_NEURO. Kernel dependencies: K_TECH_ENGINE (optional),
-K_UNIPOWER_TECH (optional), [[K_META_LOGIC]] (required), K_MATH_COMPUTE (required).
+[[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]] + K_MATH_COMPUTE + K_BIO_NEURO. Kernel dependencies: K_TECH_ENGINE (optional),
+K_UNIPOWER_TECH (optional), [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]] (required), K_MATH_COMPUTE (required).
 
 ### L3. HML mapping for tech systems
 - **H layer**: platform viability, multi-year architecture direction, ecosystem position.
@@ -786,10 +786,10 @@ The architecture should remain open and repairable:
 
 ---
 
-[[00_ROOT_MOC]]|[[AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ---
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -797,10 +797,10 @@ node_id: amos_c10_tech_engineering_master_knowledge
 node_type: note
 path: 11_KNOWLEDGE/AMOS_C10_TECH_ENGINEERING_MASTER_KNOWLEDGE.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_HOME]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 
 ---
-**MOC:** [[KNOWLEDGE_MOC]]
+**MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
 

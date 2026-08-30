@@ -161,32 +161,32 @@ Specification for agents derived from AMOS_AGENT_REGISTRY.json and the brain's o
 ### BRAIN_SYSTEM (5 agents)
 | Agent | Module | Canon Spec | Role |
 |-------|--------|-----------|------|
-| Architecture_Agent | Agents/Architecture_Agent.py | [[AGENTS]]/BRAIN_SYSTEM/Architecture_Agent.json | System design, structural analysis |
-| Decomposer_Agent | Agents/Decomposer_Agent.py | [[AGENTS]]/BRAIN_SYSTEM/Decomposer_Agent.json | Task decomposition, subproblem splitting |
-| Planner_Agent | Agents/Planner_Agent.py | [[AGENTS]]/BRAIN_SYSTEM/Planner_Agent.json | Planning, sequencing, roadmap generation |
-| Reflection_Agent | Agents/Reflection_Agent.py | [[AGENTS]]/BRAIN_SYSTEM/Reflection_Agent.json | Self-review, quality audit, gap detection |
-| Strategist_Agent | Agents/Strategist_Agent.json | [[AGENTS]]/BRAIN_SYSTEM/Strategist_Agent.json | Strategic analysis, game theory, coalition mapping |
+| Architecture_Agent | Agents/Architecture_Agent.py | [[AGENTS|AGENTS]]/BRAIN_SYSTEM/Architecture_Agent.json | System design, structural analysis |
+| Decomposer_Agent | Agents/Decomposer_Agent.py | [[AGENTS|AGENTS]]/BRAIN_SYSTEM/Decomposer_Agent.json | Task decomposition, subproblem splitting |
+| Planner_Agent | Agents/Planner_Agent.py | [[AGENTS|AGENTS]]/BRAIN_SYSTEM/Planner_Agent.json | Planning, sequencing, roadmap generation |
+| Reflection_Agent | Agents/Reflection_Agent.py | [[AGENTS|AGENTS]]/BRAIN_SYSTEM/Reflection_Agent.json | Self-review, quality audit, gap detection |
+| Strategist_Agent | Agents/Strategist_Agent.json | [[AGENTS|AGENTS]]/BRAIN_SYSTEM/Strategist_Agent.json | Strategic analysis, game theory, coalition mapping |
 
 ### EXECUTION_SYSTEM (8 agents)
 | Agent | Module | Canon Spec | Role |
 |-------|--------|-----------|------|
-| Automation_Agent | Agents/Automation_Agent.py | [[AGENTS]]/EXECUTION_SYSTEM/Automation_Agent.json | Workflow automation, pipeline execution |
-| Coding_Agent | Agents/Coding_Agent.py | [[AGENTS]]/EXECUTION_SYSTEM/Coding_Agent.json | Code generation, review, refactoring |
-| Deployment_Agent | Agents/Deployment_Agent.py | [[AGENTS]]/EXECUTION_SYSTEM/Deployment_Agent.json | Deployment, release management |
-| DevOps_Agent | Agents/DevOps_Agent.py | [[AGENTS]]/EXECUTION_SYSTEM/DevOps_Agent.json | Infrastructure, CI/CD, observability |
-| Document_Agent | Agents/Document_Agent.py | [[AGENTS]]/EXECUTION_SYSTEM/Document_Agent.json | Documentation generation and management |
-| Refactor_Agent | Agents/Refactor_Agent.py | [[AGENTS]]/EXECUTION_SYSTEM/Refactor_Agent.json | Code/design refactoring, structural improvement |
-| Writing_Agent | Agents/Writing_Agent.py | [[AGENTS]]/EXECUTION_SYSTEM/Writing_Agent.json | Content writing, expression translation |
+| Automation_Agent | Agents/Automation_Agent.py | [[AGENTS|AGENTS]]/EXECUTION_SYSTEM/Automation_Agent.json | Workflow automation, pipeline execution |
+| Coding_Agent | Agents/Coding_Agent.py | [[AGENTS|AGENTS]]/EXECUTION_SYSTEM/Coding_Agent.json | Code generation, review, refactoring |
+| Deployment_Agent | Agents/Deployment_Agent.py | [[AGENTS|AGENTS]]/EXECUTION_SYSTEM/Deployment_Agent.json | Deployment, release management |
+| DevOps_Agent | Agents/DevOps_Agent.py | [[AGENTS|AGENTS]]/EXECUTION_SYSTEM/DevOps_Agent.json | Infrastructure, CI/CD, observability |
+| Document_Agent | Agents/Document_Agent.py | [[AGENTS|AGENTS]]/EXECUTION_SYSTEM/Document_Agent.json | Documentation generation and management |
+| Refactor_Agent | Agents/Refactor_Agent.py | [[AGENTS|AGENTS]]/EXECUTION_SYSTEM/Refactor_Agent.json | Code/design refactoring, structural improvement |
+| Writing_Agent | Agents/Writing_Agent.py | [[AGENTS|AGENTS]]/EXECUTION_SYSTEM/Writing_Agent.json | Content writing, expression translation |
 | (Coding_Agent covers AMOS_Coding_Engine_v0 integration) | | | |
 
 ### LEGAL_SYSTEM (5 agents)
 | Agent | Module | Canon Spec | Role |
 |-------|--------|-----------|------|
-| Compliance_Agent | Agents/Compliance_Agent.py | [[AGENTS]]/LEGAL_SYSTEM/Compliance_Agent.json | Regulatory compliance, policy checking |
-| Contract_Agent | Agents/Contract_Agent.py | [[AGENTS]]/LEGAL_SYSTEM/Contract_Agent.json | Contract drafting, analysis, clause review |
-| IP_Agent | Agents/IP_Agent.py | [[AGENTS]]/LEGAL_SYSTEM/IP_Agent.json | Intellectual property protection, attribution |
-| Legal_Agent | Agents/Legal_Agent.py | [[AGENTS]]/LEGAL_SYSTEM/Legal_Agent.json | Legal analysis across jurisdictions |
-| LegalRisk_Agent | Agents/LegalRisk_Agent.py | [[AGENTS]]/LEGAL_SYSTEM/LegalRisk_Agent.json | Legal risk assessment, exposure mapping |
+| Compliance_Agent | Agents/Compliance_Agent.py | [[AGENTS|AGENTS]]/LEGAL_SYSTEM/Compliance_Agent.json | Regulatory compliance, policy checking |
+| Contract_Agent | Agents/Contract_Agent.py | [[AGENTS|AGENTS]]/LEGAL_SYSTEM/Contract_Agent.json | Contract drafting, analysis, clause review |
+| IP_Agent | Agents/IP_Agent.py | [[AGENTS|AGENTS]]/LEGAL_SYSTEM/IP_Agent.json | Intellectual property protection, attribution |
+| Legal_Agent | Agents/Legal_Agent.py | [[AGENTS|AGENTS]]/LEGAL_SYSTEM/Legal_Agent.json | Legal analysis across jurisdictions |
+| LegalRisk_Agent | Agents/LegalRisk_Agent.py | [[AGENTS|AGENTS]]/LEGAL_SYSTEM/LegalRisk_Agent.json | Legal risk assessment, exposure mapping |
 
 ### MONEY_SYSTEM (6 agents)
 | Agent | Module | Canon Spec | Role |
@@ -198,14 +198,14 @@ Specification for agents derived from AMOS_AGENT_REGISTRY.json and the brain's o
 
 ## Related
 
-- [[07_SKILLS_MOC]]
+- [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 **MOC:** references_MOC
 
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 RSCF-NODE
@@ -213,6 +213,6 @@ node_id: amos-trajectory-bug-specification-refinement-rscf-vault-domain-knowledg
 node_type: reference
 path: 07_SKILLS/amos-trajectory-bug-specification-refinement-rscf/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
-- INDEXED_BY: [[00_HOME]]
-- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

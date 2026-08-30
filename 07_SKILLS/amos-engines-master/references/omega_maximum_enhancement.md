@@ -31,7 +31,7 @@ tags: [reports]
 
 Successfully implemented and demonstrated the complete AMOS OMEGA BRAIN system with maximum enhancement capabilities, operating under Governance SSOT with PolicyEngine and FreezeZone enforcement.
 
-### CORE SYSTEM [[ARCHITECTURE]]
+### CORE SYSTEM [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 **Multi-Scale Tensor Field Modeling**:
 - **Tensor Field S_t = T(Agents, Signals, Power, Incentives, Enforcement, Information, Constraints, Time)**: Complete implementation with 4-dimensional agent vectors
@@ -101,14 +101,14 @@ Successfully implemented and demonstrated the complete AMOS OMEGA BRAIN system w
 
 ## Related
 
-- [[07_SKILLS_MOC]]
+- [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 **MOC:** references_MOC
 
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 RSCF-NODE
@@ -116,6 +116,6 @@ node_id: amos-engines-master-omega-maximum-enhancement
 node_type: reference
 path: 07_SKILLS/amos-engines-master/references/omega_maximum_enhancement.md
 RSCF-RELATIONS:
-- INDEXED_BY: [[00_HOME]]
-- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

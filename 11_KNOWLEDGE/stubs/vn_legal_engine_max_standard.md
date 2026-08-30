@@ -18,8 +18,8 @@ rscf:
 
 # vn legal engine max standard
 
-Stub note for [[vn_legal_engine_max_standard]].
+Stub note for [[11_KNOWLEDGE/stubs/vn_legal_engine_max_standard|vn_legal_engine_max_standard]].
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

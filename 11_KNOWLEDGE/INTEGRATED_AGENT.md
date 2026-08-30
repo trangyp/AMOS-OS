@@ -788,7 +788,7 @@ This weakens deterministic replay.
 
 ---
 
-# 16. PLAN-FIRST [[ARCHITECTURE]]
+# 16. PLAN-FIRST [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 AMOS should separate:
 
@@ -3419,7 +3419,7 @@ completion:
 
 ---
 
-# 116. AMOS GOVERNED V2 [[ARCHITECTURE]]
+# 116. AMOS GOVERNED V2 [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 ```text
 SOURCE TREE
@@ -4017,17 +4017,17 @@ The fourth invariant is:
 
 ---
 
-**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · AMOS_AGENT_SCHEMA_FULL · AMOS_AGENT_TEMPLATES · AMOS_AGENT_ONBOARDING_GUIDE · EnvironmentScan_Agent · Executor_Agent · system_scan_agent · automation_profiles
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC · AMOS_AGENT_SCHEMA_FULL · AMOS_AGENT_TEMPLATES · AMOS_AGENT_ONBOARDING_GUIDE · EnvironmentScan_Agent · Executor_Agent · system_scan_agent · automation_profiles
 
 ```
 ```
 
 ---
 
-[[00_ROOT_MOC]]|[[AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ---
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -4035,10 +4035,10 @@ node_id: integrated_agent
 node_type: note
 path: 11_KNOWLEDGE/INTEGRATED_AGENT.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_HOME]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 
 ---
-**MOC:** [[KNOWLEDGE_MOC]]
+**MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
 

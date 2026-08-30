@@ -74,8 +74,8 @@ rscf:
 
 ## Related
 
-- [[08_WORKFLOWS_MOC]]
+- [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS_MOC]]
 
 ---
 
-**MOC:** [[law-stack-enforcement-pipeline_MOC]] · [[00_HOME]]
+**MOC:** [[08_WORKFLOWS/law-stack-enforcement-pipeline/law-stack-enforcement-pipeline_MOC|law-stack-enforcement-pipeline_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

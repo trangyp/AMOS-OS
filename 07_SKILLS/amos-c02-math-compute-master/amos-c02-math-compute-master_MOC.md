@@ -39,4 +39,4 @@ rscf:
 
 **Agent Template:** [[07_SKILLS/amos-c02-math-compute-master/AGENT_TEMPLATE|AGENT_TEMPLATE]]
 
-**Parent:** [[07_SKILLS_MOC]]
+**Parent:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

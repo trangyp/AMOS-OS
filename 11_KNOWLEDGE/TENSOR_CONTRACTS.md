@@ -2711,7 +2711,7 @@ tensor_registry:
       - provenance
 
   T_E:
-    name: [[EVIDENCE_TENSOR]]
+    name: [[11_KNOWLEDGE/EVIDENCE_TENSOR|EVIDENCE_TENSOR]]
     axes:
       - evidence_id
       - source_id
@@ -2727,7 +2727,7 @@ tensor_registry:
       - revocation_state
 
   T_C:
-    name: [[CLAIM_TENSOR]]
+    name: [[11_KNOWLEDGE/CLAIM_TENSOR|CLAIM_TENSOR]]
     axes:
       - claim_id
       - text
@@ -3365,8 +3365,8 @@ Their exact semantic relation to each tensor is not specified.
 
 ```yaml
 RSCF_RELATIONS:
-  - INDEXED_BY: "[[00_HOME]]"
-  - INDEXED_BY: "[[AMOS_RSCF_NODES]]"
+  - INDEXED_BY: "[[00_ROOT/00_HOME|00_HOME]]"
+  - INDEXED_BY: "[[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]"
 ```
 
 Do not transform `INDEXED_BY` into stronger relationships such as:
@@ -3386,14 +3386,14 @@ without evidence.
 The source explicitly gives:
 
 ```text
-MOC: [[KNOWLEDGE_MOC]]
+MOC: [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
 ```
 
 Thus:
 
 ```yaml
 knowledge_moc:
-  artifact: "[[KNOWLEDGE_MOC]]"
+  artifact: "[[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]"
   relation: SOURCE_DEFINED_MOC_BINDING
 ```
 
@@ -3409,15 +3409,15 @@ RSCF_NODE:
 
   relations:
     - relation: INDEXED_BY
-      target: "[[00_HOME]]"
+      target: "[[00_ROOT/00_HOME|00_HOME]]"
 
     - relation: INDEXED_BY
-      target: "[[AMOS_RSCF_NODES]]"
+      target: "[[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]"
 
   claim_class: AMOS_MODEL
 
   moc:
-    target: "[[KNOWLEDGE_MOC]]"
+    target: "[[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]"
 ```
 
 ---
@@ -4238,8 +4238,8 @@ FRACTAL_RETRIEVAL:
     load_on_demand:
       - REASONING_TENSOR
       - FRACTAL_TENSOR
-      - [[EVIDENCE_TENSOR]]
-      - [[CLAIM_TENSOR]]
+      - [[11_KNOWLEDGE/EVIDENCE_TENSOR|EVIDENCE_TENSOR]]
+      - [[11_KNOWLEDGE/CLAIM_TENSOR|CLAIM_TENSOR]]
       - GOVERNANCE_TENSOR
       - MEMORY_TENSOR
 
@@ -4720,22 +4720,22 @@ epistemic_boundary:
 
 framework_binding:
   home:
-    artifact: "[[00_HOME]]"
+    artifact: "[[00_ROOT/00_HOME|00_HOME]]"
 
   rscf_nodes:
-    artifact: "[[AMOS_RSCF_NODES]]"
+    artifact: "[[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]"
 
   knowledge_moc:
-    artifact: "[[KNOWLEDGE_MOC]]"
+    artifact: "[[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]"
 
 related:
-  - "[[00_HOME]]"
+  - "[[00_ROOT/00_HOME|00_HOME]]"
   - "06-Knowledge-Base-MOC"
   - "AMOS_Simulation_Kernel_v0_Math_Foundations"
   - "system_scan_agent"
   - "automation_profiles"
-  - "[[AMOS_RSCF_NODES]]"
-  - "[[KNOWLEDGE_MOC]]"
+  - "[[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]"
+  - "[[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]"
 ---
 ```
 
@@ -4953,14 +4953,14 @@ node_type: note
 path: 11_KNOWLEDGE/TENSOR_CONTRACTS.md
 
 RSCF_RELATIONS:
-  - INDEXED_BY: "[[00_HOME]]"
-  - INDEXED_BY: "[[AMOS_RSCF_NODES]]"
+  - INDEXED_BY: "[[00_ROOT/00_HOME|00_HOME]]"
+  - INDEXED_BY: "[[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]"
 
 claim_class: AMOS_MODEL
 ```
 
 ```
-**MOC:** [[KNOWLEDGE_MOC]]
+**MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
 
 ---
 

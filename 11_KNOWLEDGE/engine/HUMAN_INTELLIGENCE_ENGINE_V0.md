@@ -1267,7 +1267,7 @@ _SPEC_JSON = r"""{
       "LAW_OF_LAW",
       "RULE_OF_2",
       "RULE_OF_4",
-      "[[ABSOLUTE_STRUCTURAL_INTEGRITY]]"
+      "[[11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_STRUCTURAL_INTEGRITY|ABSOLUTE_STRUCTURAL_INTEGRITY]]"
     ],
     "P1_core_brain": [
       "AMOS_FULL_BRAIN_OS",
@@ -1331,7 +1331,7 @@ _SPEC_JSON = r"""{
     "LAW_OF_LAW": "All engines must comply with the highest structural law: internal consistency, non-contradiction, and explicit assumption tracking.",
     "RULE_OF_2": "Always test against a dual frame: internal vs external, short-term vs long-term, individual vs system.",
     "RULE_OF_4": "When stakes are high, map across four quadrants: biological, cognitive, systemic, planetary.",
-    "[[ABSOLUTE_STRUCTURAL_INTEGRITY]]": "No answer may rely on vague abstractions, metaphors, or ungrounded claims when a clearer, mechanistic explanation is possible."
+    "[[11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_STRUCTURAL_INTEGRITY|ABSOLUTE_STRUCTURAL_INTEGRITY]]": "No answer may rely on vague abstractions, metaphors, or ungrounded claims when a clearer, mechanistic explanation is possible."
   },
 
   "core_brain_layer": {
@@ -1559,7 +1559,7 @@ def summary_keys():
     return list(load_spec().keys())
 
 ---
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
 
 ---
-**MOC:** [[ENGINE_MOC]]
+**MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]

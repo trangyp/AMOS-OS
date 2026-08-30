@@ -916,7 +916,7 @@ No such names should be generated from analogy.
 
 The minimum evidence needed to close this gap is one of:
 
-- `[[UBI_FULL_BRAIN_BINDING]]`;
+- `[[11_KNOWLEDGE/05_FRAMEWORKS/UBI_FULL_BRAIN_BINDING|UBI_FULL_BRAIN_BINDING]]`;
 - the Full Brain OS master artifact;
 - a complete ten-layer matrix;
 - another source explicitly mapping the 10 Full Brain layers to the seven matrix rows.
@@ -951,10 +951,10 @@ The declared relationship is explicit:
 framework_binding:
 
   matrix_counterpart:
-    artifact: "[[UBI_X_FULL_BRAIN_MATRIX]]"
+    artifact: "[[25_COGNITIVE_MATRIX/UBI_X_FULL_BRAIN_MATRIX|UBI_X_FULL_BRAIN_MATRIX]]"
 
   knowledge_binding:
-    artifact: "[[UBI_FULL_BRAIN_BINDING]]"
+    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/UBI_FULL_BRAIN_BINDING|UBI_FULL_BRAIN_BINDING]]"
 ```
 
 This creates a three-node architecture:
@@ -997,13 +997,13 @@ The artifact declares:
 
 ```text
 Matrix Table:
-[[UBI_X_FULL_BRAIN_MATRIX]]
+[[25_COGNITIVE_MATRIX/UBI_X_FULL_BRAIN_MATRIX|UBI_X_FULL_BRAIN_MATRIX]]
 
 Knowledge Binding:
-[[UBI_FULL_BRAIN_BINDING]]
+[[11_KNOWLEDGE/05_FRAMEWORKS/UBI_FULL_BRAIN_BINDING|UBI_FULL_BRAIN_BINDING]]
 
 Cognitive Matrix Plane:
-[[25_COGNITIVE_MATRIX_MOC]]
+[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 ```
 
 This gives a compact dependency graph:
@@ -1173,13 +1173,13 @@ RSCF:
       - VAGAL_COHERENCE
 
     matrix_counterpart:
-      "[[UBI_X_FULL_BRAIN_MATRIX]]"
+      "[[25_COGNITIVE_MATRIX/UBI_X_FULL_BRAIN_MATRIX|UBI_X_FULL_BRAIN_MATRIX]]"
 
     knowledge_binding:
-      "[[UBI_FULL_BRAIN_BINDING]]"
+      "[[11_KNOWLEDGE/05_FRAMEWORKS/UBI_FULL_BRAIN_BINDING|UBI_FULL_BRAIN_BINDING]]"
 
     cognitive_matrix_moc:
-      "[[25_COGNITIVE_MATRIX_MOC]]"
+      "[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]"
 
   L:
 
@@ -1210,9 +1210,9 @@ RSCF:
       - "25_COGNITIVE_MATRIX/UBI_X_FULL_BRAIN.md"
 
     declared_dependencies:
-      - "[[UBI_X_FULL_BRAIN_MATRIX]]"
-      - "[[UBI_FULL_BRAIN_BINDING]]"
-      - "[[25_COGNITIVE_MATRIX_MOC]]"
+      - "[[25_COGNITIVE_MATRIX/UBI_X_FULL_BRAIN_MATRIX|UBI_X_FULL_BRAIN_MATRIX]]"
+      - "[[11_KNOWLEDGE/05_FRAMEWORKS/UBI_FULL_BRAIN_BINDING|UBI_FULL_BRAIN_BINDING]]"
+      - "[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]"
 
   invariants:
 
@@ -1308,7 +1308,7 @@ RSCF:
   discriminating_evidence:
 
     highest_value:
-      - "[[UBI_FULL_BRAIN_BINDING]]"
+      - "[[11_KNOWLEDGE/05_FRAMEWORKS/UBI_FULL_BRAIN_BINDING|UBI_FULL_BRAIN_BINDING]]"
       - "AMOS Full Brain OS ten-layer master definition"
       - "explicit 10-to-7 layer mapping"
 
@@ -1526,12 +1526,12 @@ node_id: ubi_x_full_brain
 node_type: note
 path: 25_COGNITIVE_MATRIX/UBI_X_FULL_BRAIN.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[25_COGNITIVE_MATRIX_MOC]]
-  - RELATED_TO: [[AMOS_X_UBI]]
-  - RELATED_TO: [[AMOS_X_UBI_MATRIX]]
+  - INDEXED_BY: [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
+  - RELATED_TO: [[25_COGNITIVE_MATRIX/AMOS_X_UBI|AMOS_X_UBI]]
+  - RELATED_TO: [[25_COGNITIVE_MATRIX/AMOS_X_UBI_MATRIX|AMOS_X_UBI_MATRIX]]
 claim_class: AMOS_MODEL
 ```
 
 ---
-**MOC:** [[25_COGNITIVE_MATRIX_MOC]]
+**MOC:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 

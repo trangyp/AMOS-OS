@@ -96,7 +96,7 @@ A value that cannot be established from repository evidence stays explicitly unr
 
 - [x] Spot-check repaired agent quality across diverse skills
 - [x] Update amos-agent-registry-index.md (updated to 851 agents, v13.0.0)
-- [x] Check [[AGENT-NAMING-CONVENTION]].md consistency (0 name field mismatches, 90 pre-existing -agent-2 variants)
+- [x] Check [[06_AGENTS/AGENT-NAMING-CONVENTION|AGENT-NAMING-CONVENTION]].md consistency (0 name field mismatches, 90 pre-existing -agent-2 variants)
 - [x] Verify final git state is clean and committed
 
 ### Quality pass 2 (2026-08-26)
@@ -245,4 +245,4 @@ Example: `amos-adversarial-robustness-agent.json` describes "prompt injection de
 - UNKNOWN/GAP — no skill binding found
 
 ---
-**MOC:** [[06_AGENTS_MOC]]
+**MOC:** [[06_AGENTS/06_AGENTS_MOC|06_AGENTS_MOC]]

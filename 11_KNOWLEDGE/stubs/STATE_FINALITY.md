@@ -18,4 +18,4 @@ rscf:
 
 # STATE FINALITY
 
-Stub note for [[STATE_FINALITY]].
+Stub note for [[11_KNOWLEDGE/stubs/STATE_FINALITY|STATE_FINALITY]].

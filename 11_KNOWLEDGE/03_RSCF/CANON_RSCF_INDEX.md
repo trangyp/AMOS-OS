@@ -78,9 +78,9 @@ It tracks the proof structures, epistemic boundaries, and verification dependenc
 
 # 2. Inter-Plane & Vault Connections
 
-- **RSCF MOC:** [[03_RSCF_MOC]]
-- **Canon Plane:** [[01_CANON_MOC]]
-- **Claims Registry:** [[CANON_CLAIM_REGISTRY]]
+- **RSCF MOC:** [[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC|03_RSCF_MOC]]
+- **Canon Plane:** [[01_CANON/01_CANON_MOC|01_CANON_MOC]]
+- **Claims Registry:** [[11_KNOWLEDGE/02_CLAIMS/CANON_CLAIM_REGISTRY|CANON_CLAIM_REGISTRY]]
 
 ---
 
@@ -104,8 +104,8 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[03_RSCF_MOC]] · [[01_CANON_MOC]] · [[CANON_CLAIM_REGISTRY]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC|03_RSCF_MOC]] · [[01_CANON/01_CANON_MOC|01_CANON_MOC]] · [[11_KNOWLEDGE/02_CLAIMS/CANON_CLAIM_REGISTRY|CANON_CLAIM_REGISTRY]]
 
 ---
-**MOC:** [[03_RSCF_MOC]]
+**MOC:** [[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC|03_RSCF_MOC]]
 

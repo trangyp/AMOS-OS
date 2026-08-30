@@ -18,4 +18,4 @@ rscf:
 
 # MODEL IDENTITY
 
-Stub note for [[MODEL_IDENTITY]].
+Stub note for [[11_KNOWLEDGE/stubs/MODEL_IDENTITY|MODEL_IDENTITY]].

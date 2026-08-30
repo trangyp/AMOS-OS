@@ -19,8 +19,8 @@ rscf:
 
 # amos vietnamese writing engine v0 logic7
 
-Stub note for [[amos_vietnamese_writing_engine_v0_logic7]].
+Stub note for [[11_KNOWLEDGE/stubs/amos_vietnamese_writing_engine_v0_logic7|amos_vietnamese_writing_engine_v0_logic7]].
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

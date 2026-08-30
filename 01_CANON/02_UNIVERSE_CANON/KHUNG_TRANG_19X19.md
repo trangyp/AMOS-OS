@@ -19,8 +19,8 @@ rscf:
 The 19×19 discrete topological matrix formalizing bounded state interactions, liberties, territorial dominance, and non-local entanglement.
 
 ## Related
-- [[KHUNG_TRANG_CANON]] · [[02_KERNEL_MOC]]
+- [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_CANON|KHUNG_TRANG_CANON]] · [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
 
 ---
 
-**MOC:** [[00_INDEX_MOC]] · [[00_HOME]]
+**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

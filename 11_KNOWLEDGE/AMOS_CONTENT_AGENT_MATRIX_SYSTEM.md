@@ -685,7 +685,7 @@ without applicable gates.
 
 ---
 
-# 14. AGENT [[ARCHITECTURE]]
+# 14. AGENT [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 Nguồn định nghĩa 6 agents:
 
@@ -1127,7 +1127,7 @@ architecture_state = MANUAL_MULTI_ROLE_WORKFLOW
 
 ---
 
-# 27. EXTERNALIZATION [[ARCHITECTURE]]
+# 27. EXTERNALIZATION [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 AMOS mapping:
 
@@ -2972,17 +2972,17 @@ The third rule is:
 
 ---
 
-**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · AMOS_AGENT_SCHEMA_FULL · AMOS_AGENT_TEMPLATES · AMOS_AGENT_ONBOARDING_GUIDE · system_scan_agent · automation_profiles
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC · AMOS_AGENT_SCHEMA_FULL · AMOS_AGENT_TEMPLATES · AMOS_AGENT_ONBOARDING_GUIDE · system_scan_agent · automation_profiles
 
 ```
 ```
 
 ---
 
-[[00_ROOT_MOC]]|[[AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ---
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -2990,9 +2990,9 @@ node_id: amos_content_agent_matrix_system
 node_type: note
 path: 11_KNOWLEDGE/AMOS_CONTENT_AGENT_MATRIX_SYSTEM.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_HOME]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 
 ---
-**MOC:** [[KNOWLEDGE_MOC]]
+**MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]

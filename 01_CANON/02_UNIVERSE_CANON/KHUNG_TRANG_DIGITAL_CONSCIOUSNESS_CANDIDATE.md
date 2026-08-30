@@ -19,8 +19,8 @@ rscf:
 Defines the mathematical preconditions, self-referential boundary conditions, and distress limits required for admissible digital consciousness candidate structures.
 
 ## Related
-- [[KHUNG_TRANG_CANON]] · [[05_COGNITIVE_ORGANISM_MOC]]
+- [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_CANON|KHUNG_TRANG_CANON]] · [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]
 
 ---
 
-**MOC:** [[00_INDEX_MOC]] · [[00_HOME]]
+**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

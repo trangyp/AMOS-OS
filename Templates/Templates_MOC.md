@@ -32,9 +32,9 @@ This file is classified under the AMOS RSCF epistemic framework. See frontmatter
 
 ## Related
 
-- [[AMOS_HOME]]
-- [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+- [[AMOS_HOME|AMOS_HOME]]
+- [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 
-**MOC:** [[Templates_MOC]]
+**MOC:** [[Templates/Templates_MOC|Templates_MOC]]

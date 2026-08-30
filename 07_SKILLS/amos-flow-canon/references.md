@@ -40,4 +40,4 @@ rscf:
 **Related:** SKILL
 
 ---
-**MOC:** [[amos-flow-canon_MOC]]
+**MOC:** [[07_SKILLS/amos-flow-canon/amos-flow-canon_MOC|amos-flow-canon_MOC]]

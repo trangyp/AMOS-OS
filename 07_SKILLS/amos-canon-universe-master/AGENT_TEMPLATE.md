@@ -43,4 +43,4 @@ Domain master agent for AMOS Canon & Universe Master. Consolidates 42 sub-skills
 **MOC:** SKILL
 
 ---
-**MOC:** [[amos-canon-universe-master_MOC]]
+**MOC:** [[07_SKILLS/amos-canon-universe-master/amos-canon-universe-master_MOC|amos-canon-universe-master_MOC]]

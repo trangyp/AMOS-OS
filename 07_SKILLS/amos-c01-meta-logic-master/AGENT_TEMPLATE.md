@@ -43,4 +43,4 @@ Domain master agent for AMOS C01 — Meta Logic Master. Consolidates 60 sub-skil
 **MOC:** SKILL
 
 ---
-**MOC:** [[amos-c01-meta-logic-master_MOC]]
+**MOC:** [[07_SKILLS/amos-c01-meta-logic-master/amos-c01-meta-logic-master_MOC|amos-c01-meta-logic-master_MOC]]

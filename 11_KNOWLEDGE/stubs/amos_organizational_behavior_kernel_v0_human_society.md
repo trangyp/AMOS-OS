@@ -19,8 +19,8 @@ rscf:
 
 # amos organizational behavior kernel v0 human society
 
-Stub note for [[amos_organizational_behavior_kernel_v0_human_society]].
+Stub note for [[11_KNOWLEDGE/stubs/amos_organizational_behavior_kernel_v0_human_society|amos_organizational_behavior_kernel_v0_human_society]].
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

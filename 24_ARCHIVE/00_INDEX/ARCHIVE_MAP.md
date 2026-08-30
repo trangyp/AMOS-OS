@@ -28,14 +28,14 @@ Package map artifact — navigation only.
 Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
 
 ## Gaps
-Executable binding PARTIAL unless an executed validation receipt exists for this subsystem (see [[ROUTING_POLICY_VALIDATION_RECEIPT]], [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
+Executable binding PARTIAL unless an executed validation receipt exists for this subsystem (see [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]], [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
 
 ---
 
-[[00_ROOT_MOC]]|[[AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ---
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -45,7 +45,7 @@ path: 24_ARCHIVE/00_INDEX/ARCHIVE_MAP.md
 claim_class: AMOS_MODEL
 
 ---
-**MOC:** [[INDEX_ARCHIVE_README]]
+**MOC:** [[24_ARCHIVE/00_INDEX/INDEX_ARCHIVE_README|INDEX_ARCHIVE_README]]
 
 ---
-**MOC:** [[00_INDEX_MOC]]
+**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]

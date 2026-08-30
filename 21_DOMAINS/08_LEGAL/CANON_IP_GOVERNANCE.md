@@ -75,9 +75,9 @@ epistemic_boundary:
 
 # 2. Inter-Plane & Vault Connections
 
-- **Law of Law:** [[L0_INTEGRITY]]
-- **Legal Kernel:** [[AMOS_LEGAL_KERNEL]]
-- **Legal MOC:** [[08_LEGAL_MOC]]
+- **Law of Law:** [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]]
+- **Legal Kernel:** [[11_KNOWLEDGE/kernel/AMOS_LEGAL_KERNEL|AMOS_LEGAL_KERNEL]]
+- **Legal MOC:** [[21_DOMAINS/08_LEGAL/08_LEGAL_MOC|08_LEGAL_MOC]]
 
 ---
 
@@ -101,8 +101,8 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[L0_INTEGRITY]] · [[AMOS_LEGAL_KERNEL]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]] · [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]] · [[11_KNOWLEDGE/kernel/AMOS_LEGAL_KERNEL|AMOS_LEGAL_KERNEL]]
 
 ---
-**MOC:** [[08_LEGAL_MOC]]
+**MOC:** [[21_DOMAINS/08_LEGAL/08_LEGAL_MOC|08_LEGAL_MOC]]
 

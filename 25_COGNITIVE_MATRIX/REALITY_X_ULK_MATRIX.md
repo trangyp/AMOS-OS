@@ -87,7 +87,7 @@ The matrix structure and assignments are source-grounded. The artifact does **no
 
 `REALITY_X_ULK_MATRIX.md` defines the source-grounded AMOS Cognitive Matrix:
 
-REALITY [[ARCHITECTURE]]
+REALITY [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
         ×
 UNIVERSAL LOGIC KERNEL
 
@@ -1261,7 +1261,7 @@ A stable conceptual identifier does not establish code existence.
 
 The source explicitly binds:
 
-[[REALITY_X_ULK]]
+[[25_COGNITIVE_MATRIX/REALITY_X_ULK|REALITY_X_ULK]]
 
 as:
 
@@ -1275,7 +1275,7 @@ This should be the first dependency for deeper matrix semantics.
 
 The source explicitly binds:
 
-11_KNOWLEDGE/05_FRAMEWORKS/[[TRANG_REALITY_ARCHITECTURE]]
+11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/trang/TRANG_REALITY_ARCHITECTURE|TRANG_REALITY_ARCHITECTURE]]
 
 as:
 
@@ -1303,9 +1303,9 @@ Questions about ALU semantics should route there before speculative interpretati
 
 The artifact explicitly records provenance through:
 
-25_COGNITIVE_MATRIX/[[REALITY_X_ULK]]
+25_COGNITIVE_MATRIX/[[25_COGNITIVE_MATRIX/REALITY_X_ULK|REALITY_X_ULK]]
 
-11_KNOWLEDGE/05_FRAMEWORKS/[[TRANG_REALITY_ARCHITECTURE]]
+11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/trang/TRANG_REALITY_ARCHITECTURE|TRANG_REALITY_ARCHITECTURE]]
 
 02_KERNEL/01_ULK
 
@@ -1842,5 +1842,5 @@ Reality_ULK_Route_Receipt:
 
 ---
 
-**MOC:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]
+**MOC:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
 

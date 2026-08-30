@@ -121,7 +121,7 @@ The workflow produces a structured result containing:
 - **Agent**: `mckinsey-banking-crm-assessment-rscf-agent`
 
 ---
-**MOC:** [[08_WORKFLOWS_MOC]]
+**MOC:** [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS_MOC]]
 
 ## Orchestration Pattern
 

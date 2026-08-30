@@ -21,4 +21,4 @@ The authoritative source lives at `copilot-instructions.md` in the project root.
 
 See also:
 - [[AGENTS|AMOS Agent Contract]]
-- [[00_COSMO_BRAIN_MOC]]
+- [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]

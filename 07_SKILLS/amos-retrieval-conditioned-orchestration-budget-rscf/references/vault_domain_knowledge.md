@@ -297,7 +297,7 @@ All 36 agents follow the same 10-step execution loop:
   "priority": 7,
   "required": false,
   "domains": ["workflow", "automation", "orchestration", "pipeline", "monitoring"],
-  "depends_on": ["[[K_META_LOGIC]]", "K_TECH_ENGINE"],
+  "depends_on": ["[[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]]", "K_TECH_ENGINE"],
 
   "meta": {
     "role": "Workflow Orchestration Kernel",
@@ -350,14 +350,14 @@ All 36 agents follow the same 10-step execution loop:
 
 ## Related
 
-- [[07_SKILLS_MOC]]
+- [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 **MOC:** references_MOC
 
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 RSCF-NODE
@@ -365,6 +365,6 @@ node_id: amos-retrieval-conditioned-orchestration-budget-rscf-vault-domain-knowl
 node_type: reference
 path: 07_SKILLS/amos-retrieval-conditioned-orchestration-budget-rscf/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
-- INDEXED_BY: [[00_HOME]]
-- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

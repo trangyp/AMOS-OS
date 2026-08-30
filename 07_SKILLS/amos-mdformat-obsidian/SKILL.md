@@ -43,7 +43,7 @@ source: 07_SKILLS/amos-mdformat-obsidian
 
 ## Description
 
-AMOS mdformat-obsidian — Obsidian vault Markdown formatting using mdformat-obsidian and related plugins. Use when formatting Obsidian-flavored Markdown files (callouts, footnotes, task lists, dollar math, wikilinks), fixing broken YAML frontmatter parsing, normalizing thematic breaks/bullet markers/code block fences, or migrating legacy tags to [[RSCF_CANON]] structural-axis taxonomy. Use whenever the user mentions mdformat, obsidian formatting, vault formatting, wikilink normalization, or frontmatter fixing — even without explicitly asking for 'mdformat'. Do not use for non-Obsidian Markdown files, semantic content rewriting, or tasks outside the AMOS_OS vault context.
+AMOS mdformat-obsidian — Obsidian vault Markdown formatting using mdformat-obsidian and related plugins. Use when formatting Obsidian-flavored Markdown files (callouts, footnotes, task lists, dollar math, wikilinks), fixing broken YAML frontmatter parsing, normalizing thematic breaks/bullet markers/code block fences, or migrating legacy tags to [[01_CANON/04_INFRASTRUCTURE_CANON/RSCF_CANON|RSCF_CANON]] structural-axis taxonomy. Use whenever the user mentions mdformat, obsidian formatting, vault formatting, wikilink normalization, or frontmatter fixing — even without explicitly asking for 'mdformat'. Do not use for non-Obsidian Markdown files, semantic content rewriting, or tasks outside the AMOS_OS vault context.
 
 
 ## Identity
@@ -66,10 +66,10 @@ Skill for formatting Obsidian vault Markdown files using `mdformat-obsidian` and
 
 ## Validation Gates
 
-- **[[L0_INTEGRITY]] Integrity**: No content deleted during formatting — only whitespace/syntax restructured
-- **[[L1_EPISTEMIC]] Epistemic**: All formatting changes tagged as DERIVED with provenance
-- **[[L5_SCOPE_REGIME]] Scope**: Only vault-scoped files processed; no external files modified
-- **[[L7_AUTHORITY]] Authority**: Batch vault formatting requires steward approval
+- **[[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]] Integrity**: No content deleted during formatting — only whitespace/syntax restructured
+- **[[01_CANON/01_CORE_LAWS/L1_EPISTEMIC|L1_EPISTEMIC]] Epistemic**: All formatting changes tagged as DERIVED with provenance
+- **[[01_CANON/01_CORE_LAWS/L5_SCOPE_REGIME|L5_SCOPE_REGIME]] Scope**: Only vault-scoped files processed; no external files modified
+- **[[01_CANON/01_CORE_LAWS/L7_AUTHORITY|L7_AUTHORITY]] Authority**: Batch vault formatting requires steward approval
 
 ## Do not use
 
@@ -279,10 +279,10 @@ Inside `$$...$$` blocks, plain parentheses ARE math notation. Adding `\(` `\)` i
 
 **CRITICAL**: Do NOT convert YAML keys to wikilinks. When restoring wikilinks,
 only restore them in prose text, `**Related:**` lines, and RSCF-RELATIONS sections.
-YAML keys like `PROOF_CAPSULE:` must remain as plain identifiers, NOT `[[L19_PROOF_CAPSULE]]:`.
+YAML keys like `PROOF_CAPSULE:` must remain as plain identifiers, NOT `[[01_CANON/01_CORE_LAWS/L19_PROOF_CAPSULE|L19_PROOF_CAPSULE]]:`.
 
 **Detection**: Check inside `yaml` code blocks for `...:` patterns at line start.
-**Fix**: `[[L19_PROOF_CAPSULE]]:` → `PROOF_CAPSULE:`
+**Fix**: `[[01_CANON/01_CORE_LAWS/L19_PROOF_CAPSULE|L19_PROOF_CAPSULE]]:` → `PROOF_CAPSULE:`
 
 ```python
 def fix_escaped_asterisks(content):
@@ -382,7 +382,7 @@ vault_info
 - **Wikilink stripping is destructive**: mdformat-wikilink strips `[[]]` from wikilinks to non-existent notes — must restore after formatting
 - **LaTeX `\( \)` stripping is destructive**: mdformat strips `\(` and `\)` delimiters — must restore after formatting
 - **NEVER restore `\( \)` inside `$$` math blocks**: Inside `$$...$$`, plain `()` is already math mode. Adding `\(\)` breaks rendering.
-- **NEVER convert YAML keys to wikilinks**: `PROOF_CAPSULE:` in YAML blocks must stay as-is, NOT `[[L19_PROOF_CAPSULE]]:`
+- **NEVER convert YAML keys to wikilinks**: `PROOF_CAPSULE:` in YAML blocks must stay as-is, NOT `[[01_CANON/01_CORE_LAWS/L19_PROOF_CAPSULE|L19_PROOF_CAPSULE]]:`
 - **Related line spacing**: mdformat may remove spaces around `·` — must fix after formatting
 - **Frontmatter `---` delimiters are preserved** by mdformat-frontmatter plugin
 - **mdformat-frontmatter sorts frontmatter keys alphabetically** and removes quotes — this is expected behavior
@@ -518,5 +518,5 @@ If any check fails, downgrade confidence and flag as GROUNDING_GAP.
 See references/ directory for detailed sub-files. Read references/ files when deeper context is needed for this capability.
 
 ---
-**MOC:** [[amos-mdformat-obsidian_MOC]]
+**MOC:** [[07_SKILLS/amos-mdformat-obsidian/amos-mdformat-obsidian_MOC|amos-mdformat-obsidian_MOC]]
 

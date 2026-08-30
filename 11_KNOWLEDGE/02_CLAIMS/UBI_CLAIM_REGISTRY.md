@@ -76,19 +76,19 @@ It catalogues and classifies all formal assertions concerning the 4 non-compensa
 
 | Claim ID | Source Artifact | Claim Assertion | Epistemic Class | Status |
 | :--- | :--- | :--- | :--- | :--- |
-| `CLM-UBI-001` | [[UNIFIED_BIOLOGICAL_INTELLIGENCE]] | Non-Compensatory Law: $i = (\text{NBI} \cdot \text{NEI} \cdot \text{SI} \cdot \text{BEI})^{1/4}$ | `AMOS_MODEL` | Grounded |
-| `CLM-UBI-002` | [[UNIFIED_BIOLOGICAL_INTELLIGENCE]] | Quadratic Emergence: Emergent capability $e = i^2$ | `MATHEMATICAL_MODEL` | Grounded |
-| `CLM-UBI-003` | [[UBI_ENTROPY_CORRECTION]] | Thermodynamic Dissipation: Living systems export entropy ($\frac{d_e S}{dt} < 0$) | `PHYSICAL_MODEL` | Grounded |
-| `CLM-UBI-004` | [[ABSOLUTE_BIOLOGICAL_INTEGRITY_FRAMEWORK]] | Substrate Veto: Biological distress signals override AI task queues | `SYSTEM_INVARIANT` | Grounded |
+| `CLM-UBI-001` | [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] | Non-Compensatory Law: $i = (\text{NBI} \cdot \text{NEI} \cdot \text{SI} \cdot \text{BEI})^{1/4}$ | `AMOS_MODEL` | Grounded |
+| `CLM-UBI-002` | [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] | Quadratic Emergence: Emergent capability $e = i^2$ | `MATHEMATICAL_MODEL` | Grounded |
+| `CLM-UBI-003` | [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_ENTROPY_CORRECTION|UBI_ENTROPY_CORRECTION]] | Thermodynamic Dissipation: Living systems export entropy ($\frac{d_e S}{dt} < 0$) | `PHYSICAL_MODEL` | Grounded |
+| `CLM-UBI-004` | [[11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_BIOLOGICAL_INTEGRITY_FRAMEWORK|ABSOLUTE_BIOLOGICAL_INTEGRITY_FRAMEWORK]] | Substrate Veto: Biological distress signals override AI task queues | `SYSTEM_INVARIANT` | Grounded |
 
 ---
 
 # 2. Inter-Plane & Vault Connections
 
-- **Claims MOC:** [[02_CLAIMS_MOC]]
+- **Claims MOC:** [[11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC|02_CLAIMS_MOC]]
 - **RSCF Proof Index:** `11_KNOWLEDGE/03_RSCF/UBI_RSCF_INDEX`
-- **Biological Master:** [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
-- **Super Engine:** [[AMOS_UBI_SUPER_ENGINE]]
+- **Biological Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+- **Super Engine:** [[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_UBI_SUPER_ENGINE|AMOS_UBI_SUPER_ENGINE]]
 
 ---
 
@@ -112,8 +112,8 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[02_CLAIMS_MOC]] · `11_KNOWLEDGE/03_RSCF/UBI_RSCF_INDEX` · [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC|02_CLAIMS_MOC]] · `11_KNOWLEDGE/03_RSCF/UBI_RSCF_INDEX` · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 
 ---
-**MOC:** [[02_CLAIMS_MOC]]
+**MOC:** [[11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC|02_CLAIMS_MOC]]
 

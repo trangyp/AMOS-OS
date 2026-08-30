@@ -165,10 +165,10 @@ canonical supersession across vInfinity and v4.4.
 
 ---
 
-[[AMOS MOC]]
+[[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ---
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -176,8 +176,8 @@ node_id: amos_full_brain_os_architecture
 node_type: note
 path: 11_KNOWLEDGE/AMOS_Full_Brain_OS_Architecture.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_HOME]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 
 ## Vault-Sourced Domain Content

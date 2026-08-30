@@ -33,4 +33,4 @@ rscf:
 
 - [[07_SKILLS/amos-primitive-decomposer/vault_domain_knowledge|vault_domain_knowledge]]
 
-**Parent:** [[07_SKILLS_MOC]]
+**Parent:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

@@ -43,4 +43,4 @@ Domain master agent for AMOS C06 — Society & Culture Master. Consolidates 17 s
 **MOC:** SKILL
 
 ---
-**MOC:** [[amos-c06-society-culture-master_MOC]]
+**MOC:** [[07_SKILLS/amos-c06-society-culture-master/amos-c06-society-culture-master_MOC|amos-c06-society-culture-master_MOC]]

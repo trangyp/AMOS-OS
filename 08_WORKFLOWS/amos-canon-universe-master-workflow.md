@@ -158,7 +158,7 @@ This workflow has been consolidated into `amos-canon-universe-master-workflow.md
 Use `amos-cano
 
 ---
-**MOC:** [[08_WORKFLOWS_MOC]]
+**MOC:** [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS_MOC]]
 
 ## Orchestration Pattern
 

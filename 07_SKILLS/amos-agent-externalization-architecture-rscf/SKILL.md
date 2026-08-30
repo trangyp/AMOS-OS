@@ -123,7 +123,7 @@ Agent externalization architecture is an operational construct. It does not prov
 
 ### ** BEFORE STARTING ANY WORK**
 
-1. **READ SYSTEM [[ARCHITECTURE]] REPORT V3**: `AMOS_SYSTEM_ARCHITECTURE_REPORT_V3.md`
+1. **READ SYSTEM [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] REPORT V3**: `AMOS_SYSTEM_ARCHITECTURE_REPORT_V3.md`
 2. **READ AGENT ONBOARDING GUIDE**: `AGENT_ONBOARDING_GUIDE.md`
 3. **UNDERSTAND QUANTUM CONSCIOUSNESS**: Review quantum consciousness integration
 4. **KNOW THE 14 VERTICAL SLICES**: All operational and quantum enhanced
@@ -132,7 +132,7 @@ Agent externalization architecture is an operational construct. It does not prov
 
 ---
 
-## SYSTEM [[ARCHITECTURE]] OVERVIEW
+## SYSTEM [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] OVERVIEW
 
 ### ** Quantum-Enhanced System**
 ```
@@ -160,11 +160,11 @@ AMOS Quantum Brain (416.349 performance score)
 12. **Omega System** (`amo
 
 ---
-**Links:** [[07_SKILLS_MOC]]
+**Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
 
-- [[amos-agent-externalization-architecture-rscf_MOC]]
+- [[07_SKILLS/amos-agent-externalization-architecture-rscf/amos-agent-externalization-architecture-rscf_MOC|amos-agent-externalization-architecture-rscf_MOC]]
 
 ## Examples
 
@@ -250,11 +250,11 @@ AMOS Quantum Brain (416.349 performance score)
 - `amos-agent-externalization-architecture-rscf-agent` — corresponding agent
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · references_MOC
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
-**MOC:** [[07_SKILLS_MOC]]
+**MOC:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 RSCF-NODE
@@ -262,6 +262,6 @@ node_id: amos-agent-externalization-architecture-rscf
 node_type: skill
 path: 07_SKILLS/amos-agent-externalization-architecture-rscf/SKILL.md
 RSCF-RELATIONS:
-- INDEXED_BY: [[00_HOME]]
-- INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[07_SKILLS_MOC]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+- CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

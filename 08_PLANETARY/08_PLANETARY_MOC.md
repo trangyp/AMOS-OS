@@ -14,4 +14,4 @@ moc: true
 Map of Content for Planetary Intelligence, biosphere telemetry, and ecological carrying capacity models.
 
 ## Related
-- [[_MOC]] · [[PSI_PLANETARY_LAYER]]
+- [[_MOC|_MOC]] · [[01_CANON/02_UNIVERSE_CANON/PSI_PLANETARY_LAYER|PSI_PLANETARY_LAYER]]

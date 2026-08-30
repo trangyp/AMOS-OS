@@ -50,7 +50,7 @@ node_id: karpathy_llm_wiki_summary
 node_type: note
 path: 11_KNOWLEDGE/LLM_WIKI/wiki/karpathy_llm_wiki_summary.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[LLM_WIKI_INDEX]]
+  - INDEXED_BY: [[11_KNOWLEDGE/LLM_WIKI/wiki/LLM_WIKI_INDEX|LLM_WIKI_INDEX]]
   - DERIVED_FROM: [https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
 claim_class: SOURCE_CLAIM
 

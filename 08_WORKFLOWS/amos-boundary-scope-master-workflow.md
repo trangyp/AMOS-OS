@@ -148,7 +148,7 @@ Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic clas
 - Terminal state: VERIFIED (all gates passed) | CONDITIONAL (gates passed with caveats) | EXTERNAL_DEPENDENCY (blocked by missing input) | UNKNOWN/GAP (unable to resolve).
 
 ---
-**MOC:** [[08_WORKFLOWS_MOC]]
+**MOC:** [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS_MOC]]
 
 ## Orchestration Pattern
 

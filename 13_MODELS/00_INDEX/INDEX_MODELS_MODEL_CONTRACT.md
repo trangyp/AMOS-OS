@@ -34,8 +34,8 @@ scope:
 resolution_policy:
   local: BASENAME_WITHIN_OWN_DIRECTORY
   cross_plane:
-  - '[[00_HOME]]'
-  - '[[AMOS_RSCF_NODES]]'
+  - '[[00_ROOT/00_HOME|00_HOME]]'
+  - '[[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]'
 tags:
 - amos-os
 - 00_index
@@ -234,8 +234,8 @@ IS THE MODEL AUTHORIZED FOR EXECUTION?
 
 The supplied contract directly identifies:
 
-- [[INDEX_MODELS_README]]
-- [[MODEL_MAP]]
+- [[13_MODELS/00_INDEX/INDEX_MODELS_README|INDEX_MODELS_README]]
+- [[13_MODELS/00_INDEX/MODEL_MAP|MODEL_MAP]]
 
 These form the explicit local navigation surface supplied by the source nucleus.
 
@@ -261,7 +261,7 @@ This conceptual tree must not be interpreted as independent proof of filesystem 
 
 The source-grounded rule is:
 
-> This index resolves by basename within its own directory. Cross-plane resolution goes through [[00_HOME]] and [[AMOS_RSCF_NODES]].
+> This index resolves by basename within its own directory. Cross-plane resolution goes through [[00_ROOT/00_HOME|00_HOME]] and [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]].
 
 This rule has two distinct resolution domains:
 
@@ -376,8 +376,8 @@ Cross-plane navigation does not use unconstrained local guessing.
 
 The source explicitly routes cross-plane resolution through:
 
-- [[00_HOME]]
-- [[AMOS_RSCF_NODES]]
+- [[00_ROOT/00_HOME|00_HOME]]
+- [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 Conceptually:
 
@@ -1209,7 +1209,7 @@ The exact executable precondition schema remains unestablished.
 For a local reference:
 
 ```text
-[[MODEL_MAP]]
+[[13_MODELS/00_INDEX/MODEL_MAP|MODEL_MAP]]
 ```
 
 the smallest sufficient path may be only:
@@ -1236,9 +1236,9 @@ is insufficient.
 Escalate through:
 
 ```text
-[[00_HOME]]
+[[00_ROOT/00_HOME|00_HOME]]
 +
-[[AMOS_RSCF_NODES]]
+[[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 ```
 
 as supplied by the contract.
@@ -1415,13 +1415,13 @@ unless independently validated.
 Similarly:
 
 ```text
-[[MODEL_MAP]] EXISTS
+[[13_MODELS/00_INDEX/MODEL_MAP|MODEL_MAP]] EXISTS
 ```
 
 does not prove:
 
 ```text
-[[MODEL_MAP]] IS COMPLETE
+[[13_MODELS/00_INDEX/MODEL_MAP|MODEL_MAP]] IS COMPLETE
 ```
 
 Completeness is a separate claim.
@@ -1454,12 +1454,12 @@ Conceptually:
 ```text
 INDEX_MODELS_MODEL_CONTRACT
         │
-        ├── [[INDEX_MODELS_README]]
-        ├── [[MODEL_MAP]]
+        ├── [[13_MODELS/00_INDEX/INDEX_MODELS_README|INDEX_MODELS_README]]
+        ├── [[13_MODELS/00_INDEX/MODEL_MAP|MODEL_MAP]]
         │
-        ├── [[00_HOME]]
+        ├── [[00_ROOT/00_HOME|00_HOME]]
         │
-        └── [[AMOS_RSCF_NODES]]
+        └── [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 ```
 
 This diagram represents the explicit navigation relationships in the seed plus their contract roles; it is not a claim that all edges are implemented runtime dependencies.
@@ -2130,13 +2130,13 @@ LOCALLY INDEPENDENT CHANGE
 If a local index mutation changes cross-plane routing:
 
 ```text
-[[00_HOME]]
+[[00_ROOT/00_HOME|00_HOME]]
 ```
 
 or:
 
 ```text
-[[AMOS_RSCF_NODES]]
+[[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 ```
 
 may become result-changing dependencies.
@@ -2247,7 +2247,7 @@ ADD MODEL_X
 +
 ADD MODEL_X RSCF EDGE
 +
-UPDATE [[MODEL_MAP]]
+UPDATE [[13_MODELS/00_INDEX/MODEL_MAP|MODEL_MAP]]
 ```
 
 If these constitute one governed atomic change, partial commit must be prevented or recoverable.
@@ -2261,7 +2261,7 @@ Exact atomic boundary remains implementation-specific.
 If:
 
 ```text
-[[MODEL_MAP]] updated
+[[13_MODELS/00_INDEX/MODEL_MAP|MODEL_MAP]] updated
 ```
 
 but:
@@ -2367,9 +2367,9 @@ A stronger canonical law overrides incompatible normalized semantics in this pag
 The supplied source establishes cross-plane navigation through:
 
 ```text
-[[00_HOME]]
+[[00_ROOT/00_HOME|00_HOME]]
 +
-[[AMOS_RSCF_NODES]]
+[[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 ```
 
 This must remain visible as the contract's explicit cross-plane route.
@@ -2810,7 +2810,7 @@ The actual authoritative index resolver does not resolve by basename within its 
 
 ### F5 — Cross-plane contradiction
 
-Authoritative canon establishes a cross-plane route incompatible with `[[00_HOME]]` / `[[AMOS_RSCF_NODES]]`.
+Authoritative canon establishes a cross-plane route incompatible with `[[00_ROOT/00_HOME|00_HOME]]` / `[[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]`.
 
 ---
 
@@ -3954,29 +3954,29 @@ Everything beyond this nucleus should be interpreted as normalized AMOS semantic
 
 # 201. Cross-Plane Bindings
 
-* **Governed by canon** — [[LAW_HIERARCHY]]
-* **Kernel interaction** — [[KERNEL_README]]
-* **Control-plane gates** — [[CONTROL_PLANE_README]]
-* **Observed by** — [[OBSERVABILITY_README]] · never treated as authority
-* **Recovered via operations** — [[OPERATIONS_README]]
-* **Cross-plane navigation** — [[00_HOME]] · [[AMOS_RSCF_NODES]]
+* **Governed by canon** — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+* **Kernel interaction** — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+* **Control-plane gates** — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+* **Observed by** — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+* **Recovered via operations** — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
+* **Cross-plane navigation** — [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 ---
 
 # 202. Index
 
-* See also — [[INDEX_MODELS_README]]
-* See also — [[MODEL_MAP]]
+* See also — [[13_MODELS/00_INDEX/INDEX_MODELS_README|INDEX_MODELS_README]]
+* See also — [[13_MODELS/00_INDEX/MODEL_MAP|MODEL_MAP]]
 
 ---
 
 # 203. Related
 
-[[00_HOME]] · [[AMOS_RSCF_NODES]] · [[INDEX_MODELS_README]] · [[MODEL_MAP]] · [[LAW_HIERARCHY]] · [[KERNEL_README]] · [[CONTROL_PLANE_README]] · [[OBSERVABILITY_README]] · [[OPERATIONS_README]] · [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+[[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[13_MODELS/00_INDEX/INDEX_MODELS_README|INDEX_MODELS_README]] · [[13_MODELS/00_INDEX/MODEL_MAP|MODEL_MAP]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[02_KERNEL/KERNEL_README|KERNEL_README]] · [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]] · [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]] · [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|AMOS MOC]]
 
 ---
 
@@ -4031,34 +4031,34 @@ RSCF-NODE:
 ```yaml
 RSCF-RELATIONS:
 
-  - INDEXED_BY: [[00_HOME]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-  - INDEXED_BY: [[13_MODELS_MOC]]
+  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  - INDEXED_BY: [[13_MODELS/13_MODELS_MOC|13_MODELS_MOC]]
 
   - REFERENCES:
   - REFERENCES:
 
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
+  - GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
-  - INTERACTS_WITH: [[KERNEL_README]]
-  - GATED_BY: [[CONTROL_PLANE_README]]
-  - OBSERVED_BY: [[OBSERVABILITY_README]]
-  - RECOVERED_VIA: [[OPERATIONS_README]]
+  - INTERACTS_WITH: [[02_KERNEL/KERNEL_README|KERNEL_README]]
+  - GATED_BY: [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+  - OBSERVED_BY: [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]]
+  - RECOVERED_VIA: [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
-  - VALIDATION_PATTERN_REFERENCE: [[ROUTING_POLICY_VALIDATION_RECEIPT]]
-  - VALIDATION_PATTERN_REFERENCE: [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+  - VALIDATION_PATTERN_REFERENCE: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]
+  - VALIDATION_PATTERN_REFERENCE: [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
-  - GOVERNS_CONCEPT: [[MODEL_INDEXING]]
-  - GOVERNS_CONCEPT: [[LOCAL_BASENAME_RESOLUTION]]
-  - GOVERNS_CONCEPT: [[CROSS_PLANE_MODEL_RESOLUTION]]
-  - GOVERNS_CONCEPT: [[MODEL_DISCOVERY]]
-  - GOVERNS_CONCEPT: [[MODEL_NAVIGATION]]
-  - GOVERNS_CONCEPT: [[MODEL_IDENTITY]]
-  - GOVERNS_CONCEPT: [[MODEL_VERSION_RESOLUTION]]
-  - GOVERNS_CONCEPT: [[MODEL_PROVENANCE_PRESERVATION]]
-  - GOVERNS_CONCEPT: [[INDEX_LINK_INTEGRITY]]
-  - GOVERNS_CONCEPT: [[MODEL_INDEX_MUTATION]]
-  - GOVERNS_CONCEPT: [[SELECTIVE_INDEX_INVALIDATION]]
+  - GOVERNS_CONCEPT: [[11_KNOWLEDGE/stubs/MODEL_INDEXING|MODEL_INDEXING]]
+  - GOVERNS_CONCEPT: [[11_KNOWLEDGE/stubs/LOCAL_BASENAME_RESOLUTION|LOCAL_BASENAME_RESOLUTION]]
+  - GOVERNS_CONCEPT: [[11_KNOWLEDGE/stubs/CROSS_PLANE_MODEL_RESOLUTION|CROSS_PLANE_MODEL_RESOLUTION]]
+  - GOVERNS_CONCEPT: [[11_KNOWLEDGE/stubs/MODEL_DISCOVERY|MODEL_DISCOVERY]]
+  - GOVERNS_CONCEPT: [[11_KNOWLEDGE/stubs/MODEL_NAVIGATION|MODEL_NAVIGATION]]
+  - GOVERNS_CONCEPT: [[11_KNOWLEDGE/stubs/MODEL_IDENTITY|MODEL_IDENTITY]]
+  - GOVERNS_CONCEPT: [[11_KNOWLEDGE/stubs/MODEL_VERSION_RESOLUTION|MODEL_VERSION_RESOLUTION]]
+  - GOVERNS_CONCEPT: [[11_KNOWLEDGE/stubs/MODEL_PROVENANCE_PRESERVATION|MODEL_PROVENANCE_PRESERVATION]]
+  - GOVERNS_CONCEPT: [[11_KNOWLEDGE/stubs/INDEX_LINK_INTEGRITY|INDEX_LINK_INTEGRITY]]
+  - GOVERNS_CONCEPT: [[11_KNOWLEDGE/stubs/MODEL_INDEX_MUTATION|MODEL_INDEX_MUTATION]]
+  - GOVERNS_CONCEPT: [[11_KNOWLEDGE/stubs/SELECTIVE_INDEX_INVALIDATION|SELECTIVE_INDEX_INVALIDATION]]
 ```
 
 ---
@@ -4143,16 +4143,16 @@ claim_class: AMOS_MODEL
 
 RSCF-RELATIONS:
 
-- INDEXED_BY: [[00_HOME]]
-- INDEXED_BY: [[AMOS_RSCF_NODES]]
-- INDEXED_BY: [[00_INDEX_MOC]]
-- REFERENCES: [[INDEX_MODELS_README]]
-- REFERENCES: [[MODEL_MAP]]
-- GOVERNED_BY: [[LAW_HIERARCHY]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+- INDEXED_BY: [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]
+- REFERENCES: [[13_MODELS/00_INDEX/INDEX_MODELS_README|INDEX_MODELS_README]]
+- REFERENCES: [[13_MODELS/00_INDEX/MODEL_MAP|MODEL_MAP]]
+- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
 ---
 
-**MOC:** [[00_INDEX_MOC]]
+**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]
 
 ````
 ````

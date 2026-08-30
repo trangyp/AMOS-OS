@@ -70,16 +70,16 @@ epistemic_boundary:
 # 1. NEI Operational Mechanics
 
 1. **Autonomic Telemetry Sampling:** Continuous ingestion of heart-rate variability (HRV RMSSD) and galvanic skin conductance (EDA).
-2. **Affective Loop Closure:** Detects escalating autonomic dissonance and injects [[PHUONG_PHAP_TRANG]] precise semantic labeling to de-escalate anxiety.
+2. **Affective Loop Closure:** Detects escalating autonomic dissonance and injects [[11_KNOWLEDGE/05_FRAMEWORKS/PHUONG_PHAP_TRANG|PHUONG_PHAP_TRANG]] precise semantic labeling to de-escalate anxiety.
 3. **Non-Compensatory Vector:** Emits scalar $\text{NEI} \in [0, 1]$ into the UBI master composite equation.
 
 ---
 
 # 2. Inter-Plane & Vault Connections
 
-- **Knowledge Domain:** 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/[[UBI_NEUROEMOTIONAL_INTELLIGENCE]]
-- **Biological Master:** 11_KNOWLEDGE/05_FRAMEWORKS/[[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
-- **Cognitive Matrix:** 25_COGNITIVE_MATRIX/[[UBI_X_EMOTION]]
+- **Knowledge Domain:** 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/[[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_NEUROEMOTIONAL_INTELLIGENCE|UBI_NEUROEMOTIONAL_INTELLIGENCE]]
+- **Biological Master:** 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+- **Cognitive Matrix:** 25_COGNITIVE_MATRIX/[[25_COGNITIVE_MATRIX/UBI_X_EMOTION|UBI_X_EMOTION]]
 
 ---
 
@@ -103,8 +103,8 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/[[UBI_NEUROEMOTIONAL_INTELLIGENCE]] · 11_KNOWLEDGE/05_FRAMEWORKS/[[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]] · 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/[[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_NEUROEMOTIONAL_INTELLIGENCE|UBI_NEUROEMOTIONAL_INTELLIGENCE]] · 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 
 ---
-**MOC:** [[21_DOMAINS_MOC]]
+**MOC:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]]
 

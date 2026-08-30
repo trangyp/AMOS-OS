@@ -19,8 +19,8 @@ rscf:
 
 # amos clinical research kernel v0 biology cognition7 3
 
-Stub note for [[amos_clinical_research_kernel_v0_biology_cognition7_3]].
+Stub note for [[11_KNOWLEDGE/stubs/amos_clinical_research_kernel_v0_biology_cognition7_3|amos_clinical_research_kernel_v0_biology_cognition7_3]].
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

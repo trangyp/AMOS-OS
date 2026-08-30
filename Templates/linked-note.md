@@ -36,8 +36,8 @@ rscf:
 ## Links
 
 - 00 Cosmo Brain MOC
-- [[00_HOME]]
-- [[00_ROOT_MOC]]
+- [[00_ROOT/00_HOME|00_HOME]]
+- [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
 
 ## Tags
 
@@ -53,10 +53,10 @@ node_type: note
 path: Templates/linked-note.md
 RSCF-RELATIONS:
 
-- INDEXED_BY: [[00_HOME]]
-- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
   claim_class: AMOS_MODEL
 
 ---
 
-**MOC:** [[Templates_MOC]]
+**MOC:** [[Templates/Templates_MOC|Templates_MOC]]

@@ -34,4 +34,4 @@ rscf:
 ---
 **Skill:** [[07_SKILLS/amos-future-debt-option-value-governor/SKILL|SKILL]]
 
-**Parent:** [[07_SKILLS_MOC]]
+**Parent:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

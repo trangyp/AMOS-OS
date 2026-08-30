@@ -26,12 +26,12 @@ rscf:
 
 ## Files
 
-- [[causal_epoch.schema]]
-- [[competing_hypothesis.schema]]
-- [[framework_node.schema]]
-- [[proof_capsule.schema]]
-- [[provenance_topology.schema]]
-- [[rscf_transaction.schema]]
+- [[16_SCHEMAS/10_RSCF/causal_epoch.schema|causal_epoch.schema]]
+- [[16_SCHEMAS/10_RSCF/competing_hypothesis.schema|competing_hypothesis.schema]]
+- [[16_SCHEMAS/10_RSCF/framework_node.schema|framework_node.schema]]
+- [[16_SCHEMAS/10_RSCF/proof_capsule.schema|proof_capsule.schema]]
+- [[16_SCHEMAS/10_RSCF/provenance_topology.schema|provenance_topology.schema]]
+- [[16_SCHEMAS/10_RSCF/rscf_transaction.schema|rscf_transaction.schema]]
 
 ---
-**Parent:** [[16_SCHEMAS_MOC]]
+**Parent:** [[16_SCHEMAS/16_SCHEMAS_MOC|16_SCHEMAS_MOC]]

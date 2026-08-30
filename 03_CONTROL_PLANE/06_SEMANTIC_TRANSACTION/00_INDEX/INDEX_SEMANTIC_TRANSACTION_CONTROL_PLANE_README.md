@@ -21,14 +21,14 @@ rscf:
 # INDEX SEMANTIC TRANSACTION CONTROL PLANE README
 
 ## Index
-- See also — [[SEMANTIC_TRANSACTION_CONTROL_PLANE_SEMANTIC_TRANSACTION_CONTRACT]]
-- See also — [[SEMANTIC_TRANSACTION_MAP]]
+- See also — [[03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION/00_INDEX/SEMANTIC_TRANSACTION_CONTROL_PLANE_SEMANTIC_TRANSACTION_CONTRACT|SEMANTIC_TRANSACTION_CONTROL_PLANE_SEMANTIC_TRANSACTION_CONTRACT]]
+- See also — [[03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION/00_INDEX/SEMANTIC_TRANSACTION_MAP|SEMANTIC_TRANSACTION_MAP]]
 
 ## Indexing rule
-This index resolves by basename within its own directory. Cross-plane resolution goes through [[00_HOME]] and [[AMOS_RSCF_NODES]].
+This index resolves by basename within its own directory. Cross-plane resolution goes through [[00_ROOT/00_HOME|00_HOME]] and [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]].
 
 ## Gaps
-Automated link-integrity execution for this index is PARTIAL ([[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
+Automated link-integrity execution for this index is PARTIAL ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
 ## Worked semantics
 Given an operation touching `SEMANTIC TRANSACTION · CONTROL PLANE README` within the Control Plane plane:
 1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
@@ -48,17 +48,17 @@ Given an operation touching `SEMANTIC TRANSACTION · CONTROL PLANE README` withi
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 ---
 
-[[00_ROOT_MOC]]|[[AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ---
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -68,7 +68,7 @@ path: 03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION/00_INDEX/INDEX_SEMANTIC_TRANSACTI
 claim_class: AMOS_MODEL
 
 ---
-**MOC:** [[00_INDEX_MOC]]
+**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]
 
 ---
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

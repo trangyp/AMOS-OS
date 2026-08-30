@@ -200,7 +200,7 @@ Strip from content `tags:` and express as properties/links:
 1. `*-moc` tags — remove from all files; on the ~1,067 true MOC files add `moc: true`.
    MOC relationships are already preserved by `\[\[...MOC\]\]` wikilinks + `**MOC:** \[\[…\]\]`.
 2. `00-*` graph-root tags (`00-home`, `00-root-*`, …) — remove; roots are already
-   expressed by `[[00_HOME]]`, `[[00_ROOT_MOC]]` links and `type:`.
+   expressed by `[[00_ROOT/00_HOME|00_HOME]]`, `[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]` links and `type:`.
 3. `index-*` tags — remove; fold into `type:` (`index`) — already covered per-file by
    `type: index` in most `00_INDEX/*` files, and filename mirrors it.
 4. `amos-rscf-nodes` (mass RSCF-federation tag) — remove; RSCF relations already live
@@ -510,8 +510,8 @@ backup scripts/.tagmigrate10-backup-* (pruned to the 29 real backups).
 ### Broken-wikilink repair (2026-08-30) — Pass 11
 Authoritative scan (scripts/broken links) of real .md notes: 27 distinct broken
 wikilink targets / 39 instances. Repaired 2 unambiguously-rewritable links:
-- \[\[TRANG_LMH\]\] -> [[TRANG_LMH_ARCHITECTURE]] (x2 in TRANG_L_M_H_DINH_NGHIA_VA_PHUONG_TRINH.md; Target exists 11_KNOWLEDGE/05_FRAMEWORKS/)
-- \[\[AMOS_FULL_BRAIN_OS\]\] -> [[AMOS_FULL_BRAIN_OS_ARCHITECTURE]] (x1, in Trang relation tables)
+- \[\[TRANG_LMH\]\] -> [[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_LMH_ARCHITECTURE|TRANG_LMH_ARCHITECTURE]] (x2 in TRANG_L_M_H_DINH_NGHIA_VA_PHUONG_TRINH.md; Target exists 11_KNOWLEDGE/05_FRAMEWORKS/)
+- \[\[AMOS_FULL_BRAIN_OS\]\] -> [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS_FULL_BRAIN_OS_ARCHITECTURE]] (x1, in Trang relation tables)
 Broken set now 25 targets / 35 instances.
 FAIL-CLOSED justification for the remaining 25 (NOT auto-fixed):
 - 19x ASEA sub-concept links (ASEA_MUTATION/SURVIVAL/T2/L/M/H/RECOVERY/...) -> no individual
@@ -521,7 +521,7 @@ FAIL-CLOSED justification for the remaining 25 (NOT auto-fixed):
   variant, not exact match => ambiguous.
 - 5x non-note artifacts: inline JSON regex hit (AGENTSKILLS_*.md), \[\[...\]\]/\[\[...\]\] marks
   (LLM_WIKI_LOG, TAG_VOCABULARY), scraped Home-Assistant titles (ZIMA_TOP10_*.md), malformed
-  \[\[00_HOME\`/ \[\`[[AMOS_RSCF_NODES]] (INDEX_MODELS_MODEL_CONTRACT.md) => NOT Obsidian note links;
+  \[\[00_HOME\`/ \[\`[[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] (INDEX_MODELS_MODEL_CONTRACT.md) => NOT Obsidian note links;
   editing would corrupt source content.
 backup scripts/.tagmigrate11-backup-*.
 
@@ -532,10 +532,10 @@ code-fenced schemas/atomic templates, not typos. Resolved by rewriting each to i
 real-note target (no canon invented):
 - 16x ASEA_* sub-concepts (ASEA_L/M/H/T2/MUTATION/SURVIVAL/RECOVERY/PROVENANCE/PROOF_CAPSULE/
   MUTATION_LINEAGE/SELF_REPAIR/CHECKPOINT/ROLLBACK/MUTATION_GOVERNANCE/CONSTITUTIONAL_BOUNDARY/LMH)
-  -> [[ASEA_ADAPTIVE_SELF_EVOLUTION_AI]] (consolidated parent note holding the content: Tri-Layer
+  -> [[11_KNOWLEDGE/05_FRAMEWORKS/ASEA_ADAPTIVE_SELF_EVOLUTION_AI|ASEA_ADAPTIVE_SELF_EVOLUTION_AI]] (consolidated parent note holding the content: Tri-Layer
   Architecture = L/M/H, Mutation-Survival Loop = MUTATION/SURVIVAL, RSCF = PROOF_CAPSULE/RECOVERY/
   PROVENANCE). 26 rewrites across 3 Trang notes.
-- 1x K_CAUSAL_FIREWALL (25_COGNITIVE_MATRIX) -> [[K_CAUSAL_CLOSURE]] (real K-kernel embodying the
+- 1x K_CAUSAL_FIREWALL (25_COGNITIVE_MATRIX) -> [[02_KERNEL/03_CAUSAL/K_CAUSAL_CLOSURE|K_CAUSAL_CLOSURE]] (real K-kernel embodying the
   causal-boundary/firewall semantics; K_ prefix = kernel naming).
 Result: 0 broken targets in maintained notes. Remaining rescan hits are 6 scraped-content artifacts
 in LLM_WIKI/raw|wiki (json JSON \[\[...\]\] migrations-css noise, .devin path refs, scraped article/

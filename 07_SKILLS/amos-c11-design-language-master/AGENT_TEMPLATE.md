@@ -43,4 +43,4 @@ Domain master agent for AMOS C11 — Design & Language Master. Consolidates 16 s
 **MOC:** SKILL
 
 ---
-**MOC:** [[amos-c11-design-language-master_MOC]]
+**MOC:** [[07_SKILLS/amos-c11-design-language-master/amos-c11-design-language-master_MOC|amos-c11-design-language-master_MOC]]

@@ -60,17 +60,17 @@ watch for further uncommitted test edits.
 `6994bc6` v0.8.0 library + index · skill update commit
 
 ---
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · 2026-08-25-qfm-pass15-corpus-depth · 2026-08-25-qfm-pass5-zero-empty · 2026-08-25-qfm-pass4-runtime-sync
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · 2026-08-25-qfm-pass15-corpus-depth · 2026-08-25-qfm-pass5-zero-empty · 2026-08-25-qfm-pass4-runtime-sync
 
 ---
 **MOC:** references_MOC
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 **MOC:** references_MOC
 
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 RSCF-NODE
@@ -78,6 +78,6 @@ node_id: amos-c03-physics-cosmos-master-quantum-thermodynamics-cycle
 node_type: reference
 path: 07_SKILLS/amos-c03-physics-cosmos-master/references/quantum_thermodynamics_cycle.md
 RSCF-RELATIONS:
-- INDEXED_BY: [[00_HOME]]
-- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

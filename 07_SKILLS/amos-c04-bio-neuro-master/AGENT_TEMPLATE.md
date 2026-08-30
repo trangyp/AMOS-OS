@@ -43,4 +43,4 @@ Domain master agent for AMOS C04 — Bio & Neuro Master. Consolidates 44 sub-ski
 **MOC:** SKILL
 
 ---
-**MOC:** [[amos-c04-bio-neuro-master_MOC]]
+**MOC:** [[07_SKILLS/amos-c04-bio-neuro-master/amos-c04-bio-neuro-master_MOC|amos-c04-bio-neuro-master_MOC]]

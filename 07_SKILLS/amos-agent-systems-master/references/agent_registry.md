@@ -34,75 +34,75 @@ tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/s
   "agents": {
     "Architecture_Agent": {
       "module_path": "Agents/Architecture_Agent.py",
-      "canon_spec": "/Users/trangphan/Documents/GitHub/AMOS-SYSTEM/AMOS_CANON/[[AGENTS]]/BRAIN_SYSTEM/Architecture_Agent.json"
+      "canon_spec": "/Users/trangphan/Documents/GitHub/AMOS-SYSTEM/AMOS_CANON/[[AGENTS|AGENTS]]/BRAIN_SYSTEM/Architecture_Agent.json"
     },
     "Automation_Agent": {
       "module_path": "Agents/Automation_Agent.py",
-      "canon_spec": "/Users/trangphan/Documents/GitHub/AMOS-SYSTEM/AMOS_CANON/[[AGENTS]]/EXECUTION_SYSTEM/Automation_Agent.json"
+      "canon_spec": "/Users/trangphan/Documents/GitHub/AMOS-SYSTEM/AMOS_CANON/[[AGENTS|AGENTS]]/EXECUTION_SYSTEM/Automation_Agent.json"
     },
     "Cashflow_Agent": {
       "module_path": "Agents/Cashflow_Agent.py",
-      "canon_spec": "/Users/trangphan/Documents/GitHub/AMOS-SYSTEM/AMOS_CANON/[[AGENTS]]/MONEY_SYSTEM/Cashflow_Agent.json"
+      "canon_spec": "/Users/trangphan/Documents/GitHub/AMOS-SYSTEM/AMOS_CANON/[[AGENTS|AGENTS]]/MONEY_SYSTEM/Cashflow_Agent.json"
     },
     "Coding_Agent": {
       "module_path": "Agents/Coding_Agent.py",
-      "canon_spec": "/Users/trangphan/Documents/GitHub/AMOS-SYSTEM/AMOS_CANON/[[AGENTS]]/EXECUTION_SYSTEM/Coding_Agent.json"
+      "canon_spec": "/Users/trangphan/Documents/GitHub/AMOS-SYSTEM/AMOS_CANON/[[AGENTS|AGENTS]]/EXECUTION_SYSTEM/Coding_Agent.json"
     },
     "Compliance_Agent": {
       "module_path": "Agents/Compliance_Agent.py",
-      "canon_spec": "/Users/trangphan/Documents/GitHub/AMOS-SYSTEM/AMOS_CANON/[[AGENTS]]/LEGAL_SYSTEM/Compliance_Agent.json"
+      "canon_spec": "/Users/trangphan/Documents/GitHub/AMOS-SYSTEM/AMOS_CANON/[[AGENTS|AGENTS]]/LEGAL_SYSTEM/Compliance_Agent.json"
     },
     "Context_Agent": {
       "module_path": "Agents/Context_Agent.py",
-      "canon_spec": "/Users/trangphan/Documents/GitHub/AMOS-SYSTEM/AMOS_CANON/[[AGENTS]]/SENSE_SYSTEM/Context_Agent.json"
+      "canon_spec": "/Users/trangphan/Documents/GitHub/AMOS-SYSTEM/AMOS_CANON/[[AGENTS|AGENTS]]/SENSE_SYSTEM/Context_Agent.json"
     },
     "Contract_Agent": {
       "module_path": "Agents/Contract_Agent.py",
-      "canon_spec": "/Users/trangphan/Documents/GitHub/AMOS-SYSTEM/AMOS_CANON/[[AGENTS]]/LEGAL_SYSTEM/Contract_Agent.json"
+      "canon_spec": "/Users/trangphan/Documents/GitHub/AMOS-SYSTEM/AMOS_CANON/[[AGENTS|AGENTS]]/LEGAL_SYSTEM/Contract_Agent.json"
     },
     "Decomposer_Agent": {
       "module_path": "Agents/Decomposer_Agent.py",
-      "canon_spec": "/Users/trangphan/Documents/GitHub/AMOS-SYSTEM/AMOS_CANON/[[AGENTS]]/BRAIN_SYSTEM/Decomposer_Agent.json"
+      "canon_spec": "/Users/trangphan/Documents/GitHub/AMOS-SYSTEM/AMOS_CANON/[[AGENTS|AGENTS]]/BRAIN_SYSTEM/Decomposer_Agent.json"
     },
     "Deployment_Agent": {
       "module_path": "Agents/Deployment_Agent.py",
-      "canon_spec": "/Users/trangphan/Documents/GitHub/AMOS-SYSTEM/AMOS_CANON/[[AGENTS]]/EXECUTION_SYSTEM/Deployment_Agent.json"
+      "canon_spec": "/Users/trangphan/Documents/GitHub/AMOS-SYSTEM/AMOS_CANON/[[AGENTS|AGENTS]]/EXECUTION_SYSTEM/Deployment_Agent.json"
     },
     "DevOps_Agent": {
       "module_path": "Agents/DevOps_Agent.py",
-      "canon_spec": "/Users/trangphan/Documents/GitHub/AMOS-SYSTEM/AMOS_CANON/[[AGENTS]]/EXECUTION_SYSTEM/DevOps_Agent.json"
+      "canon_spec": "/Users/trangphan/Documents/GitHub/AMOS-SYSTEM/AMOS_CANON/[[AGENTS|AGENTS]]/EXECUTION_SYSTEM/DevOps_Agent.json"
     },
     "Document_Agent": {
       "module_path": "Agents/Document_Agent.py",
-      "canon_spec": "/Users/trangphan/Documents/GitHub/AMOS-SYSTEM/AMOS_CANON/[[AGENTS]]/EXECUTION_SYSTEM/Document_Agent.json"
+      "canon_spec": "/Users/trangphan/Documents/GitHub/AMOS-SYSTEM/AMOS_CANON/[[AGENTS|AGENTS]]/EXECUTION_SYSTEM/Document_Agent.json"
     },
     "FinanceRisk_Agent": {
       "module_path": "Agents/FinanceRisk_Agent.py",
-      "canon_spec": "/Users/trangphan/Documents/GitHub/AMOS-SYSTEM/AMOS_CANON/[[AGENTS]]/MONEY_SYSTEM/FinanceRisk_Agent.json"
+      "canon_spec": "/Users/trangphan/Documents/GitHub/AMOS-SYSTEM/AMOS_CANON/[[AGENTS|AGENTS]]/MONEY_SYSTEM/FinanceRisk_Agent.json"
     },
     "Finance_Agent": {
       "module_path": "Agents/Finance_Agent.py",
-      "canon_spec": "/Users/trangphan/Documents/GitHub/AMOS-SYSTEM/AMOS_CANON/[[AGENTS]]/MONEY_SYSTEM/Finance_Agent.json"
+      "canon_spec": "/Users/trangphan/Documents/GitHub/AMOS-SYSTEM/AMOS_CANON/[[AGENTS|AGENTS]]/MONEY_SYSTEM/Finance_Agent.json"
     },
     "GeoAnalyst_Agent": {
       "module_path": "Agents/GeoAnalyst_Agent.py",
-      "canon_spec": "/Users/trangphan/Documents/GitHub/AMOS-SYSTEM/AMOS_CANON/[[AGENTS]]/WORLD_MODEL_SYSTEM/GeoAnalyst_Agent.json"
+      "canon_spec": "/Users/trangphan/Documents/GitHub/AMOS-SYSTEM/AMOS_CANON/[[AGENTS|AGENTS]]/WORLD_MODEL_SYSTEM/GeoAnalyst_Agent.json"
     },
     "Health_Agent": {
       "module_path": "Agents/Health_Agent.py",
-      "canon_spec": "/Users/trangphan/Documents/GitHub/AMOS-SYSTEM/AMOS_CANON/[[AGENTS]]/LIFE_SYSTEM/Health_Agent.json"
+      "canon_spec": "/Users/trangphan/Documents/GitHub/AMOS-SYSTEM/AMOS_CANON/[[AGENTS|AGENTS]]/LIFE_SYSTEM/Health_Agent.json"
     },
     "IP_Agent": {
       "module_path": "Agents/IP_Agent.py",
-      "canon_spec": "/Users/trangphan/Documents/GitHub/AMOS-SYSTEM/AMOS_CANON/[[AGENTS]]/LEGAL_SYSTEM/IP_Agent.json"
+      "canon_spec": "/Users/trangphan/Documents/GitHub/AMOS-SYSTEM/AMOS_CANON/[[AGENTS|AGENTS]]/LEGAL_SYSTEM/IP_Agent.json"
     },
     "Investment_Agent": {
       "module_path": "Agents/Investment_Agent.py",
-      "canon_spec": "/Users/trangphan/Documents/GitHub/AMOS-SYSTEM/AMOS_CANON/[[AGENTS]]/MONEY_SYSTEM/Investment_Agent.json"
+      "canon_spec": "/Users/trangphan/Documents/GitHub/AMOS-SYSTEM/AMOS_CANON/[[AGENTS|AGENTS]]/MONEY_SYSTEM/Investment_Agent.json"
     },
     "LegalRisk_Agent": {
       "module_path": "Agents/LegalRisk_Agent.py",
-      "canon_spec": "/Users/trangphan/Documents/GitHub/AMOS-SYSTEM/AMOS_CANON/[[AGENTS]]/LEGAL_SYSTEM/LegalRisk_Agent.json"
+      "canon_spec": "/Users/trangphan/Documents/GitHub/AMOS-SYSTEM/AMOS_CANON/[[AGENTS|AGENTS]]/LEGAL_SYSTEM/LegalRisk_Agent.json"
     },
     "Legal_Agent": {
       "module_path": "
@@ -112,14 +112,14 @@ tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/s
 
 ## Related
 
-- [[07_SKILLS_MOC]]
+- [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 **MOC:** references_MOC
 
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 RSCF-NODE
@@ -127,6 +127,6 @@ node_id: amos-agent-systems-master-agent-registry
 node_type: reference
 path: 07_SKILLS/amos-agent-systems-master/references/agent_registry.md
 RSCF-RELATIONS:
-- INDEXED_BY: [[00_HOME]]
-- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

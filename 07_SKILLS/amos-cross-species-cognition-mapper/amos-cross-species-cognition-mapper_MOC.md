@@ -34,4 +34,4 @@ rscf:
 ---
 **Skill:** [[07_SKILLS/amos-cross-species-cognition-mapper/SKILL|SKILL]]
 
-**Parent:** [[07_SKILLS_MOC]]
+**Parent:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

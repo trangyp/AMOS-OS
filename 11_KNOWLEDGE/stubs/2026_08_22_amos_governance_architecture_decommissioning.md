@@ -17,8 +17,8 @@ rscf:
 
 # 2026 08 22 amos governance architecture decommissioning
 
-Stub note for [[2026_08_22_amos_governance_architecture_decommissioning]].
+Stub note for [[11_KNOWLEDGE/stubs/2026_08_22_amos_governance_architecture_decommissioning|2026_08_22_amos_governance_architecture_decommissioning]].
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

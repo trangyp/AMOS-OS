@@ -17,8 +17,8 @@ rscf:
 
 # coding engine vinfinity v1 6 0
 
-Stub note for [[coding_engine_vinfinity_v1_6_0]].
+Stub note for [[11_KNOWLEDGE/stubs/coding_engine_vinfinity_v1_6_0|coding_engine_vinfinity_v1_6_0]].
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

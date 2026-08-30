@@ -26,20 +26,20 @@ rscf:
 
 ## Files
 
-- [[11k_learning_memory_knowledge_governor]]
-- [[ai_learning]]
-- [[mvp_ai_roleplay_language_learning]]
+- [[07_SKILLS/amos-learning-memory-knowledge-feedback-governor/references/11k_learning_memory_knowledge_governor|11k_learning_memory_knowledge_governor]]
+- [[07_SKILLS/amos-learning-memory-knowledge-feedback-governor/references/ai_learning|ai_learning]]
+- [[07_SKILLS/amos-learning-memory-knowledge-feedback-governor/references/mvp_ai_roleplay_language_learning|mvp_ai_roleplay_language_learning]]
 - [[07_SKILLS/amos-learning-memory-knowledge-feedback-governor/references/vault_domain_knowledge|vault_domain_knowledge]]
 
 ---
-**Parent:** [[amos-learning-memory-knowledge-feedback-governor_MOC]]
+**Parent:** [[07_SKILLS/amos-learning-memory-knowledge-feedback-governor/amos-learning-memory-knowledge-feedback-governor_MOC|amos-learning-memory-knowledge-feedback-governor_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 **MOC:** references_MOC
 
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 RSCF-NODE
@@ -47,6 +47,6 @@ node_id: amos-learning-memory-knowledge-feedback-governor-references-MOC
 node_type: reference
 path: 07_SKILLS/amos-learning-memory-knowledge-feedback-governor/references/references_MOC.md
 RSCF-RELATIONS:
-- INDEXED_BY: [[00_HOME]]
-- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

@@ -19,14 +19,14 @@ rscf:
 # INDEX C09 ORG LAW POLICY DOMAINS README
 
 ## Index
-- See also — [[C09_ORG_LAW_POLICY_DOMAINS_C09_ORG_LAW_POLICY_CONTRACT]]
-- See also — [[C09_ORG_LAW_POLICY_MAP]]
+- See also — [[21_DOMAINS/19_C09_ORG_LAW_POLICY/00_INDEX/C09_ORG_LAW_POLICY_DOMAINS_C09_ORG_LAW_POLICY_CONTRACT|C09_ORG_LAW_POLICY_DOMAINS_C09_ORG_LAW_POLICY_CONTRACT]]
+- See also — [[21_DOMAINS/19_C09_ORG_LAW_POLICY/00_INDEX/C09_ORG_LAW_POLICY_MAP|C09_ORG_LAW_POLICY_MAP]]
 
 ## Indexing rule
-This index resolves by basename within its own directory. Cross-plane resolution goes through [[00_HOME]] and [[AMOS_RSCF_NODES]].
+This index resolves by basename within its own directory. Cross-plane resolution goes through [[00_ROOT/00_HOME|00_HOME]] and [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]].
 
 ## Gaps
-Automated link-integrity execution for this index is PARTIAL ([[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
+Automated link-integrity execution for this index is PARTIAL ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
 ## Worked semantics
 Given an operation touching `C09 ORG LAW POLICY DOMAINS README` within the Domains plane:
 1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
@@ -46,17 +46,17 @@ Given an operation touching `C09 ORG LAW POLICY DOMAINS README` within the Domai
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
+- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
+- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 ---
 
-[[00_ROOT_MOC]]|[[AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ---
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -66,4 +66,4 @@ path: 21_DOMAINS/19_C09_ORG_LAW_POLICY/00_INDEX/INDEX_C09_ORG_LAW_POLICY_DOMAINS
 claim_class: AMOS_MODEL
 
 ---
-**MOC:** [[00_INDEX_MOC]]
+**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]

@@ -237,5 +237,5 @@ This workflow follows a single-agent orchestration with explicit validation gate
 
 ---
 
-**Related:** [[08_WORKFLOWS_MOC]]
+**Related:** [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS_MOC]]
 

@@ -52,14 +52,14 @@ These are the routing/activation level — what the routing rules activate.
 
 | ID | Name | Priority | Required | Domains | Dependencies |
 |----|------|----------|----------|---------|--------------|
-| [[K_META_LOGIC]] | Meta Logic & Law Kernel | 10 | Yes | logic, law_of_law, reasoning | — |
-| K_MATH_COMPUTE | Math & Computation Kernel | 9 | Yes | math, compute, optimization | [[K_META_LOGIC]] |
-| K_BIO_NEURO | Biology & Neuro Kernel | 9 | Yes | ubi, biology, nervous_system | [[K_META_LOGIC]] |
-| K_MIND_BEHAVIOR | Mind, Emotion & Behaviour Kernel | 8 | Yes | psychology, emotion, behaviour | K_BIO_NEURO, [[K_META_LOGIC]] |
-| K_TECH_ENGINE | Technology & Engineering Kernel | 7 | No | software, ai, cloud, infra | [[K_META_LOGIC]], K_MATH_COMPUTE |
+| [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]] | Meta Logic & Law Kernel | 10 | Yes | logic, law_of_law, reasoning | — |
+| K_MATH_COMPUTE | Math & Computation Kernel | 9 | Yes | math, compute, optimization | [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]] |
+| K_BIO_NEURO | Biology & Neuro Kernel | 9 | Yes | ubi, biology, nervous_system | [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]] |
+| K_MIND_BEHAVIOR | Mind, Emotion & Behaviour Kernel | 8 | Yes | psychology, emotion, behaviour | K_BIO_NEURO, [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]] |
+| K_TECH_ENGINE | Technology & Engineering Kernel | 7 | No | software, ai, cloud, infra | [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]], K_MATH_COMPUTE |
 | K_EV_INFRA | EV Infrastructure Kernel | 7 | No | ev, charging, logistics, fleet | K_TECH_ENGINE, K_MATH_COMPUTE |
 | K_UNIPOWER_OPS | UniPower Operational Brain | 8 | No | unipower, vn, ops, drivers, stations | K_EV_INFRA, K_TECH_ENGINE |
-| K_UNIPOWER_TECH | UniPower Tech & Design MetaBrain | 8 | No | unipower, tech, ai, design | K_TECH_ENGINE, [[K_META_LOGIC]] |
+| K_UNIPOWER_TECH | UniPower Tech & Design MetaBrain | 8 | No | unipower, tech, ai, design | K_TECH_ENGINE, [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]] |
 
 These are the detailed spec level — what individual kernel files expand. 7 categories:
 
@@ -68,10 +68,10 @@ These are the detailed spec level — what individual kernel files expand. 7 cat
 
 | Route | Match Tags | Activates |
 |-------|------------|-----------|
-| ROUTE_EV | ev, charging, station, driver, fleet | [[K_META_LOGIC]], K_MATH_COMPUTE, K_EV_INFRA, K_UNIPOWER_OPS |
-| ROUTE_TECH | software, ai, architecture, system_design | [[K_META_LOGIC]], K_MATH_COMPUTE, K_TECH_ENGINE, K_UNIPOWER_TECH |
-| ROUTE_PSYCH | emotion, behaviour, psychology, ubi | [[K_META_LOGIC]], K_BIO_NEURO, K_MIND_BEHAVIOR |
-| ROUTE_DEFAULT | * (all) | [[K_META_LOGIC]], K_MATH_COMPUTE, K_BIO_NEURO |
+| ROUTE_EV | ev, charging, station, driver, fleet | [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]], K_MATH_COMPUTE, K_EV_INFRA, K_UNIPOWER_OPS |
+| ROUTE_TECH | software, ai, architecture, system_design | [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]], K_MATH_COMPUTE, K_TECH_ENGINE, K_UNIPOWER_TECH |
+| ROUTE_PSYCH | emotion, behaviour, psychology, ubi | [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]], K_BIO_NEURO, K_MIND_BEHAVIOR |
+| ROUTE_DEFAULT | * (all) | [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]], K_MATH_COMPUTE, K_BIO_NEURO |
 
 
 ### Dynamic Routing (from AMOS_Omni_KERNEL.json)
@@ -80,7 +80,7 @@ These are the detailed spec level — what individual kernel files expand. 7 cat
 |-----------|-----------|
 | logic-heavy | Meta_Logic_Kernel |
 | math-heavy | Math_Foundations |
-| human_state | [[AMOS_UBI_KERNEL]] |
+| human_state | [[11_KNOWLEDGE/kernel/AMOS_UBI_KERNEL|AMOS_UBI_KERNEL]] |
 | multi-agent | Multi_Agent_Coordination_Kernel |
 | prediction | TSS_TPE_Engine |
 | ecosystem | PSI_Core |
@@ -115,14 +115,14 @@ These are the detailed spec level — what individual kernel files expand. 7 cat
 
 | Kernel | Priority | Required | Domains | Dependencies |
 |--------|----------|----------|---------|--------------|
-| [[K_META_LOGIC]] | 10 | Yes | logic, law_of_law, reasoning | — |
-| K_MATH_COMPUTE | 9 | Yes | math, compute, optimization | [[K_META_LOGIC]] |
-| K_BIO_NEURO | 9 | Yes | ubi, biology, nervous_system | [[K_META_LOGIC]] |
-| K_MIND_BEHAVIOR | 8 | Yes | psychology, emotion, behaviour | K_BIO_NEURO, [[K_META_LOGIC]] |
-| K_TECH_ENGINE | 7 | No | software, ai, cloud, infra | [[K_META_LOGIC]], K_MATH_COMPUTE |
+| [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]] | 10 | Yes | logic, law_of_law, reasoning | — |
+| K_MATH_COMPUTE | 9 | Yes | math, compute, optimization | [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]] |
+| K_BIO_NEURO | 9 | Yes | ubi, biology, nervous_system | [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]] |
+| K_MIND_BEHAVIOR | 8 | Yes | psychology, emotion, behaviour | K_BIO_NEURO, [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]] |
+| K_TECH_ENGINE | 7 | No | software, ai, cloud, infra | [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]], K_MATH_COMPUTE |
 | K_EV_INFRA | 7 | No | ev, charging, logistics, fleet | K_TECH_ENGINE, K_MATH_COMPUTE |
 | K_UNIPOWER_OPS | 8 | No | unipower, vn, ops, drivers, stations | K_EV_INFRA, K_TECH_ENGINE |
-| K_UNIPOWER_TECH | 8 | No | unipower, tech, ai, design | K_TECH_ENGINE, [[K_META_LOGIC]] |
+| K_UNIPOWER_TECH | 8 | No | unipower, tech, ai, design | K_TECH_ENGINE, [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]] |
 
 
 ---
@@ -131,10 +131,10 @@ These are the detailed spec level — what individual kernel files expand. 7 cat
 
 | Route | Match Tags | Activates |
 |-------|------------|-----------|
-| ROUTE_EV | ev, charging, station, driver, fleet | [[K_META_LOGIC]], K_MATH_COMPUTE, K_EV_INFRA, K_UNIPOWER_OPS |
-| ROUTE_TECH | software, ai, architecture, system_design | [[K_META_LOGIC]], K_MATH_COMPUTE, K_TECH_ENGINE, K_UNIPOWER_TECH |
-| ROUTE_PSYCH | emotion, behaviour, psychology, ubi | [[K_META_LOGIC]], K_BIO_NEURO, K_MIND_BEHAVIOR |
-| ROUTE_DEFAULT | * (all) | [[K_META_LOGIC]], K_MATH_COMPUTE, K_BIO_NEURO |
+| ROUTE_EV | ev, charging, station, driver, fleet | [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]], K_MATH_COMPUTE, K_EV_INFRA, K_UNIPOWER_OPS |
+| ROUTE_TECH | software, ai, architecture, system_design | [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]], K_MATH_COMPUTE, K_TECH_ENGINE, K_UNIPOWER_TECH |
+| ROUTE_PSYCH | emotion, behaviour, psychology, ubi | [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]], K_BIO_NEURO, K_MIND_BEHAVIOR |
+| ROUTE_DEFAULT | * (all) | [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]], K_MATH_COMPUTE, K_BIO_NEURO |
 
 ---
 
@@ -187,23 +187,23 @@ Cashflow_Agent, Finance_Agent, Fin
 
 | ID | Name | Priority | Required | Domains | Key Dependencies |
 |----|------|----------|----------|---------|------------------|
-| [[K_META_LOGIC]] | Meta Logic & Law Kernel | 10 | Yes | logic, law_of_law, reasoning | — |
-| K_MATH_COMPUTE | Math & Computation Kernel | 9 | Yes | math, compute, optimization | [[K_META_LOGIC]] |
-| K_BIO_NEURO | Biology & Neuro Kernel | 9 | Yes | ubi, biology, nervous_system | [[K_META_LOGIC]] |
-| K_MIND_BEHAVIOR | Mind, Emotion & Behaviour Kernel | 8 | Yes | psychology, emotion, behaviour | K_BIO_NEURO, [[K_META_LOGIC]] |
-| K_TECH_ENGINE | Technology & Engineering Kernel | 7 | No | software, ai, cloud, infra | [[K_META_LOGIC]], K_MATH_COMPUTE |
+| [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]] | Meta Logic & Law Kernel | 10 | Yes | logic, law_of_law, reasoning | — |
+| K_MATH_COMPUTE | Math & Computation Kernel | 9 | Yes | math, compute, optimization | [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]] |
+| K_BIO_NEURO | Biology & Neuro Kernel | 9 | Yes | ubi, biology, nervous_system | [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]] |
+| K_MIND_BEHAVIOR | Mind, Emotion & Behaviour Kernel | 8 | Yes | psychology, emotion, behaviour | K_BIO_NEURO, [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]] |
+| K_TECH_ENGINE | Technology & Engineering Kernel | 7 | No | software, ai, cloud, infra | [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]], K_MATH_COMPUTE |
 | K_EV_INFRA | EV Infrastructure Kernel | 7 | No | ev, charging, logistics, fleet | K_TECH_ENGINE, K_MATH_COMPUTE |
 | K_UNIPOWER_OPS | UniPower Operational Brain | 8 | No | unipower, vn, ops, drivers, stations | K_EV_INFRA, K_TECH_ENGINE |
-| K_UNIPOWER_TECH | UniPower Tech & Design MetaBrain | 8 | No | unipower, tech, ai, design | K_TECH_ENGINE, [[K_META_LOGIC]] |
+| K_UNIPOWER_TECH | UniPower Tech & Design MetaBrain | 8 | No | unipower, tech, ai, design | K_TECH_ENGINE, [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]] |
 
 ## Routing Rules
 
 | Route | Matches | Activates |
 |-------|---------|-----------|
-| ROUTE_EV | ev, charging, station, driver, fleet | [[K_META_LOGIC]], K_MATH_COMPUTE, K_EV_INFRA, K_UNIPOWER_OPS |
-| ROUTE_TECH | software, ai, architecture, system_design | [[K_META_LOGIC]], K_MATH_COMPUTE, K_TECH_ENGINE, K_UNIPOWER_TECH |
-| ROUTE_PSYCH | emotion, behaviour, psychology, ubi | [[K_META_LOGIC]], K_BIO_NEURO, K_MIND_BEHAVIOR |
-| ROUTE_DEFAULT | * (all) | [[K_META_LOGIC]], K_MATH_COMPUTE, K_BIO_NEURO |
+| ROUTE_EV | ev, charging, station, driver, fleet | [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]], K_MATH_COMPUTE, K_EV_INFRA, K_UNIPOWER_OPS |
+| ROUTE_TECH | software, ai, architecture, system_design | [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]], K_MATH_COMPUTE, K_TECH_ENGINE, K_UNIPOWER_TECH |
+| ROUTE_PSYCH | emotion, behaviour, psychology, ubi | [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]], K_BIO_NEURO, K_MIND_BEHAVIOR |
+| ROUTE_DEFAULT | * (all) | [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]], K_MATH_COMPUTE, K_BIO_NEURO |
 
 
 ## Laws (Priority Order — L1 highest, L6 lowest)
@@ -219,14 +219,14 @@ Cashflow_Agent, Finance_Agent, Fin
 
 ## Related
 
-- [[07_SKILLS_MOC]]
+- [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 **MOC:** references_MOC
 
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 RSCF-NODE
@@ -234,6 +234,6 @@ node_id: amos-memory-conflict-governor-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-memory-conflict-governor/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
-- INDEXED_BY: [[00_HOME]]
-- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

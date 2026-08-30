@@ -257,10 +257,10 @@ The diagram explicitly names:
 - ULK;
 - MURK;
 - QLS;
-- [[K_MVCC]];
-- [[K_CAS]];
-- [[K_ATOMIC_MULTI_RSCF]];
-- [[K_FAILURE_RECOVERY]].
+- [[02_KERNEL/K_MVCC|K_MVCC]];
+- [[02_KERNEL/K_CAS|K_CAS]];
+- [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]];
+- [[02_KERNEL/K_FAILURE_RECOVERY|K_FAILURE_RECOVERY]].
 
 The table additionally contains:
 
@@ -728,7 +728,7 @@ This is **DERIVED**.
 
 ---
 
-# 32. [[K_MVCC]]
+# 32. [[02_KERNEL/K_MVCC|K_MVCC]]
 
 ```yaml
 K_MVCC:
@@ -842,7 +842,7 @@ This establishes rejection rather than silent conflict acceptance at the source-
 
 ---
 
-# 39. [[K_CAS]]
+# 39. [[02_KERNEL/K_CAS|K_CAS]]
 
 ```yaml
 K_CAS:
@@ -908,9 +908,9 @@ Independent implementation verification would require evidence that no observabl
 
 # 43. CAS ≠ Multi-RSCF Atomicity
 
-[[K_CAS]] concerns an atomic state transition.
+[[02_KERNEL/K_CAS|K_CAS]] concerns an atomic state transition.
 
-[[K_ATOMIC_MULTI_RSCF]] concerns a multi-capsule cross-plane commit.
+[[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] concerns a multi-capsule cross-plane commit.
 
 Therefore:
 
@@ -924,7 +924,7 @@ unless explicitly bound.
 
 ---
 
-# 44. [[K_ATOMIC_MULTI_RSCF]]
+# 44. [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
 
 ```yaml
 K_ATOMIC_MULTI_RSCF:
@@ -1020,7 +1020,7 @@ Those require implementation and failure-injection evidence.
 
 ---
 
-# 50. [[K_ATOMIC_MULTI_RSCF]] × v4.4 Reasoning
+# 50. [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] × v4.4 Reasoning
 
 The kernel row strongly corresponds to the AMOS v4.4 reasoning pattern of **atomic multi-RSCF reasoning**.
 
@@ -1030,7 +1030,7 @@ The kernel construct remains an AMOS architectural model unless implementation e
 
 ---
 
-# 51. [[K_FAILURE_RECOVERY]]
+# 51. [[02_KERNEL/K_FAILURE_RECOVERY|K_FAILURE_RECOVERY]]
 
 ```yaml
 K_FAILURE_RECOVERY:
@@ -1137,7 +1137,7 @@ Therefore:
 
 # 57. ULK × Failure Recovery
 
-Both ULK and [[K_FAILURE_RECOVERY]] route toward:
+Both ULK and [[02_KERNEL/K_FAILURE_RECOVERY|K_FAILURE_RECOVERY]] route toward:
 
 $$
 S_0
@@ -1171,7 +1171,7 @@ and:
 
 `Immediate Clean State Reset`.
 
-The Kernel Matrix uses \(S_0\) in both ULK and [[K_FAILURE_RECOVERY]].
+The Kernel Matrix uses \(S_0\) in both ULK and [[02_KERNEL/K_FAILURE_RECOVERY|K_FAILURE_RECOVERY]].
 
 This creates strong cross-matrix structural continuity:
 
@@ -1525,7 +1525,7 @@ Exact dependency remains source-dependent.
 
 DCP verifies a program/proof artifact before compilation.
 
-[[K_ATOMIC_MULTI_RSCF]] validates multiple RSCF capsules before commit.
+[[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] validates multiple RSCF capsules before commit.
 
 Both therefore implement source-defined pre-commit validation patterns at different objects/scopes.
 
@@ -1554,9 +1554,9 @@ The artifact does not explicitly state that every signed state-transition receip
 `04_RUNTIME` receives five displayed kernels:
 
 - ULK;
-- [[K_MVCC]];
-- [[K_CAS]];
-- [[K_FAILURE_RECOVERY]];
+- [[02_KERNEL/K_MVCC|K_MVCC]];
+- [[02_KERNEL/K_CAS|K_CAS]];
+- [[02_KERNEL/K_FAILURE_RECOVERY|K_FAILURE_RECOVERY]];
 - DCP.
 
 Therefore:
@@ -1599,7 +1599,7 @@ within the table.
 `12_STATE` receives:
 
 - Go Board Engine;
-- [[K_CAS]].
+- [[02_KERNEL/K_CAS|K_CAS]].
 
 Thus:
 
@@ -1619,7 +1619,7 @@ This connects discrete topology to the Models plane.
 
 # 84. Control Plane
 
-`03_CONTROL_PLANE` receives [[K_ATOMIC_MULTI_RSCF]].
+`03_CONTROL_PLANE` receives [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]].
 
 This routes cross-capsule commit coordination into governance/control architecture.
 
@@ -1627,7 +1627,7 @@ This routes cross-capsule commit coordination into governance/control architectu
 
 # 85. Schemas Plane
 
-`16_SCHEMAS` receives [[K_ATOMIC_MULTI_RSCF]].
+`16_SCHEMAS` receives [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]].
 
 This is significant because multi-RSCF atomicity is therefore not represented solely as runtime behavior; it also crosses schema structure.
 
@@ -1902,7 +1902,7 @@ If a multi-RSCF commit cannot complete safely, the supplied fallback is:
 
 `Atomic Rollback All`.
 
-[[K_FAILURE_RECOVERY]] separately supplies rollback/ground-state recovery.
+[[02_KERNEL/K_FAILURE_RECOVERY|K_FAILURE_RECOVERY]] separately supplies rollback/ground-state recovery.
 
 This creates a source-level recovery relationship, but exact coordination between the two kernels is not defined here.
 
@@ -2507,7 +2507,7 @@ The local fast path is only valid if capsules are genuinely independent with res
 
 # 134. Coordination Avoidance Boundary
 
-The existence of [[K_ATOMIC_MULTI_RSCF]] does not mean every operation requires global coordination.
+The existence of [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] does not mean every operation requires global coordination.
 
 Conversely, coordination should not be avoided when atomic multi-capsule closure is load-bearing.
 
@@ -2596,13 +2596,13 @@ This is a cross-matrix dependency, not evidence that the kernel itself performs 
 
 | Framework   | Kernel Relation                                           | Status                                |
 | ----------- | --------------------------------------------------------- | ------------------------------------- |
-| Trang ∅     | ULK / [[K_FAILURE_RECOVERY]] via \(S_0\)                        | Strong structural correspondence      |
+| Trang ∅     | ULK / [[02_KERNEL/K_FAILURE_RECOVERY|K_FAILURE_RECOVERY]] via \(S_0\)                        | Strong structural correspondence      |
 | TRA         | ULK / Meta-Logic via Canon + Kernel                       | Structural correspondence             |
 | Khung Trang | MURK / topology family                                    | Plausible structural correspondence   |
 | UBI         | No explicit dedicated kernel row here                     | GAP / external dependency             |
 | TSS         | MURK/Models may be relevant, but no explicit binding      | GAP unless sourced                    |
 | TPE         | MURK/Go topology may be relevant, but no explicit binding | GAP unless sourced                    |
-| Heritage    | [[K_ATOMIC_MULTI_RSCF]] governance adjacency                  | Structural, not identity              |
+| Heritage    | [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] governance adjacency                  | Structural, not identity              |
 | GMEF        | DCP / CAS / Multi-RSCF / Recovery                         | Strong operational correspondence     |
 | ULK         | ULK ALU 0–5                                               | Direct naming/operator correspondence |
 
@@ -2668,13 +2668,13 @@ Therefore Reality × ULK is a first-class dependency for exact ontology-to-kerne
 
 ---
 
-# 145. Kernel Matrix × [[MVCC_CAS]]
+# 145. Kernel Matrix × [[02_KERNEL/MVCC_CAS|MVCC_CAS]]
 
 The inter-plane connections explicitly name:
 
 ``.
 
-This is the appropriate source to retrieve if the exact relationship between [[K_MVCC]] and [[K_CAS]] becomes load-bearing.
+This is the appropriate source to retrieve if the exact relationship between [[02_KERNEL/K_MVCC|K_MVCC]] and [[02_KERNEL/K_CAS|K_CAS]] becomes load-bearing.
 
 Do not fabricate that protocol from conventional database knowledge.
 
@@ -4342,11 +4342,11 @@ AMOS can therefore represent a unified kernel execution mesh while preserving **
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|AMOS MOC]]
 
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[25_COGNITIVE_MATRIX_MOC]] · [[02_KERNEL_MOC]] · [[ULK_LOGIC_KERNEL]] · [[K_MVCC]] · [[K_CAS]] · [[MVCC_CAS]] · [[K_ATOMIC_MULTI_RSCF]] · [[K_FAILURE_RECOVERY]] · [[REALITY_X_ULK_MATRIX]] · [[TOTAL_CANON_MATRIX]] · [[TOTAL_FRAMEWORK_MATRIX]] · [[K_RSCF]] · [[K_HML]] · [[K_CANON]] · K_KERNEL · [[K_FAIL_CLOSED]] · [[K_PROVENANCE]] · K_CAUSAL_FIREWALL · [[K_GOVERNED_EVOLUTION]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]] · [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]] · [[02_KERNEL/ULK_LOGIC_KERNEL|ULK_LOGIC_KERNEL]] · [[02_KERNEL/K_MVCC|K_MVCC]] · [[02_KERNEL/K_CAS|K_CAS]] · [[02_KERNEL/MVCC_CAS|MVCC_CAS]] · [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] · [[02_KERNEL/K_FAILURE_RECOVERY|K_FAILURE_RECOVERY]] · [[25_COGNITIVE_MATRIX/REALITY_X_ULK_MATRIX|REALITY_X_ULK_MATRIX]] · [[25_COGNITIVE_MATRIX/TOTAL_CANON_MATRIX|TOTAL_CANON_MATRIX]] · [[25_COGNITIVE_MATRIX/TOTAL_FRAMEWORK_MATRIX|TOTAL_FRAMEWORK_MATRIX]] · [[02_KERNEL/09_INTEGRATION/K_RSCF|K_RSCF]] · [[02_KERNEL/09_INTEGRATION/K_HML|K_HML]] · [[02_KERNEL/K_CANON|K_CANON]] · K_KERNEL · [[02_KERNEL/K_FAIL_CLOSED|K_FAIL_CLOSED]] · [[02_KERNEL/08_PROVENANCE/K_PROVENANCE|K_PROVENANCE]] · K_CAUSAL_FIREWALL · [[02_KERNEL/K_GOVERNED_EVOLUTION|K_GOVERNED_EVOLUTION]]
 
 ---
 
@@ -4374,17 +4374,17 @@ runtime_enforcement: FAIL_CLOSED_GATED
 
 RSCF-RELATIONS:
 
-- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 
-- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
-- PART_OF: [[25_COGNITIVE_MATRIX_MOC]]
+- PART_OF: [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
-- GROUNDED_BY: [[02_KERNEL_MOC]]
+- GROUNDED_BY: [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
 
-- GROUNDED_BY: [[ULK_LOGIC_KERNEL]]
+- GROUNDED_BY: [[02_KERNEL/ULK_LOGIC_KERNEL|ULK_LOGIC_KERNEL]]
 
-- GROUNDED_BY: [[REALITY_X_ULK_MATRIX]]
+- GROUNDED_BY: [[25_COGNITIVE_MATRIX/REALITY_X_ULK_MATRIX|REALITY_X_ULK_MATRIX]]
 
 - DEFINES: MASTER_KERNEL_CONVERGENCE_GRID
 
@@ -4394,13 +4394,13 @@ RSCF-RELATIONS:
 
 - ROUTES: GO_BOARD_19X19
 
-- ROUTES: [[K_MVCC]]
+- ROUTES: [[02_KERNEL/K_MVCC|K_MVCC]]
 
-- ROUTES: [[K_CAS]]
+- ROUTES: [[02_KERNEL/K_CAS|K_CAS]]
 
-- ROUTES: [[K_ATOMIC_MULTI_RSCF]]
+- ROUTES: [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
 
-- ROUTES: [[K_FAILURE_RECOVERY]]
+- ROUTES: [[02_KERNEL/K_FAILURE_RECOVERY|K_FAILURE_RECOVERY]]
 
 - ROUTES: META_LOGIC_CORE_19
 
@@ -4412,41 +4412,41 @@ RSCF-RELATIONS:
 
 - ENFORCES: FAIL_CLOSED_GATED
 
-- CONNECTS_TO: [[MVCC_CAS]]
+- CONNECTS_TO: [[02_KERNEL/MVCC_CAS|MVCC_CAS]]
 
-- CONNECTS_TO: [[TOTAL_CANON_MATRIX]]
+- CONNECTS_TO: [[25_COGNITIVE_MATRIX/TOTAL_CANON_MATRIX|TOTAL_CANON_MATRIX]]
 
-- RELATED_TO: [[TOTAL_FRAMEWORK_MATRIX]]
+- RELATED_TO: [[25_COGNITIVE_MATRIX/TOTAL_FRAMEWORK_MATRIX|TOTAL_FRAMEWORK_MATRIX]]
 
-- RELATED_TO: [[K_RSCF]]
+- RELATED_TO: [[02_KERNEL/09_INTEGRATION/K_RSCF|K_RSCF]]
 
-- RELATED_TO: [[K_HML]]
+- RELATED_TO: [[02_KERNEL/09_INTEGRATION/K_HML|K_HML]]
 
-- RELATED_TO: [[K_CANON]]
+- RELATED_TO: [[02_KERNEL/K_CANON|K_CANON]]
 
 - RELATED_TO: K_KERNEL
 
-- RELATED_TO: [[K_MVCC]]
+- RELATED_TO: [[02_KERNEL/K_MVCC|K_MVCC]]
 
-- RELATED_TO: [[K_CAS]]
+- RELATED_TO: [[02_KERNEL/K_CAS|K_CAS]]
 
-- RELATED_TO: [[K_ATOMIC_MULTI_RSCF]]
+- RELATED_TO: [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
 
-- RELATED_TO: [[K_FAILURE_RECOVERY]]
+- RELATED_TO: [[02_KERNEL/K_FAILURE_RECOVERY|K_FAILURE_RECOVERY]]
 
-- RELATED_TO: [[K_FAIL_CLOSED]]
+- RELATED_TO: [[02_KERNEL/K_FAIL_CLOSED|K_FAIL_CLOSED]]
 
-- RELATED_TO: [[K_PROVENANCE]]
+- RELATED_TO: [[02_KERNEL/08_PROVENANCE/K_PROVENANCE|K_PROVENANCE]]
 
 - RELATED_TO: K_CAUSAL_FIREWALL
 
-- RELATED_TO: [[K_GOVERNED_EVOLUTION]]
+- RELATED_TO: [[02_KERNEL/K_GOVERNED_EVOLUTION|K_GOVERNED_EVOLUTION]]
 
-- LINEAGE_TARGET: [[AMOS_CORE_v4_4]]
+- LINEAGE_TARGET: [[00_ROOT/AMOS_CORE_v4_4|AMOS_CORE_v4_4]]
 
 ---
 
-**MOC:** [[25_COGNITIVE_MATRIX_MOC]]
+**MOC:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
 ---
 

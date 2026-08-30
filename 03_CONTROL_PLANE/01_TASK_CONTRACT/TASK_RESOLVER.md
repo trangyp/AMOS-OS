@@ -5886,10 +5886,10 @@ This is a **substantive candidate replacement**, not recovered pre-existing cano
 
 ---
 
-[[00_ROOT_MOC]]|[[AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ---
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -5897,9 +5897,9 @@ node_id: task_resolver
 node_type: note
 path: 03_CONTROL_PLANE/01_TASK_CONTRACT/TASK_RESOLVER.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_HOME]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 
 ---
-**MOC:** [[01_TASK_CONTRACT_MOC]]
+**MOC:** [[03_CONTROL_PLANE/01_TASK_CONTRACT/01_TASK_CONTRACT_MOC|01_TASK_CONTRACT_MOC]]

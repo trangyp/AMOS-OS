@@ -186,7 +186,7 @@ AMOS OMEGA Biological Consciousness Engine
 # The Living Stack — A Cognitive Reef Architecture
 
 ## Abstract
-Layered architecture modeled as a **Cognitive Reef** — a dynamic ecosystem where tasks are treated as signals, roles mutate per context, and recovery mechanisms ensure continuity under drift. Integrates 6 frameworks: [[RATPAK]], NEUROPAK, HoloOrg, MyNeuralSignal, FAR-CAGE, ConsentX.
+Layered architecture modeled as a **Cognitive Reef** — a dynamic ecosystem where tasks are treated as signals, roles mutate per context, and recovery mechanisms ensure continuity under drift. Integrates 6 frameworks: [[11_KNOWLEDGE/05_FRAMEWORKS/RATPAK|RATPAK]], NEUROPAK, HoloOrg, MyNeuralSignal, FAR-CAGE, ConsentX.
 
 ## Novel Contributions
 1. **Task-as-signal architecture** — outcomes as atomic unit of value
@@ -221,7 +221,7 @@ Biological systems maintain **signal continuity** — purpose AND mechanics. Cor
 From transactional economics (completing tasks) to **continuity economics** (maintaining optimal states). Value lies in the space between moments.
 
 ### Architecture
-- **[[RATPAK]]** — Orchestration layer: real-time sensor fusion, predictive intervention
+- **[[11_KNOWLEDGE/05_FRAMEWORKS/RATPAK|RATPAK]]** — Orchestration layer: real-time sensor fusion, predictive intervention
 - **NEUROPAK** — Intuition amplifier: BCI for subconscious pattern recognition
 - **MyNeuralSignal** — Cognitive guardian: monitors cognitive load, attention drift, decision quality
 - **AHC** — Capability multiplier: just-in-time training, adaptive scenarios
@@ -240,14 +240,14 @@ Other domains: Healthcare, Finance, Manufacturing, Transportation, Education, Ag
 
 ## Related
 
-- [[07_SKILLS_MOC]]
+- [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 **MOC:** references_MOC
 
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 RSCF-NODE
@@ -255,6 +255,6 @@ node_id: amos-attention-allocation-governor-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-attention-allocation-governor/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
-- INDEXED_BY: [[00_HOME]]
-- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

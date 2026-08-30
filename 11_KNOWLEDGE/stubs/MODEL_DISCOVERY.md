@@ -18,4 +18,4 @@ rscf:
 
 # MODEL DISCOVERY
 
-Stub note for [[MODEL_DISCOVERY]].
+Stub note for [[11_KNOWLEDGE/stubs/MODEL_DISCOVERY|MODEL_DISCOVERY]].

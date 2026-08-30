@@ -42,7 +42,7 @@ rscf:
 
 # 0. Canonical Status
 
-[[L22_REPLAYABILITY]] establishes the canonical AMOS requirement that:
+[[01_CANON/01_CORE_LAWS/L22_REPLAYABILITY|L22_REPLAYABILITY]] establishes the canonical AMOS requirement that:
 
 > **Any valid state transition must be capable of bit-for-bit deterministic replay from its logged transaction receipt and root inputs.**
 
@@ -1365,7 +1365,7 @@ AR-3 Replayable Chains
 
 stating that reasoning chains can be re-executed deterministically against pinned inputs.
 
-The supplied `[[L22_REPLAYABILITY]]` law is stronger and more specific in its canonical formulation:
+The supplied `[[01_CANON/01_CORE_LAWS/L22_REPLAYABILITY|L22_REPLAYABILITY]]` law is stronger and more specific in its canonical formulation:
 
 ```text
 VALID STATE TRANSITION
@@ -1378,7 +1378,7 @@ BIT-FOR-BIT
 DETERMINISTIC REPLAY
 ```
 
-Where these occupy the same L22 canonical slot, the current `[[L22_REPLAYABILITY]]` law should supersede the proposed placeholder/specification.
+Where these occupy the same L22 canonical slot, the current `[[01_CANON/01_CORE_LAWS/L22_REPLAYABILITY|L22_REPLAYABILITY]]` law should supersede the proposed placeholder/specification.
 
 ---
 
@@ -1398,7 +1398,7 @@ REPLAYABLE
 STATE EVOLUTION
 ```
 
-But atomic reasoning laws should not be silently treated as part of [[L22_REPLAYABILITY]] unless separately retained elsewhere in canon.
+But atomic reasoning laws should not be silently treated as part of [[01_CANON/01_CORE_LAWS/L22_REPLAYABILITY|L22_REPLAYABILITY]] unless separately retained elsewhere in canon.
 
 ---
 
@@ -2649,7 +2649,7 @@ The replay result is fragile until those dependencies are resolved.
 
 # 112. Source-Established Claims
 
-The supplied [[L22_REPLAYABILITY]] source directly establishes:
+The supplied [[01_CANON/01_CORE_LAWS/L22_REPLAYABILITY|L22_REPLAYABILITY]] source directly establishes:
 
 ```text
 1. L22_REPLAYABILITY is titled
@@ -3274,7 +3274,7 @@ RSCF-RELATIONS:
 
 ---
 
-**Related:** [[L8_EXECUTION]] · [[L23_MVCC_CAS]] · [[L24_CAUSAL_EPOCH]] · [[01_CORE_LAWS_MOC]]
+**Related:** [[01_CANON/01_CORE_LAWS/L8_EXECUTION|L8_EXECUTION]] · [[01_CANON/01_CORE_LAWS/L23_MVCC_CAS|L23_MVCC_CAS]] · [[01_CANON/01_CORE_LAWS/L24_CAUSAL_EPOCH|L24_CAUSAL_EPOCH]] · [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
 
 ---
 
@@ -3448,4 +3448,4 @@ scope:
 
 ---
 
-**MOC:** [[00_INDEX_MOC]] · [[00_HOME]]
+**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

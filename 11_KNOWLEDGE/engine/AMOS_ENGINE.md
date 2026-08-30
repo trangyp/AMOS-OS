@@ -185,12 +185,12 @@ The AMOS Engine is now ready to integrate with:
 **This represents a complete practical AI architecture that goes beyond current LLMs by combining system modeling, simulation, decision-making, and meta-cognitive refinement into one recursive intelligence engine!** 🚀
 
 ---
-**Links:** [[ENGINE_MOC]] | [[KNOWLEDGE_MOC]]
+**Links:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]] | [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
 
 ---
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
 

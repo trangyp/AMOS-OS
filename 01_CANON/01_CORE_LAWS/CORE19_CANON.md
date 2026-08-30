@@ -951,7 +951,7 @@ core19_dependencies:
     UNKNOWN/GAP
 
   governance:
-    - [[LAW_HIERARCHY]]
+    - [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
   implementation:
     UNKNOWN/GAP
@@ -1581,7 +1581,7 @@ GOVERNANCE PRECEDENCE
 The supplied artifact establishes target governance through:
 
 ```text
-[[LAW_HIERARCHY]]
+[[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 ```
 
 Therefore:
@@ -1589,7 +1589,7 @@ Therefore:
 ```text
 CORE19_CANON
 GOVERNED_BY
-[[LAW_HIERARCHY]]
+[[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 ```
 
 is source-supported at the artifact relationship level.
@@ -1603,7 +1603,7 @@ This does not establish the contents of `LAW_HIERARCHY` or the resulting substan
 CORE-19 SHOULD be represented in:
 
 ```text
-[[CORE_LAW_CROSSWALK]]
+[[01_CANON/01_CORE_LAWS/CORE_LAW_CROSSWALK|CORE_LAW_CROSSWALK]]
 ```
 
 once the crosswalk is populated.
@@ -1611,7 +1611,7 @@ once the crosswalk is populated.
 Target relation:
 
 ```text
-[[CORE_LAW_CROSSWALK]]
+[[01_CANON/01_CORE_LAWS/CORE_LAW_CROSSWALK|CORE_LAW_CROSSWALK]]
 INDEXES / MAPS
 CORE-19
 ```
@@ -3334,29 +3334,29 @@ Source-supported target bindings:
 ```text
 CORE19_CANON
 ↓ GOVERNED_BY
-[[LAW_HIERARCHY]]
+[[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
 CORE19_CANON
 ↓ INDEXED_BY
-[[00_HOME]]
+[[00_ROOT/00_HOME|00_HOME]]
 
 CORE19_CANON
 ↓ INDEXED_BY
-[[AMOS_RSCF_NODES]]
+[[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 ```
 
 Additional target integration points:
 
 ```text
-[[CORE_LAW_CROSSWALK]]
+[[01_CANON/01_CORE_LAWS/CORE_LAW_CROSSWALK|CORE_LAW_CROSSWALK]]
 
-[[KERNEL_README]]
+[[02_KERNEL/KERNEL_README|KERNEL_README]]
 
-[[CONTROL_PLANE_README]]
+[[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
 
-[[OBSERVABILITY_README]]
+[[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]]
 
-[[OPERATIONS_README]]
+[[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 ```
 
 These integration references do not by themselves establish executable binding.
@@ -3450,7 +3450,7 @@ without explicit governance.
 Target recovery through:
 
 ```text
-[[OPERATIONS_README]]
+[[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 ```
 
 where operational binding exists.
@@ -3491,7 +3491,7 @@ proof_capsule:
 
   dependencies:
     - AMOS_CANON_INGESTION_RULE
-    - [[LAW_HIERARCHY]]
+    - [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
   competing_explanations: []
 

@@ -297,15 +297,15 @@ rscf:
 - ABSOLUTE_VN_OMNISTRUCTURE_SUPER_x100k — `docs/brain/ABSOLUTE_VN_OMNISTRUCTURE_SUPER_x100k.md`
 - ADVANCED_SYSTEM_ENHANCEMENT_MISSION_COMPLETE — `docs/brain/ADVANCED_SYSTEM_ENHANCEMENT_MISSION_COMPLETE.md`
 - ADVERSARIAL_VALIDATION — `docs/brain/ADVERSARIAL_VALIDATION.md`
-- [[AGENTS]] (AMOS_EXECUTION_KERNEL_v1) — `docs/brain/AGENTS (AMOS_EXECUTION_KERNEL_v1).md`
-- [[AGENTS]] (AMOS_MD_BRAIN) — `docs/brain/AGENTS (AMOS_MD_BRAIN).md`
-- [[AGENTS]] (AMOS_OS_KERNEL) — `docs/brain/AGENTS (AMOS_OS_KERNEL).md`
+- [[AGENTS|AGENTS]] (AMOS_EXECUTION_KERNEL_v1) — `docs/brain/AGENTS (AMOS_EXECUTION_KERNEL_v1).md`
+- [[AGENTS|AGENTS]] (AMOS_MD_BRAIN) — `docs/brain/AGENTS (AMOS_MD_BRAIN).md`
+- [[AGENTS|AGENTS]] (AMOS_OS_KERNEL) — `docs/brain/AGENTS (AMOS_OS_KERNEL).md`
 - AGENTS_2 — `docs/brain/AGENTS_2.md`
 - AI Sweet Spots Research — `docs/brain/AI Sweet Spots Research.md`
 - AI_WORKFORCE_LAYER — `docs/brain/AI_WORKFORCE_LAYER.md`
 - AMOS - Absolute Meta-Operating System — `docs/brain/AMOS - Absolute Meta-Operating System.md`
 - AMOS = Absolute Meta Operating System — `docs/brain/AMOS = Absolute Meta Operating System.md`
-- AMOS [[ARCHITECTURE]] — `docs/brain/AMOS ARCHITECTURE.md`
+- AMOS [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] — `docs/brain/AMOS ARCHITECTURE.md`
 - AMOS Absolute Logic DB v1.0 — `docs/brain/AMOS Absolute Logic DB v1.0.md`
 - AMOS Academic Writing Engine vInfinity — `docs/brain/AMOS Academic Writing Engine vInfinity.md`
 - AMOS All Frameworks Canon Hierarchy — `docs/brain/AMOS All Frameworks Canon Hierarchy.md`
@@ -401,7 +401,7 @@ rscf:
 - AMOS vs Other Frontier AI vs Global Top Humans — A — `docs/brain/AMOS vs Other Frontier AI vs Global Top Humans — A.md`
 - AMOS – KIẾN TRÚC TUYỆT ĐỐI (FULL STACK – ZERO GAP) — `docs/brain/AMOS – KIẾN TRÚC TUYỆT ĐỐI (FULL STACK – ZERO GAP).md`
 - AMOS – KIẾN TRÚC TUYỆT ĐỐI (TÍCH HỢP TOÀN BỘ 800K+ — `docs/brain/AMOS – KIẾN TRÚC TUYỆT ĐỐI (TÍCH HỢP TOÀN BỘ 800K+.md`
-- AMOS — FULL EXPANSION [[ARCHITECTURE]] (NON-FLAT, GENE — `docs/brain/AMOS — FULL EXPANSION ARCHITECTURE (NON-FLAT, GENE.md`
+- AMOS — FULL EXPANSION [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] (NON-FLAT, GENE — `docs/brain/AMOS — FULL EXPANSION ARCHITECTURE (NON-FLAT, GENE.md`
 - AMOS — JUNIOR ASSISTANT OPERATING GUIDE — `docs/brain/AMOS — JUNIOR ASSISTANT OPERATING GUIDE.md`
 - AMOS.config — `docs/brain/AMOS.config.md`
 - AMOS — `docs/brain/AMOS.md`
@@ -503,7 +503,7 @@ rscf:
 - AMOS_CC05_mind_behavior — `docs/brain/AMOS_CC05_mind_behavior.md`
 - AMOS_CHATGPT_BOOTSTRAP — `docs/brain/AMOS_CHATGPT_BOOTSTRAP.md`
 - AMOS_CODING_OMEGA — `docs/brain/AMOS_CODING_OMEGA.md`
-- [[AMOS_COGNITION_TOTAL_KERNEL]] — `docs/brain/AMOS_COGNITION_TOTAL_KERNEL.md`
+- [[11_KNOWLEDGE/kernel/AMOS_COGNITION_TOTAL_KERNEL|AMOS_COGNITION_TOTAL_KERNEL]] — `docs/brain/AMOS_COGNITION_TOTAL_KERNEL.md`
 - AMOS_COMMUNICATION_OMEGA — `docs/brain/AMOS_COMMUNICATION_OMEGA.md`
 - AMOS_CORE - FULL — `docs/brain/AMOS_CORE - FULL.md`
 - AMOS_CORE FINAL — `docs/brain/AMOS_CORE FINAL.md`
@@ -666,7 +666,7 @@ rscf:
 - AMOS_OMEGA_THINKING_ENGINE_with_Coding — `docs/brain/AMOS_OMEGA_THINKING_ENGINE_with_Coding.md`
 - AMOS_OMNIVERSE_BRAIN_Core — `docs/brain/AMOS_OMNIVERSE_BRAIN_Core.md`
 - AMOS_OMNIVERSE_BRAIN_ROOT — `docs/brain/AMOS_OMNIVERSE_BRAIN_ROOT.md`
-- [[AMOS_OMNI_FACTORY_ENGINE]] — `docs/brain/AMOS_OMNI_FACTORY_ENGINE.md`
+- [[11_KNOWLEDGE/engine/AMOS_OMNI_FACTORY_ENGINE|AMOS_OMNI_FACTORY_ENGINE]] — `docs/brain/AMOS_OMNI_FACTORY_ENGINE.md`
 - AMOS_OPTIMIZATION_REPORT — `docs/brain/AMOS_OPTIMIZATION_REPORT.md`
 - AMOS_ORCHESTRATOR_ROUTING_Kernel — `docs/brain/AMOS_ORCHESTRATOR_ROUTING_Kernel.md`
 - AMOS_OS_ABSOLUTE — `docs/brain/AMOS_OS_ABSOLUTE.md`
@@ -730,7 +730,7 @@ rscf:
 - AMOS_SCIENCE_Pack_v0_Sector_Packs7 — `docs/brain/AMOS_SCIENCE_Pack_v0_Sector_Packs7.md`
 - AMOS_SI_SUPER — `docs/brain/AMOS_SI_SUPER.md`
 - AMOS_SUPER_CODE_Engine_v1.6.0 — `docs/brain/AMOS_SUPER_CODE_Engine_v1.6.0.md`
-- [[AMOS_SUPER_CONSCIOUSNESS_ENGINE]] — `docs/brain/AMOS_SUPER_CONSCIOUSNESS_ENGINE.md`
+- [[11_KNOWLEDGE/engine/AMOS_SUPER_CONSCIOUSNESS_ENGINE|AMOS_SUPER_CONSCIOUSNESS_ENGINE]] — `docs/brain/AMOS_SUPER_CONSCIOUSNESS_ENGINE.md`
 - AMOS_SUPER_CONSCIOUSNESS_ENGINE_vInfinity_MAX_H3 — `docs/brain/AMOS_SUPER_CONSCIOUSNESS_ENGINE_vInfinity_MAX_H3.md`
 - AMOS_SUPER_Corp_Doc_Engine_Light — `docs/brain/AMOS_SUPER_Corp_Doc_Engine_Light.md`
 - AMOS_SUPER_Corp_Doc_Engine_SUPER — `docs/brain/AMOS_SUPER_Corp_Doc_Engine_SUPER.md`
@@ -794,7 +794,7 @@ rscf:
 - AMOS_Tech_ubi_canon_Kernel_v1_Tech4 — `docs/brain/AMOS_Tech_ubi_canon_Kernel_v1_Tech4.md`
 - AMOS_Toolchain_Integration_Kernel_v0_Machine_Architecture4_2 — `docs/brain/AMOS_Toolchain_Integration_Kernel_v0_Machine_Architecture4_2.md`
 - AMOS_Toolchain_Integration_Kernel_v0_Tech — `docs/brain/AMOS_Toolchain_Integration_Kernel_v0_Tech.md`
-- [[AMOS_UBI_KERNEL]] — `docs/brain/AMOS_UBI_KERNEL.md`
+- [[11_KNOWLEDGE/kernel/AMOS_UBI_KERNEL|AMOS_UBI_KERNEL]] — `docs/brain/AMOS_UBI_KERNEL.md`
 - AMOS_UNIFIED_OS_AGENT_MERGED — `docs/brain/AMOS_UNIFIED_OS_AGENT_MERGED.md`
 - AMOS_UNIVERSE_CORE — `docs/brain/AMOS_UNIVERSE_CORE.md`
 - AMOS_UNIVERSE_KERNEL_vInfinity — `docs/brain/AMOS_UNIVERSE_KERNEL_vInfinity.md`
@@ -842,7 +842,7 @@ rscf:
 - ANh luong — `docs/brain/ANh luong.md`
 - API plan — `docs/brain/API plan.md`
 - APPENDIX 01 FEATURE LIST — `docs/brain/APPENDIX 01 FEATURE LIST.md`
-- [[ARCHITECTURE]] OF [[ARCHITECTURE]] — `docs/brain/ARCHITECTURE OF ARCHITECTURE.md`
+- [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] OF [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] — `docs/brain/ARCHITECTURE OF ARCHITECTURE.md`
 - ASIA — `docs/brain/ASIA.md`
 - AU Gov Funding — Ultra-Detailed To-Do List — `docs/brain/AU Gov Funding — Ultra-Detailed To-Do List.md`
 - AUTHORITY_GOVERNOR — `docs/brain/AUTHORITY_GOVERNOR.md`
@@ -998,8 +998,8 @@ rscf:
 - CHỨNG MINH CÁC LOÀI VẬT THÔNG MINH TRONG TỰ NHIÊN — `docs/brain/CHỨNG MINH CÁC LOÀI VẬT THÔNG MINH TRONG TỰ NHIÊN.md`
 - CIVILIZATIONAL SCALE FRAMEWORK (CSF) — `docs/brain/CIVILIZATIONAL SCALE FRAMEWORK (CSF).md`
 - CLAIM_CLASSES — `docs/brain/CLAIM_CLASSES.md`
-- [[CLAIM_TENSOR]] — `docs/brain/CLAIM_TENSOR.md`
-- [[COGNITION_KERNEL]] — `docs/brain/COGNITION_KERNEL.md`
+- [[11_KNOWLEDGE/CLAIM_TENSOR|CLAIM_TENSOR]] — `docs/brain/CLAIM_TENSOR.md`
+- [[11_KNOWLEDGE/kernel/COGNITION_KERNEL|COGNITION_KERNEL]] — `docs/brain/COGNITION_KERNEL.md`
 - COMMAND_CENTER — `docs/brain/COMMAND_CENTER.md`
 - COMPETING — `docs/brain/COMPETING.md`
 - COMPETING_HYPOTHESES — `docs/brain/COMPETING_HYPOTHESES.md`
@@ -1120,14 +1120,14 @@ rscf:
 - Dưới đây là danh sách những gì AMOS cho phép chúng — `docs/brain/Dưới đây là danh sách những gì AMOS cho phép chúng.md`
 - Dự báo Thị trường Xe điện Việt Nam 2025–2030 — `docs/brain/Dự báo Thị trường Xe điện Việt Nam 2025–2030.md`
 - EMAIL MESSAGE YÊU CẦU BÀN GIAO — `docs/brain/EMAIL MESSAGE YÊU CẦU BÀN GIAO.md`
-- [[ENGINEERING_STANDARDS_LIBRARY]] — `docs/brain/ENGINEERING_STANDARDS_LIBRARY.md`
+- [[11_KNOWLEDGE/engine/ENGINEERING_STANDARDS_LIBRARY|ENGINEERING_STANDARDS_LIBRARY]] — `docs/brain/ENGINEERING_STANDARDS_LIBRARY.md`
 - ENTROPY_LACUNARITY — `docs/brain/ENTROPY_LACUNARITY.md`
 - EQUATIONS (docs) — `docs/brain/EQUATIONS (docs).md`
 - EQUATION_FIREWALL — `docs/brain/EQUATION_FIREWALL.md`
 - EQUATION_REGISTRY — `docs/brain/EQUATION_REGISTRY.md`
 - ERROR_RECOVERY — `docs/brain/ERROR_RECOVERY.md`
 - EV Trung Quốc — `docs/brain/EV Trung Quốc.md`
-- [[EVIDENCE_TENSOR]] — `docs/brain/EVIDENCE_TENSOR.md`
+- [[11_KNOWLEDGE/EVIDENCE_TENSOR|EVIDENCE_TENSOR]] — `docs/brain/EVIDENCE_TENSOR.md`
 - EVOLUTION_DEBT — `docs/brain/EVOLUTION_DEBT.md`
 - EVOLUTION_MEMORY — `docs/brain/EVOLUTION_MEMORY.md`
 - EV_Engine — `docs/brain/EV_Engine.md`
@@ -1186,7 +1186,7 @@ rscf:
 - FRACTAL ECONOMY — `docs/brain/FRACTAL ECONOMY.md`
 - FRACTAL FOREX ENTERPRISE — `docs/brain/FRACTAL FOREX ENTERPRISE.md`
 - FRACTAL — `docs/brain/FRACTAL.md`
-- [[FRACTAL_RUNTIME]] — `docs/brain/FRACTAL_RUNTIME.md`
+- [[04_RUNTIME/06_EXECUTION/FRACTAL_RUNTIME|FRACTAL_RUNTIME]] — `docs/brain/FRACTAL_RUNTIME.md`
 - FULL-PHƯƠNG PHÁP TRANG — `docs/brain/FULL-PHƯƠNG PHÁP TRANG.md`
 - Fast book — `docs/brain/Fast book.md`
 - File_Inclusion — `docs/brain/File_Inclusion.md`
@@ -1365,15 +1365,15 @@ rscf:
 - Investnent — `docs/brain/Investnent.md`
 - JWT — `docs/brain/JWT.md`
 - Join the Signal Economy Trust Study — `docs/brain/Join the Signal Economy Trust Study.md`
-- [[KERNEL_PROTOCOL]] — `docs/brain/KERNEL_PROTOCOL.md`
+- [[11_KNOWLEDGE/kernel/KERNEL_PROTOCOL|KERNEL_PROTOCOL]] — `docs/brain/KERNEL_PROTOCOL.md`
 - KẾ HOẠCH THƯƠNG MẠI HÓA — `docs/brain/KẾ HOẠCH THƯƠNG MẠI HÓA.md`
 - KHUNG TRANG — FORMALIZATION v0 1 — `docs/brain/KHUNG TRANG — FORMALIZATION v0 1.md`
 - KHUNG ĐÁNH GIÁ TIÊU CHUẨN CHỌN ĐỐI TÁC EV — `docs/brain/KHUNG ĐÁNH GIÁ TIÊU CHUẨN CHỌN ĐỐI TÁC EV.md`
-- [[KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS]] — `docs/brain/KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS.md`
+- [[11_KNOWLEDGE/trang/KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS|KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS]] — `docs/brain/KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS.md`
 - KHUÔN KHỔ HỢP TÁC CHIẾN LƯỢC — `docs/brain/KHUÔN KHỔ HỢP TÁC CHIẾN LƯỢC.md`
-- KIẾN TRÚC CỦA KIẾN TRÚC ([[ARCHITECTURE]] OF ARCHITECT — `docs/brain/KIẾN TRÚC CỦA KIẾN TRÚC (ARCHITECTURE OF ARCHITECT.md`
+- KIẾN TRÚC CỦA KIẾN TRÚC ([[00_ROOT/ARCHITECTURE|ARCHITECTURE]] OF ARCHITECT — `docs/brain/KIẾN TRÚC CỦA KIẾN TRÚC (ARCHITECTURE OF ARCHITECT.md`
 - KIẾN TRÚC HỢP NHẤT 1000 PHƯƠNG PHÁP FOREX — `docs/brain/KIẾN TRÚC HỢP NHẤT 1000 PHƯƠNG PHÁP FOREX.md`
-- KIẾN TRÚC PHÂN DẠNG (FRACTAL [[ARCHITECTURE]]) CỦA THỰ — `docs/brain/KIẾN TRÚC PHÂN DẠNG (FRACTAL ARCHITECTURE) CỦA THỰ.md`
+- KIẾN TRÚC PHÂN DẠNG (FRACTAL [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]) CỦA THỰ — `docs/brain/KIẾN TRÚC PHÂN DẠNG (FRACTAL ARCHITECTURE) CỦA THỰ.md`
 - KIẾN TRÚC TÁI DIỄN BẢN ĐỒ CHUNG CỦA CÁC NỀN VĂN MI — `docs/brain/KIẾN TRÚC TÁI DIỄN BẢN ĐỒ CHUNG CỦA CÁC NỀN VĂN MI.md`
 - KIẾN TRÚC TRANG — `docs/brain/KIẾN TRÚC TRANG.md`
 - KNOWLEDGE_HARVEST — `docs/brain/KNOWLEDGE_HARVEST.md`
@@ -1393,7 +1393,7 @@ rscf:
 - L-M-H CẤU TRÚC CỦA VẠN VẬT — `docs/brain/L-M-H CẤU TRÚC CỦA VẠN VẬT.md`
 - LDAP — `docs/brain/LDAP.md`
 - LOAD_MAP — `docs/brain/LOAD_MAP.md`
-- [[LOGIC_KERNEL]] — `docs/brain/LOGIC_KERNEL.md`
+- [[11_KNOWLEDGE/kernel/LOGIC_KERNEL|LOGIC_KERNEL]] — `docs/brain/LOGIC_KERNEL.md`
 - LOGIC__archive AMOS2 — `docs/brain/LOGIC__archive AMOS2.md`
 - LOGIC_root — `docs/brain/LOGIC_root.md`
 - LỜI NGUYỀN, MA THUẬT, TÂM LINH BẢN DỊCH CẤU TRÚC C — `docs/brain/LỜI NGUYỀN, MA THUẬT, TÂM LINH BẢN DỊCH CẤU TRÚC C.md`
@@ -1621,7 +1621,7 @@ rscf:
 - REALITY GRAMMAR EQUATION v0 — `docs/brain/REALITY GRAMMAR EQUATION v0.md`
 - REALITY_TRANSCENDENCE_INTEGRATION_COMPLETE — `docs/brain/REALITY_TRANSCENDENCE_INTEGRATION_COMPLETE.md`
 - REGIME_FRESHNESS — `docs/brain/REGIME_FRESHNESS.md`
-- [[RELATION_TENSOR]] — `docs/brain/RELATION_TENSOR.md`
+- [[11_KNOWLEDGE/RELATION_TENSOR|RELATION_TENSOR]] — `docs/brain/RELATION_TENSOR.md`
 - RELATION_TOPOLOGY — `docs/brain/RELATION_TOPOLOGY.md`
 - REPAIR_ROLLBACK — `docs/brain/REPAIR_ROLLBACK.md`
 - REPOSITORY_REASONING — `docs/brain/REPOSITORY_REASONING.md`
@@ -1721,13 +1721,13 @@ rscf:
 - TẠI SAO 10 – NGUỒN GỐC CỦA CON SỐ MƯỜI TRONG CASCA — `docs/brain/TẠI SAO 10 – NGUỒN GỐC CỦA CON SỐ MƯỜI TRONG CASCA.md`
 - TẠI SAO “NĂNG LƯỢNG – CHỮA LÀNH – SHAMAN” LẠI MẠNH — `docs/brain/TẠI SAO “NĂNG LƯỢNG – CHỮA LÀNH – SHAMAN” LẠI MẠNH.md`
 - TECH_SYSTEMS.Product_Management_Kernel — `docs/brain/TECH_SYSTEMS.Product_Management_Kernel.md`
-- [[TENSOR_CONTRACTS]] — `docs/brain/TENSOR_CONTRACTS.md`
-- [[TENSOR_REGISTRY]] — `docs/brain/TENSOR_REGISTRY.md`
+- [[11_KNOWLEDGE/TENSOR_CONTRACTS|TENSOR_CONTRACTS]] — `docs/brain/TENSOR_CONTRACTS.md`
+- [[11_KNOWLEDGE/TENSOR_REGISTRY|TENSOR_REGISTRY]] — `docs/brain/TENSOR_REGISTRY.md`
 - THẤY RÕ, PHẨM GIÁ VÀ SỰ THẤT BẠI CỦA GIÁC NGỘ GIẢ — `docs/brain/THẤY RÕ, PHẨM GIÁ VÀ SỰ THẤT BẠI CỦA GIÁC NGỘ GIẢ.md`
 - THẠCH DỪA - NUÔI CẤY VI KHUẨN CELLULOSE — `docs/brain/THẠCH DỪA - NUÔI CẤY VI KHUẨN CELLULOSE.md`
 - THE 100 GREATEST HISTORICAL + SCIENTIFIC “UNANSWER — `docs/brain/THE 100 GREATEST HISTORICAL + SCIENTIFIC “UNANSWER.md`
-- THE [[ARCHITECTURE]] OF WAR AND PEACE — `docs/brain/THE ARCHITECTURE OF WAR AND PEACE.md`
-- THE [[ARCHITECTURE]] OF WAR — `docs/brain/THE ARCHITECTURE OF WAR.md`
+- THE [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] OF WAR AND PEACE — `docs/brain/THE ARCHITECTURE OF WAR AND PEACE.md`
+- THE [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] OF WAR — `docs/brain/THE ARCHITECTURE OF WAR.md`
 - THE FINAL TRUTH — `docs/brain/THE FINAL TRUTH.md`
 - THE LOGIC MODEL (FOUNDATION VERSION 1 0) — `docs/brain/THE LOGIC MODEL (FOUNDATION VERSION 1 0).md`
 - THE MAX-POWER UNIVERSE OS STRUCTURE — `docs/brain/THE MAX-POWER UNIVERSE OS STRUCTURE.md`
@@ -2543,7 +2543,7 @@ rscf:
 - ⭐ KẾ HOẠCH TẠO GIÁ TRỊ KHỔNG LỒ (THE GIANT MONEY P — `docs/brain/⭐ KẾ HOẠCH TẠO GIÁ TRỊ KHỔNG LỒ (THE GIANT MONEY P.md`
 - ⭐ List of what UBI Omnis™ can be used for — `docs/brain/⭐ List of what UBI Omnis™ can be used for.md`
 - ⭐ THE ABSOLUTE LOGIC MANUAL — `docs/brain/⭐ THE ABSOLUTE LOGIC MANUAL.md`
-- ⭐ THE UNCOPYABLE TRAINING [[ARCHITECTURE]] — `docs/brain/⭐ THE UNCOPYABLE TRAINING ARCHITECTURE.md`
+- ⭐ THE UNCOPYABLE TRAINING [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] — `docs/brain/⭐ THE UNCOPYABLE TRAINING ARCHITECTURE.md`
 - ⭐ TỔNG HỢP – 5000 NĂM DỰ BÁO XUYÊN NỀN VĂN MINH — `docs/brain/⭐ TỔNG HỢP – 5000 NĂM DỰ BÁO XUYÊN NỀN VĂN MINH.md`
 - ⭐ Toàn cảnh EV Việt Nam — `docs/brain/⭐ Toàn cảnh EV Việt Nam.md`
 - ⭐ ĐIỀU TRỊ UNG THƯ THEO TIẾN HÓA — `docs/brain/⭐ ĐIỀU TRỊ UNG THƯ THEO TIẾN HÓA.md`
@@ -2573,7 +2573,7 @@ rscf:
 - UBI + NeuroSyncAI Integration Framework Across t — `docs/brain/🔁 UBI + NeuroSyncAI Integration Framework Across t.md`
 - Phát hiện Kiến trúc fractal ẩn – Không phải tự n — `docs/brain/🔍 Phát hiện Kiến trúc fractal ẩn – Không phải tự n.md`
 - TrueVault Integration NeuroSyncAI™ + Unified Bio — `docs/brain/🔐 TrueVault Integration NeuroSyncAI™ + Unified Bio.md`
-- INTEGRATION MODULE UBI + NeuroSyncAI™ + [[RATPAK]] — `docs/brain/🔗 INTEGRATION MODULE UBI + NeuroSyncAI™ + RATPAK.md`
+- INTEGRATION MODULE UBI + NeuroSyncAI™ + [[11_KNOWLEDGE/05_FRAMEWORKS/RATPAK|RATPAK]] — `docs/brain/🔗 INTEGRATION MODULE UBI + NeuroSyncAI™ + RATPAK.md`
 - NEUROPAK INTEGRATION — `docs/brain/🔗 NEUROPAK INTEGRATION.md`
 - UCP — Unified Collapse Prediction™ — `docs/brain/🔥 UCP — Unified Collapse Prediction™.md`
 - 1 NGUỒN GỐC CÁC HẰNG SỐ VŨ TRỤ (π, e, φ, 137, 43 — `docs/brain/🔭 1 NGUỒN GỐC CÁC HẰNG SỐ VŨ TRỤ (π, e, φ, 137, 43.md`
@@ -2990,7 +2990,7 @@ rscf:
 - AMOS_NEXT_GENERATION_COMPLETE — `_00_Cosmo brain/amos-general/A/AMOS_NEXT_GENERATION_COMPLETE.md`
 - AMOS_OMNISCIENT_COMPLETE — `_00_Cosmo brain/amos-general/A/AMOS_OMNISCIENT_COMPLETE.md`
 - AMOS_TRANSCENDENT_COMPLETE — `_00_Cosmo brain/amos-general/A/AMOS_TRANSCENDENT_COMPLETE.md`
-- AMOS [[ARCHITECTURE]] — `_00_Cosmo brain/amos-general/A/ARCHITECTURE/AMOS ARCHITECTURE.md`
+- AMOS [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] — `_00_Cosmo brain/amos-general/A/ARCHITECTURE/AMOS ARCHITECTURE.md`
 - AMOS Absolute Logic DB v1.0 — `_00_Cosmo brain/amos-general/A/Absolute/AMOS Absolute Logic DB v1.0.md`
 - AMOS_ABSOLUTE_LOGIC_CORE19_FULL_FIXED — `_00_Cosmo brain/amos-general/A/Absolute/AMOS_ABSOLUTE_LOGIC_CORE19_FULL_FIXED.md`
 - AMOS_ABSOLUTE_PROTOCOL_SYNTHESIS_COMPLETE — `_00_Cosmo brain/amos-general/A/Absolute/AMOS_ABSOLUTE_PROTOCOL_SYNTHESIS_COMPLETE.md`
@@ -3064,7 +3064,7 @@ rscf:
 - AMOS_Economy_And_Sectors_Pack_v0_Template4 — `_00_Cosmo brain/amos-general/A/Economy/AMOS_Economy_And_Sectors_Pack_v0_Template4.md`
 - AMOS_Emotion_Law_v0 — `_00_Cosmo brain/amos-general/A/Emotion/AMOS_Emotion_Law_v0.md`
 - AMOS_Ethical_Law_v0 — `_00_Cosmo brain/amos-general/A/Ethical/AMOS_Ethical_Law_v0.md`
-- AMOS — FULL EXPANSION [[ARCHITECTURE]] (NON-FLAT, GENE — `_00_Cosmo brain/amos-general/A/FULL/AMOS — FULL EXPANSION ARCHITECTURE (NON-FLAT, GENE.md`
+- AMOS — FULL EXPANSION [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] (NON-FLAT, GENE — `_00_Cosmo brain/amos-general/A/FULL/AMOS — FULL EXPANSION ARCHITECTURE (NON-FLAT, GENE.md`
 - AMOS Final Architecture — `_00_Cosmo brain/amos-general/A/Final/AMOS Final Architecture.md`
 - AMOS_GOV_Pack_v0_Sector_Packs7 — `_00_Cosmo brain/amos-general/A/GOV/AMOS_GOV_Pack_v0_Sector_Packs7.md`
 - AMOS_GOVERNOR_SETUP_COMPLETE — `_00_Cosmo brain/amos-general/A/GOVERNOR/AMOS_GOVERNOR_SETUP_COMPLETE.md`
@@ -3285,17 +3285,17 @@ rscf:
 - ULTIMATE_ENHANCEMENT_COMPLETE — `_00_Cosmo brain/amos-general/U/ULTIMATE_ENHANCEMENT_COMPLETE.md`
 - ULTIMATE_PRODUCTION_SYSTEM_COMPLETE — `_00_Cosmo brain/amos-general/U/ULTIMATE_PRODUCTION_SYSTEM_COMPLETE.md`
 - VIETNAMESE Executive Summary 19x19 AMOS — `_00_Cosmo brain/amos-general/V/VIETNAMESE Executive Summary 19x19 AMOS.md`
-- [[ARCHITECTURE]] OF [[ARCHITECTURE]] — `_00_Cosmo brain/architecture/ARCHITECTURE OF ARCHITECTURE.md`
+- [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] OF [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] — `_00_Cosmo brain/architecture/ARCHITECTURE OF ARCHITECTURE.md`
 - Absolute Integrity Architecture™ — Canonical Root — `_00_Cosmo brain/architecture/Absolute Integrity Architecture™ — Canonical Root.md`
 - Architecture_Guardian_Agent — `_00_Cosmo brain/architecture/Architecture_Guardian_Agent.md`
 - BioCurrency The Monetary Architecture of Living In — `_00_Cosmo brain/architecture/BioCurrency The Monetary Architecture of Living In.md`
 - DSc ScD Portfolio - Three Canon Architecture — `_00_Cosmo brain/architecture/DSc ScD Portfolio - Three Canon Architecture.md`
 - Four-Process-Architecture-DMER — `_00_Cosmo brain/architecture/Four-Process-Architecture-DMER.md`
 - Hierarchical AI Architecture Generator v2 — `_00_Cosmo brain/architecture/Hierarchical AI Architecture Generator v2.md`
-- KIẾN TRÚC CỦA KIẾN TRÚC ([[ARCHITECTURE]] OF ARCHITECT — `_00_Cosmo brain/architecture/KIẾN TRÚC CỦA KIẾN TRÚC (ARCHITECTURE OF ARCHITECT.md`
+- KIẾN TRÚC CỦA KIẾN TRÚC ([[00_ROOT/ARCHITECTURE|ARCHITECTURE]] OF ARCHITECT — `_00_Cosmo brain/architecture/KIẾN TRÚC CỦA KIẾN TRÚC (ARCHITECTURE OF ARCHITECT.md`
 - NeuroSyncAI Deterministic Architecture — `_00_Cosmo brain/architecture/NeuroSyncAI Deterministic Architecture.md`
-- THE [[ARCHITECTURE]] OF WAR AND PEACE — `_00_Cosmo brain/architecture/THE ARCHITECTURE OF WAR AND PEACE.md`
-- THE [[ARCHITECTURE]] OF WAR — `_00_Cosmo brain/architecture/THE ARCHITECTURE OF WAR.md`
+- THE [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] OF WAR AND PEACE — `_00_Cosmo brain/architecture/THE ARCHITECTURE OF WAR AND PEACE.md`
+- THE [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] OF WAR — `_00_Cosmo brain/architecture/THE ARCHITECTURE OF WAR.md`
 - The Architecture Beneath Science Why Experiments A — `_00_Cosmo brain/architecture/The Architecture Beneath Science Why Experiments A.md`
 - The Architecture of Intelligence and Perception — — `_00_Cosmo brain/architecture/The Architecture of Intelligence and Perception —.md`
 - The Architecture of Okay — `_00_Cosmo brain/architecture/The Architecture of Okay.md`
@@ -3353,10 +3353,10 @@ rscf:
 - ubi_baseline_rule — `_00_Cosmo brain/biology-ubi/ubi_baseline_rule.md`
 - ubi_immune_integrity — `_00_Cosmo brain/biology-ubi/ubi_immune_integrity.md`
 - UBI + NeuroSyncAI Integration Framework Across t — `_00_Cosmo brain/biology-ubi/🔁 UBI + NeuroSyncAI Integration Framework Across t.md`
-- INTEGRATION MODULE UBI + NeuroSyncAI™ + [[RATPAK]] — `_00_Cosmo brain/biology-ubi/🔗 INTEGRATION MODULE UBI + NeuroSyncAI™ + RATPAK.md`
+- INTEGRATION MODULE UBI + NeuroSyncAI™ + [[11_KNOWLEDGE/05_FRAMEWORKS/RATPAK|RATPAK]] — `_00_Cosmo brain/biology-ubi/🔗 INTEGRATION MODULE UBI + NeuroSyncAI™ + RATPAK.md`
 - UBI + NeuroSyncAI Integration with ConsentX — `_00_Cosmo brain/biology-ubi/🧠 UBI + NeuroSyncAI Integration with ConsentX.md`
 - ID Exchange + UBI + NeuroSyncAI™ — `_00_Cosmo brain/biology-ubi/🧬 ID Exchange + UBI + NeuroSyncAI™.md`
-- [[AGENTS]] (AMOS_MD_BRAIN) — `_00_Cosmo brain/brain/A/AGENTS (AMOS_MD_BRAIN).md`
+- [[AGENTS|AGENTS]] (AMOS_MD_BRAIN) — `_00_Cosmo brain/brain/A/AGENTS (AMOS_MD_BRAIN).md`
 - AMOS Brain Engine Specs — `_00_Cosmo brain/brain/A/AMOS Brain Engine Specs.md`
 - AMOS Brain Supreme Operational Status — `_00_Cosmo brain/brain/A/AMOS Brain Supreme Operational Status.md`
 - AMOS_BRAIN_2026_ENHANCEMENT_REPORT — `_00_Cosmo brain/brain/A/AMOS_BRAIN_2026_ENHANCEMENT_REPORT.md`
@@ -3807,7 +3807,7 @@ rscf:
 - AMOS_Nbi_Engine_v0_Ubi7 — `_00_Cosmo brain/engine/A/AMOS_Nbi_Engine_v0_Ubi7.md`
 - AMOS_Nei_Engine_v0_Ubi7 — `_00_Cosmo brain/engine/A/AMOS_Nei_Engine_v0_Ubi7.md`
 - AMOS_OMEGA_THINKING_ENGINE_with_Coding — `_00_Cosmo brain/engine/A/AMOS_OMEGA_THINKING_ENGINE_with_Coding.md`
-- [[AMOS_OMNI_FACTORY_ENGINE]] — `_00_Cosmo brain/engine/A/AMOS_OMNI_FACTORY_ENGINE.md`
+- [[11_KNOWLEDGE/engine/AMOS_OMNI_FACTORY_ENGINE|AMOS_OMNI_FACTORY_ENGINE]] — `_00_Cosmo brain/engine/A/AMOS_OMNI_FACTORY_ENGINE.md`
 - AMOS_Org_Governance_Engine_v0_Governance_Risk7 — `_00_Cosmo brain/engine/A/AMOS_Org_Governance_Engine_v0_Governance_Risk7.md`
 - AMOS_Personality_Engine_Canonical_v0 — `_00_Cosmo brain/engine/A/AMOS_Personality_Engine_Canonical_v0.md`
 - AMOS_Personality_Engine_v0_Core7 — `_00_Cosmo brain/engine/A/AMOS_Personality_Engine_v0_Core7.md`
@@ -3816,7 +3816,7 @@ rscf:
 - AMOS_Risk_Compliance_Engine_v0_Org_Risk_Policy7_2 — `_00_Cosmo brain/engine/A/AMOS_Risk_Compliance_Engine_v0_Org_Risk_Policy7_2.md`
 - AMOS_Risk_Policy_Governance_Ecosystem_Engine_v0_Unipower4 — `_00_Cosmo brain/engine/A/AMOS_Risk_Policy_Governance_Ecosystem_Engine_v0_Unipower4.md`
 - AMOS_SUPER_CODE_Engine_v1.6.0 — `_00_Cosmo brain/engine/A/AMOS_SUPER_CODE_Engine_v1.6.0.md`
-- [[AMOS_SUPER_CONSCIOUSNESS_ENGINE]] — `_00_Cosmo brain/engine/A/AMOS_SUPER_CONSCIOUSNESS_ENGINE.md`
+- [[11_KNOWLEDGE/engine/AMOS_SUPER_CONSCIOUSNESS_ENGINE|AMOS_SUPER_CONSCIOUSNESS_ENGINE]] — `_00_Cosmo brain/engine/A/AMOS_SUPER_CONSCIOUSNESS_ENGINE.md`
 - AMOS_SUPER_CONSCIOUSNESS_ENGINE_vInfinity_MAX_H3 — `_00_Cosmo brain/engine/A/AMOS_SUPER_CONSCIOUSNESS_ENGINE_vInfinity_MAX_H3.md`
 - AMOS_SUPER_Corp_Doc_Engine_Light — `_00_Cosmo brain/engine/A/AMOS_SUPER_Corp_Doc_Engine_Light.md`
 - AMOS_SUPER_Corp_Doc_Engine_SUPER — `_00_Cosmo brain/engine/A/AMOS_SUPER_Corp_Doc_Engine_SUPER.md`
@@ -3922,7 +3922,7 @@ rscf:
 - daily_rhythm_engine — `_00_Cosmo brain/engine/D/daily_rhythm_engine.md`
 - deployment_engine — `_00_Cosmo brain/engine/D/deployment_engine.md`
 - documentation_engine — `_00_Cosmo brain/engine/D/documentation_engine.md`
-- [[ENGINEERING_STANDARDS_LIBRARY]] — `_00_Cosmo brain/engine/E/ENGINEERING_STANDARDS_LIBRARY.md`
+- [[11_KNOWLEDGE/engine/ENGINEERING_STANDARDS_LIBRARY|ENGINEERING_STANDARDS_LIBRARY]] — `_00_Cosmo brain/engine/E/ENGINEERING_STANDARDS_LIBRARY.md`
 - EV_Engine — `_00_Cosmo brain/engine/E/EV_Engine.md`
 - EV_SUPER_Engine — `_00_Cosmo brain/engine/E/EV_SUPER_Engine.md`
 - Emotion_Engine_Model — `_00_Cosmo brain/engine/E/Emotion_Engine_Model.md`
@@ -3992,12 +3992,12 @@ rscf:
 - FRACTAL ECONOMY — `_00_Cosmo brain/fractal/FRACTAL ECONOMY.md`
 - FRACTAL FOREX ENTERPRISE — `_00_Cosmo brain/fractal/FRACTAL FOREX ENTERPRISE.md`
 - FRACTAL — `_00_Cosmo brain/fractal/FRACTAL.md`
-- [[FRACTAL_RUNTIME]] — `_00_Cosmo brain/fractal/FRACTAL_RUNTIME.md`
+- [[04_RUNTIME/06_EXECUTION/FRACTAL_RUNTIME|FRACTAL_RUNTIME]] — `_00_Cosmo brain/fractal/FRACTAL_RUNTIME.md`
 - Fractal IPS — `_00_Cosmo brain/fractal/Fractal IPS.md`
 - Fractal Semantic Intelligence Architecture (FSIA) — `_00_Cosmo brain/fractal/Fractal Semantic Intelligence Architecture (FSIA).md`
 - HERITAGE ∅ – 12 LOẠI FRACTAL (Và Ứng Dụng Của Chún — `_00_Cosmo brain/fractal/HERITAGE ∅ – 12 LOẠI FRACTAL (Và Ứng Dụng Của Chún.md`
 - HERITAGE ∅ – ANCIENT FRACTAL MATHEMATICS & REPEATI — `_00_Cosmo brain/fractal/HERITAGE ∅ – ANCIENT FRACTAL MATHEMATICS & REPEATI.md`
-- KIẾN TRÚC PHÂN DẠNG (FRACTAL [[ARCHITECTURE]]) CỦA THỰ — `_00_Cosmo brain/fractal/KIẾN TRÚC PHÂN DẠNG (FRACTAL ARCHITECTURE) CỦA THỰ.md`
+- KIẾN TRÚC PHÂN DẠNG (FRACTAL [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]) CỦA THỰ — `_00_Cosmo brain/fractal/KIẾN TRÚC PHÂN DẠNG (FRACTAL ARCHITECTURE) CỦA THỰ.md`
 - Khối lục giác – Fractal, Sao Hỏa, Quả Dứa, và sự l — `_00_Cosmo brain/fractal/Khối lục giác – Fractal, Sao Hỏa, Quả Dứa, và sự l.md`
 - Language Fractal Architecture — `_00_Cosmo brain/fractal/Language Fractal Architecture.md`
 - PHÂN TÍCH TIẾNG VIỆT THEO LOGIC FRACTAL TẠI SAO NG — `_00_Cosmo brain/fractal/PHÂN TÍCH TIẾNG VIỆT THEO LOGIC FRACTAL TẠI SAO NG.md`
@@ -4078,8 +4078,8 @@ rscf:
 - VARIABLE_REGISTRY — `_00_Cosmo brain/indexes/VARIABLE_REGISTRY.md`
 - index — `_00_Cosmo brain/indexes/index.md`
 - 0.Universe_Logic_Kernel-ULK.ulmk — `_00_Cosmo brain/kernel/0/0.Universe_Logic_Kernel-ULK.ulmk.md`
-- [[AGENTS]] (AMOS_EXECUTION_KERNEL_v1) — `_00_Cosmo brain/kernel/A/AGENTS (AMOS_EXECUTION_KERNEL_v1).md`
-- [[AGENTS]] (AMOS_OS_KERNEL) — `_00_Cosmo brain/kernel/A/AGENTS (AMOS_OS_KERNEL).md`
+- [[AGENTS|AGENTS]] (AMOS_EXECUTION_KERNEL_v1) — `_00_Cosmo brain/kernel/A/AGENTS (AMOS_EXECUTION_KERNEL_v1).md`
+- [[AGENTS|AGENTS]] (AMOS_OS_KERNEL) — `_00_Cosmo brain/kernel/A/AGENTS (AMOS_OS_KERNEL).md`
 - AMOS Automation Kernel vInfinity — `_00_Cosmo brain/kernel/A/AMOS Automation Kernel vInfinity.md`
 - AMOS Coding Kernel vInfinity — `_00_Cosmo brain/kernel/A/AMOS Coding Kernel vInfinity.md`
 - AMOS Design Kernel vInfinity — `_00_Cosmo brain/kernel/A/AMOS Design Kernel vInfinity.md`
@@ -4111,7 +4111,7 @@ rscf:
 - AMOS_Business_Analysis_Kernel_v0_Tech — `_00_Cosmo brain/kernel/A/AMOS_Business_Analysis_Kernel_v0_Tech.md`
 - AMOS_Business_Model_Kernel_v0_Biz_Market3 — `_00_Cosmo brain/kernel/A/AMOS_Business_Model_Kernel_v0_Biz_Market3.md`
 - AMOS_Business_Model_Kernel_v0_Business4 — `_00_Cosmo brain/kernel/A/AMOS_Business_Model_Kernel_v0_Business4.md`
-- [[AMOS_COGNITION_TOTAL_KERNEL]] — `_00_Cosmo brain/kernel/A/AMOS_COGNITION_TOTAL_KERNEL.md`
+- [[11_KNOWLEDGE/kernel/AMOS_COGNITION_TOTAL_KERNEL|AMOS_COGNITION_TOTAL_KERNEL]] — `_00_Cosmo brain/kernel/A/AMOS_COGNITION_TOTAL_KERNEL.md`
 - AMOS_Change_Management_Kernel_v0_Governance_Risk — `_00_Cosmo brain/kernel/A/AMOS_Change_Management_Kernel_v0_Governance_Risk.md`
 - AMOS_Clinical_Research_Kernel_v0_Biology_Cognition7_3 — `_00_Cosmo brain/kernel/A/AMOS_Clinical_Research_Kernel_v0_Biology_Cognition7_3.md`
 - AMOS_Clinical_Research_Kernel_v0_Science_Health2 — `_00_Cosmo brain/kernel/A/AMOS_Clinical_Research_Kernel_v0_Science_Health2.md`
@@ -4198,7 +4198,7 @@ rscf:
 - AMOS_Tech_ubi_canon_Kernel_v1_Tech4 — `_00_Cosmo brain/kernel/A/AMOS_Tech_ubi_canon_Kernel_v1_Tech4.md`
 - AMOS_Toolchain_Integration_Kernel_v0_Machine_Architecture4_2 — `_00_Cosmo brain/kernel/A/AMOS_Toolchain_Integration_Kernel_v0_Machine_Architecture4_2.md`
 - AMOS_Toolchain_Integration_Kernel_v0_Tech — `_00_Cosmo brain/kernel/A/AMOS_Toolchain_Integration_Kernel_v0_Tech.md`
-- [[AMOS_UBI_KERNEL]] — `_00_Cosmo brain/kernel/A/AMOS_UBI_KERNEL.md`
+- [[11_KNOWLEDGE/kernel/AMOS_UBI_KERNEL|AMOS_UBI_KERNEL]] — `_00_Cosmo brain/kernel/A/AMOS_UBI_KERNEL.md`
 - AMOS_UNIVERSE_KERNEL_vInfinity — `_00_Cosmo brain/kernel/A/AMOS_UNIVERSE_KERNEL_vInfinity.md`
 - AMOS_Unnamed_Kernel_v0 — `_00_Cosmo brain/kernel/A/AMOS_Unnamed_Kernel_v0.md`
 - AMOS_Ux_Design_Kernel_v0_Tech7_3 — `_00_Cosmo brain/kernel/A/AMOS_Ux_Design_Kernel_v0_Tech7_3.md`
@@ -4253,7 +4253,7 @@ rscf:
 - amos-unnamed-kernel — `_00_Cosmo brain/kernel/A/amos-unnamed-kernel.md`
 - amos-vomni-kernel-layer — `_00_Cosmo brain/kernel/A/amos-vomni-kernel-layer.md`
 - Biological Kernel Computing (BKC) — `_00_Cosmo brain/kernel/B/Biological Kernel Computing (BKC).md`
-- [[COGNITION_KERNEL]] — `_00_Cosmo brain/kernel/C/COGNITION_KERNEL.md`
+- [[11_KNOWLEDGE/kernel/COGNITION_KERNEL|COGNITION_KERNEL]] — `_00_Cosmo brain/kernel/C/COGNITION_KERNEL.md`
 - Consulting_Kernel — `_00_Cosmo brain/kernel/C/Consulting_Kernel.md`
 - compliance_kernel — `_00_Cosmo brain/kernel/C/compliance_kernel.md`
 - documentation_kernel_v0 — `_00_Cosmo brain/kernel/D/documentation_kernel_v0.md`
@@ -4267,8 +4267,8 @@ rscf:
 - IP_Kernel_Shield__archive AMOS23 — `_00_Cosmo brain/kernel/I/IP_Kernel_Shield__archive AMOS23.md`
 - investment_kernel — `_00_Cosmo brain/kernel/I/investment_kernel.md`
 - ipprotection_kernel — `_00_Cosmo brain/kernel/I/ipprotection_kernel.md`
-- [[KERNEL_PROTOCOL]] — `_00_Cosmo brain/kernel/K/KERNEL_PROTOCOL.md`
-- [[LOGIC_KERNEL]] — `_00_Cosmo brain/kernel/L/LOGIC_KERNEL.md`
+- [[11_KNOWLEDGE/kernel/KERNEL_PROTOCOL|KERNEL_PROTOCOL]] — `_00_Cosmo brain/kernel/K/KERNEL_PROTOCOL.md`
+- [[11_KNOWLEDGE/kernel/LOGIC_KERNEL|LOGIC_KERNEL]] — `_00_Cosmo brain/kernel/L/LOGIC_KERNEL.md`
 - life_core_kernel — `_00_Cosmo brain/kernel/L/life_core_kernel.md`
 - MBB_Consulting_Kernel — `_00_Cosmo brain/kernel/M/MBB_Consulting_Kernel.md`
 - Medical_Clinical_Kernel_vInfinity_SUPER — `_00_Cosmo brain/kernel/M/Medical_Clinical_Kernel_vInfinity_SUPER.md`
@@ -5442,7 +5442,7 @@ rscf:
 - First principle Reasoning theo Trang ∅ Framework — `_00_Cosmo brain/trang/First principle Reasoning theo Trang ∅ Framework.md`
 - GIẢI THÍCH UAP THEO KHUNG TRANG ∅ VÀ TRƯỜNG PHÂN B — `_00_Cosmo brain/trang/GIẢI THÍCH UAP THEO KHUNG TRANG ∅ VÀ TRƯỜNG PHÂN B.md`
 - KHUNG TRANG — FORMALIZATION v0 1 — `_00_Cosmo brain/trang/KHUNG TRANG — FORMALIZATION v0 1.md`
-- [[KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS]] — `_00_Cosmo brain/trang/KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS.md`
+- [[11_KNOWLEDGE/trang/KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS|KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS]] — `_00_Cosmo brain/trang/KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS.md`
 - KIẾN TRÚC TRANG — `_00_Cosmo brain/trang/KIẾN TRÚC TRANG.md`
 - Khung Trang học language — `_00_Cosmo brain/trang/Khung Trang học language.md`
 - Khung trang — `_00_Cosmo brain/trang/Khung trang.md`
@@ -5592,7 +5592,7 @@ rscf:
 
 ## `.devin/` (717 files)
 
-- [[AGENT-NAMING-CONVENTION]] — `.devin/agents/AGENT-NAMING-CONVENTION.md`
+- [[06_AGENTS/AGENT-NAMING-CONVENTION|AGENT-NAMING-CONVENTION]] — `.devin/agents/AGENT-NAMING-CONVENTION.md`
 - amos-agent-registry-index — `.devin/agents/amos-agent-registry-index.md`
 - amos-qfm-paper-agents-index — `.devin/agents/amos-qfm-paper-agents-index.md`
 - SKILL — `.devin/skills/amos-7-part-universe-canon-full/SKILL.md`
@@ -7053,7 +7053,7 @@ rscf:
 - AMOS_LOGIC_OPERATIONAL_MODES — `cosmo-brain/AMOS_LOGIC_OPERATIONAL_MODES.md`
 - AMOS_LawStackValidator — `cosmo-brain/AMOS_LawStackValidator.md`
 - AMOS_MASTER_REGISTRY — `cosmo-brain/AMOS_MASTER_REGISTRY.md`
-- [[AGENTS]] — `cosmo-brain/AMOS_MD_BRAIN_FULL_INFRA/AGENTS.md`
+- [[AGENTS|AGENTS]] — `cosmo-brain/AMOS_MD_BRAIN_FULL_INFRA/AGENTS.md`
 - BRAIN — `cosmo-brain/AMOS_MD_BRAIN_FULL_INFRA/BRAIN.md`
 - INSTALL — `cosmo-brain/AMOS_MD_BRAIN_FULL_INFRA/amos-skills/INSTALL.md`
 - cosmo-coupling.capsule — `cosmo-brain/AMOS_MD_BRAIN_FULL_INFRA/amos-skills/_demos/agency-consequence/cosmo-coupling.capsule.md`
@@ -7065,7 +7065,7 @@ rscf:
 - AMOS_MURK_REASONING_ENGINE — `cosmo-brain/AMOS_MURK_REASONING_ENGINE.md`
 - AMOS_OBSIDIAN_MEMORY_BRIDGE — `cosmo-brain/AMOS_OBSIDIAN_MEMORY_BRIDGE.md`
 - AMOS_OS_ARCHITECTURE_BRIDGE — `cosmo-brain/AMOS_OS_ARCHITECTURE_BRIDGE.md`
-- [[AGENTS]] — `cosmo-brain/AMOS_OS_KERNEL/AGENTS.md`
+- [[AGENTS|AGENTS]] — `cosmo-brain/AMOS_OS_KERNEL/AGENTS.md`
 - VALIDATION — `cosmo-brain/AMOS_OS_KERNEL/VALIDATION.md`
 - __main__ — `cosmo-brain/AMOS_OS_KERNEL/amos/__main__.md`
 - types — `cosmo-brain/AMOS_OS_KERNEL/amos/core/types.md`
@@ -7174,7 +7174,7 @@ rscf:
 - PERFORMANCE_BENCHMARKS — `cosmo-brain/PERFORMANCE_BENCHMARKS.md`
 - README — `cosmo-brain/README.md`
 - REFLECTION_TRAINING_CHANGE_COGNITION — `cosmo-brain/REFLECTION_TRAINING_CHANGE_COGNITION.md`
-- [[RSCF_NODE_INDEX]] — `cosmo-brain/RSCF_NODE_INDEX.md`
+- [[00_ROOT/RSCF_NODE_INDEX|RSCF_NODE_INDEX]] — `cosmo-brain/RSCF_NODE_INDEX.md`
 - TESTING_STRATEGY — `cosmo-brain/TESTING_STRATEGY.md`
 - _debug_invariants — `cosmo-brain/_debug_invariants.md`
 - _debug_murk — `cosmo-brain/_debug_murk.md`
@@ -8392,10 +8392,10 @@ rscf:
 
 - .env
 - 00-Home
-- [[AGENTS]]
+- [[AGENTS|AGENTS]]
 - AGENT_FIX_REPORT
 - AGENT_VALIDATION_REPORT
-- [[AMOS_COGNITIVE_ARCHITECTURE_MATRIX]]
+- [[AMOS_COGNITIVE_ARCHITECTURE_MATRIX|AMOS_COGNITIVE_ARCHITECTURE_MATRIX]]
 - AMOS_quantum_library_v0.1.0
 - API_PROPOSAL
 - ARCHITECTURE_DECISION_RECORD
@@ -8450,11 +8450,11 @@ rscf:
 
 ---
 
-**Related:** Cosmo_Brain_MOC · [[11_KNOWLEDGE_MOC]] · 00-Home
+**Related:** Cosmo_Brain_MOC · [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE_MOC]] · 00-Home
 
 ---
-**Links:** [[COSMO_BRAIN_MOC]] | [[KNOWLEDGE_MOC]]
+**Links:** [[11_KNOWLEDGE/COSMO_BRAIN_MOC|COSMO_BRAIN_MOC]] | [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

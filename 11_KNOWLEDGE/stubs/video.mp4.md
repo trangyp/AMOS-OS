@@ -15,8 +15,8 @@ rscf:
 
 # video.mp4
 
-Stub note for [[video.mp4]].
+Stub note for [[11_KNOWLEDGE/stubs/video.mp4|video.mp4]].
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

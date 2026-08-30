@@ -15,8 +15,8 @@ rscf:
 
 # models moc
 
-Stub note for [[models_moc]].
+Stub note for [[11_KNOWLEDGE/stubs/models_moc|models_moc]].
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

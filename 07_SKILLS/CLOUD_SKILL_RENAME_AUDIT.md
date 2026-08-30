@@ -40,4 +40,4 @@ See `CLOUD_SKILL_RENAME_MANIFEST.json` for the full old→new mapping.
 - All three trees now have 0 non-compliant names by the current token blocklist
 
 ---
-**MOC:** [[07_SKILLS_MOC]]
+**MOC:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

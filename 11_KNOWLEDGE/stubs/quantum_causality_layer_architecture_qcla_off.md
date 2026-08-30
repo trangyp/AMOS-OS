@@ -20,8 +20,8 @@ rscf:
 
 # quantum causality layer architecture qcla off
 
-Stub note for [[quantum_causality_layer_architecture_qcla_off]].
+Stub note for [[11_KNOWLEDGE/stubs/quantum_causality_layer_architecture_qcla_off|quantum_causality_layer_architecture_qcla_off]].
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

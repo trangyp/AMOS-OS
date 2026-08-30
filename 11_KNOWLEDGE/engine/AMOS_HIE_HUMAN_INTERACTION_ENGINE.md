@@ -196,8 +196,8 @@ HIE converts abstract universe-level logic into safe, regulated, human-facing be
 - AMOS Universe Structure Tree — UST canonical tree
 - AMOS Species Interaction Core — species-level interaction
 
-- [[00_COSMO_BRAIN_MOC]]
+- [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]
 - 2026-08-22 AMOS Full Brain OS Architecture
 
 ---
-**MOC:** [[ENGINE_MOC]]
+**MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]

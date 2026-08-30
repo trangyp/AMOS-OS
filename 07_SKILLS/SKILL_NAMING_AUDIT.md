@@ -63,4 +63,4 @@ After the rename, a second pass ran through all `SKILL.md` files:
 3. Add any remaining canonical skills to the `07_SKILLS/` index if needed.
 
 ---
-**MOC:** [[07_SKILLS_MOC]]
+**MOC:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

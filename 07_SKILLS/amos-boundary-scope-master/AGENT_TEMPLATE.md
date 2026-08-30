@@ -43,4 +43,4 @@ Domain master agent for AMOS Boundary & Scope Master. Consolidates 2 sub-skills.
 **MOC:** SKILL
 
 ---
-**MOC:** [[amos-boundary-scope-master_MOC]]
+**MOC:** [[07_SKILLS/amos-boundary-scope-master/amos-boundary-scope-master_MOC|amos-boundary-scope-master_MOC]]

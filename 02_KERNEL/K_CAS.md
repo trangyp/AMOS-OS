@@ -24,8 +24,8 @@ rscf:
 $$\text{CAS}(S_t, S_{\text{expected}}, S_{\text{proposed}}) = \begin{cases} S_{\text{proposed}} & \text{if } S_t = S_{\text{expected}} \\ \text{REJECT}(\text{StateConflict}) & \text{otherwise} \end{cases}$$
 
 ## Related
-- [[K_MVCC]] · [[MVCC_CAS]] · [[02_KERNEL_MOC]]
+- [[02_KERNEL/K_MVCC|K_MVCC]] · [[02_KERNEL/MVCC_CAS|MVCC_CAS]] · [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
 
 ---
 
-**MOC:** [[03_CAUSAL_MOC]] · [[00_HOME]]
+**MOC:** [[02_KERNEL/03_CAUSAL/03_CAUSAL_MOC|03_CAUSAL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

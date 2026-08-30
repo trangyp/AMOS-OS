@@ -62,7 +62,7 @@ UNKNOWN/GAP != PASS
 - **Pass 2 entries**: 237
 - **Pass 2 created**: 237
 - **Pass 2 skipped (preserved)**: 0
-- **Late gap-fill**: 1 ([[SHARD_LOCAL_FINALIZATION_CANON]].md)
+- **Late gap-fill**: 1 ([[01_CANON/04_INFRASTRUCTURE_CANON/SHARD_LOCAL_FINALIZATION_CANON|SHARD_LOCAL_FINALIZATION_CANON]].md)
 - **Total manifest entries**: 607
 - **Total placeholders created**: 607
 - **Total skipped (preserved)**: 0
@@ -411,7 +411,7 @@ Legend:
 | `11_KNOWLEDGE/05_FRAMEWORKS/BIO_LOGICAL_COMPUTING_FRAMEWORK.md` | `amos_11_knowledge_05_frameworks_bio_logical_computing_framework` | Bio-Logical Computing Framework | AMOS_MODEL | LOG | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/BIO_LOGICAL_ARCHITECTURE_FRAMEWORK.md` | `amos_11_knowledge_05_frameworks_bio_logical_architecture_framework` | Bio-Logical Architecture Framework | AMOS_MODEL | LOG | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/DOMAIN_CANON_PROGRAMMING_DCP.md` | `amos_11_knowledge_05_frameworks_domain_canon_programming_dcp` | Domain Canon Programming (DCP) | AMOS_MODEL | CANON | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `11_KNOWLEDGE/05_FRAMEWORKS/COGNITIVE_SYSTEMS_ARCHITECTURE.md` | `amos_11_knowledge_05_frameworks_cognitive_systems_architecture` | Cognitive Systems Architecture | AMOS_MODEL | [[ARCHITECTURE]] | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `11_KNOWLEDGE/05_FRAMEWORKS/COGNITIVE_SYSTEMS_ARCHITECTURE.md` | `amos_11_knowledge_05_frameworks_cognitive_systems_architecture` | Cognitive Systems Architecture | AMOS_MODEL | [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/AMOS_ORGANISM_OS_FRAMEWORK.md` | `amos_11_knowledge_05_frameworks_amos_organism_os_framework` | AMOS Organism OS Framework | AMOS_MODEL | FRAMEWORK | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/AMOS_MIND_OS_FRAMEWORK.md` | `amos_11_knowledge_05_frameworks_amos_mind_os_framework` | AMOS Mind OS Framework | AMOS_MODEL | FRAMEWORK | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/AMOS_OS_AGENT_FRAMEWORK.md` | `amos_11_knowledge_05_frameworks_amos_os_agent_framework` | AMOS OS Agent Framework | AMOS_MODEL | FRAMEWORK | PASS1 | NATIVE_CANON_SLOT | NEW |
@@ -424,7 +424,7 @@ Legend:
 | `11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_FRAMEWORK.md` | `amos_11_knowledge_05_frameworks_neurosyncai_framework` | NeuroSyncAI Framework | AMOS_MODEL | FRAMEWORK | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/FIRST_PRINCIPLES_ARTICULATION.md` | `amos_11_knowledge_05_frameworks_first_principles_articulation` | First-Principles Articulation | AMOS_MODEL | ARTICULATION | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/POST_THEORY_COMMUNICATION.md` | `amos_11_knowledge_05_frameworks_post_theory_communication` | Post-Theory Communication | AMOS_MODEL | COMMUNICATION | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `11_KNOWLEDGE/05_FRAMEWORKS/IRREDUCIBLE_SYSTEMS_ARCHITECTURE.md` | `amos_11_knowledge_05_frameworks_irreducible_systems_architecture` | Irreducible Systems Architecture | AMOS_MODEL | [[ARCHITECTURE]] | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `11_KNOWLEDGE/05_FRAMEWORKS/IRREDUCIBLE_SYSTEMS_ARCHITECTURE.md` | `amos_11_knowledge_05_frameworks_irreducible_systems_architecture` | Irreducible Systems Architecture | AMOS_MODEL | [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/DIRECTED_SYSTEMAL_INTELLIGENCE.md` | `amos_11_knowledge_05_frameworks_directed_systemal_intelligence` | Directed Systemal Intelligence | AMOS_MODEL | INTELLIGENCE | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/METACOGNITIVE_LOOP.md` | `amos_11_knowledge_05_frameworks_metacognitive_loop` | Metacognitive Loop | AMOS_MODEL | ARTIFACT | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/DESIGN_FOR_ABSOLUTE_INTEGRITY.md` | `amos_11_knowledge_05_frameworks_design_for_absolute_integrity` | Design for Absolute Integrity | AMOS_MODEL | DESIGN | PASS1 | NATIVE_CANON_SLOT | NEW |
@@ -484,7 +484,7 @@ Legend:
 | `21_DOMAINS/06_BIOLOGY/ABSOLUTE_BIOLOGICAL_INTEGRITY.md` | `amos_21_domains_06_biology_absolute_biological_integrity` | Absolute Biological Integrity | AMOS_MODEL | ARTIFACT | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `21_DOMAINS/06_BIOLOGY/BIOLOGICAL_PROGRAMMING.md` | `amos_21_domains_06_biology_biological_programming` | Biological Programming | AMOS_MODEL | PROGRAMMING | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `21_DOMAINS/06_BIOLOGY/UBI_ENTROPY_CORRECTION.md` | `amos_21_domains_06_biology_ubi_entropy_correction` | UBI Entropy Correction | AMOS_MODEL | ARTIFACT | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `21_DOMAINS/06_BIOLOGY/UBI_FRACTAL_ARCHITECTURE.md` | `amos_21_domains_06_biology_ubi_fractal_architecture` | UBI Fractal Architecture | AMOS_MODEL | [[ARCHITECTURE]] | PASS1 | NATIVE_CANON_SLOT | NEW |
+| `21_DOMAINS/06_BIOLOGY/UBI_FRACTAL_ARCHITECTURE.md` | `amos_21_domains_06_biology_ubi_fractal_architecture` | UBI Fractal Architecture | AMOS_MODEL | [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `21_DOMAINS/06_BIOLOGY/CROSS_SPECIES_FUNCTIONAL_MODE_MODEL.md` | `amos_21_domains_06_biology_cross_species_functional_mode_model` | Cross-Species Functional Mode Model | AMOS_MODEL | SPEC | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `21_DOMAINS/06_BIOLOGY/UBI_NEUROSYNCAI_INTEGRATION.md` | `amos_21_domains_06_biology_ubi_neurosyncai_integration` | UBI NeuroSyncAI Integration | AMOS_MODEL | INTEGRATION | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `21_DOMAINS/06_BIOLOGY/UBI_CONSENTX_INTEGRATION.md` | `amos_21_domains_06_biology_ubi_consentx_integration` | UBI ConsentX Integration | AMOS_MODEL | INTEGRATION | PASS1 | NATIVE_CANON_SLOT | NEW |
@@ -539,7 +539,7 @@ Legend:
 | `25_COGNITIVE_MATRIX/CORE_X_CONTROL_PLANE_MATRIX.md` | `amos_25_cognitive_matrix_core_x_control_plane_matrix` | Core × Control Plane Matrix | AMOS_MODEL | MATRIX | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `25_COGNITIVE_MATRIX/CORE_X_RUNTIME_MATRIX.md` | `amos_25_cognitive_matrix_core_x_runtime_matrix` | Core × Runtime Matrix | AMOS_MODEL | MATRIX | PASS1 | NATIVE_CANON_SLOT | NEW |
 | `25_COGNITIVE_MATRIX/TOTAL_CANON_RELATION_MATRIX.md` | `amos_25_cognitive_matrix_total_canon_relation_matrix` | Total Canon Relation Matrix | AMOS_MODEL | MATRIX | PASS1 | NATIVE_CANON_SLOT | NEW |
-| `00_ROOT/AMOS_TOTAL_ARCHITECTURE.md` | `amos_00_root_amos_total_architecture` | AMOS Total Architecture | AMOS_MODEL | [[ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `00_ROOT/AMOS_TOTAL_ARCHITECTURE.md` | `amos_00_root_amos_total_architecture` | AMOS Total Architecture | AMOS_MODEL | [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `00_ROOT/AMOS_TOTAL_FRAMEWORK_REGISTRY.md` | `amos_00_root_amos_total_framework_registry` | AMOS Total Framework Registry | AMOS_MODEL | REGISTRY | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `00_ROOT/AMOS_TOTAL_ENGINE_REGISTRY.md` | `amos_00_root_amos_total_engine_registry` | AMOS Total Engine Registry | AMOS_MODEL | REGISTRY | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `00_ROOT/AMOS_TOTAL_KERNEL_REGISTRY.md` | `amos_00_root_amos_total_kernel_registry` | AMOS Total Kernel Registry | AMOS_MODEL | REGISTRY | PASS2 | NATIVE_CANON_SLOT | NEW |
@@ -593,22 +593,22 @@ Legend:
 | `01_CANON/01_CORE_LAWS/CORE_LAW_CROSSWALK.md` | `amos_01_canon_01_core_laws_core_law_crosswalk` | Core Law Crosswalk | AMOS_MODEL | CROSSWALK | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/02_UNIVERSE_CANON/ABSOLUTE_OMNIVERSE_U_INFINITY.md` | `amos_01_canon_02_universe_canon_absolute_omniverse_u_infinity` | Absolute Omniverse / U-Infinity | AMOS_MODEL | ARTIFACT | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/02_UNIVERSE_CANON/UNIVERSE_LOGIC_KERNEL.md` | `amos_01_canon_02_universe_canon_universe_logic_kernel` | Universe Logic Kernel | AMOS_MODEL | LOG | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/02_UNIVERSE_CANON/UNIVERSAL_FIELD_ARCHITECTURE.md` | `amos_01_canon_02_universe_canon_universal_field_architecture` | Universal Field Architecture | AMOS_MODEL | [[ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/02_UNIVERSE_CANON/TRANG_REALITY_ARCHITECTURE.md` | `amos_01_canon_02_universe_canon_trang_reality_architecture` | TRANG Reality Architecture | AMOS_MODEL | [[ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/02_UNIVERSE_CANON/UNIVERSAL_FIELD_ARCHITECTURE.md` | `amos_01_canon_02_universe_canon_universal_field_architecture` | Universal Field Architecture | AMOS_MODEL | [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/02_UNIVERSE_CANON/TRANG_REALITY_ARCHITECTURE.md` | `amos_01_canon_02_universe_canon_trang_reality_architecture` | TRANG Reality Architecture | AMOS_MODEL | [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/02_UNIVERSE_CANON/TRANG_ZERO_FRAMEWORK.md` | `amos_01_canon_02_universe_canon_trang_zero_framework` | TRANG Zero Framework | AMOS_MODEL | FRAMEWORK | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER.md` | `amos_01_canon_02_universe_canon_khung_trang_master` | Khung Trang Master | AMOS_MODEL | ARTIFACT | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_EQUATIONS.md` | `amos_01_canon_02_universe_canon_khung_trang_equations` | Khung Trang Equations | AMOS_MODEL | ARTIFACT | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/02_UNIVERSE_CANON/UNIVERSE_STRUCTURE_TREE.md` | `amos_01_canon_02_universe_canon_universe_structure_tree` | Universe Structure Tree | AMOS_MODEL | ARTIFACT | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/02_UNIVERSE_CANON/UNIVERSE_INTERACTION_ENGINE.md` | `amos_01_canon_02_universe_canon_universe_interaction_engine` | Universe Interaction Engine | AMOS_MODEL | ENGINE | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/02_UNIVERSE_CANON/UNIVERSE_BEHAVIOUR_ENGINE.md` | `amos_01_canon_02_universe_canon_universe_behaviour_engine` | Universe Behaviour Engine | AMOS_MODEL | ENGINE | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/02_UNIVERSE_CANON/UNIVERSE_CAUSALITY_ARCHITECTURE.md` | `amos_01_canon_02_universe_canon_universe_causality_architecture` | Universe Causality Architecture | AMOS_MODEL | [[ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/02_UNIVERSE_CANON/UNIVERSE_IDENTITY_ARCHITECTURE.md` | `amos_01_canon_02_universe_canon_universe_identity_architecture` | Universe Identity Architecture | AMOS_MODEL | [[ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/02_UNIVERSE_CANON/UNIVERSE_INFORMATION_ARCHITECTURE.md` | `amos_01_canon_02_universe_canon_universe_information_architecture` | Universe Information Architecture | AMOS_MODEL | [[ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/02_UNIVERSE_CANON/UNIVERSE_BOUNDARY_ARCHITECTURE.md` | `amos_01_canon_02_universe_canon_universe_boundary_architecture` | Universe Boundary Architecture | AMOS_MODEL | [[ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/02_UNIVERSE_CANON/UNIVERSE_TIME_ARCHITECTURE.md` | `amos_01_canon_02_universe_canon_universe_time_architecture` | Universe Time Architecture | AMOS_MODEL | [[ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/02_UNIVERSE_CANON/UNIVERSE_TOPOLOGY_ARCHITECTURE.md` | `amos_01_canon_02_universe_canon_universe_topology_architecture` | Universe Topology Architecture | AMOS_MODEL | [[ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/02_UNIVERSE_CANON/UNIVERSE_EMERGENCE_ARCHITECTURE.md` | `amos_01_canon_02_universe_canon_universe_emergence_architecture` | Universe Emergence Architecture | AMOS_MODEL | [[ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/02_UNIVERSE_CANON/UNIVERSE_COLLAPSE_ARCHITECTURE.md` | `amos_01_canon_02_universe_canon_universe_collapse_architecture` | Universe Collapse Architecture | AMOS_MODEL | [[ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/02_UNIVERSE_CANON/UNIVERSE_CAUSALITY_ARCHITECTURE.md` | `amos_01_canon_02_universe_canon_universe_causality_architecture` | Universe Causality Architecture | AMOS_MODEL | [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/02_UNIVERSE_CANON/UNIVERSE_IDENTITY_ARCHITECTURE.md` | `amos_01_canon_02_universe_canon_universe_identity_architecture` | Universe Identity Architecture | AMOS_MODEL | [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/02_UNIVERSE_CANON/UNIVERSE_INFORMATION_ARCHITECTURE.md` | `amos_01_canon_02_universe_canon_universe_information_architecture` | Universe Information Architecture | AMOS_MODEL | [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/02_UNIVERSE_CANON/UNIVERSE_BOUNDARY_ARCHITECTURE.md` | `amos_01_canon_02_universe_canon_universe_boundary_architecture` | Universe Boundary Architecture | AMOS_MODEL | [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/02_UNIVERSE_CANON/UNIVERSE_TIME_ARCHITECTURE.md` | `amos_01_canon_02_universe_canon_universe_time_architecture` | Universe Time Architecture | AMOS_MODEL | [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/02_UNIVERSE_CANON/UNIVERSE_TOPOLOGY_ARCHITECTURE.md` | `amos_01_canon_02_universe_canon_universe_topology_architecture` | Universe Topology Architecture | AMOS_MODEL | [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/02_UNIVERSE_CANON/UNIVERSE_EMERGENCE_ARCHITECTURE.md` | `amos_01_canon_02_universe_canon_universe_emergence_architecture` | Universe Emergence Architecture | AMOS_MODEL | [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/02_UNIVERSE_CANON/UNIVERSE_COLLAPSE_ARCHITECTURE.md` | `amos_01_canon_02_universe_canon_universe_collapse_architecture` | Universe Collapse Architecture | AMOS_MODEL | [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/02_UNIVERSE_CANON/UNIVERSE_RECOVERY_ARCHITECTURE.md` | `amos_01_canon_02_universe_canon_universe_recovery_architecture` | Universe Recovery Architecture | AMOS_MODEL | RECOVERY | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/02_UNIVERSE_CANON/OMEGA_MASTER_CANON.md` | `amos_01_canon_02_universe_canon_omega_master_canon` | Omega Master Canon | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/02_UNIVERSE_CANON/OMEGA_QUANTUM_STACK.md` | `amos_01_canon_02_universe_canon_omega_quantum_stack` | Omega Quantum Stack | AMOS_MODEL | ARTIFACT | PASS2 | NATIVE_CANON_SLOT | NEW |
@@ -633,7 +633,7 @@ Legend:
 | `01_CANON/04_INFRASTRUCTURE_CANON/EPISTEMIC_REGIME_CANON.md` | `amos_01_canon_04_infrastructure_canon_epistemic_regime_canon` | Epistemic Regime Canon | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/04_INFRASTRUCTURE_CANON/CAUSAL_LINEAGE_CANON.md` | `amos_01_canon_04_infrastructure_canon_causal_lineage_canon` | Causal Lineage Canon | AMOS_MODEL | LINEAGE | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/04_INFRASTRUCTURE_CANON/DOMAIN_CANON_PROGRAMMING.md` | `amos_01_canon_04_infrastructure_canon_domain_canon_programming` | Domain Canon Programming | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `01_CANON/04_INFRASTRUCTURE_CANON/AMOS_INFRASTRUCTURE_ARCHITECTURE.md` | `amos_01_canon_04_infrastructure_canon_amos_infrastructure_architecture` | AMOS Infrastructure Architecture | AMOS_MODEL | [[ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `01_CANON/04_INFRASTRUCTURE_CANON/AMOS_INFRASTRUCTURE_ARCHITECTURE.md` | `amos_01_canon_04_infrastructure_canon_amos_infrastructure_architecture` | AMOS Infrastructure Architecture | AMOS_MODEL | [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/04_INFRASTRUCTURE_CANON/AMOS_ORCHESTRATION_REGULATOR_CANON.md` | `amos_01_canon_04_infrastructure_canon_amos_orchestration_regulator_canon` | AMOS Orchestration Regulator Canon | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/07_PROVENANCE/ORIGIN_ARCHITECT_REGISTRY.md` | `amos_01_canon_07_provenance_origin_architect_registry` | Origin Architect Registry | AMOS_MODEL | REGISTRY | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `01_CANON/07_PROVENANCE/ORIGINAL_SOURCE_REGISTRY.md` | `amos_01_canon_07_provenance_original_source_registry` | Original Source Registry | AMOS_MODEL | REGISTRY | PASS2 | NATIVE_CANON_SLOT | NEW |
@@ -699,7 +699,7 @@ Legend:
 | `11_KNOWLEDGE/05_FRAMEWORKS/BEI_BIOELECTROMAGNETIC_INTELLIGENCE.md` | `amos_11_knowledge_05_frameworks_bei_bioelectromagnetic_intelligence` | BEI Bioelectromagnetic Intelligence | AMOS_MODEL | INTELLIGENCE | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/UBI_HOMEOSTASIS.md` | `amos_11_knowledge_05_frameworks_ubi_homeostasis` | UBI Homeostasis | AMOS_MODEL | ARTIFACT | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/UBI_ENTROPY_CORRECTION.md` | `amos_11_knowledge_05_frameworks_ubi_entropy_correction` | UBI Entropy Correction | AMOS_MODEL | ARTIFACT | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `11_KNOWLEDGE/05_FRAMEWORKS/UBI_FRACTAL_ARCHITECTURE.md` | `amos_11_knowledge_05_frameworks_ubi_fractal_architecture` | UBI Fractal Architecture | AMOS_MODEL | [[ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `11_KNOWLEDGE/05_FRAMEWORKS/UBI_FRACTAL_ARCHITECTURE.md` | `amos_11_knowledge_05_frameworks_ubi_fractal_architecture` | UBI Fractal Architecture | AMOS_MODEL | [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/UBI_BIOLOGICAL_PROGRAMMING.md` | `amos_11_knowledge_05_frameworks_ubi_biological_programming` | UBI Biological Programming | AMOS_MODEL | PROGRAMMING | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/UBI_ABSOLUTE_BIOLOGICAL_INTEGRITY.md` | `amos_11_knowledge_05_frameworks_ubi_absolute_biological_integrity` | UBI Absolute Biological Integrity | AMOS_MODEL | ARTIFACT | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/UBI_SCORE.md` | `amos_11_knowledge_05_frameworks_ubi_score` | UBI Score | AMOS_MODEL | ARTIFACT | PASS2 | NATIVE_CANON_SLOT | NEW |
@@ -717,7 +717,7 @@ Legend:
 | `11_KNOWLEDGE/05_FRAMEWORKS/PHUONG_PHAP_TRANG.md` | `amos_11_knowledge_05_frameworks_phuong_phap_trang` | Phuong Phap Trang | AMOS_MODEL | ARTIFACT | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/TRANG_ZERO_FRAMEWORK.md` | `amos_11_knowledge_05_frameworks_trang_zero_framework` | TRANG Zero Framework | AMOS_MODEL | FRAMEWORK | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/KHUNG_TRANG.md` | `amos_11_knowledge_05_frameworks_khung_trang` | Khung Trang | AMOS_MODEL | ARTIFACT | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `11_KNOWLEDGE/05_FRAMEWORKS/TRANG_REALITY_ARCHITECTURE.md` | `amos_11_knowledge_05_frameworks_trang_reality_architecture` | TRANG Reality Architecture | AMOS_MODEL | [[ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `11_KNOWLEDGE/05_FRAMEWORKS/TRANG_REALITY_ARCHITECTURE.md` | `amos_11_knowledge_05_frameworks_trang_reality_architecture` | TRANG Reality Architecture | AMOS_MODEL | [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/TRANG_GRAND_SYSTEM.md` | `amos_11_knowledge_05_frameworks_trang_grand_system` | TRANG Grand System | AMOS_MODEL | ARTIFACT | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/TRANG_GRAND_SYSTEM_CODEX.md` | `amos_11_knowledge_05_frameworks_trang_grand_system_codex` | TRANG Grand System Codex | AMOS_MODEL | ARTIFACT | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/TRANG_GRAND_SYSTEM_LOGIC_SPECIFICATION.md` | `amos_11_knowledge_05_frameworks_trang_grand_system_logic_specification` | TRANG Grand System Logic Specification | AMOS_MODEL | LOG | PASS2 | NATIVE_CANON_SLOT | NEW |
@@ -732,11 +732,11 @@ Legend:
 | `11_KNOWLEDGE/05_FRAMEWORKS/ASEA_ADAPTIVE_SELF_EVOLUTION_AI.md` | `amos_11_knowledge_05_frameworks_asea_adaptive_self_evolution_ai` | ASEA — Adaptive Self-Evolution AI | AMOS_MODEL | EVOLUTION | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/TRANG_CASCADE.md` | `amos_11_knowledge_05_frameworks_trang_cascade` | TRANG Cascade | AMOS_MODEL | ARTIFACT | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/TRANG_LACUNARITY.md` | `amos_11_knowledge_05_frameworks_trang_lacunarity` | TRANG Lacunarity | AMOS_MODEL | ARTIFACT | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `11_KNOWLEDGE/05_FRAMEWORKS/TRANG_LMH_ARCHITECTURE.md` | `amos_11_knowledge_05_frameworks_trang_lmh_architecture` | TRANG LMH Architecture | AMOS_MODEL | [[ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `11_KNOWLEDGE/05_FRAMEWORKS/TRANG_LMH_ARCHITECTURE.md` | `amos_11_knowledge_05_frameworks_trang_lmh_architecture` | TRANG LMH Architecture | AMOS_MODEL | [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/TRANG_EQUATION_REGISTRY.md` | `amos_11_knowledge_05_frameworks_trang_equation_registry` | TRANG Equation Registry | AMOS_MODEL | REGISTRY | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/TRANG_FRAMEWORK_LINEAGE.md` | `amos_11_knowledge_05_frameworks_trang_framework_lineage` | TRANG Framework Lineage | AMOS_MODEL | LINEAGE | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_MASTER.md` | `amos_11_knowledge_05_frameworks_neurosyncai_master` | NeuroSyncAI Master | AMOS_MODEL | ARTIFACT | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_DUAL_SYSTEM_ARCHITECTURE.md` | `amos_11_knowledge_05_frameworks_neurosyncai_dual_system_architecture` | NeuroSyncAI Dual-System Architecture | AMOS_MODEL | [[ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_DUAL_SYSTEM_ARCHITECTURE.md` | `amos_11_knowledge_05_frameworks_neurosyncai_dual_system_architecture` | NeuroSyncAI Dual-System Architecture | AMOS_MODEL | [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_RECOVERY_ENGINE.md` | `amos_11_knowledge_05_frameworks_neurosyncai_recovery_engine` | NeuroSyncAI Recovery Engine | AMOS_MODEL | ENGINE | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/CONSENTX.md` | `amos_11_knowledge_05_frameworks_consentx` | ConsentX | AMOS_MODEL | ARTIFACT | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/ID_EXCHANGE.md` | `amos_11_knowledge_05_frameworks_id_exchange` | ID Exchange | AMOS_MODEL | ARTIFACT | PASS2 | NATIVE_CANON_SLOT | NEW |
@@ -744,7 +744,7 @@ Legend:
 | `11_KNOWLEDGE/05_FRAMEWORKS/PSI_MASTER.md` | `amos_11_knowledge_05_frameworks_psi_master` | PSI Master | AMOS_MODEL | ARTIFACT | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/QLS_MASTER.md` | `amos_11_knowledge_05_frameworks_qls_master` | QLS Master | AMOS_MODEL | ARTIFACT | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/QCLA_MASTER.md` | `amos_11_knowledge_05_frameworks_qcla_master` | QCLA Master | AMOS_MODEL | ARTIFACT | PASS2 | NATIVE_CANON_SLOT | NEW |
-| `11_KNOWLEDGE/05_FRAMEWORKS/UBA_UNIVERSAL_BIOLOGICAL_ARCHITECTURE.md` | `amos_11_knowledge_05_frameworks_uba_universal_biological_architecture` | UBA — Universal Biological Architecture | AMOS_MODEL | [[ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
+| `11_KNOWLEDGE/05_FRAMEWORKS/UBA_UNIVERSAL_BIOLOGICAL_ARCHITECTURE.md` | `amos_11_knowledge_05_frameworks_uba_universal_biological_architecture` | UBA — Universal Biological Architecture | AMOS_MODEL | [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/BIO_LOGICAL_COMPUTING.md` | `amos_11_knowledge_05_frameworks_bio_logical_computing` | Bio-Logical Computing | AMOS_MODEL | LOG | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/BIO_LOGICAL_ARCHITECTURE.md` | `amos_11_knowledge_05_frameworks_bio_logical_architecture` | Bio-Logical Architecture | AMOS_MODEL | LOG | PASS2 | NATIVE_CANON_SLOT | NEW |
 | `11_KNOWLEDGE/05_FRAMEWORKS/DOMAIN_CANON_PROGRAMMING.md` | `amos_11_knowledge_05_frameworks_domain_canon_programming` | Domain Canon Programming | AMOS_MODEL | CANON | PASS2 | NATIVE_CANON_SLOT | NEW |
@@ -1410,10 +1410,10 @@ path: 00_ROOT/AMOS_OS_ADD_ONLY_CANON_FILE_MANIFEST.md
 claim_class: AMOS_MODEL
 rscf_state: derived
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_HOME]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
   - GOVERNS: all entries in section 4
 
 ---
-**MOC:** [[00_COSMO_BRAIN_MOC]]
+**MOC:** [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]
 

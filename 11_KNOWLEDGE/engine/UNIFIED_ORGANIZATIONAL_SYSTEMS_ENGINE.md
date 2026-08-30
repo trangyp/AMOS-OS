@@ -101,7 +101,7 @@ It predicts which organizational structures will collapse and which will scale.
 
 The engine enforces the optimal balance.
 * * *
-# **V. OPERATIONAL FLOW [[ARCHITECTURE]]**
+# **V. OPERATIONAL FLOW [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]**
 Operational drag is structurally mapped:
   - approvals
 
@@ -407,7 +407,7 @@ SCL predicts collapse risk in:
 
 
 * * *
-# **IX. [[DELEGATION]] ELASTICITY (DE)**
+# **IX. [[03_CONTROL_PLANE/04_AUTHORITY/DELEGATION|DELEGATION]] ELASTICITY (DE)**
 **Definition:** How much responsibility a leader or ministry can delegate before performance collapses.
 | **Level** | **Delegation Ability** | **Meaning**                 |
 |-----------|------------------------|-----------------------------|
@@ -1564,10 +1564,10 @@ This is not HR.
 This is not organizational design.
 This is **civilization-grade architecture**.
 * * *
-\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
+\--- **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
 
 ---
-**MOC:** [[ENGINE_MOC]]
+**MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]
 
 ---
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

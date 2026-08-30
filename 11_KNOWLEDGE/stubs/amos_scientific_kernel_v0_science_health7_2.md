@@ -19,8 +19,8 @@ rscf:
 
 # amos scientific kernel v0 science health7 2
 
-Stub note for [[amos_scientific_kernel_v0_science_health7_2]].
+Stub note for [[11_KNOWLEDGE/stubs/amos_scientific_kernel_v0_science_health7_2|amos_scientific_kernel_v0_science_health7_2]].
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

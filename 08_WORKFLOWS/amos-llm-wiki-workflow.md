@@ -99,4 +99,4 @@ rscf:
 
 ---
 
-**MOC:** [[law-stack-enforcement-pipeline_MOC]] · [[00_HOME]]
+**MOC:** [[08_WORKFLOWS/law-stack-enforcement-pipeline/law-stack-enforcement-pipeline_MOC|law-stack-enforcement-pipeline_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

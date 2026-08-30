@@ -17,8 +17,8 @@ rscf:
 
 # analogy abstraction kernel
 
-Stub note for [[analogy abstraction kernel]].
+Stub note for [[11_KNOWLEDGE/stubs/analogy abstraction kernel|analogy abstraction kernel]].
 
 ---
 
-**MOC:** [[KERNEL_MOC]] · [[00_HOME]]
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

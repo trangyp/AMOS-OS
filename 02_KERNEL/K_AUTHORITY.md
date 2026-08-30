@@ -2796,8 +2796,8 @@ Ghi nhận nhật ký toàn bộ các cuộc gọi yêu cầu quyền hạn tron
 
 ## 4. LIÊN KẾT LIÊN BẢNG & DANH MỤC TÀI LIỆU THAM KHẢO WIKILINKS
 
-- **Hạt nhân Quản trị:** [[K_CORE_LAWS]] · [[K_FAIL_CLOSED]] · [[K_CAPABILITY_AUTHORIZATION]] · [[K_CONTROL_PLANE]]
-- **MOCs Điều hướng:** [[00_HOME]] · [[00_ROOT_MOC]] · [[02_KERNEL_MOC]] · [[07_AUTHORITY_MOC]]
+- **Hạt nhân Quản trị:** [[02_KERNEL/K_CORE_LAWS|K_CORE_LAWS]] · [[02_KERNEL/K_FAIL_CLOSED|K_FAIL_CLOSED]] · [[02_KERNEL/07_AUTHORITY/K_CAPABILITY_AUTHORIZATION|K_CAPABILITY_AUTHORIZATION]] · [[02_KERNEL/K_CONTROL_PLANE|K_CONTROL_PLANE]]
+- **MOCs Điều hướng:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]] · [[02_KERNEL/07_AUTHORITY/07_AUTHORITY_MOC|07_AUTHORITY_MOC]]
 
 ---
 **Tài liệu được bảo chứng bởi:** Trang Phan & Hội đồng Kiến trúc Hệ thống AMOS OS

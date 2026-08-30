@@ -409,4 +409,4 @@ See `references/detailed-content.md` for detailed amos canon grounding.
 
 ---
 
-**MOC:** references_MOC · [[00_HOME]]
+**MOC:** references_MOC · [[00_ROOT/00_HOME|00_HOME]]

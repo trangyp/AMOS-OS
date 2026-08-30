@@ -84,9 +84,9 @@ Implemented the Uncertainty & Calibration governance module for the AMOS OS Kern
 - **99 open gaps** (222-320) across 10 clusters
 - **19 matrix gaps** (321-339)
 - **777 total tests** ## Related
-- [[adversarial_robustness_governance]]
+- [[07_SKILLS/amos-security-safety-master/references/adversarial_robustness_governance|adversarial_robustness_governance]]
 - 2026_08_22_DISTRIBUTED_CONSENSUS_GOVERNANCE
-- [[COSMO_BRAIN_MOC]]
+- [[11_KNOWLEDGE/COSMO_BRAIN_MOC|COSMO_BRAIN_MOC]]
 
 #uncertainty-calibration #governance #gaps-217-221 #closed #amos-os-kernel
 
@@ -207,11 +207,11 @@ collaboration that:
 **MOC:** references_MOC
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 **MOC:** references_MOC
 
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 RSCF-NODE
@@ -219,6 +219,6 @@ node_id: amos-fx-bayesian-neural-sde-calibration-rscf-engine-vault-domain-knowle
 node_type: reference
 path: 07_SKILLS/amos-fx-bayesian-neural-sde-calibration-rscf-engine/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
-- INDEXED_BY: [[00_HOME]]
-- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

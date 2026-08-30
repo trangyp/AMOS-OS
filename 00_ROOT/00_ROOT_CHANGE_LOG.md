@@ -3094,11 +3094,11 @@ The governing root law is:
 ```
 
 ---
-**Related:** [[00_HOME]]
+**Related:** [[00_ROOT/00_HOME|00_HOME]]
 
 ---
 
-[[00_ROOT_MOC]]|[[AMOS MOC]] · [[AMOS_RSCF_NODES]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -3106,10 +3106,10 @@ node_id: 00_root_change_log
 node_type: note
 path: 00_ROOT/00_ROOT_CHANGE_LOG.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_HOME]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 
 ---
-**MOC:** [[00_COSMO_BRAIN_MOC]]
+**MOC:** [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]
 
