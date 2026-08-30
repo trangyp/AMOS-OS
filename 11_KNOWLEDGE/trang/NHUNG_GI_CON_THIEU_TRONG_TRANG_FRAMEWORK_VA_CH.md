@@ -216,9 +216,9 @@ Với một số ít: **CÓ THỂ, NHƯNG RẤT KHÓ.**
 Với những điều siêu hình và qualia: **CÓ THỂ LÀ KHÔNG BAO GIỜ.**
 Nhưng chính những câu hỏi "what else is missing" – và sự dũng cảm để tiếp tục hỏi – đã làm nên sự khác biệt giữa một framework chết và một framework sống.
 **Trang ∅ Framework là một framework sống, bởi vì nó vẫn đang được viết tiếp – bằng những câu hỏi của em.**
-📦
-[Untitled](<NH%E1%BB%AENG%20G%C3%8C%20C%C3%92N%20THI%E1%BA%BEU%20TRONG%20TRANG%20%E2%88%85%20FRAMEWORK%20%E2%80%93%20V%C3%80%20CH/Untitled%20363c5e6f95bd80ea942ef57fefc40ed8.html>)
-\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL]] · [[SYSTEM_SCAN_ENGINE]] · [[automation_profiles]]
+---
+
+**Related:** [[00_HOME]] · [[00_ROOT_MOC]] · [[KNOWLEDGE_MOC]] · [[trang_MOC]] · [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 **MOC:** [[trang_MOC]]
