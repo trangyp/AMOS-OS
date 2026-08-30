@@ -94,7 +94,7 @@ The substantive semantics of the kernel must therefore be resolved through:
 rather than independently invented inside this redirect.
 
 > [!important] Integrity Boundary
-> Content below that explains transactional semantics, validation mechanics, rollback, provenance, confidence, MVCC/CAS, epochs, replayability, shard locality, or coordination avoidance is an **integration model** unless separately established by authoritative kernel or canon sources.
+> Content below that explains transactional semantics, validation mechanics, rollback, provenance, confidence, MVCC/CAS, epochs, replayability, shard locality, or coordination avoidance is an **integration model** governed by [[L0_INTEGRITY]], unless separately established by authoritative kernel or canon sources.
 
 ---
 
@@ -369,7 +369,7 @@ DECLARED TRANSACTION CLOSURE
 ACTUAL DEPENDENCY CLOSURE
 ```
 
-This is a derived integrity requirement.
+This is a derived integrity requirement governed by [[L3_DEPENDENCY]].
 
 ---
 
@@ -432,12 +432,12 @@ COMPOSED TRANSACTION VALID
 A multi-RSCF transaction may additionally require:
 
 - interface compatibility
-- dependency compatibility
-- scope compatibility
-- regime compatibility
-- epoch compatibility
-- provenance accounting
-- confidence propagation
+- dependency compatibility ([[L3_DEPENDENCY]])
+- scope compatibility ([[L5_SCOPE_REGIME]])
+- regime compatibility ([[L21_EPISTEMIC_REGIME]])
+- epoch compatibility ([[L24_CAUSAL_EPOCH]])
+- provenance accounting ([[L2_PROVENANCE]])
+- confidence propagation ([[L6_UNCERTAINTY]])
 - conflict detection
 - expected-state validation
 - governance validation
@@ -558,7 +558,7 @@ Failure(T)
 Rollback(T)
 $$
 
-subject to the transaction's valid rollback boundary.
+subject to the transaction's valid rollback boundary and [[L10_FAILURE_RECOVERY]] / [[ROLLBACK_AND_RECOVERY_BASINS]].
 
 ---
 
@@ -780,7 +780,7 @@ $$
 
 because several capsules participated.
 
-A conservative AMOS integrity rule is:
+A conservative AMOS integrity rule under [[L6_UNCERTAINTY]] and [[L1_EPISTEMIC]] is:
 
 $$
 Conf(T)
@@ -4257,20 +4257,52 @@ THE MISSING CURRENT KERNEL BODY
 
 ---
 
-# 170. Related
+# 170. Related & Cross-Plane Navigation
 
+### Upward & Canonical Hierarchy
 - [[00_HOME]]
-- [[AMOS_RSCF_NODES]]
+- [[00_ROOT_MOC]]
+- [[01_CORE_LAWS_MOC]]
 - [[LAW_HIERARCHY]]
+- [[AMOS_RSCF_NODES]]
+
+### Substantive Kernel & Validation
 - [[K_ATOMIC_MULTI_RSCF]]
 - [[ATOMIC_MULTI_RSCF_REASONING]]
 - [[ATOMIC_MULTI_RSCF_VALIDATION_RECEIPT]]
-- [[L22_REPLAYABILITY]]
-- [[L23_MVCC_CAS]]
-- [[L24_CAUSAL_EPOCH]]
-- [[L25_SHARD_LOCAL]]
-- [[L26_PROOF_COORDINATION]]
-- [[01_CORE_LAWS_MOC]]
+
+### Direct Core Law Foundations
+- [[L0_INTEGRITY]] — Base reality gate and anti-autopoisoning
+- [[L1_EPISTEMIC]] — Epistemic boundaries and claim classification
+- [[L2_PROVENANCE]] — Ancestry and independent evidence verification
+- [[L3_DEPENDENCY]] — Dependency closure and acyclic causality
+- [[L5_SCOPE_REGIME]] — Scope boundaries and operational envelopes
+- [[L6_UNCERTAINTY]] — Bounded confidence propagation
+- [[L10_FAILURE_RECOVERY]] — All-or-nothing failure semantics & rollback
+- [[L17_RSCF]] — Reality-State-Claim-Formalism substrate
+- [[L19_PROOF_CAPSULE]] — Composable verification capsules
+- [[L21_EPISTEMIC_REGIME]] — Regime transition compatibility
+- [[L22_REPLAYABILITY]] — Deterministic reproduction of state transitions
+- [[L23_MVCC_CAS]] — Transaction-level Compare-And-Swap
+- [[L24_CAUSAL_EPOCH]] — Causal epoch transition invariants
+- [[L25_SHARD_LOCAL]] — Shard locality and coordination boundaries
+- [[L26_PROOF_COORDINATION]] — Multi-proof composition and aggregation
+- [[ROLLBACK_AND_RECOVERY_BASINS]] — Controlled rollback isolation
+
+### Universe Canon Layers
+- [[P3_KNOWLEDGE_MEMORY]] — Holographic memory & interference patterns
+- [[P4_COGNITION_MODELS]] — Multi-scale reasoning & scenario lattices
+- [[P5_GOVERNANCE_AUTHORITY]] — Governance validation & authority gates
+- [[P6_EXECUTION_AGENCY]] — Atomic action execution
+- [[P7_EVOLUTION_LEARNING]] — Governed learning & mutation limits
+
+### Cognitive Matrix & Registries
+- [[COGNITIVE_MATRIX_README]] — Multi-dimensional conceptual routing
+- [[AMOS_RSCF_INDEX]] — Master index of RSCF nodes
+- [[CANON_CLAIM_REGISTRY]] — Canonical claim ledger
+- [[UBI_CLAIM_REGISTRY]] — Biological intelligence claims
+
+### Framework & Ontology
 - [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
@@ -4280,4 +4312,5 @@ THE MISSING CURRENT KERNEL BODY
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 [[00_ROOT_MOC]] | [[AMOS MOC]]
+
 

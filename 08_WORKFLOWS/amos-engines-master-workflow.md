@@ -4,7 +4,7 @@ type: workflow
 source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-engines-master
-Agent: amos-super-engines-agent
+Agent: amos-engines-master-agent
 Trigger: AMOS Super Engines — Super Mind OS, Omega Infinity Stack, ultra/mega/infinity
   engine variants. Cognition + Emotion + Consciousness triad. Use for super-engine
   reasoning, consciousness emulation, or
@@ -58,7 +58,7 @@ Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic clas
 ## Preconditions
 
 - The `amos-engines-master` skill exists and is loaded.
-- The `amos-super-engines-agent` agent is available and has valid content_hash.
+- The `amos-engines-master-agent` agent is available and has valid content_hash.
 - The query falls within the skill's declared scope and domain.
 - All required vault sources (if any) are accessible.
 - Epistemic class labeling is enabled (SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL).
@@ -117,7 +117,7 @@ Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic clas
 ## Dependencies
 
 - `amos-engines-master` (primary skill)
-- `amos-super-engines-agent.json` (primary agent)
+- `amos-engines-master-agent.json` (primary agent)
 - Vault source: `05_COGNITIVE_ORGANISM/COGNITIVE_ORGANISM_CANON.md`
 
 ## Provenance
@@ -224,7 +224,7 @@ This workflow follows a single-agent orchestration with explicit validation gate
 ## Composition
 
 - **Skill**: `amos-engines-master`
-- **Agent**: `amos-super-engines-agent`
+- **Agent**: `amos-engines-master-agent`
 - **Parent workflow**: Routes via `AMOS_HOME` or parent skill workflow
 - **Chain depth**: Maximum 3 workflows in sequence without orchestrator approval
 - **Parallel execution**: Supported when independent capabilities are invoked

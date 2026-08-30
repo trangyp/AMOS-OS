@@ -5,10 +5,10 @@ type: skill
 source: 07_SKILLS/amos-transformation-quest-engine
 name: amos-transformation-quest-engine
 description: Transformation Quest Engine — super engines capability. Use when super-engine
-  reasoning, consciousness emulation, or mega-engine analysis. Use when amos-super-engines-master
+  reasoning, consciousness emulation, or mega-engine analysis. Use when amos-engines-master
   routes to this specialized capability. Do not use for generic tasks outside super
   domain.
-parent_skill: amos-super-engines-master
+parent_skill: amos-engines-master
 domain: super
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
@@ -57,13 +57,13 @@ steward: Trang Phan
 
 ## Identity
 
-Origin architect: **Trang Phan**. Domain: super. Parent: amos-super-engines-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
+Origin architect: **Trang Phan**. Domain: super. Parent: amos-engines-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
 ## When to Use
 
 - When supervising testing with cost-awareness: coverage vs cost
 - When transforming distinction-relation structures across scales
 - When orchestrating full brain OS: coordinating all cognitive engines
-- When the parent skill (`amos-super-engines-master`) routes to this specialized capability
+- When the parent skill (`amos-engines-master`) routes to this specialized capability
 - When managing lifecycle operations across classify, validate, trace, assess, and detect
 - When detecting drift in evidence chains, provenance freshness, or confidence calibration
 - When validating outputs against domain constraints and epistemic class
@@ -136,7 +136,7 @@ Transformation quests are operational constructs. They do not prove transformati
 ## Provenance
 
 - **Skill**: `amos-transformation-quest-engine`
-- **Parent**: `amos-super-engines-master`
+- **Parent**: `amos-engines-master`
 - **Domain**: super
 - **Origin architect**: Trang Phan
 - **Vault sources**:
@@ -175,7 +175,7 @@ Transformation quests are operational constructs. They do not prove transformati
 
 ## Composition
 
-- **Parent**: `amos-super-engines-master` — routes to this skill when super specialization is needed
+- **Parent**: `amos-engines-master` — routes to this skill when super specialization is needed
 - **Peers**: Other skills in the `super` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -221,7 +221,7 @@ Transformation quests are operational constructs. They do not prove transformati
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `` — skill Map of Content
-- `amos-super-engines-master` — parent skill
+- `amos-engines-master` — parent skill
 - `` — corresponding workflow
 - `amos-transformation-quest-engine-agent` — corresponding agent
 ---

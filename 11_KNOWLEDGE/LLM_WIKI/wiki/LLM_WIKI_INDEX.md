@@ -28,9 +28,9 @@ Content catalog for the AMOS LLM Wiki. Updated on every ingest, query, and lint.
 | Page | Summary | Source count |
 |------|---------|--------------|
 | [[karpathy_llm_wiki_summary]] | Karpathy's LLM Wiki pattern, adapted for AMOS | 1 |
-| [[11_KNOWLEDGE/LLM_WIKI/raw/SOTA_AGENT_SKILL_WORKFLOW_REPOS_2026_08_25]] | Raw capture of SOTA agent, skill and workflow repos | 2 |
-| [[11_KNOWLEDGE/LLM_WIKI/raw/ZJUNLP_SKILLNET_README_2026_08_30]] | zjunlp/SkillNet README, re-fetched for AMOS trial | 1 |
-| [[11_KNOWLEDGE/LLM_WIKI/raw/ZIMA_TOP10_AGENT_SKILLS_GITHUB_2026_08_30]] | Zima top-10 trending open-source AI agent skills (July 21-26, 2026) | 1 |
+| [[SOTA_AGENT_SKILL_WORKFLOW_REPOS_2026_08_25]] | Raw capture of SOTA agent, skill and workflow repos | 2 |
+| [[ZJUNLP_SKILLNET_README_2026_08_30]] | zjunlp/SkillNet README, re-fetched for AMOS trial | 1 |
+| [[ZIMA_TOP10_AGENT_SKILLS_GITHUB_2026_08_30]] | Zima top-10 trending open-source AI agent skills (July 21-26, 2026) | 1 |
 
 ## Concepts
 
@@ -42,8 +42,8 @@ Content catalog for the AMOS LLM Wiki. Updated on every ingest, query, and lint.
 
 | Page | Summary |
 |------|---------|
-| [[00_ROOT/AMOS_LLM_WIKI]] | Schema and directory layout for the AMOS LLM Wiki |
-| [[11_KNOWLEDGE/LLM_WIKI/LLM_WIKI_MOC]] | Map of Content for the wiki subsystem |
+| [[AMOS_LLM_WIKI]] | Schema and directory layout for the AMOS LLM Wiki |
+| [[LLM_WIKI_MOC]] | Map of Content for the wiki subsystem |
 | [[LLM_WIKI_INDEX]] | This content catalog |
 | [[LLM_WIKI_LOG]] | Chronological activity log |
 
@@ -60,7 +60,7 @@ Content catalog for the AMOS LLM Wiki. Updated on every ingest, query, and lint.
 
 | Page | Summary |
 |------|---------|
-| [[14_TOOLS/AMOS_LLM_WIKI_TOOL]] | Obsidian Web Clipper, qmd, grep, Dataview guide |
+| [[AMOS_LLM_WIKI_TOOL]] | Obsidian Web Clipper, qmd, grep, Dataview guide |
 
 ## Activity
 - [[LLM_WIKI_LOG]] — Chronological log
@@ -71,21 +71,22 @@ node_id: llm_wiki_index
 node_type: index
 path: 11_KNOWLEDGE/LLM_WIKI/wiki/LLM_WIKI_INDEX.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[11_KNOWLEDGE/LLM_WIKI/LLM_WIKI_MOC]]
+  - INDEXED_BY: [[LLM_WIKI_MOC]]
 claim_class: AMOS_MODEL
 
 ---
-**MOC:** [[11_KNOWLEDGE/LLM_WIKI/LLM_WIKI_MOC]]
+**MOC:** [[LLM_WIKI_MOC]]
 
 ## 2026-08-29 updates
 
-- New raw source: [[11_KNOWLEDGE/LLM_WIKI/raw/SOTA_AGENT_SKILL_WORKFLOW_REPOS_2026_08_29]] · [[11_KNOWLEDGE/LLM_WIKI/raw/SKILLNET_README_2026_08_29]]
+- New raw source: [[MMSKILLS_README_2026_08_29]] · [[AGENTSKILLOS_README_2026_08_29]] · [[IVANZWB_AGENT_SKILLS_README_2026_08_29]]
 - Updated synthesis: [[SOTA_AGENT_SKILL_WORKFLOW_REPOS]]
 - Activity logged: [[LLM_WIKI_LOG]]
 
 ## 2026-08-30 updates
 
-- New raw source: [[11_KNOWLEDGE/LLM_WIKI/raw/ZJUNLP_SKILLNET_README_2026_08_30]]
+- New raw source: [[ZJUNLP_SKILLNET_README_2026_08_30]]
 - New synthesis: [[VAULT_INGEST_2026_08_30]] — vault-wide reformat (787 files, 25,539 bullets normalized)
 - Updated index and log: [[LLM_WIKI_INDEX]] · [[LLM_WIKI_LOG]]
 - Done: `amos-skillnet` cloned, AMOS-linted, SOTA-validated, and wired into `SkillIndex.md`; logged in [[LLM_WIKI_LOG]]
+

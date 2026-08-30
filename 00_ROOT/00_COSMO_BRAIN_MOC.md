@@ -70,7 +70,7 @@ rscf:
 **Path:** `00_ROOT`
 **Files:** 76 | **Subdirectories:** 1
 
-## Files
+## Files · [[AIOS_README_2026_08_30|AIOS README]] · [[AGENTSKILLOS_README_2026_08_30|AgentSkillOS README]] · [[MMSKILLS_README_2026_08_30|MMSkills README]] · [[IVANZWB_AGENT_SKILLS_README_2026_08_30|ivanzwb/agent-skills README]] · [[SOTA_AGENT_SKILL_WORKFLOW_REPOS|tech-leads-club/agent-skills]]
 
 - [[00_HOME]]
 - [[00_ROOT_ARCHITECTURE]]

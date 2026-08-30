@@ -3727,51 +3727,41 @@ independent domain-specific evidence.
 
 ---
 
-**Related:**  ·  ·  ·
- ·  ·  ·
- ·
+**Related:** [[COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX_MOC]] · [[01_CORE_LAWS_MOC]] · [[02_UNIVERSE_CANON_MOC]] · [[ABSOLUTE_STRUCTURAL_INTEGRITY_CANON]] · [[L0_INTEGRITY]] · [[L3_DEPENDENCY]] · [[L18_GMEF]] · [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 
 RSCF-NODE
 
-node_id: amos_01_canon_01_core_laws_absolute_structural_integrity_canon
+node_id: amos_25_cognitive_matrix_canon_x_domains
 
-node_type: canon
+node_type: matrix
 
-path: 01_CANON/01_CORE_LAWS/ABSOLUTE_STRUCTURAL_INTEGRITY_CANON.md
+path: 25_COGNITIVE_MATRIX/CANON_X_DOMAINS.md
 
 claim_class: AMOS_MODEL
 
-rscf_state: source_grounded_model
+rscf_state: SOURCE_GROUNDED_MODEL
 
 canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
 
 RSCF-RELATIONS:
 
-* INDEXED_BY:
-
-* INDEXED_BY:
-
-* GOVERNED_BY:
-
-* RELATED_TO:
-
-* RELATED_TO:
-
-* RELATED_TO:
-
-* RELATED_TO:
-
-* RELATED_TO:
-
-* INDEXED_BY:
+* INDEXED_BY: [[00_HOME]]
+* INDEXED_BY: [[AMOS_RSCF_NODES]]
+* INDEXED_BY: [[25_COGNITIVE_MATRIX_MOC]]
+* GOVERNED_BY: [[ABSOLUTE_STRUCTURAL_INTEGRITY_CANON]]
+* RELATED_TO: [[COGNITIVE_MATRIX_README]]
+* RELATED_TO: [[01_CORE_LAWS_MOC]]
+* RELATED_TO: [[02_UNIVERSE_CANON_MOC]]
+* RELATED_TO: [[L0_INTEGRITY]]
+* RELATED_TO: [[L3_DEPENDENCY]]
+* RELATED_TO: [[L18_GMEF]]
 
 ---
 
-**MOC:**
+**MOC:** [[25_COGNITIVE_MATRIX_MOC]] | [[00_ROOT_MOC]]
 
-```
 
 The key canon boundary is:
 

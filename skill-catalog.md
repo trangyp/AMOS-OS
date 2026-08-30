@@ -438,7 +438,7 @@ rscf:
 - `amos-security-control-access-bridge-governor`
 - `amos-semantic-token-flow-firewall-rscf`
 
-### `amos-super-engines-master` (4 children)
+### `amos-engines-master` (4 children)
 
 - `amos-cost-aware-test-supervision-rscf`
 - `amos-distinction-relation-transformation`
@@ -548,7 +548,7 @@ rscf:
 | [`amos-context-state-maintenance-rscf`](../amos-context-state-maintenance-rscf/SKILL.md) | boundary | amos-boundary-scope-master | SOURCE_CLAIM | Context State Maintenance — boundary and scope capability. Use when evaluating |
 | [`amos-contravariance-alignment-rscf-engine`](../amos-contravariance-alignment-rscf-engine/SKILL.md) | rscf | amos-rscf-epistemic-master | SOURCE_CLAIM | Contravariance Alignment — RSCF epistemic capability. Use when classifying |
 | [`amos-core19-logic-kernel`](../amos-core19-logic-kernel/SKILL.md) | runtime | amos-os-runtime-master | SOURCE_CLAIM | Core19 Logic Kernel — runtime and OS capability. Use when runtime reasoning, |
-| [`amos-cost-aware-test-supervision-rscf`](../amos-cost-aware-test-supervision-rscf/SKILL.md) | super | amos-super-engines-master | SOURCE_CLAIM | Cost Aware Test Supervision — super engines capability. Use when super-engine |
+| [`amos-cost-aware-test-supervision-rscf`](../amos-cost-aware-test-supervision-rscf/SKILL.md) | super | amos-engines-master | SOURCE_CLAIM | Cost Aware Test Supervision — super engines capability. Use when super-engine |
 | [`amos-counterfactual-reasoning-governor`](../amos-counterfactual-reasoning-governor/SKILL.md) | causal | amos-causal-reasoning-master | SOURCE_CLAIM | Counterfactual Reasoning Governor — causal reasoning capability. Use |
 | [`amos-counterfactual-selfhood-mapper`](../amos-counterfactual-selfhood-mapper/SKILL.md) | causal | amos-causal-reasoning-master | SOURCE_CLAIM | Counterfactual Selfhood Mapper — causal reasoning capability. Use when |
 | [`amos-cross-architecture-tensor-engine`](../amos-cross-architecture-tensor-engine/SKILL.md) | formal | amos-formal-engines-master | SOURCE_CLAIM | Cross Architecture Tensor Engine — formal verification capability. Use |
@@ -562,7 +562,7 @@ rscf:
 | [`amos-direct-corpus-search-rscf`](../amos-direct-corpus-search-rscf/SKILL.md) | knowledge | amos-knowledge-research-master | SOURCE_CLAIM | Direct Corpus Search — knowledge research capability. Use when knowledge |
 | [`amos-distinct-working-memory-rscf`](../amos-distinct-working-memory-rscf/SKILL.md) | memory | amos-memory-systems-master | SOURCE_CLAIM | Distinct Working Memory — memory systems capability. Use when memory |
 | [`amos-distinction-relation-constraint-rscf-algebra`](../amos-distinction-relation-constraint-rscf-algebra/SKILL.md) | formal | amos-formal-engines-master | SOURCE_CLAIM | Distinction Relation Constraint Rscf Algebra — formal verification capability. |
-| [`amos-distinction-relation-transformation`](../amos-distinction-relation-transformation/SKILL.md) | super | amos-super-engines-master | SOURCE_CLAIM | Distinction Relation Transformation — super engines capability. Use when |
+| [`amos-distinction-relation-transformation`](../amos-distinction-relation-transformation/SKILL.md) | super | amos-engines-master | SOURCE_CLAIM | Distinction Relation Transformation — super engines capability. Use when |
 | [`amos-distinction-rscf-architecture`](../amos-distinction-rscf-architecture/SKILL.md) | trang | amos-trang-framework-master | SOURCE_CLAIM | Distinction Rscf Architecture — Trang framework capability. Use when |
 | [`amos-distributed-attack-composition-monitor-rscf`](../amos-distributed-attack-composition-monitor-rscf/SKILL.md) | security | amos-security-safety-master | SOURCE_CLAIM | Distributed Attack Composition Monitor — security and safety capability. |
 | [`amos-distributed-causal-evolution-rscf-engine`](../amos-distributed-causal-evolution-rscf-engine/SKILL.md) | causal | amos-causal-reasoning-master | SOURCE_CLAIM | Distributed Causal Evolution — causal reasoning capability. Use when |
@@ -584,7 +584,7 @@ rscf:
 | [`amos-fractal-math`](../amos-fractal-math/SKILL.md) | fractal | amos-fractal-systems-master | SOURCE_CLAIM | Fractal Math — fractal systems capability. Use when fractal analysis, |
 | [`amos-fractal-systems-master`](../amos-fractal-systems-master/SKILL.md) | fractal | — | SOURCE_CANON | AMOS Fractal Systems — fractal architecture, lacunarity, self-similarity, |
 | [`amos-framework-registry-compiler`](../amos-framework-registry-compiler/SKILL.md) | c10 | amos-c10-tech-engineering-master | SOURCE_CLAIM | Framework Registry Compiler — technology and engineering capability. |
-| [`amos-full-brain-os`](../amos-full-brain-os/SKILL.md) | super | amos-super-engines-master | SOURCE_CLAIM | Full Brain Os — super engines capability. Use when super-engine reasoning, |
+| [`amos-full-brain-os`](../amos-full-brain-os/SKILL.md) | super | amos-engines-master | SOURCE_CLAIM | Full Brain Os — super engines capability. Use when super-engine reasoning, |
 | [`amos-future-debt-option-value-governor`](../amos-future-debt-option-value-governor/SKILL.md) | econ | amos-c07-econ-finance-master | SOURCE_CLAIM | Future Debt Option Value Governor — econ capability. Use when executing |
 | [`amos-fx-bayesian-neural-sde-calibration-rscf-engine`](../amos-fx-bayesian-neural-sde-calibration-rscf-engine/SKILL.md) | fx | amos-c07-econ-finance-master | SOURCE_CLAIM | Bayesian Neural Sde Calibration — forex and finance capability. Use when |
 | [`amos-fx-carry-differential-engine`](../amos-fx-carry-differential-engine/SKILL.md) | fx | amos-c07-econ-finance-master | SOURCE_CLAIM | Carry Differential Engine — forex and finance capability. Use when forex |
@@ -709,7 +709,7 @@ rscf:
 | [`amos-strict-fractal-equation-rscf-registry`](../amos-strict-fractal-equation-rscf-registry/SKILL.md) | fractal | amos-fractal-systems-master | SOURCE_CLAIM | Strict Fractal Equation Rscf Registry — fractal systems capability. Use |
 | [`amos-structured-document-parsing-rscf`](../amos-structured-document-parsing-rscf/SKILL.md) | c10 | amos-c10-tech-engineering-master | SOURCE_CLAIM | Structured Document Parsing — technology and engineering capability. |
 | [`amos-structured-execution-graph-rscf`](../amos-structured-execution-graph-rscf/SKILL.md) | runtime | amos-os-runtime-master | SOURCE_CLAIM | Structured Execution Graph — runtime and OS capability. Use when runtime |
-| [`amos-super-engines-master`](../amos-super-engines-master/SKILL.md) | super | — | SOURCE_CANON | AMOS Super Engines — Super Mind OS, Omega Infinity Stack, ultra/mega/infinity |
+| [`amos-engines-master`](../amos-engines-master/SKILL.md) | super | — | SOURCE_CANON | AMOS Super Engines — Super Mind OS, Omega Infinity Stack, ultra/mega/infinity |
 | [`amos-symbolic-path-reasoning-rscf`](../amos-symbolic-path-reasoning-rscf/SKILL.md) | formal | amos-formal-engines-master | SOURCE_CLAIM | Symbolic Path Reasoning — formal verification capability. Use when formal |
 | [`amos-symbolic-translation-repair-rscf`](../amos-symbolic-translation-repair-rscf/SKILL.md) | audit | amos-audit-repair-master | SOURCE_CLAIM | Symbolic Translation Repair — audit and repair capability. Use when auditing, |
 | [`amos-system-completion-auditor`](../amos-system-completion-auditor/SKILL.md) | audit | amos-audit-repair-master | SOURCE_CLAIM | System Completion Auditor — audit and repair capability. Use when auditing, |
@@ -722,7 +722,7 @@ rscf:
 | [`amos-tool-grounded-configuration-repair-rscf`](../amos-tool-grounded-configuration-repair-rscf/SKILL.md) | audit | amos-audit-repair-master | SOURCE_CLAIM | Tool Grounded Configuration Repair — audit and repair capability. Use |
 | [`amos-trajectory-bug-specification-refinement-rscf`](../amos-trajectory-bug-specification-refinement-rscf/SKILL.md) | c10 | amos-c10-tech-engineering-master | SOURCE_CLAIM | Trajectory Bug Specification Refinement — technology and engineering |
 | [`amos-trang-framework-master`](../amos-trang-framework-master/SKILL.md) | trang | — | SOURCE_CANON | AMOS Trang Framework — Khung Trang, cascade collapse-recovery, FRAI fractal |
-| [`amos-transformation-quest-engine`](../amos-transformation-quest-engine/SKILL.md) | super | amos-super-engines-master | SOURCE_CLAIM | Transformation Quest Engine — super engines capability. Use when super-engine |
+| [`amos-transformation-quest-engine`](../amos-transformation-quest-engine/SKILL.md) | super | amos-engines-master | SOURCE_CLAIM | Transformation Quest Engine — super engines capability. Use when super-engine |
 | [`amos-translation-rscf-architecture`](../amos-translation-rscf-architecture/SKILL.md) | trang | amos-trang-framework-master | SOURCE_CLAIM | Translation Rscf Architecture — Trang framework capability. Use when |
 | [`amos-trust-formation-governor`](../amos-trust-formation-governor/SKILL.md) | c09 | amos-c09-org-law-policy-master | SOURCE_CLAIM | Trust Formation Governor — organization, law and policy capability. Use |
 | [`amos-universal-coordinate-rscf-engine`](../amos-universal-coordinate-rscf-engine/SKILL.md) | rscf | amos-rscf-epistemic-master | SOURCE_CLAIM | Universal Coordinate — RSCF epistemic capability. Use when classifying |

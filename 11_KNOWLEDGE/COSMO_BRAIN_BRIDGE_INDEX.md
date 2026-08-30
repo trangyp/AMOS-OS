@@ -5889,9 +5889,9 @@ rscf:
 - SKILL — `.devin/skills/amos-strict-fractal-equation-rscf-registry/SKILL.md`
 - SKILL — `.devin/skills/amos-structured-document-parsing-rscf/SKILL.md`
 - SKILL — `.devin/skills/amos-structured-execution-graph-rscf/SKILL.md`
-- AGENT_TEMPLATE — `.devin/skills/amos-super-engines-master/AGENT_TEMPLATE.md`
-- SKILL — `.devin/skills/amos-super-engines-master/SKILL.md`
-- README — `.devin/skills/amos-super-engines-master/references/README.md`
+- AGENT_TEMPLATE — `.devin/skills/amos-engines-master/AGENT_TEMPLATE.md`
+- SKILL — `.devin/skills/amos-engines-master/SKILL.md`
+- README — `.devin/skills/amos-engines-master/references/README.md`
 - SKILL — `.devin/skills/amos-symbolic-path-reasoning-rscf/SKILL.md`
 - SKILL — `.devin/skills/amos-symbolic-translation-repair-rscf/SKILL.md`
 - SKILL — `.devin/skills/amos-system-completion-auditor/SKILL.md`
@@ -6223,7 +6223,7 @@ rscf:
 - amos-strict-fractal-equation-rscf-registry-workflow — `.devin/workflows/amos-strict-fractal-equation-rscf-registry-workflow.md`
 - amos-structured-document-parsing-rscf-workflow — `.devin/workflows/amos-structured-document-parsing-rscf-workflow.md`
 - amos-structured-execution-graph-rscf-workflow — `.devin/workflows/amos-structured-execution-graph-rscf-workflow.md`
-- amos-super-engines-master-workflow — `.devin/workflows/amos-super-engines-master-workflow.md`
+- amos-engines-master-workflow — `.devin/workflows/amos-engines-master-workflow.md`
 - amos-symbolic-path-reasoning-rscf-workflow — `.devin/workflows/amos-symbolic-path-reasoning-rscf-workflow.md`
 - amos-symbolic-translation-repair-rscf-workflow — `.devin/workflows/amos-symbolic-translation-repair-rscf-workflow.md`
 - amos-system-completion-auditor-workflow — `.devin/workflows/amos-system-completion-auditor-workflow.md`

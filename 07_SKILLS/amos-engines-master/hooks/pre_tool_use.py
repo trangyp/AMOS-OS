@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-PreToolUse hook for amos-super-engines-master.
+PreToolUse hook for amos-engines-master.
 Fires BEFORE skill execution. Exits non-zero to block.
 Per Skills-vs-MCP-vs-Hooks (2026): deterministic gate the model cannot skip.
 """

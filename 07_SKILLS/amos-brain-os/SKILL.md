@@ -5,10 +5,10 @@ type: skill
 source: 07_SKILLS/amos-brain-os
 name: amos-brain-os
 description: Full Brain Os — super engines capability. Use when super-engine reasoning,
-  consciousness emulation, or mega-engine analysis. Use when amos-super-engines-master
+  consciousness emulation, or mega-engine analysis. Use when amos-engines-master
   routes to this specialized capability. Do not use for generic tasks outside super
   domain.
-parent_skill: amos-super-engines-master
+parent_skill: amos-engines-master
 domain: super
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
@@ -57,14 +57,14 @@ steward: Trang Phan
 
 ## Identity
 
-Origin architect: **Trang Phan**. Domain: super. Parent: amos-super-engines-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
+Origin architect: **Trang Phan**. Domain: super. Parent: amos-engines-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
 ## When to Use
 
 - When orchestrating the full brain OS: coordinating all cognitive engines as a unified system
 - When routing between brain core, omni kernel, omniverse brain, personality, and expression translation
 - When managing the gap/integrity system that constrains the brain by known limitations
 - When distinguishing Full Brain OS from Super Mind OS and Omega Infinity Stack (separate compatible planes)
-- When the parent skill (`amos-super-engines-master`) routes to this specialized capability
+- When the parent skill (`amos-engines-master`) routes to this specialized capability
 - When managing lifecycle operations across classify, validate, trace, assess, and detect
 - When detecting drift in evidence chains, provenance freshness, or confidence calibration
 - When validating outputs against domain constraints and epistemic class
@@ -186,7 +186,7 @@ Full Brain OS is AMOS_MODEL. The pipeline is a governance-aware demonstration, n
 
 ## Composition
 
-- **Parent**: `amos-super-engines-master` — routes to this skill when super specialization is needed
+- **Parent**: `amos-engines-master` — routes to this skill when super specialization is needed
 - **Peers**: Other skills in the `super` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -232,7 +232,7 @@ Full Brain OS is AMOS_MODEL. The pipeline is a governance-aware demonstration, n
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `` — skill Map of Content
-- `amos-super-engines-master` — parent skill
+- `amos-engines-master` — parent skill
 - `` — corresponding workflow
 - `amos-brain-os-agent` — corresponding agent
 ---

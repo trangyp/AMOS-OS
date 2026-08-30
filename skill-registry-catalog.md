@@ -475,7 +475,7 @@ Total size: 11,989,174 bytes (11.4 MB)
 - `amos-cost-aware-test-supervision-rscf`
 - `amos-distinction-relation-transformation`
 - `amos-full-brain-os`
-- `amos-super-engines-master`
+- `amos-engines-master`
 - `amos-transformation-quest-engine`
 
 ### trang (4 skills)
@@ -1425,7 +1425,7 @@ Total size: 11,989,174 bytes (11.4 MB)
 - **Description**: Cost Aware Test Supervision — super engines capability. Use when super-engine...
 - **Version**: 1.1.0
 - **Domain**: super
-- **Parent**: amos-super-engines-master
+- **Parent**: amos-engines-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
 - **Size**: 26,576 bytes
@@ -1565,7 +1565,7 @@ Total size: 11,989,174 bytes (11.4 MB)
 - **Description**: Distinction Relation Transformation — super engines capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: super
-- **Parent**: amos-super-engines-master
+- **Parent**: amos-engines-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
 - **Size**: 26,125 bytes
@@ -1785,7 +1785,7 @@ Total size: 11,989,174 bytes (11.4 MB)
 - **Description**: Full Brain Os — super engines capability. Use when super-engine reasoning,...
 - **Version**: 1.1.0
 - **Domain**: super
-- **Parent**: amos-super-engines-master
+- **Parent**: amos-engines-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
 - **Size**: 26,962 bytes
@@ -3031,7 +3031,7 @@ Total size: 11,989,174 bytes (11.4 MB)
 - **Size**: 21,067 bytes
 - **SHA-256**: `9b9b08bf44c4d062...`
 
-### amos-super-engines-master
+### amos-engines-master
 - **Description**: AMOS Super Engines — Super Mind OS, Omega Infinity Stack, ultra/mega/infinity...
 - **Version**: 1.1.0
 - **Domain**: super
@@ -3165,7 +3165,7 @@ Total size: 11,989,174 bytes (11.4 MB)
 - **Description**: Transformation Quest Engine — super engines capability. Use when super-engine...
 - **Version**: 1.1.0
 - **Domain**: super
-- **Parent**: amos-super-engines-master
+- **Parent**: amos-engines-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
 - **Size**: 23,022 bytes

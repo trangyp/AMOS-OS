@@ -6417,7 +6417,7 @@ OR UNIVERSAL EMPIRICAL VALIDITY
 
 ---
 
-**Related:**  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·
+**Related:** [[25_COGNITIVE_MATRIX_MOC]] · [[HERITAGE_X_TSS]] · [[HERITAGE_X_TSS_MATRIX]] · [[HERITAGE_X_TRANG_ZERO]] · [[HERITAGE_X_TRANG_ZERO_MATRIX]] · [[CORE_X_CONTROL_PLANE]] · [[CORE_X_CONTROL_PLANE_MATRIX]] · [[CORE_X_RUNTIME]] · [[CORE_X_RUNTIME_MATRIX]] · [[AMOS_X_HERITAGE]] · [[CANON_X_DOMAINS]] · [[PROVENANCE_X_CONFIDENCE]] · [[ROUTING_POLICY]] · [[ATOMIC_MULTI_RSCF]] · [[01_CORE_LAWS_MOC]] · [[02_UNIVERSE_CANON_MOC]] · [[P3_KNOWLEDGE_MEMORY]] · [[P4_COGNITION_MODELS]] · [[P7_EVOLUTION_LEARNING]] · [[AMOS_RSCF_INDEX]] · [[CANON_CLAIM_REGISTRY]] · [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 
@@ -6437,69 +6437,44 @@ canonical_status: CANDIDATE_CANON
 
 RSCF-RELATIONS:
 
-* INDEXED_BY:
-
-* INDEXED_BY:
-
-* PART_OF:
-
-* USES:
-
-* USES:
-
-* USES:
-
-* USES:
-
-* USES:
-
-* USES:
-
-* USES:
-
-* USES:
-
-* USES:
-
-* USES:
-
-* USES:
-
-* USES:
-
-* USES:
-
-* USES:
-
-* USES:
-
-* RELATED_TO:
-
-* RELATED_TO:
-
-* RELATED_TO:
-
-* RELATED_TO:
-
-* RELATED_TO:
-
-* RELATED_TO:
-
-* RELATED_TO:
-
-* RELATED_TO:
-
-* LINEAGE_TARGET:
+* INDEXED_BY: [[00_HOME]]
+* INDEXED_BY: [[AMOS_RSCF_NODES]]
+* INDEXED_BY: [[25_COGNITIVE_MATRIX_MOC]]
+* PART_OF: [[25_COGNITIVE_MATRIX_MOC]]
+* USES: [[HERITAGE_X_TSS]]
+* USES: [[HERITAGE_X_TSS_MATRIX]]
+* USES: [[HERITAGE_X_TRANG_ZERO]]
+* USES: [[HERITAGE_X_TRANG_ZERO_MATRIX]]
+* USES: [[CORE_X_CONTROL_PLANE]]
+* USES: [[CORE_X_CONTROL_PLANE_MATRIX]]
+* USES: [[CORE_X_RUNTIME]]
+* USES: [[CORE_X_RUNTIME_MATRIX]]
+* USES: [[AMOS_X_HERITAGE]]
+* USES: [[CANON_X_DOMAINS]]
+* USES: [[PROVENANCE_X_CONFIDENCE]]
+* USES: [[ROUTING_POLICY]]
+* USES: [[GENERATORS_INTEGRATION]]
+* USES: [[GENERATORS_PROVENANCE]]
+* USES: [[GENERATORS_TESTS]]
+* USES: [[GENERATORS_VALIDATION]]
+* RELATED_TO: [[ATOMIC_MULTI_RSCF]]
+* RELATED_TO: [[01_CORE_LAWS_MOC]]
+* RELATED_TO: [[02_UNIVERSE_CANON_MOC]]
+* RELATED_TO: [[P3_KNOWLEDGE_MEMORY]]
+* RELATED_TO: [[P4_COGNITION_MODELS]]
+* RELATED_TO: [[P7_EVOLUTION_LEARNING]]
+* RELATED_TO: [[AMOS_RSCF_INDEX]]
+* RELATED_TO: [[CANON_CLAIM_REGISTRY]]
+* LINEAGE_TARGET: [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 
-**MOC:**
+**MOC:** [[25_COGNITIVE_MATRIX_MOC]] | [[00_ROOT_MOC]]
 
 ---
 
 **END OF `COGNITIVE_MATRIX_README.md`**
 
-
-This version preserves the supplied source's **100-section architecture** and extends it into a full-max RSCF/canon artifact with explicit runtime, state-transition, validation, provenance, registry, promotion, failure, finality, and machine-readable contracts while keeping the source's core epistemic boundary intact: the architecture is source-grounded; the additional normalization is `DERIVED`; implementation and empirical/formal validation remain `NOT_ESTABLISHED`. :contentReference[oaicite:1]{index=1}
+This version preserves the supplied source's **100-section architecture** and extends it into a full-max RSCF/canon artifact with explicit runtime, state-transition, validation, provenance, registry, promotion, failure, finality, and machine-readable contracts while keeping the source's core epistemic boundary intact: the architecture is source-grounded; the additional normalization is `DERIVED`; implementation and empirical/formal validation remain `NOT_ESTABLISHED`.
 
 ```

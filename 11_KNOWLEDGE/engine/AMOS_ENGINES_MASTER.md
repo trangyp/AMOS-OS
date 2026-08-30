@@ -1,5 +1,5 @@
 ---
-title: AMOS Super Engines — 5 Unified SUPER Engines
+title: AMOS Engines Master — 5 Unified SUPER Engines
 created: '2026-08-22'
 origin: Google Drive — _00_AMOS_CANON/Packs/Sector_Packs/
 origin_architect: Trang Phan
@@ -7,7 +7,7 @@ type: reference
 source: 11_KNOWLEDGE/engine
 tags:
 - amos
-- super-engines
+- engines-master
 - bizfin
 - gov-risk
 - human
@@ -31,7 +31,7 @@ rscf:
   scope: engine_specification
 ---
 
-# AMOS Super Engines (5)
+# AMOS Engines Master (5)
 
 All engines follow a structured pipeline and enforce deterministic operation.
 

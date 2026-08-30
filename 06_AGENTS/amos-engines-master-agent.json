@@ -7,8 +7,8 @@
   "system": "AMOS_OS",
   "role": "Super engines: Super Mind OS, Omega Infinity Stack, cognition + emotion + consciousness triad.",
   "skill_binding": {
-    "primary_skill": "amos-super-engines-master",
-    "skill_path": ".devin/skills/amos-super-engines-master/SKILL.md"
+    "primary_skill": "amos-engines-master",
+    "skill_path": ".devin/skills/amos-engines-master/SKILL.md"
   },
   "capabilities": [
     {
@@ -106,10 +106,10 @@
     "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
   ],
   "depends_on_skills": [
-    "amos-super-engines-master"
+    "amos-engines-master"
   ],
   "depends_on_workflows": [
-    "amos-super-engines-master-workflow.md"
+    "amos-engines-master-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,
