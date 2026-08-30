@@ -42,7 +42,7 @@ rscf:
 # L9 Evolution Laws
 
 **Origin architect / steward:** Trang Phan
-**Layer:** `01_CANON / 01_CORE_LAWS / L9_EVOLUTION`
+**Layer:** `01_CANON / 01_CORE_LAWS / [[L9_EVOLUTION]]`
 **Artifact class:** `CORE_LAW_CONTRACT`
 **Status:** `PROPOSED_SPECIFICATION / AMOS_MODEL`
 **Canonical status:** `CONDITIONAL`

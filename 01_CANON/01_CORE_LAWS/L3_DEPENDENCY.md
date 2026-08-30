@@ -28,7 +28,7 @@ tags: [note]
 
 ## 0. Status and Governing Boundary
 
-`L3_DEPENDENCY.md` defines the AMOS OS **L3 Dependency Law family**.
+`[[L3_DEPENDENCY]].md` defines the AMOS OS **L3 Dependency Law family**.
 
 This artifact replaces the former structural placeholder with a substantive dependency contract.
 

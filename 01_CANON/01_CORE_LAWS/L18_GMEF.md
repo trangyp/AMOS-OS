@@ -3950,7 +3950,7 @@ The exact promotion process semantics remain unspecified.
 ```yaml
 proposal:
   target:
-    L18_GMEF
+    [[L18_GMEF]]
 
   desired_transition:
     CONDITIONAL_TO_CANONICAL

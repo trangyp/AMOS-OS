@@ -32,7 +32,7 @@ rscf:
 # L5 Scope, Regime, and Temporal Laws
 
 **Origin architect / steward:** Trang Phan
-**Layer:** `01_CANON / 01_CORE_LAWS / L5_SCOPE_REGIME`
+**Layer:** `01_CANON / 01_CORE_LAWS / [[L5_SCOPE_REGIME]]`
 **Artifact class:** `CORE_LAW_CONTRACT`
 **Status:** `AMOS_MODEL — requires canon approval / provenance validation`
 
@@ -44,7 +44,7 @@ rscf:
 
 # 1. Purpose
 
-`L5_SCOPE_REGIME` establishes the AMOS laws for:
+`[[L5_SCOPE_REGIME]]` establishes the AMOS laws for:
 
 - scope;
 - applicability;
@@ -3199,7 +3199,7 @@ must remain visible.
 
 # 98. Gap Status
 
-This document supplies a full structural proposal for `L5_SCOPE_REGIME.md`.
+This document supplies a full structural proposal for `[[L5_SCOPE_REGIME]].md`.
 
 It does **not** establish that every law, schema, variable, operator, threshold, or workflow above already exists verbatim in approved Trang Phan source canon.
 

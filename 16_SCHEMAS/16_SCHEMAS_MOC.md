@@ -23,6 +23,7 @@ rscf:
 
 - [[SCHEMAS_README]]
 - [[SCHEMAS_SCHEMA_CONTRACT]]
+- [[TAG_VOCABULARY]]
 
 ## Subdirectories
 

@@ -5,128 +5,24 @@ source: 08_WORKFLOWS
 tags:
 - 08-workflows
 - type/workflow
-- amos-7-part-universe-canon-workflow
-- amos-action-memory-firewall-workflow
-- amos-active-inference-governor-workflow
-- amos-primitive-decomposer-workflow
-- amos-adaptive-stability-balancer-workflow
-- amos-adversarial-entropy-accountant-workflow
-- amos-agency-consequence-governor-workflow
-- amos-agent-memory-dynamics-rscf-engine-workflow
-- amos-agent-native-research-artifact-rscf-workflow
-- amos-agent-owner-attribution-rscf-workflow
-- amos-agent-storage-footprint-rscf-workflow
-- amos-agent-systems-master-workflow
-- amos-agentops-observability-rscf-workflow
-- amos-ai-architecture-factory-rscf-engine-workflow
-- amos-ai-drift-alignment-governor-workflow
-- amos-ai-entropy-rscf-engine-workflow
-- amos-aibom-lifecycle-assurance-rscf-workflow
-- amos-artistic-expression-governor-workflow
-- amos-arxiv-agent-memory-dynamics-rscf-workflow
-- amos-arxiv-conrad-radiomics-rscf-workflow
-- amos-arxiv-embodied-runtime-rscf-engine-workflow
-- amos-arxiv-quantum-koopman-rscf-workflow
-- amos-arxiv-spatial-speech-perception-rscf-workflow
-- amos-arxiv-ttstack-sketching-rscf-engine-workflow
-- amos-ast-control-dataflow-rscf-engine-workflow
-- amos-attention-allocation-governor-workflow
-- amos-audit-repair-master-workflow
-- amos-awareness-inference-governor-workflow
-- amos-benchmark-forensics-workflow
-- amos-binding-rscf-engine-workflow
-- amos-biology-quantum-bridge-governor-workflow
-- amos-blackbox-program-discovery-rscf-workflow
-- amos-boundary-admission-governor-workflow
-- amos-boundary-architecture-rscf-calculus-workflow
-- amos-boundary-scope-master-workflow
-- amos-bounded-code-facts-rscf-workflow
-- amos-c01-meta-logic-master-workflow
-- amos-c02-math-compute-master-workflow
-- amos-c03-physics-cosmos-master-workflow
-- amos-c04-bio-neuro-master-workflow
-- amos-c05-mind-behavior-master-workflow
-- amos-c06-society-culture-master-workflow
-- amos-c07-econ-finance-master-workflow
-- amos-c08-strategy-game-master-workflow
-- amos-c09-org-law-policy-master-workflow
-- amos-c10-tech-engineering-master-workflow
-- amos-c11-design-language-master-workflow
-- amos-c12-earth-ecology-master-workflow
-- amos-calibrated-feedback-control-rscf-workflow
-- amos-canon-compiler-workflow
-- amos-canon-consistency-governor-workflow
-- amos-canon-universe-master-workflow
-- amos-canonical-software-substrate-rscf-workflow
-- amos-causal-closure-governor-workflow
-- amos-causal-hierarchy-governor-workflow
-- amos-causal-reasoning-master-workflow
-- amos-cell-intelligence-mapper-workflow
-- amos-claim-verifier-workflow
-- amos-cli-failure-process-diagnostics-rscf-workflow
-- amos-closed-loop-learning-governor-workflow
-- amos-code-agent-harness-rscf-workflow
-- amos-cognitive-compression-kernel-workflow
-- amos-cognitive-process-orchestrator-workflow
-- amos-collapse-recovery-workflow
-- amos-combined-program-analysis-rscf-workflow
-- amos-consciousness-candidate-governor-workflow
-- amos-constraint-propagation-rscf-engine-workflow
-- amos-context-budget-governor-rscf-workflow
-- amos-context-continuity-governor-workflow
-- amos-context-orientation-cache-rscf-workflow
-- amos-context-persona-drift-rscf-workflow
-- amos-context-state-maintenance-rscf-workflow
-- amos-contravariance-alignment-rscf-engine-workflow
-- amos-core19-logic-kernel-workflow
-- amos-cost-aware-test-supervision-rscf-workflow
-- amos-counterfactual-reasoning-governor-workflow
-- amos-counterfactual-selfhood-mapper-workflow
-- amos-cross-architecture-tensor-engine-workflow
-- amos-cross-scale-rscf-tensor-engine-workflow
-- amos-cross-species-cognition-mapper-workflow
-- amos-design-visual-rscf-engine-workflow
-- amos-designer-os-workflow
-- amos-deterministic-ai-control-plane-workflow
-- amos-direct-corpus-search-rscf-workflow
-- amos-distinct-working-memory-rscf-workflow
-- amos-distinction-relation-transformation-workflow
-- amos-distinction-rscf-architecture-workflow
-- amos-economic-model-workflow
-- amos-economy-internet-money-rscf-engine-workflow
-- amos-entropy-lacunarity-governor-workflow
-- amos-ethics-os-governor-workflow
-- amos-execution-provenance-replay-rscf-workflow
-- amos-forex-os-workflow
-- amos-forex-unified-os-updated-workflow
-- amos-forex-unified-os-workflow
-- amos-formal-agent-skill-verification-rscf-workflow
-- amos-formal-engines-master-workflow
-- amos-formally-verified-migration-rscf-workflow
-- amos-fractal-math-workflow
-- amos-fractal-systems-master-workflow
-- amos-framework-registry-compiler-workflow
-- amos-brain-os-workflow
-- amos-future-debt-option-value-governor-workflow
 moc: true
 rscf:
-  state: AMOS_MODEL
-  claim_class: AMOS_MODEL
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
-  scope: workflow_process
+  scope: workflows
 ---
 
 # 08 Workflows — Map of Content
 
 **Path:** `08_WORKFLOWS`
-**Files:** 338 | **Subdirectories:** 2
+**Workflows:** 344
 
-## Files
+## Workflows Registry
 
 - [[WORKFLOWS_README]]
 - [[WORKFLOWS_WORKFLOW_CONTRACT]]
 - [[amos-7-part-universe-canon-workflow]]
-- [[amos-primitive-decomposer-workflow]]
 - [[amos-action-memory-firewall-workflow]]
 - [[amos-active-inference-governor-workflow]]
 - [[amos-adaptive-stability-balancer-workflow]]
@@ -173,6 +69,7 @@ rscf:
 - [[amos-boundary-architecture-rscf-calculus-workflow]]
 - [[amos-boundary-scope-master-workflow]]
 - [[amos-bounded-code-facts-rscf-workflow]]
+- [[amos-brain-os-workflow]]
 - [[amos-budget-aware-optimizer-selection-rscf-engine-workflow]]
 - [[amos-bundle-manifold-concentration-rscf-engine-workflow]]
 - [[amos-c01-meta-logic-master-workflow]]
@@ -239,9 +136,11 @@ rscf:
 - [[amos-economy-internet-money-rscf-engine-workflow]]
 - [[amos-emergent-social-intelligence-risk-rscf-workflow]]
 - [[amos-emotion-cognition-decision-bridge-governor-workflow]]
+- [[amos-engines-master-workflow]]
 - [[amos-entropy-lacunarity-governor-workflow]]
 - [[amos-ethics-os-governor-workflow]]
 - [[amos-execution-provenance-replay-rscf-workflow]]
+- [[amos-flow-canon-workflow]]
 - [[amos-forex-os-workflow]]
 - [[amos-forex-unified-os-updated-workflow]]
 - [[amos-forex-unified-os-workflow]]
@@ -252,7 +151,6 @@ rscf:
 - [[amos-fractal-math-workflow]]
 - [[amos-fractal-systems-master-workflow]]
 - [[amos-framework-registry-compiler-workflow]]
-- [[amos-brain-os-workflow]]
 - [[amos-future-debt-option-value-governor-workflow]]
 - [[amos-fx-bayesian-neural-sde-calibration-rscf-engine-workflow]]
 - [[amos-fx-carry-differential-engine-workflow]]
@@ -300,12 +198,15 @@ rscf:
 - [[amos-knowledge-research-master-workflow]]
 - [[amos-language-equation-rscf-engine-workflow]]
 - [[amos-law-hierarchy-resolver-workflow]]
+- [[amos-law-stack-enforcement-workflow]]
 - [[amos-learning-memory-knowledge-feedback-governor-workflow]]
 - [[amos-llm-judge-bias-geometry-rscf-workflow]]
+- [[amos-llm-wiki-workflow]]
 - [[amos-long-context-ci-repository-reasoning-rscf-workflow]]
 - [[amos-managed-autonomy-escalation-rscf-workflow]]
 - [[amos-mark-operator-rscf-engine-workflow]]
 - [[amos-mathematical-rigor-rscf-kernel-workflow]]
+- [[amos-mdformat-obsidian-workflow]]
 - [[amos-measurement-integrity-auditor-workflow]]
 - [[amos-mechmath-research-orchestration-rscf-workflow]]
 - [[amos-memory-conflict-governor-workflow]]
@@ -328,6 +229,7 @@ rscf:
 - [[amos-persistence-dissolution-rscf-dynamics-workflow]]
 - [[amos-portable-agent-authorization-rscf-workflow]]
 - [[amos-prediction-governance-workflow]]
+- [[amos-primitive-decomposer-workflow]]
 - [[amos-principal-trust-governance-rscf-workflow]]
 - [[amos-procedural-repository-retrieval-rscf-workflow]]
 - [[amos-process-compliance-auditor-rscf-workflow]]
@@ -374,7 +276,6 @@ rscf:
 - [[amos-strict-fractal-equation-rscf-registry-workflow]]
 - [[amos-structured-document-parsing-rscf-workflow]]
 - [[amos-structured-execution-graph-rscf-workflow]]
-- [[amos-engines-master-workflow]]
 - [[amos-symbolic-path-reasoning-rscf-workflow]]
 - [[amos-symbolic-translation-repair-rscf-workflow]]
 - [[amos-system-completion-auditor-workflow]]
@@ -431,6 +332,7 @@ rscf:
 - [[executive-deck-decision-system-workflow]]
 - [[frontend-engineering-qa-workflow]]
 - [[gmef-governance-workflow]]
+- [[kimi-k3-in-c-workflow]]
 - [[mckinsey-architecture-reference-transfer-rscf-workflow]]
 - [[mckinsey-banking-crm-assessment-rscf-workflow]]
 - [[mckinsey-commercial-due-diligence-rscf-workflow]]
@@ -455,6 +357,7 @@ rscf:
 - [[mckinsey-transformation-org-structure-rscf-workflow]]
 - [[mckinsey-value-delivery-rscf-workflow]]
 - [[mckinsey-wealth-management-rscf-workflow]]
+- [[obsidian-plugin-auto-tag-workflow]]
 - [[pdfs-workflow]]
 - [[rscf-modeler-workflow]]
 - [[skill-creator-workflow]]
@@ -462,12 +365,6 @@ rscf:
 - [[software-engineering-qa-workflow]]
 - [[spreadsheets-workflow]]
 
-## Subdirectories
-
-- [[00_INDEX_MOC]] — 00_INDEX
-- [[law-stack-enforcement-pipeline_MOC]] — law-stack-enforcement-pipeline
-
 ---
-**Parent:** [[AMOS_HOME]]
 
-- [[amos-7-part-universe-canon-workflow]]
+**Parent:** [[00_ROOT_MOC]] · [[00_HOME]]

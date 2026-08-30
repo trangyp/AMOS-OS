@@ -8669,7 +8669,7 @@ integrity extensions.
 # 430. Canonical Summary
 
 ```yaml
-L27_GAP:
+[[L27_GAP]]:
 
   status:
     specification: PROPOSED_SPECIFICATION

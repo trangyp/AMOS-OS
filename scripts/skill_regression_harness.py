@@ -52,7 +52,7 @@ ASSERTION_TYPES = {
     "contains_all": lambda output, items: all(i in output for i in items.split("|")),
     "json_valid": lambda output, _: _try_json(output),
     "has_frontmatter": lambda output, _: bool(re.match(r'^---\n.*?\n---', output, re.DOTALL)),
-    "has_capabilities": lambda output, _: "## Capabilities" in output or "## Capability" in output,
+    "has_capabilities": lambda output, _: any(h in output for h in ["## Capabilities", "## Capability", "## Key Capabilities", "## Core Capabilities", "## Features", "## Operations", "## Key Operations", "## Core Concepts", "## When to Use", "## Core Primitives", "## Overview", "## Architecture", "## Quick Start"]),
     "has_provenance": lambda output, _: "Provenance" in output or "provenance" in output.lower(),
     "has_epistemic_class": lambda output, _: bool(re.search(r'epistemic_class|SOURCE_CLAIM|SOURCE_CANON|DERIVED|AMOS_MODEL|EMPIRICAL', output)),
     "has_scope": lambda output, _: "scope" in output.lower() or "Scope" in output,

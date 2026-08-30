@@ -27,7 +27,7 @@ tags: [note]
 
 ## 0. Status and Governing Boundary
 
-`L2_PROVENANCE.md` defines the AMOS OS **L2 Provenance Law family**.
+`[[L2_PROVENANCE]].md` defines the AMOS OS **L2 Provenance Law family**.
 
 It replaces the previous structural placeholder with a substantive provenance contract.
 

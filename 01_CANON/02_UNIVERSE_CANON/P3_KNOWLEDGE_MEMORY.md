@@ -61,7 +61,7 @@ rscf:
 
 ## 0. Status
 
-`P3_KNOWLEDGE_MEMORY.md` defines the proposed **P3 Knowledge & Memory Plane** of the AMOS Universe Canon.
+`[[P3_KNOWLEDGE_MEMORY]].md` defines the proposed **P3 Knowledge & Memory Plane** of the AMOS Universe Canon.
 
 P3 governs durable retention, retrieval, consolidation, staleness, revalidation, and selective invalidation of knowledge-bearing state.
 
@@ -2324,7 +2324,7 @@ RSCF:
 
   scope:
     - UNIVERSE_CANON
-    - P3_KNOWLEDGE_MEMORY
+    - [[P3_KNOWLEDGE_MEMORY]]
 
   confidence_ceiling:
 

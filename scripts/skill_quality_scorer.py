@@ -222,7 +222,14 @@ def score_skill(skill_dir: Path, all_skill_names: set) -> dict:
             findings.append({"rule": "E010", "message": f"Version not semver: {version}"})
 
     # Description quality
-    desc = fm.get("description", "")
+    desc_val = fm.get("description", "")
+    if isinstance(desc_val, list):
+        desc = " ".join(str(x) for x in desc_val)
+    elif not isinstance(desc_val, str):
+        desc = str(desc_val or "")
+    else:
+        desc = desc_val
+
     if len(desc) < 50:
         findings.append({"rule": "D001", "message": f"Description too short ({len(desc)} chars)"})
     if len(desc) > 500:

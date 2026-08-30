@@ -112,6 +112,11 @@ class SkillDependencyGraph:
                         self.dependencies[name].add(dep)
                         self.dependents[dep].add(name)
 
+            parent = fm.get("parent_skill")
+            if parent and isinstance(parent, str):
+                self.dependencies[name].add(parent)
+                self.dependents[parent].add(name)
+
             # Extract routing targets from body
             routing_targets = extract_routing_targets(text)
             for target in routing_targets:

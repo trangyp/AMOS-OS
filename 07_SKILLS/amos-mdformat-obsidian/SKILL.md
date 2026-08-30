@@ -517,3 +517,6 @@ If any check fails, downgrade confidence and flag as GROUNDING_GAP.
 
 See references/ directory for detailed sub-files. Read references/ files when deeper context is needed for this capability.
 
+---
+**MOC:** [[amos-mdformat-obsidian_MOC]]
+

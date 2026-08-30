@@ -25,7 +25,7 @@ tags: [note]
 
 ## 0. Status
 
-`L0_INTEGRITY.md` defines the proposed AMOS OS **L0 Integrity Law family**.
+`[[L0_INTEGRITY]].md` defines the proposed AMOS OS **L0 Integrity Law family**.
 
 This artifact replaces a structural placeholder with substantive content.
 

@@ -65,7 +65,7 @@ rscf:
 
 ## 0. Status
 
-`P4_COGNITION_MODELS.md` defines the proposed **P4 Cognition & Models Plane** of the AMOS Universe Canon.
+`[[P4_COGNITION_MODELS]].md` defines the proposed **P4 Cognition & Models Plane** of the AMOS Universe Canon.
 
 P4 governs the structural machinery for:
 
@@ -2277,7 +2277,7 @@ RSCF:
 
   scope:
     - UNIVERSE_CANON
-    - P4_COGNITION_MODELS
+    - [[P4_COGNITION_MODELS]]
 
   confidence_ceiling:
 

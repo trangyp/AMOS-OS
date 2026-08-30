@@ -67,19 +67,20 @@ where `I_t` is the governed interaction state.A valid interaction must satisfy:
 
 $$
 
-Valid(I_t)=SemanticIntegrity\landEpistemicIntegrity\landSafety\landAgencyPreservation\landScopeIntegrity
-
+\text{Valid}(I_t) = \text{SemanticIntegrity} \land \text{EpistemicIntegrity} \land \text{Safety} \land \text{AgencyPreservation} \land \text{ScopeIntegrity}
 $$
 
-for all load-bearing interaction dimensions.---
+for all load-bearing interaction dimensions.
 
-# 3. Integrity PriorityHIE follows the governing optimization order:
+---
 
-````textINTEGRITY    >COMPLETENESS    >FLUENCY    >SPEED    >TOKEN SAVINGS
+# 3. Integrity Priority
 
-textINTEGRITY    >COMPLETENESS    >FLUENCY    >SPEED    >TOKEN SAVINGS
+HIE follows the governing optimization order:
 
-```Therefore:
+```text
+INTEGRITY > COMPLETENESS > FLUENCY > SPEED > TOKEN SAVINGS
+```
 
 Therefore:
 
@@ -2684,16 +2685,118 @@ HIE_{7}=L_1\landL_2\landL_3\landL_4\landL_5\landL_6\landL_7
 $$
 
 where:`textL1 = IntentL2 = ContextL3 = SemanticsL4 = EpistemicsL5 = SafetyL6 = ToneL7 = Action`and the exact seven-layer naming remains subject to authoritative canon recovery.---
+---
 
-# 217. Canon Boundary> [!warning] Canon Boundary> The source supplied for this note establishes **HIE**, its role in governing **seven-layer human-agent interaction envelopes**, and its requirement for **strict safety tone governance**.>> The source fragment does not define the seven layers individually.>> Accordingly, the seven-layer decomposition in this reconstruction is explicitly **MODEL-ELABORATED** and must not be represented as recovered source text.>> HIE is a Universe Canon interaction model. Nothing in this note independently proves that ChatGPT or any deployed system literally implements every runtime, transaction, provenance, replay, CAS, epoch, or execution mechanism described by the model.---
+# 217. Canon Boundary
 
-# 218. Canon Status`yamlcanon_status:  node:    id: hie_human_interaction_engine    type: universe_canon  source_claim:    seven_layer_interaction_envelope: ESTABLISHED_BY_SUPPLIED_SOURCE    strict_safety_tone_governance: ESTABLISHED_BY_SUPPLIED_SOURCE  reconstructed_details:    seven_layer_names: MODEL    runtime_algorithm: MODEL    validation_gates: MODEL    receipt_schema: MODEL    equations: MODEL  unresolved:    authoritative_seven_layer_schema: CRITICAL_CANON_GAP  supersession:    authoritative_universe_canon: HIGHEST_PRIORITY`---
+> [!warning] Canon Boundary
+> The source supplied for this note establishes **HIE**, its role in governing **seven-layer human-agent interaction envelopes**, and its requirement for **strict safety tone governance**.
+>
+> The source fragment does not define the seven layers individually.
+>
+> Accordingly, the seven-layer decomposition in this reconstruction is explicitly **MODEL-ELABORATED** and must not be represented as recovered source text.
+>
+> HIE is a Universe Canon interaction model. Nothing in this note independently proves that ChatGPT or any deployed system literally implements every runtime, transaction, provenance, replay, CAS, epoch, or execution mechanism described by the model.
 
-# 219. Related Canon**Related:**[[00_HOME]] ·[[AMOS_RSCF_NODES]] ·[[LAW_HIERARCHY]] ·[[02_UNIVERSE_CANON_MOC]] ·[[KHUNG_TRANG_MASTER]] ·[[CIL_CULTURE_INTERFACE_LAYER]] ·UNIVERSE_CANON_CONTRACT ·UNIVERSE_CANON_CONTRACT_VALIDATION_RECEIPT ·[[L17_RSCF]] ·[[L18_GMEF]] ·[[L19_PROOF_CAPSULE]] ·[[L20_ADVERSARIAL]] ·[[L21_EPISTEMIC_REGIME]] ·[[L22_REPLAYABILITY]] ·[[L23_MVCC_CAS]] ·[[L24_CAUSAL_EPOCH]]**MOC:** [[02_UNIVERSE_CANON_MOC]]**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]---
+---
 
-# 220. RSCF-NODE`yamlRSCF-NODE:  node_id: hie_human_interaction_engine  node_type: universe_canon  path: 01_CANON/02_UNIVERSE_CANON/HIE_HUMAN_INTERACTION_ENGINE.md  title: HIE Human Interaction Engine  source:    path: 01_CANON/02_UNIVERSE_CANON    provenance: AMOS_CANON  canonical_function:    governs:      - seven_layer_human_agent_interaction_envelopes    requires:      - strict_safety_tone_governance  operational_objectives:    - human_agency    - semantic_fidelity    - epistemic_integrity    - safety    - proportional_tone    - scope_integrity    - governed_action  RSCF-RELATIONS:    - INDEXED_BY:     - INDEXED_BY:     - CHILD_OF:     - GOVERNED_BY:     - RELATED_TO:     - INTERFACES_WITH:     - RELATED_TO:     - CONSTRAINED_BY:     - CONSTRAINED_BY:     - CONSTRAINED_BY:     - CONSTRAINED_BY:   gaps:    - authoritative_definition_of_all_seven_hie_layers  falsifier:    - authoritative_universe_canon_defines_different_hie_contract`---
+# 218. Canon Status
 
-# 221. Root Navigation[[00_ROOT_MOC|AMOS MOC]][[00_HOME]][[AMOS_RSCF_NODES]][[02_UNIVERSE_CANON_MOC]][[LAW_HIERARCHY]][[KHUNG_TRANG_MASTER]][[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]---
+```yaml
+canon_status:
+  node:
+    id: hie_human_interaction_engine
+    type: universe_canon
+  source_claim:
+    seven_layer_interaction_envelope: ESTABLISHED_BY_SUPPLIED_SOURCE
+    strict_safety_tone_governance: ESTABLISHED_BY_SUPPLIED_SOURCE
+  reconstructed_details:
+    seven_layer_names: MODEL
+    runtime_algorithm: MODEL
+    validation_gates: MODEL
+    receipt_schema: MODEL
+    equations: MODEL
+  unresolved:
+    authoritative_seven_layer_schema: CRITICAL_CANON_GAP
+  supersession:
+    authoritative_universe_canon: HIGHEST_PRIORITY
+```
 
-# 222. Terminal Canon Statement> **HIE governs the boundary where human intention becomes agent interpretation and where agent reasoning becomes human-facing consequence.**>> Its governing requirement is not maximum compliance, maximum fluency, maximum persuasion, or maximum automation.>> Its governing requirement is **integrity-preserving interaction**:>> understand the objective, preserve meaning, preserve uncertainty, preserve provenance, preserve scope, govern risk, govern tone, protect authorization boundaries, and preserve human agency.>> Where the evidence is incomplete, expose the gap.>> Where interpretations genuinely compete, preserve the competition.>> Where consequences are irreversible, increase validation.>> Where a reversible path exists under uncertainty, prefer it.>> Where tone and epistemic integrity conflict, epistemic integrity governs.>> Where automation and authorization conflict, authorization governs.>> Where optimization and integrity conflict:>> **integrity governs.**
-````
+---
+
+# 219. Related Canon
+
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[02_UNIVERSE_CANON_MOC]] · [[KHUNG_TRANG_MASTER]] · [[CIL_CULTURE_INTERFACE_LAYER]] · [[L17_RSCF]] · [[L18_GMEF]] · [[L19_PROOF_CAPSULE]] · [[L20_ADVERSARIAL]] · [[L21_EPISTEMIC_REGIME]] · [[L22_REPLAYABILITY]] · [[L23_MVCC_CAS]] · [[L24_CAUSAL_EPOCH]]
+
+**MOC:** [[02_UNIVERSE_CANON_MOC]]
+
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+
+# 220. RSCF-NODE
+
+```yaml
+RSCF-NODE:
+  node_id: hie_human_interaction_engine
+  node_type: universe_canon
+  path: 01_CANON/02_UNIVERSE_CANON/HIE_HUMAN_INTERACTION_ENGINE.md
+  title: HIE Human Interaction Engine
+  source:
+    path: 01_CANON/02_UNIVERSE_CANON
+    provenance: AMOS_CANON
+  canonical_function:
+    governs:
+      - seven_layer_human_agent_interaction_envelopes
+    requires:
+      - strict_safety_tone_governance
+  operational_objectives:
+    - human_agency
+    - semantic_fidelity
+    - epistemic_integrity
+    - safety
+    - proportional_tone
+    - scope_integrity
+    - governed_action
+  RSCF-RELATIONS:
+    - INDEXED_BY: [[02_UNIVERSE_CANON_MOC]]
+    - INDEXED_BY: [[00_HOME]]
+  gaps:
+    - authoritative_definition_of_all_seven_hie_layers
+  falsifier:
+    - authoritative_universe_canon_defines_different_hie_contract
+```
+
+---
+
+# 221. Root Navigation
+
+- [[00_ROOT_MOC|AMOS MOC]]
+- [[00_HOME]]
+- [[AMOS_RSCF_NODES]]
+- [[02_UNIVERSE_CANON_MOC]]
+- [[LAW_HIERARCHY]]
+- [[KHUNG_TRANG_MASTER]]
+- [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+
+# 222. Terminal Canon Statement
+
+> **HIE governs the boundary where human intention becomes agent interpretation and where agent reasoning becomes human-facing consequence.**
+>
+> Its governing requirement is not maximum compliance, maximum fluency, maximum persuasion, or maximum automation.
+>
+> Its governing requirement is **integrity-preserving interaction**:
+>
+> understand the objective, preserve meaning, preserve uncertainty, preserve provenance, preserve scope, govern risk, govern tone, protect authorization boundaries, and preserve human agency.
+>
+> Where the evidence is incomplete, expose the gap.
+> Where interpretations genuinely compete, preserve the competition.
+> Where consequences are irreversible, increase validation.
+> Where a reversible path exists under uncertainty, prefer it.
+> Where tone and epistemic integrity conflict, epistemic integrity governs.
+> Where automation and authorization conflict, authorization governs.
+> Where optimization and integrity conflict:
+>
+> **integrity governs.**

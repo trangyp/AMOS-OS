@@ -59,7 +59,14 @@ The redirect relationship is:
         | REDIRECTS_TO
         v
 [[K_ATOMIC_MULTI_RSCF]]
-````
+```
+
+### Formal Transaction Invariant
+An atomic multi-RSCF transaction commits if and only if all constituent verification capsules $p \in \mathcal{P}$ pass and all invariants $\text{inv} \in \mathcal{I}$ hold:
+
+$$\text{Commit}(\mathbb{T}) = 1 \iff \left(\bigwedge_{p \in \mathcal{P}} \text{Verify}(p) = 1\right) \land \left(\bigwedge_{\text{inv} \in \mathcal{I}} \text{Check}(\text{inv}) = 1\right) \land \text{CAS}(\mathcal{W}_{\text{write}}, \text{Epoch}_{\text{current}})$$
+
+Any single proof failure immediately triggers [[ROLLBACK_AND_RECOVERY_BASINS]] via [[L10_FAILURE_RECOVERY]].
 
 The redirect exists to preserve:
 

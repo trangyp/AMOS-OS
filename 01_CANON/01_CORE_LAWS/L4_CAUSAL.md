@@ -30,7 +30,7 @@ rscf:
 # L4 Causal Laws
 
 **Origin architect / steward:** Trang Phan
-**Layer:** `01_CANON / 01_CORE_LAWS / L4_CAUSAL`
+**Layer:** `01_CANON / 01_CORE_LAWS / [[L4_CAUSAL]]`
 **Artifact class:** `CORE_LAW_CONTRACT`
 **Status:** `AMOS_MODEL — requires canon approval / provenance validation`
 
@@ -42,7 +42,7 @@ rscf:
 
 ## 1. Purpose
 
-`L4_CAUSAL` establishes the causal-integrity laws of AMOS.
+`[[L4_CAUSAL]]` establishes the causal-integrity laws of AMOS.
 
 Its purpose is to prevent AMOS from silently promoting:
 

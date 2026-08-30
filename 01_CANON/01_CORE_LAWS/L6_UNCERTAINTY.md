@@ -35,7 +35,7 @@ rscf:
 # L6 Uncertainty Laws
 
 **Origin architect / steward:** Trang Phan
-**Layer:** `01_CANON / 01_CORE_LAWS / L6_UNCERTAINTY`
+**Layer:** `01_CANON / 01_CORE_LAWS / [[L6_UNCERTAINTY]]`
 **Artifact class:** `CORE_LAW_CONTRACT`
 **Status:** `PROPOSED_SPECIFICATION / AMOS_MODEL`
 **Canonical status:** `CONDITIONAL`
@@ -49,7 +49,7 @@ rscf:
 
 # 0. Status
 
-This document is a proposed full structural specification for `L6_UNCERTAINTY.md`.
+This document is a proposed full structural specification for `[[L6_UNCERTAINTY]].md`.
 
 It expands the currently stated L6 seed:
 
@@ -550,7 +550,7 @@ uncertain exclusions
 measurement-context mismatch
 ```
 
-L6 delegates applicability structure to `L5_SCOPE_REGIME`.
+L6 delegates applicability structure to `[[L5_SCOPE_REGIME]]`.
 
 Therefore:
 

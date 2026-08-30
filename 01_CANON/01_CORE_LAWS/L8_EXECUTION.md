@@ -42,7 +42,7 @@ rscf:
 # L8 Execution Laws
 
 **Origin architect / steward:** Trang Phan
-**Layer:** `01_CANON / 01_CORE_LAWS / L8_EXECUTION`
+**Layer:** `01_CANON / 01_CORE_LAWS / [[L8_EXECUTION]]`
 **Artifact class:** `CORE_LAW_CONTRACT`
 **Status:** `PROPOSED_SPECIFICATION / AMOS_MODEL`
 **Canonical status:** `CONDITIONAL`

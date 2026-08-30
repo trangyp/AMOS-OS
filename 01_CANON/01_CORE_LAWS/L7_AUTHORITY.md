@@ -43,7 +43,7 @@ rscf:
 # L7 Authority Boundary Laws
 
 **Origin architect / steward:** Trang Phan
-**Layer:** `01_CANON / 01_CORE_LAWS / L7_AUTHORITY`
+**Layer:** `01_CANON / 01_CORE_LAWS / [[L7_AUTHORITY]]`
 **Artifact class:** `CORE_LAW_CONTRACT`
 **Status:** `PROPOSED_SPECIFICATION / AMOS_MODEL`
 **Canonical status:** `CONDITIONAL`

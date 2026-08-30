@@ -27,7 +27,7 @@ tags: [note]
 
 ## 0. Status and Governing Boundary
 
-`L1_EPISTEMIC.md` defines the proposed AMOS OS **L1 Epistemic Law family**.
+`[[L1_EPISTEMIC]].md` defines the proposed AMOS OS **L1 Epistemic Law family**.
 
 It replaces the previous structural placeholder with a substantive governed specification.
 

@@ -1508,16 +1508,15 @@ RSCF-RELATIONS:
 - GOVERNED_BY: [[LAW_HIERARCHY]]
 
 - KERNEL_BINDING: [[K_ATOMIC_MULTI_RSCF]]
-
-- RELATED_TO: AMOS_CORE
-
----
-
-[[00_ROOT_MOC]]|[[AMOS MOC]]
+- RELATED_TO: [[AMOS_CORE_LAWS|AMOS_CORE]]
 
 ---
 
-**Related:** [[K_ATOMIC_MULTI_RSCF]] · AMOS_CORE · [[01_CORE_LAWS_MOC]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]
+[[00_ROOT_MOC]] | [[AMOS MOC]]
+
+---
+
+**Related:** [[K_ATOMIC_MULTI_RSCF]] · [[AMOS_CORE_LAWS|AMOS_CORE]] · [[01_CORE_LAWS_MOC]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]
 
 ---
 
@@ -1527,7 +1526,7 @@ RSCF-RELATIONS:
 
 **Origin architect / steward:** **Trang Phan**
 
-```
+---
 
-The key gap remains explicit: the source you supplied establishes the `` binding, but not that kernel's actual contents. Therefore the kernel reference is **SOURCE_GROUNDED**, while any expanded semantics not directly recovered from that kernel remain **AMOS_MODEL** rather than being silently promoted to kernel canon.
-```
+> [!note] Kernel Grounding Status
+> The canonical kernel reference is **SOURCE_GROUNDED** through [[K_ATOMIC_MULTI_RSCF]], while expanded reasoning semantics remain **AMOS_MODEL** integration models governed by [[L0_INTEGRITY]] and [[L17_RSCF]].
