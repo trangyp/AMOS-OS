@@ -4,7 +4,6 @@ source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION
 tags:
 - amos
 - cognitive-matrix
-- l04
 - object-entity-formation
 - agents
 - rscf

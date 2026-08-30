@@ -4,7 +4,6 @@ source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION
 tags:
 - amos
 - cognitive-matrix
-- l04
 - object-entity-formation
 - control-plane
 - rscf
@@ -1948,7 +1947,6 @@ Agent B invalidates identity evidence for E2.
 Expected:
 merge must be revalidated before commit.
 ```
-
 ```text
 CONC-L04-003
 
@@ -1959,7 +1957,6 @@ Expected:
 alias mutation cannot silently commit
 without competition handling.
 ```
-
 ---
 
 # 34. Authority Tests
@@ -2768,7 +2765,6 @@ NOT ESTABLISHED
 
 ```text
 ```
-
 ---
 
 [[00_ROOT_MOC]]|[[AMOS MOC]]
