@@ -67,4 +67,9 @@ rscf:
 - [[TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL]]
 
 ---
-**Parent:** [[11_KNOWLEDGE_MOC]]
+
+**Parent:** [[11_KNOWLEDGE_MOC]] · [[00_HOME]] · [[00_ROOT_MOC]]
+
+---
+
+**Related:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]] · [[AMOS MOC]] · [[01_CORE_LAWS_MOC]]
