@@ -1425,7 +1425,7 @@ Every use of an equation inherits its applicability envelope.
 
 ```yaml
 applicability:
-  framework: [[khung_trang]]
+  framework: [[KHUNG_TRANG]]
   system:
   domain:
   environment:

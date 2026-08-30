@@ -87,7 +87,7 @@ epistemic_boundary:
 # 2. Inter-Plane & Vault Connections
 
 - **Grand System Master:** [[TRANG_GRAND_SYSTEM]]
-- **Grand Codex:** [[trang_grand_system_codex]]
+- **Grand Codex:** [[TRANG_GRAND_SYSTEM_CODEX]]
 - **Deterministic Logic:** [[LDAI_LOGICALLY_DETERMINISTIC_AI]] and [[QLS_FRAMEWORK]]
 - **Native Source:** `TRANG_GRAND_SYSTEM_LOGIC_SPECIFICATION`
 
@@ -113,7 +113,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[05_FRAMEWORKS_MOC]] · [[TRANG_GRAND_SYSTEM]] · [[trang_grand_system_codex]] · [[LDAI_LOGICALLY_DETERMINISTIC_AI]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[05_FRAMEWORKS_MOC]] · [[TRANG_GRAND_SYSTEM]] · [[TRANG_GRAND_SYSTEM_CODEX]] · [[LDAI_LOGICALLY_DETERMINISTIC_AI]]
 
 ---
 **MOC:** [[05_FRAMEWORKS_MOC]]

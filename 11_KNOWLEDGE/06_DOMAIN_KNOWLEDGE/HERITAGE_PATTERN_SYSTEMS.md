@@ -80,7 +80,7 @@ It catalogs recurring cyclical signatures, early warning indicators, structural 
 - **Framework Specification:** `11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_PATTERN_INTELLIGENCE`
 - **Master Framework:** [[HERITAGE_INTELLIGENCE_MASTER]]
 - **TSS Lifecycle Integration:** [[TSS_SEVEN_CYCLES]]
-- **Foresight Prediction:** [[tpe_trang_prediction_engine]]
+- **Foresight Prediction:** [[TPE_TRANG_PREDICTION_ENGINE]]
 
 ---
 

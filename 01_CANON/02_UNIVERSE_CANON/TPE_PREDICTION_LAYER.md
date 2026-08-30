@@ -17,7 +17,7 @@ rscf:
 
 # TPE Prediction Layer
 
-See canonical framework: [[tpe_trang_prediction_engine]] and [[AMOS_X_TPE]].
+See canonical framework: [[TPE_TRANG_PREDICTION_ENGINE]] and [[AMOS_X_TPE]].
 
 ---
 

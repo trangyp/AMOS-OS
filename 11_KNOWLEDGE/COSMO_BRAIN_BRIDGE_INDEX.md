@@ -1006,7 +1006,7 @@ rscf:
 - COMPLETE_SYSTEM_INTEGRATION_MISSION_COMPLETE — `docs/brain/COMPLETE_SYSTEM_INTEGRATION_MISSION_COMPLETE.md`
 - COMPLETE_VERTICAL_SLICE_ACCEPTANCE_ACHIEVED — `docs/brain/COMPLETE_VERTICAL_SLICE_ACCEPTANCE_ACHIEVED.md`
 - COMPONENT_INSTANCE_RECREATION_RESOLUTION_MISSION_COMPLETE — `docs/brain/COMPONENT_INSTANCE_RECREATION_RESOLUTION_MISSION_COMPLETE.md`
-- [[constraint_engine]] — `docs/brain/CONSTRAINT_ENGINE.md`
+- [[CONSTRAINT_ENGINE]] — `docs/brain/CONSTRAINT_ENGINE.md`
 - CONTEXT_BUDGET — `docs/brain/CONTEXT_BUDGET.md`
 - CONTEXT_ORIENTATION — `docs/brain/CONTEXT_ORIENTATION.md`
 - CORE — `docs/brain/CORE.md`
@@ -3900,7 +3900,7 @@ rscf:
 - base_sector_engine — `_00_Cosmo brain/engine/B/base_sector_engine.md`
 - bizfin_engine_v0 — `_00_Cosmo brain/engine/B/bizfin_engine_v0.md`
 - C10_tech_engineering — `_00_Cosmo brain/engine/C/C10_tech_engineering.md`
-- [[constraint_engine]] — `_00_Cosmo brain/engine/C/CONSTRAINT_ENGINE.md`
+- [[CONSTRAINT_ENGINE]] — `_00_Cosmo brain/engine/C/CONSTRAINT_ENGINE.md`
 - Code_SUPER_Engine — `_00_Cosmo brain/engine/C/Code_SUPER_Engine.md`
 - Coding_Engine_Model — `_00_Cosmo brain/engine/C/Coding_Engine_Model.md`
 - Coding_Engine_vInfinity_v1.6.0 — `_00_Cosmo brain/engine/C/Coding_Engine_vInfinity_v1.6.0.md`

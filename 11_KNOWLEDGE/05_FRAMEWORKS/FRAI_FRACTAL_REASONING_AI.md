@@ -104,7 +104,7 @@ Where:
 
 - **Deterministic Base:** [[LDAI_LOGICALLY_DETERMINISTIC_AI]]
 - **Tri-Layer Architecture:** [[TRANG_LMH_ARCHITECTURE]]
-- **Ontology & Reality:** [[TRANG_REALITY_ARCHITECTURE]] and [[khung_trang]]
+- **Ontology & Reality:** [[TRANG_REALITY_ARCHITECTURE]] and [[KHUNG_TRANG]]
 - **Native Sources:** `11_KNOWLEDGE/fractal/TRANG_FRAI_FRACTAL_REASONING_AI`
 
 ---

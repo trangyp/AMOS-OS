@@ -20,7 +20,7 @@ rscf:
 
 # b32a7b01 5632 450a a935 2ded537ff5fe the seven cycles of the trang system official manual comprehensive edition
 
-Stub note for [[B32A7B01_5632_450A_A935_2DED537FF5FE_THE_SEVEN_CYCLES_OF_THE_TRANG_SYSTEM_OFFICIAL_MANUAL_COMPREHENSIVE_EDITION]].
+Stub note for [[b32a7b01_5632_450a_a935_2ded537ff5fe_the_seven_cycles_of_the_trang_system_official_manual_comprehensive_edition]].
 
 ---
 

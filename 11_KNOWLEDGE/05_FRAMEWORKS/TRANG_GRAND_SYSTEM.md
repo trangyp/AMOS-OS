@@ -93,9 +93,9 @@ PRE-SYMBOLIC ONTOLOGY          MACRO DYNAMICS & LIFE           GOVERNANCE & REAS
 
 # 2. Inter-Plane & Vault Connections
 
-- **Codex & Logic:** [[trang_grand_system_codex]] and [[TRANG_GRAND_SYSTEM_LOGIC_SPECIFICATION]]
+- **Codex & Logic:** [[TRANG_GRAND_SYSTEM_CODEX]] and [[TRANG_GRAND_SYSTEM_LOGIC_SPECIFICATION]]
 - **Reality Master:** [[TRANG_REALITY_ARCHITECTURE]]
-- **Systems & Lifecycle:** [[TSS_THE_TRANG_SYSTEM]] and [[tpe_trang_prediction_engine]]
+- **Systems & Lifecycle:** [[TSS_THE_TRANG_SYSTEM]] and [[TPE_TRANG_PREDICTION_ENGINE]]
 - **Biological Master:** [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 
 ---

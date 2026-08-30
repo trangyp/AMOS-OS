@@ -35,8 +35,8 @@ rscf:
 ## Files
 
 - [[absolute_integrity_architecture]]
-- [[ABSOLUTE_OMNIVERSE_MODEL]]
-- [[CANON_INTEGRATION_LAYER]]
+- [[absolute_omniverse_model]]
+- [[canon_integration_layer]]
 - [[canon_integration_layer_model]]
 - [[canonical_body_registry]]
 - [[final_canonical_structure]]
@@ -45,8 +45,8 @@ rscf:
 - [[unified_legacy_framework]]
 - [[universe_core]]
 - [[universe_core_engine]]
-- [[UNIVERSE_INTERACTION_ENGINE]]
-- [[UNIVERSE_TOTAL_CANON]]
+- [[universe_interaction_engine]]
+- [[universe_total_canon]]
 - vault_domain_knowledge
 
 ---

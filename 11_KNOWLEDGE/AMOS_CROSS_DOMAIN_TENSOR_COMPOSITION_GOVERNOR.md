@@ -2950,7 +2950,7 @@ Do not invent an artifact.
 Input:
 
 ```text
-MODEL_X
+[[MODEL_X
 ```
 
 Correct:

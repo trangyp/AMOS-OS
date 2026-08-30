@@ -94,7 +94,7 @@ TOTAL ARCHITECTURAL CONVERGENCE (Trang Grand System, AMOS Organism OS)
 
 # 2. Inter-Plane & Vault Connections
 
-- **Grand System:** [[TRANG_GRAND_SYSTEM]] and [[trang_grand_system_codex]]
+- **Grand System:** [[TRANG_GRAND_SYSTEM]] and [[TRANG_GRAND_SYSTEM_CODEX]]
 - **Reality Architecture:** [[TRANG_REALITY_ARCHITECTURE]]
 - **Zero Framework:** [[TRANG_ZERO_FRAMEWORK]]
 - **Master Registry:** [[TRANG_EQUATION_REGISTRY]]

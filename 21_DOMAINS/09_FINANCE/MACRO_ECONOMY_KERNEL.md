@@ -80,7 +80,7 @@ $$i_{\text{Macro}} = [H(1-\Omega)(1-F)(1-S)]^{1/4}$$
 
 - **TSS Framework:** [[TSS_THE_TRANG_SYSTEM]]
 - **Finance MOC:** [[09_FINANCE_MOC]]
-- **TPE Engine:** [[tpe_trang_prediction_engine]]
+- **TPE Engine:** [[TPE_TRANG_PREDICTION_ENGINE]]
 
 ---
 

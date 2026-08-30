@@ -1381,7 +1381,7 @@ RSCF-RELATIONS:
 
 - DEPENDS_ON: [[L0_INTEGRITY]]
 - DEPENDS_ON: [[L1_EPISTEMIC]]
-- DEPENDS_ON: [[L2_PROVENANCE]]
+- DEPENDS_ON: [[L2_PROVENANCE]
 
 ... (truncated, see vault source for full content)
 

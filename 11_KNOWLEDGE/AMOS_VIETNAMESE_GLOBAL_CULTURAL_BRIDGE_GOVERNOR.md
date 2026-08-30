@@ -3409,7 +3409,7 @@ The governor exists to make the bridge possible **without collapsing the distinc
 - [[AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR]]
 - AMOS_SOCIETY_CULTURE_ENGINE
 - [[AMOS_VN_LEGAL_ENGINE]]
-- [[heritage_intelligence]]
+- [[HERITAGE_INTELLIGENCE]]
 - [[TRANG_ZERO_FRAMEWORK]]
 - [[25_COGNITIVE_MATRIX_MOC]]
 

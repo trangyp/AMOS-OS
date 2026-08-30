@@ -108,7 +108,7 @@ HERITAGE DECISION ENVELOPE:
 
 - **Frameworks:** [[HERITAGE_INTELLIGENCE_MASTER]] and [[TSS_THE_TRANG_SYSTEM]]
 - **Cognitive Matrix:** [[HERITAGE_X_TSS]] and [[HERITAGE_X_TSS_MATRIX]]
-- **Prediction Engine:** [[tpe_trang_prediction_engine]]
+- **Prediction Engine:** [[TPE_TRANG_PREDICTION_ENGINE]]
 - **Seven Cycles Detail:** [[TSS_SEVEN_CYCLES]]
 
 ---
