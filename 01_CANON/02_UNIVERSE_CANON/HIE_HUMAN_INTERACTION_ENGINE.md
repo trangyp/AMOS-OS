@@ -4,7 +4,7 @@ aliases:
 - HIE
 - Human Interaction Engine
 - HIE Human-Agent Interaction Engine
-type: universe_canon
+type: universe-canon
 source: 01_CANON/02_UNIVERSE_CANON
 status: canonical
 tags:

@@ -1,6 +1,6 @@
 ---
 title: Khung Trang State Vector Specification
-type: universe_canon
+type: universe-canon
 source: 01_CANON/02_UNIVERSE_CANON
 tags:
 - khung_trang

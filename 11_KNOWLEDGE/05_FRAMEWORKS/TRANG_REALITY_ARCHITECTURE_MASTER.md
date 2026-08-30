@@ -1,6 +1,6 @@
 ---
 title: Trang Reality Architecture Master
-type: framework_master
+type: framework-master
 source: 11_KNOWLEDGE/05_FRAMEWORKS
 tags:
 - trang

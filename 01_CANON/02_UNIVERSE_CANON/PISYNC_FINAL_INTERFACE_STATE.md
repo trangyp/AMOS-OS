@@ -5,7 +5,7 @@ aliases:
 - PISYNC Final State
 - PISYNC Interface State
 - PISYNC Final Interface
-type: universe_canon
+type: universe-canon
 source: 01_CANON/02_UNIVERSE_CANON
 tags:
 - pisync

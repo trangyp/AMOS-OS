@@ -1,6 +1,6 @@
 ---
 title: MVCC_CAS — Concurrency & Atomic State Transition Specification
-type: kernel_spec
+type: kernel-spec
 source: 02_KERNEL
 tags:
 - kernel

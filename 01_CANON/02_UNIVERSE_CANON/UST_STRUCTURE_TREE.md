@@ -1,6 +1,6 @@
 ---
 title: UST Structure Tree
-type: universe_canon
+type: universe-canon
 source: 01_CANON/02_UNIVERSE_CANON
 tags:
 - ust

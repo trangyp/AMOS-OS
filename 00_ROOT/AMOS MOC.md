@@ -1,6 +1,6 @@
 ---
 title: AMOS MOC (Redirect)
-type: moc_redirect
+type: moc-redirect
 source: 00_ROOT
 tags:
 - root

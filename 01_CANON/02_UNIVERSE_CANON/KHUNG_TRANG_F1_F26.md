@@ -1,6 +1,6 @@
 ---
 title: Khung Trang 26 Planes Structural Mapping (F1-F26)
-type: universe_canon
+type: universe-canon
 source: 01_CANON/02_UNIVERSE_CANON
 tags:
 - khung_trang

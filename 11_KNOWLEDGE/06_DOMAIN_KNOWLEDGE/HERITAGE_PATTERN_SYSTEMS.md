@@ -1,6 +1,6 @@
 ---
 title: Heritage Pattern Systems
-type: domain_knowledge
+type: domain-knowledge
 source: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE
 artifact: HERITAGE_PATTERN_SYSTEMS.md
 artifact_id: amos_11_knowledge_06_domain_knowledge_heritage_pattern_systems

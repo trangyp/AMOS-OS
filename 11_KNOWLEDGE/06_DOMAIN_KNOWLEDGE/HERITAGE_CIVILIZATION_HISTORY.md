@@ -1,6 +1,6 @@
 ---
 title: Heritage Civilization History
-type: domain_knowledge
+type: domain-knowledge
 source: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE
 artifact: HERITAGE_CIVILIZATION_HISTORY.md
 artifact_id: amos_11_knowledge_06_domain_knowledge_heritage_civilization_history

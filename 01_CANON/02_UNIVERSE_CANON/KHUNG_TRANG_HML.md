@@ -1,6 +1,6 @@
 ---
 title: Khung Trang H/M/L Scale Partitioning
-type: universe_canon
+type: universe-canon
 source: 01_CANON/02_UNIVERSE_CANON
 tags:
 - khung_trang

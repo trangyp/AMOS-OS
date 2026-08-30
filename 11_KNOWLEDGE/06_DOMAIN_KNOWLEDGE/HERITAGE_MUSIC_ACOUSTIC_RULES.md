@@ -1,6 +1,6 @@
 ---
 title: Heritage Music Acoustic Rules
-type: domain_knowledge
+type: domain-knowledge
 source: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE
 artifact: HERITAGE_MUSIC_ACOUSTIC_RULES.md
 artifact_id: amos_11_knowledge_06_domain_knowledge_heritage_music_acoustic_rules
