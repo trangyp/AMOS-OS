@@ -23,7 +23,7 @@ rscf:
 
 ## Files
 
-- [[vault_domain_knowledge]]
+- [[07_SKILLS/amos-formal-agent-skill-verification-rscf/references/vault_domain_knowledge|vault_domain_knowledge]]
 
 ---
 **Parent:** [[amos-formal-agent-skill-verification-rscf_MOC]]

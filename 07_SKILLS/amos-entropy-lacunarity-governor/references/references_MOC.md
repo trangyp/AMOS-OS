@@ -23,7 +23,7 @@ rscf:
 
 ## Files
 
-- [[vault_domain_knowledge]]
+- [[07_SKILLS/amos-entropy-lacunarity-governor/references/vault_domain_knowledge|vault_domain_knowledge]]
 
 ---
 **Parent:** [[amos-entropy-lacunarity-governor_MOC]]

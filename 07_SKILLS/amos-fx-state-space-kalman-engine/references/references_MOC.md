@@ -23,7 +23,7 @@ rscf:
 
 ## Files
 
-- [[vault_domain_knowledge]]
+- [[07_SKILLS/amos-fx-state-space-kalman-engine/references/vault_domain_knowledge|vault_domain_knowledge]]
 
 ---
 **Parent:** [[amos-fx-state-space-kalman-engine_MOC]]

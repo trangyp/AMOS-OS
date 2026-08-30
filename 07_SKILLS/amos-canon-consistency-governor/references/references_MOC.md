@@ -23,7 +23,7 @@ rscf:
 
 ## Files
 
-- [[vault_domain_knowledge]]
+- [[07_SKILLS/amos-canon-consistency-governor/references/vault_domain_knowledge|vault_domain_knowledge]]
 
 ---
 **Parent:** [[amos-canon-consistency-governor_MOC]]

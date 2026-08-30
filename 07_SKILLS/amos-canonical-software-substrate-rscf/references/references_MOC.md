@@ -23,7 +23,7 @@ rscf:
 
 ## Files
 
-- [[vault_domain_knowledge]]
+- [[07_SKILLS/amos-canonical-software-substrate-rscf/references/vault_domain_knowledge|vault_domain_knowledge]]
 
 ---
 **Parent:** [[amos-canonical-software-substrate-rscf_MOC]]

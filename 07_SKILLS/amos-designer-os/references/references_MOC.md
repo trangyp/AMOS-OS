@@ -60,4 +60,4 @@ RSCF-RELATIONS:
 ---
 ## Reference Notes
 
-- [[vault_domain_knowledge]]
+- [[07_SKILLS/amos-designer-os/references/vault_domain_knowledge|vault_domain_knowledge]]

@@ -23,7 +23,7 @@ rscf:
 
 ## Files
 
-- [[vault_domain_knowledge]]
+- [[07_SKILLS/mckinsey-designops-agile-transformation-rscf/references/vault_domain_knowledge|vault_domain_knowledge]]
 
 ---
 **Parent:** [[mckinsey-designops-agile-transformation-rscf_MOC]]

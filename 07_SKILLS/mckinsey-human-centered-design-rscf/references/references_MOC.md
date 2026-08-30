@@ -23,7 +23,7 @@ rscf:
 
 ## Files
 
-- [[vault_domain_knowledge]]
+- [[07_SKILLS/mckinsey-human-centered-design-rscf/references/vault_domain_knowledge|vault_domain_knowledge]]
 
 ---
 **Parent:** [[mckinsey-human-centered-design-rscf_MOC]]

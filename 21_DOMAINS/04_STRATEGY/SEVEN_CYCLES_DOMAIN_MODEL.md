@@ -90,7 +90,7 @@ epistemic_boundary:
 
 - **Seven Cycles Framework:** [[TSS_SEVEN_CYCLES]]
 - **TSS Master:** [[TSS_THE_TRANG_SYSTEM]]
-- **TPE Engine:** [[TPE_TRANG_PREDICTION_ENGINE]]
+- **TPE Engine:** [[11_KNOWLEDGE/trang/TPE_TRANG_PREDICTION_ENGINE|TPE_TRANG_PREDICTION_ENGINE]]
 
 ---
 

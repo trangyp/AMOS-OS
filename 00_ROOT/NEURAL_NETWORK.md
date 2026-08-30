@@ -148,7 +148,7 @@ The AMOS Full Brain OS source should be used as a structural orchestration model
 
 # 1. Core Nodes
 
-- [[README|AMOS OS Root]]
+- [[00_ROOT/README|AMOS OS Root]]
 - [[00_ROOT_MOC]]|MOC
 - [[NEURAL_NETWORK|This Hub]]
 - [[ARCHITECTURE|Architecture]]

@@ -60,4 +60,4 @@ RSCF-RELATIONS:
 ---
 ## Reference Notes
 
-- [[vault_domain_knowledge]]
+- [[07_SKILLS/docx/references/vault_domain_knowledge|vault_domain_knowledge]]

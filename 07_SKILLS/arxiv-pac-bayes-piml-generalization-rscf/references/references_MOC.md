@@ -23,7 +23,7 @@ rscf:
 
 ## Files
 
-- [[vault_domain_knowledge]]
+- [[07_SKILLS/arxiv-pac-bayes-piml-generalization-rscf/references/vault_domain_knowledge|vault_domain_knowledge]]
 
 ---
 **Parent:** [[arxiv-pac-bayes-piml-generalization-rscf_MOC]]

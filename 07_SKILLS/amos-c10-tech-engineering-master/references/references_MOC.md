@@ -65,7 +65,7 @@ rscf:
 - [architecture_of_architecture](architecture_of_architecture.md)
 - [[automation_engine_layer]]
 - [[automation_engine_v1]]
-- [[automation_super_engine]]
+- [[07_SKILLS/amos-c10-tech-engineering-master/references/automation_super_engine|automation_super_engine]]
 - [[cloud_platform_kernel]]
 - [[coding_engine]]
 - [[coding_engine_gpt]]
@@ -95,11 +95,11 @@ rscf:
 - [[tech_partner_audit]]
 - [[tech_quantum_engine_domains]]
 - [[tech_quantum_engine_model]]
-- [[tech_super_engine]]
-- [[total_technical_engine_model]]
+- [[07_SKILLS/amos-c10-tech-engineering-master/references/tech_super_engine|tech_super_engine]]
+- [[07_SKILLS/amos-c10-tech-engineering-master/references/total_technical_engine_model|total_technical_engine_model]]
 - [[total_technical_engine_universe]]
 - [[unix_automated_tools]]
-- [[vault_domain_knowledge]]
+- [[07_SKILLS/amos-c10-tech-engineering-master/references/vault_domain_knowledge|vault_domain_knowledge]]
 
 ---
 **Parent:** [[amos-c10-tech-engineering-master_MOC]]

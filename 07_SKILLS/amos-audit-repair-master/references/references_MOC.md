@@ -42,7 +42,7 @@ rscf:
 - [[11k_known_gaps]]
 - [[audit_quality_engine]]
 - [[audit_quality_engine_domains]]
-- [[audit_quality_engine_v0]]
+- [[07_SKILLS/amos-audit-repair-master/references/audit_quality_engine_v0|audit_quality_engine_v0]]
 - [[audit_quality_max]]
 - [[audit_quality_model]]
 - [[brain_consistency_auditor]]

@@ -24,7 +24,7 @@ rscf:
 
 ## Files
 
-- [[vault_domain_knowledge]]
+- [[07_SKILLS/amos-scientific-assumption-semantic-differencing-rscf/references/vault_domain_knowledge|vault_domain_knowledge]]
 
 ---
 **Parent:** [[amos-scientific-assumption-semantic-differencing-rscf_MOC]]

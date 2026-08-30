@@ -23,7 +23,7 @@ rscf:
 
 ## Files
 
-- [[README]]
+- [[07_SKILLS/amos-law-stack-enforcement/references/README|README]]
 
 ---
 **Parent:** [[amos-law-stack-enforcement_MOC]]

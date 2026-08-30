@@ -23,7 +23,7 @@ rscf:
 
 ## Files
 
-- [[vault_domain_knowledge]]
+- [[07_SKILLS/software-engineering-qa/references/vault_domain_knowledge|vault_domain_knowledge]]
 
 ---
 **Parent:** [[software-engineering-qa_MOC]]

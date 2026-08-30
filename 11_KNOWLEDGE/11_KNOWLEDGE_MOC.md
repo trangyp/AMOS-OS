@@ -26,7 +26,7 @@ Master Map of Content for Plane 11 (Knowledge), containing 47 domain sub-planes,
 - [[KERNEL_MOC]] — Computational kernels & logic ALUs
 
 ## Documentation MOCs
-- [[brain_MOC]] — Brain documentation MOC
+- [[11_KNOWLEDGE/stubs/brain_moc|brain_MOC]] — Brain documentation MOC
 - [[06-Knowledge-Base-MOC]] — Knowledge base documentation redirect
 
 ---

@@ -27,7 +27,7 @@ rscf:
 
 - [[counterfactual_reasoning_kernel]]
 - [[sensitivity_falsifiers]]
-- [[vault_domain_knowledge]]
+- [[07_SKILLS/amos-causal-reasoning-master/references/vault_domain_knowledge|vault_domain_knowledge]]
 
 ---
 **Parent:** [[amos-causal-reasoning-master_MOC]]

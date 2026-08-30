@@ -35,7 +35,7 @@ rscf:
 - [[regime_freshness]]
 - [[signals]]
 - [[types_of_signals]]
-- [[vault_domain_knowledge]]
+- [[07_SKILLS/amos-information-theory-master/references/vault_domain_knowledge|vault_domain_knowledge]]
 
 ---
 **Parent:** [[amos-information-theory-master_MOC]]

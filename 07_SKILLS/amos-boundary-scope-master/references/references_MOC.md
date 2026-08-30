@@ -25,7 +25,7 @@ rscf:
 ## Files
 
 - [[boundary_identity]]
-- [[vault_domain_knowledge]]
+- [[07_SKILLS/amos-boundary-scope-master/references/vault_domain_knowledge|vault_domain_knowledge]]
 
 ---
 **Parent:** [[amos-boundary-scope-master_MOC]]

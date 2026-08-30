@@ -32,6 +32,6 @@ rscf:
 **References MOC:** [[references/references_MOC]]
 
 ---
-**Skill:** [[SKILL]]
+**Skill:** [[07_SKILLS/arxiv-future-confidence-distillation-rscf/SKILL|SKILL]]
 
 **Parent:** [[07_SKILLS_MOC]]

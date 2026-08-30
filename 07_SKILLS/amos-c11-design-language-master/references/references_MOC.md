@@ -59,15 +59,15 @@ rscf:
 - [[corp_doc_engine]]
 - [[corp_doc_engine_super]]
 - [[design_engine_layer]]
-- [[design_engine_model]]
+- [[07_SKILLS/amos-c11-design-language-master/references/design_engine_model|design_engine_model]]
 - [[design_engine_tech]]
 - [[design_language_config]]
 - [[design_language_engine_cognitive]]
 - [[design_language_engine_layer]]
 - [[design_language_model]]
-- [[doc_super_engine]]
+- [[07_SKILLS/amos-c11-design-language-master/references/doc_super_engine|doc_super_engine]]
 - [[documentation_engine_layer]]
-- [[domain_config]]
+- [[07_SKILLS/amos-c11-design-language-master/references/domain_config|domain_config]]
 - [[human_centered_design_drift]]
 - [[monogram_engine]]
 - [[monogram_kernel_engine]]
@@ -76,7 +76,7 @@ rscf:
 - [[super_corp_doc_engine_light]]
 - [tech_design_engine](tech_design_engine.md)
 - [[tech_expanded_design_engine]]
-- [[vault_domain_knowledge]]
+- [[07_SKILLS/amos-c11-design-language-master/references/vault_domain_knowledge|vault_domain_knowledge]]
 - [vietnamese_writing_engine](vietnamese_writing_engine.md)
 
 ---

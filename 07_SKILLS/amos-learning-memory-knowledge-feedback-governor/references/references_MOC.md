@@ -29,7 +29,7 @@ rscf:
 - [[11k_learning_memory_knowledge_governor]]
 - [[ai_learning]]
 - [[mvp_ai_roleplay_language_learning]]
-- [[vault_domain_knowledge]]
+- [[07_SKILLS/amos-learning-memory-knowledge-feedback-governor/references/vault_domain_knowledge|vault_domain_knowledge]]
 
 ---
 **Parent:** [[amos-learning-memory-knowledge-feedback-governor_MOC]]

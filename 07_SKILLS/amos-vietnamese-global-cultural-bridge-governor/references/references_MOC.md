@@ -32,7 +32,7 @@ rscf:
 
 ## Files
 
-- [[vault_domain_knowledge]]
+- [[07_SKILLS/amos-vietnamese-global-cultural-bridge-governor/references/vault_domain_knowledge|vault_domain_knowledge]]
 - [[vn_20_impossible_competitions]]
 - [[vn_akashic_thong_thien]]
 - [[vn_amos_absolute_architecture]]

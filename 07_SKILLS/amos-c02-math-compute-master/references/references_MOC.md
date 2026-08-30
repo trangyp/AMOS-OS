@@ -39,7 +39,7 @@ rscf:
 - [[complex_analysis_bridge]]
 - [[computational_complexity_model]]
 - [[control_systems_kernel]]
-- [[domain_config]]
+- [[07_SKILLS/amos-c02-math-compute-master/references/domain_config|domain_config]]
 - [[engineering_math_engine_cognitive]]
 - [[engineering_math_kernel]]
 - [[engineering_math_kernel_vinfinity]]
@@ -47,7 +47,7 @@ rscf:
 - [[network_structure_diagnostics]]
 - [[numerical_methods_engine_layer]]
 - [[spectral_method_governance]]
-- [[vault_domain_knowledge]]
+- [[07_SKILLS/amos-c02-math-compute-master/references/vault_domain_knowledge|vault_domain_knowledge]]
 
 ---
 **Parent:** [[amos-c02-math-compute-master_MOC]]

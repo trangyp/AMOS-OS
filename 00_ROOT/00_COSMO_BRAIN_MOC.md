@@ -70,7 +70,7 @@ rscf:
 **Path:** `00_ROOT`
 **Files:** 76 | **Subdirectories:** 1
 
-## Files · [[AIOS_README_2026_08_30|AIOS README]] · [[AGENTSKILLOS_README_2026_08_30|AgentSkillOS README]] · [[MMSKILLS_README_2026_08_30|MMSkills README]] · [[IVANZWB_AGENT_SKILLS_README_2026_08_30|ivanzwb/agent-skills README]] · [[SOTA_AGENT_SKILL_WORKFLOW_REPOS|tech-leads-club/agent-skills]]
+## Files · [[AIOS_README_2026_08_30|AIOS README]] · [[AGENTSKILLOS_README_2026_08_30|AgentSkillOS README]] · [[MMSKILLS_README_2026_08_30|MMSkills README]] · [[IVANZWB_AGENT_SKILLS_README_2026_08_30|ivanzwb/agent-skills README]] · [[SOTA_AGENT_SKILL_WORKFLOW_REPOS|tech-leads-club/agent-skills]] · [[TECH_LEADS_CLUB_AGENT_SKILLS_README_2026_08_30|tech-leads-club/agent-skills README — Raw Capture]]
 
 - [[00_HOME]]
 - [[00_ROOT_ARCHITECTURE]]
@@ -154,15 +154,6 @@ rscf:
 - [[17_OBSERVABILITY/00_INDEX/README|Observability Index]]
 - [[07_SKILLS/amos-knowledge-research-master/SKILL|Knowledge & Research Master]]
 - [[11_KNOWLEDGE/trang/Distinction → Constraint → Intelligence|Distinction → Constraint → Intelligence]]
-- [[11_KNOWLEDGE/trang/Constraint-Centered Intelligence: Full Reformatted Map|Constraint-Centered Intelligence Map]]
-- [[07_SKILLS/amos-memory-systems-master/SKILL|Memory Systems Master]]
-- [[07_SKILLS/amos-security-safety-master/SKILL|Security & Safety Master]]
-- [[07_SKILLS/amos-agent-systems-master/SKILL|Agent Systems Master]]
-- [[07_SKILLS/amos-mdformat-obsidian/SKILL|mdformat Obsidian]]
-- [[07_SKILLS/amos-agent-owner-attribution-rscf/SKILL|Agent Owner Attribution]]
-- [[07_SKILLS/amos-flow-canon/references/README|Flow Canon References]]
-- [[07_SKILLS/amos-law-stack-enforcement/references/README|Law Stack References]]
-- [[07_SKILLS/amos-7-part-universe-canon/references/README|7-Part Universe References]]
 
 ## SOTA and Agent Contracts
 
@@ -172,6 +163,10 @@ rscf:
 ## Subdirectories
 
 - [[attachments_MOC]] — attachments
+- [[11_KNOWLEDGE/_arxiv_md/2007/MOC_2007|Arxiv 2007 MOC]]
+- [[11_KNOWLEDGE/_arxiv_md/2008/MOC_2008|Arxiv 2008 MOC]]
+- [[11_KNOWLEDGE/stubs/19|Stubs 19]]
+- [[00_ROOT/README|Root README]]
 
 ---
 **Parent:** [[AMOS_HOME]]

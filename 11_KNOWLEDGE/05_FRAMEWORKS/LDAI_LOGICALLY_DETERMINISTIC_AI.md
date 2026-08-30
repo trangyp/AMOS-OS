@@ -90,7 +90,7 @@ LDAI provides a formal framework for **syntax-invariant, mathematically determin
 
 - **Fractal AI Parent:** [[FRAI_FRACTAL_REASONING_AI]]
 - **Logic Scaffold:** [[QLS_FRAMEWORK]] and [[QCLA_MASTER]]
-- **Ontological Grounding:** [[TRANG_REALITY_ARCHITECTURE]] and [[KHUNG_TRANG]]
+- **Ontological Grounding:** [[TRANG_REALITY_ARCHITECTURE]] and [[11_KNOWLEDGE/trang/KHUNG_TRANG|KHUNG_TRANG]]
 - **Native Sources:** `11_KNOWLEDGE/trang/TRANG_LDAI_LOGICALLY_DETERMINISTIC_ARTIFICIAL_INT`
 
 ---

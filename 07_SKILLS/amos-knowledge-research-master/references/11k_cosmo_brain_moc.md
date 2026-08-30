@@ -85,7 +85,7 @@ answer the question, expand only when outcome-changing uncertainty remains.
 ## Operational brain — module map
 
 - 00_boot: brain/00_boot/BOOTSTRAP · ROUTER · LOAD_MAP · OS_Agent_Model
-- 10_core: INVARIANTS · CLAIM_CLASSES · [[FRACTAL_RUNTIME]] · [[LOGIC_KERNEL]] · EQUATION_* · VARIABLE_REGISTRY · [[CONSTRAINT_ENGINE]] · Consciousness_Engine_Model · Personality_Engine_Model · Emotion_Engine_Model · Cognition_Engine_Model · Mind_OS_Model
+- 10_core: INVARIANTS · CLAIM_CLASSES · [[FRACTAL_RUNTIME]] · [[LOGIC_KERNEL]] · EQUATION_* · VARIABLE_REGISTRY · [[11_KNOWLEDGE/engine/CONSTRAINT_ENGINE|CONSTRAINT_ENGINE]] · Consciousness_Engine_Model · Personality_Engine_Model · Emotion_Engine_Model · Cognition_Engine_Model · Mind_OS_Model
 - 20_state: [[TENSOR_CONTRACTS]] · [[CLAIM_TENSOR]] · [[EVIDENCE_TENSOR]] · [[RELATION_TENSOR]] · MEMORY_ARCHITECTURE · WORKING_MEMORY · BOUNDARY_IDENTITY · UNCERTAINTY_VECTOR · ENTROPY_LACUNARITY · STATE_MACHINE · CONTEXT_ORIENTATION · GOVERNANCE_TENSOR
 - 30_epistemics: PROVENANCE_TOPOLOGY · RSCF_PROOF_CAPSULE · COMPETING_HYPOTHESES · REGIME_FRESHNESS · ADVERSARIAL_VALIDATION · SENSITIVITY_FALSIFIERS · CAUSAL_FIREWALL · ERROR_RECOVERY · SYBIL_HARDENING
 - 40_runtime: RUNTIME_LINEAGE · TRANSACTION_PROTOCOL · V3_0…V4_4 (MVCC/CAS, causal epoch, coordination avoidance)

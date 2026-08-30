@@ -35,8 +35,8 @@ rscf:
 **References MOC:** [[references/references_MOC]]
 
 ---
-**Skill:** [[SKILL]]
+**Skill:** [[07_SKILLS/amos-c09-org-law-policy-master/SKILL|SKILL]]
 
-**Agent Template:** [[AGENT_TEMPLATE]]
+**Agent Template:** [[07_SKILLS/amos-c09-org-law-policy-master/AGENT_TEMPLATE|AGENT_TEMPLATE]]
 
 **Parent:** [[07_SKILLS_MOC]]

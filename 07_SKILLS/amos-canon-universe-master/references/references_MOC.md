@@ -35,19 +35,19 @@ rscf:
 ## Files
 
 - [[absolute_integrity_architecture]]
-- [[absolute_omniverse_model]]
-- [[canon_integration_layer]]
+- [[07_SKILLS/amos-canon-universe-master/references/absolute_omniverse_model|absolute_omniverse_model]]
+- [[07_SKILLS/amos-canon-universe-master/references/canon_integration_layer|canon_integration_layer]]
 - [[canon_integration_layer_model]]
 - [[canonical_body_registry]]
 - [[final_canonical_structure]]
 - [[full_canon_encyclopedia]]
-- [[heritage_intelligence]]
+- [[07_SKILLS/amos-canon-universe-master/references/heritage_intelligence|heritage_intelligence]]
 - [[unified_legacy_framework]]
 - [[universe_core]]
 - [[universe_core_engine]]
-- [[universe_interaction_engine]]
-- [[universe_total_canon]]
-- [[vault_domain_knowledge]]
+- [[07_SKILLS/amos-canon-universe-master/references/universe_interaction_engine|universe_interaction_engine]]
+- [[07_SKILLS/amos-canon-universe-master/references/universe_total_canon|universe_total_canon]]
+- [[07_SKILLS/amos-canon-universe-master/references/vault_domain_knowledge|vault_domain_knowledge]]
 
 ---
 **Parent:** [[amos-canon-universe-master_MOC]]

@@ -34,8 +34,8 @@ rscf:
 **References MOC:** [[references/references_MOC]]
 
 ---
-**Skill:** [[SKILL]]
+**Skill:** [[07_SKILLS/amos-law-stack-enforcement/SKILL|SKILL]]
 
-**References:** [[references]]
+**References:** [[07_SKILLS/amos-law-stack-enforcement/references/references_MOC|references]]
 
 **Parent:** [[07_SKILLS_MOC]]

@@ -48,7 +48,7 @@ RSCF-RELATIONS:
 - CHILD_OF: [[07_SKILLS_MOC]]
 
 ---
-**References MOC:** [[references/references_MOC]]
+**References MOC:** [[07_SKILLS/amos-mdformat-obsidian/references/references_MOC|references_MOC]]
 
 ---
-**Skill:** [[SKILL]]
+**Skill:** [[07_SKILLS/amos-mdformat-obsidian/SKILL|SKILL]]

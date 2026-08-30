@@ -24,7 +24,7 @@ rscf:
 
 ## Files
 
-- [[vault_domain_knowledge]]
+- [[07_SKILLS/amos-arxiv-spectral-latent-treatment-effects-rscf/references/vault_domain_knowledge|vault_domain_knowledge]]
 
 ---
 **Parent:** [[amos-arxiv-spectral-latent-treatment-effects-rscf_MOC]]

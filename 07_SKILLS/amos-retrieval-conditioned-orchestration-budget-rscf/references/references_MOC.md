@@ -24,7 +24,7 @@ rscf:
 
 ## Files
 
-- [[vault_domain_knowledge]]
+- [[07_SKILLS/amos-retrieval-conditioned-orchestration-budget-rscf/references/vault_domain_knowledge|vault_domain_knowledge]]
 
 ---
 **Parent:** [[amos-retrieval-conditioned-orchestration-budget-rscf_MOC]]

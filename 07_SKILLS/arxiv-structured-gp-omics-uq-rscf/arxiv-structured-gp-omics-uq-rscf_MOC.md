@@ -32,6 +32,6 @@ rscf:
 **References MOC:** [[references/references_MOC]]
 
 ---
-**Skill:** [[SKILL]]
+**Skill:** [[07_SKILLS/arxiv-structured-gp-omics-uq-rscf/SKILL|SKILL]]
 
 **Parent:** [[07_SKILLS_MOC]]

@@ -53,7 +53,7 @@ rscf:
 - [[meta_logic_config]]
 - [[trang_fpr]]
 - [[universal_reasoning_framework]]
-- [[vault_domain_knowledge]]
+- [[07_SKILLS/amos-c01-meta-logic-master/references/vault_domain_knowledge|vault_domain_knowledge]]
 
 ---
 ## Reference Notes

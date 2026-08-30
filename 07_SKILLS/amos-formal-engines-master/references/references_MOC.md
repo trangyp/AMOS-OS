@@ -37,7 +37,7 @@ rscf:
 
 - [[11k_murk_audit]]
 - [[amatrix_dynamics]]
-- [[constraint_engine]]
+- [[07_SKILLS/amos-formal-engines-master/references/constraint_engine|constraint_engine]]
 - [[equation_firewall]]
 - [[murk_engine_expansion]]
 - [[omega_advanced_tensor_analysis]]
@@ -47,7 +47,7 @@ rscf:
 - [[qfm_five_layer_architecture]]
 - [[qfm_max_power_consolidation]]
 - [[tensor_composition_governance]]
-- [[vault_domain_knowledge]]
+- [[07_SKILLS/amos-formal-engines-master/references/vault_domain_knowledge|vault_domain_knowledge]]
 
 ---
 **Parent:** [[amos-formal-engines-master_MOC]]

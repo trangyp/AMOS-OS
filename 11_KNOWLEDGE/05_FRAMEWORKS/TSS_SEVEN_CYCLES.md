@@ -118,7 +118,7 @@ epistemic_boundary:
 
 - **Master System:** [[TSS_THE_TRANG_SYSTEM]]
 - **Decision Governance:** [[HERITAGE_TO_TSS_BINDING]] and [[HERITAGE_X_TSS]]
-- **Prediction Modeling:** [[TPE_TRANG_PREDICTION_ENGINE]] and [[AMOS_X_TSS_TPE_MATRIX]]
+- **Prediction Modeling:** [[11_KNOWLEDGE/trang/TPE_TRANG_PREDICTION_ENGINE|TPE_TRANG_PREDICTION_ENGINE]] and [[AMOS_X_TSS_TPE_MATRIX]]
 - **Native Manual:** `11_KNOWLEDGE/trang/THE_SEVEN_CYCLES_OF_THE_TRANG_SYSTEM_OFFICIAL_M`
 
 ---

@@ -63,7 +63,7 @@ rscf:
 - [[defense_security_civil_protection]]
 - [[horizontal_access_control]]
 - [[institutional_digital_security]]
-- [[ios_reverse_engineering]]
+- [[07_SKILLS/amos-security-safety-master/references/ios_reverse_engineering|ios_reverse_engineering]]
 - [[language_overlay_ip_security]]
 - [[ldap_security]]
 - [[oauth_openid_connect]]

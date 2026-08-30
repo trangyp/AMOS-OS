@@ -25,12 +25,12 @@ rscf:
 
 ## Subdirectories
 
-- [[references_MOC]] — references
+- [[07_SKILLS/amos-primitive-decomposer/references_MOC|references_MOC]] — references
 
 ---
 ---
-**Skill:** [[SKILL]]
+**Skill:** [[07_SKILLS/amos-primitive-decomposer/SKILL|SKILL]]
 
-- [[vault_domain_knowledge]]
+- [[07_SKILLS/amos-primitive-decomposer/vault_domain_knowledge|vault_domain_knowledge]]
 
 **Parent:** [[07_SKILLS_MOC]]

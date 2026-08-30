@@ -24,7 +24,7 @@ rscf:
 
 ## Files
 
-- [[vault_domain_knowledge]]
+- [[07_SKILLS/amos-trajectory-bug-specification-refinement-rscf/references/vault_domain_knowledge|vault_domain_knowledge]]
 
 ---
 **Parent:** [[amos-trajectory-bug-specification-refinement-rscf_MOC]]

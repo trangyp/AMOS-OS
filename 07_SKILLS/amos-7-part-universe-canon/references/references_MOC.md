@@ -23,7 +23,7 @@ rscf:
 
 ## Files
 
-- [[README]]
+- [[07_SKILLS/amos-7-part-universe-canon/references/README|README]]
 
 ---
 **Parent:** [[amos-7-part-universe-canon_MOC]]

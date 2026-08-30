@@ -23,7 +23,7 @@ rscf:
 
 ## Files
 
-- [[vault_domain_knowledge]]
+- [[07_SKILLS/frontend-engineering-qa/references/vault_domain_knowledge|vault_domain_knowledge]]
 
 ---
 **Parent:** [[frontend-engineering-qa_MOC]]

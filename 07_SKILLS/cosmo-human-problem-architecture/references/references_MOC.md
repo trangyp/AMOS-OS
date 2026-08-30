@@ -23,7 +23,7 @@ rscf:
 
 ## Files
 
-- [[vault_domain_knowledge]]
+- [[07_SKILLS/cosmo-human-problem-architecture/references/vault_domain_knowledge|vault_domain_knowledge]]
 
 ---
 **Parent:** [[cosmo-human-problem-architecture_MOC]]

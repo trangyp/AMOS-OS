@@ -23,7 +23,7 @@ rscf:
 
 ## Files
 
-- [[vault_domain_knowledge]]
+- [[07_SKILLS/bluebook-strategy-system/references/vault_domain_knowledge|vault_domain_knowledge]]
 
 ---
 **Parent:** [[bluebook-strategy-system_MOC]]

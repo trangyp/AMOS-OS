@@ -35,8 +35,8 @@ rscf:
 **References MOC:** [[references/references_MOC]]
 
 ---
-**Skill:** [[SKILL]]
+**Skill:** [[07_SKILLS/amos-c12-earth-ecology-master/SKILL|SKILL]]
 
-**Agent Template:** [[AGENT_TEMPLATE]]
+**Agent Template:** [[07_SKILLS/amos-c12-earth-ecology-master/AGENT_TEMPLATE|AGENT_TEMPLATE]]
 
 **Parent:** [[07_SKILLS_MOC]]

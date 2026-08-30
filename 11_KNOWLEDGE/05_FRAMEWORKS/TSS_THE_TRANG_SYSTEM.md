@@ -119,7 +119,7 @@ The Trang System™ provides a universal language for interpreting how human-lin
 # 3. Inter-Plane & Cross-Framework Connections
 
 - **Cognitive Matrix:** [[AMOS_X_TSS]] and [[AMOS_X_TSS_TPE_MATRIX]] (Decision and foresight routing).
-- **Prediction Engine:** [[TPE_TRANG_PREDICTION_ENGINE]] (Trajectory and window forecasting).
+- **Prediction Engine:** [[11_KNOWLEDGE/trang/TPE_TRANG_PREDICTION_ENGINE|TPE_TRANG_PREDICTION_ENGINE]] (Trajectory and window forecasting).
 - **Biological Grounding:** [[UNIFIED_BIOLOGICAL_INTELLIGENCE]] (Biological constraints on $\Omega$ and $H$).
 - **Ontological Grounding:** [[TRANG_REALITY_ARCHITECTURE]] ($P \to D \to R \to C \to F \to M$).
 - **Native Sources:** `11_KNOWLEDGE/trang/TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL`
@@ -149,7 +149,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[05_FRAMEWORKS_MOC]] · [[TPE_TRANG_PREDICTION_ENGINE]] · [[UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[AMOS_X_TSS]] · [[AMOS_X_TSS_TPE_MATRIX]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/trang/TPE_TRANG_PREDICTION_ENGINE|TPE_TRANG_PREDICTION_ENGINE]] · [[UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[AMOS_X_TSS]] · [[AMOS_X_TSS_TPE_MATRIX]]
 
 ---
 **MOC:** [[05_FRAMEWORKS_MOC]]
