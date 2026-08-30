@@ -6457,7 +6457,8 @@ RSCF-RELATIONS:
 * USES: [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_PROVENANCE|GENERATORS_PROVENANCE]]
 * USES: [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_TESTS|GENERATORS_TESTS]]
 * USES: [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_VALIDATION|GENERATORS_VALIDATION]]
-* RELATED_TO: [[scripts/.tagmigrate17-backup-20260830-182230/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]]
+* RELATED_TO: [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]]
+* RELATED_TO: [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
 * RELATED_TO: [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
 * RELATED_TO: [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]
 * RELATED_TO: [[01_CANON/02_UNIVERSE_CANON/P3_KNOWLEDGE_MEMORY|P3_KNOWLEDGE_MEMORY]]
@@ -6477,4 +6478,3 @@ RSCF-RELATIONS:
 
 This version preserves the supplied source's **100-section architecture** and extends it into a full-max RSCF/canon artifact with explicit runtime, state-transition, validation, provenance, registry, promotion, failure, finality, and machine-readable contracts while keeping the source's core epistemic boundary intact: the architecture is source-grounded; the additional normalization is `DERIVED`; implementation and empirical/formal validation remain `NOT_ESTABLISHED`.
 
-```

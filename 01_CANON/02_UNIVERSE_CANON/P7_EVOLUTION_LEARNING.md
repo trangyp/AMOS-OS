@@ -4704,14 +4704,22 @@ RSCF-RELATIONS:
 - DEPENDS_ON: [[01_CANON/02_UNIVERSE_CANON/P5_GOVERNANCE_AUTHORITY|P5_GOVERNANCE_AUTHORITY]]
 
 - DEPENDS_ON: [[01_CANON/02_UNIVERSE_CANON/P6_EXECUTION_AGENCY|P6_EXECUTION_AGENCY]]
+- RELATED_TO: [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]]
+- RELATED_TO: [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
+- RELATED_TO: [[02_KERNEL/K_GOVERNED_EVOLUTION|K_GOVERNED_EVOLUTION]]
 
 claim_class: AMOS_MODEL
 
 ```
 
 **Conclusion class: `DERIVED / CONDITIONAL`.** This closes P7 architecturally without promoting the source-supplied `10 cycles`, `PV law`, `K-2`, or `L9 Evolution Laws` beyond what the supplied specification actually establishes. The decisive P7 boundary is: **AMOS may evolve components under invariants, but the evolution mechanism does not thereby acquire authority to rewrite the integrity stack that governs evolution itself.**
-```
 
 ---
+
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]] · [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] · [[02_KERNEL/K_GOVERNED_EVOLUTION|K_GOVERNED_EVOLUTION]] · [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]] · [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
+
+---
+
 **MOC:** [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]
+
 

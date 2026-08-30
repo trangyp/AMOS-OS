@@ -4077,7 +4077,12 @@ RSCF-RELATIONS:
 ```
 
 This replaces the placeholder with a **full generator-template layer**, including reusable copy/paste schemas rather than just descriptive prose. Its status remains deliberately `CANDIDATE_CANON / AMOS_MODEL` until the appropriate provenance and canon process establishes anything stronger.
-```
 
 ---
+
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]] · [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] · [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]] · [[25_COGNITIVE_MATRIX/12_GENERATORS/12_GENERATORS_MOC|12_GENERATORS_MOC]]
+
+---
+
 **MOC:** [[25_COGNITIVE_MATRIX/12_GENERATORS/12_GENERATORS_MOC|12_GENERATORS_MOC]]
+

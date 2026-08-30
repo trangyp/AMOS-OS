@@ -2540,26 +2540,23 @@ RSCF-RELATIONS:
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ---
 
-**Related:**  ·  ·  ·  ·  ·  ·
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]] · [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] · [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]] · [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE_MOC]] · [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
 ---
 
-**MOC:**
+**MOC:** [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]
 
 ---
 
-**Trang Framework:**
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 
 **Origin architect / steward:** **Trang Phan**
 
-
 The normalization keeps the supplied P3 laws intact while making one important gap explicit: **`KM-1..4` is referenced but not defined in the supplied artifact**, so its exact semantics should not be invented. The resulting P3 spine is **typed persistence → memory-as-model → diversity-gated consolidation**, with staleness, provenance, epoch validity, competing memories, and dependency-local invalidation carried explicitly.
 
-```
-```

@@ -2503,25 +2503,23 @@ RSCF-RELATIONS:
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ---
 
-**Related:**  ·  ·  ·  ·  ·  ·  ·
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]] · [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] · [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]] · [[01_CANON/02_UNIVERSE_CANON/P3_KNOWLEDGE_MEMORY|P3_KNOWLEDGE_MEMORY]] · [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]] · [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE_MOC]]
 
 ---
 
-**MOC:**
+**MOC:** [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]
 
 ---
 
-**Trang Framework:**
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 
 **Origin architect / steward:** **Trang Phan**
 
-
 The normalized P4 keeps the supplied three-law spine intact: **preserve viable competing hypotheses, type every epistemic output, and isolate speculative frontier reasoning**. Two boundaries are deliberately not promoted beyond the source: the exact semantics of **`U-3` remain a gap**, and the cognition architecture remains an **AMOS structural model, not a neuroscience claim**.
 
-```
