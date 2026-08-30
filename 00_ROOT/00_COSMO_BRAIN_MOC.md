@@ -154,6 +154,10 @@ rscf:
 - [[17_OBSERVABILITY/00_INDEX/README|Observability Index]]
 - [[07_SKILLS/amos-knowledge-research-master/SKILL|Knowledge & Research Master]]
 - [[11_KNOWLEDGE/trang/Distinction → Constraint → Intelligence|Distinction → Constraint → Intelligence]]
+- [[11_KNOWLEDGE/trang/Constraint-Centered Intelligence: Full Reformatted Map|Constraint-Centered Intelligence Map]]
+- [[07_SKILLS/amos-memory-systems-master/SKILL|Memory Systems Master]]
+- [[07_SKILLS/amos-security-safety-master/SKILL|Security & Safety Master]]
+- [[07_SKILLS/amos-agent-systems-master/SKILL|Agent Systems Master]]
 
 ## SOTA and Agent Contracts
 

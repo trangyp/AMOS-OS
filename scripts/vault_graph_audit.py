@@ -111,7 +111,7 @@ class VaultGraph:
                 raw_target = m.group(1).strip()
                 if not raw_target or raw_target.isdigit():
                     continue
-                if re.search(r'[^A-Za-z0-9_\s\-.→/%]', raw_target):
+                if re.search(r'[^A-Za-z0-9_\s\-.→:/%]', raw_target):
                     continue
                 target = self._resolve_target(src_relpath, raw_target)
                 if target:
