@@ -163,7 +163,7 @@ Origin architect / steward:
 
 **Trang Phan**
 
-______________________________________________________________________
+---
 
 # 0. Canonical Status
 
@@ -221,7 +221,7 @@ AMOS_MODEL / SOURCE_CLAIM
 
 unless stronger implementation or empirical evidence is separately retrieved.
 
-______________________________________________________________________
+---
 
 # 1. Purpose
 
@@ -275,7 +275,7 @@ GSR
 \}
 $$
 
-______________________________________________________________________
+---
 
 # 2. Core Matrix Architecture
 
@@ -328,7 +328,7 @@ $$
 
 These are **source-defined AMOS model tuples**.
 
-______________________________________________________________________
+---
 
 # 3. Structural Interpretation
 
@@ -386,7 +386,7 @@ pattern.
 
 That interpretation is **DERIVED from the action types**, not explicitly stated as a universal law in the matrix.
 
-______________________________________________________________________
+---
 
 # 4. Telemetry Stream 1 — EEG Gamma Coherence
 
@@ -442,7 +442,7 @@ I_{\gamma}
 PhaseSync>0.65
 $$
 
-______________________________________________________________________
+---
 
 # 5. EEG Invariant Semantics
 
@@ -495,7 +495,7 @@ phase_sync_boundary:
 
 This is a mathematical consequence of the supplied expression.
 
-______________________________________________________________________
+---
 
 # 6. EEG Frequency Band
 
@@ -543,7 +543,7 @@ FREQUENCY BAND ROLE = UNKNOWN
 
 beyond its explicit source presence.
 
-______________________________________________________________________
+---
 
 # 7. Frequency Re-Pacing
 
@@ -591,7 +591,7 @@ $$
 
 until the NeuroSyncAI specification or binding defines it.
 
-______________________________________________________________________
+---
 
 # 8. Relation to Earlier UBI × Cognition 40 Hz Constructs
 
@@ -669,7 +669,7 @@ $$
 
 That difference must be preserved.
 
-______________________________________________________________________
+---
 
 # 9. Gamma Threshold Topology
 
@@ -719,7 +719,7 @@ $$
 
 until the relevant binding artifact resolves the relationship.
 
-______________________________________________________________________
+---
 
 # 10. Telemetry Stream 2 — Vagal Tone / HRV
 
@@ -771,7 +771,7 @@ $$
 I_{HRV}=RMSSD>35ms.
 $$
 
-______________________________________________________________________
+---
 
 # 11. RMSSD Threshold Semantics
 
@@ -823,7 +823,7 @@ Again, this is merely the mathematics of the source expression.
 
 It does not establish that 35 ms is a universal clinical threshold.
 
-______________________________________________________________________
+---
 
 # 12. Vagal Tone vs HRV
 
@@ -857,7 +857,7 @@ within this artifact.
 
 The exact computation of `Vagal Tone` is not supplied.
 
-______________________________________________________________________
+---
 
 # 13. Cognitive Load De-escalation
 
@@ -893,7 +893,7 @@ as a **model-level routing contract**.
 
 It does not independently establish that real physiological HRV causes computational reasoning degradation in the exact way modeled.
 
-______________________________________________________________________
+---
 
 # 14. Relation to UBI × Full Brain
 
@@ -967,7 +967,7 @@ $$
 
 Those must remain separate until the binding specifies them.
 
-______________________________________________________________________
+---
 
 # 15. Local De-escalation vs Distress Veto
 
@@ -1003,7 +1003,7 @@ but this is not explicitly stated.
 
 It remains a **DERIVED candidate**.
 
-______________________________________________________________________
+---
 
 # 16. Telemetry Stream 3 — GSR / Electrodermal
 
@@ -1057,7 +1057,7 @@ I_{GSR}
 TonicDrift<1.5\mu S/min.
 $$
 
-______________________________________________________________________
+---
 
 # 17. GSR Threshold Semantics
 
@@ -1109,7 +1109,7 @@ gsr_boundary:
 
 Again, this is the literal mathematical interpretation of the source rule, not a medical recommendation.
 
-______________________________________________________________________
+---
 
 # 18. Stress Cool-down Trigger
 
@@ -1145,7 +1145,7 @@ $$
 
 as an AMOS model route.
 
-______________________________________________________________________
+---
 
 # 19. Relation to UBI × Emotion
 
@@ -1237,7 +1237,7 @@ $$
 
 until the binding resolves them.
 
-______________________________________________________________________
+---
 
 # 20. Three-Channel Control Topology
 
@@ -1267,7 +1267,7 @@ The matrix can be represented as:
 
 This is the simplest complete source-grounded routing graph.
 
-______________________________________________________________________
+---
 
 # 21. Three Distinct Control Domains
 
@@ -1305,7 +1305,7 @@ $$
 
 That decomposition is **DERIVED** from the source row roles.
 
-______________________________________________________________________
+---
 
 # 22. Multivariate State Representation
 
@@ -1379,7 +1379,7 @@ should be treated as a **possible aggregate interpretation**, not source canon.
 
 The matrix may support independent channel-local guards.
 
-______________________________________________________________________
+---
 
 # 23. Locality Principle
 
@@ -1423,7 +1423,7 @@ $$
 
 Cross-channel escalation is therefore an unresolved layer.
 
-______________________________________________________________________
+---
 
 # 24. Multi-Anomaly Cases
 
@@ -1473,7 +1473,7 @@ multi_anomaly_arbitration:
   state: UNKNOWN_GAP
 ```
 
-______________________________________________________________________
+---
 
 # 25. Candidate Severity Ladder
 
@@ -1503,7 +1503,7 @@ DERIVED / CONDITIONAL
 
 not canonical fact.
 
-______________________________________________________________________
+---
 
 # 26. Relationship to UBI Four-Domain Model
 
@@ -1538,7 +1538,7 @@ or any other one-to-one mapping without the binding.
 
 UBI is explicitly non-compensatory and multidomain in the supplied source model, so signals may participate in more than one domain.
 
-______________________________________________________________________
+---
 
 # 27. Relationship to UBI Biological Alignment
 
@@ -1605,7 +1605,7 @@ $$
 
 without explicit source support.
 
-______________________________________________________________________
+---
 
 # 28. Relationship to UBI × Cognition
 
@@ -1655,7 +1655,7 @@ $$
 
 must come from the binding.
 
-______________________________________________________________________
+---
 
 # 29. Relationship to UBI × Emotion
 
@@ -1702,7 +1702,7 @@ UNKNOWN
 
 and should not be invented.
 
-______________________________________________________________________
+---
 
 # 30. Relationship to UBI × Full Brain
 
@@ -1734,7 +1734,7 @@ This is one of the strongest architecture-level interpretations available from t
 
 Nevertheless, the exact transport protocol, state schema, signal fusion, and authorization boundary are absent.
 
-______________________________________________________________________
+---
 
 # 31. Relationship to NeuroSyncAI Canon
 
@@ -1746,7 +1746,7 @@ A separate exact-title search for `UBI_NEUROSYNCAI_BINDING` did not surface an a
 
 This means the current matrix has **corpus-level integration support**, but its precise binding semantics remain incomplete.
 
-______________________________________________________________________
+---
 
 # 32. NeuroSyncAI Dual-System Hypothesis
 
@@ -1794,7 +1794,7 @@ not:
 CURRENT ROWS HAVE PROVEN DUAL-SYSTEM ASSIGNMENTS
 ```
 
-______________________________________________________________________
+---
 
 # 33. Signal-Invariant Contract
 
@@ -1838,7 +1838,7 @@ $$
 
 This is the cleanest deterministic normalization of the source.
 
-______________________________________________________________________
+---
 
 # 34. Missing Hysteresis
 
@@ -1892,7 +1892,7 @@ hysteresis:
   NOT_DEFINED
 ```
 
-______________________________________________________________________
+---
 
 # 35. Missing Temporal Window
 
@@ -1932,7 +1932,7 @@ or observation window.
 
 This is a material runtime gap.
 
-______________________________________________________________________
+---
 
 # 36. Missing Sampling Rate
 
@@ -1961,7 +1961,7 @@ missing_data_policy:
 
 None should be fabricated.
 
-______________________________________________________________________
+---
 
 # 37. Missing Calibration
 
@@ -1990,7 +1990,7 @@ calibration:
   UNKNOWN_GAP
 ```
 
-______________________________________________________________________
+---
 
 # 38. Missing Confidence / Signal Quality
 
@@ -2050,7 +2050,7 @@ and:
 STALE SIGNAL.
 ```
 
-______________________________________________________________________
+---
 
 # 39. Freshness Requirement
 
@@ -2074,7 +2074,7 @@ Thus:
 FRESHNESS POLICY = UNKNOWN
 ```
 
-______________________________________________________________________
+---
 
 # 40. Provenance Requirement
 
@@ -2093,7 +2093,7 @@ This is a **DERIVED RSCF requirement**, consistent with AMOS provenance discipli
 
 It is not explicitly spelled out in the three-row matrix.
 
-______________________________________________________________________
+---
 
 # 41. Source Independence
 
@@ -2121,7 +2121,7 @@ This matters if NeuroSyncAI later combines signals into confidence estimates.
 
 The current matrix does not define a fusion-confidence rule.
 
-______________________________________________________________________
+---
 
 # 42. Cross-Signal Correlation
 
@@ -2147,7 +2147,7 @@ statistical_independence:
   NOT_ESTABLISHED
 ```
 
-______________________________________________________________________
+---
 
 # 43. Signal Fusion
 
@@ -2173,7 +2173,7 @@ Those would be inventions.
 
 The matrix defines three channel-local invariants, not a unified NeuroSync score.
 
-______________________________________________________________________
+---
 
 # 44. Non-Compensatory Interpretation
 
@@ -2195,7 +2195,7 @@ Nor does it state the opposite.
 
 Therefore the non-compensatory behavior of this specific matrix remains a **candidate inheritance from UBI**, not an explicit local law.
 
-______________________________________________________________________
+---
 
 # 45. Candidate Fail-Closed Principle
 
@@ -2225,7 +2225,7 @@ $$
 
 This is consistent with AMOS governance principles but is not directly asserted in the matrix.
 
-______________________________________________________________________
+---
 
 # 46. Telemetry-to-Action Typed Contract
 
@@ -2290,7 +2290,7 @@ TELEMETRY_ROUTING_CONTRACT:
       STRESS_COOL_DOWN_TRIGGER
 ```
 
-______________________________________________________________________
+---
 
 # 47. RSCF H-Level
 
@@ -2316,7 +2316,7 @@ H:
     SIGNAL_INVARIANT_TO_ADAPTIVE_ACTION_ROUTING
 ```
 
-______________________________________________________________________
+---
 
 # 48. RSCF M-Level
 
@@ -2344,7 +2344,7 @@ M:
       anomaly_action: STRESS_COOL_DOWN_TRIGGER
 ```
 
-______________________________________________________________________
+---
 
 # 49. RSCF L-Level
 
@@ -2373,7 +2373,7 @@ L:
     DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
-______________________________________________________________________
+---
 
 # 50. Proof Capsule — EEG Gamma
 
@@ -2426,7 +2426,7 @@ PROOF_CAPSULE_EEG_GAMMA:
     empirical_validity: NOT_ESTABLISHED
 ```
 
-______________________________________________________________________
+---
 
 # 51. Proof Capsule — HRV
 
@@ -2464,7 +2464,7 @@ PROOF_CAPSULE_HRV:
     clinical_validity: NOT_ESTABLISHED
 ```
 
-______________________________________________________________________
+---
 
 # 52. Proof Capsule — GSR
 
@@ -2502,7 +2502,7 @@ PROOF_CAPSULE_GSR:
     clinical_validity: NOT_ESTABLISHED
 ```
 
-______________________________________________________________________
+---
 
 # 53. Matrix-Level Proof Capsule
 
@@ -2636,7 +2636,7 @@ PROOF_CAPSULE:
       SOURCE_DECLARED_ONLY
 ```
 
-______________________________________________________________________
+---
 
 # 54. Boundary Test Suite
 
@@ -2718,7 +2718,7 @@ BOUNDARY_TESTS:
         expected_action: STRESS_COOL_DOWN_TRIGGER
 ```
 
-______________________________________________________________________
+---
 
 # 55. Missing-Data Tests
 
@@ -2760,7 +2760,7 @@ missing signal = anomaly
 
 without canonical policy.
 
-______________________________________________________________________
+---
 
 # 56. Stale-Data Tests
 
@@ -2785,7 +2785,7 @@ STALE_DATA_TESTS:
 
 This is material because telemetry-driven control without freshness checking risks using outdated state.
 
-______________________________________________________________________
+---
 
 # 57. Sensor-Failure Tests
 
@@ -2804,7 +2804,7 @@ SENSOR_FAILURE:
 
 This distinction should remain explicit.
 
-______________________________________________________________________
+---
 
 # 58. Multi-Channel Arbitration Test
 
@@ -2843,7 +2843,7 @@ Only the single-channel responses are source-grounded.
 
 Combined behavior is not.
 
-______________________________________________________________________
+---
 
 # 59. Recovery-State Gap
 
@@ -2868,7 +2868,7 @@ $$
 RecoveryPredicate_i.
 $$
 
-______________________________________________________________________
+---
 
 # 60. State Machine — Source-Safe Form
 
@@ -2899,7 +2899,7 @@ The smallest source-safe state machine is:
                          UNKNOWN / GAP
 ```
 
-______________________________________________________________________
+---
 
 # 61. Epistemic Firewalls
 
@@ -2973,7 +2973,7 @@ UNKNOWN/GAP
 PASS
 ```
 
-______________________________________________________________________
+---
 
 # 62. Governance Boundary
 
@@ -3018,7 +3018,7 @@ Observation\neq Authorization
 }
 $$
 
-______________________________________________________________________
+---
 
 # 63. Privacy Boundary
 
@@ -3046,7 +3046,7 @@ privacy_governance:
 
 This is an implementation-critical gap, but not a reason to alter the source matrix itself.
 
-______________________________________________________________________
+---
 
 # 64. Data Type Registry — Derived
 
@@ -3106,7 +3106,7 @@ DATA_TYPES:
 
 The additional fields are **DERIVED implementation scaffolding**, not source canon.
 
-______________________________________________________________________
+---
 
 # 65. Deterministic Evaluation Function — Derived
 
@@ -3161,7 +3161,7 @@ $$
 
 This is a direct mathematical normalization of the table.
 
-______________________________________________________________________
+---
 
 # 66. Important Caveat on “Invariant”
 
@@ -3189,7 +3189,7 @@ acceptance envelope.
 
 The exact canonical ontology of `Invariant` should come from the matrix specification or binding.
 
-______________________________________________________________________
+---
 
 # 67. Candidate Three-Layer NeuroSync Control Model
 
@@ -3216,7 +3216,7 @@ cool-down
 
 This is a matrix abstraction, not proof of the actual NeuroSyncAI implementation.
 
-______________________________________________________________________
+---
 
 # 68. Cross-Plane Placement
 
@@ -3239,7 +3239,7 @@ runtime control
 
 Therefore the matrix is best understood as a **cross-plane routing artifact**, not a complete executable module.
 
-______________________________________________________________________
+---
 
 # 69. Proposed Dependency Topology
 
@@ -3274,7 +3274,7 @@ COGNITION   EMOTION   FULL BRAIN
 
 The final fan-out is **DERIVED**, based on the supplied surrounding architecture.
 
-______________________________________________________________________
+---
 
 # 70. Dependency Closure
 
@@ -3299,7 +3299,7 @@ UBI + NeuroSyncAI Integration Framework
 
 This follows the smallest-sufficient-proof principle.
 
-______________________________________________________________________
+---
 
 # 71. Current Retrieval Status
 
@@ -3327,7 +3327,7 @@ retrieval_status:
     DO_NOT_INVENT_BINDING_DETAILS
 ```
 
-______________________________________________________________________
+---
 
 # 72. Competing Architecture Hypotheses
 
@@ -3399,7 +3399,7 @@ COMPETING_HYPOTHESES:
 
 The matrix alone cannot select among all of these.
 
-______________________________________________________________________
+---
 
 # 73. Cheapest Discriminating Evidence
 
@@ -3427,7 +3427,7 @@ because these should determine:
 - whether signal thresholds are personalized;
 - whether the model uses baseline normalization.
 
-______________________________________________________________________
+---
 
 # 74. Gaps Registry
 
@@ -3466,7 +3466,7 @@ GAPS:
     - SYMBOL_NORMALIZATION
 ```
 
-______________________________________________________________________
+---
 
 # 75. Sensitivity Analysis
 
@@ -3514,7 +3514,7 @@ None are supplied.
 
 Thus the rules are structurally clear but runtime-fragile near their boundaries.
 
-______________________________________________________________________
+---
 
 # 76. Confidence Vector
 
@@ -3554,7 +3554,7 @@ UNCERTAINTY_VECTOR:
 
 This keeps different uncertainty types separate.
 
-______________________________________________________________________
+---
 
 # 77. Canonical Confidence Ceiling
 
@@ -3595,7 +3595,7 @@ CONFIDENCE_CEILING:
     NOT_ESTABLISHED
 ```
 
-______________________________________________________________________
+---
 
 # 78. Anti-Fabrication Contract
 
@@ -3632,7 +3632,7 @@ This artifact MUST NOT be used to invent or claim:
 1. that GSR proves SI;
 1. that any anomaly authorizes irreversible action.
 
-______________________________________________________________________
+---
 
 # 79. Governance Principle
 
@@ -3670,7 +3670,7 @@ ADAPTATION PROPOSAL != COMMIT
 BIOLOGICAL MODEL != MEDICAL ORDER
 ```
 
-______________________________________________________________________
+---
 
 # 80. Machine-Readable Canon Representation
 
@@ -3820,7 +3820,7 @@ UBI_X_NEUROSYNCAI_MATRIX:
     - RUNTIME_RECEIPTS
 ```
 
-______________________________________________________________________
+---
 
 # 81. RSCF Node
 
@@ -3926,7 +3926,7 @@ RSCF_NODE:
       NOT_ESTABLISHED
 ```
 
-______________________________________________________________________
+---
 
 # 82. RSCF Relations
 
@@ -3977,12 +3977,12 @@ RSCF_RELATIONS:
 
   - FAIL_CLOSED_GOVERNED_BY: "[[K_FAIL_CLOSED]]"
 
-  - CAUSAL_FIREWALL: "[[K_CAUSAL_FIREWALL]]"
+  - CAUSAL_FIREWALL: "[[K_CAUSAL_CLOSURE]]"
 
   - LINEAGE_TARGET: "[[AMOS_CORE_v4_4]]"
 ```
 
-______________________________________________________________________
+---
 
 # 83. Cross-Matrix Convergence Map
 
@@ -4016,7 +4016,7 @@ ______________________________________________________________________
 
 The central convergence is **architectural**, not empirically causal.
 
-______________________________________________________________________
+---
 
 # 84. Candidate Fractal H/M/L Interpretation
 
@@ -4057,7 +4057,7 @@ Raw signal-processing evidence remains:
 DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
-______________________________________________________________________
+---
 
 # 85. Decision Sufficiency
 
@@ -4111,7 +4111,7 @@ For:
 
 the evidence is **not sufficient**.
 
-______________________________________________________________________
+---
 
 # 86. Promotion / Validation Checklist
 
@@ -4175,7 +4175,7 @@ PROMOTION_GATES:
 
 Thus the artifact can remain an **ACTIVE_REFERENCE / SOURCE_GROUNDED_CANON_CANDIDATE**, but stronger promotion should preserve those unresolved dependencies.
 
-______________________________________________________________________
+---
 
 # 87. Final Canonical Compression
 
@@ -4282,7 +4282,7 @@ PermissionToInventCanon
 }
 $$
 
-______________________________________________________________________
+---
 
 # 88. Canonical Candidate Statement
 
@@ -4303,14 +4303,12 @@ VAGAL TONE / HRV
 RMSSD > 35 ms
 → Cognitive Load De-escalation
 ```
-
 ```text
 GSR / ELECTRODERMAL
 DC–5 Hz
 Tonic drift < 1.5 μS/min
 → Stress Cool-down Trigger
 ```
-
 These routes form a source-defined three-channel biological governance surface spanning:
 
 ```text
@@ -4387,15 +4385,15 @@ canonical_state:
     NOT_ESTABLISHED
 ```
 
-______________________________________________________________________
+---
 
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[UBI_X_NEUROSYNCAI]] · [[UBI_NEUROSYNCAI_BINDING]] · [[UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[AMOS_X_NEUROSYNCAI]] · [[UBI_X_COGNITION]] · [[UBI_X_EMOTION]] · [[UBI_X_FULL_BRAIN]]
 
-______________________________________________________________________
+---
 
 **MOC:** [[25_COGNITIVE_MATRIX_MOC]]
 
-______________________________________________________________________
+---
 
 RSCF-NODE
 
@@ -4425,7 +4423,7 @@ RSCF-RELATIONS:
 - RELATED_TO: [[UBI_X_FULL_BRAIN]]
 - GOVERNED_BY: [[LAW_HIERARCHY]]
 
-______________________________________________________________________
+---
 
 **END OF `UBI_X_NEUROSYNCAI_MATRIX.md`**
 

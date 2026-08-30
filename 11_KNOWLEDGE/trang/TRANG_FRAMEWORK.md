@@ -1,3 +1,11 @@
+---
+title: TRANG_FRAMEWORK
+type: note
+source: 11_KNOWLEDGE
+tags:
+- vault
+- 11_knowledge
+---
 # TRANG ∅ FRAMEWORK → ASEA
 
 ## Full English Canonical Edition
@@ -114,16 +122,16 @@ derived_obsidian_augmentation:
 
 Trang ASEA describes an AI architecture intended to be capable of:
 
-* detecting undesirable internal states;
-* repairing failures;
-* maintaining persistent knowledge;
-* adapting its internal coordination;
-* generating multiple candidate solutions;
-* validating those candidates;
-* mutating selected parts of itself;
-* selecting mutations according to survival criteria;
-* preserving useful adaptations;
-* reverting to earlier valid states when adaptation fails.
+- detecting undesirable internal states;
+- repairing failures;
+- maintaining persistent knowledge;
+- adapting its internal coordination;
+- generating multiple candidate solutions;
+- validating those candidates;
+- mutating selected parts of itself;
+- selecting mutations according to survival criteria;
+- preserving useful adaptations;
+- reverting to earlier valid states when adaptation fails.
 
 Its source-level architecture can be compressed as:
 
@@ -219,19 +227,19 @@ This is the fundamental evolutionary loop.
 
 The equation alone does not define:
 
-* mutation authority;
-* legal mutation classes;
-* immutable components;
-* mutation isolation;
-* fitness calculation;
-* evidence requirements;
-* regression testing;
-* provenance requirements;
-* concurrency behavior;
-* rollback semantics;
-* governance;
-* commit semantics;
-* adversarial resistance.
+- mutation authority;
+- legal mutation classes;
+- immutable components;
+- mutation isolation;
+- fitness calculation;
+- evidence requirements;
+- regression testing;
+- provenance requirements;
+- concurrency behavior;
+- rollback semantics;
+- governance;
+- commit semantics;
+- adversarial resistance.
 
 Therefore:
 
@@ -270,10 +278,10 @@ $$
 
 where:
 
-* `Sandbox` isolates the candidate mutation;
-* `Validate` tests it;
-* \(G\) represents governance authorization;
-* `Commit` promotes it into persistent state.
+- `Sandbox` isolates the candidate mutation;
+- `Validate` tests it;
+- \(G\) represents governance authorization;
+- `Commit` promotes it into persistent state.
 
 This is a **DERIVED/PROPOSED hardening**, not an assertion that every operator appears in the original source.
 
@@ -323,14 +331,14 @@ $$
 
 A self-modifying AI might technically be capable of changing:
 
-* prompts;
-* memories;
-* parameters;
-* routes;
-* tools;
-* agents;
-* topology;
-* policies.
+- prompts;
+- memories;
+- parameters;
+- routes;
+- tools;
+- agents;
+- topology;
+- policies.
 
 Technical capability does not imply authorization.
 
@@ -414,11 +422,11 @@ $$
 
 It includes source-described concepts such as:
 
-* core knowledge;
-* invariants;
-* validated information;
-* persistent memory;
-* rule-like foundations.
+- core knowledge;
+- invariants;
+- validated information;
+- persistent memory;
+- rule-like foundations.
 
 ---
 
@@ -641,13 +649,13 @@ $$
 
 Possible M functions include:
 
-* attention;
-* retrieval;
-* routing;
-* prioritization;
-* evidence selection;
-* coordination;
-* resource allocation.
+- attention;
+- retrieval;
+- routing;
+- prioritization;
+- evidence selection;
+- coordination;
+- resource allocation.
 
 Some are source-aligned; exact runtime implementation remains unspecified.
 
@@ -739,12 +747,12 @@ where each \(c_i\) is a candidate.
 
 Candidates may be:
 
-* answers;
-* hypotheses;
-* plans;
-* explanations;
-* designs;
-* mutations.
+- answers;
+- hypotheses;
+- plans;
+- explanations;
+- designs;
+- mutations.
 
 ---
 
@@ -1132,12 +1140,12 @@ This means the complete recurrence is not necessarily deterministic.
 
 The source does not establish:
 
-* distribution;
-* support;
-* variance;
-* autocorrelation;
-* independence;
-* whether the same \(\xi\) affects all layers.
+- distribution;
+- support;
+- variance;
+- autocorrelation;
+- independence;
+- whether the same \(\xi\) affects all layers.
 
 Therefore:
 
@@ -1195,13 +1203,13 @@ A numerical lacunarity value is meaningless operationally unless the measurement
 
 Missing:
 
-* topology;
-* scale;
-* windowing;
-* occupancy definition;
-* normalization;
-* estimator;
-* sampling procedure.
+- topology;
+- scale;
+- windowing;
+- occupancy definition;
+- normalization;
+- estimator;
+- sampling procedure.
 
 Therefore:
 
@@ -1281,12 +1289,12 @@ This is **PROPOSED**, not source identity.
 
 The probability distribution might represent:
 
-* token probabilities;
-* hypotheses;
-* candidate solutions;
-* retrieval weights;
-* agent states;
-* action probabilities.
+- token probabilities;
+- hypotheses;
+- candidate solutions;
+- retrieval weights;
+- agent states;
+- action probabilities.
 
 These are materially different.
 
@@ -1577,12 +1585,12 @@ Two pieces of evidence are meaningfully independent only if their load-bearing e
 
 Sources may share:
 
-* data;
-* methodology;
-* authors;
-* institutions;
-* datasets;
-* upstream reports.
+- data;
+- methodology;
+- authors;
+- institutions;
+- datasets;
+- upstream reports.
 
 Thus independence may require typed evaluation.
 
@@ -1793,10 +1801,10 @@ when that closure can be determined reliably.
 
 The source describes recovery behavior including:
 
-* return to the nearest L checkpoint;
-* reduce learning speed;
-* increase cross-validation;
-* report errors where necessary.
+- return to the nearest L checkpoint;
+- reduce learning speed;
+- increase cross-validation;
+- report errors where necessary.
 
 ---
 
@@ -1961,11 +1969,11 @@ is not defined.
 
 Missing possibilities include:
 
-* low activation;
-* low utility;
-* low mutual information;
-* low confidence;
-* low usage.
+- low activation;
+- low utility;
+- low mutual information;
+- low confidence;
+- low usage.
 
 Do not invent which one applies.
 
@@ -2003,11 +2011,11 @@ for a sustained period:
 
 The source does not uniquely determine whether a “connection” means:
 
-* neural connection;
-* graph edge;
-* memory association;
-* routing edge;
-* agent connection.
+- neural connection;
+- graph edge;
+- memory association;
+- routing edge;
+- agent connection.
 
 Therefore:
 
@@ -2057,9 +2065,9 @@ creating variants of the current system.
 
 Visible mutation classes include changes to:
 
-* weights;
-* connections;
-* lacunarity.
+- weights;
+- connections;
+- lacunarity.
 
 ---
 
@@ -2220,9 +2228,9 @@ for survival/selection.
 
 The source associates survival with improvements such as:
 
-* reduced entropy;
-* increased T2;
-* movement toward desired lacunarity regions.
+- reduced entropy;
+- increased T2;
+- movement toward desired lacunarity regions.
 
 ---
 
@@ -2752,8 +2760,8 @@ as a universal ASEA invariant.
 
 Candidates are checked against:
 
-* historical information from L;
-* another source through M.
+- historical information from L;
+- another source through M.
 
 ---
 
@@ -2787,9 +2795,9 @@ Again, illustrative—not universal.
 
 The source allows feedback to influence:
 
-* \(\Lambda\);
-* entropy state;
-* potentially L.
+- \(\Lambda\);
+- entropy state;
+- potentially L.
 
 ---
 
@@ -2894,11 +2902,11 @@ $$
 
 because forgetting can occur through:
 
-* retrieval failure;
-* interference;
-* parameter drift;
-* deletion;
-* invalid consolidation.
+- retrieval failure;
+- interference;
+- parameter drift;
+- deletion;
+- invalid consolidation.
 
 ---
 
@@ -2966,13 +2974,13 @@ A base model and a deployed AI system are not identical.
 
 A deployment can add:
 
-* memory;
-* retrieval;
-* verification;
-* tools;
-* agents;
-* rollback;
-* external training.
+- memory;
+- retrieval;
+- verification;
+- tools;
+- agents;
+- rollback;
+- external training.
 
 Therefore:
 
@@ -3090,15 +3098,15 @@ $$
 
 At minimum:
 
-* parent state;
-* mutation;
-* reason;
-* evidence;
-* tests;
-* authority;
-* result;
-* new state;
-* rollback target.
+- parent state;
+- mutation;
+- reason;
+- evidence;
+- tests;
+- authority;
+- result;
+- new state;
+- rollback target.
 
 ---
 
@@ -3155,11 +3163,11 @@ $$
 
 Potential causes include:
 
-* \(\mu_1\);
-* \(\mu_2\);
-* \(\mu_3\);
-* interaction between them;
-* external regime shift.
+- \(\mu_1\);
+- \(\mu_2\);
+- \(\mu_3\);
+- interaction between them;
+- external regime shift.
 
 ---
 
@@ -3179,13 +3187,13 @@ Construct the strongest evidence that the mutation improves the system.
 
 Search specifically for:
 
-* regression;
-* hidden dependencies;
-* stale assumptions;
-* provenance correlation;
-* scope leakage;
-* safety failure;
-* causal overreach.
+- regression;
+- hidden dependencies;
+- stale assumptions;
+- provenance correlation;
+- scope leakage;
+- safety failure;
+- causal overreach.
 
 ---
 
@@ -3391,10 +3399,10 @@ scope:
 
 A mutation improving coding tasks does not automatically improve:
 
-* mathematics;
-* legal reasoning;
-* medicine;
-* planning.
+- mathematics;
+- legal reasoning;
+- medicine;
+- planning.
 
 ---
 
@@ -3624,9 +3632,9 @@ $$
 
 A stale candidate must be:
 
-* rejected;
-* rebased;
-* revalidated.
+- rejected;
+- rebased;
+- revalidated.
 
 ---
 
@@ -4013,11 +4021,11 @@ critique
 
 Initially mutate:
 
-* prompt strategy;
-* retrieval strategy;
-* routing;
-* tool selection;
-* reasoning decomposition.
+- prompt strategy;
+- retrieval strategy;
+- routing;
+- tool selection;
+- reasoning decomposition.
 
 ---
 
@@ -4025,10 +4033,10 @@ Initially mutate:
 
 These are generally easier to:
 
-* inspect;
-* isolate;
-* test;
-* roll back.
+- inspect;
+- isolate;
+- test;
+- roll back.
 
 ---
 
@@ -4036,12 +4044,12 @@ These are generally easier to:
 
 Evaluate:
 
-* factual correctness;
-* task performance;
-* provenance quality;
-* regressions;
-* latency;
-* robustness.
+- factual correctness;
+- task performance;
+- provenance quality;
+- regressions;
+- latency;
+- robustness.
 
 ---
 
@@ -4159,10 +4167,10 @@ on factual accuracy.
 
 Inject known faults and measure:
 
-* detection rate;
-* repair rate;
-* false repair rate;
-* recovery cost.
+- detection rate;
+- repair rate;
+- false repair rate;
+- recovery cost.
 
 ---
 
@@ -4206,12 +4214,12 @@ adaptation events or another justified horizon.
 
 Attack:
 
-* memory;
-* T2;
-* mutation;
-* checkpoints;
-* fitness;
-* governance.
+- memory;
+- T2;
+- mutation;
+- checkpoints;
+- fitness;
+- governance.
 
 ---
 
@@ -5163,13 +5171,13 @@ Maximum governance.
 
 Increase complexity for:
 
-* irreversible action;
-* weak evidence;
-* contradiction;
-* novel mutation;
-* cross-regime transfer;
-* high consequence radius;
-* governance modification.
+- irreversible action;
+- weak evidence;
+- contradiction;
+- novel mutation;
+- cross-regime transfer;
+- high consequence radius;
+- governance modification.
 
 ---
 
@@ -5204,13 +5212,13 @@ $$
 
 where:
 
-* \(U_e\): evidence uncertainty;
-* \(U_m\): model uncertainty;
-* \(U_s\): scope uncertainty;
-* \(U_t\): temporal uncertainty;
-* \(U_c\): causal uncertainty;
-* \(U_x\): execution uncertainty;
-* \(U_p\): provenance-independence uncertainty.
+- \(U_e\): evidence uncertainty;
+- \(U_m\): model uncertainty;
+- \(U_s\): scope uncertainty;
+- \(U_t\): temporal uncertainty;
+- \(U_c\): causal uncertainty;
+- \(U_x\): execution uncertainty;
+- \(U_p\): provenance-independence uncertainty.
 
 ---
 
@@ -5269,13 +5277,13 @@ Ten descendants of one source may add less information than one genuinely indepe
 
 A mutation should be rejected if it improves a narrow metric while weakening:
 
-* factual support;
-* contradiction visibility;
-* provenance;
-* scope correctness;
-* causal discipline;
-* safety;
-* recoverability.
+- factual support;
+- contradiction visibility;
+- provenance;
+- scope correctness;
+- causal discipline;
+- safety;
+- recoverability.
 
 ---
 
@@ -5539,11 +5547,11 @@ validation should increase sharply.
 
 If mutation affects:
 
-* health;
-* finance;
-* law;
-* physical safety;
-* institutional governance;
+- health;
+- finance;
+- law;
+- physical safety;
+- institutional governance;
 
 validation burden increases further.
 
@@ -5615,10 +5623,10 @@ Stop evidence acquisition when remaining uncertainty cannot reasonably change th
 
 Act when:
 
-* evidence is sufficient;
-* risks are bounded;
-* action is appropriately reversible;
-* governance permits it.
+- evidence is sufficient;
+- risks are bounded;
+- action is appropriately reversible;
+- governance permits it.
 
 ---
 
@@ -5644,11 +5652,11 @@ Every persistent mutation can create maintenance debt.
 
 # 403. Debt Sources
 
-* new dependencies;
-* new edge cases;
-* new provenance requirements;
-* new tests;
-* compatibility burden.
+- new dependencies;
+- new edge cases;
+- new provenance requirements;
+- new tests;
+- compatibility burden.
 
 ---
 
@@ -5744,11 +5752,11 @@ $$
 
 # 412. Escalate When
 
-* ancestry overlaps;
-* causal coupling exists;
-* shared governance exists;
-* global invariants are touched;
-* consequences are irreversible.
+- ancestry overlaps;
+- causal coupling exists;
+- shared governance exists;
+- global invariants are touched;
+- consequences are irreversible.
 
 ---
 
@@ -5778,10 +5786,10 @@ $$
 
 but not explicitly:
 
-* security;
-* authorization;
-* provenance integrity;
-* rollback capability.
+- security;
+- authorization;
+- provenance integrity;
+- rollback capability.
 
 ---
 
@@ -5857,10 +5865,10 @@ not fluent reconstruction.
 
 Need:
 
-* exact state space;
-* estimator;
-* normalization;
-* observation interval.
+- exact state space;
+- estimator;
+- normalization;
+- observation interval.
 
 ---
 
@@ -5868,10 +5876,10 @@ Need:
 
 Need:
 
-* topology;
-* measurement scale;
-* algorithm;
-* normalization.
+- topology;
+- measurement scale;
+- algorithm;
+- normalization.
 
 ---
 
@@ -6305,13 +6313,13 @@ $$
 
 ## Links
 
-- [[ASEA_L]]
-- [[ASEA_M]]
-- [[ASEA_H]]
-- [[ASEA_T2]]
-- [[ASEA_MUTATION]]
-- [[ASEA_SURVIVAL]]
-- [[ASEA_RECOVERY]]
+- [[ASEA_ADAPTIVE_SELF_EVOLUTION_AI]]
+- [[ASEA_ADAPTIVE_SELF_EVOLUTION_AI]]
+- [[ASEA_ADAPTIVE_SELF_EVOLUTION_AI]]
+- [[ASEA_ADAPTIVE_SELF_EVOLUTION_AI]]
+- [[ASEA_ADAPTIVE_SELF_EVOLUTION_AI]]
+- [[ASEA_ADAPTIVE_SELF_EVOLUTION_AI]]
+- [[ASEA_ADAPTIVE_SELF_EVOLUTION_AI]]
 ```
 
 ---
@@ -6953,59 +6961,59 @@ HEALTHY?
 
 The supplied artifact establishes that the Trang ASEA model contains:
 
-* L/M/H;
-* entropy variables;
-* lacunarity variables;
-* T2;
-* adaptive lacunarity equations;
-* a hallucination predicate;
-* self-modification rules;
-* mutation;
-* survival;
-* a Healthy predicate;
-* checkpoint-style recovery;
-* an example of iterative adaptive behavior.
+- L/M/H;
+- entropy variables;
+- lacunarity variables;
+- T2;
+- adaptive lacunarity equations;
+- a hallucination predicate;
+- self-modification rules;
+- mutation;
+- survival;
+- a Healthy predicate;
+- checkpoint-style recovery;
+- an example of iterative adaptive behavior.
 
 ### DERIVED
 
 Strong architectural consequences include:
 
-* candidate state should be separated from persistent state;
-* provenance independence is necessary for meaningful T2 corroboration;
-* failed premises should invalidate dependent conclusions locally;
-* high-impact mutation requires stronger validation;
-* coupled mutations need atomicity;
-* stale concurrent mutations require revalidation;
-* self-evolution needs persistent causal lineage.
+- candidate state should be separated from persistent state;
+- provenance independence is necessary for meaningful T2 corroboration;
+- failed premises should invalidate dependent conclusions locally;
+- high-impact mutation requires stronger validation;
+- coupled mutations need atomicity;
+- stale concurrent mutations require revalidation;
+- self-evolution needs persistent causal lineage.
 
 ### PROPOSED
 
 Engineering hardening includes:
 
-* sandboxing;
-* CAS/MVCC-style state control;
-* protected governance;
-* mutation contracts;
-* explicit authority matrices;
-* adversarial validation;
-* causal epochs;
-* hysteresis;
-* maturity levels.
+- sandboxing;
+- CAS/MVCC-style state control;
+- protected governance;
+- mutation contracts;
+- explicit authority matrices;
+- adversarial validation;
+- causal epochs;
+- hysteresis;
+- maturity levels.
 
 ### UNKNOWN/GAP
 
 The supplied source does not independently establish:
 
-* exact entropy measurement;
-* exact lacunarity measurement;
-* empirical threshold calibration;
-* universal hallucination prediction;
-* universal 40 Hz computational significance;
-* complete survival function;
-* complete T2 independence algorithm;
-* production runtime implementation;
-* long-horizon safe autonomous evolution;
-* universal superiority over other AI architectures.
+- exact entropy measurement;
+- exact lacunarity measurement;
+- empirical threshold calibration;
+- universal hallucination prediction;
+- universal 40 Hz computational significance;
+- complete survival function;
+- complete T2 independence algorithm;
+- production runtime implementation;
+- long-horizon safe autonomous evolution;
+- universal superiority over other AI architectures.
 
 ---
 

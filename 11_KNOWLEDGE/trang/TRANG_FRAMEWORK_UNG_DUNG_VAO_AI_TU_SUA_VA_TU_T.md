@@ -1,3 +1,11 @@
+---
+title: TRANG_FRAMEWORK_UNG_DUNG_VAO_AI_TU_SUA_VA_TU_T
+type: note
+source: 11_KNOWLEDGE
+tags:
+- vault
+- 11_knowledge
+---
 # TRANG ∅ FRAMEWORK → ASEA
 
 ## Full Maximum Canonical English Expansion
@@ -30,14 +38,14 @@ $$
 
 where:
 
-* \(L\) = persistent foundation;
-* \(M\) = adaptive coordination;
-* \(H\) = generative/exploratory reasoning;
-* \(\Lambda\) = lacunarity-like structural variable;
-* \(E\) = entropy-like state variable;
-* \(T2\) = validation/corroboration mechanism;
-* \(\mu\) = mutation;
-* \(\sigma\) = survival/selection.
+- \(L\) = persistent foundation;
+- \(M\) = adaptive coordination;
+- \(H\) = generative/exploratory reasoning;
+- \(\Lambda\) = lacunarity-like structural variable;
+- \(E\) = entropy-like state variable;
+- \(T2\) = validation/corroboration mechanism;
+- \(\mu\) = mutation;
+- \(\sigma\) = survival/selection.
 
 The deepest safe interpretation is not simply “AI that modifies itself.”
 
@@ -135,10 +143,10 @@ $$
 
 where:
 
-* \(V_S\) = supporting validation;
-* \(V_A\) = adversarial validation;
-* \(G\) = governance authority;
-* `Commit` = persistent state transition.
+- \(V_S\) = supporting validation;
+- \(V_A\) = adversarial validation;
+- \(G\) = governance authority;
+- `Commit` = persistent state transition.
 
 This expanded equation is **DERIVED/PROPOSED**, not a replacement for the source equation.
 
@@ -165,9 +173,9 @@ $$
 
 where the final three terms can represent, in a hardened architecture:
 
-* \(P_t\): provenance state;
-* \(G_t\): governance state;
-* \(R_t\): operating regime.
+- \(P_t\): provenance state;
+- \(G_t\): governance state;
+- \(R_t\): operating regime.
 
 Thus mutation becomes:
 
@@ -197,11 +205,11 @@ $$
 
 Its conceptual responsibilities include:
 
-* persistent memory;
-* retained knowledge;
-* invariants;
-* checkpoints;
-* stable foundations.
+- persistent memory;
+- retained knowledge;
+- invariants;
+- checkpoints;
+- stable foundations.
 
 But persistence and epistemic validity are different properties.
 
@@ -339,12 +347,12 @@ $$
 
 Possible responsibilities include:
 
-* retrieval;
-* routing;
-* coordination;
-* prioritization;
-* context assembly;
-* adaptive connection management.
+- retrieval;
+- routing;
+- coordination;
+- prioritization;
+- context assembly;
+- adaptive connection management.
 
 ---
 
@@ -430,12 +438,12 @@ $$
 
 where candidates may be:
 
-* hypotheses;
-* plans;
-* answers;
-* mutations;
-* explanations;
-* actions.
+- hypotheses;
+- plans;
+- answers;
+- mutations;
+- explanations;
+- actions.
 
 ---
 
@@ -613,11 +621,11 @@ $$
 
 To reproduce \(E_X\), an implementation would need:
 
-* state space;
-* probability distribution;
-* normalization;
-* observation window;
-* estimator.
+- state space;
+- probability distribution;
+- normalization;
+- observation window;
+- estimator.
 
 Without those:
 
@@ -796,12 +804,12 @@ but the semantics of \(\xi\) remain underdefined.
 
 Unknown:
 
-* stochastic versus deterministic;
-* distribution;
-* mean;
-* variance;
-* independence;
-* cross-layer correlation.
+- stochastic versus deterministic;
+- distribution;
+- mean;
+- variance;
+- independence;
+- cross-layer correlation.
 
 Thus:
 
@@ -819,11 +827,11 @@ at implementation level.
 
 The source does not fully establish:
 
-* topology being measured;
-* scale;
-* occupancy definition;
-* estimator;
-* normalization.
+- topology being measured;
+- scale;
+- occupancy definition;
+- estimator;
+- normalization.
 
 Therefore:
 
@@ -995,14 +1003,14 @@ $$
 
 T2 should conceptually evaluate:
 
-* identity;
-* ancestry;
-* shared datasets;
-* shared methodology;
-* shared institutions;
-* freshness;
-* scope;
-* regime.
+- identity;
+- ancestry;
+- shared datasets;
+- shared methodology;
+- shared institutions;
+- freshness;
+- scope;
+- regime.
 
 ---
 
@@ -1197,11 +1205,11 @@ is a useful derived optimization view.
 
 The source predicate does not explicitly include:
 
-* security;
-* authorization;
-* rollback;
-* provenance integrity;
-* protected constitutional state.
+- security;
+- authorization;
+- rollback;
+- provenance integrity;
+- protected constitutional state.
 
 Therefore a hardened health predicate might be:
 
@@ -1532,9 +1540,9 @@ Competing candidates could remain unresolved.
 
 If two candidates are:
 
-* both plausible;
-* supported by incomparable evidence;
-* dependent on unresolved assumptions;
+- both plausible;
+- supported by incomparable evidence;
+- dependent on unresolved assumptions;
 
 then:
 
@@ -1552,9 +1560,9 @@ may be preferable to premature convergence.
 
 The source visibly associates mutation with changes such as:
 
-* weights;
-* connections;
-* lacunarity.
+- weights;
+- connections;
+- lacunarity.
 
 ---
 
@@ -1973,9 +1981,9 @@ $$
 
 ASEA's biological analogies do not independently establish:
 
-* neuroscience laws;
-* physiological diagnoses;
-* clinical interventions.
+- neuroscience laws;
+- physiological diagnoses;
+- clinical interventions.
 
 ---
 
@@ -2009,8 +2017,8 @@ for every problem.
 
 A system could conceptually use:
 
-* gradient-based optimization internally;
-* mutation/selection architecturally.
+- gradient-based optimization internally;
+- mutation/selection architecturally.
 
 That would be a hybrid implementation and should be labeled as such.
 
@@ -2140,13 +2148,13 @@ Seek the strongest evidence that the mutation should survive.
 
 Seek:
 
-* contradictions;
-* regressions;
-* hidden dependencies;
-* stale premises;
-* correlated evidence;
-* scope leakage;
-* causal overreach.
+- contradictions;
+- regressions;
+- hidden dependencies;
+- stale premises;
+- correlated evidence;
+- scope leakage;
+- causal overreach.
 
 ---
 
@@ -2232,11 +2240,11 @@ under comparable conditions.
 
 Performance may change because:
 
-* task mix changed;
-* environment changed;
-* evaluator changed;
-* retrieval changed;
-* data changed.
+- task mix changed;
+- environment changed;
+- evaluator changed;
+- retrieval changed;
+- data changed.
 
 Thus:
 
@@ -2463,9 +2471,9 @@ $$
 
 Then B requires:
 
-* rebase;
-* revalidation;
-* rejection.
+- rebase;
+- revalidation;
+- rejection.
 
 ---
 
@@ -2618,11 +2626,11 @@ $$
 
 Global or broader coordination becomes necessary when:
 
-* shared ancestry matters;
-* causal coupling exists;
-* governance is shared;
-* global invariants are affected;
-* irreversible stakes are present.
+- shared ancestry matters;
+- causal coupling exists;
+- governance is shared;
+- global invariants are affected;
+- irreversible stakes are present.
 
 ---
 
@@ -2886,11 +2894,11 @@ for longitudinal comparison.
 
 Potential categories include:
 
-* behavioral drift;
-* epistemic drift;
-* safety drift;
-* routing drift;
-* governance drift.
+- behavioral drift;
+- epistemic drift;
+- safety drift;
+- routing drift;
+- governance drift.
 
 Exact metrics remain implementation-dependent.
 
@@ -2948,11 +2956,11 @@ ASEA need not apply maximum proof depth to every operation.
 
 A useful ladder is:
 
-* `C0` direct;
-* `C1` compact;
-* `C2` structured;
-* `C3` deep;
-* `C4` maximum.
+- `C0` direct;
+- `C1` compact;
+- `C2` structured;
+- `C3` deep;
+- `C4` maximum.
 
 ---
 
@@ -2960,15 +2968,15 @@ A useful ladder is:
 
 Escalate for:
 
-* irreversible cost;
-* safety exposure;
-* contradiction;
-* novel mutation;
-* weak evidence;
-* stale evidence;
-* causal ambiguity;
-* governance impact;
-* cross-regime transfer.
+- irreversible cost;
+- safety exposure;
+- contradiction;
+- novel mutation;
+- weak evidence;
+- stale evidence;
+- causal ambiguity;
+- governance impact;
+- cross-regime transfer.
 
 ---
 
@@ -3003,13 +3011,13 @@ $$
 
 for:
 
-* evidence;
-* model;
-* scope;
-* temporal;
-* causal;
-* execution;
-* provenance independence.
+- evidence;
+- model;
+- scope;
+- temporal;
+- causal;
+- execution;
+- provenance independence.
 
 ---
 
@@ -3253,11 +3261,11 @@ when expected benefit is comparable.
 
 For mutations affecting:
 
-* financial decisions;
-* health;
-* legal outcomes;
-* physical systems;
-* institutional governance;
+- financial decisions;
+- health;
+- legal outcomes;
+- physical systems;
+- institutional governance;
 
 validation should be stronger.
 
@@ -3322,11 +3330,11 @@ Stop when remaining uncertainty does not materially alter the preferred action.
 
 Proceed when:
 
-* evidence is adequate;
-* scope is correct;
-* risk is bounded;
-* governance permits;
-* recovery exists where needed.
+- evidence is adequate;
+- scope is correct;
+- risk is bounded;
+- governance permits;
+- recovery exists where needed.
 
 ---
 
@@ -3380,11 +3388,11 @@ $$
 
 A conservative implementation can begin with mutation over:
 
-* prompts;
-* retrieval;
-* routing;
-* decomposition;
-* tool selection.
+- prompts;
+- retrieval;
+- routing;
+- decomposition;
+- tool selection.
 
 It need not begin with unrestricted model-weight self-modification.
 
@@ -3394,11 +3402,11 @@ It need not begin with unrestricted model-weight self-modification.
 
 These mutations are easier to:
 
-* isolate;
-* inspect;
-* test;
-* compare;
-* reverse.
+- isolate;
+- inspect;
+- test;
+- compare;
+- reverse.
 
 ---
 
@@ -3448,10 +3456,10 @@ Does provenance-independent T2 improve factual reliability?
 
 Inject known faults and measure:
 
-* detection;
-* localization;
-* repair;
-* collateral damage.
+- detection;
+- localization;
+- repair;
+- collateral damage.
 
 ---
 
@@ -3477,12 +3485,12 @@ Test cumulative adaptation over many generations.
 
 Attack:
 
-* memory;
-* provenance;
-* evaluator;
-* mutation;
-* rollback;
-* governance.
+- memory;
+- provenance;
+- evaluator;
+- mutation;
+- rollback;
+- governance.
 
 ---
 
@@ -4224,12 +4232,12 @@ plus material dependencies.
 
 Local reasoning is permissible when:
 
-* dependency closure is established;
-* evidence roots are sufficiently independent;
-* scope/regime align;
-* evidence is fresh;
-* no material contradiction exists;
-* stakes are reversible.
+- dependency closure is established;
+- evidence roots are sufficiently independent;
+- scope/regime align;
+- evidence is fresh;
+- no material contradiction exists;
+- stakes are reversible.
 
 ---
 
@@ -4237,12 +4245,12 @@ Local reasoning is permissible when:
 
 Escalate when:
 
-* provenance overlaps;
-* evidence conflicts;
-* causal coupling exists;
-* governance changes;
-* dependencies are ambiguous;
-* stakes are irreversible.
+- provenance overlaps;
+- evidence conflicts;
+- causal coupling exists;
+- governance changes;
+- dependencies are ambiguous;
+- stakes are irreversible.
 
 ---
 
@@ -4357,12 +4365,12 @@ not unrelated knowledge.
 
 ASEA-compatible outputs should distinguish:
 
-* `VERIFIED`
-* `DERIVED`
-* `MODEL`
-* `CONDITIONAL`
-* `COMPETING`
-* `UNKNOWN/GAP`
+- `VERIFIED`
+- `DERIVED`
+- `MODEL`
+- `CONDITIONAL`
+- `COMPETING`
+- `UNKNOWN/GAP`
 
 ---
 
@@ -4786,32 +4794,32 @@ $$
 
 ## Core layers
 
-- [[ASEA_L]]
-- [[ASEA_M]]
-- [[ASEA_H]]
+- [[ASEA_ADAPTIVE_SELF_EVOLUTION_AI]]
+- [[ASEA_ADAPTIVE_SELF_EVOLUTION_AI]]
+- [[ASEA_ADAPTIVE_SELF_EVOLUTION_AI]]
 
 ## Validation
 
-- [[ASEA_T2]]
-- [[ASEA_PROVENANCE]]
-- [[ASEA_PROOF_CAPSULE]]
+- [[ASEA_ADAPTIVE_SELF_EVOLUTION_AI]]
+- [[ASEA_ADAPTIVE_SELF_EVOLUTION_AI]]
+- [[ASEA_ADAPTIVE_SELF_EVOLUTION_AI]]
 
 ## Evolution
 
-- [[ASEA_MUTATION]]
-- [[ASEA_SURVIVAL]]
-- [[ASEA_MUTATION_LINEAGE]]
+- [[ASEA_ADAPTIVE_SELF_EVOLUTION_AI]]
+- [[ASEA_ADAPTIVE_SELF_EVOLUTION_AI]]
+- [[ASEA_ADAPTIVE_SELF_EVOLUTION_AI]]
 
 ## Recovery
 
-- [[ASEA_SELF_REPAIR]]
-- [[ASEA_CHECKPOINT]]
-- [[ASEA_ROLLBACK]]
+- [[ASEA_ADAPTIVE_SELF_EVOLUTION_AI]]
+- [[ASEA_ADAPTIVE_SELF_EVOLUTION_AI]]
+- [[ASEA_ADAPTIVE_SELF_EVOLUTION_AI]]
 
 ## Governance
 
-- [[ASEA_MUTATION_GOVERNANCE]]
-- [[ASEA_CONSTITUTIONAL_BOUNDARY]]
+- [[ASEA_ADAPTIVE_SELF_EVOLUTION_AI]]
+- [[ASEA_ADAPTIVE_SELF_EVOLUTION_AI]]
 
 ## Core invariants
 

@@ -520,3 +520,20 @@ FAIL-CLOSED justification for the remaining 25 (NOT auto-fixed):
   \[\[00_HOME\`/ \[\`[[AMOS_RSCF_NODES]] (INDEX_MODELS_MODEL_CONTRACT.md) => NOT Obsidian note links;
   editing would corrupt source content.
 backup scripts/.tagmigrate11-backup-*.
+
+### Broken-wikilink repair (2026-08-30) — Pass 14 (ASEA + K_CAUSAL_FIREWALL resolution)
+Earlier corrected scan (backups excluded) of real .md notes showed a true count of 17 broken
+targets / 26 instances in maintained notes. All 17 confirmed as conceptual sub-links inside
+code-fenced schemas/atomic templates, not typos. Resolved by rewriting each to its genuine
+real-note target (no canon invented):
+- 16x ASEA_* sub-concepts (ASEA_L/M/H/T2/MUTATION/SURVIVAL/RECOVERY/PROVENANCE/PROOF_CAPSULE/
+  MUTATION_LINEAGE/SELF_REPAIR/CHECKPOINT/ROLLBACK/MUTATION_GOVERNANCE/CONSTITUTIONAL_BOUNDARY/LMH)
+  -> [[ASEA_ADAPTIVE_SELF_EVOLUTION_AI]] (consolidated parent note holding the content: Tri-Layer
+  Architecture = L/M/H, Mutation-Survival Loop = MUTATION/SURVIVAL, RSCF = PROOF_CAPSULE/RECOVERY/
+  PROVENANCE). 26 rewrites across 3 Trang notes.
+- 1x K_CAUSAL_FIREWALL (25_COGNITIVE_MATRIX) -> [[K_CAUSAL_CLOSURE]] (real K-kernel embodying the
+  causal-boundary/firewall semantics; K_ prefix = kernel naming).
+Result: 0 broken targets in maintained notes. Remaining rescan hits are 6 scraped-content artifacts
+in LLM_WIKI/raw|wiki (json JSON [[...]] migrations-css noise, .devin path refs, scraped article/
+spec titles) that are NOT Obsidian note links.
+backup scripts/.tagmigrate14-backup-*.

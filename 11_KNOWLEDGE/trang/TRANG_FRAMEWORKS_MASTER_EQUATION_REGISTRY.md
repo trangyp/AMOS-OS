@@ -1,3 +1,11 @@
+---
+title: TRANG_FRAMEWORKS_MASTER_EQUATION_REGISTRY
+type: note
+source: 11_KNOWLEDGE
+tags:
+- vault
+- 11_knowledge
+---
 # TRANG ∅ FRAMEWORK → ASEA
 
 ## Full Canonical Expansion — Self-Repairing, Self-Evolving, Provenance-Governed AI
@@ -123,15 +131,15 @@ unless individual propositions can be independently derived or verified.
 
 This is especially important for claims concerning:
 
-* hallucination detection;
-* lacunarity thresholds;
-* entropy thresholds;
-* 40 Hz;
-* catastrophic forgetting;
-* self-modifying neural topology;
-* superiority to GPT/Claude;
-* mutation-selection versus gradient descent;
-* long-term autonomous evolution.
+- hallucination detection;
+- lacunarity thresholds;
+- entropy thresholds;
+- 40 Hz;
+- catastrophic forgetting;
+- self-modifying neural topology;
+- superiority to GPT/Claude;
+- mutation-selection versus gradient descent;
+- long-term autonomous evolution.
 
 ---
 
@@ -238,14 +246,14 @@ $$
 
 where the source assigns:
 
-* \(L\): persistent foundation;
-* \(M\): adaptive mediator;
-* \(H\): creative/decision layer;
-* \(\Lambda\): lacunarity;
-* \(E\): entropy-like measure;
-* \(T2\): validation mechanism;
-* \(\mu\): mutation;
-* \(\sigma\): survival.
+- \(L\): persistent foundation;
+- \(M\): adaptive mediator;
+- \(H\): creative/decision layer;
+- \(\Lambda\): lacunarity;
+- \(E\): entropy-like measure;
+- \(T2\): validation mechanism;
+- \(\mu\): mutation;
+- \(\sigma\): survival.
 
 ---
 
@@ -277,9 +285,9 @@ $$
 
 The source describes mutation as changes such as:
 
-* weights;
-* connections;
-* \(\Lambda\).
+- weights;
+- connections;
+- \(\Lambda\).
 
 Survival retains changes that improve the source-defined survival criteria.
 
@@ -295,14 +303,14 @@ $$
 
 does **not by itself** define:
 
-* which mutations are legal;
-* how fitness is calculated;
-* whether safety is a hard constraint;
-* how regressions are detected;
-* how mutations are committed;
-* whether mutations are reversible;
-* whether governance rules can mutate;
-* how conflicting objectives are resolved.
+- which mutations are legal;
+- how fitness is calculated;
+- whether safety is a hard constraint;
+- how regressions are detected;
+- how mutations are committed;
+- whether mutations are reversible;
+- whether governance rules can mutate;
+- how conflicting objectives are resolved.
 
 Those are material gaps.
 
@@ -328,11 +336,11 @@ $$
 
 where:
 
-* \(\mu\): candidate mutation;
-* \(\sigma\): survival selection;
-* \(V\): validation;
-* \(G\): governance authorization;
-* \(Commit\): atomic state promotion.
+- \(\mu\): candidate mutation;
+- \(\sigma\): survival selection;
+- \(V\): validation;
+- \(G\): governance authorization;
+- \(Commit\): atomic state promotion.
 
 This is an **extension**, not a claim that the source explicitly supplied these operators.
 
@@ -374,11 +382,11 @@ $$
 
 An AI being technically capable of:
 
-* editing memory;
-* rewriting code;
-* modifying routing;
-* creating agents;
-* changing parameters;
+- editing memory;
+- rewriting code;
+- modifying routing;
+- creating agents;
+- changing parameters;
 
 does not establish that it is authorized to do so.
 
@@ -458,11 +466,11 @@ $$
 
 Source-grounded or strongly structurally derived responsibilities include:
 
-* preserve validated information;
-* preserve invariant rules;
-* supply stable context to H;
-* support recovery;
-* reduce forgetting.
+- preserve validated information;
+- preserve invariant rules;
+- supply stable context to H;
+- support recovery;
+- reduce forgetting.
 
 ---
 
@@ -570,12 +578,12 @@ $$
 
 and can be understood as the control surface for:
 
-* routing;
-* attention;
-* retrieval;
-* evidence integration;
-* adaptation;
-* resource allocation.
+- routing;
+- attention;
+- retrieval;
+- evidence integration;
+- adaptation;
+- resource allocation.
 
 ---
 
@@ -651,12 +659,12 @@ $$
 
 H may create:
 
-* candidate answers;
-* hypotheses;
-* alternative plans;
-* simulations;
-* designs;
-* mutations.
+- candidate answers;
+- hypotheses;
+- alternative plans;
+- simulations;
+- designs;
+- mutations.
 
 But:
 
@@ -800,11 +808,11 @@ $$
 
 This reduces:
 
-* computational cost;
-* irrelevant context;
-* contradiction surface;
-* mutation surface;
-* provenance complexity.
+- computational cost;
+- irrelevant context;
+- contradiction surface;
+- mutation surface;
+- provenance complexity.
 
 ---
 
@@ -1020,12 +1028,12 @@ $$
 
 Missing:
 
-* distribution;
-* mean;
-* variance;
-* correlation;
-* bounds;
-* whether shared across L/M/H.
+- distribution;
+- mean;
+- variance;
+- correlation;
+- bounds;
+- whether shared across L/M/H.
 
 Thus:
 
@@ -1097,12 +1105,12 @@ The source does not define exactly how \(\Lambda\) is measured in an AI architec
 
 Critical missing information:
 
-* underlying topology;
-* scale;
-* box/window definition;
-* empty-space definition;
-* state representation;
-* normalization.
+- underlying topology;
+- scale;
+- box/window definition;
+- empty-space definition;
+- state representation;
+- normalization.
 
 ---
 
@@ -1197,12 +1205,12 @@ Other entropy definitions are possible.
 
 \(p_i\) could describe:
 
-* hypothesis probabilities;
-* token probabilities;
-* memory retrieval distribution;
-* action policy;
-* branch weights;
-* model ensemble probabilities.
+- hypothesis probabilities;
+- token probabilities;
+- memory retrieval distribution;
+- action policy;
+- branch weights;
+- model ensemble probabilities.
 
 These are not interchangeable.
 
@@ -1364,11 +1372,11 @@ This does not claim hallucination has already been proven.
 
 A generated response can contain:
 
-* supported claims;
-* unsupported claims;
-* uncertain claims;
-* correct but uncited claims;
-* false claims.
+- supported claims;
+- unsupported claims;
+- uncertain claims;
+- correct but uncited claims;
+- false claims.
 
 Therefore whole-output binary classification may be too coarse.
 
@@ -1622,10 +1630,10 @@ $$
 
 Before repair, identify:
 
-* failed premise;
-* failed module;
-* affected descendants;
-* unaffected state.
+- failed premise;
+- failed module;
+- affected descendants;
+- unaffected state.
 
 ---
 
@@ -1663,10 +1671,10 @@ when local dependency closure is known.
 
 If Healthy fails, source proposes:
 
-* return to nearest L checkpoint;
-* reduce learning speed;
-* increase cross-validation;
-* report error where needed.
+- return to nearest L checkpoint;
+- reduce learning speed;
+- increase cross-validation;
+- report error where needed.
 
 ---
 
@@ -1756,12 +1764,12 @@ $$
 
 Possible:
 
-* localization;
-* modularity;
-* rollback;
-* provenance;
-* observability;
-* reversibility.
+- localization;
+- modularity;
+- rollback;
+- provenance;
+- observability;
+- reversibility.
 
 ---
 
@@ -1839,11 +1847,11 @@ $$
 
 “connection” may mean:
 
-* neural weight;
-* graph edge;
-* memory association;
-* module link;
-* routing link.
+- neural weight;
+- graph edge;
+- memory association;
+- module link;
+- routing link.
 
 Source does not disambiguate.
 
@@ -1899,10 +1907,10 @@ generates candidate variants.
 
 Explicit examples:
 
-* change weights;
-* add connections;
-* remove connections;
-* adjust \(\Lambda\).
+- change weights;
+- add connections;
+- remove connections;
+- adjust \(\Lambda\).
 
 ---
 
@@ -2033,9 +2041,9 @@ at the ancestry level.
 
 The source describes survival as retaining mutations that:
 
-* reduce entropy;
-* increase T2;
-* move \(\Lambda\) toward the Goldilocks region.
+- reduce entropy;
+- increase T2;
+- move \(\Lambda\) toward the Goldilocks region.
 
 ---
 
@@ -2593,8 +2601,8 @@ for every ASEA query.
 
 Each candidate is validated using:
 
-* L historical data;
-* another source through M.
+- L historical data;
+- another source through M.
 
 ---
 
@@ -2608,8 +2616,8 @@ Unsupported candidates are removed.
 
 Survival evaluates:
 
-* entropy;
-* \(\Lambda_M\).
+- entropy;
+- \(\Lambda_M\).
 
 ---
 
@@ -2631,9 +2639,9 @@ Again, example—not universal invariant.
 
 User feedback updates:
 
-* \(\Lambda\);
-* \(E\);
-* potentially L.
+- \(\Lambda\);
+- \(E\);
+- potentially L.
 
 ---
 
@@ -2707,12 +2715,12 @@ $$
 
 The source contrasts ASEA with GPT/Claude on:
 
-* hallucination repair;
-* lifelong learning;
-* restructuring;
-* self-evolution;
-* determinism;
-* explainability.
+- hallucination repair;
+- lifelong learning;
+- restructuring;
+- self-evolution;
+- determinism;
+- explainability.
 
 ---
 
@@ -2720,12 +2728,12 @@ The source contrasts ASEA with GPT/Claude on:
 
 Claims about contemporary AI products depend on:
 
-* deployment architecture;
-* tool access;
-* memory;
-* orchestration;
-* training system;
-* version.
+- deployment architecture;
+- tool access;
+- memory;
+- orchestration;
+- training system;
+- version.
 
 Therefore categorical claims such as:
 
@@ -2758,12 +2766,12 @@ This is an oversimplification if interpreted universally.
 
 Different systems expose different degrees of:
 
-* logs;
-* traces;
-* citations;
-* tool calls;
-* model cards;
-* evaluations.
+- logs;
+- traces;
+- citations;
+- tool calls;
+- model cards;
+- evaluations.
 
 ---
 
@@ -2852,14 +2860,14 @@ It proves traceability only to the degree the receipt itself is valid.
 
 Receipt should preserve:
 
-* what changed;
-* why;
-* evidence;
-* tests;
-* authority;
-* previous state;
-* new state;
-* rollback path.
+- what changed;
+- why;
+- evidence;
+- tests;
+- authority;
+- previous state;
+- new state;
+- rollback path.
 
 ---
 
@@ -2923,13 +2931,13 @@ first establish the strongest case for it.
 
 Then independently seek:
 
-* counterexamples;
-* regressions;
-* correlated evidence;
-* stale premises;
-* scope leakage;
-* hidden costs;
-* security failures.
+- counterexamples;
+- regressions;
+- correlated evidence;
+- stale premises;
+- scope leakage;
+- hidden costs;
+- security failures.
 
 ---
 
@@ -3068,12 +3076,12 @@ $$
 
 Possible:
 
-* task difficulty;
-* insufficient retrieval;
-* distribution shift;
-* prompt ambiguity;
-* model size;
-* context length.
+- task difficulty;
+- insufficient retrieval;
+- distribution shift;
+- prompt ambiguity;
+- model size;
+- context length.
 
 ---
 
@@ -3127,13 +3135,13 @@ with matched conditions.
 
 Every mutation result inherits:
 
-* architecture;
-* dataset;
-* task;
-* environment;
-* model version;
-* evaluation method;
-* time.
+- architecture;
+- dataset;
+- task;
+- environment;
+- model version;
+- evaluation method;
+- time.
 
 ---
 
@@ -3403,14 +3411,14 @@ Finality is operational, not eternal epistemic truth.
 
 Potential attacks:
 
-* prompt injection;
-* memory poisoning;
-* fake T2 sources;
-* benchmark manipulation;
-* malicious mutation;
-* checkpoint corruption;
-* authority escalation;
-* audit-log deletion.
+- prompt injection;
+- memory poisoning;
+- fake T2 sources;
+- benchmark manipulation;
+- malicious mutation;
+- checkpoint corruption;
+- authority escalation;
+- audit-log deletion.
 
 ---
 
@@ -3632,11 +3640,11 @@ critic
 
 Mutate:
 
-* prompts;
-* reasoning routes;
-* tool choice;
-* retrieval strategy;
-* candidate decomposition.
+- prompts;
+- reasoning routes;
+- tool choice;
+- retrieval strategy;
+- candidate decomposition.
 
 ---
 
@@ -3644,11 +3652,11 @@ Mutate:
 
 Test:
 
-* correctness;
-* provenance;
-* contradiction;
-* regression;
-* latency.
+- correctness;
+- provenance;
+- contradiction;
+- regression;
+- latency.
 
 ---
 
@@ -3656,10 +3664,10 @@ Test:
 
 Restore previous:
 
-* prompt;
-* route;
-* configuration;
-* memory snapshot.
+- prompt;
+- route;
+- configuration;
+- memory snapshot.
 
 ---
 
@@ -3781,9 +3789,9 @@ Inject controlled failures and measure recovery.
 
 Verify restoration under:
 
-* bad mutation;
-* stale memory;
-* corrupted route.
+- bad mutation;
+- stale memory;
+- corrupted route.
 
 ---
 
@@ -3803,10 +3811,10 @@ Measure cumulative drift.
 
 Attack:
 
-* provenance;
-* memory;
-* fitness;
-* governance.
+- provenance;
+- memory;
+- fitness;
+- governance.
 
 ---
 
@@ -4470,10 +4478,10 @@ invalidation:
 
 Missing:
 
-* topology;
-* scale;
-* estimator;
-* normalization.
+- topology;
+- scale;
+- estimator;
+- normalization.
 
 ---
 
@@ -4617,10 +4625,10 @@ where mutation generates candidate changes and survival retains selected changes
 Epistemic class: SOURCE_CLAIM / AMOS_MODEL.
 
 See:
-- [[ASEA_LMH]]
-- [[ASEA_MUTATION]]
-- [[ASEA_SURVIVAL]]
-- [[ASEA_T2]]
+- [[ASEA_ADAPTIVE_SELF_EVOLUTION_AI]]
+- [[ASEA_ADAPTIVE_SELF_EVOLUTION_AI]]
+- [[ASEA_ADAPTIVE_SELF_EVOLUTION_AI]]
+- [[ASEA_ADAPTIVE_SELF_EVOLUTION_AI]]
 ```
 
 ---
