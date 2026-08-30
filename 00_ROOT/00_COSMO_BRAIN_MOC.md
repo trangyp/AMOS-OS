@@ -143,7 +143,7 @@ rscf:
 - [[INDEX_REPAIR_GAP_REPORT_2026-08-26]]
 - [[NEURAL_NETWORK]]
 - [[PLACEMENT_RULES]]
-- README
+- [[00_ROOT/README|README]]
 - [[ROADMAP]]
 - [[RSCF_NODE_INDEX]]
 - [[SYSTEM_MAP]]
@@ -181,6 +181,7 @@ rscf:
 - [[08_WORKFLOWS/obsidian-plugin-auto-tag-workflow|Obsidian Plugin Auto Tag]] workflow
 - [[08_WORKFLOWS/amos-mdformat-obsidian-workflow|Workflow: AMOS mdformat-obsidian]]
 - [[07_SKILLS/07_SKILLS_MOC|AMOS Skills MOC]]
+- [[skill-catalog|Skill Catalog]]
 - [[skill-registry-catalog|AMOS Skill Registry Catalog]]
 - [[amos-skill-registry-gateway|AMOS Skill Registry Gateway]]
 - [[SOTA_AGENT_TOOLING_REPOS|AMOS SOTA Agent Tooling Repositories]]
