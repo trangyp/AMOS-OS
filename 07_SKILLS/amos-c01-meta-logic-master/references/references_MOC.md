@@ -58,7 +58,7 @@ rscf:
 ---
 ## Reference Notes
 
-- [[detailed-references]]
+- [[07_SKILLS/amos-c06-society-culture-master/references/detailed-references|detailed-references]]
 
 **Parent:** [[07_SKILLS/amos-c01-meta-logic-master/amos-c01-meta-logic-master_MOC|amos-c01-meta-logic-master_MOC]]
 ---

@@ -74,7 +74,7 @@ rscf:
 ---
 ## Reference Notes
 
-- [[detailed-references]]
+- [[07_SKILLS/amos-c06-society-culture-master/references/detailed-references|detailed-references]]
 
 **Parent:** [[07_SKILLS/amos-c06-society-culture-master/amos-c06-society-culture-master_MOC|amos-c06-society-culture-master_MOC]]
 ---
