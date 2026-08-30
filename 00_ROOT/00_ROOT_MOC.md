@@ -323,7 +323,7 @@ Use when asking:
 
 ---
 
-## NAMING_STANDARD
+## [[00_ROOT_NAMING_STANDARD|NAMING_STANDARD]]
 
 Defines naming, identifiers, versions, aliases, and compatibility rules.
 

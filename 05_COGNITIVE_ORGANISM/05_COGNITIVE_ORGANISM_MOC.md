@@ -84,4 +84,10 @@ rscf:
 - [[18_LIFECYCLE_MOC]] — 18_LIFECYCLE
 
 ---
-**Parent:** [[AMOS_HOME]]
+
+**Parent:** [[00_HOME]] · [[00_ROOT_MOC]]
+
+---
+
+**Related:** [[01_CANON_MOC]] · [[02_KERNEL_MOC]] · [[03_CONTROL_PLANE_MOC]] · [[11_KNOWLEDGE_MOC]] · [[25_COGNITIVE_MATRIX_MOC]] · [[07_SKILLS_MOC]] · [[08_WORKFLOWS_MOC]]
+

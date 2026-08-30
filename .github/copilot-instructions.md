@@ -61,3 +61,6 @@ Run before committing:
 - Ingest findings into `11_KNOWLEDGE/LLM_WIKI/` as `raw/` captures and `wiki/` synthesis.
 - Run end-to-end ingestion trials (guardrail + RSCF canonicalizer) before promoting an external skill.
 
+---
+**MOC:** [[00_COSMO_BRAIN_MOC]]
+

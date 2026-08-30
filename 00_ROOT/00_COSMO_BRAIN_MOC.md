@@ -171,7 +171,7 @@ rscf:
 - [[07_SKILLS/obsidian-plugin-auto-tag/SKILL|Obsidian Plugin Auto Tag]] skill
 - [[08_WORKFLOWS/obsidian-plugin-auto-tag-workflow|Obsidian Plugin Auto Tag]] workflow
 - [[08_WORKFLOWS/amos-mdformat-obsidian-workflow|Workflow: AMOS mdformat-obsidian]]
-- [[skill-catalog|AMOS Skill Catalog]]
+- [[07_SKILLS/07_SKILLS_MOC|AMOS Skills MOC]]
 - [[skill-registry-catalog|AMOS Skill Registry Catalog]]
 - [[amos-skill-registry-gateway|AMOS Skill Registry Gateway]]
 - [[SOTA_AGENT_TOOLING_REPOS|AMOS SOTA Agent Tooling Repositories]]

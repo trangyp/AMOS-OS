@@ -365,6 +365,9 @@ rscf:
 - [[software-engineering-qa-workflow]]
 - [[spreadsheets-workflow]]
 
+**Parent:** [[00_ROOT_MOC]] · [[00_HOME]]
+
 ---
 
-**Parent:** [[00_ROOT_MOC]] · [[00_HOME]]
+**Related:** [[07_SKILLS_MOC]] · [[01_CANON_MOC]] · [[02_KERNEL_MOC]] · [[03_CONTROL_PLANE_MOC]] · [[25_COGNITIVE_MATRIX_MOC]]
+

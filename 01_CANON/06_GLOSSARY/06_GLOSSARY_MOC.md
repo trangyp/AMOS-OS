@@ -52,4 +52,10 @@ rscf:
 - [[00_INDEX_MOC]] — 00_INDEX
 
 ---
-**Parent:** [[01_CANON_MOC]]
+
+**Parent:** [[01_CANON_MOC]] · [[00_HOME]] · [[00_ROOT_MOC]]
+
+---
+
+**Related:** [[01_CORE_LAWS_MOC]] · [[02_KERNEL_MOC]] · [[11_KNOWLEDGE_MOC]] · [[25_COGNITIVE_MATRIX_MOC]]
+

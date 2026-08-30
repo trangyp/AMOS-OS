@@ -38,6 +38,7 @@ except ImportError:
 # ── Graph Builder ────────────────────────────────────────────────────────────
 
 WL_RE = re.compile(r"\[\[([^\]|#\n]+?)(?:#[^\]|]*)?(?:\|[^\]\n]*)?\]\]")
+MD_RE = re.compile(r"\[[^\]\n]+\]\(([^)\s\n]+)\)")
 
 
 class VaultGraph:
@@ -91,13 +92,14 @@ class VaultGraph:
                     except Exception:
                         pass
 
-        # Parse wikilinks
+        # Parse wikilinks and markdown links
         for f in self.all_files:
             try:
                 text = f.read_text(encoding="utf-8", errors="replace")
             except Exception:
                 continue
             src_relpath = f.relative_to(self.vault_path).as_posix()
+
             for m in WL_RE.finditer(text):
                 raw_target = m.group(1).strip()
                 if not raw_target:
@@ -109,24 +111,48 @@ class VaultGraph:
                 else:
                     self.broken_links.append((src_relpath, raw_target))
 
+            for m in MD_RE.finditer(text):
+                raw_target = m.group(1).strip().split("#")[0].split("?")[0]
+                if not raw_target:
+                    continue
+                if raw_target.startswith(("http://", "https://", "mailto:", "//")):
+                    continue
+                # Skip image/embedding links: ![...](...)
+                if m.start() > 0 and text[m.start() - 1] == "!":
+                    continue
+                target = self._resolve_target(src_relpath, raw_target)
+                if target:
+                    self.edges[src_relpath].add(target)
+                    self.backlinks[target].add(src_relpath)
+                elif not ((self.vault_path / Path(src_relpath).parent / raw_target).exists() or (self.vault_path / raw_target).exists()):
+                    self.broken_links.append((src_relpath, raw_target))
+
     def _resolve_target(self, src_relpath: str, raw_target: str) -> Optional[str]:
-        """Resolve a wikilink target to a canonical relative path."""
+        """Resolve a wikilink or markdown link target to a canonical relative path."""
         raw_target = raw_target.strip()
         if not raw_target:
             return None
 
         src_path = Path(src_relpath)
         src_dir = src_path.parent
+        # Strip .md suffix for stem/title lookups; keep raw_target for path lookups.
+        lookup = raw_target[:-3] if raw_target.endswith(".md") else raw_target
 
-        # 1. Path-prefixed wikilink (e.g. 07_SKILLS/amos-flow-canon/SKILL)
-        if "/" in raw_target:
+        # 1. Path-prefixed or relative link
+        if "/" in raw_target or raw_target.endswith(".md"):
             rel_md = raw_target if raw_target.endswith(".md") else raw_target + ".md"
+            # Check relative to source note directory first
+            src_target = (self.vault_path / src_dir / rel_md).resolve()
+            if src_target.is_file() and src_target.is_relative_to(self.vault_path.resolve()):
+                return src_target.relative_to(self.vault_path.resolve()).as_posix()
+            # Check relative to vault root
             target_path = (self.vault_path / rel_md).resolve()
             if target_path.is_file() and target_path.is_relative_to(self.vault_path.resolve()):
                 return target_path.relative_to(self.vault_path.resolve()).as_posix()
-            # case-insensitive fallback for case-insensitive filesystems
+            # Case-insensitive fallback
             lower = rel_md.lower()
-            return self._relpaths_lower.get(lower)
+            if lower in self._relpaths_lower:
+                return self._relpaths_lower[lower]
 
         def _pick(candidates: list[str]) -> Optional[str]:
             if not candidates:
@@ -161,14 +187,14 @@ class VaultGraph:
             return None  # still ambiguous
 
         # 2. Title-based resolution
-        if raw_target in self._nodes_by_title:
-            picked = _pick(self._nodes_by_title[raw_target])
+        if lookup in self._nodes_by_title:
+            picked = _pick(self._nodes_by_title[lookup])
             if picked:
                 return picked
 
         # 3. Stem-based resolution
-        if raw_target in self._nodes_by_stem:
-            candidates = self._nodes_by_stem[raw_target]
+        if lookup in self._nodes_by_stem:
+            candidates = self._nodes_by_stem[lookup]
             picked = _pick(candidates)
             if picked:
                 return picked
@@ -177,7 +203,7 @@ class VaultGraph:
                 return None  # ambiguous stem (e.g. SKILL without a path)
 
         # 4. Case-insensitive stem fallback
-        lower = raw_target.lower()
+        lower = lookup.lower()
         matched_stems = [s for s in self._nodes_by_stem if s.lower() == lower]
         if len(matched_stems) == 1:
             picked = _pick(self._nodes_by_stem[matched_stems[0]])
@@ -185,7 +211,7 @@ class VaultGraph:
                 return picked
 
         # 5. Root-level file check
-        target_path = (self.vault_path / f"{raw_target}.md").resolve()
+        target_path = (self.vault_path / f"{lookup}.md").resolve()
         if target_path.exists() and target_path.is_file() and target_path.is_relative_to(self.vault_path.resolve()):
             return target_path.relative_to(self.vault_path.resolve()).as_posix()
 
