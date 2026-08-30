@@ -61,7 +61,7 @@ rscf:
 # 11 Knowledge — Map of Content
 
 **Path:** `11_KNOWLEDGE`
-**Files:** 50 | **Subdirectories:** 47
+**Files:** 50 | **Subdirectories:** 49
 
 ## Core Knowledge Indices & Bridge Governors
 
@@ -116,7 +116,7 @@ rscf:
 
 ---
 
-## Subdirectory Maps of Content (47 Domain Sub-Planes)
+## Subdirectory Maps of Content (49 Domain Sub-Planes)
 
 - [[02_CLAIMS_MOC]] — `02_CLAIMS` (Claims & epistemic registry)
 - [[03_RSCF_MOC]] — `03_RSCF` (Reality-Signal-Claim Framework objects)
