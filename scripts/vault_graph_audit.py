@@ -47,6 +47,7 @@ class VaultGraph:
     def __init__(self, vault_path: Path, exclude_dirs: set = None):
         self.vault_path = vault_path
         self.exclude_dirs = exclude_dirs or {".obsidian", ".git", "node_modules", ".gemini", "copilot", "scripts", ".devin"}
+        self.noparse_dirs = {"raw", "_arxiv_md"}
         self.nodes = {}           # rel_path (posix) -> Path
         self.edges = defaultdict(set)  # src_relpath -> set(target_relpaths)
         self.backlinks = defaultdict(set)  # target_relpath -> set(src_relpaths)
@@ -61,6 +62,10 @@ class VaultGraph:
     def _should_exclude(self, path: Path) -> bool:
         parts = path.relative_to(self.vault_path).parts
         return any(p.startswith(".") or p in self.exclude_dirs or ("backup" in p.lower() and "20_OPERATIONS" not in parts) for p in parts)
+
+    def _should_parse_links(self, path: Path) -> bool:
+        parts = path.relative_to(self.vault_path).parts
+        return not any(p in self.noparse_dirs for p in parts)
 
     def _build(self):
         # Collect all markdown files
@@ -99,10 +104,14 @@ class VaultGraph:
             except Exception:
                 continue
             src_relpath = f.relative_to(self.vault_path).as_posix()
+            if not self._should_parse_links(f):
+                continue
 
             for m in WL_RE.finditer(text):
                 raw_target = m.group(1).strip()
-                if not raw_target:
+                if not raw_target or raw_target.isdigit():
+                    continue
+                if re.search(r'[^A-Za-z0-9_\s\-./%]', raw_target):
                     continue
                 target = self._resolve_target(src_relpath, raw_target)
                 if target:
@@ -115,16 +124,25 @@ class VaultGraph:
                 raw_target = m.group(1).strip().split("#")[0].split("?")[0]
                 if not raw_target:
                     continue
-                if raw_target.startswith(("http://", "https://", "mailto:", "//")):
-                    continue
                 # Skip image/embedding links: ![...](...)
                 if m.start() > 0 and text[m.start() - 1] == "!":
+                    continue
+                # Strip optional angle brackets used by some exports.
+                if raw_target.startswith("<") and raw_target.endswith(">"):
+                    raw_target = raw_target[1:-1]
+                if not raw_target:
+                    continue
+                if raw_target.startswith(("http://", "https://", "mailto:", "//")):
+                    continue
+                # Only treat internal vault markdown links as graph edges.
+                suffix = Path(raw_target).suffix
+                if suffix and suffix != ".md":
                     continue
                 target = self._resolve_target(src_relpath, raw_target)
                 if target:
                     self.edges[src_relpath].add(target)
                     self.backlinks[target].add(src_relpath)
-                elif not ((self.vault_path / Path(src_relpath).parent / raw_target).exists() or (self.vault_path / raw_target).exists()):
+                else:
                     self.broken_links.append((src_relpath, raw_target))
 
     def _resolve_target(self, src_relpath: str, raw_target: str) -> Optional[str]:

@@ -168,7 +168,9 @@ rscf:
 
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_HOME]] · [[00_ROOT_MOC]] · [[25_COGNITIVE_MATRIX_MOC]]
+**Parent:** [[00_HOME]] · [[00_ROOT_MOC]] · [[11_KNOWLEDGE_MOC]]
 
 ---
-**MOC:** [[00_ROOT_MOC]]
+
+**Related:** [[01_CANON_MOC]] · [[02_KERNEL_MOC]] · [[03_CONTROL_PLANE_MOC]] · [[05_COGNITIVE_ORGANISM_MOC]] · [[07_SKILLS_MOC]] · [[08_WORKFLOWS_MOC]] · [[25_COGNITIVE_MATRIX_MOC]]
+
