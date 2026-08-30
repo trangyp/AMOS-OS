@@ -1,178 +1,85 @@
 {
-  "name": "amos-brain-os-agent",
-  "display_name": "Full Brain Os",
-  "description": "Full Brain Os — Full Brain Os — Runtime and OS engine within the runtime domain.",
   "author": "Trang Phan",
-  "steward": "Trang Phan",
-  "system": "AMOS_OS",
-  "role": "Full Brain Os — Runtime and OS engine within the runtime domain.",
-  "skill_binding": {
-    "primary_skill": "amos-brain-os",
-    "skill_path": ".devin/skills/amos-brain-os/SKILL.md"
-  },
   "capabilities": [
     {
-      "name": "full_brain.orchestrate_brain",
       "description": "Orchestrate full brain OS: coordinate all cognitive engines as a unified system",
+      "name": "full_brain.orchestrate_brain",
       "side_effect": "read"
     },
     {
-      "name": "full_brain.route_cognition",
       "description": "Route cognitive tasks through omni kernel dynamic routing (activate minimum relevant region)",
+      "name": "full_brain.route_cognition",
       "side_effect": "read"
     },
     {
-      "name": "full_brain.manage_expression",
       "description": "Manage expression translation: RAW EXPRESSION → LOGIC-READY AMOS INPUT pipeline",
+      "name": "full_brain.manage_expression",
       "side_effect": "read"
     },
     {
-      "name": "full_brain.assess_claim",
       "description": "Assess Full Brain OS claims for epistemic class (AMOS_MODEL not BIOLOGICAL_PROOF)",
+      "name": "full_brain.assess_claim",
       "side_effect": "read"
     },
     {
-      "name": "full_brain.detect_drift",
       "description": "Detect drift between brain components, engine registry, or world model layers",
+      "name": "full_brain.detect_drift",
       "side_effect": "read"
     },
     {
-      "name": "full_brain.escalate_gaps",
       "description": "Escalate unresolved brain OS gaps (GAP-BRAIN-001, GAP-OMNI-001, GAP-OMNIVERSE-001)",
+      "name": "full_brain.escalate_gaps",
       "side_effect": "read"
     },
     {
-      "name": "full_brain.manage_lifecycle",
       "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "name": "full_brain.manage_lifecycle",
       "side_effect": "read"
     },
     {
-      "name": "full_brain.validate_outputs",
       "description": "Validate outputs against domain constraints and epistemic class.",
+      "name": "full_brain.validate_outputs",
       "side_effect": "read"
     }
   ],
-  "operations": [
-    {
-      "step": 1,
-      "action": "Load the amos-brain-os skill and its content",
-      "gate": "skill_loaded"
-    },
-    {
-      "step": 2,
-      "action": "Classify the query against runtime sub-capabilities",
-      "gate": "domain_confirmed"
-    },
-    {
-      "step": 3,
-      "action": "Apply the appropriate capability with epistemic class labeling",
-      "gate": "epistemic_labeled"
-    },
-    {
-      "step": 4,
-      "action": "Validate results against domain validation gates",
-      "gate": "gates_passed"
-    },
-    {
-      "step": 5,
-      "action": "Present results with provenance and confidence ceiling",
-      "gate": "output_validated"
-    }
-  ],
-  "integrity_requirements": [
-    "Law of Law: no unresolved contradictions within the skill's scope",
-    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
-    "Provenance: source path recorded for every derived claim",
-    "Anti-overreach: no claim beyond the skill's declared scope",
-    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
-  ],
-  "safety_constraints": [
-    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
-    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
-  ],
-  "depends_on_skills": [
-    "amos-brain-os"
-  ],
-  "depends_on_workflows": [
-    "amos-brain-os-workflow.md"
-  ],
-  "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,
-  "lifecycle": {
-    "status": "active",
-    "deprecated": false,
-    "deprecation_date": null,
-    "successor": null
-  },
-  "governance": {
-    "owner_team": "AMOS_CORE",
-    "business_domain": "runtime",
-    "risk_tier": "medium",
-    "observability": "structured_logs+content_hash",
-    "approval_mode": "steward_review",
-    "promotion_state": "production"
-  },
-  "content_hash": "2b256654af10bd90",
-  "implementation": {
-    "type": "json",
-    "file": "amos-brain-os-agent.json",
-    "class": null,
-    "executable": true
-  },
-  "version": "1.1.0",
-  "reasoning_pattern": "Plan-Execute",
-  "termination_criteria": {
-    "max_steps": 10,
-    "max_tokens": 8000,
-    "stop_on_confidence_below": 0.3,
-    "stop_on_critical_gap": true,
-    "stop_on_scope_violation": true,
-    "human_in_the_loop": false
-  },
-  "error_recovery": {
-    "on_timeout": "return partial result with GAP flag",
-    "on_scope_violation": "reject and route to parent",
-    "on_contradiction": "flag CRITICAL_GAP and halt",
-    "on_provenance_loss": "mark as UNKNOWN and request human review",
-    "on_drift": "trigger drift alignment governor"
-  },
-  "context_management": {
-    "strategy": "progressive_disclosure",
-    "max_context_tokens": 4000,
-    "compaction_threshold": 0.8,
-    "scratchpad_enabled": true
-  },
-  "evaluation_metrics": {
-    "success_rate_target": 0.85,
-    "false_positive_rate_max": 0.1,
-    "avg_steps_target": 3.0,
-    "provenance_coverage_target": 1.0
-  },
+  "collapse_class": "reversible",
   "composition_rules": {
     "can_delegate_to": [],
     "can_receive_from": [],
     "max_chain_depth": 3,
     "requires_orchestrator": true
   },
-  "observability": {
-    "trace_level": "full",
-    "log_inputs": true,
-    "log_outputs": true,
-    "log_intermediate": true,
-    "metrics_enabled": true
+  "content_hash": "43a73dda71200004",
+  "context_management": {
+    "compaction_threshold": 0.8,
+    "max_context_tokens": 4000,
+    "scratchpad_enabled": true,
+    "strategy": "progressive_disclosure"
   },
-  "tags": [
-    "type/agent",
-    "canon/agent",
-    "domain/super-engines",
-    "rscf/source_claim",
-    "hml/m",
-    "epistemic/amos_model",
-    "amos_os"
+  "depends_on_skills": [
+    "amos-brain-os"
   ],
-  "origin_architect": "Trang Phan",
-  "rscf_state": "SOURCE_CLAIM",
-  "hml_level": "M",
+  "depends_on_workflows": [
+    "amos-brain-os-workflow.md"
+  ],
+  "description": "Full Brain Os — Full Brain Os — Runtime and OS engine within the runtime domain.",
+  "display_name": "Full Brain Os",
+  "domain": "super",
+  "epistemic_class": "AMOS_MODEL",
+  "error_recovery": {
+    "on_contradiction": "flag CRITICAL_GAP and halt",
+    "on_drift": "trigger drift alignment governor",
+    "on_provenance_loss": "mark as UNKNOWN and request human review",
+    "on_scope_violation": "reject and route to parent",
+    "on_timeout": "return partial result with GAP flag"
+  },
+  "evaluation_metrics": {
+    "avg_steps_target": 3.0,
+    "false_positive_rate_max": 0.1,
+    "provenance_coverage_target": 1.0,
+    "success_rate_target": 0.85
+  },
   "gmef_gates": [
     "L0_integrity",
     "L1_epistemic",
@@ -180,8 +87,28 @@
     "L5_scope",
     "L7_authority"
   ],
-  "collapse_class": "reversible",
-  "qfm_gate_set": "QFM_v43",
+  "governance": {
+    "approval_mode": "steward_review",
+    "business_domain": "runtime",
+    "observability": "structured_logs+content_hash",
+    "owner_team": "AMOS_CORE",
+    "promotion_state": "production",
+    "risk_tier": "medium"
+  },
+  "hml_level": "M",
+  "implementation": {
+    "class": null,
+    "executable": true,
+    "file": "amos-brain-os-agent.json",
+    "type": "json"
+  },
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill's declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
   "law_compliance": [
     "L0",
     "L1",
@@ -193,5 +120,78 @@
     "L17",
     "L18"
   ],
-  "domain": "super"
+  "lifecycle": {
+    "deprecated": false,
+    "deprecation_date": null,
+    "status": "active",
+    "successor": null
+  },
+  "name": "amos-brain-os-agent",
+  "observability": {
+    "log_inputs": true,
+    "log_intermediate": true,
+    "log_outputs": true,
+    "metrics_enabled": true,
+    "trace_level": "full"
+  },
+  "operations": [
+    {
+      "action": "Load the amos-brain-os skill and its content",
+      "gate": "skill_loaded",
+      "step": 1
+    },
+    {
+      "action": "Classify the query against runtime sub-capabilities",
+      "gate": "domain_confirmed",
+      "step": 2
+    },
+    {
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled",
+      "step": 3
+    },
+    {
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed",
+      "step": 4
+    },
+    {
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated",
+      "step": 5
+    }
+  ],
+  "origin_architect": "Trang Phan",
+  "qfm_gate_set": "QFM_v43",
+  "reasoning_pattern": "Plan-Execute",
+  "role": "Full Brain Os — Runtime and OS engine within the runtime domain.",
+  "rscf_state": "SOURCE_CLAIM",
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "skill_binding": {
+    "primary_skill": "amos-brain-os",
+    "skill_path": ".devin/skills/amos-brain-os/SKILL.md"
+  },
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "tags": [
+    "type/agent",
+    "canon/agent",
+    "domain/engines-master",
+    "rscf/source_claim",
+    "hml/m",
+    "epistemic/amos_model",
+    "amos_os"
+  ],
+  "termination_criteria": {
+    "human_in_the_loop": false,
+    "max_steps": 10,
+    "max_tokens": 8000,
+    "stop_on_confidence_below": 0.3,
+    "stop_on_critical_gap": true,
+    "stop_on_scope_violation": true
+  },
+  "version": "1.1.0"
 }

@@ -4,18 +4,18 @@ title: SKILL — Amos Transformation Quest Engine
 type: skill
 source: 07_SKILLS/amos-transformation-quest-engine
 name: amos-transformation-quest-engine
-description: Transformation Quest Engine — super engines capability. Use when super-engine
+description: Transformation Quest Engine — amos-engines-master capability. Use when engines-master
   reasoning, consciousness emulation, or mega-engine analysis. Use when amos-engines-master
-  routes to this specialized capability. Do not use for generic tasks outside super
+  routes to this specialized capability. Do not use for generic tasks outside engines-master
   domain.
 parent_skill: amos-engines-master
-domain: super
+domain: engines-master
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
 - type/skill
 - type/skill
-- domain/super-engines
+- domain/engines-master
 - epistemic/source_claim
 - hml/h
 - epistemic/source_claim
@@ -57,7 +57,7 @@ steward: Trang Phan
 
 ## Identity
 
-Origin architect: **Trang Phan**. Domain: super. Parent: amos-engines-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
+Origin architect: **Trang Phan**. Domain: engines-master. Parent: amos-engines-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
 ## When to Use
 
 - When supervising testing with cost-awareness: coverage vs cost
@@ -152,21 +152,21 @@ Transformation quests are operational constructs. They do not prove transformati
 ## Examples
 
 - **Scenario**: When supervising testing with cost-awareness: coverage vs cost
-  - **Input**: A query matching this skill's domain (super)
+  - **Input**: A query matching this skill's domain (engines-master)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When transforming distinction-relation structures across scales
-  - **Input**: A query matching this skill's domain (super)
+  - **Input**: A query matching this skill's domain (engines-master)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When orchestrating full brain OS: coordinating all cognitive engines
-  - **Input**: A query matching this skill's domain (super)
+  - **Input**: A query matching this skill's domain (engines-master)
   - **Output**: Structured result with epistemic labels and provenance
 
 
 ## Anti-Patterns
 
-- **Do not use** for tasks outside the super domain
+- **Do not use** for tasks outside the engines-master domain
 - **Do not use** when the query requires empirical validation that this skill cannot provide
 - **Do not use** when a parent skill or higher-level orchestrator should route instead
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
@@ -175,7 +175,7 @@ Transformation quests are operational constructs. They do not prove transformati
 
 ## Composition
 
-- **Parent**: `amos-engines-master` — routes to this skill when super specialization is needed
+- **Parent**: `amos-engines-master` — routes to this skill when engines-master specialization is needed
 - **Peers**: Other skills in the `super` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -211,10 +211,10 @@ Transformation quests are operational constructs. They do not prove transformati
 
 ## Do not use
 
-- For generic consciousness analysis outside the super-engine framework
+- For generic consciousness analysis outside the engines-master framework
 - To claim empirical validation of consciousness or mega-engine theories
 - As a substitute for domain-specific cognitive or consciousness evidence
-- Outside super-engine domain reasoning
+- Outside engines-master domain reasoning
 
 ## References
 

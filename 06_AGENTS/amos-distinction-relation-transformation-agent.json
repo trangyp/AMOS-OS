@@ -1,168 +1,75 @@
 {
-  "name": "amos-distinction-relation-transformation-agent",
-  "display_name": "Distinction Relation Transformation",
-  "description": "Super engine for Distinction Relation Transformation",
   "author": "Trang Phan",
-  "steward": "Trang Phan",
-  "system": "AMOS_OS",
-  "role": "Distinction Relation Transformation — Runtime and OS engine within the runtime domain.",
-  "skill_binding": {
-    "primary_skill": "amos-distinction-relation-transformation",
-    "skill_path": ".devin/skills/amos-distinction-relation-transformation/SKILL.md"
-  },
   "capabilities": [
     {
-      "name": "distinction_relation_trans.supervise_test",
       "description": "Supervise testing with cost-awareness: balance test coverage vs resource cost",
+      "name": "distinction_relation_trans.supervise_test",
       "side_effect": "read"
     },
     {
-      "name": "distinction_relation_trans.transform_distinction",
       "description": "Transform distinction-relation structures across scales and contexts",
+      "name": "distinction_relation_trans.transform_distinction",
       "side_effect": "read"
     },
     {
-      "name": "distinction_relation_trans.orchestrate_brain",
       "description": "Orchestrate full brain OS: coordinate all cognitive engines as a unified system",
+      "name": "distinction_relation_trans.orchestrate_brain",
       "side_effect": "read"
     },
     {
-      "name": "distinction_relation_trans.manage_lifecycle",
       "description": "Manage lifecycle: classify, validate, trace, assess, detect.",
+      "name": "distinction_relation_trans.manage_lifecycle",
       "side_effect": "read"
     },
     {
-      "name": "distinction_relation_trans.detect_drift",
       "description": "Detect drift in evidence chains, provenance freshness, or confidence calibration.",
+      "name": "distinction_relation_trans.detect_drift",
       "side_effect": "read"
     },
     {
-      "name": "distinction_relation_trans.validate_outputs",
       "description": "Validate outputs against domain constraints and epistemic class.",
+      "name": "distinction_relation_trans.validate_outputs",
       "side_effect": "read"
     }
   ],
-  "operations": [
-    {
-      "step": 1,
-      "action": "Load the amos-distinction-relation-transformation skill and its content",
-      "gate": "skill_loaded"
-    },
-    {
-      "step": 2,
-      "action": "Classify the query against runtime sub-capabilities",
-      "gate": "domain_confirmed"
-    },
-    {
-      "step": 3,
-      "action": "Apply the appropriate capability with epistemic class labeling",
-      "gate": "epistemic_labeled"
-    },
-    {
-      "step": 4,
-      "action": "Validate results against domain validation gates",
-      "gate": "gates_passed"
-    },
-    {
-      "step": 5,
-      "action": "Present results with provenance and confidence ceiling",
-      "gate": "output_validated"
-    }
-  ],
-  "integrity_requirements": [
-    "Law of Law: no unresolved contradictions within the skill's scope",
-    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
-    "Provenance: source path recorded for every derived claim",
-    "Anti-overreach: no claim beyond the skill's declared scope",
-    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
-  ],
-  "safety_constraints": [
-    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
-    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
-  ],
-  "depends_on_skills": [
-    "amos-distinction-relation-transformation"
-  ],
-  "depends_on_workflows": [
-    "amos-distinction-relation-transformation-workflow.md"
-  ],
-  "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,
-  "lifecycle": {
-    "status": "active",
-    "deprecated": false,
-    "deprecation_date": null,
-    "successor": null
-  },
-  "governance": {
-    "owner_team": "AMOS_CORE",
-    "business_domain": "runtime",
-    "risk_tier": "medium",
-    "observability": "structured_logs+content_hash",
-    "approval_mode": "steward_review",
-    "promotion_state": "production"
-  },
-  "content_hash": "0cbca9b0ed9290f5",
-  "implementation": {
-    "type": "json",
-    "file": "amos-distinction-relation-transformation-agent.json",
-    "class": null,
-    "executable": true
-  },
-  "version": "1.1.0",
-  "reasoning_pattern": "Plan-Execute",
-  "termination_criteria": {
-    "max_steps": 10,
-    "max_tokens": 8000,
-    "stop_on_confidence_below": 0.3,
-    "stop_on_critical_gap": true,
-    "stop_on_scope_violation": true,
-    "human_in_the_loop": false
-  },
-  "error_recovery": {
-    "on_timeout": "return partial result with GAP flag",
-    "on_scope_violation": "reject and route to parent",
-    "on_contradiction": "flag CRITICAL_GAP and halt",
-    "on_provenance_loss": "mark as UNKNOWN and request human review",
-    "on_drift": "trigger drift alignment governor"
-  },
-  "context_management": {
-    "strategy": "progressive_disclosure",
-    "max_context_tokens": 4000,
-    "compaction_threshold": 0.8,
-    "scratchpad_enabled": true
-  },
-  "evaluation_metrics": {
-    "success_rate_target": 0.85,
-    "false_positive_rate_max": 0.1,
-    "avg_steps_target": 3.0,
-    "provenance_coverage_target": 1.0
-  },
+  "collapse_class": "reversible",
   "composition_rules": {
     "can_delegate_to": [],
     "can_receive_from": [],
     "max_chain_depth": 3,
     "requires_orchestrator": true
   },
-  "observability": {
-    "trace_level": "full",
-    "log_inputs": true,
-    "log_outputs": true,
-    "log_intermediate": true,
-    "metrics_enabled": true
+  "content_hash": "bd8e4b4fc880d6cc",
+  "context_management": {
+    "compaction_threshold": 0.8,
+    "max_context_tokens": 4000,
+    "scratchpad_enabled": true,
+    "strategy": "progressive_disclosure"
   },
-  "tags": [
-    "type/agent",
-    "canon/agent",
-    "domain/super-engines",
-    "rscf/source_claim",
-    "hml/m",
-    "epistemic/amos_model",
-    "amos_os"
+  "depends_on_skills": [
+    "amos-distinction-relation-transformation"
   ],
-  "origin_architect": "Trang Phan",
-  "rscf_state": "SOURCE_CLAIM",
-  "hml_level": "M",
+  "depends_on_workflows": [
+    "amos-distinction-relation-transformation-workflow.md"
+  ],
+  "description": "Super engine for Distinction Relation Transformation",
+  "display_name": "Distinction Relation Transformation",
+  "domain": "super",
+  "epistemic_class": "AMOS_MODEL",
+  "error_recovery": {
+    "on_contradiction": "flag CRITICAL_GAP and halt",
+    "on_drift": "trigger drift alignment governor",
+    "on_provenance_loss": "mark as UNKNOWN and request human review",
+    "on_scope_violation": "reject and route to parent",
+    "on_timeout": "return partial result with GAP flag"
+  },
+  "evaluation_metrics": {
+    "avg_steps_target": 3.0,
+    "false_positive_rate_max": 0.1,
+    "provenance_coverage_target": 1.0,
+    "success_rate_target": 0.85
+  },
   "gmef_gates": [
     "L0_integrity",
     "L1_epistemic",
@@ -170,8 +77,28 @@
     "L5_scope",
     "L7_authority"
   ],
-  "collapse_class": "reversible",
-  "qfm_gate_set": "QFM_v43",
+  "governance": {
+    "approval_mode": "steward_review",
+    "business_domain": "runtime",
+    "observability": "structured_logs+content_hash",
+    "owner_team": "AMOS_CORE",
+    "promotion_state": "production",
+    "risk_tier": "medium"
+  },
+  "hml_level": "M",
+  "implementation": {
+    "class": null,
+    "executable": true,
+    "file": "amos-distinction-relation-transformation-agent.json",
+    "type": "json"
+  },
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim",
+    "Anti-overreach: no claim beyond the skill's declared scope",
+    "Failure mode: on validation failure, downgrade confidence, flag the gap, escalate"
+  ],
   "law_compliance": [
     "L0",
     "L1",
@@ -183,5 +110,78 @@
     "L17",
     "L18"
   ],
-  "domain": "super"
+  "lifecycle": {
+    "deprecated": false,
+    "deprecation_date": null,
+    "status": "active",
+    "successor": null
+  },
+  "name": "amos-distinction-relation-transformation-agent",
+  "observability": {
+    "log_inputs": true,
+    "log_intermediate": true,
+    "log_outputs": true,
+    "metrics_enabled": true,
+    "trace_level": "full"
+  },
+  "operations": [
+    {
+      "action": "Load the amos-distinction-relation-transformation skill and its content",
+      "gate": "skill_loaded",
+      "step": 1
+    },
+    {
+      "action": "Classify the query against runtime sub-capabilities",
+      "gate": "domain_confirmed",
+      "step": 2
+    },
+    {
+      "action": "Apply the appropriate capability with epistemic class labeling",
+      "gate": "epistemic_labeled",
+      "step": 3
+    },
+    {
+      "action": "Validate results against domain validation gates",
+      "gate": "gates_passed",
+      "step": 4
+    },
+    {
+      "action": "Present results with provenance and confidence ceiling",
+      "gate": "output_validated",
+      "step": 5
+    }
+  ],
+  "origin_architect": "Trang Phan",
+  "qfm_gate_set": "QFM_v43",
+  "reasoning_pattern": "Plan-Execute",
+  "role": "Distinction Relation Transformation — Runtime and OS engine within the runtime domain.",
+  "rscf_state": "SOURCE_CLAIM",
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
+  ],
+  "skill_binding": {
+    "primary_skill": "amos-distinction-relation-transformation",
+    "skill_path": ".devin/skills/amos-distinction-relation-transformation/SKILL.md"
+  },
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "tags": [
+    "type/agent",
+    "canon/agent",
+    "domain/engines-master",
+    "rscf/source_claim",
+    "hml/m",
+    "epistemic/amos_model",
+    "amos_os"
+  ],
+  "termination_criteria": {
+    "human_in_the_loop": false,
+    "max_steps": 10,
+    "max_tokens": 8000,
+    "stop_on_confidence_below": 0.3,
+    "stop_on_critical_gap": true,
+    "stop_on_scope_violation": true
+  },
+  "version": "1.1.0"
 }
