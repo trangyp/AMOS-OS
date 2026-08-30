@@ -53,10 +53,10 @@ Three skill/knowledge systems — now fully consistent:
 
 | System | Location | Count | Status |
 |--------|----------|-------|--------|
-| Devin skills | `.devin/skills/` | 655 | 100% SOTA-compliant — 0 critical failures, 0 warnings; 24 roots, 45 domains, 66 families in `SKILL_TREE.json`; quantum/fractal/math and SOTA agent-skill registry skills fully covered |
+| Devin skills | `.devin/skills/` | 699 | 100% SOTA-compliant — 0 critical failures, 0 warnings; 24 roots, 45 domains, 66 families in `SKILL_TREE.json`; quantum/fractal/math and SOTA agent-skill registry skills fully covered |
 | Hermes skills | `~/.hermes/skills/` | 2029 | (Pre-bulk-conversion snapshot; resync required) |
-| Devin agents | `.devin/agents/` | 682 | 682/682 JSON agents valid; 0 broken dependencies; consistent `amos-{name}-agent.json` naming; SOTA repo agents (AIOS, Addy Osmani, Anthropic, Tech Leads Club, ivanzwb) integrated |
-| Devin workflows | `.devin/workflows/` | 689 | 689/689 workflows pass validation with 0 errors, 0 warnings; 1 master index + operational workflows (MD); consistent `amos-*` naming |
+| Devin agents | `.devin/agents/` | 726 | 726/726 JSON agents valid; 0 broken dependencies; consistent `amos-{name}-agent.json` naming; SOTA repo agents (AIOS, Addy Osmani, Anthropic, Tech Leads Club, ivanzwb) integrated |
+| Devin workflows | `.devin/workflows/` | 699 | 699/699 workflows pass validation with 0 errors, 0 warnings; 1 master index + operational workflows (MD); consistent `amos-*` naming |
 | Obsidian vault | `.obsidian/` + `docs/` | 21 config, 10 MOCs, 22 ref docs, 15 canvases | Health check: all pass |
 
 **Bulk conversion (2026-08-24) — COMPLETE:**
@@ -444,123 +444,34 @@ Select specialized skills only when relevant:
 - `amos-human-systems-engine`: 8-layer HSE (human→team→org→market→infra→power→risk→prediction), 27 archetypes, A/B/C/D types, Vietnam-specific risks. Use for human systems analysis.
 - `amos-floating-economy`: Market structure analysis — TFI/COFI standards body, 5 market tactics (Banner, Frameworks, Data, Partners, Community). Use for market positioning strategy.
 
-## AMOS Agents (89 in .devin/agents/ — fully synced with Hermes)
+## AMOS Agents (726 in .devin/agents/ — SOTA canonical)
 
-62 original agents from `AMOS_AGENT_REGISTRY.json` + 27 Hermes-native JSON agents (AMOS_Cognition, AMOS_Consciousness, AMOS_Emotion, AMOS_Governance, etc.), across 7 systems + specialized:
-- **BRAIN_SYSTEM** (6): Architecture, Brain Consistency Auditor, Decomposer, Planner, Reflection, Strategist
-- **EXECUTION_SYSTEM** (7): Automation, Coding, Deployment, DevOps, Document, Refactor, Writing
-- **LEGAL_SYSTEM** (5): Compliance, Contract, IP, LegalRisk, Legal
-- **LIFE_SYSTEM** (4): Health, Life, LoadBalancer, Routine
-- **MONEY_SYSTEM** (5): Cashflow, FinanceRisk, Finance, Investment, Opportunity
-- **SENSE_SYSTEM** (4): Context, Knowledge Ingestion, Sensors, StateSummarizer
-- **WORLD_MODEL_SYSTEM** (5): GeoAnalyst, MacroAnalyst, SectorAnalyst, Shock, Trend
-- **Specialized** (7): AMOS OS, Canonical Body, Extractive Economy, Grand Cannon, HSE CEO, RSCF
-- **Research & Training** (4): Research, EngineModel, Training, TroyProject
-- **Domain Agents** (10): Country Analysis, Design Coding, Engineering Analysis, Governance Economy, Human Interaction, Legal Ecosystem, Meta Kernel Orchestrator, Risk Compliance, Scientific Writing, Strategic Document
+Current canonical count: **726 JSON agents** in `.devin/agents/`.
 
-## AMOS Workflows (521 in .devin/workflows/ — fully synced with Hermes)
+- 726/726 JSON agents valid; 0 broken dependencies.
+- Naming: `amos-{name}-agent.json`.
+- SOTA repo agents (AIOS, Addy Osmani, Anthropic, Tech Leads Club, ivanzwb) integrated.
+- For the authoritative list and per-agent manifests, see `skill-catalog.md` and `.devin/agents/`.
 
-- `production-readiness-verification` — 10-step production check
-- `new-skill-creation` — Create a new AMOS skill
-- `pipeline-module-integration` — Wire new module into pipeline
-- `canvas-creation` — Create Obsidian canvas files
-- `jest-to-vitest-migration` — Migrate Jest tests to Vitest
-- `documentation-update` — Add reference docs
-- `npm-install-recovery` — Fix npm install failures
-- `vault-exploration` — 12 common vault workflows
-- `brain-model-layer-addition` — Add cognitive layer to brain model
-- `deployment` — Deploy monorepo to production
-- `agent-orchestration` — Coordinate multiple AMOS agents
-- `engine-spec-to-skill` — Convert engine JSON spec to skill
-- `cosmo-brain-archive-exploration` — Explore _00_Cosmo brain archive
-- `cosmo-brain-refine` — Refine cosmo-brain modules
-- `algorithm-addition` — Add new algorithm to pipeline
-- `amos-canon-integration` — Integrate canon layers
-- `amos-country-pack-analysis` — Analyze country packs
-- `amos-domain-kernel-extraction` — Extract domain kernels
-- `amos-governance-economy-analysis` — Governance economy analysis
-- `amos-risk-compliance-assessment` — Risk compliance assessment
-- `amos-scientific-writing-pipeline` — Scientific writing pipeline
-- `amos-strategic-document-generation` — Strategic document generation
-- `amos-tech-engine-analysis` — Tech engine analysis
-- `brain-consistency-audit` — Audit brain model consistency
-- `brain-knowledge-ingestion` — Systematic brain knowledge ingestion
-- `brain-source-to-skill` — Convert brain source to skill
-- `country-pack-addition` — Add new country pack
-- `pack-creation` — Create new AMOS packs (Country/Sector/State/Scenario/Universe)
-- `universe-engine-integration` — Integrate _AMOS_UNIVERSE engine specs
-- `rscf-relation-extraction` — Extract RSCF relation gradients
-- `rscf-formal-compliance` — RSCF formal compliance check
-- `amos-build-from-spec` — Build from organism blueprint spec
-- `amos-os-master-boot` — AMOS OS master file boot
-- `canonical-glossary-build` — Build canonical glossary
-- `extractive-economy-analysis` — Extractive economy analysis
-- `grand-cannon-mobility` — Grand Cannon VN mobility workflow
-- `hse-ceo-governance` — HSE CEO governance workflow
-- `engine-model-onboarding` — Onboard to an AMOS engine
-- `research-paper-citation` — Find and cite AMOS research papers
-- `troy-project-analysis` — Analyze New Troy research project
-- `training-manual-study` — Study AMOS training manuals
-- `neurosync-deterministic-audit` — Audit system against NeuroSyncAI 5-tier architecture
-- `planetary-consent-deployment` — Deploy planetary consent infrastructure across 6 ecosystems
-- `absolute-human-archetype-analysis` — Analyze human behavior using 27 archetypes
-- `canon-integration-audit` — Audit canon integration using CIL (0 overlap, 0 gaps)
-- `designer-os-boot` — Boot AMOS Designer OS and iterate via AMOS.brain editing
+## AMOS Workflows (699 in .devin/workflows/ — SOTA canonical)
 
-## AMOS Agents (Phase 2 expansion — now 89 total, synced with Hermes)
+Current canonical count: **699 workflow definitions** in `.devin/workflows/`.
 
-New agents (Phase 2 expansion):
-- `NeuroSync_Agent` — Deterministic architecture auditing (BRAIN_SYSTEM)
-- `PlanetaryConsent_Agent` — Planetary consent infrastructure management (LEGAL_SYSTEM)
-- `AbsoluteHuman_Agent` — Human archetype and risk analysis (BRAIN_SYSTEM)
-- `CIL_Agent` — Canon Integration Layer operations (BRAIN_SYSTEM)
-- `DesignerOS_Agent` — AMOS Designer OS operations (EXECUTION_SYSTEM)
+- 699/699 workflows pass validation with 0 errors and 0 warnings.
+- Consistent `amos-*` naming; 1 master index + operational workflows.
+- For the authoritative list, see `.devin/workflows/` and `amos-wf-master-index-workflow-workflow.md`.
 
-## AMOS New Skills (Phase 2 Expansion — 30 new skills)
+## AMOS Agent Systems
 
-### Country Packs (4)
-- `amos-country-pack-au` — Australia country pack (10 files)
-- `amos-country-pack-sg` — Singapore country pack (9 files)
-- `amos-country-pack-us` — United States country pack (10 files)
-- `amos-country-pack-vn` — Vietnam country pack (11 files)
+All 726 agents are classified by the 8 canonical systems (BRAIN, EXECUTION, LEGAL, LIFE, MONEY, SENSE, WORLD_MODEL, plus Specialized/Research/Domain). Per-agent manifests live in `.devin/agents/`.
 
-### Sector Packs (5)
-- `amos-sector-pack-bizfin` — Business/Finance/Strategy sector pack
-- `amos-sector-pack-gov` — Governance/Legal/Risk sector pack
-- `amos-sector-pack-human` — Human/Organisation/Communication sector pack
-- `amos-sector-pack-science` — Science/Systems sector pack
-- `amos-sector-pack-tech` — Tech/Code/Automation sector pack
+## AMOS Skills (699 SOTA-compliant packages)
 
-### NeuroSyncAI Research Papers (5)
-- `amos-neurosync-dual-system` — Dual-system architecture for biological recovery
-- `amos-neurosync-certifiable-intelligence` — Certifiable intelligence infrastructure
-- `amos-neurosync-vs-genai` — Deterministic vs generative AI comparison
-- `amos-neurosync-aws` — AWS cloud deployment mapping
-- `amos-neurosync-business-plan` — Business model and UBA institutional architecture
+Current canonical count: **699 `SKILL.md` packages** in `.devin/skills/`.
 
-### Strategic & Academic Papers (5)
-- `amos-strategic-partnership-gcbat` — GCBAT Neural Tech Council partnership
-- `amos-art-of-peace-ubi` — Peace as measurable nervous system function
-- `amos-ubi-restoration-aboriginal` — Aboriginal somatic intelligence restoration
-- `amos-quantum-logic-information-origin` — QLS: where information comes from
-- `amos-dsc-submission-portfolio` — DSc/ScD portfolio (3 canons: URK, UBI, AMOS Universe OS)
-
-### Cognitive Stack Directories (8)
-- `amos-cognitive-stack-biology` — UBI Core Engine
-- `amos-cognitive-stack-human-society` — 5 kernels (behavioral econ, ethical reasoning, etc.)
-- `amos-cognitive-stack-logic` — Logic Core Engine
-- `amos-cognitive-stack-machine-architecture` — 4 kernels (memory, multi-agent, RL, toolchain)
-- `amos-cognitive-stack-math-foundations` — 5 kernels (control, optimization, probability, signal, simulation)
-- `amos-cognitive-stack-meta-cognition` — 7 kernels (analogy, compression, counterfactual, etc.)
-- `amos-cognitive-stack-systems` — Systems Core Engine
-- `amos-cognitive-stack-universe` — Universe Core Engine
-
-### VN Driver Training (1)
-- `amos-vn-driver-training-curriculum` — 48-hour EV taxi training curriculum
-
-### Previous Phase Skills (2)
-- `amos-vn-driver-training-curriculum` — (also listed above)
-- `amos-canon-integration-layer-txt` — CIL with canon registry
+- 0 critical failures, 0 warnings; 100% progressive-loading pass.
+- 24 root master skills, 45 domains, 66 families indexed in `SKILL_TREE.json`.
+- The Phase 2 new-skill list is superseded by the consolidated `SkillIndex.md` and `skill-catalog.md`.
 
 ## AMOS Memories (56 in ~/.config/devin/memories/)
 

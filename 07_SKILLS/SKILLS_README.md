@@ -20,7 +20,7 @@ rscf:
 This directory contains all AMOS OS skills, indexed by the 7-Part Universe Canon scaffold (Constraint→Flow→Structure→Enforcement→Time→Adaptation→Termination). Every skill maps to one or more of the 7 canonical parts, and the inventory is MECE across the 7 parts — no skill duplicates another's responsibility, and every part has at least one skill owning it.
 
 ## Skill Directory Structure
-Skills live at `.hermes/skills/amos-<name>/` and are synced to `07_SKILLS/amos-<name>/` via `hermes curator adopt`. The vault directory `07_SKILLS/` is the **canonical on-disk index**; `.hermes/skills/` is the **working copy** where skills are created and edited.
+Skills live at `.devin/skills/amos-<name>/` and are mirrored to `07_SKILLS/amos-<name>/` via the `skill-vault-sync` workflow (or `cp -r .devin/skills/amos-<name> 07_SKILLS/`). The vault directory `07_SKILLS/` is the **on-disk index mirror**; `.devin/skills/` is the **canonical working copy** where skills are created and edited.
 
 ## Canonical Entry Format (SKILL.md)
 Each skill has a `SKILL.md` with YAML frontmatter and markdown body:
@@ -50,17 +50,15 @@ Every SKILL.md MUST include a "## 7-Part Mapping" section:
 | VI — Adaptation | <skill names> | <FILLED/EMPTY> |
 | VII — Termination | <skill names> | <FILLED/EMPTY> |
 
-## Known Skills (11 currently with SKILL.md in hermes)
-- amos-7-part-universe-canon — the 7-part canon itself (owned by Part I–VII)
-- amos-a-matrix-system-dynamics — A-Matrix dynamics (Part III: Structure)
-- amos-law-stack-enforcement — Law of Law/Rule of 2/Rule of 4 (Part IV: Enforcement)
-- amos-qfm-agent — QFM agent with Trinity Model (Parts I, II, IV)
-- amos-qfm-orchestration — 7-phase QFM pipeline (Part II: Flow)
-- amos-fractal-equation-families — FR001–FR025 (Part III: Structure)
-- amos-quantum-fractal-math — quantum-fractal-math master (Parts I, III, V)
-- amos-optimization-claim-governance — claim hierarchy (Part IV: Enforcement)
-- amos-conjecture-discipline — BSD gates (Part VII: Termination)
-- amos-entropy-lacunarity-viability — entropy/lacunarity (Part V: Time)
+## Known Skills (699 SOTA-compliant SKILL.md packages in .devin/skills/)
+
+The full canonical inventory is in `SkillIndex.md` and `skill-catalog.md`. A few representative examples:
+
+- `amos-7-part-universe-canon` — the 7-part canon itself (owned by Part I–VII)
+- `amos-law-stack-enforcement` — Law of Law/Rule of 2/Rule of 4 (Part IV: Enforcement)
+- `amos-quantum-fractal-math` — quantum-fractal-math master (Parts I, III, V)
+- `amos-c10-tech-engineering-master` — coding / software engineering / technical architecture (Part VI: Adaptation)
+- `amos-knowledge-research-master` — Obsidian vault / arxiv / knowledge curation (Part II: Flow)
 
 ## Gap Inventory
 | Part | Skills | Gap Status |
@@ -74,8 +72,8 @@ Every SKILL.md MUST include a "## 7-Part Mapping" section:
 | VII — Termination | 2 | ✅ Filled |
 
 ## Sync Protocol
-1. Create/edit `.hermes/skills/amos-<name>/SKILL.md`
-2. Run `hermes curator adopt amos-<name>` to sync to `07_SKILLS/amos-<name>/SKILL.md`
+1. Create/edit `.devin/skills/amos-<name>/SKILL.md`
+2. Run the `skill-vault-sync` workflow (or `cp -r .devin/skills/amos-<name> 07_SKILLS/amos-<name>`) to mirror into `07_SKILLS/amos-<name>/SKILL.md`
 3. Run `brain-consistency-audit.py` to verify no empty parts
 4. Commit both vault and hermes sides
 
