@@ -88,7 +88,7 @@ def is_vault_note(rel_path: str) -> bool:
     parts = rel_path.replace("\\", "/").split("/")
     if parts and parts[0].startswith("_"):
         return False
-    if parts and parts[0] in (".devin", ".git", ".agents", ".claude", ".obsidian", "node_modules"):
+    if parts and parts[0] in (".devin", ".git", ".agents", ".claude", ".obsidian", "copilot", "node_modules"):
         return False
     return True
 
@@ -228,7 +228,8 @@ for root, dirs, files in os.walk(VAULT, followlinks=True):
             if in_code:
                 continue
             # Strip inline code spans so `[[...]]` literal mentions are not treated as links
-            line = re.sub(r'`[^`]*`', lambda m: ' ' * len(m.group(0)), raw_line)
+            # Handles single, double, and multi-backtick inline code
+            line = re.sub(r'`+[^`]*`+', lambda m: ' ' * len(m.group(0)), raw_line)
             for m in WIKILINK_RE.finditer(line):
                 target = m.group(1).strip()
                 if not target or target.startswith("http"):
