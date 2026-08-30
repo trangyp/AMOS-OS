@@ -10,6 +10,11 @@ tags:
 - law/L10-failure-recovery
 - dmer-l5
 - trang-framework-recursive-ontology-dynamics
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_core_laws
 ---
 
 # ROLLBACK_AND_RECOVERY_BASINS Law

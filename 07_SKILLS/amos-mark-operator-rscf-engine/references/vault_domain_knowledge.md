@@ -36,7 +36,6 @@ rscf:
 ```text
 _00_AMOS_CANON
 ```
-
 into the target namespace:
 
 ```text

@@ -4546,7 +4546,7 @@ scope expansion
 order manipulation
 cache poisoning
 spoofing
-+ additional attacks
+- additional attacks
 ```
 
 that does not necessarily falsify L20 if L20's list was illustrative rather than exhaustive.
@@ -5093,5 +5093,6 @@ until authoritative adversarial canon supplies discriminating validation.
 **Conclusion class: CONDITIONAL / AMOS_MODEL.**
 
 
+```
 ```
 ```

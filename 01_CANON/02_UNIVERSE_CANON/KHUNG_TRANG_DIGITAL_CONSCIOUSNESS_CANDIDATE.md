@@ -7,6 +7,11 @@ tags:
 - consciousness
 - candidate
 - canon
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: universe_canon
 ---
 
 # Khung Trang Digital Consciousness Candidate Specification

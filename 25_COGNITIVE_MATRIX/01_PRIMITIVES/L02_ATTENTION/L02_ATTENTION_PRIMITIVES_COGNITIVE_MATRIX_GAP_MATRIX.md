@@ -81,9 +81,9 @@ budget scarce reasoning/observation resources
 
 This supports the existence of:
 
-* an attention-allocation concern,
-* resource scarcity,
-* allocation/budget semantics at the primitive level.
+- an attention-allocation concern,
+- resource scarcity,
+- allocation/budget semantics at the primitive level.
 
 It does **not**, by itself, establish the detailed contracts for variables, equations, agents, skills, workflows, control planes, failure modes, repair, or executable runtime behavior.
 
@@ -2046,7 +2046,6 @@ AUTHORIZATION TO COMMIT
 
 ```text
 ```
-
 ---
 
 [[00_ROOT_MOC]]|[[AMOS MOC]]

@@ -140,26 +140,26 @@ This artifact reserves the **AMOS Emotion Master Canon** slot within the Canon p
 
 The Canon plane governs:
 
-* canonical laws;
-* universe canons;
-* cognition canons;
-* infrastructure canons;
-* variable registries;
-* glossary structures;
-* provenance lineage;
-* supersession.
+- canonical laws;
+- universe canons;
+- cognition canons;
+- infrastructure canons;
+- variable registries;
+- glossary structures;
+- provenance lineage;
+- supersession.
 
 Substantive content—including canonical:
 
-* definitions;
-* laws;
-* registries;
-* schemas;
-* models;
-* variables;
-* equations;
-* dependencies;
-* runtime bindings;
+- definitions;
+- laws;
+- registries;
+- schemas;
+- models;
+- variables;
+- equations;
+- dependencies;
+- runtime bindings;
 
 is to be populated from **verified native-canon sources** under the `AMOS_CANON_INGESTION_RULE`.
 
@@ -391,17 +391,17 @@ No list of emotions should be invented merely to populate the canonical slot.
 
 The placeholder does not establish equivalence among:
 
-* emotion;
-* affect;
-* feeling;
-* mood;
-* valence;
-* arousal;
-* motivation;
-* reward;
-* preference;
-* cognition;
-* consciousness.
+- emotion;
+- affect;
+- feeling;
+- mood;
+- valence;
+- arousal;
+- motivation;
+- reward;
+- preference;
+- cognition;
+- consciousness.
 
 Therefore preserve:
 
@@ -440,14 +440,14 @@ unless verified native canon explicitly establishes a different relation.
 
 The supplied source does not establish whether emotion is modeled as:
 
-* a state;
-* a process;
-* an event;
-* a trajectory;
-* a regime;
-* a latent variable;
-* a functional configuration;
-* another native construct.
+- a state;
+- a process;
+- an event;
+- a trajectory;
+- a regime;
+- a latent variable;
+- a functional configuration;
+- another native construct.
 
 Therefore:
 
@@ -629,18 +629,18 @@ emotion_cognition_relation:
 
 A future emotion canon must distinguish:
 
-* association;
-* correlation;
-* temporal precedence;
-* trigger;
-* mechanism;
-* enabling condition;
-* necessary condition;
-* sufficient condition;
-* mediation;
-* confounding;
-* feedback;
-* causal effect.
+- association;
+- correlation;
+- temporal precedence;
+- trigger;
+- mechanism;
+- enabling condition;
+- necessary condition;
+- sufficient condition;
+- mediation;
+- confounding;
+- feedback;
+- causal effect.
 
 Preserve:
 
@@ -882,14 +882,14 @@ EXTERNAL RESEARCH
 
 Therefore research from fields such as:
 
-* psychology;
-* affective science;
-* neuroscience;
-* cognitive science;
-* psychiatry;
-* behavioral science;
-* social science;
-* affective computing;
+- psychology;
+- affective science;
+- neuroscience;
+- cognitive science;
+- psychiatry;
+- behavioral science;
+- social science;
+- affective computing;
 
 must remain typed as **external evidence** unless canon governance explicitly incorporates it.
 
@@ -1399,30 +1399,30 @@ when material.
 
 Before accepting a consequential emotion claim, test:
 
-* Is **emotion** actually defined?
-* Is affect being silently called emotion?
-* Is feeling being silently called emotion?
-* Is mood being silently called emotion?
-* Is state being confused with trait?
-* Is expression being treated as internal emotion?
-* Is behavior being treated as emotion?
-* Is physiology being treated as emotion?
-* Is neural activity being treated as emotion?
-* Is self-report being treated as infallible ground truth?
-* Is classifier output being treated as verified emotion?
-* Is sentiment being treated as emotion?
-* Is emotion-like output being treated as subjective experience?
-* Is correlation being treated as causation?
-* Is temporal precedence being treated as causation?
-* Is a trigger being treated as a sufficient cause?
-* Is an individual result being generalized to a population?
-* Is a sample being generalized universally?
-* Is a context-specific result escaping its scope?
-* Did the regime change?
-* Are premises stale?
-* Are multiple descendants of one source being counted as independent evidence?
-* Is external research being silently imported as native canon?
-* Is confidence above the weakest load-bearing premise?
+- Is **emotion** actually defined?
+- Is affect being silently called emotion?
+- Is feeling being silently called emotion?
+- Is mood being silently called emotion?
+- Is state being confused with trait?
+- Is expression being treated as internal emotion?
+- Is behavior being treated as emotion?
+- Is physiology being treated as emotion?
+- Is neural activity being treated as emotion?
+- Is self-report being treated as infallible ground truth?
+- Is classifier output being treated as verified emotion?
+- Is sentiment being treated as emotion?
+- Is emotion-like output being treated as subjective experience?
+- Is correlation being treated as causation?
+- Is temporal precedence being treated as causation?
+- Is a trigger being treated as a sufficient cause?
+- Is an individual result being generalized to a population?
+- Is a sample being generalized universally?
+- Is a context-specific result escaping its scope?
+- Did the regime change?
+- Are premises stale?
+- Are multiple descendants of one source being counted as independent evidence?
+- Is external research being silently imported as native canon?
+- Is confidence above the weakest load-bearing premise?
 
 If the challenge succeeds:
 
@@ -1612,8 +1612,8 @@ gap:
 
 Required before promotion:
 
-* [[ROUTING_POLICY_VALIDATION_RECEIPT]]
-* [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+- [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+- [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
 Current status:
 
@@ -1707,40 +1707,40 @@ COMPETING DEFINITIONS HIDDEN
 
 #promotion_gate #checklist #validation
 
-* [ ] substantive content populated from verified native-canon source
-* [ ] framework identity established
-* [ ] source version established
-* [ ] source lineage established
-* [ ] typed schema bound to this artifact
-* [ ] identity + versioning implemented
-* [ ] native definition of emotion established
-* [ ] affect relation established if used
-* [ ] feeling relation established if used
-* [ ] mood relation established if used
-* [ ] state/process semantics established
-* [ ] emotion registry established if native
-* [ ] emotion taxonomy established if native
-* [ ] variables established if native
-* [ ] equations established if native
-* [ ] dynamics established if native
-* [ ] measurement contract established
-* [ ] cognition relation established if claimed
-* [ ] consciousness relation established if claimed
-* [ ] causal semantics established if claimed
-* [ ] scope envelope established
-* [ ] regime envelope established
-* [ ] temporal validity established
-* [ ] dependency topology established
-* [ ] provenance edges persisted and validated
-* [ ] provenance independence assessed
-* [ ] competing hypotheses preserved where unresolved
-* [ ] negative cases covered
-* [ ] rollback basin demonstrated for consequential effects
-* [ ] executable binding established if enforcement is claimed
-* [ ] [[ROUTING_POLICY_VALIDATION_RECEIPT]] resolved
-* [ ] [[AUTHZ_ENGINE_VALIDATION_RECEIPT]] resolved
-* [ ] executed validation receipt specific to this artifact
-* [ ] unresolved critical gaps registered as `UNKNOWN/GAP`
+- [ ] substantive content populated from verified native-canon source
+- [ ] framework identity established
+- [ ] source version established
+- [ ] source lineage established
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] native definition of emotion established
+- [ ] affect relation established if used
+- [ ] feeling relation established if used
+- [ ] mood relation established if used
+- [ ] state/process semantics established
+- [ ] emotion registry established if native
+- [ ] emotion taxonomy established if native
+- [ ] variables established if native
+- [ ] equations established if native
+- [ ] dynamics established if native
+- [ ] measurement contract established
+- [ ] cognition relation established if claimed
+- [ ] consciousness relation established if claimed
+- [ ] causal semantics established if claimed
+- [ ] scope envelope established
+- [ ] regime envelope established
+- [ ] temporal validity established
+- [ ] dependency topology established
+- [ ] provenance edges persisted and validated
+- [ ] provenance independence assessed
+- [ ] competing hypotheses preserved where unresolved
+- [ ] negative cases covered
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executable binding established if enforcement is claimed
+- [ ] [[ROUTING_POLICY_VALIDATION_RECEIPT]] resolved
+- [ ] [[AUTHZ_ENGINE_VALIDATION_RECEIPT]] resolved
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as `UNKNOWN/GAP`
 
 ---
 
@@ -1874,7 +1874,6 @@ SAME SEGMENT
 !=
 SEMANTIC DEPENDENCY
 ```
-
 ---
 
 ## 40. Relation to AMOS Consciousness Canon
@@ -1999,33 +1998,33 @@ executable_binding: NOT_ESTABLISHED
 
 It establishes:
 
-* artifact identity;
-* artifact location;
-* `CANON` artifact kind;
-* Cognition Canon segment membership;
-* ADD-ONLY ingestion intent;
-* canon-governance integrity boundaries;
-* target canon-operation semantics;
-* target promotion requirements;
-* target cross-plane bindings.
+- artifact identity;
+- artifact location;
+- `CANON` artifact kind;
+- Cognition Canon segment membership;
+- ADD-ONLY ingestion intent;
+- canon-governance integrity boundaries;
+- target canon-operation semantics;
+- target promotion requirements;
+- target cross-plane bindings.
 
 It does **not** establish:
 
-* a native emotion definition;
-* an emotion ontology;
-* an emotion registry;
-* an emotion taxonomy;
-* emotion variables;
-* emotion equations;
-* emotion dynamics;
-* emotion measurement semantics;
-* emotion/cognition semantics;
-* emotion/consciousness semantics;
-* causal emotion semantics;
-* substantive scope;
-* substantive regime;
-* executable implementation;
-* validation.
+- a native emotion definition;
+- an emotion ontology;
+- an emotion registry;
+- an emotion taxonomy;
+- emotion variables;
+- emotion equations;
+- emotion dynamics;
+- emotion measurement semantics;
+- emotion/cognition semantics;
+- emotion/consciousness semantics;
+- causal emotion semantics;
+- substantive scope;
+- substantive regime;
+- executable implementation;
+- validation.
 
 Those remain:
 
@@ -2367,32 +2366,32 @@ PROMOTE ONLY AFTER VALIDATION
 
 ### Parent MOCs
 
-* [[00_ROOT_MOC|AMOS MOC]]
-* [[00_HOME]]
-* [[03_COGNITION_CANON_MOC]]
+- [[00_ROOT_MOC|AMOS MOC]]
+- [[00_HOME]]
+- [[03_COGNITION_CANON_MOC]]
 
 ### Core indexes
 
-* [[AMOS_RSCF_NODES]]
-* [[LAW_HIERARCHY]]
+- [[AMOS_RSCF_NODES]]
+- [[LAW_HIERARCHY]]
 
 ### Related cognition canon
 
-* [[AMOS_COGNITION_CANON]]
-* [[AMOS_EMOTION_CANON]]
-* [[AMOS_CONSCIOUSNESS_CANON]]
+- [[AMOS_COGNITION_CANON]]
+- [[AMOS_EMOTION_CANON]]
+- [[AMOS_CONSCIOUSNESS_CANON]]
 
 ### Target infrastructure bindings
 
-* [[KERNEL_README]]
-* [[CONTROL_PLANE_README]]
-* [[OBSERVABILITY_README]]
-* [[OPERATIONS_README]]
+- [[KERNEL_README]]
+- [[CONTROL_PLANE_README]]
+- [[OBSERVABILITY_README]]
+- [[OPERATIONS_README]]
 
 ### Required validation receipts
 
-* [[ROUTING_POLICY_VALIDATION_RECEIPT]]
-* [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+- [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+- [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
 ---
 

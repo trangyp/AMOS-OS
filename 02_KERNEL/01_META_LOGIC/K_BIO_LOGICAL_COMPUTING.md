@@ -280,31 +280,31 @@ This artifact reserves the **Bio-Logical Computing** framework slot within the K
 
 At the surrounding architectural level, the Kernel plane concerns reasoning/runtime primitives including:
 
-* meta-logic;
-* cognition;
-* causality;
-* state;
-* memory;
-* uncertainty;
-* risk and repair;
-* authority;
-* provenance;
-* integration;
-* contradiction handling;
-* and governed state transition.
+- meta-logic;
+- cognition;
+- causality;
+- state;
+- memory;
+- uncertainty;
+- risk and repair;
+- authority;
+- provenance;
+- integration;
+- contradiction handling;
+- and governed state transition.
 
 The exact native AMOS meaning of **Bio-Logical Computing** remains unresolved.
 
 Therefore the name itself MUST NOT be used to infer that AMOS canon asserts:
 
-* computation literally occurs through a biological mechanism;
-* AMOS is biologically equivalent to a nervous system;
-* software modules correspond directly to biological organs;
-* cognition is reducible to a particular biological process;
-* biological systems instantiate AMOS architecture;
-* AMOS architecture explains biological intelligence;
-* biological analogy proves computational mechanism;
-* or computational similarity proves biological identity.
+- computation literally occurs through a biological mechanism;
+- AMOS is biologically equivalent to a nervous system;
+- software modules correspond directly to biological organs;
+- cognition is reducible to a particular biological process;
+- biological systems instantiate AMOS architecture;
+- AMOS architecture explains biological intelligence;
+- biological analogy proves computational mechanism;
+- or computational similarity proves biological identity.
 
 Those would require substantive source evidence.
 
@@ -314,18 +314,18 @@ Those would require substantive source evidence.
 
 This placeholder MUST NOT be used to claim:
 
-* biological truth;
-* neuroscience validation;
-* cognitive-science validation;
-* synthetic-biology validity;
-* universal laws of living systems;
-* universal computation laws;
-* mathematical theoremhood;
-* philosophical certainty;
-* empirical equivalence between AMOS and biological cognition;
-* implementation merely because an architecture is described;
-* validation merely because a framework is addressable;
-* or runtime authority merely because this node belongs to the Kernel.
+- biological truth;
+- neuroscience validation;
+- cognitive-science validation;
+- synthetic-biology validity;
+- universal laws of living systems;
+- universal computation laws;
+- mathematical theoremhood;
+- philosophical certainty;
+- empirical equivalence between AMOS and biological cognition;
+- implementation merely because an architecture is described;
+- validation merely because a framework is addressable;
+- or runtime authority merely because this node belongs to the Kernel.
 
 ---
 
@@ -817,13 +817,13 @@ This matters especially when scientific claims are repeatedly summarized across 
 
 Do not assume independence from:
 
-* multiple papers citing the same experiment;
-* multiple summaries of one study;
-* mirrored datasets;
-* multiple AMOS derivatives from one master artifact;
-* repeated README claims;
-* generated summaries;
-* or duplicated corpus entries.
+- multiple papers citing the same experiment;
+- multiple summaries of one study;
+- mirrored datasets;
+- multiple AMOS derivatives from one master artifact;
+- repeated README claims;
+- generated summaries;
+- or duplicated corpus entries.
 
 Track:
 
@@ -1228,17 +1228,17 @@ CONDITIONAL
 
 A consequential Bio-Logical Computing claim SHOULD be challenged through a genuinely different path seeking:
 
-* biological counterevidence;
-* computational counterexample;
-* provenance correlation;
-* stale premises;
-* scope leakage;
-* scale mismatch;
-* regime mismatch;
-* hidden dependencies;
-* causal overreach;
-* stronger alternative mechanisms;
-* and semantic ambiguity.
+- biological counterevidence;
+- computational counterexample;
+- provenance correlation;
+- stale premises;
+- scope leakage;
+- scale mismatch;
+- regime mismatch;
+- hidden dependencies;
+- causal overreach;
+- stronger alternative mechanisms;
+- and semantic ambiguity.
 
 Challenge success requires downgrade, conditioning, competing status, or rejection.
 
@@ -2090,37 +2090,31 @@ biological analogy
     ↓
 mechanistic claim
 ```
-
 ```text
 similar topology
     ↓
 same causal process
 ```
-
 ```text
 simulation
     ↓
 biological validation
 ```
-
 ```text
 benchmark success
     ↓
 general intelligence proof
 ```
-
 ```text
 implementation
     ↓
 scientific proof
 ```
-
 ```text
 documentation
     ↓
 runtime enforcement
 ```
-
 ---
 
 # 70. Scientific-Claim Boundary
@@ -2228,14 +2222,14 @@ UNKNOWN/GAP
 
 Potential poisoning patterns include:
 
-* fabricated scientific sources;
-* generated text relabeled as native canon;
-* repeated derivative biological claims;
-* provenance laundering;
-* external research relabeled as AMOS canon;
-* stale experimental findings presented as universal;
-* correlations promoted to mechanisms;
-* and analogy promoted to causal identity.
+- fabricated scientific sources;
+- generated text relabeled as native canon;
+- repeated derivative biological claims;
+- provenance laundering;
+- external research relabeled as AMOS canon;
+- stale experimental findings presented as universal;
+- correlations promoted to mechanisms;
+- and analogy promoted to causal identity.
 
 ---
 
@@ -2346,12 +2340,12 @@ No transition is automatic.
 
 Required:
 
-* [ ] native source identified;
-* [ ] source provenance recorded;
-* [ ] source version/hash recorded where available;
-* [ ] source explicitly defines Bio-Logical Computing;
-* [ ] source lineage established;
-* [ ] source not merely external interpretation.
+- [ ] native source identified;
+- [ ] source provenance recorded;
+- [ ] source version/hash recorded where available;
+- [ ] source explicitly defines Bio-Logical Computing;
+- [ ] source lineage established;
+- [ ] source not merely external interpretation.
 
 ---
 
@@ -2359,15 +2353,15 @@ Required:
 
 Required:
 
-* [ ] native definition extracted;
-* [ ] exact terminology preserved;
-* [ ] biological claims typed;
-* [ ] computational claims typed;
-* [ ] mappings typed;
-* [ ] equations preserved exactly;
-* [ ] competing sources visible;
-* [ ] dependencies established;
-* [ ] scope established.
+- [ ] native definition extracted;
+- [ ] exact terminology preserved;
+- [ ] biological claims typed;
+- [ ] computational claims typed;
+- [ ] mappings typed;
+- [ ] equations preserved exactly;
+- [ ] competing sources visible;
+- [ ] dependencies established;
+- [ ] scope established.
 
 ---
 
@@ -2375,11 +2369,11 @@ Required:
 
 Required:
 
-* [ ] canonical precedence established;
-* [ ] supersession resolved;
-* [ ] duplicate variants resolved or marked `COMPETING`;
-* [ ] historical lineage preserved;
-* [ ] no critical identity gap.
+- [ ] canonical precedence established;
+- [ ] supersession resolved;
+- [ ] duplicate variants resolved or marked `COMPETING`;
+- [ ] historical lineage preserved;
+- [ ] no critical identity gap.
 
 ---
 
@@ -2387,13 +2381,13 @@ Required:
 
 Required:
 
-* [ ] typed schema;
-* [ ] schema version;
-* [ ] biological/computational type distinctions where applicable;
-* [ ] malformed input semantics;
-* [ ] unknown semantics;
-* [ ] state transition rules;
-* [ ] serialization rules.
+- [ ] typed schema;
+- [ ] schema version;
+- [ ] biological/computational type distinctions where applicable;
+- [ ] malformed input semantics;
+- [ ] unknown semantics;
+- [ ] state transition rules;
+- [ ] serialization rules.
 
 ---
 
@@ -2401,13 +2395,13 @@ Required:
 
 Required:
 
-* [ ] executable binding;
-* [ ] implementation identity/version;
-* [ ] deterministic gates where required;
-* [ ] provenance persistence;
-* [ ] authority integration;
-* [ ] state integration;
-* [ ] rollback behavior.
+- [ ] executable binding;
+- [ ] implementation identity/version;
+- [ ] deterministic gates where required;
+- [ ] provenance persistence;
+- [ ] authority integration;
+- [ ] state integration;
+- [ ] rollback behavior.
 
 ---
 
@@ -2415,21 +2409,21 @@ Required:
 
 Required:
 
-* [ ] positive tests;
-* [ ] negative tests;
-* [ ] malformed-input tests;
-* [ ] missing-input tests;
-* [ ] stale-state tests;
-* [ ] unauthorized-operation tests;
-* [ ] provenance-conflict tests;
-* [ ] scope mismatch tests;
-* [ ] regime mismatch tests;
-* [ ] scale mismatch tests;
-* [ ] causal-overreach tests where applicable;
-* [ ] rollback tests;
-* [ ] concurrency tests where applicable;
-* [ ] adversarial validation;
-* [ ] executed artifact-specific receipt.
+- [ ] positive tests;
+- [ ] negative tests;
+- [ ] malformed-input tests;
+- [ ] missing-input tests;
+- [ ] stale-state tests;
+- [ ] unauthorized-operation tests;
+- [ ] provenance-conflict tests;
+- [ ] scope mismatch tests;
+- [ ] regime mismatch tests;
+- [ ] scale mismatch tests;
+- [ ] causal-overreach tests where applicable;
+- [ ] rollback tests;
+- [ ] concurrency tests where applicable;
+- [ ] adversarial validation;
+- [ ] executed artifact-specific receipt.
 
 ---
 
@@ -2437,41 +2431,41 @@ Required:
 
 Required:
 
-* [ ] production/runtime binding;
-* [ ] runtime path invokes implementation;
-* [ ] bypass analysis;
-* [ ] fail-closed gates;
-* [ ] monitoring;
-* [ ] audit trail;
-* [ ] rollback/recovery demonstration;
-* [ ] enforcement receipt.
+- [ ] production/runtime binding;
+- [ ] runtime path invokes implementation;
+- [ ] bypass analysis;
+- [ ] fail-closed gates;
+- [ ] monitoring;
+- [ ] audit trail;
+- [ ] rollback/recovery demonstration;
+- [ ] enforcement receipt.
 
 ---
 
 # 86. Artifact Promotion Checklist
 
-* [ ] substantive native canon populated;
-* [ ] `Bio-Logical Computing` explicitly defined;
-* [ ] biological terminology sourced;
-* [ ] computational terminology sourced;
-* [ ] cross-domain relations explicitly typed;
-* [ ] canonical equations preserved;
-* [ ] provenance graph persisted;
-* [ ] canonical lineage resolved;
-* [ ] historical sources linked;
-* [ ] schema bound;
-* [ ] identity/versioning implemented;
-* [ ] negative cases tested;
-* [ ] stale-state behavior tested;
-* [ ] unauthorized behavior tested;
-* [ ] scope firewall tested;
-* [ ] regime firewall tested;
-* [ ] scale firewall tested;
-* [ ] causal firewall tested;
-* [ ] rollback demonstrated;
-* [ ] artifact-specific validation receipt;
-* [ ] critical gaps visible;
-* [ ] no analogy promoted to mechanism without evidence.
+- [ ] substantive native canon populated;
+- [ ] `Bio-Logical Computing` explicitly defined;
+- [ ] biological terminology sourced;
+- [ ] computational terminology sourced;
+- [ ] cross-domain relations explicitly typed;
+- [ ] canonical equations preserved;
+- [ ] provenance graph persisted;
+- [ ] canonical lineage resolved;
+- [ ] historical sources linked;
+- [ ] schema bound;
+- [ ] identity/versioning implemented;
+- [ ] negative cases tested;
+- [ ] stale-state behavior tested;
+- [ ] unauthorized behavior tested;
+- [ ] scope firewall tested;
+- [ ] regime firewall tested;
+- [ ] scale firewall tested;
+- [ ] causal firewall tested;
+- [ ] rollback demonstrated;
+- [ ] artifact-specific validation receipt;
+- [ ] critical gaps visible;
+- [ ] no analogy promoted to mechanism without evidence.
 
 ---
 
@@ -3705,33 +3699,33 @@ NOT_ESTABLISHED
 
 ## Established
 
-* artifact name;
-* artifact ID;
-* path;
-* Kernel placement;
-* Meta-Logic segment;
-* origin architect/steward metadata;
-* placeholder status;
-* ADD-ONLY ingestion policy;
-* integrity boundaries;
-* target governance semantics.
+- artifact name;
+- artifact ID;
+- path;
+- Kernel placement;
+- Meta-Logic segment;
+- origin architect/steward metadata;
+- placeholder status;
+- ADD-ONLY ingestion policy;
+- integrity boundaries;
+- target governance semantics.
 
 ## Not established
 
-* native definition of Bio-Logical Computing;
-* meaning of `Bio-Logical`;
-* biological primitives;
-* computational primitives;
-* biological/computational mapping;
-* native axioms;
-* native equations;
-* native algorithms;
-* empirical biological validity;
-* canonical precedence;
-* historical lineage;
-* executable implementation;
-* runtime enforcement;
-* artifact-specific validation.
+- native definition of Bio-Logical Computing;
+- meaning of `Bio-Logical`;
+- biological primitives;
+- computational primitives;
+- biological/computational mapping;
+- native axioms;
+- native equations;
+- native algorithms;
+- empirical biological validity;
+- canonical precedence;
+- historical lineage;
+- executable implementation;
+- runtime enforcement;
+- artifact-specific validation.
 
 The unresolved state is intentional and MUST remain visible.
 

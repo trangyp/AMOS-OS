@@ -7,6 +7,13 @@ tags:
 - engine
 - vinfinity
 - org-governance-engine-vinfinity-v2-0-0
+type: note
+source: 11_KNOWLEDGE/stubs
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # org governance engine vinfinity v2 0 0

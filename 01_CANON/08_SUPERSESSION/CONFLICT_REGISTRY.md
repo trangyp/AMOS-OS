@@ -48,6 +48,11 @@ tags:
 - authoritative-state
 aliases:
 - AMOS Conflict Registry - AMOS OS Conflict Registry - Canon Conflict Registry
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # AMOS OS Conflict Registry

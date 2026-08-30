@@ -138,13 +138,11 @@ OPTIMIZATION
 !=
 VALIDATION
 ```
-
 ```text
 PERFORMANCE_GAIN
 !=
 SYSTEM_IMPROVEMENT
 ```
-
 A mutation counts as improvement only when it preserves the load-bearing integrity contract within its declared scope.
 
 ---
@@ -3961,130 +3959,109 @@ NEWER
 !=
 BETTER
 ```
-
 ```text
 NOVELTY
 !=
 VALIDITY
 ```
-
 ```text
 BENCHMARK_GAIN
 !=
 UNIVERSAL_GAIN
 ```
-
 ```text
 LOCAL_SUCCESS
 !=
 GLOBAL_VALIDITY
 ```
-
 ```text
 LEARNING
 !=
 UNBOUNDED_SELF_MODIFICATION
 ```
-
 ```text
 EVOLUTION_ENGINE
 !=
 EVOLUTION_AUTHORITY
 ```
-
 ```text
 CANDIDATE
 !=
 CANON
 ```
-
 ```text
 VALIDATED
 !=
 PROMOTED
 ```
-
 ```text
 PROMOTED
 !=
 DEPLOYED
 ```
-
 ```text
 PROMOTION_RECEIPT
 !=
 PROOF_OF_IMPROVEMENT
 ```
-
 ```text
 REPETITION
 !=
 INDEPENDENT_VALIDATION
 ```
-
 ```text
 SUCCESS
 !=
 CAUSAL_PROOF
 ```
-
 ```text
 FAILURE
 !=
 LESSON
 ```
-
 ```text
 METRIC_GAIN
 !=
 OBJECTIVE_GAIN
 ```
-
 ```text
 BUILD
 REQUIRES
 REFINEMENT
 ```
-
 ```text
 CRITICAL_REGRESSION
 BLOCKS
 PROMOTION
 ```
-
 ```text
 OPTIMIZATION
 MUST NOT
 WEAKEN INTEGRITY
 ```
-
 ```text
 FAILED PREMISE
 INVALIDATES
 DEPENDENT STATE,
 NOT ALL STATE
 ```
-
 ```text
 FAILED PATH
 MUST NOT
 BE REPEATED
 WITHOUT CHANGED CONDITIONS
 ```
-
 ```text
 P7
 MUST NOT
 SELF-AUTHORIZE
 KERNEL-LAW MUTATION
 ```
-
 ```text
 UNKNOWN/GAP
 !=
 VALIDATED
 ```
-
 ---
 
 # 239. P7-1 Canonical Law — Cycle Discipline

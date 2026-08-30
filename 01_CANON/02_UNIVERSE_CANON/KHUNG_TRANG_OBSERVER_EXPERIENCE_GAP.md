@@ -11,6 +11,11 @@ tags:
 - khung-trang-master
 - p1-reality-environment
 - trang-framework-recursive-ontology-dynamics
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: universe_canon
 ---
 
 # Khung Trang Observer Experience Gap Principle

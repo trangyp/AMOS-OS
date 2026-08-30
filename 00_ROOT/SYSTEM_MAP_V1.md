@@ -78,6 +78,11 @@ tags:
 aliases:
 - AMOS System Map - AMOS OS System Map - AMOS Plane Map - AMOS Architecture Map -
   AMOS Repos
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: root_index
 ---
 
 # AMOS OS System Map
@@ -752,13 +757,11 @@ MEMORY
 !=
 VALIDATED KNOWLEDGE
 ```
-
 ```text
 REMEMBERED
 !=
 TRUE
 ```
-
 ---
 
 # 16. `11_KNOWLEDGE` — Knowledge Plane
@@ -2131,7 +2134,6 @@ FULL_TREE
 =
 WHERE EXPECTED ARTIFACTS LIVE
 ```
-
 The system map should remain relatively stable even when the detailed tree grows.
 
 ---
@@ -2149,7 +2151,6 @@ DEPENDENCY_MAP
 =
 TYPED DEPENDENCY EDGES
 ```
-
 A system map should not attempt to duplicate every dependency edge.
 
 ---
@@ -2167,7 +2168,6 @@ AUTHORITATIVE_STATE
 =
 CURRENT VERIFIED IMPLEMENTATION STATE
 ```
-
 Therefore:
 
 ```text
@@ -2191,13 +2191,11 @@ ROADMAP
 =
 WHEN / IN WHAT PROMOTION ORDER
 ```
-
 ```text
 AUTHORITATIVE_STATE
 =
 WHAT IS CURRENTLY VERIFIED
 ```
-
 Together:
 
 ```text
@@ -2576,34 +2574,34 @@ Expanded the root placeholder into the AMOS OS system topology map.
 
 Added:
 
-* plane classification;
-* root architectural spine;
-* cross-cutting substrate topology;
-* responsibilities for all 26 top-level planes;
-* authority flow;
-* information flow;
-* knowledge flow;
-* state flow;
-* provenance flow;
-* RSCF topology;
-* H/M/L topology;
-* agent/skill/workflow relationships;
-* tool and authority firewall;
-* memory/model/schema/security/observability relationships;
-* research-to-canon firewall;
-* archive and cognitive-matrix boundaries;
-* plane ownership matrix;
-* external-effect boundary;
-* failure and recovery topology;
-* v4.4 fast-path boundary;
-* mode-system placement;
-* source-of-truth rule;
-* root-document relationships;
-* H/M/L repository interpretation;
-* 20 structural invariants;
-* 20 system-map failure classes;
-* map-integrity checks;
-* master RSCF node.
+- plane classification;
+- root architectural spine;
+- cross-cutting substrate topology;
+- responsibilities for all 26 top-level planes;
+- authority flow;
+- information flow;
+- knowledge flow;
+- state flow;
+- provenance flow;
+- RSCF topology;
+- H/M/L topology;
+- agent/skill/workflow relationships;
+- tool and authority firewall;
+- memory/model/schema/security/observability relationships;
+- research-to-canon firewall;
+- archive and cognitive-matrix boundaries;
+- plane ownership matrix;
+- external-effect boundary;
+- failure and recovery topology;
+- v4.4 fast-path boundary;
+- mode-system placement;
+- source-of-truth rule;
+- root-document relationships;
+- H/M/L repository interpretation;
+- 20 structural invariants;
+- 20 system-map failure classes;
+- map-integrity checks;
+- master RSCF node.
 
 ## v1.0.0 — 2026-08-25
 

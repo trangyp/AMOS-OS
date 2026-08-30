@@ -81,8 +81,8 @@ epistemic_boundary:
 `TSS_THE_TRANG_SYSTEM.md` is the canonical Knowledge Plane reference artifact for **The Trang System™ (TSS)** within `11_KNOWLEDGE/05_FRAMEWORKS`.
 
 It integrates the foundational models established in native vault manuals:
-* [`11_KNOWLEDGE/trang/TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL.md`](file:///Users/mac/Documents/AMOS_OS/11_KNOWLEDGE/trang/[[TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL]].md)
-* [`11_KNOWLEDGE/trang/THE_SEVEN_CYCLES_OF_THE_TRANG_SYSTEM_OFFICIAL_M.md`](file:///Users/mac/Documents/AMOS_OS/11_KNOWLEDGE/trang/[[THE_SEVEN_CYCLES_OF_THE_TRANG_SYSTEM_OFFICIAL_M]].md)
+- [`11_KNOWLEDGE/trang/TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL.md`](file:///Users/mac/Documents/AMOS_OS/11_KNOWLEDGE/trang/[[TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL]].md)
+- [`11_KNOWLEDGE/trang/THE_SEVEN_CYCLES_OF_THE_TRANG_SYSTEM_OFFICIAL_M.md`](file:///Users/mac/Documents/AMOS_OS/11_KNOWLEDGE/trang/[[THE_SEVEN_CYCLES_OF_THE_TRANG_SYSTEM_OFFICIAL_M]].md)
 
 ---
 
@@ -106,12 +106,12 @@ The Trang System™ provides a universal language for interpreting how human-lin
 
 # 2. Key Mathematical Formulations
 
-* **Variable Couplings:**
+- **Variable Couplings:**
   $$\frac{\partial H}{\partial F} < 0 \quad (\text{Internal division erodes social trust and cohesion})$$
   $$\frac{\partial F}{\partial \Omega} > 0 \quad (\text{Unchecked load and complexity accelerate fragmentation})$$
-* **Structural Vulnerability Function:**
+- **Structural Vulnerability Function:**
   $$\text{Vulnerability} \sim \frac{\Omega \cdot F}{H} \cdot S$$
-* **Internal Coherence ($i$) and Emergence ($e$):**
+- **Internal Coherence ($i$) and Emergence ($e$):**
   $$i = \left[ H \cdot (1 - \Omega) \cdot (1 - F) \cdot (1 - S) \right]^{1/4}, \quad e = i^2$$
 
 ---

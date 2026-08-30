@@ -54,6 +54,11 @@ tags:
 - supersession-log
 aliases:
 - AMOS OS Authoritative State - Authoritative State - AMOS Authoritative State - AUTHORITATIVE
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: root_index
 ---
 
 # AMOS OS Authoritative State

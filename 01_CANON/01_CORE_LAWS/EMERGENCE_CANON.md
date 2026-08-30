@@ -5250,19 +5250,19 @@ native_supersession_status: NOT_ESTABLISHED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY:
+- INDEXED_BY:
 
-* INDEXED_BY:
+- INDEXED_BY:
 
-* GOVERNED_BY:
+- GOVERNED_BY:
 
-* TARGET_INTERACTS_WITH:
+- TARGET_INTERACTS_WITH:
 
-* TARGET_CONTROLLED_BY:
+- TARGET_CONTROLLED_BY:
 
-* TARGET_OBSERVED_BY:
+- TARGET_OBSERVED_BY:
 
-* TARGET_RECOVERED_BY:
+- TARGET_RECOVERED_BY:
 
 ---
 
@@ -5321,4 +5321,5 @@ RSCF-RELATIONS:
 
 Critical gap preserved: **the word “Emergence” does not itself establish an AMOS emergence law**. In particular, the expansion does not silently import complexity-theory or philosophical definitions such as novelty, irreducibility, unpredictability, self-organization, micro→macro generation, strong/weak emergence, or downward causation. Those remain separately typed `UNKNOWN/GAP` slots until supported by verified native AMOS canon.
 
+```
 ```

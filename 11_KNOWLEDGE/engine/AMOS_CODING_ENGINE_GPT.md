@@ -355,18 +355,18 @@ Turn any software-related request into:
 with zero drift and strict structural integrity.
 
 /**
- * Unified Coding Engine v∞
+ - Unified Coding Engine v∞
  *
- * One-file TypeScript orchestrator that:
- * - Embeds the UniPower Coding Engine spec
- * - Defines types for layers, functions, workflows
- * - Lets you call:
- *     - runFunction("backend_layer.implement_domain_service", input)
- *     - runWorkflow("implement_new_feature", context)
+ - One-file TypeScript orchestrator that:
+ - - Embeds the UniPower Coding Engine spec
+ - - Defines types for layers, functions, workflows
+ - - Lets you call:
+ -     - runFunction("backend_layer.implement_domain_service", input)
+ -     - runWorkflow("implement_new_feature", context)
  *
- * You still need to:
- * - Plug in a real LLM client in callLLM()
- * - Connect repo / CI / tools in the stub sections
+ - You still need to:
+ - - Plug in a real LLM client in callLLM()
+ - - Connect repo / CI / tools in the stub sections
  */
 
 //////////////////////////////
@@ -1035,7 +1035,7 @@ function resolveFunction(path: string): {
 }
 
 /**
- * Build the system prompt for the LLM.
+ - Build the system prompt for the LLM.
  */
 function buildSystemPrompt(
   layerName: EngineLayerName,
@@ -1063,7 +1063,7 @@ function buildSystemPrompt(
 }
 
 /**
- * Build user prompt from input payload.
+ - Build user prompt from input payload.
  */
 function buildUserPrompt(
   spec: EngineFunctionSpec,
@@ -1092,7 +1092,7 @@ function buildUserPrompt(
 }
 
 /**
- * Stub LLM call — replace with a real OpenAI or other client when wiring to production.
+ - Stub LLM call — replace with a real OpenAI or other client when wiring to production.
  */
 async function callLLM(
   systemPrompt: string,
@@ -1115,7 +1115,7 @@ async function callLLM(
 }
 
 /**
- * Run a single engine function.
+ - Run a single engine function.
  */
 export async function runFunction(
   path: string,
@@ -1136,8 +1136,8 @@ export async function runFunction(
 }
 
 /**
- * Run a predefined workflow (sequence of functions).
- * Each step receives the shared context, and you can evolve it between steps.
+ - Run a predefined workflow (sequence of functions).
+ - Each step receives the shared context, and you can evolve it between steps.
  */
 export async function runWorkflow(
   workflowName: string,

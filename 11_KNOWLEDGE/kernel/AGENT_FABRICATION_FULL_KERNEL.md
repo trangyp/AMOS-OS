@@ -57,17 +57,17 @@ rscf:
 >
 > The supplied artifact defines:
 >
-> * **20 architectural clusters**
-> * **20 evaluation/design dimensions**
-> * a **100,000-layer virtual expansion model**
-> * **3 virtual tensor axes**
-> * **1 explicit mapping function**
-> * **1 explicit reasoning mode**
-> * **2 explicit safety policies**
-> * task routing
-> * runtime dependency links
-> * **4 stakeholder lenses**
-> * **11 output templates**
+> - **20 architectural clusters**
+> - **20 evaluation/design dimensions**
+> - a **100,000-layer virtual expansion model**
+> - **3 virtual tensor axes**
+> - **1 explicit mapping function**
+> - **1 explicit reasoning mode**
+> - **2 explicit safety policies**
+> - task routing
+> - runtime dependency links
+> - **4 stakeholder lenses**
+> - **11 output templates**
 >
 > These are **SOURCE_CLAIM structures from the AMOS corpus**. The artifact does not independently establish that all referenced runtime engines exist, that the kernel is deployed, that 100,000 literal executable layers are instantiated, or that the resulting multi-agent systems are empirically safe.
 
@@ -130,16 +130,16 @@ $$
 
 where:
 
-* \(C\) = cluster space
-* \(D\) = dimension space
-* \(V\) = virtual expansion model
-* \(F\) = mapping functions
-* \(R\) = reasoning modes
-* \(P\) = policies
-* `Route` = task routing
-* \(I\) = integration links
-* \(L\) = lens space
-* \(T\) = template library
+- \(C\) = cluster space
+- \(D\) = dimension space
+- \(V\) = virtual expansion model
+- \(F\) = mapping functions
+- \(R\) = reasoning modes
+- \(P\) = policies
+- `Route` = task routing
+- \(I\) = integration links
+- \(L\) = lens space
+- \(T\) = template library
 
 This tuple is **DERIVED from the supplied JSON structure**, not an original source equation.
 
@@ -175,17 +175,17 @@ It is a broader specification for building and governing multi-agent systems.
 
 The source does **not** establish that this kernel:
 
-* autonomously creates live agents;
-* grants real permissions;
-* deploys agents into external systems;
-* creates unrestricted autonomous swarms;
-* guarantees alignment;
-* guarantees safe behavior;
-* proves robustness;
-* provides cryptographic authorization;
-* implements persistent memory;
-* performs real-world effects;
-* implements its 100,000 virtual layers as material runtime objects.
+- autonomously creates live agents;
+- grants real permissions;
+- deploys agents into external systems;
+- creates unrestricted autonomous swarms;
+- guarantees alignment;
+- guarantees safe behavior;
+- proves robustness;
+- provides cryptographic authorization;
+- implements persistent memory;
+- performs real-world effects;
+- implements its 100,000 virtual layers as material runtime objects.
 
 Therefore:
 
@@ -277,10 +277,10 @@ This cluster establishes the space of agent archetypes.
 
 The source later exposes four example `agent_type` values in the virtual model:
 
-* specialist
-* orchestrator
-* observer_auditor
-* interface_agent
+- specialist
+- orchestrator
+- observer_auditor
+- interface_agent
 
 However, the artifact does not state that those four exhaust the archetype library.
 
@@ -355,12 +355,12 @@ This cluster establishes memory/context boundaries as first-class design concern
 
 Potential concerns include:
 
-* working context;
-* persistent memory;
-* private memory;
-* shared memory;
-* agent-specific context;
-* task-scoped context.
+- working context;
+- persistent memory;
+- private memory;
+- shared memory;
+- agent-specific context;
+- task-scoped context.
 
 Those subdivisions are not enumerated by this source and should remain DERIVED possibilities.
 
@@ -370,10 +370,10 @@ Those subdivisions are not enumerated by this source and should remain DERIVED p
 
 The cluster's existence does not prove:
 
-* persistent memory exists;
-* memory writes are authorized;
-* memory provenance is tracked;
-* agents can access each other's memories.
+- persistent memory exists;
+- memory writes are authorized;
+- memory provenance is tracked;
+- agents can access each other's memories.
 
 Those require explicit implementation bindings.
 
@@ -451,10 +451,10 @@ in the artifact.
 
 Because reward structures are source-defined but unspecified, the artifact does not establish protection against:
 
-* proxy gaming;
-* reward hacking;
-* specification gaming;
-* objective drift.
+- proxy gaming;
+- reward hacking;
+- specification gaming;
+- objective drift.
 
 Those remain implementation concerns.
 
@@ -540,10 +540,10 @@ conflict_detection_andresolution
 
 This explicitly acknowledges that agents may:
 
-* disagree;
-* compete for resources;
-* propose incompatible actions;
-* produce conflicting outputs.
+- disagree;
+- compete for resources;
+- propose incompatible actions;
+- produce conflicting outputs.
 
 No conflict-resolution algorithm is supplied.
 
@@ -589,12 +589,12 @@ It does not prove that a shared blackboard is mandatory.
 
 Potential risks include:
 
-* context poisoning;
-* stale state;
-* provenance loss;
-* race conditions;
-* overwrite conflict;
-* unauthorized reads.
+- context poisoning;
+- stale state;
+- provenance loss;
+- race conditions;
+- overwrite conflict;
+- unauthorized reads.
 
 No mitigation implementation appears here.
 
@@ -666,10 +666,10 @@ This treats agent evolution as governed configuration change.
 
 The artifact does not define:
 
-* semantic version rules;
-* compatibility policy;
-* migration logic;
-* rollback behavior.
+- semantic version rules;
+- compatibility policy;
+- migration logic;
+- rollback behavior.
 
 ---
 
@@ -730,10 +730,10 @@ The safety policy explicitly restricts modification of safety constraints.
 
 An agent may inspect or critique its output without gaining authority to rewrite:
 
-* policy;
-* permissions;
-* safety constraints;
-* governance envelopes.
+- policy;
+- permissions;
+- safety constraints;
+- governance envelopes.
 
 ---
 
@@ -747,11 +747,11 @@ This is a critical safety cluster.
 
 The artifact does not provide implementation semantics for:
 
-* emergency shutdown;
-* partial shutdown;
-* state preservation;
-* graceful termination;
-* dependency shutdown.
+- emergency shutdown;
+- partial shutdown;
+- state preservation;
+- graceful termination;
+- dependency shutdown.
 
 ---
 
@@ -1010,11 +1010,11 @@ scalability_of_agents
 
 The source does not specify whether scalability means:
 
-* agent count;
-* workload;
-* coordination graph size;
-* throughput;
-* organization size.
+- agent count;
+- workload;
+- coordination graph size;
+- throughput;
+- organization size.
 
 ---
 
@@ -1266,11 +1266,11 @@ $$
 
 The virtual model appears designed for:
 
-* scenario generation;
-* system evaluation;
-* planning;
-* state-space traversal;
-* configuration comparison.
+- scenario generation;
+- system evaluation;
+- planning;
+- state-space traversal;
+- configuration comparison.
 
 These uses are explicitly supported by the note.
 
@@ -1408,9 +1408,9 @@ $$
 
 where:
 
-* \(U\) = multi-agent use case
-* \(R_G\) = risk/governance context
-* \(C_A\) = selected agent cluster vector
+- \(U\) = multi-agent use case
+- \(R_G\) = risk/governance context
+- \(C_A\) = selected agent cluster vector
 
 DERIVED notation.
 
@@ -1515,13 +1515,13 @@ $$
 
 No routes are defined for:
 
-* agent evaluation;
-* agent deployment;
-* shutdown;
-* upgrades;
-* conflict resolution;
-* benchmark execution;
-* audit.
+- agent evaluation;
+- agent deployment;
+- shutdown;
+- upgrades;
+- conflict resolution;
+- benchmark execution;
+- audit.
 
 Those capabilities may exist conceptually in clusters but are not explicitly routed here.
 
@@ -1607,11 +1607,11 @@ A real implementation needs a consequence-classification mechanism.
 
 The source mandates human override but does not define:
 
-* who qualifies;
-* how override is authenticated;
-* when it can be invoked;
-* whether it can veto before execution;
-* whether it can interrupt in-flight operations.
+- who qualifies;
+- how override is authenticated;
+- when it can be invoked;
+- whether it can veto before execution;
+- whether it can interrupt in-flight operations.
 
 ---
 
@@ -1660,11 +1660,11 @@ The listed references establish source-level intended dependencies.
 
 They do not independently prove:
 
-* availability;
-* version compatibility;
-* successful import;
-* runtime orchestration;
-* validated integration.
+- availability;
+- version compatibility;
+- successful import;
+- runtime orchestration;
+- validated integration.
 
 Therefore:
 
@@ -1816,12 +1816,12 @@ This is a DERIVED governance rule.
 
 All lenses should preserve:
 
-* source provenance;
-* uncertainty;
-* safety constraints;
-* scope limits;
-* unresolved contradictions;
-* authority boundaries.
+- source provenance;
+- uncertainty;
+- safety constraints;
+- scope limits;
+- unresolved contradictions;
+- authority boundaries.
 
 The source does not explicitly state this, but it follows AMOS integrity discipline.
 
@@ -2128,13 +2128,13 @@ The source does not formalize this separation but strongly motivates it.
 
 Potential benefits:
 
-* simple routing;
-* centralized visibility.
+- simple routing;
+- centralized visibility.
 
 Potential risks:
 
-* single coordination bottleneck;
-* central failure dependency.
+- single coordination bottleneck;
+- central failure dependency.
 
 These are general architectural inferences, not source-verified claims.
 
@@ -2160,10 +2160,10 @@ must not silently amplify authority.
 
 Potential concerns include:
 
-* conflict;
-* coordination complexity;
-* provenance duplication;
-* message storms.
+- conflict;
+- coordination complexity;
+- provenance duplication;
+- message storms.
 
 Not defined by source.
 
@@ -2524,11 +2524,11 @@ self_reflection_andcorrection_loops
 
 but does not specify:
 
-* rollback;
-* checkpoint restore;
-* state invalidation;
-* partial recovery;
-* retry semantics.
+- rollback;
+- checkpoint restore;
+- state invalidation;
+- partial recovery;
+- retry semantics.
 
 ---
 
@@ -2544,11 +2544,11 @@ but no adjudication authority is supplied.
 
 Possible systems include:
 
-* priority;
-* voting;
-* human escalation;
-* evidence arbitration;
-* proof comparison.
+- priority;
+- voting;
+- human escalation;
+- evidence arbitration;
+- proof comparison.
 
 All remain unestablished.
 
@@ -2573,18 +2573,18 @@ Therefore any extracted canonical claim should preserve this provenance.
 
 The following are source-grounded facts about the artifact:
 
-* it declares 20 clusters;
-* it declares 20 dimensions;
-* it declares 100,000 virtual layers;
-* it lists 4 agent types;
-* it lists 4 coordination patterns;
-* it lists 3 safety modes;
-* it defines `F_cluster_selection`;
-* it defines one design mode;
-* it includes two safety policies;
-* it lists four runtime dependencies;
-* it defines four lenses;
-* it defines 11 templates.
+- it declares 20 clusters;
+- it declares 20 dimensions;
+- it declares 100,000 virtual layers;
+- it lists 4 agent types;
+- it lists 4 coordination patterns;
+- it lists 3 safety modes;
+- it defines `F_cluster_selection`;
+- it defines one design mode;
+- it includes two safety policies;
+- it lists four runtime dependencies;
+- it defines four lenses;
+- it defines 11 templates.
 
 Whether all are implemented is separate.
 
@@ -2625,11 +2625,11 @@ RUNTIME VALIDATION = UNKNOWN/GAP
 
 It does not establish:
 
-* computational throughput;
-* literal parallel agents;
-* 100,000 physical processes;
-* 100,000 neural layers;
-* benchmark superiority.
+- computational throughput;
+- literal parallel agents;
+- 100,000 physical processes;
+- 100,000 neural layers;
+- benchmark superiority.
 
 ---
 
@@ -3135,37 +3135,37 @@ confidence_ceiling:
 
 ## CRITICAL
 
-* runtime binding to dependencies;
-* authority and permission execution model;
-* high-impact classifier;
-* human override implementation;
-* safety enforcement mechanism;
-* lifecycle state machine;
-* shutdown/fail-safe implementation.
+- runtime binding to dependencies;
+- authority and permission execution model;
+- high-impact classifier;
+- human override implementation;
+- safety enforcement mechanism;
+- lifecycle state machine;
+- shutdown/fail-safe implementation.
 
 ---
 
 # 163. Decision-Relevant Gaps
 
-* dimension metrics;
-* cluster selection algorithm;
-* tool permission schema;
-* memory/context schema;
-* conflict resolution policy;
-* shared workspace concurrency semantics;
-* upgrade compatibility;
-* evaluation benchmarks;
-* audit receipt format.
+- dimension metrics;
+- cluster selection algorithm;
+- tool permission schema;
+- memory/context schema;
+- conflict resolution policy;
+- shared workspace concurrency semantics;
+- upgrade compatibility;
+- evaluation benchmarks;
+- audit receipt format.
 
 ---
 
 # 164. Explanatory Gaps
 
-* 100,000 virtual-state generation algorithm;
-* exact meaning of `kernel_x100k_virtual`;
-* exact relationship between cluster and dimension spaces;
-* whether lens selection is automatic;
-* whether templates are mapped to lenses.
+- 100,000 virtual-state generation algorithm;
+- exact meaning of `kernel_x100k_virtual`;
+- exact relationship between cluster and dimension spaces;
+- whether lens selection is automatic;
+- whether templates are mapped to lenses.
 
 ---
 

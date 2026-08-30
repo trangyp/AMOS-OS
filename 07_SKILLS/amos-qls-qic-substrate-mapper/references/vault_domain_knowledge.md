@@ -60,7 +60,6 @@ the most recent previous mode that differs from the current mode.
 time_created: float = field(default_factory=time.time)  # correct
 time_updated: float = field(default_factory=time.time())  # BUG: calls time.time() once
 ```
-
 `time.time()` with parentheses calls the function once at class definition time
 and uses the float result as the default factory. This caused
 `TypeError: 'float' object is not callable` when creating MemoryObject instances.

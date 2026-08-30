@@ -426,10 +426,10 @@ The supplied variable-description list is visibly corrupted.
 It renders approximately as:
 
 ```text
-* Ω: Systemic Overreach / Overhead ratio ∈ [0,1]
-* : Structural Fragmentation ∈ [0,1]
-* : External Shock Intensity ∈ [0,1]
-* : Heritage Anchor / Resilience ∈ [0,1]
+- Ω: Systemic Overreach / Overhead ratio ∈ [0,1]
+- : Structural Fragmentation ∈ [0,1]
+- : External Shock Intensity ∈ [0,1]
+- : Heritage Anchor / Resilience ∈ [0,1]
 ```
 
 The equation itself contains:
@@ -4194,7 +4194,7 @@ STRATUM-SPECIFIC OMEGA MATRIX
         ├── P6 → Mutation Rejection & Rollback
         └── P7 → Ground State Recovery
 
-* symbol binding recovered from local structure
+- symbol binding recovered from local structure
 ```
 
 ---
@@ -4480,10 +4480,10 @@ $$
 
 ## Connections
 
-* **Matrix Table:** [[UNIVERSE_X_OMEGA_MATRIX]]
-* **Universe Canon MOC:** [[02_UNIVERSE_CANON_MOC]]
-* **Khung Trang Master:** [[KHUNG_TRANG_MASTER]]
-* **Cognitive Matrix Plane:** [[25_COGNITIVE_MATRIX_MOC]]
+- **Matrix Table:** [[UNIVERSE_X_OMEGA_MATRIX]]
+- **Universe Canon MOC:** [[02_UNIVERSE_CANON_MOC]]
+- **Khung Trang Master:** [[KHUNG_TRANG_MASTER]]
+- **Cognitive Matrix Plane:** [[25_COGNITIVE_MATRIX_MOC]]
 
 ---
 
@@ -4492,4 +4492,6 @@ $$
 ---
 
 **MOC:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]
+```
+
 ```

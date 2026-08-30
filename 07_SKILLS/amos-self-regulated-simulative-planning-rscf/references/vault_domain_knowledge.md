@@ -136,7 +136,6 @@ MURK transformation (19×19 kernel) → Brain model state update (67 layers) →
 Tool mediation (search/files/terminal/memory) → Observation →
 Audit → Output/action
 ```
-
 - Context window: finite capacity for input+output+intermediate state
 - Tool latency: web_search, terminal, file operations each have latency
 - Memory retrieval: old entries may be stale or irrelevant to current context

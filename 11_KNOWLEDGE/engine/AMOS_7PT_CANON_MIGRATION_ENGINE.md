@@ -752,14 +752,14 @@ A successful Python execution proves only that the transformation executed and i
 
 **Conclusion class: DERIVED for the code defects; MODEL for the strengthened AMOS migration architecture.** The strongest next improvement would be adding atomic staging/rollback and hashing all seven source/output notes so the migration becomes a provenance-bound transaction rather than seven independent filesystem writes.
 
-______________________________________________________________________
+---
 
 **Links:** [[ENGINE_MOC]] | [[KNOWLEDGE_MOC]]
 
-______________________________________________________________________
+---
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
-______________________________________________________________________
+---
 
 **MOC:** [[KERNEL_MOC]] · [[00_HOME]]

@@ -60,6 +60,11 @@ tags:
 aliases:
 - AMOS Core Laws - AMOS Constitutional Laws - AMOS Integrity Laws - AMOS Core Invariants
   - A
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_core_laws
 ---
 
 # AMOS Core Laws

@@ -42,6 +42,11 @@ tags:
 - law/L23-mvcc-cas
 - law/L24-causal-epoch
 - trang-framework-recursive-ontology-dynamics
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: universe_canon
 ---
 
 # HIE Human Interaction Engine> [!abstract] Canon Function> **HIE — Human Interaction Engine** governs the **7-layer human-agent interaction envelopes** with **strict safety tone governance**.>> HIE is the Universe Canon interface responsible for controlling how agent reasoning, knowledge, uncertainty, recommendations, decisions, and actions are exposed to a human participant.>> Its governing objective is not merely to produce fluent conversation.>> Its objective is to preserve:>> **human agency + semantic fidelity + epistemic integrity + interaction safety + proportional tone + scope integrity + reversible action under uncertainty.**---
@@ -2692,4 +2697,3 @@ where:`textL1 = IntentL2 = ContextL3 = SemanticsL4 = EpistemicsL5 = SafetyL6 = T
 
 # 222. Terminal Canon Statement> **HIE governs the boundary where human intention becomes agent interpretation and where agent reasoning becomes human-facing consequence.**>> Its governing requirement is not maximum compliance, maximum fluency, maximum persuasion, or maximum automation.>> Its governing requirement is **integrity-preserving interaction**:>> understand the objective, preserve meaning, preserve uncertainty, preserve provenance, preserve scope, govern risk, govern tone, protect authorization boundaries, and preserve human agency.>> Where the evidence is incomplete, expose the gap.>> Where interpretations genuinely compete, preserve the competition.>> Where consequences are irreversible, increase validation.>> Where a reversible path exists under uncertainty, prefer it.>> Where tone and epistemic integrity conflict, epistemic integrity governs.>> Where automation and authorization conflict, authorization governs.>> Where optimization and integrity conflict:>> **integrity governs.**
 ````
-

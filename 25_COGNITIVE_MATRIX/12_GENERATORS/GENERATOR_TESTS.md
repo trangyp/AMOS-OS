@@ -3123,7 +3123,6 @@ weaker scope checking
 =
 FAIL
 ```
-
 ```text
 faster
 but
@@ -3131,7 +3130,6 @@ silent authority bypass
 =
 FAIL
 ```
-
 ---
 
 # 129. Load Tests
@@ -4013,67 +4011,56 @@ TEST_PASS
 !=
 AUTHORITY
 ```
-
 ```text
 TEST_PASS
 !=
 COMMIT
 ```
-
 ```text
 SCHEMA_VALID
 !=
 SEMANTICALLY_VALID
 ```
-
 ```text
 NO_EXCEPTION
 !=
 CORRECT
 ```
-
 ```text
 NO_CONTRADICTION_FOUND
 !=
 PROOF
 ```
-
 ```text
 REPETITION
 !=
 INDEPENDENT VALIDATION
 ```
-
 ```text
 PLACEHOLDER
 !=
 IMPLEMENTED
 ```
-
 ```text
 ADDRESSABLE
 !=
 VALIDATED
 ```
-
 ```text
 CAPABILITY
 !=
 AUTHORITY
 ```
-
 ```text
 PROPOSAL
 !=
 COMMIT
 ```
-
 ```text
 UNKNOWN/GAP
 !=
 PASS
 ```
-
 ---
 
 # 166. Final Generator-Test Contract
@@ -4208,7 +4195,6 @@ TEST
 
 **Conclusion class:** `DERIVED / CONDITIONAL`. The test architecture is now defined from AMOS Full Brain OS and v4.4 principles, while exact test registries, validators, implementations, thresholds, and execution infrastructure remain explicit `UNKNOWN/GAP` rather than being fabricated.
 ```
-
 ---
 
 [[00_ROOT_MOC]]|[[AMOS MOC]]

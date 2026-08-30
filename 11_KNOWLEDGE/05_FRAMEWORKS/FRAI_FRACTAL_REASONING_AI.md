@@ -87,16 +87,16 @@ FRAI models and operates over recursive, self-similar **[L, M, H]** structures a
 $$\text{FRAI} = \langle \mathcal{D}, \mathcal{S}, \mathcal{R}, \mathcal{I}, \mathcal{A}, \mathcal{T}_2 \rangle$$
 
 Where:
-* $\mathcal{D}$: **Fractal Decomposer** — recursively partitions inputs into $[L, M, H]$ layers:
+- $\mathcal{D}$: **Fractal Decomposer** — recursively partitions inputs into $[L, M, H]$ layers:
   $$\mathcal{D}(X) = (L_X, M_X, H_X), \quad L_X = (L_{L_X}, M_{L_X}, H_{L_X}), \dots$$
-* $\mathcal{S}$: **Self-Similarity Detector** — identifies invariant relational patterns repeating across macro, meso, and micro scales.
-* $\mathcal{R}$: **Multi-Layer Reasoner** — applies specialized reasoning strategies per tier:
-  * **Layer L (Foundation/Substrate):** High consistency, low entropy ($E_L < 0.1$), deterministic logic (LDAI).
-  * **Layer M (Flow/Coordination):** Intermediate entropy ($0.1 \le E_M \le 0.2$), probabilistic routing and adaptive tuning.
-  * **Layer H (Apex/Creative):** Flexible boundary exploration ($0.1 \le E_H \le 0.3$), hypothesis generation, fast decisions.
-* $\mathcal{I}$: **Integrator** — synthesizes multi-tier evaluations into a unified action.
-* $\mathcal{A}$: **Adaptive Tuner** — refines scaling parameters based on environmental feedback.
-* $\mathcal{T}_2$: **Dual-Path Cross-Validation** — enforces two independent verification routes before state commit.
+- $\mathcal{S}$: **Self-Similarity Detector** — identifies invariant relational patterns repeating across macro, meso, and micro scales.
+- $\mathcal{R}$: **Multi-Layer Reasoner** — applies specialized reasoning strategies per tier:
+  - **Layer L (Foundation/Substrate):** High consistency, low entropy ($E_L < 0.1$), deterministic logic (LDAI).
+  - **Layer M (Flow/Coordination):** Intermediate entropy ($0.1 \le E_M \le 0.2$), probabilistic routing and adaptive tuning.
+  - **Layer H (Apex/Creative):** Flexible boundary exploration ($0.1 \le E_H \le 0.3$), hypothesis generation, fast decisions.
+- $\mathcal{I}$: **Integrator** — synthesizes multi-tier evaluations into a unified action.
+- $\mathcal{A}$: **Adaptive Tuner** — refines scaling parameters based on environmental feedback.
+- $\mathcal{T}_2$: **Dual-Path Cross-Validation** — enforces two independent verification routes before state commit.
 
 ---
 

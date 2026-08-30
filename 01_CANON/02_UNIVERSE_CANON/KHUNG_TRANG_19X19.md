@@ -7,6 +7,11 @@ tags:
 - go_board
 - topology
 - canon
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: universe_canon
 ---
 
 # Khung Trang 19×19 Universal Topology

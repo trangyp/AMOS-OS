@@ -122,14 +122,14 @@ $$G_i: (I,E,C,S,R,P,A) \rightarrow O_i$$
 
 where:
 
-* $I$ = task/input state;
-* $E$ = admitted evidence;
-* $C$ = active constraints;
-* $S$ = applicability scope;
-* $R$ = epistemic/environmental regime;
-* $P$ = provenance state;
-* $A$ = authority envelope;
-* $O_i$ = generated candidate output.
+- $I$ = task/input state;
+- $E$ = admitted evidence;
+- $C$ = active constraints;
+- $S$ = applicability scope;
+- $R$ = epistemic/environmental regime;
+- $P$ = provenance state;
+- $A$ = authority envelope;
+- $O_i$ = generated candidate output.
 
 The output MUST remain linked to the inputs that materially produced it.
 
@@ -161,12 +161,12 @@ VERIFIED
 
 merely because:
 
-* its result is internally coherent;
-* multiple generators agree;
-* the output resembles known patterns;
-* the output survives generation;
-* the output is highly probable under a model;
-* another generator summarizes it.
+- its result is internally coherent;
+- multiple generators agree;
+- the output resembles known patterns;
+- the output survives generation;
+- the output is highly probable under a model;
+- another generator summarizes it.
 
 Verification requires appropriate evidence.
 
@@ -263,11 +263,11 @@ These are architectural roles.
 
 They MUST NOT be interpreted as proof of twelve independent:
 
-* models;
-* agents;
-* processes;
-* evidence sources;
-* reasoning engines.
+- models;
+- agents;
+- processes;
+- evidence sources;
+- reasoning engines.
 
 ---
 
@@ -382,15 +382,15 @@ Useful alternatives differ in outcome-relevant dimensions.
 
 Candidate dimensions include:
 
-* mechanism;
-* architecture;
-* cost;
-* reversibility;
-* implementation;
-* risk;
-* dependency burden;
-* causal assumptions;
-* governance burden.
+- mechanism;
+- architecture;
+- cost;
+- reversibility;
+- implementation;
+- risk;
+- dependency burden;
+- causal assumptions;
+- governance burden.
 
 The generator SHOULD maximize useful diversity rather than superficial variation.
 
@@ -460,12 +460,12 @@ $$CF = \langle W, I, B, M, Y', U \rangle$$
 
 where:
 
-* $W$ = reference world;
-* $I$ = intervention;
-* $B$ = preserved background;
-* $M$ = causal/model assumptions;
-* $Y'$ = counterfactual outcome;
-* $U$ = uncertainty.
+- $W$ = reference world;
+- $I$ = intervention;
+- $B$ = preserved background;
+- $M$ = causal/model assumptions;
+- $Y'$ = counterfactual outcome;
+- $U$ = uncertainty.
 
 Every counterfactual MUST identify:
 
@@ -953,13 +953,13 @@ $$U = ( U_E, U_M, U_S, U_T, U_C, U_X, U_P )$$
 
 where:
 
-* $U_E$ = evidence uncertainty;
-* $U_M$ = model uncertainty;
-* $U_S$ = scope uncertainty;
-* $U_T$ = temporal uncertainty;
-* $U_C$ = causal uncertainty;
-* $U_X$ = execution uncertainty;
-* $U_P$ = provenance-independence uncertainty.
+- $U_E$ = evidence uncertainty;
+- $U_M$ = model uncertainty;
+- $U_S$ = scope uncertainty;
+- $U_T$ = temporal uncertainty;
+- $U_C$ = causal uncertainty;
+- $U_X$ = execution uncertainty;
+- $U_P$ = provenance-independence uncertainty.
 
 A single scalar confidence SHOULD NOT hide materially different uncertainty types.
 
@@ -1003,14 +1003,14 @@ contradiction / falsification search
 
 Path B SHOULD seek:
 
-* contradictory evidence;
-* shared provenance;
-* stale premises;
-* hidden dependencies;
-* scope leakage;
-* regime mismatch;
-* causal overreach;
-* stronger alternatives.
+- contradictory evidence;
+- shared provenance;
+- stale premises;
+- hidden dependencies;
+- scope leakage;
+- regime mismatch;
+- causal overreach;
+- stronger alternatives.
 
 If challenge succeeds:
 
@@ -2534,13 +2534,13 @@ $$F(O) = D \land P \land S \land R \land T \land C \land V$$
 
 where:
 
-* $D$ = dependency validity;
-* $P$ = provenance validity;
-* $S$ = scope validity;
-* $R$ = regime validity;
-* $T$ = temporal/freshness validity;
-* $C$ = constraint satisfaction;
-* $V$ = required validation.
+- $D$ = dependency validity;
+- $P$ = provenance validity;
+- $S$ = scope validity;
+- $R$ = regime validity;
+- $T$ = temporal/freshness validity;
+- $C$ = constraint satisfaction;
+- $V$ = required validation.
 
 For consequential action add:
 

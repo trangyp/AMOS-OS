@@ -55,6 +55,11 @@ tags:
 aliases:
 - AMOS Cognition Canon - Cognition Canon - AMOS Reasoning Canon - AMOS Cognitive Integrity
   Can
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # AMOS Cognition Canon

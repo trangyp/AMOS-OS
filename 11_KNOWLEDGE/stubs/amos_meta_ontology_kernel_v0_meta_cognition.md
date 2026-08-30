@@ -8,6 +8,13 @@ tags:
 - kernel
 - cognition
 - amos-meta-ontology-kernel-v0-meta-cognition
+type: note
+source: 11_KNOWLEDGE/stubs
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # amos meta ontology kernel v0 meta cognition

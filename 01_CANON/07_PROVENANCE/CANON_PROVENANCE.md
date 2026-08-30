@@ -46,6 +46,11 @@ tags:
 aliases:
 - AMOS Canon Provenance - Canon Provenance Registry - AMOS Canon Lineage Registry
   - Canon Sour
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # AMOS OS Canon Provenance

@@ -5878,3 +5878,5 @@ until authoritative epistemic-regime canon supplies discriminating validation.
 **Conclusion class: CONDITIONAL / AMOS_MODEL.**
 
 
+
+```

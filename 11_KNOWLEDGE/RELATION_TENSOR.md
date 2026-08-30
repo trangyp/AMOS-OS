@@ -511,11 +511,11 @@ in general.
 
 Trust should be:
 
-* scoped,
-* evidence-bound,
-* revisable,
-* temporally bounded,
-* provenance-aware.
+- scoped,
+- evidence-bound,
+- revisable,
+- temporally bounded,
+- provenance-aware.
 
 # 13. Conflict
 
@@ -604,12 +604,12 @@ H_R\uparrow
 
 may indicate increasing:
 
-* uncertainty,
-* contradiction,
-* instability,
-* observer disagreement,
-* degradation,
-* repair burden.
+- uncertainty,
+- contradiction,
+- instability,
+- observer disagreement,
+- degradation,
+- repair burden.
 
 This remains a MODEL construct unless a domain supplies an independently validated entropy definition.
 
@@ -1159,8 +1159,8 @@ G_R=(V,R)
 
 where:
 
-* (V) = typed objects,
-* (R) = Relation Tensors.
+- (V) = typed objects,
+- (R) = Relation Tensors.
 
 Thus an edge is not:
 
@@ -1222,12 +1222,12 @@ Most systems should not instantiate every possible relation:
 
 AMOS should preserve only relations that are:
 
-* observed,
-* asserted,
-* derived,
-* decision-relevant,
-* structurally required,
-* or unresolved but consequential.
+- observed,
+- asserted,
+- derived,
+- decision-relevant,
+- structurally required,
+- or unresolved but consequential.
 
 # 39. Relation Mutation
 
@@ -1479,12 +1479,12 @@ X_t\rightarrow X_{t+1}
 
 may modify:
 
-* nodes,
-* relations,
-* constraints,
-* evidence bindings,
-* confidence,
-* governance state.
+- nodes,
+- relations,
+- constraints,
+- evidence bindings,
+- confidence,
+- governance state.
 
 Therefore relation updates should participate in the system's causal and provenance lineage rather than being treated as metadata.
 
@@ -1569,20 +1569,20 @@ P
 
 where:
 
-* (Ty) = type,
-* (D) = direction,
-* (S) = strength,
-* (Dep) = dependency,
-* (C) = confidence,
-* (CP) = causal pressure/status,
-* (Tr) = trust,
-* (Cf) = conflict,
-* (L) = lag,
-* (H) = relation entropy,
-* (RC) = repair coupling,
-* (MT) = mutation transfer,
-* (OV) = observer variance,
-* (P) = provenance.
+- (Ty) = type,
+- (D) = direction,
+- (S) = strength,
+- (Dep) = dependency,
+- (C) = confidence,
+- (CP) = causal pressure/status,
+- (Tr) = trust,
+- (Cf) = conflict,
+- (L) = lag,
+- (H) = relation entropy,
+- (RC) = repair coupling,
+- (MT) = mutation transfer,
+- (OV) = observer variance,
+- (P) = provenance.
 
 # 52. Canonical Causal Rule
 

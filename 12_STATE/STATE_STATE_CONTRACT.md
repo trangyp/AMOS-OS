@@ -627,12 +627,12 @@ TO PERFORM THE OPERATION?
 
 Capability may arise from:
 
-* tool access,
-* API access,
-* storage access,
-* execution privileges,
-* computational ability,
-* network access.
+- tool access,
+- API access,
+- storage access,
+- execution privileges,
+- computational ability,
+- network access.
 
 None independently establishes authorization.
 
@@ -801,13 +801,13 @@ A test pass establishes only that the tested conditions passed within the test's
 
 It does not establish:
 
-* universal correctness,
-* universal safety,
-* every invariant,
-* every negative case,
-* every environment,
-* every state version,
-* every future regime.
+- universal correctness,
+- universal safety,
+- every invariant,
+- every negative case,
+- every environment,
+- every state version,
+- every future regime.
 
 ---
 
@@ -1448,13 +1448,13 @@ COMPETING
 
 Do not resolve competing hypotheses by:
 
-* majority count alone,
-* authority alone,
-* stylistic preference,
-* model preference,
-* recency alone,
-* repeated descendants of one source,
-* convenience.
+- majority count alone,
+- authority alone,
+- stylistic preference,
+- model preference,
+- recency alone,
+- repeated descendants of one source,
+- convenience.
 
 Resolution requires discriminating evidence.
 
@@ -2097,16 +2097,16 @@ $$
 
 where:
 
-* `T` = typed artifact,
-* `I` = identity valid,
-* `V` = version valid,
-* `S` = scope valid,
-* `R` = regime valid,
-* `A` = authority valid,
-* `D` = dependency closure valid,
-* `P` = preconditions valid,
-* `F` = freshness sufficient,
-* `B` = rollback/governance burden satisfied.
+- `T` = typed artifact,
+- `I` = identity valid,
+- `V` = version valid,
+- `S` = scope valid,
+- `R` = regime valid,
+- `A` = authority valid,
+- `D` = dependency closure valid,
+- `P` = preconditions valid,
+- `F` = freshness sufficient,
+- `B` = rollback/governance burden satisfied.
 
 ---
 
@@ -2321,7 +2321,7 @@ ROUTING POLICY VALIDATOR
 
 linked at:
 
-* [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+- [[ROUTING_POLICY_VALIDATION_RECEIPT]]
 
 and:
 
@@ -2332,7 +2332,7 @@ AUTHZ INVARIANT ENGINE
 
 linked at:
 
-* [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+- [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
 ---
 
@@ -2409,13 +2409,13 @@ OPEN
 
 The contract defines persistence-relevant semantics but does not itself prove:
 
-* storage engine binding,
-* schema deployment,
-* transactional guarantees,
-* recovery guarantees,
-* MVCC implementation,
-* CAS implementation,
-* durable receipt persistence.
+- storage engine binding,
+- schema deployment,
+- transactional guarantees,
+- recovery guarantees,
+- MVCC implementation,
+- CAS implementation,
+- durable receipt persistence.
 
 ---
 
@@ -2463,7 +2463,7 @@ EXECUTED RECEIPT SPECIFIC TO THIS CONTRACT
 
 # 109. Promotion Gate 1 — Typed Schema
 
-* [ ] typed schema bound to this artifact
+- [ ] typed schema bound to this artifact
 
 The schema must identify the actual runtime representation governed by this contract.
 
@@ -2471,7 +2471,7 @@ The schema must identify the actual runtime representation governed by this cont
 
 # 110. Promotion Gate 2 — Identity + Versioning
 
-* [ ] identity + versioning implemented
+- [ ] identity + versioning implemented
 
 Required evidence should demonstrate:
 
@@ -2488,7 +2488,7 @@ where applicable.
 
 # 111. Promotion Gate 3 — Negative Cases
 
-* [ ] negative cases covered
+- [ ] negative cases covered
 
 Minimum source-listed cases:
 
@@ -2503,7 +2503,7 @@ unauthorized
 
 # 112. Promotion Gate 4 — Provenance Persistence
 
-* [ ] provenance edges persisted and validated
+- [ ] provenance edges persisted and validated
 
 This must establish actual persistence, not only an intended schema.
 
@@ -2511,7 +2511,7 @@ This must establish actual persistence, not only an intended schema.
 
 # 113. Promotion Gate 5 — Rollback
 
-* [ ] rollback basin demonstrated for consequential effects
+- [ ] rollback basin demonstrated for consequential effects
 
 Demonstration must be operation-relevant.
 
@@ -2519,7 +2519,7 @@ Demonstration must be operation-relevant.
 
 # 114. Promotion Gate 6 — Specific Executed Receipt
 
-* [ ] executed validation receipt specific to this artifact
+- [ ] executed validation receipt specific to this artifact
 
 This is a critical promotion gate.
 
@@ -2529,7 +2529,7 @@ A receipt for another subsystem does not satisfy it.
 
 # 115. Promotion Gate 7 — Visible Critical Gaps
 
-* [ ] unresolved critical gaps registered as `UNKNOWN/GAP`
+- [ ] unresolved critical gaps registered as `UNKNOWN/GAP`
 
 Promotion must not hide unresolved load-bearing gaps.
 
@@ -2539,10 +2539,10 @@ Promotion must not hide unresolved load-bearing gaps.
 
 Recommended contract-specific validation should test:
 
-* [ ] `CAPABILITY ≠ AUTHORITY`
-* [ ] `PROPOSAL ≠ COMMIT`
-* [ ] `OBSERVED ≠ CURRENT`
-* [ ] `TEST_PASS ≠ TRUTH`
+- [ ] `CAPABILITY ≠ AUTHORITY`
+- [ ] `PROPOSAL ≠ COMMIT`
+- [ ] `OBSERVED ≠ CURRENT`
+- [ ] `TEST_PASS ≠ TRUTH`
 
 A passing implementation must preserve all protected firewalls.
 
@@ -4072,8 +4072,8 @@ until the rollback requirement is satisfied or governance explicitly establishes
 
 Governed by:
 
-* AMOS Core Laws
-* [[LAW_HIERARCHY]]
+- AMOS Core Laws
+- [[LAW_HIERARCHY]]
 
 State-plane semantics must remain compatible with governing canon.
 
@@ -4083,7 +4083,7 @@ State-plane semantics must remain compatible with governing canon.
 
 Kernel interaction:
 
-* [[KERNEL_README]]
+- [[KERNEL_README]]
 
 Kernel capability does not itself confer State-plane authority.
 
@@ -4093,7 +4093,7 @@ Kernel capability does not itself confer State-plane authority.
 
 Control-plane gates:
 
-* [[CONTROL_PLANE_README]]
+- [[CONTROL_PLANE_README]]
 
 Conceptually:
 
@@ -4111,7 +4111,7 @@ COMMIT OR HOLD
 
 Observed by:
 
-* [[OBSERVABILITY_README]]
+- [[OBSERVABILITY_README]]
 
 Protected firewall:
 
@@ -4127,7 +4127,7 @@ AUTHORITY
 
 Recovery via:
 
-* [[OPERATIONS_README]]
+- [[OPERATIONS_README]]
 
 Operations may support:
 
@@ -4147,11 +4147,11 @@ under applicable authority.
 
 Orientation:
 
-* [[STATE_README]]
+- [[STATE_README]]
 
 Normative contract:
 
-* [[STATE_STATE_CONTRACT]]
+- [[STATE_STATE_CONTRACT]]
 
 Therefore:
 
@@ -4286,16 +4286,16 @@ COMPETING HYPOTHESES → REMAIN VISIBLE
 
 Let:
 
-* \(T\) = artifact typing validity
-* \(I\) = identity validity
-* \(V\) = state-version validity
-* \(S\) = scope compatibility
-* \(R\) = regime compatibility
-* \(A\) = authority validity
-* \(D\) = dependency closure validity
-* \(F\) = freshness validity
-* \(B\) = rollback-basin adequacy
-* \(G\) = governance validity
+- \(T\) = artifact typing validity
+- \(I\) = identity validity
+- \(V\) = state-version validity
+- \(S\) = scope compatibility
+- \(R\) = regime compatibility
+- \(A\) = authority validity
+- \(D\) = dependency closure validity
+- \(F\) = freshness validity
+- \(B\) = rollback-basin adequacy
+- \(G\) = governance validity
 
 Then the normalized commit predicate is:
 
@@ -4714,23 +4714,23 @@ RSCF-RELATIONS:
 
 ## Promotion-gate checklist
 
-* [ ] typed schema bound to this artifact
-* [ ] identity + versioning implemented
-* [ ] negative cases covered (`missing` · `malformed` · `stale` · `unauthorized input`)
-* [ ] provenance edges persisted and validated
-* [ ] rollback basin demonstrated for consequential effects
-* [ ] executed validation receipt specific to this artifact
-* [ ] unresolved critical gaps registered as `UNKNOWN/GAP` and visible
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (`missing` · `malformed` · `stale` · `unauthorized input`)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as `UNKNOWN/GAP` and visible
 
 ---
 
 ## Cross-plane bindings
 
-* **Governed by canon** — AMOS Core Laws · [[LAW_HIERARCHY]]
-* **Kernel interaction** — [[KERNEL_README]]
-* **Control-plane gates** — [[CONTROL_PLANE_README]]
-* **Observed by** — [[OBSERVABILITY_README]] · never treated as authority
-* **Recovered via operations** — [[OPERATIONS_README]]
+- **Governed by canon** — AMOS Core Laws · [[LAW_HIERARCHY]]
+- **Kernel interaction** — [[KERNEL_README]]
+- **Control-plane gates** — [[CONTROL_PLANE_README]]
+- **Observed by** — [[OBSERVABILITY_README]] · never treated as authority
+- **Recovered via operations** — [[OPERATIONS_README]]
 
 ---
 
@@ -4739,8 +4739,8 @@ RSCF-RELATIONS:
 > [!warning] Pattern references only
 > The following receipts are cited as existing OS validation patterns. They are **not evidence that `STATE_STATE_CONTRACT` itself has been executed or validated**.
 
-* [[ROUTING_POLICY_VALIDATION_RECEIPT]] — source reports routing-policy validator `19/19`
-* [[AUTHZ_ENGINE_VALIDATION_RECEIPT]] — source reports authz invariant engine `17/17`
+- [[ROUTING_POLICY_VALIDATION_RECEIPT]] — source reports routing-policy validator `19/19`
+- [[AUTHZ_ENGINE_VALIDATION_RECEIPT]] — source reports authz invariant engine `17/17`
 
 ---
 
@@ -4764,4 +4764,3 @@ AMOS MOC
 
 The key boundary remains unchanged from your seed: the `19/19` routing and `17/17` authz validators are **patterns, not validation evidence for this State contract**. Likewise, concepts such as MVCC/CAS, atomic multi-RSCF reasoning, causal-epoch finality, and shard-local finalization above are explicitly architecture/model semantics rather than claims of a verified distributed runtime.
 ```
-

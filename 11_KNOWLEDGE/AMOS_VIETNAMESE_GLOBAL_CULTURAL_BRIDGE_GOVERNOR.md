@@ -349,10 +349,10 @@ VALIDATION EXPLICIT
 
 Purpose:
 
-* translate Vietnamese-specific concepts into globally comparable framework terms;
-* preserve Vietnamese context;
-* preserve source provenance;
-* avoid claiming exact equivalence where only partial correspondence exists.
+- translate Vietnamese-specific concepts into globally comparable framework terms;
+- preserve Vietnamese context;
+- preserve source provenance;
+- avoid claiming exact equivalence where only partial correspondence exists.
 
 Source capability:
 
@@ -366,9 +366,9 @@ vgc_bridge.translate_vietnamese_to_global
 
 Purpose:
 
-* test whether a global model actually applies to Vietnamese conditions;
-* identify scope mismatch;
-* condition or reject transfer where evidence is insufficient.
+- test whether a global model actually applies to Vietnamese conditions;
+- identify scope mismatch;
+- condition or reject transfer where evidence is insufficient.
 
 Source capability:
 
@@ -1278,11 +1278,11 @@ The listed paths prove that the source **references** those artifacts.
 
 This note alone does not prove:
 
-* each path currently exists;
-* versions match;
-* hashes match;
-* agent and workflow are synchronized;
-* deployment is current.
+- each path currently exists;
+- versions match;
+- hashes match;
+- agent and workflow are synchronized;
+- deployment is current.
 
 Those require repository/runtime inspection.
 
@@ -1531,11 +1531,11 @@ These represent business/legal source materials in the enriched vault.
 
 Their inclusion does not imply:
 
-* legal advice;
-* current legal validity;
-* regulatory approval;
-* investment suitability;
-* economic performance.
+- legal advice;
+- current legal validity;
+- regulatory approval;
+- investment suitability;
+- economic performance.
 
 ---
 
@@ -2216,10 +2216,10 @@ UNIVERSAL LAW
 
 Vietnamese business artifacts may provide:
 
-* local criteria;
-* market assumptions;
-* legal environment;
-* investment structure.
+- local criteria;
+- market assumptions;
+- legal environment;
+- investment structure.
 
 But:
 
@@ -3055,28 +3055,28 @@ GAPS:
 
 # 103. Promotion / Revalidation Checklist
 
-* [ ] resolve `parent_skill` vs `PARENT_OF`
-* [ ] attach QA receipt for G1
-* [ ] attach QA receipt for G2
-* [ ] attach QA receipt for G3
-* [ ] attach QA receipt for G4
-* [ ] attach QA receipt for G5
-* [ ] attach QA receipt for G6
-* [ ] attach QA receipt for G7
-* [ ] attach QA receipt for G8
-* [ ] attach QA receipt for G9
-* [ ] attach QA receipt for G10
-* [ ] bind skill version/hash
-* [ ] bind agent version/hash
-* [ ] bind workflow version/hash
-* [ ] verify 1:1:1 artifact consistency
-* [ ] define translation mapping classes
-* [ ] define cultural drift test
-* [ ] define provenance freshness test
-* [ ] define cross-cultural evidence threshold
-* [ ] define global→VN applicability contract
-* [ ] validate C09 legal routing
-* [ ] register unresolved claims as `UNKNOWN/GAP`
+- [ ] resolve `parent_skill` vs `PARENT_OF`
+- [ ] attach QA receipt for G1
+- [ ] attach QA receipt for G2
+- [ ] attach QA receipt for G3
+- [ ] attach QA receipt for G4
+- [ ] attach QA receipt for G5
+- [ ] attach QA receipt for G6
+- [ ] attach QA receipt for G7
+- [ ] attach QA receipt for G8
+- [ ] attach QA receipt for G9
+- [ ] attach QA receipt for G10
+- [ ] bind skill version/hash
+- [ ] bind agent version/hash
+- [ ] bind workflow version/hash
+- [ ] verify 1:1:1 artifact consistency
+- [ ] define translation mapping classes
+- [ ] define cultural drift test
+- [ ] define provenance freshness test
+- [ ] define cross-cultural evidence threshold
+- [ ] define global→VN applicability contract
+- [ ] validate C09 legal routing
+- [ ] register unresolved claims as `UNKNOWN/GAP`
 
 ---
 
@@ -3404,14 +3404,14 @@ The governor exists to make the bridge possible **without collapsing the distinc
 
 # Related
 
-* [[00_HOME]]
-* [[KNOWLEDGE_MOC]]
-* [[AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR]]
-* AMOS_SOCIETY_CULTURE_ENGINE
-* [[AMOS_VN_LEGAL_ENGINE]]
-* [[HERITAGE_INTELLIGENCE]]
-* [[TRANG_ZERO_FRAMEWORK]]
-* [[25_COGNITIVE_MATRIX_MOC]]
+- [[00_HOME]]
+- [[KNOWLEDGE_MOC]]
+- [[AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR]]
+- AMOS_SOCIETY_CULTURE_ENGINE
+- [[AMOS_VN_LEGAL_ENGINE]]
+- [[HERITAGE_INTELLIGENCE]]
+- [[TRANG_ZERO_FRAMEWORK]]
+- [[25_COGNITIVE_MATRIX_MOC]]
 
 ---
 

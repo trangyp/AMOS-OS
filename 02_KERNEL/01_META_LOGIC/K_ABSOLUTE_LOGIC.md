@@ -277,22 +277,22 @@ The purpose of this artifact is to reserve and eventually contain the AMOS frame
 
 At the architectural level, the surrounding Kernel plane concerns reasoning/runtime primitives including:
 
-* meta-logic;
-* cognition;
-* causal discipline;
-* typed state;
-* memory;
-* uncertainty;
-* risk;
-* repair;
-* authority;
-* provenance;
-* integration;
-* contradiction handling;
-* epistemic classification;
-* scope/regime control;
-* execution admissibility;
-* and integrity-preserving state transition.
+- meta-logic;
+- cognition;
+- causal discipline;
+- typed state;
+- memory;
+- uncertainty;
+- risk;
+- repair;
+- authority;
+- provenance;
+- integration;
+- contradiction handling;
+- epistemic classification;
+- scope/regime control;
+- execution admissibility;
+- and integrity-preserving state transition.
 
 The specific substantive meaning of **Absolute Logic**, however, MUST come from native AMOS canon rather than being reconstructed from the phrase alone.
 
@@ -316,22 +316,22 @@ This artifact MUST NOT be used as evidence that AMOS possesses an empirically or
 
 It MUST NOT be used to claim:
 
-* universal laws of reality;
-* metaphysical certainty;
-* scientific proof;
-* mathematical theoremhood without proof;
-* biological truth;
-* physical truth;
-* omniscience;
-* infallibility;
-* contradiction-free operation in every possible domain;
-* perfect knowledge;
-* complete knowledge;
-* runtime implementation merely because architecture exists;
-* runtime enforcement merely because rules are written;
-* canonical status merely because a filename exists;
-* authority merely because a component is part of the Kernel;
-* or validation merely because a target contract is specified.
+- universal laws of reality;
+- metaphysical certainty;
+- scientific proof;
+- mathematical theoremhood without proof;
+- biological truth;
+- physical truth;
+- omniscience;
+- infallibility;
+- contradiction-free operation in every possible domain;
+- perfect knowledge;
+- complete knowledge;
+- runtime implementation merely because architecture exists;
+- runtime enforcement merely because rules are written;
+- canonical status merely because a filename exists;
+- authority merely because a component is part of the Kernel;
+- or validation merely because a target contract is specified.
 
 The name **Absolute Logic** is a corpus/architecture identifier until its canonical semantics are recovered.
 
@@ -488,8 +488,8 @@ $$
 
 where:
 
-* \(C\) = derived claim;
-* \(LB(C)\) = load-bearing premises of \(C\).
+- \(C\) = derived claim;
+- \(LB(C)\) = load-bearing premises of \(C\).
 
 Unless a premise is independently revalidated, a conclusion cannot become more epistemically secure merely because the reasoning chain is elaborate.
 
@@ -774,15 +774,15 @@ unless independence is demonstrated.
 
 Evidence independence MUST NOT be assumed from:
 
-* different filenames;
-* different URLs;
-* different repositories;
-* different authors repeating the same origin;
-* different summaries of one paper;
-* citation chains sharing the same primary source;
-* duplicated datasets;
-* mirrored documents;
-* or generated derivatives.
+- different filenames;
+- different URLs;
+- different repositories;
+- different authors repeating the same origin;
+- different summaries of one paper;
+- citation chains sharing the same primary source;
+- duplicated datasets;
+- mirrored documents;
+- or generated derivatives.
 
 The system SHOULD track:
 
@@ -1178,19 +1178,19 @@ ESCALATE
 
 Escalate reasoning depth when evidence:
 
-* shares ancestry;
-* conflicts materially;
-* is stale;
-* crosses scope;
-* crosses regime;
-* contains causal ambiguity;
-* has governance implications;
-* controls irreversible action;
-* has unclear dependencies;
-* affects authority;
-* affects persistent state;
-* affects multiple RSCF objects atomically;
-* or carries high downstream dependency.
+- shares ancestry;
+- conflicts materially;
+- is stale;
+- crosses scope;
+- crosses regime;
+- contains causal ambiguity;
+- has governance implications;
+- controls irreversible action;
+- has unclear dependencies;
+- affects authority;
+- affects persistent state;
+- affects multiple RSCF objects atomically;
+- or carries high downstream dependency.
 
 ---
 
@@ -1293,18 +1293,18 @@ A consequential conclusion SHOULD be challenged through a genuinely different re
 
 The challenge seeks:
 
-* contradiction;
-* correlated provenance;
-* stale premises;
-* hidden ancestry;
-* scope leakage;
-* regime leakage;
-* causal overreach;
-* missing dependencies;
-* stronger competing explanations;
-* authority failure;
-* transaction inconsistency;
-* and invalid confidence escalation.
+- contradiction;
+- correlated provenance;
+- stale premises;
+- hidden ancestry;
+- scope leakage;
+- regime leakage;
+- causal overreach;
+- missing dependencies;
+- stronger competing explanations;
+- authority failure;
+- transaction inconsistency;
+- and invalid confidence escalation.
 
 Conceptually:
 
@@ -1553,13 +1553,13 @@ authority_ref:
 
 A once-valid authority token may become invalid through:
 
-* expiry;
-* revocation;
-* scope change;
-* state transition;
-* policy transition;
-* causal epoch advancement;
-* or changed effect boundaries.
+- expiry;
+- revocation;
+- scope change;
+- state transition;
+- policy transition;
+- causal epoch advancement;
+- or changed effect boundaries.
 
 ---
 
@@ -1978,14 +1978,14 @@ Canonical precedence MUST be evidenced.
 
 Potential precedence signals include:
 
-* explicit supersession;
-* canonical registry assignment;
-* lineage metadata;
-* version progression;
-* steward declaration;
-* migration record;
-* canonical index;
-* or explicit deprecation.
+- explicit supersession;
+- canonical registry assignment;
+- lineage metadata;
+- version progression;
+- steward declaration;
+- migration record;
+- canonical index;
+- or explicit deprecation.
 
 The following is insufficient by itself:
 
@@ -2666,37 +2666,31 @@ unknown source
       ↓
 invented citation
 ```
-
 ```text
 architecture target
       ↓
 claim of implementation
 ```
-
 ```text
 benchmark
       ↓
 universal validity
 ```
-
 ```text
 simulation result
       ↓
 real-world proof
 ```
-
 ```text
 distributed test
       ↓
 formal Byzantine proof
 ```
-
 ```text
 reported latency
       ↓
 hardware-independent guarantee
 ```
-
 ---
 
 # 70. Optimization Constraint
@@ -2799,14 +2793,14 @@ Persistent memory SHOULD NOT promote an assertion merely through repetition.
 
 Potential poisoning indicators include:
 
-* repeated derivative claims;
-* provenance laundering;
-* missing source ancestry;
-* conflicting canonical IDs;
-* stale content presented as current;
-* external evidence mislabeled as native canon;
-* generated content mislabeled as source material;
-* and unvalidated summaries promoted to verified knowledge.
+- repeated derivative claims;
+- provenance laundering;
+- missing source ancestry;
+- conflicting canonical IDs;
+- stale content presented as current;
+- external evidence mislabeled as native canon;
+- generated content mislabeled as source material;
+- and unvalidated summaries promoted to verified knowledge.
 
 ---
 
@@ -2929,13 +2923,13 @@ Each transition requires evidence appropriate to the target state.
 
 Requirements:
 
-* [ ] native-canon source identified;
-* [ ] source identity recorded;
-* [ ] source version/hash recorded where available;
-* [ ] lineage recorded;
-* [ ] source content demonstrably addresses Absolute Logic;
-* [ ] source not merely an external interpretation;
-* [ ] provenance stored.
+- [ ] native-canon source identified;
+- [ ] source identity recorded;
+- [ ] source version/hash recorded where available;
+- [ ] lineage recorded;
+- [ ] source content demonstrably addresses Absolute Logic;
+- [ ] source not merely an external interpretation;
+- [ ] provenance stored.
 
 Until then:
 
@@ -2949,14 +2943,14 @@ SUBSTANTIVE_CANON = UNKNOWN/GAP
 
 Requirements:
 
-* [ ] substantive definition extracted without invention;
-* [ ] native terminology preserved;
-* [ ] equations/laws preserved accurately;
-* [ ] conflicting sources recorded;
-* [ ] historical versions linked;
-* [ ] duplicate identity resolved or marked COMPETING;
-* [ ] scope established;
-* [ ] dependencies established.
+- [ ] substantive definition extracted without invention;
+- [ ] native terminology preserved;
+- [ ] equations/laws preserved accurately;
+- [ ] conflicting sources recorded;
+- [ ] historical versions linked;
+- [ ] duplicate identity resolved or marked COMPETING;
+- [ ] scope established;
+- [ ] dependencies established.
 
 ---
 
@@ -2964,11 +2958,11 @@ Requirements:
 
 Requirements:
 
-* [ ] canonical precedence established;
-* [ ] supersession evidence recorded where applicable;
-* [ ] steward/canon registry alignment established;
-* [ ] competing variants resolved or explicitly preserved;
-* [ ] no critical identity gap remains.
+- [ ] canonical precedence established;
+- [ ] supersession evidence recorded where applicable;
+- [ ] steward/canon registry alignment established;
+- [ ] competing variants resolved or explicitly preserved;
+- [ ] no critical identity gap remains.
 
 ---
 
@@ -2976,13 +2970,13 @@ Requirements:
 
 Requirements:
 
-* [ ] typed schema exists;
-* [ ] schema version exists;
-* [ ] required fields defined;
-* [ ] malformed input behavior defined;
-* [ ] unknown-state behavior defined;
-* [ ] state-transition semantics defined;
-* [ ] serialization rules defined where applicable.
+- [ ] typed schema exists;
+- [ ] schema version exists;
+- [ ] required fields defined;
+- [ ] malformed input behavior defined;
+- [ ] unknown-state behavior defined;
+- [ ] state-transition semantics defined;
+- [ ] serialization rules defined where applicable.
 
 ---
 
@@ -2990,13 +2984,13 @@ Requirements:
 
 Requirements:
 
-* [ ] executable binding exists;
-* [ ] implementation identity/version recorded;
-* [ ] deterministic gates implemented where required;
-* [ ] state interactions implemented;
-* [ ] authority integration implemented;
-* [ ] provenance persistence implemented;
-* [ ] rollback behavior implemented.
+- [ ] executable binding exists;
+- [ ] implementation identity/version recorded;
+- [ ] deterministic gates implemented where required;
+- [ ] state interactions implemented;
+- [ ] authority integration implemented;
+- [ ] provenance persistence implemented;
+- [ ] rollback behavior implemented.
 
 ---
 
@@ -3004,18 +2998,18 @@ Requirements:
 
 Requirements:
 
-* [ ] positive tests;
-* [ ] negative tests;
-* [ ] malformed-input tests;
-* [ ] missing-input tests;
-* [ ] stale-state tests;
-* [ ] unauthorized-operation tests;
-* [ ] provenance-conflict tests;
-* [ ] scope/regime mismatch tests;
-* [ ] rollback tests;
-* [ ] concurrency/stale-write tests where applicable;
-* [ ] adversarial validation;
-* [ ] executed validation receipt.
+- [ ] positive tests;
+- [ ] negative tests;
+- [ ] malformed-input tests;
+- [ ] missing-input tests;
+- [ ] stale-state tests;
+- [ ] unauthorized-operation tests;
+- [ ] provenance-conflict tests;
+- [ ] scope/regime mismatch tests;
+- [ ] rollback tests;
+- [ ] concurrency/stale-write tests where applicable;
+- [ ] adversarial validation;
+- [ ] executed validation receipt.
 
 ---
 
@@ -3023,43 +3017,43 @@ Requirements:
 
 Requirements:
 
-* [ ] runtime path actually invokes implementation;
-* [ ] bypass path analysis completed;
-* [ ] gates fail closed;
-* [ ] monitoring exists;
-* [ ] audit trail exists;
-* [ ] rollback/recovery demonstrated;
-* [ ] production binding identified;
-* [ ] enforcement receipt generated.
+- [ ] runtime path actually invokes implementation;
+- [ ] bypass path analysis completed;
+- [ ] gates fail closed;
+- [ ] monitoring exists;
+- [ ] audit trail exists;
+- [ ] rollback/recovery demonstrated;
+- [ ] production binding identified;
+- [ ] enforcement receipt generated.
 
 ---
 
 # 86. Artifact-Specific Promotion Checklist
 
-* [ ] substantive content populated from verified native-canon source;
-* [ ] native definition of `Absolute Logic` preserved;
-* [ ] equations preserved with provenance;
-* [ ] canonical terminology preserved;
-* [ ] historical lineage recorded;
-* [ ] duplicate canon checked;
-* [ ] typed schema bound;
-* [ ] identity/versioning implemented;
-* [ ] negative cases covered;
-* [ ] missing input covered;
-* [ ] malformed input covered;
-* [ ] stale input covered;
-* [ ] unauthorized input covered;
-* [ ] provenance edges persisted;
-* [ ] provenance independence checked;
-* [ ] scope firewall implemented;
-* [ ] regime firewall implemented;
-* [ ] causal firewall implemented where relevant;
-* [ ] contradiction behavior tested;
-* [ ] competing hypotheses supported where relevant;
-* [ ] rollback basin demonstrated;
-* [ ] validation receipt specific to artifact;
-* [ ] unresolved gaps visible;
-* [ ] no placeholder language falsely promoted to canon.
+- [ ] substantive content populated from verified native-canon source;
+- [ ] native definition of `Absolute Logic` preserved;
+- [ ] equations preserved with provenance;
+- [ ] canonical terminology preserved;
+- [ ] historical lineage recorded;
+- [ ] duplicate canon checked;
+- [ ] typed schema bound;
+- [ ] identity/versioning implemented;
+- [ ] negative cases covered;
+- [ ] missing input covered;
+- [ ] malformed input covered;
+- [ ] stale input covered;
+- [ ] unauthorized input covered;
+- [ ] provenance edges persisted;
+- [ ] provenance independence checked;
+- [ ] scope firewall implemented;
+- [ ] regime firewall implemented;
+- [ ] causal firewall implemented where relevant;
+- [ ] contradiction behavior tested;
+- [ ] competing hypotheses supported where relevant;
+- [ ] rollback basin demonstrated;
+- [ ] validation receipt specific to artifact;
+- [ ] unresolved gaps visible;
+- [ ] no placeholder language falsely promoted to canon.
 
 ---
 
@@ -3806,25 +3800,25 @@ RUNTIME_ENFORCEMENT = NOT_ESTABLISHED
 
 A future implementation SHOULD consider at least:
 
-* malformed logic objects;
-* provenance spoofing;
-* source-identity collisions;
-* stale authority;
-* authority escalation;
-* replay attacks;
-* stale state;
-* race conditions;
-* transaction splitting;
-* partial commit;
-* rollback erasure;
-* memory poisoning;
-* evidence duplication;
-* provenance Sybil amplification;
-* scope escalation;
-* regime confusion;
-* contradictory canon;
-* hidden dependency cycles;
-* and forged validation receipts.
+- malformed logic objects;
+- provenance spoofing;
+- source-identity collisions;
+- stale authority;
+- authority escalation;
+- replay attacks;
+- stale state;
+- race conditions;
+- transaction splitting;
+- partial commit;
+- rollback erasure;
+- memory poisoning;
+- evidence duplication;
+- provenance Sybil amplification;
+- scope escalation;
+- regime confusion;
+- contradictory canon;
+- hidden dependency cycles;
+- and forged validation receipts.
 
 ---
 
@@ -4459,27 +4453,27 @@ RSCF-RELATIONS:
 
 **What is established**
 
-* the artifact name;
-* artifact ID;
-* Kernel placement;
-* Meta-Logic segment;
-* origin architect/steward metadata;
-* placeholder status;
-* ADD-ONLY ingestion policy;
-* integrity boundaries;
-* target governance semantics.
+- the artifact name;
+- artifact ID;
+- Kernel placement;
+- Meta-Logic segment;
+- origin architect/steward metadata;
+- placeholder status;
+- ADD-ONLY ingestion policy;
+- integrity boundaries;
+- target governance semantics.
 
 **What is not established**
 
-* the actual native definition of Absolute Logic;
-* native axioms;
-* native equations;
-* native operators;
-* canonical precedence;
-* historical lineage;
-* executable implementation;
-* runtime enforcement;
-* artifact-specific validation.
+- the actual native definition of Absolute Logic;
+- native axioms;
+- native equations;
+- native operators;
+- canonical precedence;
+- historical lineage;
+- executable implementation;
+- runtime enforcement;
+- artifact-specific validation.
 
 Therefore this artifact remains deliberately incomplete at the substantive-canon layer.
 

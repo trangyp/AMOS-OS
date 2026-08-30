@@ -56,28 +56,28 @@ The Canon plane governs the structures through which AMOS represents, distinguis
 
 Its scope includes, where corresponding artifacts exist:
 
-* AMOS Core laws;
-* architecture canons;
-* universe/reality canons;
-* cognition canons;
-* infrastructure canons;
-* governance constraints;
-* canonical terminology;
-* variable and symbol registries;
-* provenance lineage;
-* epistemic classification;
-* applicability scope;
-* regime validity;
-* dependency relationships;
-* contradiction state;
-* competing hypotheses;
-* supersession;
-* authoritative-state resolution;
-* canon admission;
-* canon invalidation;
-* canon rollback;
-* compatibility boundaries;
-* version and epoch relationships.
+- AMOS Core laws;
+- architecture canons;
+- universe/reality canons;
+- cognition canons;
+- infrastructure canons;
+- governance constraints;
+- canonical terminology;
+- variable and symbol registries;
+- provenance lineage;
+- epistemic classification;
+- applicability scope;
+- regime validity;
+- dependency relationships;
+- contradiction state;
+- competing hypotheses;
+- supersession;
+- authoritative-state resolution;
+- canon admission;
+- canon invalidation;
+- canon rollback;
+- compatibility boundaries;
+- version and epoch relationships.
 
 This README does **not** make every file inside `01_CANON` authoritative.
 
@@ -104,17 +104,17 @@ NEWER_FILE != AUTOMATIC_SUPERSESSION
 
 A statement may exist in:
 
-* model context;
-* an uploaded corpus;
-* Google Drive;
-* GitHub;
-* an AMOS vault;
-* a generated artifact;
-* a skill;
-* an agent result;
-* an event;
-* an observation;
-* an evidence record;
+- model context;
+- an uploaded corpus;
+- Google Drive;
+- GitHub;
+- an AMOS vault;
+- a generated artifact;
+- a skill;
+- an agent result;
+- an event;
+- an observation;
+- an evidence record;
 
 without being canonical.
 
@@ -151,17 +151,17 @@ If these questions cannot be resolved for a consequential claim, the system must
 
 The Canon plane must not silently become:
 
-* an agent;
-* an LLM;
-* a planner;
-* a skill;
-* a workflow engine;
-* a retrieval engine;
-* an event bus;
-* a worker;
-* a tool adapter;
-* a memory database;
-* a generic knowledge graph.
+- an agent;
+- an LLM;
+- a planner;
+- a skill;
+- a workflow engine;
+- a retrieval engine;
+- an event bus;
+- a worker;
+- a tool adapter;
+- a memory database;
+- a generic knowledge graph.
 
 Those systems may **consume**, **propose**, **validate**, **index**, or **operate upon** canonical artifacts.
 
@@ -576,16 +576,16 @@ MULTIPLE_DESCENDANTS != MULTIPLE_ROOTS
 
 Where technically available, provenance SHOULD survive:
 
-* file movement;
-* regeneration;
-* derived summaries;
-* agent handoffs;
-* workflow transitions;
-* retries;
-* event replay;
-* canon promotion;
-* supersession;
-* rollback.
+- file movement;
+- regeneration;
+- derived summaries;
+- agent handoffs;
+- workflow transitions;
+- retries;
+- event replay;
+- canon promotion;
+- supersession;
+- rollback.
 
 A derived artifact without recoverable ancestry should be downgraded when ancestry is load-bearing.
 
@@ -623,16 +623,16 @@ AMOS must detect when operating conditions change enough that previously valid k
 
 Examples of regime dimensions include:
 
-* architecture generation;
-* software version;
-* policy epoch;
-* model generation;
-* infrastructure topology;
-* deployment environment;
-* legal or institutional context;
-* hardware environment;
-* data distribution;
-* measurement protocol.
+- architecture generation;
+- software version;
+- policy epoch;
+- model generation;
+- infrastructure topology;
+- deployment environment;
+- legal or institutional context;
+- hardware environment;
+- data distribution;
+- measurement protocol.
 
 A regime shift can trigger:
 
@@ -826,13 +826,13 @@ AMOS Core v4.4 reasoning favors the smallest proof scope sufficient to establish
 
 Local reasoning is permissible only when relevant conditions are established, including:
 
-* dependency closure;
-* provenance independence where required;
-* scope compatibility;
-* regime compatibility;
-* freshness;
-* absence of material unresolved conflict;
-* appropriate authority.
+- dependency closure;
+- provenance independence where required;
+- scope compatibility;
+- regime compatibility;
+- freshness;
+- absence of material unresolved conflict;
+- appropriate authority.
 
 Escalation is required where material uncertainty remains.
 
@@ -874,27 +874,27 @@ Agents are reasoning participants, not canonical authorities by default.
 
 An agent MAY:
 
-* discover evidence;
-* generate hypotheses;
-* construct candidate claims;
-* request validation;
-* propose canon admission;
-* identify contradictions;
-* propose supersession;
-* propose invalidation;
-* request discriminating tests.
+- discover evidence;
+- generate hypotheses;
+- construct candidate claims;
+- request validation;
+- propose canon admission;
+- identify contradictions;
+- propose supersession;
+- propose invalidation;
+- request discriminating tests.
 
 An agent MUST NOT be assumed able to:
 
-* self-authorize;
-* unilaterally alter Canon;
-* manufacture provenance;
-* convert `UNKNOWN` into `PASS`;
-* raise confidence beyond evidence;
-* bypass policy;
-* bypass version checks;
-* bypass required validation;
-* directly infer authority from capability.
+- self-authorize;
+- unilaterally alter Canon;
+- manufacture provenance;
+- convert `UNKNOWN` into `PASS`;
+- raise confidence beyond evidence;
+- bypass policy;
+- bypass version checks;
+- bypass required validation;
+- directly infer authority from capability.
 
 Canonical pattern:
 
@@ -925,16 +925,16 @@ Skills provide bounded capabilities.
 
 Examples may include:
 
-* provenance resolution;
-* contradiction analysis;
-* source evaluation;
-* schema validation;
-* dependency traversal;
-* causal analysis;
-* scope checking;
-* promotion-gate validation;
-* documentation generation;
-* canon diffing.
+- provenance resolution;
+- contradiction analysis;
+- source evaluation;
+- schema validation;
+- dependency traversal;
+- causal analysis;
+- scope checking;
+- promotion-gate validation;
+- documentation generation;
+- canon diffing.
 
 But:
 
@@ -1008,14 +1008,14 @@ Workers execute authorized deterministic operations.
 
 For Canon, workers might perform:
 
-* append admitted record;
-* persist provenance edge;
-* update canonical pointer;
-* write supersession relationship;
-* persist validation receipt;
-* update epoch;
-* invalidate dependent record;
-* restore prior canonical state.
+- append admitted record;
+- persist provenance edge;
+- update canonical pointer;
+- write supersession relationship;
+- persist validation receipt;
+- update epoch;
+- invalidate dependent record;
+- restore prior canonical state.
 
 Workers must not independently decide whether a candidate deserves admission.
 
@@ -1073,13 +1073,13 @@ event:
 
 Requires:
 
-* candidate identity;
-* provenance;
-* epistemic class;
-* scope;
-* regime;
-* dependencies;
-* freshness.
+- candidate identity;
+- provenance;
+- epistemic class;
+- scope;
+- regime;
+- dependencies;
+- freshness.
 
 ### Tier C — canonical mutation/effect
 
@@ -1335,11 +1335,11 @@ It must not imply universal timeless truth.
 
 An epoch may bind:
 
-* policy version;
-* authority state;
-* canonical dependency state;
-* provenance state;
-* validation state.
+- policy version;
+- authority state;
+- canonical dependency state;
+- provenance state;
+- validation state.
 
 Exact epoch semantics must be defined by the corresponding authoritative contract.
 
@@ -1397,12 +1397,12 @@ AMOS v4.4 favors proof-based coordination avoidance where local proof is suffici
 
 Canon SHOULD avoid unnecessary global coordination if:
 
-* dependency closure is local and known;
-* provenance independence is established;
-* no conflicting mutation exists;
-* scope/regime are compatible;
-* expected version matches;
-* policy permits local finalization.
+- dependency closure is local and known;
+- provenance independence is established;
+- no conflicting mutation exists;
+- scope/regime are compatible;
+- expected version matches;
+- policy permits local finalization.
 
 But:
 
@@ -1548,16 +1548,16 @@ Consequential Canon promotion should not rely solely on a supporting reasoning p
 
 A genuinely different challenge path SHOULD seek:
 
-* contradictory evidence;
-* shared provenance ancestry;
-* stale premises;
-* scope leakage;
-* hidden dependency;
-* causal overreach;
-* stronger competing hypotheses;
-* invalid authority;
-* stale version;
-* regime mismatch.
+- contradictory evidence;
+- shared provenance ancestry;
+- stale premises;
+- scope leakage;
+- hidden dependency;
+- causal overreach;
+- stronger competing hypotheses;
+- invalid authority;
+- stale version;
+- regime mismatch.
 
 Challenge success should cause:
 
@@ -1583,32 +1583,32 @@ A candidate SHOULD NOT become authoritative until required promotion gates pass.
 
 Minimum conceptual checklist:
 
-* [ ] artifact identity resolvable
-* [ ] schema valid
-* [ ] artifact version explicit
-* [ ] epistemic class declared
-* [ ] load-bearing premises identified
-* [ ] evidence references resolvable
-* [ ] provenance ancestry resolved sufficiently
-* [ ] independence/correlation risk evaluated where material
-* [ ] scope declared
-* [ ] regime declared
-* [ ] freshness valid
-* [ ] dependency closure resolved
-* [ ] contradiction check performed
-* [ ] competing hypotheses preserved
-* [ ] causal language appropriately licensed
-* [ ] confidence ceiling calculated
-* [ ] authority valid
-* [ ] policy epoch compatible
-* [ ] expected state version matches
-* [ ] required invariants pass
-* [ ] negative tests pass
-* [ ] rollback basin exists where required
-* [ ] validation receipt exists
-* [ ] unresolved critical gaps are visible
-* [ ] supersession relation explicit if replacing Canon
-* [ ] promotion receipt persisted
+- [ ] artifact identity resolvable
+- [ ] schema valid
+- [ ] artifact version explicit
+- [ ] epistemic class declared
+- [ ] load-bearing premises identified
+- [ ] evidence references resolvable
+- [ ] provenance ancestry resolved sufficiently
+- [ ] independence/correlation risk evaluated where material
+- [ ] scope declared
+- [ ] regime declared
+- [ ] freshness valid
+- [ ] dependency closure resolved
+- [ ] contradiction check performed
+- [ ] competing hypotheses preserved
+- [ ] causal language appropriately licensed
+- [ ] confidence ceiling calculated
+- [ ] authority valid
+- [ ] policy epoch compatible
+- [ ] expected state version matches
+- [ ] required invariants pass
+- [ ] negative tests pass
+- [ ] rollback basin exists where required
+- [ ] validation receipt exists
+- [ ] unresolved critical gaps are visible
+- [ ] supersession relation explicit if replacing Canon
+- [ ] promotion receipt persisted
 
 A missing required item remains a gap.
 
@@ -1686,18 +1686,18 @@ Documentation is not a substitute for execution evidence.
 
 Observability may record:
 
-* candidate creation;
-* validation;
-* gate outcomes;
-* authority decisions;
-* version conflicts;
-* admissions;
-* invalidations;
-* supersessions;
-* rollbacks;
-* dependency failures;
-* provenance resolution;
-* event correlation.
+- candidate creation;
+- validation;
+- gate outcomes;
+- authority decisions;
+- version conflicts;
+- admissions;
+- invalidations;
+- supersessions;
+- rollbacks;
+- dependency failures;
+- provenance resolution;
+- event correlation.
 
 But:
 
@@ -1746,17 +1746,17 @@ Canonical mutation is a privileged operation.
 
 Security controls SHOULD prevent:
 
-* agent self-promotion;
-* unauthorized file replacement;
-* provenance forgery;
-* stale-state overwrite;
-* privilege escalation through skills;
-* authority escalation through workflow composition;
-* event spoofing;
-* replay-based duplicate mutation;
-* validation-receipt forgery;
-* canonical-pointer manipulation;
-* hidden supersession.
+- agent self-promotion;
+- unauthorized file replacement;
+- provenance forgery;
+- stale-state overwrite;
+- privilege escalation through skills;
+- authority escalation through workflow composition;
+- event spoofing;
+- replay-based duplicate mutation;
+- validation-receipt forgery;
+- canonical-pointer manipulation;
+- hidden supersession.
 
 Security implementation claims require independent validation.
 
@@ -1898,13 +1898,13 @@ unless the governance model explicitly defines repository state as an authoritat
 
 GitHub may provide:
 
-* source artifacts;
-* commit history;
-* code;
-* tests;
-* releases;
-* provenance evidence;
-* implementation references.
+- source artifacts;
+- commit history;
+- code;
+- tests;
+- releases;
+- provenance evidence;
+- implementation references.
 
 GitHub does not inherently provide epistemic authority.
 
@@ -1922,13 +1922,13 @@ until validated appropriately.
 
 Google Drive may contain:
 
-* design documents;
-* canonical candidates;
-* working notes;
-* exported artifacts;
-* evidence;
-* historical versions;
-* validation receipts.
+- design documents;
+- canonical candidates;
+- working notes;
+- exported artifacts;
+- evidence;
+- historical versions;
+- validation receipts.
 
 Drive location alone does not establish authority.
 
@@ -1942,22 +1942,22 @@ IN_CANON_FOLDER != CANON_ADMITTED
 
 External open-source tools and documents may contribute:
 
-* implementation patterns;
-* algorithms;
-* schemas;
-* protocols;
-* test methodologies;
-* evidence;
-* comparative architecture.
+- implementation patterns;
+- algorithms;
+- schemas;
+- protocols;
+- test methodologies;
+- evidence;
+- comparative architecture.
 
 Their integration must preserve:
 
-* source provenance;
-* license/IP status;
-* version;
-* environment fit;
-* dependency assumptions;
-* validation status.
+- source provenance;
+- license/IP status;
+- version;
+- environment fit;
+- dependency assumptions;
+- validation status.
 
 External architecture resemblance is not evidence that AMOS already implements the same capability.
 
@@ -2004,14 +2004,14 @@ Conceptual mutation classes may range from low-impact/reversible operations to h
 
 Higher risk requires stronger:
 
-* authority validation;
-* provenance;
-* negative testing;
-* version protection;
-* rollback planning;
-* observability;
-* receipts;
-* human governance where applicable.
+- authority validation;
+- provenance;
+- negative testing;
+- version protection;
+- rollback planning;
+- observability;
+- receipts;
+- human governance where applicable.
 
 Exact mutation classes must come from the authoritative risk-policy artifact rather than being invented here.
 
@@ -2118,15 +2118,15 @@ Invalidation must be explicit and scoped.
 
 Possible causes include:
 
-* falsifier observed;
-* dependency invalidated;
-* provenance failure;
-* regime shift;
-* scope error;
-* authority revocation;
-* implementation divergence;
-* discovered contradiction;
-* validation failure.
+- falsifier observed;
+- dependency invalidated;
+- provenance failure;
+- regime shift;
+- scope error;
+- authority revocation;
+- implementation divergence;
+- discovered contradiction;
+- validation failure.
 
 Invalidation SHOULD propagate only through dependency edges that require the failed premise.
 
@@ -2193,16 +2193,16 @@ Unrelated branches should remain intact.
 
 A Canon optimization or architectural change may be accepted only if it preserves or improves:
 
-* factual support;
-* scope correctness;
-* contradiction visibility;
-* provenance recoverability;
-* causal discipline;
-* authority boundaries;
-* rollback safety;
-* validation quality;
-* efficiency;
-* user fit.
+- factual support;
+- scope correctness;
+- contradiction visibility;
+- provenance recoverability;
+- causal discipline;
+- authority boundaries;
+- rollback safety;
+- validation quality;
+- efficiency;
+- user fit.
 
 If an optimization weakens integrity:
 
@@ -2315,13 +2315,13 @@ Their mere existence must not be interpreted as proof that they contain successf
 
 A receipt must itself be:
 
-* resolvable;
-* scoped;
-* version-compatible;
-* authentic;
-* applicable;
-* current enough;
-* tied to actual execution evidence.
+- resolvable;
+- scoped;
+- version-compatible;
+- authentic;
+- applicable;
+- current enough;
+- tied to actual execution evidence.
 
 ---
 
@@ -2390,11 +2390,11 @@ Check the candidate's required dependency closure.
 
 Seek:
 
-* direct contradictions;
-* incompatible Canon;
-* competing hypotheses;
-* scope conflicts;
-* regime conflicts.
+- direct contradictions;
+- incompatible Canon;
+- competing hypotheses;
+- scope conflicts;
+- regime conflicts.
 
 ### Step 7 — Check freshness
 
@@ -2669,31 +2669,31 @@ It does not prove that all referenced infrastructure is implemented.
 
 Before claiming the Canon plane is fully operational, verify:
 
-* Is there an executable canonical object schema?
-* Is artifact identity deterministic?
-* Are content hashes persisted?
-* Is provenance ancestry persisted?
-* Is source independence evaluated?
-* Is authority machine-checkable?
-* Are policy epochs persisted?
-* Are scope and regime machine-readable?
-* Are dependencies traversable?
-* Are contradiction states explicit?
-* Are competing hypotheses preserved?
-* Are expected versions checked atomically?
-* Are canonical writes CAS/MVCC protected?
-* Are required invariant IDs explicit?
-* Are workers prevented from self-authorizing?
-* Are agents prevented from bypassing infrastructure?
-* Are event envelopes typed?
-* Are mutation events idempotent?
-* Are promotion gates executable?
-* Are negative tests present?
-* Are receipts tamper-resistant enough for the threat model?
-* Can supersession be reconstructed?
-* Can invalidation propagate locally?
-* Can Canon rollback restore a valid state?
-* Is authoritative state uniquely resolvable?
+- Is there an executable canonical object schema?
+- Is artifact identity deterministic?
+- Are content hashes persisted?
+- Is provenance ancestry persisted?
+- Is source independence evaluated?
+- Is authority machine-checkable?
+- Are policy epochs persisted?
+- Are scope and regime machine-readable?
+- Are dependencies traversable?
+- Are contradiction states explicit?
+- Are competing hypotheses preserved?
+- Are expected versions checked atomically?
+- Are canonical writes CAS/MVCC protected?
+- Are required invariant IDs explicit?
+- Are workers prevented from self-authorizing?
+- Are agents prevented from bypassing infrastructure?
+- Are event envelopes typed?
+- Are mutation events idempotent?
+- Are promotion gates executable?
+- Are negative tests present?
+- Are receipts tamper-resistant enough for the threat model?
+- Can supersession be reconstructed?
+- Can invalidation propagate locally?
+- Can Canon rollback restore a valid state?
+- Is authoritative state uniquely resolvable?
 
 Until verified, these remain implementation questions rather than established capabilities.
 
@@ -2703,25 +2703,25 @@ Until verified, these remain implementation questions rather than established ca
 
 Before this README itself is promoted beyond `MODEL`:
 
-* [ ] authoritative source references resolved
-* [ ] `CANON_CANON_CONTRACT` compatibility checked
-* [ ] `LAW_HIERARCHY` compatibility checked
-* [ ] terminology reconciled against AMOS Core v4.4
-* [ ] RSCF terminology validated
-* [ ] GMEF references validated where used
-* [ ] scope/regime semantics checked
-* [ ] authority model references resolved
-* [ ] routing references resolved
-* [ ] validation references resolved
-* [ ] event semantics reconciled with infrastructure contract
-* [ ] kernel boundaries reconciled
-* [ ] worker boundaries reconciled
-* [ ] supersession policy reconciled
-* [ ] canonical-state artifact linked
-* [ ] broken wiki links audited
-* [ ] duplicate artifacts reconciled
-* [ ] executed validation receipt attached where executable claims are made
-* [ ] critical UNKNOWN/GAP items registered
+- [ ] authoritative source references resolved
+- [ ] `CANON_CANON_CONTRACT` compatibility checked
+- [ ] `LAW_HIERARCHY` compatibility checked
+- [ ] terminology reconciled against AMOS Core v4.4
+- [ ] RSCF terminology validated
+- [ ] GMEF references validated where used
+- [ ] scope/regime semantics checked
+- [ ] authority model references resolved
+- [ ] routing references resolved
+- [ ] validation references resolved
+- [ ] event semantics reconciled with infrastructure contract
+- [ ] kernel boundaries reconciled
+- [ ] worker boundaries reconciled
+- [ ] supersession policy reconciled
+- [ ] canonical-state artifact linked
+- [ ] broken wiki links audited
+- [ ] duplicate artifacts reconciled
+- [ ] executed validation receipt attached where executable claims are made
+- [ ] critical UNKNOWN/GAP items registered
 
 ---
 

@@ -1,6 +1,3 @@
-Below is the **full expanded Obsidian-ready `TSS_MODEL_REGISTRY.md`**. I am preserving the supplied placeholder as the source nucleus and **not inventing a native expansion of `TSS`**. The available conversation context establishes a source-native anchor named `TSS_7_cycle`, but does not establish enough native TSS definitions, seven stage names, equations, or runtime bindings to safely fabricate them. Those remain explicit `UNKNOWN/GAP`.
-
-````markdown
 ---
 title: TSS Model Registry
 type: model
@@ -93,6 +90,8 @@ rscf:
   confidence_ceiling: source_supported
   provenance_independence: NOT_ESTABLISHED
 ---
+Below is the **full expanded Obsidian-ready `TSS_MODEL_REGISTRY.md`**. I am preserving the supplied placeholder as the source nucleus and **not inventing a native expansion of `TSS`**. The available conversation context establishes a source-native anchor named `TSS_7_cycle`, but does not establish enough native TSS definitions, seven stage names, equations, or runtime bindings to safely fabricate them. Those remain explicit `UNKNOWN/GAP`.
+
 
 # TSS Model Registry
 
@@ -120,22 +119,22 @@ The available AMOS corpus context also establishes the symbolic architectural an
 
 ```text
 TSS_7_cycle
-````
+```
 
 That anchor is evidence that TSS is associated in the corpus with a seven-cycle structure.
 
 It does **not**, by itself, establish:
 
-* the expansion of the acronym `TSS`;
-* the names of the seven cycles;
-* the semantics of those cycles;
-* transition laws;
-* equations;
-* causal mechanisms;
-* empirical validity;
-* executable implementation;
-* runtime enforcement;
-* or final canonical status.
+- the expansion of the acronym `TSS`;
+- the names of the seven cycles;
+- the semantics of those cycles;
+- transition laws;
+- equations;
+- causal mechanisms;
+- empirical validity;
+- executable implementation;
+- runtime enforcement;
+- or final canonical status.
 
 Accordingly:
 
@@ -286,26 +285,26 @@ The registry is intended to support:
 
 This registry MUST NOT be used to claim:
 
-* universal laws of reality;
-* universal temporal laws;
-* universal seven-stage dynamics;
-* scientific proof;
-* biological truth;
-* psychological diagnosis;
-* mathematical theoremhood;
-* philosophical certainty;
-* causal effects not established by causal evidence;
-* empirical calibration not demonstrated by evidence;
-* executable behavior not demonstrated by implementation;
-* runtime enforcement not demonstrated by execution;
-* final canonical status from architectural placement;
-* authority merely from framework importance;
-* successful validation because the file exists;
-* validation because a link resolves;
-* truth because a model produces an output;
-* observation because a model infers a state;
-* independent confirmation from multiple descendants of one AMOS source;
-* or missing TSS semantics filled through plausible interpretation.
+- universal laws of reality;
+- universal temporal laws;
+- universal seven-stage dynamics;
+- scientific proof;
+- biological truth;
+- psychological diagnosis;
+- mathematical theoremhood;
+- philosophical certainty;
+- causal effects not established by causal evidence;
+- empirical calibration not demonstrated by evidence;
+- executable behavior not demonstrated by implementation;
+- runtime enforcement not demonstrated by execution;
+- final canonical status from architectural placement;
+- authority merely from framework importance;
+- successful validation because the file exists;
+- validation because a link resolves;
+- truth because a model produces an output;
+- observation because a model infers a state;
+- independent confirmation from multiple descendants of one AMOS source;
+- or missing TSS semantics filled through plausible interpretation.
 
 ---
 
@@ -832,13 +831,13 @@ Independence must be demonstrated, not assumed.
 
 Two sources may be correlated because they:
 
-* copy one another;
-* descend from one master document;
-* use the same dataset;
-* reuse the same model output;
-* inherit the same premise;
-* share a hidden source;
-* or merely rephrase the same claim.
+- copy one another;
+- descend from one master document;
+- use the same dataset;
+- reuse the same model output;
+- inherit the same premise;
+- share a hidden source;
+- or merely rephrase the same claim.
 
 Hence:
 
@@ -1191,14 +1190,14 @@ A CAUSES B IN REALITY
 
 A cyclic representation may encode:
 
-* ordering;
-* recurrence;
-* conceptual grouping;
-* process state;
-* feedback;
-* iteration;
-* pedagogical structure;
-* or another source-defined relationship.
+- ordering;
+- recurrence;
+- conceptual grouping;
+- process state;
+- feedback;
+- iteration;
+- pedagogical structure;
+- or another source-defined relationship.
 
 Until the source specifies which:
 
@@ -1770,14 +1769,14 @@ native TSS master source
 
 because it could resolve:
 
-* acronym expansion;
-* cycle definitions;
-* order;
-* transitions;
-* purpose;
-* laws;
-* equations;
-* and scope.
+- acronym expansion;
+- cycle definitions;
+- order;
+- transitions;
+- purpose;
+- laws;
+- equations;
+- and scope.
 
 ---
 
@@ -2089,8 +2088,8 @@ UNIVERSAL_PROOF
 
 The placeholder references:
 
-* [[ROUTING_POLICY_VALIDATION_RECEIPT]]
-* [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+- [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+- [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
 These should be treated as validation/governance integration surfaces.
 
@@ -2160,15 +2159,15 @@ PASS
 
 This rule applies to:
 
-* missing source;
-* missing implementation;
-* missing receipt;
-* stale receipt;
-* malformed receipt;
-* unresolved authority;
-* unresolved provenance;
-* unresolved scope;
-* unresolved regime.
+- missing source;
+- missing implementation;
+- missing receipt;
+- stale receipt;
+- malformed receipt;
+- unresolved authority;
+- unresolved provenance;
+- unresolved scope;
+- unresolved regime.
 
 ---
 
@@ -2321,11 +2320,11 @@ A model result generated under one policy epoch does not automatically authorize
 
 A provenance graph may change when:
 
-* new ancestry is discovered;
-* duplicate evidence is identified;
-* source corruption is detected;
-* source identity changes;
-* or independence assumptions fail.
+- new ancestry is discovered;
+- duplicate evidence is identified;
+- source corruption is detected;
+- source identity changes;
+- or independence assumptions fail.
 
 Such changes can alter confidence without changing model content.
 
@@ -3619,47 +3618,47 @@ This does not create universal truth.
 
 ## Native canon
 
-* [ ] authoritative TSS source identified
-* [ ] TSS acronym resolved from source
-* [ ] native TSS definition extracted
-* [ ] seven cycles defined from source
-* [ ] cycle order established from source
-* [ ] transition semantics established
-* [ ] native laws extracted
-* [ ] native equations extracted
-* [ ] native schemas extracted
-* [ ] native scope established
-* [ ] source lineage recorded
+- [ ] authoritative TSS source identified
+- [ ] TSS acronym resolved from source
+- [ ] native TSS definition extracted
+- [ ] seven cycles defined from source
+- [ ] cycle order established from source
+- [ ] transition semantics established
+- [ ] native laws extracted
+- [ ] native equations extracted
+- [ ] native schemas extracted
+- [ ] native scope established
+- [ ] source lineage recorded
 
 ## Registry integrity
 
-* [x] artifact identity declared
-* [x] artifact path declared
-* [x] version declared
-* [x] provenance class declared
-* [x] epistemic firewall declared
-* [x] gap visibility enforced
-* [x] add-only ingestion preserved
-* [x] no-overwrite discipline preserved
-* [x] model/observation firewall declared
+- [x] artifact identity declared
+- [x] artifact path declared
+- [x] version declared
+- [x] provenance class declared
+- [x] epistemic firewall declared
+- [x] gap visibility enforced
+- [x] add-only ingestion preserved
+- [x] no-overwrite discipline preserved
+- [x] model/observation firewall declared
 
 ## Runtime
 
-* [ ] executable binding established
-* [ ] implementation identified
-* [ ] identity + versioning implemented
-* [ ] dependency closure implemented
-* [ ] negative cases executed
-* [ ] rollback basin demonstrated
-* [ ] artifact-specific validation receipt produced
+- [ ] executable binding established
+- [ ] implementation identified
+- [ ] identity + versioning implemented
+- [ ] dependency closure implemented
+- [ ] negative cases executed
+- [ ] rollback basin demonstrated
+- [ ] artifact-specific validation receipt produced
 
 ## Validation
 
-* [ ] canon validation complete
-* [ ] formal validation complete
-* [ ] implementation validation complete
-* [ ] empirical validation assessed where applicable
-* [ ] provenance independence assessed
+- [ ] canon validation complete
+- [ ] formal validation complete
+- [ ] implementation validation complete
+- [ ] empirical validation assessed where applicable
+- [ ] provenance independence assessed
 
 ---
 
@@ -5856,13 +5855,13 @@ executable_binding = NOT_ESTABLISHED
 
 # 266. Cross-Plane Bindings
 
-* Governed by canon — [[LAW_HIERARCHY]]
-* Kernel interaction — [[KERNEL_README]]
-* Control-plane gates — [[CONTROL_PLANE_README]]
-* Observed by — [[OBSERVABILITY_README]]
-* Recovered via operations — [[OPERATIONS_README]]
-* Validation pattern — [[ROUTING_POLICY_VALIDATION_RECEIPT]]
-* Authorization validation pattern — [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+- Governed by canon — [[LAW_HIERARCHY]]
+- Kernel interaction — [[KERNEL_README]]
+- Control-plane gates — [[CONTROL_PLANE_README]]
+- Observed by — [[OBSERVABILITY_README]]
+- Recovered via operations — [[OPERATIONS_README]]
+- Validation pattern — [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+- Authorization validation pattern — [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
 Critical boundary:
 

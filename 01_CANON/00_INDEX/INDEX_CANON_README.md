@@ -67,6 +67,11 @@ tags:
 aliases:
 - AMOS Canon - AMOS OS Canon - AMOS Canon Root - AMOS Canon Plane - AMOS Canonical
   Authority
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # AMOS OS Canon

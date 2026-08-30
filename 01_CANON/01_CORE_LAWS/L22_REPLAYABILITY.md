@@ -2983,20 +2983,17 @@ LOGGED RECEIPT
 +
 ROOT INPUTS
 ```
-
 ```text
 REPLAY
 =
 DETERMINISTIC
 ```
-
 ```text
 REPLAY RESULT
 =
 ORIGINAL RESULT
 BIT-FOR-BIT
 ```
-
 ---
 
 # 119. Canonical One-Line Law

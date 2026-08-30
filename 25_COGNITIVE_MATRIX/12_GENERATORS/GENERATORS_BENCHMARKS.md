@@ -3186,17 +3186,17 @@ NON_AUTHORITATIVE
 
 ## Related Generator artifacts
 
-* Generator Contract
-* Generator Validation
-* Generator Tests
-* Generator Provenance
-* Generator Roadmap
-* Generator Integration
-* Generator History
-* Generator Change Log
-* Generator Registry
-* Validator Registry
-* Worker Registry
+- Generator Contract
+- Generator Validation
+- Generator Tests
+- Generator Provenance
+- Generator Roadmap
+- Generator Integration
+- Generator History
+- Generator Change Log
+- Generator Registry
+- Validator Registry
+- Worker Registry
 
 ```
 
@@ -3238,4 +3238,5 @@ That separation is important because **tests answer whether a property held in a
 **MOC:**
 
 
+```
 ```

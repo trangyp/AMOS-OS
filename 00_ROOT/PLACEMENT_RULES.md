@@ -79,6 +79,11 @@ tags:
 aliases:
 - AMOS OS - AMOS Operating System - AMOS Cognitive Operating System - AMOS Universal
   Operating
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: root_index
 ---
 
 # AMOS OS
@@ -2466,19 +2471,16 @@ COMPONENT IMPLEMENTED
 !=
 TESTED
 ```
-
 ```text
 TESTED
 !=
 VALIDATED FOR ALL USES
 ```
-
 ```text
 VALIDATED FOR SCOPE
 !=
 UNIVERSAL
 ```
-
 ---
 
 # 95. Placeholder Rule
@@ -3051,25 +3053,21 @@ BENCHMARK SUCCESS
 !=
 UNIVERSAL VALIDITY
 ```
-
 ```text
 STRUCTURAL EQUATION
 !=
 EMPIRICAL LAW
 ```
-
 ```text
 REPORTED LATENCY
 !=
 HARDWARE-INDEPENDENT GUARANTEE
 ```
-
 ```text
 DISTRIBUTED TEST
 !=
 FORMAL PROOF
 ```
-
 unless formal proof exists.
 
 ---
@@ -3201,56 +3199,56 @@ Expanded the root AMOS OS note into the full operating architecture contract.
 
 Added:
 
-* document and architecture-contract versioning;
-* complete root metadata;
-* full authoritative-plane map;
-* root responsibilities;
-* Canon / Kernel / Control Plane separation;
-* Runtime architecture;
-* Cognitive Organism boundary;
-* Agents / Skills / Workflows / Protocols;
-* Memory / Knowledge / State separation;
-* Models / Tools / Interfaces / Schemas;
-* Observability / Security / Tests / Operations;
-* Domains / Modes / Research / Operating Model / Archive / Cognitive Matrix;
-* H/M/L decomposition;
-* fractal retrieval;
-* smallest-sufficient-proof fast path;
-* escalation conditions;
-* RSCF;
-* selective invalidation;
-* provenance topology;
-* confidence ceiling;
-* competing hypotheses;
-* causal firewall;
-* scope/regime firewall;
-* freshness and revalidation;
-* GMEF/governed evolution;
-* transaction/MVCC/CAS conceptual boundaries;
-* epoch/finality semantics;
-* proposal/commit firewall;
-* external-effect governance;
-* reversibility;
-* failure and recovery;
-* `IN_DOUBT`;
-* knowledge harvest;
-* research/domain promotion;
-* version and identity firewalls;
-* root dependency graph;
-* minimum and consequential reasoning paths;
-* sensitivity and adversarial validation;
-* capability limits;
-* repository/placeholder boundaries;
-* 30 core operating invariants;
-* 30 failure classes;
-* minimum contracts for components, agents, skills, workflows, protocols, models, tools, and state;
-* proof capsule;
-* stop conditions;
-* gap priority;
-* anti-fabrication;
-* anti-regression;
-* 7-Part persistence mapping;
-* master RSCF node.
+- document and architecture-contract versioning;
+- complete root metadata;
+- full authoritative-plane map;
+- root responsibilities;
+- Canon / Kernel / Control Plane separation;
+- Runtime architecture;
+- Cognitive Organism boundary;
+- Agents / Skills / Workflows / Protocols;
+- Memory / Knowledge / State separation;
+- Models / Tools / Interfaces / Schemas;
+- Observability / Security / Tests / Operations;
+- Domains / Modes / Research / Operating Model / Archive / Cognitive Matrix;
+- H/M/L decomposition;
+- fractal retrieval;
+- smallest-sufficient-proof fast path;
+- escalation conditions;
+- RSCF;
+- selective invalidation;
+- provenance topology;
+- confidence ceiling;
+- competing hypotheses;
+- causal firewall;
+- scope/regime firewall;
+- freshness and revalidation;
+- GMEF/governed evolution;
+- transaction/MVCC/CAS conceptual boundaries;
+- epoch/finality semantics;
+- proposal/commit firewall;
+- external-effect governance;
+- reversibility;
+- failure and recovery;
+- `IN_DOUBT`;
+- knowledge harvest;
+- research/domain promotion;
+- version and identity firewalls;
+- root dependency graph;
+- minimum and consequential reasoning paths;
+- sensitivity and adversarial validation;
+- capability limits;
+- repository/placeholder boundaries;
+- 30 core operating invariants;
+- 30 failure classes;
+- minimum contracts for components, agents, skills, workflows, protocols, models, tools, and state;
+- proof capsule;
+- stop conditions;
+- gap priority;
+- anti-fabrication;
+- anti-regression;
+- 7-Part persistence mapping;
+- master RSCF node.
 
 ## v1.0.0
 

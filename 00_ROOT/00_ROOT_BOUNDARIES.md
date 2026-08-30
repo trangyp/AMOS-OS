@@ -3387,3 +3387,5 @@ claim_class: AMOS_MODEL
 ---
 
 **Related:** [[00_ROOT_MOC]]
+
+```

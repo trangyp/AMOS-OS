@@ -246,13 +246,11 @@ EMOTION CANON SLOT
 !=
 POPULATED EMOTION CANON
 ```
-
 ```text
 EMOTION
 !=
 FEELING
 ```
-
 unless native canon defines equivalence.
 
 ```text
@@ -282,37 +280,31 @@ OBSERVED BEHAVIOR
 !=
 INTERNAL EMOTION
 ```
-
 ```text
 PHYSIOLOGICAL SIGNAL
 !=
 EMOTION
 ```
-
 ```text
 NEURAL CORRELATE
 !=
 EMOTION
 ```
-
 ```text
 SELF-REPORT
 !=
 DIRECT OBSERVATION OF EMOTION
 ```
-
 ```text
 CORRELATION WITH EMOTION
 !=
 CAUSE OF EMOTION
 ```
-
 ```text
 EMOTION-RELATED MODEL OUTPUT
 !=
 HUMAN SUBJECTIVE EXPERIENCE
 ```
-
 These are integrity-preserving derived constraints pending native-canon evidence.
 
 ---
@@ -658,13 +650,11 @@ REPEATED EMOTION
 !=
 STABLE TRAIT
 ```
-
 ```text
 STABLE TRAIT
 !=
 CURRENT EMOTIONAL STATE
 ```
-
 No native trait/state distinction is established.
 
 ---
@@ -682,25 +672,21 @@ FACIAL EXPRESSION
 !=
 EMOTION
 ```
-
 ```text
 VOCAL EXPRESSION
 !=
 EMOTION
 ```
-
 ```text
 ACTION
 !=
 EMOTION
 ```
-
 ```text
 ABSENCE OF EXPRESSION
 !=
 ABSENCE OF EMOTION
 ```
-
 ---
 
 # 12. Behavior Firewall
@@ -746,19 +732,16 @@ HEART-RATE CHANGE
 !=
 SPECIFIC EMOTION
 ```
-
 ```text
 AUTONOMIC RESPONSE
 !=
 SPECIFIC EMOTION
 ```
-
 ```text
 HORMONAL CHANGE
 !=
 EMOTION
 ```
-
 unless an appropriately validated measurement model licenses the inference.
 
 ---
@@ -776,19 +759,16 @@ NEURAL CORRELATE
 !=
 CAUSAL EMOTION MECHANISM
 ```
-
 ```text
 BRAIN-REGION ACTIVATION
 !=
 UNIQUE EMOTION IDENTITY
 ```
-
 ```text
 NEURAL SIMILARITY
 !=
 PHENOMENOLOGICAL SIMILARITY
 ```
-
 No neural emotion ontology is established by this placeholder.
 
 ---
@@ -814,13 +794,11 @@ EMOTION CLASSIFICATION
 !=
 PHENOMENOLOGICAL ACCESS
 ```
-
 ```text
 EMOTION-RELATED OUTPUT
 !=
 SUBJECTIVE FEELING
 ```
-
 Any relation to AMOS consciousness requires independent native evidence.
 
 ---
@@ -888,13 +866,11 @@ MOTIVATION CORRELATED WITH EMOTION
 !=
 EMOTION CAUSES MOTIVATION
 ```
-
 ```text
 EMOTION PRECEDES ACTION
 !=
 EMOTION CAUSED ACTION
 ```
-
 ---
 
 # 19. Reward Firewall
@@ -910,13 +886,11 @@ REWARD SIGNAL
 !=
 PLEASURE
 ```
-
 ```text
 REWARD PREDICTION
 !=
 EMOTIONAL EXPERIENCE
 ```
-
 unless explicitly defined and validated.
 
 ---
@@ -934,13 +908,11 @@ CHOICE
 !=
 PREFERENCE
 ```
-
 ```text
 PREFERENCE
 !=
 FEELING
 ```
-
 No preference-emotion relation is established.
 
 ---
@@ -1036,13 +1008,11 @@ MEMORY ASSOCIATED WITH EMOTION
 !=
 MEMORY CAUSES EMOTION
 ```
-
 ```text
 EMOTIONAL MEMORY
 !=
 MEMORY OF EMOTION
 ```
-
 No native relation is established.
 
 ---
@@ -1060,7 +1030,6 @@ ATTENTION TO EMOTIONAL STIMULUS
 !=
 EMOTIONAL STATE
 ```
-
 No native emotion-attention model is established.
 
 ---
@@ -1078,13 +1047,11 @@ PERCEPTION OF EMOTION
 !=
 EXPERIENCE OF EMOTION
 ```
-
 ```text
 EMOTION RECOGNITION
 !=
 EMOTION GENERATION
 ```
-
 ---
 
 # 26. Emotion-Learning Firewall
@@ -1100,13 +1067,11 @@ REINFORCEMENT
 !=
 EMOTION
 ```
-
 ```text
 LEARNED RESPONSE
 !=
 EMOTIONAL EXPERIENCE
 ```
-
 ---
 
 # 27. Emotion-Decision Firewall
@@ -1122,13 +1087,11 @@ DECISION CORRELATED WITH EMOTION
 !=
 DECISION CAUSED EMOTION
 ```
-
 ```text
 EMOTION-INFORMED DECISION
 !=
 EMOTION-DETERMINED DECISION
 ```
-
 No native decision relation is established.
 
 ---
@@ -1146,19 +1109,16 @@ ACTION TENDENCY
 !=
 ACTION
 ```
-
 ```text
 ACTION FOLLOWING EMOTION
 !=
 ACTION CAUSED BY EMOTION
 ```
-
 ```text
 SAME EMOTION
 !=
 SAME ACTION
 ```
-
 ---
 
 # 29. Purpose
@@ -1223,25 +1183,25 @@ PROMOTION
 
 This placeholder MUST NOT be used to claim:
 
-* a universal theory of emotion;
-* a complete emotion taxonomy;
-* basic-emotion universality;
-* dimensional-emotion universality;
-* biological universality;
-* neural universality;
-* emotional consciousness equivalence;
-* deterministic emotion-to-action mapping;
-* deterministic physiology-to-emotion mapping;
-* validated emotion recognition;
-* validated emotion generation;
-* validated emotion simulation;
-* validated affective computing;
-* scientific proof;
-* biological truth;
-* mathematical theoremhood;
-* philosophical certainty;
-* runtime enforcement;
-* or validated emotion implementation.
+- a universal theory of emotion;
+- a complete emotion taxonomy;
+- basic-emotion universality;
+- dimensional-emotion universality;
+- biological universality;
+- neural universality;
+- emotional consciousness equivalence;
+- deterministic emotion-to-action mapping;
+- deterministic physiology-to-emotion mapping;
+- validated emotion recognition;
+- validated emotion generation;
+- validated emotion simulation;
+- validated affective computing;
+- scientific proof;
+- biological truth;
+- mathematical theoremhood;
+- philosophical certainty;
+- runtime enforcement;
+- or validated emotion implementation.
 
 ---
 
@@ -1677,19 +1637,16 @@ MATHEMATICAL MODEL
 !=
 BIOLOGICAL MECHANISM
 ```
-
 ```text
 MODEL FIT
 !=
 EMOTION ONTOLOGY
 ```
-
 ```text
 PREDICTION
 !=
 CAUSATION
 ```
-
 ---
 
 # 41. Dynamics Slot
@@ -1743,19 +1700,16 @@ TEMPORAL PRECEDENCE
 !=
 CAUSATION
 ```
-
 ```text
 REPEATED TRANSITION
 !=
 DETERMINISTIC TRANSITION
 ```
-
 ```text
 STABLE PATTERN
 !=
 IMMUTABLE EMOTIONAL TRAIT
 ```
-
 ---
 
 # 43. Measurement Slot
@@ -1812,25 +1766,21 @@ SELF-REPORT
 !=
 INFALLIBLE EMOTION GROUND TRUTH
 ```
-
 ```text
 BEHAVIORAL CLASSIFIER OUTPUT
 !=
 VERIFIED INTERNAL EMOTION
 ```
-
 ```text
 PHYSIOLOGICAL CLASSIFIER OUTPUT
 !=
 VERIFIED INTERNAL EMOTION
 ```
-
 ```text
 NEURAL CLASSIFIER OUTPUT
 !=
 VERIFIED SUBJECTIVE EXPERIENCE
 ```
-
 ---
 
 # 45. Emotion Recognition Slot
@@ -1875,19 +1825,16 @@ FACIAL CLASSIFICATION
 !=
 MIND READING
 ```
-
 ```text
 VOICE CLASSIFICATION
 !=
 DIRECT ACCESS TO SUBJECTIVE STATE
 ```
-
 ```text
 TEXT SENTIMENT
 !=
 EMOTION
 ```
-
 ---
 
 # 47. Emotion Generation Slot
@@ -1932,19 +1879,16 @@ EMOTION SIMULATION
 !=
 SUBJECTIVE EXPERIENCE
 ```
-
 ```text
 AFFECTIVE LANGUAGE
 !=
 FELT AFFECT
 ```
-
 ```text
 EMOTIONAL BEHAVIOR
 !=
 CONSCIOUS EMOTION
 ```
-
 ---
 
 # 49. Regulation Slot
@@ -1992,13 +1936,11 @@ SUPPRESSION OF EXPRESSION
 !=
 ELIMINATION OF EMOTION
 ```
-
 ```text
 BEHAVIORAL CONTROL
 !=
 INTERNAL STATE CONTROL
 ```
-
 ---
 
 # 51. Causal Slot
@@ -2118,7 +2060,6 @@ STIMULUS OFTEN PRECEDES EMOTION
 !=
 NECESSARY CONDITION FOR EMOTION
 ```
-
 ---
 
 # 54. Appraisal Slot
@@ -2211,13 +2152,11 @@ EMBODIED CORRELATE
 !=
 EMOTION CAUSE
 ```
-
 ```text
 NO MEASURED BODILY CHANGE
 !=
 NO EMOTION
 ```
-
 ---
 
 # 58. Context Slot
@@ -2259,13 +2198,11 @@ EXPRESSION IN CONTEXT C1
 !=
 EXPRESSION IN CONTEXT C2
 ```
-
 ```text
 CLASSIFICATION VALID IN C1
 !=
 CLASSIFICATION VALID IN C2
 ```
-
 ---
 
 # 60. Individual-vs-Population Firewall
@@ -2281,13 +2218,11 @@ OBSERVED IN SAMPLE
 !=
 UNIVERSAL HUMAN PROPERTY
 ```
-
 ```text
 POPULATION MEAN
 !=
 EVERY INDIVIDUAL
 ```
-
 No population-level emotion universality is established.
 
 ---
@@ -2305,13 +2240,11 @@ CHILD EXPRESSION
 !=
 ADULT EXPRESSION
 ```
-
 ```text
 AGE CORRELATION
 !=
 DEVELOPMENTAL CAUSATION
 ```
-
 ---
 
 # 62. Cultural Firewall
@@ -2355,13 +2288,11 @@ BEHAVIORAL SIMILARITY ACROSS SPECIES
 !=
 SAME EMOTION
 ```
-
 ```text
 PHYSIOLOGICAL SIMILARITY ACROSS SPECIES
 !=
 SAME SUBJECTIVE EXPERIENCE
 ```
-
 Any cross-species binding requires independent evidence.
 
 ---
@@ -2379,7 +2310,6 @@ HUMAN-INTERPRETABLE BEHAVIOR
 !=
 HUMAN-LIKE SUBJECTIVE EXPERIENCE
 ```
-
 ---
 
 # 65. Anthropocentrism Firewall
@@ -2397,7 +2327,6 @@ DIFFERENT EXPRESSION
 !=
 INFERIOR EMOTIONAL CAPACITY
 ```
-
 No species emotional hierarchy is established.
 
 ---
@@ -2796,25 +2725,21 @@ VALID FOR INDIVIDUAL i
 !=
 POPULATION-WIDE
 ```
-
 ```text
 VALID FOR CONTEXT C
 !=
 CONTEXT-INVARIANT
 ```
-
 ```text
 VALID FOR ADULTS
 !=
 VALID ACROSS DEVELOPMENT
 ```
-
 ```text
 VALID FOR HUMANS
 !=
 VALID ACROSS SPECIES
 ```
-
 ---
 
 # 76. Regime Slot
@@ -2940,7 +2865,6 @@ EMOTION DURATION
 !=
 MOOD DURATION
 ```
-
 unless native canon defines equivalence.
 
 ```text
@@ -3017,25 +2941,21 @@ SAME SEGMENT
 !=
 DEPENDENCY
 ```
-
 ```text
 DEPENDENCY
 !=
 CAUSATION
 ```
-
 ```text
 DEPENDENCY
 !=
 AUTHORITY
 ```
-
 ```text
 SEMANTIC RELATION
 !=
 IMPLEMENTATION DEPENDENCY
 ```
-
 ---
 
 # 82. Relation to AMOS Cognition Canon
@@ -3258,19 +3178,16 @@ SAME COGNITION SEGMENT
 !=
 PARENT-CHILD RELATION
 ```
-
 ```text
 SHARED VARIABLE NAME
 !=
 SHARED VARIABLE SEMANTICS
 ```
-
 ```text
 TEMPORAL ASSOCIATION
 !=
 CAUSAL RELATION
 ```
-
 ---
 
 # 90. RSCF Binding
@@ -3652,19 +3569,16 @@ MORE EMOTION CLASSES
 !=
 MORE CANONICAL
 ```
-
 ```text
 HIGHER CLASSIFIER ACCURACY
 !=
 BETTER EMOTION ONTOLOGY
 ```
-
 ```text
 MORE COMPLEX MODEL
 !=
 MORE EMPIRICALLY TRUE
 ```
-
 ---
 
 # 105. Version Slot
@@ -3709,13 +3623,11 @@ NEW VERSION
 !=
 VALIDATED VERSION
 ```
-
 ```text
 MORE DETAILED
 !=
 MORE EMPIRICALLY VALID
 ```
-
 ---
 
 # 107. MVCC Concept
@@ -4101,7 +4013,6 @@ LOGGED EMOTION LABEL
 !=
 APPROVED CANONICAL EMOTION STATE
 ```
-
 ---
 
 # 116. Kernel Boundary
@@ -5025,75 +4936,75 @@ These are target references, not validated executable bindings.
 
 Before promotion:
 
-* [ ] verified native Emotion Canon source recovered;
-* [ ] framework identity matched;
-* [ ] source version resolved;
-* [ ] provenance ancestry resolved;
-* [ ] native meaning of `emotion` established;
-* [ ] native meaning of `affect` established if used;
-* [ ] native meaning of `feeling` established if used;
-* [ ] native meaning of `mood` established if used;
-* [ ] state/process/event distinction established;
-* [ ] trait/state distinction established if relevant;
-* [ ] emotion registry extracted if native;
-* [ ] emotion taxonomy extracted if native;
-* [ ] emotion identity criteria established;
-* [ ] variables extracted if present;
-* [ ] equations extracted if present;
-* [ ] dynamics extracted if present;
-* [ ] transition rules extracted if present;
-* [ ] measurement model established;
-* [ ] self-report semantics established if used;
-* [ ] behavioral-proxy semantics established if used;
-* [ ] physiological-proxy semantics established if used;
-* [ ] neural-proxy semantics established if used;
-* [ ] computational-proxy semantics established if used;
-* [ ] emotion recognition semantics established if claimed;
-* [ ] emotion generation semantics established if claimed;
-* [ ] emotion regulation semantics established if claimed;
-* [ ] cognition relation established if native;
-* [ ] memory relation established if native;
-* [ ] attention relation established if native;
-* [ ] perception relation established if native;
-* [ ] learning relation established if native;
-* [ ] motivation relation established if native;
-* [ ] decision relation established if native;
-* [ ] action relation established if native;
-* [ ] biological semantics established if native;
-* [ ] neural semantics established if native;
-* [ ] consciousness relation established if native;
-* [ ] causal semantics established if claimed;
-* [ ] triggers distinguished from causes;
-* [ ] correlation distinguished from causation;
-* [ ] expression distinguished from emotion;
-* [ ] behavior distinguished from emotion;
-* [ ] physiology distinguished from emotion;
-* [ ] neural correlate distinguished from emotion;
-* [ ] classifier output distinguished from emotion;
-* [ ] simulation distinguished from subjective experience;
-* [ ] individual/population scope distinguished;
-* [ ] developmental scope established where material;
-* [ ] cultural scope established where material;
-* [ ] species scope established where material;
-* [ ] environmental/context scope established;
-* [ ] RSCF semantic binding established if native;
-* [ ] H/M/L binding established if native;
-* [ ] regime envelope established;
-* [ ] temporal validity established;
-* [ ] freshness semantics established;
-* [ ] dependency topology established;
-* [ ] provenance independence assessed;
-* [ ] historical sources preserved;
-* [ ] competing emotion models preserved;
-* [ ] external emotion research remains external evidence;
-* [ ] negative cases executed;
-* [ ] rollback basin demonstrated;
-* [ ] receipts persisted;
-* [ ] executable binding established if enforcement is claimed;
-* [ ] `ROUTING_POLICY_VALIDATION_RECEIPT` resolved;
-* [ ] `AUTHZ_ENGINE_VALIDATION_RECEIPT` resolved;
-* [ ] artifact-specific validation receipt executed;
-* [ ] unresolved critical gaps remain visible.
+- [ ] verified native Emotion Canon source recovered;
+- [ ] framework identity matched;
+- [ ] source version resolved;
+- [ ] provenance ancestry resolved;
+- [ ] native meaning of `emotion` established;
+- [ ] native meaning of `affect` established if used;
+- [ ] native meaning of `feeling` established if used;
+- [ ] native meaning of `mood` established if used;
+- [ ] state/process/event distinction established;
+- [ ] trait/state distinction established if relevant;
+- [ ] emotion registry extracted if native;
+- [ ] emotion taxonomy extracted if native;
+- [ ] emotion identity criteria established;
+- [ ] variables extracted if present;
+- [ ] equations extracted if present;
+- [ ] dynamics extracted if present;
+- [ ] transition rules extracted if present;
+- [ ] measurement model established;
+- [ ] self-report semantics established if used;
+- [ ] behavioral-proxy semantics established if used;
+- [ ] physiological-proxy semantics established if used;
+- [ ] neural-proxy semantics established if used;
+- [ ] computational-proxy semantics established if used;
+- [ ] emotion recognition semantics established if claimed;
+- [ ] emotion generation semantics established if claimed;
+- [ ] emotion regulation semantics established if claimed;
+- [ ] cognition relation established if native;
+- [ ] memory relation established if native;
+- [ ] attention relation established if native;
+- [ ] perception relation established if native;
+- [ ] learning relation established if native;
+- [ ] motivation relation established if native;
+- [ ] decision relation established if native;
+- [ ] action relation established if native;
+- [ ] biological semantics established if native;
+- [ ] neural semantics established if native;
+- [ ] consciousness relation established if native;
+- [ ] causal semantics established if claimed;
+- [ ] triggers distinguished from causes;
+- [ ] correlation distinguished from causation;
+- [ ] expression distinguished from emotion;
+- [ ] behavior distinguished from emotion;
+- [ ] physiology distinguished from emotion;
+- [ ] neural correlate distinguished from emotion;
+- [ ] classifier output distinguished from emotion;
+- [ ] simulation distinguished from subjective experience;
+- [ ] individual/population scope distinguished;
+- [ ] developmental scope established where material;
+- [ ] cultural scope established where material;
+- [ ] species scope established where material;
+- [ ] environmental/context scope established;
+- [ ] RSCF semantic binding established if native;
+- [ ] H/M/L binding established if native;
+- [ ] regime envelope established;
+- [ ] temporal validity established;
+- [ ] freshness semantics established;
+- [ ] dependency topology established;
+- [ ] provenance independence assessed;
+- [ ] historical sources preserved;
+- [ ] competing emotion models preserved;
+- [ ] external emotion research remains external evidence;
+- [ ] negative cases executed;
+- [ ] rollback basin demonstrated;
+- [ ] receipts persisted;
+- [ ] executable binding established if enforcement is claimed;
+- [ ] `ROUTING_POLICY_VALIDATION_RECEIPT` resolved;
+- [ ] `AUTHZ_ENGINE_VALIDATION_RECEIPT` resolved;
+- [ ] artifact-specific validation receipt executed;
+- [ ] unresolved critical gaps remain visible.
 
 ---
 
@@ -5649,140 +5560,106 @@ DO NOT INFER AN EMOTION THEORY FROM THE ARTIFACT TITLE
 ```text
 DO NOT INVENT A DEFINITION OF EMOTION
 ```
-
 ```text
 DO NOT INVENT AN EMOTION REGISTRY
 ```
-
 ```text
 DO NOT INVENT AN EMOTION TAXONOMY
 ```
-
 ```text
 DO NOT INVENT EMOTION VARIABLES
 ```
-
 ```text
 DO NOT INVENT EMOTION EQUATIONS
 ```
-
 ```text
 DO NOT INVENT EMOTION DYNAMICS
 ```
-
 ```text
 DO NOT SILENTLY EQUATE EMOTION WITH AFFECT
 ```
-
 ```text
 DO NOT SILENTLY EQUATE EMOTION WITH FEELING
 ```
-
 ```text
 DO NOT SILENTLY EQUATE EMOTION WITH MOOD
 ```
-
 ```text
 DO NOT TREAT EXPRESSION AS EMOTION
 ```
-
 ```text
 DO NOT TREAT BEHAVIOR AS EMOTION
 ```
-
 ```text
 DO NOT TREAT PHYSIOLOGY AS EMOTION
 ```
-
 ```text
 DO NOT TREAT NEURAL ACTIVITY AS EMOTION
 ```
-
 ```text
 DO NOT TREAT SELF-REPORT AS INFALLIBLE GROUND TRUTH
 ```
-
 ```text
 DO NOT TREAT CLASSIFIER OUTPUT AS VERIFIED EMOTION
 ```
-
 ```text
 DO NOT TREAT SENTIMENT AS EMOTION
 ```
-
 ```text
 DO NOT TREAT EMOTION-LIKE OUTPUT AS SUBJECTIVE EXPERIENCE
 ```
-
 ```text
 DO NOT TREAT EMOTION SIMULATION AS FELT EMOTION
 ```
-
 ```text
 DO NOT INFER CAUSATION FROM TEMPORAL ORDER
 ```
-
 ```text
 DO NOT INFER CAUSATION FROM CORRELATION
 ```
-
 ```text
 DO NOT TREAT A TRIGGER AS A SUFFICIENT CAUSE WITHOUT EVIDENCE
 ```
-
 ```text
 DO NOT GENERALIZE AN INDIVIDUAL TO A POPULATION
 ```
-
 ```text
 DO NOT GENERALIZE A SAMPLE TO ALL HUMANS
 ```
-
 ```text
 DO NOT GENERALIZE AN ADULT MODEL ACROSS DEVELOPMENT
 ```
-
 ```text
 DO NOT GENERALIZE ONE CULTURAL CONTEXT UNIVERSALLY
 ```
-
 ```text
 DO NOT GENERALIZE A HUMAN EMOTION MODEL ACROSS SPECIES
 ```
-
 ```text
 DO NOT INFER HUMAN-LIKE EMOTION FROM HUMAN-LIKE EXPRESSION
 ```
-
 ```text
 DO NOT INFER ABSENCE OF EMOTION FROM NON-HUMAN-LIKE EXPRESSION
 ```
-
 ```text
 DO NOT INFER CONSCIOUSNESS FROM EMOTION-LIKE OUTPUT
 ```
-
 ```text
 DO NOT INFER SUBJECTIVE EXPERIENCE FROM FUNCTIONAL BEHAVIOR
 ```
-
 ```text
 DO NOT IMPORT EXTERNAL AFFECTIVE-SCIENCE RESEARCH
 AS NATIVE AMOS CANON
 ```
-
 ```text
 DO NOT ASSUME RELATIONS TO SIBLING COGNITION ARTIFACTS
 ```
-
 ```text
 DO NOT CLAIM IMPLEMENTATION
 ```
-
 ```text
 DO NOT CLAIM VALIDATION
 ```
-
 Instead:
 
 ```text
@@ -5941,29 +5818,29 @@ native_dependencies_status: NOT_ESTABLISHED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-* GOVERNED_BY: [[LAW_HIERARCHY]]
+- GOVERNED_BY: [[LAW_HIERARCHY]]
 
-* RELATION_TO: [[AMOS_COGNITION_CANON]]
+- RELATION_TO: [[AMOS_COGNITION_CANON]]
   relation_status: UNKNOWN/GAP
 
-* RELATION_TO: [[AMOS_CONSCIOUSNESS_CANON]]
+- RELATION_TO: [[AMOS_CONSCIOUSNESS_CANON]]
   relation_status: UNKNOWN/GAP
 
-* TARGET_INTERACTS_WITH: [[KERNEL_README]]
+- TARGET_INTERACTS_WITH: [[KERNEL_README]]
 
-* TARGET_CONTROLLED_BY: [[CONTROL_PLANE_README]]
+- TARGET_CONTROLLED_BY: [[CONTROL_PLANE_README]]
 
-* TARGET_OBSERVED_BY: [[OBSERVABILITY_README]]
+- TARGET_OBSERVED_BY: [[OBSERVABILITY_README]]
 
-* TARGET_RECOVERED_BY: [[OPERATIONS_README]]
+- TARGET_RECOVERED_BY: [[OPERATIONS_README]]
 
-* TARGET_VALIDATED_BY: [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+- TARGET_VALIDATED_BY: [[ROUTING_POLICY_VALIDATION_RECEIPT]]
 
-* TARGET_VALIDATED_BY: [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+- TARGET_VALIDATED_BY: [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
 ---
 

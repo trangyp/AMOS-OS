@@ -11,6 +11,11 @@ tags:
 - khung-trang-master
 - dmer-l5
 - trang-framework-recursive-ontology-dynamics
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: universe_canon
 ---
 
 # Khung Trang Entropy Repair Dynamics

@@ -77,8 +77,8 @@ Lacunarity measures the "gappiness", structural heterogeneity, and void distribu
 
 $$\Lambda = \frac{\langle M^2 \rangle}{\langle M \rangle^2}$$
 
-* High lacunarity ($\Lambda \gg 1$) indicates large clumps separated by vast empty gaps (heterogeneous, fragile under concentrated shock).
-* Low lacunarity ($\Lambda \approx 1$) indicates uniform, homogenous texture (resilient, even energy distribution).
+- High lacunarity ($\Lambda \gg 1$) indicates large clumps separated by vast empty gaps (heterogeneous, fragile under concentrated shock).
+- Low lacunarity ($\Lambda \approx 1$) indicates uniform, homogenous texture (resilient, even energy distribution).
 
 ```text
 TIER LACUNARITY TARGETS IN FRAI:

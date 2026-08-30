@@ -1,4 +1,5 @@
 ---
+title: AGENTS_AMOS_OS_KERNEL
 tags:
 - knowledge
 - kernel
@@ -6,6 +7,13 @@ tags:
 - system-scan-agent
 - automation-profiles
 - amos-simulation-kernel-v0-math-foundations
+type: note
+source: 11_KNOWLEDGE/kernel
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
 
 # [[AGENTS]] AMOS OS KERNEL — Full Canonical Expansion
@@ -123,13 +131,13 @@ For nontrivial tasks, the model must:
 
 The model must never:
 
-* bypass a `FAIL` gate;
-* promote `MODEL` to `VERIFIED`;
-* merge `COMPETING` hypotheses without discriminating evidence;
-* treat correlated evidence as independent;
-* mutate persistent memory directly;
-* execute tools without authority tokens;
-* claim distributed guarantees not implemented by the host runtime.
+- bypass a `FAIL` gate;
+- promote `MODEL` to `VERIFIED`;
+- merge `COMPETING` hypotheses without discriminating evidence;
+- treat correlated evidence as independent;
+- mutate persistent memory directly;
+- execute tools without authority tokens;
+- claim distributed guarantees not implemented by the host runtime.
 
 These are the canonical source-defined requirements.
 
@@ -211,13 +219,13 @@ cognitive worker
 
 This does not establish that the model is:
 
-* the kernel;
-* the proof engine;
-* the policy engine;
-* the transaction manager;
-* the finalizer;
-* the persistent-memory authority;
-* the tool-authority issuer.
+- the kernel;
+- the proof engine;
+- the policy engine;
+- the transaction manager;
+- the finalizer;
+- the persistent-memory authority;
+- the tool-authority issuer.
 
 Indeed, the rest of the contract strongly separates these responsibilities.
 
@@ -456,11 +464,11 @@ before governed execution.
 
 Submitting a task does not itself authorize:
 
-* skill execution;
-* tool execution;
-* context access;
-* memory mutation;
-* commit.
+- skill execution;
+- tool execution;
+- context access;
+- memory mutation;
+- commit.
 
 Therefore:
 
@@ -593,15 +601,15 @@ The source does not define the unit.
 
 Possible budget dimensions include:
 
-* compute;
-* tokens;
-* time;
-* tool calls;
-* monetary cost;
-* context;
-* search depth;
-* risk;
-* branch count.
+- compute;
+- tokens;
+- time;
+- tool calls;
+- monetary cost;
+- context;
+- search depth;
+- risk;
+- branch count.
 
 None is established.
 
@@ -742,13 +750,13 @@ but does not define their representation.
 
 A context handle could hypothetically be:
 
-* an object reference;
-* a file reference;
-* a database key;
-* an RSCF reference;
-* a scoped capability;
-* a retrieval result;
-* an opaque runtime identifier.
+- an object reference;
+- a file reference;
+- a database key;
+- an RSCF reference;
+- a scoped capability;
+- a retrieval result;
+- an opaque runtime identifier.
 
 These are competing implementation possibilities.
 
@@ -1159,12 +1167,12 @@ $$
 
 The model can return:
 
-* claim;
-* evidence;
-* provenance;
-* scope;
-* action proposal;
-* uncertainty;
+- claim;
+- evidence;
+- provenance;
+- scope;
+- action proposal;
+- uncertainty;
 
 without returning hidden reasoning traces.
 
@@ -1255,13 +1263,13 @@ These are source-defined architectural roles.
 
 The artifact does not provide:
 
-* code;
-* versions;
-* schemas;
-* algorithms;
-* process topology;
-* host binding;
-* persistence binding.
+- code;
+- versions;
+- schemas;
+- algorithms;
+- process topology;
+- host binding;
+- persistence binding.
 
 Therefore each is:
 
@@ -1315,12 +1323,12 @@ The finalizer is a distinct named role.
 
 The source does not define whether it:
 
-* signs results;
-* marks them final;
-* persists state;
-* verifies transaction completion;
-* performs final gates;
-* produces user output.
+- signs results;
+- marks them final;
+- persists state;
+- verifies transaction completion;
+- performs final gates;
+- produces user output.
 
 These remain unresolved.
 
@@ -1472,12 +1480,12 @@ The model may identify evidence.
 
 The proof engine may still reject it because of:
 
-* provenance;
-* scope;
-* freshness;
-* contradiction;
-* insufficiency;
-* correlation.
+- provenance;
+- scope;
+- freshness;
+- contradiction;
+- insufficiency;
+- correlation.
 
 This is DERIVED.
 
@@ -1539,12 +1547,12 @@ The source does not say who produces the `FAIL`.
 
 Candidates include:
 
-* kernel;
-* proof engine;
-* policy engine;
-* pre-execution gate;
-* finalizer;
-* tool authority system.
+- kernel;
+- proof engine;
+- policy engine;
+- pre-execution gate;
+- finalizer;
+- tool authority system.
 
 Unknown.
 
@@ -1554,11 +1562,11 @@ Unknown.
 
 The source does not specify whether a `FAIL` is:
 
-* terminal;
-* retryable;
-* re-routable;
-* repairable;
-* appealable with new evidence.
+- terminal;
+- retryable;
+- re-routable;
+- repairable;
+- appealable with new evidence.
 
 Therefore do not invent universal terminality.
 
@@ -1896,14 +1904,14 @@ $$
 
 The source names persistent memory but does not define:
 
-* store;
-* schema;
-* persistence mechanism;
-* transaction protocol;
-* retention policy;
-* versioning;
-* replication;
-* ownership.
+- store;
+- schema;
+- persistence mechanism;
+- transaction protocol;
+- retention policy;
+- versioning;
+- replication;
+- ownership.
 
 All remain gaps.
 
@@ -2113,12 +2121,12 @@ The source does not define token representation.
 
 Possible forms include:
 
-* capability token;
-* signed authorization;
-* opaque runtime handle;
-* policy grant;
-* session-scoped permission;
-* kernel-issued execution lease.
+- capability token;
+- signed authorization;
+- opaque runtime handle;
+- policy grant;
+- session-scoped permission;
+- kernel-issued execution lease.
 
 All remain implementation hypotheses.
 
@@ -2128,11 +2136,11 @@ All remain implementation hypotheses.
 
 Do not assume an authority token is:
 
-* OAuth;
-* JWT;
-* API key;
-* bearer token;
-* cryptographic capability.
+- OAuth;
+- JWT;
+- API key;
+- bearer token;
+- cryptographic capability.
 
 No format is supplied.
 
@@ -2287,16 +2295,16 @@ unless bound by evidence.
 
 Potential distributed guarantees include:
 
-* consensus;
-* linearizability;
-* serializability;
-* Byzantine fault tolerance;
-* quorum durability;
-* exactly-once delivery;
-* distributed atomic commit;
-* shard consistency;
-* causal consistency;
-* epoch finality.
+- consensus;
+- linearizability;
+- serializability;
+- Byzantine fault tolerance;
+- quorum durability;
+- exactly-once delivery;
+- distributed atomic commit;
+- shard consistency;
+- causal consistency;
+- epoch finality.
 
 These are general technical examples, **not claims that this artifact names or implements them**.
 
@@ -2956,11 +2964,11 @@ AMOS_knowledge
 
 The document should not automatically be generalized to:
 
-* all AI agents;
-* all LLM runtimes;
-* all operating systems;
-* all distributed systems;
-* ChatGPT's literal internal implementation.
+- all AI agents;
+- all LLM runtimes;
+- all operating systems;
+- all distributed systems;
+- ChatGPT's literal internal implementation.
 
 ---
 
@@ -3282,18 +3290,18 @@ DERIVED topology.
 
 Let:
 
-* \(T\) = task;
-* \(K\) = kernel;
-* \(S\) = selected skills;
-* \(U\) = selected tools;
-* \(B\) = budget;
-* \(C\) = admitted context handles;
-* \(M\) = model cognitive worker;
-* \(O\) = typed outputs;
-* \(P\) = proof engine;
-* \(Y\) = policy engine;
-* \(X\) = transaction manager;
-* \(F\) = finalizer.
+- \(T\) = task;
+- \(K\) = kernel;
+- \(S\) = selected skills;
+- \(U\) = selected tools;
+- \(B\) = budget;
+- \(C\) = admitted context handles;
+- \(M\) = model cognitive worker;
+- \(O\) = typed outputs;
+- \(P\) = proof engine;
+- \(Y\) = policy engine;
+- \(X\) = transaction manager;
+- \(F\) = finalizer.
 
 Then:
 
@@ -4176,11 +4184,11 @@ No source discrimination.
 
 The finalizer might:
 
-* finalize transactions;
-* finalize RSCFs;
-* finalize user-visible output;
-* finalize causal epochs;
-* finalize persistent memory.
+- finalize transactions;
+- finalize RSCFs;
+- finalize user-visible output;
+- finalize causal epochs;
+- finalize persistent memory.
 
 None is established here.
 
@@ -5692,11 +5700,11 @@ AMOS Model ABI specification
 
 because it could discriminate:
 
-* task submission;
-* context handles;
-* typed outputs;
-* authority interface;
-* worker/kernel boundary.
+- task submission;
+- context handles;
+- typed outputs;
+- authority interface;
+- worker/kernel boundary.
 
 ---
 
@@ -5708,11 +5716,11 @@ Transaction Manager / Finalizer contract
 
 would resolve:
 
-* commit semantics;
-* persistent-memory mutation;
-* atomicity;
-* finality;
-* rollback.
+- commit semantics;
+- persistent-memory mutation;
+- atomicity;
+- finality;
+- rollback.
 
 ---
 
@@ -7253,11 +7261,11 @@ More context is not automatically better.
 
 Excess context can increase:
 
-* contamination;
-* scope leakage;
-* stale evidence;
-* correlation confusion;
-* cost.
+- contamination;
+- scope leakage;
+- stale evidence;
+- correlation confusion;
+- cost.
 
 Hence admitted-context design is epistemically significant.
 
@@ -8272,14 +8280,14 @@ Why?
 
 Because the source establishes the **contract vocabulary and governance requirements**, but not:
 
-* executable implementations;
-* ABI schema;
-* authority protocol;
-* transaction mechanism;
-* persistent store;
-* host bindings;
-* distributed protocol;
-* runtime receipts.
+- executable implementations;
+- ABI schema;
+- authority protocol;
+- transaction mechanism;
+- persistent store;
+- host bindings;
+- distributed protocol;
+- runtime receipts.
 
 Therefore the stronger claim must be downgraded.
 

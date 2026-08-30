@@ -27,20 +27,20 @@ rscf:
 
 `L00_REALITY_ENVIRONMENT / INVARIANTS` defines the conditions that must remain true while AMOS:
 
-* observes an environment,
-* represents external state,
-* converts observations into evidence,
-* derives claims,
-* builds models,
-* reasons across H/M/L scales,
-* updates memory,
-* uses tools,
-* generates predictions,
-* makes decisions,
-* executes authorized actions,
-* compresses state,
-* repairs failures,
-* and evolves its internal architecture.
+- observes an environment,
+- represents external state,
+- converts observations into evidence,
+- derives claims,
+- builds models,
+- reasons across H/M/L scales,
+- updates memory,
+- uses tools,
+- generates predictions,
+- makes decisions,
+- executes authorized actions,
+- compresses state,
+- repairs failures,
+- and evolves its internal architecture.
 
 The invariant layer is not a collection of preferences.
 
@@ -1355,11 +1355,9 @@ UNKNOWN != 0
 ```text
 NOT_OBSERVED != FALSE
 ```
-
 ```text
 NULL != EMPTY
 ```
-
 unless the schema explicitly defines equivalence.
 
 ---
@@ -1545,11 +1543,9 @@ CAN OBSERVE != CAN MODIFY
 ```text
 CAN READ != CAN WRITE
 ```
-
 ```text
 CAN PROPOSE != CAN COMMIT
 ```
-
 ---
 
 # 93. INV-CTRL05 — Rollback Cannot Be Assumed
@@ -1817,7 +1813,6 @@ TESTED != FORMALLY VERIFIED
 ```text
 BENCHMARKED != UNIVERSALLY VALIDATED
 ```
-
 ---
 
 # 110. INV-EV05 — Version Lineage Preservation

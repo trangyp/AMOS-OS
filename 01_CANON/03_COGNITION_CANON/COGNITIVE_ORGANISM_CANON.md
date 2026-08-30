@@ -56,6 +56,11 @@ tags:
 aliases:
 - AMOS Cognitive Organism Canon - Cognitive Organism Canon - AMOS Cognitive Organism
   - Cogniti
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # AMOS Cognitive Organism Canon
@@ -321,7 +326,6 @@ AUTHORITY
 =
 WHAT THE ORGAN IS PERMITTED TO COMMIT OR EFFECT
 ```
-
 Therefore:
 
 ```text
@@ -415,7 +419,6 @@ SKILL
 =
 REUSABLE PROCEDURE
 ```
-
 A skill may invoke an organ.
 
 An organ may use skills.
@@ -532,7 +535,6 @@ COGNITIVE FUNCTION
 COGNITIVE COMPOSITION
 REASONING CONTROL
 ```
-
 Therefore:
 
 ```text
@@ -1644,13 +1646,11 @@ NO CONFLICT CHECK
 !=
 NO CONFLICT
 ```
-
 ```text
 NO CAUSAL EVIDENCE
 !=
 CAUSAL VALIDATION
 ```
-
 ---
 
 # 60. Cognitive Lifecycle

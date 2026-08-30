@@ -2546,7 +2546,6 @@ AMOS_COGNITIVE_MATRIX_STATUS:
 
 This is the level of depth I would use for the Matrix-wide status artifact: not just the count, but the **promotion model, manifest reconciliation contract, completion tensor, failure/repair model, tests, RSCF capsule, authority boundary, and explicit conditions required before the status can move beyond `PARTIAL_STRUCTURAL_SEED`**.
 ```
-
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]] · [[AMOS_RSCF_NODES]]
 

@@ -481,22 +481,22 @@ UNIVERSALLY_VERIFIED_EMPIRICAL_THEORY
 
 Universal Field Architecture provides a common representational architecture for reasoning about:
 
-* distinctions;
-* relations;
-* boundaries;
-* constraints;
-* state;
-* interaction;
-* memory;
-* recursion;
-* entropy;
-* repair;
-* persistence;
-* identity;
-* scale;
-* emergence;
-* transformation;
-* consequence.
+- distinctions;
+- relations;
+- boundaries;
+- constraints;
+- state;
+- interaction;
+- memory;
+- recursion;
+- entropy;
+- repair;
+- persistence;
+- identity;
+- scale;
+- emergence;
+- transformation;
+- consequence.
 
 ---
 
@@ -504,17 +504,17 @@ Universal Field Architecture provides a common representational architecture for
 
 UFA MUST NOT by itself be used to claim:
 
-* discovery of a new physical field;
-* proof of a unified field theory;
-* proof of quantum gravity;
-* proof of consciousness fields;
-* proof of biological electromagnetic causation;
-* proof of metaphysical ontology;
-* replacement of established physics;
-* experimentally established universal laws;
-* mathematical theoremhood;
-* empirical universality;
-* literal scale invariance across unrelated domains.
+- discovery of a new physical field;
+- proof of a unified field theory;
+- proof of quantum gravity;
+- proof of consciousness fields;
+- proof of biological electromagnetic causation;
+- proof of metaphysical ontology;
+- replacement of established physics;
+- experimentally established universal laws;
+- mathematical theoremhood;
+- empirical universality;
+- literal scale invariance across unrelated domains.
 
 ---
 
@@ -850,9 +850,9 @@ $$
 
 where:
 
-* `R_t` = relational structure;
-* `C_t` = constraints;
-* `Φ` = model-specific formation operator.
+- `R_t` = relational structure;
+- `C_t` = constraints;
+- `Φ` = model-specific formation operator.
 
 No universal empirical `Φ` is established here.
 
@@ -895,14 +895,14 @@ $$
 
 where:
 
-* `D` = distinctions;
-* `R` = relations;
-* `C` = constraints;
-* `B` = boundaries;
-* `F` = forms;
-* `M` = memory;
-* `I` = identity;
-* `E` = entropy/instability descriptor.
+- `D` = distinctions;
+- `R` = relations;
+- `C` = constraints;
+- `B` = boundaries;
+- `F` = forms;
+- `M` = memory;
+- `I` = identity;
+- `E` = entropy/instability descriptor.
 
 This tuple is normalized AMOS representation, not asserted as a native source equation.
 
@@ -920,9 +920,9 @@ $$
 
 where:
 
-* `T` = transition rule;
-* `U_t` = internal/external input;
-* `𝔈_t` = environment.
+- `T` = transition rule;
+- `U_t` = internal/external input;
+- `𝔈_t` = environment.
 
 ---
 
@@ -1363,11 +1363,11 @@ $$
 
 where:
 
-* `𝔽` = field state;
-* `C` = constraints;
-* `M` = memory;
-* `U` = inputs/interactions;
-* `𝔈` = environment.
+- `𝔽` = field state;
+- `C` = constraints;
+- `M` = memory;
+- `U` = inputs/interactions;
+- `𝔈` = environment.
 
 This is normalized AMOS semantics.
 
@@ -1421,11 +1421,11 @@ merely because the word `field` appears.
 
 A mathematical gradient requires:
 
-* defined variables;
-* domain;
-* metric/differential structure where applicable;
-* units where physical;
-* measurable or formally specified quantities.
+- defined variables;
+- domain;
+- metric/differential structure where applicable;
+- units where physical;
+- measurable or formally specified quantities.
 
 ---
 
@@ -1645,8 +1645,8 @@ $$
 
 where:
 
-* `R_t` = repair/restoration contribution;
-* `D_t` = degradation contribution.
+- `R_t` = repair/restoration contribution;
+- `D_t` = degradation contribution.
 
 This is a normalized abstraction.
 
@@ -3304,15 +3304,15 @@ IS AN ALTERNATIVE MODEL STRONGER?
 
 A UFA `field` becomes a physical-field claim only if the artifact explicitly provides:
 
-* physical variables;
-* measurable observables;
-* units;
-* equations;
-* physical mechanism;
-* boundary conditions;
-* predictions;
-* empirical tests;
-* falsification conditions.
+- physical variables;
+- measurable observables;
+- units;
+- equations;
+- physical mechanism;
+- boundary conditions;
+- predictions;
+- empirical tests;
+- falsification conditions.
 
 Without those:
 
@@ -3502,8 +3502,8 @@ $$
 
 where:
 
-* `U_t` = unpaid cost added;
-* `R_t` = repair paid.
+- `U_t` = unpaid cost added;
+- `R_t` = repair paid.
 
 This is an AMOS engineering model, not a physical law.
 
@@ -4854,40 +4854,40 @@ without independent physical evidence.
 
 # 303. Promotion Gate — Canon
 
-* [x] framework family identified in AMOS corpus
-* [x] origin architect preserved
-* [x] steward preserved
-* [x] model-plane location established
-* [x] core structural spine recoverable
-* [x] epistemic firewall declared
-* [x] model/observation firewall declared
-* [x] causal firewall declared
-* [x] physical-field firewall declared
-* [x] scope/regime firewall declared
-* [x] provenance requirement declared
-* [x] UNKNOWN/GAP behavior declared
-* [ ] complete native v2 source normalized
-* [ ] complete source lineage verified
-* [ ] native equation registry separated from broader AMOS equations
-* [ ] all critical provenance edges persisted
-* [ ] unresolved contradictions registered
-* [ ] canonical review completed
+- [x] framework family identified in AMOS corpus
+- [x] origin architect preserved
+- [x] steward preserved
+- [x] model-plane location established
+- [x] core structural spine recoverable
+- [x] epistemic firewall declared
+- [x] model/observation firewall declared
+- [x] causal firewall declared
+- [x] physical-field firewall declared
+- [x] scope/regime firewall declared
+- [x] provenance requirement declared
+- [x] UNKNOWN/GAP behavior declared
+- [ ] complete native v2 source normalized
+- [ ] complete source lineage verified
+- [ ] native equation registry separated from broader AMOS equations
+- [ ] all critical provenance edges persisted
+- [ ] unresolved contradictions registered
+- [ ] canonical review completed
 
 ---
 
 # 304. Promotion Gate — Implementation
 
-* [ ] executable schema bound
-* [ ] field registry implemented
-* [ ] relation typing implemented
-* [ ] constraint registry implemented
-* [ ] versioning implemented
-* [ ] authority binding implemented
-* [ ] scope/regime validation implemented
-* [ ] provenance persistence implemented
-* [ ] negative cases implemented
-* [ ] rollback basin demonstrated
-* [ ] UFA-specific execution receipt generated
+- [ ] executable schema bound
+- [ ] field registry implemented
+- [ ] relation typing implemented
+- [ ] constraint registry implemented
+- [ ] versioning implemented
+- [ ] authority binding implemented
+- [ ] scope/regime validation implemented
+- [ ] provenance persistence implemented
+- [ ] negative cases implemented
+- [ ] rollback basin demonstrated
+- [ ] UFA-specific execution receipt generated
 
 ---
 
@@ -4895,18 +4895,18 @@ without independent physical evidence.
 
 For any empirical UFA claim:
 
-* [ ] measurable variables defined
-* [ ] units defined where applicable
-* [ ] measurement method defined
-* [ ] prediction registered
-* [ ] falsification condition registered
-* [ ] independent observation collected
-* [ ] confounding assessed
-* [ ] competing models compared
-* [ ] provenance independence established
-* [ ] scope bounded
-* [ ] regime bounded
-* [ ] replication assessed where material
+- [ ] measurable variables defined
+- [ ] units defined where applicable
+- [ ] measurement method defined
+- [ ] prediction registered
+- [ ] falsification condition registered
+- [ ] independent observation collected
+- [ ] confounding assessed
+- [ ] competing models compared
+- [ ] provenance independence established
+- [ ] scope bounded
+- [ ] regime bounded
+- [ ] replication assessed where material
 
 ---
 
@@ -6377,16 +6377,16 @@ executable_binding: NOT_ESTABLISHED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
-* INDEXED_BY: [[01_FOUNDATION_MOC]]
-* INDEXED_BY: [[MODEL_MAP]]
-* GOVERNED_BY: [[LAW_HIERARCHY]]
-* RELATED_TO: [[TRANG_REALITY_ARCHITECTURE_MODEL]]
-* INTERACTS_WITH: [[KERNEL_README]]
-* GATED_BY: [[CONTROL_PLANE_README]]
-* OBSERVED_BY: [[OBSERVABILITY_README]]
-* RECOVERED_VIA: [[OPERATIONS_README]]
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[01_FOUNDATION_MOC]]
+- INDEXED_BY: [[MODEL_MAP]]
+- GOVERNED_BY: [[LAW_HIERARCHY]]
+- RELATED_TO: [[TRANG_REALITY_ARCHITECTURE_MODEL]]
+- INTERACTS_WITH: [[KERNEL_README]]
+- GATED_BY: [[CONTROL_PLANE_README]]
+- OBSERVED_BY: [[OBSERVABILITY_README]]
+- RECOVERED_VIA: [[OPERATIONS_README]]
 
 ---
 

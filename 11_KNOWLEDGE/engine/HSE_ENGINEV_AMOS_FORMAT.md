@@ -4349,9 +4349,9 @@ def generate_llm_supervised_dataset(n: int) -> List[Dict[str, Any]]:
 
         output_text = (
             "### Answer (EN)\n"
-            + risk_line_en + "\n" + action_line_en + "\n\n"
+            - risk_line_en + "\n" + action_line_en + "\n\n"
             "### Trả lời (VI)\n"
-            + risk_line_vi + "\n" + action_line_vi
+            - risk_line_vi + "\n" + action_line_vi
         )
 
         data.append(

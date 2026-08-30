@@ -199,37 +199,31 @@ CAPABILITY DECLARATION
 !=
 CAPABILITY AVAILABILITY
 ```
-
 ```text
 CAPABILITY AVAILABILITY
 !=
 CAPABILITY SUFFICIENCY
 ```
-
 ```text
 CAPABILITY SUFFICIENCY
 !=
 POLICY PERMISSION
 ```
-
 ```text
 CAPABILITY SUFFICIENCY
 !=
 AUTHORITY
 ```
-
 ```text
 CAPABILITY SUFFICIENCY
 !=
 SUCCESSFUL EXECUTION
 ```
-
 ```text
 CAPABILITY INVOCATION
 !=
 OBSERVED EFFECT
 ```
-
 The resolver establishes execution possibility.
 
 It does not establish permission, authority, successful completion, or
@@ -1001,7 +995,6 @@ WRITE
 ```text
 CREATE
 ```
-
 does not imply:
 
 ```text
@@ -1011,7 +1004,6 @@ UPDATE
 ```text
 DRAFT
 ```
-
 does not imply:
 
 ```text
@@ -1035,19 +1027,16 @@ UPLOAD
 !=
 DOWNLOAD
 ```
-
 ```text
 READ
 !=
 WRITE
 ```
-
 ```text
 ENCODE
 !=
 DECODE
 ```
-
 unless the manifest explicitly supports both.
 
 ---
@@ -1187,13 +1176,11 @@ LOCAL
 !=
 REMOTE
 ```
-
 ```text
 SIMULATION
 !=
 PHYSICAL SYSTEM
 ```
-
 ---
 
 # 44. Freshness
@@ -2407,19 +2394,16 @@ WRITE
 →
 READ
 ```
-
 ```text
 EXACT FORMAT
 →
 DIFFERENT FORMAT
 ```
-
 ```text
 VERIFIED SOURCE
 →
 UNVERIFIED SOURCE
 ```
-
 when the difference is task-relevant.
 
 ---
@@ -3237,19 +3221,16 @@ SERVICE EXISTS
 →
 SERVICE CONNECTED
 ```
-
 ```text
 API DOCUMENTED
 →
 API ACCESSIBLE
 ```
-
 ```text
 MODEL CAN GENERALLY DO X
 →
 CURRENT CONFIGURATION CAN DO X
 ```
-
 ---
 
 # 148. Capability Anti-Generalization
@@ -3267,13 +3248,11 @@ WORKED IN TEST
 →
 WORKS IN PRODUCTION
 ```
-
 ```text
 WORKED ON VERSION 1
 →
 WORKS ON VERSION 2
 ```
-
 ---
 
 # 149. Capability Anti-Benchmark Rule

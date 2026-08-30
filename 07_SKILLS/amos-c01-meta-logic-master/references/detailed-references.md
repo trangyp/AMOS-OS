@@ -1,4 +1,5 @@
 ---
+title: detailed-references
 tags:
 - skills
 - meta
@@ -6,6 +7,13 @@ tags:
 - master
 - references
 - detailed
+type: reference
+source: 07_SKILLS/amos-c01-meta-logic-master/references
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 ## Provenance
@@ -169,8 +177,6 @@ tags:
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
-
 
 
 ## AMOS Canon Grounding

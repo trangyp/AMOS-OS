@@ -43,7 +43,6 @@ One source-level structural conflict must remain unresolved: `parent_skill: amos
 ## 0. Normalized Source Frontmatter — SOURCE
 
 
-
 ---
 
 # 1. Proposed Obsidian Augmentation — DERIVED / PROPOSED
@@ -411,11 +410,11 @@ $$
 
 where:
 
-* \(P\) = C09 policy state
-* \(M\) = C10 mechanism state
-* \(E\) = runtime enforcement state
-* \(A\) = audit feedback
-* \(P'\) = policy after feedback/review
+- \(P\) = C09 policy state
+- \(M\) = C10 mechanism state
+- \(E\) = runtime enforcement state
+- \(A\) = audit feedback
+- \(P'\) = policy after feedback/review
 
 This equation is **DERIVED**, not a source-defined formal equation.
 
@@ -715,10 +714,10 @@ Mechanism_v2
 
 The mechanism may become:
 
-* broader;
-* narrower;
-* differently scoped;
-* semantically incompatible.
+- broader;
+- narrower;
+- differently scoped;
+- semantically incompatible.
 
 No such specific drift classes are source-defined; they are derived examples.
 
@@ -903,14 +902,14 @@ Source:
 
 The supplied risk-compliance knowledge includes:
 
-* sector profiles;
-* regulation/compliance;
-* market structure;
-* risk/crisis;
-* technology/data;
-* workforce/skills;
-* ESG;
-* operations.
+- sector profiles;
+- regulation/compliance;
+- market structure;
+- risk/crisis;
+- technology/data;
+- workforce/skills;
+- ESG;
+- operations.
 
 ---
 
@@ -1308,16 +1307,16 @@ The source does not define completeness criteria.
 
 Potential dimensions requiring later canonical definition include:
 
-* actor;
-* action;
-* resource;
-* policy;
-* mechanism;
-* decision;
-* time;
-* environment;
-* result;
-* provenance.
+- actor;
+- action;
+- resource;
+- policy;
+- mechanism;
+- decision;
+- time;
+- environment;
+- result;
+- provenance.
 
 These are proposed dimensions, not supplied source fields.
 
@@ -1690,14 +1689,14 @@ $$
 
 where:
 
-* \(S\) = sector profile
-* \(C\) = regulation/compliance
-* \(M\) = market structure
-* \(K\) = risk/crisis
-* \(T\) = technology/data
-* \(W\) = workforce/skills
-* \(E\) = ESG
-* \(O\) = operations
+- \(S\) = sector profile
+- \(C\) = regulation/compliance
+- \(M\) = market structure
+- \(K\) = risk/crisis
+- \(T\) = technology/data
+- \(W\) = workforce/skills
+- \(E\) = ESG
+- \(O\) = operations
 
 This vector is **DERIVED** from the source list.
 
@@ -2361,15 +2360,15 @@ $$
 
 where:
 
-* \(P\) = policy
-* \(M\) = mechanism
-* \(E\) = enforcement
-* \(A\) = audit
-* \(R\) = risk/compliance context
-* \(S\) = scope
-* \(V\) = provenance
-* \(D\) = drift
-* \(C\) = epistemic class
+- \(P\) = policy
+- \(M\) = mechanism
+- \(E\) = enforcement
+- \(A\) = audit
+- \(R\) = risk/compliance context
+- \(S\) = scope
+- \(V\) = provenance
+- \(D\) = drift
+- \(C\) = epistemic class
 
 This tensor is derived and should not be represented as a supplied formula.
 
@@ -3555,24 +3554,24 @@ SORT title ASC
 
 ### Source-supplied
 
-* [[00_HOME]]
-* [[KNOWLEDGE_MOC]]
-* [[AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR]]
+- [[00_HOME]]
+- [[KNOWLEDGE_MOC]]
+- [[AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR]]
 
 ### Proposed
 
-* AMOS_SECURITY_SAFETY_MASTER
-* [[11_KNOWLEDGE_MOC]]
-* SECURITY_MODELS
-* ACCESS_CONTROL
-* BOUNDED_INTELLIGENCE_SECURITY
-* RISK_COMPLIANCE_MODEL
-* C09_ORG_LAW_POLICY
-* [[C10_TECH_ENGINEERING]]
-* RUNTIME_ENFORCEMENT
-* PIPELINE_GOVERNANCE
-* POLICY_MECHANISM_BINDING
-* MECHANISM_ENFORCEMENT_BINDING
+- AMOS_SECURITY_SAFETY_MASTER
+- [[11_KNOWLEDGE_MOC]]
+- SECURITY_MODELS
+- ACCESS_CONTROL
+- BOUNDED_INTELLIGENCE_SECURITY
+- RISK_COMPLIANCE_MODEL
+- C09_ORG_LAW_POLICY
+- [[C10_TECH_ENGINEERING]]
+- RUNTIME_ENFORCEMENT
+- PIPELINE_GOVERNANCE
+- POLICY_MECHANISM_BINDING
+- MECHANISM_ENFORCEMENT_BINDING
 
 ---
 

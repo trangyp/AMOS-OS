@@ -63,16 +63,16 @@ Vòng lặp càng mở lâu, hỗn loạn càng cao. Đây là **vòng lặp t�
 ## 1.3. Đóng vòng lặp (Loop close) là cắt kết nối
 **Loop close** không phải là "giải quyết" vấn đề. Nó là **cắt kết nối** giữa các mắt xích của vòng lặp.
 **Ví dụ:**
-  * Mắt xích A: Nỗi sợ bị từ chối
+  - Mắt xích A: Nỗi sợ bị từ chối
 
 
-  * Mắt xích B: Ký ức lần bị từ chối năm lớp 8
+  - Mắt xích B: Ký ức lần bị từ chối năm lớp 8
 
 
-  * Mắt xích C: Phản ứng cơ thể (tim đập nhanh, hồi hộp)
+  - Mắt xích C: Phản ứng cơ thể (tim đập nhanh, hồi hộp)
 
 
-  * Mắt xích D: Suy nghĩ "Mình không xứng đáng"
+  - Mắt xích D: Suy nghĩ "Mình không xứng đáng"
 
 
 Vòng lặp mở: A → B → C → D → A
@@ -162,13 +162,13 @@ Ngôn ngữ hàng ngày có hàng ngàn từ mập mờ: “tốt”, “xấu�
 ## 5.1. Ai cũng có cảm xúc từ cơ thể
 Cơ thể gửi tín hiệu lên não **liên tục** : nhịp tim, hơi thở, nhu động ruột, căng cơ. **70% lo âu đến từ tín hiệu ruột** qua dây thần kinh lang thang (vagus nerve).
 **Người nhạy cảm cao (HSP):**
-  * Hệ thần kinh nhạy hơn → bắt được nhiều tín hiệu hơn
+  - Hệ thần kinh nhạy hơn → bắt được nhiều tín hiệu hơn
 
 
-  * Dễ bị quá tải → dễ mở vòng lặp hơn
+  - Dễ bị quá tải → dễ mở vòng lặp hơn
 
 
-  * NHƯNG cũng có thể **tận dụng** độ nhạy để đóng vòng lặp nhanh hơn, nếu được dạy đúng
+  - NHƯNG cũng có thể **tận dụng** độ nhạy để đóng vòng lặp nhanh hơn, nếu được dạy đúng
 
 
 * * *
@@ -199,10 +199,10 @@ Cơ thể gửi tín hiệu lên não **liên tục** : nhịp tim, hơi thở, 
 * * *
 ## 5.3. Vai trò của ruột trong độ rỗng có cấu trúc (Λ)
 Ruột có **độ rỗng có cấu trúc riêng** (Λ_L) – mức độ “rỗng có tổ chức” của tập hợp vi sinh vật.
-  * Λ_L thấp → ruột khỏe, tín hiệu sạch, não không bị nhiễu
+  - Λ_L thấp → ruột khỏe, tín hiệu sạch, não không bị nhiễu
 
 
-  * Λ_L cao → ruột rối loạn, tín hiệu nhiễu, não nhận tín hiệu sai → lo âu, trầm cảm
+  - Λ_L cao → ruột rối loạn, tín hiệu nhiễu, não nhận tín hiệu sai → lo âu, trầm cảm
 
 
 **Công thức (dạng văn bản):**

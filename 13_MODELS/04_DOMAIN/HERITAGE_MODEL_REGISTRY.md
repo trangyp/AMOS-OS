@@ -1,4 +1,5 @@
 ---
+title: HERITAGE_MODEL_REGISTRY
 tags:
 - models
 - domain
@@ -21,6 +22,8 @@ rscf:
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: AMOS_knowledge
+type: registry
+source: 13_MODELS/04_DOMAIN
 ---
 
 Below is the full expanded Obsidian-ready registry. I’m keeping the supplied artifact as the source nucleus and treating the expanded registry semantics as **AMOS_MODEL / normalized AMOS governance**, not inventing specific heritage-domain models that were not supplied or independently established.
@@ -365,16 +368,16 @@ EVIDENCE
 
 A heritage model may describe:
 
-* lineage;
-* transmission;
-* continuity;
-* transformation;
-* memory;
-* preservation;
-* reconstruction;
-* cultural structure;
-* historical relationship;
-* inheritance.
+- lineage;
+- transmission;
+- continuity;
+- transformation;
+- memory;
+- preservation;
+- reconstruction;
+- cultural structure;
+- historical relationship;
+- inheritance.
 
 But:
 
@@ -432,20 +435,20 @@ It does not automatically establish causal mechanism.
 
 This registry MUST NOT be used by itself to claim:
 
-* historical certainty;
-* cultural authenticity;
-* biological ancestry;
-* genealogical truth;
-* legal inheritance;
-* ownership;
-* authorship;
-* ethnic continuity;
-* scientific validation;
-* philosophical certainty;
-* universal laws;
-* runtime authority;
-* canonical promotion;
-* empirical verification.
+- historical certainty;
+- cultural authenticity;
+- biological ancestry;
+- genealogical truth;
+- legal inheritance;
+- ownership;
+- authorship;
+- ethnic continuity;
+- scientific validation;
+- philosophical certainty;
+- universal laws;
+- runtime authority;
+- canonical promotion;
+- empirical verification.
 
 ---
 
@@ -816,11 +819,11 @@ LINK OR PRESERVE
 
 Two files with the same filename may have:
 
-* different content;
-* different versions;
-* different ancestry;
-* different scope;
-* different provenance.
+- different content;
+- different versions;
+- different ancestry;
+- different scope;
+- different provenance.
 
 ---
 
@@ -4720,38 +4723,38 @@ It does not establish every claim inside the signed artifact.
 
 # 345. Promotion Gate — Registry Structure
 
-* [x] artifact identity declared
-* [x] registry role declared
-* [x] plane/segment declared
-* [x] origin/steward preserved
-* [x] add-only discipline preserved
-* [x] model/observation firewall declared
-* [x] canon/truth firewall declared
-* [x] provenance requirement declared
-* [x] lineage typing defined
-* [x] competing-model behavior defined
-* [x] gap behavior defined
-* [x] selective invalidation defined
-* [ ] authoritative machine schema bound
-* [ ] runtime implementation established
-* [ ] registry-specific validation receipt executed
+- [x] artifact identity declared
+- [x] registry role declared
+- [x] plane/segment declared
+- [x] origin/steward preserved
+- [x] add-only discipline preserved
+- [x] model/observation firewall declared
+- [x] canon/truth firewall declared
+- [x] provenance requirement declared
+- [x] lineage typing defined
+- [x] competing-model behavior defined
+- [x] gap behavior defined
+- [x] selective invalidation defined
+- [ ] authoritative machine schema bound
+- [ ] runtime implementation established
+- [ ] registry-specific validation receipt executed
 
 ---
 
 # 346. Promotion Gate — Registry Population
 
-* [ ] verified native heritage source inventory
-* [ ] candidate model inventory extracted
-* [ ] model identities resolved
-* [ ] duplicate models reconciled
-* [ ] version lineage recorded
-* [ ] source provenance persisted
-* [ ] source ancestry analyzed
-* [ ] independence groups established where material
-* [ ] competing models registered
-* [ ] contradictions registered
-* [ ] canonical statuses reviewed
-* [ ] complete inventory claim independently validated
+- [ ] verified native heritage source inventory
+- [ ] candidate model inventory extracted
+- [ ] model identities resolved
+- [ ] duplicate models reconciled
+- [ ] version lineage recorded
+- [ ] source provenance persisted
+- [ ] source ancestry analyzed
+- [ ] independence groups established where material
+- [ ] competing models registered
+- [ ] contradictions registered
+- [ ] canonical statuses reviewed
+- [ ] complete inventory claim independently validated
 
 ---
 
@@ -4759,37 +4762,37 @@ It does not establish every claim inside the signed artifact.
 
 For each heritage model:
 
-* [ ] stable model id
-* [ ] title
-* [ ] version
-* [ ] source provenance
-* [ ] epistemic class
-* [ ] scope
-* [ ] regime
-* [ ] temporal validity
-* [ ] dependencies
-* [ ] lineage
-* [ ] competing models
-* [ ] contradictions
-* [ ] falsifiers
-* [ ] confidence ceiling
-* [ ] canonical status
-* [ ] validation state
+- [ ] stable model id
+- [ ] title
+- [ ] version
+- [ ] source provenance
+- [ ] epistemic class
+- [ ] scope
+- [ ] regime
+- [ ] temporal validity
+- [ ] dependencies
+- [ ] lineage
+- [ ] competing models
+- [ ] contradictions
+- [ ] falsifiers
+- [ ] confidence ceiling
+- [ ] canonical status
+- [ ] validation state
 
 ---
 
 # 348. Promotion Gate — Executable Binding
 
-* [ ] registry schema implemented
-* [ ] identity resolution implemented
-* [ ] versioning implemented
-* [ ] provenance persistence implemented
-* [ ] lineage graph implemented
-* [ ] authority checks implemented
-* [ ] conflict detection implemented
-* [ ] rollback implemented
-* [ ] negative cases implemented
-* [ ] artifact-specific receipt executed
+- [ ] registry schema implemented
+- [ ] identity resolution implemented
+- [ ] versioning implemented
+- [ ] provenance persistence implemented
+- [ ] lineage graph implemented
+- [ ] authority checks implemented
+- [ ] conflict detection implemented
+- [ ] rollback implemented
+- [ ] negative cases implemented
+- [ ] artifact-specific receipt executed
 
 ---
 
@@ -6625,48 +6628,48 @@ NOT INHERITED FROM REGISTRATION
 
 ## Registry contract
 
-* [x] artifact identity preserved
-* [x] origin architect preserved
-* [x] steward preserved
-* [x] path preserved
-* [x] artifact kind preserved
-* [x] add-only policy preserved
-* [x] typed registry contract defined
-* [x] epistemic classes defined
-* [x] provenance topology defined
-* [x] lineage semantics defined
-* [x] competing-model behavior defined
-* [x] contradiction behavior defined
-* [x] scope/regime/time discipline defined
-* [x] fail-closed behavior defined
-* [x] selective invalidation defined
-* [x] rollback semantics defined
+- [x] artifact identity preserved
+- [x] origin architect preserved
+- [x] steward preserved
+- [x] path preserved
+- [x] artifact kind preserved
+- [x] add-only policy preserved
+- [x] typed registry contract defined
+- [x] epistemic classes defined
+- [x] provenance topology defined
+- [x] lineage semantics defined
+- [x] competing-model behavior defined
+- [x] contradiction behavior defined
+- [x] scope/regime/time discipline defined
+- [x] fail-closed behavior defined
+- [x] selective invalidation defined
+- [x] rollback semantics defined
 
 ## Native population
 
-* [ ] heritage-native source inventory verified
-* [ ] heritage models extracted
-* [ ] model IDs resolved
-* [ ] source versions resolved
-* [ ] model versions resolved
-* [ ] provenance edges verified
-* [ ] lineage edges verified
-* [ ] duplicate identities resolved
-* [ ] competing models registered
-* [ ] historical contradictions registered
-* [ ] complete inventory validated
+- [ ] heritage-native source inventory verified
+- [ ] heritage models extracted
+- [ ] model IDs resolved
+- [ ] source versions resolved
+- [ ] model versions resolved
+- [ ] provenance edges verified
+- [ ] lineage edges verified
+- [ ] duplicate identities resolved
+- [ ] competing models registered
+- [ ] historical contradictions registered
+- [ ] complete inventory validated
 
 ## Implementation
 
-* [ ] schema implementation established
-* [ ] persistent registry implemented
-* [ ] version enforcement implemented
-* [ ] provenance persistence implemented
-* [ ] authority enforcement implemented
-* [ ] conflict detection implemented
-* [ ] rollback demonstrated
-* [ ] negative tests executed
-* [ ] registry-specific validation receipt generated
+- [ ] schema implementation established
+- [ ] persistent registry implemented
+- [ ] version enforcement implemented
+- [ ] provenance persistence implemented
+- [ ] authority enforcement implemented
+- [ ] conflict detection implemented
+- [ ] rollback demonstrated
+- [ ] negative tests executed
+- [ ] registry-specific validation receipt generated
 
 ---
 
@@ -6801,16 +6804,16 @@ HERITAGE_MODEL_INGESTION:
 
 # 468. Cross-Plane Bindings
 
-* Governed by canon —
-* Indexed from root —
-* Indexed through RSCF —
-* Local Models MOC —
-* Kernel interaction —
-* Control-plane gates —
-* Observed by —
-* Recovered via operations —
-* Validation infrastructure reference —
-* Authorization validation reference —
+- Governed by canon —
+- Indexed from root —
+- Indexed through RSCF —
+- Local Models MOC —
+- Kernel interaction —
+- Control-plane gates —
+- Observed by —
+- Recovered via operations —
+- Validation infrastructure reference —
+- Authorization validation reference —
 
 ---
 
@@ -7051,7 +7054,6 @@ COMPLETENESS.
 ---
 
 
-
 ---
 
 **Related:**  ·  ·  ·  ·  ·  ·
@@ -7078,14 +7080,14 @@ executable_binding: NOT_ESTABLISHED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY:
-* INDEXED_BY:
-* INDEXED_BY:
-* GOVERNED_BY:
-* INTERACTS_WITH:
-* GATED_BY:
-* OBSERVED_BY:
-* RECOVERED_VIA:
+- INDEXED_BY:
+- INDEXED_BY:
+- INDEXED_BY:
+- GOVERNED_BY:
+- INTERACTS_WITH:
+- GATED_BY:
+- OBSERVED_BY:
+- RECOVERED_VIA:
 
 ---
 

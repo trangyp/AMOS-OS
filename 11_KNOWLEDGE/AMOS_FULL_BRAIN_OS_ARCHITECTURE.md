@@ -1,9 +1,17 @@
 ---
+title: AMOS_FULL_BRAIN_OS_ARCHITECTURE
 tags:
 - knowledge
 - full
 - brain
 - architecture
+type: note
+source: 11_KNOWLEDGE
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
 
 # AMOS FULL BRAIN OS [[ARCHITECTURE]]
@@ -272,10 +280,10 @@ is explicitly rejected as inaccurate.
 
 The supplied source replaces it with a multidimensional architecture in which:
 
-* kernels and engines occupy different structural fields;
-* agents are instantiated only where goal ownership, authority, planning, or independence require them;
-* the control plane is an infrastructure/effect-governance layer rather than the universal final step of every conceptual hierarchy;
-* deployment artifacts are downstream representations, not ontology definitions.
+- kernels and engines occupy different structural fields;
+- agents are instantiated only where goal ownership, authority, planning, or independence require them;
+- the control plane is an infrastructure/effect-governance layer rather than the universal final step of every conceptual hierarchy;
+- deployment artifacts are downstream representations, not ontology definitions.
 
 Canonical correction:
 

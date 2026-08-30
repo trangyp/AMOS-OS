@@ -129,7 +129,6 @@ Freshness / regime validity
 Supersession / version lineage
 ```
 
-
 ## 1.2 Runtime Lineage
 
 The recovered placeholder identifies:
@@ -138,7 +137,6 @@ The recovered placeholder identifies:
 runtime_alignment:
   AMOS Full Brain OS / AMOS_CORE v4.4 lineage
 ```
-
 
 ## 1.3 Canon Status
 
@@ -203,11 +201,11 @@ W_{L01}
 
 where:
 
-* \(S_i\) = typed workflow state,
-* \(O_i\) = permitted operator,
-* each transition is constrained by invariants,
-* provenance is preserved across transitions,
-* downstream admission requires validation.
+- \(S_i\) = typed workflow state,
+- \(O_i\) = permitted operator,
+- each transition is constrained by invariants,
+- provenance is preserved across transitions,
+- downstream admission requires validation.
 
 A workflow governs **how observation state changes**.
 
@@ -1206,7 +1204,6 @@ SUPERSEDED
 !=
 DELETED
 ```
-
 ---
 
 # 27. Protocols

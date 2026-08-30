@@ -9,6 +9,11 @@ tags:
 - master
 - canon
 - khung-trang-master
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
 
 # Trang Reality Architecture Master

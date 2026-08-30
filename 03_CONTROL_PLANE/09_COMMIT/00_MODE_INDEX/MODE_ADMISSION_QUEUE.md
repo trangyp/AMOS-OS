@@ -106,13 +106,13 @@ MODE ACTIVE
 
 from occurring merely because:
 
-* a file exists;
-* a name was coined;
-* a summary sounds coherent;
-* a mode appears in generated architecture;
-* another artifact references it;
-* multiple descendants repeat it;
-* a runtime prototype executes it once.
+- a file exists;
+- a name was coined;
+- a summary sounds coherent;
+- a mode appears in generated architecture;
+- another artifact references it;
+- multiple descendants repeat it;
+- a runtime prototype executes it once.
 
 The queue establishes an explicit separation between:
 
@@ -3241,7 +3241,6 @@ THREE INDEPENDENT SOURCES
 
 MUST FAIL
 ```
-
 ```text
 VALIDATED IN TEST
 →
@@ -3249,7 +3248,6 @@ VALIDATED IN PRODUCTION
 
 MUST FAIL
 ```
-
 ```text
 OLD AUTHORITY VALID
 →
@@ -3257,7 +3255,6 @@ COMMIT AUTHORITY VALID
 
 MUST FAIL WITHOUT REVALIDATION
 ```
-
 ```text
 NEWER FILE
 →
@@ -3265,7 +3262,6 @@ AUTOMATIC SUPERSESSION
 
 MUST FAIL
 ```
-
 ```text
 ADMITTED
 →
@@ -3273,7 +3269,6 @@ ACTIVE
 
 MUST FAIL WITHOUT ACTIVATION GOVERNANCE
 ```
-
 ---
 
 # 155. PROPERTY INVARIANTS
@@ -3289,25 +3284,21 @@ Admitted(M)
 !=
 Active(M)
 ```
-
 ```text
 Count(DescendantSources)
 !=
 IndependentEvidenceCount
 ```
-
 ```text
 Invalid(p)
 →
 InvalidateOnly(Descendants(p))
 ```
-
 ```text
 AdmissionConfidence
 <=
 WeakestLoadBearingPremise
 ```
-
 ---
 
 # 156. METAMORPHIC TEST — DUPLICATION
@@ -3799,31 +3790,26 @@ MISSING DEPENDENCY
 →
 ASSUMED AVAILABLE
 ```
-
 ```text
 UNTESTED
 →
 VALIDATED
 ```
-
 ```text
 SOURCE CLAIM
 →
 VERIFIED
 ```
-
 ```text
 NEWER FILE
 →
 AUTHORITATIVE
 ```
-
 ```text
 QUEUE ENTRY
 →
 CANON
 ```
-
 ---
 
 # 169. ANTI-REGRESSION

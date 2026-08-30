@@ -8,6 +8,11 @@ tags:
 - cycles
 - tss-seven-cycles
 - heritage-x-tss-matrix
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: universe_canon
 ---
 
 # TSS 7-Cycle Dynamics

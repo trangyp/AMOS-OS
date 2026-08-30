@@ -23,6 +23,11 @@ tags:
 - universe_canon
 - canon/universe
 - canon
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: universe_canon
 ---
 
 # PISYNC Final Interface State
@@ -5499,3 +5504,5 @@ Final interface state model governing synchronous cross-modal feedback across pe
 ---
 
 **MOC:** [[00_INDEX_MOC]] · [[00_HOME]]
+
+```

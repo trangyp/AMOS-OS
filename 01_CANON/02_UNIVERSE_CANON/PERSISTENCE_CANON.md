@@ -57,6 +57,11 @@ tags:
 aliases:
 - AMOS Persistence Canon - Persistence Canon - AMOS Durable State Canon - AMOS Persistent
   Prov
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: universe_canon
 ---
 
 # AMOS Persistence Canon

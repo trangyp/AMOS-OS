@@ -9,6 +9,13 @@ tags:
 - biz
 - market
 - amos-business-model-kernel-v0-biz-market3
+type: note
+source: 11_KNOWLEDGE/stubs
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # amos business model kernel v0 biz market3

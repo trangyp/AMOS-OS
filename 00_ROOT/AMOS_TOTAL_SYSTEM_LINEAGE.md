@@ -159,15 +159,15 @@ Substantive content (canonical definitions, laws, registries, schemas, models, o
 
 This placeholder MUST NOT be used to claim:
 
-* universal laws of reality;
-* scientific proof;
-* biological truth;
-* mathematical theoremhood;
-* philosophical certainty;
-* runtime enforcement that has not been implemented;
-* final canonical status;
-* authority merely from architectural importance;
-* or successful validation merely because the slot is addressable.
+- universal laws of reality;
+- scientific proof;
+- biological truth;
+- mathematical theoremhood;
+- philosophical certainty;
+- runtime enforcement that has not been implemented;
+- final canonical status;
+- authority merely from architectural importance;
+- or successful validation merely because the slot is addressable.
 
 ---
 

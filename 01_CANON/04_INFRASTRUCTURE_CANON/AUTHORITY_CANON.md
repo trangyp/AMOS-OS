@@ -55,6 +55,11 @@ tags:
 aliases:
 - AMOS Authority Canon - Authority Canon - AMOS Decision Rights Canon - AMOS Governance
   Author
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # AMOS Authority Canon

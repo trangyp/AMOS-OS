@@ -32,22 +32,22 @@ rscf:
 
 Its function is to represent what AMOS currently has sufficient grounds to state about an external environment while preserving:
 
-* observation status
-* measurement status
-* source claims
-* provenance
-* temporal validity
-* scope
-* regime
-* uncertainty
-* conflicts
-* freshness
-* gaps
-* dependencies
-* admission state
-* validation state
-* state version
-* downstream invalidation requirements
+- observation status
+- measurement status
+- source claims
+- provenance
+- temporal validity
+- scope
+- regime
+- uncertainty
+- conflicts
+- freshness
+- gaps
+- dependencies
+- admission state
+- validation state
+- state version
+- downstream invalidation requirements
 
 L00 state is not the external world itself.
 

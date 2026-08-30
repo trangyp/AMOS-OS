@@ -8,6 +8,13 @@ tags:
 - coordination
 - kernel
 - machine
+type: note
+source: 11_KNOWLEDGE/stubs
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # amos multi agent coordination kernel v0 machine architecture

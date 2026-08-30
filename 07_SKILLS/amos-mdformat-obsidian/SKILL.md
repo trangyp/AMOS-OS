@@ -1,5 +1,6 @@
 ---
 schema_version: 1.0
+title: SKILL
 name: amos-mdformat-obsidian
 description: AMOS mdformat-obsidian — Obsidian vault Markdown formatting using mdformat-obsidian and related plugins. Use when formatting Obsidian-flavored Markdown files (callouts, footnotes, task lists, dollar math, wikilinks), fixing broken YAML frontmatter parsing, normalizing thematic breaks/bullet markers/code block fences, or migrating legacy tags to RSCF structural-axis taxonomy. Use whenever the user mentions mdformat, obsidian formatting, vault formatting, wikilink normalization, or frontmatter fixing — even without explicitly asking for 'mdformat'. Do not use for non-Obsidian Markdown files, semantic content rewriting, or tasks outside the AMOS_OS vault context.
 license: MIT
@@ -34,24 +35,25 @@ rscf:
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
+type: skill
+source: 07_SKILLS/amos-mdformat-obsidian
 ---
 
 # mdformat-obsidian Vault Formatting
 
-## Description## Description
+## Description
 
 AMOS mdformat-obsidian — Obsidian vault Markdown formatting using mdformat-obsidian and related plugins. Use when formatting Obsidian-flavored Markdown files (callouts, footnotes, task lists, dollar math, wikilinks), fixing broken YAML frontmatter parsing, normalizing thematic breaks/bullet markers/code block fences, or migrating legacy tags to [[RSCF_CANON]] structural-axis taxonomy. Use whenever the user mentions mdformat, obsidian formatting, vault formatting, wikilink normalization, or frontmatter fixing — even without explicitly asking for 'mdformat'. Do not use for non-Obsidian Markdown files, semantic content rewriting, or tasks outside the AMOS_OS vault context.
 
 
-
-## Identity## Identity
+## Identity
 
 Origin architect: **Trang Phan**.
 Skill for formatting Obsidian vault Markdown files using `mdformat-obsidian` and related plugins.
 
 **Epistemic class**: AMOS_MODEL (tool-based formatting workflow).
 
-## When to Use## When to Use
+## When to Use
 
 - Format Obsidian-flavored Markdown files (callouts, footnotes, task lists, dollar math, wikilinks)
 - Fix broken YAML frontmatter parsing (4-backtick wrapping bug)
@@ -62,15 +64,14 @@ Skill for formatting Obsidian vault Markdown files using `mdformat-obsidian` and
 - Verify vault health via Obsidian MCP after formatting
 
 
-
-## Validation Gates## Validation Gates
+## Validation Gates
 
 - **[[L0_INTEGRITY]] Integrity**: No content deleted during formatting — only whitespace/syntax restructured
 - **[[L1_EPISTEMIC]] Epistemic**: All formatting changes tagged as DERIVED with provenance
 - **[[L5_SCOPE_REGIME]] Scope**: Only vault-scoped files processed; no external files modified
 - **[[L7_AUTHORITY]] Authority**: Batch vault formatting requires steward approval
 
-## Do not use## Do not use
+## Do not use
 
 - For non-Obsidian Markdown files (use standard mdformat without obsidian plugin)
 - To alter semantic content of canon artifacts (formatting only, never content rewriting)
@@ -78,7 +79,7 @@ Skill for formatting Obsidian vault Markdown files using `mdformat-obsidian` and
 - As a substitute for manual review of canon-law changes
 - Outside the AMOS_OS Obsidian vault context
 
-## Examples## Examples
+## Examples
 
 **User says:** "Format all canon files in 01_CANON/ with mdformat-obsidian"
 → Run mdformat with obsidian plugin on all .md files in 01_CANON/, normalizing wikilinks, frontmatter, and thematic breaks.
@@ -89,7 +90,7 @@ Skill for formatting Obsidian vault Markdown files using `mdformat-obsidian` and
 **User says:** "Migrate legacy tags to RSCF structural-axis taxonomy"
 → Replace old flat tags with nested rscf/* taxonomy tags across vault files using mdformat-obsidian.
 
-## Prerequisites## Prerequisites
+## Prerequisites
 
 ### mdformat-obsidian Installation
 
@@ -115,7 +116,7 @@ The vault uses Python 3.12+ for mdformat-obsidian (requires Python >= 3.10).
 - **mdformat-wikilink** — Obsidian `wikilink` preservation
 - **mdformat-gfm** — GitHub Flavored Markdown tables, strikethrough
 
-## Capabilities## Capabilities
+## Capabilities
 
 - **format.validate**: Check if a file is properly formatted (`mdformat --check`)
 - **format.file**: Format a single vault file in-place
@@ -126,7 +127,7 @@ The vault uses Python 3.12+ for mdformat-obsidian (requires Python >= 3.10).
 - **tag.normalize**: Normalize frontmatter tags using Obsidian MCP
 
 
-## Operations## Operations
+## Operations
 
 1. Execute `format.validate` — format validate with appropriate parameters and validate output.
 2. Execute `format.file` — format file with appropriate parameters and validate output.
@@ -135,7 +136,7 @@ The vault uses Python 3.12+ for mdformat-obsidian (requires Python >= 3.10).
 5. Execute `format.fix_thematic_breaks` — format fix thematic breaks with appropriate parameters and validate output.
 6. Execute `tag.migrate_rscf` — tag migrate rscf with appropriate parameters and validate output.
 7. Execute `tag.normalize` — tag normalize with appropriate parameters and validate output.
-## Formatting Workflow## Formatting Workflow
+## Formatting Workflow
 
 ### Step 1: Fix 4-Backtick Wrapping Bug
 
@@ -343,7 +344,7 @@ Use the Obsidian MCP `frontmatter` tool with `action=set` to update tags:
 frontmatter action=set path="<path>" key=tags value=["tag1", "rscf/C-constraint", ...]
 ```
 
-## Canon File Tag Mapping## Canon File Tag Mapping
+## Canon File Tag Mapping
 
 For canon files in `01_CANON/03_COGNITION_CANON/`:
 
@@ -355,7 +356,7 @@ For canon files in `01_CANON/03_COGNITION_CANON/`:
 | AMOS_ATTENTION_CANON | `rscf/C-constraint`, `rscf/D-distinction`, `rscf/S-state`, `rscf/type-model` |
 | AMOS_COGNITION_MASTER_CANON | `rscf/C-constraint`, `rscf/D-distinction`, `rscf/G-relation`, `rscf/T-topology`, `rscf/type-system` |
 
-## Vault Health Verification## Vault Health Verification
+## Vault Health Verification
 
 After formatting, verify vault health using Obsidian MCP:
 
@@ -373,7 +374,7 @@ wikilinks query=broken
 vault_info
 ```
 
-## Important Notes## Important Notes
+## Important Notes
 
 - **Always backup files before formatting**: `cp <file> /tmp/<backup>`
 - **mdformat modifies files in-place**: use `--check` first to preview
@@ -388,7 +389,7 @@ vault_info
 - **4-backtick fences are legitimate** when wrapping content with inner 3-backtick blocks (e.g., `CANON_X_KNOWLEDGE.md`) — do not "fix" these
 - **Tag migration is idempotent**: once `rscf/*` tags are present and `canon-group/*` tags are absent, the file is considered migrated
 
-## Reference## Reference
+## Reference
 
 ### Epistemic Boundaries
 
@@ -396,7 +397,7 @@ vault_info
 - No claim beyond the declared scope.
 - Never promote AMOS_MODEL to SOURCE or EMPIRICAL without external evidence.
 
-## Provenance## Provenance
+## Provenance
 
 - **Origin architect**: Trang Phan
 
@@ -408,7 +409,7 @@ vault_info
 - **Tool**: [mdformat-obsidian](https://github.com/KyleKing/mdformat-obsidian) v0.3.2
 - **Created**: 2026-08-28
 
-## SOTA Data Trustworthiness (2026)## SOTA Data Trustworthiness (2026)
+## SOTA Data Trustworthiness (2026)
 
 > **Source**: Atlan/UC Irvine 2026 study — 99% of SKILL.md files have at least one flaw; the 6th practice (data trustworthiness) is named by zero conventional guides.
 
@@ -428,7 +429,7 @@ Before applying this skill's outputs, validate:
 - SOURCE_CLAIM + stale or integrity_unverified = CONDITIONAL (confidence ceiling: 0.7)
 - UNKNOWN/GAP + any = UNTRUSTED (confidence ceiling: 0.5, require human review)
 
-## SOTA Evaluation Contract (2026)## SOTA Evaluation Contract (2026)
+## SOTA Evaluation Contract (2026)
 
 > **Source**: AEVAL (arxiv 2607.16345) — deterministic, reproducible test pipeline. ACES (arxiv 2608.20614) — paired live trials with and without skill.
 

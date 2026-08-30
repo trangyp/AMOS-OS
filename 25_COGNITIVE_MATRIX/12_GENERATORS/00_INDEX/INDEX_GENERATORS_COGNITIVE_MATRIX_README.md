@@ -335,16 +335,16 @@ Use when the current routing scope is insufficient.
 
 Typical triggers include:
 
-* unresolved dependencies;
-* conflicting modes;
-* causal ambiguity;
-* provenance ambiguity;
-* governance impact;
-* irreversible stakes;
-* scope crossing;
-* regime crossing;
-* insufficient capability;
-* unresolved constraint propagation.
+- unresolved dependencies;
+- conflicting modes;
+- causal ambiguity;
+- provenance ambiguity;
+- governance impact;
+- irreversible stakes;
+- scope crossing;
+- regime crossing;
+- insufficient capability;
+- unresolved constraint propagation.
 
 ---
 
@@ -3064,53 +3064,53 @@ claim_class: AMOS_MODEL
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-* PART_OF: [[COGNITIVE_MATRIX_MOC]]
+- PART_OF: [[COGNITIVE_MATRIX_MOC]]
 
-* INDEXES: [[TASK_CONTRACT]]
+- INDEXES: [[TASK_CONTRACT]]
 
-* INDEXES: [[TASK_RESOLVER]]
+- INDEXES: [[TASK_RESOLVER]]
 
-* INDEXES: [[CAPABILITY_RESOLVER]]
+- INDEXES: [[CAPABILITY_RESOLVER]]
 
-* INDEXES: [[MODE_ADMISSION_QUEUE]]
+- INDEXES: [[MODE_ADMISSION_QUEUE]]
 
-* INDEXES: [[MODE_COMPOSITION_REGISTRY]]
+- INDEXES: [[MODE_COMPOSITION_REGISTRY]]
 
-* INDEXES: [[MODE_CONFLICT_REGISTRY]]
+- INDEXES: [[MODE_CONFLICT_REGISTRY]]
 
-* INDEXES: [[MODE_COVERAGE_MATRIX]]
+- INDEXES: [[MODE_COVERAGE_MATRIX]]
 
-* INDEXES: [[MODE_DEPENDENCY_GRAPH]]
+- INDEXES: [[MODE_DEPENDENCY_GRAPH]]
 
-* ROUTES_THROUGH: [[TASK_RESOLVER]]
+- ROUTES_THROUGH: [[TASK_RESOLVER]]
 
-* ROUTES_THROUGH: [[CAPABILITY_RESOLVER]]
+- ROUTES_THROUGH: [[CAPABILITY_RESOLVER]]
 
-* CONSTRAINED_BY: [[K_CONSTRAINT_PROPAGATION]]
+- CONSTRAINED_BY: [[K_CONSTRAINT_PROPAGATION]]
 
-* BINDS_WITH: [[K_BINDING]]
+- BINDS_WITH: [[K_BINDING]]
 
-* USES: [[K_RSCF]]
+- USES: [[K_RSCF]]
 
-* USES: [[K_HML]]
+- USES: [[K_HML]]
 
-* USES: [[K_GMEF]]
+- USES: [[K_GMEF]]
 
-* USES: [[K_SYBIL_HARDENING]]
+- USES: [[K_SYBIL_HARDENING]]
 
-* SUPPORTS: [[GENERATORS_MAP]]
+- SUPPORTS: [[GENERATORS_MAP]]
 
-* SUPPORTS: [[GENERATOR_REGISTRY]]
+- SUPPORTS: [[GENERATOR_REGISTRY]]
 
-* SUPPORTS: [[GENERATOR_TEMPLATES]]
+- SUPPORTS: [[GENERATOR_TEMPLATES]]
 
-* RELATED_TO: [[K_COUNTERFACTUAL]]
+- RELATED_TO: [[K_COUNTERFACTUAL]]
 
-* RELATED_TO: [[K_TRANSLATION]]
+- RELATED_TO: [[K_TRANSLATION]]
 
 ```
 

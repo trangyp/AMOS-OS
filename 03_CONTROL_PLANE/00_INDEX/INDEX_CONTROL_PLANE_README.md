@@ -397,13 +397,13 @@ CONTROL_PLANE_MAP.md
 
 `README.md` defines:
 
-* the purpose of the Control Plane;
-* its architectural boundaries;
-* the relationship between subdomains;
-* expected execution order;
-* key invariants;
-* dependency direction;
-* failure and escalation principles.
+- the purpose of the Control Plane;
+- its architectural boundaries;
+- the relationship between subdomains;
+- expected execution order;
+- key invariants;
+- dependency direction;
+- failure and escalation principles.
 
 `CONTROL_PLANE_MAP.md` should provide the more compact topology and navigation
 map.
@@ -703,13 +703,13 @@ Authority is local, typed, scoped, and revocable.
 
 It must not be inferred merely from:
 
-* capability;
-* role name;
-* historical access;
-* prior approval;
-* successful previous execution;
-* system ownership assumptions;
-* absence of denial.
+- capability;
+- role name;
+- historical access;
+- prior approval;
+- successful previous execution;
+- system ownership assumptions;
+- absence of denial.
 
 ---
 
@@ -2762,49 +2762,41 @@ PREVIOUSLY AUTHORIZED
 →
 CURRENTLY AUTHORIZED
 ```
-
 ```text
 POLICY NOT FOUND
 →
 POLICY ALLOWS
 ```
-
 ```text
 READ DATA @ V0
 →
 ASSUME CURRENT @ COMMIT
 ```
-
 ```text
 TOOL SUCCESS
 →
 OBJECTIVE COMPLETE
 ```
-
 ```text
 SEND SUCCESS
 →
 RECEIVER FINALIZED
 ```
-
 ```text
 REPLAY MATCH
 →
 SEMANTIC CORRECTNESS
 ```
-
 ```text
 ROLLBACK EXISTS
 →
 ACTION HAS NO RISK
 ```
-
 ```text
 MULTIPLE DESCENDANT SOURCES
 →
 INDEPENDENT PROVENANCE
 ```
-
 ---
 
 # 80. Relationship to Kernel Authority

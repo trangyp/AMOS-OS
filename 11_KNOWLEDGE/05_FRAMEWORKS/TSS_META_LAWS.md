@@ -74,17 +74,17 @@ epistemic_boundary:
 # 1. The Core Meta Laws of The Trang System™
 
 1. **Law of Inevitable Overload ($\frac{\partial \Omega}{\partial t} > 0$ without Active Pruning):**
-   * Complex systems inherently accumulate coordination friction, regulatory bloat, and technical debt unless energetic resources are continually expended on structural simplification.
+   - Complex systems inherently accumulate coordination friction, regulatory bloat, and technical debt unless energetic resources are continually expended on structural simplification.
 
 2. **Law of Non-Compensatory Cohesion ($H \perp \text{Capital/Tools}$):**
-   * Financial capital, computational scale, or physical infrastructure cannot substitute for a catastrophic loss of internal human cohesion ($H$) and shared foundational trust.
+   - Financial capital, computational scale, or physical infrastructure cannot substitute for a catastrophic loss of internal human cohesion ($H$) and shared foundational trust.
 
 3. **Law of Scale Fragility (Complexity Multiplies Shock):**
    $$\text{Damage}(S) \propto \Omega \cdot F$$
-   * External shocks ($S$) produce localized stress in cohesive systems ($F \to 0$), but catastrophic systemic cascades in fragmented, high-load systems ($F \to 1, \Omega \to 1$).
+   - External shocks ($S$) produce localized stress in cohesive systems ($F \to 0$), but catastrophic systemic cascades in fragmented, high-load systems ($F \to 1, \Omega \to 1$).
 
 4. **Law of Conservation of Debt:**
-   * Deferred structural maintenance, suppressed conflicts, and unmodeled risks never dissipate; they compound non-linearly into future collapse probabilities ($P_{\text{collapse}}$).
+   - Deferred structural maintenance, suppressed conflicts, and unmodeled risks never dissipate; they compound non-linearly into future collapse probabilities ($P_{\text{collapse}}$).
 
 ---
 

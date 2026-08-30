@@ -128,21 +128,21 @@ No stage may silently imply a later stage.
 
 This contract does **not**:
 
-* grant authority;
-* create permissions;
-* prove implementation;
-* prove correctness;
-* establish empirical validity;
-* establish canonical AMOS status by itself;
-* allow an agent to self-authorize;
-* allow a Skill to self-promote;
-* allow capability discovery to bypass policy;
-* convert model confidence into permission;
-* convert successful execution into scientific validation;
-* convert a proposal into a durable commit;
-* permit provenance-free execution;
-* permit unknown dependencies to be interpreted as satisfied;
-* permit unsupported cross-domain generalization.
+- grant authority;
+- create permissions;
+- prove implementation;
+- prove correctness;
+- establish empirical validity;
+- establish canonical AMOS status by itself;
+- allow an agent to self-authorize;
+- allow a Skill to self-promote;
+- allow capability discovery to bypass policy;
+- convert model confidence into permission;
+- convert successful execution into scientific validation;
+- convert a proposal into a durable commit;
+- permit provenance-free execution;
+- permit unknown dependencies to be interpreted as satisfied;
+- permit unsupported cross-domain generalization.
 
 ---
 
@@ -1273,10 +1273,10 @@ uncertainty:
 
 Examples:
 
-* implementation may be known while scope remains uncertain;
-* output may be reproducible while causal interpretation remains uncertain;
-* interface may be documented while execution availability remains unknown;
-* provider may work while authority remains absent.
+- implementation may be known while scope remains uncertain;
+- output may be reproducible while causal interpretation remains uncertain;
+- interface may be documented while execution availability remains unknown;
+- provider may work while authority remains absent.
 
 These conditions MUST remain distinguishable.
 

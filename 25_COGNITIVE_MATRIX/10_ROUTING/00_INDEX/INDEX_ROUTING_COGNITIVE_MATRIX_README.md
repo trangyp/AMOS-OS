@@ -60,21 +60,21 @@ It defines how a reader, resolver, validator, or governed mutation process shoul
 
 This file provides:
 
-* local index semantics;
-* reading order;
-* basename-resolution rules;
-* artifact identity requirements;
-* routing admission semantics;
-* scope and regime binding;
-* authority checks;
-* dependency-closure rules;
-* proposal/commit separation;
-* failure-localization rules;
-* promotion-gate requirements;
-* cross-plane bindings;
-* validation receipt expectations;
-* gap visibility requirements;
-* RSCF placement.
+- local index semantics;
+- reading order;
+- basename-resolution rules;
+- artifact identity requirements;
+- routing admission semantics;
+- scope and regime binding;
+- authority checks;
+- dependency-closure rules;
+- proposal/commit separation;
+- failure-localization rules;
+- promotion-gate requirements;
+- cross-plane bindings;
+- validation receipt expectations;
+- gap visibility requirements;
+- RSCF placement.
 
 It is an **index/orientation artifact**.
 
@@ -101,33 +101,33 @@ $$\boxed{ Index \neq Contract \neq Runtime \neq Validation }$$
 
 Primary local references:
 
-* **Readme / this artifact** — INDEX_ROUTING_COGNITIVE_MATRIX_README
-* **Contract** — [[ROUTING_COGNITIVE_MATRIX_ROUTING_CONTRACT]]
-* **Map** — [[ROUTING_MAP]]
+- **Readme / this artifact** — INDEX_ROUTING_COGNITIVE_MATRIX_README
+- **Contract** — [[ROUTING_COGNITIVE_MATRIX_ROUTING_CONTRACT]]
+- **Map** — [[ROUTING_MAP]]
 
 Supporting routing artifacts MAY include:
 
-* [[TASK_CONTRACT]]
-* [[TASK_RESOLVER]]
-* [[CAPABILITY_RESOLVER]]
-* [[MODE_ADMISSION_QUEUE]]
-* [[MODE_COMPOSITION_REGISTRY]]
-* [[MODE_CONFLICT_REGISTRY]]
-* [[MODE_COVERAGE_MATRIX]]
-* [[MODE_DEPENDENCY_GRAPH]]
+- [[TASK_CONTRACT]]
+- [[TASK_RESOLVER]]
+- [[CAPABILITY_RESOLVER]]
+- [[MODE_ADMISSION_QUEUE]]
+- [[MODE_COMPOSITION_REGISTRY]]
+- [[MODE_CONFLICT_REGISTRY]]
+- [[MODE_COVERAGE_MATRIX]]
+- [[MODE_DEPENDENCY_GRAPH]]
 
 Validation evidence references include:
 
-* [[ROUTING_POLICY_VALIDATION_RECEIPT]]
-* [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+- [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+- [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
 Cross-plane navigation includes:
 
-* [[00_HOME]]
-* [[00_ROOT_MAP]]
-* [[AMOS_RSCF_NODES]]
-* [[K_RSCF]]
-* [[L17_RSCF]]
+- [[00_HOME]]
+- [[00_ROOT_MAP]]
+- [[AMOS_RSCF_NODES]]
+- [[K_RSCF]]
+- [[L17_RSCF]]
 
 ---
 
@@ -213,9 +213,9 @@ Cross-plane or cross-segment resolution MUST NOT be inferred from basename alone
 
 Cross-plane resolution goes through:
 
-* [[00_HOME]]
-* [[00_ROOT_MAP]]
-* [[AMOS_RSCF_NODES]]
+- [[00_HOME]]
+- [[00_ROOT_MAP]]
+- [[AMOS_RSCF_NODES]]
 
 and the applicable subsystem map.
 
@@ -710,13 +710,13 @@ $$Preconditions(O) = I \land V \land S \land R \land A \land D \land F$$
 
 where:
 
-* $I$ = identity valid;
-* $V$ = version valid;
-* $S$ = scope compatible;
-* $R$ = regime compatible;
-* $A$ = authority valid;
-* $D$ = dependency closure valid;
-* $F$ = freshness valid.
+- $I$ = identity valid;
+- $V$ = version valid;
+- $S$ = scope compatible;
+- $R$ = regime compatible;
+- $A$ = authority valid;
+- $D$ = dependency closure valid;
+- $F$ = freshness valid.
 
 If a required term is `UNKNOWN`:
 
@@ -1319,8 +1319,8 @@ AUTOMATED LINK-INTEGRITY EXECUTION: PARTIAL
 
 Relevant evidence references:
 
-* [[ROUTING_POLICY_VALIDATION_RECEIPT]]
-* [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+- [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+- [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
 This means:
 
@@ -1398,8 +1398,8 @@ These relationships are references to specialized governing surfaces, not proof 
 
 Governed by canon:
 
-* AMOS Core Laws
-* [[LAW_HIERARCHY]]
+- AMOS Core Laws
+- [[LAW_HIERARCHY]]
 
 The local index MUST NOT override a higher applicable canonical law.
 
@@ -1435,7 +1435,7 @@ resolve or preserve UNKNOWN/COMPETING
 
 Kernel interaction:
 
-* [[KERNEL_README]]
+- [[KERNEL_README]]
 
 The Routing index may reference kernel-level services or semantics.
 
@@ -1455,7 +1455,7 @@ The kernel artifact itself and its evidence govern kernel claims.
 
 Control-plane gates:
 
-* [[CONTROL_PLANE_README]]
+- [[CONTROL_PLANE_README]]
 
 The control plane may govern:
 
@@ -1487,7 +1487,7 @@ $$RouteValid \not\Rightarrow ControlGatePassed$$
 
 Observed by:
 
-* [[OBSERVABILITY_README]]
+- [[OBSERVABILITY_README]]
 
 Observability may provide:
 
@@ -1531,7 +1531,7 @@ These evidence types MUST remain distinct.
 
 Recovered through:
 
-* [[OPERATIONS_README]]
+- [[OPERATIONS_README]]
 
 Operations may define procedures for:
 
@@ -2066,8 +2066,8 @@ This index does not claim a complete global dependency graph.
 
 Global graph resolution belongs to:
 
-* [[00_ROOT_MAP]]
-* [[AMOS_RSCF_NODES]]
+- [[00_ROOT_MAP]]
+- [[AMOS_RSCF_NODES]]
 
 Therefore:
 
@@ -3030,55 +3030,55 @@ path: 25_COGNITIVE_MATRIX/10_ROUTING/00_INDEX/INDEX_ROUTING_COGNITIVE_MATRIX_REA
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-* INDEXED_BY: [[ROUTING_MAP]]
+- INDEXED_BY: [[ROUTING_MAP]]
 
-* PART_OF: [[COGNITIVE_MATRIX_MOC]]
+- PART_OF: [[COGNITIVE_MATRIX_MOC]]
 
-* PART_OF: [[00_ROOT_MAP]]
+- PART_OF: [[00_ROOT_MAP]]
 
-* ORIENTS_TO: [[ROUTING_COGNITIVE_MATRIX_ROUTING_CONTRACT]]
+- ORIENTS_TO: [[ROUTING_COGNITIVE_MATRIX_ROUTING_CONTRACT]]
 
-* ORIENTS_TO: [[ROUTING_MAP]]
+- ORIENTS_TO: [[ROUTING_MAP]]
 
-* REFERENCES: [[TASK_CONTRACT]]
+- REFERENCES: [[TASK_CONTRACT]]
 
-* REFERENCES: [[TASK_RESOLVER]]
+- REFERENCES: [[TASK_RESOLVER]]
 
-* REFERENCES: [[CAPABILITY_RESOLVER]]
+- REFERENCES: [[CAPABILITY_RESOLVER]]
 
-* REFERENCES: [[MODE_ADMISSION_QUEUE]]
+- REFERENCES: [[MODE_ADMISSION_QUEUE]]
 
-* REFERENCES: [[MODE_COMPOSITION_REGISTRY]]
+- REFERENCES: [[MODE_COMPOSITION_REGISTRY]]
 
-* REFERENCES: [[MODE_CONFLICT_REGISTRY]]
+- REFERENCES: [[MODE_CONFLICT_REGISTRY]]
 
-* REFERENCES: [[MODE_COVERAGE_MATRIX]]
+- REFERENCES: [[MODE_COVERAGE_MATRIX]]
 
-* REFERENCES: [[MODE_DEPENDENCY_GRAPH]]
+- REFERENCES: [[MODE_DEPENDENCY_GRAPH]]
 
-* GOVERNED_BY: AMOS Core Laws
+- GOVERNED_BY: AMOS Core Laws
 
-* GOVERNED_BY: [[LAW_HIERARCHY]]
+- GOVERNED_BY: [[LAW_HIERARCHY]]
 
-* INTERACTS_WITH: [[KERNEL_README]]
+- INTERACTS_WITH: [[KERNEL_README]]
 
-* GATED_BY: [[CONTROL_PLANE_README]]
+- GATED_BY: [[CONTROL_PLANE_README]]
 
-* OBSERVED_BY: [[OBSERVABILITY_README]]
+- OBSERVED_BY: [[OBSERVABILITY_README]]
 
-* RECOVERED_BY: [[OPERATIONS_README]]
+- RECOVERED_BY: [[OPERATIONS_README]]
 
-* VALIDATED_BY: [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+- VALIDATED_BY: [[ROUTING_POLICY_VALIDATION_RECEIPT]]
 
-* VALIDATED_BY: [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+- VALIDATED_BY: [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
-* USES: [[K_RSCF]]
+- USES: [[K_RSCF]]
 
-* USES: [[L17_RSCF]]
+- USES: [[L17_RSCF]]
 
 claim_class: AMOS_MODEL
 canonical_status: CONDITIONAL

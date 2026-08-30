@@ -359,8 +359,6 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
 
-
-
 See `references/detailed-content.md` for detailed amos canon grounding.
 
 ## References

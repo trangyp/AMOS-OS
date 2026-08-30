@@ -50,6 +50,11 @@ tags:
 aliases:
 - AMOS Universal Variable Registry - Universal Variable Registry - AMOS Variable Registry
   - AM
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # AMOS Universal Variable Registry
@@ -1586,13 +1591,11 @@ X CORRELATES WITH Y
 !=
 X CAUSES Y
 ```
-
 ```text
 X STRUCTURALLY RESEMBLES Y
 !=
 X CAUSES Y
 ```
-
 Causal interpretation requires appropriately typed evidence/model assumptions.
 
 ---

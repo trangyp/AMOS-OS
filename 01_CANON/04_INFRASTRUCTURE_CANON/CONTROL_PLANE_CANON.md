@@ -59,6 +59,11 @@ tags:
 aliases:
 - AMOS Control Plane Canon - Control Plane Canon - AMOS Governance Control Plane -
   AMOS Commit
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # AMOS Control Plane Canon
@@ -176,19 +181,16 @@ KERNEL
 =
 DETERMINISTIC OPERATORS / INVARIANT EVALUATION
 ```
-
 ```text
 CONTROL PLANE
 =
 WHETHER A PROPOSED TRANSITION MAY BECOME AUTHORITATIVE
 ```
-
 ```text
 RUNTIME
 =
 HOW AUTHORIZED WORK IS EXECUTED
 ```
-
 ---
 
 # 3. Control Plane Law

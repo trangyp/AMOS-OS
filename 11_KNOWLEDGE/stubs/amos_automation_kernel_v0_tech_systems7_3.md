@@ -8,6 +8,13 @@ tags:
 - tech
 - systems
 - amos-automation-kernel-v0-tech-systems7-3
+type: note
+source: 11_KNOWLEDGE/stubs
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # amos automation kernel v0 tech systems7 3

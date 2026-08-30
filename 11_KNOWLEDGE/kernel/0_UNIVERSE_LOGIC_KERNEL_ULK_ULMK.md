@@ -1,4 +1,5 @@
 ---
+title: 0_UNIVERSE_LOGIC_KERNEL_ULK_ULMK
 tags:
 - knowledge
 - kernel
@@ -6,6 +7,13 @@ tags:
 - logic
 - ulk
 - ulmk
+type: note
+source: 11_KNOWLEDGE/kernel
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
 
 # 0 UNIVERSE LOGIC KERNEL ULK ULMK
@@ -340,12 +348,12 @@ $$
 
 The source does not define:
 
-* observer dependence;
-* uncertainty;
-* probabilistic existence;
-* partial existence;
-* fuzzy existence;
-* ontological versus representational existence.
+- observer dependence;
+- uncertainty;
+- probabilistic existence;
+- partial existence;
+- fuzzy existence;
+- ontological versus representational existence.
 
 ---
 
@@ -488,18 +496,18 @@ $$
 
 Not defined:
 
-* strength;
-* sign;
-* probability;
-* delay;
-* mechanism;
-* mediation;
-* confounding;
-* necessity;
-* sufficiency;
-* bidirectionality;
-* feedback;
-* intervention semantics.
+- strength;
+- sign;
+- probability;
+- delay;
+- mechanism;
+- mediation;
+- confounding;
+- necessity;
+- sufficiency;
+- bidirectionality;
+- feedback;
+- intervention semantics.
 
 ---
 
@@ -589,12 +597,12 @@ The primitive establishes ordering.
 
 It does not specify:
 
-* continuous versus discrete physical time;
-* duration units;
-* relativity;
-* clock synchronization;
-* monotonic clock source;
-* causality beyond ordering.
+- continuous versus discrete physical time;
+- duration units;
+- relativity;
+- clock synchronization;
+- monotonic clock source;
+- causality beyond ordering.
 
 ---
 
@@ -788,9 +796,9 @@ The existence of \(\Phi\) does not guarantee its quality.
 
 UML(7) later introduces:
 
-* accuracy;
-* latency;
-* correction magnitude.
+- accuracy;
+- latency;
+- correction magnitude.
 
 Thus the model distinguishes:
 
@@ -913,11 +921,11 @@ But `Contradictions(B,t)` is not formally defined.
 
 Possible meanings include:
 
-* formal logical contradiction;
-* inconsistent propositions;
-* incompatible states;
-* conflicting constraints;
-* unresolved competing claims.
+- formal logical contradiction;
+- inconsistent propositions;
+- incompatible states;
+- conflicting constraints;
+- unresolved competing claims.
 
 The source does not distinguish them.
 
@@ -1224,9 +1232,9 @@ $$
 
 The law combines:
 
-* difference \(\Delta\);
-* time \(t\);
-* boundary \(B\).
+- difference \(\Delta\);
+- time \(t\);
+- boundary \(B\).
 
 Thus:
 
@@ -1531,12 +1539,12 @@ Description:
 
 Unknown:
 
-* commutativity;
-* associativity;
-* identity element;
-* inverse;
-* closure;
-* idempotence.
+- commutativity;
+- associativity;
+- identity element;
+- inverse;
+- closure;
+- idempotence.
 
 Therefore do not assume:
 
@@ -1725,10 +1733,10 @@ But UOP(6)'s signature does not include one.
 
 Therefore the reference may be:
 
-* implicit in \(A\);
-* globally defined;
-* context-bound;
-* omitted from the signature.
+- implicit in \(A\);
+- globally defined;
+- context-bound;
+- omitted from the signature.
 
 UNKNOWN/GAP.
 
@@ -2008,13 +2016,13 @@ Again, `reference` is essential but undefined.
 
 Questions left open:
 
-* who selects it?
-* can it change?
-* is it pre-collapse state?
-* healthy state?
-* equilibrium?
-* policy target?
-* externally defined norm?
+- who selects it?
+- can it change?
+- is it pre-collapse state?
+- healthy state?
+- equilibrium?
+- policy target?
+- externally defined norm?
 
 ---
 
@@ -2116,11 +2124,11 @@ COMPETING
 
 Nothing in the source establishes that this equation is:
 
-* a physical energy equation;
-* dimensionally calibrated;
-* experimentally validated;
-* equivalent to mass-energy relations;
-* a quantum equation.
+- a physical energy equation;
+- dimensionally calibrated;
+- experimentally validated;
+- equivalent to mass-energy relations;
+- a quantum equation.
 
 It is a **ULK canonical/source-model equation**.
 
@@ -2582,10 +2590,10 @@ This is one of the most epistemically sensitive claims in the artifact.
 
 The terms grouped together span very different categories:
 
-* hallucination;
-* psychopathy;
-* moral concept `"evil"`;
-* extreme states.
+- hallucination;
+- psychopathy;
+- moral concept `"evil"`;
+- extreme states.
 
 The source supplies no clinical, psychological, neurological, moral-philosophical, or empirical validation demonstrating they share one mechanism.
 
@@ -2848,16 +2856,16 @@ Therefore “constructed from” is conceptual rather than formally demonstrated
 
 To establish the stated universality rigorously, the kernel would need at least:
 
-* syntax;
-* semantics;
-* derivation rules;
-* proof rules;
-* type system;
-* well-formedness rules;
-* equivalence rules;
-* composition rules;
-* completeness criteria;
-* soundness criteria.
+- syntax;
+- semantics;
+- derivation rules;
+- proof rules;
+- type system;
+- well-formedness rules;
+- equivalence rules;
+- composition rules;
+- completeness criteria;
+- soundness criteria.
 
 This artifact does not supply all of those.
 
@@ -2975,12 +2983,12 @@ $$
 
 because it supports:
 
-* Duality;
-* Identity;
-* Compare;
-* Deviation;
-* Recovery;
-* Creativity.
+- Duality;
+- Identity;
+- Compare;
+- Deviation;
+- Recovery;
+- Creativity.
 
 If \(\Delta\) is strictly binary everywhere, several later formulations become less expressive.
 
@@ -3149,11 +3157,11 @@ $$
 
 must not be instantiated from mere:
 
-* correlation;
-* sequence;
-* analogy;
-* co-occurrence;
-* structural similarity.
+- correlation;
+- sequence;
+- analogy;
+- co-occurrence;
+- structural similarity.
 
 Appropriately typed evidence is required.
 
@@ -3185,12 +3193,12 @@ The source has a `runtime` tag.
 
 It does not supply:
 
-* executable code;
-* runtime logs;
-* test receipts;
-* deployment manifest;
-* version hash;
-* formal implementation mapping.
+- executable code;
+- runtime logs;
+- test receipts;
+- deployment manifest;
+- version hash;
+- formal implementation mapping.
 
 Therefore:
 
@@ -3237,11 +3245,11 @@ Do not merge numbering systems merely because both use `ALU`.
 
 If another artifact defines six ALU operators, possibilities include:
 
-* different abstraction;
-* later version;
-* compiler ALUs versus atomic logic units;
-* renamed architecture;
-* parallel subsystem.
+- different abstraction;
+- later version;
+- compiler ALUs versus atomic logic units;
+- renamed architecture;
+- parallel subsystem.
 
 Until explicit lineage is supplied:
 
@@ -3627,14 +3635,14 @@ This is **PROPOSED**, not source canon.
 
 Because the source does not define:
 
-* composition order;
-* operator algebra;
-* interaction coefficients;
-* feedback delay;
-* capacity function;
-* reference state;
-* relation strength;
-* state space.
+- composition order;
+- operator algebra;
+- interaction coefficients;
+- feedback delay;
+- capacity function;
+- reference state;
+- relation strength;
+- state space.
 
 ---
 
@@ -4591,11 +4599,11 @@ provenance
 
 Formal refinement is acceptable if it:
 
-* clarifies types;
-* makes missing definitions explicit;
-* resolves ambiguity with evidence;
-* preserves source lineage;
-* adds falsifiable tests.
+- clarifies types;
+- makes missing definitions explicit;
+- resolves ambiguity with evidence;
+- preserves source lineage;
+- adds falsifiable tests.
 
 ---
 
@@ -4603,12 +4611,12 @@ Formal refinement is acceptable if it:
 
 Reject refinements that:
 
-* rewrite source claims as verified facts;
-* erase contradictions;
-* force equation equivalence;
-* merge symbol meanings without bindings;
-* claim runtime implementation without receipts;
-* convert structural analogy into causation.
+- rewrite source claims as verified facts;
+- erase contradictions;
+- force equation equivalence;
+- merge symbol meanings without bindings;
+- claim runtime implementation without receipts;
+- convert structural analogy into causation.
 
 ---
 

@@ -374,8 +374,8 @@ G_P=(V_P,E_P)
 
 where:
 
-* \(V_P\) = provenance-bearing objects;
-* \(E_P\) = lineage relations.
+- \(V_P\) = provenance-bearing objects;
+- \(E_P\) = lineage relations.
 
 Typical edges:
 
@@ -947,37 +947,37 @@ Compatible(R_E,R')
 
 Tracks:
 
-* root authority;
-* canonical architecture lineage;
-* system-level policy;
-* control-plane state;
-* major architecture versions;
-* global evidence dependencies;
-* governance mutations.
+- root authority;
+- canonical architecture lineage;
+- system-level policy;
+- control-plane state;
+- major architecture versions;
+- global evidence dependencies;
+- governance mutations.
 
 ## M — Subsystem Provenance
 
 Tracks:
 
-* domain models;
-* skills;
-* agent workflows;
-* memory subsystems;
-* evidence bundles;
-* subsystem validators;
-* local architecture versions.
+- domain models;
+- skills;
+- agent workflows;
+- memory subsystems;
+- evidence bundles;
+- subsystem validators;
+- local architecture versions.
 
 ## L — Local Provenance
 
 Tracks:
 
-* individual observations;
-* files;
-* retrievals;
-* tool calls;
-* measurements;
-* transformations;
-* claim-support edges.
+- individual observations;
+- files;
+- retrievals;
+- tool calls;
+- measurements;
+- transformations;
+- claim-support edges.
 
 ---
 

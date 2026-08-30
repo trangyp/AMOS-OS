@@ -75,9 +75,9 @@ budget scarce reasoning/observation resources
 
 This directly supports:
 
-* attention as an allocation function,
-* scarcity of reasoning/observation resources,
-* the need to determine what receives processing resources.
+- attention as an allocation function,
+- scarcity of reasoning/observation resources,
+- the need to determine what receives processing resources.
 
 It does **not** independently establish the exact H/M/L decomposition in this artifact.
 
@@ -151,9 +151,9 @@ A =
 
 where:
 
-* \(A_H\) = governing/system-level attention state,
-* \(A_M\) = subsystem/task-level attention allocation,
-* \(A_L\) = local candidate/event-level attention decision.
+- \(A_H\) = governing/system-level attention state,
+- \(A_M\) = subsystem/task-level attention allocation,
+- \(A_L\) = local candidate/event-level attention decision.
 
 This is a **typed architectural decomposition**, not a claim that biological or artificial cognition universally contains exactly three attention levels.
 
@@ -2019,7 +2019,6 @@ AUTHORIZATION TO COMMIT
 
 ```text
 ```
-
 ---
 
 [[00_ROOT_MOC]]|[[AMOS MOC]]

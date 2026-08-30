@@ -1,3 +1,16 @@
+---
+title: AMOS_ANALOGY_ABSTRACTION_KERNEL
+type: note
+source: 11_KNOWLEDGE
+tags:
+- vault
+- 11_knowledge
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+---
 # AMOS ANALOGY ABSTRACTION KERNEL V0 META COGNITION4 2
 
 ## Full Canonical Expansion — Source-Grounded · RSCF-Aware · Causal-Firewalled · Obsidian-Ready
@@ -260,11 +273,11 @@ This is not necessarily contradictory. One may be vault taxonomy and the other f
 
 But the biology tag does **not** establish that the kernel:
 
-* models a biological neural mechanism,
-* implements human cognition,
-* reproduces biological abstraction,
-* has neuroscientific validation,
-* maps to specific brain structures.
+- models a biological neural mechanism,
+- implements human cognition,
+- reproduces biological abstraction,
+- has neuroscientific validation,
+- maps to specific brain structures.
 
 Therefore:
 
@@ -486,12 +499,12 @@ This is a source-defined configuration claim.
 
 It does not by itself tell us:
 
-* required by which runtime,
-* required for every AMOS operation,
-* required only in the Omni Kernel,
-* required only in meta-cognition,
-* required for startup,
-* required for particular routes.
+- required by which runtime,
+- required for every AMOS operation,
+- required only in the Omni Kernel,
+- required only in meta-cognition,
+- required for startup,
+- required for particular routes.
 
 Therefore:
 
@@ -713,10 +726,10 @@ That would be reverse-engineering from numerical coincidence.
 
 Do not infer `Rule_of_4` from:
 
-* four rules,
-* four binding rules,
-* four evaluation outputs of some kind,
-* any other repeated four-part structure.
+- four rules,
+- four binding rules,
+- four evaluation outputs of some kind,
+- any other repeated four-part structure.
 
 Exact definition remains a dependency gap.
 
@@ -1618,9 +1631,9 @@ $$
 
 where:
 
-* \(E\) = entities,
-* \(P\) = properties,
-* \(R\) = relations.
+- \(E\) = entities,
+- \(P\) = properties,
+- \(R\) = relations.
 
 This notation is DERIVED.
 
@@ -1910,16 +1923,16 @@ $$
 
 where:
 
-* \(T_c\) target concept,
-* \(T_d\) target domain,
-* \(P\) purpose,
-* \(S_{available}\) available source domains,
-* \(S_a\) selected analogy source,
-* \(M\) mapping,
-* \(I\) generated inferences,
-* \(D\) critical differences,
-* \(B\) scope boundaries,
-* \(W\) warnings.
+- \(T_c\) target concept,
+- \(T_d\) target domain,
+- \(P\) purpose,
+- \(S_{available}\) available source domains,
+- \(S_a\) selected analogy source,
+- \(M\) mapping,
+- \(I\) generated inferences,
+- \(D\) critical differences,
+- \(B\) scope boundaries,
+- \(W\) warnings.
 
 ---
 
@@ -2074,13 +2087,13 @@ $$
 
 where:
 
-* \(I\) instances,
-* \(P\) common properties,
-* \(R\) common relations,
-* \(\Sigma\) abstract schema,
-* \(C\) applicability constraints,
-* \(E\) examples,
-* \(N\) non-examples.
+- \(I\) instances,
+- \(P\) common properties,
+- \(R\) common relations,
+- \(\Sigma\) abstract schema,
+- \(C\) applicability constraints,
+- \(E\) examples,
+- \(N\) non-examples.
 
 **DERIVED notation.**
 
@@ -2194,15 +2207,15 @@ $$
 
 where:
 
-* \(M\) analogy mapping,
-* \(P\) purpose,
-* \(D\) known differences,
-* \(I\) inferences drawn,
-* \(Q\) quality assessment,
-* \(V\) validity score,
-* \(U\) productive-for-purpose,
-* \(W\) warnings,
-* \(S\) recommended scope.
+- \(M\) analogy mapping,
+- \(P\) purpose,
+- \(D\) known differences,
+- \(I\) inferences drawn,
+- \(Q\) quality assessment,
+- \(V\) validity score,
+- \(U\) productive-for-purpose,
+- \(W\) warnings,
+- \(S\) recommended scope.
 
 ---
 

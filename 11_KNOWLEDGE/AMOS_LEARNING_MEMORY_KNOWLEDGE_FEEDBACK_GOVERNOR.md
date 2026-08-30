@@ -1,4 +1,5 @@
 ---
+title: AMOS_LEARNING_MEMORY_KNOWLEDGE_FEEDBACK_GOVERNOR
 tags:
 - knowledge
 - learning
@@ -7,6 +8,13 @@ tags:
 - governor
 - amos-cross-domain-tensor-composition-governor
 - amos-emotion-cognition-decision-bridge-governor
+type: note
+source: 11_KNOWLEDGE
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
 
 # AMOS LEARNING MEMORY KNOWLEDGE FEEDBACK GOVERNOR
@@ -231,13 +239,13 @@ The existence and intended semantics of the four named transitions are source-de
 
 # 3. Identity — SOURCE
 
-* **Origin architect and steward:** Trang Phan
-* **Parent skill:** `amos-knowledge-research-master`
-* **Domain:** cross-domain (`C05 Mind and Behavior → Memory Systems → Knowledge Research`)
-* **Epistemic class:** `SOURCE_CLAIM`
-* **Claim ceiling:** `0.90`
-* **Status:** `PRODUCTION_READY`
-* **Source status qualification:** “all 10 QA gates pass”
+- **Origin architect and steward:** Trang Phan
+- **Parent skill:** `amos-knowledge-research-master`
+- **Domain:** cross-domain (`C05 Mind and Behavior → Memory Systems → Knowledge Research`)
+- **Epistemic class:** `SOURCE_CLAIM`
+- **Claim ceiling:** `0.90`
+- **Status:** `PRODUCTION_READY`
+- **Source status qualification:** “all 10 QA gates pass”
 
 The final two items are source declarations, not an independent execution audit.
 
@@ -326,13 +334,13 @@ The feedback loop is therefore not intended to be unconstrained recursive reinfo
 
 Its source-defined validation gates require:
 
-* contradiction control;
-* epistemic-class preservation;
-* provenance preservation;
-* scope/regime discipline;
-* failure handling;
-* freshness;
-* consent/risk control.
+- contradiction control;
+- epistemic-class preservation;
+- provenance preservation;
+- scope/regime discipline;
+- failure handling;
+- freshness;
+- consent/risk control.
 
 ---
 
@@ -525,14 +533,14 @@ is not fully defined.
 
 The artifact does not specify whether corroborating entries must be:
 
-* independently sourced;
-* merely mutually consistent;
-* independently observed;
-* temporally separated;
-* from different provenance roots;
-* different modalities;
-* different domains;
-* or some combination.
+- independently sourced;
+- merely mutually consistent;
+- independently observed;
+- temporally separated;
+- from different provenance roots;
+- different modalities;
+- different domains;
+- or some combination.
 
 ---
 
@@ -862,10 +870,10 @@ The exact operational scope of this ceiling is not stated.
 
 Competing interpretations remain:
 
-* **H1:** all outputs of the governor are capped at `0.90`;
-* **H2:** claims made by this artifact are capped at `0.90`;
-* **H3:** only derived LMK claims are capped;
-* **H4:** the field is metadata rather than an executable rule.
+- **H1:** all outputs of the governor are capped at `0.90`;
+- **H2:** claims made by this artifact are capped at `0.90`;
+- **H3:** only derived LMK claims are capped;
+- **H4:** the field is metadata rather than an executable rule.
 
 Status:
 
@@ -910,16 +918,16 @@ Input/output schema is not supplied.
 
 Unknown details include:
 
-* inference object schema;
-* memory entry schema;
-* memory store selection;
-* encoding timestamp;
-* retention policy;
-* deduplication;
-* evidence attachment;
-* source hash;
-* confidence serialization;
-* class serialization.
+- inference object schema;
+- memory entry schema;
+- memory store selection;
+- encoding timestamp;
+- retention policy;
+- deduplication;
+- evidence attachment;
+- source hash;
+- confidence serialization;
+- class serialization.
 
 ---
 
@@ -964,18 +972,18 @@ Purpose:
 
 The source requires:
 
-* source class tagging;
-* freshness validation before application.
+- source class tagging;
+- freshness validation before application.
 
 It does not define:
 
-* retrieval ranking;
-* similarity function;
-* query language;
-* context budget;
-* retrieval depth;
-* relevance threshold;
-* provenance weighting.
+- retrieval ranking;
+- similarity function;
+- query language;
+- context budget;
+- retrieval depth;
+- relevance threshold;
+- provenance weighting.
 
 ---
 
@@ -1068,12 +1076,12 @@ loop may continue only under explicit constraints
 
 such as:
 
-* reduced confidence;
-* restricted scope;
-* revalidation;
-* provenance repair;
-* freshness refresh;
-* human/authority escalation.
+- reduced confidence;
+- restricted scope;
+- revalidation;
+- provenance repair;
+- freshness refresh;
+- human/authority escalation.
 
 The source does not enumerate these exact conditions.
 
@@ -1885,13 +1893,13 @@ does not itself prove a sequential runtime pipeline.
 
 Some gates may be:
 
-* parallel;
-* repeated;
-* transition-specific;
-* global;
-* local;
-* preconditions;
-* postconditions.
+- parallel;
+- repeated;
+- transition-specific;
+- global;
+- local;
+- preconditions;
+- postconditions.
 
 Exact orchestration remains an implementation gap.
 
@@ -2720,12 +2728,12 @@ The exact composition contract is not supplied.
 
 Do not infer:
 
-* execution order;
-* data schema;
-* tensor structure;
-* shared runtime;
-* atomicity;
-* dependency direction.
+- execution order;
+- data schema;
+- tensor structure;
+- shared runtime;
+- atomicity;
+- dependency direction.
 
 ---
 
@@ -4508,26 +4516,26 @@ This makes the governor, at the source-model level, not simply a memory bridge b
 
 **Related — SOURCE**
 
-* [[00_HOME]]
-* [[KNOWLEDGE_MOC]]
-* [[AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR]]
-* [[AMOS_EMOTION_COGNITION_DECISION_BRIDGE_GOVERNOR]]
+- [[00_HOME]]
+- [[KNOWLEDGE_MOC]]
+- [[AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR]]
+- [[AMOS_EMOTION_COGNITION_DECISION_BRIDGE_GOVERNOR]]
 
 **Declared provenance neighborhood**
 
-* `11_KNOWLEDGE/AMOS_C05_MIND_BEHAVIOR_MASTER_KNOWLEDGE.md`
-* `10_MEMORY/MEMORY_README.md`
-* `11_KNOWLEDGE/11_KNOWLEDGE_MOC.md`
-* `11_KNOWLEDGE/AMOS_Full_Brain_OS_Architecture.md`
-* `11_KNOWLEDGE/TENSOR_CONTRACTS.md`
-* `_00_Cosmo brain exploration gap #6`
+- `11_KNOWLEDGE/AMOS_C05_MIND_BEHAVIOR_MASTER_KNOWLEDGE.md`
+- `10_MEMORY/MEMORY_README.md`
+- `11_KNOWLEDGE/11_KNOWLEDGE_MOC.md`
+- `11_KNOWLEDGE/AMOS_Full_Brain_OS_Architecture.md`
+- `11_KNOWLEDGE/TENSOR_CONTRACTS.md`
+- `_00_Cosmo brain exploration gap #6`
 
 **Declared implementation artifacts**
 
-* `.devin/skills/amos-learning-memory-knowledge-feedback-governor/SKILL.md`
-* `.devin/agents/amos-learning-memory-knowledge-feedback-governor-agent.json`
-* `.devin/workflows/amos-learning-memory-knowledge-feedback-governor-workflow.md`
-* `.devin/skills/amos-learning-memory-knowledge-feedback-governor/references/vault_domain_knowledge.md`
+- `.devin/skills/amos-learning-memory-knowledge-feedback-governor/SKILL.md`
+- `.devin/agents/amos-learning-memory-knowledge-feedback-governor-agent.json`
+- `.devin/workflows/amos-learning-memory-knowledge-feedback-governor-workflow.md`
+- `.devin/skills/amos-learning-memory-knowledge-feedback-governor/references/vault_domain_knowledge.md`
 
 ---
 

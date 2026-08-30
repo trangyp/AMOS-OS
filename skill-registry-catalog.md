@@ -1,3 +1,17 @@
+---
+title: skill-registry-catalog
+type: note
+source: .
+tags:
+- registry
+- skill-catalog
+- skill
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+---
 # AMOS Skill Registry Catalog
 
 Generated: 2026-08-28T16:37:10.995191+00:00

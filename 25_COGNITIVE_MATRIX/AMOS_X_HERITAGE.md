@@ -1004,9 +1004,9 @@ AMOS therefore requires:
 
 ```text
 cross-asset relationship
-    + regime validity
-    + temporal alignment
-    + provenance independence
+    - regime validity
+    - temporal alignment
+    - provenance independence
 ```
 
 before treating it as confirmation.
@@ -2877,3 +2877,5 @@ The next level beyond this would be a true **MAX-detail ingestion** of the hundr
 
 ---
 **MOC:**
+
+```

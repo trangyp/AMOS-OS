@@ -2773,7 +2773,6 @@ AUTHORIZATION TO PROMOTE
 
 ```text
 ```
-
 ---
 
 [[00_ROOT_MOC]]|[[AMOS MOC]]

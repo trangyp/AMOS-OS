@@ -46,6 +46,11 @@ tags:
 - deprecated-terms
 aliases:
 - AMOS Source Registry - AMOS OS Source Registry - Canon Source Registry
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # AMOS OS Source Registry

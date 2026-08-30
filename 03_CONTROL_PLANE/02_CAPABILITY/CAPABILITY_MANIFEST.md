@@ -34,15 +34,15 @@ This document provides a complete structural specification.
 
 It does **not** assert that:
 
-* every capability listed or addressable in AMOS is implemented;
-* every provider exists at runtime;
-* every declared interface has been tested;
-* every capability has been canonically approved;
-* every capability is currently available;
-* every capability is authorized for invocation;
-* every capability is authorized to create effects;
-* every capability has passed empirical validation;
-* every proposed capability entry may be promoted into active runtime state.
+- every capability listed or addressable in AMOS is implemented;
+- every provider exists at runtime;
+- every declared interface has been tested;
+- every capability has been canonically approved;
+- every capability is currently available;
+- every capability is authorized for invocation;
+- every capability is authorized to create effects;
+- every capability has passed empirical validation;
+- every proposed capability entry may be promoted into active runtime state.
 
 The governing distinctions are:
 

@@ -55,7 +55,6 @@ domain: c10
 Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 
 
-
 ## Preconditions
 
 - The `amos-c10-tech-engineering-master` skill exists and is loaded.

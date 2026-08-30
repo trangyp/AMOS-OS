@@ -1250,15 +1250,12 @@ V(p) = Σ volume at price p
 ```text
 POC = argmax V(p)
 ```
-
 ```text
 Delta = V_buy - V_sell
 ```
-
 ```text
 IMB = (V_bid - V_ask) / (V_bid + V_ask)
 ```
-
 ---
 
 ## M4 — Expectation Decay Engine
@@ -3118,17 +3115,14 @@ market question
 uncertainty question
 → M2 + M5 + M6 + M13
 ```
-
 ```text
 purpose question
 → A5 + A6 + Heritage ∅
 ```
-
 ```text
 failure question
 → permanent gaps + self-refutation + error attribution
 ```
-
 ---
 
 ## L — Detailed Mechanics

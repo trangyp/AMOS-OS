@@ -1,8 +1,19 @@
 ---
 name: sota
+title: sota
 description: Reference document for amos-mdformat-obsidian
 type: reference
 parent_skill: amos-mdformat-obsidian
+source: 07_SKILLS/amos-mdformat-obsidian/references
+tags:
+- reference
+- sota
+- mdformat-obsidian
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 ## SOTA Regression Prevention (2026)

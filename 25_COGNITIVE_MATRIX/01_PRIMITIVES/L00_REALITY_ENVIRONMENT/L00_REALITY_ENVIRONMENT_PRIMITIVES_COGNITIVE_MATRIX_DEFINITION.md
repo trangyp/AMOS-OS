@@ -487,12 +487,12 @@ U
 
 where:
 
-* \(O\) = observational support,
-* \(P\) = provenance integrity,
-* \(F\) = freshness,
-* \(S\) = scope compatibility,
-* \(G\) = regime compatibility,
-* \(U\) = uncertainty.
+- \(O\) = observational support,
+- \(P\) = provenance integrity,
+- \(F\) = freshness,
+- \(S\) = scope compatibility,
+- \(G\) = regime compatibility,
+- \(U\) = uncertainty.
 
 `RC` is an AMOS architectural construct, not a universal empirical metric unless a domain supplies a validated operationalization.
 
@@ -513,8 +513,8 @@ O_t
 
 where:
 
-* \(R_t\) = environmental state,
-* \(O_t\) = observation produced from that state.
+- \(R_t\) = environmental state,
+- \(O_t\) = observation produced from that state.
 
 In general:
 
@@ -608,8 +608,8 @@ R_{t+1}
 
 where:
 
-* \(A_t\) = AMOS or agent action,
-* (\Xi_t) = external influences not controlled by AMOS.
+- \(A_t\) = AMOS or agent action,
+- (\Xi_t) = external influences not controlled by AMOS.
 
 Therefore:
 
@@ -922,12 +922,12 @@ O_j(R)
 
 may occur because of:
 
-* different access,
-* different resolution,
-* different timing,
-* different measurement methods,
-* different filters,
-* different transformations.
+- different access,
+- different resolution,
+- different timing,
+- different measurement methods,
+- different filters,
+- different transformations.
 
 Disagreement must not automatically be interpreted as corruption.
 
@@ -1399,14 +1399,14 @@ P_t
 
 where:
 
-* \(E_t\) = environment state,
-* \(O_t\) = observation state,
-* \(X_t\) = internal representation,
-* \(C_t\) = active constraints,
-* \(G_t\) = regime,
-* \(B_t\) = boundary state,
-* \(A_t\) = action/effect state,
-* \(P_t\) = provenance state.
+- \(E_t\) = environment state,
+- \(O_t\) = observation state,
+- \(X_t\) = internal representation,
+- \(C_t\) = active constraints,
+- \(G_t\) = regime,
+- \(B_t\) = boundary state,
+- \(A_t\) = action/effect state,
+- \(P_t\) = provenance state.
 
 ---
 
@@ -2230,9 +2230,9 @@ G
 
 where:
 
-* \(P\) = provenance,
-* \(U\) = uncertainty,
-* \(G\) = regime.
+- \(P\) = provenance,
+- \(U\) = uncertainty,
+- \(G\) = regime.
 
 New observation should update only dependent internal state.
 
@@ -2919,12 +2919,12 @@ O_{t+1}
 
 where:
 
-* \(R_t\) = external/environment state,
-* \(O_t\) = observation,
-* \(X_t\) = internal representation,
-* \(E_t\) = admitted evidence,
-* \(P_t\) = proposal,
-* \(A_t\) = governed action.
+- \(R_t\) = external/environment state,
+- \(O_t\) = observation,
+- \(X_t\) = internal representation,
+- \(E_t\) = admitted evidence,
+- \(P_t\) = proposal,
+- \(A_t\) = governed action.
 
 The architecture must preserve the type of every state transition.
 

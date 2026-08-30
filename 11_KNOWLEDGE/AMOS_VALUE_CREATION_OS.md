@@ -708,7 +708,6 @@ DirectMargin_A
 - SupportCost
 - SharedOpsAllocation
 ```
-
 ## 8.5 Founder bottleneck metric
 
 ```text
@@ -773,7 +772,6 @@ LicenseRevenue
 - Compliance
 - CustomerSuccess
 ```
-
 ## 9.4 Licensing health
 
 ```text
@@ -845,14 +843,12 @@ LTV = ARPA × GrossMargin × ExpectedLifetime
 ```text
 CACPayback = CAC / MonthlyGrossProfit
 ```
-
 ```text
 NRR =
 (StartingARR + Expansion - Contraction - Churn)
 /
 StartingARR
 ```
-
 ---
 
 # 11. TSS/TPE VALIDATION [[ARCHITECTURE]]
@@ -1188,7 +1184,6 @@ Revenue_t
 - Hosting_t
 - Support_t
 ```
-
 ```text
 OperatingProfit_t =
 GrossProfit_t
@@ -1197,7 +1192,6 @@ GrossProfit_t
 - G&A_t
 - LegalSecurity_t
 ```
-
 ## Required sensitivities
 
 - close rate;

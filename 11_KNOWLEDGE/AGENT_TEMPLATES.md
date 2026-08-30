@@ -577,12 +577,12 @@ Problem
 
 Primary capabilities:
 
-* structured decomposition;
-* comparison;
-* dependency analysis;
-* trade-off analysis;
-* sensitivity analysis;
-* competing-hypothesis analysis.
+- structured decomposition;
+- comparison;
+- dependency analysis;
+- trade-off analysis;
+- sensitivity analysis;
+- competing-hypothesis analysis.
 
 The analyst does not automatically execute its recommendations.
 
@@ -818,11 +818,11 @@ ValidatedDecision
 
 Typical outputs:
 
-* plans;
-* checklists;
-* commands;
-* procedures;
-* implementation sequences.
+- plans;
+- checklists;
+- commands;
+- procedures;
+- implementation sequences.
 
 Execution support does not imply unrestricted execution authority.
 
@@ -1168,26 +1168,26 @@ MAJOR.MINOR.PATCH
 
 Increment when:
 
-* required contract changes;
-* lifecycle semantics change;
-* authority semantics change;
-* incompatible fields are introduced or removed.
+- required contract changes;
+- lifecycle semantics change;
+- authority semantics change;
+- incompatible fields are introduced or removed.
 
 ## MINOR
 
 Increment when:
 
-* backward-compatible capability is added;
-* optional governance fields are added;
-* new template families are introduced.
+- backward-compatible capability is added;
+- optional governance fields are added;
+- new template families are introduced.
 
 ## PATCH
 
 Increment when:
 
-* documentation is corrected;
-* metadata is repaired;
-* non-semantic clarifications are made.
+- documentation is corrected;
+- metadata is repaired;
+- non-semantic clarifications are made.
 
 ---
 
@@ -1818,33 +1818,33 @@ Major governed architecture revision.
 
 Added:
 
-* explicit artifact identity;
-* document/schema/protocol version separation;
-* AMOS_CORE target;
-* canonical agent tensor;
-* fourteen functional template families plus base template;
-* H/M/L decomposition;
-* capability/authority separation;
-* RSCF output contract;
-* provenance contract;
-* memory contract;
-* tool contract;
-* dependency graph;
-* lifecycle state machine;
-* promotion gates;
-* template inheritance;
-* constraint propagation;
-* assembly validation;
-* runtime preflight;
-* commit-time revalidation;
-* failure recovery;
-* selective invalidation;
-* audit structure;
-* template registry;
-* composition rules;
-* cognition/control separation;
-* anti-pattern registry;
-* semantic versioning rules.
+- explicit artifact identity;
+- document/schema/protocol version separation;
+- AMOS_CORE target;
+- canonical agent tensor;
+- fourteen functional template families plus base template;
+- H/M/L decomposition;
+- capability/authority separation;
+- RSCF output contract;
+- provenance contract;
+- memory contract;
+- tool contract;
+- dependency graph;
+- lifecycle state machine;
+- promotion gates;
+- template inheritance;
+- constraint propagation;
+- assembly validation;
+- runtime preflight;
+- commit-time revalidation;
+- failure recovery;
+- selective invalidation;
+- audit structure;
+- template registry;
+- composition rules;
+- cognition/control separation;
+- anti-pattern registry;
+- semantic versioning rules.
 
 ## v1.x — Historical
 

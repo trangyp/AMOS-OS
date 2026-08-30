@@ -1,8 +1,3 @@
-You're right. It should be an **AMOS-native Obsidian artifact**, not a generic essay.
-
-Below is the same content recast into the AMOS structure you have been using: canonical frontmatter, epistemic boundaries, RSCF state, framework bindings, explicit claim classes, typed invariants, cross-domain mappings, RSCF contract, relations, and MOC linkage. The conceptual content is grounded in your supplied text.
-
-````markdown
 ---
 title: Constraint-Centered Intelligence Architecture
 type: framework
@@ -118,6 +113,10 @@ epistemic_boundary:
   empirical_predictive_advantage: NOT_ESTABLISHED
   amos_efficiency_claim: NOT_INDEPENDENTLY_ESTABLISHED
 ---
+You're right. It should be an **AMOS-native Obsidian artifact**, not a generic essay.
+
+Below is the same content recast into the AMOS structure you have been using: canonical frontmatter, epistemic boundaries, RSCF state, framework bindings, explicit claim classes, typed invariants, cross-domain mappings, RSCF contract, relations, and MOC linkage. The conceptual content is grounded in your supplied text.
+
 
 # Constraint-Centered Intelligence Architecture
 
@@ -462,7 +461,7 @@ Therefore:
 
 ```text
 RESIDUAL UNCERTAINTY != PROOF OF HIDDEN VARIABLES
-````
+```
 
 and:
 
@@ -633,8 +632,8 @@ $$
 
 where:
 
-* $\mathbf n_g$ represents populations of gap precursor structures
-* $M_q$ represents transformation induced by the next prime constraint
+- $\mathbf n_g$ represents populations of gap precursor structures
+- $M_q$ represents transformation induced by the next prime constraint
 
 This allows wheel evolution to be studied spectrally.
 
@@ -961,13 +960,13 @@ rather than only individual variables.
 
 Possible relation states include:
 
-* differences
-* ratios
-* phase offsets
-* synchronization
-* divergence
-* structural alignment
-* lag relationships
+- differences
+- ratios
+- phase offsets
+- synchronization
+- divergence
+- structural alignment
+- lag relationships
 
 ---
 
@@ -1127,16 +1126,16 @@ AMOS differs conceptually by explicitly representing more constraint dimensions.
 
 Examples include:
 
-* epistemic class
-* provenance
-* scope
-* regime
-* freshness
-* dependencies
-* competing hypotheses
-* causal level
-* governance
-* authority
+- epistemic class
+- provenance
+- scope
+- regime
+- freshness
+- dependencies
+- competing hypotheses
+- causal level
+- governance
+- authority
 
 ---
 
@@ -1152,11 +1151,11 @@ RELATIVELY FIXED ONTOLOGY
 
 The system already knows:
 
-* what a stone is
-* what a move is
-* what the board is
-* what legality means
-* what the objective is
+- what a stone is
+- what a move is
+- what the board is
+- what legality means
+- what the objective is
 
 Open-domain language reasoning instead has:
 
@@ -1329,14 +1328,14 @@ $$
 
 High vector similarity does not establish:
 
-* logical identity
-* causal identity
-* unit compatibility
-* temporal compatibility
-* identical referent
-* identical scope
-* identical regime
-* identical provenance
+- logical identity
+- causal identity
+- unit compatibility
+- temporal compatibility
+- identical referent
+- identical scope
+- identical regime
+- identical provenance
 
 Therefore:
 
@@ -1453,14 +1452,14 @@ unless critical structure is preserved.
 
 The source connects:
 
-* mathematics
-* prime numbers
-* prediction
-* Monte Carlo
-* AlphaGo
-* language
-* information theory
-* AMOS
+- mathematics
+- prime numbers
+- prediction
+- Monte Carlo
+- AlphaGo
+- language
+- information theory
+- AMOS
 
 through the shared structural pattern:
 
@@ -1736,15 +1735,15 @@ under equal-probability assumptions.
 
 Concepts overlapping with established fields include:
 
-* formal systems
-* information theory
-* entropy
-* sieve theory
-* primorial wheels
-* Fourier analysis
-* Monte Carlo
-* Monte Carlo Tree Search
-* Hardy–Littlewood-type modular factors
+- formal systems
+- information theory
+- entropy
+- sieve theory
+- primorial wheels
+- Fourier analysis
+- Monte Carlo
+- Monte Carlo Tree Search
+- Hardy–Littlewood-type modular factors
 
 No historical priority claim is made.
 
@@ -1752,22 +1751,22 @@ No historical priority claim is made.
 
 Cross-domain syntheses include:
 
-* intelligence as possibility management through valid constraints
-* constraint density as an efficiency lens
-* semantic definition as search-space reduction
-* AMOS as an explicit typed-constraint architecture
-* moiré-style relative structure as a candidate predictive feature model
+- intelligence as possibility management through valid constraints
+- constraint density as an efficiency lens
+- semantic definition as search-space reduction
+- AMOS as an explicit typed-constraint architecture
+- moiré-style relative structure as a candidate predictive feature model
 
 ## UNKNOWN / GAP
 
 Not independently established:
 
-* universal superiority of constraint-first reasoning
-* universal AMOS efficiency advantage
-* market predictive power of moiré-derived features
-* causal identity between compared domains
-* complete ontological interpretation of reality
-* universal reduction of randomness to unknown constraints
+- universal superiority of constraint-first reasoning
+- universal AMOS efficiency advantage
+- market predictive power of moiré-derived features
+- causal identity between compared domains
+- complete ontological interpretation of reality
+- universal reduction of randomness to unknown constraints
 
 ---
 

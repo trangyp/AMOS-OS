@@ -7,6 +7,13 @@ tags:
 - engine
 - domains
 - amos-vn-legal-engine-v0-domains2
+type: note
+source: 11_KNOWLEDGE/stubs
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # amos vn legal engine v0 domains2

@@ -6,6 +6,11 @@ tags:
 - ust
 - structure_tree
 - universe_canon
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: universe_canon
 ---
 
 # UST Structure Tree

@@ -8,6 +8,13 @@ tags:
 - kernel
 - biology
 - cognition
+type: note
+source: 11_KNOWLEDGE/stubs
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # amos clinical research kernel v0 biology cognition7 3

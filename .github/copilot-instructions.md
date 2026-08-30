@@ -1,3 +1,11 @@
+---
+title: copilot-instructions
+type: note
+source: .github
+tags:
+- vault
+- .github
+---
 # AMOS Global Contract for AI Coding Agents
 
 ## 1. Brain source of truth

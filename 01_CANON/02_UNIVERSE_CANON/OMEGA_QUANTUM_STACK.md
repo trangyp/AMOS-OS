@@ -2103,31 +2103,31 @@ SOURCE_REPORTED_NOT_INDEPENDENTLY_REVALIDATED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY:
+- INDEXED_BY:
 
-* INDEXED_BY:
+- INDEXED_BY:
 
-* INDEXED_BY:
+- INDEXED_BY:
 
-* GOVERNED_BY:
+- GOVERNED_BY:
 
-* GOVERNED_BY:
+- GOVERNED_BY:
 
-* GOVERNED_BY:
+- GOVERNED_BY:
 
-* RELATED_TO:
+- RELATED_TO:
 
-* RELATED_FRAMEWORK:
+- RELATED_FRAMEWORK:
 
-* RELATED_EQUATIONS:
+- RELATED_EQUATIONS:
 
-* TARGET_BINDING:
+- TARGET_BINDING:
 
-* TARGET_BINDING:
+- TARGET_BINDING:
 
-* OBSERVED_BY:
+- OBSERVED_BY:
 
-* RECOVERED_VIA:
+- RECOVERED_VIA:
 
 ---
 
@@ -2148,4 +2148,5 @@ RSCF-RELATIONS:
 
 This converts the artifact from an empty placeholder into the **operational companion** to `OMEGA_QUANTUM_STACK_CANON.md`, while keeping the promotion ceiling at `SOURCE_GROUNDED_CANON_CANDIDATE`. The implementation remains `SOURCE_REPORTED_PARTIAL`; an artifact/version-bound executed receipt is still the decisive missing evidence for `RUNTIME_VERIFIED`.
 
+```
 ```

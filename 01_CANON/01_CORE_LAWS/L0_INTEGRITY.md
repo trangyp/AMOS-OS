@@ -386,13 +386,11 @@ ALIAS
 !=
 NEW IDENTITY
 ```
-
 ```text
 SUMMARY
 !=
 SOURCE OBJECT
 ```
-
 Identity collisions or alias ambiguity must remain visible.
 
 ---

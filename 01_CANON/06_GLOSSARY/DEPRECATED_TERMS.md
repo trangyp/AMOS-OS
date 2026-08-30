@@ -43,6 +43,11 @@ tags:
 aliases:
 - AMOS Deprecated Terms - Deprecated Terminology Registry - AMOS Terminology Migration
   Registry
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # AMOS OS Deprecated Terms

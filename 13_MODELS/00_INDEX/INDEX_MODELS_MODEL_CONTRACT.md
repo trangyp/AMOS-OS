@@ -234,8 +234,8 @@ IS THE MODEL AUTHORIZED FOR EXECUTION?
 
 The supplied contract directly identifies:
 
-* [[INDEX_MODELS_README]]
-* [[MODEL_MAP]]
+- [[INDEX_MODELS_README]]
+- [[MODEL_MAP]]
 
 These form the explicit local navigation surface supplied by the source nucleus.
 
@@ -355,8 +355,8 @@ $$
 
 where:
 
-* \(b\) = requested basename,
-* \(d\) = local index directory.
+- \(b\) = requested basename,
+- \(d\) = local index directory.
 
 If no unique match can be established:
 
@@ -376,8 +376,8 @@ Cross-plane navigation does not use unconstrained local guessing.
 
 The source explicitly routes cross-plane resolution through:
 
-* [[00_HOME]]
-* [[AMOS_RSCF_NODES]]
+- [[00_HOME]]
+- [[AMOS_RSCF_NODES]]
 
 Conceptually:
 
@@ -513,13 +513,13 @@ The presence of a model in the index proves only the indexing relationship that 
 
 It does not prove the model's:
 
-* truth,
-* accuracy,
-* causal validity,
-* empirical validation,
-* applicability,
-* freshness,
-* implementation status.
+- truth,
+- accuracy,
+- causal validity,
+- empirical validation,
+- applicability,
+- freshness,
+- implementation status.
 
 ---
 
@@ -3912,12 +3912,10 @@ scope = index_navigation
 INDEX:
 
 
-
 INDEXING RULE:
 resolve by basename within own directory
 
 CROSS-PLANE RESOLUTION:
-
 
 
 AUTOMATED LINK-INTEGRITY:
@@ -4145,15 +4143,16 @@ claim_class: AMOS_MODEL
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
-* INDEXED_BY: [[00_INDEX_MOC]]
-* REFERENCES: [[INDEX_MODELS_README]]
-* REFERENCES: [[MODEL_MAP]]
-* GOVERNED_BY: [[LAW_HIERARCHY]]
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_INDEX_MOC]]
+- REFERENCES: [[INDEX_MODELS_README]]
+- REFERENCES: [[MODEL_MAP]]
+- GOVERNED_BY: [[LAW_HIERARCHY]]
 
 ---
 
 **MOC:** [[00_INDEX_MOC]]
 
+````
 ````

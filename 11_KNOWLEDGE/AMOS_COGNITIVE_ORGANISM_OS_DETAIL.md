@@ -266,7 +266,6 @@ WORLD_MODEL != MEMORY_STORE
 IDENTITY_KERNEL != POLICY_STATE
 ORGAN_REGISTRY != EVENT_BUS
 ```
-
 ---
 
 # 6. Identity Kernel
@@ -368,7 +367,6 @@ LIFECYCLE
 ```text
 event delivery != state mutation
 ```
-
 ---
 
 # 9. System State
@@ -424,7 +422,6 @@ WorldModel = {
 WORLD_MODEL != WORLD
 BELIEF != FACT
 ```
-
 ---
 
 # 11. Epistemic State
@@ -460,7 +457,6 @@ UNKNOWN/GAP
 ```text
 Conf(C) <= min Conf(load-bearing premises)
 ```
-
 ---
 
 # 12. Perception Organ
@@ -520,7 +516,6 @@ f(
 ```text
 SALIENCE != EVIDENCE
 ```
-
 ---
 
 # 15. Attention Budget
@@ -711,7 +706,6 @@ Case = {
 ```text
 ANALOGY != CAUSAL_PROOF
 ```
-
 ---
 
 # 25. Memory Admission
@@ -827,7 +821,6 @@ self-protect / other-protect
 ```text
 INSTINCT_SIGNAL != TRUTH
 ```
-
 ---
 
 # 31. Somatic Lens
@@ -937,7 +930,6 @@ Plan = {
 ```text
 PLAN != COMMITMENT
 ```
-
 ---
 
 # 38. Simulative Planning
@@ -1557,7 +1549,6 @@ L → local event/function
 ```text
 L_PASS != H_HEALTH
 ```
-
 ---
 
 # 84. Cognitive Organism Tensor

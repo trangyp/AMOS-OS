@@ -3491,19 +3491,16 @@ PartialCoverage(M,R)
 ↛
 FullCoverage(M,R)
 ```
-
 ```text
 Coverage(M,R,S1)
 ↛
 Coverage(M,R,S2)
 ```
-
 ```text
 Coverage(M@v1,R)
 ↛
 Coverage(M@v2,R)
 ```
-
 ```text
 Coverage(A,R1)
 ∧
@@ -3511,13 +3508,11 @@ Coverage(B,R2)
 ↛
 Coverage(A⊕B,R1+R2)
 ```
-
 ```text
 TwoCoveragePaths
 ↛
 IndependentRedundancy
 ```
-
 ---
 
 # 175. SCOPE METAMORPHIC TEST

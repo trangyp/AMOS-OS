@@ -104,16 +104,16 @@ The purpose of `POLICY_DECISION.md` is to establish one explicit governed object
 
 The policy decision object exists so that downstream systems do not infer permission from:
 
-* capability existence;
-* provider availability;
-* agent preference;
-* Skill selection;
-* successful tool invocation;
-* previous authorization;
-* stale cached decisions;
-* undocumented conventions;
-* model confidence;
-* or absence of an explicit prohibition.
+- capability existence;
+- provider availability;
+- agent preference;
+- Skill selection;
+- successful tool invocation;
+- previous authorization;
+- stale cached decisions;
+- undocumented conventions;
+- model confidence;
+- or absence of an explicit prohibition.
 
 Policy evaluation MUST produce an explicit decision state.
 

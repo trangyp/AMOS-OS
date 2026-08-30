@@ -1,5 +1,6 @@
 ---
 schema_version: 1.0
+title: SKILL
 name: kimi-k3-in-c
 description: Build, test, and run the FareedKhan-dev/kimi-k3-in-c C99 Kimi K3 inference
   engine. Weightless tests need no checkpoint; full generation requires the 1.56 TB
@@ -24,6 +25,8 @@ rscf:
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
+type: skill
+source: 07_SKILLS/kimi-k3-in-c
 ---
 
 # Kimi K3 in C

@@ -2846,18 +2846,18 @@ NON_AUTHORITATIVE
 
 ## Related Generator artifacts
 
-* Generator Contract
-* Generator Provenance
-* Generator Validation
-* Generator Tests
-* Generator Roadmap
-* Generator Integration
-* Generator History
-* Generator Registry
-* Supersession Registry
-* Rollback Manifest
-* Authoritative State
-* Provenance Manifest
+- Generator Contract
+- Generator Provenance
+- Generator Validation
+- Generator Tests
+- Generator Roadmap
+- Generator Integration
+- Generator History
+- Generator Registry
+- Supersession Registry
+- Rollback Manifest
+- Authoritative State
+- Provenance Manifest
 
 ```
 
@@ -2894,3 +2894,5 @@ That keeps the Change Log operational and auditable instead of allowing it to be
 ---
 **MOC:**
 
+
+```

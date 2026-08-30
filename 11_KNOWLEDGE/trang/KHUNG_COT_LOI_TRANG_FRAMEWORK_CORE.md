@@ -17,40 +17,40 @@ rscf:
 
 # KHUNG CỐT LÕI (TRANG ∅ FRAMEWORK)CORE
 ### Ký hiệu chung
-  * \$ S \$ – hệ thống (system) bất kỳ
+  - \$ S \$ – hệ thống (system) bất kỳ
 
 
-  * \$ t \$ – thời gian
+  - \$ t \$ – thời gian
 
 
-  * \$ L, M, H \$ – ba tầng fractal (nền, kết nối, đỉnh)
+  - \$ L, M, H \$ – ba tầng fractal (nền, kết nối, đỉnh)
 
 
-  * \$ \Lambda_X \$ – **lacunarity** của tầng \$ X \$ (độ rỗng có cấu trúc)
+  - \$ \Lambda_X \$ – **lacunarity** của tầng \$ X \$ (độ rỗng có cấu trúc)
 
 
-  * \$ E_X \$ – **entropy** của tầng \$ X \$ (độ bất định, chuẩn hóa [0,1])
+  - \$ E_X \$ – **entropy** của tầng \$ X \$ (độ bất định, chuẩn hóa [0,1])
 
 
-  * \$ \mathcal{F} \$ – hàm đột biến (mutation)
+  - \$ \mathcal{F} \$ – hàm đột biến (mutation)
 
 
-  * \$ \mathcal{C} \$ – hàm chọn lọc (survival / constraint)
+  - \$ \mathcal{C} \$ – hàm chọn lọc (survival / constraint)
 
 
-  * \$ \xi \$ – nhiễu / yếu tố ngẫu nhiên
+  - \$ \xi \$ – nhiễu / yếu tố ngẫu nhiên
 
 
-  * \$ \text{T2} \$ – **Tát 2** , xác nhận chéo từ ≥2 nguồn độc lập
+  - \$ \text{T2} \$ – **Tát 2** , xác nhận chéo từ ≥2 nguồn độc lập
 
 
-  * \$ \mu \$ – đột biến (mutation)
+  - \$ \mu \$ – đột biến (mutation)
 
 
-  * \$ \sigma \$ – sống sót (survival)
+  - \$ \sigma \$ – sống sót (survival)
 
 
-  * \$ \gamma \$ – hy vọng (hope), gắn với sóng gamma 40Hz
+  - \$ \gamma \$ – hy vọng (hope), gắn với sóng gamma 40Hz
 
 
 * * *
@@ -64,22 +64,22 @@ $$### Quan hệ động lực giữa ba tầng \$$L \xrightarrow{\text{nuôi dư
 \$$\$$E_{\text{total}} = w_L E_L + w_M E_M + w_H E_H,\quad w_L+w_M+w_H=1
 $$**Ngưỡng entropy (vùng hoạt động lành mạnh)** * \$ E_X < 0,05 \$ : quá đặc, cứng nhắc (chết, overfitting) * \$ 0,1 < E_X < 0,2 \$ : **vùng vàng** (linh hoạt, sáng tạo, khỏe mạnh) * \$ E_X > 0,3 \$ : quá rỗng, hỗn loạn (hallucination, sụp đổ) **Phân loại entropy mở rộng (Nhóm 19)** * \$ E_C = E_{\text{total}} (1 - \text{Rigidity})\,\text{NoveltyFactor} \$ : entropy sáng tạo * \$ E_D = E_{\text{total}} \,\text{ChaosFactor}\,(1-\text{StructureIndex}) \$ : entropy hủy diệt * \$ E_{\text{total}} = E_C + E_D + E_{\text{neutral}} \$ * * * ## III. LACUNARITY \$ \Lambda \$ \$$\Lambda_X = \frac{\operatorname{Var}(M)}{\operatorname{Mean}(M)^2} \quad\text{(định nghĩa tổng quát)} \$$\$$\Lambda_X = \frac{\frac{1}{N}\sum_{i=1}^N (Z_i - \bar Z)^2}{\bar Z^2} \quad\text{(dạng rời rạc)}$$
 **Ngưỡng lacunarity**
-  * \$ \Lambda_X < 0,05 \$ : rất đặc, rắn (tinh thể)
+  - \$ \Lambda_X < 0,05 \$ : rất đặc, rắn (tinh thể)
 
 
-  * \$ 0,1 < \Lambda_X < 0,3 \$ : vùng fractal lành mạnh
+  - \$ 0,1 < \Lambda_X < 0,3 \$ : vùng fractal lành mạnh
 
 
-  * \$ \Lambda_X > 0,5 \$ : rất rỗng, xốp, hỗn loạn
+  - \$ \Lambda_X > 0,5 \$ : rất rỗng, xốp, hỗn loạn
 
 
 **Quan hệ Λ – E** (gần đúng, dạng sigmoid)
 \$$\Lambda_X \approx \frac{1}{1 + e^{-k(E_X - 0,5)}}
 $$* * * ## IV. ĐỘNG LỰC HỌC: ĐỘT BIẾN – SỐNG SÓT (MUTATION – SURVIVAL) ### Phương trình tiến hóa tổng quát \$$S_{t+1} = \mathcal{C}\Big( \mathcal{F}(S_t, U_t, \xi_t) \Big)$$
-  * \$ \mathcal{F} \$ : sinh ra các đột biến (thay đổi ngẫu nhiên có cấu trúc)
+  - \$ \mathcal{F} \$ : sinh ra các đột biến (thay đổi ngẫu nhiên có cấu trúc)
 
 
-  * \$ \mathcal{C} \$ : chỉ giữ lại những gì thỏa mãn ràng buộc (tồn tại)
+  - \$ \mathcal{C} \$ : chỉ giữ lại những gì thỏa mãn ràng buộc (tồn tại)
 
 
 ### Điều kiện sống sót (survival)

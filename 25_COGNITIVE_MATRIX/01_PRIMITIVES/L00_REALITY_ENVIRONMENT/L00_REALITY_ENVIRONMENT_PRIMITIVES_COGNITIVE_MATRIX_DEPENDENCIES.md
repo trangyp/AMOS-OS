@@ -200,19 +200,19 @@ invalidation
 
 where:
 
-* `source` = upstream object;
-* `target` = dependent object;
-* `type` = semantic meaning of the edge;
-* `direction` = dependency direction;
-* `necessity` = whether the dependency is load-bearing;
-* `strength` = implementation/domain-specific coupling;
-* `scope` = applicability envelope;
-* `regime` = validity regime;
-* `time` = temporal identity;
-* `freshness` = acceptable state age;
-* `authority` = authority dependency where applicable;
-* `provenance` = origin and ancestry;
-* `invalidation` = downstream failure behavior.
+- `source` = upstream object;
+- `target` = dependent object;
+- `type` = semantic meaning of the edge;
+- `direction` = dependency direction;
+- `necessity` = whether the dependency is load-bearing;
+- `strength` = implementation/domain-specific coupling;
+- `scope` = applicability envelope;
+- `regime` = validity regime;
+- `time` = temporal identity;
+- `freshness` = acceptable state age;
+- `authority` = authority dependency where applicable;
+- `provenance` = origin and ancestry;
+- `invalidation` = downstream failure behavior.
 
 ---
 
@@ -361,8 +361,8 @@ G_D=(V,E_D)
 
 where:
 
-* \(V\) = typed AMOS objects;
-* \(E_D\) = typed dependency edges.
+- \(V\) = typed AMOS objects;
+- \(E_D\) = typed dependency edges.
 
 Possible nodes include:
 
@@ -1471,8 +1471,8 @@ W
 
 where:
 
-* \(V_W\) = workflow states or operations;
-* \(E_W\) = prerequisite or transition dependencies.
+- \(V_W\) = workflow states or operations;
+- \(E_W\) = prerequisite or transition dependencies.
 
 Example:
 

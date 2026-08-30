@@ -9,6 +9,13 @@ tags:
 - biology
 - cognition
 - amos-medical-clinical-kernel-v0-biology-cognition7
+type: note
+source: 11_KNOWLEDGE/stubs
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # amos medical clinical kernel v0 biology cognition7

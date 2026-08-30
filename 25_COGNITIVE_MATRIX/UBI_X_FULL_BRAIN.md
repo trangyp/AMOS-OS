@@ -1,4 +1,19 @@
 ---
+title: UBI X FULL BRAIN
+type: note
+source: 25_COGNITIVE_MATRIX
+tags:
+- note
+- 25-cognitive-matrix
+- domain/cognitive-matrix
+- ubi
+- full-brain
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+---
 
 # 1. Artifact identity and canonical envelope
 
@@ -57,12 +72,12 @@ The strongest source-safe reading is:
 
 It does **not**, from this artifact alone, establish:
 
-* deployed biological telemetry;
-* actual vagal measurement;
-* physical 40 Hz synchronization;
-* physical quantum processing;
-* hardware enforcement;
-* an independently tested Full Brain runtime.
+- deployed biological telemetry;
+- actual vagal measurement;
+- physical 40 Hz synchronization;
+- physical quantum processing;
+- hardware enforcement;
+- an independently tested Full Brain runtime.
 
 Thus:
 
@@ -257,12 +272,12 @@ Instead, the source establishes system-wide governance scope while leaving the d
 
 From the previously supplied UBI × Cognition material, biological pacing is associated with constructs such as:
 
-* cognitive depth throttling;
-* distress veto;
-* biological thresholds;
-* working-memory pressure;
-* fatigue;
-* synchronization.
+- cognitive depth throttling;
+- distress veto;
+- biological thresholds;
+- working-memory pressure;
+- fatigue;
+- synchronization.
 
 However, those details originate in related artifacts rather than this specification.
 
@@ -324,11 +339,11 @@ but this is only a **MODEL/DERIVED candidate**.
 
 The source does not tell us whether vagal coherence is:
 
-* directly measured;
-* computed from telemetry;
-* a normalized AMOS state variable;
-* metaphorical/model-level terminology;
-* derived from multiple biological channels.
+- directly measured;
+- computed from telemetry;
+- a normalized AMOS state variable;
+- metaphorical/model-level terminology;
+- derived from multiple biological channels.
 
 That semantic gap remains open.
 
@@ -901,10 +916,10 @@ No such names should be generated from analogy.
 
 The minimum evidence needed to close this gap is one of:
 
-* `[[UBI_FULL_BRAIN_BINDING]]`;
-* the Full Brain OS master artifact;
-* a complete ten-layer matrix;
-* another source explicitly mapping the 10 Full Brain layers to the seven matrix rows.
+- `[[UBI_FULL_BRAIN_BINDING]]`;
+- the Full Brain OS master artifact;
+- a complete ten-layer matrix;
+- another source explicitly mapping the 10 Full Brain layers to the seven matrix rows.
 
 Until then:
 
@@ -1091,12 +1106,12 @@ $$
 
 Therefore the specification does not by itself generalize to:
 
-* human cognition generally;
-* neuroscience generally;
-* arbitrary AI architectures;
-* medical vagal regulation;
-* biological organisms outside the AMOS model;
-* real quantum systems.
+- human cognition generally;
+- neuroscience generally;
+- arbitrary AI architectures;
+- medical vagal regulation;
+- biological organisms outside the AMOS model;
+- real quantum systems.
 
 Its source-defined validity envelope is AMOS.
 
@@ -1504,4 +1519,19 @@ $$
 remains unresolved.
 
 That unresolved edge should remain visible until `UBI_FULL_BRAIN_BINDING` or the authoritative Full Brain ten-layer definition supplies the discriminating mapping.
+
+---
+```RSCF-NODE
+node_id: ubi_x_full_brain
+node_type: note
+path: 25_COGNITIVE_MATRIX/UBI_X_FULL_BRAIN.md
+RSCF-RELATIONS:
+  - INDEXED_BY: [[25_COGNITIVE_MATRIX_MOC]]
+  - RELATED_TO: [[AMOS_X_UBI]]
+  - RELATED_TO: [[AMOS_X_UBI_MATRIX]]
+claim_class: AMOS_MODEL
+```
+
+---
+**MOC:** [[25_COGNITIVE_MATRIX_MOC]]
 

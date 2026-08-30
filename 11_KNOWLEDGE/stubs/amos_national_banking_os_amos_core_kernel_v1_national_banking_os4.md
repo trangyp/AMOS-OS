@@ -7,6 +7,13 @@ tags:
 - banking
 - core
 - kernel
+type: note
+source: 11_KNOWLEDGE/stubs
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # amos national banking os amos core kernel v1 national banking os4

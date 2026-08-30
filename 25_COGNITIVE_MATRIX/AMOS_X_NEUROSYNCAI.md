@@ -201,17 +201,17 @@ RSCF bindings
 
 This artifact MUST NOT be used to claim:
 
-* universal biological laws;
-* scientific proof of every NeuroSyncAI mechanism;
-* clinical efficacy;
-* diagnostic authority;
-* regulatory approval;
-* independent certification;
-* successful production deployment;
-* verified absence of drift;
-* verified deterministic behavior;
-* causal equivalence between nervous-system mechanisms and software architecture;
-* or that AMOS literally implements the source architecture.
+- universal biological laws;
+- scientific proof of every NeuroSyncAI mechanism;
+- clinical efficacy;
+- diagnostic authority;
+- regulatory approval;
+- independent certification;
+- successful production deployment;
+- verified absence of drift;
+- verified deterministic behavior;
+- causal equivalence between nervous-system mechanisms and software architecture;
+- or that AMOS literally implements the source architecture.
 
 This node records the NeuroSyncAI corpus as an AMOS model and source architecture.
 
@@ -3476,53 +3476,53 @@ gaps:
 
 Before promoting to `IMPLEMENTED`:
 
-* [ ] executable component identified
-* [ ] exact version identified
-* [ ] hash recorded
-* [ ] input schema bound
-* [ ] output schema bound
-* [ ] state schema bound
-* [ ] five-tier runtime mapping established
-* [ ] P1–P9 runtime mapping established
-* [ ] persistent memory implemented
-* [ ] structural audit implemented
-* [ ] authority gate implemented
-* [ ] rollback implemented
+- [ ] executable component identified
+- [ ] exact version identified
+- [ ] hash recorded
+- [ ] input schema bound
+- [ ] output schema bound
+- [ ] state schema bound
+- [ ] five-tier runtime mapping established
+- [ ] P1–P9 runtime mapping established
+- [ ] persistent memory implemented
+- [ ] structural audit implemented
+- [ ] authority gate implemented
+- [ ] rollback implemented
 
 Before promoting to `VALIDATED`:
 
-* [ ] reproducibility tested
-* [ ] drift tested
-* [ ] identity override tested
-* [ ] memory persistence tested
-* [ ] task finality tested
-* [ ] contradiction handling tested
-* [ ] output traceability tested
-* [ ] self-audit failure tested
-* [ ] provenance corruption tested
-* [ ] stale state tested
-* [ ] regime-shift behavior tested
+- [ ] reproducibility tested
+- [ ] drift tested
+- [ ] identity override tested
+- [ ] memory persistence tested
+- [ ] task finality tested
+- [ ] contradiction handling tested
+- [ ] output traceability tested
+- [ ] self-audit failure tested
+- [ ] provenance corruption tested
+- [ ] stale state tested
+- [ ] regime-shift behavior tested
 
 Before promoting health claims:
 
-* [ ] construct defined
-* [ ] measurement method defined
-* [ ] reliability established
-* [ ] population specified
-* [ ] comparison standard defined
-* [ ] diagnostic performance measured
-* [ ] causal evidence established where claimed
-* [ ] intervention outcome evidence established
-* [ ] external replication
+- [ ] construct defined
+- [ ] measurement method defined
+- [ ] reliability established
+- [ ] population specified
+- [ ] comparison standard defined
+- [ ] diagnostic performance measured
+- [ ] causal evidence established where claimed
+- [ ] intervention outcome evidence established
+- [ ] external replication
 
 Before certification:
 
-* [ ] certification authority identified
-* [ ] standard identified
-* [ ] scope identified
-* [ ] product version matched
-* [ ] current certificate stored
-* [ ] expiration tracked
+- [ ] certification authority identified
+- [ ] standard identified
+- [ ] scope identified
+- [ ] product version matched
+- [ ] current certificate stored
+- [ ] expiration tracked
 
 ---
 
@@ -4103,25 +4103,25 @@ canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-* GOVERNED_BY: [[LAW_HIERARCHY]]
+- GOVERNED_BY: [[LAW_HIERARCHY]]
 
-* HAS_MATRIX: [[AMOS_X_NEUROSYNCAI_MATRIX]]
+- HAS_MATRIX: [[AMOS_X_NEUROSYNCAI_MATRIX]]
 
-* DERIVED_FROM_FRAMEWORK: [[AMOS_X_UBI]]
+- DERIVED_FROM_FRAMEWORK: [[AMOS_X_UBI]]
 
-* RELATED_TO: [[ABSOLUTE_BIOLOGICAL_INTEGRITY]]
+- RELATED_TO: [[ABSOLUTE_BIOLOGICAL_INTEGRITY]]
 
-* INTERACTS_WITH: [[KERNEL_README]]
+- INTERACTS_WITH: [[KERNEL_README]]
 
-* GATED_BY: [[CONTROL_PLANE_README]]
+- GATED_BY: [[CONTROL_PLANE_README]]
 
-* OBSERVED_BY: [[OBSERVABILITY_README]]
+- OBSERVED_BY: [[OBSERVABILITY_README]]
 
-* RECOVERED_BY: [[OPERATIONS_README]]
+- RECOVERED_BY: [[OPERATIONS_README]]
 
 ```
 

@@ -505,22 +505,22 @@ where those fields are source-supported and applicable.
 
 This artifact MUST NOT itself be used to establish:
 
-* an invented expansion of `QLS`;
-* universal laws of reality;
-* scientific proof;
-* biological truth;
-* neurological truth;
-* mathematical theoremhood;
-* philosophical certainty;
-* causal validity;
-* empirical calibration;
-* predictive universality;
-* runtime enforcement;
-* production readiness;
-* final canonical status;
-* authority merely from architectural importance;
-* validation merely because the registry is addressable;
-* empirical truth merely because a future model becomes canonical.
+- an invented expansion of `QLS`;
+- universal laws of reality;
+- scientific proof;
+- biological truth;
+- neurological truth;
+- mathematical theoremhood;
+- philosophical certainty;
+- causal validity;
+- empirical calibration;
+- predictive universality;
+- runtime enforcement;
+- production readiness;
+- final canonical status;
+- authority merely from architectural importance;
+- validation merely because the registry is addressable;
+- empirical truth merely because a future model becomes canonical.
 
 ---
 
@@ -5666,108 +5666,108 @@ is the correct representation.
 
 # 375. Promotion Gate — Native Canon
 
-* [ ] authoritative QLS source located
-* [ ] source identity verified
-* [ ] source version pinned
-* [ ] source provenance persisted
-* [ ] native `QLS` expansion verified
-* [ ] native QLS definition preserved
-* [ ] historical lineage linked
-* [ ] competing definitions visible
+- [ ] authoritative QLS source located
+- [ ] source identity verified
+- [ ] source version pinned
+- [ ] source provenance persisted
+- [ ] native `QLS` expansion verified
+- [ ] native QLS definition preserved
+- [ ] historical lineage linked
+- [ ] competing definitions visible
 
 ---
 
 # 376. Promotion Gate — Model Inventory
 
-* [ ] model families identified
-* [ ] model IDs identified
-* [ ] model versions identified
-* [ ] aliases resolved
-* [ ] duplicates compared
-* [ ] competing identities preserved
-* [ ] complete-inventory claim validated or omitted
+- [ ] model families identified
+- [ ] model IDs identified
+- [ ] model versions identified
+- [ ] aliases resolved
+- [ ] duplicates compared
+- [ ] competing identities preserved
+- [ ] complete-inventory claim validated or omitted
 
 ---
 
 # 377. Promotion Gate — Formalism
 
-* [ ] native definitions preserved
-* [ ] variables typed
-* [ ] parameters typed
-* [ ] equations preserved
-* [ ] assumptions explicit
-* [ ] constraints explicit
-* [ ] invariants explicit
-* [ ] mathematical claims correctly classified
-* [ ] missing derivations visible
+- [ ] native definitions preserved
+- [ ] variables typed
+- [ ] parameters typed
+- [ ] equations preserved
+- [ ] assumptions explicit
+- [ ] constraints explicit
+- [ ] invariants explicit
+- [ ] mathematical claims correctly classified
+- [ ] missing derivations visible
 
 ---
 
 # 378. Promotion Gate — Epistemics
 
-* [ ] `SOURCE_CLAIM` separated
-* [ ] `OBSERVATION` separated
-* [ ] `DERIVED` dependencies preserved
-* [ ] `MODEL` claims labeled
-* [ ] confidence ceilings declared
-* [ ] competing hypotheses preserved
-* [ ] contradictions visible
-* [ ] falsifiers declared
-* [ ] sensitivity evaluated where consequential
+- [ ] `SOURCE_CLAIM` separated
+- [ ] `OBSERVATION` separated
+- [ ] `DERIVED` dependencies preserved
+- [ ] `MODEL` claims labeled
+- [ ] confidence ceilings declared
+- [ ] competing hypotheses preserved
+- [ ] contradictions visible
+- [ ] falsifiers declared
+- [ ] sensitivity evaluated where consequential
 
 ---
 
 # 379. Promotion Gate — Scope and Regime
 
-* [ ] domain declared
-* [ ] system declared where applicable
-* [ ] population declared where applicable
-* [ ] environment declared
-* [ ] scale declared
-* [ ] time declared
-* [ ] regime declared
-* [ ] measurement method declared where applicable
-* [ ] assumptions declared
+- [ ] domain declared
+- [ ] system declared where applicable
+- [ ] population declared where applicable
+- [ ] environment declared
+- [ ] scale declared
+- [ ] time declared
+- [ ] regime declared
+- [ ] measurement method declared where applicable
+- [ ] assumptions declared
 
 ---
 
 # 380. Promotion Gate — Provenance
 
-* [ ] source ancestry persisted
-* [ ] model ancestry persisted
-* [ ] derivation ancestry persisted
-* [ ] evaluation ancestry persisted
-* [ ] independence groups established
-* [ ] source version/hash preserved where available
-* [ ] license/IP status preserved where available
+- [ ] source ancestry persisted
+- [ ] model ancestry persisted
+- [ ] derivation ancestry persisted
+- [ ] evaluation ancestry persisted
+- [ ] independence groups established
+- [ ] source version/hash preserved where available
+- [ ] license/IP status preserved where available
 
 ---
 
 # 381. Promotion Gate — Validation
 
-* [ ] source validation
-* [ ] schema validation
-* [ ] formal validation where claimed
-* [ ] mathematical validation where claimed
-* [ ] benchmark validation where claimed
-* [ ] empirical validation where claimed
-* [ ] causal validation where claimed
-* [ ] runtime validation where claimed
-* [ ] artifact-specific validation receipt
+- [ ] source validation
+- [ ] schema validation
+- [ ] formal validation where claimed
+- [ ] mathematical validation where claimed
+- [ ] benchmark validation where claimed
+- [ ] empirical validation where claimed
+- [ ] causal validation where claimed
+- [ ] runtime validation where claimed
+- [ ] artifact-specific validation receipt
 
 ---
 
 # 382. Promotion Gate — Governance
 
-* [ ] authority binding
-* [ ] version conflict handling
-* [ ] add-only preservation
-* [ ] provenance persistence
-* [ ] rollback basin
-* [ ] selective invalidation
-* [ ] negative cases
-* [ ] audit receipt
-* [ ] unresolved critical gaps visible
+- [ ] authority binding
+- [ ] version conflict handling
+- [ ] add-only preservation
+- [ ] provenance persistence
+- [ ] rollback basin
+- [ ] selective invalidation
+- [ ] negative cases
+- [ ] audit receipt
+- [ ] unresolved critical gaps visible
 
 ---
 
@@ -6688,68 +6688,68 @@ NOT_ESTABLISHED
 
 ## Structural contract
 
-* [x] artifact identity preserved
-* [x] source path preserved
-* [x] origin architect preserved
-* [x] steward preserved
-* [x] QLS identifier preserved
-* [x] add-only discipline preserved
-* [x] model/observation firewall defined
-* [x] source-claim firewall defined
-* [x] equation/formal firewall defined
-* [x] causal firewall defined
-* [x] scope/regime firewall defined
-* [x] provenance topology defined
-* [x] RSCF contract defined
-* [x] H/M/L mapping defined
-* [x] competing-model semantics defined
-* [x] selective invalidation defined
-* [x] lifecycle semantics defined
-* [x] conceptual MVCC/CAS semantics defined
-* [x] critical gaps exposed
+- [x] artifact identity preserved
+- [x] source path preserved
+- [x] origin architect preserved
+- [x] steward preserved
+- [x] QLS identifier preserved
+- [x] add-only discipline preserved
+- [x] model/observation firewall defined
+- [x] source-claim firewall defined
+- [x] equation/formal firewall defined
+- [x] causal firewall defined
+- [x] scope/regime firewall defined
+- [x] provenance topology defined
+- [x] RSCF contract defined
+- [x] H/M/L mapping defined
+- [x] competing-model semantics defined
+- [x] selective invalidation defined
+- [x] lifecycle semantics defined
+- [x] conceptual MVCC/CAS semantics defined
+- [x] critical gaps exposed
 
 ## Native QLS canon
 
-* [ ] authoritative native source located
-* [ ] QLS expansion verified
-* [ ] QLS native definition recovered
-* [ ] QLS model families recovered
-* [ ] QLS model IDs recovered
-* [ ] QLS model versions recovered
-* [ ] QLS formal definitions recovered
-* [ ] QLS equations recovered
-* [ ] QLS variables recovered
-* [ ] QLS parameters recovered
-* [ ] QLS assumptions recovered
-* [ ] QLS scope recovered
-* [ ] QLS regimes recovered
-* [ ] QLS dependencies recovered
-* [ ] QLS lineage recovered
+- [ ] authoritative native source located
+- [ ] QLS expansion verified
+- [ ] QLS native definition recovered
+- [ ] QLS model families recovered
+- [ ] QLS model IDs recovered
+- [ ] QLS model versions recovered
+- [ ] QLS formal definitions recovered
+- [ ] QLS equations recovered
+- [ ] QLS variables recovered
+- [ ] QLS parameters recovered
+- [ ] QLS assumptions recovered
+- [ ] QLS scope recovered
+- [ ] QLS regimes recovered
+- [ ] QLS dependencies recovered
+- [ ] QLS lineage recovered
 
 ## Validation
 
-* [ ] source validation
-* [ ] schema validation
-* [ ] formal validation
-* [ ] mathematical validation where claimed
-* [ ] empirical validation where claimed
-* [ ] causal validation where claimed
-* [ ] runtime validation where claimed
-* [ ] negative cases executed
-* [ ] artifact-specific validation receipt
+- [ ] source validation
+- [ ] schema validation
+- [ ] formal validation
+- [ ] mathematical validation where claimed
+- [ ] empirical validation where claimed
+- [ ] causal validation where claimed
+- [ ] runtime validation where claimed
+- [ ] negative cases executed
+- [ ] artifact-specific validation receipt
 
 ## Runtime
 
-* [ ] executable registry binding
-* [ ] persistent model identity store
-* [ ] version store
-* [ ] provenance persistence
-* [ ] dependency persistence
-* [ ] conflict detection
-* [ ] stale-write protection
-* [ ] authority enforcement
-* [ ] rollback demonstrated
-* [ ] validation receipt persistence
+- [ ] executable registry binding
+- [ ] persistent model identity store
+- [ ] version store
+- [ ] provenance persistence
+- [ ] dependency persistence
+- [ ] conflict detection
+- [ ] stale-write protection
+- [ ] authority enforcement
+- [ ] rollback demonstrated
+- [ ] validation receipt persistence
 
 ---
 
@@ -6809,16 +6809,16 @@ EXECUTED
 
 Target architectural bindings:
 
-* Governed by canon —
-* Root navigation —
-* RSCF navigation —
-* Local domain MOC —
-* Kernel interaction —
-* Control-plane gates —
-* Observed by —
-* Recovered via operations —
-* Routing validation reference —
-* Authorization validation reference —
+- Governed by canon —
+- Root navigation —
+- RSCF navigation —
+- Local domain MOC —
+- Kernel interaction —
+- Control-plane gates —
+- Observed by —
+- Recovered via operations —
+- Routing validation reference —
+- Authorization validation reference —
 
 These are architectural/document relations.
 
@@ -7280,7 +7280,6 @@ TOKEN SAVINGS.
 ---
 
 
-
 ---
 
 **Related:**  ·  ·  ·  ·  ·  ·
@@ -7312,14 +7311,14 @@ executable_binding: NOT_ESTABLISHED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY:
-* INDEXED_BY:
-* INDEXED_BY:
-* GOVERNED_BY:
-* INTERACTS_WITH:
-* GATED_BY:
-* OBSERVED_BY:
-* RECOVERED_VIA:
+- INDEXED_BY:
+- INDEXED_BY:
+- INDEXED_BY:
+- GOVERNED_BY:
+- INTERACTS_WITH:
+- GATED_BY:
+- OBSERVED_BY:
+- RECOVERED_VIA:
 
 ---
 

@@ -9,6 +9,13 @@ tags:
 - type/workflow
 - domain/canon-universe
 - amos-os
+type: workflow
+source: 08_WORKFLOWS
+rscf:
+  state: AMOS_MODEL
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: workflow_process
 ---
 
 # AMOS Flow Canon

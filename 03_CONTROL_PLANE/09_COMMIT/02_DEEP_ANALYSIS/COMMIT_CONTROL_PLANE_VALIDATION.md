@@ -466,12 +466,12 @@ Compare(Y_F,Y_{CF})
 
 The comparison must preserve:
 
-* direction,
-* magnitude where identifiable,
-* uncertainty,
-* scope,
-* causal assumptions,
-* and alternative explanations.
+- direction,
+- magnitude where identifiable,
+- uncertainty,
+- scope,
+- causal assumptions,
+- and alternative explanations.
 
 ---
 
@@ -543,17 +543,17 @@ available relation.
 The following are insufficient by themselves to establish causal
 counterfactuals:
 
-* temporal sequence,
-* co-occurrence,
-* structural similarity,
-* analogy,
-* prediction accuracy,
-* semantic similarity,
-* repeated source claims,
-* mechanistic plausibility without validation,
-* popularity,
-* authority,
-* benchmark performance outside the relevant scope.
+- temporal sequence,
+- co-occurrence,
+- structural similarity,
+- analogy,
+- prediction accuracy,
+- semantic similarity,
+- repeated source claims,
+- mechanistic plausibility without validation,
+- popularity,
+- authority,
+- benchmark performance outside the relevant scope.
 
 Therefore:
 
@@ -612,9 +612,9 @@ X\rightarrow M\rightarrow Y
 
 AMOS distinguishes:
 
-* total effect,
-* direct effect,
-* indirect/mediated effect.
+- total effect,
+- direct effect,
+- indirect/mediated effect.
 
 The system MUST NOT erase mediator structure when the distinction changes
 the conclusion.
@@ -669,9 +669,9 @@ CF(t_0,t_I,t_Q)
 
 where:
 
-* (t_0) = factual reference time,
-* (t_I) = intervention time,
-* (t_Q) = outcome evaluation time.
+- (t_0) = factual reference time,
+- (t_I) = intervention time,
+- (t_Q) = outcome evaluation time.
 
 The same intervention can produce different answers at different horizons:
 
@@ -703,11 +703,11 @@ V
 
 where:
 
-* (M) = mechanism set,
-* (R) = regime,
-* (S) = scope,
-* (T) = temporal interval,
-* (V) = validity conditions.
+- (M) = mechanism set,
+- (R) = regime,
+- (S) = scope,
+- (T) = temporal interval,
+- (V) = validity conditions.
 
 A counterfactual derived in epoch (E_i) MUST NOT automatically transfer to
 epoch (E_j).
@@ -771,14 +771,14 @@ the original structural equation cannot simply be reused.
 
 This is especially important for:
 
-* policy changes,
-* institutional responses,
-* adaptive agents,
-* markets,
-* social systems,
-* biological adaptation,
-* strategic environments,
-* recursive AI systems.
+- policy changes,
+- institutional responses,
+- adaptive agents,
+- markets,
+- social systems,
+- biological adaptation,
+- strategic environments,
+- recursive AI systems.
 
 ---
 
@@ -1097,19 +1097,19 @@ where each predicate must be demonstrated, not assumed.
 
 Escalate counterfactual reasoning when any of the following holds:
 
-* causal graph uncertain,
-* evidence ancestry is correlated,
-* intervention crosses regimes,
-* mechanism invariance is doubtful,
-* temporal validity is stale,
-* competing causal models disagree,
-* hidden confounding is material,
-* intervention has irreversible consequences,
-* governance is affected,
-* multiple RSCFs are coupled,
-* outcome sensitivity is high,
-* causal closure is incomplete,
-* evidence is weak or contradictory.
+- causal graph uncertain,
+- evidence ancestry is correlated,
+- intervention crosses regimes,
+- mechanism invariance is doubtful,
+- temporal validity is stale,
+- competing causal models disagree,
+- hidden confounding is material,
+- intervention has irreversible consequences,
+- governance is affected,
+- multiple RSCFs are coupled,
+- outcome sensitivity is high,
+- causal closure is incomplete,
+- evidence is weak or contradictory.
 
 ---
 
@@ -1194,12 +1194,12 @@ Test (s^*) first.
 
 Examples include:
 
-* one causal edge,
-* one confounder assumption,
-* one effect-size threshold,
-* one regime boundary,
-* one source's independence,
-* one timing assumption.
+- one causal edge,
+- one confounder assumption,
+- one effect-size threshold,
+- one regime boundary,
+- one source's independence,
+- one timing assumption.
 
 If small perturbations flip the answer:
 
@@ -1237,14 +1237,14 @@ U_X
 
 where:
 
-* (U_E) = evidence uncertainty,
-* (U_M) = model uncertainty,
-* (U_S) = scope uncertainty,
-* (U_T) = temporal uncertainty,
-* (U_C) = causal uncertainty,
-* (U_P) = provenance-independence uncertainty,
-* (U_I) = intervention-definition uncertainty,
-* (U_X) = execution/implementation uncertainty.
+- (U_E) = evidence uncertainty,
+- (U_M) = model uncertainty,
+- (U_S) = scope uncertainty,
+- (U_T) = temporal uncertainty,
+- (U_C) = causal uncertainty,
+- (U_P) = provenance-independence uncertainty,
+- (U_I) = intervention-definition uncertainty,
+- (U_X) = execution/implementation uncertainty.
 
 AMOS SHOULD spend reasoning effort where reducing uncertainty can change the
 decision.
@@ -1647,13 +1647,13 @@ Both may be valid.
 
 AMOS should first test whether disagreement reflects:
 
-* population,
-* scale,
-* time,
-* environment,
-* regime,
-* measurement,
-* intervention definition,
+- population,
+- scale,
+- time,
+- environment,
+- regime,
+- measurement,
+- intervention definition,
 
 before treating it as logical contradiction.
 
@@ -1774,14 +1774,14 @@ counterfactual narratives.
 
 Reject or downgrade reasoning that relies primarily on:
 
-* hindsight bias,
-* outcome knowledge,
-* narrative coherence,
-* anthropomorphic intention attribution,
-* single-source causal claims,
-* cherry-picked alternate histories,
-* unlicensed structural analogy,
-* post hoc mechanism invention.
+- hindsight bias,
+- outcome knowledge,
+- narrative coherence,
+- anthropomorphic intention attribution,
+- single-source causal claims,
+- cherry-picked alternate histories,
+- unlicensed structural analogy,
+- post hoc mechanism invention.
 
 ---
 
@@ -1846,13 +1846,13 @@ Statements such as:
 
 do not by themselves establish:
 
-* blame,
-* negligence,
-* intent,
-* liability,
-* duty,
-* authorization,
-* proportional responsibility.
+- blame,
+- negligence,
+- intent,
+- liability,
+- duty,
+- authorization,
+- proportional responsibility.
 
 Those require additional normative/legal/governance premises.
 

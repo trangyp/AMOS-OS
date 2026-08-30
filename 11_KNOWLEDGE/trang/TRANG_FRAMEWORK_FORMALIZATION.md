@@ -50,13 +50,13 @@ Nếu các tầng giao nhau, hệ thống không ổn định.
 ### 1.1 Phân rã hệ thống
 \$$\boxed{\forall S, \exists (L, M, H) : S = L \cup M \cup H}
 $$### 1.2 Quan hệ giữa ba tầng \$$\boxed{L \xrightarrow{\text{nuôi dưỡng}} M \xrightarrow{\text{điều phối}} H \xrightarrow{\text{điều khiển}} L}$$
-  * **L nuôi M** : Cung cấp nền tảng, năng lượng, dữ liệu thô
+  - **L nuôi M** : Cung cấp nền tảng, năng lượng, dữ liệu thô
 
 
-  * **M điều phối L và H** : Kết nối, chuyển đổi, ưu tiên
+  - **M điều phối L và H** : Kết nối, chuyển đổi, ưu tiên
 
 
-  * **H điều khiển L và M** : Ra quyết định, điều chỉnh, sáng tạo
+  - **H điều khiển L và M** : Ra quyết định, điều chỉnh, sáng tạo
 
 
 * * *
@@ -67,10 +67,10 @@ $$* \$p_i\$: Xác suất trạng thái thứ \$i\$ trong tầng \$X\$ * \$N\$: S
 ### 2.4 Tốc độ thay đổi entropy
 \$$\boxed{\frac{dE_X}{dt} = \text{input\\_rate} - \text{output\\_rate} - \text{loss\\_rate}}
 $$### 2.5 Entropy sáng tạo (Creative Entropy) \$$\boxed{E_C = E_{\text{total}} \cdot (1 - \text{Rigidity}) \cdot \text{NoveltyFactor}}$$
-  * Rigidity: độ cứng nhắc \$[0,1]\$
+  - Rigidity: độ cứng nhắc \$[0,1]\$
 
 
-  * NoveltyFactor: mức độ mới mẻ
+  - NoveltyFactor: mức độ mới mẻ
 
 
 ### 2.6 Entropy hủy diệt (Destructive Entropy)
@@ -88,10 +88,10 @@ $$* \$Z_i\$: số lượng vật chất trong ô thứ \$i\$ * \$\bar{Z}\$: trun
 \$$\boxed{\Lambda_X \approx \frac{1}{1 + e^{-k(E_X - 0.5)}}}
 \$$\$$\boxed{E_X \approx \frac{1}{1 + e^{-m(\Lambda_X - 0.2)}}}
 $$* * * ## NHÓM 4: ĐỘNG LỰC HỌC (MUTATION & SURVIVAL) ### 4.1 Phương trình tiến hóa tổng quát \$$\boxed{S_{t+1} = \mathcal{C}\left(\mathcal{F}(S_t, U_t, \xi_t)\right)}$$
-  * \$\mathcal{F}\$: Tạo đột biến / khả năng mới
+  - \$\mathcal{F}\$: Tạo đột biến / khả năng mới
 
 
-  * \$\mathcal{C}\$: Chọn lọc, chỉ giữ những gì sống sót
+  - \$\mathcal{C}\$: Chọn lọc, chỉ giữ những gì sống sót
 
 
 ### 4.2 Hàm đột biến
@@ -126,19 +126,19 @@ $$* \$\mathcal{L}\$: Bộ chuẩn hóa logic * \$\mathcal{P}\$: Bộ tiền đ�
 ### 9.1 Phân rã vấn đề
 \$$\boxed{\text{Decompose}(P) = (P_L, P_M, P_H)}
 $$### 9.2 Cấu trúc FRAI \$$\boxed{\text{FRAI} = \langle \mathcal{D}, \mathcal{S}, \mathcal{R}, \mathcal{I}, \mathcal{A}, \mathcal{T}_2 \rangle}$$
-  * \$\mathcal{D}\$: Bộ phân rã fractal
+  - \$\mathcal{D}\$: Bộ phân rã fractal
 
 
-  * \$\mathcal{S}\$: Bộ phát hiện tự đồng dạng
+  - \$\mathcal{S}\$: Bộ phát hiện tự đồng dạng
 
 
-  * \$\mathcal{R}\$: Bộ suy luận đa tầng
+  - \$\mathcal{R}\$: Bộ suy luận đa tầng
 
 
-  * \$\mathcal{I}\$: Bộ tích hợp
+  - \$\mathcal{I}\$: Bộ tích hợp
 
 
-  * \$\mathcal{A}\$: Bộ điều chỉnh thích nghi
+  - \$\mathcal{A}\$: Bộ điều chỉnh thích nghi
 
 
 ### 9.3 Giải quyết tuần tự

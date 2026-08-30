@@ -73,6 +73,11 @@ tags:
 - authoritative-state
 - placement-rules
 - roadmap
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: root_index
 ---
 
 # AMOS OS Naming Standard
@@ -113,26 +118,26 @@ Its primary objective is:
 
 The standard governs:
 
-* root folders;
-* subsystem folders;
-* Markdown architecture artifacts;
-* kernel contracts;
-* agents;
-* skills;
-* workflows;
-* protocols;
-* modes;
-* schemas;
-* models;
-* registries;
-* ledgers;
-* indexes;
-* maps;
-* runtime artifacts;
-* tests;
-* migration aliases;
-* artifact IDs;
-* version metadata.
+- root folders;
+- subsystem folders;
+- Markdown architecture artifacts;
+- kernel contracts;
+- agents;
+- skills;
+- workflows;
+- protocols;
+- modes;
+- schemas;
+- models;
+- registries;
+- ledgers;
+- indexes;
+- maps;
+- runtime artifacts;
+- tests;
+- migration aliases;
+- artifact IDs;
+- version metadata.
 
 The standard follows AMOS integrity rules: explicit uncertainty, provenance preservation, dependency-aware change, and no invented historical identity when source information is missing.
 
@@ -168,37 +173,31 @@ ArtifactID
 !=
 RegistryName
 ```
-
 ```text
 RegistryName
 !=
 ClassName
 ```
-
 ```text
 Path
 !=
 SemanticIdentity
 ```
-
 ```text
 Rename
 !=
 Reclassification
 ```
-
 ```text
 Rename
 !=
 VersionPromotion
 ```
-
 ```text
 VersionLabel
 !=
 HistoricalProof
 ```
-
 This is the central naming invariant.
 
 ---
@@ -324,10 +323,10 @@ semantic_name: CANON
 
 Root ordinals should:
 
-* use two digits while the namespace remains below 100;
-* be unique within the parent namespace;
-* preserve intentional order;
-* not be reused for a different semantic subsystem after retirement without explicit migration.
+- use two digits while the namespace remains below 100;
+- be unique within the parent namespace;
+- preserve intentional order;
+- not be reused for a different semantic subsystem after retirement without explicit migration.
 
 Example:
 
@@ -837,11 +836,11 @@ AMOS-ENVIRONMENT-SCAN-AGENT
 
 Artifact IDs should:
 
-* use uppercase;
-* use hyphens;
-* avoid filesystem ordinals;
-* avoid volatile directory paths;
-* remain stable across safe renames.
+- use uppercase;
+- use hyphens;
+- avoid filesystem ordinals;
+- avoid volatile directory paths;
+- remain stable across safe renames.
 
 ---
 
@@ -982,13 +981,13 @@ non-breaking correction
 
 Increment `MAJOR` when:
 
-* required fields change incompatibly;
-* authority semantics change;
-* persisted state format becomes incompatible;
-* interface semantics break;
-* identity contract changes;
-* lifecycle semantics materially change;
-* prior consumers require migration.
+- required fields change incompatibly;
+- authority semantics change;
+- persisted state format becomes incompatible;
+- interface semantics break;
+- identity contract changes;
+- lifecycle semantics materially change;
+- prior consumers require migration.
 
 ---
 
@@ -996,11 +995,11 @@ Increment `MAJOR` when:
 
 Increment `MINOR` when:
 
-* optional fields are added;
-* backward-compatible capabilities are added;
-* new registry entries are supported;
-* new validators are added;
-* new modes/features are introduced without contract break.
+- optional fields are added;
+- backward-compatible capabilities are added;
+- new registry entries are supported;
+- new validators are added;
+- new modes/features are introduced without contract break.
 
 ---
 
@@ -1008,12 +1007,12 @@ Increment `MINOR` when:
 
 Increment `PATCH` for:
 
-* typo fixes;
-* wording clarification;
-* metadata correction;
-* non-semantic refactor;
-* formatting;
-* added examples that do not alter contract.
+- typo fixes;
+- wording clarification;
+- metadata correction;
+- non-semantic refactor;
+- formatting;
+- added examples that do not alter contract.
 
 ---
 
@@ -1114,11 +1113,11 @@ unless multiple parallel physical versions must coexist.
 
 Filename versions are appropriate when:
 
-* multiple versions intentionally coexist;
-* runtime loader requires versioned modules;
-* migration snapshot preservation requires immutable copies;
-* external interface contract requires it;
-* historical archive stores explicit versions.
+- multiple versions intentionally coexist;
+- runtime loader requires versioned modules;
+- migration snapshot preservation requires immutable copies;
+- external interface contract requires it;
+- historical archive stores explicit versions.
 
 Example:
 
@@ -1651,13 +1650,11 @@ ClaimID
 !=
 SectionHeading
 ```
-
 ```text
 ProvenanceID
 !=
 SourceFilename
 ```
-
 Stable logical IDs prevent path migration from destroying reasoning lineage.
 
 ---
@@ -3303,55 +3300,55 @@ Major expansion from placeholder into governed naming standard.
 
 Added:
 
-* explicit document, naming-standard, and namespace-contract versions;
-* full naming taxonomy;
-* identity firewall;
-* folder conventions;
-* root ordinal rules;
-* root Markdown conventions;
-* reserved suffix semantics;
-* kernel naming;
-* agent naming;
-* skill naming;
-* workflow naming;
-* protocol naming;
-* mode-family naming;
-* model naming;
-* schema naming;
-* registry naming;
-* artifact ID convention;
-* semantic/display identity separation;
-* independent version axes;
-* semantic versioning;
-* AMOS_CORE target semantics;
-* historical-version firewall;
-* filename-version rules;
-* canonical pointer pattern;
-* prohibited decorative versions;
-* source identity preservation;
-* rename classification;
-* alias and deprecation rules;
-* collision governance;
-* case-fold and Unicode considerations;
-* Python, TypeScript, JSON, Markdown naming guidance;
-* RSCF naming;
-* runtime-instance identity;
-* lifecycle/epistemic naming;
-* timestamp/hash/provenance naming;
-* canon naming restrictions;
-* placeholder naming;
-* archive/backup/migration conventions;
-* test and error-code naming;
-* rename validation pipeline;
-* naming authority;
-* legacy compatibility;
-* naming migration lifecycle;
-* recovery semantics;
-* 20 naming validation tests;
-* naming failure registry;
-* 25 hard naming invariants;
-* compliance audit;
-* RSCF node.
+- explicit document, naming-standard, and namespace-contract versions;
+- full naming taxonomy;
+- identity firewall;
+- folder conventions;
+- root ordinal rules;
+- root Markdown conventions;
+- reserved suffix semantics;
+- kernel naming;
+- agent naming;
+- skill naming;
+- workflow naming;
+- protocol naming;
+- mode-family naming;
+- model naming;
+- schema naming;
+- registry naming;
+- artifact ID convention;
+- semantic/display identity separation;
+- independent version axes;
+- semantic versioning;
+- AMOS_CORE target semantics;
+- historical-version firewall;
+- filename-version rules;
+- canonical pointer pattern;
+- prohibited decorative versions;
+- source identity preservation;
+- rename classification;
+- alias and deprecation rules;
+- collision governance;
+- case-fold and Unicode considerations;
+- Python, TypeScript, JSON, Markdown naming guidance;
+- RSCF naming;
+- runtime-instance identity;
+- lifecycle/epistemic naming;
+- timestamp/hash/provenance naming;
+- canon naming restrictions;
+- placeholder naming;
+- archive/backup/migration conventions;
+- test and error-code naming;
+- rename validation pipeline;
+- naming authority;
+- legacy compatibility;
+- naming migration lifecycle;
+- recovery semantics;
+- 20 naming validation tests;
+- naming failure registry;
+- 25 hard naming invariants;
+- compliance audit;
+- RSCF node.
 
 ## v1.0.0 — 2026-08-25
 

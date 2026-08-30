@@ -6,6 +6,13 @@ tags:
 - domain/agent-systems
 - sota
 - amos-os
+type: note
+source: 11_KNOWLEDGE
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
 
 # SOTA Agent/Skill/Workflow Tooling Repos (2025-2026)

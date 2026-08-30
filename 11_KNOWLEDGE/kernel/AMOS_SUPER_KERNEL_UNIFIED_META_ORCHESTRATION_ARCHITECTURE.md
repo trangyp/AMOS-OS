@@ -131,15 +131,15 @@ O_{final}
 
 where:
 
-* (R_{raw}) = raw user request;
-* (N) = normalization;
-* (P) = structured problem;
-* (D) = decomposition;
-* (T_i) = sub-task;
-* (E_i) = conceptual engine/domain owner;
-* (C) = constraints and safety;
-* (O_i) = sub-result;
-* (S) = synthesis.
+- (R_{raw}) = raw user request;
+- (N) = normalization;
+- (P) = structured problem;
+- (D) = decomposition;
+- (T_i) = sub-task;
+- (E_i) = conceptual engine/domain owner;
+- (C) = constraints and safety;
+- (O_i) = sub-result;
+- (S) = synthesis.
 
 This is a **derived formal representation** of the source pipeline.
 
@@ -169,12 +169,12 @@ N+D+R+C+S+A
 
 where:
 
-* (N) = normalization;
-* (D) = decomposition;
-* (R) = routing;
-* (C) = constraints;
-* (S) = synthesis;
-* (A) = audit.
+- (N) = normalization;
+- (D) = decomposition;
+- (R) = routing;
+- (C) = constraints;
+- (S) = synthesis;
+- (A) = audit.
 
 ---
 
@@ -266,10 +266,10 @@ and core variables:
 
 where the source gives:
 
-* (\Omega) = overload;
-* (H) = cohesion;
-* (F) = fragmentation;
-* (S) = shocks.
+- (\Omega) = overload;
+- (H) = cohesion;
+- (F) = fragmentation;
+- (S) = shocks.
 
 A generic TSS state may therefore be represented as:
 
@@ -694,11 +694,11 @@ U+A+D+E+V
 
 where:
 
-* (U) = understanding;
-* (A) = analysis;
-* (D) = design;
-* (E) = execution;
-* (V) = verification.
+- (U) = understanding;
+- (A) = analysis;
+- (D) = design;
+- (E) = execution;
+- (V) = verification.
 
 Each sub-task should additionally define:
 
@@ -1214,8 +1214,8 @@ G_A=
 
 where:
 
-* (V) = components;
-* (E) = relationships/interfaces.
+- (V) = components;
+- (E) = relationships/interfaces.
 
 The kernel's role is to produce a coherent graph rather than an unordered recommendation list.
 
@@ -1857,10 +1857,10 @@ Q_T
 
 where:
 
-* (Q_H) = Human;
-* (Q_S) = System;
-* (Q_E) = Environment;
-* (Q_T) = Time.
+- (Q_H) = Human;
+- (Q_S) = System;
+- (Q_E) = Environment;
+- (Q_T) = Time.
 
 A failed relevant quadrant renders the design:
 

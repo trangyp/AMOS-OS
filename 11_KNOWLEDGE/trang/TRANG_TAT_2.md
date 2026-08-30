@@ -461,11 +461,11 @@ RECHECK != T2
 
 Two measurements performed:
 
-* by the same person
-* using the same machine
-* using the same dataset
-* using the same methodology
-* under the same failure mode
+- by the same person
+- using the same machine
+- using the same dataset
+- using the same methodology
+- under the same failure mode
 
 may improve repeatability but do not automatically establish independent corroboration.
 
@@ -489,13 +489,13 @@ The source identifies four desirable forms of variation.
 
 Different methods may include:
 
-* direct observation
-* experiment
-* statistical inference
-* formal reasoning
-* simulation
-* theoretical derivation
-* archival analysis
+- direct observation
+- experiment
+- statistical inference
+- formal reasoning
+- simulation
+- theoretical derivation
+- archival analysis
 
 Conceptually:
 
@@ -515,9 +515,9 @@ $$
 
 where:
 
-* $L$ = foundation
-* $M$ = mediator
-* $H$ = peak
+- $L$ = foundation
+- $M$ = mediator
+- $H$ = peak
 
 The purpose is to avoid verifying a claim only from one structural layer.
 
@@ -541,12 +541,12 @@ Time separation alone does not prove source independence.
 
 Different:
 
-* people
-* laboratories
-* institutions
-* cultures
-* jurisdictions
-* civilizations
+- people
+- laboratories
+- institutions
+- cultures
+- jurisdictions
+- civilizations
 
 may provide stronger independence when they do not share relevant error ancestry.
 
@@ -572,13 +572,13 @@ The L layer corresponds in the source to relatively direct grounding.
 
 Examples include:
 
-* raw measurements
-* repeated physical observation
-* laboratory evidence
-* original records
-* archaeological artifacts
-* source code
-* instrument output
+- raw measurements
+- repeated physical observation
+- laboratory evidence
+- original records
+- archaeological artifacts
+- source code
+- instrument output
 
 Canonical representation:
 
@@ -596,15 +596,15 @@ means that $C$ receives support at the foundational evidence layer.
 
 Direct evidence can still fail through:
 
-* sensor error
-* sampling error
-* data corruption
-* misclassification
-* calibration failure
-* fraud
-* measurement bias
-* observer effects
-* uncontrolled confounding
+- sensor error
+- sampling error
+- data corruption
+- misclassification
+- calibration failure
+- fraud
+- measurement bias
+- observer effects
+- uncontrolled confounding
 
 Therefore:
 
@@ -620,12 +620,12 @@ $$
 
 The M layer includes:
 
-* logical analysis
-* mathematical modeling
-* simulation
-* peer review
-* system feedback
-* structured expert interpretation
+- logical analysis
+- mathematical modeling
+- simulation
+- peer review
+- system feedback
+- structured expert interpretation
 
 Represented as:
 
@@ -667,11 +667,11 @@ $$
 
 The H layer includes source-defined high-level synthesis such as:
 
-* first principles
-* philosophy
-* ethical commitments
-* deeply trained intuition
-* strategic synthesis
+- first principles
+- philosophy
+- ethical commitments
+- deeply trained intuition
+- strategic synthesis
 
 Represented as:
 
@@ -697,10 +697,10 @@ $$
 
 Intuition, philosophy, or values may affect:
 
-* interpretation
-* decision framing
-* governance
-* moral choice
+- interpretation
+- decision framing
+- governance
+- moral choice
 
 but cannot by themselves serve as empirical measurement.
 
@@ -803,11 +803,11 @@ involves distinct layers and multiple forms of reasoning.
 
 Its actual strength depends on:
 
-* independence
-* evidence quality
-* method validity
-* scope compatibility
-* regime compatibility
+- independence
+- evidence quality
+- method validity
+- scope compatibility
+- regime compatibility
 
 not layer count alone.
 
@@ -840,10 +840,10 @@ T2* != GUARANTEED TRUTH
 
 The source provides approximate confidence bands such as:
 
-* Weak: 80–90%
-* Medium: 90–95%
-* Strong: 95–99%
-* Perfect: >99.9%
+- Weak: 80–90%
+- Medium: 90–95%
+- Strong: 95–99%
+- Perfect: >99.9%
 
 These must remain tagged:
 
@@ -886,14 +886,14 @@ It does not automatically represent:
 
 For such an interpretation, additional assumptions are required concerning:
 
-* base rates
-* sensitivity
-* specificity
-* false-positive rates
-* false-negative rates
-* source conditional independence
-* likelihood functions
-* prior probabilities
+- base rates
+- sensitivity
+- specificity
+- false-positive rates
+- false-negative rates
+- source conditional independence
+- likelihood functions
+- prior probabilities
 
 Therefore:
 
@@ -1008,11 +1008,11 @@ T2 can improve support.
 
 It cannot automatically override:
 
-* weak measurement
-* wrong model
-* stale regime
-* scope mismatch
-* common-source ancestry
+- weak measurement
+- wrong model
+- stale regime
+- scope mismatch
+- common-source ancestry
 
 Therefore:
 
@@ -1030,9 +1030,9 @@ $$
 
 The source declares T2 mandatory for:
 
-* important decisions
-* risky actions
-* foundational beliefs
+- important decisions
+- risky actions
+- foundational beliefs
 
 Source form:
 
@@ -1067,13 +1067,13 @@ $$
 
 Thus validation intensity should rise with:
 
-* irreversibility
-* legal exposure
-* financial exposure
-* health impact
-* safety impact
-* institutional impact
-* dependency radius
+- irreversibility
+- legal exposure
+- financial exposure
+- health impact
+- safety impact
+- institutional impact
+- dependency radius
 
 ---
 
@@ -1124,11 +1124,11 @@ This preserves uncertainty more accurately.
 
 Use when:
 
-* two or more genuinely independent roots support the claim
-* scope matches
-* regime matches
-* evidence is fresh enough
-* no unresolved contradiction invalidates the support
+- two or more genuinely independent roots support the claim
+- scope matches
+- regime matches
+- evidence is fresh enough
+- no unresolved contradiction invalidates the support
 
 ---
 
@@ -1136,12 +1136,12 @@ Use when:
 
 Use when support exists but depends on:
 
-* assumptions
-* limited population
-* temporal boundaries
-* regime
-* measurement method
-* incomplete independence
+- assumptions
+- limited population
+- temporal boundaries
+- regime
+- measurement method
+- incomplete independence
 
 ---
 
@@ -1149,10 +1149,10 @@ Use when support exists but depends on:
 
 Use when:
 
-* independence is absent
-* critical evidence is contradicted
-* support fails
-* known falsifier fires
+- independence is absent
+- critical evidence is contradicted
+- support fails
+- known falsifier fires
 
 ---
 
@@ -1160,10 +1160,10 @@ Use when:
 
 Use when:
 
-* source ancestry is unclear
-* evidence cannot be checked
-* the second path is missing
-* provenance is incomplete
+- source ancestry is unclear
+- evidence cannot be checked
+- the second path is missing
+- provenance is incomplete
 
 Canonical rule:
 
@@ -1239,13 +1239,13 @@ $$
 
 The second path actively searches for:
 
-* contradiction
-* correlated provenance
-* hidden assumptions
-* stale premises
-* scope leakage
-* stronger alternatives
-* causal overreach
+- contradiction
+- correlated provenance
+- hidden assumptions
+- stale premises
+- scope leakage
+- stronger alternatives
+- causal overreach
 
 ---
 
@@ -1265,10 +1265,10 @@ LAB B
 
 where:
 
-* laboratories are independent
-* instrumentation may differ
-* analysis pipelines should ideally differ
-* shared systemic assumptions remain visible
+- laboratories are independent
+- instrumentation may differ
+- analysis pipelines should ideally differ
+- shared systemic assumptions remain visible
 
 ---
 
@@ -1276,12 +1276,12 @@ where:
 
 Two laboratories can still share:
 
-* calibration standards
-* statistical assumptions
-* theory priors
-* software
-* datasets
-* publication incentives
+- calibration standards
+- statistical assumptions
+- theory priors
+- software
+- datasets
+- publication incentives
 
 Therefore:
 
@@ -1316,9 +1316,9 @@ The source proposes multiple diagnostic methods before major treatment decisions
 
 Examples include:
 
-* imaging + laboratory test
-* one modality + another modality
-* independent clinical evidence
+- imaging + laboratory test
+- one modality + another modality
+- independent clinical evidence
 
 Canonical safety boundary:
 
@@ -1328,12 +1328,12 @@ T2 FRAMEWORK != MEDICAL PROTOCOL
 
 Actual clinical requirements depend on:
 
-* disease
-* guideline
-* jurisdiction
-* test characteristics
-* urgency
-* patient context
+- disease
+- guideline
+- jurisdiction
+- test characteristics
+- urgency
+- patient context
 
 ---
 
@@ -1395,12 +1395,12 @@ This is a conceptual gating rule.
 
 An AI subsystem checking another AI subsystem does not create independent evidence if both share:
 
-* model weights
-* prompt ancestry
-* training data
-* retrieved evidence
-* reasoning path
-* system instructions
+- model weights
+- prompt ancestry
+- training data
+- retrieved evidence
+- reasoning path
+- system instructions
 
 Therefore:
 
@@ -1458,9 +1458,9 @@ The source proposes independent evidence in legal judgment.
 
 Examples include:
 
-* witness + camera
-* testimony + DNA
-* appeal/review as temporal or institutional revalidation
+- witness + camera
+- testimony + DNA
+- appeal/review as temporal or institutional revalidation
 
 Canonical firewall:
 
@@ -1494,10 +1494,10 @@ and seek distinct forms of analysis.
 
 Possible source examples:
 
-* financial statements
-* independent research
-* market data
-* separate analysts
+- financial statements
+- independent research
+- market data
+- separate analysts
 
 ---
 
@@ -1543,9 +1543,9 @@ Ten outlets repeating one wire-service claim may represent one root.
 
 The source uses:
 
-* witnesses
-* written record
-* spoken commitment
+- witnesses
+- written record
+- spoken commitment
 
 as examples of redundancy.
 
@@ -1579,9 +1579,9 @@ $$
 
 Time separation can detect:
 
-* transient states
-* short-term measurement noise
-* unstable phenomena
+- transient states
+- short-term measurement noise
+- unstable phenomena
 
 but:
 
@@ -1617,11 +1617,11 @@ Geographic separation can improve independence.
 
 But stations may still share:
 
-* hardware design
-* software
-* calibration
-* central data pipeline
-* common environmental bias
+- hardware design
+- software
+- calibration
+- central data pipeline
+- common environmental bias
 
 Therefore:
 
@@ -1667,10 +1667,10 @@ $$
 
 because both may share:
 
-* common observations
-* common misinformation
-* common assumptions
-* strategic incentives
+- common observations
+- common misinformation
+- common assumptions
+- strategic incentives
 
 ---
 
@@ -1750,10 +1750,10 @@ T2 may increase evidence support.
 
 It must not silently modify:
 
-* scope
-* regime
-* causal level
-* claim class
+- scope
+- regime
+- causal level
+- claim class
 
 without justification.
 
@@ -1815,11 +1815,11 @@ $$
 
 when:
 
-* evidence expires
-* regime changes
-* source is retracted
-* dependency fails
-* context changes
+- evidence expires
+- regime changes
+- source is retracted
+- dependency fails
+- context changes
 
 ---
 
@@ -1909,11 +1909,11 @@ This is preserved as a source-defined heuristic.
 
 Without normalization and definitions for:
 
-* probability
-* impact units
-* interaction effects
-* correlation
-* event overlap
+- probability
+- impact units
+- interaction effects
+- correlation
+- event overlap
 
 the expression should not be treated as a calibrated probability.
 
@@ -2004,12 +2004,12 @@ This preserves the source's integrity objective while avoiding unnecessary valid
 
 The source lists potential consequences of missing T2 in:
 
-* science
-* medicine
-* AI
-* finance
-* military/security
-* personal life
+- science
+- medicine
+- AI
+- finance
+- military/security
+- personal life
 
 The associated percentages are **source estimates** and should not be promoted as empirically verified rates.
 
@@ -2019,9 +2019,9 @@ The associated percentages are **source estimates** and should not be promoted a
 
 Values such as:
 
-* 10–30%
-* 5–15%
-* 20–50%
+- 10–30%
+- 5–15%
+- 20–50%
 
 must be tagged:
 
@@ -2123,9 +2123,9 @@ The source proposes that historical events require at least two independent evid
 
 Examples:
 
-* separate civilizations
-* archaeology + textual record
-* independent archives
+- separate civilizations
+- archaeology + textual record
+- independent archives
 
 This is a source-defined evidence heuristic.
 
@@ -2135,12 +2135,12 @@ This is a source-defined evidence heuristic.
 
 Historical method often relies on:
 
-* source criticism
-* provenance
-* context
-* material evidence
-* comparative records
-* dating methods
+- source criticism
+- provenance
+- context
+- material evidence
+- comparative records
+- dating methods
 
 Some historical facts may be well supported even where exactly two independent documentary roots do not exist.
 
@@ -2185,10 +2185,10 @@ $$
 
 Expert intuition may be useful evidence within scope, but its confidence depends on:
 
-* experience
-* domain feedback quality
-* calibration
-* regime stability
+- experience
+- domain feedback quality
+- calibration
+- regime stability
 
 ---
 
@@ -2289,9 +2289,9 @@ This is `PROPOSED`, not source canon and not a calibrated measure.
 
 The source permits rare exceptions when:
 
-* immediate action is required
-* time is insufficient
-* expected harm from inaction exceeds potential harm from action
+- immediate action is required
+- time is insufficient
+- expected harm from inaction exceeds potential harm from action
 
 Examples include emergency medicine and aviation.
 
@@ -2355,9 +2355,9 @@ The source places non-empirical beliefs primarily in H.
 
 It argues that such beliefs themselves may not be empirically T2-testable, but actions derived from them should be checked against:
 
-* foundational reality/context
-* social consequences
-* personal conscience/value layer
+- foundational reality/context
+- social consequences
+- personal conscience/value layer
 
 ---
 
@@ -2463,11 +2463,11 @@ after a regime shift.
 
 Examples:
 
-* market regimes
-* biological conditions
-* policy environments
-* hardware environments
-* social conditions
+- market regimes
+- biological conditions
+- policy environments
+- hardware environments
+- social conditions
 
 ---
 
@@ -2511,10 +2511,10 @@ unless the evidence type licenses causal inference.
 
 A stronger causal validation may require independent paths such as:
 
-* experimental manipulation
-* temporal ordering
-* mechanism evidence
-* confounder control
+- experimental manipulation
+- temporal ordering
+- mechanism evidence
+- confounder control
 
 The required evidence type depends on the causal claim.
 
@@ -2723,11 +2723,11 @@ state: CONDITIONAL
 
 when:
 
-* independence is partial
-* one path is weak
-* time validity is limited
-* scope is narrow
-* measurement uncertainty remains material
+- independence is partial
+- one path is weak
+- time validity is limited
+- scope is narrow
+- measurement uncertainty remains material
 
 ---
 
@@ -2843,10 +2843,10 @@ Independent failure to reproduce a claim can be more decision-relevant than addi
 
 Therefore T2 should preserve:
 
-* positive confirmations
-* negative results
-* null results
-* contradiction evidence
+- positive confirmations
+- negative results
+- null results
+- contradiction evidence
 
 ---
 
@@ -2868,14 +2868,14 @@ where any valid falsifier may downgrade or invalidate the T2 state.
 
 Revalidate when:
 
-* source retracted
-* data revised
-* model changed
-* regime changed
-* environment changed
-* contradiction discovered
-* provenance correlation discovered
-* decision consequence increased
+- source retracted
+- data revised
+- model changed
+- regime changed
+- environment changed
+- contradiction discovered
+- provenance correlation discovered
+- decision consequence increased
 
 ---
 
@@ -3052,9 +3052,9 @@ The purpose of validation is not infinite evidence accumulation.
 
 Stop when:
 
-* claim sufficiency
-* decision sufficiency
-* action sufficiency
+- claim sufficiency
+- decision sufficiency
+- action sufficiency
 
 are achieved for the stakes involved.
 
@@ -3064,11 +3064,11 @@ are achieved for the stakes involved.
 
 Excessive T2 can create:
 
-* delay
-* opportunity loss
-* computational waste
-* inability to act
-* repeated low-value checking
+- delay
+- opportunity loss
+- computational waste
+- inability to act
+- repeated low-value checking
 
 Therefore:
 
@@ -3573,12 +3573,12 @@ $$
 
 Examples include:
 
-* same defective sensor design
-* same corrupted database
-* same mistaken theory
-* same copied article
-* same benchmark leakage
-* same software bug
+- same defective sensor design
+- same corrupted database
+- same mistaken theory
+- same copied article
+- same benchmark leakage
+- same software bug
 
 Therefore T2 should explicitly inspect **common-mode failure**.
 
@@ -3834,12 +3834,12 @@ unless dependency topology requires it.
 
 Persistent memory should store:
 
-* the claim
-* why it passed
-* which roots supported it
-* when they were checked
-* what regime applied
-* what would invalidate the result
+- the claim
+- why it passed
+- which roots supported it
+- when they were checked
+- what regime applied
+- what would invalidate the result
 
 Without this:
 
@@ -4086,9 +4086,9 @@ $$
 
 Entire fields can share:
 
-* measurement conventions
-* ontology
-* foundational assumptions
+- measurement conventions
+- ontology
+- foundational assumptions
 
 Therefore T2 improves reliability but cannot guarantee escape from paradigm-wide failure.
 
@@ -4124,10 +4124,10 @@ $$
 
 T2 applies primarily before:
 
-* commitment
-* persistence
-* high-stakes action
-* epistemic promotion
+- commitment
+- persistence
+- high-stakes action
+- epistemic promotion
 
 Thus:
 
@@ -4264,12 +4264,12 @@ $$
 
 where:
 
-* $C$ = claim
-* $E$ = evidence
-* $P$ = provenance topology
-* $S$ = scope
-* $R$ = regime
-* $T$ = temporal validity
+- $C$ = claim
+- $E$ = evidence
+- $P$ = provenance topology
+- $S$ = scope
+- $R$ = regime
+- $T$ = temporal validity
 
 ---
 
@@ -4355,15 +4355,15 @@ $$
 
 The following remain `AMOS_MODEL / SOURCE_CLAIM` rather than independently verified:
 
-* fixed T2 confidence percentages
-* universal mandatory use across all decisions
-* universal long-run cost superiority
-* exact T2 reliability equations
-* specific cross-domain legal/medical rules
-* T2* as a universal truth criterion
-* ASEA runtime enforcement
-* cell-to-civilization universality
-* historical priority claim
+- fixed T2 confidence percentages
+- universal mandatory use across all decisions
+- universal long-run cost superiority
+- exact T2 reliability equations
+- specific cross-domain legal/medical rules
+- T2* as a universal truth criterion
+- ASEA runtime enforcement
+- cell-to-civilization universality
+- historical priority claim
 
 ---
 

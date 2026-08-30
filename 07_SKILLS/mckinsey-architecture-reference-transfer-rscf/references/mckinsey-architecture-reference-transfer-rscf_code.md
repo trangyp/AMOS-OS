@@ -58,7 +58,6 @@ class ArchitectureReferenceTransfer:
         """Apply the transfer map to produce target architecture."""
         return {"transferred": True, "domain": self.target_domain}
 ```
-
 ---
 **MOC:** references_MOC
 

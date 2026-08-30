@@ -1,4 +1,5 @@
 ---
+title: AMOS_EMOTION_COGNITION_DECISION_BRIDGE_GOVERNOR
 tags:
 - knowledge
 - emotion
@@ -6,6 +7,13 @@ tags:
 - decision
 - bridge
 - governor
+type: note
+source: 11_KNOWLEDGE
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
 
 # AMOS EMOTION COGNITION DECISION BRIDGE GOVERNOR
@@ -155,9 +163,9 @@ $$
 
 where the supplied source identifies:
 
-* **C05** — Mind & Behavior
-* **C01** — Meta-Logic
-* **C10** — Tech & Engineering
+- **C05** — Mind & Behavior
+- **C01** — Meta-Logic
+- **C10** — Tech & Engineering
 
 Its central problem is not simply “using emotion in decisions.”
 
@@ -1703,9 +1711,9 @@ $$
 
 where:
 
-* \(R_{C05}\) = source-defined risk alert contribution,
-* \(U_{C01}\) = uncertainty contribution,
-* \(G_{C10}\) = technical risk gate contribution.
+- \(R_{C05}\) = source-defined risk alert contribution,
+- \(U_{C01}\) = uncertainty contribution,
+- \(G_{C10}\) = technical risk gate contribution.
 
 But:
 
@@ -3253,9 +3261,9 @@ $$
 
 where:
 
-* \(E_{C05}\) = emotion-state contribution,
-* \(M_{C01}\) = cognitive/meta-logic contribution,
-* \(T_{C10}\) = technical constraint contribution.
+- \(E_{C05}\) = emotion-state contribution,
+- \(M_{C01}\) = cognitive/meta-logic contribution,
+- \(T_{C10}\) = technical constraint contribution.
 
 But `⊗` is **PROPOSED notation** here and must not be treated as source-defined tensor semantics.
 

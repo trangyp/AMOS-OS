@@ -78,18 +78,18 @@ VERIFIED REALITY
 
 The purpose of the L00 skill layer is therefore to ensure that capabilities interacting with reality-sensitive state preserve:
 
-* epistemic typing;
-* evidence provenance;
-* observation/model distinction;
-* scope;
-* regime;
-* temporal validity;
-* H/M/L scale;
-* dependency closure;
-* uncertainty;
-* falsifiability;
-* governance;
-* reversibility where required.
+- epistemic typing;
+- evidence provenance;
+- observation/model distinction;
+- scope;
+- regime;
+- temporal validity;
+- H/M/L scale;
+- dependency closure;
+- uncertainty;
+- falsifiability;
+- governance;
+- reversibility where required.
 
 ---
 
@@ -147,13 +147,13 @@ S(X,C,E,G)
 
 where:
 
-* \(X\) = typed inputs;
-* \(C\) = context and constraints;
-* \(E\) = evidence/provenance state;
-* \(G\) = governance state;
-* \(Y\) = output;
-* \(P\) = resulting provenance;
-* \(U\) = uncertainty.
+- \(X\) = typed inputs;
+- \(C\) = context and constraints;
+- \(E\) = evidence/provenance state;
+- \(G\) = governance state;
+- \(Y\) = output;
+- \(P\) = resulting provenance;
+- \(U\) = uncertainty.
 
 ---
 
@@ -703,16 +703,16 @@ T_E
 
 Required operations include:
 
-* identify source;
-* classify source type;
-* resolve ancestry;
-* group correlated evidence;
-* determine claim support;
-* score freshness by claim;
-* compare scope/regime;
-* attach falsifier where possible;
-* detect revocation;
-* quarantine contaminated evidence.
+- identify source;
+- classify source type;
+- resolve ancestry;
+- group correlated evidence;
+- determine claim support;
+- score freshness by claim;
+- compare scope/regime;
+- attach falsifier where possible;
+- detect revocation;
+- quarantine contaminated evidence.
 
 ---
 

@@ -3514,7 +3514,6 @@ COMMIT
 →
 AUTHORIZATION REVALIDATION
 ```
-
 ```text
 E-3
 
@@ -3526,7 +3525,6 @@ UNKNOWN OUTCOME
 →
 NO BLIND REDISPATCH
 ```
-
 ```text
 E-4
 
@@ -3536,7 +3534,6 @@ EFFECT DIGEST
 →
 LEDGER RECORD
 ```
-
 The resulting execution rule is conceptually:
 
 ```text

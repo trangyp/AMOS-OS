@@ -8,6 +8,11 @@ tags:
 - prediction
 - tpe-trang-prediction-engine
 - amos-x-tpe
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: universe_canon
 ---
 
 # TPE Prediction Layer

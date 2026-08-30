@@ -135,27 +135,27 @@ This map should be reconciled against the latest authoritative AMOS corpus befor
 
 Relevant AMOS lineage includes the structural concepts represented in:
 
-* AMOS_CORE lineage through the latest available v4.4 material;
-* deterministic logic and typed state;
-* RSCF recursive claim/evidence structures;
-* H/M/L decomposition;
-* provenance topology;
-* provenance/Sybil hardening;
-* governed evolution;
-* causal lineage;
-* epistemic regimes;
-* competing hypotheses;
-* persistent provenance;
-* MVCC/CAS-style state protection;
-* atomic multi-RSCF reasoning;
-* causal epoch finality;
-* shard-local finalization;
-* proof-based coordination avoidance;
-* infrastructure/control-plane separation;
-* session and context governance;
-* information-boundary governance;
-* commit-time authorization;
-* repair and selective invalidation.
+- AMOS_CORE lineage through the latest available v4.4 material;
+- deterministic logic and typed state;
+- RSCF recursive claim/evidence structures;
+- H/M/L decomposition;
+- provenance topology;
+- provenance/Sybil hardening;
+- governed evolution;
+- causal lineage;
+- epistemic regimes;
+- competing hypotheses;
+- persistent provenance;
+- MVCC/CAS-style state protection;
+- atomic multi-RSCF reasoning;
+- causal epoch finality;
+- shard-local finalization;
+- proof-based coordination avoidance;
+- infrastructure/control-plane separation;
+- session and context governance;
+- information-boundary governance;
+- commit-time authorization;
+- repair and selective invalidation.
 
 These references establish architectural ancestry, not automatic implementation proof.
 
@@ -496,13 +496,13 @@ Validation under one scope or regime does not automatically transfer to another.
 
 No performance optimization may silently bypass:
 
-* authority;
-* provenance;
-* constraint validation;
-* freshness;
-* dependency integrity;
-* rollback requirements;
-* commit-time validation.
+- authority;
+- provenance;
+- constraint validation;
+- freshness;
+- dependency integrity;
+- rollback requirements;
+- commit-time validation.
 
 ---
 
@@ -951,15 +951,15 @@ Quarantine is required when an object cannot safely be promoted or rejected imme
 
 Typical reasons:
 
-* provenance ambiguity;
-* unresolved conflict;
-* stale state;
-* schema mismatch;
-* suspected contamination;
-* uncertain authority;
-* failed validation;
-* unknown semantic origin;
-* regime mismatch.
+- provenance ambiguity;
+- unresolved conflict;
+- stale state;
+- schema mismatch;
+- suspected contamination;
+- uncertain authority;
+- failed validation;
+- unknown semantic origin;
+- regime mismatch.
 
 Quarantine means:
 
@@ -981,36 +981,36 @@ The control plane applies recursively across AMOS scales.
 
 Controls:
 
-* global task contract;
-* policy hierarchy;
-* system authority;
-* cross-domain constraints;
-* global provenance requirements;
-* finality conditions;
-* evolution governance.
+- global task contract;
+- policy hierarchy;
+- system authority;
+- cross-domain constraints;
+- global provenance requirements;
+- finality conditions;
+- evolution governance.
 
 ## M — Subsystem / Workflow Scale
 
 Controls:
 
-* workflow state;
-* subsystem transactions;
-* agent coordination;
-* dependency closure;
-* intermediate validation;
-* local resource and authority constraints.
+- workflow state;
+- subsystem transactions;
+- agent coordination;
+- dependency closure;
+- intermediate validation;
+- local resource and authority constraints.
 
 ## L — Operation / Object Scale
 
 Controls:
 
-* individual tool calls;
-* state reads;
-* evidence records;
-* variable updates;
-* proposed effects;
-* atomic validation;
-* local commit eligibility.
+- individual tool calls;
+- state reads;
+- evidence records;
+- variable updates;
+- proposed effects;
+- atomic validation;
+- local commit eligibility.
 
 Cross-scale invariant:
 
@@ -1067,24 +1067,24 @@ Skills expose bounded capability.
 
 A Skill may:
 
-* parse;
-* retrieve;
-* calculate;
-* model;
-* validate;
-* generate;
-* compare;
-* diagnose;
-* propose repair.
+- parse;
+- retrieve;
+- calculate;
+- model;
+- validate;
+- generate;
+- compare;
+- diagnose;
+- propose repair.
 
 A Skill does not automatically own:
 
-* authoritative state;
-* durable commit;
-* permission escalation;
-* policy override;
-* provenance erasure;
-* authority creation.
+- authoritative state;
+- durable commit;
+- permission escalation;
+- policy override;
+- provenance erasure;
+- authority creation.
 
 Invariant:
 
@@ -1277,10 +1277,10 @@ confidence_ceiling: 0.70
 
 Interpretation:
 
-* strong structural alignment with the available AMOS control-plane architecture;
-* not equivalent to full canon recovery;
-* not proof of runtime implementation;
-* exact package names, schemas and operator names require source reconciliation.
+- strong structural alignment with the available AMOS control-plane architecture;
+- not equivalent to full canon recovery;
+- not proof of runtime implementation;
+- exact package names, schemas and operator names require source reconciliation.
 
 ---
 
@@ -1541,13 +1541,13 @@ A faster execution path must fail validation if it bypasses a mandatory governan
 
 The following would falsify or materially weaken this map:
 
-* authoritative AMOS canon defines the control plane differently;
-* a newer superseding artifact replaces the mapped architecture;
-* named components are found to belong to the cognition/data plane rather than control plane;
-* source lineage demonstrates that a proposed invariant is not part of AMOS;
-* executable runtime evidence contradicts assumed state transitions;
-* control-plane package structure differs materially from the provisional hierarchy;
-* authoritative implementation establishes different authority/commit semantics.
+- authoritative AMOS canon defines the control plane differently;
+- a newer superseding artifact replaces the mapped architecture;
+- named components are found to belong to the cognition/data plane rather than control plane;
+- source lineage demonstrates that a proposed invariant is not part of AMOS;
+- executable runtime evidence contradicts assumed state transitions;
+- control-plane package structure differs materially from the provisional hierarchy;
+- authoritative implementation establishes different authority/commit semantics.
 
 When falsified:
 
@@ -1692,20 +1692,20 @@ The previous placeholder should remain discoverable through repository/Drive rev
 
 This artifact must not be promoted to fully validated canon until the following are resolved:
 
-* authoritative source references;
-* exact control-plane package inventory;
-* canonical variable names;
-* canonical operator names;
-* canonical invariant identifiers;
-* authority schema;
-* transaction schema;
-* state/version semantics;
-* provenance schema;
-* exact H/M/L mapping;
-* executable implementation references;
-* validator implementations;
-* executed test evidence;
-* supersession lineage.
+- authoritative source references;
+- exact control-plane package inventory;
+- canonical variable names;
+- canonical operator names;
+- canonical invariant identifiers;
+- authority schema;
+- transaction schema;
+- state/version semantics;
+- provenance schema;
+- exact H/M/L mapping;
+- executable implementation references;
+- validator implementations;
+- executed test evidence;
+- supersession lineage.
 
 ---
 

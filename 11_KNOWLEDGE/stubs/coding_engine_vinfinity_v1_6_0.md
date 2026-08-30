@@ -6,6 +6,13 @@ tags:
 - engine
 - vinfinity
 - coding-engine-vinfinity-v1-6-0
+type: note
+source: 11_KNOWLEDGE/stubs
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # coding engine vinfinity v1 6 0

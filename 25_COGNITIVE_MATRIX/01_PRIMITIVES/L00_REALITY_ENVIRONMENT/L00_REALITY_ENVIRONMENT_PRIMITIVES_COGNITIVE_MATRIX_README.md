@@ -61,25 +61,25 @@ so that internal reasoning cannot silently substitute representation for reality
 
 The L00 layer establishes the structural foundation required for AMOS to answer:
 
-* What environment is being reasoned about?
-* What was actually observed?
-* How was it observed?
-* What was measured?
-* What was inferred?
-* What is only modeled or simulated?
-* Which evidence supports a claim?
-* Where did that evidence originate?
-* What scope and regime does it apply to?
-* Is it still fresh?
-* What uncertainty remains?
-* What external state was actually read?
-* What action is being proposed?
-* Who has authority to act?
-* What was actually committed?
-* What effect occurred?
-* What failed?
-* What must be repaired?
-* What evidence is required before recovery can be declared?
+- What environment is being reasoned about?
+- What was actually observed?
+- How was it observed?
+- What was measured?
+- What was inferred?
+- What is only modeled or simulated?
+- Which evidence supports a claim?
+- Where did that evidence originate?
+- What scope and regime does it apply to?
+- Is it still fresh?
+- What uncertainty remains?
+- What external state was actually read?
+- What action is being proposed?
+- Who has authority to act?
+- What was actually committed?
+- What effect occurred?
+- What failed?
+- What must be repaired?
+- What evidence is required before recovery can be declared?
 
 The governing principle is:
 
@@ -150,16 +150,16 @@ L00 is the foundational reality-contact layer beneath higher AMOS reasoning, mem
 
 Let:
 
-* \(W_t\) = external environment state;
-* \(O_t\) = observation;
-* \(M_t\) = measurement;
-* \(X_t\) = internal representation;
-* \(B_t\) = belief/model state;
-* \(C_t\) = claim state;
-* \(D_t\) = decision;
-* \(P_t\) = action proposal;
-* \(A_t\) = authorized action;
-* \(E_t\) = external effect.
+- \(W_t\) = external environment state;
+- \(O_t\) = observation;
+- \(M_t\) = measurement;
+- \(X_t\) = internal representation;
+- \(B_t\) = belief/model state;
+- \(C_t\) = claim state;
+- \(D_t\) = decision;
+- \(P_t\) = action proposal;
+- \(A_t\) = authorized action;
+- \(E_t\) = external effect.
 
 Then the L00 interaction architecture is:
 
@@ -1963,13 +1963,13 @@ U_P
 
 where:
 
-* \(U_E\) = evidence uncertainty;
-* \(U_M\) = model uncertainty;
-* \(U_S\) = scope uncertainty;
-* \(U_T\) = temporal uncertainty;
-* \(U_C\) = causal uncertainty;
-* \(U_X\) = execution uncertainty;
-* \(U_P\) = provenance/independence uncertainty.
+- \(U_E\) = evidence uncertainty;
+- \(U_M\) = model uncertainty;
+- \(U_S\) = scope uncertainty;
+- \(U_T\) = temporal uncertainty;
+- \(U_C\) = causal uncertainty;
+- \(U_X\) = execution uncertainty;
+- \(U_P\) = provenance/independence uncertainty.
 
 ---
 
@@ -2243,10 +2243,10 @@ Preserve(x)
 
 Let:
 
-* \(S_V\) = unaffected valid state;
-* \(S_F\) = failed state;
-* \(R_F\) = repaired state;
-* \(D_F\) = dependent state.
+- \(S_V\) = unaffected valid state;
+- \(S_F\) = failed state;
+- \(R_F\) = repaired state;
+- \(D_F\) = dependent state.
 
 Then:
 

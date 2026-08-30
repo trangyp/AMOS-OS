@@ -206,20 +206,15 @@ concept validation while building organizational confi
 ```
 Reality = Persistence of Distinction
 ```
-
-
 ```
 Potential ⇄ Distinction ⇄ Observer ⇄ Inquiry ⇄ Higher Distinction
 ```
-
 Everything else—physics, biology, mind, civilization, suffering, healing—is a fractal expression of this at different scales.
 
 
 ```
 Human = Nested Memory Architecture
 ```
-
-
 ```
 BAD: Humans are not primarily rational creatures
 GOOD: The majority of human cognitive processing is automatic, affective, and regulatory
@@ -235,7 +230,6 @@ GOOD: Approximately 80% of the ~100,000 vag
 
 -
 ```
-
 ---
 
 **Related:** [[amos-arxiv-autonomous-scientific-knowledge-rscf_MOC]]

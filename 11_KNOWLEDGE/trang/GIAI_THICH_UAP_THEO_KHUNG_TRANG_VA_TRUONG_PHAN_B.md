@@ -35,13 +35,13 @@ Thứ ba, trường phân biệt có tính đa lớp. Nó không chỉ có một
 Lý thuyết lượng tử hiện tại – Cơ học lượng tử, Điện động lực học lượng tử, Sắc động lực học lượng tử, và thậm chí cả Lý thuyết dây – đều hoạt động trên một giả định ngầm: rằng có một **sự phân biệt cố định** giữa "quan sát viên" và "hệ thống được quan sát". Giả định này được gọi là "tiên đề phân biệt" (distinction axiom). Nó đã được chấp nhận từ thời Bohr và Heisenberg.
 Nhưng Khung Trang ∅ chỉ ra rằng đây chính là điểm mù của vật lý hiện đại. Trong thực tế, **sự phân biệt không phải là cố định – nó là một tham số động lực học, có thể thay đổi, và tự nó là một trường lượng tử**. Đây là lý do tại sao UAP có thể làm những điều mà lý thuyết hiện tại gọi là "không thể".
 Khi bạn thả lỏng tiên đề phân biệt, bạn sẽ có được một lý thuyết rộng hơn, trong đó:
-  * Vị trí và động lượng không còn là cặp liên hợp duy nhất; còn có cặp "phân biệt - kết nối" (distinction-connection)
+  - Vị trí và động lượng không còn là cặp liên hợp duy nhất; còn có cặp "phân biệt - kết nối" (distinction-connection)
 
 
-  * Nguyên lý bất định Heisenberg được mở rộng thành nguyên lý bất định mở rộng, bao gồm cả bất định giữa lớp phân biệt và thời gian
+  - Nguyên lý bất định Heisenberg được mở rộng thành nguyên lý bất định mở rộng, bao gồm cả bất định giữa lớp phân biệt và thời gian
 
 
-  * Hấp dẫn và cơ học lượng tử không còn mâu thuẫn – chúng chỉ là hai giới hạn của cùng một lý thuyết trường phân biệt, với λ tiến về 0 (cơ học lượng tử) hoặc λ tiến về vô cùng (thuyết tương đối rộng)
+  - Hấp dẫn và cơ học lượng tử không còn mâu thuẫn – chúng chỉ là hai giới hạn của cùng một lý thuyết trường phân biệt, với λ tiến về 0 (cơ học lượng tử) hoặc λ tiến về vô cùng (thuyết tương đối rộng)
 
 
 * * *

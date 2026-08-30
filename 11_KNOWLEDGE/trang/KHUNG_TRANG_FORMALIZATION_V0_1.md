@@ -24,34 +24,34 @@ Một **hệ** được ký hiệu:
     S = (D, R, C, B, M, E, V, Sel, Rep, O)
 ```
 Trong đó:
-  * : distinctions — các phân biệt / đơn vị / trạng thái;
+  - : distinctions — các phân biệt / đơn vị / trạng thái;
 
 
-  * : relations — quan hệ giữa các distinction;
+  - : relations — quan hệ giữa các distinction;
 
 
-  * : constraints — ràng buộc ổn định quan hệ;
+  - : constraints — ràng buộc ổn định quan hệ;
 
 
-  * : boundary — biên phân biệt trong/ngoài;
+  - : boundary — biên phân biệt trong/ngoài;
 
 
-  * : memory — cơ chế duy trì qua thời gian;
+  - : memory — cơ chế duy trì qua thời gian;
 
 
-  * : entropy pressure — áp lực suy hao, nhiễu, phân rã;
+  - : entropy pressure — áp lực suy hao, nhiễu, phân rã;
 
 
-  * : variation/mutation — biến đổi, thử nghiệm, nhiễu sinh khả năng mới;
+  - : variation/mutation — biến đổi, thử nghiệm, nhiễu sinh khả năng mới;
 
 
-  * : selection — chọn lọc biến thể;
+  - : selection — chọn lọc biến thể;
 
 
-  * : repair — sửa sai, phục hồi coherence;
+  - : repair — sửa sai, phục hồi coherence;
 
 
-  * : observer/measurement — cơ chế quan sát, đo, nén biểu tượng.
+  - : observer/measurement — cơ chế quan sát, đo, nén biểu tượng.
 
 
 * * *
@@ -233,22 +233,22 @@ Một hệ phức tạp tồn tại qua thời gian cần chuỗi điều kiện
     D \rightarrow R \rightarrow C \rightarrow B \rightarrow M \rightarrow Rep
 ```
 ### Proof sketch
-  * Không : không có gì để gọi là hệ.
+  - Không : không có gì để gọi là hệ.
 
 
-  * Có nhưng không : chỉ có điểm rời.
+  - Có nhưng không : chỉ có điểm rời.
 
 
-  * Có nhưng không : không có pattern ổn định.
+  - Có nhưng không : không có pattern ổn định.
 
 
-  * Có nhưng không : không có identity trong/ngoài.
+  - Có nhưng không : không có identity trong/ngoài.
 
 
-  * Có nhưng không : không có persistence.
+  - Có nhưng không : không có persistence.
 
 
-  * Có nhưng không : entropy tích lũy phá coherence.
+  - Có nhưng không : entropy tích lũy phá coherence.
 
 
 Do đó chuỗi là điều kiện cần cho hệ bền.
@@ -330,16 +330,16 @@ Nếu có domain constraint:
     G_C \rightarrow feasible(output)
 ```
 Ví dụ:
-  * molecule generation cần synthesizability;
+  - molecule generation cần synthesizability;
 
 
-  * image generation cần text/face localized loss;
+  - image generation cần text/face localized loss;
 
 
-  * weather intervention cần physical plausibility;
+  - weather intervention cần physical plausibility;
 
 
-  * remote sensing cần terrain + atmosphere priors.
+  - remote sensing cần terrain + atmosphere priors.
 
 
 * * *
@@ -412,13 +412,13 @@ Mọi hệ có thể phân tầng:
     S = (L, M, H)
 ```
 Trong đó:
-  * : phần tử, vật chất, dữ liệu, sensor, substrate;
+  - : phần tử, vật chất, dữ liệu, sensor, substrate;
 
 
-  * : coupling, dynamics, protocol, interface, transformation;
+  - : coupling, dynamics, protocol, interface, transformation;
 
 
-  * : mục tiêu, pattern toàn cục, governance, meaning, claim.
+  - : mục tiêu, pattern toàn cục, governance, meaning, claim.
 
 
 ## H/M/L Failure Modes
@@ -586,55 +586,55 @@ The formal core:
     P \rightarrow A \rightarrow D \rightarrow R \rightarrow C \rightarrow B \rightarrow Pe \rightarrow M \rightarrow E \rightarrow V \rightarrow Sel \rightarrow Rep \rightarrow Rec \rightarrow O \rightarrow SC \rightarrow Civ \rightarrow Meta
 ```
 Where:
-  * : potential;
+  - : potential;
 
 
-  * : asymmetry;
+  - : asymmetry;
 
 
-  * : distinction;
+  - : distinction;
 
 
-  * : relation;
+  - : relation;
 
 
-  * : constraint;
+  - : constraint;
 
 
-  * : boundary;
+  - : boundary;
 
 
-  * : persistence;
+  - : persistence;
 
 
-  * : memory;
+  - : memory;
 
 
-  * : entropy pressure;
+  - : entropy pressure;
 
 
-  * : variation/mutation;
+  - : variation/mutation;
 
 
-  * : selection;
+  - : selection;
 
 
-  * : repair;
+  - : repair;
 
 
-  * : recursion;
+  - : recursion;
 
 
-  * : observer;
+  - : observer;
 
 
-  * : symbolic compression;
+  - : symbolic compression;
 
 
-  * : civilization;
+  - : civilization;
 
 
-  * : meta-awareness / gap ontology.
+  - : meta-awareness / gap ontology.
 
 
 * * *
@@ -660,31 +660,31 @@ If gap is hidden:
 * * *
 # 12\. Formal Difference From Existing Frameworks
 Khung Trang is not only:
-  * systems theory;
+  - systems theory;
 
 
-  * cybernetics;
+  - cybernetics;
 
 
-  * thermodynamics;
+  - thermodynamics;
 
 
-  * evolution;
+  - evolution;
 
 
-  * information theory;
+  - information theory;
 
 
-  * complexity science;
+  - complexity science;
 
 
-  * control theory;
+  - control theory;
 
 
-  * topology;
+  - topology;
 
 
-  * cognition theory.
+  - cognition theory.
 
 
 It integrates them as:

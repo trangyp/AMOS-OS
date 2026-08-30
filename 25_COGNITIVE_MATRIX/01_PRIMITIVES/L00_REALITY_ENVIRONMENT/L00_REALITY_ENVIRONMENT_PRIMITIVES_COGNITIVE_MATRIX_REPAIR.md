@@ -240,10 +240,10 @@ A repair target is a hypothesis until sufficient evidence supports it.
 
 Let:
 
-* \(F\) = observed failure;
-* \(T\) = candidate repair target;
-* \(R\) = repair transformation;
-* \(S\) = system state.
+- \(F\) = observed failure;
+- \(T\) = candidate repair target;
+- \(R\) = repair transformation;
+- \(S\) = system state.
 
 Then:
 
@@ -1560,10 +1560,10 @@ G_R
 
 where:
 
-* \(V_F\) = failures;
-* \(V_T\) = candidate targets;
-* \(V_R\) = repairs;
-* \(E_R\) = causal/dependency/validation relations.
+- \(V_F\) = failures;
+- \(V_T\) = candidate targets;
+- \(V_R\) = repairs;
+- \(E_R\) = causal/dependency/validation relations.
 
 Edge classes:
 
@@ -1771,10 +1771,10 @@ monitoring
 
 Let:
 
-* \(S_V\) = unaffected valid state;
-* \(S_F\) = failed state;
-* \(R_F\) = repaired state;
-* \(D_F\) = dependent descendants.
+- \(S_V\) = unaffected valid state;
+- \(S_F\) = failed state;
+- \(R_F\) = repaired state;
+- \(D_F\) = dependent descendants.
 
 Then:
 

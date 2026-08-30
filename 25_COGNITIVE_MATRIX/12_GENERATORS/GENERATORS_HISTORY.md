@@ -3011,17 +3011,17 @@ NON_AUTHORITATIVE
 
 ## Related Generator artifacts
 
-* Generator Contract
-* Generator Provenance
-* Generator Validation
-* Generator Tests
-* Generator Roadmap
-* Generator Integration
-* Generator Registry
-* Supersession Registry
-* Rollback Manifest
-* Authoritative State
-* Provenance Manifest
+- Generator Contract
+- Generator Provenance
+- Generator Validation
+- Generator Tests
+- Generator Roadmap
+- Generator Integration
+- Generator Registry
+- Supersession Registry
+- Rollback Manifest
+- Authoritative State
+- Provenance Manifest
 
 ```
 
@@ -3065,3 +3065,5 @@ claim_class: AMOS_MODEL
 ---
 **MOC:**
 
+
+```

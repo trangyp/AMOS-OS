@@ -73,18 +73,18 @@ The supplied `0.95` hard confidence ceiling is retained as part of the proposed 
 
 L6 exists to make uncertainty:
 
-* explicit;
-* typed;
-* scoped;
-* dependency-aware;
-* provenance-aware;
-* regime-aware;
-* temporally bounded;
-* non-collapsible;
-* selectively reducible;
-* propagatable through RSCF;
-* auditable by validators;
-* actionable without fabrication.
+- explicit;
+- typed;
+- scoped;
+- dependency-aware;
+- provenance-aware;
+- regime-aware;
+- temporally bounded;
+- non-collapsible;
+- selectively reducible;
+- propagatable through RSCF;
+- auditable by validators;
+- actionable without fabrication.
 
 The primary law is:
 
@@ -102,23 +102,18 @@ UNKNOWN → ASSUMED
 ```text
 AMBIGUOUS → ARBITRARILY SELECTED
 ```
-
 ```text
 COMPETING → AVERAGED
 ```
-
 ```text
 WEAK EVIDENCE → HIGH CONFIDENCE
 ```
-
 ```text
 MISSING EVIDENCE → PLAUSIBLE COMPLETION
 ```
-
 ```text
 MODEL UNCERTAINTY → SOURCE CERTAINTY
 ```
-
 and:
 
 ```text
@@ -243,12 +238,12 @@ unless a specific calibrated statistical interpretation has been established.
 
 When alternatives are:
 
-* incompatible;
-* incomparable;
-* differently scoped;
-* supported by correlated evidence;
-* insufficiently discriminated;
-* approximately equally supported;
+- incompatible;
+- incomparable;
+- differently scoped;
+- supported by correlated evidence;
+- insufficiently discriminated;
+- approximately equally supported;
 
 AMOS MUST preserve them as:
 
@@ -392,15 +387,15 @@ MORE_REASONING != MORE_EVIDENCE
 
 Legitimate reduction requires something such as:
 
-* new evidence;
-* stronger provenance;
-* successful validation;
-* discriminating observation;
-* resolved dependency;
-* narrowed scope;
-* better measurement;
-* successful execution test;
-* formal proof where applicable.
+- new evidence;
+- stronger provenance;
+- successful validation;
+- discriminating observation;
+- resolved dependency;
+- narrowed scope;
+- better measurement;
+- successful execution test;
+- formal proof where applicable.
 
 ---
 
@@ -487,14 +482,14 @@ Evidence uncertainty concerns the quality and completeness of evidence supportin
 
 Sources include:
 
-* missing observations;
-* small samples;
-* noisy measurements;
-* incomplete records;
-* conflicting observations;
-* measurement error;
-* unverified reports;
-* indirect evidence.
+- missing observations;
+- small samples;
+- noisy measurements;
+- incomplete records;
+- conflicting observations;
+- measurement error;
+- unverified reports;
+- indirect evidence.
 
 Example:
 
@@ -515,13 +510,13 @@ Model uncertainty concerns whether the selected representation or explanatory mo
 
 Examples:
 
-* model misspecification;
-* omitted variables;
-* competing models;
-* unstable parameters;
-* approximation error;
-* extrapolation;
-* unvalidated assumptions.
+- model misspecification;
+- omitted variables;
+- competing models;
+- unstable parameters;
+- approximation error;
+- extrapolation;
+- unvalidated assumptions.
 
 Therefore:
 
@@ -568,12 +563,12 @@ not universal applicability.
 
 Temporal uncertainty concerns:
 
-* unknown evidence age;
-* uncertain event ordering;
-* uncertain freshness;
-* uncertain validity duration;
-* delayed observations;
-* possible regime transition.
+- unknown evidence age;
+- uncertain event ordering;
+- uncertain freshness;
+- uncertain validity duration;
+- delayed observations;
+- possible regime transition.
 
 Example:
 
@@ -593,16 +588,16 @@ Temporal uncertainty does not necessarily invalidate historical claims but may i
 
 Causal uncertainty concerns uncertainty over whether observed relationships represent:
 
-* association;
-* correlation;
-* enabling condition;
-* mediator;
-* confounder;
-* feedback;
-* mechanism;
-* necessary condition;
-* sufficient condition;
-* causal effect.
+- association;
+- correlation;
+- enabling condition;
+- mediator;
+- confounder;
+- feedback;
+- mechanism;
+- necessary condition;
+- sufficient condition;
+- causal effect.
 
 L6 MUST NOT resolve causal uncertainty merely through confidence language.
 
@@ -622,14 +617,14 @@ Execution uncertainty concerns whether a proposed operation will actually produc
 
 It includes:
 
-* runtime uncertainty;
-* environmental uncertainty;
-* tool availability;
-* dependency state;
-* external-state mutation;
-* concurrency;
-* commit failure;
-* implementation mismatch.
+- runtime uncertainty;
+- environmental uncertainty;
+- tool availability;
+- dependency state;
+- external-state mutation;
+- concurrency;
+- commit failure;
+- implementation mismatch.
 
 Therefore:
 
@@ -954,9 +949,9 @@ A critical gap prevents a safe or justified conclusion.
 
 Examples:
 
-* unknown authority for irreversible action;
-* missing load-bearing evidence;
-* unknown target identity;
+- unknown authority for irreversible action;
+- missing load-bearing evidence;
+- unknown target identity;
 
 
 ## Vault-Sourced Domain Content
@@ -1044,15 +1039,15 @@ MORE_REASONING != MORE_EVIDENCE
 
 Legitimate reduction requires something such as:
 
-* new evidence;
-* stronger provenance;
-* successful validation;
-* discriminating observation;
-* resolved dependency;
-* narrowed scope;
-* better measurement;
-* successful execution test;
-* formal proof where applicable.
+- new evidence;
+- stronger provenance;
+- successful validation;
+- discriminating observation;
+- resolved dependency;
+- narrowed scope;
+- better measurement;
+- successful execution test;
+- formal proof where applicable.
 
 ---
 
@@ -1117,14 +1112,14 @@ Evidence uncertainty concerns the quality and completeness of evidence supportin
 
 Sources include:
 
-* missing observations;
-* small samples;
-* noisy measurements;
-* incomplete records;
-* conflicting observations;
-* measurement error;
-* unverified reports;
-* indirect evidence.
+- missing observations;
+- small samples;
+- noisy measurements;
+- incomplete records;
+- conflicting observations;
+- measurement error;
+- unverified reports;
+- indirect evidence.
 
 Example:
 
@@ -1145,13 +1140,13 @@ Model uncertainty concerns whether the selected representation or explanatory mo
 
 Examples:
 
-* model misspecification;
-* omitted variables;
-* competing models;
-* unstable parameters;
-* approximation error;
-* extrapolation;
-* unvalidated assumptions.
+- model misspecification;
+- omitted variables;
+- competing models;
+- unstable parameters;
+- approximation error;
+- extrapolation;
+- unvalidated assumptions.
 
 Therefore:
 
@@ -1198,12 +1193,12 @@ not universal applicability.
 
 Temporal uncertainty concerns:
 
-* unknown evidence age;
-* uncertain event ordering;
-* uncertain freshness;
-* uncertain validity duration;
-* delayed observations;
-* possible regime transition.
+- unknown evidence age;
+- uncertain event ordering;
+- uncertain freshness;
+- uncertain validity duration;
+- delayed observations;
+- possible regime transition.
 
 Example:
 
@@ -1223,16 +1218,16 @@ Temporal uncertainty does not necessarily invalidate historical claims but may i
 
 Causal uncertainty concerns uncertainty over whether observed relationships represent:
 
-* association;
-* correlation;
-* enabling condition;
-* mediator;
-* confounder;
-* feedback;
-* mechanism;
-* necessary condition;
-* sufficient condition;
-* causal effect.
+- association;
+- correlation;
+- enabling condition;
+- mediator;
+- confounder;
+- feedback;
+- mechanism;
+- necessary condition;
+- sufficient condition;
+- causal effect.
 
 L6 MUST NOT resolve causal uncertainty merely through confidence language.
 
@@ -1252,14 +1247,14 @@ Execution uncertainty concerns whether a proposed operation will actually produc
 
 It includes:
 
-* runtime uncertainty;
-* environmental uncertainty;
-* tool availability;
-* dependency state;
-* external-state mutation;
-* concurrency;
-* commit failure;
-* implementation mismatch.
+- runtime uncertainty;
+- environmental uncertainty;
+- tool availability;
+- dependency state;
+- external-state mutation;
+- concurrency;
+- commit failure;
+- implementation mismatch.
 
 Therefore:
 

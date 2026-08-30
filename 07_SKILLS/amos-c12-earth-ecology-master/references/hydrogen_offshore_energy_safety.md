@@ -29,7 +29,7 @@ tags: [system]
 html {
 	-webkit-print-color-adjust: exact;
 }
-* {
+- {
 	box-sizing: border-box;
 	-webkit-print-color-adjust: exact;
 }

@@ -157,7 +157,7 @@ rscf:
 
 <!-- NOTE: Source JSON truncated in original vault content. Closing braces added for structural validity. -->
 
-______________________________________________________________________
+---
 
 ### Source 2: AMOS Unified Equation Framework (UEF)
 
@@ -247,7 +247,6 @@ Equation Types: ['algebra', 'ode', 'pde', 'vector']
 Total Dimensionality: 2
 
 ```
-
 ```
 
 S_{t+1} = F(S_t)
@@ -324,10 +323,9 @@ ______________________________________________________________________
 }
 }
 ```
-
 <!-- NOTE: Source JSON truncated in original vault content. Closing braces added for structural validity. -->
 
-______________________________________________________________________
+---
 
 **MOC:** references_MOC
 
@@ -335,7 +333,7 @@ ______________________________________________________________________
 
 - [[07_SKILLS_MOC]]
 
-______________________________________________________________________
+---
 
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
@@ -343,7 +341,7 @@ ______________________________________________________________________
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
-______________________________________________________________________
+---
 
 RSCF-NODE
 node_id: amos-forex-unified-os-updated-vault-domain-knowledge

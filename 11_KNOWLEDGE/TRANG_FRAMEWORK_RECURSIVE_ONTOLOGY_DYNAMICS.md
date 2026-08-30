@@ -2196,7 +2196,6 @@ Energy
 =
 CapacityForPhysicalStateTransition
 ```
-
 Proposed relationship:
 
 ```text

@@ -24,20 +24,20 @@ A claim is not represented only by its text.
 
 It carries the structural information required to determine:
 
-* what is being claimed,
-* what kind of claim it is,
-* what premises it depends on,
-* what evidence supports it,
-* where it applies,
-* when it applies,
-* under which regime it remains valid,
-* what causal strength is licensed,
-* which hypotheses compete with it,
-* what could falsify it,
-* how sensitive it is,
-* how confident the system may become,
-* what consequences follow if it is wrong,
-* and what must invalidate it.
+- what is being claimed,
+- what kind of claim it is,
+- what premises it depends on,
+- what evidence supports it,
+- where it applies,
+- when it applies,
+- under which regime it remains valid,
+- what causal strength is licensed,
+- which hypotheses compete with it,
+- what could falsify it,
+- how sensitive it is,
+- how confident the system may become,
+- what consequences follow if it is wrong,
+- and what must invalidate it.
 
 The canonical tensor is:
 
@@ -225,13 +225,13 @@ C.id = unique(C)
 
 Identity must survive:
 
-* compression,
-* storage,
-* retrieval,
-* graph traversal,
-* versioning,
-* dependency updates,
-* contradiction analysis.
+- compression,
+- storage,
+- retrieval,
+- graph traversal,
+- versioning,
+- dependency updates,
+- contradiction analysis.
 
 A revised claim should not silently overwrite a materially different claim.
 
@@ -542,9 +542,9 @@ Compat(S_a,S_b)\in{0,1,\ ?}
 
 where:
 
-* (1) = compatible,
-* (0) = incompatible,
-* (?) = unresolved.
+- (1) = compatible,
+- (0) = incompatible,
+- (?) = unresolved.
 
 Reuse rule:
 
@@ -574,13 +574,13 @@ R(C)=R_i
 
 Examples:
 
-* stable market,
-* crisis market,
-* low-volatility environment,
-* specific software version,
-* specific biological condition,
-* training distribution,
-* deployment environment.
+- stable market,
+- crisis market,
+- low-volatility environment,
+- specific software version,
+- specific biological condition,
+- training distribution,
+- deployment environment.
 
 Regime validity:
 
@@ -941,12 +941,12 @@ unless the claim is independently revalidated through another valid path.
 
 Confidence cannot be increased merely by:
 
-* repetition,
-* eloquence,
-* model agreement,
-* paraphrased copies,
-* unsupported authority,
-* descendants of the same source.
+- repetition,
+- eloquence,
+- model agreement,
+- paraphrased copies,
+- unsupported authority,
+- descendants of the same source.
 
 ---
 
@@ -1035,11 +1035,11 @@ R
 
 where:
 
-* (H) = potential harm,
-* (I) = irreversibility,
-* (F) = downstream fan-out,
-* (A) = authority required,
-* (R) = recoverability.
+- (H) = potential harm,
+- (I) = irreversibility,
+- (F) = downstream fan-out,
+- (A) = authority required,
+- (R) = recoverability.
 
 This allows the same factual claim to receive different operational treatment depending on use.
 
@@ -1066,13 +1066,13 @@ F
 
 where:
 
-* (P) = premise validity,
-* (E) = evidence validity,
-* (S) = scope compatibility,
-* (R) = regime compatibility,
-* (T) = temporal validity,
-* (K) = causal compatibility,
-* (F) = unresolved falsification state.
+- (P) = premise validity,
+- (E) = evidence validity,
+- (S) = scope compatibility,
+- (R) = regime compatibility,
+- (T) = temporal validity,
+- (K) = causal compatibility,
+- (F) = unresolved falsification state.
 
 For hard dependencies, a useful structural model is:
 
@@ -1184,10 +1184,10 @@ where (\simeq) means semantically preserved or losslessly recoverable for reason
 
 Compression may remove:
 
-* redundant prose,
-* formatting,
-* repeated explanation,
-* non-load-bearing examples.
+- redundant prose,
+- formatting,
+- repeated explanation,
+- non-load-bearing examples.
 
 Compression may not remove:
 
@@ -1261,8 +1261,8 @@ G_C=(V_C,E_C)
 
 where:
 
-* (V_C) = claims,
-* (E_C) = typed dependencies.
+- (V_C) = claims,
+- (E_C) = typed dependencies.
 
 Possible edges:
 
@@ -2151,13 +2151,13 @@ where (\mathcal{I}) is the invariant validator.
 
 The update operator may:
 
-* strengthen,
-* weaken,
-* condition,
-* split,
-* supersede,
-* quarantine,
-* or invalidate the claim.
+- strengthen,
+- weaken,
+- condition,
+- split,
+- supersede,
+- quarantine,
+- or invalidate the claim.
 
 ---
 
@@ -2305,11 +2305,11 @@ Rendering may simplify presentation.
 
 It may not change:
 
-* conclusion class,
-* scope,
-* uncertainty,
-* causal status,
-* decisive qualifications.
+- conclusion class,
+- scope,
+- uncertainty,
+- causal status,
+- decisive qualifications.
 
 ---
 
@@ -2425,21 +2425,21 @@ Q
 
 where:
 
-* (I) = identity,
-* (X) = proposition,
-* (E_p) = epistemic class,
-* (K) = conclusion class,
-* (P) = premises,
-* (E) = evidence/provenance,
-* (S) = scope,
-* (R) = regime,
-* (T) = temporal validity,
-* (L_c) = causal level,
-* (H) = competing hypotheses,
-* (F) = falsifiers,
-* (\Sigma) = sensitivity,
-* (\Gamma) = confidence ceiling,
-* (Q) = consequence.
+- (I) = identity,
+- (X) = proposition,
+- (E_p) = epistemic class,
+- (K) = conclusion class,
+- (P) = premises,
+- (E) = evidence/provenance,
+- (S) = scope,
+- (R) = regime,
+- (T) = temporal validity,
+- (L_c) = causal level,
+- (H) = competing hypotheses,
+- (F) = falsifiers,
+- (\Sigma) = sensitivity,
+- (\Gamma) = confidence ceiling,
+- (Q) = consequence.
 
 ---
 
@@ -2652,21 +2652,21 @@ WHAT invalidates its reuse?
 
 The Claim Tensor therefore functions as the atomic epistemic substrate for:
 
-* RSCF reasoning,
-* AMOS memory,
-* AI retrieval,
-* evidence-grounded generation,
-* claim verification,
-* provenance preservation,
-* contradiction handling,
-* competing-hypothesis management,
-* causal discipline,
-* confidence control,
-* safe compression,
-* selective invalidation,
-* agent governance,
-* persistent knowledge,
-* and proof-carrying AI state.
+- RSCF reasoning,
+- AMOS memory,
+- AI retrieval,
+- evidence-grounded generation,
+- claim verification,
+- provenance preservation,
+- contradiction handling,
+- competing-hypothesis management,
+- causal discipline,
+- confidence control,
+- safe compression,
+- selective invalidation,
+- agent governance,
+- persistent knowledge,
+- and proof-carrying AI state.
 
 Its governing invariant remains:
 

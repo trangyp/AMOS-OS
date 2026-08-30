@@ -1,5 +1,6 @@
 ---
 schema_version: 1.0
+title: SKILL
 name: amos-llm-wiki
 description: AMOS LLM Wiki — ingest, query, lint, and maintain a compounding LLM-maintained
   markdown wiki inside the AMOS Obsidian vault. Use when adding a new source to the
@@ -40,6 +41,8 @@ rscf:
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
+type: skill
+source: 07_SKILLS/amos-llm-wiki
 ---
 
 # AMOS LLM Wiki

@@ -5,6 +5,13 @@ tags:
 - personality
 - engine
 - personality-engine-v0
+type: note
+source: 11_KNOWLEDGE/stubs
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # personality engine v0

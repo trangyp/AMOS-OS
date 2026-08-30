@@ -66,7 +66,7 @@ Mọi sự phục hồi đều tuần tự qua mười hai bậc, bắt đầu t
 ---
 ## IV. CÁC HẰNG SỐ CỦA TRANG CASCADE
 ### 1\. Tỷ lệ thời gian giữa các bậc (gần đúng, theo quan sát lịch sử và mô phỏng)
-  * **Sụp đổ:**
+  - **Sụp đổ:**
 Từ bậc 1 → 2: ×1.5
 Từ bậc 2 → 3: ×1.67
 Từ bậc 3 → 4: ×1.6
@@ -80,7 +80,7 @@ Từ bậc 9 → 10: ×1.5
 
 **Tổng thời gian sụp đổ (từ bậc 1 đến 10) ≈ 30 t₀**
 Trong đó t₀ là thời gian đặc trưng của bậc 1 (tuỳ hệ thống).
-  * **Phục hồi:**
+  - **Phục hồi:**
 Từ bậc 1 → 2: ×1.2
 Từ bậc 2 → 3: ×1.25
 Từ bậc 3 → 4: ×1.33

@@ -108,17 +108,17 @@ The purpose of the AMOS Policy Engine is to provide a deterministic-governed int
 
 The Policy Engine exists to prevent downstream components from inventing permission from:
 
-* capability availability;
-* model confidence;
-* agent intent;
-* previous successful actions;
-* stale decisions;
-* absence of explicit denial;
-* undocumented conventions;
-* provider availability;
-* workflow momentum;
-* user convenience;
-* or technical executability.
+- capability availability;
+- model confidence;
+- agent intent;
+- previous successful actions;
+- stale decisions;
+- absence of explicit denial;
+- undocumented conventions;
+- provider availability;
+- workflow momentum;
+- user convenience;
+- or technical executability.
 
 Every consequential operation SHOULD pass through explicit policy evaluation when policy governance is required.
 

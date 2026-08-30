@@ -72,20 +72,20 @@ The purpose of this contract is to establish a common validation discipline acro
 
 The contract exists to prevent:
 
-* unsupported promotion;
-* silent UNKNOWN → PASS conversion;
-* scope leakage;
-* regime leakage;
-* causal overreach;
-* stale-evidence reuse;
-* provenance laundering;
-* duplicated evidence being counted as independent evidence;
-* capability being mistaken for authority;
-* proposal being mistaken for committed state;
-* test success being mistaken for empirical truth;
-* local validation being generalized to an entire subsystem;
-* unrelated state being invalidated after a local failure;
-* generated artifacts silently entering canon.
+- unsupported promotion;
+- silent UNKNOWN → PASS conversion;
+- scope leakage;
+- regime leakage;
+- causal overreach;
+- stale-evidence reuse;
+- provenance laundering;
+- duplicated evidence being counted as independent evidence;
+- capability being mistaken for authority;
+- proposal being mistaken for committed state;
+- test success being mistaken for empirical truth;
+- local validation being generalized to an entire subsystem;
+- unrelated state being invalidated after a local failure;
+- generated artifacts silently entering canon.
 
 The primary rule is:
 
@@ -144,14 +144,14 @@ $$V(C)= f( E, P, S, R, T, D, A, F )$$
 
 where:
 
-* $E$ = evidence;
-* $P$ = provenance;
-* $S$ = scope;
-* $R$ = regime;
-* $T$ = temporal validity/freshness;
-* $D$ = dependency closure;
-* $A$ = authority where consequential action is involved;
-* $F$ = falsifier state.
+- $E$ = evidence;
+- $P$ = provenance;
+- $S$ = scope;
+- $R$ = regime;
+- $T$ = temporal validity/freshness;
+- $D$ = dependency closure;
+- $A$ = authority where consequential action is involved;
+- $F$ = falsifier state.
 
 Validation MUST NOT answer only:
 
@@ -460,14 +460,14 @@ $$f(number\ of\ documents)$$
 
 The validation layer MUST resist confidence inflation caused by:
 
-* duplicated files;
-* mirrors;
-* summaries of summaries;
-* citations that resolve to one original source;
-* generated descendants;
-* multiple agents repeating the same source;
-* multiple tests exercising one identical premise;
-* popularity without provenance independence.
+- duplicated files;
+- mirrors;
+- summaries of summaries;
+- citations that resolve to one original source;
+- generated descendants;
+- multiple agents repeating the same source;
+- multiple tests exercising one identical premise;
+- popularity without provenance independence.
 
 Repetition MAY increase evidence that a statement is widely repeated.
 
@@ -575,14 +575,14 @@ It MUST NOT omit a load-bearing dependency merely for speed.
 
 Local validation is permitted when the system can establish:
 
-* dependency closure;
-* scope compatibility;
-* regime compatibility;
-* freshness;
-* provenance independence where required;
-* absence of unresolved conflict;
-* applicable authority;
-* no hidden causal coupling that changes the result.
+- dependency closure;
+- scope compatibility;
+- regime compatibility;
+- freshness;
+- provenance independence where required;
+- absence of unresolved conflict;
+- applicable authority;
+- no hidden causal coupling that changes the result.
 
 This is the Cognitive Matrix validation fast path.
 
@@ -725,17 +725,17 @@ For consequential conclusions, validation SHOULD challenge the strongest support
 
 The challenge SHOULD seek:
 
-* contradiction;
-* shared provenance ancestry;
-* stale premises;
-* scope leakage;
-* regime leakage;
-* hidden dependencies;
-* causal overreach;
-* stronger competing explanations;
-* malformed input behavior;
-* unauthorized execution paths;
-* crash-open behavior.
+- contradiction;
+- shared provenance ancestry;
+- stale premises;
+- scope leakage;
+- regime leakage;
+- hidden dependencies;
+- causal overreach;
+- stronger competing explanations;
+- malformed input behavior;
+- unauthorized execution paths;
+- crash-open behavior.
 
 If the challenge succeeds:
 
@@ -910,13 +910,13 @@ $$TestPass \not\Rightarrow Promotion$$
 
 A consequential operation SHOULD NOT mutate authoritative state until:
 
-* identity is resolved;
-* scope is bound;
-* regime is bound;
-* authority is validated;
-* load-bearing dependencies are validated;
-* rollback requirements are satisfied;
-* required receipts can be emitted.
+- identity is resolved;
+- scope is bound;
+- regime is bound;
+- authority is validated;
+- load-bearing dependencies are validated;
+- rollback requirements are satisfied;
+- required receipts can be emitted.
 
 ---
 
@@ -1297,15 +1297,15 @@ Where repository evidence provides a stronger state, this table SHOULD be supers
 
 Promotion beyond `AMOS_MODEL / CONDITIONAL` requires, at minimum:
 
-* typed schema bound to this artifact;
-* stable identity and versioning;
-* negative-case coverage;
-* provenance persistence;
-* scope and regime validation;
-* dependency closure validation;
-* rollback demonstration where mutation is consequential;
-* contract-specific executed validation receipt;
-* visible registration of unresolved critical gaps.
+- typed schema bound to this artifact;
+- stable identity and versioning;
+- negative-case coverage;
+- provenance persistence;
+- scope and regime validation;
+- dependency closure validation;
+- rollback demonstration where mutation is consequential;
+- contract-specific executed validation receipt;
+- visible registration of unresolved critical gaps.
 
 ---
 
@@ -2251,16 +2251,16 @@ They MUST NOT silently promote this entire contract or the entire Cognitive Matr
 
 ## Cross-Plane Bindings
 
-* Governed by canon — AMOS Core Laws · [[LAW_HIERARCHY]]
-* Kernel interaction — [[KERNEL_README]]
-* Control-plane gates — [[CONTROL_PLANE_README]]
-* Observed by — [[OBSERVABILITY_README]] · never treated as authority
-* Recovered via operations — [[OPERATIONS_README]]
-* Routing evidence — [[ROUTING_POLICY_VALIDATION_RECEIPT]]
-* Authorization evidence — [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
-* L00 validation evidence — [[L00_REALITY_VALIDATION_RECEIPT]]
-* Promotion governance — [[PROMOTION_GATES]]
-* Binding governance — [[BINDING_RULES]]
+- Governed by canon — AMOS Core Laws · [[LAW_HIERARCHY]]
+- Kernel interaction — [[KERNEL_README]]
+- Control-plane gates — [[CONTROL_PLANE_README]]
+- Observed by — [[OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[OPERATIONS_README]]
+- Routing evidence — [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+- Authorization evidence — [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+- L00 validation evidence — [[L00_REALITY_VALIDATION_RECEIPT]]
+- Promotion governance — [[PROMOTION_GATES]]
+- Binding governance — [[BINDING_RULES]]
 
 ---
 
@@ -2292,47 +2292,47 @@ implementation_status: PARTIAL
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: [[00_ROOT_MOC]]|[[AMOS MOC]]
+- INDEXED_BY: [[00_ROOT_MOC]]|[[AMOS MOC]]
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-* PART_OF: [[COGNITIVE_MATRIX_MOC]]
+- PART_OF: [[COGNITIVE_MATRIX_MOC]]
 
-* GOVERNS: [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]]
+- GOVERNS: [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
-* GOVERNS: L00-L29_PRIMITIVES
+- GOVERNS: L00-L29_PRIMITIVES
 
-* GOVERNS: O00-O16_LIFECYCLE_OPERATIONS
+- GOVERNS: O00-O16_LIFECYCLE_OPERATIONS
 
-* GOVERNS: C01-C09_CONTROL_PLANES
+- GOVERNS: C01-C09_CONTROL_PLANES
 
-* GOVERNS: COGNITIVE_MATRIX_ROUTING
+- GOVERNS: COGNITIVE_MATRIX_ROUTING
 
-* GOVERNS: COGNITIVE_MATRIX_VALIDATION
+- GOVERNS: COGNITIVE_MATRIX_VALIDATION
 
-* GOVERNS: COGNITIVE_MATRIX_GENERATORS
+- GOVERNS: COGNITIVE_MATRIX_GENERATORS
 
-* GOVERNED_BY: [[LAW_HIERARCHY]]
+- GOVERNED_BY: [[LAW_HIERARCHY]]
 
-* GOVERNED_BY: [[PROMOTION_GATES]]
+- GOVERNED_BY: [[PROMOTION_GATES]]
 
-* GOVERNED_BY: [[BINDING_RULES]]
+- GOVERNED_BY: [[BINDING_RULES]]
 
-* VALIDATION_PATTERN_FROM: [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+- VALIDATION_PATTERN_FROM: [[ROUTING_POLICY_VALIDATION_RECEIPT]]
 
-* VALIDATION_PATTERN_FROM: [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+- VALIDATION_PATTERN_FROM: [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
-* VALIDATION_PATTERN_FROM: [[L00_REALITY_VALIDATION_RECEIPT]]
+- VALIDATION_PATTERN_FROM: [[L00_REALITY_VALIDATION_RECEIPT]]
 
-* INTERACTS_WITH: [[KERNEL_README]]
+- INTERACTS_WITH: [[KERNEL_README]]
 
-* INTERACTS_WITH: [[CONTROL_PLANE_README]]
+- INTERACTS_WITH: [[CONTROL_PLANE_README]]
 
-* OBSERVED_BY: [[OBSERVABILITY_README]]
+- OBSERVED_BY: [[OBSERVABILITY_README]]
 
-* RECOVERED_VIA: [[OPERATIONS_README]]
+- RECOVERED_VIA: [[OPERATIONS_README]]
 
 validation_state: SPECIFICATION_ONLY
 

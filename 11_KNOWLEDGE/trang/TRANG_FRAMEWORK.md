@@ -5,6 +5,11 @@ source: 11_KNOWLEDGE
 tags:
 - vault
 - 11_knowledge
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
 # TRANG ∅ FRAMEWORK → ASEA
 

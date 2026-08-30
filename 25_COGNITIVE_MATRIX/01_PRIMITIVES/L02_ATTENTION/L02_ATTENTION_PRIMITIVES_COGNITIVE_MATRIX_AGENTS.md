@@ -74,7 +74,6 @@ attention allocation;
 budget scarce reasoning/observation resources
 ```
 
-
 Therefore all specific agent roles in this document are classified as:
 
 ```text
@@ -152,7 +151,6 @@ Primitive: attention allocation;
 budget scarce reasoning/observation resources.
 ```
 
-
 The source also requires the following before promotion:
 
 ```text
@@ -172,7 +170,6 @@ Governance / authority boundary
 Freshness / regime validity
 Supersession / version lineage
 ```
-
 
 ## 2.2 Relevant AMOS Architecture Families
 
@@ -732,8 +729,8 @@ B_{available}
 
 where:
 
-* \(b_i\) = attention assigned to target (i),
-* (B_{available}) = available budget.
+- \(b_i\) = attention assigned to target (i),
+- (B_{available}) = available budget.
 
 Candidate output states:
 

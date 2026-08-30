@@ -175,11 +175,11 @@ DRC = <E, D, R, C, S>
 
 where:
 
-* `E` contains identifiable semantic objects.
-* `D` determines valid differentiation.
-* `R` contains typed relationships.
-* `C` restricts valid configurations and transitions.
-* `S` represents the relevant state/version envelope.
+- `E` contains identifiable semantic objects.
+- `D` determines valid differentiation.
+- `R` contains typed relationships.
+- `C` restricts valid configurations and transitions.
+- `S` represents the relevant state/version envelope.
 
 This notation is an AMOS architectural model, not an assertion of a recovered formal specification.
 

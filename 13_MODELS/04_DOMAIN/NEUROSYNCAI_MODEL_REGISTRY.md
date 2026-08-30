@@ -1,4 +1,5 @@
 ---
+title: NEUROSYNCAI_MODEL_REGISTRY
 tags:
 - models
 - domain
@@ -23,6 +24,8 @@ rscf:
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: AMOS_knowledge
+type: registry
+source: 13_MODELS/04_DOMAIN
 ---
 
 Below is the **full expanded Obsidian-ready `NEUROSYNCAI_MODEL_REGISTRY.md`**. The supplied seed establishes the registry slot, but it does **not** provide verified native NeuroSyncAI model definitions. Accordingly, the expansion defines the registry contract, neural-model epistemics, provenance, validation, safety, RSCF/H-M-L, lifecycle, and promotion semantics while keeping the actual NeuroSyncAI model inventory explicitly `UNKNOWN/GAP` rather than inventing it.
@@ -365,25 +368,25 @@ EXECUTABLE BINDING
 
 This registry MUST NOT itself be used to claim:
 
-* biological truth;
-* neurological truth;
-* validated neuroscience;
-* brain-state detection;
-* medical diagnosis;
-* psychiatric diagnosis;
-* treatment efficacy;
-* neural decoding;
-* mind reading;
-* consciousness detection;
-* consciousness generation;
-* human equivalence;
-* neural synchronization with biological brains;
-* causal neural mechanisms;
-* scientifically calibrated prediction;
-* trained-model existence;
-* runtime deployment;
-* production readiness;
-* final canonical status.
+- biological truth;
+- neurological truth;
+- validated neuroscience;
+- brain-state detection;
+- medical diagnosis;
+- psychiatric diagnosis;
+- treatment efficacy;
+- neural decoding;
+- mind reading;
+- consciousness detection;
+- consciousness generation;
+- human equivalence;
+- neural synchronization with biological brains;
+- causal neural mechanisms;
+- scientifically calibrated prediction;
+- trained-model existence;
+- runtime deployment;
+- production readiness;
+- final canonical status.
 
 ---
 
@@ -400,31 +403,26 @@ ADDRESSABLE
 !=
 IMPLEMENTED
 ```
-
 ```text
 DOCUMENTED
 !=
 ENFORCED
 ```
-
 ```text
 MODEL
 !=
 OBSERVATION
 ```
-
 ```text
 MODEL OUTPUT
 !=
 OBSERVATION
 ```
-
 ```text
 COMPUTATIONAL NEURAL MODEL
 !=
 BIOLOGICAL NEURAL SYSTEM
 ```
-
 ---
 
 # 5. NeuroSyncAI Name Firewall
@@ -473,12 +471,12 @@ NEUROSCIENTIFIC VALIDITY
 
 The presence of `Sync` does not establish literal synchronization between:
 
-* neurons;
-* brain regions;
-* nervous systems;
-* humans;
-* human and machine;
-* biological and computational systems.
+- neurons;
+- brain regions;
+- nervous systems;
+- humans;
+- human and machine;
+- biological and computational systems.
 
 ---
 
@@ -5334,91 +5332,91 @@ is correct.
 
 # 390. Promotion Gate — Source
 
-* [ ] native NeuroSyncAI source identified
-* [ ] source identity validated
-* [ ] source version pinned
-* [ ] source provenance persisted
-* [ ] source claims separated from observations
-* [ ] duplicate sources resolved
-* [ ] historical lineage preserved
+- [ ] native NeuroSyncAI source identified
+- [ ] source identity validated
+- [ ] source version pinned
+- [ ] source provenance persisted
+- [ ] source claims separated from observations
+- [ ] duplicate sources resolved
+- [ ] historical lineage preserved
 
 ---
 
 # 391. Promotion Gate — Model Identity
 
-* [ ] model id established
-* [ ] model family established
-* [ ] model version established
-* [ ] aliases resolved
-* [ ] duplicate identity checked
-* [ ] ancestry established or marked gap
+- [ ] model id established
+- [ ] model family established
+- [ ] model version established
+- [ ] aliases resolved
+- [ ] duplicate identity checked
+- [ ] ancestry established or marked gap
 
 ---
 
 # 392. Promotion Gate — Architecture
 
-* [ ] input contract
-* [ ] output contract
-* [ ] internal-state contract where applicable
-* [ ] preprocessing contract
-* [ ] dependency contract
-* [ ] configuration/version contract
-* [ ] missing architecture fields visible
+- [ ] input contract
+- [ ] output contract
+- [ ] internal-state contract where applicable
+- [ ] preprocessing contract
+- [ ] dependency contract
+- [ ] configuration/version contract
+- [ ] missing architecture fields visible
 
 ---
 
 # 393. Promotion Gate — Provenance
 
-* [ ] architecture provenance
-* [ ] model ancestry
-* [ ] data ancestry
-* [ ] evaluation ancestry
-* [ ] source ancestry
-* [ ] independence groups
-* [ ] license/IP state
+- [ ] architecture provenance
+- [ ] model ancestry
+- [ ] data ancestry
+- [ ] evaluation ancestry
+- [ ] source ancestry
+- [ ] independence groups
+- [ ] license/IP state
 
 ---
 
 # 394. Promotion Gate — Epistemics
 
-* [ ] SOURCE_CLAIM separated
-* [ ] OBSERVATION separated
-* [ ] DERIVED claims trace premises
-* [ ] MODEL outputs remain MODEL
-* [ ] confidence ceiling defined
-* [ ] scope declared
-* [ ] regime declared
-* [ ] temporal validity declared
-* [ ] competing models visible
-* [ ] falsifiers declared
+- [ ] SOURCE_CLAIM separated
+- [ ] OBSERVATION separated
+- [ ] DERIVED claims trace premises
+- [ ] MODEL outputs remain MODEL
+- [ ] confidence ceiling defined
+- [ ] scope declared
+- [ ] regime declared
+- [ ] temporal validity declared
+- [ ] competing models visible
+- [ ] falsifiers declared
 
 ---
 
 # 395. Promotion Gate — Validation
 
-* [ ] source validation
-* [ ] schema validation
-* [ ] negative cases
-* [ ] formal validation where applicable
-* [ ] benchmark validation where claimed
-* [ ] empirical validation where claimed
-* [ ] neuroscience validation where claimed
-* [ ] clinical validation where claimed
-* [ ] runtime validation where claimed
+- [ ] source validation
+- [ ] schema validation
+- [ ] negative cases
+- [ ] formal validation where applicable
+- [ ] benchmark validation where claimed
+- [ ] empirical validation where claimed
+- [ ] neuroscience validation where claimed
+- [ ] clinical validation where claimed
+- [ ] runtime validation where claimed
 
 ---
 
 # 396. Promotion Gate — Governance
 
-* [ ] authority binding
-* [ ] consequence radius
-* [ ] reversible mutation path
-* [ ] rollback basin
-* [ ] version conflict handling
-* [ ] provenance persistence
-* [ ] selective invalidation
-* [ ] audit receipt
-* [ ] artifact-specific validation receipt
+- [ ] authority binding
+- [ ] consequence radius
+- [ ] reversible mutation path
+- [ ] rollback basin
+- [ ] version conflict handling
+- [ ] provenance persistence
+- [ ] selective invalidation
+- [ ] audit receipt
+- [ ] artifact-specific validation receipt
 
 ---
 
@@ -6145,52 +6143,52 @@ NOT_ESTABLISHED
 
 ## Registry contract
 
-* [x] artifact identity declared
-* [x] path declared
-* [x] origin architect preserved
-* [x] steward preserved
-* [x] add-only discipline preserved
-* [x] model/observation firewall defined
-* [x] computational/biological firewall defined
-* [x] causal firewall defined
-* [x] clinical firewall defined
-* [x] consciousness firewall defined
-* [x] provenance contract defined
-* [x] scope/regime contract defined
-* [x] RSCF contract defined
-* [x] H/M/L mapping defined
-* [x] selective invalidation defined
-* [x] mutation semantics defined
-* [x] rollback semantics defined
+- [x] artifact identity declared
+- [x] path declared
+- [x] origin architect preserved
+- [x] steward preserved
+- [x] add-only discipline preserved
+- [x] model/observation firewall defined
+- [x] computational/biological firewall defined
+- [x] causal firewall defined
+- [x] clinical firewall defined
+- [x] consciousness firewall defined
+- [x] provenance contract defined
+- [x] scope/regime contract defined
+- [x] RSCF contract defined
+- [x] H/M/L mapping defined
+- [x] selective invalidation defined
+- [x] mutation semantics defined
+- [x] rollback semantics defined
 
 ## Native content
 
-* [ ] native NeuroSyncAI source verified
-* [ ] canonical NeuroSyncAI definition recovered
-* [ ] model families identified
-* [ ] model IDs resolved
-* [ ] model versions resolved
-* [ ] architecture definitions recovered
-* [ ] input/output contracts recovered
-* [ ] dependencies recovered
-* [ ] model ancestry recovered
-* [ ] data provenance recovered
-* [ ] validation evidence recovered
-* [ ] competing models registered
-* [ ] contradictions registered
+- [ ] native NeuroSyncAI source verified
+- [ ] canonical NeuroSyncAI definition recovered
+- [ ] model families identified
+- [ ] model IDs resolved
+- [ ] model versions resolved
+- [ ] architecture definitions recovered
+- [ ] input/output contracts recovered
+- [ ] dependencies recovered
+- [ ] model ancestry recovered
+- [ ] data provenance recovered
+- [ ] validation evidence recovered
+- [ ] competing models registered
+- [ ] contradictions registered
 
 ## Runtime
 
-* [ ] executable registry schema
-* [ ] persistent identity/version store
-* [ ] provenance persistence
-* [ ] dependency tracking
-* [ ] authority checks
-* [ ] stale-write protection
-* [ ] rollback demonstrated
-* [ ] negative tests executed
-* [ ] model-specific validation receipts
-* [ ] registry-specific validation receipt
+- [ ] executable registry schema
+- [ ] persistent identity/version store
+- [ ] provenance persistence
+- [ ] dependency tracking
+- [ ] authority checks
+- [ ] stale-write protection
+- [ ] rollback demonstrated
+- [ ] negative tests executed
+- [ ] model-specific validation receipts
+- [ ] registry-specific validation receipt
 
 ---
 
@@ -6242,16 +6240,16 @@ before claiming runtime validation.
 
 Target bindings:
 
-* Governed by canon —
-* Root navigation —
-* RSCF navigation —
-* Local Models MOC —
-* Kernel interaction —
-* Control-plane gates —
-* Observability —
-* Operational recovery —
-* Routing validation infrastructure —
-* Authorization validation infrastructure —
+- Governed by canon —
+- Root navigation —
+- RSCF navigation —
+- Local Models MOC —
+- Kernel interaction —
+- Control-plane gates —
+- Observability —
+- Operational recovery —
+- Routing validation infrastructure —
+- Authorization validation infrastructure —
 
 These links represent architectural relations or targets.
 
@@ -6583,7 +6581,6 @@ SPEED.
 ---
 
 
-
 ---
 
 **Related:**  ·  ·  ·  ·  ·  ·
@@ -6610,14 +6607,14 @@ executable_binding: NOT_ESTABLISHED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY:
-* INDEXED_BY:
-* INDEXED_BY:
-* GOVERNED_BY:
-* INTERACTS_WITH:
-* GATED_BY:
-* OBSERVED_BY:
-* RECOVERED_VIA:
+- INDEXED_BY:
+- INDEXED_BY:
+- INDEXED_BY:
+- GOVERNED_BY:
+- INTERACTS_WITH:
+- GATED_BY:
+- OBSERVED_BY:
+- RECOVERED_VIA:
 
 ---
 

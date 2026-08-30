@@ -872,10 +872,10 @@ w_CC
 
 Trong đó:
 
-* (R): reach;
-* (E): engagement;
-* (T): trust proxy;
-* (C): conversion.
+- (R): reach;
+- (E): engagement;
+- (T): trust proxy;
+- (C): conversion.
 
 Weights phụ thuộc business objective.
 
@@ -1590,9 +1590,9 @@ w_{k,t}
 
 trong đó:
 
-* (w_{k,t}): allocation weight;
-* (\Delta_{k,t}): validated performance signal;
-* (\eta): learning rate.
+- (w_{k,t}): allocation weight;
+- (\Delta_{k,t}): validated performance signal;
+- (\eta): learning rate.
 
 Class:
 
@@ -2850,42 +2850,42 @@ confidence_ceiling:
 
 ### MAJOR
 
-* converted exported HTML source into governed Markdown architecture;
-* preserved the original four-stage customer journey;
-* preserved the original five content classes;
-* preserved the six original agent roles;
-* preserved the 30-day content-matrix concept;
-* preserved the weekly operating cycle;
-* classified source content ratios as strategy heuristics rather than universal laws;
-* detected inconsistency between percentage ranges and one 30-post example;
-* added deterministic allocation requirements;
-* mapped agents into AMOS functional templates;
-* separated manual multi-chat workflows from true runtime orchestration;
-* added Research evidence/provenance requirements;
-* added prohibition against fabricated trend metrics;
-* added creator-truth firewall;
-* added testimonial/proof firewall;
-* added health-content safeguards;
-* added typed agent handoff contracts;
-* added campaign state;
-* added content lifecycle;
-* added provenance graph;
-* added review and approval gates;
-* added publishing authority;
-* added closed analytics feedback;
-* added adaptive allocation;
-* added exploration/exploitation;
-* added content fatigue monitoring;
-* added platform-regime boundaries;
-* added non-linear customer journey correction;
-* added negative memory;
-* added freshness semantics;
-* added selective invalidation;
-* added failure recovery;
-* added orchestration-cost model;
-* added production-readiness gates;
-* replaced repeated prompt rules with shared configuration architecture;
-* introduced single-source-of-truth rules to prevent prompt drift.
+- converted exported HTML source into governed Markdown architecture;
+- preserved the original four-stage customer journey;
+- preserved the original five content classes;
+- preserved the six original agent roles;
+- preserved the 30-day content-matrix concept;
+- preserved the weekly operating cycle;
+- classified source content ratios as strategy heuristics rather than universal laws;
+- detected inconsistency between percentage ranges and one 30-post example;
+- added deterministic allocation requirements;
+- mapped agents into AMOS functional templates;
+- separated manual multi-chat workflows from true runtime orchestration;
+- added Research evidence/provenance requirements;
+- added prohibition against fabricated trend metrics;
+- added creator-truth firewall;
+- added testimonial/proof firewall;
+- added health-content safeguards;
+- added typed agent handoff contracts;
+- added campaign state;
+- added content lifecycle;
+- added provenance graph;
+- added review and approval gates;
+- added publishing authority;
+- added closed analytics feedback;
+- added adaptive allocation;
+- added exploration/exploitation;
+- added content fatigue monitoring;
+- added platform-regime boundaries;
+- added non-linear customer journey correction;
+- added negative memory;
+- added freshness semantics;
+- added selective invalidation;
+- added failure recovery;
+- added orchestration-cost model;
+- added production-readiness gates;
+- replaced repeated prompt rules with shared configuration architecture;
+- introduced single-source-of-truth rules to prevent prompt drift.
 
 ## v1.x / Source Guide
 

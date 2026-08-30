@@ -110,7 +110,7 @@ rscf:
 "generate_test_code": {
 "description": "Generate concrete test c
 
-______________________________________________________________________
+---
 
 ### Source 2: AMOS Unified Equation Framework (UEF)
 
@@ -194,7 +194,6 @@ Total Dependencies: 4
 Equation Types: ['algebra', 'ode', 'pde', 'vector']
 Total Dimensionality: 2
 ```
-
 Where:
 
 - `S = [x, y, z]`
@@ -212,7 +211,7 @@ Where:
 7. **Matrix Operator**: `M(W,x) = W·x`
 8. **Nonlinear Operator**: `N_σ(x) = σ(x)`
 
-______________________________________________________________________
+---
 
 ### Source 3: AMOS_Tech_Unified_Engine_v0_Domains7_3
 
@@ -262,7 +261,7 @@ ______________________________________________________________________
 "eu_design": {
 "so
 
-______________________________________________________________________
+---
 
 **MOC:** references_MOC
 
@@ -270,7 +269,7 @@ ______________________________________________________________________
 
 - [[07_SKILLS_MOC]]
 
-______________________________________________________________________
+---
 
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · references_MOC · [[07_SKILLS_MOC]]
 
@@ -278,7 +277,7 @@ ______________________________________________________________________
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
-______________________________________________________________________
+---
 
 RSCF-NODE
 node_id: amos-forex-unified-os-vault-domain-knowledge

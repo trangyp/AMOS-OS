@@ -1,8 +1,19 @@
 ---
 name: amos-skill-registry
+title: amos-skill-registry-gateway
 description: Gateway skill for the AMOS skill registry. Use when searching for, discovering, or fetching AMOS skills on demand. Provides a catalog of 343 skills across 42 domains.
 version: 1.0.0
 type: skill
+source: .
+tags:
+- registry
+- skill
+- gateway
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # AMOS Skill Registry Gateway

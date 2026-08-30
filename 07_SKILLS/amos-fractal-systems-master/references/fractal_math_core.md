@@ -32,21 +32,21 @@ The module combines established mathematical/statistical methods with AMOS archi
 
 The runtime includes:
 
-* fractal-dimension estimation;
-* Hurst and persistence analysis;
-* detrended fluctuation analysis;
-* fractional and heavy-tail noise generation;
-* continuous wavelet analysis;
-* spectral cycle detection;
-* multifractal-spectrum estimation;
-* tail-index estimation;
-* entropy-rate approximation;
-* mutual information;
-* comprehensive fractal-analysis pipelines;
-* AMOS data/configuration loaders;
-* hierarchical architecture generation;
-* Fractal Cognitive Architecture v2 integration; and
-* Fractal Cognitive Programming integration.
+- fractal-dimension estimation;
+- Hurst and persistence analysis;
+- detrended fluctuation analysis;
+- fractional and heavy-tail noise generation;
+- continuous wavelet analysis;
+- spectral cycle detection;
+- multifractal-spectrum estimation;
+- tail-index estimation;
+- entropy-rate approximation;
+- mutual information;
+- comprehensive fractal-analysis pipelines;
+- AMOS data/configuration loaders;
+- hierarchical architecture generation;
+- Fractal Cognitive Architecture v2 integration; and
+- Fractal Cognitive Programming integration.
 
 ---
 
@@ -60,9 +60,9 @@ x_{t+1}=F(x_t)+\varepsilon_t
 
 where:
 
-* (x_t) is the observed or modeled state at time (t);
-* (F) is the deterministic or estimated structural component;
-* (\varepsilon_t) is the residual/noise component.
+- (x_t) is the observed or modeled state at time (t);
+- (F) is the deterministic or estimated structural component;
+- (\varepsilon_t) is the residual/noise component.
 
 Depending on the dataset, additional estimated quantities may include:
 
@@ -90,16 +90,16 @@ AMOS Math Core separates four different kinds of mathematical use.
 
 Examples include:
 
-* box-counting dimension;
-* Grassberger–Procaccia correlation dimension;
-* information dimension;
-* R/S analysis;
-* detrended fluctuation analysis;
-* Pareto distributions;
-* Fourier/spectral analysis;
-* wavelet analysis;
-* mutual information; and
-* multifractal partition functions.
+- box-counting dimension;
+- Grassberger–Procaccia correlation dimension;
+- information dimension;
+- R/S analysis;
+- detrended fluctuation analysis;
+- Pareto distributions;
+- Fourier/spectral analysis;
+- wavelet analysis;
+- mutual information; and
+- multifractal partition functions.
 
 ### Numerical Estimation
 

@@ -4914,15 +4914,15 @@ identity + source + ancestry + independence + revocation
 
 Claims:
 premises + evidence + scope + regime + freshness
-+ causal level + competition + falsifiers + confidence ceiling
+- causal level + competition + falsifiers + confidence ceiling
 
 Governance:
 capability + authority + consequence + reversibility
-+ approval + rollback + evidence threshold
+- approval + rollback + evidence threshold
 
 Memory:
 provenance + dependencies + freshness
-+ contradiction state + retention + revalidation
+- contradiction state + retention + revalidation
 ```
 
 The strongest safe interpretation is therefore:
@@ -4972,4 +4972,5 @@ claim_class: AMOS_MODEL
 
 **END OF `TENSOR_CONTRACTS.md`**
 
+```
 ```

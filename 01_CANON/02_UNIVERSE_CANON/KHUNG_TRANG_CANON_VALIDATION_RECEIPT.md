@@ -7,6 +7,11 @@ tags:
 - validation
 - khung_trang
 - pass
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: universe_canon
 ---
 
 # Khung Trang Canon Validation Receipt

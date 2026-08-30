@@ -152,7 +152,6 @@ u_{xx} ≈ (u_{i+1} - 2u_i + u_{i-1}) / Δx²
 ```
 S_{t+1} = F(S_t)
 ```
-
 ### **Universal Simulation Engine** ```
 System: x' = -x, y' = x
 Time Steps: 6

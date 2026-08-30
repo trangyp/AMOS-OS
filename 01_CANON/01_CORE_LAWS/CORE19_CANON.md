@@ -3881,3 +3881,5 @@ RSCF-RELATIONS:
 
 
 Critical gap preserved: the supplied placeholder does not contain the native substantive definition of **CORE-19**, so I have not assigned one. The expansion establishes the ingestion, RSCF, provenance, scope/regime, dependency, validation, recovery, and anti-fabrication contracts around the reserved law slot without converting architectural inference into canon.
+
+```

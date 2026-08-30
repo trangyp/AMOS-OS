@@ -689,7 +689,7 @@ Tech & AI HUB
 
 ## More to Read
 
-[[Why Does Home Assistant Architecture Change as a Home Server Adds More Services?]][75]
+Why Does Home Assistant Architecture Change as a Home Server Adds More Services?[75]
 Aug 29, 2026
 
 ### [Why Does Home Assistant Architecture Change as a Home Server Adds More Services?][76]
@@ -697,7 +697,7 @@ Aug 29, 2026
 More services change Home Assistant architecture when they add shared state, queues, devices, update
 cycles, or failure domains—not merely more containers.
 
-[[How to Measure Home Assistant Performance Without Mistaking Cache for Capacity]][77]
+How to Measure Home Assistant Performance Without Mistaking Cache for Capacity[77]
 Aug 29, 2026
 
 ### [How to Measure Home Assistant Performance Without Mistaking Cache for Capacity][78]
@@ -705,7 +705,7 @@ Aug 29, 2026
 A warm result proves reuse, not capacity. Measure cold start, warm steady state, repeated load, tail
 latency, and the first resource that saturates.
 
-[[How Much Automation Concurrency Does Home Assistant Need for Whole-Home Control?]][79]
+How Much Automation Concurrency Does Home Assistant Need for Whole-Home Control?[79]
 Aug 29, 2026
 
 ### [How Much Automation Concurrency Does Home Assistant Need for Whole-Home Control?][80]

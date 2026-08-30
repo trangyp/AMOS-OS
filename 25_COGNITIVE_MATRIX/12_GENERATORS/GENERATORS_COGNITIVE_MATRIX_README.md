@@ -356,14 +356,14 @@ It creates addressable families without claiming that all are implemented.
 
 Produce candidate knowledge artifacts such as:
 
-* domain nodes;
-* definitions;
-* structured summaries;
-* knowledge graphs;
-* taxonomies;
-* dependency maps;
-* claim registries;
-* ontology extensions.
+- domain nodes;
+- definitions;
+- structured summaries;
+- knowledge graphs;
+- taxonomies;
+- dependency maps;
+- claim registries;
+- ontology extensions.
 
 Contract:
 
@@ -430,11 +430,11 @@ ExistingModels
 
 Requirements:
 
-* hypotheses must be distinguishable;
-* assumptions must be explicit;
-* shared provenance must remain visible;
-* alternatives must not be suppressed simply because one is fluent;
-* each hypothesis should expose potential discriminating evidence.
+- hypotheses must be distinguishable;
+- assumptions must be explicit;
+- shared provenance must remain visible;
+- alternatives must not be suppressed simply because one is fluent;
+- each hypothesis should expose potential discriminating evidence.
 
 Output class defaults to:
 
@@ -524,13 +524,13 @@ Produce governed interaction protocols.
 
 Examples:
 
-* message protocols;
-* tool protocols;
-* agent handoff protocols;
-* transaction protocols;
-* experiment protocols;
-* evaluation protocols;
-* data exchange contracts.
+- message protocols;
+- tool protocols;
+- agent handoff protocols;
+- transaction protocols;
+- experiment protocols;
+- evaluation protocols;
+- data exchange contracts.
 
 A protocol generator must define:
 
@@ -550,13 +550,13 @@ termination
 
 Produce:
 
-* JSON schemas;
-* YAML contracts;
-* database schemas;
-* event schemas;
-* API structures;
-* registry formats;
-* state structures.
+- JSON schemas;
+- YAML contracts;
+- database schemas;
+- event schemas;
+- API structures;
+- registry formats;
+- state structures.
 
 Schema generation must preserve:
 
@@ -598,14 +598,14 @@ Produce candidate validation tests.
 
 Families may include:
 
-* unit tests;
-* integration tests;
-* property tests;
-* regression tests;
-* adversarial tests;
-* invariant tests;
-* failure-injection tests;
-* epistemic validators.
+- unit tests;
+- integration tests;
+- property tests;
+- regression tests;
+- adversarial tests;
+- invariant tests;
+- failure-injection tests;
+- epistemic validators.
 
 Generated tests require review because a flawed test can validate a flawed implementation.
 
@@ -657,14 +657,14 @@ A scenario is not automatically a forecast.
 
 Produce candidate system/design structures:
 
-* software architecture;
-* hardware design;
-* infrastructure design;
-* UI;
-* schemas;
-* organizational design;
-* processes;
-* fabrication specifications.
+- software architecture;
+- hardware design;
+- infrastructure design;
+- UI;
+- schemas;
+- organizational design;
+- processes;
+- fabrication specifications.
 
 Every design must expose assumptions and failure modes.
 
@@ -676,15 +676,15 @@ Generic family for bounded document or file production.
 
 Examples:
 
-* Markdown;
-* JSON;
-* YAML;
-* CSV;
-* diagrams;
-* documentation;
-* reports;
-* manifests;
-* registry files.
+- Markdown;
+- JSON;
+- YAML;
+- CSV;
+- diagrams;
+- documentation;
+- reports;
+- manifests;
+- registry files.
 
 Artifact-generation success means:
 
@@ -1110,32 +1110,32 @@ Generators may operate at all H/M/L scales.
 
 Examples:
 
-* architecture;
-* strategy;
-* research program;
-* cross-domain model;
-* policy framework.
+- architecture;
+- strategy;
+- research program;
+- cross-domain model;
+- policy framework.
 
 ## M — subsystem generation
 
 Examples:
 
-* workflow;
-* module;
-* domain subsystem;
-* causal graph;
-* test strategy.
+- workflow;
+- module;
+- domain subsystem;
+- causal graph;
+- test strategy.
 
 ## L — detailed generation
 
 Examples:
 
-* function;
-* equation;
-* configuration;
-* file;
-* local procedure;
-* test case.
+- function;
+- equation;
+- configuration;
+- file;
+- local procedure;
+- test case.
 
 Generation should default to the **lowest sufficient scope**.
 
@@ -1395,12 +1395,12 @@ Skill failure should not silently redefine generator semantics.
 
 Tools perform operational functions such as:
 
-* file writing;
-* code execution;
-* API calls;
-* simulation;
-* database writes;
-* external effects.
+- file writing;
+- code execution;
+- API calls;
+- simulation;
+- database writes;
+- external effects.
 
 Generator output may be passed to tools.
 
@@ -1467,11 +1467,11 @@ Input
 
 This is useful when:
 
-* uncertainty is high;
-* multiple models are plausible;
-* irreversible decisions are involved;
-* provenance paths differ;
-* architecture alternatives matter.
+- uncertainty is high;
+- multiple models are plausible;
+- irreversible decisions are involved;
+- provenance paths differ;
+- architecture alternatives matter.
 
 Parallel generation should not be used merely to generate stylistic duplicates.
 
@@ -1819,57 +1819,57 @@ Generator infrastructure should support:
 
 ## Structural tests
 
-* schema completeness;
-* required-field tests;
-* type checks;
-* version checks.
+- schema completeness;
+- required-field tests;
+- type checks;
+- version checks.
 
 ## Invariant tests
 
-* provenance preserved;
-* no authority escalation;
-* no automatic commit;
-* no unknown-to-pass conversion.
+- provenance preserved;
+- no authority escalation;
+- no automatic commit;
+- no unknown-to-pass conversion.
 
 ## Epistemic tests
 
-* claim typing;
-* premise traceability;
-* confidence ceiling;
-* competing hypothesis retention;
-* falsifier presence.
+- claim typing;
+- premise traceability;
+- confidence ceiling;
+- competing hypothesis retention;
+- falsifier presence.
 
 ## Scope tests
 
-* domain;
-* H/M/L level;
-* environment;
-* regime;
-* timescale.
+- domain;
+- H/M/L level;
+- environment;
+- regime;
+- timescale.
 
 ## Causal tests
 
-* association vs causal claim;
-* mechanism presence;
-* confounding declared;
-* causal boundary respected.
+- association vs causal claim;
+- mechanism presence;
+- confounding declared;
+- causal boundary respected.
 
 ## State tests
 
-* freshness;
-* read-set validity;
-* CAS/version assumptions;
-* stale state detection.
+- freshness;
+- read-set validity;
+- CAS/version assumptions;
+- stale state detection.
 
 ## Failure tests
 
-* malformed input;
-* missing evidence;
-* contradiction;
-* partial dependency outage;
-* validator failure;
-* unauthorized write;
-* rollback.
+- malformed input;
+- missing evidence;
+- contradiction;
+- partial dependency outage;
+- validator failure;
+- unauthorized write;
+- rollback.
 
 ---
 
@@ -2491,67 +2491,56 @@ VALIDATION
 !=
 AUTHORIZATION
 ```
-
 ```text
 AUTHORIZATION
 !=
 EXECUTION
 ```
-
 ```text
 EXECUTION
 !=
 SUCCESS
 ```
-
 ```text
 SUCCESS
 !=
 TRUTH
 ```
-
 ```text
 REPETITION
 !=
 INDEPENDENT CONFIRMATION
 ```
-
 ```text
 STRUCTURAL SIMILARITY
 !=
 CAUSATION
 ```
-
 ```text
 PLACEHOLDER
 !=
 IMPLEMENTED
 ```
-
 ```text
 ADDRESSABLE
 !=
 VALIDATED
 ```
-
 ```text
 CAPABILITY
 !=
 AUTHORITY
 ```
-
 ```text
 PROPOSAL
 !=
 COMMIT
 ```
-
 ```text
 UNKNOWN/GAP
 !=
 PASS
 ```
-
 ---
 
 # 55. Final Contract
@@ -2641,7 +2630,6 @@ This is the appropriate replacement for the current placeholder README: the **br
 
 **Conclusion class:** `DERIVED / CONDITIONAL`. The contract is AMOS-consistent; exact generator implementations and the canonical generator inventory remain `UNKNOWN/GAP`.
 ```
-
 ---
 
 [[00_ROOT_MOC]]|[[AMOS MOC]]

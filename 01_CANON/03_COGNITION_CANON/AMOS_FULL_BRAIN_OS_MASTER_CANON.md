@@ -1,4 +1,5 @@
 ---
+title: AMOS_FULL_BRAIN_OS_MASTER_CANON
 tags:
 - cognition
 - full
@@ -9,6 +10,13 @@ tags:
 - routing-policy-validation-receipt
 - authz-engine-validation-receipt
 - law-hierarchy
+type: canon
+source: 01_CANON/03_COGNITION_CANON
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 ---

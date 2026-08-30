@@ -9,6 +9,13 @@ tags:
 - human
 - society
 - amos-ethical-reasoning-kernel-v0-human-society4-2
+type: note
+source: 11_KNOWLEDGE/stubs
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # amos ethical reasoning kernel v0 human society4 2

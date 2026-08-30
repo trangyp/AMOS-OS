@@ -48,6 +48,11 @@ tags:
 - authoritative-state
 aliases:
 - AMOS Supersession Log - AMOS OS Supersession Log - Canon Supersession Log
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # AMOS OS Supersession Log

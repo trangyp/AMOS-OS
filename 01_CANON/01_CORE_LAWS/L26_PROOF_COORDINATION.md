@@ -5094,7 +5094,7 @@ not_established:
              |               |               |
              v               v               v
        PXC-1 HOME       PXC-2 PARTS      PXC-3 SHARED
-       + POINTERS       + INTERFACES      ROOTS/LEMMAS
+       - POINTERS       + INTERFACES      ROOTS/LEMMAS
              \               |               /
               \              |              /
                +-------------+-------------+
@@ -6018,9 +6018,9 @@ path: 01_CANON/01_CORE_LAWS/L26_PROOF_COORDINATION.md
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
-* CHILD_OF: [[LAW_HIERARCHY]]
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- CHILD_OF: [[LAW_HIERARCHY]]
 
 claim_class: AMOS_MODEL
 
@@ -6032,4 +6032,5 @@ claim_class: AMOS_MODEL
 
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
+```
 ```

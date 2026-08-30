@@ -73,10 +73,10 @@ epistemic_boundary:
 $$i_{\text{TSS}} = [H(1-\Omega)(1-F)(1-S)]^{1/4}, \quad e = i_{\text{TSS}}^2$$
 
 1. **State Vector Tracking:** Continuously monitors systemic risk variables:
-   * $\Omega \in [0, 1]$: Absolute structural fragility / systemic capture.
-   * $H \in [0, 1]$: Systemic health, coherence, and resource vitality.
-   * $F \in [0, 1]$: Operational fragmentation and modular breakdown.
-   * $S \in [0, 1]$: External shock pressure and environmental turbulence.
+   - $\Omega \in [0, 1]$: Absolute structural fragility / systemic capture.
+   - $H \in [0, 1]$: Systemic health, coherence, and resource vitality.
+   - $F \in [0, 1]$: Operational fragmentation and modular breakdown.
+   - $S \in [0, 1]$: External shock pressure and environmental turbulence.
 2. **Decoupling Gating:** When fragility exceeds critical bounds ($\Omega > 0.7$), activates modular decoupling to prevent catastrophic contagion.
 3. **Quadratic Capability Scaling:** Scales organizational strategic capability non-linearly with holistic health ($e = i^2$).
 

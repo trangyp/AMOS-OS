@@ -2159,7 +2159,6 @@ P4 MODEL
 →
 P6 EXECUTION
 ```
-
 without P5 authority where authority is required:
 
 ```text
@@ -2171,7 +2170,6 @@ P6 RESULT
 →
 CANON
 ```
-
 without validation/governance:
 
 ```text

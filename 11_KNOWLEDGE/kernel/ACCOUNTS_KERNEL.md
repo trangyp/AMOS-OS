@@ -1,8 +1,16 @@
 ---
+title: ACCOUNTS_KERNEL
 tags:
 - knowledge
 - kernel
 - accounts
+type: note
+source: 11_KNOWLEDGE/kernel
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
 
 # ACCOUNTS KERNEL
@@ -350,13 +358,13 @@ This proves the class syntactically declares `Kernel` as its base.
 
 It does not reveal:
 
-* what `Kernel` contains;
-* whether `Kernel` is abstract;
-* whether `run` satisfies a protocol;
-* lifecycle methods;
-* constructor behavior;
-* synchronization requirements;
-* registry requirements.
+- what `Kernel` contains;
+- whether `Kernel` is abstract;
+- whether `run` satisfies a protocol;
+- lifecycle methods;
+- constructor behavior;
+- synchronization requirements;
+- registry requirements.
 
 Those depend on:
 
@@ -536,10 +544,10 @@ non-destructive
 
 Within the visible implementation this can reasonably mean:
 
-* it does not intentionally remove existing context keys;
-* it does not replace the context object;
-* it does not perform account-domain mutations;
-* it only appends trace information under normal compatible inputs.
+- it does not intentionally remove existing context keys;
+- it does not replace the context object;
+- it does not perform account-domain mutations;
+- it only appends trace information under normal compatible inputs.
 
 However, `non-destructive` is descriptive source terminology, not a formally defined property.
 
@@ -988,11 +996,11 @@ around trace mutation.
 
 Exact behavior under concurrent mutation depends on:
 
-* `Context` implementation;
-* trace implementation;
-* Python runtime;
-* thread/process model;
-* caller architecture.
+- `Context` implementation;
+- trace implementation;
+- Python runtime;
+- thread/process model;
+- caller architecture.
 
 The source does not resolve this.
 
@@ -1082,14 +1090,14 @@ $$
 
 An audit system generally requires stronger properties such as:
 
-* persistence;
-* actor identity;
-* timestamps;
-* tamper evidence;
-* authorization context;
-* event IDs;
-* durable ordering;
-* retention.
+- persistence;
+- actor identity;
+- timestamps;
+- tamper evidence;
+- authorization context;
+- event IDs;
+- durable ordering;
+- retention.
 
 None are visible here.
 
@@ -1771,12 +1779,12 @@ That architecture is simply not supplied here.
 
 Unknown whether a context is:
 
-* per request;
-* per transaction;
-* per workflow;
-* per session;
-* persistent;
-* global.
+- per request;
+- per transaction;
+- per workflow;
+- per session;
+- persistent;
+- global.
 
 This materially affects trace growth interpretation.
 
@@ -1786,11 +1794,11 @@ This materially affects trace growth interpretation.
 
 Unknown whether the registry is:
 
-* process-local;
-* global;
-* persistent;
-* reconstructed on import;
-* plugin-scoped.
+- process-local;
+- global;
+- persistent;
+- reconstructed on import;
+- plugin-scoped.
 
 ---
 
@@ -1860,13 +1868,13 @@ but supplies no architecture for the system itself.
 
 Unknown:
 
-* other kernels;
-* engines;
-* services;
-* agents;
-* data models;
-* orchestrators;
-* transaction boundaries.
+- other kernels;
+- engines;
+- services;
+- agents;
+- data models;
+- orchestrators;
+- transaction boundaries.
 
 ---
 
@@ -2615,11 +2623,11 @@ The visible component is a software scaffold.
 
 It does not define behavior under:
 
-* production finance;
-* regulated banking;
-* distributed transactions;
-* real-money custody;
-* accounting compliance.
+- production finance;
+- regulated banking;
+- distributed transactions;
+- real-money custody;
+- accounting compliance.
 
 ---
 
@@ -2903,9 +2911,9 @@ The trace mutation makes execution observable to downstream components that insp
 
 This can support:
 
-* debugging;
-* orchestration tracing;
-* component participation tracking.
+- debugging;
+- orchestration tracing;
+- component participation tracking.
 
 Those uses are plausible but not explicitly stated.
 
@@ -3036,15 +3044,15 @@ If later monetary mutations are introduced, validation requirements should rise 
 
 A future implementation that moves or records real value would require much stronger evidence than this scaffold:
 
-* atomicity;
-* authorization;
-* auditability;
-* consistency;
-* recovery;
-* idempotency strategy;
-* concurrency control;
-* persistence;
-* jurisdictional controls where applicable.
+- atomicity;
+- authorization;
+- auditability;
+- consistency;
+- recovery;
+- idempotency strategy;
+- concurrency control;
+- persistence;
+- jurisdictional controls where applicable.
 
 These are architectural requirements in a consequential financial regime, not claims about the current source.
 
@@ -3084,12 +3092,12 @@ Kernel
 
 would determine:
 
-* inherited behavior;
-* abstract contracts;
-* initialization;
-* wrapping;
-* lifecycle;
-* possible run instrumentation.
+- inherited behavior;
+- abstract contracts;
+- initialization;
+- wrapping;
+- lifecycle;
+- possible run instrumentation.
 
 ---
 
@@ -3824,9 +3832,9 @@ Thus the function is intentionally or incidentally invocation-count preserving t
 
 Under ordinary list/dict assumptions:
 
-* `setdefault`: average \(O(1)\);
-* list append: amortized \(O(1)\);
-* return: \(O(1)\).
+- `setdefault`: average \(O(1)\);
+- list append: amortized \(O(1)\);
+- return: \(O(1)\).
 
 Therefore per invocation is approximately:
 
@@ -4295,8 +4303,8 @@ MONEY_SYSTEM
 
 These are different classification dimensions:
 
-* storage/knowledge location;
-* runtime system identity.
+- storage/knowledge location;
+- runtime system identity.
 
 They should not be conflated.
 

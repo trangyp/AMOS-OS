@@ -175,24 +175,24 @@ Authority(a)
 
 The infrastructure control plane owns:
 
-* task-contract validation,
-* capability resolution,
-* evidence-envelope validation,
-* observed read sets,
-* semantic transaction validation,
-* provenance alignment,
-* authority verification,
-* constraint freshness,
-* observability requirements,
-* effect identity,
-* idempotency,
-* commit-time validation,
-* release state,
-* receiver receipts,
-* replay protection,
-* reconciliation,
-* selective invalidation,
-* recovery state.
+- task-contract validation,
+- capability resolution,
+- evidence-envelope validation,
+- observed read sets,
+- semantic transaction validation,
+- provenance alignment,
+- authority verification,
+- constraint freshness,
+- observability requirements,
+- effect identity,
+- idempotency,
+- commit-time validation,
+- release state,
+- receiver receipts,
+- replay protection,
+- reconciliation,
+- selective invalidation,
+- recovery state.
 
 It must not absorb specialist domain logic.
 
@@ -452,16 +452,16 @@ P_t
 
 where:
 
-* \(Q_t\) = task state,
-* \(C_t\) = resolved capability contract,
-* \(E_t\) = validated evidence state,
-* \(R_t\) = observed read set,
-* \(X_t\) = semantic transaction,
-* \(A_t\) = authority state,
-* \(O_t\) = observability state,
-* \(L_t\) = effect-release ledger state,
-* \(Y_t\) = receiver/effect completion state,
-* \(P_t\) = provenance state.
+- \(Q_t\) = task state,
+- \(C_t\) = resolved capability contract,
+- \(E_t\) = validated evidence state,
+- \(R_t\) = observed read set,
+- \(X_t\) = semantic transaction,
+- \(A_t\) = authority state,
+- \(O_t\) = observability state,
+- \(L_t\) = effect-release ledger state,
+- \(Y_t\) = receiver/effect completion state,
+- \(P_t\) = provenance state.
 
 ---
 
@@ -1009,13 +1009,13 @@ A(t)
 
 may become invalid through:
 
-* expiry,
-* revocation,
-* policy change,
-* principal change,
-* resource change,
-* delegation withdrawal,
-* trust-registry change.
+- expiry,
+- revocation,
+- policy change,
+- principal change,
+- resource change,
+- delegation withdrawal,
+- trust-registry change.
 
 Therefore:
 
@@ -1257,15 +1257,15 @@ L
 
 where:
 
-* \(T\) = task valid,
-* \(C\) = capability contract valid,
-* \(E\) = evidence valid,
-* \(R\) = authoritative reads fresh,
-* \(X\) = semantic transaction valid,
-* \(A\) = authority current,
-* \(K\) = constraints current,
-* \(O\) = observability sufficient,
-* \(L\) = release state safe.
+- \(T\) = task valid,
+- \(C\) = capability contract valid,
+- \(E\) = evidence valid,
+- \(R\) = authoritative reads fresh,
+- \(X\) = semantic transaction valid,
+- \(A\) = authority current,
+- \(K\) = constraints current,
+- \(O\) = observability sufficient,
+- \(L\) = release state safe.
 
 If any required hard term is false:
 

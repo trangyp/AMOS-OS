@@ -3394,7 +3394,6 @@ EXPECTED
 →
 APPLY PROPOSED
 ```
-
 ```text
 CURRENT
 ≠
@@ -3402,13 +3401,11 @@ EXPECTED
 →
 ABORT(CONFLICT)
 ```
-
 ```text
 COMMIT
 >
 START
 ```
-
 ```text
 READ-WRITE
 CONFLICT
@@ -3417,20 +3414,17 @@ RETRY
 OR
 ROLLBACK e_safe
 ```
-
 ```text
 DIRTY READS
 =
 0
 ```
-
 ```text
 PHANTOM
 STATE MUTATIONS
 =
 0
 ```
-
 ---
 
 # 128. Canonical One-Line Law

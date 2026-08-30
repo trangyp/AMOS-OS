@@ -3122,7 +3122,6 @@ PLANNING_ONLY
 
 The key distinction is that `ROADMAP.md` should now own **sequencing, maturity, dependency order, phase gates, rollout, and readiness**, while `GENERATOR_CONTRACT.md` owns Generator semantics, `VALIDATION.md` owns admissibility checks, and `TESTS.md` owns executable assurance. This separation keeps the roadmap useful without turning planning language into implementation claims.
 ```
-
 ---
 
 [[00_ROOT_MOC]]|[[AMOS MOC]]

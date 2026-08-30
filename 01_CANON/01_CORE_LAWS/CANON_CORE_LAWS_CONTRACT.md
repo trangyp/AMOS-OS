@@ -2144,7 +2144,6 @@ EMERGENCY
 !=
 NO GOVERNANCE
 ```
-
 ---
 
 # 75. Law Registry

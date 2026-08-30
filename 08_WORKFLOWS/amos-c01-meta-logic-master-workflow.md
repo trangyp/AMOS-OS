@@ -55,7 +55,6 @@ domain: c01
 Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 
 
-
 ## Preconditions
 
 - The `amos-c01-meta-logic-master` skill exists and is loaded.

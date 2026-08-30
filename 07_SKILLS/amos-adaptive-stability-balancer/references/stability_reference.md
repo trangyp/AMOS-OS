@@ -224,9 +224,9 @@ Status:
 
 Use only when:
 
-* growth rate is meaningfully estimated
-* near-term extrapolation is reasonable
-* regime is sufficiently stable
+- growth rate is meaningfully estimated
+- near-term extrapolation is reasonable
+- regime is sufficiently stable
 
 Do not extrapolate linearly through regime changes.
 
@@ -397,11 +397,11 @@ Recovery under stress should not depend entirely on improvisation.
 
 When the source or system supplies runbooks:
 
-* identify triggering conditions
-* identify required evidence
-* preserve execution order
-* preserve rollback steps
-* record deviations
+- identify triggering conditions
+- identify required evidence
+- preserve execution order
+- preserve rollback steps
+- record deviations
 
 Do not blindly execute stale runbooks across incompatible regimes.
 
@@ -635,9 +635,9 @@ Maintain current configuration.
 
 Examples:
 
-* reduce worker count
-* adjust cache size
-* change polling interval
+- reduce worker count
+- adjust cache size
+- change polling interval
 
 Normally lowest adaptation risk.
 
@@ -751,15 +751,15 @@ SAFE_MODE is a legitimate governed operating state.
 
 It may:
 
-* disable recursive execution
-* disable background activity
-* reduce concurrency
-* reduce scanning
-* disable expensive features
-* reduce logging
-* disable auto-registration
-* disable automatic reload
-* preserve only essential runtime functions
+- disable recursive execution
+- disable background activity
+- reduce concurrency
+- reduce scanning
+- disable expensive features
+- reduce logging
+- disable auto-registration
+- disable automatic reload
+- preserve only essential runtime functions
 
 Maintain:
 
@@ -777,15 +777,15 @@ Its purpose is preservation.
 
 Enter or recommend SAFE_MODE when evidence indicates:
 
-* critical resource pressure
-* uncontrolled recursion
-* runaway background work
-* rapidly worsening swap
-* repeated crashes
-* insufficient recovery reserve
-* severe observability loss
-* cascading dependency failure
-* uncontrolled adaptation
+- critical resource pressure
+- uncontrolled recursion
+- runaway background work
+- rapidly worsening swap
+- repeated crashes
+- insufficient recovery reserve
+- severe observability loss
+- cascading dependency failure
+- uncontrolled adaptation
 
 Use actual configured thresholds when available.
 
@@ -853,13 +853,13 @@ speculative
 
 Possible shedding targets:
 
-* redundant scans
-* repeated retries
-* speculative reasoning
-* background indexing
-* nonessential agents
-* expensive diagnostics
-* duplicate work
+- redundant scans
+- repeated retries
+- speculative reasoning
+- background indexing
+- nonessential agents
+- expensive diagnostics
+- duplicate work
 
 Do not shed integrity checks required for safe operation.
 
@@ -880,12 +880,12 @@ where persistent growth can exhaust resources.
 
 Prefer:
 
-* explicit maximum size
-* eviction policy
-* TTL
-* archival
-* backpressure
-* rejection
+- explicit maximum size
+- eviction policy
+- TTL
+- archival
+- backpressure
+- rejection
 
 depending on semantics.
 
@@ -911,10 +911,10 @@ LOAD_EVERYTHING_GLOBALLY
 
 when:
 
-* initialization cost is high
-* memory is constrained
-* capability is rarely needed
-* dependencies can be safely loaded on demand
+- initialization cost is high
+- memory is constrained
+- capability is rarely needed
+- dependencies can be safely loaded on demand
 
 Do not lazy-load something required for immediate safety enforcement.
 
@@ -959,14 +959,14 @@ when contention, memory pressure, coordination cost, or downstream limits domina
 
 Adapt worker count according to:
 
-* memory
-* CPU
-* workload
-* dependency capacity
-* latency
-* queue depth
-* contention
-* recovery reserve
+- memory
+- CPU
+- workload
+- dependency capacity
+- latency
+- queue depth
+- contention
+- recovery reserve
 
 ---
 
@@ -1015,11 +1015,11 @@ as a known instability pattern.
 
 Prefer:
 
-* bounded retries
-* exponential backoff
-* jitter where appropriate
-* circuit breaking
-* dependency health checks
+- bounded retries
+- exponential backoff
+- jitter where appropriate
+- circuit breaking
+- dependency health checks
 
 Do not retry indefinitely.
 
@@ -1170,13 +1170,13 @@ Containment can become excessive.
 
 After stability returns, ask:
 
-* Is SAFE_MODE still necessary?
-* Are limits still appropriate?
-* Has hardware changed?
-* Has workload changed?
-* Are disabled capabilities still risky?
-* Has the root cause been repaired?
-* Is reserve now sufficient?
+- Is SAFE_MODE still necessary?
+- Are limits still appropriate?
+- Has hardware changed?
+- Has workload changed?
+- Are disabled capabilities still risky?
+- Has the root cause been repaired?
+- Is reserve now sufficient?
 
 Do not preserve emergency restrictions indefinitely without revalidation.
 
@@ -1186,10 +1186,10 @@ Do not preserve emergency restrictions indefinitely without revalidation.
 
 Before additional change ask:
 
-* Is current instability caused by insufficient adaptation?
-* Or by too much recent adaptation?
-* Has the previous change reached a stable observation window?
-* Can its effect be distinguished from earlier changes?
+- Is current instability caused by insufficient adaptation?
+- Or by too much recent adaptation?
+- Has the previous change reached a stable observation window?
+- Can its effect be distinguished from earlier changes?
 
 Avoid stacking mutations faster than their effects can be measured.
 
@@ -1640,27 +1640,27 @@ Compress for low-complexity cases.
 
 Prefer:
 
-* "The runtime is currently STRAINED under the available evidence."
-* "Adaptation should pause until recovery reserve is restored."
-* "The historical threshold is source-specific to the recorded Mac environment."
-* "The system can remain operational in SAFE_MODE."
-* "This change is reversible and appears admissible within current headroom."
-* "The apparent recovery does not establish root-cause repair."
-* "The local component is stable, but system-level stability remains uncertain."
-* "The current evidence supports containment rather than further optimization."
-* "The proposed adaptation should be sandboxed before promotion."
-* "The equation is an AMOS source-framework model rather than an established universal law."
+- "The runtime is currently STRAINED under the available evidence."
+- "Adaptation should pause until recovery reserve is restored."
+- "The historical threshold is source-specific to the recorded Mac environment."
+- "The system can remain operational in SAFE_MODE."
+- "This change is reversible and appears admissible within current headroom."
+- "The apparent recovery does not establish root-cause repair."
+- "The local component is stable, but system-level stability remains uncertain."
+- "The current evidence supports containment rather than further optimization."
+- "The proposed adaptation should be sandboxed before promotion."
+- "The equation is an AMOS source-framework model rather than an established universal law."
 
 Avoid:
 
-* "The system is safe because CPU is low."
-* "More workers will make it faster."
-* "The crash proves memory was the root cause."
-* "The 80% threshold always applies."
-* "The stability equation proves..."
-* "The system recovered, so the issue is fixed."
-* "Maximum stability is always optimal."
-* "Adaptation should continue until performance stops improving."
+- "The system is safe because CPU is low."
+- "More workers will make it faster."
+- "The crash proves memory was the root cause."
+- "The 80% threshold always applies."
+- "The stability equation proves..."
+- "The system recovered, so the issue is fixed."
+- "Maximum stability is always optimal."
+- "Adaptation should continue until performance stops improving."
 
 ---
 **MOC:** references_MOC

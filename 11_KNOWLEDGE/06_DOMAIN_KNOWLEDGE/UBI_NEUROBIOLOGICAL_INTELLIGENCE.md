@@ -81,18 +81,18 @@ NBI constitutes the cognitive, perceptual, and cortical substrate of the Unified
 
 # 1. Biological Foundations
 
-* **Substrate:** Central nervous system, neocortical columns, synaptic plasticity, prefrontal-parietal executive control networks.
-* **Core Functions:** Sensory discrimination, abstraction, working memory, hierarchical pattern recognition, logical deduction, decision tree traversal.
-* **Coupling to $e = i^2$:** NBI provides the raw information-processing bandwidth of the alignment index $i = (\text{NBI} \cdot \text{NEI} \cdot \text{SI} \cdot \text{BEI})^{1/4}$.
+- **Substrate:** Central nervous system, neocortical columns, synaptic plasticity, prefrontal-parietal executive control networks.
+- **Core Functions:** Sensory discrimination, abstraction, working memory, hierarchical pattern recognition, logical deduction, decision tree traversal.
+- **Coupling to $e = i^2$:** NBI provides the raw information-processing bandwidth of the alignment index $i = (\text{NBI} \cdot \text{NEI} \cdot \text{SI} \cdot \text{BEI})^{1/4}$.
 
 ---
 
 # 2. Failure Modes & Degradation Dynamics
 
 When NBI operates in isolation or suffers from chronic Overload ($\Omega$):
-* **Cognitive Tunneling:** Executive narrowing and inability to perceive multi-scale context.
-* **Analytical Brittle-Point:** High symbolic fluency masking catastrophic emotional or somatic exhaustion.
-* **Cognitive Fatigue:** Reaction-time degradation, error rate acceleration, and working-memory collapse.
+- **Cognitive Tunneling:** Executive narrowing and inability to perceive multi-scale context.
+- **Analytical Brittle-Point:** High symbolic fluency masking catastrophic emotional or somatic exhaustion.
+- **Cognitive Fatigue:** Reaction-time degradation, error rate acceleration, and working-memory collapse.
 
 ---
 

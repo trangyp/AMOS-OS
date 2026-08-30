@@ -51,6 +51,11 @@ tags:
 aliases:
 - AMOS Law Hierarchy - AMOS Canon Law Hierarchy - AMOS Authority Hierarchy - AMOS
   Precedence M
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_core_laws
 ---
 
 # AMOS Law Hierarchy

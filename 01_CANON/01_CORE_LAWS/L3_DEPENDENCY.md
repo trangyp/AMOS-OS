@@ -1089,19 +1089,15 @@ A AND B
 ```text
 A OR B
 ```
-
 ```text
 A THEN B
 ```
-
 ```text
 A UNLESS B
 ```
-
 ```text
 A IF regime R
 ```
-
 Dependency normalization must preserve logical structure.
 
 ---
@@ -2005,19 +2001,16 @@ TYPED
     ↓
 CONFLICTING
 ```
-
 ```text
 ACTIVE
     ↓
 STALE
 ```
-
 ```text
 ACTIVE
     ↓
 INVALID
 ```
-
 ```text
 INVALID
     ↓
@@ -2025,7 +2018,6 @@ REPAIRED
     ↓
 REVALIDATED
 ```
-
 ---
 
 # 80. Dependency Status Vocabulary

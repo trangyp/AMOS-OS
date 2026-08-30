@@ -240,14 +240,14 @@ because transaction-level defects may remain.
 
 Examples include:
 
-* incompatible scopes;
-* conflicting epochs;
-* circular dependencies;
-* mutually inconsistent conclusions;
-* stale snapshots;
-* shared-provenance independence violations;
-* unresolved competing hypotheses;
-* transaction-level governance failure.
+- incompatible scopes;
+- conflicting epochs;
+- circular dependencies;
+- mutually inconsistent conclusions;
+- stale snapshots;
+- shared-provenance independence violations;
+- unresolved competing hypotheses;
+- transaction-level governance failure.
 
 Therefore the validator must perform both:
 
@@ -407,12 +407,12 @@ Every transaction participant must be identifiable.
 
 Required structural properties include:
 
-* unique capsule identity;
-* valid claim representation;
-* declared claim class;
-* dependency representation;
-* provenance representation where required;
-* scope representation where required.
+- unique capsule identity;
+- valid claim representation;
+- declared claim class;
+- dependency representation;
+- provenance representation where required;
+- scope representation where required.
 
 Malformed load-bearing capsules must fail closed.
 
@@ -434,13 +434,13 @@ Claim classes must not be silently mixed.
 
 Relevant classes may include:
 
-* `SOURCE_CLAIM`
-* `DERIVED`
-* `MODEL`
-* `UNKNOWN`
-* `CONDITIONAL`
-* `COMPETING`
-* `VALIDATION_RECEIPT`
+- `SOURCE_CLAIM`
+- `DERIVED`
+- `MODEL`
+- `UNKNOWN`
+- `CONDITIONAL`
+- `COMPETING`
+- `VALIDATION_RECEIPT`
 
 A `MODEL` capsule cannot silently become verified evidence merely
 because it participates in a transaction containing stronger claims.
@@ -619,14 +619,14 @@ Each capsule has an applicability envelope.
 
 Relevant dimensions may include:
 
-* system;
-* population;
-* environment;
-* scale;
-* time;
-* regime;
-* measurement method;
-* assumptions.
+- system;
+- population;
+- environment;
+- scale;
+- time;
+- regime;
+- measurement method;
+- assumptions.
 
 The transaction must detect invalid scope transfer.
 
@@ -1052,13 +1052,13 @@ A retry is justified only when at least one relevant condition changes.
 
 Examples:
 
-* new evidence;
-* repaired dependency;
-* updated snapshot;
-* resolved authority;
-* changed epoch;
-* corrected capsule;
-* independent validation.
+- new evidence;
+- repaired dependency;
+- updated snapshot;
+- resolved authority;
+- changed epoch;
+- corrected capsule;
+- independent validation.
 
 Thus:
 
@@ -1143,13 +1143,13 @@ Unknown is not equivalent to false, but neither is it permission.
 
 Given pinned:
 
-* transaction inputs;
-* capsule contents;
-* dependency graph;
-* state snapshot;
-* validator version;
-* policy version;
-* epoch;
+- transaction inputs;
+- capsule contents;
+- dependency graph;
+- state snapshot;
+- validator version;
+- policy version;
+- epoch;
 
 the validator SHOULD produce the same validation verdict where its
 declared deterministic surface permits.
@@ -1210,13 +1210,13 @@ receipt_is_authentic
 
 Receipt integrity may depend on:
 
-* immutable storage;
-* digest;
-* signature;
-* epoch binding;
-* provenance;
-* validator identity;
-* authority identity.
+- immutable storage;
+- digest;
+- signature;
+- epoch binding;
+- provenance;
+- validator identity;
+- authority identity.
 
 ---
 
@@ -1413,12 +1413,12 @@ A validation PASS means:
 
 It does **not** mean:
 
-* every premise is universally true;
-* every source is empirically verified;
-* the model applies outside its scope;
-* future state changes cannot invalidate the result;
-* the validator itself is formally proven correct;
-* implementation behavior outside tested conditions is correct.
+- every premise is universally true;
+- every source is empirically verified;
+- the model applies outside its scope;
+- future state changes cannot invalidate the result;
+- the validator itself is formally proven correct;
+- implementation behavior outside tested conditions is correct.
 
 This boundary is mandatory.
 
@@ -1613,11 +1613,11 @@ Local success cannot certify a global invariant.
 
 Where a transaction can provide sufficient proof that:
 
-* dependency closure is local;
-* no global invariant is affected;
-* provenance independence is established;
-* state snapshot is compatible;
-* scope/regime boundaries are respected;
+- dependency closure is local;
+- no global invariant is affected;
+- provenance independence is established;
+- state snapshot is compatible;
+- scope/regime boundaries are respected;
 
 global coordination may be unnecessary.
 

@@ -431,19 +431,19 @@ AMOS_HOMEOSTASIS_NATIVE_MEANING:
 
 Do not silently substitute definitions from:
 
-* physiology;
-* biology;
-* neuroscience;
-* psychology;
-* cybernetics;
-* control theory;
-* dynamical systems;
-* artificial intelligence;
-* reinforcement learning;
-* systems engineering;
-* thermodynamics;
-* ecology;
-* organizational theory.
+- physiology;
+- biology;
+- neuroscience;
+- psychology;
+- cybernetics;
+- control theory;
+- dynamical systems;
+- artificial intelligence;
+- reinforcement learning;
+- systems engineering;
+- thermodynamics;
+- ecology;
+- organizational theory.
 
 Those may later serve as external evidence or comparison models, but they are not native AMOS canon by default.
 
@@ -581,14 +581,14 @@ THERMODYNAMIC EQUILIBRIUM
 
 The placeholder does not specify whether AMOS Homeostasis uses:
 
-* equilibrium;
-* dynamic equilibrium;
-* attractor dynamics;
-* bounded regulation;
-* target ranges;
-* adaptive targets;
-* non-equilibrium regulation;
-* another native construct.
+- equilibrium;
+- dynamic equilibrium;
+- attractor dynamics;
+- bounded regulation;
+- target ranges;
+- adaptive targets;
+- non-equilibrium regulation;
+- another native construct.
 
 Current:
 
@@ -1622,7 +1622,6 @@ ADAPTATION
 !=
 HOMEOSTASIS
 ```
-
 ---
 
 ## 43. Measurement Model
@@ -2024,7 +2023,6 @@ STABLE ATTENTION
 !=
 HOMEOSTASIS
 ```
-
 ---
 
 ## 55. Memory Relation
@@ -2052,7 +2050,6 @@ RECOVERY OF DATA
 !=
 HOMEOSTATIC RECOVERY
 ```
-
 ---
 
 ## 56. Learning Relation
@@ -2078,7 +2075,6 @@ LEARNING
 !=
 HOMEOSTASIS
 ```
-
 ---
 
 ## 57. Decision Relation
@@ -2104,7 +2100,6 @@ ACTION
 !=
 HOMEOSTATIC EFFECT
 ```
-
 ---
 
 ## 58. Agency Relation
@@ -2133,7 +2128,6 @@ HOMEOSTASIS
 !=
 SELF-AWARENESS
 ```
-
 ---
 
 ## 59. Metacognition Relation
@@ -2159,7 +2153,6 @@ METACOGNITION
 !=
 SELF-AWARENESS
 ```
-
 ---
 
 ## 60. Consciousness Relation
@@ -2582,19 +2575,19 @@ EXTERNAL RESEARCH
 
 Therefore external material on:
 
-* biological homeostasis;
-* physiology;
-* cybernetics;
-* control theory;
-* predictive regulation;
-* allostasis;
-* dynamical systems;
-* neuroscience;
-* cognitive science;
-* psychology;
-* reinforcement learning;
-* active inference;
-* predictive processing;
+- biological homeostasis;
+- physiology;
+- cybernetics;
+- control theory;
+- predictive regulation;
+- allostasis;
+- dynamical systems;
+- neuroscience;
+- cognitive science;
+- psychology;
+- reinforcement learning;
+- active inference;
+- predictive processing;
 
 must remain:
 
@@ -2749,7 +2742,6 @@ CURRENT FILE VERSION
 !=
 CURRENT ENVIRONMENT VALIDITY
 ```
-
 ---
 
 # Part IX — RSCF / H-M-L / Fractal Runtime
@@ -3266,41 +3258,41 @@ Before accepting a consequential Homeostasis claim, challenge it through an inde
 
 Ask:
 
-* Is `homeostasis` actually defined natively?
-* Is biological meaning being imported without evidence?
-* Is stability being mistaken for homeostasis?
-* Is equilibrium being mistaken for homeostasis?
-* Is feedback being mistaken for homeostasis?
-* Is negative feedback being assumed?
-* Is a fixed setpoint being assumed?
-* Is a target range being assumed?
-* Is an error signal being invented?
-* Is a sensor being invented?
-* Is a controller being invented?
-* Is an effector being invented?
-* Is regulation being mistaken for authority?
-* Is adaptation being mistaken for homeostasis?
-* Is allostasis being collapsed into homeostasis?
-* Is robustness being mistaken for homeostasis?
-* Is resilience being mistaken for homeostasis?
-* Is rollback being mistaken for homeostatic recovery?
-* Is cognition being assumed to depend on homeostasis?
-* Is homeostasis being assumed to cause cognition?
-* Is emotion being treated as a regulated variable without source evidence?
-* Is attention being treated as a regulated variable without evidence?
-* Is self-regulation being mistaken for agency?
-* Is internal monitoring being mistaken for consciousness?
-* Is correlation being promoted to causation?
-* Is structural analogy being promoted to biological equivalence?
-* Is a proxy being mistaken for the regulated variable?
-* Is a computed score being mistaken for measurement?
-* Is scope leaking?
-* Did the regime shift?
-* Are target values stale?
-* Are dependencies stale?
-* Are descendant sources being counted as independent?
-* Is external research being imported as native canon?
-* Does confidence exceed the weakest load-bearing premise?
+- Is `homeostasis` actually defined natively?
+- Is biological meaning being imported without evidence?
+- Is stability being mistaken for homeostasis?
+- Is equilibrium being mistaken for homeostasis?
+- Is feedback being mistaken for homeostasis?
+- Is negative feedback being assumed?
+- Is a fixed setpoint being assumed?
+- Is a target range being assumed?
+- Is an error signal being invented?
+- Is a sensor being invented?
+- Is a controller being invented?
+- Is an effector being invented?
+- Is regulation being mistaken for authority?
+- Is adaptation being mistaken for homeostasis?
+- Is allostasis being collapsed into homeostasis?
+- Is robustness being mistaken for homeostasis?
+- Is resilience being mistaken for homeostasis?
+- Is rollback being mistaken for homeostatic recovery?
+- Is cognition being assumed to depend on homeostasis?
+- Is homeostasis being assumed to cause cognition?
+- Is emotion being treated as a regulated variable without source evidence?
+- Is attention being treated as a regulated variable without evidence?
+- Is self-regulation being mistaken for agency?
+- Is internal monitoring being mistaken for consciousness?
+- Is correlation being promoted to causation?
+- Is structural analogy being promoted to biological equivalence?
+- Is a proxy being mistaken for the regulated variable?
+- Is a computed score being mistaken for measurement?
+- Is scope leaking?
+- Did the regime shift?
+- Are target values stale?
+- Are dependencies stale?
+- Are descendant sources being counted as independent?
+- Is external research being imported as native canon?
+- Does confidence exceed the weakest load-bearing premise?
 
 If challenge succeeds:
 
@@ -4121,58 +4113,58 @@ if their own premises remain valid.
 
 ## 120. Promotion-Gate Checklist
 
-* [ ] substantive content populated from verified native-canon source
-* [ ] native AMOS Homeostasis definition established
-* [ ] homeostasis type established
-* [ ] regulated-system boundary established
-* [ ] regulated variables established
-* [ ] target-state semantics established
-* [ ] setpoint semantics established if applicable
-* [ ] target-range semantics established if applicable
-* [ ] disturbance semantics established
-* [ ] error semantics established if applicable
-* [ ] sensor/observation model established if applicable
-* [ ] controller model established if applicable
-* [ ] effector model established if applicable
-* [ ] feedback model established if applicable
-* [ ] feedforward model established if applicable
-* [ ] stability semantics established
-* [ ] equilibrium relation established
-* [ ] adaptation semantics established if applicable
-* [ ] allostasis relation established if applicable
-* [ ] recovery semantics established
-* [ ] dynamics established if claimed
-* [ ] equations established if claimed
-* [ ] measurement semantics established
-* [ ] causal claims typed and validated
-* [ ] cognition relation established
-* [ ] emotion relation established if claimed
-* [ ] attention relation established if claimed
-* [ ] memory relation established if claimed
-* [ ] learning relation established if claimed
-* [ ] decision relation established if claimed
-* [ ] agency relation established if claimed
-* [ ] metacognition relation established if claimed
-* [ ] consciousness relation established if claimed
-* [ ] Full Brain OS relation established if claimed
-* [ ] Cognitive Field relation established if claimed
-* [ ] typed schema bound to this artifact
-* [ ] identity + versioning implemented
-* [ ] scope envelope established
-* [ ] regime envelope established
-* [ ] temporal validity established
-* [ ] dependency topology established
-* [ ] provenance edges persisted
-* [ ] provenance ancestry validated
-* [ ] provenance independence assessed
-* [ ] competing hypotheses preserved where unresolved
-* [ ] negative cases covered
-* [ ] rollback basin demonstrated
-* [ ] executable binding established if enforcement claimed
-* [ ] [[ROUTING_POLICY_VALIDATION_RECEIPT]] resolved
-* [ ] [[AUTHZ_ENGINE_VALIDATION_RECEIPT]] resolved
-* [ ] artifact-specific validation receipt executed
-* [ ] unresolved critical gaps remain visible as `UNKNOWN/GAP`
+- [ ] substantive content populated from verified native-canon source
+- [ ] native AMOS Homeostasis definition established
+- [ ] homeostasis type established
+- [ ] regulated-system boundary established
+- [ ] regulated variables established
+- [ ] target-state semantics established
+- [ ] setpoint semantics established if applicable
+- [ ] target-range semantics established if applicable
+- [ ] disturbance semantics established
+- [ ] error semantics established if applicable
+- [ ] sensor/observation model established if applicable
+- [ ] controller model established if applicable
+- [ ] effector model established if applicable
+- [ ] feedback model established if applicable
+- [ ] feedforward model established if applicable
+- [ ] stability semantics established
+- [ ] equilibrium relation established
+- [ ] adaptation semantics established if applicable
+- [ ] allostasis relation established if applicable
+- [ ] recovery semantics established
+- [ ] dynamics established if claimed
+- [ ] equations established if claimed
+- [ ] measurement semantics established
+- [ ] causal claims typed and validated
+- [ ] cognition relation established
+- [ ] emotion relation established if claimed
+- [ ] attention relation established if claimed
+- [ ] memory relation established if claimed
+- [ ] learning relation established if claimed
+- [ ] decision relation established if claimed
+- [ ] agency relation established if claimed
+- [ ] metacognition relation established if claimed
+- [ ] consciousness relation established if claimed
+- [ ] Full Brain OS relation established if claimed
+- [ ] Cognitive Field relation established if claimed
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] scope envelope established
+- [ ] regime envelope established
+- [ ] temporal validity established
+- [ ] dependency topology established
+- [ ] provenance edges persisted
+- [ ] provenance ancestry validated
+- [ ] provenance independence assessed
+- [ ] competing hypotheses preserved where unresolved
+- [ ] negative cases covered
+- [ ] rollback basin demonstrated
+- [ ] executable binding established if enforcement claimed
+- [ ] [[ROUTING_POLICY_VALIDATION_RECEIPT]] resolved
+- [ ] [[AUTHZ_ENGINE_VALIDATION_RECEIPT]] resolved
+- [ ] artifact-specific validation receipt executed
+- [ ] unresolved critical gaps remain visible as `UNKNOWN/GAP`
 
 ---
 
@@ -4859,36 +4851,36 @@ AMOS_HOMEOSTASIS_CANON_GUARD:
 
 ### Parent MOCs
 
-* [[00_ROOT_MOC|AMOS MOC]]
-* [[00_HOME]]
-* [[03_COGNITION_CANON_MOC]]
+- [[00_ROOT_MOC|AMOS MOC]]
+- [[00_HOME]]
+- [[03_COGNITION_CANON_MOC]]
 
 ### Core indexes
 
-* [[AMOS_RSCF_NODES]]
-* [[LAW_HIERARCHY]]
+- [[AMOS_RSCF_NODES]]
+- [[LAW_HIERARCHY]]
 
 ### Cognition family
 
-* [[AMOS_COGNITION_CANON]]
-* [[AMOS_COGNITION_MASTER_CANON]]
-* [[AMOS_COGNITIVE_FIELD_CANON]]
-* [[AMOS_CONSCIOUSNESS_CANON]]
-* [[AMOS_FULL_BRAIN_OS_CANON]]
-* [[AMOS_FULL_BRAIN_OS_MASTER_CANON]]
-* [[AMOS_HOMEOSTASIS_CANON]]
+- [[AMOS_COGNITION_CANON]]
+- [[AMOS_COGNITION_MASTER_CANON]]
+- [[AMOS_COGNITIVE_FIELD_CANON]]
+- [[AMOS_CONSCIOUSNESS_CANON]]
+- [[AMOS_FULL_BRAIN_OS_CANON]]
+- [[AMOS_FULL_BRAIN_OS_MASTER_CANON]]
+- [[AMOS_HOMEOSTASIS_CANON]]
 
 ### Target infrastructure bindings
 
-* [[KERNEL_README]]
-* [[CONTROL_PLANE_README]]
-* [[OBSERVABILITY_README]]
-* [[OPERATIONS_README]]
+- [[KERNEL_README]]
+- [[CONTROL_PLANE_README]]
+- [[OBSERVABILITY_README]]
+- [[OPERATIONS_README]]
 
 ### Required validation receipts
 
-* [[ROUTING_POLICY_VALIDATION_RECEIPT]]
-* [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+- [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+- [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
 ---
 

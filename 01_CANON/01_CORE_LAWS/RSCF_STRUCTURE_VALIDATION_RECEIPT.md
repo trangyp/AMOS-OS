@@ -10,6 +10,11 @@ tags:
 - law-hierarchy
 - law/L17-rscf
 - trang-framework-recursive-ontology-dynamics
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_core_laws
 ---
 
 # RSCF Structure Validation Receipt

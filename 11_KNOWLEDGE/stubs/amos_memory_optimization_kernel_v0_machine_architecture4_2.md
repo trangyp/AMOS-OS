@@ -8,6 +8,13 @@ tags:
 - kernel
 - machine
 - architecture
+type: note
+source: 11_KNOWLEDGE/stubs
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # amos memory optimization kernel v0 machine architecture4 2

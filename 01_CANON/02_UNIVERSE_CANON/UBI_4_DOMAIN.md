@@ -7,6 +7,11 @@ tags:
 - redirect
 - bio
 - unified-biological-intelligence
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: universe_canon
 ---
 
 # UBI 4-Domain Architecture

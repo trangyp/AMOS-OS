@@ -353,8 +353,6 @@ C09 is not a lawyer, not a compliance certifier, and not an oracle of organizati
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
 
-
-
 See `references/detailed-content.md` for detailed amos canon grounding.
 
 ## References

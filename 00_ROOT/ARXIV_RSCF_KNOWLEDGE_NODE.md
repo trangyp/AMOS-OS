@@ -10,6 +10,11 @@ tags:
   - canon/root
   - authoritative-state
   - cognitive-matrix-integration
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: root_index
 ---
 
 # Arvix ArXiv Corpus — AMOS-RSCF Knowledge Node

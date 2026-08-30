@@ -135,15 +135,15 @@ These relationships are sufficient to partially populate the registry's **archit
 
 They are not sufficient to fabricate:
 
-* the native expansion of `UBI`;
-* the native expansions of `NBI`, `NEI`, `SI`, or `BEI`;
-* an authoritative single-sentence native definition of UBI;
-* a complete UBI ontology;
-* a complete UBI law registry;
-* UBI-specific canonical equations;
-* exact runtime semantics;
-* empirical validation;
-* or executable implementation.
+- the native expansion of `UBI`;
+- the native expansions of `NBI`, `NEI`, `SI`, or `BEI`;
+- an authoritative single-sentence native definition of UBI;
+- a complete UBI ontology;
+- a complete UBI law registry;
+- UBI-specific canonical equations;
+- exact runtime semantics;
+- empirical validation;
+- or executable implementation.
 
 Accordingly:
 
@@ -273,28 +273,28 @@ It is intended to support:
 
 This artifact MUST NOT be used to claim:
 
-* universal biological laws;
-* universal neurological laws;
-* universal emotional laws;
-* universal somatic laws;
-* universal bioelectromagnetic mechanisms;
-* scientific proof;
-* biological truth merely because AMOS models biology;
-* diagnosis;
-* treatment;
-* medical authority;
-* psychological certainty;
-* mathematical theoremhood;
-* physical causation from architectural analogy;
-* bioelectromagnetic causation from association;
-* deterministic human behavior;
-* deterministic organism behavior;
-* exact individual state from group-level patterns;
-* empirical validation from documentation;
-* implementation from architecture;
-* runtime enforcement from addressability;
-* final canonical status from registry placement;
-* or authority merely because UBI occupies an important AMOS architectural position.
+- universal biological laws;
+- universal neurological laws;
+- universal emotional laws;
+- universal somatic laws;
+- universal bioelectromagnetic mechanisms;
+- scientific proof;
+- biological truth merely because AMOS models biology;
+- diagnosis;
+- treatment;
+- medical authority;
+- psychological certainty;
+- mathematical theoremhood;
+- physical causation from architectural analogy;
+- bioelectromagnetic causation from association;
+- deterministic human behavior;
+- deterministic organism behavior;
+- exact individual state from group-level patterns;
+- empirical validation from documentation;
+- implementation from architecture;
+- runtime enforcement from addressability;
+- final canonical status from registry placement;
+- or authority merely because UBI occupies an important AMOS architectural position.
 
 ---
 
@@ -824,11 +824,11 @@ A modeled collapse signature may represent an AMOS systems concept.
 
 It does not automatically establish:
 
-* biological collapse;
-* psychiatric collapse;
-* medical emergency;
-* organizational failure;
-* or physical-system collapse.
+- biological collapse;
+- psychiatric collapse;
+- medical emergency;
+- organizational failure;
+- or physical-system collapse.
 
 The scope must be explicit.
 
@@ -1838,12 +1838,12 @@ These should be linked, not collapsed into one epistemic object.
 
 External evidence can:
 
-* support;
-* weaken;
-* contextualize;
-* falsify;
-* constrain;
-* or leave unresolved
+- support;
+- weaken;
+- contextualize;
+- falsify;
+- constrain;
+- or leave unresolved
 
 an AMOS model.
 
@@ -3989,71 +3989,71 @@ The frontmatter source status remains `PLACEHOLDER` until governed promotion occ
 
 Required:
 
-* [ ] authoritative native UBI source identified
-* [ ] UBI acronym resolved
-* [ ] native definition extracted
-* [ ] NBI/NEI/SI/BEI semantics resolved
-* [ ] native relation types resolved
-* [ ] source provenance persisted
-* [ ] contradictions surfaced
-* [ ] source lineage recorded
+- [ ] authoritative native UBI source identified
+- [ ] UBI acronym resolved
+- [ ] native definition extracted
+- [ ] NBI/NEI/SI/BEI semantics resolved
+- [ ] native relation types resolved
+- [ ] source provenance persisted
+- [ ] contradictions surfaced
+- [ ] source lineage recorded
 
 ---
 
 # 217. Schema Gate
 
-* [ ] authoritative/native schema identified or normalized schema approved
-* [ ] identity fields defined
-* [ ] versioning defined
-* [ ] epistemic classes bound
-* [ ] scope fields bound
-* [ ] regime fields bound
-* [ ] provenance fields bound
-* [ ] validation fields bound
-* [ ] invalidation fields bound
+- [ ] authoritative/native schema identified or normalized schema approved
+- [ ] identity fields defined
+- [ ] versioning defined
+- [ ] epistemic classes bound
+- [ ] scope fields bound
+- [ ] regime fields bound
+- [ ] provenance fields bound
+- [ ] validation fields bound
+- [ ] invalidation fields bound
 
 ---
 
 # 218. Implementation Gate
 
-* [ ] implementation identified
-* [ ] executable binding identified
-* [ ] model/version binding demonstrated
-* [ ] negative cases implemented
-* [ ] stale-input handling implemented
-* [ ] malformed-input handling implemented
-* [ ] authority handling implemented
-* [ ] rollback path demonstrated
+- [ ] implementation identified
+- [ ] executable binding identified
+- [ ] model/version binding demonstrated
+- [ ] negative cases implemented
+- [ ] stale-input handling implemented
+- [ ] malformed-input handling implemented
+- [ ] authority handling implemented
+- [ ] rollback path demonstrated
 
 ---
 
 # 219. Validation Gate
 
-* [ ] canon validation performed
-* [ ] formal validation performed where applicable
-* [ ] implementation validation performed
-* [ ] empirical claims separately assessed
-* [ ] provenance independence assessed
-* [ ] scope validity assessed
-* [ ] regime validity assessed
-* [ ] artifact-specific receipt generated
+- [ ] canon validation performed
+- [ ] formal validation performed where applicable
+- [ ] implementation validation performed
+- [ ] empirical claims separately assessed
+- [ ] provenance independence assessed
+- [ ] scope validity assessed
+- [ ] regime validity assessed
+- [ ] artifact-specific receipt generated
 
 ---
 
 # 220. Promotion Checklist
 
-* [ ] substantive content populated from verified native-canon source
-* [ ] typed schema bound to this artifact
-* [ ] identity + versioning implemented
-* [ ] negative cases covered
-* [ ] provenance edges persisted
-* [ ] rollback basin demonstrated
-* [ ] executed validation receipt specific to UBI
-* [x] unresolved critical gaps remain visible
-* [x] model/observation firewall defined
-* [x] causal firewall defined
-* [x] biological-model/diagnosis firewall defined
-* [x] add-only discipline preserved
+- [ ] substantive content populated from verified native-canon source
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered
+- [ ] provenance edges persisted
+- [ ] rollback basin demonstrated
+- [ ] executed validation receipt specific to UBI
+- [x] unresolved critical gaps remain visible
+- [x] model/observation firewall defined
+- [x] causal firewall defined
+- [x] biological-model/diagnosis firewall defined
+- [x] add-only discipline preserved
 
 ---
 
@@ -5525,13 +5525,13 @@ UBI_CURRENT_PROOF_STATE:
 
 # 301. Cross-Plane Bindings
 
-* Governed by canon — [[LAW_HIERARCHY]] | AMOS Core Laws
-* Kernel interaction — [[KERNEL_README]]
-* Control-plane gates — [[CONTROL_PLANE_README]]
-* Observed by — [[OBSERVABILITY_README]] · never treated as authority
-* Recovered via operations — [[OPERATIONS_README]]
-* Validation reference — [[ROUTING_POLICY_VALIDATION_RECEIPT]]
-* Authorization validation reference — [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+- Governed by canon — [[LAW_HIERARCHY]] | AMOS Core Laws
+- Kernel interaction — [[KERNEL_README]]
+- Control-plane gates — [[CONTROL_PLANE_README]]
+- Observed by — [[OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[OPERATIONS_README]]
+- Validation reference — [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+- Authorization validation reference — [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
 Boundary:
 

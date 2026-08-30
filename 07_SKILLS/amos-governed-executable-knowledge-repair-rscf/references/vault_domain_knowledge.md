@@ -179,20 +179,15 @@ class Formula:
 ```
 Reality = Persistence of Distinction
 ```
-
-
 ```
 Potential ⇄ Distinction ⇄ Observer ⇄ Inquiry ⇄ Higher Distinction
 ```
-
 Everything else—physics, biology, mind, civilization, suffering, healing—is a fractal expression of this at different scales.
 
 
 ```
 Human = Nested Memory Architecture
 ```
-
-
 ```
 BAD: Humans are not primarily rational creatures
 GOOD: The majority of human cognitive processing is automatic, affective, and regulatory
@@ -254,7 +249,6 @@ All 8 v1.0 layers exist verbatim in `cosmo-brain/executable_brain_model.py` (70 
 ---
 **MOC:**
 ```
-
 ---
 
 **Related:** [[amos-governed-executable-knowledge-repair-rscf_MOC]]

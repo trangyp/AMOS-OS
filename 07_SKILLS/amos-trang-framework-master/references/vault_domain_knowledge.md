@@ -113,7 +113,6 @@ nhưng chưa mô tả đầy đủ:
 “điều kiện để hình tồn tại”.
 ```
 
-
 ---
 
 
@@ -136,7 +135,6 @@ Nó rất mạnh ở:
 ```text
 động học tương tác.
 ```
-
 
 ---
 
@@ -165,7 +163,6 @@ Có rất nhiều diễn giải cạnh tranh.
 toán mạnh
 nhưng ontology chưa khóa.
 ```
-
 
 ---
 
@@ -197,7 +194,6 @@ Không chỉ:
 ```text
 nó tương tác thế nào.
 ```
-
 
 ---
 
@@ -315,7 +311,6 @@ Khung Trang cố tạo:
 cross-scale continuity.
 ```
 
-
 ---
 
 
@@ -401,7 +396,6 @@ hơn là:
 physical theory hoàn chỉnh.
 ```
 
-
 ---
 
 
@@ -427,7 +421,6 @@ Hai cái hiện:
 bù cho nhau.
 ```
 
-
 ---
 
 
@@ -450,7 +443,6 @@ Nếu không:
 ```text
 nó vẫn chỉ là triết học hệ thống mạnh.
 ```
-
 
 ---
 
@@ -531,7 +523,6 @@ Không có 6 tầng này:
 không mô phỏng được.
 ```
 
-
 ---
 
 
@@ -555,7 +546,6 @@ Cần thêm:
 τ = memory depth
 ```
 
-
 ---
 
 
@@ -577,7 +567,6 @@ Trong đó:
 β = học mới
 γ = mất ký ức
 ```
-
 
 ---
 
@@ -625,7 +614,6 @@ dịch mẫu
 từ quy mô a sang quy mô b.
 ```
 
-
 ---
 
 
@@ -637,7 +625,6 @@ organ → body
 body → society
 society → civilization
 ```
-
 
 ---
 
@@ -662,7 +649,6 @@ with
 I(a) ≈ I(b)
 ```
 
-
 ---
 
 
@@ -684,7 +670,6 @@ Cần thêm:
 thành hành động tầng thấp
 ```
 
-
 ---
 
 
@@ -705,7 +690,6 @@ L:
 daily behavior
 ```
 
-
 ---
 
 
@@ -725,7 +709,6 @@ core values
 → corruption
 ```
 
-
 ---
 
 
@@ -743,7 +726,6 @@ Cần:
 Ψ
 ```
 
-
 ---
 
 
@@ -760,7 +742,6 @@ Behavior update
 Memory stabilization
 ```
 
-
 ---
 
 
@@ -770,7 +751,6 @@ Memory stabilization
 detect error
 without behavioral update.
 ```
-
 
 ---
 
@@ -783,7 +763,6 @@ error
 → stabilization
 → future prediction improvement
 ```
-
 
 ---
 
@@ -798,7 +777,6 @@ Cần:
 Ξ = pattern stabilization operator
 ```
 
-
 ---
 
 
@@ -810,7 +788,6 @@ Tại sao:
 một mẫu
 không tan ngay.
 ```
-
 
 ---
 
@@ -828,7 +805,6 @@ Recursive reinforcement
 Environmental compatibility
 ```
 
-
 ---
 
 
@@ -837,7 +813,6 @@ Environmental compatibility
 ```text
 Ξ > E
 ```
-
 
 ---
 
@@ -856,7 +831,6 @@ Cần:
 Γ
 ```
 
-
 ---
 
 
@@ -868,7 +842,6 @@ Làm sao:
 một cấu trúc mới
 thật sự xuất hiện.
 ```
-
 
 ---
 
@@ -888,7 +861,6 @@ Memory retention
 Selection pressure
 ```
 
-
 ---
 
 
@@ -907,7 +879,6 @@ Entropy,
 Selection
 )
 ```
-
 
 ---
 
@@ -960,7 +931,6 @@ Predictive correction
 Cross-scale integration
 ```
 
-
 ---
 
 
@@ -984,7 +954,6 @@ Entropy pressure
 Future debt
 ```
 
-
 ---
 
 
@@ -1003,8 +972,6 @@ Classical state
 =
 boundary stabilized recursive pattern
 ```
-
-
 ---
 
 
@@ -1031,7 +998,6 @@ Boundary locking
 Recursive stabilization
 ```
 
-
 ---
 
 
@@ -1047,7 +1013,6 @@ Time
 ordered accumulation
 of irreversible state changes.
 ```
-
 
 ---
 
@@ -1066,7 +1031,6 @@ Không có cập nhật:
 no experienced time.
 ```
 
-
 ---
 
 
@@ -1080,7 +1044,6 @@ Thông tin là:
 difference
 that changes future system state.
 ```
-
 
 ---
 
@@ -1096,7 +1059,6 @@ Future impact
 ×
 Memory integration
 ```
-
 
 ---
 
@@ -1115,7 +1077,6 @@ Cross-scale consistency
 External validation
 ```
 
-
 ---
 
 
@@ -1127,7 +1088,6 @@ Ethics
 long-term preservation
 of cross-scale integrity.
 ```
-
 
 ---
 
@@ -1145,7 +1105,6 @@ Nó bắt đầu thành:
 ```text
 recursive ontology engine.
 ```
-
 
 ---
 
@@ -1166,7 +1125,6 @@ cần thêm:
 - energy equations
 - spacetime integration
 ```
-
 
 ---
 
@@ -1191,7 +1149,6 @@ nó vẫn chỉ là
 meta-ontology rất mạnh.
 ```
 
-
 ---
 
 
@@ -1212,7 +1169,6 @@ giữ bản dạng,
 và tiếp tục sống
 qua biến đổi.
 ```
-
 
 ## XX. RENORMALIZATION OPERATOR — ℛ
 
@@ -1245,7 +1201,6 @@ Nhưng:
 chúng vẫn liên tục.
 ```
 
-
 ---
 
 
@@ -1260,7 +1215,6 @@ là:
 ```text
 toán tử tái chuẩn hóa quy mô.
 ```
-
 
 ---
 
@@ -1279,7 +1233,6 @@ nhưng đổi:
 biến hiệu dụng.
 ```
 
-
 ---
 
 
@@ -1297,7 +1250,6 @@ với:
 ```text
 Identity invariants preserved.
 ```
-
 
 ---
 
@@ -1346,7 +1298,6 @@ Nhưng:
 chúng kế thừa invariant.
 ```
 
-
 ---
 
 
@@ -1364,7 +1315,6 @@ Nó là:
 ```text
 mạng quan hệ đa chiều.
 ```
-
 
 ---
 
@@ -1385,7 +1335,6 @@ mô tả:
 - quy mô
 ```
 
-
 ---
 
 
@@ -1398,7 +1347,6 @@ Mà bởi:
 ```text
 cấu trúc quan hệ động.
 ```
-
 
 ---
 
@@ -1413,7 +1361,6 @@ Persistence(𝕋)
 ×
 Repairability(𝕋)
 ```
-
 
 ---
 
@@ -1438,7 +1385,6 @@ khả năng duy trì
 hoặc đổi trạng thái hệ.
 ```
 
-
 ---
 
 
@@ -1448,7 +1394,6 @@ hoặc đổi trạng thái hệ.
 ε =
 usable transition capacity.
 ```
-
 
 ---
 
@@ -1461,7 +1406,6 @@ Không có containment:
 energy
 → noise.
 ```
-
 
 ---
 
@@ -1477,7 +1421,6 @@ Containment
 ×
 Recursive reinforcement
 ```
-
 
 ---
 
@@ -1504,7 +1447,6 @@ cấu trúc quan hệ
 của thay đổi có thứ tự.
 ```
 
-
 ---
 
 
@@ -1515,7 +1457,6 @@ của thay đổi có thứ tự.
 =
 ordered relational persistence.
 ```
-
 
 ---
 
@@ -1530,7 +1471,6 @@ Nó là:
 cost of interaction.
 ```
 
-
 ---
 
 
@@ -1543,7 +1483,6 @@ Nó là:
 ```text
 rate of irreversible updates.
 ```
-
 
 ---
 
@@ -1573,7 +1512,6 @@ Mà là:
 constraint propagation across state transitions.
 ```
 
-
 ---
 
 
@@ -1590,7 +1528,6 @@ A làm thay đổi
 không gian trạng thái khả dụng của B.
 ```
 
-
 ---
 
 
@@ -1600,7 +1537,6 @@ không gian trạng thái khả dụng của B.
 high constraint propagation.
 ```
 
-
 ---
 
 
@@ -1609,7 +1545,6 @@ high constraint propagation.
 ```text
 small state-space deformation.
 ```
-
 
 ---
 

@@ -6,6 +6,13 @@ tags:
 - law
 - policy
 - c09-org-law-policy
+type: note
+source: 11_KNOWLEDGE/stubs
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # c09 org law policy

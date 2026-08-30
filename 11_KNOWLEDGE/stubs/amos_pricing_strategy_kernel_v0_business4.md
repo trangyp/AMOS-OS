@@ -8,6 +8,13 @@ tags:
 - kernel
 - business
 - amos-pricing-strategy-kernel-v0-business4
+type: note
+source: 11_KNOWLEDGE/stubs
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # amos pricing strategy kernel v0 business4

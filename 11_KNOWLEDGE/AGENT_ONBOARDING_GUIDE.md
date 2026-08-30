@@ -1523,25 +1523,21 @@ ReportSaysPass
 !=
 TestsPassed
 ```
-
 ```text
 FileExists
 !=
 FeatureWorks
 ```
-
 ```text
 MethodExists
 !=
 MethodCalled
 ```
-
 ```text
 CodePathExists
 !=
 ProductionPathUsesIt
 ```
-
 ---
 
 # 48. INTEGRATION INVARIANT
@@ -2340,33 +2336,33 @@ confidence_ceiling:
 
 **MAJOR**
 
-* aligned onboarding with AMOS_CORE v4.4 governance;
-* separated document/protocol/CORE version identities;
-* preserved the 14 historical vertical slices;
-* preserved historical component names as source claims;
-* classified historical benchmark values instead of treating them as current truth;
-* introduced benchmark-forensics requirements;
-* corrected undefined `ops/sec`, `accuracy`, `efficiency`, and composite-score claims;
-* removed automatic production-readiness promotion;
-* separated software component naming from physical quantum claims;
-* separated `QuantumConsciousness` naming from consciousness evidence;
-* added H/M/L architecture;
-* added objective locking;
-* added provenance;
-* added authority/policy boundaries;
-* added commit-time freshness;
-* added selective invalidation;
-* added RSCF capsules;
-* added competing hypotheses;
-* added causal firewall;
-* added execution provenance;
-* added pre-work/post-work gates;
-* added failure registry;
-* added rollback/recovery;
-* corrected `NO MOCKS` into a production-evidence rule while retaining legitimate scoped test mocks;
-* identified `pass` placeholders in the predecessor integration pattern as incompatible with claims of completed integration;
-* replaced “100% directive compliance” with governed compliance;
-* replaced “Quantum Supremacy Achieved” with evidence-bounded status.
+- aligned onboarding with AMOS_CORE v4.4 governance;
+- separated document/protocol/CORE version identities;
+- preserved the 14 historical vertical slices;
+- preserved historical component names as source claims;
+- classified historical benchmark values instead of treating them as current truth;
+- introduced benchmark-forensics requirements;
+- corrected undefined `ops/sec`, `accuracy`, `efficiency`, and composite-score claims;
+- removed automatic production-readiness promotion;
+- separated software component naming from physical quantum claims;
+- separated `QuantumConsciousness` naming from consciousness evidence;
+- added H/M/L architecture;
+- added objective locking;
+- added provenance;
+- added authority/policy boundaries;
+- added commit-time freshness;
+- added selective invalidation;
+- added RSCF capsules;
+- added competing hypotheses;
+- added causal firewall;
+- added execution provenance;
+- added pre-work/post-work gates;
+- added failure registry;
+- added rollback/recovery;
+- corrected `NO MOCKS` into a production-evidence rule while retaining legitimate scoped test mocks;
+- identified `pass` placeholders in the predecessor integration pattern as incompatible with claims of completed integration;
+- replaced “100% directive compliance” with governed compliance;
+- replaced “Quantum Supremacy Achieved” with evidence-bounded status.
 
 ## Historical predecessor — 2026-03-16
 

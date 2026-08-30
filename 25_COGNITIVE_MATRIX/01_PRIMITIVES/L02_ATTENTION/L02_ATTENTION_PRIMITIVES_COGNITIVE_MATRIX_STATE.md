@@ -1222,14 +1222,14 @@ These are architectural definitions, not evidence that executable validators cur
 
 This state contract should be revised or rejected if direct canon establishes that:
 
-* `L02_ATTENTION` does not own attention-state representation;
-* attention is not modeled as finite/budgeted in the relevant AMOS architecture;
-* canonical variables materially conflict with this schema;
-* H/M/L allocation is defined differently;
-* state ownership belongs to another layer;
-* canonical control-plane boundaries contradict the proposed separation;
-* direct implementation demonstrates a materially different transition model;
-* runtime tests falsify the stated invariants.
+- `L02_ATTENTION` does not own attention-state representation;
+- attention is not modeled as finite/budgeted in the relevant AMOS architecture;
+- canonical variables materially conflict with this schema;
+- H/M/L allocation is defined differently;
+- state ownership belongs to another layer;
+- canonical control-plane boundaries contradict the proposed separation;
+- direct implementation demonstrates a materially different transition model;
+- runtime tests falsify the stated invariants.
 
 A falsifier does not automatically invalidate the entire primitive.
 

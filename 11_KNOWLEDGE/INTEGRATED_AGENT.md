@@ -341,10 +341,10 @@ C(N)
 
 where:
 
-* (N) = original name;
-* (C) = cleaning transformation;
-* (V) = version-normalization transformation;
-* (N') = resulting filesystem name.
+- (N) = original name;
+- (C) = cleaning transformation;
+- (V) = version-normalization transformation;
+- (N') = resulting filesystem name.
 
 ---
 
@@ -3890,51 +3890,51 @@ confidence_ceiling:
 
 ### MAJOR DOCUMENT / GOVERNANCE REVISION
 
-* converted raw Python rename script into governed AMOS migration architecture;
-* preserved the original source implementation;
-* separated document, engine, migration-contract, and target-artifact versions;
-* classified current engine as a real filesystem mutator rather than a stub;
-* retained deterministic normalization semantics;
-* identified integer-only version grammar;
-* distinguished assigned `_v0` from historical artifact version;
-* identified incomplete protected-directory semantics;
-* added protected-subtree pruning invariant;
-* added plan-before-mutation architecture;
-* added deterministic rename manifest;
-* added rename operation schema;
-* added ordered rule registry;
-* identified duplicate `vInfinity` / `vINFINITY` rule under `IGNORECASE`;
-* added literal/regex/token rule modes;
-* added empty-name detection;
-* added semantic token-boundary handling;
-* added collision detection;
-* added many-to-one detection;
-* added case-fold collision detection;
-* added Unicode normalization considerations;
-* added artifact identity vs filename separation;
-* added path alias lineage;
-* added reference graph;
-* added Python/TypeScript/JSON/Markdown dependency validation;
-* added registry/RSCF identity protection;
-* added source snapshot hashing;
-* added two-phase migration;
-* added transaction state machine;
-* added temporary namespace architecture;
-* added rename graph/cycle detection;
-* added rollback;
-* added migration receipt;
-* added filesystem/content integrity verification;
-* added symlink/root-escape controls;
-* added platform-dependent execution firewall;
-* added Git-aware recovery guidance;
-* added failure registry;
-* added selective recovery;
-* added 45-test validation progression;
-* downgraded the source "safe" claim as overstated;
-* retained "deterministic" only for scoped name transformation;
-* flagged `CANON`, `OMEGA`, `FULL`, and `EXPANDED` as potentially semantic rather than universally decorative;
-* classified the implementation primarily as deterministic code/tool rather than an autonomous agent;
-* added governed Integrated-Agent composition.
+- converted raw Python rename script into governed AMOS migration architecture;
+- preserved the original source implementation;
+- separated document, engine, migration-contract, and target-artifact versions;
+- classified current engine as a real filesystem mutator rather than a stub;
+- retained deterministic normalization semantics;
+- identified integer-only version grammar;
+- distinguished assigned `_v0` from historical artifact version;
+- identified incomplete protected-directory semantics;
+- added protected-subtree pruning invariant;
+- added plan-before-mutation architecture;
+- added deterministic rename manifest;
+- added rename operation schema;
+- added ordered rule registry;
+- identified duplicate `vInfinity` / `vINFINITY` rule under `IGNORECASE`;
+- added literal/regex/token rule modes;
+- added empty-name detection;
+- added semantic token-boundary handling;
+- added collision detection;
+- added many-to-one detection;
+- added case-fold collision detection;
+- added Unicode normalization considerations;
+- added artifact identity vs filename separation;
+- added path alias lineage;
+- added reference graph;
+- added Python/TypeScript/JSON/Markdown dependency validation;
+- added registry/RSCF identity protection;
+- added source snapshot hashing;
+- added two-phase migration;
+- added transaction state machine;
+- added temporary namespace architecture;
+- added rename graph/cycle detection;
+- added rollback;
+- added migration receipt;
+- added filesystem/content integrity verification;
+- added symlink/root-escape controls;
+- added platform-dependent execution firewall;
+- added Git-aware recovery guidance;
+- added failure registry;
+- added selective recovery;
+- added 45-test validation progression;
+- downgraded the source "safe" claim as overstated;
+- retained "deterministic" only for scoped name transformation;
+- flagged `CANON`, `OMEGA`, `FULL`, and `EXPANDED` as potentially semantic rather than universally decorative;
+- classified the implementation primarily as deterministic code/tool rather than an autonomous agent;
+- added governed Integrated-Agent composition.
 
 ## Source implementation — 2026-08-22
 

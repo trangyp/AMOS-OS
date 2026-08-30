@@ -88,8 +88,6 @@ dD/dt = −λN + μB
 dB/dt = −η(G·N) + θ·S_external
 dC/dt = κT − ρF
 ```
-
-
 This is a control-system abstraction, NOT metaphor — applies to nervous systems, institutions, civilizations, grids, ecologies.
 
 ## 2. The 19×19 sparse coupling matrix

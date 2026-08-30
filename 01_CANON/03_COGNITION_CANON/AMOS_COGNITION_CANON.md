@@ -222,25 +222,21 @@ COGNITION CANON SLOT
 !=
 IMPLEMENTED COGNITIVE ARCHITECTURE
 ```
-
 ```text
 DOCUMENTED COGNITION CONCEPT
 !=
 EMPIRICALLY VERIFIED COGNITIVE PROCESS
 ```
-
 ```text
 COGNITION MODEL
 !=
 BIOLOGICAL COGNITION
 ```
-
 ```text
 COGNITIVE CAPABILITY
 !=
 COGNITIVE AUTHORITY
 ```
-
 The first governance distinctions are source-supported.
 
 The cognition-specific distinctions are integrity-preserving derived constraints pending native-canon ingestion.
@@ -1159,19 +1155,16 @@ PROCESS DOCUMENTED
 !=
 PROCESS VALIDATED
 ```
-
 ```text
 PROCESS OUTPUT
 !=
 VERIFIED CONCLUSION
 ```
-
 ```text
 PROCESS EXECUTED
 !=
 AUTHORIZED EFFECT
 ```
-
 ---
 
 # 24. Cognitive Transition Slot
@@ -1230,13 +1223,11 @@ COGNITIVE CONCLUSION
 !=
 COMMIT
 ```
-
 ```text
 COGNITIVE PROPOSAL
 !=
 AUTHORITY
 ```
-
 ---
 
 # 26. Representation Slot
@@ -1284,19 +1275,16 @@ MODEL OF X
 !=
 OBSERVATION OF X
 ```
-
 ```text
 INTERNAL REPRESENTATION
 !=
 EMPIRICAL TRUTH
 ```
-
 ```text
 STRUCTURAL SIMILARITY
 !=
 SEMANTIC IDENTITY
 ```
-
 ---
 
 # 28. Reasoning Binding Slot
@@ -1399,19 +1387,16 @@ ATTENTION
 !=
 COGNITION
 ```
-
 ```text
 ATTENDED
 !=
 COGNIZED
 ```
-
 ```text
 ATTENTION PRIORITY
 !=
 EPISTEMIC CONFIDENCE
 ```
-
 ---
 
 # 32. Memory Binding Slot
@@ -1458,19 +1443,16 @@ COGNIZED
 =
 REMEMBERED
 ```
-
 ```text
 MEMORY RETRIEVAL
 =
 VERIFIED KNOWLEDGE
 ```
-
 ```text
 STORED
 =
 CURRENTLY VALID
 ```
-
 ---
 
 # 34. Perception Binding Slot
@@ -1512,19 +1494,16 @@ OBSERVED
 !=
 CAUSED
 ```
-
 ```text
 PERCEPTION
 !=
 COGNITION
 ```
-
 ```text
 REPRESENTATION OF OBSERVATION
 !=
 RAW OBSERVATION
 ```
-
 ---
 
 # 36. Learning Binding Slot
@@ -1569,19 +1548,16 @@ UPDATE
 !=
 IMPROVEMENT
 ```
-
 ```text
 ADAPTATION
 !=
 VALIDATION
 ```
-
 ```text
 REPETITION
 !=
 INDEPENDENT CONFIRMATION
 ```
-
 ---
 
 # 38. Inference Binding Slot
@@ -1626,13 +1602,11 @@ INFERRED
 !=
 VERIFIED
 ```
-
 ```text
 PLAUSIBLE
 !=
 ESTABLISHED
 ```
-
 Derived confidence cannot exceed the weakest load-bearing premise unless independently revalidated.
 
 ---
@@ -1682,19 +1656,16 @@ SELECTED ACTION
 !=
 AUTHORIZED ACTION
 ```
-
 ```text
 RECOMMENDATION
 !=
 COMMIT
 ```
-
 ```text
 COGNITIVE PREFERENCE
 !=
 GOVERNANCE AUTHORITY
 ```
-
 ---
 
 # 42. Metacognition Slot
@@ -1747,19 +1718,16 @@ HIGH SELF-CONFIDENCE
 !=
 HIGH EVIDENCE
 ```
-
 ```text
 NO DETECTED CONTRADICTION
 !=
 PROOF
 ```
-
 ```text
 MODEL CONSISTENCY
 !=
 EMPIRICAL VALIDITY
 ```
-
 ---
 
 # 44. Emotion Binding Slot
@@ -2521,13 +2489,11 @@ COGNITIVE RULE VALID AT SCALE S1
 !=
 COGNITIVE RULE VALID AT SCALE S2
 ```
-
 ```text
 MODEL VALID FOR AMOS INTERNAL REASONING
 !=
 MODEL VALID FOR HUMAN COGNITION
 ```
-
 No universal applicability is established.
 
 ---
@@ -4467,109 +4433,91 @@ COGNITIVE ENTITY ONTOLOGY
 =
 UNKNOWN/GAP
 ```
-
 ```text
 COGNITIVE STATE ONTOLOGY
 =
 UNKNOWN/GAP
 ```
-
 ```text
 COGNITIVE PROCESS ONTOLOGY
 =
 UNKNOWN/GAP
 ```
-
 ```text
 COGNITIVE TRANSITION SEMANTICS
 =
 UNKNOWN/GAP
 ```
-
 ```text
 REPRESENTATION SEMANTICS
 =
 UNKNOWN/GAP
 ```
-
 ```text
 COGNITION ↔ REASONING
 =
 UNKNOWN/GAP
 ```
-
 ```text
 COGNITION ↔ ATTENTION
 =
 UNKNOWN/GAP
 ```
-
 ```text
 COGNITION ↔ MEMORY
 =
 UNKNOWN/GAP
 ```
-
 ```text
 COGNITION ↔ PERCEPTION
 =
 UNKNOWN/GAP
 ```
-
 ```text
 COGNITION ↔ LEARNING
 =
 UNKNOWN/GAP
 ```
-
 ```text
 COGNITION ↔ DECISION
 =
 UNKNOWN/GAP
 ```
-
 ```text
 COGNITION ↔ AGENCY
 =
 UNKNOWN/GAP
 ```
-
 ```text
 COGNITION ↔ EMOTION
 =
 UNKNOWN/GAP
 ```
-
 ```text
 METACOGNITION
 =
 UNKNOWN/GAP
 ```
-
 ```text
 RSCF / H-M-L BINDING
 =
 UNKNOWN/GAP
 ```
-
 ```text
 SCOPE / REGIME
 =
 UNKNOWN/GAP
 ```
-
 ```text
 EXECUTABLE BINDING
 =
 NOT_ESTABLISHED
 ```
-
 ```text
 VALIDATION
 =
 NOT_ESTABLISHED
 ```
-
 ---
 
 # 136. Final Integrity Rule
@@ -4585,62 +4533,50 @@ FROM ORDINARY LANGUAGE ALONE
 DO NOT IMPORT HUMAN COGNITIVE SCIENCE
 AS NATIVE AMOS CANON
 ```
-
 ```text
 DO NOT IMPORT NEUROSCIENCE
 AS NATIVE AMOS CANON
 ```
-
 ```text
 DO NOT IMPORT AI / TRANSFORMER
 ARCHITECTURE AS NATIVE AMOS CANON
 ```
-
 ```text
 DO NOT EQUATE COGNITION
 WITH CONSCIOUSNESS
 ```
-
 ```text
 DO NOT EQUATE COGNITION
 WITH INTELLIGENCE
 ```
-
 ```text
 DO NOT EQUATE COGNITION
 WITH REASONING
 ```
-
 ```text
 DO NOT EQUATE COGNITION
 WITH MEMORY
 ```
-
 ```text
 DO NOT EQUATE COGNITION
 WITH ATTENTION
 ```
-
 ```text
 DO NOT EQUATE COGNITION
 WITH PERCEPTION
 ```
-
 ```text
 DO NOT EQUATE COGNITION
 WITH AGENCY
 ```
-
 ```text
 DO NOT EQUATE COGNITIVE OUTPUT
 WITH VERIFIED KNOWLEDGE
 ```
-
 ```text
 DO NOT EQUATE COGNITIVE DECISION
 WITH AUTHORIZATION OR COMMIT
 ```
-
 ```text
 DO NOT LET COGNITIVE EFFICIENCY
 WEAKEN PROVENANCE,
@@ -4649,7 +4585,6 @@ CAUSAL DISCIPLINE,
 SCOPE CORRECTNESS,
 OR GOVERNANCE
 ```
-
 Instead:
 
 ```text
@@ -5137,4 +5072,3 @@ RSCF-RELATIONS:
 
 The decisive boundary is the same one the source itself requires: this artifact establishes the **AMOS Cognition Canon slot, identity, provenance class, ingestion discipline, and canon-mutation governance contract**. It does **not** yet establish what cognition means natively in AMOS, what its states/processes are, or how cognition binds to attention, memory, perception, reasoning, learning, decision, agency, emotion, RSCF, or H/M/L. Those remain `UNKNOWN/GAP` until a provenance-linked native source supplies them.
 ```
-

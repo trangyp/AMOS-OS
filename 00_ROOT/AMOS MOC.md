@@ -5,6 +5,11 @@ source: 00_ROOT
 tags:
 - root
 - navigation
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: root_index
 ---
 
 # AMOS MOC

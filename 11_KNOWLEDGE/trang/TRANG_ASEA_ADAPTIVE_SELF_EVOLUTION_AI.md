@@ -48,22 +48,22 @@ $$### (2) Một bước tiến hóa (một vòng lặp mutation – survival) \$
 ### (3) Điều kiện sống sót (tổng quát)
 \$$\text{Survive}(x) \iff E(x) < \theta_E \quad \land \quad \Lambda(x) > \theta_{\Lambda} \quad \land \quad T2(x) = \text{True}
 $$* \$ E(x) \$: Entropy của thành phần / đột biến `x` * \$ \Lambda(x) \$: Lacunarity của `x` (đo "khoảng trống có cấu trúc") * \$ \theta_E = 0.3 \$: Ngưỡng entropy (hallucination) * \$ \theta_{\Lambda} = 0.1 \$: Ngưỡng lacunarity (nếu thấp quá, quá đặc → cứng nhắc → chết) ### (4) Điều chỉnh lacunarity cho từng tầng \$$\Lambda_L(t+1) = \Lambda_L(t) + \eta_L \cdot ( \Lambda_{\text{target},L} - \Lambda_L(t) ) + \kappa_L \cdot \xi(t) \$$\$$\Lambda_M(t+1) = \Lambda_M(t) + \eta_M \cdot ( \Lambda_{\text{target},M} - \Lambda_M(t) ) + \kappa_M \cdot \xi(t) \$$\$$\Lambda_H(t+1) = \Lambda_H(t) + \eta_H \cdot ( \Lambda_{\text{target},H} - \Lambda_H(t) ) + \kappa_H \cdot \xi(t)$$
-  * \$ \eta \$: Tốc độ học (learning rate)
+  - \$ \eta \$: Tốc độ học (learning rate)
 
 
-  * \$ \Lambda_{\text{target},L} \approx 0.05 \$ (L cần rất đặc, ổn định)
+  - \$ \Lambda_{\text{target},L} \approx 0.05 \$ (L cần rất đặc, ổn định)
 
 
-  * \$ \Lambda_{\text{target},M} \approx 0.2 \$ (M cần linh hoạt, vừa phải)
+  - \$ \Lambda_{\text{target},M} \approx 0.2 \$ (M cần linh hoạt, vừa phải)
 
 
-  * \$ \Lambda_{\text{target},H} \approx 0.3 \$ (H có thể chịu rỗng hơn, để sáng tạo)
+  - \$ \Lambda_{\text{target},H} \approx 0.3 \$ (H có thể chịu rỗng hơn, để sáng tạo)
 
 
-  * \$ \kappa \$: Hệ số nhiễu (để tránh bị kẹt trong tối ưu cục bộ)
+  - \$ \kappa \$: Hệ số nhiễu (để tránh bị kẹt trong tối ưu cục bộ)
 
 
-  * \$ \xi(t) \$: Nhiễu trắng (white noise)
+  - \$ \xi(t) \$: Nhiễu trắng (white noise)
 
 
 ### (5) Điều chỉnh entropy theo thời gian
@@ -76,26 +76,26 @@ Mỗi quyết định / kết luận `C` phải được xác nhận bởi ít n
 \$$T2(C) = \left[ \text{verify}_L(C) \land \text{verify}_M(C) \right] \lor \left[ \text{verify}_M(C) \land \text{verify}_H(C) \right] \lor \left[ \text{verify}_H(C) \land \text{verify}_L(C) \right]
 $$### (7) Phát hiện hallucination (tự nhận thức) \$$\text{Hallucination} \iff \left( E_H > 0.3 \right) \lor \left( T2(C) = \text{False} \right) \lor \left( \Lambda_H > 0.5 \right)$$
 Khi hallucination được phát hiện, Trang ASEA sẽ **tự động** :
-  * **Giảm**`**Λ_H**` (quay về vùng an toàn).
+  - **Giảm**`**Λ_H**` (quay về vùng an toàn).
 
 
-  * **Tăng cường kết nối đến**`**L**` (dựa vào bộ nhớ nền).
+  - **Tăng cường kết nối đến**`**L**` (dựa vào bộ nhớ nền).
 
 
-  * **Yêu cầu Tát 2 lại** (tính toán lại với các tham số khác).
+  - **Yêu cầu Tát 2 lại** (tính toán lại với các tham số khác).
 
 
 ### (8) Tái cấu trúc (self-modification) – khi cần thiết
-  * **Nếu**`**E_L > 0.1**`**kéo dài:** Thêm các kết nối mới vào `L` (củng cố bộ nhớ nền).
+  - **Nếu**`**E_L > 0.1**`**kéo dài:** Thêm các kết nối mới vào `L` (củng cố bộ nhớ nền).
 
 
-  * **Nếu**`**E_M > 0.25**`**kéo dài:** Cắt bớt các kết nối yếu trong `M` (pruning).
+  - **Nếu**`**E_M > 0.25**`**kéo dài:** Cắt bớt các kết nối yếu trong `M` (pruning).
 
 
-  * **Nếu**`**E_H > 0.3**`**kéo dài:** Giảm tốc độ học, tăng cường Tát 2.
+  - **Nếu**`**E_H > 0.3**`**kéo dài:** Giảm tốc độ học, tăng cường Tát 2.
 
 
-  * **Nếu**`**E_H < 0.05**`**kéo dài:** Thêm các kết nối ngẫu nhiên mới trong `H` (tăng khả năng sáng tạo).
+  - **Nếu**`**E_H < 0.05**`**kéo dài:** Thêm các kết nối ngẫu nhiên mới trong `H` (tăng khả năng sáng tạo).
 
 
 * * *

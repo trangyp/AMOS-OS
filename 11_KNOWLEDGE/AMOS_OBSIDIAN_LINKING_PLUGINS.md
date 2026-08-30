@@ -1,4 +1,5 @@
 ---
+title: AMOS_OBSIDIAN_LINKING_PLUGINS
 tags:
 - knowledge
 - obsidian
@@ -14,6 +15,13 @@ tags:
 - amos-layer-maps
 - amos-templates
 - validation
+type: note
+source: 11_KNOWLEDGE
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
 
 # Domain MOC

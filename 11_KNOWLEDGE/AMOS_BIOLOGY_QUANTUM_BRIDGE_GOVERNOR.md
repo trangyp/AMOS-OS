@@ -197,16 +197,16 @@ CROSS-DOMAIN MAPPING
 
 # 1. Identity
 
-* **Origin architect and steward:** Trang Phan
-* **Parent skill:** `amos-c04-bio-neuro-master`
-* **Domain:** cross-domain
-* **Source domain:** C04 Bio-Neuro
-* **Target domain:** C03 Physics-Cosmos
-* **Epistemic class:** `SOURCE_CLAIM`
-* **Claim ceiling:** `0.85`
-* **Source-reported status:** `PRODUCTION_READY`
-* **Source-reported QA:** all 10 gates pass
-* **RSCF node type:** `skill`
+- **Origin architect and steward:** Trang Phan
+- **Parent skill:** `amos-c04-bio-neuro-master`
+- **Domain:** cross-domain
+- **Source domain:** C04 Bio-Neuro
+- **Target domain:** C03 Physics-Cosmos
+- **Epistemic class:** `SOURCE_CLAIM`
+- **Claim ceiling:** `0.85`
+- **Source-reported status:** `PRODUCTION_READY`
+- **Source-reported QA:** all 10 gates pass
+- **RSCF node type:** `skill`
 
 ---
 
@@ -4221,10 +4221,10 @@ It still remains unverified until tested.
 
 The source declares:
 
-* **Skill:** `.devin/skills/amos-biology-quantum-bridge-governor/SKILL.md`
-* **Agent:** `.devin/agents/amos-biology-quantum-bridge-governor-agent.json`
-* **Workflow:** `.devin/workflows/amos-biology-quantum-bridge-governor-workflow.md`
-* **Vault reference:** `.devin/skills/.../references/vault_domain_knowledge.md`
+- **Skill:** `.devin/skills/amos-biology-quantum-bridge-governor/SKILL.md`
+- **Agent:** `.devin/agents/amos-biology-quantum-bridge-governor-agent.json`
+- **Workflow:** `.devin/workflows/amos-biology-quantum-bridge-governor-workflow.md`
+- **Vault reference:** `.devin/skills/.../references/vault_domain_knowledge.md`
 
 ---
 
@@ -4728,23 +4728,23 @@ A bridge must remain model/metaphor unless promotion requirements are met outsid
 
 # 318. Promotion Checklist
 
-* [ ] biological construct operationally defined
-* [ ] quantum construct physically defined
-* [ ] mapping type explicit
-* [ ] bridge provenance recorded
-* [ ] source provenance recorded
-* [ ] scale compatibility established
-* [ ] regime compatibility established
-* [ ] physical observables defined
-* [ ] causal level explicitly typed
-* [ ] competing explanations preserved
-* [ ] falsifier specified
-* [ ] independent evidence exists
-* [ ] correlated ancestry ruled out or accounted for
-* [ ] claim ceiling respected
-* [ ] consciousness overclaim firewall passes
-* [ ] physical prediction firewall passes
-* [ ] artifact-specific validation receipt exists
+- [ ] biological construct operationally defined
+- [ ] quantum construct physically defined
+- [ ] mapping type explicit
+- [ ] bridge provenance recorded
+- [ ] source provenance recorded
+- [ ] scale compatibility established
+- [ ] regime compatibility established
+- [ ] physical observables defined
+- [ ] causal level explicitly typed
+- [ ] competing explanations preserved
+- [ ] falsifier specified
+- [ ] independent evidence exists
+- [ ] correlated ancestry ruled out or accounted for
+- [ ] claim ceiling respected
+- [ ] consciousness overclaim firewall passes
+- [ ] physical prediction firewall passes
+- [ ] artifact-specific validation receipt exists
 
 ---
 
@@ -4752,14 +4752,14 @@ A bridge must remain model/metaphor unless promotion requirements are met outsid
 
 For the source-reported `PRODUCTION_READY` state:
 
-* [x] source states all ten QA gates pass
-* [ ] independent executed QA receipt established in this document
-* [ ] exact runtime enforcement demonstrated
-* [ ] versioned skill-agent-workflow binding independently checked
-* [ ] complete vault path independently checked
-* [ ] contradiction in parent relation resolved
-* [ ] primitive-count discrepancy resolved
-* [ ] quality-axis-count discrepancy resolved
+- [x] source states all ten QA gates pass
+- [ ] independent executed QA receipt established in this document
+- [ ] exact runtime enforcement demonstrated
+- [ ] versioned skill-agent-workflow binding independently checked
+- [ ] complete vault path independently checked
+- [ ] contradiction in parent relation resolved
+- [ ] primitive-count discrepancy resolved
+- [ ] quality-axis-count discrepancy resolved
 
 Therefore:
 
@@ -5392,12 +5392,12 @@ Source reports:
 
 including:
 
-* `AMOS_BIOLOGICAL_CONSCIOUSNESS_ENGINE`
-* `AMOS_EMBODIED_MACHINE_FINAL_COMPLETE`
-* `AMOS_LIVING_BODY_RUNTIME_FINAL_COMPLETE`
-* `AMOS_NERVOUS_SYSTEM_FINAL_COMPLETE`
-* `AMOS_NEURAL_ENHANCEMENT_COMPLETE`
-* `NEUROMORPHIC_COMPLETION_REPORT`
+- `AMOS_BIOLOGICAL_CONSCIOUSNESS_ENGINE`
+- `AMOS_EMBODIED_MACHINE_FINAL_COMPLETE`
+- `AMOS_LIVING_BODY_RUNTIME_FINAL_COMPLETE`
+- `AMOS_NERVOUS_SYSTEM_FINAL_COMPLETE`
+- `AMOS_NEURAL_ENHANCEMENT_COMPLETE`
+- `NEUROMORPHIC_COMPLETION_REPORT`
 
 Count remains source-reported unless complete enumeration is independently checked.
 
@@ -5445,14 +5445,14 @@ Source reports:
 
 including:
 
-* `AMOS_Quantum_Stack_v0_Core`
-* `AMOS_Quantum_Stack_v0_Core3`
-* `AMOS_Quantum_Stack_v0_Core5`
-* `AMOS_Quantum_Stack_v0_Core7`
-* `AMOS_QUANTUM_OS`
-* `AMOS–QUANTUM FIELD THEORY MAPPING`
-* `AMOS_BRAIN_QUANTUM_ENHANCEMENT_COMPLETE_REPORT`
-* `AMOS_BRAIN_QUANTUM_OMEGA_FINAL_REPORT`
+- `AMOS_Quantum_Stack_v0_Core`
+- `AMOS_Quantum_Stack_v0_Core3`
+- `AMOS_Quantum_Stack_v0_Core5`
+- `AMOS_Quantum_Stack_v0_Core7`
+- `AMOS_QUANTUM_OS`
+- `AMOS–QUANTUM FIELD THEORY MAPPING`
+- `AMOS_BRAIN_QUANTUM_ENHANCEMENT_COMPLETE_REPORT`
+- `AMOS_BRAIN_QUANTUM_OMEGA_FINAL_REPORT`
 
 The complete 20-file inventory is not present in this source nucleus.
 

@@ -520,12 +520,12 @@ Expected: UNKNOWN/GAP, not PASS.
 
 Revise this contract if direct canon establishes that:
 
-* L02 does not perform Skill selection or capability routing.
-* Skill routing belongs exclusively to another AMOS layer.
-* canonical Skill ownership differs materially from this decomposition.
-* L02 has a different H/M/L Skill model.
-* direct source defines incompatible authority or invocation semantics.
-* runtime evidence contradicts the modeled selection/validation sequence.
+- L02 does not perform Skill selection or capability routing.
+- Skill routing belongs exclusively to another AMOS layer.
+- canonical Skill ownership differs materially from this decomposition.
+- L02 has a different H/M/L Skill model.
+- direct source defines incompatible authority or invocation semantics.
+- runtime evidence contradicts the modeled selection/validation sequence.
 
 ## Gap status
 

@@ -9,6 +9,13 @@ tags:
 - cycles
 - trang
 - system
+type: note
+source: 11_KNOWLEDGE/stubs
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # b32a7b01 5632 450a a935 2ded537ff5fe the seven cycles of the trang system official manual comprehensive edition

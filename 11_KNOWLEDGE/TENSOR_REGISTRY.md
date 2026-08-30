@@ -224,7 +224,6 @@ QUERY[
   uncertainty
 ]
 ```
-
 ```text
 EVIDENCE[
   id,
@@ -245,7 +244,6 @@ EVIDENCE[
   license
 ]
 ```
-
 ```text
 CLAIM[
   id,
@@ -265,7 +263,6 @@ CLAIM[
   consequence
 ]
 ```
-
 ```text
 RSCF[
   id,
@@ -281,7 +278,6 @@ RSCF[
   status
 ]
 ```
-
 ```text
 GOVERNANCE[
   action,
@@ -295,7 +291,6 @@ GOVERNANCE[
   mutation_class
 ]
 ```
-
 ```text
 MEMORY[
   item_id,
@@ -309,7 +304,6 @@ MEMORY[
   revalidation_epoch
 ]
 ```
-
 These signatures are source-grounded.
 
 Their expanded operational semantics below are normalized AMOS-model descriptions unless separately established by a more specific governing source.
@@ -4131,62 +4125,62 @@ NOT_ESTABLISHED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-* INDEXED_BY: [[KNOWLEDGE_MOC]]
+- INDEXED_BY: [[KNOWLEDGE_MOC]]
 
-* DEFINES: HARNESS_TENSOR
+- DEFINES: HARNESS_TENSOR
 
-* DEFINES: QUERY_TENSOR
+- DEFINES: QUERY_TENSOR
 
-* DEFINES: [[EVIDENCE_TENSOR]]
+- DEFINES: [[EVIDENCE_TENSOR]]
 
-* DEFINES: [[CLAIM_TENSOR]]
+- DEFINES: [[CLAIM_TENSOR]]
 
-* DEFINES: RSCF_TENSOR
+- DEFINES: RSCF_TENSOR
 
-* DEFINES: GOVERNANCE_TENSOR
+- DEFINES: GOVERNANCE_TENSOR
 
-* DEFINES: MEMORY_TENSOR
+- DEFINES: MEMORY_TENSOR
 
-* RELATED_TO: [[TENSORS]]
+- RELATED_TO: [[TENSORS]]
 
-* RELATED_TO: [[TENSOR_CONTRACTS]]
+- RELATED_TO: [[TENSOR_CONTRACTS]]
 
-* RELATED_TO: [[RELATION_TENSOR]]
+- RELATED_TO: [[RELATION_TENSOR]]
 
-* RELATED_TO: [[AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR]]
+- RELATED_TO: [[AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR]]
 
-* RELATED_TO: [[AMOS_Simulation_Kernel_v0_Math_Foundations]]
+- RELATED_TO: [[AMOS_Simulation_Kernel_v0_Math_Foundations]]
 
-* RELATED_TO: [[system_scan_agent]]
+- RELATED_TO: [[system_scan_agent]]
 
-* RELATED_TO: [[automation_profiles]]
+- RELATED_TO: [[automation_profiles]]
 
-* GOVERNS:
+- GOVERNS:
   TENSOR_REGISTRATION
 
-* GOVERNS:
+- GOVERNS:
   TENSOR_AXIS_TYPING
 
-* GOVERNS:
+- GOVERNS:
   TENSOR_SCHEMA_IDENTITY
 
-* GOVERNS:
+- GOVERNS:
   TENSOR_COMPATIBILITY
 
-* GOVERNS:
+- GOVERNS:
   UNKNOWN_PRESERVATION
 
-* GOVERNS:
+- GOVERNS:
   PROVENANCE_PRESERVATION
 
-* GOVERNS:
+- GOVERNS:
   EPISTEMIC_CLASS_PRESERVATION
 
-* GOVERNS:
+- GOVERNS:
   CROSS_TENSOR_REASONING
 
 claim_class: AMOS_MODEL

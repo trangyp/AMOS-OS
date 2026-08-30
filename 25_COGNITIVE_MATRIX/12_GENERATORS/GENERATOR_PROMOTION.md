@@ -40,26 +40,26 @@ Generator Promotion exists to prevent unvalidated generator logic from silently 
 
 It governs questions such as:
 
-* What generator is being promoted?
-* From which lifecycle state?
-* Into which target state?
-* Which exact version is under consideration?
-* What evidence supports promotion?
-* Is that evidence independent?
-* What tests and falsification attempts were performed?
-* What scope was actually validated?
-* Under what environment and regime?
-* What dependencies does the generator rely upon?
-* Are those dependencies themselves admissible?
-* What competing generators exist?
-* What regressions were observed?
-* Which risks remain unresolved?
-* Is promotion reversible?
-* What rollback target exists?
-* What invalidates the promotion?
-* Who or what possesses authority to approve the transition?
-* Does promotion grant execution authority?
-* Does promotion establish canon?
+- What generator is being promoted?
+- From which lifecycle state?
+- Into which target state?
+- Which exact version is under consideration?
+- What evidence supports promotion?
+- Is that evidence independent?
+- What tests and falsification attempts were performed?
+- What scope was actually validated?
+- Under what environment and regime?
+- What dependencies does the generator rely upon?
+- Are those dependencies themselves admissible?
+- What competing generators exist?
+- What regressions were observed?
+- Which risks remain unresolved?
+- Is promotion reversible?
+- What rollback target exists?
+- What invalidates the promotion?
+- Who or what possesses authority to approve the transition?
+- Does promotion grant execution authority?
+- Does promotion establish canon?
 
 The last two questions default to:
 

@@ -251,8 +251,8 @@ This page operates primarily inside that navigation scope.
 
 The source explicitly identifies:
 
-* [[INDEX_MODELS_MODEL_CONTRACT]]
-* [[MODEL_MAP]]
+- [[INDEX_MODELS_MODEL_CONTRACT]]
+- [[MODEL_MAP]]
 
 These are the primary companion artifacts established by the supplied index nucleus.
 
@@ -358,9 +358,9 @@ $$
 
 where:
 
-* \(b\) = requested basename;
-* \(d\) = local directory;
-* \(R_L\) = local resolution result.
+- \(b\) = requested basename;
+- \(d\) = local directory;
+- \(R_L\) = local resolution result.
 
 A safe normalized decision function is:
 
@@ -443,8 +443,8 @@ The resolver must not choose an arbitrary first match.
 
 When navigation leaves the local plane, the source explicitly routes resolution through:
 
-* [[00_HOME]]
-* [[AMOS_RSCF_NODES]]
+- [[00_HOME]]
+- [[AMOS_RSCF_NODES]]
 
 Conceptually:
 
@@ -809,13 +809,13 @@ when independence matters.
 
 A model may depend on:
 
-* source claims;
-* observations;
-* derived results;
-* other models;
-* assumptions;
-* parameter choices;
-* environmental conditions.
+- source claims;
+- observations;
+- derived results;
+- other models;
+- assumptions;
+- parameter choices;
+- environmental conditions.
 
 The index should not erase these dependencies when navigating or compressing the model graph.
 
@@ -878,13 +878,13 @@ At M level, navigation can narrow to model subsystems or operational families.
 
 At L level, navigation can reach:
 
-* specific models;
-* specific versions;
-* assumptions;
-* parameters;
-* evidence;
-* falsifiers;
-* validation artifacts.
+- specific models;
+- specific versions;
+- assumptions;
+- parameters;
+- evidence;
+- falsifiers;
+- validation artifacts.
 
 ---
 
@@ -1411,8 +1411,8 @@ FULLY VERIFIED
 
 The source references:
 
-* [[ROUTING_POLICY_VALIDATION_RECEIPT]]
-* [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+- [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+- [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
 These provide contextual validation relationships.
 
@@ -1525,7 +1525,7 @@ Tests establish only the tested property under the tested conditions.
 
 Cross-plane binding:
 
-* [[OBSERVABILITY_README]]
+- [[OBSERVABILITY_README]]
 
 Observability can report:
 
@@ -1559,7 +1559,7 @@ It does not thereby gain permission to mutate the index.
 
 Cross-plane binding:
 
-* [[KERNEL_README]]
+- [[KERNEL_README]]
 
 Kernel capabilities may execute or support model-index operations.
 
@@ -1571,7 +1571,7 @@ The kernel does not automatically redefine canonical Models-plane semantics.
 
 Cross-plane binding:
 
-* [[CONTROL_PLANE_README]]
+- [[CONTROL_PLANE_README]]
 
 The control plane can govern:
 
@@ -1591,7 +1591,7 @@ where implemented.
 
 Recovery binding:
 
-* [[OPERATIONS_README]]
+- [[OPERATIONS_README]]
 
 Operational recovery may address:
 
@@ -1612,7 +1612,7 @@ under applicable governance.
 
 This artifact is governed by:
 
-* [[LAW_HIERARCHY]]
+- [[LAW_HIERARCHY]]
 
 If this normalized expansion conflicts with a stronger canonical law:
 
@@ -2041,9 +2041,9 @@ Canonical supplied path:
 
 The source explicitly relates this artifact to:
 
-* [[00_HOME]]
-* [[AMOS_RSCF_NODES]]
-* [[00_INDEX_MOC]]
+- [[00_HOME]]
+- [[AMOS_RSCF_NODES]]
+- [[00_INDEX_MOC]]
 
 ---
 
@@ -2237,17 +2237,17 @@ This is a reasoning pattern, not a claim that the Markdown index implements a di
 
 Escalate beyond local resolution when any of the following is result-changing:
 
-* cross-plane dependency;
-* basename collision;
-* shared model identity;
-* stale version;
-* provenance correlation;
-* authority uncertainty;
-* regime mismatch;
-* scope mismatch;
-* competing model;
-* irreversible downstream effect;
-* unresolved canonical precedence.
+- cross-plane dependency;
+- basename collision;
+- shared model identity;
+- stale version;
+- provenance correlation;
+- authority uncertainty;
+- regime mismatch;
+- scope mismatch;
+- competing model;
+- irreversible downstream effect;
+- unresolved canonical precedence.
 
 ---
 
@@ -2629,98 +2629,98 @@ INDEX_MODELS_README_GAPS:
 
 # 172. Promotion-Gate Checklist
 
-* [ ] typed schema bound to this artifact
-* [ ] identity + versioning implemented
-* [ ] negative cases covered (`missing` · `malformed` · `stale` · `unauthorized input`)
-* [ ] provenance edges persisted and validated
-* [ ] rollback basin demonstrated for consequential effects
-* [ ] executed validation receipt specific to this artifact
-* [ ] unresolved critical gaps registered as `UNKNOWN/GAP` and visible
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (`missing` · `malformed` · `stale` · `unauthorized input`)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as `UNKNOWN/GAP` and visible
 
 ---
 
 # 173. Extended Gate — Local Navigation
 
-* [ ] local basename lookup implemented
-* [ ] directory boundary enforced
-* [ ] zero-match behavior tested
-* [ ] unique-match behavior tested
-* [ ] multi-match behavior tested
-* [ ] malformed input behavior tested
-* [ ] basename collision handling tested
+- [ ] local basename lookup implemented
+- [ ] directory boundary enforced
+- [ ] zero-match behavior tested
+- [ ] unique-match behavior tested
+- [ ] multi-match behavior tested
+- [ ] malformed input behavior tested
+- [ ] basename collision handling tested
 
 ---
 
 # 174. Extended Gate — Cross-Plane Navigation
 
-* [ ] `` route validated
-* [ ] `` route validated
-* [ ] local/cross-plane boundary validated
-* [ ] ambiguous cross-plane target fails closed
-* [ ] no arbitrary global first-match behavior
+- [ ] `` route validated
+- [ ] `` route validated
+- [ ] local/cross-plane boundary validated
+- [ ] ambiguous cross-plane target fails closed
+- [ ] no arbitrary global first-match behavior
 
 ---
 
 # 175. Extended Gate — Versioning
 
-* [ ] artifact identity implemented
-* [ ] artifact version implemented
-* [ ] stale version detectable
-* [ ] supersession lineage preserved
-* [ ] historical references remain recoverable
+- [ ] artifact identity implemented
+- [ ] artifact version implemented
+- [ ] stale version detectable
+- [ ] supersession lineage preserved
+- [ ] historical references remain recoverable
 
 ---
 
 # 176. Extended Gate — Provenance
 
-* [ ] source identity persisted
-* [ ] ancestry recoverable
-* [ ] correlated provenance detectable
-* [ ] independence demonstrated where claimed
-* [ ] index compression preserves lineage
+- [ ] source identity persisted
+- [ ] ancestry recoverable
+- [ ] correlated provenance detectable
+- [ ] independence demonstrated where claimed
+- [ ] index compression preserves lineage
 
 ---
 
 # 177. Extended Gate — Model Semantics
 
-* [ ] `MODEL ≠ OBSERVATION`
-* [ ] `INDEXED ≠ VERIFIED`
-* [ ] `INDEXED ≠ CANONICAL`
-* [ ] `INDEXED ≠ AUTHORIZED`
-* [ ] `INDEXED ≠ CURRENT`
-* [ ] `LINK_PASS ≠ MODEL_TRUTH`
+- [ ] `MODEL ≠ OBSERVATION`
+- [ ] `INDEXED ≠ VERIFIED`
+- [ ] `INDEXED ≠ CANONICAL`
+- [ ] `INDEXED ≠ AUTHORIZED`
+- [ ] `INDEXED ≠ CURRENT`
+- [ ] `LINK_PASS ≠ MODEL_TRUTH`
 
 ---
 
 # 178. Extended Gate — Governance
 
-* [ ] authority reference validated
-* [ ] authority epoch validated
-* [ ] capability/authority separation tested
-* [ ] proposal/commit separation tested
-* [ ] unauthorized mutation rejected
+- [ ] authority reference validated
+- [ ] authority epoch validated
+- [ ] capability/authority separation tested
+- [ ] proposal/commit separation tested
+- [ ] unauthorized mutation rejected
 
 ---
 
 # 179. Extended Gate — Recovery
 
-* [ ] unaffected state survives failed mutation
-* [ ] dependent descendants selectively invalidated
-* [ ] rollback basin demonstrated
-* [ ] changed-evidence retry discipline demonstrated
-* [ ] receipt generated for consequential failure
+- [ ] unaffected state survives failed mutation
+- [ ] dependent descendants selectively invalidated
+- [ ] rollback basin demonstrated
+- [ ] changed-evidence retry discipline demonstrated
+- [ ] receipt generated for consequential failure
 
 ---
 
 # 180. Extended Gate — RSCF
 
-* [ ] node identity validated
-* [ ] node path validated
-* [ ] node class preserved
-* [ ] scope preserved
-* [ ] regime preserved
-* [ ] provenance preserved
-* [ ] dependency edges preserved
+- [ ] node identity validated
+- [ ] node path validated
+- [ ] node class preserved
+- [ ] scope preserved
+- [ ] regime preserved
+- [ ] provenance preserved
+- [ ] dependency edges preserved
 
 ---
 
@@ -3821,20 +3821,20 @@ UNKNOWN/GAP
 
 # 223. Cross-Plane Bindings
 
-* Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
-* Kernel interaction — [[KERNEL_README]]
-* Control-plane gates — [[CONTROL_PLANE_README]]
-* Observed by — [[OBSERVABILITY_README]] · never treated as authority
-* Recovered via operations — [[OPERATIONS_README]]
-* Root navigation — [[00_HOME]]
-* RSCF navigation — [[AMOS_RSCF_NODES]]
+- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Kernel interaction — [[KERNEL_README]]
+- Control-plane gates — [[CONTROL_PLANE_README]]
+- Observed by — [[OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[OPERATIONS_README]]
+- Root navigation — [[00_HOME]]
+- RSCF navigation — [[AMOS_RSCF_NODES]]
 
 ---
 
 # 224. Index
 
-* See also — [[INDEX_MODELS_MODEL_CONTRACT]]
-* See also — [[MODEL_MAP]]
+- See also — [[INDEX_MODELS_MODEL_CONTRACT]]
+- See also — [[MODEL_MAP]]
 
 ---
 
@@ -4118,12 +4118,12 @@ claim_class: AMOS_MODEL
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
-* INDEXED_BY: [[00_INDEX_MOC]]
-* REFERENCES: [[INDEX_MODELS_MODEL_CONTRACT]]
-* REFERENCES: [[MODEL_MAP]]
-* GOVERNED_BY: [[LAW_HIERARCHY]]
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_INDEX_MOC]]
+- REFERENCES: [[INDEX_MODELS_MODEL_CONTRACT]]
+- REFERENCES: [[MODEL_MAP]]
+- GOVERNED_BY: [[LAW_HIERARCHY]]
 
 ---
 

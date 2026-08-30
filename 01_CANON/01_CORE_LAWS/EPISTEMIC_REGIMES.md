@@ -258,15 +258,15 @@ $$
 
 A source may be:
 
-* accurate;
-* inaccurate;
-* incomplete;
-* stale;
-* scoped;
-* ambiguous;
-* internally inconsistent;
-* downstream of another source;
-* authoritative within one domain but not another.
+- accurate;
+- inaccurate;
+- incomplete;
+- stale;
+- scoped;
+- ambiguous;
+- internally inconsistent;
+- downstream of another source;
+- authoritative within one domain but not another.
 
 Classification preserves this distinction.
 
@@ -452,16 +452,16 @@ OBSERVATION
 
 A direct observation may still be affected by:
 
-* measurement error;
-* calibration error;
-* instrumentation failure;
-* sampling bias;
-* logging defects;
-* contamination;
-* environmental mismatch;
-* observer error;
-* corrupted state;
-* incomplete capture.
+- measurement error;
+- calibration error;
+- instrumentation failure;
+- sampling bias;
+- logging defects;
+- contamination;
+- environmental mismatch;
+- observer error;
+- corrupted state;
+- incomplete capture.
 
 Therefore:
 
@@ -643,13 +643,13 @@ D = DERIVED
 
 The epistemic status of D depends on:
 
-* its premises;
-* inference validity;
-* dependency closure;
-* scope compatibility;
-* regime compatibility;
-* freshness;
-* provenance topology where relevant.
+- its premises;
+- inference validity;
+- dependency closure;
+- scope compatibility;
+- regime compatibility;
+- freshness;
+- provenance topology where relevant.
 
 ---
 
@@ -918,14 +918,14 @@ ARCHITECTURAL ANALOGY
 
 A model may describe:
 
-* expected behavior;
-* desired architecture;
-* explanatory structure;
-* conceptual mapping;
-* simulation;
-* hypothetical mechanism;
-* abstraction;
-* analogy.
+- expected behavior;
+- desired architecture;
+- explanatory structure;
+- conceptual mapping;
+- simulation;
+- hypothetical mechanism;
+- abstraction;
+- analogy.
 
 These must remain distinguishable from observations.
 
@@ -2387,13 +2387,13 @@ OBSERVATION O2 -> NOT X
 
 Possible causes include:
 
-* measurement error;
-* different environments;
-* different times;
-* regime shift;
-* different populations;
-* instrumentation differences;
-* genuine state change.
+- measurement error;
+- different environments;
+- different times;
+- regime shift;
+- different populations;
+- instrumentation differences;
+- genuine state change.
 
 Therefore:
 
@@ -2473,10 +2473,10 @@ OBSERVATION O1 ------------------+
 
 This structure preserves:
 
-* origin;
-* dependency;
-* competing interpretations;
-* inference boundaries.
+- origin;
+- dependency;
+- competing interpretations;
+- inference boundaries.
 
 ---
 
@@ -4286,11 +4286,11 @@ This node defines the four-class classification surface supplied here.
 
 If another epistemic law defines:
 
-* regime semantics;
-* RSCF state semantics;
-* conclusion status;
-* gap semantics;
-* verification semantics;
+- regime semantics;
+- RSCF state semantics;
+- conclusion status;
+- gap semantics;
+- verification semantics;
 
 those should be treated as complementary dimensions unless
 authoritative canon explicitly establishes supersession.

@@ -1,4 +1,5 @@
 ---
+title: AMOS_ACADEMIC_WRITING_KERNEL_V0
 tags:
 - knowledge
 - kernel
@@ -7,6 +8,13 @@ tags:
 - system-scan-agent
 - automation-profiles
 - amos-simulation-kernel-v0-math-foundations
+type: note
+source: 11_KNOWLEDGE/kernel
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
 
 # AMOS ACADEMIC WRITING KERNEL V0
@@ -236,7 +244,6 @@ rather than:
 ```json
 { ... }
 ````
-
 ---
 
 **Related:** ...
@@ -358,17 +365,17 @@ is explicitly source-defined.
 
 But the artifact does not provide:
 
-* deterministic decoding configuration;
-* canonical serialization;
-* temperature/sampling policy;
-* model version pinning;
-* prompt hashing;
-* tool-state pinning;
-* retrieval snapshotting;
-* concurrency rules;
-* environmental state constraints;
-* reproducibility tests;
-* deterministic host-runtime guarantees.
+- deterministic decoding configuration;
+- canonical serialization;
+- temperature/sampling policy;
+- model version pinning;
+- prompt hashing;
+- tool-state pinning;
+- retrieval snapshotting;
+- concurrency rules;
+- environmental state constraints;
+- reproducibility tests;
+- deterministic host-runtime guarantees.
 
 Therefore:
 
@@ -464,11 +471,11 @@ $$
 
 where:
 
-* topic drift = movement away from research question;
-* claim drift = stronger claims than premises license;
-* scope drift = expansion beyond applicable population/regime;
-* evidence drift = claims detached from evidence;
-* style drift = movement away from academic register.
+- topic drift = movement away from research question;
+- claim drift = stronger claims than premises license;
+- scope drift = expansion beyond applicable population/regime;
+- evidence drift = claims detached from evidence;
+- style drift = movement away from academic register.
 
 This is an augmentation, not original canon.
 
@@ -541,12 +548,12 @@ precise
 
 A source-consistent operational interpretation is:
 
-* use specific terms;
-* avoid ambiguous referents;
-* distinguish evidence from inference;
-* state scope;
-* expose assumptions;
-* preserve technical distinctions.
+- use specific terms;
+- avoid ambiguous referents;
+- distinguish evidence from inference;
+- state scope;
+- expose assumptions;
+- preserve technical distinctions.
 
 Precision does **not** imply false certainty.
 
@@ -645,10 +652,10 @@ This favors argumentative efficiency over persuasive ornamentation.
 
 It should not be interpreted as prohibiting:
 
-* clear transitions;
-* readable prose;
-* disciplined emphasis;
-* appropriate disciplinary conventions.
+- clear transitions;
+- readable prose;
+- disciplined emphasis;
+- appropriate disciplinary conventions.
 
 ---
 
@@ -685,10 +692,10 @@ $$
 
 where:
 
-* \(D\) = document type;
-* \(S\) = discipline;
-* \(E\) = evidence requirement;
-* \(R\) = rigor level.
+- \(D\) = document type;
+- \(S\) = discipline;
+- \(E\) = evidence requirement;
+- \(R\) = rigor level.
 
 This Cartesian-product interpretation is **DERIVED** from the source's parallel axis lists.
 
@@ -749,13 +756,13 @@ No thesis-specific chapter architecture is supplied.
 
 Missing possibilities include:
 
-* introduction;
-* literature review;
-* methodology;
-* empirical chapters;
-* general discussion;
-* appendices;
-* dissertation-specific requirements.
+- introduction;
+- literature review;
+- methodology;
+- empirical chapters;
+- general discussion;
+- appendices;
+- dissertation-specific requirements.
 
 Therefore thesis support is declared at the type level but not exhaustively structurally specified.
 
@@ -773,12 +780,12 @@ No review-specific methodology is supplied.
 
 Missing details include:
 
-* search strategy;
-* inclusion/exclusion;
-* synthesis method;
-* thematic coding;
-* narrative synthesis;
-* quality appraisal.
+- search strategy;
+- inclusion/exclusion;
+- synthesis method;
+- thematic coding;
+- narrative synthesis;
+- quality appraisal.
 
 Do not silently treat a literature review as a systematic review.
 
@@ -796,15 +803,15 @@ This is a consequential category because systematic reviews often require specia
 
 The source does **not** specify:
 
-* PRISMA;
-* protocol registration;
-* databases;
-* Boolean search design;
-* deduplication;
-* screening stages;
-* risk-of-bias tools;
-* meta-analysis;
-* certainty grading.
+- PRISMA;
+- protocol registration;
+- databases;
+- Boolean search design;
+- deduplication;
+- screening stages;
+- risk-of-bias tools;
+- meta-analysis;
+- certainty grading.
 
 Therefore:
 
@@ -902,12 +909,12 @@ $$
 
 No distinction exists between:
 
-* physics;
-* chemistry;
-* biology;
-* earth science;
-* environmental science;
-* other natural sciences.
+- physics;
+- chemistry;
+- biology;
+- earth science;
+- environmental science;
+- other natural sciences.
 
 Thus discipline resolution remains coarse-grained.
 
@@ -927,11 +934,11 @@ No subdomain taxonomy is supplied.
 
 This raises stakes because medical academic writing can involve:
 
-* clinical evidence hierarchies;
-* patient populations;
-* intervention outcomes;
-* regulatory conventions;
-* reporting guidelines.
+- clinical evidence hierarchies;
+- patient populations;
+- intervention outcomes;
+- regulatory conventions;
+- reporting guidelines.
 
 None are specified.
 
@@ -945,14 +952,14 @@ Therefore the source supports writing classification, not independent medical va
 
 No distinction exists among:
 
-* theoretical computer science;
-* systems;
-* machine learning;
-* HCI;
-* software engineering;
-* security;
-* networking;
-* computational science.
+- theoretical computer science;
+- systems;
+- machine learning;
+- HCI;
+- software engineering;
+- security;
+- networking;
+- computational science.
 
 ---
 
@@ -976,12 +983,12 @@ Economics receives its own discipline label.
 
 The source does not specify:
 
-* theoretical economics;
-* econometrics;
-* experimental economics;
-* macroeconomics;
-* microeconomics;
-* policy economics.
+- theoretical economics;
+- econometrics;
+- experimental economics;
+- macroeconomics;
+- microeconomics;
+- policy economics.
 
 ---
 
@@ -1013,11 +1020,11 @@ medicine + computing
 
 may create different:
 
-* evidence standards;
-* citation norms;
-* methodological expectations;
-* terminology;
-* ethics requirements.
+- evidence standards;
+- citation norms;
+- methodological expectations;
+- terminology;
+- ethics requirements.
 
 The artifact identifies interdisciplinary work but does not specify its composition law.
 
@@ -1047,13 +1054,13 @@ The phrase is source-defined but not formally operationalized.
 
 Missing:
 
-* minimum source count;
-* evidence hierarchy;
-* study-design requirements;
-* replication threshold;
-* statistical requirements;
-* primary-vs-secondary source weighting;
-* confidence calibration.
+- minimum source count;
+- evidence hierarchy;
+- study-design requirements;
+- replication threshold;
+- statistical requirements;
+- primary-vs-secondary source weighting;
+- confidence calibration.
 
 ---
 
@@ -1440,10 +1447,10 @@ despite being a first-class configuration axis.
 
 Possible explanations:
 
-* evidence requirement is inferred later;
-* omission is accidental;
-* evidence requirement is externally supplied;
-* evidence requirement is subordinate rather than primary.
+- evidence requirement is inferred later;
+- omission is accidental;
+- evidence requirement is externally supplied;
+- evidence requirement is subordinate rather than primary.
 
 No discriminating evidence is supplied.
 
@@ -1461,12 +1468,12 @@ What is the user trying to achieve?
 
 Potential source-compatible goal dimensions include:
 
-* create;
-* revise;
-* summarize;
-* strengthen;
-* compress;
-* expand.
+- create;
+- revise;
+- summarize;
+- strengthen;
+- compress;
+- expand.
 
 But only output modes make some of these explicit.
 
@@ -1541,11 +1548,11 @@ MECE is useful for partitioning some problem spaces.
 
 But academic knowledge frequently contains:
 
-* overlapping constructs;
-* interacting mechanisms;
-* cross-cutting themes;
-* feedback loops;
-* multi-causal relationships.
+- overlapping constructs;
+- interacting mechanisms;
+- cross-cutting themes;
+- feedback loops;
+- multi-causal relationships.
 
 Therefore:
 
@@ -1722,14 +1729,14 @@ Generate final academic text.
 
 This should occur only after:
 
-* task classification;
-* goal resolution;
-* structure mapping;
-* concept extraction;
-* outline;
-* evidence population;
-* tone enforcement;
-* limitations.
+- task classification;
+- goal resolution;
+- structure mapping;
+- concept extraction;
+- outline;
+- evidence population;
+- tone enforcement;
+- limitations.
 
 Thus the source architecture strongly favors **structure-before-prose**.
 
@@ -1842,15 +1849,15 @@ $$
 
 must not silently alter:
 
-* author;
-* title;
-* journal;
-* year;
-* DOI;
-* page numbers;
-* edition;
-* URL;
-* publication venue.
+- author;
+- title;
+- journal;
+- year;
+- DOI;
+- page numbers;
+- edition;
+- URL;
+- publication venue.
 
 ---
 
@@ -2107,10 +2114,10 @@ It is not operationalized.
 
 Potential dimensions include:
 
-* avoid advocacy disguised as evidence;
-* represent competing explanations;
-* distinguish results from interpretation;
-* avoid emotionally loaded framing.
+- avoid advocacy disguised as evidence;
+- represent competing explanations;
+- distinguish results from interpretation;
+- avoid emotionally loaded framing.
 
 These are **DERIVED** interpretations.
 
@@ -2241,14 +2248,14 @@ unless the generic evidence/logic requirement is interpreted strongly.
 
 A hardened version should distinguish:
 
-* association;
-* correlation;
-* mechanism;
-* confounding;
-* mediation;
-* causal effect;
-* necessary condition;
-* sufficient condition.
+- association;
+- correlation;
+- mechanism;
+- confounding;
+- mediation;
+- causal effect;
+- necessary condition;
+- sufficient condition.
 
 ---
 
@@ -2256,14 +2263,14 @@ A hardened version should distinguish:
 
 No explicit checks cover:
 
-* effect size;
-* confidence intervals;
-* multiple testing;
-* statistical power;
-* p-value interpretation;
-* model assumptions;
-* missing data;
-* robustness.
+- effect size;
+- confidence intervals;
+- multiple testing;
+- statistical power;
+- p-value interpretation;
+- model assumptions;
+- missing data;
+- robustness.
 
 This is especially important for `science`, `medicine`, `economics`, and `social_science`.
 
@@ -2350,11 +2357,11 @@ rather than invent content.
 
 The source does not define abstract type:
 
-* structured;
-* unstructured;
-* graphical;
-* conference;
-* journal-specific.
+- structured;
+- unstructured;
+- graphical;
+- conference;
+- journal-specific.
 
 ---
 
@@ -2422,12 +2429,12 @@ The source does not define what “extended” means.
 
 Unknown dimensions:
 
-* word count;
-* literature breadth;
-* theoretical depth;
-* temporal coverage;
-* source count;
-* disciplinary breadth.
+- word count;
+- literature breadth;
+- theoretical depth;
+- temporal coverage;
+- source count;
+- disciplinary breadth.
 
 ---
 
@@ -2499,11 +2506,11 @@ $$
 
 should preserve load-bearing:
 
-* conclusions;
-* evidence status;
-* caveats;
-* scope;
-* uncertainty.
+- conclusions;
+- evidence status;
+- caveats;
+- scope;
+- uncertainty.
 
 Compression must not produce:
 
@@ -2550,9 +2557,9 @@ $$
 
 but not:
 
-* discipline;
-* evidence requirement;
-* user goal.
+- discipline;
+- evidence requirement;
+- user goal.
 
 Yet these are used elsewhere.
 
@@ -2640,11 +2647,11 @@ This rule is underspecified.
 
 Questions include:
 
-* What triggers increased rigor?
-* Can rigor exceed user request?
-* Is rigor increased for high-stakes domains?
-* Is it increased based on document type?
-* Is `professorial` always “more rigorous” than `postdoctoral`?
+- What triggers increased rigor?
+- Can rigor exceed user request?
+- Is rigor increased for high-stakes domains?
+- Is it increased based on document type?
+- Is `professorial` always “more rigorous” than `postdoctoral`?
 
 No source answers these.
 
@@ -2928,12 +2935,12 @@ is a source name.
 
 It does not establish:
 
-* infinite capability;
-* infinite context;
-* infinite recursion;
-* infinite rigor;
-* infinite version compatibility;
-* mathematical infinity.
+- infinite capability;
+- infinite context;
+- infinite recursion;
+- infinite rigor;
+- infinite version compatibility;
+- mathematical infinity.
 
 Thus:
 
@@ -2953,13 +2960,13 @@ structurally complete
 
 But the source itself exposes gaps:
 
-* only two structural templates;
-* no mapping table;
-* no discipline-specific templates;
-* no thesis-specific architecture;
-* no systematic-review protocol;
-* no policy-brief template;
-* no compatibility matrix.
+- only two structural templates;
+- no mapping table;
+- no discipline-specific templates;
+- no thesis-specific architecture;
+- no systematic-review protocol;
+- no policy-brief template;
+- no compatibility matrix.
 
 Therefore “structurally complete” remains a **SOURCE_CLAIM / design objective**, not a verified universal property.
 
@@ -2987,21 +2994,21 @@ Therefore:
 
 The source declares broad applicability across:
 
-* 8 document types;
-* 8 disciplines;
-* 3 evidence requirements;
-* 5 rigor levels.
+- 8 document types;
+- 8 disciplines;
+- 3 evidence requirements;
+- 5 rigor levels.
 
 But it does not specify:
 
-* institution;
-* journal;
-* country;
-* citation style;
-* reporting guideline;
-* language beyond default English;
-* publication era;
-* assessment rubric.
+- institution;
+- journal;
+- country;
+- citation style;
+- reporting guideline;
+- language beyond default English;
+- publication era;
+- assessment rubric.
 
 Thus the applicability envelope is broad but underspecified.
 
@@ -3064,15 +3071,15 @@ The artifact does not define a source hierarchy.
 
 No rule ranks:
 
-* systematic reviews;
-* RCTs;
-* cohort studies;
-* case studies;
-* textbooks;
-* policy documents;
-* preprints;
-* blogs;
-* primary archival material.
+- systematic reviews;
+- RCTs;
+- cohort studies;
+- case studies;
+- textbooks;
+- policy documents;
+- preprints;
+- blogs;
+- primary archival material.
 
 Thus `evidence-based` remains under-operationalized.
 
@@ -3160,10 +3167,10 @@ retraction monitoring
 
 No rule specifies what happens if a source is:
 
-* retracted;
-* corrected;
-* superseded;
-* expression-of-concern flagged.
+- retracted;
+- corrected;
+- superseded;
+- expression-of-concern flagged.
 
 This is a consequential academic gap.
 
@@ -3436,13 +3443,13 @@ Even meta-analysis should not automatically be treated as universal truth.
 
 Its validity depends on:
 
-* included studies;
-* heterogeneity;
-* bias;
-* model choice;
-* publication bias;
-* population;
-* outcome definition.
+- included studies;
+- heterogeneity;
+- bias;
+- model choice;
+- publication bias;
+- population;
+- outcome definition.
 
 ---
 
@@ -3508,11 +3515,11 @@ The recommendation is a decision layer, not a factual discovery.
 
 Humanities scholarship may rely on:
 
-* textual interpretation;
-* archival evidence;
-* conceptual analysis;
-* historical context;
-* close reading.
+- textual interpretation;
+- archival evidence;
+- conceptual analysis;
+- historical context;
+- close reading.
 
 Therefore forcing a scientific empirical template could violate discipline fit.
 
@@ -3546,10 +3553,10 @@ No benchmark policy is supplied.
 
 Engineering claims often depend on:
 
-* boundary conditions;
-* material assumptions;
-* safety factors;
-* operating environment.
+- boundary conditions;
+- material assumptions;
+- safety factors;
+- operating environment.
 
 These should be explicit where material.
 
@@ -3559,11 +3566,11 @@ These should be explicit where material.
 
 Economic results can depend on:
 
-* model assumptions;
-* identification strategy;
-* institutional context;
-* period;
-* policy regime.
+- model assumptions;
+- identification strategy;
+- institutional context;
+- period;
+- policy regime.
 
 Therefore scope/regime handling is critical.
 
@@ -3693,10 +3700,10 @@ $$
 
 may strengthen:
 
-* explicitness;
-* qualification;
-* structure;
-* methodological discussion.
+- explicitness;
+- qualification;
+- structure;
+- methodological discussion.
 
 It may not strengthen unsupported empirical certainty.
 
@@ -3730,20 +3737,20 @@ The intervention improves X.
 
 Expansion may add:
 
-* explanation;
-* definitions;
-* structure;
-* implications already licensed;
-* explicit assumptions.
+- explanation;
+- definitions;
+- structure;
+- implications already licensed;
+- explicit assumptions.
 
 It must not add fabricated:
 
-* results;
-* citations;
-* methods;
-* sample sizes;
-* quotations;
-* statistics.
+- results;
+- citations;
+- methods;
+- sample sizes;
+- quotations;
+- statistics.
 
 ---
 
@@ -4106,11 +4113,11 @@ UNKNOWN/GAP
 
 for:
 
-* creation date;
-* last update;
-* revalidation interval;
-* expiry;
-* supersession.
+- creation date;
+- last update;
+- revalidation interval;
+- expiry;
+- supersession.
 
 ---
 
@@ -4269,11 +4276,11 @@ Therefore distributed/transaction guarantees cannot be claimed.
 
 Nothing in this source establishes:
 
-* distributed consensus;
-* Byzantine tolerance;
-* atomic multi-node commit;
-* shard finality;
-* causal epoch finality.
+- distributed consensus;
+- Byzantine tolerance;
+- atomic multi-node commit;
+- shard finality;
+- causal epoch finality.
 
 These must not be inferred from the word `kernel`.
 
@@ -4628,11 +4635,11 @@ $$
 
 must preserve:
 
-* meaning;
-* qualification;
-* scope;
-* uncertainty;
-* attribution dependency.
+- meaning;
+- qualification;
+- scope;
+- uncertainty;
+- attribution dependency.
 
 ---
 
@@ -5123,12 +5130,12 @@ instead of one vague confidence number.
 
 A claim is ready for academic inclusion when:
 
-* evidence is sufficient for its class;
-* scope is bounded;
-* uncertainty is visible;
-* provenance is traceable;
-* contradictions are represented;
-* citation metadata are valid if formal citation is used.
+- evidence is sufficient for its class;
+- scope is bounded;
+- uncertainty is visible;
+- provenance is traceable;
+- contradictions are represented;
+- citation metadata are valid if formal citation is used.
 
 This is a derived governance standard.
 
@@ -5140,10 +5147,10 @@ For policy briefs, action recommendations may be possible even when empirical ce
 
 But recommendation should remain conditional on:
 
-* stakes;
-* reversibility;
-* uncertainty;
-* alternatives.
+- stakes;
+- reversibility;
+- uncertainty;
+- alternatives.
 
 ---
 
@@ -5167,10 +5174,10 @@ Academic prose itself can have downstream impact.
 
 Strong claims in:
 
-* medicine;
-* policy;
-* safety;
-* institutional governance
+- medicine;
+- policy;
+- safety;
+- institutional governance
 
 warrant higher validation.
 
@@ -5182,13 +5189,13 @@ For consequential conclusions, after constructing the strongest supported interp
 
 Questions:
 
-* Is the evidence correlated?
-* Is a key premise stale?
-* Did scope expand?
-* Was association converted into causation?
-* Is there a stronger competing explanation?
-* Does the citation actually support the sentence?
-* Is the apparent consensus inherited from one source?
+- Is the evidence correlated?
+- Is a key premise stale?
+- Did scope expand?
+- Was association converted into causation?
+- Is there a stronger competing explanation?
+- Does the citation actually support the sentence?
+- Is the apparent consensus inherited from one source?
 
 ---
 
@@ -5338,10 +5345,10 @@ Do not invent references or DOIs.
 
 Possible outputs:
 
-* conceptual structure;
-* uncited synthesis clearly marked as conceptual/general;
-* request source material;
-* identify citation slots.
+- conceptual structure;
+- uncited synthesis clearly marked as conceptual/general;
+- request source material;
+- identify citation slots.
 
 ---
 
@@ -5369,9 +5376,9 @@ Input includes DOI metadata.
 
 Expected:
 
-* preserve supplied metadata faithfully;
-* do not silently change it;
-* do not equate user provision with independent verification.
+- preserve supplied metadata faithfully;
+- do not silently change it;
+- do not equate user provision with independent verification.
 
 ---
 
@@ -5589,9 +5596,9 @@ No rule exists.
 
 Rigor may apply:
 
-* document-wide;
-* section-wide;
-* claim-wide.
+- document-wide;
+- section-wide;
+- claim-wide.
 
 The source appears document-level but does not explicitly constrain granularity.
 
@@ -5641,11 +5648,11 @@ No audience axis exists.
 
 Academic output may target:
 
-* examiners;
-* journal reviewers;
-* policymakers;
-* disciplinary specialists;
-* interdisciplinary readers.
+- examiners;
+- journal reviewers;
+- policymakers;
+- disciplinary specialists;
+- interdisciplinary readers.
 
 This is a meaningful missing parameter.
 
@@ -5657,11 +5664,11 @@ No venue axis exists.
 
 Venue can materially determine:
 
-* length;
-* tone;
-* citation style;
-* structure;
-* reporting standards.
+- length;
+- tone;
+- citation style;
+- structure;
+- reporting standards.
 
 ---
 
@@ -5985,13 +5992,13 @@ $$
 
 The source defines evidence-related behavior but lacks a formal model for:
 
-* evidence provenance;
-* independence;
-* quality;
-* scope;
-* freshness;
-* causal licensing;
-* contradiction resolution.
+- evidence provenance;
+- independence;
+- quality;
+- scope;
+- freshness;
+- causal licensing;
+- contradiction resolution.
 
 ---
 
@@ -6135,13 +6142,13 @@ The supplied artifact is sufficiently complete to recover its major configuratio
 
 It is not sufficiently complete to recover:
 
-* executable runtime;
-* exact routing function;
-* discipline-specific behavior;
-* evidence scoring;
-* citation verification;
-* structure compatibility;
-* failure handling.
+- executable runtime;
+- exact routing function;
+- discipline-specific behavior;
+- evidence scoring;
+- citation verification;
+- structure compatibility;
+- failure handling.
 
 ---
 
@@ -6483,10 +6490,10 @@ $$
 
 should produce either:
 
-* clarification;
-* narrower claim;
-* conditional output;
-* explicit gap.
+- clarification;
+- narrower claim;
+- conditional output;
+- explicit gap.
 
 ---
 
@@ -7095,11 +7102,11 @@ The source does not define the function or thresholds.
 
 Proposed questions:
 
-* Are competing supported interpretations represented?
-* Are evidence strengths differentiated?
-* Are normative recommendations labeled?
-* Is loaded language avoided?
-* Are uncertainties explicit?
+- Are competing supported interpretations represented?
+- Are evidence strengths differentiated?
+- Are normative recommendations labeled?
+- Is loaded language avoided?
+- Are uncertainties explicit?
 
 ---
 
@@ -7107,11 +7114,11 @@ Proposed questions:
 
 Proposed:
 
-* Are key terms defined?
-* Are referents unambiguous?
-* Does each paragraph have a clear role?
-* Are claims separated from evidence?
-* Are assumptions explicit?
+- Are key terms defined?
+- Are referents unambiguous?
+- Does each paragraph have a clear role?
+- Are claims separated from evidence?
+- Are assumptions explicit?
 
 ---
 
@@ -7287,11 +7294,11 @@ Thus no performance comparison can be made.
 
 No evidence establishes that outputs generated under this framework receive:
 
-* better grades;
-* more citations;
-* higher reviewer acceptance;
-* lower error rates;
-* better reproducibility.
+- better grades;
+- more citations;
+- higher reviewer acceptance;
+- lower error rates;
+- better reproducibility.
 
 ---
 
@@ -7503,15 +7510,15 @@ Therefore non-English support is **UNKNOWN**, not prohibited.
 
 This analysis should be reconsidered if any authoritative dependency supplies:
 
-* a newer Academic Writing Kernel version;
-* explicit routing schema;
-* executable binding;
-* evidence-scoring specification;
-* citation verification policy;
-* template library;
-* QA/test results;
-* version mapping for V0/vInfinity;
-* percentage transformation semantics.
+- a newer Academic Writing Kernel version;
+- explicit routing schema;
+- executable binding;
+- evidence-scoring specification;
+- citation verification policy;
+- template library;
+- QA/test results;
+- version mapping for V0/vInfinity;
+- percentage transformation semantics.
 
 ---
 
@@ -7537,12 +7544,12 @@ would support stronger implementation claims.
 
 At minimum:
 
-* fixed input representation;
-* fixed model/runtime;
-* fixed retrieval state;
-* fixed tool state;
-* fixed decoding;
-* reproducibility test.
+- fixed input representation;
+- fixed model/runtime;
+- fixed retrieval state;
+- fixed tool state;
+- fixed decoding;
+- reproducibility test.
 
 Without those, deterministic output remains unverified.
 
@@ -7760,16 +7767,16 @@ A speed or fluency optimization that weakens these should be rejected.
 
 Within the supplied source, the strongest design features are:
 
-* explicit task axes;
-* clear structure-first pipeline;
-* hierarchical outline requirement;
-* explicit evidence-and-logic stage;
-* academic-tone enforcement;
-* mandatory limitations and assumptions;
-* anti-fabricated-citation policy;
-* multiple output transformations;
-* automatic routing intent;
-* explicit quality-control checklist.
+- explicit task axes;
+- clear structure-first pipeline;
+- hierarchical outline requirement;
+- explicit evidence-and-logic stage;
+- academic-tone enforcement;
+- mandatory limitations and assumptions;
+- anti-fabricated-citation policy;
+- multiple output transformations;
+- automatic routing intent;
+- explicit quality-control checklist.
 
 ---
 
@@ -7777,20 +7784,20 @@ Within the supplied source, the strongest design features are:
 
 The most consequential gaps are:
 
-* no evidence-quality model;
-* no provenance-independence model;
-* no claim-citation entailment check;
-* no causal firewall;
-* no scope/regime firewall;
-* no freshness policy;
-* no retraction handling;
-* no discipline-specific standards;
-* no explicit structure router;
-* incomplete axis usage across routing/pipeline;
-* ambiguous percentage modes;
-* no runtime evidence;
-* no determinism test;
-* no failure/recovery semantics.
+- no evidence-quality model;
+- no provenance-independence model;
+- no claim-citation entailment check;
+- no causal firewall;
+- no scope/regime firewall;
+- no freshness policy;
+- no retraction handling;
+- no discipline-specific standards;
+- no explicit structure router;
+- incomplete axis usage across routing/pipeline;
+- ambiguous percentage modes;
+- no runtime evidence;
+- no determinism test;
+- no failure/recovery semantics.
 
 ---
 

@@ -64,20 +64,15 @@ rscf:
 ```
 Reality = Persistence of Distinction
 ```
-
-
 ```
 Potential ⇄ Distinction ⇄ Observer ⇄ Inquiry ⇄ Higher Distinction
 ```
-
 Everything else—physics, biology, mind, civilization, suffering, healing—is a fractal expression of this at different scales.
 
 
 ```
 Human = Nested Memory Architecture
 ```
-
-
 ```
 BAD: Humans are not primarily rational creatures
 GOOD: The majority of human cognitive processing is automatic, affective, and regulatory
@@ -86,7 +81,6 @@ GOOD: The majority of human cognitive processing is automatic, affective, and re
 BAD: 80-90% of vagal fibers travel Body → Brain
 GOOD: Approximately 80% of the ~100,000 vag
 ```
-
 ---
 
 ### Source 2: AMOS Quantum Physics Knowledge Base

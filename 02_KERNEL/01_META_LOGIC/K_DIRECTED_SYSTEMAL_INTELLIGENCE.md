@@ -2406,52 +2406,52 @@ Invalidate only affected claims.
 
 # 94. Promotion Gate — Canon
 
-* [ ] native DSI source identified;
-* [ ] source identity verified;
-* [ ] source provenance recorded;
-* [ ] version/hash recorded where available;
-* [ ] historical lineage established;
-* [ ] canonical precedence established;
-* [ ] substantive definitions source-mapped;
-* [ ] contradictions preserved;
-* [ ] supersession state established.
+- [ ] native DSI source identified;
+- [ ] source identity verified;
+- [ ] source provenance recorded;
+- [ ] version/hash recorded where available;
+- [ ] historical lineage established;
+- [ ] canonical precedence established;
+- [ ] substantive definitions source-mapped;
+- [ ] contradictions preserved;
+- [ ] supersession state established.
 
 ---
 
 # 95. Promotion Gate — Implementation
 
-* [ ] objective schema implemented;
-* [ ] system-boundary representation implemented;
-* [ ] dependency traversal implemented;
-* [ ] evidence typing implemented;
-* [ ] provenance topology implemented;
-* [ ] scope/regime/freshness gates implemented;
-* [ ] competing-direction handling implemented;
-* [ ] governance boundary implemented;
-* [ ] recovery semantics implemented;
-* [ ] state/version handling implemented.
+- [ ] objective schema implemented;
+- [ ] system-boundary representation implemented;
+- [ ] dependency traversal implemented;
+- [ ] evidence typing implemented;
+- [ ] provenance topology implemented;
+- [ ] scope/regime/freshness gates implemented;
+- [ ] competing-direction handling implemented;
+- [ ] governance boundary implemented;
+- [ ] recovery semantics implemented;
+- [ ] state/version handling implemented.
 
 ---
 
 # 96. Promotion Gate — Validation
 
-* [ ] deterministic replay;
-* [ ] objective ambiguity test;
-* [ ] dependency omission test;
-* [ ] provenance-correlation test;
-* [ ] scope mismatch test;
-* [ ] regime shift test;
-* [ ] stale-state test;
-* [ ] competing-direction test;
-* [ ] causal firewall test;
-* [ ] sensitivity test;
-* [ ] atomic multi-RSCF test;
-* [ ] authority firewall test;
-* [ ] irreversible-risk test;
-* [ ] local recovery test;
-* [ ] rollback test;
-* [ ] adversarial challenge;
-* [ ] executed validation receipt.
+- [ ] deterministic replay;
+- [ ] objective ambiguity test;
+- [ ] dependency omission test;
+- [ ] provenance-correlation test;
+- [ ] scope mismatch test;
+- [ ] regime shift test;
+- [ ] stale-state test;
+- [ ] competing-direction test;
+- [ ] causal firewall test;
+- [ ] sensitivity test;
+- [ ] atomic multi-RSCF test;
+- [ ] authority firewall test;
+- [ ] irreversible-risk test;
+- [ ] local recovery test;
+- [ ] rollback test;
+- [ ] adversarial challenge;
+- [ ] executed validation receipt.
 
 ---
 

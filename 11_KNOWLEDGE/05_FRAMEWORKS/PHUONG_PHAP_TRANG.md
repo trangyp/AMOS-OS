@@ -79,8 +79,8 @@ It articulates a comprehensive method for cognitive and neurobiological restruct
 
 $$\text{Entropy}(\text{Loop}) = \text{Entropy}_0 + \sum_{k=1}^N \text{Mutations}_k$$
 
-* **Vòng Lặp Mở (Open Loop):** Unresolved ambiguous inputs $\to$ continuous generative mutations $\to$ chronic cortisol elevation $\to$ cognitive exhaustion and anxiety.
-* **Vòng Lặp Đóng (Closed Loop):** Precise labeling $\to$ deterministic classification (LDAI) $\to$ state resolution $\to$ nervous system relaxation $\to$ Flow state.
+- **Vòng Lặp Mở (Open Loop):** Unresolved ambiguous inputs $\to$ continuous generative mutations $\to$ chronic cortisol elevation $\to$ cognitive exhaustion and anxiety.
+- **Vòng Lặp Đóng (Closed Loop):** Precise labeling $\to$ deterministic classification (LDAI) $\to$ state resolution $\to$ nervous system relaxation $\to$ Flow state.
 
 ---
 

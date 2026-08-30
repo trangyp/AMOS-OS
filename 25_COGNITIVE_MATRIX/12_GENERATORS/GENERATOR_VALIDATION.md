@@ -3585,24 +3585,24 @@ READ_ONLY_BY_DEFAULT
 
 ## Related Generator artifacts
 
-* Generator Contract
-* Generator Versioning
-* Generator Provenance
-* Generator Tests
-* Generator Benchmarks
-* Generator Audit
-* Generator Integration
-* Generator Roadmap
-* Generator History
-* Generator Change Log
-* Validation Infrastructure
-* Promotion Gates
-* Generator Registry
-* Validator Registry
-* Authoritative State
-* Provenance Manifest
-* Policy Manifest
-* Authority Registry
+- Generator Contract
+- Generator Versioning
+- Generator Provenance
+- Generator Tests
+- Generator Benchmarks
+- Generator Audit
+- Generator Integration
+- Generator Roadmap
+- Generator History
+- Generator Change Log
+- Validation Infrastructure
+- Promotion Gates
+- Generator Registry
+- Validator Registry
+- Authoritative State
+- Provenance Manifest
+- Policy Manifest
+- Authority Registry
 
 ```
 
@@ -3666,4 +3666,5 @@ not simply:
 **MOC:**
 
 
+```
 ```

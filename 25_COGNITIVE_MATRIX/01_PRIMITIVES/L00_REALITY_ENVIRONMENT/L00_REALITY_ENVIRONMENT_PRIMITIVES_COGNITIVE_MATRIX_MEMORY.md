@@ -49,23 +49,23 @@ Its function is not merely to remember content.
 
 Its function is to preserve enough typed state that future AMOS reasoning can determine:
 
-* what was observed;
-* what was reported;
-* what was measured;
-* what was inferred;
-* what was modeled;
-* what was predicted;
-* what was simulated;
-* what actually occurred;
-* where the information originated;
-* when it was valid;
-* under which regime it was valid;
-* what depended upon it;
-* whether it has become stale;
-* whether it has been contradicted;
-* whether it has been superseded;
-* whether it remains admissible;
-* and what must be invalidated if it fails.
+- what was observed;
+- what was reported;
+- what was measured;
+- what was inferred;
+- what was modeled;
+- what was predicted;
+- what was simulated;
+- what actually occurred;
+- where the information originated;
+- when it was valid;
+- under which regime it was valid;
+- what depended upon it;
+- whether it has become stale;
+- whether it has been contradicted;
+- whether it has been superseded;
+- whether it remains admissible;
+- and what must be invalidated if it fails.
 
 The architectural objective is:
 
@@ -1062,11 +1062,11 @@ This is an AMOS model variable, not a universal empirical decay law.
 
 Let:
 
-* \(C_m\) = consequence if memory is wrong;
-* \(D_m\) = dependency fan-out;
-* \(F_m\) = freshness risk;
-* \(R_m\) = regime-shift risk;
-* \(U_m\) = unresolved uncertainty.
+- \(C_m\) = consequence if memory is wrong;
+- \(D_m\) = dependency fan-out;
+- \(F_m\) = freshness risk;
+- \(R_m\) = regime-shift risk;
+- \(U_m\) = unresolved uncertainty.
 
 A conceptual priority function is:
 
@@ -1626,8 +1626,8 @@ Disclosable(m,a,r)
 
 where:
 
-* (a) = actor;
-* (r) = recipient.
+- (a) = actor;
+- (r) = recipient.
 
 ---
 
@@ -2199,10 +2199,10 @@ until discriminating evidence is available.
 
 Let:
 
-* \(M_V\) = unaffected valid memory;
-* \(M_F\) = failed memory;
-* \(D_F\) = dependent descendants;
-* \(R_F\) = repaired state.
+- \(M_V\) = unaffected valid memory;
+- \(M_F\) = failed memory;
+- \(D_F\) = dependent descendants;
+- \(R_F\) = repaired state.
 
 Then:
 

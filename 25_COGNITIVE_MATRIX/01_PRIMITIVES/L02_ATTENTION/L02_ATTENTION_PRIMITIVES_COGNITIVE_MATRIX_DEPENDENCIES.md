@@ -2369,7 +2369,6 @@ VALIDATED EXECUTION
 
 The decisive unresolved dependency question remains whether the cognitive matrix itself canonically defines a strict `L01 → L02 → L03` chain, or whether L02 is actually a multi-input governed primitive whose matrix position describes conceptual organization rather than runtime dependency.
 ```
-
 ---
 
 [[00_ROOT_MOC]]|[[AMOS MOC]]

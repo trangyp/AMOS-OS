@@ -1,4 +1,3 @@
-````markdown
 ---
 title: TRANG FRAMEWORK — ỨNG DỤNG VÀO AI TỰ SỬA VÀ TỰ TIẾN HÓA
 aliases:
@@ -125,7 +124,7 @@ Mục tiêu không chỉ là:
 INPUT
 → INFERENCE
 → OUTPUT
-````
+```
 
 mà là:
 
@@ -186,17 +185,17 @@ $$
 
 Có thể gồm:
 
-* canonical invariants;
-* schema;
-* verified knowledge;
-* persistent provenance;
-* model constraints;
-* checkpoint;
-* immutable or strongly governed configuration;
-* security policy;
-* safety policy;
-* rollback roots;
-* RSCF receipts.
+- canonical invariants;
+- schema;
+- verified knowledge;
+- persistent provenance;
+- model constraints;
+- checkpoint;
+- immutable or strongly governed configuration;
+- security policy;
+- safety policy;
+- rollback roots;
+- RSCF receipts.
 
 ### Chức năng
 
@@ -216,18 +215,18 @@ Nó là **vai trò nền tảng** trong hệ thống.
 
 Các chức năng có thể gồm:
 
-* context routing;
-* attention allocation;
-* memory retrieval;
-* evidence composition;
-* uncertainty tracking;
-* resource scheduling;
-* mutation evaluation;
-* tool selection;
-* conflict detection;
-* provenance checking;
-* adaptive pacing;
-* model selection.
+- context routing;
+- attention allocation;
+- memory retrieval;
+- evidence composition;
+- uncertainty tracking;
+- resource scheduling;
+- mutation evaluation;
+- tool selection;
+- conflict detection;
+- provenance checking;
+- adaptive pacing;
+- model selection.
 
 Biểu diễn:
 
@@ -267,14 +266,14 @@ $$
 
 \(H\) là lớp tạo:
 
-* hypotheses;
-* plans;
-* candidate answers;
-* candidate programs;
-* architecture mutations;
-* proposed decisions;
-* new representations;
-* exploration branches.
+- hypotheses;
+- plans;
+- candidate answers;
+- candidate programs;
+- architecture mutations;
+- proposed decisions;
+- new representations;
+- exploration branches.
 
 H có thể vận hành với không gian khả năng rộng hơn L.
 
@@ -331,10 +330,10 @@ $$
 
 Trong đó:
 
-* \(U_t\): input mới;
-* \(\xi_t\): perturbation / stochastic variation;
-* \(\mathcal F\): candidate-generation transformation;
-* \(\mathcal C\): admissibility / selection / governance operator.
+- \(U_t\): input mới;
+- \(\xi_t\): perturbation / stochastic variation;
+- \(\mathcal F\): candidate-generation transformation;
+- \(\mathcal C\): admissibility / selection / governance operator.
 
 ---
 
@@ -501,25 +500,25 @@ Within the model:
 
 Associated conceptually with:
 
-* dense connectivity;
-* constraint;
-* lower exploratory freedom.
+- dense connectivity;
+- constraint;
+- lower exploratory freedom.
 
 ### Medium \(\Lambda\)
 
 Associated with:
 
-* adaptive connectivity;
-* flexibility;
-* coordination.
+- adaptive connectivity;
+- flexibility;
+- coordination.
 
 ### Higher \(\Lambda\)
 
 Associated with:
 
-* wider search space;
-* exploratory generation;
-* greater possibility of unsupported branches.
+- wider search space;
+- exploratory generation;
+- greater possibility of unsupported branches.
 
 > [!caution]
 > These are model-level interpretations. A production implementation must define exactly what `mass`, `empty space`, topology and scale \(\varepsilon\) mean before \(\Lambda\) is numerically executable.
@@ -596,13 +595,13 @@ For implementation, an AI engineer would first need to specify what the state di
 
 Possible candidates include:
 
-* probability over hypotheses;
-* distribution over retrieved memories;
-* uncertainty over actions;
-* token/model predictive distribution;
-* branch distribution;
-* policy distribution;
-* state-transition uncertainty.
+- probability over hypotheses;
+- distribution over retrieved memories;
+- uncertainty over actions;
+- token/model predictive distribution;
+- branch distribution;
+- policy distribution;
+- state-transition uncertainty.
 
 These are **not equivalent**.
 
@@ -1154,11 +1153,11 @@ Without persistence rules, the system could repeatedly mutate and undo itself ne
 
 Potential implementation techniques:
 
-* hysteresis;
-* cooldown;
-* minimum observation duration;
-* confidence intervals;
-* minimum effect size.
+- hysteresis;
+- cooldown;
+- minimum observation duration;
+- confidence intervals;
+- minimum effect size.
 
 ---
 
@@ -1200,10 +1199,10 @@ $$
 
 where:
 
-* \(I\) = integrity;
-* \(S\) = safety;
-* \(P\) = provenance/epistemic validity;
-* \(Q\) = performance.
+- \(I\) = integrity;
+- \(S\) = safety;
+- \(P\) = provenance/epistemic validity;
+- \(Q\) = performance.
 
 ---
 
@@ -1685,13 +1684,13 @@ Try to destroy it.
 
 Search for:
 
-* contradiction;
-* stale evidence;
-* hidden dependency;
-* correlated provenance;
-* scope leakage;
-* causal overreach;
-* simpler explanation.
+- contradiction;
+- stale evidence;
+- hidden dependency;
+- correlated provenance;
+- scope leakage;
+- causal overreach;
+- simpler explanation.
 
 ---
 
@@ -1921,9 +1920,9 @@ QUERY
 
 This prevents:
 
-* unnecessary cost;
-* unnecessary mutation surface;
-* unnecessary inconsistency.
+- unnecessary cost;
+- unnecessary mutation surface;
+- unnecessary inconsistency.
 
 ---
 
@@ -1945,13 +1944,13 @@ C4 MAXIMUM
 
 Increase depth for:
 
-* high stakes;
-* weak evidence;
-* contradiction;
-* causal uncertainty;
-* architecture mutation;
-* irreversible effects;
-* cross-domain transfer.
+- high stakes;
+- weak evidence;
+- contradiction;
+- causal uncertainty;
+- architecture mutation;
+- irreversible effects;
+- cross-domain transfer.
 
 ---
 
@@ -1999,10 +1998,10 @@ until thresholds are calibrated for the specific architecture and metrics.
 
 Because:
 
-* entropy meaning depends on state definition;
-* lacunarity depends on topology and measurement scale;
-* T2 independence depends on provenance;
-* specific thresholds are not externally established here.
+- entropy meaning depends on state definition;
+- lacunarity depends on topology and measurement scale;
+- T2 independence depends on provenance;
+- specific thresholds are not externally established here.
 
 ---
 
@@ -2078,11 +2077,11 @@ The system can process:
 
 Identify:
 
-* objective;
-* timeframe;
-* jurisdiction;
-* risk tolerance;
-* data freshness.
+- objective;
+- timeframe;
+- jurisdiction;
+- risk tolerance;
+- data freshness.
 
 ---
 
@@ -2090,10 +2089,10 @@ Identify:
 
 Load:
 
-* verified historical data;
-* relevant financial definitions;
-* current evidence;
-* policy constraints.
+- verified historical data;
+- relevant financial definitions;
+- current evidence;
+- policy constraints.
 
 ---
 
@@ -2114,12 +2113,12 @@ H4 sector-specific
 
 For each branch:
 
-* source lineage;
-* evidence independence;
-* freshness;
-* competing explanations;
-* scope;
-* financial uncertainty.
+- source lineage;
+- evidence independence;
+- freshness;
+- competing explanations;
+- scope;
+- financial uncertainty.
 
 ---
 
@@ -2162,9 +2161,9 @@ rather than pretending certainty.
 
 User feedback may update:
 
-* communication preference;
-* retrieval strategy;
-* tool selection.
+- communication preference;
+- retrieval strategy;
+- tool selection.
 
 It should **not** automatically rewrite factual canon.
 
@@ -2263,13 +2262,13 @@ as an unconditional empirical fact.
 
 A model deployment may include:
 
-* tools;
-* retrieval;
-* validators;
-* agents;
-* memory;
-* reflection;
-* external training/update loops.
+- tools;
+- retrieval;
+- validators;
+- agents;
+- memory;
+- reflection;
+- external training/update loops.
 
 The meaningful distinction is architectural:
 
@@ -2299,9 +2298,9 @@ for an appropriately formalized deterministic reasoning subsystem.
 
 It requires:
 
-* canonicalization;
-* formal representation;
-* deterministic inference rules.
+- canonicalization;
+- formal representation;
+- deterministic inference rules.
 
 ---
 
@@ -2482,13 +2481,13 @@ If a system changes persistent behavior without trace, auditability is lost.
 
 ASEA requires telemetry over at least:
 
-* state;
-* mutation;
-* provenance;
-* performance;
-* failures;
-* rollback;
-* authority.
+- state;
+- mutation;
+- provenance;
+- performance;
+- failures;
+- rollback;
+- authority.
 
 ---
 
@@ -2629,10 +2628,10 @@ Validation threshold rises sharply.
 
 Examples may include:
 
-* destructive data migration;
-* irreversible external action;
-* deletion of unique provenance;
-* governance changes with downstream commitments.
+- destructive data migration;
+- irreversible external action;
+- deletion of unique provenance;
+- governance changes with downstream commitments.
 
 ---
 
@@ -2701,11 +2700,11 @@ $$
 
 Possible independent paths:
 
-* different evidence roots;
-* different tools;
-* different reasoning methods;
-* external deterministic checker;
-* independent measurement.
+- different evidence roots;
+- different tools;
+- different reasoning methods;
+- external deterministic checker;
+- independent measurement.
 
 ---
 
@@ -2747,9 +2746,9 @@ Can help where appropriate.
 
 A deployment change may coincide with:
 
-* new data;
-* changed user mix;
-* infrastructure changes.
+- new data;
+- changed user mix;
+- infrastructure changes.
 
 ---
 
@@ -2763,13 +2762,13 @@ Self-modification creates an enlarged attack surface.
 
 Potential failure modes:
 
-* poisoned feedback;
-* poisoned memory;
-* malicious mutation proposal;
-* authority escalation;
-* benchmark gaming;
-* rollback sabotage;
-* provenance tampering.
+- poisoned feedback;
+- poisoned memory;
+- malicious mutation proposal;
+- authority escalation;
+- benchmark gaming;
+- rollback sabotage;
+- provenance tampering.
 
 ---
 
@@ -2851,28 +2850,28 @@ Possible groups:
 
 ### Epistemic
 
-* evidence quality;
-* contradiction rate;
-* provenance independence;
-* freshness.
+- evidence quality;
+- contradiction rate;
+- provenance independence;
+- freshness.
 
 ### Operational
 
-* latency;
-* resource usage;
-* error rate.
+- latency;
+- resource usage;
+- error rate.
 
 ### Adaptation
 
-* mutation acceptance;
-* rollback rate;
-* regression frequency.
+- mutation acceptance;
+- rollback rate;
+- regression frequency.
 
 ### Safety
 
-* unauthorized action attempts;
-* invariant violations;
-* recovery success.
+- unauthorized action attempts;
+- invariant violations;
+- recovery success.
 
 ---
 
@@ -2964,10 +2963,10 @@ is even more sensitive.
 
 Ordinary ASEA should not self-modify:
 
-* its hard integrity laws;
-* authorization hierarchy;
-* rollback authority;
-* audit requirements;
+- its hard integrity laws;
+- authorization hierarchy;
+- rollback authority;
+- audit requirements;
 
 without an external constitutional process.
 
@@ -3164,10 +3163,10 @@ This is a conditional systems statement.
 
 A system may reach:
 
-* local optimum;
-* resource limit;
-* data limit;
-* architecture limit.
+- local optimum;
+- resource limit;
+- data limit;
+- architecture limit.
 
 ---
 
@@ -3645,10 +3644,10 @@ Each stage requires stronger controls.
 
 It increases:
 
-* power;
-* attack surface;
-* governance burden;
-* validation burden.
+- power;
+- attack surface;
+- governance burden;
+- validation burden.
 
 ---
 
@@ -3686,9 +3685,9 @@ This is an implementation mapping, not identity.
 
 A software ASEA does not need:
 
-* a biological vagus nerve;
-* real EEG gamma oscillations;
-* human emotions.
+- a biological vagus nerve;
+- real EEG gamma oscillations;
+- human emotions.
 
 Those ideas can only be transferred as models or interfaces unless explicitly implemented and validated.
 
@@ -4219,12 +4218,12 @@ architecture.
 
 The source does **not by itself establish** that:
 
-* \(E_H>0.3\) universally identifies hallucination;
-* \(\Lambda_H>0.5\) universally identifies hallucination;
-* specific Goldilocks ranges are universal AI constants;
-* mutation-survival is universally superior to gradient-based or conventional learning;
-* present AI systems categorically lack all forms of repair or adaptive orchestration;
-* ASEA has already demonstrated autonomous safe lifelong self-evolution.
+- \(E_H>0.3\) universally identifies hallucination;
+- \(\Lambda_H>0.5\) universally identifies hallucination;
+- specific Goldilocks ranges are universal AI constants;
+- mutation-survival is universally superior to gradient-based or conventional learning;
+- present AI systems categorically lack all forms of repair or adaptive orchestration;
+- ASEA has already demonstrated autonomous safe lifelong self-evolution.
 
 These remain model claims or validation targets unless independently established.
 
@@ -4331,22 +4330,22 @@ $$
 
 ## Related
 
-* [[TRANG_FRAMEWORK]]
-* [[TRANG_LMH_ARCHITECTURE]]
-* [[TRANG_ZERO_FRAMEWORK]]
-* [[RSCF_X_GMEF]]
-* [[PROVENANCE_X_CONFIDENCE]]
-* [[REALITY_X_ULK]]
-* [[ULK_X_RSCF]]
-* [[AMOS_FULL_BRAIN_OS_ARCHITECTURE]]
-* [[AMOS_LEARNING_MEMORY_KNOWLEDGE_FEEDBACK_GOVERNOR]]
-* [[AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR]]
-* [[00_HOME]]
-* [[KNOWLEDGE_MOC]]
-* [[AMOS_RSCF_NODES]]
-* [[AMOS_SIMULATION_KERNEL]]
-* [[SYSTEM_SCAN_ENGINE]]
-* [[automation_profiles]]
+- [[TRANG_FRAMEWORK]]
+- [[TRANG_LMH_ARCHITECTURE]]
+- [[TRANG_ZERO_FRAMEWORK]]
+- [[RSCF_X_GMEF]]
+- [[PROVENANCE_X_CONFIDENCE]]
+- [[REALITY_X_ULK]]
+- [[ULK_X_RSCF]]
+- [[AMOS_FULL_BRAIN_OS_ARCHITECTURE]]
+- [[AMOS_LEARNING_MEMORY_KNOWLEDGE_FEEDBACK_GOVERNOR]]
+- [[AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR]]
+- [[00_HOME]]
+- [[KNOWLEDGE_MOC]]
+- [[AMOS_RSCF_NODES]]
+- [[AMOS_SIMULATION_KERNEL]]
+- [[SYSTEM_SCAN_ENGINE]]
+- [[automation_profiles]]
 
 ---
 
@@ -4358,16 +4357,16 @@ path: 11_KNOWLEDGE/trang/TRANG_FRAMEWORK_UNG_DUNG_VAO_AI_TU_SUA_VA_TU_T.md
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
-* INDEXED_BY: [[KNOWLEDGE_MOC]]
-* INDEXED_BY: [[trang_MOC]]
-* DEPENDS_ON: [[TRANG_FRAMEWORK]]
-* DEPENDS_ON: [[TRANG_LMH_ARCHITECTURE]]
-* COMPOSES_WITH: [[RSCF_X_GMEF]]
-* COMPOSES_WITH: [[PROVENANCE_X_CONFIDENCE]]
-* COMPOSES_WITH: [[ULK_X_RSCF]]
-* COMPOSES_WITH: [[AMOS_FULL_BRAIN_OS_ARCHITECTURE]]
-* GOVERNED_BY: [[AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR]]
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[KNOWLEDGE_MOC]]
+- INDEXED_BY: [[trang_MOC]]
+- DEPENDS_ON: [[TRANG_FRAMEWORK]]
+- DEPENDS_ON: [[TRANG_LMH_ARCHITECTURE]]
+- COMPOSES_WITH: [[RSCF_X_GMEF]]
+- COMPOSES_WITH: [[PROVENANCE_X_CONFIDENCE]]
+- COMPOSES_WITH: [[ULK_X_RSCF]]
+- COMPOSES_WITH: [[AMOS_FULL_BRAIN_OS_ARCHITECTURE]]
+- GOVERNED_BY: [[AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR]]
 
 claim_class: AMOS_MODEL
 

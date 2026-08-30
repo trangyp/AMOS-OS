@@ -3458,50 +3458,50 @@ gaps:
 
 Before promoting to `IMPLEMENTED`:
 
-* [ ] runtime artifact identified
-* [ ] version identified
-* [ ] hash recorded
-* [ ] input schema bound
-* [ ] output schema bound
-* [ ] state schema bound
-* [ ] tier implementation mapped
-* [ ] P1–P9 implementation mapped
-* [ ] memory persistence implemented
-* [ ] audit receipt implemented
-* [ ] authority gate implemented
-* [ ] rollback implemented
+- [ ] runtime artifact identified
+- [ ] version identified
+- [ ] hash recorded
+- [ ] input schema bound
+- [ ] output schema bound
+- [ ] state schema bound
+- [ ] tier implementation mapped
+- [ ] P1–P9 implementation mapped
+- [ ] memory persistence implemented
+- [ ] audit receipt implemented
+- [ ] authority gate implemented
+- [ ] rollback implemented
 
 Before promoting to `VALIDATED`:
 
-* [ ] deterministic reproducibility tested
-* [ ] identity override tested
-* [ ] memory continuity tested
-* [ ] task finality tested
-* [ ] contradiction handling tested
-* [ ] traceability reconstructed
-* [ ] self-audit failure path tested
-* [ ] stale-state handling tested
-* [ ] provenance corruption tested
-* [ ] regime changes tested
+- [ ] deterministic reproducibility tested
+- [ ] identity override tested
+- [ ] memory continuity tested
+- [ ] task finality tested
+- [ ] contradiction handling tested
+- [ ] traceability reconstructed
+- [ ] self-audit failure path tested
+- [ ] stale-state handling tested
+- [ ] provenance corruption tested
+- [ ] regime changes tested
 
 Before promoting health claims:
 
-* [ ] construct definitions
-* [ ] measurement validity
-* [ ] diagnostic sensitivity/specificity
-* [ ] clinical comparator
-* [ ] population defined
-* [ ] confounding analyzed
-* [ ] intervention evidence where claimed
-* [ ] external replication
+- [ ] construct definitions
+- [ ] measurement validity
+- [ ] diagnostic sensitivity/specificity
+- [ ] clinical comparator
+- [ ] population defined
+- [ ] confounding analyzed
+- [ ] intervention evidence where claimed
+- [ ] external replication
 
 Before certification claims:
 
-* [ ] certification body
-* [ ] standard
-* [ ] audited scope
-* [ ] current certificate
-* [ ] product/version correspondence
+- [ ] certification body
+- [ ] standard
+- [ ] audited scope
+- [ ] current certificate
+- [ ] product/version correspondence
 
 ---
 
@@ -4113,15 +4113,15 @@ UBI + NeuroSyncAI Integration Framework
 
 ## Related
 
-* [[AMOS_X_NEUROSYNCAI]]
-* [[AMOS_X_UBI]]
-* [[AMOS_RSCF_NODES]]
-* 25_COGNITIVE_MATRIX
-* [[LAW_HIERARCHY]]
-* [[KERNEL_README]]
-* [[CONTROL_PLANE_README]]
-* [[OBSERVABILITY_README]]
-* [[OPERATIONS_README]]
+- [[AMOS_X_NEUROSYNCAI]]
+- [[AMOS_X_UBI]]
+- [[AMOS_RSCF_NODES]]
+- 25_COGNITIVE_MATRIX
+- [[LAW_HIERARCHY]]
+- [[KERNEL_README]]
+- [[CONTROL_PLANE_README]]
+- [[OBSERVABILITY_README]]
+- [[OPERATIONS_README]]
 
 ---
 
@@ -4145,25 +4145,25 @@ canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-* GOVERNED_BY: [[LAW_HIERARCHY]]
+- GOVERNED_BY: [[LAW_HIERARCHY]]
 
-* REPRESENTS: [[AMOS_X_NEUROSYNCAI]]
+- REPRESENTS: [[AMOS_X_NEUROSYNCAI]]
 
-* DERIVED_FROM_FRAMEWORK: [[AMOS_X_UBI]]
+- DERIVED_FROM_FRAMEWORK: [[AMOS_X_UBI]]
 
-* RELATED_TO: [[ABSOLUTE_BIOLOGICAL_INTEGRITY]]
+- RELATED_TO: [[ABSOLUTE_BIOLOGICAL_INTEGRITY]]
 
-* INTERACTS_WITH: [[KERNEL_README]]
+- INTERACTS_WITH: [[KERNEL_README]]
 
-* GATED_BY: [[CONTROL_PLANE_README]]
+- GATED_BY: [[CONTROL_PLANE_README]]
 
-* OBSERVED_BY: [[OBSERVABILITY_README]]
+- OBSERVED_BY: [[OBSERVABILITY_README]]
 
-* RECOVERED_BY: [[OPERATIONS_README]]
+- RECOVERED_BY: [[OPERATIONS_README]]
 
 ```
 

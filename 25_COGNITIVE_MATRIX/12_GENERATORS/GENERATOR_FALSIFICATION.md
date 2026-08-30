@@ -60,24 +60,24 @@ The subsystem MUST test consequential generated outputs against the strongest de
 
 Primary targets include:
 
-* false premises;
-* unsupported assumptions;
-* contradictory evidence;
-* hidden dependencies;
-* shared provenance ancestry;
-* synthetic consensus;
-* scope leakage;
-* regime mismatch;
-* temporal invalidity;
-* causal overreach;
-* counterexamples;
-* measurement artifacts;
-* alternative explanations;
-* constraint violations;
-* authority violations;
-* execution failure;
-* stale state;
-* invalid generator composition.
+- false premises;
+- unsupported assumptions;
+- contradictory evidence;
+- hidden dependencies;
+- shared provenance ancestry;
+- synthetic consensus;
+- scope leakage;
+- regime mismatch;
+- temporal invalidity;
+- causal overreach;
+- counterexamples;
+- measurement artifacts;
+- alternative explanations;
+- constraint violations;
+- authority violations;
+- execution failure;
+- stale state;
+- invalid generator composition.
 
 The objective is not arbitrary skepticism.
 

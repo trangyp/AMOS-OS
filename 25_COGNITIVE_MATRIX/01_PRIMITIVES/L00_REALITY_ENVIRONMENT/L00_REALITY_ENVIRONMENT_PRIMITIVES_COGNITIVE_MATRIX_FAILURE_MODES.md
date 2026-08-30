@@ -1836,8 +1836,8 @@ G_F=(V_F,E_F)
 
 where:
 
-* \(V_F\) = states, claims, evidence, models, actions;
-* \(E_F\) = material dependency edges.
+- \(V_F\) = states, claims, evidence, models, actions;
+- \(E_F\) = material dependency edges.
 
 Affected state:
 

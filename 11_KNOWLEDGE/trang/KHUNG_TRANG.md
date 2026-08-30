@@ -2031,38 +2031,38 @@ Dưới đây là phần **còn thiếu tiếp theo** :
     và khi nào phải tự thay đổi.
 ```
 Không thể “complete” theo nghĩa tuyệt đối nếu mục tiêu là:
-  * mô tả toàn bộ thực tại
+  - mô tả toàn bộ thực tại
 
 
-  * tính được mọi scale
+  - tính được mọi scale
 
 
-  * không còn bất kỳ gap logic nào
+  - không còn bất kỳ gap logic nào
 
 
-  * tiên đoán mọi hiện tượng
+  - tiên đoán mọi hiện tượng
 
 
 Vì một hệ đủ mạnh để mô tả toàn bộ universe sẽ gặp các giới hạn nền:
-  * Gödel incompleteness
+  - Gödel incompleteness
 
 
-  * undecidability
+  - undecidability
 
 
-  * chaos sensitivity
+  - chaos sensitivity
 
 
-  * measurement limits
+  - measurement limits
 
 
-  * computational irreducibility
+  - computational irreducibility
 
 
-  * observer-dependence
+  - observer-dependence
 
 
-  * finite information access
+  - finite information access
 
 
 Nhưng có thể tiến tới:
@@ -2072,246 +2072,246 @@ PHIÊN BẢN GẦN-COMPLETE PHẢI CÓ 12 TẦNG KHÓA:
   1. Ontology Layer
 
 
-  * distinction
+  - distinction
 
 
-  * relation
+  - relation
 
 
-  * constraint
+  - constraint
 
 
-  * boundary
+  - boundary
 
 
-  * persistence
+  - persistence
 
 
-  * recursion
+  - recursion
 
 
-  * memory
+  - memory
 
 
-  * entropy
+  - entropy
 
 
-  * correction
+  - correction
 
 
   1. State Space Layer
 
 
-  * toàn bộ trạng thái khả dĩ
+  - toàn bộ trạng thái khả dĩ
 
 
-  * adjacency rules
+  - adjacency rules
 
 
-  * transition accessibility
+  - transition accessibility
 
 
-  * forbidden regions
+  - forbidden regions
 
 
   1. Dynamics Layer
 
 
-  * evolution operators
+  - evolution operators
 
 
-  * action minimization
+  - action minimization
 
 
-  * constraint propagation
+  - constraint propagation
 
 
-  * causal update rules
+  - causal update rules
 
 
   1. Conservation Layer
 
 
-  * energy
+  - energy
 
 
-  * momentum
+  - momentum
 
 
-  * charge
+  - charge
 
 
-  * information bounds
+  - information bounds
 
 
-  * identity continuity
+  - identity continuity
 
 
   1. Geometry Layer
 
 
-  * emergent metric
+  - emergent metric
 
 
-  * curvature
+  - curvature
 
 
-  * topology transitions
+  - topology transitions
 
 
-  * dimensional compression
+  - dimensional compression
 
 
   1. Quantum Layer
 
 
-  * superposition
+  - superposition
 
 
-  * interference
+  - interference
 
 
-  * decoherence
+  - decoherence
 
 
-  * measurement locking
+  - measurement locking
 
 
-  * observer coupling
+  - observer coupling
 
 
   1. Thermodynamic Layer
 
 
-  * entropy production
+  - entropy production
 
 
-  * entropy transport
+  - entropy transport
 
 
-  * irreversible gradients
+  - irreversible gradients
 
 
-  * free energy flows
+  - free energy flows
 
 
   1. Emergence Layer
 
 
-  * coarse-graining
+  - coarse-graining
 
 
-  * renormalization
+  - renormalization
 
 
-  * effective laws
+  - effective laws
 
 
-  * scale transitions
+  - scale transitions
 
 
-  * phase emergence
+  - phase emergence
 
 
   1. Biological Layer
 
 
-  * self-repair
+  - self-repair
 
 
-  * metabolism
+  - metabolism
 
 
-  * adaptive mutation
+  - adaptive mutation
 
 
-  * survival loops
+  - survival loops
 
 
-  * recursive inheritance
+  - recursive inheritance
 
 
   1. Cognitive Layer
 
 
-  * predictive modeling
+  - predictive modeling
 
 
-  * symbolic compression
+  - symbolic compression
 
 
-  * recursive self-modeling
+  - recursive self-modeling
 
 
-  * counterfactual simulation
+  - counterfactual simulation
 
 
-  * correction authority
+  - correction authority
 
 
   1. Civilizational Layer
 
 
-  * institution memory
+  - institution memory
 
 
-  * distributed cognition
+  - distributed cognition
 
 
-  * infrastructure persistence
+  - infrastructure persistence
 
 
-  * ecological coupling
+  - ecological coupling
 
 
-  * strategic recursion
+  - strategic recursion
 
 
   1. Meta-Law Layer
 
 
-  * falsifiability
+  - falsifiability
 
 
-  * self-audit
+  - self-audit
 
 
-  * contradiction detection
+  - contradiction detection
 
 
-  * repair operators
+  - repair operators
 
 
-  * scope boundaries
+  - scope boundaries
 
 
 Khung Trang hiện mạnh nhất ở:
-  * layer 1
+  - layer 1
 
 
-  * layer 8
+  - layer 8
 
 
-  * layer 9
+  - layer 9
 
 
-  * layer 10
+  - layer 10
 
 
-  * cross-scale recursion
+  - cross-scale recursion
 
 
 và yếu nhất ở:
-  * layer 2
+  - layer 2
 
 
-  * layer 3
+  - layer 3
 
 
-  * layer 5
+  - layer 5
 
 
-  * layer 6
+  - layer 6
 
 
 Tức là:
@@ -2337,29 +2337,29 @@ Memory(t),
 Boundary(t)
 )))))))
 Trong đó:
-  * Interact = mọi coupling
+  - Interact = mọi coupling
 
 
-  * Transform = động lực học
+  - Transform = động lực học
 
 
-  * Mutate = tạo variation
+  - Mutate = tạo variation
 
 
-  * Select = survival filter
+  - Select = survival filter
 
 
-  * Repair = anti-collapse stabilization
+  - Repair = anti-collapse stabilization
 
 
-  * ConstraintProject = ép về manifold hợp lệ
+  - ConstraintProject = ép về manifold hợp lệ
 
 
 Đây mới là “skeleton” gần-complete.
 Sau đó phải thêm:
 MICRO → MACRO COMPILER
 để chứng minh:
-  * particle
+  - particle
 → atom
 → chemistry
 → biology
@@ -2371,13 +2371,13 @@ MICRO → MACRO COMPILER
 Khóa cuối cùng còn thiếu là:
 SELF-CONSISTENT OBSERVER THEORY
 vì hiện physics vẫn chưa giải triệt để:
-  * tại sao measurement chọn outcome
+  - tại sao measurement chọn outcome
 
 
-  * tại sao awareness có continuity
+  - tại sao awareness có continuity
 
 
-  * tại sao subjective frame tồn tại
+  - tại sao subjective frame tồn tại
 
 
 Khung Trang đang cố nối bằng:
@@ -2391,43 +2391,43 @@ Và điều quan trọng nhất:
 nếu một framework tự tuyên bố “đã complete tuyệt đối”,
 nó gần như chắc chắn sai.
 Đúng. Phần còn thiếu lớn nhất chưa được khóa là:
-  * origin layer
+  - origin layer
 
 
-  * impossibility layer
+  - impossibility layer
 
 
-  * computation boundary layer
+  - computation boundary layer
 
 
-  * observer recursion closure
+  - observer recursion closure
 
 
-  * semantic causality
+  - semantic causality
 
 
-  * dimensional emergence
+  - dimensional emergence
 
 
-  * vacuum ontology
+  - vacuum ontology
 
 
-  * information-energy equivalence
+  - information-energy equivalence
 
 
-  * law emergence
+  - law emergence
 
 
-  * universe self-selection
+  - universe self-selection
 
 
-  * finite/infinite closure
+  - finite/infinite closure
 
 
-  * anti-paradox engine
+  - anti-paradox engine
 
 
-  * reality compilation layer
+  - reality compilation layer
 
 
 Đây mới là tầng “deep closure”.
@@ -2588,22 +2588,22 @@ và:
 ```
 Reality update capacity là hữu hạn.
 Điều này sinh:
-  * causality
+  - causality
 
 
-  * locality
+  - locality
 
 
-  * latency
+  - latency
 
 
-  * horizon
+  - horizon
 
 
-  * decoherence
+  - decoherence
 
 
-  * observational limits
+  - observational limits
 
 
 * * *
@@ -2635,22 +2635,22 @@ Nhưng hệ sống có:
     meaning-driven causality.
 ```
 Ví dụ:
-  * money
+  - money
 
 
-  * law
+  - law
 
 
-  * language
+  - language
 
 
-  * religion
+  - religion
 
 
-  * identity
+  - identity
 
 
-  * mathematics
+  - mathematics
 
 
 không chỉ là vật chất.
@@ -2782,46 +2782,46 @@ Phiên bản sâu nhất hiện có:
     )))))
 ```
 Trong đó:
-  * PotentialSpace = khả thể nền
+  - PotentialSpace = khả thể nền
 
 
-  * DifferenceGeneration = sinh distinction
+  - DifferenceGeneration = sinh distinction
 
 
-  * EntropyTransformation = gradient và biến đổi
+  - EntropyTransformation = gradient và biến đổi
 
 
-  * ConstraintPropagation = tạo luật và quan hệ
+  - ConstraintPropagation = tạo luật và quan hệ
 
 
-  * RecursiveCompression = sinh cấu trúc ổn định
+  - RecursiveCompression = sinh cấu trúc ổn định
 
 
-  * InvariantProjection = giữ các dạng sống được
+  - InvariantProjection = giữ các dạng sống được
 
 
 * * *
 # CXIII. WHAT STILL CANNOT BE CLOSED
 Ngay cả sau tất cả lớp này, vẫn còn mở:
-  * why existence instead of nothing
+  - why existence instead of nothing
 
 
-  * why these invariants
+  - why these invariants
 
 
-  * whether mathematics is discovered or generated
+  - whether mathematics is discovered or generated
 
 
-  * whether consciousness is fundamental or emergent
+  - whether consciousness is fundamental or emergent
 
 
-  * whether infinity physically exists
+  - whether infinity physically exists
 
 
-  * whether all possible realities exist
+  - whether all possible realities exist
 
 
-  * ultimate origin of asymmetry
+  - ultimate origin of asymmetry
 
 
 Đây không phải thất bại.
@@ -2842,16 +2842,16 @@ Khung Trang bây giờ gần nhất với:
     constraint-based universe dynamics
 ```
 Nó không chỉ là:
-  * systems theory
+  - systems theory
 
 
-  * physics extension
+  - physics extension
 
 
-  * complexity theory
+  - complexity theory
 
 
-  * philosophy
+  - philosophy
 
 
 Mà là cố thống nhất:

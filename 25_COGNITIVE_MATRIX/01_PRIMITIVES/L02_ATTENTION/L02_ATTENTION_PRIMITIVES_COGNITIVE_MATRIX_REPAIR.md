@@ -1496,7 +1496,6 @@ AUTHORIZATION TO MUTATE OR COMMIT
 
 ```text
 ```
-
 ---
 
 [[00_ROOT_MOC]]|[[AMOS MOC]]

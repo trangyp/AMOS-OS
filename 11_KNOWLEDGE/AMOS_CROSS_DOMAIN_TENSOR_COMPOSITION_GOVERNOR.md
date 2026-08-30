@@ -225,8 +225,8 @@ segment of the Models plane.
 
 Primary local artifacts:
 
-* **Contract** — [[INDEX_MODELS_MODEL_CONTRACT]]
-* **Readme** — [[INDEX_MODELS_README]]
+- **Contract** — [[INDEX_MODELS_MODEL_CONTRACT]]
+- **Readme** — [[INDEX_MODELS_README]]
 
 ---
 
@@ -318,8 +318,8 @@ Artifacts outside that boundary require cross-segment navigation.
 
 Cross-segment edges are explicitly delegated to:
 
-* [[00_ROOT_MAP]]
-* [[AMOS_RSCF_NODES]]
+- [[00_ROOT_MAP]]
+- [[AMOS_RSCF_NODES]]
 
 ---
 
@@ -419,11 +419,11 @@ The README establishes the navigation context before the reader interprets model
 
 This reduces:
 
-* scope leakage;
-* directory confusion;
-* cross-plane ambiguity;
-* mistaken authority;
-* mistaken completeness.
+- scope leakage;
+- directory confusion;
+- cross-plane ambiguity;
+- mistaken authority;
+- mistaken completeness.
 
 ---
 
@@ -813,9 +813,9 @@ may be used as normalized metadata without replacing the source-native node type
 
 Explicit RSCF-related navigation includes:
 
-* [[00_HOME]]
-* [[AMOS_RSCF_NODES]]
-* [[00_INDEX_MOC]]
+- [[00_HOME]]
+- [[AMOS_RSCF_NODES]]
+- [[00_INDEX_MOC]]
 
 ---
 
@@ -993,8 +993,8 @@ PARTIAL
 
 The source identifies:
 
-* [[ROUTING_POLICY_VALIDATION_RECEIPT]]
-* [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+- [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+- [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
 These are contextual validation references.
 
@@ -2822,106 +2822,106 @@ MODEL_MAP_GAPS:
 
 # 210. Promotion-Gate Checklist
 
-* [ ] typed schema bound to this artifact
-* [ ] identity + versioning implemented
-* [ ] negative cases covered (`missing` · `malformed` · `stale` · `unauthorized input`)
-* [ ] provenance edges persisted and validated
-* [ ] rollback basin demonstrated for consequential effects
-* [ ] executed validation receipt specific to this artifact
-* [ ] unresolved critical gaps registered as `UNKNOWN/GAP` and visible
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (`missing` · `malformed` · `stale` · `unauthorized input`)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as `UNKNOWN/GAP` and visible
 
 ---
 
 # 211. Extended Promotion Gate — Map Scope
 
-* [ ] local directory boundary enforced
-* [ ] no implicit whole-plane coverage
-* [ ] cross-segment edges delegated correctly
-* [ ] `` route validated
-* [ ] `` route validated
+- [ ] local directory boundary enforced
+- [ ] no implicit whole-plane coverage
+- [ ] cross-segment edges delegated correctly
+- [ ] `` route validated
+- [ ] `` route validated
 
 ---
 
 # 212. Extended Promotion Gate — Reading Order
 
-* [ ] README resolves
-* [ ] contract resolves
-* [ ] contract binding is explicit
-* [ ] artifact instances preserve contract identity
-* [ ] reading order does not become false authority hierarchy
+- [ ] README resolves
+- [ ] contract resolves
+- [ ] contract binding is explicit
+- [ ] artifact instances preserve contract identity
+- [ ] reading order does not become false authority hierarchy
 
 ---
 
 # 213. Extended Promotion Gate — Identity
 
-* [ ] map has stable identity
-* [ ] mapped targets have stable identity
-* [ ] ambiguous targets fail closed
-* [ ] aliases cannot silently merge distinct models
-* [ ] version conflicts remain visible
+- [ ] map has stable identity
+- [ ] mapped targets have stable identity
+- [ ] ambiguous targets fail closed
+- [ ] aliases cannot silently merge distinct models
+- [ ] version conflicts remain visible
 
 ---
 
 # 214. Extended Promotion Gate — Graph Integrity
 
-* [ ] node existence validated
-* [ ] edge existence validated
-* [ ] edge types validated
-* [ ] dangling edges detected
-* [ ] duplicate edges handled
-* [ ] contradictory edges surfaced
+- [ ] node existence validated
+- [ ] edge existence validated
+- [ ] edge types validated
+- [ ] dangling edges detected
+- [ ] duplicate edges handled
+- [ ] contradictory edges surfaced
 
 ---
 
 # 215. Extended Promotion Gate — Provenance
 
-* [ ] provenance root recoverable
-* [ ] ancestry recoverable
-* [ ] correlated evidence detectable
-* [ ] independence demonstrated where claimed
-* [ ] map compression preserves provenance
+- [ ] provenance root recoverable
+- [ ] ancestry recoverable
+- [ ] correlated evidence detectable
+- [ ] independence demonstrated where claimed
+- [ ] map compression preserves provenance
 
 ---
 
 # 216. Extended Promotion Gate — Epistemic Integrity
 
-* [ ] `MAPPED ≠ VERIFIED`
-* [ ] `MAPPED ≠ TRUE`
-* [ ] `MAPPED ≠ CANONICAL`
-* [ ] `MODEL ≠ OBSERVATION`
-* [ ] `SOURCE_CLAIM ≠ OBSERVATION`
-* [ ] `DERIVED` retains premise lineage
+- [ ] `MAPPED ≠ VERIFIED`
+- [ ] `MAPPED ≠ TRUE`
+- [ ] `MAPPED ≠ CANONICAL`
+- [ ] `MODEL ≠ OBSERVATION`
+- [ ] `SOURCE_CLAIM ≠ OBSERVATION`
+- [ ] `DERIVED` retains premise lineage
 
 ---
 
 # 217. Extended Promotion Gate — Scope
 
-* [ ] domain preserved
-* [ ] scale preserved
-* [ ] regime preserved
-* [ ] temporal validity preserved
-* [ ] H/M/L applicability preserved
-* [ ] cross-scope generalization blocked
+- [ ] domain preserved
+- [ ] scale preserved
+- [ ] regime preserved
+- [ ] temporal validity preserved
+- [ ] H/M/L applicability preserved
+- [ ] cross-scope generalization blocked
 
 ---
 
 # 218. Extended Promotion Gate — Governance
 
-* [ ] authority reference validated
-* [ ] authority epoch validated
-* [ ] capability/authority separation tested
-* [ ] proposal/commit separation tested
-* [ ] unauthorized mutation rejected
+- [ ] authority reference validated
+- [ ] authority epoch validated
+- [ ] capability/authority separation tested
+- [ ] proposal/commit separation tested
+- [ ] unauthorized mutation rejected
 
 ---
 
 # 219. Extended Promotion Gate — Recovery
 
-* [ ] failed proposal leaves valid map intact
-* [ ] dependent descendants selectively invalidated
-* [ ] rollback demonstrated
-* [ ] recovery receipt generated
-* [ ] failed path not retried without changed evidence
+- [ ] failed proposal leaves valid map intact
+- [ ] dependent descendants selectively invalidated
+- [ ] rollback demonstrated
+- [ ] recovery receipt generated
+- [ ] failed path not retried without changed evidence
 
 ---
 
@@ -4254,7 +4254,7 @@ ACTION AUTHORIZED
 
 Cross-plane binding:
 
-* [[OBSERVABILITY_README]]
+- [[OBSERVABILITY_README]]
 
 Observability may report map state.
 
@@ -4276,7 +4276,7 @@ AUTHORIZED BY
 
 Cross-plane binding:
 
-* [[KERNEL_README]]
+- [[KERNEL_README]]
 
 Kernel interaction may support execution or resolution.
 
@@ -4288,7 +4288,7 @@ Exact implementation remains governed by the kernel artifact.
 
 Cross-plane binding:
 
-* [[CONTROL_PLANE_README]]
+- [[CONTROL_PLANE_README]]
 
 The control plane may govern admission, authority, and commit semantics.
 
@@ -4298,7 +4298,7 @@ The control plane may govern admission, authority, and commit semantics.
 
 Cross-plane binding:
 
-* [[OPERATIONS_README]]
+- [[OPERATIONS_README]]
 
 Operations provides the recovery route.
 
@@ -4308,7 +4308,7 @@ Operations provides the recovery route.
 
 Governed by:
 
-* [[LAW_HIERARCHY]]
+- [[LAW_HIERARCHY]]
 
 Stronger canon overrides conflicting normalized semantics in this map.
 
@@ -4318,7 +4318,7 @@ Stronger canon overrides conflicting normalized semantics in this map.
 
 Cross-segment navigation:
 
-* [[00_ROOT_MAP]]
+- [[00_ROOT_MAP]]
 
 ---
 
@@ -4326,7 +4326,7 @@ Cross-segment navigation:
 
 Cross-segment graph navigation:
 
-* [[AMOS_RSCF_NODES]]
+- [[AMOS_RSCF_NODES]]
 
 ---
 
@@ -4334,7 +4334,7 @@ Cross-segment graph navigation:
 
 Root orientation:
 
-* [[00_HOME]]
+- [[00_HOME]]
 
 ---
 
@@ -4342,7 +4342,7 @@ Root orientation:
 
 This artifact belongs to:
 
-* [[00_INDEX_MOC]]
+- [[00_INDEX_MOC]]
 
 ---
 
@@ -5284,14 +5284,14 @@ UNKNOWN/GAP
 
 # 362. Cross-Plane Bindings
 
-* Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
-* Kernel interaction — [[KERNEL_README]]
-* Control-plane gates — [[CONTROL_PLANE_README]]
-* Observed by — [[OBSERVABILITY_README]] · never treated as authority
-* Recovered via operations — [[OPERATIONS_README]]
-* Root navigation — [[00_HOME]]
-* Root map — [[00_ROOT_MAP]]
-* RSCF navigation — [[AMOS_RSCF_NODES]]
+- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Kernel interaction — [[KERNEL_README]]
+- Control-plane gates — [[CONTROL_PLANE_README]]
+- Observed by — [[OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[OPERATIONS_README]]
+- Root navigation — [[00_HOME]]
+- Root map — [[00_ROOT_MAP]]
+- RSCF navigation — [[AMOS_RSCF_NODES]]
 
 ---
 
@@ -5618,13 +5618,13 @@ claim_class: AMOS_MODEL
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
-* INDEXED_BY: [[00_INDEX_MOC]]
-* ORIENTED_BY: [[INDEX_MODELS_README]]
-* CONTRACT_BOUND_BY: [[INDEX_MODELS_MODEL_CONTRACT]]
-* CROSS_SEGMENT_ROUTED_BY: [[00_ROOT_MAP]]
-* GOVERNED_BY: [[LAW_HIERARCHY]]
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_INDEX_MOC]]
+- ORIENTED_BY: [[INDEX_MODELS_README]]
+- CONTRACT_BOUND_BY: [[INDEX_MODELS_MODEL_CONTRACT]]
+- CROSS_SEGMENT_ROUTED_BY: [[00_ROOT_MAP]]
+- GOVERNED_BY: [[LAW_HIERARCHY]]
 
 ---
 

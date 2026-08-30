@@ -6,6 +6,11 @@ tags:
 - uie
 - interaction
 - universe_canon
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: universe_canon
 ---
 
 # UIE Interaction Engine

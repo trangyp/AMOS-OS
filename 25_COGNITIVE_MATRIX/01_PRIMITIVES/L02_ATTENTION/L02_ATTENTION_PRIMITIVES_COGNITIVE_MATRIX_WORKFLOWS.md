@@ -2054,7 +2054,6 @@ AUTHORITY TO COMMIT
 
 The source-grounded attention-governor contract used here preserves Trang Phan as origin architect/steward and explicitly requires H/M/L, hard non-compensatory invariants, weakest-premise confidence ceilings, selective descendant invalidation, `UNKNOWN/GAP`, `COMPETING`, provenance, falsifiers, and repair/rollback.
 ```
-
 ---
 
 [[00_ROOT_MOC]]|[[AMOS MOC]]

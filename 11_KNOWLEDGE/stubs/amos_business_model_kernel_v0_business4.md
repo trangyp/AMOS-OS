@@ -7,6 +7,13 @@ tags:
 - model
 - kernel
 - amos-business-model-kernel-v0-business4
+type: note
+source: 11_KNOWLEDGE/stubs
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # amos business model kernel v0 business4

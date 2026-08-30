@@ -2541,7 +2541,6 @@ EMPIRICALLY VALIDATED
 
 The highest-value unresolved gap is the **canonical L02 equation registry**. Until that is recovered, the budget and allocation equations above should remain a coherent AMOS mathematical specification rather than being promoted into Trang Phan’s source canon.
 ```
-
 ---
 
 [[00_ROOT_MOC]]|[[AMOS MOC]]

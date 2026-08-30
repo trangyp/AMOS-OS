@@ -78,16 +78,16 @@ The purpose of the AMOS Policy Registry is to provide a governed, provenance-pre
 
 It exists so AMOS components do not need to infer policy identity from:
 
-* filenames;
-* directory position;
-* human-readable titles;
-* agent memory;
-* cached prose;
-* duplicated documents;
-* latest-modified timestamps;
-* semantic similarity;
-* undocumented conventions;
-* or model-generated interpretation.
+- filenames;
+- directory position;
+- human-readable titles;
+- agent memory;
+- cached prose;
+- duplicated documents;
+- latest-modified timestamps;
+- semantic similarity;
+- undocumented conventions;
+- or model-generated interpretation.
 
 Instead:
 

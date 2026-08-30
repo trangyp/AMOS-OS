@@ -111,16 +111,16 @@ An agent is therefore not defined merely by a name or prompt.
 
 It requires an explicit contract describing:
 
-* what it may observe;
-* how it observes;
-* which channels it may access;
-* which transformations it may perform;
-* what epistemic class its outputs receive;
-* what evidence it must preserve;
-* what authority it possesses;
-* what it may not claim;
-* how its failures are detected;
-* how its output can be invalidated.
+- what it may observe;
+- how it observes;
+- which channels it may access;
+- which transformations it may perform;
+- what epistemic class its outputs receive;
+- what evidence it must preserve;
+- what authority it possesses;
+- what it may not claim;
+- how its failures are detected;
+- how its output can be invalidated.
 
 ---
 
@@ -423,8 +423,8 @@ O_c = Adapt(O_s, Schema_s \rightarrow Schema_c)
 
 where:
 
-* \(O_s\) = source-format observation;
-* \(O_c\) = canonicalized observation.
+- \(O_s\) = source-format observation;
+- \(O_c\) = canonicalized observation.
 
 Invariant:
 

@@ -2521,16 +2521,16 @@ RECOVERY RECEIPT
 
 Before stronger implementation status:
 
-* [ ] typed schema bound to package artifacts;
-* [ ] artifact identity represented explicitly;
-* [ ] version represented explicitly;
-* [ ] status represented explicitly;
-* [ ] scope represented explicitly;
-* [ ] regime represented explicitly;
-* [ ] provenance represented explicitly;
-* [ ] authority references typed;
-* [ ] outcomes typed;
-* [ ] validation receipts typed.
+- [ ] typed schema bound to package artifacts;
+- [ ] artifact identity represented explicitly;
+- [ ] version represented explicitly;
+- [ ] status represented explicitly;
+- [ ] scope represented explicitly;
+- [ ] regime represented explicitly;
+- [ ] provenance represented explicitly;
+- [ ] authority references typed;
+- [ ] outcomes typed;
+- [ ] validation receipts typed.
 
 ---
 
@@ -2538,21 +2538,21 @@ Before stronger implementation status:
 
 Required negative tests include:
 
-* [ ] missing artifact;
-* [ ] malformed artifact;
-* [ ] unknown artifact version;
-* [ ] stale artifact version;
-* [ ] missing dependency;
-* [ ] malformed dependency;
-* [ ] stale authority;
-* [ ] unauthorized operation;
-* [ ] scope mismatch;
-* [ ] regime mismatch;
-* [ ] stale state;
-* [ ] conflicting provenance;
-* [ ] unresolved competing claims;
-* [ ] failed invariant;
-* [ ] rollback failure.
+- [ ] missing artifact;
+- [ ] malformed artifact;
+- [ ] unknown artifact version;
+- [ ] stale artifact version;
+- [ ] missing dependency;
+- [ ] malformed dependency;
+- [ ] stale authority;
+- [ ] unauthorized operation;
+- [ ] scope mismatch;
+- [ ] regime mismatch;
+- [ ] stale state;
+- [ ] conflicting provenance;
+- [ ] unresolved competing claims;
+- [ ] failed invariant;
+- [ ] rollback failure.
 
 ---
 
@@ -2560,14 +2560,14 @@ Required negative tests include:
 
 Before promotion:
 
-* [ ] provenance edges persisted;
-* [ ] source identities recoverable;
-* [ ] ancestry represented;
-* [ ] correlated evidence detectable;
-* [ ] versions recorded;
-* [ ] scope/regime stored where material;
-* [ ] invalidated premises traceable;
-* [ ] descendant invalidation traceable.
+- [ ] provenance edges persisted;
+- [ ] source identities recoverable;
+- [ ] ancestry represented;
+- [ ] correlated evidence detectable;
+- [ ] versions recorded;
+- [ ] scope/regime stored where material;
+- [ ] invalidated premises traceable;
+- [ ] descendant invalidation traceable.
 
 ---
 
@@ -2575,14 +2575,14 @@ Before promotion:
 
 Before production-level enforcement claims:
 
-* [ ] rollback basin demonstrated;
-* [ ] failure evidence preserved;
-* [ ] unaffected state preserved;
-* [ ] dependent descendants invalidated selectively;
-* [ ] failed path not blindly repeated;
-* [ ] alternative path can be selected;
-* [ ] recovery receipt generated;
-* [ ] recovered state revalidated.
+- [ ] rollback basin demonstrated;
+- [ ] failure evidence preserved;
+- [ ] unaffected state preserved;
+- [ ] dependent descendants invalidated selectively;
+- [ ] failed path not blindly repeated;
+- [ ] alternative path can be selected;
+- [ ] recovery receipt generated;
+- [ ] recovered state revalidated.
 
 ---
 

@@ -2495,7 +2495,6 @@ VERIFIED CANON
 
 This version deliberately keeps the **narrow-vs-broad attention scope unresolved**. That is the most important gap to close before promoting `L02_ATTENTION/DEFINITION.md` from model completion toward canonical status.
 ```
-
 ---
 
 [[00_ROOT_MOC]]|[[AMOS MOC]]

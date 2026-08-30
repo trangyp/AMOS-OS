@@ -3900,21 +3900,21 @@ NON_AUTHORITATIVE
 
 ## Related Generator artifacts
 
-* Generator Contract
-* Generator Provenance
-* Generator Validation
-* Generator Tests
-* Generator Benchmarks
-* Generator Audit
-* Generator Integration
-* Generator Roadmap
-* Generator History
-* Generator Change Log
-* Generator Registry
-* Supersession Registry
-* Rollback Manifest
-* Authoritative State
-* Provenance Manifest
+- Generator Contract
+- Generator Provenance
+- Generator Validation
+- Generator Tests
+- Generator Benchmarks
+- Generator Audit
+- Generator Integration
+- Generator Roadmap
+- Generator History
+- Generator Change Log
+- Generator Registry
+- Supersession Registry
+- Rollback Manifest
+- Authoritative State
+- Provenance Manifest
 
 ```
 
@@ -3982,3 +3982,5 @@ That prevents silent Generator drift from invalidating provenance, tests, valida
 ---
 **MOC:**
 
+
+```

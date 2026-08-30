@@ -1549,4 +1549,3 @@ RSCF-RELATIONS:
 
 The decisive integrity correction is that the original sentence is preserved, but it cannot itself establish a `VERIFIED/PASS` result. With only the supplied title and certification statement, the strongest defensible state is **SOURCE_CLAIM**, with the actual validation result **UNKNOWN/GAP** until the constraint registry, target/version binding, execution results, provenance, and freshness evidence are present.
 ```
-

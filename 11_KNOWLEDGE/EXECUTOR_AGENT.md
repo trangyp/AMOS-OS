@@ -325,37 +325,31 @@ Executor_Agent
 !=
 EffectExecutionProof
 ```
-
 ```text
 run()
 !=
 Commit()
 ```
-
 ```text
 Trace
 !=
 Effect
 ```
-
 ```text
 ActionProposal
 !=
 AuthorizedAction
 ```
-
 ```text
 AuthorizedAction
 !=
 CommittedEffect
 ```
-
 ```text
 CommittedEffect
 !=
 SuccessfulOutcome
 ```
-
 ---
 
 # 5. AMOS SYSTEM POSITION
@@ -600,13 +594,11 @@ CredentialAvailable
 !=
 Permission
 ```
-
 ```text
 FunctionCallable
 !=
 ActionAdmissible
 ```
-
 ---
 
 # 12. ACTION PROPOSAL OBJECT
@@ -1215,13 +1207,11 @@ HTTP 200
 !=
 business outcome succeeded
 ```
-
 ```text
 provider accepted
 !=
 recipient observed
 ```
-
 Finality must match the provider contract.
 
 ---
@@ -2887,47 +2877,47 @@ confidence_ceiling:
 
 ### MAJOR DOCUMENT REVISION
 
-* converted raw Python component note into governed AMOS execution architecture;
-* preserved the exact source implementation;
-* explicitly classified current state as `REGISTERED_STUB`;
-* separated trace behavior from execution capability;
-* added document/component/runtime-contract version axes;
-* added H/M/L execution architecture;
-* separated execution flow from authority topology;
-* added action proposal schema;
-* added execution request/result contracts;
-* added execution receipt;
-* added effect classifications;
-* added authority witnesses;
-* added authority attenuation and freshness;
-* added policy decisions;
-* added observed read/write sets;
-* added MVCC/CAS conceptual controls;
-* added commit-time revalidation;
-* added finality states;
-* added idempotency;
-* added `IN_DOUBT`;
-* added retry governance;
-* separated rollback from compensation;
-* added adapter architecture;
-* added transaction state machine;
-* added multi-effect execution modes;
-* added concurrency and stale-worker controls;
-* added cancellation and timeout semantics;
-* added failure registry;
-* added recovery;
-* added selective invalidation;
-* added execution provenance;
-* added audit/trace separation;
-* added secret-handling and information-boundary rules;
-* added dry-run semantics;
-* added execution verification;
-* added 40-test progression;
-* added promotion states and production gate;
-* added semantic transaction/effect binding;
-* added versioned execution epochs;
-* added configuration admission;
-* added reality/model firewall.
+- converted raw Python component note into governed AMOS execution architecture;
+- preserved the exact source implementation;
+- explicitly classified current state as `REGISTERED_STUB`;
+- separated trace behavior from execution capability;
+- added document/component/runtime-contract version axes;
+- added H/M/L execution architecture;
+- separated execution flow from authority topology;
+- added action proposal schema;
+- added execution request/result contracts;
+- added execution receipt;
+- added effect classifications;
+- added authority witnesses;
+- added authority attenuation and freshness;
+- added policy decisions;
+- added observed read/write sets;
+- added MVCC/CAS conceptual controls;
+- added commit-time revalidation;
+- added finality states;
+- added idempotency;
+- added `IN_DOUBT`;
+- added retry governance;
+- separated rollback from compensation;
+- added adapter architecture;
+- added transaction state machine;
+- added multi-effect execution modes;
+- added concurrency and stale-worker controls;
+- added cancellation and timeout semantics;
+- added failure registry;
+- added recovery;
+- added selective invalidation;
+- added execution provenance;
+- added audit/trace separation;
+- added secret-handling and information-boundary rules;
+- added dry-run semantics;
+- added execution verification;
+- added 40-test progression;
+- added promotion states and production gate;
+- added semantic transaction/effect binding;
+- added versioned execution epochs;
+- added configuration admission;
+- added reality/model firewall.
 
 ## v1.0.0 — Source Implementation
 

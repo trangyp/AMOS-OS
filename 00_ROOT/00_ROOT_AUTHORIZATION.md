@@ -1877,13 +1877,11 @@ TOOL_CONNECTED
 !=
 TOOL_AUTHORIZED
 ```
-
 ```text
 TOOL_CALL_SUCCEEDED
 !=
 ACTION_WAS_AUTHORIZED
 ```
-
 ---
 
 # 72. Memory Boundary

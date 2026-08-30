@@ -2501,41 +2501,41 @@ NOT_ESTABLISHED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY:
+- INDEXED_BY:
 
-* INDEXED_BY:
+- INDEXED_BY:
 
-* INDEXED_BY:
+- INDEXED_BY:
 
-* CHILD_OF:
+- CHILD_OF:
 
-* RECEIVES_FROM:
+- RECEIVES_FROM:
 
-* INHERITS_REALITY_BOUNDARY_FROM:
+- INHERITS_REALITY_BOUNDARY_FROM:
 
-* RELATED_HIERARCHY:
+- RELATED_HIERARCHY:
 
-* RELATED_FRAMEWORK:
+- RELATED_FRAMEWORK:
 
-* GOVERNS:
+- GOVERNS:
   TYPED_PERSISTENCE
 
-* GOVERNS:
+- GOVERNS:
   MEMORY_RETRIEVAL
 
-* GOVERNS:
+- GOVERNS:
   STALENESS_AND_REVALIDATION
 
-* GOVERNS:
+- GOVERNS:
   KNOWLEDGE_CONSOLIDATION
 
-* GOVERNS:
+- GOVERNS:
   SOURCE_DIVERSITY
 
-* GOVERNS:
+- GOVERNS:
   MEMORY_SUPERSESSION
 
-* GOVERNS:
+- GOVERNS:
   SELECTIVE_INVALIDATION
 
 ---
@@ -2561,4 +2561,5 @@ RSCF-RELATIONS:
 
 The normalization keeps the supplied P3 laws intact while making one important gap explicit: **`KM-1..4` is referenced but not defined in the supplied artifact**, so its exact semantics should not be invented. The resulting P3 spine is **typed persistence → memory-as-model → diversity-gated consolidation**, with staleness, provenance, epoch validity, competing memories, and dependency-local invalidation carried explicitly.
 
+```
 ```

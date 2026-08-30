@@ -86,6 +86,11 @@ tags:
 aliases:
 - AMOS Roadmap - AMOS OS Roadmap - AMOS Implementation Roadmap - AMOS Promotion Roadmap
   - AM
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: root_index
 ---
 
 # AMOS OS Roadmap
@@ -234,13 +239,11 @@ IMPLEMENTATION
 !=
 VALIDATION
 ```
-
 ```text
 UNKNOWN/GAP
 !=
 PASS
 ```
-
 ---
 
 ## 3. Artifact Lifecycle
@@ -2766,19 +2769,16 @@ FULL REPOSITORY IMPLEMENTATION
 =
 UNKNOWN/GAP
 ```
-
 ```text
 FULL RUNTIME VALIDATION
 =
 UNKNOWN/GAP
 ```
-
 ```text
 FULL OPERATIONAL MATURITY
 =
 UNKNOWN/GAP
 ```
-
 These require direct audit evidence.
 
 ---
@@ -3242,49 +3242,49 @@ Expanded the placeholder into the governed AMOS OS implementation and promotion 
 
 Added:
 
-* roadmap identity and versioning;
-* priority classes;
-* gap classes;
-* artifact lifecycle;
-* promotion evidence contract;
-* complete root structure milestone;
-* canon, kernel, identity, dependency, provenance, RSCF, authority, state and runtime phases;
-* cognition and live cognition-field phases;
-* mode-family and reasoning-mode promotion;
-* agent, skill, workflow and protocol phases;
-* memory, knowledge, models, tools, interfaces and schema phases;
-* observability, security and test phases;
-* determinism, replay and failure-injection phases;
-* rollback, recovery, reversibility and `IN_DOUBT`;
-* freshness and regime handling;
-* competing hypotheses;
-* causal firewall;
-* sensitivity and adversarial validation;
-* calibration and negative memory;
-* domain/research/archive/cognitive-matrix integration;
-* release and migration governance;
-* repository audit;
-* authoritative-state automation;
-* dependency-closure automation;
-* provenance-independence analysis;
-* v4.4 proof-based fast path;
-* performance optimization boundary;
-* proof-capsule cache;
-* selective invalidation;
-* operational maturity;
-* validated operation and production-readiness gates;
-* continuous revalidation;
-* promotion blockers and conditional promotion;
-* read-only-first capability ladder;
-* roadmap metrics;
-* coverage firewall;
-* release milestones;
-* maturity levels;
-* 25 roadmap invariants;
-* 25 failure classes;
-* reusable roadmap-item template;
-* dependency-safe near-term priority queue;
-* master RSCF node.
+- roadmap identity and versioning;
+- priority classes;
+- gap classes;
+- artifact lifecycle;
+- promotion evidence contract;
+- complete root structure milestone;
+- canon, kernel, identity, dependency, provenance, RSCF, authority, state and runtime phases;
+- cognition and live cognition-field phases;
+- mode-family and reasoning-mode promotion;
+- agent, skill, workflow and protocol phases;
+- memory, knowledge, models, tools, interfaces and schema phases;
+- observability, security and test phases;
+- determinism, replay and failure-injection phases;
+- rollback, recovery, reversibility and `IN_DOUBT`;
+- freshness and regime handling;
+- competing hypotheses;
+- causal firewall;
+- sensitivity and adversarial validation;
+- calibration and negative memory;
+- domain/research/archive/cognitive-matrix integration;
+- release and migration governance;
+- repository audit;
+- authoritative-state automation;
+- dependency-closure automation;
+- provenance-independence analysis;
+- v4.4 proof-based fast path;
+- performance optimization boundary;
+- proof-capsule cache;
+- selective invalidation;
+- operational maturity;
+- validated operation and production-readiness gates;
+- continuous revalidation;
+- promotion blockers and conditional promotion;
+- read-only-first capability ladder;
+- roadmap metrics;
+- coverage firewall;
+- release milestones;
+- maturity levels;
+- 25 roadmap invariants;
+- 25 failure classes;
+- reusable roadmap-item template;
+- dependency-safe near-term priority queue;
+- master RSCF node.
 
 ### v1.0.0 — 2026-08-25
 

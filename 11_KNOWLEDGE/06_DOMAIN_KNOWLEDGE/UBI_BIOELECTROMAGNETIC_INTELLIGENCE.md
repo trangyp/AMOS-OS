@@ -78,9 +78,9 @@ BEI governs biological rhythmicity, systemic timing, and electrophysiological sy
 
 # 1. Biological Foundations
 
-* **Substrate:** Cardiac electromagnetic field emissions, neural oscillatory rhythms (theta, alpha, gamma synchrony), bioelectric cell-membrane potentials, gap junction signaling.
-* **Core Functions:** Cross-organ rhythmic synchronization, phase-locking, timing coordination, environmental resonance sensitivity.
-* **Measurement Methods:** High-resolution EEG spectral analysis, Magnetoencephalography (MEG), Electrocardiographic spectral coherence.
+- **Substrate:** Cardiac electromagnetic field emissions, neural oscillatory rhythms (theta, alpha, gamma synchrony), bioelectric cell-membrane potentials, gap junction signaling.
+- **Core Functions:** Cross-organ rhythmic synchronization, phase-locking, timing coordination, environmental resonance sensitivity.
+- **Measurement Methods:** High-resolution EEG spectral analysis, Magnetoencephalography (MEG), Electrocardiographic spectral coherence.
 
 ---
 

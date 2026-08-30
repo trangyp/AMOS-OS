@@ -9,6 +9,13 @@ tags:
 - science
 - health
 - amos-medical-clinical-kernel-v0-science-health7-4
+type: note
+source: 11_KNOWLEDGE/stubs
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # amos medical clinical kernel v0 science health7 4

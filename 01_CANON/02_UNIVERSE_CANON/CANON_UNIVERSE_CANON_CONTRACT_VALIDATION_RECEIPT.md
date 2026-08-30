@@ -474,14 +474,14 @@ Each layer must satisfy its declared structural contract.
 
 Possible checks include:
 
-* required metadata;
-* valid identifiers;
-* required sections;
-* schema compatibility;
-* relation syntax;
-* canonical path;
-* type declarations;
-* RSCF metadata where required.
+- required metadata;
+- valid identifiers;
+- required sections;
+- schema compatibility;
+- relation syntax;
+- canonical path;
+- type declarations;
+- RSCF metadata where required.
 
 ```yaml
 gate:
@@ -718,11 +718,11 @@ A digest proves byte identity relative to the hashing operation.
 
 It does **not** independently prove:
 
-* semantic correctness;
-* empirical truth;
-* authority;
-* provenance authenticity;
-* absence of malicious content.
+- semantic correctness;
+- empirical truth;
+- authority;
+- provenance authenticity;
+- absence of malicious content.
 
 Those require separate gates.
 
@@ -1275,13 +1275,13 @@ example_only:
 
 A properly executed PASS may establish:
 
-* exact artifacts were validated;
-* all seven required layers were present;
-* mandatory contract checks passed;
-* declared invariants passed;
-* recorded cryptographic identities matched;
-* cross-layer checks passed within validator coverage;
-* the receipt corresponds to the pinned validation epoch.
+- exact artifacts were validated;
+- all seven required layers were present;
+- mandatory contract checks passed;
+- declared invariants passed;
+- recorded cryptographic identities matched;
+- cross-layer checks passed within validator coverage;
+- the receipt corresponds to the pinned validation epoch.
 
 ---
 
@@ -1289,15 +1289,15 @@ A properly executed PASS may establish:
 
 PASS does not automatically establish:
 
-* empirical truth of every cosmological proposition;
-* scientific consensus;
-* causal truth beyond validated evidence;
-* universal correctness;
-* correctness of untested behavior;
-* future validity after mutation;
-* authority not separately validated;
-* independence of correlated sources;
-* completeness beyond the declared contract.
+- empirical truth of every cosmological proposition;
+- scientific consensus;
+- causal truth beyond validated evidence;
+- universal correctness;
+- correctness of untested behavior;
+- future validity after mutation;
+- authority not separately validated;
+- independence of correlated sources;
+- completeness beyond the declared contract.
 
 This boundary is mandatory.
 
@@ -1307,21 +1307,21 @@ This boundary is mandatory.
 
 Before certification, consequential validation should probe for:
 
-* layer substitution;
-* duplicate layer IDs;
-* path spoofing;
-* stale caches;
-* digest confusion;
-* canonicalization ambiguity;
-* validator substitution;
-* missing invariants;
-* order-dependent validation;
-* malformed references;
-* cyclic dependencies;
-* receipt mutation;
-* stale epoch use;
-* provenance spoofing;
-* correlated validation paths.
+- layer substitution;
+- duplicate layer IDs;
+- path spoofing;
+- stale caches;
+- digest confusion;
+- canonicalization ambiguity;
+- validator substitution;
+- missing invariants;
+- order-dependent validation;
+- malformed references;
+- cyclic dependencies;
+- receipt mutation;
+- stale epoch use;
+- provenance spoofing;
+- correlated validation paths.
 
 A successful normal-path test alone does not establish adversarial robustness.
 
@@ -1420,12 +1420,12 @@ UNKNOWN is required when evidence is insufficient to decide.
 
 Examples:
 
-* missing contract;
-* missing required layer;
-* unavailable validator;
-* ambiguous artifact identity;
-* unreadable provenance;
-* incomplete cryptographic evidence.
+- missing contract;
+- missing required layer;
+- unavailable validator;
+- ambiguous artifact identity;
+- unreadable provenance;
+- incomplete cryptographic evidence.
 
 Core law:
 

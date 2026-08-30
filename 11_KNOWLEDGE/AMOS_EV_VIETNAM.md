@@ -22,7 +22,6 @@ rscf:
 ---
 
 
-
 # 0. Tuyên bố phạm vi và ranh giới bằng chứng
 
 Tài liệu này là bản **MAX DETAIL** của corpus “Toàn cảnh EV Việt Nam”, được tái cấu trúc thành một kiến trúc AMOS có thể nghiên cứu, kiểm chứng, vận hành và cập nhật.
@@ -3205,7 +3204,6 @@ hạ tầng và dữ liệu.
 ---
 **Related:**  · 06-Knowledge-Base-MOC · AMOS_Simulation_Kernel_v0_Math_Foundations · system_scan_agent · automation_profiles
 ```
-
 ---
 
 [[00_ROOT_MOC]]|[[AMOS MOC]] · [[AMOS_RSCF_NODES]]

@@ -59,8 +59,6 @@ rscf:
 Reality = Persistence of Distinction
 Potential ⇄ Distinction ⇄ Observer ⇄ Inquiry ⇄ Higher Distinction
 ```
-
-
 ```
 Human = Nested Memory Architecture (10 layers, 10 timescales)
 Life = Regulation / Entropy
@@ -74,7 +72,6 @@ Suffering = Multi-Layer Optimization Conflict
 Health = Alignment(Layer₁...ₙ)
 Healing = Re-Alignment of Layers
 ```
-
 ## Improved Equations (Precision-Tightened)
 
 
@@ -200,7 +197,6 @@ GOOD: Social pain activates overlapping neural substrates in dorsal anterior cin
 
 -
 ```
-
 ---
 
 **Related:** [[cosmo-human-problem-architecture_MOC]]

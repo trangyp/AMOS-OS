@@ -7,6 +7,13 @@ tags:
 - test
 - expansion
 - 2026-08-23-amos-abi-and-io-test-expansion
+type: note
+source: 11_KNOWLEDGE/stubs
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # 2026 08 23 amos abi and io test expansion

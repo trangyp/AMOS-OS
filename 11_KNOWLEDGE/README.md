@@ -1,7 +1,15 @@
 ---
+title: README
 tags:
 - knowledge
 - readme
+type: note
+source: 11_KNOWLEDGE
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
 
 # 01_BRAIN
@@ -321,12 +329,12 @@ core component
 
 could mean:
 
-* architecturally central;
-* required dependency;
-* canonical subsystem;
-* frequently used component;
-* foundational conceptual module;
-* runtime-critical component.
+- architecturally central;
+- required dependency;
+- canonical subsystem;
+- frequently used component;
+- foundational conceptual module;
+- runtime-critical component.
 
 The source does not discriminate among these meanings.
 
@@ -352,12 +360,12 @@ but does not define its exact system boundary in this artifact.
 
 Do not infer from this README alone:
 
-* exact AMOS version;
-* runtime topology;
-* subsystem count;
-* deployment environment;
-* executable architecture;
-* dependency graph.
+- exact AMOS version;
+- runtime topology;
+- subsystem count;
+- deployment environment;
+- executable architecture;
+- dependency graph.
 
 Those require external canon.
 
@@ -390,12 +398,12 @@ The ellipsis must not be filled with invented responsibilities.
 
 The missing purpose is a **DECISION-RELEVANT GAP** if this README is used to determine:
 
-* subsystem ownership;
-* API responsibility;
-* architectural boundaries;
-* routing;
-* dependency direction;
-* implementation tasks.
+- subsystem ownership;
+- API responsibility;
+- architectural boundaries;
+- routing;
+- dependency direction;
+- implementation tasks.
 
 Minimum missing information:
 
@@ -547,14 +555,14 @@ This establishes a source-level class/interface name.
 
 It does **not** independently establish:
 
-* class implementation;
-* inheritance;
-* constructor signature;
-* source file;
-* package existence;
-* runtime availability;
-* initialization contract;
-* shutdown contract.
+- class implementation;
+- inheritance;
+- constructor signature;
+- source file;
+- package existence;
+- runtime availability;
+- initialization contract;
+- shutdown contract.
 
 ---
 
@@ -624,13 +632,13 @@ INITIALIZED?
 
 The final state is marked with `?` because the source does not define:
 
-* success return value;
-* failure behavior;
-* retries;
-* timeout;
-* partial initialization;
-* rollback;
-* idempotence.
+- success return value;
+- failure behavior;
+- retries;
+- timeout;
+- partial initialization;
+- rollback;
+- idempotence.
 
 ---
 
@@ -764,11 +772,11 @@ external_dependencies:
 
 The source does not specify whether other AMOS subsystems:
 
-* depend on `01_BRAIN`;
-* are depended upon by `01_BRAIN`;
-* communicate bidirectionally;
-* are optional;
-* are dynamically loaded.
+- depend on `01_BRAIN`;
+- are depended upon by `01_BRAIN`;
+- communicate bidirectionally;
+- are optional;
+- are dynamically loaded.
 
 Therefore dependency direction is:
 
@@ -822,16 +830,16 @@ status_claim:
 
 The artifact does not provide:
 
-* test output;
-* health check;
-* deployment receipt;
-* process status;
-* runtime logs;
-* benchmark;
-* CI result;
-* version;
-* environment;
-* timestamp of operational verification.
+- test output;
+- health check;
+- deployment receipt;
+- process status;
+- runtime logs;
+- benchmark;
+- CI result;
+- version;
+- environment;
+- timestamp of operational verification.
 
 Therefore:
 
@@ -887,14 +895,14 @@ contributing:
 
 Missing details include:
 
-* coding standards;
-* branch policy;
-* review requirements;
-* test requirements;
-* documentation requirements;
-* provenance requirements;
-* release procedure;
-* authority/approval requirements.
+- coding standards;
+- branch policy;
+- review requirements;
+- test requirements;
+- documentation requirements;
+- provenance requirements;
+- release procedure;
+- authority/approval requirements.
 
 Do not invent them here.
 
@@ -938,10 +946,10 @@ provides a candidate route for resolving `01_BRAIN` semantics.
 
 Potential information that may exist there includes:
 
-* brain subsystem taxonomy;
-* components;
-* architecture;
-* relationships.
+- brain subsystem taxonomy;
+- components;
+- architecture;
+- relationships.
 
 But those contents are not present in the current source.
 
@@ -1165,12 +1173,12 @@ This establishes corpus provenance at the artifact level.
 
 It does not specify:
 
-* exact original authoring event;
-* commit;
-* hash;
-* version;
-* parent document;
-* generation pipeline.
+- exact original authoring event;
+- commit;
+- hash;
+- version;
+- parent document;
+- generation pipeline.
 
 Those remain provenance gaps.
 
@@ -1616,11 +1624,11 @@ BRAIN
 
 must not be interpreted as evidence that the subsystem:
 
-* models biological brains;
-* implements neuroscience;
-* reproduces human cognition;
-* causes cognitive outcomes;
-* is neurologically validated.
+- models biological brains;
+- implements neuroscience;
+- reproduces human cognition;
+- causes cognitive outcomes;
+- is neurologically validated.
 
 `BRAIN` is a source-defined subsystem label unless further canon establishes additional semantics.
 
@@ -1685,12 +1693,12 @@ AMOS_corpus.
 
 Do not invent:
 
-* commit hash;
-* Git branch;
-* author timestamp;
-* build ID;
-* release version;
-* artifact checksum.
+- commit hash;
+- Git branch;
+- author timestamp;
+- build ID;
+- release version;
+- artifact checksum.
 
 ---
 
@@ -1736,13 +1744,13 @@ The presence of a Configuration heading does not prove any specific configuratio
 
 Unknown possibilities include:
 
-* YAML;
-* JSON;
-* environment variables;
-* Python objects;
-* database configuration;
-* runtime service discovery;
-* no implemented configuration yet.
+- YAML;
+- JSON;
+- environment variables;
+- Python objects;
+- database configuration;
+- runtime service discovery;
+- no implemented configuration yet.
 
 Preserve as:
 
@@ -1756,11 +1764,11 @@ The source contains no explicit governance tensor or authorization policy for th
 
 Therefore do not infer:
 
-* who may initialize it;
-* who may configure it;
-* who may mutate it;
-* who may deploy it;
-* what approvals are required.
+- who may initialize it;
+- who may configure it;
+- who may mutate it;
+- who may deploy it;
+- what approvals are required.
 
 These are governance gaps.
 
@@ -2888,8 +2896,8 @@ The exact purpose is therefore **not supplied**.
 
 The source contains placeholder component entries:
 
-* `Component 1: Description`
-* `Component 2: Description`
+- `Component 1: Description`
+- `Component 2: Description`
 
 These do not establish actual component identities or the total number of components.
 
@@ -2927,8 +2935,8 @@ Exact configuration options are **not supplied**.
 
 The source distinguishes:
 
-* Internal — `Other AMOS subsystems`
-* External — `Required libraries`
+- Internal — `Other AMOS subsystems`
+- External — `Required libraries`
 
 Exact dependencies are **not supplied**.
 
@@ -2950,8 +2958,8 @@ The exact development-guidelines artifact is not supplied.
 
 ### Links
 
-* [[COSMO_BRAIN_MOC]]
-* [[KNOWLEDGE_MOC]]
+- [[COSMO_BRAIN_MOC]]
+- [[KNOWLEDGE_MOC]]
 
 ---
 

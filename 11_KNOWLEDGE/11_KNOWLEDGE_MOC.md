@@ -6,6 +6,11 @@ tags:
   - knowledge
   - rscf
 moc: true
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
 
 # 11_KNOWLEDGE MOC

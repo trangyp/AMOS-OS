@@ -116,14 +116,14 @@ W =
 
 where:
 
-* \(N\) = workflow nodes / steps;
-* \(E\) = transition edges;
-* \(C\) = constraints;
-* \(S\) = workflow state;
-* \(P\) = provenance;
-* \(G\) = governance state;
-* \(V\) = validation state;
-* \(R\) = recovery paths.
+- \(N\) = workflow nodes / steps;
+- \(E\) = transition edges;
+- \(C\) = constraints;
+- \(S\) = workflow state;
+- \(P\) = provenance;
+- \(G\) = governance state;
+- \(V\) = validation state;
+- \(R\) = recovery paths.
 
 A workflow is therefore more than a list of actions.
 

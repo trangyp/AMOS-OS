@@ -84,6 +84,11 @@ tags:
 aliases:
 - AMOS Neural Network - AMOS Vault Neural Network - AMOS Knowledge Graph Hub - AMOS
   OS Graph H
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: root_index
 ---
 
 # AMOS Neural Network
@@ -143,47 +148,47 @@ The AMOS Full Brain OS source should be used as a structural orchestration model
 
 # 1. Core Nodes
 
-* [[README|AMOS OS Root]]
-* [[00_ROOT_MOC]]|MOC
-* [[NEURAL_NETWORK|This Hub]]
-* [[ARCHITECTURE|Architecture]]
-* [[FULL_TREE|Full Tree]]
-* [[SYSTEM_MAP|System Map]]
-* [[DEPENDENCY_MAP|Dependency Map]]
-* [[AUTHORITATIVE_STATE|Authoritative State]]
-* [[00_ROOT_NAMING_STANDARD]]|Naming Standard
-* [[PLACEMENT_RULES|AMOS OS]]
-* [[ROADMAP|Roadmap]]
+- [[README|AMOS OS Root]]
+- [[00_ROOT_MOC]]|MOC
+- [[NEURAL_NETWORK|This Hub]]
+- [[ARCHITECTURE|Architecture]]
+- [[FULL_TREE|Full Tree]]
+- [[SYSTEM_MAP|System Map]]
+- [[DEPENDENCY_MAP|Dependency Map]]
+- [[AUTHORITATIVE_STATE|Authoritative State]]
+- [[00_ROOT_NAMING_STANDARD]]|Naming Standard
+- [[PLACEMENT_RULES|AMOS OS]]
+- [[ROADMAP|Roadmap]]
 
 ---
 
 # 2. Primary Plane Nodes
 
-* [[CANON_MAP|CANON]]
-* [[KERNEL_MAP|KERNEL]]
-* [[CONTROL_PLANE_MAP|CONTROL_PLANE]]
-* [[RUNTIME_MAP|RUNTIME]]
-* [[COGNITIVE_ORGANISM_MAP|COGNITIVE_ORGANISM]]
-* [[AGENT_MAP|AGENTS]]
-* [[SKILL_MAP|SKILLS]]
-* [[WORKFLOW_MAP|WORKFLOWS]]
-* [[PROTOCOL_MAP|PROTOCOLS]]
-* [[MEMORY_MEMORY_MAP|MEMORY]]
-* [[AMOS_FULL_BRAIN_OS_ARCHITECTURE|KNOWLEDGE]]
-* [[STATE_STATE_MAP|STATE]]
-* [[MODEL_MAP|MODELS]]
-* [[TOOL_MAP|TOOLS]]
-* [[INTERFACE_MAP|INTERFACES]]
-* [[SCHEMA_MAP|SCHEMAS]]
-* [[OBSERVABILITY_OBSERVABILITY_MAP|OBSERVABILITY]]
-* [[SECURITY_MAP|SECURITY]]
-* [[TEST_MAP|TESTS]]
-* [[OPERATIONS_MAP|OPERATIONS]]
-* [[DOMAIN_ALIAS_MAP|DOMAINS]]
-* [[INDEX_RESEARCH_README|RESEARCH]]
-* [[OPERATING_MODEL|OPERATING_MODEL]]
-* [[LEGACY_ARCHIVE_README|ARCHIVE]]
-* [[COGNITIVE_MATRIX_ARCHITECTURE|COGNITIVE_MATRIX]]
+- [[CANON_MAP|CANON]]
+- [[KERNEL_MAP|KERNEL]]
+- [[CONTROL_PLANE_MAP|CONTROL_PLANE]]
+- [[RUNTIME_MAP|RUNTIME]]
+- [[COGNITIVE_ORGANISM_MAP|COGNITIVE_ORGANISM]]
+- [[AGENT_MAP|AGENTS]]
+- [[SKILL_MAP|SKILLS]]
+- [[WORKFLOW_MAP|WORKFLOWS]]
+- [[PROTOCOL_MAP|PROTOCOLS]]
+- [[MEMORY_MEMORY_MAP|MEMORY]]
+- [[AMOS_FULL_BRAIN_OS_ARCHITECTURE|KNOWLEDGE]]
+- [[STATE_STATE_MAP|STATE]]
+- [[MODEL_MAP|MODELS]]
+- [[TOOL_MAP|TOOLS]]
+- [[INTERFACE_MAP|INTERFACES]]
+- [[SCHEMA_MAP|SCHEMAS]]
+- [[OBSERVABILITY_OBSERVABILITY_MAP|OBSERVABILITY]]
+- [[SECURITY_MAP|SECURITY]]
+- [[TEST_MAP|TESTS]]
+- [[OPERATIONS_MAP|OPERATIONS]]
+- [[DOMAIN_ALIAS_MAP|DOMAINS]]
+- [[INDEX_RESEARCH_README|RESEARCH]]
+- [[OPERATING_MODEL|OPERATING_MODEL]]
+- [[LEGACY_ARCHIVE_README|ARCHIVE]]
+- [[COGNITIVE_MATRIX_ARCHITECTURE|COGNITIVE_MATRIX]]
 
 > If any referenced map does not yet exist, the link intentionally remains a graph placeholder.
 > Its existence as a link is not evidence of implementation.
@@ -300,14 +305,14 @@ GOVERN
 
 Canon should link toward:
 
-* AMOS core laws;
-* H/M/L canon;
-* authority canon;
-* cognition canon;
-* persistence canon;
-* provenance canon;
-* control-plane canon;
-* system invariants.
+- AMOS core laws;
+- H/M/L canon;
+- authority canon;
+- cognition canon;
+- persistence canon;
+- provenance canon;
+- control-plane canon;
+- system invariants.
 
 Canonical relation:
 
@@ -960,7 +965,7 @@ lifecycle
 
 Recommended hub link:
 
-* MODES
+- MODES
 
 Hard boundary:
 
@@ -1162,7 +1167,7 @@ GOVERNED_BY
 
 Recommended hub:
 
-* [[RSCF_NODE_INDEX|RSCF Node Index]]
+- [[RSCF_NODE_INDEX|RSCF Node Index]]
 
 ---
 
@@ -1198,7 +1203,7 @@ IndependentEvidence
 
 Use:
 
-* [[DEPENDENCY_MAP|Dependency Map]]
+- [[DEPENDENCY_MAP|Dependency Map]]
 
 for load-bearing edges.
 
@@ -1347,19 +1352,16 @@ HIGH DEGREE
 !=
 HIGH IMPORTANCE
 ```
-
 ```text
 CENTRAL NODE
 !=
 AUTHORITATIVE NODE
 ```
-
 ```text
 LINKED
 !=
 VALIDATED
 ```
-
 ---
 
 # 42. Graph View Semantics
@@ -1554,7 +1556,7 @@ Version lineage should not be inferred from filenames alone.
 
 Use:
 
-* [[00_ROOT_NAMING_STANDARD]]|Naming Standard
+- [[00_ROOT_NAMING_STANDARD]]|Naming Standard
 
 for identity/path/version distinctions.
 
@@ -1574,8 +1576,8 @@ Therefore graph links should ideally survive filesystem migrations through stabl
 
 Use:
 
-* [[PLACEMENT_RULES|AMOS OS]]
-* [[FULL_TREE|Full Tree]]
+- [[PLACEMENT_RULES|AMOS OS]]
+- [[FULL_TREE|Full Tree]]
 
 for ownership/location.
 
@@ -1589,7 +1591,7 @@ It does not automatically determine epistemic authority.
 
 Use:
 
-* [[AUTHORITATIVE_STATE|Authoritative State]]
+- [[AUTHORITATIVE_STATE|Authoritative State]]
 
 to distinguish:
 
@@ -1889,13 +1891,11 @@ LowOrphanCount
 !=
 CompleteKnowledge
 ```
-
 ```text
 HighCentrality
 !=
 HighEpistemicTrust
 ```
-
 ---
 
 # 65. RSCF Node
@@ -1979,38 +1979,38 @@ Expanded the original central-hub note into an AMOS OS graph-topology specificat
 
 Added:
 
-* explicit artifact identity;
-* document and network-map versioning;
-* expanded tags and aliases;
-* all major AMOS OS plane links;
-* architectural spine;
-* cross-plane relationship model;
-* Canon / Kernel / Control Plane / Runtime graph roles;
-* Cognitive Organism topology;
-* Agents / Skills / Workflows / Protocols graph roles;
-* Memory / Knowledge / State separation;
-* Models / Tools / Interfaces / Schemas mapping;
-* Observability / Security / Tests / Operations links;
-* Domains / Modes / Research / Operating Model / Archive / Cognitive Matrix;
-* H/M/L graph traversal;
-* fractal retrieval topology;
-* RSCF/provenance network concepts;
-* dependency relations;
-* semantic link types;
-* hub/authority firewall;
-* graph-density governance;
-* orphan detection;
-* graph-completeness firewall;
-* cross-plane matrix;
-* runtime and failure traversal;
-* version/archive lineage;
-* naming and placement links;
-* research-to-canon and memory-to-knowledge promotion paths;
-* 20 neural-network invariants;
-* placeholder strategy;
-* maintenance workflow;
-* graph-health metrics;
-* RSCF node.
+- explicit artifact identity;
+- document and network-map versioning;
+- expanded tags and aliases;
+- all major AMOS OS plane links;
+- architectural spine;
+- cross-plane relationship model;
+- Canon / Kernel / Control Plane / Runtime graph roles;
+- Cognitive Organism topology;
+- Agents / Skills / Workflows / Protocols graph roles;
+- Memory / Knowledge / State separation;
+- Models / Tools / Interfaces / Schemas mapping;
+- Observability / Security / Tests / Operations links;
+- Domains / Modes / Research / Operating Model / Archive / Cognitive Matrix;
+- H/M/L graph traversal;
+- fractal retrieval topology;
+- RSCF/provenance network concepts;
+- dependency relations;
+- semantic link types;
+- hub/authority firewall;
+- graph-density governance;
+- orphan detection;
+- graph-completeness firewall;
+- cross-plane matrix;
+- runtime and failure traversal;
+- version/archive lineage;
+- naming and placement links;
+- research-to-canon and memory-to-knowledge promotion paths;
+- 20 neural-network invariants;
+- placeholder strategy;
+- maintenance workflow;
+- graph-health metrics;
+- RSCF node.
 
 ## v1.0.0
 

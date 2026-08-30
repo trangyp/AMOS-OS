@@ -56,19 +56,19 @@ into one undifferentiated notion of "truth."
 
 The layer provides the grounding contract through which AMOS determines:
 
-* what is external to the reasoning system;
-* what has actually been observed;
-* how an observation was produced;
-* which representation encodes that observation;
-* which claims are derived rather than observed;
-* which environment and regime a claim applies to;
-* what provenance connects evidence to its source;
-* what uncertainty remains between reality and representation;
-* which external state was read;
-* what action is merely proposed;
-* what action is authorized;
-* what effect was actually committed;
-* what evidence confirms the resulting state.
+- what is external to the reasoning system;
+- what has actually been observed;
+- how an observation was produced;
+- which representation encodes that observation;
+- which claims are derived rather than observed;
+- which environment and regime a claim applies to;
+- what provenance connects evidence to its source;
+- what uncertainty remains between reality and representation;
+- which external state was read;
+- what action is merely proposed;
+- what action is authorized;
+- what effect was actually committed;
+- what evidence confirms the resulting state.
 
 The governing principle is:
 
@@ -131,14 +131,14 @@ L00 therefore closes the loop between reasoning and external state without claim
 
 Let:
 
-* \(W_t\) = external world/environment state at time (t);
-* \(O_t\) = observation acquired from the environment;
-* \(M_t\) = measurement produced from observation;
-* \(X_t\) = internal representation;
-* \(B_t\) = current belief/model state;
-* \(D_t\) = decision;
-* \(A_t\) = authorized action;
-* (W_{t+1}) = subsequent environment state.
+- \(W_t\) = external world/environment state at time (t);
+- \(O_t\) = observation acquired from the environment;
+- \(M_t\) = measurement produced from observation;
+- \(X_t\) = internal representation;
+- \(B_t\) = current belief/model state;
+- \(D_t\) = decision;
+- \(A_t\) = authorized action;
+- (W_{t+1}) = subsequent environment state.
 
 The basic L00 interaction chain is:
 
@@ -164,13 +164,13 @@ W_{t+1}
 
 where:
 
-* (\mathcal{O}) = observation operator;
-* (\mathcal{M}) = measurement operator;
-* (\mathcal{R}) = representation operator;
-* (\mathcal{I}) = inference operator;
-* (\mathcal{D}) = decision operator;
-* (\mathcal{A}) = authorization/action-selection path;
-* (\mathcal{E}) = external effect transition.
+- (\mathcal{O}) = observation operator;
+- (\mathcal{M}) = measurement operator;
+- (\mathcal{R}) = representation operator;
+- (\mathcal{I}) = inference operator;
+- (\mathcal{D}) = decision operator;
+- (\mathcal{A}) = authorization/action-selection path;
+- (\mathcal{E}) = external effect transition.
 
 This is an `AMOS_MODEL` abstraction.
 
@@ -495,11 +495,11 @@ It does not imply that direct observations are always more accurate than careful
 
 For claim \(C\), let:
 
-* \(E(C)\) = evidence supporting the claim;
-* \(P(C)\) = provenance integrity;
-* \(S(C)\) = scope compatibility;
-* \(R(C)\) = regime compatibility;
-* \(T(C)\) = temporal validity.
+- \(E(C)\) = evidence supporting the claim;
+- \(P(C)\) = provenance integrity;
+- \(S(C)\) = scope compatibility;
+- \(R(C)\) = regime compatibility;
+- \(T(C)\) = temporal validity.
 
 Then an AMOS grounding gate may be represented as:
 
@@ -637,12 +637,12 @@ provenance
 
 The boundary determines what the reasoning system can:
 
-* observe;
-* retrieve;
-* modify;
-* infer;
-* expose;
-* commit.
+- observe;
+- retrieve;
+- modify;
+- infer;
+- expose;
+- commit.
 
 ---
 
@@ -892,9 +892,9 @@ U_t,
 
 where:
 
-* \(A_t\) = AMOS-controlled action;
-* \(U_t\) = external influences;
-* (\epsilon_t) = unresolved disturbance/model error.
+- \(A_t\) = AMOS-controlled action;
+- \(U_t\) = external influences;
+- (\epsilon_t) = unresolved disturbance/model error.
 
 This explicitly prevents AMOS from assuming that every observed change was caused by its own action.
 
@@ -1158,39 +1158,39 @@ A critical unresolved reality gap blocks claims or actions that depend on it.
 
 H-level questions include:
 
-* What environment is AMOS operating in?
-* What are its boundaries?
-* Which external systems exist?
-* What can be observed?
-* What can be modified?
-* What governing regimes apply?
-* Which external states are authoritative?
+- What environment is AMOS operating in?
+- What are its boundaries?
+- Which external systems exist?
+- What can be observed?
+- What can be modified?
+- What governing regimes apply?
+- Which external states are authoritative?
 
 ## M — Environment Subsystem
 
 M-level questions include:
 
-* Which repository?
-* Which database?
-* Which API?
-* Which sensor system?
-* Which document corpus?
-* Which tool environment?
-* Which market?
-* Which runtime?
+- Which repository?
+- Which database?
+- Which API?
+- Which sensor system?
+- Which document corpus?
+- Which tool environment?
+- Which market?
+- Which runtime?
 
 ## L — Observation / State Detail
 
 L-level questions include:
 
-* Which exact file?
-* Which revision?
-* Which database row?
-* Which sensor reading?
-* Which API response?
-* Which timestamp?
-* Which tool receipt?
-* Which state variable?
+- Which exact file?
+- Which revision?
+- Which database row?
+- Which sensor reading?
+- Which API response?
+- Which timestamp?
+- Which tool receipt?
+- Which state variable?
 
 ---
 
@@ -2163,14 +2163,14 @@ U
 
 where:
 
-* \(D_R\) = reality/representation distinction;
-* \(D_O\) = observation distinction;
-* \(D_M\) = measurement distinction;
-* \(P\) = provenance integrity;
-* \(S\) = scope integrity;
-* \(R\) = regime integrity;
-* \(T\) = temporal integrity;
-* \(U\) = uncertainty preservation.
+- \(D_R\) = reality/representation distinction;
+- \(D_O\) = observation distinction;
+- \(D_M\) = measurement distinction;
+- \(P\) = provenance integrity;
+- \(S\) = scope integrity;
+- \(R\) = regime integrity;
+- \(T\) = temporal integrity;
+- \(U\) = uncertainty preservation.
 
 ---
 

@@ -82,7 +82,6 @@ Health = Alignment(Layer₁...ₙ)
 Healing = Re-Alignment of Layers
 ```
 
-
 ```text
 Reality = Persistence of Distinction
 ↓
@@ -96,7 +95,6 @@ Suffering = Fractal layer misalignment
 ↓
 Healing = Layer re-alignment from the bottom
 ```
-
 ---
 
 ## II. The Anatomical Stack (Biological Grounding)

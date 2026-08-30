@@ -3697,24 +3697,24 @@ READ_ONLY_BY_DEFAULT
 
 ## Related Generator artifacts
 
-* Generator Contract
-* Generator Provenance
-* Generator Validation
-* Generator Tests
-* Generator Benchmarks
-* Generator Roadmap
-* Generator Integration
-* Generator History
-* Generator Change Log
-* Routing Audit
-* Promotion Gates
-* Generator Registry
-* Validator Registry
-* Worker Registry
-* Authoritative State
-* Provenance Manifest
-* Policy Manifest
-* Authority Registry
+- Generator Contract
+- Generator Provenance
+- Generator Validation
+- Generator Tests
+- Generator Benchmarks
+- Generator Roadmap
+- Generator Integration
+- Generator History
+- Generator Change Log
+- Routing Audit
+- Promotion Gates
+- Generator Registry
+- Validator Registry
+- Worker Registry
+- Authoritative State
+- Provenance Manifest
+- Policy Manifest
+- Authority Registry
 
 ```
 
@@ -3757,3 +3757,5 @@ The load-bearing addition here is that **Audit checks the integrity of the relat
 ---
 **MOC:**
 
+
+```

@@ -7,6 +7,13 @@ tags:
 - routing
 - kernel
 - amos-orchestrator-routing-kernel
+type: note
+source: 11_KNOWLEDGE/stubs
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # amos orchestrator routing kernel

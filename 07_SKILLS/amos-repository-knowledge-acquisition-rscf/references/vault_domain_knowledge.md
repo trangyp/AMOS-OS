@@ -166,20 +166,15 @@ The system should also:
 ```
 Reality = Persistence of Distinction
 ```
-
-
 ```
 Potential ⇄ Distinction ⇄ Observer ⇄ Inquiry ⇄ Higher Distinction
 ```
-
 Everything else—physics, biology, mind, civilization, suffering, healing—is a fractal expression of this at different scales.
 
 
 ```
 Human = Nested Memory Architecture
 ```
-
-
 ```
 BAD: Humans are not primarily rational creatures
 GOOD: The majority of human cognitive processing is automatic, affective, and regulatory
@@ -269,7 +264,6 @@ Total knowledge tests: 33 (was 29, +4 new)
 ---
 **MOC:**
 ```
-
 ---
 
 **Related:** [[amos-repository-knowledge-acquisition-rscf_MOC]]

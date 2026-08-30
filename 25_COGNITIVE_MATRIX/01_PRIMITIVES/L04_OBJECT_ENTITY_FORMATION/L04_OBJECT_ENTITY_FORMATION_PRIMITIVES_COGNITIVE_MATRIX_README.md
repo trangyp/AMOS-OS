@@ -56,7 +56,6 @@ until dependencies, provenance, scope, regime, tests,
 and authority are explicitly established.
 ```
 
-
 Therefore this README distinguishes:
 
 ```yaml
@@ -1363,10 +1362,8 @@ NOT ESTABLISHED
 VALIDATION:
 NOT ESTABLISHED
 ```
-
 ```
 ```
-
 ---
 
 [[00_ROOT_MOC]]|[[AMOS MOC]]

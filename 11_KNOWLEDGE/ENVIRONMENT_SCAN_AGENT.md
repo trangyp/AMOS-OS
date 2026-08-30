@@ -292,25 +292,21 @@ Registration
 !=
 RuntimeIntegration
 ```
-
 ```text
 run()
 !=
 EnvironmentObservation
 ```
-
 ```text
 TraceEvent
 !=
 SensorEvidence
 ```
-
 ```text
 ContextReturned
 !=
 EnvironmentModelUpdated
 ```
-
 ---
 
 # 5. AMOS SYSTEM POSITION
@@ -1153,13 +1149,11 @@ Failure
 !=
 Attack
 ```
-
 ```text
 Attack
 !=
 RootCause
 ```
-
 EnvironmentScan_Agent should report the weakest supported class.
 
 ---
@@ -2353,37 +2347,37 @@ confidence_ceiling:
 
 ### MAJOR DOCUMENT REVISION
 
-* converted raw Python note into a governed AMOS component specification;
-* preserved original source code;
-* explicitly classified the component as `REGISTERED_STUB`;
-* separated component existence from sensing capability;
-* added document/component/runtime-contract version axes;
-* added H/M/L architecture;
-* mapped component to `T13 OBSERVER_AGENT`;
-* added observation schema;
-* added scan request/result contracts;
-* added source and trust classes;
-* added authority model;
-* added adapter architecture;
-* added provenance;
-* added freshness;
-* added event-time/observation-time separation;
-* added conflict handling;
-* added anomaly schema;
-* added environment tensor;
-* separated SENSE from COGNITION and ACTION;
-* retained read-only/non-destructive default;
-* added polling/resource governance;
-* added failure registry;
-* added selective invalidation;
-* added memory-admission rules;
-* added metrics;
-* added 30-test progression;
-* added promotion states and live-scanner gate;
-* added source dependency graph;
-* added 7-Part persistence mapping;
-* added completion and gap audit;
-* added reality/model and causal firewalls.
+- converted raw Python note into a governed AMOS component specification;
+- preserved original source code;
+- explicitly classified the component as `REGISTERED_STUB`;
+- separated component existence from sensing capability;
+- added document/component/runtime-contract version axes;
+- added H/M/L architecture;
+- mapped component to `T13 OBSERVER_AGENT`;
+- added observation schema;
+- added scan request/result contracts;
+- added source and trust classes;
+- added authority model;
+- added adapter architecture;
+- added provenance;
+- added freshness;
+- added event-time/observation-time separation;
+- added conflict handling;
+- added anomaly schema;
+- added environment tensor;
+- separated SENSE from COGNITION and ACTION;
+- retained read-only/non-destructive default;
+- added polling/resource governance;
+- added failure registry;
+- added selective invalidation;
+- added memory-admission rules;
+- added metrics;
+- added 30-test progression;
+- added promotion states and live-scanner gate;
+- added source dependency graph;
+- added 7-Part persistence mapping;
+- added completion and gap audit;
+- added reality/model and causal firewalls.
 
 ## v1.0.0 — Source Implementation
 

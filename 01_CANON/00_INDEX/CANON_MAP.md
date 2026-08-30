@@ -60,6 +60,11 @@ tags:
 - amos-layer-maps
 aliases:
 - AMOS Canon Map - AMOS OS Canon Map - Canon Authority Map - Canon Lineage Map
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # AMOS OS Canon Map

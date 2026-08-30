@@ -137,16 +137,16 @@ By grounding decisions in cycle logic rather than short-term events, leaders gai
 The seven cycles of the Trang System™ provide a complete and universal framework for understanding how human-linked systems evolve. They describe how systems are born, grow, overstretch, fragment, encounter crisis, collapse, and rebuild. These cycles form the structural backbone of TSS and serve as the foundation for forecasting through the Trang Prediction Engine™. Together, they create a powerful tool for governance, resilience planning, institutional design, and civilizational foresight.
 * * *
 If you want, I can now produce:
-  * a visual diagram version
+  - a visual diagram version
 
 
-  * a training curriculum for policymakers
+  - a training curriculum for policymakers
 
 
-  * a case-study book applying all 7 cycles
+  - a case-study book applying all 7 cycles
 
 
-  * or a combined TSS + 7 Cycles master edition
+  - or a combined TSS + 7 Cycles master edition
 
 
 \--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL]] · [[SYSTEM_SCAN_ENGINE]] · [[automation_profiles]]

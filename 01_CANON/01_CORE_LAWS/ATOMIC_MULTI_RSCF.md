@@ -63,14 +63,14 @@ The redirect relationship is:
 
 The redirect exists to preserve:
 
-* canonical discovery
-* namespace stability
-* backward-compatible links
-* graph traversal
-* law hierarchy integration
-* knowledge retrieval
-* validation routing
-* historical references
+- canonical discovery
+- namespace stability
+- backward-compatible links
+- graph traversal
+- law hierarchy integration
+- knowledge retrieval
+- validation routing
+- historical references
 
 It does **not** create a second authoritative definition.
 
@@ -106,12 +106,12 @@ The AMOS corpus contains a historical node titled:
 
 Its explicitly stated focus includes:
 
-* transaction IDs
-* read/write sets
-* transaction-level CAS
-* atomic publication
-* cross-RSCF invariants
-* all-or-nothing rollback
+- transaction IDs
+- read/write sets
+- transaction-level CAS
+- atomic publication
+- cross-RSCF invariants
+- all-or-nothing rollback
 
 Its Markdown adaptation states:
 
@@ -431,16 +431,16 @@ COMPOSED TRANSACTION VALID
 
 A multi-RSCF transaction may additionally require:
 
-* interface compatibility
-* dependency compatibility
-* scope compatibility
-* regime compatibility
-* epoch compatibility
-* provenance accounting
-* confidence propagation
-* conflict detection
-* expected-state validation
-* governance validation
+- interface compatibility
+- dependency compatibility
+- scope compatibility
+- regime compatibility
+- epoch compatibility
+- provenance accounting
+- confidence propagation
+- conflict detection
+- expected-state validation
+- governance validation
 
 These dimensions are integration requirements, not all directly specified by the v4.1 source.
 
@@ -1323,14 +1323,14 @@ RETRY
 
 Examples of meaningful changed conditions:
 
-* refreshed snapshot
-* corrected dependency
-* resolved conflict
-* updated expected version
-* new independent evidence
-* corrected scope
-* repaired interface
-* changed governance authorization
+- refreshed snapshot
+- corrected dependency
+- resolved conflict
+- updated expected version
+- new independent evidence
+- corrected scope
+- repaired interface
+- changed governance authorization
 
 ---
 
@@ -1394,14 +1394,14 @@ EMPIRICAL TRUTH
 
 A receipt must remain tied to:
 
-* validator
-* inputs
-* versions
-* scope
-* regime
-* epoch
-* policies
-* execution result
+- validator
+- inputs
+- versions
+- scope
+- regime
+- epoch
+- policies
+- execution result
 
 where those dimensions are material.
 
@@ -1577,12 +1577,12 @@ This supports a tested rollback behavior claim within the benchmark boundary.
 
 It does not prove:
 
-* crash recovery
-* durable recovery
-* cross-machine recovery
-* partition recovery
-* Byzantine recovery
-* irreversible external side-effect rollback
+- crash recovery
+- durable recovery
+- cross-machine recovery
+- partition recovery
+- Byzantine recovery
+- irreversible external side-effect rollback
 
 unless separately tested.
 
@@ -1688,12 +1688,12 @@ The historical source identifies this class of distributed finality problem but 
 
 Do not invent:
 
-* quorum rules
-* consensus protocol
-* leader election
-* distributed locks
-* Byzantine agreement
-* deterministic winner selection
+- quorum rules
+- consensus protocol
+- leader election
+- distributed locks
+- Byzantine agreement
+- deterministic winner selection
 
 without source canon.
 
@@ -1763,17 +1763,17 @@ This is a reasoning architecture principle, not a claim that ChatGPT literally i
 
 Escalate beyond the local path when any material condition includes:
 
-* cross-shard invariant
-* shared write target
-* correlated provenance
-* unresolved conflict
-* ambiguous dependency
-* stale global state
-* cross-regime bridge
-* governance requirement
-* irreversible external action
-* competing certified transaction
-* uncertain finality
+- cross-shard invariant
+- shared write target
+- correlated provenance
+- unresolved conflict
+- ambiguous dependency
+- stale global state
+- cross-regime bridge
+- governance requirement
+- irreversible external action
+- competing certified transaction
+- uncertain finality
 
 ---
 
@@ -1821,11 +1821,11 @@ DURABILITY
 
 Atomic publication does not by itself prove that committed state survives:
 
-* process crash
-* machine loss
-* storage corruption
-* power loss
-* regional failure
+- process crash
+- machine loss
+- storage corruption
+- power loss
+- regional failure
 
 Durability requires separate evidence.
 
@@ -1933,14 +1933,14 @@ $$
 
 as the set of dependencies capable of altering:
 
-* validity
-* confidence
-* scope
-* regime
-* causal interpretation
-* authorization
-* safety
-* commit result
+- validity
+- confidence
+- scope
+- regime
+- causal interpretation
+- authorization
+- safety
+- commit result
 
 Then a fast path is only justified when relevant closure is sufficiently established.
 
@@ -2385,13 +2385,13 @@ Not every relation requires atomic multi-RSCF treatment.
 
 Use atomic scope only when partial publication could alter:
 
-* validity
-* consistency
-* causal lineage
-* governance
-* decision outcome
-* recovery
-* downstream interpretation
+- validity
+- consistency
+- causal lineage
+- governance
+- decision outcome
+- recovery
+- downstream interpretation
 
 Otherwise unnecessary atomic coupling can increase complexity without integrity benefit.
 
@@ -2479,13 +2479,13 @@ If one hidden dependency can flip the result, the transaction is fragile.
 
 Mark a transaction `CONDITIONAL` when validity depends on:
 
-* unresolved dependency
-* uncertain provenance independence
-* unstable scope bridge
-* stale state
-* unknown regime compatibility
-* uncertain external effect
-* unresolved competing transaction
+- unresolved dependency
+- uncertain provenance independence
+- unstable scope bridge
+- stale state
+- unknown regime compatibility
+- uncertain external effect
+- unresolved competing transaction
 
 ---
 
@@ -2576,12 +2576,12 @@ After commit, provenance should remain recoverable.
 
 A compact committed state should not destroy the ability to determine:
 
-* source roots
-* dependency ancestry
-* transaction membership
-* validator result
-* epoch
-* supersession lineage
+- source roots
+- dependency ancestry
+- transaction membership
+- validator result
+- epoch
+- supersession lineage
 
 where those fields are material.
 
@@ -2684,12 +2684,12 @@ should mean only:
 
 It must not silently mean:
 
-* universally true
-* empirically proven
-* causally proven
-* safe in every environment
-* future-proof
-* independent of all hidden assumptions
+- universally true
+- empirically proven
+- causally proven
+- safe in every environment
+- future-proof
+- independent of all hidden assumptions
 
 ---
 
@@ -2731,11 +2731,11 @@ The corpus describes a transactional multi-RSCF runtime model.
 
 This does **not** establish that ChatGPT's underlying physical runtime literally implements:
 
-* the described transaction engine
-* database MVCC
-* CPU CAS
-* distributed commit
-* shard consensus
+- the described transaction engine
+- database MVCC
+- CPU CAS
+- distributed commit
+- shard consensus
 
 AMOS uses these as reasoning and architectural patterns unless implementation evidence independently establishes otherwise.
 
@@ -2931,30 +2931,30 @@ The retrieved v4.1 source establishes the following corpus claims:
 
 The available redirect and historical source do **not** establish:
 
-* exact current kernel body
-* exact current transaction schema
-* exact RSCF serialization
-* exact transaction ID format
-* exact read-set representation
-* exact write-set representation
-* exact dependency-closure algorithm
-* exact CAS implementation
-* exact rollback implementation
-* exact persistence mechanism
-* exact locking strategy
-* exact consensus protocol
-* exact quorum protocol
-* exact partition-finality protocol
-* exact cross-shard commit algorithm
-* exact Byzantine fault model
-* exact durability semantics
-* exact crash recovery protocol
-* exact network model
-* universal serializability
-* universal linearizability
-* universal formal atomicity proof
-* hardware-independent determinism
-* literal ChatGPT runtime implementation
+- exact current kernel body
+- exact current transaction schema
+- exact RSCF serialization
+- exact transaction ID format
+- exact read-set representation
+- exact write-set representation
+- exact dependency-closure algorithm
+- exact CAS implementation
+- exact rollback implementation
+- exact persistence mechanism
+- exact locking strategy
+- exact consensus protocol
+- exact quorum protocol
+- exact partition-finality protocol
+- exact cross-shard commit algorithm
+- exact Byzantine fault model
+- exact durability semantics
+- exact crash recovery protocol
+- exact network model
+- universal serializability
+- universal linearizability
+- universal formal atomicity proof
+- hardware-independent determinism
+- literal ChatGPT runtime implementation
 
 ---
 
@@ -3132,16 +3132,16 @@ $$
 
 where:
 
-* \(M\) = member validity
-* \(I\) = interface validity
-* \(X\) = cross-RSCF invariant validity
-* \(D\) = dependency closure sufficiency
-* \(P\) = provenance validity
-* \(S\) = scope compatibility
-* \(R\) = regime compatibility
-* \(F\) = freshness validity
-* \(G\) = governance validity where required
-* \(C\) = concurrency/CAS validity
+- \(M\) = member validity
+- \(I\) = interface validity
+- \(X\) = cross-RSCF invariant validity
+- \(D\) = dependency closure sufficiency
+- \(P\) = provenance validity
+- \(S\) = scope compatibility
+- \(R\) = regime compatibility
+- \(F\) = freshness validity
+- \(G\) = governance validity where required
+- \(C\) = concurrency/CAS validity
 
 This is a normalized integration model, not source equation.
 
@@ -3372,14 +3372,14 @@ $$
 
 where:
 
-* \(U_E\) = evidence uncertainty
-* \(U_M\) = model uncertainty
-* \(U_S\) = scope uncertainty
-* \(U_R\) = regime uncertainty
-* \(U_\tau\) = temporal uncertainty
-* \(U_C\) = causal uncertainty
-* \(U_X\) = execution/concurrency uncertainty
-* \(U_P\) = provenance-independence uncertainty
+- \(U_E\) = evidence uncertainty
+- \(U_M\) = model uncertainty
+- \(U_S\) = scope uncertainty
+- \(U_R\) = regime uncertainty
+- \(U_\tau\) = temporal uncertainty
+- \(U_C\) = causal uncertainty
+- \(U_X\) = execution/concurrency uncertainty
+- \(U_P\) = provenance-independence uncertainty
 
 Spend validation effort where reducing uncertainty can change the transaction decision.
 
@@ -3543,14 +3543,14 @@ as deterministic.
 
 To make a committed transaction strictly replayable, a replay system may need to pin:
 
-* transaction receipt
-* root inputs
-* snapshot identity
-* versions
-* random inputs
-* external responses
-* model/runtime version
-* environment-dependent state
+- transaction receipt
+- root inputs
+- snapshot identity
+- versions
+- random inputs
+- external responses
+- model/runtime version
+- environment-dependent state
 
 where those can affect output.
 
@@ -4259,19 +4259,19 @@ THE MISSING CURRENT KERNEL BODY
 
 # 170. Related
 
-* [[00_HOME]]
-* [[AMOS_RSCF_NODES]]
-* [[LAW_HIERARCHY]]
-* [[K_ATOMIC_MULTI_RSCF]]
-* [[ATOMIC_MULTI_RSCF_REASONING]]
-* [[Atomic Multi-RSCF Validation Receipt]]
-* [[L22_REPLAYABILITY]]
-* [[L23_MVCC_CAS]]
-* [[L24_CAUSAL_EPOCH]]
-* [[L25_SHARD_LOCAL]]
-* [[L26_PROOF_COORDINATION]]
-* [[01_CORE_LAWS_MOC]]
-* [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+- [[00_HOME]]
+- [[AMOS_RSCF_NODES]]
+- [[LAW_HIERARCHY]]
+- [[K_ATOMIC_MULTI_RSCF]]
+- [[ATOMIC_MULTI_RSCF_REASONING]]
+- [[Atomic Multi-RSCF Validation Receipt]]
+- [[L22_REPLAYABILITY]]
+- [[L23_MVCC_CAS]]
+- [[L24_CAUSAL_EPOCH]]
+- [[L25_SHARD_LOCAL]]
+- [[L26_PROOF_COORDINATION]]
+- [[01_CORE_LAWS_MOC]]
+- [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 

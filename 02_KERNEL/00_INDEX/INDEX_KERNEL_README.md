@@ -239,15 +239,15 @@ EXECUTION
 
 Runtime responsibilities include, where applicable:
 
-* scheduling
-* routing
-* retries
-* queues
-* workers
-* process lifecycle
-* transport
-* execution harnesses
-* external invocation
+- scheduling
+- routing
+- retries
+- queues
+- workers
+- process lifecycle
+- transport
+- execution harnesses
+- external invocation
 
 These do not become kernel responsibilities merely because kernel logic depends on them.
 

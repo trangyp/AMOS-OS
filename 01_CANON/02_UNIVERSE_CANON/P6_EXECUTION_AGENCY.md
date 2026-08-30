@@ -198,19 +198,16 @@ EXECUTION_REQUEST
 !=
 EFFECT
 ```
-
 ```text
 EFFECT
 !=
 VERIFIED_OUTCOME
 ```
-
 ```text
 COMMIT
 !=
 SUCCESS
 ```
-
 P6 exists precisely because permission and reality are separated by an execution process that can fail.
 
 ---
@@ -278,7 +275,6 @@ AGENCY
 !=
 UNBOUNDED AUTONOMY
 ```
-
 ---
 
 # 6. Agency Requires Authority
@@ -3176,12 +3172,10 @@ INV-031
 INV-035
 → receipt / append-only commit evidence
 ```
-
 ```text
 INV-041
 → cumulative principal cost accounting
 ```
-
 These mappings are preserved from the supplied specification.
 
 Their exact source text, proof obligations, and canonical status are not invented here.
@@ -4666,140 +4660,117 @@ REQUESTED
 !=
 STARTED
 ```
-
 ```text
 STARTED
 !=
 COMMITTED
 ```
-
 ```text
 COMMITTED
 !=
 VERIFIED
 ```
-
 ```text
 RECEIPT
 !=
 REALITY
 ```
-
 ```text
 CAPABILITY
 !=
 AUTHORITY
 ```
-
 ```text
 WORKER_AVAILABLE
 !=
 WORKER_AUTHORIZED
 ```
-
 ```text
 BUDGET_AVAILABLE
 !=
 AUTHORITY
 ```
-
 ```text
 AUTHORITY
 !=
 BUDGET
 ```
-
 ```text
 RETRYABLE
 !=
 IDEMPOTENT
 ```
-
 ```text
 MESSAGE_ONCE
 !=
 EFFECT_ONCE
 ```
-
 ```text
 TIMEOUT
 !=
 FAILURE
 ```
-
 ```text
 CANCELLED_REQUEST
 !=
 ROLLED_BACK_EFFECT
 ```
-
 ```text
 COMPENSATION
 !=
 ROLLBACK
 ```
-
 ```text
 PARTIAL_COMMIT
 !=
 SUCCESS
 ```
-
 ```text
 DIGEST_MATCH
 !=
 SEMANTIC_CORRECTNESS
 ```
-
 ```text
 APPEND_ONLY
 !=
 UNIVERSALLY_TAMPER_PROOF
 ```
-
 ```text
 DRY_RUN
 !=
 REAL_EXECUTION
 ```
-
 ```text
 PLAN
 !=
 EFFECT
 ```
-
 ```text
 EXECUTION_TELEMETRY
 !=
 GOVERNANCE_RECEIPT
 ```
-
 ```text
 UNKNOWN_EFFECT_STATE
 !=
 SAFE_TO_RETRY
 ```
-
 ```text
 AGENT
 MUST NOT
 SELF-GRANT EXECUTION AUTHORITY
 ```
-
 ```text
 EXECUTION AUTHORITY
 =
 NONE
 UNTIL GOVERNED PROMOTION
 ```
-
 ```text
 UNKNOWN/GAP
 !=
 PASS
 ```
-
 ---
 
 # 256. P6-1 Canonical Law — Worker Gate

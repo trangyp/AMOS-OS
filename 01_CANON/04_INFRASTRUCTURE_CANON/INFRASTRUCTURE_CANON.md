@@ -62,6 +62,11 @@ tags:
 aliases:
 - AMOS Infrastructure Canon - Infrastructure Canon - AMOS Infrastructure Foundation
   - AMOS Ope
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # AMOS Infrastructure Canon
@@ -537,25 +542,21 @@ PERSISTED
 !=
 CANONICAL
 ```
-
 ```text
 AVAILABLE
 !=
 CURRENT
 ```
-
 ```text
 BACKED UP
 !=
 VALIDATED
 ```
-
 ```text
 REPLICATED
 !=
 INDEPENDENTLY PROVEN
 ```
-
 ---
 
 # 14. Persistence Boundary
@@ -847,19 +848,16 @@ INTERNAL
 !=
 SAFE
 ```
-
 ```text
 ENCRYPTED
 !=
 AUTHORIZED
 ```
-
 ```text
 AUTHENTICATED
 !=
 AUTHORIZED FOR EVERY ACTION
 ```
-
 Trust remains local and typed.
 
 ---
@@ -1529,7 +1527,6 @@ CAN THE COMPONENT CONTINUE OPERATING?
 READINESS:
 CAN THE COMPONENT SAFELY ACCEPT WORK?
 ```
-
 ---
 
 # 53. Observability
@@ -1585,13 +1582,11 @@ ALERT
 !=
 ROOT CAUSE
 ```
-
 ```text
 CORRELATION
 !=
 CAUSATION
 ```
-
 Infrastructure telemetry is observation until stronger inference is justified.
 
 ---
@@ -1699,19 +1694,16 @@ MORE COMPUTE
 !=
 MORE AUTHORITY
 ```
-
 ```text
 MORE REPLICAS
 !=
 MORE TRUTH
 ```
-
 ```text
 MORE CAPACITY
 !=
 LOWER RISK
 ```
-
 ---
 
 # 59. Resource Governance
@@ -1959,7 +1951,6 @@ RTO
 =
 ACCEPTABLE RECOVERY TIME TARGET
 ```
-
 These remain operational targets until validated by evidence.
 
 ---
@@ -2119,13 +2110,11 @@ API RESPONSE
 !=
 VERIFIED FACT
 ```
-
 ```text
 THIRD-PARTY SLA
 !=
 AMOS GUARANTEE
 ```
-
 ---
 
 # 76. Infrastructure Provenance and RSCF
@@ -2738,7 +2727,6 @@ RUNTIME
 =
 HOW AUTHORIZED COMPUTATION IS ORCHESTRATED
 ```
-
 The two interact but remain distinct.
 
 ---

@@ -152,11 +152,11 @@ C_t
 
 where:
 
-* \(O_t\) = current observations;
-* \(A_t\) = attention state;
-* \(M_t\) = admissible retrieved memory;
-* \(C_t\) = contextual constraints;
-* \(P_t\) = percept candidate.
+- \(O_t\) = current observations;
+- \(A_t\) = attention state;
+- \(M_t\) = admissible retrieved memory;
+- \(C_t\) = contextual constraints;
+- \(P_t\) = percept candidate.
 
 `AMOS_MODEL`.
 
@@ -1658,7 +1658,6 @@ NOT ESTABLISHED
 
 ```text
 ```
-
 ---
 
 [[00_ROOT_MOC]]|[[AMOS MOC]]

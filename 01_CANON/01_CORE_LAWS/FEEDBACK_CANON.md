@@ -5274,19 +5274,19 @@ artifact_node_identity_relation: UNKNOWN/GAP
 
 RSCF-RELATIONS:
 
-* INDEXED_BY:
+- INDEXED_BY:
 
-* INDEXED_BY:
+- INDEXED_BY:
 
-* GOVERNED_BY:
+- GOVERNED_BY:
 
-* TARGET_INTERACTS_WITH:
+- TARGET_INTERACTS_WITH:
 
-* TARGET_CONTROLLED_BY:
+- TARGET_CONTROLLED_BY:
 
-* TARGET_OBSERVED_BY:
+- TARGET_OBSERVED_BY:
 
-* TARGET_RECOVERED_BY:
+- TARGET_RECOVERED_BY:
 
 ---
 
@@ -5357,4 +5357,5 @@ RSCF-RELATIONS:
 
 The main additional integrity issue in this artifact is the identifier asymmetry: the frontmatter gives `artifact_id: 01_canon_01_core_laws_feedback_canon`, while the RSCF block gives `node_id: amos_01_canon_01_core_laws_feedback_canon`. Both are preserved rather than silently merged; their equivalence or namespace relationship remains `UNKNOWN/GAP` pending the native identity/versioning rule.
 
+```
 ```

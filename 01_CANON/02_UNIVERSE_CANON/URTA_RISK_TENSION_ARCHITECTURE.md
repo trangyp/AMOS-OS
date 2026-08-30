@@ -11,6 +11,11 @@ tags:
 - urta-risk-tension-architecture
 - tss-7-cycle
 - trang-framework-recursive-ontology-dynamics
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: universe_canon
 ---
 
 # URTA Risk Tension Architecture

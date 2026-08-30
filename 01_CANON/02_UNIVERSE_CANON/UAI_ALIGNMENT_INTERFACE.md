@@ -6,6 +6,11 @@ tags:
 - uai
 - alignment
 - universe_canon
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: universe_canon
 ---
 
 # UAI Alignment Interface

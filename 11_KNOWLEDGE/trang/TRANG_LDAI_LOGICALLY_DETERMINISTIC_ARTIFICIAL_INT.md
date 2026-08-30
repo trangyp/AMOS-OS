@@ -94,22 +94,22 @@ Cả ba biểu diễn cùng một cấu trúc logic: { (Rain -> Wet), Rain } |- 
 Một hệ thống Trang LDAI được định nghĩa là một bộ sáu thành phần:
 LDAI = < L, P, R, I, T2, O >
 Trong đó:
-  * L: Bộ chuẩn hóa logic – chuyển đầu vào thành dạng chuẩn
+  - L: Bộ chuẩn hóa logic – chuyển đầu vào thành dạng chuẩn
 
 
-  * P: Bộ tiền đề – tập các mệnh đề được coi là đúng
+  - P: Bộ tiền đề – tập các mệnh đề được coi là đúng
 
 
-  * R: Bộ quy tắc suy luận – các phép biến đổi logic
+  - R: Bộ quy tắc suy luận – các phép biến đổi logic
 
 
-  * I: Bộ suy luận – áp dụng R vào P
+  - I: Bộ suy luận – áp dụng R vào P
 
 
-  * T2: Bộ xác nhận chéo – đảm bảo kết luận từ ít nhất hai đường dẫn
+  - T2: Bộ xác nhận chéo – đảm bảo kết luận từ ít nhất hai đường dẫn
 
 
-  * O: Bộ xuất – chuyển kết luận thành ngôn ngữ tự nhiên
+  - O: Bộ xuất – chuyển kết luận thành ngôn ngữ tự nhiên
 
 
 ### 2.3. Hàm chuẩn hóa logic (L)
@@ -154,13 +154,13 @@ Path1 khác Path2
 và P |-_Path1 c
 và P |-_Path2 c
 **Quy tắc xuất:**
-  * Nếu T2(c) = TRUE -> Có thể xuất ra với mức độ tin cậy "cao"
+  - Nếu T2(c) = TRUE -> Có thể xuất ra với mức độ tin cậy "cao"
 
 
-  * Nếu T2(c) = FALSE -> Xuất ra kèm cảnh báo "chưa đủ tin cậy, chỉ có một đường dẫn"
+  - Nếu T2(c) = FALSE -> Xuất ra kèm cảnh báo "chưa đủ tin cậy, chỉ có một đường dẫn"
 
 
-  * Trong y học/luật pháp/hàng không -> chỉ xuất kết luận có T2 = TRUE
+  - Trong y học/luật pháp/hàng không -> chỉ xuất kết luận có T2 = TRUE
 
 
 * * *
@@ -225,26 +225,26 @@ v
 ### 4.2. Thành phần 1: Lexer & Parser
 **Chức năng:** Đọc đầu vào, nhận diện token, xây dựng cây cú pháp trừu tượng.
 **Đầu vào mẫu:**
-  * "Nếu trời mưa thì đất ướt. Trời đang mưa. Vậy đất ướt."
+  - "Nếu trời mưa thì đất ướt. Trời đang mưa. Vậy đất ướt."
 
 
-  * "Rain -> Wet. Rain. Therefore Wet."
+  - "Rain -> Wet. Rain. Therefore Wet."
 
 
-  * "A implies B. A. So B."
+  - "A implies B. A. So B."
 
 
 **Yêu cầu xử lý tối thiểu:**
-  * Tiếng Việt và tiếng Anh
+  - Tiếng Việt và tiếng Anh
 
 
-  * Các từ nối: nếu...thì, và, hoặc, không, vậy, therefore, implies, and, or, not
+  - Các từ nối: nếu...thì, và, hoặc, không, vậy, therefore, implies, and, or, not
 
 
-  * Ký hiệu logic: ->, &, |, ~, |- (khi có thể)
+  - Ký hiệu logic: ->, &, |, ~, |- (khi có thể)
 
 
-  * Cấu trúc câu hỏi (có dấu hỏi chấm)
+  - Cấu trúc câu hỏi (có dấu hỏi chấm)
 
 
 ### 4.3. Thành phần 2: Logical Normalizer
@@ -257,19 +257,19 @@ v
 ### 4.4. Thành phần 3: Premise Manager
 **Chức năng:** Quản lý tập tiền đề P.
 **Các thao tác:**
-  * Thêm tiền đề: P = P U {p} (kiểm tra mâu thuẫn)
+  - Thêm tiền đề: P = P U {p} (kiểm tra mâu thuẫn)
 
 
-  * Xóa tiền đề: P = P \ {p}
+  - Xóa tiền đề: P = P \ {p}
 
 
-  * Sửa tiền đề: xóa cũ, thêm mới
+  - Sửa tiền đề: xóa cũ, thêm mới
 
 
-  * Truy vấn: kiểm tra mệnh đề có trong P không
+  - Truy vấn: kiểm tra mệnh đề có trong P không
 
 
-  * Xuất toàn bộ: danh sách tiền đề hiện tại
+  - Xuất toàn bộ: danh sách tiền đề hiện tại
 
 
 ### 4.5. Thành phần 4: Inference Engine
@@ -290,13 +290,13 @@ v
 
 
 **Mở rộng cho logic bậc nhất (lượng từ):**
-  * Phổ dụng hóa: (với mọi x) P(x) |- P(c) với c là hằng số
+  - Phổ dụng hóa: (với mọi x) P(x) |- P(c) với c là hằng số
 
 
-  * Hiện sinh hóa: (tồn tại x) P(x) |- P(c) với c là hằng số mới
+  - Hiện sinh hóa: (tồn tại x) P(x) |- P(c) với c là hằng số mới
 
 
-  * Phổ dụng nhập: Nếu P(c) với c bất kỳ -> (với mọi x) P(x)
+  - Phổ dụng nhập: Nếu P(c) với c bất kỳ -> (với mọi x) P(x)
 
 
 ### 4.6. Thành phần 5: T2 Validator
@@ -378,10 +378,10 @@ Nếu tồn tại p sao cho P |- p và P |- (không p), thì Premise Manager ph�
 **Chứng minh:** Inference Engine sinh ra cả p và không p. Premise Manager kiểm tra và thấy mâu thuẫn.
 ### 6.4. Tát 2 và độ tin cậy
 **Định nghĩa độ tin cậy:**
-  * Kết luận có T2 = TRUE: độ tin cậy "cao" (được xác nhận bởi ít nhất hai đường dẫn độc lập)
+  - Kết luận có T2 = TRUE: độ tin cậy "cao" (được xác nhận bởi ít nhất hai đường dẫn độc lập)
 
 
-  * Kết luận có T2 = FALSE: độ tin cậy "trung bình" (chỉ một đường dẫn)
+  - Kết luận có T2 = FALSE: độ tin cậy "trung bình" (chỉ một đường dẫn)
 
 
 Lưu ý: Trong logic hình thức, một đường dẫn duy nhất cũng đủ để đảm bảo tính hợp lệ. Tát 2 là một lớp bảo vệ bổ sung.
@@ -426,22 +426,22 @@ Báo cáo này đã trình bày **AI Xác định Luận lý Trang (Trang LDAI)*
 
 
 **Các đóng góp chính:**
-  * Định nghĩa hình thức của LDAI với 6 thành phần: L, P, R, I, T2, O
+  - Định nghĩa hình thức của LDAI với 6 thành phần: L, P, R, I, T2, O
 
 
-  * Kiến trúc cụ thể, có thể lập trình được
+  - Kiến trúc cụ thể, có thể lập trình được
 
 
-  * Bộ 10 quy tắc suy luận tối thiểu cho logic mệnh đề
+  - Bộ 10 quy tắc suy luận tối thiểu cho logic mệnh đề
 
 
-  * Cơ chế Tát 2 (xác nhận chéo) nâng cao độ tin cậy
+  - Cơ chế Tát 2 (xác nhận chéo) nâng cao độ tin cậy
 
 
-  * So sánh chi tiết với AI hiện tại
+  - So sánh chi tiết với AI hiện tại
 
 
-  * Thảo luận về giới hạn và hướng phát triển
+  - Thảo luận về giới hạn và hướng phát triển
 
 
 **Kết luận cuối cùng:**

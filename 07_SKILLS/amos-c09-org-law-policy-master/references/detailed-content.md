@@ -1,4 +1,5 @@
 ---
+title: detailed-content
 tags:
 - skills
 - org
@@ -7,6 +8,13 @@ tags:
 - master
 - references
 - detailed
+type: reference
+source: 07_SKILLS/amos-c09-org-law-policy-master/references
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 ## AMOS Canon Grounding

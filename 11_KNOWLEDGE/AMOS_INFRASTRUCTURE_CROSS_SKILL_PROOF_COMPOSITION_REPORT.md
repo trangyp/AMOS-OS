@@ -505,12 +505,10 @@ Complete compatible proof set
 Required authorization proof absent
 → REVALIDATE_MISSING_PROOF
 ```
-
 ```text
 One required proof has different policy hash
 → REVALIDATE_PROOF_JOIN
 ```
-
 Skill contract test:
 
 ```text

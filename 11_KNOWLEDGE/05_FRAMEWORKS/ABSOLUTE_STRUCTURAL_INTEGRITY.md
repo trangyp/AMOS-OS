@@ -88,11 +88,11 @@ $$\text{Collapse} \iff \text{Constraint breach under enforcement}$$
 # 2. The Absolute Integrity™ Theorem
 
 A system possesses **Absolute Integrity™** if and only if:
-* All governing constraints are explicit.
-* All assumptions are surfaced.
-* All claims are support-typed (`OBSERVATION`, `MODEL`, `PROOF`, `GAP`).
-* All decisions produce cryptographic receipts.
-* Capability does not exceed authority (`CAPABILITY != AUTHORITY`).
+- All governing constraints are explicit.
+- All assumptions are surfaced.
+- All claims are support-typed (`OBSERVATION`, `MODEL`, `PROOF`, `GAP`).
+- All decisions produce cryptographic receipts.
+- Capability does not exceed authority (`CAPABILITY != AUTHORITY`).
 
 ---
 

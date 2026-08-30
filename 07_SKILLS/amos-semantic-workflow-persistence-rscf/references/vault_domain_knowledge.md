@@ -113,8 +113,6 @@ Step 3: Identify cross-cutting concerns
   → Security, quality, observability, automation — these apply to almost all tech tasks
   → Always consider: AMOS_Security_Architecture_Kernel, AMOS_Qa_Testing_Kernel, AMOS_Observability_Monitoring_Kernel, AMOS_Automation_Kernel
 ```
-
-
 ---
 
 ## Phase 2: Kernel Function Selection
@@ -144,8 +142,6 @@ Cross-cutting: AMOS_Observability_Monitoring_Kernel_v0
 Cross-cutting: AMOS_Automation_Kernel_v0
   → Function: workflow_automation_design (inputs: process_definition, automation_tools)
 ```
-
-
 ---
 
 ## Phase 3: Input Preparation
@@ -164,8 +160,6 @@ Function: authn_authz_design
   Required inputs: user_roles, permission_requirements, identity_providers, session_requirements
   Prepare from security requirements, compliance needs, user analysis
 ```
-
-
 ---
 
 ## Phase 4: Function Execution (sequential or parallel)
@@ -249,7 +243,6 @@ Activate: K_META_LOGIC, K_MATH_COMPUTE, K_BIO_NEURO
 
 -
 ```
-
 ---
 
 **Related:** [[amos-semantic-workflow-persistence-rscf_MOC]]

@@ -67,16 +67,16 @@ Canonical cardinality:
 
 The Matrix exists to make AMOS cognition:
 
-* addressable;
-* composable;
-* inspectable;
-* routable;
-* testable;
-* provenance-bound;
-* gap-visible;
-* selectively invalidatable;
-* authority-aware;
-* structurally complete for a declared scope.
+- addressable;
+- composable;
+- inspectable;
+- routable;
+- testable;
+- provenance-bound;
+- gap-visible;
+- selectively invalidatable;
+- authority-aware;
+- structurally complete for a declared scope.
 
 The Matrix does **not** itself perform cognition.
 
@@ -295,13 +295,13 @@ L13_PREDICTION
 
 may be implemented by:
 
-* statistical model;
-* LLM reasoning;
-* domain forecasting engine;
-* simulation;
-* state-space model;
-* specialist Skill;
-* external tool.
+- statistical model;
+- LLM reasoning;
+- domain forecasting engine;
+- simulation;
+- state-space model;
+- specialist Skill;
+- external tool.
 
 Therefore:
 
@@ -419,34 +419,34 @@ L = Low
 
 Examples:
 
-* whole-system cognition;
-* cross-domain reasoning;
-* long-horizon behavior;
-* systemic governance;
-* organism-level identity;
-* institutional effects.
+- whole-system cognition;
+- cross-domain reasoning;
+- long-horizon behavior;
+- systemic governance;
+- organism-level identity;
+- institutional effects.
 
 ## M — Mid
 
 Examples:
 
-* subsystem;
-* cognitive organ;
-* agent team;
-* workflow;
-* domain module;
-* intermediate horizon.
+- subsystem;
+- cognitive organ;
+- agent team;
+- workflow;
+- domain module;
+- intermediate horizon.
 
 ## L — Low
 
 Examples:
 
-* local inference;
-* one memory operation;
-* one tool call;
-* one state update;
-* one relation;
-* one action.
+- local inference;
+- one memory operation;
+- one tool call;
+- one state update;
+- one relation;
+- one action.
 
 Hard laws:
 
@@ -1088,12 +1088,12 @@ Governance gates
 
 Workflow binding must declare:
 
-* entry;
-* exit;
-* checkpoints;
-* failure paths;
-* rollback;
-* authority boundaries.
+- entry;
+- exit;
+- checkpoints;
+- failure paths;
+- rollback;
+- authority boundaries.
 
 ---
 
@@ -1212,11 +1212,11 @@ Models may implement cell capabilities.
 
 Examples:
 
-* foundation model;
-* classifier;
-* forecasting model;
-* embedding model;
-* state-space model.
+- foundation model;
+- classifier;
+- forecasting model;
+- embedding model;
+- state-space model.
 
 Hard law:
 
@@ -1436,12 +1436,12 @@ L \rightarrow M \rightarrow H
 
 AMOS checks:
 
-* representativeness;
-* dependency closure;
-* aggregation function;
-* heterogeneity;
-* regime consistency;
-* causal compatibility.
+- representativeness;
+- dependency closure;
+- aggregation function;
+- heterogeneity;
+- regime consistency;
+- causal compatibility.
 
 ---
 
@@ -1691,9 +1691,9 @@ A `STRUCTURAL_GAP` means:
 
 It does not automatically mean:
 
-* system failure;
-* runtime bug;
-* scientific unknown.
+- system failure;
+- runtime bug;
+- scientific unknown.
 
 ---
 
@@ -2024,11 +2024,11 @@ Weights must be explicit.
 
 Do not increase coverage merely by:
 
-* creating files;
-* creating empty bindings;
-* copying templates;
-* marking cells existing;
-* duplicating one capability across many cells.
+- creating files;
+- creating empty bindings;
+- copying templates;
+- marking cells existing;
+- duplicating one capability across many cells.
 
 ---
 
@@ -2036,11 +2036,11 @@ Do not increase coverage merely by:
 
 Matrix generators may create:
 
-* cell identities;
-* schemas;
-* indexes;
-* placeholder packages;
-* dependency skeletons.
+- cell identities;
+- schemas;
+- indexes;
+- placeholder packages;
+- dependency skeletons.
 
 Generators may not automatically mark cells implemented or validated.
 
@@ -2208,11 +2208,11 @@ It does not create truth through self-reflection.
 
 Self-regulation may:
 
-* lower load;
-* change reasoning depth;
-* suspend work;
-* escalate;
-* repair.
+- lower load;
+- change reasoning depth;
+- suspend work;
+- escalate;
+- repair.
 
 It may not grant itself new authority.
 
@@ -2238,13 +2238,13 @@ Identity is not simply a stored name.
 
 Social cognition models:
 
-* actors;
-* roles;
-* trust;
-* cooperation;
-* conflict;
-* boundaries;
-* incentives.
+- actors;
+- roles;
+- trust;
+- cooperation;
+- conflict;
+- boundaries;
+- incentives.
 
 It must not silently infer subjective mental states.
 
@@ -2278,13 +2278,13 @@ It does not replace infrastructure governance.
 
 `L29_EVOLUTION` covers governed changes to:
 
-* models;
-* kernels;
-* skills;
-* agents;
-* workflows;
-* policies;
-* architecture.
+- models;
+- kernels;
+- skills;
+- agents;
+- workflows;
+- policies;
+- architecture.
 
 Evolution requires GMEF-style promotion and rollback.
 
@@ -2360,21 +2360,21 @@ Do not present AMOS structural equations as established scientific laws without 
 
 The Matrix infrastructure is `COMPLETE_FOR_SCOPE` only when:
 
-* all four canonical axes are registered;
-* every canonical coordinate is addressable;
-* cell identity is deterministic;
-* dependency graph exists;
-* binding contracts exist;
-* status dimensions are explicit;
-* H/M/L translation rules exist;
-* gap taxonomy exists;
-* validation gates exist;
-* authority boundaries exist;
-* provenance is recoverable;
-* selective invalidation is possible;
-* routing is inspectable;
-* generator behavior is deterministic;
-* structural completeness is not confused with empirical validity.
+- all four canonical axes are registered;
+- every canonical coordinate is addressable;
+- cell identity is deterministic;
+- dependency graph exists;
+- binding contracts exist;
+- status dimensions are explicit;
+- H/M/L translation rules exist;
+- gap taxonomy exists;
+- validation gates exist;
+- authority boundaries exist;
+- provenance is recoverable;
+- selective invalidation is possible;
+- routing is inspectable;
+- generator behavior is deterministic;
+- structural completeness is not confused with empirical validity.
 
 ---
 

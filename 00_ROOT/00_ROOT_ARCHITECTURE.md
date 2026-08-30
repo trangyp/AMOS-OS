@@ -72,6 +72,11 @@ tags:
 - placement-rules
 - roadmap
 - amos-core-laws
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: root_index
 ---
 
 # AMOS OS Architecture
@@ -1127,7 +1132,6 @@ v3.8   deep iterative provenance
 v3.9   persistent incremental provenance
 ```
 
-
 Hard rule:
 
 ```text
@@ -1415,7 +1419,6 @@ Biological Constraint Models
 Integration
 ```
 
-
 Its reasoning-mode examples include:
 
 ```text
@@ -1433,7 +1436,6 @@ do not design before minimum diagnostic complete
 always audit before finalization
 rerun diagnostic after high-impact new evidence
 ```
-
 
 ---
 
@@ -2495,42 +2497,42 @@ confidence_ceiling:
 
 ## v2.0.0 — 2026-08-25
 
-* promoted root architecture from placeholder to active architecture model;
-* added complete AMOS OS layer map;
-* added root responsibilities;
-* added Canon / Kernel / Control Plane / Runtime separation;
-* added Cognitive Organism architecture;
-* added Agent / Skill / Workflow / Protocol architecture;
-* added Memory / Knowledge / State separation;
-* added Models / Tools / Interfaces / Schemas boundaries;
-* added Observability / Security / Tests / Operations layers;
-* added Domain / Research / Operating Model / Archive / Cognitive Matrix roles;
-* added H/M/L recursive architecture;
-* added control-plane versus worker-plane boundary;
-* added dependency-closure rules;
-* added epistemic architecture;
-* added competing-hypothesis handling;
-* added provenance topology;
-* added RSCF and GMEF placement;
-* added Fractal Knowledge Network retrieval architecture;
-* added v4.4 proof-based fast-path semantics;
-* added causal and regime firewalls;
-* added runtime state model;
-* added effect/authority separation;
-* added failure, rollback, recovery, and selective invalidation;
-* added atomicity and epoch concepts with implementation caveat;
-* added authority contract;
-* added security and observability architecture;
-* added testing and version architecture;
-* added promotion lifecycle;
-* added 25 hard architecture invariants;
-* added 7-Part persistence mapping;
-* added root dependency graph;
-* added minimum and maximum governance paths;
-* added explicit implementation-completeness boundary;
-* added remaining-gap registry;
-* added RSCF root architecture node;
-* expanded related tags and cross-links.
+- promoted root architecture from placeholder to active architecture model;
+- added complete AMOS OS layer map;
+- added root responsibilities;
+- added Canon / Kernel / Control Plane / Runtime separation;
+- added Cognitive Organism architecture;
+- added Agent / Skill / Workflow / Protocol architecture;
+- added Memory / Knowledge / State separation;
+- added Models / Tools / Interfaces / Schemas boundaries;
+- added Observability / Security / Tests / Operations layers;
+- added Domain / Research / Operating Model / Archive / Cognitive Matrix roles;
+- added H/M/L recursive architecture;
+- added control-plane versus worker-plane boundary;
+- added dependency-closure rules;
+- added epistemic architecture;
+- added competing-hypothesis handling;
+- added provenance topology;
+- added RSCF and GMEF placement;
+- added Fractal Knowledge Network retrieval architecture;
+- added v4.4 proof-based fast-path semantics;
+- added causal and regime firewalls;
+- added runtime state model;
+- added effect/authority separation;
+- added failure, rollback, recovery, and selective invalidation;
+- added atomicity and epoch concepts with implementation caveat;
+- added authority contract;
+- added security and observability architecture;
+- added testing and version architecture;
+- added promotion lifecycle;
+- added 25 hard architecture invariants;
+- added 7-Part persistence mapping;
+- added root dependency graph;
+- added minimum and maximum governance paths;
+- added explicit implementation-completeness boundary;
+- added remaining-gap registry;
+- added RSCF root architecture node;
+- expanded related tags and cross-links.
 
 ## v1.0.0 — 2026-08-25
 

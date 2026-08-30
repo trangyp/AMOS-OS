@@ -211,7 +211,6 @@ L03RepairOutput:
   commit_authority:
     type: NONE
 ```
-
 ---
 
 ## 4. State variables

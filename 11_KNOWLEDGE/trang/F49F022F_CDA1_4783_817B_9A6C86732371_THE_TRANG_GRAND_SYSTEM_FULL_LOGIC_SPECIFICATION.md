@@ -1665,7 +1665,7 @@ UBI defines the human biological foundation influencing system behavior. Each
 agent i has neurobiological integrity, neuroemotional integrity, somatic integrity
 and bioelectromagnetic integrity, each in 0,1. Micro-cohesion H_micro(i) = α₁NBI
 
-+ α₂NEI  α₃SI  α₄BEI. Macro-cohesion Hₛ(t) = (1λ_HH_struct + λ_H
+- α₂NEI  α₃SI  α₄BEI. Macro-cohesion Hₛ(t) = (1λ_HH_struct + λ_H
 
 EH_micro]. UBI weakens or strengthens H,F,Ω through nervous system
 regulation, dysregulation, trauma accumulation, cognitive bandwidth, somatic

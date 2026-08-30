@@ -78,9 +78,9 @@ SI treats the body's physical architecture, fascial matrix, and biomechanical po
 
 # 1. Biological Foundations
 
-* **Substrate:** Fascial web, tensegrity structures, musculoskeletal biomechanics, proprioceptive & interoceptive receptors, diaphragm and respiratory mechanics.
-* **Core Functions:** Embodied stability, postural alignment, physical ground force transmission, kinesthetic intuition, non-verbal presence.
-* **Coupling to Cognition:** When somatic alignment collapses into chronic contraction or postural collapse, cognitive processing (NBI) and emotional regulation (NEI) immediately degrade.
+- **Substrate:** Fascial web, tensegrity structures, musculoskeletal biomechanics, proprioceptive & interoceptive receptors, diaphragm and respiratory mechanics.
+- **Core Functions:** Embodied stability, postural alignment, physical ground force transmission, kinesthetic intuition, non-verbal presence.
+- **Coupling to Cognition:** When somatic alignment collapses into chronic contraction or postural collapse, cognitive processing (NBI) and emotional regulation (NEI) immediately degrade.
 
 ---
 

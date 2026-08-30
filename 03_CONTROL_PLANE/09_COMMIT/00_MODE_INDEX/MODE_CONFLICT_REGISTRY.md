@@ -3366,25 +3366,21 @@ Conflict(A,B,S1)
 ↛
 Conflict(A,B,S2)
 ```
-
 ```text
 Conflict(A@v1,B)
 ↛
 Conflict(A@v2,B)
 ```
-
 ```text
 ResolvedForDecision(C)
 ↛
 EpistemicallyResolved(C)
 ```
-
 ```text
 DocumentsSupporting(H1)=10
 ↛
 IndependentSources(H1)=10
 ```
-
 ---
 
 # 165. SCOPE TEST

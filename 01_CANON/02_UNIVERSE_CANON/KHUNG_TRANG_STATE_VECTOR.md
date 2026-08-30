@@ -10,6 +10,11 @@ tags:
 - khung-trang-master
 - tss-7-cycle
 - trang-framework-recursive-ontology-dynamics
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: universe_canon
 ---
 
 # Khung Trang State Vector Specification

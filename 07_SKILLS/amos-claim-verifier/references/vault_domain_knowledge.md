@@ -88,14 +88,12 @@ for dep in capability.dependencies:
  if not self.dependency_validator.check_availability(dep):
  issues.append(f"Dependency {dep} not available")
 ```
-
 ```python
 # Automatic reaudit triggered when drift exceeds threshold
 if drift.drift_score > self.drift_threshold:
  self.logger.warning(f"Drift threshold exceeded for {capability_id}, triggering reaudit")
  self._trigger_reaudit(capability_id)
 ```
-
 ```python
 self_description = {
  "capability_registry": capability_registry_data,
@@ -107,7 +105,6 @@ self_description = {
  "ground_truth_score": self._calculate_ground_truth_score()
 }
 ```
-
 ### **Complete Implementation Skeleton**
 
 **AMOSCapabilityRegistry**: Complete capability claim and verification system

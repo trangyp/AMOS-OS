@@ -231,37 +231,31 @@ PHYSICAL FIELD
 !=
 BIOLOGICAL FIELD
 ```
-
 ```text
 "FIELD" IN TITLE
 !=
 MATHEMATICAL FIELD
 ```
-
 ```text
 "FIELD" IN TITLE
 !=
 MEASURABLE EMPIRICAL FIELD
 ```
-
 ```text
 "FIELD" IN TITLE
 !=
 CAUSAL FIELD
 ```
-
 ```text
 "COGNITIVE FIELD"
 !=
 CONSCIOUSNESS FIELD
 ```
-
 ```text
 COGNITIVE FIELD CANON SLOT
 !=
 POPULATED COGNITIVE FIELD CANON
 ```
-
 These field-specific distinctions are integrity-preserving derived constraints pending native-canon evidence.
 
 ---
@@ -1168,19 +1162,16 @@ MATHEMATICAL CONSISTENCY
 !=
 PHYSICAL VALIDITY
 ```
-
 ```text
 SYMBOLIC FORM
 !=
 MEASURABLE QUANTITY
 ```
-
 ```text
 MODEL EQUATION
 !=
 UNIVERSAL LAW
 ```
-
 ---
 
 # 26. Dynamics Slot
@@ -1235,31 +1226,26 @@ FIELD
 →
 WAVES
 ```
-
 ```text
 FIELD
 →
 FORCES
 ```
-
 ```text
 FIELD
 →
 ENERGY
 ```
-
 ```text
 FIELD
 →
 POTENTIAL
 ```
-
 ```text
 FIELD
 →
 GRADIENT
 ```
-
 unless native definitions explicitly establish these concepts.
 
 ---
@@ -1372,19 +1358,16 @@ COMPUTED VALUE
 !=
 OBSERVED VALUE
 ```
-
 ```text
 MODEL OUTPUT
 !=
 EMPIRICAL MEASUREMENT
 ```
-
 ```text
 INTERNAL SCORE
 !=
 PHYSICAL QUANTITY
 ```
-
 ---
 
 # 32. Causal Slot
@@ -1632,19 +1615,16 @@ SAME CANON SEGMENT
 !=
 HIERARCHICAL RELATION
 ```
-
 ```text
 SHARED "COGNITION" NAME
 !=
 DEPENDENCY
 ```
-
 ```text
 "MASTER" IN ANOTHER ARTIFACT
 !=
 PARENT OF THIS ARTIFACT
 ```
-
 ---
 
 # 39. Framework Identity Test
@@ -1748,19 +1728,16 @@ MORE DETAILED
 !=
 AUTHORITATIVE
 ```
-
 ```text
 MORE MATHEMATICAL
 !=
 MORE VALID
 ```
-
 ```text
 MORE COMPLEX
 !=
 MORE CANONICAL
 ```
-
 ---
 
 # 43. Source-Class Discipline
@@ -1920,13 +1897,11 @@ MODEL OF FIELD
 !=
 OBSERVATION OF FIELD
 ```
-
 ```text
 SIMULATION OF FIELD
 !=
 EMPIRICAL FIELD
 ```
-
 ---
 
 # 50. Confidence Ceiling
@@ -2085,19 +2060,16 @@ VALID IN ONE COGNITIVE SUBSYSTEM
 !=
 VALID ACROSS ALL COGNITION
 ```
-
 ```text
 VALID AT ONE SCALE
 !=
 VALID AT ALL SCALES
 ```
-
 ```text
 FIELD-LIKE MODEL AT ONE LEVEL
 !=
 PHYSICAL FIELD ACROSS LEVELS
 ```
-
 ---
 
 # 57. Regime Slot
@@ -2239,25 +2211,21 @@ DEPENDENCY
 !=
 CAUSATION
 ```
-
 ```text
 DEPENDENCY
 !=
 AUTHORITY
 ```
-
 ```text
 INDEXED_BY
 !=
 GOVERNED_BY
 ```
-
 ```text
 OBSERVED_BY
 !=
 AUTHORIZED_BY
 ```
-
 ---
 
 # 63. RSCF Binding
@@ -2547,13 +2515,11 @@ NEW VERSION
 !=
 VALIDATED VERSION
 ```
-
 ```text
 NEW FIELD EQUATION
 !=
 IMPROVED FIELD EQUATION
 ```
-
 without validation.
 
 ---
@@ -4166,59 +4132,46 @@ DO NOT INFER PHYSICALITY FROM "FIELD"
 ```text
 DO NOT INFER BIOLOGICAL REALITY FROM "COGNITIVE"
 ```
-
 ```text
 DO NOT INFER CONSCIOUSNESS FROM "COGNITIVE"
 ```
-
 ```text
 DO NOT INFER MATHEMATICAL FIELD STRUCTURE FROM "FIELD"
 ```
-
 ```text
 DO NOT INVENT FIELD VARIABLES
 ```
-
 ```text
 DO NOT INVENT FIELD EQUATIONS
 ```
-
 ```text
 DO NOT INVENT FIELD DYNAMICS
 ```
-
 ```text
 DO NOT INVENT FIELD FORCES, ENERGY,
 POTENTIALS, WAVES, OR PROPAGATION
 ```
-
 ```text
 DO NOT TREAT MODEL OUTPUT AS MEASUREMENT
 ```
-
 ```text
 DO NOT TREAT EQUATIONS AS EMPIRICAL LAWS
 ```
-
 ```text
 DO NOT TREAT CORRELATION AS CAUSATION
 ```
-
 ```text
 DO NOT ASSUME COGNITION MASTER CANON
 IS THE PARENT OF THIS ARTIFACT
 ```
-
 ```text
 DO NOT MERGE WITH OTHER COGNITION ARTIFACTS
 WITHOUT IDENTITY + LINEAGE EVIDENCE
 ```
-
 ```text
 DO NOT IMPORT EXTERNAL FIELD THEORIES
 AS NATIVE AMOS CANON
 ```
-
 Instead:
 
 ```text

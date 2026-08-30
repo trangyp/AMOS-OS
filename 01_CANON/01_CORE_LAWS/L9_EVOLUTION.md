@@ -4359,7 +4359,6 @@ DEPENDENTS
 BLAST RADIUS
 PROPAGATION ENVELOPE
 ```
-
 ```text
 V-3 — ANTI-REGRESSION
 
@@ -4371,7 +4370,6 @@ REGRESSION INCIDENT
 
 NO SILENT BASELINE ERASURE
 ```
-
 ```text
 V-4 — REPAIR OVER GROWTH
 
@@ -4381,7 +4379,6 @@ REPAIR CAPACITY GROWTH
 =
 INCREASED EXPOSURE
 ```
-
 The complete governed evolution rule is conceptually:
 
 ```text

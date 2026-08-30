@@ -266,43 +266,36 @@ Investment_Agent
 !=
 InvestmentAdviceSystem
 ```
-
 ```text
 run()
 !=
 PortfolioAnalysis
 ```
-
 ```text
 TraceEvent
 !=
 MarketObservation
 ```
-
 ```text
 Analysis
 !=
 Recommendation
 ```
-
 ```text
 Recommendation
 !=
 Suitability
 ```
-
 ```text
 Suitability
 !=
 AuthorityToTrade
 ```
-
 ```text
 OrderProposal
 !=
 ExecutedOrder
 ```
-
 ---
 
 # 4. VERSION / LINEAGE MODEL
@@ -1141,13 +1134,11 @@ HistoricalVolatility
 !=
 FutureVolatility
 ```
-
 ```text
 DiversifiedHistorically
 !=
 DiversifiedInStress
 ```
-
 ---
 
 # 34. CORRELATION
@@ -1782,13 +1773,11 @@ RecommendTrade
 !=
 AuthorityToPlaceTrade
 ```
-
 ```text
 BrokerCredential
 !=
 PermissionToUseBrokerCredential
 ```
-
 ---
 
 # 61. AUTHORITY CONTRACT
@@ -2089,13 +2078,11 @@ InSamplePerformance
 !=
 OutOfSampleEvidence
 ```
-
 ```text
 OneBacktest
 !=
 RobustStrategy
 ```
-
 ---
 
 # 73. WALK-FORWARD VALIDATION
@@ -3461,13 +3448,11 @@ MacroView
 !=
 TradeSignal
 ```
-
 ```text
 GoodCompany
 !=
 GoodInvestmentAtAnyPrice
 ```
-
 Price, valuation, expectations, risk, and portfolio fit remain separate.
 
 ---
@@ -3559,50 +3544,50 @@ confidence_ceiling:
 
 ### MAJOR GOVERNANCE REVISION
 
-* converted raw Python component note into a governed AMOS MONEY_SYSTEM specification;
-* preserved original source implementation;
-* explicitly classified current component as `REGISTERED_STUB`;
-* separated registration from investment capability;
-* separated investment analysis from financial execution;
-* added document/component/runtime/financial-model version axes;
-* added H/M/L architecture;
-* added AMOS externalization model;
-* added market observation contract;
-* added instrument identity;
-* added currency typing;
-* added portfolio state;
-* added investment mandate;
-* added suitability boundary;
-* added provenance;
-* added timestamp/freshness requirements;
-* added look-ahead and survivorship-bias controls;
-* added return, volatility, drawdown, VaR, ES, leverage, correlation and concentration models;
-* added liquidity and tail-risk dimensions;
-* added scenario/regime modeling;
-* added competing investment hypotheses;
-* added thesis and valuation contracts;
-* added sensitivity and robustness checks;
-* added forecast/calibration model;
-* added benchmarks and attribution;
-* added transaction-cost treatment;
-* added recommendation and NO_ACTION states;
-* added investment authority;
-* separated Investment_Agent from Executor_Agent;
-* added order proposal/finality concepts;
-* added financial-memory boundaries;
-* added model registry and backtest contracts;
-* added walk-forward validation;
-* added optimizer input-quality firewall;
-* added security/privacy/MNPI boundaries;
-* added selective invalidation;
-* added failure registry;
-* added 65-test progression;
-* added promotion states;
-* added production financial firewall;
-* added execution provenance;
-* added 7-Part persistence mapping;
-* added RSCF evidence classes;
-* added MONEY_SYSTEM architecture boundaries.
+- converted raw Python component note into a governed AMOS MONEY_SYSTEM specification;
+- preserved original source implementation;
+- explicitly classified current component as `REGISTERED_STUB`;
+- separated registration from investment capability;
+- separated investment analysis from financial execution;
+- added document/component/runtime/financial-model version axes;
+- added H/M/L architecture;
+- added AMOS externalization model;
+- added market observation contract;
+- added instrument identity;
+- added currency typing;
+- added portfolio state;
+- added investment mandate;
+- added suitability boundary;
+- added provenance;
+- added timestamp/freshness requirements;
+- added look-ahead and survivorship-bias controls;
+- added return, volatility, drawdown, VaR, ES, leverage, correlation and concentration models;
+- added liquidity and tail-risk dimensions;
+- added scenario/regime modeling;
+- added competing investment hypotheses;
+- added thesis and valuation contracts;
+- added sensitivity and robustness checks;
+- added forecast/calibration model;
+- added benchmarks and attribution;
+- added transaction-cost treatment;
+- added recommendation and NO_ACTION states;
+- added investment authority;
+- separated Investment_Agent from Executor_Agent;
+- added order proposal/finality concepts;
+- added financial-memory boundaries;
+- added model registry and backtest contracts;
+- added walk-forward validation;
+- added optimizer input-quality firewall;
+- added security/privacy/MNPI boundaries;
+- added selective invalidation;
+- added failure registry;
+- added 65-test progression;
+- added promotion states;
+- added production financial firewall;
+- added execution provenance;
+- added 7-Part persistence mapping;
+- added RSCF evidence classes;
+- added MONEY_SYSTEM architecture boundaries.
 
 ## v1.0.0 — Source Implementation
 

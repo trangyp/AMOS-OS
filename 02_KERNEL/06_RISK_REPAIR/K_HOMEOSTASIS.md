@@ -984,7 +984,6 @@ LOCALITY
 MUST BE DEMONSTRATED,
 NOT ASSUMED
 ```
-
 ---
 
 ## 39. Shard-Local Regulation

@@ -7,6 +7,10 @@ rscf:
   claim_class: DERIVED
   provenance: .github/copilot-instructions.md
   scope: AMOS_general
+tags:
+- contract
+- agent-agreement
+- ai-coding
 ---
 
 # AMOS Global Contract for AI Coding Agents

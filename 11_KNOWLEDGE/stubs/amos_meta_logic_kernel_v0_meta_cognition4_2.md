@@ -8,6 +8,13 @@ tags:
 - kernel
 - cognition
 - amos-meta-logic-kernel-v0-meta-cognition4-2
+type: note
+source: 11_KNOWLEDGE/stubs
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # amos meta logic kernel v0 meta cognition4 2

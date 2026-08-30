@@ -7,6 +7,11 @@ tags:
 - planetary
 - intelligence
 - canon
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: universe_canon
 ---
 
 # PSI Planetary System Intelligence Layer

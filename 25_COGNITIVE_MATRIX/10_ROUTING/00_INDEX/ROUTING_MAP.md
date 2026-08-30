@@ -110,13 +110,13 @@ ROUTING_MAP
 
 Purpose:
 
-* subsystem orientation;
-* terminology;
-* directory structure;
-* intended reading sequence;
-* major routing concepts;
-* known gaps;
-* links into detailed routing artifacts.
+- subsystem orientation;
+- terminology;
+- directory structure;
+- intended reading sequence;
+- major routing concepts;
+- known gaps;
+- links into detailed routing artifacts.
 
 The README is explanatory unless stronger canonical status is explicitly established.
 
@@ -130,15 +130,15 @@ Documentation statements remain `SOURCE_CLAIM` or `AMOS_MODEL` according to thei
 
 Purpose:
 
-* normative routing requirements;
-* typed interfaces;
-* admissibility conditions;
-* scope boundaries;
-* conflict handling;
-* fail-closed behavior;
-* provenance requirements;
-* validation requirements;
-* routing invariants.
+- normative routing requirements;
+- typed interfaces;
+- admissibility conditions;
+- scope boundaries;
+- conflict handling;
+- fail-closed behavior;
+- provenance requirements;
+- validation requirements;
+- routing invariants.
 
 Where the README and Contract differ, the map MUST NOT silently decide precedence.
 
@@ -188,13 +188,13 @@ $$R: (T,C,S,R_g,A,D,P) \rightarrow Destination$$
 
 where:
 
-* $T$ = task;
-* $C$ = constraints;
-* $S$ = scope;
-* $R_g$ = regime;
-* $A$ = authorization/admission state;
-* $D$ = dependencies;
-* $P$ = provenance and policy context.
+- $T$ = task;
+- $C$ = constraints;
+- $S$ = scope;
+- $R_g$ = regime;
+- $A$ = authorization/admission state;
+- $D$ = dependencies;
+- $P$ = provenance and policy context.
 
 This equation is an architectural model.
 
@@ -449,14 +449,14 @@ $$Admissible(r)= C \land D \land S \land R \land F \land P \land A \land \neg X$
 
 where:
 
-* $C$ = capability sufficient;
-* $D$ = dependencies valid;
-* $S$ = scope compatible;
-* $R$ = regime compatible;
-* $F$ = freshness sufficient;
-* $P$ = policy/provenance requirements satisfied;
-* $A$ = authorization/admission satisfied;
-* $X$ = unresolved blocking conflict.
+- $C$ = capability sufficient;
+- $D$ = dependencies valid;
+- $S$ = scope compatible;
+- $R$ = regime compatible;
+- $F$ = freshness sufficient;
+- $P$ = policy/provenance requirements satisfied;
+- $A$ = authorization/admission satisfied;
+- $X$ = unresolved blocking conflict.
 
 This is a conceptual governance model.
 
@@ -758,11 +758,11 @@ This receipt is intended to provide evidence concerning routing-policy behavior.
 
 Its existence as a link does not establish:
 
-* that the receipt exists;
-* that it is current;
-* that it covers every routing path;
-* that it validates every policy version;
-* that validation remains valid in the current regime.
+- that the receipt exists;
+- that it is current;
+- that it covers every routing path;
+- that it validates every policy version;
+- that validation remains valid in the current regime.
 
 The receipt itself must be inspected when its evidence is decision-relevant.
 
@@ -827,8 +827,8 @@ This file intentionally covers its own directory.
 
 Cross-segment edges SHOULD be resolved through:
 
-* [[00_ROOT_MAP]]
-* [[AMOS_RSCF_NODES]]
+- [[00_ROOT_MAP]]
+- [[AMOS_RSCF_NODES]]
 
 and applicable subsystem maps.
 
@@ -1201,8 +1201,8 @@ Declared topology does not itself prove executable bindings.
 
 Relevant evidence references:
 
-* [[ROUTING_POLICY_VALIDATION_RECEIPT]]
-* [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+- [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+- [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
 ---
 
@@ -1220,8 +1220,8 @@ only.
 
 Cross-segment topology belongs in:
 
-* [[00_ROOT_MAP]]
-* [[AMOS_RSCF_NODES]]
+- [[00_ROOT_MAP]]
+- [[AMOS_RSCF_NODES]]
 
 ---
 
@@ -1315,31 +1315,31 @@ The decisive routing discipline is:
 
 ### Orientation
 
-* [[INDEX_ROUTING_COGNITIVE_MATRIX_README]]
+- [[INDEX_ROUTING_COGNITIVE_MATRIX_README]]
 
 ### Normative Contract
 
-* [[ROUTING_COGNITIVE_MATRIX_ROUTING_CONTRACT]]
+- [[ROUTING_COGNITIVE_MATRIX_ROUTING_CONTRACT]]
 
 ### Resolution / Mode Dependencies
 
-* [[TASK_RESOLVER]]
-* [[CAPABILITY_RESOLVER]]
-* [[MODE_ADMISSION_QUEUE]]
-* [[MODE_COMPOSITION_REGISTRY]]
-* [[MODE_CONFLICT_REGISTRY]]
-* [[MODE_COVERAGE_MATRIX]]
-* [[MODE_DEPENDENCY_GRAPH]]
+- [[TASK_RESOLVER]]
+- [[CAPABILITY_RESOLVER]]
+- [[MODE_ADMISSION_QUEUE]]
+- [[MODE_COMPOSITION_REGISTRY]]
+- [[MODE_CONFLICT_REGISTRY]]
+- [[MODE_COVERAGE_MATRIX]]
+- [[MODE_DEPENDENCY_GRAPH]]
 
 ### Validation Evidence
 
-* [[ROUTING_POLICY_VALIDATION_RECEIPT]]
-* [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+- [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+- [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
 ### Global Topology
 
-* [[00_ROOT_MAP]]
-* [[AMOS_RSCF_NODES]]
+- [[00_ROOT_MAP]]
+- [[AMOS_RSCF_NODES]]
 
 ---
 
@@ -1361,39 +1361,39 @@ path: 25_COGNITIVE_MATRIX/10_ROUTING/00_INDEX/ROUTING_MAP.md
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-* PART_OF: [[COGNITIVE_MATRIX_MOC]]
+- PART_OF: [[COGNITIVE_MATRIX_MOC]]
 
-* PART_OF: [[00_ROOT_MAP]]
+- PART_OF: [[00_ROOT_MAP]]
 
-* MAPS: [[INDEX_ROUTING_COGNITIVE_MATRIX_README]]
+- MAPS: [[INDEX_ROUTING_COGNITIVE_MATRIX_README]]
 
-* MAPS: [[ROUTING_COGNITIVE_MATRIX_ROUTING_CONTRACT]]
+- MAPS: [[ROUTING_COGNITIVE_MATRIX_ROUTING_CONTRACT]]
 
-* REFERENCES: [[TASK_RESOLVER]]
+- REFERENCES: [[TASK_RESOLVER]]
 
-* REFERENCES: [[CAPABILITY_RESOLVER]]
+- REFERENCES: [[CAPABILITY_RESOLVER]]
 
-* REFERENCES: [[MODE_ADMISSION_QUEUE]]
+- REFERENCES: [[MODE_ADMISSION_QUEUE]]
 
-* REFERENCES: [[MODE_COMPOSITION_REGISTRY]]
+- REFERENCES: [[MODE_COMPOSITION_REGISTRY]]
 
-* REFERENCES: [[MODE_CONFLICT_REGISTRY]]
+- REFERENCES: [[MODE_CONFLICT_REGISTRY]]
 
-* REFERENCES: [[MODE_COVERAGE_MATRIX]]
+- REFERENCES: [[MODE_COVERAGE_MATRIX]]
 
-* REFERENCES: [[MODE_DEPENDENCY_GRAPH]]
+- REFERENCES: [[MODE_DEPENDENCY_GRAPH]]
 
-* VALIDATED_BY: [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+- VALIDATED_BY: [[ROUTING_POLICY_VALIDATION_RECEIPT]]
 
-* VALIDATED_BY: [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+- VALIDATED_BY: [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
-* USES: [[K_RSCF]]
+- USES: [[K_RSCF]]
 
-* USES: [[L17_RSCF]]
+- USES: [[L17_RSCF]]
 
 claim_class: AMOS_MODEL
 canonical_status: CONDITIONAL

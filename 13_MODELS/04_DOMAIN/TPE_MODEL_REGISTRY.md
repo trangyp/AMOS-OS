@@ -632,19 +632,19 @@ where supported by native sources.
 
 This registry MUST NOT be used to claim:
 
-* deterministic knowledge of future events;
-* prophecy;
-* omniscience;
-* universal predictive power;
-* guaranteed forecasts;
-* causal truth from predictive performance;
-* scientific proof merely from prediction accuracy;
-* biological truth;
-* mathematical theoremhood;
-* runtime enforcement without implementation;
-* final canonical status without governance;
-* authority merely from predictive capability;
-* successful validation merely because a model is registered.
+- deterministic knowledge of future events;
+- prophecy;
+- omniscience;
+- universal predictive power;
+- guaranteed forecasts;
+- causal truth from predictive performance;
+- scientific proof merely from prediction accuracy;
+- biological truth;
+- mathematical theoremhood;
+- runtime enforcement without implementation;
+- final canonical status without governance;
+- authority merely from predictive capability;
+- successful validation merely because a model is registered.
 
 ---
 
@@ -5749,129 +5749,129 @@ is correct.
 
 # 374. Promotion Gate — Native Canon
 
-* [ ] authoritative TPE source located
-* [ ] source identity verified
-* [ ] source version pinned
-* [ ] source provenance persisted
-* [ ] native `TPE` expansion verified
-* [ ] native TPE definition preserved
-* [ ] `TPE_prediction_layer` semantics recovered
-* [ ] historical lineage linked
-* [ ] competing definitions visible
+- [ ] authoritative TPE source located
+- [ ] source identity verified
+- [ ] source version pinned
+- [ ] source provenance persisted
+- [ ] native `TPE` expansion verified
+- [ ] native TPE definition preserved
+- [ ] `TPE_prediction_layer` semantics recovered
+- [ ] historical lineage linked
+- [ ] competing definitions visible
 
 ---
 
 # 375. Promotion Gate — Model Inventory
 
-* [ ] model families identified
-* [ ] model IDs identified
-* [ ] model versions identified
-* [ ] prediction targets identified
-* [ ] horizons identified
-* [ ] aliases resolved
-* [ ] duplicates compared
-* [ ] competing identities preserved
+- [ ] model families identified
+- [ ] model IDs identified
+- [ ] model versions identified
+- [ ] prediction targets identified
+- [ ] horizons identified
+- [ ] aliases resolved
+- [ ] duplicates compared
+- [ ] competing identities preserved
 
 ---
 
 # 376. Promotion Gate — Formalism
 
-* [ ] native definitions preserved
-* [ ] variables typed
-* [ ] parameters typed
-* [ ] equations preserved
-* [ ] assumptions explicit
-* [ ] constraints explicit
-* [ ] target semantics explicit
-* [ ] horizon semantics explicit
-* [ ] uncertainty semantics explicit
-* [ ] missing derivations visible
+- [ ] native definitions preserved
+- [ ] variables typed
+- [ ] parameters typed
+- [ ] equations preserved
+- [ ] assumptions explicit
+- [ ] constraints explicit
+- [ ] target semantics explicit
+- [ ] horizon semantics explicit
+- [ ] uncertainty semantics explicit
+- [ ] missing derivations visible
 
 ---
 
 # 377. Promotion Gate — Prediction Integrity
 
-* [ ] prediction timestamps preserved
-* [ ] input cutoffs preserved
-* [ ] target resolution methods defined
-* [ ] predictions immutable/auditable
-* [ ] predictions separated from observations
-* [ ] revisions preserve lineage
-* [ ] leakage tests executed
-* [ ] backtests separated from forward validation
-* [ ] calibration claims validated
-* [ ] uncertainty semantics validated
+- [ ] prediction timestamps preserved
+- [ ] input cutoffs preserved
+- [ ] target resolution methods defined
+- [ ] predictions immutable/auditable
+- [ ] predictions separated from observations
+- [ ] revisions preserve lineage
+- [ ] leakage tests executed
+- [ ] backtests separated from forward validation
+- [ ] calibration claims validated
+- [ ] uncertainty semantics validated
 
 ---
 
 # 378. Promotion Gate — Epistemics
 
-* [ ] `SOURCE_CLAIM` separated
-* [ ] `OBSERVATION` separated
-* [ ] `DERIVED` dependencies preserved
-* [ ] `MODEL` outputs labeled
-* [ ] confidence ceilings declared
-* [ ] competing hypotheses preserved
-* [ ] contradictions visible
-* [ ] falsifiers declared
-* [ ] sensitivity evaluated
+- [ ] `SOURCE_CLAIM` separated
+- [ ] `OBSERVATION` separated
+- [ ] `DERIVED` dependencies preserved
+- [ ] `MODEL` outputs labeled
+- [ ] confidence ceilings declared
+- [ ] competing hypotheses preserved
+- [ ] contradictions visible
+- [ ] falsifiers declared
+- [ ] sensitivity evaluated
 
 ---
 
 # 379. Promotion Gate — Scope and Regime
 
-* [ ] domain declared
-* [ ] population declared where applicable
-* [ ] environment declared
-* [ ] scale declared
-* [ ] prediction horizon declared
-* [ ] time declared
-* [ ] regime declared
-* [ ] measurement method declared
-* [ ] assumptions declared
+- [ ] domain declared
+- [ ] population declared where applicable
+- [ ] environment declared
+- [ ] scale declared
+- [ ] prediction horizon declared
+- [ ] time declared
+- [ ] regime declared
+- [ ] measurement method declared
+- [ ] assumptions declared
 
 ---
 
 # 380. Promotion Gate — Provenance
 
-* [ ] source ancestry persisted
-* [ ] model ancestry persisted
-* [ ] data ancestry persisted
-* [ ] prediction ancestry persisted
-* [ ] evaluation ancestry persisted
-* [ ] independence groups established
-* [ ] source hash/version preserved where available
-* [ ] license/IP status preserved where available
+- [ ] source ancestry persisted
+- [ ] model ancestry persisted
+- [ ] data ancestry persisted
+- [ ] prediction ancestry persisted
+- [ ] evaluation ancestry persisted
+- [ ] independence groups established
+- [ ] source hash/version preserved where available
+- [ ] license/IP status preserved where available
 
 ---
 
 # 381. Promotion Gate — Validation
 
-* [ ] source validation
-* [ ] schema validation
-* [ ] formal validation where claimed
-* [ ] backtest validation
-* [ ] forward validation
-* [ ] calibration validation where claimed
-* [ ] empirical validation
-* [ ] causal validation where claimed
-* [ ] runtime validation where claimed
-* [ ] artifact-specific validation receipt
+- [ ] source validation
+- [ ] schema validation
+- [ ] formal validation where claimed
+- [ ] backtest validation
+- [ ] forward validation
+- [ ] calibration validation where claimed
+- [ ] empirical validation
+- [ ] causal validation where claimed
+- [ ] runtime validation where claimed
+- [ ] artifact-specific validation receipt
 
 ---
 
 # 382. Promotion Gate — Governance
 
-* [ ] authority binding
-* [ ] version conflict handling
-* [ ] add-only preservation
-* [ ] prediction-history preservation
-* [ ] provenance persistence
-* [ ] rollback basin
-* [ ] selective invalidation
-* [ ] negative cases
-* [ ] audit receipts
-* [ ] unresolved critical gaps visible
+- [ ] authority binding
+- [ ] version conflict handling
+- [ ] add-only preservation
+- [ ] prediction-history preservation
+- [ ] provenance persistence
+- [ ] rollback basin
+- [ ] selective invalidation
+- [ ] negative cases
+- [ ] audit receipts
+- [ ] unresolved critical gaps visible
 
 ---
 
@@ -6965,79 +6965,79 @@ NOT_ESTABLISHED
 
 ## Structural contract
 
-* [x] artifact identity preserved
-* [x] source path preserved
-* [x] origin architect preserved
-* [x] steward preserved
-* [x] TPE identifier preserved
-* [x] add-only discipline preserved
-* [x] `TPE_prediction_layer` association preserved as source claim
-* [x] model/observation firewall defined
-* [x] prediction/observation firewall defined
-* [x] prediction/outcome firewall defined
-* [x] calibration firewall defined
-* [x] causal firewall defined
-* [x] scope/regime firewall defined
-* [x] temporal leakage firewall defined
-* [x] provenance topology defined
-* [x] RSCF contract defined
-* [x] H/M/L mapping defined
-* [x] competing-model semantics defined
-* [x] selective invalidation defined
-* [x] lifecycle semantics defined
-* [x] conceptual MVCC/CAS semantics defined
-* [x] critical gaps exposed
+- [x] artifact identity preserved
+- [x] source path preserved
+- [x] origin architect preserved
+- [x] steward preserved
+- [x] TPE identifier preserved
+- [x] add-only discipline preserved
+- [x] `TPE_prediction_layer` association preserved as source claim
+- [x] model/observation firewall defined
+- [x] prediction/observation firewall defined
+- [x] prediction/outcome firewall defined
+- [x] calibration firewall defined
+- [x] causal firewall defined
+- [x] scope/regime firewall defined
+- [x] temporal leakage firewall defined
+- [x] provenance topology defined
+- [x] RSCF contract defined
+- [x] H/M/L mapping defined
+- [x] competing-model semantics defined
+- [x] selective invalidation defined
+- [x] lifecycle semantics defined
+- [x] conceptual MVCC/CAS semantics defined
+- [x] critical gaps exposed
 
 ## Native TPE canon
 
-* [ ] authoritative native source located
-* [ ] TPE expansion verified
-* [ ] TPE native definition recovered
-* [ ] TPE prediction-layer definition recovered
-* [ ] TPE model families recovered
-* [ ] TPE model IDs recovered
-* [ ] TPE model versions recovered
-* [ ] TPE prediction targets recovered
-* [ ] TPE prediction horizons recovered
-* [ ] TPE formal definitions recovered
-* [ ] TPE equations recovered
-* [ ] TPE variables recovered
-* [ ] TPE parameters recovered
-* [ ] TPE assumptions recovered
-* [ ] TPE scope recovered
-* [ ] TPE regimes recovered
-* [ ] TPE dependencies recovered
-* [ ] TPE lineage recovered
+- [ ] authoritative native source located
+- [ ] TPE expansion verified
+- [ ] TPE native definition recovered
+- [ ] TPE prediction-layer definition recovered
+- [ ] TPE model families recovered
+- [ ] TPE model IDs recovered
+- [ ] TPE model versions recovered
+- [ ] TPE prediction targets recovered
+- [ ] TPE prediction horizons recovered
+- [ ] TPE formal definitions recovered
+- [ ] TPE equations recovered
+- [ ] TPE variables recovered
+- [ ] TPE parameters recovered
+- [ ] TPE assumptions recovered
+- [ ] TPE scope recovered
+- [ ] TPE regimes recovered
+- [ ] TPE dependencies recovered
+- [ ] TPE lineage recovered
 
 ## Validation
 
-* [ ] source validation
-* [ ] schema validation
-* [ ] formal validation
-* [ ] leakage validation
-* [ ] historical replay validation
-* [ ] forward validation
-* [ ] calibration validation
-* [ ] empirical validation
-* [ ] causal validation where claimed
-* [ ] runtime validation
-* [ ] artifact-specific validation receipt
+- [ ] source validation
+- [ ] schema validation
+- [ ] formal validation
+- [ ] leakage validation
+- [ ] historical replay validation
+- [ ] forward validation
+- [ ] calibration validation
+- [ ] empirical validation
+- [ ] causal validation where claimed
+- [ ] runtime validation
+- [ ] artifact-specific validation receipt
 
 ## Runtime
 
-* [ ] executable registry binding
-* [ ] persistent model identity store
-* [ ] prediction receipt store
-* [ ] target observation store
-* [ ] evaluation store
-* [ ] version store
-* [ ] provenance persistence
-* [ ] dependency persistence
-* [ ] conflict detection
-* [ ] stale-write protection
-* [ ] authority enforcement
-* [ ] rollback demonstrated
-* [ ] validation receipt persistence
+- [ ] executable registry binding
+- [ ] persistent model identity store
+- [ ] prediction receipt store
+- [ ] target observation store
+- [ ] evaluation store
+- [ ] version store
+- [ ] provenance persistence
+- [ ] dependency persistence
+- [ ] conflict detection
+- [ ] stale-write protection
+- [ ] authority enforcement
+- [ ] rollback demonstrated
+- [ ] validation receipt persistence
 
 ---
 
@@ -7099,16 +7099,16 @@ EXECUTED
 
 Target architectural bindings:
 
-* Governed by canon — [[LAW_HIERARCHY]]
-* Root navigation — [[00_HOME]]
-* RSCF navigation — [[AMOS_RSCF_NODES]]
-* Local domain MOC — [[04_DOMAIN_MOC]]
-* Kernel interaction — [[KERNEL_README]]
-* Control-plane gates — [[CONTROL_PLANE_README]]
-* Observed by — [[OBSERVABILITY_README]]
-* Recovered via operations — [[OPERATIONS_README]]
-* Routing validation reference — [[ROUTING_POLICY_VALIDATION_RECEIPT]]
-* Authorization validation reference — [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+- Governed by canon — [[LAW_HIERARCHY]]
+- Root navigation — [[00_HOME]]
+- RSCF navigation — [[AMOS_RSCF_NODES]]
+- Local domain MOC — [[04_DOMAIN_MOC]]
+- Kernel interaction — [[KERNEL_README]]
+- Control-plane gates — [[CONTROL_PLANE_README]]
+- Observed by — [[OBSERVABILITY_README]]
+- Recovered via operations — [[OPERATIONS_README]]
+- Routing validation reference — [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+- Authorization validation reference — [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
 These are architectural/document relations.
 
@@ -7729,15 +7729,15 @@ executable_binding: NOT_ESTABLISHED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
-* INDEXED_BY: [[04_DOMAIN_MOC]]
-* GOVERNED_BY: [[LAW_HIERARCHY]]
-* INTERACTS_WITH: [[KERNEL_README]]
-* GATED_BY: [[CONTROL_PLANE_README]]
-* OBSERVED_BY: [[OBSERVABILITY_README]]
-* RECOVERED_VIA: [[OPERATIONS_README]]
-* ARCHITECTURAL_ANCHOR: TPE_prediction_layer
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[04_DOMAIN_MOC]]
+- GOVERNED_BY: [[LAW_HIERARCHY]]
+- INTERACTS_WITH: [[KERNEL_README]]
+- GATED_BY: [[CONTROL_PLANE_README]]
+- OBSERVED_BY: [[OBSERVABILITY_README]]
+- RECOVERED_VIA: [[OPERATIONS_README]]
+- ARCHITECTURAL_ANCHOR: TPE_prediction_layer
 
 ---
 

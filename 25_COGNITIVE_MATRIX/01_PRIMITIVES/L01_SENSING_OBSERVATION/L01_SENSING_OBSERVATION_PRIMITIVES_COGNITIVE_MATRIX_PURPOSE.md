@@ -99,8 +99,8 @@ O_{typed}
 
 where:
 
-* (E_{available}) = available environment/reality-contact input;
-* (O_{typed}) = typed observation state.
+- (E_{available}) = available environment/reality-contact input;
+- (O_{typed}) = typed observation state.
 
 This mapping is not assumed lossless.
 
@@ -372,11 +372,11 @@ C_t
 
 where:
 
-* \(E_t\) = available environment/reality-contact state;
-* \(M_t\) = sensing modality or interface;
-* \(B_t\) = observer/sensor state;
-* \(C_t\) = contextual conditions;
-* \(O_t\) = resulting observation state.
+- \(E_t\) = available environment/reality-contact state;
+- \(M_t\) = sensing modality or interface;
+- \(B_t\) = observer/sensor state;
+- \(C_t\) = contextual conditions;
+- \(O_t\) = resulting observation state.
 
 This is an AMOS MODEL equation, not a claim of universal sensing mathematics.
 

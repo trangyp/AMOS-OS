@@ -124,9 +124,9 @@ $$
 
 where:
 
-* \(P_k\) = Full Brain process function,
-* \(U_k\) = associated UBI feedback coupling,
-* \(G_k\) = safety guard.
+- \(P_k\) = Full Brain process function,
+- \(U_k\) = associated UBI feedback coupling,
+- \(G_k\) = safety guard.
 
 Therefore the source-defined architecture can be normalized as:
 
@@ -283,13 +283,13 @@ This is compatible with AMOS's broader fail-closed reasoning pattern.
 
 But the matrix does not define:
 
-* the energy unit,
-* measurement source,
-* energy threshold,
-* polling frequency,
-* hardware interface,
-* halt protocol,
-* recovery condition.
+- the energy unit,
+- measurement source,
+- energy threshold,
+- polling frequency,
+- hardware interface,
+- halt protocol,
+- recovery condition.
 
 Therefore the guard's **existence in the model is source-grounded**, while its implementation semantics remain incomplete.
 
@@ -569,9 +569,9 @@ This layer requires particularly strict causal and ontology discipline.
 
 The terms:
 
-* `Quantum Reasoning`,
-* `Superposition coherence`,
-* `Dominance Collapse`
+- `Quantum Reasoning`,
+- `Superposition coherence`,
+- `Dominance Collapse`
 
 are present in the architecture.
 
@@ -908,9 +908,9 @@ $$
 
 corresponding to:
 
-* valence,
-* arousal,
-* dominance.
+- valence,
+- arousal,
+- dominance.
 
 They also specify guard-like behavior around high arousal and strongly negative valence.
 
@@ -1267,44 +1267,44 @@ A useful RSCF decomposition is:
 
 ### VERIFIED from supplied source
 
-* artifact exists in supplied conversation context;
-* version is `2.0.0`;
-* seven layers are enumerated;
-* each layer has a process function;
-* each has a UBI feedback coupling;
-* each has a safety guard;
-* Layer 5 contains \(\tau<0.20\);
-* artifact points to `UBI_X_FULL_BRAIN`;
-* artifact points to `25_COGNITIVE_MATRIX_MOC`.
+- artifact exists in supplied conversation context;
+- version is `2.0.0`;
+- seven layers are enumerated;
+- each layer has a process function;
+- each has a UBI feedback coupling;
+- each has a safety guard;
+- Layer 5 contains \(\tau<0.20\);
+- artifact points to `UBI_X_FULL_BRAIN`;
+- artifact points to `25_COGNITIVE_MATRIX_MOC`.
 
 ### SOURCE_CLAIM
 
-* constitutional tests passed;
-* executable binding established;
-* the described couplings operate as intended;
-* guards enforce runtime behavior.
+- constitutional tests passed;
+- executable binding established;
+- the described couplings operate as intended;
+- guards enforce runtime behavior.
 
 ### DERIVED
 
-* L1 maps to the Total Kernel Meta-Logic Kernel;
-* L2 corresponds to the UBI × Cognition working-memory pathway;
-* L3 corresponds to BEI/40Hz synchronization;
-* L5 likely uses \(\tau_{\text{bio}}\);
-* L6 likely interfaces with the C06 H3 mask.
+- L1 maps to the Total Kernel Meta-Logic Kernel;
+- L2 corresponds to the UBI × Cognition working-memory pathway;
+- L3 corresponds to BEI/40Hz synchronization;
+- L5 likely uses \(\tau_{\text{bio}}\);
+- L6 likely interfaces with the C06 H3 mask.
 
 ### UNKNOWN / GAP
 
-* exact execution order;
-* exact UBI → Full Brain transport mechanism;
-* definition of Layer-4 quantum semantics;
-* definition of superposition coherence;
-* definition of Dominance Collapse;
-* whether Gamma Lock Pulse equals Agent Resynchronization Pulse;
-* whether \(\tau=\tau_{\text{bio}}\);
-* exact meaning of H3;
-* escalation hierarchy between guards;
-* recovery path after Hardware Halt;
-* actual executable implementation evidence.
+- exact execution order;
+- exact UBI → Full Brain transport mechanism;
+- definition of Layer-4 quantum semantics;
+- definition of superposition coherence;
+- definition of Dominance Collapse;
+- whether Gamma Lock Pulse equals Agent Resynchronization Pulse;
+- whether \(\tau=\tau_{\text{bio}}\);
+- exact meaning of H3;
+- escalation hierarchy between guards;
+- recovery path after Hardware Halt;
+- actual executable implementation evidence.
 
 ---
 

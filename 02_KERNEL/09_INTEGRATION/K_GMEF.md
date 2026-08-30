@@ -3300,7 +3300,6 @@ IT DOES NOT
 OWN THE BOUNDARY.
 ```
 
-
 ---
 
 # 7. Constitutional Layer
@@ -3434,7 +3433,6 @@ SAFETY BOUNDARIES
 Human-governed.
 Elevated review required.
 ```
-
 ```text
 M2
 HIGH-CONSEQUENCE
@@ -3443,7 +3441,6 @@ DECISION ARCHITECTURE
 Explicit human authorization
 and stronger evidence required.
 ```
-
 ```text
 M3
 MODELS,
@@ -3453,7 +3450,6 @@ DECISION STRATEGIES
 Controlled experimentation allowed.
 Production propagation requires review.
 ```
-
 ```text
 M4
 PARAMETERS,
@@ -3464,7 +3460,6 @@ Bounded adaptation
 may be permitted
 inside approved ranges.
 ```
-
 ```text
 M5
 LOW-RISK
@@ -3475,7 +3470,6 @@ tightly defined,
 observable,
 reversible limits.
 ```
-
 ---
 
 # 12. Mutation Permission Profile — MPP
@@ -3504,7 +3498,6 @@ MAY CHANGE
 WITHOUT AN
 EXPLICIT MPP.
 ```
-
 
 Expanded AMOS representation:
 
@@ -3695,34 +3688,28 @@ ET1
 Plausible hypothesis.
 Eligible for sandbox.
 ```
-
 ```text
 ET2
 Repeatable offline evidence.
 Eligible for controlled pilot.
 ```
-
 ```text
 ET3
 Controlled production evidence.
 Eligible for limited release.
 ```
-
 ```text
 ET4
 Replicated evidence
 across relevant contexts.
 Supports broader rollout.
 ```
-
 ```text
 ET5
 High-confidence standard
 for high-consequence
 or difficult-to-reverse changes.
 ```
-
-
 ---
 
 # 18. Evidence Packet
@@ -3753,7 +3740,6 @@ REPLICATION STATUS
 
 TRANSFERABILITY LIMITS
 ```
-
 
 Expanded representation:
 
@@ -3838,7 +3824,6 @@ F(v)
 ]
 ```
 
-
 This is a vector of evaluation dimensions, not a universal quantitative equation.
 
 ---
@@ -3864,7 +3849,6 @@ PrivacyViolation
 !=
 AcceptableTradeoff
 ```
-
 ```text
 EngagementGain
 +
@@ -3872,7 +3856,6 @@ CoerciveBehavior
 !=
 AcceptableTradeoff
 ```
-
 ```text
 AccuracyGain
 +
@@ -3880,7 +3863,6 @@ UnauthorizedDataAccess
 !=
 AcceptableTradeoff
 ```
-
 These examples are explicit in the source framework.
 
 ---
@@ -3941,7 +3923,6 @@ MODEL AGREEMENT
 INDEPENDENT EVIDENCE
 ```
 
-
 This ties GMEF directly to AMOS v4.4 epistemic-regime and provenance discipline.
 
 ---
@@ -3996,13 +3977,11 @@ overfitting,
 measurement error,
 or selection bias
 ```
-
 ```text
 Hh:
 candidate introduces
 hidden harmful consequences
 ```
-
 ```text
 Hr:
 candidate works only
@@ -4010,8 +3989,6 @@ in current regime
 and fails after
 environmental change
 ```
-
-
 ---
 
 # 26. Required Refutation Questions
@@ -4083,7 +4060,6 @@ If any mandatory condition fails:
 Permit(v) = FALSE
 ```
 
-
 ---
 
 # 28. Structural Compression
@@ -4121,33 +4097,28 @@ System may propose only.
 HA1
 Offline testing permitted.
 ```
-
 ```text
 HA2
 Bounded experiments permitted
 under pre-approved policy.
 ```
-
 ```text
 HA3
 Human approval required
 for limited production release.
 ```
-
 ```text
 HA4
 Senior or independent approval
 required for high-consequence
 or architectural change.
 ```
-
 ```text
 HA5
 Constitutional revision.
 Separate human governance
 process only.
 ```
-
 And explicitly:
 
 ```text
@@ -4155,7 +4126,6 @@ MODEL OUTPUT
 !=
 AUTHORIZATION TOKEN
 ```
-
 
 ---
 
@@ -4282,7 +4252,6 @@ no privacy breach
 no security breach
 ```
 
-
 ---
 
 # 35. Stop Conditions
@@ -4333,7 +4302,6 @@ ESCALATE
 SHUTDOWN
 ```
 
-
 ---
 
 # 36. Reversibility Relation
@@ -4382,7 +4350,6 @@ ROLLBACK
 FORGETTING
 ```
 
-
 ---
 
 # 38. Evolutionary Memory
@@ -4428,7 +4395,6 @@ rollback_target
 
 final_status
 ```
-
 
 ---
 
@@ -4495,7 +4461,6 @@ NOT
 PROOF OF FAILURE
 ```
 
-
 ---
 
 # 41. Repair Architecture
@@ -4513,7 +4478,6 @@ R_t
 =
 effective repair capacity
 ```
-
 Structural viability condition:
 
 ```text
@@ -4626,14 +4590,11 @@ SECOND-ORDER EVOLUTION
 changes mechanisms
 that govern those changes
 ```
-
 ```text
 THIRD-ORDER EVOLUTION
 changes mechanisms
 governing second-order evolution
 ```
-
-
 ---
 
 # 46. Recursive Governance Relation
@@ -4722,7 +4683,6 @@ PAST SUCCESS
 PERMANENT AUTHORITY
 ```
 
-
 ---
 
 # 49. Regime Revalidation
@@ -4773,7 +4733,6 @@ INDEPENDENT EVALUATION
 WHERE FEASIBLE
 ```
 
-
 ---
 
 # 51. Human Authority Boundary
@@ -4806,7 +4765,6 @@ SCOPED
 REVIEWABLE
 REVOCABLE
 ```
-
 
 ---
 
@@ -5260,7 +5218,6 @@ ROLLBACK
 NEW STATE
 ```
 
-
 ---
 
 # 69. What May Evolve
@@ -5288,7 +5245,6 @@ INTERFACE VARIANTS
 BOUNDED
 RESOURCE ALLOCATION
 ```
-
 
 ---
 
@@ -5322,7 +5278,6 @@ IS REQUIRED
 UNRESTRICTED EXPANSION
 OF MACHINE AUTHORITY
 ```
-
 
 ---
 
@@ -5871,7 +5826,6 @@ Governed Machine
 Evolution Framework
 ```
 
-
 Later implementation note:
 
 ```text
@@ -5880,7 +5834,6 @@ GMEF
 Governance Mutation
 Evaluation Framework
 ```
-
 
 Recommended canonical resolution:
 
@@ -7056,7 +7009,6 @@ The key improvement here is that this is no longer mainly an inferred AMOS-v4.4 
 
 The largest remaining gap is implementation coverage: the evidence I found verifies a narrower GMEF mutation gate, not yet the entire canonical GMEF architecture—MPP, full lifecycle, X0–X6, ET0–ET5, HA0–HA5, evolutionary debt, repair-capacity logic, and the full audit contract should therefore **not** be marked implemented solely from that gate record.
 ```
-
 ---
 
 [[00_ROOT_MOC]]|[[AMOS MOC]]

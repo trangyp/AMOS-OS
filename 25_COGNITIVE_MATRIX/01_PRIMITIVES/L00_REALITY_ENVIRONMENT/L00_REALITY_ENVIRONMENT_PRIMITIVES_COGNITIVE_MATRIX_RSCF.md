@@ -54,23 +54,23 @@ into one undifferentiated concept of "truth."
 
 Every consequential conclusion should remain connected to:
 
-* the claim being made;
-* its epistemic class;
-* its load-bearing premises;
-* supporting and contradicting evidence;
-* evidence ancestry;
-* scope;
-* regime;
-* temporal validity;
-* causal level;
-* dependencies;
-* competing hypotheses;
-* falsifiers;
-* sensitivity;
-* uncertainty;
-* confidence ceiling;
-* consequence;
-* governance state.
+- the claim being made;
+- its epistemic class;
+- its load-bearing premises;
+- supporting and contradicting evidence;
+- evidence ancestry;
+- scope;
+- regime;
+- temporal validity;
+- causal level;
+- dependencies;
+- competing hypotheses;
+- falsifiers;
+- sensitivity;
+- uncertainty;
+- confidence ceiling;
+- consequence;
+- governance state.
 
 The governing principle is:
 
@@ -710,8 +710,8 @@ G_R
 
 where:
 
-* \(V_R\) = RSCF nodes;
-* \(E_R\) = typed dependency relations.
+- \(V_R\) = RSCF nodes;
+- \(E_R\) = typed dependency relations.
 
 Possible edges:
 
@@ -3007,21 +3007,21 @@ G
 
 where:
 
-* \(C\) = claim;
-* \(P\) = premises;
-* \(E\) = evidence;
-* (Prov) = provenance;
-* \(S\) = scope;
-* \(R\) = regime;
-* \(T\) = temporal validity;
-* (Cause) = causal level;
-* \(D\) = dependencies;
-* \(H\) = competing hypotheses;
-* \(F\) = falsifiers;
-* \(U\) = uncertainty;
-* (Conf) = confidence ceiling;
-* \(K\) = consequence;
-* \(G\) = governance.
+- \(C\) = claim;
+- \(P\) = premises;
+- \(E\) = evidence;
+- (Prov) = provenance;
+- \(S\) = scope;
+- \(R\) = regime;
+- \(T\) = temporal validity;
+- (Cause) = causal level;
+- \(D\) = dependencies;
+- \(H\) = competing hypotheses;
+- \(F\) = falsifiers;
+- \(U\) = uncertainty;
+- (Conf) = confidence ceiling;
+- \(K\) = consequence;
+- \(G\) = governance.
 
 ---
 

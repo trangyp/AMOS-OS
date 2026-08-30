@@ -1,3 +1,16 @@
+---
+title: AMOS_AGILE_DELIVERY_KERNEL_V0_TECH7_3
+type: note
+source: 11_KNOWLEDGE
+tags:
+- vault
+- 11_knowledge
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+---
 # AMOS AGILE DELIVERY KERNEL V0 TECH7 3
 
 ## Full Canonical Expansion — Source-Grounded, RSCF-Aware, Obsidian-Ready
@@ -325,10 +338,10 @@ $$
 
 where:
 
-* \(P\) = planning,
-* \(F\) = flow management,
-* \(L\) = retrospective learning,
-* \(M\) = measurement.
+- \(P\) = planning,
+- \(F\) = flow management,
+- \(L\) = retrospective learning,
+- \(M\) = measurement.
 
 This decomposition is DERIVED rather than explicit source terminology.
 
@@ -418,13 +431,13 @@ $$
 
 where:
 
-* \(B\) = product backlog,
-* \(C\) = team capacity,
-* \(G\) = sprint goal,
-* \(V\) = past velocity,
-* \(SB\) = sprint backlog,
-* \(SP\) = sprint plan,
-* \(CE\) = commitment estimate.
+- \(B\) = product backlog,
+- \(C\) = team capacity,
+- \(G\) = sprint goal,
+- \(V\) = past velocity,
+- \(SB\) = sprint backlog,
+- \(SP\) = sprint plan,
+- \(CE\) = commitment estimate.
 
 This equation describes the source interface only.
 
@@ -438,14 +451,14 @@ It is **not** a source-supplied calculation.
 
 The source does not define:
 
-* backlog schema,
-* item type,
-* priority semantics,
-* dependency representation,
-* estimation unit,
-* acceptance criteria,
-* readiness criteria,
-* ordering algorithm.
+- backlog schema,
+- item type,
+- priority semantics,
+- dependency representation,
+- estimation unit,
+- acceptance criteria,
+- readiness criteria,
+- ordering algorithm.
 
 Therefore:
 
@@ -549,13 +562,13 @@ confidence intervals
 
 The source does not specify whether it contains:
 
-* selected backlog items,
-* tasks,
-* estimates,
-* dependencies,
-* ownership,
-* acceptance criteria,
-* risk flags.
+- selected backlog items,
+- tasks,
+- estimates,
+- dependencies,
+- ownership,
+- acceptance criteria,
+- risk flags.
 
 Do not invent the schema.
 
@@ -590,12 +603,12 @@ but that interpretation is DERIVED.
 
 The source does not define whether it means:
 
-* probability of completing the sprint backlog,
-* amount of work the team should select,
-* confidence score,
-* forecast range,
-* deterministic commitment,
-* planning recommendation.
+- probability of completing the sprint backlog,
+- amount of work the team should select,
+- confidence score,
+- forecast range,
+- deterministic commitment,
+- planning recommendation.
 
 Therefore:
 
@@ -685,13 +698,13 @@ $$
 
 where:
 
-* \(W\) = work items,
-* \(L\) = WIP limits,
-* \(C\) = cycle-time data,
-* \(D\) = flow diagrams,
-* \(B\) = Kanban board,
-* \(M\) = flow metrics,
-* \(X\) = bottleneck identification.
+- \(W\) = work items,
+- \(L\) = WIP limits,
+- \(C\) = cycle-time data,
+- \(D\) = flow diagrams,
+- \(B\) = Kanban board,
+- \(M\) = flow metrics,
+- \(X\) = bottleneck identification.
 
 Again, the function is a structural representation, not supplied executable mathematics.
 
@@ -744,13 +757,13 @@ Therefore this is a **MODEL/DERIVED interpretation**, not a recovered source law
 
 Unknown:
 
-* per-column vs global,
-* hard vs soft,
-* team vs service class,
-* static vs dynamic,
-* exception policy,
-* escalation behavior,
-* breach response.
+- per-column vs global,
+- hard vs soft,
+- team vs service class,
+- static vs dynamic,
+- exception policy,
+- escalation behavior,
+- breach response.
 
 So:
 
@@ -782,11 +795,11 @@ is not canonically instantiated until event semantics are defined.
 
 The source does not specify whether these are:
 
-* cumulative flow diagrams,
-* process diagrams,
-* value-stream maps,
-* state-transition diagrams,
-* another representation.
+- cumulative flow diagrams,
+- process diagrams,
+- value-stream maps,
+- state-transition diagrams,
+- another representation.
 
 Because the capability list separately names `cumulative flow`, treating all `flow_diagrams` as cumulative-flow diagrams would be unsupported.
 
@@ -877,15 +890,15 @@ $$
 
 Possible explanations may include:
 
-* dependency delay,
-* resource shortage,
-* batching,
-* review bottleneck,
-* demand spike,
-* policy constraint,
-* estimation error,
-* quality rework,
-* blocked external dependency.
+- dependency delay,
+- resource shortage,
+- batching,
+- review bottleneck,
+- demand spike,
+- policy constraint,
+- estimation error,
+- quality rework,
+- blocked external dependency.
 
 Without discriminating evidence, they remain competing explanations.
 
@@ -922,13 +935,13 @@ $$
 
 where:
 
-* \(S\) = sprint data,
-* \(F\) = team feedback,
-* \(M\) = metric trends,
-* \(I\) = incident history,
-* \(R\) = retrospective insights,
-* \(A\) = action items,
-* \(P\) = process improvements.
+- \(S\) = sprint data,
+- \(F\) = team feedback,
+- \(M\) = metric trends,
+- \(I\) = incident history,
+- \(R\) = retrospective insights,
+- \(A\) = action items,
+- \(P\) = process improvements.
 
 ---
 
@@ -990,13 +1003,13 @@ If both downstream functions reach the same conclusion from the same sprint data
 
 But the source does not define:
 
-* trend window,
-* smoothing,
-* significance,
-* baseline,
-* control limits,
-* trend reversal,
-* missing observations.
+- trend window,
+- smoothing,
+- significance,
+- baseline,
+- control limits,
+- trend reversal,
+- missing observations.
 
 Thus:
 
@@ -1131,13 +1144,13 @@ $$
 
 where:
 
-* \(S\) = sprint data,
-* \(F\) = flow data,
-* \(V\) = team velocity,
-* \(Q\) = quality metrics,
-* \(D\) = metrics dashboard,
-* \(T\) = trend analysis,
-* \(P\) = predictive estimates.
+- \(S\) = sprint data,
+- \(F\) = flow data,
+- \(V\) = team velocity,
+- \(Q\) = quality metrics,
+- \(D\) = metrics dashboard,
+- \(T\) = trend analysis,
+- \(P\) = predictive estimates.
 
 ---
 
@@ -1208,13 +1221,13 @@ The source establishes that the function produces an output with that name.
 
 It does not establish:
 
-* model family,
-* training data,
-* forecast horizon,
-* uncertainty interval,
-* accuracy,
-* calibration,
-* validation protocol.
+- model family,
+- training data,
+- forecast horizon,
+- uncertainty interval,
+- accuracy,
+- calibration,
+- validation protocol.
 
 Therefore:
 
@@ -1365,11 +1378,11 @@ However, `continuous delivery` has no explicit function or implementation contra
 
 The phrase `continuous delivery` should not automatically be interpreted as:
 
-* CI/CD automation,
-* deployment pipelines,
-* production release automation,
-* DevOps tooling,
-* continuous deployment.
+- CI/CD automation,
+- deployment pipelines,
+- production release automation,
+- DevOps tooling,
+- continuous deployment.
 
 The source only lists it as a Kanban capability.
 
@@ -1462,12 +1475,12 @@ $$
 
 where:
 
-* \(V\) = velocity,
-* \(CT\) = cycle time,
-* \(LT\) = lead time,
-* \(TP\) = throughput,
-* \(WIP\) = work in progress,
-* \(CF\) = cumulative flow.
+- \(V\) = velocity,
+- \(CT\) = cycle time,
+- \(LT\) = lead time,
+- \(TP\) = throughput,
+- \(WIP\) = work in progress,
+- \(CF\) = cumulative flow.
 
 This notation is DERIVED.
 
@@ -1596,11 +1609,11 @@ QualityMetricSchema = UNKNOWN/GAP
 
 Do not invent:
 
-* defect density,
-* escaped defects,
-* test coverage,
-* reliability,
-* customer satisfaction.
+- defect density,
+- escaped defects,
+- test coverage,
+- reliability,
+- customer satisfaction.
 
 Those may be candidates but are not source-grounded here.
 
@@ -1624,12 +1637,12 @@ $$
 
 where:
 
-* \(B_t\): backlog/work state,
-* \(C_t\): capacity state,
-* \(G_t\): goal,
-* \(F_t\): flow state,
-* \(Q_t\): quality evidence,
-* \(H_t\): historical evidence.
+- \(B_t\): backlog/work state,
+- \(C_t\): capacity state,
+- \(G_t\): goal,
+- \(F_t\): flow state,
+- \(Q_t\): quality evidence,
+- \(H_t\): historical evidence.
 
 Then:
 

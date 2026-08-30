@@ -53,6 +53,11 @@ tags:
 - source-lineage
 aliases:
 - AMOS OS Dependency Map - Dependency Map - AMOS Dependency Topology - DEPENDENCY_MAP
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: root_index
 ---
 
 # AMOS OS Dependency Map

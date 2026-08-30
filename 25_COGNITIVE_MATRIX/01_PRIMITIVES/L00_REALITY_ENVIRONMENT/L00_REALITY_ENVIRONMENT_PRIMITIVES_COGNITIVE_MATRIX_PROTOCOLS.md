@@ -42,29 +42,29 @@ P:
 
 A valid protocol must specify:
 
-* participants;
-* roles;
-* typed messages;
-* admissible states;
-* state transitions;
-* preconditions;
-* postconditions;
-* read/write sets;
-* evidence requirements;
-* provenance requirements;
-* authority requirements;
-* scope;
-* regime;
-* temporal validity;
-* acknowledgements;
-* retries;
-* idempotency;
-* commit semantics;
-* failure states;
-* recovery;
-* rollback;
-* auditability;
-* falsifiers.
+- participants;
+- roles;
+- typed messages;
+- admissible states;
+- state transitions;
+- preconditions;
+- postconditions;
+- read/write sets;
+- evidence requirements;
+- provenance requirements;
+- authority requirements;
+- scope;
+- regime;
+- temporal validity;
+- acknowledgements;
+- retries;
+- idempotency;
+- commit semantics;
+- failure states;
+- recovery;
+- rollback;
+- auditability;
+- falsifiers.
 
 ---
 
@@ -274,10 +274,10 @@ E_t
 
 where:
 
-* \(M_t\) = received message;
-* \(C_t\) = constraints/context;
-* \(A_t\) = authority state;
-* \(E_t\) = evidence state.
+- \(M_t\) = received message;
+- \(C_t\) = constraints/context;
+- \(A_t\) = authority state;
+- \(E_t\) = evidence state.
 
 ---
 
@@ -484,14 +484,14 @@ ProvenanceGraph
 
 Required operations:
 
-* resolve source identity;
-* resolve ancestry;
-* detect aliases;
-* detect shared origin;
-* detect derived evidence;
-* detect replay;
-* detect revocation;
-* determine independence groups.
+- resolve source identity;
+- resolve ancestry;
+- detect aliases;
+- detect shared origin;
+- detect derived evidence;
+- detect replay;
+- detect revocation;
+- determine independence groups.
 
 Hard invariant:
 
@@ -801,35 +801,35 @@ The same evidence may remain valid for one claim while becoming stale for anothe
 
 H-level protocols govern:
 
-* system-wide constraints;
-* architecture state;
-* authority;
-* high-consequence effects;
-* cross-domain coordination;
-* governance;
-* global invariants.
+- system-wide constraints;
+- architecture state;
+- authority;
+- high-consequence effects;
+- cross-domain coordination;
+- governance;
+- global invariants.
 
 ## M — Subsystem Protocols
 
 M-level protocols govern:
 
-* domain capabilities;
-* agent coordination;
-* memory subsystems;
-* workflows;
-* evidence aggregation;
-* subsystem repair.
+- domain capabilities;
+- agent coordination;
+- memory subsystems;
+- workflows;
+- evidence aggregation;
+- subsystem repair.
 
 ## L — Local Protocols
 
 L-level protocols govern:
 
-* individual observations;
-* measurements;
-* retrievals;
-* tool calls;
-* local transformations;
-* local validations.
+- individual observations;
+- measurements;
+- retrievals;
+- tool calls;
+- local transformations;
+- local validations.
 
 ---
 
@@ -1756,14 +1756,14 @@ Memory_{t+1}
 
 Mutation must preserve:
 
-* old state;
-* new state;
-* reason;
-* evidence;
-* provenance;
-* dependencies;
-* affected descendants;
-* rollback reference.
+- old state;
+- new state;
+- reason;
+- evidence;
+- provenance;
+- dependencies;
+- affected descendants;
+- rollback reference.
 
 ---
 
@@ -2019,13 +2019,13 @@ U_P
 
 where:
 
-* \(U_E\) = evidence uncertainty;
-* \(U_M\) = model uncertainty;
-* \(U_S\) = scope uncertainty;
-* \(U_T\) = temporal uncertainty;
-* \(U_C\) = causal uncertainty;
-* \(U_X\) = execution uncertainty;
-* \(U_P\) = provenance-independence uncertainty.
+- \(U_E\) = evidence uncertainty;
+- \(U_M\) = model uncertainty;
+- \(U_S\) = scope uncertainty;
+- \(U_T\) = temporal uncertainty;
+- \(U_C\) = causal uncertainty;
+- \(U_X\) = execution uncertainty;
+- \(U_P\) = provenance-independence uncertainty.
 
 ---
 
@@ -2097,10 +2097,10 @@ When a protocol fails:
 
 Let:
 
-* \(S_V\) = unaffected valid state;
-* \(S_F\) = failed state;
-* \(D_F\) = dependent state;
-* \(R_F\) = repaired state.
+- \(S_V\) = unaffected valid state;
+- \(S_F\) = failed state;
+- \(D_F\) = dependent state;
+- \(R_F\) = repaired state.
 
 Then:
 

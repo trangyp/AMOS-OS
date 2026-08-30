@@ -7,6 +7,11 @@ tags:
 - hml
 - scales
 - canon
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: universe_canon
 ---
 
 # Khung Trang H/M/L Scale Partitioning

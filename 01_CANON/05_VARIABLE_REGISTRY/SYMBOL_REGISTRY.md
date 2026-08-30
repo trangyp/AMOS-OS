@@ -56,6 +56,11 @@ tags:
 aliases:
 - AMOS Symbol Registry - Symbol Registry - AMOS Notation Registry - AMOS Semantic
   Symbol Table
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # AMOS Symbol Registry

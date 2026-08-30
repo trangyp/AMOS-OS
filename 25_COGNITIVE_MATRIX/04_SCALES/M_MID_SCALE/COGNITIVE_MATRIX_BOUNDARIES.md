@@ -37,7 +37,6 @@ IMPLEMENTATION != VALIDATION
 UNKNOWN/GAP != PASS
 ```
 
-
 ## Hard boundaries
 
 ```text

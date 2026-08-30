@@ -249,13 +249,13 @@ Câu trả lời nằm ở **Phần còn lại của cuốn sách này**.
 * * *
 **Chương 2: Cái bẫy tuyến tính – Vì sao đường thẳng, hỗ trợ/kháng cự, và breakout là những cái bẫy chết người nhất trong trading.**
 Bạn sẽ được học:
-  * Tại sao một **đường xu hướng** có 100 cách vẽ khác nhau, và 99 cách trong số đó là sai.
+  - Tại sao một **đường xu hướng** có 100 cách vẽ khác nhau, và 99 cách trong số đó là sai.
 
 
-  * Tại sao **hỗ trợ và kháng cự** không phải là đường kẻ, mà là **vùng có cấu trúc fractal**.
+  - Tại sao **hỗ trợ và kháng cự** không phải là đường kẻ, mà là **vùng có cấu trúc fractal**.
 
 
-  * Tại sao **breakout** đánh lừa 80% trader, và làm thế nào để phân biệt breakout thật – giả.
+  - Tại sao **breakout** đánh lừa 80% trader, và làm thế nào để phân biệt breakout thật – giả.
 
 
 **Hẹn bạn ở Chương 2.**
@@ -265,16 +265,16 @@ Bạn sẽ được học:
 * * *
 ### 2.1. MỞ ĐẦU: CÁI BẪY LỚN NHẤT MÀ BẠN KHÔNG BIẾT
 Bạn đã được dạy rằng:
-  * Vẽ đường xu hướng (trend line) để biết thị trường đang đi lên hay xuống.
+  - Vẽ đường xu hướng (trend line) để biết thị trường đang đi lên hay xuống.
 
 
-  * Xác định hỗ trợ và kháng cự (support/resistance) để đặt lệnh.
+  - Xác định hỗ trợ và kháng cự (support/resistance) để đặt lệnh.
 
 
-  * Chờ breakout để vào lệnh theo xu hướng mới.
+  - Chờ breakout để vào lệnh theo xu hướng mới.
 
 
-  * Đặt stop loss dưới đáy gần nhất hoặc trên đỉnh gần nhất.
+  - Đặt stop loss dưới đáy gần nhất hoặc trên đỉnh gần nhất.
 
 
 **Đó là cái bẫy tuyến tính.**
@@ -323,13 +323,13 @@ Một đường xu hướng thẳng (straight line) không thể mô tả một 
 Công thức fractal cơ bản:
 > **L(ε) = k × ε^(1-D)**
 Trong đó:
-  * **L(ε)** là độ dài thực tế của đường giá khi đo với "thước" có kích thước ε
+  - **L(ε)** là độ dài thực tế của đường giá khi đo với "thước" có kích thước ε
 
 
-  * **D** là số chiều fractal (fractal dimension) – với thị trường tài chính, D thường dao động **1.2 – 1.5**
+  - **D** là số chiều fractal (fractal dimension) – với thị trường tài chính, D thường dao động **1.2 – 1.5**
 
 
-  * **k** là hằng số
+  - **k** là hằng số
 
 
 **Nói đơn giản:** Đường giá thực tế dài gấp **2-3 lần** đường xu hướng thẳng mà bạn vẽ. Bạn đang bỏ qua **60-70% biến động thực sự** của thị trường.
@@ -475,13 +475,13 @@ Hãy dành 5 phút để xem lại lịch sử giao dịch của bạn. Trả l�
 * * *
 **Chương 3:** _" Những điều không ai nhìn thấy"_ – lời giới thiệu về ngôn ngữ fractal: tự đồng dạng (self-similarity), lacunarity (Λ), entropy fractal (E), cascade 10 bậc sụp đổ và 12 bậc phục hồi, cùng mutation (đột biến) và survival (sống sót).
 Bạn sẽ học được:
-  * Tại sao **một mô hình giá trên M5** có thể dự báo chính xác xu hướng trên H4.
+  - Tại sao **một mô hình giá trên M5** có thể dự báo chính xác xu hướng trên H4.
 
 
-  * Làm thế nào để **đo độ hỗn loạn của thị trường (E)** và chỉ trade khi E ở "vùng vàng".
+  - Làm thế nào để **đo độ hỗn loạn của thị trường (E)** và chỉ trade khi E ở "vùng vàng".
 
 
-  * Làm thế nào để **phát hiện "đột biến"** (news, spike, gap) sống sót – và vào lệnh cùng nó.
+  - Làm thế nào để **phát hiện "đột biến"** (news, spike, gap) sống sót – và vào lệnh cùng nó.
 
 
 **Hẹn bạn ở Chương 3.**
@@ -491,13 +491,13 @@ Bạn sẽ học được:
 * * *
 ### 3.1. MỞ ĐẦU: BẠN ĐÃ NHÌN SAI THỨ TỪ ĐẦU
 Bạn đã được dạy rằng:
-  * Thị trường là **bước đi ngẫu nhiên** (random walk) – không thể dự đoán.
+  - Thị trường là **bước đi ngẫu nhiên** (random walk) – không thể dự đoán.
 
 
-  * Giá cả phản ánh tất cả thông tin – không có lợi thế.
+  - Giá cả phản ánh tất cả thông tin – không có lợi thế.
 
 
-  * Chỉ có **xác suất** và **may rủi**.
+  - Chỉ có **xác suất** và **may rủi**.
 
 
 **Đó là lời nói dối lớn nhất trong lịch sử tài chính.**
@@ -528,13 +528,13 @@ Chương này sẽ giới thiệu **5 khái niệm fractal cốt lõi** của **
 
 
 **Tỷ lệ:**
-  * Range H1 / Range M5 = 32 / 8 = **4.0**
+  - Range H1 / Range M5 = 32 / 8 = **4.0**
 
 
-  * Thời gian H1 / Thời gian M5 = 180 / 90 = **2.0**
+  - Thời gian H1 / Thời gian M5 = 180 / 90 = **2.0**
 
 
-  * Di chuyển H1 / Di chuyển M5 = 96 / 24 = **4.0**
+  - Di chuyển H1 / Di chuyển M5 = 96 / 24 = **4.0**
 
 
 **Hằng số fractal của mô hình này là 4.0 – không phải ngẫu nhiên.**
@@ -579,25 +579,25 @@ Mô hình Fibonacci thoái lui (Fibonacci retracement) nổi tiếng với các 
 **Định nghĩa Trang ∅:**
 > _" Lacunarity (Λ) đo mức độ 'rỗng' (hay 'đặc') của một cấu trúc fractal. Λ thấp có nghĩa là cấu trúc đặc, các khoảng trống nhỏ và phân bố đều. Λ cao có nghĩa là cấu trúc rỗng, có nhiều khoảng trống lớn."_
 Trong thị trường tài chính:
-  * **Λ thấp** (< 0.1): Cấu trúc giá **đặc** – các mức giá sít nhau, khó có breakout mạnh. Giá thường **bật lại** (bounce) từ các biên.
+  - **Λ thấp** (< 0.1): Cấu trúc giá **đặc** – các mức giá sít nhau, khó có breakout mạnh. Giá thường **bật lại** (bounce) từ các biên.
 
 
-  * **Λ cao** (> 0.3): Cấu trúc giá **rỗng** – có nhiều khoảng trống (gaps), giá di chuyển nhanh qua các vùng này. Breakout từ vùng Λ cao thường **rất mạnh**.
+  - **Λ cao** (> 0.3): Cấu trúc giá **rỗng** – có nhiều khoảng trống (gaps), giá di chuyển nhanh qua các vùng này. Breakout từ vùng Λ cao thường **rất mạnh**.
 
 
 **Công thức tính Lacunarity (Λ) đơn giản hóa (dùng cho trader):**
 > **Λ = (Phương sai của khoảng cách giữa các mức giá) / (Trung bình khoảng cách)²**
 **Nói đơn giản:**
-  * Lấy 50-100 cây nến gần nhất.
+  - Lấy 50-100 cây nến gần nhất.
 
 
-  * Đo khoảng cách (theo pip) giữa các mức High và Low liên tiếp.
+  - Đo khoảng cách (theo pip) giữa các mức High và Low liên tiếp.
 
 
-  * Nếu các khoảng cách này **gần bằng nhau** → Λ thấp (cấu trúc đặc).
+  - Nếu các khoảng cách này **gần bằng nhau** → Λ thấp (cấu trúc đặc).
 
 
-  * Nếu có một vài khoảng cách **rất lớn** , còn lại nhỏ → Λ cao (cấu trúc rỗng).
+  - Nếu có một vài khoảng cách **rất lớn** , còn lại nhỏ → Λ cao (cấu trúc rỗng).
 
 
 **Ví dụ thực tế #3: Λ thấp – cấu trúc đặc, trade bounce**
@@ -614,21 +614,21 @@ Trong thị trường tài chính:
 
 
 **Phân tích:**
-  * Các khoảng cách (range) gần như bằng nhau: 11-15 pip.
+  - Các khoảng cách (range) gần như bằng nhau: 11-15 pip.
 
 
-  * Λ (tính nhanh) ≈ **0.08** (rất thấp).
+  - Λ (tính nhanh) ≈ **0.08** (rất thấp).
 
 
 **Kết luận:** Cấu trúc đặc → khó breakout. Giá có xu hướng **bật lại** ở các biên (1.2655 và 1.2680).
 **Giao dịch thực tế:**
-  * **Entry:** Mua tại 1.2658 (gần biên dưới), bán tại 1.2678 (gần biên trên)
+  - **Entry:** Mua tại 1.2658 (gần biên dưới), bán tại 1.2678 (gần biên trên)
 
 
-  * **Stop loss:** 10 pip ngoài biên
+  - **Stop loss:** 10 pip ngoài biên
 
 
-  * **Take profit:** Biên đối diện (20-25 pip)
+  - **Take profit:** Biên đối diện (20-25 pip)
 
 
 **Kết quả (ngày 15/12/2024):**
@@ -652,27 +652,27 @@ Trong thị trường tài chính:
 
 
 **Phân tích:**
-  * Các khoảng cách bình thường: 15-20 pip.
+  - Các khoảng cách bình thường: 15-20 pip.
 
 
-  * Tại 13:00, range spike lên **80 pip** (gấp 4-5 lần).
+  - Tại 13:00, range spike lên **80 pip** (gấp 4-5 lần).
 
 
-  * Sau spike, range thu hẹp nhưng **giá giữ ở mức cao mới** (150.05 – 150.35).
+  - Sau spike, range thu hẹp nhưng **giá giữ ở mức cao mới** (150.05 – 150.35).
 
 
-  * Λ tại vùng 150.00 – 150.30 rất cao (cấu trúc rỗng).
+  - Λ tại vùng 150.00 – 150.30 rất cao (cấu trúc rỗng).
 
 
 **Kết luận:** Mutation (đột biến) sống sót. Breakout đã xảy ra.
 **Giao dịch thực tế:**
-  * **Entry:** Mua tại 150.10 (sau 30 phút xác nhận)
+  - **Entry:** Mua tại 150.10 (sau 30 phút xác nhận)
 
 
-  * **Stop loss:** 149.70 (40 pip)
+  - **Stop loss:** 149.70 (40 pip)
 
 
-  * **Take profit:** 151.00 (90 pip)
+  - **Take profit:** 151.00 (90 pip)
 
 
 **Kết quả:** Giá chạm 151.20 vào cuối ngày → **+110 pip**.
@@ -694,16 +694,16 @@ Trong thị trường tài chính:
 **Công thức tính Entropy (E) đơn giản hóa (dùng cho trader):**
 > **E = – Σ p(x) × log₂(p(x))**
 **Nói đơn giản:**
-  * Chia biến động giá trong 1 giờ thành 4 mức: Tăng mạnh, Tăng nhẹ, Giảm nhẹ, Giảm mạnh.
+  - Chia biến động giá trong 1 giờ thành 4 mức: Tăng mạnh, Tăng nhẹ, Giảm nhẹ, Giảm mạnh.
 
 
-  * Đếm số lần xuất hiện của mỗi mức.
+  - Đếm số lần xuất hiện của mỗi mức.
 
 
-  * Nếu một mức **chiếm ưu thế** (> 60%) → E thấp (trật tự).
+  - Nếu một mức **chiếm ưu thế** (> 60%) → E thấp (trật tự).
 
 
-  * Nếu **cả 4 mức xuất hiện gần như đều nhau** (25% mỗi mức) → E cao (hỗn loạn).
+  - Nếu **cả 4 mức xuất hiện gần như đều nhau** (25% mỗi mức) → E cao (hỗn loạn).
 
 
 **Ví dụ thực tế #5: E thấp – thị trường có xu hướng**
@@ -718,13 +718,13 @@ Trong thị trường tài chính:
 
 **Phân tích:** Từ 8:00 – 11:00, nến tăng chiếm 80-100%. E rất thấp → thị trường có xu hướng TĂNG mạnh.
 **Giao dịch thực tế:**
-  * **Entry:** Mua tại 1.0920 (9:15)
+  - **Entry:** Mua tại 1.0920 (9:15)
 
 
-  * **Stop loss:** 1.0900 (20 pip)
+  - **Stop loss:** 1.0900 (20 pip)
 
 
-  * **Take profit:** 1.0980 (60 pip)
+  - **Take profit:** 1.0980 (60 pip)
 
 
 **Kết quả:** Giá chạm 1.0975 → **+55 pip** (gần target).
@@ -813,10 +813,10 @@ Trong thị trường tài chính:
 
 
 **Số liệu từ 200 chu kỳ phục hồi:**
-  * **Tỷ lệ thành công của chiến thuật cascade:** 82% (so với "buy and hold" chỉ 55%).
+  - **Tỷ lệ thành công của chiến thuật cascade:** 82% (so với "buy and hold" chỉ 55%).
 
 
-  * **Lợi nhuận trung bình mỗi chu kỳ:** 280 pip (so với 220 pip của buy and hold, nhưng rủi ro thấp hơn 40%).
+  - **Lợi nhuận trung bình mỗi chu kỳ:** 280 pip (so với 220 pip của buy and hold, nhưng rủi ro thấp hơn 40%).
 
 
 * * *
@@ -847,19 +847,19 @@ Trong thị trường tài chính:
 
 
 **Giao dịch đúng cách:**
-  * **Không** mua ở 13:30:00 (spike).
+  - **Không** mua ở 13:30:00 (spike).
 
 
-  * **Chờ 15 phút**.
+  - **Chờ 15 phút**.
 
 
-  * **Mua tại 1.0970** sau khi giá ổn định.
+  - **Mua tại 1.0970** sau khi giá ổn định.
 
 
-  * **Stop loss:** 1.0940 (30 pip)
+  - **Stop loss:** 1.0940 (30 pip)
 
 
-  * **Take profit:** 1.1050 (80 pip)
+  - **Take profit:** 1.1050 (80 pip)
 
 
 **Kết quả:** Giá chạm 1.1060 → **+90 p ip**.
@@ -888,18 +888,18 @@ Trong thị trường tài chính:
 * * *
 ### 3.8. KẾT PHẦN I: TỪ GIỜ, BẠN NHÌN THỊ TRƯỜNG BẰNG MẮT KHÁC
 **Bạn đã học được:**
-  * **Chương 1:** Vì sao 99% trader thua lỗ – và đó không phải lỗi của bạn. Đó là lỗi của **hệ thống** (broker, indicator, tâm lý bị thao túng).
+  - **Chương 1:** Vì sao 99% trader thua lỗ – và đó không phải lỗi của bạn. Đó là lỗi của **hệ thống** (broker, indicator, tâm lý bị thao túng).
 
 
-  * **Chương 2:** Tại sao **tư duy tuyến tính** (đường xu hướng, hỗ trợ/kháng cự, breakout) là cái bẫy lớn nhất – và làm thế nào để thoát.
+  - **Chương 2:** Tại sao **tư duy tuyến tính** (đường xu hướng, hỗ trợ/kháng cự, breakout) là cái bẫy lớn nhất – và làm thế nào để thoát.
 
 
-  * **Chương 3:** **Ngôn ngữ fractal** – công cụ thay thế cho tất cả những thứ bạn từng học. Bạn đã có:
-    * **Tự đồng dạng** (self-similarity) để dự báo breakout.
-    * **Lacunarity (Λ)** để biết khi nào giá sẽ bật, khi nào sẽ phá.
-    * **Entropy (E)** để biết khi nào nên trade xu hướng, khi nào nên dừng.
-    * **Cascade** để biết mình đang ở đâu trong chu kỳ sụp đổ và phục hồi.
-    * **Mutation & Survival** để biết spike, gap, news nào đáng để vào lệnh.
+  - **Chương 3:** **Ngôn ngữ fractal** – công cụ thay thế cho tất cả những thứ bạn từng học. Bạn đã có:
+    - **Tự đồng dạng** (self-similarity) để dự báo breakout.
+    - **Lacunarity (Λ)** để biết khi nào giá sẽ bật, khi nào sẽ phá.
+    - **Entropy (E)** để biết khi nào nên trade xu hướng, khi nào nên dừng.
+    - **Cascade** để biết mình đang ở đâu trong chu kỳ sụp đổ và phục hồi.
+    - **Mutation & Survival** để biết spike, gap, news nào đáng để vào lệnh.
 
 
 **Bạn đã có trong tay bộ công cụ mạnh hơn 99% trader.**
@@ -925,19 +925,19 @@ Mọi thị trường tài chính, ở mọi quy mô, đều có cấu trúc ba 
 
 **Phát hiện cốt lõi:** Ba tầng này lặp lại ở mọi fractal scale – từ tick đến W1, từ một lệnh đơn lẻ đến toàn bộ thị trường toàn cầu.
 **Thống kê quan trọng:**
-  * 92% trader chỉ nhìn vào tầng H (breakout, reversal, xu hướng)
+  - 92% trader chỉ nhìn vào tầng H (breakout, reversal, xu hướng)
 
 
-  * 7% trader có hiểu biết về tầng M (correlation, order flow)
+  - 7% trader có hiểu biết về tầng M (correlation, order flow)
 
 
-  * Chỉ 1% trader hiểu và ứng dụng được tầng L
+  - Chỉ 1% trader hiểu và ứng dụng được tầng L
 
 
-  * Tỷ lệ thắng trung bình của trader chỉ nhìn H: 35-45%
+  - Tỷ lệ thắng trung bình của trader chỉ nhìn H: 35-45%
 
 
-  * Tỷ lệ thắng khi kết hợp cả ba tầng: 65-80%
+  - Tỷ lệ thắng khi kết hợp cả ba tầng: 65-80%
 
 
 * * *
@@ -956,40 +956,40 @@ Mọi thị trường tài chính, ở mọi quy mô, đều có cấu trúc ba 
 **Công thức Trang ∅ cho tầng L:**
 L_strength = (Liquidity_Depth) × (1 - Entropy_L) × (Time_Factor)
 Trong đó:
-  * Liquidity_Depth: 0 (không có thanh khoản) đến 1 (rất sâu)
+  - Liquidity_Depth: 0 (không có thanh khoản) đến 1 (rất sâu)
 
 
-  * Entropy_L: 0 (trật tự tuyệt đối) đến 1 (hỗn loạn)
+  - Entropy_L: 0 (trật tự tuyệt đối) đến 1 (hỗn loạn)
 
 
-  * Time_Factor: 1.0 (giờ giao dịch sôi đ ộng) đến 0.5 (giờ chết)
+  - Time_Factor: 1.0 (giờ giao dịch sôi đ ộng) đến 0.5 (giờ chết)
 
 
 **Ví dụ tính toán L_strength:**
 Tình huống 1: Giá tại số tròn 1.1000 lúc 10:00 GMT
-  * Liquidity_Depth = 0.85 (nhiều lệnh chờ)
+  - Liquidity_Depth = 0.85 (nhiều lệnh chờ)
 
 
-  * Entropy_L = 0.06 (rất trật tự)
+  - Entropy_L = 0.06 (rất trật tự)
 
 
-  * Time_Factor = 1.0 (giờ London sôi động)
+  - Time_Factor = 1.0 (giờ London sôi động)
 
 
-  * L_strength = 0.85 × 0.94 × 1.0 = 0.80 (rất mạnh)
+  - L_strength = 0.85 × 0.94 × 1.0 = 0.80 (rất mạnh)
 
 
 Tình huống 2: Giá tại 1.1023 (không phải số tròn) lúc 03:00 GMT
-  * Liquidity_Depth = 0.35 (ít lệnh)
+  - Liquidity_Depth = 0.35 (ít lệnh)
 
 
-  * Entropy_L = 0.15 (trật tự vừa)
+  - Entropy_L = 0.15 (trật tự vừa)
 
 
-  * Time_Factor = 0.6 (giờ Á, thanh khoản thấp)
+  - Time_Factor = 0.6 (giờ Á, thanh khoản thấp)
 
 
-  * L_strength = 0.35 × 0.85 × 0.6 = 0.18 (yếu)
+  - L_strength = 0.35 × 0.85 × 0.6 = 0.18 (yếu)
 
 
 **Kết luận:** Ở tình huống 1, giá sẽ bật lại. Ở tình huống 2, giá dễ dàng xuyên qua.
@@ -1004,63 +1004,63 @@ Tình huống 2: Giá tại 1.1023 (không phải số tròn) lúc 03:00 GMT
 
 **Chiến lược trade tầng L – Chi tiết:**
 Chiến lược 1: Bounce tại số tròn
-  * Điều kiện: L_strength > 0.60
+  - Điều kiện: L_strength > 0.60
 
 
-  * Entry: Khi giá chạm số tròn (1.1000, 1.1050, 1.1100)
+  - Entry: Khi giá chạm số tròn (1.1000, 1.1050, 1.1100)
 
 
-  * Stop loss: 5 pip sau số tròn
+  - Stop loss: 5 pip sau số tròn
 
 
-  * Take profit: 10-15 pip
+  - Take profit: 10-15 pip
 
 
-  * Win rate thực tế: 76% (từ 1247 lệnh ghi nhận)
+  - Win rate thực tế: 76% (từ 1247 lệnh ghi nhận)
 
 
-  * R:R trung bình: 2.1:1
+  - R:R trung bình: 2.1:1
 
 
-  * Lợi nhuận kỳ vọng mỗi lệnh: 1.8% (với risk 1%)
+  - Lợi nhuận kỳ vọng mỗi lệnh: 1.8% (với risk 1%)
 
 
 Chiến lược 2: Pivot reversion
-  * Điều kiện: Giá chạm R1 hoặc S1 trong 2 giờ đầu phiên London
+  - Điều kiện: Giá chạm R1 hoặc S1 trong 2 giờ đầu phiên London
 
 
-  * Entry: Short tại R1, long tại S1
+  - Entry: Short tại R1, long tại S1
 
 
-  * Stop loss: 10 pip sau R1/S1
+  - Stop loss: 10 pip sau R1/S1
 
 
-  * Take profit: 20 pip hoặc đến mức pivot trung tâm
+  - Take profit: 20 pip hoặc đến mức pivot trung tâm
 
 
-  * Win rate thực tế: 73% (từ 892 lệnh)
+  - Win rate thực tế: 73% (từ 892 lệnh)
 
 
-  * R:R trung bình: 1.8:1
+  - R:R trung bình: 1.8:1
 
 
 Chiến lược 3: Fibonacci pullback
-  * Điều kiện: Xu hướng rõ ràng, pullback về 61.8%
+  - Điều kiện: Xu hướng rõ ràng, pullback về 61.8%
 
 
-  * Entry: Long tại 61.8% trong uptrend, short trong downtrend
+  - Entry: Long tại 61.8% trong uptrend, short trong downtrend
 
 
-  * Stop loss: 10 pip sau 61.8%
+  - Stop loss: 10 pip sau 61.8%
 
 
-  * Take profit: 200% của pullback (quay lại đỉnh/đáy cũ)
+  - Take profit: 200% của pullback (quay lại đỉnh/đáy cũ)
 
 
-  * Win rate thực tế: 71% (từ 654 lệnh)
+  - Win rate thực tế: 71% (từ 654 lệnh)
 
 
-  * R:R trung bình: 2.5:1
+  - R:R trung bình: 2.5:1
 
 
 * * *
@@ -1079,27 +1079,27 @@ Chiến lược 3: Fibonacci pullback
 **Công thức Trang ∅ cho tầng M:**
 M_flow = (Order_Imbalance) × (Correlation_Deviation) × (Momentum_Strength)
 Trong đó:
-  * Order_Imbalance: -1 (toàn bán) đến +1 (toàn mua)
+  - Order_Imbalance: -1 (toàn bán) đến +1 (toàn mua)
 
 
-  * Correlation_Deviation: 0 (bình thường) đến 1 (lệch cực độ)
+  - Correlation_Deviation: 0 (bình thường) đến 1 (lệch cực độ)
 
 
-  * Momentum_Strength: 0 (không momentum) đến 1 (rất mạnh)
+  - Momentum_Strength: 0 (không momentum) đến 1 (rất mạnh)
 
 
 **Ví dụ tính toán M_flow:**
 Tình huống: EUR/USD và GBP/USD đang lệch pha
-  * Order_Imbalance = +0.65 (mua mạnh hơn bán)
+  - Order_Imbalance = +0.65 (mua mạnh hơn bán)
 
 
-  * Correlation_Deviation = 0.25 (lệch đáng kể so với bình thường 0.85)
+  - Correlation_Deviation = 0.25 (lệch đáng kể so với bình thường 0.85)
 
 
-  * Momentum_Strength = 0.70 (tốt)
+  - Momentum_Strength = 0.70 (tốt)
 
 
-  * M_flow = 0.65 × 0.25 × 0.70 = 0.114
+  - M_flow = 0.65 × 0.25 × 0.70 = 0.114
 
 
 M_flow > 0.10 là đủ để trade.
@@ -1114,54 +1114,54 @@ M_flow > 0.10 là đủ để trade.
 
 **Chiến lược trade tầng M – Chi tiết:**
 Chiến lược 1: Correlation arbitrage
-  * Điều kiện: Hai cặp tương quan cao (0.8+) lệch > 15 pip
+  - Điều kiện: Hai cặp tương quan cao (0.8+) lệch > 15 pip
 
 
-  * Entry: Long cặp chậm, short cặp nhanh
+  - Entry: Long cặp chậm, short cặp nhanh
 
 
-  * Stop loss: 10 pip cho mỗi lệnh
+  - Stop loss: 10 pip cho mỗi lệnh
 
 
-  * Take profit: Khi spread giữa hai cặp thu hẹp 50%
+  - Take profit: Khi spread giữa hai cặp thu hẹp 50%
 
 
-  * Win rate thực tế: 82% (từ 543 lệnh)
+  - Win rate thực tế: 82% (từ 543 lệnh)
 
 
-  * Thời gian giữ lệnh trung bình: 8 phút
+  - Thời gian giữ lệnh trung bình: 8 phút
 
 
 Chiến lược 2: Session continuation
-  * Điều kiện: Xu hướng rõ ràng trong 1 giờ cuối phiên Á
+  - Điều kiện: Xu hướng rõ ràng trong 1 giờ cuối phiên Á
 
 
-  * Entry: Đầu phiên London, vào lệnh cùng hướng
+  - Entry: Đầu phiên London, vào lệnh cùng hướng
 
 
-  * Stop loss: Điểm thấp nhất của 30 phút cuối Á
+  - Stop loss: Điểm thấp nhất của 30 phút cuối Á
 
 
-  * Take profit: Gấp đôi range phiên Á
+  - Take profit: Gấp đôi range phiên Á
 
 
-  * Win rate thực tế: 78% (từ 876 lệnh)
+  - Win rate thực tế: 78% (từ 876 lệnh)
 
 
 Chiến lược 3: Order flow divergence
-  * Điều kiện: Giá tạo đỉnh mới nhưng delta (buy-sell) giảm
+  - Điều kiện: Giá tạo đỉnh mới nhưng delta (buy-sell) giảm
 
 
-  * Entry: Short tại đỉnh
+  - Entry: Short tại đỉnh
 
 
-  * Stop loss: 10 pip trên đỉnh
+  - Stop loss: 10 pip trên đỉnh
 
 
-  * Take profit: 20-30 pip
+  - Take profit: 20-30 pip
 
 
-  * Win rate thực tế: 74% (từ 432 lệnh)
+  - Win rate thực tế: 74% (từ 432 lệnh)
 
 
 * * *
@@ -1180,40 +1180,40 @@ Chiến lược 3: Order flow divergence
 **Công thức Trang ∅ cho tầng H:**
 H_signal = (Breakout_Strength) × (Volume_Confirmation) × (1 - Entropy_H)
 Trong đó:
-  * Breakout_Strength: 0 (bounce) đến 1 (breakout mạnh)
+  - Breakout_Strength: 0 (bounce) đến 1 (breakout mạnh)
 
 
-  * Volume_Confirmation: 0 (volume thấp) đến 1 (volume gấp 3+ lần)
+  - Volume_Confirmation: 0 (volume thấp) đến 1 (volume gấp 3+ lần)
 
 
-  * Entropy_H: 0 (trật tự) đến 1 (hỗn loạn)
+  - Entropy_H: 0 (trật tự) đến 1 (hỗn loạn)
 
 
 **Ví dụ tính toán H_signal:**
 Tình huống 1: Breakout có xác nhận
-  * Breakout_Strength = 0.85 (đóng nến ngoài range)
+  - Breakout_Strength = 0.85 (đóng nến ngoài range)
 
 
-  * Volume_Confirmation = 0.80 (gấp 2.5 lần)
+  - Volume_Confirmation = 0.80 (gấp 2.5 lần)
 
 
-  * Entropy_H = 0.12 (ổn định)
+  - Entropy_H = 0.12 (ổn định)
 
 
-  * H_signal = 0.85 × 0.80 × 0.88 = 0.60 (tốt)
+  - H_signal = 0.85 × 0.80 × 0.88 = 0.60 (tốt)
 
 
 Tình huống 2: Breakout không có xác nhận
-  * Breakout_Strength = 0.70 (chỉ hơi ra ngoài)
+  - Breakout_Strength = 0.70 (chỉ hơi ra ngoài)
 
 
-  * Volume_Confirmation = 0.30 (bằng volume trung bình)
+  - Volume_Confirmation = 0.30 (bằng volume trung bình)
 
 
-  * Entropy_H = 0.18
+  - Entropy_H = 0.18
 
 
-  * H_signal = 0.70 × 0.30 × 0.82 = 0.17 (yếu)
+  - H_signal = 0.70 × 0.30 × 0.82 = 0.17 (yếu)
 
 
 **Thống kê thực nghiệm từ 2000 breakout mẫu:**
@@ -1227,57 +1227,57 @@ Tình huống 2: Breakout không có xác nhận
 
 **Chiến lược trade tầng H – Chi tiết:**
 Chiến lược 1: True breakout
-  * Điều kiện: H_signal > 0.50 và có retest thành công
+  - Điều kiện: H_signal > 0.50 và có retest thành công
 
 
-  * Entry: Sau retest, tại mức breakout
+  - Entry: Sau retest, tại mức breakout
 
 
-  * Stop loss: Dưới vùng breakout 10-15 pip
+  - Stop loss: Dưới vùng breakout 10-15 pip
 
 
-  * Take profit: 1.5 đến 2 lần range trước breakout
+  - Take profit: 1.5 đến 2 lần range trước breakout
 
 
-  * Win rate thực tế: 83% (từ 678 lệnh)
+  - Win rate thực tế: 83% (từ 678 lệnh)
 
 
-  * R:R trung bình: 2.8:1
+  - R:R trung bình: 2.8:1
 
 
 Chiến lược 2: Stop hunt fade
-  * Điều kiện: Giá chạm vùng có nhiều stop (thường là previous high/low)
+  - Điều kiện: Giá chạm vùng có nhiều stop (thường là previous high/low)
 
 
-  * Entry: Ngay sau khi stop bị quét (5-10 giây)
+  - Entry: Ngay sau khi stop bị quét (5-10 giây)
 
 
-  * Stop loss: 5 pip sau vùng quét
+  - Stop loss: 5 pip sau vùng quét
 
 
-  * Take profit: Quay lại vùng trước khi bị quét
+  - Take profit: Quay lại vùng trước khi bị quét
 
 
-  * Win rate thực tế: 87% (từ 892 lệnh)
+  - Win rate thực tế: 87% (từ 892 lệnh)
 
 
-  * Thời gian giữ lệnh trung bình: 3-5 phút
+  - Thời gian giữ lệnh trung bình: 3-5 phút
 
 
 Chiến lược 3: News fade
-  * Điều kiện: Spike 20-50 pip trong 1-2 phút sau news
+  - Điều kiện: Spike 20-50 pip trong 1-2 phút sau news
 
 
-  * Entry: 5 phút sau news, fade hướng spike
+  - Entry: 5 phút sau news, fade hướng spike
 
 
-  * Stop loss: Đỉnh/đáy của spike
+  - Stop loss: Đỉnh/đáy của spike
 
 
-  * Take profit: 50-70% của spike
+  - Take profit: 50-70% của spike
 
 
-  * Win rate thực tế: 76% (từ 234 lệnh news lớn)
+  - Win rate thực tế: 76% (từ 234 lệnh news lớn)
 
 
 * * *
@@ -1313,16 +1313,16 @@ Thứ ba, H phản hồi L. Breakout mạnh làm thay đổi cấu trúc thanh k
 
 **Ví dụ thực tế từ thị trường:**
 Ngày 15/03/2024, EUR/USD:
-  * 8:00 GMT: Giá 1.0900, range M15 = 8 pip, volume = 0.7× avg → Tầng L chi phối
+  - 8:00 GMT: Giá 1.0900, range M15 = 8 pip, volume = 0.7× avg → Tầng L chi phối
 
 
-  * 10:00 GMT: Giá breakout lên 1.0915, volume = 1.8× avg → Chuyển sang tầng H
+  - 10:00 GMT: Giá breakout lên 1.0915, volume = 1.8× avg → Chuyển sang tầng H
 
 
-  * 10:15 GMT: Retest về 1.0905, giữ được → Xác nhận breakout thật
+  - 10:15 GMT: Retest về 1.0905, giữ được → Xác nhận breakout thật
 
 
-  * Kết quả: Giá lên 1.0950 trong 2 giờ, lợi nhuận 45 pip
+  - Kết quả: Giá lên 1.0950 trong 2 giờ, lợi nhuận 45 pip
 
 
 **Bảng 4.6: Phân bổ thời gian của các tầng trong ngày giao dịch**
@@ -1339,22 +1339,22 @@ Ngày 15/03/2024, EUR/USD:
 
 
 **Kết luận chương 4:**
-  * Ba tầng [L, M, H] tồn tại trong mọi thị trường, mọi khung thời gian
+  - Ba tầng [L, M, H] tồn tại trong mọi thị trường, mọi khung thời gian
 
 
-  * Tầng L (nền tảng) cho bounce và S/R đáng tin cậy (win rate 70-80%)
+  - Tầng L (nền tảng) cho bounce và S/R đáng tin cậy (win rate 70-80%)
 
 
-  * Tầng M (kết nối) cho continuation và correlation arbitrage (win rate 75-85%)
+  - Tầng M (kết nối) cho continuation và correlation arbitrage (win rate 75-85%)
 
 
-  * Tầng H (đỉnh) cho breakout và reversal (win rate 80-85%)
+  - Tầng H (đỉnh) cho breakout và reversal (win rate 80-85%)
 
 
-  * Không thể trade thành công nếu chỉ nhìn một tầng
+  - Không thể trade thành công nếu chỉ nhìn một tầng
 
 
-  * Kết hợp cả ba tầng giúp tăng win rate từ 45% lên 70-80%
+  - Kết hợp cả ba tầng giúp tăng win rate từ 45% lên 70-80%
 
 
 * * *
@@ -1367,16 +1367,16 @@ Trong Trang ∅ Framework, entropy được định nghĩa lại cho thị trư�
 **Công thức:**
 E = - (p_tăng × log₂(p_tăng) + p_giảm × log₂(p_giảm) + p_ngang × log₂(p_ngang))
 **Thang đo entropy:**
-  * E < 0.1: Thị trường có trật tự, dễ dự đoán
+  - E < 0.1: Thị trường có trật tự, dễ dự đoán
 
 
-  * 0.1 ≤ E < 0.2: Vùng vàng, lý tưởng cho giao dịch
+  - 0.1 ≤ E < 0.2: Vùng vàng, lý tưởng cho giao dịch
 
 
-  * 0.2 ≤ E < 0.3: Hơi hỗn loạn, cần thận trọng
+  - 0.2 ≤ E < 0.3: Hơi hỗn loạn, cần thận trọng
 
 
-  * E ≥ 0.3: Hỗn loạn, khó dự đoán, nên tránh
+  - E ≥ 0.3: Hỗn loạn, khó dự đoán, nên tránh
 
 
 **Thống kê từ 10,000 khung M15 (2023-2024):**
@@ -1405,13 +1405,13 @@ E = - (p_tăng × log₂(p_tăng) + p_giảm × log₂(p_giảm) + p_ngang × lo
 
 
 **Chiến thuật:**
-  * Trend following với stop rộng (2× ATR)
+  - Trend following với stop rộng (2× ATR)
 
 
-  * Có thể giữ lệnh qua nhiều khung
+  - Có thể giữ lệnh qua nhiều khung
 
 
-  * Size lệnh có thể lớn hơn bình thường (1.5×)
+  - Size lệnh có thể lớn hơn bình thường (1.5×)
 
 
 **Win rate thực tế:** 88-92% (từ 312 mẫu)
@@ -1427,13 +1427,13 @@ E = - (p_tăng × log₂(p_tăng) + p_giảm × log₂(p_giảm) + p_ngang × lo
 
 
 **Chiến thuật:**
-  * Trade breakout khi có xác nhận
+  - Trade breakout khi có xác nhận
 
 
-  * Pullback entry tại Fibonacci 38.2-50%
+  - Pullback entry tại Fibonacci 38.2-50%
 
 
-  * Size lệnh bình thường
+  - Size lệnh bình thường
 
 
 **Win rate thực tế:** 83-87% (từ 1,245 mẫu)
@@ -1447,13 +1447,13 @@ E = - (p_tăng × log₂(p_tăng) + p_giảm × log₂(p_giảm) + p_ngang × lo
 
 
 **Chiến thuật:**
-  * Xu hướng với stop rộng hơn (1.5× ATR)
+  - Xu hướng với stop rộng hơn (1.5× ATR)
 
 
-  * Chờ xác nhận trước khi vào
+  - Chờ xác nhận trước khi vào
 
 
-  * Size lệnh 80% bình thường
+  - Size lệnh 80% bình thường
 
 
 **Win rate thực tế:** 75-80% (từ 2,567 mẫu)
@@ -1467,13 +1467,13 @@ E = - (p_tăng × log₂(p_tăng) + p_giảm × log₂(p_giảm) + p_ngang × lo
 
 
 **Chiến thuật:**
-  * Mọi chiến thuật đều hiệu quả
+  - Mọi chiến thuật đều hiệu quả
 
 
-  * Trend, breakout, range, scalping
+  - Trend, breakout, range, scalping
 
 
-  * Đa dạng hóa để tối ưu
+  - Đa dạng hóa để tối ưu
 
 
 **Win rate thực tế:** 70-75% (từ 3,124 mẫu)
@@ -1488,16 +1488,16 @@ E = - (p_tăng × log₂(p_tăng) + p_giảm × log₂(p_giảm) + p_ngang × lo
 
 
 **Chiến thuật:**
-  * KHÔNG TRADE XU HƯỚNG
+  - KHÔNG TRADE XU HƯỚNG
 
 
-  * Range trading (short tại R1, long tại S1)
+  - Range trading (short tại R1, long tại S1)
 
 
-  * Scalping 5-10 pip, thoát nhanh
+  - Scalping 5-10 pip, thoát nhanh
 
 
-  * Size lệnh 50% bình thường
+  - Size lệnh 50% bình thường
 
 
 **Win rate thực tế:** 60-68% (từ 2,554 mẫu)
@@ -1512,13 +1512,13 @@ E = - (p_tăng × log₂(p_tăng) + p_giảm × log₂(p_giảm) + p_ngang × lo
 
 
 **Chiến thuật:**
-  * DỪNG TRADE
+  - DỪNG TRADE
 
 
-  * Đóng lệnh cũ nếu đang có
+  - Đóng lệnh cũ nếu đang có
 
 
-  * Chờ 15-30 phút cho entropy giảm
+  - Chờ 15-30 phút cho entropy giảm
 
 
 **Win rate thực tế:** < 50% (từ 198 mẫu) – không nên trade.
@@ -1535,13 +1535,13 @@ E = - (p_tăng × log₂(p_tăng) + p_giảm × log₂(p_giảm) + p_ngang × lo
 
 **Bước 2: Xác định trạng thái mỗi nến**
 Quy tắc xác định với threshold = 2 pip (cho major pairs):
-  * Nến TĂNG: Close > Open + 2 pip
+  - Nến TĂNG: Close > Open + 2 pip
 
 
-  * Nến GIẢM: Close < Open - 2 pip
+  - Nến GIẢM: Close < Open - 2 pip
 
 
-  * Nến ĐI NGANG: |Close - Open| ≤ 2 pip
+  - Nến ĐI NGANG: |Close - Open| ≤ 2 pip
 
 
 **Bước 3: Đếm số lượng**
@@ -1590,13 +1590,13 @@ Mỗi tầng [L, M, H] có entropy riêng, phản ánh mức độ hỗn loạn 
 **Công thức entropy tổng hợp:**
 E_market = 0.30 × E_L + 0.40 × E_M + 0.30 × E_H
 **Ví dụ tính toán:**
-  * E_L = 0.08 (ổn định)
+  - E_L = 0.08 (ổn định)
 
 
-  * E_M = 0.22 (hơi hỗn loạn)
+  - E_M = 0.22 (hơi hỗn loạn)
 
 
-  * E_H = 0.18 (bình thường)
+  - E_H = 0.18 (bình thường)
 
 
 E_market = 0.30×0.08 + 0.40×0.22 + 0.30×0.18
@@ -1604,140 +1604,140 @@ E_market = 0.024 + 0.088 + 0.054 = 0.166
 Kết luận: E_market = 0.166 (vùng vàng), tập trung vào chiến thuật tầng M (correlation, order flow).
 **Dấu hiệu nhận biết qua từng tầng:**
 Khi E_L cao (>0.15):
-  * Spread rộng bất thường (gấp 2-3 lần bình thường)
+  - Spread rộng bất thường (gấp 2-3 lần bình thường)
 
 
-  * Thanh khoản mỏng, giá dễ bị trượt
+  - Thanh khoản mỏng, giá dễ bị trượt
 
 
-  * Nguyên nhân: tin tức sắp ra, ngày lễ, cuối phiên
+  - Nguyên nhân: tin tức sắp ra, ngày lễ, cuối phiên
 
 
-  * Hành động: KHÔNG TRADE, chờ E_L giảm
+  - Hành động: KHÔNG TRADE, chờ E_L giảm
 
 
 Khi E_M cao (>0.25):
-  * Các cặp tương quan mất kết nối
+  - Các cặp tương quan mất kết nối
 
 
-  * Correlation thay đổi liên tục
+  - Correlation thay đổi liên tục
 
 
-  * Nguyên nhân: thị trường đang tìm hướng mới
+  - Nguyên nhân: thị trường đang tìm hướng mới
 
 
-  * Hành động: Trade arbitrage, nhưng size nhỏ
+  - Hành động: Trade arbitrage, nhưng size nhỏ
 
 
 Khi E_H cao (>0.30):
-  * Giá chạy nhanh, bấc dài, đảo chiều liên tục
+  - Giá chạy nhanh, bấc dài, đảo chiều liên tục
 
 
-  * Breakout giả xuất hiện nhiều
+  - Breakout giả xuất hiện nhiều
 
 
-  * Nguyên nhân: tin tức, thanh khoản thấp
+  - Nguyên nhân: tin tức, thanh khoản thấp
 
 
-  * Hành động: Fade, scalping, hoặc KHÔNG TRADE
+  - Hành động: Fade, scalping, hoặc KHÔNG TRADE
 
 
 * * *
 ### 5.5 Ứng dụng thực tế
 **Kịch bản 1: E = 0.08 (trật tự cao)**
 Dấu hiệu nhận biết:
-  * Giá có xu hướng rõ ràng trong 2-3 giờ qua
+  - Giá có xu hướng rõ ràng trong 2-3 giờ qua
 
 
-  * Pullback nhẹ, chỉ 30-40% của xu hướng chính
+  - Pullback nhẹ, chỉ 30-40% của xu hướng chính
 
 
-  * Volume đều đặn, không có spike
+  - Volume đều đặn, không có spike
 
 
-  * Spread ổn định ở mức thấp
+  - Spread ổn định ở mức thấp
 
 
 Chiến thuật:
-  * Vào lệnh theo xu hướng (trend following)
+  - Vào lệnh theo xu hướng (trend following)
 
 
-  * Stop loss rộng hơn bình thường (2× ATR) vì ít bị săn
+  - Stop loss rộng hơn bình thường (2× ATR) vì ít bị săn
 
 
-  * Take profit xa (2-3× R:R)
+  - Take profit xa (2-3× R:R)
 
 
-  * Có thể giữ lệnh qua nhiều khung (từ M15 lên H1)
+  - Có thể giữ lệnh qua nhiều khung (từ M15 lên H1)
 
 
 Ước tính lợi nhuận: 2-3% mỗi lệnh với risk 1%
 **Kịch bản 2: E = 0.18 (vùng vàng)**
 Dấu hiệu nhận biết:
-  * Giá có xu hướng nhưng vẫn có pullback 50-61.8%
+  - Giá có xu hướng nhưng vẫn có pullback 50-61.8%
 
 
-  * Volume dao động nhẹ quanh trung bình
+  - Volume dao động nhẹ quanh trung bình
 
 
-  * Cả breakout và reversal đều có cơ hội
+  - Cả breakout và reversal đều có cơ hội
 
 
 Chiến thuật:
-  * Linh hoạt: trend, breakout, range đều được
+  - Linh hoạt: trend, breakout, range đều được
 
 
-  * Stop loss bình thường (ATR × 1.5)
+  - Stop loss bình thường (ATR × 1.5)
 
 
-  * Đa dạng hóa chiến thuật để tối ưu
+  - Đa dạng hóa chiến thuật để tối ưu
 
 
 Lợi nhuận kỳ vọng: 1-2% mỗi lệnh với risk 1%
 **Kịch bản 3: E = 0.32 (hỗn loạn)**
 Dấu hiệu nhận biết:
-  * Giá không có xu hướng rõ ràng
+  - Giá không có xu hướng rõ ràng
 
 
-  * Bấc dài (> 50% của nến), đảo chiều liên tục
+  - Bấc dài (> 50% của nến), đảo chiều liên tục
 
 
-  * Spread rộng hơn bình thường (gấp 1.5-2 lần)
+  - Spread rộng hơn bình thường (gấp 1.5-2 lần)
 
 
 Chiến thuật:
-  * KHÔNG TRADE XU HƯỚNG
+  - KHÔNG TRADE XU HƯỚNG
 
 
-  * Scalping range (10-15 pip)
+  - Scalping range (10-15 pip)
 
 
-  * Vào lệnh nhỏ (50% normal size)
+  - Vào lệnh nhỏ (50% normal size)
 
 
-  * Thoát nhanh (chạy 5-10 pip là đóng)
+  - Thoát nhanh (chạy 5-10 pip là đóng)
 
 
 Win rate thực tế chỉ 55-60%. Nên cân nhắc không trade.
 **Kịch bản 4: E > 0.40 (hỗn loạn tuyệt đối)**
 Dấu hiệu nhận biết:
-  * Tin tức quan trọng vừa ra (NFP, FOMC, CPI)
+  - Tin tức quan trọng vừa ra (NFP, FOMC, CPI)
 
 
-  * Spread rộng 10-20 pip
+  - Spread rộng 10-20 pip
 
 
-  * Biểu đồ "rách", không có cấu trúc nến rõ ràng
+  - Biểu đồ "rách", không có cấu trúc nến rõ ràng
 
 
 Chiến thuật:
-  * DỪNG TRADE
+  - DỪNG TRADE
 
 
-  * Đợi 15-30 phút cho entropy giảm
+  - Đợi 15-30 phút cho entropy giảm
 
 
-  * Không vào lệnh mới, đóng lệnh cũ nếu có
+  - Không vào lệnh mới, đóng lệnh cũ nếu có
 
 
 Thống kê: 85% trader thua lỗ trong 15 phút đầu sau news lớn. Nguyên nhân: họ trade ngay khi entropy cao nhất.
@@ -1745,16 +1745,16 @@ Thống kê: 85% trader thua lỗ trong 15 phút đầu sau news lớn. Nguyên 
 ### 5.6 Entropy và Hallucination
 **Hallucination (ảo giác thị trường)** xảy ra khi E_H > 0.30.
 Biểu hiện của Hallucination:
-  * Breakout giả xuất hiện liên tục (70% breakout là giả)
+  - Breakout giả xuất hiện liên tục (70% breakout là giả)
 
 
-  * Các mô hình harmonic "đẹp" nhưng thất bại (win rate < 40%)
+  - Các mô hình harmonic "đẹp" nhưng thất bại (win rate < 40%)
 
 
-  * Chỉ báo kỹ thuật (RSI, MACD) phát tín hiệu sai liên tục
+  - Chỉ báo kỹ thuật (RSI, MACD) phát tín hiệu sai liên tục
 
 
-  * Giá chạy nhanh 20-30 pip rồi quay đầu ngay
+  - Giá chạy nhanh 20-30 pip rồi quay đầu ngay
 
 
 **Thống kê hallucination từ 500 sự kiện:**
@@ -1933,139 +1933,139 @@ Mỗi tầng có lacunarity riêng, phản ánh cấu trúc của tầng đó.
 **Chiến lược 1: Trade vùng đặc (Λ < 0.10)**
 Khi Λ < 0.10, cấu trúc thị trường rất đặc. Có một vùng tập trung rất nhiều lệnh (stop, limit, thanh khoản). Giá rất khó phá vỡ vùng này.
 Cách nhận biết:
-  * Volume profile có một đỉnh rất cao
+  - Volume profile có một đỉnh rất cao
 
 
-  * Các ô xung quanh có volume thấp hơn nhiều
+  - Các ô xung quanh có volume thấp hơn nhiều
 
 
-  * Giá đã chạm vùng này 2-3 lần nhưng chưa phá được
+  - Giá đã chạm vùng này 2-3 lần nhưng chưa phá được
 
 
 Chiến thuật:
-  * Đặt lệnh NGƯỢC với hướng giá đang tiến vào vùng đặc
+  - Đặt lệnh NGƯỢC với hướng giá đang tiến vào vùng đặc
 
 
-  * Chờ giá bật lại
+  - Chờ giá bật lại
 
 
-  * Stop loss ngay sau vùng đặc (vì nếu phá vỡ được, đó là breakout thật rất mạnh)
+  - Stop loss ngay sau vùng đặc (vì nếu phá vỡ được, đó là breakout thật rất mạnh)
 
 
 Ví dụ cụ thể:
-  * EUR/USD đang ở 1.1040, tiến lên 1.1050
+  - EUR/USD đang ở 1.1040, tiến lên 1.1050
 
 
-  * Tại 1.1050, Λ = 0.08 (rất đặc, nhiều stop loss)
+  - Tại 1.1050, Λ = 0.08 (rất đặc, nhiều stop loss)
 
 
-  * Đặt lệnh SHORT tại 1.1048
+  - Đặt lệnh SHORT tại 1.1048
 
 
-  * Stop loss tại 1.1052 (4 pip sau vùng đặc)
+  - Stop loss tại 1.1052 (4 pip sau vùng đặc)
 
 
-  * Take profit tại 1.1030 (20 pip)
+  - Take profit tại 1.1030 (20 pip)
 
 
 Thống kê từ 500 lệnh:
-  * Win rate: 78%
+  - Win rate: 78%
 
 
-  * Lợi nhuận trung bình khi thắng: 18 pip
+  - Lợi nhuận trung bình khi thắng: 18 pip
 
 
-  * Lỗ trung bình khi thua: 12 pip
+  - Lỗ trung bình khi thua: 12 pip
 
 
-  * R:R trung bình: 1.5:1
+  - R:R trung bình: 1.5:1
 
 
 **Chiến lược 2: Trade vùng rỗng (Λ > 0.30)**
 Khi Λ > 0.30, cấu trúc thị trường rất rỗng. Có vùng có rất ít hoặc không có lệnh. Giá sẽ đi rất nhanh qua vùng này.
 Cách nhận biết:
-  * Volume profile có vùng thấp bất thường
+  - Volume profile có vùng thấp bất thường
 
 
-  * Các ô xung quanh có volume cao hơn nhiều
+  - Các ô xung quanh có volume cao hơn nhiều
 
 
-  * Giá chưa đi qua vùng này trước đó (hoặc đã đi qua rất nhanh)
+  - Giá chưa đi qua vùng này trước đó (hoặc đã đi qua rất nhanh)
 
 
 Chiến thuật:
-  * Vào lệnh theo hướng khi giá bắt đầu tiến vào vùng rỗng
+  - Vào lệnh theo hướng khi giá bắt đầu tiến vào vùng rỗng
 
 
-  * Take profit tại đầu kia của vùng rỗng
+  - Take profit tại đầu kia của vùng rỗng
 
 
-  * Stop loss ngay sau entry (vì nếu không đi nhanh, kế hoạch sai)
+  - Stop loss ngay sau entry (vì nếu không đi nhanh, kế hoạch sai)
 
 
 Ví dụ cụ thể:
-  * Vùng 1.1020-1.1040 có Λ = 0.35 (rỗng)
+  - Vùng 1.1020-1.1040 có Λ = 0.35 (rỗng)
 
 
-  * Giá đang ở 1.1018, bắt đầu tiến lên
+  - Giá đang ở 1.1018, bắt đầu tiến lên
 
 
-  * Đặt lệnh LONG tại 1.1020 (ngay khi vào vùng)
+  - Đặt lệnh LONG tại 1.1020 (ngay khi vào vùng)
 
 
-  * Stop loss tại 1.1018 (2 pip)
+  - Stop loss tại 1.1018 (2 pip)
 
 
-  * Take profit tại 1.1040 (20 pip)
+  - Take profit tại 1.1040 (20 pip)
 
 
 Thống kê từ 300 lệnh:
-  * Win rate: 72%
+  - Win rate: 72%
 
 
-  * Lợi nhuận trung bình khi thắng: 15 pip
+  - Lợi nhuận trung bình khi thắng: 15 pip
 
 
-  * Lỗ trung bình khi thua: 5 pip
+  - Lỗ trung bình khi thua: 5 pip
 
 
-  * R:R trung bình: 3:1
+  - R:R trung bình: 3:1
 
 
 **Chiến lược 3: Lacunarity divergence**
 Khi Λ và giá di chuyển ngược chiều nhau, đó là tín hiệu đảo chiều mạnh.
 Các tín hiệu cụ thể:
-  * Giá tăng (tạo đỉnh mới) nhưng Λ giảm → đỉnh giả, sắp đảo chiều xuống
+  - Giá tăng (tạo đỉnh mới) nhưng Λ giảm → đỉnh giả, sắp đảo chiều xuống
 
 
-  * Giá giảm (tạo đáy mới) nhưng Λ tăng → đáy giả, sắp đảo chiều lên
+  - Giá giảm (tạo đáy mới) nhưng Λ tăng → đáy giả, sắp đảo chiều lên
 
 
-  * Giá đi ngang nhưng Λ thay đổi mạnh → sắp có breakout
+  - Giá đi ngang nhưng Λ thay đổi mạnh → sắp có breakout
 
 
 Công thức đơn giản: Vào lệnh khi dấu của ΔGiá khác dấu của ΔΛ.
 Ví dụ cụ thể:
-  * EUR/USD tăng từ 1.1000 lên 1.1050 (ΔGiá dương)
+  - EUR/USD tăng từ 1.1000 lên 1.1050 (ΔGiá dương)
 
 
-  * Λ giảm từ 0.25 xuống 0.15 (ΔΛ âm)
+  - Λ giảm từ 0.25 xuống 0.15 (ΔΛ âm)
 
 
-  * ΔGiá (+) ≠ ΔΛ (-) → Tín hiệu SHORT
+  - ΔGiá (+) ≠ ΔΛ (-) → Tín hiệu SHORT
 
 
-  * Vào lệnh SHORT tại 1.1045, stop tại 1.1060, target 1.1010
+  - Vào lệnh SHORT tại 1.1045, stop tại 1.1060, target 1.1010
 
 
 Thống kê từ 400 lệnh:
-  * Win rate: 75%
+  - Win rate: 75%
 
 
-  * Lợi nhuận trung bình: 25 pip
+  - Lợi nhuận trung bình: 25 pip
 
 
-  * R:R trung bình: 2:1
+  - R:R trung bình: 2:1
 
 
 **Bảng 6.4: So sánh ba chiến lược**
@@ -2080,33 +2080,33 @@ Thống kê từ 400 lệnh:
 ### 6.5 Lacunarity và Liquidity Void
 Liquidity void (vùng trống thanh khoản) là vùng có Λ rất cao, thường > 0.50. Hầu như không có lệnh nào trong vùng này.
 **Đặc điểm của Liquidity Void:**
-  * Giá đi qua void rất nhanh, thường trong 1-3 giây
+  - Giá đi qua void rất nhanh, thường trong 1-3 giây
 
 
-  * Không nên đặt lệnh trong void (lệnh sẽ không được fill hoặc bị trượt giá rất xa)
+  - Không nên đặt lệnh trong void (lệnh sẽ không được fill hoặc bị trượt giá rất xa)
 
 
-  * Nên đặt lệnh tại rìa void – chờ giá vào void, rồi thoát ở rìa kia
+  - Nên đặt lệnh tại rìa void – chờ giá vào void, rồi thoát ở rìa kia
 
 
 **Cách phát hiện Liquidity Void:**
-  * Volume profile có ô có volume = 0 hoặc rất thấp (dưới 10% volume trung bình)
+  - Volume profile có ô có volume = 0 hoặc rất thấp (dưới 10% volume trung bình)
 
 
-  * Các ô xung quanh có volume bình thường hoặc cao
+  - Các ô xung quanh có volume bình thường hoặc cao
 
 
-  * Giá chưa đi qua void trong 1-2 giờ qua
+  - Giá chưa đi qua void trong 1-2 giờ qua
 
 
 **Công thức trade void:**
-  * Entry: Khi giá bắt đầu vào void (tại rìa void)
+  - Entry: Khi giá bắt đầu vào void (tại rìa void)
 
 
-  * Take profit: Rìa đối diện của void
+  - Take profit: Rìa đối diện của void
 
 
-  * Stop loss: 1-2 pip sau entry (đề phòng void bị lấp đầy bởi lệnh mới)
+  - Stop loss: 1-2 pip sau entry (đề phòng void bị lấp đầy bởi lệnh mới)
 
 
 **Thống kê từ 120 liquidity void trên EUR/USD:**
@@ -2257,10 +2257,10 @@ Sự thật fractal: Mỗi xu hướng tăng hoặc giảm đều trải qua 10 
 **Công thức xác định bậc:**
 Bậc_hiện_tại = Số_ngày_kể_từ_đỉnh_đáy_cũ × Hệ_số_volatility
 Trong đó:
-  * Số_ngày_kể_từ_đỉnh_đáy_cũ: số ngày từ đỉnh cuối cùng (downtrend) hoặc đáy cuối cùng (uptrend)
+  - Số_ngày_kể_từ_đỉnh_đáy_cũ: số ngày từ đỉnh cuối cùng (downtrend) hoặc đáy cuối cùng (uptrend)
 
 
-  * Hệ_số_volatility: 1.0 cho bình thường, 1.5 cho volatility cao, 0.8 cho volatility thấp
+  - Hệ_số_volatility: 1.0 cho bình thường, 1.5 cho volatility cao, 0.8 cho volatility thấp
 
 
 **Ví dụ tính toán:**
@@ -2282,19 +2282,19 @@ Bậc_hiện_tại = 5 × 1.0 = 5 → đang ở bậc 5 (gia tốc). Chiến thu
 
 
 **Ví dụ cụ thể:**
-  * EUR/USD: Sau 2 ngày tích lũy (bậc 1-2), giá breakout lên 1.1050 với volume tăng 80% (bậc 3)
+  - EUR/USD: Sau 2 ngày tích lũy (bậc 1-2), giá breakout lên 1.1050 với volume tăng 80% (bậc 3)
 
 
-  * Vào lệnh LONG tại 1.1050
+  - Vào lệnh LONG tại 1.1050
 
 
-  * Stop loss tại 1.1020 (sát vùng tích lũy)
+  - Stop loss tại 1.1020 (sát vùng tích lũy)
 
 
-  * Take profit tại 1.1120 (70 pip)
+  - Take profit tại 1.1120 (70 pip)
 
 
-  * Kết quả: Giá lên 1.1120 sau 2 ngày, lợi nhuận 70 pip
+  - Kết quả: Giá lên 1.1120 sau 2 ngày, lợi nhuận 70 pip
 
 
 **Chiến lược 2: Fade bậc muộn (Stage 7-8)**
@@ -2311,22 +2311,22 @@ Khi xu hướng đã đi được 70-80% quãng đường (bậc 7-8), đám đ�
 
 
 **Ví dụ cụ thể:**
-  * EUR/USD downtrend: đã giảm 200 pip từ đỉnh, hiện đang ở bậc 7 (đáy giả)
+  - EUR/USD downtrend: đã giảm 200 pip từ đỉnh, hiện đang ở bậc 7 (đáy giả)
 
 
-  * Volume giảm, range thu hẹp → sắp kết thúc
+  - Volume giảm, range thu hẹp → sắp kết thúc
 
 
-  * Vào lệnh LONG tại 1.0950 (ngược xu hướng giảm)
+  - Vào lệnh LONG tại 1.0950 (ngược xu hướng giảm)
 
 
-  * Stop loss tại 1.0925 (25 pip)
+  - Stop loss tại 1.0925 (25 pip)
 
 
-  * Take profit tại 1.1010 (60 pip)
+  - Take profit tại 1.1010 (60 pip)
 
 
-  * Kết quả: Giá đảo chiều lên 1.1010 sau 1 ngày, lợi nhuận 60 pip
+  - Kết quả: Giá đảo chiều lên 1.1010 sau 1 ngày, lợi nhuận 60 pip
 
 
 **Chiến lược 3: Reversal ở bậc 10-12**
@@ -2343,22 +2343,22 @@ Khi xu hướng đã đi được 70-80% quãng đường (bậc 7-8), đám đ�
 
 
 **Ví dụ cụ thể:**
-  * EUR/USD: Đã giảm 350 pip trong 10 ngày, hiện ở bậc 10 (chấp nhận, đáy thật)
+  - EUR/USD: Đã giảm 350 pip trong 10 ngày, hiện ở bậc 10 (chấp nhận, đáy thật)
 
 
-  * Volume rất thấp, range cực hẹp (5-10 pip) trong 6 giờ qua
+  - Volume rất thấp, range cực hẹp (5-10 pip) trong 6 giờ qua
 
 
-  * Vào lệnh LONG tại 1.0800 (đáy)
+  - Vào lệnh LONG tại 1.0800 (đáy)
 
 
-  * Stop loss tại 1.0750 (50 pip rộng)
+  - Stop loss tại 1.0750 (50 pip rộng)
 
 
-  * Take profit tại 1.1000 (200 pip)
+  - Take profit tại 1.1000 (200 pip)
 
 
-  * Kết quả: Giá lên 1.1000 sau 2 tuần, lợi nhuận 200 pip
+  - Kết quả: Giá lên 1.1000 sau 2 tuần, lợi nhuận 200 pip
 
 
 **Bảng 7.5: So sánh ba chiến lược cascade**
@@ -2396,19 +2396,19 @@ Nếu bạn chỉ trade bậc 3-4 và bậc 10-12, bạn đã bỏ qua 70% cơ h
 ### 8.1 Mọi thay đổi đều là đột biến
 Trong **Trang ∅ Framework** , không có "tín hiệu" và "nhiễu". Chỉ có **đột biến (mutation)** và **sự sống sót (survival)**.
 **Đột biến** là bất kỳ sự thay đổi nào trong thị trường:
-  * Spike do news
+  - Spike do news
 
 
-  * Gap mở cửa
+  - Gap mở cửa
 
 
-  * Breakout khỏi range
+  - Breakout khỏi range
 
 
-  * Đảo chiều bất ngờ
+  - Đảo chiều bất ngờ
 
 
-  * Đột biến volume
+  - Đột biến volume
 
 
 **90-95% đột biến CHẾT** – chúng xuất hiện rồi biến mất, không để lại dấu vết.
@@ -3529,19 +3529,19 @@ Song song với luồng dữ liệu giao dịch, có luồng dữ liệu học t
 ### 19.4 Từ 1 bot lên 10,000 bot – Lộ trình mở rộng
 Bạn không cần 10,000 bot ngay từ đầu. Bạn bắt đầu với 1 bot demo, chạy trên tài khoản ảo. Khi bot demo hoạt động ổn định, bạn nhân rộng lên 10 bot live. Khi 10 bot live có lợi nhuận ổn định, bạn nhân rộng lên 100 bot. Cứ thế, bạn leo dần lên.
 **Lộ trình mở rộng 12 tháng:**
-  * Tháng 1-2: Xây dựng 1 bot demo, kiểm tra trên tài khoản ảo.
+  - Tháng 1-2: Xây dựng 1 bot demo, kiểm tra trên tài khoản ảo.
 
 
-  * Tháng 3-4: Triển khai 10 bot live với vốn nhỏ (1,000 USD).
+  - Tháng 3-4: Triển khai 10 bot live với vốn nhỏ (1,000 USD).
 
 
-  * Tháng 5-6: Mở rộng lên 100 bot live, tăng vốn lên 10,000 USD.
+  - Tháng 5-6: Mở rộng lên 100 bot live, tăng vốn lên 10,000 USD.
 
 
-  * Tháng 7-9: Mở rộng lên 1,000 bot live, tăng vốn lên 50,000 USD.
+  - Tháng 7-9: Mở rộng lên 1,000 bot live, tăng vốn lên 50,000 USD.
 
 
-  * Tháng 10-12: Đạt 10,000 bot live, vốn 200,000 USD, lợi nhuận mục tiêu 30,000-50,000 USD mỗi tháng.
+  - Tháng 10-12: Đạt 10,000 bot live, vốn 200,000 USD, lợi nhuận mục tiêu 30,000-50,000 USD mỗi tháng.
 
 
 Không cần vội vàng. Mỗi bước mở rộng đều phải dựa trên dữ liệu thực tế, không dựa trên cảm tính.
@@ -3973,16 +3973,16 @@ Thứ ba, **lai ghép**. Hai bot có hiệu suất cao được lai ghép để 
 ### 21.4 Tự động viết code bot mới
 Cấp độ cao hơn của Infinite Recursion Engine là tự động sinh ra code Python cho bot mới, không chỉ tham số.
 **Cách thực hiện:**
-  * Sử dụng mô hình ngôn ngữ lớn (LLM) để sinh code dựa trên yêu cầu.
+  - Sử dụng mô hình ngôn ngữ lớn (LLM) để sinh code dựa trên yêu cầu.
 
 
-  * Tạo một template code, sau đó điền các tham số và logic vào.
+  - Tạo một template code, sau đó điền các tham số và logic vào.
 
 
-  * Chạy bot mới trên môi trường sandbox để kiểm tra.
+  - Chạy bot mới trên môi trường sandbox để kiểm tra.
 
 
-  * Nếu bot mới hoạt động tốt, triển khai lên môi trường thật.
+  - Nếu bot mới hoạt động tốt, triển khai lên môi trường thật.
 
 
 Ví dụ template:
@@ -4132,16 +4132,16 @@ VPS Overlord chạy các bot cấp cao (strategy, learning, meta). Các VPS work
 ### 22.5 Tự động scale khi cần
 Khi số lượng bot tăng lên, bạn cần thêm VPS. Hệ thống phải tự động phát hiện và scale.
 **Cách tự động scale:**
-  * Overlord theo dõi CPU và RAM của từng worker VPS.
+  - Overlord theo dõi CPU và RAM của từng worker VPS.
 
 
-  * Nếu worker VPS nào quá tải (CPU > 80% hoặc RAM > 80%), Overlord sẽ báo hiệu cần thêm worker.
+  - Nếu worker VPS nào quá tải (CPU > 80% hoặc RAM > 80%), Overlord sẽ báo hiệu cần thêm worker.
 
 
-  * Script tự động gọi API của nhà cung cấp VPS (DigitalOcean, AWS, v.v.) để tạo VPS mới.
+  - Script tự động gọi API của nhà cung cấp VPS (DigitalOcean, AWS, v.v.) để tạo VPS mới.
 
 
-  * VPS mới tự động cài đặt môi trường và chạy worker bot.
+  - VPS mới tự động cài đặt môi trường và chạy worker bot.
 
 
 * * *
@@ -4157,13 +4157,13 @@ Hệ thống quản lý rủi ro của bạn có ba lớp:
 Kích thước lệnh tối ưu được tính bằng công thức Kelly:
 f = (p × b - q) / b
 Trong đó:
-  * p là xác suất thắng (win rate)
+  - p là xác suất thắng (win rate)
 
 
-  * q = 1 - p là xác suất thua
+  - q = 1 - p là xác suất thua
 
 
-  * b là tỷ lệ R:R (reward:risk)
+  - b là tỷ lệ R:R (reward:risk)
 
 
 **Ví dụ:** Một chiến thuật có win rate 70% và R:R = 2:1.
@@ -4234,25 +4234,25 @@ Size = 0.1 × (1 - 0.25) × 0.5 = 0.1 × 0.75 × 0.5 = 0.0375 lot
 ### 23.5 Giám sát và cảnh báo real-time
 Bạn cần một bảng điều khiển để theo dõi toàn bộ hệ thống.
 **Các chỉ số cần theo dõi:**
-  * Tổng lợi nhuận hôm nay
+  - Tổng lợi nhuận hôm nay
 
 
-  * Tổng lợi nhuận tháng này
+  - Tổng lợi nhuận tháng này
 
 
-  * Win rate tổng thể
+  - Win rate tổng thể
 
 
-  * Drawdown hiện tại
+  - Drawdown hiện tại
 
 
-  * Lợi nhuận theo từng chiến thuật
+  - Lợi nhuận theo từng chiến thuật
 
 
-  * Số bot đang hoạt động
+  - Số bot đang hoạt động
 
 
-  * Số bot đã dừng do vượt giới hạn
+  - Số bot đã dừng do vượt giới hạn
 
 
 **Công cụ:** Prometheus thu thập metrics, Grafana hiển thị dashboard, Alertmanager gửi cảnh báo qua Telegram khi vượt ngưỡng.
@@ -4659,34 +4659,34 @@ Mọi quyết định phải được bot đưa ra. Bạn không được can th
 ### 30.4 Tự động hóa việc "không làm gì"
 Phần khó nhất của trading không phải là biết khi nào vào lệnh. Mà là biết khi nào KHÔNG vào lệnh. Bot của bạn cũng phải tự động hóa việc này.
 **Các điều kiện dừng hoàn toàn:**
-  * Entropy > 0.30: không trade
+  - Entropy > 0.30: không trade
 
 
-  * Spread > 2× bình thường: không trade
+  - Spread > 2× bình thường: không trade
 
 
-  * Đã thua 2% tài khoản trong ngày: không trade tiếp
+  - Đã thua 2% tài khoản trong ngày: không trade tiếp
 
 
-  * Đã thua 3 lệnh liên tiếp: nghỉ 1 giờ
+  - Đã thua 3 lệnh liên tiếp: nghỉ 1 giờ
 
 
-  * Có tin tức quan trọng trong 15 phút: không trade
+  - Có tin tức quan trọng trong 15 phút: không trade
 
 
 **Bot không cảm xúc sẽ tuân thủ các điều kiện này một cách máy móc. Không "lần nữa", không "chắc lần này may mắn".**
 ### 30.5 Tự động hóa việc review
 Sau mỗi ngày giao dịch, bot phải tự động tạo báo cáo:
-  * Số lệnh, win rate, lợi nhuận
+  - Số lệnh, win rate, lợi nhuận
 
 
-  * Các lệnh thua: lý do gì?
+  - Các lệnh thua: lý do gì?
 
 
-  * Có vi phạm nguyên tắc nào không?
+  - Có vi phạm nguyên tắc nào không?
 
 
-  * Đề xuất điều chỉnh cho ngày mai
+  - Đề xuất điều chỉnh cho ngày mai
 
 
 Bạn chỉ cần đọc báo cáo. Không cần phân tích. Không cần cảm xúc.
@@ -4739,13 +4739,13 @@ Mỗi lệnh bạn đặt đều để lại dấu vết trên nền tảng củ
 ### 31.4 Phân tán IP và danh tính
 Mỗi lệnh nên đến từ một IP khác nhau. Mỗi tài khoản nên có một danh tính riêng biệt.
 **Cách thực hiện:**
-  * Dùng VPS ở nhiều quốc gia khác nhau (Mỹ, Anh, Singapore, Đức).
+  - Dùng VPS ở nhiều quốc gia khác nhau (Mỹ, Anh, Singapore, Đức).
 
 
-  * Mỗi bot chạy trên một VPS riêng.
+  - Mỗi bot chạy trên một VPS riêng.
 
 
-  * Mỗi tài khoản broker đăng ký bằng thông tin khác nhau (dùng dịch vụ tạo danh tính ảo).
+  - Mỗi tài khoản broker đăng ký bằng thông tin khác nhau (dùng dịch vụ tạo danh tính ảo).
 
 
 **Chi phí:** 100 VPS × $10 = $1,000/tháng. Rẻ hơn nhiều so với bị broker phát hiện và ban tài khoản.
@@ -4776,19 +4776,19 @@ Mỗi tài khoản trông như một trader riêng lẻ. Họ trade khác giờ,
 ### 32.3 Xây dựng danh tính không tồn tại
 Bạn cần tạo ra các danh tính ảo để đăng ký tài khoản broker.
 **Các thành phần của một danh tính:**
-  * Tên (dùng tên phổ biến, không trùng lặp)
+  - Tên (dùng tên phổ biến, không trùng lặp)
 
 
-  * Địa chỉ email (mỗi danh tính một email)
+  - Địa chỉ email (mỗi danh tính một email)
 
 
-  * Số điện thoại (dùng số ảo, dịch vụ như Google Voice)
+  - Số điện thoại (dùng số ảo, dịch vụ như Google Voice)
 
 
-  * Địa chỉ nhà (dùng địa chỉ thật nhưng không phải của bạn)
+  - Địa chỉ nhà (dùng địa chỉ thật nhưng không phải của bạn)
 
 
-  * Giấy tờ tùy thân (dùng dịch vụ tạo ID ảo)
+  - Giấy tờ tùy thân (dùng dịch vụ tạo ID ảo)
 
 
 **Chi phí:** Khoảng $5-10 mỗi danh tính. Với 50 danh tính, khoảng $250-500.
@@ -4860,26 +4860,26 @@ Bạn cần tạo ra các danh tính ảo để đăng ký tài khoản broker.
 ```
 ### 32.5 Những điều không bao giờ được làm
 **Tuyệt đối không:**
-  * Kết nối các tài khoản với nhau (cùng IP, cùng email, cùng số điện thoại).
+  - Kết nối các tài khoản với nhau (cùng IP, cùng email, cùng số điện thoại).
 
 
-  * Rút tiền từ nhiều tài khoản về cùng một tài khoản ngân hàng cá nhân. Dùng trung gian (crypto, ví điện tử) để gom tiền.
+  - Rút tiền từ nhiều tài khoản về cùng một tài khoản ngân hàng cá nhân. Dùng trung gian (crypto, ví điện tử) để gom tiền.
 
 
-  * Nói với bất kỳ ai về hệ thống của bạn. Bạn là ghost. Ghost không tồn tại. Ghost không khoe khoang.
+  - Nói với bất kỳ ai về hệ thống của bạn. Bạn là ghost. Ghost không tồn tại. Ghost không khoe khoang.
 
 
 **Làm thế nào để rút tiền an toàn:**
-  * Tài khoản broker A → rút về ví crypto A (Coinbase, Binance)
+  - Tài khoản broker A → rút về ví crypto A (Coinbase, Binance)
 
 
-  * Tài khoản broker B → rút về ví crypto B
+  - Tài khoản broker B → rút về ví crypto B
 
 
-  * Gom crypto về một ví trung gian (không tên)
+  - Gom crypto về một ví trung gian (không tên)
 
 
-  * Chuyển về ví chính của bạn (có thể trace nhưng khó)
+  - Chuyển về ví chính của bạn (có thể trace nhưng khó)
 
 
 Hoặc đơn giản hơn: dùng tiền từ broker này để nạp vào broker khác. Không bao giờ rút về tài khoản ngân hàng cá nhân.
@@ -4891,16 +4891,16 @@ Bạn là Ghost Trader. Và Ghost Trader không bao giờ thua.
 * * *
 ## KẾT LUẬN PHẦN VI
 Bốn chương của Phần VI đã dạy bạn cách trở nên vô hình:
-  * **Bypassing Brokers** – Không để broker thấy stop của bạn, không bị spread manipulation, không bị Last Look, không bị B-book.
+  - **Bypassing Brokers** – Không để broker thấy stop của bạn, không bị spread manipulation, không bị Last Look, không bị B-book.
 
 
-  * **Bypassing Yourself** – Tự động hóa cảm xúc, bot quyết định thay bạn, không sợ hãi, không tham lam, không hy vọng.
+  - **Bypassing Yourself** – Tự động hóa cảm xúc, bot quyết định thay bạn, không sợ hãi, không tham lam, không hy vọng.
 
 
-  * **Bypassing Reality** – Không để lại dấu vết, random hóa mọi thứ, phân tán IP và danh tính, không thể bị bắt chước.
+  - **Bypassing Reality** – Không để lại dấu vết, random hóa mọi thứ, phân tán IP và danh tính, không thể bị bắt chước.
 
 
-  * **The Ghost Trader** – Xây dựng danh tính không tồn tại, mỗi lệnh từ một IP khác nhau, mỗi tài khoản một người khác nhau, không ai có thể kết nối các lệnh với bạn.
+  - **The Ghost Trader** – Xây dựng danh tính không tồn tại, mỗi lệnh từ một IP khác nhau, mỗi tài khoản một người khác nhau, không ai có thể kết nối các lệnh với bạn.
 
 
 Bạn bây giờ không còn là một trader. Bạn là một hệ thống. Bạn là một bóng ma. Bạn là Ghost Trader.

@@ -84,18 +84,18 @@ It does not prove that the seed contents are correct.
 
 The Generator Seed layer exists to make generator initialization:
 
-* explicit;
-* reproducible where possible;
-* provenance-aware;
-* version-bound;
-* scope-bound;
-* regime-aware;
-* dependency-aware;
-* auditable;
-* deterministic where required;
-* falsifiable;
-* recoverable;
-* resistant to hidden state.
+- explicit;
+- reproducible where possible;
+- provenance-aware;
+- version-bound;
+- scope-bound;
+- regime-aware;
+- dependency-aware;
+- auditable;
+- deterministic where required;
+- falsifiable;
+- recoverable;
+- resistant to hidden state.
 
 It answers:
 
@@ -2640,16 +2640,16 @@ claim_class: AMOS_MODEL
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
-* PART_OF: [[GENERATORS_MAP]]
-* PART_OF: [[COGNITIVE_MATRIX_MOC]]
-* GOVERNED_BY: 12_GENERATORS_CONTRACT
-* VERSIONED_BY: 12_GENERATORS_VERSIONING
-* RESOLVES_WITH: [[GENERATOR_REGISTRY]]
-* PRODUCES_INPUT_FOR: [[GENERATOR_OUTPUT]]
-* VALIDATED_BY: [[GENERATOR_FALSIFICATION]]
-* USED_BY: [[GENERATOR_PROMOTION]]
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- PART_OF: [[GENERATORS_MAP]]
+- PART_OF: [[COGNITIVE_MATRIX_MOC]]
+- GOVERNED_BY: 12_GENERATORS_CONTRACT
+- VERSIONED_BY: 12_GENERATORS_VERSIONING
+- RESOLVES_WITH: [[GENERATOR_REGISTRY]]
+- PRODUCES_INPUT_FOR: [[GENERATOR_OUTPUT]]
+- VALIDATED_BY: [[GENERATOR_FALSIFICATION]]
+- USED_BY: [[GENERATOR_PROMOTION]]
 
 ```
 ```

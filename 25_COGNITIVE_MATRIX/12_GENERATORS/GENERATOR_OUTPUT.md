@@ -42,23 +42,23 @@ unless an explicitly governed downstream process establishes otherwise.
 
 The Generator Output layer exists to ensure that generated material preserves enough structure for AMOS to determine:
 
-* what was generated;
-* which generator produced it;
-* which generator version was used;
-* what task caused generation;
-* what inputs and dependencies materially affected it;
-* which claims are observations, source claims, derivations, models, decisions, or unknowns;
-* what provenance is inherited;
-* what scope and regime apply;
-* how fresh the underlying information is;
-* which constraints apply;
-* what uncertainty remains;
-* which competing hypotheses survive;
-* what could falsify the output;
-* whether validation occurred;
-* whether the output is actionable;
-* whether execution or commitment is authorized;
-* whether later state changes invalidate it.
+- what was generated;
+- which generator produced it;
+- which generator version was used;
+- what task caused generation;
+- what inputs and dependencies materially affected it;
+- which claims are observations, source claims, derivations, models, decisions, or unknowns;
+- what provenance is inherited;
+- what scope and regime apply;
+- how fresh the underlying information is;
+- which constraints apply;
+- what uncertainty remains;
+- which competing hypotheses survive;
+- what could falsify the output;
+- whether validation occurred;
+- whether the output is actionable;
+- whether execution or commitment is authorized;
+- whether later state changes invalidate it.
 
 The output layer therefore acts as an epistemic and operational boundary between:
 
@@ -373,15 +373,15 @@ A derived conclusion does not become independent evidence for its own premises.
 
 Use `MODEL` for:
 
-* hypotheses;
-* simulations;
-* conceptual mappings;
-* forecasts;
-* scenarios;
-* analogies;
-* structural interpretations;
-* cross-domain mappings;
-* causal models not independently established.
+- hypotheses;
+- simulations;
+- conceptual mappings;
+- forecasts;
+- scenarios;
+- analogies;
+- structural interpretations;
+- cross-domain mappings;
+- causal models not independently established.
 
 Structural similarity alone does not promote a model into an empirical claim.
 
@@ -992,11 +992,11 @@ DO_NOT_LOAD_UNLESS_REQUIRED
 
 Output SHOULD reference rather than redundantly reproduce raw evidence unless:
 
-* validation requires it;
-* contradiction resolution requires it;
-* provenance cannot otherwise be established;
-* user deliverable requires it;
-* governance requires preservation.
+- validation requires it;
+- contradiction resolution requires it;
+- provenance cannot otherwise be established;
+- user deliverable requires it;
+- governance requires preservation.
 
 ---
 
@@ -1144,11 +1144,11 @@ $$R=f(E,O,K,U,Risk)$$
 
 where:
 
-* $E$ = evidence,
-* $O$ = objectives,
-* $K$ = constraints,
-* $U$ = uncertainty,
-* `Risk` = consequence profile.
+- $E$ = evidence,
+- $O$ = objectives,
+- $K$ = constraints,
+- $U$ = uncertainty,
+- `Risk` = consequence profile.
 
 Changing objectives may legitimately change the recommendation without changing underlying facts.
 

@@ -7,6 +7,11 @@ tags:
 - 26_planes
 - structure
 - canon
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: universe_canon
 ---
 
 # Khung Trang 26 Planes Structural Mapping (F1-F26)

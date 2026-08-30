@@ -2048,7 +2048,6 @@ AUTHORITY TO COMMIT
 
 The AMOS multimodal-perception layer used as the supporting architecture requires H/M/L, typed invariants/tensors, RSCF, falsifiers, and repair, while explicitly keeping source-defined constructs separate from external empirical validation.
 ```
-
 ---
 
 [[00_ROOT_MOC]]|[[AMOS MOC]]

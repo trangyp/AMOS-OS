@@ -137,7 +137,6 @@ This is not merely a taxonomy. The source attempts to define a **reasoning and s
 ```text
 _00_AMOS_CANON
 ```
-
 into the target namespace:
 
 ```text

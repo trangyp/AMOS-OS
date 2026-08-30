@@ -55,7 +55,6 @@ domain: c03
 Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 
 
-
 ## Preconditions
 
 - The `amos-c03-physics-cosmos-master` skill exists and is loaded.

@@ -30,11 +30,11 @@ Define the AMOS contract for `L02_ATTENTION / PROVENANCE.md`.
 
 Current source basis:
 
-* `L02_ATTENTION/PLACEHOLDER.md`
-* `AMOS_COGNITIVE_CELL_REGISTRY.csv`
-* `PRIMITIVE_REGISTRY.md`
-* AMOS Full Brain OS / AMOS_CORE v4.4 lineage
-* sibling L02 contracts where explicitly established
+- `L02_ATTENTION/PLACEHOLDER.md`
+- `AMOS_COGNITIVE_CELL_REGISTRY.csv`
+- `PRIMITIVE_REGISTRY.md`
+- AMOS Full Brain OS / AMOS_CORE v4.4 lineage
+- sibling L02 contracts where explicitly established
 
 The recovered L02 placeholder identifies the primitive as attention allocation over scarce reasoning/observation resources.
 

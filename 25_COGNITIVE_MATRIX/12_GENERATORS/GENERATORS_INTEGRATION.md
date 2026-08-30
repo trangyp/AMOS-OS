@@ -3842,26 +3842,26 @@ NON_AUTHORITATIVE
 
 ## Related
 
-* Generator Contract
-* Generator Provenance
-* Generator Validation
-* Generator Tests
-* Generator Roadmap
-* Routing
-* Binding Rules
-* Routing Policy
-* Routing Audit
-* Validation
-* Promotion Gates
-* Authoritative State
-* Provenance Manifest
-* Policy Manifest
-* Authority Registry
-* Generator Registry
-* Worker Registry
-* Event Bus
-* State Store
-* Control Plane
+- Generator Contract
+- Generator Provenance
+- Generator Validation
+- Generator Tests
+- Generator Roadmap
+- Routing
+- Binding Rules
+- Routing Policy
+- Routing Audit
+- Validation
+- Promotion Gates
+- Authoritative State
+- Provenance Manifest
+- Policy Manifest
+- Authority Registry
+- Generator Registry
+- Worker Registry
+- Event Bus
+- State Store
+- Control Plane
 
 ```
 
@@ -3920,4 +3920,5 @@ claim_class: AMOS_MODEL
 **MOC:**
 
 
+```
 ```

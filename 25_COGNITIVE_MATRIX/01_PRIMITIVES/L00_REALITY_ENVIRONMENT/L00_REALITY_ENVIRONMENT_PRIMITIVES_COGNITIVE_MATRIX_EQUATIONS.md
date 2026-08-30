@@ -263,11 +263,11 @@ X_t,
 
 where:
 
-* \(R_t\) = prior environment state;
-* \(U_t\) = system actions/interventions;
-* \(X_t\) = relevant exogenous conditions;
-* (\epsilon_t) = unresolved or unmodeled influences;
-* \(F_R\) = domain-specific transition operator.
+- \(R_t\) = prior environment state;
+- \(U_t\) = system actions/interventions;
+- \(X_t\) = relevant exogenous conditions;
+- (\epsilon_t) = unresolved or unmodeled influences;
+- \(F_R\) = domain-specific transition operator.
 
 AMOS does not assume \(F_R\) is fully known.
 
@@ -326,11 +326,11 @@ C_t
 
 where:
 
-* \(R_t\) = environment state;
-* \(A_t\) = observer/access configuration;
-* \(M_t\) = measurement method;
-* \(C_t\) = observation context;
-* (\epsilon_t^{obs}) = observation uncertainty/error.
+- \(R_t\) = environment state;
+- \(A_t\) = observer/access configuration;
+- \(M_t\) = measurement method;
+- \(C_t\) = observation context;
+- (\epsilon_t^{obs}) = observation uncertainty/error.
 
 This equation encodes partial access.
 
@@ -382,10 +382,10 @@ E_t
 
 where:
 
-* \(Q_t\) = target quantity;
-* \(I_t\) = instrument;
-* \(K_t\) = calibration/method state;
-* \(E_t\) = relevant environmental conditions.
+- \(Q_t\) = target quantity;
+- \(I_t\) = instrument;
+- \(K_t\) = calibration/method state;
+- \(E_t\) = relevant environmental conditions.
 
 ---
 
@@ -425,8 +425,8 @@ A_i(t)\in{0,1}
 
 where:
 
-* (A_i=1) means observable/available;
-* (A_i=0) means unavailable.
+- (A_i=1) means observable/available;
+- (A_i=0) means unavailable.
 
 Then:
 
@@ -492,10 +492,10 @@ F_t
 
 where:
 
-* \(P_t\) = provenance;
-* \(S_t\) = scope;
-* \(G_t\) = regime;
-* \(F_t\) = freshness.
+- \(P_t\) = provenance;
+- \(S_t\) = scope;
+- \(G_t\) = regime;
+- \(F_t\) = freshness.
 
 ---
 
@@ -669,10 +669,10 @@ C_t
 
 where:
 
-* observations,
-* admitted evidence,
-* memory,
-* and context
+- observations,
+- admitted evidence,
+- memory,
+- and context
 
 are transformed into internal state.
 
@@ -781,9 +781,9 @@ A_j
 
 where:
 
-* \(P_j\) = premises;
-* \(E_j\) = supporting evidence;
-* \(A_j\) = assumptions.
+- \(P_j\) = premises;
+- \(E_j\) = supporting evidence;
+- \(A_j\) = assumptions.
 
 ---
 
@@ -1173,13 +1173,13 @@ U_P
 
 where:
 
-* \(U_E\) = evidence uncertainty;
-* \(U_M\) = model uncertainty;
-* \(U_S\) = scope uncertainty;
-* \(U_T\) = temporal uncertainty;
-* \(U_C\) = causal uncertainty;
-* \(U_X\) = execution uncertainty;
-* \(U_P\) = provenance-independence uncertainty.
+- \(U_E\) = evidence uncertainty;
+- \(U_M\) = model uncertainty;
+- \(U_S\) = scope uncertainty;
+- \(U_T\) = temporal uncertainty;
+- \(U_C\) = causal uncertainty;
+- \(U_X\) = execution uncertainty;
+- \(U_P\) = provenance-independence uncertainty.
 
 These dimensions should not automatically collapse into one scalar.
 
@@ -1406,9 +1406,9 @@ L_t
 
 where:
 
-* \(H_t\) = governing/system state;
-* \(M_t\) = subsystem state;
-* \(L_t\) = local/detail state.
+- \(H_t\) = governing/system state;
+- \(M_t\) = subsystem state;
+- \(L_t\) = local/detail state.
 
 ---
 
@@ -1523,10 +1523,10 @@ R_t
 
 where:
 
-* \(W_t\) = candidate writes;
-* \(I_t\) = invalidations;
-* \(Q_t\) = quarantines;
-* \(R_t\) = revalidations.
+- \(W_t\) = candidate writes;
+- \(I_t\) = invalidations;
+- \(Q_t\) = quarantines;
+- \(R_t\) = revalidations.
 
 ---
 
@@ -1615,8 +1615,8 @@ G_t
 
 where:
 
-* (h) = prediction horizon;
-* \(G_t\) = regime/context.
+- (h) = prediction horizon;
+- \(G_t\) = regime/context.
 
 Prediction remains:
 
@@ -2933,13 +2933,13 @@ I
 
 where:
 
-* \(D\) = dependency closure sufficient;
-* \(P\) = provenance sufficient;
-* \(S\) = scope compatible;
-* \(G\) = regime compatible;
-* \(F\) = freshness adequate;
-* \(N\) = no blocking conflict;
-* \(I\) = required independence demonstrated.
+- \(D\) = dependency closure sufficient;
+- \(P\) = provenance sufficient;
+- \(S\) = scope compatible;
+- \(G\) = regime compatible;
+- \(F\) = freshness adequate;
+- \(N\) = no blocking conflict;
+- \(I\) = required independence demonstrated.
 
 If:
 
@@ -3322,8 +3322,8 @@ G_{EQ}
 
 where:
 
-* (V_{EQ}) = equation contracts;
-* (E_{EQ}) = prerequisite relationships.
+- (V_{EQ}) = equation contracts;
+- (E_{EQ}) = prerequisite relationships.
 
 Example:
 

@@ -27,11 +27,11 @@ Action primarily intended to change the target system.
 
 Examples:
 
-* edit state
-* execute tool action
-* send message
-* commit transaction
-* deploy change
+- edit state
+- execute tool action
+- send message
+- commit transaction
+- deploy change
 
 Maintain:
 
@@ -68,11 +68,11 @@ Status:
 
 For high-stakes actions add:
 
-* provenance validation
-* freshness validation
-* contradiction check
-* commit-time revalidation
-* rollback path
+- provenance validation
+- freshness validation
+- contradiction check
+- commit-time revalidation
+- rollback path
 
 ---
 
@@ -327,12 +327,12 @@ are achieved.
 
 Also stop when:
 
-* evidence cannot improve
-* authority is missing
-* next action violates constraints
-* uncertainty is irreducible
-* further iteration has low value
-* user objective is already satisfied
+- evidence cannot improve
+- authority is missing
+- next action violates constraints
+- uncertainty is irreducible
+- further iteration has low value
+- user objective is already satisfied
 
 ---
 
@@ -386,11 +386,11 @@ Treat observer influence conservatively.
 
 An observation process may alter:
 
-* what information becomes available
-* user behavior
-* system state
-* future actions
-* data collection
+- what information becomes available
+- user behavior
+- system state
+- future actions
+- data collection
 
 Do not invoke quantum observer language unless the domain genuinely requires quantum mechanics.
 
@@ -581,12 +581,12 @@ verify that the objective itself is valid.
 
 Check:
 
-* user actually requested it
-* scope is correct
-* target is still current
-* objective does not violate hard constraints
-* success metric is not proxy-corrupted
-* objective has not drifted
+- user actually requested it
+- scope is correct
+- target is still current
+- objective does not violate hard constraints
+- success metric is not proxy-corrupted
+- objective has not drifted
 
 Maintain:
 
@@ -713,12 +713,12 @@ Never store a prediction later as an observation unless outcome evidence is acqu
 
 For consequential forecasts require:
 
-* timestamp safety
-* no future leakage
-* regime validity
-* calibration where available
-* competing model
-* falsification criterion
+- timestamp safety
+- no future leakage
+- regime validity
+- calibration where available
+- competing model
+- falsification criterion
 
 Maintain:
 
@@ -767,12 +767,12 @@ Keep the proof capsule as small as possible.
 
 If the loop proposes changing its own:
 
-* model
-* policy
-* memory
-* authority
-* objective
-* architecture
+- model
+- policy
+- memory
+- authority
+- objective
+- architecture
 
 treat that as governed system evolution.
 
@@ -798,12 +798,12 @@ Identify the smallest premise capable of changing the selected action.
 
 Examples:
 
-* identity of user intent
-* regime assumption
-* probability estimate
-* authority state
-* safety condition
-* prediction horizon
+- identity of user intent
+- regime assumption
+- probability estimate
+- authority state
+- safety condition
+- prediction horizon
 
 Validate the most decision-sensitive premise first.
 

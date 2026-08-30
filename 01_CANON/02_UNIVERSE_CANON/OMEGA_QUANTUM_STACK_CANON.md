@@ -1916,29 +1916,29 @@ SOURCE_REPORTED_NOT_INDEPENDENTLY_REVALIDATED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY:
+- INDEXED_BY:
 
-* INDEXED_BY:
+- INDEXED_BY:
 
-* INDEXED_BY:
+- INDEXED_BY:
 
-* GOVERNED_BY:
+- GOVERNED_BY:
 
-* GOVERNED_BY:
+- GOVERNED_BY:
 
-* SPECIALIZES:
+- SPECIALIZES:
 
-* RELATED_FRAMEWORK:
+- RELATED_FRAMEWORK:
 
-* RELATED_EQUATIONS:
+- RELATED_EQUATIONS:
 
-* TARGET_BINDING:
+- TARGET_BINDING:
 
-* TARGET_BINDING:
+- TARGET_BINDING:
 
-* OBSERVED_BY:
+- OBSERVED_BY:
 
-* RECOVERED_VIA:
+- RECOVERED_VIA:
 
 ---
 
@@ -1959,4 +1959,5 @@ RSCF-RELATIONS:
 
 The key promotion relative to the original placeholder is **architectural content: SOURCE_GROUNDED**. I did **not** carry forward `RUNTIME_VERIFIED` merely from reported implementation/test counts: the connected Omega architecture describes concrete library, MURK, brain-model, storage, and integration components, but those reports are still source claims until their executable artifacts and receipts are independently checked. :contentReference[oaicite:1]{index=1}
 
+```
 ```

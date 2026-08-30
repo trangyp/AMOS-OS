@@ -39,6 +39,11 @@ tags:
 aliases:
 - AMOS Alias Registry - AMOS Identity Alias Registry - Canonical Alias Registry -
   Alias Resolu
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # AMOS OS Alias Registry

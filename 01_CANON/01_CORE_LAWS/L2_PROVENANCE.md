@@ -1864,31 +1864,26 @@ IDENTIFIED
     ↓
 QUARANTINED
 ```
-
 ```text
 VALID
     ↓
 SUPERSEDED
 ```
-
 ```text
 VALID
     ↓
 REVOKED
 ```
-
 ```text
 VALID
     ↓
 STALE
 ```
-
 ```text
 UNKNOWN
     ↓
 ROOT_RESOLVED
 ```
-
 ---
 
 # 76. Provenance Status Vocabulary

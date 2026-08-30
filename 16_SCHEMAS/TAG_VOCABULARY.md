@@ -9,6 +9,10 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_general
   proposal: APPROVED_2026-08-30
+tags:
+- 16-schemas
+- schema
+- tag-vocabulary
 ---
 
 # Tag Vocabulary (Approved)

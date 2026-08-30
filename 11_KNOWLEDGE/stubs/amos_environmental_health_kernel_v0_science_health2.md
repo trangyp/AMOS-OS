@@ -7,6 +7,13 @@ tags:
 - health
 - kernel
 - science
+type: note
+source: 11_KNOWLEDGE/stubs
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # amos environmental health kernel v0 science health2

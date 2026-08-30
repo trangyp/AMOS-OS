@@ -311,18 +311,18 @@ The placeholder has governance value even while substantive semantics remain unr
 
 It preserves:
 
-* identity;
-* path;
-* plane;
-* framework name;
-* origin attribution;
-* ingestion location;
-* RSCF addressability;
-* canonical reservation;
-* provenance requirements;
-* promotion requirements;
-* anti-duplication rules;
-* uncertainty state.
+- identity;
+- path;
+- plane;
+- framework name;
+- origin attribution;
+- ingestion location;
+- RSCF addressability;
+- canonical reservation;
+- provenance requirements;
+- promotion requirements;
+- anti-duplication rules;
+- uncertainty state.
 
 ---
 
@@ -354,23 +354,23 @@ without inventing intermediate content.
 
 This artifact MUST NOT be used to claim:
 
-* a known expansion of `UBA`;
-* a completed UBA ontology;
-* universal laws of reality;
-* a universe theory;
-* a biological theory;
-* a consciousness theory;
-* a physical theory;
-* scientific validation;
-* mathematical theoremhood;
-* philosophical certainty;
-* causal validity;
-* cross-domain validity;
-* runtime enforcement;
-* implementation completeness;
-* canonical finality;
-* empirical validation;
-* authority from architectural placement.
+- a known expansion of `UBA`;
+- a completed UBA ontology;
+- universal laws of reality;
+- a universe theory;
+- a biological theory;
+- a consciousness theory;
+- a physical theory;
+- scientific validation;
+- mathematical theoremhood;
+- philosophical certainty;
+- causal validity;
+- cross-domain validity;
+- runtime enforcement;
+- implementation completeness;
+- canonical finality;
+- empirical validation;
+- authority from architectural placement.
 
 ---
 
@@ -786,14 +786,14 @@ DO NOT OVERWRITE
 
 First compare:
 
-* content;
-* version;
-* source;
-* lineage;
-* provenance;
-* scope;
-* historical position;
-* semantic compatibility.
+- content;
+- version;
+- source;
+- lineage;
+- provenance;
+- scope;
+- historical position;
+- semantic compatibility.
 
 ---
 
@@ -2896,10 +2896,10 @@ acronym_expansion:
 
 until:
 
-* a native source explicitly expands `UBA`;
-* the source is tied to this framework identity;
-* version/scope are compatible;
-* no stronger contradictory expansion exists.
+- a native source explicitly expands `UBA`;
+- the source is tied to this framework identity;
+- version/scope are compatible;
+- no stronger contradictory expansion exists.
 
 ---
 
@@ -3187,45 +3187,45 @@ This ordering is a normalized decision strategy, not native UBA canon.
 
 # 196. Promotion-Gate Checklist
 
-* [x] artifact slot reserved
-* [x] artifact identity declared
-* [x] path declared
-* [x] origin architect preserved
-* [x] steward preserved
-* [x] AMOS system binding declared
-* [x] model-plane placement declared
-* [x] ADD-ONLY policy declared
-* [x] epistemic firewall declared
-* [x] provenance requirements declared
-* [x] scope firewall declared
-* [x] regime firewall declared
-* [x] causal firewall declared
-* [x] confidence ceiling declared
-* [x] UNKNOWN/GAP preservation declared
-* [x] RSCF wrapper declared
-* [x] rollback requirement declared
-* [x] validation receipt requirement declared
-* [ ] native UBA master source identified
-* [ ] UBA acronym expansion verified
-* [ ] native UBA definition verified
-* [ ] native UBA ontology extracted
-* [ ] native UBA laws extracted
-* [ ] native UBA equations extracted
-* [ ] native UBA schema extracted
-* [ ] historical lineage reconstructed
-* [ ] provenance independence assessed
-* [ ] competing definitions resolved or preserved
-* [ ] substantive source normalized to RSCF
-* [ ] canonical status reviewed
-* [ ] typed executable schema bound
-* [ ] implementation established
-* [ ] negative runtime cases covered
-* [ ] persistence binding validated
-* [ ] provenance edges persisted and tested
-* [ ] rollback basin demonstrated
-* [ ] UBA-specific validation receipt executed
-* [ ] empirical claims independently validated
-* [ ] unresolved critical gaps closed
+- [x] artifact slot reserved
+- [x] artifact identity declared
+- [x] path declared
+- [x] origin architect preserved
+- [x] steward preserved
+- [x] AMOS system binding declared
+- [x] model-plane placement declared
+- [x] ADD-ONLY policy declared
+- [x] epistemic firewall declared
+- [x] provenance requirements declared
+- [x] scope firewall declared
+- [x] regime firewall declared
+- [x] causal firewall declared
+- [x] confidence ceiling declared
+- [x] UNKNOWN/GAP preservation declared
+- [x] RSCF wrapper declared
+- [x] rollback requirement declared
+- [x] validation receipt requirement declared
+- [ ] native UBA master source identified
+- [ ] UBA acronym expansion verified
+- [ ] native UBA definition verified
+- [ ] native UBA ontology extracted
+- [ ] native UBA laws extracted
+- [ ] native UBA equations extracted
+- [ ] native UBA schema extracted
+- [ ] historical lineage reconstructed
+- [ ] provenance independence assessed
+- [ ] competing definitions resolved or preserved
+- [ ] substantive source normalized to RSCF
+- [ ] canonical status reviewed
+- [ ] typed executable schema bound
+- [ ] implementation established
+- [ ] negative runtime cases covered
+- [ ] persistence binding validated
+- [ ] provenance edges persisted and tested
+- [ ] rollback basin demonstrated
+- [ ] UBA-specific validation receipt executed
+- [ ] empirical claims independently validated
+- [ ] unresolved critical gaps closed
 
 ---
 
@@ -5327,15 +5327,15 @@ native_definition: UNKNOWN/GAP
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
-* INDEXED_BY: [[01_FOUNDATION_MOC]]
-* GOVERNED_BY: [[LAW_HIERARCHY]]
-* INTERACTS_WITH: [[KERNEL_README]]
-* GATED_BY: [[CONTROL_PLANE_README]]
-* OBSERVED_BY: [[OBSERVABILITY_README]]
-* RECOVERED_VIA: [[OPERATIONS_README]]
-* AWAITS_SOURCE: UBA_NATIVE_CANON
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[01_FOUNDATION_MOC]]
+- GOVERNED_BY: [[LAW_HIERARCHY]]
+- INTERACTS_WITH: [[KERNEL_README]]
+- GATED_BY: [[CONTROL_PLANE_README]]
+- OBSERVED_BY: [[OBSERVABILITY_README]]
+- RECOVERED_VIA: [[OPERATIONS_README]]
+- AWAITS_SOURCE: UBA_NATIVE_CANON
 
 ---
 

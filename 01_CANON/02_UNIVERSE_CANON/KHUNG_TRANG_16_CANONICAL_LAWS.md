@@ -6,6 +6,11 @@ tags:
 - khung_trang
 - laws
 - canon
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: universe_canon
 ---
 
 # Khung Trang 16 Canonical Laws

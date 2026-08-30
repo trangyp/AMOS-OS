@@ -24,22 +24,22 @@ Evidence is not merely a source reference.
 
 It carries the structural information required to determine:
 
-* where the evidence originated,
-* what kind of evidence it is,
-* which claims it supports,
-* how the observation was produced,
-* when it was produced,
-* which version produced it,
-* in which environment it was observed,
-* where it applies,
-* under which regime it remains relevant,
-* what its ancestry is,
-* whether it is genuinely independent,
-* how strong it is,
-* how fresh it remains for a particular claim,
-* whether it has been revoked,
-* whether it may legally or operationally be reused,
-* and whether contamination requires quarantine.
+- where the evidence originated,
+- what kind of evidence it is,
+- which claims it supports,
+- how the observation was produced,
+- when it was produced,
+- which version produced it,
+- in which environment it was observed,
+- where it applies,
+- under which regime it remains relevant,
+- what its ancestry is,
+- whether it is genuinely independent,
+- how strong it is,
+- how fresh it remains for a particular claim,
+- whether it has been revoked,
+- whether it may legally or operationally be reused,
+- and whether contamination requires quarantine.
 
 The canonical tensor is:
 
@@ -276,14 +276,14 @@ E.id = unique(E)
 
 Identity should survive:
 
-* storage,
-* retrieval,
-* compression,
-* transformation,
-* citation,
-* graph traversal,
-* version updates,
-* RSCF reuse.
+- storage,
+- retrieval,
+- compression,
+- transformation,
+- citation,
+- graph traversal,
+- version updates,
+- RSCF reuse.
 
 Two evidence objects with identical text are not necessarily identical evidence.
 
@@ -569,14 +569,14 @@ hash
 
 This is essential for:
 
-* software,
-* repositories,
-* datasets,
-* models,
-* policies,
-* specifications,
-* benchmarks,
-* evolving documents.
+- software,
+- repositories,
+- datasets,
+- models,
+- policies,
+- specifications,
+- benchmarks,
+- evolving documents.
 
 A conclusion established against version (v_1) cannot automatically be applied to (v_2).
 
@@ -793,8 +793,8 @@ G_E=(V_E,E_P)
 
 where:
 
-* (V_E) = evidence objects,
-* (E_P) = provenance edges.
+- (V_E) = evidence objects,
+- (E_P) = provenance edges.
 
 Possible edges:
 
@@ -911,17 +911,17 @@ unless further evidence establishes otherwise.
 
 Evidence may be correlated because of:
 
-* common source,
-* shared dataset,
-* shared benchmark,
-* copied text,
-* shared model,
-* shared training data,
-* shared measurement pipeline,
-* shared validator,
-* shared repository,
-* shared human witness,
-* shared instrumentation.
+- common source,
+- shared dataset,
+- shared benchmark,
+- copied text,
+- shared model,
+- shared training data,
+- shared measurement pipeline,
+- shared validator,
+- shared repository,
+- shared human witness,
+- shared instrumentation.
 
 Therefore:
 
@@ -1142,12 +1142,12 @@ unless the claim is explicitly historical.
 
 Revalidation may:
 
-* confirm,
-* update,
-* supersede,
-* downgrade,
-* revoke,
-* or replace the evidence.
+- confirm,
+- update,
+- supersede,
+- downgrade,
+- revoke,
+- or replace the evidence.
 
 ---
 
@@ -1166,8 +1166,8 @@ RC(E,C)
 
 where:
 
-* (SC) = scope compatibility,
-* (RC) = regime compatibility.
+- (SC) = scope compatibility,
+- (RC) = regime compatibility.
 
 Decision matrix:
 
@@ -1255,13 +1255,13 @@ UNKNOWN
 
 Examples:
 
-* paper retraction,
-* invalid benchmark,
-* compromised repository,
-* revoked certificate,
-* corrected dataset,
-* withdrawn report,
-* falsified measurement.
+- paper retraction,
+- invalid benchmark,
+- compromised repository,
+- revoked certificate,
+- corrected dataset,
+- withdrawn report,
+- falsified measurement.
 
 ---
 
@@ -1383,11 +1383,11 @@ Quarantine \neq Erasure
 
 It preserves evidence for:
 
-* investigation,
-* repair,
-* provenance reconstruction,
-* audit,
-* possible revalidation.
+- investigation,
+- repair,
+- provenance reconstruction,
+- audit,
+- possible revalidation.
 
 ---
 
@@ -1478,13 +1478,13 @@ Cont
 
 where:
 
-* (Q) = quality,
-* (F) = freshness,
-* (S) = scope compatibility,
-* (R) = regime compatibility,
-* (I) = independence/provenance integrity,
-* (Rev) = revocation status,
-* (Cont) = contamination state.
+- (Q) = quality,
+- (F) = freshness,
+- (S) = scope compatibility,
+- (R) = regime compatibility,
+- (I) = independence/provenance integrity,
+- (Rev) = revocation status,
+- (Cont) = contamination state.
 
 For hard gates:
 
@@ -1640,12 +1640,12 @@ IndependentConfirmation
 
 This applies to:
 
-* copied articles,
-* syndicated reports,
-* AI summaries,
-* mirrored repositories,
-* derivative datasets,
-* repeated benchmark reports.
+- copied articles,
+- syndicated reports,
+- AI summaries,
+- mirrored repositories,
+- derivative datasets,
+- repeated benchmark reports.
 
 ---
 
@@ -2264,12 +2264,12 @@ Support(E_i,C_j)
 
 subject to masks for:
 
-* scope,
-* regime,
-* freshness,
-* revocation,
-* contamination,
-* independence.
+- scope,
+- regime,
+- freshness,
+- revocation,
+- contamination,
+- independence.
 
 Thus effective support becomes:
 
@@ -2492,22 +2492,22 @@ L
 
 where:
 
-* (I) = evidence identity,
-* (S) = source,
-* (S_t) = source type,
-* (C_s) = claim-support relation,
-* (O) = observation method,
-* (T) = temporal state,
-* (V) = version,
-* (Env) = environment,
-* (Sc) = scope,
-* (R) = regime,
-* (A) = ancestry,
-* (G) = independence group,
-* (Q) = quality,
-* (F) = freshness,
-* (Rev) = revocation state,
-* (L) = license.
+- (I) = evidence identity,
+- (S) = source,
+- (S_t) = source type,
+- (C_s) = claim-support relation,
+- (O) = observation method,
+- (T) = temporal state,
+- (V) = version,
+- (Env) = environment,
+- (Sc) = scope,
+- (R) = regime,
+- (A) = ancestry,
+- (G) = independence group,
+- (Q) = quality,
+- (F) = freshness,
+- (Rev) = revocation state,
+- (L) = license.
 
 ---
 

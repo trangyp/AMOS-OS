@@ -257,12 +257,12 @@ The matrix explicitly binds to:
 
 Therefore the operator identities:
 
-* `ALU-0`
-* `ALU-1`
-* `ALU-2`
-* `ALU-3`
-* `ALU-4`
-* `ALU-5`
+- `ALU-0`
+- `ALU-1`
+- `ALU-2`
+- `ALU-3`
+- `ALU-4`
+- `ALU-5`
 
 should be interpreted according to the canonical ULK definition rather than reconstructed solely from their symbols.
 
@@ -341,12 +341,12 @@ This is a **source-defined AMOS model rule**.
 
 The matrix does not define:
 
-* the internal representation of \(S_0\);
-* whether \(S_0\) is unique;
-* the conservation predicate;
-* initialization mechanics;
-* restoration semantics;
-* whether `Null State Abort` terminates a transaction, branch, RSCF node, or larger operation.
+- the internal representation of \(S_0\);
+- whether \(S_0\) is unique;
+- the conservation predicate;
+- initialization mechanics;
+- restoration semantics;
+- whether `Null State Abort` terminates a transaction, branch, RSCF node, or larger operation.
 
 Therefore these remain dependent on:
 
@@ -455,13 +455,13 @@ as a specific tensor algebra operation.
 
 Nor does it specify:
 
-* dimensional compatibility;
-* coupling coefficients;
-* dependency direction;
-* causal direction;
-* symmetry;
-* invertibility;
-* decomposition algorithm.
+- dimensional compatibility;
+- coupling coefficients;
+- dependency direction;
+- causal direction;
+- symmetry;
+- invertibility;
+- decomposition algorithm.
 
 Those details remain unresolved unless defined in [[ULK_LOGIC_KERNEL]].
 
@@ -645,15 +645,15 @@ It does not define the complete Merkle topology.
 
 Unknowns include:
 
-* leaf encoding;
-* canonical serialization;
-* tree branching factor;
-* root construction;
-* proof format;
-* hash domain separation;
-* persistence semantics;
-* version binding;
-* ancestry representation.
+- leaf encoding;
+- canonical serialization;
+- tree branching factor;
+- root construction;
+- proof format;
+- hash domain separation;
+- persistence semantics;
+- version binding;
+- ancestry representation.
 
 Therefore:
 
@@ -995,12 +995,12 @@ failure_classes:
 
 The source deliberately uses different verbs:
 
-* **Abort**
-* **Veto**
-* **Decouple**
-* **Reject**
-* **Abort**
-* **Fail**
+- **Abort**
+- **Veto**
+- **Decouple**
+- **Reject**
+- **Abort**
+- **Fail**
 
 These should not be assumed equivalent.
 
@@ -1137,12 +1137,12 @@ EPISTEMIC VALIDITY
 
 A state may be perfectly hash-consistent and still contain:
 
-* a false source claim;
-* a stale premise;
-* a scope error;
-* an unsupported causal inference;
-* correlated evidence;
-* an unresolved contradiction.
+- a false source claim;
+- a stale premise;
+- a scope error;
+- an unsupported causal inference;
+- correlated evidence;
+- an unresolved contradiction.
 
 Therefore ALU-5 cannot substitute for ALU-1, ALU-3, or other epistemic validation.
 
@@ -1174,14 +1174,14 @@ $$
 
 A relation may encode:
 
-* dependency;
-* association;
-* composition;
-* containment;
-* reference;
-* provenance;
-* transformation;
-* causal linkage.
+- dependency;
+- association;
+- composition;
+- containment;
+- reference;
+- provenance;
+- transformation;
+- causal linkage.
 
 The relationship type must be separately established.
 
@@ -2660,31 +2660,26 @@ ALU-1
 Distinction & Regime Non-Leakage
 → Scope Firewall Veto
 ```
-
 ```text
 ALU-2
 Relational Coupling Valid
 → Tensor Decouple
 ```
-
 ```text
 ALU-3
 All 21 Core Laws Satisfied
 → Invariant Violation Reject
 ```
-
 ```text
 ALU-4
 Type Well-Formedness
 → Type Mismatch Abort
 ```
-
 ```text
 ALU-5
 SHA-256 State Hash Verified
 → Merkle Verification Fail
 ```
-
 Its specification counterpart is:
 
 [[ULK_X_RSCF]]
@@ -2765,17 +2760,17 @@ within the supplied AMOS model matrix.
 
 ## Inter-Plane Connections
 
-* **Specification:** [[ULK_X_RSCF]]
-* **Universal Logic Kernel:** [[ULK_LOGIC_KERNEL]]
-* **Cognitive Matrix Plane:** [[25_COGNITIVE_MATRIX_MOC]]
+- **Specification:** [[ULK_X_RSCF]]
+- **Universal Logic Kernel:** [[ULK_LOGIC_KERNEL]]
+- **Cognitive Matrix Plane:** [[25_COGNITIVE_MATRIX_MOC]]
 
 ## Functional Connections
 
-* **RSCF:** RSCF
-* **Scope Firewall:** K_SCOPE_FIREWALL
-* **Fail-Closed Governance:** [[K_FAIL_CLOSED]]
-* **Provenance:** [[K_PROVENANCE]]
-* **Causal Firewall:** K_CAUSAL_FIREWALL
+- **RSCF:** RSCF
+- **Scope Firewall:** K_SCOPE_FIREWALL
+- **Fail-Closed Governance:** [[K_FAIL_CLOSED]]
+- **Provenance:** [[K_PROVENANCE]]
+- **Causal Firewall:** K_CAUSAL_FIREWALL
 
 > [!note]
 > Functional links beyond the three source-supplied connections are vault navigation candidates. They should not be treated as source-defined dependency edges unless their respective canonical artifacts confirm the relationship.

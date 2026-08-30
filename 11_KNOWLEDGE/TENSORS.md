@@ -4296,47 +4296,47 @@ SOURCE_BOUND
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-* INDEXED_BY: [[KNOWLEDGE_MOC]]
+- INDEXED_BY: [[KNOWLEDGE_MOC]]
 
-* RELATED_TO: [[TENSOR_CONTRACTS]]
+- RELATED_TO: [[TENSOR_CONTRACTS]]
 
-* RELATED_TO: [[CLAIM_TENSOR]]
+- RELATED_TO: [[CLAIM_TENSOR]]
 
-* RELATED_TO: [[EVIDENCE_TENSOR]]
+- RELATED_TO: [[EVIDENCE_TENSOR]]
 
-* RELATED_TO: [[RELATION_TENSOR]]
+- RELATED_TO: [[RELATION_TENSOR]]
 
-* RELATED_TO: [[AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR]]
+- RELATED_TO: [[AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR]]
 
-* RELATED_TO: [[AMOS_Simulation_Kernel_v0_Math_Foundations]]
+- RELATED_TO: [[AMOS_Simulation_Kernel_v0_Math_Foundations]]
 
-* RELATED_TO: [[system_scan_agent]]
+- RELATED_TO: [[system_scan_agent]]
 
-* RELATED_TO: [[automation_profiles]]
+- RELATED_TO: [[automation_profiles]]
 
-* GOVERNS:
+- GOVERNS:
   TYPED_AXIS_SEMANTICS
 
-* GOVERNS:
+- GOVERNS:
   UNKNOWN_PRESERVATION
 
-* GOVERNS:
+- GOVERNS:
   PROVENANCE_PRESERVATION
 
-* GOVERNS:
+- GOVERNS:
   TENSOR_COMPOSITION
 
-* GOVERNS:
+- GOVERNS:
   AXIS_COMPATIBILITY
 
-* GOVERNS:
+- GOVERNS:
   EPISTEMIC_CLASS_PRESERVATION
 
-* GOVERNS:
+- GOVERNS:
   CROSS_DOMAIN_TENSOR_REASONING
 
 claim_class:
@@ -4362,4 +4362,3 @@ AMOS_MODEL
 
 This preserves the original `tensors.md` as the **seed contract**, while treating the richer six-tensor family and compatibility invariant from `TENSOR_CONTRACTS.md` as source-grounded extensions. The cross-domain composition formula and bridge machinery remain explicitly `AMOS_MODEL`, matching their own Drive classification rather than being upgraded to verified mathematical or empirical laws. :contentReference[oaicite:3]{index=3} :contentReference[oaicite:4]{index=4}
 ```
-

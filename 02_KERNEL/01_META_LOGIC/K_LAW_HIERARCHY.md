@@ -1093,13 +1093,11 @@ CORRELATION
 !=
 CAUSATION
 ```
-
 ```text
 SEQUENCE
 !=
 CAUSATION
 ```
-
 No convenience rule can promote these relations into causal proof.
 
 ---

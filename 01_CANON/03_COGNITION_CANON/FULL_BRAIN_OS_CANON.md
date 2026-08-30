@@ -60,6 +60,11 @@ tags:
 - cognitive-matrix-architecture
 aliases:
 - AMOS Full Brain OS - Full Brain OS - AMOS Full Brain Architecture - AMOS Brain OS
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # AMOS Full Brain OS Canon
@@ -1427,19 +1432,16 @@ CAN PLAN
 !=
 CAN EXECUTE
 ```
-
 ```text
 CAN ACCESS TOOL
 !=
 CAN USE TOOL
 ```
-
 ```text
 CAN PROPOSE CHANGE
 !=
 CAN COMMIT CHANGE
 ```
-
 ---
 
 # 54. State

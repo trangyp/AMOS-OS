@@ -4614,7 +4614,6 @@ REPLICATION
 independent evidence/process
 tests the same claim
 ```
-
 They are distinct.
 
 ---
@@ -5032,115 +5031,96 @@ SOURCE_CLAIM
 !=
 OBSERVATION
 ```
-
 ```text
 OBSERVATION
 !=
 INTERPRETATION
 ```
-
 ```text
 DERIVATION
 !=
 EMPIRICAL_CONFIRMATION
 ```
-
 ```text
 SIMULATION
 !=
 OBSERVATION
 ```
-
 ```text
 BENCHMARK
 !=
 UNIVERSAL_VALIDATION
 ```
-
 ```text
 MODEL_FIT
 !=
 CAUSATION
 ```
-
 ```text
 CORRELATION
 !=
 CAUSATION
 ```
-
 ```text
 REPETITION
 !=
 INDEPENDENCE
 ```
-
 ```text
 MULTIPLE_DESCENDANTS
 !=
 MULTIPLE_ORIGINS
 ```
-
 ```text
 SOURCE_AUTHORITY
 !=
 EVIDENCE_INDEPENDENCE
 ```
-
 ```text
 DOCUMENTATION
 !=
 IMPLEMENTATION_PROOF
 ```
-
 ```text
 TEST_PASS
 !=
 REAL_WORLD_TRUTH
 ```
-
 ```text
 OLD
 !=
 FALSE
 ```
-
 ```text
 MISSING_EVIDENCE
 !=
 NEGATIVE_EVIDENCE
 ```
-
 ```text
 NO_FAILURE_OBSERVED
 !=
 PROOF_OF_SAFETY
 ```
-
 ```text
 CAPABILITY
 !=
 AUTHORITY
 ```
-
 ```text
 VALIDATION
 !=
 AUTHORIZATION
 ```
-
 ```text
 PROPOSAL
 !=
 COMMIT
 ```
-
 ```text
 UNKNOWN/GAP
 !=
 PASS
 ```
-
 ---
 
 # 203. Evidence Decision Table
@@ -5399,7 +5379,6 @@ DESCENDANTS OF ONE CLAIM.
 
 **Conclusion class:** `DERIVED / CONDITIONAL`. The evidence/provenance principles are aligned with the supplied Full Brain OS operating rules; the exact registry names, evidence taxonomy, scoring/aggregation algorithms, independence engine, storage backend, and thresholds remain intentionally `UNKNOWN/GAP` until explicit canon or implementation evidence defines them.
 ```
-
 ---
 
 [[00_ROOT_MOC]]|[[AMOS MOC]]

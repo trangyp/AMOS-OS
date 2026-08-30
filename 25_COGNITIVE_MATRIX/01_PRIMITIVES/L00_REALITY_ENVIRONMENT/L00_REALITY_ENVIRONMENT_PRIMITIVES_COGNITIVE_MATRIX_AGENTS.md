@@ -91,12 +91,12 @@ S_{AMOS}
 
 where:
 
-* \(E\) = environment state,
-* \(O\) = observation,
-* \(O_t\) = typed observation,
-* \(O_p\) = provenance-bound observation,
-* \(O_v\) = validated/admissible observation,
-* (S_{AMOS}) = admitted AMOS state.
+- \(E\) = environment state,
+- \(O\) = observation,
+- \(O_t\) = typed observation,
+- \(O_p\) = provenance-bound observation,
+- \(O_v\) = validated/admissible observation,
+- (S_{AMOS}) = admitted AMOS state.
 
 This equation is an **AMOS MODEL** of the grounding pipeline.
 
@@ -1277,12 +1277,12 @@ I
 
 where:
 
-* \(A\) = channel availability,
-* \(P\) = provenance quality,
-* \(F\) = freshness,
-* \(S\) = scope compatibility,
-* \(V\) = validation,
-* \(I\) = independence.
+- \(A\) = channel availability,
+- \(P\) = provenance quality,
+- \(F\) = freshness,
+- \(S\) = scope compatibility,
+- \(V\) = validation,
+- \(I\) = independence.
 
 This is a diagnostic **AMOS MODEL**, not an empirical universal law.
 

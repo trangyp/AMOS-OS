@@ -71,16 +71,16 @@ IF
 A MATERIAL CONDITION WERE DIFFERENT?
 ```
 Counterfactual reasoning is used for:
-* causal discrimination
-* competing-hypothesis testing
-* sensitivity analysis
-* intervention analysis
-* failure analysis
-* recovery planning
-* decision comparison
-* falsifier construction
-* robustness testing
-* scenario discrimination
+- causal discrimination
+- competing-hypothesis testing
+- sensitivity analysis
+- intervention analysis
+- failure analysis
+- recovery planning
+- decision comparison
+- falsifier construction
+- robustness testing
+- scenario discrimination
 It must never convert an imagined alternative into evidence that the alternative actually occurred.
 rscf:
   state: DERIVED

@@ -2084,15 +2084,15 @@ AUTHORITY != EXECUTION
 
 Before historical/canonical promotion:
 
-* [ ] canonical CORE19 source identified;
-* [ ] source identity verified;
-* [ ] source provenance persisted;
-* [ ] source hash/version recorded where available;
-* [ ] historical identity established;
-* [ ] canonical precedence established;
-* [ ] nineteen invariants source-mapped;
-* [ ] contradictions recorded;
-* [ ] supersession lineage established.
+- [ ] canonical CORE19 source identified;
+- [ ] source identity verified;
+- [ ] source provenance persisted;
+- [ ] source hash/version recorded where available;
+- [ ] historical identity established;
+- [ ] canonical precedence established;
+- [ ] nineteen invariants source-mapped;
+- [ ] contradictions recorded;
+- [ ] supersession lineage established.
 
 ---
 
@@ -2100,18 +2100,18 @@ Before historical/canonical promotion:
 
 Before implementation status:
 
-* [ ] typed input schema finalized;
-* [ ] typed result schema finalized;
-* [ ] deterministic transformation implemented;
-* [ ] dependency closure implemented;
-* [ ] provenance topology implemented;
-* [ ] scope firewall implemented;
-* [ ] regime firewall implemented;
-* [ ] freshness checks implemented;
-* [ ] conflict preservation implemented;
-* [ ] atomic multi-RSCF checks implemented;
-* [ ] MVCC/CAS semantics implemented where applicable;
-* [ ] recovery semantics implemented.
+- [ ] typed input schema finalized;
+- [ ] typed result schema finalized;
+- [ ] deterministic transformation implemented;
+- [ ] dependency closure implemented;
+- [ ] provenance topology implemented;
+- [ ] scope firewall implemented;
+- [ ] regime firewall implemented;
+- [ ] freshness checks implemented;
+- [ ] conflict preservation implemented;
+- [ ] atomic multi-RSCF checks implemented;
+- [ ] MVCC/CAS semantics implemented where applicable;
+- [ ] recovery semantics implemented.
 
 ---
 
@@ -2119,25 +2119,25 @@ Before implementation status:
 
 Before `VALIDATED`:
 
-* [ ] deterministic replay test;
-* [ ] hidden-state test;
-* [ ] missing-premise test;
-* [ ] missing-provenance test;
-* [ ] shared-ancestry test;
-* [ ] scope mismatch test;
-* [ ] regime mismatch test;
-* [ ] stale-premise test;
-* [ ] competing-hypothesis test;
-* [ ] causal-overreach test;
-* [ ] local invalidation test;
-* [ ] multi-RSCF joint-validity test;
-* [ ] concurrent modification test;
-* [ ] authority firewall test;
-* [ ] failed-path recovery test;
-* [ ] rollback test;
-* [ ] finality prerequisite test;
-* [ ] adversarial validation;
-* [ ] executed validation receipt.
+- [ ] deterministic replay test;
+- [ ] hidden-state test;
+- [ ] missing-premise test;
+- [ ] missing-provenance test;
+- [ ] shared-ancestry test;
+- [ ] scope mismatch test;
+- [ ] regime mismatch test;
+- [ ] stale-premise test;
+- [ ] competing-hypothesis test;
+- [ ] causal-overreach test;
+- [ ] local invalidation test;
+- [ ] multi-RSCF joint-validity test;
+- [ ] concurrent modification test;
+- [ ] authority firewall test;
+- [ ] failed-path recovery test;
+- [ ] rollback test;
+- [ ] finality prerequisite test;
+- [ ] adversarial validation;
+- [ ] executed validation receipt.
 
 ---
 
@@ -3202,4 +3202,3 @@ NOT_ESTABLISHED
 
 **Conclusion class: `AMOS_MODEL`.** The supplied artifact supports the deterministic-logic architecture and its nineteen-invariant formulation as an AMOS model, while explicitly leaving historical CORE19 identity/source mapping, implementation, and executed validation unresolved.
 ```
-

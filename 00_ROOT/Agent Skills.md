@@ -7,6 +7,10 @@ rscf:
   claim_class: DERIVED
   provenance: "11_KNOWLEDGE/LLM_WIKI/raw/"
   scope: AMOS_general
+tags:
+- agent-skills
+- skills
+- agent
 ---
 
 # Agent Skills

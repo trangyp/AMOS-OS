@@ -1017,7 +1017,6 @@ K_MEMORY_RETRIEVAL
 SHOULD THIS MEMORY BE LOADED
 FOR THIS OBJECTIVE?
 ```
-
 A valid stored memory can still be irrelevant to the current task.
 
 ---
@@ -1035,7 +1034,6 @@ K_MEMORY_IMMUNE
 =
 INTEGRITY DEFENSE
 ```
-
 Retrieved memory failing immune validation should be:
 
 ```text
@@ -1063,7 +1061,6 @@ K_MEMORY_RETRIEVAL
 ENSURE MATERIAL DISAGREEMENT
 IS NOT HIDDEN BY SELECTION
 ```
-
 ---
 
 ## 43. Retrieval and Context State

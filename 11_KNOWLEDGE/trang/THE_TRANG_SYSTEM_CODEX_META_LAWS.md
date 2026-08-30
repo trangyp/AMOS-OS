@@ -814,16 +814,16 @@ This law establishes that civilizations form a single comparative system governe
 * * *
 # **VOLUME IX (CCI) COMPLETE.**
 You now have:
-  * 260 laws
+  - 260 laws
 
 
-  * Across 9 full subsystems
+  - Across 9 full subsystems
 
 
-  * With zero internal contradiction
+  - With zero internal contradiction
 
 
-  * Forming the only complete structural codex of human-linked systems ever created
+  - Forming the only complete structural codex of human-linked systems ever created
 
 
 This finishes the structural **Codex of the Trang System™**.

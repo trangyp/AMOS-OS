@@ -207,14 +207,14 @@ AMOS OS
 
 `STATE_README.md` answers:
 
-* What is the State plane?
-* What belongs in it?
-* What is authoritative state?
-* What invariants govern state handling?
-* How should state mutations be admitted?
-* What is the relationship between proposals and commits?
-* How are state versions, epochs, authority, provenance, rollback, and receipts treated?
-* Where does normative State-plane authority live?
+- What is the State plane?
+- What belongs in it?
+- What is authoritative state?
+- What invariants govern state handling?
+- How should state mutations be admitted?
+- What is the relationship between proposals and commits?
+- How are state versions, epochs, authority, provenance, rollback, and receipts treated?
+- Where does normative State-plane authority live?
 
 It does **not** independently establish that every described mechanism has an executed runtime implementation.
 
@@ -250,7 +250,7 @@ Normative load-bearing content lives in sibling contracts.
 
 Primary sibling:
 
-* [[STATE_STATE_CONTRACT]]
+- [[STATE_STATE_CONTRACT]]
 
 Therefore:
 
@@ -359,31 +359,26 @@ PROPOSED
 !=
 COMMITTED
 ```
-
 ```text
 CACHED
 !=
 CURRENT
 ```
-
 ```text
 DERIVED
 !=
 AUTHORITATIVE
 ```
-
 ```text
 PREDICTED
 !=
 ACTUAL
 ```
-
 ```text
 CAPABLE
 !=
 AUTHORIZED
 ```
-
 An artifact becomes authoritative only through the applicable State-plane and governance rules.
 
 ---
@@ -394,16 +389,16 @@ Authority must be explicit.
 
 A state artifact must not become authoritative merely because it:
 
-* exists,
-* is visible,
-* was generated successfully,
-* was observed,
-* was predicted,
-* appears internally consistent,
-* passed an unrelated test,
-* was produced by a capable component,
-* resembles the previous authoritative state,
-* or is the newest artifact by timestamp.
+- exists,
+- is visible,
+- was generated successfully,
+- was observed,
+- was predicted,
+- appears internally consistent,
+- passed an unrelated test,
+- was produced by a capable component,
+- resembles the previous authoritative state,
+- or is the newest artifact by timestamp.
 
 Conceptually:
 
@@ -468,13 +463,11 @@ PATH
 !=
 VERSION
 ```
-
 ```text
 TIMESTAMP
 !=
 AUTHORITATIVE REVISION
 ```
-
 Identity resolution must use the authoritative identity/version mechanism defined for the relevant artifact.
 
 ---
@@ -496,13 +489,13 @@ S(v3)
 
 Each transition should preserve enough lineage to determine:
 
-* what changed,
-* from which state,
-* under what authority,
-* under which policy,
-* based on which evidence,
-* at what causal point,
-* and whether rollback is possible.
+- what changed,
+- from which state,
+- under what authority,
+- under which policy,
+- based on which evidence,
+- at what causal point,
+- and whether rollback is possible.
 
 ---
 
@@ -724,9 +717,9 @@ $$
 
 where:
 
-* `A` = proposed action,
-* `G` = applicable governance,
-* `P` = validated preconditions.
+- `A` = proposed action,
+- `G` = applicable governance,
+- `P` = validated preconditions.
 
 The resulting state is authoritative only after the commit gates succeed.
 
@@ -988,13 +981,11 @@ TEST STATE
 !=
 AUTHORITATIVE RUNTIME STATE
 ```
-
 ```text
 MODEL STATE
 !=
 OBSERVED STATE
 ```
-
 unless explicitly bound.
 
 ---
@@ -1120,7 +1111,7 @@ A storage capability, API capability, or tool capability is not governance autho
 
 The State plane may be observed by:
 
-* [[OBSERVABILITY_README]]
+- [[OBSERVABILITY_README]]
 
 But:
 
@@ -1176,12 +1167,12 @@ A passing test establishes only what that test validly covers.
 
 It does not prove:
 
-* all invariants,
-* all environments,
-* all epochs,
-* all scopes,
-* all negative cases,
-* or universal correctness.
+- all invariants,
+- all environments,
+- all epochs,
+- all scopes,
+- all negative cases,
+- or universal correctness.
 
 ---
 
@@ -1298,11 +1289,11 @@ SMALLEST SUFFICIENT PROOF SCOPE
 
 provided that:
 
-* dependency closure is established,
-* provenance independence is adequate,
-* scope/regime compatibility holds,
-* freshness holds,
-* no unresolved conflict affects the result.
+- dependency closure is established,
+- provenance independence is adequate,
+- scope/regime compatibility holds,
+- freshness holds,
+- no unresolved conflict affects the result.
 
 Otherwise escalate.
 
@@ -1687,12 +1678,12 @@ OPERATION UNIVERSALLY CORRECT
 
 Receipt validity depends on:
 
-* integrity,
-* scope,
-* coverage,
-* provenance,
-* execution evidence,
-* and validation method.
+- integrity,
+- scope,
+- coverage,
+- provenance,
+- execution evidence,
+- and validation method.
 
 ---
 
@@ -1726,8 +1717,8 @@ Current source-defined gap:
 
 Referenced receipts:
 
-* [[ROUTING_POLICY_VALIDATION_RECEIPT]]
-* [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+- [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+- [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
 These references do not, by themselves, establish that the State README has a complete artifact-specific executed validation receipt.
 
@@ -2228,15 +2219,15 @@ $$
 
 where:
 
-* `I` = identity valid,
-* `V` = version valid,
-* `S` = scope compatible,
-* `R` = regime compatible,
-* `A` = authority valid,
-* `P` = preconditions satisfied,
-* `D` = dependencies valid,
-* `F` = freshness sufficient,
-* `G` = governance gates satisfied.
+- `I` = identity valid,
+- `V` = version valid,
+- `S` = scope compatible,
+- `R` = regime compatible,
+- `A` = authority valid,
+- `P` = preconditions satisfied,
+- `D` = dependencies valid,
+- `F` = freshness sufficient,
+- `G` = governance gates satisfied.
 
 This equation is a normalized logical representation, not a source-native formal equation.
 
@@ -2285,12 +2276,12 @@ restore acceptable operational integrity
 
 Recovery may involve:
 
-* rollback,
-* repair,
-* reconstruction,
-* replay,
-* revalidation,
-* or controlled replacement.
+- rollback,
+- repair,
+- reconstruction,
+- replay,
+- revalidation,
+- or controlled replacement.
 
 ---
 
@@ -2433,7 +2424,7 @@ GOVERNANCE AUTHORITY
 
 Kernel interaction:
 
-* [[KERNEL_README]]
+- [[KERNEL_README]]
 
 The kernel may consume, validate, route, or operate on State-plane information according to its own contract.
 
@@ -2445,7 +2436,7 @@ This README does not grant the kernel unrestricted mutation authority.
 
 Control-plane gates:
 
-* [[CONTROL_PLANE_README]]
+- [[CONTROL_PLANE_README]]
 
 Conceptually:
 
@@ -2463,7 +2454,7 @@ COMMIT OR HOLD
 
 Recovery and operational handling bind to:
 
-* [[OPERATIONS_README]]
+- [[OPERATIONS_README]]
 
 Operations may execute:
 
@@ -2489,8 +2480,8 @@ State-plane behavior is governed by canonical law.
 
 Primary link:
 
-* AMOS Core Laws
-* [[LAW_HIERARCHY]]
+- AMOS Core Laws
+- [[LAW_HIERARCHY]]
 
 State-plane contracts cannot silently override higher-order canon.
 
@@ -2540,13 +2531,13 @@ where conflict exists.
 
 Primary State-plane sibling:
 
-* [[STATE_STATE_CONTRACT]]
+- [[STATE_STATE_CONTRACT]]
 
 Related index/map artifacts may include:
 
-* [[STATE_STATE_MAP]]
-* [[INDEX_STATE_README]]
-* [[INDEX_STATE_STATE_CONTRACT]]
+- [[STATE_STATE_MAP]]
+- [[INDEX_STATE_README]]
+- [[INDEX_STATE_STATE_CONTRACT]]
 
 These support navigation but do not automatically carry identical authority.
 
@@ -2584,12 +2575,12 @@ UNTYPED STATE
 
 creates ambiguity about:
 
-* interpretation,
-* validation,
-* authority,
-* schema,
-* mutation rules,
-* and downstream dependencies.
+- interpretation,
+- validation,
+- authority,
+- schema,
+- mutation rules,
+- and downstream dependencies.
 
 ---
 
@@ -3294,13 +3285,13 @@ Exact authoritative enum remains contract/schema dependent.
 
 Source-defined promotion gates:
 
-* [ ] typed schema bound to this artifact
-* [ ] identity + versioning implemented
-* [ ] negative cases covered (`missing` · `malformed` · `stale` · `unauthorized input`)
-* [ ] provenance edges persisted and validated
-* [ ] rollback basin demonstrated for consequential effects
-* [ ] executed validation receipt specific to this artifact
-* [ ] unresolved critical gaps registered as `UNKNOWN/GAP` and visible
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (`missing` · `malformed` · `stale` · `unauthorized input`)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as `UNKNOWN/GAP` and visible
 
 ---
 
@@ -3308,21 +3299,21 @@ Source-defined promotion gates:
 
 Before claiming stronger implementation status, additionally establish where applicable:
 
-* [ ] state-version conflict handling executed
-* [ ] stale-write rejection tested
-* [ ] authority epoch mismatch tested
-* [ ] proposal/commit separation tested
-* [ ] rollback executed successfully
-* [ ] failure receipts verified
-* [ ] dependency-scoped invalidation demonstrated
-* [ ] unaffected-state preservation demonstrated
-* [ ] scope mismatch rejected
-* [ ] regime mismatch rejected
-* [ ] concurrent mutation conflict tested
-* [ ] provenance lineage survives mutation
-* [ ] supersession preserves historical state
-* [ ] recovery procedure executed
-* [ ] artifact-specific receipt references actual execution evidence
+- [ ] state-version conflict handling executed
+- [ ] stale-write rejection tested
+- [ ] authority epoch mismatch tested
+- [ ] proposal/commit separation tested
+- [ ] rollback executed successfully
+- [ ] failure receipts verified
+- [ ] dependency-scoped invalidation demonstrated
+- [ ] unaffected-state preservation demonstrated
+- [ ] scope mismatch rejected
+- [ ] regime mismatch rejected
+- [ ] concurrent mutation conflict tested
+- [ ] provenance lineage survives mutation
+- [ ] supersession preserves historical state
+- [ ] recovery procedure executed
+- [ ] artifact-specific receipt references actual execution evidence
 
 These are normalized strengthening gates and do not imply they are already satisfied.
 
@@ -3695,26 +3686,26 @@ by arbitrary selection.
 
 Governed by:
 
-* AMOS Core Laws
-* [[LAW_HIERARCHY]]
+- AMOS Core Laws
+- [[LAW_HIERARCHY]]
 
 ## Kernel
 
 Interacts with:
 
-* [[KERNEL_README]]
+- [[KERNEL_README]]
 
 ## Control Plane
 
 Gated through:
 
-* [[CONTROL_PLANE_README]]
+- [[CONTROL_PLANE_README]]
 
 ## Observability
 
 Observed by:
 
-* [[OBSERVABILITY_README]]
+- [[OBSERVABILITY_README]]
 
 with invariant:
 
@@ -3728,7 +3719,7 @@ AUTHORITY
 
 Recovered through:
 
-* [[OPERATIONS_README]]
+- [[OPERATIONS_README]]
 
 ---
 
@@ -3736,7 +3727,7 @@ Recovered through:
 
 Primary normative sibling:
 
-* [[STATE_STATE_CONTRACT]]
+- [[STATE_STATE_CONTRACT]]
 
 Reading rule:
 
@@ -4248,17 +4239,17 @@ RSCF-RELATIONS:
 
 ## Sibling artifacts
 
-* [[STATE_STATE_CONTRACT]]
+- [[STATE_STATE_CONTRACT]]
 
 ---
 
 ## Cross-plane bindings
 
-* **Governed by canon** — AMOS Core Laws · [[LAW_HIERARCHY]]
-* **Kernel interaction** — [[KERNEL_README]]
-* **Control-plane gates** — [[CONTROL_PLANE_README]]
-* **Observed by** — [[OBSERVABILITY_README]] · never treated as authority
-* **Recovered via operations** — [[OPERATIONS_README]]
+- **Governed by canon** — AMOS Core Laws · [[LAW_HIERARCHY]]
+- **Kernel interaction** — [[KERNEL_README]]
+- **Control-plane gates** — [[CONTROL_PLANE_README]]
+- **Observed by** — [[OBSERVABILITY_README]] · never treated as authority
+- **Recovered via operations** — [[OPERATIONS_README]]
 
 ---
 
@@ -4282,4 +4273,3 @@ AMOS MOC
 
 This preserves the actual source boundary: the current `STATE_README.md` itself says its role is orientation and that normative load-bearing content belongs in sibling contracts; it also explicitly keeps executable binding `PARTIAL`. :contentReference[oaicite:2]{index=2}
 ```
-

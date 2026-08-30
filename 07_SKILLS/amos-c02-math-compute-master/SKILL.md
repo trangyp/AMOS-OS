@@ -384,8 +384,6 @@ Every equation class typed: SOURCE_CANON for established math, AMOS_MODEL for Tr
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
 
-
-
 See `references/detailed-content.md` for detailed amos canon grounding.
 
 ## References

@@ -54,6 +54,11 @@ tags:
 aliases:
 - AMOS Unit Registry - Unit Registry - AMOS Measurement Registry - AMOS Quantity and
   Dimension
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # AMOS Unit Registry
@@ -442,13 +447,11 @@ SAME UNIT SYMBOL
 !=
 SAME SEMANTIC MEANING
 ```
-
 ```text
 SAME DIMENSION
 !=
 SAME QUANTITY TYPE
 ```
-
 Example:
 
 ```text
@@ -1738,7 +1741,6 @@ sparsity
 =
 1 - density
 ```
-
 But if an implementation defines:
 
 ```text

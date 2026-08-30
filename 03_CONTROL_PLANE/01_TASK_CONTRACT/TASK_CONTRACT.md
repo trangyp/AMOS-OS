@@ -685,7 +685,6 @@ determine which option is safest
 DELIVERABLE:
 comparison table + recommendation
 ```
-
 Therefore:
 
 ```text
@@ -3594,25 +3593,21 @@ DERIVED
 →
 VERIFIED
 ```
-
 ```text
 SIMULATED
 →
 OBSERVED
 ```
-
 ```text
 REQUESTED
 →
 AUTHORIZED
 ```
-
 ```text
 SENT
 →
 RECEIVED
 ```
-
 without supporting evidence.
 
 ---
@@ -4375,43 +4370,36 @@ UNKNOWN TARGET
 →
 GUESSED TARGET
 ```
-
 ```text
 MISSING AUTHORITY
 →
 ASSUMED AUTHORITY
 ```
-
 ```text
 MISSING EVIDENCE
 →
 PLAUSIBLE STORY
 ```
-
 ```text
 UNCLEAR SCOPE
 →
 UNBOUNDED SCOPE
 ```
-
 ```text
 SOURCE CLAIM
 →
 VERIFIED FACT
 ```
-
 ```text
 MODEL
 →
 EMPIRICAL OBSERVATION
 ```
-
 ```text
 NO CONTRADICTION FOUND
 →
 PROOF
 ```
-
 ---
 
 # 195. Anti-Overreach Rules
@@ -4429,25 +4417,21 @@ ONE REGIME
 →
 ALL REGIMES
 ```
-
 ```text
 ONE SCALE
 →
 ALL SCALES
 ```
-
 ```text
 ONE TIME
 →
 ALL TIMES
 ```
-
 ```text
 STRUCTURAL SIMILARITY
 →
 CAUSATION
 ```
-
 ---
 
 # 196. Optimization Law

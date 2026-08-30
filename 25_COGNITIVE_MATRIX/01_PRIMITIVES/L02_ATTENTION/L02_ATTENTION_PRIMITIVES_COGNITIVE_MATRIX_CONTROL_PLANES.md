@@ -181,21 +181,21 @@ Answer: NO.
 
 The control plane may govern:
 
-* attention-budget admission;
-* resource ceilings and reserves;
-* target eligibility;
-* scope/regime compatibility;
-* provenance requirements;
-* objective freshness;
-* dependency freshness;
-* agent capability and authority;
-* allocation commit;
-* reallocation;
-* cancellation;
-* quarantine;
-* escalation;
-* replay/rollback;
-* observability.
+- attention-budget admission;
+- resource ceilings and reserves;
+- target eligibility;
+- scope/regime compatibility;
+- provenance requirements;
+- objective freshness;
+- dependency freshness;
+- agent capability and authority;
+- allocation commit;
+- reallocation;
+- cancellation;
+- quarantine;
+- escalation;
+- replay/rollback;
+- observability.
 
 It does **not** establish:
 

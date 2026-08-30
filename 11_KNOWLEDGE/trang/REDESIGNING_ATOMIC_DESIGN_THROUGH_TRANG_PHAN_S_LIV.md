@@ -34,37 +34,37 @@ Atomic Design succeeded because it offered a simple yet powerful mental model. I
         D --> E[Pages]
 ```
 This model delivered tangible results:
-  * Reduced design and development duplication
+  - Reduced design and development duplication
 
 
-  * Improved consistency across platforms and products
+  - Improved consistency across platforms and products
 
 
-  * Better alignment between designers and engineers
+  - Better alignment between designers and engineers
 
 
-  * Faster iteration and scaling
+  - Faster iteration and scaling
 
 
-  * More maintainable codebases and design assets
+  - More maintainable codebases and design assets
 
 
 For many years, Atomic Design represented best practice in design systems.
 ### **1.2 The New Reality That Demands an Upgrade**
 The digital landscape has changed profoundly. Products now:
-  * Incorporate advanced AI and automation
+  - Incorporate advanced AI and automation
 
 
-  * Shape human behavior, attention, and decision-making at deep levels
+  - Shape human behavior, attention, and decision-making at deep levels
 
 
-  * Operate across massive scale (millions of users, continuous usage)
+  - Operate across massive scale (millions of users, continuous usage)
 
 
-  * Influence emotional regulation, trust, agency, and long-term well-being
+  - Influence emotional regulation, trust, agency, and long-term well-being
 
 
-  * Carry real planetary and social consequences through energy use, compute demand, and behavioral impact
+  - Carry real planetary and social consequences through energy use, compute demand, and behavioral impact
 
 
 In this context, several limitations of the original Atomic Design model have become critical:
@@ -149,41 +149,41 @@ Principles must be translated into clear ownership, governance, implementation, 
 * * *
 ### **5\. Responsibility-Focused Component Categories**
 Living Atomic Design introduces five new categories that complement traditional UI components:
-  * **Regulation Components** — Reduce overload and support calm, focused use.
+  - **Regulation Components** — Reduce overload and support calm, focused use.
 
 
-  * **Agency Components** — Preserve user control, reversibility, and meaningful choice.
+  - **Agency Components** — Preserve user control, reversibility, and meaningful choice.
 
 
-  * **Correction Components** — Enable repair, feedback, and system learning.
+  - **Correction Components** — Enable repair, feedback, and system learning.
 
 
-  * **Trust Components** — Build predictability, transparency, and accountability.
+  - **Trust Components** — Build predictability, transparency, and accountability.
 
 
-  * **Planetary Components** — Reveal and reduce scaled resource and social costs.
+  - **Planetary Components** — Reveal and reduce scaled resource and social costs.
 
 
 These categories transform design systems from visual toolkits into full responsibility infrastructure.
 * * *
 ### **6\. Living Atomic Design for AI Products**
 AI products present unique challenges because fluent, confident language can mask uncertainty and hallucination. Living Atomic Design requires AI interfaces to include:
-  * Source visibility
+  - Source visibility
 
 
-  * Uncertainty labeling and confidence boundaries
+  - Uncertainty labeling and confidence boundaries
 
 
-  * Correction and feedback mechanisms
+  - Correction and feedback mechanisms
 
 
-  * Clear human escalation paths
+  - Clear human escalation paths
 
 
-  * Auditability for high-stakes decisions
+  - Auditability for high-stakes decisions
 
 
-  * Resource awareness where relevant
+  - Resource awareness where relevant
 
 
 The goal is to turn AI from a “magic box” into a trustworthy, collaborative, and bounded partner.

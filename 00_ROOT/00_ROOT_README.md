@@ -77,6 +77,11 @@ tags:
 aliases:
 - AMOS OS - AMOS Operating System - AMOS Cognitive Operating System - AMOS System
   Root
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: root_index
 ---
 
 # AMOS OS
@@ -1906,31 +1911,31 @@ confidence_ceiling:
 
 ## v2.1.0 — 2026-08-25
 
-* hardened root plane boundaries;
-* added explicit protocol layer to system spine;
-* expanded Memory / Knowledge / State separation;
-* added Proof Capsule contract;
-* added confidence ceiling;
-* added provenance topology;
-* added competing-hypothesis handling;
-* added causal and scope/regime firewalls;
-* added freshness and revalidation;
-* added H/M/L integrity model;
-* added fractal retrieval path;
-* added v4.4 smallest-sufficient-proof fast path;
-* added governed GMEF evolution;
-* added transaction, MVCC/CAS, and epoch concepts as architecture models rather than implementation claims;
-* added external-effect reversibility;
-* added explicit `IN_DOUBT` handling;
-* added knowledge/research promotion paths;
-* added adaptive-complexity levels;
-* added stop conditions;
-* added gap prioritization;
-* added anti-fabrication and anti-regression rules;
-* expanded root invariants and failure registry;
-* added 7-Part persistence mapping;
-* strengthened master RSCF node;
-* retained explicit capability limits.
+- hardened root plane boundaries;
+- added explicit protocol layer to system spine;
+- expanded Memory / Knowledge / State separation;
+- added Proof Capsule contract;
+- added confidence ceiling;
+- added provenance topology;
+- added competing-hypothesis handling;
+- added causal and scope/regime firewalls;
+- added freshness and revalidation;
+- added H/M/L integrity model;
+- added fractal retrieval path;
+- added v4.4 smallest-sufficient-proof fast path;
+- added governed GMEF evolution;
+- added transaction, MVCC/CAS, and epoch concepts as architecture models rather than implementation claims;
+- added external-effect reversibility;
+- added explicit `IN_DOUBT` handling;
+- added knowledge/research promotion paths;
+- added adaptive-complexity levels;
+- added stop conditions;
+- added gap prioritization;
+- added anti-fabrication and anti-regression rules;
+- expanded root invariants and failure registry;
+- added 7-Part persistence mapping;
+- strengthened master RSCF node;
+- retained explicit capability limits.
 
 ## v2.0.0 — 2026-08-25
 

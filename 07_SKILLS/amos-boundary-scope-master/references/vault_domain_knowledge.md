@@ -1121,11 +1121,11 @@ L5 SCOPE / REGIME / TEMPORAL
 
 L5 relies particularly on:
 
-* L0 for integrity;
-* L1 for epistemic typing;
-* L2 for provenance and freshness reconstruction;
-* L3 for applicability propagation through dependencies;
-* L4 for preserving the applicability envelope of causal conclusions.
+- L0 for integrity;
+- L1 for epistemic typing;
+- L2 for provenance and freshness reconstruction;
+- L3 for applicability propagation through dependencies;
+- L4 for preserving the applicability envelope of causal conclusions.
 
 L5 MUST NOT weaken earlier laws.
 
@@ -1157,17 +1157,17 @@ A downstream transformation that discards these fields must either prove they ar
 
 L5 does NOT:
 
-* claim that every system has discrete regimes;
-* impose one universal freshness threshold;
-* establish universal time constants;
-* prove that H/M/L mappings are empirical laws;
-* guarantee transfer between populations;
-* replace domain-specific external validity analysis;
-* replace statistical distribution-shift analysis;
-* replace temporal causal inference;
-* grant authority;
-* execute actions;
-* convert placeholders into implementation.
+- claim that every system has discrete regimes;
+- impose one universal freshness threshold;
+- establish universal time constants;
+- prove that H/M/L mappings are empirical laws;
+- guarantee transfer between populations;
+- replace domain-specific external validity analysis;
+- replace statistical distribution-shift analysis;
+- replace temporal causal inference;
+- grant authority;
+- execute actions;
+- convert placeholders into implementation.
 
 ---
 
@@ -1379,9 +1379,9 @@ path: 01_CANON/01_CORE_LAWS/[[L5_SCOPE_REGIME]].md
 
 RSCF-RELATIONS:
 
-* DEPENDS_ON: [[L0_INTEGRITY]]
-* DEPENDS_ON: [[L1_EPISTEMIC]]
-* DEPENDS_ON: [[L2_PROVENANCE]
+- DEPENDS_ON: [[L0_INTEGRITY]]
+- DEPENDS_ON: [[L1_EPISTEMIC]]
+- DEPENDS_ON: [[L2_PROVENANCE]
 
 ... (truncated, see vault source for full content)
 

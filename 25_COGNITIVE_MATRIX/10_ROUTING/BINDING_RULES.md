@@ -203,8 +203,8 @@ R(q,C)
 
 where:
 
-* (q) = request/query/task;
-* \(C\) = candidate component set.
+- (q) = request/query/task;
+- \(C\) = candidate component set.
 
 Define binding:
 
@@ -3129,7 +3129,6 @@ UNBOUND
 
 This contract keeps routing aligned with the AMOS Full Brain OS integrity boundary: route only what is materially needed, preserve provenance/scope/regime constraints, expose ambiguity instead of forcing a fluent selection, and never let capability selection become authority.
 ```
-
 ---
 
 [[00_ROOT_MOC]]|[[AMOS MOC]]

@@ -104,25 +104,25 @@ UNKNOWN/GAP ≠ PASS
 
 This contract governs generator behavior across the Cognitive Matrix insofar as generation bears upon:
 
-* primitives L00–L29;
-* lifecycle operations O00–O16;
-* control planes C01–C09;
-* scales;
-* cells and cell registry;
-* routing;
-* validation;
-* generator seeds;
-* generator templates;
-* generator registry;
-* generator admission;
-* generator outputs;
-* generator tests;
-* generator validation;
-* generator falsification;
-* generator promotion;
-* generator provenance;
-* generator versioning;
-* generator supersession.
+- primitives L00–L29;
+- lifecycle operations O00–O16;
+- control planes C01–C09;
+- scales;
+- cells and cell registry;
+- routing;
+- validation;
+- generator seeds;
+- generator templates;
+- generator registry;
+- generator admission;
+- generator outputs;
+- generator tests;
+- generator validation;
+- generator falsification;
+- generator promotion;
+- generator provenance;
+- generator versioning;
+- generator supersession.
 
 It does **not** establish that generators for every listed surface currently exist.
 
@@ -138,12 +138,12 @@ $$G: (S,T,I,C,E) \rightarrow O$$
 
 where:
 
-* $S$ = seed;
-* $T$ = template;
-* $I$ = supplied inputs;
-* $C$ = constraints;
-* $E$ = execution context;
-* $O$ = generated output.
+- $S$ = seed;
+- $T$ = template;
+- $I$ = supplied inputs;
+- $C$ = constraints;
+- $E$ = execution context;
+- $O$ = generated output.
 
 For governed execution, the transformation SHOULD additionally produce provenance $P$:
 
@@ -345,11 +345,11 @@ generator_seed:
 
 A seed MAY contain:
 
-* verified evidence;
-* source claims;
-* models;
-* assumptions;
-* unresolved gaps.
+- verified evidence;
+- source claims;
+- models;
+- assumptions;
+- unresolved gaps.
 
 The generator MUST preserve those epistemic distinctions.
 
@@ -506,13 +506,13 @@ Its existence proves only that the generator produced it under some execution co
 
 It does not prove:
 
-* empirical correctness;
-* causal correctness;
-* canonical authority;
-* runtime compatibility;
-* completeness;
-* provenance independence;
-* current validity.
+- empirical correctness;
+- causal correctness;
+- canonical authority;
+- runtime compatibility;
+- completeness;
+- provenance independence;
+- current validity.
 
 ---
 
@@ -583,14 +583,14 @@ unless independent evidence is actually introduced and its independence demonstr
 
 Generator systems MUST resist artificial confidence amplification caused by:
 
-* multiple outputs from one seed;
-* multiple templates applied to one source;
-* multiple agents consuming the same source;
-* paraphrased descendants;
-* summaries of generated summaries;
-* regenerated copies;
-* mirrored outputs;
-* repeated model agreement with shared ancestry.
+- multiple outputs from one seed;
+- multiple templates applied to one source;
+- multiple agents consuming the same source;
+- paraphrased descendants;
+- summaries of generated summaries;
+- regenerated copies;
+- mirrored outputs;
+- repeated model agreement with shared ancestry.
 
 Evidence independence MUST be demonstrated, not inferred from output count.
 
@@ -714,14 +714,14 @@ If A, B, and C are jointly load-bearing, unresolved C prevents authoritative use
 
 A generator MAY use local reasoning without wider coordination only when:
 
-* dependency closure is demonstrated;
-* scope compatibility is established;
-* regime compatibility is established;
-* provenance independence requirements are satisfied;
-* freshness is sufficient;
-* no material conflict exists;
-* causal coupling does not require wider evaluation;
-* applicable authority permits the operation.
+- dependency closure is demonstrated;
+- scope compatibility is established;
+- regime compatibility is established;
+- provenance independence requirements are satisfied;
+- freshness is sufficient;
+- no material conflict exists;
+- causal coupling does not require wider evaluation;
+- applicable authority permits the operation.
 
 Assumed independence does not satisfy this gate.
 
@@ -807,17 +807,17 @@ rather than forcing convergence.
 
 Falsification SHOULD seek:
 
-* contradictions;
-* provenance correlation;
-* stale premises;
-* malformed inputs;
-* scope expansion;
-* regime leakage;
-* hidden dependencies;
-* causal overreach;
-* unsupported authority;
-* unstable generation;
-* stronger competing explanations.
+- contradictions;
+- provenance correlation;
+- stale premises;
+- malformed inputs;
+- scope expansion;
+- regime leakage;
+- hidden dependencies;
+- causal overreach;
+- unsupported authority;
+- unstable generation;
+- stronger competing explanations.
 
 A failed falsification attempt does not prove truth.
 
@@ -1049,19 +1049,19 @@ $$Output \not\Rightarrow Promotion$$
 
 A generated artifact SHOULD NOT be promoted unless:
 
-* identity is stable;
-* version is bound;
-* artifact type is known;
-* provenance is preserved;
-* scope is explicit;
-* regime is explicit;
-* dependencies are resolved;
-* freshness is sufficient;
-* applicable validation passes;
-* falsifiers are addressed to the required level;
-* authority is valid;
-* unresolved critical gaps remain visible;
-* rollback/supersession semantics exist where consequential.
+- identity is stable;
+- version is bound;
+- artifact type is known;
+- provenance is preserved;
+- scope is explicit;
+- regime is explicit;
+- dependencies are resolved;
+- freshness is sufficient;
+- applicable validation passes;
+- falsifiers are addressed to the required level;
+- authority is valid;
+- unresolved critical gaps remain visible;
+- rollback/supersession semantics exist where consequential.
 
 ---
 
@@ -1963,11 +1963,11 @@ Related:
 
 Control-plane gates may govern:
 
-* generator admission;
-* execution authorization;
-* output mutation;
-* promotion;
-* supersession.
+- generator admission;
+- execution authorization;
+- output mutation;
+- promotion;
+- supersession.
 
 Generators MUST NOT bypass these gates merely because they possess the technical capability to write or generate artifacts.
 
@@ -2164,36 +2164,36 @@ No stronger claim is licensed by the supplied evidence.
 
 ## Cross-plane bindings
 
-* Governed by canon — AMOS Core Laws · [[LAW_HIERARCHY]]
-* Validation — [[COGNITIVE_MATRIX_VALIDATION_CONTRACT]]
-* Kernel interaction — [[KERNEL_README]]
-* Control-plane gates — [[CONTROL_PLANE_README]]
-* Observed by — [[OBSERVABILITY_README]] · never treated as authority
-* Recovered via operations — [[OPERATIONS_README]]
-* Promotion governance — [[PROMOTION_GATES]]
-* Binding governance — [[BINDING_RULES]]
+- Governed by canon — AMOS Core Laws · [[LAW_HIERARCHY]]
+- Validation — [[COGNITIVE_MATRIX_VALIDATION_CONTRACT]]
+- Kernel interaction — [[KERNEL_README]]
+- Control-plane gates — [[CONTROL_PLANE_README]]
+- Observed by — [[OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[OPERATIONS_README]]
+- Promotion governance — [[PROMOTION_GATES]]
+- Binding governance — [[BINDING_RULES]]
 
 ---
 
 ## Generator subsystem bindings
 
-* [[GENERATORS_MAP]]
-* [[GENERATOR_ADMISSION]]
-* [[GENERATOR_CONTRACT]]
-* [[GENERATOR_SEED]]
-* [[GENERATOR_TEMPLATES]]
-* [[GENERATOR_REGISTRY]]
-* [[GENERATOR_OUTPUT]]
-* [[GENERATOR_TESTS]]
-* [[GENERATOR_VALIDATION]]
-* [[GENERATOR_FALSIFICATION]]
-* [[GENERATOR_PROMOTION]]
-* [[GENERATOR_SUPERSESSION]]
-* [[GENERATORS_PROVENANCE]]
-* [[GENERATORS_VERSIONING]]
-* [[GENERATORS_CHANGE_LOG]]
-* [[GENERATORS_HISTORY]]
-* [[GENERATORS_ROADMAP]]
+- [[GENERATORS_MAP]]
+- [[GENERATOR_ADMISSION]]
+- [[GENERATOR_CONTRACT]]
+- [[GENERATOR_SEED]]
+- [[GENERATOR_TEMPLATES]]
+- [[GENERATOR_REGISTRY]]
+- [[GENERATOR_OUTPUT]]
+- [[GENERATOR_TESTS]]
+- [[GENERATOR_VALIDATION]]
+- [[GENERATOR_FALSIFICATION]]
+- [[GENERATOR_PROMOTION]]
+- [[GENERATOR_SUPERSESSION]]
+- [[GENERATORS_PROVENANCE]]
+- [[GENERATORS_VERSIONING]]
+- [[GENERATORS_CHANGE_LOG]]
+- [[GENERATORS_HISTORY]]
+- [[GENERATORS_ROADMAP]]
 
 ---
 
@@ -2225,63 +2225,63 @@ implementation_status: PARTIAL
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: [[00_ROOT_MOC]]|[[AMOS MOC]]
+- INDEXED_BY: [[00_ROOT_MOC]]|[[AMOS MOC]]
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-* PART_OF: [[GENERATORS_MAP]]
+- PART_OF: [[GENERATORS_MAP]]
 
-* PART_OF: [[COGNITIVE_MATRIX_MOC]]
+- PART_OF: [[COGNITIVE_MATRIX_MOC]]
 
-* GOVERNED_BY: [[LAW_HIERARCHY]]
+- GOVERNED_BY: [[LAW_HIERARCHY]]
 
-* GOVERNED_BY: [[COGNITIVE_MATRIX_VALIDATION_CONTRACT]]
+- GOVERNED_BY: [[COGNITIVE_MATRIX_VALIDATION_CONTRACT]]
 
-* GOVERNED_BY: [[PROMOTION_GATES]]
+- GOVERNED_BY: [[PROMOTION_GATES]]
 
-* GOVERNED_BY: [[BINDING_RULES]]
+- GOVERNED_BY: [[BINDING_RULES]]
 
-* GOVERNS: [[GENERATOR_ADMISSION]]
+- GOVERNS: [[GENERATOR_ADMISSION]]
 
-* GOVERNS: [[GENERATOR_CONTRACT]]
+- GOVERNS: [[GENERATOR_CONTRACT]]
 
-* GOVERNS: [[GENERATOR_SEED]]
+- GOVERNS: [[GENERATOR_SEED]]
 
-* GOVERNS: [[GENERATOR_TEMPLATES]]
+- GOVERNS: [[GENERATOR_TEMPLATES]]
 
-* GOVERNS: [[GENERATOR_REGISTRY]]
+- GOVERNS: [[GENERATOR_REGISTRY]]
 
-* GOVERNS: [[GENERATOR_OUTPUT]]
+- GOVERNS: [[GENERATOR_OUTPUT]]
 
-* GOVERNS: [[GENERATOR_TESTS]]
+- GOVERNS: [[GENERATOR_TESTS]]
 
-* GOVERNS: [[GENERATOR_VALIDATION]]
+- GOVERNS: [[GENERATOR_VALIDATION]]
 
-* GOVERNS: [[GENERATOR_FALSIFICATION]]
+- GOVERNS: [[GENERATOR_FALSIFICATION]]
 
-* GOVERNS: [[GENERATOR_PROMOTION]]
+- GOVERNS: [[GENERATOR_PROMOTION]]
 
-* GOVERNS: [[GENERATOR_SUPERSESSION]]
+- GOVERNS: [[GENERATOR_SUPERSESSION]]
 
-* GOVERNS: [[GENERATORS_PROVENANCE]]
+- GOVERNS: [[GENERATORS_PROVENANCE]]
 
-* GOVERNS: [[GENERATORS_VERSIONING]]
+- GOVERNS: [[GENERATORS_VERSIONING]]
 
-* VALIDATION_PATTERN_FROM: [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+- VALIDATION_PATTERN_FROM: [[ROUTING_POLICY_VALIDATION_RECEIPT]]
 
-* VALIDATION_PATTERN_FROM: [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+- VALIDATION_PATTERN_FROM: [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
-* VALIDATION_PATTERN_FROM: [[L00_REALITY_VALIDATION_RECEIPT]]
+- VALIDATION_PATTERN_FROM: [[L00_REALITY_VALIDATION_RECEIPT]]
 
-* INTERACTS_WITH: [[KERNEL_README]]
+- INTERACTS_WITH: [[KERNEL_README]]
 
-* INTERACTS_WITH: [[CONTROL_PLANE_README]]
+- INTERACTS_WITH: [[CONTROL_PLANE_README]]
 
-* OBSERVED_BY: [[OBSERVABILITY_README]]
+- OBSERVED_BY: [[OBSERVABILITY_README]]
 
-* RECOVERED_VIA: [[OPERATIONS_README]]
+- RECOVERED_VIA: [[OPERATIONS_README]]
 
 validation_state: SPECIFICATION_ONLY
 

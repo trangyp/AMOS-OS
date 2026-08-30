@@ -97,15 +97,15 @@ within the AMOS Cognitive Matrix.
 
 The contract exists to prevent **generation capability** from being confused with:
 
-* factual truth;
-* empirical verification;
-* canonical authority;
-* provenance independence;
-* causal proof;
-* validation;
-* admission;
-* promotion;
-* or operational safety.
+- factual truth;
+- empirical verification;
+- canonical authority;
+- provenance independence;
+- causal proof;
+- validation;
+- admission;
+- promotion;
+- or operational safety.
 
 The governing distinction is:
 
@@ -203,12 +203,12 @@ $$
 
 where:
 
-* \(G\) = generator identity and version;
-* \(I\) = admitted input;
-* \(C\) = applicable constraints;
-* \(S\) = generator configuration/state;
-* \(E\) = execution environment;
-* \(O\) = generated output.
+- \(G\) = generator identity and version;
+- \(I\) = admitted input;
+- \(C\) = applicable constraints;
+- \(S\) = generator configuration/state;
+- \(E\) = execution environment;
+- \(O\) = generated output.
 
 For non-deterministic generators:
 

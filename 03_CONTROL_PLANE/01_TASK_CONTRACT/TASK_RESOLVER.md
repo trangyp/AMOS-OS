@@ -4050,13 +4050,11 @@ UNKNOWN OBJECTIVE
 →
 CONVENIENT OBJECTIVE
 ```
-
 ```text
 AMBIGUOUS RECIPIENT
 →
 MOST LIKELY RECIPIENT
 ```
-
 for consequential execution without sufficient support.
 
 Never perform:
@@ -4086,31 +4084,26 @@ DRAFT
 →
 SEND
 ```
-
 ```text
 PREVIEW
 →
 EXECUTE
 ```
-
 ```text
 LOCAL
 →
 GLOBAL
 ```
-
 ```text
 ONE FILE
 →
 ALL FILES
 ```
-
 ```text
 CURRENT TASK
 →
 ALL FUTURE TASKS
 ```
-
 ---
 
 # 201. Resolver Anti-Compression Rule

@@ -81,16 +81,16 @@ NEI governs emotional awareness, autonomic balance, and interpersonal affect mod
 
 # 1. Biological Foundations
 
-* **Substrate:** Limbic networks, insular cortex, ventromedial prefrontal cortex, vagal nerve complexes, hypothalamic-pituitary-adrenal (HPA) axis.
-* **Core Functions:** Affective regulation, empathy, interpersonal resonance, modulation of threat reactivity, distinguishing instinctive reaction from chosen intentional response.
-* **Biological Markers:** Heart Rate Variability (HRV), respiratory sinus arrhythmia, autonomic balance, salivary cortisol profiles.
+- **Substrate:** Limbic networks, insular cortex, ventromedial prefrontal cortex, vagal nerve complexes, hypothalamic-pituitary-adrenal (HPA) axis.
+- **Core Functions:** Affective regulation, empathy, interpersonal resonance, modulation of threat reactivity, distinguishing instinctive reaction from chosen intentional response.
+- **Biological Markers:** Heart Rate Variability (HRV), respiratory sinus arrhythmia, autonomic balance, salivary cortisol profiles.
 
 ---
 
 # 2. Epistemic Guardrail: Emotion as Signal, Not Truth
 
 $$\text{Emotion } (\text{NEI}) = \text{Relevance & Biological Significance Signal} \neq \text{Objective Factual Truth}$$
-* Emotion alerts the cognitive system to threat, affiliation, meaning, or boundary violation, but must be cross-checked through NBI logic before translating into action.
+- Emotion alerts the cognitive system to threat, affiliation, meaning, or boundary violation, but must be cross-checked through NBI logic before translating into action.
 
 ---
 

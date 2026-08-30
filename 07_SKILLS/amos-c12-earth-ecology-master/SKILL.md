@@ -379,8 +379,6 @@ Climate sensitivity and tipping points are MODEL_PROJECTIONS, not established ob
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
 
-
-
 See `references/detailed-content.md` for detailed amos canon grounding.
 
 ## References

@@ -55,6 +55,11 @@ tags:
 aliases:
 - AMOS HML Canon - H/M/L Canon - AMOS H/M/L Architecture - AMOS Fractal Knowledge
   Resolution C
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: universe_canon
 ---
 
 # AMOS H/M/L Canon

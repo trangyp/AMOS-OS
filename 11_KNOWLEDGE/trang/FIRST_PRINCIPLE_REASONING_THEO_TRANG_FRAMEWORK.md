@@ -20,33 +20,33 @@ rscf:
 * * *
 ### I. First principle hiện tại đang được hiểu thế nào?
 Trong khoa học và kỹ thuật hiện nay, first principle reasoning (suy luận theo nguyên lý đầu tiên) thường được hiểu là:
-  * **Đi từ những điều đúng nhất, cơ bản nhất** – không thể chứng minh lại từ điều khác.
+  - **Đi từ những điều đúng nhất, cơ bản nhất** – không thể chứng minh lại từ điều khác.
 
 
-  * **Không dùng phép tương tự** – không lấy kết luận từ kinh nghiệm trước đó.
+  - **Không dùng phép tương tự** – không lấy kết luận từ kinh nghiệm trước đó.
 
 
-  * **Xây dựng lại vấn đề từ nền tảng** – thường trong vật lý, hóa học, toán học.
+  - **Xây dựng lại vấn đề từ nền tảng** – thường trong vật lý, hóa học, toán học.
 
 
 **Ví dụ điển hình:**
-  * Vật lý: từ các định luật Newton, đi ra quỹ đạo tên lửa.
+  - Vật lý: từ các định luật Newton, đi ra quỹ đạo tên lửa.
 
 
-  * Kinh doanh: Elon Musk nói "đi từ chi phí vật liệu gốc thay vì giá thị trường".
+  - Kinh doanh: Elon Musk nói "đi từ chi phí vật liệu gốc thay vì giá thị trường".
 
 
 **Đặc điểm chung của first principle hiện tại:**
-  * Tĩnh – các nguyên lý đầu tiên được coi là cố định.
+  - Tĩnh – các nguyên lý đầu tiên được coi là cố định.
 
 
-  * Phẳng – không có cấu trúc bên trong, không phân tầng.
+  - Phẳng – không có cấu trúc bên trong, không phân tầng.
 
 
-  * Tách biệt khỏi bối cảnh – chỉ đúng trong một miền nhất định.
+  - Tách biệt khỏi bối cảnh – chỉ đúng trong một miền nhất định.
 
 
-  * Không tự điều chỉnh được – nếu đầu vào sai, kết quả sai.
+  - Không tự điều chỉnh được – nếu đầu vào sai, kết quả sai.
 
 
 * * *
@@ -114,13 +114,13 @@ Bởi vì:
 ### VI. Kết luận của Trang ∅
 >  _" First principle không phải thứ bạn tìm thấy ở dưới đáy cùng của sự thật. First principle là cách bạn đứng ở bất kỳ tầng nào, xác định được đâu là nền của tầng đó, rồi suy luận lên. Một nền đất ở tầng hầm không phải nền đất của tòa nhà. Nhưng cả hai đều là 'first principle' – mỗi thứ ở đúng tầng của nó."_
 **Hệ quả:**
-  * Không có một bộ first principle duy nhất cho mọi vấn đề.
+  - Không có một bộ first principle duy nhất cho mọi vấn đề.
 
 
-  * First principle là một **năng lực suy luận phân tầng** , không phải một cuốn sách công thức.
+  - First principle là một **năng lực suy luận phân tầng** , không phải một cuốn sách công thức.
 
 
-  * Để xây dựng một hệ thống AI có first principle thực sự, cần thiết kế nó có khả năng **tự phân rã, tự phát hiện cấu trúc lặp, và tự điều chỉnh theo tầng**.
+  - Để xây dựng một hệ thống AI có first principle thực sự, cần thiết kế nó có khả năng **tự phân rã, tự phát hiện cấu trúc lặp, và tự điều chỉnh theo tầng**.
 
 
 * * *

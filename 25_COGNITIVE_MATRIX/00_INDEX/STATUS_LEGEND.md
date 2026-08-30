@@ -1544,15 +1544,12 @@ status: DONE
 ```yaml
 status: GOOD
 ```
-
 ```yaml
 status: COMPLETE
 ```
-
 ```yaml
 status: WORKING
 ```
-
 unless the field has an explicitly narrow definition.
 
 These labels compress too many dimensions.

@@ -108,7 +108,6 @@ DECISION
 UNKNOWN
 ```
 
-
 Canonical conclusion classes are:
 
 ```text
@@ -119,7 +118,6 @@ CONDITIONAL
 COMPETING
 UNKNOWN/GAP
 ```
-
 
 ## 1.2 L04 canon status
 
@@ -837,7 +835,6 @@ multiple descendants of one origin
 multiple independent confirmations
 ```
 
-
 ---
 
 # 15. Selective Invalidation
@@ -1084,7 +1081,6 @@ normalize target
 → classify gaps
 → issue weakest accurate conclusion
 ```
-
 
 L04 specialization:
 
@@ -2032,7 +2028,6 @@ NOT ESTABLISHED
 
 ```
 ```
-
 ---
 
 [[00_ROOT_MOC]]|[[AMOS MOC]]

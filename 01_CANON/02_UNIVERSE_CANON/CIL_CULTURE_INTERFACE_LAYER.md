@@ -182,23 +182,23 @@ within the declared translation/localization scope.
 
 A transformation fails semantic fidelity if it materially changes:
 
-* what is asserted;
-* what is denied;
-* epistemic strength;
-* causal strength;
-* uncertainty;
-* scope;
-* temporal applicability;
-* modality;
-* obligation;
-* permission;
-* prohibition;
-* identity;
-* quantities;
-* conditions;
-* falsifiers;
-* dependencies;
-* provenance-relevant attribution.
+- what is asserted;
+- what is denied;
+- epistemic strength;
+- causal strength;
+- uncertainty;
+- scope;
+- temporal applicability;
+- modality;
+- obligation;
+- permission;
+- prohibition;
+- identity;
+- quantities;
+- conditions;
+- falsifiers;
+- dependencies;
+- provenance-relevant attribution.
 
 ---
 
@@ -426,15 +426,15 @@ Localization adapts content to a target locale or cultural environment.
 
 It may alter:
 
-* date presentation;
-* number formatting;
-* units;
-* examples;
-* idioms;
-* address conventions;
-* honorifics;
-* explanatory order;
-* culturally dependent references.
+- date presentation;
+- number formatting;
+- units;
+- examples;
+- idioms;
+- address conventions;
+- honorifics;
+- explanatory order;
+- culturally dependent references.
 
 But:
 
@@ -658,13 +658,13 @@ $$
 
 Examples include adding:
 
-* certainty;
-* causal interpretation;
-* moral judgment;
-* cultural assumptions;
-* universal applicability;
-* authority;
-* intent.
+- certainty;
+- causal interpretation;
+- moral judgment;
+- cultural assumptions;
+- universal applicability;
+- authority;
+- intent.
 
 Unsupported additions are semantic defects.
 
@@ -1069,18 +1069,18 @@ Meaning may depend on culturally embedded conventions.
 
 Examples include:
 
-* politeness;
-* hierarchy;
-* directness;
-* honorifics;
-* kinship terms;
-* legal conventions;
-* social roles;
-* metaphor;
-* taboo;
-* ritual;
-* historical references;
-* institutional assumptions.
+- politeness;
+- hierarchy;
+- directness;
+- honorifics;
+- kinship terms;
+- legal conventions;
+- social roles;
+- metaphor;
+- taboo;
+- ritual;
+- historical references;
+- institutional assumptions.
 
 CIL may contextualize these dimensions without claiming that a culture is homogeneous.
 
@@ -1215,11 +1215,11 @@ The selected strategy should minimize semantic distortion.
 
 Metaphors can encode:
 
-* emotional framing;
-* causal implication;
-* cultural reference;
-* value judgment;
-* conceptual structure.
+- emotional framing;
+- causal implication;
+- cultural reference;
+- value judgment;
+- conceptual structure.
 
 A target metaphor should not be substituted merely because it sounds natural.
 
@@ -1233,12 +1233,12 @@ Humor is especially culturally sensitive.
 
 A localized joke may change:
 
-* target;
-* social meaning;
-* offensiveness;
-* implied judgment;
-* political meaning;
-* power relationship.
+- target;
+- social meaning;
+- offensiveness;
+- implied judgment;
+- political meaning;
+- power relationship.
 
 Therefore humor localization has elevated semantic-drift risk.
 
@@ -1256,12 +1256,12 @@ Languages encode politeness differently.
 
 CIL may adapt:
 
-* pronouns;
-* titles;
-* honorifics;
-* indirectness;
-* request structure;
-* greetings.
+- pronouns;
+- titles;
+- honorifics;
+- indirectness;
+- request structure;
+- greetings.
 
 However politeness adaptation must not transform:
 
@@ -1932,13 +1932,13 @@ When competing translations exist, CIL should seek the cheapest high-information
 
 Possible discriminators:
 
-* surrounding text;
-* canonical glossary;
-* author definition;
-* domain convention;
-* historical usage;
-* target audience;
-* explicit source clarification.
+- surrounding text;
+- canonical glossary;
+- author definition;
+- domain convention;
+- historical usage;
+- target audience;
+- explicit source clarification.
 
 More translations of the same ambiguous phrase are not necessarily useful evidence.
 
@@ -2432,15 +2432,15 @@ C4 — maximum validation required
 
 Escalation triggers may include:
 
-* legal consequences;
-* medical consequences;
-* financial consequences;
-* safety implications;
-* governance implications;
-* identity-sensitive semantics;
-* high ambiguity;
-* irreversible publication;
-* cross-regime mapping.
+- legal consequences;
+- medical consequences;
+- financial consequences;
+- safety implications;
+- governance implications;
+- identity-sensitive semantics;
+- high ambiguity;
+- irreversible publication;
+- cross-regime mapping.
 
 ---
 
@@ -2486,11 +2486,11 @@ Cultural adaptation should not infer sensitive individual attributes merely from
 
 A user's language preference does not prove:
 
-* nationality;
-* ethnicity;
-* religion;
-* political ideology;
-* cultural identity.
+- nationality;
+- ethnicity;
+- religion;
+- political ideology;
+- cultural identity.
 
 CIL should adapt to declared or contextually necessary language requirements without unsupported identity inference.
 
@@ -2587,12 +2587,12 @@ Scientific terms should preserve operational meaning.
 
 Cultural familiarity must not change:
 
-* units;
-* mechanisms;
-* uncertainty;
-* evidence strength;
-* statistical interpretation;
-* causal status.
+- units;
+- mechanisms;
+- uncertainty;
+- evidence strength;
+- statistical interpretation;
+- causal status.
 
 Popular-language simplification must remain epistemically faithful.
 
@@ -2699,12 +2699,12 @@ CIL should preserve semantic formatting where relevant.
 
 For right-to-left and bidirectional scripts, CIL must preserve:
 
-* identifier integrity;
-* numbers;
-* code;
-* equations;
-* punctuation;
-* embedded left-to-right terms.
+- identifier integrity;
+- numbers;
+- code;
+- equations;
+- punctuation;
+- embedded left-to-right terms.
 
 Rendering correctness is part of interface fidelity when formatting affects interpretation.
 
@@ -3532,10 +3532,10 @@ Authoritative Universe Canon defines different CIL semantics.
 
 A failed localization does not automatically invalidate:
 
-* the source artifact;
-* unrelated language versions;
-* unrelated semantic atoms;
-* unrelated cultural contexts.
+- the source artifact;
+- unrelated language versions;
+- unrelated semantic atoms;
+- unrelated cultural contexts.
 
 Invalidate only dependent conclusions where dependency closure is available.
 
@@ -4118,13 +4118,13 @@ CIL_VALIDATION_CHECKLIST:
 >
 > In particular, this note does **not** establish that:
 >
-> * every culture can be represented by a fixed model;
-> * perfect cross-cultural semantic equivalence is always possible;
-> * translation proves truth;
-> * localization creates independent evidence;
-> * cultural similarity establishes causal or ontological identity;
-> * CIL literally implements any particular software architecture;
-> * ChatGPT itself literally implements the runtime mechanisms described here.
+> - every culture can be represented by a fixed model;
+> - perfect cross-cultural semantic equivalence is always possible;
+> - translation proves truth;
+> - localization creates independent evidence;
+> - cultural similarity establishes causal or ontological identity;
+> - CIL literally implements any particular software architecture;
+> - ChatGPT itself literally implements the runtime mechanisms described here.
 >
 > Where exact equivalence is unavailable, CIL preserves the gap.
 

@@ -57,6 +57,11 @@ tags:
 aliases:
 - AMOS 7-Part Universe - AMOS Seven-Part Universe - AMOS Universe Canon - AMOS Universal
   Parti
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: universe_canon
 ---
 
 # AMOS 7-Part Universe Canon

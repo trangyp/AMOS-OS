@@ -42,17 +42,17 @@ O:
 
 Every material operator must preserve enough information to determine:
 
-* what entered the transformation;
-* what transformation occurred;
-* which actor or subsystem invoked it;
-* which state changed;
-* which state did not change;
-* which assumptions were required;
-* what evidence was generated;
-* where that evidence came from;
-* whether the operation was authorized;
-* whether it was reversible;
-* and what would invalidate its result.
+- what entered the transformation;
+- what transformation occurred;
+- which actor or subsystem invoked it;
+- which state changed;
+- which state did not change;
+- which assumptions were required;
+- what evidence was generated;
+- where that evidence came from;
+- whether the operation was authorized;
+- whether it was reversible;
+- and what would invalidate its result.
 
 ---
 
@@ -206,11 +206,11 @@ S'_i
 
 where:
 
-* \(X_i\) = typed inputs;
-* \(S_i\) = pre-operation state;
-* \(C_i\) = operating context;
-* \(Y_i\) = typed outputs;
-* (S'_i) = post-operation state.
+- \(X_i\) = typed inputs;
+- \(S_i\) = pre-operation state;
+- \(C_i\) = operating context;
+- \(Y_i\) = typed outputs;
+- (S'_i) = post-operation state.
 
 ---
 
@@ -2776,10 +2776,10 @@ When operator \(O_i\) fails:
 
 Let:
 
-* \(S_V\) = unaffected valid state;
-* \(S_F\) = failed state;
-* \(D_F\) = dependent state;
-* \(R_F\) = repaired state.
+- \(S_V\) = unaffected valid state;
+- \(S_F\) = failed state;
+- \(D_F\) = dependent state;
+- \(R_F\) = repaired state.
 
 Then:
 

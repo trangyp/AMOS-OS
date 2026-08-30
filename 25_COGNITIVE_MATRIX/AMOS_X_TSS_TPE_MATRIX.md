@@ -3003,49 +3003,49 @@ INDEPENDENT VALIDATION
 
 # 131. Promotion Gate — Source
 
-* [x] native TSS manual located
-* [x] native TPE manual located
-* [x] native TSS × TPE composite artifact located
-* [x] origin/steward relationship supplied by AMOS manifest
-* [x] direct TSS/TPE source family established
-* [ ] exact full TSS primitive registry ingested
-* [ ] exact full TPE primitive registry ingested
-* [ ] exact TSS × TPE composite semantics ingested
-* [ ] duplicate source variants lineage-reconciled
-* [ ] conflicts reconciled or preserved as COMPETING
-* [ ] final canon promotion receipt
+- [x] native TSS manual located
+- [x] native TPE manual located
+- [x] native TSS × TPE composite artifact located
+- [x] origin/steward relationship supplied by AMOS manifest
+- [x] direct TSS/TPE source family established
+- [ ] exact full TSS primitive registry ingested
+- [ ] exact full TPE primitive registry ingested
+- [ ] exact TSS × TPE composite semantics ingested
+- [ ] duplicate source variants lineage-reconciled
+- [ ] conflicts reconciled or preserved as COMPETING
+- [ ] final canon promotion receipt
 
 ---
 
 # 132. Promotion Gate — Prediction Validation
 
-* [ ] prediction schema source-reconciled
-* [ ] forecasts preregistered
-* [ ] outcomes independently measured
-* [ ] calibration evaluated
-* [ ] baseline comparison performed
-* [ ] failure cases retained
-* [ ] regime bounds tested
-* [ ] live/out-of-sample performance evaluated
-* [ ] source independence evaluated
-* [ ] validation receipt issued
+- [ ] prediction schema source-reconciled
+- [ ] forecasts preregistered
+- [ ] outcomes independently measured
+- [ ] calibration evaluated
+- [ ] baseline comparison performed
+- [ ] failure cases retained
+- [ ] regime bounds tested
+- [ ] live/out-of-sample performance evaluated
+- [ ] source independence evaluated
+- [ ] validation receipt issued
 
 ---
 
 # 133. Promotion Gate — Runtime
 
-* [ ] typed executable schema
-* [ ] versioned identity
-* [ ] persistent prediction receipts
-* [ ] persistent resolution receipts
-* [ ] provenance topology implemented
-* [ ] horizon expiry implemented
-* [ ] regime checking implemented
-* [ ] local invalidation implemented
-* [ ] negative cases tested
-* [ ] authority gate implemented
-* [ ] rollback tested
-* [ ] artifact-specific validation receipt
+- [ ] typed executable schema
+- [ ] versioned identity
+- [ ] persistent prediction receipts
+- [ ] persistent resolution receipts
+- [ ] provenance topology implemented
+- [ ] horizon expiry implemented
+- [ ] regime checking implemented
+- [ ] local invalidation implemented
+- [ ] negative cases tested
+- [ ] authority gate implemented
+- [ ] rollback tested
+- [ ] artifact-specific validation receipt
 
 ---
 
@@ -3590,19 +3590,19 @@ canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-* GOVERNED_BY: [[LAW_HIERARCHY]]
+- GOVERNED_BY: [[LAW_HIERARCHY]]
 
-* NORMALIZES: `TRANG_SYSTEM_TSS`
+- NORMALIZES: `TRANG_SYSTEM_TSS`
 
-* NORMALIZES: `TRANG_PREDICTION_ENGINE_TPE`
+- NORMALIZES: `TRANG_PREDICTION_ENGINE_TPE`
 
-* NORMALIZES: `TSS_X_TPE_MULTIDIMENSIONAL_STRATEGIC_ANALYSIS`
+- NORMALIZES: `TSS_X_TPE_MULTIDIMENSIONAL_STRATEGIC_ANALYSIS`
 
-* INDEXED_BY: [[25_COGNITIVE_MATRIX_MOC]]
+- INDEXED_BY: [[25_COGNITIVE_MATRIX_MOC]]
 
 ---
 
@@ -3625,4 +3625,3 @@ TPE source located
 +
 direct TSS × TPE composite source located
 ```
-

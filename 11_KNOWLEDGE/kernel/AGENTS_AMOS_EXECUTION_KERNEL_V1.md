@@ -1,4 +1,5 @@
 ---
+title: AGENTS_AMOS_EXECUTION_KERNEL_V1
 tags:
 - knowledge
 - kernel
@@ -7,6 +8,13 @@ tags:
 - system-scan-agent
 - automation-profiles
 - amos-simulation-kernel-v0-math-foundations
+type: note
+source: 11_KNOWLEDGE/kernel
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
 ---
 
 # [[AGENTS]] AMOS EXECUTION KERNEL V1 — Full Canonical Expansion
@@ -85,9 +93,9 @@ and instructs the system to:
 
 It additionally establishes three critical control rules:
 
-* nontrivial tasks should not bypass the kernel unless the router classifies them `C0`;
-* failed required gates must produce an appropriate bounded conclusion such as `UNKNOWN/GAP`, `CONDITIONAL`, or `COMPETING`;
-* a failed gate must **not** be converted into a fluent prose caveat while execution otherwise proceeds as though the gate passed.
+- nontrivial tasks should not bypass the kernel unless the router classifies them `C0`;
+- failed required gates must produce an appropriate bounded conclusion such as `UNKNOWN/GAP`, `CONDITIONAL`, or `COMPETING`;
+- a failed gate must **not** be converted into a fluent prose caveat while execution otherwise proceeds as though the gate passed.
 
 That last rule is particularly important.
 
@@ -157,20 +165,20 @@ $$
 
 The source does **not**, by itself, prove that:
 
-* a particular executable kernel implementation currently exists;
-* `TaskSpec` has a particular machine schema;
-* the router has a particular algorithm;
-* a skill registry exists at runtime;
-* every skill contract has been implemented;
-* DAG construction is deterministic;
-* gates have machine-executable predicates;
-* RSCFs are stored in a database;
-* atomicity is implemented through database transactions;
-* MVCC or CAS is literally implemented;
-* distributed consensus exists;
-* adversarial validation is performed by a separate physical agent;
-* runtime logs prove that these nine stages execute;
-* the referenced related artifacts are currently available or version-compatible.
+- a particular executable kernel implementation currently exists;
+- `TaskSpec` has a particular machine schema;
+- the router has a particular algorithm;
+- a skill registry exists at runtime;
+- every skill contract has been implemented;
+- DAG construction is deterministic;
+- gates have machine-executable predicates;
+- RSCFs are stored in a database;
+- atomicity is implemented through database transactions;
+- MVCC or CAS is literally implemented;
+- distributed consensus exists;
+- adversarial validation is performed by a separate physical agent;
+- runtime logs prove that these nine stages execute;
+- the referenced related artifacts are currently available or version-compatible.
 
 Accordingly:
 
@@ -350,10 +358,10 @@ The existence of the router implies that `TaskSpec` must contain enough informat
 
 At minimum, this suggests information concerning:
 
-* objective;
-* task type;
-* relevant scope;
-* constraints.
+- objective;
+- task type;
+- relevant scope;
+- constraints.
 
 But the exact field set is not supplied.
 
@@ -532,12 +540,12 @@ This is DERIVED.
 
 A task involving:
 
-* irreversible action;
-* safety;
-* legal consequences;
-* financial consequences;
-* institutional consequences;
-* governance mutation;
+- irreversible action;
+- safety;
+- legal consequences;
+- financial consequences;
+- institutional consequences;
+- governance mutation;
 
 may deserve higher validation even if syntactically simple.
 
@@ -737,14 +745,14 @@ $$
 
 Compatibility may depend on:
 
-* schema;
-* epistemic class;
-* scope;
-* regime;
-* version;
-* authority;
-* provenance;
-* side effects.
+- schema;
+- epistemic class;
+- scope;
+- regime;
+- version;
+- authority;
+- provenance;
+- side effects.
 
 ---
 
@@ -780,8 +788,8 @@ $$
 
 where:
 
-* \(V\) = resolved contracts/tasks;
-* \(E\) = dependency relations.
+- \(V\) = resolved contracts/tasks;
+- \(E\) = dependency relations.
 
 ---
 
@@ -1252,12 +1260,12 @@ This is PROPOSED.
 
 Each contract may produce:
 
-* evidence;
-* derived claims;
-* RSCFs;
-* decisions;
-* intermediate state;
-* validation receipts.
+- evidence;
+- derived claims;
+- RSCFs;
+- decisions;
+- intermediate state;
+- validation receipts.
 
 Only RSCFs are explicitly named as commit objects in the source.
 
@@ -1361,11 +1369,11 @@ The source does not define when RSCFs are coupled.
 
 Possible forms include:
 
-* logical dependency;
-* shared invariant;
-* cross-RSCF transaction;
-* mutually dependent decision;
-* synchronized state mutation.
+- logical dependency;
+- shared invariant;
+- cross-RSCF transaction;
+- mutually dependent decision;
+- synchronized state mutation.
 
 These remain candidates.
 
@@ -1565,11 +1573,11 @@ This distinction is DERIVED but strongly implied.
 
 A final integrity check may test whether:
 
-* required contracts were satisfied;
-* dependencies remained valid;
-* output stayed within scope;
-* RSCFs remained coherent;
-* no mandatory constraint was violated.
+- required contracts were satisfied;
+- dependencies remained valid;
+- output stayed within scope;
+- RSCFs remained coherent;
+- no mandatory constraint was violated.
 
 Exact predicates are not supplied.
 
@@ -1648,13 +1656,13 @@ $$
 
 A final gate should challenge whether a conclusion was generalized beyond:
 
-* population;
-* environment;
-* time;
-* scale;
-* regime;
-* measurement method;
-* assumptions.
+- population;
+- environment;
+- time;
+- scale;
+- regime;
+- measurement method;
+- assumptions.
 
 ---
 
@@ -1748,15 +1756,15 @@ The second equation belongs to broader AMOS lineage but is highly compatible wit
 
 A final result can be bounded by:
 
-* evidence;
-* scope;
-* regime;
-* time;
-* provenance;
-* causal strength;
-* execution validity;
-* authority;
-* confidence.
+- evidence;
+- scope;
+- regime;
+- time;
+- provenance;
+- causal strength;
+- execution validity;
+- authority;
+- confidence.
 
 ---
 
@@ -1865,11 +1873,11 @@ tiny disclaimer
 
 A failed required gate must alter either:
 
-* execution;
-* conclusion class;
-* confidence ceiling;
-* output scope;
-* action permission.
+- execution;
+- conclusion class;
+- confidence ceiling;
+- output scope;
+- action permission.
 
 ---
 
@@ -2104,10 +2112,10 @@ permission to fabricate
 
 Possible C0 tasks might include:
 
-* simple deterministic transformations;
-* trivial formatting;
-* straightforward definitions;
-* arithmetic with explicit inputs.
+- simple deterministic transformations;
+- trivial formatting;
+- straightforward definitions;
+- arithmetic with explicit inputs.
 
 But these examples are not in the source.
 
@@ -2117,12 +2125,12 @@ But these examples are not in the source.
 
 A superficially simple task should leave C0 when:
 
-* evidence conflicts;
-* stakes rise;
-* current information is required;
-* scope becomes ambiguous;
-* causal claims appear;
-* action becomes irreversible.
+- evidence conflicts;
+- stakes rise;
+- current information is required;
+- scope becomes ambiguous;
+- causal claims appear;
+- action becomes irreversible.
 
 This is v4.4-compatible.
 
@@ -2416,11 +2424,11 @@ However, DAG structure plus conditional atomic coupling are compatible with it.
 
 If two branches:
 
-* have independent dependency closure;
-* do not share coupled RSCFs;
-* do not conflict;
-* have compatible scope/regime;
-* have acceptable provenance independence;
+- have independent dependency closure;
+- do not share coupled RSCFs;
+- do not conflict;
+- have compatible scope/regime;
+- have acceptable provenance independence;
 
 they may potentially finalize locally in a later implementation.
 
@@ -2760,10 +2768,10 @@ ADVERSARIAL
 
 Tests:
 
-* TaskSpec validity;
-* contract resolution;
-* DAG validity;
-* schema compatibility.
+- TaskSpec validity;
+- contract resolution;
+- DAG validity;
+- schema compatibility.
 
 ---
 
@@ -2771,10 +2779,10 @@ Tests:
 
 Tests:
 
-* claim class;
-* evidence sufficiency;
-* confidence ceiling;
-* unsupported promotion.
+- claim class;
+- evidence sufficiency;
+- confidence ceiling;
+- unsupported promotion.
 
 ---
 
@@ -2782,10 +2790,10 @@ Tests:
 
 Tests:
 
-* source identity;
-* ancestry;
-* correlation;
-* independence.
+- source identity;
+- ancestry;
+- correlation;
+- independence.
 
 ---
 
@@ -2905,8 +2913,8 @@ The source explicitly names the middle epistemic outcomes but not this full orde
 
 These classes represent different uncertainty structures.
 
-* `CONDITIONAL`: one result under stated assumptions.
-* `COMPETING`: multiple unresolved alternatives.
+- `CONDITIONAL`: one result under stated assumptions.
+- `COMPETING`: multiple unresolved alternatives.
 
 Therefore they should not necessarily be represented as one scalar severity ladder.
 
@@ -2923,13 +2931,13 @@ $$
 
 where:
 
-* \(U_e\) = evidence uncertainty;
-* \(U_m\) = model uncertainty;
-* \(U_s\) = scope uncertainty;
-* \(U_t\) = temporal uncertainty;
-* \(U_c\) = causal uncertainty;
-* \(U_x\) = execution uncertainty;
-* \(U_p\) = provenance-independence uncertainty.
+- \(U_e\) = evidence uncertainty;
+- \(U_m\) = model uncertainty;
+- \(U_s\) = scope uncertainty;
+- \(U_t\) = temporal uncertainty;
+- \(U_c\) = causal uncertainty;
+- \(U_x\) = execution uncertainty;
+- \(U_p\) = provenance-independence uncertainty.
 
 This is a lineage augmentation.
 
@@ -3445,13 +3453,13 @@ $$
 
 Auditability can be achieved through:
 
-* claim;
-* evidence;
-* provenance;
-* dependencies;
-* gates;
-* conclusion class;
-* invalidation conditions.
+- claim;
+- evidence;
+- provenance;
+- dependencies;
+- gates;
+- conclusion class;
+- invalidation conditions.
 
 ---
 
@@ -3744,11 +3752,11 @@ No topology is established.
 
 Contracts may represent:
 
-* entire skills;
-* capability functions;
-* workflow nodes;
-* agents;
-* RSCF transformations.
+- entire skills;
+- capability functions;
+- workflow nodes;
+- agents;
+- RSCF transformations.
 
 The source does not disambiguate.
 
@@ -4371,15 +4379,15 @@ This is a DERIVED mathematical compression.
 
 Where:
 
-* `TaskSpec` structures the task;
-* `Route` classifies it;
-* `Contracts` resolves execution interfaces;
-* `DAG` establishes dependencies;
-* `Gate_pre` determines admissibility;
-* `Execute_topo` executes dependency order;
-* `Commit_a` atomically commits coupled RSCFs;
-* `Validate_f` runs final integrity/adversarial checks;
-* `Bound` constrains the returned result.
+- `TaskSpec` structures the task;
+- `Route` classifies it;
+- `Contracts` resolves execution interfaces;
+- `DAG` establishes dependencies;
+- `Gate_pre` determines admissibility;
+- `Execute_topo` executes dependency order;
+- `Commit_a` atomically commits coupled RSCFs;
+- `Validate_f` runs final integrity/adversarial checks;
+- `Bound` constrains the returned result.
 
 ---
 
