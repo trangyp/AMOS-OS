@@ -7,7 +7,7 @@ from pathlib import Path
 import re
 BASE = Path("/Users/mac/Documents/AMOS_OS")
 V = BASE/"06_AGENTS"; S=BASE/"07_SKILLS"; W=BASE/"08_WORKFLOWS"
-D = Path("/Users/mac/Downloads/stitch_project_cosmo/.devin")
+D = BASE/".devin"
 META = re.compile(r'(MOC|README|CONTRACT|INDEX|MAP|AUDIT|MANIFEST|LOG|_MOC|NAMING|RENAME)', re.I)
 
 skills = {d.name:d for d in S.iterdir() if d.is_dir() and not META.search(d.name)}

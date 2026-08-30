@@ -44,7 +44,7 @@ class VaultGraph:
 
     def __init__(self, vault_path: Path, exclude_dirs: set = None):
         self.vault_path = vault_path
-        self.exclude_dirs = exclude_dirs or {".obsidian", ".git", "node_modules"}
+        self.exclude_dirs = exclude_dirs or {".obsidian", ".git", "node_modules", ".gemini", "copilot"}
         self.nodes = {}           # stem -> Path
         self.edges = defaultdict(set)  # src_stem -> set(target_stems)
         self.backlinks = defaultdict(set)  # target_stem -> set(src_stems)
@@ -54,7 +54,7 @@ class VaultGraph:
 
     def _should_exclude(self, path: Path) -> bool:
         parts = path.relative_to(self.vault_path).parts
-        return any(p in self.exclude_dirs for p in parts)
+        return any(p.startswith(".") or p in self.exclude_dirs or ("backup" in p.lower() and "20_OPERATIONS" not in parts) for p in parts)
 
     def _build(self):
         # Collect all markdown files

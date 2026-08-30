@@ -1,0 +1,133 @@
+{
+  "name": "amos-security-safety-master-agent",
+  "display_name": "Security Safety Master",
+  "description": "Master agent for Security Safety Master — Domain consolidation and orchestration.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Coordinate and execute reasoning for Security Safety Master.",
+  "skill_binding": {
+    "primary_skill": "amos-security-safety-master",
+    "skill_path": ".devin/skills/amos-security-safety-master/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "amos-security-safety-master.reason",
+      "description": "Execute domain master reasoning for amos-security-safety-master.",
+      "side_effect": "read"
+    },
+    {
+      "name": "amos-security-safety-master.validate",
+      "description": "Validate claims and enforce validation gates for amos-security-safety-master.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load skill amos-security-safety-master",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify domain query",
+      "gate": "domain_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Apply reasoning kernel",
+      "gate": "epistemic_labeled"
+    },
+    {
+      "step": 4,
+      "action": "Enforce domain gates",
+      "gate": "gates_passed"
+    },
+    {
+      "step": 5,
+      "action": "Format output with provenance",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every derived claim"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP"
+  ],
+  "depends_on_skills": [
+    "amos-security-safety-master"
+  ],
+  "depends_on_workflows": [
+    "amos-security-safety-master-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "core",
+    "risk_tier": "medium",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "implementation": {
+    "type": "json",
+    "file": "amos-security-safety-master-agent.json",
+    "class": null,
+    "executable": false
+  },
+  "content_hash": "b0e23e0972fc1047",
+  "version": "1.0.0",
+  "reasoning_pattern": "ReAct",
+  "termination_criteria": {
+    "max_steps": 10,
+    "max_tokens": 8000,
+    "stop_on_confidence_below": 0.3,
+    "stop_on_critical_gap": true,
+    "stop_on_scope_violation": true,
+    "human_in_the_loop": false
+  },
+  "error_recovery": {
+    "on_timeout": "return partial result with GAP flag",
+    "on_scope_violation": "reject and route to parent",
+    "on_contradiction": "flag CRITICAL_GAP and halt"
+  },
+  "context_management": {
+    "strategy": "progressive_disclosure",
+    "max_context_tokens": 4000,
+    "compaction_threshold": 0.8,
+    "scratchpad_enabled": true
+  },
+  "tags": [
+    "type/agent",
+    "canon/agent",
+    "epistemic/amos_model",
+    "amos_os"
+  ],
+  "origin_architect": "Trang Phan",
+  "rscf_state": "SOURCE_CLAIM",
+  "hml_level": "M",
+  "gmef_gates": [
+    "L0_integrity",
+    "L1_epistemic",
+    "L2_provenance",
+    "L5_scope"
+  ],
+  "law_compliance": [
+    "L0",
+    "L1",
+    "L2",
+    "L4",
+    "L5"
+  ]
+}
