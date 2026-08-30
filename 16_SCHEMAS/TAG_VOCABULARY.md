@@ -502,3 +502,21 @@ NOTE: tags-list `type/*` namespace holds only 3 values (skill/workflow/reference
 and is a SEPARATE, sparsely-populated encoding from the rich `type:` property;
 flagged for later decision, not touched here to preserve intent.
 backup scripts/.tagmigrate10-backup-* (pruned to the 29 real backups).
+
+### Broken-wikilink repair (2026-08-30) — Pass 11
+Authoritative scan (scripts/broken links) of real .md notes: 27 distinct broken
+wikilink targets / 39 instances. Repaired 2 unambiguously-rewritable links:
+- [[TRANG_LMH]] -> [[TRANG_LMH_ARCHITECTURE]] (x2 in TRANG_L_M_H_DINH_NGHIA_VA_PHUONG_TRINH.md; Target exists 11_KNOWLEDGE/05_FRAMEWORKS/)
+- [[AMOS_FULL_BRAIN_OS]] -> [[AMOS_FULL_BRAIN_OS_ARCHITECTURE]] (x1, in Trang relation tables)
+Broken set now 25 targets / 35 instances.
+FAIL-CLOSED justification for the remaining 25 (NOT auto-fixed):
+- 19x ASEA sub-concept links (ASEA_MUTATION/SURVIVAL/T2/L/M/H/RECOVERY/...) -> no individual
+  notes exist; only parent ASEA_ADAPTIVE_SELF_EVOLUTION_AI.md. Rewriting loses concept intent,
+  stubbing is unwarranted authoring => needs human decision (create sub-notes vs point to parent).
+- 1x K_CAUSAL_FIREWALL -> real note is generic stubs/causal_firewall.md; "K_" implies K-kernel
+  variant, not exact match => ambiguous.
+- 5x non-note artifacts: inline JSON regex hit (AGENTSKILLS_*.md), [[...]]/[[...]] marks
+  (LLM_WIKI_LOG, TAG_VOCABULARY), scraped Home-Assistant titles (ZIMA_TOP10_*.md), malformed
+  [[00_HOME`/`[[AMOS_RSCF_NODES]] (INDEX_MODELS_MODEL_CONTRACT.md) => NOT Obsidian note links;
+  editing would corrupt source content.
+backup scripts/.tagmigrate11-backup-*.
