@@ -419,7 +419,7 @@
       "amos-cost-aware-test-supervision-rscf",
       "amos-distinction-relation-transformation",
       "amos-full-brain-os",
-      "amos-super-engines-master",
+      "amos-engines-master",
       "amos-transformation-quest-engine"
     ],
     "trang": [
@@ -781,7 +781,7 @@
       "amos-security-control-access-bridge-governor",
       "amos-semantic-token-flow-firewall-rscf"
     ],
-    "amos-super-engines-master": [
+    "amos-engines-master": [
       "amos-cost-aware-test-supervision-rscf",
       "amos-distinction-relation-transformation",
       "amos-full-brain-os",
@@ -3608,7 +3608,7 @@
       "title": "SKILL — Amos Cost Aware Test Supervision Rscf",
       "description": "Cost Aware Test Supervision — super engines capability. Use when super-engine",
       "domain": "super",
-      "parent_skill": "amos-super-engines-master",
+      "parent_skill": "amos-engines-master",
       "epistemic_class": "SOURCE_CLAIM",
       "version": "1.1.0",
       "origin_architect": "Trang Phan",
@@ -4030,7 +4030,7 @@
       "title": "SKILL — Amos Distinction Relation Transformation",
       "description": "Distinction Relation Transformation — super engines capability. Use when",
       "domain": "super",
-      "parent_skill": "amos-super-engines-master",
+      "parent_skill": "amos-engines-master",
       "epistemic_class": "SOURCE_CLAIM",
       "version": "1.1.0",
       "origin_architect": "Trang Phan",
@@ -4703,7 +4703,7 @@
       "title": "SKILL — Amos Full Brain Os",
       "description": "Full Brain Os — super engines capability. Use when super-engine reasoning,",
       "domain": "super",
-      "parent_skill": "amos-super-engines-master",
+      "parent_skill": "amos-engines-master",
       "epistemic_class": "SOURCE_CLAIM",
       "version": "1.1.0",
       "origin_architect": "Trang Phan",
@@ -8499,7 +8499,7 @@
       ]
     },
     {
-      "name": "amos-super-engines-master",
+      "name": "amos-engines-master",
       "title": "SKILL — Amos Super Engines Master",
       "description": "AMOS Super Engines — Super Mind OS, Omega Infinity Stack, ultra/mega/infinity",
       "domain": "super",
@@ -8507,7 +8507,7 @@
       "epistemic_class": "SOURCE_CANON",
       "version": "1.1.0",
       "origin_architect": "Trang Phan",
-      "path": "amos-super-engines-master",
+      "path": "amos-engines-master",
       "section_count": 18,
       "capability_count": 66,
       "file_count": 42,
@@ -8902,7 +8902,7 @@
       "title": "SKILL — Amos Transformation Quest Engine",
       "description": "Transformation Quest Engine — super engines capability. Use when super-engine",
       "domain": "super",
-      "parent_skill": "amos-super-engines-master",
+      "parent_skill": "amos-engines-master",
       "epistemic_class": "SOURCE_CLAIM",
       "version": "1.1.0",
       "origin_architect": "Trang Phan",

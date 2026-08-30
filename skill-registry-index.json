@@ -8535,7 +8535,7 @@
       "description": "Cost Aware Test Supervision — super engines capability. Use when super-engine",
       "version": "1.1.0",
       "domain": "super",
-      "parent_skill": "amos-super-engines-master",
+      "parent_skill": "amos-engines-master",
       "epistemic_class": "SOURCE_CLAIM",
       "origin_architect": "Trang Phan",
       "tags": "",
@@ -9487,7 +9487,7 @@
       "description": "Distinction Relation Transformation — super engines capability. Use when",
       "version": "1.1.0",
       "domain": "super",
-      "parent_skill": "amos-super-engines-master",
+      "parent_skill": "amos-engines-master",
       "epistemic_class": "SOURCE_CLAIM",
       "origin_architect": "Trang Phan",
       "tags": "",
@@ -11163,7 +11163,7 @@
       "description": "Full Brain Os — super engines capability. Use when super-engine reasoning,",
       "version": "1.1.0",
       "domain": "super",
-      "parent_skill": "amos-super-engines-master",
+      "parent_skill": "amos-engines-master",
       "epistemic_class": "SOURCE_CLAIM",
       "origin_architect": "Trang Phan",
       "tags": "",
@@ -20293,7 +20293,7 @@
       "manifest_version": "1.1.0"
     },
     {
-      "name": "amos-super-engines-master",
+      "name": "amos-engines-master",
       "title": "SKILL — Amos Super Engines Master",
       "description": "AMOS Super Engines — Super Mind OS, Omega Infinity Stack, ultra/mega/infinity",
       "version": "1.1.0",
@@ -20327,7 +20327,7 @@
           "sha256": "926d368ae4045d3d445fc33d701fd89b44825cafc8cab3758f8f6f2cd36f23a5"
         },
         {
-          "path": "amos-super-engines-master_MOC.md",
+          "path": "amos-engines-master_MOC.md",
           "size": 600,
           "sha256": "9be68dba630ae3b1a75b0b7a5b1bf6b5bb76d47a51f4b7717f8dadbaecd2838b"
         },
@@ -21502,7 +21502,7 @@
       "description": "Transformation Quest Engine — super engines capability. Use when super-engine",
       "version": "1.1.0",
       "domain": "super",
-      "parent_skill": "amos-super-engines-master",
+      "parent_skill": "amos-engines-master",
       "epistemic_class": "SOURCE_CLAIM",
       "origin_architect": "Trang Phan",
       "tags": "",
@@ -27063,7 +27063,7 @@
       "amos-cost-aware-test-supervision-rscf",
       "amos-distinction-relation-transformation",
       "amos-full-brain-os",
-      "amos-super-engines-master",
+      "amos-engines-master",
       "amos-transformation-quest-engine"
     ],
     "cross-domain": [

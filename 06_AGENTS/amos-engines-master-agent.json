@@ -1,7 +1,7 @@
 {
-  "name": "amos-super-engines-agent",
-  "display_name": "AMOS Super Engines",
-  "description": "AMOS Super Engines — Super Mind OS, Omega Infinity Stack, ultra/mega/infinity engine variants. Cognition + Emotion + Consciousness triad. Use for super-engine reasoning, consciousness emulation, or",
+  "name": "amos-engines-master-agent",
+  "display_name": "AMOS Engines Master",
+  "description": "AMOS Engines Master — Super Mind OS, Omega Infinity Stack, ultra/mega/infinity engine variants. Cognition + Emotion + Consciousness triad. Use for super-engine reasoning, consciousness emulation, or",
   "author": "Trang Phan",
   "steward": "Trang Phan",
   "system": "AMOS_OS",
@@ -129,7 +129,7 @@
   },
   "implementation": {
     "type": "json",
-    "file": "amos-super-engines-agent.json",
+    "file": "amos-engines-master-agent.json",
     "class": null,
     "executable": true
   },

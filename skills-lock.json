@@ -5990,7 +5990,7 @@
       "total_size_bytes": 33750,
       "version": "1.1.0"
     },
-    "amos-super-engines-master": {
+    "amos-engines-master": {
       "file_count": 44,
       "file_hashes": {
         "AGENT_TEMPLATE.md": "c8695f8cbe10054ef14e95a4f3f8f685516d44ca1480d096f1d0da9d76576633",
@@ -6038,7 +6038,7 @@
         "scripts/hooks/stop.py": "9972920da7710ffb31c6ac4550ee393ffddd915c7ba223c159d78486ce696a47",
         "scripts/validate.py": "f6f4975b8222d4de7b4f421e6bba16a82979af5cf44fb61412fa8e4371f63e15"
       },
-      "name": "amos-super-engines-master",
+      "name": "amos-engines-master",
       "schema_version": 1.0,
       "skill_digest": "sha256-KM3UZYNSa_6moQ_k5vWXKkZMhicautqarbYpe50DJSo",
       "skill_md_hash": "7965d6cf6be84de2459e329ae8b623cf75ecc049877efdae282fadc2f1855a04",
