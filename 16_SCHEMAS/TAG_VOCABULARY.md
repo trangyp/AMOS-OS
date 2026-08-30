@@ -534,6 +534,6 @@ real-note target (no canon invented):
 - 1x K_CAUSAL_FIREWALL (25_COGNITIVE_MATRIX) -> [[K_CAUSAL_CLOSURE]] (real K-kernel embodying the
   causal-boundary/firewall semantics; K_ prefix = kernel naming).
 Result: 0 broken targets in maintained notes. Remaining rescan hits are 6 scraped-content artifacts
-in LLM_WIKI/raw|wiki (json JSON [[...]] migrations-css noise, .devin path refs, scraped article/
+in LLM_WIKI/raw|wiki (json JSON \[\[...\]\] migrations-css noise, .devin path refs, scraped article/
 spec titles) that are NOT Obsidian note links.
 backup scripts/.tagmigrate14-backup-*.
