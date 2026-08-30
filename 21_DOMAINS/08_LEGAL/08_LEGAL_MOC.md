@@ -33,7 +33,7 @@ rscf:
 - [[LEGAL_DOMAINS_INTERFACES]]
 - [[LEGAL_DOMAINS_PROVENANCE]]
 - [[LEGAL_DOMAINS_README]]
-- [[VN_LEGAL_ENGINE]]
+- [[vn_legal_engine]]
 
 ## Subdirectories
 

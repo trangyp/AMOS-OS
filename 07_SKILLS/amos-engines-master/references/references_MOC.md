@@ -71,7 +71,7 @@ type: moc
 - [[omega_advanced_intelligence]]
 - [[omega_maximum_enhancement]]
 - [[omega_state_of_the_art]]
-- [[super_consciousness_engine]]
+- [[SUPER_CONSCIOUSNESS_ENGINE]]
 - [[super_consciousness_engine_max]]
 - [[super_engine_omni_x1000]]
 - [[super_engine_v1]]

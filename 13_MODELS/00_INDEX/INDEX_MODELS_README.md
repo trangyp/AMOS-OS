@@ -2754,7 +2754,7 @@ CREATE / GUESS TARGET
 Request:
 
 ```text
-[[MODEL_A
+MODEL_A
 ```
 
 Correct:

@@ -87,7 +87,7 @@ It catalogs verifiable proof capsules governing system lifecycle state variables
 
 - **RSCF MOC:** [[03_RSCF_MOC]]
 - **TSS Master:** [[TSS_THE_TRANG_SYSTEM]]
-- **TPE Master:** [[TPE_TRANG_PREDICTION_ENGINE]]
+- **TPE Master:** [[tpe_trang_prediction_engine]]
 - **Cognitive Matrix:** [[AMOS_X_TSS_TPE_MATRIX]]
 
 ---
@@ -112,7 +112,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[03_RSCF_MOC]] · [[TSS_THE_TRANG_SYSTEM]] · [[TPE_TRANG_PREDICTION_ENGINE]] · [[AMOS_X_TSS_TPE_MATRIX]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[03_RSCF_MOC]] · [[TSS_THE_TRANG_SYSTEM]] · [[tpe_trang_prediction_engine]] · [[AMOS_X_TSS_TPE_MATRIX]]
 
 ---
 **MOC:** [[03_RSCF_MOC]]

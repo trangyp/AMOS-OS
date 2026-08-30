@@ -125,7 +125,7 @@ rscf:
 - [[architecture_moc]] — `architecture` (Architecture specifications)
 - [[audit_moc]] — `audit` (System integrity and audit reports)
 - [[biology-ubi_moc]] — `biology-ubi` (Unified Biological Intelligence canon)
-- [[brain_moc]] — `brain` (Cosmo brain & cognitive modules)
+- [[brain_MOC]] — `brain` (Cosmo brain & cognitive modules)
 - [[canon_moc]] — `canon` (Core canonical law & axioms)
 - [[cognitive_moc]] — `cognitive` (Cognitive layers L00–L29)
 - [[control_moc]] — `control` (Control planes & authority gates)

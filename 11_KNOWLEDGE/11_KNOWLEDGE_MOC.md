@@ -29,5 +29,6 @@ Master Map of Content for Plane 11 (Knowledge), containing 47 domain sub-planes,
 - [[06-Knowledge-Base-MOC]] — Knowledge base documentation redirect
 
 ## Related
-- [[_MOC]] · [[25_COGNITIVE_MATRIX_MOC]] · [[00_HOME]]
+- [[00_HOME]] · [[00_ROOT_MOC]] · [[01_CANON_MOC]] · [[02_KERNEL_MOC]] · [[07_SKILLS_MOC]] · [[08_WORKFLOWS_MOC]] · [[25_COGNITIVE_MATRIX_MOC]] · [[_MOC]]
+
 

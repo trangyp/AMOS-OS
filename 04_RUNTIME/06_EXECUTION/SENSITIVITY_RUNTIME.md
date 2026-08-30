@@ -77,7 +77,7 @@ $$S_{jk} = \frac{\partial \text{Output}_j}{\partial \text{Param}_k} \cdot \frac{
 
 - **Execution MOC:** 04_RUNTIME/06_EXECUTION/[[06_EXECUTION_MOC]]
 - **TSS Framework:** 11_KNOWLEDGE/05_FRAMEWORKS/[[TSS_THE_TRANG_SYSTEM]]
-- **TPE Engine:** 11_KNOWLEDGE/05_FRAMEWORKS/[[TPE_TRANG_PREDICTION_ENGINE]]
+- **TPE Engine:** 11_KNOWLEDGE/05_FRAMEWORKS/[[tpe_trang_prediction_engine]]
 
 ---
 

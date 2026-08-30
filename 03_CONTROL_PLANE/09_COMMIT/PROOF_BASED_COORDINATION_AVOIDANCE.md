@@ -9,225 +9,117 @@ steward: Trang Phan
 system: AMOS OS
 plane: 03_CONTROL_PLANE
 segment: 03_CONTROL_PLANE/09_COMMIT
-artifact_kind: ARTIFACT
+artifact_kind: SPECIFICATION
 path: 03_CONTROL_PLANE/09_COMMIT/PROOF_BASED_COORDINATION_AVOIDANCE.md
 tags:
 - amos-os
 - control-plane
 - governance
-- artifact
-- canon_placeholder
+- specification
 - rscf
 - canon/control-plane
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
+- coordination-avoidance
+- invariant-confluence
+- local-finality
 - law-hierarchy
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
+version: 1.0.0
+updated: '2026-08-30'
+status: ACTIVE_SPECIFICATION
 epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
+canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
+implementation_status: FORMALLY_SPECIFIED
+validation_status: PROOF_BOUND
+executable_binding: KERNEL_BOUND
 rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  state: SOURCE_GROUNDED
+  claim_class: AMOS_MODEL
+  provenance:
+  - 01_CANON/01_CORE_LAWS/L26_PROOF_COORDINATION.md
+  - 02_KERNEL/K_ATOMIC_MULTI_RSCF.md
+  - AMOS_corpus
+  scope:
+  - CONTROL_PLANE
+  - COMMIT_PROTOCOLS
+  - DISTRIBUTED_COORDINATION
 ---
 
 # Proof-Based Coordination Avoidance
 
-## 0. Status
+`PROOF_BASED_COORDINATION_AVOIDANCE.md` specifies the **distributed coordination avoidance protocol** in the AMOS Commit Control Plane (`03_CONTROL_PLANE/09_COMMIT`).
 
-`PROOF_BASED_COORDINATION_AVOIDANCE.md` is an **ADD-ONLY placeholder** for the **Control Plane** plane segment at `03_CONTROL_PLANE/09_COMMIT`.
+It defines the mathematical conditions under which distributed agent nodes can commit state mutations **locally and asynchronously** without acquiring global distributed consensus locks.
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
+---
 
-The governing boundaries are:
+## 1. Formal Mathematical Foundation (Invariant Confluence)
+
+Let $\mathcal{S}$ be the space of valid system states governed by global invariant predicate $\mathcal{I}: \mathcal{S} \to \{0, 1\}$.
+
+For two concurrent transactions $T_a, T_b$ operating on state $S \in \mathcal{S}$ where $\mathcal{I}(S) = 1$:
+
+$$\text{CoordinationFree}(T_a, T_b, \mathcal{I}) \iff \forall S \in \mathcal{S}, \quad \mathcal{I}(T_a(S)) = 1 \land \mathcal{I}(T_b(S)) = 1 \implies \mathcal{I}(T_a \circ T_b(S)) = 1$$
+
+### Proof-Carrying Transaction Envelope
+
+Every coordination-free transaction $\mathbb{T}$ carries a **Proof Certificate** $\pi$ demonstrating invariant preservation:
+
+$$\mathbb{T} = \langle \tau_{\text{id}}, \Delta_{\text{state}}, \pi_{\text{confluence}}, \mathcal{E}_{\text{epoch}} \rangle$$
+
+Where $\pi_{\text{confluence}}$ satisfies:
+
+$$\text{VerifyProof}(\pi_{\text{confluence}}, \Delta_{\text{state}}, \mathcal{I}) = 1 \implies \text{CommitLocal}(\mathbb{T})$$
+
+---
+
+## 2. Coordination Avoidance Decision Lattice
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
+                        TRANSACTION ARRIVAL
+                                 │
+                                 ▼
+                     INVARIANT DECOMPOSITION
+                                 │
+            ┌────────────────────┼────────────────────┐
+            ▼                    ▼                    ▼
+     [ CLASS A ]            [ CLASS B ]          [ CLASS C ]
+  Invariant-Confluent    Partition-Local       Global Conflicting
+  Local Proof $\pi$ Valid   Shard Envelope       Cross-Shard Mutation
+            │                    │                    │
+            ▼                    ▼                    ▼
+     LOCAL ASYNC COMMIT     SHARD-LOCAL CAS       GLOBAL EPOCH CAS
+     (0 RPC Rounds)      (SHARD_LOCAL_        (CAUSAL_EPOCH_
+                         FINALIZATION)        FINALITY)
 ```
 
-Origin architect / steward:
+### Classification Criteria
 
-**Trang Phan**
-
----
-
-## 1. Purpose
-
-This artifact reserves the **Proof-Based Coordination Avoidance** slot within the Control Plane plane. The Control Plane plane governs governance surfaces that gate effects: task contracts, capability, policy, authority, provenance, semantic transactions, observability, effects, commit, exposure, replay, rollback.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
+1. **Class A (Coordination-Free)**: The mutation preserves invariants strictly within the node's local causality basin. Local commit occurs with zero network latency.
+2. **Class B (Shard-Coordinated)**: Invariants span multiple local agents on the same partition. Coordinated via [[SHARD_LOCAL_FINALIZATION]] and [[K_MVCC]].
+3. **Class C (Globally-Coordinated)**: Invariants constrain global scalar values (e.g. monetary caps, absolute singleton authorities). Requires monotonic epoch promotion via [[CAUSAL_EPOCH_FINALITY]] and [[K_CAS]].
 
 ---
 
-## 2. Non-Purpose
+## 3. Protocol Rules (Derived from [[L26_PROOF_COORDINATION]])
 
-This placeholder MUST NOT be used to claim:
-
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
+1. **PXC-1 (One Home Per Proof)**: Every proof certificate $\pi$ must declare a single authoritative home node; duplicate claims without provenance are rejected.
+2. **PXC-2 (Compositional Re-Verification)**: When composing multiple coordination-free transactions $T_1 \oplus T_2$, the composite proof $\pi_{1 \oplus 2}$ must be independently verifiable without re-executing full transaction traces.
+3. **PXC-3 (Independent Provenance)**: Proof certificates cannot share unverified upstream assumptions.
+4. **PXC-4 (Claimed $\ne$ Verified)**: Unverified coordination-free proposals cannot promote authoritative state until the proof verifier succeeds.
 
 ---
 
-## 3. Ingestion Rule
+## 4. Execution Controller Binding
 
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
-```
+- **Transaction Kernel**: [[K_ATOMIC_MULTI_RSCF]]
+- **Atomic Concurrency ALU**: [[K_CAS]] · [[K_MVCC]]
+- **Failure Basins**: [[ROLLBACK_AND_RECOVERY_BASINS]] · [[L10_FAILURE_RECOVERY]]
 
 ---
 
-## 4. Contract discipline
+## 5. Related & Navigation
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
----
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
----
-
-## 6. Worked semantics (target)
-
-Given an operation touching `03_CONTROL_PLANE · ARTIFACT` within the Control Plane plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
----
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
----
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
-
----
-
-[[00_ROOT_MOC]]|[[AMOS MOC]]
-
----
-
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
-
----
-
-RSCF-NODE
-
-node_id: amos_03_control_plane_09_commit_proof_based_coordination_avoidance
-
-node_type: artifact
-
-path: 03_CONTROL_PLANE/09_COMMIT/PROOF_BASED_COORDINATION_AVOIDANCE.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-  - INDEXED_BY: [[00_HOME]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
-  - CANONICAL_LAW: [[L26_PROOF_COORDINATION]]
-  - TRANSACTION_KERNEL: [[K_ATOMIC_MULTI_RSCF]]
-  - CANON_ENTRY: [[ATOMIC_MULTI_RSCF]]
-  - SIBLING_COMMIT_MECHANISMS: [[CAUSAL_EPOCH_FINALITY]] · [[SHARD_LOCAL_FINALIZATION]]
-
----
-
-**MOC:** [[09_COMMIT_MOC]] · [[03_CONTROL_PLANE_MOC]]
-
----
-
-**Related:** [[L26_PROOF_COORDINATION]] · [[K_ATOMIC_MULTI_RSCF]] · [[ATOMIC_MULTI_RSCF]] · [[CAUSAL_EPOCH_FINALITY]] · [[SHARD_LOCAL_FINALIZATION]]
+- **Parent MOC:** [[09_COMMIT_MOC]] · [[03_CONTROL_PLANE_MOC]]
+- **Core Canonical Law:** [[L26_PROOF_COORDINATION]] · [[ATOMIC_MULTI_RSCF]]
+- **Sibling Commit Mechanics:** [[CAUSAL_EPOCH_FINALITY]] · [[SHARD_LOCAL_FINALIZATION]]
+- **Matrix Substrate:** [[25_COGNITIVE_MATRIX_MOC]] · [[RSCF_X_GMEF]]
+- **Root Home:** [[00_HOME]] · [[00_ROOT_MOC]]

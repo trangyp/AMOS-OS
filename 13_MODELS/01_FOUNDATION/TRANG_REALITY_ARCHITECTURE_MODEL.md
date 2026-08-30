@@ -5963,7 +5963,7 @@ RSCF-NODE:
   provenance:
     - AMOS_corpus
     - [[TRANG_REALITY_ARCHITECTURE]]
-    - [[KHUNG_TRANG]]
+    - [[khung_trang]]
     - [[TRANG_ZERO_FRAMEWORK]]
     - AMOS_UNIVERSAL_FIELD_ARCHITECTURE
     - AMOS_UNIFIED_MASTER

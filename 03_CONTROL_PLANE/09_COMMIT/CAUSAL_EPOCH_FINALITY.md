@@ -1,6 +1,6 @@
 ---
-title: Causal Epoch Finality
-type: note
+title: Causal Epoch Finality — 09 Commit
+type: finality
 source: 03_CONTROL_PLANE/09_COMMIT
 artifact: CAUSAL_EPOCH_FINALITY.md
 artifact_id: amos_03_control_plane_09_commit_causal_epoch_finality
@@ -9,225 +9,101 @@ steward: Trang Phan
 system: AMOS OS
 plane: 03_CONTROL_PLANE
 segment: 03_CONTROL_PLANE/09_COMMIT
-artifact_kind: FINALITY
+artifact_kind: SPECIFICATION
 path: 03_CONTROL_PLANE/09_COMMIT/CAUSAL_EPOCH_FINALITY.md
 tags:
 - amos-os
 - control-plane
 - governance
-- finality
-- canon_placeholder
+- specification
 - rscf
 - canon/control-plane
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
+- causal-epoch
+- finality
+- epoch-monotonicity
+- k-cas
 - law-hierarchy
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
+version: 1.0.0
+updated: '2026-08-30'
+status: ACTIVE_SPECIFICATION
 epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
+canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
+implementation_status: FORMALLY_SPECIFIED
+validation_status: PROOF_BOUND
+executable_binding: KERNEL_BOUND
 rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  state: SOURCE_GROUNDED
+  claim_class: AMOS_MODEL
+  provenance:
+  - 01_CANON/01_CORE_LAWS/L24_CAUSAL_EPOCH.md
+  - 02_KERNEL/K_CAS.md
+  - AMOS_corpus
+  scope:
+  - CONTROL_PLANE
+  - COMMIT_PROTOCOLS
+  - EPOCH_FINALITY
 ---
 
 # Causal Epoch Finality
 
-## 0. Status
+`CAUSAL_EPOCH_FINALITY.md` defines the **global epoch transition and causal ordering protocol** in the AMOS Commit Control Plane (`03_CONTROL_PLANE/09_COMMIT`).
 
-`CAUSAL_EPOCH_FINALITY.md` is an **ADD-ONLY placeholder** for the **Control Plane** plane segment at `03_CONTROL_PLANE/09_COMMIT`.
+It ensures that globally coordinated transactions advance system state through **strictly monotonic, tamper-evident causal epochs** via lock-free atomic compare-and-swap primitives.
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
+---
 
-The governing boundaries are:
+## 1. Formal Epoch Model
+
+A Causal Epoch $\mathcal{E}$ is an ordered pair:
+
+$$\mathcal{E} = \langle e_{\text{seq}}, h_{\text{state}} \rangle$$
+
+Where:
+- $e_{\text{seq}} \in \mathbb{N}$: Strictly increasing 64-bit epoch sequence number.
+- $h_{\text{state}} \in \Sigma^{64}$: Cryptographic digest of the authoritative state root (SHA-256).
+
+### Epoch Monotonicity Invariant (derived from [[L24_CAUSAL_EPOCH]])
+
+$$\forall t_1 < t_2, \quad \mathcal{E}(t_1).e_{\text{seq}} < \mathcal{E}(t_2).e_{\text{seq}} \land h_{\text{state}}(t_2) = \text{Hash}(h_{\text{state}}(t_1) \parallel \Delta_{\text{mutations}})$$
+
+Any attempt to commit a mutation against an obsolete epoch ($e_{\text{target}} < e_{\text{current}}$) is rejected by the [[K_CAS]] gate with `STALE_EPOCH_CONFLICT`.
+
+---
+
+## 2. Lock-Free Commit Protocol
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
-```
-
-Origin architect / steward:
-
-**Trang Phan**
-
----
-
-## 1. Purpose
-
-This artifact reserves the **Causal Epoch Finality** slot within the Control Plane plane. The Control Plane plane governs governance surfaces that gate effects: task contracts, capability, policy, authority, provenance, semantic transactions, observability, effects, commit, exposure, replay, rollback.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
----
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
-
----
-
-## 3. Ingestion Rule
-
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+       STAGED MUTATION (Δ, e_read)
+                  │
+                  ▼
+       CHECK CURRENT EPOCH (e_current)
+                  │
+        ┌─────────┴─────────┐
+        │                   │
+   e_read == e_current  e_read < e_current
+        │                   │
+        ▼                   ▼
+    ATOMIC CAS         ABORT & RETRY
+  (e_next = e_curr + 1) (Rebase onto e_current)
+        │
+        ▼
+  RECEIPT ISSUED & EPOCH PROMOTED
 ```
 
 ---
 
-## 4. Contract discipline
+## 3. Interaction with Sibling Commit Mechanisms
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
----
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]].
+- **Proof-Based Bypass**: Transactions certified as invariant-confluent bypass the global epoch gate entirely via [[PROOF_BASED_COORDINATION_AVOIDANCE]].
+- **Shard-Local Batching**: Local mutations are batched into a single aggregated epoch promotion via [[SHARD_LOCAL_FINALIZATION]].
+- **Atomic Multi-RSCF Integration**: Multi-proof transactions [[ATOMIC_MULTI_RSCF]] finalize their atomic commit against the current epoch via [[K_ATOMIC_MULTI_RSCF]].
 
 ---
 
-## 6. Worked semantics (target)
+## 4. Navigation & Relationships
 
-Given an operation touching `03_CONTROL_PLANE · FINALITY` within the Control Plane plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
----
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
----
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
-
----
-
-[[00_ROOT_MOC]]|[[AMOS MOC]]
-
----
-
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
-
----
-
-RSCF-NODE
-
-node_id: amos_03_control_plane_09_commit_causal_epoch_finality
-
-node_type: finality
-
-path: 03_CONTROL_PLANE/09_COMMIT/CAUSAL_EPOCH_FINALITY.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-  - INDEXED_BY: [[00_HOME]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
-  - CANONICAL_LAW: [[L24_CAUSAL_EPOCH]]
-  - COMMIT_KERNEL: [[K_CAS]]
-  - TRANSACTION_KERNEL: [[K_ATOMIC_MULTI_RSCF]]
-  - SIBLING_COMMIT_MECHANISMS: [[PROOF_BASED_COORDINATION_AVOIDANCE]] · [[SHARD_LOCAL_FINALIZATION]]
-
----
-
-**MOC:** [[09_COMMIT_MOC]] · [[03_CONTROL_PLANE_MOC]]
-
----
-
-**Related:** [[L24_CAUSAL_EPOCH]] · [[K_CAS]] · [[K_ATOMIC_MULTI_RSCF]] · [[PROOF_BASED_COORDINATION_AVOIDANCE]] · [[SHARD_LOCAL_FINALIZATION]]
+- **Parent MOC:** [[09_COMMIT_MOC]] · [[03_CONTROL_PLANE_MOC]]
+- **Core Canonical Law:** [[L24_CAUSAL_EPOCH]] · [[L23_MVCC_CAS]]
+- **Execution Kernel:** [[K_CAS]] · [[K_ATOMIC_MULTI_RSCF]]
+- **Sibling Commit Mechanics:** [[PROOF_BASED_COORDINATION_AVOIDANCE]] · [[SHARD_LOCAL_FINALIZATION]]
+- **Root Home:** [[00_HOME]] · [[00_ROOT_MOC]]

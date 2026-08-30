@@ -2536,7 +2536,7 @@ Possible:
 ```text
 MASTER SOURCE
 ├── AMOS_COGNITION
-└── [[KHUNG_TRANG]] [[ARCHITECTURE]]
+└── [[khung_trang]] [[ARCHITECTURE]]
 ```
 
 or other shared lineage cannot be excluded merely from duplication across files.

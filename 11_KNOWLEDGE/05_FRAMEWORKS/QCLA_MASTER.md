@@ -113,7 +113,7 @@ QCLA MODEL != EMPIRICAL CAUSAL TRUTH
 
 - **Cognitive Matrix:** [[AMOS_X_QCLA]] and [[AMOS_X_QLS_QCLA_MATRIX]]
 - **Logic Scaffold:** [[QLS_FRAMEWORK]]
-- **Prediction Engine:** [[TPE_TRANG_PREDICTION_ENGINE]]
+- **Prediction Engine:** [[tpe_trang_prediction_engine]]
 - **Native Sources:** `11_KNOWLEDGE/quantum/QUANTUM_CAUSALITY_LAYER_ARCHITECTURE_QCLA_OFF`
 
 ---

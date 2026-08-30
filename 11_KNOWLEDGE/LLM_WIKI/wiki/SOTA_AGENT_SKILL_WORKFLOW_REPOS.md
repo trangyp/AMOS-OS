@@ -23,7 +23,7 @@ tags:
 # SOTA Agent Skill / Workflow / Orchestration Repositories
 
 **Epistemic class:** `DERIVED`  
-**Raw source:** [[11_KNOWLEDGE/LLM_WIKI/raw/SOTA_AGENT_SKILL_WORKFLOW_REPOS_2026_08_25]]
+**Raw source:** [[SOTA_AGENT_SKILL_WORKFLOW_REPOS_2026_08_25]]
 
 ## Top pick for skill security / registry hardening
 
@@ -68,7 +68,7 @@ The strongest near-term integration path is:
 **Confidence ceiling:** 0.85 (derived from README claims and star counts, not empirical benchmarks).
 
 ---
-**MOC:** [[11_KNOWLEDGE/LLM_WIKI/LLM_WIKI_MOC]]
+**MOC:** [[LLM_WIKI_MOC]]
 
 ## 2026-08-29 update
 
@@ -100,7 +100,7 @@ Follow-up scan expanded the candidate pool with five additional high-value repos
 3. **ORPHEUS** to benchmark AMOS workflow contracts and markdown-first orchestration.
 4. **agent-skill-registry** / **agent-skills-registry** for vocabulary and bundle standards.
 
-Raw capture: [[11_KNOWLEDGE/LLM_WIKI/raw/SOTA_AGENT_SKILL_WORKFLOW_REPOS_2026_08_29]]
+Raw capture: [[SOTA_AGENT_SKILL_WORKFLOW_REPOS_2026_08_29]]
 
 **Confidence ceiling:** 0.80 (derived from README claims; not independently benchmarked).
 
@@ -148,7 +148,7 @@ Read the `main` branch README of `zjunlp/SkillNet` and mapped it to AMOS operati
 
 Clone a small SkillNet skill (e.g., a `pdf` or `rag` skill) and run the AMOS `skill-check` + `skill_rscf_canonicalizer` pipeline on it as an end-to-end ingestion trial.
 
-Raw source: [[11_KNOWLEDGE/LLM_WIKI/raw/SKILLNET_README_2026_08_29]]
+Raw source: [[SKILLNET_README_2026_08_29]]
 
 ## 2026-08-29 | ORPHEUS deep-dive
 
@@ -192,7 +192,7 @@ Read the `main` branch README of `nuryslyrt/ORPHEUS` and mapped it to AMOS opera
 
 Clone `nuryslyrt/ORPHEUS`, inspect the `skill/` directory structure, and compare one generated `.orpheus/` system to an AMOS workflow to see if any contract/role patterns should be imported.
 
-Raw source: [[11_KNOWLEDGE/LLM_WIKI/raw/ORPHEUS_README_2026_08_29]]
+Raw source: [[ORPHEUS_README_2026_08_29]]
 
 ## 2026-08-29 | SkillOpt deep-dive
 
@@ -234,7 +234,7 @@ Read the `main` branch README of `microsoft/SkillOpt` and mapped it to AMOS skil
 
 Install `skillopt` in a sandbox, run a built-in benchmark on one AMOS skill (e.g., `amos-llm-wiki`), and compare the `best_skill.md` output to the current `SKILL.md` to see if validation-gated evolution improves SOTA score.
 
-Raw source: [[11_KNOWLEDGE/LLM_WIKI/raw/SKILLOPT_README_2026_08_29]]
+Raw source: [[SKILLOPT_README_2026_08_29]]
 
 ## 2026-08-29 | SkillFlow deep-dive
 
@@ -280,7 +280,7 @@ Read the `main` branch README of `linxuhao/SkillFlow` and mapped it to AMOS work
 
 Install `skillflow-py` in a sandbox, convert one AMOS workflow (e.g., `amos-skill-builder-workflow.md`) into a SkillFlow YAML, and run `skillflow-lint` to see how much of the AMOS workflow contract can be expressed in SkillFlow's DAG schema.
 
-Raw source: [[11_KNOWLEDGE/LLM_WIKI/raw/SKILLFLOW_README_2026_08_29]]
+Raw source: [[SKILLFLOW_README_2026_08_29]]
 
 ## 2026-08-29 | AgentFactory deep-dive
 
@@ -324,7 +324,7 @@ Read the `master` branch README of `zzatpku/AgentFactory` and mapped it to AMOS 
 
 Clone `zzatpku/AgentFactory` and inspect `prompt4cc.txt` and a saved `SKILL.md` to compare the AgentFactory bundle format with the AMOS `amos-skill-builder` bundle spec.
 
-Raw source: [[11_KNOWLEDGE/LLM_WIKI/raw/AGENTFACTORY_README_2026_08_29]]
+Raw source: [[AGENTFACTORY_README_2026_08_29]]
 
 ## 2026-08-29 | Agent Skill Registry deep-dive
 
@@ -370,7 +370,7 @@ Read the `main` branch README of `gfernandf/agent-skill-registry` and mapped it 
 
 Generate a machine-readable catalog from `gfernandf/agent-skill-registry` and compare its `capabilities.json` schema to the AMOS `SKILL.md` frontmatter to identify missing fields or naming mismatches.
 
-Raw source: [[11_KNOWLEDGE/LLM_WIKI/raw/AGENT_SKILL_REGISTRY_README_2026_08_29]]
+Raw source: [[AGENT_SKILL_REGISTRY_README_2026_08_29]]
 
 ## 2026-08-29 | AgentSkills Registry deep-dive
 
@@ -415,7 +415,7 @@ Read the `main` branch README of `kai98k/agent-skills-registry` and mapped it to
 
 Package one AMOS skill (e.g., `amos-llm-wiki`) into an AgentSkills-compatible `.tar.gz` bundle and validate that `SKILL.md` + `scripts/` + `references/` structure is accepted.
 
-Raw source: [[11_KNOWLEDGE/LLM_WIKI/raw/AGENTSKILLS_REGISTRY_README_2026_08_29]]
+Raw source: [[AGENTSKILLS_REGISTRY_README_2026_08_29]]
 
 ## 2026-08-29 | XSkill deep-dive
 
@@ -460,7 +460,7 @@ Read the `main` branch README of `XSkill-Agent/XSkill` and mapped it to AMOS con
 
 Inspect the `eval/exskill/skill_builder.py` output format and compare an XSkill-generated skill document to the AMOS `SKILL.md` frontmatter schema.
 
-Raw source: [[11_KNOWLEDGE/LLM_WIKI/raw/XSKILL_README_2026_08_29]]
+Raw source: [[XSKILL_README_2026_08_29]]
 
 ## 2026-08-29 | Agent Skills (agentskills.io) deep-dive
 
@@ -499,7 +499,7 @@ Read the canonical Agent Skills README and specification and verified AMOS compl
 
 Add `allowed-tools` and `compatibility` as optional frontmatter fields in `amos-skill-builder` and validate that existing 642 skills can still pass `sota_skill_validator.py`.
 
-Raw sources: [[11_KNOWLEDGE/LLM_WIKI/raw/AGENTSKILLS_SPEC_README_2026_08_29]] · [[11_KNOWLEDGE/LLM_WIKI/raw/AGENTSKILLS_SPECIFICATION_2026_08_29]]
+Raw sources: [[AGENTSKILLS_SPEC_README_2026_08_29]] · [[AGENTSKILLS_SPECIFICATION_2026_08_29]]
 
 ## 2026-08-29 | OpenSkills SDK deep-dive
 
@@ -542,7 +542,7 @@ Read the `main` branch README of `ljluestc/OpenSkills` and mapped it to AMOS pro
 
 Add `triggers` and `references` loading-mode metadata to the AMOS `SKILL.md` frontmatter and `CONTRACT_TEMPLATE.yaml` to align with OpenSkills progressive disclosure.
 
-Raw source: [[11_KNOWLEDGE/LLM_WIKI/raw/OPENSKILLS_README_2026_08_29]]
+Raw source: [[OPENSKILLS_README_2026_08_29]]
 
 ## 2026-08-29 | MMSkills for Visual Agents deep-dive
 
@@ -584,7 +584,7 @@ Read the `main` branch README of `zkangning/MMSkills_for_Visual_Agents` and mapp
 
 Add an `assets/` directory and visual-keyframe support to one AMOS skill (e.g., `amos-llm-wiki`) to prototype MMSkills-style multimodal evidence gating.
 
-Raw source: [[11_KNOWLEDGE/LLM_WIKI/raw/MMSKILLS_README_2026_08_29]]
+Raw source: [[MMSKILLS_README_2026_08_29]]
 
 ## 2026-08-29 | AgentSkillOS deep-dive
 
@@ -628,7 +628,7 @@ Read the `main` branch README of `songfang/AgentSkillOS` and mapped it to AMOS s
 
 Generate a capability tree from the existing 642 AMOS skills using `parent_skill` and `domain` fields and compare it to AgentSkillOS `skill_seeds` / `top500` tree format.
 
-Raw source: [[11_KNOWLEDGE/LLM_WIKI/raw/AGENTSKILLOS_README_2026_08_29]]
+Raw source: [[AGENTSKILLOS_README_2026_08_29]]
 
 ## 2026-08-29 | Production skill marketplaces and hardened registries
 
@@ -666,7 +666,7 @@ Raw source: [[11_KNOWLEDGE/LLM_WIKI/raw/AGENTSKILLOS_README_2026_08_29]]
   2. **`/api/v1/skills/resolve` → `amos-routing-audit` and `amos-agent-orchestrator` route selection**
   3. **No-auth fetch endpoint → `amos-llm-wiki` remote source ingestion**
 
-Raw sources: [[11_KNOWLEDGE/LLM_WIKI/raw/TECH_LEADS_CLUB_AGENT_SKILLS_README_2026_08_29]] · [[11_KNOWLEDGE/LLM_WIKI/raw/IVANZWB_AGENT_SKILLS_README_2026_08_29]] · [[11_KNOWLEDGE/LLM_WIKI/raw/SKILLSHUB_README_2026_08_29]]
+Raw sources: [[TECH_LEADS_CLUB_AGENT_SKILLS_README_2026_08_29]] · [[IVANZWB_AGENT_SKILLS_README_2026_08_29]] · [[SKILLSHUB_README_2026_08_29]]
 
 ## 2026-08-29 | Anthropic Skills (canonical Claude skill library) deep-dive
 
@@ -703,7 +703,7 @@ Read the `main` branch README of `anthropics/skills` and mapped it to AMOS Claud
 
 Fetch the `anthropics/skills/template` and `spec` directories and compare the canonical template to the AMOS `CONTRACT_TEMPLATE.yaml`.
 
-Raw source: [[11_KNOWLEDGE/LLM_WIKI/raw/ANTHROPICS_SKILLS_README_2026_08_29]]
+Raw source: [[ANTHROPICS_SKILLS_README_2026_08_29]]
 
 ## 2026-08-29 | Anthropic Skills template and spec comparison
 
@@ -737,7 +737,7 @@ AMOS is already a strict superset:
 
 AMOS `amos-skill-builder` already produces skill bundles that satisfy the canonical Agent Skills spec and adds progressive disclosure, typed I/O, epistemic metadata, and governance fields beyond it.
 
-Raw sources: [[11_KNOWLEDGE/LLM_WIKI/raw/ANTHROPICS_SKILLS_TEMPLATE_2026_08_29]] · [[11_KNOWLEDGE/LLM_WIKI/raw/AGENTSKILLS_SPECIFICATION_2026_08_29]]
+Raw sources: [[ANTHROPICS_SKILLS_TEMPLATE_2026_08_29]] · [[AGENTSKILLS_SPECIFICATION_2026_08_29]]
 
 ## 2026-08-29 | SkillOS and ai-os deep-dive
 
@@ -786,7 +786,7 @@ Read the canonical `EvolvingAgentsLabs/skillos` README and the active successor 
 
 Add a 3-level Domain → Family → Skill view to `.devin/SKILL_TREE.json` and a `make reproduce` target for the AMOS SOTA validator.
 
-Raw sources: [[11_KNOWLEDGE/LLM_WIKI/raw/SKILL_OS_README_2026_08_29]] · [[11_KNOWLEDGE/LLM_WIKI/raw/AI_OS_README_2026_08_29]]
+Raw sources: [[SKILL_OS_README_2026_08_29]] · [[AI_OS_README_2026_08_29]]
 
 ## 2026-08-30 | addyosmani/agent-skills deep-dive
 
@@ -824,7 +824,7 @@ Read the `addyosmani/agent-skills` README — production-grade engineering skill
 
 `addyosmani/agent-skills` is the most production-aligned engineering skill catalog captured so far. Its lifecycle commands and auto-activation directly map to AMOS workflow and routing capabilities. The AMOS `software-engineering-qa` and `amos-skill-builder` can be enriched with Addy's five-axis review, `/build auto` commit pattern, and constraints checklist.
 
-Raw source: [[11_KNOWLEDGE/LLM_WIKI/raw/ADDYOSMANI_AGENT_SKILLS_README_2026_08_30]]
+Raw source: [[ADDYOSMANI_AGENT_SKILLS_README_2026_08_30]]
 
 ## 2026-08-30 | Context Engineering & Agent Skills Standard deep-dive
 
@@ -865,7 +865,7 @@ Integration points for AMOS:
 
 `muratcankoylan/Agent-Skills-for-Context-Engineering` is the strongest academic-backed context-engineering catalog; `HoangNguyen0403/agent-skills-standard` is the strongest CLI-governed SDLC standards system with lockfiles, MCP, and hooks. AMOS can adopt the `AGENTS.md` → `_INDEX.md` → `SKILL.md` progressive lookup and the `ags verify` lockfile/audit model.
 
-Raw sources: [[11_KNOWLEDGE/LLM_WIKI/raw/AGENT_SKILLS_FOR_CONTEXT_ENGINEERING_README_2026_08_30]] · [[11_KNOWLEDGE/LLM_WIKI/raw/AGENT_SKILLS_STANDARD_README_2026_08_30]]
+Raw sources: [[AGENT_SKILLS_FOR_CONTEXT_ENGINEERING_README_2026_08_30]] · [[AGENT_SKILLS_STANDARD_README_2026_08_30]]
 
 ## 2026-08-30 | Curated skill marketplaces and large-scale catalogs captured
 
@@ -912,7 +912,7 @@ Integration points for AMOS:
 - `AGENTS.md` generated by `agent-rules-skill` → `amos-agent-orchestrator/CLAUDE.md` and `AMOS_BOOT.md`.
 - Composer/npm distribution → `agent-registry` OCI/manifest promotion.
 
-Raw sources: [[11_KNOWLEDGE/LLM_WIKI/raw/PEDRONAUCK_SKILLS_README_2026_08_30]] · [[11_KNOWLEDGE/LLM_WIKI/raw/HEYIMCARLOS_AGENT_SKILLS_README_2026_08_30]] · [[11_KNOWLEDGE/LLM_WIKI/raw/NETRESEARCH_CLAUDE_CODE_MARKETPLACE_README_2026_08_30]]
+Raw sources: [[PEDRONAUCK_SKILLS_README_2026_08_30]] · [[HEYIMCARLOS_AGENT_SKILLS_README_2026_08_30]] · [[NETRESEARCH_CLAUDE_CODE_MARKETPLACE_README_2026_08_30]]
 
 ## 2026-08-30 | implement | SkillOS top-level `SkillIndex.md` imported into AMOS boot
 
@@ -937,7 +937,7 @@ Implemented the SkillOS pure-markdown `SkillIndex.md` pattern inside `.devin/ski
 
 ### Raw source
 
-- Copied `SkillOS` `CLAUDE.md` to `[[11_KNOWLEDGE/LLM_WIKI/raw/SKILLOS_CLAUDE_MD_2026_08_30]]`.
+- Copied `SkillOS` `CLAUDE.md` to `[[SKILLOS_CLAUDE_MD_2026_08_30]]`.
 
 
 ## 2026-08-30 | implement | Imported `zjunlp/SkillNet` as AMOS skill `amos-skillnet`
@@ -985,7 +985,7 @@ Fetched the `vercel-labs/skills` CLI README — the canonical `npx skills` packa
 - `npx skills find` keyword search → `amos-skill-registry-gateway` and `AMOS_SKILL_REGISTRY`.
 - Project vs global scope → `AMOS_BOOT.md` working-directory checks and `.claude/skills` discovery.
 
-Raw source: [[11_KNOWLEDGE/LLM_WIKI/raw/VERCEL_LABS_SKILLS_README_2026_08_30]]
+Raw source: [[VERCEL_LABS_SKILLS_README_2026_08_30]]
 
 ## 2026-08-30 | research | Captured canonical `agentskills.io` Agent Skills specification and Anthropic skill template
 
@@ -993,7 +993,7 @@ Fetched the canonical `agentskills.io/specification` and `anthropics/skills` REA
 
 ### Canonical `agentskills.io` specification
 
-Raw source: [[11_KNOWLEDGE/LLM_WIKI/raw/AGENTSKILLS_IO_SPECIFICATION_2026_08_30]]
+Raw source: [[AGENTSKILLS_IO_SPECIFICATION_2026_08_30]]
 
 Key constraints to compare with AMOS `CONTRACT_TEMPLATE.yaml`:
 - `name`: 1-64 chars, lowercase alphanum + hyphens, no leading/trailing/consecutive hyphens, must match parent directory.
@@ -1009,9 +1009,9 @@ Key constraints to compare with AMOS `CONTRACT_TEMPLATE.yaml`:
 ### Anthropic `skills` repo
 
 Raw sources:
-- [[11_KNOWLEDGE/LLM_WIKI/raw/ANTHROPICS_SKILLS_README_2026_08_30]]
-- [[11_KNOWLEDGE/LLM_WIKI/raw/ANTHROPICS_SKILLS_TEMPLATE_SKILL_2026_08_30]]
-- [[11_KNOWLEDGE/LLM_WIKI/raw/ANTHROPICS_SKILLS_AGENT_SKILLS_SPEC_2026_08_30]]
+- [[ANTHROPICS_SKILLS_README_2026_08_30]]
+- [[ANTHROPICS_SKILLS_TEMPLATE_SKILL_2026_08_30]]
+- [[ANTHROPICS_SKILLS_AGENT_SKILLS_SPEC_2026_08_30]]
 
 Notes:
 - Minimal template only requires `name` and `description`.
@@ -1123,7 +1123,7 @@ Re-fetched `microsoft/SkillOpt` README to get the latest `v0.2.0` changes, inclu
 
 Either install `skillopt` in a Python 3.10+ sandbox and run a built-in benchmark on one AMOS skill (e.g., `amos-llm-wiki`) to compare `best_skill.md` to the current `SKILL.md`, or capture the next SOTA repo such as `nuryslyrt/ORPHEUS`/`linxuhao/SkillFlow`/`zzatpku/AgentFactory`/`gfernandf/agent-skill-registry`/`xskill`/`OpenSkills`/`MMSkills`/`ai-os`/`addyosmani/agent-skills`.
 
-Raw source: [[11_KNOWLEDGE/LLM_WIKI/raw/MICROSOFT_SKILLOPT_README_2026_08_30]]
+Raw source: [[MICROSOFT_SKILLOPT_README_2026_08_30]]
 
 ## 2026-08-30 | research | Re-captured `nuryslyrt/ORPHEUS` README from main branch
 
@@ -1160,7 +1160,7 @@ Re-fetched `nuryslyrt/ORPHEUS` README to verify the markdown-first multi-skill o
 
 Clone `nuryslyrt/ORPHEUS` and compare its `skill/` directory (orchestrator, experts, workers, contracts, scripts) to the AMOS `.devin/skills/`, `.devin/agents/`, and `.devin/workflows/` layout to import the hierarchical skill contract pattern as `amos-orpheus`, or continue to the next SOTA repo.
 
-Raw source: [[11_KNOWLEDGE/LLM_WIKI/raw/ORPHEUS_README_2026_08_30]]
+Raw source: [[ORPHEUS_README_2026_08_30]]
 
 ## 2026-08-30 | implement | Imported XSkill `XSkill-Agent/XSkill` as `amos-xskill`
 
@@ -1189,7 +1189,7 @@ Continue scanning for the next SOTA repo to capture, or run a concrete AMOS hard
 - Implement a workflow YAML lint gate in `amos-workflow-runner` using the SkillFlow DAG schema as a reference.
 - Add ORPHEUS-style `contract.yaml` typed I/O to `amos-skill-builder/references/`.
 
-Raw source: [[11_KNOWLEDGE/LLM_WIKI/raw/XSKILL_README_2026_08_30]]
+Raw source: [[XSKILL_README_2026_08_30]]
 
 ## 2026-08-30 | implement | Added G19 and imported MMSkills as `amos-mmskills`
 

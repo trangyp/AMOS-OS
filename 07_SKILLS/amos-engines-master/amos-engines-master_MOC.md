@@ -68,7 +68,7 @@ updated: 2026-08-30
 - [[brain_ultimate_intelligence_2026]] — AMOS Brain Ultimate Intelligence 2026 Complete.
 - [[brain_ultimate_synthesis]] — AMOS Brain Ultimate Synthesis Complete.
 - [[brain_ultimate_transcendence]] — AMOS Brain Ultimate Transcendence Complete.
-- [[super_consciousness_engine]] — AMOS SUPER Consciousness Engine.
+- [[SUPER_CONSCIOUSNESS_ENGINE]] — AMOS SUPER Consciousness Engine.
 - [[super_consciousness_engine_max]] — AMOS SUPER Consciousness Engine MAX H3.
 - [[super_kernel_engine]] — AMOS SUPER Kernel and Engine.
 
