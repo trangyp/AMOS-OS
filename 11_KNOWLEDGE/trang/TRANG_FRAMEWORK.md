@@ -106,8 +106,8 @@ derived_obsidian_augmentation:
 
   proposed_links:
     - "[[TRANG_ZERO_FRAMEWORK]]"
-    - "[[RSCF]]"
-    - "[[GMEF]]"
+    - "[[rscf]]"
+    - "[[gmef]]"
     - "[[AMOS_FULL_BRAIN_OS_ARCHITECTURE]]"
     - "[[PROVENANCE_X_CONFIDENCE]]"
 
@@ -6681,8 +6681,8 @@ RSCF_RELATIONS:
   - RELATED_TO: "[[automation_profiles]]"
 
   - PROPOSED_COMPOSITION: "[[TRANG_ZERO_FRAMEWORK]]"
-  - PROPOSED_COMPOSITION: "[[RSCF]]"
-  - PROPOSED_COMPOSITION: "[[GMEF]]"
+  - PROPOSED_COMPOSITION: "[[rscf]]"
+  - PROPOSED_COMPOSITION: "[[gmef]]"
   - PROPOSED_COMPOSITION: "[[PROVENANCE_X_CONFIDENCE]]"
 ```
 
@@ -7187,6 +7187,6 @@ That distinction separates **self-modification** from **governed self-evolution*
 
 ---
 
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[TRANG_ZERO_FRAMEWORK]] · [[AMOS_SIMULATION_KERNEL]] · [[SYSTEM_SCAN_ENGINE]] · [[automation_profiles]] · [[RSCF]] · [[GMEF]] · [[PROVENANCE_X_CONFIDENCE]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[TRANG_ZERO_FRAMEWORK]] · [[AMOS_SIMULATION_KERNEL]] · [[SYSTEM_SCAN_ENGINE]] · [[automation_profiles]] · [[rscf]] · [[gmef]] · [[PROVENANCE_X_CONFIDENCE]]
 
 **MOC:** [[trang_MOC]]

@@ -1350,7 +1350,7 @@ Repeated execution without changed relevant state does not constitute recovery.
 
 The associated validation receipt node is:
 
-[[Atomic Multi-RSCF Validation Receipt]]
+[[ATOMIC_MULTI_RSCF_VALIDATION_RECEIPT]]
 
 Conceptually:
 
@@ -1363,7 +1363,7 @@ Conceptually:
         +--> transaction validation
                     |
                     v
-[[Atomic Multi-RSCF Validation Receipt]]
+[[ATOMIC_MULTI_RSCF_VALIDATION_RECEIPT]]
 ```
 
 The receipt records validation outcome.
@@ -3655,7 +3655,7 @@ Related architecture:
 
 Validation:
 
-[[Atomic Multi-RSCF Validation Receipt]]
+[[ATOMIC_MULTI_RSCF_VALIDATION_RECEIPT]]
 
 Hierarchy:
 
@@ -3701,7 +3701,7 @@ RSCF-RELATIONS:
   - CHILD_OF: [[LAW_HIERARCHY]]
   - REDIRECTS_TO: [[K_ATOMIC_MULTI_RSCF]]
   - RELATED_TO: [[ATOMIC_MULTI_RSCF_REASONING]]
-  - VALIDATED_BY: [[Atomic Multi-RSCF Validation Receipt]]
+  - VALIDATED_BY: [[ATOMIC_MULTI_RSCF_VALIDATION_RECEIPT]]
   - INDEXED_BY: [[01_CORE_LAWS_MOC]]
   - FRAMEWORK_CONTEXT: [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 ```
@@ -4156,7 +4156,7 @@ SPEED.
                   /             \
                  /               \
                 v                 v
-[[ATOMIC_MULTI_RSCF_REASONING]]   [[Atomic Multi-RSCF Validation Receipt]]
+[[ATOMIC_MULTI_RSCF_REASONING]]   [[ATOMIC_MULTI_RSCF_VALIDATION_RECEIPT]]
                  \               /
                   \             /
                    v           v
@@ -4264,7 +4264,7 @@ THE MISSING CURRENT KERNEL BODY
 - [[LAW_HIERARCHY]]
 - [[K_ATOMIC_MULTI_RSCF]]
 - [[ATOMIC_MULTI_RSCF_REASONING]]
-- [[Atomic Multi-RSCF Validation Receipt]]
+- [[ATOMIC_MULTI_RSCF_VALIDATION_RECEIPT]]
 - [[L22_REPLAYABILITY]]
 - [[L23_MVCC_CAS]]
 - [[L24_CAUSAL_EPOCH]]
