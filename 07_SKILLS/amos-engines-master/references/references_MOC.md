@@ -1,6 +1,10 @@
 ---
-title: References MOC — References — Amos Engines Master
-type: moc
+moc: true
+rscf:
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: skill_reference
+  state: SOURCE_CLAIM
 source: 07_SKILLS/amos-engines-master/references
 tags:
 - references
@@ -25,9 +29,9 @@ tags:
 - omega-state-of-the-art
 - super-consciousness-engine
 - super-consciousness-engine-max
-- engines-master-omni-x1000
-- engines-master-v1
-- engines-master-v100
+- super-engine-omni-x1000
+- super-engine-v1
+- super-engine-v100
 - super-kernel-engine
 - trang-asea
 - unipower-engines-collection
@@ -36,12 +40,8 @@ tags:
 - vault-domain-knowledge
 - law-hierarchy
 - trang-framework-recursive-ontology-dynamics
-moc: true
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: skill_reference
+title: References MOC — References — Amos Engines Master
+type: moc
 ---
 
 # References — Map of Content
