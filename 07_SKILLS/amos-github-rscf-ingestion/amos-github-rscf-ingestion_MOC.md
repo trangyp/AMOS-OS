@@ -28,4 +28,7 @@ rscf:
 - references_MOC — references
 
 ---
+---
+**References MOC:** [[references/references_MOC]]
+
 **Parent:** [[07_SKILLS_MOC]]

@@ -90,4 +90,7 @@ updated: 2026-08-30
 
 ---
 
+---
+**References MOC:** [[references/references_MOC]]
+
 **Parent:** [[07_SKILLS_MOC]]
