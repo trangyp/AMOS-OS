@@ -65,7 +65,11 @@ class VaultGraph:
 
     def _should_parse_links(self, path: Path) -> bool:
         parts = path.relative_to(self.vault_path).parts
-        return not any(p in self.noparse_dirs for p in parts)
+        if not any(p in self.noparse_dirs for p in parts):
+            return True
+        # Parse MOC index files inside raw/noparse dirs (e.g. _arxiv_md) so
+        # their wikilinks connect the raw notes into the canonical graph.
+        return "MOC" in path.stem.upper()
 
     def _build(self):
         # Collect all markdown files
