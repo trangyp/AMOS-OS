@@ -234,6 +234,7 @@ AMOS_OS/
 ---
 
 # 2. Root Files
+- [[tech-leads-club/agent-skills README — Raw Capture]]
 
 ## [[ARCHITECTURE]]
 

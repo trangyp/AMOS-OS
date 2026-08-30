@@ -15,7 +15,7 @@ domain: canon
 scope: AMOS_OS
 authority_scope: terminology-deprecation-and-semantic-migration
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-08-30
 tags:
 - amos-os
 - canon
@@ -241,6 +241,18 @@ OLD_NAME
 ≈ semantic identity
 → NEW_NAME
 ```
+
+### amos-super-engines-master → amos-engines-master
+
+- **Old canonical id:** `amos-super-engines-master`
+- **New canonical id:** `amos-engines-master`
+- **Old display label:** `AMOS Super Engines` / `Amos Super Engines Master`
+- **New display label:** `AMOS Engines Master` / `Amos Engines Master`
+- **Change type:** RENAMED
+- **Scope:** AMOS OS skill, agent, and workflow namespace
+- **Provenance:** 2026-08-30 namespace reconciliation across `.devin/skills/`, `.devin/agents/`, `.devin/workflows/`, and the Obsidian vault (`07_SKILLS/amos-engines-master`, `08_WORKFLOWS/amos-engines-master-workflow`, `06_AGENTS/amos-engines-master-agent`).
+- **Rationale:** The `Super` qualifier is a promotional/magnitude term that does not encode a semantic role. The replacement uses the canonical `Engines Master` role naming aligned with the `AMOS_CORE` type vocabulary.
+- **Migration rule:** New artifacts and wikilinks must use `amos-engines-master`. Historical references and `AMOS Super Engines` brain notes are preserved as `LEGACY_ALIAS` / `HISTORICAL_ONLY` lineage.
 
 ## CLARIFIED
 
