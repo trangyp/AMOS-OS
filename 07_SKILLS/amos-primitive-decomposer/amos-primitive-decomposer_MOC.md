@@ -25,7 +25,12 @@ rscf:
 
 ## Subdirectories
 
-- references_MOC — references
+- [[references_MOC]] — references
 
 ---
+---
+**Skill:** [[SKILL]]
+
+- [[vault_domain_knowledge]]
+
 **Parent:** [[07_SKILLS_MOC]]

@@ -49,3 +49,6 @@ RSCF-RELATIONS:
 
 ---
 **References MOC:** [[references/references_MOC]]
+
+---
+**Skill:** [[SKILL]]

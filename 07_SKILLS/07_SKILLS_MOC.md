@@ -31,6 +31,8 @@ rscf:
 - [[SKILL_NAMING_AUDIT]]
 - [[SKILL_RENAME_MANIFEST]]
 
+- [[references_MOC]]
+
 ## Subdirectories
 
 - [[00_INDEX_MOC]] — 00_INDEX

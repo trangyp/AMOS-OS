@@ -158,6 +158,11 @@ rscf:
 - [[07_SKILLS/amos-memory-systems-master/SKILL|Memory Systems Master]]
 - [[07_SKILLS/amos-security-safety-master/SKILL|Security & Safety Master]]
 - [[07_SKILLS/amos-agent-systems-master/SKILL|Agent Systems Master]]
+- [[07_SKILLS/amos-mdformat-obsidian/SKILL|mdformat Obsidian]]
+- [[07_SKILLS/amos-agent-owner-attribution-rscf/SKILL|Agent Owner Attribution]]
+- [[07_SKILLS/amos-flow-canon/references/README|Flow Canon References]]
+- [[07_SKILLS/amos-law-stack-enforcement/references/README|Law Stack References]]
+- [[07_SKILLS/amos-7-part-universe-canon/references/README|7-Part Universe References]]
 
 ## SOTA and Agent Contracts
 
