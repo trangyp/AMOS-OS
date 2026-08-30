@@ -73,10 +73,10 @@
     "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders"
   ],
   "depends_on_skills": [
-    "amos-7-part-universe-canon-full"
+    "amos-7-part-universe-canon"
   ],
   "depends_on_workflows": [
-    "amos-7-part-universe-canon-full-workflow.md"
+    "amos-7-part-universe-canon-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

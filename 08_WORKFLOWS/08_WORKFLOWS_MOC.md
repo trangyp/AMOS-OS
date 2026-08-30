@@ -5,10 +5,10 @@ source: 08_WORKFLOWS
 tags:
 - 08-workflows
 - type/workflow
-- amos-7-part-universe-canon-full-workflow
+- amos-7-part-universe-canon-workflow
 - amos-action-memory-firewall-workflow
 - amos-active-inference-governor-workflow
-- amos-absolute-primitive-decomposer-workflow
+- amos-primitive-decomposer-workflow
 - amos-adaptive-stability-balancer-workflow
 - amos-adversarial-entropy-accountant-workflow
 - amos-agency-consequence-governor-workflow
@@ -125,8 +125,8 @@ rscf:
 
 - [[WORKFLOWS_README]]
 - [[WORKFLOWS_WORKFLOW_CONTRACT]]
-- [[amos-7-part-universe-canon-full-workflow]]
-- [[amos-absolute-primitive-decomposer-workflow]]
+- [[amos-7-part-universe-canon-workflow]]
+- [[amos-primitive-decomposer-workflow]]
 - [[amos-action-memory-firewall-workflow]]
 - [[amos-active-inference-governor-workflow]]
 - [[amos-adaptive-stability-balancer-workflow]]
@@ -374,7 +374,7 @@ rscf:
 - [[amos-strict-fractal-equation-rscf-registry-workflow]]
 - [[amos-structured-document-parsing-rscf-workflow]]
 - [[amos-structured-execution-graph-rscf-workflow]]
-- [[amos-super-engines-master-workflow]]
+- [[amos-engines-master-workflow]]
 - [[amos-symbolic-path-reasoning-rscf-workflow]]
 - [[amos-symbolic-translation-repair-rscf-workflow]]
 - [[amos-system-completion-auditor-workflow]]

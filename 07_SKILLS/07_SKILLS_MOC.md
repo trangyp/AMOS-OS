@@ -35,8 +35,8 @@ rscf:
 
 - [[00_INDEX_MOC]] — 00_INDEX
 - [[amos-7-part-universe-canon_MOC]] — amos-7-part-universe-canon
-- [[amos-7-part-universe-canon-full_MOC]] — amos-7-part-universe-canon-full
-- [[amos-absolute-primitive-decomposer_MOC]] — amos-absolute-primitive-decomposer
+- [[amos-7-part-universe-canon_MOC]] — amos-7-part-universe-canon
+- [[amos-primitive-decomposer_MOC]] — amos-primitive-decomposer
 - [[amos-action-memory-firewall_MOC]] — amos-action-memory-firewall
 - [[amos-active-inference-governor_MOC]] — amos-active-inference-governor
 - [[amos-adaptive-stability-balancer_MOC]] — amos-adaptive-stability-balancer
@@ -286,7 +286,7 @@ rscf:
 - [[amos-strict-fractal-equation-rscf-registry_MOC]] — amos-strict-fractal-equation-rscf-registry
 - [[amos-structured-document-parsing-rscf_MOC]] — amos-structured-document-parsing-rscf
 - [[amos-structured-execution-graph-rscf_MOC]] — amos-structured-execution-graph-rscf
-- [[amos-super-engines-master_MOC]] — amos-super-engines-master
+- [[amos-engines-master_MOC]] — amos-engines-master
 - [[amos-symbolic-path-reasoning-rscf_MOC]] — amos-symbolic-path-reasoning-rscf
 - [[amos-symbolic-translation-repair-rscf_MOC]] — amos-symbolic-translation-repair-rscf
 - [[amos-system-completion-auditor_MOC]] — amos-system-completion-auditor

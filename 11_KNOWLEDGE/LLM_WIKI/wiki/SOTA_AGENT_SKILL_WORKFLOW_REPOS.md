@@ -1369,3 +1369,31 @@ Tech Leads Club Agent Skills brings hardened skill-registry controls (lockfiles,
   - `AGENTS.md`: state and count table updated to 655/682/689
 - Rebuilt `.devin/SKILL_TREE.json`.
 - Commit `1ee236e58` also improved `sota_skill_validator.py` frontmatter parser to ignore `---` inside quoted values.
+
+## 2026-09-03 | research | Round 80: SkillForge family — 3 new SOTA repos cataloged (184 cumulative)
+
+Cataloged three independent "SkillForge" repositories surfaced as new SOTA findings. They share a project family name but are independent codebases by different authors, each addressing a different layer of the agent-skill lifecycle. All three are early-stage (0-2 stars as of 2026-09-03) and are cataloged as architecturally interesting SOURCE_CLAIM references, not as production-validated dependencies.
+
+### 182. SkillForge (Dependency Butler) — `yvzhou1111/skillforge` (~2 stars)
+
+- **Key feature**: TypeScript "intelligent dependency butler" for Agent Skills. Reads a project and intent, mines the open-source skill ecosystem, runs security-audit + quality-grade on each candidate, then installs a vetted combination into Claude Code, Cursor, Codex, Gemini, Hermes, or OpenClaw. Ships a `skillforge-mcp` zero-dependency MCP server (stdio) exposing `skillforge_scan`, `skillforge_search`, `skillforge_plan`, `skillforge_audit`, `skillforge_install`, `skillforge_list`. Published as `skillforge-butler` on npm.
+- **AMOS integration**: Map the scan → audit → grade → install pipeline to AMOS `amos-promotion-gates` and `amos-provenance-trust-firewall`; compare the security-audit + quality-grade stage to `skill-check` gates; compare the MCP tool surface to AMOS MCP server bindings.
+
+### 183. SkillForge MCP (Universal Skills Loader) — `lyupro/skillforge-mcp` (~1 star)
+
+- **Key feature**: Universal, folder-agnostic Skills MCP server (stdio) that loads Markdown-defined skills from arbitrary folders into any MCP-capable LLM tool. v1.15.0 ships 5 MCP tools, one-command install across four hosts, lazy loading, transport-close/signals/dead-parent exit semantics, context-aware security auto-audit (`auditTarget`) with `auditExceptions` allowlist, per-bundle `versionPolicy` (pin/freeze) with highest-semver collision resolution, persistent on-disk registry index for fast warm starts, 1146 tests, modular architecture (all source files ≤ 400 lines). Published as `@lyupro/skillforge-mcp` on npm.
+- **AMOS integration**: Map the folder-agnostic skill loader to AMOS `07_SKILLS` discovery; compare the security auto-audit + `auditExceptions` allowlist to `amos-adversarial-entropy-accountant` and `amos-provenance-trust-firewall`; compare per-bundle `versionPolicy` to AMOS `amos-k-binding` and `amos-revocation-lifecycle`; compare the persistent on-disk registry index to AMOS `agent-registry` warm-start patterns.
+
+### 184. SkillForge (Composable Skill Engine) — `hretheum/skillforge` (~0 stars)
+
+- **Key feature**: Composable skills engine for agent pipelines — one generic engine with swappable per-client config produces ready-made skills. Dual interface: CLI (`skillforge …`) and MCP server (stdio). Six skill kinds (`artifact`, `instruction`, `validation`, `analysis`, `transformation`, `sync`), each with its own stage subset and governance class. Global skill store at `~/.skillforge/skills/`. Three emit profiles: `open-core`, `claude`, and `codex`. Ships 266 skills as a release ZIP. Two deployment profiles: Profile A (compliance / client-side, EU data residency + ZDR) and Profile B (convenience / platform features); the loader treats a request mixing them as a hard error.
+- **AMOS integration**: Map the six skill kinds + stage subsets to AMOS typed-tensor / RSCF classification; compare the swappable per-client config to AMOS `amos-agent-templates` and `amos-binding-rules`; compare the two deployment profiles and the structural profile-mixing error to `amos-fail-closed-governance` and `amos-ethics-os-governor`; compare the global skill store to AMOS `07_SKILLS` governance.
+
+### Round 80 provenance
+
+- **Research date**: 2026-09-03
+- **Epistemic class**: EMPIRICAL (GitHub star counts: 2, 1, 0) + SOURCE_CLAIM (repo READMEs) + AMOS_MODEL (integration mappings)
+- **RSCF state**: SOURCE_CLAIM (repo READMEs) → DERIVED (AMOS integration recommendations)
+- **Categories covered**: skill dependency orchestration, skill security audit, skill quality grading, MCP skill loader, folder-agnostic skill loading, composable skill engine, per-client skill config, deployment profiles, skill kinds, skill store, multi-agent install
+- **Total new repos**: 3
+- **Cumulative SOTA catalog**: 184 repos

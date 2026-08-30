@@ -573,3 +573,13 @@ Continue scanning for the next SOTA repo to capture, or implement the next vault
 - Fixed `25_COGNITIVE_MATRIX/UBI_X_FULL_BRAIN.md`: valid frontmatter (title/type/source/tags/rscf), bullets `*`→`-`, added RSCF-NODE + MOC footer (matches sibling plane files).
 - Documented the only remaining non-formatting artifacts: forex reference underscore divider inside a truncated-JSON fence (content-level extraction damage), arxiv mangled LaTeX underscore, tab-indented ASCII diagram divider in TRANG_REALITY_ARCHITECTURE, and in-fence `_` examples in the NAMING_STANDARD files.
 - Verification: 7,086 files scanned — 0 unclosed fences, 0 bad YAML, 0 stray `*`/`+` bullets; ingest script dry-run reports 0 files to modify.
+
+## [2026-09-03] research | Round 80: SkillForge family — 3 new SOTA repos cataloged (184 cumulative)
+
+- Cataloged three independent "SkillForge" repositories in `SOTA_AGENT_SKILL_WORKFLOW_REPOS.md` and `SOTA_AGENT_TOOLING_REPOS.md`.
+- `yvzhou1111/skillforge` (~2 stars): TypeScript dependency butler for Agent Skills — scan → audit → grade → install pipeline.
+- `lyupro/skillforge-mcp` (~1 star): Universal folder-agnostic Skills MCP server with security auto-audit + per-bundle version policy.
+- `hretheum/skillforge` (~0 stars): Composable skill engine with six skill kinds, swappable per-client config, deployment-profile firewall.
+- All three cataloged as SOURCE_CLAIM references (early-stage, 0-2 stars), not production dependencies.
+- Updated "Best-of-breed picks" header in `SOTA_AGENT_TOOLING_REPOS.md` to 184 repos across 80 rounds; added 3 SkillForge picks.
+- Cumulative SOTA catalog: 184 repos.
