@@ -8,7 +8,7 @@ tags:
 - cci-official-manual
 - china-engines-model
 - cultural-bifurcation-emotion-logic
-- dignity
+- [[dignity]]
 - domain-config
 - humanity-ice-age-to-present
 - marketing-gtm-kernel
@@ -50,11 +50,11 @@ rscf:
 - [[china_engines_model]]
 - [[cultural_bifurcation_emotion_logic]]
 - [[dignity]]
-- domain_config
+- [[domain_config]]
 - [[humanity_ice_age_to_present]]
 - [[marketing_gtm_kernel]]
 - [[society_culture_engine_cognitive]]
-- vault_domain_knowledge
+- [[vault_domain_knowledge]]
 - [[vietnam_engine_layer]]
 - [[vietnam_engines_model]]
 - [[vietnam_environment_report]]
@@ -72,6 +72,10 @@ rscf:
 - [[when_humanity_began]]
 
 ---
+## Reference Notes
+
+- [[detailed-references]]
+
 **Parent:** [[amos-c06-society-culture-master_MOC]]
 ---
 

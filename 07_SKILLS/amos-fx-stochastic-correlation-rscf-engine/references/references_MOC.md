@@ -23,7 +23,7 @@ rscf:
 
 ## Files
 
-- vault_domain_knowledge
+- [[vault_domain_knowledge]]
 
 ---
 **Parent:** [[amos-fx-stochastic-correlation-rscf-engine_MOC]]

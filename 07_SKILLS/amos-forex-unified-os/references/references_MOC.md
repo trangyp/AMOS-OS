@@ -25,7 +25,7 @@ rscf:
 ## Files
 
 - [[fractal_forex_enterprise]]
-- vault_domain_knowledge
+- [[vault_domain_knowledge]]
 
 ---
 **Parent:** [[amos-forex-unified-os_MOC]]

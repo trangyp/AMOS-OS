@@ -50,7 +50,7 @@ rscf:
 - [[consulting_engine_super]]
 - [[consulting_super_engine]]
 - [[directed_systemic_intelligence]]
-- domain_config
+- [[domain_config]]
 - [[grand_cannon_mobility_model]]
 - [[hse_ceo_engine_model]]
 - [[mbb_consulting_kernel]]
@@ -63,7 +63,7 @@ rscf:
 - [[strategic_analysis_report]]
 - [[strategic_partners_list]]
 - [[strategy_game_engine_cognitive]]
-- vault_domain_knowledge
+- [[vault_domain_knowledge]]
 
 ---
 **Parent:** [[amos-c08-strategy-game-master_MOC]]

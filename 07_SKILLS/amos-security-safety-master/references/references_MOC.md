@@ -30,7 +30,7 @@ tags:
 - risk-compliance-engine-v0
 - risk-compliance-kernel
 - security-architecture-kernel
-- shellshock
+- [[shellshock]]
 - tech-safe-honest-societies
 - web-cache-poisoning
 - law-hierarchy

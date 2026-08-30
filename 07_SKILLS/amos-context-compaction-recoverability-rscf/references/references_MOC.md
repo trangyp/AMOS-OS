@@ -23,7 +23,7 @@ rscf:
 
 ## Files
 
-- vault_domain_knowledge
+- [[vault_domain_knowledge]]
 
 ---
 **Parent:** [[amos-context-compaction-recoverability-rscf_MOC]]

@@ -23,7 +23,7 @@ rscf:
 
 ## Files
 
-- vault_domain_knowledge
+- [[vault_domain_knowledge]]
 
 ---
 **Parent:** [[amos-translation-rscf-architecture_MOC]]

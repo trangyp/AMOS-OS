@@ -15,7 +15,7 @@ tags:
 - brain-consistency-auditor
 - consolidation-report
 - critical-fixes-analysis
-- diagnosis
+- [[diagnosis]]
 - final-gate
 - hallucination-cleanup-report
 - qa-testing-kernel

@@ -63,7 +63,7 @@ rscf:
 - [[brain_quantum_omega_final]]
 - [[brain_supreme_quantum_complete]]
 - [[coherence_energy_law]]
-- domain_config
+- [[domain_config]]
 - [[final_quantum_cosmic_enhancement]]
 - [[final_universe]]
 - [[max_power_universe_os]]
@@ -91,7 +91,7 @@ rscf:
 - [[quantum_thermodynamics_cycle]]
 - [[tech_quantum_engine]]
 - [[u3h_atemporal_field]]
-- vault_domain_knowledge
+- [[vault_domain_knowledge]]
 
 ---
 **Parent:** [[amos-c03-physics-cosmos-master_MOC]]

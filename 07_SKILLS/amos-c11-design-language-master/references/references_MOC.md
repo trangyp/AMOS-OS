@@ -67,7 +67,7 @@ rscf:
 - [[design_language_model]]
 - [[doc_super_engine]]
 - [[documentation_engine_layer]]
-- domain_config
+- [[domain_config]]
 - [[human_centered_design_drift]]
 - [[monogram_engine]]
 - [[monogram_kernel_engine]]
@@ -76,7 +76,7 @@ rscf:
 - [[super_corp_doc_engine_light]]
 - [tech_design_engine](tech_design_engine.md)
 - [[tech_expanded_design_engine]]
-- vault_domain_knowledge
+- [[vault_domain_knowledge]]
 - [vietnamese_writing_engine](vietnamese_writing_engine.md)
 
 ---

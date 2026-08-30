@@ -63,7 +63,7 @@ rscf:
 - [[biometrics_to_bio_intelligence]]
 - [[biometrics_to_bio_intelligence_v2]]
 - [[brain_superxc_ubi_cognitive_max]]
-- domain_config
+- [[domain_config]]
 - [[evolutionary_adaptive_systems_v2]]
 - [[id_exchange_ubi_neurosyncai]]
 - [[kernels_biology_cognition]]
@@ -87,7 +87,7 @@ rscf:
 - [[ubi_official_manual]]
 - [[ubi_operators]]
 - [[unified_biological_governance]]
-- vault_domain_knowledge
+- [[vault_domain_knowledge]]
 
 ---
 **Parent:** [[amos-c04-bio-neuro-master_MOC]]

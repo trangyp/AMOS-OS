@@ -56,3 +56,8 @@ RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
+
+---
+## Reference Notes
+
+- [[vault_domain_knowledge]]

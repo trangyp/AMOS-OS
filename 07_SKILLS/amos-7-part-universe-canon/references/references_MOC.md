@@ -23,7 +23,7 @@ rscf:
 
 ## Files
 
-- README
+- [[README]]
 
 ---
 **Parent:** [[amos-7-part-universe-canon_MOC]]

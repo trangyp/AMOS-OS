@@ -47,7 +47,7 @@ rscf:
 - [[universe_core_engine]]
 - [[universe_interaction_engine]]
 - [[universe_total_canon]]
-- vault_domain_knowledge
+- [[vault_domain_knowledge]]
 
 ---
 **Parent:** [[amos-canon-universe-master_MOC]]

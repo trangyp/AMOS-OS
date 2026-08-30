@@ -5,11 +5,11 @@ source: 07_SKILLS/amos-skill-builder/references
 tags:
 - references
 - type/skill
-- integration
-- output-patterns
-- validation
-- workflows
-- canon
+- [[integration]]
+- [[output-patterns]]
+- [[validation]]
+- [[workflows]]
+- [[canon]]
 - law-hierarchy
 - trang-framework-recursive-ontology-dynamics
 moc: true

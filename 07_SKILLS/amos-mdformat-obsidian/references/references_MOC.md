@@ -6,7 +6,7 @@ tags:
 - references
 - amos-mdformat-obsidian
 - type/skill
-- sota
+- [[sota]]
 - law-hierarchy
 - skill
 - trang-framework-recursive-ontology-dynamics

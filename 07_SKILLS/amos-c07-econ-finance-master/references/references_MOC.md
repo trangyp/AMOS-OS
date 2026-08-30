@@ -83,7 +83,7 @@ rscf:
 - [[subscription_agent]]
 - [[ubi_super_engine]]
 - [[uni_market_engine]]
-- vault_domain_knowledge
+- [[vault_domain_knowledge]]
 - [[vn_business_model_criteria]]
 - [[vn_vscci_investment_proposal]]
 - [[wealth_game_hack_5000]]

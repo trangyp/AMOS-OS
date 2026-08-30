@@ -24,7 +24,7 @@ rscf:
 
 ## Files
 
-- vault_domain_knowledge
+- [[vault_domain_knowledge]]
 
 ---
 **Parent:** [[amos-arxiv-structure-preserving-variational-neural-fields-rscf_MOC]]

@@ -119,7 +119,7 @@ rscf:
 - [[uni_system_operations_model]]
 - [[v43_shard_local_finalization]]
 - [[v44_coordination_avoidance_detailed]]
-- vault_domain_knowledge
+- [[vault_domain_knowledge]]
 
 ---
 **Parent:** [[amos-os-runtime-master_MOC]]

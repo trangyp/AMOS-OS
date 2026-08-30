@@ -101,7 +101,7 @@ rscf:
 - [[consciousness_engine_vinfinity]]
 - [[designing_systems_humans_survive]]
 - [[deterministic_human_machine_alignment]]
-- domain_config
+- [[domain_config]]
 - [[emotion_engine_canonical]]
 - [[emotion_engine_core]]
 - [[emotion_engine_layer]]
@@ -130,7 +130,7 @@ rscf:
 - [[thoughts_and_emotion]]
 - [[three_layer_consciousness_architecture]]
 - [[uni_ai_intelligence_engine]]
-- vault_domain_knowledge
+- [[vault_domain_knowledge]]
 - [[void_ego_dissolution_model]]
 
 ---

@@ -24,7 +24,7 @@ rscf:
 
 ## Files
 
-- vault_domain_knowledge
+- [[vault_domain_knowledge]]
 
 ---
 **Parent:** [[amos-arxiv-influence-guided-symbolic-regression-rscf_MOC]]

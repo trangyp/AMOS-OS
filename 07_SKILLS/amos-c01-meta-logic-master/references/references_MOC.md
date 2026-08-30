@@ -53,9 +53,13 @@ rscf:
 - [[meta_logic_config]]
 - [[trang_fpr]]
 - [[universal_reasoning_framework]]
-- vault_domain_knowledge
+- [[vault_domain_knowledge]]
 
 ---
+## Reference Notes
+
+- [[detailed-references]]
+
 **Parent:** [[amos-c01-meta-logic-master_MOC]]
 ---
 

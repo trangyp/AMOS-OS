@@ -47,7 +47,7 @@ rscf:
 - [[qfm_five_layer_architecture]]
 - [[qfm_max_power_consolidation]]
 - [[tensor_composition_governance]]
-- vault_domain_knowledge
+- [[vault_domain_knowledge]]
 
 ---
 **Parent:** [[amos-formal-engines-master_MOC]]

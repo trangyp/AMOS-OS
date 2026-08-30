@@ -5,9 +5,9 @@ source: 07_SKILLS/amos-workflow-builder/references
 tags:
 - references
 - type/skill
-- integration
-- validation
-- workflows
+- [[integration]]
+- [[validation]]
+- [[workflows]]
 - law-hierarchy
 - trang-framework-recursive-ontology-dynamics
 moc: true

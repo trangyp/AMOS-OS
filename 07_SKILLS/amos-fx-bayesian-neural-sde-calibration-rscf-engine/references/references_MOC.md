@@ -24,7 +24,7 @@ rscf:
 
 ## Files
 
-- vault_domain_knowledge
+- [[vault_domain_knowledge]]
 
 ---
 **Parent:** [[amos-fx-bayesian-neural-sde-calibration-rscf-engine_MOC]]

@@ -54,7 +54,7 @@ rscf:
 
 - [[c12_earth_ecology_super_full]]
 - [[civilization_fails_energy_transition]]
-- domain_config
+- [[domain_config]]
 - [[drive_quantum_restoration]]
 - [[electrical_power_engine_cognitive]]
 - [[electrical_power_engine_layer]]
@@ -76,7 +76,7 @@ rscf:
 - [[integrity_bounded_energy_standard]]
 - [[nui_cam_planetary_energy_node]]
 - [[qls_abi_longevity]]
-- vault_domain_knowledge
+- [[vault_domain_knowledge]]
 - [[vn_driver_charging_engine]]
 - [[vn_ev_baojun_collaboration]]
 - [[vn_ev_china_market_analysis]]

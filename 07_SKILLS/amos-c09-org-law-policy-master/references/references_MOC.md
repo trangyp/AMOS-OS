@@ -79,7 +79,7 @@ rscf:
 - [[core_v47_hardened_governance]]
 - [[crisis_management_kernel]]
 - [[deterministic_organisation_governance]]
-- domain_config
+- [[domain_config]]
 - [[ethical_reasoning_kernel]]
 - [[ethics_as_infrastructure]]
 - [[global_legal_engine]]
@@ -108,7 +108,7 @@ rscf:
 - [[ubi_law_families]]
 - [[uni_power_strategic_governance]]
 - [[unified_org_systems_engine]]
-- vault_domain_knowledge
+- [[vault_domain_knowledge]]
 - [[vn_legal_engine]]
 - [[vn_legal_engine_domains]]
 - [[vn_legal_engine_v0_domains]]
@@ -118,6 +118,10 @@ rscf:
 - [[vn_technical_legal_terms]]
 
 ---
+## Reference Notes
+
+- [[detailed-content]]
+
 **Parent:** [[amos-c09-org-law-policy-master_MOC]]
 ---
 

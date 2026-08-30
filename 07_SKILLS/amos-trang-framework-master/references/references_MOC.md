@@ -82,7 +82,7 @@ rscf:
 - [[trangs_legacy]]
 - [[tss_official_manual]]
 - [[uap_trang_empty_framework]]
-- vault_domain_knowledge
+- [[vault_domain_knowledge]]
 
 ---
 **Parent:** [[amos-trang-framework-master_MOC]]

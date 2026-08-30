@@ -9,7 +9,7 @@ tags:
 - information-measure-governance
 - qfm-bridge-entropy-lacunarity
 - regime-freshness
-- signals
+- [[signals]]
 - types-of-signals
 - vault-domain-knowledge
 - law-hierarchy
@@ -35,7 +35,7 @@ rscf:
 - [[regime_freshness]]
 - [[signals]]
 - [[types_of_signals]]
-- vault_domain_knowledge
+- [[vault_domain_knowledge]]
 
 ---
 **Parent:** [[amos-information-theory-master_MOC]]
