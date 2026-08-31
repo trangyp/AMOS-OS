@@ -168,7 +168,8 @@ rscf:
 - [[11_KNOWLEDGE/stubs/19|Stubs 19]]
 - [[00_ROOT/README|Root README]]
 
----
+______________________________________________________________________
+
 **Parent:** [[AMOS_HOME|AMOS_HOME]]
 
 ## Newly bound agents and workflows
