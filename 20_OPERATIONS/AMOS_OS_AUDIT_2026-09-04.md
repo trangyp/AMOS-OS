@@ -231,4 +231,11 @@ This audit records structural and content findings. It does not prove runtime im
 - ~422 placeholder files still require source-grounded expansion.
 - ~2,408 Google Drive-only files still need reconciliation with the local `Documents/AMOS_OS` mirror.
 
+### 10.5 Additional disambiguation pass
+- Disambiguated `AMOS_HOME`: promoted the vault-root `AMOS_HOME.md` to the canonical `AMOS_HOME` target by adding alias `AMOS_HOME`; removed `AMOS_HOME` alias from `00_ROOT/00_HOME.md` and retitled the old `00_ROOT/AMOS_HOME.md` alias to `AMOS_HOME_00_ROOT` / `AMOS_HOME_SPEC`.
+- Added `aliases: [04_STRATEGY_MOC]` to `00_ROOT/04_STRATEGY_MOC.md` to resolve bare `04_STRATEGY_MOC` references.
+- Fixed the remaining `.html` wikilink in `05_COGNITIVE_ORGANISM/BCI_WAVEFRONT_SLM_EXECUTION_LEDGER.md` to a standard Markdown link.
+- Added `[[14_TOOLS/TOOL_REGISTRY_MASTER|TOOL_REGISTRY_MASTER]]` to `14_TOOLS/14_TOOLS_MOC.md`.
+- `vault_graph_audit.py --broken` confirms **0 broken wikilinks** again.
+
 **Parent:** [[20_OPERATIONS/20_OPERATIONS_MOC|20_OPERATIONS_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

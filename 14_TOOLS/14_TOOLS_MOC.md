@@ -36,6 +36,7 @@ tags:
 - [[14_TOOLS/TOOLS_README|TOOLS_README]] — Tool lifecycle, sandboxed execution environments, and invocation policies.
 - [[14_TOOLS/TOOLS_TOOL_CONTRACT|TOOLS_TOOL_CONTRACT]] — Invariants governing capability-bounded tool access, fuel-bounded loops, and deterministic error handling.
 - [[14_TOOLS/00_INDEX/TOOL_MAP|TOOL_MAP]] — Tool component navigation map
+- [[14_TOOLS/TOOL_REGISTRY_MASTER|TOOL_REGISTRY_MASTER]] — Canonical master tool registry
 
 ---
 
