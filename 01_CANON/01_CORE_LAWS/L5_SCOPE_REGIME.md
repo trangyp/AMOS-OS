@@ -15,7 +15,7 @@ tags:
   - law/L2-provenance
   - law/L3-dependency
   - law/L4-causal
-title: L5 Scope, Regime, and Temporal Laws
+title: "L5 Scope, Regime, and Temporal Laws"
 origin_architect: Trang Phan
 status: AMOS_MODEL
 canon_status: PROPOSED_CANON_CONTENT

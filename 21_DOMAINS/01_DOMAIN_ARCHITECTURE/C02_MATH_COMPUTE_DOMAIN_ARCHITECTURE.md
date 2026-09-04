@@ -1,5 +1,5 @@
 ---
-title: AMOS C02 Math & Compute Domain Architecture
+title: "AMOS C02 Math & Compute Domain Architecture"
 type: domain_architecture_contract
 source: 21_DOMAINS
 domain: C02_MATH_COMPUTE

@@ -1,5 +1,5 @@
 ---
-title: 19_TESTS — Invariant Falsification & Validation Harness
+title: "19_TESTS — Invariant Falsification & Validation Harness"
 type: architecture_specification
 source: 19_TESTS
 origin_architect: Trang Phan

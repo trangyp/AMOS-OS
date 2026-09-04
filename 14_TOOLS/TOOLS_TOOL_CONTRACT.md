@@ -1,5 +1,5 @@
 ---
-title: Tools Tool Contract — Master Tool Governance & Capability Isolation Specification
+title: "Tools Tool Contract — Master Tool Governance & Capability Isolation Specification"
 type: plane_contract
 plane: 14_TOOLS
 domain: E_INTERACTION_SECURITY_EFFECTS

@@ -1,5 +1,5 @@
 ---
-title: Forex FIX 4.4 & ZeroMQ Low-Latency Socket Adapter Specification
+title: "Forex FIX 4.4 & ZeroMQ Low-Latency Socket Adapter Specification"
 type: interface_specification
 plane: 15_INTERFACES
 domain_ref: 21_DOMAINS/03_FOREX

@@ -1,5 +1,5 @@
 ---
-title: Amos Automation Kernel Vinfinity — Knowledge Base Synthesis & Reference
+title: "Amos Automation Kernel Vinfinity — Knowledge Base Synthesis & Reference"
 type: knowledge_specification
 source: 11_KNOWLEDGE
 origin_architect: Trang Phan

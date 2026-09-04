@@ -3,7 +3,7 @@ type: canon
 source: 01_CANON/02_UNIVERSE_CANON
 artifact_id: AMOS-7-PART-UNIVERSE-CANON
 name: AMOS_7_PART_UNIVERSE_CANON
-title: AMOS 7-Part Universe Canon — Universal Partition, Boundary, and Integration Model
+title: "AMOS 7-Part Universe Canon — Universal Partition, Boundary, and Integration Model"
 document_version: 2.0.0
 canon_version: 4.4
 amos_core_target: v4.4

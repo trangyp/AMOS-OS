@@ -1,5 +1,5 @@
 ---
-title: AMOS C06 Society & Culture Domain Architecture
+title: "AMOS C06 Society & Culture Domain Architecture"
 type: domain_architecture_contract
 source: 21_DOMAINS
 domain: C06_SOCIETY_CULTURE

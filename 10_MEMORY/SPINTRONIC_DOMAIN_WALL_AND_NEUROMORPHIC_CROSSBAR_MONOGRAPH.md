@@ -1,5 +1,5 @@
 ---
-title: Formal Monograph: Spintronic Domain Wall Racetrack Memories & Analog Neuromorphic Crossbars (2026)
+title: "Formal Monograph: Spintronic Domain Wall Racetrack Memories & Analog Neuromorphic Crossbars (2026)"
 type: research_monograph
 paper_id: AMOS-MONO-SPINTRONICS-2026
 plane: 10_MEMORY

@@ -1,5 +1,5 @@
 ---
-title: Generator Admission — Cognitive Matrix Cell & Coordinate Specification
+title: "Generator Admission — Cognitive Matrix Cell & Coordinate Specification"
 type: cognitive_matrix_specification
 source: 25_COGNITIVE_MATRIX
 origin_architect: Trang Phan

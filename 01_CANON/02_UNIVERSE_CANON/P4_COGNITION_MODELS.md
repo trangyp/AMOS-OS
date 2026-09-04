@@ -1,5 +1,5 @@
 ---
-title: P4 Cognition & Models
+title: "P4 Cognition & Models"
 type: model
 source: 01_CANON/02_UNIVERSE_CANON
 artifact: P4_COGNITION_MODELS.md

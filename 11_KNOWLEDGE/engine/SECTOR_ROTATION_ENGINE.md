@@ -1,5 +1,5 @@
 ---
-title: AMOS Sector Rotation Engine — Macroeconomic Business Cycle, Yield Curve Inversion & Dynamic Sector Allocation Architecture
+title: "AMOS Sector Rotation Engine — Macroeconomic Business Cycle, Yield Curve Inversion & Dynamic Sector Allocation Architecture"
 created: '2026-08-22'
 origin_architect: Trang Phan
 steward: Trang Phan

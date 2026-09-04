@@ -102,7 +102,7 @@ Where $S \ge 0.80$ indicates diffraction-limited performance and $S \ge 0.90$ in
 
 - [[05_COGNITIVE_ORGANISM/AUTONOMOUS_BCI_WAVEFRONT_PHASE_SHAPING_AND_SLM_ENGINE|AUTONOMOUS_BCI_WAVEFRONT_PHASE_SHAPING_AND_SLM_ENGINE]] — Engine Spec.
 - [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]] — Cognitive Organism Master Map.
-- [[15_INTERFACES/bci_neural_flow_visualizer.html|bci_neural_flow_visualizer.html]] — Interactive BCI Dashboard.
+- [bci_neural_flow_visualizer.html](/_AMOS_OS/15_INTERFACES/bci_neural_flow_visualizer.html) — Interactive BCI Dashboard.
 - [[22_RESEARCH/01_PAPERS/SOTA_NEUROMORPHIC_OPTOGENETICS_AND_PHOTONIC_BCI_2026|SOTA_NEUROMORPHIC_OPTOGENETICS_AND_PHOTONIC_BCI_2026]] — Neuromorphic BCI Paper.
 - [[22_RESEARCH/01_MATHEMATICS/AMOS_137_MATH_REGISTRY|AMOS_137_MATH_REGISTRY]] — Mathematical Registry.
 

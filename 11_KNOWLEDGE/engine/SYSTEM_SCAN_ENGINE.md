@@ -1,5 +1,5 @@
 ---
-title: AMOS System Scan Engine — Distributed Infrastructure Topology, Process Tracing & Microservice Health Architecture
+title: "AMOS System Scan Engine — Distributed Infrastructure Topology, Process Tracing & Microservice Health Architecture"
 created: '2026-08-22'
 origin_architect: Trang Phan
 steward: Trang Phan

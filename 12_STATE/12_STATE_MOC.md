@@ -1,5 +1,5 @@
 ---
-title: 12_STATE MOC — Causal State & Epoch Progression
+title: "12_STATE MOC — Causal State & Epoch Progression"
 type: moc
 source: 12_STATE
 origin_architect: Trang Phan

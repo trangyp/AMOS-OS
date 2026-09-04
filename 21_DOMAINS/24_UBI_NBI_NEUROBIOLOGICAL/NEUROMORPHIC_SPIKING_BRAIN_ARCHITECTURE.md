@@ -1,5 +1,5 @@
 ---
-title: Neuromorphic Spiking Brain Architecture — Event-Driven SNNs, Memristive Crossbars & Optogenetic Interfacing
+title: "Neuromorphic Spiking Brain Architecture — Event-Driven SNNs, Memristive Crossbars & Optogenetic Interfacing"
 type: domain_specification
 domain: 24_UBI_NBI_NEUROBIOLOGICAL
 family: C04_BIO_NEURO

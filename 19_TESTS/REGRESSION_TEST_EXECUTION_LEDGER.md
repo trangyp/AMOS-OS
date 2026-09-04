@@ -1,5 +1,5 @@
 ---
-title: Autonomous Code Generation & Metamorphic Regression Testing Ledger
+title: "Autonomous Code Generation & Metamorphic Regression Testing Ledger"
 type: test_ledger
 plane: 19_TESTS
 amos_core_target: v4.4

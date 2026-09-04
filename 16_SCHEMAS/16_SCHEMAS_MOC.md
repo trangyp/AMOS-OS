@@ -1,5 +1,5 @@
 ---
-title: 16_SCHEMAS MOC — Schemas & Typed Data Contracts
+title: "16_SCHEMAS MOC — Schemas & Typed Data Contracts"
 type: moc
 source: 16_SCHEMAS
 origin_architect: Trang Phan

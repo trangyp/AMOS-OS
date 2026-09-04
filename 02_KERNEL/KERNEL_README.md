@@ -1,5 +1,5 @@
 ---
-title: 02_KERNEL — Deterministic Reasoning & Invariant Primitives
+title: "02_KERNEL — Deterministic Reasoning & Invariant Primitives"
 type: architecture_specification
 source: 02_KERNEL
 origin_architect: Trang Phan

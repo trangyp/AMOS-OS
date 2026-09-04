@@ -1,5 +1,5 @@
 ---
-title: Continuous Automated Multi-Asset Forex Execution Bot & Dynamic Risk Circuit Breakers
+title: "Continuous Automated Multi-Asset Forex Execution Bot & Dynamic Risk Circuit Breakers"
 type: execution_bot_specification
 plane: 21_DOMAINS/03_FOREX
 amos_core_target: v4.4

@@ -1,5 +1,5 @@
 ---
-title: 22_C12_EARTH_ECOLOGY Domain Index & Ontology Map
+title: "22_C12_EARTH_ECOLOGY Domain Index & Ontology Map"
 type: moc
 plane: 21_DOMAINS
 domain: 22_C12_EARTH_ECOLOGY

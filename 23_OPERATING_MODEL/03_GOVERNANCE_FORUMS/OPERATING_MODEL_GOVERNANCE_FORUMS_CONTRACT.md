@@ -1,5 +1,5 @@
 ---
-title: Operating Model Governance Forums Contract — Alignment Councils, Review Cadences & Consensus Procedures
+title: "Operating Model Governance Forums Contract — Alignment Councils, Review Cadences & Consensus Procedures"
 type: subplane_contract
 plane: 23_OPERATING_MODEL
 subplane: 03_GOVERNANCE_FORUMS

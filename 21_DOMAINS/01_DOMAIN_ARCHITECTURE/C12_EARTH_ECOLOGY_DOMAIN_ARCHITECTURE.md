@@ -1,5 +1,5 @@
 ---
-title: AMOS C12 Earth & Ecology Domain Architecture
+title: "AMOS C12 Earth & Ecology Domain Architecture"
 type: domain_architecture_contract
 source: 21_DOMAINS
 domain: C12_EARTH_ECOLOGY

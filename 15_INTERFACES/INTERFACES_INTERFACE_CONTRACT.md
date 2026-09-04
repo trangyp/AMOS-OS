@@ -1,5 +1,5 @@
 ---
-title: 15_INTERFACES Master Interface & System Surface Contract
+title: "15_INTERFACES Master Interface & System Surface Contract"
 type: control_contract
 source: 15_INTERFACES
 origin_architect: Trang Phan

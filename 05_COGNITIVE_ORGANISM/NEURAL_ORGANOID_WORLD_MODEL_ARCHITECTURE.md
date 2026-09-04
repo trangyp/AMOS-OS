@@ -1,5 +1,5 @@
 ---
-title: Neural Organoid World Models & Collective Bioelectricity Architecture
+title: "Neural Organoid World Models & Collective Bioelectricity Architecture"
 type: architecture_specification
 plane: 05_COGNITIVE_ORGANISM
 amos_core_target: v4.4

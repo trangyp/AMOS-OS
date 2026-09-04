@@ -1,7 +1,7 @@
 ---
 artifact_id: AMOS-SOTA-GOVERNED-MACHINE-EVOLUTION-2026
 name: sota-governed-machine-evolution-2026
-title: Governed Machine Evolution Framework (GMEF): Reality-Bound Authorization, Epistemic Proofs, and Failure Containment in Autonomous AI Agents
+title: "Governed Machine Evolution Framework (GMEF): Reality-Bound Authorization, Epistemic Proofs, and Failure Containment in Autonomous AI Agents"
 document_version: "2.0.0"
 schema_version: 2.0.0
 amos_core_target: "v4.4"

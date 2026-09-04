@@ -1,5 +1,5 @@
 ---
-title: Multi-Currency Portfolio Microstructure & Cross-Pair Dynamics
+title: "Multi-Currency Portfolio Microstructure & Cross-Pair Dynamics"
 type: domain_specification
 domain: 03_FOREX
 family: B01_GLOBAL_MACRO

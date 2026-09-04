@@ -2,7 +2,7 @@
 origin_architect: Trang Phan
 steward: Trang Phan
 amos_core_target: v4.4
-title: AMOS C05 — Mind & Behavior Master Knowledge
+title: "AMOS C05 — Mind & Behavior Master Knowledge"
 type: mind
 source: 11_KNOWLEDGE
 tags:

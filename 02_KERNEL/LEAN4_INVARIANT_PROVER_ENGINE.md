@@ -1,5 +1,5 @@
 ---
-title: Lean 4 Formal Verification Prover Engine & Invariant Kernel Specification
+title: "Lean 4 Formal Verification Prover Engine & Invariant Kernel Specification"
 type: kernel_specification
 plane: 02_KERNEL
 amos_core_target: v4.4

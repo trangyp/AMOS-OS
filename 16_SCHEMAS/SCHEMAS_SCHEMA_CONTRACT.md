@@ -1,5 +1,5 @@
 ---
-title: 16_SCHEMAS Master Schema & Structural Typing Contract
+title: "16_SCHEMAS Master Schema & Structural Typing Contract"
 type: control_contract
 source: 16_SCHEMAS
 origin_architect: Trang Phan

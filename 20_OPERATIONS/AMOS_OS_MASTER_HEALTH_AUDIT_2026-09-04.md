@@ -1,5 +1,5 @@
 ---
-title: AMOS OS Master Vault Health & Epistemic Audit (2026-09-04)
+title: "AMOS OS Master Vault Health & Epistemic Audit (2026-09-04)"
 type: master_audit
 plane: 20_OPERATIONS
 amos_core_target: v4.4

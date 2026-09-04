@@ -1,5 +1,5 @@
 ---
-title: 24_ARCHIVE MOC — Historical Preservation & Superseded Artifacts
+title: "24_ARCHIVE MOC — Historical Preservation & Superseded Artifacts"
 type: moc
 source: 24_ARCHIVE
 origin_architect: Trang Phan

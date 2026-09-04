@@ -1,5 +1,5 @@
 ---
-title: AMOS C07 Economics & Finance Domain Architecture
+title: "AMOS C07 Economics & Finance Domain Architecture"
 type: domain_architecture_contract
 source: 21_DOMAINS
 domain: C07_ECON_FINANCE

@@ -1,5 +1,5 @@
 ---
-title: Runtime Runtime Contract — Master Execution Core & Virtualized Infrastructure Governance
+title: "Runtime Runtime Contract — Master Execution Core & Virtualized Infrastructure Governance"
 type: plane_contract
 plane: 04_RUNTIME
 domain: B_EXECUTION_CORE_EFFECTS

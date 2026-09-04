@@ -1,5 +1,5 @@
 ---
-title: Kojensi Case Study: Secure Multi-Agency Classified Collaboration
+title: "Kojensi Case Study: Secure Multi-Agency Classified Collaboration"
 type: case_study
 source: 21_DOMAINS/09_SECURITY
 origin_architect: Trang Phan

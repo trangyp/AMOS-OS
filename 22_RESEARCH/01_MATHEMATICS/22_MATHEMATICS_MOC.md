@@ -1,5 +1,5 @@
 ---
-title: 22_MATHEMATICS MOC — Formal Mathematical Registries & Proofs
+title: "22_MATHEMATICS MOC — Formal Mathematical Registries & Proofs"
 type: moc
 plane: 22_RESEARCH
 subplane: 01_MATHEMATICS

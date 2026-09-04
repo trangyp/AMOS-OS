@@ -1,5 +1,5 @@
 ---
-title: Forex Domain — Provenance & Validation Ledger
+title: "Forex Domain — Provenance & Validation Ledger"
 type: provenance_ledger
 source: 21_DOMAINS/03_FOREX
 origin_architect: Trang Phan

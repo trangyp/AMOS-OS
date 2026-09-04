@@ -1,5 +1,5 @@
 ---
-title: Amos Multi Agent Coordination Kernel V0 Machine Architecture — Knowledge Base Synthesis & Reference
+title: "Amos Multi Agent Coordination Kernel V0 Machine Architecture — Knowledge Base Synthesis & Reference"
 type: knowledge_specification
 source: 11_KNOWLEDGE
 origin_architect: Trang Phan

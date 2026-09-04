@@ -1,5 +1,5 @@
 ---
-title: 08_LEGAL Domain Index & Ontology Map
+title: "08_LEGAL Domain Index & Ontology Map"
 type: moc
 plane: 21_DOMAINS
 domain: 08_LEGAL

@@ -1,5 +1,5 @@
 ---
-title: 13_C03_PHYSICS_COSMOS Domain Index & Ontology Map
+title: "13_C03_PHYSICS_COSMOS Domain Index & Ontology Map"
 type: moc
 plane: 21_DOMAINS
 domain: 13_C03_PHYSICS_COSMOS

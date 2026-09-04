@@ -1,5 +1,5 @@
 ---
-title: AMOS C04 Biology & Neuro Domain Architecture
+title: "AMOS C04 Biology & Neuro Domain Architecture"
 type: domain_architecture_contract
 source: 21_DOMAINS
 domain: C04_BIO_NEURO

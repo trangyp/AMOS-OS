@@ -1,5 +1,5 @@
 ---
-title: 36_MARKET_INTELLIGENCE Domain Index & Ontology Map
+title: "36_MARKET_INTELLIGENCE Domain Index & Ontology Map"
 type: moc
 plane: 21_DOMAINS
 domain: 36_MARKET_INTELLIGENCE

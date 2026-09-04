@@ -1,5 +1,5 @@
 ---
-title: SOTA Research Paper: Non-Abelian Anyons, Fibonacci Braiding & Fault-Tolerant Topological Quantum Computation (2026)
+title: "SOTA Research Paper: Non-Abelian Anyons, Fibonacci Braiding & Fault-Tolerant Topological Quantum Computation (2026)"
 type: research_paper
 paper_id: AMOS-SOTA-TOPO-QUANTUM-2026
 amos_core_target: v4.4

@@ -1,5 +1,5 @@
 ---
-title: 25_UBI_NEI_NEUROEMOTIONAL Domain Index & Ontology Map
+title: "25_UBI_NEI_NEUROEMOTIONAL Domain Index & Ontology Map"
 type: moc
 plane: 21_DOMAINS
 domain: 25_UBI_NEI_NEUROEMOTIONAL

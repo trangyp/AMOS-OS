@@ -1,5 +1,5 @@
 ---
-title: 2026 08 22 Amos Go Board 19X19 Runtime Methods — Knowledge Base Synthesis & Reference
+title: "2026 08 22 Amos Go Board 19X19 Runtime Methods — Knowledge Base Synthesis & Reference"
 type: knowledge_specification
 source: 11_KNOWLEDGE
 origin_architect: Trang Phan

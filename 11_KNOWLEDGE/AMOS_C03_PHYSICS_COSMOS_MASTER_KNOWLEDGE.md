@@ -2,7 +2,7 @@
 type: physics
 source: 11_KNOWLEDGE
 id: AMOS-C03-PHYSICS-COSMOS-MASTER-KNOWLEDGE
-title: AMOS C03 — Physics & Cosmos Master Knowledge
+title: "AMOS C03 — Physics & Cosmos Master Knowledge"
 origin_architect: Trang Phan
 artifact_type: domain_master_knowledge
 domain: C03_PHYSICS_COSMOS

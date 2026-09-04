@@ -1,5 +1,5 @@
 ---
-title: Cognitive Matrix Primitives Contract — 19x19 Coordinate Geometry & Cell Manifold Specification
+title: "Cognitive Matrix Primitives Contract — 19x19 Coordinate Geometry & Cell Manifold Specification"
 type: subplane_contract
 plane: 25_COGNITIVE_MATRIX
 subplane: 01_PRIMITIVES

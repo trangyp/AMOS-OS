@@ -1,5 +1,5 @@
 ---
-title: 10_MEMORY MOC — Memory Substrates & Retention
+title: "10_MEMORY MOC — Memory Substrates & Retention"
 type: moc
 source: 10_MEMORY
 origin_architect: Trang Phan

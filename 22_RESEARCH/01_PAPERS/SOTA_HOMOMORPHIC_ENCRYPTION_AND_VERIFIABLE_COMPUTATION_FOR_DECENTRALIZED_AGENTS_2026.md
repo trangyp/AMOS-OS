@@ -1,5 +1,5 @@
 ---
-title: SOTA: Leveled Fully Homomorphic Encryption & Verifiable Swarm Computation (2026)
+title: "SOTA: Leveled Fully Homomorphic Encryption & Verifiable Swarm Computation (2026)"
 type: research_monograph
 plane: 22_RESEARCH
 subplane: 01_PAPERS

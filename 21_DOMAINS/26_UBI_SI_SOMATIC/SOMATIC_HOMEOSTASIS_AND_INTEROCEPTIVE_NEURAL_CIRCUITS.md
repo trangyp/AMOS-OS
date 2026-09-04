@@ -1,5 +1,5 @@
 ---
-title: Somatic Homeostasis and Interoceptive Neural Circuits — Vagal Signaling, Baroreceptor Loops & Visceral State Estimation
+title: "Somatic Homeostasis and Interoceptive Neural Circuits — Vagal Signaling, Baroreceptor Loops & Visceral State Estimation"
 type: domain_specification
 domain: 26_UBI_SI_SOMATIC
 family: C04_BIO_NEURO

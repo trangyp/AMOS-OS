@@ -1,5 +1,5 @@
 ---
-title: 13_MODELS Master Models & Latent World Representation Contract
+title: "13_MODELS Master Models & Latent World Representation Contract"
 type: control_contract
 source: 13_MODELS
 origin_architect: Trang Phan

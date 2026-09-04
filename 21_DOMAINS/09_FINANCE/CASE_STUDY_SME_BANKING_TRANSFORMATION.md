@@ -1,5 +1,5 @@
 ---
-title: Case Study: SME Banking Transformation via AMOS Bio-Logical Architecture
+title: "Case Study: SME Banking Transformation via AMOS Bio-Logical Architecture"
 type: case_study
 source: 21_DOMAINS/01_FINANCE
 origin_architect: Trang Phan

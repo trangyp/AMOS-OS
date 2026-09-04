@@ -1,5 +1,5 @@
 ---
-title: Distributed RAFT Consensus & CAS State Sync — Execution Ledger
+title: "Distributed RAFT Consensus & CAS State Sync — Execution Ledger"
 type: consensus_ledger
 plane: 09_PROTOCOLS
 amos_core_target: v4.4

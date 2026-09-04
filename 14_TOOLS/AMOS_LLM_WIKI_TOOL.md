@@ -1,5 +1,5 @@
 ---
-title: AMOS LLM Wiki Tooling Suite — Ingestion, Hybrid BM25/Vector Search & Knowledge Distillation Specification
+title: "AMOS LLM Wiki Tooling Suite — Ingestion, Hybrid BM25/Vector Search & Knowledge Distillation Specification"
 type: tool_specification
 plane: 14_TOOLS
 source: 14_TOOLS

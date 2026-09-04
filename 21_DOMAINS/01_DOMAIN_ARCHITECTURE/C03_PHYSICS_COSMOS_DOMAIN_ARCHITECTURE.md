@@ -1,5 +1,5 @@
 ---
-title: AMOS C03 Physics & Cosmos Domain Architecture
+title: "AMOS C03 Physics & Cosmos Domain Architecture"
 type: domain_architecture_contract
 source: 21_DOMAINS
 domain: C03_PHYSICS_COSMOS

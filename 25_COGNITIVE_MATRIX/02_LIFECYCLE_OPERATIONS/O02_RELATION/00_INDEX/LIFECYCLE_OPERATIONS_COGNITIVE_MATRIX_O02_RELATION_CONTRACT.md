@@ -1,5 +1,5 @@
 ---
-title: Lifecycle Operations Cognitive Matrix O02 Relation Contract — Cognitive Matrix Cell & Coordinate Specification
+title: "Lifecycle Operations Cognitive Matrix O02 Relation Contract — Cognitive Matrix Cell & Coordinate Specification"
 type: cognitive_matrix_specification
 source: 25_COGNITIVE_MATRIX
 origin_architect: Trang Phan

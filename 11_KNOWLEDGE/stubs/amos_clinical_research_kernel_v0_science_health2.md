@@ -1,5 +1,5 @@
 ---
-title: Amos Clinical Research Kernel V0 Science Health2 — Knowledge Base Synthesis & Reference
+title: "Amos Clinical Research Kernel V0 Science Health2 — Knowledge Base Synthesis & Reference"
 type: knowledge_specification
 source: 11_KNOWLEDGE
 origin_architect: Trang Phan

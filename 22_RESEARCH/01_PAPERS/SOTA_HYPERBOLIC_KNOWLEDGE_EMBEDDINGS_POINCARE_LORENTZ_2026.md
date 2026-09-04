@@ -1,5 +1,5 @@
 ---
-title: SOTA: Hyperbolic Riemannian Manifolds (Poincaré & Lorentz) for Hierarchical Epistemic Embeddings (2026)
+title: "SOTA: Hyperbolic Riemannian Manifolds (Poincaré & Lorentz) for Hierarchical Epistemic Embeddings (2026)"
 type: research_paper
 plane: 22_RESEARCH
 origin_architect: Trang Phan

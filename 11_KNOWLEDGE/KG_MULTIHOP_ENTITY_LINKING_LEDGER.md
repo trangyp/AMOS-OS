@@ -1,5 +1,5 @@
 ---
-title: Knowledge Graph Embedding & Multi-Hop Entity Linker — Execution Ledger
+title: "Knowledge Graph Embedding & Multi-Hop Entity Linker — Execution Ledger"
 type: kg_ledger
 plane: 11_KNOWLEDGE
 amos_core_target: v4.4

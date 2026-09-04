@@ -1,5 +1,5 @@
 ---
-title: 18_SECURITY MOC — Security & Reality-Bound Authorization
+title: "18_SECURITY MOC — Security & Reality-Bound Authorization"
 type: moc
 source: 18_SECURITY
 origin_architect: Trang Phan

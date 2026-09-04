@@ -1,5 +1,5 @@
 ---
-title: 41_QUANTUM_SYSTEMS Domain Index & Ontology Map
+title: "41_QUANTUM_SYSTEMS Domain Index & Ontology Map"
 type: moc
 plane: 21_DOMAINS
 domain: 41_QUANTUM_SYSTEMS

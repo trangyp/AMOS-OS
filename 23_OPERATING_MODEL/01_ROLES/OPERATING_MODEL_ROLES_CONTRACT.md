@@ -1,5 +1,5 @@
 ---
-title: Operating Model Roles Contract — Governance Taxonomy, RACI Matrices & Role Invariants
+title: "Operating Model Roles Contract — Governance Taxonomy, RACI Matrices & Role Invariants"
 type: subplane_contract
 plane: 23_OPERATING_MODEL
 subplane: 01_ROLES

@@ -1,5 +1,5 @@
 ---
-title: Research Papers Ingestion & Peer Review Contract
+title: "Research Papers Ingestion & Peer Review Contract"
 type: control_contract
 source: 22_RESEARCH/01_PAPERS
 origin_architect: Trang Phan

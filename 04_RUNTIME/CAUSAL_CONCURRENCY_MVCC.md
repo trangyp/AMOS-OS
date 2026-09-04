@@ -1,5 +1,5 @@
 ---
-title: MVCC Causal Concurrency & Epoch Finalization Specification
+title: "MVCC Causal Concurrency & Epoch Finalization Specification"
 type: specification
 source: 04_RUNTIME
 origin_architect: Trang Phan

@@ -1,5 +1,5 @@
 ---
-title: 07_HEALTHCARE Domain Index & Ontology Map
+title: "07_HEALTHCARE Domain Index & Ontology Map"
 type: moc
 plane: 21_DOMAINS
 domain: 07_HEALTHCARE

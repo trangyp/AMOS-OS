@@ -1,5 +1,5 @@
 ---
-title: AMOS Investment Engine — Multi-Asset Portfolio Allocation, Black-Litterman Bayesian Updating & Risk Parity Architecture
+title: "AMOS Investment Engine — Multi-Asset Portfolio Allocation, Black-Litterman Bayesian Updating & Risk Parity Architecture"
 created: '2026-08-22'
 origin_architect: Trang Phan
 steward: Trang Phan

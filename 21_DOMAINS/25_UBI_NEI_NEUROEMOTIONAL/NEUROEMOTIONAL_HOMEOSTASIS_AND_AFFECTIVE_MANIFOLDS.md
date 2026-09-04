@@ -1,5 +1,5 @@
 ---
-title: Neuroemotional Homeostasis and Affective Manifolds — Polyvagal Dynamics, Neurochemical State Spaces & Relational Attunement
+title: "Neuroemotional Homeostasis and Affective Manifolds — Polyvagal Dynamics, Neurochemical State Spaces & Relational Attunement"
 type: domain_specification
 domain: 25_UBI_NEI_NEUROEMOTIONAL
 family: C05_MIND_BEHAVIOR

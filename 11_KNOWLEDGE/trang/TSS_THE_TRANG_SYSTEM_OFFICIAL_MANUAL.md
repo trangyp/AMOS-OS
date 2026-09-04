@@ -1,5 +1,5 @@
 ---
-title: TSS — The Trang System Official Manual (7 Cycles, 4 Variables)
+title: "TSS — The Trang System Official Manual (7 Cycles, 4 Variables)"
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/training/TSS_Official_Manual.pdf"
 origin_architect: "Trang Phan"

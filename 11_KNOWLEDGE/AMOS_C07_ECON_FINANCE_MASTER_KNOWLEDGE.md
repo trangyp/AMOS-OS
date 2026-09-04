@@ -2,7 +2,7 @@
 type: finance
 source: 11_KNOWLEDGE
 id: AMOS-C07-ECON-FINANCE-MASTER-KNOWLEDGE
-title: AMOS C07 — Economics & Finance Master Knowledge
+title: "AMOS C07 — Economics & Finance Master Knowledge"
 origin_architect: Trang Phan
 artifact_type: domain_master_knowledge
 domain: C07_ECON_FINANCE

@@ -1,5 +1,5 @@
 ---
-title: 04_STRATEGY Domain Index & Ontology Map
+title: "04_STRATEGY Domain Index & Ontology Map"
 type: moc
 plane: 21_DOMAINS
 domain: 04_STRATEGY

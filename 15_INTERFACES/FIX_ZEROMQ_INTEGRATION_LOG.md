@@ -1,5 +1,5 @@
 ---
-title: Forex FIX 4.4 & ZeroMQ Socket Adapter — Integration Test Ledger
+title: "Forex FIX 4.4 & ZeroMQ Socket Adapter — Integration Test Ledger"
 type: integration_report
 plane: 15_INTERFACES
 domain_ref: 21_DOMAINS/03_FOREX

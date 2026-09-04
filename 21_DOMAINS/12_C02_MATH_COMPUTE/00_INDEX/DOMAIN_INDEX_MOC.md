@@ -1,5 +1,5 @@
 ---
-title: 12_C02_MATH_COMPUTE Domain Index & Ontology Map
+title: "12_C02_MATH_COMPUTE Domain Index & Ontology Map"
 type: moc
 plane: 21_DOMAINS
 domain: 12_C02_MATH_COMPUTE

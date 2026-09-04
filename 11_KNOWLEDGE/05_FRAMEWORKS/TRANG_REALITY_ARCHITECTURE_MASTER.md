@@ -1,5 +1,5 @@
 ---
-title: Trang Reality Architecture Master — Knowledge Base Synthesis & Reference
+title: "Trang Reality Architecture Master — Knowledge Base Synthesis & Reference"
 type: knowledge_specification
 source: 11_KNOWLEDGE
 origin_architect: Trang Phan

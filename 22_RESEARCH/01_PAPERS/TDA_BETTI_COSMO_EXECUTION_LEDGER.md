@@ -1,5 +1,5 @@
 ---
-title: Topological Data Analysis & Betti Curve Mapper — Execution Ledger
+title: "Topological Data Analysis & Betti Curve Mapper — Execution Ledger"
 type: tda_ledger
 plane: 22_RESEARCH
 amos_core_target: v4.4

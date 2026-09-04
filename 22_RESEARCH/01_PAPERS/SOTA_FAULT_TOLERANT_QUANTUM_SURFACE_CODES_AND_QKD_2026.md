@@ -1,7 +1,7 @@
 ---
 artifact_id: AMOS-SOTA-FAULT-TOLERANT-QUANTUM-SURFACE-CODES-2026
 name: sota-fault-tolerant-quantum-surface-codes-2026
-title: Fault-Tolerant Rotated Surface Codes, Real-Time FPGA MWPM Syndrome Decoding, and Continuous-Variable QKD Networks in AMOS Quantum Substrate
+title: "Fault-Tolerant Rotated Surface Codes, Real-Time FPGA MWPM Syndrome Decoding, and Continuous-Variable QKD Networks in AMOS Quantum Substrate"
 document_version: "2.0.0"
 schema_version: 2.0.0
 amos_core_target: "v4.4"

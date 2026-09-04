@@ -1,5 +1,5 @@
 ---
-title: 15_INTERFACES MOC — Interfaces & System Surfaces
+title: "15_INTERFACES MOC — Interfaces & System Surfaces"
 type: moc
 source: 15_INTERFACES
 origin_architect: Trang Phan

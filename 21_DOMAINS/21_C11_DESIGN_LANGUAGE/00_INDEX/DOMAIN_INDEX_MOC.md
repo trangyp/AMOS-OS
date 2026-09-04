@@ -1,5 +1,5 @@
 ---
-title: 21_C11_DESIGN_LANGUAGE Domain Index & Ontology Map
+title: "21_C11_DESIGN_LANGUAGE Domain Index & Ontology Map"
 type: moc
 plane: 21_DOMAINS
 domain: 21_C11_DESIGN_LANGUAGE

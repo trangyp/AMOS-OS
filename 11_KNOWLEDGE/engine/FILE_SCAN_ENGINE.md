@@ -1,5 +1,5 @@
 ---
-title: AMOS File Scan Engine — Deep Invariant-Aware File System Scanning, AST Static Analysis & Integrity Verification Architecture
+title: "AMOS File Scan Engine — Deep Invariant-Aware File System Scanning, AST Static Analysis & Integrity Verification Architecture"
 created: '2026-08-22'
 origin_architect: Trang Phan
 steward: Trang Phan

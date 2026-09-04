@@ -2,7 +2,7 @@
 origin_architect: Trang Phan
 steward: Trang Phan
 amos_core_target: v4.4
-title: AMOS C09 — Organization, Law & Policy Master Knowledge
+title: "AMOS C09 — Organization, Law & Policy Master Knowledge"
 type: law
 source: 11_KNOWLEDGE
 tags:

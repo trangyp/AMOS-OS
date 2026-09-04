@@ -2,7 +2,7 @@
 type: design
 source: 11_KNOWLEDGE
 id: AMOS-C11-DESIGN-LANGUAGE-MASTER-KNOWLEDGE
-title: AMOS C11 — Design & Language Master Knowledge
+title: "AMOS C11 — Design & Language Master Knowledge"
 origin_architect: Trang Phan
 artifact_type: domain_master_knowledge
 domain: C11_DESIGN_LANGUAGE

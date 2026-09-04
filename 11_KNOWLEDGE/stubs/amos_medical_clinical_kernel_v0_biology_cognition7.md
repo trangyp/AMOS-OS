@@ -1,5 +1,5 @@
 ---
-title: Amos Medical Clinical Kernel V0 Biology Cognition7 — Knowledge Base Synthesis & Reference
+title: "Amos Medical Clinical Kernel V0 Biology Cognition7 — Knowledge Base Synthesis & Reference"
 type: knowledge_specification
 source: 11_KNOWLEDGE
 origin_architect: Trang Phan

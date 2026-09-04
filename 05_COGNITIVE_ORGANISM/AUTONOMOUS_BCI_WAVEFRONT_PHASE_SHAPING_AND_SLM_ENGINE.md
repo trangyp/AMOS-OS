@@ -1,5 +1,5 @@
 ---
-title: Autonomous BCI Wavefront Phase-Shaping & SLM Holographic Projection Engine
+title: "Autonomous BCI Wavefront Phase-Shaping & SLM Holographic Projection Engine"
 type: organism_specification
 plane: 05_COGNITIVE_ORGANISM
 amos_core_target: v4.4

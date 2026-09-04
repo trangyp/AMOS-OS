@@ -1,5 +1,5 @@
 ---
-title: 2026 08 22 Amos Accessibility I18N — Knowledge Base Synthesis & Reference
+title: "2026 08 22 Amos Accessibility I18N — Knowledge Base Synthesis & Reference"
 type: knowledge_specification
 source: 11_KNOWLEDGE
 origin_architect: Trang Phan

@@ -1,5 +1,5 @@
 ---
-title: 14_TOOLS MOC — Tools & Sandboxed Capability Adapters
+title: "14_TOOLS MOC — Tools & Sandboxed Capability Adapters"
 type: moc
 source: 14_TOOLS
 origin_architect: Trang Phan

@@ -1,5 +1,5 @@
 ---
-title: SOTA Hyperbolic Quantum Circuits, Holographic Tensor Networks & AdS/CFT Error Correction (2026)
+title: "SOTA Hyperbolic Quantum Circuits, Holographic Tensor Networks & AdS/CFT Error Correction (2026)"
 type: research_monograph
 source: 22_RESEARCH/01_PAPERS
 origin_architect: Trang Phan

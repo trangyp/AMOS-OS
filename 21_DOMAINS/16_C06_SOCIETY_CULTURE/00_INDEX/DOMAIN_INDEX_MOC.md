@@ -1,5 +1,5 @@
 ---
-title: 16_C06_SOCIETY_CULTURE Domain Index & Ontology Map
+title: "16_C06_SOCIETY_CULTURE Domain Index & Ontology Map"
 type: moc
 plane: 21_DOMAINS
 domain: 16_C06_SOCIETY_CULTURE

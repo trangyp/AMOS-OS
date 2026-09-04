@@ -1,5 +1,5 @@
 ---
-title: AMOS 26-Plane Cognitive Matrix: Holographic Tensor Routing & Higher-Order Cognitive Manifolds (2026)
+title: "AMOS 26-Plane Cognitive Matrix: Holographic Tensor Routing & Higher-Order Cognitive Manifolds (2026)"
 type: architectural_monograph
 plane: 25_COGNITIVE_MATRIX
 amos_core_target: v4.4

@@ -1,5 +1,5 @@
 ---
-title: AMOS Self-Healing Autonomous Micro-Sandboxes in WASI 0.2: Architecture, Capability Confinement & Fault Recovery
+title: "AMOS Self-Healing Autonomous Micro-Sandboxes in WASI 0.2: Architecture, Capability Confinement & Fault Recovery"
 type: architectural_guide
 plane: 14_TOOLS
 amos_core_target: v4.4

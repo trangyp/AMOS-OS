@@ -1,5 +1,5 @@
 ---
-title: Protocols Protocol Contract — Master Distributed Consensus, Coordination Avoidance & Task Handoff Specification
+title: "Protocols Protocol Contract — Master Distributed Consensus, Coordination Avoidance & Task Handoff Specification"
 type: plane_contract
 plane: 09_PROTOCOLS
 domain: E_INTERACTION_SECURITY_EFFECTS

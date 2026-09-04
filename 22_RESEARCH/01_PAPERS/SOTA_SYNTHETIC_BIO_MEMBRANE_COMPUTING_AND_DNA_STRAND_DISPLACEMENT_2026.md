@@ -1,5 +1,5 @@
 ---
-title: SOTA Research Paper: Synthetic Bio-Membrane Computing, Chemical Reaction Networks & DNA Strand Displacement (2026)
+title: "SOTA Research Paper: Synthetic Bio-Membrane Computing, Chemical Reaction Networks & DNA Strand Displacement (2026)"
 type: research_paper
 paper_id: AMOS-SOTA-BIO-MEMBRANE-2026
 amos_core_target: v4.4

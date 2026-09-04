@@ -1,5 +1,5 @@
 ---
-title: Autonomous Optimal Transport Continuous Normalizing Flow & Model Compression Engine
+title: "Autonomous Optimal Transport Continuous Normalizing Flow & Model Compression Engine"
 type: model_specification
 plane: 13_MODELS
 amos_core_target: v4.4

@@ -1,5 +1,5 @@
 ---
-title: High-Throughput In-Memory Apache Arrow IPC & Zero-Copy State Bus Specification
+title: "High-Throughput In-Memory Apache Arrow IPC & Zero-Copy State Bus Specification"
 type: state_specification
 plane: 12_STATE
 amos_core_target: v4.4

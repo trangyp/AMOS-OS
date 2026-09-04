@@ -1,5 +1,5 @@
 ---
-title: Research Benchmarks — Master Registry & Comparative SOTA Baseline Catalog
+title: "Research Benchmarks — Master Registry & Comparative SOTA Baseline Catalog"
 type: subplane_specification
 plane: 22_RESEARCH
 subplane: 05_BENCHMARKS

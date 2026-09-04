@@ -1,5 +1,5 @@
 ---
-title: 19_C09_ORG_LAW_POLICY Domain Index & Ontology Map
+title: "19_C09_ORG_LAW_POLICY Domain Index & Ontology Map"
 type: moc
 plane: 21_DOMAINS
 domain: 19_C09_ORG_LAW_POLICY

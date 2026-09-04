@@ -1,5 +1,5 @@
 ---
-title: 35_BUSINESS_ANALYSIS Domain Index & Ontology Map
+title: "35_BUSINESS_ANALYSIS Domain Index & Ontology Map"
 type: moc
 plane: 21_DOMAINS
 domain: 35_BUSINESS_ANALYSIS

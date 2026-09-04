@@ -1,5 +1,5 @@
 ---
-title: 18_C08_STRATEGY_GAME Domain Index & Ontology Map
+title: "18_C08_STRATEGY_GAME Domain Index & Ontology Map"
 type: moc
 plane: 21_DOMAINS
 domain: 18_C08_STRATEGY_GAME

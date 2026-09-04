@@ -1,5 +1,5 @@
 ---
-title: 44_EV_INFRASTRUCTURE Domain Index & Ontology Map
+title: "44_EV_INFRASTRUCTURE Domain Index & Ontology Map"
 type: moc
 plane: 21_DOMAINS
 domain: 44_EV_INFRASTRUCTURE

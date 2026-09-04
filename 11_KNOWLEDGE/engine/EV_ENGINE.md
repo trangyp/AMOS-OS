@@ -1,5 +1,5 @@
 ---
-title: AMOS EV Engine — Electric Vehicle Telematics, Grid Balancing & Fleet Optimization Architecture
+title: "AMOS EV Engine — Electric Vehicle Telematics, Grid Balancing & Fleet Optimization Architecture"
 created: '2026-08-22'
 origin_architect: Trang Phan
 steward: Trang Phan

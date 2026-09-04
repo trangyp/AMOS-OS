@@ -1,5 +1,5 @@
 ---
-title: Megawatt Charging Grid Topology and Thermal Management — Liquid-Cooled Dispenser Physics, Transformer Sizing & Substation Load Arbitrage
+title: "Megawatt Charging Grid Topology and Thermal Management — Liquid-Cooled Dispenser Physics, Transformer Sizing & Substation Load Arbitrage"
 type: domain_specification
 domain: 44_EV_INFRASTRUCTURE
 family: C10_TECH_ENGINEERING

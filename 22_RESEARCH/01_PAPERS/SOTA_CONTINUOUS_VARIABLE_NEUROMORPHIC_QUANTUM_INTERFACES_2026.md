@@ -1,5 +1,5 @@
 ---
-title: SOTA: Continuous-Variable Neuromorphic Quantum Interfaces and Bosonic State BCI Encoding (2026)
+title: "SOTA: Continuous-Variable Neuromorphic Quantum Interfaces and Bosonic State BCI Encoding (2026)"
 type: research_paper
 plane: 22_RESEARCH
 origin_architect: Trang Phan

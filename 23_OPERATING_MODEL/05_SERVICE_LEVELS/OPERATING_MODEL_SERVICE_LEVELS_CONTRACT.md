@@ -1,5 +1,5 @@
 ---
-title: Operating Model Service Levels Contract — Epistemic SLAs, Latency Bounds & Invariant Coverage Guarantees
+title: "Operating Model Service Levels Contract — Epistemic SLAs, Latency Bounds & Invariant Coverage Guarantees"
 type: subplane_contract
 plane: 23_OPERATING_MODEL
 subplane: 05_SERVICE_LEVELS

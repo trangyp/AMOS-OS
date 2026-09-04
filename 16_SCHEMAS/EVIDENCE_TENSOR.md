@@ -1,5 +1,5 @@
 ---
-title: Evidence Tensor Data Schema & Arrow Layout
+title: "Evidence Tensor Data Schema & Arrow Layout"
 type: data_schema
 source: 16_SCHEMAS
 amos_core_target: v4.4

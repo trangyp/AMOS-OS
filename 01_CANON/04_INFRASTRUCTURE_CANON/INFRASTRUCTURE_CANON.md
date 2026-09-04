@@ -3,7 +3,7 @@ type: canon
 source: 01_CANON/04_INFRASTRUCTURE_CANON
 artifact_id: AMOS-INFRASTRUCTURE-CANON
 name: INFRASTRUCTURE_CANON
-title: AMOS Infrastructure Canon — Substrate, Resource, Deployment, Resilience, and Operational Foundations
+title: "AMOS Infrastructure Canon — Substrate, Resource, Deployment, Resilience, and Operational Foundations"
 document_version: 2.0.0
 canon_version: 4.4
 amos_core_target: v4.4

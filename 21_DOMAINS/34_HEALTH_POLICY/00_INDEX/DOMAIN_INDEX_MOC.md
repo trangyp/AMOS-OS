@@ -1,5 +1,5 @@
 ---
-title: 34_HEALTH_POLICY Domain Index & Ontology Map
+title: "34_HEALTH_POLICY Domain Index & Ontology Map"
 type: moc
 plane: 21_DOMAINS
 domain: 34_HEALTH_POLICY

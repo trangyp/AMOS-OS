@@ -1,5 +1,5 @@
 ---
-title: Distributed Epistemic Tracing Framework & Causal Telemetry
+title: "Distributed Epistemic Tracing Framework & Causal Telemetry"
 type: observability_specification
 plane: 17_OBSERVABILITY
 amos_core_target: v4.4

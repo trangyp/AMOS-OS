@@ -1,5 +1,5 @@
 ---
-title: 18_SECURITY Master Security & Reality-Bound Authorization Contract
+title: "18_SECURITY Master Security & Reality-Bound Authorization Contract"
 type: control_contract
 source: 18_SECURITY
 origin_architect: Trang Phan

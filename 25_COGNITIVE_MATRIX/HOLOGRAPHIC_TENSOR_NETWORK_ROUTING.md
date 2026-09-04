@@ -1,5 +1,5 @@
 ---
-title: Holographic Tensor Network Routing (Perfect Tensors & Ryu-Takayanagi Entanglement)
+title: "Holographic Tensor Network Routing (Perfect Tensors & Ryu-Takayanagi Entanglement)"
 type: architecture_specification
 plane: 25_COGNITIVE_MATRIX
 amos_core_target: v4.4

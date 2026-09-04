@@ -1,5 +1,5 @@
 ---
-title: AMOS C09 Organization, Law & Policy Domain Architecture
+title: "AMOS C09 Organization, Law & Policy Domain Architecture"
 type: domain_architecture_contract
 source: 21_DOMAINS
 domain: C09_ORG_LAW_POLICY

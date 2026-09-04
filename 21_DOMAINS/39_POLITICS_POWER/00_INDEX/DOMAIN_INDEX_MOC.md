@@ -1,5 +1,5 @@
 ---
-title: 39_POLITICS_POWER Domain Index & Ontology Map
+title: "39_POLITICS_POWER Domain Index & Ontology Map"
 type: moc
 plane: 21_DOMAINS
 domain: 39_POLITICS_POWER

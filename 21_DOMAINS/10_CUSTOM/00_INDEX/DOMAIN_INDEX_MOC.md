@@ -1,5 +1,5 @@
 ---
-title: 10_CUSTOM Domain Index & Ontology Map
+title: "10_CUSTOM Domain Index & Ontology Map"
 type: moc
 plane: 21_DOMAINS
 domain: 10_CUSTOM

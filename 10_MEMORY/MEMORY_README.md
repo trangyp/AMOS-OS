@@ -1,5 +1,5 @@
 ---
-title: 10_MEMORY — Substrate Architecture & Representation
+title: "10_MEMORY — Substrate Architecture & Representation"
 type: architecture_specification
 source: 10_MEMORY
 origin_architect: Trang Phan

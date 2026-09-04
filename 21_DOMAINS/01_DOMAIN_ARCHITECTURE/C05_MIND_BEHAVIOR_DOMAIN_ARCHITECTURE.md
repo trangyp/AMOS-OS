@@ -1,5 +1,5 @@
 ---
-title: AMOS C05 Mind & Behavior Domain Architecture
+title: "AMOS C05 Mind & Behavior Domain Architecture"
 type: domain_architecture_contract
 source: 21_DOMAINS
 domain: C05_MIND_BEHAVIOR

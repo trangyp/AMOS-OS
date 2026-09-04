@@ -1,5 +1,5 @@
 ---
-title: 22_RESEARCH — Formal Mathematics & Scientific Foundations
+title: "22_RESEARCH — Formal Mathematics & Scientific Foundations"
 type: architecture_specification
 source: 22_RESEARCH
 origin_architect: Trang Phan

@@ -1,5 +1,5 @@
 ---
-title: Continuous-Variable QKD (GG02) — Simulation & Key Rate Ledger
+title: "Continuous-Variable QKD (GG02) — Simulation & Key Rate Ledger"
 type: simulation_ledger
 plane: 21_DOMAINS/41_QUANTUM_SYSTEMS
 amos_core_target: v4.4

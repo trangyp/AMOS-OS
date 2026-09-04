@@ -1,5 +1,5 @@
 ---
-title: SOTA Topological Majorana Zero Modes, Quantum Nanowire Braiding & Fault-Tolerant Computation (2026)
+title: "SOTA Topological Majorana Zero Modes, Quantum Nanowire Braiding & Fault-Tolerant Computation (2026)"
 type: research_monograph
 source: 22_RESEARCH/01_PAPERS
 origin_architect: Trang Phan

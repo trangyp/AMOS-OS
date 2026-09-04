@@ -1,5 +1,5 @@
 ---
-title: Cognitive Matrix Routing Contract — Holographic Tensor Contraction & Geodesic Routing Specification
+title: "Cognitive Matrix Routing Contract — Holographic Tensor Contraction & Geodesic Routing Specification"
 type: subplane_contract
 plane: 25_COGNITIVE_MATRIX
 subplane: 10_ROUTING

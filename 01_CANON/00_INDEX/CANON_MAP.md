@@ -3,7 +3,7 @@ type: canon
 source: 01_CANON/00_INDEX
 artifact_id: AMOS-OS-CANON-MAP
 name: AMOS_OS_CANON_MAP
-title: AMOS OS Canon Map — Canonical Authority, Lineage, Provenance, and Promotion Topology
+title: "AMOS OS Canon Map — Canonical Authority, Lineage, Provenance, and Promotion Topology"
 document_version: 2.0.0
 map_version: 1.0.0
 amos_core_target: v4.4

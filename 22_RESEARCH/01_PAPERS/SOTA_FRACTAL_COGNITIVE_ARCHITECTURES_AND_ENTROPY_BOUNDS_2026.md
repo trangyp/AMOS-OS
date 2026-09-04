@@ -1,5 +1,5 @@
 ---
-title: SOTA: Fractal Cognitive Architectures, Information Entropy Bounds, and Invariant Closure in Distributed Agent OS (2026)
+title: "SOTA: Fractal Cognitive Architectures, Information Entropy Bounds, and Invariant Closure in Distributed Agent OS (2026)"
 type: research_paper
 plane: 22_RESEARCH
 origin_architect: Trang Phan

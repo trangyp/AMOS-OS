@@ -1,5 +1,5 @@
 ---
-title: 06_AGENTS — Agent Classification & Lifecycle Architecture
+title: "06_AGENTS — Agent Classification & Lifecycle Architecture"
 type: architecture_specification
 source: 06_AGENTS
 origin_architect: Trang Phan

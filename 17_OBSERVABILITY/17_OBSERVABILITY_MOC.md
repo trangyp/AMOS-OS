@@ -1,5 +1,5 @@
 ---
-title: 17_OBSERVABILITY MOC — Observability & Epistemic Health
+title: "17_OBSERVABILITY MOC — Observability & Epistemic Health"
 type: moc
 source: 17_OBSERVABILITY
 origin_architect: Trang Phan

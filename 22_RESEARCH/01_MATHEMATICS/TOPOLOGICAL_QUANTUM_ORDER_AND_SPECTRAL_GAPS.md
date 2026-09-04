@@ -1,5 +1,5 @@
 ---
-title: Topological Quantum Order & Spectral Gap Stability
+title: "Topological Quantum Order & Spectral Gap Stability"
 type: mathematical_specification
 plane: 22_RESEARCH
 amos_core_target: v4.4

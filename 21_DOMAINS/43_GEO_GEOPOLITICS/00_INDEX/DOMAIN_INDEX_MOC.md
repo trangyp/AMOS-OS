@@ -1,5 +1,5 @@
 ---
-title: 43_GEO_GEOPOLITICS Domain Index & Ontology Map
+title: "43_GEO_GEOPOLITICS Domain Index & Ontology Map"
 type: moc
 plane: 21_DOMAINS
 domain: 43_GEO_GEOPOLITICS

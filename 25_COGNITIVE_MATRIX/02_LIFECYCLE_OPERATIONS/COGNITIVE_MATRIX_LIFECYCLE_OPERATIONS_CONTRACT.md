@@ -1,5 +1,5 @@
 ---
-title: Cognitive Matrix Lifecycle Operations Contract — Cell Activation, Contraction & Garbage Collection Specification
+title: "Cognitive Matrix Lifecycle Operations Contract — Cell Activation, Contraction & Garbage Collection Specification"
 type: subplane_contract
 plane: 25_COGNITIVE_MATRIX
 subplane: 02_LIFECYCLE_OPERATIONS

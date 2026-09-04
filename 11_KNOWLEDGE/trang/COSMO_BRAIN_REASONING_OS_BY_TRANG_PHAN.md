@@ -1,5 +1,5 @@
 ---
-title: Cosmo Brain Reasoning OS By Trang Phan — Master Architecture & Mathematical Specification
+title: "Cosmo Brain Reasoning OS By Trang Phan — Master Architecture & Mathematical Specification"
 type: knowledge_specification
 source: 11_KNOWLEDGE
 origin_architect: Trang Phan

@@ -3,7 +3,7 @@ type: index
 source: 01_CANON/00_INDEX
 artifact_id: AMOS-OS-CANON-README
 name: AMOS_OS_CANON_README
-title: AMOS OS Canon — Authoritative Definitions, Laws, Lineage, and Governance
+title: "AMOS OS Canon — Authoritative Definitions, Laws, Lineage, and Governance"
 document_version: 2.0.0
 canon_plane_version: 1.0.0
 amos_core_target: v4.4

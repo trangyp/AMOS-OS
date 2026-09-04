@@ -1,5 +1,5 @@
 ---
-title: Optimal Transport Flow & Model Compression — Execution Ledger
+title: "Optimal Transport Flow & Model Compression — Execution Ledger"
 type: model_ledger
 plane: 13_MODELS
 amos_core_target: v4.4

@@ -1,5 +1,5 @@
 ---
-title: AMOS C11 Design & Language Domain Architecture
+title: "AMOS C11 Design & Language Domain Architecture"
 type: domain_architecture_contract
 source: 21_DOMAINS
 domain: C11_DESIGN_LANGUAGE

@@ -1,5 +1,5 @@
 ---
-title: SOTA: Silicon Photonic Neural Accelerators and Coherent Optical Tensor Processors (2026)
+title: "SOTA: Silicon Photonic Neural Accelerators and Coherent Optical Tensor Processors (2026)"
 type: research_monograph
 plane: 22_RESEARCH
 subplane: 01_PAPERS

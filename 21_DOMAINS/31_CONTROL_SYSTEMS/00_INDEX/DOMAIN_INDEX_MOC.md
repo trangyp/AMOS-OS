@@ -1,5 +1,5 @@
 ---
-title: 31_CONTROL_SYSTEMS Domain Index & Ontology Map
+title: "31_CONTROL_SYSTEMS Domain Index & Ontology Map"
 type: moc
 plane: 21_DOMAINS
 domain: 31_CONTROL_SYSTEMS

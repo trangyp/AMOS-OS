@@ -1,5 +1,5 @@
 ---
-title: 23_OPERATING_MODEL — Governance Forums & Review Panels
+title: "23_OPERATING_MODEL — Governance Forums & Review Panels"
 type: governance_specification
 plane: 23_OPERATING_MODEL
 amos_core_target: v4.4

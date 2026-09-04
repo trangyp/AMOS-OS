@@ -1,5 +1,5 @@
 ---
-title: SOTA High-Channel Endovascular Stentrode & Epidural Neural Bus Architecture (2026)
+title: "SOTA High-Channel Endovascular Stentrode & Epidural Neural Bus Architecture (2026)"
 type: research_monograph
 source: 22_RESEARCH/01_PAPERS
 origin_architect: Trang Phan

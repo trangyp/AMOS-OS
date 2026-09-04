@@ -1,5 +1,5 @@
 ---
-title: Amos Partnerships Channels Kernel V0 Biz Market2 — Knowledge Base Synthesis & Reference
+title: "Amos Partnerships Channels Kernel V0 Biz Market2 — Knowledge Base Synthesis & Reference"
 type: knowledge_specification
 source: 11_KNOWLEDGE
 origin_architect: Trang Phan

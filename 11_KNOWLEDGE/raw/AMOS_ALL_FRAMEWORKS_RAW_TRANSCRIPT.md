@@ -1,5 +1,5 @@
 ---
-title: AMOS All Frameworks — Master Transcripts & Method Formalization
+title: "AMOS All Frameworks — Master Transcripts & Method Formalization"
 type: raw_reference
 source: 11_KNOWLEDGE/raw
 origin_architect: "Trang Phan"

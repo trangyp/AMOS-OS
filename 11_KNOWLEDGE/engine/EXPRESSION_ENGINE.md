@@ -1,5 +1,5 @@
 ---
-title: AMOS Expression Engine — Multimodal Cognitive Articulation, Semantic Styling & Tone Regulation Architecture
+title: "AMOS Expression Engine — Multimodal Cognitive Articulation, Semantic Styling & Tone Regulation Architecture"
 created: '2026-08-22'
 origin_architect: Trang Phan
 steward: Trang Phan

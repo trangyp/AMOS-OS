@@ -1,5 +1,5 @@
 ---
-title: 42_SECTOR_VALUE_CHAIN Domain Index & Ontology Map
+title: "42_SECTOR_VALUE_CHAIN Domain Index & Ontology Map"
 type: moc
 plane: 21_DOMAINS
 domain: 42_SECTOR_VALUE_CHAIN

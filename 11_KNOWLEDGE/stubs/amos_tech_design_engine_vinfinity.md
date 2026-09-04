@@ -1,5 +1,5 @@
 ---
-title: Amos Tech Design Engine Vinfinity — Knowledge Base Synthesis & Reference
+title: "Amos Tech Design Engine Vinfinity — Knowledge Base Synthesis & Reference"
 type: knowledge_specification
 source: 11_KNOWLEDGE
 origin_architect: Trang Phan

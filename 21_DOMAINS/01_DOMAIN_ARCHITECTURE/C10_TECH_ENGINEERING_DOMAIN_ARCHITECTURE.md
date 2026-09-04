@@ -1,5 +1,5 @@
 ---
-title: AMOS C10 Technology & Engineering Domain Architecture
+title: "AMOS C10 Technology & Engineering Domain Architecture"
 type: domain_architecture_contract
 source: 21_DOMAINS
 domain: C10_TECH_ENGINEERING

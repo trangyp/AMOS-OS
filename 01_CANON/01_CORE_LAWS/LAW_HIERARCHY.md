@@ -3,7 +3,7 @@ type: law
 source: 01_CANON/01_CORE_LAWS
 artifact_id: AMOS-LAW-HIERARCHY
 name: LAW_HIERARCHY
-title: AMOS Law Hierarchy — Authority, Precedence, Scope, Conflict, and Supersession
+title: "AMOS Law Hierarchy — Authority, Precedence, Scope, Conflict, and Supersession"
 document_version: 2.0.0
 hierarchy_version: 4.4
 amos_core_target: v4.4

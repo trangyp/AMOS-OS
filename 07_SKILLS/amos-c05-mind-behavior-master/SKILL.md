@@ -27,7 +27,7 @@ law_compliance:
   - L16
   - L17
   - L18
-title: AMOS C05 — Mind & Behavior Master
+title: "AMOS C05 — Mind & Behavior Master"
 type: mind
 source: 11_KNOWLEDGE
 tags:

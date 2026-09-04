@@ -1,5 +1,5 @@
 ---
-title: 23_OPERATING_MODEL — Service Level Objectives (SLAs & SLOs)
+title: "23_OPERATING_MODEL — Service Level Objectives (SLAs & SLOs)"
 type: governance_specification
 plane: 23_OPERATING_MODEL
 amos_core_target: v4.4

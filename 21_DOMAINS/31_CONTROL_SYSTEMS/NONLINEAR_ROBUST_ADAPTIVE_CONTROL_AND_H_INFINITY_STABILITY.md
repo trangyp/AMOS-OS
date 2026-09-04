@@ -1,5 +1,5 @@
 ---
-title: Nonlinear Robust Adaptive Control and H-Infinity Stability — Sliding Mode Control, Lyapunov Invariants & Disturbance Rejection
+title: "Nonlinear Robust Adaptive Control and H-Infinity Stability — Sliding Mode Control, Lyapunov Invariants & Disturbance Rejection"
 type: domain_specification
 domain: 31_CONTROL_SYSTEMS
 family: C10_TECH_ENGINEERING

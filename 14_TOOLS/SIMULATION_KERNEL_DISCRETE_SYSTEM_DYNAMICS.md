@@ -1,5 +1,5 @@
 ---
-title: AMOS Simulation Kernel & Discrete System Dynamics
+title: "AMOS Simulation Kernel & Discrete System Dynamics"
 type: specification
 plane: 14_TOOLS
 origin_architect: Trang Phan

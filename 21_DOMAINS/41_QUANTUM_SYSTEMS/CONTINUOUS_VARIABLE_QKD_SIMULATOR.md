@@ -1,5 +1,5 @@
 ---
-title: Continuous-Variable Quantum Key Distribution (CV-QKD) Protocol & Simulator Specification
+title: "Continuous-Variable Quantum Key Distribution (CV-QKD) Protocol & Simulator Specification"
 type: domain_specification
 plane: 21_DOMAINS/41_QUANTUM_SYSTEMS
 amos_core_target: v4.4

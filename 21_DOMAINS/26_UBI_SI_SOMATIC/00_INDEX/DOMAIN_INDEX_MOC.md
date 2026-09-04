@@ -1,5 +1,5 @@
 ---
-title: 26_UBI_SI_SOMATIC Domain Index & Ontology Map
+title: "26_UBI_SI_SOMATIC Domain Index & Ontology Map"
 type: moc
 plane: 21_DOMAINS
 domain: 26_UBI_SI_SOMATIC

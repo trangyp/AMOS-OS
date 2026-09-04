@@ -1,5 +1,5 @@
 ---
-title: Research Competing Models Contract — Hypothesis Preservation & Model Selection Specification
+title: "Research Competing Models Contract — Hypothesis Preservation & Model Selection Specification"
 type: subplane_contract
 plane: 22_RESEARCH
 subplane: 03_COMPETING_MODELS

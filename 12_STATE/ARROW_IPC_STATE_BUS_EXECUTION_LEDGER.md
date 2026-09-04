@@ -1,5 +1,5 @@
 ---
-title: Apache Arrow IPC & Zero-Copy State Bus — Execution Ledger
+title: "Apache Arrow IPC & Zero-Copy State Bus — Execution Ledger"
 type: state_ledger
 plane: 12_STATE
 amos_core_target: v4.4

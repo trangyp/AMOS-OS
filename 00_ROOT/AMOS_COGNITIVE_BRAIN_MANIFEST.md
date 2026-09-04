@@ -1,5 +1,5 @@
 ---
-title: AMOS OS Cognitive Brain Manifest & Execution Architecture
+title: "AMOS OS Cognitive Brain Manifest & Execution Architecture"
 type: brain_manifest
 source: 00_ROOT
 aliases:

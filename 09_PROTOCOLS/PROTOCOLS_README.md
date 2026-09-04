@@ -1,5 +1,5 @@
 ---
-title: 09_PROTOCOLS — Inter-Agent & System Interaction Architecture
+title: "09_PROTOCOLS — Inter-Agent & System Interaction Architecture"
 type: architecture_specification
 source: 09_PROTOCOLS
 origin_architect: Trang Phan

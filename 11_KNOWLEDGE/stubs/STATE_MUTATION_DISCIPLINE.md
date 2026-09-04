@@ -1,5 +1,5 @@
 ---
-title: State Mutation Discipline — Knowledge Base Synthesis & Reference
+title: "State Mutation Discipline — Knowledge Base Synthesis & Reference"
 type: knowledge_specification
 source: 11_KNOWLEDGE
 origin_architect: Trang Phan

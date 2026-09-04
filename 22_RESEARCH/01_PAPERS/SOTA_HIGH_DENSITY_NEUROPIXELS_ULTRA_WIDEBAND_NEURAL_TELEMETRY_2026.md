@@ -1,7 +1,7 @@
 ---
 artifact_id: AMOS-SOTA-NEUROPIXELS-TELEMETRY-2026
 name: sota-neuropixels-telemetry-2026
-title: Ultra-High-Density Neuropixels Probes, Real-Time 10,000-Channel Spike Sorting, and Ultra-Wideband Neural Telemetry in AMOS Neuro-OS
+title: "Ultra-High-Density Neuropixels Probes, Real-Time 10,000-Channel Spike Sorting, and Ultra-Wideband Neural Telemetry in AMOS Neuro-OS"
 document_version: "2.0.0"
 schema_version: 2.0.0
 amos_core_target: "v4.4"

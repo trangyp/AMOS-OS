@@ -1,5 +1,5 @@
 ---
-title: P2 Sense & Evidence
+title: "P2 Sense & Evidence"
 type: evidence
 source: 01_CANON/02_UNIVERSE_CANON
 artifact: P2_SENSE_EVIDENCE.md

@@ -1,5 +1,5 @@
 ---
-title: 37_TECH_ARCHITECTURE Domain Index & Ontology Map
+title: "37_TECH_ARCHITECTURE Domain Index & Ontology Map"
 type: moc
 plane: 21_DOMAINS
 domain: 37_TECH_ARCHITECTURE

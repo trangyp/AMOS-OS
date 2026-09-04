@@ -1,5 +1,5 @@
 ---
-title: Amos Tech Architecture Kernel V0 Tech Systems7 4 — Knowledge Base Synthesis & Reference
+title: "Amos Tech Architecture Kernel V0 Tech Systems7 4 — Knowledge Base Synthesis & Reference"
 type: knowledge_specification
 source: 11_KNOWLEDGE
 origin_architect: Trang Phan

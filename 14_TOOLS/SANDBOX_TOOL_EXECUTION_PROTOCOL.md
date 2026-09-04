@@ -1,5 +1,5 @@
 ---
-title: Sandboxed Tool Execution Protocol & WASI Capability Attenuation
+title: "Sandboxed Tool Execution Protocol & WASI Capability Attenuation"
 type: tool_specification
 plane: 14_TOOLS
 amos_core_target: v4.4

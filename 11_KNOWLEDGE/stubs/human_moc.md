@@ -1,5 +1,5 @@
 ---
-title: Human Moc — Knowledge Base Synthesis & Reference
+title: "Human Moc — Knowledge Base Synthesis & Reference"
 type: knowledge_specification
 source: 11_KNOWLEDGE
 origin_architect: Trang Phan

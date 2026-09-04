@@ -1,5 +1,5 @@
 ---
-title: P3 Knowledge & Memory
+title: "P3 Knowledge & Memory"
 type: memory
 source: 01_CANON/02_UNIVERSE_CANON
 artifact: P3_KNOWLEDGE_MEMORY.md

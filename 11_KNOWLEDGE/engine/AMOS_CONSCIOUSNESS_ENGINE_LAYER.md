@@ -1,5 +1,5 @@
 ---
-title: AMOS Consciousness & Meta-Cognitive Engine Layer
+title: "AMOS Consciousness & Meta-Cognitive Engine Layer"
 created: "2026-08-22"
 origin_architect: Trang Phan
 steward: Trang Phan

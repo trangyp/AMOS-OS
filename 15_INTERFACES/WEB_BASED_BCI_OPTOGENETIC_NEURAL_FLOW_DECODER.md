@@ -1,5 +1,5 @@
 ---
-title: Interactive Web-Based Visual Neural Flow Decoder for BCI & Optogenetic Signals
+title: "Interactive Web-Based Visual Neural Flow Decoder for BCI & Optogenetic Signals"
 type: interface_specification
 plane: 15_INTERFACES
 cognitive_org_ref: 05_COGNITIVE_ORGANISM

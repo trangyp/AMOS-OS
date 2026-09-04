@@ -1,5 +1,5 @@
 ---
-title: 14_C04_BIO_NEURO Domain Index & Ontology Map
+title: "14_C04_BIO_NEURO Domain Index & Ontology Map"
 type: moc
 plane: 21_DOMAINS
 domain: 14_C04_BIO_NEURO

@@ -1,5 +1,5 @@
 ---
-title: Research Benchmarks Contract — Standardized Evaluation Suites, BCI Decoding & Quantum Metric Governance
+title: "Research Benchmarks Contract — Standardized Evaluation Suites, BCI Decoding & Quantum Metric Governance"
 type: subplane_contract
 plane: 22_RESEARCH
 subplane: 05_BENCHMARKS

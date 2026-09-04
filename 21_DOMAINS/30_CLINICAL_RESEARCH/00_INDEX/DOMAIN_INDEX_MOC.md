@@ -1,5 +1,5 @@
 ---
-title: 30_CLINICAL_RESEARCH Domain Index & Ontology Map
+title: "30_CLINICAL_RESEARCH Domain Index & Ontology Map"
 type: moc
 plane: 21_DOMAINS
 domain: 30_CLINICAL_RESEARCH

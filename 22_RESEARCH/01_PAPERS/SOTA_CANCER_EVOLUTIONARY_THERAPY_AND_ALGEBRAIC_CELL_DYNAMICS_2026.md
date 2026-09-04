@@ -1,7 +1,7 @@
 ---
 artifact_id: AMOS-SOTA-CANCER-EVOLUTIONARY-THERAPY-2026
 name: sota-cancer-evolutionary-therapy-2026
-title: Cancer Evolutionary Therapy: Non-Equilibrium Clonal Dynamics, Steered Resistance Manifolds, and Adaptive Control in AMOS Mathematical Biology
+title: "Cancer Evolutionary Therapy: Non-Equilibrium Clonal Dynamics, Steered Resistance Manifolds, and Adaptive Control in AMOS Mathematical Biology"
 document_version: "2.0.0"
 schema_version: 2.0.0
 amos_core_target: "v4.4"

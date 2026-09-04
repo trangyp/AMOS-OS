@@ -1,5 +1,5 @@
 ---
-title: SOTA: Closed-Loop Holographic Brain-Computer Interfaces and Bidirectional Neural Co-Adaptation (2026)
+title: "SOTA: Closed-Loop Holographic Brain-Computer Interfaces and Bidirectional Neural Co-Adaptation (2026)"
 type: research_paper
 plane: 22_RESEARCH
 origin_architect: Trang Phan

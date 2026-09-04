@@ -1,5 +1,5 @@
 ---
-title: Autonomous Knowledge Graph Embedding & Multi-Hop Entity Linker Specification
+title: "Autonomous Knowledge Graph Embedding & Multi-Hop Entity Linker Specification"
 type: knowledge_specification
 plane: 11_KNOWLEDGE
 amos_core_target: v4.4

@@ -1,5 +1,5 @@
 ---
-title: AMOS Environment Engine — Sensory Ingestion, Ambient Telemetry & Spatial Topology Architecture
+title: "AMOS Environment Engine — Sensory Ingestion, Ambient Telemetry & Spatial Topology Architecture"
 created: '2026-08-22'
 origin_architect: Trang Phan
 steward: Trang Phan

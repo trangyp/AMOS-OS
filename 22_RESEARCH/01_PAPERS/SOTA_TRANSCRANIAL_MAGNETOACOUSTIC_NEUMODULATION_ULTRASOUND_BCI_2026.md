@@ -1,5 +1,5 @@
 ---
-title: SOTA: Transcranial Magneto-Acoustic Neuromodulation and Focused Ultrasound BCI Decoding (2026)
+title: "SOTA: Transcranial Magneto-Acoustic Neuromodulation and Focused Ultrasound BCI Decoding (2026)"
 type: research_specification
 status: ACTIVE_SPECIFICATION
 epistemic_class: MODEL

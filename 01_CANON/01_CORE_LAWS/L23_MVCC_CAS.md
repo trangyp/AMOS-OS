@@ -2,7 +2,7 @@
 origin_architect: Trang Phan
 steward: Trang Phan
 amos_core_target: v4.4
-title: L23 — Multi-Version Concurrency Control & CAS Law
+title: "L23 — Multi-Version Concurrency Control & CAS Law"
 type: law
 source: 01_CANON/01_CORE_LAWS
 tags:

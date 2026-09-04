@@ -1,5 +1,5 @@
 ---
-title: AMOS 137 Math Formulas — Formal Verification & Proof Ledger
+title: "AMOS 137 Math Formulas — Formal Verification & Proof Ledger"
 type: verification_report
 amos_core_target: v4.4
 origin_architect: Trang Phan

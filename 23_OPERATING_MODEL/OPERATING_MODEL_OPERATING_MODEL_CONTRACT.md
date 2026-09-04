@@ -1,5 +1,5 @@
 ---
-title: 23_OPERATING_MODEL Master Operating Model & Human-Agent Governance Contract
+title: "23_OPERATING_MODEL Master Operating Model & Human-Agent Governance Contract"
 type: control_contract
 source: 23_OPERATING_MODEL
 origin_architect: Trang Phan

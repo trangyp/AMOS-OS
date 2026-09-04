@@ -1,5 +1,5 @@
 ---
-title: 09_PROTOCOLS MOC — Inter-Agent Protocols & Handoffs
+title: "09_PROTOCOLS MOC — Inter-Agent Protocols & Handoffs"
 type: moc
 source: 09_PROTOCOLS
 origin_architect: Trang Phan

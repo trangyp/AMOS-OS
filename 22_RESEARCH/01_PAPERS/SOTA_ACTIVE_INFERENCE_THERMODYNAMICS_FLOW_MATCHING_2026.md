@@ -1,7 +1,7 @@
 ---
 artifact_id: AMOS-SOTA-ACTIVE-INFERENCE-FLOW-MATCHING-2026
 name: sota-active-inference-flow-matching-2026
-title: Active Inference, Non-Equilibrium Variational Thermodynamics, and Riemannian Flow Matching in Autonomous Perception-Action Engines
+title: "Active Inference, Non-Equilibrium Variational Thermodynamics, and Riemannian Flow Matching in Autonomous Perception-Action Engines"
 document_version: "2.0.0"
 schema_version: 2.0.0
 amos_core_target: "v4.4"

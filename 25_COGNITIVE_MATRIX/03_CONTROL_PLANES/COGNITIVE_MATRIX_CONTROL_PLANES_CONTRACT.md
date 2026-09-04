@@ -1,5 +1,5 @@
 ---
-title: Cognitive Matrix Control Planes Contract — Multi-Plane Bus Arbitration & Interconnect Specification
+title: "Cognitive Matrix Control Planes Contract — Multi-Plane Bus Arbitration & Interconnect Specification"
 type: subplane_contract
 plane: 25_COGNITIVE_MATRIX
 subplane: 03_CONTROL_PLANES

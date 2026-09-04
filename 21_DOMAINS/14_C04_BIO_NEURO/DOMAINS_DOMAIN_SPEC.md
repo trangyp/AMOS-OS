@@ -1,5 +1,5 @@
 ---
-title: C04 Biological & Neural Systems Master Domain Specification
+title: "C04 Biological & Neural Systems Master Domain Specification"
 type: domain_specification
 plane: 21_DOMAINS
 subplane: 14_C04_BIO_NEURO

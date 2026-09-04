@@ -1,5 +1,5 @@
 ---
-title: SOTA Monograph: Neuromorphic Optogenetics, Photonic BCI & Holographic Wavefront Engineering (2026)
+title: "SOTA Monograph: Neuromorphic Optogenetics, Photonic BCI & Holographic Wavefront Engineering (2026)"
 type: research_monograph
 paper_id: AMOS-SOTA-PHOTO-BCI-2026
 amos_core_target: v4.4

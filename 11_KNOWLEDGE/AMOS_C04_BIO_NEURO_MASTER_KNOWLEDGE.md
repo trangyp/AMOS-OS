@@ -2,7 +2,7 @@
 type: neural
 source: 11_KNOWLEDGE
 id: AMOS-C04-BIO-NEURO-MASTER-KNOWLEDGE
-title: AMOS C04 — Biology & Neuro Master Knowledge
+title: "AMOS C04 — Biology & Neuro Master Knowledge"
 origin_architect: Trang Phan
 artifact_type: domain_master_knowledge
 domain: C04_BIOLOGY_NEURO

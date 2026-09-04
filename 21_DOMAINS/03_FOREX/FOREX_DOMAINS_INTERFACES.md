@@ -1,5 +1,5 @@
 ---
-title: Forex Domain — Interfaces & Connectivity Specifications
+title: "Forex Domain — Interfaces & Connectivity Specifications"
 type: interface_specification
 source: 21_DOMAINS/03_FOREX
 origin_architect: Trang Phan

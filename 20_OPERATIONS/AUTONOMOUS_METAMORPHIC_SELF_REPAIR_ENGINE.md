@@ -1,5 +1,5 @@
 ---
-title: Autonomous Metamorphic Self-Correction & Vault Repair Engine
+title: "Autonomous Metamorphic Self-Correction & Vault Repair Engine"
 type: operations_specification
 plane: 20_OPERATIONS
 amos_core_target: v4.4

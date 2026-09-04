@@ -1,7 +1,7 @@
 ---
 artifact_id: AMOS-SOTA-THERMODYNAMIC-AI-LIMITS-2026
 name: sota-thermodynamic-ai-limits-2026
-title: Thermodynamic Limits of AI Computation: Landauer Dissipation, Non-Equilibrium Energy Scaling, and Reversible Computing in Sovereign AI Infrastructures
+title: "Thermodynamic Limits of AI Computation: Landauer Dissipation, Non-Equilibrium Energy Scaling, and Reversible Computing in Sovereign AI Infrastructures"
 document_version: "2.0.0"
 schema_version: 2.0.0
 amos_core_target: "v4.4"

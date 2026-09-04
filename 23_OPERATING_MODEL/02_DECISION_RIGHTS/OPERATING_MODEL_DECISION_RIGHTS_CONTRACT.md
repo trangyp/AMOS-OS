@@ -1,5 +1,5 @@
 ---
-title: Operating Model Decision Rights Contract — Epistemic Authority Lattices & Quorum Specifications
+title: "Operating Model Decision Rights Contract — Epistemic Authority Lattices & Quorum Specifications"
 type: subplane_contract
 plane: 23_OPERATING_MODEL
 subplane: 02_DECISION_RIGHTS

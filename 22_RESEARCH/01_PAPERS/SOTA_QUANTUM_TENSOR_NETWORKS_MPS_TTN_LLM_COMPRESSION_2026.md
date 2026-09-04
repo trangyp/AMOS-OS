@@ -1,5 +1,5 @@
 ---
-title: SOTA: Quantum Tensor Networks (MPS & TTN) for Ultra-Low-Rank LLM Belief Compression (2026)
+title: "SOTA: Quantum Tensor Networks (MPS & TTN) for Ultra-Low-Rank LLM Belief Compression (2026)"
 type: research_paper
 plane: 22_RESEARCH
 origin_architect: Trang Phan

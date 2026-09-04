@@ -1,5 +1,5 @@
 ---
-title: UBI Omnis™ — AMOS-Aligned Capability, Product, and Governance Map
+title: "UBI Omnis™ — AMOS-Aligned Capability, Product, and Governance Map"
 type: note
 source: 11_KNOWLEDGE
 status: CONDITIONAL / MODEL

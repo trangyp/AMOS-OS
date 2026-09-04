@@ -1,7 +1,7 @@
 ---
 artifact_id: AMOS-LEGAL-ENGINE-KERNEL
 name: amos-legal-engine-kernel
-title: AMOS Legal Engine Kernel — Formal Contract & Compliance Specification
+title: "AMOS Legal Engine Kernel — Formal Contract & Compliance Specification"
 document_version: "2.0.0"
 schema_version: 2.0.0
 amos_core_target: "v4.4"

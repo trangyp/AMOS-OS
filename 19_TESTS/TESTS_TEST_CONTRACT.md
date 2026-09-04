@@ -1,5 +1,5 @@
 ---
-title: Tests Test Contract — Governing Verification, Metamorphic Fuzzing & Invariant Assurance Specification
+title: "Tests Test Contract — Governing Verification, Metamorphic Fuzzing & Invariant Assurance Specification"
 type: plane_contract
 plane: 19_TESTS
 domain: F_ASSURANCE_LIFECYCLE_EVIDENCE

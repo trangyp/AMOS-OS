@@ -1,5 +1,5 @@
 ---
-title: Metamorphic Self-Synthesizing Workflow Orchestrator & Dynamic DAG Engine
+title: "Metamorphic Self-Synthesizing Workflow Orchestrator & Dynamic DAG Engine"
 type: workflow_specification
 plane: 08_WORKFLOWS
 amos_core_target: v4.4

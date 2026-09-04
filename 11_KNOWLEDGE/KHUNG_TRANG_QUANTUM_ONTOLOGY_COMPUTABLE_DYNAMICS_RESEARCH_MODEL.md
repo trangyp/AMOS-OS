@@ -2,7 +2,7 @@
 type: quantum
 source: 11_KNOWLEDGE
 id: TRA-RESEARCH-QUANTUM-ONTOLOGY-COMPUTABLE-DYNAMICS
-title: Khung Trang — Quantum, Ontology & Computable Recursive Survival Dynamics
+title: "Khung Trang — Quantum, Ontology & Computable Recursive Survival Dynamics"
 origin_architect: Trang Phan
 source_name: Khung trang
 artifact_type: research_model

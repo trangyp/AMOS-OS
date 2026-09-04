@@ -1,5 +1,5 @@
 ---
-title: Operating Model Escalation Contract — 4-Tier Automated Escalation Cascades & Deadlock Resolution
+title: "Operating Model Escalation Contract — 4-Tier Automated Escalation Cascades & Deadlock Resolution"
 type: subplane_contract
 plane: 23_OPERATING_MODEL
 subplane: 04_ESCALATION

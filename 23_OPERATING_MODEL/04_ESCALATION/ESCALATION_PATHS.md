@@ -1,5 +1,5 @@
 ---
-title: 23_OPERATING_MODEL — Escalation Paths & Fail-Closed Protocols
+title: "23_OPERATING_MODEL — Escalation Paths & Fail-Closed Protocols"
 type: governance_specification
 plane: 23_OPERATING_MODEL
 amos_core_target: v4.4

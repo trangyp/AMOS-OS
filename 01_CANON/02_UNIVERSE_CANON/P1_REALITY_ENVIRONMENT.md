@@ -1,5 +1,5 @@
 ---
-title: P1 Reality & Environment
+title: "P1 Reality & Environment"
 type: canon
 source: 01_CANON/02_UNIVERSE_CANON
 artifact: P1_REALITY_ENVIRONMENT.md

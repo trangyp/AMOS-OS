@@ -1,5 +1,5 @@
 ---
-title: Claim Tensor Data Schema & Proof Merkle Tree
+title: "Claim Tensor Data Schema & Proof Merkle Tree"
 type: data_schema
 source: 16_SCHEMAS
 amos_core_target: v4.4

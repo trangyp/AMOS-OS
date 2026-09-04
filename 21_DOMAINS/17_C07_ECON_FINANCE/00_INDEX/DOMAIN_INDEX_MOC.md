@@ -1,5 +1,5 @@
 ---
-title: 17_C07_ECON_FINANCE Domain Index & Ontology Map
+title: "17_C07_ECON_FINANCE Domain Index & Ontology Map"
 type: moc
 plane: 21_DOMAINS
 domain: 17_C07_ECON_FINANCE

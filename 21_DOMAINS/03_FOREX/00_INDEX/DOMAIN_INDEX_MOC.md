@@ -1,5 +1,5 @@
 ---
-title: 03_FOREX Domain Index & Ontology Map
+title: "03_FOREX Domain Index & Ontology Map"
 type: moc
 plane: 21_DOMAINS
 domain: 03_FOREX

@@ -1,5 +1,5 @@
 ---
-title: 2026 08 22 Brain Inventory — Knowledge Base Synthesis & Reference
+title: "2026 08 22 Brain Inventory — Knowledge Base Synthesis & Reference"
 type: knowledge_specification
 source: 11_KNOWLEDGE
 origin_architect: Trang Phan

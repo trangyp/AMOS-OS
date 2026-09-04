@@ -2,7 +2,7 @@
 type: trang-framework
 source: 11_KNOWLEDGE
 id: TRA-RESEARCH-RECURSIVE-ONTOLOGY-DYNAMICS
-title: Trang Framework — Recursive Ontology, Emergence, and Computable Survival Dynamics
+title: "Trang Framework — Recursive Ontology, Emergence, and Computable Survival Dynamics"
 origin_architect: Trang Phan
 source_name: Trang Framework
 artifact_type: research_model

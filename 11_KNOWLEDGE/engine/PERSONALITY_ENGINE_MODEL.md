@@ -1,5 +1,5 @@
 ---
-title: AMOS Personality Engine Model — Core Identity & Ethical Invariant Architecture
+title: "AMOS Personality Engine Model — Core Identity & Ethical Invariant Architecture"
 created: '2026-08-22'
 origin_architect: Trang Phan
 steward: Trang Phan

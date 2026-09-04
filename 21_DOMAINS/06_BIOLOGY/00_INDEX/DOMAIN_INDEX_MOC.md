@@ -1,5 +1,5 @@
 ---
-title: 06_BIOLOGY Domain Index & Ontology Map
+title: "06_BIOLOGY Domain Index & Ontology Map"
 type: moc
 plane: 21_DOMAINS
 domain: 06_BIOLOGY

@@ -1,5 +1,5 @@
 ---
-title: Scales Cognitive Matrix L Low Scale Contract — Cognitive Matrix Cell & Coordinate Specification
+title: "Scales Cognitive Matrix L Low Scale Contract — Cognitive Matrix Cell & Coordinate Specification"
 type: cognitive_matrix_specification
 source: 25_COGNITIVE_MATRIX
 origin_architect: Trang Phan

@@ -1,5 +1,5 @@
 ---
-title: SOTA: Gottesman-Kitaev-Preskill (GKP) Bosonic Codes and Optical Continuous-Variable Quantum Computing (2026)
+title: "SOTA: Gottesman-Kitaev-Preskill (GKP) Bosonic Codes and Optical Continuous-Variable Quantum Computing (2026)"
 type: research_paper
 plane: 22_RESEARCH
 origin_architect: Trang Phan

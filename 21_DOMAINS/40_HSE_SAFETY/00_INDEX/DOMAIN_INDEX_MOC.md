@@ -1,5 +1,5 @@
 ---
-title: 40_HSE_SAFETY Domain Index & Ontology Map
+title: "40_HSE_SAFETY Domain Index & Ontology Map"
 type: moc
 plane: 21_DOMAINS
 domain: 40_HSE_SAFETY

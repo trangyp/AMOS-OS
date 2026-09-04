@@ -3,7 +3,7 @@ type: canon
 source: 01_CANON/03_COGNITION_CANON
 artifact_id: AMOS-COGNITION-CANON
 name: COGNITION_CANON
-title: AMOS Cognition Canon — Governed Reasoning, Epistemic Integrity, and Adaptive Intelligence
+title: "AMOS Cognition Canon — Governed Reasoning, Epistemic Integrity, and Adaptive Intelligence"
 document_version: 2.0.0
 canon_version: 4.4
 amos_core_target: v4.4

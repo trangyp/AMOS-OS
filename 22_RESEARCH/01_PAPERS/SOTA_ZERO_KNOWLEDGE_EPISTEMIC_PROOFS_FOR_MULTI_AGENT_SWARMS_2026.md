@@ -1,5 +1,5 @@
 ---
-title: SOTA: Zero-Knowledge Epistemic Proofs (Halo2 & STARKs) for Autonomous Multi-Agent Swarms (2026)
+title: "SOTA: Zero-Knowledge Epistemic Proofs (Halo2 & STARKs) for Autonomous Multi-Agent Swarms (2026)"
 type: research_paper
 plane: 22_RESEARCH
 origin_architect: Trang Phan

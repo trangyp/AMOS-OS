@@ -2,7 +2,7 @@
 type: strategy
 source: 11_KNOWLEDGE
 id: AMOS-C08-STRATEGY-GAME-MASTER-KNOWLEDGE
-title: AMOS C08 — Strategy, Game Theory & Negotiation Master Knowledge
+title: "AMOS C08 — Strategy, Game Theory & Negotiation Master Knowledge"
 origin_architect: Trang Phan
 artifact_type: domain_master_knowledge
 domain: C08_STRATEGY_GAME

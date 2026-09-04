@@ -1,5 +1,5 @@
 ---
-title: 17_OBSERVABILITY — Telemetry & Epistemic Health
+title: "17_OBSERVABILITY — Telemetry & Epistemic Health"
 type: architecture_specification
 source: 17_OBSERVABILITY
 origin_architect: Trang Phan

@@ -3,7 +3,7 @@ type: registry
 source: 01_CANON/05_VARIABLE_REGISTRY
 artifact_id: AMOS-UNIT-REGISTRY
 name: UNIT_REGISTRY
-title: AMOS Unit Registry — Canonical Dimensions, Units, Scales, Conversion, and Measurement Semantics
+title: "AMOS Unit Registry — Canonical Dimensions, Units, Scales, Conversion, and Measurement Semantics"
 document_version: 1.0.0
 canon_version: 4.4
 amos_core_target: v4.4

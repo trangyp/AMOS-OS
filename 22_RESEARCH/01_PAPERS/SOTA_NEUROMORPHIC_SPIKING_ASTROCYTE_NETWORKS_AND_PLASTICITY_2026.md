@@ -1,5 +1,5 @@
 ---
-title: SOTA: Tripartite Spiking-Astrocyte Networks & Neuromorphic Meta-Plasticity (2026)
+title: "SOTA: Tripartite Spiking-Astrocyte Networks & Neuromorphic Meta-Plasticity (2026)"
 type: research_monograph
 plane: 22_RESEARCH
 subplane: 01_PAPERS

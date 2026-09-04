@@ -2,7 +2,7 @@
 origin_architect: Trang Phan
 steward: Trang Phan
 amos_core_target: v4.4
-title: AMOS C12 — Earth & Ecology Master Knowledge
+title: "AMOS C12 — Earth & Ecology Master Knowledge"
 type: log
 source: 11_KNOWLEDGE
 tags:

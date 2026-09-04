@@ -1,5 +1,5 @@
 ---
-title: Workflows Workflow Contract — Master DAG Orchestration, Multi-Agent Pipeline & Epistemic Verification Specification
+title: "Workflows Workflow Contract — Master DAG Orchestration, Multi-Agent Pipeline & Epistemic Verification Specification"
 type: plane_contract
 plane: 08_WORKFLOWS
 domain: C_COGNITIVE_CAPABILITY

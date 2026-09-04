@@ -1,5 +1,5 @@
 ---
-title: Organism OS Architecture — Unified Biological & Synthetic Synthesis
+title: "Organism OS Architecture — Unified Biological & Synthetic Synthesis"
 type: architecture_specification
 source: 05_COGNITIVE_ORGANISM
 origin_architect: Trang Phan

@@ -2,7 +2,7 @@
 type: note
 source: 11_KNOWLEDGE
 id: AMOS-C06-SOCIETY-CULTURE-MASTER-KNOWLEDGE
-title: AMOS C06 — Society & Culture Master Knowledge
+title: "AMOS C06 — Society & Culture Master Knowledge"
 origin_architect: Trang Phan
 artifact_type: domain_master_knowledge
 domain: C06_SOCIETY_CULTURE

@@ -1,5 +1,5 @@
 ---
-title: Research Experiments Contract — Empirical Protocol & Statistical Rigor Specification
+title: "Research Experiments Contract — Empirical Protocol & Statistical Rigor Specification"
 type: subplane_contract
 plane: 22_RESEARCH
 subplane: 02_EXPERIMENTS

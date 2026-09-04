@@ -3,7 +3,7 @@ type: canon
 source: 01_CANON/04_INFRASTRUCTURE_CANON
 artifact_id: AMOS-CONTROL-PLANE-CANON
 name: CONTROL_PLANE_CANON
-title: AMOS Control Plane Canon — Governance, Authority, Commit, Provenance, and Coordination
+title: "AMOS Control Plane Canon — Governance, Authority, Commit, Provenance, and Coordination"
 document_version: 2.0.0
 canon_version: 4.4
 amos_core_target: v4.4

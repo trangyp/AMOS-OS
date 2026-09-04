@@ -1,5 +1,5 @@
 ---
-title: 17_OBSERVABILITY Master Observability & Epistemic Tracing Contract
+title: "17_OBSERVABILITY Master Observability & Epistemic Tracing Contract"
 type: control_contract
 source: 17_OBSERVABILITY
 origin_architect: Trang Phan

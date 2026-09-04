@@ -1,5 +1,5 @@
 ---
-title: Distributed Snapshot & CAS Monotonic Epoch Engine
+title: "Distributed Snapshot & CAS Monotonic Epoch Engine"
 type: state_specification
 plane: 12_STATE
 amos_core_target: v4.4

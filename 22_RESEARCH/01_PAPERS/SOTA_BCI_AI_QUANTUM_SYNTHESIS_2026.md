@@ -1,5 +1,5 @@
 ---
-title: State of the Art Synthesis 2026: BCI, Neuromorphic AI, and Quantum Systems
+title: "State of the Art Synthesis 2026: BCI, Neuromorphic AI, and Quantum Systems"
 type: research_synthesis
 plane: 22_RESEARCH
 amos_core_target: v4.4

@@ -1,5 +1,5 @@
 ---
-title: 01_DOMAIN_ARCHITECTURE Domain Index & Ontology Map
+title: "01_DOMAIN_ARCHITECTURE Domain Index & Ontology Map"
 type: moc
 plane: 21_DOMAINS
 domain: 01_DOMAIN_ARCHITECTURE

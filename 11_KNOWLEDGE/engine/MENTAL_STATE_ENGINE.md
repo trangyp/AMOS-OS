@@ -1,5 +1,5 @@
 ---
-title: AMOS Mental State Engine — Cognitive Load Tracking, Working Memory Buffer & Attention Focus Architecture
+title: "AMOS Mental State Engine — Cognitive Load Tracking, Working Memory Buffer & Attention Focus Architecture"
 created: '2026-08-22'
 origin_architect: Trang Phan
 steward: Trang Phan

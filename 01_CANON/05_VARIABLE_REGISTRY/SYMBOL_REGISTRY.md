@@ -3,7 +3,7 @@ type: registry
 source: 01_CANON/05_VARIABLE_REGISTRY
 artifact_id: AMOS-SYMBOL-REGISTRY
 name: SYMBOL_REGISTRY
-title: AMOS Symbol Registry — Canonical Symbols, Operators, Types, States, and Semantic Identity
+title: "AMOS Symbol Registry — Canonical Symbols, Operators, Types, States, and Semantic Identity"
 document_version: 1.0.0
 canon_version: 4.4
 amos_core_target: v4.4

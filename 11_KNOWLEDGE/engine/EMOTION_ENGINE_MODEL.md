@@ -1,5 +1,5 @@
 ---
-title: AMOS Emotion Engine Model — Affective Computing & Somatic State Estimation Architecture
+title: "AMOS Emotion Engine Model — Affective Computing & Somatic State Estimation Architecture"
 created: '2026-08-22'
 origin_architect: Trang Phan
 steward: Trang Phan

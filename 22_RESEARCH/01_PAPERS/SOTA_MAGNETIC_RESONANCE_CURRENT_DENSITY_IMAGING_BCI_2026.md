@@ -1,5 +1,5 @@
 ---
-title: SOTA Magnetic Resonance Current Density Imaging (MRCDI) & Direct Neuronal Current Mapping for BCI (2026)
+title: "SOTA Magnetic Resonance Current Density Imaging (MRCDI) & Direct Neuronal Current Mapping for BCI (2026)"
 type: research_monograph
 source: 22_RESEARCH/01_PAPERS
 origin_architect: Trang Phan

@@ -1,5 +1,5 @@
 ---
-title: 15_INTERFACES — Multi-Modal API & Component Protocol Architecture
+title: "15_INTERFACES — Multi-Modal API & Component Protocol Architecture"
 type: architectural_specification
 source: 15_INTERFACES
 amos_core_target: v4.4

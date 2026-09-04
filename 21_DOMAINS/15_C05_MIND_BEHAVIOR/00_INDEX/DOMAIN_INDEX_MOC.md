@@ -1,5 +1,5 @@
 ---
-title: 15_C05_MIND_BEHAVIOR Domain Index & Ontology Map
+title: "15_C05_MIND_BEHAVIOR Domain Index & Ontology Map"
 type: moc
 plane: 21_DOMAINS
 domain: 15_C05_MIND_BEHAVIOR

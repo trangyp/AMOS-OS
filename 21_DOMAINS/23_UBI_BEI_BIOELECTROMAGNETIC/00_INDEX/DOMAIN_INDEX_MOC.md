@@ -1,5 +1,5 @@
 ---
-title: 23_UBI_BEI_BIOELECTROMAGNETIC Domain Index & Ontology Map
+title: "23_UBI_BEI_BIOELECTROMAGNETIC Domain Index & Ontology Map"
 type: moc
 plane: 21_DOMAINS
 domain: 23_UBI_BEI_BIOELECTROMAGNETIC

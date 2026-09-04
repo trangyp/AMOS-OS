@@ -1,5 +1,5 @@
 ---
-title: AMOS Emotion & Affective Regulation Engine Layer
+title: "AMOS Emotion & Affective Regulation Engine Layer"
 created: "2026-08-22"
 origin_architect: Trang Phan
 steward: Trang Phan

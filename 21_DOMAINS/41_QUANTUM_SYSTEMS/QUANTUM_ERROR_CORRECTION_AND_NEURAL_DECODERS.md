@@ -1,5 +1,5 @@
 ---
-title: Quantum Error Correction & Neural Decoders (Topological Surface Codes & CV-QKD)
+title: "Quantum Error Correction & Neural Decoders (Topological Surface Codes & CV-QKD)"
 type: domain_specification
 domain: 41_QUANTUM_SYSTEMS
 family: C03_PHYSICS_COSMOS

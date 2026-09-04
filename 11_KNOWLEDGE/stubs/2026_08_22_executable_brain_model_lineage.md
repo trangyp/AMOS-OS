@@ -1,5 +1,5 @@
 ---
-title: 2026 08 22 Executable Brain Model Lineage — Knowledge Base Synthesis & Reference
+title: "2026 08 22 Executable Brain Model Lineage — Knowledge Base Synthesis & Reference"
 type: knowledge_specification
 source: 11_KNOWLEDGE
 origin_architect: Trang Phan

@@ -1,5 +1,5 @@
 ---
-title: K_FAILURE_RECOVERY — Universal Failure Recovery & Rollback Kernel
+title: "K_FAILURE_RECOVERY — Universal Failure Recovery & Rollback Kernel"
 type: kernel_specification
 source: 02_KERNEL
 tags:

@@ -1,5 +1,5 @@
 ---
-title: Domains Forex Contract — Quantitative Risk & Execution Governance
+title: "Domains Forex Contract — Quantitative Risk & Execution Governance"
 type: control_contract
 source: 21_DOMAINS/03_FOREX
 origin_architect: Trang Phan

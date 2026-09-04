@@ -1,5 +1,5 @@
 ---
-title: Topological Data Analysis (TDA), Persistent Homology & Betti Curve Mapper for Cosmic Web Manifolds
+title: "Topological Data Analysis (TDA), Persistent Homology & Betti Curve Mapper for Cosmic Web Manifolds"
 type: research_paper
 paper_id: AMOS-TDA-BETTI-COSMO-2026
 plane: 22_RESEARCH

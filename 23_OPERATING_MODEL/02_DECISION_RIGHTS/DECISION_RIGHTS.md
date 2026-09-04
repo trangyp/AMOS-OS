@@ -1,5 +1,5 @@
 ---
-title: 23_OPERATING_MODEL — Decision Rights & RACI Matrix
+title: "23_OPERATING_MODEL — Decision Rights & RACI Matrix"
 type: governance_specification
 plane: 23_OPERATING_MODEL
 amos_core_target: v4.4

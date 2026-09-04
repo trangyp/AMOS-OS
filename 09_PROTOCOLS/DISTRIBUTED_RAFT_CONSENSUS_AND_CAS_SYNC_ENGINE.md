@@ -1,5 +1,5 @@
 ---
-title: Distributed RAFT Consensus & Monotonic CAS State Synchronization Engine
+title: "Distributed RAFT Consensus & Monotonic CAS State Synchronization Engine"
 type: protocol_specification
 plane: 09_PROTOCOLS
 amos_core_target: v4.4

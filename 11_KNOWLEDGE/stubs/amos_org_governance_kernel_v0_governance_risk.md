@@ -1,5 +1,5 @@
 ---
-title: Amos Org Governance Kernel V0 Governance Risk — Knowledge Base Synthesis & Reference
+title: "Amos Org Governance Kernel V0 Governance Risk — Knowledge Base Synthesis & Reference"
 type: knowledge_specification
 source: 11_KNOWLEDGE
 origin_architect: Trang Phan

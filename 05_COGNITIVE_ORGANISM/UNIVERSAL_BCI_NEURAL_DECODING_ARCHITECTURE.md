@@ -1,5 +1,5 @@
 ---
-title: Universal BCI & Neural Decoding Architecture (Hybrid SSM & Cross-Scale EEG Foundation Models)
+title: "Universal BCI & Neural Decoding Architecture (Hybrid SSM & Cross-Scale EEG Foundation Models)"
 type: architecture_specification
 plane: 05_COGNITIVE_ORGANISM
 amos_core_target: v4.4

@@ -1,5 +1,5 @@
 ---
-title: AMOS C08 Strategy & Games Domain Architecture
+title: "AMOS C08 Strategy & Games Domain Architecture"
 type: domain_architecture_contract
 source: 21_DOMAINS
 domain: C08_STRATEGY_GAME

@@ -1,5 +1,5 @@
 ---
-title: Space Exploration Domain Contract — Orbital Mechanics, Autonomous Flight Software & Deep-Space Telemetry Specification
+title: "Space Exploration Domain Contract — Orbital Mechanics, Autonomous Flight Software & Deep-Space Telemetry Specification"
 type: domain_contract
 plane: 21_DOMAINS
 subplane: 15_SPACE_EXPLORATION

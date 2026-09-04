@@ -1,5 +1,5 @@
 ---
-title: ArXiv Knowledge Substrate & SOTA Research Synthesis Hub
+title: "ArXiv Knowledge Substrate & SOTA Research Synthesis Hub"
 type: knowledge_specification
 source: 11_KNOWLEDGE/_arxiv_md
 aliases:

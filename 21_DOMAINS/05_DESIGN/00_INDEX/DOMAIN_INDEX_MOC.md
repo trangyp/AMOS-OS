@@ -1,5 +1,5 @@
 ---
-title: 05_DESIGN Domain Index & Ontology Map
+title: "05_DESIGN Domain Index & Ontology Map"
 type: moc
 plane: 21_DOMAINS
 domain: 05_DESIGN

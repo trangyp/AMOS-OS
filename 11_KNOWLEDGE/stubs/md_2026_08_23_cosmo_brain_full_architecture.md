@@ -1,5 +1,5 @@
 ---
-title: Md 2026 08 23 Cosmo Brain Full Architecture — Knowledge Base Synthesis & Reference
+title: "Md 2026 08 23 Cosmo Brain Full Architecture — Knowledge Base Synthesis & Reference"
 type: knowledge_specification
 source: 11_KNOWLEDGE
 origin_architect: Trang Phan

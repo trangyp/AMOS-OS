@@ -1,5 +1,5 @@
 ---
-title: Cognitive Matrix Scales Contract — Multi-Scale Renormalization Group & Fractal Scaling Specification
+title: "Cognitive Matrix Scales Contract — Multi-Scale Renormalization Group & Fractal Scaling Specification"
 type: subplane_contract
 plane: 25_COGNITIVE_MATRIX
 subplane: 04_SCALES

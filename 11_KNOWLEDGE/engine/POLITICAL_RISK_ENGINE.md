@@ -1,5 +1,5 @@
 ---
-title: AMOS Political Risk Engine — Geopolitical Disruption Modeling, Sanctions Topology & Regulatory Shock Architecture
+title: "AMOS Political Risk Engine — Geopolitical Disruption Modeling, Sanctions Topology & Regulatory Shock Architecture"
 created: '2026-08-22'
 origin_architect: Trang Phan
 steward: Trang Phan

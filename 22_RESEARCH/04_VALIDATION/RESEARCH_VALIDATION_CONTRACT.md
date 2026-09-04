@@ -1,5 +1,5 @@
 ---
-title: Research Validation Contract — Multi-Modal Epistemic Triangulation & Cross-Corpus Assurance Specification
+title: "Research Validation Contract — Multi-Modal Epistemic Triangulation & Cross-Corpus Assurance Specification"
 type: subplane_contract
 plane: 22_RESEARCH
 subplane: 04_VALIDATION
